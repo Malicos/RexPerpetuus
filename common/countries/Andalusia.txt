@@ -1,0 +1,120 @@
+#Legacy of Manzikert: Al-Andalus
+
+graphical_culture = muslimgfx
+
+color = { 90 185 95 }
+
+historical_council = harsh
+
+revolutionary_colors = { 1 8 10 }
+
+historical_idea_groups = {
+	exploration_ideas
+	religious_ideas
+	offensive_ideas
+	expansion_ideas
+	influence_ideas
+	maritime_ideas
+	quality_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+
+monarch_names = {
+	"Abd al-Rahman #5" = 10
+	"Abda #0" = -1
+	"Abdallah #4" = 10
+	"Abdul-Razzaq #2" = 10
+	"Ahu #0" = -1
+	"Aiza #0" = -1
+	"Ali #3" = 10
+	"Fahriya #0" = -1
+	"Garsiya #1" = 10
+	"Hisham #4" = 10
+	"Ibrahim #0" = -1
+	"Jyad #0" = 0
+	"Lubb #0" = 0
+	"Marquesa #0" = -1
+	"Muhammad #4" = 10
+	"Munya #0" = -1
+	"Musa #2" = 10
+	"Muyahid #0" = 0
+	"Siddray #0" = 0
+	"Suleyman #2" = 10
+	"Tariq #0" = 0
+	"Thashim #0" = -1
+	"Tislit #0" = -1
+	"Toda #0" = 0
+	"Umm #0" = -1
+	"Utman #0" = 0
+	"Yahya #2" = 10
+	"al-Hakam #2" = 10
+	"al-Mundir #1" = 10
+	"al-Qasim #2" = 10
+}
+
+leader_names = {
+	"Ibn Abbad"
+	"Ibn Abd Allah"
+	"Ibn Abd al-Rahman"
+	"Ibn Abi Hafs"
+	"Ibn Ali"
+	"Ibn Hakan"
+	"Ibn Hammud"
+	"Ibn Hisam"
+	"Ibn Husayn"
+	"Ibn Idris"
+	"Ibn Ishaq"
+	"Ibn Isma'il"
+	"Ibn Marwan"
+	"Ibn Muhammad"
+	"Ibn Nasr"
+	"Ibn Qasim"
+	"Ibn Sa'd"
+	"Ibn Sulayman"
+	"Ibn Umar"
+	"Ibn Ummay"
+	"Ibn Utman"
+	"Ibn Ya'far"
+	"Ibn Yahyà"
+	"Ibn Yusuf"
+	"Ibn al-Azafi"
+}
+
+ship_names = {
+	"al-Qasim I"
+	"al-Qasim II"
+	"Abd al-Rahman I"
+	"Abd al-Rahman II"
+	"Abd al-Rahman III"
+	"Abd al-Rahman IV"
+	"Abd al-Rahman V"
+	"Muhammad I"
+	"Muhammad II"
+	"Muhammad III"
+	"Muhammad IV"
+	"Musa I"
+	"Musa II"
+	"Suleyman II"
+	"Yahya I"
+	"Yahya II"
+}
+
+army_names = {
+	"Jaish Al $PROVINCE$"
+}
+
+fleet_names = {
+	"Alboran Sea Squadron"
+	"Balaeric Sea Squadron"
+	"Jabal Tariq Squadron"
+}
