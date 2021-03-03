@@ -1,0 +1,31 @@
+The following schedule shows what aspects of the mod should be completed by version number listed:
+
+Overall schedule:
+
+0.20 - Completed initial province and culture mapping and basic implementation of nation history.
+0.30 - Fine tuning provinces, regions, colonial regions, charters, etc.
+0.40 - Full content for Europe
+0.50 - Full content for Asia
+0.60 - Full content for Africa
+
+By region:
+0.1 - Western Europe
+0.2 - Northern Europe
+0.3 - Eastern Europe
+0.4 - Italy and Southern Europe
+0.5 - Asia Minor, Caucasus and the Levant
+0.6 - North Africa
+0.7 - West Africa
+0.8 - East Africa
+0.9 - Arabian Peninsula
+0.10 - Iran
+0.11 - The Steppe
+0.12 - India
+0.13 - Indochina
+0.14 - Insulindia
+0.15 - China
+0.16 - Manchuria and Korea
+0.17 - Japan
+0.18 - North America
+0.19 - Central America
+0.20 - South America
