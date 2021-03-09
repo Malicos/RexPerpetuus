@@ -5,7 +5,7 @@
 owner = ADU		# Ali III, Sultan of al-Andalus
 controller = ADU
 add_core = ADU
-culture = andalusi_culture
+culture = batalyawsi
 religion = sunni
 capital = "Lagos"
 trade_goods = bt_trade_good_fruit

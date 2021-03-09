@@ -3,8 +3,8 @@
 owner = ADU		# Ali III, Sultan of al-Andalus
 controller = ADU
 add_core = ADU
-culture = andalusi_culture
-religion = sunni
+culture = leonese
+religion = catholic
 capital = "Sahagún"
 base_tax = 1
 base_production = 1

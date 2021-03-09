@@ -3,7 +3,7 @@
 owner = GAL
 controller = GAL
 add_core = GAL
-culture = galician
+culture = leonese
 religion = catholic
 capital = "Cangas de Tineo"
 base_tax = 1

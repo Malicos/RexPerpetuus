@@ -3,7 +3,7 @@
 owner = ADU		# Ali III, Sultan of al-Andalus
 controller = ADU
 add_core = ADU
-culture = andalusi_culture
+culture = batalyawsi
 religion = sunni
 capital = "Estremoz"
 base_tax = 2
