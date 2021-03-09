@@ -1,0 +1,10 @@
+l_english:
+ # Country tags
+ ADU:0 "al-Andalus"
+ ADU_ADJ:0 "Andalusi"
+ VAL:0 "Balansiya"
+ VAL_ADJ:0 "Balansi"
+
+ # Technologies
+ ottoman:0 "Rhomaioi"
+ ottoman_desc:0 "With the Rhomaioi technology group, technology levels are 10% more expensive (110%)."

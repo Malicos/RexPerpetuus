@@ -1,0 +1,95 @@
+#Legacy of Manzikert: Navarre
+
+graphical_culture = westerngfx
+
+color = { 252  233  58 }
+revolutionary_colors = { 5 8 5 }
+
+historical_idea_groups = {
+	maritime_ideas
+	religious_ideas
+	defensive_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	french_caracolle
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Agust0n #0" = 0
+	"Alejandro #0" = 0
+	"Alfonso #1" = 1
+	"Andr0s #0" = 10
+	"Antonio #0" = 0
+	"Bernardo #0" = 0
+	"Blanca #1" = -10
+	"Buenaventura #0" = 5
+	"Carlos #2" = 20
+	"Catalina #0" = -10
+	"Crist0bal #0" = 0
+	"C0sar #0" = 0
+	"Diego #0" = 0
+	"Enrique #1" = 40
+	"Esteban #0" = 0
+	"Felipe #3" = 1
+	"Fernando #0" = 0
+	"Francisco #0" = 20
+	"Garc0a #5" = 1
+	"Gaspar #0" = 0
+	"Gast0n #0" = 10
+	"Godofredo #0" = 5
+	"Jaime #0" = 5
+	"Jos0 #0" = 0
+	"Juan #1" = 10
+	"Juana #2" = -10
+	"Lanzarote #0" = 5
+	"Leonel #0" = 5
+	"Leonor #0" = -10
+	"Luis #1" = 10
+	"Mart0n #0" = 5
+	"Melchor #0" = 0
+	"Nicol0s #0" = 0
+	"Pedro #1" = 5
+	"Sancho #7" = 1
+	"Sim0n #0" = 0
+	"Teobaldo #2" = 1
+	"0lvaro #0" = 0
+}
+
+leader_names = {
+	"de Aguirre" "de Albret" "de Antillón" "de Aranda" "de Armendariz" "de Azagra" "de Azpilcueta"
+	"de Beaumont" "de Beortegui" Bergera "de Borbón" "de Carranza"	Elizalde
+	"de Garay" "de Goñi" Goyeneche "de Heredia" "de Hijar"
+	"de Jaso" "Jiménez de Rada" Jimeno "de Landívar" Navarro
+	Palafox "Pérez de Zabalza" "de Salazar" "de Uribe" "de Ursúa"
+	"de Yanguas" "de Zárate"
+}
+
+ship_names = {
+	Atlántida "Conde de Evreux" "Conde de Foix" "Conde de Guenduláin" "Conde de Lerín"
+	"Don Jimeno" "Duque de Armagnac" "Duque de Champaña"
+	"El Agramontés" "El Beaomontés" "El Bearnés" "El Cruzado Navarro" "El Montañés" "El Navarro" "El Salvador" "El Trobador" "El Viñador" "Emperador Hispánico" Europa
+	"Mar de Navarra" "Nuestra Sra de Leyre" "Príncipe de Viana"
+	"Reina Juana" "Rey Enrique" "Rey García" "Rey Sancho" "Reyno de Navarra" "Reyno de Pamplona"
+	"San Agustín" "San Andrés" "San Antonio" "San Carlos" "San Enrique" "San Esteban" "San Fermín" "San Francisco" "San Francisco Xabier" "San Gregorio" "San Juan" "San León" "San Miguel Arcángel" "San Raimundo" "San Virila"
+	"Santa Ana" "Santa Catalina" "Santa Juana" "Santa Leonor" "Santísima Trinidad" "Señor de Tudela"
+	Vasconia
+}

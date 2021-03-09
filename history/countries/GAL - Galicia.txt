@@ -1,0 +1,36 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = galician
+religion = catholic
+technology_group = western
+capital = 206	# Galicia
+government_rank = 2
+
+1435.3.16 = {
+	monarch = {
+		name = "Vellido III"
+		dynasty = "Ramimid"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1398.3.3
+		religion = catholic
+		culture = galician
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = pious_personality
+	heir = {
+		name = "Baltasar"
+		monarch_name = "Baltasar"
+		dynasty = "Ramimid"
+		adm = 5
+		dip = 6
+		mil = 5
+		birth_date = 1426.12.19
+		death_date = 1491.12.19
+		religion = catholic
+		culture = galician
+	}
+	add_heir_personality = benevolent_personality
+	add_heir_personality = kind_hearted_personality
+}

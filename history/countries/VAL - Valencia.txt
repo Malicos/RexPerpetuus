@@ -6,3 +6,48 @@ technology_group = muslim
 capital = 220	# Valencia
 government_rank = 2
 religious_school = maliki_school
+
+1443.7.7 = {
+	monarch = {
+		name = "Lubb"
+		dynasty = "Azizid"
+		adm = 3
+		dip = 5
+		mil = 3
+		birth_date = 1420.2.5
+		religion = sunni
+		culture = balansi_culture
+	}
+	add_ruler_personality = calm_personality
+	add_ruler_personality = infertile_personality
+	queen = {
+		name = "Suraya"
+		dynasty = "Azizid"
+		adm = 4
+		dip = 5
+		mil = 4
+		country_of_origin = VAL
+		birth_date = 1405.1.18
+		death_date = 1465.1.18
+		female = yes
+		religion = sunni
+		culture = balansi_culture
+	}
+	add_queen_personality = silver_tongue_personality
+	add_queen_personality = well_connected_personality
+	heir = {
+		name = "Garsiya"
+		monarch_name = "Garsiya"
+		dynasty = "Azizid"
+		adm = 6
+		dip = 6
+		mil = 5
+		birth_date = 1421.3.2
+		death_date = 1486.3.2
+		claim = 89
+		religion = sunni
+		culture = balansi_culture
+	}
+	add_heir_personality = expansionist_personality
+	add_heir_personality = zealot_personality
+}

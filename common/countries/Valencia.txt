@@ -1,0 +1,102 @@
+#Legacy of Manzikert: Balansiya
+
+graphical_culture = muslimgfx
+
+color = { 132  97  138 }
+revolutionary_colors = { 8 16 8 }
+
+historical_idea_groups = {
+	trade_ideas
+	religious_ideas
+	maritime_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+
+monarch_names = {
+	"Abda #0" = -1
+	"Abdul-Aziz #3" = 10
+	"Abdul-Hakam #1" = 10
+	"Ahmad #1" = 10
+	"Ali #0" = 0
+	"Bakka #0" = -1
+	"Balashk #0" = 0
+	"Duce #0" = -1
+	"Fahra #0" = -1
+	"Fath #1" = 10
+	"Garsiya #0" = 0
+	"Ghada #0" = -1
+	"Habiba #0" = -1
+	"Hakam #1" = 10
+	"Isra #0" = -1
+	"Jyad #2" = 10
+	"Lubb #1" = 10
+	"Mundir #1" = 10
+	"Naila #0" = -1
+	"Rahat #0" = -1
+	"Randa #0" = -1
+	"Rashid #0" = 0
+	"Sa'd #1" = 10
+	"Sanyo #0" = 0
+	"Suleyman #0" = 0
+	"Suraya #0" = -1
+	"Utman #0" = 0
+	"Uzmir #0" = 0
+}
+
+leader_names = {
+	"Ibn Abbad"
+	"Ibn Abd Allah"
+	"Ibn Abd al-Rahman"
+	"Ibn Abi Hafs"
+	"Ibn Ali"
+	"Ibn Hakan"
+	"Ibn Hammud"
+	"Ibn Hisam"
+	"Ibn Husayn"
+	"Ibn Idris"
+	"Ibn Ishaq"
+	"Ibn Isma'il"
+	"Ibn Marwan"
+	"Ibn Muhammad"
+	"Ibn Nasr"
+	"Ibn Qasim"
+	"Ibn Sa'd"
+	"Ibn Sulayman"
+	"Ibn Umar"
+	"Ibn Ummay"
+	"Ibn Utman"
+	"Ibn Ya'far"
+	"Ibn Yahyà"
+	"Ibn Yusuf"
+	"Ibn al-Azafi"
+}
+
+army_names = {
+	"Jaish Al $PROVINCE$"
+}
+
+ship_names = {
+	"Abdul-Aziz I"
+	"Abdul-Aziz II"
+	"Abdul-Aziz III"
+	"Abdul-Hakam I"
+	"Ahmad I"
+	"Fath I"
+	"Hakam I"
+	"Mundir I"
+	"S'ad I"
+}

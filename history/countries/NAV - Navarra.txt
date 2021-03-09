@@ -1,12 +1,12 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = basque
-add_accepted_culture = aragonese
 religion = catholic
 technology_group = western
 capital = 210	# Pamplona
+government_rank = 1
 
-
+# CK3: find an appropriate duke to replace OTL ones
 1387.1.1 = {
 	monarch = {
 		name = "Carlos III"
