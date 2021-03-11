@@ -1,0 +1,2 @@
+# France
+LDC = "countries/Languedoc.txt"

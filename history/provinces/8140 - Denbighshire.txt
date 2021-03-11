@@ -5,8 +5,8 @@
 #Core Details
 capital = "Denbigh"
 is_city = yes
-owner = WMC
-controller = WMC
+owner = DNL
+controller = DNL
 
 #Demographics
 culture = welsh
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = WMC
+add_core = DNL
 add_core = WLS
 
 #Other Political
@@ -36,32 +36,3 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
-
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-	remove_core = WMC
-	remove_core = WLS
-	add_core = CST
-	owner = CST
-	controller = CST
-} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-	add_core = WMC
-	add_core = WLS
-	remove_core = CST
-	owner = ENG
-	controller = ENG
-} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-
-
-1444.11.16 = { #BT Performance Start Begin
-	owner = ENG
-	controller = ENG
-	add_core = ENG
-	remove_core = WMC
-}
-1444.11.18 = { #BT Performance Start Begin
-	owner = WMC
-	controller = WMC
-	add_core = WMC
-	remove_core = ENG
-}

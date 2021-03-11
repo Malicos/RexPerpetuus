@@ -9,7 +9,7 @@ owner = SCO
 controller = SCO
 
 #Demographics
-culture = scottish
+culture = highland_scottish
 religion = catholic
 
 #Development and Trade

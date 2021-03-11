@@ -11,6 +11,8 @@
  # Organisation of this file -
  # 1) Start Dates
  # 2) Cultures
+ # 3) Tags
+ # 4) Religions
 
  #################################################################################
  # 1 - Start Dates
@@ -21,7 +23,23 @@
  #################################################################################
  # Old World
  anglisk:0 "Anglisk"              # English Norse
+ anglo_saxon:0 "Anglo-Saxon"      # Old English
  muwalladi:0 "Muwalladi"          # Iberian Muslim Group
  batalyawsi:0 "Batalyawsi"        # Muslim Badajozi
  balansi_culture:0 "Balansi"      # Muslim Valencian
  liyuni_culture:0 "Liyuni"        # Muslim Leonese
+ 
+ #################################################################################
+ # 3 - Tags
+ #################################################################################
+ # Western Europe
+ LDC:0 "Languedoc"
+ LDC_ADJ:0 "Languedocien"
+ DNL:0 "Danelaw"
+ DNL_ADJ:0 "Danelawan"
+ 
+ #################################################################################
+ # 4 - Religions
+ #################################################################################
+ # Christian
+ cathar:0 "Cathar"

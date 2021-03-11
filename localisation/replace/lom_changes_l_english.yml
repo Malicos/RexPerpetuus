@@ -1,11 +1,21 @@
-l_english:
+﻿l_english: 
+
  # Country tags
+ 
  ADU:0 "al-Andalus"
  ADU_ADJ:0 "Andalusi"
  BUR:0 "Arelat"
+ ENG:0 "Aengland"
+ ENG_ADJ:0 "Aenglisc"
+ SCO:0 "Alba"
+ SCO_ADJ:0 "Alban"
  VAL:0 "Balansiya"
  VAL_ADJ:0 "Balansi"
 
+ # Cultures
+ highland_scottish:0 "Gaelic"
+
  # Technologies
+ 
  ottoman:0 "Rhomaioi"
  ottoman_desc:0 "With the Rhomaioi technology group, technology levels are 10% more expensive (110%)."

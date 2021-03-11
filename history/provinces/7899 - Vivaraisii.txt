@@ -3,8 +3,10 @@
 owner = BUR
 controller = BUR
 add_core = BUR
+add_core = LDC
+add_core = FRA
 culture = occitain
-religion = catholic
+religion = cathar
 capital = "Viviers"
 base_tax = 2
 base_production = 2

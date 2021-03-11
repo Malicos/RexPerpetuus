@@ -35,6 +35,3 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
-1425.1.1 = {
-	culture = scottish
-}

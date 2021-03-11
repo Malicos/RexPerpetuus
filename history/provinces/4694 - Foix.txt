@@ -2,13 +2,13 @@
 #Region - France
 #Area - Languedoc
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = LDC
+controller = LDC
+add_core = LDC
 capital = "Foix"
 is_city = yes
 culture = occitain	#aquitaine vanilla
-religion = catholic
+religion = cathar
 hre = no
 base_tax = 2  
 base_production = 2 

@@ -2,13 +2,13 @@
 #Region - France
 #Area - Languedoc
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = LDC
+controller = LDC
+add_core = LDC
 capital = "Toulouse"
 is_city = yes
 culture = occitain	#aquitaine vanilla
-religion = catholic
+religion = cathar
 hre = no
 base_tax = 8
 base_production = 8

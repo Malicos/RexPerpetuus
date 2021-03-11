@@ -2,13 +2,13 @@
 #Region - France
 #Area - Languedoc
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = LDC
+controller = LDC
+add_core = LDC
 capital = "Nîmes"
 is_city = yes
 culture = occitain
-religion = catholic
+religion = cathar
 hre = no
 base_tax = 7
 base_production = 7

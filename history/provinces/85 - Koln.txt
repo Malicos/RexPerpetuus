@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - North Rhine
 
-owner = KOL
-controller = KOL
-add_core = KOL
+owner = LOT
+controller = LOT
+add_core = LOT
 culture = hessian
 religion = catholic
 trade_goods = grain
@@ -25,21 +25,3 @@ discovered_by = eastern
 extra_cost = 10
 
 center_of_trade = 2
-
-1583.12.17 = { fort_15th = no }
-1638.1.1 = { base_tax = 20
-base_production = 20 } # Köln manages to stay neutral in the 30 years war and prospers through weapon sales. 
-1716.1.1 = { base_tax = 22 
-base_production = 22 } # Farnia begins exporting "Eau de Cologne" 
-1798.1.1 = { controller = FRA }
-1801.2.9 = {
-	owner = FRA
-	add_core = FRA
-}# Treaty of Lunéville
-1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
-1815.6.9 = {
-	owner = PRU
-	controller = PRU
-	add_core = PRU
-	remove_core = FRA
-}# Congress of Vienna
