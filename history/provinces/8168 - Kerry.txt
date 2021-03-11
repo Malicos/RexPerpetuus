@@ -3,10 +3,10 @@
 #Region - Ireland
 
 #Core Details
-capital = "Tralee"
+capital = "Tráigh Lí"
 is_city = yes
-owner = DMS
-controller = DMS
+owner = MCM
+controller = MCM
 
 #Demographics
 culture = irish
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = bt_trade_good_apiculture
 
 #Cores and Occupation (Alphabetical after current)
-add_core = DMS
+add_core = MCM
 
 #Other Political
 hre = no
@@ -36,6 +36,3 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
-1291.1.1 = {
-	capital = "Tráigh Lí"
-}

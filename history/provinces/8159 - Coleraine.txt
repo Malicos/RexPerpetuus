@@ -3,10 +3,10 @@
 #Region - Ireland
 
 #Core Details
-capital = "Coleraine"
+capital = "Cúil Rathain"
 is_city = yes
-owner = TYR
-controller = TYR
+owner = TRY
+controller = TRY
 
 #Demographics
 culture = irish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = TYR
+add_core = TRY
 
 #Other Political
 hre = no
@@ -36,6 +36,3 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
-1291.1.1 = {
-	capital = "Cúil Rathain"
-}

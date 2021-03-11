@@ -3,10 +3,10 @@
 #Region - Ireland
 
 #Core Details
-capital = "Dromahair"
+capital = "Droim Dhá Thiar"
 is_city = yes
-owner = BIF
-controller = BIF
+owner = ECO
+controller = ECO
 
 #Demographics
 culture = irish
@@ -20,7 +20,7 @@ trade_goods = livestock
 latent_trade_goods = { coal }
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BIF
+add_core = ECO
 
 #Other Political
 hre = no
@@ -36,18 +36,3 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
-1291.1.1 = {
-	capital = "Droim Dhá Thiar"
-}
-1444.11.16 = { #BT Performance Start Begin
-	owner = ECO
-	controller = ECO
-	add_core = ECO
-	remove_core = BIF
-}
-1444.11.18 = { #BT Performance Start Begin
-	owner = BIF
-	controller = BIF
-	add_core = BIF
-	remove_core = ECO
-}

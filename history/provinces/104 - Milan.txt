@@ -2,11 +2,12 @@
 #Region - Italy
 #Area - Lombardy
 
-owner = MLO
-controller = MLO
+owner = LOM
+controller = LOM
+add_core = LOM
 culture = lombard
 religion = catholic
-hre = yes
+hre = no
 base_tax = 13
 base_production = 13
 trade_goods = cloth			#metalworking and textiles, agriculture and livestock breeding were flourishing
@@ -14,7 +15,6 @@ base_manpower = 7
 fort_15th = yes #Sforza Castle
 capital = "Milano"
 is_city = yes	# Estimated
-add_core = MLO
 
 extra_cost = 15
 

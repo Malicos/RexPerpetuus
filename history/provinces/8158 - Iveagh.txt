@@ -3,10 +3,10 @@
 #Region - Ireland
 
 #Core Details
-capital = "Rathfriland"
+capital = "Ráth Fraoileann"
 is_city = yes
-owner = IVE
-controller = IVE
+owner = ANR
+controller = ANR
 
 #Demographics
 culture = irish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = IVE
+add_core = ANR
 
 #Other Political
 hre = no
@@ -35,6 +35,3 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
-1291.1.1 = {
-	capital = "Ráth Fraoileann"
-}

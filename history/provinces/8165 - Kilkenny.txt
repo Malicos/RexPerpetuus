@@ -3,10 +3,10 @@
 #Region - Ireland
 
 #Core Details
-capital = "Kilkenny"
+capital = "Cill Chainnigh"
 is_city = yes
-owner = ORD
-controller = ORD
+owner = LAI
+controller = LAI
 
 #Demographics
 culture = irish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ORD
+add_core = LAI
 
 #Other Political
 hre = no
@@ -35,6 +35,3 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
-1291.1.1 = {
-	capital = "Cill Chainnigh"
-}

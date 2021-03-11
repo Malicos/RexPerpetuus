@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = MLO
-controller = MLO
-add_core = MLO
+owner = LOM
+controller = LOM
+add_core = LOM
 culture = lombard
 religion = catholic
 capital = "Como"
@@ -11,7 +11,7 @@ base_production = 4
 base_manpower = 3
 trade_goods = grain
 is_city = yes
-hre = yes
+hre = no
 
 discovered_by = western
 discovered_by = muslim

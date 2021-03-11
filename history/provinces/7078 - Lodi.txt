@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = MLO
-controller = MLO
-add_core = MLO
+owner = LOM
+controller = LOM
+add_core = LOM
 culture = lombard
 religion = catholic
 capital = "Lodi"
@@ -11,13 +11,10 @@ base_production = 6
 base_manpower = 3
 trade_goods = grain
 is_city = yes
-hre = yes
+hre = no
 
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
-
-#Province history completed by - 
 

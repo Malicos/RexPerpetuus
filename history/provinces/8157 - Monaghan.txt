@@ -3,10 +3,10 @@
 #Region - Ireland
 
 #Core Details
-capital = "Monaghan"
+capital = "Muineachán"
 is_city = yes
-owner = MGH
-controller = MGH
+owner = DNL
+controller = DNL
 
 #Demographics
 culture = irish
@@ -19,6 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
+add_core = DNL
 add_core = MGH
 
 #Other Political
@@ -35,6 +36,3 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
-1291.1.1 = {
-	capital = "Muineachán"
-}
