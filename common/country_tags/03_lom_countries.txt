@@ -1,2 +1,9 @@
 # France
 LDC = "countries/Languedoc.txt"
+
+# HRE
+LSL = "countries/LowerSilesia.txt"
+LUT = "countries/Luticia.txt"
+NGU = "countries/Nordgau.txt"
+OST = "countries/Ostfalen.txt"
+USL = "countries/UpperSilesia.txt"

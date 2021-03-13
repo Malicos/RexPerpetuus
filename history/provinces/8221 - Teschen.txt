@@ -5,8 +5,8 @@
 #Core Details
 capital = "Cieszyn"
 is_city = yes
-owner = TES
-controller = TES
+owner = USL
+controller = USL
 
 #Demographics
 culture = schlesian
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = glass
 
 #Cores and Occupation (Alphabetical after current)
+add_core = USL
 add_core = TES
 
 #Other Political
@@ -40,15 +41,3 @@ discovered_by = muslim
 discovered_by = ottoman
 
 #Histories
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
-	owner = OPL
-	controller = OPL
-	add_core = OPL
-	remove_core = TES
-} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
-	owner = TES
-	controller = TES
-	add_core = TES
-	remove_core = OPL
-} #Return to proper mod added owners and cuts vanilla core, typically.

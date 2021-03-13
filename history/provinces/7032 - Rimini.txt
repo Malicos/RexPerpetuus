@@ -1,7 +1,8 @@
 #BT Italy reoverhaul
 
-owner = MTS
-controller = MTS
+owner = RAV
+controller = RAV
+add_core = RAV
 add_core = MTS
 culture = romagnan
 religion = catholic
@@ -11,7 +12,7 @@ base_production = 6
 base_manpower = 3
 trade_goods = fish # Rimini is famous for fishing. Could also be grain or wine or salt, or once introduced Olives or Fruit
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim

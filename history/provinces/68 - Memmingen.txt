@@ -2,8 +2,9 @@
 #Region - Germany
 #Area - Upper Swabia
 
-owner = MEM
-controller = MEM
+owner = SWA
+controller = SWA
+add_core = SWA
 add_core = MEM
 culture = swabian
 religion = catholic
@@ -19,8 +20,3 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
-
-1525.1.1 = { religion = protestant }
-1802.1.1 = { owner = BAV controller = BAV add_core = BAV remove_core = MEM }
-1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = lower_saxon
+capital = 53
+1444.11.11= {
+	monarch = {
+		name = "Enda"
+		dynasty = "Billung-Dannenberg"
+		adm = 5
+		dip = 4
+		mil = 6
+		birth_date = 1386.11.18
+		female = yes
+		religion = catholic
+		culture = lower_saxon
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Merten"
+		dynasty = "Billung-Dannenberg"
+		adm = 3
+		dip = 4
+		mil = 5
+		country_of_origin = Y04
+		birth_date = 1403.9.28
+		death_date = 1463.9.28
+		religion = catholic
+		culture = german
+	}
+	add_queen_personality = strict_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Cobbo"
+		monarch_name = "Cobbo"
+		dynasty = "Billung-Dannenberg"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1429.12.7
+		death_date = 1494.12.7
+		claim = 89
+		religion = catholic
+		culture = german
+	}
+	add_heir_personality = calm_personality
+	add_heir_personality = careful_personality
+}
+1444.11.11= {
+	add_prestige = 86
+	add_treasury = 73
+}

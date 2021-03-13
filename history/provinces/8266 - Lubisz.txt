@@ -5,8 +5,8 @@
 #Core Details
 capital = "Lebus"
 is_city = yes
-owner = BRA
-controller = BRA
+owner = LUT
+controller = LUT
 
 #Demographics
 culture = saxon
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BRA
+add_core = LUT
 
 #Other Political
 hre = yes

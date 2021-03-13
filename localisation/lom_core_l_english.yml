@@ -33,10 +33,26 @@
  # 3 - Tags
  #################################################################################
  # Western Europe
- LDC:0 "Languedoc"
- LDC_ADJ:0 "Languedocien"
  DNL:0 "Danelaw"
  DNL_ADJ:0 "Danelawan"
+ JUT:0 "Jutland"
+ JUT_ADJ:0 "Jutlander"
+ LDC:0 "Languedoc"
+ LDC_ADJ:0 "Languedocien"
+ LUT:0 "Luticia"
+ LUT_ADJ:0 "Lutici"
+ NGU:0 "Nordgau"
+ NGU_ADJ:0 "Nordgauer"
+ OST:0 "Ostfalen"
+ OST_ADJ:0 "Eastphalian"
+ ZEA:0 "Zealand"
+ ZEA_ADJ:0 "Zealander"
+ 
+ # Eastern Europe
+ LSL:0 "Lower Silesia"
+ LSL_ADJ:0 "Lower Silesian"
+ USL:0 "Upper Silesia"
+ USL_ADJ:0 "Upper Silesian"
  
  #################################################################################
  # 4 - Religions

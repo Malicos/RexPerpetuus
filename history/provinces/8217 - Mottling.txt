@@ -5,8 +5,8 @@
 #Core Details
 capital = "Möttling"
 is_city = yes
-owner = CLI
-controller = CLI
+owner = CNL
+controller = CNL
 
 #Demographics
 culture = slovene
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = iron
 
 #Cores and Occupation (Alphabetical after current)
-add_core = CLI
 add_core = CNL
 
 #Other Political

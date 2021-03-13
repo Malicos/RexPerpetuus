@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Tuscan
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = PIS
+controller = PIS
+add_core = PIS
 culture = tuscan
 religion = catholic
 hre = no

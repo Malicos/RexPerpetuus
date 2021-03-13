@@ -5,8 +5,8 @@
 #Core Details
 capital = "Pettau"
 is_city = yes
-owner = SLZ
-controller = SLZ
+owner = STY
+controller = STY
 
 #Demographics
 culture = austrian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SLZ
+add_core = STY
 
 #Other Political
 hre = yes

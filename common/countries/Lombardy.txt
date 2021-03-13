@@ -1,6 +1,6 @@
 graphical_culture = westerngfx
 
-color = { 91  157  124 }#Much lighter version of Lombard flag color. Let's see how this looks.
+color = { 180 115 200 }
 
 revolutionary_colors = { 9  0  5 } #Cisalpine Republic; same as LombardyVenetia is using.
 

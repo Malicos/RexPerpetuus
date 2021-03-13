@@ -5,8 +5,8 @@
 #Core Details
 capital = "Bytom"
 is_city = yes
-owner = TES
-controller = TES
+owner = USL
+controller = USL
 
 #Demographics
 culture = schlesian
@@ -20,6 +20,7 @@ trade_goods = iron
 latent_trade_goods = { coal }
 
 #Cores and Occupation (Alphabetical after current)
+add_core = USL
 add_core = TES
 add_core = BET
 add_core = OLE
