@@ -6,15 +6,16 @@ religion = catholic
 technology_group = western
 capital = 100	# Groningen
 
-
-1399.1.1 = {
+1444.11.11= {
 	monarch = {
-		name = "Fryske frijheid"
+		name = "Douwe Fezenzaguet"
 		adm = 3
-		dip = 3
-		mil = 3
-		regent = yes
+		dip = 5
+		mil = 4
+		birth_date = 1396.8.5
+		religion = catholic
+		culture = frisian
 	}
+	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = zealot_personality
 }
-
-1515.1.1 = { leader = { name = "Greate Pier" type = admiral	fire = 1 shock = 1 manuever = 2 siege = 0 death_date = 1520.10.28 } }

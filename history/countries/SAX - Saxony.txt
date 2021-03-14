@@ -1,0 +1,53 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = lower_saxon
+religion = catholic
+elector = yes
+technology_group = western
+capital = 44 # Hamburg
+
+#CK3: verify inauguration date
+1444.11.11= {
+	monarch = {
+		name = "Rudolf III"
+		dynasty = "Trpimirovic-Lippe"
+		adm = 5
+		dip = 3
+		mil = 4
+		birth_date = 1401.10.6
+		religion = catholic
+		culture = lower_saxon
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = scholar_personality
+	queen = {
+		name = "Pernelle"
+		dynasty = "de Blois"
+		adm = 4
+		dip = 4
+		mil = 4
+		country_of_origin = FRA
+		birth_date = 1405.3.4
+		death_date = 1465.3.4
+		female = yes
+		religion = catholic
+		culture = cosmopolitan_french
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Juries"
+		monarch_name = "Juries III"
+		dynasty = "Trpimirovic-Lippe"
+		adm = 4
+		dip = 5
+		mil = 5
+		birth_date = 1408.4.4
+		death_date = 1473.4.4
+		religion = catholic
+		culture = lower_saxon
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = lawgiver_personality
+}

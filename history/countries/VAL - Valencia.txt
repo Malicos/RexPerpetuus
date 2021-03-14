@@ -44,7 +44,6 @@ religious_school = maliki_school
 		mil = 5
 		birth_date = 1421.3.2
 		death_date = 1486.3.2
-		claim = 89
 		religion = sunni
 		culture = balansi_culture
 	}

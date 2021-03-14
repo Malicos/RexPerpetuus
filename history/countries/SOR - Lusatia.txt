@@ -5,3 +5,48 @@ technology_group = western
 primary_culture = sorbian
 religion = catholic
 capital = 60	# Oberlausitz
+
+1444.11.11 = {
+	monarch = {
+		name = "Prendota"
+		dynasty = "¯ytycki"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 1415.1.4
+		religion = catholic
+		culture = sorbian
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = strict_personality
+	queen = {
+		name = "Haziga"
+		dynasty = "von Kufstein"
+		adm = 4
+		dip = 4
+		mil = 6
+		country_of_origin = TIR
+		birth_date = 1414.8.25
+		death_date = 1474.8.25
+		female = yes
+		religion = catholic
+		culture = austrian
+	}
+	add_queen_personality = lawgiver_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Smiechna"
+		monarch_name = "Smiechna"
+		dynasty = "¯ytycki"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1434.2.8
+		death_date = 1499.2.8
+		female = yes
+		religion = catholic
+		culture = sorbian
+	}
+	add_heir_personality = malevolent_personality
+	add_heir_personality = obsessive_perfectionist_personality
+}

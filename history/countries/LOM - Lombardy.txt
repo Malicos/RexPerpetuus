@@ -1,14 +1,53 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 1
-technology_group = western
+government_rank = 2
 primary_culture = lombard
 religion = catholic
+technology_group = western
 capital = 104 #Milan
 fixed_capital = 104
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+#ck3: check inauguration date
+1444.11.11= {
+	monarch = {
+		name = "Patrizio"
+		dynasty = "Nordheim-Asti"
+		adm = 3
+		dip = 4
+		mil = 5
+		birth_date = 1408.11.5
+		religion = catholic
+		culture = lombard
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Irena"
+		dynasty = "Knoppe"
+		adm = 3
+		dip = 6
+		mil = 4
+		country_of_origin = DNL
+		birth_date = 1420.9.22
+		death_date = 1480.9.22
+		female = yes
+		religion = catholic
+		culture = anglisk
+	}
+	add_queen_personality = silver_tongue_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Giulio"
+		monarch_name = "Giulio"
+		dynasty = "Nordheim-Asti"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1428.10.30
+		death_date = 1493.10.30
+		religion = catholic
+		culture = lombard
+	}
+	add_heir_personality = fierce_negotiator_personality
+	add_heir_personality = lawgiver_personality
+}

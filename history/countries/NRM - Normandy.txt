@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = gallo_culture
-add_accepted_culture = breton
-religion = catholic
 technology_group = western
-capital = 172	# Nantes
+primary_culture = normand
+add_accepted_culture = cosmopolitan_french
+religion = catholic
+capital = 168	# Caen
