@@ -1,0 +1,6 @@
+bookmark =
+{
+	name = LOM_NAME
+	desc = LOM_DESC
+	date = "1444.11.11"
+}
