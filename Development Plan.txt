@@ -12,7 +12,7 @@ By region:
 0.1 - Western Europe
 0.2 - Northern Europe
 0.3 - Eastern Europe
-0.4 - Italy and Southern Europe
+0.4 - The Balkans
 0.5 - Asia Minor, Caucasus and the Levant
 0.6 - North Africa
 0.7 - West Africa

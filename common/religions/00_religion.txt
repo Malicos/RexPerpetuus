@@ -402,7 +402,7 @@ christian = {
 			advisor_pool = 1
 		}
 		
-		uses_cathar_power = yes				# Uses church power/aspect mechanics
+		# uses_church_power = yes				# Uses church power/aspect mechanics
 
 		# LoM: WIP		
 		aspects = {
