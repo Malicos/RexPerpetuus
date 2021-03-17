@@ -2,59 +2,52 @@ government = monarchy
 add_government_reform = irish_clann_reform
 government_rank = 1
 technology_group = western
-primary_culture = gallgaidheil			#The distinction between Gallgael and Gael was minimal by the 15th century, if not much sooner, but Ive already recieved multiple requests for this subculture, so give the people that for which they clamour...
+primary_culture = gallgaidheil
 add_accepted_culture = irish
 religion = catholic
 capital = 4121	# Ulaidh
 fixed_capital = 4121	# Ulaidh
-historical_friend = LOI
-historical_rival = ENG			#Trying to prevent England from suiciding by alliance with 4 Irish OPMs
 
-1410.1.1 = {
+1444.11.11= {
 	monarch = {
-		name = "John Mor"
-		dynasty = "MacDhomhnaill"
-		adm = 2
-		dip = 2
-		mil = 0
+		name = "Gunnar II"
+		dynasty = "Sigurdr-Túnsberg"
+		adm = 4
+		dip = 5
+		mil = 5
+		birth_date = 1391.3.30
+		religion = catholic
+		culture = gallgaidheil
 	}
-}
-
-1410.1.1 = {
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = intricate_web_weaver_personality
+	queen = {
+		name = "Echive"
+		dynasty = "de Soule"
+		adm = 4
+		dip = 4
+		mil = 4
+		country_of_origin = FRA
+		birth_date = 1388.5.5
+		death_date = 1448.5.5
+		female = yes
+		religion = catholic
+		culture = cosmopolitan_french
+	}
+	add_queen_personality = greedy_personality
+	add_queen_personality = lawgiver_personality
 	heir = {
-		name = "Donald"
-		monarch_name = "Donald"
-		dynasty = "MacDhomhnaill"
-		birth_date = 1410.1.1
-		death_date = 1460.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 3
+		name = "Erlend"
+		monarch_name = "Erlend"
+		dynasty = "Sigurdr-Túnsberg"
+		adm = 6
+		dip = 6
+		mil = 5
+		birth_date = 1417.10.17
+		death_date = 1482.10.17
+		religion = catholic
+		culture = gallgaidheil
 	}
-}
-		
-
-1430.1.1 = {
-	monarch = {
-		name = "Donald"
-		dynasty = "MacDhomhnaill"
-		adm = 2
-		dip = 2
-		mil = 3
-	}
-}
-
-1435.1.1 = {
-	heir = {
-		name = "John Mor"
-		monarch_name = "John Mor II"
-		dynasty = "MacDhomhnaill"
-		birth_date = 1435.1.1
-		death_date = 1490.1.1
-		claim = 95
-		adm = 1
-		dip = 1
-		mil = 2
-	}
+	add_heir_personality = strict_personality
+	add_heir_personality = zealot_personality
 }

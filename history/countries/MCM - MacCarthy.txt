@@ -4,105 +4,49 @@ government_rank = 1
 technology_group = western
 primary_culture = irish
 religion = catholic
-historical_rival = ENG			#Trying to prevent England from suiciding by alliance with 4 Irish OPMs
 capital = 4378	# Desmond
 fixed_capital = 4378
 
-1390.1.1 = {
+1444.11.11 = {
 	monarch = {
-		name = "Tadgh II"
-		dynasty = "Mac Cárthaigh Mór"
+		name = "Cobthach"
+		dynasty = "gCais-Láirge"
 		adm = 2
-		dip = 2
-		mil = 0
-	}
-}
-
-1424.1.1 = {
-	heir = {
-		name = "Donal"
-		monarch_name = "Donal VI"
-		dynasty = "Mac Cárthaigh Mór"
-		birth_date = 1424.1.1
-		death_date = 1469.1.1
-		claim = 95
-		adm = 3
 		dip = 3
-		mil = 3
+		mil = 4
+		birth_date = 1388.2.5
+		religion = catholic
+		culture = irish
 	}
-}
-		
-
-1428.1.1 = {
-	monarch = {
-		name = "Donal VI an Dana"
-		dynasty = "Mac Cárthaigh Mór"
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Caíntigern"
+		dynasty = "gCais-Aberdeen"
 		adm = 3
-		dip = 3
+		dip = 4
 		mil = 3
+		country_of_origin = SCO
+		birth_date = 1388.2.2
+		death_date = 1448.2.2
+		female = yes
+		religion = catholic
+		culture = highland_scottish
 	}
-}
-
-1428.1.1 = {
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = midas_touched_personality
 	heir = {
-		name = "Tadgh Liath"
-		monarch_name = "Tadgh III Liath"
-		dynasty = "Mac Cárthaigh Mór"
-		birth_date = 1428.1.1
-		death_date = 1503.1.1
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 3
-	}
-}
-
-1469.1.1 = {
-	monarch = {
-		name = "Tadgh Liath"
-		dynasty = "MacCarthy"
-		adm = 3
+		name = "Feirgil"
+		monarch_name = "Feirgil"
+		dynasty = "gCais-Láirge"
+		adm = 6
 		dip = 4
-		mil = 2
+		mil = 6
+		birth_date = 1408.6.15
+		death_date = 1473.6.15
+		religion = catholic
+		culture = irish
 	}
-}
-
-1503.1.1 = {
-	monarch = {
-		name = "Domhnall"
-		dynasty = "MacCarthy"
-		adm = 3
-		dip = 4
-		mil = 2
-	}
-}
-
-1508.1.1 = {
-	monarch = {
-		name = "Cormac Ladhrach"
-		dynasty = "MacCarthy"
-		adm = 3
-		dip = 4
-		mil = 2
-	}
-}
-
-1516.1.1 = {
-	monarch = {
-		name = "Domhnall an Druiminin"
-		dynasty = "MacCarthy"
-		adm = 3
-		dip = 4
-		mil = 2
-	}
-}
-
-1558.1.1 = {
-	monarch = {
-		name = "Domhnall"
-		dynasty = "MacCarthy"
-		adm = 3
-		dip = 4
-		mil = 2
-	}
+	add_heir_personality = bold_fighter_personality
+	add_heir_personality = strict_personality
 }

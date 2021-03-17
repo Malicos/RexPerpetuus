@@ -8,13 +8,46 @@ add_government_reform = irish_clann_reform
 religion = catholic
 primary_culture = irish
 
-1439.1.1 = {
+1444.11.11 = {
 	monarch = {
-		name = "Aedh mac Tairdelbach Óg"
-		dynasty "Ó Conchobair"
-		birth_date = 1400.1.1
-		adm = 1
-		dip = 2
-		mil = 1
+		name = "Arnmod"
+		dynasty = "Sigurdr-Whitby"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 1400.8.29
+		religion = catholic
+		culture = irish
 	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = intricate_web_weaver_personality
+	queen = {
+		name = "Fosca"
+		dynasty = "von Zähringen"
+		adm = 3
+		dip = 3
+		mil = 2
+		country_of_origin = CNN
+		birth_date = 1400.9.27
+		death_date = 1460.9.27
+		female = yes
+		religion = catholic
+		culture = italian
+	}
+	add_queen_personality = midas_touched_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Finn"
+		monarch_name = "Finn"
+		dynasty = "Sigurdr-Whitby"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1420.8.25
+		death_date = 1485.8.25
+		religion = catholic
+		culture = irish
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = secretive_personality
 }

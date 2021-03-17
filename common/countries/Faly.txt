@@ -1,0 +1,84 @@
+# Country name see file name.
+
+graphical_culture = westerngfx
+
+color = { 237 138 22 }
+
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	religious_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	gaelic_galloglaigh
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	anglofrench_line
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Alv #0" = 0
+	"Archambaud #0" = 0
+	"Blathmacc #1" = 10
+	"Bård #1" = 10
+	"Bébinn #1" = -1
+	"Cecilia #0" = -1
+	"Ciarán #1" = 10
+	"Eve #0" = -1
+	"Eystein #0" = 0
+	"Fiachnae #0" = 0
+	"Grim #0" = 0
+	"Gáethíne #1" = 10
+	"Ingjerd #0" = -1
+	"Jorunn #0" = -1
+	"Liam #0" = 0
+	"Lodin #1" = 10
+	"Margrete #0" = -1
+	"Przemysl #0" = 0
+	"Tore #0" = 0
+	"Áed #1" = 10
+	"Álgen #0" = -1
+}
+
+leader_names = {
+	"Mac Branain" "Mac Conraoi" "Mac Cuille" "Mac Diarmada"
+	"Mac Donnchadha" "Mac Eochaidh" "Mac Maghnais"
+	"Ó Birn" "Ó Breislein" "Ó Cadhla" "Ó Caithniadh"
+	"Ó Cathail" "Ó Cearbhaill" "Ó Céirín" "Ó Cléirigh"
+	"Ó Coigligh" "Ó Concheannain" "Ó Conghailaigh" "Ó Cuana"
+	"Ó Doibhilin" "Ó Domhnalláin" "Ó Dorchaidhe" "Ó Diubháin"
+	"Ó Dúnadhaigh" "Ó Fionn" "Ó Fionnachta" "Ó Fionnagáin"
+	"Ó Fionnáin" "Ó Flaithbheartach" "Ó Gadhra" "Ó hAllmhuráin"
+	"Ó hEaghra" "Ó hUigín" "Ó Leannain" "Ó Maoldúin" "Ó Manachain"
+	"Ó Mughráin" "Ó Reachtagáin" "Ó Seachnasaigh" "Ó Tarpaigh"
+	"Ó Tighearnaigh"
+}
+
+ship_names = {
+	Athlone
+	Ballina
+	Ballinrobe
+	Ballyhaunis
+	Boyle
+	Castlebar
+	Galway
+	Connemara
+	Mayo
+	Roscommon	
+}
