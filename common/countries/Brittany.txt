@@ -8,8 +8,6 @@ revolutionary_colors = { 1  0  1 } #Black/White/Black - common colors of Brittan
 
 preferred_religion = catholic
 
-historical_score = 25
-
 historical_idea_groups = {
 	naval_ideas
 	trade_ideas
@@ -39,50 +37,39 @@ historical_units = {
 	napoleonic_lancers
 }
 
-#Country file overhauled by Math
-
 monarch_names = {
-	"Jean #5" = 80
-	"Alain #4" = 60
-	"Arthur #2" = 40
-	"François #1" = 40
-	"Pierre #1" = 40
-	"Gilles #0" = 20
-	"Olivier #0" = 20
-	"Charles #1" = 10
-	"Geoffroy #2" = 10
-	"Guy #0" = 10
-	"Antoine #0" = 5
-	"Guillaume #0" = 5
-	"Josselin #0" = 5
-	"Richard #0" = 5
-	"Bertrand #0" = 0
-	"Conan #4" = 0
-	"Claude #0" = 0
-	"Étienne #0" = 0
-	"Henri #0" = 0
-	"Hervé #0" = 0
-	"Jacques #0" = 0
-	"Maurice #0" = 0
-	"Michel #0" = 0
-	"Nicolas #0" = 0
-	"Pol #0" = 0
-	"Thibaud #0" = 0
-	"Tristan #0" = 0
-	"Yves #0" = 0
-	
-	"Jeanne #1" = -15
-	"Blanche #0" = -10
-	"Isabeau #0" = -10
-	"Marguerite" = -10
-	"Marie #0" = -10
-	"Aliénor #0" = -5
-	"Alix #1" = -5
-	"Anne #0" = -5
-	"Catherine #0" = -1
-	"Constance #1" = -1
-	"Françoise #0" = -1
-}	#Redone to have french names culturally adapted to Brittany. Based on the different families of Brittany from the 13th century to the 15th century (Montfort, Dreux, Rohan, Penthièvre, Clisson, Rieux, Léon...) + some male names often found in Brittany to diversify them. I didn't put some names that have been used for several rulers as they often sounded too archaic for the period.
+	"Agathe #0" = -1
+	"Alain #1" = 10
+	"Alan #3" = 10
+	"Arthmael #0" = -1
+	"Conan #1" = 10
+	"Constance #0" = -1
+	"Cristen #1" = -1
+	"Drogon #1" = 10
+	"Edouarzh #1" = 10
+	"Erispoë #1" = 10
+	"Esclarmonde #0" = -1
+	"Eustache #2" = 10
+	"Gilles #1" = 10
+	"Guichard #0" = 0
+	"Guorhoiarn #1" = 10
+	"Gurci #1" = 10
+	"Guérech #1" = 10
+	"Géraud #0" = 0
+	"Hoël #1" = 10
+	"Jafrez #1" = 10
+	"Konan #1" = 10
+	"Lothaire #0" = -1
+	"Mormarch #1" = 10
+	"Nominoë #1" = 10
+	"Onfroy #2" = 10
+	"Raymond #0" = 0
+	"Salomon #1" = 10
+	"Simon #3" = 10
+	"Sune #0" = -1
+	"Valence #0" = -1
+	"William #1" = 10
+}
 
 leader_names = {
 	#Mix of breton families (from the most prestigious to minor ones), place names and non-noble names

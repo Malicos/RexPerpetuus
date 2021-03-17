@@ -1,4 +1,4 @@
-#Legacy of Manzikert: Navarre
+#Country Name: Please see filename.
 
 graphical_culture = westerngfx
 
@@ -34,44 +34,21 @@ historical_units = {
 }
 
 monarch_names = {
-	"Agust0n #0" = 0
-	"Alejandro #0" = 0
-	"Alfonso #1" = 1
-	"Andr0s #0" = 10
-	"Antonio #0" = 0
-	"Bernardo #0" = 0
-	"Blanca #1" = -10
-	"Buenaventura #0" = 5
-	"Carlos #2" = 20
-	"Catalina #0" = -10
-	"Crist0bal #0" = 0
-	"C0sar #0" = 0
-	"Diego #0" = 0
-	"Enrique #1" = 40
-	"Esteban #0" = 0
-	"Felipe #3" = 1
-	"Fernando #0" = 0
-	"Francisco #0" = 20
-	"Garc0a #5" = 1
-	"Gaspar #0" = 0
-	"Gast0n #0" = 10
-	"Godofredo #0" = 5
-	"Jaime #0" = 5
-	"Jos0 #0" = 0
-	"Juan #1" = 10
-	"Juana #2" = -10
-	"Lanzarote #0" = 5
-	"Leonel #0" = 5
-	"Leonor #0" = -10
-	"Luis #1" = 10
-	"Mart0n #0" = 5
-	"Melchor #0" = 0
-	"Nicol0s #0" = 0
-	"Pedro #1" = 5
-	"Sancho #7" = 1
-	"Sim0n #0" = 0
-	"Teobaldo #2" = 1
-	"0lvaro #0" = 0
+	"Antso #4" = 10
+	"Arias #0" = 0
+	"Cristina #0" = -1
+	"Domingo #0" = 0
+	"Eneko #1" = 10
+	"Evrard #0" = 0
+	"Fortun #1" = 10
+	"Gartzia #5" = 10
+	"Gotruda #0" = -1
+	"Inés #0" = -1
+	"Jaime #1" = 10
+	"Ladron #1" = 10
+	"Lothaire #0" = 0
+	"Mencía #0" = -1
+	"Vellido #1" = 10
 }
 
 leader_names = {
