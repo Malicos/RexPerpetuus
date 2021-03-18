@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Neumark
 
-owner = POM
-controller = POM
-add_core = POM
+owner = STO
+controller = STO
+add_core = STO
 culture = polabian_culture
 religion = catholic
 hre = no
