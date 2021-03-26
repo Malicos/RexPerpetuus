@@ -2,9 +2,8 @@
 #Region - Germany
 #Area - Westphalia
 
-owner = WES
-controller = WES
-add_core = WES
+owner = MND
+controller = MND
 add_core = MND
 culture = lower_saxon
 religion = catholic

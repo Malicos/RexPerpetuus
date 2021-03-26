@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Lower Saxony
 
-owner = WES
-controller = WES
-add_core = WES
+owner = SAX
+controller = SAX
+add_core = SAX
 add_core = HOY
 culture = lower_saxon
 religion = catholic

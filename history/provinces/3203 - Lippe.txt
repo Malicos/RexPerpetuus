@@ -2,9 +2,8 @@
 #Region - Germany
 #Area - Westphalia
 
-owner = WES
-controller = WES
-add_core = WES
+owner = LPP
+controller = LPP
 add_core = LPP
 culture = hannoverian
 religion = catholic

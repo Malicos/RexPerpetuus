@@ -39,7 +39,7 @@ vassal = {
 # France and Normandy
 vassal = {
 	first = FRA
-	second = NOR
+	second = NRM
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }

@@ -2,11 +2,10 @@ government = republic
 add_government_reform = free_city
 government_rank = 1
 mercantilism = 0.1
-technology_group = western
 primary_culture = hessian
 religion = catholic
-capital = 3292
-fixed_capital = 3292
+technology_group = western
+capital = 84 # Berg
 
 1399.1.1 = {
 	monarch = {

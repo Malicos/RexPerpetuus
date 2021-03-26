@@ -1,19 +1,19 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = free_city
 government_rank = 1
+mercantilism = 0.1
 technology_group = western
 religion = catholic
 primary_culture = hannoverian
 capital = 3203
 fixed_capital = 3203
 
-1429.8.11 = {
+1399.1.1 = {
 	monarch = {
-		name = "Bernhard VII"
-		dynasty = "von Lippe"
-		birth_date = 1428.12.4
+		name = "Stadtrat"
 		adm = 3
-		dip = 2
+		dip = 3
 		mil = 3
+		regent = yes
 	}
 }

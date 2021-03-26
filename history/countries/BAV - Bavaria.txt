@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = austrian_archduchy_reform
+add_government_reform = feudalism_reform
 primary_culture = bavarian
 religion = catholic
 technology_group = western
