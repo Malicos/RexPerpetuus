@@ -9,23 +9,17 @@ Overall schedule:
 0.60 - Full content for Africa
 
 By region:
-0.1 - Western Europe
-0.2 - Northern Europe
-0.3 - Eastern Europe
-0.4 - The Balkans
-0.5 - Asia Minor, Caucasus and the Levant
-0.6 - North Africa
-0.7 - West Africa
-0.8 - East Africa
-0.9 - Arabian Peninsula
-0.10 - Iran
-0.11 - The Steppe
-0.12 - India
-0.13 - Indochina
-0.14 - Insulindia
-0.15 - China
-0.16 - Manchuria and Korea
-0.17 - Japan
-0.18 - North America
-0.19 - Central America
-0.20 - South America
+0.1 - Europe
+0.2 - Asia Minor, the Levant and Caucasus
+0.3 - North Africa
+0.4 - East Africa
+0.5 - West Africa
+0.6 - Arabian Peninsula
+0.7 - Mashriq, Persia and Afghanistan
+0.8 - The Steppes
+0.9 - India
+0.10 - Indochina
+0.11 - Indonesia
+0.12 - Far East
+0.13 - Japan
+0.14 - New World Natives

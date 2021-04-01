@@ -7,10 +7,14 @@
  BUR:0 "Arelat"
  ENG:0 "Aengland"
  ENG_ADJ:0 "Aenglisc"
+ PRU:0 "Pruthenia"
+ PRU_ADJ:0 "Pruthenian"
  SCO:0 "Alba"
  SCO_ADJ:0 "Alban"
  VAL:0 "Balansiya"
  VAL_ADJ:0 "Balansi"
+ VOL:0 "Little Rus"
+ VOL_ADJ:0 "Little Russian"
 
  # Cultures
  highland_scottish:0 "Gaelic"

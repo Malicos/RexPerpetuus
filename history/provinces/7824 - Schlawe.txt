@@ -1,9 +1,8 @@
 #BT Scandinavia and Baltics reoverhaul
 
-# todo: pomerelia
-owner = POM
-controller = POM
-add_core = POM
+owner = PME
+controller = PME
+add_core = PME
 culture = kashubian_culture
 religion = catholic
 capital = "Schlawe"

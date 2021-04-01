@@ -5,8 +5,8 @@
 #Core Details
 capital = "Fogaras"
 is_city = yes
-owner = WAL
-controller = WAL
+owner =  HUN
+controller = HUN
 
 #Demographics
 culture = romanian
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = WAL
 add_core = HUN
 add_core = TRA
 
@@ -42,20 +41,3 @@ discovered_by = muslim
 discovered_by = ottoman
 
 #Histories
-
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-	remove_core = WAL
-	remove_core = HUN
-	remove_core = TRA
-	add_core = SZE
-	owner = SZE
-	controller = SZE
-} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-	add_core = WAL
-	add_core = HUN
-	add_core = TRA
-	remove_core = SZE
-	owner = WAL
-	controller = WAL
-} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores

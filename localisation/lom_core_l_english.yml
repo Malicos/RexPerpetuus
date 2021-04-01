@@ -51,10 +51,16 @@
  ZEA_ADJ:0 "Zealander"
  
  # Eastern Europe
+ HRO:0 "Hrodna"
+ HRO_ADJ:0 "Hrodnian"
+ LEK:0 "Lek"
+ LEK_ADJ:0 "Lekian"
  LSL:0 "Lower Silesia"
  LSL_ADJ:0 "Lower Silesian"
  USL:0 "Upper Silesia"
  USL_ADJ:0 "Upper Silesian"
+ PME:0 "Pomerelia"
+ PME_ADJ:0 "Pomerelian"
  
  #################################################################################
  # 4 - Religions

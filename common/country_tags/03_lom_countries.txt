@@ -8,3 +8,10 @@ NGU = "countries/Nordgau.txt"
 OST = "countries/Ostfalen.txt"
 STO = "countries/Santok.txt"
 USL = "countries/UpperSilesia.txt"
+
+# Poland and Baltics
+LEK = "countries/Lek.txt"
+PME = "countries/Pomerelia.txt"
+
+# Rus
+HRO = "countries/Hrodna.txt"
