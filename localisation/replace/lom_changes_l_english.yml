@@ -4,22 +4,32 @@
  
  ADU:0 "al-Andalus"
  ADU_ADJ:0 "Andalusi"
+ ALB:0 "Arbanon"
+ ALB_ADJ:0 "Arberian"
  BUR:0 "Arelat"
  ENG:0 "Aengland"
  ENG_ADJ:0 "Aenglisc"
+ GRE:0 "Hellas"
+ GRE_ADJ:0 "Hellenic"
  PRU:0 "Pruthenia"
  PRU_ADJ:0 "Pruthenian"
  SCO:0 "Alba"
- SCO_ADJ:0 "Alban"
+ SCO_ADJ:0 "Albannach"
  VAL:0 "Balansiya"
  VAL_ADJ:0 "Balansi"
  VOL:0 "Little Rus"
  VOL_ADJ:0 "Little Russian"
 
  # Cultures
+ albanian:0 "Arberian"
  highland_scottish:0 "Gaelic"
+ romanian:0 "Dacian"
 
  # Technologies
  
- ottoman:0 "Rhomaioi"
- ottoman_desc:0 "With the Rhomaioi technology group, technology levels are 10% more expensive (110%)."
+ ottoman:0 "Rhomaion"
+ ottoman_desc:0 "With the Rhomaion technology group, technology levels are 10% more expensive (110%)."
+ 
+ # Base Localization Miscallenea
+ LOADING_TIP_19:0 "Trade going to the Anglisk Channel cannot be steered away.\nAs the end node, trade may only be collected here." 
+ LOADING_TIP_94:0 "Where once the Empire of Rhomania stood, there now are many Greek despotates.\nThey can reconquer all imperial lands and restore the Empire."

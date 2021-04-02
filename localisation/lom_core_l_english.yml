@@ -28,6 +28,7 @@
  batalyawsi:0 "Batalyawsi"        # Muslim Badajozi
  balansi_culture:0 "Balansi"      # Muslim Valencian
  liyuni_culture:0 "Liyuni"        # Muslim Leonese
+ pecheneg:0 "Pecenegi"            # Moldavo-Pecheneg
  
  #################################################################################
  # 3 - Tags
@@ -55,10 +56,16 @@
  HRO_ADJ:0 "Hrodnian"
  LEK:0 "Lek"
  LEK_ADJ:0 "Lekian"
+ MDN:0 "Macedonia"
+ MDN_ADJ:0 "Macedonian"
  LSL:0 "Lower Silesia"
  LSL_ADJ:0 "Lower Silesian"
+ TRC:0 "Thrace"
+ TRC_ADJ:0 "Thracian"
  USL:0 "Upper Silesia"
  USL_ADJ:0 "Upper Silesian"
+ PAI:0 "Paristrion"
+ PAI_ADJ:0 "Paristrian"
  PME:0 "Pomerelia"
  PME_ADJ:0 "Pomerelian"
  

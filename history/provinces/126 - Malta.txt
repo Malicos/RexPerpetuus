@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Sicily
 
-owner = SIC
-controller = SIC
-add_core = SIC
+owner = PIS
+controller = PIS
+add_core = PIS
 culture = maltese 
 religion = catholic 
 hre = no 

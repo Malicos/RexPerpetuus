@@ -8,7 +8,7 @@
  TAX_INCOME:0 "Base Yearly Tax Income"
  
  #Base Localisation Miscellanea
- LOADING_TIP_19:0 "Trade going to the English Channel cannot be steered away.\nAs the end node, trade may only be collected here."
+ # LOADING_TIP_19:0 "Trade going to the English Channel cannot be steered away.\nAs the end node, trade may only be collected here."    # Replaced in LoM
 
  #Colonial regions and names
  colonial_the_carribean:0 "Colonial Lesser Antilles"

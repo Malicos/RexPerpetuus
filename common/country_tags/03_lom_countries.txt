@@ -1,3 +1,8 @@
+# Balkans
+MDN = "countries/Macedonia.txt"
+PAI = "countries/Paristrion.txt"
+TRC = "countries/Thrace.txt"
+
 # France
 LDC = "countries/Languedoc.txt"
 

@@ -1,17 +1,18 @@
 #BT Balkans reoverhaul
 
-owner = HRZ
-controller = HRZ
+owner = BOS
+controller = BOS
+add_core = BOS
 add_core = HRZ
-culture = serbian
-religion = orthodox
+culture = bosnian
+religion = catholic
 capital = "Makarska"
 base_tax = 3
 base_production = 3
 base_manpower = 1
 trade_goods = wine
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = KAZ
 discovered_by = CRI
