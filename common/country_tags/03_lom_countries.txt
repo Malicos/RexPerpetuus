@@ -18,6 +18,7 @@ USL = "countries/UpperSilesia.txt"
 LEK = "countries/Lek.txt"
 PME = "countries/Pomerelia.txt"
 
-# Rus
+# East Europe
 BJA = "countries/Bjarmia.txt"
 HRO = "countries/Hrodna.txt"
+PEC = "countries/Pechenegia.txt"

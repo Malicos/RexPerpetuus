@@ -5,8 +5,8 @@
 #Core Details
 capital = "Chisinau"
 is_city = yes
-owner = MOL
-controller = MOL
+owner = PEC
+controller = PEC
 
 #Demographics
 culture = romanian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MOL
+add_core = PEC
 
 #Other Political
 hre = no
