@@ -94,6 +94,14 @@ vassal = {
 ####################################################################
 # 6 - Scandinavia
 ####################################################################
+# Sweden and Pruthenia
+vassal = {
+	first = SWE
+	second = PRU
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Sweden and Jutland
 vassal = {
 	first = SWE
@@ -128,3 +136,10 @@ vassal = {
 ####################################################################
 # 9 - Balkans
 ####################################################################
+# Union of Croatia and Bosnia
+union = {
+	first = CRO
+	second = BOS
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}

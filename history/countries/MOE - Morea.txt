@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2	# Greek Despotate
+technology_group = ottoman	# Rhomaion
+primary_culture = greek
+religion = orthodox
+capital = 145	# Nafplio
+fixed_capital = 145 # Cannot move capital away from this province & no power cost to move to it

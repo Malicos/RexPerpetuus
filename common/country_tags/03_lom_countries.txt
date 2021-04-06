@@ -19,4 +19,5 @@ LEK = "countries/Lek.txt"
 PME = "countries/Pomerelia.txt"
 
 # Rus
+BJA = "countries/Bjarmia.txt"
 HRO = "countries/Hrodna.txt"
