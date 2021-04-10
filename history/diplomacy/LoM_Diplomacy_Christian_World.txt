@@ -94,6 +94,14 @@ vassal = {
 ####################################################################
 # 6 - Scandinavia
 ####################################################################
+# Sweden and Estonia
+vassal = {
+	first = SWE
+	second = EST
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Sweden and Pruthenia
 vassal = {
 	first = SWE
