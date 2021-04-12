@@ -15,8 +15,10 @@ STO = "countries/Santok.txt"
 USL = "countries/UpperSilesia.txt"
 
 # Poland and Baltics
+AUK = "countries/Aukstaitija.txt"
 LEK = "countries/Lek.txt"
 PME = "countries/Pomerelia.txt"
+VIL = "countries/Vilna.txt"
 
 # East Europe
 BOL = "countries/Bolghar.txt"
@@ -24,5 +26,7 @@ BJA = "countries/Bjarmia.txt"
 CVS = "countries/Chuvash.txt"
 HRO = "countries/Hrodna.txt"
 ITI = "countries/Itil.txt"
+MSK = "countries/Minsk.txt"
 PEC = "countries/Pechenegia.txt"
+PNS = "countries/Pinsk.txt"
 VOR = "countries/Voronezh.txt"
