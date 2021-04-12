@@ -52,10 +52,16 @@
  ZEA_ADJ:0 "Zealander"
  
  # Eastern Europe
+ BOL:0 "Bolghar"
+ BOL_ADJ:0 "Bolgharian"
  BJA:0 "Bjarmia"
  BJA_ADJ:0 "Bjarmian"
+ CVS:0 "Chuvash"
+ CVS_ADJ:0 "Chuvash"
  HRO:0 "Hrodna"
  HRO_ADJ:0 "Hrodnian"
+ ITI:0 "Itil"
+ ITI_ADJ:0 "Itil"
  LEK:0 "Lek"
  LEK_ADJ:0 "Lekian"
  MDN:0 "Macedonia"
@@ -72,6 +78,8 @@
  PAI_ADJ:0 "Paristrian"
  PME:0 "Pomerelia"
  PME_ADJ:0 "Pomerelian"
+ VOR:0 "Voronezh"
+ VOR_ADJ:0 "Voronezhian"
  
  #################################################################################
  # 4 - Religions

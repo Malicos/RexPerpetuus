@@ -19,6 +19,10 @@ LEK = "countries/Lek.txt"
 PME = "countries/Pomerelia.txt"
 
 # East Europe
+BOL = "countries/Bolghar.txt"
 BJA = "countries/Bjarmia.txt"
+CVS = "countries/Chuvash.txt"
 HRO = "countries/Hrodna.txt"
+ITI = "countries/Itil.txt"
 PEC = "countries/Pechenegia.txt"
+VOR = "countries/Voronezh.txt"
