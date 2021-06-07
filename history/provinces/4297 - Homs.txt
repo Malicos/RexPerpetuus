@@ -1,8 +1,9 @@
 #4297 - Homs
 
-owner = MAM
-controller = MAM
-add_core = MAM
+owner = SYR
+controller = SYR
+add_core = SYR
+add_core = LEB
 culture = syriac_culture
 religion = orthodox				#As far as I can tell, during this period realigion was really split 25-25-25-25 ER orthodox, Sunni, Shia or Druze, and Marionite Catholic... going with orthodox, for now
 capital = "Ba'albek"
@@ -12,8 +13,6 @@ base_tax = 2
 base_production = 2 
 base_manpower = 2 
 is_city = yes
-add_core = LEB
-add_core = SYR
 
 discovered_by = western
 discovered_by = eastern
@@ -22,26 +21,3 @@ discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = indian
 discovered_by = east_african
-
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-	remove_core = MAM
-	remove_core = LEB
-	owner = SYR
-	controller = SYR
-} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-	add_core = MAM
-	add_core = LEB
-	owner = MAM
-	controller = MAM
-} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-
-#1444 onwards
-1475.1.1 = {
-	religion = sunni
-} # Islam controled the city and upper class, and quickly became the majority religion, if it wasnt already in the 15th century
-1516.8.24 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} # Part of the Ottoman Empire
