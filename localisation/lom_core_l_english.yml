@@ -29,6 +29,7 @@
  balansi_culture:0 "Balansi"      # Muslim Valencian
  liyuni_culture:0 "Liyuni"        # Muslim Leonese
  pecheneg:0 "Pecenegi"            # Moldavo-Pecheneg
+ turko_iranian:0 "Turko-Iranian"  # Persianate Turks
  
  #################################################################################
  # 3 - Tags
@@ -96,6 +97,10 @@
  CYR_ADJ:0 "Cyrenaican"
  KEM:0 "Kemet"
  KEM_ADJ:0 "Remenkhemi"
+ 
+ # Middle East
+ SJK:0 "Seljuks"
+ SJK_ADJ:0 "Seljuk"
  
  #################################################################################
  # 4 - Religions

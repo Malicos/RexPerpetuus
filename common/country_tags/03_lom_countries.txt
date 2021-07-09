@@ -33,3 +33,6 @@ VOR = "countries/Voronezh.txt"
 
 # North Africa
 KEM = "countries/Kemet.txt"
+
+# Middle East
+SJK = "countries/Seljuk.txt"
