@@ -35,4 +35,6 @@ VOR = "countries/Voronezh.txt"
 KEM = "countries/Kemet.txt"
 
 # Middle East
+FJD = "countries/Falajid.txt"
+HSH = "countries/Hashimid.txt"
 SJK = "countries/Seljuk.txt"

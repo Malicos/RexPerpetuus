@@ -1,7 +1,8 @@
 #2331 - Jeddah
 
-owner = HED
-controller = HED
+owner = HSH
+controller = HSH
+add_core = HSH
 culture = hejazi_culture
 religion = sunni
 capital = "Jiddah"
@@ -11,7 +12,6 @@ base_tax = 6
 base_production = 8
 base_manpower = 3 
 is_city = yes
-add_core = HED
 
 discovered_by = muslim
 discovered_by = ottoman
@@ -23,35 +23,3 @@ discovered_by = east_african
 
 extra_cost = 15
 center_of_trade = 2
-
-
-1453.1.1 = { discovered_by = western }
-
-1516.8.24 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} #Annexed by the Ottoman Empire along with the rest of Mamluk territory
-
-1770.1.1 = {
-	owner = MAM
-	controller = MAM
-	add_core = MAM
-} # Ali Bey's rebellion gained control of the Hijaz
-
-1772.1.1 = {
-	owner = TUR
-	controller = TUR
-	remove_core = MAM
-} # Ali Bey's rebellion crushed, control returned to the Ottomans
-
-1803.1.1 = {
-	owner = NAJ
-	controller = NAJ
-	add_core = NAJ
-} # The First Saudi State expands to the Hejaz
-
-1813.1.1 = {
-	owner = TUR
-	controller = TUR
-} # Recapture of the Jiddah and Mecca. Returns to Ottoman control

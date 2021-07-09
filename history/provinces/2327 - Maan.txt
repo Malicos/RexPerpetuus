@@ -1,8 +1,8 @@
 #2327 - Maan
 
-owner = MDA
-controller = MDA
-add_core = MDA
+owner = HSH
+controller = HSH
+add_core = HSH
 culture = bedouin_arabic
 religion = sunni
 capital = "Maqnah"

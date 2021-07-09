@@ -99,6 +99,10 @@
  KEM_ADJ:0 "Remenkhemi"
  
  # Middle East
+ FJD:0 "Falajids"
+ FJD_ADJ:0 "Falajid"
+ HSH:0 "Hashimids"
+ HSH_ADJ:0 "Hashimid"
  SJK:0 "Seljuks"
  SJK_ADJ:0 "Seljuk"
  
