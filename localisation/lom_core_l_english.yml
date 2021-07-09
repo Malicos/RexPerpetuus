@@ -91,6 +91,12 @@
  VOR:0 "Voronezh"
  VOR_ADJ:0 "Voronezhian"
  
+ # North Africa
+ CYR:0 "Cyrenaica"
+ CYR_ADJ:0 "Cyrenaican"
+ KEM:0 "Kemet"
+ KEM_ADJ:0 "Remenkhemi"
+ 
  #################################################################################
  # 4 - Religions
  #################################################################################

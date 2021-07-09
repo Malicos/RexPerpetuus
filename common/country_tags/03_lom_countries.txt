@@ -30,3 +30,6 @@ MSK = "countries/Minsk.txt"
 PEC = "countries/Pechenegia.txt"
 PNS = "countries/Pinsk.txt"
 VOR = "countries/Voronezh.txt"
+
+# North Africa
+KEM = "countries/Kemet.txt"
