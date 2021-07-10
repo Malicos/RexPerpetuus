@@ -31,6 +31,10 @@ PEC = "countries/Pechenegia.txt"
 PNS = "countries/Pinsk.txt"
 VOR = "countries/Voronezh.txt"
 
+# Asia Minor
+NIK = "countries/Nikaea.txt"
+PON = "countries/Pontus.txt"
+
 # North Africa
 KEM = "countries/Kemet.txt"
 

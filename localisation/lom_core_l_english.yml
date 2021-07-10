@@ -92,6 +92,12 @@
  VOR:0 "Voronezh"
  VOR_ADJ:0 "Voronezhian"
  
+ # Asia Minor
+ NIK:0 "Nikaea"
+ NIK_ADJ:0 "Nikaean"
+ PON:0 "Pontus"
+ PON_ADJ:0 "Pontic"
+ 
  # North Africa
  CYR:0 "Cyrenaica"
  CYR_ADJ:0 "Cyrenaican"
