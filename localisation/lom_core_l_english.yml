@@ -30,6 +30,7 @@
  liyuni_culture:0 "Liyuni"        # Muslim Leonese
  pecheneg:0 "Pecenegi"            # Moldavo-Pecheneg
  turko_iranian:0 "Turko-Iranian"  # Persianate Turks
+ daylamite:0 "Daylamite"
  
  #################################################################################
  # 3 - Tags
@@ -105,6 +106,8 @@
  KEM_ADJ:0 "Remenkhemi"
  
  # Middle East
+ DAY:0 "Daylam"
+ DAY_ADJ:0 "Daylamite"
  FJD:0 "Falajids"
  FJD_ADJ:0 "Falajid"
  HSH:0 "Hashimids"

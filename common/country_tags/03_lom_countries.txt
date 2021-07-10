@@ -39,6 +39,7 @@ PON = "countries/Pontus.txt"
 KEM = "countries/Kemet.txt"
 
 # Middle East
+DAY = "countries/Daylam.txt"
 FJD = "countries/Falajid.txt"
 HSH = "countries/Hashimid.txt"
 SJK = "countries/Seljuk.txt"

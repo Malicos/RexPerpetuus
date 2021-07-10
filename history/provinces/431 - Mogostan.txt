@@ -3,7 +3,7 @@
 owner = ORM
 controller = ORM
 add_core = ORM
-culture = gulf_arabic
+culture = turko_iranian
 religion = shiite
 capital = "Gamrun"
 trade_goods = spices

@@ -24,12 +24,14 @@
  VAL_ADJ:0 "Balansi"
  VOL:0 "Little Rus"
  VOL_ADJ:0 "Little Russian"
+ QOM:0 "Qom"
+ QOM_ADJ:0 "Qomi"
 
  # Cultures
  
  albanian:0 "Arberian"
  highland_scottish:0 "Gaelic"
- romanian:0 "Dacian"
+ romanian:0 "Vlach"
 
  # Technologies
  
