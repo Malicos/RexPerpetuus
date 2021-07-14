@@ -1,10 +1,11 @@
 # No previous file for Cholula
 
-culture = aztek
-owner = TLX
-controller = TLX
+owner = TAR
+controller = TAR
+add_core = TAR
 add_core = TLX
 is_city = yes
+culture = aztek
 religion = nahuatl
 capital = "Cholula"
 trade_goods = sugar
@@ -16,8 +17,6 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 2
 
-
-
 discovered_by = mesoamerican
 
 add_province_triggered_modifier = nahuatl_cholula
@@ -26,13 +25,3 @@ add_permanent_province_modifier = {
 	name = cholula_temples
 	duration = -1
 }
-
-1520.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	remove_core = TLX
-	remove_province_modifier = cholula_temples
-} #Form a strong and long-lasting alliance with Spain
-1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence
-

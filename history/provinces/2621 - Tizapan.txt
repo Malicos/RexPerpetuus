@@ -1,10 +1,11 @@
 # No previous file for Tizapan
 
-culture = tepic
-owner = TON
-controller = TON
+owner = TAR
+controller = TAR
+add_core = TAR
 add_core = TON
 is_city = yes
+culture = tepic
 religion = nahuatl
 capital = "Tizapan"
 trade_goods = grain
@@ -17,23 +18,4 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 2
 
-
-
 discovered_by = mesoamerican
-
-
-1460.1.1 = { 
-	owner = TAR
-	controller = TAR
-	add_core = TAR
-	} #Estimated: Tarascan expansion
-1523.1.1 = {
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	religion = catholic
-	unrest = 5
-}
-1541.1.1 = { culture = castillian }
-1810.9.16 = { owner = MEX add_core = MEX controller = MEX }
-
