@@ -43,3 +43,8 @@ DAY = "countries/Daylam.txt"
 FJD = "countries/Falajid.txt"
 HSH = "countries/Hashimid.txt"
 SJK = "countries/Seljuk.txt"
+
+# Iran
+BKH = "countries/Balkh.txt"
+KLA = "countries/Kalat.txt"
+MRN = "countries/Makran.txt"

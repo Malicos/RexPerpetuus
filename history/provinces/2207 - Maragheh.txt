@@ -3,7 +3,7 @@
 owner = DAY
 controller = DAY
 add_core = DAY
-culture = daylamite
+culture = kurdish
 religion = shiite
 capital = "Marageh"
 trade_goods = wool
