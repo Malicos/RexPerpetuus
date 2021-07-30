@@ -2,9 +2,9 @@
 #Region - Ireland
 #Area - Ulster
 
-owner = DNL
-controller = DNL
-add_core = DNL
+owner = ENG
+controller = ENG
+add_core = ENG
 add_core = MGH
 culture = irish
 religion = catholic

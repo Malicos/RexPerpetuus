@@ -5,8 +5,8 @@
 #Core Details
 capital = "Nottingham"
 is_city = yes
-owner = DNL
-controller = DNL
+owner = ENG
+controller = ENG
 
 #Demographics
 culture = anglisk
@@ -20,7 +20,7 @@ trade_goods = bt_trade_good_beer #major malting industries, as well as hops and 
 latent_trade_goods = { coal }
 
 #Cores and Occupation (Alphabetical after current)
-add_core = DNL
+add_core = ENG
 
 #Other Political
 hre = no

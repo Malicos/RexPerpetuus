@@ -5,8 +5,8 @@
 #Core Details
 capital = "Carmarthen"
 is_city = yes
-owner = DNL
-controller = DNL
+owner = ENG
+controller = ENG
 
 #Demographics
 culture = welsh
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = DNL
+add_core = ENG
 add_core = WLS
 
 #Other Political

@@ -5,7 +5,6 @@ primary_culture = anglisk
 religion = catholic
 technology_group = western
 capital = 245 	# Jorvik
-add_accepted_culture = anglo_saxon
 
 1444.11.11 = {
 	monarch = {

@@ -5,11 +5,10 @@
 #Core Details
 capital = "Bedford"
 is_city = yes
-owner = DNL
-controller = DNL
-
+owner = ENG
+controller = ENG
 #Demographics
-culture = anglo_saxon
+culture = anglisk
 religion = catholic
 
 #Development and Trade
@@ -19,8 +18,7 @@ base_manpower = 2
 trade_goods = bt_trade_good_beer
 
 #Cores and Occupation (Alphabetical after current)
-add_core = DNL
-add_core = ENG	# potential revolter tag
+add_core = ENG
 
 #Other Political
 hre = no

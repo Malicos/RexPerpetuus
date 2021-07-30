@@ -5,8 +5,8 @@
 #Core Details
 capital = "Kingston upon Hull"
 is_city = yes
-owner = DNL
-controller = DNL
+owner = ENG
+controller = ENG
 
 #Demographics
 culture = anglisk
@@ -19,7 +19,7 @@ base_manpower = 3
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
-add_core = DNL
+add_core = ENG
 
 #Other Political
 hre = no

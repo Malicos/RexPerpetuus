@@ -5,8 +5,8 @@
 #Core Details
 capital = "Barnstaple"
 is_city = yes
-owner = DNL
-controller = DNL
+owner = ENG
+controller = ENG
 
 #Demographics
 culture = cornish
@@ -19,9 +19,8 @@ base_manpower = 1
 trade_goods = copper
 
 #Cores and Occupation (Alphabetical after current)
-add_core = DNL
-add_core = CRN
 add_core = ENG
+add_core = CRN
 
 #Other Political
 hre = no

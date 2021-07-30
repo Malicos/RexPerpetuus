@@ -5,11 +5,11 @@
 #Core Details
 capital = "Salisbury"
 is_city = yes
-owner = DNL
-controller = DNL
+owner = ENG
+controller = ENG
 
 #Demographics
-culture = anglo_saxon
+culture = anglisk
 religion = catholic
 
 #Development and Trade
@@ -19,8 +19,7 @@ base_manpower = 2
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = DNL
-add_core = ENG	# potential Aengland revolter tag
+add_core = ENG
 
 #Other Political
 hre = no

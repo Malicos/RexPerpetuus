@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Deheubarth
 
-owner = DNL
-controller = DNL
-add_core = DNL
+owner = ENG
+controller = ENG
+add_core = ENG
 add_core = WLS
 culture = welsh
 religion = catholic

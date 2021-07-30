@@ -2,11 +2,10 @@
 #Region - Britain
 #Area - Wessex
 
-owner = DNL
-controller = DNL
-add_core = DNL
-add_core = ENG	# potential Aengland revolter tag
-culture = anglo_saxon
+owner = ENG
+controller = ENG
+add_core = ENG
+culture = anglisk
 religion = catholic
 hre = no
 base_tax = 4
