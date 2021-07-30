@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Austria Proper
 
-owner = HAB
-controller = HAB
-add_core = HAB
+owner = BAV
+controller = BAV
+add_core = BAV
 culture = austrian
 religion = catholic
 base_tax = 10 

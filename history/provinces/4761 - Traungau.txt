@@ -1,8 +1,8 @@
 #4761 - Traungau
 
-owner = HAB
-controller = HAB
-add_core = HAB
+owner = BAV
+controller = BAV
+add_core = BAV
 add_core = STY
 culture = austrian
 religion = catholic
