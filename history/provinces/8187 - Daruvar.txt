@@ -10,7 +10,7 @@ controller = CRO
 
 #Demographics
 culture = croatian
-religion = catholic
+religion = hussite
 
 #Development and Trade
 base_tax = 1
