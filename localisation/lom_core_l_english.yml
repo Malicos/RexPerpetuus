@@ -99,6 +99,10 @@
  PON:0 "Pontus"
  PON_ADJ:0 "Pontic"
  
+ # East Africa
+ NBA:0 "Nubia"
+ NBA_ADJ:0 "Nubian"
+ 
  # North Africa
  CYR:0 "Cyrenaica"
  CYR_ADJ:0 "Cyrenaican"

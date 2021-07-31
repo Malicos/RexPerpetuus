@@ -36,6 +36,9 @@
  albanian:0 "Arberian"
  highland_scottish:0 "Gaelic"
  romanian:0 "Vlach"
+ 
+ # Religions
+ protestant:0 "Evangelical"
 
  # Technologies
  

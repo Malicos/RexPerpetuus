@@ -1,8 +1,8 @@
 #2322 - Wadi Halfa
 
-owner = MAK
-controller = MAK
-add_core = MAK
+owner = NBA
+controller = NBA
+add_core = NBA
 culture = nubian
 religion = coptic
 capital = "Para"			#(Faras) Daw was also, theoretically, nearby, but I found no info on it.
@@ -12,8 +12,6 @@ trade_goods = livestock
 hre = no
 base_tax = 4
 base_production = 4
-add_core = MKR
-add_core = NBA
 
 discovered_by = muslim
 discovered_by = ottoman
@@ -26,10 +24,3 @@ add_permanent_province_modifier = {
 	name = btpl_nile_river_in_arid_desert_province
 	duration = -1
 }
-
-1484.1.1 = {
-	owner = ABB
-	controller = ABB
-	add_core = ABB
-}
-1517.1.1 = { add_core = TUR } # Mamluks fall to Ottomans, Ottomans do not advance up Nile

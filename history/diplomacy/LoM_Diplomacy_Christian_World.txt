@@ -17,9 +17,9 @@
 ####################################################################
 # 1 - Northern Isles (Albion)
 ####################################################################
-# Union of Danelaw and Wales
+# Union of Anglia and Wales
 union = {
-	first = DNL
+	first = ENG
 	second = WLS
 	start_date = 1444.11.11
 	end_date = 1836.1.1
@@ -67,6 +67,14 @@ vassal = {
 vassal = {
 	first = BAV
 	second = NGU
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Bavaria and Ostmark
+vassal = {
+	first = BAV
+	second = HAB
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
