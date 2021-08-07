@@ -55,4 +55,5 @@ MRN = "countries/Makran.txt"
 # Central Asia
 KLS = "countries/Karlukistan.txt"
 OGZ = "countries/Oghuz.txt"
+QOC = "countries/Qocho.txt"
 SGD = "countries/Sughd.txt"
