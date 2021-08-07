@@ -1,9 +1,6 @@
-capital = 4126 #Kiksunsag
-
-technology_group = eastern
-
-government = monarchy
-add_government_reform = feudalism_reform
-
-religion = catholic
+government = tribal
+add_government_reform = steppe_horde
+technology_group = nomad_group
+religion = sunni
 primary_culture = cuman
+capital = 4692 #Turgay

@@ -14,6 +14,9 @@ OST = "countries/Ostfalen.txt"
 STO = "countries/Santok.txt"
 USL = "countries/UpperSilesia.txt"
 
+# South Italy
+TCA = "countries/Trinacria.txt"
+
 # Poland and Baltics
 AUK = "countries/Aukstaitija.txt"
 LEK = "countries/Lek.txt"
@@ -50,4 +53,6 @@ KLA = "countries/Kalat.txt"
 MRN = "countries/Makran.txt"
 
 # Central Asia
+KLS = "countries/Karlukistan.txt"
 OGZ = "countries/Oghuz.txt"
+SGD = "countries/Sughd.txt"

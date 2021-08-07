@@ -50,6 +50,8 @@
  OST_ADJ:0 "Eastphalian"
  STO:0 "Santok"
  STO_ADJ:0 "Santokian"
+ TCA:0 "Trinacria"
+ TCA_ADJ:0 "Trinacrian"
  ZEA:0 "Zealand"
  ZEA_ADJ:0 "Zealander"
  
@@ -128,11 +130,17 @@
  MRN_ADJ:0 "Makrani"
  
  # Central Asia
+ KLS:0 "Karlukistan"
+ KLS_ADJ:0 "Karluk"
  OGZ:0 "Oghuz Il"
  OGZ_ADJ:0 "Oghuz"
+ SGD:0 "Sughd"
+ SGD_ADJ:0 "Sogdian"
  
  #################################################################################
  # 4 - Religions
  #################################################################################
  # Christian
+ apostolic:0 "Apostolic"
  cathar:0 "Cathar"
+ nestorian:0 "Nestorian"
