@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 2
+primary_culture = turkmeni
+religion = sunni
+technology_group = nomad_group
+capital = 438	# Karakum

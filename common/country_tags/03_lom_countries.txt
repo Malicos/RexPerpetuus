@@ -48,3 +48,6 @@ SJK = "countries/Seljuk.txt"
 BKH = "countries/Balkh.txt"
 KLA = "countries/Kalat.txt"
 MRN = "countries/Makran.txt"
+
+# Central Asia
+OGZ = "countries/Oghuz.txt"
