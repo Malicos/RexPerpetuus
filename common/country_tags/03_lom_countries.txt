@@ -58,3 +58,6 @@ OGZ = "countries/Oghuz.txt"
 QOC = "countries/Qocho.txt"
 SGD = "countries/Sughd.txt"
 ZHT = "countries/Zhetysu.txt"
+
+# Indochina
+PAG = "countries/Pagan.txt"
