@@ -60,4 +60,5 @@ SGD = "countries/Sughd.txt"
 ZHT = "countries/Zhetysu.txt"
 
 # Indochina
+LAV = "countries/Lavo.txt"
 PAG = "countries/Pagan.txt"
