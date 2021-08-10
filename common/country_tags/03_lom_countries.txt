@@ -62,3 +62,7 @@ ZHT = "countries/Zhetysu.txt"
 # Indochina
 LAV = "countries/Lavo.txt"
 PAG = "countries/Pagan.txt"
+
+# Far East
+NAI = "countries/Naiman.txt"
+URK = "countries/Uriankhai.txt"
