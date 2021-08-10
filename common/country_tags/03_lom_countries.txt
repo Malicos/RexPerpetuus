@@ -65,4 +65,5 @@ PAG = "countries/Pagan.txt"
 
 # Far East
 NAI = "countries/Naiman.txt"
+SNG = "countries/Song.txt"
 URK = "countries/Uriankhai.txt"

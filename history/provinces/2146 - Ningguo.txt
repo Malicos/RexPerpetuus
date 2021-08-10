@@ -1,8 +1,8 @@
 # 2144 - Ningguo
 
-owner = MNG
-controller = MNG
-add_core = MNG
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = wu
 religion = confucianism
 capital = "Ningguo"
@@ -14,11 +14,3 @@ base_manpower = 6
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
-
-1595.1.1 = { discovered_by = SPA }
-
-1645.6.14 = {
-	owner = QNG
-	controller = QNG
-	add_core = QNG
-}
