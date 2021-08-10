@@ -1,8 +1,8 @@
 #698 - Guyuan
 
-owner = SNG
-controller = SNG
-add_core = SNG
+owner = LIA
+controller = LIA
+add_core = LIA
 add_core = CSH
 culture = mongol
 religion = confucianism
