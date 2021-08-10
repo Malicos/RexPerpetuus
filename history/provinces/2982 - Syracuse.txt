@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Sicily
 
-owner = SIC
-controller = SIC
-add_core = SIC
+owner = TCA
+controller = TCA
+add_core = TCA
 culture = griko 
 religion = orthodox 
 hre = no 

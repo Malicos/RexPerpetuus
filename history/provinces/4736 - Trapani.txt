@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = SIC
-controller = SIC
-add_core = SIC
+owner = TCA
+controller = TCA
+add_core = TCA
 culture = sicilian
 religion = catholic
 capital = "Trapani"
