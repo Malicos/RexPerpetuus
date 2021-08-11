@@ -148,6 +148,8 @@
  PAG_ADJ:0 "Pagan"
  
  # Far East
+ AMD:0 "Amdo"
+ AMD_ADJ:0 "Amdo"
  LIA:0 "Liao"
  LIA_ADJ:0 "Liao"
  NAI:0 "Naiman"
