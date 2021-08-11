@@ -64,6 +64,7 @@ LAV = "countries/Lavo.txt"
 PAG = "countries/Pagan.txt"
 
 # Far East
+AMD = "countries/Amdo.txt"
 LIA = "countries/Liao.txt"
 NAI = "countries/Naiman.txt"
 SNG = "countries/Song.txt"
