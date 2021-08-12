@@ -148,6 +148,8 @@
  LAV_ADJ:0 "Lavan"
  PAG:0 "Pagan"
  PAG_ADJ:0 "Pagan"
+ XTG:0 "Xieng Thong"
+ XTG_ADJ:0 "Xieng Thong"
  
  # Far East
  AMD:0 "Amdo"

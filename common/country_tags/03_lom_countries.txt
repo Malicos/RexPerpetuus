@@ -63,6 +63,7 @@ ZHT = "countries/Zhetysu.txt"
 HPC = "countries/Hariphunchai.txt"
 LAV = "countries/Lavo.txt"
 PAG = "countries/Pagan.txt"
+XTG = "countries/XiengThong.txt"
 
 # Far East
 AMD = "countries/Amdo.txt"
