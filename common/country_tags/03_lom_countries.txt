@@ -59,7 +59,8 @@ QOC = "countries/Qocho.txt"
 SGD = "countries/Sughd.txt"
 ZHT = "countries/Zhetysu.txt"
 
-# Indochina
+# South-East Asia
+HPC = "countries/Hariphunchai.txt"
 LAV = "countries/Lavo.txt"
 PAG = "countries/Pagan.txt"
 

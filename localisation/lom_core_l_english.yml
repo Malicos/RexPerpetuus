@@ -141,7 +141,9 @@
  ZHT:0 "Zhetysu"
  ZHT_ADJ:0 "Zhetysu"
  
- # Indochina
+ # South-East Asia
+ HPC:0 "Hariphunchai"
+ HPC_ADJ:0 "Hariphunchai"
  LAV:0 "Lavo"
  LAV_ADJ:0 "Lavan"
  PAG:0 "Pagan"
