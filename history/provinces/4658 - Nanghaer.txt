@@ -1,8 +1,5 @@
 #Nangha'er
 
-owner = NVK
-controller = NVK
-add_core = NVK
 culture = evenk
 religion = animism
 capital = "Nangha'er"

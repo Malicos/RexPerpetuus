@@ -1,8 +1,8 @@
 # 4215 - Fudali
 
-owner = MYR
-controller = MYR
-add_core = MYR
+owner = NRG
+controller = NRG
+add_core = NRG
 culture = manchu
 religion = tengri_pagan_reformed
 capital = "Fudali"

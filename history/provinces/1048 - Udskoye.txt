@@ -1,8 +1,8 @@
 #1048 - Udskoye
 
-owner = NVK
-controller = NVK
-add_core = NVK
+owner = NRG
+controller = NRG
+add_core = NRG
 culture = evenk
 religion = tengri_pagan_reformed
 capital = "Miyoo Gasan"
