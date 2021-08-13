@@ -3,8 +3,8 @@
 owner = NIK
 controller = NIK
 add_core = NIK
-culture = turkish
-religion = sunni
+culture = mikrasiatic
+religion = orthodox
 capital = "Alashehir"
 trade_goods = bt_trade_good_fruit			#Sultana raisins
 hre = no

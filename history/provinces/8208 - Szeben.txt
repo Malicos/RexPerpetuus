@@ -9,8 +9,8 @@ owner = HUN
 controller = HUN
 
 #Demographics
-culture = transylvanian_saxons
-religion = catholic
+culture = romanian
+religion = orthodox
 
 #Development and Trade
 base_tax = 2

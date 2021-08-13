@@ -3,8 +3,8 @@
 owner = PON
 controller = PON
 add_core = PON
-culture = turkish
-religion = sunni
+culture = pontic_greek
+religion = orthodox
 capital = "Bayramli"
 trade_goods = naval_supplies			#famous for hazelnuts, timber, and orchards
 hre = no

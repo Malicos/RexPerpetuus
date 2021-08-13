@@ -3,7 +3,7 @@
 owner = GRE
 controller = GRE
 add_core = GRE
-culture = greek
+culture = hellas_culture
 religion = orthodox
 capital = "Larissa"
 trade_goods = grain

@@ -31,6 +31,15 @@
  pecheneg:0 "Pecenegi"            # Moldavo-Pecheneg
  turko_iranian:0 "Turko-Iranian"  # Persianate Turks
  daylamite:0 "Daylamite"
+ macedonian:0 "Macedonian"        # Hellenic Warlords
+ thracian:0 "Thracian"            # Hellenic Warlords
+ epirotan:0 "Epirotan"            # Hellenic Warlords
+ mikrasiatic:0 "Mikrasiatic"      # Hellenic Warlords
+ moesian:0 "Moesian"              # Hellenised Bulgarian
+ dodecanesian:0 "Dodecanesian"    # Hellenic Warlords
+ imperial_bulgarian:0 "Rimmish"   # Hellenised Bulgarian Empire
+ hellas_culture:0 "Hellenic"      # Hellenic Warlords 
+ rhomaioi:0 "Rhomaîoi"            # Unified Byzantium
  
  #################################################################################
  # 3 - Tags
@@ -154,16 +163,10 @@
  # Far East
  AMD:0 "Amdo"
  AMD_ADJ:0 "Amdo"
- DNH:0 "Dong Nuzhen"
- DNH_ADJ:0 "Dongzhen"
  LIA:0 "Liao"
  LIA_ADJ:0 "Liao"
- ORO:0 "Orochen"
- ORO_ADJ:0 "Orochen"
  NAI:0 "Naiman"
  NAI_ADJ:0 "Naiman"
- NRG:0 "Nurgan"
- NRG_ADJ:0 "Nurgani"
  SNG:0 "Song"
  SNG_ADJ:0 "Song"
  URK:0 "Uriankhai"

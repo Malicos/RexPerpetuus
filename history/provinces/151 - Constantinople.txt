@@ -3,7 +3,7 @@
 owner = TRC
 controller = TRC
 add_core = TRC
-culture = greek
+culture = thracian
 religion = orthodox
 capital = "Constantinople"
 trade_goods = cloth #Overwrote BT's glass because it broke some of my events. Band-aid fix, I know.			

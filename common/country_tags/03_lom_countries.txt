@@ -67,10 +67,7 @@ XTG = "countries/XiengThong.txt"
 
 # Far East
 AMD = "countries/Amdo.txt"
-DNH = "countries/DongNuzhen.txt"
 LIA = "countries/Liao.txt"
 NAI = "countries/Naiman.txt"
-NRG = "countries/Nurgan.txt"
-ORO = "countries/Orochen.txt"
 SNG = "countries/Song.txt"
 URK = "countries/Uriankhai.txt"

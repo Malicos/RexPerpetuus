@@ -3,8 +3,8 @@
 owner = WAL
 controller = WAL
 add_core = WAL
-culture = transylvanian_saxons
-religion = catholic
+culture = romanian
+religion = orthodox
 capital = "Campulung"
 base_tax = 2 
 base_production = 2 

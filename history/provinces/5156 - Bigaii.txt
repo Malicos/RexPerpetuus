@@ -3,8 +3,8 @@
 owner = NIK
 controller = NIK
 add_core = NIK
-culture = turkish
-religion = sunni
+culture = mikrasiatic
+religion = orthodox
 capital = "Biga"
 trade_goods = naval_supplies			#Unclear, going with naval supplies because of the large forests around here
 hre = no

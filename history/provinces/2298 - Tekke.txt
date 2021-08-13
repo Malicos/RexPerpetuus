@@ -3,8 +3,8 @@
 owner = NIK
 controller = NIK
 add_core = NIK
-culture = turkish
-religion = sunni
+culture = cappadocian
+religion = orthodox
 capital = "Antalya"			#An earlier varient of the name, which is fine, leaving vanilla
 trade_goods = cotton			#actually more famous for fruit, like citrus. Considering best trade good for fruit is wine and spices, however, leaving cotton.
 hre = no

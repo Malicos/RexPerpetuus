@@ -3,7 +3,7 @@
 owner = PIS
 controller = PIS
 add_core = PIS
-culture = greek
+culture = dodecanesian
 religion = orthodox
 capital = "Rhodes"
 trade_goods = cloth

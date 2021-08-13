@@ -3,8 +3,8 @@
 owner = PAI
 controller = PAI
 add_core = PAI
-culture = turkish		#Unclear if Bulgarian or Romanian majority. Niki brought up Sari Saltak for Karvuna, so I'm going with it, iffy basis or no.
-religion = sunni
+culture = romanian		
+religion = orthodox
 capital = "Isaccea"
 base_tax = 3
 base_production = 2

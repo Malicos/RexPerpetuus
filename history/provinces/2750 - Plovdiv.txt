@@ -3,7 +3,7 @@
 owner = BUL
 controller = BUL
 add_core = BUL
-culture = bulgarian
+culture = moesian
 religion = orthodox
 capital = "Plovdiv"
 trade_goods = grain			#fertile region

@@ -3,7 +3,7 @@
 owner = TRC
 controller = TRC
 add_core = TRC
-culture = bulgarian
+culture = moesian
 religion = orthodox
 capital = "Karnobat"			#Niki choose Lardeya,  because Sliven was not yet important, but this seems a only tangentially important fort outside of the more important Diampolis, id est, Yambol. I'm going with Karnobat instead for now
 base_tax = 2

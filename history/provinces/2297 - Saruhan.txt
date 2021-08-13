@@ -3,8 +3,8 @@
 owner = NIK
 controller = NIK
 add_core = NIK
-culture = turkish
-religion = sunni
+culture = mikrasiatic
+religion = orthodox
 capital = "Manisa"
 trade_goods = cotton			#eh... whatever, not the worst choice, had some good growing land, but I can't find evidence of anything outstanding at the moment
 hre = no

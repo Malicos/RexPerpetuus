@@ -3,8 +3,8 @@
 owner = NIK
 controller = NIK
 add_core = NIK
-culture = turkish
-religion = sunni
+culture = pontic_greek
+religion = orthodox
 capital = "Karabük"
 trade_goods = livestock
 hre = no

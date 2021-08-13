@@ -3,7 +3,7 @@
 owner = MDN
 controller = MDN
 add_core = MDN
-culture = bulgarian
+culture = moesian
 religion = orthodox
 capital = "Vitolia"			#Monastir in Ottoman Turkish
 trade_goods = livestock

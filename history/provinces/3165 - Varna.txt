@@ -3,7 +3,7 @@
 owner = PAI
 controller = PAI
 add_core = PAI
-culture = bulgarian
+culture = moesian
 religion = orthodox
 capital = "Varna"
 trade_goods = grain	#a major agricultural exporter

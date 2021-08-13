@@ -3,7 +3,7 @@
 owner = GRE
 controller = GRE
 add_core = GRE
-culture = greek
+culture = arvanite
 religion = orthodox
 capital = "Oreoi"
 base_tax = 1

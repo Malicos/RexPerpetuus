@@ -3,8 +3,8 @@
 owner = NIK
 controller = NIK
 add_core = NIK
-culture = turkish
-religion = sunni
+culture = mikrasiatic
+religion = orthodox
 capital = "Karasi"			#Later known as Balikesir
 trade_goods = grain
 hre = no

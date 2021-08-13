@@ -3,8 +3,8 @@
 owner = CAP
 controller = CAP
 add_core = CAP
-culture = turkish
-religion = sunni
+culture = cappadocian
+religion = orthodox
 capital = "Koçhisar"
 trade_goods = salt
 hre = no

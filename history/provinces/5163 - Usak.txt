@@ -3,8 +3,8 @@
 owner = NIK
 controller = NIK
 add_core = NIK
-culture = turkish
-religion = sunni
+culture = mikrasiatic
+religion = orthodox
 capital = "Usak"
 trade_goods = naval_supplies		#Among other district centers in Usak Province, Banaz is the largest and is notable for its varied agricultural production as well as for its forests
 hre = no

@@ -3,8 +3,8 @@
 owner = PEC
 controller = PEC
 add_core = PEC
-culture = crimean
-religion = sunni
+culture = goths
+religion = orthodox
 hre = no
 base_tax = 6
 base_production = 6

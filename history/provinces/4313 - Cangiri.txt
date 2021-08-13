@@ -3,8 +3,8 @@
 owner = PON
 controller = PON
 add_core = PON
-culture = turkish
-religion = sunni
+culture = pontic_greek
+religion = orthodox
 capital = "Çankiri"
 trade_goods = copper			#Surprising little information about the immediate area, surprising considering how central and important the area was. Going with vanilla copper
 hre = no
