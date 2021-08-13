@@ -2,9 +2,9 @@
 #Region - France
 #Area - Pyrenees
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = GUY
+controller = GUY
+add_core = GUY
 capital = "Albret"
 is_city = yes
 culture = gascon

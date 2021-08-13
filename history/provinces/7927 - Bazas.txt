@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = GUY
+controller = GUY
+add_core = GUY
 culture = gascon
 religion = catholic
 capital = "Bazas"
