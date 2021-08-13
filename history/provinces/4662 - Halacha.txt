@@ -1,8 +1,8 @@
 #Halacha
 
-owner = SOL
-controller = SOL
-add_core = SOL
+owner = ORO
+controller = ORO
+add_core = ORO
 culture = evenk
 religion = tengri_pagan_reformed
 capital = "Halacha"

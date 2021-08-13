@@ -1,7 +1,8 @@
 #724 - Hulunbuir
 
-owner = KHA
-controller = KHA
+owner = ORO
+controller = ORO
+add_core = ORO
 add_core = KHA
 culture = buryat
 religion = tengri_pagan_reformed

@@ -154,8 +154,12 @@
  # Far East
  AMD:0 "Amdo"
  AMD_ADJ:0 "Amdo"
+ DNH:0 "Dong Nuzhen"
+ DNH_ADJ:0 "Dongzhen"
  LIA:0 "Liao"
  LIA_ADJ:0 "Liao"
+ ORO:0 "Orochen"
+ ORO_ADJ:0 "Orochen"
  NAI:0 "Naiman"
  NAI_ADJ:0 "Naiman"
  SNG:0 "Song"
