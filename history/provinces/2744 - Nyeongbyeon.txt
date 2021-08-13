@@ -3,7 +3,7 @@
 owner = LIA
 controller = LIA
 add_core = LIA
-add_core = KOR
+add_core = GKR
 add_core = DNH
 culture = korean
 religion = confucianism

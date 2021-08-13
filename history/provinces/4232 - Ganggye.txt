@@ -3,7 +3,7 @@
 owner = DNH
 controller = DNH
 add_core = DNH
-add_core = KOR
+add_core = GKR
 culture = korean
 religion = confucianism
 capital = "Ganggye"
