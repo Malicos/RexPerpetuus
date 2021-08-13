@@ -4,9 +4,10 @@ latent_trade_goods = {
 	coal
 }
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = DBG
+controller = DBG
+add_core = DBG
+add_core = BUR
 culture = burgundian
 religion = catholic
 capital = "Chalon"
