@@ -2,9 +2,9 @@
 #Region - France
 #Area - Picardy
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = PIC
+controller = PIC
+add_core = PIC
 capital = "Amiens"
 is_city = yes
 culture = picard_culture

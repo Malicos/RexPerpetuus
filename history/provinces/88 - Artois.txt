@@ -6,9 +6,10 @@ latent_trade_goods = {
 	coal
 }
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = ATS
+controller = ATS
+add_core = ATS
+add_core = PIC
 capital = "Arras"
 is_city = yes
 culture = picard_culture

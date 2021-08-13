@@ -4,7 +4,9 @@ PAI = "countries/Paristrion.txt"
 TRC = "countries/Thrace.txt"
 
 # France
+FEU = "countries/Eu.txt"
 LDC = "countries/Languedoc.txt"
+SOI = "countries/Soissons.txt"
 
 # HRE
 LSL = "countries/LowerSilesia.txt"

@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = NRM
-controller = NRM 
-add_core = NRM
+owner = FEU
+controller = FEU 
+add_core = FEU
 culture = normand
 religion = catholic
 capital = "Eu"

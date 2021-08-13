@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = PIC
+controller = PIC
+add_core = PIC
 culture = picard_culture
 religion = catholic
 capital = "Boulogne"

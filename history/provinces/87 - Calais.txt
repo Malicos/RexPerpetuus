@@ -2,9 +2,8 @@
 #Region - Low Countries
 #Area - Flanders
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = FLA
+controller = FLA
 add_core = FLA
 capital = "Calais"
 culture = flemish
