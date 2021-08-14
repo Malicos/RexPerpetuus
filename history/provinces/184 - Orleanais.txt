@@ -2,9 +2,9 @@
 #Region - France
 #Area - Loire
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = ORL
+controller = ORL
+add_core = ORL
 capital = "Orléans"
 is_city = yes
 culture = cosmopolitan_french

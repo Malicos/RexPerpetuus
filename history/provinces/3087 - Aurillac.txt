@@ -2,9 +2,10 @@
 #Region - France
 #Area - Massif Central
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = AMG
+controller = AMG
+add_core = AMG
+add_core = BOU
 capital = "Aurillac"
 is_city = yes
 culture = occitain

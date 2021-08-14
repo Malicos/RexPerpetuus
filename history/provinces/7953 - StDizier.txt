@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = CHP
+controller = CHP
+add_core = CHP
 culture = lorraine_culture
 religion = catholic
 capital = "St. Dizier"			#Also Brienne

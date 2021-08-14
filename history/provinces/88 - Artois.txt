@@ -6,14 +6,15 @@ latent_trade_goods = {
 	coal
 }
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = ATS
+controller = ATS
+add_core = ATS
+add_core = PIC
 capital = "Arras"
 is_city = yes
 culture = picard_culture
 religion = catholic
-hre = no
+hre = yes
 base_tax = 6
 base_production = 6
 trade_goods = cloth

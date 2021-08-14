@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = PIC
+controller = PIC
+add_core = PIC
 culture = picard_culture
 religion = catholic
 capital = "St. Omer"
@@ -11,7 +11,7 @@ base_production = 6
 base_manpower = 3
 trade_goods = grain
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim

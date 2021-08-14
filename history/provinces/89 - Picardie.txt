@@ -2,14 +2,14 @@
 #Region - France
 #Area - Picardy
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = PIC
+controller = PIC
+add_core = PIC
 capital = "Amiens"
 is_city = yes
 culture = picard_culture
 religion = catholic
-hre = no
+hre = yes
 base_tax = 8
 base_production = 8
 trade_goods = cloth

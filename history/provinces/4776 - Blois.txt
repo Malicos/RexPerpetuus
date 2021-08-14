@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = ORL
+controller = ORL
+add_core = ORL
 culture = cosmopolitan_french
 religion = catholic
 capital = "Blois"

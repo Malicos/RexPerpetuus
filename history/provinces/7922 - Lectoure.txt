@@ -1,8 +1,9 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = AMG
+controller = AMG
+add_core = AMG
+add_core = GUY
 culture = gascon
 religion = catholic
 capital = "Lectoure"

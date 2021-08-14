@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = GUI
+controller = GUI
+add_core = GUI
 culture = picard_culture
 religion = catholic
 capital = "Guise"
@@ -11,7 +11,7 @@ base_production = 4
 base_manpower = 2
 trade_goods = livestock
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim

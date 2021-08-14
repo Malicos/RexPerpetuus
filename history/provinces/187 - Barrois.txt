@@ -2,14 +2,14 @@
 #Region - France
 #Area - Lorraine
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = LOT
+controller = LOT
+add_core = LOT
 capital = "Bar-le-Duc"
 is_city = yes
 culture = lorraine_culture
 religion = catholic
-hre = no
+hre = yes
 base_tax = 5
 base_production = 5
 trade_goods = cloth

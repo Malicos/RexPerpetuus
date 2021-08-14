@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = HPX
+controller = HPX
+add_core = HPX
 culture = cosmopolitan_french
 religion = catholic
 capital = "Rambouillet"

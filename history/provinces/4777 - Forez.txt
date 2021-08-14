@@ -2,9 +2,9 @@
 #Region - France
 #Area - Massif Central
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = BOU
+controller = BOU
+add_core = BOU
 capital = "Feurs"
 is_city = yes
 culture = arpitan

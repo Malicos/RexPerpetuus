@@ -2,9 +2,9 @@
 #Region - France
 #Area - Guyenne
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = AGL
+controller = AGL
+add_core = AGL
 capital = "Angoulême"
 is_city = yes
 culture = poitevin_culture

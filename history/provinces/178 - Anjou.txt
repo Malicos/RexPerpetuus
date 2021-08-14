@@ -2,9 +2,10 @@
 #Region - France
 #Area - Loire
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = NRM
+controller = NRM 
+add_core = NRM
+add_core = BRI
 capital = "Angers"
 is_city = yes
 culture = angevin_culture

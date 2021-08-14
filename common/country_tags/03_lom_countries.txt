@@ -4,7 +4,16 @@ PAI = "countries/Paristrion.txt"
 TRC = "countries/Thrace.txt"
 
 # France
+AGL = "countries/Angouleme.txt"
+DBG = "countries/Bourgogne.txt"
+FEU = "countries/Eu.txt"
+FTS = "countries/Tours.txt"
+GUI = "countries/Guise.txt"
+HPX = "countries/Hurepoix.txt"
 LDC = "countries/Languedoc.txt"
+LMC = "countries/LaMarche.txt"
+RTH = "countries/Rethel.txt"
+SOI = "countries/Soissons.txt"
 
 # HRE
 LSL = "countries/LowerSilesia.txt"

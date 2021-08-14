@@ -2,14 +2,14 @@
 #Region - France
 #Area - Seine
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = RTH
+controller = RTH
+add_core = RTH
 capital = "Rethel"
 is_city = yes
 culture = wallonian
 religion = catholic
-hre = no
+hre = yes
 base_tax = 3
 base_production = 3
 trade_goods = livestock

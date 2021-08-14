@@ -2,9 +2,10 @@
 #Region - France
 #Area - Burgundy
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = DBG
+controller = DBG
+add_core = DBG
+add_core = BUR
 capital = "Charolles"
 is_city = yes
 culture = burgundian
