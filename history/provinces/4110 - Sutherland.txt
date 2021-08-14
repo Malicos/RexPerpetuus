@@ -2,8 +2,9 @@
 #Region - Britain
 #Area - Highlands
 
-owner = SCO
-controller = SCO
+owner = NOR
+controller = NOR
+add_core = NOR
 add_core = SCO
 culture = highland_scottish
 religion = catholic

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Skipton"
 is_city = yes
-owner = ENG
-controller = ENG
+owner = JRV
+controller = JRV
 
 #Demographics
 culture = anglisk
@@ -20,7 +20,7 @@ trade_goods = wool
 latent_trade_goods = { coal }
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ENG
+add_core = JRV
 
 #Other Political
 hre = no

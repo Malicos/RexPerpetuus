@@ -5,8 +5,8 @@
 #Core Details
 capital = "Northampton"
 is_city = yes
-owner = ENG
-controller = ENG
+owner = MID
+controller = MID
 
 #Demographics
 culture = anglisk
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = wool #Quarries also existed though were exhausted at the end of the 16th century. 
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ENG
+add_core = MID
 
 #Other Political
 hre = no

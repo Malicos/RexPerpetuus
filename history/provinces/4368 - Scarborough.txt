@@ -7,9 +7,9 @@ latent_trade_goods = {
 }
 
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = JRV
+controller = JRV
+add_core = JRV
 culture = anglisk
 religion = catholic
 hre = no

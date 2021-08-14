@@ -3,6 +3,9 @@ MDN = "countries/Macedonia.txt"
 PAI = "countries/Paristrion.txt"
 TRC = "countries/Thrace.txt"
 
+# Albion
+JRV = "countries/Jorvik.txt"
+
 # France
 AGL = "countries/Angouleme.txt"
 DBG = "countries/Bourgogne.txt"

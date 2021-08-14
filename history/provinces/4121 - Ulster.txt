@@ -2,9 +2,10 @@
 #Region - Ireland
 #Area - Ulster
 
-owner = ANR
+owner = SCO
+add_core = SCO
+controller = SCO
 add_core = ANR
-controller = ANR
 culture = irish
 religion = catholic
 hre = no

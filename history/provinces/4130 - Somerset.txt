@@ -5,9 +5,9 @@ latent_trade_goods = { #Somerset Coalfields from 15th to 19th centuries
 	coal 
 } 
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = WSX
+controller = WSX
+add_core = WSX
 culture = anglisk
 religion = catholic
 hre = no

@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Eastern Lowlands
 
-owner = SCO
-controller = SCO
-add_core = SCO 
+owner = JRV
+controller = JRV
+add_core = JRV
 culture = highland_scottish
 religion = catholic
 hre = no

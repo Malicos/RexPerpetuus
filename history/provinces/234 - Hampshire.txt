@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Wessex
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = WSX
+controller = WSX
+add_core = WSX
 culture = anglisk
 religion = catholic
 hre = no
