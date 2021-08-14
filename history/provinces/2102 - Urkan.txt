@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = SOL
-controller = SOL
-add_core = SOL
+owner = ORO
+controller = ORO
+add_core = ORO
 culture = evenk
 religion = tengri_pagan_reformed
 capital = "Urkantun"
@@ -18,12 +18,3 @@ base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
-
-
-1653.1.1 = {
-	owner = RUS
-	controller = RUS
-	religion = orthodox
-	culture = russian
-	trade_goods = wool
-}
