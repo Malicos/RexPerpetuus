@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = TOU
-controller = TOU
-add_core = TOU
+owner = FTS
+controller = FTS
+add_core = FTS
 culture = angevin_culture
 religion = catholic
 capital = "Chinon"

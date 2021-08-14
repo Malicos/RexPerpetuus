@@ -2,9 +2,9 @@
 #Region - France
 #Area - Loire
 
-owner = TOU
-controller = TOU
-add_core = TOU
+owner = FTS
+controller = FTS
+add_core = FTS
 capital = "Tours"
 is_city = yes
 culture = cosmopolitan_french
