@@ -2,9 +2,9 @@
 #Region - France
 #Area - Seine
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = CHP
+controller = CHP
+add_core = CHP
 capital = "Châlons"
 is_city = yes
 culture = lorraine_culture

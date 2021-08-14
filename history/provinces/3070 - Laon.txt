@@ -2,14 +2,14 @@
 #Region - France
 #Area - Seine
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = GUI
+controller = GUI
+add_core = GUI
 capital = "Laon"
 is_city = yes
 culture = cosmopolitan_french
 religion = catholic
-hre = no
+hre = yes
 base_tax = 4 
 base_production = 4
 trade_goods = bt_trade_good_books

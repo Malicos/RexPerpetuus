@@ -11,7 +11,7 @@ base_production = 8
 base_manpower = 5
 trade_goods = cloth			#major cloth centre
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim

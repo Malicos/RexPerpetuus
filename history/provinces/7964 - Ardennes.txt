@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = GUI
+controller = GUI
+add_core = GUI
 culture = wallonian
 religion = catholic
 capital = "Mézières"
@@ -11,7 +11,7 @@ base_production = 3
 base_manpower = 2
 trade_goods = iron
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim

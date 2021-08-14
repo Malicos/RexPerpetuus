@@ -2,9 +2,9 @@
 #Region - France
 #Area - Massif Central
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = LMC
+controller = LMC
+add_core = LMC
 capital = "Guéret"
 is_city = yes
 culture = occitain	#aquitaine vanilla

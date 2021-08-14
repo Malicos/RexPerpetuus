@@ -15,7 +15,7 @@ base_production = 4
 base_manpower = 3
 trade_goods = fish
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim
