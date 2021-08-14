@@ -3,6 +3,7 @@
 owner = AMG
 controller = AMG
 add_core = AMG
+add_core = GUY
 culture = gascon
 religion = catholic
 capital = "Lectoure"

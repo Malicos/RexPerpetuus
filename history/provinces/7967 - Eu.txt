@@ -3,6 +3,7 @@
 owner = FEU
 controller = FEU 
 add_core = FEU
+add_core = NRM
 culture = normand
 religion = catholic
 capital = "Eu"
@@ -11,7 +12,7 @@ base_production = 4
 base_manpower = 2
 trade_goods = fish
 is_city = yes
-hre = yes
+hre = no
 
 discovered_by = western
 discovered_by = muslim

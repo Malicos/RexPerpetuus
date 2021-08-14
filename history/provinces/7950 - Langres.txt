@@ -3,6 +3,7 @@
 owner = LGR
 controller = LGR
 add_core = LGR
+add_core = CHP
 add_core = DBG
 add_core = BUR
 culture = burgundian
