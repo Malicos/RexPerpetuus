@@ -4,7 +4,11 @@ PAI = "countries/Paristrion.txt"
 TRC = "countries/Thrace.txt"
 
 # Albion
+EAG = "countries/EastAnglia.txt"
+ESX = "countries/Essex.txt"
 JRV = "countries/Jorvik.txt"
+KEN = "countries/Kent.txt"
+SSX = "countries/Sussex.txt"
 
 # France
 AGL = "countries/Angouleme.txt"

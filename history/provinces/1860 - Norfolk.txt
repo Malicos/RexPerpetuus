@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - East Anglia
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = EAG
+controller = EAG
+add_core = EAG
 culture = anglisk
 religion = catholic
 hre = no

@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Essex
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = KEN
+controller = KEN
+add_core = KEN
 culture = anglisk
 religion = catholic
 hre = no
