@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Lancashire
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = LCA
+controller = LCA
+add_core = LCA
 culture = anglisk
 religion = catholic
 hre = no
