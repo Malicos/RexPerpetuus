@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Wessex
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = WTC
+controller = WTC
+add_core = WTC
 culture = anglisk
 religion = catholic
 hre = no

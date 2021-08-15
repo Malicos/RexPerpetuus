@@ -2,10 +2,10 @@
 #Region - Scandinavia
 #Area - Northern Isles
 
-owner = SWE
-controller = SWE
-add_core = SWE
-culture = swedish
+owner = NOR
+controller = NOR
+add_core = NOR
+culture = norwegian
 religion = catholic
 hre = no
 base_tax = 1  

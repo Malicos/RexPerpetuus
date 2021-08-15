@@ -5,8 +5,8 @@
 #Core Details
 capital = "Monmouth"
 is_city = yes
-owner = ENG
-controller = ENG
+owner = GWE
+controller = GWE
 
 #Demographics
 culture = anglisk
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ENG
+add_core = GWE
 
 #Other Political
 hre = no

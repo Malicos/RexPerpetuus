@@ -2,8 +2,9 @@
 #Region - Britain
 #Area - Southern Isles
 
-owner = SCO
-controller = SCO
+owner = NOR
+controller = NOR
+add_core = NOR
 add_core = SCO
 add_core = LOI	# potential revolter tag
 culture = gallgaidheil			#The distinction between Gallgael and Gael was minimal by the 15th century, if not much sooner, but Ive already recieved multiple requests for this subculture, so give the people that for which they clamour...

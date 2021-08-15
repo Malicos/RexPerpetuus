@@ -5,9 +5,9 @@
 #Core Details
 capital = "Hexham"
 is_city = yes
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = JRV
+controller = JRV
+add_core = JRV
 
 #Demographics
 culture = anglisk

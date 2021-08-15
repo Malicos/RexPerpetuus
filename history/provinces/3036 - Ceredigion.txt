@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Deheubarth
 
-owner = WLS
-controller = WLS
-add_core = WLS
+owner = DFD
+controller = DFD
+add_core = DFD
 culture = welsh
 religion = catholic
 hre = no

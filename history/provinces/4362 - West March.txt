@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Western Lowlands
 
-owner = SCO
-controller = SCO
-add_core = SCO
+owner = STC
+controller = STC
+add_core = STC
 culture = highland_scottish
 religion = catholic
 hre = no

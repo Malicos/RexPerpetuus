@@ -2,10 +2,9 @@
 #Region - Britain
 #Area - Wessex
 
-owner = ENG
-controller = ENG
-add_core = ENG
-add_core = CRN	# Cornish revolter tag
+owner = CRN
+controller = CRN
+add_core = CRN
 culture = cornish
 religion = catholic
 hre = no

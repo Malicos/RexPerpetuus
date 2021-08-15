@@ -5,8 +5,8 @@
 #Core Details
 capital = "Warwick"
 is_city = yes
-owner = ENG
-controller = ENG
+owner = MID
+controller = MID
 
 #Demographics
 culture = anglisk
@@ -20,7 +20,7 @@ trade_goods = cloth
 latent_trade_goods = { coal }
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ENG
+add_core = MID
 
 #Other Political
 hre = no

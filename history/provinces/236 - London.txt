@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Essex
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = ESX
+controller = ESX
+add_core = ESX
 culture = anglisk
 religion = catholic
 hre = no

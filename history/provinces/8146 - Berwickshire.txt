@@ -5,8 +5,8 @@
 #Core Details
 capital = "Greenlaw"
 is_city = yes
-owner = SCO
-controller = SCO
+owner = JRV
+controller = JRV
 
 #Demographics
 culture = highland_scottish
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SCO
+add_core = JRV
 
 #Other Political
 hre = no

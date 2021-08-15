@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Essex
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = SSX
+controller = SSX
+add_core = SSX
 culture = anglisk
 religion = catholic
 hre = no

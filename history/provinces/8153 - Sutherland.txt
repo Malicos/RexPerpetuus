@@ -5,8 +5,8 @@
 #Core Details
 capital = "Dornoch"
 is_city = yes
-owner = SCO
-controller = SCO
+owner = NOR
+controller = NOR
 
 #Demographics
 culture = highland_scottish
@@ -19,6 +19,7 @@ base_manpower = 1
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
+add_core = NOR
 add_core = SCO
 
 #Other Political

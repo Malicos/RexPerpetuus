@@ -5,8 +5,8 @@
 #Core Details
 capital = "Richmond"
 is_city = yes
-owner = ENG
-controller = ENG
+owner = JRV
+controller = JRV
 
 #Demographics
 culture = anglisk
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ENG
+add_core = JRV
 
 #Other Political
 hre = no

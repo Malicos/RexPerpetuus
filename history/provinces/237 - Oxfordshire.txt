@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Essex
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = MID
+controller = MID
+add_core = MID
 culture = anglisk
 religion = catholic
 hre = no

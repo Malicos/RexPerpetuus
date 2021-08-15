@@ -5,8 +5,8 @@
 #Core Details
 capital = "Aberffraw"
 is_city = yes
-owner = WLS
-controller = WLS 
+owner = GWD
+controller = GWD
 
 #Demographics
 culture = welsh
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = WLS
+add_core = GWD
 
 #Other Political
 hre = no
