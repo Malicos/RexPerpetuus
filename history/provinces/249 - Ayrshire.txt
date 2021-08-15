@@ -6,10 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = SCO
-controller = SCO
-add_core = SCO
-add_core = LOI	# potential revolter tag
+owner = STC
+controller = STC
+add_core = STC
 culture = gallgaidheil
 religion = catholic
 hre = no

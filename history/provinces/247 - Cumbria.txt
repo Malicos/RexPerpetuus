@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Lancashire
 
-owner = ENG
-controller = ENG
-add_core = ENG
+owner = CBI
+controller = CBI
+add_core = CBI
 culture = anglisk
 religion = catholic
 hre = no
