@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = ADU		# Ali III, Sultan of al-Andalus
-controller = ADU
-add_core = ADU
+owner = CAS
+controller = CAS
+add_core = CAS
 culture = leonese
 religion = catholic
 capital = "Miranda"

@@ -2,9 +2,9 @@
 #Region - Iberia
 #Area - Catalonia
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = MJO
+controller = MJO
+add_core = MJO
 add_core = CAT
 capital = "Perpignan"
 is_city = yes

@@ -2,9 +2,9 @@
 #Region - Iberia
 #Area - Balearic Islands
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = MJO
+controller = MJO
+add_core = MJO
 culture = balansi_culture
 religion = sunni
 hre = no
