@@ -2,9 +2,8 @@
 #Region - Scandinavia
 #Area - Norrland
 
-owner = SWE
-controller = SWE
-add_core = SWE
+owner = NOR
+controller = NOR
 add_core = NOR
 culture = norwegian # They were actually Jämts - the unique blend of Swedish, Norwegian and local tendencies
 religion = catholic
