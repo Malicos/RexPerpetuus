@@ -6,9 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = GAL
-controller = GAL
-add_core = GAL
+owner = LON
+controller = LON
+add_core = LON
 culture = leonese
 religion = catholic
 hre = no

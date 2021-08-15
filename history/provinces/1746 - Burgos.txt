@@ -2,9 +2,9 @@
 #Region - Iberia
 #Area - Castille
 
-owner = ADU		# Ali III, Sultan of al-Andalus
-controller = ADU
-add_core = ADU
+owner = CAS
+controller = CAS
+add_core = CAS
 culture = leonese
 religion = catholic
 hre = no

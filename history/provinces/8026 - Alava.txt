@@ -1,7 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = NAV
-controller = NAV
+owner = CAS
+controller = CAS
+add_core = CAS
 add_core = NAV
 culture = basque
 religion = catholic

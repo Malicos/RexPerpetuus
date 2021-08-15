@@ -2,7 +2,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 90 185 95 }
+color = { 140 186 128 }
 
 historical_council = harsh
 

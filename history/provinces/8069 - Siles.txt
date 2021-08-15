@@ -3,9 +3,9 @@
 #Region - Iberia
 #Area - Murcia
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = ADU		# Ali III, Sultan of al-Andalus
+controller = ADU
+add_core = ADU
 culture = balansi_culture
 religion = sunni
 capital = "Siles"
