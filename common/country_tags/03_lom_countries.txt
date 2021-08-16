@@ -70,7 +70,12 @@ NIK = "countries/Nikaea.txt"
 PON = "countries/Pontus.txt"
 
 # North Africa
+BIZ = "countries/Bizerte.txt"
+KAI = "countries/Kairouan.txt"
+KEF = "countries/Kef.txt"
 KEM = "countries/Kemet.txt"
+MHD = "countries/Mahdia.txt"
+TBA = "countries/Tabarka.txt"
 
 # Middle East
 DAY = "countries/Daylam.txt"

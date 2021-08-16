@@ -164,10 +164,20 @@
  NBA_ADJ:0 "Nubian"
  
  # North Africa
+ BIZ:0 "Bizerte"
+ BIZ_ADJ:0 "Bizertine"
  CYR:0 "Cyrenaica"
  CYR_ADJ:0 "Cyrenaican"
+ KAI:0 "Kairouan"
+ KAI_ADJ:0 "Kairouani"
+ KEF:0 "Kef"
+ KEF_ADJ:0 "Kefian"
  KEM:0 "Kemet"
  KEM_ADJ:0 "Remenkhemi"
+ MHD:0 "Mahdia"
+ MHD_ADJ:0 "Mahdian"
+ TBA:0 "Tabarka"
+ TBA_ADJ:0 "Tabarkan"
  
  # Middle East
  DAY:0 "Daylam"
