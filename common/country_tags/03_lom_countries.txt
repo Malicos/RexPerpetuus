@@ -71,6 +71,7 @@ PON = "countries/Pontus.txt"
 
 # North Africa
 BIZ = "countries/Bizerte.txt"
+GHT = "countries/Ghat.txt"
 KAI = "countries/Kairouan.txt"
 KEF = "countries/Kef.txt"
 KEM = "countries/Kemet.txt"
