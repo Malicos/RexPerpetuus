@@ -76,7 +76,11 @@ KAI = "countries/Kairouan.txt"
 KEF = "countries/Kef.txt"
 KEM = "countries/Kemet.txt"
 MHD = "countries/Mahdia.txt"
+ORN = "countries/Oran.txt"
 TBA = "countries/Tabarka.txt"
+TGR = "countries/Tangiers.txt"
+TLS = "countries/Talsint.txt"
+WZZ = "countries/Warzazat.txt"
 
 # Middle East
 DAY = "countries/Daylam.txt"

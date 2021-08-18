@@ -1,8 +1,8 @@
 #351 - Biskra
 
-owner = ZAB
-controller = ZAB
-add_core = ZAB
+owner = AUR
+controller = AUR
+add_core = AUR
 culture = tunisian
 religion = sunni
 capital = "Biskra"

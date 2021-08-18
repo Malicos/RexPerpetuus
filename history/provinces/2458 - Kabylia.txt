@@ -1,7 +1,8 @@
 # - Hodna
 
-owner = LGH
-controller = LGH
+owner = AUR
+controller = AUR
+add_core = AUR
 add_core = LGH
 culture = tunisian
 religion = sunni

@@ -176,8 +176,16 @@
  KEM_ADJ:0 "Remenkhemi"
  MHD:0 "Mahdia"
  MHD_ADJ:0 "Mahdian"
+ ORN:0 "Oran"
+ ORN_ADJ:0 "Orani"
  TBA:0 "Tabarka"
  TBA_ADJ:0 "Tabarkan"
+ TGR:0 "Tangiers"
+ TGR_ADJ:0 "Tangerine"
+ TLS:0 "Talsint"
+ TLS_ADJ:0 "Talsintian"
+ WZZ:0 "Warzazat"
+ WZZ_ADJ:0 "Warzazati"
  
  # Middle East
  DAY:0 "Daylam"
