@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = CLI
+controller = CLI
+add_core = CLI
 add_core = GRZ
 add_core = AQU			#part of the province was Aquileian
 culture = croatian			#the Croat part of the penninsula
@@ -13,7 +13,7 @@ base_production = 2
 base_manpower = 2
 trade_goods = wine			#istrian wine
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim

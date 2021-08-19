@@ -47,6 +47,8 @@ USL = "countries/UpperSilesia.txt"
 
 # North Italy
 AOS = "countries/Aosta.txt"
+CIA = "countries/Carnia.txt"
+CTH = "countries/Carinthia.txt"
 
 # South Italy
 TCA = "countries/Trinacria.txt"

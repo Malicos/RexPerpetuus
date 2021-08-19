@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = CIA
+controller = CIA
+add_core = CIA
 add_core = AQU
 culture = ladin_culture
 religion = catholic

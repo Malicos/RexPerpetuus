@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Tirol
 
-owner = TIR
-controller = TIR
-add_core = TIR
+owner = CTH
+controller = CTH
+add_core = CTH
 add_core = GRZ
 culture = austrian
 religion = catholic

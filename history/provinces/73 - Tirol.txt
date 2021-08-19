@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Tirol
 
-owner = BAV
-controller = BAV
-add_core = BAV
+owner = TIR
+controller = TIR
+add_core = TIR
 culture = austrian
 religion = catholic
 base_tax = 8

@@ -2,8 +2,9 @@
 #Region - Germany
 #Area - Carniola
 
-owner = CLI
-controller = CLI
+owner = STY
+controller = STY
+add_core = STY
 add_core = CLI
 culture = slovene
 religion = catholic

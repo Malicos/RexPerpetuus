@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx # was croatiangfx # UPE compatibility
 
-color = { 201 106 20 }
+color = { 244 227 180 }
 
 historical_idea_groups = {
 	trade_ideas

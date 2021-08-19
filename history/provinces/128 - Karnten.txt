@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Inner Austria
 
-owner = STY
-controller = STY
-add_core = STY
+owner = CTH
+controller = CTH
+add_core = CTH
 culture	= austrian
 religion = catholic
 base_tax = 9

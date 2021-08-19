@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = CNL
-controller = CNL
+owner = CLI
+controller = CLI
+add_core = CLI
 add_core = CNL
 culture = austrian
 religion = catholic

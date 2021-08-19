@@ -2,9 +2,8 @@
 #Region - Germany
 #Area - Carniola
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = GRZ
+controller = GRZ
 add_core = GRZ
 add_core = AQU
 add_core = CNL
