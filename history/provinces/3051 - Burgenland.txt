@@ -2,9 +2,8 @@
 #Region - Carpathia
 #Area - Transdanubia
 
-owner = HAB
-controller = HAB
-add_core = HAB
+owner = HUN
+controller = HUN
 add_core = HUN
 culture = austrian
 religion = catholic
