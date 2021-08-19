@@ -87,6 +87,11 @@ TGR = "countries/Tangiers.txt"
 TLS = "countries/Talsint.txt"
 WZZ = "countries/Warzazat.txt"
 
+# East Africa
+OAJ = "countries/OuterAjuraan.txt"
+RHF = "countries/RasHafun.txt"
+WAJ = "countries/WestAjuraan.txt"
+
 # Middle East
 DAY = "countries/Daylam.txt"
 FJD = "countries/Falajid.txt"

@@ -166,8 +166,14 @@
  PON_ADJ:0 "Pontic"
  
  # East Africa
+ OAJ:0 "Outer Ajuuraan"
+ OAJ_ADJ:0 "Outer Ajuuraani"
+ RHF:0 "Ras Hafun"
+ RHF_ADJ:0 "Hafuni"
  NBA:0 "Nubia"
  NBA_ADJ:0 "Nubian"
+ WAJ:0 "West Ajuuraan"
+ WAJ_ADJ:0 "West Ajuuaraani"
  
  # North Africa
  BIZ:0 "Bizerte"
