@@ -1,7 +1,8 @@
 #2757 - Kaffa
 
-owner = KAF
-controller = KAF
+owner = WLY
+controller = WLY
+add_core = WLY
 add_core = KAF
 culture = sidamo 
 religion = coptic

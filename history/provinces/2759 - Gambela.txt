@@ -1,7 +1,8 @@
 #2759 - Gambela
 
-owner = KAF
-controller = KAF
+owner = WLY
+controller = WLY
+add_core = WLY
 add_core = KAF
 culture = sidamo 
 religion = shamanism #Fetishism
