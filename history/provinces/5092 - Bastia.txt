@@ -2,8 +2,9 @@
 #Region - Italy
 #Area - Corsica and Sardinia
 
-owner = SAR
-controller = SAR
+owner = COR
+controller = COR
+add_core = COR
 add_core = SAR
 culture = corsican_culture
 religion = catholic

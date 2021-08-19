@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx # was italiangfx # UPE compatibility
 
-color = { 141  155  201 }
+color = { 116 69 11 }
 
 historical_idea_groups = {
 	administrative_ideas

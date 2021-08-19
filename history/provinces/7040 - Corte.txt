@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = SAR
-controller = SAR
-add_core = SAR
+owner = PIS
+controller = PIS
+add_core = PIS
 culture = corsican_culture
 religion = catholic
 capital = "Corte"

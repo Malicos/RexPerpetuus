@@ -2,9 +2,9 @@
 #Region - Iberia
 #Area - Catalonia
 
-owner = MJO
-controller = MJO
-add_core = MJO
+owner = VAL
+controller = VAL
+add_core = VAL
 add_core = CAT
 culture = catalan
 religion = catholic

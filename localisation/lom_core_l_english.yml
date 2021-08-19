@@ -38,6 +38,8 @@
  # Western Europe
  AGL:0 "Angouleme"
  AGL_ADJ:0 "Angoulemese"
+ AOS:0 "Aosta"
+ AOS_ADJ:0 "Aostan"
  BGC:0 "Braganca"
  BGC_ADJ:0 "Bragancan"
  CBI:0 "Cumbria"

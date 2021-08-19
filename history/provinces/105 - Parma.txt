@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Emilia-Romagna
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = PAR
+controller = PAR
+add_core = PAR
 culture = romagnan 
 religion = catholic 
 hre = no 

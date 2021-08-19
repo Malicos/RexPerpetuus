@@ -1,8 +1,8 @@
 #1875 - Cuneo (can't change filename)
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = SZO
+controller = SZO
+add_core = SZO
 culture = piedmontese
 religion = catholic
 hre = no

@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Piedmont
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = SZO
+controller = SZO
+add_core = SZO
 culture = piedmontese
 religion = catholic
 hre = no

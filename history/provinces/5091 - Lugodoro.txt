@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Corsica and Sardinia
 
-owner = SAR
-controller = SAR
-add_core = SAR
+owner = MJO
+controller = MJO
+add_core = MJO
 culture = sardinian
 religion = catholic 
 hre = no 

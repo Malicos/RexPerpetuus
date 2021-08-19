@@ -1,6 +1,6 @@
 graphical_culture = westerngfx
 
-color = { 180 115 200 }
+color = { 140 200 213 }
 
 revolutionary_colors = { 9  0  5 } #Cisalpine Republic; same as LombardyVenetia is using.
 

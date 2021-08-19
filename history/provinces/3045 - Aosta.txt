@@ -1,8 +1,8 @@
 #3045 - Aosta
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = AOS
+controller = AOS
+add_core = AOS
 culture = arpitan
 religion = catholic
 hre = no

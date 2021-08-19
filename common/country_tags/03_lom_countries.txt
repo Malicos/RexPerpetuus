@@ -45,6 +45,9 @@ OST = "countries/Ostfalen.txt"
 STO = "countries/Santok.txt"
 USL = "countries/UpperSilesia.txt"
 
+# North Italy
+AOS = "countries/Aosta.txt"
+
 # South Italy
 TCA = "countries/Trinacria.txt"
 
