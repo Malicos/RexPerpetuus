@@ -17,7 +17,7 @@ christian = {
 	
 	
 	catholic = {
-		color = { 204 204 0 }
+		color = { 213 213 172 }
 		icon = 1
 		allowed_conversion = {
 			reformed
@@ -316,6 +316,7 @@ christian = {
 		}
 	}
 
+	# Rex Perpetuus: UNUSED
 	anglican = {
 		color = { 135 77 255 }
 		icon = 28
@@ -385,7 +386,7 @@ christian = {
 	}
 	
 	cathar = {
-		color = { 127 127 229 }
+		color = { 137 45 27 }
 		icon = 29
 
 		allowed_center_conversion = {
@@ -435,6 +436,7 @@ christian = {
 		}
 	}
 	
+	# Rex Perpetuus: Evangelical
 	protestant = {
 		color = { 0 0 178 }
 		icon = 2
@@ -827,7 +829,7 @@ christian = {
 	}
 	
 	bogomilist = {
-		color = { 156 42 193 }
+		color = { 219 31 78 }
 		icon = 33
 		country = {
 			stability_cost_modifier = -0.1
@@ -961,7 +963,7 @@ christian = {
 	}
 	
 	iconoclast = {
-		color = { 156 42 193 }
+		color = { 127 117 133 }
 		icon = 34
 		country = {
 			stability_cost_modifier = -0.1
@@ -1133,7 +1135,7 @@ christian = {
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
 
-		color = { 0.8 0.4 0.1 }
+		color = { 225 188 232 }
 		icon = 30
 		country = {
 			defensiveness = 0.1
