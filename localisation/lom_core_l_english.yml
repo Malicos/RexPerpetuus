@@ -31,6 +31,15 @@
  pecheneg:0 "Pecenegi"            # Moldavo-Pecheneg
  turko_iranian:0 "Turko-Iranian"  # Persianate Turks
  daylamite:0 "Daylamite"
+ macedonian:0 "Macedonian"        # Hellenic Warlords
+ thracian:0 "Thracian"            # Hellenic Warlords
+ epirotan:0 "Epirotan"            # Hellenic Warlords
+ mikrasiatic:0 "Mikrasiatic"      # Hellenic Warlords
+ moesian:0 "Moesian"              # Hellenised Bulgarian
+ dodecanesian:0 "Dodecanesian"    # Hellenic Warlords
+ imperial_bulgarian:0 "Rimmish"   # Hellenised Bulgarian Empire
+ hellas_culture:0 "Hellenic"      # Hellenic Warlords 
+ rhomaioi:0 "Rhomaîoi"            # Unified Byzantium
  
  #################################################################################
  # 3 - Tags

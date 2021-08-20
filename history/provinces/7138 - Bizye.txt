@@ -3,7 +3,7 @@
 owner = TRC
 controller = TRC
 add_core = TRC
-culture = greek
+culture = thracian
 religion = orthodox
 capital = "Bizye"
 base_tax = 2

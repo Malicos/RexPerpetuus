@@ -3,7 +3,7 @@
 owner = EPI
 controller = EPI
 add_core = EPI
-culture = greek
+culture = epirotan
 religion = orthodox
 capital = "Parga"
 base_tax = 1

@@ -3,7 +3,7 @@
 owner = TRC
 controller = TRC
 add_core = TRC
-culture = bulgarian			#Tough call... could just as easily be greek or turkish.
+culture = moesian			#Tough call... could just as easily be greek or turkish.
 religion = orthodox
 capital = "Çirmen"
 base_tax = 3

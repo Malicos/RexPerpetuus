@@ -3,8 +3,8 @@
 owner = PON
 controller = PON
 add_core = PON
-culture = turkish
-religion = sunni
+culture = pontic_greek
+religion = orthodox
 capital = "Kirkkake"			#not settled until the 16th century, but need a province here to prevent ugly borders, giant provinces, lopsided area balance etc.
 trade_goods = bt_trade_good_fruit
 hre = no

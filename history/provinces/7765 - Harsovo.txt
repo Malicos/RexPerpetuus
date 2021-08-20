@@ -3,7 +3,7 @@
 owner = PAI
 controller = PAI
 add_core = PAI
-culture = bulgarian
+culture = moesian
 religion = orthodox
 capital = "Harsovo"
 base_tax = 2 

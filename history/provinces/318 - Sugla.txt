@@ -3,8 +3,8 @@
 owner = NIK
 controller = NIK
 add_core = NIK
-culture = turkish #Should not be Greek or Orthodox in 1444. Its status as a majority Greek city dates to at least after the 17th Century	-Also a vanilla note, though I'd tend to agree in theory.
-religion = sunni
+culture = mikrasiatic
+religion = orthodox
 capital = "Izmir"			#Wonder where vanilla got Izmirni varient? I could only find Izmir
 trade_goods = salt 			#Major Ottoman Salt Work	-Driaocht that is a vanilla note, if they note it, they're usually sure, so going with it
 hre = no

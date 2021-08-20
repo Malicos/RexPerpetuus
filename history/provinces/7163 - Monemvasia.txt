@@ -3,7 +3,7 @@
 owner = MOE
 controller = MOE
 add_core = MOE
-culture = greek
+culture = hellas_culture
 religion = orthodox
 capital = "Monemvasia"
 base_tax = 2

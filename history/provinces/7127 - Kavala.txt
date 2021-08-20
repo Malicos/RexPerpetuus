@@ -3,7 +3,7 @@
 owner = MDN
 controller = MDN
 add_core = MDN
-culture = greek
+culture = macedonian
 religion = orthodox
 capital = "Kavala"
 base_tax = 2

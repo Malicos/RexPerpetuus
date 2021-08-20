@@ -3,8 +3,8 @@
 owner = PON
 controller = PON
 add_core = PON
-culture = turkish
-religion = sunni
+culture = pontic_greek
+religion = orthodox
 capital = "Kastamonu"
 trade_goods = naval_supplies		#No particular reason, though there are many trees and orchards around here
 hre = no

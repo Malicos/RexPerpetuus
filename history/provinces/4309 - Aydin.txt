@@ -3,8 +3,8 @@
 owner = NIK
 controller = NIK
 add_core = NIK
-culture = turkish
-religion = sunni
+culture = mikrasiatic
+religion = orthodox
 capital = "Güzelhisar"			#Former name of Aydin
 trade_goods = grain			#figs, but also grain and other agricultural products. Vanilla has 'salt #Major Ottoman Salt Work'. Look into this
 hre = no

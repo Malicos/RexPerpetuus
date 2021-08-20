@@ -2,7 +2,7 @@
 
 owner = EPI
 controller = EPI
-culture = greek
+culture = epirotan
 religion = orthodox
 capital = "Vrachori"
 trade_goods = bt_trade_good_fruit			#Later a major tobacco centre.

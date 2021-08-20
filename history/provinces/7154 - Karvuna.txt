@@ -3,7 +3,7 @@
 owner = PAI
 controller = PAI
 add_core = PAI
-culture = bulgarian			#Niki placed turkish, noting Sari Saltak, but I'm opting for a poorer province for this representation. And that is assuming it is even true, and not just folklore
+culture = moesian			#Niki placed turkish, noting Sari Saltak, but I'm opting for a poorer province for this representation. And that is assuming it is even true, and not just folklore
 religion = orthodox
 capital = "Karvuna"
 base_tax = 3

@@ -3,8 +3,8 @@
 owner = CAP
 controller = CAP
 add_core = CAP
-culture = turkish
-religion = sunni
+culture = cappadocian
+religion = orthodox
 capital = "Karaman"
 trade_goods = livestock			#generic poor trade good
 hre = no

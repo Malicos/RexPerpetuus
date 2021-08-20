@@ -20,6 +20,113 @@
 
 #Note some added cultures & groups from 1.28 are not here, & instead placed in bt_defunct_cultures file. I have no idea what the H-ll Paradox was going for with some of their culture changes, but the focus on irrelevant or minor while completely ignoring some of the most crucial and obvious points is absurd.
 
+zzzignore1 = {} #Dummy cultures for region colours, pay them no attention
+zzzignore2 = {}
+zzzignore3 = {}
+zzzignore4 = {}
+zzzignore5 = {}
+zzzignore6 = {}
+zzzignore7 = {}
+zzzignore8 = {}
+zzzignore9 = {}
+zzzignore10 = {}
+zzzignore11 = {}
+zzzignore12 = {}
+zzzignore13 = {}
+zzzignore14 = {}
+zzzignore15 = {}
+zzzignore16 = {}
+zzzignore17 = {}
+zzzignore18 = {}
+zzzignore19 = {}
+zzzignore20 = {}
+zzzignore21 = {}
+zzzignore22 = {}
+zzzignore23 = {}
+zzzignore24 = {}
+zzzignore25 = {}
+zzzignore26 = {}
+zzzignore27 = {}
+zzzignore28 = {}
+zzzignore29 = {}
+zzzignore30 = {}
+zzzignore31 = {}
+zzzignore32 = {}
+zzzignore33 = {}
+zzzignore34 = {}
+zzzignore35 = {}
+zzzignore36 = {}
+zzzignore37 = {}
+zzzignore38 = {}
+zzzignore39 = {}
+zzzignore40 = {}
+zzzignore41 = {}
+zzzignore42 = {}
+zzzignore43 = {}
+zzzignore44 = {}
+zzzignore45 = {}
+zzzignore46 = {}
+zzzignore47 = {}
+zzzignore48 = {}
+zzzignore49 = {}
+zzzignore50 = {}
+zzzignore51 = {}
+zzzignore52 = {}
+zzzignore53 = {}
+zzzignore54 = {}
+zzzignore55 = {}
+zzzignore56 = {}
+zzzignore57 = {}
+zzzignore58 = {}
+zzzignore59 = {}
+zzzignore60 = {}
+zzzignore61 = {}
+zzzignore62 = {}
+zzzignore63 = {}
+zzzignore64 = {}
+zzzignore65 = {}
+zzzignore66 = {}
+zzzignore67 = {}
+zzzignore68 = {}
+zzzignore69 = {}
+zzzignore70 = {}
+zzzignore71 = {}
+zzzignore72 = {}
+zzzignore73 = {}
+zzzignore74 = {}
+zzzignore75 = {}
+zzzignore76 = {}
+zzzignore77 = {}
+zzzignore78 = {}
+zzzignore79 = {}
+zzzignore80 = {}
+zzzignore81 = {}
+zzzignore82 = {}
+zzzignore83 = {}
+zzzignore84 = {}
+zzzignore85 = {}
+zzzignore86 = {}
+zzzignore87 = {}
+zzzignore88 = {}
+zzzignore89 = {}
+zzzignore90 = {}
+zzzignore91 = {}
+zzzignore92 = {}
+zzzignore93 = {}
+zzzignore94 = {}
+zzzignore95 = {}
+zzzignore96 = {}
+zzzignore97 = {}
+zzzignore98 = {}
+zzzignore99 = {}
+zzzignore100 = {}
+zzzignore101 = {}
+zzzignore102 = {}
+zzzignore103 = {}
+zzzignore104 = {}
+zzzignore105 = {}
+zzzignore106 = {}
+
 germanic = {
 	graphical_culture = westerngfx
 
@@ -2701,11 +2808,11 @@ baltic	= {
 byzantine = {
 	graphical_culture = easterngfx
 	
-	greek = {
-		primary = GRE
+	greek = { #Repurposed into Aegean, a middle ground between the shattered cultures and a reunited Rhomaioi (This merges Thracian, Macedonian, Epirotan, Hellenic, Dodecanesian and Mikrasiatic)
+		primary = BYZ
 	}
 	pontic_greek = {
-		primary = TRE
+		primary = PON #Changed to Pontus
 	}
 	goths = {
 		primary = FEO
@@ -2727,6 +2834,51 @@ byzantine = {
 	griko = {
 		graphical_culture = easterngfx
 	}
+	#LoM Culture
+	macedonian = {
+		graphical_culture = easterngfx
+		primary = MDN
+	}
+	#LoM Culture
+	thracian = {
+		graphical_culture = easterngfx
+		primary = TRC
+	}	
+	#LoM Culture
+	epirotan = {
+		graphical_culture = easterngfx
+		primary = EPI
+	}		
+	#LoM Culture
+	mikrasiatic = {
+		graphical_culture = easterngfx
+		primary = NIK
+	}	
+	#LoM Culture
+	moesian = {
+		graphical_culture = easterngfx
+		primary = PAI
+	}
+	#LoM Culture
+	dodecanesian = {
+		graphical_culture = easterngfx
+		primary = XXX #Needs new tag
+	}	
+	#LoM Culture
+	imperial_bulgarian = { #For Rim
+		graphical_culture = easterngfx
+		primary = XXX #To be changed to whatever Rim's tag is (RIM?)
+	}	
+	#LoM Culture
+	hellas_culture = {
+		graphical_culture = easterngfx
+		primary = GRE
+	}
+	#LoM Culture
+	rhomaioi = { #Other Byzantine unifiers get this, merges Aegean, Moesian, Cappadocian, Pontic, Cypriot and Gothic
+		graphical_culture = easterngfx
+		primary = BYZ
+	}	
 	male_names = {
 		Adrianos Adrian Akakios Alexandros Alexander Alexios Alexis Anastasios Anastasius Anatolios 
 		Andreas Andrew Andronikos Andronicus Anthemios Anthimos Antiochos Antonios Antonius Apollonios 
