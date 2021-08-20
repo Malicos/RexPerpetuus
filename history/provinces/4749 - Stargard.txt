@@ -5,7 +5,7 @@
 owner = LUT
 controller = LUT
 add_core = LUT
-culture = pommeranian
+culture = polabian_culture
 religion = catholic
 hre = yes
 base_tax = 4

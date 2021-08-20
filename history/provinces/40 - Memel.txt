@@ -5,7 +5,7 @@
 owner = SMG
 controller = SMG
 add_core = SMG
-culture = prussian			#An obviously Lithuanian region with a Lithuanian rural population, and strongly German urban population. Though into the modern period it would become the single most important city in Lithuania, in the early period the culture here is a matter of debate. I'm sticking with Prussian for now as Memel itself was a DE enclave and an important border fort and centre of Baltic Germans.
+culture = lithuanian			#An obviously Lithuanian region with a Lithuanian rural population, and strongly German urban population. Though into the modern period it would become the single most important city in Lithuania, in the early period the culture here is a matter of debate. I'm sticking with Prussian for now as Memel itself was a DE enclave and an important border fort and centre of Baltic Germans.
 religion = catholic
 capital = "Memel"
 trade_goods = bt_trade_good_beer

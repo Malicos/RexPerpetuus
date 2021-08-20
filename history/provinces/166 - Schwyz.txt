@@ -5,7 +5,7 @@
 owner = SWA
 controller = SWA
 add_core = SWA
-culture = swiss
+culture = swabian
 religion = catholic
 capital = "Schwyz"
 trade_goods = iron

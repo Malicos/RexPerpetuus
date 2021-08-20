@@ -3,7 +3,7 @@
 owner = FRA
 controller = FRA
 add_core = FRA
-culture = occitain
+culture = auvergnat_culture
 religion = catholic
 capital = "Tulle"
 base_tax = 2

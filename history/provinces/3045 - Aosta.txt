@@ -3,7 +3,7 @@
 owner = AOS
 controller = AOS
 add_core = AOS
-culture = arpitan
+culture = high_burgundian
 religion = catholic
 hre = no
 base_tax = 2

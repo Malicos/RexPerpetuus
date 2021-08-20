@@ -3,7 +3,7 @@
 owner = GUY
 controller = GUY
 add_core = GUY
-culture = occitain
+culture = gascon
 religion = catholic
 capital = "Bergerac"
 base_tax = 2

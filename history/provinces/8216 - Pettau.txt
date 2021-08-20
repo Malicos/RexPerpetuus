@@ -9,7 +9,7 @@ owner = STY
 controller = STY
 
 #Demographics
-culture = austrian
+culture = slovene
 religion = catholic
 
 #Development and Trade

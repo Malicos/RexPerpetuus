@@ -1,7 +1,7 @@
 owner = BUR
 controller = BUR
 add_core = BUR
-culture = swiss
+culture = high_burgundian
 religion = catholic
 capital = "Fribourg"
 trade_goods = livestock

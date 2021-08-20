@@ -3,7 +3,7 @@
 owner = LOT
 controller = LOT
 add_core = LOT 
-culture = wallonian			#Not perfectly clear. Might have been Walloon like the west, or German (Luxumbourgish) like the east... or most likely some mix of the two. By the first reliable information, it is strongly Walloon however, contrary to Arlon which was strongly German, and some mentions of it discuss it as being a cultural centre of Walloonia. So calling it Walloon, even if border is a bit jumpy.
+culture = wallonian
 religion = catholic
 capital = "Bastogne"
 base_tax = 2

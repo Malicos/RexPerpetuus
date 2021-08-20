@@ -3,7 +3,7 @@
 owner = LOT
 controller = LOT
 add_core = LOT
-culture = wallonian			#Verviers, Malmedy, and Stavelot seem reliably French majority -if heavily influenced by Germanic culture, from the start, and would be decidedly so at the first truly accurate census information. Note the eastern edge of this province would be germanic.
+culture = luxembourgish_culture			#Verviers, Malmedy, and Stavelot seem reliably French majority -if heavily influenced by Germanic culture, from the start, and would be decidedly so at the first truly accurate census information. Note the eastern edge of this province would be germanic.
 religion = catholic
 capital = "Verviers"			#This is a problematic area. We have 2 major cities, Verviers and Malmedy, as well as 3 major border concerns, Liege-owned (Verviers), Brabantine-owned (Limburg), and the independent microstate of Malmedy-Stavelot. And that is just at start... forget the later Prussian, Belgian, and French borders, or the shifting cultural and religious borders. There is no good solution, but the compromise I'm going with is the largest city is the capital, but owner is the only one with no other provinces.
 base_tax = 2

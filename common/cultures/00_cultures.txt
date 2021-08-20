@@ -198,7 +198,7 @@ germanic = {
 			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
 		}
 	}
-	lower_saxon = {
+	lower_saxon = { #Saxon
 		primary = HAN
 		male_names = {
 			Ernst Adolf Alfred August Christian Eduard Friedrich Georg Karl Philipp Maximilian Octavius Wilhelm 
@@ -232,7 +232,7 @@ germanic = {
 			Christa Christel Christiane Christina Christine Clara Claudia Constanze
 		}
 	}
-	saxon = {
+	saxon = { #Thuringian
 		primary = SAX
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor 
@@ -536,6 +536,9 @@ germanic = {
 	silesian_german = {
 		#primary = #no tag so no seperatists
 	}
+	luxembourgish_culture = {
+		primary = LUX
+	}	
 	female_names = {
 		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda 
 		Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese 
@@ -884,7 +887,7 @@ scandinavian = { #Nordic
 			"Vedel" "Bjelke" "Galle" "Griis"
 		}
 	}
-	#LoM: Based on CK2Plus Culture (English Norse)
+	#RPHotLV: Based on CK2Plus Culture (English Norse)
 	anglisk = {
 		graphical_culture = westerngfx
 		primary = DNL
@@ -1668,28 +1671,6 @@ iberian	= {
 			Maria Marquesa Marquise Sança Sancha Sibila Sibylla Teresa Teresa Toda Toda Violant Yolanda
 		}
 	}
-	catalan = {
-		primary = CAT
-		dynasty_names = {
-			"d'Aragó" "de Borja" "de Luna" "d'Urgell" "Folc de Cardona"
-			#CK2
-			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
-			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
-			"de Cabrera" "de Villena"
-		}
-		male_names = {
-			Aaró Aaron Abelard Abraham Absaló Abundi Adalbert Adam Adrià Alaric Albà Albí Aleix Àlvar Àngel Antoni Arnau 
-			Artur Blai Carles Cecili Conrad Dari Dionís Emili Enric Felip Ferran Francés Francesc Fructuós Germà 
-			Gonçal Guillem Guiu Ignasi Israel Joan Jordi Josep Josep Maria Lleó Lluc Lluís Macedoni Màrius Martí Miquel 
-			Octavi Òscar Pau Pere Pol Pompeu Pròsper Prudenci Prudencià Quirze Rafael Ramir Raül Reginald Ricard Robert Roc 
-			Rubèn Sergi Simó Teodor Tomàs Vicenç Vicent Xavier
-		}
-		female_names = {
-			Àgata Àgueda Aina Anna Antònia Caterina Cecília Cristina Dolors Francesca Genoveva Isabel Joana Justina Laia 
-			Montserrat Núria Octàvia Prudència Roberta Rodolfa
-		}
-	}
 	galician = {
 		primary = GAL
 		dynasty_names = {
@@ -1818,24 +1799,15 @@ french	= {
 			"de Rohan" "de Bar" "d'Albert" "d'Escoubleau" "de Neufville" 
 		}
 	}
-	gascon = {
-		primary = GUY
-	}
 	normand = {
 		primary = NRM
-	}
-	#Removed aquitanian culture on Neprut's suggestion. Appears to have only been a minor dialect, at most, nowhere near a new culture
-	#Readded because of infuriating little bugs showing up in the error report related to triggers for events that don't seem to exist. Still not present in any province and should not ever appear except as an accepted culture for a French CU.
-	#Finally with France reoverhaul in 12.0, repurposing this culture to a Central Occitan culture as occitain string is repurposed into specifically Provencal.
-	aquitaine = {
-		primary = ANJ
-	}
-	burgundian = {
+	}			
+	burgundian = { #Low Burgundian
 		primary = BUR
 	}
-	occitain = {
-		primary = TOU
-	}
+	high_burgundian = {
+		primary = BUR
+	}	
 	wallonian = {
 		primary = HAI
 	}
@@ -1858,10 +1830,6 @@ french	= {
 	#BtPLegacy Culture
 	lorraine_culture = {
 		primary = LOR
-	}
-	#BtPLegacy Culture
-	auvergnat_culture = {
-		primary = AUV
 	}
 	#BtPLegacy Culture
 	gallo_culture = {
@@ -1898,6 +1866,9 @@ french	= {
 			Annick
 		}
 	}
+	arelatian_culture = { RPHotLV Culture
+		primary = BUR
+	}	
 	#Note Perry and Cat Dad also contributed a number of Louisiana French names, though this culture does not exist yet. If it is ever added, here is the list
 	#Surnames
 	#Aigle Allain Allevin Augustine Barbin Bardon Baudemont Baudoin Baux Bellome Beaucher Bernard Bizoton Boyer Bouchanne Boucher Boyer Brazou Brosset Brunel Brunet 
@@ -1947,6 +1918,280 @@ french	= {
 		Mascarose Mathilde Mélisande Mélisende Mélusine Péronelle Pernelle Perinne Pernette Plaisance 
 		Raymonde Sarrazine Solène Sophie Stéphanie Sybille Tiburge Valence Yolande
 	}
+}
+
+occitanic = { #Names taken from Occitan Renaissance, by Perry
+	graphical_culture = westerngfx
+	#BtPLegacy Culture
+	auvergnat_culture = {
+		primary = AUV
+		male_names = {
+			Jòrgi Julh
+			Sèrgi Seuvan
+
+			Amadèu Andeòl #Andiòu is a modern Dauphinois&Auvergnat name+toponym. Original list spells it Andeol, which is And(e/i)òl in the classic norm.
+			Eustachi Feliç Quintin
+
+			#Forenames - Saint Flour, south Auvergne 1300s (copy to Auvergnat, Auvergne, and Velay.)
+			Andrèu Antòni Armand Astor Asamet Benesit Bernat Bertomèu Bertin Bertòt Bertran Blasi Bonet Charles Clamenç Clemenç Duran Eralh Estefe Estève Falcon Felip Florin Francés
+			Gerard Gregòri Galhard Galhardet Gaspard Gui Guilhèm Guiòt Elias Eliòt Ugo Itèir Jacme Joan Joanet Laurenç Matèu Michèl Pèire Ponç Poncet Raimon Robèrt Robin Rotland
+			Simon Tomàs Timbaud
+			Vidal Vicenç
+			#Surnames - Saint Flour, south Auvergne 1300s (Forenames - copy to Auvergnat, Auvergne, and Velay.)
+			Aimeric Alric Albèrt Arnaud Aldebaut Colom Constantin Dàvid Deudonat Donat
+			Ectòr Ferrand Galtèir Gaubèrt German Jolian Jordan Juèri Julian Olivèir
+			Nadal Nicolau Rainaut Richard Rigaut Rogèir Saurin Savin Seguin
+			
+			#Common to Occitans
+			Aicart Aimat Aimeric Aimon Alaman Ambròsi Anfós Antòni Armand Arnaudon Arnaud Artús Asemar Astruc Avit
+			Benet Beneset Bernat Bertran Bonifaci Brasc Brun
+			Camil Centolh Crespin
+			Damian Dàvid Deodat Desirat Domenge Domenjon Donat Duran
+			Eble Eblon Edmond Edoard Elias Enric #Eblon is a diminutive of Ebles, and was the stage name of a trobador whose real name was Ebles.
+			Fabian Fabrici Felip Felipon Felipòt Fineas Florenç Folquet Francés Frederic
+			Gaston German Gregòri Gui Guion Guionet Guilhemòt Guilhòt Ives Isaac Isarn
+			Jacme Jacòb Jaufré Jaume Joan Joanet Joanòt Jordan Juli Julian
+			Laurenç Loís Lop
+			Macari Maime Maimin Mainard Marin Martin Martinet Maurin Nicolau
+			Osmin Oton Patrici Pau Peiròl Peiron Peironet Ponç #Plini
+			Ramir Roberton Robin Robion Salomon Savaric Savin Seguin Simon Tomàs Tristan
+			Uc Ugo Urban Valentin Victorin Vincenç Vivian
+		}
+		female_names = {
+			Alària Alienòr Charlòta
+			Desirada Esteveneta Laurença Sança Terèsa
+
+			#Forenames - Saint Flour, south Auvergne 1300s (copy to Auvergnat, Auvergne, and Velay.)
+			Agnès Aiglina Audeta Alena Andrena Astrina Boneta Catarina Cebelia Cortesa Dalfina
+			Esperta Flora Floreta Garina Guilhelma Isabèl Jacma Jona Luqueta Marjarida Michèla Raimonda Saura
+			#Surnames - Saint Flour, south Auvergne 1300s (Forenames - copy to Auvergnat, Auvergne, and Velay.)
+			Ròcha
+			
+			#Common to Occitans - from Lo Congrès and Others (Verifiable ones)
+			#FILTER those therein which are still partly dialect-specific!
+			Adelaïda Adelina Adriana Agata Agueta Alana Albana Alienòr Amandina Angelica Angelina Anneta Antonieta Ariana Armanda Arnauda Auda Audeta Audila Aureliana Auròra #Adela/Adèla Agata/Agueta #Agustina Atanàsia Avelina
+			Barbara Bernadeta Bernadòta
+			Edoarda
+			Ivona #Iveta - Var. Pro: Ivèta
+			Jacinta Jacomina Joaneta Joanina Judit Juliana Joliana Julieta Jolieta Justina Justiniana #Joseta Josiana <- These two add a 'u' in Provençal.
+			Lauriana Leocàdia Leona Letícia Lídia Lidia Lidvina Loba Lucia Lugana Lutz #Lucrècia - is Lucrécia in Vivaroalpine.
+			Macària Maélis Magalí Magalona Marcelina Marion Marina Matilda Mauriceta Melusina Menauda Morgana Nadina Norada Norina Oceana Odeta Oliva Onorada
+			Pascala Patrícia Patz Peireta Peirina Peironeta Peiròta Pelegrina Perpetua Plasença Potona Presada Prima Prosa Prudéncia
+			Raimonda Rafèla Ramona Reina Reinauda Rejana Rita Robina Rosalina Rosana Roseta Rut #Rebeca
+			Sabina Sandrina Sareta Saurimonda Savina Sebastiana Serafina Sibilha Sidònia Solanja Susanna Suseta Suson Tatiana Tristana Ugolena Ursula #Zoè
+			Valentina Valerina Valeriana Verana Vesiada Victoriana Victorina Zefirina Zita #Anna Bertranda Bruna Felipina Jordana Justa Laura Lena Leontina Lisa Liseta Liurada Luciana Margòt Marisa Melania Monica Natalia Nicòla Nina Onorina Orsula Paula Pauleta Paulina Peireta Radegonda Ramonda Regina Renada Romana Rosalia Rosina Sara Serena Sibilla Simona Valentina Valèria Veronica Viviana #Zita/Zeta
+			
+		}
+		dynasty_names = {
+			#Duchies of AUVERGNE
+			"d'Auvèrnhe" "de Borbon" "de Mercuèr" "de Monpansèir" #Auvergne was a county, a duchy and a dauphinate. Bourbon is just barely on the Oil side of today's Oil/Oc divide. Would likely have been Occitan in 1444, and absolutely before 1100.
+			#Counties of AUVERGNE
+			"de Brivadés" "de Carlat" "de Clarmont" "de Randans" #Carlat/Carladés. #UNKNOWN Oc orthography - Turluron
+			#Viscounties of AUVERGNE
+			"de Murat"
+			#####OTHER RULERS#####
+			"de La Tor" #(de La Tor d'Auvèrnhe) #Foreign rulers: LIMOUSIN - "de Chabanas" (Participated in Crusades; became counts of Dammartin in N France, held notable military and political positions)
+			"de Velai" #Including becasue Auvergnat speaking, and has been attached to Auvergne more than once (though it's almost always been in Languedoc)
+			#Notable Leaders (for tags): ROUERGAIS - "de Cassanhas" "d'Estanh" #d'Estaing were military men, lorda, and cardinals. VELAY/VIVARAIS - "de Chanalelhas" "de Fai"
+			#Other Nobility (Leaders for tags)
+			#"de Bodinat" "de Montagut" #Unsure of Occitan Spelling - "de Barrin"
+		}
+	}
+	gascon = {
+		primary = GUY
+		male_names = { #See Workfiles -> NewNames -> GasNameSorting.txt.
+			Bernat Enric Francés Guilhèm Joan
+		}
+		female_names = { #See Workfiles -> NewNames -> GasNameSorting.txt.
+			Anna Maria Ròsa Victòria
+		}
+		dynasty_names = {
+			#####DUCHIES#####
+			#Duchies of GUYENNE (Gascon-Speaking)
+			"de Ròcalaura" "de Guiana" "de Rausan" "d'Aquitània"
+			#Duchies of GASCONY
+			"d'Antin" "d'Esclinhac" "de Gasconha" "de Gramont" "de Labrit"
+			#####MARQUISATES#####
+			"d'Abòs" "d'Amor" "d'Aurimont" "de Baselhac" "de Benac" "de Biran" "de Bonàs" "de Campet" "de Candau" "de Castèthvièlh" "de Flamarens" "de L'Isla Boson" "de Terrauba" #de Castelnau-Laloubère. de Franclieu.
+			#"d'Antin"
+			#####COUNTIES#####
+			#Counties of GASCONY
+			"d'Armanhac" "d'Astarac" "de Benauja" "de Bigòrra" "de Comenge" "de Fesensac" "de Gaure" "de Guishe" "de Marçac" "de Pardiac" "de Vasats" #CATALAN - "de Montcada" LIMOUSIN - "de Chabanès"
+			#Counties of GUYENNE (Gascon-Speaking)
+			"de Bordèu"
+			#####VISCOUNTIES#####
+			#Viscounties of GASCONY
+			"d'Arbocava" "d'Auloron" "de Bearn" "de Brulhés" "de Coserans" "de Dacs" "de Fronçac" "de Gavardan" "de Labord" "de Lavedan" "de Lobinhèr" "de Lomanha" "de Marsan" "de Tartàs" "de Tursan" #Bezaume...What's its Gascon name? #de Cornelhan? #"de Gavardan" or "de Gavarret"?
+			#Viscounties BASQUE:
+			"de Macaia" "de Sola"
+		}
+	}		
+	occitain = {
+		primary = TOU
+		male_names = {
+			Abraham Adam Ademar Aimar Aimeriguet Alfan Alfonzenc Almaric Amalvi Amelh Amelian Andrieu Andrivet Aribèrt Arnal #Andrèu
+			Audric Aulric Bartelemi Bartolemi Bartolomieu Bec Berengar Berenguièr Bermon Bertolomieu Bertomieu Bertòt Bonet
+			Carbonèl Colomb Diau Domergue Elian Espan Espanèl Estefe Estol Estève Ferran Fontanièr
+			Galhard Gerald Gilabèrt Gili Girard Guibèrt Guilhabèrt Guilhelmet Guiral Guiraud Guiraudet
+			Guirbèrt Guitard Guiòt Gèli Matieu Miquèl Mèstre
+			Nicolet Onoret Ot Oton Pascal Paul Poncet Ponç Pradas Raimon Raimond Raimondet Ramon Ramonet
+			Rogièr Rossèl Sicart Simonet Ugolin Ugon Ugonet Uguet Vidal Vidalet Vital
+
+			Alèxi Andeòl Carles Danièl Eustaqui Fèbus Jòrdi Quintin Ricard Silvan Simforian Xavièr
+
+			Amadèu
+
+			#Languedocian+Limousin
+			Albèrt Estève Guilhèm Josèp Lambèrt Maròt Olivièr Pèire Robèrt Sanç
+
+			"Bernat Rogièr" Clamenç Feliç "Joan Armand" Mèstre "Pèire Bernat"
+			Robèrt Rogièr "Rogièr Bernat" Sèrgi Vesian Victor
+			#Limousin (Normally written with è instead of e, but pronounced è anyway. Here I'm including the accent in Limousin, as did the Occitan version of Stardew Valley)
+			#^This helps to match the two dialects together since BT treats them as one culture. Limousin names look less misplaced this way.
+			
+			#Names M TOPONYMS, Limousin
+			Aforian Aitòre Alari Amand Angiau Augustin Aurelian Auvenç Barbant Basaris Bonet Brecís Cibran Cir Circ Cirgue Claud Claudi Clement Constanç Deunis Estefe Estève Eutròpe Front Gençan Geris German Giniés Ilaire Iriès Jauvenç Joan Jòrge Julian Junian Just Lasér Laurenç Legèr Legíer Liunard
+			Maissenç Marçau Mari Martin Maurzis Mauseris Mauvire Mèrd Michèu Quentin Oen Pantaleon Pardós Pau Paul Perdós Pèire Privat Remic Robèrt Roman Sarnin Salvador Sauvestre Sepise Sestari Severin Silvan Sòlve Sòrnin Sulpici Superis Vertunian Viance Victor Vit #Alari/Ilaire, Circ/Cir/Cirgue(s), Claud/Claudi, Estefe/Estève Legèr/Legíer, Pardós/Perdós, Pau/Paul Príech/Prech/Prèch/Préch, Sarnin/Sòrnin
+			#?Imbert Jòvi #Aliég Bausilha Crestòfa Frejolh Genes Iries Jal Sepieri
+			
+			#Names M WIKIPEDIA, Limousin
+			Alan Josèp Maximin
+
+			#Wikipedia -- for which dialect??
+			Adalbert Ademar Alari Andriu Aubin Bernard Bertomiu Boson Charles Claudi Eustachi Front #Front varies dialectally. Frònt in the Valadas.
+			Gaucelm Gausbèrt Gilbèrt Giraut Iriès Jòri Leon Marçau Meard Pèir Rafèu Sarnin Sauvador Sieurin Soplesí
+		}
+		female_names = {
+			#Lengadocian
+			Agnès Aicelina Aimeriga Alamanda Alazaís Alemanda Alèsta Alícia Algaia Alissenda Alumbors Andrieva Angelina Anhès Anna Antònia Arnauda Astruga Auda Audiarda
+			Austòrga Beatritz Berengaria Berenguièira Bernadeta Bernarda Bertomièva Bertranda Blanca Bonàssia
+			Cambola Catarina Catorna Ciragua Condors Constança Eglantina Elena Elis Emersenda Ermessenda Espèrta Esquiva
+			Estela Estevena Fabrícia Fàvia Galharda Galhardeta Gauda Gauzia Gentila Grazida Guilbèrta Guilhelma Guilhema Guiralda Guirauda
+			Isabèl Isabèla Isabèu Jacmelina Jacmeta Janseranda Liseta Magdalena Mareta
+			Matena Mondeta Nonèla Onors Ramona Ramonda Ricsenda Rossa Rubèa Sebienda Seguina Susanna
+			Tomasa Tomàssia Tònia Ugueta Vuissança
+
+			Anhès Auda Alienòr
+			Bòrna Carlòta
+			Jordeta
+			Teresa #Terèsa
+			#Aglaé
+			#Lengadocian+Limousin
+			Agnès Alària Catalina Colomba Constança Èva Florença Margarida Raimonda Sança Sibilha Sobeirana Tifània
+			#Limousin
+			s#Names F TOPONYMS, Limousin
+			Anna Aulària Ferriòla Fortunada #Marí #Ferriòla - Original spelling: Fereòla. Changed to match the more common spellings.
+			#Names F WIKIPEDIA, Limousin
+			Charlòta Marisa
+			#Alvèra Eulàlia/Aulàia/Aulària
+		}		
+	}
+	aquitaine = { #Provencal
+		primary = ANJ
+		male_names = {
+			Desirat
+			Savornin
+			Victoret
+			
+			#Common to Occitans
+			Aicart Aimat Aimeric Aimon Alaman Ambròsi Anfós Antòni Armand Arnaudon Arnaud Artús Asemar Astruc Avit
+			Benet Beneset Bernat Bertran Bonifaci Brasc Brun
+			Camil Centolh Crespin
+			Damian Dàvid Deodat Desirat Domenge Domenjon Donat Duran
+			Eble Eblon Edmond Edoard Elias Enric #Eblon is a diminutive of Ebles, and was the stage name of a trobador whose real name was Ebles.
+			Fabian Fabrici Felip Felipon Felipòt Fineas Florenç Folquet Francés Frederic
+			Gaston German Gregòri Gui Guion Guionet Guilhemòt Guilhòt Ives Isaac Isarn
+			Jacme Jacòb Jaufré Jaume Joan Joanet Joanòt Jordan Juli Julian
+			Laurenç Loís Lop
+			Macari Maime Maimin Mainard Marin Martin Martinet Maurin Nicolau
+			Osmin Oton Patrici Pau Peiròl Peiron Peironet Ponç #Plini
+			Ramir Roberton Robin Robion Salomon Savaric Savin Seguin Simon Tomàs Tristan
+			Uc Ugo Urban Valentin Victorin Vincenç Vivian
+		}
+		female_names = {
+			Alària Celèsta
+			Desirada
+			Maissa Nadaleta Odília
+			
+			#Common to Occitans
+			Alaís Anna Antònia Asalaís Astruga Beatritz Bernarda Bertranda Bruna
+			Clamentina Clara Clariana Clarmonda Clotilda
+			Doça Domenja Elisa Felícia Felipa Felipia Felipina #Desirada - not common to Vivaroalpine. Origin list?
+			Joana Jordana Julia Juliana Justa #Julia/Júlia (Accent Provence only?)
+			Laura Laurença Lena Leontina Lisa Liseta Liurada Lucia Luciana #Lucia/Lúcia (Accent Provence only?)
+			Margòt Maria Marieta Marisa Marquesa Marta Matilda Melània Melania Melina Monica Nalena Natalia Naudina Nicòla Nina Orsula
+			Paula Paulina Peirona Peireta Petrona Petronilha Radegonda Ramonda Regina Renada Romana Rosina Rosalia Sara Serena Sibilla Simona Ugueta Valentina Valèria Veronica Viviana
+			#Common to Occitans - from Lo Congrès and Others (Verifiable ones)
+			#FILTER those therein which are still partly dialect-specific!
+			Adelaïda Adelina Adriana Agata Agueta Alana Albana Alienòr Amandina Angelica Angelina Anneta Antonieta Ariana Armanda Arnauda Auda Audeta Audila Aureliana Auròra #Adela/Adèla Agata/Agueta #Agustina Atanàsia Avelina
+			Barbara Bernadeta Bernadòta
+			Edoarda
+			Ivona #Iveta - Var. Pro: Ivèta
+			Jacinta Jacomina Joaneta Joanina Judit Juliana Joliana Julieta Jolieta Justina Justiniana #Joseta Josiana <- These two add a 'u' in Provençal.
+			Lauriana Leocàdia Leona Letícia Lídia Lidia Lidvina Loba Lucia Lugana Lutz #Lucrècia - is Lucrécia in Vivaroalpine.
+			Macària Maélis Magalí Magalona Marcelina Marion Marina Matilda Mauriceta Melusina Menauda Morgana Nadina Norada Norina Oceana Odeta Oliva Onorada
+			Pascala Patrícia Patz Peireta Peirina Peironeta Peiròta Pelegrina Perpetua Plasença Potona Presada Prima Prosa Prudéncia
+			Raimonda Rafèla Ramona Reina Reinauda Rejana Rita Robina Rosalina Rosana Roseta Rut #Rebeca
+			Sabina Sandrina Sareta Saurimonda Savina Sebastiana Serafina Sibilha Sidònia Solanja Susanna Suseta Suson Tatiana Tristana Ugolena Ursula #Zoè
+			Valentina Valerina Valeriana Verana Vesiada Victoriana Victorina Zefirina Zita #Anna Bertranda Bruna Felipina Jordana Justa Laura Lena Leontina Lisa Liseta Liurada Luciana Margòt Marisa Melania Monica Natalia Nicòla Nina Onorina Orsula Paula Pauleta Paulina Peireta Radegonda Ramonda Regina Renada Romana Rosalia Rosina Sara Serena Sibilla Simona Valentina Valèria Veronica Viviana #Zita/Zeta
+			#Common to Occitans - from Auvergnat List
+			Angelina Antonina Germana Orsa #Alaís Antònia Astruga Beatritz Bertranda Doça Felipa Francesa Juliana Marta
+			#Common to Occitans - from Gascon List
+			Desirada #Clara Doça Joana Laurença Maria Petronilha
+			#Common to Occitans - from Languedocian List
+			Alissenda Arnauda Brunissenda Clareta Eglantina Emersenda Ermengarda Estevena Gentila Guilhemeta Jacotina Joaneta Loba Loïsa
+			Marquesina Maura Mengarda Montanha Oliva Peirina Rixenda Rossa #Anna Antònia Astruga Beatritz Bernarda Bertranda Bruna Domenja Felipa Francesa Ermengarda Joana Laurença Margòt Maria Marta Petronilha Serena Ugueta Valentina
+			#Common to Occitans - from Limousin List
+			Armanda Clària Ferriòla Fortunada Manha Paula #Alaís Anna Bernarda Bertranda Joana Maria Marieta Marisa
+			#Common to Occitans - from Provençal List
+			Bernadeta Camila Clementina Crotz Diana Docelina Elena Emma Esclarmonda Esteveneta Fabiana Faustina Feliciana Filomena Martina Maura Monica
+			Octàvia Radegonda Rotlanda Ròsa Victòria Vidalina #Clara Doça Domenja Ermengarda Felipina Iveta Joana Jordana Júlia Juliana Justa Laura Lena Leontina Lisa Liseta Liurada Luciana Maria Marta Melania Monica Natalia Nicòla Nina Onorina Orsula Paula Pauleta Paulina Peireta Radegonda Ramonda Regina Renada Romana Rosalia Rosina Sara Sibilla Simona Ugueta Valèria Veronica Viviana
+		}
+		#dynasty_names = {
+			#Other VISCOUNTS, COUNTS or DUKES from PROVENCE with a different dynasty title (some were from Marquisates). Check French Wikipedia's various ruler lists.
+			#Venasca - Spouse of a count?
+			#Misc... (Old!)
+			#"deis Aupilhas" "dei Santas" "de Castèunòu"
+			
+			#BT Provs?????
+			#"de Tolon"
+			
+			#Historical Titles of PROVENCE (Dukes, Counts, Viscounts; BT provs on the next line)
+			#OCCITAN - "de Milhau" "de Sabran"
+			#"de Barcilona" "de Dinha" "de Frejús"
+			#"d'Ais" #Extras ^^
+		#}		
+	}	
+	catalan = {
+		primary = CAT
+		dynasty_names = {
+			"d'Aragó" "de Borja" "de Luna" "d'Urgell" "Folc de Cardona"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			"de Cabrera" "de Villena"
+		}
+		male_names = {
+			Aaró Aaron Abelard Abraham Absaló Abundi Adalbert Adam Adrià Alaric Albà Albí Aleix Àlvar Àngel Antoni Arnau 
+			Artur Blai Carles Cecili Conrad Dari Dionís Emili Enric Felip Ferran Francés Francesc Fructuós Germà 
+			Gonçal Guillem Guiu Ignasi Israel Joan Jordi Josep Josep Maria Lleó Lluc Lluís Macedoni Màrius Martí Miquel 
+			Octavi Òscar Pau Pere Pol Pompeu Pròsper Prudenci Prudencià Quirze Rafael Ramir Raül Reginald Ricard Robert Roc 
+			Rubèn Sergi Simó Teodor Tomàs Vicenç Vicent Xavier
+		}
+		female_names = {
+			Àgata Àgueda Aina Anna Antònia Caterina Cecília Cristina Dolors Francesca Genoveva Isabel Joana Justina Laia 
+			Montserrat Núria Octàvia Prudència Roberta Rodolfa
+		}
+	}
+	dynasty_names = { #Effectively this is for realms/cities/dynasties common to all THREE languages:Occitan, Aragonese, Catalan. So pretty much always 'de X'.
+		#KINGDOMS+DUCHIES
+		"de Navarra" #Next-closest is 'Provença', but Aragonese spells Provenza.
+		#COUNTIES
+		"de Tolosa"
+		#CITIES
+		"de Barcelona" "de Clarmont" "de Tarba" #"de Narbona" "de Tarragona" - Gascon -oa? #"d'Agen"? "d'Albi"? "de Nimes"? "de Vic"? #"de Pau"
+	}	
 }
 
 finno_ugric = { #Ugric
@@ -2293,6 +2538,32 @@ south_slavic = {
 			"Krum" "Dulo" "Cometopuli" "Asen" "Terter" "Shishman" "Teleki"
 		}
 	}
+	slavic_imperial_bulgarian = { #For Rim except they stay more slavic
+		graphical_culture = easterngfx
+		primary = XXX #To be changed to whatever Rim's tag is (RIM?)
+		male_names = {
+			Iwan Asen Koloman Petar Todor Michael Aleksandar Iwan Kalojan Georgi Konstantin Stepan Stracimir 
+			Simeon Andon Andrei Angel Atanas Bogdan Bogomil Branimir Damyan Dimitar Emil Gavril Hristo Iordan 
+			Krasimir Lazar Marko Mikhail Miroslav Nikola Pavel Radomir Samuil Vasil Vladimir Zhivko
+			Aleksii Balin Bernardin Bernard Bertalan Bogoris Boril Bozidar Theodat Braslav Dan Dionisii 
+			Dionysus Dominik Dominic Dragoman Dragshan Drzislav Evtimii Frujin German Grgur Hranimir
+			Ioakim Ivan John Jerolim Kalojan Kocelj Kozma Kresimir Kulin Ljubomir Ljutomisl Marko 
+			Mihail Michael Mikica Miroslav Miroslav Momchil Nikola Nicholas Ognen Petar Peter 
+			Prijezda Radislav Radu Sava Sermon Slavac Soimir Stracimir Svetislav Tomislav Trpimir 
+			Basil Viseslav Vladislav Vladislav Vojnomir Zdeslav Marcus Vasilii Boris Kliment
+		}
+		female_names = {
+			Aleksandra Aleksandrina Bilyana Bisera Bogdana Bogna Borislava Boyana Dana Desislava Donka 
+			Elisaveta Elisabeth Emiliya Emily Evdokiya Filipa Philippa Gergana
+			Hristina Iskra Iva Ivana Ivanka Ivet Lala Lidiya Lilyana Lyudmila Maya Nadejda Nevena 
+			Penka Rada Radka Raina Raya Rayna Rosa Nikolina
+			Rositsa Silva Silviya Snezhana Stoyanka Tereza Teresa Todorka Tsveta Tsvetanka Vasilka 
+			Yolanda Yana Yoanan Yordanka Zhivka Violeta Bogomilia Sofija Krasimira
+		}
+		dynasty_names = {
+			"Krum" "Dulo" "Cometopuli" "Asen" "Terter" "Shishman" "Teleki"
+		}		
+	}		
 	dynasty_names = { 
 		"Trpimirovic" "Svetoslavic" "Kosovic" "Kresimirovic" "Zrinski" "Domagojevic" "Hrvatinic" "Kotromanic" "Brankovic" "Lazarevic" "Ibrahimovic"
 	}
@@ -2834,47 +3105,69 @@ byzantine = {
 	griko = {
 		graphical_culture = easterngfx
 	}
-	#LoM Culture
+	#RPHotLV Culture
 	macedonian = {
 		graphical_culture = easterngfx
 		primary = MDN
 	}
-	#LoM Culture
+	#RPHotLV Culture
 	thracian = {
 		graphical_culture = easterngfx
 		primary = TRC
 	}	
-	#LoM Culture
+	#RPHotLV Culture
 	epirotan = {
 		graphical_culture = easterngfx
 		primary = EPI
 	}		
-	#LoM Culture
+	#RPHotLV Culture
 	mikrasiatic = {
 		graphical_culture = easterngfx
 		primary = NIK
 	}	
-	#LoM Culture
+	#RPHotLV Culture
 	moesian = {
 		graphical_culture = easterngfx
 		primary = PAI
 	}
-	#LoM Culture
+	#RPHotLV Culture
 	dodecanesian = {
 		graphical_culture = easterngfx
 		primary = XXX #Needs new tag
 	}	
-	#LoM Culture
+	#RPHotLV Culture
 	imperial_bulgarian = { #For Rim
 		graphical_culture = easterngfx
 		primary = XXX #To be changed to whatever Rim's tag is (RIM?)
+		male_names = {
+			Iwan Asen Koloman Petar Todor Michael Aleksandar Iwan Kalojan Georgi Konstantin Stepan Stracimir 
+			Simeon Andon Andrei Angel Atanas Bogdan Bogomil Branimir Damyan Dimitar Emil Gavril Hristo Iordan 
+			Krasimir Lazar Marko Mikhail Miroslav Nikola Pavel Radomir Samuil Vasil Vladimir Zhivko
+			Aleksii Balin Bernardin Bernard Bertalan Bogoris Boril Bozidar Theodat Braslav Dan Dionisii 
+			Dionysus Dominik Dominic Dragoman Dragshan Drzislav Evtimii Frujin German Grgur Hranimir
+			Ioakim Ivan John Jerolim Kalojan Kocelj Kozma Kresimir Kulin Ljubomir Ljutomisl Marko 
+			Mihail Michael Mikica Miroslav Miroslav Momchil Nikola Nicholas Ognen Petar Peter 
+			Prijezda Radislav Radu Sava Sermon Slavac Soimir Stracimir Svetislav Tomislav Trpimir 
+			Basil Viseslav Vladislav Vladislav Vojnomir Zdeslav Marcus Vasilii Boris Kliment
+		}
+		female_names = {
+			Aleksandra Aleksandrina Bilyana Bisera Bogdana Bogna Borislava Boyana Dana Desislava Donka 
+			Elisaveta Elisabeth Emiliya Emily Evdokiya Filipa Philippa Gergana
+			Hristina Iskra Iva Ivana Ivanka Ivet Lala Lidiya Lilyana Lyudmila Maya Nadejda Nevena 
+			Penka Rada Radka Raina Raya Rayna Rosa Nikolina
+			Rositsa Silva Silviya Snezhana Stoyanka Tereza Teresa Todorka Tsveta Tsvetanka Vasilka 
+			Yolanda Yana Yoanan Yordanka Zhivka Violeta Bogomilia Sofija Krasimira
+		}
+		dynasty_names = {
+			"Krum" "Dulo" "Cometopuli" "Asen" "Terter" "Shishman" "Teleki"
+		}		
 	}	
-	#LoM Culture
+	#RPHotLV Culture
 	hellas_culture = {
 		graphical_culture = easterngfx
 		primary = GRE
 	}
-	#LoM Culture
+	#RPHotLV Culture
 	rhomaioi = { #Other Byzantine unifiers get this, merges Aegean, Moesian, Cappadocian, Pontic, Cypriot and Gothic
 		graphical_culture = easterngfx
 		primary = BYZ
@@ -3596,7 +3889,7 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 	}
 }
 
-# LoM: Iberian Muslim group
+# RPHotLV: Iberian Muslim group
 muwalladi = {
 	#BtPLegacy Culture - formerly part of BT's Arabic/Levantine
 	andalusi_culture = {

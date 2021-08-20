@@ -3,7 +3,7 @@
 owner = FTS
 controller = FTS
 add_core = FTS
-culture = angevin_culture
+culture = gallo_culture
 religion = catholic
 capital = "Chinon"
 base_tax = 4

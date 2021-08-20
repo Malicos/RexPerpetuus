@@ -3,7 +3,7 @@
 owner = BOU
 controller = BOU
 add_core = BOU
-culture = arpitan
+culture = auvergnat_culture
 religion = catholic
 capital = "Annonay"
 base_tax = 2

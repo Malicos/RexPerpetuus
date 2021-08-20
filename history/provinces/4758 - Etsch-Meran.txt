@@ -3,7 +3,7 @@
 owner = TIR
 controller = TIR
 add_core = TIR
-culture = austrian
+culture = bavarian
 religion = catholic
 capital = "Meran"
 base_tax = 6

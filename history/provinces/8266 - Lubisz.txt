@@ -9,7 +9,7 @@ owner = LUT
 controller = LUT
 
 #Demographics
-culture = saxon
+culture = polabian_culture
 religion = catholic
 
 #Development and Trade

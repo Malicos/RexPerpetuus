@@ -47,7 +47,14 @@
  highland_scottish:0 "Gaelic"
  romanian:0 "Vlach"
  greek:0 "Aegean" #Unified Greece and West Anatolia 
- 
+ griko:0 "Kalabrian"
+ burgundian:0 "Low Burgundian"
+ occitain:0 "Langdocian" 
+ saxon:0 "Thuringian" #A little confusing I know - Illuminati
+ lower_saxon:0 "Saxon"
+ swabian:0 "Allemanic"
+ schlesian:0 "Silesian"
+
  # Religions
  hussite:0 "Patarene"
  hussite_religion_desc:1 "The Patarenes is an umbrella term for the followers of Marko Dragičević, founder of a Slavonic religious reformation movement that united the adherents of the Catholic and Bosnian churches, and was deemed heretical by the Pope. They are a diverse group of non-conformists ranging from moderates with minor theological disagreements with Catholic doctrine to radicals who see the Catholic Church as irredeemably corrupt."

@@ -3,7 +3,7 @@
 owner = BUR
 controller = BUR
 add_core = BUR
-culture = aquitaine
+culture = arelatian_culture
 religion = catholic
 capital = "Arles"
 base_tax = 5

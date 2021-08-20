@@ -2,7 +2,7 @@
 
 owner = HUN
 controller = HUN  
-culture = transylvanian_saxons
+culture = slovak
 religion = catholic
 capital = "Spiš"
 trade_goods = gold #Schemnitz / Banská Štiavnica

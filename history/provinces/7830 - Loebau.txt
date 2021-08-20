@@ -3,7 +3,7 @@
 owner = POL
 controller = POL
 add_core = POL
-culture = prussian
+culture = polish
 religion = catholic
 capital = "Löbau"
 base_tax = 3 

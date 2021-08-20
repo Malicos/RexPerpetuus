@@ -3,7 +3,7 @@
 owner = LUT
 controller = LUT
 add_core = LUT
-culture = pommeranian
+culture = polabian_culture
 religion = catholic
 capital = "Güstrow"
 base_tax = 2 
