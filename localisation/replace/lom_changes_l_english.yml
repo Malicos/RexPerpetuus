@@ -1,7 +1,6 @@
 ﻿l_english: 
 
  # Country tags
- 
  ADU:0 "al-Andalus"
  ADU_ADJ:0 "Andalusi"
  AFG:0 "Kabulistan"
@@ -42,7 +41,6 @@
  QOM_ADJ:0 "Qomi"
 
  # Cultures
- 
  albanian:0 "Arberian"
  highland_scottish:0 "Gaelic"
  romanian:0 "Vlach"
@@ -63,9 +61,16 @@
  reformed_religion_desc:1 "Reformed covers a wide range of religious traditions inspired by men such as REFORMERNAME or REFORMERNAME. Generally appearing later than the religions classified as Evangelical the Reformed religion also rejects papal authority and want to return to the rules of the scriptures but unlike the Evangelicals they embrace a number of perceived more hard-line ideas such as predestination and iconoclasm and will not form state Churches."
 
  # Technologies
- 
  ottoman:0 "Rhomaion"
  ottoman_desc:0 "With the Rhomaion technology group, technology levels are 10% more expensive (110%)."
+
+ # Continents
+ africa:0 "Ethiopia"
+ north_america:0 "Vesperia"
+ 
+ # Sea Regions and Areas
+ north_atlantic_area:0 "Central Atlantic"
+ south_atlantic_area:0 "Ethiopian Sea"
  
  # Base Localization Miscallenea
  LOADING_TIP_0:0 "Despite the decline of the Seljuk dynasty in 1125, the house endured as minor lords, and a second Seljuk state has been formed in Mashriq in year 1434 after deposing the Samarrids."

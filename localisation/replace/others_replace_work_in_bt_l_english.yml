@@ -882,8 +882,8 @@
  
  #Rename Cultures in BT13.0
  schlesian:2 "High Silesian"
- saxon:2 "High Saxon"
- lower_saxon:2 "Low Saxon"
+ #saxon:2 "High Saxon"      #Replaced in RP
+ #lower_saxon:2 "Low Saxon"     #Replaced in RP
  
  #Rename Trade Companies in BT13.0
  trade_company_novgorod:2 "Novgorodian Charter"
