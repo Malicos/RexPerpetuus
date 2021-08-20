@@ -829,7 +829,7 @@ christian = {
 	}
 	
 	bogomilist = {
-		color = { 219 31 78 }
+		color = { 176 56 74 }
 		icon = 33
 		country = {
 			stability_cost_modifier = -0.1
@@ -1135,7 +1135,7 @@ christian = {
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
 
-		color = { 225 188 232 }
+		color = { 210 117 217 }
 		icon = 30
 		country = {
 			defensiveness = 0.1
