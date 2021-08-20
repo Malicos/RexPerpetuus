@@ -275,5 +275,7 @@
  #################################################################################
  # Christian
  apostolic:0 "Apostolic"
+ bogomilist:0 "Bogomilist"
  cathar:0 "Cathar"
+ iconoclast:0 "Iconoclast"
  nestorian:0 "Nestorian"
