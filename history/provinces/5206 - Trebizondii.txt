@@ -1,8 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = PON
-controller = PON
-add_core = PON
+owner = TRE
+controller = TRE
+add_core = TRE
 culture = pontic_greek
 religion = orthodox
 capital = "Kerasous"

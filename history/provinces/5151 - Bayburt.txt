@@ -1,7 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = ARM
-controller = ARM
+owner = TRE
+controller = TRE
+add_core = TRE
 add_core = ARM
 culture = armenian
 religion = coptic

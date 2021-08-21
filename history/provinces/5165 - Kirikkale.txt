@@ -1,8 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = PON
-controller = PON
-add_core = PON
+owner = GLT
+controller = GLT
+add_core = GLT
 culture = pontic_greek
 religion = orthodox
 capital = "Kirkkake"			#not settled until the 16th century, but need a province here to prevent ugly borders, giant provinces, lopsided area balance etc.

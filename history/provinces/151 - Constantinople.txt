@@ -1,8 +1,8 @@
 #151 - Constantinople
 
-owner = TRC
-controller = TRC
-add_core = TRC
+owner = OPT
+controller = OPT
+add_core = OPT
 culture = thracian
 religion = orthodox
 capital = "Constantinople"

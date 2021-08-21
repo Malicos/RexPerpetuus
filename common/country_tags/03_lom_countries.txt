@@ -1,9 +1,14 @@
 # Balkans
+BGS = "countries/Burgas.txt"
+BZY = "countries/Bizya.txt"
 MDN = "countries/Macedonia.txt"
+OPT = "countries/Optimatoi.txt"
 PAI = "countries/Paristrion.txt"
 RSC = "countries/Rascia.txt"
+SBR = "countries/Selymbria.txt"
 SMA = "countries/Syrmia.txt"
 TRC = "countries/Thrace.txt"
+YAB = "countries/Yambol.txt"
 
 # Albion
 CBI = "countries/Cumbria.txt"
@@ -73,6 +78,7 @@ PNS = "countries/Pinsk.txt"
 VOR = "countries/Voronezh.txt"
 
 # Asia Minor
+GLT = "countries/Galatia.txt"
 NIK = "countries/Nikaea.txt"
 PON = "countries/Pontus.txt"
 
