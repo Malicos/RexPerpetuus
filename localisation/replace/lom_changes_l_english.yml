@@ -68,9 +68,32 @@
  africa:0 "Ethiopia"
  north_america:0 "Vesperia"
  
+ # Areas
+ east_african_islands_area:0 "East Ethiopian Islands"
+ south_african_plateau_area:0 "South Ethiopian Plateau"
+ south_african_plateau_area_name:0 "South Ethiopia"
+ south_african_plateau_area_adj:0 "South Ethiopian"
+ west_africa_coast_area:0 "West Ethiopian Coast"
+ 
+ # Regions
+ central_africa_region:0 "Central Ethiopia"
+ central_africa_region_name:0 "Ethiopia"
+ central_africa_region_adj:0 "Ethiopian"
+ east_africa_region:0 "East Ethiopia"
+ horn_of_africa_region:0 "Horn of Ethiopia"
+ south_africa_region:0 "South Ethiopia"
+ 
+ # Superregions
+ africa_superregion:1 "Northern Ethiopia"
+ north_america_superregion:0 "Vesperia"
+ north_america_superregion_name:0 "Vesperia"
+ north_america_superregion_adj:0 "Vesperian"
+ southern_africa_superregion:0 "Southern Ethiopia"
+ 
  # Sea Regions and Areas
- north_atlantic_area:0 "Central Atlantic"
  south_atlantic_area:0 "Ethiopian Sea"
+ west_african_sea_region:0 "West Ethiopian Sea"
+ west_african_coast_sea_area:0 "West Ethiopian Coast"
  
  # Base Localization Miscallenea
  LOADING_TIP_0:0 "Despite the decline of the Seljuk dynasty in 1125, the house endured as minor lords, and a second Seljuk state has been formed in Mashriq in year 1434 after deposing the Samarrids."
