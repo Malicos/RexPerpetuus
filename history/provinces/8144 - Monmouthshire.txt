@@ -9,7 +9,7 @@ owner = GWE
 controller = GWE
 
 #Demographics
-culture = anglisk
+culture = anglo_saxon
 religion = catholic
 
 #Development and Trade

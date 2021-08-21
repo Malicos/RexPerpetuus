@@ -5,7 +5,7 @@
 owner = MID
 controller = MID
 add_core = MID
-culture = anglisk
+culture = english
 religion = catholic
 hre = no
 base_tax = 4 

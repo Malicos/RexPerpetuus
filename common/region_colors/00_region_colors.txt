@@ -113,7 +113,7 @@ color = { 0 255 0 } #Unused Region, Dummy Group
 ####Cultures####
 
 color = { 80 90 80 } #Germanic Group
-color = { 145 160 220 } #Scandinavian Group 
+color = { 60 70 120 } #Scandinavian Group 
 color = { 175 20 10 } #British Group
 color = { 35 140 50 } #Ireland Gaelic Group
 color = { 0 140 70 } #Italian Group

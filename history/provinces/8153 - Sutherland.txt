@@ -9,7 +9,7 @@ owner = NOR
 controller = NOR
 
 #Demographics
-culture = highland_scottish
+culture = gallgaidheil
 religion = catholic
 
 #Development and Trade

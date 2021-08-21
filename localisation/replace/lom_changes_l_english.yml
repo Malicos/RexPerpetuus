@@ -54,6 +54,7 @@
  lower_saxon:0 "Saxon"
  swabian:0 "Allemanic"
  schlesian:0 "Silesian"
+ anglo_saxon:1 "Sexish"
 
  # Religions
  hussite:0 "Patarene"

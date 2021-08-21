@@ -9,7 +9,7 @@ owner = CBI
 controller = CBI
 
 #Demographics
-culture = anglisk
+culture = cumbrian_culture
 religion = catholic
 
 #Development and Trade

@@ -9,7 +9,7 @@ owner = MID
 controller = MID
 
 #Demographics
-culture = anglisk
+culture = english
 religion = catholic
 
 #Development and Trade

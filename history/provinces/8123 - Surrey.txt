@@ -9,7 +9,7 @@ owner = SSX
 controller = SSX
 
 #Demographics
-culture = anglisk
+culture = anglo_saxon
 religion = catholic
 
 #Development and Trade

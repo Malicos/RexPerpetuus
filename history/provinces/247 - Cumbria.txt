@@ -5,7 +5,7 @@
 owner = CBI
 controller = CBI
 add_core = CBI
-culture = anglisk
+culture = cumbrian_culture
 religion = catholic
 hre = no
 base_tax = 2

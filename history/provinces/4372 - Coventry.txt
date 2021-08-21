@@ -5,7 +5,7 @@
 owner = WTC
 controller = WTC
 add_core = WTC
-culture = anglisk
+culture = english
 religion = catholic
 hre = no
 base_tax = 3

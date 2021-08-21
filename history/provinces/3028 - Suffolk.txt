@@ -5,7 +5,7 @@
 owner = EAG
 controller = EAG
 add_core = EAG
-culture = anglisk
+culture = english
 religion = catholic
 hre = no
 base_tax = 4

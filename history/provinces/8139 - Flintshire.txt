@@ -9,7 +9,7 @@ owner = PCK
 controller = PCK
 
 #Demographics
-culture = anglisk
+culture = english
 religion = catholic
 
 #Development and Trade

@@ -22,7 +22,7 @@
  # 2 - Cultures
  #################################################################################
  # Old World
- anglisk:0 "Anglisk"              # English Norse
+ anglisk:0 "Denlegian"            # English Norse
  anglo_saxon:0 "Anglo-Saxon"      # Old English
  muwalladi:0 "Muwalladi"          # Iberian Muslim Group
  batalyawsi:0 "Batalyawsi"        # Muslim Badajozi
@@ -44,6 +44,7 @@
  high_burgundian:0 "High Burgundian"
  occitanic:0 "Occitanic"
  arelatian_culture:0 "Arlesian" 
+ cumbrian_culture:0 "Cumbrian"
  
  #################################################################################
  # 3 - Tags
