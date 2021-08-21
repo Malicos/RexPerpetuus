@@ -1,8 +1,8 @@
 # 2353 - Tortkara
 
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = KPC
+controller = KPC
+add_core = KPC
 culture = khazak
 religion = sunni
 capital = "Tortkara"

@@ -1,8 +1,8 @@
 # 2368 - Karamegdan
 
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = KPC
+controller = KPC
+add_core = KPC
 add_core = ZHT
 culture = khazak
 religion = sunni

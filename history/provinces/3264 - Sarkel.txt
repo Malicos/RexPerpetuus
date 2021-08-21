@@ -1,8 +1,8 @@
 #3264 - Sarkel
 
-owner = CVS
-controller = CVS
-add_core = CVS
+owner = CUM
+controller = CUM
+add_core = CUM
 culture = astrakhani
 religion = sunni
 capital = "Sarkel"

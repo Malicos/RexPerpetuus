@@ -1,8 +1,8 @@
 #1971 - Tsaritsyn
 
-owner = CVS
-controller = CVS
-add_core = CVS
+owner = CUM
+controller = CUM
+add_core = CUM
 culture = mishary
 religion = sunni
 hre = no

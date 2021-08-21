@@ -1,8 +1,8 @@
 #468 - Khazaria
 
-owner = PEC
-controller = PEC
-add_core = PEC
+owner = CUM
+controller = CUM
+add_core = CUM
 culture = crimean
 religion = sunni
 capital = "Semikarakor"

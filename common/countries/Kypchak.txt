@@ -2,7 +2,7 @@
 
 graphical_culture = easterngfx
 
-color = { 134 155 30 }
+color = { 242 206 111 }
 
 preferred_religion = catholic
 

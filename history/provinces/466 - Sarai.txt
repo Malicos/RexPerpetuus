@@ -1,8 +1,8 @@
 #466 - Sarai
 
-owner = CVS
-controller = CVS
-add_core = CVS
+owner = CUM
+controller = CUM
+add_core = CUM
 culture = astrakhani
 religion = sunni
 capital = "Sarai"

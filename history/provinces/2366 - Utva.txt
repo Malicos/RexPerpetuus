@@ -1,8 +1,8 @@
 # 2366 - Utva
 
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = KPC
+controller = KPC
+add_core = KPC
 culture = nogaybak
 religion = sunni
 capital = "Utva"
