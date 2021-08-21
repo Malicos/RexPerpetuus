@@ -1,6 +1,8 @@
 # Balkans
 MDN = "countries/Macedonia.txt"
 PAI = "countries/Paristrion.txt"
+RSC = "countries/Rascia.txt"
+SMA = "countries/Syrmia.txt"
 TRC = "countries/Thrace.txt"
 
 # Albion

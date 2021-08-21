@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = SER
-controller = SER
-add_core = SER
+owner = SMA
+controller = SMA 
+add_core = SMA
 culture = serbian
 religion = orthodox
 capital = "Valjevo"

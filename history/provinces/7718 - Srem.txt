@@ -1,9 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = CRO
-controller = CRO
-add_core = CRO
-add_core = SER #Serbia controlled this city at least in 1422. Also it's required for a mission.
+owner = SMA
+controller = SMA 
+add_core = SMA
 culture = serbian
 religion = orthodox
 capital = "Mitrovica"			#Sremska Mitrovica, specifically

@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = SER
-controller = SER
-add_core = SER
+owner = BUL
+controller = BUL
+add_core = BUL
 culture = serbian
 religion = orthodox
 capital = "Vranje"

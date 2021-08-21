@@ -1,8 +1,9 @@
 #3186 - Timocka
 
-owner = SER
-controller = SER
-add_core = SER
+owner = BUL
+controller = BUL
+add_core = BUL
+add_core = SMA
 culture = serbian
 religion = orthodox
 capital = "Branicevo"

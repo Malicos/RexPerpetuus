@@ -1,8 +1,9 @@
 #BT Balkans reoverhaul
 
-owner = SER
-controller = SER
-add_core = SER
+owner = RSC
+controller = RSC
+add_core = RSC
+add_core = BOS
 culture = bosnian
 religion = hussite
 capital = "Srebrenica"

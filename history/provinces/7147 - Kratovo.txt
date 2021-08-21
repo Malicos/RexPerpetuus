@@ -3,6 +3,7 @@
 owner = BUL
 controller = BUL
 add_core = BUL
+add_core = MDN
 culture = bulgarian			#Niki emphatically notes this region was Serbian
 religion = orthodox
 capital = "Kratovo"

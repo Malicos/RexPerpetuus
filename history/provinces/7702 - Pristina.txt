@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = SER
-controller = SER
-add_core = SER
+owner = RSC
+controller = RSC
+add_core = RSC
 culture = serbian
 religion = orthodox
 capital = "Pristina"			#Zvecan is a better option, but was already in decline by 1444. As it takes an event to change the capital name and Pristina is much more recognisable, just going with that.
