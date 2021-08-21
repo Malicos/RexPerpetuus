@@ -1,8 +1,8 @@
 #316 - Izmit
 
-owner = NIK
-controller = NIK
-add_core = NIK
+owner = OPT
+controller = OPT
+add_core = OPT
 culture = mikrasiatic
 religion = orthodox
 capital = "Izmit"

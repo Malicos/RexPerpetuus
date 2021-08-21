@@ -1,8 +1,8 @@
 #3195 - Lemnos
 
-owner = MDN
-controller = MDN
-add_core = MDN
+owner = VLS
+controller = VLS
+add_core = VLS
 culture = dodecanesian
 religion = orthodox
 capital = "Myrina"

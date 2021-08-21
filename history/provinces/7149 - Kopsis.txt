@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = BUL
-controller = BUL
-add_core = BUL
+owner = PHP
+controller = PHP
+add_core = PHP
 culture = moesian
 religion = orthodox
 capital = "Kopsis"

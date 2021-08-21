@@ -1,8 +1,8 @@
 #164 - Naxos
 
-owner = GRE
-controller = GRE
-add_core = GRE
+owner = PIS
+controller = PIS
+add_core = PIS
 add_core = NAX
 culture = dodecanesian
 religion = orthodox

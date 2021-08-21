@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = MDN
-controller = MDN
-add_core = MDN
+owner = CLD
+controller = CLD
+add_core = CLD
 culture = macedonian
 religion = orthodox
 capital = "Siderokausia"			#Sidrekapisi in Turkish, apparently. Athos also here.

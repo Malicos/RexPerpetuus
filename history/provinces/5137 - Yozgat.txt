@@ -1,8 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = CAP
-controller = CAP
-add_core = CAP
+owner = GLT
+controller = GLT
+add_core = GLT
 culture = pontic_greek
 religion = orthodox
 capital = "Yozgat"

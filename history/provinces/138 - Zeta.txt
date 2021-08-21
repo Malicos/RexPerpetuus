@@ -1,8 +1,9 @@
 #138 - Zeta
 
-owner = SER
-controller = SER
-add_core = SER
+owner = ALB
+controller = ALB
+add_core = ALB
+add_core = RSC
 add_core = MON
 culture = serbian
 religion = orthodox

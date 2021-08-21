@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = MDN
-controller = MDN
+owner = ALB
+controller = ALB
+add_core = ALB
 add_core = MDN
 culture = moesian
 religion = orthodox

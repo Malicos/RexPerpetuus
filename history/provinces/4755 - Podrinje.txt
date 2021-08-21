@@ -1,7 +1,8 @@
 #4755 - Southern part of Vrhbosna + some lands in modern Serbia
 
-owner = BOS # Part of the Bosnian kingdom
-controller = BOS
+owner = RSC
+controller = RSC
+add_core = RSC
 add_core = BOS
 culture = bosnian
 religion = hussite

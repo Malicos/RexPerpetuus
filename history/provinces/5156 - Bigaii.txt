@@ -1,8 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = NIK
-controller = NIK
-add_core = NIK
+owner = PGI
+controller = PGI
+add_core = PGI
 culture = mikrasiatic
 religion = orthodox
 capital = "Biga"

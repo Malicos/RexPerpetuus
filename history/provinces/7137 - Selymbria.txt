@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = TRC
-controller = TRC
-add_core = TRC
+owner = SBR
+controller = SBR
+add_core = SBR
 culture = thracian
 religion = orthodox
 capital = "Selymbria"

@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = TRC
-controller = TRC
-add_core = TRC
+owner = BZY
+controller = BZY
+add_core = BZY
 culture = thracian
 religion = orthodox
 capital = "Bizye"

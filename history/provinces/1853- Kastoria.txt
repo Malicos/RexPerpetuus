@@ -1,8 +1,8 @@
 #1853 - Kastoria
 
-owner = MDN
-controller = MDN
-add_core = MDN
+owner = KST
+controller = KST
+add_core = KST
 culture = aromanian_culture
 religion = orthodox
 capital = "Kastoria"

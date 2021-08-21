@@ -1,8 +1,8 @@
 #3248 - Lazistan
 
-owner = PON
-controller = PON
-add_core = PON
+owner = TRE
+controller = TRE
+add_core = TRE
 culture = laz_culture
 religion = orthodox
 capital = "Rizaion"

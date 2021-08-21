@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = EPI
-controller = EPI
-add_core = EPI
+owner = MOE
+controller = MOE
+add_core = MOE
 culture = epirotan
 religion = orthodox
 capital = "Lepanto"

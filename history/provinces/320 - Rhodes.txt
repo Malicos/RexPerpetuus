@@ -1,8 +1,8 @@
 #320 - Rhodes
 
-owner = PIS
-controller = PIS
-add_core = PIS
+owner = VAR
+controller = VAR
+add_core = VAR
 culture = dodecanesian
 religion = orthodox
 capital = "Rhodes"

@@ -1,8 +1,9 @@
 #BT Balkans reoverhaul
 
-owner = SER
-controller = SER
-add_core = SER
+owner = ALB
+controller = ALB
+add_core = ALB
+add_core = RSC
 culture = serbian
 religion = orthodox
 capital = "Prizren"

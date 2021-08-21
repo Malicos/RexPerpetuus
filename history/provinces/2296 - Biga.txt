@@ -1,8 +1,8 @@
 #2296 - Biga
 
-owner = NIK
-controller = NIK
-add_core = NIK
+owner = DDL
+controller = DDL
+add_core = DDL
 culture = mikrasiatic
 religion = orthodox
 capital = "Kale-i Sultaniye"			#Çanakkale was an Ottoman fortress called Kale-i Sultaniye. Not actually until 1460s, but whatever, close enough

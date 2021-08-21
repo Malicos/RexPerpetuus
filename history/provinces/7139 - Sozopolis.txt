@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = TRC
-controller = TRC
-add_core = TRC
+owner = BGS
+controller = BGS
+add_core = BGS
 culture = moesian
 religion = orthodox
 capital = "Sozopolis"

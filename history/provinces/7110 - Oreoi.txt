@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = GRE
-controller = GRE
-add_core = GRE
+owner = VLS
+controller = VLS
+add_core = VLS
 culture = arvanite
 religion = orthodox
 capital = "Oreoi"

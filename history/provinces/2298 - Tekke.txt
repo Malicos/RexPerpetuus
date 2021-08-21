@@ -1,8 +1,8 @@
 #2298 - Tekke
 
-owner = NIK
-controller = NIK
-add_core = NIK
+owner = LYC
+controller = LYC
+add_core = LYC
 culture = cappadocian
 religion = orthodox
 capital = "Antalya"			#An earlier varient of the name, which is fine, leaving vanilla

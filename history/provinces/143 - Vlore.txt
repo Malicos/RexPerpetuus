@@ -1,8 +1,7 @@
 #143 - Albania
 
-owner = EPI
-controller = EPI
-add_core = EPI
+owner = ALB
+controller = ALB
 add_core = ALB
 culture = albanian
 religion = orthodox

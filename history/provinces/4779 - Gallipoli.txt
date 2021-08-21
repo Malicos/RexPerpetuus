@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = TRC
-controller = TRC
-add_core = TRC
+owner = DDL
+controller = DDL
+add_core = DDL
 culture = thracian
 religion = orthodox
 capital = "Gallipoli"

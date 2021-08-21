@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = SER
-controller = SER
-add_core = SER
+owner = RSC
+controller = RSC
+add_core = RSC
 culture = serbian
 religion = orthodox
 capital = "Pljevlja"
