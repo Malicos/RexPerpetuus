@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = TRC
-controller = TRC
-add_core = TRC
+owner = VLS
+controller = VLS
+add_core = VLS
 culture = thracian
 religion = orthodox
 capital = "Ainos"

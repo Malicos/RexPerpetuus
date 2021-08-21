@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = ATH
-controller = ATH
-add_core = ATH
+owner = VLS
+controller = VLS
+add_core = VLS
 culture = hellas_culture
 religion = orthodox
 capital = "Volos"			#Demetrias in earlier starts, possibly, but Volos really had eclipsed it, it would seem.

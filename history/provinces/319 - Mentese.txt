@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }	#Mughla Basin. Dub's suggestion, works for me.
 
-owner = NIK
-controller = NIK
-add_core = NIK
+owner = VAR
+controller = VAR
+add_core = VAR
 culture = mikrasiatic
 religion = orthodox
 capital = "Mughla"

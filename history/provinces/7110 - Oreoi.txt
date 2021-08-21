@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = ATH
-controller = ATH
-add_core = ATH
+owner = VLS
+controller = VLS
+add_core = VLS
 culture = arvanite
 religion = orthodox
 capital = "Oreoi"

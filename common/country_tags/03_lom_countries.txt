@@ -3,15 +3,19 @@ AET = "countries/Aetolia.txt"
 BGS = "countries/Burgas.txt"
 BZY = "countries/Bizya.txt"
 CLD = "countries/Chalkdiki.txt"
+CRH = "countries/Corinth.txt"
+DDL = "countries/Dardanelles.txt"
 KST = "countries/Kastoria.txt"
 MDN = "countries/Macedonia.txt"
 OPT = "countries/Optimatoi.txt"
 PAI = "countries/Paristrion.txt"
+PCS = "countries/Phocis.txt"
 RSC = "countries/Rascia.txt"
 SBR = "countries/Selymbria.txt"
 SMA = "countries/Syrmia.txt"
 TRC = "countries/Thrace.txt"
 TSY = "countries/Thessaly.txt"
+VLS = "countries/Volos.txt"
 YAB = "countries/Yambol.txt"
 
 # Albion
@@ -83,8 +87,13 @@ VOR = "countries/Voronezh.txt"
 
 # Asia Minor
 GLT = "countries/Galatia.txt"
+KRS = "countries/Korakesion.txt"
+LYC = "countries/Lycia.txt"
 NIK = "countries/Nikaea.txt"
+PGI = "countries/Pegai.txt"
+PHI = "countries/Philadelphia.txt"
 PON = "countries/Pontus.txt"
+VAR = "countries/VarangianLeague.txt"
 
 # North Africa
 BIZ = "countries/Bizerte.txt"

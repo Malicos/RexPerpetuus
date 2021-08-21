@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = MOE
-controller = MOE
+owner = PIS
+controller = PIS
+add_core = PIS
 add_core = MOE
 culture = hellas_culture
 religion = orthodox

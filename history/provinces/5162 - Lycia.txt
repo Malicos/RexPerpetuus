@@ -1,8 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = NIK
-controller = NIK
-add_core = NIK
+owner = LYC
+controller = LYC
+add_core = LYC
 culture = cappadocian
 religion = orthodox
 capital = "Beskaza"			#Makri to the Greeks

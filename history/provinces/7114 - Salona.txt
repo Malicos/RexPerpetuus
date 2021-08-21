@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = ATH
-controller = ATH
-add_core = ATH
+owner = PCS
+controller = PCS
+add_core = PCS
 culture = arvanite
 religion = orthodox
 capital = "Salona"			#Ancient and modern Amfissa

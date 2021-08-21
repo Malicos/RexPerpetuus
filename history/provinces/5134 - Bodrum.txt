@@ -1,8 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = NIK
-controller = NIK
-add_core = NIK
+owner = VAR
+controller = VAR
+add_core = VAR
 culture = mikrasiatic
 religion = orthodox
 capital = "Petronium"
