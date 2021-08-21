@@ -1,8 +1,8 @@
 #148 - Macedonia
 
-owner = MDN
-controller = MDN
-add_core = MDN
+owner = TSL
+controller = TSL
+add_core = TSL
 culture = macedonian
 religion = orthodox
 capital = "Thessaloniki"

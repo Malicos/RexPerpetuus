@@ -1,8 +1,7 @@
 #146 - Athens
 
-owner = GRE
-controller = GRE
-add_core = GRE
+owner = ATH
+controller = ATH
 add_core = ATH
 culture = hellas_culture
 religion = orthodox

@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = GRE
-controller = GRE
-add_core = GRE
+owner = TSY
+controller = TSY
+add_core = TSY
 culture = aromanian_culture			#A major centre of Vlachs, or Aromanians, apparently was eastern Thessaly, and much of the region even came to be known as Vlachia
 religion = orthodox
 capital = "Farsala"

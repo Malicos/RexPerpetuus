@@ -1,8 +1,7 @@
 #BT Balkans reoverhaul
 
-owner = GRE
-controller = GRE
-add_core = GRE
+owner = ATH
+controller = ATH
 add_core = ATH
 culture = arvanite			#Exact timeline unclear, but this would become a centre of the Arvanites in later years
 religion = orthodox
