@@ -1,7 +1,8 @@
 #4306 - Lakia
 
-owner = GAZ
-controller = GAZ
+owner = LKA
+controller = LKA
+add_core = LKA
 culture = dagestani
 religion = shiite
 capital = "Kumukh"
@@ -11,7 +12,6 @@ base_tax = 6
 base_production = 4
 base_manpower = 4
 is_city = yes
-add_core = GAZ
 
 extra_cost = 8
 center_of_trade = 1
@@ -21,9 +21,3 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
-
-1801.1.18 = {
-	owner = RUS
-	controller = RUS
-	add_core = RUS
-} # Annexed by Russia

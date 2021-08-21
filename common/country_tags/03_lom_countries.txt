@@ -95,6 +95,14 @@ PHI = "countries/Philadelphia.txt"
 PON = "countries/Pontus.txt"
 VAR = "countries/VarangianLeague.txt"
 
+# Caucasus
+ALN = "countries/Alania.txt"
+KUM = "countries/Kumykia.txt"
+LKA = "countries/Lekia.txt"
+SSR = "countries/Simsir.txt"
+TMT = "countries/Tmutarakan.txt"
+ZIC = "countries/Zichia.txt"
+
 # North Africa
 BIZ = "countries/Bizerte.txt"
 GHT = "countries/Ghat.txt"

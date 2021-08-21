@@ -225,6 +225,20 @@
  VAR:0 "Varangian League"
  VAR_ADJ:0 "Varangian"
  
+ # Caucasus
+ ALN:0 "Alania"
+ ALN_ADJ:0 "Alan"
+ KUM:0 "Kumykia"
+ KUM_ADJ:0 "Kumyk"
+ LKA:0 "Lekia"
+ LKA_ADJ:0 "Lezgin"
+ SSR:0 "Simsir"
+ SSR_ADJ:0 "Simsirian"
+ TMT:0 "Tmutarakan"
+ TMT_ADJ:0 "Tmutarakani"
+ ZIC:0 "Zichia"
+ ZIC_ADJ:0 "Zichian"
+ 
  # East Africa
  OAJ:0 "Outer Ajuuraan"
  OAJ_ADJ:0 "Outer Ajuuraani"

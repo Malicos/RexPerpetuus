@@ -1,8 +1,8 @@
 #2414 - Azaraba
 
-owner = PEC
-controller = PEC
-add_core = PEC
+owner = TMT
+controller = TMT
+add_core = TMT
 culture = crimean
 religion = sunni
 hre = no
