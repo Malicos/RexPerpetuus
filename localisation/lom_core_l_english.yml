@@ -27,7 +27,7 @@
  muwalladi:0 "Muwalladi"          # Iberian Muslim Group
  batalyawsi:0 "Batalyawsi"        # Muslim Badajozi
  balansi_culture:0 "Balansi"      # Muslim Valencian
- liyuni_culture:0 "Liyuni"        # Muslim Leonese
+ ibri_culture:0 "Ibri"            # Muslim Aragonese
  pecheneg:0 "Pecenegi"            # Moldavo-Pecheneg
  turko_iranian:0 "Turkirani"      # Persianate Turks
  daylamite:0 "Daylamite"
@@ -45,6 +45,9 @@
  occitanic:0 "Occitanic"
  arelatian_culture:0 "Arlesian" 
  cumbrian_culture:0 "Cumbrian"
+ siquli_culture:0 "Siquli"
+ african_group:0 "African"
+ afri:0 "Afri"
  
  #################################################################################
  # 3 - Tags
