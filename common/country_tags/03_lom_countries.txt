@@ -104,6 +104,8 @@ TMT = "countries/Tmutarakan.txt"
 ZIC = "countries/Zichia.txt"
 
 # North Africa
+ANM = "countries/Ainam.txt"
+AIT = "countries/Auarita.txt"
 BIZ = "countries/Bizerte.txt"
 GHT = "countries/Ghat.txt"
 KAI = "countries/Kairouan.txt"
