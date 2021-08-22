@@ -296,6 +296,8 @@
  # Central Asia
  KLS:0 "Karlukistan"
  KLS_ADJ:0 "Karluk"
+ KPC:0 "Kypchak"
+ KPC_ADJ:0 "Kypchak"
  OGZ:0 "Oghuz Il"
  OGZ_ADJ:0 "Oghuz"
  QOC:0 "Qocho"
