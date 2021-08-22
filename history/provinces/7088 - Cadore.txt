@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 2
 trade_goods = naval_supplies		#it's rich timber was the primary material of the Venetian navy
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim

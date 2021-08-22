@@ -17,6 +17,7 @@ TRC = "countries/Thrace.txt"
 TSY = "countries/Thessaly.txt"
 VLS = "countries/Volos.txt"
 YAB = "countries/Yambol.txt"
+ZAD = "countries/Zadar.txt"
 
 # Albion
 CBI = "countries/Cumbria.txt"

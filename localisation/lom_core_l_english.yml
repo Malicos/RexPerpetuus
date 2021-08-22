@@ -207,6 +207,8 @@
  VOR_ADJ:0 "Voronezhian"
  YAB:0 "Diampolis"
  YAB_ADJ:0 "Diampolitan"
+ ZAD:0 "Zadar"
+ ZAD_ADJ:0 "Zadarian"
  
  # Asia Minor
  DDL:0 "Dardanelles"
@@ -237,8 +239,8 @@
  LKA_ADJ:0 "Lezgin"
  SSR:0 "Simsir"
  SSR_ADJ:0 "Simsirian"
- TMT:0 "Tmutarakan"
- TMT_ADJ:0 "Tmutarakani"
+ TMT:0 "Tamatarcha"
+ TMT_ADJ:0 "Tamatarchan"
  ZIC:0 "Zichia"
  ZIC_ADJ:0 "Zichian"
  
@@ -299,6 +301,8 @@
  # Central Asia
  KLS:0 "Karlukistan"
  KLS_ADJ:0 "Karluk"
+ KPC:0 "Kypchak"
+ KPC_ADJ:0 "Kypchak"
  OGZ:0 "Oghuz Il"
  OGZ_ADJ:0 "Oghuz"
  QOC:0 "Qocho"
