@@ -3,8 +3,8 @@
 owner = TCA
 controller = TCA
 add_core = TCA
-culture = sicilian
-religion = catholic
+culture = siquli_culture
+religion = sunni
 capital = "Caltanissetta"
 base_tax = 2
 base_production = 2

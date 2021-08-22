@@ -3,7 +3,7 @@
 owner = CYR
 controller = CYR
 add_core = CYR
-add_core = KEM
+add_core = EGY
 capital = "Mersa"
 culture = al_misr_arabic
 religion = sunni

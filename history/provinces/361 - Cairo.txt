@@ -1,8 +1,8 @@
 #361 - Cairo
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = EGY
+controller = EGY
+add_core = EGY
 culture = al_misr_arabic
 religion = sunni
 capital = "Al Qahira"

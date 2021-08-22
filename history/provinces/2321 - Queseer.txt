@@ -1,8 +1,8 @@
 #2321 - Queseer
 
-owner = BEJ
-controller = BEJ
-add_core = BEJ
+owner = EGY
+controller = EGY
+add_core = EGY
 culture = al_misr_arabic
 religion = sunni
 capital = "El Oser"

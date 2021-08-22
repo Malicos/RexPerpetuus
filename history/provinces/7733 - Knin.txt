@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = CRO
-controller = CRO
-add_core = CRO
+owner = BOS
+controller = BOS
+add_core = BOS
 culture = croatian
 religion = hussite
 capital = "Knin"

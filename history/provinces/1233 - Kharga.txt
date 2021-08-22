@@ -1,8 +1,8 @@
 #1233 - Kargah
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = KRG
+controller = KRG
+add_core = KRG
 culture = al_misr_arabic
 religion = sunni
 capital = "El Kharga"

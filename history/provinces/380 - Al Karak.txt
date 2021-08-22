@@ -1,8 +1,8 @@
 #380 - Al Karak
 
-owner = KOJ
-controller = KOJ
-add_core = KOJ
+owner = UTJ
+controller = UTJ
+add_core = UTJ
 culture = al_suryah_arabic
 religion = sunni
 capital = "Kerak"

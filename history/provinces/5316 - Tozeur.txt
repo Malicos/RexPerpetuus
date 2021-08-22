@@ -3,8 +3,8 @@
 owner = KAI
 controller = KAI
 add_core = KAI
-culture = berber
-religion = sunni
+culture = afri
+religion = catholic
 capital = "Tozeur"
 trade_goods = cloth
 hre = no

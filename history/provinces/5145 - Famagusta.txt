@@ -1,8 +1,7 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = KOJ
-controller = KOJ
-add_core = KOJ
+owner = CYP
+controller = CYP
 add_core = CYP
 culture = cypriot
 religion = orthodox

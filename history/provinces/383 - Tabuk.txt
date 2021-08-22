@@ -1,8 +1,8 @@
 #383 - Tabouk
 
-owner = HSH
-controller = HSH
-add_core = HSH
+owner = TUK
+controller = TUK
+add_core = TUK
 capital = "Tabuk"
 culture = bedouin_arabic
 religion = sunni

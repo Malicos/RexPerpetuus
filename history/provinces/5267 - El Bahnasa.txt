@@ -1,8 +1,8 @@
 #New Province
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = EGY
+controller = EGY
+add_core = EGY
 capital = "Baniswef"
 culture = al_misr_arabic
 religion = sunni

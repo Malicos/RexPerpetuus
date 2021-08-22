@@ -1,8 +1,8 @@
 #2318 - Al Wahat
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = EGY
+controller = EGY
+add_core = EGY
 culture = al_misr_arabic
 religion = sunni
 capital = "El-Bawiti"			#Almost certainly modernish, but who really cares out here?

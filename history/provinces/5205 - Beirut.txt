@@ -1,9 +1,9 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = SYR
-controller = SYR
+owner = TYE
+controller = TYE
+add_core = TYE
 add_core = LEB
-add_core = SYR
 culture = syriac_culture
 religion = catholic			#Maronite Catholics
 capital = "Beirut"

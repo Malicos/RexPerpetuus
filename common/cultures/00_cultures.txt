@@ -1438,9 +1438,6 @@ latin = {
 	tuscan = {
 		primary = TUS
 	}
-	sardinian = {
-		primary = SAR
-	}
 	romagnan = {
 		primary = FER
 
@@ -3744,6 +3741,9 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
 		}
 	}
+	siquli_culture = {
+		primary = SIC
+	}
 	#BtPLegacy Culture
 	tungur_culture = {
 		graphical_culture = africangfx
@@ -4013,7 +4013,7 @@ muwalladi = {
 			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
 		}
 	}
-	liyuni_culture = {
+	ibri_culture = {
 		dynasty_names = {
 			Almohad Azizid Balansid Nasrid Zirid "al-Ilighi" "al-Tadsi" "Zayyanid"
 		}
@@ -12781,4 +12781,25 @@ septrional_creoles = {
 		}
 	}
 }
+african_group = {
+	afri = {
+		primary = XXX
+		dynasty_names = {
+		}
+		male_names = {
+		}
+		female_names = {
+		}
+	}
+	sardinian = {
+		primary = SAR
+		dynasty_names = {
+		}
+		male_names = {
+		}
+		female_names = {
+		}
+	}
+}
+
 

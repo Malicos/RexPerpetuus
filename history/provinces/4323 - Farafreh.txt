@@ -1,8 +1,8 @@
 #4323 - Farafreh
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = DAK
+controller = DAK
+add_core = DAK
 capital = "Al Qasr"			#Or Mut
 culture = al_misr_arabic
 religion = sunni

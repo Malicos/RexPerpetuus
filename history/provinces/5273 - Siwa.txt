@@ -3,7 +3,7 @@
 owner = CYR
 controller = CYR
 add_core = CYR
-add_core = KEM
+add_core = EGY
 capital = "Siwah"
 culture = libyan_berber_culture
 religion = sunni

@@ -1,8 +1,8 @@
 #287 - Kouban
 
-owner = TMT
-controller = TMT
-add_core = TMT
+owner = CUM
+controller = CUM
+add_core = CUM
 culture = crimean
 religion = sunni
 hre = no

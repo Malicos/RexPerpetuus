@@ -3,8 +3,8 @@
 owner = KAI
 controller = KAI
 add_core = KAI
-culture = berber
-religion = sunni
+culture = afri
+religion = catholic
 capital = "Gafsa"
 trade_goods = salt
 hre = no

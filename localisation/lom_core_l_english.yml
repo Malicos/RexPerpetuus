@@ -27,9 +27,9 @@
  muwalladi:0 "Muwalladi"          # Iberian Muslim Group
  batalyawsi:0 "Batalyawsi"        # Muslim Badajozi
  balansi_culture:0 "Balansi"      # Muslim Valencian
- liyuni_culture:0 "Liyuni"        # Muslim Leonese
+ ibri_culture:0 "Ibri"            # Muslim Aragonese
  pecheneg:0 "Pecenegi"            # Moldavo-Pecheneg
- turko_iranian:0 "Turko-Iranian"  # Persianate Turks
+ turko_iranian:0 "Turkirani"      # Persianate Turks
  daylamite:0 "Daylamite"
  macedonian:0 "Macedonian"        # Hellenic Warlords
  thracian:0 "Thracian"            # Hellenic Warlords
@@ -45,6 +45,9 @@
  occitanic:0 "Occitanic"
  arelatian_culture:0 "Arlesian" 
  cumbrian_culture:0 "Cumbrian"
+ siquli_culture:0 "Siquli"
+ african_group:0 "African"
+ afri:0 "Afri"
  
  #################################################################################
  # 3 - Tags
@@ -204,6 +207,8 @@
  VOR_ADJ:0 "Voronezhian"
  YAB:0 "Diampolis"
  YAB_ADJ:0 "Diampolitan"
+ ZAD:0 "Zadar"
+ ZAD_ADJ:0 "Zadarian"
  
  # Asia Minor
  DDL:0 "Dardanelles"
@@ -234,8 +239,8 @@
  LKA_ADJ:0 "Lezgin"
  SSR:0 "Simsir"
  SSR_ADJ:0 "Simsirian"
- TMT:0 "Tmutarakan"
- TMT_ADJ:0 "Tmutarakani"
+ TMT:0 "Tamatarcha"
+ TMT_ADJ:0 "Tamatarchan"
  ZIC:0 "Zichia"
  ZIC_ADJ:0 "Zichian"
  
@@ -258,14 +263,16 @@
  BIZ_ADJ:0 "Bizertine"
  CYR:0 "Cyrenaica"
  CYR_ADJ:0 "Cyrenaican"
+ DAK:0 "Dakhla"
+ DAK_ADJ:0 "Dakhli"
  GHT:0 "Ghat"
  GHT_ADJ:0 "Ghati"
  KAI:0 "Kairouan"
  KAI_ADJ:0 "Kairouani"
  KEF:0 "Kef"
  KEF_ADJ:0 "Kefian"
- KEM:0 "Kemet"
- KEM_ADJ:0 "Remenkhemi"
+ KRG:0 "Kharga"
+ KRG_ADJ:0 "Khargan"
  MHD:0 "Mahdia"
  MHD_ADJ:0 "Mahdian"
  ORN:0 "Oran"
@@ -284,10 +291,22 @@
  DAY_ADJ:0 "Daylamite"
  FJD:0 "Falajids"
  FJD_ADJ:0 "Falajid"
+ GAE:0 "Galilee"
+ GAE_ADJ:0 "Galilean"
  HSH:0 "Hashimids"
  HSH_ADJ:0 "Hashimid"
+ NHL:0 "Nekhel"
+ NHL_ADJ:0 "Nekheli"
+ SIN:0 "Sinai"
+ SIN_ADJ:0 "Sinaian"
  SJK:0 "Seljuks"
  SJK_ADJ:0 "Seljuk"
+ TUK:0 "Tabuk"
+ TUK_ADJ:0 "Tabukian"
+ TYE:0 "Tyre"
+ TYE_ADJ:0 "Tyrean"
+ UTJ:0 "Ultrajordania"
+ UTJ_ADJ:0 "Ultrajordanian"
  
  # Iran
  BKH:0 "Balkh"
@@ -300,6 +319,8 @@
  # Central Asia
  KLS:0 "Karlukistan"
  KLS_ADJ:0 "Karluk"
+ KPC:0 "Kypchak"
+ KPC_ADJ:0 "Kypchak"
  OGZ:0 "Oghuz Il"
  OGZ_ADJ:0 "Oghuz"
  QOC:0 "Qocho"
