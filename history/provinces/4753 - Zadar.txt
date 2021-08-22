@@ -1,8 +1,8 @@
 #4753 - Dalmatia
 
-owner = CRO
-controller = CRO
-add_core = CRO
+owner = ZAD
+controller = ZAD
+add_core = ZAD
 culture = croatian
 religion = catholic
 capital = "Zadar"
