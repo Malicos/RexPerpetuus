@@ -72,6 +72,9 @@
  north_america:0 "Vesperia"
  
  # Areas
+ tunisia_area:0 "Africa"
+ tunisia_area_name:0 "Africa"
+ tunisia_area_adj:0 "African"
  east_african_islands_area:0 "East Ethiopian Islands"
  south_african_plateau_area:0 "South Ethiopian Plateau"
  south_african_plateau_area_name:0 "South Ethiopia"
