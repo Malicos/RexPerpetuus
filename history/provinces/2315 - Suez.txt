@@ -1,8 +1,8 @@
 #2315 - Suez
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = EGY
+controller = EGY
+add_core = EGY
 culture = al_misr_arabic
 religion = sunni
 capital = "Suweis"			#Sure, why not. Many spelling variations, going with vanilla. Also appears Suez existed prior to the Suez Canal

@@ -1,8 +1,8 @@
 #4320 - Girga
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = EGY
+controller = EGY
+add_core = EGY
 capital = "Girga"
 culture = coptic_culture
 religion = coptic

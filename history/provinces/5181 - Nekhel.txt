@@ -1,8 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = NHL
+controller = NHL
+add_core = NHL
 culture = bedouin_arabic
 religion = sunni
 capital = "Nekhel"

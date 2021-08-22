@@ -88,8 +88,8 @@
  MKR_ADJ:0 "Makurian"
  #NBA:0 "Nobatia"       #Replaced in LoM
  #NBA_ADJ:0 "Nobatian"      #Replaced in LoM
- #KEM:0 "Khemi"     #Replaced in LoM
- #KEM_ADJ:0 "Remenkhemi"        #Replaced in LoM
+ KEM:0 "Khemi"
+ KEM_ADJ:0 "Remenkhemi"
  ABD:0 "Abdallab"
  ABD_ADJ:0 "Abdallabi"
  LHJ:0 "Lahej"

@@ -1,8 +1,8 @@
 #4316 - Mansura
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = EGY
+controller = EGY
+add_core = EGY
 capital = "Ez Zaqaziq"
 culture = coptic_culture
 religion = coptic

@@ -1,8 +1,8 @@
 #365 - Sinai
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = SIN
+controller = SIN
+add_core = SIN
 culture = bedouin_arabic
 religion = sunni
 capital = "Raithu"			#Vanilla name was a more recent thing I think, old name was Raithu or Rutho, at least Byzantine era if not older

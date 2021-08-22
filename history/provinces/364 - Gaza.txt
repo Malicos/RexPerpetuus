@@ -1,8 +1,8 @@
 #364 - Gaza
 
-owner = KEM
-controller = KEM
-add_core = KEM
+owner = NHL
+controller = NHL
+add_core = NHL
 culture = al_misr_arabic
 religion = sunni
 capital = "Arish"			#Largest city in Sinai today, but was it even founded by this time... I may have to redo provinces here and remove it at some point

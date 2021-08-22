@@ -106,10 +106,11 @@ ZIC = "countries/Zichia.txt"
 
 # North Africa
 BIZ = "countries/Bizerte.txt"
+DAK = "countries/Dakhla.txt"
 GHT = "countries/Ghat.txt"
 KAI = "countries/Kairouan.txt"
 KEF = "countries/Kef.txt"
-KEM = "countries/Kemet.txt"
+KRG = "countries/Kharga.txt"
 MHD = "countries/Mahdia.txt"
 ORN = "countries/Oran.txt"
 TBA = "countries/Tabarka.txt"
@@ -125,8 +126,14 @@ WAJ = "countries/WestAjuraan.txt"
 # Middle East
 DAY = "countries/Daylam.txt"
 FJD = "countries/Falajid.txt"
+GAE = "countries/Galilee.txt"
 HSH = "countries/Hashimid.txt"
+NHL = "countries/Nekhel.txt"
+SIN = "countries/Sinai.txt"
 SJK = "countries/Seljuk.txt"
+TUK = "countries/Tabuk.txt"
+TYE = "countries/Tyre.txt"
+UTJ = "countries/Ultrajordania.txt"
 
 # Iran
 BKH = "countries/Balkh.txt"

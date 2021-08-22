@@ -1,8 +1,8 @@
 #365 - Aqaba
 
-owner = KOJ
-controller = KOJ
-add_core = KOJ
+owner = TUK
+controller = TUK
+add_core = TUK
 culture = bedouin_arabic
 religion = sunni
 capital = "Aqaba"
