@@ -204,6 +204,8 @@
  VOR_ADJ:0 "Voronezhian"
  YAB:0 "Diampolis"
  YAB_ADJ:0 "Diampolitan"
+ ZAD:0 "Zadar"
+ ZAD_ADJ:0 "Zadarian"
  
  # Asia Minor
  DDL:0 "Dardanelles"

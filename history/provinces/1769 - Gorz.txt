@@ -15,7 +15,7 @@ trade_goods = iron
 base_manpower = 4
 capital = "Gorizia"
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = eastern
