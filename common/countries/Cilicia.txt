@@ -2,7 +2,7 @@
 
 graphical_culture = easterngfx
 
-color = { 230  240  110 }					#Pale yelowish colour no good evidence found for a historical colour
+color = { 36 41 65 }					#Pale yelowish colour no good evidence found for a historical colour
 
 historical_idea_groups = {					#Copied from Armenia for now
 	defensive_ideas
