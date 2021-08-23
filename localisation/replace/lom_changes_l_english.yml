@@ -70,6 +70,7 @@
  # Continents
  africa:0 "Ethiopia"
  north_america:0 "Vesperia"
+ south_america:0 "Elysia"
  
  # Areas
  tunisia_area:0 "Africa"
@@ -129,3 +130,10 @@
  LOADING_TIP_24:0 "The Mongol Empire has been established in 1187 by Genghis Khan, Chakha Dondokhid and persisted until the demise of his son and heir, Chilagun in 1239."
  LOADING_TIP_25:0 "Croatia has formally become a member of the HRE in 1235 after Maria Otakeren has secured her claim. After her death, the kingdom was inherited by Kaiser Radbot, cementing the membership."
  LOADING_TIP_26:0 "The Kingdom of Lombardy has been established by King Anscario in 1430, and is one of two major Italian powers that are not dependencies of the Holy Roman Empire, the other being Republic of Venice."
+ 
+ DIPLOMACY_FILTER_NORTH_AMERICA:0 "Vesperia"
+ DIPLOMACY_FILTER_SOUTH_AMERICA:0 "Elysia"
+ DIPLOMACY_FILTER_AFRICA:0 "Ethiopia"
+ 
+ african_slaves:0 "Ethiopian Slaves"
+ desc_african_slaves:0 "The labor shortage is being reduced by slaves from Ethiopia."
