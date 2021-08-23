@@ -255,6 +255,10 @@
  WAJ_ADJ:0 "West Ajuuaraani"
  
  # North Africa
+ ANM:0 "Ainam"
+ ANM_ADJ:0 "Ainami"
+ AIT:0 "Auarita"
+ AIT_ADJ:0 "Auaritan"
  BIZ:0 "Bizerte"
  BIZ_ADJ:0 "Bizertine"
  CYR:0 "Cyrenaica"

@@ -2,14 +2,10 @@
 #Region - Iberia
 #Area - Macaronesia
 
-owner = ADU
-controller = ADU
-add_core = ADU
-culture = andalusi_culture
-religion = sunni
+culture = berber
+religion = animism
 capital = "Ponta Delgada"
-trade_goods = fish
-is_city = yes
+trade_goods = unknown
 hre = no
 base_tax = 1 
 base_production = 1 
