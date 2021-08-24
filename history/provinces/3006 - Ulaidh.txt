@@ -2,9 +2,9 @@
 #Region - Ireland
 #Area - Ulster
 
-owner = ANR
-controller = ANR
-add_core = ANR
+owner = CLN
+controller = CLN
+add_core = CLN
 culture = irish
 religion = catholic
 hre = no

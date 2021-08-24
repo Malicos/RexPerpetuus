@@ -5,8 +5,8 @@
 #Core Details
 capital = "Trim"
 is_city = yes
-owner = FLY
-controller = FLY
+owner = DUB
+controller = DUB
 
 #Demographics
 culture = irish
@@ -19,8 +19,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = FLY
-add_core = MTH
+add_core = DUB
 
 #Other Political
 hre = no

@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx # was britishgfx # UPE compatibility
 
-color = { 143  103  9 }			#Normalish brown
+color = { 190 5 37 }
 
 preferred_religion = catholic
 

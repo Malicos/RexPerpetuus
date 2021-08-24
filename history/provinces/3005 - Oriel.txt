@@ -2,10 +2,9 @@
 #Region - Ireland
 #Area - Ulster
 
-owner = ENG
-controller = ENG
-add_core = ENG
-add_core = MGH
+owner = DUB
+controller = DUB
+add_core = DUB
 culture = irish
 religion = catholic
 hre = no

@@ -6,9 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = MCM
-controller = MCM
-add_core = MCM
+owner = ORD
+controller = ORD
+add_core = ORD
 culture = irish
 religion = catholic
 hre = no

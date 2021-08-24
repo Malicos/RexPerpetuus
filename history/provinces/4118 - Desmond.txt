@@ -3,9 +3,9 @@
 #Region - Ireland
 #Area - Munster
 
-owner = MCM
-controller = MCM
-add_core = MCM
+owner = CRK
+controller = CRK
+add_core = CRK
 culture = irish
 religion = catholic
 hre = no

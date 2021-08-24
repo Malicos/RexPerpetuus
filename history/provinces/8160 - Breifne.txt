@@ -5,8 +5,8 @@
 #Core Details
 capital = "Droim Dhá Thiar"
 is_city = yes
-owner = ECO
-controller = ECO
+owner = SLN
+controller = SLN
 
 #Demographics
 culture = irish
@@ -20,7 +20,7 @@ trade_goods = livestock
 latent_trade_goods = { coal }
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ECO
+add_core = SLN
 
 #Other Political
 hre = no

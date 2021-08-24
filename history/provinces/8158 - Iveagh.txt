@@ -5,8 +5,8 @@
 #Core Details
 capital = "Ráth Fraoileann"
 is_city = yes
-owner = ANR
-controller = ANR
+owner = DUB
+controller = DUB
 
 #Demographics
 culture = irish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ANR
+add_core = DUB
 
 #Other Political
 hre = no

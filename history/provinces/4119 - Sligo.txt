@@ -2,9 +2,9 @@
 #Region - Ireland
 #Area - Connacht
 
-owner = ECO
-controller = ECO
-add_core = ECO
+owner = SLN
+controller = SLN
+add_core = SLN
 culture = irish
 religion = catholic
 hre = no

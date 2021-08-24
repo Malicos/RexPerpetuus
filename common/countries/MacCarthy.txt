@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx # was irishgfx # UPE compatibility
 
-color = { 150 231 150 }			#Old colour 160 200 30
+color = { 17 93 112 }
 
 historical_idea_groups = {
 	maritime_ideas

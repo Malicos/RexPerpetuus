@@ -5,8 +5,8 @@
 #Core Details
 capital = "Waterford"
 is_city = yes
-owner = MCM
-controller = MCM
+owner = ORD
+controller = ORD
 
 #Demographics
 culture = irish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MCM
+add_core = ORD
 
 #Other Political
 hre = no

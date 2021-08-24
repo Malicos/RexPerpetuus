@@ -2,9 +2,9 @@
 #Region - Ireland
 #Area - Ulster
 
-owner = TRY
-controller = TRY
-add_core = TRY
+owner = DGA
+controller = DGA
+add_core = DGA
 culture = irish
 religion = catholic
 hre = no

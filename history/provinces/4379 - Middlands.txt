@@ -2,9 +2,9 @@
 #Region - Ireland
 #Area - Leinster
 
-owner = FLY
-controller = FLY
-add_core = FLY
+owner = LEI
+controller = LEI
+add_core = LEI
 culture = irish
 religion = catholic
 hre = no
