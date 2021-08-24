@@ -79,6 +79,7 @@ TCA = "countries/Trinacria.txt"
 AUK = "countries/Aukstaitija.txt"
 LEK = "countries/Lek.txt"
 PME = "countries/Pomerelia.txt"
+TSO = "countries/Truso.txt"
 VIL = "countries/Vilna.txt"
 
 # East Europe
