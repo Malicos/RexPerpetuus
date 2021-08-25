@@ -2,9 +2,9 @@
 #Region - Baltic
 #Area - West Prussia
 
-owner = PRU
-controller = PRU
-add_core = PRU
+owner = TSO
+controller = TSO
+add_core = TSO
 capital = "Truso"
 culture = pruthenian
 religion = catholic

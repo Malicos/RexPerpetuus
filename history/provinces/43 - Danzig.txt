@@ -2,9 +2,9 @@
 #Region - Baltic
 #Area - West Prussia
 
-owner = PME
-controller = PME
-add_core = PME
+owner = TSO
+controller = TSO
+add_core = TSO
 capital = "Danzig"
 culture = kashubian_culture
 religion = catholic
