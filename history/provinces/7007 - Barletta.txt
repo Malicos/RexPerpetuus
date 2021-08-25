@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = LEC
-controller = LEC
-add_core = LEC
+owner = CNT
+controller = CNT
+add_core = CNT
 culture = griko
 religion = orthodox
 capital = "Barletta"		#also Trani, another one of the larger cities of the time in southern Italy.

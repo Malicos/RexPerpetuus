@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = MTA
-controller = MTA
-add_core = MTA
+owner = CNT
+controller = CNT
+add_core = CNT
 culture = neapolitan
 religion = catholic
 capital = "Melfi"

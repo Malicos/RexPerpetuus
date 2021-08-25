@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 30 180 80 }
+color = { 89 128 70 }
 
 revolutionary_colors = { 10  0  5 } #Sicilian Separatist Flag
 

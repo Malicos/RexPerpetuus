@@ -73,6 +73,8 @@ CIA = "countries/Carnia.txt"
 CTH = "countries/Carinthia.txt"
 
 # South Italy
+CNT = "countries/Capitanata.txt"
+MLS = "countries/Molise.txt"
 TCA = "countries/Trinacria.txt"
 
 # Poland and Baltics

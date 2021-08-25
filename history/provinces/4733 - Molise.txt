@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Naples
 
-owner = SSV
-controller = SSV
-add_core = SSV
+owner = MLS
+controller = MLS
+add_core = MLS
 culture = neapolitan 
 religion = catholic 
 hre = no 

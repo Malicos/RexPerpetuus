@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Apulia
 
-owner = LEC
-controller = LEC
-add_core = LEC
+owner = TAN
+controller = TAN
+add_core = TAN
 culture = griko
 religion = orthodox
 hre = no 

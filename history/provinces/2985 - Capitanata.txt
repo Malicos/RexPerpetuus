@@ -1,8 +1,8 @@
 #
 
-owner = SSV
-controller = SSV
-add_core = SSV
+owner = CNT
+controller = CNT
+add_core = CNT
 culture = neapolitan
 religion = catholic
 capital = "Lucera"

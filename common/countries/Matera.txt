@@ -1,6 +1,6 @@
 graphical_culture = westerngfx
 
-color = { 215  160  5 } #Flag colour sort of
+color = { 186 97 48 }
 
 historical_idea_groups = {
 	administrative_ideas
