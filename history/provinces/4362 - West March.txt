@@ -5,7 +5,7 @@
 owner = STC
 controller = STC
 add_core = STC
-culture = gallgaidheil
+culture = cumbrian_culture
 religion = catholic
 hre = no
 base_tax = 3

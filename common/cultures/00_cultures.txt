@@ -907,6 +907,52 @@ scandinavian = { #Nordic
 			"Orgumleidi" "Folkmar" "Gauk" "Atli" "Hegg"
 		}
 	}
+	#RPHotLV: Based on CK2Plus Culture (Irish Norse)
+	gallwegian = {
+		graphical_culture = westerngfx
+		primary = DUB
+		male_names = {
+				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbjörn Arngrimr Arni Arne Arnfast 
+				Asbjörn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Björn Beorn Bo Borkvard 
+				Botulfr Bragi Brage Buðli Dag Dan Dyre Eilif Egill Egil Emund Einarr Einar Eirikr Erik 
+				Eskild Falki Faste Filip Philip Fredrik Frederick Frirek Frode Freyr Frej Folki Folke 
+				Gandalfr Geirr Georg George Gnupa Gorm Greger Gregory Grimr Grim Godfrey Guðmundr 
+				Gudmund Gudröd Gunnarr Gunnar Hakon Halsten Haraldr Harold Haukr Helgi Helge Hemming 
+				Holmger Hrafn Hrolfr Rolf Hrane Hæsteinn Hjalmar Hysing 
+				Ingólfr Ingolf Ingemar Ingjald Ivar Jedvard Edward Jon John Karl Charles Kettil Kettilmund 
+				Kjartan Klas Knut Kol Kolbjörn Magnus Markus Marcus Mats Matthew Nils Niklas Nicholas Oddr 
+				Odd Ofeig Olafr Olaf Ormr Orm Ottarr Ottar Refr Refil Ragnarr Ragnar Rikulfr Rögnvaldr 
+				Ragnvald Skuli Skule Snorri Sigbjörn Sigtrygg Sigurðr Sigurd Starkad Steinn Sten 
+				Sturla Styrbjörn Styrkar Somerled Suni Sune Sveinn Sven Sverker Sæmundr Sämund 
+				Sölvi Sölve Sörkver Tjudmund Toke Tolir Þorbjörn Torbjörn Þorfinn Torfinn Þorbrandr Torbrand 
+				Þordr Tord Þorgil Torkel Þorsteinn Torsten Þorolfr Thorolf Toste Totil Tryggve Tyke Ulfr Ulf 
+				Vagn Valdemar Vladimir Åke Yngvar Ingvar Örvar Orvar Öysteinn Eysteinn Håkon Olav 
+				Christoffer Harald Inge Aksel Ansgard Arvid Bernt Bjørn Daniel Edvard Eilert Elias Esben 
+				Kasper Kennet Knut Ludvig Mikael Njåld Njord Oddmund Peder Rikard Simon Søren Tollak
+		}
+		female_names = {
+			Torhild Aleta Alfhildr Alfhild Alfridh Alvör Anna Asa Åsa Aslaug Asta Astrid Beata 
+			Birgitta Brigid Björg Bodil Bothildr Bothild Cecilia Edla Elin Elisabet Elizabeth Freyja Freja 	
+			Grima Gunnhildr Gunhild Gurli Gudrun Gyla Gytha Hafrid Halla Helena 
+			Helen Holmfrid Iliana Inga Ingfrid Ingibjörg Ingeborg Ingjerðr Ingegerd Ingrid Karin 
+			Katarina Catherine Kraka Kristina Christina Linda Maer Malmfrið Malmfrid Margareta Margaret 
+			Maria Rikissa Rögnfrid Ragnfrid Rögnhildr Ragnhild Saga Sara Sarah Sif Sigrid Skuld Sofia 
+			Sophia Svanhildr Svanhild Ulfhildr Ulvhilde Vigdis Ylva Yrsa Þora Thora Þordis Thordis Þyra 
+			Thyra
+		}
+		dynasty_names = {
+			"Hårfagreætta" "Bielke" "Bildt" "Galte" "Paus" "Smør" "Benkestok" "Kane" "Bonde"
+			"Drake" "av Hafrsfjord" "Ytra" "av Askø" "Koss" "av Røra" "av Nordland" "Hylling"
+			"Alfr" "Herja" "Vansö" "Flod" "af Vendel" "av Alfheim" Vidfamne "Bille"
+			"Iuel" "Kaas" "Rosenkrantz" "Urne" "Adeler" "Blixenskiold" "Gyldenpalm" "Holberg"
+			"Rosenheim" "Schouboe" "Tordenskiold" "Wessel" "Westervick" "Falsen" "Knagenhjelm"
+			"Galtung" "Heubsch" "Kløcker" "Løvenskiold" "Rosenvinge" "Werenskiold" "Kruckow"
+			"Mowat" "Rømer" "Handingmann" "Skaktavl" "Tordenstierne" Roos 
+			# CKII
+			"Skanke" "Bolt" "Giske" "Brockenhuus" "Adelswärd" "Kane" "Blixen" "Løvendal" "Balke"
+			"Vedel" "Bjelke" "Galle" "Griis"
+		}
+	}	
 }
 
 british	= {
@@ -1371,62 +1417,6 @@ gaelic	= {
 			Stiubhart Singlear Sutherlarach
 		}
 	}
-	#RPHotLV Culture
-	cumbrian_culture = { #Using Highland Scottish namelist for now
-		primary = CBI
-		male_names = {
-			Aonghas Alasdair Ailbeart Adhamh Ailean Anndra Arailt Artair Aaron Amhlaidh Ailpein
-			Bhaltair Boisil Brian Benneit Beathan Boisil Brus Bruadar Breacan Bearnard Bhaltair
-			Cresdean Calum Conan Conal Cormac Cailean
-			Domhnall Donnchadh Dughall Daibhidh Diarmid Dolan Daniel Deorsa Dughlas
-			Eoghan Eobhann Eideard Eachann Eoin Eosaph Eanruig Ellair
-			Fearchar Faolan Fearghas Fionn Filib Frangan Friseal Fionnlagh
-			Gillebríghde Gillechreosd Gillecallum Gilleasp Gilleandrais Garbhan Goiridh Griogair
-			Hamish Harailt Horas
-			Iain Iacob Iosag Iomhar Iosaph Iona
-			Lucais Labhrainn
-			Maoilios Murchadh Martain Mascual Marcus Mata Mecheil Morgan Mungan Murchadh
-			Neacal Niall Niallghas
-			Oilbhreis Oisean
-			Padraig Pol Peadar
-			Raibeart Ruadh Ruaraidh Raghnall Ruiseart
-			Seumas Seoras Somhairle Seleas Samuel Sachairi Steaphan
-			Thomais Tadhg Toibaid
-			Uilleam Uisdean 
-		}
-		female_names = {
-			Anna
-			Beathag Baraball Bearnas Beitiris Bhioctoria Brighde
-			Catreona Ceit Coinneach Claimha
-			Deirdre Deoiridh Diorbhail
-			Ealasaid Cibhlin Eubh
-			Floraidh Floireans Fionnaghal Frangag Fionnghuala
-			Gormal Gormlaith Giorsal
-			Iseabail 
-			Liusaidh Leagsaidh Leitis Lucrais Leosa
-			Mairead Marsail Marta Milread Moibeal Moire Mor Mairi
-			Nansaidh
-			Olibhia Oighrig
-			Peanaidh
-			Rut Raonaid Rebeca
-			Seonag Sorcha Sene Siusan Seleas
-			Tearlag Teasag
-			Una
-		}
-		dynasty_names = {
-			Arasgain
-			Bochanan Beitean Brus
-			Caimbeul Cinneide Caimbeulach Comyn Cochran
-			Donohoe Dernly
-			Gordan Grannd Guinne
-			Haig
-			Lamont
-			MacCongáil MacDhiarmaid Moireach MacPharlain MacLeoid MacDhomhnaill MacDhonnachaidh Munro MacNab
-			Ncill
-			Rothach Ros
-			Stiubhart Singlear Sutherlarach
-		}
-	}	
 }
 	
 latin = {
@@ -10929,6 +10919,62 @@ brythonic = {
 			Tamsyn Tegen Tregereth Tressa Trueth Wenna Ysella
 		}
 	}
+	#RPHotLV Culture
+	cumbrian_culture = { #Using Highland Scottish namelist for now
+		primary = CBI
+		male_names = {
+			Aonghas Alasdair Ailbeart Adhamh Ailean Anndra Arailt Artair Aaron Amhlaidh Ailpein
+			Bhaltair Boisil Brian Benneit Beathan Boisil Brus Bruadar Breacan Bearnard Bhaltair
+			Cresdean Calum Conan Conal Cormac Cailean
+			Domhnall Donnchadh Dughall Daibhidh Diarmid Dolan Daniel Deorsa Dughlas
+			Eoghan Eobhann Eideard Eachann Eoin Eosaph Eanruig Ellair
+			Fearchar Faolan Fearghas Fionn Filib Frangan Friseal Fionnlagh
+			Gillebríghde Gillechreosd Gillecallum Gilleasp Gilleandrais Garbhan Goiridh Griogair
+			Hamish Harailt Horas
+			Iain Iacob Iosag Iomhar Iosaph Iona
+			Lucais Labhrainn
+			Maoilios Murchadh Martain Mascual Marcus Mata Mecheil Morgan Mungan Murchadh
+			Neacal Niall Niallghas
+			Oilbhreis Oisean
+			Padraig Pol Peadar
+			Raibeart Ruadh Ruaraidh Raghnall Ruiseart
+			Seumas Seoras Somhairle Seleas Samuel Sachairi Steaphan
+			Thomais Tadhg Toibaid
+			Uilleam Uisdean 
+		}
+		female_names = {
+			Anna
+			Beathag Baraball Bearnas Beitiris Bhioctoria Brighde
+			Catreona Ceit Coinneach Claimha
+			Deirdre Deoiridh Diorbhail
+			Ealasaid Cibhlin Eubh
+			Floraidh Floireans Fionnaghal Frangag Fionnghuala
+			Gormal Gormlaith Giorsal
+			Iseabail 
+			Liusaidh Leagsaidh Leitis Lucrais Leosa
+			Mairead Marsail Marta Milread Moibeal Moire Mor Mairi
+			Nansaidh
+			Olibhia Oighrig
+			Peanaidh
+			Rut Raonaid Rebeca
+			Seonag Sorcha Sene Siusan Seleas
+			Tearlag Teasag
+			Una
+		}
+		dynasty_names = {
+			Arasgain
+			Bochanan Beitean Brus
+			Caimbeul Cinneide Caimbeulach Comyn Cochran
+			Donohoe Dernly
+			Gordan Grannd Guinne
+			Haig
+			Lamont
+			MacCongáil MacDhiarmaid Moireach MacPharlain MacLeoid MacDhomhnaill MacDhonnachaidh Munro MacNab
+			Ncill
+			Rothach Ros
+			Stiubhart Singlear Sutherlarach
+		}
+	}		
 }
 
 berber_group = {

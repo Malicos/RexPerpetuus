@@ -3,7 +3,7 @@
 owner = CAS
 controller = CAS
 add_core = CAS
-culture = liyuni_culture
+culture = ibri_culture
 religion = sunni
 capital = "Aranda"
 base_tax = 2

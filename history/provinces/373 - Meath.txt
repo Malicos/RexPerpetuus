@@ -5,7 +5,7 @@
 owner = DUB
 controller = DUB
 add_core = DUB
-culture = irish
+culture = gallwegian
 religion = catholic
 hre = no
 base_tax = 5

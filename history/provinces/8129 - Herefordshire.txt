@@ -9,7 +9,7 @@ owner = MGS
 controller = MGS
 
 #Demographics
-culture = english
+culture = welsh
 religion = catholic
 
 #Development and Trade

@@ -5,7 +5,7 @@
 owner = CLN
 controller = CLN
 add_core = CLN
-culture = irish
+culture = gallgaidheil
 religion = catholic
 hre = no
 base_tax = 4  

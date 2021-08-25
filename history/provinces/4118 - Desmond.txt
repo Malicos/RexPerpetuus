@@ -6,7 +6,7 @@
 owner = CRK
 controller = CRK
 add_core = CRK
-culture = irish
+culture = gallwegian
 religion = catholic
 hre = no
 base_tax = 4

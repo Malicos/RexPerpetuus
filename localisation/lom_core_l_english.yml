@@ -23,6 +23,7 @@
  #################################################################################
  # Old World
  anglisk:0 "Denlegian"            # English Norse
+ gallwegian:0 "Gallwegian"        # Irish Norse
  anglo_saxon:0 "Anglo-Saxon"      # Old English
  muwalladi:0 "Muwalladi"          # Iberian Muslim Group
  batalyawsi:0 "Batalyawsi"        # Muslim Badajozi

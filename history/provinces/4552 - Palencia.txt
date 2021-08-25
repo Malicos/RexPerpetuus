@@ -3,7 +3,7 @@
 owner = LON
 controller = LON
 add_core = LON
-culture = liyuni_culture
+culture = ibri_culture
 religion = sunni
 capital = "Palencia"
 base_tax = 2

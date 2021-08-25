@@ -5,7 +5,7 @@
 owner = WEX
 controller = WEX
 add_core = WEX
-culture = irish
+culture = gallwegian
 religion = catholic
 hre = no
 base_tax = 4  
