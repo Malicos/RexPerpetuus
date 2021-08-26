@@ -90,6 +90,8 @@
  FEU_ADJ:0 "Eudese"
  FTS:0 "Tours"
  FTS_ADJ:0 "Tourange"
+ GET:0 "Gaeta"
+ GET_ADJ:0 "Gaetan"
  GUI:0 "Guise"
  GUI_ADJ:0 "Guisard"
  GWD:0 "Gwynedd"

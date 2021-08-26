@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = TUS
-controller = TUS
-add_core = TUS
+owner = CTG
+controller = CTG
+add_core = CTG
 add_core = GRO
 culture = tuscan
 religion = catholic

@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = TUS
-controller = TUS
-add_core = TUS
+owner = SVN
+controller = SVN
+add_core = SVN
 add_core = CUI
 culture = tuscan
 religion = catholic
@@ -12,7 +12,7 @@ base_production = 5
 base_manpower = 2
 trade_goods = glass # famous for pottery craftsmanship
 is_city = yes
-hre = yes
+hre = no
 
 discovered_by = western
 discovered_by = muslim

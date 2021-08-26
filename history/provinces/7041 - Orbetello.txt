@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = SVN
-controller = SVN
-add_core = SVN
+owner = CTG
+controller = CTG
+add_core = CTG
 culture = umbrian
 religion = catholic
 capital = "Orbetello"

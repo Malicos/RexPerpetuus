@@ -1,8 +1,7 @@
 #BT Italy reoverhaul
 
-owner = ANC
-controller = ANC
-add_core = ANC
+owner = CMR
+controller = CMR
 add_core = CMR
 culture = umbrian
 religion = catholic

@@ -1,8 +1,7 @@
 #BT Italy reoverhaul
 
-owner = ANC
-controller = ANC
-add_core = ANC
+owner = GUB
+controller = GUB
 add_core = GUB
 culture = umbrian
 religion = catholic
@@ -12,7 +11,7 @@ base_production = 4
 base_manpower = 3
 trade_goods = glass # majolica
 is_city = yes
-hre = yes
+hre = no
 
 discovered_by = western
 discovered_by = muslim

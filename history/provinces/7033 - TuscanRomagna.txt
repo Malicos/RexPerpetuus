@@ -3,6 +3,7 @@
 owner = TUS
 controller = TUS
 add_core = TUS
+add_core = RAV
 add_core = DOV
 culture = romagnan
 religion = catholic

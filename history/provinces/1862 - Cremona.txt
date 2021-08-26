@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Lombardy
 
-owner = MAN
-controller = MAN
-add_core = MAN
+owner = BSC
+controller = BSC
+add_core = BSC
 culture = lombard
 religion = catholic
 hre = yes
