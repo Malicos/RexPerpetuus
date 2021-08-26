@@ -2,8 +2,6 @@
 #Region - Iberia
 #Area - Macaronesia
 
-culture = berber
-religion = animism
 capital = "Ponta Delgada"
 trade_goods = unknown
 hre = no
