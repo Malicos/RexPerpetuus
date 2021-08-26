@@ -9,7 +9,7 @@ capital = "Iglesias"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = gold			#famous silver mines
+trade_goods = rp_trade_good_silver			#famous silver mines
 is_city = yes
 hre = no
 
