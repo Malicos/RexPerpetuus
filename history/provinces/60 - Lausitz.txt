@@ -3,7 +3,7 @@
 owner = SOR
 controller = SOR
 add_core = SOR
-capital = "Bautzen"
+capital = "Budyšyn"
 culture = sorbian
 religion = catholic
 trade_goods = grain #Was glass

@@ -3,7 +3,7 @@
 #Region - North Germany
 
 #Core Details
-capital = "Gorlitz"
+capital = "Zhorjelc"
 is_city = yes
 owner = SOR
 controller = SOR

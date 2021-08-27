@@ -12,7 +12,7 @@ base_tax = 6			#Okay, Brandenburg's population was minute and the little wealth 
 base_production = 6			#By 1317, it was mentioned as a small town. In 1573, it was still a small market town of 2,000 inhabitants. Potsdam lost nearly half of its population due to the Thirty Years' War (1618–1648).
 trade_goods = iron
 base_manpower = 4 			#Don't want dev too low in Brandenburg, so giving it 6, the surround countryside was rich enough to justify it
-capital = "Potsdam"
+capital = "Post¹pim"
 is_city = yes
 
 discovered_by = western

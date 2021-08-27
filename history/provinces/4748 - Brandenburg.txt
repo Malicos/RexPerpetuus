@@ -10,7 +10,7 @@ base_tax = 8
 base_production = 6
 trade_goods = iron
 base_manpower = 6
-capital = "Brandenburg an der Havel"
+capital = "Branibór"
 is_city = yes
 
 discovered_by = eastern

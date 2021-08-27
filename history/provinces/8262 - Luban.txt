@@ -3,7 +3,7 @@
 #Region - North Germany
 
 #Core Details
-capital = "Lauban"
+capital = "Lubañ"
 is_city = yes
 owner = SOR
 controller = SOR

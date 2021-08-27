@@ -2,17 +2,17 @@
 #Region - Germany
 #Area - Vorpommern
 
-owner = MKL
-controller = MKL
-add_core = MKL
+owner = RUG
+controller = RUG
+add_core = RUG
 culture = polabian_culture
 religion = catholic
-hre = yes
+hre = no
 base_tax = 4
 base_production = 4
 trade_goods = glass
 base_manpower = 2 
-capital = "Wolgast"
+capital = "Wo³ogoszcz"
 is_city = yes
 
 discovered_by = western

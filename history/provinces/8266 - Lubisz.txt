@@ -3,7 +3,7 @@
 #Region - North Germany
 
 #Core Details
-capital = "Lebus"
+capital = "Lubusz"
 is_city = yes
 owner = LUT
 controller = LUT

@@ -3,7 +3,7 @@
 #Region - North Germany
 
 #Core Details
-capital = "Pforten"
+capital = "Brody"
 is_city = yes
 owner = LUT
 controller = LUT

@@ -13,7 +13,7 @@ base_tax = 6
 base_production = 6
 trade_goods = livestock
 base_manpower = 4 
-capital = "Neuruppin"
+capital = "Rypin"
 is_city = yes
 
 discovered_by = western

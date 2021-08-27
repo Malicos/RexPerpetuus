@@ -3,7 +3,7 @@
 #Region - North Germany
 
 #Core Details
-capital = "Guben"
+capital = "Gubin"
 is_city = yes
 owner = LUT
 controller = LUT
