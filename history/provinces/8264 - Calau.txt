@@ -3,7 +3,7 @@
 #Region - North Germany
 
 #Core Details
-capital = "Ka³awa"
+capital = "Kalawa"
 is_city = yes
 owner = LUT
 controller = LUT

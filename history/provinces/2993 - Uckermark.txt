@@ -12,7 +12,7 @@ base_tax = 6			#Okay, Brandenburg's population was minute and the little wealth 
 base_production = 6
 trade_goods = cloth
 base_manpower = 4 
-capital = "Przês³aw"
+capital = "Przeslaw"
 is_city = yes
 
 discovered_by = western
