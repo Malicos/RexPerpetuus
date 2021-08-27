@@ -60,8 +60,10 @@ EON = "countries/Eonavia.txt"
 TOM = "countries/TrasOsMontes.txt"
 
 # HRE
+JRB = "countries/Jutribok.txt"
 LSL = "countries/LowerSilesia.txt"
 LUT = "countries/Luticia.txt"
+MSO = "countries/Misno.txt"
 NGU = "countries/Nordgau.txt"
 OST = "countries/Ostfalen.txt"
 STO = "countries/Santok.txt"

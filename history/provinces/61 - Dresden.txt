@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - South Saxony
 
-owner = SOR
-controller = SOR
-add_core = SOR
+owner = MSO
+controller = MSO
+add_core = MSO
 culture = sorbian
 religion = catholic
 capital = "Mišno"

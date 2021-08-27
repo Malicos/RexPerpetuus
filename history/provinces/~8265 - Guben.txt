@@ -5,8 +5,8 @@
 #Core Details
 capital = "Gubin"
 is_city = yes
-owner = JRB
-controller = JRB
+owner = LUT
+controller = LUT
 
 #Demographics
 culture = sorbian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = JRB
+add_core = LUT
 add_core = SOR
 
 #Other Political

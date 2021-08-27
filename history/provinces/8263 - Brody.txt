@@ -5,8 +5,8 @@
 #Core Details
 capital = "Brody"
 is_city = yes
-owner = LUT
-controller = LUT
+owner = SOR
+controller = SOR
 
 #Demographics
 culture = sorbian
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LUT
 add_core = SOR
 
 #Other Political

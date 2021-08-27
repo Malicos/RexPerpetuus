@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Thuringia
 
-owner = SOR
-controller = SOR
-add_core = SOR
+owner = MSO
+controller = MSO
+add_core = MSO
 culture = saxon
 religion = catholic
 capital = "Plawno"

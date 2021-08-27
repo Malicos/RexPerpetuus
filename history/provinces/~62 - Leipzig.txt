@@ -1,4 +1,6 @@
-#1763 - Niederlausitz
+#62 - Leipzig
+#Region - Germany
+#Area - South Saxony
 
 latent_trade_goods = {
 	coal
@@ -7,13 +9,13 @@ latent_trade_goods = {
 owner = SOR
 controller = SOR
 add_core = SOR
-capital = "Chociebuz"
-culture = sorbian
+culture = saxon
 religion = catholic
-trade_goods = wool
+capital = "Lipsk"
+trade_goods = bt_trade_good_beer
 hre = yes
-base_tax = 3 
-base_production = 3 
+base_tax = 8
+base_production = 6
 base_manpower = 2 
 is_city = yes
 

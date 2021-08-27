@@ -5,8 +5,8 @@
 #Core Details
 capital = "Kalawa"
 is_city = yes
-owner = LUT
-controller = LUT
+owner = JRB
+controller = JRB
 
 #Demographics
 culture = sorbian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = naval_supplies
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LUT
+add_core = JRB
 add_core = SOR
 
 #Other Political

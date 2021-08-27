@@ -1,21 +1,20 @@
-#1763 - Niederlausitz
-
-latent_trade_goods = {
-	coal
-}
+#61 - Saxony
+#Region - Germany
+#Area - South Saxony
 
 owner = SOR
 controller = SOR
 add_core = SOR
-capital = "Chociebuz"
 culture = sorbian
 religion = catholic
-trade_goods = wool
+capital = "Mišno"
+trade_goods = iron
 hre = yes
-base_tax = 3 
-base_production = 3 
+base_tax = 8
+base_production = 8
 base_manpower = 2 
 is_city = yes
+fort_15th = yes
 
 discovered_by = western
 discovered_by = muslim

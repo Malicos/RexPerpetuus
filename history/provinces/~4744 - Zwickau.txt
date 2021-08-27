@@ -1,8 +1,8 @@
 # 4744 - Zwickau
 
-owner = MSO
-controller = MSO
-add_core = MSO
+owner = SOR
+controller = SOR
+add_core = SOR
 culture = sorbian
 religion = catholic
 hre = yes

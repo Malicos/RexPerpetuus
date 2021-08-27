@@ -1,19 +1,17 @@
-#1763 - Niederlausitz
-
-latent_trade_goods = {
-	coal
-}
+# - Vogtland
+#Region - Germany
+#Area - Thuringia
 
 owner = SOR
 controller = SOR
 add_core = SOR
-capital = "Chociebuz"
-culture = sorbian
+culture = saxon
 religion = catholic
+capital = "Plawno"
 trade_goods = wool
 hre = yes
-base_tax = 3 
-base_production = 3 
+base_tax = 4 
+base_production = 2 
 base_manpower = 2 
 is_city = yes
 
