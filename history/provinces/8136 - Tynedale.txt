@@ -10,7 +10,7 @@ controller = JRV
 add_core = JRV
 
 #Demographics
-culture = cumbrian_culture
+culture = anglisk
 religion = catholic
 
 #Development and Trade

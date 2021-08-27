@@ -5,7 +5,7 @@
 owner = DRT
 controller = DRT
 add_core = DRT
-culture = hessian
+culture = luxembourgish_culture
 religion = catholic
 trade_goods = cloth
 capital = "Dortmund"

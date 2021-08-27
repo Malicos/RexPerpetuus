@@ -6,6 +6,7 @@ primary_culture = lorraine_culture
 religion = catholic
 capital = 189	# Lorraine
 elector = yes
+add_accepted_culture = luxembourgish_culture
 
 #ck3: verify inauguration date
 1444.11.11= {

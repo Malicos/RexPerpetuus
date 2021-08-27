@@ -43,19 +43,30 @@
  QOM_ADJ:0 "Qomi"
 
  # Cultures
- albanian:0 "Arberian"
- highland_scottish:0 "Gaelic"
- romanian:0 "Vlach"
- greek:0 "Aegean" #Unified Greece and West Anatolia 
- griko:0 "Kalabrian"
- burgundian:0 "Low Burgundian"
- occitain:0 "Langdocian" 
+ 
+ ###Germanic
  saxon:0 "Thuringian" #A little confusing I know - Illuminati
  lower_saxon:0 "Saxon"
- swabian:0 "Allemanic"
+ swabian:0 "Allemanic" 
+ hessian:0 "High Rhenish"
+ ###British
+ anglo_saxon:1 "Sexish" 
+ ###French
+ burgundian:0 "Low Burgundian"
+ ###Occitanic
+ occitain:0 "Langdocian"  
+ ###Illyrian
+ albanian:0 "Arberian"
+ ###Goidelic
+ gaelic:1 "Goidelic" 
+ highland_scottish:0 "Gaelic"
+ ###Dacian
+ romanian:0 "Vlach"
+ ###Hellenic
+ greek:0 "Aegean" #Unified Greece and West Anatolia 
+ griko:0 "Kalabrian"
+ ###West Slavic
  schlesian:0 "Silesian"
- anglo_saxon:1 "Sexish"
- gaelic:1 "Goidelic"
 
  # Religions
  hussite:0 "Patarene"

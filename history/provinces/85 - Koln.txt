@@ -5,7 +5,7 @@
 owner = LOT
 controller = LOT
 add_core = LOT
-culture = hessian
+culture = luxembourgish_culture
 religion = catholic
 trade_goods = grain
 capital = "Köln"
