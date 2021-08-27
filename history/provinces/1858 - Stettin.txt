@@ -12,7 +12,7 @@ hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 2
-capital = "Stettin"
+capital = "Sad¿in"
 is_city = yes
 
 discovered_by = western

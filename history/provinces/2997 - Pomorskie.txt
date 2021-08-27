@@ -5,7 +5,7 @@
 owner = PME
 controller = PME
 add_core = PME
-capital = "Tuchola"
+capital = "Tëcholô"
 culture = kashubian_culture
 religion = catholic
 trade_goods = naval_supplies

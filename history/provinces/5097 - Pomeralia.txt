@@ -5,7 +5,7 @@
 owner = SGR
 controller = SGR
 add_core = SGR
-capital = "Starogard"
+capital = "Starogarda"
 culture = kashubian_culture
 religion = catholic
 trade_goods = grain
