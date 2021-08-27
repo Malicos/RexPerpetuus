@@ -12,7 +12,7 @@ base_tax = 6
 base_production = 6
 trade_goods = cloth
 base_manpower = 2 
-capital = "Greifswald"
+capital = "Gryfia"
 is_city = yes
 
 discovered_by = western
