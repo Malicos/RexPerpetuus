@@ -1,8 +1,8 @@
 #254 - Poznan
 
-owner = POL
-controller = POL
-add_core = POL
+owner = WPK
+controller = WPK
+add_core = WPK
 capital = "Poznan"
 culture = polish
 religion = catholic

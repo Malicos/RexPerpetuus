@@ -2,9 +2,9 @@
 #Region - Ruthenia
 #Area - Podolia Volhynia
 
-owner = VOL
-controller = VOL 
-add_core = VOL
+owner = KIE
+controller = KIE
+add_core = KIE
 culture = ruthenian
 religion = orthodox
 hre = no

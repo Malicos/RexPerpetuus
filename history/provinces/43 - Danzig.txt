@@ -5,7 +5,7 @@
 owner = TSO
 controller = TSO
 add_core = TSO
-capital = "Danzig"
+capital = "Gdañsk"
 culture = kashubian_culture
 religion = catholic
 trade_goods = grain

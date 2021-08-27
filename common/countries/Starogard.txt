@@ -1,0 +1,26 @@
+graphical_culture = westerngfx
+color = { 224 181 79 }
+monarch_names = {
+	"Agnieszka #0" = 0
+	"Barbara #0" = -1
+	"Bartosz #0" = 0
+	"Bozydar #2" = 10
+	"Danuta #0" = -1
+	"Dytryk #1" = 10
+	"Grim #0" = 0
+	"Helena #0" = -1
+	"Ibrahim #0" = 0
+	"Kazimiera #0" = -1
+	"Kunegunda #0" = -1
+	"Matylda #0" = -1
+	"Miroslaw #0" = -1
+	"Siemomysl #1" = 10
+	"Stanislawa #1" = -1
+	"Ubah #0" = -1
+	"Wincenty #1" = 10
+	"Witosz #1" = 10
+	"Wojuta #0" = -1
+	"Yevpraxia #0" = -1
+	"Zuber #0" = 0
+	"Zwinislawa #0" = -1
+}

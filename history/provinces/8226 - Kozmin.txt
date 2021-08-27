@@ -5,9 +5,8 @@
 #Core Details
 capital = "Kozmin"
 is_city = yes
-owner = POL
-controller = POL
-add_core = POL
+owner = WPK
+controller = WPK
 
 #Demographics
 culture = polish
@@ -20,6 +19,7 @@ base_manpower = 1
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
+add_core = WPK
 
 #Other Political
 hre = no

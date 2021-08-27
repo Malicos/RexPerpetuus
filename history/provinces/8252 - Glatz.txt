@@ -5,8 +5,8 @@
 #Core Details
 capital = "Kladsko"
 is_city = yes
-owner = LSL
-controller = LSL
+owner = BOH
+controller = BOH
 
 #Demographics
 culture = schlesian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = gold
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LSL
+add_core = BOH
 
 #Other Political
 hre = yes

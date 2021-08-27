@@ -1,11 +1,12 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = LEK
-controller = LEK
+owner = MSU
+controller = MSU
+add_core = MSU
 add_core = LEK
 culture = yotvingian_culture
 religion = catholic
-capital = "Rhein"
+capital = "Ryn"
 base_tax = 2 
 base_production = 2 
 base_manpower = 1 

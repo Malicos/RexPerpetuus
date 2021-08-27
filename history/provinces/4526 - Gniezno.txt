@@ -1,8 +1,8 @@
 #4526 - Gniezno
 
-owner = POL
-controller = POL
-add_core = POL
+owner = WPK
+controller = WPK
+add_core = WPK
 culture = polish
 religion = catholic
 capital = "Gniezno"

@@ -1,11 +1,11 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = POL
-controller = POL
-add_core = POL
+owner = MSU
+controller = MSU
+add_core = MSU
 culture = polish
 religion = catholic
-capital = "Löbau"
+capital = "Nidzica"
 base_tax = 3 
 base_production = 3 
 base_manpower = 2 
