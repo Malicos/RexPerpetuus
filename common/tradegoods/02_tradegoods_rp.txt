@@ -1,0 +1,96 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new resources, make sure they are uniquely named.
+# Please add price definitions to prices.txt as well.
+
+#New goods in RP, many of them were ported from Imperialism Reinvigorated (all credits to the original creators of the resources)
+#rp_trade_good_brass
+#rp_trade_good_bronze
+#rp_trade_good_camels
+#rp_trade_good_horses
+#rp_trade_good_jade
+#rp_trade_good_lead
+#rp_trade_good_liquor
+#rp_trade_good_marble
+#rp_trade_good_opium
+#rp_trade_good_peppers
+#rp_trade_good_potatoes
+#rp_trade_good_rice
+#rp_trade_good_rum
+#rp_trade_good_silver
+#rp_trade_good_steel
+#rp_trade_good_stone
+#rp_trade_good_tomatoes
+#rp_trade_good_zinc
+
+#Rex Perpetuus trade goods
+rp_trade_good_brass = {
+	color = { 0.96 0.93 0.58 }
+}
+
+rp_trade_good_bronze = {
+	color = { 0.63 0.41 0.20 }
+}
+
+rp_trade_good_camels = {
+	color = { 0.92 0.77 0.58 }
+}
+
+rp_trade_good_horses = {
+	color = { 0.54 0.28 0.20 }
+}
+
+rp_trade_good_jade = {
+	color = { 0.33 0.69 0.54 }
+}
+
+rp_trade_good_lead = {
+	color = { 0.24 0.26 0.43 }
+}
+
+rp_trade_good_liquor = {
+	color = { 0.96 0.93 0.58 }
+}
+
+rp_trade_good_marble = {
+	color = { 0.4 0.4 0.5 }
+}
+
+rp_trade_good_opium = {
+	color = { 0.60 0.77 0.28 }
+}
+
+rp_trade_good_peppers = {
+	color = { 0.84 0.51 0.15 }
+}
+
+rp_trade_good_potatoes = {
+	color = { 0.54 0.43 0.21 }
+}
+
+rp_trade_good_rice = {
+	color = { 0.92 0.85 0.80 }
+}
+
+rp_trade_good_rum = {
+	color = { 0.96 0.93 0.58 }
+}
+
+rp_trade_good_silver = {
+	color = { 0.89 0.89 0.89 }
+}
+
+rp_trade_good_steel = {
+	color = { 0.76 0.82 0.88 }
+}
+
+rp_trade_good_stone = {
+	color = { 0.25 0.25 0.27 }
+}
+
+rp_trade_good_tomatoes = {
+	color = { 0.97 0.18 0.01 }
+}
+
+rp_trade_good_zinc = {
+	color = { 0.54 0.28 0.20 }
+}

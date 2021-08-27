@@ -1,0 +1,76 @@
+# base_price = X			base price in $. (default is 1.0 if not specified
+# goldtype = yes/no			This resource works like 'gold' if yes, using prices from mine-value in province instead of supply/demand and baseprice. Also creates gold-inflation
+
+
+#Rex Perpetuus trade goods
+rp_trade_good_brass = {
+	base_price = 2.5
+}
+
+rp_trade_good_bronze = {
+	base_price = 2.5
+}
+
+rp_trade_good_camels = {
+	base_price = 2
+}
+
+rp_trade_good_horses = {
+	base_price = 2.5
+}
+
+rp_trade_good_jade = {
+	base_price = 2
+}
+
+rp_trade_good_lead = {
+	base_price = 2.5
+}
+
+rp_trade_good_liquor = {
+	base_price = 3
+}
+
+rp_trade_good_marble = {
+	base_price = 2.5
+}
+
+rp_trade_good_opium = {
+	base_price = 3
+}
+
+rp_trade_good_peppers = {
+	base_price = 3
+}
+
+rp_trade_good_potatoes = {
+	base_price = 1
+}
+
+rp_trade_good_rice = {
+	base_price = 1
+}
+
+rp_trade_good_rum = {
+	base_price = 3
+}
+
+rp_trade_good_silver = {
+	base_price = 6
+}
+
+rp_trade_good_steel = {
+	base_price = 4
+}
+
+rp_trade_good_stone = {
+	base_price = 1.5
+}
+
+rp_trade_good_tomatoes = {
+	base_price = 2.5
+}
+
+rp_trade_good_zinc = {
+	base_price = 2.5
+}

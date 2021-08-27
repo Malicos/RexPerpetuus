@@ -1,9 +1,9 @@
 #BT Italy reoverhaul
 
-owner = BGM
-controller = BGM
-add_core = BGM
+owner = BSC
+controller = BSC
 add_core = BSC
+add_core = BGM
 culture = lombard
 religion = catholic
 capital = "Breno"			#modern capital is Darfo, but Breno served that purpouse during Eu4 times - Nikicaga

@@ -134,7 +134,7 @@ bt_norwegian_internal_missions = {
 		}
 		effect = {
 			7783 = {
-				change_trade_goods = gold #Developer's note: Should be silver once added into the game.
+				change_trade_goods = rp_trade_good_silver #Developer's note: Should be silver once added into the game.
 			}
 		}
 	}

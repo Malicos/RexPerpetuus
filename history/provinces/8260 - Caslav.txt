@@ -16,7 +16,7 @@ religion = catholic
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = gold #Silver Mines
+trade_goods = rp_trade_good_silver #Silver Mines
 
 #Cores and Occupation (Alphabetical after current)
 add_core = BOH

@@ -11,7 +11,7 @@ base_production = 4
 base_manpower = 3
 trade_goods = cloth # traditionally a cloth centre, placeholder for Olives which are particularly common here
 is_city = yes
-hre = yes
+hre = no
 
 discovered_by = western
 discovered_by = muslim

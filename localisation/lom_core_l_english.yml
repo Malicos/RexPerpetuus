@@ -13,6 +13,7 @@
  # 2) Cultures
  # 3) Tags
  # 4) Religions
+ # 5) Trade Goods
 
  #################################################################################
  # 1 - Start Dates
@@ -67,7 +68,7 @@
  CNT:0 "Capitanata"
  CNT_ADJ:0 "Capitanatan"
  CRK:0 "Cork"
- CRK_ADJ:0 "Corkonians"
+ CRK_ADJ:0 "Corkonian"
  CTH:0 "Carinthia"
  CTH_ADJ:0 "Carinthian"
  DBG:0 "Burgundy"
@@ -87,9 +88,11 @@
  ESX:0 "Essex"
  ESX_ADJ:0 "Essaxon"
  FEU:0 "Eu"
- FEU_ADJ:0 "Eu"
+ FEU_ADJ:0 "Eudese"
  FTS:0 "Tours"
  FTS_ADJ:0 "Tourange"
+ GET:0 "Gaeta"
+ GET_ADJ:0 "Gaetan"
  GUI:0 "Guise"
  GUI_ADJ:0 "Guisard"
  GWD:0 "Gwynedd"
@@ -115,7 +118,7 @@
  MID:0 "Mercia"
  MID_ADJ:0 "Mercian"
  MLS:0 "Molise"
- MLS_ADJ:0 "Molisean"
+ MLS_ADJ:0 "Molisan"
  NGU:0 "Nordgau"
  NGU_ADJ:0 "Nordgauer"
  OST:0 "Eastphalia"
@@ -389,3 +392,44 @@
  iconoclast_religion_desc:0 "Believing that any use of spiritual symbols violates the Second Commandment to not make any graven images, the Iconoclasts and seek to destroy existing religious iconography and reject the creation of new ones."
  nestorian:0 "Nestorian"
  nestorian_religion_desc:0 "In teaching that Jesus Christ has two natures, one divine and one human, Nestorianism has been declared as heretical by most Christian faiths. Despite this, its unique outlook has garnered followers in places as far east as China, India, and even Mongolia."
+ 
+ #################################################################################
+ # 5 - Trade Goods
+ #################################################################################
+ rp_trade_good_brass:0 "Brass"
+ rp_trade_good_brassDESC:0 "PH."
+ rp_trade_good_bronze:0 "Bronze"
+ rp_trade_good_bronzeDESC:0 "PH."
+ rp_trade_good_camels:0 "Camels"
+ rp_trade_good_camelsDESC:0 "PH."
+ rp_trade_good_horses:0 "Horses"
+ rp_trade_good_horseshDESC:0 "PH."
+ rp_trade_good_jade:0 "Jade"
+ rp_trade_good_jadeDESC:0 "PH."
+ rp_trade_good_lead:0 "Lead"
+ rp_trade_good_leadDESC:0 "PH."
+ rp_trade_good_liquor:0 "Liquor"
+ rp_trade_good_liquorDESC:0 "PH."
+ rp_trade_good_marble:0 "Marble"
+ rp_trade_good_marbleDESC:0 "Not just any stone, Marble is renowned throughout the globe for its aestetic polish and innate beauty. Due to its crystalline composition, a wide variety of types of marble have played an enormous role in the construction of buildings and statuary throughout history. White marble in particular is prized for its use in sculpture and the creation of masterful marvels of engineering. Due to the rarity in its sites of production, Marble has become the standard building material of opulence the world over."
+ rp_trade_good_opium:0 "Opium"
+ rp_trade_good_opiumDESC:0 "PH."
+ rp_trade_good_peppers:0 "Peppers"
+ rp_trade_good_peppersDESC:0 "PH."
+ rp_trade_good_potatoes:0 "Potatoes"
+ rp_trade_good_potatoesDESC:0 "Known for their hardiness and excellent nutritional value, Potatoes were an American crop cultivated by the Andean peoples. With the trade of goods across the Atlantic, the Potato quickly became the staple of choice amongst Europe's poor. Indeed, countries that suffered significant starvation like Ireland and Latvia were able to mitigate it through the widespread circulation of potatoes."
+ rp_trade_good_rice:0 "Rice"
+ rp_trade_good_riceDESC:0 "A cereal grain most commonly found in Asia, Rice has been cultivated since time immemorial. For a significant part of the Early Modern period, Rice remained the top produced crop due to its style of cultivation. Rice paddies, irrigated fields submerged in water, act as an in-built anti-pest system, making it the crop of choice for the large population centers of East Asia and beyond."
+ rp_trade_good_rum:0 "Rum"
+ rp_trade_good_rumDESC:0 "PH."
+ rp_trade_good_silver:0 "Silver"
+ rp_trade_good_silverDESC:0 "Like Gold, Silver has been used as a standard of value over the ages for its precious qualities. Early into the Renaissance, shortages of Gold in Europe led to the opening of many silver mines across Lower Germany and the Balkans. Furthermore, with the discovery of the New World, Silver rapidly became a currency standard, which would have far reaching effects when its export from the Americas was eventually exhausted."
+ rp_trade_good_steel:0 "Steel"
+ rp_trade_good_steelDESC:0 "PH."
+ rp_trade_good_stone:0 "Stone"
+ rp_trade_good_stoneDESC:0 "PH."
+ rp_trade_good_tomatoes:0 "Tomatoes"
+ rp_trade_good_tomatoesDESC:0 "PH."
+ rp_trade_good_zinc:0 "Zinc"
+ rp_trade_good_zincDESC:0 "PH."
+ 

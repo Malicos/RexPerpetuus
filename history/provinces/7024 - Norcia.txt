@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = ANC
-controller = ANC
-add_core = ANC
+owner = PAP
+controller = PAP
+add_core = PAP
 add_core = NRC
 culture = umbrian
 religion = catholic
@@ -12,7 +12,7 @@ base_production = 4
 base_manpower = 2
 trade_goods = livestock # famous for it's swine
 is_city = yes
-hre = yes
+hre = no
 
 discovered_by = western
 discovered_by = muslim

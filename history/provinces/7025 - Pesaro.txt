@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = RAV
-controller = RAV
-add_core = RAV
+owner = ANC
+controller = ANC
+add_core = ANC
 add_core = PSR
 culture = romagnan
 religion = catholic

@@ -1,8 +1,7 @@
 #BT Italy reoverhaul
 
-owner = ANC
-controller = ANC
-add_core = ANC
+owner = FLG
+controller = FLG
 add_core = FLG
 culture = umbrian
 religion = catholic
@@ -12,7 +11,7 @@ base_production = 5
 base_manpower = 3
 trade_goods = bt_trade_good_books
 is_city = yes
-hre = yes
+hre = no
 
 discovered_by = western
 discovered_by = muslim
