@@ -5,8 +5,8 @@
 #Core Details
 capital = "Jawor"
 is_city = yes
-owner = LSL
-controller = LSL
+owner = LEG
+controller = LEG
 
 #Demographics
 culture = schlesian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LSL
+add_core = LEG
 add_core = JAW
 
 #Other Political

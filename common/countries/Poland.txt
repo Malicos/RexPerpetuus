@@ -2,7 +2,9 @@
 
 graphical_culture = easterngfx
 
-color = { 114 30 41 }
+color = { 150 23 23 }
+
+revolutionary_colors = { 5  0  5 }
 
 historical_idea_groups = {
 	diplomatic_ideas
@@ -35,13 +37,13 @@ historical_units = {
 
 monarch_names = {
 	"August #1" = 60
-	"Wladyslaw #1" = 60
+	"Wladyslaw #3" = 60
 	"Stanislaw #0" = 40
 	"Kazimierz #3" = 20
 	"Aleksander #0" = 20
 	"Henryk #0" = 20
 	"Jan #0" = 20
-	"Jan #0 Albert" = 20
+	"Jan #0 Olbracht" = 20
 	"Jan #0 Kazimierz" = 20
 	"Michal #0" = 20
 	"Stefan #0" = 20
@@ -51,7 +53,6 @@ monarch_names = {
 	"Zygmunt #0 Kazimierz" = 15
 	"Krzysztof #0" = 10
 	"Fryderyk #0" = 10
-	"Jan #0 Olbracht" = 10
 	"Jan #0 Zygmunt" = 10
 	"Karol #0 Ferdynand" = 10
 	"Olbracht #0" = 10
@@ -84,29 +85,32 @@ monarch_names = {
 	"Sylwester #0" = 0
 	"Szymon #0" = 0
 	"Zygfryd #0" = 0
-	"Richeza #0" = -1
-	"Judith #0" = -1
-	"Agafia #0" = -1
+	"Jadwiga #1" = -1
+	"Anna #0" = -1
+	"Katarzyna #0" = -1
 }
 
 leader_names = {
 	Arciszewski
-	Benyowski Bidziñski Branicki
-	Czarniecki Chometowski
-	Dunin Denhoff Drzewicki
-	Grodzicki Górka
-	Houwaldt
-	Jablonowski Jazlowiecki
-	Kurozwecki Kurbski Koniecpolski Kosciuszko Krasinski Kalinowski Korycki Kazanowski Kmita
-	Lubomirski Lisowski Lanckoroñski Leszczyñski Lacki
-	Malski Mniszech Matczyñski Mlodziejowski
-	Ostroróg Olesnicki Opacki Ozarowski Ossolinski
-	Paniewski Patkul Poniatowski Pulaski Przyjemski Piaseczyñski Potocki
-	Rytwiañski Rzewuski
-	Sobieski Sahajdaczny Siemienowicz Sulkowski Stadnicki Sieniawski
-	Tarnowski
-	Wyhowski Wielopolski
-	Zamoyski Zebrzydowski Zacwilichowski Zborowski Zbaraski
+	Benyowski Bidzinski Branicki Bielinski Boner Brzostowski Buczacki Butler
+	Czarniecki Chometowski Cetner Chlewicki Chodecki Czapski Czarnkowski
+	Dunin Denhoff Drzewicki Dambski Dzialynski Dzieduszycki
+	Firlej Fredro
+	Grodzicki Górka Grabowski Gembicki Gosiewski Grudzinski Grzymultowski Gurowski
+	Houwaldt Herburt Hylzen
+	Jablonowski Jazlowiecki Jaroslawski Jordan Judycki
+	Kurozwecki Koniecpolski Krasinski Kalinowski Korycki Kazanowski Kmita Komorowski Kamieniecki Karnkowski Krasicki Kwilecki
+	Lubomirski Lisowski Lanckoronski Leszczynski Lacki Latalski Ligeza Lipski Lubranski
+	Malski Mniszech Matczynski Mlodziejowski Malachowski Melsztynski Mielecki Mielzynski Morsztyn Mycielski
+	Nalecz Niesiolowski
+	Olesnicki Opacki Ozarowski Ossolinski Odrowaz Oporowski Ostroróg Ostrowski
+	Paniewski Poniatowski Pulaski Przyjemski Piaseczynski Potocki Pilecki Pociej Poninski Prazmowski Przebendowski
+	Rytwianski Rzewuski Raczynski Radziejowski Rej
+	Sobieski Siemienowicz Sulkowski Stadnicki Sieniawski Sierakowski Skarbek Soltyk Szafraniec Szembek Szydlowiecki Scibor
+	Tarnowski Tarlo Teczynski Tomicki Tyzenhaus
+	Uchanski
+	Wyhowski Wielopolski Walewski Weyher Wierzbowski Wolski Wodzicki
+	Zamoyski Zebrzydowski Zacwilchowski Zborowski Zaluski
 }
 
 ship_names = {

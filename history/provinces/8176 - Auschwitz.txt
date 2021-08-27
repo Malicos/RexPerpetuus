@@ -23,7 +23,7 @@ add_core = USL
 add_core = ASC
 
 #Other Political
-hre = yes
+hre = no
 
 #Fort/Other Buildings
 

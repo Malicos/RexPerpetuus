@@ -1,8 +1,7 @@
 #4238 - Leignitz
 
-owner = LSL
-controller = LSL
-add_core = LSL
+owner = LEG
+controller = LEG
 add_core = LEG
 culture = schlesian
 religion = catholic

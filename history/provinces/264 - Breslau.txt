@@ -1,8 +1,7 @@
 #264 - Breslau
 
-owner = LSL
-controller = LSL
-add_core = LSL
+owner = BAU
+controller = BAU
 add_core = BAU
 culture = schlesian
 religion = catholic

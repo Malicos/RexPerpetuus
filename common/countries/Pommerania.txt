@@ -2,7 +2,8 @@
 
 graphical_culture = westerngfx
 
-color = { 106 35 121 }
+color = { 63 92 74 }
+revolutionary_colors = { 14 0 14 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -73,10 +74,14 @@ monarch_names = {
 	"Siegfried #0" = 0
 	"Walter #0" = 0
 	"Wilhelm #0" = 0
+	"Valentin #0" = 0
 	
 	"Gabriela #0" = -1
 	"Helena #0" = -1
 	"Janina #0" = -1
+	"Elisabeth #0" = -1
+	"Magdalena #0" = -1
+	"Sophia #0" = -1
 }
 
 leader_names = {
@@ -86,10 +91,13 @@ leader_names = {
 	Beyse Kurzmann Jürgens Stellmacher Heidmann
 	Grosch Krumtum Miercke Rähl Wessel Meuseling
 	"von Wolin" "von Wolgatz"
+	"von Wolgast" "von Cammin" "von Stettin" "von Neustettin" "von Neubrandenburg" "von Rügen" "von Stolp" "von Kolberg" "von Greifswald" "von Stralsund" "von und zu Stargard"
+	"von Schwerin" "von Eickstedt" "von Ramin" "Normann" "von Borcke"
 }
 
 ship_names = {
 	Pommern "Herzog Kasimir" "Herzog Bogislaw"
 	"Stettin Herzog Barnim" Wismar Rostock
 	Stralsund Greifswald Demmin Anklam "Herzog Otto"
+	Wolgast Cammin Neustettin "Fräulein von Rügen"
 }

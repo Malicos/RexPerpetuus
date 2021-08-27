@@ -5,8 +5,8 @@
 #Core Details
 capital = "Nysa"
 is_city = yes
-owner = LSL
-controller = LSL
+owner = NIE
+controller = NIE
 
 #Demographics
 culture = schlesian
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LSL
 add_core = NIE
 
 #Other Political

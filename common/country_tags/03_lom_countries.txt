@@ -82,10 +82,12 @@ TCA = "countries/Trinacria.txt"
 
 # Poland and Baltics
 AUK = "countries/Aukstaitija.txt"
+BGR = "countries/Bialogard.txt"
 LEK = "countries/Lek.txt"
 MSU = "countries/Masuria.txt"
 PME = "countries/Pomerelia.txt"
 SGR = "countries/Starogard.txt"
+TCH = "countries/Techolo.txt"
 TSO = "countries/Truso.txt"
 VIL = "countries/Vilna.txt"
 

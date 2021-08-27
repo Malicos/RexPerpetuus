@@ -23,7 +23,7 @@ add_core = USL
 add_core = TES
 
 #Other Political
-hre = yes
+hre = no
 
 #Fort/Other Buildings
 

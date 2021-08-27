@@ -5,8 +5,8 @@
 #Core Details
 capital = "Namyslow"
 is_city = yes
-owner = LSL
-controller = LSL
+owner = OLE
+controller = OLE
 
 #Demographics
 culture = schlesian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = bt_trade_good_beer
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LSL
+add_core = OLE
 add_core = NAM
 
 #Other Political

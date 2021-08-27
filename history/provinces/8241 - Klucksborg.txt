@@ -24,7 +24,7 @@ add_core = OPL
 add_core = KLU
 
 #Other Political
-hre = yes
+hre = no
 
 #Fort/Other Buildings
 
