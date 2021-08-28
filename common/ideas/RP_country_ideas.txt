@@ -1,0 +1,31 @@
+# Rex Perpetuus work by all contributors
+
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+# Jorvik
+JRV_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = JRV
+	}
+	
+	free = yes	# Will be added at load
+	
+	jrv_heirs_of_the_last_viking = { }
+	
+	jrv_royal_merchant_navy = { }
+	
+	jrv_third = { }
+	
+	jrv_fourth = { }
+	
+	jrv_fifth = { }
+	
+	jrv_sixth = { }
+	
+	jrv_seventh = { }
+}
