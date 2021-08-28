@@ -2,9 +2,9 @@
 #Region - Baltic
 #Area - West Prussia
 
-owner = PME
-controller = PME
-add_core = PME
+owner = TCH
+controller = TCH
+add_core = TCH
 capital = "Tëcholô"
 culture = kashubian_culture
 religion = catholic

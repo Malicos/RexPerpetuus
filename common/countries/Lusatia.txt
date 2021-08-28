@@ -2,7 +2,7 @@
 
 graphical_culture = easterngfx # czechgfx # UPE compatibility
 
-color = { 107 127 191 }
+color = { 95 50 10 }
 
 historical_idea_groups = {
 	trade_ideas
