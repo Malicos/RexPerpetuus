@@ -87,6 +87,9 @@
  south_america:0 "Elysia"
  
  # Areas
+ northern_england_area:0 "Bernicia"
+ northern_england_area_name:0 "Bernicia"
+ northern_england_area_adj:0 "Bernician"
  tunisia_area:0 "Africa"
  tunisia_area_name:0 "Africa"
  tunisia_area_adj:0 "African"

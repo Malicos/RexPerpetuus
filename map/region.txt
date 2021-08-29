@@ -245,39 +245,35 @@ iberia_region = {
 
 british_isles_region = {
 	areas = {
-		east_midlands_area			#New in 1.25. Replacing mercia_area with it in BT
-		west_midlands_area			#New in 1.25.  Replacing lancashire_area with it in BT
-		scottish_marches_area			#New in 1.25.  Replacing western_lowlands_area with it in BT
-		#mercia_area			#cut in 1.25, using east_midlands_area as a replacement
-		wessex_area
-		home_counties_area			#cut in 1.25, using essex_area as a replacement
-		east_anglia_area
-		wales_area
-		lowlands_area
+		southern_isles_area
 		highlands_area
-		kingdom_of_the_isles_area			#New in 1.25. Odd name for an area....
-		#BTADDITIONS
-		#southern_isles_area			#Cut to be replaced with kingdom_of_the_isles_area added in 1.25
-		#essex_area			#Cut to be replaced with home_counties_area in 1.25
-		#western_lowlands_area			#Cut to be replaced with scottish_marches_area in 1.25
-		#cornwall_area
-		yorkshire_area		#also added by Paradox in 1.25, same id so no change needed.
-		#lancashire_area			#cut in 1.25, using west_midlands_area as a replacement
-		northern_england_area			#vanilla cut in 1.25, but kept in BT because the new yorkshire_area replacing it was already in BT, and I need an area. This is as good as any and already in triggers
-		powys_area
+		eastern_lowlands_area
+		wales_area
+		northern_england_area
+		mercia_area
+		london_area
+		wessex_area
+		east_anglia_area
+		western_lowlands_area
+		three_kingdoms_area
+		cornwall_area
 		deheubarth_area
+		powys_area
 		grampians_area
-	}	
+		cumbria_area
+		lancashire_area
+		jorvik_area
+	}
 }
 
-ireland_area = {
+ireland_region = {
 	areas = {
 		leinster_area			#Added by Paradox in 1.25 but already in BT, same id so no change needed.
 		ulster_area			#Added by Paradox in 1.25 but already in BT, same id so no change needed.
 		munster_area			#Added by Paradox in 1.25 but already in BT, same id so no change needed.
 		connacht_area			#Added by Paradox in 1.25 but already in BT, same id so no change needed.
 	}
-}			#New Region by HR
+}
 
 baltic_region = {
 	areas = {
@@ -1864,16 +1860,11 @@ unused_region = {
 		amnok_area
 		north_korea_area
 		kartli_kakheti_area
-		#northern_england_area			#Removed in 1.25 but still used in BT for now
-		mercia_area
 		eastern_ireland_area
 		western_ireland_area
 		seine_area
 		#brabant_area			#Removed in 1.25 but still used in BT for now
 		#luxemburg_liege_area			#Removed in 1.25 but still used in BT for now
-		lancashire_area
-		western_lowlands_area
-		southern_isles_area
 		#Temp unused for BT
 		#holland_area 				#Reused in 13.0
 		north_karelia

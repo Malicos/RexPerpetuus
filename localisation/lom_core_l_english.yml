@@ -14,6 +14,7 @@
  # 3) Tags
  # 4) Religions
  # 5) Trade Goods
+ # 6) Areas, Regions, etc.
 
  #################################################################################
  # 1 - Start Dates
@@ -446,4 +447,23 @@
  rp_trade_good_tomatoesDESC:0 "PH."
  rp_trade_good_zinc:0 "Zinc"
  rp_trade_good_zincDESC:0 "PH."
+ 
+ #################################################################################
+ # 6 - Areas, Regions, etc.
+ #################################################################################
+ cumbria_area:0 "Cumbria"
+ cumbria_area_name:0 "Cumbria"
+ cumbria_england_area_adj:0 "Cumbrian"
+ eastern_lowlands_area:0 "East Lowlands"
+ eastern_lowlands_area_name:0 "East Lowlands"
+ eastern_lowlands_area_adj:0 "East Lowlander"
+ jorvik_area:0 "Jorvik"
+ jorvik_area_name:0 "Jorvik"
+ jorvik_area_adj:0 "Jorviker"
+ london_area:0 "London"
+ london_area_name:0 "London"
+ london_area_adj:0 "Londoner"
+ three_kingdoms_area:0 "Three Kingdoms"
+ three_kingdoms_area_name:0 "Three Kingdoms"
+ three_kingdoms_area_adj:0 "Three Kingdoms"
  

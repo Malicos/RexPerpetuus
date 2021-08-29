@@ -527,7 +527,7 @@ connacht_area = {
 	376 3014 4119 8160 8161 8162
 }
 
-kingdom_of_the_isles_area = { #3
+southern_isles_area = {
 	253 4365 4364 4363
 }
 
@@ -535,8 +535,8 @@ highlands_area = { #8
 	252 4110 3137 3138 8153 8154 8155 8152
 }
 
-lowlands_area = { #10
-	248 8146 8148 8149 8150 4361 8145
+eastern_lowlands_area = { 
+	248 4361 8145 8146 8148
 }
 
 wales_area = { #6
@@ -547,28 +547,56 @@ northern_england_area = { #4
 	246 4368 8136 8137
 }
 
-east_midlands_area = { #8
+mercia_area = { #8
 	243 1861 4372 4376 8126 8128 8130 8131 
 }
 
+london_area = {
+	236 237 8124 8125 8127 
+}
+
 wessex_area = { #8
-	233 234 239 4374 4130 4373 8122 8124 8170 
+	234 239 4374 4130 8170 
 }
 
 east_anglia_area = { #3
 	1860 3028 4370
 }
 
-scottish_marches_area = { #7
-	249 3008 3019 4362  8147
+western_lowlands_area = { 
+	249 3008 3019 4362 8147
 }
 
-west_midlands_area = {
-	244 247 4375 8135
+three_kingdoms_area = {
+	235 238 4371 8123
 }
 
-home_counties_area = {
-	235 236 237 238 4371 8123 8125 8127
+cornwall_area = {
+	233 4373 8122
+}
+
+deheubarth_area = {
+	241 3034 3036 4369 8143 8144
+}
+
+powys_area = {
+	240 4366 8129 8142
+}
+
+grampians_area = {
+	8149 8150 8152 251 8151 3139 250
+}
+
+cumbria_area = {
+	247 8135
+}
+
+lancashire_area = {
+	244 4375
+}
+
+jorvik_area = {
+	245 4367 4785 8133 8134  
 }
 
 ########################################
@@ -3665,8 +3693,6 @@ ad_dahna_area = { }
 
 najd_area = { }
 
-mercia_area = { }
-
 eastern_ireland_area = { }
 
 western_ireland_area = { }
@@ -3706,12 +3732,6 @@ volga_area = { }
 kartli_kakheti_area = { }
 
 netherlands_area = { }
-
-lancashire_area = { }
-
-western_lowlands_area = { }
-
-southern_isles_area = { }
 
 nayarit_area = { }
 
@@ -3789,10 +3809,6 @@ carpathian_ruthenia_area = {
 # lower_danube_area = {
 	# 4706 3164 7154 3165 7759 7765 
 # }
-
-yorkshire_area = {
-	245 4367 4785 8133 8134  
-}
 
 murcia_area = { #Moved for colour change
 	221 4547 8065 8066 8067 8068 8069 
@@ -4117,20 +4133,6 @@ segovia_area = {
 #########################
 ########## 13.0 #########
 #########################
-
-#Britain
-
-deheubarth_area = {
-	241 3034 3036 4369 8143 8144
-}
-
-powys_area = {
-	240 4366 8129 8142
-}
-
-grampians_area = {
-	8152 251 8151 3139 250
-}
 
 #Hungary
 
@@ -4633,8 +4635,6 @@ true_north_atlantic_sea_area = {
 #############################
 
 #Removed by JP for new overhauls
-cornwall_area = { }
-
 oran_area = { }			#Repurposing 1.28's barbary_coast_area into a replacement for this old BT area.
 
 #Removed as part of 11.5's area overhaul
