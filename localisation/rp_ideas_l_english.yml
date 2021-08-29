@@ -1,0 +1,18 @@
+﻿l_english:
+
+ # Note main folder contains all NEW localisations. Entries which replace vanilla content are found in the replace subfolder.
+ #
+ # The file format follows Draiocht's BT format for localization for easier organization and to discern RP content from core BT content
+ # rp_core - contains all core content for RP, including everything not otherwise listed.
+ # (THIS FILE) rp_ideas - contains all national ideas
+ 
+ #################################################################################
+ # National Ideas
+ #################################################################################
+
+ # Jorvik
+ JRV_ideas:0 "Jorviker Ideas"
+ JRV_ideas_start:0 "Jorviker Traditions"
+ JRV_ideas_bonus:0 "Jorviker Ambition"
+ jrv_first:0 "Heirs of the Last Viking"
+ jrv_second:0 "Royal Merchant Navy"
