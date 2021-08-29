@@ -20,6 +20,7 @@ trade_goods = livestock #lots of quarries as well so that could work
 
 #Cores and Occupation (Alphabetical after current)
 add_core = PWS
+add_core = MGS
 
 #Other Political
 hre = no

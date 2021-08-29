@@ -20,6 +20,7 @@ trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
 add_core = GWD
+add_core = PCK
 
 #Other Political
 hre = no
