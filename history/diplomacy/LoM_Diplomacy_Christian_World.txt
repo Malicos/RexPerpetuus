@@ -17,10 +17,50 @@
 ####################################################################
 # 1 - Northern Isles (Albion)
 ####################################################################
-# Union of Anglia and Wales
+# March of Maggenset (Mercia)
 union = {
-	first = ENG
-	second = WLS
+	first = MID
+	second = MGS
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# March of Peckset (Mercia)
+union = {
+	first = MID
+	second = PCK
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# March of Wreakset (Mercia)
+union = {
+	first = MID
+	second = WKS
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Wessex and Cornwall
+vassal = {
+	first = WSX
+	second = CRN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Wessex and Whitch
+vassal = {
+	first = WSX
+	second = WTC
+	start_date = 1362.3.17
+	end_date = 1444.9.22
+}
+
+# Guarantee of Whitch (Wessex)
+guarantee = {
+	first = WSX
+	second = WTC
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
