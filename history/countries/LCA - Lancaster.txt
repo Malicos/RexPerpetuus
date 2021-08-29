@@ -1,9 +1,8 @@
-capital = 244 #Lancashire, Lancaster
-
-technology_group = western
-
 government = monarchy
 add_government_reform = feudalism_reform
-
-religion = catholic
 primary_culture = cumbrian
+religion = catholic
+technology_group = western
+capital = 244	# Lancashire
+fixed_capital = 244 # Cannot move capital away from this province & no power cost to move to it
+government_rank = 1

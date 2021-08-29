@@ -16,7 +16,7 @@ base_tax = 4
 base_production = 3
 trade_goods = cloth
 base_manpower = 2
-capital = "Perth"
+capital = "Scone"
 is_city = yes
 
 discovered_by = western
