@@ -3,6 +3,197 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new groups or ideas, make sure they are unique.
 
+### ENGLAND ###
+
+# Cumbria
+CBI_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = CBI
+	}
+	
+	free = yes	# Will be added at load
+	
+	cbi_first = { }
+	
+	cbi_second = { }
+	
+	cbi_third = { }
+	
+	cbi_fourth = { }
+	
+	cbi_fifth = { }
+	
+	cbi_sixth = { }
+	
+	cbi_seventh = { }
+}
+
+# Cornwall
+CRN_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = CRN
+	}
+	
+	free = yes	# Will be added at load
+	
+	crn_first = { }
+	
+	crn_second = { }
+	
+	crn_third = { }
+	
+	crn_fourth = { }
+	
+	crn_fifth = { }
+	
+	crn_sixth = { }
+	
+	crn_seventh = { }
+}
+
+# Dyfed
+DFD_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = DFD
+	}
+	
+	free = yes	# Will be added at load
+	
+	dfd_first = { }
+	
+	dfd_second = { }
+	
+	dfd_third = { }
+	
+	dfd_fourth = { }
+	
+	dfd_fifth = { }
+	
+	dfd_sixth = { }
+	
+	dfd_seventh = { }
+}
+
+# East Anglia
+EAG_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = EAG
+	}
+	
+	free = yes	# Will be added at load
+	
+	eag_first = { }
+	
+	eag_second = { }
+	
+	eag_third = { }
+	
+	eag_fourth = { }
+	
+	eag_fifth = { }
+	
+	eag_sixth = { }
+	
+	eag_seventh = { }
+}
+
+# Essex
+ESX_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = ESX
+	}
+	
+	free = yes	# Will be added at load
+	
+	esx_first = { }
+	
+	esx_second = { }
+	
+	esx_third = { }
+	
+	esx_fourth = { }
+	
+	esx_fifth = { }
+	
+	esx_sixth = { }
+	
+	esx_seventh = { }
+}
+
+# Gwent
+GWE_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = GWE
+	}
+	
+	free = yes	# Will be added at load
+	
+	gwe_first = { }
+	
+	gwe_second = { }
+	
+	gwe_third = { }
+	
+	gwe_fourth = { }
+	
+	gwe_fifth = { }
+	
+	gwe_sixth = { }
+	
+	gwe_seventh = { }
+}
+
+# Gwynedd
+GWD_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = GWD
+	}
+	
+	free = yes	# Will be added at load
+	
+	gwd_first = { }
+	
+	gwd_second = { }
+	
+	gwd_third = { }
+	
+	gwd_fourth = { }
+	
+	gwd_fifth = { }
+	
+	gwd_sixth = { }
+	
+	gwd_seventh = { }
+}
+
 # Jorvik
 JRV_ideas = {
 	start = { }
@@ -15,9 +206,9 @@ JRV_ideas = {
 	
 	free = yes	# Will be added at load
 	
-	jrv_heirs_of_the_last_viking = { }
+	jrv_first = { }
 	
-	jrv_royal_merchant_navy = { }
+	jrv_second = { }
 	
 	jrv_third = { }
 	
@@ -28,4 +219,328 @@ JRV_ideas = {
 	jrv_sixth = { }
 	
 	jrv_seventh = { }
+}
+
+# Kent
+KEN_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = KEN
+	}
+	
+	free = yes	# Will be added at load
+	
+	ken_first = { }
+	
+	ken_second = { }
+	
+	ken_third = { }
+	
+	ken_fourth = { }
+	
+	ken_fifth = { }
+	
+	ken_sixth = { }
+	
+	ken_seventh = { }
+}
+
+# Lancashire
+LCA_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = LCA
+	}
+	
+	free = yes	# Will be added at load
+	
+	lca_first = { }
+	
+	lca_second = { }
+	
+	lca_third = { }
+	
+	lca_fourth = { }
+	
+	lca_fifth = { }
+	
+	lca_sixth = { }
+	
+	lca_seventh = { }
+}
+
+# Mercia
+MID_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = MID
+	}
+	
+	free = yes	# Will be added at load
+	
+	mid_first = { }
+	
+	mid_second = { }
+	
+	mid_third = { }
+	
+	mid_fourth = { }
+	
+	mid_fifth = { }
+	
+	mid_sixth = { }
+	
+	mid_seventh = { }
+}
+
+# Maggenset
+MGS_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = MGS
+	}
+	
+	free = yes	# Will be added at load
+	
+	mgs_first = { }
+	
+	mgs_second = { }
+	
+	mgs_third = { }
+	
+	mgs_fourth = { }
+	
+	mgs_fifth = { }
+	
+	mgs_sixth = { }
+	
+	mgs_seventh = { }
+}
+
+# Peckset
+PCK_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = PCK
+	}
+	
+	free = yes	# Will be added at load
+	
+	pck_first = { }
+	
+	pck_second = { }
+	
+	pck_third = { }
+	
+	pck_fourth = { }
+	
+	pck_fifth = { }
+	
+	pck_sixth = { }
+	
+	pck_seventh = { }
+}
+
+# Powys
+PWS_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = PWS
+	}
+	
+	free = yes	# Will be added at load
+	
+	pws_first = { }
+	
+	pws_second = { }
+	
+	pws_third = { }
+	
+	pws_fourth = { }
+	
+	pws_fifth = { }
+	
+	pws_sixth = { }
+	
+	pws_seventh = { }
+}
+
+# Alba
+SCO_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = SCO
+	}
+	
+	free = yes	# Will be added at load
+	
+	sco_first = { }
+	
+	sco_second = { }
+	
+	sco_third = { }
+	
+	sco_fourth = { }
+	
+	sco_fifth = { }
+	
+	sco_sixth = { }
+	
+	sco_seventh = { }
+}
+
+# Strathclyde
+STC_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = STC
+	}
+	
+	free = yes	# Will be added at load
+	
+	stc_first = { }
+	
+	stc_second = { }
+	
+	stc_third = { }
+	
+	stc_fourth = { }
+	
+	stc_fifth = { }
+	
+	stc_sixth = { }
+	
+	stc_seventh = { }
+}
+
+# Sussex
+SSX_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = SSX
+	}
+	
+	free = yes	# Will be added at load
+	
+	ssx_first = { }
+	
+	ssx_second = { }
+	
+	ssx_third = { }
+	
+	ssx_fourth = { }
+	
+	ssx_fifth = { }
+	
+	ssx_sixth = { }
+	
+	ssx_seventh = { }
+}
+
+# Wessex
+WSX_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = WSX
+	}
+	
+	free = yes	# Will be added at load
+	
+	wsx_first = { }
+	
+	wsx_second = { }
+	
+	wsx_third = { }
+	
+	wsx_fourth = { }
+	
+	wsx_fifth = { }
+	
+	wsx_sixth = { }
+	
+	wsx_seventh = { }
+}
+
+# Whitch
+WTC_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = WTC
+	}
+	
+	free = yes	# Will be added at load
+	
+	wtc_first = { }
+	
+	wtc_second = { }
+	
+	wtc_third = { }
+	
+	wtc_fourth = { }
+	
+	wtc_fifth = { }
+	
+	wtc_sixth = { }
+	
+	wtc_seventh = { }
+}
+
+# Wreakset
+WKS_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = WKS
+	}
+	
+	free = yes	# Will be added at load
+	
+	wks_first = { }
+	
+	wks_second = { }
+	
+	wks_third = { }
+	
+	wks_fourth = { }
+	
+	wks_fifth = { }
+	
+	wks_sixth = { }
+	
+	wks_seventh = { }
 }
