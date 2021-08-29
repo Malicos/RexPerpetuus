@@ -5,6 +5,7 @@
 owner = STC
 controller = STC
 add_core = STC
+add_core = GWY
 culture = gallgaidheil			#Galwegian Gaelic seems to have lasted longer than Gaelic in other parts of Lowland Scotland
 religion = catholic
 hre = no

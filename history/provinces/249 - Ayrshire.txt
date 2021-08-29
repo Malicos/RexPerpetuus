@@ -9,6 +9,7 @@ latent_trade_goods = {
 owner = STC
 controller = STC
 add_core = STC
+add_core = GWY
 culture = gallgaidheil
 religion = catholic
 hre = no

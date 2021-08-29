@@ -4,5 +4,5 @@ primary_culture = gallgaidheil
 add_accepted_culture = highland_scottish
 religion = catholic
 technology_group = western
-capital = 3019	# Strathclyde
+capital = 3008	# Galloway
 government_rank = 1
