@@ -5,6 +5,7 @@
 owner = PWS
 controller = PWS
 add_core = PWS
+add_core = WKS
 culture = welsh
 religion = catholic
 hre = no

@@ -5,7 +5,7 @@
 owner = LCA
 controller = LCA
 add_core = LCA
-culture = cumbrian_culture
+culture = english
 religion = catholic
 hre = no
 base_tax = 2
