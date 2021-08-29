@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 2
 primary_culture = english
 religion = catholic
 technology_group = western
-capital = 8130 #Staffordshire, containing Tamworth.
+capital = 8126 # Northampton
+government_rank = 2
