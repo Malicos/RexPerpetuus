@@ -18,7 +18,7 @@
 # 1 - Northern Isles (Albion)
 ####################################################################
 # March of Maggenset (Mercia)
-union = {
+march = {
 	first = MID
 	second = MGS
 	start_date = 1444.11.11
@@ -26,7 +26,7 @@ union = {
 }
 
 # March of Peckset (Mercia)
-union = {
+march = {
 	first = MID
 	second = PCK
 	start_date = 1444.11.11
@@ -34,7 +34,7 @@ union = {
 }
 
 # March of Wreakset (Mercia)
-union = {
+march = {
 	first = MID
 	second = WKS
 	start_date = 1444.11.11
