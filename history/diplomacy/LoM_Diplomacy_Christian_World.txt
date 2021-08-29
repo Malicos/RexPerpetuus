@@ -49,9 +49,9 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# Wessex and Whitch
+# Mercia and Whitch
 vassal = {
-	first = WSX
+	first = MID
 	second = WTC
 	start_date = 1362.3.17
 	end_date = 1444.9.22
