@@ -8,16 +8,20 @@ add_core = WSX
 culture = anglo_saxon
 religion = catholic
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 3
+base_tax = 9
+base_production = 8
+base_manpower = 6
 trade_goods = naval_supplies #two major ports, Portsmouth and Southampton, as well as a large harbour protected by islands
-capital = "Winchester" #Keeping at Winchester for now, though it will become Southampton later on. Wiki says 1523 at the latest
+capital = "Winchester" #Ancient capital that has regained significance.
 is_city = yes
  #Salisbury and Winchester Cathedrals
-#fort_15th = yes #Cutting in favour of Windsor castle representation, request by JP.
+fort_15th = yes
 
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+
+extra_cost = 30
+
+center_of_trade = 2	#The most significant city in Southern England, given that London is now in the middle of a frontier.
