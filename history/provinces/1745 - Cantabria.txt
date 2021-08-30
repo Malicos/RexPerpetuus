@@ -2,9 +2,9 @@
 #Region - Iberia
 #Area - Asturias
 
-owner = LON
-controller = LON
-add_core = LON
+owner = STD
+controller = STD
+add_core = STD
 culture = leonese
 religion = catholic
 hre = no

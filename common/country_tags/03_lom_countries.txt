@@ -58,6 +58,7 @@ SOI = "countries/Soissons.txt"
 # Iberia
 BGC = "countries/Braganca.txt"
 EON = "countries/Eonavia.txt"
+STD = "countries/Santander.txt"
 TOM = "countries/TrasOsMontes.txt"
 
 # HRE
