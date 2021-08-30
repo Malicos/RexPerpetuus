@@ -1,0 +1,91 @@
+namespace = rp_abbasids
+normal_or_historical_nations = yes
+
+# End of the Seljuk State
+country_event = {
+	id = rp_abbasids.1
+	title = rp_abbasids.1.t
+	desc = rp_abbasids.1.d
+	picture = RAMADAN_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SJK
+		has_regency = no
+		has_consort_regency = no
+		NOT = {
+			dynasty = "Seljuk"
+		}
+	}
+	
+	# Become a regular tag
+	option = {
+		name = rp_abbasids.1.a
+		ai_chance = { factor = 20 }
+		if = {
+			limit = {
+				any_owned_province = 429
+				NOT = { exists = PER }
+			}
+			change_tag = PER
+			swap_free_idea_group = yes
+			429 = { move_capital_effect = yes }
+			define_ruler = {
+				ADM = 3
+				DIP = 3
+				MIL = 4
+				fixed = yes
+			}
+		}
+		else = {
+			change_tag = IRQ
+			swap_free_idea_group = yes
+			410 = { move_capital_effect = yes }
+			define_ruler = {
+				ADM = 3
+				DIP = 3
+				MIL = 4
+				fixed = yes
+			}
+		}
+	}
+	
+	# The Caliph Takes Power
+	option = {
+		name = rp_abbasids.1.b
+		ai_chance = { factor = 80 }
+		country_event = { id = rp_abbasids.2 }
+	}
+}
+
+# The Caliph Takes Power
+country_event = {
+	id = rp_abbasids.2
+	title = rp_abbasids.2.t
+	desc = rp_abbasids.2.d
+	picture = RAMADAN_eventPicture
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rp_abbasids.2.a
+		change_tag = ABS
+		swap_free_idea_group = yes
+		custom_tooltip = ABS_BAGHDAD
+		hidden_effect = {
+		410 = {
+			move_capital_effect = yes
+		}
+		define_ruler = {
+			name = "Al-Zahir"
+			dynasty = "Abbasid"
+			ADM = 3
+			DIP = 5
+			MIL = 3
+			fixed = yes
+		}
+	}
+}

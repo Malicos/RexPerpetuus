@@ -320,6 +320,8 @@
  WZZ_ADJ:0 "Warzazati"
  
  # Middle East
+ ABS:0 "Abbasids"
+ ABS_ADJ:0 "Abbasid"
  DAY:0 "Daylam"
  DAY_ADJ:0 "Daylamite"
  FJD:0 "Falajids"
