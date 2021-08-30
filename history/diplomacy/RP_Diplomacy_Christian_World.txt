@@ -73,7 +73,8 @@ guarantee = {
 # 3 - Italy, non-HRE
 ####################################################################
 # Autonomous Papal State - Citta di Castello
-papal_subject_bt = {
+dependency = {
+	subject_type = papal_subject_bt
 	first = PAP
 	second = CDC
 	start_date = 1444.11.11
@@ -81,7 +82,8 @@ papal_subject_bt = {
 }
 
 # Autonomous Papal State - Gubbio
-papal_subject_bt = {
+dependency = {
+	subject_type = papal_subject_bt
 	first = PAP
 	second = GUB
 	start_date = 1444.11.11
@@ -89,7 +91,8 @@ papal_subject_bt = {
 }
 
 # Autonomous Papal State - Perugia
-papal_subject_bt = {
+dependency = {
+	subject_type = papal_subject_bt
 	first = PAP
 	second = PGA
 	start_date = 1444.11.11
@@ -97,7 +100,8 @@ papal_subject_bt = {
 }
 
 # Autonomous Papal State - Foligno
-papal_subject_bt = {
+dependency = {
+	subject_type = papal_subject_bt
 	first = PAP
 	second = FLG
 	start_date = 1444.11.11
@@ -105,7 +109,8 @@ papal_subject_bt = {
 }
 
 # Autonomous Papal State - Spoleto
-papal_subject_bt = {
+dependency = {
+	subject_type = papal_subject_bt
 	first = PAP
 	second = SPL
 	start_date = 1444.11.11
@@ -113,7 +118,8 @@ papal_subject_bt = {
 }
 
 # Autonomous Papal State - Sora
-papal_subject_bt = {
+dependency = {
+	subject_type = papal_subject_bt
 	first = PAP
 	second = SRA
 	start_date = 1444.11.11
@@ -121,7 +127,8 @@ papal_subject_bt = {
 }
 
 # Autonomous Papal State - Gaeta
-papal_subject_bt = {
+dependency = {
+	subject_type = papal_subject_bt
 	first = PAP
 	second = GET
 	start_date = 1444.11.11
@@ -175,7 +182,8 @@ march = {
 }
 
 # Bohemia and Lusatia
-fiefdom_bt = {
+vassal = {
+	subject_type = fiefdom_bt
 	first = BOH
 	second = SOR
 	start_date = 1444.11.11
@@ -183,7 +191,8 @@ fiefdom_bt = {
 }
 
 # Bohemia and Misno
-fiefdom_bt = {
+vassal = {
+	subject_type = fiefdom_bt
 	first = BOH
 	second = MSO
 	start_date = 1444.11.11
@@ -225,7 +234,8 @@ vassal = {
 # 7 - Poland
 ####################################################################
 # Poland and Masuria
-fiefdom_bt = {
+vassal = {
+	subject_type = fiefdom_bt
 	first = POL
 	second = MSU
 	start_date = 1444.11.11
@@ -241,7 +251,8 @@ vassal = {
 }
 
 # Poland and Greater Poland
-fiefdom_bt = {
+vassal = {
+	subject_type = fiefdom_bt
 	first = POL
 	second = WPK
 	start_date = 1444.11.11
