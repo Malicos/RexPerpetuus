@@ -15,7 +15,7 @@ base_manpower = 1
 capital = "Carlisle"
 is_city = yes
 
-fort_15th = yes #Carlisle Castle
+fort_15th = yes #Carlisle Castle, slightly different from OTL one.
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

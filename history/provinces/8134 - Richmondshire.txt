@@ -25,7 +25,7 @@ add_core = JRV
 hre = no
 
 #Fort/Other Buildings
-fort_15th = yes #Richmond Castle, Richard III's main residence and a key site in the War of the Roses
+#fort_15th = yes #Richmond Castle, does not get built TTL.
 
 #Special Modifiers
 

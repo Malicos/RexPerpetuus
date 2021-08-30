@@ -14,7 +14,7 @@ trade_goods = grain #Was fish
 base_manpower = 2 
 capital = "Dingwall"
 is_city = yes
-fort_15th = yes #Dingwall castle, supposedly biggest castle north of Stirling.
+fort_15th = yes #Dingwall castle still gets built, supposedly biggest castle north of Stirling.
 
 discovered_by = western
 discovered_by = muslim

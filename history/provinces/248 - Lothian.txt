@@ -8,13 +8,13 @@ add_core = JRV
 culture = anglisk
 religion = catholic
 hre = no
-base_tax = 4
+base_tax = 3
 base_production = 3
 trade_goods = cloth
 base_manpower = 2
-capital = "Edinburgh"
+capital = "Eideann"
 is_city = yes
-#fort_15th = yes
+fort_15th = yes	#Eideann Castle, built by the Norwegians as a frontier outpost.
 
 discovered_by = western
 discovered_by = muslim

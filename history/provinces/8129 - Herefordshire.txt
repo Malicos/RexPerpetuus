@@ -26,7 +26,7 @@ hre = no
 add_local_autonomy = 25
 
 #Fort/Other Buildings
-fort_15th = yes
+fort_15th = yes	#Hereford Castle, frontier outpost of Maggenset.
 
 #Special Modifiers
 

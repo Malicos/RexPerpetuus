@@ -23,7 +23,7 @@ trade_goods = fish
 hre = no
 
 #Fort/Other Buildings
-fort_15th = yes
+#fort_15th = yes #Berwick Castle does not get built TTL.
 
 #Special Modifiers
 add_permanent_province_modifier = {

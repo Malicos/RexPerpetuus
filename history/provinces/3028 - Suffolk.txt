@@ -8,10 +8,10 @@ add_core = EAG
 culture = english
 religion = catholic
 hre = no
-base_tax = 4
+base_tax = 5
 base_production = 3
 trade_goods = grain
-base_manpower = 2 
+base_manpower = 3 
 capital = "Ipswich"
 is_city = yes
 

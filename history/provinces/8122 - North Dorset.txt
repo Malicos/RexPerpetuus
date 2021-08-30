@@ -23,7 +23,6 @@ add_core = CRN
 
 #Other Political
 hre = no
-add_local_autonomy = 25
 
 #Fort/Other Buildings
 

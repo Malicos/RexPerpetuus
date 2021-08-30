@@ -17,7 +17,7 @@ is_city = yes
 #seat_in_parliament = yes #Removed since it doesn't seem it was part of the parliament at the time.
 
 add_local_autonomy = 75
-fort_15th = yes #Lancaster Castle
+fort_15th = yes #Lancaster Castle, slightly different than OTL one.
 
 center_of_trade = 1
 discovered_by = western

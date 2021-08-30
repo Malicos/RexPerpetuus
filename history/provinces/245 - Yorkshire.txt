@@ -14,7 +14,7 @@ trade_goods = cloth #JP suggests grain, but textile industries makes me want to 
 base_manpower = 6
 capital = "Jorvik" #Major centre during Danelaw period, was made capital of England after Norwegian conquest.
 is_city = yes
-fort_15th = yes
+fort_15th = yes	#Royal residence of Hardradas, built shortly after Harald's victory and expanded over centuries.
 
 extra_cost = 30
 center_of_trade = 2

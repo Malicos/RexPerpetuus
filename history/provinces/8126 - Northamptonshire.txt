@@ -13,11 +13,12 @@ culture = english
 religion = catholic
 
 #Development and Trade
-base_tax = 6
-base_production = 4
+base_tax = 7
+base_production = 5
 base_manpower = 4
 trade_goods = wool #Quarries also existed though were exhausted at the end of the 16th century.
-center_of_trade = 1
+extra_cost = 20
+center_of_trade = 1 #Third most significant city in England during Second Heptarchy, but not as much as Jorvik and Winchester.
 
 #Cores and Occupation (Alphabetical after current)
 add_core = MID
@@ -26,7 +27,7 @@ add_core = MID
 hre = no
 
 #Fort/Other Buildings
-fort_15th = yes #Royal residence
+fort_15th = yes #Royal residence of Mercia
 
 #Special Modifiers
 
