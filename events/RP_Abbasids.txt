@@ -25,10 +25,11 @@ country_event = {
 		ai_chance = { factor = 20 }
 		if = {
 			limit = {
-				any_owned_province = 429
+				SJK = { any_owned_province = { province_id = 429 } }
 				NOT = { exists = PER }
 			}
 			change_tag = PER
+			change_primary_culture = persian
 			swap_free_idea_group = yes
 			429 = { move_capital_effect = yes }
 			define_ruler = {
@@ -40,6 +41,8 @@ country_event = {
 		}
 		else = {
 			change_tag = IRQ
+			change_primary_culture = al_iraqiya_arabic
+			add_accepted_culture = turko_iranian
 			swap_free_idea_group = yes
 			410 = { move_capital_effect = yes }
 			define_ruler = {
@@ -73,6 +76,8 @@ country_event = {
 	option = {
 		name = rp_abbasids.2.a
 		change_tag = ABS
+		change_primary_culture = al_iraqiya_arabic
+		add_accepted_culture = turko_iranian
 		swap_free_idea_group = yes
 		custom_tooltip = ABS_BAGHDAD
 		hidden_effect = {
