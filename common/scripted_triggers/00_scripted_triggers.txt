@@ -506,6 +506,7 @@ was_never_end_game_tag_trigger = {	#Country Scope
 	OR = {
 		NOT = { end_game_tags_blocked = yes }
 		AND = {
+			NOT = { was_tag = ABS }		# Rex Perpetuus: Abbasids
 			NOT = { was_tag = BYZ }
 			NOT = { was_tag = HLR }
 			NOT = { was_tag = QNG }
@@ -524,6 +525,7 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { was_tag = MGE }
 			NOT = { was_tag = SYN }
 			NOT = { was_tag = SJK }		# Rex Perpetuus: Seljuks
+			NOT = { tag = ABS }		# Rex Perpetuus: Abbasids
 			NOT = { tag = BYZ }
 			NOT = { tag = HLR }
 			NOT = { tag = QNG }
