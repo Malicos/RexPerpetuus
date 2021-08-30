@@ -4,18 +4,16 @@
  #
  # The file format follows Draiocht's BT format for localization for easier organization and to discern RP content from core BT content
  # rp_core - contains all core content for RP, including everything not otherwise listed.
- # rp_events - contains all localization for Rex Perpetuus events
- # (THIS FILE) rp_ideas - contains all national ideas
+ # (THIS FILE) rp_events - contains all localization for Rex Perpetuus events
+ # rp_ideas - contains all national ideas
  
  #################################################################################
- # Events
+ # National Ideas
  #################################################################################
 
- # Abbasid Events
- rp_abbasids.1.t:0 "End of the Seljuk Dynasty"
- rp_abbasids.1.d:0 "placeholder"
- rp_abbasids.1.a:0 "We shall pursue our own path and elect one of the generals as the new ruler."
- rp_abbasids.1.b:0 "We shall look to the Abbasid Caliph for guidance."
- rp_abbasids.2.t:0 "The Abbasid Caliphate is Restored"
- rp_abbasids.2.d:0 "placeholder"
- rp_abbasids.2.a:0 "placeholder"
+ # Jorvik
+ JRV_ideas:0 "Jorviker Ideas"
+ JRV_ideas_start:0 "Jorviker Traditions"
+ JRV_ideas_bonus:0 "Jorviker Ambition"
+ jrv_first:0 "Heirs of the Last Viking"
+ jrv_second:0 "Royal Merchant Navy"

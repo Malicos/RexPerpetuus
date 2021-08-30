@@ -4,6 +4,7 @@
  #
  # The file format follows Draiocht's BT format for localization for easier organization and to discern RP content from core BT content
  # (THIS FILE) rp_core - contains all core content for RP, including everything not otherwise listed.
+ # rp_events - contains all localization for Rex Perpetuus events
  # rp_ideas - contains all national ideas
  
  # Organisation of this file -
