@@ -367,11 +367,17 @@ country_decisions = {
 		}
 	}
 	
+	# Rex Perpetuus: tweaked for new tags
 	the_khalifah = {
 		potential = {
 			NOT = { has_ruler_modifier = khalifah }
 			religion = sunni
-			NOT = { tag = MAM } #Controls the Caliph already.
+			NOT = { 
+				OR = {
+					tag = ABS #Is the Caliph
+					tag = SJK #Controls the Caliph already
+				}
+			}
 			NOT = { government = republic }
 			ruler_religion = sunni
 		}
