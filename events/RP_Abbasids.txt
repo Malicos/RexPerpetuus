@@ -32,6 +32,14 @@ country_event = {
 			change_primary_culture = persian
 			swap_free_idea_group = yes
 			429 = { move_capital_effect = yes }
+			persia_region = {
+				limit = {
+					NOT = { owned_by = PER }
+					NOT = { is_permanent_claim = PER }
+					NOT = { is_core = PER }
+				}
+				add_permanent_claim = PER
+			}
 		}
 		else = {
 			change_tag = IRQ
@@ -39,6 +47,14 @@ country_event = {
 			add_accepted_culture = turko_iranian
 			swap_free_idea_group = yes
 			410 = { move_capital_effect = yes }
+			mesopotamia_region = {
+				limit = {
+					NOT = { owned_by = IRQ }
+					NOT = { is_permanent_claim = IRQ }
+					NOT = { is_core = IRQ }
+				}
+				add_permanent_claim = IRQ
+			}
 		}
 		define_ruler = {
 			ADM = 3
@@ -75,16 +91,23 @@ country_event = {
 		swap_free_idea_group = yes
 		custom_tooltip = ABS_BAGHDAD
 		hidden_effect = {
-		410 = {
-			move_capital_effect = yes
-		}
-		define_ruler = {
-			name = "Al-Zahir"
-			dynasty = "Abbasid"
-			ADM = 3
-			DIP = 5
-			MIL = 3
-			fixed = yes
+			410 = { move_capital_effect = yes }
+			mesopotamia_region = {
+				limit = {
+					NOT = { owned_by = ABS }
+					NOT = { is_permanent_claim = ABS }
+					NOT = { is_core = ABS }
+				}
+				add_permanent_claim = ABS
+			}
+			define_ruler = {
+				name = "Al-Zahir"
+				dynasty = "Abbasid"
+				ADM = 3
+				DIP = 5
+				MIL = 3
+				fixed = yes
+			}
 		}
 	}
 }
