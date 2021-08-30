@@ -2,9 +2,8 @@
 #Region - Germany
 #Area - Upper Swabia
 
-owner = SWA
-controller = SWA
-add_core = SWA
+owner = MEM
+controller = MEM
 add_core = MEM
 culture = swabian
 religion = catholic

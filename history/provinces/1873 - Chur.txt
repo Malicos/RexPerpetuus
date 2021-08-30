@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Switzerland
 
-owner = SWA
-controller = SWA
-add_core = SWA
+owner = TTL
+controller = TTL
+add_core = TTL
 culture = romanch_culture
 religion = catholic
 capital = "Chur"

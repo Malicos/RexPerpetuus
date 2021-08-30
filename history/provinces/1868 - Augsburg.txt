@@ -2,9 +2,8 @@
 #Region - Germany
 #Area - Upper Swabia
 
-owner = SWA
-controller = SWA
-add_core = SWA
+owner = AUG
+controller = AUG
 add_core = AUG
 culture = swabian
 religion = catholic

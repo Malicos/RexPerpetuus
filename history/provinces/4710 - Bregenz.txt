@@ -2,9 +2,8 @@
 #Region - Germany
 #Area - Tirol
 
-owner = SWA
-controller = SWA
-add_core = SWA
+owner = MBZ
+controller = MBZ
 add_core = MBZ
 culture = swabian
 religion = catholic
