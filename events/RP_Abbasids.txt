@@ -22,7 +22,7 @@ country_event = {
 	# Become a regular tag
 	option = {
 		name = rp_abbasids.1.a
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 25 }
 		if = {
 			limit = {
 				SJK = { any_owned_province = { province_id = 429 } }
@@ -67,7 +67,7 @@ country_event = {
 	# The Caliph Takes Power
 	option = {
 		name = rp_abbasids.1.b
-		ai_chance = { factor = 80 }
+		ai_chance = { factor = 75 }
 		country_event = { id = rp_abbasids.2 }
 	}
 }
