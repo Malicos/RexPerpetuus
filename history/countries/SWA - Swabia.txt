@@ -4,7 +4,7 @@ technology_group = western
 government_rank = 1
 religion = catholic
 primary_culture = swabian
-capital = 70
+capital = 4712	#Constance
 
 #ck3: check inauguration date
 1444.11.11= {
