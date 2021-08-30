@@ -32,12 +32,6 @@ country_event = {
 			change_primary_culture = persian
 			swap_free_idea_group = yes
 			429 = { move_capital_effect = yes }
-			define_ruler = {
-				ADM = 3
-				DIP = 3
-				MIL = 4
-				fixed = yes
-			}
 		}
 		else = {
 			change_tag = IRQ
@@ -45,12 +39,12 @@ country_event = {
 			add_accepted_culture = turko_iranian
 			swap_free_idea_group = yes
 			410 = { move_capital_effect = yes }
-			define_ruler = {
-				ADM = 3
-				DIP = 3
-				MIL = 4
-				fixed = yes
-			}
+		}
+		define_ruler = {
+			ADM = 3
+			DIP = 3
+			MIL = 4
+			fixed = yes
 		}
 	}
 	
