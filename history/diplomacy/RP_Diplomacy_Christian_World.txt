@@ -68,29 +68,6 @@ guarantee = {
 ####################################################################
 # 2 - France
 ####################################################################
-# France and Brittany
-vassal = {
-	first = FRA
-	second = BRI
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# France and Normandy
-vassal = {
-	first = FRA
-	second = NRM
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# France and Flanders
-vassal = {
-	first = FRA
-	second = FLA
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
 
 ####################################################################
 # 3 - Italy, non-HRE
@@ -111,7 +88,7 @@ union = {
 # 4.5 - HRE, German and Bohemian
 ####################################################################
 # Bavaria and Nordgau
-vassal = {
+march = {
 	first = BAV
 	second = NGU
 	start_date = 1444.11.11
@@ -119,7 +96,7 @@ vassal = {
 }
 
 # Bavaria and Ostmark
-vassal = {
+march = {
 	first = BAV
 	second = HAB
 	start_date = 1444.11.11
@@ -127,17 +104,17 @@ vassal = {
 }
 
 # Bohemia and Lusatia
-vassal = {
+fiefdom_bt = {
 	first = BOH
 	second = SOR
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Bohemia and Lower Silesia
-vassal = {
+# Bohemia and Misno
+fiefdom_bt = {
 	first = BOH
-	second = LSL
+	second = MSO
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
@@ -153,14 +130,6 @@ vassal = {
 vassal = {
 	first = SWE
 	second = EST
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Sweden and Pruthenia
-vassal = {
-	first = SWE
-	second = PRU
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
@@ -184,10 +153,26 @@ vassal = {
 ####################################################################
 # 7 - Poland
 ####################################################################
+# Poland and Masuria
+fiefdom_bt = {
+	first = POL
+	second = MSU
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Poland and Upper Silesia
 vassal = {
 	first = POL
 	second = USL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Poland and Greater Poland
+fiefdom_bt = {
+	first = POL
+	second = WPK
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
