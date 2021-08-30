@@ -72,6 +72,77 @@ guarantee = {
 ####################################################################
 # 3 - Italy, non-HRE
 ####################################################################
+# Autonomous Papal State - Citta di Castello
+papal_subject_bt = {
+	first = PAP
+	second = CDC
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Autonomous Papal State - Gubbio
+papal_subject_bt = {
+	first = PAP
+	second = GUB
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Autonomous Papal State - Perugia
+papal_subject_bt = {
+	first = PAP
+	second = PGA
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Autonomous Papal State - Foligno
+papal_subject_bt = {
+	first = PAP
+	second = FLG
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Autonomous Papal State - Spoleto
+papal_subject_bt = {
+	first = PAP
+	second = SPL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Autonomous Papal State - Sora
+papal_subject_bt = {
+	first = PAP
+	second = SRA
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Autonomous Papal State - Gaeta
+papal_subject_bt = {
+	first = PAP
+	second = GET
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Papal Guarantee - Camerino
+vassal = {
+	first = PAP
+	second = CMR
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Papal Vassal - Sovana
+vassal = {
+	first = PAP
+	second = SVN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
 
 ####################################################################
 # 4 - HRE, Italy and Croatia
