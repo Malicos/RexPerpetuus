@@ -140,6 +140,33 @@ ESX_ideas = {
 	esx_seventh = { }
 }
 
+# Galloway
+GWY_ideas = {
+	start = { }
+	
+	bonus = { }
+	
+	trigger = {
+		tag = GWY
+	}
+	
+	free = yes	# Will be added at load
+	
+	gwy_first = { }
+	
+	gwy_second = { }
+	
+	gwy_third = { }
+	
+	gwy_fourth = { }
+	
+	gwy_fifth = { }
+	
+	gwy_sixth = { }
+	
+	gwy_seventh = { }
+}
+
 # Gwent
 GWE_ideas = {
 	start = { }
