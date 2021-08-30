@@ -5,8 +5,8 @@
 owner = PIS
 controller = PIS
 add_core = PIS
-culture = maltese 
-religion = catholic 
+culture = siquli_culture
+religion = sunni
 hre = no 
 base_tax = 4
 base_production = 4
