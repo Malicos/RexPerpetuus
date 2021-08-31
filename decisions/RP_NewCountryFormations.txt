@@ -41,7 +41,6 @@ country_decisions = {
 			num_of_owned_provinces_with = {
 				is_core = ROOT
 				OR = {
-					area = baleares_area
 					area = catalonia_area
 					area = guyenne_area
 					area = languedoc_area
@@ -52,7 +51,7 @@ country_decisions = {
 					area = upper_guyenne_area
 					area = west_languedoc_area
 				}
-				value = 34			#At least 2/3 of Occitania's 46 provinces (excluding Arles)
+				value = 34			#At least 2/3 of Occitania's 46 provinces (excluding Arles)	value not final
 			}
 			total_development = 100			#Normal requirement for rank 2 is 500 dev, so this is 80 percent discounted.
 			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
@@ -70,13 +69,6 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 25
-			baleares_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = OCC
-			}
 			catalonia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
@@ -139,6 +131,13 @@ country_decisions = {
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = OCC
+			}
+			baleares_area = {
+				limit = {
+					NOT = { is_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_claim = OCC
 			}
 			dauphine_area = {
 				limit = {
