@@ -2214,17 +2214,27 @@ occitanic = { #Names taken from Occitan Renaissance, by Perry
 			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
 			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
 			"de Cabrera" "de Villena"
+			##Gunnvor silfrahár, Inhabitants of Peniscola, Valencia, 1549. Extra variety for making custom Catalan nations.
+			"Albarado" "Albiol" "Amargós" "Anglès" "Anguera" "Arbonès" "Arenós" "Argentat" "Avellà" "Aysa" "Baldoví" "Bayarri" "Blanca" "Boix" "Calderó" "Carbonel" "Castelar"
+			"Castelló" "Ciach" "Civilla" "Cols" "Comes" "Coscolano" "de la Mijana" "de Mena" "del Rio" "Elies" "Erman" "Esbri" "Espareguera" "Fabregat" "Ferriols" "Fita"
+			"Forcadell" "Fransesch" "Freixens" "Fresquet" "Garsiet" "Giner" "Gironi" "Gisbert" "Gonbau" "Lopis" "Manero" "de Ortís" "Martí" "Mascaró" "Matamoros" "Mirales"
+			"Miralles" "Monfort" "Montoliu" "Mundó" "Nicholau" "Ninou" "Ortís" "Ortisa" "Palas" "Paris" "Planella" "Pomar" "Puig" "Raedor" "Reboleda" "Salvador" "Samella"
+			"Sans" "Saragosa" "Saura" "Saurina" "Sebastià" "Segarra" "Serra" "Serrada" "Serrat" "Simó" "Vals" "Vidal" "Vidiella"
 		}
 		male_names = {
 			Aaró Aaron Abelard Abraham Absaló Abundi Adalbert Adam Adrià Alaric Albà Albí Aleix Àlvar Àngel Antoni Arnau 
-			Artur Blai Carles Cecili Conrad Dari Dionís Emili Enric Felip Ferran Francés Francesc Fructuós Germà 
-			Gonçal Guillem Guiu Ignasi Israel Joan Jordi Josep Josep Maria Lleó Lluc Lluís Macedoni Màrius Martí Miquel 
-			Octavi Òscar Pau Pere Pol Pompeu Pròsper Prudenci Prudencià Quirze Rafael Ramir Raül Reginald Ricard Robert Roc 
+			Artur Blai Carles Cecili Conrad Dari Dionís Emili Felip Ferran Francés Francesc Fructuós Germà 
+			Gonçal Guillem Guiu Ignasi Israel Jordi Josep Josep Maria Lleó Lluc Lluís Macedoni Màrius Martí Miquel 
+			Octavi Òscar Pere Pol Pompeu Pròsper Prudenci Prudencià Quirze Rafael Ramir Raül Reginald Ricard Robert Roc 
 			Rubèn Sergi Simó Teodor Tomàs Vicenç Vicent Xavier
+			##New BT--Perry
+			Benet Climent Eimeric Fabià Gregori Jordà
 		}
 		female_names = {
-			Àgata Àgueda Aina Anna Antònia Caterina Cecília Cristina Dolors Francesca Genoveva Isabel Joana Justina Laia 
-			Montserrat Núria Octàvia Prudència Roberta Rodolfa
+			Àgata Àgueda Aina Antònia Caterina Cecília Cristina Dolors Francesca Genoveva Isabel Justina Laia 
+			Montserrat Núria Prudència Roberta Rodolfa
+			##New BT--Perry
+			Carlota Coloma Dolça Elionor Llorença Teresa
 		}
 	}
 	dynasty_names = { #Effectively this is for realms/cities/dynasties common to all THREE languages:Occitan, Aragonese, Catalan. So pretty much always 'de X'.
