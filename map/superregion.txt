@@ -42,7 +42,7 @@ europe_superregion = {
 	north_german_region
 	scandinavia_region
 	low_countries_region
-	ireland_area
+	ireland_region
 }
 
 eastern_europe_superregion = {
