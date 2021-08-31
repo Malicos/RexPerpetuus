@@ -1,0 +1,169 @@
+country_decisions = {
+
+#################################################################################################
+################################		Occitania			 ##############################################
+###################################################################################################
+	occitan_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = rp_formed_occitania_flag }
+			NOT = { tag = FRA }
+			NOT = { tag = BUR }
+			culture_group = occitanic
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = baleares_area
+				area = catalonia_area
+				area = guyenne_area
+				area = languedoc_area
+				area = limousin_area
+				area = massif_central_area
+				area = pyrenees_area
+				area = upper_gascony
+				area = upper_guyenne_area
+				area = west_languedoc_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = OCC }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 196 # Toulouse
+			owns_core_province = 174 # Bordeaux
+			owns_core_province = 199 # Auvergne
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				OR = {
+					area = baleares_area
+					area = catalonia_area
+					area = guyenne_area
+					area = languedoc_area
+					area = limousin_area
+					area = massif_central_area
+					area = pyrenees_area
+					area = upper_gascony
+					area = upper_guyenne_area
+					area = west_languedoc_area
+				}
+				value = 34			#At least 2/3 of Occitania's 46 provinces (excluding Arles)
+			}
+			total_development = 100			#Normal requirement for rank 2 is 500 dev, so this is 80 percent discounted.
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+		}
+		effect = {
+			change_tag = OCC
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 7300
+			}
+			add_prestige = 25
+			baleares_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			catalonia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			guyenne_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			languedoc_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			limousin_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			massif_central_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			pyrenees_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			upper_gascony = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			upper_guyenne_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			west_languedoc_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			dauphine_area = {
+				limit = {
+					NOT = { is_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_claim = OCC
+			}
+			provence_area = {
+				limit = {
+					NOT = { is_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_claim = OCC
+			}
+			if = {
+				limit = {
+					NOT = { has_idea_group = OCC_ideas }
+				}
+				swap_ideas = yes
+			}
+			set_country_flag = rp_formed_occitania_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}

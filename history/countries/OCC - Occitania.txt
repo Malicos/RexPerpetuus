@@ -1,0 +1,26 @@
+government = monarchy
+add_government_reform = feudalism_reform
+mercantilism = 10 #TR value; less than half of Venice or England.
+government_rank = 2
+primary_culture = occitain
+#add_accepted_culture = poitevin_culture
+add_accepted_culture = arpitan
+religion = catholic
+technology_group = western
+capital = 196 #Toulouse
+historical_rival = FRA #France - wars, destruction of Oc culture, Albigensian Crusade.
+historical_friend = APT #Arpitania - Another mod cultural nation formed of lands subjugated by the French.
+#historical_friend = ARA #Maybe? They have competing territorial ambitions.
+historical_friend = PCA #Catalans - Natural ally.
+#Albigensian Crusade - Defenders: Aragon, England, Toulouse, Foix, Albi, Comminges, Bearn, Astarac, MARQUISATE of Provence.
+#Albigensian Crusade - Attackers: France, Papal States, Austria, Burgundy, Nevers, Brittany, Turenne, Orange, COUNTY of Provence.
+
+1515.1.1 = { government = monarchy
+add_government_reform = autocracy_reform }
+
+1560.1.1 = { religion = reformed }
+
+#1589.8.3 = { set_legacy_government = administrative_monarchy }
+
+1661.3.9 = { government = monarchy
+add_government_reform = autocracy_reform }

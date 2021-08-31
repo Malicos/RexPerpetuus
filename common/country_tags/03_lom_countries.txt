@@ -52,6 +52,7 @@ GUI = "countries/Guise.txt"
 HPX = "countries/Hurepoix.txt"
 LDC = "countries/Languedoc.txt"
 LMC = "countries/LaMarche.txt"
+OCC = "countries/Occitania.txt"		# Formable
 RTH = "countries/Rethel.txt"
 SOI = "countries/Soissons.txt"
 
