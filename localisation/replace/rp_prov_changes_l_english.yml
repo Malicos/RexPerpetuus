@@ -3,5 +3,5 @@
  # When adding an entry here, do not forget to comment any changes found in other files in replace directory to avoid clashing.
 
  # RP Province Changes
- PROV250:0 "Scone"
- PROV8130:0 "Tamworth"
+ PROV250:0 "Scone"  #Formerly Perth
+ PROV8130:0 "Tamworth"  #Formerly Stafford
