@@ -94,6 +94,9 @@ TCH = "countries/Techolo.txt"
 TSO = "countries/Truso.txt"
 VIL = "countries/Vilna.txt"
 
+# Hungary
+BNT = "countries/Banat.txt"
+
 # East Europe
 BOL = "countries/Bolghar.txt"
 BJA = "countries/Bjarmia.txt"

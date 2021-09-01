@@ -271,7 +271,16 @@ vassal = {
 ####################################################################
 # 10 - Hungary
 ####################################################################
-# Hungary and Ardeal
+# Hungary and Banat
+vassal = {
+	subject_type = fiefdom_bt
+	first = HUN
+	second = BNT
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Hungary and Transylvania
 vassal = {
 	subject_type = fiefdom_bt
 	first = HUN
