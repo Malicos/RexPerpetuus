@@ -3,7 +3,7 @@
 #Region - Britain
 
 #Core Details
-capital = "Richmond"
+capital = "Whitby"
 is_city = yes
 owner = JRV
 controller = JRV
