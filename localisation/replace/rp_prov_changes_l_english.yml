@@ -3,6 +3,50 @@
  # When adding an entry here, do not forget to comment any changes found in other files in replace directory to avoid clashing.
 
  # RP Province Changes
- PROV250:0 "Scone"  #Formerly Perth
+ PROV43:0 "Gdańsk"      #Polonized - Formerly Danzig
+ PROV47:0 "Strzalow"    #Polonized - Formerly Stralsund
+ PROV48:0 "Budzistowo"      #Polonized - Formerly Kolberg
+ PROV49:0 "Kostrzyn"    #Polonized - Formerly Neumark
+ PROV51:0 "Rypin"       #Polonized - Formerly Ruppin
+ PROV60:0 "Budysyn"     #Sorbized - Formerly Bautzen
+ PROV61:0 "Misno"       #Sorbized - Formerly Meissen
+ PROV62:0 "Lipsk"       #Sorbized - Formerly Leipzig
+ PROV250:0 "Scone"      #Formerly Perth
+ PROV1759:0 "Jutribok"  #Old Polabian Slavic settlement, formerly Potsdam
+ PROV1763:0 "Chociebuz" #Sorbized - Formerly Niederlausitz
+ PROV1841:0 "Truso"     #Formerly Marienburg
+ PROV1858:0 "Sadzin"     #Old Polish - Formerly Stettin
+ PROV2965:0 "Plawno"    #Sorbized - Formerly Vogtland
+ PROV2969:0 "Torzym"    #Polonized - Formerly Sternberg
+ PROV2993:0 "Przeslaw"  #Polonized - Formerly Uckermark
+ PROV2994:0 "Wologoszcz"    #Polonized - Formerly Wolgast
+ PROV2995:0 "Slupsk"    #Polonized - Formerly Stolp
+ PROV2997:0 "Tuchola"   #Polonized - Formerly Tuchel
+ PROV4744:0 "Swikawa"   #Sorbized - Formerly Zwickau
+ PROV4746:0 "Starogard" #Old Polish - Formerly Stargard
+ PROV4745:0 "Rana"      #Old Slavic name for Rugen
+ PROV4747:0 "Drawsko"   #Polonized - Formerly Dramburg
+ PROV4748:0 "Branibor"  #Polonized - Old Polabian Slavic settlement, formerly Brandenburg
+ PROV4749:0 "Retra"     #Polonized - Old Polabian Slavic settlement, formerly Stargard
+ PROV4778:0 "Zhorjelc"  #Sorbized - Formerly Gorlitz
+ PROV7813:0 "Guszczerowo"   #Polonized - Formerly Gustrow
+ PROV7815:0 "Trzebiatow"    #Polonized - Formerly Treptow
+ PROV7816:0 "Orzna"    #Old Polish - Formerly Usedom
+ PROV7817:0 "Posduwolc"    #Old Polish - Formerly Locknitz
+ PROV7818:0 "Kamień"    #Polonized - Formerly Kammin
+ PROV7819:0 "Perzyce"    #Polonized - Formerly Pyritz
+ PROV7821:0 "Santok"     #Polonized - Formerly Zantoch
+ PROV7823:0 "Bialogard"     #Polonized - Formerly Belgard
+ PROV7824:0 "Slowno"     #Polonized - Formerly Schlawe
+ PROV7825:0 "Lebork"    #Polonized - Formerly Lauenburg
+ PROV7826:0 "Bytow"     #Polonized - Formerly Bütow
+ PROV7827:0 "Czluchowo"     #Polonized - Formerly Schlochau
+ PROV7828:0 "Puck"      #Polonized - Formerly Putzig
+ PROV7842:0 "Gryfia"    #Polonized - Formerly Griefswald
  PROV8130:0 "Tamworth"  #Formerly Stafford
- PROV8134:0 "Whitby"  #Formerly Richmond
+ PROV8134:0 "Whitby"    #Formerly Richmond
+ PROV8262:0 "Lubań"     #Sorbized - Formerly Lauban
+ PROV8263:0 "Brody"     #Sorbized - Formerly Pforten
+ PROV8264:0 "Kalawa"    #Polonized - Formerly Calau
+ PROV8265:0 "Gubin"     #Polonized - Formerly Guben
+ PROV8266:0 "Lubusz"    #Polonized - Formerly Lebus

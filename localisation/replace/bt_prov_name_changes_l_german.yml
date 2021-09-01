@@ -149,7 +149,7 @@
  PROV1761:0 "Pfalz"
  PROV1762:0 "Kassel"
  PROV1763:0 "Niederlausitz"
- PROV1841:0 "Marienburg"
+ #PROV1841:0 "Marienburg"
  PROV1857:0 "Lauenburg"
  PROV1874:0 "Bremen"
  PROV1876:0 "Frankfurt"
