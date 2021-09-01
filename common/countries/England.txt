@@ -1181,7 +1181,6 @@ monarch_names = {
     "Yenbald #0" = 0
     "Yenbert #0" = 0
     "Yenred #0" = 0
-
 	
 	# RANDOM NAMES - FEMALE
     "Mary #0" = -20
@@ -1398,8 +1397,6 @@ monarch_names = {
     "Yardley #0" =-1
     "Yenbury #0" =-1
     "Yenthrith #0" =-1
-
-
 }
 
 leader_names = {
