@@ -87,11 +87,7 @@
  africa:0 "Ethiopia"
  north_america:0 "Vesperia"
  south_america:0 "Elysia"
- 
- # Provinces
- PROV250:0 "Scone"
- PROV8130:0 "Tamworth"
- 
+
  # Areas
  northern_england_area:0 "Bernicia"
  northern_england_area_name:0 "Bernicia"
