@@ -5,8 +5,8 @@
 #Core Details
 capital = "Fogaras"
 is_city = yes
-owner =  HUN
-controller = HUN
+owner = TRA
+controller = TRA
 
 #Demographics
 culture = romanian
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = HUN
 add_core = TRA
 
 #Other Political
