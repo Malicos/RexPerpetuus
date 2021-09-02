@@ -5,3 +5,16 @@ religion = catholic
 technology_group = western
 capital = 3028	# Suffolk
 government_rank = 2
+
+1441.3.1 = {
+	monarch = {
+		name = "Ainrich"
+		dynasty = "Andenes"
+		adm = 3
+		dip = 2
+		mil = 3
+		birth_date = 1425.10.2
+		religion = catholic
+		culture = english
+	}
+}

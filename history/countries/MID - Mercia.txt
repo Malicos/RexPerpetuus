@@ -19,7 +19,7 @@ government_rank = 2
 	}
 }
 
-1426.9.1 = {
+1426.9.2 = {
 	heir = {
 		name = "Georg"
 		monarch_name = "Georg"
