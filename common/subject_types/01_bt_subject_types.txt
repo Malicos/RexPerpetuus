@@ -311,8 +311,8 @@ fiefdom_bt = {
 		modifier = vassal_subject
 	}
 
-	overlord_opinion_modifier = is_vassal
-	subject_opinion_modifier = is_vassal
+	overlord_opinion_modifier = is_fief
+	subject_opinion_modifier = is_fief
 }
 
 hanseatic_league_member_bt = {
