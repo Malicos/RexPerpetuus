@@ -1,8 +1,8 @@
-#Lower Hungary
+#Banat
 
 graphical_culture = easterngfx
 
-color = { 119 13 147 }
+color = { 47 84 47 }
 
 preferred_religion = catholic
 

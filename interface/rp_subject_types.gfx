@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_fief"
+		texturefile = "gfx/interface/icon_fief.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_leadfief"
+		texturefile = "gfx/interface/lead_fief.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_amfief"
+		texturefile = "gfx/interface/is_fief.dds"
+	}
+}
