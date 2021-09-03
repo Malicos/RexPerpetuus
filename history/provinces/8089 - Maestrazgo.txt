@@ -3,7 +3,7 @@
 owner = VAL
 controller = VAL
 add_core = VAL
-culture = balansi_culture
+culture = ibri_culture
 religion = sunni
 capital = "Peñíscola"
 base_tax = 1

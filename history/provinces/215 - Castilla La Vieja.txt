@@ -5,8 +5,8 @@
 owner = LON
 controller = LON
 add_core = LON
-culture = ibri_culture
-religion = sunni
+culture = leonese
+religion = catholic
 hre = no
 base_tax = 7
 base_production = 7

@@ -5,7 +5,7 @@
 owner = ESX
 controller = ESX
 add_core = ESX
-culture = anglo_saxon
+culture = sexish_culture
 religion = catholic
 hre = no
 base_tax = 4

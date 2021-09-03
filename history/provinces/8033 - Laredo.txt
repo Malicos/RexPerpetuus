@@ -3,7 +3,7 @@
 owner = CAS
 controller = CAS
 add_core = CAS
-culture = leonese
+culture = castillian
 religion = catholic
 capital = "Laredo"
 base_tax = 2

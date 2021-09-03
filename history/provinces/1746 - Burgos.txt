@@ -5,7 +5,7 @@
 owner = CAS
 controller = CAS
 add_core = CAS
-culture = leonese
+culture = castillian
 religion = catholic
 hre = no
 base_tax = 6

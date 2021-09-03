@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = anglo_saxon
+primary_culture = sexish_culture
 religion = catholic
 technology_group = western
 capital = 238 # Chelmsford, London is too indefensible because it sits right at the border.

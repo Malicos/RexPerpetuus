@@ -9,7 +9,7 @@ owner = WSX
 controller = WSX
 
 #Demographics
-culture = anglo_saxon
+culture = sexish_culture
 religion = catholic
 
 #Development and Trade

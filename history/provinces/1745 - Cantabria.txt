@@ -5,7 +5,7 @@
 owner = STD
 controller = STD
 add_core = STD
-culture = leonese
+culture = castillian
 religion = catholic
 hre = no
 base_tax = 2

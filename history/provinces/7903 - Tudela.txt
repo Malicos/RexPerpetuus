@@ -3,8 +3,8 @@
 owner = NAV
 controller = NAV
 add_core = NAV
-culture = basque
-religion = catholic
+culture = ibri_culture
+religion = sunni
 capital = "Tudela"
 base_tax = 2
 base_production = 2

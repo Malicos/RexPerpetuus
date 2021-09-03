@@ -5,8 +5,8 @@
 owner = BGC
 controller = BGC
 add_core = BGC
-culture = andalusi_culture
-religion = sunni
+culture = galician
+religion = catholic
 capital = "Bragança"
 trade_goods = bt_trade_good_fruit
 hre = no

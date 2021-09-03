@@ -3,8 +3,8 @@
 owner = LON
 controller = LON
 add_core = LON
-culture = ibri_culture
-religion = sunni
+culture = leonese
+religion = catholic
 capital = "Benavente"
 base_tax = 1
 base_production = 2

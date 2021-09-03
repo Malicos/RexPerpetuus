@@ -5,8 +5,8 @@
 owner = CAS
 controller = CAS
 add_core = CAS
-culture = andalusi_culture
-religion = sunni
+culture = castillian
+religion = catholic
 hre = no
 base_tax = 2 
 base_production = 3 
