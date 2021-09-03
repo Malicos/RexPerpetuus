@@ -8,6 +8,7 @@ latent_trade_goods = {
 owner = WKS
 controller = WKS
 add_core = WKS
+add_core = PWS
 culture = welsh
 religion = catholic
 hre = no

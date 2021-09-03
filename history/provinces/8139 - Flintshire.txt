@@ -21,6 +21,7 @@ latent_trade_goods = { coal }
 
 #Cores and Occupation (Alphabetical after current)
 add_core = PCK
+add_core = GWD
 
 #Other Political
 hre = no
