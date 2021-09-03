@@ -5,8 +5,8 @@
 owner = POR
 controller = POR
 add_core = POR
-culture = andalusi_culture
-religion = sunni
+culture = galician
+religion = catholic
 capital = "Braga"
 trade_goods = wine
 hre = no

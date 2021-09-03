@@ -5,7 +5,7 @@
 owner = WSX
 controller = WSX
 add_core = WSX
-culture = anglo_saxon
+culture = sexish_culture
 religion = catholic
 hre = no
 base_tax = 9

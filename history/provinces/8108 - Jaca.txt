@@ -3,7 +3,7 @@
 owner = VAL
 controller = VAL
 add_core = VAL
-culture = andalusi_culture
+culture = ibri_culture
 religion = sunni
 capital = "Jaca"
 base_tax = 1

@@ -5,8 +5,8 @@
 owner = MJO
 controller = MJO
 add_core = MJO
-culture = balansi_culture
-religion = sunni
+culture = catalan
+religion = catholic
 hre = no
 base_tax = 1 
 base_production = 1 

@@ -3,8 +3,8 @@
 owner = POR
 controller = POR
 add_core = POR
-culture = andalusi_culture
-religion = sunni
+culture = galician
+religion = catholic
 capital = "Viana"
 base_tax = 3
 base_production = 3

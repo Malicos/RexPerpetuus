@@ -3,8 +3,8 @@
 owner = TOM
 controller = TOM
 add_core = TOM
-culture = andalusi_culture
-religion = sunni
+culture = galician
+religion = catholic
 capital = "Moncorvo"
 base_tax = 1
 base_production = 2

@@ -5,7 +5,7 @@
 owner = SSX
 controller = SSX
 add_core = SSX
-culture = anglo_saxon
+culture = sexish_culture
 religion = catholic
 hre = no
 base_tax = 4

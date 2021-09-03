@@ -3,8 +3,8 @@
 owner = LON
 controller = LON
 add_core = LON
-culture = andalusi_culture
-religion = sunni
+culture = leonese
+religion = catholic
 capital = "Miranda"
 base_tax = 2
 base_production = 2

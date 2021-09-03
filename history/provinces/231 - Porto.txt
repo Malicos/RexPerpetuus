@@ -5,8 +5,8 @@
 owner = POR
 controller = POR
 add_core = POR
-culture = andalusi_culture
-religion = sunni
+culture = galician
+religion = catholic
 capital = "Porto"
 trade_goods = naval_supplies
 hre = no
