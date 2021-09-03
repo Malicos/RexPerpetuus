@@ -5,3 +5,16 @@ religion = catholic
 technology_group = western
 capital = 234 # Winchester
 government_rank = 2
+
+1413.5.8 = {
+	monarch = {
+		name = "Bard"
+		dynasty = "of Salisbury"
+		adm = 1
+		dip = 1
+		mil = 5
+		birth_date = 1407.5.18
+		religion = catholic
+		culture = sexish_culture
+	}
+}

@@ -5,3 +5,16 @@ religion = catholic
 technology_group = western
 capital = 235 # Kent
 government_rank = 2
+
+1418.2.2 = {
+	monarch = {
+		name = "Thorfrith"
+		dynasty = "of Dover"
+		adm = 2
+		dip = 5
+		mil = 3
+		birth_date = 1392.7.25
+		religion = catholic
+		culture = sexish_culture
+	}
+}
