@@ -6,3 +6,16 @@ technology_group = western
 capital = 233 # Exeter
 fixed_capital = 233 # Cannot move capital away from this province & no power cost to move to it
 government_rank = 1
+
+1399.10.30 = {
+	monarch = {
+		name = "Cadoc III"
+		dynasty = "Carlisle"
+		adm = 4
+		dip = 3
+		mil = 6
+		birth_date = 1384.9.17
+		religion = catholic
+		culture = welsh
+	}
+}
