@@ -3,8 +3,8 @@
 owner = PEC
 controller = PEC
 add_core = PEC
-culture = crimean
-religion = sunni
+culture = pechenegian_culture
+religion = orthodox
 capital = "Aleksandrovka"			#Nothing here 'til the late 18th century... so.... getting creative. Modern Donetsk
 base_tax = 1
 base_production = 1

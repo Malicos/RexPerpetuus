@@ -3,7 +3,7 @@
 owner = CUM
 controller = CUM
 add_core = CUM
-culture = crimean
+culture = cuman
 religion = sunni
 capital = "Semikarakor"
 trade_goods = wool

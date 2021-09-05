@@ -73,6 +73,8 @@
  griko:0 "Kalabrian"
  ###West Slavic
  schlesian:0 "Silesian"
+ ###Armenian
+ armenian:0 "Vaspurakani"
 
  # Religions
  hussite:0 "Patarene"

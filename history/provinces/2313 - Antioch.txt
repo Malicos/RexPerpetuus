@@ -3,7 +3,7 @@
 owner = SYR
 controller = SYR
 add_core = SYR
-culture = turkish
+culture = syriac_culture
 religion = sunni
 capital = "Antiokia"			#Was once one of the greatest cities in the world, circa the late Roman period
 trade_goods = cloth			#But hundreds of years of warfare weakened it -it is right on the border of most large empires for the 1000 years leading

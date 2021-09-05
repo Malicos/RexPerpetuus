@@ -3,8 +3,8 @@
 owner = SJK
 controller = SJK
 add_core = SJK
-culture = armenian			#Coptic Armenian or Orthodox Syriac both good choices. Unless I'm missing something, though, sunni kurdish from vanilla is not
-religion = coptic
+culture = arevmdian			#Coptic Armenian or Orthodox Syriac both good choices. Unless I'm missing something, though, sunni kurdish from vanilla is not
+religion = apostolic
 capital = "Diyar Bekir"
 trade_goods = copper			#abundant resources of copper around the city.
 hre = no

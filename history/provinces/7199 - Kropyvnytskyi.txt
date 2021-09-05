@@ -3,8 +3,8 @@
 owner = PEC
 controller = PEC
 add_core = PEC
-culture = crimean			#Note, again, might actually be romanian orthodox
-religion = sunni
+culture = pechenegian_culture
+religion = orthodox
 capital = "Olviopol"			#Insignificant village probably founded in the 16th or maybe late 15th century, but nothing better is showing up easily
 base_tax = 1
 base_production = 1

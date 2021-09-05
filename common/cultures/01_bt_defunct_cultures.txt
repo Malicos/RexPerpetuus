@@ -2,8 +2,6 @@
 
 defunct_cultures = {
 	graphical_culture = easterngfx
-	
-	transylvanian = { }		#Replaced for reasons, which are escaping me at the moment.... I think vanilla added a replacement at some point. Was in Dacian group.
 	khaliji_arabic = { }	#replaced by vanilla 1.23's 'gulf_arabic'
 	hejazi_arabic = { }	#replaced by vanilla 1.23's 'hejazi_culture'
 	mehri_culture = { }	#replaced by vanilla 1.23's 'mahri_culture', with an 'a'

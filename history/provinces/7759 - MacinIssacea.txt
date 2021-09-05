@@ -3,7 +3,7 @@
 owner = PAI
 controller = PAI
 add_core = PAI
-culture = romanian		
+culture = moldavian_culture		
 religion = orthodox
 capital = "Isaccea"
 base_tax = 3

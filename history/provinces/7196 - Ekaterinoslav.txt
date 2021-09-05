@@ -3,8 +3,8 @@
 owner = PEC
 controller = PEC
 add_core = PEC
-culture = crimean			#Note, again, might actually be romanian orthodox
-religion = sunni
+culture = pechenegian_culture
+religion = orthodox
 capital = "Ekaterinoslav"			#Error, name from 1776, named after Catherine the Great, 1729 to 1796, and city founded mid 1500s, but no better options showing up quickly
 base_tax = 1
 base_production = 1

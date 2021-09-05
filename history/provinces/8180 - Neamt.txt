@@ -9,7 +9,7 @@ owner = PEC
 controller = PEC
 
 #Demographics
-culture = romanian
+culture = moldavian_culture
 religion = orthodox
 
 #Development and Trade

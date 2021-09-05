@@ -3,7 +3,7 @@
 owner = PAI
 controller = PAI
 add_core = PAI
-culture = romanian		#Unclear if Bulgarian or Romanian majority.
+culture = moldavian_culture		#Unclear if Bulgarian or Romanian majority.
 religion = orthodox
 capital = "Tulcea"
 trade_goods = fish

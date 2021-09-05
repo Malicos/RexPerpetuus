@@ -128,6 +128,7 @@ color = { 25 45 115 } #East Slavic Group
 color = { 120 70 100 } #Baltic Group
 color = { 100 0 60 } #Hellenic Group
 color = { 170 75 50 } #Caucasian Group
+color = { 160 35 0 } #Armenian Group
 color = { 20 130 0 } #Arabian Group
 color = { 90 185 95 } #Muwalladi Group
 color = { 160 25 0 } #Maghrebi Group

@@ -3,7 +3,7 @@
 owner = PEC
 controller = PEC
 add_core = PEC
-culture = romanian
+culture = moldavian_culture
 religion = orthodox
 capital = "Focshani"
 base_tax = 2

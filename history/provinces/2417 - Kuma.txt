@@ -3,7 +3,7 @@
 owner = CUM
 controller = CUM
 add_core = CUM
-culture = astrakhani
+culture = cuman
 religion = sunni
 hre = no
 base_tax = 4  
