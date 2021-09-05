@@ -3,8 +3,8 @@
 owner = ARM
 controller = ARM
 add_core = ARM
-culture = armenian
-religion = coptic
+culture = arevmdian
+religion = apostolic
 capital = "Divrigi"
 trade_goods = iron			#large deposits of iron ore which are worked at Divrigi
 hre = no

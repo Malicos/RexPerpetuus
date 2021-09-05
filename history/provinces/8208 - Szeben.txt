@@ -9,7 +9,7 @@ owner = TRA
 controller = TRA
 
 #Demographics
-culture = romanian
+culture = transylvanian
 religion = orthodox
 
 #Development and Trade

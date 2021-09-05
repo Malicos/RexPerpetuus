@@ -1,6 +1,8 @@
 government = monarchy
 add_government_reform = autocracy_reform 
-primary_culture = armenian
+primary_culture = yeravani
+add_accepted_culture = armenian
+add_accepted_culture = arevmdian
 religion = apostolic
 technology_group = eastern
 capital = 419	# Yerevan

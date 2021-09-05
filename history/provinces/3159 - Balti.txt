@@ -3,7 +3,7 @@
 owner = PEC
 controller = PEC
 add_core = PEC
-culture = romanian
+culture = pechenegian_culture
 religion = orthodox
 capital = "Soroca"
 trade_goods = wine

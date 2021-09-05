@@ -3,8 +3,8 @@
 owner = CIL
 controller = CIL
 add_core = CIL
-culture = turkish			#The Nur Mountains were settled by the Ulasli tribe of the Turkmens.
-religion = sunni
+culture = cilician			#The Nur Mountains were settled by the Ulasli tribe of the Turkmens.
+religion = orthodox
 capital = "Osmaniye"
 trade_goods = grain			#Good agriculture, why not
 hre = no

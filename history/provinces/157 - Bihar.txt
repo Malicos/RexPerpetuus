@@ -3,7 +3,7 @@
 owner = TRA
 controller = TRA
 add_core = TRA
-culture = romanian
+culture = transylvanian
 religion = orthodox
 capital = "Oradea"
 trade_goods = naval_supplies

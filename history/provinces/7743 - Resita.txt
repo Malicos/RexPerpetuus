@@ -3,7 +3,7 @@
 owner = BNT
 controller = BNT
 add_core = BNT
-culture = romanian
+culture = transylvanian
 religion = orthodox
 capital = "Resita"
 base_tax = 1
