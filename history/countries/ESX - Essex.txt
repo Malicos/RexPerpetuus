@@ -5,3 +5,16 @@ religion = catholic
 technology_group = western
 capital = 238 # Chelmsford, London is too indefensible because it sits right at the border.
 government_rank = 2
+
+1430.3.15 = {
+	monarch = {
+		name = "Trond"
+		dynasty = "Dunmow"
+		adm = 4
+		dip = 2
+		mil = 2
+		birth_date = 1403.3.24
+		religion = catholic
+		culture = sexish_culture
+	}
+}

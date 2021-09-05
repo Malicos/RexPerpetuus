@@ -5,3 +5,17 @@ religion = catholic
 technology_group = western
 capital = 4371 # Sussex
 government_rank = 2
+
+1434.8.11 = {
+	monarch = {
+		name = "Elfild"
+		dynasty = "Godwin"
+		adm = 2
+		dip = 2
+		mil = 4
+		birth_date = 1425.10.27
+		religion = catholic
+		culture = sexish_culture
+		female = yes
+	}
+}
