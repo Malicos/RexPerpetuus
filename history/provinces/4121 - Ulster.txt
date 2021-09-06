@@ -5,7 +5,7 @@
 owner = SCO
 add_core = SCO
 controller = SCO
-add_core = ANR
+add_core = CLN
 culture = gallgaidheil
 religion = catholic
 hre = no
