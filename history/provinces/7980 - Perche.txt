@@ -1,9 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = NRM
-controller = NRM 
-add_core = NRM
-add_core = FRA
+owner = ALE
+controller = ALE
+add_core = ALE
 culture = normand
 religion = catholic
 capital = "Mortagne"

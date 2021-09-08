@@ -2,9 +2,9 @@
 #Region - France
 #Area - Normandy
 
-owner = NRM
-controller = NRM 
-add_core = NRM
+owner = ALE
+controller = ALE
+add_core = ALE
 capital = "Alençon"
 is_city = yes
 culture = normand

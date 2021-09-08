@@ -45,6 +45,7 @@ RCM = "countries/Roscommon.txt"
 
 # France
 AGL = "countries/Angouleme.txt"
+CHN = "countries/ChannelIslands.txt"
 DBG = "countries/Bourgogne.txt"
 FEU = "countries/Eu.txt"
 FTS = "countries/Tours.txt"

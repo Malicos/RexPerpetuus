@@ -1,0 +1,53 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = normand
+add_accepted_culture = cosmopolitan_french
+religion = catholic
+capital = 168	# Caen
+
+1444.11.11 = {
+	monarch = {
+		name = "Arnault II"
+		dynasty = "de Vexin-Amiens"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 1425.10.15
+		religion = catholic
+		culture = normand
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+	queen = {
+		name = "Tiburge"
+		dynasty = "Normandie-Melun"
+		adm = 4
+		dip = 2
+		mil = 3
+		country_of_origin = NRM
+		birth_date = 1425.1.26
+		death_date = 1485.1.26
+		female = yes
+		religion = catholic
+		culture = normand
+	}
+	add_queen_personality = just_personality
+	add_queen_personality = strict_personality
+	heir = {
+		name = "Mahaut"
+		monarch_name = "Mahaut"
+		dynasty = "de Vexin-Amiens"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1443.7.24
+		death_date = 1508.7.24
+		female = yes
+		religion = catholic
+		culture = normand
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
