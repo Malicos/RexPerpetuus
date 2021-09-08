@@ -35,11 +35,35 @@ historical_units = {
 }
 
 monarch_names = {
-	"Dugald #0" = 10
-	"Ranald #0" = 10	
-	"Duncan #3" = 10	
-	"Ruari #0" = 10	
-	"Ewen #0" = 10
+	# RP HISTORICAL RULERS
+	"Dingad #1" = 0
+	"Senyllt #1" = 0
+	"Neithon #1" = 0
+	"Rhun #1" = 0
+	"Tudwal #4" = 60
+	"Anllech #2" = 20
+	"Cynin #2" = 20
+	"Merfyn #3" = 60
+	"Anarawd #2" = 20
+	"Sannde #1" = 0
+	"Elidyr #2" = 20
+	"Gwriad #1" = 0
+	"Erling #1" = 1
+	"Annwn #1" = 0
+	"Cedwyn #1" = 0
+	"Gwidyr #2" = 20
+	"Gruffydd #2" = 20
+	"Anllech #1" = 0
+	"Cadwr #1" = 0
+	"Ffilip #1" = 0
+	"Cyngen #1" = 0
+	
+	# RANDOM NAMES	
+	"Dugald #0" = 1
+	"Ranald #0" = 1	
+	"Duncan #0" = 1	
+	"Ruari #0" = 0	
+	"Ewen #0" = 0
 	"Iain #0" = 0		
 	"Tearlach #0" = 0 
 	"Calum #0" = 0
