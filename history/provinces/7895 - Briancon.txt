@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = ESC
+controller = ESC
+add_core = ESC
 culture = aquitaine
 religion = catholic
 capital = "Briançon"

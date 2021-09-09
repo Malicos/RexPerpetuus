@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Romandie
 
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = WLL
+controller = WLL
+add_core = WLL
 culture = high_burgundian
 religion = catholic
 capital = "Sion"

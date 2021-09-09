@@ -2,9 +2,9 @@
 #Region - France
 #Area - Savoy
 
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = LNS
+controller = LNS
+add_core = LNS
 capital = "Lyon"
 is_city = yes
 culture = burgundian

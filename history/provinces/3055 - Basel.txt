@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Romandie
 
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = BSL
+controller = BSL
+add_core = BSL
 culture = high_burgundian
 religion = catholic
 capital = "Basel"

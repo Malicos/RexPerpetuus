@@ -1,6 +1,6 @@
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = FRB
+controller = FRB
+add_core = FRB
 culture = high_burgundian
 religion = catholic
 capital = "Fribourg"

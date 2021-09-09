@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Romandie
 
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = GNV
+controller = GNV
+add_core = GNV
 culture = high_burgundian
 religion = catholic
 capital = "Geneva"

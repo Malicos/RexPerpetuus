@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Romandie
 
-owner = BUR
-controller = BUR
-add_core = BUR
+owner = HBN
+controller = HBN
+add_core = HBN
 culture = swabian
 religion = catholic
 capital = "Bern"
