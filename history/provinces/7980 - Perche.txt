@@ -3,6 +3,7 @@
 owner = ALE
 controller = ALE
 add_core = ALE
+add_core = FRA
 culture = normand
 religion = catholic
 capital = "Mortagne"
