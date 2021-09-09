@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = LIE
+controller = LIE
+add_core = LIE
 culture = wallonian
 religion = catholic
 capital = "Bouillon"

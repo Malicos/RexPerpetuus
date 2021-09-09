@@ -6,8 +6,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LOT
-controller = LOT
+owner = LIE
+controller = LIE
 capital = "Liège"
 is_city = yes
 culture = wallonian
@@ -17,7 +17,7 @@ base_tax = 7
 base_production = 7
 trade_goods = iron			#Major steel-producing centre. One of the, if not the single, largest in the world by our end date. Large metal deposits of various types in the area.
 base_manpower = 4
-add_core = LOT
+add_core = LIE
 fort_15th = yes
 
 discovered_by = eastern

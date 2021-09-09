@@ -2,9 +2,9 @@
 #Region - Low Countries
 #Area - Wallonia
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = CMB
+controller = CMB
+add_core = CMB
 capital = "Cambray"
 is_city = yes
 culture = picard_culture

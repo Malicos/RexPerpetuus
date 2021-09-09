@@ -2,9 +2,9 @@
 #Region - France
 #Area - Lorraine
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = VDN
+controller = VDN
+add_core = VDN
 capital = "Verdun"
 is_city = yes
 culture = wallonian

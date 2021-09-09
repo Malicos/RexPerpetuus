@@ -6,9 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = LUX
+controller = LUX
+add_core = LUX
 capital = "Luxemburg"
 is_city = yes
 culture = luxembourgish_culture

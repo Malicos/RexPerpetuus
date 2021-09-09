@@ -4,7 +4,7 @@
 ###################################################################
 #Order goes
 #1 - Northern Isles (Albion)
-#2 - France and Occitania
+#2 - France, Occitania and Lotharingia
 #3 - Italy, non-HRE
 #4 - HRE, Italy and Croatia
 #4.5 - HRE, German and Bohemian
@@ -67,7 +67,7 @@ guarantee = {
 }
 
 ####################################################################
-# 2 - France and Occitania
+# 2 - France, Occitania and Lotharingia
 ####################################################################
 # Arelat and Basel
 vassal = {
@@ -191,6 +191,67 @@ vassal = {
 	subject_type = fiefdom_bt
 	first = NRM
 	second = ALE
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Union of Lotharingia and Luxemburg
+union = {
+	first = LOT
+	second = LUX
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lotharingia and Gelre
+vassal = {
+	first = LOT
+	second = GEL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lotharingia and Luxeuil
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOT
+	second = LXL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lotharingia and Verdun
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOT
+	second = VDN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lotharingia and Liege
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOT
+	second = LIE
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lotharingia and Cambray
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOT
+	second = CMB
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lotharingia and Cleves
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOT
+	second = KLE
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }

@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = LOT
-controller = LOT
-add_core = LOT 
+owner = LUX
+controller = LUX
+add_core = LUX
 culture = luxembourgish_culture
 religion = catholic
 capital = "St. Vith"

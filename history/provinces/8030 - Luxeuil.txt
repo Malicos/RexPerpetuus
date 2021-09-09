@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = LXL
+controller = LXL
+add_core = LXL
 culture = high_burgundian
 religion = catholic
 capital = "Luxeuil"

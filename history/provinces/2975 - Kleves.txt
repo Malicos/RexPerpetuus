@@ -1,9 +1,9 @@
 #Region - Germany
 #Area - North Rhine
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = KLE
+controller = KLE
+add_core = KLE
 culture = dutch
 religion = catholic
 trade_goods = cloth
