@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = LDC
-controller = LDC
-add_core = LDC
+owner = CCS
+controller = CCS
+add_core = CCS
 culture = occitain
 religion = cathar
 capital = "Castres"

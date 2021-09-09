@@ -45,6 +45,9 @@ RCM = "countries/Roscommon.txt"
 
 # France
 AGL = "countries/Angouleme.txt"
+AGN = "countries/Agenais.txt"
+BRN = "countries/Bearne.txt"
+CCS = "countries/Carcassonne.txt"
 CHN = "countries/ChannelIslands.txt"
 DBG = "countries/Bourgogne.txt"
 FEU = "countries/Eu.txt"
@@ -53,6 +56,7 @@ GUI = "countries/Guise.txt"
 HPX = "countries/Hurepoix.txt"
 LDC = "countries/Languedoc.txt"
 LMC = "countries/LaMarche.txt"
+NBN = "countries/Narbonne.txt"
 OCC = "countries/Occitania.txt"		# Formable
 RTH = "countries/Rethel.txt"
 SOI = "countries/Soissons.txt"

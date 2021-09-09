@@ -4,7 +4,7 @@
 ###################################################################
 #Order goes
 #1 - Northern Isles (Albion)
-#2 - France
+#2 - France and Occitania
 #3 - Italy, non-HRE
 #4 - HRE, Italy and Croatia
 #4.5 - HRE, German and Bohemian
@@ -67,8 +67,61 @@ guarantee = {
 }
 
 ####################################################################
-# 2 - France
+# 2 - France and Occitania
 ####################################################################
+# Brittany and Channel Islands
+vassal = {
+	subject_type = fiefdom_bt
+	first = BRI
+	second = CHN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Guyenne and Agenais
+vassal = {
+	subject_type = fiefdom_bt
+	first = GUY
+	second = AGN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Guyenne and Bearne
+vassal = {
+	subject_type = fiefdom_bt
+	first = GUY
+	second = BRN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Languedoc and Carcassonne
+vassal = {
+	subject_type = fiefdom_bt
+	first = LDC
+	second = CCS
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Languedoc and Narbonne
+vassal = {
+	subject_type = fiefdom_bt
+	first = LDC
+	second = NBN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Normandy and Alencon
+vassal = {
+	subject_type = fiefdom_bt
+	first = NRM
+	second = ALE
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
 
 ####################################################################
 # 3 - Italy, non-HRE

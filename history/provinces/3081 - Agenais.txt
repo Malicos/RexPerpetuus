@@ -2,9 +2,9 @@
 #Region - France
 #Area - Guyenne
 
-owner = GUY
-controller = GUY
-add_core = GUY
+owner = AGN
+controller = AGN
+add_core = AGN
 capital = "Agen"
 is_city = yes
 culture = gascon

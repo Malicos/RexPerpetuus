@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 150  131  236 }    #Lavender, suggested by Math5615
+color = { 238 18 49 }
 
 historical_idea_groups = {
 	defensive_ideas
