@@ -1,8 +1,21 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = cumbrian
+primary_culture = english
 religion = catholic
 technology_group = western
 capital = 244	# Lancashire
 fixed_capital = 244 # Cannot move capital away from this province & no power cost to move to it
 government_rank = 1
+
+1442.1.11 = {
+	monarch = {
+		name = "Arne"
+		dynasty = "Aberdaron"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1391.3.24
+		religion = catholic
+		culture = english
+	}
+}
