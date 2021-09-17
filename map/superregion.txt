@@ -35,6 +35,7 @@ china_superregion = {
 
 europe_superregion = {
 	france_region
+	lotharingia_region
 	iberia_region
 	italy_region
 	british_isles_region
