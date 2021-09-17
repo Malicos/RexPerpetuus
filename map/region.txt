@@ -10,6 +10,7 @@ random_new_world_region = {
 
 france_region = {
 	areas = {
+		bar_area
 		brittany_area
 		normandy_area
 		provence_area
@@ -37,7 +38,21 @@ france_region = {
 		upper_guyenne_area
 		upper_gascony
 		limousin_area
+	}
+}
+
+lotharingia_region = {
+	areas = {
+		alsace_area
+		brabant_area
+		flanders_area
+		guise_area
+		julich_area
 		lorraine_area
+		luxembourg_area
+		luxemburg_liege_area
+		palatinate_area
+		wallonia_area
 	}
 }
 
@@ -64,22 +79,6 @@ scandinavia_region = {
 		west_karelia_area
 		southern_norway_area
 		trondelag_area
-	}
-}
-
-
-low_countries_region = {
-	areas = {
-		wallonia_area
-		flanders_area
-		holland_area			#New in 1.25, but not yet used in BT. Will almost certainly use it later.
-		brabant_area
-		#netherlands_area		#Cut in 1.30.
-		frisia_area
-		luxemburg_liege_area			#Cut in 1.25, but kept in BT for the moment until I can redo the area.
-		north_brabant_area
-		#BTADDITIONS
-		luxembourg_area
 	}
 }
 
@@ -136,6 +135,10 @@ north_german_region = {
 		#BTADDITIONS
 		north_westphalia_area
 		lusatia_area
+		#RPMOVED
+		holland_area			#New in 1.25, but not yet used in BT. Will almost certainly use it later.
+		frisia_area
+		north_brabant_area
 	}
 }
 
@@ -144,6 +147,8 @@ north_german_region = {
 
 south_german_region = {
 	areas = { 
+		baden_area
+		heidelberg_area
 		tirol_area
 		austria_proper_area
 		inner_austria_area
@@ -154,9 +159,7 @@ south_german_region = {
 		franconia_area
 		lower_swabia_area
 		upper_swabia_area
-		upper_rhineland_area
 		romandie_area
-		palatinate_area
 		#BTMovedFromNorthGermany
 		erzgebirge_area
 		bohemia_area

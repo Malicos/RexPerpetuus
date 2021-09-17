@@ -324,16 +324,12 @@ savoy_dauphine_area = { #3 Savoy and Dauphiné, Upper Burgundy
 	205 3046 4719 7913 8031 
 }
 
-lorraine_area = { #3
-	187 188 189 4766 7945 7946 7947 7948 7949 
-}
-
 picardy_area = { #4
-	87 88 89 7966 7968 7969 7965 7966 7973 7974 
+	87 88 89 7966 7969 7965 7966 7973 7974 
 }
 
 ile_de_france_area = { #3 (Champagne and Ile de France)
-	182 183 185 3070 7960 7961 7962 7963 
+	182 183 185 7960 7961 7962 7963 
 }
 
 loire_area = { #4
@@ -345,32 +341,48 @@ orleans_area = {
 	177 178 7980 7988 7989 7990 7991 
 }
 
-########################################
-# Low Countries				 		   #
-########################################
+#########################################################
+# Rex Perpetuus - Lotharingia							#
+#########################################################
 
-wallonia_area = { #3
-	91 1743 7976 7977 8014 
+alsace_area = {
+	75 1880 4765 7944
 }
 
-holland_area = { #4
-	96 97 4383 7975 7954 8112
+brabant_area = {
+	92 95 96 1744 8017 8019 4770
 }
 
-flanders_area = { #4	#TOTBTPCHANGES
+flanders_area = {
 	90 1865 3064 4769 8015 8018 8020 8021 
 }
 
-frisia_area = {
-	100 1931 4382 3058 8118 8119 
+guise_area = {
+	181 3070 7964 7968
 }
 
-brabant_area = { #3
-	92 95 1744 8019 4770
+julich_area = {
+	85 1742 1760 1878 2975 4768 8025 8027
 }
 
-north_brabant_area = {
-	98 99 3060 8017 8032 4381 8120 
+lorraine_area = {
+	80 188 189 3198 7945 7946 7949 
+}
+
+luxembourg_area = {
+	94 3066 7948 8022 8023 8024 
+}
+
+luxemburg_liege_area = {
+	93 1866 2974 3063 
+}
+
+palatinate_area = {
+	78 1761 4767
+}
+
+wallonia_area = {
+	91 1743 7976 7977 8014 
 }
 
 ########################################
@@ -507,9 +519,9 @@ central_italy_area = { #4
 	119 2977 7025 7026 7027 7029 7030 7034 7035 7037 
 }
 
-########################################
-# British Isles			 			   #
-########################################
+########################################################
+# Rex Perpetuus - British Isles			 			   #
+########################################################
 
 leinster_area = {
 	374 3009 4120 8165
@@ -1024,28 +1036,16 @@ romandie_area = { #3
 	165 1867 1871 3055 4720 4721
 }
 
-upper_rhineland_area = { #4
-	72 74 75 1880 4765 7944 4714
+baden_area = {
+	72 74 4714
 }
 
-alsace_area = { #No purpose currently, for future overhauls.
-	
-}
-
-palatinate_area = { #3
-	77 78 1761 3207 4718 4767
+heidelberg_area = {
+	77 3207 4718
 }
 
 north_rhine_area = { #3
-	84 85 2975 3199 3200 3201
-}
-
-lower_rhineland_area = { #3
-	80 1760 1878 4768 3198
-}
-
-luxemburg_liege_area = { #3
-	93 1742 1866 2974 8025 3063 
+	84 3199 3200 3201
 }
 
 westphalia_area = { #5
@@ -1077,6 +1077,18 @@ lower_saxony_area = { #4
 
 mecklenburg_area = { #3
 	46 2996 4749 7811 7812 7813 
+}
+
+holland_area = { #4
+	97 4383 7975 7954 8112
+}
+
+frisia_area = {
+	100 1931 4382 3058 8118 8119 
+}
+
+north_brabant_area = {
+	98 99 3060 8032 4381 8120 
 }
 
 ########################################
@@ -3707,8 +3719,6 @@ western_ireland_area = { }
 
 seine_area = { }
 
-#brabant_area = { }			#Cut in 1.25, but kept in BT for the moment
-
 north_karelia = { }	#Appears to be a vanilla bug? This should resolve its error log for now, anyway. Fix later
 
 coromandel_area = { }
@@ -3801,7 +3811,7 @@ cyprus_area = {
 # }
 
 champagne_area = {
-	181 186 3071 4390 7950 7953 7964 7955 7956 
+	186 3071 4390 7955 7956 
 }
 
 #Replaced by vanilla 1.30's same purpose slavonia_area
@@ -4107,9 +4117,8 @@ limousin_area = {
 	195 7918 7931 4697 
 }
 
-#Low Countries
-luxembourg_area = {
-	94 3066 8022 8023 8024 8027 
+bar_area = {
+	187 4766 7947 7950 7953
 }
 
 #Iberia 
