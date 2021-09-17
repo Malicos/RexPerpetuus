@@ -1058,24 +1058,23 @@ country_decisions = {
 ###################################################################################################
 ################################			England			 ##############################################
 ###################################################################################################
+	# Changed for Rex Perpetuus
 	english_nation = {
 		major = yes
 		potential = {
 			bt_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_england_flag }
 			NOT = { tag = ENG }
-			NOT = { tag = GBR }
-			OR = {
-				primary_culture = english
-				primary_culture = northumbrian
-				AND = {
-					primary_culture = anglo_irish
-					any_owned_province = { region = british_isles_region }
-				}
-			}
+			# NOT = { tag = GBR }	# Replace with Britannia
+			primary_culture = english
 		}
 		provinces_to_highlight = {
-			region = british_isles_region
+			OR = {
+				area = london_area
+				area = east_anglia_area
+				area = mercia_area
+				area = cumbria_lancashire_area
+			}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
@@ -1087,11 +1086,16 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			owns_core_province = 236		# London
-			owns_core_province = 234		# Wessex
+			owns_core_province = 8126		# Northampton
 			num_of_owned_provinces_with = {
 				is_core = ROOT
-				region = british_isles_region
-				value = 37			#2/3 of England-Wales' 56 provinces
+				OR = {
+					area = london_area
+					area = east_anglia_area
+					area = mercia_area
+					area = cumbria_lancashire_area
+				}
+				value = 14			#2/3 of English Areas' 21 provinces
 			}
 			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted Note base dev in 1444 for southern Britain is around 420.
 			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
@@ -1103,14 +1107,7 @@ country_decisions = {
 				limit = { NOT = { government_rank = 2 } }
 				set_government_rank = 2
 			}
-			northern_england_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ENG
-			}
-			east_midlands_area = {
+			london_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
@@ -1124,28 +1121,14 @@ country_decisions = {
 				}
 				add_permanent_claim = ENG
 			}
-			wessex_area = {
+			mercia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = ENG
 			}
-			home_counties_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ENG
-			}
-			yorkshire_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ENG
-			}
-			west_midlands_area = {
+			cumbria_lancashire_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
