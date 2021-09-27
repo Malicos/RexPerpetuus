@@ -94,6 +94,9 @@ GET = "countries/Gaeta.txt"
 MLS = "countries/Molise.txt"
 TCA = "countries/Trinacria.txt"
 
+# Scandinavia
+SVB = "countries/Svalbard.txt"
+
 # Poland and Baltics
 AUK = "countries/Aukstaitija.txt"
 BGR = "countries/Bialogard.txt"
