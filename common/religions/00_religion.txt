@@ -1820,6 +1820,37 @@ eastern = {
 		
 		uses_karma = yes
 	}
+	
+	nangchos = {
+		color = { 229 51 0 }
+		icon = 44
+		allowed_conversion = {
+			vajrayana
+			buddhism #Theravada
+		}
+		country = {
+			tolerance_heretic = 2
+			idea_cost = -0.05
+		}
+		country_as_secondary = {
+			global_tax_modifier = 0.1
+			tolerance_heathen = 2
+		}
+		on_convert = {
+			add_prestige = -100
+			add_stability = -1
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		harmonized_modifier = harmonized_mahayana
+		
+		heretic = { ZEN }
+		
+		uses_karma = yes
+	}
 
 	confucianism = {
 		color = { 214 229 140 }
@@ -2184,7 +2215,7 @@ jewish_group = {
 
 	jewish = {
 		icon = 20
-		color = { 153 25 102 }
+		color = { 25 178 255 }
 		country = {
 			tolerance_own = 2
 			advisor_pool = 1
