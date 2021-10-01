@@ -349,10 +349,10 @@ christian = {
 		date = 1534.11.3 # act of supremacy
 	}
 	
-	# Rex Perpetuus: Patarene
+	# Rex Perpetuus: UNUSED
 	hussite = {
-		color = { 42 125 188 }
-		icon = 32
+		color = { 244 55 9 }
+		icon = 22
 
 		allowed_center_conversion = {
 			catholic
@@ -436,9 +436,44 @@ christian = {
 		}
 	}
 	
+	bosnian_church = {
+		color = { 153 117 134 }
+		icon = 32
+
+		allowed_center_conversion = {
+			catholic
+		}
+		country = {
+			shock_damage_received = -0.05
+			global_heretic_missionary_strength = 0.02
+		}
+		
+		country_as_secondary = {
+			shock_damage_received = -0.025
+		}
+		
+		uses_hussite_power = yes				# Uses church power/aspect mechanics
+		
+		aspects = {
+			clerical_poverty_aspect
+			bread_and_wine_aspect
+			sola_scriptura_aspect
+			adamite_services_aspect
+			pacifism_aspect
+			punishment_of_sins_aspect
+			regular_defenestrations_aspect
+			taborite_resurgence_aspect
+			orphan_hetmans_aspect
+			freedom_to_preach_aspect
+		}
+		aspects_name = PROTESTANT_ASPECTS
+		
+		heretic = { TABORITE UTRAQUIST ORPHAN }
+	}
+	
 	# Rex Perpetuus: Evangelical
 	protestant = {
-		color = { 0 0 178 }
+		color = { 42 125 188 }
 		icon = 2
 
 		allowed_conversion = {
