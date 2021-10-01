@@ -352,7 +352,7 @@ christian = {
 	# Rex Perpetuus: Patarene
 	hussite = {
 		color = { 42 125 188 }
-		icon = 31
+		icon = 32
 
 		allowed_center_conversion = {
 			catholic
@@ -387,7 +387,7 @@ christian = {
 	
 	cathar = {
 		color = { 137 45 27 }
-		icon = 29
+		icon = 30
 
 		allowed_center_conversion = {
 			catholic
@@ -830,7 +830,7 @@ christian = {
 	
 	bogomilist = {
 		color = { 176 56 74 }
-		icon = 33
+		icon = 34
 		country = {
 			stability_cost_modifier = -0.1
 			tolerance_own = 1
@@ -964,7 +964,7 @@ christian = {
 	
 	iconoclast = {
 		color = { 127 117 133 }
-		icon = 34
+		icon = 35
 		country = {
 			stability_cost_modifier = -0.1
 			tolerance_own = 1
@@ -1135,8 +1135,8 @@ christian = {
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
 
-		color = { 210 117 217 }
-		icon = 30
+		color = { 204 102 25 }
+		icon = 31
 		country = {
 			defensiveness = 0.1
 			tolerance_own = 1
@@ -1166,7 +1166,7 @@ christian = {
 	
 	nestorian = {
 		color = { 188 161 53 }
-		icon = 32
+		icon = 33
 		country = {
 			stability_cost_modifier = -0.1
 			tolerance_own = 1
@@ -1662,6 +1662,27 @@ muslim = {
 		uses_piety = yes				# Uses piety mechanics
 	}
 	
+	druze = {
+		color = { 0 229 102 }
+		icon = 36
+		country = {
+			heir_chance = 1.0
+			dip_tech_cost_modifier = -0.1 # Promoted intellectualism
+			tolerance_heretic = -1 # Renounced 'false' belief
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		country_as_secondary = {
+			diplomats = 1
+			dip_tech_cost_modifier = -0.05
+		}
+		heretic = { HURUFI ZAIDI }
+		
+		uses_piety = yes				# Uses piety mechanics
+	}
+
+	
 	harmonized_modifier = harmonized_muslim
 	
 	crusade_name = JIHAD
@@ -1798,6 +1819,26 @@ eastern = {
 		
 		harmonized_modifier = harmonized_shinto
 		
+	}
+	
+	bon = {
+		color = { 8 140 131 }
+		icon = 39
+		country = {
+			tolerance_heretic = 1
+			shock_damage_received = -0.1
+		}
+		country_as_secondary = {
+			horde_unity = 1
+			shock_damage_received = -0.1
+		}
+		province = {
+			local_defensiveness = 0.1
+		}
+		
+		heretic = { ZEN }
+		
+		uses_karma = yes
 	}
 	
 	crusade_name = CRUSADE
@@ -2039,6 +2080,48 @@ pagan = {
 		heretic = { OLD_TENGRI }
 	}
 	
+	finnish_pagan_reformed = {
+		icon = 40
+		color = { 166 166 25 }
+		country = {
+			defensiveness = 0.1
+			num_accepted_cultures = 1
+		}
+		country_as_secondary = {
+			num_accepted_cultures = 1
+			defensiveness = 0.1
+		}
+		heretic = { OLD_UKONUSKO }
+	}
+	
+	siberian_pagan_reformed = {
+		icon = 41
+		color = { 230 230 230 }
+		country = {
+			defensiveness = 0.1
+			num_accepted_cultures = 1
+		}
+		country_as_secondary = {
+			num_accepted_cultures = 1
+			defensiveness = 0.1
+		}
+		heretic = { OLD_TURUMIC }
+	}
+	
+	west_african_pagan_reformed = {
+		icon = 42
+		color = { 255 115 0 }
+		country = {
+			defensiveness = 0.1
+			num_accepted_cultures = 1
+		}
+		country_as_secondary = {
+			num_accepted_cultures = 1
+			defensiveness = 0.1
+		}
+		heretic = { OLD_MANDE }
+	}
+	
 	crusade_name = CRUSADE
 	harmonized_modifier = harmonized_pagan
 }
@@ -2094,6 +2177,61 @@ zoroastrian_group = {
 	}
 	
 	harmonized_modifier = harmonized_zoroastrian_group
+	
+	crusade_name = HOLY_WAR
+	
+}
+
+dualist_group = {
+	flag_emblem_index_range = { 110 110 }
+	manichean = {
+		icon = 38
+		color = { 0.5 0.7 0.2 }
+		country = {
+			tolerance_heathen = 2
+			legitimacy = 1
+		}
+		country_as_secondary = {
+			tolerance_heathen = 2
+			global_missionary_strength = 0.01
+		}
+		heretic = { MAZDAKI }
+	}
+	
+	#harmonized_modifier = harmonized_dualist_group
+	harmonized_modifier = harmonized_zoroastrian_group
+	
+	crusade_name = HOLY_WAR
+	
+}
+
+yazidi_group = {
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 97 106 } #Including Star of David / Seal of Suleyman
+	yazidi = {
+		color = { 51 51 178 }
+		icon = 37
+		country = {
+			tolerance_own = 3 # Preoccupation with religious purity
+			tolerance_heretic = -1 # Too much contact with non-Yazidis is considered polluting
+			tolerance_heathen = -1
+			advisor_pool = 1 # Caste system
+			global_missionary_strength = -0.01 # Accepts no converts
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+		country_as_secondary = {
+			tolerance_own = 2
+			advisor_pool = 1
+		}
+		heretic = { BEKTASHI AHMADI ZIKRI }
+		
+		has_patriarchs = yes		# Uses patriarch authority
+	}
+	
+	#harmonized_modifier = harmonized_yazidi_group
+	harmonized_modifier = harmonized_muslim
 	
 	crusade_name = HOLY_WAR
 	
