@@ -1876,6 +1876,22 @@ eastern = {
 		uses_karma = yes
 	}
 	
+	taoism = {
+		color = { 221 120 84 }
+		icon = 9
+		country = {
+			global_unrest = -1
+			global_manpower_modifier = 0.15
+		}
+		country_as_secondary = {
+			global_unrest = -1
+			global_manpower_modifier = 0.1
+		}
+		heretic = { CONFUCIANIST }
+		
+		#harmonized_modifier = harmonized_taoism
+	}
+	
 	crusade_name = CRUSADE
 	
 }
