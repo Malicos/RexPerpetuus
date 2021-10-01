@@ -440,12 +440,28 @@
  apostolic_religion_desc:0 "Founded by the Apostles Bartholomew and Thaddeus, the Armenian Apostolic Church rapidly gained followers in the region and shepherded the Kingdom of Armenia into becoming the first state ever to adopt Christianity as its official religion."
  bogomilist:0 "Bogomilist"
  bogomilist_religion_desc:0 "Electing their spiritual leaders from amongst the general populace, Bogomils reject all worldly trappings and institutions of power, advocating instead for a return to the earlier methods of spiritual teaching practiced by Christ and his disciples."
+ bon:0 "Bön"
+ bon_religion_desc:0 "Bön is an ancient shamanistic religion indigenous to the region of Tibet. It is characterized by meditation, mystical rituals, and a strong belief in animistic spiritualism.
  cathar:0 "Cathar"
  cathar_religion_desc:0 "Teaching that all matter was created by Satan and is therefore inherently tainted with sin, Cathars believe that the only way to achieve salvation is to reject the materialistic world, and with it, all worldly desires."
+ druze:0 "Druze"
+ druze_religion_desc:0 "Hailing from the Mountain of Druze, the Druze faith follows many of the principles of Isma'ilism, but also includes gnostic beliefs in an esoteric theology focused on the Truth of existence."
+ dualist_group:0 "Dualist"
+ finnish_pagan_reformed:0 "Ukonusko"
+ finnish_pagan_reformed_religion_desc:0 "The veneration of nature and a profound respect for one's ancestors and their traditions are what define Finno-Ugric paganism. Held in high regard amongst adherents is "sisu," a Finnish concept of stoic determination, grit, bravery, and resilience."
  iconoclast:0 "Iconoclast"
  iconoclast_religion_desc:0 "Believing that any use of spiritual symbols violates the Second Commandment to not make any graven images, the Iconoclasts and seek to destroy existing religious iconography and reject the creation of new ones."
+ manichean:0 "Manichean"
+ manichean_religion_desc:0 "The revelations granted to Buddha, Zoroaster and Jesus were incomplete reflections of the real world. The prophet Mani brought the final revelation of the existence of the spiritual world of light and the material world of darkness, and how human souls, as with all light, gradually return to the creator."
  nestorian:0 "Nestorian"
  nestorian_religion_desc:0 "In teaching that Jesus Christ has two natures, one divine and one human, Nestorianism has been declared as heretical by most Christian faiths. Despite this, its unique outlook has garnered followers in places as far east as China, India, and even Mongolia."
+ siberian_pagan_reformed:0 "Turumic"
+ siberian_pagan_reformed_religion_desc:0 "Siberians believe in a horizontal world where men and beasts all live in clans, linked together through alliance or vengeance. Hunting is a core part of the equilibrium between taking and giving life, and with death all souls travel downstream to reincarnate in the clan they lived in previously."
+ west_african_pagan_reformed:0 "Mandé"
+ west_african_pagan_reformed_religion_desc:0 "The native faiths of the Mandé people focus on venerating both the great spirits of the land as well as the honoring the spirits of the dead."
+ yazidi:0 "Yazidi"
+ yazidi_group:0 "Yazidi"
+ yazidi_religion_desc:0 "The Yazidi believe that God created the world and placed it under the protection of seven angels, foremost among them Tawûsê Melek, the Peacock Angel. The Peacock Angel at first fell from God's grace, but his tears of remorse extinguished the fires of his prison, and he was reunited with God. In the same manner, we all seek to reunite with God at the end of many long lifetimes."
  
  #################################################################################
  # 5 - Trade Goods
