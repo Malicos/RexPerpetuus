@@ -6,9 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = ADU		# Ali III, Sultan of al-Andalus
-controller = ADU
-add_core = ADU
+owner = CDB
+controller = CDB
+add_core = CDB
 culture = batalyawsi
 religion = sunni
 capital = "Aveiro"

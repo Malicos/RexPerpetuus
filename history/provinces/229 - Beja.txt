@@ -2,9 +2,9 @@
 #Region - Iberia
 #Area - Alentejo
 
-owner = ADU		# Ali III, Sultan of al-Andalus
-controller = ADU
-add_core = ADU
+owner = CDB
+controller = CDB
+add_core = CDB
 culture = batalyawsi
 religion = sunni
 capital = "Beja"
@@ -14,7 +14,6 @@ base_tax = 2
 base_production = 2 
 base_manpower = 1 
 is_city = yes
-add_core = POR
 fort_15th = yes
 
 discovered_by = western

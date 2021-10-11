@@ -2,9 +2,9 @@
 #Region - Iberia
 #Area - Leon
 
-owner = ADU		# Ali III, Sultan of al-Andalus
-controller = ADU
-add_core = ADU
+owner = CDB
+controller = CDB
+add_core = CDB
 culture = andalusi_culture
 religion = sunni
 hre = no
