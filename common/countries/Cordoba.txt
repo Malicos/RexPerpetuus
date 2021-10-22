@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 136 21 54 } #New colour based off suggestion from Imperatrix Helena. #{ 188 46 46 }
+color = { 242 200 115 }
 
 historical_idea_groups = {
 	exploration_ideas
