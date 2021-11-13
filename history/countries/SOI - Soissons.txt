@@ -5,9 +5,8 @@ add_accepted_culture = gascon
 add_accepted_culture = occitain
 religion = catholic
 technology_group = western
-capital = 183 # Paris
+capital = 7961 # Soissons
 national_focus = DIP
-historical_rival = HAB
 
 change_estate_land_share = {
 	estate = estate_nobles
