@@ -116,6 +116,11 @@ spriteTypes = {
 	}
 
 		spriteType = {
+		name = "GFX_great_project_st_basils_cathedral"	
+		texturefile = "gfx//interface//great_projects//great_project_st_basils_cathedral.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_teotihuacan"	
 		texturefile = "gfx//interface//great_projects//great_project_teotihuacan.dds"
 	}
