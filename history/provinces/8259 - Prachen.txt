@@ -10,7 +10,7 @@ controller = BOH
 
 #Demographics
 culture = czech
-religion = catholic
+religion = hussite
 
 #Development and Trade
 base_tax = 2
@@ -30,14 +30,15 @@ fort_15th = yes #Pisek Castle, Otakar.
 #Special Modifiers
 
 #Discoveries
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
+1444.1.1 = { discovered_by = KAZ }
+1444.1.1 = { discovered_by = CRI }
+1444.1.1 = { discovered_by = GOL }
+1444.1.1 = { discovered_by = AST }
+1444.1.1 = { discovered_by = QAS }
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
 #Histories
+1627.1.1 = { religion = catholic } # Order from Ferdinand II to reconvert to Catholicism, many Protestant leave the country 

@@ -1,3 +1,4 @@
+ 
 #68 - Memmingen
 #Region - Germany
 #Area - Upper Swabia
@@ -8,10 +9,10 @@ add_core = MEM
 culture = swabian
 religion = catholic
 hre = yes
-base_tax = 10
-base_production = 10
+base_tax = 5
+base_production = 4
 trade_goods = cloth
-base_manpower = 6
+base_manpower = 4
 capital = "Memmingen" 
 is_city = yes
 
@@ -19,3 +20,8 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+
+
+1525.1.1 = { religion = protestant }
+1802.1.1 = { owner = BAV controller = BAV add_core = BAV remove_core = MEM }
+1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

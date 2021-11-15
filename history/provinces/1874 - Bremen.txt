@@ -1,3 +1,4 @@
+ 
 #1874 - Bremen
 #Region - Germany
 #Area - Weser
@@ -9,8 +10,8 @@ religion = catholic
 capital = "Bremen"
 trade_goods = bt_trade_good_beer
 hre = yes
-base_tax = 12 
-base_production = 12
+base_tax = 9 
+base_production = 7
 base_manpower = 6
 is_city = yes
 add_core = BRE

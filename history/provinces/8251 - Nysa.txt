@@ -9,7 +9,7 @@ owner = NIE
 controller = NIE
 
 #Demographics
-culture = schlesian
+culture = silesian_german
 religion = catholic
 
 #Development and Trade
@@ -29,14 +29,26 @@ hre = yes
 #Special Modifiers
 
 #Discoveries
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
+1444.1.1 = { discovered_by = KAZ }
+1444.1.1 = { discovered_by = CRI }
+1444.1.1 = { discovered_by = GOL }
+1444.1.1 = { discovered_by = AST }
+1444.1.1 = { discovered_by = QAS }
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
 #Histories
+1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+	owner = OPL
+	controller = OPL
+	add_core = OPL
+	remove_core = NIE
+} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
+1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+	owner = NIE
+	controller = NIE
+	add_core = NIE
+	remove_core = OPL
+} #Return to proper mod added owners and cuts vanilla core, typically.
