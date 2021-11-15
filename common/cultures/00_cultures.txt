@@ -1465,9 +1465,6 @@ latin = {
 	tuscan = {
 		primary = TUS
 	}
-	sardinian = {
-		primary = SAR
-	}
 	romagnan = {
 		primary = FER
 
