@@ -1,19 +1,17 @@
-#1244 - Tahiti
+ 
 
 culture = polynesian
 religion = animism
 capital = "Tahiti"
-trade_goods = unknown
 hre = no
-base_tax = 6 
-base_production = 6
-base_manpower = 2 
+base_tax = 6 # BT; 3
+base_production = 6 # BT; 3
+base_manpower = 2 # BT; 1
+trade_goods = unknown
 native_size = 10
 native_ferocity = 1
 native_hostileness = 2
 
-
-
+discovered_by = polynesian_tech # 1.31
 
 1606.1.1 = { discovered_by = SPA }
-

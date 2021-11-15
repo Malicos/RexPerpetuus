@@ -1,3 +1,4 @@
+ 
 #1245 - Manokwari
 
 culture = papuan
@@ -14,8 +15,8 @@ native_hostileness = 9
 
 
 
-discovered_by = MKS
-discovered_by = TER
-discovered_by = TID
+1444.1.1 = { discovered_by = MKS }
+1444.1.1 = { discovered_by = TER }
+1444.1.1 = { discovered_by = TID }
 
 1512.1.1 = { discovered_by = POR }

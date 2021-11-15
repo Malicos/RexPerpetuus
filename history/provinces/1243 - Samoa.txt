@@ -1,15 +1,23 @@
-#1243 - Samoa
+ 
+# owned in 1.31
 
+owner = SAM
+controller = SAM
+add_core = SAM
 culture = polynesian
 religion = animism
-capital = "Samoa"
-trade_goods = unknown
+capital = "Samoa" # BT; "Falealupo"
+is_city = yes
 hre = no
-base_tax = 4  
-base_production = 4
-base_manpower = 2 
-native_size = 40
-native_ferocity = 2
-native_hostileness = 9
+base_tax = 4 # BT; 3
+base_production = 4 # BT; 3
+base_manpower = 2
+trade_goods = cloth
+# ??? below
+#native_size = 40
+#native_ferocity = 2
+#native_hostileness = 9
+
+discovered_by = polynesian_tech # 1.31
 
 1722.1.1 = { discovered_by = NED } # Jacob Roggeveen
