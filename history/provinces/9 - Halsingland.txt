@@ -1,4 +1,3 @@
-
 #Hälsingland-Gästrikland-Medelpad, from Gävle to Näs
 #Region - Scandinavia
 #Area - Norrland
@@ -18,16 +17,3 @@ is_city = yes
 
 discovered_by = western
 discovered_by = eastern
-
-
-#Province history completed by - Draiocht
-#1st Shattering unused
-#1st Performance Start Unused
-
-#1291 - 1444
-
-#2nd Shattering unused
-#2nd Performance Start Unused
-
-#1444 on
-1527.6.1 = { religion = protestant}
