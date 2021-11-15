@@ -1,3 +1,4 @@
+ 
 #2023 - Munsee #North-eastern Pennsylvania
 
 latent_trade_goods = {
