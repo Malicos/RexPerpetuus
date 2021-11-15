@@ -15,13 +15,14 @@ country_decisions = {
 			OR = {
 				morea_area = { owned_by = BYZ }
 				northern_greece_area = { owned_by = BYZ }
-				western_aegean_area = { owned_by = BYZ }
+				western_aegean_area = { owned_by = BYZ } # BT
 			}
 		}
 		provinces_to_highlight = {
 			OR = {
 				area = northern_greece_area
 				area = morea_area
+				# BT; added 6 areas below
 				area = western_aegean_area
 				area = northern_peloponnesus_area
 				area = aetolia_area
@@ -34,6 +35,7 @@ country_decisions = {
 		allow = {
 			northern_greece_area = { type = all owned_by = BYZ }
 			morea_area = { type = all owned_by = BYZ }
+			# BT; added 6 areas below
 			western_aegean_area = { type = all owned_by = BYZ }
 			northern_peloponnesus_area = { type = all owned_by = BYZ }
 			aetolia_area = { type = all owned_by = BYZ }
@@ -63,7 +65,7 @@ country_decisions = {
 			NOT = { has_country_flag = triumph_balkans }
 			balkan_region = { owned_by = BYZ }
 		}
-		provinces_to_highlight = {
+		provinces_to_highlight = { # BT; areas replaced with prov.
 			OR = {
 				province_id = 159
 				province_id = 1764
@@ -79,7 +81,7 @@ country_decisions = {
 			}
 			NOT = { owned_by = ROOT }
 		}
-		allow = {
+		allow = { # BT; areas replaced with prov.
 			owns = 159
 			owns = 1764
 			owns = 149
@@ -101,7 +103,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	triumph_asia = {
 		potential = {
 			tag = BYZ
@@ -137,7 +139,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	triumph_anatolia = {
 		potential = {
 			tag = BYZ
@@ -166,7 +168,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 	triumph_italy = {
 		potential = {
 			tag = BYZ
@@ -185,7 +187,7 @@ country_decisions = {
 		}
 		allow = {
 			italy_region = { type = all owned_by = BYZ }
-			
+
 		}
 		effect = {
 			add_prestige = 35
@@ -196,5 +198,5 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+
 }

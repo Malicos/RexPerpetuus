@@ -70,10 +70,10 @@ country_event = {
 				factor = 20
 				culture_group = germanic
 			}
-			modifier = {
-				factor = 20
-				capital_scope = { area = trentino_area }
-			}
+			#modifier = {
+			#	factor = 20
+			#	capital_scope = { area = trentino_area }	#cut in BT14, merged into tirol_area
+			#}
 			modifier = {
 				factor = 20
 				capital_scope = { province_id = 4738 }
@@ -112,14 +112,14 @@ country_event = {
 			limit = {
 				any_known_country = {
 					NOT = { culture_group = germanic }
-					NOT = { capital_scope = { area = trentino_area } }
+					# NOT = { capital_scope = { area = trentino_area } }		#cut in BT14, merged into tirol_area
 					NOT = { capital_scope = { province_id = 4738 } }
 					has_country_flag = bt_lobbied_to_stay_in_the_empire
 				}
 			}
 			add_country_modifier = {
 				name = bt_violated_league_war_treaty
-					duration = 7300
+				duration = 7300
 			}
 		}
 		hidden_effect = {
@@ -160,7 +160,7 @@ country_event = {
 				limit = {
 					is_part_of_hre = yes
 					capital_scope = { region = italy_region }
-					NOT = { capital_scope = { area = trentino_area } }
+					# NOT = { capital_scope = { area = trentino_area } }		#cut in BT14, merged into tirol_area
 					NOT = { capital_scope = { province_id = 4738 } }
 				}
 				country_event = { id = BtPLegacyItalyHRE.4 }

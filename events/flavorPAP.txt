@@ -29,6 +29,17 @@ country_event = {
 	option = {
 		name = "flavor_pap.EVTOPTA1"
 		add_ruler_modifier = { name = pap_saint_peters_basilica }
+		if = {
+			limit = {
+				has_dlc = "Leviathan"
+			}
+			118 = {
+				add_great_project_tier = {
+					type = stpeters_cathedral
+					tier = 1
+				}
+			}
+		}
 	}
 	option = {
 		name = "flavor_pap.EVTOPTB1"
@@ -62,7 +73,7 @@ country_event = {
 					has_country_modifier = the_societas_jesu 
 				}
 			}
-			AND = {
+			AND = { # BT
 				IBE = { 
 					religion = catholic
 					has_country_modifier = the_societas_jesu 
@@ -101,7 +112,7 @@ country_event = {
 				id = flavor_pap.3
 			}
 		}
-		random_known_country = {
+		random_known_country = { # BT
 			limit = {
 				tag = IBE
 				has_country_modifier = the_societas_jesu 
@@ -250,7 +261,7 @@ country_event = {
 		OR = {
 			POR = { has_country_modifier = the_societas_jesu }
 			SPA = { has_country_modifier = the_societas_jesu }
-			IBE = { has_country_modifier = the_societas_jesu }
+			IBE = { has_country_modifier = the_societas_jesu } # BT
 			is_religion_enabled = reformed
 		}
 		is_religion_enabled = protestant
@@ -290,6 +301,10 @@ country_event = {
 			}
 			add_corruption = -1
 		}
+		#if = { # ??? BT removed
+		#	limit = {
+		#		has_dlc = "Emperor"
+		#	}
 		custom_tooltip = flavor_pap.7.tt
 		hidden_effect = {
 			every_known_country = {
@@ -304,6 +319,7 @@ country_event = {
 				}
 			}
 		}		
+		#} # see above
 		set_global_flag = counter_reformation
 		if = {
 			limit = {
@@ -314,7 +330,7 @@ country_event = {
 	}
 }
 
-# The Council of Trient
+# The Council of Trent
 country_event = {
 	id = flavor_pap.8
 	title = "flavor_pap.EVTNAME8"
@@ -336,12 +352,17 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	#trigger = { # ??? BT removed
+	#	has_dlc = "Emperor"
+	#}
+	
 	option = {
 		name = "flavor_pap.EVTOPTA8"
 		custom_tooltip = can_join_council_of_trent_tt
 		PAP = {
 			add_opinion = {
 				who = ROOT
+				modifier = opinion_trent
 			}
 		}
 	}

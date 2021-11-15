@@ -1,0 +1,1196 @@
+#Contributions from a wide range, including Draiocht, JP, Arga, Matteotironi95, Deserk, Alexious, Math and Chrysocyon
+#(JP) Italian, will be overwritten by local dialects/languages, mainly the Rhaeto-Romance languages
+#(JP) I have reorganised and cleaned up all the prior Italian naming to try and make it more legible, consistant and keep it easier to edit in future
+
+#Italy
+101 = { "Genova" "Genova" }
+102 = { "Nizza" "Nizza" }
+103 = { "Torino" "Torino" }
+104 = { "Milano" "Milano" }
+108 = { "Verona" "Verona" }
+109 = { "Mantova" "Mantova" }
+112 = { "Venezia" "Venezia" }
+114 = { "Ravenna" "Ravenna" }
+116 = { "Firenze" "Firenze" }
+117 = { "Siena" "Siena" }
+118 = { "Roma" "Roma" }
+122 = { "Taranto" "Taranto" }
+126 = { "Malta" "Città Vecchia" }
+130 = { "Pola" "Pola" }
+1247 = { "Ajaccio" "Ajaccio" }
+1769 = { "Gorizia" "Gorizia" }
+2981 = { "Monferrato" "Casale di Sant'Evasio" }
+2982 = { "Siracusa" "Siracusa" }
+2986 = { "Cagliari" "Cagliari" }
+4729 = { "Padova" "Padova" }
+4738 = { "Trieste" "Trieste" }
+5091 = { "Logodoro" "Sassari" }
+5092 = { "Bastìa" "Bastìa" }
+7004 = { "Matera" "Matera" }
+7011 = { "Sansevero" "Sansevero" }
+7038 = { "Bonifacio" "Bonifacio" }
+7040 = { "Corte" "Corte" }
+7050 = { "Soana" "Pitigliano" }
+7052 = { "Alba" "Alba" }
+7063 = { "Mondovì" "Mondovì" }
+7064 = { "Tenda" "Tenda" }
+7082 = { "Pisino" "Pisino" }
+7084 = { "Vallagarina" "Rovereto" }
+7085 = { "Vicenza" "Vicenza" }
+7090 = { "Rovigno" "Rovigno" }
+7091 = { "Tolmino" "Tolmino" }
+7094 = { "Belluno" "Belluno" }
+7096 = { "Udine" "Udine" }
+7910 = { "Vienna" "Vienna" }
+
+#Balkans
+131 = { "Zagabria" "Zagabria" }
+136 = { "Spalato" "Spalato" }
+137 = { "Ragusa" "Ragusa" }
+138 = { "Zenta" "Ribenizza" } #(JP) Not sure on "Ribnica" (Alexious) Ribenizza is the old italian name
+139 = { "Martarita" "Martarita" } #From Latin
+140 = { "Canabea" "Canabea" } #From Latin
+141 = { "Craguiaforza" "Craguiaforza" } #Horrible, but is the best i can do
+142 = { "Corfù" "Corfù" }
+143 = { "Belgrado di Romania" "Belgrado di Romania" }
+144 = { "Giànnina" "Giànnina" }
+145 = { "Mistrà" "Mistrà" }
+146 = { "Atene" "Atene" }
+147 = { "Larissa" "Larissa" }
+148 = { "Salonicco" "Salonicco" }
+149 = { "Adrianopoli" "Adrianopoli" }
+150 = { "Plevnia" "Plevnia" } #(JP) Romanian "Plevna"
+151 = { "Costantinopli" "Costantinopli" } #(JP) or "Bisanzio"
+152 = { "Varasdino" "Varasdino" }
+159 = { "Selistra" "Selistra" }
+163 = { "Candia" "Candia" }
+164 = { "Nasso" "Nasso" }
+320 = { "Rodi" "Rodi" }
+1764 = { "Mesembria" "Mesembria" } #(JP) Greek-Byzantine name
+1765 = { "Sofia" "Sofia" } #(JP) Latin "Serdica" 
+1766 = { "Novamonte" "Novamonte" }
+1767 = { "Essecchio" "Essecchio" } #(JP) Or "Essechio"
+1773 = { "Chiarenza" "Chiarenza" } #(JP) Or "Clarenza"
+1826 = { "Gospici" "Gospici" } #(JP) Lika, or "Licca" is a larger area
+1827 = { "Zicca" "Zicca" }
+1828 = { "Bagnaluca" "Bagnaluca" }
+1831 = { "Anagasto" "Anagasto" } 
+1853 = { "Castoria" "Castoria" } #(JP) Greek name with a C
+2348 = { "Scio" "Scio" }
+2746 = { "Vuidino" "Vuidino" }
+2750 = { "Filippopoli" "Filippopoli" }
+3000 = { "Nissa" "Nissa" }
+3001 = { "Scopia" "Scopia" }
+3002 = { "Zenitsa" "Zenitsa" } #Zenica
+3003 = { "Negroponte" "Negroponte" }
+3164 = { "Costanza" "Costanza" }
+3165 = { "Dionisopoli" "Dionisopoli" }
+3167 = { "Nicopoli" "Nicopoli" }
+3168 = { "Hascovia" "Hascovia" }
+3169 = { "Beroia" "Beroia" } #(JP) Latin/Thracian/Greek town
+3170 = { "Quaranta Chiese" "Quaranta Chiese" } #(JP) "Kirk Kilise" means "Fourty Churches"
+3174 = { "Triccala" "Triccala" }
+3175 = { "Agrinio" "Agrinio" }
+3177 = { "Tebe" "Tebe" }
+3178 = { "Acaia" "Patrasso" }
+3179 = { "Argolide" "Napoli di Romania" } #(JP) Or "L'Argolide"
+3180 = { "La Canea" "La Canea" }
+3181 = { "Valona" "Valona" }
+3182 = { "Scutari" "Scutari" }
+3183 = { "Vitólia" "Vitólia" } #(JP) an earlier Greek-Latin name during Byzantine times, also "Voutélion"
+3185 = { "Crusebasto" "Crusebasto" }	
+3187 = { "Maciova" "Maciova" }
+3190 = { "Varaviza" "Varaviza" }
+3193 = { "Iaicia" "Iaicia" } 
+3194 = { "Vozora" "Bielina" }
+3195 = { "Lemno" "Mirina" } #(Alexious) Mirina better than Mirine
+3196 = { "Modrussa" "Modrussa" }
+4174 = { "Durazzo" "Durazzo" }
+4175 = { "Alessio" "Alessio" }
+4176 = { "Samandria" "Samandria" }
+4239 = { "Belgrado" "Belgrado" }
+4698 = { "Cefalonia" "Castro Cefalonia" }
+4699 = { "Arta" "Arta" } #(JP) Greek name
+4700 = { "Lesbo" "Metelino" }
+4701 = { "Corinto" "Corinto" }
+4702 = { "Sirra" "Sirra" } #(JP) Late Roman name, modern "Serres"
+4703 = { "Custendil" "Custendil" }
+4704 = { "Grande Tarnova" "Grande Tarnova" }
+4705 = { "Comotini" "Comotini" }
+4706 = { "Istropoli" "Istropoli" }
+4750 = { "Croia" "Croia" }
+4752 = { "Fiume" "Fiume" }
+4753 = { "Zara" "Zara" }
+4754 = { "Càttaro" "Càttaro" } #(JP) Medieval Venetian "Càtaro"
+4755 = { "Visegrado" "Visegrado" }
+4756 = { "Bellovario" "Bellovario" }
+4757 = { "Valievo" "Valievo" }
+4779 = { "Gallipoli" "Gallipoli" }
+4780 = { "Ocrida" "Ocrida" }
+5094 = { "Zuchisi" "Zuchisi" }
+7100 = { "Corone" "Corone" }
+7101 = { "Calamata" "Calamata" }
+7102 = { "Tripolizza" "Tripolizza" }
+7106 = { "Retimno" "Retimno" }
+7107 = { "Sitia" "Caserma" } #(JP) Help me here. "Sitia" is base Greek name. Venetian fortress was "Casa di Arma". (Alxious) Kazarma is a corruption for the italian word "Caserma" or "Casa d'Armi".
+7108 = { "Neopatria" "Neopatria" } #(JP) "Neopatras" in medieval name, maybe "Neopatria", but then actual Patrai is Patrasso in Italian so yeah... (Alexious) Neopatria is the actual italian name for the medieval duchy and also for the city
+7109 = { "Caristo" "Caristo" }
+7110 = { "Oreo" "Oreo" }
+7111 = { "Beozia" "Livadeia" } #(JP) Not sure here, also seen "Cadmeis" as a name for the region, sounds more Italian maybe?
+7112 = { "Lepanto" "Lepanto" }
+7113 = { "Ftiotide" "Zitogno" } #(Chrys) Zetounion would regularly become Zetunio, but I mixed in inspiration from French "Girton" and Catalan "El Cito"
+7114 = { "La Sola" "La Sola" } 
+7115 = { "Amfilochia" "Amfilochia" } #(JP) Base names
+7117 = { "Vòlo" "Vòlo" }
+7118 = { "Fàrsalo" "Fàrsalo" }
+7120 = { "Calcidica" "Sideocausia" }
+7122 = { "Veroia" "Veroia" }
+7123 = { "Vodenà" "Vodenà" } #(JP) Older Greek name
+7124 = { "Servia" "Servia" } #(JP) Greek name
+7125 = { "Santa Maura" "Lèucade" } #(JP) Province could be just "Lèucade" as well, "Santa Maura" is apparently Venetian name for the islands
+7126 = { "Zacinto" "Zacinto" }
+7127 = { "Cavallo" "Cavallo" } #(JP) or "Cristopoli" 
+7128 = { "Dirama" "Dirama" }
+#7129 Xanthi
+7130 = { "Demotica" "Demotica" }
+7132 = { "Parga" "Parga" } #(JP) Or "Torone" which seems to be Italian name for old city here
+7133 = { "Mezzovo" "Mezzovo" } 
+7134 = { "Aino" "Aino" }
+7136 = { "Rodosto" "Rodosto" }
+7137 = { "Selimbria" "Selimbria" }
+7138 = { "Bizya" "Bizya" }
+7139 = { "Sozopoli" "Sozopoli" }
+7140 = { "Butrinto" "Butrinto" }
+7141 = { "Argirocastro" "Argirocastro" }
+7142 = { "Coriza" "Coriza" }
+7143 = { "Musacchia" "Fierica" }
+7144 = { "Episcopia" "Episcopia" }
+7146 = { "Prilapo" "Prilapo" }
+7147 = { "Tranatura" "Tranatura" } #(JP) old Latin Roman name
+7148 = { "Stipio" "Stipio" }
+7149 = { "Anevio" "Anevio" } #(JP) "Anevo"/"Kopsis"
+#7150 Kran
+7151 = { "Stanimaccia" "Stanimaccia" }
+7152 = { "Ormenio" "Ormenio" } #(JP) Greek name
+7154 = { "Balcic" "Balcic" } #(JP) Romanian name
+7155 = { "Giamboli" "Giamboli" }
+7156 = { "Silimno" "Silimno" } #(JP) Greek-Byzantine "Silymnos"
+7157 = { "Abrito" "Abrito" } #(JP) Roman town here.
+7158 = { "Sciumo" "Sciumo" } #(JP) Not sure here...?
+7159 = { "Russe" "Russe" } #(JP) Alternate name that sounds kinda Italian
+7163 = { "Malvasia" "Malvasia" }
+7708 = { "Antivari" "Antivari" }
+7700 = { "Prisdriana" "Prisdriana" }
+7701 = { "Forno" "Forno" } #Peje (Alexious) name used by the Republic of Ragusa
+7702 = { "San Demetrio" "San Demetrio" } 
+7703 = { "Città Di Mercato" "Città Di Mercato" } #(JP) "Blagoevgrad", anciently "Skaptopara" meaning "city-market"
+7705 = { "Torres" "Torres" } #(JP) Latin "Turres", Byzantine "Quimedava"
+7706 = { "Melta" "Melta" } #(JP) Latin "Melta", later "Lovech"
+7707 = { "Valvola" "Valvola" } #(JP) "Vratsa" from Slavic "Vrata" and "-itsa", from Latin "valve"
+7709 = { "Pleula" "Pleula" }
+7710 = { "Berana" "Berana" }
+7711 = { "Ilnero" "Ilnero" } #(JP) "Vranje" means "the Black" 
+7712 = { "Arsa" "Arsa" }
+#7714 Zajecar #(JP) Founded from Roman "Felix Romuliana"
+7715 = { "Negotio" "Negotio" } #(JP) "Negotin", from Latin meaning "merchant place", "negot" in Romanian and "negocios" in Spanish
+7717 = { "Salunto" "Salunto" }
+7718 = { "Sirmia" "Mitroviza" } #(JP) capital alternatively "Sirmio" from the Latin city of "Sirmium" for Which Mitrovica is the successor to.
+7721 = { "Trebigne" "Trebigne" } #(JP) Not sure here
+7722 = { "Fotza" "Fotza" } 
+7723 = { "Delminio" "Delminio" }
+7724 = { "Argentaria" "Argentaria" }
+7725 = { "Cleuna" "Cleuna" }
+7727 = { "Levazzo" "Levazzo" }
+7728 = { "Priadoro" "Priadoro" }
+7729 = { "Biacio" "Biacio" }
+7730 = { "Macarsca" "Macarsca" }
+7731 = { "Brazza" "Neresi" }
+7732 = { "Sebenico" "Sebenico" }
+7733 = { "Tenin" "Tenin" }
+7734 = { "Segna" "Segna" }
+7735 = { "Veglia" "Veglia" }
+7736 = { "Siscia" "Siscia" }
+7738 = { "Possega" "Possega" }
+7739 = { "Volco" "Volco" }
+7759 = { "Vicina" "Vicina" } #(JP) Genoese Trading Post
+7765 = { "Carzzia" "Carzzia" } #(JP) From Latin "Casium"
+8187 = { "Giassi" "Giassi" } #(Chrys) From "Iassi" and Municipium Iassorum, earlier known as Aquae Balissae
+
+#South Germany
+65 = { "Monaco di Baviera" "Monaco di Baviera" }
+66 = { "Bamberga" "Bamberga" }
+67 = { "Norimberga" "Norimberga" }
+68 = { "Cassiliaco" "Cassiliaco" }
+70 = { "Stoccarda" "Stoccarda" }
+72 = { "Brisgovia" "Friburgo" }
+73 = { "Isprucco" "Isprucco" } #(JP) or "Ponténo" or "Enoponte"
+75 = { "Strasburgo" "Strasburgo" }
+76 = { "Salisburgo" "Salisburgo" }
+77 = { "Aidelberga" "Aidelberga" }
+110 = { "Trento" "Trento" }
+128 = { "Clanforte" "Clanforte" }
+129 = { "Lubiana" "Lubiana" }
+134 = { "Vienna" "Vienna" }
+165 = { "Berna" "Berna" }
+166 = { "Svitto" "Svitto" }
+265 = { "Bruna" "Bruna" }
+266 = { "Praga" "Praga" }
+1761 = { "Vormazia" "Vormazia" }
+1768 = { "Val Pusteria" "Luenza" } #(JP) or "Agonto"
+1867 = { "Vado" "Losanna" }
+1868 = { "Augusta" "Augusta" }
+1869 = { "Zurigo" "Zurigo" }
+1870 = { "San Gallo" "San Gallo" }
+1871 = { "Vallese" "Seduno" } #(Chrys) "Seduno" could easily just be borrowed from Latin "Sedunum" but that wouldn't be out of character for Italians anyway
+1872 = { "Ulma" "Ulma" }
+1873 = { "Coira" "Coira" }
+1880 = { "Vecchia Chiesa" "Vecchia Chiesa" }
+2957 = { "Ratisbona" "Ratisbona" }
+3048 = { "Bolzano" "Bolzano" }
+3050 = { "Marburgo" "Marburgo" }
+3055 = { "Basilea" "Basilea" }
+4708 = { "Frisinga" "Frisinga" }
+4709 = { "Passavia" "Passavia" } 
+4710 = { "Bregensia" "Bregensia" }
+4712 = { "Costanza" "Costanza" }
+4720 = { "Ginevra" "Ginevra" }
+4721 = { "Friburgo" "Friburgo" }
+4722 = { "Ilonte" "Ilonte" } #(Chrys) or "Jante", picked Ilonte as it's closer to Romansh "Glion"
+4751 = { "Celeia" "Celeia" }
+4758 = { "Merano" "Merano" }
+4759 = { "Villaco" "Villaco" }
+7093 = { "Bressanone" "Bressanone" }
+7760 = { "Scofioloco" "Scofioloco" }
+7761 = { "Postumia" "Postumia" }
+7762 = { "Cocevie" "Cocevie" }
+7764 = { "Nova Urbe" "Nova Urbe" }
+8216 = { "Petovio" "Petovio" }
+8432 = { "Spira" "Spira" }
+8443 = { "Tubinga" "Tubinga" }
+#8480 Wolfsberg
+#8481 Spittal
+#8482 Kufstein
+8483 = { "Landecca" "Landecca" }
+8484 = { "Tavate" "Tavate" }
+8485 = { "Thuno" "Thuno" } #(Chrys) "Tuno" in standard orthography, trusting the Italian wiki that this name is an exception and they're not just using outdated orthography
+8486 = { "Toggenburgo" "Toggenburgo" } #(Chrys) cannot find a certain answer as for whether "nb" cluster is allowed in Italian or not, Brandenburg is Brandeburgo, Mecklenburg is Meclemburgo and Oldenburg is Oldenburgo
+8487 = { "Turgovia" "Campodonna" } #(Chrys) Campodonna is a translation of Frauenfeld I made myself, please correct if you speak proper Italian
+8488 = { "Argovia" "Aravia" } #(Chrys) "Aravia" straight from Latin, fits Italian well
+8489 = { "Lucerna" "Lucerna" } 
+8490 = { "Neocastello" "Neocastello" } #(Chrys) or "Nuovo Castello", but Neocastello seems to have been more widespread
+8491 = { "Gruviera" "Gruvieri" } #(Chrys) region name is singular "Gruyère", city name is plural "Gruyères", can also be "Groviera"/"Grovieri"
+8492 = { "San Maurizio" "San Maurizio" }
+
+#North Germany
+44 = { "Amburgo" "Amburgo" }
+45 = { "Lubecca" "Lubecca" }
+47 = { "Stralsunda" "Stralsunda" }
+50 = { "Berlino" "Berlino" }
+52 = { "Magdeburgo" "Magdeburgo" }
+53 = { "Luneburgo" "Luneburgo" }
+55 = { "Oldemburgo" "Oldemburgo" }
+57 = { "Brunsviga" "Brunsviga" }
+59 = { "Vittembergo" "Vittembergo" }
+61 = { "Dresda" "Dresda" }
+62 = { "Lipsia" "Lipsia" }
+78 = { "Magonza" "Magonza" }
+80 = { "Treviri" "Treviri" }
+85 = { "Colonia" "Colonia" }
+1760 = { "Coblenza" "Coblenza" }
+1858 = { "Stettino" "Stettino" }
+1874 = { "Brema" "Brema" }
+1876 = { "Francoforte" "Francoforte" }
+1878 = { "Aquisgrana" "Aquisgrana" }
+4716 = { "Coburgo" "Coburgo" }
+4773 = { "Gottinga" "Gottinga" }
+8276 = { "Misnia" "Misnia" }
+8409 = { "Duisburgo" "Duisburgo" }
+
+#Low Countries
+90 = { "Bruggia" "Bruggia" }
+91 = { "Monte" "Monte" }
+92 = { "Brusselle" "Brusselle" }
+93 = { "Liegi" "Liegi" }
+94 = { "Lussemburgo" "Lussemburgo" }
+95 = { "Breda" "Breda" }
+96 = { "Zelanda" "Middelburgo" }
+97 = { "Amsterdamo" "Amsterdamo" }
+#98 Utrecht
+99 = { "Arenaco" "Arenaco" } #(JP) Arenacum
+#100 Snits
+#1742 Maastricht
+1743 = { "Cameraco" "Cameraco" } #(JP) From late Latin "Cameracum"
+1744 = { "Anversa" "Anversa" }
+1865 = { "Guanto" "Guanto" }
+1866 = { "Namer" "Namer" }
+#1931 Emden
+2974 = { "Looz" "Looz" } #(JP) French name
+#3058 Drenthe
+3060 = { "Nimega" "Nimega" }
+3063 = { "Rurmonda" "Rurmonda" }
+3064 = { "Duncherche" "Duncherche" }
+3066 = { "Orolauno" "Orolauno" } #(JP) Latin "Orolaunum Vicus"
+#4381 Zwolle
+#4382 Delfzijl
+4383 = { "L'Aia" "L'Aia" }
+4769 = { "Lilla" "Lilla" }
+4770 = { "Boscoducale" "Boscoducale" }
+7948 = { "Totonisvilla" "Totonisvilla" } #(JP) Late Latin
+#7954 Helder
+#7975 Dordrecht
+7976 = { "Valenziano" "Valenziano" }
+7977 = { "Mauboge" "Mauboge" }
+#8014 Couvin
+8015 = { "Ipro" "Ipro" }
+#8017 Cuijk
+8018 = { "Alostia" "Alostia" }
+8019 = { "Lovanio" "Lovanio" }
+8020 = { "Tornaco" "Tornaco" } #(JP) From Latin "Tornacum"
+#8021 Hulst
+#8022 Dinant
+8023 = { "Buglione" "Buglione" }
+#8024 Bastogne
+8025 = { "Stavelo" "Stavelo" }
+8027 = { "San Vito" "San Vito" }
+#8032 Zutphen
+#8400 Stellingwerven/Wolvega
+#8112 Rotterdam
+8118 = { "Groninga" "Groninga" }
+#8119 Leeuwarden
+#8120 Enschede
+#8299 Jever
+#8401 Leer
+8418 = { "Bitburgo" "Bitburgo" }
+#8419 Diekirch
+8420 = { "Monsmedi" "Monsmedi" }
+
+#France
+87 = { "Calesia" "Calesia" }
+88 = { "Arazzo" "Arazzo" }
+89 = { "Ambiano" "Ambiano" }
+167 = { "Roano" "Roano" }
+168 = { "Cadomo" "Cadomo" }
+169 = { "San Brioco" "San Brioco" }
+170 = { "Bresta" "Bresta" }
+171 = { "Vanna" "Vanna" }
+172 = { "Nanta" "Nanta" }
+173 = { "Laburdo" "Bayona" }
+183 = { "Parigi" "Parigi" }
+192 = { "Digione" "Digione" }
+193 = { "Besanzone" "Besanzone" }
+196 = { "Tolosa" "Tolosa" }
+201 = { "Marsiglia" "Marsiglia" }
+202 = { "Avignone" "Avignone" }
+203 = { "Lione" "Lione" }
+204 = { "Granopoli" "Granopoli" }
+205 = { "Ciamberì" "Ciamberì" }			#(Chrys) "Sciamberì" is adapted from French pronunciation of "Chambéry", "Ciamberì" is fully italian
+2753 = { "Narbona" "Narbona" }
+2991 = { "Forcalchieri" "Forcalchieri" }
+3046 = { "Annesì" "Annesì" }
+3110 = "Isole del Canale"
+4695 = { "Carcassona" "Carcassona" }
+4696 = { "Tolone" "Tolone" }
+7933 = { "Niort" "Niort" }
+7964 = { "Grandeprato" "Grandeprato" }
+7966 = { "Vermandua" "San Quintino" }
+7969 = { "Bologna" "Bologna" }
+8031 = { "Tarantasia" "Monasterio" } #(JP) Late, late Latin "Monasterium"
+
+
+176 = "Bearnese"			#I couldn't find pao anywhere. a better option could be bearnese, that basically means "the province of bearn". it is attested as an adjective, so why not?
+4387 = "Icolisma"			#again, I couldn't find it. a better option could be the attested italianization of the latin name of the capital, Icolisma.
+4384 = "Armorica" #the name is technically latin, but considering how similar it is to the original...
+174 = "Guascogna"
+177 = "Cenomania" #adaptation from latin, from which the french Le mans also comes.
+178 = "Angiò"
+179 = "Avarico" # the name is the one used to call the battle of avaricum in historical italian. avaricum is the latin for bourges.
+180 = "Lemono" #same as above
+182 = "San Quintino"
+184 = "Orleanese"
+186 = "Sciampagna"
+189 = "Lotaringia"
+190 = "Borbonese"
+194 = "Dordogna"
+195 = "Limosino"
+199 = "Alvernia"
+200 = "Linguadoca"
+
+175 = "Armagnaco"
+176 = "Bearne"
+177 = "Mansa"
+179 = "Borghi"
+180 = "Potieri"
+182 = "Valese"
+184 = "Orleano"
+185 = "Gatinese"
+186 = "Remi"
+187 = "Bario"
+188 = "Meta"
+189 = "Nanci"
+191 = "Nivernese"
+194 = "Petrogorio"
+195 = "Limoge"
+198 = "Rodesia"
+199 = "Chiermonte"
+1877 = "Carolese"
+1879 = "Alenzone"
+3068 = "Cornovaglia"
+4766 = "Verduno"
+3070 = "Laone"
+3073 = "Ebroica"
+3075 = "Castelduno"
+3077 = "Toarcio"
+3081 = "Agino"
+4694 = "Fois"
+3085 = "Nisma"
+3087 = "Origliaco"
+4777 = "Forese"
+3091 = "Macone"
+3092 = "Vesula"
+4697 = "Marca"
+4111 = "Anisio"
+4112 = "Caorsa"
+4384 = "Renna"
+4385 = "Cerburgo"
+4387 = "Angolmese"
+4388 = "Ciartre"
+4389 = "Turse"
+4390 = "Tresetto"
+4391 = "Velesia"
+4392 = "Ausserra"
+7896 = "Gape"
+7899 = "Vivarese"
+7900 = "Besiera"
+7901 = "Castro"
+7904 = "Albiga"
+7905 = "Amilliavo"
+7906 = "Gevodano"
+7907 = "Montalbano"
+7908 = "Annoneo"
+7909 = "Santo Stefano"
+7911 = "Belloiese"
+7915 = "San Floro"
+7917 = "Monlussone"
+7918 = "Tulla"
+7919 = "Comminge"
+7921 = "Bigorra"
+7922 = "Lettora"
+7924 = "Acque"
+7926 = "Monte Marsano"
+7927 = "Basate"
+7928 = "Liborno"
+7930 = "Bergherago"
+7932 = "Santongia"
+7933 = "Niorto"
+7934 = "Castellaraldo"
+7935 = "Chinone"
+7938 = "Cialone"
+4764 = "Dola"
+7942 = "Monbeliardo"
+4765 = "Colmaria"
+7946 = "Spinale"
+7947 = "Tulo"
+7950 = "Langra"
+7953 = "San Desiderio"
+7955 = "Senone"
+7956 = "Meldi"
+7957 = "Stampa"
+7958 = "Montargì"
+7960 = "Rambuglietto" #name of the city
+7961 = "Suassone"
+7962 = "Manta"
+7963 = "Bovesia"
+7965 = "Pontivia"
+7970 = "Gisorzio" #name of the city
+7971 = "Dieppa"
+7973 = "Sant'Omero"
+4776 = "Blesa"
+7979 = "Vendoma"
+7980 = "Percese"
+7981 = "Droge"
+7982 = "Lisobia"
+7983 = "Falesia"
+7984 = "Baioca"
+7986 = "Cutanza"
+7987 = "Avaranca"
+7989 = "Lavalle"
+7990 = "Coleto"
+7991 = "Salmuro"
+7995 = "San Malo"
+7999 = "Morlasso" #name of the city
+8028 = "Aitone"
+8030 = "Lussovio"
+200 = "Mompellieri"
+3089 = "Valenza"
+7890 = "Fregiù"
+7891 = "Draghignano"
+7892 = "Barcellonetta"
+7894 = "Arli"
+7895 = "Brianzone"
+7897 = "Montelimare"
+4719 = "Bressa"
+7913 = "Chiablese"
+7940 = "San Claudio"
+#176 = "Pao" 
+#4387 = "Angiome"
+
+#Iberia
+197 = { "Rossiglione" "Perpignano" }
+209 = { "Biscaglia" "Biscaglia" }
+210 = { "Pamplona" "Pamplona" }
+213 = { "Barcellona" "Barcellona" }
+214 = { "Saragozza" "Saragozza" }
+220 = { "Valenza" "Valenza" }
+223 = { "Granata" "Granata" }
+224 = { "Siviglia" "Siviglia" }
+225 = { "Cordova" "Cordova" }
+226 = { "Gibilterra" "Gibilterra" }
+227 = { "Lisbona" "Lisbona" }
+231 = { "Oporto" "Oporto" }
+232 = { "Braganza" "Braganza" }
+333 = "Maiorca"
+367 = { "Azzorre" "Punto Sottile" } #(JP) Capital is direct translation of "Ponta Delgada"
+368 = "Madera"
+1749 = { "Cadice" "Cadice" }
+4546 = { "Málaga" "Málaga" }
+4557 = { "Lerida" "Lerida" }
+4559 = "Maiorca"
+4560 = "Iviza"
+8042 = { "Santiago" "Santiago di Compostella" }
+
+#Maghreb
+334 = { "Tangeri" "Tangeri" }
+337 = { "Orano" "Orano" }
+338 = { "Algeri" "Algeri" }
+339 = { "Bugia" "Bugia" }
+340 = { "Costantina" "Costantina" }
+341 = { "Tunisi" "Tunisi" }
+343 = { "Fès" "Fès" }
+348 = { "Sisava" "Sisava" }
+354 = { "Tripoli di Libia" "Tripoli di Libia" }
+355 = { "Sirte" "Sirte" }
+356 = { "Bengasi" "Bengasi" }
+357 = { "Derna" "Derna" }
+1751 = { "Setta" "Setta" }
+1882 = { "Bona" "Bona" }
+2326 = { "Tobruch" "Tobruch" }
+2449 = { "Ueddan" "Ueddan" }
+2451 = { "Misurata" "Misurata" }
+2452 = { "Zuara" "Zuara" }
+2455 = { "Biserta" "Biserta" }
+2469 = { "Casabianca" "Casabianca" }
+4567 = { "Gadames" "Gadames" }
+5224 = { "Capo Buono" "Napoli d'Africa" } 
+5226 = { "Ben Gherir" "Ben Gherir" }
+5228 = { "Gozora" "Gozora" }
+5274 = { "Agedabia" "Agedabia" }
+5303 = { "Giarabub" "Giarabub" }
+5304 = { "Áugìla" "Áugìla" }
+5306 = { "Mesda" "Mesda" }
+5309 = { "Garian" "Garian" }
+5310 = { "Lalút" "Lalút" }
+5311 = { "Homs" "Homs" }
+
+
+#Egypt
+358 = { "Alessandria d'Egitto" "Alessandria d'Egitto" }
+359 = { "Crocodilopoli" "Crocodilopoli" }
+361 = { "Il Cairo" "Il Cairo" }
+1231 = { "Assuan" "Assuan" }
+2315 = { "Suez" "Suez" }
+5261 = { "Damietta" "Damietta" }
+
+#Levant
+321 = { "Limisso" "Limisso" }
+377 = { "Aleppo" "Aleppo" }
+378 = { "Tripoli del Libano" "Tripoli del Libano" }
+379 = { "Gerusalemme" "Gerusalemme" }
+380 = { "Crac di Moab" "Crac di Moab" }
+382 = { "Damasco" "Damasco" }
+405 = "{ Palmira" Palmira" }
+1854 = { "Giaffa" "Giaffa" }
+1855 = { "Acri" "Acri" } #(JP) Province is technically "Safed" but the port is "Acre"
+2313 = { "Antiochia" "Antiochia" }
+4297 = { "Eliopoli" "Eliopoli" } #(JP) "Heliopolis"
+5139 = { "Nicosia" "Nicosia" } #(JP) Western name
+5145 = { "Famagosta" "Famagosta" }
+5170 = { "Laodicea" "Laodicea" }
+5180 = { "Gazza" "Gazza" }
+5203 = { "Monreale" "Monreale" }
+5205 = { "Berito" "Berito" } #(JP) Latin "Berytus", or "Baruti"
+
+#Arabia
+384 = { "Medina" "Medina" }
+385 = { "La Mecca" "La Mecca" }
+387 = { "Moca" "Moca" }
+400 = { "Mascate" "Mascate" }
+
+#Mesopotamia
+407 = { "Callinico" "Callinico" }
+408 = { "Bàssora" "Bàssora" }
+410 = { "Baldacca" "Baldacca" }
+411 = { "Mossul" "Mossul" }
+418 = { "Amida" "Amida" }
+
+#Anatolia
+316 = { "Nicomedia" "Nicomedia" }
+317 = { "Brussa" "Brussa" }
+318 = { "Smirne" "Smirne" }
+323 = { "Iconio" "Iconio" }
+324 = { "Laranda" "Laranda" }
+326 = { "Angora" "Angora" }
+328 = { "Sinope" "Sinope" }
+329 = { "Sebastea" "Sebastea" }
+330 = { "Trebisonda" "Trebisonda" }
+2296 = { "Ellesponto" "Ellesponto" }
+2298 = { "Adalia" "Adalia" }
+2299 = { "Amastri" "Amastri" }
+2301 = { "Cesarea" "Cesarea" }
+5134 = { "Alicarnasso" "Alicarnasso" }
+5152 = { "Amasia" "Amasia" }
+5161 = { "Corico" "Corico" }
+6005 = { "Fogliavecchia" "Fogliavecchia" }
+
+#Caucasia
+419 = { "Erivan" "Erivan" }
+1856 = { "Sevastopoli" "Sevastopoli" }
+2196 = { "Lo Vati" "Lo Vati" }
+
+#Pontic Steppe
+284 = { "Tafrozia" "Tafrozia" } #(JP) From Greek city "Taphros"
+285 = { "Caffa" "Caffa" }
+286 = { "Tana" "Tana" }
+2410 = { "Teodoro" "Doro" } #(JP) Teodoro is Italian name for Theodoro, with Doros being the medieval name of the city
+3244 = { "Crimea" "Crimea" }
+3245 = { "Cerco" "Cerco" }
+1974 = { "Nigropoli" "Nigropoli" }
+7190 = { "Cembalo" "Cembalo" }
+7191 = { "Cerciniti" "Cerciniti" } #(JP) From the Greek city "Kerkinitis"
+7192 = { "Napoli Scita" "Napoli Scita" } #(JP) Aqmeschit developed from Neapolis Scythia
+7193 = { "Giancói" "Giancói" }
+
+#Carpathia
+135 = { "Scarbantio" "Scarbantio" } #(JP) Classical Latin "Scarbantia"
+153 = { "Ezzelburgo" "Ezzelburgo" }
+#154 Hont/Sahy
+#155 Bekes/Gyula
+#156 Timisoara
+157 = { "Gran Varadino" "Gran Varadino" }
+#158 Targu Mures
+160 = { "Pelendava" "Pelendava" } #(JP) Classical Latin and Roman name
+161 = { "Tergovisco" "Tergovisco" }
+268 = { "Botosani" "Botosani" } #(JP) Base names
+1318 = { "Scepus" "Leusaca" } #(JP) Probably rubbish
+1756 = { "Licostomo" "Licostomo" }
+1772 = { "Presburgo" "Presburgo" }
+#1864 Kaposvár
+1951 = { "San Pietro" "San Pietro" } #(JP) San Petru hill is where the ancient Roman city was
+1952 = { "Chust" "Chust" }
+#1953 Szabolcs
+#1954 Pancevo
+2405 = { "Orhei" "Orhei" } #(JP) Base names
+#2998 Buzau
+#3051 Eisenstadt
+#3146 Uzhgorod
+#3148 Szolnok
+#3151 Zala/Zalaegerszeg
+3152 = { "Satmariense" "Satmaro" }
+3154 = { "Alba" "Alba Giulia" }
+3156 = { "Suceava" "Suceava" } #(JP) Base names
+3157 = { "Bacovia" "Bacovia" } #(JP) Classical Latin
+3159 = { "Beltsi" "Beltsi" } #(JP) Not sure here...?
+3160 = { "Bucarest" "Bucarest" } #(JP) or "Bucoresia"?
+4125 = { "Agrio" "Agrio" } #(JP) Latin "Agria"
+#4126 Kiskunság/Kiskunhalas
+4127 = { "Acqua Pulita" "Acqua Pulita" } #(JP) City means clear water, this is what google gives me
+4128 = { "Corona" "Corona" } #(JP) Latin name of city, meaning "Crown", same as modern Italian
+4173 = { "Somborro" "Somborro" }
+4236 = { "Laugaricio" "Laugaricio" } #(JP) Classical Latin/Roman name
+4240 = { "Albareale" "Albareale" }
+4529 = { "Jassi" "Jassi" }
+4530 = { "Caladda" "Caladda" }
+4531 = { "Giurgevo" "Giurgevo" }
+4532 = { "Severino" "Severino" }
+7274 = { "Cernovizza" "Cernovizza" }
+7275 = { "Chotyn" "Chotyn" } #(JP) Wiki give this as the direct transliteration to Italian. Something better please?
+7276 = { "Fokchani" "Fokchani" } #(JP) Not sure about this?
+7277 = { "Tichina" "Tichina" }
+7278 = { "Moncastro" "Moncastro" }
+7740 = { "Bagatso" "Bagatso" } #(JP) Greek "Pagatzion"
+#7741 Becej
+#7743 Resita
+#7744 Lugoj
+#7746 Caransebes
+7748 = { "Calafatio" "Calafatio" } #(JP) Named from Italian "Calafatis", ship workmen
+#7749 Târgu Jiu
+#7750 Râmnicu Vâlcea
+7751 = { "Longo-Campo" "Longo-Campo" }
+7752 = { "Argesa" "Corte di Argesa" }
+#7753 Slatina
+7754 = { "Nicopoletta" "Nicopoletta" } #(JP) So it is little/lesser than Nikopolis in Bulgaria. Alexandretta is like smaller/lesser Alexandria. Get my reasoning...?
+#7755 Ploiesti
+#7756 Lichiresti, later Calarasi
+#7757 Orasul de Floci
+7758 = { "Drinago" "Drinago" }
+#8171 Gussing
+8172 = { "Savario" "Savario" } #(JP) Classical Latin "Savaria"
+#8174 Nitra
+8175 = { "Comarno" "Comarno" }
+#8178 Arva
+8180 = { "Piatra" "Piatra" } #(JP) Base names
+#8182 Zvolen
+#8183 Vác
+8184 = { "Buda" "Buda" }
+8185 = { "Giavarino" "Giavarino" }
+#8186 Veszprém
+8190 = { "Cinquechiese" "Cinquechiese" }
+#8191 Tolna/Szekszárd
+#8192 Solt
+#8193 Jászság/Jászberény
+#8194 Miskolc
+#8195 Gemer
+8196 = { "Cassovia" "Cassovia" }
+#8197 Saros/Presov
+#8198 Bereg/Muckachevo
+#8200 Nagykunsag/Karcag
+8201 = { "Seghedino" "Seghedino" }
+#8203 Arad
+8204 = { "Sigheto" "Sigheto" } #(JP) Eh...?
+#8205 Doboka/Des
+#8206 Szilagy/Simleu Silvaniei
+8207 = { "Clausemburgo" "Clausemburgo" }
+#8208 Sibiu
+8209 = { "Potaizza" "Potaizza" } #(JP) "Potaissa" is ancient Dacian and Roman fortress
+#8210 Fogaras
+8211 = { "San Giorgio" "San Giorgio" }
+#8212 Sumuleu Ciuc
+8213 = { "Castrum Sesso" "Castrum Sesso" } #(JP) Latin "Castrum Sex"
+8215 = { "Regino" "Regino" } #(JP) Maybe...?
+#8218 Debrecen
+8219 = { "Vaslui" "Vaslui" } #(JP) Base names
+8220 = { "San Masaracchio" "San Masaracchio" } #(JP) Chisnau was founded as a monastery village around this church. Better than nowt?
+#8493 Zarand
+8494 = { "Transmurania" "Sabato" }
+8495 = { "Canissa" "Canissa" }
+
+#Poland
+254 = { "Posen" "Posen" }
+255 = { "Calisca" "Calisca" }
+256 = { "Poltco" "Poltco" }
+257 = { "Varsavia" "Varsavia" }
+258 = { "Siradia" "Siradia" }
+259 = { "Sandomiria" "Sandomiria" }
+260 = { "Lublino" "Lublino" }
+262 = { "Cracovia" "Cracovia" }
+264 = { "Breslavia" "Breslavia" }
+1938 = { "Vizna" "Vizna" }
+1939 = { "Lencicia" "Lencicia" }
+3142 = { "Troppavia" "Troppavia" }
+4526 = { "Gniesna" "Gniesna" }
+
+#Ruthenia
+270 = { "Trochio" "Trochio" }
+272 = { "Vilna" "Vilna" }
+275 = { "Polocza" "Polocza" }
+276 = { "Minsca" "Minsca" }
+277 = { "Bresici" "Bresici" }
+278 = { "Pinsca" "Pinsca" }
+280 = { "Chiovia" "Chiovia" }
+771 = { "Vitepsca" "Vitepsca" }
+1940 = { "Belza" "Belza" }
+1942 = { "Zitomierza" "Zitomierza" }
+1943 = { "Brasclavia" "Brasclavia" }
+2407 = { "Pereslavia" "Pereslavia" }
+2424 = { "Premisca" "Premisca" }
+2961 = { "Leopoli" "Leopoli" }
+3223 = { "Bialla" "Bialla" }
+3238 = { "Luzeoria" "Luzeoria" }
+3239 = { "Zaslavia" "Zaslavia" }
+4247 = { "Costantinovia" "Costantinovia" }
+4538 = { "Chelma" "Chelma" }
+4540 = { "Vuinniza" "Vuinniza" }
+4545 = { "Sluzca" "Sluzca" }
+7242 = { "Cernobil" "Cernobil" }
+
+#Russia
+33 = { "San Pietroburgo" "San Pietroburgo" } #(JP) Not founded yet, but is easy to recognise
+295 = { "Mosca" "Mosca" }
+307 = { "Volodimira" "Volodimira" }
+310 = { "Novogrodde" "Novogrodde" }
+312 = { "Bieleizoro" "Bieleizoro" }
+313 = { "Arcangelo" "Arcangelo" }
+274 = { "Plescovia" "Plescovia" }
+293 = { "Smolensco" "Smolensco" }
+294 = { "Tuveria" "Tuveria" }
+1752 = { "Reiscovia" "Reiscovia" }
+1754 = { "Morom" "Morom" }
+1778 = { "Casigorod" "Casigorod" }
+1955 = { "Colmogorre" "Colmogorre" }
+1956 = { "Susdal" "Susdal" }
+1957 = { "Galizza" "Galizza" }
+1958 = { "Cargopolia" "Cargopolia" }
+1961 = { "San Nicolò" "San Nicolò" }
+3271 = { "Bielechi" "Bielechi" }
+3277 = { "Cologna" "Cologna" }
+3290 = { "Mosaisco" "Mosaisco" }
+3301 = { "Viesma" "Viesma" }
+4147 = { "Rostovia" "Rostovia" }
+
+#Ural
+305 = { "Permia" "Permia" }
+1082 = { "Casania" "Casania" }
+
+#Baltic
+36 = { "Rivalia" "Rivalia" }
+39 = { "Goldinga" "Goldinga" }
+41 = { "Regiomonte" "Regiomonte" }
+43 = { "Danzica" "Danzica" }
+1834 = { "Derpta" "Derpta" }
+1841 = { "Marienburgo" "Marienburgo" }
+1842 = { "Nerva" "Nerva" }
+1859 = { "Turonia" "Turonia" } #(JP) Technically the province is "Kulm"/"Chelmno" but this is in there
+3227 = { "Plenon" "Plenon" }
+3293 = { "Serburgo" "Serburgo" }
+7857 = { "Apsala" "Apsala" }
+
+#Scandinavia
+1 = { "Stoccolma" "Stoccolma" }
+12 = { "Copenàga" "Copenàga" }
+14 = "Fionia"
+1979 = "Isole Deucalidonie" #faer oer. possibly just deucalidonie.
+4163 = { "Gotemburgo" "Gotemburgo" }
+
+#Britain
+233 = "Cornovaglia"
+236 = { "Londra" "Londra" }
+239 = { "Glocester" "Glocester" }
+245 = { "Eboraco" "Eboraco" }
+246 = { "Nortombria" "Novocastro" }
+248 = { "Edimburgo" "Edimburgo" }
+369 = "Isole Orcadi"
+3019 = { "Glascovia" "Glascovia" }
+
+#Ireland
+373 = { "Dublino" "Dublino" }
+
+#Persia
+429 = { "Ispania" "Ispania" }
+433 = { "Iadis" "Iadis" }
+
+#Khorasan
+445 = { "Margiana" "Margiana" }
+446 = { "Aria" "Aria" }
+450 = { "Bactria" "Bactria" } 
+
+#Central Asia
+442 = { "Bucara" "Bucara" }
+454 = { "Samarcanda" "Samarcanda" }
+
+#Tibet
+
+#Hindustan
+
+#Western India
+
+#Deccan
+
+#Coromandel
+1998 = { "Isola di Natale" "Castellonatale" } #(JP) Christmas Island
+
+#Bengal
+564 = { "Dacca" "Dacca" }
+
+#Burma
+
+#Indochina
+613 = { "Tonchino" "Tonchino" }
+
+#Malaysia
+
+#Sumatra
+
+#Java
+
+#Lesser Sundas
+
+#Australia
+
+#New Zealand
+
+#Polynesia
+
+#Celebes
+
+#Borneo
+
+#Philippines
+
+#South China
+667 = { "Canton" "Canton" }
+1821 = { "Nanchino" "Nanchino" }
+1822 = { "Sciangai" "Sciangai" }
+
+#Xinan
+
+#North China
+1816 = { "Pechino" "Pechino" }
+
+#Mongolia
+
+#Manchuria
+
+#Korea
+
+#Japan
+
+#East Siberia
+
+#West Siberia
+
+#Horn of Africa #(JP) Apart from Sudan
+1205 = { "Mogadiscio" "Mogadiscio" }
+1206 = { "Gardò" "Gardò" }
+1207 = { "Gode" "Gode" }
+1208 = { "Dagabore" "Dagabore" }
+1209 = { "Berbera" "Berbera" }
+1210 = { "Gendebelo" "Gendebelo" }
+1211 = { "Harer" "Harer" }
+1212 = { "Zeila" "Zeila" }
+1213 = { "Scioà" "Scioà" }
+1214 = { "Haico" "Haico" }
+1215 = { "Tagiura" "Tagiura" }
+1218 = { "Irgalem" "Irgalem" }
+1223 = { "Debra Marcos" "Debra Marcos" }
+1224 = { "Gondar" "Gondar" }
+1227 = { "Axum" "Axum" }
+1230 = { "Massaua" "Massaua" }
+2024 = { "Garoe" "Garoe" }
+2756 = { "Caffa" "Caffa" }
+2757 = { "Anderaccha" "Anderaccha" }
+2758 = { "Inanaria" "Giadare" }
+2759 = { "Porto Villagio" "Porto Villagio" }
+2760 = { "Hosseinà" "Hosseinà" }
+2761 = { "Asellè" "Asellè" }
+2762 = { "Lecamti" "Lecamti" }
+2763 = { "Asosà" "Asosà" }
+2764 = { "Asaita" "Asaita" }
+2765 = { "Assab" "Assab" }
+2766 = { "Sanhito" "Sanhito" }
+2767 = { "Antalo" "Antalo" }
+2768 = { "Terio" "Terio" }
+2769 = { "Lalibela" "Lalibela" }
+2770 = { "Danchilla" "Danchilla" }
+2771 = { "Debarech" "Debarech" }
+2772 = { "Gregorio" "Gregorio" }
+2773 = { "Giggiga" "Giggiga" }
+2775 = { "Merca" "Merca" }
+2776 = { "Afgoi" "Afgoi" }
+2778 = { "Uardere" "Uardere" }
+2779 = { "Afder" "Afder" }
+2780 = { "Belet Uen" "Belet Uen" }
+2781 = { "Lugh Ferrandi" "Lugh Ferrandi" }
+2782 = { "Uarscèc" "Uarscèc" }
+2783 = { "Obbia" "Obbia" }
+2784 = { "Gallacaio" "Gallacaio" }
+2785 = { "Selburo" "Selburo" }
+2786 = { "Porta Cassim" "Porta Cassim" }
+2787 = { "L'Asmara" "L'Asmara" } #(JP) Not technically this province, but nice 'lil Italian name
+2788 = { "Dante" "Dante" }
+2789 = { "Las Gorei" "Las Gorei" }
+2790 = { "Meit" "Meit" }
+2791 = { "Ancober" "Ancober" }
+2792 = { "Bohotle" "Bohotle" }
+2793 = { "Hargheisa" "Hargheisa" }
+2794 = { "Brava" "Brava" }
+2795 = { "Meregh" "Meregh" }
+4158 = { "Giangiero" "Fofa" }
+5288 = { "Cabo Cesare" "Cabo Cesare" } #(JP) "Ras Kasar". Ras -> Cabo. "Cesare" is more like a mini easter egg
+5297 = { "Curdèt" "Curdèt" }
+5298 = { "Adúli" "Adúli" }
+
+#Sahel
+2448 = { "Sebha" "Sebha" }
+2474 = { "Murzuch" "Murzuch" }
+5307 = { "Rapsa" "Rapsa" } #(JP) "Rapsa" is based off the Latin, "Gat" is what Italian wiki gives me
+
+#Niger
+
+#Guinea
+1096 = "Capo Verde"
+1306 = "San Tommaso"
+
+#Congo
+
+#Central Africa
+
+#East Africa
+1102 = "Maurizio"
+1103 = "Isole delle Riunione"
+2774 = { "Chisimaio" "Chisimaio" }
+2777 = { "Bardera" "Bardera" }
+
+#South Africa
+1177 = { "Città del Capo" "Città del Capo" }
+
+#Caribbean
+481 = { "Isola Bermuda" "Gonzaga" }
+482 = { "Isole Bassa Marea" "Lampedusa" }
+483 = { "Isole Turche" "Baia Speranza" }
+484 = { "L'Avana" "L'Avana" }
+485 = { "Spirito Santo" "Spirito Santo" }
+486 = { "San Giacomo di Cuba" "San Giacomo di Cuba" }
+487 = { "Giamaica" "Santa Caterina" }
+488 = { "Porto Principe" "Porto Principe" }
+489 = { "Capo Italiano" "Capo Italiano" }
+490 = { "San Leone Magno" "San Leone Magno" }
+491 = { "Isola della Guarigione" "Città Regia" }
+492 = { "Porto Ricco" "San Giovanni Battista"}
+493 = { "Sant'Anna" "Baia della Rada" }
+494 = { "San Cristoforo" "San Cristoforo" }
+495 = { "Antica" "San Giovanni Caraibico" }
+496 = { "Guadalupa" "Santa Maria di Guadalupa" }
+497 = { "Domenica" "Roseto" }
+498 = { "Martinica" "Bastione Italia" }
+499 = { "Santa Lucia" "Carenaggio" }
+500 = { "San Vincenzo" "Forte Elena" }
+501 = { "Isola Barbata" "San Michele" }
+502 = { "Trinità" "Porto d'Italia" }
+1881 = { "Anguilla" "La Valletta" }
+2654 = { "Porto Santo"  "Porto Santo" }
+2655 = { "Fiume Cauto" "Manzaniglio"}
+2656 = { "Baia dei Principi" "Baia dei Principi" }
+2658 = { "Madonna delle Grazie" "Madonna delle Grazie" }
+2659 = { "Porto Argentario" "Porto Argentario" }
+4618 = { "San Marco Amerindo" "San Marco Amerindo" }
+4619 = { "Porto di Pace" "Porto di Pace" }
+4620 = { "Forte La Concezione" "Forte La Concezione" }
+4621 = { "San Domenico" "San Domenico" }
+4622 = { "Isola dei Giovani" "San Luigi Gonzaga" }
+4623 = { "Santa Chiara" "Santa Chiara" }
+4624 = { "Nuova Mantova" "Nuova Mantova" }
+5563 = { "Corallina" "Corallina" }
+5565 = { "Baia Santa Croce" "Baia Santa Croce" }
+5567 = { "San Giovanni Caribe" "San Giovanni Caribe" }
+5572 = { "Porto Paterno" "Porto Paterno" }
+5574 = { "Eleuthera" "Eleuthera" }
+5575 = { "Re d'Italia" "Re d'Italia" }
+5576 = { "Capo Primavera" "Rifugio di Abramo" }
+5577 = { "Isola dell'Acqua" "San Matteo Evangelista" }
+5578 = { "Aruba" "Sabaudia" }
+5579 = { "Isola Margherita" "San Carlo Borromeo" }
+5581 = { "Tabacco" "Porto Amedeo" }
+5582 = { "Nuova Elba" "Portoferrio" }
+5583 = { "Monserrato" "San Pietro Antillano" }
+5584 = { "Santa Croce" "Santa Croce" }
+5585 = { "San Bartolomeo" "Umbertide" }
+5586 = { "San Martino" "Forte Filippo" }
+
+#Canada
+5013 = { "San Giovanni" "San Giovanni" }
+5019 = { "San Pietro" "San Pietro" }
+5059 = { "Piacenza" "Piacenza" }
+
+#Hudson Bay
+#Northwest Territories
+#Cascadia
+#Alaska
+#California
+#Great Plains
+#Great Lakes
+#Northeast
+#Southeast
+#Mississippi
+#Rio Grande
+#Mexico
+#Central America
+#Colombia
+#Peru
+#Upper Peru
+#Brazil
+#La Plata
+1095 = "Isole Maluine"
+1098 = "Sant'Elena"
+
+#Unsorted
+1849 = "Emesa"
+235 = "Cantuaria" #canterbury, kent is Canzia
+1861 = "Notimgamia" #this likely refers to Nottingham, but Derby is close enough
+243 = "Lincolnia"
+4368 = "Dunelmo" #Durham
+244 = "Lancastro" #this would be lancaster, otherwise the region is called Loncastria
+4375 = "Neomago" #the city, the region Cestria
+4369 = "Pembrochia"
+3036 = "Ceretica"
+240 = "Shrevesburi" #shrewsbury
+242 = "Bancorio" #the altas reports a major city called bancorio which is located "between Cambria (Galles, apparently) and the Isola Anglesei (Anglesey). Has to be gwynedd.
+3034 = "Brechinia" #Brecknockshire, apparently.
+3032 = "Devonia"
+4373 = "Somersezia"
+4374 = "Dorcestria"
+234 = "Caservero" #the atlas also mentions Salesburi, Dunio and Soncioduno. I like the one I proposed better.
+4371 = "Susexia" #sussex. 
+237 = "Osfordia" #oxfordshire
+4370 = "Cantabrigia"
+1860 = "Norfolcia" #Norfolk
+3028 = "Suffoldia" #Suffolk
+4376 = "Longovico" #leicester
+4372 = "Presidio" 
+238 = "Cameloduno" #Colchester, according to the atlas it's the biggest city in essex. 
+247 = "Carille" #Carlisle, otherwise Cumbria is fine too.
+3008 = "Gallovidia" #Galloway
+4362 = "Anania" #the region of annan
+249 = "Carrichia" #the name means the region of the killochan castle, which is in the ayr province
+3138 = "Strivilingia" #the name means the province of the Stirling castle, which should be in the region
+250 = "San Giovanni" #the city of perth, the province is Perzia (but I don't like it). 
+3139 = "Anguzia" #angus region
+251 = "Martia" #Aberdeen region
+252 = "Murhavia" #inverness province
+4363 = "Argilia" #Argyll
+4110 = "Catnelia" 
+13 = "Slesvicco"
+3135 = "Tonninga" #Tönningen
+3136 = "Ditmarsia"
+4149 = "Coldinga" #Kolding
+4142 = "Jutland orientale"
+3134 = "Aterslebia"
+6 = "Scania"
+26 = "Hallandia"
+1982 = "Bechingia"
+4136 = "Gotteburgo"
+4164 = "Dalia"
+16 = "Bausia" #replaces previous suggestion. 
+3120 = "Lincopia"
+3 = "Colmarre" #Kalmar
+3121 = "Elanda" 
+3132 = "Uplandia" 
+7 = "Fallonia" #the atlas refers to a city called "fallechopingia" which I could not identify, but it lists the billingen mesas as a nearby location. they are located in the skaraborg area, hence the name.
+23 = "Begershusia" 
+22 = "Valle" 
+17 = "Cristiania" #the city is called oslo in modern italian, but the atlas doesn't even report that name so I went with the second most common.
+20 = "Nidrosia" #the name refers to the nidelva river's italian name Nidro
+3122 = "Dalacardia"
+8 = "Dalecarlia"
+4113 = "Chimilapmarchia"
+315 = "Finnmarchia"
+27 = "Abo" #replaced previous suggestion
+3128 = "Satacundia"
+4124 = "Biarmia" #not scandinavia ingame but whatever
+9 = "Nilandia" #replaces previous suggestion
+
+5317 = "Thabraca" #Tabarka
+2954 = "Gerba" #Djerba
+5313 = "Cillilana" #Kasserine.
+2473 = "Adramento" #Sousse. Inspired by the old Latin name
+5315 = "Seca" #Kef. Inspired by the old Latin name
+352 = "Capra" #Gafsa. Inspired by the old Latin name
+2353 = "Trapari" #Sfax. Inspired by the old Latin name
+5314 = "Vecca" #Beja.
+5320 = "Marcimani" #Ain Beida
+351 = "Vescera" #Biskra
+5316 = "Tusuro" #Tozeur
+2450 = "Ramada" #Jebil
+5322 = "Cartenna" #Mitidja
+2462 = "Tingartia" #Tiaret
+5324 = "Fallaba" #Djelfa
+2467 = "Volubilis" #Meknes
+#Bottom

@@ -11,7 +11,7 @@ country_decisions = {
 			always = no
 			NOT = {
 				OR = {
-					has_dlc = "Dharma" 
+					has_dlc = "Dharma"
 					has_dlc = "Emperor"
 				}
 			}
@@ -22,9 +22,12 @@ country_decisions = {
 		}
 
 		allow = {
+			is_revolutionary = no
 			OR = {
 				religion = protestant
 				religion = reformed
+				religion = hussite
+				religion = anglican
 			}
 		}
 
@@ -32,14 +35,14 @@ country_decisions = {
 			add_government_reform = prussian_republic
 		}
 	}
-	
+
 	institute_prussian_monarchy = {
 		major = yes
 		potential = {
 			always = no
 			NOT = {
 				OR = {
-					has_dlc = "Dharma" 
+					has_dlc = "Dharma"
 					has_dlc = "Emperor"
 				}
 			}
@@ -50,9 +53,12 @@ country_decisions = {
 		}
 
 		allow = {
+			is_revolutionary = no
 			OR = {
 				religion = protestant
 				religion = reformed
+				religion = hussite
+				religion = anglican
 			}
 		}
 
@@ -60,5 +66,5 @@ country_decisions = {
 			add_government_reform = prussian_monarchy
 		}
 	}
-	
+
 }

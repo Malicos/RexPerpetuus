@@ -168,6 +168,7 @@ country_event = {
 					province_id = 4475
 				}
 	 		}
+	 		# Brian; what does it mean?
 			add_base_production = 2 #NB: Should be altered to affect additional provinces and this lowered back to 1 when overhaul reaches here.
 			add_province_modifier = {
 				name = "bng_delta_reclaimed"
@@ -274,7 +275,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = inspiring_leader_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = inspiring_leader } }
 		}
 		add_stability = -2
 		#custom_tooltip = flavor_bng.6.b.tt
@@ -491,9 +492,9 @@ country_event = {
 		}
 		add_prestige = 20
 		capital_scope = {
-			add_base_tax = 7
-			add_base_production = 7
-			add_base_manpower = 6
+			add_base_tax = 7 # BT; 4
+			add_base_production = 7 # BT; 3
+			add_base_manpower = 6 # BT; 3
 		}
 		add_country_modifier = {
 			name = "tiger_triumphant"

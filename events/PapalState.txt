@@ -7,13 +7,14 @@ country_event = {
 	
 	trigger = {
 		papacy_active = yes
-		owns = 118		# Rome
+		owns = 118 # Rome
 		normal_or_historical_nations = yes
 		religion = catholic
-		NOT = { tag = PAP }
+		NOT = { tag = ITA } # Brian; 1.30: NOT = { tag = PAP }
+		NOT = { tag = ITL } # Brian; add that to BT?
 		NOT = { tag = ROM }
-		NOT = { exists = ITA }
-		NOT = { exists = ITL }
+		NOT = { exists = PAP } # Brian; 1.30: NOT = { exists = ITA }
+		NOT = { exists = ITL } # Brian; remove that?; BT
 		NOT = { has_country_flag = no_support }
 	}
 	
@@ -101,7 +102,7 @@ country_event = {
 		papacy_active = yes
 		NOT = { exists = PAP }
 		NOT = { exists = ITA }
-		NOT = { exists = ITL }
+		NOT = { exists = ITL } # BT
 		religion = catholic
 		government = theocracy
 		NOT = { has_ruler_flag = refused_papacy }

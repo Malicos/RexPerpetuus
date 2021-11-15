@@ -765,13 +765,31 @@ country_decisions = {
 				}
 				add_permanent_claim = GMV
 			}
-			moravia_area = {
+			erzgebirge_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GMV
+			}
+			bohemian_forest_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = GMV
 			}
 			slovakia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GMV
+			}
+			upper_hungary_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GMV
+			}
+			austria_proper_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}

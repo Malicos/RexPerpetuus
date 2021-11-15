@@ -14,7 +14,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = ITA }
-			NOT = { exists = ITL }
+			NOT = { exists = ITL } # BT
 			tag = PAP
 			NOT = { has_country_flag = is_kingdom_of_god_flag }
 			OR = {
@@ -54,33 +54,33 @@ country_decisions = {
 			owns_core_province = 101	# Genoa
 			owns_core_province = 103	# Torino
 			owns_core_province = 104	# Milano
-			owns_core_province = 105	# Parma
+			owns_core_province = 105	# Parma # BT
 			owns_core_province = 106	# Modena
-			owns_core_province = 107	# Brescia
-			owns_core_province = 108	# Verona
-			owns_core_province = 109	# Mantua
+			owns_core_province = 107	# Brescia # BT
+			owns_core_province = 108	# Verona # BT
+			owns_core_province = 109	# Mantua # BT
 			owns_core_province = 110	# Trento
 			owns_core_province = 111	# Udine / Aquileia
 			owns_core_province = 112	# Venice
-			owns_core_province = 113	# Ferrara
+			owns_core_province = 113	# Ferrara # BT
 			owns_core_province = 114	# Bologna + Ravenna
-			owns_core_province = 115	# Pisa
 			owns_core_province = 116	# Firenze
-			owns_core_province = 117	# Siena
-			owns_core_province = 118	# Roma
+			owns_core_province = 115	# Pisa
+			owns_core_province = 117	# Siena # BT
+			owns_core_province = 118	# Roma # BT
 			owns_core_province = 119	# Ancona + Fermo
 			owns_core_province = 2976	# Perugia
 			owns_core_province = 2977	# Pesaro
 		}
 		effect = {
-			add_country_modifier = {
+			add_country_modifier = { # BT
 				name = "btp_kingdom_of_god"
 				duration = -1
 			}
 			country_event  = { id = catholic_flavor.2 }
-            italy_region = {
+            italy_region = { # BT adjusted
                 limit = {
-                    NOT = { is_permanent_claim = ROOT }
+                    NOT = { is_permanent_claim = ROOT } # BT; replaced owned_by
                 }
                 add_permanent_claim = ROOT
             }

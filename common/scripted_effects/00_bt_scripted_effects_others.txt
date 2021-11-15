@@ -104,3 +104,117 @@ change_culture_group_effect = {
 	}
 	#Advisors (Can't be done currently due to lack of EU4 effects)
 }
+
+#############################################################
+#############################################################
+#############################################################
+#Pieter's From Chocolate
+#############################################################
+#############################################################
+#############################################################
+choc_FrederickIII_dies_first = {
+    #Habsburgian succession stuff
+    if = {
+        limit = { 
+            ai = yes 
+            OR = { 
+                tag = STY
+                tag = HAB
+            }                
+            has_country_flag = choc_albrecht_friedrich_brothers 
+        }
+        if = {
+            limit = { has_heir = no }
+            STY = { clr_country_flag = choc_albrecht_friedrich_brothers }
+            VOR = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = ROOT restore_country_name = yes change_tag = ROOT }
+        }
+        else = {
+            STY = { clr_country_flag = choc_albrecht_friedrich_brothers }
+            HAB = { clr_country_flag = choc_albrecht_friedrich_brothers }
+            VOR = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = ROOT restore_country_name = yes change_tag = ROOT }
+        }
+    }
+    else_if = {
+        limit = { 
+            ai = no 
+            OR = { 
+                tag = STY
+                tag = HAB
+            }                
+            has_country_flag = choc_albrecht_friedrich_brothers 
+        }
+        if = {
+            limit = {
+                has_heir = no
+            }
+            VOR = { clr_country_flag = choc_albrecht_friedrich_brothers exile_ruler_as = albrechtVI }
+            STY = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = VOR 
+                set_ruler = albrechtVI
+            }
+        }
+        else = {
+            HAB = { clr_country_flag = choc_albrecht_friedrich_brothers }
+            STY = { clr_country_flag = choc_albrecht_friedrich_brothers }
+            VOR = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = ROOT change_tag = ROOT }
+        }
+    }
+}
+
+choc_AlbrechtVI_dies_first = {
+    #Habsburgian succession stuff
+    if = {
+        limit = { 
+            tag = VOR
+            has_country_flag = choc_albrecht_friedrich_brothers
+            ai = yes
+        }
+        if = {
+            limit = {
+                STY = { exists = yes }
+                has_heir = no
+            }
+            STY = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = ROOT }
+        }
+        else_if = {
+            limit = {
+                HAB = { exists = yes has_country_flag = choc_albrecht_friedrich_brothers }
+                has_heir = no
+            }
+            HAB = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = ROOT }
+        }
+        STY = { clr_country_flag = choc_albrecht_friedrich_brothers }
+        HAB = { clr_country_flag = choc_albrecht_friedrich_brothers }
+        VOR = { clr_country_flag = choc_albrecht_friedrich_brothers }
+    }
+    else_if = {
+        limit = { 
+                tag = VOR
+                has_country_flag = choc_albrecht_friedrich_brothers
+                has_heir = no
+                ai = no
+        }
+        if = {
+            limit = {
+                STY = { exists = yes }
+                has_heir = no
+            }
+            STY = { clr_country_flag = choc_albrecht_friedrich_brothers exile_ruler_as = FrederickIII }
+            VOR = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = STY change_tag = STY
+                set_ruler = FrederickIII
+            }
+        }
+        else_if = {
+            limit = {
+                HAB = { exists = yes has_country_flag = choc_albrecht_friedrich_brothers }
+                has_heir = no
+            }
+            HAB = { clr_country_flag = choc_albrecht_friedrich_brothers exile_ruler_as = FrederickIII }
+            VOR = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = HAB change_tag = HAB
+                set_ruler = FrederickIII
+            }
+        }
+        STY = { clr_country_flag = choc_albrecht_friedrich_brothers }
+        HAB = { clr_country_flag = choc_albrecht_friedrich_brothers }
+        VOR = { clr_country_flag = choc_albrecht_friedrich_brothers }
+    }
+}

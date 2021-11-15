@@ -181,6 +181,7 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_regency = no
 				has_consort = no
 				has_government_attribute = queen
 			}
@@ -310,7 +311,7 @@ country_event = {
 	trigger = {
 		NOT = { has_global_flag = columbus_happened }
 		has_idea = quest_for_the_new_world
-		NOT = { is_year = 1506 }				#Colombus died in 1506.... should be able to hire him after that.
+		NOT = { is_year = 1506 } # BT; Columbus died in 1506... should NOT be able to hire him after that.
 		OR = {
 			NOT = {
 				north_america = {
@@ -341,13 +342,13 @@ country_event = {
 
 	option = {		# Reject his proposal
 		name = "flavor_spa.EVTOPTA1"
-		ai_chance = { factor = 5 }
+		ai_chance = { factor = 5 } # BT; 10
 		set_country_flag = turned_down_columbus
 		random_known_country = {
 			limit = {
 				NOT = { has_country_flag = turned_down_columbus }
 				religion = catholic
-				num_of_ports = 1
+				num_of_ports = 1 # BT
 				has_idea = quest_for_the_new_world
 			}
 			country_event = { id = flavor_spa.1 }
@@ -355,7 +356,7 @@ country_event = {
 	}
 	option = {		# Hire Columbus
 		name = "flavor_spa.EVTOPTB1"
-		ai_chance = { factor = 95 }
+		ai_chance = { factor = 95 } # BT; 90
 		add_years_of_income = -0.25
 		set_global_flag = columbus_happened
 		define_explorer = {
@@ -365,7 +366,7 @@ country_event = {
 			manuever = 6
 			siege = 0
 		}
-		add_country_modifier = {
+		add_country_modifier = { # BT
 			name = bt_daring_navigator
 			duration = 3650
 		}
@@ -850,12 +851,12 @@ country_event = {
 	trigger = {
 		tag = SPA
 		religion = catholic
-		NOT = { primary_culture = andalusi_culture }
+		NOT = { primary_culture = andalusi_culture } # BT; andalucian
 		NOT = { exists = GRA }
 		is_year = 1600
 		
 		any_owned_province = {
-			culture = andalusi_culture	
+			culture = andalusi_culture # BT; andalucian
 		}
 		NOT = { has_dlc = "Golden Century" }
 	}
@@ -877,7 +878,7 @@ country_event = {
 
 		every_owned_province = {
 			limit = {
-				culture = andalusi_culture	
+				culture = andalusi_culture # BT; andalucian
 			}
 			add_unrest = 5
 		}
@@ -1921,8 +1922,8 @@ country_event = {
 	trigger = {
 		tag = SPA
 		owns_core_province = 217 #Madrid
-		owns_core_province = 215 #Valladolid
-		owns_core_province = 219 #Toledo
+		owns_core_province = 215 # BT / Valladolid
+		owns_core_province = 219 # BT / Toledo
 		NOT = { capital = 217 } #Madrid
 		num_of_cities = 25
 		government = monarchy
@@ -1944,16 +1945,16 @@ country_event = {
 				NOT = { primary_culture = castillian }
 			}
 		}
-		capital_scope = {
+		capital_scope = { # BT
 			add_base_tax = -1
 			add_base_production = -1
 			add_base_manpower = -1
 		}
-		215 = {
+		215 = { # BT
 			add_base_tax = -1
 			add_base_production = -1
 		}
-		219 = {
+		219 = { # BT
 			add_center_of_trade_level = -1
 			add_base_tax = -1
 			add_base_production = -1
@@ -1964,11 +1965,11 @@ country_event = {
 				name = "solo_madrid_es_corte"
 				duration = 3650
 			}
-			center_of_trade = 2
-			add_base_tax = 4
-			add_base_production = 4
-			add_base_manpower = 2
-			change_trade_goods = cloth
+			center_of_trade = 2 # BT
+			add_base_tax = 4 # BT
+			add_base_production = 4 # BT
+			add_base_manpower = 2 # BT
+			change_trade_goods = cloth # BT
 		}	#Draiocht lowered 1444 dev in Madrid, this increases it back to a Euro Capital level
 	}
 	option = {		# X remains a fine capital.
@@ -2006,7 +2007,7 @@ country_event = {
 		any_owned_province = {
 			NOT = { has_province_modifier = forced_conversion }
 			region = iberia_region
-			culture = andalusi_culture
+			culture = andalusi_culture # BT; andalucian
 			is_core = GRA
 		}
 		OR = {
@@ -2031,7 +2032,7 @@ country_event = {
 				limit = {
 					region = iberia_region
 					is_core = GRA
-					culture = andalusi_culture
+					culture = andalusi_culture # BT; andalucian
 					OR = {
 						fort_level = 1
 						province_id = 223
@@ -2043,7 +2044,7 @@ country_event = {
 				limit = {
 					region = iberia_region
 					is_core = GRA
-					culture = andalusi_culture
+					culture = andalusi_culture # BT; andalucian
 					NOT = { has_province_flag = alpujarras_centre_of_revolt }
 				}
 				set_province_flag = alpujarras_revolt
@@ -2072,8 +2073,8 @@ country_event = {
 			}
 			clr_province_flag = alpujarras_centre_of_revolt
 		}
-		custom_tooltip = flavor_spa.7.tooltip
-		hidden_effect = {
+		custom_tooltip = flavor_spa.7.tooltip # BT
+		hidden_effect = { # BT; put inside hidden_effect
 			every_owned_province = {
 				limit = {
 					has_province_flag = alpujarras_revolt
@@ -2082,7 +2083,7 @@ country_event = {
 					limit = { NOT = { religion = sunni } }
 					change_religion = sunni #Crypto-Muslims
 				}
-				random_list = { #Roughly 50/50 because we have double the vanilla provinces with Granadan cores.
+				random_list = { # BT; Roughly 50/50 because we have double the vanilla provinces with Granadan cores.
 					40 = {
 						spawn_rebels = {
 							type = nationalist_rebels
@@ -2091,7 +2092,7 @@ country_event = {
 						}
 						clr_province_flag = alpujarras_revolt
 					}
-					60 = {} #No effect
+					60 = {} #no effect
 				}
 			}
 		}
@@ -2152,7 +2153,7 @@ country_event = {
 			change_religion = catholic
 			remove_core = GRA
 		}
-		every_owned_province = {
+		every_owned_province = { # BT
 			limit = {
 				culture = andalusi_culture
 			}

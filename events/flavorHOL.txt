@@ -66,7 +66,7 @@ country_event = {
 			is_year = 1645
 		}
 
-		owns = 4383
+		owns = 4383 # BT; 97
 	}
 	
 	mean_time_to_happen = {
@@ -95,7 +95,7 @@ country_event = {
 				culture = dutch
 				discount = yes
 				skill = 3
-				location = 4383 #Delft
+				location = 4383 # BT; 97
 			}
 			add_innovativeness_small_effect = yes
 		}
@@ -117,7 +117,7 @@ country_event = {
 		NOT = {
 			is_year = 1687
 		}
-		owns = 4383
+		owns = 4383 # BT; 97
 	}
 	
 	mean_time_to_happen = {
@@ -138,7 +138,7 @@ country_event = {
 				culture = dutch
 				discount = yes
 				skill = 2
-				location = 4383
+				location = 4383 # BT; 97
 			}
 			add_innovativeness_small_effect = yes
 		}
@@ -201,6 +201,7 @@ country_event = {
 		NOT = {	has_reform = dutch_republic }
 		NOT = { has_reform = celestial_empire }
 		is_revolutionary = no
+		#is_subject = no # ??? BT removed
 	}
 	
 	mean_time_to_happen = {
@@ -538,7 +539,7 @@ country_event = {
 		tag = NED
 		is_year = 1575
 		NOT = { is_year = 1600 }
-		owns = 4383
+		owns = 4383 # BT; 97
 	}
 	
 	mean_time_to_happen = {
@@ -653,7 +654,7 @@ country_event = {
 		}
 		NOT = { advisor_exists = 893 }
 		NOT = { is_advisor_employed = 893 }
-		owns = 4383
+		owns = 4383 # BT; 97
 	}
 	
 	mean_time_to_happen = {
@@ -669,7 +670,7 @@ country_event = {
 			culture = flemish
 			discount = yes
 			skill = 3
-			location = 4383
+			location = 4383 # BT; 97
 		}
 		add_innovativeness_small_effect = yes
 	}
@@ -761,7 +762,7 @@ country_event = {
 		#is_year = 1580
 		has_institution = printing_press
 		NOT = { is_year = 1595 }
-		owns = 4383
+		owns = 4383 # BT; 97
 	}
 	
 	mean_time_to_happen = {
@@ -799,7 +800,7 @@ country_event = {
 		is_free_or_tributary_trigger = yes
 		OR = {
 			AND = {
-				exists = POR
+				exists = POR # BT
 				POR = {
 					NOT = { alliance_with = NED }
 					any_owned_province = {
@@ -811,7 +812,7 @@ country_event = {
 					}
 				}
 			}
-			AND = {
+			AND = { # BT
 				NOT = { exists = POR }
 				exists = IBE
 				IBE = {
@@ -835,7 +836,7 @@ country_event = {
 	option = {
 		name = flavor_hol.8.a #Sounds like a grand plan!
 		if = {
-			limit = { exists = POR }
+			limit = { exists = POR } # BT
 			every_province = {
 				limit = {
 					OR = {
@@ -859,7 +860,7 @@ country_event = {
 				}
 			}
 		}
-		if = {
+		if = { # BT
 			limit = { 
 				NOT = { exists = POR }
 				exists = IBE
@@ -1566,4 +1567,4 @@ country_event = {
 }
 
 
-### Dutch Dejima chain (GOOD JOB PARADOX!!!)
+# Dutch Dejima chain (GOOD JOB PARADOX!!!)

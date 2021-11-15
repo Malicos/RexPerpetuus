@@ -1162,7 +1162,7 @@ country_event = {
 						owned_by = ROOT
 					}
 				}
-				total_development = 2000 #BT Dev Doubling
+				total_development = 2000 # BT; 1000
 			}
 			QNG = {
 				NOT = { war_with = ROOT }
@@ -1172,7 +1172,7 @@ country_event = {
 						owned_by = ROOT
 					}
 				}
-				total_development = 2000 #BT Dev Doubling
+				total_development = 2000 # BT; 1000
 			}
 		}
 	}
@@ -1317,7 +1317,7 @@ country_event = {
 		NOT = { is_year = 1730 }
 		SWE = {
 			is_free_or_tributary_trigger = yes
-			total_development = 400 #BT Dev Doubling
+			total_development = 400 # BT; 200
 			is_neighbor_of = RUS
 			NOT = {
 				alliance_with = RUS

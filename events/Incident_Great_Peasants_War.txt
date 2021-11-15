@@ -57,7 +57,7 @@ country_event = {
 	
 	option = { # become a peasant republic
 		trigger = {
-			NOT = { total_development = 200 } #BT Dev Doubling
+			NOT = { total_development = 200 } # BT; 100
 			is_emperor = no
 			is_lesser_in_union = no
 			NOT = { tag = PAP }

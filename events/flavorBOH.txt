@@ -30,7 +30,7 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = BOH
-			AND = {
+			AND = { # BT
 				tag = GMV
 				primary_culture = czech
 				NOT = { exists = BOH }
@@ -96,9 +96,9 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = zealot_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = zealot } }
 		}
-		add_reform_desire = 0.03
+		add_reform_desire = 0.02
 	}
 	
 	option = { # Hussite King, Catholic nation - tolerance option
@@ -201,7 +201,7 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = BOH
-			AND = {
+			AND = { # BT
 				tag = GMV
 				primary_culture = czech
 				NOT = { exists = BOH }
@@ -315,7 +315,7 @@ country_event = {
 			name = "boh_hussite_king"
 			duration = -1
 		}
-		add_reform_desire = 0.01
+		add_reform_desire = 0.005
 		if = {
 			limit = {
 				religion = catholic
@@ -361,7 +361,7 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = BOH
-			AND = {
+			AND = { # BT
 				tag = GMV
 				primary_culture = czech
 				NOT = { exists = BOH }
@@ -446,7 +446,7 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = BOH
-			AND = {
+			AND = { # BT
 				tag = GMV
 				primary_culture = czech
 				NOT = { exists = BOH }
@@ -478,7 +478,7 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = BOH
-			AND = {
+			AND = { # BT
 				tag = GMV
 				primary_culture = czech
 				NOT = { exists = BOH }
@@ -525,7 +525,7 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = BOH
-			AND = {
+			AND = { # BT
 				tag = GMV
 				primary_culture = czech
 				NOT = { exists = BOH }
@@ -557,18 +557,8 @@ country_event = {
 country_event = {
 	id = flavor_boh.7
 	title = flavor_boh.7.t
-	desc = {
-		trigger = {
-			religion = hussite
-		}
 		desc = flavor_boh.7.d
-	}
-	desc = {
-		trigger = {
-			NOT = { religion = hussite }
-		}
-		desc = flavor_boh.7.d2
-	}
+
 	picture = {	
 		trigger = {
 			has_dlc = "Emperor"
@@ -654,7 +644,7 @@ country_event = {
 				religion = hussite 
 			}
 		}
-		name = "flavor_boh.7.c"
+		name = "flavor_boh.7.b" # Brian; .c doesn't exist in loc.
 		every_owned_province = {
 			limit = {
 				religion = hussite
@@ -677,7 +667,7 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = BOH
-			AND = {
+			AND = { # BT
 				tag = GMV
 				primary_culture = czech
 				NOT = { exists = BOH }
@@ -770,7 +760,7 @@ country_event = {
 	option = {
 		name = flavor_boh.9.b #We must seek Reconciliation
 		ai_chance = { factor = 10 }
-		add_reform_desire = 0.01
+		add_reform_desire = 0.005
 		add_devotion = -10
 		FROM = {
 			country_event = { id = flavor_boh.11 }
@@ -868,7 +858,7 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = BOH
-			AND = {
+			AND = { # BT
 				tag = GMV
 				primary_culture = czech
 				NOT = { exists = BOH }

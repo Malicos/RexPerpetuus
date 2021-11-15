@@ -65,10 +65,10 @@ country_event = {
 		tag = OMA
 		
 		OR = {
-			1331 = {
+			1331 = { # BT; 4346
 				is_strongest_trade_power = POR
 			}
-			1331 = {
+			1331 = { # BT
 				is_strongest_trade_power = IBE
 			}
 		}
@@ -86,7 +86,7 @@ country_event = {
 		}
 		
 		if = {
-			limit = { exists = POR }
+			limit = { exists = POR } # BT
 			POR = {	
 				add_opinion = {
 					who = root
@@ -98,7 +98,7 @@ country_event = {
 				}
 			}
 		}
-		if = {
+		if = { # BT
 			limit = { 
 				NOT = { exists = POR }
 				exists = IBE
@@ -115,7 +115,7 @@ country_event = {
 				}
 			}
 		}
-		1331 = {
+		1331 = { # BT; 4346
 			add_trade_modifier = {
 				who = root
 				duration = 3650

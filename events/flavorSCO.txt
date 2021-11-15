@@ -342,10 +342,10 @@ country_event = {
 	
 	option = {
 		name = "flavor_sco.EVTOPTA7" #Do it
-		add_treasury = -100
-		add_adm_power = -100
-		highlands_area = {
-			limit = { owned_by = ROOT }
+		add_treasury = -100 # BT; -50
+		add_adm_power = -100 # BT
+		highlands_area = { # BT; 252 & 251
+			limit = { owned_by = ROOT } # BT
 			add_base_tax = 1
 		}
 	}

@@ -259,6 +259,11 @@ daimyo_vassal = {
 	copy_from = vassal
 	count = vassal
 	
+	# Graphics: custom for bt by schockocraft
+	sprite = GFX_icon_daimyo_relation
+	diplomacy_overlord_sprite = GFX_icon_daimyo_overlord
+	diplomacy_subject_sprite = GFX_icon_daimyo_subject
+	
 	# Properties:
 	has_power_projection = yes
 	takes_diplo_slot = no

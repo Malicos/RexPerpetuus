@@ -10,7 +10,7 @@
 east_indian_trade_route = {
 	potential = {
 		num_of_ports = 1
-		bt_downstream_of_india = yes
+		#bt_downstream_of_india = yes # XXX
 		has_discovered = 1460 # Cape of Good Hope			#BT moved from trigger, now required to even see it.
 		#NOT = { capital_scope = { continent = asia } }			#BT removed, replaced with home node check
 		#NOT = { capital_scope = { continent = oceania } }			#BT removed, replaced with home node check
@@ -424,7 +424,7 @@ submission_to_emperor = {
 	trigger = {
 		is_emperor = no
 		NOT = { tag = ITA }
-		NOT = { tag = ITL }
+		NOT = { tag = ITL } # BT
 		capital_scope = {
 			is_part_of_hre = yes
 		}
@@ -448,8 +448,11 @@ counter_revolution = {
 		is_revolutionary = no
 		any_country = {
 			is_revolution_target = yes
+			OR = {
 			capital_scope = {
 				continent = ROOT
+			}
+				is_neighbor_of = ROOT
 			}
 		}
 	}
@@ -706,7 +709,7 @@ hre_dominant_catholic = {
 			religion = catholic
 			religion = protestant
 			religion = reformed
-			religion = hussite
+			religion = hussite # BT
 		}
 		is_part_of_hre = yes			#BT added. This prevents the bonuses for non-HRE tags. Sure, HRE taking a side religiously was significant, but not THAT significant, especially to foreigners outside HRE sphere.
 		is_religion_enabled = protestant			#BT added. Doesn't show up until there is actually reformation religions around.
@@ -733,7 +736,7 @@ hre_dominant_protestant = {
 			religion = catholic
 			religion = protestant
 			religion = reformed
-			religion = hussite
+			religion = hussite # BT
 		}
 		is_part_of_hre = yes			#BT added. This prevents the bonuses for non-HRE tags. Sure, HRE taking a side religiously was significant, but not THAT significant, especially to foreigners outside HRE sphere.
 		is_religion_enabled = protestant			#BT added. Doesn't show up until there is actually reformation religions around.
@@ -760,7 +763,7 @@ hre_dominant_reformed = {
 			religion = catholic
 			religion = protestant
 			religion = reformed
-			religion = hussite
+			religion = hussite # BT
 		}
 		is_part_of_hre = yes			#BT added. This prevents the bonuses for non-HRE tags. Sure, HRE taking a side religiously was significant, but not THAT significant, especially to foreigners outside HRE sphere.
 		is_religion_enabled = reformed			#BT added. Doesn't show up until there is actually reformation religions around.
@@ -885,12 +888,12 @@ italian_wars_triggered_modifier = {
 					war_with = ROOT
 					religion_group = christian
 					capital_scope = { continent = europe }
-					total_development = 300 #BT Dev Doubling
+					total_development = 300 # BT; 150
 				}
 			}
 			AND = {
 				NOT = { capital_scope = { region = italy_region } }
-				total_development = 300 #BT Dev Doubling
+				total_development = 300 # BT; 150
 				any_country = {
 					war_with = ROOT
 					capital_scope = { region = italy_region }

@@ -52,8 +52,8 @@ country_decisions = {
 			is_at_war = no
 			owns_core_province = 262				# Krakow
 			owns_core_province = 257				# Warszawa
-			#owns_core_province = 43					# Danzig
-			#owns_core_province = 1841				# Marienburg
+			#owns_core_province = 43					# Danzig # BT removed
+			#owns_core_province = 1841				# Marienburg # BT removed
 			senior_union_with = LIT
 			MAZ = { exists = no }
 		}
@@ -328,7 +328,7 @@ country_decisions = {
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 2 } }
-				set_government_rank = 2
+				PLC = { set_government_rank = 2 }
 			}
 			if = {
 				limit = {

@@ -66,9 +66,12 @@ country_decisions = {
 			is_at_war = no
 			stability = 2
 			owns_core_province = 723 #Xilin Gol
-			owns_core_province = 1816 #Beijing
 			owns_core_province = 2190 #Qaraqorum
 			owns_core_province = 2136 #Xuanha
+			owns_core_province = 1816 #Beijing
+			1816 = {					#Beijing
+				is_state = yes
+			}
 			custom_trigger_tooltip = {
 				tooltip = subject_all_mongols
 				NOT = {
@@ -112,7 +115,7 @@ country_decisions = {
 				government_rank = 3
 			}
 			else = {
-				total_development = 2000 #BT Dev Doubling
+				total_development = 2000 # BT; 1000
 			}
 		}
 		effect = {

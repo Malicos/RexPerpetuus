@@ -19,7 +19,7 @@ country_decisions = {
 				name = "the_societas_jesu"
 				duration = -1
 			}
-			add_reform_desire = -0.01
+			add_reform_desire = -0.01 # BT; -0.02
 		}
 		ai_will_do = {
 			factor = 1
@@ -367,17 +367,11 @@ country_decisions = {
 		}
 	}
 	
-	# Rex Perpetuus: tweaked for new tags
 	the_khalifah = {
 		potential = {
 			NOT = { has_ruler_modifier = khalifah }
 			religion = sunni
-			NOT = { 
-				OR = {
-					tag = ABS #Is the Caliph
-					tag = SJK #Controls the Caliph already
-				}
-			}
+			NOT = { tag = MAM } #Controls the Caliph already.
 			NOT = { government = republic }
 			ruler_religion = sunni
 		}
@@ -1252,6 +1246,7 @@ country_decisions = {
 			owns_core_province = 441 #Various locations suggested to have been the site of these fires.
 			owns_core_province = 2223 #Various locations suggested to have been the site of these fires.
 		}
+		major = yes
 		effect = {	
 			add_country_modifier = {
 				name = "royal_fires_modifier"
@@ -1735,7 +1730,8 @@ country_decisions = {
 			change_religion = sikhism
 			if = {
 				limit = {
-					has_reform_level = 2
+					government = monarchy
+					reform_level = 2
 				}
 				add_government_reform = khalsa_reform
 			}
@@ -1848,5 +1844,78 @@ country_decisions = {
 			}
 		}
 	}
-	
+	renovate_emerald_buddha_shrine = {
+		potential = {
+			OR = {
+				religion = buddhism
+				religion = mahayana
+				religion = vajrayana
+			}
+			any_owned_province = {
+				has_province_modifier = emerald_buddha
+			}
+		}
+		allow = {
+			years_of_income = 0.25
+		}
+		effect = {
+			add_years_of_income = -0.25
+			if = {
+				limit = {
+					any_owned_province = {
+						has_province_modifier = emerald_buddha
+					}
+				}
+				every_owned_province = {
+					remove_province_modifier = emerald_buddha
+				}
+				capital_scope = {
+					add_permanent_province_modifier = {
+						name = "emerald_buddha_alternate"
+						duration = -1
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}	
+	renovate_emerald_buddha_shrine_alternate = {
+		potential = {
+			OR = {
+				religion = buddhism
+				religion = mahayana
+				religion = vajrayana
+			}
+			any_owned_province = {
+				has_province_modifier = emerald_buddha_alternate
+			}
+		}
+		allow = {
+			years_of_income = 0.25
+		}
+		effect = {
+			add_years_of_income = -0.25
+			if = {
+				limit = {
+					any_owned_province = {
+						has_province_modifier = emerald_buddha_alternate
+					}
+				}
+				every_owned_province = {
+					remove_province_modifier = emerald_buddha_alternate
+				}
+				capital_scope = {
+					add_permanent_province_modifier = {
+						name = "emerald_buddha"
+						duration = -1
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}	
 }

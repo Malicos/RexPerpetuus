@@ -433,7 +433,7 @@ country_event = {
 	}
 }
 
-# The Duke of AlenÃ§on by Daniel Tolman
+# The Duke of Alençon by Daniel Tolman
 
 country_event = {
 	id = emp_mission_events.10
@@ -648,22 +648,21 @@ country_event = {
 
 
 country_event = {
-    id = emp_mission_events.14
-    title = emp_mission_events.14.name
-    desc = emp_mission_events.14.desc
-    picture = DIPLOMACY_eventPicture
-    
-    is_triggered_only = yes
-    
-    option = {
-        name = OH_NO
-        tooltip = {
-            from = { 
-                create_subject = {
-                    subject_type = hanseatic_league_member_bt
-                    subject = root
-                }
-            }
-        }
-    }
+	id = emp_mission_events.14
+	title = emp_mission_events.14.name
+	desc = emp_mission_events.14.desc
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = OH_NO
+		tooltip = {
+			#from = { vassalize = root } # BT removed
+			FROM = { # BT
+				create_subject = {
+					subject_type = hanseatic_league_member_bt
+					subject = ROOT
+				}
+			}
+		}
+	}
 }

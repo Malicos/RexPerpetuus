@@ -17,7 +17,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		OR = {
 		tag = NOR
+			AND = {
+				was_tag = NOR
+				NOT = { exists = NOR }
+				tag = SCA
+			}		
+		}
 		NOT = { is_year = 1452 }
 	}
 	
@@ -49,7 +56,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		OR = {
 		tag = NOR
+			AND = {
+				was_tag = NOR
+				NOT = { exists = NOR }
+				tag = SCA
+			}		
+		}
 		is_year = 1475
 		NOT = { is_year = 1523 }
 	}
@@ -82,11 +96,18 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		OR = {
 		tag = NOR
+			AND = {
+				was_tag = NOR
+				NOT = { exists = NOR }
+				tag = SCA
+			}		
+		}
 		NOT = { is_year = 1500 }
 		315 = { #Finnmark
-			owned_by = NOR
-			controlled_by = NOR
+			owned_by = ROOT
+			controlled_by = ROOT
 		}
 	}
 	
@@ -131,11 +152,18 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		OR = {
 		tag = NOR
+			AND = {
+				was_tag = NOR
+				NOT = { exists = NOR }
+				tag = SCA
+			}		
+		}
 		NOT = { is_year = 1470 }
 		16 = { #Bohuslän
-			owned_by = NOR
-			controlled_by = NOR
+			owned_by = ROOT
+			controlled_by = ROOT
 		}
 	}
 	
@@ -372,6 +400,7 @@ country_event = {
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
+				has_regency = no
 				has_consort = no
 				has_government_attribute = queen
 			}
@@ -534,7 +563,10 @@ country_event = {
 		if = {
 			limit = {
 				has_dlc = "Rights of Man"
-				SCO = { has_consort = no }
+				SCO = { 
+					has_regency = no
+					has_consort = no
+				}
 				has_government_attribute = queen
 			}
 			SCO = {
@@ -822,7 +854,14 @@ country_event = {
 	trigger = {
 		is_year = 1500
 		NOT = { is_year = 1600 }
+		OR = {
 		tag = NOR
+			AND = {
+				was_tag = NOR
+				NOT = { exists = NOR }
+				tag = SCA
+			}		
+		}
 		exists = NED #Independent Netherlands is perhaps not a requirement for Dutch traders but it should be for their ship sector to be thriving enough to have this big impact.
 	}
 	
@@ -842,6 +881,7 @@ country_event = {
 
 #BT Deprecated flavor_nor.17 through 20 in favour of missions. //Dub
 # The Search for Metals in the Skands
+# Brian adjusted to 1.31, comments notwithstanding
 # country_event = {
 	# id = flavor_nor.17
 	# title = "flavor_nor.17.t"
@@ -854,6 +894,7 @@ country_event = {
 		# OR = {
 			# tag = NOR
 			# tag = DAN
+			# tag = SCA
 		# }
 		# owns = 17
 		# owns = 20
@@ -984,11 +1025,18 @@ country_event = {
 				# has_country_modifier = nor_prospecting_the_skands
 				# has_country_flag = nor_mines_found
 			# }
-			# AND = {
-				# tag = NOR
-				# is_year = 1600
-				# NOT = { is_year = 1620 }
-			# }
+			#AND = {
+			#	OR = {
+			#		tag = NOR
+			#		AND = {
+			#			was_tag = NOR
+			#			NOT = { exists = NOR }
+			#			tag = SCA
+			#		}		
+			#	}
+			#	is_year = 1600
+			#	NOT = { is_year = 1620 }
+			#}
 		# }
 		# owns = 17
 	# }
@@ -1030,7 +1078,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		OR = {
 		tag = NOR
+			AND = {
+				was_tag = NOR
+				NOT = { exists = NOR }
+				tag = SCA
+			}		
+		}
 		num_of_ports = 3 #Still a maritime country.
 		is_year = 1711
 		NOT = { is_year = 1720 }
@@ -1061,7 +1116,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		OR = {
 		tag = NOR
+			AND = {
+				was_tag = NOR
+				NOT = { exists = NOR }
+				tag = SCA
+			}		
+		}
 		num_of_ports = 3 #Still a maritime country.
 		is_year = 1650
 		NOT = { is_year = 1675 }
@@ -1096,6 +1158,7 @@ country_event = {
 		OR = {
 			tag = NOR
 			tag = DAN
+			tag = SCA
 		}
 		owns = 17
 		is_year = 1610
@@ -1194,7 +1257,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+		OR = {
 		tag = NOR
+			AND = {
+				was_tag = NOR
+				NOT = { exists = NOR }
+				tag = SCA
+			}		
+		}
 		is_year = 1620
 		NOT = { is_year = 1700 }
 		owns = 17
@@ -1243,6 +1313,7 @@ country_event = {
 		OR = {
 			tag = NOR
 			tag = DAN
+			tag = SCA
 		}
 		any_owned_province = {
 			culture = norwegian

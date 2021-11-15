@@ -161,43 +161,35 @@ country_event = {
 	}
 }
 
-#Yerevan
+#Beyond Typus: Jerusalem (formerly Yerevan)
 # Do not change effects without also updating tooltips in Coptic missions
 country_event = {
 	id = coptic_flavor.5
 	title = coptic_flavor.5.t
+	desc = coptic_flavor.5.d
 	picture = POPE_PREACHING_eventPicture
-
-	desc = {
-		trigger = { tag = ARM }
-		desc = coptic_flavor.5.da
-	}
-	desc = {
-		trigger = { NOT = { tag = ARM } }
-		desc = coptic_flavor.5.db
-	}
 
 	fire_only_once = yes
 
 	trigger = {
 		OR = {
 			NOT = {
-				has_mission = coptic_conquest_of_yerevan
+				has_mission = coptic_conquest_of_jerusalem
 			}
-			has_country_flag = yerevan_mission_flag
+			has_country_flag = jerusalem_mission_flag
 		}
-		owns = 419
+		owns = 379
 		OR = {
 			religion = coptic
 			uses_blessings = yes
 		}
 		has_dlc = "Rights of Man"
-		NOT = { has_global_flag = coptic_yerevan_liberated }
+		NOT = { has_global_flag = coptic_jerusalem_liberated }
 	}
 	
 	immediate = {
 		hidden_effect = {
-			set_global_flag = coptic_yerevan_liberated
+			set_global_flag = coptic_jerusalem_liberated
 		}	
 	}
 
@@ -219,7 +211,7 @@ country_event = {
 	}
 }
 
-#Yerevan (for other copts)
+#Beyond Typus: Jerusalem (for other copts, formerly Yerevan)
 country_event = {
 	id = coptic_flavor.6
 	title = coptic_flavor.5.t
@@ -335,7 +327,7 @@ country_event = {
 				}
 				set_province_flag = copts_liberated
 			}
-			upper_nubia_area = {
+			upper_nubia_area = { # BT; dongola_area
 				limit = { 
 					NOT = { religion = coptic } 
 					owned_by = ROOT
@@ -400,7 +392,7 @@ country_event = {
 					duration = 3650
 				}
 			}
-			upper_nubia_area = {
+			upper_nubia_area = { # BT; dongola_area
 				limit = { 
 					NOT = { religion = coptic } 
 					owned_by = ROOT
@@ -620,7 +612,7 @@ country_event = {
 				}
 				set_province_flag = copts_liberated
 			}
-			said_area = {
+			said_area = { # BT
 				limit = { 
 					NOT = { religion = coptic } 
 					owned_by = ROOT
@@ -678,7 +670,7 @@ country_event = {
 					duration = 3650
 				}
 			}
-			said_area = {
+			said_area = { # BT
 				limit = { 
 					NOT = { religion = coptic } 
 					owned_by = FROM

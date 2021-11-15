@@ -511,14 +511,14 @@ country_event = {
 		OR = {
 			AND = {
 				exists = POR
-				1331 = {				#Gulf of Aden
+				1331 = { # BT; 4346
 					is_strongest_trade_power = POR
 				}
 				NOT = { num_of_light_ship = POR }	# we have to have less lightships.
 			}
-			AND = {
+			AND = { # BT
 				exists = IBE
-				1331 = {				#Gulf of Aden
+				1331 = { #Gulf of Aden
 					is_strongest_trade_power = IBE
 				}
 				NOT = { num_of_light_ship = IBE }	# we have to have less lightships.
@@ -550,7 +550,7 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { exists = POR }
+			limit = { exists = POR } # BT
 			POR = {
 				add_opinion = {
 					who = root
@@ -564,7 +564,7 @@ country_event = {
 				}
 			}
 		}
-		if = {
+		if = { # BT
 			limit = { 
 				NOT = { exists = POR }
 				exists = IBE
@@ -586,7 +586,7 @@ country_event = {
 	option = {
 		name = flavor_mam.15.b
 		add_prestige = -25
-		1331 = {
+		1331 = { # BT; 4346
 			add_trade_modifier = {
 				who = root
 				duration = 3650

@@ -928,9 +928,9 @@ country_event = {
 			capital = 541
 		}
 		541 = {
-			add_base_tax = 4
-			add_base_production = 4
-			add_base_manpower = 4
+			add_base_tax = 4 # BT; 2
+			add_base_production = 4 # BT; 2
+			add_base_manpower = 4 # BT; 2
 		}
 	}
 	option = { # move capital to Bidar, rename to Kalyana
@@ -942,9 +942,9 @@ country_event = {
 			move_capital_effect = yes
 			change_province_name = "Kalyana"
 			rename_capital = "Kalyana"
-			add_base_tax = 4
-			add_base_production = 4
-			add_base_manpower = 4
+			add_base_tax = 4 # BT; 2
+			add_base_production = 4 # BT; 2
+			add_base_manpower = 4 # BT; 2
 		}
 	}
 	option = { # keep capital where it is if not vijayanagar
@@ -955,9 +955,9 @@ country_event = {
 			}
 		}
 		capital_scope = {
-			add_base_tax = 4
-			add_base_production = 4
-			add_base_manpower = 4
+			add_base_tax = 4 # BT; 2
+			add_base_production = 4 # BT; 2
+			add_base_manpower = 4 # BT; 2
 		}
 	}
 }

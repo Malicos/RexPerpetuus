@@ -1,0 +1,41 @@
+#SCH - Schonburg
+
+#Political Situation
+capital = 8279
+
+#Government
+government_rank = 1
+government = monarchy
+add_government_reform = feudalism_reform
+
+#Demographics
+primary_culture = saxon
+religion = catholic
+
+#Tech and Military
+technology_group = western
+
+#History
+1408.1.1 = {
+	monarch = {
+		name = "Ernst"
+		dynasty = "von Schonburg"
+		birth_date = 1410.1.1
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+1444.1.1 = {
+	heir = {
+		name = "Ernst"
+		monarch_name ="Ernst II"
+		dynasty = "von Schonburg"
+		birth_date = 1444.1.1
+		death_Date = 1534.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}

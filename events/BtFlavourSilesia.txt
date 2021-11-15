@@ -1,0 +1,1311 @@
+namespace = BtFlavourSilesia
+
+# Auschwitz switches to poland as overlord event chain
+country_event = { # declaration of Jan IV
+    # Variant for POL
+    id = BtFlavourSilesia.1
+    title = BtFlavourSilesia.1.title
+    desc = BtFlavourSilesia.1.desc
+    picture = GOOD_WITH_MONARCH_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        # for FoA needs additional trigger here to assure historical prerequisites are met
+        tag = ASC
+        is_subject_of = BOH
+        exists = POL
+        POL = {
+            # maybe move to a possible is_possible_preferred_overlord_trigger
+            NOT = {
+                overextension_percentage = 0.1
+                AND = {
+                    PREV = { religion = catholic }
+                    is_excommunicated = yes
+                }
+            }
+            OR = {
+                is_subject = no
+                is_subject_of_type = personal_union
+            }
+            # no negative prestige or stability
+            prestige = 0
+            stability = 0
+        }
+        NOT = { exists = PLC }
+    }
+
+    mean_time_to_happen = {
+        months = 120 # 10 years 
+        # change to 100 for PLC
+
+        # is not neighbor
+        modifier = {
+            factor = 20
+            NOT = { is_neighbor_of = POL }
+        }
+        
+        modifier = {
+            factor = 0.001
+            POL = {
+                is_supporting_independence_of = ASC
+            }
+        }
+        modifier = {
+            factor = 0.8
+            POL = {
+                is_claim = 8176 #Auschwitz
+            }
+        }
+
+        # prestige
+        modifier = { # Poland good
+            factor = 0.8
+            POL = { prestige = 60 }
+        }
+        modifier = { # Poland bad
+            factor = 1.5
+            POL = { NOT = { prestige = 30 } }
+        }
+        modifier = { # Bohemia good
+            factor = 1.5
+            BOH = { prestige = 50 }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.8
+            BOH = { NOT = { prestige = 0 } }
+        }
+        modifier = { # Bohemia more then poland
+            factor = 1.5
+            BOH = { prestige = POL }
+        }
+
+        # power projection
+        modifier = { # Poland good
+            factor = 0.75
+            POL = { power_projection  = 50 }
+        }
+        modifier = { # Poland very good
+            factor = 0.5
+            POL = { power_projection  = 75 }
+        }
+        modifier = { # Poland bad
+            factor = 1.5
+            POL = { NOT = { power_projection  = 25 } }
+        }
+        modifier = { # Bohemia good
+            factor = 1.5
+            BOH = { power_projection  = 50 }
+        }
+        modifier = { # Bohemia very good
+            factor = 5
+            BOH = { power_projection  = 75 }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.8
+            BOH = { NOT = { power_projection  = 25 } }
+        }
+        #modifier = { # Bohemia more then poland
+        #    factor = 20
+        #    BOH = { power_projection = POL }
+        #}
+
+        # legitimacy
+        modifier = { # Bohemia good
+            factor = 1.5
+            BOH = { legitimacy = 50 }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.8
+            BOH = { NOT = { legitimacy = 0 } }
+        }
+
+        # same dynasty
+        modifier = {
+            factor = 0.25
+            dynasty = POL
+        }
+        modifier = {
+            factor = 5
+            dynasty = BOH
+        }
+
+        #stability
+        modifier = { # Poland good
+            factor = 0.8
+            POL = { stability  = 60 }
+        }
+        modifier = { # Poland bad
+            factor = 1.5
+            POL = { NOT = { stability  = 30 } }
+        }
+        modifier = { # Bohemia good
+            factor = 1.5
+            BOH = { stability  = 50 }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.8
+            BOH = { NOT = { stability  = 0 } }
+        }
+
+        #opinion
+        modifier = { # Poland good
+            factor = 0.5
+            has_opinion = {
+                who = POL
+                value = 50
+            }
+        }
+        modifier = { # Poland bad
+            factor = 5
+            NOT = {
+                has_opinion = {
+                    who = POL
+                    value = 10
+                }
+            }
+        }
+        modifier = { # Bohemia good
+            factor = 2
+            has_opinion = {
+                who = BOH
+                value = 140 
+            }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.5
+            NOT = {
+                has_opinion = {
+                    who = BOH
+                    value = 60 
+                }
+            }
+        }
+
+        #diplomatic_reputation 
+        modifier = { # Poland good
+            factor = 0.8
+            POL = { diplomatic_reputation = 3 }
+        }
+        modifier = { # Poland bad
+            factor = 1.5
+            POL = { NOT = { diplomatic_reputation = 0 } }
+        }
+        modifier = { # Bohemia good
+            factor = 1.5
+            BOH = { diplomatic_reputation = 3 }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.8
+            BOH = { NOT = { diplomatic_reputation = 0 } }
+        }
+        modifier = { # Bohemia more then poland
+            factor = 1.5
+            BOH = { diplomatic_reputation = POL }
+        }
+
+        # number of relations
+        modifier = { # at limit
+            factor = 1.5
+            POL = { num_of_free_diplomatic_relations = 0 }
+        }
+        #modifier = { # over limit
+        #    factor = 1.5
+        #    POL = { num_of_free_diplomatic_relations = -1 }
+        #}
+
+        # bohemian corruption
+        modifier = {
+            factor = 1.5
+            BOH = { corruption = 0.25 }
+        }
+    }
+
+    immediate = {
+        hidden_effect = {
+            POL = {
+                save_global_event_target_as = target_ASC_polish_crown
+            }
+        }
+    }
+
+    # become polish vassal
+    option = {
+        name = "BtFlavourSilesia.1.switch"
+        ai_chance = {
+            factor = 1
+        }
+
+        BOH = {
+            # we will actually execute this after bohemia decides in their event
+            tooltip = {
+                add_trust = {
+                    who = ASC
+                    value = -50
+                }
+                add_opinion = {
+                    who = ASC
+                    modifier = bt_sc_disloyal_subject
+                }
+            }
+            country_event = {
+                id = BtFlavourSilesia.3
+                days = 1
+            }
+        }
+        tooltip = {
+            POL = {
+                country_event = {
+                    id = BtFlavourSilesia.4
+                    days = 2
+                }
+            }
+        }
+    }
+
+    # stay bohemian vassal
+    option = {
+        name = "BtFlavourSilesia.1.stay"
+        ai_chance = {
+            factor = 0
+        }
+
+        reverse_add_opinion = {
+            who = BOH
+            modifier = bt_sc_loyal_subject
+        }
+        add_opinion = {
+            who = BOH
+            modifier = bt_sc_loyal_subject
+        }
+    }
+}
+
+
+country_event = { # declaration of Jan IV
+    # Variant for PLC
+    id = BtFlavourSilesia.2
+    title = BtFlavourSilesia.1.title
+    desc = BtFlavourSilesia.1.desc
+    picture = GOOD_WITH_MONARCH_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        # for FoA needs additional trigger here to assure historical prerequisites are met
+        tag = ASC
+        is_subject_of = BOH
+        exists = PLC
+        PLC = {
+            # maybe move to a possible is_possible_preferred_overlord_trigger
+            NOT = {
+                overextension_percentage = 0.1
+                AND = {
+                    PREV = { religion = catholic }
+                    is_excommunicated = yes
+                }
+            }
+            OR = {
+                is_subject = no
+                is_subject_of_type = personal_union
+            }
+            # no negative prestige or stability
+            prestige = 0
+            stability = 0
+        }
+        NOT = { exists = POL }
+    }
+
+    mean_time_to_happen = {
+        months = 100 # around 8 years 
+
+        # is not neighbor
+        modifier = {
+            factor = 20
+            NOT = { is_neighbor_of = PLC }
+        }
+        
+        modifier = {
+            factor = 0.001
+            PLC = {
+                is_supporting_independence_of = ASC
+            }
+        }
+        modifier = {
+            factor = 0.8
+            PLC = {
+                is_claim = 8176 #Auschwitz
+            }
+        }
+
+        # prestige
+        modifier = { # Commonwealth good
+            factor = 0.8
+            PLC = { prestige = 60 }
+        }
+        modifier = { # Commonwealth bad
+            factor = 1.5
+            PLC = { NOT = { prestige = 30 } }
+        }
+        modifier = { # Bohemia good
+            factor = 1.5
+            BOH = { prestige = 50 }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.8
+            BOH = { NOT = { prestige = 0 } }
+        }
+        modifier = { # Bohemia more then Commonwealth
+            factor = 1.5
+            BOH = { prestige = PLC }
+        }
+
+        # power projection
+        modifier = { # Commonwealth good
+            factor = 0.75
+            PLC = { power_projection  = 50 }
+        }
+        modifier = { # Commonwealth very good
+            factor = 0.5
+            PLC = { power_projection  = 75 }
+        }
+        modifier = { # Commonwealth bad
+            factor = 1.5
+            PLC = { NOT = { power_projection  = 25 } }
+        }
+        modifier = { # Bohemia good
+            factor = 1.5
+            BOH = { power_projection  = 50 }
+        }
+        modifier = { # Bohemia very good
+            factor = 5
+            BOH = { power_projection  = 75 }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.8
+            BOH = { NOT = { power_projection  = 25 } }
+        }
+        #modifier = { # Bohemia more then Commonwealth
+        #    factor = 20
+        #    BOH = { power_projection = PLC }
+        #}
+
+        # legitimacy
+        modifier = { # Bohemia good
+            factor = 1.5
+            BOH = { legitimacy = 50 }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.8
+            BOH = { NOT = { legitimacy = 0 } }
+        }
+
+        # same dynasty
+        modifier = {
+            factor = 0.25
+            dynasty = PLC
+        }
+        modifier = {
+            factor = 5
+            dynasty = BOH
+        }
+
+        #stability
+        modifier = { # Commonwealth good
+            factor = 0.8
+            PLC = { stability  = 60 }
+        }
+        modifier = { # Commonwealth bad
+            factor = 1.5
+            PLC = { NOT = { stability  = 30 } }
+        }
+        modifier = { # Bohemia good
+            factor = 1.5
+            BOH = { stability  = 50 }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.8
+            BOH = { NOT = { stability  = 0 } }
+        }
+
+        #opinion
+        modifier = { # Commonwealth good
+            factor = 0.5
+            has_opinion = {
+                who = PLC
+                value = 50
+            }
+        }
+        modifier = { # Commonwealth bad
+            factor = 5
+            NOT = {
+                has_opinion = {
+                    who = PLC
+                    value = 10
+                }
+            }
+        }
+        modifier = { # Bohemia good
+            factor = 2
+            has_opinion = {
+                who = BOH
+                value = 140 
+            }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.5
+            NOT = {
+                has_opinion = {
+                    who = BOH
+                    value = 60 
+                }
+            }
+        }
+
+        #diplomatic_reputation 
+        modifier = { # Commonwealth good
+            factor = 0.8
+            PLC = { diplomatic_reputation = 3 }
+        }
+        modifier = { # Commonwealth bad
+            factor = 1.5
+            PLC = { NOT = { diplomatic_reputation = 0 } }
+        }
+        modifier = { # Bohemia good
+            factor = 1.5
+            BOH = { diplomatic_reputation = 3 }
+        }
+        modifier = { # Bohemia bad
+            factor = 0.8
+            BOH = { NOT = { diplomatic_reputation = 0 } }
+        }
+        modifier = { # Bohemia more then Commonwealth
+            factor = 1.5
+            BOH = { diplomatic_reputation = PLC }
+        }
+
+        # number of relations
+        modifier = { # at limit
+            factor = 1.5
+            PLC = { num_of_free_diplomatic_relations = 0 }
+        }
+        #modifier = { # over limit
+        #    factor = 1.5
+        #    PLC = { num_of_free_diplomatic_relations = -1 }
+        #}
+
+        # bohemian corruption
+        modifier = {
+            factor = 1.5
+            BOH = { corruption = 0.25 }
+        }
+    }
+
+    immediate = {
+        hidden_effect = {
+            PLC = {
+                save_global_event_target_as = target_ASC_polish_crown
+            }
+        }
+    }
+
+    # become polish vassal
+    option = {
+        name = "BtFlavourSilesia.1.switch"
+        ai_chance = {
+            factor = 1
+        }
+
+        BOH = {
+            # we will actually execute this after bohemia decides in their event
+            tooltip = {
+                add_trust = {
+                    who = ASC
+                    value = -50
+                }
+                add_opinion = {
+                    who = ASC
+                    modifier = bt_sc_disloyal_subject
+                }
+            }
+            country_event = {
+                id = BtFlavourSilesia.3
+                days = 1
+            }
+        }
+        tooltip = {
+            PLC = {
+                country_event = {
+                    id = BtFlavourSilesia.4
+                    days = 2
+                }
+            }
+        }
+    }
+
+    # stay bohemian vassal
+    option = {
+        name = "BtFlavourSilesia.1.stay"
+        ai_chance = {
+            factor = 0
+        }
+
+        reverse_add_opinion = {
+            who = BOH
+            modifier = bt_sc_loyal_subject
+        }
+        add_opinion = {
+            who = BOH
+            modifier = bt_sc_loyal_subject
+        }
+    }
+}
+
+country_event = { # Bohemian Response
+    id = BtFlavourSilesia.3
+    title = BtFlavourSilesia.3.title
+    desc = BtFlavourSilesia.3.desc
+    picture = CIVIL_WAR_eventPicture
+
+    is_triggered_only = yes
+
+    
+    option = { # accept
+        name = "BtFlavourSilesia.3.accept"
+        ai_chance = {
+            factor = 100
+
+            # Bohemia WILL ALWAYS intervene when:
+            modifier = { # poland feels threatened by bohemia
+                factor = 0.001
+                BOH = {
+                    is_threat = event_target:target_ASC_polish_crown
+                }
+            }
+            modifier = { # poland is rival of bohemia
+                factor = 0.001
+                BOH = {
+                    is_rival = event_target:target_ASC_polish_crown
+                }
+            }
+        }
+        
+        event_target:target_ASC_polish_crown = {
+            country_event = {
+                id = BtFlavourSilesia.4
+                days = 1
+            }
+        }
+
+        add_prestige = -20
+    }
+    option = { # intervene
+        name = "BtFlavourSilesia.3.intervene"
+        ai_chance = {
+            factor = 100
+
+            # war exhaustion
+            modifier = { # 
+                factor = 0.8
+                war_exhaustion = 1
+            }
+            modifier = { # 
+                factor = 0.6
+                war_exhaustion = 2
+            }
+            modifier = { # 
+                factor = 0.4
+                war_exhaustion = 3
+            }
+            modifier = { # 
+                factor = 0.2
+                war_exhaustion = 4
+            }
+            modifier = { # 
+                factor = 0
+                war_exhaustion = 5
+            }
+
+            # stability
+            modifier = { # 
+                factor = 0.8
+                NOT = { stability = 1 }
+            }
+            modifier = { # 
+                factor = 0.6
+                NOT = { stability = 0 }
+            }
+            modifier = { # 
+                factor = 0.3
+                NOT = { stability = -1 }
+            }
+            modifier = { # 
+                factor = 0
+                NOT = { stability = -2 }
+            }
+
+            # Diplomatic Reputation
+            modifier = { # 
+                factor = 0.9
+                event_target:target_ASC_polish_crown = {
+                    diplomatic_reputation = 1
+                }
+            }
+            modifier = { # 
+                factor = 0.9
+                event_target:target_ASC_polish_crown = {
+                    diplomatic_reputation = 2
+                }
+            }
+            modifier = { # 
+                factor = 0.9
+                event_target:target_ASC_polish_crown = {
+                    diplomatic_reputation = 3
+                }
+            }
+            modifier = { # 
+                factor = 0.9
+                event_target:target_ASC_polish_crown = {
+                    diplomatic_reputation = 4
+                }
+            }
+            modifier = { # 
+                factor = 0.9
+                event_target:target_ASC_polish_crown = {
+                    diplomatic_reputation = 5
+                }
+            }
+            modifier = { # 
+                factor = 0.9
+                event_target:target_ASC_polish_crown = {
+                    diplomatic_reputation = 6
+                }
+            }
+
+            # good opinion
+            modifier = { # 
+                factor = 0.8
+                has_opinion = {
+                    who = event_target:target_ASC_polish_crown
+                    value = 20
+                }
+            }
+            modifier = { # 
+                factor = 0.8
+                has_opinion = {
+                    who = event_target:target_ASC_polish_crown
+                    value = 40
+                }
+            }
+            modifier = { # 
+                factor = 0.8
+                has_opinion = {
+                    who = event_target:target_ASC_polish_crown
+                    value = 60
+                }
+            }
+            modifier = { # 
+                factor = 0.8
+                has_opinion = {
+                    who = event_target:target_ASC_polish_crown
+                    value = 80
+                }
+            }
+            modifier = { # 
+                factor = 0.8
+                has_opinion = {
+                    who = event_target:target_ASC_polish_crown
+                    value = 100
+                }
+            }
+
+            # bad opinion
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = event_target:target_ASC_polish_crown
+                        value = 0
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = event_target:target_ASC_polish_crown
+                        value = -20
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = event_target:target_ASC_polish_crown
+                        value = -40
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = event_target:target_ASC_polish_crown
+                        value = -60
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = event_target:target_ASC_polish_crown
+                        value = -80
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = event_target:target_ASC_polish_crown
+                        value = -100
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = event_target:target_ASC_polish_crown
+                        value = -120
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = event_target:target_ASC_polish_crown
+                        value = -140
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = event_target:target_ASC_polish_crown
+                        value = -160
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = event_target:target_ASC_polish_crown
+                        value = -180
+                    }
+                }
+            }
+            
+            # Poland has strong vassals
+            modifier = { # 
+                factor = 0.8
+                LIT = {
+                    is_subject_of = event_target:target_ASC_polish_crown
+                }
+            }
+            modifier = { # 
+                factor = 0.5
+                event_target:target_ASC_polish_crown = {
+                    tag = PLC
+                }
+            }
+
+            # Bohemia WILL NEVER intervene when:
+            modifier = { # bohemia feels threatened by poland
+                factor = 0
+                event_target:target_ASC_polish_crown = {
+                    is_threat = BOH
+                }
+            }
+            modifier = { # bohemia is allied to poland
+                factor = 0.1
+                alliance_with = event_target:target_ASC_polish_crown
+            }
+            modifier = { # currently losing war
+                factor = 0
+                AND = {
+                    is_at_war = yes
+                    NOT = { war_score = -20 }
+                }
+            }
+        }
+
+        set_global_flag = ASC_bohemia_opposes_duke
+        
+        event_target:target_ASC_polish_crown = {
+            country_event = {
+                id = BtFlavourSilesia.4
+                days = 1
+            }
+        }
+        custom_tooltip = BtFlavourSilesia.3.intervene_tooltip
+
+        add_prestige = 10
+        if = {
+            limit = {
+                is_rival = event_target:target_ASC_polish_crown
+            }
+            add_power_projection = { 
+                type = mission_rewards_power_projection
+                amount = 5
+                # as much as an insult or 10 dev province
+            }
+        }
+    }
+
+    after = {
+        add_trust = {
+            who = ASC
+            value = -50
+        }
+        add_opinion = {
+            who = ASC
+            modifier = bt_sc_disloyal_subject
+        }
+    }
+}
+
+country_event = { # Polish Response
+    id = BtFlavourSilesia.4
+    title = BtFlavourSilesia.4.title
+
+    desc = {
+        trigger = {
+            has_global_flag = ASC_bohemia_opposes_duke
+        }
+        desc = BtFlavourSilesia.4.desc_warned
+    }
+    desc = {
+        trigger = {
+            NOT = { has_global_flag = ASC_bohemia_opposes_duke }
+        }
+        desc = BtFlavourSilesia.4.desc
+    }
+
+    picture = {
+        trigger = {
+            has_global_flag = ASC_bohemia_opposes_duke
+        }
+        picture = DIPLOMACY_eventPicture
+    }
+    picture = {
+        trigger = {
+            NOT = { has_global_flag = ASC_bohemia_opposes_duke }
+        }
+        picture = CONQUEST_eventPicture
+    }
+
+    major = yes
+    major_trigger = {
+        OR = {
+            tag = BOH
+            tag = ASC
+            is_subject_of = BOH
+            is_subject_of = event_target:target_ASC_polish_crown
+        }
+    }
+
+    is_triggered_only = yes
+
+    option = { # accept without veto
+        name = "BtFlavourSilesia.4.a"
+        trigger = {
+            NOT = {
+                has_global_flag = ASC_bohemia_opposes_duke
+            }
+        }
+
+        ai_chance = {
+            factor = 10000
+
+            # good opinion
+            modifier = { # 
+                factor = 0.2
+                has_opinion = {
+                    who = BOH
+                    value = 50
+                }
+            }
+            modifier = { # 
+                factor = 0.2
+                has_opinion = {
+                    who = BOH
+                    value = 75
+                }
+            }
+            modifier = { # 
+                factor = 0.2
+                has_opinion = {
+                    who = BOH
+                    value = 100
+                }
+            }
+
+            # bad opinion
+            modifier = { # 
+                factor = 1.5
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = 0
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.5
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -25
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.5
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -50
+                    }
+                }
+            }
+
+            # Diplomatic Reputation
+            modifier = { # 
+                factor = 0.8
+                BOH = {
+                    diplomatic_reputation = 3
+                }
+            }
+            modifier = { # 
+                factor = 0.8
+                BOH = {
+                    diplomatic_reputation = 5
+                }
+            }
+        }
+        
+        add_prestige = 10
+        vassalize = ASC
+        reverse_add_opinion = {
+            who = ASC
+            modifier = bt_sc_loyal_subject
+        }
+        add_opinion = {
+            who = ASC
+            modifier = bt_sc_loyal_subject
+        }
+        reverse_add_opinion = {
+            who = BOH
+            modifier = bt_sc_took_disloyal_subject
+        }
+    }
+    option = { # accept despite veto
+        name = "BtFlavourSilesia.4.a"
+        trigger = {
+            has_global_flag = ASC_bohemia_opposes_duke
+        }
+
+        ai_chance = {
+            factor = 100
+
+            
+            # war exhaustion
+            modifier = { # 
+                factor = 0.85
+                war_exhaustion = 1
+            }
+            modifier = { # 
+                factor = 0.7
+                war_exhaustion = 2
+            }
+            modifier = { # 
+                factor = 0.55
+                war_exhaustion = 3
+            }
+            modifier = { # 
+                factor = 0.4
+                war_exhaustion = 4
+            }
+            modifier = { # 
+                factor = 0.25
+                war_exhaustion = 5
+            }
+
+            # stability
+            modifier = { # 
+                factor = 0.8
+                NOT = { stability = 1 }
+            }
+            modifier = { # 
+                factor = 0.8
+                NOT = { stability = 0 }
+            }
+            modifier = { # 
+                factor = 0.8
+                NOT = { stability = -1 }
+            }
+            modifier = { # 
+                factor = 0.8
+                NOT = { stability = -2 }
+            }
+
+            # good opinion
+            modifier = { # 
+                factor = 0.9
+                has_opinion = {
+                    who = BOH
+                    value = 20
+                }
+            }
+            modifier = { # 
+                factor = 0.8
+                has_opinion = {
+                    who = BOH
+                    value = 40
+                }
+            }
+            modifier = { # 
+                factor = 0.8
+                has_opinion = {
+                    who = BOH
+                    value = 60
+                }
+            }
+            modifier = { # 
+                factor = 0.8
+                has_opinion = {
+                    who = BOH
+                    value = 80
+                }
+            }
+            modifier = { # 
+                factor = 0.8
+                has_opinion = {
+                    who = BOH
+                    value = 100
+                }
+            }
+
+            # bad opinion
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = 0
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -20
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -40
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -60
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -80
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -100
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -120
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -140
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -160
+                    }
+                }
+            }
+            modifier = { # 
+                factor = 1.25
+                NOT = {
+                    has_opinion = {
+                        who = BOH
+                        value = -180
+                    }
+                }
+            }
+
+            # Diplomatic Reputation
+            modifier = { # 
+                factor = 0.9
+                BOH = {
+                    diplomatic_reputation = 1
+                }
+            }
+            modifier = { # 
+                factor = 0.9
+                BOH = {
+                    diplomatic_reputation = 2
+                }
+            }
+            modifier = { # 
+                factor = 0.9
+                BOH = {
+                    diplomatic_reputation = 3
+                }
+            }
+            modifier = { # 
+                factor = 0.9
+                BOH = {
+                    diplomatic_reputation = 4
+                }
+            }
+            modifier = { # 
+                factor = 0.9
+                BOH = {
+                    diplomatic_reputation = 5
+                }
+            }
+            
+            modifier = { # bohemia is allied to poland
+                factor = 0.5
+                alliance_with = event_target:target_ASC_polish_crown
+            }
+            modifier = { # poland feels threatened by bohemia
+                factor = 0
+                BOH = {
+                    is_threat = event_target:target_ASC_polish_crown
+                }
+            }
+        }
+        
+        add_prestige = 25
+        vassalize = ASC
+        if = {
+            limit = {
+                is_rival = BOH
+            }
+            add_power_projection = {
+                type = mission_rewards_power_projection
+                amount = 10
+            }
+        }
+        reverse_add_opinion = {
+            who = ASC
+            modifier = bt_sc_loyal_subject
+        }
+        add_opinion = {
+            who = ASC
+            modifier = bt_sc_loyal_subject
+        }
+        reverse_add_opinion = {
+            who = BOH
+            modifier = bt_sc_took_disloyal_subject
+        }
+        BOH = { add_claim = 8176 }
+    }
+    option = { # deny
+        name = "BtFlavourSilesia.4.b"
+        ai_chance = {
+            factor = 25
+
+            modifier = { # 
+                factor = 1.25
+                BOH = {
+                    is_emperor = yes
+                }
+            }
+            modifier = { # bohemia feels threatened by poland
+                factor = 0
+                event_target:target_ASC_polish_crown = {
+                    is_threat = BOH
+                }
+            }
+        }
+        
+        add_prestige = -10
+        reverse_add_opinion = {
+            who = ASC
+            modifier = bt_sc_rejected_subject
+        }
+        reverse_add_opinion = {
+            who = BOH
+            modifier = bt_sc_reject_disloyal_subject
+        }
+        if = {
+            limit = {
+                has_global_flag = ASC_bohemia_opposes_duke
+            }
+            ASC = {
+                add_opinion = {
+                    who = BOH
+                    modifier = opinion_tyrant_overlord
+                }
+            }
+        }
+    }
+
+    after = {
+        clear_global_event_target = target_ASC_polish_crown
+        clr_global_flag = ASC_bohemia_opposes_duke
+    }
+}

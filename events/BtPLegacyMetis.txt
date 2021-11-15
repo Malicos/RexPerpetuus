@@ -91,8 +91,8 @@ province_event = {
 		}
 		change_culture = metis
 		if = {
-			limit = { NOT = { accepted_culture = metis } }
-			add_accepted_culture = metis
+			limit = { NOT = { owner = { accepted_culture = metis } } } # Brian fixed
+			owner = { add_accepted_culture = metis } # Brian fixed
 		}
 	}
 	
@@ -137,7 +137,7 @@ province_event = {
 			name = "mettling_government"
 			duration = 1825
 		}
-		add_adm_power  = -10
+		owner = { add_adm_power  = -10 } # Brian fixed
 	}
 }
 
@@ -236,8 +236,8 @@ province_event = {
 		}
 		change_culture = anglo_metis
 		if = {
-			limit = { NOT = { accepted_culture = anglo_metis } }
-			add_accepted_culture = anglo_metis
+			limit = { NOT = { owner = { accepted_culture = anglo_metis } } } # Brian fixed
+			owner = { add_accepted_culture = anglo_metis } # Brian fixed
 		}
 	}
 	
@@ -282,7 +282,7 @@ province_event = {
 			name = "mettling_government"
 			duration = 1825
 		}
-		add_adm_power  = -10
+		owner = { add_adm_power = -10 } # Brian fixed
 	}
 }
 
@@ -380,8 +380,8 @@ province_event = {
 		}
 		change_culture = bungi
 		if = {
-			limit = { NOT = { accepted_culture = bungi } }
-			add_accepted_culture = bungi
+			limit = { NOT = { owner = { accepted_culture = bungi } } } # Brian fixed
+			owner = { add_accepted_culture = bungi } # Brian fixed
 		}
 	}
 	
@@ -426,6 +426,6 @@ province_event = {
 			name = "mettling_government"
 			duration = 1825
 		}
-		add_adm_power  = -10
+		owner = { add_adm_power = -10 } # Brian fixed
 	}
 }

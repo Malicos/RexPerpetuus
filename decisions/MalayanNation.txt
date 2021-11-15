@@ -3,7 +3,7 @@ country_decisions = {
 	malayan_nation = { #Pending BTfication.
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			bt_generic_can_form_potential_check = yes # BT; scripted trigger
 			NOT = { has_country_flag = formed_malaya_flag }
 			NOT = { exists = MSA }
 			culture_group = malay
@@ -11,14 +11,14 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				region = indonesia_region
+				region = indonesia_region # BT
 				region = malaya_region
 				region = borneo_region
-				region = sumatran_region
+				region = sumatran_region # BT
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
+				NOT = { is_core = ROOT } # BT
 			}
 		}
 		allow = {

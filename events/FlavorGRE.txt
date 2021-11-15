@@ -23,7 +23,7 @@ country_event = {
 		adm_tech = 20
 		any_owned_province = {
 			culture = greek
-			bt_trigger_historical_greece_areas = yes
+			bt_trigger_historical_greece_areas = yes # BT; scripted trigger replaced areas/prov.
 		}
    	}
 	
@@ -35,9 +35,22 @@ country_event = {
 		name = "flavor_gre.1.a"
 		trigger = { NOT = { has_country_flag = greek_information } }
 		set_global_flag = greek_cores
+		# BT; removed 3 areas below
+		#morea_area = {
+		#	limit = { NOT = { is_core = GRE } }
+		#	add_core = GRE
+		#}
+		#northern_greece_area = {
+		#	limit = { NOT = { is_core = GRE } }
+		#	add_core = GRE
+		#}
+		#aegean_archipelago_area = {
+		#	limit = { NOT = { is_core = GRE } }
+		#	add_core = GRE
+		#}
 		every_province = {
 			limit = {
-				bt_trigger_historical_greece_areas = yes
+				bt_trigger_historical_greece_areas = yes # BT; scripted trigger replaced areas/prov.
 			}
 			add_core = GRE
 		}
@@ -70,7 +83,7 @@ country_event = {
 			every_known_country = {
 				limit = {
 					any_owned_province = {
-						bt_trigger_historical_greece_areas = yes
+						bt_trigger_historical_greece_areas = yes # BT; scripted trigger replaced areas/prov.
 					}
 				}
 				set_country_flag = greek_information
@@ -86,9 +99,19 @@ country_event = {
 			NOT = { primary_culture = pontic_greek }
 		}
 		tooltip = {
+			# BT; removed 3 areas below
+			#morea_area = {
+			#	add_core = GRE
+			#}
+			#northern_greece_area = {
+			#	add_core = GRE
+			#}
+			#aegean_archipelago_area = {
+			#	add_core = GRE
+			#}
 			every_province = {
 				limit = {
-					bt_trigger_historical_greece_areas = yes
+					bt_trigger_historical_greece_areas = yes # BT; scripted trigger replaced areas/prov.
 				}
 				add_core = GRE
 			}
@@ -112,9 +135,19 @@ country_event = {
 			}
 		}
 		tooltip = {
+			# BT; removed 3 areas below
+			#morea_area = {
+			#	add_core = GRE
+			#}
+			#northern_greece_area = {
+			#	add_core = GRE
+			#}
+			#aegean_archipelago_area = {
+			#	add_core = GRE
+			#}
 			every_province = {
 				limit = {
-					bt_trigger_historical_greece_areas = yes
+					bt_trigger_historical_greece_areas = yes # BT; scripted trigger replaced areas/prov.
 				}
 				add_core = GRE
 			}

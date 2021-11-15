@@ -74,7 +74,7 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			swap_ideas = yes
+			swap_ideas = yes # BT ???
 			add_prestige = 10
 			set_country_flag = formed_scandinavia_flag
 		}

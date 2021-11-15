@@ -70,7 +70,7 @@ province_event = {
 		change_culture = canadien
 		if = {
 			limit = { owner = { NOT = { accepted_culture = canadien } } }
-			add_accepted_culture = canadien
+			owner = { add_accepted_culture = canadien } # Brian fixed
 		}			#Adding culture as an accepted culture to prevent AI flipping, and to not penalise player in a no-choice culture event
 		if = {
 			limit = {
@@ -78,7 +78,7 @@ province_event = {
 				is_overseas = no
 				owner = { culture_group = french }
 			}
-			change_primary_culture = canadien
+			owner = { change_primary_culture = canadien } # Brian fixed
 		}			#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
 	}
 }
@@ -141,7 +141,7 @@ province_event = {
 		change_culture = afrikaner_culture
 		if = {
 			limit = { owner = { NOT = { accepted_culture = afrikaner_culture } } }
-			add_accepted_culture = afrikaner_culture
+			owner = { add_accepted_culture = afrikaner_culture } # Brian fixed
 		}			#Adding culture as an accepted culture to prevent AI flipping, and to not penalise player in a no-choice culture event
 		if = {
 			limit = {
@@ -155,7 +155,7 @@ province_event = {
 					}
 				}
 			}
-			change_primary_culture = afrikaner_culture
+			owner = { change_primary_culture = afrikaner_culture } # Brian fixed
 		}			#If this event hits in a capital, make the national culture the colonial culture. Yes, it will have far reaching effects. This is WaD.
 	}
 }

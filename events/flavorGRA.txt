@@ -100,6 +100,10 @@ country_event = {
 				remove_core = ROOT
 				add_core = SIC
 			}
+			#western_sicily_area = { # BT removed
+			#	remove_core = ROOT
+			#	add_core = SIC
+			#}
 			release = SIC
 			create_march = SIC
 			SIC = {
@@ -118,6 +122,9 @@ country_event = {
 			sicily_area = {
 				add_core = SIC
 			}
+			#western_sicily_area = { # BT removed
+			#	add_core = SIC
+			#}
 			release = SIC
 			create_march = SIC
 		}
@@ -148,7 +155,7 @@ country_event = {
 			}
 			add_claim = SIC
 		}
-		abruzzo_area = {
+		abruzzo_area = { # BT
 			limit = {
 				NOT = {
 					owned_by = ROOT
@@ -167,6 +174,12 @@ country_event = {
 				duration = 7300
 			}
 		}
+		#western_sicily_area = { # BT removed
+		#	add_province_modifier = {
+		#		name = "sicily_in_safe_hands"
+		#		duration = 7300
+		#	}
+		#}
 	}
 	
 }

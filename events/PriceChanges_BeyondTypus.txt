@@ -37,7 +37,7 @@ province_event = {
 		years = 50
 		modifier = {
 			factor = 0.9
-			has_estate = estate_nobles
+			owner = { has_estate = estate_nobles } # Brian fixed
 		}
 	}
 	
@@ -49,11 +49,13 @@ province_event = {
 			add_prestige = 10
 		}
 		add_base_production = 3
-		change_price = {
-			trade_goods = bt_trade_good_beer
-			key = BT_reinheitsgebot
-			value = 0.1 #2.5 -> 2.75
-			duration = -1
+		owner = { # Brian fixed
+			change_price = {
+				trade_goods = bt_trade_good_beer
+				key = BT_reinheitsgebot
+				value = 0.1 #2.5 -> 2.75
+				duration = -1
+			}
 		}
 	}
 }
@@ -111,17 +113,19 @@ province_event = {
 	option = { #Ok.
 		name = "PriceChanges_BeyondTypus.EVTOPTA2"
 		ai_chance = { factor = 1 }
-		add_prestige = 10
+		owner = { add_prestige = 10 } # Brian fixed
 		add_province_modifier = {
 			name = "bt_birthplace_lager"
 			duration = -1
 		}
-		change_price = {
-			trade_goods = bt_trade_good_beer
-			key = BT_lager_beer
-			value = 0.1 #2.75 -> 3
-			duration = -1
-		}
+		owner = { # Brian fixed
+			change_price = {
+				trade_goods = bt_trade_good_beer
+				key = BT_lager_beer
+				value = 0.1 #2.75 -> 3
+				duration = -1
+			}
+		}	
 	}
 }
 

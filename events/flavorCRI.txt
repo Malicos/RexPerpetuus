@@ -102,7 +102,7 @@ country_event = {
 				limit = {
 					has_dlc = "Rights of Man" 
 				}
-				hidden_effect = { add_ruler_personality = conqueror_personality }
+				hidden_effect = { add_ruler_personality_ancestor = { key = conqueror } }
 			}
 		}
 		if = {
@@ -127,7 +127,7 @@ country_event = {
 				limit = {
 					has_dlc = "Rights of Man" 
 				}
-				hidden_effect = { add_ruler_personality = conqueror_personality }
+				hidden_effect = { add_ruler_personality_ancestor = { key = conqueror } }
 			}
 		}
 		custom_tooltip = flavor_cri.1.a.tt
@@ -189,7 +189,7 @@ country_event = {
 				limit = {
 					has_dlc = "Rights of Man" 
 				}
-				hidden_effect = { add_ruler_personality = inspiring_leader_personality }
+				hidden_effect = { add_ruler_personality_ancestor = { key = inspiring_leader } }
 			}
 		}
 		if = {
@@ -214,7 +214,7 @@ country_event = {
 				limit = {
 					has_dlc = "Rights of Man" 
 				}
-				hidden_effect = { add_ruler_personality = inspiring_leader_personality }
+				hidden_effect = { add_ruler_personality_ancestor = { key = inspiring_leader } }
 			}
 		}
 		custom_tooltip = flavor_cri.1.b.tt
@@ -338,7 +338,7 @@ country_event = {
 				add_core = TUR
 			}
 		}
-		#BT provinces
+		# BT; added 2 prov. below
 		if = {
 			limit = {
 				3245 = {
@@ -357,7 +357,7 @@ country_event = {
 			}
 			7190 = { add_claim = TUR }
 		}
-		
+		# BT; added 2 prov. below
 		if = {
 			limit = {
 				3245 = {
@@ -587,7 +587,7 @@ country_event = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = conqueror_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = conqueror } }
 		}
 		add_opinion = {
 			who = TUR
@@ -705,9 +705,9 @@ country_event = {
 	option = {
 		name = flavor_cri.8.b
 		4338 = {
-			add_base_tax = 4
-			add_base_manpower = 4
-			add_base_production = 4
+			add_base_tax = 4 # BT; 2
+			add_base_manpower = 4 # BT; 2
+			add_base_production = 4 # BT; 2
 		}
 	}
 }

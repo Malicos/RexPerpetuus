@@ -16,7 +16,7 @@ country_event = {
 		government = monarchy
 		NOT = { government_rank = 2 }
 		is_subject = no
-		total_development = 400 #BT Dev Doubling
+		total_development = 400 # BT; 200
 		has_regency = no
 		is_female = no
 		NOT = { active_imperial_incident = any }
@@ -189,7 +189,7 @@ country_event = {
 			factor = 1
 			modifier = {
 				factor = 100
-				total_development = 1000 #BT Dev Doubling
+				total_development = 1000 # BT; 500
 			}
 		}
 		name = king_in_prussia.3.c
@@ -208,7 +208,7 @@ country_event = {
 			factor = 100 
 			modifier = {
 				factor = 0
-				total_development = 1000 #BT Dev Doubling
+				total_development = 1000 # BT; 500
 			}
 		}
 		name = king_in_prussia.3.optd

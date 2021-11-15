@@ -42,7 +42,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1268;5494;canal;1775;-1;-1;-1;-1;kiel_canal
 1548;1515;canal;835;-1;-1;-1;-1;panama_canal
 1328;1316;canal;363;-1;-1;-1;-1;suez_canal
-2348;318;sea;5493;-1;-1;-1;-1;Chios-Sugla
+2348;6006;sea;5493;-1;-1;-1;-1;Chios-Cheshme
 4700;2296;sea;1319;-1;-1;-1;-1;Lesbos-Biga
 3245;2447;sea;1323;-1;-1;-1;-1;Kerch-Mapa
 536;2100;sea;1340;-1;-1;-1;-1;Madurai-Vanni
@@ -114,7 +114,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3178;7112;sea;1312;-1;-1;-1;-1;Patras-Naupaktos
 142;7140;sea;1311;-1;-1;-1;-1;Corfu-Butrint
 142;7132;sea;1311;-1;-1;-1;-1;Corfu-Thesprotia
-2348;4309;sea;5493;-1;-1;-1;-1;Chios-Aydin
+2348;6007;sea;5493;-1;-1;-1;-1;Chios-Ayasoluk
 2296;4779;sea;1319;-1;-1;-1;-1;Biga-Gallipoli
 7110;7113;sea;1319;-1;-1;-1;-1;Oreoi-ZetounionBodonitsa
 7110;7117;sea;1319;-1;-1;-1;-1;Oreoi-Demetrias
@@ -157,28 +157,44 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 242;8138;sea;1284;-1;-1;-1;-1;Carnarvonshire-Anglesey
 235;238;sea;1269;-1;-1;-1;-1;Kent-Essex
 248;8150;sea;1280;-1;-1;-1;-1;Lothian-Fife
-502;5581;sea;1522;-1;-1;-1;-1;Trinidad-Tobago
-5582;500;sea;1522;-1;-1;-1;-1;Grenada-St Vincent
-500;499;sea;1522;-1;-1;-1;-1;St Vincent-St Lucia
-499;498;sea;1522;-1;-1;-1;-1;St Lucia-Martinique
-498;497;sea;1523;-1;-1;-1;-1;Martinique-Dominica
-497;496;sea;1523;-1;-1;-1;-1;Dominica-Guadelope
-496;5583;sea;1523;-1;-1;-1;-1;Guadelope-Monserrat
-5583;494;sea;1523;-1;-1;-1;-1;Monserrat-St Kitts
-5583;495;sea;1523;-1;-1;-1;-1;Monserrat-Antigua & Barbuda
-494;5586;sea;1523;-1;-1;-1;-1;St Kitts-St Martin
-5586;5585;sea;1523;-1;-1;-1;-1;St Martin-St Barthelemy
-5585;1881;sea;1523;-1;-1;-1;-1;St Barthelemy-Anguilla
-1881;5586;sea;1523;-1;-1;-1;-1;Anguilla-St Martin
-5584;493;sea;1526;-1;-1;-1;-1;St Croix-St Thomas
-493;492;sea;1526;-1;-1;-1;-1;St Thomas-Puerto Rico
-492;5584;sea;1526;-1;-1;-1;-1;Puerto Rico-St Croix
-5576;5575;sea;1503;-1;-1;-1;-1;Acklins-Long Island
-5575;5574;sea;1503;-1;-1;-1;-1;Long Island-Eleuthera
-5574;482;sea;1503;-1;-1;-1;-1;Eleuthera-Bahama
-5577;483;sea;1524;-1;-1;-1;-1;Inagua-Turks & Caicos
-5577;5576;sea;1524;-1;-1;-1;-1;Inagua-Acklins
-5578;2808;sea;1519;-1;-1;-1;-1;Aruba-Coro
-491;2808;sea;1519;-1;-1;-1;-1;Curacao-Coro
 2807;830;sea;1519;-1;-1;-1;-1;Altagracia-Maracaibo
+6057;482;sea;1503;-1;-1;-1;-1;Abaco-Bahama
+6057;5574;sea;1503;-1;-1;-1;-1;Abaco-Eluthera
+6056;6055;sea;1503;-1;-1;-1;-1;Andros-Nassau
+6055;5574;sea;1503;-1;-1;-1;-1;Nassau-Eluthera
+6055;6052;sea;1503;-1;-1;-1;-1;Nassau-Exuma
+6504;5574;sea;1503;-1;-1;-1;-1;Mamana-Eleuthera
+6054;6053;sea;1503;-1;-1;-1;-1;Mamana-SanSalvador
+6054;5575;sea;1503;-1;-1;-1;-1;Mamana-LongIsland
+6052;5575;sea;1503;-1;-1;-1;-1;Exuma-LongIsland
+5575;5576;sea;1503;-1;-1;-1;-1;LongIsland-Acklins
+5576;6051;sea;1503;-1;-1;-1;-1;Acklins-Mayaguana
+6051;483;sea;1503;-1;-1;-1;-1;Mayaguana-Inagua
+6051;5577;sea;1503;-1;-1;-1;-1;Mayaguana-TurksAndCaicos
+5577;483;sea;1503;-1;-1;-1;-1;TurksAndCaicos-Inagua
+492;5584;sea;1526;-1;-1;-1;-1;PuertoRico-StThomas
+493;5584;sea;1526;-1;-1;-1;-1;StThomas-Tortola
+5584;6050;sea;1526;-1;-1;-1;-1;StThomas-StCroix
+1881;5586;sea;1523;-1;-1;-1;-1;Anguilla-StMartin
+1881;5585;sea;1523;-1;-1;-1;-1;Anguilla-StBarthelemy
+5586;5585;sea;1523;-1;-1;-1;-1;StMartin-StBarthelemy
+6049;5586;sea;1523;-1;-1;-1;-1;StEustacius-StMartin
+6049;494;sea;1523;-1;-1;-1;-1;StEustacius-StKittsAndNevis
+494;5583;sea;1523;-1;-1;-1;-1;StKittsAndNevis-Montserrat
+5583;495;sea;1523;-1;-1;-1;-1;Monsterrat-Antigua
+495;6048;sea;1523;-1;-1;-1;-1;Antigua-Barbuda
+496;5583;sea;1523;-1;-1;-1;-1;Guadelope-Montserrat
+497;496;sea;1523;-1;-1;-1;-1;Dominica-Guadelope
+498;497;sea;1523;-1;-1;-1;-1;Martinique-Dominica
+499;498;sea;1522;-1;-1;-1;-1;St Lucia-Martinique
+500;499;sea;1522;-1;-1;-1;-1;St Vincent-St Lucia
+6047;500;sea;1522;-1;-1;-1;-1;Grenadines-StVincent
+5582;6047;sea;1522;-1;-1;-1;-1;Grenada-Grenadines
+502;5581;sea;1522;-1;-1;-1;-1;Trinidad-Tobago
+5578;2808;sea;1519;-1;-1;-1;-1;Aruba-Coro
+7777;54;sea;1268;-1;-1;-1;-1;Pinneberg-Stade
+7776;54;sea;1268;-1;-1;-1;-1;Itzehoe-Stade
+4141;8297;sea;1268;-1;-1;-1;-1;Dithmarschen-Hadeln
+8299;8298;sea;1268;-1;-1;-1;-1;Jever-Wursten
+1931;4382;sea;1268;-1;-1;-1;-1;Emsgau-Ommelanden
 -1;-1;;-1;-1;-1;-1;-1;-1;

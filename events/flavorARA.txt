@@ -333,7 +333,7 @@ country_event = {
 			factor = 20
 		}
 		custom_tooltip = flavor_ara7_naples_goes_free
-		tooltip = {
+		tooltip = { # BT
 			if = {
 				limit = {
 					sicily_area = {
@@ -391,7 +391,7 @@ country_event = {
 		PAP = {
 			country_event = { id = flavor_ara.9 days = 1 }
 		}
-		if = {
+		if = { # BT
 			limit = {
 				sicily_area = {
 					owned_by = NAP
@@ -425,7 +425,7 @@ country_event = {
 		PAP = {
 			country_event = { id = flavor_ara.10 days = 1 }
 		}
-		if = {
+		if = { # BT
 			limit = {
 				sicily_area = {
 					owned_by = ROOT
