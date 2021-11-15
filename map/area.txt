@@ -283,67 +283,82 @@ terrae = { # 82 regions
 				105 7045 7057 7060 
 			}
 		}
-		ireland_region = { # 4 areas
+		ireland_region = { # 7 areas
 			{} # eop
 			leinster_area = {
-				373 374 3009 4120 4379 8163 8165 
+				374 3009 4120 8165
+			}
+			meath_area = {
+				373 4379 8160 8163
+			}
+			tyrone_area = {
+				372 4380 8156 8159
 			}
 			ulster_area = {
-				372 3005 3006 4121 4380 8156 8157 8158 8159 
+				3005 3006 4121 8157 8158
 			}
-			munster_area = {
-				375 4118 4377 4378 8164 8166 8167 8168 8169 
+			thomond_area = {
+				375 4377 8167 8168
+			}
+			desmond_area = {
+				4118 4378 8164 8166 8169
 			}
 			connacht_area = {
-				376 3014 4119 8160 8161 8162 
+				376 3014 4119 8161 8162
 			}
 		}
-		british_isles_region = { # 15 areas
+		british_isles_region = { # 17 areas
 			{} # eop
-			kingdom_of_the_isles_area = {
-				253 4363 4364 4365 
+			southern_isles_area = {
+				253 4365 4364 4363
 			}
 			highlands_area = {
-				252 3137 3138 4110 8153 8154 8155 
+				252 4110 3137 3138 8153 8154 8155 8152
 			}
-			lowlands_area = {
-				248 4361 8145 8146 8148 8149 8150 
+			eastern_lowlands_area = { 
+				248 4361 8145 8146 8148
 			}
 			wales_area = {
-				242 8138 8139 8140 8141 
+				242 8138 8139 8140 8141
 			}
-			northern_england_area = { # BT
-				246 4368 8136 8137 
+			northern_england_area = {
+				246 4368 8136 8137
 			}
-			east_midlands_area = {
+			mercia_area = {
 				243 1861 4372 4376 8126 8128 8130 8131 
 			}
+			london_area = {
+				236 237 8124 8125 8127 
+			}
 			wessex_area = {
-				233 234 239 4130 4373 4374 8122 8124 8170 
+				234 239 4374 4130 8170 
 			}
 			east_anglia_area = {
-				1860 3028 4370 
+				1860 3028 4370
 			}
-			scottish_marches_area = {
-				249 3008 3019 4362 8147 
+			western_lowlands_area = { 
+				249 3008 3019 4362 8147
 			}
-			west_midlands_area = {
-				244 247 4375 8135 
+			three_kingdoms_area = {
+				235 238 4371 8123
 			}
-			home_counties_area = {
-				235 236 237 238 4371 8123 8125 8127 
+			cornwall_area = {
+				233 4373 8122
 			}
-			yorkshire_area = {
-				245 4367 4785 8133 8134 
+			deheubarth_area = {
+				241 3034 3036 4369 8143 8144
 			}
-			deheubarth_area = { # BT
-				241 3034 3036 4369 8143 8144 
+			powys_area = {
+				240 4366 8129 8142
 			}
-			powys_area = { # BT
-				240 4366 8129 8142 
+			grampians_area = {
+				8149 8150 8152 251 8151 3139 250
 			}
-			grampians_area = { # BT
-				250 251 3139 8151 8152 
+			cumbria_lancashire_area = {
+				247 244 4375 8135
+			}
+			jorvik_area = {
+				245 4367 4785 8133 8134  
 			}
 		}
 		scandinavia_region = { # 18 areas
