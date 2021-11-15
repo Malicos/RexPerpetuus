@@ -1,5 +1,3 @@
- 
-# filename fixed
 # No previous file for Beyond Typus province
 
 culture = tlingit

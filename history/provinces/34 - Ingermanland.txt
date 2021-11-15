@@ -1,4 +1,3 @@
- 
 #Ingermanland, incl. Ivangorod, Jama, and Kopore.
 #Region - Russia
 #Area - Ingria
@@ -20,11 +19,11 @@ add_local_autonomy = 25
 
 discovered_by = western
 discovered_by = eastern
-1444.1.1 = { discovered_by = KAZ }
-1444.1.1 = { discovered_by = CRI }
-1444.1.1 = { discovered_by = GOL }
-1444.1.1 = { discovered_by = AST }
-1444.1.1 = { discovered_by = QAS }
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
 
 1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
 	remove_core = NOV

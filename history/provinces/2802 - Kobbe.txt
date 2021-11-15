@@ -1,4 +1,3 @@
- 
 #2802 - Kobbe
 
 culture = fur_culture

@@ -1,4 +1,3 @@
- 
 #635 - West Timor
 
 culture = timorese
