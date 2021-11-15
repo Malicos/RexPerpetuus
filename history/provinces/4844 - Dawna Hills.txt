@@ -2,8 +2,9 @@
 # ex 8599
 # wasteland in vanilla
 
-owner = TAU
-controller = TAU
+owner = PAG
+controller = PAG
+add_core = PAG
 add_core = TAU
 culture = karen
 religion = buddhism
@@ -19,17 +20,3 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim # 1.31
 discovered_by = ottoman # 1.31
-
-1535.1.1 = { discovered_by = POR }
-
-1560.1.1 = { fort_15th = yes }
-1745.1.1 = {
-	owner = PEG
-	controller = PEG
-	add_core = PEG
-}
-1755.1.1 = {
-	owner = TAU
-	controller = TAU
-	remove_core = PEG
-}

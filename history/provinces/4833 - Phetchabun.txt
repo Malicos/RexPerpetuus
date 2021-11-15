@@ -1,9 +1,9 @@
  
 # ex 8566
 
-owner = AYU 
-controller = AYU
-add_core = AYU
+owner = SUK
+controller = SUK
+add_core = SUK
 culture = central_thai
 religion = buddhism
 capital = "Phetchabun" # BT; "Phetchaburi"
@@ -18,7 +18,3 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim # 1.31
 discovered_by = ottoman # 1.31
-
-1535.1.1 = { discovered_by = POR }
-1767.4.1 = { unrest = 7 } # The Ayutthaya kingdom began to crumble
-1774.1.1 = { unrest = 0 }
