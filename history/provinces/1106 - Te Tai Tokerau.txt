@@ -2,22 +2,22 @@
 # owned in 1.31
 # renamed in 1.31
 
-owner = TTT
-controller = TTT
-add_core = TTT
+#owner = TTT
+#controller = TTT
+#add_core = TTT
 culture = maori # 1.31
 religion = animism
 capital = "Whanganui" # BT; "Whangarei"
-is_city = yes
+#is_city = no
 hre = no
 base_tax = 1 # BT; 4
 base_production = 1 # BT; 4
 base_manpower = 1 # BT; 2
-trade_goods = tropical_wood
+trade_goods = unknown
 # ??? below
-#native_size = 10
-#native_ferocity = 3
-#native_hostileness = 5
+native_size = 10
+native_ferocity = 3
+native_hostileness = 5
 
 discovered_by = polynesian_tech # 1.31
 

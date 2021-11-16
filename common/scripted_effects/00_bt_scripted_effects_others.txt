@@ -53,14 +53,13 @@ create_interregnum_effect = {
             }
             break_marriage = ROOT
         }
-        kill_heir = yes
+        kill_heir = { }
     }
     define_ruler = {
         name = "(Interregnum)"
         adm = 0
         dip = 0
         mil = 0
-        fixed = yes
         regency = yes
     }
 }
@@ -217,4 +216,20 @@ choc_AlbrechtVI_dies_first = {
         HAB = { clr_country_flag = choc_albrecht_friedrich_brothers }
         VOR = { clr_country_flag = choc_albrecht_friedrich_brothers }
     }
+}
+
+CHO_AlbrechtVI_heir_dies = { #Kill duplicate Albrecht if heir dies
+	if = {
+		limit = {
+			OR = { 
+				tag = STY
+				tag = HAB
+			}				
+			has_country_flag = CHO_albrecht_friedrich_brothers
+			VOR = {	ai = yes }
+		}
+		STY = { clr_country_flag = CHO_albrecht_friedrich_brothers }
+		HAB = { clr_country_flag = CHO_albrecht_friedrich_brothers }
+		VOR = { clr_country_flag = CHO_albrecht_friedrich_brothers kill_ruler = yes }
+	}
 }

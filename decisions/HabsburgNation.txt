@@ -136,7 +136,7 @@ country_decisions = {
 					add_permanent_claim = HAB
 				}
 			}
-			8462 = {	Krimml
+			8462 = {	#Krimml
 				if = {
 					limit = {
 						NOT = { owned_by = ROOT }

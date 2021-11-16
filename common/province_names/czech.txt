@@ -42,6 +42,7 @@
 #Carpathia
 135 = { "Šopron" "Šopron" }
 153 = { "Pešt" "Pešt" }
+154 = { "Hont" "Šahy" } #(JP) Czech
 158 = { "Máruši" "Nový Trh" }
 161 = { "Trhovište" "Trhovište" }
 1318 = { "Spiš" "Levoca" }

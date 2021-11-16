@@ -1214,6 +1214,7 @@ on_heir_death = {
 		remove_country_modifier = bt_tanistry_female_heir
 		country_event = { id = BeyondTypusCelticFlavour.8 days = 1 } #Tanist dies, new tanist event
 	}
+	CHO_AlbrechtVI_heir_dies = yes
 }
 
 # country

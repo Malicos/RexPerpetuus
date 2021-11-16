@@ -262,6 +262,7 @@ country_event = { #Matyas Uncle Occupies lots of territory
 	}
 }
 
+#(JP) Chocolate seems to have depreciated this, not sure why #neohalp
 country_event = { #Kill Ladislaus in Bohemia
 	id = Chocolate_hab_hun.6
 	title = Chocolate_hab_hun.6.t
@@ -287,7 +288,7 @@ country_event = { #Kill Ladislaus in Bohemia
 			}
 			else_if = {
 				limit = { has_heir = "Ladislaus Postumus" }
-				kill_heir = yes
+				kill_heir = { }
 			}
 			if = {
 				limit = { junior_union_with = HUN }
@@ -334,7 +335,7 @@ country_event = { #Death of Ladislaus, Austria is taken by the Habsburgs again
 					set_ruler = Albrecht6Austria
 					inherit = VOR
 					set_country_flag = AlbrechtMightDie
-				}
+				} #neohalp, not sure what should be ceded here. Seems to be ceding some land from Lower Austria to Styria
 				4762 = {
 					cede_province = STY
 				}
@@ -402,7 +403,7 @@ country_event = { #Styria demands Austria
 		ai_chance = { 
 			factor = 1
 		}
-		4762 = {
+		4762 = { #neohalp, not sure what should be ceded here. Seems to be ceding some land from Lower Austria to Styria
 			cede_province = HAB
 		}
 		134 = {
@@ -423,7 +424,6 @@ country_event = { #Styria demands Austria
 		}
 	}
 }
-
 
 country_event = { #Vienna is occupied by Albrecht
 	id = Chocolate_hab_hun.701
@@ -454,7 +454,7 @@ country_event = { #Vienna is occupied by Albrecht
 			factor = 1
 		}
 		white_peace = STY
-		4762 = {
+		4762 = { #neohalp, not sure what should be ceded here. Seems to be ceding some land from Lower Austria to Styria
 			cede_province = HAB
 		}
 		134 = {
@@ -517,7 +517,6 @@ country_event = { #Albrecht Passes away
 	}
 }
 
-
 country_event = { #Ladislaus becomes of age
 	id = Chocolate_hab_hun.8
 	title = Chocolate_hab_hun.8.t
@@ -567,5 +566,158 @@ country_event = { #Ladislaus becomes of age
 		name = Chocolate_hab_hun.8.c
 		trigger = { NOT = { has_ruler_flag = GeorgePodybradyRegentKing } }
 		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = { #Maximilian is born
+	id = Chocolate_hab_hun.9
+	title = Chocolate_hab_hun.9.t
+	desc = Chocolate_hab_hun.9.desc
+	#picture = DEATH_OF_HEIR_eventPicture
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 30
+		modifier = {
+			factor = 0.5
+			has_consort = yes
+		}
+	}
+
+	trigger = {
+		OR = { 
+		tag = STY
+		tag = HAB
+		}
+		has_ruler = "Friedrich III"
+		is_year = 1455
+		NOT = {
+			is_year = 1465
+		}
+		has_heir_flag = AlbrechtBrother
+	}
+	
+	option = { #Maximilian
+		name = Chocolate_hab_hun.9.a
+		ai_chance = { factor = 19 }
+		define_heir = {
+			name = "Maximilian"
+			dynasty = ROOT
+			age = 0
+			adm = 4
+			dip = 5
+			mil = 4
+			claim = 90
+			male = yes
+		}
+		clr_heir_flag = AlbrechtBrother
+	}
+	option = { #Keep current Heir
+		name = Chocolate_hab_hun.9.b	
+		ai_chance = { factor = 1 }
+	}
+}
+
+
+country_event = { #Royal Marriage with Portugal
+	id = Chocolate_hab_hun.10
+	title = Chocolate_hab_hun.10.t
+	desc = Chocolate_hab_hun.10.desc
+	#picture = DEATH_OF_HEIR_eventPicture
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 18
+	}
+
+	trigger = {
+		OR = { 
+		tag = STY
+		tag = HAB
+		}
+		has_ruler = "Friedrich III"
+		is_year = 1450
+		NOT = {
+			is_year = 1460
+		}
+		has_consort = no
+	}
+	
+	option = { #Marry Eleanor
+		name = Chocolate_hab_hun.10.a
+		ai_chance = { factor = 19 }
+		define_consort = {
+			country_of_origin = POR
+			religion = ROOT
+			culture = portugese
+			name = "Eleanor"
+			adm = 3
+			dip = 3
+			mil = 3
+			age = 18
+			female = yes
+		}
+		create_marriage = POR
+	}
+	option = { #Decline the opportunity
+		name = Chocolate_hab_hun.10.b	
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = { #Swap VOR with STY
+	id = Chocolate_hab_hun.99
+	desc = Chocolate_hab_hun.99.desc
+	title = Chocolate_hab_hun.99.t
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	
+	}
+	
+	option = {
+		name = Chocolate_hab_hun.99.a
+		ai_chance = { factor = 99 }
+		switch_tag = STY
+		country_event = {
+			id = Chocolate_hab_hun.999
+		}
+	}
+	
+	option = {
+		name = Chocolate_hab_hun.99.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+country_event = { #	
+	id = Chocolate_hab_hun.999
+	desc = Chocolate_hab_hun.999.desc
+	title = Chocolate_hab_hun.999.t
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+	
+	}
+	
+	option = {
+		name = Chocolate_hab_hun.999.a
+		ai_chance = { factor = 99 }
+		VOR = {
+			every_owned_province {
+				cede_province = STY
+			}
+		}
 	}
 }

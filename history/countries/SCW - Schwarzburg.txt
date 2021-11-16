@@ -16,7 +16,7 @@ religion = catholic
 technology_group = western
 
 #History
-1408.1.1 = {
+1408.1.2 = {
 	monarch = {
 		name = "Heinrich XXI"
 		dynasty = "von Schwarzburg"

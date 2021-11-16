@@ -2101,6 +2101,10 @@ country_event = {
 	fire_only_once = yes
 	major = yes
 
+	trigger = {
+		always = no
+	}
+
 	immediate = {
 		hidden_effect = {
 			HUN = {

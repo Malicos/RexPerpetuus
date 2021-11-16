@@ -1,6 +1,11 @@
 spriteTypes = {
 
 		spriteType = {
+		name = "GFX_great_project_aachen_cathedral"	
+		texturefile = "gfx//interface//great_projects//great_project_aachen_cathedral.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_aula_palatina"	
 		texturefile = "gfx//interface//great_projects//great_project_aula_palatina.dds"
 	}
@@ -21,6 +26,16 @@ spriteTypes = {
 	}
 
 		spriteType = {
+		name = "GFX_great_project_herrenhausen_gardens"	
+		texturefile = "gfx//interface//great_projects//great_project_herrenhausen_gardens.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_imperial_gardens"	
+		texturefile = "gfx//interface//great_projects//great_project_imperial_gardens.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_lapa_arches"	
 		texturefile = "gfx//interface//great_projects//great_project_lapa_arches.dds"
 	}
@@ -28,6 +43,11 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_great_project_leaning_tower"	
 		texturefile = "gfx//interface//great_projects//great_project_leaning_tower.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_lincoln_cathedral"	
+		texturefile = "gfx//interface//great_projects//great_project_lincoln_cathedral.dds"
 	}
 
 		spriteType = {
@@ -51,6 +71,11 @@ spriteTypes = {
 	}
 
 		spriteType = {
+		name = "GFX_great_project_meroe_pyramids"	
+		texturefile = "gfx//interface//great_projects//great_project_meroe_pyramids.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_mont_saint_michel"	
 		texturefile = "gfx//interface//great_projects//great_project_mont_saint_michel.dds"
 	}
@@ -68,6 +93,11 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_great_project_mt_olympus"	
 		texturefile = "gfx//interface//great_projects//great_project_mt_olympus.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_palace_of_the_popes"	
+		texturefile = "gfx//interface//great_projects//great_project_palace_of_the_popes.dds"
 	}
 
 		spriteType = {

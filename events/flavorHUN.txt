@@ -7,7 +7,7 @@
 namespace = flavor_hun
 normal_or_historical_nations = yes
 
-# Diet of 1445
+# Diet of 1446
 country_event = {
 	id = flavor_hun.1
 	title = flavor_hun.1.t
@@ -22,7 +22,7 @@ country_event = {
 		has_consort_regency = no
 		is_lesser_in_union = no
 		has_leader = "János Hunyadi"
-		is_year = 1445
+		is_year = 1446
 		NOT = { is_year = 1470 }
 		has_government_attribute = heir
 	}
@@ -32,7 +32,7 @@ country_event = {
 	}
 
 	option = {
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 65 }
 		trigger = {
 			HAB = { has_heir = "Ladislaus Postumus" }
 		}
@@ -47,6 +47,7 @@ country_event = {
 			age = 39
 			attach_leader = "János Hunyadi"
 		}
+		set_ruler_flag = JohnHunyadiKingRegent
 		if = {
 			limit = {
 				has_states_general_mechanic = yes
@@ -69,6 +70,16 @@ country_event = {
 			block_disinherit = yes
 			birth_date = 1440.2.22
 			fixed = yes
+			claim = 60
+		}
+		if = { 
+			limit = { 
+				historical_friend_with = POL
+			}
+			remove_historical_friend = POL
+			POL = { 
+				remove_historical_friend = HUN
+			}
 		}
 		custom_tooltip = hun_ladislaus_postumus_warning_tooltip
 		hidden_effect = { set_country_flag = hun_ladislaus_postumus_heir }
@@ -92,7 +103,7 @@ country_event = {
 		trigger = {
 			HAB = { has_heir = "Ladislaus Postumus" }
 		}
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 35 }
 		add_stability_or_adm_power = yes
 		define_heir = {
 			name = "Ladislaus Postumus"
@@ -103,6 +114,7 @@ country_event = {
 			mil = 2
 			birth_date = 1440.2.22
 			fixed = yes
+			claim = 60
 		}
 		hidden_effect = {
 			define_ruler = {
@@ -118,10 +130,18 @@ country_event = {
 			estate = estate_nobles
 			loyalty = -15
 		}
-
+		if = { 
+			limit = { 
+				historical_friend_with = POL
+			}
+			remove_historical_friend = POL
+			POL = { 
+				remove_historical_friend = HUN
+			}
+		}
 	}
 	option = {
-		ai_chance = { factor = 1 }
+		ai_chance = { factor = 65 }
 		trigger = {
 			HAB = { NOT = { has_heir = "Ladislaus Postumus" } }
 		}
@@ -136,6 +156,7 @@ country_event = {
 			age = 39
 			attach_leader = "János Hunyadi"
 		}
+		set_ruler_flag = JohnHunyadiKingRegent
 		define_heir = {
 			name = "Mátyás"
 			culture = hungarian
@@ -195,6 +216,7 @@ country_event = {
 		has_regency = no
 		is_lesser_in_union = no
 		HAB = {
+			is_lesser_in_union = no
 			is_subject = no
 			government = monarchy
 			has_regency = no
@@ -214,7 +236,7 @@ country_event = {
 	}
 
 	option = {
-		ai_chance = { factor = 75 }
+		ai_chance = { factor = 90 } #modified from 75
 		trigger = {
 			OR = {
 				has_heir = no
@@ -341,15 +363,15 @@ country_event = {
 	picture = DEATH_OF_HEIR_eventPicture
 
 	mean_time_to_happen = {
-		years = 20 #so it should happen about 1/3 of games
+		years = 7 #so it should happen about 1/3 of games
 	}
 
 	fire_only_once = yes
 
 	trigger = {
 		tag = HUN
-		is_year = 1450
-		NOT = { is_year = 1457 }
+		is_year = 1453
+		NOT = { is_year = 1460 }
 		OR = {
 			has_heir = "Ladislaus Postumus"
 			has_ruler = "Ladislaus Postumus I"
@@ -376,7 +398,7 @@ country_event = {
 		}
 		remove_historical_friend = HAB
 		HAB = { remove_historical_friend = HUN }
-		kill_heir = yes
+		kill_heir = { }
 		define_heir = {
 			name = "Mátyás"
 			culture = hungarian
@@ -394,22 +416,50 @@ country_event = {
 			}
 			hidden_effect = { add_heir_personality_ancestor = { key = just } }
 		}
-		HAB = {
-			tooltip = {
-				add_casus_belli = {
-					target = HUN
-					type = cb_restore_personal_union
-					months = 60
+		if = { 
+			limit = { HAB = { vassal_of = STY } }
+			remove_historical_friend = STY
+			remove_historical_friend = HAB
+			HAB = { remove_historical_friend = HUN }
+			STY = { remove_historical_friend = HUN }
+			STY = {
+				tooltip = {
+					add_casus_belli = {	
+						target = HUN
+						type = cb_restore_personal_union
+						months = 60
+					}	
+				}
+				hidden_effect = {
+					country_event = { id = flavor_hun.10 days = 1 }
 				}
 			}
-			hidden_effect = {
-				country_event = { id = flavor_hun.10 days = 1 }
+		}
+		else = {
+			remove_historical_friend = HAB
+			HAB = { remove_historical_friend = HUN }
+			HAB = {
+				tooltip = {
+					add_casus_belli = {	
+						target = HUN
+						type = cb_restore_personal_union
+						months = 60
+					}	
+				}
+				hidden_effect = {
+					country_event = { id = flavor_hun.10 days = 1 }
+				}
 			}
 		}
+		if = {
+			limit = { senior_union_with = HAB }
+			STY = { country_event = { id = Chocolate_hab_hun.7 } }
+		}
+		country_event = { id = Chocolate_hab_hun.6 } #Deal with Bohemia
 	}
 	option = { #Ruler dies, keep his heir
 		name = flavor_hun.201.b
-		ai_chance = { factor = 1 }
+		ai_chance = { factor = 3 }
 		trigger = {
 			has_ruler = "Ladislaus Postumus I"
 			has_heir = yes
@@ -431,16 +481,26 @@ country_event = {
 				inherit = CRO
 			}
 		}
-		HAB = {
-			create_union = HUN
-			hidden_effect = {
-				country_event = { id = flavor_hun.3 days = 1 }
+		if = { limit = { HAB = { vassal_of = STY } }
+			STY = {
+				create_union = HUN
+				hidden_effect = {
+					country_event = { id = flavor_hun.3 days = 1 }
+				}
+			}
+		}
+		else = {
+			HAB = {
+				create_union = HUN
+				hidden_effect = {
+					country_event = { id = flavor_hun.3 days = 1 }
+				}
 			}
 		}
 	}
 	option = { #Ruler dies with no heir, take Matyas
 		name = flavor_hun.201.d
-		ai_chance = { factor = 3 }
+		ai_chance = { factor = 9 }
 		trigger = {
 			has_ruler = "Ladislaus Postumus I"
 			has_heir = no
@@ -465,17 +525,44 @@ country_event = {
 			hidden_effect = { add_heir_personality_ancestor = { key = just } }
 		}
 		kill_ruler = yes
-		HAB = {
-			tooltip = {
-				add_casus_belli = {
-					target = HUN
-					type = cb_restore_personal_union
-					months = 60
+		if = { 
+			limit = { HAB = { vassal_of = STY } }
+			remove_historical_friend = STY
+			remove_historical_friend = HAB
+			HAB = { remove_historical_friend = HUN }
+			STY = { remove_historical_friend = HUN }
+			STY = {
+				tooltip = {
+					add_casus_belli = {	
+						target = HUN
+						type = cb_restore_personal_union
+						months = 60
+					}	
+				}
+				hidden_effect = {
+					country_event = { id = flavor_hun.10 days = 1 }
 				}
 			}
-			hidden_effect = {
-				country_event = { id = flavor_hun.10 days = 1 }
+		}
+		else = {
+			remove_historical_friend = HAB
+			HAB = { remove_historical_friend = HUN }
+			HAB = {
+				tooltip = {
+					add_casus_belli = {	
+						target = HUN
+						type = cb_restore_personal_union
+						months = 60
+					}	
+				}
+				hidden_effect = {
+					country_event = { id = flavor_hun.10 days = 1 }
+				}
 			}
+		}
+		if = {
+			limit = { senior_union_with = HAB }
+			STY = { country_event = { id = Chocolate_hab_hun.7 } }
 		}
 	}
 }

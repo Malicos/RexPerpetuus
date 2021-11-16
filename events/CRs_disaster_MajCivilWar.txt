@@ -276,7 +276,7 @@ country_event = {
 
 	option = {
 		name = "maj_civil_war.7.a"
-		kill_heir = yes
+		kill_heir = { }
 		add_stability = -1
 	}
 }

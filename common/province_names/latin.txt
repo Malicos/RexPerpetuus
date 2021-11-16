@@ -661,7 +661,7 @@
 379 = { "Gerusalemme" "Gerusalemme" }
 380 = { "Crac di Moab" "Crac di Moab" }
 382 = { "Damasco" "Damasco" }
-405 = { "Palmira" Palmira" }
+405 = { "Palmira" "Palmira" }
 1849 = { "Emesa" "Emesa" }
 1854 = { "Giaffa" "Giaffa" }
 1855 = { "Acri" "Acri" } #(JP) Province is technically "Safed" but the port is "Acre"
@@ -734,7 +734,7 @@
 #158 Targu Mures
 160 = { "Pelendava" "Pelendava" } #(JP) Classical Latin and Roman name
 161 = { "Tergovisco" "Tergovisco" }
-268 = { "Botosani" "Botosani" } #(JP) Base names
+268 = { "Botossani" "Botossani" } #(JP) Base names
 1318 = { "Scepus" "Leusaca" } #(JP) Probably rubbish
 1756 = { "Licostomo" "Licostomo" }
 1772 = { "Presburgo" "Presburgo" }
@@ -753,11 +753,11 @@
 3154 = { "Alba" "Alba Giulia" }
 3156 = { "Suceava" "Suceava" } #(JP) Base names
 3157 = { "Bacovia" "Bacovia" } #(JP) Classical Latin
-3159 = { "Beltsi" "Beltsi" } #(JP) Not sure here...?
+3159 = { "Belzi" "Belzi" } #(JP) Not sure here...?
 3160 = { "Bucarest" "Bucarest" } #(JP) or "Bucoresia"?
 4125 = { "Agrio" "Agrio" } #(JP) Latin "Agria"
 #4126 Kiskunság/Kiskunhalas
-4127 = { "Acqua Pulita" "Acqua Pulita" } #(JP) City means clear water, this is what google gives me
+4127 = { "Acqua Chiara" "Acqua Chiara" } #(JP) City means clear water, this is what google gives me
 4128 = { "Corona" "Corona" } #(JP) Latin name of city, meaning "Crown", same as modern Italian
 4173 = { "Somborro" "Somborro" }
 4236 = { "Laugaricio" "Laugaricio" } #(JP) Classical Latin/Roman name
@@ -767,11 +767,11 @@
 4531 = { "Giurgevo" "Giurgevo" }
 4532 = { "Severino" "Severino" }
 7274 = { "Cernovizza" "Cernovizza" }
-7275 = { "Chotyn" "Chotyn" } #(JP) Wiki give this as the direct transliteration to Italian. Something better please?
-7276 = { "Fokchani" "Fokchani" } #(JP) Not sure about this?
+7275 = { "Otina" "Otina" } #(JP) Wiki give this as the direct transliteration to Italian. Something better please?
+7276 = { "Focciani" "Focciani" } #(JP) Not sure about this?
 7277 = { "Tichina" "Tichina" }
 7278 = { "Moncastro" "Moncastro" }
-7740 = { "Bagatso" "Bagatso" } #(JP) Greek "Pagatzion"
+7740 = { "Bagazzo" "Bagazzo" } #(JP) Greek "Pagatzion"
 #7741 Becej
 #7743 Resita
 #7744 Lugoj
@@ -788,7 +788,7 @@
 #7757 Orasul de Floci
 7758 = { "Drinago" "Drinago" }
 #8171 Gussing
-8172 = { "Savario" "Savario" } #(JP) Classical Latin "Savaria"
+8172 = { "Savaria" "Savaria" } #(JP) Classical Latin "Savaria"
 #8174 Nitra
 8175 = { "Comarno" "Comarno" }
 #8178 Arva
@@ -815,30 +815,30 @@
 #8206 Szilagy/Simleu Silvaniei
 8207 = { "Clausemburgo" "Clausemburgo" }
 #8208 Sibiu
-8209 = { "Potaizza" "Potaizza" } #(JP) "Potaissa" is ancient Dacian and Roman fortress
+8209 = { "Potaissa" "Potaissa" } #(JP) "Potaissa" is ancient Dacian and Roman fortress
 #8210 Fogaras
 8211 = { "San Giorgio" "San Giorgio" }
 #8212 Sumuleu Ciuc
-8213 = { "Castrum Sesso" "Castrum Sesso" } #(JP) Latin "Castrum Sex"
+8213 = { "Castrosesso" "Castrosesso" } #(JP) Latin "Castrum Sex"
 8215 = { "Regino" "Regino" } #(JP) Maybe...?
 #8218 Debrecen
 8219 = { "Vaslui" "Vaslui" } #(JP) Base names
 8220 = { "San Masaracchio" "San Masaracchio" } #(JP) Chisnau was founded as a monastery village around this church. Better than nowt?
 #8493 Zarand
-8494 = { "Transmurania" "Sabato" }
+8494 = { "Tramurania" "Sabato" }
 8495 = { "Canissa" "Canissa" }
 
 #Poland
-254 = { "Posen" "Posen" }
+254 = { "Posa" "Posa" }
 255 = { "Calisca" "Calisca" }
-256 = { "Poltco" "Poltco" }
-257 = { "Varsavia" "Varsavia" }
+256 = { "Polco" "Polco" }
+257 = { "Varsovia" "Varsovia" }
 258 = { "Siradia" "Siradia" }
 259 = { "Sandomiria" "Sandomiria" }
-260 = { "Lublino" "Lublino" }
+260 = { "Lubino" "Lubino" }
 262 = { "Cracovia" "Cracovia" }
 264 = { "Breslavia" "Breslavia" }
-1938 = { "Vizna" "Vizna" }
+1938 = { "Visna" "Visna" }
 1939 = { "Lencicia" "Lencicia" }
 3142 = { "Troppavia" "Troppavia" }
 4526 = { "Gniesna" "Gniesna" }
@@ -846,10 +846,10 @@
 #Ruthenia
 270 = { "Trochio" "Trochio" }
 272 = { "Vilna" "Vilna" }
-275 = { "Polocza" "Polocza" }
-276 = { "Minsca" "Minsca" }
+275 = { "Poloza" "Poloza" }
+276 = { "Minscia" "Minscia" }
 277 = { "Bresici" "Bresici" }
-278 = { "Pinsca" "Pinsca" }
+278 = { "Pinscia" "Pinscia" }
 280 = { "Chiovia" "Chiovia" }
 771 = { "Vitepsca" "Vitepsca" }
 1940 = { "Belza" "Belza" }
@@ -900,10 +900,10 @@
 39 = { "Goldinga" "Goldinga" }
 41 = { "Regiomonte" "Regiomonte" }
 43 = { "Danzica" "Danzica" }
-1834 = { "Derpta" "Derpta" }
-1841 = { "Marienburgo" "Marienburgo" }
+1834 = { "Derta" "Derta" }
+1841 = { "Mariemburgo" "Mariemburgo" }
 1842 = { "Nerva" "Nerva" }
-1859 = { "Turonia" "Turonia" } #(JP) Technically the province is "Kulm"/"Chelmno" but this is in there
+1859 = { "Chelno" "Chelno" } #(JP) Technically the province is "Kulm"/"Chelmno" but this is in there
 3227 = { "Plenon" "Plenon" }
 3293 = { "Serburgo" "Serburgo" }
 7857 = { "Apsala" "Apsala" }
@@ -919,7 +919,7 @@
 17 = { "Cristiania" "Cristiania" }
 20 = { "Nidrosia" "Nidrosia" }
 23 = { "Begershusia" "Begershusia" } 
-315 = "Finnmarchia"
+315 = "Finnamarchia"
 1979 = "Isole Deucalidonie" #faer oer. possibly just deucalidonie.
 1982 = { "Bechingia" "Bechingia" }
 3121 = "Elanda" 

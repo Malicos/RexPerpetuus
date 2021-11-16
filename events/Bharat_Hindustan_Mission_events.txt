@@ -227,7 +227,7 @@ country_event = {
 		}
 		change_primary_culture = marathi
 		hidden_effect = {
-			kill_heir = yes
+			kill_heir = { }
 		}
 		define_ruler = {
 			culture = marathi
