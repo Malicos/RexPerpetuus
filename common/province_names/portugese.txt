@@ -77,7 +77,7 @@
 8059 = { "Alcácer" "Alcácer" }
 8060 = { "Truxilho" "Truxilho" }
 8061 = { "Alcântara" "Alcântara" }
-8062 = { "Cherena" "Cherena" }
+8062 = { "Lerena" "Lerena" }
 8063 = { "Olivença" "Olivença" }
 8065 = { "Vilena" "Vilena" }
 8073 = { "Pedroches" "Poçobranco" }

@@ -1,0 +1,20 @@
+#Värmland+Dal
+#Region - Scandinavia
+#Area - Svealand
+
+add_core = SWE
+owner = SWE
+controller = SWE
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 1 
+base_production = 1 
+trade_goods = iron
+base_manpower = 1 
+capital = "Tingvalla"
+is_city = yes
+add_core = GTA
+
+discovered_by = western
+discovered_by = eastern

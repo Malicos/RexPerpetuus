@@ -64,7 +64,7 @@
 8088 = { "Denia" "Denia" }
 8089 = { "Maestrazgo" "Peñíscola" }
 8091 = { "Valenza" "Valenza" }
-8092 = { "Llaves" "Llaves" }
+8092 = { "Chaves" "Chaves" }
 8094 = { "Villa Real" "Villa Real" }
 8096 = { "Cobillana" "Cobillana" }
 8097 = { "Proenza" "Proenza" }

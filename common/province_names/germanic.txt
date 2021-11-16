@@ -531,7 +531,7 @@
 7831 = { "Ortelsburg" "Ortelsburg" }
 7832 = { "Rhein" "Rhein" }
 7833 = { "Samland" "Fischhausen" }
-7834 = { "Neuhausen" "Neuhausen" }
+7834 = { "Neuhausen" "Neuhausen" } #(JP) I know it is duplicate, but most other options were not held by Sambia, plus this Neuhausen was pretty important
 7835 = { "Angerburg" "Angerburg" }
 7836 = { "Georgenburg" "Georgenburg" }
 7837 = { "Ragnit" "Ragnit" } #(JP) or "Tilsit"

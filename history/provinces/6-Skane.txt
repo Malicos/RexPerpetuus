@@ -1,0 +1,30 @@
+#Skåne
+#Region - Scandinavia
+#Area - Skaneland
+
+owner = SWE
+controller = SWE
+add_core = SWE
+culture = danish
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 5
+#trade_goods = grain
+trade_goods = fish #The Great Herring Market of Skåne
+base_manpower = 3
+capital = "Malmö"
+is_city = yes
+
+
+extra_cost = 25
+add_permanent_province_modifier = {
+	name = skanemarket
+	duration = -1
+} 
+center_of_trade = 1
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
