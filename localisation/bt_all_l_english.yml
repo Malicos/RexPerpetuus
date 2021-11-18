@@ -353,6 +353,8 @@
  BtPLegacy_european_trade.EVTOPTB1:0 "There is nothing that can be done."
  BtPLegacy_european_trade.EVTOPTB3:0 "There is nothing that can be done."
  BtPLegacy_european_trade.EVTOPTC1:0 "Order the port and commerce moved to Sluis, nearer the sea."
+ btwettinrealms:0 "Wettin Realms"
+ bt_united_saxony_ADJ:0 "Saxon"
  BUR_ideas:0 "Burgundian Ideas" #xxx
  BUR_ideas_bonus:0 "Burgundian Ambition"
  BUR_ideas_start:0 "Burgundian Traditions"
@@ -379,6 +381,7 @@
  COUNTYPALATINE:0 "County Palatine"
  csango:0 "Csango"
  DYOPHYSITE:0 "Dyophysite"
+ electorate_of_saxony_nation_title:0 "Unite the Electorate of Saxony"
  EMR_ideas:0 "Emilia-Romagnol Ideas"
  EMR_ideas_bonus:0 "Emilia-Romagnol Ambition"
  EMR_ideas_start:0 "Emilia-Romagnol Traditions"

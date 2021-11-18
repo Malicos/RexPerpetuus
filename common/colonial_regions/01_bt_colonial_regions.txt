@@ -420,6 +420,7 @@ colonial_newfoundland = {
 		trigger = {	
 			OR = {
 				primary_culture = highland_scottish	
+				primary_culture = gallgaidheil
 				#BT Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_highland_scottish_culture
 			}
