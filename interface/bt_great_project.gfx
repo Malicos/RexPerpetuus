@@ -11,6 +11,11 @@ spriteTypes = {
 	}
 
 		spriteType = {
+		name = "GFX_great_project_azuchi_castle"	
+		texturefile = "gfx//interface//great_projects//great_project_azuchi_castle.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_chillon_castle"	
 		texturefile = "gfx//interface//great_projects//great_project_chillon_castle.dds"
 	}
@@ -31,6 +36,11 @@ spriteTypes = {
 	}
 
 		spriteType = {
+		name = "GFX_great_project_hongan_ji"	
+		texturefile = "gfx//interface//great_projects//great_project_hongan_ji.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_herrenhausen_gardens"	
 		texturefile = "gfx//interface//great_projects//great_project_herrenhausen_gardens.dds"
 	}
@@ -38,6 +48,11 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_great_project_imperial_gardens"	
 		texturefile = "gfx//interface//great_projects//great_project_imperial_gardens.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_imperial_palace"	
+		texturefile = "gfx//interface//great_projects//great_project_imperial_palace.dds"
 	}
 
 		spriteType = {

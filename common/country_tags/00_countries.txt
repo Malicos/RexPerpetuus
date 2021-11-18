@@ -962,6 +962,7 @@ RFR = "countries/Nanbu.txt"
 RGO = "countries/Reggio.txt" #BT
 RGR = "countries/Regraga.txt" #BT
 RHD = "countries/Rhade.txt" #BT
+RHI = "countries/Rhineland.txt" #BT
 RHM = "countries/Rheims.txt" #BT
 RHN = "countries/Rohan.txt" #BT
 RIA = "countries/Riau.txt" #BT
