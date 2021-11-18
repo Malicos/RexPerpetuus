@@ -1,4 +1,13 @@
 ﻿l_english:
+ # New stuff and/or things here:
+ 
+ #Areas (Need to be localised because otherwise they cause error log spam)
+ unused_sea_area:0 "unused_sea_area"
+ unused_lake_area:0 "unused_lake_area"
+ unused_wasteland_area:0 "unused_wasteland_area"
+ unused_area:0 "unused_area"
+ temp_area:0 "temp_area"
+ 
  # Brian
  # cleaned, removed duplicates
  # sorted alpha-numerically

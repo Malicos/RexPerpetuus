@@ -11,7 +11,7 @@
 211 = { "Osca" "Osca" }
 212 = { "Gerunda" "Gerunda" }
 214 = { "Saragoça" "Saragoça" }
-215 = { "Valhadoli" "Valhadoli" }
+215 = { "Valedoli" "Valedoli" }
 217 = { "Madri" "Madri" }
 218 = { "Badalhouce" "Badalhouce" }
 220 = { "Valência" "Valência" }
@@ -1075,7 +1075,7 @@
 2653 = { "Vale de Paçuia" "Chimaltenango" }
 2660 = { "Manágua" "Santiago de Manágua" } #Leal Villa de Santiago de Managua
 2661 = { "Siuna" "Siuna" }
-2662 = { "Nova Valhadolide" "Nova Valhadolide" } #Villa de la Nueva Valladolid de Comayagua or Santa María de la Concepción de Comayagua
+2662 = { "Nova Valedoli" "Nova Valedoli" } #Villa de la Nueva Valladolid de Comayagua or Santa María de la Concepción de Comayagua
 2663 = { "Golfo de São Lucas" "Nicoia" }
 4585 = { "Pichucalco" "São Domingos Pichucalco" }
 4586 = { "Chiapas" "Vila Real de Chiapas" }
@@ -1083,7 +1083,7 @@
 4588 = { "Novo Bécar" "Novo Bécar" } 
 4589 = { "Caio" "Ponta Gorda" }
 4590 = { "Mani" "São Miguel de Mani" }
-4591 = { "Valhadoli do Iucatã" "Valhadoli do Iucatã" }
+4591 = { "Valedoli do Iucatã" "Valedoli do Iucatã" }
 4592 = { "Rio Escondido" "Rama" }
 4593 = { "Joro" "Santa Cruz" }
 4594 = { "Popitum" "Popitum" }

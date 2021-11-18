@@ -32,7 +32,7 @@ france_region = { # 27 areas
 		west_languedoc_area
 		dauphine_area
 		upper_guyenne_area
-		upper_gascony_area # Brian; added _area
+		upper_gascony  
 		limousin_area
 		barrois_area
 	}
@@ -62,7 +62,7 @@ iberia_region = { # 23 areas
 		asturias_area
 		galicia_area
 		baleares_area
-		basque_area
+		basque_country
 		leon_area
 		extremadura_area
 		beieras_area
@@ -106,36 +106,31 @@ italy_region = { # 24 areas
 		upper_emilia_area
 	}
 }
-ireland_region = { # 7 areas
+ireland_region = { # 4 areas; Brian; changed from _area; New Region by HR
 	areas = {
 		leinster_area
-		meath_area
-		tyrone_area
 		ulster_area
-		thomond_area
-		desmond_area
+		munster_area
 		connacht_area
 	}
 }
-british_isles_region = { # 17 areas
+british_isles_region = { # 15 areas
 	areas = {
-		southern_isles_area
+		kingdom_of_the_isles_area
 		highlands_area
-		eastern_lowlands_area
+		lowlands_area
 		wales_area
 		northern_england_area
-		mercia_area
-		london_area
+		east_midlands_area
 		wessex_area
 		east_anglia_area
-		western_lowlands_area
-		three_kingdoms_area
-		cornwall_area
+		scottish_marches_area
+		west_midlands_area
+		home_counties_area
+		yorkshire_area
 		deheubarth_area
 		powys_area
 		grampians_area
-		cumbria_lancashire_area
-		jorvik_area
 	}
 }
 scandinavia_region = { # 18 areas
@@ -149,9 +144,9 @@ scandinavia_region = { # 18 areas
 		norrland_area
 		finland_area
 		bothnia_area
-		northern_norway_area # Brian; added _area
-		eastern_norway_area # Brian; added _area
-		western_norway_area # Brian; added _area
+		northern_norway  
+		eastern_norway  
+		western_norway  
 		subarctic_islands_area
 		iceland_area
 		schleswig_area
@@ -183,7 +178,7 @@ south_german_region = { # 25 areas
 		alsace_area
 		carniola_area
 		swiss_alps_area
-		eastern_swabia_area
+		east_bavaria_area
 		upper_palatinate_area
 		salzburg_area
 		upper_franconia_area
@@ -210,7 +205,7 @@ north_german_region = { # 21 areas
 		mecklenburg_area
 		nassau_area
 		middle_saxony_area
-		lower_eastphalia_area
+		braunschweig_area
 		bremen_verden_area
 	}
 }
@@ -256,7 +251,7 @@ ruthenia_region = { # 17 areas
 		minsk_area
 		bryansk_area
 		eastern_volhynia_area
-		severia_area
+		chernigov_area
 		vitebsk_area
 		polotsk_area
 		novogrudok_area
@@ -298,7 +293,7 @@ russia_region = { # 19 areas
 		galich_area
 		laponia_area
 		karelia_area
-		north_karelia_area
+		north_karelia
 		toropets_area
 	}
 }
@@ -360,7 +355,7 @@ carpathia_region = { # 15 areas
 		transdanubia_area
 		carpathian_ruthenia_area
 		bukovina_area
-		western_moldovia_area # Brian; added _area
+		western_moldovia_area  
 		banat_area
 		oltenia_area
 		upper_muntenia_area
@@ -453,7 +448,7 @@ persia_region = { # 12 areas
 		tabriz_area
 		tabarestan_area
 		kerman_area
-		persian_gulf_coast_area # Brian; added _area
+		persian_gulf_coast  
 		mogostan_area
 	}
 }
@@ -517,7 +512,7 @@ mongolia_region = { # 14 areas
 	areas = {
 		cicigar_area
 		ordos_area
-		eastern_mongolia_area # Brian; added _area
+		eastern_mongolia  
 		chahar_area
 		inner_mongolia_area
 		outer_mongolia_area
@@ -528,7 +523,7 @@ mongolia_region = { # 14 areas
 		uliastai_area
 		turpan_kumul_area
 		zungaria_area
-		north_zungaria_area # Brian; added _area
+		north_zungaria  
 	}
 }
 manchuria_region = { # 10 areas
@@ -669,7 +664,7 @@ japan_region = { # 13 areas
 		kanto_area
 		eastern_kanto_area
 		kyushu_area
-		northern_kyushu_area # Brian; added _area
+		northern_kyushu  
 		shikoku_area
 		eastern_chubu_area
 		chubu_area
@@ -777,14 +772,14 @@ indo_china_region = { # 14 areas
 		mekong_area
 		vietnam_area
 		red_river_delta_area
-		south_laos_area
+		champasak_area
 		north_laos_area
 		central_thai_area
 		northern_thai_area
-		degar_highlands_area
-		sukothai_area
+		tay_nguyen_area
+		sukhothai_area
 		prachin_area
-		thai_cantons_area # Brian; added _area
+		thai_cantons  
 	}
 	monsoon = {
 		00.05.01
@@ -796,8 +791,8 @@ malaya_region = { # 5 areas
 		malaya_area
 		malacca_area
 		tenasserim_area
-		indonesian_islands_area
-		kedah_area
+		johor_area
+		north_malaya_area
 	}
 	monsoon = {
 		00.10.01
@@ -815,7 +810,7 @@ sumatran_region = { # 6 areas
 		central_sumatra_area
 		minangkabau_area
 		south_sumatra_area
-		palembang_area
+		jambi_area
 	}
 	monsoon = {
 		00.10.01
@@ -847,7 +842,7 @@ borneo_region = { # 5 areas
 		kutai_area
 		brunei_area
 		kalimantan_area
-		kapuas_area
+		banjar_area
 	}
 	monsoon = {
 		00.10.01
@@ -862,7 +857,7 @@ celebes_region = { # 3 areas
 	areas = {
 		sulawesi_area
 		south_sulawesi_area
-		east_sulawesi_area
+		makassar_area
 	}
 	monsoon = {
 		00.10.01
@@ -1007,7 +1002,7 @@ east_africa_region = { # 18 areas
 		madagascar_highlands_area
 		betsimasaraka_area
 		sakalava_area
-		southern_madagascar_area # Brian; added _area
+		southern_madagascar  
 		lower_zambezi_area
 		upper_zambezi_area
 		shire_area
@@ -1060,9 +1055,9 @@ central_africa_region = { # 13 areas
 kongo_region = { # 6 areas
 	areas = {
 		kasai_area
-		lower_kasai_area # Brian; added _area
+		lower_kasai  
 		matamba_area
-		coastal_kongo_area # Brian; added _area
+		coastal_kongo  
 		kongo_area
 		angola_namibia_area
 	}
@@ -1205,7 +1200,7 @@ great_plains_region = { # 10 areas
 		south_dakota_area
 		upper_missouri_area
 		badlands_area
-		southern_rockies_area # Brian; added _area
+		southern_rockies  
 		yellowstone_area
 		lakota_area
 		west_dakota_area
@@ -1318,7 +1313,7 @@ mexico_region = { # 15 areas
 		mixteca_area
 		eastern_mexico_area
 		huasteca_area
-		sinaloa_area
+		nayarit_area
 	}
 	monsoon = {
 		00.06.01
@@ -1398,7 +1393,7 @@ la_plata_region = { # 12 areas
 	areas = {
 		patagonia_area
 		bahia_blanca_area
-		patagonian_andes_area # Brian; added _area
+		patagonian_andes  
 		cuyo_area
 		nehuenken_area
 		southern_pampas_area
@@ -1418,7 +1413,7 @@ upper_peru_region = { # 9 areas
 		chaco_area
 		beni_area
 		moxos_area
-		upper_peru_area # Brian; added _area
+		upper_peru  
 		potosi_area
 		paraguay_area
 	}
@@ -1429,7 +1424,7 @@ peru_region = { # 9 areas
 		iquitos_area
 		antisuyu_area
 		kuntisuyu_area
-		peruan_coast_area # Brian; added _area
+		peruan_coast  
 		chimor_area
 		ucayali_area
 		cajamarca_area
@@ -1447,8 +1442,8 @@ colombia_region = { # 13 areas
 		upper_guyana_area
 		venezuela_area
 		maracaibo_area
-		eastern_llanos_area # Brian; added _area
-		western_llanos_area # Brian; added _area
+		eastern_llanos  
+		western_llanos  
 		central_llanos_area
 		bogota_area
 		popayan_area
@@ -1492,8 +1487,8 @@ new_zealand_region = { # 7 areas
 		te_waipounamu_area
 		murihiku_area
 		waitaha_area
-		tokerau_area
-		tainui_area
+		te_ika_a_maui_hauauru_area
+		te_ika_a_maui_waho_area
 		heretaunga_area
 	}
 }
@@ -1678,12 +1673,39 @@ labrador_sea_region = { # BT
 #Prevents crashes when testing new alpha drafts
 unused_region = {
 	areas = {
-		lake_area # Brian
-		wasteland_area # Brian
-		unused_sea_area # Brian
-		unused_lake_area # Brian
-		unused_wasteland_area # Brian
+		#lake_area
+		#wasteland_area
+		#unused_sea_area
+		#unused_lake_area
+		#unused_wasteland_area
 		unused_area
-		temp_area # Brian
+		#temp_area
+		banten_area #Unused in Java
+		surabaya_area #Unused in Java
+		gulf_of_arabia_area #Unused in Egypt/Levant
+		west_mindanao_area #Unused in Philippines
+		sabah_area #Unused in Borneo
+		vientiane_area #Unused in Indochina
+		angkor_area #Unused in Indochina
+		maryland_area #Unused in North America
+		western_sicily_area #Unused in Italy
+		east_cuba_area #Unused in Carribeans
+		westsylvania_area #Unused in North America
+		texas_plains_area #Unused in North America
+		trois_rivieres_area #Unused in North America
+		west_micronesia_area #Unused in Oceania
+		eastern_polynesia_area #Unused in Oceania
+		volga_area #Unused in Ural
+		kansas_area #Unused in North America
+		western_kentucky_area #Unused in North America
+		eastern_maine_area #Unused in Canada
+		minnessota_area #Unused in North America
+		south_carolina_piedmont_area #Unused in North America
+		ostra_svealand_area #Unused in Scandinavia
+		algiers_area #Unused in Maghreb
+		southern_illinois_area #Unused in North America
+		iowa_area #Unused in North America
+		ottawa_valley_area #Unused in North America
+		new_york_area #Unused in North America
 	}
 }

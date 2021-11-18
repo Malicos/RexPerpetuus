@@ -39,6 +39,9 @@ capital = 271
 		birth_date = 1420.1.1 # Very Rough Date
 		death_date = 1485.1.1
 	}
+}
+
+1454.1.1 = { #Birth of heir.
 	heir = {
 		name = "Stanislovas"
 		dynasty = "Kesgaila"
@@ -60,6 +63,9 @@ capital = 271
 		birth_date = 1454.1.1 # Not much on birth. I presumed his career began around 32.
 		death_date = 1527.1.1
 	}
+}
+
+1503.1.1 = { #Birth of heir.
 	heir = {
 		name = "Stanislovas"
 		dynasty = "Kesgaila"

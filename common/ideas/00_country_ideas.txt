@@ -3218,7 +3218,7 @@ SWI_ideas = {
 		OR = {
 			tag = SWI
 			tag = BSL # BT
-			tag = ZND # BT
+			tag = ZDN # BT
 			primary_culture = swiss # BT
 		}
 	}
@@ -7286,8 +7286,8 @@ CAT_ideas = {
  
     trigger = {
 		OR = {
-			tag = CTL
-			tag = VLN
+			tag = CAT
+			tag = VAL
 			tag = MJO
 		}
     }

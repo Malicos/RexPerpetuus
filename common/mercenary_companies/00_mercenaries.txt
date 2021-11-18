@@ -1075,7 +1075,7 @@ merc_madagascar_company = {
 					area = madagascar_highlands_area
 					area = betsimasaraka_area
 					area = sakalava_area
-					area = southern_madagascar_area # Brian; added _area
+					area = southern_madagascar  
 				}
 			}
 		}

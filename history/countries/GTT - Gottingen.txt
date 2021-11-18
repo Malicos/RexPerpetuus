@@ -16,7 +16,8 @@ religion = catholic
 #Tech and Military
 
 #History
-#technology_group = western
+technology_group = western
+
 #1427.1.1 = {
 #	monarch = {
 #		name = "Otto II the One-Eyed"

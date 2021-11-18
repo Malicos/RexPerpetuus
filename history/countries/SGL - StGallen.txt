@@ -7,7 +7,8 @@ fixed_capital = 1870 #Cannot move capital away from this province & no power cos
 #Government
 government_rank = 1
 government = theocracy
-add_government_reform = imperial_abbey_reform
+add_government_reform = leading_clergy_reform
+#add_government_reform = imperial_abbey_reform
 
 #Demographics
 primary_culture = swiss

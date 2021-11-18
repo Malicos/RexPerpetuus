@@ -44,7 +44,7 @@ country_decisions = {
 				area = venezuela_area
 				area = maracaibo_area
 				area = central_llanos_area
-				area = eastern_llanos_area # Brian; added _area
+				area = eastern_llanos  
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -63,7 +63,7 @@ country_decisions = {
 					area = venezuela_area
 					area = maracaibo_area
 					area = central_llanos_area
-					area = eastern_llanos_area # Brian; added _area
+					area = eastern_llanos  
 				}
 				is_city = yes
 			}

@@ -111,7 +111,7 @@ feudalism = {
 			}
 			AND = {
 				culture = al_misr_arabic
-				NOT = { area = libyan_desert_area } # BT; al_wahat_area
+				#NOT = { area = libyan_desert_area } # BT; al_wahat_area
 				NOT = { area = cyrenaica_area }
 			}
 			AND = {
@@ -1468,9 +1468,9 @@ renaissance = {
 			potential = {
 				OR = {
 					area = venetia_area
-					area = verona_area
+					#area = verona_area
 					area = tuscany_area
-					area = east_tuscany_area
+					#area = east_tuscany_area
 					area = south_tuscany_area
 					#area = lombardy_area
 					#area = piedmont_area
@@ -1488,9 +1488,9 @@ renaissance = {
 				tooltip = tooltip_flanders_tuscany_venetia
 				OR = {
 					area = venetia_area
-					area = verona_area
+					#area = verona_area
 					area = tuscany_area
-					area = east_tuscany_area
+					#area = east_tuscany_area
 					area = south_tuscany_area
 					#area = lombardy_area
 					#area = piedmont_area
@@ -1519,9 +1519,9 @@ renaissance = {
 						area = sicily_area
 						area = corsica_sardinia_area
 						area = sardinia_area
-						area = cagliari_area
-						area = demone_area
-						area = noto_area
+						#area = cagliari_area
+						#area = demone_area
+						#area = noto_area
 					}
 				}			#BTMiscAddOn note, blocking Sicily and Sardinia/Corsica to prevent spread to North Africa and Aragon too quickly. Also not horrible, neither was poor, but outside of perhaps Palermo, niether was as advanced as the rest of Italy at this point, either. Stronger Sicily and Sardinia came later, I believe
 			}
@@ -1533,9 +1533,9 @@ renaissance = {
 						area = sicily_area
 						area = corsica_sardinia_area
 						area = sardinia_area
-						area = cagliari_area
-						area = demone_area
-						area = noto_area
+						#area = cagliari_area
+						#area = demone_area
+						#area = noto_area
 					}
 				}
 			}
@@ -3457,7 +3457,7 @@ global_trade = {
 					area = home_counties_area
 					area = wessex_area
 					area = east_anglia_area
-					area = mercia_area
+					#area = mercia_area
 					province_id = 248	#Edinburgh
 					province_id = 3019	#Glasgow
 					province_id = 373	#Dublin

@@ -1206,7 +1206,7 @@ exploration_ideas = {
 					area = beieras_area
 					area = galicia_area
 					area = asturias_area
-					area = basque_area
+					area = basque_country
 					area = macaronesia_area
 				}
 				has_port = yes

@@ -1305,7 +1305,7 @@ colonial_peru = {
 			culture_group = latin
 			any_owned_province = {
 				OR = {
-					area = upper_peru_area # Brian; added _area
+					area = upper_peru  
 					area = potosi_area
 					area = antisuyu_area
 				}

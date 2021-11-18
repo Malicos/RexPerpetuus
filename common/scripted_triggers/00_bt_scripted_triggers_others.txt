@@ -280,7 +280,7 @@ invade_persia_akk_2_provinces = { #So vanilla has split the claims for the next 
 	OR = { # XXX
 		area = farsistan_area
 		area = kerman_area
-		area = persian_gulf_coast_area # Brian; added _area
+		area = persian_gulf_coast  
 		area = mogostan_area
 		area = persian_gulf_islands_area
 	}
@@ -321,7 +321,7 @@ ara_crowns_of_iberia_provinces = {
 		area = toledo_area #La Mancha
 		area = asturias_area
 		area = leon_area
-		area = basque_area #Vasconia
+		area = basque_country #Vasconia
 		area = galicia_area
 		area = segovia_area
 		area = new_castile_area
@@ -489,7 +489,7 @@ austrian_swabia_provinces = {
 	OR = {
 		area = upper_rhineland_area
 		area = upper_swabia_area
-		area = eastern_swabia_area
+		area = east_bavaria_area
 		#southern half of lower swabia
 		province_id = 8437
 		province_id = 8438
@@ -855,9 +855,9 @@ control_scania_provinces = { #Moved Bornholm to Turn the Tables
 }
 vassalize_norway_swe_provinces = { #Unchanged
 	OR = {
-		area = northern_norway_area # Brian; added _area
-		area = eastern_norway_area # Brian; added _area
-		area = western_norway_area # Brian; added _area
+		area = northern_norway  
+		area = eastern_norway  
+		area = western_norway  
 		area = southern_norway_area
 		area = trondelag_area
 	}
@@ -873,7 +873,7 @@ swe_turns_have_tabled_provinces = {
 swe_expand_finland_provinces = { #Kexholm County + Ingria
 	OR = {
 		area = west_karelia_area #Apparently this is the Ingria of BT.
-		area = north_karelia_area
+		area = north_karelia
 	}
 }
 control_estonia_provinces = { #Swedish Estonia
@@ -1092,7 +1092,7 @@ bul_conquer_wallachia_provinces = {
 bul_conquer_moldavia_provinces = {
 	OR = {
 		area = moldavia_area
-		area = western_moldovia_area # Brian; added _area
+		area = western_moldovia_area  
 		area = bukovina_area
 	}
 }
@@ -1167,7 +1167,7 @@ unite_the_voivodes_provinces = {
 	OR = {
 		area = wallachia_area
 		area = moldavia_area
-		area = western_moldovia_area # Brian; added _area
+		area = western_moldovia_area  
 		area = bukovina_area
 		area = upper_muntenia_area
 		area = oltenia_area
@@ -1341,7 +1341,7 @@ rus_romania_conquest_provinces = {
 		area = oltenia_area
 		area = moldavia_area
 		area = bukovina_area
-		area = western_moldovia_area # Brian; added _area
+		area = western_moldovia_area  
 		area = carpathian_ruthenia_area
 	}
 }
@@ -1390,7 +1390,7 @@ gra_own_iberia_provinces = {
 		area = galicia_area
 		area = asturias_area
 		area = leon_area
-		area = basque_area
+		area = basque_country
 		area = catalonia_area
 		#Why request the Portuguese ones once more? The mission even needs to be completed beforehand...
 		#area = alentejo_area
@@ -1550,7 +1550,7 @@ hun_vassal_states_two_provinces = {
 	OR = {
 		area = bukovina_area
 		area = moldavia_area
-		area = western_moldovia_area # Brian; added _area
+		area = western_moldovia_area  
 	}
 }
 hun_vassal_states_four_provinces = {
@@ -1632,7 +1632,7 @@ hsn_custodian_of_holy_cities_provinces = {
 tim_persia_one_provinces = {
 	OR = {
 		area = farsistan_area
-		area = persian_gulf_coast_area # Brian; added _area
+		area = persian_gulf_coast  
 		area = kerman_area
 		province_id = 431
 		province_id = 4327
@@ -1749,7 +1749,7 @@ mug_open_up_china_1_provinces = { #Claim-exclusive
 }
 mug_open_up_china_2_provinces = { #Claim-exclusive
 	OR = {
-		area = thai_cantons_area # Brian; added _area
+		area = thai_cantons  
 		area = vietnam_area
 		area = guangxi_area
 		area = west_guangdong_area
@@ -1788,7 +1788,7 @@ mug_lower_burma_campaign_provinces = {
 mug_subah_of_ayuddhya_provinces = {
 	OR = {
 		area = prachin_area
-		area = sukothai_area
+		area = sukhothai_area
 		area = tenasserim_area
 		area = north_tenasserim_area
 		area = central_thai_area
@@ -1799,7 +1799,7 @@ mug_subah_of_ayuddhya_provinces = {
 		#Technically these areas are not new, but the mission description mentions the Khmer lands, so I'm including them.
 		area = cambodia_area
 		area = mekong_area
-		area = degar_highlands_area # This one is from SEA.
+		area = tay_nguyen_area # This one is from SEA.
 		area = champa_area
 	}
 }
@@ -1807,7 +1807,7 @@ mug_malaccan_viceroyalty_provinces = { #Deciding against the entire Johor area b
 	OR = {
 		area = malaya_area
 		area = malacca_area
-		area = kedah_area
+		area = north_malaya_area
 		province_id = 597 #Johor
 	}
 }
@@ -2079,7 +2079,7 @@ eng_rb_angevin_provinces = { #Modeled after https://upload.wikimedia.org/wikiped
 		area = poitou_area
 		area = pyrenees_area
 		area = guyenne_area
-		area = upper_gascony_area # Brian; added _area
+		area = upper_gascony  
 		area = normandy_area
 		area = lower_normandy_area
 		area = limousin_area
@@ -2176,7 +2176,7 @@ persian_gulf_provinces = {
 	OR = {
 		area = basra_area
 		area = khuzestan_area
-		area = persian_gulf_coast_area # Brian; added _area
+		area = persian_gulf_coast  
 	}
 }
 southern_frontier_provinces = {
@@ -2636,7 +2636,7 @@ gc_ara_occitania_provinces = {
 		area = massif_central_area #Auvergne
 		area = limousin_area
 		area = guyenne_area
-		area = upper_gascony_area # Brian; added _area
+		area = upper_gascony  
 		area = pyrenees_area #Lower Gascony
 	}
 }

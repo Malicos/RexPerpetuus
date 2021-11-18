@@ -106,7 +106,6 @@ country_event = {
 			ADM = 2
 			DIP = 2
 			MIL = 2
-			fixed = yes
 		}
 	}
 }
@@ -327,7 +326,7 @@ country_event = {
 		is_year = 1600
 		NOT = { exists = ZUN }
 		any_owned_province = {
-			area = north_zungaria_area # Brian; added _area
+			area = north_zungaria  
 		}
 		OR = {
 			NOT = { exists = OIR }
@@ -345,7 +344,7 @@ country_event = {
 			factor = 0.5
 			num_of_owned_provinces_with = {
 				OR = {
-					area = north_zungaria_area # Brian; added _area
+					area = north_zungaria  
 					area = zungaria_area
 				}
 				value = 5
@@ -355,7 +354,7 @@ country_event = {
 	
 	option = {
 		name = "flavor_oir.8.a"
-		north_zungaria_area = { # Brian; added _area
+		north_zungaria = {  
 			add_core = ZUN
 		}
 		zungaria_area = {

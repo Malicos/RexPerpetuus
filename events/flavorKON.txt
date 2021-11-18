@@ -24,7 +24,7 @@ country_event = {
 					religion = catholic
 				}
 				# XXX
-				kongo_area = { # BT; coastal_kongo_area # Brian; added _area
+				kongo_area = { # BT; coastal_kongo  
 					has_discovered = POR
 				}
 			}

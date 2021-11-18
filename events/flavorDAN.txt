@@ -1382,7 +1382,6 @@ country_event = {
 			mil = 2
 			age = 25
 			dynasty = "von Oldenburg"
-			fixed = yes
 		}
 	}
 	option = {

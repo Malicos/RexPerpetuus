@@ -72,7 +72,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			remove_heir = yes
+			remove_heir = {}
 		}
 		change_religion = hussite
 		define_ruler = {
@@ -84,7 +84,6 @@ country_event = {
 			religion = hussite
 			culture = czech
 			age = 25
-			fixed = yes
 		}
 		if = {
 			limit = {
@@ -118,7 +117,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			remove_heir = yes
+			remove_heir = {}
 		}
 		define_ruler = {
 			name = "Jirí"
@@ -127,7 +126,6 @@ country_event = {
 			dip = 4
 			mil = 3
 			religion = hussite
-			fixed = yes
 		}
 		if = {
 			limit = {
@@ -557,7 +555,7 @@ country_event = {
 country_event = {
 	id = flavor_boh.7
 	title = flavor_boh.7.t
-		desc = flavor_boh.7.d
+	desc = flavor_boh.7.d
 
 	picture = {	
 		trigger = {
@@ -644,7 +642,7 @@ country_event = {
 				religion = hussite 
 			}
 		}
-		name = "flavor_boh.7.b" # Brian; .c doesn't exist in loc.
+		name = "flavor_boh.7.b"
 		every_owned_province = {
 			limit = {
 				religion = hussite

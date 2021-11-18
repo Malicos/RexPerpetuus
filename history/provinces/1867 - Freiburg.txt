@@ -23,12 +23,12 @@ discovered_by = eastern
 
 1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
 	remove_core = SAV
-	add_core = ZND
-	owner = ZND
-	controller = ZND
+	add_core = ZDN
+	owner = ZDN
+	controller = ZDN
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
 1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-	remove_core = ZND
+	remove_core = ZDN
 	add_core = SAV
 	owner = SAV
 	controller = SAV
