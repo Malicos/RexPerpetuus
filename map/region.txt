@@ -106,31 +106,36 @@ italy_region = { # 24 areas
 		upper_emilia_area
 	}
 }
-ireland_region = { # 4 areas; Brian; changed from _area; New Region by HR
+ireland_region = { # 7 areas
 	areas = {
 		leinster_area
+		meath_area
+		tyrone_area
 		ulster_area
-		munster_area
+		thomond_area
+		desmond_area
 		connacht_area
 	}
 }
-british_isles_region = { # 15 areas
+british_isles_region = { # 17 areas
 	areas = {
-		kingdom_of_the_isles_area
+		southern_isles_area
 		highlands_area
-		lowlands_area
+		eastern_lowlands_area
 		wales_area
 		northern_england_area
-		east_midlands_area
+		mercia_area
+		london_area
 		wessex_area
 		east_anglia_area
-		scottish_marches_area
-		west_midlands_area
-		home_counties_area
-		yorkshire_area
+		western_lowlands_area
+		three_kingdoms_area
+		cornwall_area
 		deheubarth_area
 		powys_area
 		grampians_area
+		cumbria_lancashire_area
+		jorvik_area
 	}
 }
 scandinavia_region = { # 18 areas
