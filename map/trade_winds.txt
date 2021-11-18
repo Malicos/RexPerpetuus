@@ -1,7 +1,54 @@
 # province id = rotation in degrees, 0 is pointing right, then ccw)
 # can be reloaded ingame by cmd: reloadtradewinds
 
-# North Atlantic Westerlies
+#(JP) Not sure why negatives exist when purely positives work.
+#north = 90
+#east = 0
+#west = 180
+#south = 270
 
+#North Atlantic
+1413 = 200
+1469 = 225
+1470 = 225
+1471 = 250
+1472 = 230
+1476 = 60
+1477 = 190
+1478 = 110
+1479 = 50
+1481 = 230
+1483 = 320
+1495 = 210
+1496 = 290
+1497 = 230
+1563 = 330
+1564 = 15
+1565 = 30
+1566 = 0
+1567 = 15
+1569 = 10
+1570 = 40
+1571 = 80
+1572 = 70
+1573 = 15
+1574 = 140
+1575 = 160
+1576 = 160
+1577 = 150
+1578 = 140
+1581 = 200
 
-# Atlantic Northeasterlies
+# Winds in the north
+#1582 = 0
+#1568 = 40
+#1479 = -20
+
+# Winds in the south
+#1471 = 200
+#1470 = 190
+#1581 = 190
+#1579 = 200
+1579 = 150
+#1576 = 170
+#1577 = 160
