@@ -1,3 +1,4 @@
+ 
 # No previous file for Beyond Typus province
 
 owner = SAL			#Yeah, I know, the Duwamish and Suquamish weren't merged in the 15th century, and probably didn't even go by these names, but give me a break =p
