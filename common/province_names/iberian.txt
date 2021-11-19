@@ -544,7 +544,7 @@
 7944 = { "Haguenovia" "Haguenovia" }
 
 #Scandinavia
-1 = "{ "Estocolmo" "Estocolmo" }
+1 = { "Estocolmo" "Estocolmo" }
 12 = { "Copenhague" "Copenhague" }
 369 = { "Órcades" "Quircual" }
 1978 = { "Émodas" "Lervique" }
@@ -703,6 +703,7 @@
 2467 = { "Mequinez" "Mequinez" }
 2468 = { "Jenifra" "Jenifra" }
 2469 = { "Mazagán" "Mazagán" }
+2470 = { "Mogador" "Mogador" }
 2954 = { "Los Gelves" "Gerba" } #(JP) Picked "Gerba" as I think Iberians would choose to use a version of the Roman name if they settled the island as opposed to a Arab one
 4561 = { "Tetuán" "Tetuán" }
 4562 = { "Nadroma" "Nadroma" }
@@ -791,8 +792,8 @@
 1179 = { "Padillaria" "Padillaria" } #Swellendam
 1180 = { "San Juan del Sur" "San Juan del Sur" } #Port St. Johns
 1181 = { "Pedroburgo" "Pedroburgo" } #Pietermaritzburg
-1182 = { "Bahía Delagoa" "Villa Lorenzo Marques" } #Maputo
-1800 = { "San Jorge de Limpopo" "San Jorge de Limpopo" } #Sao Jorje de Limpopo 
+1182 = { "Bahía de la Lacuna" "Villa Lorenzo Marquez" } #Maputo
+1800 = { "San Jorge del Limpopo" "San Jorge del Limpopo" } #Sao Jorje do Limpopo 
 2856 = { "Fuenteflores" "Fuenteflores" } #Blomfontein
 2864 = { "Arostegui" "Arostegui" } #Upingotn
 2880 = { "Pueblo Gricuas" "Pueblo Gricuas" } #Griquatown
@@ -802,12 +803,12 @@
 4784 = { "Puesto Seguro" "Puesto Seguro" } #Polokwane
 5340 = { "Cabo de las Agujas" "El Bosque" } #Stellenbosch
 5341 = { "Arena Roja" "Yerbabuena" } #Tulbagh
-5342 = { "Bahía Santa Elena" "Pazburgo" } #Vredenburg
-5343 = { "Montaña Piquete" "Montaña Piquete" } #Piketberg
+5342 = { "Bahía Santa Elena" "Villa de la Paz" } #Vredenburg
+5343 = { "Monte Piquete" "Monte Piquete" } #Piketberg
 5344 = { "Fuente Matías" "Fuente Matías" } #Matjiesfontein
-5345 = { "Vallepaz" "Vallepaz" } #Vredendal
-5346 = { "Bahía Piedraperro" "Bahía Piedraperro" } #Hondeklip Bay 
-5347 = { "La Vibora" "La Vibora" } #Poffader
+5345 = { "Valle de la Paz" "Valle de la Paz" } #Vredendal
+5346 = { "Piedra del Can" "Piedra del Can" } #Hondeklip Bay 
+5347 = { "La Víbora" "La Víbora" } #Poffader
 5348 = { "Navarro" "Navarro" } #Sutherland
 5349 = { "Villa Lecubarri" "Villa Lecubarri" } #Fraserburg
 5350 = { "Aguada de San Blas" "Aguada de San Blas" } #Mossel Bay
@@ -819,7 +820,7 @@
 5356 = { "Puerto Isabel" "Puerto Isabel" } #Port Elizabeth
 5357 = { "Villa Echeverria" "Villa Echeverria" } #Grahamstown
 5358 = { "Madrid del Este" "Madrid del Este" } #East London 
-5359 = { "Villa Reina" "Villa Reina" } #Queenstown 
+5359 = { "Villa de la Reina" "Villa de la Reina" } #Queenstown 
 5360 = { "Cajamarca Norte" "Cajamarca Norte" } #Aliwal North 
 5361 = { "Benavente" "Benavente" } #Beaufort West 
 5362 = { "Cabra Perdida" "Cabra Perdida" } #Prieska
@@ -827,19 +828,19 @@
 5365 = { "El Bienvenido" "El Bienvenido" } #Welkom
 5366 = { "San Carlos Maserù" "San Carlos Maserù" } #Maseru 
 5367 = { "Lugopiedra" "Lugopiedra" } #Mafeking
-5368 = { "San Pedro de los Sotos" "San Pedro de los Sotos" } #Mokopane
-5369 = { "Cabeza Elefante" "Cabeza Elefante" } #Thohoyandou
+5368 = { "San Pedro de Sotos" "San Pedro de Sotos" } #Mokopane
+5369 = { "Cabeza del Elefante" "Cabeza del Elefante" } #Thohoyandou
 5370 = { "Puerto Arango" "Puerto Arango" } #Port Shepstone
 5371 = { "Navidad" "Urbano" } #Durban
-5372 = { "Señora María" "Señora María" } #Ladysmith
+5372 = { "Doña García" "Doña García" } #Ladysmith
 5373 = { "Bahía Ricardo" "Bahía Ricardo" } #Richards Bay
 5374 = { "Libertad" "Libertad" } #Vryheid
 5376 = { "Nueva Ermelo" "Nueva Ermelo" } #Ermelo
-5378 = { "Ciudad Corona" "Ciudad Corona" } #Kroonstad
+5378 = { "Ciudad de la Corona" "Ciudad de la Corona" } #Kroonstad
 5380 = { "Villa de Palabora" "Villa de Palabora" } #Phalaborwa
 5381 = { "Nietobrote" "Nietobrote" } #Nelspruit
-5382 = { "Mozambique" "Villa Juan Belo" } #Xai-Xai
-5383 = { "El Empleado" "El Empleado" } #Klerskdrop
+5382 = { "Mozambique" "Villa Juan Bello" } #Xai-Xai
+5383 = { "El Clérigo" "El Clérigo" } #Klerskdrop
 5384 = { "Villa Esperanza" "Villa Esperanza" } #Hopetown
 5385 = { "Nueva Prisa" "Nueva Prisa" } #Kimberley
 5386 = { "Fuente Lima" "Fuente Lima" } #Karasburg
@@ -849,7 +850,7 @@
 5390 = { "La Avanzada" "La Avanzada" } #Buitepos
 5391 = { "Tierra de los Mestizos" "Rejovot" } #Rehobot
 5392 = { "La Arcila" "La Arcila" } #Usakos
-5393 = { "Vientangulo" "Vientangulo" } #Windhoek
+5393 = { "Gancho del Viento" "Gancho del Viento" } #Windhoek
 5394 = { "Agradable" "Agradable" } #Otjiwarongo
 5395 = { "Rincón Oscuro" "Rincón Oscuro" } #Khorixas
 5396 = { "Seis Fuentes" "Seis Fuentes" } #Sesfontein
@@ -873,19 +874,19 @@
 5414 = { "Santa María de Nata" "Santa María de Nata" } #Nata 
 5415 = { "San Francisco de Asís" "San Francisco de Asís" } #Francistown
 5416 = { "Pueblo Cobojango" "Pueblo Cobojango" } #Gobojango
-5417 = { "Johone" "Johone" } #Shoshong
+5417 = { "Jojón" "Jojón" } #Shoshong
 5418 = { "Gaberones" "Gaberones" } #Gaborone
 5419 = { "Miguel" "Miguel" } #Kanye
 5420 = { "San Martín del Sur" "San Martín del Sur" } #Molepolole
-5421 = { "Seroves" "Seroves" } #Serowe
+5421 = { "Serohue" "Serohue" } #Serowe
 5422 = { "Diamantes" "Diamantes" } #Orapa
 5423 = { "Rafina" "Rafina" } #Tsienyane
 5424 = { "Vallecano" "Vallecano" } #Kang
 5425 = { "Pantano Negro" "Pantano Negro" } #Keetmanshoop
-5426 = { "Mossamedes" "Mossamedes" } #Moçâmedes
+5426 = { "Mozamedes" "Mozamedes" } #Moçâmedes
 5427 = { "Ruidíaz" "Ruidíaz" } #Rundu
 5428 = { "Cuerno Antiguo" "Cuerno Antiguo" } #Oudsthoorn
-8545 = { "Islas Cruz" "Puerto Ignacio" } #Port Alfred
+8545 = { "Islas de la Cruz" "Puerto Ignacio" } #Port Alfred
 
 #East Africa
 
@@ -1020,7 +1021,7 @@
 #Philippines
 652 = { "Cotabato" "Cotabato" } #Cotabato 
 653 = { "Cagayán de Oro" "Cagayán de Oro" } #Cagayán de Oro
-654 = { "San Lázaro" "Calbiga" "} #Catbalogan
+654 = { "San Lázaro" "Calbiga" } #Catbalogan
 656 = { "Manila" "Manila" } #Manila 
 657 = { "Ilocos Sur" "Villa Fernandina" } #Vigan
 658 = { "Nueva Segovia" "Nueva Segovia" } #Cagayan
@@ -1806,7 +1807,7 @@
 960 = { "Iroquesia" "Nueva Siracusa" } #Syracuse
 961 = { "Útica" "Útica" } #Utica
 962 = { "Mallorca del Sur" "Ciudad del Oceano" } #South Jersey (Jersey is an island in the english channel) and Ocean City 
-963 = { "Río de San Antonio" "Asturias" } #Husdon River (San Antonio was the historical name used by spanish" } and Albany (Duke of Albany = Prince of Asturias)
+963 = { "Río de San Antonio" "Asturias" } #Husdon River ( San Antonio was the historical name used by spanish ) and Albany (Duke of Albany = Prince of Asturias)
 964 = { "Sojarí" "Sojarí" } #Schoharie, in Mohawk means "driftwood"
 965 = { "Nueva Cataluña" "Nueva Barcelona" } #New York
 966 = { "Valle de Cedros" "Aguasmalas" } #Chicopee
@@ -2007,7 +2008,7 @@
 2600 = { "Atabasca" "Atabasca" } #Athabasca 
 2601 = { "Fuerte Bermellón" "Fuerte Bermellón" } #Fort Vermilion
 2603 = { "Porteo Rocallosas" "Porteo Rocallosas" } #Rocky Mountain Portage
-4976 = { "Aclavicua" "Aclavicua" }#Aklavik 
+4976 = { "Aclavicua" "Aclavicua" } #Aklavik 
 4978 = { "Fuerte Buenesperanza" "Fuerte Buenesperanza" } #Fort Good Hope 
 4980 = { "Tulita" "Tulita" } #Fort Norman
 4982 = { "Lago Trucha" "Lago Trucha" } #Trout Lake 
@@ -2293,4 +2294,4 @@
 5023 = "Islas Phoenix" # Rawaki								#Iberian name
 5024 = "Islas Cook del Norte" # Tongareva				#Iberian name
 5025 = "Islas Marquesas" # Te Henua Enana			#Iberian name
-5026 = "Islas Gambier" # Mangareva						#Iberian name						
+5026 = "Islas Gambier" # Mangareva					#Iberian name
