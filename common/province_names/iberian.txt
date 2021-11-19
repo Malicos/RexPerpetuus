@@ -781,6 +781,111 @@
 #Kongo
 
 #South Africa
+789 = { "Santa Lucia de Suazia" "Santa Lucia de Suazia" } #St. Lucy
+833 = { "Balboa-Peñalosa" "Balboa-Peñalosa" } #Graaf-Reinet
+1174 = { "Golfo de Santa María" "Bahía Ballena" } #Walvis Bay 
+1175 = { "Tierra de los Namas" "Fuente Gacelas" } #Springbok-fontein
+1176 = { "Guzmánia" "Guzmánia" } #Calvinia
+1177 = { "La Buena Esperanza" "Ciudad del Cabo" } #Capetown
+1178 = { "Ciudad Sofía" "Ciudad Sofía" } #Victoria West 
+1179 = { "Padillaria" "Padillaria" } #Swellendam
+1180 = { "San Juan del Sur" "San Juan del Sur" } #Port St. Johns
+1181 = { "Pedroburgo" "Pedroburgo" } #Pietermaritzburg
+1182 = { "Bahía Delagoa" "Villa Lorenzo Marques" } #Maputo
+1800 = { "San Jorge de Limpopo" "San Jorge de Limpopo" } #Sao Jorje de Limpopo 
+2856 = { "Fuenteflores" "Fuenteflores" } #Blomfontein
+2864 = { "Arostegui" "Arostegui" } #Upingotn
+2880 = { "Pueblo Gricuas" "Pueblo Gricuas" } #Griquatown
+4781 = { "Pretoria" "Pretoria" } #Pretoria
+4782 = { "Libertalia" "Libertalia" } #Vryburg
+4783 = { "Pueblo Matanzo" "Pueblo Matanzo" } #Bremersdorp
+4784 = { "Puesto Seguro" "Puesto Seguro" } #Polokwane
+5340 = { "Cabo de las Agujas" "El Bosque" } #Stellenbosch
+5341 = { "Arena Roja" "Yerbabuena" } #Tulbagh
+5342 = { "Bahía Santa Elena" "Pazburgo" } #Vredenburg
+5343 = { "Montaña Piquete" "Montaña Piquete" } #Piketberg
+5344 = { "Fuente Matías" "Fuente Matías" } #Matjiesfontein
+5345 = { "Vallepaz" "Vallepaz" } #Vredendal
+5346 = { "Bahía Piedraperro" "Bahía Piedraperro" } #Hondeklip Bay 
+5347 = { "La Vibora" "La Vibora" } #Poffader
+5348 = { "Navarro" "Navarro" } #Sutherland
+5349 = { "Villa Lecubarri" "Villa Lecubarri" } #Fraserburg
+5350 = { "Aguada de San Blas" "Aguada de San Blas" } #Mossel Bay
+5351 = { "Felipe" "Felipe" } #George
+5352 = { "Los Helechos" "Los Helechos" } #Knysna
+5353 = { "Bahía San Francisco" "San Francisco del Sur" } #St. Francis Bay
+5354 = { "Las Sauces" "Las Sauces" } #Willowmore
+5355 = { "Iñigo" "Iñigo" } #Kirkwood
+5356 = { "Puerto Isabel" "Puerto Isabel" } #Port Elizabeth
+5357 = { "Villa Echeverria" "Villa Echeverria" } #Grahamstown
+5358 = { "Madrid del Este" "Madrid del Este" } #East London 
+5359 = { "Villa Reina" "Villa Reina" } #Queenstown 
+5360 = { "Cajamarca Norte" "Cajamarca Norte" } #Aliwal North 
+5361 = { "Benavente" "Benavente" } #Beaufort West 
+5362 = { "Cabra Perdida" "Cabra Perdida" } #Prieska
+5363 = { "El Ojo" "El Ojo" } #Kuruman
+5365 = { "El Bienvenido" "El Bienvenido" } #Welkom
+5366 = { "San Carlos Maserù" "San Carlos Maserù" } #Maseru 
+5367 = { "Lugopiedra" "Lugopiedra" } #Mafeking
+5368 = { "San Pedro de los Sotos" "San Pedro de los Sotos" } #Mokopane
+5369 = { "Cabeza Elefante" "Cabeza Elefante" } #Thohoyandou
+5370 = { "Puerto Arango" "Puerto Arango" } #Port Shepstone
+5371 = { "Navidad" "Urbano" } #Durban
+5372 = { "Señora María" "Señora María" } #Ladysmith
+5373 = { "Bahía Ricardo" "Bahía Ricardo" } #Richards Bay
+5374 = { "Libertad" "Libertad" } #Vryheid
+5376 = { "Nueva Ermelo" "Nueva Ermelo" } #Ermelo
+5378 = { "Ciudad Corona" "Ciudad Corona" } #Kroonstad
+5380 = { "Villa de Palabora" "Villa de Palabora" } #Phalaborwa
+5381 = { "Nietobrote" "Nietobrote" } #Nelspruit
+5382 = { "Mozambique" "Villa Juan Belo" } #Xai-Xai
+5383 = { "El Empleado" "El Empleado" } #Klerskdrop
+5384 = { "Villa Esperanza" "Villa Esperanza" } #Hopetown
+5385 = { "Nueva Prisa" "Nueva Prisa" } #Kimberley
+5386 = { "Fuente Lima" "Fuente Lima" } #Karasburg
+5387 = { "Cala Pequeña" "Pinzón" } #Luderitz
+5388 = { "Río Esparragueras" "Río Esparragueras" } #Aroab
+5389 = { "Valle María" "Valle María" } #Mariental
+5390 = { "La Avanzada" "La Avanzada" } #Buitepos
+5391 = { "Tierra de los Mestizos" "Rejovot" } #Rehobot
+5392 = { "La Arcila" "La Arcila" } #Usakos
+5393 = { "Vientangulo" "Vientangulo" } #Windhoek
+5394 = { "Agradable" "Agradable" } #Otjiwarongo
+5395 = { "Rincón Oscuro" "Rincón Oscuro" } #Khorixas
+5396 = { "Seis Fuentes" "Seis Fuentes" } #Sesfontein
+5397 = { "El Fin" "El Fin" } #Opuwo
+5398 = { "Pueblo Ovambo" "Pueblo Ovambo" } #Oshakati
+5399 = { "Namarocas" "Namarocas" } #Kamanjab
+5400 = { "Valle Otavi" "Valle Otavi" } #Otavi
+5401 = { "El Musgo" "El Musgo" } #Tsumeb
+5402 = { "Pantorillas" "Pantorillas" } #Eenhana
+5403 = { "Fuerte Cuangar" "Fuerte Cuangar" } #Nkurenkuru
+5404 = { "Gran Manantial" "Gran Manantial" } #Grootfontein
+5405 = { "Pueblo Herrera" "Pueblo Herrera" } #Tsumkwe
+5406 = { "Barrientos" "Barrientos" } #Bagani
+5407 = { "Franja de Caprivi" "Ciudad Saucedo" } #Schuckmannburg
+5408 = { "Ganzi" "Ganzi" } #Gaentsii
+5409 = { "Desierto Gran Sed" "Miedo" } #Tsabong
+5410 = { "Pueblo Yeyi" "Pueblo Yeyi" } #Nokaneng
+5411 = { "Seditua" "Seditua" } #Sethitwa
+5412 = { "Pueblo Bosquimanos" "Pueblo Bosquimanos" } #Khwai
+5413 = { "Río Cuando" "Casane" } #Casane 
+5414 = { "Santa María de Nata" "Santa María de Nata" } #Nata 
+5415 = { "San Francisco de Asís" "San Francisco de Asís" } #Francistown
+5416 = { "Pueblo Cobojango" "Pueblo Cobojango" } #Gobojango
+5417 = { "Johone" "Johone" } #Shoshong
+5418 = { "Gaberones" "Gaberones" } #Gaborone
+5419 = { "Miguel" "Miguel" } #Kanye
+5420 = { "San Martín del Sur" "San Martín del Sur" } #Molepolole
+5421 = { "Seroves" "Seroves" } #Serowe
+5422 = { "Diamantes" "Diamantes" } #Orapa
+5423 = { "Rafina" "Rafina" } #Tsienyane
+5424 = { "Vallecano" "Vallecano" } #Kang
+5425 = { "Pantano Negro" "Pantano Negro" } #Keetmanshoop
+5426 = { "Mossamedes" "Mossamedes" } #Moçâmedes
+5427 = { "Ruidíaz" "Ruidíaz" } #Rundu
+5428 = { "Cuerno Antiguo" "Cuerno Antiguo" } #Oudsthoorn
+8545 = { "Islas Cruz" "Puerto Ignacio" } #Port Alfred
 
 #East Africa
 
@@ -2174,12 +2279,6 @@
 5590 = { "Tierra de Segovia" "Casas Grandes" } #Ittoqqortoormiit
 
 ##########Uncapitalised##########				
-
-#South Africa
-1174 = "Golfo de Santa María" #Golfo de Santa María de la Concepción
-1177 = "Cabo" #or "Cabo Occidental"
-5387 = "Angra Pequeña"
-5426 = "Moçâmedes"
 
 #Coromandel
 1101 = "Aceite"	

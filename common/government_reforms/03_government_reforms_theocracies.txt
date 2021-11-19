@@ -35,7 +35,8 @@ leading_clergy_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		global_tax_modifier = 0.05
+		build_cost = 0.1 					#(JP) Changed to give tax modifier to abbacies
+		church_influence_modifier = 0.1
 	}
 }
 
@@ -79,6 +80,24 @@ papacy_reform = {
 	custom_attributes = {
 		locked_government_type = yes
 	}
+}
+
+imperial_abbey_reform = {
+	potential = {
+		NOT = { tag = PAP }
+		capital_scope = { is_part_of_hre = yes }
+	}
+	modifiers = {
+		global_tax_modifier = 0.1
+		church_influence_modifier = 0.1
+	}
+	legacy_equivalent = theocratic_government
+	icon = "imp_abbey"						#(JP) Waiting for Chrys
+	lock_level_when_selected = yes
+	has_devotion = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
 }
 
 #Internal vs External Mission
