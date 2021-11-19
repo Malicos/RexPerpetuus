@@ -587,6 +587,7 @@ theocracy = {
 				papacy_reform
 				holy_state_reform
 				united_cantons_reform
+				imperial_abbey_reform
 			}
 		}
 		internal_vs_external_mission = {

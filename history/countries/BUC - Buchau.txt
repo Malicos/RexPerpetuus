@@ -8,8 +8,7 @@ historical_friend = MBZ #the abbess was from house Montfort and left it to a cou
 #Government
 government_rank = 1
 government = theocracy
-add_government_reform = leading_clergy_reform
-#add_government_reform = imperial_abbey_reform #female only abbey
+add_government_reform = imperial_abbey_reform #female only abbey
 
 #Demographics
 primary_culture = swabian
