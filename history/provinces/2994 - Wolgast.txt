@@ -15,6 +15,7 @@ trade_goods = glass
 base_manpower = 2 
 capital = "Wolgast"
 is_city = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

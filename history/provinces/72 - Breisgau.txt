@@ -15,6 +15,7 @@ base_manpower = 3 			#to become a cultural centre for the arts and sciences. It 
 capital = "Freiburg" 
 is_city = yes
 hre = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

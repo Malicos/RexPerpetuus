@@ -16,6 +16,7 @@ base_manpower = 4
 is_city = yes
 fort_15th = yes #Strong City Fortifications
 add_core = WLF
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

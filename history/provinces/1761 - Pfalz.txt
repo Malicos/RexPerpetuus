@@ -15,6 +15,7 @@ is_city = yes
 controller = WOR
 add_core = WOR
 hre = yes
+center_of_trade = 1
 
 
 discovered_by = eastern

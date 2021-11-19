@@ -3,7 +3,7 @@
 # renamed in 1.31
 
 owner = WAI
-controller = WA
+controller = WAI
 add_core = WAI
 culture = maori # 1.31
 religion = animism

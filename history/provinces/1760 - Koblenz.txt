@@ -16,6 +16,7 @@ fort_15th = yes #Eltz & Stolzenfels Castles
 add_core = TRI
 base_manpower = 5
 hre = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

@@ -15,6 +15,7 @@ base_manpower = 9
 capital = "Nürnberg"
 is_city = yes
 hre = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

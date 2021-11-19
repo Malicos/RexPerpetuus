@@ -15,6 +15,7 @@ base_tax = 5
 base_production = 4			#Probably over 10k in 1444, rather large for the region.
 base_manpower = 4
 is_city = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

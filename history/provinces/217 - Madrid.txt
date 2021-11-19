@@ -14,6 +14,7 @@ trade_goods = livestock
 base_manpower = 2 
 capital = "Madrid" 
 is_city = yes # Includes the population of Alcalá de Henares and Guadalajara, that at times were bigger than Madrid itself 
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = eastern

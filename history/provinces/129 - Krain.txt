@@ -17,6 +17,7 @@ fort_15th = yes
 capital = "Laibach"
 is_city = yes
 hre = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = eastern
