@@ -160,7 +160,7 @@
 3177 = { "Hellas" "Thebai" }
 146 = { "Athenai" "Athenai" }
 7113 = { "Zetounion" "Zetounion" }
-7114 = { "Galaxidi" "Galaxidi" } #Better than Salona as this posession was owned by the Byzatines up until 1447/1448 or so.
+7114 = { "Salona" "Salona" } #(Nikicaga?) Better than Salona as this posession was owned by the Byzatines up until 1447/1448 or so. #(JP) Reverted to Salona
 7111 = { "Lebadeia" "Lebadeia" } #Livadeia in modern name, but that's because of spelling.
 
 #North Pelopponese
