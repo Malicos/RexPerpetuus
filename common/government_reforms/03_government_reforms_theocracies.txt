@@ -35,7 +35,7 @@ leading_clergy_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		build_cost = 0.1 					#(JP) Changed to give tax modifier to abbacies
+		build_cost = -0.1 					#(JP) Changed to give tax modifier to abbacies
 		church_influence_modifier = 0.1
 	}
 }
