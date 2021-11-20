@@ -205,7 +205,7 @@
 7730 = { "Macarsca" "Macarsca" }
 7731 = { "Brazza" "Neresi" }
 7732 = { "Sebenico" "Sebenico" }
-7733 = { "Tenin" "Tenin" }
+7733 = { "Canina" "Canina" }
 7734 = { "Segna" "Segna" }
 7735 = { "Veglia" "Veglia" }
 7736 = { "Siscia" "Siscia" }
