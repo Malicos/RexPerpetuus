@@ -5,12 +5,12 @@
 #Core Details
 capital = "Bafra"
 is_city = yes
-owner = CIK
-controller = CIK
+owner = PON
+controller = PON
 
 #Demographics
-culture = pontic_greek		#Converted to Islam but still many Greeks, often practicising Christianity in secret
-religion = sunni
+culture = pontic_greek
+religion = orthodox
 
 #Development and Trade
 base_tax = 2
@@ -19,8 +19,7 @@ base_manpower = 1
 trade_goods = bt_trade_good_fruit	#(JP) Watermelons
 
 #Cores and Occupation (Alphabetical after current)
-add_core = CIK
-add_core = CND
+add_core = PON
 
 #Other Political
 hre = no
@@ -42,18 +41,3 @@ discovered_by = eastern
 discovered_by = nomad_group
 
 #Histories
-
-#1444 onwards
-
-#Fall of the last Beylik of Canik
-1450.1.1 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-}
-1481.6.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
-1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
-1509.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war
-1513.1.1 = { revolt = {} controller = TUR }
-1623.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # The empire fell into anarchy, Janissaries stormed the palace
-1625.1.1 = { revolt = {} controller = TUR } # Murad tries to quell the corruption
