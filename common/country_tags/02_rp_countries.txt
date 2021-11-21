@@ -120,7 +120,7 @@ ITI = "countries/Itil.txt"
 MSK = "countries/Minsk.txt"
 PEC = "countries/Pechenegia.txt"
 PNS = "countries/Pinsk.txt"
-VOR = "countries/Voronezh.txt"
+VNH = "countries/Voronezh.txt"
 
 # Asia Minor
 GLT = "countries/Galatia.txt"
