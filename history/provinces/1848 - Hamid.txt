@@ -1,3 +1,4 @@
+ 
 #1848 - Hamid
 
 owner = TUR
@@ -7,7 +8,7 @@ add_core = GRM
 culture = turkish
 religion = sunni
 capital = "Afyon"				#Name actually means 'Poppy'
-trade_goods = spices			#opium
+trade_goods = spices			#(JP) opium
 hre = no
 base_tax = 3  
 base_production = 3

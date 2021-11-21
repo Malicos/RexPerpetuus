@@ -1,3 +1,4 @@
+ 
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
 latent_trade_goods = {
@@ -11,7 +12,7 @@ add_core = CAP
 culture = cappadocian
 religion = orthodox
 capital = "Nigde"
-trade_goods = livestock
+trade_goods = iron			#(JP) Also Marble here
 hre = no
 base_tax = 4 
 base_production = 4 

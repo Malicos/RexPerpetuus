@@ -1,3 +1,4 @@
+ 
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
 owner = KAR
@@ -8,7 +9,7 @@ add_core = ERE
 culture = cappadocian
 religion = orthodox
 capital = "Kirshehir"
-trade_goods = livestock			#generic semi-arid trade good
+trade_goods = grain				#(JP) Known for Sunflowers and other grains
 hre = no
 base_tax = 2			
 base_production = 2 

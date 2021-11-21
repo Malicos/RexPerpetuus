@@ -1,3 +1,4 @@
+ 
 #326 - Ankara
 
 owner = TUR
@@ -6,7 +7,7 @@ add_core = TUR
 culture = turkish
 religion = sunni
 capital = "Ankara"
-trade_goods = copper			#Don't know the source from this, but leaving it as vanilla, why not...
+trade_goods = wool 				#(JP) Angora
 hre = no
 base_tax = 4
 base_production = 4

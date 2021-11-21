@@ -551,7 +551,7 @@
 7852 = { "Oberpahlen" "Oberpahlen" }
 7853 = { "Wesenberg" "Wesenberg" } 
 7854 = { "Hasenpoth" "Hasenpoth" }
-7855 = { "Weissenstein" "Weissenstein" }
+7855 = { "Weißenstein" "Weißenstein" }
 7856 = { "Rappel" "Rappel" }
 7857 = { "Hapsal" "Hapsal" }
 7859 = { "Telschen" "Telschen" }

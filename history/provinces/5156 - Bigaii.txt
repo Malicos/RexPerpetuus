@@ -1,4 +1,5 @@
- # No previous file for Beyond Typus or Beyond the Pale Legacy province
+ 
+# No previous file for Beyond Typus or Beyond the Pale Legacy province
 
 owner = TUR
 controller = TUR
@@ -6,13 +7,12 @@ add_core = TUR
 culture = turkish
 religion = sunni
 capital = "Biga"
-trade_goods = naval_supplies			#Unclear, going with naval supplies because of the large forests around here
+trade_goods = fish
 hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-center_of_trade = 1
 
 discovered_by = western
 discovered_by = eastern

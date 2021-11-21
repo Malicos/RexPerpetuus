@@ -1,4 +1,3 @@
- 
 #6024 - Eregli
 #Area - 
 #Region - Anatolia
@@ -17,7 +16,7 @@ religion = orthodox 		#To represent the Karamanlis, Turkish speakers who were Ch
 base_tax = 4
 base_production = 5
 base_manpower = 3
-trade_goods = bt_trade_good_fruit
+trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
 add_core = KAR

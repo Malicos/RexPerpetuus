@@ -1,10 +1,10 @@
  
-#6041 - Philadelphia/Alashehir
+#6041 - Akhisar
 #Area - 
 #Region - Anatolia
 
 #Core Details
-capital = "Alashehir"
+capital = "Akhisar"
 is_city = yes
 owner = TUR
 controller = TUR
@@ -17,7 +17,7 @@ religion = sunni
 base_tax = 3
 base_production = 2
 base_manpower = 2
-trade_goods = cloth	#Velius: Akhisar's cloth was reputable in Istanbul's markets.
+trade_goods = bt_trade_good_fruit #(JP)Olives
 
 #Cores and Occupation (Alphabetical after current)
 add_core = TUR

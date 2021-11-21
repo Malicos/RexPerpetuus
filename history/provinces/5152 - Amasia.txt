@@ -1,3 +1,4 @@
+ 
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
 owner = TUR
@@ -8,7 +9,7 @@ add_core = ERE
 culture = turkish
 religion = sunni
 capital = "Amasya"
-trade_goods = grain			#very fertile growing region, well know in antiquity
+trade_goods = bt_trade_good_books			#(JP) Important educational site for Ottoman Heirs
 hre = no
 base_tax = 4
 base_production = 4

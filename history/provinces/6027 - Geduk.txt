@@ -1,10 +1,9 @@
- 
-#6027 - Geduk
+#6027 - Sarkisla
 #Area - 
 #Region - Anatolia
 
 #Core Details
-capital = "Geduk"
+capital = "Sarkisla"
 is_city = yes
 owner = TUR
 controller = TUR
@@ -17,7 +16,7 @@ religion = orthodox
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = grain
+trade_goods = cloth			#(JP) Sarkisla Rugs
 
 #Cores and Occupation (Alphabetical after current)
 add_core = TUR

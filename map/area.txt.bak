@@ -700,7 +700,7 @@ northern_saxony_area = { #Altmark
 	52 58 2964 4786 8271
 }
 middle_saxony_area = {
-	59 62 4741 8272 8273 8274 8276
+	59 62 4741 8272 8273 8274 8275 8276
 }
 south_saxony_area = { #(JP) Upper Saxony
 	61 2965 4744 8277 8278 8279 8280 8281
@@ -1013,7 +1013,7 @@ pechora_area = { # BT
 macedonia_area = { #Macedonia + Albania
 	148 1853 7122 7123 7124 7142 
 }
-morea_area = { #Central Greece
+morea_area = { Central Greece
 	145 1773 3178 3179 4701 7100 7101 7102 7163 
 }
 northern_greece_area = { #BT Epirus

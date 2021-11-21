@@ -1,3 +1,4 @@
+ 
 
 owner = TUR
 controller = TUR
@@ -12,7 +13,7 @@ hre = no
 base_tax = 4
 base_production = 3
 base_manpower = 3
-trade_goods = wine #leaving from vanilla, it works
+trade_goods = naval_supplies
 center_of_trade = 1
 extra_cost = 16
 

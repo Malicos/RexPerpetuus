@@ -1,4 +1,5 @@
- #318 - Sugla
+ 
+#318 - Sugla
 
 owner = TUR
 controller = TUR
@@ -7,7 +8,7 @@ add_core = AYD
 culture = turkish #Should not be Greek or Orthodox in 1444. Its status as a majority Greek city dates to at least after the 17th Century	-Also a vanilla note, though I'd tend to agree in theory.
 religion = sunni
 capital = "Izmir"			#Wonder where vanilla got Izmirni varient? I could only find Izmir
-trade_goods = salt 			#Major Ottoman Salt Work	-Driaocht that is a vanilla note, if they note it, they're usually sure, so going with it
+trade_goods = cotton
 hre = no
 base_tax = 4   				#arrival of Sephardic Jews from Spain after 1492; they later made Izmir one of their principal urban centers in Ottoman lands. Izmir may have been a rather sparsely populated place in the 15th and 16th centuries,
 base_production = 4  		# as indicated by the first extant Ottoman records describing the town and dating from 1528. Total population estimated between 3500 and 5000 (in 1528). Despite earlier importance to the Byzantines, rather small at this point

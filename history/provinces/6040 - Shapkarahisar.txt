@@ -17,7 +17,7 @@ religion = apostolic
 base_tax = 2
 base_production = 2
 base_manpower = 2
-trade_goods = iron	#Velius: Once referred to as the 'Black Fortress of Alum', making assumptions here.
+trade_goods = dyes	#(Velius) Once referred to as the 'Black Fortress of Alum', making assumptions here. (JP) Using dyes for Alum
 
 #Cores and Occupation (Alphabetical after current)
 add_core = TRE

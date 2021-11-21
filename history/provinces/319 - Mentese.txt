@@ -1,3 +1,4 @@
+ 
 #319 - Mentese
 
 latent_trade_goods = {
@@ -11,7 +12,7 @@ add_core = MEN
 culture = turkish
 religion = sunni
 capital = "Mughla"
-trade_goods = cloth			#good enough
+trade_goods = fish			
 hre = no
 base_tax = 3
 base_production = 3

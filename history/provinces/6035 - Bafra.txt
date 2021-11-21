@@ -1,4 +1,3 @@
- 
 #6035 - Bafra
 #Area - 
 #Region - Anatolia
@@ -17,7 +16,7 @@ religion = sunni
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = bt_trade_good_fruit	#Moved from Canik, restored wine there
+trade_goods = bt_trade_good_fruit	#(JP) Watermelons
 
 #Cores and Occupation (Alphabetical after current)
 add_core = CIK

@@ -1,4 +1,3 @@
- 
 #6028 - Darende
 #Area - 
 #Region - Anatolia
@@ -17,7 +16,7 @@ religion = orthodox
 base_tax = 1
 base_production = 1
 base_manpower = 2
-trade_goods = copper
+trade_goods = wine
 
 #Cores and Occupation (Alphabetical after current)
 add_core = DUL

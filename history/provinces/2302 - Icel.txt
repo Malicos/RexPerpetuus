@@ -1,3 +1,4 @@
+ 
 #2302 - Içel
 
 owner = KAR
@@ -8,7 +9,7 @@ add_core = CYP			#King Leo V of Cilicia was a Lusignan, and this title of Cilici
 culture = cilician
 religion = apostolic
 capital = "Gazipasa"
-trade_goods = naval_supplies			#Whatever, good enough, they have trees
+trade_goods = bt_trade_good_fruit 		#(JP) Known for Citrus Fruits
 hre = no
 base_tax = 3
 base_production = 2

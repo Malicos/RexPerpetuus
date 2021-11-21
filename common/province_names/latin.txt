@@ -701,6 +701,7 @@
 2298 = { "Adalia" "Adalia" }
 2299 = { "Amastri" "Amastri" }
 2301 = { "Cesarea" "Cesarea" }
+2304 = { "Simisso" "Simisso" } #(JP) Genoese name
 5134 = { "Alicarnasso" "Alicarnasso" }
 5152 = { "Amasia" "Amasia" }
 5161 = { "Corico" "Corico" }
