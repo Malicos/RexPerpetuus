@@ -5,11 +5,11 @@
 #Core Details
 capital = "Dohna"
 is_city = yes
-owner = MEI
-controller = MEI
+owner = MSO
+controller = MSO
 
 #Demographics
-culture = saxon
+culture = sorbian
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MEI
+add_core = MSO
 
 #Other Political
 hre = yes

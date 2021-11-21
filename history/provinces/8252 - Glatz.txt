@@ -10,7 +10,7 @@ owner = BOH
 controller = BOH
 
 #Demographics
-culture = silesian_german
+culture = czech
 religion = catholic
 
 #Development and Trade
@@ -35,6 +35,7 @@ hre = yes
 1444.1.1 = { discovered_by = GOL }
 1444.1.1 = { discovered_by = AST }
 1444.1.1 = { discovered_by = QAS }
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
