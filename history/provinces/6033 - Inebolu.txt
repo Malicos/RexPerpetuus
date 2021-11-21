@@ -6,12 +6,12 @@
 #Core Details
 capital = "Inebolu"
 is_city = yes
-owner = CND
-controller = CND
+owner = PON
+controller = PON
 
 #Demographics
-culture = turkish
-religion = sunni
+culture = pontic_greek
+religion = orthodox
 
 #Development and Trade
 base_tax = 2
@@ -20,7 +20,7 @@ base_manpower = 2
 trade_goods = naval_supplies
 
 #Cores and Occupation (Alphabetical after current)
-add_core = CND
+add_core = PON
 
 #Other Political
 hre = no
@@ -37,14 +37,3 @@ discovered_by = eastern
 discovered_by = nomad_group
 
 #Histories
-
-#1444 onwards
-1458.1.1 = {
-	owner = TUR
-	controller = TUR	
-}
-1481.6.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
-1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
-1509.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war
-1513.1.1 = { revolt = {} controller = TUR }
-#1740.1.1 = { base_tax = 10 base_production = 10 } # The decentralizing effect of the provincial system
