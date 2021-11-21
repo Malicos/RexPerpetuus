@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Ryazan
 
-owner = VOR
-controller = VOR
-add_core = VOR
+owner = VNH
+controller = VNH
+add_core = VNH
 culture = russian #116ryazanian
 religion = orthodox
 hre = no

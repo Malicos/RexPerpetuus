@@ -2,9 +2,9 @@
 #Region - Ruthenia
 #Area - Sloboda Ukraine
 
-owner = VOR
-controller = VOR
-add_core = VOR
+owner = VNH
+controller = VNH
+add_core = VNH
 culture = ruthenian
 religion = orthodox
 hre = no
