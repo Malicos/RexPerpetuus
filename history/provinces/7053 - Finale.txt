@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = FNL
+controller = FNL
+add_core = FNL
 culture = ligurian
 religion = catholic
 capital = "Finale"	#Ligurie

@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = CEV
+controller = CEV
+add_core = CEV
 culture = piedmontese
 religion = catholic
 capital = "Ceva"

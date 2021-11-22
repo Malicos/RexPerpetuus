@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = TND
+controller = TND
+add_core = TND
 culture = ligurian
 religion = catholic
 capital = "Tende"

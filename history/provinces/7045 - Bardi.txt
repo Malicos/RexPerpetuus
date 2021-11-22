@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = BRD
+controller = BRD
+add_core = BRD
 culture = romagnan
 religion = catholic
 capital = "Bardi"
