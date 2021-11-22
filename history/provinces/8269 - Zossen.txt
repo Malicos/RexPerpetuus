@@ -5,11 +5,11 @@
 #Core Details
 capital = "Zossen"
 is_city = yes
-owner = ZOS
-controller = ZOS
+owner = JRB
+controller = JRB
 
 #Demographics
-culture = markish
+culture = polabian_culture
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = wine
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ZOS
+add_core = JRB
 
 #Other Political
 hre = yes

@@ -24,7 +24,7 @@ add_core = USL
 add_core = BET
 
 #Other Political
-hre = yes
+hre = no
 
 #Fort/Other Buildings
 

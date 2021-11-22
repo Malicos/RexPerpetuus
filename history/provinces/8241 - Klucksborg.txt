@@ -23,7 +23,7 @@ add_core = USL
 add_core = KLU
 
 #Other Political
-hre = yes
+hre = no
 
 #Fort/Other Buildings
 
