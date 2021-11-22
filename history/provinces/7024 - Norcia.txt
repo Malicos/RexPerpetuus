@@ -1,8 +1,7 @@
 #BT Italy reoverhaul
 
-owner = PAP
-controller = PAP
-add_core = PAP
+owner = NRC
+controller = NRC
 add_core = NRC
 culture = umbrian
 religion = catholic

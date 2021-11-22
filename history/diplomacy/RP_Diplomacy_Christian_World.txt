@@ -259,6 +259,33 @@ vassal = {
 ####################################################################
 # 3 - Italy, non-HRE
 ####################################################################
+# Papal Fief - Norcia
+vassal = {
+	subject_type = fiefdom_bt
+	first = PAP
+	second = NRC
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Papal Fief - Orvieto
+vassal = {
+	subject_type = fiefdom_bt
+	first = PAP
+	second = ORV
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Papal Fief - Velletri
+vassal = {
+	subject_type = fiefdom_bt
+	first = PAP
+	second = VLT
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Autonomous Papal State - Citta di Castello
 dependency = {
 	subject_type = papal_subject_bt
