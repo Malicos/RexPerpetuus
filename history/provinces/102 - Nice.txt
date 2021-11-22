@@ -2,8 +2,9 @@
 #Region - Italy
 #Area - Liguria
 
-owner = LOM
-controller = LOM
+owner = BUR
+controller = BUR
+add_core = BUR
 add_core = LOM
 culture = ligurian
 religion = catholic
