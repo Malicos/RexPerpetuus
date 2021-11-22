@@ -9,7 +9,7 @@ owner = GRU
 controller = GRU
 
 #Demographics
-culture = arpitan
+culture = high_burgundian
 religion = catholic
 
 #Development and Trade

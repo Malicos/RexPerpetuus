@@ -9,7 +9,7 @@ owner = WLL
 controller = WLL
 
 #Demographics
-culture = arpitan
+culture = high_burgundian
 religion = catholic
 
 #Development and Trade

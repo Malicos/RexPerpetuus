@@ -9,7 +9,7 @@ owner = NUC
 controller = NUC
 
 #Demographics
-culture = arpitan
+culture = high_burgundian
 religion = catholic
 
 #Development and Trade

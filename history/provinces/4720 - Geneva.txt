@@ -6,7 +6,7 @@
 owner = GNV
 controller = GNV
 add_core = GNV
-culture = arpitan
+culture = high_burgundian
 religion = catholic
 capital = "Geneva"
 trade_goods = cloth

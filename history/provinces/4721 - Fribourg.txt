@@ -2,7 +2,7 @@
 owner = FRB
 controller = FRB
 add_core = FRB
-culture = arpitan
+culture = high_burgundian
 religion = catholic
 capital = "Fribourg"
 trade_goods = livestock
