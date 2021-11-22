@@ -5,11 +5,11 @@
 #Core Details
 capital = "Waidhofen"
 is_city = yes
-owner = FRG
-controller = FRG
+owner = HAB
+controller = HAB
 
 #Demographics
-culture = austrian
+culture = bavarian
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = iron
 
 #Cores and Occupation (Alphabetical after current)
-add_core = FRG
+add_core = HAB
 
 #Other Political
 hre = yes

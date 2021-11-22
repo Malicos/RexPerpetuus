@@ -6,8 +6,8 @@
 #Core Details
 capital = "Pettau"
 is_city = yes
-owner = SLZ
-controller = SLZ
+owner = STY
+controller = STY
 
 #Demographics
 culture = slovene
@@ -20,7 +20,6 @@ base_manpower = 2
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SLZ
 add_core = STY
 
 #Other Political
@@ -36,6 +35,7 @@ hre = yes
 1444.1.1 = { discovered_by = GOL }
 1444.1.1 = { discovered_by = AST }
 1444.1.1 = { discovered_by = QAS }
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

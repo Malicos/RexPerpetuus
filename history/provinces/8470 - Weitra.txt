@@ -9,7 +9,7 @@ owner = HAB
 controller = HAB
 
 #Demographics
-culture = austrian
+culture = bavarian
 religion = catholic
 
 #Development and Trade

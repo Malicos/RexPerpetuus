@@ -5,11 +5,11 @@
 #Core Details
 capital = "Leibnitz"
 is_city = yes
-owner = SLZ
-controller = SLZ
+owner = STY
+controller = STY
 
 #Demographics
-culture = austrian
+culture = bavarian
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SLZ
 add_core = STY
 
 #Other Political

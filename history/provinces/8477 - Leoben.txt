@@ -9,7 +9,7 @@ owner = STY
 controller = STY
 
 #Demographics
-culture = austrian
+culture = bavarian
 religion = catholic
 
 #Development and Trade

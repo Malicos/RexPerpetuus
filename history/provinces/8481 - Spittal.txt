@@ -5,11 +5,11 @@
 #Core Details
 capital = "Spittal"
 is_city = yes
-owner = CLI
-controller = CLI
+owner = CNT
+controller = CNT
 
 #Demographics
-culture = austrian
+culture = bavarian
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,6 @@ base_manpower = 2
 trade_goods = bt_trade_good_beer
 
 #Cores and Occupation (Alphabetical after current)
-add_core = CLI
 add_core = CNT
 
 #Other Political

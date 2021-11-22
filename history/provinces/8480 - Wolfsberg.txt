@@ -5,11 +5,11 @@
 #Core Details
 capital = "Wolfsberg"
 is_city = yes
-owner = BAM
-controller = BAM
+owner = CNT
+controller = CNT
 
 #Demographics
-culture = austrian
+culture = bavarian
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,6 @@ base_manpower = 3
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BAM
 add_core = CNT
 
 #Other Political
