@@ -26,6 +26,14 @@ country_decisions = {
 			OR = {
 				primary_culture = wallonian
 				primary_culture = flemish
+                AND = {
+                    tag = HAI
+                    primary_culture = picard_culture
+                }
+                AND = {
+                    tag = BRB
+                    primary_culture = dutch
+                }
 			}
 			NOT = { num_of_cities = 30 }			#With more than 30 cities, we want the tag to be trying to form something else, like NED or FRA
 		}
@@ -105,6 +113,10 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+	        modifier = { # make dutchs focus on forming netherlands instead of belgium
+	         	factor = 0.25
+	         	primary_culture = dutch
+	        }
 		}
 		ai_importance = 400 #
 	}

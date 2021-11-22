@@ -1020,7 +1020,7 @@
 8180 = { "Bahr-i Bicaz" "Bahr-i Bicaz" } #(JP) Neamt citadel/Piatra town. This is the Turkish name for another place named Piatra. Better name could be found I'm sure #(VL)Bahr-i Bicaz (Translates into Town near Bicaz River)
 8182 = { "Zolyom" "Bistiriçse" }
 8183 = { "Nograd" "Germat" }
-8184 = { "Estergon" "Estergon" }
+8184 = { "Budin" "Budin" }
 8185 = { "Yanikkale" "Yanikkale" }
 8186 = { "Besprim" "Besprim" }
 8190 = { "Peçevi" "Peçevi" }

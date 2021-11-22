@@ -4423,7 +4423,7 @@ SIL_ideas = {
 			tag = SIL
 			tag = GLG
 			tag = OPL
-			# BT; added 8 tags below
+			# BT; added 9 tags below
 			tag = LEG
 			tag = OLE
 			tag = TRO
@@ -4432,6 +4432,7 @@ SIL_ideas = {
 			tag = RAC
 			tag = TES
 			tag = ASC
+			tag = BEG
 		}
 	}
 	free = yes

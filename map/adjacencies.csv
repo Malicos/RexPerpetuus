@@ -12,7 +12,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1;1930;sea;1928;-1;-1;-1;-1;Stockholm-Åland
 1930;27;sea;1928;-1;-1;-1;-1;Åland-Finland
 4110;369;sea;1299;-1;-1;-1;-1;Sutherland-Orkney
-97;100;sea;1269;1279;2718;1894;2721;1897;Holland-Friesland
 96;8112;sea;1269;-1;-1;-1;-1;Zeeland-Rotterdam
 96;95;sea;1269;-1;-1;-1;-1;Zeeland-Breda
 96;8021;sea;1269;-1;-1;-1;-1;Zeeland-Hulst

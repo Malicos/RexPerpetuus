@@ -17,6 +17,7 @@
  BRM_ideas_start:0 "Burmese Traditions"
  CALL_FAVORS_COST_2:0 "This will cost you §Y20§! favors."
  CANT_PRESS_SAILORS_TOO_FEW:0 "You can't press sailors from a subject nation, if they have less than $NEED|Y$ of their sailors. They currently have $CURR|Y$."
+ CENTRALIZE_STATE_DESC:2 "§YCentralize State§!\nSpend $COST|Y$ of reform progress to align the administration in $STATE|Y$ with the most developed province, reducing it's governing cost by $REDUCTION|0Y$. It will take $YEARS|0Y$ years."
  CHAKKAPHAT:0 "Chakkaphat"
  CHAKKAPHATNI:0 "Chakkaphatni"
  CHAKKRAPHAT:0 "Chakkraphat"
