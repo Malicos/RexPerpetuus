@@ -5,8 +5,8 @@
 #Core Details
 capital = "Scharding"
 is_city = yes
-owner = ING
-controller = ING
+owner = BAV
+controller = BAV
 
 #Demographics
 culture = bavarian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = wine	#Velius: Was a center of trade for many different trade goods, be it wine, livestock, grain, silk or even glass.
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ING
+add_core = BAV
 
 #Other Political
 hre = yes

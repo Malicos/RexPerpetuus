@@ -5,8 +5,8 @@
 #Core Details
 capital = "Neunburg"
 is_city = yes
-owner = PAL
-controller = PAL
+owner = NGU
+controller = NGU
 
 #Demographics
 culture = bavarian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = PAL
+add_core = NGU
 
 #Other Political
 hre = yes

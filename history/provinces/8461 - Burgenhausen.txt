@@ -5,8 +5,8 @@
 #Core Details
 capital = "Burghausen"
 is_city = yes
-owner = LBV
-controller = LBV
+owner = BAV
+controller = BAV
 
 #Demographics
 culture = bavarian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = salt #transport of salt - primary offload site for Bavaria
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LBV
+add_core = BAV
 
 #Other Political
 hre = yes

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Landau"
 is_city = yes
-owner = LBV
-controller = LBV
+owner = BAV
+controller = BAV
 
 #Demographics
 culture = bavarian
@@ -19,7 +19,7 @@ base_manpower = 4
 trade_goods = wine
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LBV
+add_core = BAV
 
 #Other Political
 hre = yes

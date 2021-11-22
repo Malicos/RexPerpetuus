@@ -5,8 +5,8 @@
 #Core Details
 capital = "Cham"
 is_city = yes
-owner = UBV
-controller = UBV
+owner = BAV
+controller = BAV
 
 #Demographics
 culture = bavarian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = naval_supplies	#Forest
 
 #Cores and Occupation (Alphabetical after current)
-add_core = UBV
+add_core = BAV
 
 #Other Political
 hre = yes

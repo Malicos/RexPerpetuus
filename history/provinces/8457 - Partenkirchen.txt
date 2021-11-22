@@ -5,8 +5,8 @@
 #Core Details
 capital = "Partenkirchen"
 is_city = yes
-owner = FRG
-controller = FRG
+owner = BAV
+controller = BAV
 
 #Demographics
 culture = bavarian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock		#lots of animals, pretty rugged, declined post Americas discovery
 
 #Cores and Occupation (Alphabetical after current)
-add_core = FRG
+add_core = BAV
 
 #Other Political
 hre = yes

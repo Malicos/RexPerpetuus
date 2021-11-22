@@ -5,8 +5,8 @@
 #Core Details
 capital = "Tölz"
 is_city = yes
-owner = UBV
-controller = UBV
+owner = BAV
+controller = BAV
 
 #Demographics
 culture = bavarian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = salt	#Velius: Became a crossroads for salt and lumber traffic in 14th century.
 
 #Cores and Occupation (Alphabetical after current)
-add_core = UBV
+add_core = BAV
 
 #Other Political
 hre = yes
