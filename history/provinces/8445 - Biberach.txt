@@ -5,8 +5,8 @@
 #Core Details
 capital = "Biberach"
 is_city = yes
-owner = BIB
-controller = BIB
+owner = SWA
+controller = SWA
 
 #Demographics
 culture = swabian
@@ -19,7 +19,7 @@ base_manpower = 3
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BIB
+add_core = SWA
 
 #Other Political
 hre = yes

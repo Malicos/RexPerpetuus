@@ -5,8 +5,8 @@
 #Core Details
 capital = "Holzminden"
 is_city = yes
-owner = WLF
-controller = WLF
+owner = BRU
+controller = BRU
 
 #Demographics
 culture = lower_saxon
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = WLF
+add_core = BRU
 
 #Other Political
 hre = yes

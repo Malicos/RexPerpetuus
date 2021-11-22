@@ -5,8 +5,8 @@
 #Core Details
 capital = "Höchstadt"#also Donauworth
 is_city = yes
-owner = ING
-controller = ING
+owner = DWT
+controller = DWT
 
 #Demographics
 culture = swabian
@@ -19,7 +19,6 @@ base_manpower = 3
 trade_goods = iron#high quality gravel, should be Stone
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ING
 add_core = DWT
 
 #Other Political

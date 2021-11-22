@@ -5,8 +5,8 @@
 #Core Details
 capital = "Buchau"
 is_city = yes
-owner = BUC
-controller = BUC
+owner = SWA
+controller = SWA
 
 #Demographics
 culture = swabian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = paper
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BUC
+add_core = SWA
 
 #Other Political
 hre = yes

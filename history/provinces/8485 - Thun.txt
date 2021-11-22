@@ -5,11 +5,11 @@
 #Core Details
 capital = "Thun"
 is_city = yes
-owner = SWI
-controller = SWI
+owner = HBN
+controller = HBN
 
 #Demographics
-culture = swiss
+culture = high_burgundian
 religion = catholic
 
 #Development and Trade
@@ -19,10 +19,10 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SWI
+add_core = HBN
 
 #Other Political
-hre = yes
+hre = no
 
 #Fort/Other Buildings
 

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Eisleben"#more important than Mansfeld, birthplace of Luther
 is_city = yes
-owner = MNF
-controller = MNF
+owner = MAG
+controller = MAG
 
 #Demographics
 culture = saxon
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MNF
+add_core = MAG
 
 #Other Political
 hre = yes

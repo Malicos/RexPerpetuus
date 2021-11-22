@@ -5,8 +5,8 @@
 #Core Details
 capital = "Fürstenberg"
 is_city = yes
-owner = FST
-controller = FST
+owner = SWA
+controller = SWA
 
 #Demographics
 culture = swabian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = iron
 
 #Cores and Occupation (Alphabetical after current)
-add_core = FST
+add_core = SWA
 
 #Other Political
 hre = yes

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Glauchau"
 is_city = yes
-owner = SCH
-controller = SCH
+owner = MSO
+controller = MSO
 
 #Demographics
 culture = saxon
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SCH
+add_core = MSO
 
 #Other Political
 hre = yes

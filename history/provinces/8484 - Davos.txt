@@ -5,11 +5,11 @@
 #Core Details
 capital = "Davos"
 is_city = yes
-owner = ZGB
-controller = ZGB
+owner = TTL
+controller = TTL
 
 #Demographics
-culture = swiss
+culture = swabian
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = wine
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ZGB
+add_core = TTL
 
 #Other Political
 hre = yes

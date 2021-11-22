@@ -5,8 +5,8 @@
 #Core Details
 capital = "Bremervörde"
 is_city = yes
-owner = VER
-controller = VER
+owner = SAX
+controller = SAX
 
 #Demographics
 culture = lower_saxon
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = VER
+add_core = SAX
 
 #Other Political
 hre = yes

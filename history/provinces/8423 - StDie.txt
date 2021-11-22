@@ -5,8 +5,8 @@
 #Core Details
 capital = "Saint-Dié"
 is_city = yes
-owner = LOR
-controller = LOR
+owner = LOT
+controller = LOT
 
 #Demographics
 culture = lorraine_culture
@@ -19,7 +19,7 @@ base_manpower = 3
 trade_goods = glass
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LOR
+add_core = LOT
 
 #Other Political
 hre = yes

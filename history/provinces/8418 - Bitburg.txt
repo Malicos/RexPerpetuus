@@ -5,8 +5,8 @@
 #Core Details
 capital = "Bitburg"
 is_city = yes
-owner = LUX
-controller = LUX
+owner = LOT
+controller = LOT
 
 #Demographics
 culture = hessian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = bt_trade_good_beer
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LUX
+add_core = LOT
 
 #Other Political
 hre = yes

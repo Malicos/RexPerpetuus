@@ -5,11 +5,11 @@
 #Core Details
 capital = "Lucerne"
 is_city = yes
-owner = SWI
-controller = SWI
+owner = SWA
+controller = SWA
 
 #Demographics
-culture = swiss
+culture = swabian
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,7 @@ base_manpower = 4
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SWI
+add_core = SWA
 
 #Other Political
 hre = yes

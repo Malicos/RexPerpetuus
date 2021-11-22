@@ -5,8 +5,8 @@
 #Core Details
 capital = "Neustadt"
 is_city = yes
-owner = CBG
-controller = CBG
+owner = SAX
+controller = SAX
 
 #Demographics
 culture = lower_saxon
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = CBG
+add_core = SAX
 
 #Other Political
 hre = yes

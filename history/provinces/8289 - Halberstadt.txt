@@ -5,8 +5,8 @@
 #Core Details
 capital = "Halberstadt"
 is_city = yes
-owner = HLB
-controller = HLB
+owner = MAG
+controller = MAG
 
 #Demographics
 culture = lower_saxon
@@ -19,6 +19,7 @@ base_manpower = 3
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
+add_core = MAG
 add_core = HLB
 
 #Other Political

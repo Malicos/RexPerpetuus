@@ -5,8 +5,8 @@
 #Core Details
 capital = "Katzenelnbogen"
 is_city = yes
-owner = KTZ
-controller = KTZ
+owner = NSA
+controller = NSA
 
 #Demographics
 culture = hessian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = wine
 
 #Cores and Occupation (Alphabetical after current)
-add_core = KTZ
+add_core = NSA
 
 #Other Political
 hre = yes

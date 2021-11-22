@@ -5,8 +5,8 @@
 #Core Details
 capital = "Gera"
 is_city = yes
-owner = REU
-controller = REU
+owner = THU
+controller = THU
 
 #Demographics
 culture = saxon
@@ -19,6 +19,7 @@ base_manpower = 2 #(JP) Slight joke, lotsa Heinrichs
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
+add_core = THU
 add_core = REU
 
 #Other Political

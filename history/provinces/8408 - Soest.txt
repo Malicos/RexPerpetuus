@@ -5,8 +5,8 @@
 #Core Details
 capital = "Soest"
 is_city = yes
-owner = KLE
-controller = KLE
+owner = WES
+controller = WES
 
 #Demographics
 culture = lower_saxon
@@ -19,8 +19,7 @@ base_manpower = 5
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = KLE
-add_core = KOL#soest feud
+add_core = WES
 
 #Other Political
 hre = yes

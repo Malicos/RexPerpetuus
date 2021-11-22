@@ -5,8 +5,8 @@
 #Core Details
 capital = "Landau"
 is_city = yes
-owner = SPY
-controller = SPY
+owner = PAL
+controller = PAL
 
 #Demographics
 culture = hessian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = wine
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SPY
+add_core = PAL
 
 #Other Political
 hre = yes

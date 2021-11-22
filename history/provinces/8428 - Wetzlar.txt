@@ -5,8 +5,8 @@
 #Core Details
 capital = "Wetzlar"
 is_city = yes
-owner = WTZ
-controller = WTZ
+owner = HES
+controller = HES
 
 #Demographics
 culture = hessian
@@ -19,6 +19,7 @@ base_manpower = 3
 trade_goods = iron	#Velius: Mostly iron, but also had copper, silver and gold.
 
 #Cores and Occupation (Alphabetical after current)
+add_core = HES
 add_core = WTZ
 
 #Other Political

@@ -22,7 +22,7 @@ trade_goods = livestock
 add_core = GRU
 
 #Other Political
-hre = yes
+hre = no
 
 #Fort/Other Buildings
 

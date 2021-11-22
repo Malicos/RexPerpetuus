@@ -22,7 +22,7 @@ trade_goods = iron
 add_core = NUC
 
 #Other Political
-hre = yes
+hre = no
 
 #Fort/Other Buildings
 

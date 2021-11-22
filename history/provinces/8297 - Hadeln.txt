@@ -5,8 +5,8 @@
 #Core Details
 capital = "Otterndorf"
 is_city = yes
-owner = LAU
-controller = LAU
+owner = SAX
+controller = SAX
 
 #Demographics
 culture = lower_saxon
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LAU
+add_core = SAX
 
 #Other Political
 hre = yes

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Bonn"
 is_city = yes
-owner = KOL
-controller = KOL
+owner = LOT
+controller = LOT
 
 #Demographics
 culture = hessian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = glass
 
 #Cores and Occupation (Alphabetical after current)
-add_core = KOL
+add_core = LOT
 
 #Other Political
 hre = yes

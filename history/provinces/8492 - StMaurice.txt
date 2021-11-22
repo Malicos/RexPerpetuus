@@ -5,8 +5,8 @@
 #Core Details
 capital = "Saint-Maurice"
 is_city = yes
-owner = SAV
-controller = SAV
+owner = WLL
+controller = WLL
 
 #Demographics
 culture = arpitan
@@ -19,10 +19,10 @@ base_manpower = 2
 trade_goods = bt_trade_good_books	#Velius: A major landmark was the abbey, with a college that functioned since the Middle Ages.
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SAV
+add_core = WLL
 
 #Other Political
-hre = yes
+hre = no
 
 #Fort/Other Buildings
 

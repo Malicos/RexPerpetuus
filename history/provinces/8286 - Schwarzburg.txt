@@ -5,8 +5,8 @@
 #Core Details
 capital = "Rudolstadt"
 is_city = yes
-owner = SCW
-controller = SCW
+owner = THU
+controller = THU
 
 #Demographics
 culture = saxon
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = dyes
 
 #Cores and Occupation (Alphabetical after current)
+add_core = THU
 add_core = SCW
 
 #Other Political

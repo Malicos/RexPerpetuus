@@ -5,8 +5,8 @@
 #Core Details
 capital = "Lingen"
 is_city = yes
-owner = TCK
-controller = TCK
+owner = MUN
+controller = MUN
 
 #Demographics
 culture = lower_saxon
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = TCK
+add_core = MUN
 
 #Other Political
 hre = yes
