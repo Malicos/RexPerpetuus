@@ -1,5 +1,8 @@
 #4263 - Sol Galitskaya
 
+owner = GLC
+controller = GLC
+add_core = GLC
 culture = russian 
 religion = orthodox
 hre = no

@@ -1,8 +1,8 @@
 #Galich
 
-owner = VLG
-controller = VLG
-add_core = VLG
+owner = GLC
+controller = GLC
+add_core = GLC
 capital = "Galich"
 culture = russian
 religion = orthodox

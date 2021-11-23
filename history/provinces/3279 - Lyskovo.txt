@@ -1,8 +1,8 @@
 #3279 - Lyskovo
 
-owner = NZH
-controller = NZH
-add_core = NZH
+owner = BOL
+controller = BOL
+add_core = BOL
 culture = russian 
 religion = orthodox
 hre = no

@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Suzdal
 
-owner = NZH
-controller = NZH 
-add_core = NZH 
+owner = VLD
+controller = VLD 
+add_core = VLD
 culture = russian
 religion = orthodox
 hre = no
