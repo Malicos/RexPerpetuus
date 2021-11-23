@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = oirats
+religion = vajrayana
+technology_group = nomad_group
+capital = 461 # Almaty

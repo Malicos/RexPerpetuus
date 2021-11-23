@@ -180,6 +180,7 @@ KLA = "countries/Kalat.txt"
 MRN = "countries/Makran.txt"
 
 # Central Asia
+KHT = "countries/Khitan.txt"
 KLS = "countries/Karlukistan.txt"
 KPC = "countries/Kypchak.txt"
 OGZ = "countries/Oghuz.txt"
