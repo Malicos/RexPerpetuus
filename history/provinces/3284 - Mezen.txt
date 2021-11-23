@@ -2,9 +2,6 @@
 #Region - Russia
 #Area - Pomorye
 
-owner = BJA
-controller = BJA 
-add_core = BJA
 culture = russian
 religion = orthodox
 hre = no

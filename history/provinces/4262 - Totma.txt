@@ -1,8 +1,8 @@
 #4262 - Totma
 
-owner = BJA
-controller = BJA 
-add_core = BJA
+owner = VLG
+controller = VLG
+add_core = VLG
 culture = russian 
 religion = orthodox
 hre = no

@@ -1,8 +1,5 @@
 #3286 - Pechora
 
-owner = BJA
-controller = BJA 
-add_core = BJA
 culture = russian
 religion = orthodox
 capital = "Ust-Vym"

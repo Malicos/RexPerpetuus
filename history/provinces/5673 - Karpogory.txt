@@ -1,8 +1,5 @@
 #New Beyond Typus Province
 
-owner = BJA
-controller = BJA 
-add_core = BJA
 culture = russian
 religion = orthodox
 capital = "Karpogory"

@@ -1,8 +1,5 @@
 #4256 - Solvychegodsk
 
-owner = BJA
-controller = BJA 
-add_core = BJA
 culture = russian
 religion = orthodox
 hre = no

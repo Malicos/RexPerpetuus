@@ -1,8 +1,8 @@
 #New Beyond Typus Province
 
-owner = NZH
-controller = NZH
-add_core = NZH
+owner = MDV
+controller = MDV
+add_core = MDV
 culture = kazani
 religion = sunni
 capital = "Morshansk"

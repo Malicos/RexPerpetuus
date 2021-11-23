@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Tambov
 
-owner = VNH
-controller = VNH
-add_core = VNH
+owner = MDV
+controller = MDV
+add_core = MDV
 culture = mishary
 religion = sunni
 hre = no
