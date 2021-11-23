@@ -2,7 +2,7 @@
 
 graphical_culture = asiangfx
 
-color = { 153 70 70 }
+color = { 104 111 179 }
 
 revolutionary_colors = { 5  8  1 } #Inspired by the Five Color Flag
 
