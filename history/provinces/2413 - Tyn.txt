@@ -4,11 +4,11 @@ latent_trade_goods = {
 	coal
 }
 
-owner = PEC
-controller = PEC
-add_core = PEC
-culture = pechenegian_culture
-religion = orthodox
+owner = CUM
+controller = CUM
+add_core = CUM
+culture = cuman
+religion = sunni
 hre = no
 base_tax = 1 
 base_production = 1 

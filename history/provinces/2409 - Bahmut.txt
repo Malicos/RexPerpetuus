@@ -4,10 +4,10 @@ latent_trade_goods = {
 	coal
 }
 
-owner = VNH
-controller = VNH
-add_core = VNH
-culture = mishary
+owner = CUM
+controller = CUM
+add_core = CUM
+culture = cuman
 religion = sunni
 hre = no
 base_tax = 4  

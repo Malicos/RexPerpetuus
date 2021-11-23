@@ -1,10 +1,10 @@
 #BT GDL reoverhaul
 
-owner = PEC
-controller = PEC
-add_core = PEC
-culture = pechenegian_culture
-religion = orthodox
+owner = CUM
+controller = CUM
+add_core = CUM
+culture = cuman
+religion = sunni
 capital = "Taganrog"			#Nothing here 'til circa 1700... so doing what I can
 base_tax = 1
 base_production = 1

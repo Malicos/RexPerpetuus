@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Tambov
 
-owner = NZH
-controller = NZH
-add_core = NZH
+owner = BOL
+controller = BOL
+add_core = BOL
 culture = kazani
 religion = sunni
 hre = no
