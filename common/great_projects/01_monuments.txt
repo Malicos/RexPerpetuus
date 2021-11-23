@@ -15265,7 +15265,7 @@ spiral_minaret_samarra = {
 
 sultan_ahmed_mosque = {
 	start = 151 #Constantinople
-	date = 1444.01.01	#1616.01.01
+	date = 1616.01.01	#was 1444.11.11
 	time = { months = 0	}
 	build_cost = 0
 	can_be_moved = no
@@ -15276,6 +15276,11 @@ sultan_ahmed_mosque = {
 	build_trigger = {
 		religion_group = muslim
 		has_owner_religion = yes
+		hidden_trigger = {
+			owner = {				
+				has_country_flag = relocated_capital_constantinople
+			}
+		}
 	}
 
 	on_built = {
@@ -15287,11 +15292,21 @@ sultan_ahmed_mosque = {
 	can_use_modifiers_trigger = {
 		religion_group = muslim
 		has_owner_religion = yes
+		hidden_trigger = {
+			owner = {				
+				has_country_flag = relocated_capital_constantinople
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
 		religion_group = muslim
 		has_owner_religion = yes
+		hidden_trigger = {
+			owner = {				
+				has_country_flag = relocated_capital_constantinople
+			}
+		}
 	}
 
 	keep_trigger = {

@@ -1055,6 +1055,7 @@ colosseum = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			prestige = 1 #At this point, the Colosseum is once again world-renowned
+			cavalry_power = 0.05 #Because Dub whined about it
 			land_morale = 0.05 #The Colosseum may be repurposed further into a training grounds for soldiers, and the sheer scale of the Colosseum is a point of national pride
 		}
 
