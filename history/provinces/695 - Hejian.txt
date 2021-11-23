@@ -1,8 +1,8 @@
 #695 - Hebei
 
-owner = LIA
-controller = LIA
-add_core = LIA
+owner = SNG
+controller = SNG
+add_core = SNG
 add_core = YAN
 culture = chihan
 religion = confucianism

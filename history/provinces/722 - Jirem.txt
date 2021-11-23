@@ -3,7 +3,7 @@
 owner = KRC
 controller = KRC
 add_core = KRC
-add_core = KHA
+add_core = CHH
 culture = chahar
 religion = vajrayana
 capital = "Jirem"

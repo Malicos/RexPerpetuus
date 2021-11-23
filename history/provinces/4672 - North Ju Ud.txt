@@ -1,7 +1,5 @@
-owner = LIA
-controller = LIA
-add_core = LIA
-add_core = KHA
+owner = CHH
+controller = CHH
 add_core = CHH
 culture = chahar
 religion = vajrayana

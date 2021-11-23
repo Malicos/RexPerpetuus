@@ -1,8 +1,8 @@
 # 2112 - Andong
 
-owner = LIA
-controller = LIA
-add_core = LIA
+owner = DNH
+controller = DNH
+add_core = DNH
 culture = manchu
 religion = confucianism
 capital = "Andong"

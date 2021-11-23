@@ -1,8 +1,7 @@
 #703 - Chengde
 
-owner = LIA
-controller = LIA
-add_core = LIA
+owner = CHH
+controller = CHH
 add_core = CHH
 culture = chahar
 religion = vajrayana

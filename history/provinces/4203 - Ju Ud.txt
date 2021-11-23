@@ -1,8 +1,7 @@
 #4203 - Ju Ud
 
-owner = KHA
-controller = KHA
-add_core = KHA
+owner = CHH
+controller = CHH
 add_core = CHH
 culture = mongol
 religion = vajrayana

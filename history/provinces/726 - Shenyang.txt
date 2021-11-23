@@ -1,9 +1,9 @@
 #726 - Liaodong
 
-owner = LIA
-controller = LIA
-add_core = LIA
-add_core = DNH
+owner = KRC
+controller = KRC
+add_core = KRC
+add_core = CHH
 culture = manchu
 religion = confucianism
 capital = "Shenyang"

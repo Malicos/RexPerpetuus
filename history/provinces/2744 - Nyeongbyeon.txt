@@ -1,10 +1,9 @@
 #2744 - Nyeongbyeon
 
-owner = LIA
-controller = LIA
-add_core = LIA
-add_core = GKR
+owner = DNH
+controller = DNH
 add_core = DNH
+add_core = GKR
 culture = korean
 religion = confucianism
 capital = "Nyeongbyeon"
