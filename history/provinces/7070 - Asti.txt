@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = ATI
+controller = ATI
+add_core = ATI
 culture = piedmontese
 religion = catholic
 capital = "Asti"

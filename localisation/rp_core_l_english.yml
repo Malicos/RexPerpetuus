@@ -61,6 +61,8 @@
  # 3 - Tags
  #################################################################################
  # Western Europe
+ ACQ:0 "Acqui"
+ ACQ_ADJ:0 "Acquian"
  AGL:0 "Angouleme"
  AGL_ADJ:0 "Angoulemese"
  AGN:0 "Agenais"

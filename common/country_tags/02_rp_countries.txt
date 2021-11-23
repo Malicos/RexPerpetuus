@@ -84,6 +84,7 @@ STO = "countries/Santok.txt"
 USL = "countries/UpperSilesia.txt"
 
 # North Italy
+ACQ = "countries/Acqui.txt"
 AOS = "countries/Aosta.txt"
 CNI = "countries/Carnia.txt"
 

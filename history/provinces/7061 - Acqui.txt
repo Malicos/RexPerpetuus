@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = ACQ
+controller = ACQ
+add_core = ACQ
 culture = piedmontese
 religion = catholic
 capital = "Acqui Terme"
