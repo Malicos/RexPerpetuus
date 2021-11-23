@@ -1,3 +1,4 @@
+ 
 # Meppen
 #Region - Germany
 #Area - Westphalia
@@ -5,13 +6,13 @@
 owner = MUN
 controller = MUN
 add_core = MUN
-culture = hannoverian
+culture = lower_saxon
 religion = catholic
 trade_goods = livestock
 capital = "Meppen"
-base_tax = 8
-base_production = 8
-base_manpower = 4 
+base_tax = 4
+base_production = 4
+base_manpower = 3 
 is_city = yes
 hre = yes
 

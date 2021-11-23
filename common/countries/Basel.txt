@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx # was swissgfx # UPE compatibility
 
-color = { 247 69 117 }
+color = { 200 200 200 }
 
 historical_idea_groups = {
 	religious_ideas

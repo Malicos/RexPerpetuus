@@ -1,17 +1,17 @@
+ 
 #329 - Sivas
 
-owner = GLT
-controller = GLT
-add_core = GLT
+owner = ARM
+controller = ARM
 add_core = ARM
-culture = arevmdian			#Under the Ottomans, Sivas served as the administrative center of the province of Rum until about the late 19th century. Still appears to be a large armenian minority -actually, later maps I found suggest armenian majority at start date.
+culture = arevmdian
 religion = apostolic
 capital = "Sivas"
-trade_goods = wool			#rugs, bricks, cement, and cotton and woolen textiles form the mainstays of the city's economy
+trade_goods = grain 		#(JP) Known for its cereal production
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 5 #3
+base_tax = 3
+base_production = 2
+base_manpower = 2
 is_city = yes
 fort_15th = yes			#Mostly strategic, but also the capital of the region, and there were fortifications
 

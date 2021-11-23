@@ -40,8 +40,8 @@ province_event = {
 
 	option = { # Huzzah
 		name = "BtPLegacyHellasAnatolia.EVTOPTA1"
-		add_legitimacy = 10
-		add_prestige = 10
+		owner = { add_legitimacy = 10 } # Brian fixed
+		owner = { add_prestige = 10 } # Brian fixed
 		if = {
 			limit = {
 				NOT = { has_global_flag = constantinople_restored }

@@ -1,16 +1,17 @@
+ 
 # - Vogtland
 #Region - Germany
 #Area - Thuringia
 
-owner = MSO
-controller = MSO
-add_core = MSO
+owner = THU
+controller = THU
+add_core = THU
 culture = saxon
 religion = catholic
-capital = "Plawno"
+capital = "Plauen"
 trade_goods = wool
 hre = yes
-base_tax = 4 
+base_tax = 2
 base_production = 2 
 base_manpower = 2 
 is_city = yes

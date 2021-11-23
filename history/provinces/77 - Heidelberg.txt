@@ -1,3 +1,4 @@
+ 
 #77 - Heidelberg
 
 owner = PAL
@@ -6,13 +7,12 @@ add_core = PAL
 capital = "Heidelberg"
 culture = hessian
 religion = catholic
-trade_goods = wine
-base_tax = 10
-base_production = 10
-base_manpower = 6
+trade_goods = bt_trade_good_books#the greatest university of mainland Europe
+base_tax = 4
+base_production = 4
+base_manpower = 3
 is_city = yes
 hre = yes
-
 
 discovered_by = eastern
 discovered_by = western

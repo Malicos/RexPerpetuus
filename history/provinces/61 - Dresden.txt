@@ -1,3 +1,4 @@
+ 
 #61 - Saxony
 #Region - Germany
 #Area - South Saxony
@@ -7,14 +8,16 @@ controller = MSO
 add_core = MSO
 culture = sorbian
 religion = catholic
-capital = "Mišno"
+capital = "Dresden"
 trade_goods = iron
 hre = yes
-base_tax = 8
-base_production = 8
-base_manpower = 2 
+base_tax = 5
+base_production = 4
+base_manpower = 3
 is_city = yes
 fort_15th = yes
+
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

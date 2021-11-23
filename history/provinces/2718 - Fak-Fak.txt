@@ -1,3 +1,4 @@
+ 
 #2718 - Fak-Fak
 
 culture = papuan
@@ -14,8 +15,8 @@ native_hostileness = 9
 
 
  # Don Jorge de Mneses
-discovered_by = MKS
-discovered_by = TER
-discovered_by = TID
+1444.1.1 = { discovered_by = MKS }
+1444.1.1 = { discovered_by = TER }
+1444.1.1 = { discovered_by = TID }
 
 1525.1.1 = { discovered_by = POR } # Don Jorge de Mneses

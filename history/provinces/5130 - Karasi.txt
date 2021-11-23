@@ -6,11 +6,11 @@ add_core = NIK
 culture = mikrasiatic
 religion = orthodox
 capital = "Karasi"			#Later known as Balikesir
-trade_goods = grain
+trade_goods = grain			#(JP) Known for its Agriculture
 hre = no
-base_tax = 5 #3
-base_production = 5 #3
-base_manpower = 3 #2
+base_tax = 3
+base_production = 3
+base_manpower = 3
 is_city = yes
 fort_15th = yes			#the capital of the region, known for a strong fort, as well. Also strategic, nice when it just works out.....
 

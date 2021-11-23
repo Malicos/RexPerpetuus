@@ -1,3 +1,4 @@
+ 
 #73 - Tirol
 #Region - Germany
 #Area - Tirol
@@ -7,14 +8,15 @@ controller = TIR
 add_core = TIR
 culture = bavarian
 religion = catholic
-base_tax = 8
-base_production = 8
+base_tax = 3
+base_production = 6
 trade_goods = gold
-base_manpower = 6
+base_manpower = 4
 fort_15th = yes
 capital = "Innsbruck" 
 is_city = yes
 hre = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = eastern

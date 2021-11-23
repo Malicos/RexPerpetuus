@@ -1,15 +1,17 @@
-#2727 - Minang
+ 
 
-culture = aboriginal
-religion = animism
+culture = nyoongah # 1.31
+religion = dreamtime # 1.31
 capital = "Minang"
 hre = no
-trade_goods = unknown
-base_manpower = 2
-base_tax = 2  
+base_tax = 2
 base_production = 2
+base_manpower = 2
+trade_goods = unknown
 native_size = 10
 native_ferocity = 1
 native_hostileness = 9
+
+discovered_by = aboriginal_tech # 1.31
 
 1619.1.10 = { discovered_by = NED } # Frederick de Houtman

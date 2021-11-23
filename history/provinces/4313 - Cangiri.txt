@@ -1,17 +1,16 @@
-#4313 - Kangiri
 
-owner = PON
-controller = PON
-add_core = PON
+owner = GLT
+controller = GLT
+add_core = GLT
 culture = pontic_greek
 religion = orthodox
 capital = "Çankiri"
-trade_goods = copper			#Surprising little information about the immediate area, surprising considering how central and important the area was. Going with vanilla copper
-hre = no
-base_tax = 2 
-base_production = 2 
-base_manpower = 2 
 is_city = yes
+hre = no
+base_tax = 3
+base_production = 2
+base_manpower = 2
+trade_goods = copper #Surprising little information about the immediate area, surprising considering how central and important the area was. Going with vanilla copper
 
 discovered_by = western
 discovered_by = eastern

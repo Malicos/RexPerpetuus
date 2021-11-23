@@ -1,10 +1,11 @@
+ 
 # No previous file for Apatzingan
 
-owner = TAR
-controller = TAR
-add_core = TAR
-is_city = yes
 culture = purepecha
+owner = CLM
+controller = CLM
+add_core = CLM
+is_city = yes
 religion = nahuatl
 capital = "Apatzingan"
 trade_goods = bt_trade_good_fruit
@@ -16,4 +17,22 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 2
 
+
+
 discovered_by = mesoamerican
+
+
+1460.1.1 = { 
+	owner = TAR
+	controller = TAR
+	add_core = TAR
+	} #Estimated: Tarascan expansion 
+1530.1.1 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	religion = catholic
+	unrest = 5
+} #Tangaxuan II is deposed and murdered.
+1541.1.1 = { culture = castillian } # growing aculturation
+1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence

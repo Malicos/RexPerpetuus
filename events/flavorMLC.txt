@@ -30,7 +30,6 @@ country_event = {
 	
 	option = { 
 		name = flavor_mlc.1.a #Raja Ibrahim will not be forgotten.
-		add_stability = -1
 		kill_ruler = yes
 		set_ruler_flag = mlc_death_or_raja_ibrahim
 	}
@@ -102,7 +101,7 @@ country_event = {
 				}
 				OR = {
 					has_discovered = POR
-					has_discovered = IBE
+					has_discovered = IBE # BT
 				}
 			}
 		}
@@ -247,10 +246,11 @@ country_event = {
 				exists = POR
 				any_owned_province = {
 					area = malaya_area
+					#area = malacca_area # BT removed
 					has_discovered = POR
 				}
 			}
-			AND = {
+			AND = { # BT
 				NOT  = { exists = POR }
 				exists = IBE
 				any_owned_province = {
@@ -272,7 +272,7 @@ country_event = {
 		custom_tooltip = flavor_mlc.7.a.tt
 		add_stability = -1
 		if = {
-			limit = { exists = POR }
+			limit = { exists = POR } # BT
 			POR = {
 				add_casus_belli = {
 					target = MLC
@@ -283,7 +283,7 @@ country_event = {
 			}
 
 		}
-		if = {
+		if = { # BT
 			limit = { 
 				NOT = { exists = POR }
 				exists = IBE
@@ -304,7 +304,7 @@ country_event = {
 		ai_chance = { factor = 1 }
 		custom_tooltip = flavor_mlc.7.b.tt
 		if = {
-			limit = { exists = POR }
+			limit = { exists = POR } # BT
 			POR = {
 				add_casus_belli = {
 					target = MLC
@@ -314,7 +314,7 @@ country_event = {
 				country_event = { id = flavor_mlc.8 }
 			}
 		}
-		if = {
+		if = { # BT
 			limit = { 
 				NOT = { exists = POR }
 				exists = IBE
@@ -349,6 +349,50 @@ country_event = {
 				type = cb_trade_war_triggered
 				months = 24 #Not displayed in tooltip.
 			}
+		}
+	}
+}
+
+# Pick a name and capital for Malaya
+country_event = {
+	id = flavor_mlc.9
+	title = flavor_mlc.9.t
+	desc = flavor_mlc.9.desc
+	picture = ANGRY_MOB_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = flavor_mlc.9.a
+		trigger = {
+			dynasty = "Srivijaya"
+		}
+		override_country_name = SRIVIJAYA
+		ai_chance = {
+			factor = 1000
+		}
+	}
+	option = {
+		name = flavor_mlc.9.b
+		trigger = {
+			primary_culture = javanese
+		}
+		override_country_name = MAJAPAHIT_EMPIRE
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = flavor_mlc.9.c
+		override_country_name = NUSANTARA
+		ai_chance = {
+			factor = 5
+		}
+	}
+	option = {
+		name = flavor_mlc.9.d
+		ai_chance = {
+			factor = 1
 		}
 	}
 }

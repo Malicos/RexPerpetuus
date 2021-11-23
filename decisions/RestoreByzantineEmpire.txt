@@ -11,11 +11,14 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = BYZ }
+			NOT = { exists = GRE }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = TUR }
 			OR = {
-				culture_group = byzantine
+				#primary_culture = greek # BT removed
+				#primary_culture = pontic_greek # BT removed
+				culture_group = byzantine # BT
 				AND = {
 					has_idea = MFA_byzantine_claimants
 					dynasty = "Palaiologos"
@@ -25,7 +28,7 @@ country_decisions = {
 				religion = orthodox
 				has_idea = MFA_byzantine_claimants
 			}
-			num_of_owned_provinces_with = {
+			num_of_owned_provinces_with = { # BT
 				value = 5
 				OR = {
 					region = balkan_region
@@ -47,7 +50,7 @@ country_decisions = {
 				is_core = ROOT
 			}	#Requires at least 5 provinces to see the decision
 		}
-		provinces_to_highlight = {
+		provinces_to_highlight = { # BT modified
 			OR = {
 				region = balkan_region
 				region = anatolia_region
@@ -67,7 +70,7 @@ country_decisions = {
 			}
 			NOT = { owned_by = ROOT }
 		}
-		allow = {
+		allow = { # BT modified
 			owns_core_province = 148 # Thessaloniki
 			owns_core_province = 151 # Constantinople
 			#This replaces the various specific provinces required, leaving Constantinople and Thessaloniki, though, as the two primary cities of the empire
@@ -97,8 +100,18 @@ country_decisions = {
 			is_nomad = no
 		}
 		effect = {
-			151 = { move_capital_effect = yes } # Constantinople
+			151 = {
+				move_capital_effect = yes
+			}
 			change_tag = BYZ
+			# BT removed below, because makes no sense?
+			#if = {
+			#	limit = {
+			#		NOT = { culture_group = byzantine }
+			#		NOT = { accepted_culture = greek }
+			#	}
+			#	add_accepted_culture = greek
+			#}
 			swap_non_generic_missions = yes
 			every_province = {
 				limit = {
@@ -138,7 +151,7 @@ country_decisions = {
 					set_in_empire = no
 				}
 			}
-			if = {
+			if = { # BT
 				limit = {
 					NOT = { has_global_flag = constantinople_restored }
 				}

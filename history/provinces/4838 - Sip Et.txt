@@ -1,0 +1,19 @@
+ 
+# ex 8729
+
+owner = KHM
+controller = KHM
+add_core = KHM
+add_core = CHK
+culture = lao
+religion = animism # BT; buddhism
+capital = "Khemarat" # BT; "Sip Et"
+is_city = yes
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+trade_goods = livestock # BT; ivory
+
+discovered_by = chinese
+discovered_by = indian

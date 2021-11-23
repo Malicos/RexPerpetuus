@@ -6,51 +6,40 @@ country_decisions = {
 				has_country_modifier = thalassocracy
 			}
 			OR = {
+					
 				1298 = { # Genua
 					is_strongest_trade_power = ROOT
 				}
 				1308 = { # Venice
 					is_strongest_trade_power = ROOT
 				}
+				341 = { #Tunis
+					is_strongest_trade_power = ROOT
+				}
 				137 = { #Ragusa
-					is_strongest_trade_power = ROOT
-				}
-				121 = { #Naples
-					is_strongest_trade_power = ROOT
-				}
-				5493 = { #Aegean Sea
 					is_strongest_trade_power = ROOT
 				}
 				358 = { #Alexandria
 					is_strongest_trade_power = ROOT
 				}
-				341 = { #Tunis
+				
+				45 = {	# Lübeck
 					is_strongest_trade_power = ROOT
 				}
-				
+				#1926 = { #Baltic Sea # BT removed
+				#	is_strongest_trade_power = ROOT
+				#}
 				1269 = { #Antwerpen
 					is_strongest_trade_power = ROOT
 				}
 				1975 = { #North Sea
 					is_strongest_trade_power = ROOT
 				}
-				85 = { #Cologne
-					is_strongest_trade_power = ROOT
-				}
-				45 = {	# Lübeck
-					is_strongest_trade_power = ROOT
-				}
-				1 = { #Stockholm
-					is_strongest_trade_power = ROOT
-				}
-				43 = { #Danzig
-					is_strongest_trade_power = ROOT
-				}
 				33 = { #Novgorod
 					is_strongest_trade_power = ROOT
 				}
 				
-				1331 = { #Gulf of Aden
+				1331 = { #Gulf of Aden # BT; 4346
 					is_strongest_trade_power = ROOT
 				}
 				504 = { #Indus
@@ -65,13 +54,28 @@ country_decisions = {
 				1361 = { #Malacca
 					is_strongest_trade_power = ROOT
 				}
+				# BT; added 14 nodes below, from 121 to 1365
+				121 = { #Naples
+					is_strongest_trade_power = ROOT
+				}
+				5493 = { #Aegean Sea
+					is_strongest_trade_power = ROOT
+				}
+				85 = { #Cologne
+					is_strongest_trade_power = ROOT
+				}
+				1 = { #Stockholm
+					is_strongest_trade_power = ROOT
+				}
+				43 = { #Danzig
+					is_strongest_trade_power = ROOT
+				}
 				1357 = { #Moluccas
 					is_strongest_trade_power = ROOT
 				}
 				1412 = { #Australia
 					is_strongest_trade_power = ROOT
 				}
-				
 				1816 = { #Beijing
 					is_strongest_trade_power = ROOT
 				}
@@ -99,7 +103,7 @@ country_decisions = {
 			full_idea_group = maritime_ideas
 			OR = {
 				custom_trigger_tooltip = {
-					tooltip = bt_venetian_genoese_thalassocracy_tooltip
+					tooltip = bt_venetian_genoese_thalassocracy_tooltip # BT
 					AND = {
 						1298 = { # Genua
 							is_strongest_trade_power = ROOT
@@ -107,53 +111,56 @@ country_decisions = {
 						1308 = { # Venice
 							is_strongest_trade_power = ROOT
 						}
+						341 = { #Tunis
+							is_strongest_trade_power = ROOT
+						}
 						137 = { #Ragusa
-							is_strongest_trade_power = ROOT
-						}
-						121 = { #Naples
-							is_strongest_trade_power = ROOT
-						}
-						5493 = { #Aegean Sea
 							is_strongest_trade_power = ROOT
 						}
 						358 = { #Alexandria
 							is_strongest_trade_power = ROOT
 						}
-						341 = { #Tunis
+						121 = { #Naples # BT
+							is_strongest_trade_power = ROOT
+						}
+						5493 = { #Aegean Sea # BT
 							is_strongest_trade_power = ROOT
 						}
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = bt_dutch_hansa_thalassocracy_tooltip
+					tooltip = bt_dutch_hansa_thalassocracy_tooltip # BT
 					AND = {
+						45 = {	# Lübeck
+							is_strongest_trade_power = ROOT
+						}
+						#1926 = { #Baltic Sea # BT removed
+						#	is_strongest_trade_power = ROOT
+						#}
 						1269 = { #Antwerpen
 							is_strongest_trade_power = ROOT
 						}
 						1975 = { #North Sea
 							is_strongest_trade_power = ROOT
 						}
-						85 = { #Cologne
-							is_strongest_trade_power = ROOT
-						}
-						45 = {	# Lübeck
-							is_strongest_trade_power = ROOT
-						}
-						1 = { #Stockholm
-							is_strongest_trade_power = ROOT
-						}
-						43 = { #Danzig
-							is_strongest_trade_power = ROOT
-						}
 						33 = { #Novgorod
+							is_strongest_trade_power = ROOT
+						}
+						85 = { #Cologne # BT
+							is_strongest_trade_power = ROOT
+						}
+						1 = { #Stockholm # BT
+							is_strongest_trade_power = ROOT
+						}
+						43 = { #Danzig # BT
 							is_strongest_trade_power = ROOT
 						}
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = bt_oman_zanzibar_thalassocracy_tooltip
+					tooltip = bt_oman_zanzibar_thalassocracy_tooltip # BT
 					AND = {
-						1331 = { #Gulf of Aden
+						1331 = { #Gulf of Aden # BT; 4346
 							is_strongest_trade_power = ROOT
 						}
 						504 = { #Indus
@@ -168,15 +175,15 @@ country_decisions = {
 						1361 = { #Malacca
 							is_strongest_trade_power = ROOT
 						}
-						1357 = { #Moluccas
+						1357 = { #Moluccas # BT
 							is_strongest_trade_power = ROOT
 						}
-						1412 = { #Australia
+						1412 = { #Australia # BT
 							is_strongest_trade_power = ROOT
 						}
 					}
 				}
-				custom_trigger_tooltip = {
+				custom_trigger_tooltip = { # BT
 					tooltip = bt_ming_goes_maritime_thalassocracy_tooltip
 					AND = {
 						1816 = { #Beijing

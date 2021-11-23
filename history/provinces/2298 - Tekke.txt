@@ -1,3 +1,4 @@
+ 
 #2298 - Tekke
 
 owner = LYC
@@ -6,10 +7,10 @@ add_core = LYC
 culture = cappadocian
 religion = orthodox
 capital = "Antalya"			#An earlier varient of the name, which is fine, leaving vanilla
-trade_goods = cotton			#actually more famous for fruit, like citrus. Considering best trade good for fruit is wine and spices, however, leaving cotton.
+trade_goods = bt_trade_good_fruit			#(JP) Mainly Apricots
 hre = no
-base_tax = 5 #4 			#3.5k population or so in the 15th century, so middle sized
-base_production = 5 #4
+base_tax = 4 			#3.5k population or so in the 15th century, so middle sized
+base_production = 3
 base_manpower = 3
 is_city = yes
 

@@ -1,9 +1,10 @@
+ 
 #60 - Lausitz
 
 owner = SOR
 controller = SOR
 add_core = SOR
-capital = "Budyšyn"
+capital = "Bautzen"
 culture = sorbian
 religion = catholic
 trade_goods = grain #Was glass

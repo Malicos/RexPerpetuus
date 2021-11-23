@@ -33,16 +33,16 @@ country_event = {
 	option = {
 		name = bah_mission_events.1.a
 		541 = {
-			add_base_tax = -4
-			add_base_production = -4
-			add_base_manpower = -4
+			add_base_tax = -4 # BT; -2
+			add_base_production = -4 # BT; -2
+			add_base_manpower = -4 # BT; -2
 			change_province_name = "Bellary"
 			rename_capital = "Bellary"
 		}
 		capital_scope = {
-			add_base_tax = 4
-			add_base_production = 4
-			add_base_manpower = 4
+			add_base_tax = 4 # BT; 2
+			add_base_production = 4 # BT; 2
+			add_base_manpower = 4 # BT; 2
 		}
 		if = {
 			limit = {
@@ -132,9 +132,9 @@ country_event = {
 			move_capital_effect = yes
 			change_province_name = "Aurangabad"
 			rename_capital = "Aurangabad"
-			add_base_tax = 4
-			add_base_manpower = 4
-			add_base_production = 4
+			add_base_tax = 4 # BT; 2
+			add_base_manpower = 4 # BT; 2
+			add_base_production = 4 # BT; 2
 			add_province_modifier = {
 				name = "city_of_aurangabad"
 				duration = -1
@@ -142,13 +142,13 @@ country_event = {
 		}
 		542 = {
 			if = {
-				limit = { NOT = { has_province_flag = hyderabad_restored } }
+				limit = { NOT = { has_province_flag = hyderabad_restored } } # BT
 				change_province_name = "Hyderabad"
 				rename_capital = "Hyderabad"
-				add_base_tax = 4
-				add_base_manpower = 4
-				add_base_production = 4
-				set_province_flag = hyderabad_restored
+				add_base_tax = 4 # BT; 2
+				add_base_manpower = 4 # BT; 2
+				add_base_production = 4 # BT; 2
+				set_province_flag = hyderabad_restored # BT
 			}
 		}
 	}
@@ -201,7 +201,6 @@ country_event = {
 				DIP = 4
 				ADM = 3
 				MIL = 5
-				fixed = yes
 			}
 			if = {
 				limit = {
@@ -217,9 +216,9 @@ country_event = {
 		545 = {
 			change_province_name = "Aurangabad"
 			rename_capital = "Aurangabad"
-			add_base_tax = 4
-			add_base_manpower = 4
-			add_base_production = 4
+			add_base_tax = 4 # BT; 2
+			add_base_manpower = 4 # BT; 2
+			add_base_production = 4 # BT; 2
 			add_province_modifier = {
 				name = "city_of_aurangabad"
 				duration = -1
@@ -227,13 +226,13 @@ country_event = {
 		}
 		542 = {
 			if = {
-				limit = { NOT = { has_province_flag = hyderabad_restored } }
+				limit = { NOT = { has_province_flag = hyderabad_restored } } # BT
 				change_province_name = "Hyderabad"
 				rename_capital = "Hyderabad"
-				add_base_tax = 4
-				add_base_manpower = 4
-				add_base_production = 4
-				set_province_flag = hyderabad_restored
+				add_base_tax = 4 # BT; 2
+				add_base_manpower = 4 # BT; 2
+				add_base_production = 4 # BT; 2
+				set_province_flag = hyderabad_restored # BT
 			}
 		}
 	}

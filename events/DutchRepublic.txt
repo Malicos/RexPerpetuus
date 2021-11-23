@@ -54,6 +54,7 @@ country_event = {
 	option = {
 		name = "dutch_republic.1.a"
 		change_statists_vs_orangists = 0.25
+		add_absolutism = 2
 		set_country_flag = supported_orangists
 		clr_country_flag = supported_statists
 		every_neighbor_country = {
@@ -1544,6 +1545,7 @@ province_event = {
 			province_id = 98
 			province_id = 99
 			province_id = 100
+			# BT; added 7 prov. below
 			province_id = 4382
 			province_id = 3058
 			province_id = 4381

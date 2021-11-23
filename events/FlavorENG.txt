@@ -110,7 +110,7 @@ country_event = {
 	option = {		# Let them be
 		name = "flavor_eng.EVTOPTB9100"
 		ai_chance = { factor = 25 }
-		add_reform_desire = 0.05
+		add_reform_desire = 0.03
 		add_country_modifier = {
 			name = eng_tolerates_lollards
 			duration = -1
@@ -808,7 +808,7 @@ country_event = {
 		#	name = the_muskovy_trade_company
 		#	duration = -1
 		#}
-		33 = {
+		33 = { # BT; 1652
 			add_trade_modifier = {
 				who = ROOT
 				duration = -1
@@ -1023,40 +1023,6 @@ country_event = {
 				}
 			}
 		}
-		#Removing because England was dying all the time.
-		#if = {
-		#	limit = {
-		#		owns = 4368		# Durham
-		#	}
-		#	4368 = {
-		#		spawn_rebels = {
-		#			type = noble_rebels
-		#			size = 1
-		#		}
-		#	}
-		#}
-		#if = {
-		#	limit = {
-		#		owns = 4785		# Leeds
-		#	}
-		#	4785 = {
-		#		spawn_rebels = {
-		#			type = noble_rebels
-		#			size = 1
-		#		}
-		#	}
-		#}
-		#if = {
-		#	limit = {
-		#		owns = 4375		# Chester
-		#	}
-		#	4375 = {
-		#		spawn_rebels = {
-		#			type = noble_rebels
-		#			size = 1
-		#		}
-		#	}
-		#}
 		if = {
 			limit = { NOT = { has_country_modifier = narrowminded_modifier } }
 			add_country_modifier = {
@@ -1652,12 +1618,13 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = pretender_rebels
-					size = 3
+					size = 3 # BT; 2
 					leader = "James"
 					leader_dynasty = "Stuart"
 				}
 			}
 		}
+		# BT; 4 else_if below added/modified
 		else_if = {
 			limit = {
 				kingdom_of_the_isles_area = { owned_by = ROOT }
@@ -1717,7 +1684,6 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "James Stuart"
 					leader = "James"
 					leader_dynasty = "Stuart"
 				}
@@ -1881,12 +1847,13 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = pretender_rebels
-					size = 3
+					size = 3 # BT; 2
 					leader = "James"
 					leader_dynasty = "Stuart"
 				}
 			}
 		}
+		# BT; 4 else_if below added/modified
 		else_if = {
 			limit = {
 				kingdom_of_the_isles_area = { owned_by = ROOT }
@@ -1946,7 +1913,6 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 3
-					leader = "James Stuart"
 					leader = "James"
 					leader_dynasty = "Stuart"
 				}
@@ -2332,10 +2298,10 @@ country_event = {
 		NOT = { is_year = 1790 }
 		OR = {
 			AND = {
-				tag = GBR
-				NOT = { exists = SCO }
+				tag = GBR # ??? BT; ENG
+				NOT = { exists = SCO } # ??? BT; GBR
 			}
-			tag = SCO
+			tag = SCO # ??? BT; GBR
 		}
 	}
 
@@ -2374,10 +2340,10 @@ country_event = {
 		NOT = { is_year = 1776 }
 		OR = {
 			AND = {
-				tag = GBR
-				NOT = { exists = SCO }
+				tag = GBR # ??? BT; ENG
+				NOT = { exists = SCO } # ??? BT; GBR
 			}
-			tag = SCO
+			tag = SCO # ??? BT; GBR
 		}
 	}
 

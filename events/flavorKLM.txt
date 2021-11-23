@@ -15,7 +15,7 @@ country_event = {
 		is_year = 1600
 		any_country = {
 			culture_group = altaic
-			total_development = 400 #BT Dev Doubling
+			total_development = 400 # BT; 200
 			owns_core_province = 2190
 		}
 		is_subject = no

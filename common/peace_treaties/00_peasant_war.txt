@@ -30,7 +30,7 @@ force_peasant_republic = {
 			NOT = { tag = PAP }
 			is_revolutionary = no
 			NOT = { has_reform = celestial_empire }
-			NOT = { total_development = 300 } #BT Dev Doubling
+			NOT = { total_development = 300 } # BT; 150
 			is_part_of_hre = yes
 		}
 	}

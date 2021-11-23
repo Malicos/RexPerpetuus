@@ -57,7 +57,7 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate.lua"
 		transparencecheck = no
-		#allwaystransparent = yes
+		#alwaystransparent = yes
 	}
 	
 	spriteType = {	
@@ -68,7 +68,7 @@ spriteTypes = {
 		
 		effectFile = "gfx/FX/buttonstate.lua"
 		transparencecheck = no
-		#allwaystransparent = yes
+		#alwaystransparent = yes
 	}	
 	
 	spriteType = {
@@ -186,7 +186,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_country_icon_religion"
 		texturefile = "gfx//interface//country_icon_religion.dds"
-		noOfFrames = 44
+		noOfFrames = 44	
 	}
 
 	spriteType = {

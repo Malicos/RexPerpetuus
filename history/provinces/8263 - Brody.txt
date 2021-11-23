@@ -1,9 +1,10 @@
+
 #8263 - Brody
 #Area - Lusatia
 #Region - North Germany
 
 #Core Details
-capital = "Brody"
+capital = "Pforten"
 is_city = yes
 owner = SOR
 controller = SOR

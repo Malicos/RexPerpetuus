@@ -1,3 +1,4 @@
+ 
 owner = SWA
 controller = SWA
 add_core = SWA
@@ -6,9 +7,9 @@ is_city = yes
 culture = swabian
 religion = catholic
 hre = yes
-base_tax = 6
-base_production = 6
-base_manpower = 4
+base_tax = 3
+base_production = 3
+base_manpower = 3
 trade_goods = grain
 
 discovered_by = eastern

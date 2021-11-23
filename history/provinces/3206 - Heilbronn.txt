@@ -1,3 +1,4 @@
+ 
 #3206 - Heilbronn
 #Region - Germany
 #Area - Lower Swabia
@@ -6,11 +7,11 @@ owner = PAL
 controller = PAL
 add_core = PAL
 capital = "Heilbronn"
-culture = swabian
+culture = franconian
 religion = catholic
 trade_goods = bt_trade_good_beer
-base_tax = 6
-base_production = 6
+base_tax = 5
+base_production = 4
 base_manpower = 4 
 is_city = yes
 hre = yes

@@ -1,15 +1,16 @@
+ 
 #2302 - Içel
 
 owner = CIL
 controller = CIL
 add_core = CIL
 culture = cilician
-religion = orthodox
+religion = apostolic
 capital = "Gazipasa"
-trade_goods = naval_supplies			#Whatever, good enough, they have trees
+trade_goods = bt_trade_good_fruit 		#(JP) Known for Citrus Fruits
 hre = no
 base_tax = 3
-base_production = 3
+base_production = 2
 base_manpower = 2 
 is_city = yes
 

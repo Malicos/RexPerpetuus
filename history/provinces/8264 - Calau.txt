@@ -1,9 +1,10 @@
+
 #8264 - Calau
 #Area - Lusatia
 #Region - North Germany
 
 #Core Details
-capital = "Kalawa"
+capital = "Calau"
 is_city = yes
 owner = JRB
 controller = JRB

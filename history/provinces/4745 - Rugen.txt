@@ -1,11 +1,12 @@
+ 
 #BT Scandinavia and Baltics reoverhaul
 
 owner = RUG
-controller = RUG			#Danish vassal until 1325
+controller = RUG
 add_core = RUG
 culture = polabian_culture
 religion = catholic
-capital = "Górsko Rañskie"
+capital = "Rugard"
 base_tax = 3 
 base_production = 3 
 base_manpower = 2 

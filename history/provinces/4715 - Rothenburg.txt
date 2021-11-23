@@ -1,15 +1,16 @@
+ 
 owner = ROT
 controller = ROT
+add_core = ROT
 capital = "Rothenburg ob der Tauber"
 is_city = yes
 culture = franconian
 religion = catholic
 hre = yes
-base_tax = 8
-base_production = 10
-base_manpower = 2
+base_tax = 4
+base_production = 4
+base_manpower = 3
 trade_goods = grain
-add_core = ROT
 
 discovered_by = eastern
 discovered_by = western

@@ -1,3 +1,4 @@
+ 
 # - Greifswald
 #Region - Germany
 #Area - Vorpommern
@@ -12,8 +13,9 @@ base_tax = 6
 base_production = 6
 trade_goods = cloth
 base_manpower = 2 
-capital = "Gryfia"
+capital = "Greifswald"
 is_city = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

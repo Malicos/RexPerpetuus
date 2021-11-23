@@ -1,17 +1,16 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
 
 owner = GLT
 controller = GLT
 add_core = GLT
 culture = pontic_greek
 religion = orthodox
-capital = "Kirkkake"			#not settled until the 16th century, but need a province here to prevent ugly borders, giant provinces, lopsided area balance etc.
-trade_goods = bt_trade_good_fruit
-hre = no
-base_tax = 1 
-base_production = 1 
-base_manpower = 1 
+capital = "Balisheyh"
 is_city = yes
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = livestock
 
 discovered_by = western
 discovered_by = eastern

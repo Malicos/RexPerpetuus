@@ -1,3 +1,4 @@
+ 
 #76 - Salzburg
 #Region - Germany
 #Area - Upper Bavaria
@@ -11,10 +12,11 @@ religion = catholic
 capital = "Salzburg"
 trade_goods = salt
 hre = yes
-base_tax = 12 
-base_production = 12
-base_manpower = 8
+base_tax = 6
+base_production = 7
+base_manpower = 7
 is_city = yes
+center_of_trade = 1
 
 discovered_by = eastern
 discovered_by = western

@@ -1,3 +1,4 @@
+ 
 #BT Scandinavia and Baltics reoverhaul
 
 owner = POM
@@ -5,7 +6,7 @@ controller = POM
 add_core = POM
 culture = polabian_culture
 religion = catholic
-capital = "Kamieñ"
+capital = "Kammin"
 base_tax = 3 
 base_production = 3 
 base_manpower = 2 

@@ -1,0 +1,57 @@
+spriteTypes = {
+    # custom icon for daimyo
+    spriteType = {
+		name = "GFX_icon_daimyo_relation"
+		texturefile = "gfx/interface/icon_daimyo_relation.dds"
+	}
+    spriteType = {
+		name = "GFX_icon_daimyo_overlord"
+		texturefile = "gfx/interface/icon_daimyo_overlord.dds"
+	}
+    spriteType = {
+		name = "GFX_icon_daimyo_subject"
+		texturefile = "gfx/interface/icon_daimyo_subject.dds"
+	}
+
+    # hanseatic league member
+    spriteType = {
+		name = "GFX_icon_hanseatic_relation"
+		texturefile = "gfx/interface/icon_hanseatic_relation.dds"
+	}
+    spriteType = {
+		name = "GFX_icon_hanseatic_overlord"
+		texturefile = "gfx/interface/icon_hanseatic_overlord.dds"
+	}
+    spriteType = {
+		name = "GFX_icon_hanseatic_subject"
+		texturefile = "gfx/interface/icon_hanseatic_subject.dds"
+	}
+
+    # papal state
+    spriteType = {
+		name = "GFX_icon_papal_relation"
+		texturefile = "gfx/interface/icon_papal_relation.dds"
+	}
+    spriteType = {
+		name = "GFX_icon_papal_overlord"
+		texturefile = "gfx/interface/icon_papal_overlord.dds"
+	}
+    spriteType = {
+		name = "GFX_icon_papal_subject"
+		texturefile = "gfx/interface/icon_papal_subject.dds"
+	}
+
+    # viceroyalty
+    spriteType = {
+		name = "GFX_icon_viceroyalty_relation"
+		texturefile = "gfx/interface/icon_viceroyalty_relation.dds"
+	}
+    spriteType = {
+		name = "GFX_icon_viceroyalty_overlord"
+		texturefile = "gfx/interface/icon_viceroyalty_overlord.dds"
+	}
+    spriteType = {
+		name = "GFX_icon_viceroyalty_subject"
+		texturefile = "gfx/interface/icon_viceroyalty_subject.dds"
+	}
+}

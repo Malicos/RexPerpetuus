@@ -1,3 +1,4 @@
+
 # 86 - Munster
 #Region - Germany
 #Area - Westphalia
@@ -5,13 +6,13 @@
 owner = MUN
 controller = MUN
 add_core = MUN
-culture = hannoverian
+culture = lower_saxon
 religion = catholic
 trade_goods = cloth
 capital = "Münster"
-base_tax = 12
-base_production = 12
-base_manpower = 6
+base_tax = 6
+base_production = 6
+base_manpower = 4
 is_city = yes
 hre = yes
 

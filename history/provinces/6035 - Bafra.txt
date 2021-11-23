@@ -1,0 +1,43 @@
+#6035 - Bafra
+#Area - 
+#Region - Anatolia
+
+#Core Details
+capital = "Bafra"
+is_city = yes
+owner = PON
+controller = PON
+
+#Demographics
+culture = pontic_greek
+religion = orthodox
+
+#Development and Trade
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = bt_trade_good_fruit	#(JP) Watermelons
+
+#Cores and Occupation (Alphabetical after current)
+add_core = PON
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+add_permanent_province_modifier = {
+	name = kizilirmak_estuary_modifier
+	duration = -1
+}
+
+#Discoveries
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = nomad_group
+
+#Histories

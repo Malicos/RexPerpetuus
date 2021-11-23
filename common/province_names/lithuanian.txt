@@ -1,0 +1,291 @@
+#Contributions from a wide range, including HR, Draiocht, JP and Dub
+#(JP) Lithuanian naming, unique so no baltic.txt to overwrite
+
+#Baltic
+35 = { "Ozel" "Kuressaare" } #(JP) Capital name is Estonian
+36 = { "Talinas" "Talinas" }
+37 = { "Krizbarkas" "Krizbarkas" } #(JP) Attemped from Polish
+38 = { "Ryga" "Ryga" }
+39 = { "Kuldinga" "Kuldinga" }
+40 = { "Klaipeda" "Klaipeda" }
+41 = { "Karaliaucius" "Karaliaucius" }
+42 = { "Varme" "Lidzbarkas" }
+43 = { "Gdanskas" "Gdanskas" }
+271 = { "Raseiniai" "Raseiniai" }
+273 = { "Daugpilis" "Daugpilis" }
+767 = { "Lukas" "Lukas" }
+1834 = { "Dorpat" "Dorpat" } #(JP) Leaving it as German-Polish name
+1841 = { "Marienburgas" "Marienburgas" } #(JP) Or more modern Malbarkas
+1842 = { "Narwas" "Narwas" }
+1859 = { "Kulmo" "Kulmas" }
+1935 = { "Mintauja" "Mintauja" }
+1936 = { "Kaunas" "Kaunas" }
+2958 = { "Ostruda" "Ostruda" }
+2997 = { "Tuchula" "Tuchula" } 
+3224 = { "Stalupenai" "Stalupenai" }
+3226 = { "Palanga" "Palanga" } 
+3227 = { "Piltene" "Piltene" }
+3229 = { "Vilendi" "Vilendi" }
+3230 = { "Senaspiarnu" "Senaspiarnu" } #(JP) After c.1600 "Senaspiarnu"
+3231 = { "Hyjuma" "Kerdla" } 
+3293 = { "Sela" "Selpilis" }
+4241 = { "Limbažiai" "Limbažiai" }
+4534 = { "Upyte" "Upyte" }
+4535 = { "Utena" "Utena" }
+5097 = { "Starogardas" "Starogardas" }
+7210 = { "Medininkai" "Medininkai" }
+7212 = { "Jurbarkas" "Jurbarkas" }
+7213 = { "Rokiškis" "Rokiškis" }
+7216 = { "Breslauja" "Breslauja" }
+7825 = { "Lemborkas" "Lemborkas" }
+7826 = { "Bytuvas" "Bytuvas" }
+7828 = { "Puckas" "Puckas" }
+7829 = { "Kvidzynas" "Kvidzynas" }
+7830 = { "Liubava" "Liubava" }
+7831 = { "Šcytnas" "Šcytnas" }
+7832 = { "Rynas" "Rynas" }
+7833 = { "Semba" "Skanavikas" }
+7834 = { "Romuva" "Romuva" }
+7835 = { "Ungura" "Ungura" }
+7836 = { "Sparge" "Sparge" } #(JP) Nadruvian castle-town, better than two Jurbarkas'
+7837 = { "Ragaine" "Ragaine" }
+7838 = { "Gruobinia" "Gruobinia" }
+7839 = { "Vanta" "Vanta" }
+7840 = { "Kandava" "Kandava" }
+7841 = { "Bauske" "Bauske" }
+7843 = { "Kesys" "Kesys" }
+7844 = { "Kuoknese" "Kuoknese" }
+7845 = { "Rauna" "Rauna" }
+7846 = { "Rezne" "Rezne" }
+7847 = { "Viliaka" "Viliaka" }
+7848 = { "Marienburgas" "Marienburgas" }
+7849 = { "Valmiera" "Valmiera" } #(JP) Latvian name
+7850 = { "Naujaspiarnu" "Naujaspiarnu" } #(JP) After c.1600 "Naujaspiarnu"
+7851 = { "Nauhause" "Nauhause" }
+7852 = { "Peltsama" "Peltsama" }
+7853 = { "Rakvere" "Rakvere" } 
+7854 = { "Ožpute" "Ožpute" }
+7855 = { "Paide" "Paide" } #(JP) Estonian name
+7856 = { "Rapla" "Rapla" } #(JP) Estonian name
+7857 = { "Hapsalu" "Hapsalu" }
+7859 = { "Telšiai" "Telšiai" }
+7860 = { "Šiauliai" "Šiauliai" }
+7861 = { "Vilkmerge" "Vilkmerge" }
+7862 = { "Barštynas" "Barštynas" }
+
+#Russia
+
+#Ruthenia
+
+#Poland
+
+#Carpathia
+135 = { "Šopronas" "Šopronas" }
+153 = { "Peštas" "Peštas" }
+#154 Hont/Sahy
+155 = { "Bekešas" "Diula" }
+156 = { "Timišoara" "Timišoara" }
+157 = { "Oradia" "Oradia" }
+158 = { "Tirgu Murešas" "Tirgu Murešas" }
+160 = { "Krajova" "Krajova" }
+161 = { "Tirgovište" "Tirgovište" }
+268 = { "Botošanis" "Botošanis" }
+1318 = { "Spišas" "Levocas" }
+1756 = { "Kilija" "Kilija" }
+#1772 Bratislava
+1864 = { "Kapošvaras" "Kapošvaras" }
+1951 = { "Huniad" "Huniadupilis" }
+1952 = { "Chustas" "Chustas" }
+#1953 Szabolcs
+1954 = { "Pancevas" "Pancevas" }
+2405 = { "Orhejus" "Orhejus" }
+2998 = { "Buzeu" "Buzeu" }
+3051 = { "Aizenštatas" "Aizenštatas" }
+3146 = { "Užhorodas" "Užhorodas" }
+3148 = { "Solnokas" "Solnokas" }
+3151 = { "Zalaegersegas" "Zalaegersegas" }
+3152 = { "Satmaras" "Satmaras" }
+3154 = { "Belgradas" "Belgradas" }
+3156 = { "Sucavas" "Sucavas" }
+3157 = { "Bakeu" "Bakeu" }
+3159 = { "Belcis" "Belcis" } #(JP) or "Belcai"
+3160 = { "Bukareštas" "Bukareštas"}
+4125 = { "Egeris" "Egeris" }
+#4126 Kiskunság/Kiskunhalas
+4127 = { "Bistricas" "Bistricas" }
+4128 = { "Brašovas" "Brašovas" }
+#4173 Sombor
+4236 = { "Trencynas" "Trencynas" }
+4240 = { "Sekešfehervaras" "Sekešfehervaras" }
+4529 = { "Jasai" "Jasai" }
+4530 = { "Galacis" "Galacis" }
+4531 = { "Džurdžu" "Džurdžu" }
+4532 = { "Severinas" "Severinas" }
+7274 = { "Cernivciai" "Cernivciai" }
+7275 = { "Chotynas" "Chotynas" }
+7276 = { "Fokšanis" "Fokšanis" }
+7277 = { "Benderai" "Benderai" }
+7278 = { "Bilhorodas" "Bilhorodas" } #(JP) Happy for an alternative with Belgorod only coming into use in 1944
+7740 = { "Backa" "Bacas" }
+7741 = { "Becejus" "Becejus" }
+7743 = { "Rešica" "Rešica" }
+#7744 Lugoj
+7746 = { "Karansebešas" "Karansebešas" }
+7748 = { "Kalafatas" "Kalafatas" }
+7749 = { "Tirgu Žiu" "Tirgu Žiu" }
+7750 = { "Rimniku" "Rimniku Vilca" }
+7751 = { "Kimpulungas" "Kimpulungas" }
+7752 = { "Ardžešas" "Kurtia Ardžešas" }
+#7753 Slatina
+#7754 Turnu
+#7755 Ploiesti
+7756 = { "Kelerašis" "Kelerašis" }
+#7757 Orasul de Floci
+7758 = { "Breiljas" "Breiljas" }
+8172 = { "Sombathejus" "Sombathejus" }
+#8171 Gussing
+#8174 Nitra
+#8175 Komárno
+#8178 Arva
+8180 = { "Piatra Niamcas" "Piatra Niamcas" } #(JP) "Piatra", idk...
+#8182 Zvolen
+8183 = { "Vacas" "Vacas" }
+8184 = { "Buda" "Buda" }
+8185 = { "Deras" "Deras" }
+8186 = { "Vespremas" "Vespremas" }
+#8190 Baranya/Pecs
+#8191 Tolna/Szekszárd
+#8192 Solt
+#8193 Jászság/Jászberény
+8194 = { "Miškolcas" "Miškolcas" }
+#8195 Gemer
+8196 = { "Košice" "Košice" } #(JP) eh...?
+8197 = { "Prešovas" "Prešovas" }
+8198 = { "Beregas" "Mukaceve" }
+#8200 Nagykunsag/Karcag
+8201 = { "Segedas" "Segedas"}
+8203 = { "Aradas" "Aradas" }
+8204 = { "Sighetas" "Sighetas" }
+8205 = { "Dežas" "Dežas" }
+8206 = { "Šimleu Silvaniejus" "Šimleu Silvaniejus" }
+8207 = { "Klužas" "Klužas" }
+8208 = { "Sibiu" "Sibiu" } #(JP) Base names
+8209 = { "Turdas" "Turdas" }
+8210 = { "Fegerašas" "Fegerašas" }
+8211 = { "Šventasis Jurgis" "Šventasis Jurgis" }
+#8212 Sumuleu Ciuc
+8213 = { "Šegešvaras" "Šegešvaras" }
+8215 = { "Reginas" "Reginas" }
+8218 = { "Debrecenas" "Debrecenas" }
+8219 = { "Vaslujus" "Vaslujus" }
+8220 = { "Kišiniovas" "Kišiniovas" }
+#8493 Zarand
+#8494 Prekmurje/Murska Sobota
+8495 = { "Nadkaniža" "Nadkaniža" }
+
+#Pontic Steppe
+
+#Ruthenia
+261 = "Halicas"
+269 = "Palenké"
+272 = "Vilnius"
+275 = "Polockas"
+276 = "Minskas"
+277 = "Brasta"
+278 = "Pinskas"
+279 = "Voluine"
+280 = "Kijevas"
+289 = "Cernigovas"
+297 = "Brianskas"
+298 = "Kurskas"
+771 = "Vitebskas"
+1937 = "Gardinas"
+1940 = "Belza"
+1941 = "Turovas"
+1942 = "Zytomyras"
+1943 = "Braclavas"
+1944 = "Cerkasai"
+2424 = "Psemislis"
+2407 = "Perejaslavas"
+2961 = "Lvova"
+2962 = "Rivne"
+3223 = "Balstoge"
+3238 = "Luckas"
+3239 = "Iziaslavas"
+3246 = "Romnai"
+3267 = "Belgorodas"
+3270 = "Starodubas"
+4115 = "Gomelis"
+4242 = "Barysavas"
+4244 = "Trubceskas"
+4246 = "Mstislavlis"
+4247 = "Korostenis"
+4536 = "Lyda"
+4537 = "Naugardukas"
+4538 = "Helma"
+4540 = "Vinycia"
+4545 = "Sluckas"
+5660 = "Sebezas"
+5670 = "Sevskas"
+
+#Poland
+254 = "Posane"
+255 = "Kalisas"
+256 = "Plockas"
+257 = "Varsava"
+258 = "Seradzas"
+259 = "Sandomezas"
+260 = "Liublinas"
+262 = "Krokuva"
+264 = "Vroclavas"
+1938 = "Vizna"
+1939 = "Lencica" 
+2959 = "Tarnovas"
+2960 = "Naujasis Soncas"
+3220 = "Censtakava"
+3221 = "Radomas"
+4526 = "Gnieznas"
+
+#Pontic Steppe
+286 = "Azova"
+287 = "Jekaterinodaras"
+291 = "Charkovas"
+2413 = "Novocerkaskas" 
+3243 = "Mykytyno Rihas"
+3247 = "Iziumas"
+3291 = "Oskolas"
+3302 = "Bachmutas"
+7196 = "Kodakas"
+
+#Russia
+274 = "Pleskava"
+293 = "Smolenskas"
+294 = "Tvere"
+295 = "Maskava"
+301 = "Riazanes" #(JP) or "Riazane"
+306 = "Zemutinis Naugardas"
+307 = "Vladimira"
+308 = "Jaroslavlis"
+310 = "Naugardas"
+311 = "Cholmas"
+1752 = "Rzevas"
+1959 = "Torzokas"
+1960 = "Ostrovas" 
+3268 = "Jelecas"
+3271 = "Belas"
+3273 = "Staraja Rusa"
+3301 = "Dorogobuzas"
+4116 = "Odojevas"
+4117 = "Uglica"
+4147 = "Rostovas"
+4243 = "Toropiecas"
+4245 = "Viazma"
+4251 = "Mozaiskas"
+5661 = "Velizas"
+5662 = "Massalskas"
+5663 = "Kazielskas"
+5664 = "Karacevas"
+5666 = "Mtsenskas"
+5667 = "Novosilis"
+5680 = "Beliovas"
+5681 = "Vorotinskas"

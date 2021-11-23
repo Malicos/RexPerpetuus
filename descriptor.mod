@@ -1,7 +1,8 @@
-version="13.0.8"
+version="0.1"
 tags={
 	"Alternative History"
 	"Balance"
+	"Map"
 	"Events"
 	"Expansion"
 	"Gameplay"
@@ -12,8 +13,8 @@ tags={
 	"Technologies"
 	"Trade"
 }
-name="Legacy of Manzikert - Development"
+name="Rex Perpetuus: Heirs of the Last Viking - Development"
 replace_path="common/bookmarks"
 replace_path="history/diplomacy/"
 replace_path="history/wars/"
-supported_version="1.30.6"
+supported_version="1.32.*"

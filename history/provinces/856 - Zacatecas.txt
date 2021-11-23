@@ -1,3 +1,4 @@
+
 #856 - Zacatecas
 
 culture = chichimecan 
@@ -25,6 +26,6 @@ discovered_by = mesoamerican
 	add_core = SPA
 	culture = castillian
 	religion = catholic
-	trade_goods = rp_trade_good_silver
+	trade_goods = gold
 } # First discoveries of silver 
 1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence

@@ -1,0 +1,19 @@
+ 
+# ex BT 608
+
+owner = KHM
+controller = KHM
+add_core = KHM
+add_core = CHK
+culture = lao
+religion = buddhism # BT; animism
+capital = "Champasak"
+is_city = yes
+hre = no
+base_tax = 4
+base_production = 4 # BT; 3
+base_manpower = 3
+trade_goods = tea
+
+discovered_by = chinese
+discovered_by = indian

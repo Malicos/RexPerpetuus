@@ -1,3 +1,4 @@
+ 
 #1763 - Niederlausitz
 
 latent_trade_goods = {
@@ -7,7 +8,7 @@ latent_trade_goods = {
 owner = SOR
 controller = SOR
 add_core = SOR
-capital = "Chociebuz"
+capital = "Cottbus"
 culture = sorbian
 religion = catholic
 trade_goods = wool
@@ -16,6 +17,7 @@ base_tax = 3
 base_production = 3 
 base_manpower = 2 
 is_city = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

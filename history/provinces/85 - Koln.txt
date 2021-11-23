@@ -1,17 +1,18 @@
 
+
 #Region - Germany
 #Area - North Rhine
 
 owner = LOT
 controller = LOT
 add_core = LOT
-culture = luxembourgish_culture
+culture = hessian
 religion = catholic
 trade_goods = grain
 capital = "Köln"
-base_tax = 16
-base_production = 16
-base_manpower = 10
+base_tax = 12
+base_production = 10
+base_manpower = 8
 is_city = yes
 fort_15th = yes #Godesberg
 hre = yes
@@ -20,7 +21,6 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
 
 extra_cost = 10
 

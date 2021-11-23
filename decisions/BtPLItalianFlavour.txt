@@ -15,12 +15,12 @@ country_decisions = {
 		potential = {
 			culture_group = latin
 			government = republic
-			has_country_modifier = bt_maritime_republic_bonus
+			#has_country_modifier = bt_maritime_republic_bonus
 			NOT = { has_country_modifier = bt_investing_in_mediterranean_trading_enclaves }
 		}
 		
 		allow = {
-			has_country_modifier = bt_maritime_republic_bonus
+			#has_country_modifier = bt_maritime_republic_bonus
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
@@ -51,7 +51,7 @@ country_decisions = {
 							1295 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Valencia
 							341 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Tunis
 						}
-						home_trade_node = { province_id = 1298 }
+						home_trade_node = { province_id = 1298 } # XXX
 					}
 					1295 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Valencia
 				}
@@ -132,11 +132,11 @@ country_decisions = {
 					121 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Naples
 				}
 				if = {
-					limit = { home_trade_node = { province_id = 1308 } }
+					limit = { home_trade_node = { province_id = 1308 } } # XXX
 					1308 = { add_trade_modifier = { who = ROOT duration = 7300 power = 30 key = BT_TRADING_ENCLAVES_CAPITAL_KEY } }			#Venice
 				}
 				if = {
-					limit = { home_trade_node = { province_id = 1298 } }
+					limit = { home_trade_node = { province_id = 1298 } } # XXX
 					1298 = { add_trade_modifier = { who = ROOT duration = 7300 power = 30 key = BT_TRADING_ENCLAVES_CAPITAL_KEY } }			#Genoa
 				}
 			}

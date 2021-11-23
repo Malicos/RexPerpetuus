@@ -1,12 +1,12 @@
+ 
 # No previous file for Yopitzinco
 
-owner = MIX
-controller = MIX
-add_core = MIX
-add_core = TLA
 culture = tlapanec
-religion = nahuatl
+owner = TLA
+controller = TLA
+add_core = TLA
 is_city = yes
+religion = nahuatl
 capital = "Yopi"
 trade_goods = fish
 hre = no
@@ -17,4 +17,18 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 2
 
+
+
 discovered_by = mesoamerican
+
+
+1522.1.1 = {
+	discovered_by = SPA
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	religion = catholic
+	culture = castillian
+} # Alvarado conquers the Tlapanec
+1810.9.16 = { owner = MEX add_core = MEX controller = MEX } # Mexican War of Independence
+

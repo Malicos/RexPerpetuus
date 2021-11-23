@@ -1,0 +1,821 @@
+#Contributions from a wide range, including Draiocht, JP, Hawk V, Arga
+#(JP) Russian, will be overwritten by local files, ruthenian.txt and belorussian
+#(JP) I have reorganised and cleaned up all the prior East Slavic naming to try and make it more legible, consistant and keep it easier to edit in future
+
+#Carpathia
+135 = { "Shopron" "Shopron" }
+153 = { "Pest" "Pest" }
+#154 Hont/Sahy
+#155 Bekes/Gyula
+#156 Timisoara
+157 = { "Oradia" "Oradia" }
+158 = { "Maroš Vazargeli" "Maroš Vazargeli" }
+160 = { "Kraiova" "Kraiova" }
+161 = { "Targovishte" "Targovishte" }
+162 = { "Zemplen" "Zemplen" }
+268 = { "Botoshany" "Botoshany" }
+#1318 Spis/Levoca
+1756 = { "Kiliya" "Kiliya" }
+#1772 Bratislava
+#1864 Kaposvár
+1951 = { "Khuneodara" "Khuneodara" } #(JP) ehhh?
+1952 = { "Khust" "Khust" }
+1953 = { "Sabol'ch" "Sabol'ch" }
+1954 = { "Panchev" "Panchev" }
+2405 = { "Orgeev" "Orgeev" }
+2998 = { "Buzev" "Buzev" }
+#3051 Eisenstadt
+3146 = { "Uzhgorod" "Uzhgorod" }
+#3148 Szolnok
+#3151 Zala/Zalaegerszeg
+3152 = { "Satmar" "Satmar" }
+3154 = { "Belgorod" "Belgorod" }
+3156 = { "Sucava" "Sucava" }
+3157 = { "Bakova" "Bakova" }
+3159 = { "Beltsy" "Beltsy" }
+3160 = { "Ilfov" "Bukharest" }
+#4125 Heves/Eger
+#4126 Kiskunság/Kiskunhalas
+4127 = { "Bistriza" "Bistriza" }
+4128 = { "Brasov" "Brasov" } #(JP) Seems pretty Russian as it is
+4173 = { "Zombor" "Zombor" }
+#4236 Trencsén
+4240 = { "Feyer" "Stolichny Belgorod" }
+4529 = { "Jassy" "Jassy" }
+4530 = { "Galac" "Galac" }
+4531 = { "Zhurzhevo" "Zhurzhevo" }
+#4532 Severin
+7274 = { "Chernovitsy" "Chernovitsy" }
+7275 = { "Khotin" "Khotin" }
+7276 = { "Fokshany" "Fokshany" }
+7277 = { "Bendery" "Bendery" }
+7278 = { "Akkerman" "Akkerman" } #(JP) OR "Belgorod", though it seems that name was only given since 1944
+7740 = { "Backa" "Bach" }
+7741 = { "Bechev" "Bechev" }
+#7743 Resita
+#7744 Lugoj
+#7746 Caransebes
+#7748 Calafat
+#7749 Târgu Jiu
+#7750 Râmnicu Vâlcea
+7751 = { "Kampulung" "Kampulung" }
+#7752 Curtea de Arges
+#7753 Slatina
+#7754 Turnu
+#7755 Ploiesti
+#7756 Lichiresti, later Calarasi
+#7757 Orasul de Floci
+7758 = { "Brailov" "Brailov" }
+#8171 Gussing
+#8172 Vas/Vasvár
+#8174 Nitra
+#8175 Komárno
+#8178 Arva
+8180 = { "Piatrov" "Piatrov" } #(JP) "Piatra", idk...
+#8182 Zvolen
+#8183 Vác
+8184 = { "Buda" "Buda" }
+8185 = { "Dyor" "Dyor" }
+#8190 Baranya/Pecs
+#8191 Tolna/Szekszárd
+#8192 Solt
+#8193 Jászság/Jászberény
+#8194 Miskolc
+#8195 Gemer
+8196 = { "Kosice" "Kosice" }
+8197 = { "Sharosh" "Pryashev" }
+8198 = { "Beregovo" "Mukachevo" }
+#8200 Nagykunsag/Karcag
+8201 = { "Segedin" "Segedin" }
+#8203 Arad
+8204 = { "Syhit" "Syhit" }
+8205 = { "Deja" "Deja" }
+#8206 Szilagy/Simleu Silvaniei
+8207 = { "Kolozhvar" "Kolozhvar" }
+8208 = { "Sibiu" "Sibiu" } #(JP) Base names
+8209 = { "Turda" "Turda" } #(JP) Base names?
+8210 = { "Fagarash" "Fagarash" } #(JP) ehhhh?
+8211 = { "Svyatoy Georgiy" "Svyatoy Georgiy" } #(JP) town is "Saint George"
+#8212 Sumuleu Ciuc
+8213 = { "Shegeshvar" "Shegeshvar" } #(JP) ehhhh?
+8215 = { "Regin" "Regin" }
+#8218 Debrecen
+8219 = { "Vaslui" "Vaslui" } #(JP) Base names
+8220 = { "Kishinev" "Kishinev" }
+#8493 Zarand
+#8494 Prekmurje/Murska Sobota
+#8495 Kanizsa
+
+#Baltic
+35 = { "Ezel" "Arensburg" } #(JP) kept capital as German name, as that is likelies for Russia.
+36 = { "Rewel" "Rewel" }
+37 = { "Kreutzburg" "Kreutzburg" } #(JP) German, better than owt else
+38 = { "Ryga" "Ryga" }
+39 = { "Goldingen" "Goldingen" } #(JP) German for the Russians
+40 = { "Klaipeda" "Klaipeda" }
+41 = { "Korolevets" "Korolevets" }
+42 = { "Ermland" "Heilsberg" } #(JP) Deutsch fur das Russisch
+43 = { "Gdan'sk" "Gdan'sk" }
+271 = { "Rossiena" "Rossiena" }
+273 = { "Dvinsk" "Dvinsk" }
+767 = { "Lyck" "Lyck" } #(JP) Es ist Polnisch name. This or just "Elk"
+1834 = { "Yur'yev" "Yur'yev" } #(JP) or Derpt
+1841 = { "Malbork" "Malbork" } #(JP) Polish name
+1842 = { "Narva" "Narva" }
+1859 = { "Chelmno" "Chelmno" } #(JP) Polish name
+1935 = { "Jelgava" "Jelgava" }
+1936 = { "Kovno" "Kovno" }
+2958 = { "Ostroda" "Ostroda" }
+2997 = { "Tuchola" "Tuchola" } #(JP) Polish name
+3324 = { "Shtallupyonen" "Shtallupyonen"}
+3226 = { "Palanga" "Palanga" } #(JP) Lithuanian name
+3227 = { "Piltene" "Piltene" } #(JP) Latvian name
+3229 = { "Velyn" "Velyn" }
+3230 = { "Stary Pernov" "Stary Pernov" } #(JP) After c.1600 "Stary Pernov"
+3231 = { "Khiuma" "Kardla" } 
+3293 = { "Selia" "Selpils" } 
+4241 = { "Lemzal" "Lemzal" }
+4534 = { "Upiyte" "Upiyte" }
+4535 = { "Utsiany" "Utsiany" }
+5097 = { "Starogarda" "Starogarda" }
+7210 = { "Myednyky" "Myednyky" }
+7212 = { "Yurburg" "Yurburg" }
+7213 = { "Rakysky" "Rakysky" }
+7216 = { "Braslav" "Braslav" }
+7825 = { "Lambork" "Lambork" }
+7826 = { "Byutov" "Byutov" }
+7827 = { "Chluchov" "Chluchov" }
+7828 = { "Pyck" "Pyck" }
+7829 = { "Kvedin" "Kvedin" }
+7830 = { "Lubava" "Lubava" }
+7831 = { "Shchitno" "Shchitno" }
+7832 = { "Ryn" "Ryn" }
+7833 = { "Sambiysk" "Primorsk" }
+7834 = { "Guryevsk" "Guryevsk" } #(JP) I known "Guryevsk" is Soviet, gimme something better
+7835 = { "Wegorzewo" "Wegorzewo" } #(JP) Polish name
+7836 = { "Georgygorod" "Georgygorod" } #(JP) I known "Mayovka" is Soviet, Georgygorod is a transliteration
+7837 = { "Neman" "Neman" }
+7838 = { "Grobina" "Grobina" }
+7839 = { "Vindava" "Vindava" }
+7840 = { "Kandava" "Kandava" }
+7841 = { "Bauska" "Bauska" }
+7843 = { "Kes" "Kes" }
+7844 = { "Kukeinos" "Kukeinos" }
+7845 = { "Rauna" "Rauna" }
+7846 = { "Rezhitsa" "Rezhitsa" }
+7847 = { "Vilyaka" "Vilyaka" }
+7848 = { "Volyst" "Volyst" }
+7849 = { "Volodimirec" "Volodimirec" }
+7850 = { "Novy Pernov" "Novy Pernov" } #(JP) After c.1600 "Novy Pernov"
+7851 = { "Novgorodok" "Novgorodok" }
+7852 = { "Polchev" "Polchev" }
+7853 = { "Rakvere" "Rakvere" } 
+7854 = { "Gazenpot" "Gazenpot" }
+7855 = { "Vittenshteyn" "Vittenshteyn" }
+7856 = { "Rappel" "Rappel" }
+7857 = { "Gapsal" "Gapsal" }
+7859 = { "Telshi" "Telshi" }
+7860 = { "Shavli" "Shavli" }
+7861 = { "Vilkomir" "Vilkomir" }
+7862 = { "Bartenstein" "Bartenstein" } #(JP) German name
+
+19 = "Nikolaistadt"
+27 = "Abo"
+28 = "Helsingfors"
+29 = "Tammerfors"
+30 = "Vyborg"
+31 = "Sankt Michel"
+32 = "Korela"	#BTCHANGE was Priozersk
+151 = "Tsargrad"
+272 = "Vilno"
+#282 = "Ochakov"			#Moved to individual culture entries
+284 = "Taurida" #BTP
+285 = "Feodosia"
+287 = "Ekaterinodar"
+288 = "Tsimlyansk" #BTP
+315 = "Pechenga"
+419 = "Erivan"
+421 = "Baku"
+422 = "Kutais"
+423 = "Tiflis"
+425 = "Derbent"
+459 = "Pishpek"
+461 = "Vernyi"
+463 = "Maikop"
+465 = "Nizhny-Embinsk"
+466 = "Tsarev" #BTP
+469 = "Guriev"
+470 = "Kalmykov"
+471 = "Aralsk"
+472 = "Aktubinsk"
+478 = "Semipalatinsk"
+479 = "Atbasarsk"
+480 = "Novosibirsk"
+716 = "Belotsarsk"
+726 = "Port-Artur"
+727 = "Cicikar"
+728 = "Harbin"
+#976 = "Novoarchangelsk"					#BT
+1037 = "Oimakon"
+1047 = "Ayan"
+1049 = "Habarovsk"
+1050 = "Nikolayev-on-Amur"
+1053 = "Blagoveshensk"
+1071 = "Omsk"
+1074 = "Tobolsk"
+1078 = "Ekaterinburg"
+1080 = "Serov"
+1055 = "Verhneangarsk"
+1057 = "Verhneudinsk"
+1962 = "Izhevsk"
+1966 = "Chelabinsk"
+1972 = "Glazov"
+1963 = "Troitsko-Pechersk"
+1970 = "Perovsk"
+1971 = "Tsaritsyn"
+1974 = "Cherson"
+2106 = "Vladivostok"
+2125 = "Przhevalsk"
+2126 = "Naryn"
+2195 = "Novorissiysk"
+2196 = "Batum"
+2197 = "Nalchik"
+2198 = "Grozny"
+2199 = "Petrovsk"
+2201 = "Vladikavkaz"
+2203 = "Elisavetpol"
+2349 = "Krasnovodsk"
+2350 = "Ashabad"
+2351 = "Irghiz"
+2352 = "Kazalinsk"
+2353 = "Turgay"
+2354 = "Akmolinsk"
+2355 = "Sergiopol"
+2356 = "Chimkent"
+2357 = "Kokchetav"
+2359 = "Kiyinsk"
+2360 = "Karkaralinsk"
+2361 = "Golodnaya steppe"
+2364 = "Fergana"
+2365 = "Aleksandrov-gay"
+2366 = "Ilets"
+2367 = "Glinanskaya"
+2369 = "Kustanay"
+2370 = "Kungrad"
+#2406 = "Nikolaev"			#Moved to individual culture entries
+2409 = "Kamensk" #BTP
+2410 = "Sevastopol"
+2412 = "Mariupol"
+2413 = "Novocherkassk"
+2414 = "Yeisk" #BTP
+2415 = "Atkarsk"
+2416 = "Stavropol"
+2417 = "Elista"
+2418 = "Pokrovsk"
+2419 = "Syzran"
+2420 = "Orenburg"
+2421 = "Berezhnye"
+2422 = "Cheboksary"
+2427 = "Beloyarskiy"
+2429 = "Variegansk"
+2430 = "Troitskiy"
+2431 = "Uchaminskiy"
+2432 = "Yeniseysk"
+2433 = "Kemerovo"
+2435 = "Olyokminsk"
+2436 = "Vanavara"
+2437 = "Vilyisk"
+2438 = "Zhigansk"
+2442 = "Kirensk"
+2443 = "Krasnoyarsk"
+2444 = "Zlatoust"
+2446 = "Chita"
+2447 = "Taman"
+
+#BTP
+#3242 = "Aleksandria"			#Formerly Novaja Serbija, changed for obvious reasons, though note new options is not ideal either. Hard province to name. Moved to individual entries
+3244 = "Levkopol"
+3263 = "Pyatigorsk"
+3265 = "Kamyshin"
+
+#BTEurope
+#2961 = "Lvov"			#Moved to individual culture entries
+#2962 = "Rovno"			#Moved to individual culture entries
+
+#Suggested by ComposMentis
+4538 = "Kholm"
+
+
+
+#Arga's Work
+
+#2017 Jun 3
+
+#central europe
+1869 = "Tsyurikh"
+
+
+
+#2018 Apr 15
+
+#atlantic
+1979 = "Ovechi Ostrova"
+
+
+
+#2018 Apr 29
+
+#alaska
+4925 = "Golovin" #irl, or "Zhinik" as closer oriented to native name for earlier colonization
+5722 = "Nikolai"
+5724 = "Tyonek"
+
+
+
+#BT200 Overhaul Vanilla renaming
+865 = "Cochimi" # Cochimi										#Generic name
+866 = "Guaycura" # Guaycura									#Generic name
+867 = "Íviluqaletem" # Íviluqaletem							#Generic name
+868 = "Chumash" # Chumash									#Generic name
+869 = "Salinan" # Salinan											#Generic name
+870 = "Yatchicumne" # Yatchicumne							#Generic name
+871 = "Krepost Ross" # Pomo									#Slavic name
+872 = "Willamette" # Kalapuya									#Generic name
+873 = "Columbia" # Multnomah								#Generic name
+874 = "Duwamish" # DkhwDuwAbsh						#Generic name
+972 = "Nootka" # Mowichat										#Generic name
+973 = "Squamish" # Skwxwuhmesh							#Generic name
+974 = "Bella Bella" # Kwakiutl									#Christian name
+975 = "Bella Coola	" # Nuxalk									#Christian name
+976 = "Koloshi" # Lingit											#Slavic name
+977 = "Slavorossiya" # Yaakwdaat							#Slavic name
+978 = "Alyeska" # Tanaina										#Slavic name
+980 = "Bonavista" # Fogo											#Christian name used by Anglophone
+981 = "Stefangorod" # Taqamkuk								#Slavic name BeyondTypusInvention
+996 = "Beliy Pesok" # Pakua Shipu							#Slavic name BeyondTypusInvention
+997 = "Krasnaya Buxta" # NunatuKavut					#Slavic name BeyondTypusInvention
+998 = "Balshoy Kit" # Innuksuak								#Slavic name BeyondTypusInvention
+999 = "Cisasipi" # Cisasipi										#Generic name
+1000 = "Wapanutaw" # Wapanutaw							#Generic name
+1003 = "Keeshechewan" # Keeshechewan					#Generic name
+1004 = "Mosoni" # Mosoni										#Generic name
+1005 = "Muskegon" # Mushkegowuk						#Generic name
+1006 = "Missinipi" # Missinipi									#Generic name
+1008 = "Winnipeg" # Winipek									#Generic name
+1009 = "Wanipigow" # Wanipigow							#Generic name
+1010 = "Manitoba" # Manidoobaa							#Generic name
+4939 = "Krasniye Oleni" # Waskasoo Seepee			#Slavic name BeyondTypusInvention
+1806 = "Wasagamack" # Wasagamack						#Generic name
+1808 = "Humboldt" # Mahaguaduka							#Germanic name used by Anglophone problem would another name be better
+1810 = "Kolmakov" # Deg Hitan								#Slavic name
+1813 = "Pasquia" # Opaskwayak								#Generic name
+2003 = "Kananaskis" # Ktunaxa								#Generic name
+2004 = "Kainawa" # Kainawa									#Generic name
+2005 = "Wascana" # Oscana										#Generic name
+2016 = "Isangyathi" # Isangyathi								#Generic name
+2017 = "Fort Edmonton" # Nehiyawewin					#Anglophone name
+2018 = "Jasper" # Tsuu Tina										#Anglophone name problem better name needed
+2019 = "Prakalotiye Nossi" # Niimiipu						#Slavic name BeyondTypusInvention
+2020 = "Vadapadi Idah" # Bohoinee							#Slavic name BeyondTypusInvention
+2021 = "Santa Rosa" # Miwok								#Iberian name
+2022 = "Xaida" # Xaayda											#Slavic name BeyondTypusInvention
+2078 = "Nuwa" # Nuwa												#Generic name
+2476 = "San Diego" # Payomkawichum					#Iberian name
+2477 = "Fortuna" # Natinixwe									#Christian name
+2480 = "Shasta" # Waika											#Generic name
+2481 = "Coquille" # Umpqua										#Native or Francophone name used by Anglophone
+2482 = "Mount Hood" # Clackamas							#Anglophone name
+2483 = "Walla Walla" # Umatilla								#Native name
+2484 = "Kvileut" # Aqokulo										#Slavic name BeyondTypusInvention
+2485 = "Puyallup" # Spuyalupubsh							#Generic name
+2486 = "Snoqualmie" # Sdukalbixw							#Generic name
+2487 = "Spokane" # Sqeliz											#Generic name
+2488 = "Yakima" # Yakama										#Generic name
+2489 = "Bannock" # Bannock									#Generic name
+2490 = "Balshoye Salonaye Ozera" # Gutsipupiutsi #Slavic name
+2511 = "Ozera Byessa" # Mni Wakang						#Slavic name BeyondTypusInvention
+2573 = "Port Baski" # Qalipu									#Slavic name BeyondTypusInvention
+2574 = "Naina" # Sikumiut										#Cristian name
+2575 = "Buchta Gusya" # Mishtashipu					#Slavic name BeyondTypusInvention
+2592 = "Fort Severn" # Omaskekowak						#Anglophone name
+2593 = "Ozera Lesov" # Minitie								#Slavic name BeyondTypusInvention
+2594 = "Nelson" # Powinigow									#Anglophone name
+2595 = "Ostrav Kresti" # Sakittawak						#Slavic name BeyondTypusInvention
+2596 = "Qu'Appelle" # Hohe										#Francophone name by Anglophone
+2597 = "Saskatchewan" # Kisiskaciwani Sipiy			#Generic name
+2598 = "Tyopliye Veteri" # Moose Gaw					#Slavic name BeyondTypusInvention
+2599 = "Fort Chipewyan" # Kaithelikehotinne			#Anglophone name
+2600 = "Athabasca" # Athapaskaw							#Generic name
+2601 = "Kinovar" # Wapuskau									#Slavic name BeyondTypusInvention
+2602 = "Calgary" # Siksikawa									#Celtic Norse name used by Anglophone
+2603 = "Sekani" # Tsekene										#Generic name
+2604 = "Dakelh" # Dakelh											#Generic name
+2605 = "Shuswap" # Secwepemc								#Generic name
+2606 = "Fort Alexandria" # Tsilhqotin						#Anglophone name
+2607 = "Okanagan" # Syilx										#Generic name
+2609 = "Tsimshian" # Tsmsyan								#Generic name
+2610 = "Komoks" # Komoks										#Generic name
+2611 = "Kadyak" # Qikrtaq										#Slavic name
+2612 = "Eyak" # Eyak												#Generic name
+2613 = "Novoarkhangelsk" # Shee Atika					#Slavic name
+2620 = "Tijuana" # Kumeyaay									#Iberian name
+
+#BT200 New Provinces
+4920 = "Unalaska" # Aleut East								#Slavic name
+4921 = "Suvarov" # Naugeik										#Slavic name
+4922 = "Alexandrovski" # Curyuk								#Slavic name
+4923 = "Pokrovskaya" # Mamterilleq						#Slavic name
+4924 = "Sent-Maykl" # Unalaqliq								#Slavic name
+4925 = "Chinik" # Chinik											#Generic name
+4926 = "Sent-Georg" # Kena										#Slavic name
+4927 = "Sent-Konstantin" # Suacit							#Slavic name
+4928 = "Gelena" # Koyukuk										#Slavic name
+4929 = "Tanana" # Nuchalawoyyet							#Generic name
+4930 = "Allakaket" # Allakaket									#Generic name
+4931 = "Chena" # Chena											#Generic name
+4932 = "Denyeet" # Denyeet										#Generic name
+4933 = "Gwichin" # Gwichin										#Generic name
+4934 = "Hän" # Han Hwechin									#Generic name
+4935 = "Taatsaltey" # Taatsaltey								#Generic name
+4936 = "Mednovski	" # Ahtna								#Slavic name
+4937 = "Klondaik" # Trochek Hwechin						#Slavic name
+4938 = "Tutchone" # Dan											#Generic name
+4940 = "Nanaimo" # Snuneymuxw							#Generic name
+4941 = "Kitimat" # Xaislakala									#Generic name
+4942 = "Tillamook" # Nehalem									#Generic name
+4943 = "Nataotin" # Nataotin									#Generic name
+4944 = "Nechako" # Netsha Koh								#Generic name
+4945 = "Wasco" # Tlakluit											#Generic name
+4946 = "Towarnehiooks" # Towarnehiooks				#Generic name
+4947 = "Kootenay" # Aqkoktlaqatl							#Generic name
+4948 = "Kalispell" # Qlispel										#Generic name
+4949 = "Skagit" # Nlakapamux									#Generic name
+4950 = "Fresno" # Choinumni									#Iberian name
+4951 = "Sacremento" # Nisenan									#Iberian name
+4952 = "Panamint" # Wakopee									#Generic name
+4953 = "Washoe" # Waashiw										#Generic name
+4954 = "Ozera Gussya" # Newapkshi						#Slavic name BeyondTypusInvention
+4955 = "Dolina Smetri" # Tumpisa							#Slavic name BeyondTypusInvention
+4956 = "Takelam" # Takelam										#Generic name
+4957 = "Visokaya Pustinya" # Wadatika					#Slavic name BeyondTypusInvention
+4958 = "Klamath" # Iwauna										#Generic name
+4959 = "Arapahoe" # Niineniiniiciihehe						#Generic name
+4960 = "Missoula" # Nmesuletkw								#Generic name
+4961 = "Palouse" # Palus											#Generic name
+4962 = "Uintah" # Yapudttka									#Generic name
+4963 = "Colorado" # Pahdteeahnooch						#Generic name
+4965 = "Wasatch" # Toompahnahwach						#Generic name
+4966 = "Cohonino" # Havsuw Baaja							#Generic name
+4967 = "Utah" # Pahvant											#Generic name
+4968 = "Kotzebue" # Qikiqtagruk								#Generic name
+4969 = "Tikigaq" # Tikigaq										#Generic name
+4970 = "Ukpeagvik" # Ukpeagvik								#Generic name
+4971 = "Sagavanirktok" # Sagavanirktok					#Generic name
+4972 = "Tahltan" # Tahltan										#Generic name
+4976 = "Aklavik" # Tuktuyaaqtuuq							#Generic name
+4977 = "Teechik" # Teechik										#Generic name
+4978 = "Radeyilikoe" # Radeyilikoe							#Generic name
+4980 = "Sahtu" # Sahtu												#Generic name
+4981 = "Tagish" # Tagish											#Generic name
+4982 = "Omenica" # Omenica									#Generic name
+4983 = "Liidli Kue" # Liidli Kue								#Generic name
+4984 = "Danezaa" # Danezaa										#Generic name
+4985 = "Tlicho" # Tlicho											#Generic name
+4986 = "Providenia" # Kagee										#Slavic name BeyondTypusInvention
+4987 = "Muskwa" # Muskwa									#Generic name
+4988 = "Wetsuweten" # Wetsuweten						#Generic name
+4989 = "Resolyutsia" # Desnedhekkenade				#Slavic name BeyondTypusInvention
+4990 = "Tikirajualaaq" # Tikirajualaaq						#Generic name
+4991 = "Kudlulik" # Kudlulik									#Generic name
+4992 = "Qatiktalik" # Qatiktalik								#Generic name
+4993 = "Naujaat" # Naujaat										#Generic name
+4994 = "Igloolik" # Sanirajak										#Generic name
+4995 = "Tuniit" # Shugliaq											#Generic name
+4996 = "Sikusiilaq" # Sikusiilaq									#Generic name
+4997 = "Amadjuak" # Amadjuak								#Generic name
+4998 = "Iqaluit" # Iqaluit											#Generic name
+4999 = "Sanikiluaq" # Sanikiluaq								#Generic name
+5000 = "Methye" # Methye										#Generic name
+5001 = "Kamenistaya Stremnini" # Hoteladi Hotthenade					#Slavic name BeyondTypusInvention
+5002 = "Brochet" # Kinoosao									#Francophone name
+5003 = "Inninuwug" # Inninuwug								#Generic name
+5004 = "Otahwaka" # Otahwaka Powitek					#Generic name
+5005 = "Winisk" # Webequie										#Generic name
+5006 = "Buchta Obmana" # Salluit							#Slavic name BeyondTypusInvention
+5007 = "Chimo" # Kuujjuaq										#Generic name
+5008 = "Nemasko" # Nemiskaw								#Generic name
+5009 = "Chibougamau" # Ucepukumu						#Generic name
+5010 = "Peribonca" # Menukuanistuk Shipu				#Generic name
+5011 = "Manicouagan" # Mushaualakan					#Generic name
+5012 = "Mecatina" # Makatinau								#Generic name
+5013 = "Sent Ioann" # Beothuk									#Slavic name BeyondTypusInvention
+5014 = "Labrador" # Kawawachikamach					#Iberian name
+5015 = "Naskapi" # Nitassinan									#Generic name
+5016 = "Winnemucca" # Kuyuidika							#Generic name
+5017 = "Lessyo" # Natakkoa										#Slavic name BeyondTypusInvention
+5018 = "Los Angeles" # Tongva								#Iberian name
+5019 = "St. Pierre et Miquelon" # Saint Pierre et Miquelon			#Francophone name
+5020 = "Revilya Xixedo" # Revilla Gigedo Islands	#Slavic name
+5021 = "Oklend" # Motu Maha									#Slavic name
+5022 = "Chatem" # Rekohu										#Slavic name
+5023 = "Ostrava Feniks" # Rawaki							#Slavic name
+5024 = "Severniye Ostrava Kuka" # Tongareva		#Slavic name BeyondTypusInvention dec off need to fix too lazy atm
+5025 = "Markizskie Ostrava" # Te Henua Enana		#Slavic name
+5026 = "Gambie" # Mangareva									#Slavic name
+5027 = "Tristan da Cunha" # Tristan da Cunha			#Generic name
+5028 = "Bonin Islands" # Bonin Islands					#Generic name
+5029 = "Oahu" # Oahu												#Generic name
+5030 = "San Francisco" # Ohlone								#Iberian name
+5031 = "Wiyot" # Wiyot											#Generic name
+5032 = "San Joaquin" # Tachi									#Iberian name
+5033 = "Amiskiwiyiniw" # Amiskiwiyiniw				#Generic name
+5034 = "Saamis" # Saamis											#Generic name
+5035 = "Nahathaway" # Nahathaway						#Generic name
+5040 = "Kaska" # Kaska											#Generic name
+5041 = "Nahanni" # Nahanni										#Generic name
+5042 = "Mohave" # Aha Makhav								#Generic name
+5043 = "Mexicali" # Cocopah									#Iberian name used by Anglophone
+5044 = "Mono Lake" # Kucadikadi							#Anglophone name
+5045 = "Redding" # Wintu											#Anglophone name
+
+#Missing 300, do later
+
+#BT400  Overhaul Vanilla renaming
+855 = "Mazatlán"	# Huichol									#Generic name
+859 = "Sinaloa"	# Sinaloa											#Generic name
+862 = "Opateria"	# Yaqui										#Generic name
+875 = "Hopi"	# Canyon											#Generic name
+876 = "Phoenix"	# Yavapai										#Generic name
+877 = "Tucson"	# Pima												#Generic name
+878 = "Totah"	# Navajo											#Native name
+879 = "Apache"	# Apache										#Generic name
+880 = "Santa Fe"	# Pueblo										#Iberian name used by Anglophone
+881 = "Mescalero"	# Piro											#Generic name
+882 = "Roswell"	# Mescalero									#Sumner or Carlsbad might be better, but people love Roswell. May be considered a 'light' easter egg
+2491 = "Hualapai"	# Hualapai									#Generic name
+2492 = "Chiricahua"	# Chiricahua							#Generic name
+2493 = "Zuni"	# Hopi											#Generic name
+2494 = "Gila"	# Zuni													#Iberian name, I think, Mogollon also an option
+2495 = "Acoma"	# Acoma											#Generic name
+2496 = "Jicarilla"	# Jicarilla										#Generic name
+2608 = "Sawatch" # Rocky Mountains						#Generic name
+2616 = "Caborca" # Seri												#Generic name
+
+#BT400 New Provinces
+4964 = "Seri" # Comcaac											#Generic name
+4975 = "Moab" # Sahyehpeech									#Christian name
+4979 = "Navajo" # NavojoWest									#Generic name
+5061 = "Guaymas" # Guaymas									#Generic name
+4649 = "Navojoa" # Yoreme										#Generic name
+5063 = "Culiacán" # Colhuacan									#Generic name
+5064 = "Durango" # Hisatsinom								#Iberian name used by Anglophone
+5065 = "Pueblo" # Muache										#Iberian name used by Anglophone
+5066 = "Aspen" # Taveewachii									#Anglophone name, any better ideas... anyone
+
+#Arga Feb 2019
+
+#adjustment
+305 = "Yagoshikha" #changes 1781 to "Perm"
+726 = "Shenyang" #currently falsely "Port-Artur"
+1964 = "Syssolskoje" #changes 1780 into "Ust-Syssolsk" which is the name right now ingame
+1048 = "Nikolayevsky Post" #renamed into "Nikolayevsk-Na-Amure" in 1856, Nikolayev-on-Amur is english
+1050 = "Bogorodskoye" #Nikolayevsk-Na-Amure is on the other side of the river in the province 1048
+3281 = "Khlynov" #changes 1780 to "Vyatka"
+
+#crimea
+284 = "Perekop" #1700 (undefined) changes to "Armjansk" under russia
+7190 = "Jalta"
+7192 = "Simferopol"
+
+#Romania
+3163 = "Tulcha"
+#greece
+145 = "Lakoniya"
+146 = "Afíny"
+147 = "Fessaliya"
+148 = "Makedoniya"
+3177 = "Fivy"
+3179 = "Argolida"
+7104 = "Korinf"
+7118 = "Farsala"
+7121 = "Elason"
+7122 = "Imatiya"
+7163 = "Monemvasiya"
+
+#iraq
+410 = "Bagdád"
+
+#china
+703 = "Chende"
+1816 = "Pekin"
+2113 = "Dalni" #for province Lüda, or "Port Arthur" western name for port used by russia officially 1898 after acquiring lüshunkou
+2139 = "Tsyao-Zhou"
+
+#brazil
+746 = "Kayenna"
+747 = "Makapa"
+748 = "Vifleyem"
+2936 = "Svyatoy Iosif"
+2938 = "Mys Oranzhevyy"
+
+#venezuela
+502 = "Troitsa"
+741 = "Kumana"
+
+#caribbean
+496 = "Gvadelúpa"
+500 = "Yelizaveta"
+5582 = "Sankt Georg"
+
+#canada
+987 = "Yekaterina"
+988 = "Tekumse"
+
+#us
+910 = "Angelsk"
+911 = "Zolotoy"
+914 = "Cedarburg" #german
+915 = "Avrora"
+922 = "Movil"
+944 = "Livoniya"
+947 = "Birkenwald" #german
+2522 = "Chayka" 
+2530 = "Bilosk"
+
+#By Wielkobabita Sep 2019
+
+#By Dub Jan 2019
+4537 = "Novogrudok"
+4242 = "Borisov"
+
+#By Arga Aug 2019
+#scandies
+18 = "Yuzhnaya Laplandiya"
+1930 = "Alándy"
+3119 = "Tromsë"
+4114 = "Severnaya Laplandiya"
+
+#asian steppes
+438 = "Karakumy"
+441 = "Khivá"
+442 = "Buchara"
+2188 = "Achen"
+2362 = "Kunya Urgench"
+
+#china
+731 = "Gyamusy"
+2124 = "Yarkhend"
+4209 = "Maralvakhi"
+
+#alyeska
+5916 = "Kipnuk"
+8002 = "Golovin"
+8003 = "Sarichev"
+
+#newfoundland
+4974 = "Bolshoy Bereg" #great coast
+
+#afghanistan
+2226 = "Dshelalavad"
+
+#far east fix on outdated province naming by paradox
+725 = "Cicikar"
+1049 = "Ust-Zeysky"
+1053 = "Khingan" #or "Chernyayevo"
+2103 = "Chumikan"
+2104 = "Bureya Basin"
+2105 = "Khabarovka"
+2186 = "Semyonovka"
+4200 = "Kharbin"
+4214 = "Kiselevo"
+4215 = "Komsomolsk-na-Amure"
+4216 = "Gawan Imperatora Nikolaya"
+
+#cali
+4577 = "Skalistaya Gavan"
+5858 = "Yuma"
+
+#cascadia
+874 = "Siettl"
+
+#china
+700 = "Sian"
+
+#korea
+1845 = "Pkhenyan"
+2694 = "Kannyn"
+2745 = "Këndju"
+4231 = "Khaedju"
+
+#Fixes and new ones by Dub Mar 2020
+7196 = "Aleksandrovskaya"
+441 = "Petroaleksandrovsk"
+4686 = "Pavlodat"
+4684 = "Ust-Kamenogorsk"
+4685 = "Bayan-Aul"
+2959 = "Tarnov"
+4541 = "Drogobych"
+1938 = "Vizna"
+7262 = "Belsk"
+7263 = "Belsko"
+259 = "Sandomir"
+3225 = "Volkovyshki"
+270 = "Trakay"
+770 = "Krevo"
+7219 = "Myadel"
+7220 = "Zaslavl"
+7238 = "Krichev"
+7223 = "Volkovysk"
+7221 = "Logoysk"
+7269 = "Rogatyn" #Wiki gave me Rogatin, but meh.
+7225 = "Mogilno" #Dubious, but I used a Russian translation of a Polish city with a similar name.
+2441 = "Chelabinsk"
+479 = "Kokchetav"
+2357 = "Yesil"
+1071 = "Tura" 
+4689 = "Omsk"
+269 = "Podlyashe"
+7198 = "Krivoy Rog"
+4540 = "Vinnitsa"
+1942 = "Zhitomir"
+4545 = "Slutsk"
+1106 = "Ulala"
+2412 = "Novo-Nogaysk"
+7200 = "Melitopol"
+282 = "Odessa"
+7195 = "Ochakov"
+2369 = "Petropavlovsk"
+4692 = "Tengiskol" #or "Tsaryovo Gorodishche"
+1966 = "Orsk"
+3261 = "Derbent"
+425 = "Guba"
+
+#Poland
+257 = "Varsava"
+260 = "Lyublin"
+1939 = "Lenchitsa"
+4528 = "Vlotslavek"
+4524 = "Dobzhin"
+256 = "Plotsk"
+4525 = "Rava"
+258 = "Syeradz"
+4533 = "Velyun"
+3220 = "Chenstokhova" #This one feels... dubious, but it's what translate got me.
+4527 = "Khentsiny"
+255 = "Kalish"
+262 = "Krakov"
+2960 = "Novy-Sonch"
+7266 = "Shchebzheshin" #Looks just as disgusting as the Polish version
+
+#By JP for the new 13.0 update
+
+##Kingdom of Hungary
+
+#Upper Hungary
+8197 = { "Sharosh" "Priashiv" }
+
+##Kingdom of Poland
+
+#Krakow
+2960 = { "Novyj Sanc" "Novyj Sanc" }
+
+#By Dub Aug 2020 + corrections from Draiocht
+292 = { "Mogilyov" "Mogilyov" } #Or Mogilov? Might be a newer one.
+7235 = { "Rogachyov" "Rogachyov" } #Transliterated
+7258 = { "Chuguyev" "Chuguyev" } #Directly from wiki.
+
+#Corrections by Draiocht
+4685 = "Bayana-Ul" #"Bayana-Ul" for clarity, though, or perhaps "Bayanaul" for simplicity.
+7269 = "Rogatin"
+269 = "Podlyasye" #or possibly "Podlyasyye"
+257 = "Varshava" 
+3220 = "Chenstokhov" #or "Chyenstokhov" 
+
+#Corrections
+2960 = { "Nowy Sacz" "Nowy Sacz" }
+
+##Hawk V
+
+# Belarus-Ukraine
+261 = { "Galich" "Galich" } # from ukrainian
+282 = { "Odessa" "Odessa" } # was wrongly named Ochakov
+3242 = { "Chigirin" "Chigirin" } # was wrongly named Aleksandriya
+4544 = { "Bobruysk" "Bobruysk" } # y instead of j
+7251 = { "Aleksandriya" "Aleksandriya" } # from ukrainian
+7209 = {"Rybnytsa" "Rybnytsa"} # from ukrainian
+7233 = { "Petrykov" "Petrykov"} #from belarussian
+7239 = { "Belaya Tserkov" "Belaya Tserkov"} # from ukrainian
+7244 = { "Svetlogorsk" "Svetlogorsk" } # from belarussian
+7245 = { "Dubrovytsa" "Dubrovytsa" } # from ukrainian
+7250 = { "Borispol" "Borispol"} # from ukrainian
+7252 = { "Gadyach" "Gadyach" } # from ukrainian
+7255 = { "Mirgorod" "Mirgorod" } # from ukrainian
+7273 = { "Pokutya" "Kolomyia"} # from ukrainian
+7237 = { "Bragin" "Bragin" } # from belarussian
+
+# Caucasus
+2195 = { "Novorossiysk" "Novorossiysk" } # typo in Novorissiysk
+
+# Far East
+4220 = { "Kyakhta" "Kyakhta"} #  from mongolian
+4225 = { "Permskoye-na-Amure" "Permskoye-na-Amure"} #  from soviet

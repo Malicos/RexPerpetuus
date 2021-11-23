@@ -3,7 +3,7 @@ country_decisions = {
 	make_st_petersburg_capital = {
 		potential = {
 			tag = RUS
-			is_institution_enabled = enlightenment
+			is_institution_enabled = enlightenment # BT
 			normal_or_historical_nations = yes
 			OR = {
 				ai = no
@@ -16,15 +16,18 @@ country_decisions = {
 		allow = {
 			is_core = 33
 			is_at_war = no
-			has_institution = enlightenment
+			33 = {
+				is_state = yes
+			}
+			has_institution = enlightenment # BT
 		}
 		effect = {
 			33 = {
 				change_province_name = "St. Petersburg"
 				rename_capital = "St. Petersburg"
 				add_base_tax = 6
-				add_base_production = 6 
-				add_base_manpower = 4
+				add_base_production = 6 # BT
+				add_base_manpower = 4 # BT; 3
 				change_culture = capital
 			}
 			set_country_flag = relocated_capital_st_petersburg

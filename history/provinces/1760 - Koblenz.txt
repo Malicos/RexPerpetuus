@@ -1,3 +1,4 @@
+ 
 
 #Region - Germany
 #Area - Lower Rhineland
@@ -5,16 +6,17 @@
 owner = LOT
 controller = LOT
 add_core = LOT
-culture = luxembourgish_culture
+culture = hessian
 religion = catholic
 trade_goods = grain
 capital = "Koblenz"
-base_tax = 8
+base_tax = 7
 base_production = 6
 is_city = yes
 fort_15th = yes #Eltz & Stolzenfels Castles
-base_manpower = 4 
+base_manpower = 5
 hre = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

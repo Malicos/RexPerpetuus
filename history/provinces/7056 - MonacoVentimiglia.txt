@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = MNC
+controller = MNC
+add_core = MNC
 culture = ligurian
 religion = catholic
 capital = "Monaco"	#Ventimiglia would be a more worthy province, but it would sacrifice the modern FR-IT border, and no one recognises it, whereas I have people asking for Monaco constantly.

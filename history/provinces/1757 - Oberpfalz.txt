@@ -1,3 +1,4 @@
+ 
 #1757 - Oberpfalz
 #Region - Germany
 #Area - Lower Bavaria
@@ -7,10 +8,10 @@ controller = NGU
 add_core = NGU
 culture = bavarian
 religion = catholic
-base_tax = 6
-base_production = 6
+base_tax = 3
+base_production = 2
 trade_goods = iron
-base_manpower = 4 
+base_manpower = 2
 capital	= "Amberg" 
 is_city = yes
 fort_15th = yes

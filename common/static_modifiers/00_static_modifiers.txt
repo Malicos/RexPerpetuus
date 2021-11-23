@@ -2,12 +2,7 @@
 #
 # Effects are fully scriptable here.
 
-# These names can NOT be removed or changes, as the code uses them....
-
-################
-null_modifier = {
-}
-################
+# Missing static modifiers expected by code will print to the errorlog
 
 ##########################################################################
 # Handicap Modifiers for human player
@@ -104,6 +99,7 @@ city = {
 	allowed_num_of_buildings = 2
 	local_sailors_modifier = 0.25
 	garrison_growth = 0.05
+	allowed_num_of_manufactories = 1
 }
 
 port = {
@@ -139,7 +135,7 @@ non_coastal = {
 }
 
 coastal_sea = {
-	local_naval_engagement_modifier = 0.10
+	local_naval_engagement_modifier = -0.20
 }
 
 tropical = {
@@ -264,8 +260,8 @@ provincial_tax_income = {
 }
 
 provincial_production_size = {
-	trade_goods_size = 0.1
-	ship_recruit_speed = -0.005
+	trade_goods_size = 0.1 # BT; 0.2
+	ship_recruit_speed = -0.005 # BT; -0.01
 }
 
 knowledge_sharing = {
@@ -277,10 +273,7 @@ cardinals_spread_institution = {
 }
 
 manpower = {
-	garrison_growth = 0.005					#1% increase from manpower.
-}
-
-sailors = {
+	garrison_growth = 0.005 # BT; 0.01
 }
 
 # Caps at 600
@@ -301,6 +294,7 @@ development = {
 	local_sailors = 15			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.1
 	local_amount_of_banners = 0.05
+	local_amount_of_cawa = 0.125
 }
 
 development_scaled = {
@@ -358,6 +352,15 @@ core = {
 
 non_core = {
 	local_missionary_strength = -0.02
+}
+
+colonial_core = {
+	local_tax_modifier = 0.75				#90% more in a core
+	local_manpower_modifier = 0.75			#75% more in a core
+	local_sailors_modifier = 0.75
+	local_missionary_strength = -0.02
+	min_local_autonomy = 50
+	local_governing_cost = -0.75
 }
 
 territory_core = {
@@ -482,7 +485,7 @@ unrest = {
 
 nationalism = {
 	local_unrest = 0.5					#for each year revolt risk!
-	local_governing_cost = 0.01			#Default is 30 years of separatism -> +30% governing cost.
+	local_governing_cost = 0.01			#Default is 30 years of separatism - +30% governing cost.
 }
 
 harsh_treatment = {
@@ -515,6 +518,7 @@ local_autonomy_trade_company = {
 
 recent_uprising = {
 	local_unrest = -100
+	picture = "recent_uprising"
 }
 
 
@@ -533,8 +537,9 @@ national_defense = {
 }
 
 
+# penalty when migrant have been there recently.
 resource_depleted = {
-	local_tax_modifier = -0.50				# penalty when migrant have been there recently.
+	# Not used anymore, however if you add it, will be applied again. Kept it for modders
 }
 
 in_trade_company = {
@@ -588,6 +593,10 @@ base_values = {
 	artillery_bonus_vs_fort = 5
 	cav_to_inf_ratio = 0.3			#BTAddOn changed from 0.5 - Seriously, what normal army was a full 50 percent cavalry? Realistic might be closer to 10 as a base, but 30 hits a nice gameplay/realism balance, I think.
 	merc_maintenance_modifier = 0.5
+	monthly_heir_claim_increase = 0.208
+	tolerance_of_heretics_capacity = 3
+	tolerance_of_heathens_capacity = 3
+
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -596,8 +605,8 @@ ai_nation = {
 	free_leader_pool = 1					# ai needs to have enough pool for 1 general & 1 admiral
 	sailors_recovery_speed = 0.25
 	native_uprising_chance = -0.18			#BTAddOn added - As was pointed out to me, the AI doesn't really handle native revolts well, so we want this to be very rare. 
-	army_tradition_decay = -0.02			#BTAddOn added - AI isn't (and to be fair, shouldn't be, as aggressive as player. As a result, AI will always have lower tradition, and always be easily steamrolled by an expansionist player. Trying this to offset that a bit here.
-	navy_tradition_decay = -0.02			#BTAddOn added - AI isn't (and to be fair, shouldn't be, as aggressive as player. As a result, AI will always have lower tradition, and always be easily steamrolled by an expansionist player. Trying this to offset that a bit here.
+	army_tradition_decay = -0.02			#BTAddOn added - AI isn't and to be fair, shouldn't be, as aggressive as player. As a result, AI will always have lower tradition, and always be easily steamrolled by an expansionist player. Trying this to offset that a bit here.
+	navy_tradition_decay = -0.02			#BTAddOn added - AI isn't and to be fair, shouldn't be, as aggressive as player. As a result, AI will always have lower tradition, and always be easily steamrolled by an expansionist player. Trying this to offset that a bit here.
 }
 
 
@@ -626,6 +635,8 @@ positive_stability = {
 	yearly_corruption = -0.02
 	global_institution_spread = 0.05
 	yearly_harmony = 0.25
+	
+	
 }
 
 privateering = {
@@ -636,7 +647,7 @@ negative_stability = {
 	global_unrest = -2					#-1% EXTRA revolt risk each step
 	legitimacy = 1
 	interest = -1
-	migration_cooldown = 0.1
+	migration_cost = 0.1
 	devotion = 1
 	caravan_power = 0.05
 }
@@ -802,7 +813,7 @@ authority = {
 }
 
 regency_council = {
-	legitimacy = -2
+	stability_cost_modifier = 0.25
 }
 
 trade_efficiency = {
@@ -836,6 +847,7 @@ army_tradition = {
 	nobles_loyalty_modifier = 0.05
 	maratha_loyalty_modifier = 0.05
 	rajput_loyalty_modifier = 0.05
+	tribal_development_growth = -1
 }
 
 navy_tradition = {
@@ -879,6 +891,8 @@ defender_of_faith = {
 	prestige = 1							#1% extra prestige yearly
 	missionaries = 1
 	devotion = 0.5
+	
+	
 }
 
 defender_of_faith_refused_cta = {
@@ -894,14 +908,14 @@ emperor = {
 }
 
 states_in_hre = {							#bonuses for each non-free city with capital in HRE.. as emperor
-	land_forcelimit	= 0.2					#BTP adjusted to 0.35, then BT further adjusts it due to European reworks
-	global_manpower = 0.2					#BTP adjusted to 0.35, then BT further adjusts it due to European reworks
+    land_forcelimit    = 0.2                # BT ~2.5x as many princes, bonus down by same factor
+    global_manpower = 0.2                   # BT Look above.
 }
 
-free_cities_in_hre = {							#bonuses for each free city in the HRE.. as emperor
-	global_tax_income = 0.5					#BTP, then BT further adjusts it due to European reworks
-	global_manpower = 0.15					#BTP, then BT further adjusts it due to European reworks
-	land_forcelimit	= 0.15					#BTP, then BT further adjusts it due to European reworks
+free_cities_in_hre = {                            #bonuses for each free city in the HRE.. as emperor
+    global_tax_income = 1                    # BT ~2x as many free cities. Up from 0p5 past version(unnecessary nerf?)
+    global_manpower = 0.25                    # BT, look above. Up from 0p15 past version
+    land_forcelimit    = 0.5                    # BT, look above. Up from 0p15 past version
 }
 
 free_city_in_hre = {
@@ -1008,6 +1022,7 @@ corruption = {
 	jains_loyalty_modifier = 0.1
 	rajput_loyalty_modifier = 0.1
 
+	monthly_heir_claim_increase = 0.025
 }
 
 root_out_corruption = {
@@ -1087,6 +1102,8 @@ prestige = {
 	monthly_fervor_increase = 1
 	ae_impact = -0.10
 	#embracement_cost = -0.1			#BTAddOn removed - no real reason other than I don't like it. It does make balance easier to plan too, though, when not having to factor this into AI chance to embrace.
+
+	monthly_heir_claim_increase = 0.05
 
 	brahmins_hindu_loyalty_modifier = 0.05
 	brahmins_muslim_loyalty_modifier = 0.05
@@ -1281,15 +1298,40 @@ trade_company_strong = {
 	merchants = 1
 }
 
-trade_company_dominant = {
-}
-
-
 large_colonial_nation = {
 	merchants = 1
 	global_trade_power = 0.05
 	naval_forcelimit = 3			#BTAddOn changed from 10. Naval forcelimits were getting obscene
 	land_forcelimit = 2			#BTAddOn changed from 5. Too large a bonus compared to vassals and marches
+}
+
+crown_colony_overlord = {
+}
+
+private_enterprise_overlord = {
+	global_tariffs = -0.05
+}
+
+self_governing_colony_overlord = {
+	global_tariffs = -0.10
+}
+
+crown_colony_subject = {
+	global_autonomy = -0.05
+	global_colonial_growth = 10
+}
+
+private_enterprise_subject = {
+	global_ship_trade_power = 0.2
+	global_trade_goods_size_modifier = 0.2
+	naval_tradition_from_trade = 0.1
+	ship_power_propagation = 0.1
+}
+
+self_governing_colony_subject = {
+	colonists = 1
+	development_cost = -0.15
+	liberty_desire = 25
 }
 
 march_subject = {
@@ -1366,6 +1408,8 @@ gov_rank_10 = {
 # For autonomy mechanics
 autonomy_increased = {
 	local_unrest = -10
+	
+	picture="autonomy_increased"
 }
 
 autonomy_decreased = {
@@ -1722,6 +1766,13 @@ janissary_regiment = {
 	drill_gain_modifier = 1.0
 }
 
+cawa_regiment = {
+	shock_damage_received = -0.15
+	land_attrition = -0.25
+	reinforce_cost_modifier = 0.25
+	reinforce_speed = -0.25
+}
+
 revolutionary_guard_regiment = {
 	fire_damage_received = -0.1
 	shock_damage_received = -0.1
@@ -1767,7 +1818,7 @@ over_governing_capacity_modifier = {
 	stability_cost_modifier = 1.0
 	ae_impact = 0.5 
 	improve_relation_modifier = -0.5 	
-	core_creation = 0.2 #-5% admin efficiency in dev diaries. Worthwhile change? Not sure.
+	core_creation = 0.2
 	advisor_cost = 1.0
 	monthly_militarized_society = -1.0
 }
@@ -1791,4 +1842,21 @@ lost_hegemony = {
 
 at_peace_revolutionary = { # Applied if at peace while reactionaries are bordering you
 	yearly_revolutionary_zeal = -4
+}
+
+expanded_infrastructure = {
+	allowed_num_of_buildings = 1
+	allowed_num_of_manufactories = 1
+	local_governing_cost_increase = 50
+	local_governing_cost = 1.0
+}
+
+centralize_state = {
+	state_governing_cost_increase = -20
+	picture = "centralize_state"
+}
+
+# Applied once for each guru teaching
+guru_teaching = {
+	global_missionary_strength = -0.01
 }

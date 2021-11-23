@@ -351,9 +351,9 @@ country_event = {
 		OR = {
 			POR = { has_country_modifier = the_societas_jesu }
 			SPA = { has_country_modifier = the_societas_jesu }
-			IBE = { has_country_modifier = the_societas_jesu }
+			IBE = { has_country_modifier = the_societas_jesu } # BT
 		}
-		any_owned_province = { any_neighbor_province = { OR = { owned_by = POR owned_by = SPA owned_by = IBE } } }
+		any_owned_province = { any_neighbor_province = { OR = { owned_by = POR owned_by = SPA owned_by = IBE } } } # BT; added IBE
 	}
 	
 	mean_time_to_happen = {

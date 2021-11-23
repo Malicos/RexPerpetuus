@@ -1,17 +1,18 @@
+ 
 #1768 - Lienz
 #Region - Germany
 #Area - Tirol
 
-owner = CTH
-controller = CTH
-add_core = CTH
+owner = CNT
+controller = CNT
+add_core = CNT
 add_core = GRZ
 culture = bavarian
 religion = catholic
-base_tax = 8 
-base_production = 8
+base_tax = 4
+base_production = 6
 trade_goods = iron
-base_manpower = 4 
+base_manpower = 5
 capital = "Lienz" 
 is_city = yes	
 hre = yes

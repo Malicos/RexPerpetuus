@@ -398,14 +398,14 @@ country_event = {
 			dynasty = "Doria"
 			DIP = 5			
 			ADM = 5
-			MIL = 5
+			MIL = 5 # BT; 6
 			attach_leader = "Andrea Doria"
 		}		
 		if = {
 			limit = {
 				has_dlc = "Rights of Man" 
 			}
-			hidden_effect = { add_ruler_personality = lawgiver_personality }
+			hidden_effect = { add_ruler_personality_ancestor = { key = lawgiver } }
 		}
 	}
 	option = {

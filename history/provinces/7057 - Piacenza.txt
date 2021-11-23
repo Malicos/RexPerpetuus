@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = LOM
-controller = LOM
-add_core = LOM
+owner = PCZ
+controller = PCZ
+add_core = PCZ
 culture = romagnan
 religion = catholic
 capital = "Piacenza"

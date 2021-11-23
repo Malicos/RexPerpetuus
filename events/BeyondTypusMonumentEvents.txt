@@ -1,0 +1,94 @@
+#####
+# by neo, mostly
+#####
+
+namespace = bt_monuments
+
+country_event = {
+	id = bt_monuments.1
+	title = bt_monuments.1.title
+	desc = bt_monuments.1.desc
+	picture = POMPEII_eventPicture
+
+	trigger = {
+		owns = 121
+		OR = {
+			is_year = 1700
+			adm_tech = 23 #circa 1700
+		}
+		NOT = {
+			has_global_flag = bt_pompeii_event_happened_flag
+			121 = {
+				has_great_project = {
+					type = pompeii
+					tier = 0
+				}
+			}
+		}
+	}
+
+	major = yes
+
+	major_trigger = {
+		capital_scope = {
+			continent = europe
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 300 #25 years
+		modifier = {
+			factor = 0.8
+			#The following triggers are meant to represent the IRL discovery of nearby Herculaneum during the excavation of a site for a summer palace for Charles 3/7 of Spain/Naples
+			OR = {
+				is_subject_of_type = vassal
+				is_subject_of_type = personal_union
+			}				
+			overlord = {
+				capital_scope = {
+					superregion = europe_superregion
+				}
+				technology_group = western
+				government = monarchy
+			}
+		}
+		modifier = {
+			factor = 0.9
+			#More innovativeness represents more liberal/humanist thinking, maybe?
+			innovativeness = 20
+		}
+		modifier = {
+			factor = 1.2
+			#If the owner/overlord of the is European, but not Western European, slight penalty to MTTH
+			OR = {
+				AND = {					
+					OR = {
+						is_subject_of_type = vassal
+						is_subject_of_type = personal_union
+					}				
+					overlord = {
+						capital_scope = {
+							#European, but not Western European
+							continent = europe
+							NOT = {								
+								superregion = europe_superregion
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = bt_monuments.1.a #Incredible!
+		121 = {
+			add_great_project = pompeii
+		}
+		hidden_effect = {
+			set_global_flag = bt_pompeii_event_happened_flag
+		}
+	}
+}

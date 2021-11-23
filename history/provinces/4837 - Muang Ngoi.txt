@@ -1,0 +1,18 @@
+ 
+# ex 8617
+
+owner = XTG
+controller = XTG
+add_core = XTG
+culture = lao
+religion = buddhism # BT; 
+capital = "Muang Ngoi"
+is_city = yes
+hre = no
+base_tax = 3 # BT; 2
+base_production = 3 # BT; 2
+base_manpower = 2 # BT; 1
+trade_goods = livestock # BT; ivory
+
+discovered_by = chinese
+discovered_by = indian

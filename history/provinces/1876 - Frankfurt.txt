@@ -1,18 +1,19 @@
+ 
 # 1876 - Frankfurt
 #Region - Germany
 #Area - Hesse
 
 owner = FRN
-add_core = FRN
 controller = FRN
+add_core = FRN
 capital = "Frankfurt"
 culture = hessian
 religion = catholic
 trade_goods = bt_trade_good_beer
-base_tax = 14
-base_production = 14			#Indeed, was one of the most important HRE cities, but not as important as it is nearly invariably portrayed in Paradox games until at least the 16th century. Population estimated below 10k, possibly well under, and its economic dominance began later. 
-base_manpower = 6			#Ideal would be Frankfurter Stock Exchage event, giving a small dev boost and a centre of trade after certain institutions are unlocked, or some such.
-is_city = yes
+base_tax = 7
+base_production = 7			#Indeed, was one of the most important HRE cities, but not as important as it is nearly invariably portrayed in Paradox games until at least the 16th century. Population estimated below 10k, possibly well under, and its economic dominance began later. 
+base_manpower = 4			#Ideal would be Frankfurter Stock Exchage event, giving a small dev boost and a centre of trade after certain institutions are unlocked, or some such.
+is_city = yes				#(JP) Wasn't actualy that rich, dropped the dev down as part of my HRE update anyway
 fort_15th = yes
 hre = yes
 
@@ -20,7 +21,6 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
 
 extra_cost = 10
 

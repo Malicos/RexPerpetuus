@@ -1,6 +1,8 @@
+ 
 #1761 - Pfalz
 #Region - Germany
 #Area - Palatinate
+
 
 owner = PAL
 controller = PAL
@@ -9,11 +11,12 @@ capital = "Worms"
 culture = hessian
 religion = catholic
 trade_goods = wine
-base_tax = 12
-base_production = 12
-base_manpower = 8
+base_tax = 6
+base_production = 5
+base_manpower = 4
 is_city = yes
 hre = yes
+center_of_trade = 1
 
 discovered_by = eastern
 discovered_by = western

@@ -156,13 +156,13 @@ country_event = {
 		1773 = {
 			owned_by = TUR
 		}
-		3178 = {
+		3178 = { # BT
 			owned_by = TUR
 		}
-		3179 = {
+		3179 = { # BT
 			owned_by = TUR
 		}
-   	}
+	}
 	
 	mean_time_to_happen = {
 		months = 100
@@ -177,8 +177,8 @@ country_event = {
 		}
 		add_claim = 145
 		add_claim = 1773
-		add_claim = 3178
-		add_claim = 3179
+		add_claim = 3178 # BT
+		add_claim = 3179 # BT
 		
 		hidden_effect = {
 			TUR = {
@@ -399,7 +399,7 @@ country_event = {
 		tag = VEN
 		exists = MAM
 		exists = POR
-		1331 = { # Gulf of Aden
+		1331 = { # BT; 4346
 			is_strongest_trade_power = POR
 		}
 		358 = { # Alexandria
@@ -442,7 +442,7 @@ country_event = {
 	
 	option = {		
 		name = flavor_ven.14.a
-		1331 = {
+		1331 = { # BT; 4346
 			add_trade_modifier = {
 				who = root
 				duration = 3650

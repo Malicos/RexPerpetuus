@@ -1,3 +1,4 @@
+ 
 #4716 - Coburg
 #Region - Germany
 #Area - Thuringia
@@ -10,9 +11,9 @@ religion = catholic
 capital = "Coburg"
 trade_goods = naval_supplies
 hre = yes
-base_tax = 4  
+base_tax = 5  
 base_production = 4 
-base_manpower = 2 
+base_manpower = 3 
 is_city = yes
 
 discovered_by = western

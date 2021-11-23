@@ -15,8 +15,8 @@ country_event = {
 	desc = trade_policy_events.1.d
 	picture = TRADE_GOODS_eventPicture
 	goto = community_country
-	
-	
+
+
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		any_owned_province = {
@@ -53,7 +53,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_active_trade_node = {
@@ -103,16 +103,16 @@ country_event = {
 					}
 					save_event_target_as = quarter_city
 				}
-				
+
 			}
-			
+
 		}
-	} 
+	}
 
 	mean_time_to_happen = {
 		months = 560
 	}
-	
+
 	option = {
 		name = trade_policy_events.1.a #No we should encourage the foreign community
 		goto = quarter_city
@@ -154,7 +154,7 @@ country_event = {
 	desc = trade_policy_events.2.d
 	picture = TRADE_GOODS_eventPicture
 	goto = trade_province_country
-	
+
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		any_active_trade_node = {
@@ -176,9 +176,9 @@ country_event = {
 					trade_goods = ivory
 					trade_goods = tropical_wood
 					trade_goods = gold
-					trade_goods = glass					
-					trade_goods = paper					
-					trade_goods = chinaware					
+					trade_goods = glass
+					trade_goods = paper
+					trade_goods = chinaware
 				}
 				owner = {
 					NOT = { war_with = ROOT }
@@ -186,7 +186,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_active_trade_node = {
@@ -209,9 +209,9 @@ country_event = {
 							trade_goods = ivory
 							trade_goods = tropical_wood
 							trade_goods = gold
-							trade_goods = glass					
-							trade_goods = paper					
-							trade_goods = chinaware					
+							trade_goods = glass
+							trade_goods = paper
+							trade_goods = chinaware
 						}
 						owner = {
 							NOT = { war_with = ROOT }
@@ -231,9 +231,9 @@ country_event = {
 							trade_goods = ivory
 							trade_goods = tropical_wood
 							trade_goods = gold
-							trade_goods = glass					
-							trade_goods = paper					
-							trade_goods = chinaware					
+							trade_goods = glass
+							trade_goods = paper
+							trade_goods = chinaware
 						}
 						owner = {
 							NOT = { war_with = ROOT }
@@ -249,11 +249,11 @@ country_event = {
 	mean_time_to_happen = {
 		months = 560
 	}
-	
+
 	option = {
 		name = trade_policy_events.2.a #Money for us, province modifier for them.
 		goto = trade_province
-		
+
 		add_estate_burghers_loyalty_effect = yes
 		add_years_of_income = 0.2
 		event_target:trade_province_country = {
@@ -291,7 +291,7 @@ country_event = {
 	desc = trade_policy_events.3.d
 	picture = TRADE_GOODS_eventPicture
 	goto = trade_province
-	
+
 	is_triggered_only = yes
 
 	option = {
@@ -313,7 +313,7 @@ country_event = {
 	desc = trade_policy_events.4.d
 	picture = TRADE_GOODS_eventPicture
 	goto = spy_country
-	
+
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		any_active_trade_node = {
@@ -331,7 +331,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_active_trade_node = {
@@ -374,11 +374,11 @@ country_event = {
 	mean_time_to_happen = {
 		months = 560
 	}
-	
+
 	option = {
 		name = trade_policy_events.4.a
 		goto = agents_caught_province
-		
+
 		event_target:agents_caught_province = {
 			add_base_production = 1
 			set_province_flag = caught_foreign_agents
@@ -393,7 +393,7 @@ country_event = {
 	desc = trade_policy_events.5.d
 	picture = CARAVAN_EVENT_Picture
 	goto = banditprovince_owner
-		
+
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		any_active_trade_node = {
@@ -415,7 +415,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_active_trade_node = {
@@ -460,11 +460,11 @@ country_event = {
 	mean_time_to_happen = {
 		months = 560
 	}
-	
+
 	option = {
 		name = trade_policy_events.5.a
 		goto = banditprovince
-		
+
 		add_years_of_income = -0.1
 		tooltip = {
 			event_target:banditprovince_owner = {
@@ -487,11 +487,11 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = trade_policy_events.5.b
 		goto = banditprovince
-		
+
 		event_target:banditprovince = {
 			add_trade_modifier = {
 				who = root
@@ -510,13 +510,13 @@ country_event = {
 	title = trade_policy_events.6.t
 	desc = trade_policy_events.6.d
 	picture = CARAVAN_EVENT_Picture
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = trade_policy_events.6.a
 		goto = banditprovince
-		
+
 		add_opinion = {
 			modifier = helped_clear_out_bandits
 			who = FROM
@@ -537,7 +537,6 @@ country_event = {
 	desc = trade_policy_events.7.d
 	picture = TRADE_GOODS_eventPicture
 	goto = trader_country
-	
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		any_active_trade_node = {
@@ -552,12 +551,13 @@ country_event = {
 			any_trade_node_member_province = {
 				owned_by = ROOT
 				is_capital = no
+				is_colony = no
 				NOT = { has_province_modifier = local_protectionism }
 				NOT = { has_province_modifier = local_merchants_outcompeted }
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_active_trade_node = {
@@ -604,11 +604,10 @@ country_event = {
 	mean_time_to_happen = {
 		months = 560
 	}
-	
+
 	option = {
 		name = trade_policy_events.7.a
 		goto = trade_province
-		
 		event_target:trader_country = {
 			add_opinion = {
 				who = ROOT
@@ -622,11 +621,10 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = {
 		name = trade_policy_events.7.b
 		goto = trade_province
-		
 		event_target:trade_province = {
 			add_province_modifier = {
 				name = local_merchants_outcompeted
@@ -643,7 +641,7 @@ country_event = {
 	title = trade_policy_events.8.t
 	desc = trade_policy_events.8.d
 	picture = TRADE_GOODS_eventPicture
-	
+
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		any_active_trade_node = {
@@ -673,14 +671,14 @@ country_event = {
 					trade_goods = ivory
 					trade_goods = tropical_wood
 					trade_goods = gold
-					trade_goods = glass					
-					trade_goods = paper					
-					trade_goods = chinaware	
+					trade_goods = glass
+					trade_goods = paper
+					trade_goods = chinaware
 				}
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_active_trade_node = {
@@ -711,9 +709,9 @@ country_event = {
 							trade_goods = ivory
 							trade_goods = tropical_wood
 							trade_goods = gold
-							trade_goods = glass					
-							trade_goods = paper					
-							trade_goods = chinaware	
+							trade_goods = glass
+							trade_goods = paper
+							trade_goods = chinaware
 						}
 					}
 				}
@@ -738,9 +736,9 @@ country_event = {
 							trade_goods = ivory
 							trade_goods = tropical_wood
 							trade_goods = gold
-							trade_goods = glass					
-							trade_goods = paper					
-							trade_goods = chinaware	
+							trade_goods = glass
+							trade_goods = paper
+							trade_goods = chinaware
 						}
 					}
 					save_event_target_as = developing_business_province
@@ -752,11 +750,11 @@ country_event = {
 	mean_time_to_happen = {
 		months = 560
 	}
-	
+
 	option = {
 		name = trade_policy_events.8.a
 		goto = developing_business_province
-		
+
 		event_target:developing_business_province = {
 			add_base_production = 2
 			set_province_flag = developing_business_here
@@ -770,7 +768,7 @@ country_event = {
 	title = trade_policy_events.9.t
 	desc = trade_policy_events.9.d
 	picture = TRADE_GOODS_eventPicture
-	
+
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		any_active_trade_node = {
@@ -793,11 +791,11 @@ country_event = {
 				is_sea = no
 				is_empty = no
 				NOT = { continent = ROOT }
-				
+
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			set_saved_name = {
@@ -890,7 +888,7 @@ country_event = {
 	mean_time_to_happen = {
 		months = 560
 	}
-	
+
 	option = {
 		name = trade_policy_events.9.a #Let us use their influence to extract maps of [foreign_province.Owner.GetAdjective] hinterlands.
 		trigger = {
@@ -901,7 +899,7 @@ country_event = {
 			}
 		}
 		goto = foreign_province
-		
+
 		event_target:foreign_province = {
 			every_neighbor_province = {
 				ROOT = {
@@ -920,7 +918,7 @@ country_event = {
 	option = {
 		name = trade_policy_events.9.b #We should not ask what they can do for us. What is good for them is good for us.
 		goto = foreign_province
-		
+
 		event_target:foreign_province = {
 			add_trade_modifier = {
 				who = root
@@ -932,9 +930,9 @@ country_event = {
 		hidden_effect = { clear_saved_name = prominent_merchant }
 	}
 	option = {
-		name = trade_policy_events.9.c 
+		name = trade_policy_events.9.c
 		goto = merchant_family_province
-		
+
 		if = {
 			limit = {
 				NOT = { monthly_income = 25 }
@@ -968,7 +966,7 @@ country_event = {
 	title = trade_policy_events.10.t
 	desc = trade_policy_events.10.d
 	picture = TRADE_GOODS_eventPicture
-	
+
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		any_active_trade_node = {
@@ -1001,14 +999,14 @@ country_event = {
 					trade_goods = ivory
 					trade_goods = tropical_wood
 					#trade_goods = gold
-					trade_goods = glass					
-					trade_goods = paper					
-					trade_goods = chinaware	
+					trade_goods = glass
+					trade_goods = paper
+					trade_goods = chinaware
 				}
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_active_trade_node = {
@@ -1042,9 +1040,9 @@ country_event = {
 							trade_goods = ivory
 							trade_goods = tropical_wood
 							#trade_goods = gold
-							trade_goods = glass					
-							trade_goods = paper					
-							trade_goods = chinaware	
+							trade_goods = glass
+							trade_goods = paper
+							trade_goods = chinaware
 						}
 					}
 				}
@@ -1070,9 +1068,9 @@ country_event = {
 							trade_goods = ivory
 							trade_goods = tropical_wood
 							#trade_goods = gold
-							trade_goods = glass					
-							trade_goods = paper					
-							trade_goods = chinaware	
+							trade_goods = glass
+							trade_goods = paper
+							trade_goods = chinaware
 						}
 					}
 					save_event_target_as = trade_province
@@ -1084,11 +1082,11 @@ country_event = {
 	mean_time_to_happen = {
 		months = 660
 	}
-	
+
 	option = {
 		name = trade_policy_events.10.a
 		goto = trade_province
-		
+
 		event_target:trade_province = {
 			add_province_modifier = {
 				name = "regulated_economic_growth"
@@ -1099,7 +1097,7 @@ country_event = {
 	option = {
 		name = trade_policy_events.10.b
 		goto = trade_province
-		
+
 		random_list = {
 			25 = {
 				event_target:trade_province = {
@@ -1124,7 +1122,7 @@ country_event = {
 	title = trade_policy_events.11.t
 	desc = trade_policy_events.11.d
 	picture = SAD_MERCHANT_eventPicture
-	
+
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		any_active_trade_node = {
@@ -1155,14 +1153,14 @@ country_event = {
 					trade_goods = ivory
 					trade_goods = tropical_wood
 					trade_goods = gold
-					trade_goods = glass					
-					trade_goods = paper					
-					trade_goods = chinaware	
+					trade_goods = glass
+					trade_goods = paper
+					trade_goods = chinaware
 				}
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_active_trade_node = {
@@ -1194,9 +1192,9 @@ country_event = {
 							trade_goods = ivory
 							trade_goods = tropical_wood
 							trade_goods = gold
-							trade_goods = glass					
-							trade_goods = paper					
-							trade_goods = chinaware	
+							trade_goods = glass
+							trade_goods = paper
+							trade_goods = chinaware
 						}
 					}
 				}
@@ -1214,9 +1212,9 @@ country_event = {
 							trade_goods = ivory
 							trade_goods = tropical_wood
 							trade_goods = gold
-							trade_goods = glass					
-							trade_goods = paper					
-							trade_goods = chinaware	
+							trade_goods = glass
+							trade_goods = paper
+							trade_goods = chinaware
 						}
 					}
 					save_event_target_as = trade_province
@@ -1228,11 +1226,11 @@ country_event = {
 	mean_time_to_happen = {
 		months = 660
 	}
-	
+
 	option = {
-		name = trade_policy_events.11.a #Regrettable 
+		name = trade_policy_events.11.a #Regrettable
 		goto = trade_province
-		
+
 		event_target:trade_province = {
 			add_province_modifier = {
 				name = "lack_of_demand_for_local_goods"
@@ -1250,7 +1248,7 @@ country_event = {
 	desc = trade_policy_events.12.d
 	picture = SULTAN_AND_MERCHANT_eventPicture
 	goto = merchant_country
-	
+
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		any_active_trade_node = {
@@ -1277,7 +1275,7 @@ country_event = {
 			}
 		}
 	}
-	
+
 	immediate = {
 		hidden_effect = {
 			random_active_trade_node = {
@@ -1329,11 +1327,11 @@ country_event = {
 	mean_time_to_happen = {
 		months = 560
 	}
-	
+
 	option = {
 		name = trade_policy_events.12.a #Our society has only to gain from progress.
 		goto = institution_province
-		
+
 		event_target:institution_province = {
 			add_next_institution_embracement = 65
 			add_province_modifier = {

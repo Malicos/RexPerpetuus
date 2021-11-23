@@ -8,9 +8,9 @@ religion = orthodox
 capital = "Kale-i Sultaniye"			#Çanakkale was an Ottoman fortress called Kale-i Sultaniye. Not actually until 1460s, but whatever, close enough
 trade_goods = glass			#From the late 17th century it alsor became known for its fine-glazed pottery, but before that, sure, Naval supplies are fine. 
 hre = no
-base_tax = 3
-base_production = 3
-base_manpower = 3 #2
+base_tax = 1
+base_production = 1
+base_manpower = 2
 is_city = yes
 
 discovered_by = western

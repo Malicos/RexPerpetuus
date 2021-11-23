@@ -66,7 +66,7 @@ country_decisions = {
 			NOT = { has_country_modifier = irish_fealty_negotiations_ongoing }
 			num_of_owned_provinces_with = {
 				value = 1
-				region = ireland_area
+				region = ireland_region # Brian; changed from _area
 			}	#changed Dublin only to any Irish province being able to allow this decision
 			any_known_country = {
 				primary_culture = anglo_irish
@@ -76,7 +76,7 @@ country_decisions = {
 				}
 				num_of_owned_provinces_with = {
 					value = 1
-					region = ireland_area
+					region = ireland_region # Brian; changed from _area
 				}
 				is_free_or_tributary_trigger = yes
 				is_at_war = no
@@ -100,7 +100,7 @@ country_decisions = {
 					}
 					num_of_owned_provinces_with = {
 						value = 1
-						region = ireland_area
+						region = ireland_region # Brian; changed from _area
 					}
 					is_free_or_tributary_trigger = yes
 					is_at_war = no
@@ -119,7 +119,7 @@ country_decisions = {
 						ruler_has_personality = conqueror_personality
 						ruler_has_personality = greedy_personality
 						any_province = {
-							region = ireland_area
+							region = ireland_region # Brian; changed from _area
 							NOT = { owned_by = ENG }
 							OR = {
 								is_claim = ROOT
@@ -219,11 +219,11 @@ country_decisions = {
 			NOT = { culture_group = gaelic }			#Gaels will try to form TnG
 			num_of_owned_provinces_with = {
 				value = 16
-				region = ireland_area
+				region = ireland_region # Brian; changed from _area
 			}	#over half of Ireland to see
 		}
 		provinces_to_highlight = {
-			region = ireland_area
+			region = ireland_region # Brian; changed from _area
 			owned_by = ROOT
 		}
 		allow = {
@@ -238,24 +238,24 @@ country_decisions = {
 				tooltip = three_quarters_of_ireland_tooltip
 				num_of_owned_provinces_with = {
 					value = 23
-					region = ireland_area
+					region = ireland_region # Brian; changed from _area
 					is_core = ROOT
 				}	#3/4 of Ireland's 30 provinces
 			}
 		}
 		effect = {
-			ireland_area = {
+			ireland_region = { # Brian; changed from _area
 				limit = { NOT = { owned_by = ROOT } }
 				add_permanent_claim = ANI
 			}
 			hidden_effect = {
-				ireland_area = {
+				ireland_region = { # Brian; changed from _area
 					limit = { owned_by = ROOT }
 					remove_core = ROOT
 					add_core = ANI
 				}
 			}
-			ireland_area = {
+			ireland_region = { # Brian; changed from _area
 				limit = { owned_by = ROOT }
 				cede_province = ANI
 			}
@@ -307,10 +307,10 @@ country_decisions = {
 		potential = {
 			exists = ANI
 			ANI = { is_subject_of = ROOT }
-			any_owned_province = { region = ireland_area }
+			any_owned_province = { region = ireland_region } # Brian; changed from _area
 		}
 		provinces_to_highlight = {
-			region = ireland_area
+			region = ireland_region # Brian; changed from _area
 			owned_by = ROOT
 		}
 		allow = {
@@ -320,7 +320,7 @@ country_decisions = {
 		}
 		effect = {
 			random_core_province = {
-				limit = { region = ireland_area }
+				limit = { region = ireland_region } # Brian; changed from _area
 				cede_province = ANI
 				if = {
 					limit = { is_core = ROOT }

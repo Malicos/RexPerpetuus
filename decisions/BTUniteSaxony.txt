@@ -1,0 +1,61 @@
+country_decisions = {
+###Uniting the Wetten Lands under one tag
+	electorate_of_saxony_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_saxony_flag_bt }
+				primary_culture = saxon
+				tag = SAX
+		}
+		provinces_to_highlight = {
+			OR = {
+				owned_by = MEI
+				owned_by = SAX
+				owned_by = THU
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+			senior_union_with = THU
+			senior_union_with = MEI
+			THU = {
+			NOT = { liberty_desire = 50 }
+				has_opinion = {
+				who = ROOT
+				value = 100
+				}
+			}
+			MEI = {
+			NOT = { liberty_desire = 50 }
+				has_opinion = {
+				who = ROOT
+				value = 100
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			swap_free_idea_group = yes
+			set_country_flag = formed_saxony_flag_bt
+			inherit = MEI
+			inherit = THU
+			override_country_name = bt_united_saxony
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+}

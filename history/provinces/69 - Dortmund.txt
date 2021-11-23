@@ -1,20 +1,17 @@
-# 69 - Oberschwaben (incl. Lindau, Biberach, Überlingen, Ravensberg, and many of the other Free cities of Schwaben)
-#Region - Germany
-#Area - Upper Swabia
-
+ 
 owner = SWA
 controller = SWA
 add_core = SWA
 add_core = RVA
-capital = "Ravensburg"
 culture = swabian
 religion = catholic
-trade_goods = cloth
-base_tax = 12
-base_production = 12			#In the Middle Ages, it was an Imperial Free City and an important trading centre.
-base_manpower = 8
+capital = "Ravensburg"
 is_city = yes
 hre = yes
+base_tax = 4
+base_production = 3 # In the Middle Ages, it was an Imperial Free City and an important trading centre.
+base_manpower = 2   #(JP) Pretty sure not as big as it was though
+trade_goods = cloth
 
 discovered_by = western
 discovered_by = muslim

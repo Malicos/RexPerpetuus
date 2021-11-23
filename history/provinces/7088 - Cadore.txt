@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = CIA
-controller = CIA
-add_core = CIA
+owner = CNI
+controller = CNI
+add_core = CNI
 add_core = AQU
 culture = ladin_culture
 religion = catholic

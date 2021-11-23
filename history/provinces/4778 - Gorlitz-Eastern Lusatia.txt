@@ -1,9 +1,10 @@
+ 
 #4778 - Görlitz
 #Area - Lusatia
 #Region - North Germany
 
 #Core Details
-capital = "Zhorjelc"
+capital = "Gorlitz"
 is_city = yes
 owner = SOR
 controller = SOR

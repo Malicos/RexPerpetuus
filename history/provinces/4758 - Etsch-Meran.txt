@@ -1,3 +1,4 @@
+ 
 #BT Italy reoverhaul
 
 owner = TIR
@@ -6,8 +7,8 @@ add_core = TIR
 culture = bavarian
 religion = catholic
 capital = "Meran"
-base_tax = 6
-base_production = 6
+base_tax = 4
+base_production = 4
 base_manpower = 3
 trade_goods = wine			#modern beer, as well. Also apparently a bookbinding centre after the 15th century.
 is_city = yes

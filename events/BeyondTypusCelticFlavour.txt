@@ -292,7 +292,7 @@ country_event = {
 	option = { # Nope... try again
 		name = "BeyondTypusCelticFlavour.EVTOPTC3"
 		ai_chance = { factor = 80 }
-		hidden_effect = { kill_heir = yes }
+		hidden_effect = { kill_heir = { } }
 		custom_tooltip = tooltip_bt_female_removed_from_succession
 		add_years_of_income = -0.4
 	}

@@ -1,3 +1,4 @@
+ 
 #48 - Kolberg
 #Region - Germany
 #Area - Hinterpommern
@@ -12,7 +13,7 @@ base_tax = 3
 base_production = 3 
 trade_goods = salt
 base_manpower = 2  
-capital = "Budzistowo"
+capital = "Kolberg"
 is_city = yes
 
 discovered_by = western

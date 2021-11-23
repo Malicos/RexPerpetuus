@@ -50,13 +50,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -99,13 +101,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -148,13 +152,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -197,13 +203,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -246,13 +254,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -297,13 +307,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -346,13 +358,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -395,13 +409,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -444,13 +460,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -493,13 +511,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -542,13 +562,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -591,13 +613,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -640,13 +664,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -689,13 +715,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -738,13 +766,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -787,13 +817,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -818,7 +850,7 @@ province_event = {
 		ai_chance = { factor = 99 }
 		if = {
 			limit = {
-				tag = SCO
+				owner = { tag = SCO } # Brian fixed
 				2819 = { bt_historical_colony_events_for_the_ai_candidate = yes }
 			}
 			2819 = {
@@ -848,13 +880,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -897,13 +931,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -946,13 +982,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -995,13 +1033,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -1044,13 +1084,15 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }
 
@@ -1093,12 +1135,14 @@ province_event = {
 			}
 			modifier = {
 				factor = 100
-				OR = {
-					is_in_deficit = yes
-					is_bankrupt = yes
+				owner = { # Brian fixed
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
 				}
 			}
 		}
-		add_prestige = -1
+		owner = { add_prestige = -1 } # Brian fixed
 	}
 }

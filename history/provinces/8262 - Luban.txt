@@ -1,9 +1,10 @@
+
 #8262 - Luban
 #Area - Lusatia
 #Region - North Germany
 
 #Core Details
-capital = "Lubañ"
+capital = "Lauban"
 is_city = yes
 owner = SOR
 controller = SOR

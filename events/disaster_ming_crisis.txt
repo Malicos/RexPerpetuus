@@ -172,6 +172,25 @@ country_event = {
 				add_government_reform = autocracy_reform
 				adopt_reform_progress = ROOT
 			}
+			if = {
+				limit = {
+					any_country = {
+						NOT = { is_neighbor_of = ROOT }
+						is_subject_of_type = tributary_state
+						is_subject_of = ROOT
+					}
+				}
+				every_country = {
+					limit = {
+						NOT = { is_neighbor_of = ROOT }
+						is_subject_of_type = tributary_state
+						is_subject_of = ROOT
+					}
+					country_event = {
+						id = ming_crisis.10
+					}
+				}
+			}
 		}
 	}
 	
@@ -212,7 +231,7 @@ country_event = {
 					limit = {
 						any_neighbor_country = {
 							has_reform = steppe_horde
-							total_own_and_non_tributary_subject_development = 500 #BT Dev Doubling
+							total_own_and_non_tributary_subject_development = 500 # BT; 300
 							is_subject = no
 							#NOT = { truce_with = ROOT }
 							NOT = { alliance_with = ROOT }
@@ -222,7 +241,7 @@ country_event = {
 					random_neighbor_country = {
 						limit = {
 							has_reform = steppe_horde
-							total_own_and_non_tributary_subject_development = 500 #BT Dev Doubling
+							total_own_and_non_tributary_subject_development = 500 # BT; 300
 							is_subject = no
 							#NOT = { truce_with = ROOT }
 							NOT = { alliance_with = ROOT }
@@ -310,6 +329,25 @@ country_event = {
 				change_government = monarchy
 				add_government_reform = autocracy_reform
 				adopt_reform_progress = ROOT
+			}
+			if = {
+				limit = {
+					any_country = {
+						NOT = { is_neighbor_of = ROOT }
+						is_subject_of_type = tributary_state
+						is_subject_of = ROOT
+					}
+				}
+				every_country = {
+					limit = {
+						NOT = { is_neighbor_of = ROOT }
+						is_subject_of_type = tributary_state
+						is_subject_of = ROOT
+					}
+					country_event = {
+						id = ming_crisis.10
+					}
+				}
 			}
 		}
 	}
@@ -449,6 +487,25 @@ country_event = {
 						change_government = monarchy
 						add_government_reform = autocracy_reform
 						adopt_reform_progress = ROOT
+					}
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						NOT = { is_neighbor_of = ROOT }
+						is_subject_of_type = tributary_state
+						is_subject_of = ROOT
+					}
+				}
+				every_country = {
+					limit = {
+						NOT = { is_neighbor_of = ROOT }
+						is_subject_of_type = tributary_state
+						is_subject_of = ROOT
+					}
+					country_event = {
+						id = ming_crisis.10
 					}
 				}
 			}
@@ -749,3 +806,28 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = ming_crisis.10
+	title = "ming_crisis.10.t"
+	desc = "ming_crisis.10.d"
+	picture = CIVIL_WAR_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ming_crisis.10.a
+		grant_independence = yes
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = ming_crisis.10.b
+		custom_tooltip = ming_crisis.10.tt
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+	

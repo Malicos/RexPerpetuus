@@ -24,12 +24,12 @@ country_decisions = {
 						}
 					}
 					capital_scope = {
-						colonial_region = colonial_cascadia
+						colonial_region = colonial_cascadia # BT; colonial_alaska
 						is_core = ROOT
 					}
 				}
 			}
-			colonial_cascadia = {
+			colonial_cascadia = { # BT; colonial_alaska
 				owned_by = ROOT
 			}
 			OR = {
@@ -41,7 +41,7 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			colonial_region = colonial_cascadia
+			colonial_region = colonial_cascadia # BT; colonial_alaska
 			OR = {
 				NOT = { owned_by = ROOT }
 				is_city = no
@@ -52,12 +52,12 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			capital_scope = {
-				colonial_region = colonial_cascadia
+				colonial_region = colonial_cascadia # BT; colonial_alaska
 				is_core = ROOT
 			}
 			num_of_owned_provinces_with = {
 				value = 10
-				colonial_region = colonial_cascadia
+				colonial_region = colonial_cascadia # BT; colonial_alaska
 				is_city = yes
 			}
 			NOT = { exists = CSC }
@@ -104,7 +104,18 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 25
-			swap_ideas = yes
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			#can't have more than one elective monarchy in the game
+			if = {
+				limit = {
+					has_reform = elective_monarchy
+				}
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+			}
 			set_country_flag = changed_from_colonial_nation
 		}
 		ai_will_do = {

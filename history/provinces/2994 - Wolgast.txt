@@ -1,3 +1,4 @@
+ 
 # - Greifswald
 #Region - Germany
 #Area - Vorpommern
@@ -12,8 +13,9 @@ base_tax = 4
 base_production = 4
 trade_goods = glass
 base_manpower = 2 
-capital = "Wologoszcz"
+capital = "Wolgast"
 is_city = yes
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = muslim

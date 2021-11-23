@@ -325,9 +325,9 @@ country_event = {
 	option = { # keep capital in Delhi
 		name = "flavor_dlh.EVTOPTA8"
 		capital_scope = {
-			add_base_manpower = 4
-			add_base_tax = 4
-			add_base_production = 4
+			add_base_manpower = 4 # BT; 2
+			add_base_tax = 4 # BT; 2
+			add_base_production = 4 # BT; 2
 		}
 		524 = {
 			change_province_name = "Agra"
@@ -340,9 +340,9 @@ country_event = {
 			move_capital_effect = yes
 			change_province_name = "Agra"
 			rename_capital = "Agra"
-			add_base_manpower = 4
-			add_base_tax = 4
-			add_base_production = 4
+			add_base_manpower = 4 # BT; 2
+			add_base_tax = 4 # BT; 2
+			add_base_production = 4 # BT; 2
 		}
 	}
 }

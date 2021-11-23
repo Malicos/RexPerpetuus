@@ -1,3 +1,4 @@
+ 
 #Region - Germany
 #Area - Lower Rhineland
 
@@ -8,14 +9,14 @@ latent_trade_goods = {
 owner = LOT
 controller = LOT
 add_core = LOT
-culture = luxembourgish_culture
+culture = hessian
 religion = catholic
 trade_goods = cloth			#Achieved a modest position in the trade in woollen cloths, favoured by imperial privilege.
 capital = "Aachen"
-base_tax = 8				#Though the first and longest serving capital of the HRE, Aachen fell far from its original glory, and the population continued to shrink drastically in the years leading up to our start date. By 1444 likely under 15k, probably under 10k, and only a average-ly important trade stop
-base_production = 8			#During the Middle Ages, Aachen remained a city of regional importance, due to its proximity to Flanders
+base_tax = 7				#Though the first and longest serving capital of the HRE, Aachen fell far from its original glory, and the population continued to shrink drastically in the years leading up to our start date. By 1444 likely under 15k, probably under 10k, and only a average-ly important trade stop
+base_production = 7			#During the Middle Ages, Aachen remained a city of regional importance, due to its proximity to Flanders
 is_city = yes
-base_manpower = 4 
+base_manpower = 6 
 hre = yes
 
 discovered_by = western

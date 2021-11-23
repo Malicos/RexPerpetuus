@@ -1,15 +1,16 @@
+ 
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
 owner = CIL
 controller = CIL
 add_core = CIL
 culture = cilician
-religion = orthodox
+religion = apostolic
 capital = "Mersin"
-trade_goods = grain
+trade_goods = cotton
 hre = no
-base_tax = 4
-base_production = 2 
+base_tax = 3
+base_production = 3
 base_manpower = 2 
 is_city = yes
 

@@ -75,7 +75,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			kill_heir = yes
+			kill_heir = { }
 		}
 		define_ruler = {
 			name = "Worawongasa"
@@ -85,7 +85,6 @@ country_event = {
 			dip = 1
 			mil = 3
 			male = yes
-			fixed = yes
 		}
 			hidden_effect = {
 				add_ruler_personality = martial_educator_personality
@@ -126,7 +125,7 @@ country_event = {
 			limit = {
 				has_heir = yes
 			}
-			kill_heir = yes
+			kill_heir = { }
 		}
 		define_ruler = {
 			dynasty = "Suphannaphum"
@@ -135,7 +134,6 @@ country_event = {
 			adm = 2
 			dip = 1
 			mil = 2
-			fixed = yes
 		}
 		if = {
 			limit = {

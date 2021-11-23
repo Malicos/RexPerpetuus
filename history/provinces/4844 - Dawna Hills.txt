@@ -1,0 +1,22 @@
+ 
+# ex 8599
+# wasteland in vanilla
+
+owner = PAG
+controller = PAG
+add_core = PAG
+add_core = TAU
+culture = karen
+religion = buddhism
+capital = "Hpa An"
+is_city = yes
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = livestock
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim # 1.31
+discovered_by = ottoman # 1.31

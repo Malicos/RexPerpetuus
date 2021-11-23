@@ -1,3 +1,4 @@
+ 
 #BT Scandinavia and Baltics reoverhaul
 
 owner = LUT
@@ -5,7 +6,7 @@ controller = LUT
 add_core = LUT
 culture = polabian_culture
 religion = catholic
-capital = "Trzebiatów"
+capital = "Treptow"				#or Spantekow. Also Anklam and Demmin are nearby and much more important, though both would cause issues with hsitorical borders. This little corner needs about 40 provinces to be perfectly accurate, so we compromise.
 base_tax = 2
 base_production = 2
 base_manpower = 3

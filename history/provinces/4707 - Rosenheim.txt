@@ -1,7 +1,7 @@
+ 
 owner = BAV
 controller = BAV
 add_core = BAV
-add_core = ING
 capital = "Wasserburg"
 is_city = yes
 culture = bavarian
@@ -9,7 +9,7 @@ religion = catholic
 hre = yes
 base_tax = 4
 base_production = 4
-base_manpower = 4
+base_manpower = 3
 trade_goods = salt #Bad Reichenhall
 
 discovered_by = eastern

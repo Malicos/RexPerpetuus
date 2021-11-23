@@ -1,17 +1,17 @@
-#2301 - Kayseri
-
+ 
 owner = CAP
 controller = CAP
 add_core = CAP
 culture = cappadocian
 religion = orthodox
 capital = "Kayseri"
-trade_goods = iron
-hre = no
-base_tax = 4
-base_production = 3 #4
-base_manpower = 6 #3
 is_city = yes
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = cloth				#(JP) Known for its rugs
+center_of_trade = 1
 
 discovered_by = western
 discovered_by = eastern

@@ -15,7 +15,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 		}
-		provinces_to_highlight = { province_id = 151 }
+		provinces_to_highlight = { province_id = 151 } # BT
 		allow = {
 			is_at_war = no
 			primary_culture = turkish
@@ -24,19 +24,34 @@ country_decisions = {
 			owns = 149		# Edirne
 			owns = 316		# Bithnyia
 			owns = 317		# Bursa
-			owns = 1764		# Burgas			
+			owns = 1764		# Burgas
+			151 = {
+				is_state = yes
+			}
 		}
 		effect = {
 			set_country_flag = relocated_capital_constantinople
 			set_global_flag = greek_need_restore_constantinople
-			#add_stability = 1			#Driaocht removing stability, why would the Ottomans become more stable with a new capital? They didn't have the history with it the greeks did. Plus TUR now gets a bigger dev bonus with the restored decision
+			#add_stability = 1 # Driaocht removing stability, why would the Ottomans become more stable with a new capital? They didn't have the history with it the greeks did. Plus TUR now gets a bigger dev bonus with the restored decision
 			add_core = 151
 			151 = {
 				move_capital_effect = yes
-				change_culture = turkish 
+				change_culture = turkish
 				change_religion = ROOT
 				rename_capital = Kostantiniyye
 			}
+			if = {
+				limit = {
+					NOT = { has_global_flag = constantinople_restored }
+				}
+				151 = {
+					add_base_tax = 6 # BT; 4
+					add_base_production = 6 # BT; 4
+					add_base_manpower = 3
+				}
+				set_global_flag = constantinople_restored
+			}
+			# Added another if below, in case the Greeks have partially restored the capital, but then Ottomans take it. relocated_capital_constantinople flag will prevent spamming of this, meaning no doubling up of dev bonus. Keep this above the limit below, not below it, or double bonus happens when taking the decision (oops again =p)
 			if = {
 				limit = {
 					has_global_flag = constantinople_restored
@@ -46,21 +61,10 @@ country_decisions = {
 					add_base_production = 4
 					add_base_manpower = 2
 				}
-			}	#Added another if, in case the Greeks have partially restored the capital, but then Ottomans take it. relocated_capital_constantinople flag will prevent spamming of this, meaning no doubling up of dev bonus. Keep this above the limit below, not below it, or double bonus happens when taking the decision (oops again =p)
-			if = {
-				limit = {
-					NOT = { has_global_flag = constantinople_restored }
-				}
-				151 = {
-					add_base_tax = 6
-					add_base_production = 6
-					add_base_manpower = 3
-				}
-				set_global_flag = constantinople_restored
 			}
-			if = {
+			if = { # BT
 				limit = {
-					149 = { 
+					149 = {
 						development = 15
 						NOT = { development = 25 }
 					}
@@ -71,9 +75,9 @@ country_decisions = {
 					add_base_manpower = -1
 				}
 			}
-			if = {
+			if = { # BT
 				limit = {
-					149 = { 
+					149 = {
 						development = 25
 						NOT = { development = 35 }
 					}
@@ -89,7 +93,7 @@ country_decisions = {
 					add_base_manpower = 1
 				}
 			}
-			if = {
+			if = { # BT
 				limit = { 149 = { development = 35 } }
 				149 = {
 					add_base_tax = -6
@@ -103,12 +107,13 @@ country_decisions = {
 				}
 			}
 			set_government_rank = 3
+			# New effect below in BT 4.0.1, Ottomans weren't really expanding like they should with all the new changes in BtPL. Depending on how it goes, might add a Balkan one, too, or perhaps just Greece.
 			anatolia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
 				add_permanent_claim = ROOT
-			}	#New effect in BT 4.0.1, Ottomans weren't really expanding like they should with all the new changes in BtPL. Depending on how it goes, might add a Balkan one, too, or perhaps just Greece.
+			}
 		}
 		ai_will_do = {
 			factor = 1

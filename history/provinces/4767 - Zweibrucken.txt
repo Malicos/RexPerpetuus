@@ -1,3 +1,4 @@
+ 
 # 4767 - Zweibrücken
 
 owner = PAL
@@ -7,11 +8,12 @@ capital = "Zweibrücken"
 culture = hessian
 religion = catholic
 trade_goods = cloth
-base_tax = 6
-base_production = 6
-base_manpower = 4
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
 hre = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

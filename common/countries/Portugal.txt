@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 207 160 255 }
+color = { 221 230 255 }
 revolutionary_colors = { 9 8 5 }
 
 historical_score = 4700

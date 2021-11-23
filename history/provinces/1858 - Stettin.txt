@@ -1,3 +1,4 @@
+ 
 #1858 - Stettin
 #Region - Germany
 #Area - Hinterpommern
@@ -12,7 +13,7 @@ hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 2
-capital = "Sadzin"
+capital = "Stettin"
 is_city = yes
 
 discovered_by = western

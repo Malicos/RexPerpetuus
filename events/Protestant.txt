@@ -23,7 +23,7 @@ country_event = {
 		religion = catholic
 		is_defender_of_faith = no	
 		NOT = { has_reform = papacy_reform }
-		reform_desire = 1.0
+		reform_desire = 1
 		capital_scope = {
 			continent = europe
 		}
@@ -68,23 +68,23 @@ country_event = {
 		# }
 		#Vanilla culture group factors moved to bottom and adjusted
 		modifier = {
-			factor = 0.95
+			factor = 0.95 # BT; 0.9
 			reform_desire = 1.05
 		}
 		modifier = {
-			factor = 0.85
+			factor = 0.85 # BT; 0.9
 			reform_desire = 1.10
 		}
 		modifier = {
-			factor = 0.70
+			factor = 0.70 # BT; 0.9
 			reform_desire = 1.15
 		}
 		modifier = {
-			factor = 0.50
+			factor = 0.50 # BT; 0.9
 			reform_desire = 1.20
 		}
 		modifier = {
-			factor = 0.25
+			factor = 0.25 # BT; 0.9
 			reform_desire = 1.25
 		}
 		
@@ -165,7 +165,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTA2001"
-		ai_chance = {
+		ai_chance = { # BT
 			factor = 90
 		}
 		enable_religion = protestant
@@ -215,7 +215,7 @@ country_event = {
 		}
 	}
 	
-	option = {
+	option = { # BT
 		name = "EVTOPTB2001.btpl"
 		trigger = {
 			stability = -2

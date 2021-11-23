@@ -40,24 +40,28 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 80
-		
-		modifier = {
+				
+		#modifier = { # BT removed
+		#	factor = 0.5
+		#	religion_years = { protestant = 15 }
+		#}
+		modifier = { # BT
 			factor = 0.95
-			religion_years = { protestant = 20 }			#This was just the same as trigger, making it effectively half the MTTH... making it dynamic and adding a few below
+			religion_years = { protestant = 20 } # This was just the same as trigger, making it effectively half the MTTH... making it dynamic and adding a few below
 		}
-		modifier = {
+		modifier = { # BT
 			factor = 0.85
 			religion_years = { protestant = 25 }
 		}
 		modifier = {
-			factor = 0.7
+			factor = 0.7 # BT; 0.5
 			religion_years = { protestant = 30 }
 		}
-		modifier = {
+		modifier = { # BT
 			factor = 0.5
 			religion_years = { protestant = 35 }
 		}
-		modifier = {
+		modifier = { # BT
 			factor = 0.25
 			religion_years = { protestant = 40 }
 		}
@@ -147,7 +151,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA2011"
-		ai_chance = {
+		ai_chance = { # BT
 			factor = 90
 		}
 		enable_religion = reformed
@@ -181,7 +185,7 @@ country_event = {
 		set_country_flag = "calvinist_reformation" 
 	}
 	
-	option = {
+	option = { # BT
 		name = "EVTOPTB2001.btpl"
 		trigger = {
 			stability = -2

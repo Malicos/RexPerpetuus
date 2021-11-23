@@ -313,9 +313,11 @@ country_event = {
 		}
 		every_country = {
 			limit = {
+				capital_scope = {
 				has_discovered = ROOT
+				}
 				religion = catholic
-				total_development = 400 #BT Dev Doubling
+				total_development = 400 # BT; 200
 				NOT = {
 					tag = event_target:catholic_rival
 				}
@@ -627,7 +629,7 @@ country_event = {
 				religion_group = ROOT
 				NOT = { religion = ROOT }
 				NOT = {
-					total_development = 300 #BT Dev Doubling
+					total_development = 300 # BT; 150
 				}
 			}
 			country_event = { id = dotf.10 days = 3 }

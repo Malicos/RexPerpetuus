@@ -558,8 +558,19 @@ country_event = {
 				owned_by = TEU
 				controlled_by = TEU
 			}
+			7821 = { # Brian
+				owned_by = TEU
+				controlled_by = TEU
+			}
 		}
-		TEU = { #The Teutonic order hasn't connected their lands to Neumark
+		TEU = {
+			# Brian; added 4 below, so the event doesn't trigger if TEU has
+			# prov. in Neumark other than the 3 above
+			NOT = { owns = 50 }
+			NOT = { owns = 2969 }
+			NOT = { owns = 2993 }
+			NOT = { owns = 8266 }
+			#The Teutonic order hasn't connected their lands to Neumark
 			NOT = { owns = 48 } #Kolberg
 			NOT = { owns = 254 } #Poznan
 			NOT = { owns = 1858 } #Stettin
@@ -610,9 +621,38 @@ country_event = {
 		name = "flavor_brapru.16.a" #We need the money.
 		ai_chance = { factor = 100 }
 		tooltip = {
-			neumark_area = {
-				limit = { owner = { tag = TEU } }
-				cede_province = BRA
+			49 = {
+				if = {
+					limit = {
+						owned_by = TEU
+						controlled_by = TEU
+					}
+					cede_province = BRA
+					add_core = BRA
+					remove_core = TEU
+				}
+			}
+			4747 = {
+				if = {
+					limit = {
+						owned_by = TEU
+						controlled_by = TEU
+					}
+					cede_province = BRA
+					add_core = BRA
+					remove_core = TEU
+				}
+			}
+			7821 = { # Brian
+				if = {
+					limit = {
+						owned_by = TEU
+						controlled_by = TEU
+					}
+					cede_province = BRA
+					add_core = BRA
+					remove_core = TEU
+				}
 			}
 		}
 		add_treasury = 100
@@ -647,11 +687,40 @@ country_event = {
 	
 	option = {
 		name = "flavor_brapru.17.a" #Neumark shall not be brought to non-German Tongue!
-		neumark_area = {
-			limit = { owner = { tag = TEU } }
-			cede_province = BRA
-			add_core = BRA
-			remove_core = TEU
+		TEU = {
+			49 = {
+				if = {
+					limit = {
+						owned_by = TEU
+						controlled_by = TEU
+					}
+					cede_province = BRA
+					add_core = BRA
+					remove_core = TEU
+				}
+			}
+			4747 = {
+				if = {
+					limit = {
+						owned_by = TEU
+						controlled_by = TEU
+					}
+					cede_province = BRA
+					add_core = BRA
+					remove_core = TEU
+				}
+			}
+			7821 = { # Brian
+				if = {
+					limit = {
+						owned_by = TEU
+						controlled_by = TEU
+					}
+					cede_province = BRA
+					add_core = BRA
+					remove_core = TEU
+				}
+			}
 		}
 		add_treasury = -100
 		FROM = {

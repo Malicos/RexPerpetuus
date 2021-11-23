@@ -105,7 +105,7 @@ country_event = {
 #		random = {
 #			chance = 50
 #			random_province = {
-#				limit = { AND = { region = ireland_area owned_by = ENG } }
+#				limit = { AND = { region = ireland_region owned_by = ENG } } # Brian; changed from _area
 #				cede_province = FROM
 #				add_core = FROM
 #			}
@@ -187,7 +187,7 @@ country_event = {
 			modifier = {
 				factor = 0
 				any_core_province = {
-					region = ireland_area
+					region = ireland_region # Brian; changed from _area
 					NOT = { culture = irish }
 				}
 			}	#Disabled if only Irish culture provinces left
@@ -207,7 +207,7 @@ country_event = {
 				factor = 0
 				NOT = {
 					any_core_province = {
-						region = ireland_area
+						region = ireland_region # Brian; changed from _area
 						culture = irish
 					}
 				}
@@ -231,7 +231,7 @@ country_event = {
 				NOT = { religion = catholic }
 				num_of_owned_provinces_with = {
 					value = 8
-					region = ireland_area
+					region = ireland_region # Brian; changed from _area
 					religion = catholic
 				}
 			}
@@ -243,7 +243,7 @@ country_event = {
 		}	#Converts religion to Catholic if at least half of Ireland is still Catholic
 		every_owned_province = {
 			limit = {
-				region = ireland_area
+				region = ireland_region # Brian; changed from _area
 				NOT = { culture = irish }
 			}
 			add_province_modifier = {
@@ -261,7 +261,7 @@ country_event = {
 				factor = 0
 				NOT = {
 					any_core_province = {
-						region = ireland_area
+						region = ireland_region # Brian; changed from _area
 						culture = irish
 					}
 				}
@@ -277,7 +277,7 @@ country_event = {
 				NOT = { religion = catholic }
 				num_of_owned_provinces_with = {
 					value = 8
-					region = ireland_area
+					region = ireland_region # Brian; changed from _area
 					religion = catholic
 				}
 			}
@@ -289,7 +289,7 @@ country_event = {
 		}	#Converts religion to Catholic if at least half of Ireland is still Catholic
 		every_owned_province = {
 			limit = {
-				region = ireland_area
+				region = ireland_region # Brian; changed from _area
 				NOT = { culture = irish }
 			}
 			add_province_modifier = {

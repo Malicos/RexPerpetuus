@@ -1,3 +1,4 @@
+ 
 # 78 - Mainz
 #Region - Germany
 #Area - Palatinate
@@ -9,11 +10,12 @@ capital = "Mainz"
 culture = hessian
 religion = catholic
 trade_goods = wine
-base_tax = 10
-base_production = 10
-base_manpower = 6
+base_tax = 8
+base_production = 7
+base_manpower = 5
 is_city = yes
 hre = yes
+center_of_trade = 2
 
 discovered_by = western
 discovered_by = muslim

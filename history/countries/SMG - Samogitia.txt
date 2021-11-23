@@ -8,3 +8,162 @@ capital = 271
 
 
 #History, currently empty.
+1443.1.1 = {	# Kept getting reinstated so technically ruled since 1412. However, this reign is when his realm was granted autonomy.
+	monarch = {
+		name = "Mykolas"
+		dynasty = "Kesgaila"
+		adm = 4   # Christianized Samogitia (under a previous rule) while managing crises.
+		dip = 4   # Got himself involved in many Lithuanian politics at the time. Gained autonomy for his kingdom.
+		mil = 3   # Nothing Exciting
+		birth_date = 1374.1.1 # Not much on birth. I presumed his career began around 27.
+		death_date = 1450.1.1
+	}
+	heir = {
+		name = "Jonas"
+		dynasty = "Kesgaila"
+		adm = 2   # Competent against Teutonic knights.
+		dip = 3   # Nothing much, although he did conduct foreign policy with the Teutons.
+		mil = 3   # Competent against Teutonic knights.
+		birth_date = 1420.1.1 # Very Rough Date
+		death_date = 1485.1.1
+	}
+}
+
+1450.1.1 = {	# Presuming Mykolas rules untill death; which seems so.
+	monarch = {
+		name = "Jonas"
+		dynasty = "Kesgaila"
+		adm = 2   # Competent against Teutonic knights.
+		dip = 3   # Nothing much, although he did conduct foreign policy with the Teutons.
+		mil = 3   # Competent against Teutonic knights.
+		birth_date = 1420.1.1 # Very Rough Date
+		death_date = 1485.1.1
+	}
+}
+
+1454.1.1 = { #Birth of heir.
+	heir = {
+		name = "Stanislovas"
+		dynasty = "Kesgaila"
+		adm = 2   # Nothing Special
+		dip = 1   # Various questionable decisions (firing generals and supporting unification under Poland) caused him bad relations.
+		mil = 3   # Little military knowledge during the Russo-Lithuanian war. However, did lead his armies to victory against Teutons.
+		birth_date = 1454.1.1 # Not much on birth. I presumed his career began around 32.
+		death_date = 1527.1.1
+	}
+}
+
+1485.1.1 = {
+	monarch = {
+		name = "Stanislovas"
+		dynasty = "Kesgaila"
+		adm = 2   # Nothing Special
+		dip = 1   # Various questionable decisions (firing generals and supporting unification under Poland) caused him bad relations.
+		mil = 3   # Little military knowledge during the Russo-Lithuanian war. However, did lead his armies to victory against Teutons.
+		birth_date = 1454.1.1 # Not much on birth. I presumed his career began around 32.
+		death_date = 1527.1.1
+	}
+}
+
+1503.1.1 = { #Birth of heir.
+	heir = {
+		name = "Stanislovas"
+		dynasty = "Kesgaila"
+		adm = 2   # Nothing Special
+		dip = 2   # Unable to counteract Poland's influence on his land. 
+		mil = 2   # Nothing Special
+		birth_date = 1503.1.1 
+		death_date = 1532.1.1
+	}
+}
+
+1527.1.1 = {
+	monarch = {
+		name = "Stanislovas"
+		dynasty = "Kesgaila"
+		adm = 2   # Nothing Special
+		dip = 2   # Unable to counteract Poland's influence on his land. 
+		mil = 2   # Nothing Special
+		birth_date = 1503.1.1 
+		death_date = 1532.1.1
+	}
+}
+
+1533.1.1 = {	# Wikipedia states 1535 but I am unsure of what will happen during those 2 years.
+	monarch = {
+		name = "Jan"
+		dynasty = "Radziwiłł"
+		adm = 3   # Nothing Special
+		dip = 2   # Nothing Special 
+		mil = 2   # Nothing Special
+		birth_date = 1503.1.1 
+		death_date = 1542.1.1
+	}
+}
+
+1542.1.1 = {
+	monarch = {
+		name = "Maciej Janowicz"
+		dynasty = "Kłoczko"
+		adm = 2   # Really Nothing Special
+		dip = 2   # Really Nothing Special 
+		mil = 1   # Really Nothing Special
+		birth_date = 1508.1.1	# Presumption: Short Reign Short Life
+		death_date = 1543.1.1	# Presumption: The Ruler Died Instead of Abdicate
+	}
+}
+
+1543.1.1 = {
+	monarch = {
+		name = "Jerzy"
+		dynasty = "Bilewicz"
+		adm = 2   # Really Nothing Special
+		dip = 3   # Really Nothing Special 
+		mil = 1   # Really Nothing Special
+		birth_date = 1505.1.1	# Presumption: Short Reign Short Life
+		death_date = 1544.1.1	# Presumption: The Ruler Died Instead of Abdicate
+	}
+}
+
+1544.1.1 = {
+	monarch = {
+		name = "Hieronim"
+		dynasty = "Chodkiewicz"
+		adm = 3   # Well rounded monarch
+		dip = 4   # Promoted himself to General Starost and had seats at the Council of Lords. 
+		mil = 5   # Led his armies to victory against Muscovy at Wenden
+		birth_date = 1515.1.1
+		death_date = 1561.1.1
+	}
+}
+
+1561.1.1 = {
+	monarch = {
+		name = "Jan Hieronimowicz"
+		dynasty = "Chodkiewicz"
+		adm = 4   # Pretty Well Educated
+		dip = 3   # Supported PLC unification and had realtions with the Jesuits once he was a catholic.
+		mil = 4   # Seemingly fended off Russian invasions.
+		birth_date = 1537.1.1
+		death_date = 1579.8.4
+		religion = reformed
+	}
+}
+
+1570.1.1 = {	#Converted to Catholicism
+	religion = catholic 
+}
+
+1558.1.1 = {	#"Before 1559"
+	queen = {
+		name = "Krystyna"
+		dynasty = "Zborowska"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1515.1.1 # 0 Evidence of this
+		death_date = 1579.1.1 # 0 Evidence of this
+		female = yes
+		religion = reformed
+	}
+}

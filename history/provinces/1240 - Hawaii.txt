@@ -1,19 +1,24 @@
-#1240 - Hawaii
+ 
+# owned in 1.31
 
-culture = hawaiian
+owner = HAW
+controller = HAW
+add_core = HAW
+culture = hawaiian # BT; polynesian
 religion = animism
-capital = "Hilo"
-trade_goods = unknown
+capital = "Hilo" # BT; "Kailua-Kona"
+is_city = yes
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 1 # BT; 3
+base_production = 1 # BT; 3
 base_manpower = 1
-native_size = 10
-native_ferocity = 1
-native_hostileness = 3
+trade_goods = livestock
+# ??? below
+#native_size = 10
+#native_ferocity = 1
+#native_hostileness = 3
 
-
-
+discovered_by = polynesian_tech # 1.31
 
 1555.1.1 = { discovered_by = SPA }
 1778.1.1 = { discovered_by = GBR } #James Cook

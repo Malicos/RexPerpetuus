@@ -119,9 +119,9 @@ country_event = {
 		}
 		522 = {
 			move_capital_effect = yes
-			add_base_tax = 4
-			add_base_production = 4
-			add_base_manpower = 4
+			add_base_tax = 4 # BT; 2
+			add_base_production = 4 # BT; 2
+			add_base_manpower = 4 # BT; 2
 			add_province_modifier = {
 				name = "peacock_throne"
 				duration = -1
@@ -131,9 +131,9 @@ country_event = {
 	option = { 
 		name = "india_mission_events.3.b" # keep capital
 		capital_scope = {
-			add_base_tax = 4
-			add_base_production = 4
-			add_base_manpower = 4
+			add_base_tax = 4 # BT; 2
+			add_base_production = 4 # BT; 2
+			add_base_manpower = 4 # BT; 2
 			add_province_modifier = {
 				name = "peacock_throne"
 				duration = -1
@@ -227,14 +227,13 @@ country_event = {
 		}
 		change_primary_culture = marathi
 		hidden_effect = {
-			kill_heir = yes
+			kill_heir = { }
 		}
 		define_ruler = {
 			culture = marathi
 			ADM = 3
 			DIP = 3
 			MIL = 6
-			fixed = yes
 		}
 		if = {
 			limit = {

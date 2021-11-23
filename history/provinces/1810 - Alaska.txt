@@ -1,3 +1,4 @@
+ 
 # No previous file for Beyond Typus province
 
 culture = koyukon			#Deg Hit'an, semi Yupikised Athabaskans, Koyukon culture close enough.

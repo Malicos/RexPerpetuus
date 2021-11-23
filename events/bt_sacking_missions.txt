@@ -1,6 +1,8 @@
 namespace = bt_sacking_events
 normal_or_historical_nations = yes
 
+# Brian removed all attestations of required_personality
+
 #Sack of Lubeck
 country_event = {
 	id = bt_sacking_events.1
@@ -55,7 +57,6 @@ country_event = { #Sack of Copenhagen
 		trigger = {
 			ruler_has_personality = cruel_personality
 		}
-		required_personality = cruel_personality
 		ai_chance = {
 			factor = 0
 		}

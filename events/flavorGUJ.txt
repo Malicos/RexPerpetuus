@@ -262,7 +262,7 @@ country_event = {
 			region = west_india_region
 			OR = {
 				has_discovered = POR
-				AND = {
+				AND = { # BT
 					NOT = { exists = POR }
 					has_discovered = IBE
 				}
@@ -315,11 +315,11 @@ country_event = {
 		ai_chance = { factor = 9 }
 		GUJ = { country_event = { id = flavor_guj.9 } }
 		GUJ = { add_opinion = { who = TUR modifier = opinion_improved_relations } }
-		if = {
+		if = { # BT adjusted
 			limit = { exists = POR }
 			POR = { add_opinion = { who = TUR modifier = opinion_irritated } }
 		}
-		if = {
+		if = { # BT
 			limit = { 
 				NOT = { exists = POR }
 				exists = IBE

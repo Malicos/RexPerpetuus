@@ -1,3 +1,4 @@
+ 
 #base wasteland made colonisable in BT
 
 culture = inuit			#mostly

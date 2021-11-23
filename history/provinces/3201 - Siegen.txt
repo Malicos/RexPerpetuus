@@ -1,3 +1,4 @@
+ 
 #3201 - Siegen
 #Region - Germany
 #Area - Hesse
@@ -8,11 +9,11 @@ add_core = HES
 capital = "Siegen"
 trade_goods = copper
 hre = yes
-culture = luxembourgish_culture
+culture = hessian
 religion = catholic
-base_tax = 6
-base_production = 6
-base_manpower = 2 
+base_tax = 3
+base_production = 3
+base_manpower = 3
 is_city = yes
 
 discovered_by = western

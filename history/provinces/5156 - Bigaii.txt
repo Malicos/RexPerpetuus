@@ -1,3 +1,4 @@
+ 
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
 owner = PGI
@@ -6,11 +7,11 @@ add_core = PGI
 culture = mikrasiatic
 religion = orthodox
 capital = "Biga"
-trade_goods = naval_supplies			#Unclear, going with naval supplies because of the large forests around here
+trade_goods = fish
 hre = no
-base_tax = 4 #3
-base_production = 4 #3
-base_manpower = 3 #2
+base_tax = 3
+base_production = 3
+base_manpower = 3
 is_city = yes
 
 discovered_by = western

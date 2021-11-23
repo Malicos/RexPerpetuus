@@ -265,6 +265,16 @@ country_event = {
 		is_year = 1600
 		NOT = { is_year = 1650 }
 		NOT = { stability = 3 }
+		num_of_owned_provinces_with = {
+			value = 1
+			AND = {
+				region = south_german_region
+				OR = {
+					culture = austrian
+					culture = bavarian
+				}
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -275,6 +285,13 @@ country_event = {
 		name = "flavor_hab.EVTOPTA3195"
 		add_stability = -1
 		random_owned_province = {
+			limit = {
+				region = south_german_region
+				OR = {
+					culture = austrian
+					culture = bavarian
+				}
+			}
 			spawn_rebels = {
 				type = anti_tax_rebels
 				size = 2
@@ -297,7 +314,10 @@ country_event = {
 		any_owned_province = {
 			OR = {
 				area = transdanubia_area
+				#area = transylvania_area # ??? BT removed
+				#area = southern_transylvania_area # ??? BT removed
 				area = alfold_area
+				#area = slovakia_area # ??? BT removed
 			}
 		}
 		NOT = { stability = 1 }
@@ -314,7 +334,10 @@ country_event = {
 				limit = {
 					OR = {
 						area = transdanubia_area
+						#area = transylvania_area # ??? BT removed
+						#area = southern_transylvania_area # ??? BT removed
 						area = alfold_area
+						#area = slovakia_area # ??? BT removed
 					}
 					development = 10
 				}
@@ -343,7 +366,10 @@ country_event = {
 			limit = {
 				OR = {
 					area = transdanubia_area
+					#area = transylvania_area # ??? BT removed
 					area = alfold_area
+					#area = slovakia_area # ??? BT removed
+					#area = southern_transylvania_area # ??? BT removed
 				}
 			}	
 			add_unrest = 5
@@ -355,7 +381,10 @@ country_event = {
 			limit = {
 				OR = {
 					area = transdanubia_area
+					#area = transylvania_area # ??? BT removed
+					#area = southern_transylvania_area # ??? BT removed
 					area = alfold_area
+					#area = slovakia_area # ??? BT removed
 				}
 				is_capital = no
 			}	
@@ -494,7 +523,7 @@ country_event = {
 		tag = HAB
 		NOT = { exists = HUN }
 		NOT = { religion = protestant }
-		any_owned_province = {
+		any_owned_province = { # BT modif.
 			OR = {
 				area = transdanubia_area
 				area = alfold_area
@@ -514,7 +543,7 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = HAB_had_event_3099
 			random_owned_province = {
-				limit = {
+				limit = { # BT modif.
 					OR = {
 						area = transdanubia_area
 						area = alfold_area
@@ -524,7 +553,7 @@ country_event = {
 				set_province_flag = hungarian_revolt
 			}
 			random_owned_province = {
-				limit = {
+				limit = { # BT modif.
 					OR = {
 						area = transdanubia_area
 						area = alfold_area
@@ -763,7 +792,7 @@ country_event = {
 		NOT = { is_year = 1700 }
 		
 		NOT = { exists = HUN }
-		any_owned_province = {
+		any_owned_province = { # BT modif.
 			OR = {
 				area = transdanubia_area
 				area = alfold_area
@@ -786,7 +815,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			random_owned_province = {
-				limit = {
+				limit = { # BT modif.
 					OR = {
 						area = transdanubia_area
 						area = alfold_area
@@ -804,10 +833,19 @@ country_event = {
 			limit = {
 				NOT = { area = wallachia_area }
 				NOT = { area = moldavia_area }
-				NOT = { area = silistria_area }
+				NOT = { area = silistria_area } # BT
 			}
 			add_core = HUN
 		}
+		#carpathia_region = { # BT removed
+		#	limit = {
+		#		NOT = { area = wallachia_area }
+		#		NOT = { area = moldavia_area }
+		#		NOT = { area = transylvania_area }
+		#		NOT = { area = southern_transylvania_area }
+		#	}
+		#	change_culture = hungarian
+		#}
 		random_owned_province = {
 			limit = {
 				has_province_flag = hungarian_revolt
@@ -823,7 +861,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				any_owned_province = {
+				any_owned_province = { # BT modif.
 					OR = {
 						area = transdanubia_area
 						area = alfold_area
@@ -832,7 +870,7 @@ country_event = {
 				}
 			}
 			random_owned_province = {
-				limit = {
+				limit = { # BT modif.
 					OR = {
 						area = transdanubia_area
 						area = alfold_area
@@ -2062,6 +2100,10 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = yes
+
+	trigger = {
+		always = no
+	}
 
 	immediate = {
 		hidden_effect = {

@@ -1,3 +1,4 @@
+ 
 #3203 - Lippe
 #Region - Germany
 #Area - Westphalia
@@ -5,13 +6,13 @@
 owner = LPP
 controller = LPP
 add_core = LPP
-culture = hannoverian
+culture = lower_saxon
 religion = catholic
 trade_goods = wool
 capital = "Detmold"
-base_tax = 4 
+base_tax = 5 
 base_production = 4 
-base_manpower = 2 
+base_manpower = 3
 hre = yes
 is_city = yes
 
