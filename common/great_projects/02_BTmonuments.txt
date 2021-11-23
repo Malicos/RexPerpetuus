@@ -3,7 +3,7 @@ pompeii = {
 	start = 121		#Napoli
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 79.11.23		#Likely date of eruption, ruins identified as Pompeii 1693.01.01 and publicly identified 1763.08.20
+	date = 1763.08.20		#Likely date of eruption, ruins identified as Pompeii 1693.01.01 and publicly identified 1763.08.20	#(neo) changing from 79.11.23 because of the new Pompeii spawning event
 	
 	#time to build
 	time = {
@@ -27,6 +27,18 @@ pompeii = {
 
 	#can we build it?
 	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = bt_pompeii_has_been_discovered
+			OR = {
+				121 = {
+					has_great_project = {
+						type = pompeii
+						tier = 0
+					}
+				}
+				has_global_flag = bt_pompeii_event_happened_flag
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -39,10 +51,34 @@ pompeii = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = bt_pompeii_has_been_discovered
+			OR = {
+				121 = {
+					has_great_project = {
+						type = pompeii
+						tier = 0
+					}
+				}
+				has_global_flag = bt_pompeii_event_happened_flag
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = bt_pompeii_has_been_discovered
+			OR = {
+				121 = {
+					has_great_project = {
+						type = pompeii
+						tier = 0
+					}
+				}
+				has_global_flag = bt_pompeii_event_happened_flag
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -91,7 +127,6 @@ pompeii = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_hostile_attrition = 5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -127,7 +162,6 @@ pompeii = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_hostile_attrition = 5
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -160,7 +194,6 @@ pompeii = {
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
 			local_institution_spread = 1
-			local_hostile_attrition = 10
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -961,7 +994,9 @@ colosseum = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_prestige = 10
+			owner = {				
+				add_prestige = 10
+			}
 		}
 	}
 

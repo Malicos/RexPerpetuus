@@ -1,0 +1,17 @@
+defined_text = {
+	name = BTGetRulerOrOverlordName
+
+	text = {
+		localisation_key = bt_string_ruler_name
+		trigger = {
+			is_subject = no
+		}
+	}
+
+	text = {
+		localisation_key = bt_string_overlord_name
+		trigger = {
+			is_subject = yes
+		}
+	}
+}

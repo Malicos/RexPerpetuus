@@ -979,7 +979,7 @@ country_decisions = {
 				}
 				set_government_rank = 2
 			}
-			swap_non_generic_missions = yes
+			swap_non_generic_missions = no 			#(JP) Because Rhineland has no ideas, they should keep the prior ones
 			if = {
 				limit = {
 					is_playing_custom_nation = no

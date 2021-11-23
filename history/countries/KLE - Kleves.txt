@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = hessian
-add_accepted_culture = dutch
+primary_culture = dutch
+add_accepted_culture = lower_saxon
 religion = catholic
 technology_group = western
 capital = 2975	# Cleves
@@ -66,7 +66,7 @@ capital = 2975	# Cleves
 		adm = 3
 		dip = 3
 		mil = 4
-		leader = {	name = "Johann II"             	type = general	fire = 3	shock = 2	manuever = 3	siege = 0}
+		leader = {	name = "Johann II"		type = general	fire = 3	shock = 2	manuever = 3	siege = 0}
 	}
 }
 
@@ -78,7 +78,7 @@ capital = 2975	# Cleves
 		adm = 3
 		dip = 3
 		mil = 4
-		leader = {	name = "Johann II"             	type = general	fire = 3	shock = 2	manuever = 3	siege = 0}
+		leader = {	name = "Johann II"		type = general	fire = 3	shock = 2	manuever = 3	siege = 0}
 	}
 }
 

@@ -1499,6 +1499,8 @@
  gc_cas_spa_italian_ambition_2_claims:0 "Grants permanent claims on the provinces required for the mission §YItalian Conquest§!"
  gc_cas_spa_italian_ambition_claims:0 "Grants permanent claims on the provinces required for the mission §YItalian Ambition§!"
  gc_cas_spa_italian_ambition_claims_2:0 "Grants §Y[NAP.GetName]§! permanent claims on the provinces required for the mission §YItalian Ambition§!"
+ gc_cas_spa_navarra_claims:0 "Grants permanent claims on the provinces required for the mission §YSubjugate Navarra§!"
+ gc_cas_spa_reconquista_one_claims:0 "Grants permanent claims on the provinces required for the mission §YReclaim Andalucia§!"
  gc_conquer_the_north_african_coast_claims:0 "Grants permanent claims on the provinces required for the mission §YExpand the Buffer Zone§!"
  gc_por_african_gold_claims:0 "Grants permanent claims on the provinces required for the mission §YAfrican Gold§!"
  gc_por_bandeirantes_claims:0 "Grants permanent claims on the provinces required for the mission §YPromote the Bandeirantes§!"

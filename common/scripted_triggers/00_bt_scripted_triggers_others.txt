@@ -2821,7 +2821,7 @@ emp_bav_union_with_austria_provinces = {
 	OR = {
 		area = austria_proper_area
 		area = inner_austria_area
-		province_id = 4795 #Oberkдrnten
+		area = carinthia_area
 	}
 }
 

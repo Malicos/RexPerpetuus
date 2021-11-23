@@ -10,6 +10,7 @@ add_government_reform = leading_clergy_reform
 
 #Demographics
 primary_culture = hessian
+add_accepted_culture = franconian
 religion = catholic
 
 #Tech and Military
