@@ -1246,6 +1246,9 @@ gc_cas_spa_reconquista_one_provinces = {
 		area = northern_andalusia_area
 	}
 }
+gc_cas_spa_navarra_provinces = {
+	area = basque_country
+}
 gc_cas_spa_reconquista_three_provinces = {
 	OR = {
 		area = valencia_area
