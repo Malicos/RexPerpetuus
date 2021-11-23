@@ -1,8 +1,8 @@
 #4208 - Qurqara-usu
 
-owner = ZHT
-controller = ZHT
-add_core = ZHT
+owner = KHT
+controller = KHT
+add_core = KHT
 culture = uyghur
 religion = sunni
 capital = "Balikul"

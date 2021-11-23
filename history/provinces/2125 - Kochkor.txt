@@ -1,8 +1,8 @@
 # 2125 - Kochkor
 
-owner = KLS
-controller = KLS
-add_core = KLS
+owner = KHT
+controller = KHT
+add_core = KHT
 culture = kirgiz
 religion = sunni
 capital = "Kochkor"

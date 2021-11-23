@@ -1,8 +1,8 @@
 #714 - Dzungaria
 
-owner = ZHT
-controller = ZHT
-add_core = ZHT
+owner = NAI
+controller = NAI
+add_core = NAI
 culture = oirats
 religion = tengri_pagan_reformed
 capital = "Hoboksar"
@@ -12,7 +12,6 @@ base_tax = 2
 base_production = 2 
 base_manpower = 4
 is_city = yes
-add_core = CHG
 
 discovered_by = CHG
 discovered_by = chinese

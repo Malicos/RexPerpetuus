@@ -1,9 +1,8 @@
 # 2368 - Karamegdan
 
-owner = KPC
-controller = KPC
-add_core = KPC
-add_core = ZHT
+owner = KHT
+controller = KHT
+add_core = KHT
 culture = khazak
 religion = sunni
 capital = "Karamegdan"

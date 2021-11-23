@@ -1,8 +1,8 @@
 # 4684 - Dzhemenika
 
-owner = ZHT
-controller = ZHT
-add_core = ZHT
+owner = KHT
+controller = KHT
+add_core = KHT
 culture = oirats
 religion = sunni
 capital = "Dzhemenika"

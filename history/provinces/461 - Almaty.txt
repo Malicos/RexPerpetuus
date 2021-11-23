@@ -1,8 +1,8 @@
 #461 - Zhetysu
 
-owner = ZHT
-controller = ZHT
-add_core = ZHT
+owner = KHT
+controller = KHT
+add_core = KHT
 culture = khazak
 religion = sunni
 capital = "Almaty"

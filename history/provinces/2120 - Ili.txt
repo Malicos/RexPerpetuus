@@ -1,8 +1,8 @@
 # 2120 - Ili
 
-owner = ZHT
-controller = ZHT
-add_core = ZHT
+owner = KHT
+controller = KHT
+add_core = KHT
 culture = uyghur
 religion = sunni
 capital = "Ili"

@@ -1,8 +1,8 @@
 # 4685 - Karagandy
 
-owner = ZHT
-controller = ZHT
-add_core = ZHT
+owner = KPC
+controller = KPC
+add_core = KPC
 culture = khazak
 religion = sunni
 capital = "Karagandy"

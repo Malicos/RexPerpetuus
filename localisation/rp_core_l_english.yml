@@ -389,6 +389,8 @@
  MRN_ADJ:0 "Makrani"
  
  # Central Asia
+ KHT:0 "Khitan"
+ KHT_ADJ:0 "Khitan"
  KLS:0 "Karlukistan"
  KLS_ADJ:0 "Karluk"
  KPC:0 "Kypchak"
