@@ -1,9 +1,9 @@
 #New Beyond Typus Province
 
-owner = PLT
-controller = PLT
-add_core = PLT
+owner = SMO
+controller = SMO
 add_core = SMO
+add_core = PLT
 culture = byelorussian
 religion = orthodox
 capital = "Ustvyaty"

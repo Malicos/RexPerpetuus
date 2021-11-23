@@ -1,8 +1,8 @@
 #4251 - Mozhaisk
 
-owner = SMO
-controller = SMO
-add_core = SMO
+owner = MOZ
+controller = MOZ
+add_core = MOZ
 culture = russian
 religion = orthodox
 hre = no

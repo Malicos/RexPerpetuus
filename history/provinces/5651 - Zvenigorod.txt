@@ -1,8 +1,8 @@
 #New Beyond Typus Province
 
-owner = SMO
-controller = SMO
-add_core = SMO
+owner = MOZ
+controller = MOZ
+add_core = MOZ
 culture = russian
 religion = orthodox
 capital = "Zvenigorod"

@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Suzdal
 
-owner = RSO
-controller = RSO
-add_core = RSO
+owner = YAR
+controller = YAR
+add_core = YAR
 culture = russian 
 religion = orthodox
 hre = no

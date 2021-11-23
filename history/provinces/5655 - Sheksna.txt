@@ -1,8 +1,8 @@
 #New Beyond Typus Province
 
-owner = RSO
-controller = RSO
-add_core = RSO
+owner = BLO
+controller = BLO
+add_core = BLO
 culture = russian
 religion = orthodox
 capital = "Fedosyevo"

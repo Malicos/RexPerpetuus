@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Moscow
 
-owner = RYA
-controller = RYA
-add_core = RYA
+owner = MOS
+controller = MOS
+add_core = MOS
 culture = russian
 religion = orthodox
 hre = no

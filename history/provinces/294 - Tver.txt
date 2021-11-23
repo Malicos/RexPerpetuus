@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Moscow
 
-owner = RSO
-controller = RSO
-add_core = RSO 
+owner = TVE
+controller = TVE
+add_core = TVE 
 culture = russian
 religion = orthodox
 hre = no

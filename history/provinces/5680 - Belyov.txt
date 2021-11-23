@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = SMO
-controller = SMO
-add_core = SMO
+owner = BLV
+controller = BLV
+add_core = BLV
 culture = russian
 religion = orthodox
 capital = "Belyov"

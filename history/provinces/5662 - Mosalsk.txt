@@ -1,8 +1,8 @@
 #New Beyond Typus Province
 
-owner = SMO
-controller = SMO
-add_core = SMOMSL
+owner = MSL
+controller = MSL
+add_core = MSL
 culture = russian
 religion = orthodox
 capital = "Mosalsk"

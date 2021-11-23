@@ -1,8 +1,8 @@
 #4254 - Starodub
 
-owner = NZH
-controller = NZH
-add_core = NZH
+owner = MRM
+controller = MRM
+add_core = MRM
 culture = russian
 religion = orthodox
 hre = no

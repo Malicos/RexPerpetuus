@@ -1,8 +1,8 @@
 #New Beyond Typus Province
 
-owner = SMO
-controller = SMO
-add_core = SMO
+owner = VTN
+controller = VTN
+add_core = VTN
 culture = russian
 religion = orthodox
 capital = "Borovsk"

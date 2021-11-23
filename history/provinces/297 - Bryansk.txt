@@ -1,8 +1,8 @@
 #297 - Bryansk
 
-owner = SMO
-controller = SMO
-add_core = SMO
+owner = MSL
+controller = MSL
+add_core = MSL
 culture = russian
 religion = orthodox 
 hre = no

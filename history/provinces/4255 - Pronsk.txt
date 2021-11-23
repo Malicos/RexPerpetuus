@@ -1,8 +1,8 @@
 #4255 - Pronsk
 
-owner = RYA
-controller = RYA 
-add_core = RYA  
+owner = PRS
+controller = PRS 
+add_core = PRS 
 culture = russian
 religion = orthodox
 hre = no
