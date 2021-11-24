@@ -592,7 +592,7 @@
 3060 = { "Betuwe" "Nimwegen" }
 3063 = { "Rurberg" "Rurberg" }
 3064 = { "Dünkirchen" "Dünkirchen" }
-3066 = { "Arelerland" "Arel" }
+3066 = { "Arel" "Arel" }	#(Chrys) removing "Arelerland" for now as Dutch and French use their names for Arlon instead of Arelerland for the province
 4381 = { "Oberyssel" "Schwolle" }
 4382 = { "Umland" "Delfsiel" } #(JP) or Delfsiehl
 4383 = { "Der Haag" "Der Haag" }
@@ -1231,6 +1231,15 @@
 2653 = { "Ichimsch" "Ichimsch" }
 
 #Caribbean
+482 = { "Groß-Bahama" "Friedrichshafen" }
+5574 = { "Eleutherien" "Dunsmürr-Freistadt" }
+6051 = { "Mayagwann" "Abrahamsbucht" }
+6052 = { "Exumainseln" "Sankt Georg" }
+6053 = { "Heiland" "Hahnenbrandt" }
+6054 = { "Rum- & Katzeninseln" "Freistadt" }
+6055 = { "Nassau" "Nassau" }
+6056 = { "Neu-Andros-Insel" "Andros" }
+6057 = { "Äußere Bahamasinseln" "Sumpfighafen" }
 
 #Colombia
 831 = { "Karakas" "Karakas" }
@@ -1605,7 +1614,6 @@
 594 = "Betanien"
 593 = "Ligorien"
 1097 = "Fernandosinsel"			#Or "Biocko"
-5574 = "Heiland"
 2189 = "Archangei"
 719 = "Dsachan"
 716 = "Tuwinerland"
@@ -2647,7 +2655,6 @@
 950 = { "Petersburg" "Petersburg" } #
 952 = { "Matthäusland" "Thomburg" } #
 956 = { "Neuschweden" "Philadelphia" } #
-482 = { "Nassau" "Nassau" } #
 489 = { "Schildkröteninsel" "Güneiffen" } #
 4618 = { "Erlhafen" "Erlhafen" } #
 830 = { "Neu-Nürnberg" "Neunürnberg" } #
@@ -3000,7 +3007,6 @@
 5311 = { "Choms" "Choms" } #
 5332 = { "Arissa" "Arissa" } #
 5572 = { "Bani" "Hülgen" } #
-5574 = { "Heiland" "Dunsmürr-Freistadt" } #
 5575 = { "Totmannskai" "Hardtswell" } #
 5576 = { "Krückinsel" "Piratenküste" } #
 5577 = { "Henegau" "Matthäus" } #

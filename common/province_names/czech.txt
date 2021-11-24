@@ -13,8 +13,8 @@
 8459 = { "Kouba" "Kouba" }
 8470 = { "Vitoraz" "Vitoraz" }
 8471 = { "Bejdov" "Bejdov" }
-8472 = { "Láva" "Láva" }
-8473 = { "Rohy" "Rohy" }
+8472 = { "Rohy" "Rohy" }
+8473 = { "Láva" "Láva" }
 8474 = { "Svaty Hippolyt" "Svaty Hippolyt" }
 
 #North Germany

@@ -85,7 +85,10 @@ country_event = {
 	option = {
 		name = bt_monuments.1.a #Incredible!
 		121 = {
-			add_great_project = pompeii
+			add_great_project = {
+				type = pompeii
+				instant = no
+			}
 		}
 		hidden_effect = {
 			set_global_flag = bt_pompeii_event_happened_flag

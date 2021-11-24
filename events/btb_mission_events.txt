@@ -1,5 +1,4 @@
 namespace = bt_ayyubid_mission_events
-namespace = bt_angevin_mission_events
 
 country_event = { #1 The Jewish of Jerusalem
 	id = bt_ayyubid_mission_events.1

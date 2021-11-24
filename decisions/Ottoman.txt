@@ -39,7 +39,10 @@ country_decisions = {
 				change_culture = turkish
 				change_religion = ROOT
 				rename_capital = "Kostantiniyye"
-				add_great_project = sultan_ahmed_mosque
+				add_great_project = {
+					type = sultan_ahmed_mosque
+					instant = no
+				}
 			}
 			if = {
 				limit = {

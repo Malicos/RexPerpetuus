@@ -108,6 +108,54 @@
 8495 = { "Nagykanizsa" "Nagykanizsa" }
 
 #Balkans
+131 = { "Zágráb" "Zágráb" } #(JP) Or "Zabrag"
+136 = { "Szplit" "Szplit" } #(JP) Or "Spalató"
+137 = { "Raguza" "Raguza" }
+#141 Kragujevac
+150 = { "Plevna" "Plevna" }
+152 = { "Varasd" "Varasd" }
+159 = { "Durosztol" "Durosztol" }
+1767 = { "Eszék" "Eszék" }
+1826 = { "Kaseszi" "Kaseszi" }
+#1827 Žica
+2746 = { "Bodony" "Bodony" }
+3164 = { "Konstanca" "Konstanca" }
+3165 = { "Várna" "Várna" }
+#3185 Kruševac
+3187 = { "Szabács" "Szabács" }
+3190 = { "Veroce" "Veroce" }
+3196 = { "Károlyváros" "Károlyváros" }
+4176 = { "Végszendrö" "Végszendrö" }
+4239 = { "Nándorfehérvár" "Nándorfehérvár" }
+4704 = { "Tövisvár" "Tövisvár" }
+4706 = { "Tulcsa" "Tulcsa" }
+4752 = { "Fiume" "Fiume" }
+4753 = { "Zára" "Zára" }
+4756 = { "Belovár" "Belovár" }
+4757 = { "Macsó" "Macsó" } #(JP) or "Valpó"
+7154 = { "Balcsik" "Balcsik" }
+7157 = { "Raszápoly" "Raszápoly" } #(JP) Turkish "-bolu" becomes "-poly", z -> sz. Tell me if I'm wrong
+7158 = { "Sumen" "Sumen" }
+7159 = { "Oroszcsík" "Oroszcsík" }
+7706 = { "Lovecs" "Lovecs" }
+7707 = { "Borászló" "Borászló" } #(JP) Similar to spellings of Breslau for Hungarian
+7714 = { "Szájcér" "Szájcér" }
+7715 = { "Kládovó" "Kládovó" }
+#7717 Užice
+7718 = { "Szerém" "Szávaszentdemeter" }
+7730 = { "Makarszka" "Makarszka" }
+7731 = { "Brács" "Brács" }
+7732 = { "Szebenikó" "Szebenikó" }
+7733 = { "Tinin" "Tinin" }
+7734 = { "Szeny" "Szeny" } #(JP) or "Zengg"
+#7735 Krk
+7736 = { "Sziszek" "Sziszek" }
+7738 = { "Pozsega" "Pozsega" }
+7739 = { "Valkó" "Vukovár" } #(JP) Capital can also be "Valkóvár"
+7759 = { "Isácsza" "Isácsza" } #(JP) Attempted to transliterate the sounds
+7765 = { "Kérszova" "Kérszova" }
+8187 = { "Daruvár" "Daruvár" }
+
 
 #South Germany
 
@@ -117,13 +165,44 @@
 
 #Pontic Steppe
 
+#Ural
+
+#Russia
+
+#Baltic
+
+#Scandinavia
+
+#North Germany
+
+#Low Countries
+
+#Britain
+
+#Ireland
+
+#France
+
+#Iberia
+
+#Maghreb
+
+#Egypt
+
+#Levant
+
+#Arabia
+
+#Mesopotamia
+
+#Anatolia
+
+#Caucasia
+
 112 = "Velence"
 134 = "Bécs"
-141 = "Szendro"
 149 = "Drinápoly"
-4704 = "Nikápoly"
 151 = "Konstantinápoly"
-159 = "Durosztol"
 257 = "Varsó"
 262 = "Krakkó"
 264 = "Boroszló"
@@ -131,29 +210,18 @@
 1765 = "Szeredoc"
 1768 = "Szlavónia"
 1863 = "Grác"
-2746 = "Bodony"
 2960 = "Újszandec"
-#4239 = "Nándorfehérvár"
 
 #BTP
-131 = "Zágráb"
-4753 = "Zára"
-1767 = "Veroce"
 1828 = "Olfeld"
 4755 = "Szarajevó"
-#4239 = "Szerém"
 3189 = "Bács"
-3190 = "Pozsega"
-4752 = "Fiume"
-136 = "Spalato"
 
 #balkans
-137 = "Raguza" #or "Dubrovnik"
 144 = "Epirusz"
 1764 = "Burgasz"
 1766 = "Koszovó"
 3001 = "Szkopje"
-4706 = "Tulcsa"
 3164 = "Konstanca"
 3175 = "Etoloa"
 3181 = "Vlora"
@@ -207,29 +275,13 @@
 
 #balkans
 142 = "Korfu"
-4704 = "Tövisvár"
-4756 = "Belovár"
-159 = "Durosztol"
 164 = "Nakszosz"
 1765 = "Szeredoc"
-1767 = "Eszék"
 1828 = "Orbászvár"
 2348 = "Híosz"
-2746 = "Bodony"
 2750 = "Filipápoly"
-150 = "Plevna"
-3190 = "Veroce"
-4239 = "Nándorfehérvár"
-7159 = "Oroszcsík"
-4757 = "Macsó"
-7718 = "Szerémség"
 7728 = "Dubica"
 7729 = "Bihács"
-7734 = "Zengg"
-7736 = "Sziszek"
-152 = "Varasd"
-7738 = "Poszega"
-7739 = "Valkóvár"
 4751 = "Cille"
 
 #rest of europe
@@ -308,12 +360,6 @@
 #Herzegovina 
 139 = "Mosztár"
 
-#Dalmatia
-136 = "Szplit"
-7730 = "Makarszka"
-7731 = "Brács"
-7732 = "Szebenikó"
-
 #Monrenegro
 3182 = "Szkutari" #or "Kadar"
 
@@ -381,9 +427,6 @@
 #North Thrace
 7139 = "Szozopolisz"
 
-#Dobruja
-3165 = "Várna"
-
 #RUTHENIA
 #Galicia
 261 = "Halics"
@@ -437,39 +480,26 @@
 5182 = "Lükia"
 
 #CORRECTIONS
-141 = "Szendrö"
 148 = "Thesszaloníki"
 1765 = "Szeredöc"
 1768 = "Líenc" #phonetic transcription
-4239 = "Nándorfehérvár" #This is the historically correct version, i don"t know why it"s not in (the modern version is Belgrád btw)
-
-1767 = "Eszék"
 1828 = "Orbászvár"
-3190 = "Veröce"
-136 = "Szplit"
 			
 #By Average name Mar 2020
 #Fixes
-141 = "Szendro"			#(This would be the actual correct spelling but "o" and "u" are often unsupported. You might want to try Szendrö as an alternative if my suggestion doesn't work. With "ö" you are closer to "o" than with "o')
 1768 = "Lienz"			#(Szlavónia is already present in Croatia plus the name doesn"t really make sense for an Austrian town. I also couldn't find this as a historical name for Lienz)
-3190 = "Veroce"			#(The files suggest this name goes for Eszék btw, it has the wrong ID. Same spelling thing as with Szendro)
-136 = "Split"			#(or you could name it Szplit)
 3175 = "Agrinio"			#(Etoloa is not a real name. Agrinio is the Hungarian name of the capital of this province)
 3182 = "Szkutari"			#(The current name is what is used today but seeing how many provinces have historical names I wouldn't break the pattern)
 462 = "Mingrélia"			#(I would go with this one as this is more well known, although both are correct)
 4238 = "Legnica"			#(There are two places called Lehnice. The one in Slovakia is called "Lég" and the one is Lower Silesia is Legnica. This is the latter one)
 148 = "Szaloniki"			#(Probably a better name than Makedónia. I doubt it was called that historically)
-152 = "Belovár"			#(When Hungary occupies the province Varasd and Belovár switch places for some reason. Belovár is the one to the south.)
-4756 = "Varasd"			#(See explanation above)
 
 #Carpathia
 
 #Balkans
 7144 = "Peshkopia"
-7158 = "Sumen"
 7705 = "Sarköi"			#(This is how Széchenyi mentioned it in the 19th century, I believe that is more historical)
 4703 = "Kjuszentdil"			#(Nothing historical came up for Velbazhd in Hungarian. Today it is known as Kyustendil and this is the Hungarian translation for it. Might as well keep it the same though)
-7706 = "Lovecs"
 7140 = "Buthróton"
 7132 = "Theszprótia"
 3178 = "Patrosz"			#(Fóld is not a real world, I assume it was meant to be "föld" which then would have to be written as one word and it would mean Achaean land. I think it is better to stay factual.)
@@ -1112,24 +1142,6 @@
 1995 = "Mikronézia"
 1243 = "Szamoa"
 1987 = "Társaság-szigetek"
-
-#By JP for the new 13.0 update
-
-##Kingdom of Hungary
-
-#Slavonia
-152 = { "Varasd" "Varasd" }
-1767 = { "Eszék" "Eszék" }
-3190 = { "Veroce" "Veroce" }
-4756 = { "Belovár" "Belovár" }
-7738 = { "Pozsega" "Pozsega" }
-8187 = { "Daruvár" "Daruvár" }
-
-#Syrmia
-7718 = { "Szerém" "Szávaszentdemeter" }
-7739 = { "Valkó" "Valkóvár" }
-
-##Bohemian Crown
 
 #Moravia
 3297 = { "Magyarhradis" "Magyarhradis" }

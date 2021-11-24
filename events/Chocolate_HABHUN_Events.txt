@@ -653,7 +653,7 @@ country_event = { #Royal Marriage with Portugal
 		ai_chance = { factor = 19 }
 		define_consort = {
 			country_of_origin = POR
-			religion = ROOT
+			religion = POR
 			culture = portugese
 			name = "Eleanor"
 			adm = 3

@@ -370,7 +370,7 @@
 7919 = "Murueta"
 7920 = "Zangoza"
 7921 = "Bigorra"
-7923 = "Nafarroa Beherea"
+7923 = { "Nafarroa Beherea" "Donibane Garazi" }
 7924 = "Akize"
 7926 = "Mendi Marzana"
 7928 = "Liburna"
