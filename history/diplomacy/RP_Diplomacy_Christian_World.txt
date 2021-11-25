@@ -566,6 +566,85 @@ vassal = {
 ####################################################################
 # 8 - Russia
 ####################################################################
+# Novgorodian Fief - Pskov
+vassal = {
+	subject_type = fiefdom_bt
+	first = NOV
+	second = PSK
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Smolenskian Fief - Mosalsk
+vassal = {
+	subject_type = fiefdom_bt
+	first = SMO
+	second = MSL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Ryazanian Fief - Moscow
+vassal = {
+	subject_type = fiefdom_bt
+	first = RYA
+	second = MOS
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Ryazanian Fief - Oka
+vassal = {
+	subject_type = fiefdom_bt
+	first = RYA
+	second = OKA
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Ryazanian Fief - Pronsk
+vassal = {
+	subject_type = fiefdom_bt
+	first = RYA
+	second = PRS
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Ryazanian Fief - Vorotynsk
+vassal = {
+	subject_type = fiefdom_bt
+	first = RYA
+	second = VTN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Rostovian Fief - Tver
+vassal = {
+	subject_type = fiefdom_bt
+	first = RSO
+	second = TVE
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Rostovian Fief - Yaroslavl
+vassal = {
+	subject_type = fiefdom_bt
+	first = RSO
+	second = YAR
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Rostovian Vassal - Beloozero
+vassal = {
+	first = RSO
+	second = BLO
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
 
 ####################################################################
 # 9 - Balkans
