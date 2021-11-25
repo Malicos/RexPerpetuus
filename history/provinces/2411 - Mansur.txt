@@ -1,8 +1,8 @@
 #2411 - Mansur
 
-owner = PEC
-controller = PEC
-add_core = PEC
+owner = LVD
+controller = LVD
+add_core = LVD
 culture = pechenegian_culture
 religion = orthodox
 hre = no

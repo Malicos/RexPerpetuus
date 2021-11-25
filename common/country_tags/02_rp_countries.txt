@@ -114,14 +114,18 @@ BNT = "countries/Banat.txt"
 # East Europe
 BOL = "countries/Bolghar.txt"
 BJA = "countries/Bjarmia.txt"
+BKV = "countries/Bukovina.txt"
 CVS = "countries/Chuvash.txt"
+GTH = "countries/Gothia.txt"
 HRO = "countries/Hrodna.txt"
 ITI = "countries/Itil.txt"
+LVD = "countries/Levedia.txt"
 MDV = "countries/Mordvinia.txt"
 MRM = "countries/Murom.txt"
 MSK = "countries/Minsk.txt"
 PEC = "countries/Pechenegia.txt"
 PNS = "countries/Pinsk.txt"
+QGR = "countries/Qangaria.txt"
 VNH = "countries/Voronezh.txt"
 
 # Asia Minor

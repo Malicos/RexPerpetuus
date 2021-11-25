@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = PEC
-controller = PEC
-add_core = PEC
+owner = GTH
+controller = GTH
+add_core = GTH
 culture = goths
 religion = orthodox
 capital = "Solkhat"

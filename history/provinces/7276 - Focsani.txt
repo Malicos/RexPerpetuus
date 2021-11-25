@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = PEC
-controller = PEC
-add_core = PEC
+owner = MOL
+controller = MOL
+add_core = MOL
 culture = moldavian_culture
 religion = orthodox
 capital = "Focshani"

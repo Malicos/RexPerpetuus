@@ -1,8 +1,8 @@
 #3302 - Bakhmut
 
-owner = PEC
-controller = PEC
-add_core = PEC
+owner = QGR
+controller = QGR
+add_core = QGR
 culture = pechenegian_culture
 religion = orthodox
 hre = no

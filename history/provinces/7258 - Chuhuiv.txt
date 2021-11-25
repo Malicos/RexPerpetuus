@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = PEC
-controller = PEC
-add_core = PEC
+owner = QGR
+controller = QGR
+add_core = QGR
 culture = pechenegian_culture
 religion = orthodox
 capital = "Chuhuiv"			#Dates to circa 1600 so.... better than most of Wild Fields, but still really horrible.

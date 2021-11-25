@@ -1,8 +1,8 @@
 #2410 - Theodoro
 
-owner = PEC
-controller = PEC
-add_core = PEC
+owner = GTH
+controller = GTH
+add_core = GTH
 culture = goths
 religion = orthodox
 hre = no

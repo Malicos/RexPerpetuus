@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = PEC
-controller = PEC
-add_core = PEC
+owner = LVD
+controller = LVD
+add_core = LVD
 culture = pechenegian_culture
 religion = orthodox
 capital = "Mariampol"			#Nothing here 'til the late 18th century... so.... getting creative. No evidence of settlement prior to Tartar devastation, so a Greek names isn't the absolute worst.

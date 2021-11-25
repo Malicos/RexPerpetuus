@@ -1,8 +1,8 @@
 #3156 - Suceava
 
-owner = PEC
-controller = PEC
-add_core = PEC
+owner = BKV
+controller = BKV
+add_core = BKV
 culture = moldavian_culture
 religion = orthodox
 hre = no
