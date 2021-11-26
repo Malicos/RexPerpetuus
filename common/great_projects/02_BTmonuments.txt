@@ -303,7 +303,7 @@ globe_theatre = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_unrest = -2
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -335,7 +335,7 @@ globe_theatre = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_unrest = -1
+			#local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -369,12 +369,12 @@ globe_theatre = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_unrest = -1
+			#local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_unrest = -1
+			local_unrest = -2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -2883,9 +2883,11 @@ rock_cashel = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -2918,9 +2920,11 @@ rock_cashel = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 5
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
 			}
 		}
 	}
@@ -2955,9 +2959,11 @@ rock_cashel = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			add_estate_loyalty = {
-				estate = estate_church
-				loyalty = 10
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
 			}
 		}
 	}
@@ -4541,6 +4547,7 @@ aachen_cathedral = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_unrest = -2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4549,6 +4556,7 @@ aachen_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_own = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -4573,14 +4581,23 @@ aachen_cathedral = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_own = 1
+			imperial_authority = 0.1 #multiplier bonus, upgraded to flat bonus at tier 3
 		}
 
 		#what effects happen when this tier is achieved
-		on_upgraded = {
+		on_upgraded = {			
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 15
+				}
+			}
 		}
 	}
 
@@ -4601,14 +4618,24 @@ aachen_cathedral = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -3
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_own = 1
+			church_loyalty_modifier = 0.05
+			imperial_authority_value = 0.05 #flat bonus
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 10
+				}
+			}
 		}
 	}
 }

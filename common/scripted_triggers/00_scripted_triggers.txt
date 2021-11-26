@@ -534,6 +534,12 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { was_tag = BRZ }
 			NOT = { was_tag = AUS }
 			NOT = { was_tag = MEX }
+			NOT = { was_tag = ETH }
+			NOT = { was_tag = AKS }
+			NOT = { was_tag = GZI }
+			NOT = { was_tag = SOM }
+			NOT = { was_tag = RZI }
+			NOT = { was_tag = MAL }
 			NOT = { tag = MUG }
 			NOT = { tag = TUR }
 			NOT = { tag = BYZ }
@@ -563,6 +569,12 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			NOT = { tag = BRZ }
 			NOT = { tag = AUS }
 			NOT = { tag = MEX }
+			NOT = { tag = ETH }
+			NOT = { tag = AKS }
+			NOT = { tag = GZI }
+			NOT = { tag = SOM }
+			NOT = { tag = RZI }
+			NOT = { tag = MAL }
 		}
 	}
 }
@@ -713,38 +725,32 @@ has_no_manufactory_trigger = { #Province Scope
 root_can_build_manufactory_here_trigger = {
     has_no_manufactory_trigger = yes
     num_free_building_slots = 1
-    if = {
-        limit = {
+	OR = {
+		AND = {
             OR = {
                 trade_goods = naval_supplies
                 trade_goods = fish
                 trade_goods = salt
             }
-        }
-        ROOT = { dip_tech = 11 }
-    }
-    else_if = {
-        limit = {
+			ROOT = { dip_tech = 11 }
+		}
+		AND = {
             OR = {
                 trade_goods = copper
                 trade_goods = iron
             }
-        }
-        ROOT = { mil_tech = 11 }
-    }
-    else_if = {
-        limit = {
+			ROOT = { mil_tech = 11 }
+		}
+		AND = {
             OR = {
                 trade_goods = wool
                 trade_goods = cloth
                 trade_goods = silk
                 trade_goods = dyes
             }
-        }
-        ROOT = { adm_tech = 11 }
-    }
-    else_if = {
-        limit = {
+			ROOT = { adm_tech = 11 }
+		}
+		AND = {
             OR = {
                 trade_goods = coffee
                 trade_goods = cotton
@@ -753,11 +759,9 @@ root_can_build_manufactory_here_trigger = {
                 trade_goods = tea
                 trade_goods = cocoa
             }
-        }
-        ROOT = { adm_tech = 14 }
-    }
-    else_if = {
-        limit = {
+			ROOT = { adm_tech = 14 }
+		}
+		AND = {
             OR = {
                 trade_goods = ivory
                 trade_goods = slaves
@@ -766,21 +770,17 @@ root_can_build_manufactory_here_trigger = {
                 trade_goods = fur
                 trade_goods = incense
             }
-        }
-        ROOT = { dip_tech = 14 }
-    }
-    else_if = {
-        limit = {
+			ROOT = { dip_tech = 14 }
+		}
+		AND = {
             OR = {
                 trade_goods = grain
                 trade_goods = livestock
                 trade_goods = wine
             }
-        }
-        ROOT = { adm_tech = 6 }
-    }
-    else_if = {
-        limit = {
+			ROOT = { adm_tech = 6 }
+		}
+		AND = {
             OR = {
                 trade_goods = paper
                 trade_goods = gems
@@ -788,15 +788,13 @@ root_can_build_manufactory_here_trigger = {
                 trade_goods = glass
                 trade_goods = chinaware
             }
-        }
-        ROOT = { adm_tech = 16 }
-    }
-    else_if = {
-        limit = {
+			ROOT = { adm_tech = 16 }
+		}
+		AND = {
             trade_goods = coal
-        }
-        ROOT = { adm_tech = 21 }
-    }
+			ROOT = { adm_tech = 21 }
+		}
+	}
 }
 
 has_nobles_trade_good_trigger = {
@@ -887,7 +885,7 @@ has_dharma_elephants_trigger = {
 has_completed_all_reforms_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = has_completed_all_reforms_trigger_tooltip
-		NOT = { has_dlc = "Emperor" }
+		NOT = { has_dlc = "Origins" }
 		OR = {
 			has_reform = political_absolutism_reform
 			has_reform = legislative_houses_reform
@@ -903,6 +901,8 @@ has_completed_all_reforms_trigger = {
 			has_reform = many_fingers_of_god_reform
 			has_reform = religious_permanent_revolution_reform
 			has_reform = religion_in_one_country_reform
+			has_reform = native_remain_being_native_reform
+			has_reform = tribe_remain_tribal_reform
 		}
 	}
 }
@@ -926,6 +926,8 @@ has_final_tier_reforms_trigger = {
 			has_reform = many_fingers_of_god_reform
 			has_reform = religious_permanent_revolution_reform
 			has_reform = religion_in_one_country_reform
+			has_reform = native_remain_being_native_reform
+			has_reform = tribe_remain_tribal_reform
 		}
 	}
 }
@@ -2032,13 +2034,10 @@ has_better_tech_than_westerns = {
 	custom_trigger_tooltip = {
 		tooltip = has_better_tech_than_westerns_tt
 		NOT = {
-			calc_true_if = {
-				all_country = {
+			any_country = {
 					tech_difference = 1
 					technology_group = western
 				}
-				amount = 1
-			}
 		}
 	}
 }
@@ -2099,4 +2098,32 @@ mal_owns_provinces_in_region = {
 		AND = { has_country_flag = mal_journey_to_arabia			any_owned_province = { region = arabia_region			} }
 		AND = { has_country_flag = mal_journey_to_horn_of_africa	any_owned_province = { region = horn_of_africa_region	} }
 	}
+}
+
+province_is_or_accepts_culture = {
+	OR = {
+		has_owner_culture = yes
+		has_owner_accepted_culture = yes
+	}
+}
+
+province_is_buddhist_or_accepts_buddhism = {
+	OR = {
+		religion = buddhism
+		religion = vajrayana
+		religion = mahayana
+		AND = {
+			religion = hinduism
+			owner = {
+				has_personal_deity = buddha	
+			}						
+		}
+		AND = {
+			religion = shamanism
+			owner = {
+				has_unlocked_cult = buddhism_cult
+			}
+		}
+	}
+	has_owner_religion = yes
 }

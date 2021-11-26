@@ -347,7 +347,7 @@
 #Schleswig
 13 = { "Slesvig" "Slesvig" } #
 3134 = { "Aabenraa" "Aabenraa" } #
-7773 = { "Flensborg" Flensborg" } #
+7773 = { "Flensborg" "Flensborg" } #
 
 #East Norway
 17 = { "Aggershus" "Oslo" } #Could swap Oslo for Christiania...

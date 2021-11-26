@@ -398,7 +398,7 @@
 8208 = { "Hermannstadt" "Hermannstadt" }
 8209 = { "Thorenburg" "Thorenburg" }
 8210 = { "Fogarasch" "Fugreschmarkt" }
-8211 = { "Dreistühle" "Sankt Georgen" } #(JP) translated "Háromszék", meaning "three seats/chairs" as "Dreistühle
+8211 = { "Dreistühle" "Sankt Georgen" } #(JP) translated "Háromszék", meaning "three seats/chairs" as "Dreistühle"
 8212 = { "Schlomenstühl" "Schomlenberg" }		
 8213 = { "Kokelburg" "Schäßburg" }
 8215 = { "Regen" "Regen" }
@@ -754,7 +754,7 @@
 7942 = { "Mömpelgard" "Mömpelgard" }
 7945 = { "Saarburg" "Saarburg" }
 7946 = { "Spilleln" "Spilleln" } 
-7947 = { "Tull" "Tull" }
+7947 = { "Tull-an-der-Mosel" "Tull-an-der-Mosel" } #(neo) The actual name, 'Tull,' breaks localization somehow
 7949 = { "Saargemünd" "Saargemünd" }
 7950 = { "Lengerun" "Lengerun" }
 7953 = { "Sankt Störgen" "Sankt Störgen" }

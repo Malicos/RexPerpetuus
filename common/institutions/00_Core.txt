@@ -3439,7 +3439,7 @@ global_trade = {
 		OR = {
 			AND = {
 				is_year = 1600
-				area = netherlands_area			#BTMiscAddonChange - Slows spread slightly for later start dates
+				area = holland_area			#BTMiscAddonChange - Slows spread slightly for later start dates
 			}
 			AND = {
 				is_year = 1625			#BTMiscAddon Note - 20 year penalty here, everyone was way behind the Dutch historically (VOC founded in 1602), but the English and Portuguese came next

@@ -6,6 +6,7 @@ has_river_estuary_trigger = {
 		tooltip = has_river_estuary_tooltip
 		OR = {
 			has_province_modifier = river_estuary_modifier
+			has_province_modifier = neva_estuary_modifier
 			has_province_modifier = daugava_estuary_modifier
 			has_province_modifier = neman_estuary_modifier
 			has_province_modifier = vistula_estuary_modifier

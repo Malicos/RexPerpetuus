@@ -219,6 +219,7 @@ on_religion_change = {
 # country.
 on_secondary_religion_change = {
 	# Done from code: add_prestige = -50 (Define: CHANGE_SECONDARY_PRESTIGE_HIT)
+	on_secondary_religion_change_estate_privileges_effect = yes
 	every_owned_province = {
 		limit = { has_province_modifier = tengri_monastic_order }
 		remove_province_modifier = tengri_monastic_order
@@ -1027,8 +1028,16 @@ on_monarch_death = {
 				government = tribal
 				government = monarchy
 			}
+			NOT = { has_ruler_flag = no_stab_bonus_on_ascending_the_throne }
+			NOT = { has_heir_flag = no_stab_bonus_on_ascending_the_throne }
 		}
 		add_stability = 1
+		if = {
+			limit = {
+				NOT = { heir_age = 15 }
+			}
+			set_heir_flag = no_stab_bonus_on_ascending_the_throne
+		}
 	}
 	#BT
 	#if = {
@@ -4207,34 +4216,6 @@ on_province_owner_change = {
 	if = {
 		limit = {
 			owner = {
-				religion = ROOT
-				culture_group = ROOT
-				has_estate_privilege = estate_church_one_faith_one_culture
-			}
-			NOT = { has_province_modifier = estate_church_united_faith_and_culture }
-		}
-		add_province_modifier = {
-			name = estate_church_united_faith_and_culture
-			duration = -1
-		}
-	}
-	if = {
-		limit = {
-			owner = {
-				NOT = { culture_group = ROOT }
-				has_owner_accepted_culture = no
-				has_estate_privilege = estate_church_one_faith_one_culture
-			}
-			NOT = { has_province_modifier = estate_church_false_culture }
-		}
-		add_province_modifier = {
-			name = estate_church_false_culture
-			duration = -1
-		}
-	}
-	if = {
-		limit = {
-			owner = {
 				has_country_modifier = son_fetishism_as_secondary_religion
 			}
 			religion = shamanism
@@ -4326,51 +4307,61 @@ on_parliament_debate_succeeded = {
 
 # country
 on_harmonized_pagan = {
+	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.1
 	}
 }
 on_harmonized_christian = {
+	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.2
 	}
 }
 on_harmonized_muslim = {
+	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.3
 	}
 }
 on_harmonized_jewish_group = {
+	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.5
 	}
 }
 on_harmonized_zoroastrian_group = {
+	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.6
 	}
 }
 on_harmonized_dharmic = {
+	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.4
 	}
 }
 on_harmonized_mahayana = {
+	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.9
 	}
 }
 on_harmonized_buddhism = { #Theravada
+	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.8
 	}
 }
 on_harmonized_shinto = {
+	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.7
 	}
 }
 on_harmonized_vajrayana = {
+	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.10
 	}
@@ -4502,34 +4493,34 @@ on_center_of_trade_downgrade = {
 }
 
 on_culture_promoted = {
-
-	if = {
-		limit = {
-			has_estate_privilege = estate_church_one_faith_one_culture
-		}
-		every_owned_province = {
-			limit = {
-				has_province_modifier = estate_church_false_culture
-				has_owner_accepted_culture = yes
-			}
-			remove_province_modifier = estate_church_false_culture
-			if = {
-				limit = {
-					owner = {
-						religion = PREV
-					}
-				}
-				add_province_modifier = {
-					name = estate_church_united_faith_and_culture
-					duration = -1
-				}
-			}
-		}
-	}
-	judaism_on_culture_promoted_effect = yes
-	kongo_on_culture_promoted_effect = yes
+	on_culture_promoted_estate_privileges_effect = yes
+	judaism_on_culture_country_effect = yes
+	kongo_on_culture_country_effect = yes
 }
 
+on_culture_demoted = {
+	on_culture_demoted_estate_privileges_effect = yes
+	judaism_on_culture_country_effect = yes
+	kongo_on_culture_country_effect = yes
+}
+
+on_primary_culture_changed = {
+	on_primary_culture_changed_privileges_effect = yes
+	judaism_on_culture_country_effect = yes
+	if = {
+		limit = {
+			has_country_modifier = kon_south_african_hegemony
+			NOT = { culture_group = kongo_group }
+		}
+		remove_country_modifier = kon_south_african_hegemony
+		every_owned_province = {
+			limit = {
+				has_province_modifier = kon_south_african_hegemony_province
+			}
+			remove_province_modifier = kon_south_african_hegemony_province
+		}
+	}
+}
 # FROM = Previous Country, ROOT = Province
 on_company_chartered = {
 	if = {
@@ -4799,6 +4790,7 @@ on_golden_bull_enacted = {
 # FROM = The previous owner.
 on_conquest = {
 	remove_named_unrest = estate_land_seized
+	clr_province_flag = has_estate_unrest_flag
 }
 
 on_country_creation = {
@@ -4958,6 +4950,10 @@ on_colonist_boosting_colony = {
 							which = vab_nativesize
 							value = trigger_value:native_size
 						}
+						multiply_variable = {
+							which = vab_nativesize
+							value = 100
+						}
 						check_variable = {
 							which = vab_colonysize
 							which = vab_nativesize
@@ -4994,6 +4990,10 @@ on_colonist_boosting_colony = {
 							which = vab_nativesize
 							value = trigger_value:native_size
 						}
+						multiply_variable = {
+							which = vab_nativesize
+							value = 100
+						}
 						check_variable = {
 							which = vab_colonysize
 							which = vab_nativesize
@@ -5017,4 +5017,24 @@ on_colonist_boosting_colony = {
 			change_original_culture = FROM
 		}
 	}
+}
+
+#ROOT = converted country, FROM = country which force converts ROOT, on_action gets called on Force religion peace and Enforce Religion subject interaction
+on_force_conversion = {
+	#if = {	#Commented out for now because Catholicism has received a lot of buffs already.
+	#	limit = {
+	#		FROM = { religion = catholic }
+	#	}
+	#	if = {
+	#		limit = { ROOT = { government_rank = 3 } }
+	#		FROM = { add_papal_influence = 20 }
+	#	}
+	#	else_if = {
+	#		limit = { ROOT = { government_rank = 2 } }
+	#		FROM = { add_papal_influence = 10 }
+	#	}
+	#	else = {
+	#		FROM = { add_papal_influence = 5 }
+	#	}
+	#}
 }
