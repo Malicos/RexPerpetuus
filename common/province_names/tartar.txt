@@ -1,5 +1,8 @@
 #Arga's Work
 
+283 = { "Küçük-As" "Küçük-As" } #toponym map online tool
+7201 = { "Adamaxa" "Adamaxa" } #toponym map online tool
+
 #2017 Jun 3
 
 #Crimea
@@ -15,7 +18,6 @@
 
 #Eastern europe
 280 = "Kiyev"
-283 = "Zaporijjâ"
 299 = "Voronej"
 1756 = "Izmayil" #or "Kiliya" (Izmayil might be of more importance considering the khanate)
 1942 = "Jitormir"

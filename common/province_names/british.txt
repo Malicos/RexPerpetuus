@@ -128,9 +128,146 @@
 8169 = { "Carbery" "Kilbrittain" }
 
 #Scandinavia
+23 = { "Berkdal" "Berkdal" } #(JP) "Bergen" means "mountain meadow", "Berg-" -> "Berk-" and "-dal" is of Germanic origin for meadow
 369 = { "Orkney" "Kirkwall" }
 1978 = { "Shetland" "Lerwick" }
 1979 = { "Faeroe" "Thorshaven" }
+1984 = { "Alburgh" "Alburgh" } #(JP) "Aalborg"
+3134 = { "Abenrad" "Abenrad" }
+4142 = { "Aremouth" "Aremouth" } #(JP) Adaptation of "Aarhus", with "-hus" meaning river mouth
+
+#North Germany
+50 = { "Berlin" "Berlin" }
+57 = { "Brunswick" "Brunswick" }
+60 = { "Batsen" "Batsen" }
+1874 = { "Bremen" "Bremen" }
+1878 = { "Aix-la-Chapelle" "Aix-la-Chapelle" } #(JP) "Traditional English"
+8412 = { "Boncaster" "Boncaster" } #(JP) "Castrum Bonna"
+
+#Low Countries
+90 = { "Bruges" "Bruges" }
+92 = { "Brussels" "Brussels" }
+97 = { "Amsterdam" "Amsterdam" }
+99 = { "Arnem" "Arnem" }
+1744 = { "Antwerp" "Antwerp" }
+3066 = { "Arlond" "Arlond" }
+8018 = { "Alst" "Alst" }
+8024 = { "Bastenack" "Bastenack" }
+8032 = { "Beaulon" "Beaulon" }
+
+#France
+87 = { "Cales" "Cales" }
+88 = { "Aras" "Aras" }
+170 = { "Brest" "Brest" }
+174 = { "Bordeaux" "Bordeaux" }
+#174 = { "Bordele" "Bordele" } #(JP) This sounds more English to me, but I can find no evidence of what name the English Kings used.
+193 = { "Besants" "Besants" } 
+202 = { "Avenham" "Avenham" } #(JP) Looking at the Latin name "Avenio"/"Avenium", I noticed the similarity to a local park near me, "Avenham"
+7893 = { "Aix-en-Provence" "Aix-en-Provence" } #(JP) Following the tradition with "Aachen" using French
+7965 = { "Abbeyton" "Abbeyton" }
+7969 = { "Baloney" "Baloney" } #(JP) For the lolz
+
+#Iberia
+209 = { "Biscay" "Bilbao" }
+213 = { "Barcelona" "Barcelona" }
+222 = { "Almeria" "Almeria" }
+232 = { "Bragansa" "Bragansa" }
+3104 = { "Braga" "Braga" }
+4547 = { "Albacete" "Albacete" }
+
+#Italy
+111 = { "Exilia" "Exilia" } #(JP) Bullshitting here, but "Aq" is pronounced similar to "Ex" in places like "Exeter"
+119 = { "Ancona" "Ancona" }
+3045 = { "Augusta" "Augusta" } 
+4730 = { "Baloney" "Baloney" } #(JP) For the lolz
+4739 = { "Berkham" "Berkham" } #(JP) German "Berg" becomes either "bergh" or "berk". With "-heim" = "-ham", I thought "Berk-" to be more fitting
+5092 = { "Bastia" "Bastia" }
+7038 = { "Bonifacio" "Bonifacio" }
+7079 = { "Biella" "Biella" }
+
+#South Germany
+165 = { "Berne" "Berne" } #(JP) or just "Bern" 
+265 = { "Berne" "Berne" } #(JP) or just "Bern" 
+1868 = { "Augburgh" "Augburgh" } #(JP) or "Augustaburgh"
+3048 = { "Bolcan" "Bolcan" }
+3055 = { "Basle" "Basle" }
+4718 = { "Ashburgh" "Ashburgh" } #(JP) or "Ashaphaburgh" 
+
+#Balkans
+143 = { "Whitborough" "Whitborough" } #(JP) "White town/castle"
+146 = { "Athens" "Athens" }
+3183 = { "Monaster" "Monaster" }
+4239 = { "Belgrade" "Belgrade" }
+4756 = { "Belobar" "Belobar" }
+7140 = { "Butrint" "Butrint" }
+7708 = { "Antibar" "Antibar" }
+
+#Carpathia
+268 = { "Botosan" "Botosan" }
+1772 = { "Pressburgh" "Pressburgh" }
+3154 = { "Whitburgh" "Whitburgh" } #(JP) "White town/castle"
+3157 = { "Bacaford" "Bacaford" } 
+4128 = { "Brasoff" "Brasoff" }
+8184 = { "Etselburgh" "Etselburgh" }
+
+#Poland
+#Baltic
+7826 = { "Butow" "Butow" }
+
+#Ruthenia
+277 = { "Brest" "Brest" }
+
+#Russia
+313 = { "Archangel" "Archangel" }
+
+#Ural
+#Pontic Steppe
+464 = { "Astrakhan" "Astrakhan" }
+
+#Caucasia
+#Anatolia
+#Mesopotamia
+#Levant
+#Arabia
+#Persia
+#Khorasan
+#Central Asia
+#Tibet
+#Hindustan
+#Western India
+#Deccan
+#Coromandel
+#Bengal
+#Burma
+#Indochina
+#Malaysia
+#Sumatra
+#Java
+#Borneo
+#Philippines
+#Celebes
+#Polynesia
+#Australia
+#New Zealand
+#South China
+#Xinan
+#North China
+#Japan
+#Korea
+#Manchuria
+#Mongolia
+#West Siberia
+#East Siberia
+#Egypt
+#Maghreb
+#Sahel
+#Niger
+#Guinea
+#Congo
+#South Africa
+#East Africa
+#Central Africa
+#Horn of Africa
 
 #Caribbean
 481 = { "Bermuda" "Hamilton" }
@@ -175,8 +312,27 @@
 6058 = { "Turtle Islands" "Turtle Town" } #(JP) Lol, go Turtles!
 6059 = { "Southern Keys" "Grand Key" } #(JP) Totally made up
 6060 = { "Old Providence" "New Westminster" }	
-6061 = { "Cayman Islands" "George Town" }				
+6061 = { "Cayman Islands" "George Town" }		
 
+#Canada
+#Hudson Bay
+#Northwest Territories
+#Alaska
+#Cascadia
+#California
+#Great Plains
+#Great Lakes
+#Northeast
+#Southeast
+#Mississippi
+#Rio Grande
+#Mexico
+#Central America
+#Colombia
+#Peru
+#Upper Peru
+#Brazil
+#La Plata
 
 356 = "Benghazi"
 357 = "Derna"
@@ -1522,5 +1678,3 @@
 
 #By neo Nov 2020
 888 = { "Galveston" "Galveston" } #Houston, the city, is named after Sam Houston, who wasn't alive until the mid 19th century and was a famous figure in the Mexican-American War and the independence of Texas from Mexico
-
-87 = { "Cales" "Cales" }

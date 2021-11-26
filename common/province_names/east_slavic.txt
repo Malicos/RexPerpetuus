@@ -1,4 +1,4 @@
-#Contributions from a wide range, including Draiocht, JP, Hawk V, Arga
+#Contributions from a wide range, including Draiocht, JP, Hawk V, Arga, Fatharitan
 #(JP) Russian, will be overwritten by local files, ruthenian.txt and belorussian
 #(JP) I have reorganised and cleaned up all the prior East Slavic naming to try and make it more legible, consistant and keep it easier to edit in future
 
@@ -107,10 +107,10 @@
 #8495 Kanizsa
 
 #Baltic
-35 = { "Ezel" "Arensburg" } #(JP) kept capital as German name, as that is likelies for Russia.
-36 = { "Rewel" "Rewel" }
-37 = { "Kreutzburg" "Kreutzburg" } #(JP) German, better than owt else
-38 = { "Ryga" "Ryga" }
+35 = { "Yezel" "Arensburg" } #(JP) kept capital as German name, as that is likeliest for Russia.
+36 = { "Revel" "Revel" }
+37 = { "Kroytsburg" "Kroytsburg" }
+38 = { "Riga" "Riga" }
 39 = { "Goldingen" "Goldingen" } #(JP) German for the Russians
 40 = { "Klaipeda" "Klaipeda" }
 41 = { "Korolevets" "Korolevets" }
@@ -118,15 +118,15 @@
 43 = { "Gdan'sk" "Gdan'sk" }
 271 = { "Rossiena" "Rossiena" }
 273 = { "Dvinsk" "Dvinsk" }
-767 = { "Lyck" "Lyck" } #(JP) Es ist Polnisch name. This or just "Elk"
+767 = { "Lytsk" "Lytsk" }
 1834 = { "Yur'yev" "Yur'yev" } #(JP) or Derpt
-1841 = { "Malbork" "Malbork" } #(JP) Polish name
+1841 = { "Malgorod" "Malgorod" }
 1842 = { "Narva" "Narva" }
-1859 = { "Chelmno" "Chelmno" } #(JP) Polish name
-1935 = { "Jelgava" "Jelgava" }
+1859 = { "Khelmno" "Khelmno" }
+1935 = { "Yelgava" "Yelgava" }
 1936 = { "Kovno" "Kovno" }
 2958 = { "Ostroda" "Ostroda" }
-2997 = { "Tuchola" "Tuchola" } #(JP) Polish name
+2997 = { "Tukhola" "Tukhola" }
 3324 = { "Shtallupyonen" "Shtallupyonen"}
 3226 = { "Palanga" "Palanga" } #(JP) Lithuanian name
 3227 = { "Piltene" "Piltene" } #(JP) Latvian name
@@ -137,23 +137,23 @@
 4241 = { "Lemzal" "Lemzal" }
 4534 = { "Upiyte" "Upiyte" }
 4535 = { "Utsiany" "Utsiany" }
-5097 = { "Starogarda" "Starogarda" }
-7210 = { "Myednyky" "Myednyky" }
+5097 = { "Stargrad" "Stargrad" }
+7210 = { "Medniki" "Medniki" }
 7212 = { "Yurburg" "Yurburg" }
 7213 = { "Rakysky" "Rakysky" }
 7216 = { "Braslav" "Braslav" }
 7825 = { "Lambork" "Lambork" }
 7826 = { "Byutov" "Byutov" }
-7827 = { "Chluchov" "Chluchov" }
-7828 = { "Pyck" "Pyck" }
+7827 = { "Glukhov" "Glukhov" }
+7828 = { "Pitsk" "Pitsk" }
 7829 = { "Kvedin" "Kvedin" }
 7830 = { "Lubava" "Lubava" }
 7831 = { "Shchitno" "Shchitno" }
 7832 = { "Ryn" "Ryn" }
 7833 = { "Sambiysk" "Primorsk" }
 7834 = { "Guryevsk" "Guryevsk" } #(JP) I known "Guryevsk" is Soviet, gimme something better
-7835 = { "Wegorzewo" "Wegorzewo" } #(JP) Polish name
-7836 = { "Georgygorod" "Georgygorod" } #(JP) I known "Mayovka" is Soviet, Georgygorod is a transliteration
+7835 = { "Vegoryevo" "Vegoryevo" }
+7836 = { "Yurgorod" "Yurgorod" }
 7837 = { "Neman" "Neman" }
 7838 = { "Grobina" "Grobina" }
 7839 = { "Vindava" "Vindava" }
@@ -165,7 +165,7 @@
 7846 = { "Rezhitsa" "Rezhitsa" }
 7847 = { "Vilyaka" "Vilyaka" }
 7848 = { "Volyst" "Volyst" }
-7849 = { "Volodimirec" "Volodimirec" }
+7849 = { "Vladimirets" "Vladimirets" }
 7850 = { "Novy Pernov" "Novy Pernov" } #(JP) After c.1600 "Novy Pernov"
 7851 = { "Novgorodok" "Novgorodok" }
 7852 = { "Polchev" "Polchev" }
@@ -177,8 +177,119 @@
 7859 = { "Telshi" "Telshi" }
 7860 = { "Shavli" "Shavli" }
 7861 = { "Vilkomir" "Vilkomir" }
-7862 = { "Bartenstein" "Bartenstein" } #(JP) German name
+7862 = { "Bartenshtayn" "Bartenshtayn" }
 
+#Poland
+2960 = { "Novy Sonch" "Novy Sonch" }
+
+#Anatolia
+316 = { "Nikomediya" "Nikomediya" } # from greek Nikomedeia
+319 = { "Stadiya" "Stadiya" } # from greek
+322 = { "Stargorodye" "Stargorod" } # "Old City", translation of Eskishehir
+330 = { "Trapezund" "Trapezund" } 
+2296 = { "Troya" "Troya" } # Troas
+2298 = { "Attaliya" "Attaliya" } # or alt.hist Attalyevo - "settlement of Attalos". Turk.vers - Antalya
+2302 = { "Zelint" "Zelint" } 
+2305 = { "Erzindzhan" "Erzindzhan" } 
+4308 = { "Kadm" "Kadm" } 
+4311 = { "Kotey" "Kotey" } # Cotyaeum
+4314 = { "Kochevo" "Kochevsk" } # Koch - turkish word, -sk - ending, means fortress/city/settlement, -vo - ending, means small regions (and settlements).
+5130 = { "Staraya Krepost" "Adrianov" } # Staraya - old, Krepost - fortress. translation of Balikesir. Adrianov means "/city, build/ by Adrian" or "/city/ of Adrian"
+5131 = { "Adramitey" "Adramitey" } # Adramitteion
+5134 = { "Petroniy" "Petroniy" } 
+5147 = { "Alaniya" "Alaniya" } # turk. Alanya
+5156 = { "Priap" "Priap" } # greek
+5157 = { "Nikeya" "Nikeya" } # from greek Nikaia
+5162 = { "Megri" "Fetya" } # from turkish
+5168 = { "Bazar" "Bazar Ostrovnoy" } # or Rynok Ostrovnoy. Bazar - from turkish Pazar, means marketplace. Ostrov - island, translation of Ada.
+6001 = { "Ivovyy" "Ivovyy" } # Ivovyy - translation of turkish Sogut
+6002 = { "Beledzhyk" "Beledzhyk" } # turkish 
+6003 = { "Bigadich" "Bigadich" } 
+6006 = { "Kis" "Kis" } # Kysos
+6007 = { "Efes" "Efes" } # Ephesos
+6012 = { "Kivira" "Kivira" } # greek Kibyra (b - anc.greek spelling), Kivyra - byzantine greek spelling, used in russian
+6022 = { "Selevkiya" "Selevkiya" } # turk. Silifke, greek origin 
+6026 = { "Ifteriy" "Ifteriy" } # Ifteryum
+6041 = { "Belgorod" "Belgorod Anatoliyskiy" } # Akhisar - white city. Anatoliyskiy means "of Anatolia"
+
+#Mongolia
+702 = { "Novogradye" "Novgorod Mongolskiy" } # Novogradye "new settlements" old-church-slavonic stylized. Novgorod Mongolskiy - "Novgorod in Mongolia"
+718 = { "Kovdinsk" "Kovdinsk" } # Kobdo, constructed
+719 = { "Yeliseyevo" "Yeliseyevo" } # Yelisey's settlement
+723 = { "Silingol" "Silingolsk" } # Xilin Gol, constructed 
+727 = { "Chichikar" "Chichikar" } # 
+1058 = { "Onangolsk" "Onangolsk" } # Onan Gol, constructed
+2114 = { "Nikodimino" "Nikodimino" } # Settlement/village of Nikodim
+2116 = { "Gurey" "Gurey" } # Huree, constructed
+2117 = { "Zholtyy" "Zholtyy" } # means "yellow"
+2190 = { "Karakorum" "Karakorum" } 
+2747 = { "Svobodnoye" "Svobodnyy" } # means "free" with village-like ending
+4218 = { "Butiginsk" "Butiginsk" } # Buteha, constructed
+4219 = { "Bayan" "Bayan" } # Bayan Tumen
+4221 = { "Gobinsk" "Gobins" } # city or center of Gobi region 
+4222 = { "Stepnoy" "Stepnoy" } # adjective of Steppe vith village-like ending, means "Steppe village" or "Steppe something"
+4665 = { "Pustyr" "Pustyr" } # means wasteland and synonym for steppe (means "land where there is nothing")
+4667 = { "Bayanul" "Bayanul" } # Bayan Uul 
+4669 = { "Mikulino" "Mikulino" } # Or Nikolayevo - Land/Settlement/Village of Mikula/Nikolay (Nicholas).
+4678 = { "Noyon" "Noyon" } # 
+4680 = { "Mikhaylovo" "Mikhaylovo" } # Mikhail's settlement
+4682 = { "Staroye" "Staroye" } # means "old" with village-like ending
+
+#Australia, Notes by Fatharitan
+# BONT - Russian, based on native toponyma
+# BOPS - Russian, based on personal names
+# NB - russian, human creations, nature-based or other features ("cold land", "land of hills", "land of birds", "land of cities" etc.)
+# NS - New Something, based on already exist toponyms - "New Alexandria", "Alexandria in America" lol, or 
+# just modified (for example Original - Nemiza, Modified - Nemizino/Nemiznyy/Nemizinsk)
+1084 = { "Vadzhuk" "Vadzhuk" } # BONT
+1085 = { "Igorevo" "Igorevo" } # BOPS
+1086 = { "Karna" "Karna" } # BONT
+1087 = { "Yuryevo" "Yuryevo" } # BOPS
+1088 = { "Vergiya" "Vergiya" } # BONT
+1089 = { "Sutetsk" "Sutetsk" } # NS
+1090 = { "Dalyokoye" "Dalyokoye" } # NB, means "Far"
+1091 = { "Vladino" "Vladino" } # NB
+1092 = { "Serogorodye" "Serogorodsk" } # NB
+1093 = { "Shipin" "Shipin" } # NS
+1094 = { "Dubechin" "Dubechin" } # NS
+2726 = { "Malgana" "Malgana" } # BONT
+2727 = { "Pavlovsk" "Pavlovsk" } # BOPS
+2728 = { "Lebedev" "Lebedev Avstraliyskiy" } # NS
+2729 = { "Lida Ivanovskaya" "Lida" } # NS, Lida (belarussian city) of Ivan
+2730 = { "Starosvet" "Starosvet" } # NB, "Old Light" or "Old World", means "Settlement like in Old World (Europe)"
+2731 = { "Aleksandrovsk" "Aleksandrovsk" } # BOPS
+2732 = { "Valgara" "Valgara" } # BONT
+2733 = { "Novokazanskoye" "Novokazanskoye" } # NS, "New Kazan"
+2734 = { "Yuvin" "Yuvin" } # BONT
+2735 = { "Novokaluzhsk" "Novokaluzhsk" } # NS
+2736 = { "Gorodok" "Gorodok" } # NB
+4846 = { "Gorodno" "Gorodno" } # NB, from Gorod - city
+4847 = { "Liubutsk" "Liubutsk" } # NS
+4848 = { "Serenetsk" "Serenetsk" } # NS
+4849 = { "Vorobetsk" "Vorobetsk" } # NS
+4850 = { "Peschanoye" "Peschanoye" } # NB
+4853 = { "Krasnozemelye" "Krasnozemelsk" } # NB
+4852 = { "Seryi" "Serov" } # NB
+4851 = { "Zhyoltozemelsk" "Zhyoltozemelsk" } # NB
+4854 = { "Bachala" "Bachalinsk" } # Russian, based on Native (r
+4855 = { "Novogradye" "Novgorod Avstraliyskiy" } # NB and NS
+4856 = { "Yuzhnyi" "Yuzhnyi" } # means "on the south"
+4857 = { "Muravino" "Muravino" } # NS
+4860 = { "Yemelyanovo" "Yemelyanovsk" } # BOPS 
+4858 = { "Farval" "Farval" } # BONT
+4861 = { "Pustoye" "Pustoye" } # NB
+4859 = { "Zhivino" "Zhivinsk" } # NB
+4869 = { "Tyomnyi" "Tyomnyi" } # NB
+4868 = { "Alekseyevo" "Alekseyevo" } # BOPS
+4862 = { "Novotsarsk" "Novotsarsk" } # NS
+5687 = { "Virangin" "Virangin" } # BONT
+5685 = { "Mirnyi" "Mirnyi" } # BONT and NB (Mirnyi means "Peaceful", and sound similar to original Mirning)
+4863 = { "Nyaki" "Nyaki" } # BONT
+4864 = { "Kamennoye" "Kamennoye" } # NB
+4867 = { "Pritimorye" "Pritimorsk" } # NB, means "near to Timor"
+
+
+#Unsorted and Uncapitalised
 19 = "Nikolaistadt"
 27 = "Abo"
 28 = "Helsingfors"
@@ -213,7 +324,6 @@
 480 = "Novosibirsk"
 716 = "Belotsarsk"
 726 = "Port-Artur"
-727 = "Cicikar"
 728 = "Harbin"
 #976 = "Novoarchangelsk"					#BT
 1037 = "Oimakon"
@@ -764,7 +874,6 @@
 4527 = "Khentsiny"
 255 = "Kalish"
 262 = "Krakov"
-2960 = "Novy-Sonch"
 7266 = "Shchebzheshin" #Looks just as disgusting as the Polish version
 
 #By JP for the new 13.0 update
@@ -775,9 +884,6 @@
 8197 = { "Sharosh" "Priashiv" }
 
 ##Kingdom of Poland
-
-#Krakow
-2960 = { "Novyj Sanc" "Novyj Sanc" }
 
 #By Dub Aug 2020 + corrections from Draiocht
 292 = { "Mogilyov" "Mogilyov" } #Or Mogilov? Might be a newer one.
@@ -790,9 +896,6 @@
 269 = "Podlyasye" #or possibly "Podlyasyye"
 257 = "Varshava" 
 3220 = "Chenstokhov" #or "Chyenstokhov" 
-
-#Corrections
-2960 = { "Nowy Sacz" "Nowy Sacz" }
 
 ##Hawk V
 

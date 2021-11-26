@@ -592,7 +592,7 @@
 3060 = { "Betuwe" "Nimwegen" }
 3063 = { "Rurberg" "Rurberg" }
 3064 = { "Dünkirchen" "Dünkirchen" }
-3066 = { "Arel" "Arel" }	#(Chrys) removing "Arelerland" for now as Dutch and French use their names for Arlon instead of Arelerland for the province
+3066 = { "Arel" "Arel" } #(Chrys) removing "Arelerland" for now as Dutch and French use their names for Arlon instead of Arelerland for the province
 4381 = { "Oberyssel" "Schwolle" }
 4382 = { "Umland" "Delfsiel" } #(JP) or Delfsiehl
 4383 = { "Der Haag" "Der Haag" }
@@ -658,7 +658,7 @@
 192 = { "Dision" "Dision" }
 193 = { "Bisanz" "Bisanz" }
 194 = { "Perigord" "Perigord" }
-#195 = 
+#195
 196 = { "Tholosen" "Tholosen" }
 #199
 200 = { "Erau" "Erau" }
@@ -750,7 +750,7 @@
 7937 = { "Raoulburg" "Raoulburg" }
 7938 = { "Cawallen" "Cawallen" }
 #7939
-7940 = { "Sankt Klaus" "Sankt Klaus" }
+7940 = { "Sankt Klaude" "Sankt Klaude" }
 7942 = { "Mömpelgard" "Mömpelgard" }
 7945 = { "Saarburg" "Saarburg" }
 7946 = { "Spilleln" "Spilleln" } 

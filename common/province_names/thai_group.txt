@@ -1,0 +1,24 @@
+#Contributions from Davadius
+#(JP) Thai, will be overwritten by individual culture.txt. 
+
+#Indochina
+610 = { "Chenghoa" "Chenghoa" } # Thanh Hoa name it based on Hokkien dialect
+613 = { "Tangkia" "Tangkia" } # Dong Kinh (Modern day Hanoi).  Hokkien proununciation of Dong Kinh. 
+2371 = { "Mueang La" "Mueang La" } # Song La
+2373 =  { "Kantarapura" "Kantarapura" } # Hue name comes from Kandarapura which is Cham name for Hue
+
+#Xinan
+661 = { "Nongsae" "Nongsae" } # old name of Dali by Thais and other Tai Kadais
+662 = { "Mueang Sia" "Mueang Sia" } #Thai pronounciation of Mongsee (ᦵᦙᦲᧂ ᦵᦉ) #Kunming/Yunnan-fu
+679 = { "Sechuan" "Nakhon Sechuan" } # Thai pronunciation of Sichuan
+680 = { "Nakhon Pa" "Nakhon Pa" } # Supposed old Thai name of Chonqqing based on migration of Tai people map
+2165 = { "Mueang Sian" "Mueang Sian" } # Since Mueang La is assigned to Song La in Vietnam which has capital city named Muong La. I decide to make up for it. Mueang La is also Tai Kadai name for Pu'er/Simao 
+
+#South China
+667 = { "Kangtang" "Kangtang" } # Guangzhou/Canton
+668 = { "Tha Thawan" "Tha Thawan" } #Macau, meaning port gate in Thai literally translation of Aomen which means port gate
+669 = { "Lapaburi" "Lapaburi" } # City of fortune/good luck Fu in Chinese of Fuzhou means good luck
+1829 = { "Wasantaburi" "Wasantaburi" } # meaning spring city in Thai. Quanzhou, Quan means spring in Chinese 
+
+#North China
+1816 = { "Pakking" "Pakking" } # Beijing based on Thai pronunciation which is delivered from Cantonese pronunciation of Beijing

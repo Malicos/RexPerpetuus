@@ -1,54 +1,154 @@
-173 = "Lapurdi"
-209 = "Bizkaia"
-210 = "Nafarroa"
 
-197 = "Rosselló"
-206 = "Galizia"
-207 = "Asturias"
+#Iberia
+197 = { "Rosselló" "Perpinyà" }
+209 = { "Bizkaia" "Bilbo" }
+210 = { "Iruñea" "Iruñea" }
+211 = { "Oska" "Oska" }
+213 = { "Bartzelona" "Bartzelona" }
+214 = { "Zarautza" "Zarautza" }
+217 = { "Madril" "Madril" }
+220 = { "Valentzia" "Valentzia" }
+221 = { "Murtzia" "Murtzia" }
+224 = { "Sibirija" "Sibirija" }
+225 = { "Kordoba" "Kordoba" }
+1745 = { "Donandere" "Donandere" }
+1746 = { "Barduria" "Barduria" }
+1749 = { "Karize" "Karize" }
+2989 = { "Errioxa" "Loroño" }
+3034 = { "Larrainotza" "Larrainotza" }
+4552 = { "Palentzia" "Palentzia" }
+7903 = { "Tutera" "Tutera" }
+7920 = { "Zangoza" "Zangoza" }
+7929 = { "Gordia" "Gordia" }
+8016 = { "Gipuzkoa" "Donostia" }
+8026 = { "Araba" "Gasteiz" }
+8035 = { "Kixoi" "Kixoi" }
+8042 = { "Donejakue" "Compostelako Donejakue" }
+8108 = { "Jaka" "Jaka" }
+
+#France
+167 = { "Erruan" "Erruan" }
+174 = { "Bordele" "Bordele" }
+175 = { "Armañac" "Auski" }
+176 = { "Biarno" "Paue" }
+183 = { "Parise" "Parise" }
+196 = { "Tolosa" "Tolosa" } 
+201 = { "Marzella" "Marzella" }
+203 = { "Lione" "Lione" }
+3083 = { "Albret" "Albret" }
+4387 = { "Angulema" "Angulema" }
+4111 = { "Arroxela" "Arroxela" }
+4694 = { "Fox" "Fox" }
+4695 = { "Carcasona" "Carcasona" }
+7919 = { "Murueta" "Murueta" }
+7921 = { "Bigorra" "Aturbe" }
+7923 = { "Nafarroa Beherea" "Donibane Garazi" }
+7924 = { "Akize" "Akize" }
+7926 = { "Mendi Marzana" "Mendi Marzana" }
+7928 = { "Liburna" "Liburna" }
+
+#Maghreb
+334 = { "Tanger" "Tanger" }
+338 = { "Aljer" "Aljer" }
+344 = { "Marrakex" "Marrakex" }
+1751 = { "Zeuta" "Zeuta" }
+
+#Italy
+101 = { "Genoa" "Genoa" }
+102 = { "Niza" "Niza" }
+103 = { "Turin" "Turin" }
+104 = { "Milan" "Milan" }
+106 = { "Bolonia" "Bolonia" }
+109 = { "Mantua" "Mantua" }
+116 = { "Florentzia" "Florentzia" }
+118 = { "Erroma" "Erroma" }
+1247 = { "Aiacciu" "Aiacciu" }
+
+#South Germany
+75 = { "Estrasburgo" "Estrasburgo" }
+76 = { "Salzburgo" "Salzburgo" }
+134 = { "Viena" "Viena" }
+165 = { "Berna" "Berna" }
+266 = { "Praga" "Praga" }
+3055 = { "Basilea" "Basilea" }
+4720 = { "Geneva" "Geneva" }
+8489 = { "Luzerna" "Luzerna" }
+
+#North Germany
+44 = { "Hanburgo" "Hanburgo" }
+85 = { "Kolonia" "Kolonia" }
+4712 = { "Konstantza" "Konstantza" }
+
+#Low Countries
+90 = { "Brujas" "Brujas" }
+92 = { "Brusela" "Brusela" }
+93 = { "Lieja" "Lieja" }
+1744 = { "Anberes" "Anberes" }
+4383 = { "Haga" "Haga" }
+
+#Britain
+236 = { "Londres" "Londres" }
+
+#Ireland
+
+#Scandinavia
+12 = { "Kopenhage" "Kopenhage" }
+
+#Russia
+33 = { "San Petersburgo" "San Petersburgo" }
+295 = { "Mosku" "Mosku" }
+
+#Ural
+
+#Pontic Steppe
+
+#Ruthenia
+
+#Baltic
+
+#Poland
+257 = { "Varsovia" "Varsovia" }
+262 = { "Krakovia" "Krakovia" }
+
+#Carpathia
+3160 = { "Bukarest" "Bukarest" }
+
+#Balkans
+143 = { "Belgrad" "Belgrad" }
+146 = { "Atenas" "Atenas" }
+148 = { "Tesalonika" "Tesalonika" }
+4239 = { "Belgrad" "Belgrad" }
+
+#Anatolia
+
+#Levant
+382 = { "Damasko" "Damasko" }
+
+#Canada
+5019 = { "Saint-Pierre eta Mikelune" "Saint-Pierre" }
+
+173 = "Lapurdi"
+
 208 = "Leon"
-211 = "Pirinioak"
-213 = "Bartzelona"
-214 = "Aragoi"
 215 = "Gaztela Zaharra"
-217 = "Madril"
-220 = "Valentzia"
-221 = "Murtzia"
-224 = "Sevilla"
 225 = "Kordoba"
 230 = "Algarbe"
 232 = "Bragantza"
 #333 = "Balearrak"			#BT removed
 366 = "Kanariak"
 367 = "Azoreak"
-1745 = "Kantabria"
 
 89 = "Pikardia"
-93 = "Lieja"
 94 = "Luxenburgo"
 168 = "Normandia"
-174 = "Guiena"
-175 = "Armañac"
-176 = "Bearno"
 184 = "Orleanerria"
 186 = "Xanpaina"
 189 = "Lorrena"
 190 = "Borboierria"
 192 = "Borgoina"
-196 = "Tolosa"
 199 = "Auvernia"
 200 = "Lengadòc"
-201 = "Provença"
-203 = "Lyonerria"
 204 = "Dofinerria"
-
-102 = "Niza"
-109 = "Mantua"
-116 = "Florentzia"
-118 = "Erroma"
-127 = "Sardinia"
-205 = "Savoia"
-1247 = "Korsika"
-1934 = "Lukania"
 
 #BTP
 4557 = "Calatayud"
@@ -235,7 +335,6 @@
 5016 = "Winnemucca" # Kuyuidika							#Generic name
 5017 = "Alceo" # Natakkoa										#Iberian name BeyondTypusInvention
 5018 = "Los Angeles" # Tongva								#Iberian name
-5019 = "San Pedro y Micquetõ" # Saint Pierre et Miquelon			#Iberian name BeyondTypusInvention
 5020 = "Islas Revilla Gigedo" # Revilla Gigedo Islands					#Iberian name
 5021 = "Islas Auckland" # Motu Maha						#Iberian name
 5022 = "Islas Chatham" # Rekohu								#Iberian name
@@ -295,92 +394,20 @@
 
 #Chrysocyon 31st May 2019
 112 = "Venezia"
-236 = "Londres"
 333 = "Mallorca"
-2989 = "Errioxa"
 4559 = "Menorca"
 4560 = "Pitiusak"
 
 #Chrysocyon Nov 2019
-12 = "Kopenhage"
-44 = "Hanburgo"
-75 = "Alsazia"
-76 = "Salzburgo"
-85 = "Kolonia"
-90 = "Brujas"
-92 = "Brusela"
-93 = "Lieja"
-102 = "Niza"
-116 = "Florentzia"
-118 = "Erroma"
-134 = "Viena"
-146 = "Atenas"
-148 = "Tesalonika"
-165 = "Berna"
-167 = "Erruan"
-174 = "Bordele"
-175 = "Armañac"
-176 = "Biarno"
-183 = "Parise"
-196 = "Tolosa"
-197 = "Perpinyà"
-201 = "Marzella"
-203 = "Lione"
 208 = "Leon"
-209 = "Bizkaia"
-210 = "Iruña"
-211 = "Oska"
-213 = "Bartzelona"
-214 = "Zarautza"
-217 = "Madril"
-220 = "Valentzia"
-221 = "Murtzia"
-224 = "Sibirija"
 225 = "Kordoba"
-236 = "Londres"
-257 = "Varsovia"
-262 = "Krakovia"
-266 = "Praga"
-295 = "Mosku"
-334 = "Tanger"
-338 = "Aljer"
-344 = "Marrakex"
 379 = "Jerusalem"
-382 = "Damasko"
 385 = "Meka"
 408 = "Basora"
-1247 = "Aiacciu"
-1744 = "Anberes"
-1745 = "Donandere"
-1746 = "Barduria"
-1749 = "Kadize"
-1751 = "Zeuta"
-2989 = "Errioxa"
-3041 = "Bolonia"
-3055 = "Basilea"
 3056 = "Geneva"
 3084 = "Fox"
 3205 = "Konstantza"
-4111 = "Erroxela"
-4383 = "Haga"
-4387 = "Angulema"
 5139 = "Nikosia"
 5205 = "Beirut"
-7903 = "Tutera"
-7919 = "Murueta"
-7920 = "Zangoza"
-7921 = "Bigorra"
-7923 = { "Nafarroa Beherea" "Donibane Garazi" }
-7924 = "Akize"
-7926 = "Mendi Marzana"
-7928 = "Liburna"
-7929 = "Guardia"
-8016 = "Gipuzkoa"
-8026 = "Araba"
 8035 = "Kixoi"
-8042 = "Donejakue"
 8046 = "Palentzia"
-8108 = "Jaka"
-
-#Math Dec 2019
-210 = "Iruñea"

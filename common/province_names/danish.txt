@@ -264,3 +264,90 @@
 4370 = { "Kambrygge" "Kambrygge" } #Adapted from Old Norse Grantabryggja + English Cambridge
 #Iceland
 371 = { "Agerøren" "Agerøren" }
+
+#Ostrogothia
+2 = { "Lindkøbing" "Lindkøbing" } #
+3120 = { "Jønkøbing" "Jønkøbing" } #
+4166 = { "Kroneberg" "Væksø" } #
+7790 = { "Finheden" "Lyngby" } #
+7792 = { "Tjust" "Vestervig" } #
+7793 = { "Nordkøbing" "Nordkøbing" } #
+
+#Westrogothia
+7 = { "Værmland" "Tingmark" } #
+16 = { "Baahuslen" "Baahus" } #
+4163 = { "Elfsborg" "Lødøse" } #
+4164 = { "Dal" "Daleborg" } #
+7791 = { "Bøgesund" "Bøgesund" } #
+7795 = { "Bro" "Bro" } #
+
+#Svealand
+1 = { "Stokholm" "Stokholm" } # Traditional name of Stockholm in Danish
+4 = { "Vestermanland" "Vesteraas" } #
+8 = { "Kopperbjerg" "Falun" } #
+9 = { "Gefleborg" "Gefle" } #
+1930 = { "Aaland" "Mariehavn" } #
+1985 = { "Nærke" "Ørebro" } #
+3122 = { "Søndermanland" "Nykøbing" } #
+3123 = { "Opland" "Opsale" } #
+7863 = { "Dalene" "Mora" } #
+7794 = { "Lindesaas" "Lindesaas" } #
+
+#Norrland
+11 = { "Vesterbotten" "Umeaa" } #
+18 = { "Søndre Lapland" "Sønderaa" } #
+3124 = { "Aangermanland" "Styresholm" } #
+4114 = { "Nordre Lapland" "Kiruna" } #
+7797 = { "Helsingland" "Hudigsmark" } #
+7798 = { "Midterland" "Sundsmark" } #
+7799 = { "Nordbotten" "Luleaa" } #
+7800 = { "Torneaa" "Torneaa" } #
+
+#Ostrobothnia
+19 = { "Vasa" "Korsholm" } #
+4113 = { "Umeaaborg" "Umeaa" } #
+4151 = { "Enare" "Enare" } #
+4152 = { "Kajanaland" "Kajanaland" } #
+7801 = { "Østerbotten" "Karleby" } #
+7802 = { "Øvrebotten" "Skovkap" } # It isn’t officially known by this name but Rovaniemi translates into this. Rova=Forest/Skov and Niemi=Cape/Kap.
+7864 = { "Kolasøen" "Kolasø" } #
+
+#Finland
+27 = { "Finland" "Aabo" } #
+28 = { "Nyland" "Raseborg" } #
+29 = { "Tavasteland" "Tavastehus" } #
+31 = { "Søndre Savolaks" "Olavsborg" } #
+3128 = { "Satakunta" "Ulfsby" } #
+4123 = { "Birkeland" "Tammerfors" } #
+7803 = { "Nordre Tavastland" "Takstrup" } # Jyväs=Yews=Taks + Kylä=Village=A Commons Danish suffix would be "trup".
+7804 = { "Nordre Savolaks" "Kupio" } #
+7805 = { "Søndre Tavastland" "Lahtis" } #
+7807 = { "Borgaa" "Borgaa" } #
+
+#West Karelia
+30 = { "Viborg" "Viborg" } # Same name as 7770, but look at the notes there.
+32 = { "Kæksborg" "Kæksborg" } #
+4124 = { "Karelen" "Læksa" } #
+7806 = { "Sydkarelen" "Jæskis" } #
+7808 = { "Sordavala" "Sordavala" } #
+
+#Denmark
+12 = { "Nordsjælland" "København" } # Name of the geographic area
+7767 = { "Laaland" "Nykøbing Falster" } #
+7767 = { "Sjælland" "Roskilde" } # Name of the geographic area
+7768 = { "Vestsjælland" "Kalundborg" } # Name of the geographic area
+
+#Jutland
+1984 = { "Nordjylland" "Aalborg" } # Name of the geographic area.
+4142 = { "Østjylland" "Aarhus" } # Name of the geographic area
+7769 = { "Djursland" "Randers" } # Name of the geographic area
+7770 = { "Midtjylland" "Viborg" } # Name of the geographic area
+7771 = { "Vestjylland" "Ringkøbing" } # Name of the geographic area
+
+#Schleswig
+13 = { "Slesvig" "Slesvig" } #
+3134 = { "Aabenraa" "Aabenraa" } #
+7773 = { "Flensborg" Flensborg" } #
+
+#East Norway
+17 = { "Aggershus" "Oslo" } #Could swap Oslo for Christiania...
