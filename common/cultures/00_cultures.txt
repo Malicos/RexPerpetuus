@@ -2987,9 +2987,6 @@ carpathian = {
 	hungarian = {
 		primary = HUN
 	}
-	cuman = {
-		primary = CUM
-	}
 	szekely = {
 		primary = SZE
 	}
@@ -4844,6 +4841,12 @@ altaic = {
 		Kirghiz
 		# CKII - KHANTY
 		"Sibirid" "Narima" "Mansi" "Khantys"
+	}
+	cuman = {
+		primary = CUM
+	}
+	qangar = {
+		primary = QGR
 	}
 }
 
@@ -11588,7 +11591,7 @@ dacian = {
 			Tereza Teresa Vasilica Violeta Yolanda Voica Zina
 		}
 	}
-	pechenegian_culture = { 
+	patzinac = { 
 		dynasty_names = {
 			"Basarab" "Danesti" "Draculesti"
 			Callimachi Ghica Cantacuzino Cantemiresti Racovita Caradja Sturdza 

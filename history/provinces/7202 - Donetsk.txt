@@ -3,7 +3,7 @@
 owner = LVD
 controller = LVD
 add_core = LVD
-culture = pechenegian_culture
+culture = qangar
 religion = orthodox
 capital = "Aleksandrovka"			#Nothing here 'til the late 18th century... so.... getting creative. Modern Donetsk
 base_tax = 1

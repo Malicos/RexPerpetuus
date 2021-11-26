@@ -3,7 +3,7 @@
 owner = QGR
 controller = QGR
 add_core = QGR
-culture = pechenegian_culture
+culture = qangar
 religion = orthodox
 capital = "Samara"			#Dates to circa mid 16th century so.... much better than most of Wild Fields, but still really horrible.
 base_tax = 1

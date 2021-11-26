@@ -31,7 +31,7 @@
  batalyawsi:0 "Batalyawsi"        # Muslim Badajozi
  balansi_culture:0 "Balansi"      # Muslim Valencian
  ibri_culture:0 "Ibri"            # Muslim Aragonese
- pecheneg:0 "Pecenegi"            # Moldavo-Pecheneg
+ patzinac:0 "Pacinac"             # Daco-Turkic Pecheneg
  turko_iranian:0 "Turkirani"      # Persianate Turks
  daylamite:0 "Daylamite"
  macedonian:0 "Macedonian"        # Hellenic Warlords
@@ -55,7 +55,7 @@
  arevmdian:0 "Arevmdian"
  yeravani:0 "Yerevani"
  moldavian_culture:0 "Moldavian"
- pechenegian_culture:0 "Pecheneg"
+ qangar:0 "Qangar"
  
  #################################################################################
  # 3 - Tags
@@ -245,8 +245,8 @@
  LSL_ADJ:0 "Lower Silesian"
  PCS:0 "Phocis"
  PCS_ADJ:0 "Phocean"
- PEC:0 "Pechenegia"
- PEC_ADJ:0 "Pecheneg"
+ PEC:0 "Pacinacia"
+ PEC_ADJ:0 "Pacinac"
  PNS:0 "Pinsk"
  PNS_ADJ:0 "Pinskian"
  SGR:0 "Starogard"

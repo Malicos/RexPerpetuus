@@ -3,7 +3,7 @@
 owner = PEC
 controller = PEC
 add_core = PEC
-culture = pechenegian_culture
+culture = patzinac
 religion = orthodox
 capital = "Orhei"
 trade_goods = wine

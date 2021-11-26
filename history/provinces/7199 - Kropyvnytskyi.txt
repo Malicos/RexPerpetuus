@@ -3,7 +3,7 @@
 owner = PEC
 controller = PEC
 add_core = PEC
-culture = pechenegian_culture
+culture = patzinac
 religion = orthodox
 capital = "Olviopol"			#Insignificant village probably founded in the 16th or maybe late 15th century, but nothing better is showing up easily
 base_tax = 1

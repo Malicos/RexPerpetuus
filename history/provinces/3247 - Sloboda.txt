@@ -5,8 +5,8 @@
 owner = QGR
 controller = QGR
 add_core = QGR
-culture = pechenegian_culture
-religion = orthodox
+culture = qangar
+religion = sunni
 hre = no
 base_tax = 1 
 base_production = 1 

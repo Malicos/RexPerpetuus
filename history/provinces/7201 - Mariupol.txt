@@ -3,7 +3,7 @@
 owner = LVD
 controller = LVD
 add_core = LVD
-culture = pechenegian_culture
+culture = qangar
 religion = orthodox
 capital = "Mariampol"			#Nothing here 'til the late 18th century... so.... getting creative. No evidence of settlement prior to Tartar devastation, so a Greek names isn't the absolute worst.
 base_tax = 1

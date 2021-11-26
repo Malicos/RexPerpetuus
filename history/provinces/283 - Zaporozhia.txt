@@ -3,7 +3,7 @@
 owner = LVD
 controller = LVD
 add_core = LVD
-culture = pechenegian_culture
+culture = qangar
 religion = orthodox
 hre = no
 base_tax = 1 
