@@ -1,9 +1,8 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = SWE
-controller = SWE
-add_core = FIN
-add_core = SWE
+owner = OSB
+controller = OSB
+add_core = OSB
 culture = finnish
 religion = catholic
 capital = "Kokkola"

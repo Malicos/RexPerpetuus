@@ -2,12 +2,11 @@
 #Region - Scandinavia
 #Area - Finland
 
-owner = SWE
-controller = SWE
-add_core = SWE
-add_core = FIN
+owner = TAV
+controller = TAV
+add_core = TAV
 culture = finnish
-religion = catholic
+religion = finnish_pagan_reformed
 hre = no
 base_tax = 1 
 base_production = 1 

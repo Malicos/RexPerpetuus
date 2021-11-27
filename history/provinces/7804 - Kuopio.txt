@@ -1,11 +1,10 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = SWE
-controller = SWE
-add_core = FIN
-add_core = SWE
+owner = SAN
+controller = SAN
+add_core = SAN
 culture = finnish
-religion = catholic
+religion = finnish_pagan_reformed
 capital = "Kuopio"
 base_tax = 1
 base_production = 1

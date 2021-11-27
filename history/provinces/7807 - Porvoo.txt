@@ -1,9 +1,8 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = SWE
-controller = SWE
-add_core = FIN
-add_core = SWE
+owner = USM
+controller = USM
+add_core = USM
 culture = finnish
 religion = catholic
 capital = "Porvoo"

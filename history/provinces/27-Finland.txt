@@ -2,10 +2,9 @@
 #Region - Scandinavia
 #Area - Finland
 
-owner = SWE
-controller = SWE
-add_core = SWE
-add_core = FIN
+owner = ABO
+controller = ABO
+add_core = ABO
 culture = swedish
 religion = catholic
 hre = no

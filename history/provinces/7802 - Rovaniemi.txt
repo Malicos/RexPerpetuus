@@ -1,8 +1,8 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = SWE
-controller = SWE
-add_core = SWE
+owner = KNU
+controller = KNU
+add_core = KNU
 add_core = SMI
 culture = sapmi
 religion = finnish_pagan_reformed

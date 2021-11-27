@@ -1,11 +1,10 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = SWE
-controller = SWE
-add_core = FIN
-add_core = SWE
+owner = KRL
+controller = KRL
+add_core = KRL
 culture = karelian
-religion = catholic
+religion = orthodox
 capital = "J‰‰ski"
 base_tax = 1
 base_production = 1

@@ -2,10 +2,9 @@
 #Region - Scandinavia
 #Area - Norrland
 
-owner = SWE
-controller = SWE
-add_core = SWE
-add_core = FIN
+owner = OSB
+controller = OSB
+add_core = OSB
 culture = finnish
 religion = catholic
 hre = no

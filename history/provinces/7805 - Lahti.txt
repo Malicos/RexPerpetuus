@@ -1,11 +1,10 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = SWE
-controller = SWE
-add_core = FIN
-add_core = SWE
+owner = TAV
+controller = TAV
+add_core = TAV
 culture = finnish
-religion = catholic
+religion = finnish_pagan_reformed
 capital = "Lahti"
 base_tax = 1
 base_production = 1

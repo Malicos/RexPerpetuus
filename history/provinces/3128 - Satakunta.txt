@@ -2,10 +2,9 @@
 #Region - Scandinavia
 #Area - Finland
 
-owner = SWE
-controller = SWE
-add_core = SWE
-add_core = FIN
+owner = SKN
+controller = SKN
+add_core = SKN
 culture = finnish
 religion = catholic
 hre = no

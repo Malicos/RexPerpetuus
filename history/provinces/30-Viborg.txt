@@ -2,12 +2,11 @@
 #Region - Russia
 #Area - Ingria
 
-owner = SWE
-controller = SWE
-add_core = SWE
-add_core = FIN
+owner = KRL
+controller = KRL
+add_core = KRL
 culture = karelian
-religion = catholic
+religion = orthodox
 hre = no
 base_tax = 2 
 base_production = 2 

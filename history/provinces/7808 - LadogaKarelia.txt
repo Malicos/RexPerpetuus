@@ -3,7 +3,6 @@
 owner = KRL
 controller = KRL
 add_core = KRL
-add_core = FIN
 culture = karelian
 religion = orthodox
 capital = "Serdobol"

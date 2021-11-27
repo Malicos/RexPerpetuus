@@ -95,7 +95,13 @@ MLS = "countries/Molise.txt"
 TCA = "countries/Trinacria.txt"
 
 # Scandinavia
+ABO = "countries/Abo.txt"
+KNU = "countries/Kainuu.txt"
+OSB = "countries/Ostrobothnia.txt"
+SAN = "countries/Savonia.txt"
+SKN = "countries/Satakunta.txt"
 SVB = "countries/Svalbard.txt"
+USM = "countries/Uusimaa.txt"
 
 # Poland and Baltics
 AUK = "countries/Aukstaitija.txt"
