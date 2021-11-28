@@ -2,10 +2,9 @@
 #Region - Baltic
 #Area - Estonia
 
-owner = GOT 
-controller = GOT
-add_core = GOT
-add_core = EST
+owner = INI
+controller = INI
+add_core = INI
 culture = estonian
 religion = catholic
 hre = no

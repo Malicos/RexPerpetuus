@@ -2,9 +2,10 @@
 #Region - Baltic
 #Area - Estonia
 
-owner = EST
-controller = EST
-add_core = EST
+owner = PSK
+controller = PSK
+add_core = PSK
+add_core = INI
 culture = estonian
 religion = catholic
 hre = no

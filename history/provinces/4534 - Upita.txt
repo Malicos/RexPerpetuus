@@ -1,8 +1,8 @@
 #4534 - Upita
 
-owner = AUK
-controller = AUK
-add_core = AUK
+owner = SMG
+controller = SMG
+add_core = SMG
 culture = lithuanian
 religion = catholic
 capital = "Upita"

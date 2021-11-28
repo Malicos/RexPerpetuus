@@ -1,9 +1,9 @@
 #Repurposed from Bydgoszcz and Kujawe into Zlotow and Krajna for 1.27, as 1.27 added a bunch and moved everything around.
 #3218 - Krajna
 
-owner = WPK
-controller = WPK
-add_core = WPK
+owner = POL
+controller = POL
+add_core = POL
 capital = "Zlotów" #JP suggests Naklo. Zlotow seems more important.
 culture = polish
 religion = catholic

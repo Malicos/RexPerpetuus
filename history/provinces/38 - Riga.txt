@@ -2,9 +2,8 @@
 #Region - Baltic
 #Area - Livonia
 
-owner = GOT 
-controller = GOT
-add_core = GOT
+owner = RIG 
+controller = RIG
 add_core = RIG
 culture = latvian
 religion = catholic

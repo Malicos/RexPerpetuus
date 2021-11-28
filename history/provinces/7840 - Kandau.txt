@@ -3,7 +3,7 @@
 owner = KUR
 controller = KUR
 add_core = KUR
-culture = estonian
+culture = livonian
 religion = catholic
 capital = "Kandava"
 base_tax = 1

@@ -1,8 +1,8 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = EST
-controller = EST
-add_core = EST
+owner = DRP
+controller = DRP
+add_core = DRP
 culture = estonian
 religion = catholic
 capital = "Vastseliina"			#DE Neuhausen

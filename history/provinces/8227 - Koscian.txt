@@ -5,8 +5,8 @@
 #Core Details
 capital = "Koscian"
 is_city = yes
-owner = WPK
-controller = WPK
+owner = POL
+controller = POL
 
 #Demographics
 culture = polish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = WPK
+add_core = POL
 
 #Other Political
 hre = no

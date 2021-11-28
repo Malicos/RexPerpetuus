@@ -2,12 +2,11 @@
 #Region - Baltic
 #Area - Estonia
 
-owner = GOT 
-controller = GOT
-add_core = GOT
-add_core = EST
+owner = OSL 
+controller = OSL
+add_core = OSL
 culture = estonian
-religion = catholic
+religion = norse_pagan_reformed
 hre = no
 base_tax = 1  
 base_production = 2 
