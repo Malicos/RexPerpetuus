@@ -2,9 +2,9 @@
 #Region - Baltic
 #Area - Curonia
 
-owner = LIV
-controller = LIV
-add_core = LIV
+owner = KUR
+controller = KUR
+add_core = KUR
 culture = latvian
 religion = catholic
 hre = no

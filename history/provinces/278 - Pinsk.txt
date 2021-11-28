@@ -1,8 +1,8 @@
 #278 - Pinsk
 
-owner = PNS
-controller = PNS  
-add_core = PNS
+owner = MSK
+controller = MSK 
+add_core = MSK
 culture = ruthenian
 religion = orthodox
 hre = no

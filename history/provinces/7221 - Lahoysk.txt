@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = PLT
-controller = PLT
-add_core = PLT
+owner = MSK
+controller = MSK 
+add_core = MSK
 culture = byelorussian
 religion = orthodox
 capital = "Lahoysk"

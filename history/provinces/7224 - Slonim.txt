@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = PNS
-controller = PNS  
-add_core = PNS
+owner = MSK
+controller = MSK 
+add_core = MSK
 culture = byelorussian
 religion = orthodox
 capital = "Slonim"

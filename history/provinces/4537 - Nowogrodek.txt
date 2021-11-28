@@ -1,8 +1,8 @@
 #4537 - Nowogrodek
 
-owner = PNS
-controller = PNS  
-add_core = PNS  
+owner = MSK
+controller = MSK 
+add_core = MSK
 culture = byelorussian
 religion = orthodox
 hre = no

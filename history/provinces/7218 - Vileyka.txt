@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = LIT
-controller = LIT
-add_core = LIT
+owner = MSK
+controller = MSK 
+add_core = MSK
 culture = byelorussian
 religion = orthodox
 capital = "Vileyka"
