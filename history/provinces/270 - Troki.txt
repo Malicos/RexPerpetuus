@@ -2,10 +2,10 @@
 #Region - Baltic
 #Area - Lithuania
 
-owner = VIL
-controller = VIL
-add_core = VIL
-religion = "catholic"
+owner = LIT
+controller = LIT
+add_core = LIT
+religion = catholic
 culture = lithuanian
 capital = "Trakai"
 trade_goods = bt_trade_good_beer

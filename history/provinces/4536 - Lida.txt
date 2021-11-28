@@ -1,8 +1,8 @@
 #4536 - Lida
 
-owner = VIL
-controller = VIL
-add_core = VIL
+owner = LIT
+controller = LIT
+add_core = LIT
 religion = catholic
 culture = lithuanian
 capital = "Lida"

@@ -1,8 +1,8 @@
 #4535 - Wilkimierz
 
-owner = AUK
-controller = AUK
-add_core = AUK
+owner = LIT
+controller = LIT
+add_core = LIT
 capital = "Utena"
 is_city = yes
 culture = lithuanian
