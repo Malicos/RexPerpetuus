@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 99  137  153 }
+color = { 41 41 77 }
 
 revolutionary_colors = { 10  13  0 } #Kurland Governate
 

@@ -1,5 +1,5 @@
 graphical_culture = easterngfx
-color = { 160 205 190 }
+color = { 138 181 196 }
 monarch_names = {
 	"Anastasia #0" = -1
 	"Anna #0" = -1

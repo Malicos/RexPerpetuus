@@ -1,5 +1,5 @@
 graphical_culture = westerngfx
-color = { 217 153 104 }
+color = { 255 188 99 }
 monarch_names = {
 	"Agnieszka #0" = 0
 	"Barbara #0" = -1

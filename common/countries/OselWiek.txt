@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx # was balticgfx # UPE compatibility
 
-color = { 208  110  156 }
+color = { 42 78 48 }
 
 historical_idea_groups = {
 	religious_ideas

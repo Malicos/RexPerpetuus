@@ -2,7 +2,7 @@
 
 graphical_culture = easterngfx
 
-color = { 154  69  116 }
+color = { 92 157 103 }
 
 revolutionary_colors = { 9  0  5 } #Lithuania Minor
 
