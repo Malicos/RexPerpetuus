@@ -2,9 +2,9 @@
 #Region - Ruthenia
 #Area - Sloboda Ukraine
 
-owner = CHR
-controller = CHR
-add_core = CHR
+owner = RYA
+controller = RYA
+add_core = RYA
 culture = ruthenian
 religion = orthodox
 hre = no

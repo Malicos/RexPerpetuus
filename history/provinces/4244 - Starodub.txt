@@ -1,8 +1,8 @@
 #4244 - Trubchevsk (Trubchevsk+Starodub+Pochep)
 
-owner = CHR
-controller = CHR
-add_core = CHR
+owner = SVR
+controller = SVR
+add_core = SVR
 culture = ruthenian
 religion = orthodox 
 hre = no

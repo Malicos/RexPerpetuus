@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = CHR
-controller = CHR
-add_core = CHR
+owner = SVR
+controller = SVR
+add_core = SVR
 culture = ruthenian
 religion = orthodox
 capital = "Hadyach"			#Oops... not actually located in this province, but nothing else decent seems to be nearby, and this town really deserves a province, so.... compromise for now.
