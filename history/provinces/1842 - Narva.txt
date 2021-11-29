@@ -5,7 +5,7 @@
 owner = PSK
 controller = PSK
 add_core = PSK
-add_core = INI
+add_core = EST
 culture = estonian
 religion = catholic
 hre = no
