@@ -5,8 +5,8 @@
 #Core Details
 capital = "Daruvar"
 is_city = yes
-owner = CRO
-controller = CRO
+owner = SLA
+controller = SLA
 
 #Demographics
 culture = croatian
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = CRO
 add_core = SLA
 
 #Other Political

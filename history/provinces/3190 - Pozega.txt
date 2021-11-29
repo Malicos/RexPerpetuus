@@ -1,8 +1,7 @@
 #3190 - Požega
 
-owner = CRO
-controller = CRO
-add_core = CRO
+owner = SLA
+controller = SLA
 add_core = SLA
 culture = croatian
 religion = hussite
