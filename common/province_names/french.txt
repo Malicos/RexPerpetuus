@@ -1187,6 +1187,7 @@
 7923 = { "Basse-Navarre" "Saint-Jean-Pied-de-Port"}					#LowerNavarre. Notes
 7926 = "Mont-de-Marsan"					#MontdeMarsan. Notes
 7940 = "Saint-Claude"					#StClaude. Notes
+7947 = { "Toul" "Toul" }				#Trying to fix 'Tull' bug
 7953 = "Saint-Dizier"					#StDizier. Notes
 7973 = "Saint-Omer"						#StOmer. Notes
 7995 = "Saint-Malo"						#StMalo. Notes

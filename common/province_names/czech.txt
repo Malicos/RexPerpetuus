@@ -101,6 +101,9 @@
 8240 = { "Bytom" "Bytom" }
 8241 = { "Kluczbork" "Kluczbork" }
 
+#Bohemia
+267 = { "Plzen" "Plzen" } #corrected from default west_slavic
+
 ##Kingdom of Poland
 
 #Sieradz

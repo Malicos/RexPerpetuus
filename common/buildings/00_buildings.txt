@@ -499,18 +499,6 @@ courthouse = {
 
 	keep_trigger = {
 		is_state = yes
-		NOT = {
-			area_for_scope_province = {
-				NOT = { province_id = root }
-				owner = {
-					tag = ROOT
-				}
-				OR = {
-					has_building = state_house
-					has_construction = state_house
-				}
-			}
-		}
 	}
 	
 	ai_will_do = {
@@ -1516,18 +1504,6 @@ town_hall = {
 
 	keep_trigger = {
 		is_state = yes
-		NOT = {
-			area_for_scope_province = {
-				NOT = { province_id = root }
-				owner = {
-					tag = ROOT
-				}
-				OR = {
-					has_building = state_house
-					has_construction = state_house
-				}
-			}
-		}
 	}
 	
 	modifier = {
@@ -2322,6 +2298,7 @@ tradecompany = {
 			trade_goods = spices
 			trade_goods = fur
 			trade_goods = incense
+			trade_goods = cloves
 		}
 	}
 
@@ -2777,6 +2754,9 @@ soldier_households = {
 		fish
 		livestock
 		wine
+		bt_trade_good_fruit
+		bt_trade_good_beer
+		bt_trade_good_apiculture
 	}
 
 	modifier = {
@@ -2837,6 +2817,7 @@ state_house = {
 		paper
 		glass
 		gems
+		bt_trade_good_books
 	}
 
 	build_trigger = {

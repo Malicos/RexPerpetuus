@@ -5,8 +5,8 @@ country_decisions = {
 		potential = {
 			bt_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_saxony_flag_bt }
-				primary_culture = saxon
-				tag = SAX
+			primary_culture = saxon
+			tag = SAX
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -27,17 +27,17 @@ country_decisions = {
 			senior_union_with = THU
 			senior_union_with = MEI
 			THU = {
-			NOT = { liberty_desire = 50 }
+				NOT = { liberty_desire = 50 }
 				has_opinion = {
-				who = ROOT
-				value = 100
+					who = ROOT
+					value = 100
 				}
 			}
 			MEI = {
-			NOT = { liberty_desire = 50 }
+				NOT = { liberty_desire = 50 }
 				has_opinion = {
-				who = ROOT
-				value = 100
+					who = ROOT
+					value = 100
 				}
 			}
 		}
@@ -47,7 +47,7 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 25
-			swap_free_idea_group = yes
+			#swap_free_idea_group = yes
 			set_country_flag = formed_saxony_flag_bt
 			inherit = MEI
 			inherit = THU

@@ -11,8 +11,8 @@
 211 = { "Osca" "Osca" }
 212 = { "Gerunda" "Gerunda" }
 214 = { "Saragoça" "Saragoça" }
-215 = { "Valedolide" "Valedolide" }		# Brazilian { "Valedoli" "Valedoli" }
-217 = { "Madride" "Madride" }			# Brazilian { "Madri" "Madri" }
+215 = { "Valedoli" "Valedoli" }
+217 = { "Madri" "Madri" }
 218 = { "Badalhouce" "Badalhouce" }
 220 = { "Valência" "Valência" }
 221 = { "Múrcia" "Múrcia" }
@@ -28,11 +28,10 @@
 366 = { "Ilhas Afortunadas" "Betancúria" }
 367 = { "Açores" "Ponta Delgada" }
 368 = { "Madeira" "Funchal" }
-1745 = { "Santandré" "Santandré" }			#Disused exonym
 1748 = { "Xaém" "Xaém" }
 1749 = { "Cádis" "Cádis" }
 1851 = { "Coimbra" "Coimbra" }
-2751 = { "Quenca" "Quenca" }
+2751 = { "Conca" "Conca" }
 2754 = { "Cidade Real" "Cidade Real" }
 2755 = { "Sória" "Sória" }
 2987 = { "Urgel" "Séu de Urgel" }

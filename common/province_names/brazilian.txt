@@ -31,7 +31,7 @@
 1748 = { "Xaém" "Xaém" }
 1749 = { "Cádis" "Cádis" }
 1851 = { "Coimbra" "Coimbra" }
-2751 = { "Quenca" "Quenca" }
+2751 = { "Conca" "Conca" }
 2754 = { "Cidade Real" "Cidade Real" }
 2755 = { "Sória" "Sória" }
 2987 = { "Urgel" "Seu de Urgel" }

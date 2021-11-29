@@ -14817,6 +14817,10 @@ royal_palace_caserta = {
 			governing_capacity = 100
 		}
 		on_upgraded = {
+			3039 = {
+				change_province_name = "Caserta"
+				rename_capital = "Caserta"
+			}
 		}
 	}
 }

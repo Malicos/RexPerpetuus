@@ -754,7 +754,7 @@
 7942 = { "Mömpelgard" "Mömpelgard" }
 7945 = { "Saarburg" "Saarburg" }
 7946 = { "Spilleln" "Spilleln" } 
-7947 = { "Tull-an-der-Mosel" "Tull-an-der-Mosel" } #(neo) The actual name, 'Tull,' breaks localization somehow
+#7947 Tull (do not put localization here for this province, the game DOES NOT like the name 'Tull')
 7949 = { "Saargemünd" "Saargemünd" }
 7950 = { "Lengerun" "Lengerun" }
 7953 = { "Sankt Störgen" "Sankt Störgen" }

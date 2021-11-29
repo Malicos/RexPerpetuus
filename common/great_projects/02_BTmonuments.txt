@@ -312,7 +312,7 @@ globe_theatre = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.5
+			prestige = 0.25
 			legitimacy = 1
 			monthly_splendor = 1
 		}
@@ -346,7 +346,7 @@ globe_theatre = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			burghers_loyalty_modifier = 0.05
-			prestige = 1
+			prestige = 0.5
 			legitimacy = 2
 			monthly_splendor = 2
 		}
@@ -381,9 +381,9 @@ globe_theatre = {
 		country_modifiers = {
 			global_unrest = -1
 			burghers_loyalty_modifier = 0.1
-			prestige = 2
+			prestige = 1
 			legitimacy = 5
-			monthly_splendor = 5
+			monthly_splendor = 3
 		}
 
 		#what effects happen when this tier is achieved
@@ -485,6 +485,7 @@ lapa_arches = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_development_cost = -0.1 #The aqueduct carries water from the Carioca river into the city, facilitating growth
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -513,10 +514,14 @@ lapa_arches = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			#trade_goods_size_modifier = 0.05 #more fresh water means that the population of the city are healthier, leading to better productivity
+			supply_limit_modifier = 0.25 #more fresh water means that the population of the city are healthier, leading to better productivity
+			local_development_cost = -0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.1 #a combined -20% for the province
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -541,14 +546,22 @@ lapa_arches = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			#trade_goods_size_modifier = 0.1
+			supply_limit_modifier = 0.5 #more fresh water means that the population of the city are healthier, leading to better productivity
+			local_development_cost = -0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.2 #combined -30% for Rio itself
+			local_build_cost = -0.2 #At this point, the city has grown and its growth is leading to a boom in the entire state
+			local_build_time = -0.2 #At this point, the city has grown and its growth is leading to a boom in the entire state
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_colonial_growth = 20 #More Bandeirantes, more fun
+			#prestige = 0.25 #Small prestige bonus because pretty aqueduct ooo
 		}
 
 		#what effects happen when this tier is achieved
@@ -658,6 +671,7 @@ leaning_tower = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			church_loyalty_modifier = 0.025 #Belltower of the Pisa Cathedral
 		}
 
 		#what effects happen when this tier is achieved
@@ -678,6 +692,7 @@ leaning_tower = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_hostile_attrition = 0.5 #The tower's height led to fears that it could be being used as a watchtower during World War 2. Not a bad idea!
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -686,6 +701,10 @@ leaning_tower = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			innovativeness_gain = 0.1 #Galileo used the tower to demonstrate the law of free fall 
+			church_loyalty_modifier = 0.05 #Belltower of the Pisa Cathedral
+			promote_culture_cost = -0.1 #The Leaning Tower is a sign of Pisan/Tuscan pride
+			culture_conversion_cost = -0.05 #Ditto
 		}
 
 		#what effects happen when this tier is achieved
@@ -706,6 +725,7 @@ leaning_tower = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_hostile_attrition = 1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -714,6 +734,12 @@ leaning_tower = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			innovativeness_gain = 0.2 #Galileo used the tower to demonstrate the law of free fall 
+			church_loyalty_modifier = 0.1 #Belltower of the Pisa Cathedral
+			church_influence_modifier = 0.1
+			promote_culture_cost = -0.2 
+			culture_conversion_cost = -0.1
+
 		}
 
 		#what effects happen when this tier is achieved
@@ -2222,7 +2248,7 @@ mt_athos = {
 
 mt_olympus = {
 	# province it starts in
-	start = 7122		#Veroia, actually straddles border
+	start = 147		#staddles the province border, put in thessaly to spread out monument positions
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = -500.01.01	#city of Dion, dedicated to Zeus and the Twelve Olympians
@@ -4595,7 +4621,7 @@ aachen_cathedral = {
 			owner = {
 				add_estate_loyalty = {
 					estate = estate_church
-					loyalty = 15
+					loyalty = 10
 				}
 			}
 		}

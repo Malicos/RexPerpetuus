@@ -1,4 +1,122 @@
 #Vanilla moved from ROM tag
+
+#Italy
+101 = { "Genua" "Genua" }
+102 = { "Nicaea" "Nicaea" }
+103 = { "Taurinum" "Taurinum"" }
+104 = { "Mediolanum" "Mediolanum" }
+105 = { "Iulia Augusta" "Iulia Augusta" }
+106 = { "Mutina" "Mutina" }
+107 = { "Brixia" "Brixia" }
+109 = { "Mantua" "Mantua" }
+110 = { "Tridentum" "Tridentum" }
+112 = { "Venetiae" "Venetiae" }
+113 = { "Forum Alieni" "Forum Alieni" }
+115 = { "Pisae" "Pisae" }
+116 = { "Florentia" "Florentia" }
+117 = { "Sena" "Sena" }
+118 = { "Roma" "Roma" }
+120 = { "Aquila" "Aquila" }
+121 = { "Neapolis" "Neapolis" }
+122 = { "Tarentum" "Tarentum" }
+123 = { "Rhegium" "Rhegium" }
+124 = { "Messana" "Messana" }
+125 = { "Panormus" "Panormus" }
+126 = { "Melita" "Melita" }	#(Chrys) Mdina was called Melita by the Romans, much like how the capital of Rhodes is Rhodes
+127 = { "Sassaris" "Sassaris" }
+130 = { "Pietas Iulia" "Pietas Iulia" }
+1247 = { "Adiacium" "Adiacium" }
+1933 = { "Barium" "Barium" }
+1934 = { "Potentia" "Potentia" }
+2976 = { "Perusia" "Perusia" }
+2977 = { "Urbinum" "Urbinum" }
+2978 = { "Arretium" "Arretium" }
+2979 = { "Novaria" "Novaria" }
+2980 = { "Luca" "Luca" }
+2981 = { "Mons Ferratus" "Casalis" }
+2982 = { "Syracusae" "Syracusae" }
+2983 = { "Salernum" "Salernum" "
+2984 = { "Consentia" "Consentia" }
+2985 = { "Luceria" "Luceria" }
+2986 = { "Caralis" "Caralis" }
+2992 = { "Albingaunum" "Albingaunum" }
+3039 = { "Capua" "Capua" }
+3040 = { "Plumbinum" "Plumbinum" }	#(Chrys) Originally Populonia was the main center here in Roman times, it moved to Piombino, which likely comes from Populino (Latin "Populinum") which means small Populonia, but while likely it's not attested in Latin and instead since the medieval era the city is known as "Plumbinum", from folk etymolofy relating Piombino to plumbum (lead).
+3045 = { "Vallis Augustana" "Augusta Praetoria" }
+3048 = { "Bauzanum" "Bauzanum" }
+3295 = "Viterbium"
+7000 = "Drepanon"
+7001 = "Castra Nicia"
+7002 = "Catina"
+7003 = "Chatacium"
+7004 = "Matheola"
+7005 = "Litium"
+7006 = "Brundisium"
+7007 = "Barulum"
+7008 = "Venusia"
+7010 = "Abellinatium"
+7012 = "Beneventum"
+7013 = "Teate"
+7015 = "Avidianum"
+7017 = "Caieta"
+7018 = "Velitrae"
+7019 = "Sabinium"
+7020 = "Aletrium"
+7021 = "Urbs Vetus"
+7022 = "Interamna"
+7023 = "Spoletium"
+7024 = "Nursia"
+7025 = "Pisaurum"
+7026 = "Camerinum"
+7028 = "Faventia"
+7029 = "Iguvium"
+7030 = "Recina"
+7031 = "Forum Livii"
+7032 = "Ariminum"
+7035 = "Tifernum"
+7036 = "Fulginiae"
+7037 = "Firmum Picenum"
+7039 = "Clusium"
+7041 = "Cosa"
+7043 = "Salebrone"
+7044 = "Massa Veternensis"
+7046 = "Corito"
+7048 = "Dertona"
+7051 = "Volaterrae"
+7052 = "Alba Pompeia"
+7053 = "Pollupex"
+7056 = "Monoecus"
+7057 = "Placentia"
+7059 = "Luni"
+7060 = "Bobium"
+7061 = "Aquae Statiellae"
+7062 = "Ceba"
+7063 = "Mons Regalis"
+7066 = "Potentia"
+7067 = "Regium"
+7071 = "Pinareul"
+7072 = "Eporedia"
+7074 = "Novum Comum"
+7074 = "Tarvisium"
+7075 = "Vercelum"
+7076 = "Clodia"
+7077 = "Patavium"
+7078 = "Laus Pompeia"
+7079 = "Bugella"
+7083 = "Rodigium"
+7085 = "Vincentia"
+7086 = "Portus Naonis"
+7087 = "Castrum Cenetense"
+7089 = "Feltria"
+7090 = "Ruginium"
+7091 = "Tulminum"
+7092 = "Mairania"
+7093 = "Sabiona"
+7095 = "Metalla"
+7096 = "Utinum"
+7098 = "Tolmetium"
+
+
 #Britannia
 233 = "Cornubia"
 234 = "Hantonia"
@@ -167,42 +285,6 @@
 4557 = "Bilbilis"
 4558 = "Aurium"
 4559 = "Minorica"
-
-#Italia
-101 = "Genua"
-102 = "Nicaea"
-103 = "Pedemontium"
-104 = "Mediolanum"
-107 = "Brixia"
-111 = "Forum Iulii"
-112 = "Venetiae"
-113 = "Ferraria"
-114 = "Romania"
-115 = "Pisae"
-116 = "Florentia"
-117 = "Sena Iulia"
-120 = "Aprutium"
-121 = "Neapolis"
-122 = "Sallentum"
-123 = "Bruttium"
-124 = "Messana"
-125 = "Panormus"
-126 = "Melita"
-127 = "Sassaris"
-1774 = "Tarvisium"
-1875 = "Cuneum"
-1933 = "Barium"
-2977 = "Urbinum"
-2978 = "Arretium"
-2979 = "Novaria"
-2980 = "Luca"
-2981 = "Mons Ferratus"
-2982 = "Syracusae"
-2983 = "Salernum"
-2984 = "Consentia"
-2985 = "Fovea"
-2986 = "Caralis"
-2992 = "Albingaunum"
 
 #Illyria/Balcania
 131 = "Zagrabia"
@@ -435,70 +517,6 @@
 #JP's Work
 
 #2017 Dec 29
-
-#Sardinia and Corsica
-5092 = "Mariana" #Bastia
-1247 = "Adiacium" #Ajaccio
-127 = "Olbia" #Gallura
-5091 = "Turis Libisonis" #Logodoro
-5090 = "Tharos" #Arborea
-2986 = "Carales" #Cagliari
-
-#Sicily
-2982 = "Syracusae" #Syracuse
-3037 = "Lilybaeum" #Girgenti
-125 = "Panormus" #Palermo
-126 = "Melita" #Malta
-124 = "Messana" #Messina
-
-#Naples
-121 = "Neapolis" #Naples
-123 = "Rhegium" #Calabria
-2984 = "Thurii" #or "Crotona" #I can find no settlement nor name for Cosenza, the map shows both towns existing in the in-game province
-1934 = "Heraclea" #Lucania
-122 = "Tarentum" #or "Brundisium" #First is the Roman name for Tarento yet the latter was a more important city
-1933 = "Barium" #Bari
-2983 = "Salernum" #Salerno
-2985 = "Sipontum" #a town in the modern day Capitanata
-3038 = "Histonium" #a town in the modern day Molise
-120 = "Aprutium" #Abruzzi
-
-#Central Italy
-3295 = "Castrum Viterbii" #Corrected back to Viterbii to make it grammatically correct
-2976 = "Perusium" #Perugia was Perusia to the Umbrii, Perusium just sounds better
-2977 = "Ariminum" #Urbino
-2978 = "Arretium" #Arezzo
-2980 = "Lucae" #Lucca
-115 = "Pisae" #Pisa
-3040 = "Populonium" #Piombino
-117 = "Saena Iulia" #Siena
-116 = "Florentia" #Firenze
-114 = "Ravenna" #Romagna
-2992 = "Albintimilium" #Albenga
-101 = "Genua" #Genoa
-102 = "Cemenelum" #Roman city whilst Nice was the Greek one. Evenetually, Cemenelum was destroyed and it's successor, Cimiez became a part of Nizza
-3042 = "Luna" #Massa
-3041 = "Bononia" #Bologna
-113 = "Forum Alieni" #or "Spina" #or "Spinium" #The first was a Roman settlement which existed near Ferrara. The second is an Etruscan port town, the third is a crude attempt to 'Romanise' the port town.
-106 = "Mutina" #Modena
-
-#Northern Italy
-103 = "Augusta Tourinorum" #Roman name for Turin
-3045 = "Augusta Salassorum" #Roman Settlement at modern day Aosta
-2979 = "Vercellum" #Novara
-2981 = "Mons Ferratus" #Montferrat
-104 = "Mediolanum" #Milan
-3294 = "Sundrium" #Valtellina
-107 = "Brixia" #Brescia
-110 = "Tridentum" #Trent
-108 = "Versus Romae" #Verona
-1774 = "Tarvisium" #Treviso
-111 = "Forum Iulii" #Friuli
-112 = "Venetiae" #Venezia
-
-
-
-
 #Wawawaweweweeewuuuuuuuuu's work
 #2018 Nov 6
 #Africa
@@ -745,135 +763,6 @@
 
 
 #Beyond Typus 10.0 major localised naming contribution from multiple people, credit to everyone but Draiocht. Integrated 2018-11-16
-# Sicily
-124 = "Messana"
-125 = "Panormus"
-2982 = "Syracusae"
-3037 = "Agrigentum"
-7000 = "Drepanon"
-7001 = "Castra Nicia"
-7002 = "Catina"
-
-# Naples
-121 = "Neapolis"
-122 = "Tarentum"
-123 = "Rhegium"
-1933 = "Barium"
-1934 = "Potentia"
-2983 = "Salernum"
-2984 = "Consentia"
-3038 = "Campus Vassorum"
-7003 = "Chatacium"
-7004 = "Matheola"
-7005 = "Litium"
-7006 = "Brundisium"
-7007 = "Barulum"
-7008 = "Venusia"
-7010 = "Abellinatium"
-7013 = "Teate"
-7015 = "Avidianum"
-7012 = "Beneventum"
-7017 = "Caieta"
-
-# Central Italy
-118 = "Roma"
-2976 = "Perusia"
-2977 = "Urbinum"
-3295 = "Viterbium"
-7018 = "Velitrae"
-7019 = "Sabinium"
-7020 = "Aletrium"
-7021 = "Urbs Vetus"
-7022 = "Interamna"
-7023 = "Spoletium"
-7024 = "Nursia"
-7025 = "Pisaurum"
-7026 = "Camerinum"
-7029 = "Iguvium"
-7030 = "Recina"
-7035 = "Tifernum"
-7036 = "Fulginiae"
-7037 = "Firmum Picenum"
-
-# Tuscany
-115 = "Portus Pisanus"
-116 = "Florentia"
-2978 = "Arretium"
-2980 = "Lucae"
-3040 = "Populino"
-3042 = "Tabernas"
-7039 = "Clusium"
-7041 = "Cosa"
-7043 = "Salebrone"
-7044 = "Massa Veternensis"
-7046 = "Corito"
-7051 = "Volaterrae"
-7059 = "Luni"
-
-# Sardinia and Corsica
-1247 = "Adiacium"
-2986 = "Caralis"
-7095 = "Metalla"
-
-# Liguria and Piedmont
-101 = "Genua"
-102 = "Nicaea"
-103 = "Taurinorum"
-2992 = "Albingaunum"
-3045 = "Salassorum"
-7052 = "Alba Pompeia"
-7053 = "Pollupex"
-7056 = "Monoecus"
-7061 = "Aquae Statiellae"
-7062 = "Ceba"
-7063 = "Mons Regalis"
-7066 = "Potentia"
-7071 = "Pinareul"
-7072 = "Eporedia"
-7075 = "Vercelum"
-7079 = "Bugella"
-
-# Lombardy
-104 = "Mediolanum"
-107 = "Brixia"
-109 = "Mantua"
-2979 = "Novaria"
-3043 = "Ticinum"
-3047 = "Bergomum"
-7048 = "Dertona"
-7074 = "Novum Comum"
-7078 = "Laus Pompeia"
-
-# Emilia-Romagna
-105 = "Julia"
-106 = "Mutina"
-113 = "Forum Alieni"
-3041 = "Bononia"
-7028 = "Faventia"
-7031 = "Forum Livii"
-7032 = "Ariminum"
-7057 = "Placentia"
-7060 = "Bobium"
-7067 = "Regium"
-7083 = "Rodigium"
-
-# Veneto, Trento and Istria
-110 = "Tridentum"
-112 = "Venetiae"
-3048 = "Bauzanum"
-7074 = "Tarvisium"
-7076 = "Clodia"
-7077 = "Patavium"
-7085 = "Vincentia"
-7086 = "Portus Naonis"
-7087 = "Castrum Cenetense"
-7089 = "Feltria"
-7090 = "Ruginium"
-7091 = "Tulminum"
-7092 = "Mairania"
-7093 = "Sabiona"
-7096 = "Utinum"
-7098 = "Tolmetium"
 
 # Albania and Epirus
 142 = "Corcyra"
