@@ -5,8 +5,8 @@
 #Core Details
 capital = "Krimml"
 is_city = yes
-owner = BAV
-controller = BAV
+owner = KML
+controller = KML
 
 #Demographics
 culture = bavarian
@@ -19,8 +19,7 @@ base_manpower = 1
 trade_goods = bt_trade_good_fruit
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BAV
-add_core = SLZ
+add_core = KML
 
 #Other Political
 hre = yes

@@ -1,7 +1,7 @@
  
-owner = BAV
-controller = BAV
-add_core = BAV
+owner = BOH
+controller = BOH
+add_core = BOH
 add_core = PSS
 capital = "Passau"
 is_city = yes

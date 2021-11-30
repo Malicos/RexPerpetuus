@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Lower Bavaria
 
-owner = BAV
-controller = BAV
-add_core = BAV
+owner = SBI
+controller = SBI
+add_core = SBI
 culture = bavarian
 religion = catholic
 base_tax = 4 

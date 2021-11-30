@@ -74,14 +74,18 @@ STD = "countries/Santander.txt"
 TOM = "countries/TrasOsMontes.txt"
 
 # HRE
+HTT = "countries/Hallstatt.txt"
 JRB = "countries/Jutribok.txt"
+KML = "countries/Krimml.txt"
 LSL = "countries/LowerSilesia.txt"
 LUT = "countries/Luticia.txt"
 MSO = "countries/Misno.txt"
 NGU = "countries/Nordgau.txt"
 OST = "countries/Ostfalen.txt"
+SBI = "countries/Straubing.txt"
 STO = "countries/Santok.txt"
 USL = "countries/UpperSilesia.txt"
+WSB = "countries/Wasserburg.txt"
 
 # North Italy
 ACQ = "countries/Acqui.txt"

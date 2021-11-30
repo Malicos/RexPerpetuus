@@ -1,7 +1,7 @@
  
-owner = BAV
-controller = BAV
-add_core = BAV
+owner = WSB
+controller = WSB
+add_core = WSB
 capital = "Wasserburg"
 is_city = yes
 culture = bavarian

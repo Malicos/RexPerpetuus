@@ -5,8 +5,8 @@
 #Core Details
 capital = "Partenkirchen"
 is_city = yes
-owner = BAV
-controller = BAV
+owner = TIR
+controller = TIR
 
 #Demographics
 culture = bavarian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock		#lots of animals, pretty rugged, declined post Americas discovery
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BAV
+add_core = TIR
 
 #Other Political
 hre = yes
