@@ -7,9 +7,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = TRI
+controller = TRI
+add_core = TRI
 capital = "Saarbrücken"
 culture = hessian
 religion = catholic

@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Lower Rhineland
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = TRI
+controller = TRI
+add_core = TRI
 culture = hessian
 religion = catholic
 trade_goods = grain

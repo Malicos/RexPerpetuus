@@ -5,8 +5,8 @@
 #Core Details
 capital = "Prüm"
 is_city = yes
-owner = LOT
-controller = LOT
+owner = LUX
+controller = LUX
 
 #Demographics
 culture = hessian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LOT
+add_core = LUX
 
 #Other Political
 hre = yes

@@ -1,7 +1,7 @@
  
-owner = BAD
-controller = BAD
-add_core = BAD
+owner = PAL
+controller = PAL
+add_core = PAL
 capital = "Durlach"
 is_city = yes
 culture = franconian

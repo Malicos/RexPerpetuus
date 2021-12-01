@@ -2,8 +2,9 @@
 #Region - Low Countries
 #Area - Netherlands
 
-owner = GEL
-controller = GEL 
+owner = HOL
+controller = HOL
+add_core = HOL
 capital = "Nimeguen"
 is_city = yes
 culture = dutch
@@ -13,7 +14,6 @@ base_tax = 5 			#The oldest city in the Low Countries, apparently. Population es
 base_production = 5
 trade_goods = grain			#Or fruit. This is virtually the only 'good' land in the Low Countries before all the dikes and canals went up, so an agricultural good is a good default. Note agricultural doesn't mean poor... this was a major centre.
 base_manpower = 3 
-add_core = GEL
 
 discovered_by = western
 discovered_by = muslim

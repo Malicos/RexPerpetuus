@@ -1,9 +1,9 @@
  
 # 4767 - Zweibrücken
 
-owner = PAL
-controller = PAL
-add_core = PAL
+owner = LOT
+controller = LOT
+add_core = LOT
 capital = "Zweibrücken"
 culture = hessian
 religion = catholic
