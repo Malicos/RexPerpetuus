@@ -5,8 +5,8 @@
 #Core Details
 capital = "Öhringen"
 is_city = yes
-owner = HNL
-controller = HNL
+owner = ANS
+controller = ANS
 
 #Demographics
 culture = franconian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = iron
 
 #Cores and Occupation (Alphabetical after current)
-add_core = HNL
+add_core = ANS
 
 #Other Political
 hre = yes

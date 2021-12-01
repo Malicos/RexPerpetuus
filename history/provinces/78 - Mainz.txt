@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Palatinate
 
-owner = NSA
-controller = NSA
-add_core = NSA
+owner = MAI
+controller = MAI
+add_core = MAI
 capital = "Mainz"
 culture = hessian
 religion = catholic

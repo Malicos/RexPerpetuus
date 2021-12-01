@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Hesse
 
-owner = NSA
-controller = NSA
-add_core = NSA
+owner = WES
+controller = WES
+add_core = WES
 capital = "Wiesbaden"
 trade_goods = copper
 hre = yes

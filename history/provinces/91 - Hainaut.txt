@@ -6,9 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = HAI
+controller = HAI
+add_core = HAI
 capital = "Mons"
 is_city = yes
 culture = picard_culture

@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Switzerland
 
-owner = TGN
-controller = TGN
-add_core = TGN
+owner = SWI
+controller = SWI
+add_core = SWI
 culture = swabian
 religion = catholic
 capital = "Schwyz"

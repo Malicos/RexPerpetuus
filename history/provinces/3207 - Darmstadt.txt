@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Palatinate
 
-owner = DRM
-controller = DRM
-add_core = DRM
+owner = PAL
+controller = PAL
+add_core = PAL
 capital = "Darmstadt"
 culture = hessian
 religion = catholic

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Lichtensteig"
 is_city = yes
-owner = TGN
-controller = TGN
+owner = SWI
+controller = SWI
 
 #Demographics
 culture = swabian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = TGN
+add_core = SWI
 
 #Other Political
 hre = yes
