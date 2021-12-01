@@ -74,6 +74,7 @@ STD = "countries/Santander.txt"
 TOM = "countries/TrasOsMontes.txt"
 
 # HRE
+HCS = "countries/Hochstadt.txt"
 HTT = "countries/Hallstatt.txt"
 JRB = "countries/Jutribok.txt"
 KML = "countries/Krimml.txt"
@@ -84,6 +85,7 @@ NGU = "countries/Nordgau.txt"
 OST = "countries/Ostfalen.txt"
 SBI = "countries/Straubing.txt"
 STO = "countries/Santok.txt"
+TUB = "countries/Tubingen.txt"
 USL = "countries/UpperSilesia.txt"
 WSB = "countries/Wasserburg.txt"
 

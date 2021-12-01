@@ -5,8 +5,8 @@
 #Core Details
 capital = "Helfenstein"
 is_city = yes
-owner = SWA
-controller = SWA
+owner = HLF
+controller = HLF
 
 #Demographics
 culture = swabian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SWA
+add_core = HLF
 
 #Other Political
 hre = yes

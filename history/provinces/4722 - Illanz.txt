@@ -1,7 +1,7 @@
  
-owner = TTL
-controller = TTL
-add_core = TTL
+owner = GRB
+controller = GRB
+add_core = GRB
 culture = romanch_culture
 religion = catholic
 capital = "Illanz"

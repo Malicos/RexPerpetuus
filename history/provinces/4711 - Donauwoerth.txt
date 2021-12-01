@@ -1,7 +1,7 @@
  
-owner = DWT
-controller = DWT
-add_core = DWT
+owner = NRD
+controller = NRD
+add_core = NRD
 capital = "Nördlingen"
 is_city = yes
 culture = swabian

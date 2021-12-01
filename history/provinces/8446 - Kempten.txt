@@ -5,8 +5,8 @@
 #Core Details
 capital = "Kempten"
 is_city = yes
-owner = KMP
-controller = KMP
+owner = SWA
+controller = SWA
 
 #Demographics
 culture = swabian
@@ -19,6 +19,7 @@ base_manpower = 1
 trade_goods = iron
 
 #Cores and Occupation (Alphabetical after current)
+add_core = SWA
 add_core = KMP
 
 #Other Political

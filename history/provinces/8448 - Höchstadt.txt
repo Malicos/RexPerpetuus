@@ -5,8 +5,8 @@
 #Core Details
 capital = "Höchstadt"#also Donauworth
 is_city = yes
-owner = DWT
-controller = DWT
+owner = HCS
+controller = HCS
 
 #Demographics
 culture = swabian
@@ -19,7 +19,7 @@ base_manpower = 3
 trade_goods = iron#high quality gravel, should be Stone
 
 #Cores and Occupation (Alphabetical after current)
-add_core = DWT
+add_core = HCS
 
 #Other Political
 hre = yes

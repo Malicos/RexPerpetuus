@@ -3,8 +3,9 @@
 #Region - Germany
 #Area - Tirol
 
-owner = MBZ
-controller = MBZ
+owner = TTL
+controller = TTL
+add_core = TTL
 add_core = MBZ
 culture = swabian
 religion = catholic

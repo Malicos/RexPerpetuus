@@ -2,9 +2,9 @@
 #Region - France
 #Area - Lorraine
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = BAR
+controller = BAR
+add_core = BAR
 capital = "Bar-le-Duc"
 is_city = yes
 culture = lorraine_culture
