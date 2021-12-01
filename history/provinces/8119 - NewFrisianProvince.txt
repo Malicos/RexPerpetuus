@@ -2,8 +2,9 @@
 #Region - Low Countries
 #Area - Frisia
 
-owner = FRI
-controller = FRI
+owner = OOS
+controller = OOS
+add_core = OOS
 capital = "Dokkum"
 is_city = yes
 culture = frisian
@@ -13,7 +14,6 @@ base_tax = 2
 base_production = 3
 trade_goods = livestock  			#SUPERCOWS
 base_manpower = 2 
-add_core = FRI
 
 discovered_by = western
 discovered_by = muslim

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Wolvega"
 is_city = yes
-owner = FRI
-controller = FRI
+owner = WLV
+controller = WLV
 
 #Demographics
 culture = lower_saxon
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = naval_supplies
 
 #Cores and Occupation (Alphabetical after current)
-add_core = FRI
+add_core = WLV
 
 #Other Political
 hre = yes

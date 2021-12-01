@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = HOL
-controller = HOL
-add_core = HOL
+owner = HDE
+controller = HDE
+add_core = HDE
 culture = frisian
 religion = catholic
 capital = "Helder"
