@@ -3,10 +3,10 @@
 #Region - 
 
 #Core Details
-capital = "Kaiserslauten"
+capital = "Lautern"
 is_city = yes
-owner = PAL
-controller = PAL
+owner = WOR
+controller = WOR
 
 #Demographics
 culture = hessian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = wine
 
 #Cores and Occupation (Alphabetical after current)
-add_core = PAL
+add_core = WOR
 
 #Other Political
 hre = yes

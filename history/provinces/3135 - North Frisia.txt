@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Holstein
 
-owner = SLW
-controller = SLW
-add_core = SLW
+owner = EFR
+controller = EFR
+add_core = EFR
 culture = frisian
 religion = catholic
 hre = yes

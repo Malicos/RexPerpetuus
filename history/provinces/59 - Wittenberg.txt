@@ -3,8 +3,9 @@
 #Region - Germany
 #Area - South Saxony
 
-owner = ANH
-controller = ANH
+owner = JRB
+controller = JRB
+add_core = JRB
 add_core = ANH
 culture = saxon
 religion = catholic

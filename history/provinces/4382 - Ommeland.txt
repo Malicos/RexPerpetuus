@@ -2,9 +2,9 @@
 #Region - Low Countries
 #Area - Frisia
 
-owner = FRI
-controller = FRI
-add_core = FRI
+owner = EFR
+controller = EFR
+add_core = EFR
 capital = "Delfzijl"			#Founded 26 years after 1291 start.... but whatever
 is_city = yes
 culture = frisian

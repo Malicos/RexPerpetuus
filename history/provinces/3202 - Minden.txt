@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Westphalia
 
-owner = MND
-controller = MND
-add_core = MND
+owner = HAN
+controller = HAN
+add_core = HAN
 culture = lower_saxon
 religion = catholic
 trade_goods = livestock

@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Northern Saxony
 
-owner = OST
-controller = OST
-add_core = OST
+owner = BRU
+controller = BRU
+add_core = BRU
 culture = markish
 religion = catholic
 hre = yes

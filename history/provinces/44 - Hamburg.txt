@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Holstein
 
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = HAM
+controller = HAM
+add_core = HAM
 culture = lower_saxon
 religion = catholic
 hre = yes

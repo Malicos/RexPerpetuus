@@ -5,8 +5,8 @@
 #Core Details
 capital = "Hildesheim"
 is_city = yes
-owner = BRU
-controller = BRU
+owner = SAX
+controller = SAX
 
 #Demographics
 culture = lower_saxon
@@ -19,7 +19,7 @@ base_manpower = 4
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BRU
+add_core = SAX
 
 #Other Political
 hre = yes

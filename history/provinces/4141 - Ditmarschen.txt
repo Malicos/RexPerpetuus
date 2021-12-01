@@ -3,9 +3,8 @@
 #Region - Germany
 #Area - Holstein
 
-owner = SHL
-controller = SHL
-add_core = SHL
+owner = DTT
+controller = DTT
 add_core = DTT
 culture = lower_saxon
 religion = catholic

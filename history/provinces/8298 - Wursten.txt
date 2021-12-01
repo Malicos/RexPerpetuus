@@ -5,8 +5,8 @@
 #Core Details
 capital = "Wurster"
 is_city = yes
-owner = EFR
-controller = EFR
+owner = VER
+controller = VER
 
 #Demographics
 culture = frisian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
-add_core = EFR
+add_core = VER
 
 #Other Political
 hre = yes

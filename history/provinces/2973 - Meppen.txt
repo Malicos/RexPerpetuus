@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Westphalia
 
-owner = MUN
-controller = MUN
-add_core = MUN
+owner = EFR
+controller = EFR
+add_core = EFR
 culture = lower_saxon
 religion = catholic
 trade_goods = livestock

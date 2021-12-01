@@ -3,8 +3,9 @@
 #Region - Germany
 #Area - Mittelmark
 
-owner = JRB
-controller = JRB
+owner = LUT
+controller = LUT
+add_core = LUT
 add_core = JRB
 culture = polabian_culture
 religion = catholic

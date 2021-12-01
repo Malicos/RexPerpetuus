@@ -4,9 +4,9 @@
 #Area - Palatinate
 
 
-owner = PAL
-controller = PAL
-add_core = PAL
+owner = WOR
+controller = WOR
+add_core = WOR
 capital = "Worms"
 culture = hessian
 religion = catholic

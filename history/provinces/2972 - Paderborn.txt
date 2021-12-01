@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Westphalia
 
-owner = MUN
-controller = MUN
-add_core = MUN
+owner = HAN
+controller = HAN
+add_core = HAN
 add_core = PAD
 culture = lower_saxon
 religion = catholic

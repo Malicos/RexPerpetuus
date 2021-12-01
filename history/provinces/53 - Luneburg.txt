@@ -3,9 +3,8 @@
 #Region - Germany
 #Area - Lower Saxony
 
-owner = OST
-controller = OST
-add_core = OST
+owner = LUN
+controller = LUN
 add_core = LUN
 culture = lower_saxon
 religion = catholic

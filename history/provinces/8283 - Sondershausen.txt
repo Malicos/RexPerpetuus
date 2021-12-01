@@ -5,8 +5,8 @@
 #Core Details
 capital = "Sondershausen"
 is_city = yes
-owner = THU
-controller = THU
+owner = BRU
+controller = BRU
 
 #Demographics
 culture = saxon
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = THU
+add_core = BRU
 
 #Other Political
 hre = yes

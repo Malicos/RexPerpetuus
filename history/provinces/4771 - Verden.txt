@@ -1,9 +1,9 @@
  
 #4771 - Verden
 
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = VER
+controller = VER
+add_core = VER
 culture = lower_saxon
 religion = catholic
 capital = "Verden"

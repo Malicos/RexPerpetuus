@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Lower Saxony
 
-owner = BRU
-controller = BRU
-add_core = BRU
+owner = HAN
+controller = HAN
+add_core = HAN
 culture = lower_saxon
 religion = catholic
 capital = "Göttingen"

@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Weser
 
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = LUN
+controller = LUN
+add_core = LUN
 culture = lower_saxon
 religion = catholic
 capital = "Stade"
