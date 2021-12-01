@@ -5,8 +5,8 @@
 #Core Details
 capital = "Duisburg"
 is_city = yes
-owner = LOT
-controller = LOT
+owner = KLE
+controller = KLE
 
 #Demographics
 culture = dutch
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = iron		#Velius: major centre of iron and steel production
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LOT
+add_core = KLE
 
 #Other Political
 hre = yes

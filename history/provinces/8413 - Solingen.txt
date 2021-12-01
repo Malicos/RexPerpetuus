@@ -5,8 +5,8 @@
 #Core Details
 capital = "Solingen"
 is_city = yes
-owner = LOT
-controller = LOT
+owner = SAY
+controller = SAY
 
 #Demographics
 culture = hessian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = iron	#Velius: known for manufacturing of blades
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LOT
+add_core = SAY
 
 #Other Political
 hre = yes
