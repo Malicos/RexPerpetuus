@@ -2338,7 +2338,7 @@ country_decisions = {
 					ROOT = {
 						NOT = {
 							num_of_owned_provinces_with = {
-								value = 10
+								value = 15
 								region = low_countries_region
 								is_core = root
 							}
@@ -4079,30 +4079,44 @@ country_decisions = {
 				}
 				add_permanent_claim = root
 			}
+			alsace_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
+			east_bavaria_area = {
+				limit = {
+					NOT = { owned_by = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
 			#These were also historical territories of the Duchy
-			switzerland_area = {
-				limit = {
-					NOT = { owned_by = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			romandie_area = {
-				limit = {
-					NOT = { owned_by = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			4710 = {
-				if = {
-					limit = {
-						NOT = { owned_by = root }
-						NOT = { is_permanent_claim = root }
-					}
-					add_permanent_claim = root
-				}
-			}
+#			switzerland_area = {
+#				limit = {
+#					NOT = { owned_by = root }
+#					NOT = { is_permanent_claim = root }
+#				}
+#				add_permanent_claim = root
+#			}
+#			romandie_area = {
+#				limit = {
+#					NOT = { owned_by = root }
+#					NOT = { is_permanent_claim = root }
+#				}
+#				add_permanent_claim = root
+#			}
+#			4710 = {
+#				if = {
+#					limit = {
+#						NOT = { owned_by = root }
+#						NOT = { is_permanent_claim = root }
+#					}
+#					add_permanent_claim = root
+#				}
+#			}
 
 			add_country_modifier = {
 				name = "centralization_modifier"

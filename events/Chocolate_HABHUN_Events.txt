@@ -179,6 +179,7 @@ country_event = { #Get rid of Hunyadi Brothers
 	trigger = {
 		has_country_flag = LadislausCrownedHunyadiExiled
 		has_ruler = "Ladislaus Postumus"
+		tag = HUN
 	}
 	
 	mean_time_to_happen = {
@@ -194,7 +195,12 @@ country_event = { #Get rid of Hunyadi Brothers
 		set_country_flag = LaszloKilled
 		#custom_tooltip = contendersrisingup_tt
 		random_owned_province = {
-			limit = { OR = { area = transylvania_area area = southern_transylvania_area } }
+			limit = {
+				OR = { 
+					area = transylvania_area 
+					area = southern_transylvania_area 
+				} 
+			}
 			spawn_rebels = { #hunyadi's brother in law
 				type = pretender_rebels
 				size = 5
@@ -679,23 +685,23 @@ country_event = { #Swap VOR with STY
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	trigger = {
-	
-	}
+	#trigger = {
+	#
+	#}
 	
 	option = {
 		name = Chocolate_hab_hun.99.a
 		ai_chance = { factor = 99 }
-		switch_tag = STY
-		country_event = {
-			id = Chocolate_hab_hun.999
-		}
+		change_tag = STY
+		#country_event = {
+		#	id = Chocolate_hab_hun.999
+		#}
 	}
 	
-	option = {
-		name = Chocolate_hab_hun.99.a
-		ai_chance = { factor = 1 }
-	}
+	#option = {
+	#	name = Chocolate_hab_hun.99.a
+	#	ai_chance = { factor = 1 }
+	#}
 }
 
 country_event = { #	
@@ -716,7 +722,7 @@ country_event = { #
 		name = Chocolate_hab_hun.999.a
 		ai_chance = { factor = 99 }
 		VOR = {
-			every_owned_province {
+			every_owned_province = {
 				cede_province = STY
 			}
 		}

@@ -596,6 +596,7 @@
  spanish_unification_effect.tooltip:2 "§YSpain§! will get a permanent claim on the entire §YIberia§! region except for the §YDouro-e-Minho§!, §YBeiras§!, §YEstremadura§!, §YAlentejo§!, §YAlgarve§! and §YMacaronesia§! areas."
  srivijaya_nation_desc:0 "Centuries ago, our predecessors ruled over much of the Malay archipelago under an empire known as Srivijaya. If we are to ever gain political and trade influence over South-East Asia, we must reestablish the old Srivijayan state."
  srivijaya_nation_title:0 "Restore Srivijaya"
+ STAPAT_DO_IT:2 "You can Consecrate Metropolitans in states with at least 60 Development if all provinces are fully cored, Orthodox and of an Accepted Culture.\n\nConsecrating a Metropolitan in $NAME|Y$ will give us $VAL$ Patriarch Authority, and the following permanent effect:\n$EFFECT$"
  stock_exchange:10 "Customs House"
  stock_exchange_short:10 "Customs House"
  sudanese:0 "Nilotic"
@@ -645,3 +646,11 @@
  visayan:0 "Visayan"
  wien:0 "Vienna"
  yokuts:0 "Yokutsan"
+ # Cooldown Modifier
+ bt_sc_demand_unlawful_land_cooldown:0 "Demanded unlawful territory"
+ desc_bt_sc_demand_unlawful_land_cooldown:0 "The emperor has demanded the return of unlawful land, and will leave us alone for some time unless we conquer again"
+ # description for vanilla "holds unlawful land" modifier 
+ desc_occupied_imperial:0 "We hold Provinces that, by the constitution of the Holy Roman Empire, are considered unlawfully held."
+ demanded_unlawful_tooltip:0 "§RYou may not have demanded unlawful territory from this prince in the last 3 years§!"
+ demand_unlawful_at_war_tooltip:0 "§RYou can't demand unlawful territory while you or the recipient are at war§!"
+ demand_sold_tooltip:0 "§RYou can't demand territory that the previous owner has voluntarily sold, or revoked their core in§!"

@@ -1,0 +1,573 @@
+country_decisions = {
+	
+	statue_in_restraint_of_appeals = {
+		potential = {
+			NOT = { has_country_modifier = the_statue_in_restraint_of_appeals }
+			religion = catholic
+			exists = PAP
+			NOT = { tag = PAP }
+		}
+		allow = {
+			NOT = { PAP = { has_opinion = { who = root value = -50 } } }
+			adm = 2
+			mil = 2
+		}
+		effect = {
+			add_prestige = 10
+			add_reform_desire  = 0.01
+			every_neighbor_country = {
+				limit = { 
+					religion = catholic 
+					NOT = {
+						tag = PAP
+					}
+				}
+				add_opinion = { who = ROOT modifier = opinion_demote_pope }
+			}
+			PAP = { add_opinion = { who = ROOT modifier = opinion_pope_realise_demotion } }
+			add_country_modifier = {
+				name = "the_statue_in_restraint_of_appeals"
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				PAP = { has_opinion = { who = root value = -100 } } 
+				NOT = { is_excommunicated = yes }
+				OR = {
+					culture_group = french
+					culture_group = latin
+					culture_group = iberian
+				}
+			}
+			modifier = {
+				factor = 0
+				is_emperor = yes
+				hre_religion_treaty = no
+			}
+		}
+	}
+	
+	abolish_slavery_act = {
+		potential = {
+			NOT = { has_country_modifier = the_abolish_slavery_act }
+			slaves = 1
+			current_age = age_of_revolutions
+			adm_tech = 15
+		}
+		allow = {
+			dip = 3
+			NOT = { overextension_percentage = 0.02 }
+		}
+		effect = {
+			add_prestige = 5
+			add_country_modifier = {
+				name = innovative_modifier
+				duration = 3650
+			}
+			add_country_modifier = {
+				name = "the_abolish_slavery_act"
+				duration = -1
+			}
+			custom_tooltip = abolished_slavery_act_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						trade_goods = slaves
+					}
+					change_trade_goods = unknown
+					remove_building = tradecompany
+					if = {
+						limit = { has_province_modifier = slave_entrepot }
+						remove_province_modifier = slave_entrepot
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+
+			# Idea groups
+			modifier = {
+				factor = 1.33
+				full_idea_group = innovativeness_ideas
+				full_idea_group = humanist_ideas
+			}
+			modifier = {
+				factor = 0.66
+				NOT = {
+					full_idea_group = innovativeness_ideas
+					full_idea_group = humanist_ideas
+				}
+			}
+
+			modifier = {
+				factor = 1.15
+				enlightenment = 20
+			}
+			modifier = {
+				factor = 1.15
+				enlightenment = 40
+			}
+			modifier = {
+				factor = 1.15
+				enlightenment = 60
+			}
+			modifier = {
+				factor = 1.15
+				enlightenment = 80
+			}
+			modifier = {
+				factor = 1.5
+				enlightenment = 100
+			}
+			modifier = {
+				factor = 1.5
+				has_institution = enlightenment
+			}
+
+			# Economy depends on slaves
+			modifier = {
+				factor = 0.15
+				production_leader = {
+					trade_goods = slaves
+				}
+			}
+			modifier = {
+				factor = 0.15
+				trading_bonus = {
+					trade_goods = slaves
+					value = yes
+				}
+			}
+			modifier = {
+				factor = 0.85
+				slaves = 3
+			}
+			modifier = {
+				factor = 0.85
+				slaves = 6
+			}
+			modifier = {
+				factor = 0.85
+				slaves = 9
+			}
+			modifier = {
+				factor = 0.85
+				slaves = 12
+			}
+			modifier = {
+				factor = 0.85
+				slaves = 15
+			}
+			modifier = {
+				factor = 0.85
+				slaves = 18
+			}
+			modifier = {
+				factor = 0.85
+				slaves = 21
+			}
+			modifier = {
+				factor = 0.85
+				slaves = 24
+			}
+			modifier = {
+				factor = 0.85
+				slaves = 27
+			}
+			modifier = {
+				factor = 0.85
+				slaves = 30
+			}
+
+			# ruler personality 
+			modifier = {
+				factor = 0.75
+				personality = embezzler_personality
+			}
+			modifier = {
+				factor = 0.5
+				personality = greedy_personality
+			}
+			modifier = {
+				factor = 0.25
+				personality = cruel_personality
+			}
+			modifier = {
+				factor = 0.25
+				personality = malevolent_personality
+			}
+			modifier = {
+				factor = 0.75
+				personality = petty_personality
+			}
+
+			modifier = {
+				factor = 2
+				personality = just_personality
+			}
+			modifier = {
+				factor = 2
+				personality = righteous_personality
+			}
+			modifier = {
+				factor = 2
+				personality = tolerant_personality
+			}
+			modifier = {
+				factor = 2
+				personality = kind_hearted_personality
+			}
+			modifier = {
+				factor = 2
+				personality = free_thinker_personality
+			}
+			modifier = {
+				factor = 2
+				personality = benevolent_personality
+			}
+			modifier = {
+				factor = 1.5
+				personality = scholar_personality
+			}
+			modifier = {
+				factor = 2
+				personality = humane_personality
+			}
+
+			# Relations to other countries
+			modifier = {
+				factor = 1.33
+				calc_true_if = {
+					all_ally = {
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 1
+				}
+			}
+			modifier = {
+				factor = 1.33
+				calc_true_if = {
+					all_ally = {
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 2
+				}
+			}
+			modifier = {
+				factor = 1.33
+				calc_true_if = {
+					all_ally = {
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 3
+				}
+			}
+			modifier = {
+				factor = 1.33
+				calc_true_if = {
+					all_ally = {
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 4
+				}
+			}
+			modifier = {
+				factor = 1.33
+				calc_true_if = {
+					all_ally = {
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 5
+				}
+			}
+			modifier = {
+				factor = 1.33
+				calc_true_if = {
+					all_ally = {
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 6
+				}
+			}
+
+			modifier = {
+				factor = 1.15
+				calc_true_if = {
+					all_neighbor_country = {
+						reverse_has_opinion = {
+							who = ROOT
+							value = 50
+						}
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 1
+				}
+			}
+			modifier = {
+				factor = 1.15
+				calc_true_if = {
+					all_neighbor_country = {
+						reverse_has_opinion = {
+							who = ROOT
+							value = 50
+						}
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 2
+				}
+			}
+			modifier = {
+				factor = 1.15
+				calc_true_if = {
+					all_neighbor_country = {
+						reverse_has_opinion = {
+							who = ROOT
+							value = 50
+						}
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 3
+				}
+			}
+			modifier = {
+				factor = 1.15
+				calc_true_if = {
+					all_neighbor_country = {
+						reverse_has_opinion = {
+							who = ROOT
+							value = 50
+						}
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 4
+				}
+			}
+			modifier = {
+				factor = 1.3
+				calc_true_if = {
+					all_neighbor_country = {
+						reverse_has_opinion = {
+							who = ROOT
+							value = 50
+						}
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 6
+				}
+			}
+			modifier = {
+				factor = 1.3
+				calc_true_if = {
+					all_neighbor_country = {
+						reverse_has_opinion = {
+							who = ROOT
+							value = 50
+						}
+						has_country_modifier = the_abolish_slavery_act
+					}
+					amount = 8
+				}
+			}
+
+			# Low demand through Industrialization
+			modifier = {
+				factor = 1.25
+				num_of_owned_provinces_with = {
+					has_manufactory_trigger = yes
+					value = 16
+				}
+			}
+			modifier = {
+				factor = 1.25
+				num_of_owned_provinces_with = {
+					has_manufactory_trigger = yes
+					value = 24
+				}
+			}
+			modifier = {
+				factor = 1.25
+				num_of_owned_provinces_with = {
+					has_manufactory_trigger = yes
+					value = 32
+				}
+			}
+			modifier = {
+				factor = 1.25
+				num_of_owned_provinces_with = {
+					has_manufactory_trigger = yes
+					value = 40
+				}
+			}
+
+			modifier = {
+				factor = 1.15
+				industrialization = 20
+			}
+			modifier = {
+				factor = 1.15
+				industrialization = 40
+			}
+			modifier = {
+				factor = 1.15
+				industrialization = 60
+			}
+			modifier = {
+				factor = 1.15
+				industrialization = 80
+			}
+			modifier = {
+				factor = 1.33
+				industrialization = 100
+			}
+			modifier = {
+				factor = 1.33
+				has_institution = industrialization
+			}
+		}
+	}
+	
+	statue_in_restraint_of_appeals = {
+		potential = {
+			NOT = { has_country_modifier = the_statue_in_restraint_of_appeals }
+			religion = catholic
+			exists = PAP
+			NOT = { tag = PAP }
+		}
+		allow = {
+			NOT = { PAP = { has_opinion = { who = root value = -50 } } }
+			adm = 2
+			mil = 2
+		}
+		effect = {
+			add_prestige = 10
+			add_reform_desire  = 0.01
+			every_neighbor_country = {
+				limit = { 
+					religion = catholic 
+					NOT = {
+						tag = PAP
+					}
+				}
+				add_opinion = { who = ROOT modifier = opinion_demote_pope }
+			}
+			PAP = { add_opinion = { who = ROOT modifier = opinion_pope_realise_demotion } }
+			add_country_modifier = {
+				name = "the_statue_in_restraint_of_appeals"
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				PAP = { has_opinion = { who = root value = -100 } } 
+				NOT = { is_excommunicated = yes }
+				OR = {
+					culture_group = french
+					culture_group = latin
+					culture_group = iberian
+				}
+			}
+			modifier = {
+				factor = 0
+				is_emperor = yes
+				hre_religion_treaty = no
+			}
+		}
+	}
+	
+	revoke_restraint_of_appeals = {
+		potential = {
+			has_country_modifier = the_statue_in_restraint_of_appeals
+			NOT = { has_country_modifier = revocation_of_restraint_of_appeals }
+			religion = catholic
+			exists = PAP
+		}
+		allow = {
+			dip = 4
+			advisor = theologian
+			has_opinion = { who = PAP value = 100 }
+		}
+		effect = {
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			reverse_add_opinion = { who = PAP modifier = opinion_revoked_demotion }
+			add_country_modifier = {
+				name = "revocation_of_restraint_of_appeals"
+				duration = -1
+			}
+			if = {
+				limit = { has_estate = estate_church }
+				custom_tooltip = will_decrease_clergy_loyalty_by_5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.0
+				is_excommunicated = no
+				OR = {
+					NOT = { has_opinion = { who = PAP value = 150 } }
+					num_of_cities = 5
+				}
+				AND = {
+					is_emperor = yes
+					hre_religion_treaty = no
+				}
+			}
+		}
+	}
+
+	
+
+	
+
+	
+
+	revoke_restraint_of_appeals = {
+		potential = {
+			has_country_modifier = the_statue_in_restraint_of_appeals
+			NOT = { has_country_modifier = revocation_of_restraint_of_appeals }
+			religion = catholic
+			exists = PAP
+		}
+		allow = {
+			dip = 4
+			advisor = theologian
+			has_opinion = { who = PAP value = 100 }
+		}
+		effect = {
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			reverse_add_opinion = { who = PAP modifier = opinion_revoked_demotion }
+			add_country_modifier = {
+				name = "revocation_of_restraint_of_appeals"
+				duration = -1
+			}
+			if = {
+				limit = { has_estate = estate_church }
+				custom_tooltip = will_decrease_clergy_loyalty_by_5
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.0
+				is_excommunicated = no
+				OR = {
+					NOT = { has_opinion = { who = PAP value = 150 } }
+					num_of_cities = 5
+				}
+				AND = {
+					is_emperor = yes
+					hre_religion_treaty = no
+				}
+			}
+		}
+	}
+
+}

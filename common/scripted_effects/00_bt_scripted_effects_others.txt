@@ -125,12 +125,12 @@ choc_FrederickIII_dies_first = {
         if = {
             limit = { has_heir = no }
             STY = { clr_country_flag = choc_albrecht_friedrich_brothers }
-            VOR = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = ROOT restore_country_name = yes change_tag = ROOT }
+            VOR = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = ROOT change_tag = ROOT }
         }
         else = {
             STY = { clr_country_flag = choc_albrecht_friedrich_brothers }
             HAB = { clr_country_flag = choc_albrecht_friedrich_brothers }
-            VOR = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = ROOT restore_country_name = yes change_tag = ROOT }
+            VOR = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = ROOT change_tag = ROOT }
         }
     }
     else_if = {
@@ -225,11 +225,11 @@ CHO_AlbrechtVI_heir_dies = { #Kill duplicate Albrecht if heir dies
 				tag = STY
 				tag = HAB
 			}				
-			has_country_flag = CHO_albrecht_friedrich_brothers
+			has_country_flag = choc_albrecht_friedrich_brothers
 			VOR = {	ai = yes }
 		}
-		STY = { clr_country_flag = CHO_albrecht_friedrich_brothers }
-		HAB = { clr_country_flag = CHO_albrecht_friedrich_brothers }
-		VOR = { clr_country_flag = CHO_albrecht_friedrich_brothers kill_ruler = yes }
+		STY = { clr_country_flag = choc_albrecht_friedrich_brothers }
+		HAB = { clr_country_flag = choc_albrecht_friedrich_brothers }
+		VOR = { clr_country_flag = choc_albrecht_friedrich_brothers kill_ruler = yes }
 	}
 }

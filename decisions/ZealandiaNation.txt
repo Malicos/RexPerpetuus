@@ -23,12 +23,12 @@ country_decisions = {
 						}
 					}
 					capital_scope = {
-						colonial_region = colonial_australia
+						colonial_region = colonial_polynesia
 						is_core = ROOT
 					}
 				}
 			}
-			colonial_australia = {
+			colonial_polynesia = {
 				owned_by = ROOT
 			}
 			OR = {
@@ -55,7 +55,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			capital_scope = {
-				colonial_region = colonial_australia
+				colonial_region = colonial_polynesia
 				is_core = ROOT
 			}
 			num_of_owned_provinces_with = {
@@ -150,10 +150,10 @@ country_decisions = {
 			NOT = { tag = PAP }
 			primary_culture = maori
 			capital_scope = {
-				colonial_region = colonial_australia
+				colonial_region = colonial_polynesia
 				is_core = ROOT
 			}
-			colonial_australia = {
+			colonial_polynesia = {
 				owned_by = ROOT
 			}
 			OR = {
@@ -179,7 +179,7 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			capital_scope = {
-				colonial_region = colonial_australia
+				colonial_region = colonial_polynesia
 				is_core = ROOT
 			}
 			num_of_owned_provinces_with = {

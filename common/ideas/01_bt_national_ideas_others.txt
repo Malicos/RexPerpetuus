@@ -2229,3 +2229,230 @@ MUR_ideas = {
 		galley_power = 0.1
 	}
 }
+#Donlad
+MKL_ideas = {
+	start = {
+		diplomatic_reputation = 1
+		naval_morale = 0.1
+	}
+	
+	bonus = {
+		ship_durability = 0.15
+	}
+	
+	trigger = {
+		tag = MKL
+	}
+	free = yes
+	
+	nikloting_origins = {
+		prestige = 1
+	}
+	partitions_of_meck = {
+		heir_chance = 0.5
+	}
+	mkl_crown_of_sweden = {
+		reduced_liberty_desire = 10
+	}
+	generalissimo_wallenstein = {
+		land_forcelimit_modifier = 0.20
+		general_cost = -0.10
+	}
+	consumption_statue = {
+		global_tax_modifier = 0.10
+	}
+	versailles_of_the_north = {
+		development_cost = -0.1
+	}
+	mkl_grand_duchy = {
+		unjustified_demands = -0.2
+ 	}
+}
+SBG_ideas = {
+	start = {
+		development_cost = -0.1
+		trade_steering = 0.2
+	}
+	bonus = {
+		infantry_power = 0.15
+	}
+	trigger = {
+		tag = SBG
+	}
+	free = yes
+	
+	transylvanian_saxons = {
+		build_cost = -0.1
+	}
+	SBG_idea_2 = {
+		culture_conversion_cost = -0.25
+	}
+	SBG_idea_3 = {
+		fort_maintenance_modifier = -0.15
+	}
+	SBG_idea_4 = {
+		global_unrest = -1
+	}
+	SBG_idea_5 = {
+		missionaries = 1
+		church_power_modifier = 0.1
+		papal_influence = 0.5
+		monthly_fervor_increase = 0.75
+	}
+	SBG_idea_6 = {
+		years_of_nationalism = -5
+	}
+	SBG_idea_7 = {
+		trade_range_modifier = 0.2
+		global_foreign_trade_power = 0.1
+	}
+}
+CUM_ideas = {
+	start = {
+		cav_to_inf_ratio = 0.2
+		enforce_religion_cost = -0.33
+	}
+	bonus = {
+		governing_capacity_modifier = 0.25
+	}
+	trigger = {
+		tag = CUM #haha funny
+	}
+	free = yes
+	
+	CUM_idea_1 = {
+		culture_conversion_cost = -0.25
+	}
+	CUM_idea_2 = {
+		global_missionary_strength = 0.02
+	}
+	CUM_idea_3 = {
+		female_advisor_chance = 0.15
+	}
+	CUM_idea_4 = {
+		stability_cost_modifier = -0.2
+	}
+	CUM_idea_5 = {
+		cavalry_power = 0.25
+	}
+	CUM_idea_6 = {
+		yearly_absolutism = 0.25
+		nobles_influence_modifier = -0.1
+	}
+	CUM_idea_7 = {
+		manpower_recovery_speed = 0.15
+	}
+}
+SZE_ideas = {
+	start = {
+		production_efficiency = 0.1
+		defensiveness = 0.15
+	}
+	bonus = {
+		fire_damage_received = -0.15
+	}
+	trigger = {
+		tag = SZE
+	}
+	free = yes
+	
+	SZE_idea_1 = {
+		garrison_size = 0.25
+		rival_border_fort_maintenance = -0.20
+	}
+	SZE_idea_2 = {
+		global_autonomy = -0.05
+	}
+	SZE_idea_3 = {
+		prestige_from_land = 0.2
+		cav_to_inf_ratio = 0.10
+	}
+	SZE_idea_4 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	SZE_idea_5 = {
+		idea_cost = -0.15
+	}
+	SZE_idea_6 = {
+		hostile_attrition = 1
+	}
+	SZE_idea_7 = {
+		yearly_revolutionary_zeal = 0.1
+		rebel_support_efficiency = 0.5
+	}
+}
+JER_ideas = {
+	start = {
+		naval_maintenance_modifier = -0.25
+		infantry_power = 0.1
+	}
+	bonus = {
+		naval_forcelimit_modifier = 0.20
+	}
+	
+	trigger = {
+		tag = JER
+	}
+	
+	free = yes
+	
+	jer_castles = {
+		defensiveness = 0.15
+	}
+	jer_states_assembly = {
+		republican_tradition = 0.2
+	}
+	jer_settle_sark = {
+		development_cost = -0.1
+	}
+	jer_land_grants = {
+		global_colonial_growth = 15
+		range = 0.20
+	}
+	jer_jerriais_guerriesais = {
+		num_accepted_cultures = 1
+	}
+	jer_neutral_trade = {
+		trade_efficiency = 0.15
+	}
+	jer_last_of_normandy = {
+		ae_impact = -0.10
+		fabricate_claims_cost = -0.25
+	}
+}
+WMC_ideas = {
+	start = {
+		garrison_size = 0.25
+		heir_chance = 0.5
+	}
+	bonus = {
+			global_regiment_cost = -0.1
+	}
+	trigger = {
+		tag = WMC
+	}
+	free = yes
+	
+	WMC_idea_1 = {
+		fabricate_claims_cost = -0.2
+	}
+	WMC_idea_2 = {
+		production_efficiency = 0.15
+	}
+	WMC_idea_3 = {
+		defensiveness = 0.10
+		global_gartison_growth = 0.2
+	}
+	WMC_idea_4 = {
+		build_cost = -0.1
+	}
+	WMC_idea_5 = {
+		global_autonomy = -0.05
+	}
+	WMC_idea_6 = {
+		governing_capacity_modifier = 0.1
+	}
+	WMC_idea_7 = {
+		diplomatic_annexation_cost = -0.15
+	}
+}

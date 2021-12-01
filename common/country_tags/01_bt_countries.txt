@@ -312,6 +312,7 @@ RTW = "countries/Rottweil.txt" #BT
 SAA = "countries/Saarbrucken.txt" #BT
 SAG = "countries/Sagan.txt" #BT
 SAY = "countries/Sayn.txt" #BT
+SBG = "countries/Siebenburgen.txt" #BT
 SBW = "countries/Sumbawa.txt" #BT
 SCI = "countries/Steinau.txt" #BT
 SCH = "countries/Schonburg.txt" #BT

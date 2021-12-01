@@ -95,6 +95,7 @@ NDefines.NDiplomacy.HRE_AUTHORITY_JOIN_EMPIRE = 2.5			-- from 5. Way more tags i
 NDefines.NDiplomacy.HRE_AUTHORITY_LEAVE_EMPIRE = -5			-- from -10. See above.
 NDefines.NDiplomacy.HRE_AUTHORITY_PROVINCE_JOIN = 0.05			-- from 0p1. More provinces equals more IA, hence counterbalance by less IA gain.
 NDefines.NDiplomacy.HRE_FOREIGN_CONTROL_PENALTY = -0.0025			-- Beyond Typus added reducing ia to account for all the new provinces Base 0005
+NDefines.NDiplomacy.HRE_HERETIC_PENALTY = -0.005				-- Beyond Typus, halved from -0.01
 NDefines.NDiplomacy.HRE_PRINCE_AUTHORITY_THRESHOLD = 40			-- increased from 25
 NDefines.NDiplomacy.IMPERIAL_AUTHORITY_FROM_PRINCES = 0.045			-- reduced from 01
 NDefines.NDiplomacy.IMPERIAL_CITY_IA = 0.0025 --from Vanilla's 0p005, exactly half (BT was at 0p003) 
