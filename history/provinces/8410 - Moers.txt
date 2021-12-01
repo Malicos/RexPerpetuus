@@ -5,8 +5,8 @@
 #Core Details
 capital = "Krefeld"#the more important city of the two in the lordship
 is_city = yes
-owner = LOT
-controller = LOT
+owner = MRS
+controller = MRS
 
 #Demographics
 culture = dutch
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LOT
+add_core = MRS
 
 #Other Political
 hre = yes

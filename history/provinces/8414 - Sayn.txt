@@ -5,8 +5,8 @@
 #Core Details
 capital = "Sayn"
 is_city = yes
-owner = SAY
-controller = SAY
+owner = MRS
+controller = MRS
 
 #Demographics
 culture = hessian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = copper
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SAY
+add_core = MRS
 
 #Other Political
 hre = yes
