@@ -7,9 +7,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = MSO
-controller = MSO 
-add_core = MSO
+owner = MIC
+controller = MIC 
+add_core = MIC
 culture = saxon
 religion = catholic
 capital = "Leipzig"

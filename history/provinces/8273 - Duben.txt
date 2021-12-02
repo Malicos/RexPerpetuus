@@ -5,8 +5,8 @@
 #Core Details
 capital = "Düben"
 is_city = yes
-owner = ANH
-controller = ANH
+owner = MIC
+controller = MIC
 
 #Demographics
 culture = saxon
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ANH
+add_core = MIC
 
 #Other Political
 hre = yes

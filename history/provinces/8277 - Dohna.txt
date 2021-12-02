@@ -5,8 +5,8 @@
 #Core Details
 capital = "Dohna"
 is_city = yes
-owner = MSO
-controller = MSO
+owner = MIC
+controller = MIC
 
 #Demographics
 culture = sorbian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MSO
+add_core = MIC
 
 #Other Political
 hre = yes
