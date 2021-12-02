@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Hesse
 
-owner = FLD
-controller = FLD
-add_core = FLD
+owner = HES
+controller = HES
+add_core = HES
 capital = "Fulda"
 trade_goods = cloth
 culture = hessian
