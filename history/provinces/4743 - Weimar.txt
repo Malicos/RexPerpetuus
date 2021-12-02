@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Thuringia
 
-owner = THU
-controller = THU 
-add_core = THU
+owner = WEI
+controller = WEI 
+add_core = WEI
 culture = saxon
 religion = catholic
 capital = "Weimar"

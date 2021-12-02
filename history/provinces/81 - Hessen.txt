@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Hesse
 
-owner = HES
-controller = HES
-add_core = HES
+owner = MBG
+controller = MBG
+add_core = MBG
 capital = "Marburg"
 trade_goods = wool
 culture = hessian

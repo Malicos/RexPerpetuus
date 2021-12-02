@@ -1,8 +1,8 @@
 #2031 - Tarki
 
-owner = KUM
-controller = KUM
-add_core = KUM
+owner = KMK
+controller = KMK
+add_core = KMK
 culture = dagestani
 religion = shiite
 capital = "Tarku"

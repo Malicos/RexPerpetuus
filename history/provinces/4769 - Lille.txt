@@ -2,8 +2,9 @@
 #Region - Low Countries
 #Area - Flanders
 
-owner = FLA
-controller = FLA
+owner = ATS
+controller = ATS
+add_core = ATS
 add_core = FLA
 is_city = yes
 capital = "Lille"

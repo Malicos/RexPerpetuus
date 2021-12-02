@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Thuringia
 
-owner = THU
-controller = THU 
-add_core = THU
+owner = EFT
+controller = EFT
+add_core = EFT
 culture = saxon
 religion = catholic
 capital = "Erfurt"

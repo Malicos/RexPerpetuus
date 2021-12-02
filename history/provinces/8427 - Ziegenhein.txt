@@ -5,8 +5,8 @@
 #Core Details
 capital = "Ziegenhein"
 is_city = yes
-owner = HES
-controller = HES
+owner = ZIE
+controller = ZIE
 
 #Demographics
 culture = hessian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = iron
 
 #Cores and Occupation (Alphabetical after current)
-add_core = HES
+add_core = ZIE
 
 #Other Political
 hre = yes

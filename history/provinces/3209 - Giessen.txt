@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Hesse
 
-owner = HES
-controller = HES
-add_core = HES
+owner = GSS
+controller = GSS
+add_core = GSS
 capital = "Giessen"
 trade_goods = wool
 culture = hessian

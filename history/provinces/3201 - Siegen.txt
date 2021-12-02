@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Hesse
 
-owner = HES
-controller = HES
-add_core = HES
+owner = SGN
+controller = SGN
+add_core = SGN
 capital = "Siegen"
 trade_goods = copper
 hre = yes

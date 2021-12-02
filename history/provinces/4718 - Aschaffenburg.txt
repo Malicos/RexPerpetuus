@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Palatinate
 
-owner = FLD
-add_core = FLD
-controller = FLD
+owner = WBG
+add_core = WBG
+controller = WBG
 capital = "Aschaffenburg"
 culture = hessian
 religion = catholic

@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Thuringia
 
-owner = THU
-controller = THU
-add_core = THU
+owner = VGL
+controller = VGL
+add_core = VGL
 culture = saxon
 religion = catholic
 capital = "Plauen"
