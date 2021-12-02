@@ -5,8 +5,8 @@
 #Core Details
 capital = "Coesfeld"
 is_city = yes
-owner = MUN
-controller = MUN
+owner = CFD
+controller = CFD
 
 #Demographics
 culture = lower_saxon
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MUN
+add_core = CFD
 
 #Other Political
 hre = yes

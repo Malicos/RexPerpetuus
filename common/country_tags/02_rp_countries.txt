@@ -74,9 +74,13 @@ STD = "countries/Santander.txt"
 TOM = "countries/TrasOsMontes.txt"
 
 # HRE
+CFD = "countries/Coesfeld.txt"
+CVD = "countries/Coevorden.txt"
+ESD = "countries/Enschede.txt"
 HCS = "countries/Hochstadt.txt"
 HDE = "countries/Helder.txt"
 HTT = "countries/Hallstatt.txt"
+ITH = "countries/Itzehoe.txt"
 JRB = "countries/Jutribok.txt"
 KML = "countries/Krimml.txt"
 LSL = "countries/LowerSilesia.txt"
@@ -91,6 +95,7 @@ TUB = "countries/Tubingen.txt"
 USL = "countries/UpperSilesia.txt"
 WLV = "countries/Wolvega.txt"
 WSB = "countries/Wasserburg.txt"
+ZPH = "countries/Zutphen.txt"
 
 # North Italy
 ACQ = "countries/Acqui.txt"

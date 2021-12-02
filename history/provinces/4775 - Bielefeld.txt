@@ -1,9 +1,9 @@
  
 # 4775 - Bielefeld
 
-owner = BRG
-controller = BRG
-add_core = BRG
+owner = MUN
+controller = MUN
+add_core = MUN
 culture = lower_saxon
 religion = catholic
 trade_goods = cloth #linen

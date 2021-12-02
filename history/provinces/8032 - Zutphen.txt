@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = GEL
-controller = GEL
-add_core = GEL
+owner = ZPH
+controller = ZPH
+add_core = ZPH
 culture = hannoverian
 religion = catholic
 capital = "Zutphen"

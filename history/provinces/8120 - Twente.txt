@@ -2,8 +2,9 @@
 #Region - Low Countries
 #Area - Frisia
 
-owner = UTR
-controller = UTR
+owner = ESD
+controller = ESD
+add_core = ESD
 capital = "Enschede"
 is_city = yes
 culture = hannoverian
@@ -13,7 +14,6 @@ base_tax = 2
 base_production = 3
 trade_goods = wool			#Apparently a northern centre of cloth working, but calling it wool to compromise livestock and flemish-type cloth 
 base_manpower = 2 
-add_core = UTR
 
 discovered_by = western
 discovered_by = muslim

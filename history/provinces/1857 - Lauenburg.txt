@@ -3,9 +3,9 @@
 #Region - Germany
 #Area - Holstein
 
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = MKL
+controller = MKL
+add_core = MKL
 culture = lower_saxon
 religion = catholic
 capital = "Lauenburg"

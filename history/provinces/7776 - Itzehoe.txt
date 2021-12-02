@@ -1,9 +1,9 @@
  
 #BT reoverhaul
 
-owner = SHL
-controller = SHL
-add_core = SHL
+owner = ITH
+controller = ITH
+add_core = ITH
 culture = lower_saxon
 religion = catholic
 capital = "Itzehoe"
