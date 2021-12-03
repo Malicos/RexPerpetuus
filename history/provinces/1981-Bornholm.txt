@@ -2,9 +2,9 @@
 #Region - Scandinavia
 #Area - Denmark
 
-add_core = GOT
-owner = GOT
-controller = GOT
+owner = SCN
+controller = SCN
+add_core = SCN
 culture = danish
 religion = catholic
 hre = no
