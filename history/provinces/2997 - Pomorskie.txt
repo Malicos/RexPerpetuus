@@ -2,10 +2,10 @@
 #Region - Baltic
 #Area - West Prussia
 
-owner = TCH
-controller = TCH
-add_core = TCH
-capital = "Tëcholô"
+owner = POL
+controller = POL
+add_core = POL
+capital = "Tuchola"
 culture = kashubian_culture
 religion = catholic
 trade_goods = naval_supplies
