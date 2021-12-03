@@ -1,6 +1,6 @@
 graphical_culture = westerngfx
 
-color = { 170  120  0 }
+color = { 224 195 65 }
 
 random_nation_chance = 0
 
