@@ -9,7 +9,7 @@ owner = GLT
 controller = GLT
 
 #Demographics
-culture = pontic_greek
+culture = phrygian
 religion = orthodox
 
 #Development and Trade

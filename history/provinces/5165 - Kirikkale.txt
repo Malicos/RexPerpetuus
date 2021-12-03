@@ -2,7 +2,7 @@
 owner = GLT
 controller = GLT
 add_core = GLT
-culture = pontic_greek
+culture = phrygian
 religion = orthodox
 capital = "Balisheyh"
 is_city = yes

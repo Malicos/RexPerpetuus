@@ -9,7 +9,7 @@ owner = NIK
 controller = NIK
 
 #Demographics
-culture = mikrasiatic
+culture = phrygian
 religion = orthodox
 
 #Development and Trade

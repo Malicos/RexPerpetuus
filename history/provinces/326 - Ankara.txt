@@ -4,7 +4,7 @@
 owner = GLT
 controller = GLT
 add_core = GLT
-culture = pontic_greek
+culture = phrygian
 religion = orthodox
 capital = "Ankara"
 trade_goods = wool 				#(JP) Angora

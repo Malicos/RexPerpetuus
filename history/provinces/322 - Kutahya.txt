@@ -4,7 +4,7 @@
 owner = NIK
 controller = NIK
 add_core = NIK
-culture = mikrasiatic
+culture = phrygian
 religion = orthodox
 capital = "Eskisehir"
 trade_goods = glass			#(JP) Famed ceramics productions
