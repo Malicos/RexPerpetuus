@@ -2790,6 +2790,7 @@ country_decisions = {
 						OR = {
 							culture = saxon
 							culture = pommeranian
+							culture = markish
 						}
 					} 
 					change_culture = prussian

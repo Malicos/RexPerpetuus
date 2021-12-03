@@ -7055,7 +7055,10 @@ pyramid_of_cheops = {
 				has_owner_religion = yes
 			}
 			AND = {
-				culture = al_misr_arabic
+				OR = { 
+					culture = al_misr_arabic
+					culture = coptic_culture
+				}
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
