@@ -227,6 +227,331 @@ objectTypes = {
 		
 		scale = 0.35			#BTAddOn changing all unit sizes from scale 0.5 to scale 0.35
 	}
+
+	#### Level 2
+	
+	pdxmesh = {
+		name = "naupa_APA_infantry_02_mesh"
+		file = "gfx/models/Units/naupa_APA_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		scale = 0.35
+	}	
+
+
+	pdxmesh = {
+		name = "naupa_COM_infantry_02_mesh"
+		file = "gfx/models/Units/naupa_COM_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}	
+
+	pdxmesh = {
+		name = "naupa_SHA_infantry_02_mesh"
+		file = "gfx/models/Units/naupa_SHA_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}	
+
+	pdxmesh = {
+		name = "naupa_CHE_infantry_02_mesh"
+		file = "gfx/models/Units/naupa_CHE_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}	
+
+	pdxmesh = {
+		name = "naupa_CRE_infantry_02_mesh"
+		file = "gfx/models/Units/naupa_CRE_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}	
+
+	pdxmesh = {
+		name = "naupa_IRO_infantry_02_mesh"
+		file = "gfx/models/Units/naupa_IRO_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}
+
+	pdxmesh = {
+		name = "naupa_SIO_infantry_02_mesh"
+		file = "gfx/models/Units/naupa_SIO_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}
+
+	pdxmesh = {
+		name = "naupa_HUR_infantry_02_mesh"
+		file = "gfx/models/Units/naupa_HUR_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"			type = "musketeer_02_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}
+	
+	
+	#### Level 3
+	
+	pdxmesh = {
+		name = "naupa_APA_infantry_03_mesh"
+		file = "gfx/models/Units/naupa_APA_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "rifleman_idle_animation" }
+		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		scale = 0.35
+	}	
+
+
+	pdxmesh = {
+		name = "naupa_COM_infantry_03_mesh"
+		file = "gfx/models/Units/naupa_COM_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "rifleman_idle_animation" }
+		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}	
+
+	pdxmesh = {
+		name = "naupa_SHA_infantry_03_mesh"
+		file = "gfx/models/Units/naupa_SHA_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "rifleman_idle_animation" }
+		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}	
+
+	pdxmesh = {
+		name = "naupa_CHE_infantry_03_mesh"
+		file = "gfx/models/Units/naupa_CHE_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "rifleman_idle_animation" }
+		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}	
+
+	pdxmesh = {
+		name = "naupa_CRE_infantry_03_mesh"
+		file = "gfx/models/Units/naupa_CRE_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "rifleman_idle_animation" }
+		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}	
+
+	pdxmesh = {
+		name = "naupa_IRO_infantry_03_mesh"
+		file = "gfx/models/Units/naupa_IRO_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "rifleman_idle_animation" }
+		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}
+
+	pdxmesh = {
+		name = "naupa_SIO_infantry_03_mesh"
+		file = "gfx/models/Units/naupa_SIO_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "rifleman_idle_animation" }
+		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}
+
+	pdxmesh = {
+		name = "naupa_HUR_infantry_03_mesh"
+		file = "gfx/models/Units/naupa_HUR_infantry_01.mesh"
+		
+		animation = { id = "attack"			type = "rifleman_attack_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }		
+		animation = { id = "idle"			type = "rifleman_idle_animation" }
+		animation = { id = "walk"			type = "rifleman_moving_animation" }
+		animation = { id = "retreat"		type = "rifleman_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "naupa_cavalry_rider_attack_animation" }		
+		animation = { id = "horse_idle"			type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"			type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_death"		type = "cavalry_rider_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		
+		scale = 0.35
+	}
 	
 }
 
