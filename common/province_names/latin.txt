@@ -1,4 +1,4 @@
-#Contributions from a wide range, including Draiocht, JP, Arga, Matteotironi95, Deserk, Alexious, Math and Chrysocyon
+#Contributions from a wide range, including Draiocht, JP, Arga, Matteotironi95, Deserk, Alexious, Math, Chrysocyon and Fatharitan
 #(JP) Italian, will be overwritten by local dialects/languages, mainly the Rhaeto-Romance languages
 #(JP) I have reorganised and cleaned up all the prior Italian naming to try and make it more legible, consistant and keep it easier to edit in future
 
@@ -1130,6 +1130,30 @@
 1306 = "San Tommaso"
 
 #Congo
+798 = { "Terra Rossa" "Citta Rossa" }
+1166 = { "San Agostino" "San Agostino" }
+1167 = { "Nuova Venezia" "Nuova Venezia" }
+1168 = { "Lovata" "San Ruggero" }
+1169 = { "Anzico" "Anzico" }
+1170 = { "Caila" "Citta del Congo" }
+1901 = { "Congo Centrale" "Congo Centrale" }
+2948 = { "Buona Terra" "Nicola" }
+4078 = { "Lontano" "Citta Lontana" }
+4079 = { "Ngoio" "Nuova Milano" }
+4080 = { "Soio" "Soio" }
+4082 = { "Casangia" "Casangia" }
+4083 = { "Sciangia" "Casai" }
+4084 = { "Maleme" "Maleme" }
+4085 = { "Giacca" "Giacca" }
+4086 = { "Nuno" "Nuno" }
+4087 = { "Combana" "Combana" }
+4089 = { "Sancuro" "Cuba" }
+4091 = { "Lunda Centrale" "Mpasu" }
+4093 = { "Luena" "Luena" }
+4094 = { "Cioque" "Cioque" }
+4096 = { "Calundua" "?alundua" }
+4103 = { "Tabua" "Tabua" }
+4107 = { "Canongescia" "Canongescia" }
 
 #Central Africa
 

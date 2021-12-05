@@ -17,8 +17,6 @@
 689 = { "Hanjung" "Hanjung" } #
 690 = { "Chingjeou" "Chingjeou" } #
 700 = { "Sian" "Sian" } #
-726 = { "Mugdeon" "Mugdeon" } #
-730 = { "Jilinseong" "Jilin" } #
 1012 = { "Sacheuma" "Gagosima" } #
 1020 = { "Gyoto" "Gyoto" } #
 1816 = { "Buggyeong" "Buggyeong" } #
@@ -26,22 +24,58 @@
 1821 = { "Namgyeong" "Namgyeong" } #
 1822 = { "Ssujeou" "Ssujeou" } #
 1824 = { "Wonjeou" "Wonjeou" } #
-1845 = { "Pyeongan" "Pyongyang" } #province spelling seems different
 2138 = { "Udinghyeon" "Udinghyeon" } #
 2139 = { "Laijeou" "Laijeou" } #
 2140 = { "Yenjeou" "Yenjeou" } #
 2141 = { "Swijeou" "Swijeou" } #
 2142 = { "Hwaian" "Hwaian" } #
 2148 = { "Saosing" "Saosing" } #
-2111 = { "Tunghwa" "Tunghwa" } #
 2145 = { "Jeonjiang" "Jeonjiang" } #
 2179 = { "Yen-An" "Yen-An" } #
 2744 = { "Uiju" "Nyongbyon" } #or Anju, Sinuiju, there's a bit of an uncertainty to relevance
 4181 = { "Higo" "Gumamoto" } #
 4182 = { "Hijen" "Nagasaki" } #
-4201 = { "Yonbyon" "Junggyeong" } #
 4651 = { "Sseusima" "Sseusima" } #
-4652 = { "Haeseong" "Haeseong" } #
+
+#Ningguta
+2107 = { "Yongcheon" "Yongcheon" } #Named after Balhae city
+2108 = { "Yongwon" "Yongwon" } #Vanila name
+4653 = { "Hyeondeok" "Hyeondeok" } #Vanila
+
+#South Jilin
+4201 = { "Geonju" "Geonju" } #Vanila. Yonbyon is far off of this place.
+2111 = { "Jolbon" "Gungnae" } #Vanila province name. City has named after old Goguryeo Capital
+2110 = { "Buyeo" "Buyeo" } #Vanila
+730 = { "Gillim" "Gillim" } #Vanila
+2188 = { "Hoeryeong" "Hoeryeong" } #Vanila
+
+#Liaoning
+726 = { "Simyang" "Simyang" } #Vanila. Mukden is used in Qing era so not fitting until Jurchen/Manchu takes it over
+2112 = { "Bakjak" "Bakjak" } #Vanila. "Bonghwang" also works for time period.
+4652 = { "Ansi" "Ansi" } #Vanila. "Haeseong" would work but it was introduced in 1657 by Qing
+2113 = { "Geonan" "Geonan" } #Vanila
+704 = { "Nyeongwon" "Nyeongwon" } #Vanila. 
+
+#Taiwan
+2154 = { "Daebuk" "Daebuk" } #Vanila
+2155 = { "Daejung" "Daejung"} #Vanila
+738 = { "Daenam" "Daenam" } #Vanila
+8549 = { "Girae" "Girae"}
+8555 = { "Daedong" "Daedong" }
+8548 = { "Namtu" "Namtu" }
+
+#America
+868 = { "Naseong" "Naseong" } #Los Angeles, Vanila
+2021 = { "Sanghang" "Sanghang" } #San Francisco
+973 = { "Ongahwa" "Ongahwa" } #Vancouver
+874 = { "Saro" "Saro" } #Seattle.
+5805 = { "Ballyun" "Ballyun" } #Portland.  Have no idea if Koreans used transliteration of Chinese, Japanese("Balsi") or not 
+
+#Hamgyeong
+732 = { "Hamheung" "Hamheung" } #Hamgyeong is name of province City Hamheung located in, not vice versa. 
+
+#Pyeongan
+1845 = { "Pyongyang" "Pyongyang" } #Same rule applies. also Vanila name.
 
 #Unsorted and Uncapitalised
 1056 = "Baleugujin"

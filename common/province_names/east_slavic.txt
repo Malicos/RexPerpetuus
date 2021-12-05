@@ -2,14 +2,141 @@
 #(JP) Russian, will be overwritten by local files, ruthenian.txt and belorussian
 #(JP) I have reorganised and cleaned up all the prior East Slavic naming to try and make it more legible, consistant and keep it easier to edit in future
 
+#Russia
+
+#Ural
+
+#Pontic Steppe
+
+#Ruthenia
+
+#Scandinavia
+
+#Baltic
+35 = { "Yezel" "Arensburg" } #(JP) kept capital as German name, as that is likeliest for Russia.
+36 = { "Revel" "Revel" }
+37 = { "Kroytsburg" "Kroytsburg" }
+38 = { "Riga" "Riga" }
+39 = { "Goldingen" "Goldingen" } #(JP) German for the Russians
+40 = { "Klaipeda" "Klaipeda" }
+41 = { "Korolevets" "Korolevets" }
+42 = { "Ermland" "Heilsberg" } #(JP) Deutsch fur das Russisch
+43 = { "Gdan'sk" "Gdan'sk" }
+271 = { "Rossiena" "Rossiena" }
+273 = { "Dvinsk" "Dvinsk" }
+767 = { "Lytsk" "Lytsk" }
+1834 = { "Yur'yev" "Yur'yev" } #(JP) or Derpt
+1841 = { "Malgorod" "Malgorod" }
+1842 = { "Narva" "Narva" }
+1859 = { "Khelmno" "Khelmno" }
+1935 = { "Yelgava" "Yelgava" }
+1936 = { "Kovno" "Kovno" }
+2958 = { "Ostroda" "Ostroda" }
+2997 = { "Tukhola" "Tukhola" }
+3324 = { "Shtallupyonen" "Shtallupyonen"}
+3226 = { "Palanga" "Palanga" } #(JP) Lithuanian name
+3227 = { "Piltene" "Piltene" } #(JP) Latvian name
+3229 = { "Velyn" "Velyn" }
+3230 = { "Stary Pernov" "Stary Pernov" } #(JP) After c.1600 "Stary Pernov"
+3231 = { "Khiuma" "Kardla" } 
+3293 = { "Selia" "Selpils" } 
+4241 = { "Lemzal" "Lemzal" }
+4534 = { "Upiyte" "Upiyte" }
+4535 = { "Utsiany" "Utsiany" }
+5097 = { "Stargrad" "Stargrad" }
+7210 = { "Medniki" "Medniki" }
+7212 = { "Yurburg" "Yurburg" }
+7213 = { "Rakysky" "Rakysky" }
+7216 = { "Braslav" "Braslav" }
+7825 = { "Lambork" "Lambork" }
+7826 = { "Byutov" "Byutov" }
+7827 = { "Glukhov" "Glukhov" }
+7828 = { "Pitsk" "Pitsk" }
+7830 = { "Lubava" "Lubava" }
+7831 = { "Shchitno" "Shchitno" }
+7832 = { "Ryn" "Ryn" }
+7833 = { "Sambiysk" "Primorsk" }
+7834 = { "Guryevsk" "Guryevsk" } #(JP) I known "Guryevsk" is Soviet, gimme something better
+7835 = { "Vegoryevo" "Vegoryevo" }
+7836 = { "Yurgorod" "Yurgorod" }
+7837 = { "Neman" "Neman" }
+7838 = { "Grobina" "Grobina" }
+7839 = { "Vindava" "Vindava" }
+7840 = { "Kandava" "Kandava" }
+7841 = { "Bauska" "Bauska" }
+7843 = { "Kes" "Kes" }
+7844 = { "Kukeinos" "Kukeinos" }
+7845 = { "Rauna" "Rauna" }
+7846 = { "Rezhitsa" "Rezhitsa" }
+7847 = { "Vilyaka" "Vilyaka" }
+7848 = { "Volyst" "Volyst" }
+7849 = { "Vladimirets" "Vladimirets" }
+7850 = { "Novy Pernov" "Novy Pernov" } #(JP) After c.1600 "Novy Pernov"
+7851 = { "Novgorodok" "Novgorodok" }
+7852 = { "Polchev" "Polchev" }
+7853 = { "Rakvere" "Rakvere" } 
+7854 = { "Gazenpot" "Gazenpot" }
+7855 = { "Vittenshteyn" "Vittenshteyn" }
+7856 = { "Rappel" "Rappel" }
+7857 = { "Gapsal" "Gapsal" }
+7859 = { "Telshi" "Telshi" }
+7860 = { "Shavli" "Shavli" }
+7861 = { "Vilkomir" "Vilkomir" }
+7862 = { "Bartenshtayn" "Bartenshtayn" }
+
+#Poland
+263 = { "Ratibor" "Ratibor" }
+2960 = { "Novy Sonch" "Novy Sonch" }
+2963 = { "Krayna" "Zolotov" }
+2966 = { "Glogov" "Glogov" }
+8176 = { "Osventsym" "Osventsym" }
+8221 = { "Cheshyn" "Cheshyn" }
+8224 = { "Bzheg" "Bzheg" } # or Bereg
+8228 = { "Mezhdurechye" "Mezhdurechye" }
+8229 = { "Valch" "Valch" }
+8241 = { "Klushgorod" "Klushgorod" }
+8243 = { "Olesnitsa" "Olesnitsa" }
+8245 = { "Stsynava" "Stsynava" }
+
+#North Germany
+45 = { "Lyubitsa" "Lyubitsa" } # russian from polish Liubice
+48 = { "Krugoberezhye" "Berezhynsk" }
+49 = { "Zemlegradye" "Zemlegradye" }
+1857 = { "Lebork" "Lebork Labskiy" }
+1858 = { "Shchetsyn" "Shchetsyn" }
+2995 = { "Slupsk" "Slupsk" }
+2996 = { "Vesimir" "Vesimir" } # russian from polish Wyszomierz
+4747 = { "Dravsk" "Dravsk" }
+7811 = { "Zverin" "Zverin" }
+7812 = { "Parkhim" "Parkhim" }
+7813 = { "Giustrov" "Giustrov" }
+7815 = { "Treptov" "Treptov" }
+7817 = { "Leknitsa" "Leknitsa" }
+7819 = { "Piritsa" "Piritsa" }
+7823 = { "Belgorod" "Belgorod Pomeranskiy" }
+
+#South Germany
+
+#Low Countries
+
+#Britain
+
+#Ireland
+
+#France
+
+#Iberia
+
+#Italy
+
 #Carpathia
 135 = { "Shopron" "Shopron" }
-153 = { "Pest" "Pest" }
+153 = { "Pesht" "Pesht" }
 #154 Hont/Sahy
 #155 Bekes/Gyula
 #156 Timisoara
 157 = { "Oradia" "Oradia" }
-158 = { "Maroš Vazargeli" "Maroš Vazargeli" }
+158 = { "Marosh Vazargeli" "Marosh Vazargeli" }
 160 = { "Kraiova" "Kraiova" }
 161 = { "Targovishte" "Targovishte" }
 162 = { "Zemplen" "Zemplen" }
@@ -30,13 +157,13 @@
 #3151 Zala/Zalaegerszeg
 3152 = { "Satmar" "Satmar" }
 3154 = { "Belgorod" "Belgorod" }
-3156 = { "Sucava" "Sucava" }
+3156 = { "Suchava" "Suchava" }
 3157 = { "Bakova" "Bakova" }
 3159 = { "Beltsy" "Beltsy" }
 3160 = { "Ilfov" "Bukharest" }
 #4125 Heves/Eger
 #4126 Kiskunság/Kiskunhalas
-4127 = { "Bistriza" "Bistriza" }
+4127 = { "Bistritsa" "Bistritsa" }
 4128 = { "Brasov" "Brasov" } #(JP) Seems pretty Russian as it is
 4173 = { "Zombor" "Zombor" }
 #4236 Trencsén
@@ -95,92 +222,18 @@
 8208 = { "Sibiu" "Sibiu" } #(JP) Base names
 8209 = { "Turda" "Turda" } #(JP) Base names?
 8210 = { "Fagarash" "Fagarash" } #(JP) ehhhh?
-8211 = { "Svyatoy Georgiy" "Svyatoy Georgiy" } #(JP) town is "Saint George"
+8211 = { "Georgiyevsk" "Georgiyevsk" } #(JP) town is "Saint George"
 #8212 Sumuleu Ciuc
 8213 = { "Shegeshvar" "Shegeshvar" } #(JP) ehhhh?
 8215 = { "Regin" "Regin" }
 #8218 Debrecen
-8219 = { "Vaslui" "Vaslui" } #(JP) Base names
+8219 = { "Vasluy" "Vasluy" }
 8220 = { "Kishinev" "Kishinev" }
 #8493 Zarand
 #8494 Prekmurje/Murska Sobota
 #8495 Kanizsa
 
-#Baltic
-35 = { "Yezel" "Arensburg" } #(JP) kept capital as German name, as that is likeliest for Russia.
-36 = { "Revel" "Revel" }
-37 = { "Kroytsburg" "Kroytsburg" }
-38 = { "Riga" "Riga" }
-39 = { "Goldingen" "Goldingen" } #(JP) German for the Russians
-40 = { "Klaipeda" "Klaipeda" }
-41 = { "Korolevets" "Korolevets" }
-42 = { "Ermland" "Heilsberg" } #(JP) Deutsch fur das Russisch
-43 = { "Gdan'sk" "Gdan'sk" }
-271 = { "Rossiena" "Rossiena" }
-273 = { "Dvinsk" "Dvinsk" }
-767 = { "Lytsk" "Lytsk" }
-1834 = { "Yur'yev" "Yur'yev" } #(JP) or Derpt
-1841 = { "Malgorod" "Malgorod" }
-1842 = { "Narva" "Narva" }
-1859 = { "Khelmno" "Khelmno" }
-1935 = { "Yelgava" "Yelgava" }
-1936 = { "Kovno" "Kovno" }
-2958 = { "Ostroda" "Ostroda" }
-2997 = { "Tukhola" "Tukhola" }
-3324 = { "Shtallupyonen" "Shtallupyonen"}
-3226 = { "Palanga" "Palanga" } #(JP) Lithuanian name
-3227 = { "Piltene" "Piltene" } #(JP) Latvian name
-3229 = { "Velyn" "Velyn" }
-3230 = { "Stary Pernov" "Stary Pernov" } #(JP) After c.1600 "Stary Pernov"
-3231 = { "Khiuma" "Kardla" } 
-3293 = { "Selia" "Selpils" } 
-4241 = { "Lemzal" "Lemzal" }
-4534 = { "Upiyte" "Upiyte" }
-4535 = { "Utsiany" "Utsiany" }
-5097 = { "Stargrad" "Stargrad" }
-7210 = { "Medniki" "Medniki" }
-7212 = { "Yurburg" "Yurburg" }
-7213 = { "Rakysky" "Rakysky" }
-7216 = { "Braslav" "Braslav" }
-7825 = { "Lambork" "Lambork" }
-7826 = { "Byutov" "Byutov" }
-7827 = { "Glukhov" "Glukhov" }
-7828 = { "Pitsk" "Pitsk" }
-7829 = { "Kvedin" "Kvedin" }
-7830 = { "Lubava" "Lubava" }
-7831 = { "Shchitno" "Shchitno" }
-7832 = { "Ryn" "Ryn" }
-7833 = { "Sambiysk" "Primorsk" }
-7834 = { "Guryevsk" "Guryevsk" } #(JP) I known "Guryevsk" is Soviet, gimme something better
-7835 = { "Vegoryevo" "Vegoryevo" }
-7836 = { "Yurgorod" "Yurgorod" }
-7837 = { "Neman" "Neman" }
-7838 = { "Grobina" "Grobina" }
-7839 = { "Vindava" "Vindava" }
-7840 = { "Kandava" "Kandava" }
-7841 = { "Bauska" "Bauska" }
-7843 = { "Kes" "Kes" }
-7844 = { "Kukeinos" "Kukeinos" }
-7845 = { "Rauna" "Rauna" }
-7846 = { "Rezhitsa" "Rezhitsa" }
-7847 = { "Vilyaka" "Vilyaka" }
-7848 = { "Volyst" "Volyst" }
-7849 = { "Vladimirets" "Vladimirets" }
-7850 = { "Novy Pernov" "Novy Pernov" } #(JP) After c.1600 "Novy Pernov"
-7851 = { "Novgorodok" "Novgorodok" }
-7852 = { "Polchev" "Polchev" }
-7853 = { "Rakvere" "Rakvere" } 
-7854 = { "Gazenpot" "Gazenpot" }
-7855 = { "Vittenshteyn" "Vittenshteyn" }
-7856 = { "Rappel" "Rappel" }
-7857 = { "Gapsal" "Gapsal" }
-7859 = { "Telshi" "Telshi" }
-7860 = { "Shavli" "Shavli" }
-7861 = { "Vilkomir" "Vilkomir" }
-7862 = { "Bartenshtayn" "Bartenshtayn" }
-
-#Poland
-2960 = { "Novy Sonch" "Novy Sonch" }
+#Balkans
 
 #Anatolia
 316 = { "Nikomediya" "Nikomediya" } # from greek Nikomedeia
@@ -212,18 +265,42 @@
 6026 = { "Ifteriy" "Ifteriy" } # Ifteryum
 6041 = { "Belgorod" "Belgorod Anatoliyskiy" } # Akhisar - white city. Anatoliyskiy means "of Anatolia"
 
+#Caucasia
+
+#Persia
+414 = { "Khamadan" "Khamadan" }
+417 = { "Lakhidzhan" "Tabarsk" }
+427 = { "Damgan" "Damgan" }
+2210 = { "Kermantsarsk" "Kermantsarsk" }
+2212 = { "Zandzhan" "Zandzhan" }
+2214 = { "Golyevo" "Asatarsk" }
+4300 = { "Myana" "Myana" }
+
+#Khorasan	
+444 = { "Khardzhuy" "Khardzhuy" }
+446 = { "Kherat" "Aleksandrovsk v Bukhare" }
+449 = { "Gornyi" "Akhangaran" }
+578 = { "Rogatyi" "Peshavar" }
+
+#Central Asia
+442 = { "Bukhara" "Bukhara" }
+1967 = { "Khudzhand" "Khudzhand" }
+
 #Mongolia
 702 = { "Novogradye" "Novgorod Mongolskiy" } # Novogradye "new settlements" old-church-slavonic stylized. Novgorod Mongolskiy - "Novgorod in Mongolia"
 718 = { "Kovdinsk" "Kovdinsk" } # Kobdo, constructed
 719 = { "Yeliseyevo" "Yeliseyevo" } # Yelisey's settlement
 723 = { "Silingol" "Silingolsk" } # Xilin Gol, constructed 
+725 = { "Vasilyevo" "Ulaykhoton" }
 727 = { "Chichikar" "Chichikar" } # 
 1058 = { "Onangolsk" "Onangolsk" } # Onan Gol, constructed
 2114 = { "Nikodimino" "Nikodimino" } # Settlement/village of Nikodim
 2116 = { "Gurey" "Gurey" } # Huree, constructed
 2117 = { "Zholtyy" "Zholtyy" } # means "yellow"
+2187 = { "Sartyn" "Sartyn" }
 2190 = { "Karakorum" "Karakorum" } 
 2747 = { "Svobodnoye" "Svobodnyy" } # means "free" with village-like ending
+4203 = { "Dzhud" "Dzhudin" }
 4218 = { "Butiginsk" "Butiginsk" } # Buteha, constructed
 4219 = { "Bayan" "Bayan" } # Bayan Tumen
 4221 = { "Gobinsk" "Gobins" } # city or center of Gobi region 
@@ -231,9 +308,34 @@
 4665 = { "Pustyr" "Pustyr" } # means wasteland and synonym for steppe (means "land where there is nothing")
 4667 = { "Bayanul" "Bayanul" } # Bayan Uul 
 4669 = { "Mikulino" "Mikulino" } # Or Nikolayevo - Land/Settlement/Village of Mikula/Nikolay (Nicholas).
+4673 = { "Zholtorossiysk" "Zholtorossiysk" }
+4675 = { "Chakharin" "Chakharin" }
 4678 = { "Noyon" "Noyon" } # 
 4680 = { "Mikhaylovo" "Mikhaylovo" } # Mikhail's settlement
 4682 = { "Staroye" "Staroye" } # means "old" with village-like ending
+
+#Manchuria
+729 = { "Bokhorino" "Bokhorino" }
+4200 = { "Suveniysk" "Suveniysk" } # from chinese toponym
+4217 = { "Pachinsk" "Pachinsk" }
+4655 = { "Shelmyanin" "Shelmyanin" }
+4656 = { "Volanye" "Nikolayevsk Primorskiy" }
+4660 = { "Tuniya" "Tuniysk" }
+4663 = { "Khurkha" "Khurkha" }
+
+#Coromandel
+572 = { "Yuzhnaya Lanka" "Kotte" }
+2099 = { "Kandiya" "Gampala" }
+2100 = { "Severnaya Lanka" "Yapapatuna" }
+4407 = { "Rukhuna" "Rukhuna" }
+4409 = { "Trinkomale" "Trinkomale" }
+
+#East Africa
+1193 = { "Kholmograd" "Kholmograd" } # means "city on hills"
+4028 = { "Makhafaliya" "Makhafaliya" }
+4029 = { "Ananosiya" "Antanosiya" }
+4031 = { "Bereg Malagasiyskiy" "Antsalova" } # means Malagasian coast
+4032 = { "Fegerana" "Fegerana" }
 
 #Australia, Notes by Fatharitan
 # BONT - Russian, based on native toponyma
@@ -288,6 +390,40 @@
 4864 = { "Kamennoye" "Kamennoye" } # NB
 4867 = { "Pritimorye" "Pritimorsk" } # NB, means "near to Timor"
 
+#Alaska
+979 = { "Atan" "Mikhaylov Fort" }
+4968 = { "Kotsebu" "Kotsebu" }
+4969 = { "Tikigachin" "Tikigachinsk" }
+4970 = { "Otkyovik" "Otkyovik" }
+5077 = { "Lavrentiya" "Sivitsk" }
+5079 = { "Semyonovsk" "Semyonovsk" }
+5083 = { "Gornoye" "Gornoye" }
+5723 = { "Voskresensk" "Voskresensk" }
+5725 = { "Adakhin" "Adakhin" }
+5905 = { "Tayagun" "Tayagun" }
+5906 = { "Alyaskinsk" "Alyaskinsk" }
+5907 = { "Aleksandrovo" "Aleksandrovsk Alyaskinskiy" }
+5912 = { "Nunivak" "Nunivachinsk" }
+5919 = { "Mikhaylovsk" "Mikhaylovsk" }
+5920 = { "Aleutskiye Ostrova" "Aleutin" }
+5925 = { "Aydam" "Aydam" }
+5938 = { "Dyan" "Dyan" }
+8004 = { "Tugmyut" "Tugmyut" }
+
+#Cascadia
+5733 = { "Ostrovnoye" "Petrovsk Alyaskinskiy" }
+5863 = { "Kuzmin" "Kuzmin" }
+5864 = { "Khotsnovo" "Khotsnovo" }
+
+#California
+
+#Mexico
+854 = { "Frantsisk" "Saltek" }
+855 = { "Totoramy" "Pustynnik" }
+2657 = { "Borisovo" "Kollima" }
+4576 = { "Khalisko" "Ivanovsk Tepikskiy" } 
+4578 = { "Tepichinsk" "Tsapotsingo" }
+4579 = { "Lukinsk" "Lukinsk" }
 
 #Unsorted and Uncapitalised
 19 = "Nikolaistadt"
@@ -577,9 +713,6 @@
 4965 = "Wasatch" # Toompahnahwach						#Generic name
 4966 = "Cohonino" # Havsuw Baaja							#Generic name
 4967 = "Utah" # Pahvant											#Generic name
-4968 = "Kotzebue" # Qikiqtagruk								#Generic name
-4969 = "Tikigaq" # Tikigaq										#Generic name
-4970 = "Ukpeagvik" # Ukpeagvik								#Generic name
 4971 = "Sagavanirktok" # Sagavanirktok					#Generic name
 4972 = "Tahltan" # Tahltan										#Generic name
 4976 = "Aklavik" # Tuktuyaaqtuuq							#Generic name
@@ -651,7 +784,6 @@
 #Missing 300, do later
 
 #BT400  Overhaul Vanilla renaming
-855 = "Mazatlán"	# Huichol									#Generic name
 859 = "Sinaloa"	# Sinaloa											#Generic name
 862 = "Opateria"	# Yaqui										#Generic name
 875 = "Hopi"	# Canyon											#Generic name
@@ -768,7 +900,6 @@
 #asian steppes
 438 = "Karakumy"
 441 = "Khivá"
-442 = "Buchara"
 2188 = "Achen"
 2362 = "Kunya Urgench"
 
@@ -789,14 +920,12 @@
 2226 = "Dshelalavad"
 
 #far east fix on outdated province naming by paradox
-725 = "Cicikar"
 1049 = "Ust-Zeysky"
 1053 = "Khingan" #or "Chernyayevo"
 2103 = "Chumikan"
 2104 = "Bureya Basin"
 2105 = "Khabarovka"
 2186 = "Semyonovka"
-4200 = "Kharbin"
 4214 = "Kiselevo"
 4215 = "Komsomolsk-na-Amure"
 4216 = "Gawan Imperatora Nikolaya"

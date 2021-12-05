@@ -2110,6 +2110,11 @@ mt_athos = {
 
 	#can we build it?
 	build_trigger = {
+		AND = {
+			religion = orthodox
+			has_owner_religion = yes
+		}
+		
 	}
 
 	#what to do when it's built
@@ -2122,10 +2127,18 @@ mt_athos = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		AND = {
+			religion = orthodox
+			has_owner_religion = yes
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		AND = {
+			religion = orthodox
+			has_owner_religion = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2174,6 +2187,9 @@ mt_athos = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			min_local_autonomy = 2.5
+			local_tax_modifier = 0.05
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2182,6 +2198,8 @@ mt_athos = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_heretic_missionary_strength = 0.01
+			missionaries = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2202,14 +2220,19 @@ mt_athos = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			min_local_autonomy = 5
+			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_heretic_missionary_strength = 0.02
+			missionaries = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2230,14 +2253,20 @@ mt_athos = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			min_local_autonomy = 10
+			local_religious_unity_contribution = 0.1
+			local_tax_modifier = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -5
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_missionary_strength = 0.04
+			missionaries = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2275,6 +2304,18 @@ mt_olympus = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			AND = {
+				religion_group = pagan
+				has_owner_religion = yes
+			}
+			AND = {
+				culture_group = byzantine
+				OR = {
+					has_owner_culture = yes
+				}
+			}
+		}	
 	}
 
 	#what to do when it's built
@@ -2287,10 +2328,34 @@ mt_olympus = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				religion_group = pagan
+				has_owner_religion = yes
+			}
+			AND = {
+				culture_group = byzantine
+				OR = {
+					has_owner_culture = yes
+				}
+			}
+		}	
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				religion_group = pagan
+				has_owner_religion = yes
+			}
+			AND = {
+				culture_group = byzantine
+				OR = {
+					has_owner_culture = yes
+				}
+			}
+		}	
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2339,6 +2404,7 @@ mt_olympus = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			institution_growth = 1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2347,6 +2413,8 @@ mt_olympus = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			monthly_reform_progress_modifier = 0.05
+			warscore_cost_vs_other_religion = -0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -2371,10 +2439,14 @@ mt_olympus = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			institution_growth = 1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			prestige = 0.5
+			monthly_reform_progress_modifier = 0.1
+			warscore_cost_vs_other_religion = -0.20
 		}
 
 		#what effects happen when this tier is achieved
@@ -2399,10 +2471,15 @@ mt_olympus = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			institution_growth = 2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			prestige = 1
+			monthly_reform_progress_modifier = 0.2
+			warscore_cost_vs_other_religion = -0.30
+			advisor_pool = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -3583,6 +3660,8 @@ theodosian_walls = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.1
+			fort_level = 1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3611,6 +3690,9 @@ theodosian_walls = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.2
+			fort_level = 2
+			garrison_growth = 0.01
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3619,6 +3701,7 @@ theodosian_walls = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			leader_siege = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -3639,14 +3722,20 @@ theodosian_walls = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.5
+			fort_level = 3
+			garrison_growth = 0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			garrison_size = 0.10
+			leader_siege = 1
 		}
 
 		#what effects happen when this tier is achieved

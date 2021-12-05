@@ -5881,6 +5881,11 @@ POM_ideas = {
 		OR = {
 			tag = POM
 			primary_culture = pommeranian
+			
+		}
+		NOT = {
+			tag = MKL
+			tag = STR
 		}
 	}
 	free = yes

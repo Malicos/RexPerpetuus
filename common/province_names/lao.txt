@@ -1,4 +1,3 @@
-
 #By Cinnamon Ryce as part of his SEA addon
 581 = "Sakay"
 582 = "Muang Yang"
@@ -85,3 +84,11 @@
 8728 = "Sikhottabul"
 8729 = "Khemalat"
 8730 = "Phanom Hung"
+
+611 = { "Si Khottabong" "Si Khottabong" } 
+2383 = { "Khoukhan" "Khoukhan" } # Khukhanor Surin is incorrect
+2386 = { "Xaiyaphoum" "Xaiyaphoum" } 
+4838 = { "Khemarat" "Khemarat" }
+8587 = { "Oubone" "Oubone" } 
+8728 = { "Maroukkha Nakhone" "Maroukkha Nakhone"} 
+8730 = { "Nang Hong" "Nang Hong" } # Rename From Phanom Rung

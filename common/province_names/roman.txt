@@ -35,7 +35,7 @@
 2980 = { "Luca" "Luca" }
 2981 = { "Mons Ferratus" "Casalis" }
 2982 = { "Syracusae" "Syracusae" }
-2983 = { "Salernum" "Salernum" "
+2983 = { "Salernum" "Salernum" }
 2984 = { "Consentia" "Consentia" }
 2985 = { "Luceria" "Luceria" }
 2986 = { "Caralis" "Caralis" }

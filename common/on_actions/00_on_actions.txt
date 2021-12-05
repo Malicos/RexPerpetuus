@@ -4890,7 +4890,56 @@ on_pillaged_capital = {
 }
 
 #FROM = country dev was transferred from, ROOT = country doing the transferring
+#FROM = country dev was transferred from, ROOT = country doing the transferring
 on_transfer_development = {
+    capital_scope = {
+        if = {
+            limit = {
+                has_province_modifier = bt_dev_cost_4
+            }
+            add_province_modifier = {
+                name = bt_dev_cost_5
+                duration = 1825
+            }
+            remove_province_modifier = bt_dev_cost_4
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_dev_cost_3
+            }
+            add_province_modifier = {
+                name = bt_dev_cost_4
+                duration = 1825
+            }
+            remove_province_modifier = bt_dev_cost_3
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_dev_cost_2
+            }
+            add_province_modifier = {
+                name = bt_dev_cost_3
+                duration = 1825
+            }
+            remove_province_modifier = bt_dev_cost_2
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_dev_cost_1
+            }
+            add_province_modifier = {
+                name = bt_dev_cost_2
+                duration = 1825
+            }
+            remove_province_modifier = bt_dev_cost_1
+        }
+        else = {
+            add_province_modifier = {
+                name = bt_dev_cost_1
+                duration = 1825
+            }
+        }
+    }
 }
 
 on_colonial_type_change = {

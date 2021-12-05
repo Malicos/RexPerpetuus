@@ -43,7 +43,7 @@
 4565 = { "Tenerife" "Santa Cruz de Tenerife" }
 4787 = { "Ribatajo" "Santarén" }
 5096 = { "Gran Canaria" "Las Palmas de Canaria" }
-7789 = { "Andorra" "Andorra la Vieja" }
+7889 = { "Andorra" "Andorra la Vieja" }
 7903 = { "Tudela" "Tudela" }
 7920 = { "Sangüesa" "Sangüesa" }
 7929 = { "Laguardia" "Laguardia" }
@@ -1613,6 +1613,7 @@
 890 = { "Alturas de Coronado" "Gran Curva" } #Great Bend
 891 = { "Río de los Carneros" "Aguas Hirvientes" } #Boiling Springs
 892 = { "Oclajoma" "Ciudad Oclajoma" } #Oklahoma/Oklahoma city
+896 = { "Pueblo Eufaula" "Pueblo Eufaula" } #Eufaula
 2495 = { "Acoma" "Pueblo Acoma" }
 2496 = { "Sangre de Cristo" "Ratón" } #Raton
 2497 = { "Llano Estacado" "Odesa" } #Odessa
@@ -1626,7 +1627,7 @@
 2666 = { "San Felipe del Río" "San Felipe del Río" }
 2667 = { "Laredo" "San Augustín de Laredo" }
 2668 = { "Río Bravo del Norte" "Reynosa" }
-2669 = { "Tejas del Este" "Manantiales de Azufre" } #Sulphur Springs
+2669 = { "Los Nacogdoches" "Pueblo Los Nacogdoches" } #Nuestra Señora de Guadalupe de los Nacogdoches
 4606 = { "Pueblo de Ocampo" "Pueblo de Ocampo" }
 4627 = { "Río San Marcos" "San Marcos de Nieve" }
 4628 = { "El Paso" "El Paso" }
@@ -1635,6 +1636,9 @@
 4631 = { "Alburquerque" "Alburquerque" }
 4632 = { "Río Rancho" "Río Rancho" }
 4644 = { "Madera" "Ciudad Madera" }
+4909 = { "Fuerte Teodoro" "Fuerte Teodoro" } #Montague County 
+4910 = { "San Clemente" "San Clemente" }
+4911 = { "Tejas del Este" "Manantiales de Azufre" } #Sulphur Springs. Was 2669 Pre BT 14.0
 5826 = { "Ranchos de Taos" "Don Fernando de Taos" }
 5827 = { "Los Alamos" "Los Alamos" }
 5830 = { "Socorro" "Socorro" }
@@ -1650,6 +1654,7 @@
 907 = { "Cascadas de Lacota" "Cascadas de Lacota" } #Sioux Falls
 909 = { "Habsburgo" "Habsburgo" } #Bismarck
 1809 = { "Gaspar" "Gaspar" } #Casper
+2505 = { "Búfalo del Este" "Búfalo del Este" } #Buffalo 
 2006 = { "Zuñiga" "Zuñiga" } #Bozeman
 2007 = { "Llanura Ricaras" "Puesto de los Españoles" } #Mobridge, historical settlement 
 2008 = { "García" "García" } #Dickinson
@@ -1664,6 +1669,10 @@
 2510 = { "Villa de los Mandanes" "Villa de los Mandanes" } #Fort Mandan, Lewis and Clark expedition 
 2625 = { "Presidio San Felipe" "Presidio San Felipe" } #Sterling
 2672 = { "El Cuartalejo" "El Cuartalejo" } #Pueblo in Kansas state
+4900 = { "Amurrio" "Amurrio" } #Avoca
+4915 = { "Villa David" "Villa David" } #David City
+4916 = { "Casa de Ponca" "Casa de Ponca" } #Marty
+4918 = { "Valnegro" "Valnegro" } #Glendive
 4959 = { "Colorado" "Valverde" } #Denver
 5065 = { "El Pueblo" "El Pueblo" } #Pueblo 
 5066 = { "La Alamosa" "La Alamosa" } #Alamosa 
@@ -1690,14 +1699,13 @@
 893 = { "Río del Espíritu Santo" "Nuevo Toledo" }
 894 = { "Río Rojo" "Aguascalientes" } #Hot Springs
 895 = { "Arcansa" "Puesto de Arcansa" } #Arkansas Post, first settlement in the region
-896 = { "Santa Ana de Telico" "Santa Ana de Telico" } #Tahlequah
 897 = { "La Pequeña Roca" "La Pequeña Roca" } #Little Rock
 899 = { "Campo de Primavera" "Campo de Primavera" } #Springfield
-900 = { "San Carlos de Misuri" "San Carlos de Misuri" } #Same as above, Luis for the french and Carlos for the spanish 
+900 = { "San Juan del Misuri" "San Juan del Misuri" } #Washington, Missouri
 902 = { "Fuerte Toledo" "Fuerte Toledo" } #Again, France built here Fort Orleans so will be Toledo for Spain
 905 = { "Los Monjes" "Los Monjes" } #Des Moines
 916 = { "Fuerte Corazon Roto" "Fuerte Corazon Roto" } #Fort Crevacoeur, first settlement in Illinois
-917 = { "País de los Ilinueses" "Isla de la Piedra" } #Rock Island
+917 = { "Misuri" "San Carlos del Misuri" } #Same as above, Luis for the french and Carlos for the spanish. Was 900 Pre BT 14.0
 918 = { "Tierra Tanasquí" "San Fernando Barrancas" } #Fort San Fernando de las Barrancas, today Memphis, Tennesee
 919 = { "Los Chicazacas" "Ciudad Tupelo" } #Chickasaw and Tupelo City, Missisipi
 920 = { "Tierra de los Chaetas" "Meridiano" } #Meridian
@@ -1710,14 +1718,14 @@
 934 = { "Río Zaragoza" "Villa Pizarro" } #Nashville
 935 = { "Los Cheroquí" "Fuerte Cheroquí" }
 936 = { "Montanas Huemantes" "San Juan de Xuala" } #Smoky Mountains
-939 = { "Campo de Mayo" "Campo de Mayo" } #Mayfield
+939 = { "Molinos Huracanes" "Molinos Huracanes" } #Hurricane Mills
 940 = { "Villahernando" "Villahernando" } #Luisville
 941 = { "Los Chiscas" "San Juan de los Chiscas" } #Name recorded by De Soto
 951 = { "Río Canova" "Villa Carlos" } #Charleston, I decided to preserve "Ciudad Carlos" for the far important Charleston in South Carolina
-2014 = { "Los Nachitochas" "Los Nachitochas" } #Natchitoches
+2014 = { "El Rapido" "El Rapido" } #Alexandria, Spanish historical site.
 2509 = { "Ciénega de Cisnes" "Fuerte de Soto" } 
-2513 = { "Minas de España" "Minas de España" } #Dubuque, Mines of Spain
-2514 = { "San Isidoro" "San Isidoro" } #St. Genevieve, founded by french after Paris patron saint. St. Isidore is patron saint of Madrid
+2513 = { "Aguas Tormentosas" "Aguas Tormentosas" } #Ottumwa
+2514 = { "Potosí del Misuri" "Potosí del Misuri" } #Potosi
 2515 = { "Fuerte Herrera" "Fuerte Herrera" } #Fort Smith
 2516 = { "Los Adaes" "San Miguel de los Adaes" } #San Miguel de Cuellar de los Adaes
 2520 = { "Pequeño Egipto" "Villabella" } #Belleville, don't understand why southern Illinois is called Little Egypt but it will go for now
@@ -1726,21 +1734,35 @@
 2528 = { "Río Zasu" "Pueblo de Zasu" } #Yazoo City
 2529 = { "Fuerte Nogales" "Fuerte Nogales" } #Vicksburg
 2530 = { "Fuerte Biloxi" "Fuerte Biloxi" } #Biloxi
-2531 = { "Villa de la Caza" "Villa de la Caza" } #Huntsville
+2531 = { "Las Fuentes Dobles" "Las Fuentes Dobles" } #Gadsden
 2532 = { "Río Guerrero" "Fuerte Confederación" }
 2533 = { "Los Chacatos" "Santa Cruz de Sabácola" }
 2548 = { "Tierra de los Tutelos" "Santa María de los Tutelos" }
 2551 = { "Río Monongalia" "La Cabeza" } #Wheeling
+4879 = { "San Pedro de Guaxule" "San Pedro de Guaxule" } #Ashville, village recorded by De Soto 
+4883 = { "Puerta Peaje" "Puerta Peaje" } #Hamilton
+4884 = { "Villa Madera" "Villa Madera" } #Woodville
+4885 = { "Los Nachitochas" "Los Nachitochas" } #Natchitoches. Was 2014 Pre BT 14.0
+4886 = { "Fuerte Nassohones" "Fuerte Nassohones" } 
+4887 = { "Campo de Mayo" "Campo de Mayo" } #Mayfield. Was 939 Pre BT 14.0
+4888 = { "El Peligro" "El Peligro" } #Hazard
+4889 = { "Raqueta" "Raqueta" } #Snowshoe
+4904 = { "San Isidoro" "San Isidoro" } #St. Genevieve, founded by french after Paris patron saint. St. Isidore is patron saint of Madrid. Was 2514 Pre BT 14.0
+4905 = { "País de los Ilinueses" "Isla de la Piedra" } #Rock Island. Was 917 Pre BT 14.0
+4906 = { "Quintero" "Quintero" } #Quincy
+4908 = { "Santa Ana de Telico" "Santa Ana de Telico" } #Tahlequah. Was 896 Pre BT 14.0
+4913 = { "Villa de la Caza" "Villa de la Caza" } #Huntsville. Was 2531 Pre BT 14.0
+4914 = { "Javier" "Javier" } #Joplin
 
 #Great Lakes
 904 = { "Rabión de los Cedros" "Rabión de los Cedros" } #Cedar Rapids, Iowa
 908 = { "San Lorenzo" "San Lorenzo del Escorial" } #Saint Cloud
 910 = { "Hondo del Lago" "Hondo del Lago" } #Fond du Lac, first settlemente in Duluth area 
-911 = { "Península Superior" "Portolá" } #Marquette
-912 = { "Llanura de las Burbujas" "Lugar Lejos" } #Wasau (French explorers called the place "Big Bubbles Flats")
+911 = { "Bahía de Noquet" "Escanaba" } #Escanaba 
+912 = { "Punto Esteban" "Punto Esteban" } #Point Stevens
 913 = { "Río Mesquosín" "Rabiones de Mesquosín" } #Winsconsin Dells
 914 = { "Milioches" "Milioches" } #Milwaukee
-915 = { "Sicago" "Sicago" } #Chicago 
+915 = { "Vendaval" "Vendaval" } #Galesburg
 942 = { "Fuerte Vatanos" "Fuerte Vatanos" } #Lafayette
 943 = { "Indianápolis" "Indianápolis" } #Indianapolis
 944 = { "Río Estrecho" "Santa Ana del Estrecho" } #Detroit
@@ -1756,7 +1778,12 @@
 2522 = { "Río San José" "Fuerte San José" } #Spanish fort in the area 
 2523 = { "Río Hermoso" "Río Hermoso" } #Evansville
 2524 = { "Huabasí" "Huabasí" } #Wabash
-2525 = { "Colón del Norte" "Colón del Norte" } #Columbus 
+2525 = { "Nueva Castellón" "Nueva Castellón" } #Portsmouth 
+4898 = { "Península Superior" "Portolá" } #Marquette. Was 911 Pre BT 14.0
+4899 = { "Llanura de las Burbujas" "Lugar Lejos" } #Wausau (French explorers called the place "Big Bubbles Flats"). Was 912 Pre BT 14.0
+4902 = { "Grandes Rabión" "Grandes Rabión" } #Grand Rapids
+4903 = { "Sicago" "Sicago" } #Chicago. Was 915 Pre BT 14.0
+4907 = { "Colón del Norte" "Colón del Norte" } #Columbus. Was 2525 Pre BT 14.0
 5621 = { "Mineápolis" "Mineápolis" } #Minneapolis
 5622 = { "Cuatro Ciudades" "La Florida" } #Quad Cities and Virginia, Minnesota
 
@@ -1778,32 +1805,37 @@
 2534 = { "San Juan de Guacara" "San Juan de Guacara" } #Mission in the area
 2535 = { "San Antón de Carlos" "San Antón de Carlos" } #First jesuit mission in New World
 2536 = { "Fuerte Tequesta" "Fuerte Tequesta" } #Miami
-2537 = { "Valle del Cachipile" "Santa Cruz de Cachipile" } #Spanish mission near Valdosta, Georgia
+2537 = { "Cruz del Camino" "Cruz del Camino" } #Waycross
 2538 = { "Río Altamaha" "Santa Isabel de Utinaica" } #Same as above, Jacksonville, Georgia
 2539 = { "Santa María de Sena" "María Maria de Sena" } #Another mission, alternatives are San Pedro de Mocama and Fernandina
 2540 = { "Ciudad Juana" "Ciudad Juana" } #Augusta; named after Joanna of Castille (or the Mad), mother of Charles V
-2541 = { "Príncipe Ferdinando" "Fuerte Príncipe Ferdinando" } #Fort Prince George (Of Wales)
+2541 = { "Hernandina" "Hernandina" } #Columbia
 2542 = { "Punta de Santa Elena" "Santa Elena" } #Parris Island, South Carolina; capital of Spanish Florida
 2543 = { "Cabo San Nicolás" "Fuerte del Cabo" } #Fuerte del Cabo de San Nicolàs
-2544 = { "Santiago de Guatarí" "Santiago de Guatarí" } #Oldest settlement in inland North Carolina, even oldest than Roanoke and Jamestown
-2545 = { "Villa de Isabel" "Villa de Isabel" } #Charlotte, named after the queen consort of Charles V, Isabel of Portugal (Charlotte was queen consort of George III)
+2544 = { "Villa de Isabel" "Villa de Isabel" } #Charlotte, named after the queen consort of Charles V, Isabel of Portugal (Charlotte was queen consort of George III). Was 2545 Pre BT 14.0
+2545 = { "Santiago de Guatarí" "Santiago de Guatarí" } #Oldest settlement in inland North Carolina, even oldest than Roanoke and Jamestown. Was 2544 Pre BT 14.0
 2546 = { "Cabo Río Jordán" "Nueva Cartagena" } #Cape Fear River and New Carthage, first name of Wilmington
 2547 = { "Cabo de Trafalgar" "Arroyo Reina María Ana" } #Queen Anne's Creek, today Edenton; first permanent settlement in North Carolina. I used the wife of Phillipe III of Spain, Maria Anna of Spain
-2549 = { "Fuerte Cristo-Ana" "Fuerte Cristo-Ana" } #Fort Christanna, Virginia
+2549 = { "Villa Lozano" "Villa Lozano" } #Lynchburg
 2550 = { "Tierra de los Heredos" "Villa de Diego" } #Fredericksbug, named after an hereditary prince that died young. At least he was not named Carlos or Felipe 
 2552 = { "Sierra Aleguenia" "Fuerte Hernández" } #Allegheny Mountains and Fort Pearsall
 2553 = { "Río de Cisnes" "Villa González" } #Potomac River and Frederick, Maryland 
 2554 = { "Nueva Salamanca" "Nueva Salamanca" } #Cambridge, both have very old university 
 4625 = { "Cabo Cañaveral" "Fuerte Matanzas" }
 4626 = { "Bahía del Espíritu Santo" "Villa de Tampa" } #Tampa
+4877 = { "Fuerte Cristo-Ana" "Fuerte Cristo-Ana" } #Fort Christanna, Virginia. Was 2549 Pre BT 14.0
+4878 = { "Cabo Justo" "Cabo Justo" } #Capefair/Greensboro
+4880 = { "Numancia" "Numancia" } #Athens
+4881 = { "Valle del Cachipile" "Santa Cruz de Cachipile" } #Spanish mission near Valdosta, Georgia. Was 2537 Pre BT 14.0
+4882 = { "Príncipe Ferdinando" "Fuerte Príncipe Ferdinando" } #Fort Prince George (Of Wales), today Clemson. Was 2541 Pre BT 14.0
 
 #Northeast
 954 = { "Fuerte Península" "Fuerte Península" } #Fort Presque Isle, built by French; modern city of Erie
 955 = { "Río de Ostras" "Villa Enrique" } #Rio Susquehanna (that in Lenape means Oyster river) and Harrisburg
 956 = { "Filadelfia" "Filadelfia" } #Philadelphia
 957 = { "Duque de Alba" "Nueva Marbella" } #Delaware (Earl De la Warr --> Duke of Alba) and Dover
-958 = { "Búfalo" "Búfalo" } #Buffalo
-959 = { "Ciudad Gómez" "Ciudad Gómez" } #Rochester (-ville earleir), named after the founder of the city 
+958 = { "Ciudad Gómez" "Ciudad Gómez" } #Rochester (-ville earleir), named after the founder of the city. Was 959 Pre BT 14.0
+959 = { "Ginebra de la Florida" "Ginebra de la Florida" } #Geneve
 960 = { "Iroquesia" "Nueva Siracusa" } #Syracuse
 961 = { "Útica" "Útica" } #Utica
 962 = { "Mallorca del Sur" "Ciudad del Oceano" } #South Jersey (Jersey is an island in the english channel) and Ocean City 
@@ -1826,10 +1858,17 @@
 2560 = { "Puerto Nuevo" "Puerto Nuevo" } #New Haven
 2561 = { "Cabo de Santiago" "Nueva Pontevedra" } #Cape Cod and Plymouth
 2562 = { "La Concordia" "La Concordia" } #Concord
-2563 = { "Astorga" "Astorga" } #Montpelier
+2563 = { "Jérica" "Jérica" } #Burlington
 2564 = { "Montaña Blanca" "Logroño" } #White Mountain and Lancaster
 2565 = { "Río Tranquilo" "Ciudad Augusta" } #Rio Kennebec and Augusta
 2639 = { "Mallorca del Norte" "Nueva Palma" } #New Brunswick
+4871 = { "Astorga" "Astorga" } #Montpelier. Was 2563 Pre BT 14.0
+4872 = { "Búfalo" "Búfalo" } #Buffalo. Was 958 Pre BT 14.0
+4873 = { "Villa Agricultura" "Villa Agricultura" } #Farmington
+4874 = { "Campo Borja" "Campo Borja" } #Pittsfield
+4875 = { "Nueva Madera" "Nueva Madera" } #DuBois
+4876 = { "Figueroa" "Figueroa" } #Scranton
+4912 = { "Asteguieta" "Asteguieta" } #Massena
 
 #Canada
 971 = { "Río de los Gamos" "Nueva Bilbao" } #Bangor
@@ -1881,6 +1920,11 @@
 2590 = { "Lago Temiscamingo" "Temiscamingo" } #Temiskaming
 2670 = { "Toronto" "Toronto" } #Toronto
 2671 = { "Tierra Roja" "Estrecho Gómez" } #Parry Sound 
+4891 = { "Pictò" "Pictò" } #Pictou
+4894 = { "Quipahua" "Quipahua" } #Kipawa
+4895 = { "El Dominio" "El Dominio" } #Le Domaine
+4896 = { "Villa Federico" "Villa Federico" } #Fredericton. Was 5046 Pre BT 14.0
+4897 = { "Río Tiza" "Río Tiza" } #Chalk River 
 4973 = { "Bahía Mar Tranquilo" "Santa Ana de los Pinos" } #Sudbury
 4974 = { "Gran Banco" "Gran Banco" } #Grand Bank 
 5010 = { "Río Peribonca" "Peribonca" } #Peribonka
@@ -1893,7 +1937,6 @@
 5037 = { "Hurónia" "Santa Maria de Hurónia" }
 5038 = { "Bahía de Quente" "Villahermosa de Quente" } #Belleville 
 5039 = { "Isla Santa María" "Pequeña Corriente" } #Little Currient
-5046 = { "Villa Federico" "Villa Federico" } #Fredericton
 5048 = { "Bahía de la Ensenada" "Fuerte Español" } #Canso
 5049 = { "Bahía de Calores" "San Pedro" } #Baie des Chaleurs
 5050 = { "Salto Pequeño" "Salto Pequeño" } #Petit-Sault
@@ -2190,7 +2233,7 @@
 5889 = { "Ibarra" "Ibarra" } #Mcbride
 5892 = { "Serrano" "Serrano" } #Stewart
 5893 = { "Río Aguaclara" "Pueblo Mezclado" } #Chutine
-#5924 = { "Paraíso" "Paraíso" } #Paradise #Wrong ID
+5940 = { "Puerto de Córdova" "Puerto de Córdova" } #Victoria
 
 #Alaska
 977 = { "Cabo Muñoz" "Puerto Mulgrave" } #Yakutat Bay 

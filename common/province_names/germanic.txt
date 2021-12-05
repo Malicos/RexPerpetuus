@@ -1,4 +1,4 @@
-#Contributions from a wide range, including Draiocht, JP, Arga, Chrysocyon, Schockochan, Deserk and Dub
+#Contributions from a wide range, including Draiocht, JP, Arga, Chrysocyon, Schockochan, Deserk, Dub and Fatharitan
 #(JP) Massive thanks to Arga who has done the vast majority of the naming in this file. Schockochan has also been a big help recently
 #(JP) Standard German, will be overwritten by local files, if they are to be used. Particularly Frisian and Dutch dialects (Dutch, Flemish and Afrikaaner)
 #(JP) I have reorganised and cleaned up all the prior Germanic naming to try and make it more legible, consistant and keep it easier to edit in future
@@ -321,7 +321,7 @@
 1772 = { "Preßburg" "Preßburg" }
 1864 = { "Ruppertsburg" "Ruppertsburg" }
 1951 = { "Hunyad" "Eisenmarkt" }
-1952 = { "Nordenmarmarosch" "Chust" }
+1952 = { "Nordmarmarosch" "Chust" }
 1953 = { "Saboltsch" "Saboltsch" }
 1954 = { "Pantschowa" "Pantschowa" }
 2405 = { "Orchei" "Orchei" } #(JP) Not sure here?
@@ -422,17 +422,27 @@
 #Ruthenia
 261 = { "Halitsch" "Halitsch" }
 269 = { "Podlachien" "Wegrau" }
+278 = { "Pinzig" "Pinzig" }
 289 = { "Tschernigau" "Tschernigau" }
 297 = { "Briansk" "Briansk" }
+298 = { "Kurzig" "Kurzig" }
+1943 = { "Brazlau" "Brazlau" }
 2961 = { "Lemberg" "Lemberg" }
+3267 = { "Weissenstadt" "Weissenstadt" }
 4115 = { "Homel" "Homel" }
 4242 = { "Baryssau" "Baryssau" }
+4539 = { "Kremenez" "Kremenez" }
 4541 = { "Drohobytsch" "Drohobytsch" }
+4543 = { "Rylzig" "Rylzig" }
 5660 = { "Sebesch" "Sebesch" }
 7218 = { "Wialejka" "Wialejka" }
+7223 = { "Waukauzig" "Waukauzig" }
+7225 = { "Machilna" "Machilna" }
+7227 = { "Belnitz" "Belnitz" }
+7229 = { "Tschawusen" "Tschawusen" } # Chavusy, -y - plural ending
 7249 = { "Putiwi" "Putiwi" }
-7223 = { "Waukawysk" "Waukawysk" }
 7238 = { "Krytschau" "Krytschau" }
+7262 = { "Belzig" "Belzig" }
 7267 = { "Saanig" "Saanig" }
 7269 = { "Rohatin" "Rohatin" }
 7270 = { "Sambor" "Sambor" }
@@ -442,6 +452,7 @@
 #Poland
 254 = { "Posen" "Posen" }
 255 = { "Kalisch" "Kalisch" }
+256 = { "Plozk" "Plozk" }
 258 = { "Schieratz" "Schieratz" }
 262 = { "Krakau" "Krakau" }
 263 = { "Ratibor" "Ratibor" }
@@ -997,37 +1008,61 @@
 
 #Russia
 274 = { "Pleskau" "Pleskau" }
+308 = { "Jaroslaul" "Jaroslaul" } # or "Yaroslavstadt" "Yaroslavstadt" }
 310 = { "Naugard" "Naugard" }
 312 = { "Belosero" "Belosero" } #(JP) changed to this as Weissensee is now a province in Thuringia
 1955 = { "Cholmogorei" "Cholmogorei" }
+1957 = { "Halitsch-Merja" "Halitsch" }
+1960 = { "Ostrau" "Ostrau" }
+2408 = { "Lipzig" "Lipzig" }
 2749 = { "Tichwin" "Tichwin" }
 3268 = { "Elets" "Elets" }
+3278 = { "Garditz" "Garditz" }
 3284 = { "Waschka" "Waschka" }
 3301 = { "Dorobobusch" "Dorobobusch" }
 4148 = { "Gross-Luken" "Gross-Luken" }
+4243 = { "Toropez" "Toropez" }
+4254 = { "Eichenstadt" "Eichenstadt" } # Eiche - Dub in russian, means oak
 4259 = { "Welsk" "Welsk" }
 4261 = { "Juschna" "Juschna" } 
+5642 = { "Gadau" "Gadau" }
+5643 = { "Opoka" "Opoka" } # or Opotschka. Opoka from Novgorodian 15th century annals.
 5646 = { "Schlüsselburg" "Schlüsselburg" }
+5663 = { "Kosselzig" "Kosselzig" } 
 5668 = { "Dank" "Dank" }
 5669 = { "Rjassk" "Rjassk" }
+5673 = { "Karpenberg" "Karpenberg" } # or Karpberg, russian Karpogory
+5679 = { "Sareizig" "Sareizig" } 
 5681 = { "Worotinsk" "Worotinsk" }
+5683 = { "Bobrau" "Bobrau" }
+7871 = { "Budkau" "Budkau" } # or Budenkau
+7872 = { "Luskoje" "Luskoje" }
 7881 = { "Verschawsk" "Verschawsk" }
 
 #Ural
+302 = { "Tambau" "Tambau" } 
+303 = { "Saratow" "Saratow" } # or "Saratau"
 1077 = { "Halbirn" "Halbirn" }
 1079 = { "Kotelnitsch" "Kotelnitsch" }
 1082 = { "Kazan" "Kazan" }
 2421 = { "Juketau" "Juketau" }
+2444 = { "Baschgird" "Baschgird" }
 3281 = { "Slobodastadt" "Slobodastadt" }
+4264 = { "Kurmisch" "Kurmisch" }
 4265 = { "Artschally" "Artschally" }
 4266 = { "Ischkar" "Ischkar" }
 4267 = { "Mesen" "Mesen" }
 5674 = { "Gross Zimla" "Gross Zimla" }
+5675 = { "Ischma" "Ischma" }
+5677 = { "Petschora" "Petschora" }
+5678 = { "Ustusen" "Ustusen" } # from Ust-Usa, constructed
 
 #Pontic Steppe
+3265 = { "Schir" "Schir" }
 3291 = { "Oskol" "Riebensdorf" }
+3302 = { "Bachmut" "Bachmut" } # Jusowka appeared in 19th century
 7191 = { "Agai" "Agai" }
-7204 = { "Luhansk" "Luhansk" }
+7204 = { "Wiesenzig" "Wiesenzig" } # wiese - german for russian Lug
 
 #Caucasia
 1856 = { "Abchasien" "Gnadenberg" }
@@ -1089,6 +1124,28 @@
 1201 = { "Sansibar" "Sansibar" }
 
 #Horn of Africa
+
+#West Siberia
+480 = { "Scheckenhorde" "Scheckenhorde" }
+1071 = { "Irtesch" "Irtesch" }
+1075 = { "Tjumen" "Tjumen" }
+2428 = { "Jugan" "Jugan" }
+2369 = { "Oberischim" "Oberischim" }
+4687 = { "Imakien" "Imakien" }
+4690 = { "Ischim" "Ischim" }
+
+#Central Asia
+439 = { "Albrechtstadt" "Albrechtstadt" }
+440 = { "Schwarzenkappen" "Schwarzenkappen" } #
+443 = { "Ustjurt" "Ustjurt" }
+455 = { "Kesselkum" "Kesselkum" }
+456 = { "Turkenland" "Tshaugau" }
+465 = { "Nogei" "Nogailand" }
+476 = { "Kypschak" "Kypschak" }
+1969 = { "Sossack" "Sossack" }
+
+#Mongolia
+1065 = { "Schmiedeland" "Kusnau" }
 
 #Canada
 991 = { "Münster" "Micksburg" }
@@ -1851,7 +1908,6 @@
 294 = "Twer"
 296 = "Kaluga"
 307 = "Wladimir"
-308 = "Yaroslavstadt"
 309 = "Olonets"
 1072 = "Obbüttel"			#Or "Salechard"
 1752 = "Rschew"
@@ -2196,7 +2252,6 @@
 311 = "Cholm"
 1777 = "Murman" #or "Nordmann"
 1945 = "Sewerien"
-1960 = "Ostrow"
 4248 = "Kaschin"
 4249 = "Subzau"
 4251 = "Moschaisk"
@@ -2204,7 +2259,6 @@
 4257 = "Mesen"
 4260 = "Oberportage"
 4263 = "Unsch"
-5642 = "Gadow"
 5644 = "Jamburg"
 5647 = "Onegaburg"
 5648 = "Powenets" #or "Braute"
@@ -2220,7 +2274,6 @@
 5661 = "Uswjatei"
 5662 = "Mossalsk"
 5665 = "Wereja"
-5683 = "Borowsk"
 5672 = "Morschanz"
 2450 = "Dschebil"
 2454 = "Kairawan"
@@ -2757,7 +2810,6 @@
 7200 = { "Eugenfeld" "Eugenfeld" } #
 7201 = { "Grunau" "Grunau" } #
 7202 = { "Mariental" "Aleksanderthal" } #
-3302 = { "Jusowka" "Jusowka" } #
 7196 = { "Jamburg" "Jamburg" } #
 7198 = { "Kronau" "Kronau" } #
 7199 = { "Elisabethstadt" "Elisabethstadt" } #
@@ -3011,7 +3063,6 @@
 5576 = { "Krückinsel" "Piratenküste" } #
 5577 = { "Henegau" "Matthäus" } #
 5619 = { "Tal des Hungertodes" "Agate" } #
-5642 = { "Gadow" "Gadow" } #
 5644 = { "Jamburg" "Jamburg" } #
 5647 = { "Onegaburg" "Onegaburg" } #
 5652 = { "Witegra" "Witegra" } #

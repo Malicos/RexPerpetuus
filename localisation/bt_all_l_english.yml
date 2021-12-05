@@ -8,6 +8,17 @@
  unused_area:0 "unused_area"
  temp_area:0 "temp_area"
  
+ bt_dev_cost_1:0 "Concentrated Development in Capital"
+ desc_bt_dev_cost_1:0 "The recent surge that has occurred in [Root.GetName] has led to the city experiencing minor growing pains. It might be wise to avoid concentrating development for a while."
+ bt_dev_cost_2:0 "Concentrated Development in Capital"
+ desc_bt_dev_cost_2:0 "The recent surge that has occurred in [Root.GetName] has led to the city experiencing certain growing pains. It might be wise to avoid concentrating development for a while."
+ bt_dev_cost_3:0 "Concentrated Development in Capital"
+ desc_bt_dev_cost_3:0 "The recent surge that has occurred in [Root.GetName] has led to the city experiencing exceptional growing pains. It might be wise to avoid concentrating development for a while."
+ bt_dev_cost_4:0 "Concentrated Development in Capital"
+ desc_bt_dev_cost_4:0 "The recent surge that has occurred in [Root.GetName] has led to the city experiencing major growing pains. It might be wise to avoid concentrating development for a while."
+ bt_dev_cost_5:0 "Concentrated Development in Capital"
+ desc_bt_dev_cost_5:0 "The recent surge that has occurred in [Root.GetName] has led to the city experiencing massive growing pains. It might be wise to avoid concentrating development for a while."
+ 
  # Brian
  # cleaned, removed duplicates
  # sorted alpha-numerically

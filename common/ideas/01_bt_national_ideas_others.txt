@@ -2242,6 +2242,7 @@ MKL_ideas = {
 	
 	trigger = {
 		tag = MKL
+		tag = STR
 	}
 	free = yes
 	
@@ -2441,7 +2442,7 @@ WMC_ideas = {
 	}
 	WMC_idea_3 = {
 		defensiveness = 0.10
-		global_gartison_growth = 0.2
+		global_garrison_growth = 0.2 #was gartison instead of garrison
 	}
 	WMC_idea_4 = {
 		build_cost = -0.1
@@ -2454,5 +2455,118 @@ WMC_ideas = {
 	}
 	WMC_idea_7 = {
 		diplomatic_annexation_cost = -0.15
+	}
+}
+DUR_ideas = {
+	start = {
+		manpower_in_true_faith_provinces = 0.10
+		global_missionary_strength = 0.01
+	}
+	bonus = {
+		tolerance_own = 2
+	}
+	trigger = {
+		tag = DUR
+	}
+	free = yes
+	
+	DUR_idea_1 = {
+		papal_influence = 1
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.15
+	}
+	DUR_idea_2 = {
+		global_ship_trade_power = 0.1
+		shock_damage_received = -0.10
+	}
+	DUR_idea_3 = {
+		build_time = -0.1
+		great_project_upgrade_cost = -0.1
+	}
+	DUR_idea_4 = {
+		leader_land_fire = 1
+	}
+	DUR_idea_5 = {
+		prestige_decay = -0.015
+	}
+	DUR_idea_6 = {
+		naval_forcelimit_modifier = 0.1
+	}
+	DUR_idea_7 = {
+		technology_cost = -0.05
+	}
+}
+GZR_ideas = {
+	start = {
+		trade_range_modifier = 0.2
+		range = 0.5	#unique
+	}
+	bonus = {
+		trade_efficiency = 0.15
+	}
+	trigger = {
+		tag = GZR
+	}
+	free = yes
+
+	GZR_idea_1 = {
+		global_own_trade_power = 0.2
+	}
+	GZR_idea_2 = {
+		republican_tradition = 0.3
+	}
+	GZR_idea_3 = {
+		production_efficiency = 0.1
+	}
+	GZR_idea_4 = {
+		defensiveness = 0.1
+	}
+	GZR_idea_5 = {
+		tolerance_heathen = 2
+		tolerance_heretic = 2
+	}
+	GZR_idea_6 = {
+		inflation_reduction = 0.05
+		interest = -0.5
+	}
+	GZR_idea_7 = {
+		improve_relation_modifier = 0.3
+	}
+}
+GRN_ideas = {
+	start = {
+		global_trade_goods_size_modifier = 0.1
+		advisor_cost = -0.1
+	}
+	bonus = {
+		merchants = 1
+	}
+	trigger = {
+		tag = GRN
+	}
+	free = yes
+
+	GRN_idea_1 = {
+		development_cost = -0.1
+		center_of_trade_upgrade_cost = -0.1
+	}
+	GRN_idea_2 = {
+		prestige = 1
+	}
+	GRN_idea_3 = {
+		global_tax_modifier = 0.1
+	}
+	GRN_idea_4 = {
+		num_accepted_cultures = 1
+	}
+	GRN_idea_5 = {
+		religious_unity = 0.2
+	}
+	GRN_idea_6 = {
+		adm_tech_cost_modifier = -0.1
+		state_maintenance_modifier = -0.15
+	}
+	GRN_idea_7 = {
+		defensiveness = 0.1
 	}
 }
