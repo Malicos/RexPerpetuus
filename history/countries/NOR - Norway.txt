@@ -8,10 +8,10 @@ technology_group = western
 historical_friend = DAN
 capital = 17 #Akershus
 
-1444.11.11 = {
+1429.1.16 = {
 	monarch = {
 		name = "Alv"
-		dynasty = "Sudrheim"
+		dynasty = "Hardrada"
 		adm = 5
 		dip = 1
 		mil = 3
@@ -21,33 +21,4 @@ capital = 17 #Akershus
 	}
 	add_ruler_personality = martial_educator_personality
 	add_ruler_personality = tactical_genius_personality
-	queen = {
-		name = "Mária"
-		dynasty = "Guthkeled-Bács"
-		adm = 5
-		dip = 3
-		mil = 5
-		country_of_origin = HUN
-		birth_date = 1403.11.2
-		death_date = 1463.11.2
-		female = yes
-		religion = catholic
-		culture = hungarian
-	}
-	add_queen_personality = naive_personality
-	add_queen_personality = righteous_personality
-	heir = {
-		name = "Balder"
-		monarch_name = "Balder"
-		dynasty = "Sudrheim"
-		adm = 6
-		dip = 6
-		mil = 6
-		birth_date = 1420.12.6
-		death_date = 1485.12.6
-		religion = catholic
-		culture = norwegian
-	}
-	add_heir_personality = craven_personality
-	add_heir_personality = lawgiver_personality
 }
