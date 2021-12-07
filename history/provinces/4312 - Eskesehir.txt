@@ -5,10 +5,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = NIK
-controller = NIK
-add_core = NIK
-add_core = PON
+owner = HDP
+controller = HDP
+add_core = HDP
 culture = pontic_greek
 religion = orthodox
 capital = "Boli"			#early version of Bolu, if wiki can be trusted at all (it can't, but I don't feel like searching better sources atm)

@@ -1,8 +1,8 @@
 #4704 - Bulgaria
 
-owner = PAI
-controller = PAI
-add_core = PAI
+owner = TNV
+controller = TNV
+add_core = TNV
 culture = bulgarian
 religion = orthodox
 capital = "Tarnovo"

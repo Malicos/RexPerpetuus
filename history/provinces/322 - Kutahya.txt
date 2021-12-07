@@ -1,9 +1,9 @@
  
 #322 - Küthaya
 
-owner = NIK
-controller = NIK
-add_core = NIK
+owner = DRN
+controller = DRN
+add_core = DRN
 culture = phrygian
 religion = orthodox
 capital = "Eskisehir"

@@ -1,7 +1,7 @@
  
-owner = PON
-controller = PON
-add_core = PON
+owner = SIM
+controller = SIM
+add_core = SIM
 culture = pontic_greek
 religion = orthodox
 capital = "Samsoon" #Contemporary spelling, according to wiki! =p
