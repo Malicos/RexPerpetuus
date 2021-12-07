@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx # was hannovergfx # UPE compatibility
 
-color = { 48  164  51 }
+color = { 46 178 145 }
 
 historical_idea_groups = {
 	religious_ideas
