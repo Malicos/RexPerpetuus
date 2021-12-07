@@ -9,7 +9,7 @@ owner = GLT
 controller = GLT
 
 #Demographics
-culture = phrygian
+culture = galatian
 religion = orthodox
 
 #Development and Trade

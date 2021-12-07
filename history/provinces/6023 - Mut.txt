@@ -9,7 +9,7 @@ owner = ACN
 controller = ACN
 
 #Demographics
-culture = cappadocian
+culture = pamphylian
 religion = orthodox
 
 #Development and Trade

@@ -2,7 +2,7 @@
 owner = GLT
 controller = GLT
 add_core = GLT
-culture = phrygian
+culture = galatian
 religion = orthodox
 capital = "Çankiri"
 is_city = yes

@@ -4,7 +4,7 @@
 owner = PON
 controller = PON
 add_core = PON
-culture = pontic_greek
+culture = galatian
 religion = orthodox
 capital = "Amasya"
 trade_goods = bt_trade_good_books			#(JP) Important educational site for Ottoman Heirs

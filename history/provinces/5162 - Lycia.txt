@@ -3,7 +3,7 @@
 owner = TMS
 controller = TMS
 add_core = TMS
-culture = cappadocian
+culture = pamphylian
 religion = orthodox
 capital = "Meghri"			
 trade_goods = incense			#a report from 1106 names Makre a centre for perfume production, and geographical works from the 13th century describe the city as a commercial centre

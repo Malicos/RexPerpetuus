@@ -4,7 +4,7 @@
 owner = LYC
 controller = LYC
 add_core = LYC
-culture = cappadocian
+culture = pamphylian
 religion = orthodox
 capital = "Antalya"			#An earlier varient of the name, which is fine, leaving vanilla
 trade_goods = bt_trade_good_fruit			#(JP) Mainly Apricots

@@ -3392,6 +3392,16 @@ byzantine = {
 		primary = XXX #Needs new tag
 	}	
 	#RPHotLV Culture
+	pamphylian = {
+		graphical_culture = easterngfx
+		primary = ACN
+	}
+	#RPHotLV Culture
+	galatian = {
+		graphical_culture = easterngfx
+		primary = GLT
+	}
+	#RPHotLV Culture
 	imperial_bulgarian = { #For Rim
 		graphical_culture = easterngfx
 		primary = XXX #To be changed to whatever Rim's tag is (RIM?)

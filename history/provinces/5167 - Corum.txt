@@ -4,7 +4,7 @@
 owner = GLT
 controller = GLT
 add_core = GLT
-culture = phrygian
+culture = galatian
 religion = orthodox
 capital = "Çorum"
 trade_goods = livestock			#Wiki says - 'Çorum is primarily known for its insults' what the hell does that mean?????

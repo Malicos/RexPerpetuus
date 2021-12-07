@@ -9,7 +9,7 @@ owner = LYC
 controller = LYC
 
 #Demographics
-culture = cappadocian
+culture = pamphylian
 religion = orthodox
 
 #Development and Trade

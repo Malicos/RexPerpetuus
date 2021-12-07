@@ -9,7 +9,7 @@ owner = PON
 controller = PON
 
 #Demographics
-culture = pontic_greek
+culture = galatian
 religion = orthodox
 
 #Development and Trade

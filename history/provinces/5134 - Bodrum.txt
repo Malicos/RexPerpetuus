@@ -3,7 +3,7 @@
 owner = TMS
 controller = TMS
 add_core = TMS
-culture = mikrasiatic
+culture = pamphylian
 religion = orthodox
 capital = "Petronium"
 trade_goods = fish			#Bodrum was a quiet town of fishermen and sponge divers until the mid-20th century
