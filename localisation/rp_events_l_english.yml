@@ -12,11 +12,11 @@
  #################################################################################
 
  # Abbasid Events
- rp_abbasids.1.t:0 "End of the Seljuk Dynasty"
- rp_abbasids.1.d:0 "placeholder"
- rp_abbasids.1.a:0 "We shall pursue our own path and elect one of the generals as the new ruler."
- rp_abbasids.1.b:0 "We shall look to the Abbasid Caliph for guidance."
- rp_abbasids.2.t:0 "The Abbasid Caliphate is Restored"
- rp_abbasids.2.d:0 "placeholder"
- rp_abbasids.2.a:0 "placeholder"
+ rp_flavour_abbasids.1.t:0 "End of the Seljuk Dynasty"
+ rp_flavour_abbasids.1.d:0 "placeholder"
+ rp_flavour_abbasids.1.a:0 "We shall pursue our own path and elect one of the generals as the new ruler."
+ rp_flavour_abbasids.1.b:0 "We shall look to the Abbasid Caliph for guidance."
+ rp_flavour_abbasids.2.t:0 "The Abbasid Caliphate is Restored"
+ rp_flavour_abbasids.2.d:0 "placeholder"
+ rp_flavour_abbasids.2.a:0 "placeholder"
  

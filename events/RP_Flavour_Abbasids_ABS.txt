@@ -1,11 +1,11 @@
-namespace = rp_abbasids
+namespace = rp_flavour_abbasids
 normal_or_historical_nations = yes
 
 # End of the Seljuk State
 country_event = {
-	id = rp_abbasids.1
-	title = rp_abbasids.1.t
-	desc = rp_abbasids.1.d
+	id = rp_flavour_abbasids.1
+	title = rp_flavour_abbasids.1.t
+	desc = rp_flavour_abbasids.1.d
 	picture = RAMADAN_eventPicture
 	
 	fire_only_once = yes
@@ -21,7 +21,7 @@ country_event = {
 	
 	# Become a regular tag
 	option = {
-		name = rp_abbasids.1.a
+		name = rp_flavour_abbasids.1.a
 		ai_chance = { factor = 25 }
 		if = {
 			limit = {
@@ -66,17 +66,17 @@ country_event = {
 	
 	# The Caliph Takes Power
 	option = {
-		name = rp_abbasids.1.b
+		name = rp_flavour_abbasids.1.b
 		ai_chance = { factor = 75 }
-		country_event = { id = rp_abbasids.2 }
+		country_event = { id = rp_flavour_abbasids.2 }
 	}
 }
 
 # The Caliph Takes Power
 country_event = {
-	id = rp_abbasids.2
-	title = rp_abbasids.2.t
-	desc = rp_abbasids.2.d
+	id = rp_flavour_abbasids.2
+	title = rp_flavour_abbasids.2.t
+	desc = rp_flavour_abbasids.2.d
 	picture = RAMADAN_eventPicture
 	
 	major = yes
@@ -84,7 +84,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = rp_abbasids.2.a
+		name = rp_flavour_abbasids.2.a
 		change_tag = ABS
 		change_primary_culture = al_iraqiya_arabic
 		add_accepted_culture = turko_iranian
