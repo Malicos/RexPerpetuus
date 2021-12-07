@@ -6,8 +6,8 @@
 #Core Details
 capital = "Çeshme"
 is_city = yes
-owner = NIK
-controller = NIK
+owner = ION
+controller = ION
 
 #Demographics
 culture = mikrasiatic
@@ -20,7 +20,7 @@ base_manpower = 1
 trade_goods = wine			#Mastic, also known as the 'Tears if Chios" would seem a perfect trade good, though sap is not likely to become a trade good anytime soon, so going with wine, because of local wine and fruit production
 
 #Cores and Occupation (Alphabetical after current)
-add_core = NIK
+add_core = ION
 
 #Other Political
 hre = no

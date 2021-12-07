@@ -5,8 +5,8 @@
 #Core Details
 capital = "Hergenkale"
 is_city = yes
-owner = NIK
-controller = NIK
+owner = ACN
+controller = ACN
 
 #Demographics
 culture = phrygian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = NIK
+add_core = ACN
 
 #Other Political
 hre = no

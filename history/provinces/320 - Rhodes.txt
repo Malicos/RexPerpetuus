@@ -1,8 +1,8 @@
 #320 - Rhodes
 
-owner = VAR
-controller = VAR
-add_core = VAR
+owner = TMS
+controller = TMS
+add_core = TMS
 culture = dodecanesian
 religion = orthodox
 capital = "Rhodes"

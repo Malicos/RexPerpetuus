@@ -1,8 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = LYC
-controller = LYC
-add_core = LYC
+owner = TMS
+controller = TMS
+add_core = TMS
 culture = cappadocian
 religion = orthodox
 capital = "Meghri"			

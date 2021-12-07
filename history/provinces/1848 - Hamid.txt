@@ -1,9 +1,9 @@
  
 #1848 - Hamid
 
-owner = CAP
-controller = CAP
-add_core = CAP
+owner = ACN
+controller = ACN
+add_core = ACN
 culture = phrygian
 religion = orthodox
 capital = "Afyon"				#Name actually means 'Poppy'

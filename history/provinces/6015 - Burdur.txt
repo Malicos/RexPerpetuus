@@ -5,8 +5,8 @@
 #Core Details
 capital = "Burdur"
 is_city = yes
-owner = CAP
-controller = CAP
+owner = ACN
+controller = ACN
 
 #Demographics
 culture = cappadocian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = bt_trade_good_fruit			#(JP) Many many orchards
 
 #Cores and Occupation (Alphabetical after current)
-add_core = CAP
+add_core = ACN
 
 #Other Political
 hre = no

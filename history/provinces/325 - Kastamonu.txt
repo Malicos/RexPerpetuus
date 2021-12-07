@@ -1,9 +1,9 @@
  
 #325 - Kastamonu
 
-owner = PON
-controller = PON
-add_core = PON
+owner = PPG
+controller = PPG
+add_core = PPG
 culture = pontic_greek
 religion = orthodox
 capital = "Kastamonu"

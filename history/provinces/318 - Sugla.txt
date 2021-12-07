@@ -1,9 +1,9 @@
  
 #318 - Sugla
 
-owner = NIK
-controller = NIK
-add_core = NIK
+owner = ION
+controller = ION
+add_core = ION
 culture = mikrasiatic
 religion = orthodox
 capital = "Izmir"			#Wonder where vanilla got Izmirni varient? I could only find Izmir

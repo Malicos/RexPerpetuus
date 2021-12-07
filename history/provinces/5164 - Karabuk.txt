@@ -1,8 +1,7 @@
 
-owner = NIK
-controller = NIK
-add_core = NIK
-add_core = PON
+owner = PPG
+controller = PPG
+add_core = PPG
 culture = pontic_greek
 religion = orthodox
 capital = "Eflani"

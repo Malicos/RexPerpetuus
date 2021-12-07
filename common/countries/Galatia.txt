@@ -2,7 +2,7 @@
 
 graphical_culture = easterngfx
 
-color = { 115 72 138 }
+color = { 10 200 195 }
 
 revolutionary_colors = { 14 0 14 }
 

@@ -1,8 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = VAR
-controller = VAR
-add_core = VAR
+owner = TMS
+controller = TMS
+add_core = TMS
 culture = mikrasiatic
 religion = orthodox
 capital = "Petronium"

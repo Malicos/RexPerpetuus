@@ -1,9 +1,9 @@
  
 #324 - Karaman
 
-owner = CAP
-controller = CAP
-add_core = CAP
+owner = ACN
+controller = ACN
+add_core = ACN
 culture = cappadocian
 religion = orthodox
 capital = "Karaman"

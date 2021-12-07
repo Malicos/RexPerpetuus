@@ -5,8 +5,8 @@
 #Core Details
 capital = "Isparta"
 is_city = yes
-owner = CAP
-controller = CAP
+owner = ACN
+controller = ACN
 
 #Demographics
 culture = cappadocian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = cloth	#Velius: Carpetmaking industry, albeit developed around 19th century. No better alternatives, so sticking with cloth.
 
 #Cores and Occupation (Alphabetical after current)
-add_core = CAP
+add_core = ACN
 
 #Other Political
 hre = no

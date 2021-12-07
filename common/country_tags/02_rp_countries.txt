@@ -162,14 +162,17 @@ QGR = "countries/Qangaria.txt"
 VNH = "countries/Voronezh.txt"
 
 # Asia Minor
+ACN = "countries/Anatolicon.txt"
 GLT = "countries/Galatia.txt"
+ION = "countries/Ionia.txt"
 KRS = "countries/Korakesion.txt"
 LYC = "countries/Lycia.txt"
 NIK = "countries/Nikaea.txt"
 PGI = "countries/Pegai.txt"
 PHI = "countries/Philadelphia.txt"
 PON = "countries/Pontus.txt"
-VAR = "countries/VarangianLeague.txt"
+PPG = "countries/Paphlagonia.txt"
+TMS = "countries/Telmessos.txt"
 
 # Caucasus
 ALN = "countries/Alania.txt"

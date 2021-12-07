@@ -6,8 +6,8 @@
 #Core Details
 capital = "Bartin"
 is_city = yes
-owner = NIK
-controller = NIK
+owner = PPG
+controller = PPG
 
 #Demographics
 culture = pontic_greek
@@ -20,8 +20,7 @@ base_manpower = 2
 trade_goods = bt_trade_good_fruit			#(JP) Ottoman Strawberry
 
 #Cores and Occupation (Alphabetical after current)
-add_core = NIK
-add_core = PON
+add_core = PPG
 
 #Other Political
 hre = no
