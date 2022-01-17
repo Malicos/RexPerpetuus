@@ -3,7 +3,7 @@
 owner = EON
 controller = EON
 add_core = EON
-culture = leonese
+culture = galician
 religion = catholic
 capital = "Navia"
 base_tax = 1
