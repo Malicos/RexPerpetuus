@@ -2,6 +2,121 @@
 #(JP) Ukrainian/Ruthenian, will overwrite east_slavic.txt
 #(JP) I have reorganised and cleaned up all the prior East Slavic naming to try and make it more legible, consistant and keep it easier to edit in future
 
+#Ruthenia
+261 = { "Halych" "Halych" }
+269 = { "Dorohochyn" "Dorohochyn" }
+270 = { "Trakay" "Trakay" }
+272 = { "Vilno" "Vilno" }
+275 = { "Polotysk" "Polotysk" }
+276 = { "Minsk" "Minsk" }
+277 = { "Berestya" "Berestya" } 
+278 = { "Pinsk" "Pinsk" }
+279 = { "Volodymyr" "Volodymyr" }
+280 = { "Kyiv" "Kyiv" }
+281 = { "Kamianets" "Kamianets" }
+289 = { "Chernihiv" "Chernihiv" }
+290 = { "Poltava" "Poltava" } #(JP) "Poltava" no longer called "Ltava" since at the latest 1430
+292 = { "Mohyliv" "Mohyliv" }
+297 = { "Bryansk" "Bryansk" }
+298 = { "Kursk" "Kursk" }
+770 = { "Oshmiany" "Oshmiany" }
+771 = { "Vitebsk" "Vitebsk" }
+1937 = { "Hrodno" "Hrodno" }
+1940 = { "Belz" "Belz" }
+1941 = { "Turiv" "Turiv" }
+1942 = { "Zhytomyr" "Zhytomyr" }
+1943 = { "Bratslav" "Bratslav" }
+1944 = { "Cherkasy" "Cherkasy" }
+1945 = { "Novhorod" "Novhorod" }
+2407 = { "Pereyaslav" "Pereyaslav" }
+2424 = { "Peremyshl" "Peremyshl" }
+2961 = { "Lviv" "Lviv" }
+2962 = { "Rivne" "Rivne" }
+3223 = { "Bilostok" "Bilostok" }
+3225 = { "Volkovyshkyi" "Volkovyshkyi" }
+3238 = { "Lutsk" "Lutsk" }
+3239 = { "Proskuriw" "Proskuriw" }
+3241 = { "Illintsi" "Illintsi" } #(JP) better than Kuzmyn
+3242 = { "Motroninsky" "Motroninsky" } #(JP) Motroninsky Monastery existed from 11th Century, later "Chyhyryn"
+3246 = { "Romny" "Romny" }
+3267 = { "Bilhorod" "Bilhorod" }
+3270 = { "Starodub" "Starodub" }
+4115 = { "Homel" "Homel" }
+4242 = { "Barysov" "Barysov" }
+4244 = { "Trubchevsk" "Trubchevsk" }
+4246 = { "Mstislavl" "Mstislavl" }
+4247 = { "Iskorosten" "Iskorosten" }
+4536 = { "Lyda" "Lyda" }
+4537 = { "Novohrudock" "Novohrudock" }
+4538 = { "Kholm" "Kholm" }
+4539 = { "Kremenets" "Kremenets" }
+4540 = { "Vinnytsya" "Vinnytsya" }
+4541 = { "Drohobych" "Drohobych" }
+4542 = { "Lubny" "Lubny" }
+4543 = { "Rylsk" "Rylsk" }
+4544 = { "Bobruysk" "Bobruysk" }
+4545 = { "Slutsk" "Slutsk" }
+5660 = { "Sebezh" "Sebezh" }
+5670 = { "Sivsk" "Sivsk" }
+7206 = { "Uman" "Uman" }
+7207 = { "Ostroh" "Ostroh" }
+7208 = { "Medzhybizh" "Medzhybizh" }
+7209 = { "Rybnytsya" "Rybnytsya" }
+7211 = { "Seini" "Seini" }
+7214 = { "Dryssa" "Dryssa" }
+7215 = { "Lepel" "Lepel" }
+7217 = { "Orsha" "Orsha" }
+7218 = { "Vileyka" "Vileyka" }
+7219 = { "Krevo" "Krevo" }
+7220 = { "Zaslavl" "Zaslavl" }
+7221 = { "Lahoysk" "Lahoysk" }
+7222 = { "Drutsk" "Drutsk" }
+7223 = { "Vovkovysk" "Vovkovysk" }
+7224 = { "Slonim" "Slonim" }
+7225 = { "Koydanava" "Koydanava" }
+7226 = { "Kopyl" "Kopyl" }
+7227 = { "Byelynychi" "Byelynychi" }
+7228 = { "Olevsk" "Olevsk" }
+7229 = { "Chausy" "Chausy" }
+7230 = { "Kobryn" "Kobryn" } 
+7231 = { "Svisloch" "Svisloch" }
+7232 = { "Luninets" "Luninets" }
+7233 = { "Petrykov" "Petrykov" }
+7234 = { "Shatilky" "Shatilky" }
+7235 = { "Rohachov" "Rohachov" }
+7236 = { "Richytsya" "Richytsya" }
+7237 = { "Brahyn" "Brahyn" }
+7238 = { "Krychov" "Krychov" }
+7239 = { "Bila Tserkva" "Bila Tserkva" }
+7240 = { "Chechersk" "Chechersk" }
+7241 = { "Mozyr" "Mozyr" }
+7242 = { "Chornobyl" "Chornobyl" }
+7243 = { "Ratne" "Ratne" }
+7244 = { "Stepan" "Stepan" }
+7245 = { "Dubrovytsia" "Dubrovytsia" }
+7246 = { "Zvyahel" "Zvyahel" }
+7248 = { "Sosnytsia" "Sosnytsia" }
+7249 = { "Putyvl" "Putyvl" }
+7250 = { "Boryspil" "Boryspil" }
+7252 = { "Hadyach" "Hadyach" }
+7253 = { "Kamin-Kashyrskyi" "Kamin-Kashyrskyi" }
+7254 = { "Ushytsia" "Ushytsia" }
+7255 = { "Myrhorod" "Myrhorod" }
+7256 = { "Kremenchuk" "Kremenchuk" }
+7259 = { "Korsun" "Korsun" }
+7262 = { "Bielsk" "Bielsk" }
+7263 = { "Bila" "Bila" }
+7266 = { "Shchebreshyn" "Shchebreshyn" }
+7267 = { "Syanik" "Syanik" }
+7268 = { "Peremyl" "Peremyl" }
+7269 = { "Rohatyn" "Rohatyn" }
+7270 = { "Sambir" "Sambir" }
+7271 = { "Terebovlya" "Terebovlya" }
+7272 = { "Zalishchyky" "Zalishchyky" }
+7273 = { "Pokuttya" "Kolomyia" }
+7858 = { "Hlybokoye" "Hlybokoye" }
+7882 = { "Pochep" "Pochep" }
+
 #Carpathia
 135 = { "Shopron" "Shopron" }
 153 = { "Pesht" "Pesht" }
@@ -9,7 +124,7 @@
 #155 Bekes/Gyula
 #156 Timisoara
 157 = { "Oradya" "Oradya" }
-158 = { "Tyrgu-Mureš" "Tyrgu-Mureš" }
+158 = { "Tyrgu-Mures" "Tyrgu-Mures" }
 160 = { "Krayova" "Krayova" }
 161 = { "Tyrgovishte" "Tyrgovishte" }
 162 = { "Zemplin" "Zemplin" }
@@ -17,7 +132,7 @@
 #1318 Spis/Levoca
 1756 = { "Kiliia" "Kiliia" }
 #1772 Bratislava
-#1864 Kaposvár
+#1864 Kaposv�r
 1951 = { "Khuneodara" "Khuneodara" } #(JP) ehhh?
 1952 = { "Khust" "Khust" }
 1953 = { "Sabol'ch" "Sabol'ch" }
@@ -35,7 +150,7 @@
 3159 = { "Byel'tsi" "Byel'tsi" } #(JP) Wikipedia gives "Belci" but this feels wrong to me.
 3160 = { "Ilfiv" "Bukharest" }
 #4125 Heves/Eger
-#4126 Kiskunság/Kiskunhalas
+#4126 Kiskuns�g/Kiskunhalas
 4127 = { "Bystritsa" "Bystritsa" }
 4128 = { "Brasiv" "Brasiv" } #(JP) Brasov seems pretty Russian as it is, so changed the "o" to "i"
 4173 = { "Zombor" "Zombor" }
@@ -56,8 +171,8 @@
 #7744 Lugoj
 #7746 Caransebes
 #7748 Calafat
-#7749 Târgu Jiu
-#7750 Râmnicu Vâlcea
+#7749 T�rgu Jiu
+#7750 R�mnicu V�lcea
 7751 = { "Kimpulung" "Kimpulung" } #(JP) eh...?
 #7752 Curtea de Arges
 #7753 Slatina
@@ -67,20 +182,20 @@
 #7757 Orasul de Floci
 7758 = { "Brailiv" "Brailiv" }
 #8171 Gussing
-#8172 Vas/Vasvár
+#8172 Vas/Vasv�r
 #8174 Nitra
-#8175 Komárno
+#8175 Kom�rno
 #8178 Arva
 8180 = { "Piatriv" "Piatriv" } #(JP) "Piatra", idk...
 #8182 Zvolen
-#8183 Vác
+#8183 V�c
 8184 = { "Buda" "Buda" }
 8185 = { "D'jor" "D'jor" }
-#8186 Veszprém
+#8186 Veszpr�m
 #8190 Baranya/Pecs
-#8191 Tolna/Szekszárd
+#8191 Tolna/Szeksz�rd
 #8192 Solt
-#8193 Jászság/Jászberény
+#8193 J�szs�g/J�szber�ny
 #8194 Miskolc
 #8195 Gemer
 8196 = { "Kosice" "Kosice" }
@@ -111,6 +226,9 @@
 36 = { "Ledenets" "Ledenets" } #(JP) Old East Slavic name, rather than later Russian "Revel"
 38 = { "Ryha" "Ryha" }
 
+#Poland
+8234 = { "Lukiv" "Lukiv" }
+
 #JPs Work
 
 #2017 Dec 16
@@ -118,11 +236,7 @@
 #Lithuania
 3226 = "Palanha"
 271 = "Zhohitiya"
-272 = "Vilnyus"
 1926 = "Kaunyus"
-3225 = "Sudoviya"
-1937 = "Hrodno"
-270 = "Trakay"
 
 #Latvia and Estonia
 3227 = "Kartyna"
@@ -217,7 +331,6 @@
 2997 = "Skarshevy"
 2963 = "Krayina"
 4528 = "Kujawa"
-4536 = "Hnyezno"
 225 = "Kalish"
 3220 = "Chenstokova"
 262 = "Krakiv"
@@ -230,57 +343,23 @@
 767 = "Ortelsburh"
 256 = "Plostk"
 257 = "Varshava"
-3223 = "Bilyy"
-269 = "Pidlyaske"
-269 = "Lyublin"
 259 = "Sandomyrs"
 2959 = "Tarnov"
-2424 = "Peremyshl"	#May 31 addition
-4538 = "Kholm"	#May 31 addition
-
-
 
 #2017 Dec 16 (replaced May 31 with complete overhaul)
 
 #Belarus
-277 = "Berestiya"
 276 = "Pynsk"
-4537 = "Novohrudock"
-1941 = "Turiv"
-4115 = "Homyel"
-292 = "Mohylov"
-771 = "Vitebsk"
-4242 = "Barysov"
-275 = "Polotysk"
 
 #Ruthenia
-261 = "Halich"
-1940 = "Belz"
-2961 = "Lviv"
-279 = "Volyn"
-3241 = "Vinnytsya"
-280 = "Kyyiv"
 3271 = "Bilyy"
 5664 = "Karachov"
-289 = "Chernihiv"
-2962 = "Rivne"
-3238 = "Luck"
-3239 = "Iziaslav"
-281 = "Podillja"
-1943 = "Bratslav"
-3242 = "Oleksandria"
 #282 = "Ochakiv"
 291 = "Kharkiv"
 2406 = "Mikolaiv"
-1942 = "Zyotmyr"
 2327 = "Korosten"
-290 = "Ltava"
-1945 = "Sivershchyna"
-3267 = "Bilgorod"
 3291 = "Oskil"
 4224 = "Trubetsk"
-297 = "Debryask"
-4246 = "Mstislavl"
 293 = "Milinska"
 3301 = "Dorohobuzskyy"
 3271 = "Bilyy"
@@ -383,14 +462,9 @@
 #Samogitia
 271 = "Zhmud" #Zhohitiya
 1936 = "Kovno" #Kaunyus
-3225 = "Suvalshchina" #Sudoviya
 3226 = "Palangha" #Palanga
 
 #Vilna 
-270 = "Trakay" #Trakai
-272 = "Vilna" #Vilnyus
-770 = "Braslav" #Breslau
-1937 = "Ghrodno" #Hrodno
 3232 = "Lida" #Lyda
 
 #Curonia 
@@ -997,12 +1071,8 @@
 3220 = "Chenstokova"
 262 = "Krakiv"
 2960 = "Novyy Sonch"
-3223 = "Bilyy"
-269 = "Pidlyaske"
-269 = "Lyublin"
 259 = "Sandomyrs"
 2959 = "Tarnov"
-2424 = "Peremyshl"	#May 31 addition
 3222 = "Kholm"	#May 31 addition
 
 
@@ -1010,45 +1080,18 @@
 #2017 Dec 16 (replaced May 31 with complete overhaul)
 
 #Belarus
-277 = "Berestiya"
 276 = "Pynsk"
 3233 = "Novohrudock"
-1941 = "Turiv"
-4115 = "Homyel"
-292 = "Mohylov"
-771 = "Vitebsk"
-4242 = "Barysov"
-275 = "Polotysk"
 
 #Ruthenia
 3237 = "Stryi"
-261 = "Halich"
-1940 = "Belz"
-2961 = "Lviv"
-279 = "Volyn"
-3241 = "Vinnytsya"
-280 = "Kyyiv"
 3271 = "Bilyy"
 5664 = "Karachov"
-289 = "Chernihiv"
-2962 = "Rivne"
-3238 = "Luck"
-3239 = "Iziaslav"
-281 = "Podillja"
-1943 = "Bratslav"
-3242 = "Oleksandria"
 282 = "Ochakiv"
 291 = "Kharkiv"
 2406 = "Mikolaiv"
-1942 = "Zyotmyr"
-2327 = "Korosten"
-290 = "Ltava"
-1945 = "Sivershchyna"
-3267 = "Bilgorod"
 3291 = "Oskil"
 4224 = "Trubetsk"
-297 = "Debryask"
-4246 = "Mstislavl"
 293 = "Milinska"
 3301 = "Dorohobuzskyy"
 3271 = "Bilyy"
@@ -1101,14 +1144,9 @@
 #Samogitia
 271 = "Zhmud'" #Zhohitiya
 1936 = "Kovno" #Kaunyus
-3225 = "Suval'shchina" #Sudoviya
 3226 = "Palanha" #Palanga
 
 #Vilna 
-270 = "Trakay" #Trakai
-272 = "Vil'na" #Vilnyus
-770 = "Braslav" #Breslau
-1937 = "Hrodno" #Hrodno
 3232 = "Lida" #Lyda
 
 #Curonia 
@@ -1276,21 +1314,14 @@
 ##Poland
 #West Galicia
 262 = "Krakiv"
-2424 = "Peremyshl'"
 2959 = "Tarniv"
 2960 = "Novyy Sonch"
-7267 = "Syanik"
 
 #Lublin
 260 = "Lyublin"
-4538 = "Kholm"
-7266 = "Shchebreshyn"
 
 #Podlasie
-269 = "Venhruv"
 1932 = "Vizna"
-7262 = "Bil's'k"
-7263 = "Bila"
 
 #Mazovia
 256 = "Plots'k" #Plock
@@ -1330,143 +1361,11 @@
 3141 = "Opole"
 3142 = "Opava"
 
-##Ruthenia
-#Kiev
-280 = "Kyyiv"
-1942 = "Zhytomyr"
-4247 = "Iskorosten'"
-7228 = "Olevs'k"
-7242 = "Chornobyl'"
-7246 = "Zvyagel'" ##while didn't exist as city like that before 1550s, only castle with a slightly different name/if at all; alt names : Vzvyagol', Vozvyagel', Zvyagol'
-
-#Chernigov
-289 = "Chernigiv"
-7237 = "Brahin"
-7248 = "Sosnytsya"
-7250 = "Boryspil'"
-
-#West Severia
-1945 = "Siveriya"
-3246 = "Romny"
-7249 = "Putyvl'"
-7252 = "Hadyach"
-
-#East Severia
-298 = "Kurs'k"
-3267 = "Bilhorod"
-4543 = "Ryl's'k"
-5670 = "Sevs'k"
-
-#East Dnieper
-290 = "Ltava"
-2407 = "Pereyaslav"
-4542 = "Lubni"
-7255 = "Myrhorod"
-7256 = "Kremenchuk"
-
-#West Dnieper
-1944 = "Cherkasy"
-3242 = "Kamyanka" ##Chygyryn raises way later in time-line, consider re-naming capital?
-7239 = "Bila Tserkva"
-7259 = "Korsun'"
-
-#East Podolia
-1943 = "Bratslav"
-3241 = "Kuz'myn"
-4540 = "Vinnytsya"
-7206 = "Uman'"
-7209 = "Rybnytsya"
-
-#West Podolia
-281 = "Podillya"
-3239 = "Zaslav"
-7208 = "Mezhybozhe"
-7254 = "Ushytsya"
-7272 = "Zalissya" #Oldest name, 16th century - Zalishche;  1578+ - Zalishchyky
-
-#East Galicia
-261 = "Halych"
-7269 = "Rohatyn"
-7271 = "Terebovlya"
-7273 = "Pokuttya"
-
-#Center Galicia
-1940 = "Belz"
-2961 = "L'viv"
-4541 = "Drohobych"
-7270 = "Sambir"
-
-#East Volhynia
-2962 = "Rivne"
-3238 = "Luts'ke"
-4539 = "Kremenets'"
-7207 = "Ostroh"
-7244 = "Stepan'"
-
-#Volhynia
-279 = "Volyn'"
-7243 = "Ratne"
-7254 = "Kamin'-Kashyrskiy"
-7268 = "Peremyl'"
-
-#Brest
-277 = "Berest'"
-278 = "Pins'k"
-1941 = "Turiv"
-7230 = "Kobryn'"
-7232 = "Lunynets'"
-7245 = "Dombrovytsya"
-
-#Novgrudok
-4537 = "Novgorodok" #older name, influenced by separation of Kievan patriarchate off Muscovite one (carrying still russian-like name)
-4545 = "Sluts'k"
-7223 = "Vovkovys'k"
-7224 = "Slonim"
-7226 = "Kopyl'"
-
-#Mazyr
-4544 = "Bobruys'k"
-7241 = "Mozyr"
-7231 = "Svisloch"
-7233 = "Petrykov"
-
-#Minsk
-276 = "Mins'k"
-4242 = "Borysov"
-7220 = "Zaslavl'"
-7221 = "Logoys'k"
-7225 = "Mohyl'ne"
-
 #Polotsk
-275 = "Polots'k"
-7214 = "Drys'"
-7215 = "Lepel'"
 7216 = "Braslav"
-7218 = "Vileyka"
-
-#Vitebsk
-292 = "Mogyl'ov"
-771 = "Vitebs'k"
-7217 = "Orsha"
-7222 = "Druts'k"
-7227 = "Byelynychi"
-
-#Gomel
-4115 = "Homel'"
-7234 = "Svyetlohors'k"
-7235 = "Rohachov"
-7236 = "Richytsya"
-7240 = "Chechers'k"
-
-#Mstislavl
-4246 = "Mstyslavl'"
-7229 = "Chausy"
-7238 = "Krychev"
 
 #Bryansk
-297 = "Bryans'k"
 3270 = "Starodub"
-4244 = "Trubchevs'k"
 5685 = "Roslavl'"
 
 ##Carpathia 

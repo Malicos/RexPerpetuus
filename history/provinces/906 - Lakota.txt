@@ -4,7 +4,7 @@
 owner = YZB			#Lakota
 controller = YZB
 add_core = YZB
-culture = dakota
+culture = lakota
 religion = totemism
 capital = "Lakota"
 trade_goods = unknown

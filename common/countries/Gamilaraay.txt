@@ -1,6 +1,7 @@
 # GMI - Gamilaraay.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 59  148  111 }
 #revolutionary_colors = { 10 8 5 }

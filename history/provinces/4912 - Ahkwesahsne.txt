@@ -1,7 +1,6 @@
  
 # new in 1.31
 
-tribal_owner = OSH # ???
 culture = laurentian
 religion = totemism
 capital = "Kaniatarowanen"

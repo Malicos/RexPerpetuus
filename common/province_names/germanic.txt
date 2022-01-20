@@ -12,6 +12,7 @@
 1763 = { "Cottbus" "Cottbus" }
 1858 = { "Stettin" "Stettin" }
 2969 = { "Sternberg" "Sternberg in der Neumark" }
+2975 = { "Kleve" "Kleve" }
 2993 = { "Uckermark" "Prenzlau" }
 2994 = { "Wolgast" "Wolgast" }
 2995 = { "Stolp" "Stolp" }
@@ -34,6 +35,7 @@
 8265 = { "Guben" "Guben" }
 8266 = { "Lebus" "Lebus" }
 8268 = { "Senftenberg" "Senftenberg" }
+8410 = { "Moers" "Moers" }
 
 #South Germany
 73 = { "Innsbruck" "Innsbruck" }
@@ -63,7 +65,7 @@
 4710 = { "Vorarlberg" "Bregenz" }
 4720 = { "Genf" "Genf" }
 4721 = { "Freiburg" "Freiburg" }
-4722 = { "Grauerbund" "Inlanz" } 
+4722 = { "Grauer Bund" "Inlanz" } 
 4724 = { "Crudim" "Crudim" }
 4725 = { "Tabor" "Tabor" }
 4726 = { "Prerau" "Prerau" }
@@ -96,7 +98,7 @@
 8486 = { "Toggenburg" "Lichtensteig" }
 8487 = { "Thurgau" "Frauenfeld" }
 8488 = { "Aargau" "Aarau" }
-8489 = { "Lucerne" "Lucerne" }
+8489 = { "Luzern" "Luzern" }
 8490 = { "Neuenburg" "Neuenburg" }
 8491 = { "Greyerz" "Greyerz" }
 8492 = { "Sankt Moritz" "Sankt Moritz" }
@@ -292,6 +294,7 @@
 7709 = { "Taschlidscha" "Taschlidscha" }
 7711 = { "Wragi" "Wragi" } 
 7717 = { "Uzice" "Uzice" }
+7139 = { "Sozopol" "Sozopol" } #also Sosopol
 7721 = { "Travunien" "Trebing" }
 7722 = { "Hoca" "Hoca" }
 7723 = { "Dalen" "Dalen" } 
@@ -391,7 +394,7 @@
 8200 = { "Großkumanien" "Engelhausen" }
 8201 = { "Tschongrad" "Szegedin" }
 8203 = { "Arad" "Arad" }
-8204 = { "Südenmarmarosch" "Marmaroschsiget" } 
+8204 = { "Südmarmarosch" "Marmaroschsiget" }
 8205 = { "Doboka" "Desch" }
 8206 = { "Szilagy" "Schomlenmarkt" }
 8207 = { "Klausenburg" "Klausenburg" }
@@ -421,39 +424,125 @@
 
 #Ruthenia
 261 = { "Halitsch" "Halitsch" }
-269 = { "Podlachien" "Wegrau" }
+269 = { "Drohitschyn" "Drohitschyn" }
+270 = { "Traken" "Traken" }
+272 = { "Wilna" "Wilna" }
+275 = { "Plotzkow" "Plotzkow" }
+276 = { "Minzig" "Minzig" }
+277 = { "Brest" "Brest" }
 278 = { "Pinzig" "Pinzig" }
+279 = { "Wladimir" "Wladimir" }
+280 = { "Kiew" "Kiew" }
+281 = { "Kamjanez" "Kamjanez" }
 289 = { "Tschernigau" "Tschernigau" }
-297 = { "Briansk" "Briansk" }
+290 = { "Poltawa" "Poltawa" }
+292 = { "Mahiljou" "Mahiljou" }
+297 = { "Brianzig" "Brianzig" }
 298 = { "Kurzig" "Kurzig" }
+770 = { "Aschmjany" "Aschmjany" }
+771 = { "Witebzig" "Witebzig" }
+1937 = { "Garten" "Garten" }
+1940 = { "Bels" "Bels" }
+1941 = { "Turau" "Turau" }
+1942 = { "Schitomir" "Schitomir" }
 1943 = { "Brazlau" "Brazlau" }
+1944 = { "Tscherkassy" "Tscherkassy" }
+1945 = { "Naugard" "Naugard" }
+2407 = { "Perejaslau" "Perejaslau" }
+2424 = { "Premissel" "Premissel" }
 2961 = { "Lemberg" "Lemberg" }
-3267 = { "Weissenstadt" "Weissenstadt" }
+2962 = { "Rowne" "Rowne" }
+3223 = { "Bjelostock" "Bjelostock" }
+3225 = { "Wilkowischken" "Wilkowischken" }
+3238 = { "Luzk" "Luzk" }
+3239 = { "Ploskirau" "Ploskirau" }
+3241 = { "Illinzi" "Illinzi" } #(JP) better than Kuzmyn
+3242 = { "Tschyhyryn" "Tschyhyryn" } #(JP) Motroninsky Monastery to Ukrainians for 1444 start
+3246 = { "Romen" "Romen" }
+3267 = { "Weißenstadt" "Weißenstadt" }
+3270 = { "Starodub" "Starodub" }
 4115 = { "Homel" "Homel" }
 4242 = { "Baryssau" "Baryssau" }
+4244 = { "Trubschewsk" "Trübschewsk" }
+4246 = { "Zislau" "Zislau" }
+4247 = { "Korosten" "Korosten" }
+4536 = { "Lida" "Lida" }
+4537 = { "Neustädtl" "Neustädtl" } #(JP) Name is diminutive "new city"
+4538 = { "Kulm" "Kulm" }
 4539 = { "Kremenez" "Kremenez" }
+4540 = { "Winniza" "Winniza" }
 4541 = { "Drohobytsch" "Drohobytsch" }
+4542 = { "Lubny" "Lubny" }
 4543 = { "Rylzig" "Rylzig" }
+4544 = { "Babrujsk" "Babrujsk" }
+4545 = { "Sluzk" "Sluzk" }
 5660 = { "Sebesch" "Sebesch" }
+5670 = { "Sewzig" "Sewzig" }
+7206 = { "Human" "Human" }
+7207 = { "Ostrau" "Ostrau" }
+7208 = { "Medschybisch" "Medschybisch" }
+7209 = { "Rybnytsia" "Marienburg" }
+7211 = { "Seine" "Seine" }
+7214 = { "Drissen" "Drissen" }
+7215 = { "Lepel" "Lepel" }
+7217 = { "Orscha" "Orscha" }
 7218 = { "Wialejka" "Wialejka" }
-7223 = { "Waukauzig" "Waukauzig" }
-7225 = { "Machilna" "Machilna" }
+7219 = { "Kreva" "Kreva" } #(JP) base name
+7220 = { "Saslauje" "Saslauje" } #(JP) or "Zaslau"
+7221 = { "Lahojsk" "Lahojsk" }
+7222 = { "Drutzig" "Drutzig" }
+7223 = { "Waukauzig" "Waukauzig" } #(JP) Or "Waukawysk"
+7224 = { "Slonim" "Slonim" } #(JP) modern/Belarusian
+7225 = { "Kojdanau" "Kojdanau" }
+7226 = { "Kapil" "Kapil" }
 7227 = { "Belnitz" "Belnitz" }
+7228 = { "Olewsk" "Olewsk" }
 7229 = { "Tschawusen" "Tschawusen" } # Chavusy, -y - plural ending
-7249 = { "Putiwi" "Putiwi" }
+7230 = { "Kobrin" "Kobrin" }
+7231 = { "Swislatsch" "Swislatsch" }
+7232 = { "Luninetz" "Luninetz" }
+7233 = { "Petrykau" "Petrykau" }
+7234 = { "Schatila" "Schatila" }
+7235 = { "Rahatschou" "Rahatschou" }
+7236 = { "Retschyza" "Retschyza" }
+7237 = { "Brahin" "Brahin" }
 7238 = { "Krytschau" "Krytschau" }
+7239 = { "Weißkirchen" "Weißkirchen" } #(JP) like "Bila Crvka" in Serbia for "Bila Tserkva"
+7240 = { "Tschatschersk" "Tschatschersk" }
+7241 = { "Masyr" "Masyr" }
+7242 = { "Tschornobyl" "Tschornobyl" }
+7243 = { "Ratne" "Ratne" }
+7244 = { "Stepan" "Stepan" }
+7245 = { "Dubrowyzja" "Dubrowyzja" }
+7246 = { "Swjagel" "Swjagel" }
+7248 = { "Sosnyzja" "Sosnyzja" }
+7249 = { "Putiwl" "Putiwl" }
+7250 = { "Borispol" "Borispol" }
+7252 = { "Hadjatsch" "Hadjatsch" }
+7253 = { "Kamin Kashirsk" "Kamin Kashirsk" }
+7254 = { "Uschytsien" "Uschytsien" }
+7255 = { "Mirgorod" "Mirgorod" } #(JP) Polish
+7256 = { "Krementschug" "Krementschug" }
+7259 = { "Korsun" "Korsun" }
 7262 = { "Belzig" "Belzig" }
+7263 = { "Biala" "Biala" }
+7266 = { "Rotenbürgen" "Rotenbürgen" } #(JP) Apparently German name of castle here at Szczebrzeszyn
 7267 = { "Saanig" "Saanig" }
+7268 = { "Peremyschl" "Peremyschl" }
 7269 = { "Rohatin" "Rohatin" }
 7270 = { "Sambor" "Sambor" }
-7271 = { "Trembowla" "Trembowla" }
+7271 = { "Terebovlja" "Terebovlja" }
 7272 = { "Hinterwalden" "Hinterwalden" }
+7273 = { "Pokutien" "Kolomea" }
+7858 = { "Glubokaje" "Glubokaje" }
+7882 = { "Potschep" "Potschep" }
 
 #Poland
 254 = { "Posen" "Posen" }
 255 = { "Kalisch" "Kalisch" }
 256 = { "Plozk" "Plozk" }
 258 = { "Schieratz" "Schieratz" }
+260 = { "Lübblen" "Lübblen" }
 262 = { "Krakau" "Krakau" }
 263 = { "Ratibor" "Ratibor" }
 264 = { "Breslau" "Breslau" }
@@ -482,10 +571,11 @@
 8229 = { "Krone" "Deutsch Krone" }
 8231 = { "Heiderode" "Heiderode" }
 8233 = { "Zichenau" "Zichenau" }
+8234 = { "Luckau" "Luckau" }
 8239 = { "Hotzenplotz" "Hotzenplotz" }
 8240 = { "Beuthen" "Beuthen" }
 8241 = { "Kreuzburg" "Kreuzburg" }
-8242 = { "Namslau" "Namslau" }
+#8242 = { "Namslau" "Namslau" } #(JP) Removed in BT14
 8243 = { "Oels" "Oels" }
 8244 = { "Brieg" "Brieg" }
 8245 = { "Steinau" "Steinau" }
@@ -493,7 +583,7 @@
 8247 = { "Sagan" "Sagan" }
 8248 = { "Jauer" "Jauer" }
 8249 = { "Schweidnitz" "Schweidnitz" }
-8250 = { "Münsterberg" "Münsterberg" }
+#8250 = { "Münsterberg" "Münsterberg" } #(JP) Removed in BT14
 8251 = { "Neiße" "Neiße" }
 8252 = { "Glatz" "Glatz" }
 
@@ -571,6 +661,7 @@
 7862 = { "Bartenstein" "Bartenstein" }
 
 #Scandinavia
+12 = { "Kopenhagen" "Kopenhagen" }
 13 = { "Schleswig" "Schleswig" }
 15 = { "Ripen" "Ripen" }
 27 = { "Obu" "Obu" }
@@ -578,6 +669,7 @@
 30 = { "Wiburg" "Wiburg" }
 32 = { "Korelien" "Korelien" }
 1979 = { "Schafsinseln" "Torshaven" }
+7773 = { "Flensburg" "Flensburg" }
 7799 = { "Nordbottnien" "Luleo" }
 
 #Low Countries
@@ -983,32 +1075,63 @@
 
 #Britain
 234 = { "Westsachsen" "Wintanburg" }
+235 = { "Cent" "Kanterburg" } #(Arga) or Kent, is already valid
+237 = { "Ochsenfurt" "Ochsenfurt" }
 239 = { "Claudiaburg" "Claudiaburg" }
+240 = { "Wälschenmark" "Buschburg" }
+243 = { "Lindenthal" "Lindenthal" } #(Arga) Lincoln technically already works, but on the same level as all English names when they're saxonized by the English in the first place
+244 = { "Luneburg" "Luneburg" }
+247 = { "Kambrium" "Lugovenburg" }
 251 = { "Deemund" "Deemund" }
 252 = { "Nessmünde" "Nessmünde" }
 253 = { "Westinseln" "Leverburg" }
+1861 = { "Hirschdorf" "Hirschdorf" }
 4130 = { "Somersaten" "Somerten" }
 4364 = { "Innerinseln" "Salen" }
+4365 = { "Insel Mann" "Burgstorf" }
+4367 = { "Hullland" "Königsburg-am-Hull" }
+4368 = { "Dunholm" "Dunholm" }
 4370 = { "Cambrück" "Cambrück" }
 4371 = { "Südsachsen" "Cissaburg" }
+4372 = { "Weogorenburg" "Weogorenburg" }
 4373 = { "Devon-Süd" "Exeter" }
 4374 = { "Dorsaten" "Dorburg" }
-4785 = { "Scheffeld" "Scheffeld" }
+4375 = { "Burg" "Burg" }
+4376 = { "Ligorenburg" "Ligorenburg" }
+4785 = { "Sheaffenfeld" "Sheaffenfeld" }
 4380 = { "Conallsland" "Muff" }
 8122 = { "Devon-Nord" "Barnstappel" }
-8123 = { "Sussey" "Guildenfurt" }
+8123 = { "Südgau" "Guildenfurt" }
+8124 = { "Birkenwald" "Äbbenkirch" }
+8125 = { "Buckenheim" "Buckenheim" }
 8126 = { "Nordhampton" "Nordhampton" }
 8127 = { "Bedfurt" "Bedfurt" }
+8128 = { "Wäringthal" "Wäringthal" }
+8129 = { "Heerenfurt" "Heerenfurt" }
 8130 = { "Staffurt" "Staffurt" }
+8131 = { "Snotenheim" "Snotenheim" }
 8133 = { "Skipten" "Skipten" }
-8144 = { "Monnowgemünd" "Monnowgemünd" } 
+8134 = { "Richardsberg" "Richardsberg" } #(Arga) Richmond is named after a French town, so this is merely a corruption DPN
+8136 = { "Hagustaltenheim" "Hagustaltenheim" }
+8137 = { "Gerstenfarm" "Gerstenfarm" }
+8144 = { "Monnowgemünd" "Monnowgemünd" }
+8170 = { "Wiltunburg" "Saroburg" } 
 
 #Ireland
+374 = { "Manntach" "Arklau" }
+376 = { "Gallivburg" "Gallivburg" }
+3014 = { "Eiben" "Eibenkirch" }
+4118 = { "Korck" "Korck" }
+4119 = { "Schligach" "Schligach" }
+4120 = { "Eichenkirch" "Eichenkirch" }
+4377 = { "Ormund" "Caschel" }
+4378 = { "Diashain" "Schlehkirch" }
 8164 = { "Wasserfurt" "Wasserfurt" }
+8169 = { "Briotainkirch" "Briotainkirch" }
 
 #Russia
 274 = { "Pleskau" "Pleskau" }
-308 = { "Jaroslaul" "Jaroslaul" } # or "Yaroslavstadt" "Yaroslavstadt" }
+308 = { "Jaroslaul" "Jaroslaul" } # or "Yaroslavstadt" "Yaroslavstadt" 
 310 = { "Naugard" "Naugard" }
 312 = { "Belosero" "Belosero" } #(JP) changed to this as Weissensee is now a province in Thuringia
 1955 = { "Cholmogorei" "Cholmogorei" }
@@ -1065,16 +1188,26 @@
 7204 = { "Wiesenzig" "Wiesenzig" } # wiese - german for russian Lug
 
 #Caucasia
+419 = { "Armenien" "Heeren" }
 1856 = { "Abchasien" "Gnadenberg" }
+2198 = { "Avarei" "Chund" }
 2201 = { "Nordalanien" "Dsaudschikau" }
+2202 = { "Bergkarabach" "Sisch" }
 4301 = { "Südalanien" "Alexandersdorf" }
 
 #Anatolia
+316 = { "Nikomedien" "Nikomedien" }
+328 = { "Sinope" "Sinope" }
 329 = { "Sebastia" "Sebastia" }
 330 = { "Trapezunt" "Trapezunt" }
 2296 = { "Kap Lekton" "Sultanien" }
+2304 = { "Samson" "Samson" }
 3248 = { "Rhizäum" "Rhizäum" }
 4315 = { "Silberhausen" "Silberhausen" }
+5157 = { "Nikäa" "Nikäa" }
+5168 = { "Agrilion" "Agrilion" }
+5171 = { "Milletopol" "Milletopol" }
+6033 = { "Ionopol" "Ionopol" }
 
 #Mesopotamia
 4310 = { "Harput" "Harput" }
@@ -1083,6 +1216,7 @@
 #Levant
 405 = { "Palmyra" "Palmyra" }
 1849 = { "Homs" "Homs" }
+4271 = { "Idlib" "Idlib" }
 4297 = { "Baalbek" "Baalbek" }
 
 #Persia
@@ -1110,6 +1244,7 @@
 
 #South Africa
 1181 = { "Peter-Moritzburg" "Peter-Moritzburg" }
+1800 = { "Niederes Limpopoland" "Machaila" }
 5370 = { "Natal" "Uvongo" }
 5371 = { "Thekwini" "Umlantz" }
 5373 = { "Richardsbucht" "Richardsbucht" }
@@ -1146,6 +1281,9 @@
 
 #Mongolia
 1065 = { "Schmiedeland" "Kusnau" }
+
+#Coromandel
+8545 = { "Crozetinseln" "Port Alfred" }
 
 #Canada
 991 = { "Münster" "Micksburg" }
@@ -1235,27 +1373,44 @@
 2523 = { "Vinzen" "Haubstadt" }
 
 #Northeast
-958 = { "Wenrohrononenland" "Neuhamburg" }
+954 = { "Egelburg" "Egelburg" }
+958 = { "Senecesenland" "Mehlburg" }
 962 = { "Neu Amstel" "Bergen" }
 967 = { "Rotinsel" "Rotinsel" }
+2555 = { "Pittsburg" "Pittsburg" }
+2556 = { "Juniaten" "Rebersburg" }
 2557 = { "Atrakwanenland" "Mühleheim" }
 2558 = { "Neupfalz" "Katerbach" }
 2560 = { "Rotenberg" "Rotenberg" }
+4871 = { "Cowassenland" "Irasburg" }
+4873 = { "Neuberlin" "Neuberlin" }
+4872 = { "Wenrohrononenland" "Neuhamburg" }
+4875 = { "Susquehannenwald" "Johannesburg" }
 
 #Southeast
 928 = { "Ödfeld" "Ödfeld" }
+933 = { "Iswänenland" "Kolumbien" }
 937 = { "Skaruhrenland" "Neuse" }
 949 = { "Blaujoch" "Lynchburg" }
+2011 = { "Senedonien" "Etlan" }
+2537 = { "Neuwien" "Neuwien" }
+2538 = { "Yemassenland" "Zenith" }
+2541 = { "Neu-Augsburg" "Neu-Augsburg" }
 2544 = { "Sophienburg" "Gastonien" }
 2545 = { "Waxhauland" "Laurinburg" }
-2547 = { "Blaubergen" "Nantaquaken" }
+2547 = { "Nantaquaken" "Blaubergen" }
 2550 = { "Friedrichsburg" "Friedrichsburg" }
+2552 = { "Neustraßburg" "Neustraßburg" }
 2553 = { "Petomach" "Hagerstorf" }
 2554 = { "Ebbe" "Förderalsburg" }
+4878 = { "Oenockenland" "Wallburg" }
+4880 = { "Sparta" "Sparta" }
+4881 = { "Waldost" "Waldost" }
 
 #Mississippi
 899 = { "Libanon" "Neuwien" }
 905 = { "Polkaburg" "Alleman" }
+924 = { "Tawasenland" "Opp" }
 935 = { "Tscherokesental" "Heiskell" }
 936 = { "Überbergen" "Kleine Schweiz" }
 941 = { "Harrodsburg" "Harrodsburg" }
@@ -1263,11 +1418,17 @@
 2509 = { "Sankt Paulus" "Hepler" }
 2526 = { "Monatonien" "Frankfurt" }
 2548 = { "Neuflussen" "Aldersburg" }
+4879 = { "Schwarzenberg" "Schwarzenberg" }
+4884 = { "Piken" "Gloster" }
+4885 = { "Leewindland" "Hebert" }
+4889 = { "Gosthen" "Gosthen" }
+4904 = { "Espeminkenland" "Ava" }
 
 #Rio Grande
 858 = { "Lipankirchen" "Lipankirchen" }
 881 = { "Bins" "Bins" }
 882 = { "Hagermann" "Hagermann" }
+884 = { "Karankauen" "Karankauen" }
 887 = { "Neukirch" "Fort Hurst" }
 890 = { "Kaiwaland" "Kaiwathal" }
 892 = { "Chikaschaland" "Hugo" }
@@ -1285,11 +1446,28 @@
 #Mexico
 
 #Central America
+838 = { "Mosquitoküste" "Prinzpolken" }
+846 = { "Nordyukatan" "Kitschen Itza" }
+2629 = { "Gawayakak" "Gawayakak" }
+2632 = { "Tabskop" "Tabskop" }
+2633 = { "Kepetschenland" "Montell" }
+2650 = { "Westyukatan" "Putumien" }
+2651 = { "Kanulien" "Merizia" }
 2653 = { "Ichimsch" "Ichimsch" }
+4584 = { "Jaltapek" "Jaltapek" }
+4585 = { "Tzotzilen" "Tuchtlan" }
+6060 = { "Sankt-Andreas-Archipel" "Providentz" } 
 
 #Caribbean
 482 = { "Groß-Bahama" "Friedrichshafen" }
+495 = { "Antiguen" "Sankt Johannes" }
 5574 = { "Eleutherien" "Dunsmürr-Freistadt" }
+5584 = { "Jungferninseln" "Charlotte-Amalie" }
+5585 = { "Sankt Bartholomäus" "Gustavia" }
+5586 = { "Sankt Martin" "Philipsburg" }
+6048 = { "Barbuda" "Codrichten" }
+6049 = { "Sankt Eustaz" "Oranjestad" }
+6050 = { "Sankt Krux" "Christiansted" }
 6051 = { "Mayagwann" "Abrahamsbucht" }
 6052 = { "Exumainseln" "Sankt Georg" }
 6053 = { "Heiland" "Hahnenbrandt" }
@@ -1297,6 +1475,7 @@
 6055 = { "Nassau" "Nassau" }
 6056 = { "Neu-Andros-Insel" "Andros" }
 6057 = { "Äußere Bahamasinseln" "Sumpfighafen" }
+6061 = { "Kaimaninseln" "Bodden" }
 
 #Colombia
 831 = { "Karakas" "Karakas" }
@@ -1334,19 +1513,12 @@
 147 = "Thessalien"
 148 = "Makedonien"
 163 = "Kreta"
-270 = "Traken"
-281 = "Podolien"
 1381 = "Zips"
 1773 = "Achaia"
 1827 = "Raschka"
-2975 = "Cleve"
 493 = "Sankt Thomas"
 3189 = "Batschka"
 4752 = "Pflaum"
-1941 = "Turau"
-3238 = "Luzk"
-2962 = "Rowne" #Adjusted to Rowne by confirmation of Arga
-4247 = "Korosten" #Or Iskorosten. Iskorosten is older.
 5053 = "Kamaurasken"			#Or "Binse"
 995 = "Totusken"			#Or "Skakingen"
 5055 = "Altposten"
@@ -1357,7 +1529,6 @@
 488 = "Gutin"
 2658 = "Felsweiler"			#Or "Neu-Gelsenkirchen"
 2499 = "Grossflüss"			#Or "Felshafen", "Königshausen"
-884 = "Karankauen"
 2516 = "Adenau"
 953 = "Marienland"
 957 = "Bäumchenpunkt"			#Or "Schwanendüll"
@@ -1389,7 +1560,6 @@
 5162 = "Lykien"
 5130 = "Grossmysien"
 5131 = "Kydonien"
-5157 = "Nikäa"
 322 = "Doryläum"
 5155 = "Gordion"
 5152 = "Krönen"			#Or "Euchisien"
@@ -1442,23 +1612,14 @@
 2851 = "Fort Gabriel"
 3178 = "Achaia"
 1773 = "Elis"
-4118 = "Korck"
-4378 = "Diashain"			#or "Schlehenkirchen"
-4377 = "Ormund"
-374 = "Manntach"			#or "Wicklau"
 373 = "Dublin"
-4120 = "Eichenkirchen"
-4119 = "Schligach"
 372 = "Eoghansland"
 3005 = "Macha"
-3014 = "Eiben"
-376 = "Gallivburg"
 462 = "Mingrelien"
 2196 = "Gurien"
 463 = "Tscherkesien"
 3262 = "Karatschien"
 2197 = "Kabardinenland"
-2198 = "Chund"
 2208 = "Balkarien"
 2203 = "Oberkartlien"
 423 = "Katharinenfeld"
@@ -1745,7 +1906,6 @@
 4369 = "Dewet"
 3036 = "Kardigen"			#Or "Aberteif"
 242 = "Gwined"
-240 = "Marchen"
 239 = "Claudiaburg"
 5590 = "Skorbisund"
 5589 = "Ruhsee"			#Or "Kateck"
@@ -1761,7 +1921,6 @@
 5575 = "Totmannskai"
 501 = "Bärtelinsel"			#Or "Bärtel"
 499 = "Sankt Lucia"
-495 = "Barbuda"
 493 = "Dyksinsel"
 490 = "Hügen"
 4619 = "Uferbüttel"
@@ -1865,16 +2024,13 @@
 2318 = "Nördliche Oasen"			#Or "Pemdien"
 1233 = "Äussere Oasen"			#Or "Charidscha"
 360 = "Kain"
-316 = "Nikomedien"
 318 = "Ismir"			#Or "Smürnien"
 319 = "Marmaris"			#Or "Karien"
 320 = "Rhodos"
 325 = "Küre"			#Or "Kastamon"
 326 = "Ankara"			#Or "Angora"
-328 = "Sinope"			#Or "Gerze"
 1846 = "Ordu"			#Or "Horden"
 2299 = "Amastris"			#Or "Sesamos"
-2304 = "Samson"
 5131 = "Kydonien"			#Or "Bergama"
 4308 = "Laodizäa"
 4311 = "Kytachei"			#Or "Kotiaion"
@@ -1885,14 +2041,12 @@
 5163 = "Usack"
 5164 = "Hadrianstadt"
 4313 = "Germanikotien"
-5168 = "Sangarius"
 5206 = "Kerasos"
 416 = "Täbris"
 417 = "Gilan"			#Or "Rascht"
 421 = "Baku"			#Or "Schirwan"
 424 = "Ardabil"			#Or "Artawil"
 426 = "Tabarien"
-2202 = "Melikatien"
 2205 = "Naschwan"
 2207 = "Maraga"
 2211 = "Kurdistan"
@@ -1978,13 +2132,6 @@
 2879 = "Sankt Thekla"
 2899 = "Rica"
 2927 = "Tupinambien"
-246 = "Nordumberland"
-247 = "Kambria"
-289 = "Tschernigau"
-2407 = "Perejaslaw"
-4537 = "Naugardukas"
-3241 = "Winniza"
-3242 = "Neuserbien"
 4624 = "Kieferfluss"			#Or "Isabel"
 #4622 = "Kieferninsel"			#Or "Jugendsinsel" "Siguanäa" "Papageieninsel"
 4623 = "Kuba"			#Or "Ferdinandien"
@@ -2009,7 +2156,6 @@
 969 = "Welkburg"			#Or "Bratburg"
 970 = "Neuenburg" 
 2013 = "Port"
-#2555 = "Pittsburg"			#Or "Neuschwaben" "Egelburg"
 2562 = "Rumfort"
 2564 = "Weissjoch"			#Or "Neuberlin" "Neumailand"
 2565 = "Narants"			#Or "Caniba"
@@ -2061,20 +2207,16 @@
 2616 = "Kaborca"
 2641 = "Zapotal"			#Or "Lara"
 2647 = "Wahrkreuz"
-2651 = "Kanulien"
 4964 = "Serisen"
 5063 = "Mochen"
 299 = "Woronesch"
-3239 = "Zaslaw"
 3266 = "Pogornei"
 3279 = "Liskowo"
 3282 = "Suchona"
 #3115 = "Ost-Island"
 930 = "Kieferberg"
-954 = "Pittsburg"			#Or "Rimersburg"
 964 = "Oppenheim"
 2530 = "Bilock"
-2537 = "Waldost"
 2563 = "Hardtwick"			#Or "Morisstadt"
 5052 = "Piskatakis"
 990 = "Kappen"
@@ -2242,16 +2384,13 @@
 5076 = "Kaktowick"
 2837 = "Sankt Katalina"
 2839 = "Atakama"
-2552 = "Manahoack"
 803 = "Mochus"
 2832 = "Joachim"
-2555 = "Egelburg" #avoiding name repetition
 5203 = "Aravatal" #Probably the third time I look at the name now and see sth that may be better fitting than the last name
 138 = "Schwarzenberg"
 306 = "Unter-Naugard"
 311 = "Cholm"
 1777 = "Murman" #or "Nordmann"
-1945 = "Sewerien"
 4248 = "Kaschin"
 4249 = "Subzau"
 4251 = "Moschaisk"
@@ -2351,32 +2490,16 @@
 7144 = "Dibra"
 7106 = "Rethymnon"
 7107 = "Sitia" #or "Sitten", "Lasithien"
-292 = "Mogilew"
-771 = "Witebsk"
-7220 = "Zaslau"
-7273 = "Kolomea"
 7287 = "Saanig"
 284 = "Perekop"
 285 = "Feodosia"
-290 = "Poltawa"
 1974 = "Taurien"
 3244 = "Zürichtal"
 3245 = "Kertsch"
 7190 = "Jalta"
 7205 = "Starobilsk"
-7250 = "Borispol"
-7255 = "Mirgorod" #polish
 7257 = "Josefstal"
 2413 = "Aksai"
-3241 = "Kalnik"
-7228 = "Olewsk"
-7231 = "Swislatsch"
-7233 = "Petrykau"
-7234 = "Schatila"
-7236 = "Rechytsa"
-7241 = "Masyr"
-7242 = "Tschernobyl"
-7246 = "Zwiahel"
 7103 = "Kalavrita"
 7143 = "Musachien"
 342 = "Ksar el Kebir"
@@ -2495,7 +2618,6 @@
 5409 = "Kalahari-Wüste" #or "Hukuntsi"
 5410 = "Kung-Veld"
 5424 = "Sekoma"
-7253 = "Kamin"
 1009 = "Sankt Georg"
 2581 = "Sankt Eugen"
 2590 = "Engelhart"
@@ -2651,9 +2773,6 @@
 963 = { "Bieberwick" "Bieberwick" } #
 282 = { "Odessa" "Odessa" } #
 7279 = { "Transnistrien" "Dubasari" } #
-7208 = { "Medschybisch" "Medschybisch" } #
-7254 = { "Uschytsien" "Uschytsien" } #
-272 = { "Vilna" "Vilna" } #
 7133 = { "Metzowon" "Metzowon" } #
 1855 = { "Kastorien" "Kastorien" } #
 4312 = { "Ostbithynien" "Claudiusstadt" } #
@@ -2792,12 +2911,8 @@
 5347 = { "Pofadder" "Pofadder" } #
 5348 = { "Fraserburg" "Fraserburg" } #
 1182 = { "Fort Gedultsamkeit" "Fort Gedultsamkeit" } #
-4538 = { "Kulm" "Kulm" } #
-3223 = { "Bialla" "Bialla" } #
-7211 = { "Weyze" "Weyze" } #
 3271 = { "Biel" "Biel" } #
 4245 = { "Wjasma" "Wjasma" } #
-4244 = { "Trubschewsk" "Trübschewsk" } #
 5664 = { "Karatcshew" "Karatschew" } #
 5666 = { "Zensk" "Zensk" } #
 5667 = { "Neusil" "Neusil" } #
@@ -2814,16 +2929,9 @@
 7198 = { "Kronau" "Kronau" } #
 7199 = { "Elisabethstadt" "Elisabethstadt" } #
 7251 = { "Alexandria" "Alexandria" } #
-7256 = { "Krementschug" "Krementschug" } #
 291 = { "Charkau" "Charkau" } #
 3247 = { "Herzenburg" "Herzenburg" } #
 7258 = { "Tscchuhudschiw" "Tschuhudschiw" } #
-4540 = { "Winniza" "Winniza" } #
-7209 = { "Rybnytsia" "Marienburg" } #
-280 = { "Kiew" "Kiew" } #
-1942 = { "Schitomir" "Schitomir" } #
-1944 = { "Tscherkassy" "Tscherkassy" } #
-7239 = { "Zerkau" "Zerkau" } #
 7195 = { "Landau" "Landau" } #
 7197 = { "Worms" "Worms" } #
 2406 = { "Indschil" "Neu-Danzig" } #
@@ -2871,9 +2979,6 @@
 257 = { "Warschau" "Warschau" } #
 259 = { "Sadomier" "Sadomier" } #
 2959 = { "Tarnau" "Tarnau" } #
-279 = { "Wolhynien" "Wladimir Wolinsk" } #
-1940 = { "Bels" "Bels" } #
-4246 = { "Zislau" "Zislau" } #
 5684 = { "Welisch" "Welisch" } #
 4071 = { "Sankt Michael" "Sankt Michael" } #
 4077 = { "Bismarkburg" "Bismarkburg" } #
@@ -2945,7 +3050,6 @@
 357 = { "Derna" "Derna" } #
 379 = { "Jerusalem" "Jerusalem" } #
 380 = { "Wüstenstein" "Burg Wüstenstein" } #
-419 = { "Heeren" "Yerewan" } #
 464 = { "Astrachan" "Astrachan" } #
 466 = { "Sarepta" "Sarepta" } #
 469 = { "Östlich-Rhein" "Rhein" } #
@@ -2958,7 +3062,6 @@
 762 = { "Heinrichten" "Neufreiburg" } #
 763 = { "Januarflüss" "Januarflüss" } #
 766 = { "Vinzenz" "Vinzenzstadt" } #
-838 = { "Prinzpolken" "Prinzpolken" } #
 888 = { "Dämmerbucht" "Zuckerland" } #
 900 = { "Sankt Ludwig" "Sankt Ludwig" } #
 910 = { "Fredenberg" "Schroeder" } #
@@ -2985,7 +3088,6 @@
 1306 = { "Sankt Thomas" "Sankt Thomas" } #
 1751 = { "Siebenbrüdern" "Siebenbrüdern" } #
 1938 = { "Wese" "Wese" } #
-1941 = { "Turau" "Turau" } #
 1971 = { "Wolgograd" "Wolgograd" } #
 1984 = { "Aalburg" "Aalburg" } #
 2009 = { "Nenzeltal" "Martin" } #
@@ -2994,7 +3096,6 @@
 2309 = { "Sindschar" "Sindschar" } #
 2326 = { "Bardei" "Tobruk" } #
 2365 = { "Saratow" "Saratow" } #
-2407 = { "Perejaslaw" "Perejaslaw" } #
 2416 = { "Nordtscherkessenland" "Kreuzstadt" } #
 2451 = { "Misrata" "Misrata" } #
 2454 = { "Kairawan" "Kairawan" } #
@@ -3013,7 +3114,6 @@
 2534 = { "Ockalen" "Kreuzberg" } #
 2535 = { "Neupetersburg" "Neupetersburg" } #
 2536 = { "Grosswasserburg" "Grosswasserburg" } #
-2537 = { "Waldost" "Waldost" } #
 2543 = { "Waccamau" "Orangenburg" } #
 2546 = { "Salemburg" "Florenz" } #
 2586 = { "Kesselpunkt" "Kesselpunkt" } #
@@ -3040,7 +3140,6 @@
 4113 = { "Uleoburg" "Uleoburg" } #
 4122 = { "Salzar" "Salzar" } #
 4142 = { "Arenhusen" "Arenhusen" } #
-4247 = { "Korosten" "Korosten" } #
 4268 = { "Eila" "Akaba" } #
 4270 = { "Mannen" "Man" } #
 4305 = { "Schaken" "Schaken" }
@@ -3067,8 +3166,6 @@
 5647 = { "Onegaburg" "Onegaburg" } #
 5652 = { "Witegra" "Witegra" } #
 5837 = { "Nyberg" "Nyberg" } #
-7242 = { "Tschernobyl" "Tschernobyl" } #
-7250 = { "Borispol" "Borispol" } #
 7770 = { "Viburg" "Viburg" } #
 5036 = { "Neu-Uppsala" "Uppsalen" } #
 2367 = { "Altkalmykien" "Altkalmykien" } #
@@ -3091,7 +3188,6 @@
 788 = { "Angosch" "Angosch" } #
 815 = { "Fort Loyola" "Fort Loyola" } #
 822 = { "Speyer" "Speyerkolonie" } #
-954 = { "Pittsburg" "Pittsburg" } #
 959 = { "Cayugaland" "Genf" } #
 960 = { "Onondagaland" "Herkimer" } #Kurpfalz
 961 = { "Oneidaland" "Fort Steinwall" } #
@@ -3139,7 +3235,6 @@
 5563 = { "Graffen" "Engländerthal" } #
 5565 = { "Barrhön" "Kap Rot" } #
 136 = { "Split" "Split" } 
-270 = { "Traken" "Traken" } #
 283 = { "Molotschna" "Halbstadt" } #
 318 = { "Ismir" "Ismir" } #
 323 = { "Konia" "Konia" } #
@@ -3179,7 +3274,6 @@
 1231 = { "Essuan" "Essuan" } #
 1760 = { "Koblenz" "Koblenz" } #
 1853 = { "Kastorien" "Kastorien" } #
-1937 = { "Garten" "Garten" } #
 2007 = { "Töpferburg" "Töpferburg" } #
 2206 = { "Urmien" "Wasserstadt" } #
 2212 = { "Sendschan" "Sendschan" } #
@@ -3188,7 +3282,6 @@
 2315 = { "Suez" "Suez" } #
 2328 = { "Tema" "Tema" } #
 2337 = { "Unaisenland" "Buraida" } #
-2424 = { "Premissel" "Premissel" } #
 2468 = { "Rotchanfer" "Rotchanfer" } #
 2470 = { "Mauren" "Mauren" } #
 2484 = { "Elwah" "Niederes Elwah" } #
@@ -3217,7 +3310,6 @@
 2954 = { "Dschirba Insel" "Markt Haumatt" } #
 3181 = { "Valona" "Valona" } #
 3183 = { "Bitola" "Bitola" } #
-3225 = { "Sudauen" "Wilkowischken" } #
 3243 = { "Choritz" "Choritz" } #
 3250 = { "Adscharien" "Adscharien" } #
 4175 = { "Alessio" "Alessio" } #
@@ -3225,7 +3317,6 @@
 4304 = { "Choi" "Choi" } #
 4338 = { "Soltanien" "Soltanien" } #
 4515 = { "Homel" "Homel" } #
-4545 = { "Sluzk" "Sluzk" } #
 4627 = { "Walburg" "Pflugersthal" } #
 4631 = { "Weisse Eich" "Weisse Eich" } #
 4649 = { "Nawajocha" "Nawajocha" } #
@@ -3254,8 +3345,6 @@
 5384 = { "Hoffendorf" "Hoffendorf" } #
 5386 = { "Karasburg" "Karasburg" } #
 5567 = { "Hochstanz" "Hochstanz" } #
-5584 = { "Jungferninseln" "Christiansted" } #
-5586 = { "Sankt Eustaz" "Oranjestad" } #
 5595 = { "Pangnirtung Land" "Karibu-Bulle" } #
 5596 = { "Hübschbucht" "Hübschbucht" } #
 5614 = { "Baronenland" "Yegener Kolonie" } #

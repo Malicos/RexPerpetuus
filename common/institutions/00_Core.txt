@@ -587,6 +587,60 @@ feudalism = {
 				}
 			}
 		}
+		###BT Aboriginal Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.15
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = aboriginal_tech } }
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED
+				any_friendly_coast_border_province = { feudalism = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.03			#Feudalism penalty, was 1/6 normal in vanilla, making it only 1/4, instead of 1/2 common for other tiers
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = aboriginal_tech }
+				NOT = { any_friendly_coast_border_province = { feudalism = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = NEIGHBOR_NOT_OWNED_IS_FEUDAL
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					feudalism = 100
+				}
+			}
+		}
+		###BT Polynesian Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.15
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = polynesian_tech } }
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED
+				any_friendly_coast_border_province = { feudalism = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.03			#Feudalism penalty, was 1/6 normal in vanilla, making it only 1/4, instead of 1/2 common for other tiers
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = polynesian_tech }
+				NOT = { any_friendly_coast_border_province = { feudalism = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = NEIGHBOR_NOT_OWNED_IS_FEUDAL
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					feudalism = 100
+				}
+			}
+		}
 		#######################################################################
 		###End of BT Tech group specific spread modifiers - feudalism
 		#######################################################################
@@ -1325,6 +1379,60 @@ renaissance = {
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
 				owner = { technology_group = south_american }
+				NOT = { any_friendly_coast_border_province = { renaissance = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_renaissance
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					renaissance = 100
+				}
+			}
+		}
+		###BT Aboriginal Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.15
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = aboriginal_tech } }
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
+				any_friendly_coast_border_province = { renaissance = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.07
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = aboriginal_tech }
+				NOT = { any_friendly_coast_border_province = { renaissance = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_renaissance
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					renaissance = 100
+				}
+			}
+		}
+		###BT Polynesian Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.15
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = polynesian_tech } }
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
+				any_friendly_coast_border_province = { renaissance = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.07
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = polynesian_tech }
 				NOT = { any_friendly_coast_border_province = { renaissance = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -2322,6 +2430,60 @@ new_world_i = {
 				}
 			}
 		}
+		###BT Aboriginal Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.15
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = aboriginal_tech } }
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_colonialism
+				any_friendly_coast_border_province = { new_world_i = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.07
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = aboriginal_tech }
+				NOT = { any_friendly_coast_border_province = { new_world_i = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_colonialism
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					new_world_i = 100
+				}
+			}
+		}
+		###BT Polynesian Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.15
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = polynesian_tech } }
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_colonialism
+				any_friendly_coast_border_province = { new_world_i = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.07
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = polynesian_tech }
+				NOT = { any_friendly_coast_border_province = { new_world_i = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_colonialism
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					new_world_i = 100
+				}
+			}
+		}
 		#######################################################################
 		###End of BT Tech group specific spread modifiers - new_world_i
 		#######################################################################
@@ -3178,6 +3340,60 @@ printing_press = {
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
 				owner = { technology_group = south_american }
+				NOT = { any_friendly_coast_border_province = { printing_press = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_printing_press
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					printing_press = 100
+				}
+			}
+		}
+		###BT Aboriginal Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.15
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = aboriginal_tech } }
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_printing_press
+				any_friendly_coast_border_province = { printing_press = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.05			#1/3 of full speed, as vanilla
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = aboriginal_tech }
+				NOT = { any_friendly_coast_border_province = { printing_press = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_printing_press
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					printing_press = 100
+				}
+			}
+		}
+		###BT Polynesian Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.15
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = polynesian_tech } }
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_printing_press
+				any_friendly_coast_border_province = { printing_press = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.05			#1/3 of full speed, as vanilla
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = polynesian_tech }
 				NOT = { any_friendly_coast_border_province = { printing_press = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -4147,6 +4363,74 @@ global_trade = {
 				any_neighbor_province = { global_trade = 100 }
 			}
 		}
+		###BT Aboriginal Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.12
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = {
+					technology_group = aboriginal_tech
+				}
+				has_port = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_port_province_global_trade
+				any_friendly_coast_border_province = { global_trade = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.06
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = {
+					technology_group = aboriginal_tech
+				}
+				OR = {
+					has_port = no
+					NOT = { any_friendly_coast_border_province = { global_trade = 100 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_non_port_province_global_trade
+				any_neighbor_province = { global_trade = 100 }
+			}
+		}
+		###BT Polynesian Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.12
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = {
+					technology_group = polynesian_tech
+				}
+				has_port = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_port_province_global_trade
+				any_friendly_coast_border_province = { global_trade = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.06
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = {
+					technology_group = polynesian_tech
+				}
+				OR = {
+					has_port = no
+					NOT = { any_friendly_coast_border_province = { global_trade = 100 } }
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_non_port_province_global_trade
+				any_neighbor_province = { global_trade = 100 }
+			}
+		}
 		#######################################################################
 		###End of BT Tech group specific spread modifiers - global_trade
 		#######################################################################
@@ -4186,7 +4470,8 @@ global_trade = {
 			has_building = stock_exchange
 		}
 		########################################################################################################################################################		#BTAddOn Note - removing trade power factors for global trade spread entirely. They are messy, complicated, don't encourage proper spread, and are redundant as most major factors in tp (CoT/buildings) also spread global trade themselves, estuaries lose out, but oh well. Leaving this here in case I reconsider.
-		########################################################################################################################################################		#modifier = {
+		########################################################################################################################################################		
+		#modifier = {
 		#	factor = 0.01 #Not scaled			#BTAddOn changed from 0.4. It is scaled now.
 		#	scale = yes
 		#	force_potential = yes	# Hide the this modifier when potential is false
@@ -5158,6 +5443,60 @@ manufactories = {
 				}
 			}
 		}
+		###BT Aboriginal Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.09
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = aboriginal_tech } }
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_manufactories
+				any_friendly_coast_border_province = { manufactories = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.01
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = aboriginal_tech }
+				NOT = { any_friendly_coast_border_province = { manufactories = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_manufactories
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					manufactories = 100
+				}
+			}
+		}
+		###BT Polynesian Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.09
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = polynesian_tech } }
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_manufactories
+				any_friendly_coast_border_province = { manufactories = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.01
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = polynesian_tech }
+				NOT = { any_friendly_coast_border_province = { manufactories = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_manufactories
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					manufactories = 100
+				}
+			}
+		}
 		#######################################################################
 		###End of BT Tech group specific spread modifiers - manufactories
 		#######################################################################
@@ -5957,6 +6296,60 @@ enlightenment = {
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
 				owner = { technology_group = south_american }
+				NOT = { any_friendly_coast_border_province = { enlightenment = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_enlightenment
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					enlightenment = 100
+				}
+			}
+		}
+		###BT Aboriginal Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.03
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = aboriginal_tech } }
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_enlightenment
+				any_friendly_coast_border_province = { enlightenment = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.01			#1/3 foreign spread for very low tech groups
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = aboriginal_tech }
+				NOT = { any_friendly_coast_border_province = { enlightenment = 100 } }
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_enlightenment
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					enlightenment = 100
+				}
+			}
+		}
+		###BT Polynesian Tech Spreads - dev doubled adjusted Vanilla speed. No new provinces, so normal spread speed. Then x 0.40 based on original tech group's 250 percent penalty (i.e. 29 percent of normal speed)
+		modifier = {
+			factor = 0.03
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = { owner = { technology_group = polynesian_tech } }
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_enlightenment
+				any_friendly_coast_border_province = { enlightenment = 100 }
+			}
+		}
+		modifier = {
+			factor = 0.01			#1/3 foreign spread for very low tech groups
+			scale = yes
+			force_potential = yes	# Hide the this modifier when potential is false
+			potential = {
+				owner = { technology_group = polynesian_tech }
 				NOT = { any_friendly_coast_border_province = { enlightenment = 100 } }
 			}
 			custom_trigger_tooltip = {

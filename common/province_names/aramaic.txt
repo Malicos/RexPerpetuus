@@ -54,7 +54,7 @@
 2308 = "Urhoy"
 4292 = "Merdô"
 4295 = "Hesna"
-5293 = "Reš 'Aynaa"
+5293 = "Resh 'Aynaa"
 5295 = "Gazarta d' Kardu"
 5331 = "Si'reth"
 
@@ -70,6 +70,6 @@
 4292 = { "Merdô" "Merdô" } #
 4295 = { "Hesna" "Hesna" } #
 5205 = { "Sur" "Sur" } #
-5293 = { "Reš 'Aynaa" "Reš 'Aynaa" } #
+5293 = { "Resh 'Aynaa" "Resh 'Aynaa" } #
 5295 = { "Gziraa" "Gziraa" } #
 5296 = { "Nasibina" "Nasibina" } #

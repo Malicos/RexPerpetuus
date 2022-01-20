@@ -233,10 +233,159 @@
 #Khorasan
 #Central Asia
 #Tibet
+
+#(JP) Just some notes here on choices for British India (and to an extent, theoretical indonesia)
+#(JP) "-pur" typically became "-pore" when ruled by the British Raj. However, in places that were kept by Princely States, this did not apply
+#(JP) I am still going to do "-pore" in cases like this. Same with k -> c in many places
+#(JP) This is based on the idea that if the British Raj continued and inherited the rest, it would likely have standardised the names further
+
 #Hindustan
 #Western India
+503 = { "Cutch" "Bhuj" }
+504 = { "Tatta" "Tatta" }
+505 = { "Sehwan" "Sehwan" }
+512 = { "Jangladesh" "Bikaner" }
+513 = { "Jaisalmer" "Jaisalmer" }
+514 = { "Marwar" "Mandore" }
+515 = { "Junagarh" "Junagarh" }
+516 = { "Baroda" "Baroda" }
+517 = { "Surat" "Surat" }
+518 = { "Chitor" "Chitor" }
+519 = { "Jaipore" "Jaipore" }
+520 = { "Alwar" "Alwar" }
+521 = { "Rajkot" "Rajkot" }
+526 = { "Mandavgad" "Mandavgad" }
+527 = { "Burhanpore" "Burhanpore" }
+2036 = { "Dharampore" "Dharampore" }
+2051 = { "Gohelwar" "Bhaunagar" }
+2052 = { "Navanagar" "Navanagar" }
+2053 = { "Patan" "Patan" }
+2054 = { "Ahmadabad" "Ahmadabad" }
+2056 = { "Rewa Kantha" "Nandod" }
+2057 = { "Bhilsa" "Bhilsa" }
+2058 = { "Udaipore" "Udaipore" }
+2064 = { "Sikar" "Sikar" }
+2066 = { "Nagaur" "Nagaur" }
+2067 = { "Godwar" "Jalore" }
+2072 = { "Suckore" "Suckore" }
+2087 = { "Ajmer" "Ajmer" }
+2088 = { "Umarkot" "Umarkot" }
+2093 = { "Mandasore" "Mandasore" }
+4430 = { "Daman" "Daman" }
+4434 = { "Dharangaon" "Dharangaon" }
+4453 = { "Thalner" "Thalner" }
+4454 = { "Porbandar" "Porbandar" }
+4455 = { "Diu" "Diu" } #(JP) Maybe "Div" or "Dioo"?
+4456 = { "Jhalawar" "Halvad" }
+4457 = { "Cambay" "Cambay" }
+4461 = { "Ujjain" "Ujjain" }
+4462 = { "Dungarpore" "Dungarpore" }
+4480 = { "Mahi Kantha" "Edar" }
+4500 = { "Bharatpore" "Bharatpore" }
+4501 = { "Bhilwara" "Bhilwara" }
+4502 = { "Merta" "Merta" }
+4504 = { "Nasarpore" "Nasarpore" }
+4505 = { "Cairpore" "Cairpore" }
+4506 = { "Balmer" "Balmer" }
+4507 = { "Churu" "Churu" }
+4512 = { "Broach" "Broach" }
+
 #Deccan
+529 = { "Bombay" "Bombay" }
+530 = { "Dabul" "Dabul" }
+532 = { "Raichore" "Raichore" }
+533 = { "Mysore" "Mysore" }
+534 = { "Calicut" "Calicut" }
+535 = { "Cochin" "Cochin" }
+537 = { "Quilon" "Quilon" }
+541 = { "Bellary" "Bellary" }
+542 = { "Hyderabad" "Hyderabad" }
+544 = { "Ahmadnagar" "Ahmadnagar" }
+545 = { "Daulatabad" "Daulatabad" }	
+546 = { "Nagpore" "Nagpore" }
+548 = { "Ellichpore" "Ellichpore" }
+550 = { "Jubbulpore" "Jubbulpore" }
+551 = { "Mandla" "Mandla" }
+569 = { "Bijapore" "Bijapore" }
+1946 = { "Satara" "Satara" }
+1948 = { "Bidar" "Bidar" }
+1949 = { "Penukonda" "Penukonda" }
+2028 = { "Adilabad" "Adilabad" }
+2029 = { "Mangalore" "Mangalore" }
+2030 = { "Goa" "Goa" }
+2031 = { "Bangalore" "Bangalore" }
+2032 = { "Ikkery" "Ikkery" }
+2033 = { "Savanore" "Savanore" }
+2034 = { "Poona" "Poona" }
+2035 = { "Gulbarga" "Gulbarga" }
+2037 = { "Warangal" "Warangal" }
+2050 = { "Chanda" "Chanda" }
+2089 = { "Janjira" "Janjira" }
+2090 = { "Kurnool" "Kurnool" }
+2092 = { "Badnore" "Badnore" }
+4410 = { "Cape Comorin" "Cape Comorin" }
+4413 = { "Cannanore" "Cannanore" }
+4421 = { "Seringapatam" "Seringapatam" }
+4422 = { "Sira" "Sira" }
+4423 = { "Gooty" "Gooty" }
+4424 = { "Adony" "Adony" }
+4426 = { "Chittledroog" "Chittledroog" }
+4427 = { "Honnavar" "Honnavar" }
+4428 = { "Mudgal" "Mudgal" }
+4429 = { "Rajapore" "Rajapore" }
+4431 = { "Colhapore" "Colhapore" }
+4432 = { "Junnar" "Junnar" }
+4433 = { "Nasik" "Nasik" } 
+4435 = { "Sholapore" "Sholapore" }
+4436 = { "Devarakonda" "Devarakonda" }
+4437 = { "Parbhani" "Parbhani" }
+4438 = { "Nander" "Nander" }
+4439 = { "Commomet" "Commomet" }
+4442 = { "Basim" "Basim" }
+4443 = { "Karanja" "Karanja" }
+4444 = { "Mancherial" "Mancherial" }
+4458 = { "Chhindwara" "Chhindwara" }
+4460 = { "Hoshangabad" "Hoshangabad" }
+
 #Coromandel
+536 = { "Madura" "Madura" }
+538 = { "Coimbatore" "Coimbatore" }
+539 = { "Pulicat" "Pulicat" }
+540 = { "Cuddalore" "Cuddalore" }
+543 = { "Machilipatnam" "Machilipatnam" }
+549 = { "Vizianagaram" "Vizianagaram" }
+572 = { "Colombo" "Colombo" }
+574 = { "Andaman Islands" "Port Blair" }
+1101 = { "Chagos Archipelago" "Diego Garcia" } #(JP) Meh, better than nowt?
+1248 = { "Maldive Islands" "Mahl" }
+1947 = { "Gingee" "Gingee" }
+1998 = { "Christmas Island" "Flying Fish Cove" }
+1999 = { "Keeling Island" "West Island" }
+2026 = { "Tanjore" "Tanjore" }
+2027 = { "Arcot" "Arcot" }
+2080 = { "Chicacole" "Chicacole" }
+2083 = { "Udayagiri" "Udayagiri" }
+2084 = { "Rajahmundry" "Rajahmundry" }
+2085 = { "Trichinopoly" "Trichinopoly" }
+2099 = { "Kandy" "Kandy" }
+2100 = { "Jaffna" "Jaffna" }
+2101 = { "Tinnevelly" "Tinnevelly" }
+4407 = { "Dondra" "Dondra" }
+4408 = { "Puttalam" "Puttalam" }
+4409 = { "Trincomalee" "Trincomalee" }
+4412 = { "Dindigul" "Dindigul" }
+4414 = { "Salem" "Salem" }
+4415 = { "Negapatam" "Negapatam" }
+4416 = { "Tranquebar" "Tranquebar" }
+4417 = { "Conjeevaram" "Conjeevaram" }
+4418 = { "Nellore" "Nellore" }
+4419 = { "Addanki" "Addanki" }
+4420 = { "Chandragiri" "Chandragir" }
+4425 = { "Kondaveedu" "Kondaveedu" }
+5093 = { "Kerguelen Islands" "Port-of-Britain" } #(JP) French capital name is "Port-aux-Français", not perfect but yeah
+8545 = { "Crozet Islands" "Port Alfred" }
+8581 = { "Nicobar Islands" "Car Nicobar" }
+
 #Bengal
 #Burma
 #Indochina

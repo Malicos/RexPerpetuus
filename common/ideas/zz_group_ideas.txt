@@ -2716,10 +2716,17 @@ nw_native_ideas = {
 	
 	trigger = {
 		OR = {
-			primary_culture = athabascan
-			primary_culture = chinook
+			#primary_culture = athabascan
+			#primary_culture = chinook
 			primary_culture = haida
-			primary_culture = salish
+			#primary_culture = salish
+			#primary_culture = salish #Duplicate
+			culture_group = na_dene
+			culture_group = salish_group
+			culture_group = hokan
+			culture_group = chumash_group
+			culture_group = penutian
+			culture_group = wakashan_group
 		}
 	}
 	free = yes

@@ -1558,7 +1558,15 @@ latin = {
 	}
 	#BtPLegacy Culture
 	istriot_culture = {
-		#primary = XXX
+		primary = IST
+		dynasty_names = {
+			"di Rovigno" "di Pola" Polesini Stancovich Vidulich Campitelli Rizzi Lasciac
+			"de Sala" Molino "de Averoldi" Vergerio Elio Barbabianca Sozomeno
+			Testa Serpa Saraceni Badoer Marcello Cattaneo Fracassini Corniani
+			Pacello Bottari "Contessini-Ettorio" Contessini	Ettorio Balbi Juras
+			Trevisani "di Capodistria" Capodistrias Greblo "di Pisino" Antico Usper
+			Tartini	Cuetschisch Vlacich Garbitius Istrana Lupetino Juri Dalmata
+		}
 	}
 	#BtPLegacy Culture, deprecated
 	#dalmatian = {
@@ -7891,7 +7899,8 @@ tibetan_group = {
 }
 
 malay = {
-	graphical_culture = asiangfx
+	graphical_culture = southeastasiangfx
+	second_graphical_culture = asiangfx
 
 	cham = {
 		primary = CHA
@@ -8362,7 +8371,9 @@ malay = {
 }
 
 thai_group = { # Brian; new in 1.31; BT kra_dai_culture_group
-	graphical_culture = asiangfx
+	graphical_culture = southeastasiangfx
+	second_graphical_culture = asiangfx
+	
 	central_thai = {
 		primary = AYU
 		dynasty_names = {
@@ -8488,7 +8499,8 @@ thai_group = { # Brian; new in 1.31; BT kra_dai_culture_group
 }
 
 southeastasian_group = {
-	graphical_culture = asiangfx
+	graphical_culture = southeastasiangfx
+	second_graphical_culture = asiangfx
 
 	khmer = {
 		primary = KHM
@@ -8588,7 +8600,8 @@ southeastasian_group = {
 }
 
 burman = {
-	graphical_culture = asiangfx
+	graphical_culture = southeastasiangfx
+	second_graphical_culture = asiangfx
 
 	burmese = {
 		primary = TAU
@@ -13446,7 +13459,8 @@ pacific_algonquian_group = { #Yurok and Wiyot. I had these in with central Algon
 }
 
 papuan_group = {
-	graphical_culture = africangfx
+	graphical_culture = polynesiangfx
+	second_graphical_culture = northamericagfx
 
 	papuan = {
 		male_names = {
@@ -13469,7 +13483,8 @@ papuan_group = {
 }
 
 taiwanese_group = {
-	graphical_culture = asiangfx
+	graphical_culture = southeastasiangfx
+	second_graphical_culture = asiangfx
 
 	formosan_culture = {
 		dynasty_names = {

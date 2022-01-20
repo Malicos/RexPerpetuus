@@ -17,6 +17,7 @@ native_hostileness = 3
 
 discovered_by = north_american
 
+1444.1.1 = { tribal_owner = YZC }
 1688.1.1 = { discovered_by = FRA } # Jacques De Noyon
 
 1732.1.1 = {

@@ -710,6 +710,7 @@
 
 #Anatolia
 330 = "Trébizonde"					#Trebizond. Notes
+5161 = { "Coryce" "Coryce" }				#Corycus. Found by Math5615, though Corycus was used more often
 
 #Levant
 365 = "Sinaï"						#Sinai. Notes

@@ -4,7 +4,7 @@
 owner = WEN
 controller = WEN
 add_core = WEN
-culture = huron
+culture = tionontate
 religion = totemism
 capital = "Wenrohonon"
 is_city = yes

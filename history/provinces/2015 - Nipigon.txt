@@ -21,6 +21,7 @@ native_hostileness = 3
 
 discovered_by = north_american
 
+1444.1.1 = { tribal_owner = OJI }
 
 1681.1.1 = { discovered_by = FRA } #  Pierre-Esprit Radisson and Médard des Groseilliers
 

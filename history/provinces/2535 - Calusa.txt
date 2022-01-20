@@ -1,7 +1,7 @@
  
 # No previous file for Calusa
 
-culture = creek
+culture = yamasee
 religion = totemism
 capital = "Calusa"
 trade_goods = unknown

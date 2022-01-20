@@ -2,7 +2,7 @@
 # ex 5046
 
 tribal_owner = MLS # ???
-culture = abenaki # BT; maliseet
+culture = maliseet
 religion = totemism
 capital = "Aucpaque" # BT; "Meductic"
 hre = no 

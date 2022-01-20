@@ -17,6 +17,7 @@ discovered_by = north_american
 #discovered_by = bt_athabaskan_tech
 #discovered_by = bt_inuit_tech
 
+1444.1.1 = { tribal_owner = SLV }
 1789.7.13 = {
 	discovered_by = GBR
 } #Alexander Mackenzie follows the Deh Cho to the Arctic Ocean

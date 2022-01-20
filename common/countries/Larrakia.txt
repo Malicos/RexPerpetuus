@@ -1,6 +1,7 @@
 # LAR - Larrakia.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 221  183  68 }
 #revolutionary_colors = { 10 8 5 }

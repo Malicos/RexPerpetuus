@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = cherokee
 religion = totemism
 technology_group = north_american
-capital = 936 # Cheraw
+capital = 4879 
 
 
 1399.1.1 = {

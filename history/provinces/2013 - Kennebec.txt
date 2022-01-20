@@ -15,6 +15,7 @@ native_hostileness = 8
 
 discovered_by = north_american
 
+1444.1.1 = { tribal_owner = PEN }
 1604.1.1 = { discovered_by = FRA } # Samuel de Champlain
 1605.1.1 = { discovered_by = ENG } # George Waymouth
 

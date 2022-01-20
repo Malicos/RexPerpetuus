@@ -1,11 +1,14 @@
- 
 # No previous file for Wampanoag
 
-culture = pequot
+owner = WAM
+controller = WAM
+add_core = WAM
+culture = massachusset
 religion = totemism
 capital = "Wampanoag"
-trade_goods = unknown
+trade_goods = fish
 hre = no
+is_city = yes
 base_tax = 3
 base_production = 2
 base_manpower = 1 

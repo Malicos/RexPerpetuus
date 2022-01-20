@@ -4,7 +4,7 @@
 add_core = FOX
 owner = FOX
 controller = FOX
-culture = chiwere
+culture = mesquakie
 religion = totemism
 capital = "Michigan"
 trade_goods = fur

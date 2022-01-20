@@ -1,6 +1,7 @@
 # KAU - Kaurna.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 190  75  30 }
 #revolutionary_colors = { 10 8 5 }

@@ -1047,8 +1047,8 @@
 4195 = { "Jending" "Jending" } #
 4242 = { "Borisov" "Borisov" } #
 4253 = { "Voloçëk" "Voloçëk" } #
-4299 = { "Šämaxi" "Šämaxi" } #
-4305 = { "Šäke" "Šäke" } #
+4299 = { "Shämaxi" "Shämaxi" } #
+4305 = { "Shäke" "Shäke" } #
 4316 = { "Sharqiye" "Sharqiye" } #
 4340 = { "Länkärän" "Länkärän" } #
 4779 = { "Gelibolu" "Gelibolu" } #

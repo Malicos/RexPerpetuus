@@ -40,6 +40,7 @@ estate_burghers =
 		#development_cost = 0.1			#BTAddOn removed - estates rebalancing
 		republican_tradition = -0.5			#BTAddOn new - estates rebalancing
 		stability_cost_modifier = 0.33			#BTAddOn new - estates rebalancing
+		global_unrest = 2
 	}
 	land_ownership_modifier = {
 		burghers_loyalty_modifier = 0.2

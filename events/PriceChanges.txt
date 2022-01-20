@@ -114,14 +114,14 @@ country_event = {
 	title = prices.3.t
 	desc = prices.3.d
 	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
-	goto = 61
+	goto = 8276
 
 	fire_only_once = yes
 	
 	major = yes
 
 	trigger = {
-		owns = 61
+		owns = 8276
 		OR = {
 			mission_completed = emp_sax_meissen_porcelain
 			AND = {
@@ -142,7 +142,7 @@ country_event = {
 	
 	option = {
 		name = prices.3.a
-		61 = {
+		8276 = {
 			add_base_tax = 4 # BT
 			add_base_production = 4
 			change_trade_goods = chinaware

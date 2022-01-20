@@ -17,6 +17,7 @@ native_hostileness = 2
 
 discovered_by = north_american
 
+1444.1.1 = { tribal_owner = OJI }
 1664.1.1 = { discovered_by = ENG }
 
 1693.1.1 = {

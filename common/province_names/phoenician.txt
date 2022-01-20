@@ -124,13 +124,13 @@
 #2018 Dec
 
 #corrections of naming in file to include š instead of the transliteration sh since the game can read the letter
-221 = "Qart-Hadašt"
-321 = "Qart-Hadašt"
-341 = "Qart-Hadašt"
-379 = "Šalem"
-3098 = "Taršiš"
-5145 = "Šelami" #or "Šelowi"
-5218 = "Aš-Dir"
+221 = "Qart-Hadasht"
+321 = "Qart-Hadasht"
+341 = "Qart-Hadasht"
+379 = "Shalem"
+3098 = "Tarshish"
+5145 = "Shelami" #or "Shelowi"
+5218 = "Ash-Dir"
 
 
 
@@ -166,18 +166,18 @@
 230 = "Lagos" #had an outdated province name
 348 = "Chichaoua" #had outdated name
 354 = "Oyat" #WY'T
-335 = "Ruš-Adir"
+335 = "Rush-Adir"
 1110 = "'Gadir" #'GDR
 1247 = "Kors" #KRS
 2454 = "Karavan" #idk and it's not sicca
 2986 = "Karily" #KRLY
 5180 = "Zazah" #ZZH
-5219 = "Likuš" #or "Likš, LKS
+5219 = "Likush" #or "Liksh, LKS
 
 #africa
 #tunis
 2453 = "Taynath" #T'YNT
-5224 = "Maqom Hadaš"
+5224 = "Maqom Hadash"
 5225 = "Lipqy" #LPQY, or "Darmat" DRMT
 5314 = "Vaga"
 
@@ -187,9 +187,9 @@
 5322 = "Qart Tana" #QRT and -TN
 
 #kabylia
-340 = "Rušikada"
+340 = "Rushikada"
 1882 = "Malake" #MLK'
-5318 = "Rušazo" #"Yamonu" based on 'Y and 'MN
+5318 = "Rushazo" #"Yamonu" based on 'Y and 'MN
 5321 = "Ygilgilit" #'YGLGLT
 
 #tripolitania
@@ -210,14 +210,14 @@
 2469 = "Rusibis" #speculative
 
 #fez
-4563 = "šalat" #š'LT
+4563 = "Shalat" #š'LT
 
 #cyrenaica
 357 = "Darne" #greek
 
 #europe
 #murcia
-8067 = "Qart Hadašt"
+8067 = "Qart Hadasht"
 8068 = "Elagrar" #based on culture
 
 #algarve

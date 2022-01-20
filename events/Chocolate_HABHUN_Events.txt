@@ -174,12 +174,10 @@ country_event = { #Get rid of Hunyadi Brothers
 	title = Chocolate_hab_hun.5.t
 	desc = Chocolate_hab_hun.5.desc
 	picture = FORT_eventPicture
-	fire_only_once = yes
 	
 	trigger = {
 		has_country_flag = LadislausCrownedHunyadiExiled
 		has_ruler = "Ladislaus Postumus"
-		tag = HUN
 	}
 	
 	mean_time_to_happen = {
@@ -195,12 +193,7 @@ country_event = { #Get rid of Hunyadi Brothers
 		set_country_flag = LaszloKilled
 		#custom_tooltip = contendersrisingup_tt
 		random_owned_province = {
-			limit = {
-				OR = { 
-					area = transylvania_area 
-					area = southern_transylvania_area 
-				} 
-			}
+			limit = { OR = { area = transylvania_area area = southern_transylvania_area } }
 			spawn_rebels = { #hunyadi's brother in law
 				type = pretender_rebels
 				size = 5
@@ -659,7 +652,7 @@ country_event = { #Royal Marriage with Portugal
 		ai_chance = { factor = 19 }
 		define_consort = {
 			country_of_origin = POR
-			religion = POR
+			religion = ROOT
 			culture = portugese
 			name = "Eleanor"
 			adm = 3
@@ -676,7 +669,47 @@ country_event = { #Royal Marriage with Portugal
 	}
 }
 
-country_event = { #Swap VOR with STY
+country_event = { #ridiculous
+	id = Chocolate_hab_hun.98
+	desc = Chocolate_hab_hun.98.desc
+	title = Chocolate_hab_hun.98.t
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		OR = { 
+			tag = STY
+			tag = HAB
+		}				
+		has_country_flag = CHO_albrecht_friedrich_brothers 
+		OR = {
+			has_heir = no
+			has_heir_flag = AlbrechtBrother
+			}
+		GAU = { ai = no }
+	}
+	
+	immediate = {
+		GAU = { 
+			clr_country_flag = CHO_albrecht_friedrich_brothers 
+			country_event {
+				id = Chocolate_hab_hun.99
+			}
+		}
+	}
+	
+	option = {
+		name = Chocolate_hab_hun.98.a
+		ai_chance = { factor = 1 }
+	}
+}
+
+
+
+country_event = { #Swap GAU with STY
 	id = Chocolate_hab_hun.99
 	desc = Chocolate_hab_hun.99.desc
 	title = Chocolate_hab_hun.99.t
@@ -685,23 +718,24 @@ country_event = { #Swap VOR with STY
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	#trigger = {
-	#
-	#}
+	trigger = {
+	
+	}
 	
 	option = {
 		name = Chocolate_hab_hun.99.a
 		ai_chance = { factor = 99 }
-		change_tag = STY
-		#country_event = {
-		#	id = Chocolate_hab_hun.999
-		#}
+		switch_tag = STY
+		set_capital = 1863
+		country_event = {
+			id = Chocolate_hab_hun.999
+		}
 	}
 	
-	#option = {
-	#	name = Chocolate_hab_hun.99.a
-	#	ai_chance = { factor = 1 }
-	#}
+	option = {
+		name = Chocolate_hab_hun.99.a
+		ai_chance = { factor = 1 }
+	}
 }
 
 country_event = { #	
@@ -721,8 +755,8 @@ country_event = { #
 	option = {
 		name = Chocolate_hab_hun.999.a
 		ai_chance = { factor = 99 }
-		VOR = {
-			every_owned_province = {
+		GAU = {
+			every_owned_province {
 				cede_province = STY
 			}
 		}

@@ -67,7 +67,7 @@
 1960 = { "Saar" "Saar" } #estonian translation of Ostrova
 1961 = { "Uz'Ladog" "Uz'Ladog" } #Veps
 2749 = { "Tihvin" "Tihvin" }
-3284 = { "Vaška" "Vaška" }
+3284 = { "Vashka" "Vashka" }
 4129 = { "Yemdyn" "Yemdyn" }
 4258 = { "Oneg" "Oneg" }
 4262 = { "Tot'm" "Tot'm" }
@@ -87,7 +87,7 @@
 5677 = { "Pecöra" "Pecöra" }
 
 #Wrong ID
-#7857 = { "Šušt" "Šušt" } #Veps
+#7857 = { "Shusht" "Shusht" } #Veps
 
 #Uncapitalised
 

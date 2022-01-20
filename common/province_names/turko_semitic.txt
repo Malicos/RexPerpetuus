@@ -1006,12 +1006,12 @@
 7163 = "Al-Wusul Faqat"
 
 #sudan
-2797 = "Šandi"
+2797 = "Shandi"
 2800 = "Kusti"
 5287 = "Sinjah"
 
 #somalia
-1205 = "Maqadišu"
+1205 = "Maqadishu"
 1207 = "Ogadeniya"
 2778 = "Wardair"
 
@@ -1045,7 +1045,7 @@
 5362 = "Maeiz"
 5384 = "Al-Thiqa"
 5391 = "Nafwrat Al-Jamus"
-5392 = "Usaquš"
+5392 = "Usaqush"
 5393 = "Rbye Harin"
 5425 = "Hamam Dafi"
 
@@ -1138,7 +1138,7 @@
 946 = "Dayirat Al-Muqid"
 967 = "Al-Jazirat Al-Hamra"
 968 = "Min Al-Talal Al-Zurqa'"
-971 = "Aš-Šaam"
+971 = "Ash-Shaam"
 2010 = "Nahr Eamiq"
 2013 = "Mina' Hurin"
 2537 = "Dimashq Al-Jadidah" #there are damascus and cairo in the area irl
@@ -2200,7 +2200,7 @@
 2362 = { "Kahinah Gharghanij" "Kahinah Gharghanij" } #
 2410 = { "Qasr Al-Hadayiq" "Qasr Al-Hadayiq" } #
 2754 = { "Al-Mansha" "Al-Mansha" } #
-2797 = { "Šandi" "Šandi" } #
+2797 = { "Shandi" "Shandi" } #
 2798 = { "Soba" "Soba Al-Hilla" } #
 2808 = { "Nuqat Thabita" "Nuqat Thabita" } #
 2980 = { "Luka" "Luka" } #

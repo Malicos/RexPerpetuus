@@ -61,7 +61,7 @@
 #upper burma
 581 = { "Sa King" "Sa King" } #
 584 = { "Xang Wa" "Xang Wa" } #Angwa
-2399 = { "??????" "??????" } #
+#2399 = { "??????" "??????" } #(Chrys) What's the purpose of this?
 #myelat
 4397 = { "Yongwi" "Yongwi" } #
 #hsenwi

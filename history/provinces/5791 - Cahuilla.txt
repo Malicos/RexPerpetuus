@@ -16,5 +16,6 @@ native_hostileness = 3
 discovered_by = north_american
 
 
+1444.1.1 = { tribal_owner = YYO }
 1798.1.1 = { discovered_by = SPA } #Unclear, but probably known by the founding of Mission San Luis Rey de Francia
 # Palm Springs area first settled mid-late 1800s.

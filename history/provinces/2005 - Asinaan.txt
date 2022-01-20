@@ -17,6 +17,7 @@ native_hostileness = 1
 
 discovered_by = north_american
 
+1444.1.1 = { tribal_owner = ASI }
 1680.1.1 = {
 	owner = ARP
 	controller = ARP

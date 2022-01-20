@@ -456,12 +456,14 @@ country_decisions = {
 			#############################
 			custom_tooltip = merges_celtic_cultures_tooltip
 			set_global_flag = gaels_and_britons_reunited_into_one_group
-			change_culture_group_effect = { old_culture = irish 				new_culture = celtic_irish_culture }
-			change_culture_group_effect = { old_culture = highland_scottish 	new_culture = celtic_highland_scottish_culture }
-			change_culture_group_effect = { old_culture = gallgaidheil 			new_culture = celtic_highland_scottish_culture }
-			change_culture_group_effect = { old_culture = welsh 				new_culture = celtic_welsh_culture }
-			change_culture_group_effect = { old_culture = breton 				new_culture = celtic_breton_culture }
-			change_culture_group_effect = { old_culture = cornish 				new_culture = celtic_cornish_culture }
+			hidden_effect = {
+				change_culture_group_effect = { old_culture = irish 				new_culture = celtic_irish_culture }
+				change_culture_group_effect = { old_culture = highland_scottish 	new_culture = celtic_highland_scottish_culture }
+				change_culture_group_effect = { old_culture = gallgaidheil 			new_culture = celtic_highland_scottish_culture }
+				change_culture_group_effect = { old_culture = welsh 				new_culture = celtic_welsh_culture }
+				change_culture_group_effect = { old_culture = breton 				new_culture = celtic_breton_culture }
+				change_culture_group_effect = { old_culture = cornish 				new_culture = celtic_cornish_culture }
+			}
 			#############################
 			#End Merging of the Celtic cultures
 			#############################

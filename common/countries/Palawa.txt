@@ -1,6 +1,7 @@
 # PLW - Palawa.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 102  75  50 }
 #revolutionary_colors = { 10 8 5 }

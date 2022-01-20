@@ -1,6 +1,7 @@
 # NOO - Noongar.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 173  177  51 }
 #revolutionary_colors = { 10 8 5 }

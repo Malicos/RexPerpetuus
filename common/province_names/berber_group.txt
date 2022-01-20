@@ -463,3 +463,86 @@
 5222 = { "Tabelbalt" "Tabelbalt" } #
 5223 = { "Tinduf" "Tinduf" } #
 5228 = { "Ifni" "Ifni" } #
+
+341 = { "Tunes" "Tunes" } #
+2453 = { "Sifaks" "Sifaks" } #
+2454 = { "Tikirouan" "Tikirouan" } #Kairouan is adaptation of Arabic name
+2455 = { "Bizerte" "Bizerte" } #
+2473 = { "Susa" "Susa" } #
+4566 = { "Hebira" "Hebira" } #
+5224 = { "Nabeul" "Nabeul" } #
+5314 = { "Beja" "Beja" } #
+5317 = { "Tabarka" "Tabarka" } #
+5225 = { "Mahdia" "Mahdia" } #
+#gulf of gabes
+2450 = { "Kebili" "Remada" } #
+2954 = { "Jerba" "Jerba" } #
+5312 = { "Kapes" "Kapes" } #
+5316 = { "Tuzer" "Tuzer" } #
+#tripolitania
+354 = { "Oyat" "Oyat" } #
+2451 = { "Misurata" "Misurata" } #
+2452 = { "Zouara" "Zouara" } #
+5311 = { "Khoms" "Khoms" } #berberpunic name would be Lepiqy but cities changed by 11th cent
+#nafusa
+2449 = { "Jofra" "Ouaddan" } #
+5309 = { "Infusen" "Gharyan" } #
+5310 = { "Nalut" "Nalut" } #Tala was only a hypothetic etymology for Nalut
+#fezzan
+2448 = { "Sebha" "Sebha" } #
+5307 = { "Yat" "Yat" } #
+#aures
+5313 = { "Kasserine" "Kasserine" } #
+5315 = { "Kef" "Kef" } #
+5320 = { "Daoud" "Daoud" } #Aïn Beïda was 1850's French military post built on Daoud (Encyclopedia Britannica)
+5325 = { "Tbatent" "Tbatent" } #
+5326 = { "Xencelt" "Xencelt" } #
+#kabylia
+339 = { "Bgayet" "Bgayet" } #Kabyle name
+340 = { "Qsentina" "Qsentina" } #Qacentina is sourced as an "also called" for after 1981 (Encyclopedia Britannica)
+1882 = { "Aânavaen" "Aânavaen" } #English Wiki claims Aânavaen, German wiki claims Aennaba
+5319 = { "Stif" "Stif" } #older version is Zdif
+#barbary coast
+336 = { "Thala Imsan" "Thala Imsan" } #
+337 = { "Oran" "Oran" } #
+338 = { "Dzayer" "Dzayer" } #
+4562 = { "Nedroma" "Nedroma" } #
+5322 = { "Tinas" "Tinas" } #
+#hautes plains
+2463 = { "Naâma" "Naâma" } #
+5324 = { "Ghelfa" "Ghelfa" } #
+5328 = { "Lbayed" "Lbayed" } #
+#north sahara
+350 = { "Leghwat" "Leghwat" } #
+2457 = { "Aghlan" "Tagherdayt" } #
+2458 = { "Msila" "Msila" } #
+2472 = { "Ouargrän" "Ouargrän" } #
+
+#tagmudant
+349 = { "Ifyey" "Ifyey" } #
+2465 = { "Wejda" "Wejda" } #
+5229 = { "Debdu" "Debdu" } #
+#rif
+334 = { "Tingi" "Tingi" } #
+335 = { "Mric" "Mric" } #
+1751 = { "Sebta" "Sebta" } #
+4561 = { "Tittawin" "Tittawin" } #
+5210 = { "Ashawen" "Ashawen" } #
+5218 = { "Taghzut" "Taghzut" } #
+#fez
+342 = { "Lqsr Lkbir" "Lqsr Lkbir" } #seems to not be Rabat
+2467 = { "Amknas" "Amknas" } #
+2468 = { "Xnifra" "Xnifra" } #
+4563 = { "Sla" "Sla" } #
+5219 = { "Arbat" "Arbat" } #Aärayš or Leärayc is also in this province but less important than Rabat
+#macronesia
+4565 = { "Achinet" "Anaza" } #
+#lower andalusia
+226 = { "Adrar n Tarik" "Adrar n Tarik" } #
+#sicily
+125 = { "Balerm" "Balerm" } #
+126 = { "Malet" "Malet" } #
+4736 = { "Taraban" "Taraban" } #
+4737 = { "Kirkent" "Kirkent" } #
+#campania
+121 = { "Nabeul" "Nabeul" } #same etymology as Nabeul in Tunisia

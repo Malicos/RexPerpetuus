@@ -161,6 +161,7 @@ IFG = "countries/Ifugao.txt" #BT
 ILY = "countries/Illyria.txt" #BT
 INI = "countries/Ingria.txt" #BT
 INK = "countries/Inuktitut.txt" #BT
+IST	= "countries/Istria.txt" #BT
 ITL = "countries/Italia.txt" #BT
 IVE = "countries/Iveagh.txt" #BT
 IVR = "countries/Ivrea.txt" #BT
@@ -236,7 +237,11 @@ MSE = "countries/Moosonee.txt" #BT
 MSL = "countries/Mosalsk.txt" #BT
 MSM = "countries/MassaMarittima.txt" #BT
 MSS = "countries/Massa.txt" #BT
-MST = "countries/Munsterberg.txt" #BT
+<<<<<<< Updated upstream
+#MST = "countries/Munsterberg.txt" #BT, cut
+=======
+#MST = "countries/Munsterberg.txt" #BT
+>>>>>>> Stashed changes
 MTA = "countries/Matera.txt" #BT
 MTS = "countries/Malatesta.txt" #BT
 MTZ = "countries/Metz.txt" #BT

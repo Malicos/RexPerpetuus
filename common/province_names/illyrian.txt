@@ -28,7 +28,7 @@
 3181 = { "Vlorë" "Vlorë" }
 3182 = { "Shkodër" "Shkodër" }
 3183 = { "Manastir" "Manastir" }
-3185 = { "Kruševë" "Kruševë" }
+3185 = { "Krushevë" "Krushevë" }
 4698 = { "Qefalinia" "Qefalinia" }
 4699 = { "Nartë" "Nartë" }
 4174 = { "Durrës" "Durrës" }

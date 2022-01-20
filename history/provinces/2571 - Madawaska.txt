@@ -1,13 +1,10 @@
  
 # No previous file for Madawaska
 
-add_core = ABE
-owner = ABE
-controller = ABE
-culture = abenaki
+culture = maliseet
 religion = totemism
 capital = "Meductic"
-trade_goods = naval_supplies
+trade_goods = unknown
 hre = no
 base_tax = 2
 base_production = 2
@@ -20,6 +17,7 @@ native_hostileness = 3
 
 discovered_by = north_american
 
+1444.1.1 = { tribal_owner = MLS }
 
 1614.1.1 = { discovered_by = FRA } # 10 years after nearby lower river valley explored
 

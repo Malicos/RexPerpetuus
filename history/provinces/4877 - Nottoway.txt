@@ -15,7 +15,7 @@ native_hostileness = 6
 
 discovered_by = north_american
 
-#1444.1.1 = { tribal_owner = TSC } # ???
+1444.1.1 = { tribal_owner = TSC } # ???
 
 1646.1.1 = {
 	owner = ENG

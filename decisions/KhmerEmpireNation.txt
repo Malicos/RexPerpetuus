@@ -4,6 +4,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			bt_generic_can_form_potential_check = yes
+			NOT = { has_dlc = "Leviathan" } #Leviathan users have a grand mission tree that does the things that this decision does.
 			NOT = { has_country_flag = formed_khmer_empire_flag }
 			OR = {
 				primary_culture = khmer
@@ -51,8 +52,8 @@ country_decisions = {
 				add_base_manpower = 4
 				move_capital_effect = yes
 			}
-			change_tag = KME
-			swap_non_generic_missions = yes
+			override_country_name = KME #Should not use an entire tag any more since it's literally just a namechange. Better to keep the old tag instead. Keep localisation however.
+			#swap_non_generic_missions = yes #KME no unique missions has, also is not an actual tag any more.
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 3 } }

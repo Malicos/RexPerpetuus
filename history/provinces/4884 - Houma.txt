@@ -1,7 +1,7 @@
  
 # new in 1.31
 
-culture = choctaw # was natchez
+culture = natchez 
 religion = totemism
 capital = "Houma"
 hre = no

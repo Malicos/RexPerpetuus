@@ -2,13 +2,10 @@
 # ex 5622
 # owned in 1.31
 
-owner = CHY
-controller = CHY
-add_core = CHY
 culture = cheyenne
 religion = totemism
 capital = "Biwabiko" # BT; "Makandwewinni"
-is_city = yes
+is_city = no
 hre = no
 base_manpower = 1 # BT; 3
 base_tax = 1 # BT; 2
@@ -20,6 +17,7 @@ native_hostileness = 3 # BT; 6
 
 discovered_by = north_american
 
+1444.1.1 = { tribal_owner = CHY }
 1690.1.1 = { # vanilla history
 	owner = NAK
 	controller = NAK

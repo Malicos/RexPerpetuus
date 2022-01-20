@@ -1,11 +1,10 @@
- 
 # No previous file for Odawa
 
-owner = HUR
-controller = HUR
-add_core = HUR
+owner = TIO
+controller = TIO
+add_core = TIO
 is_city = yes
-culture = huron		#anishinabe vanilla
+culture = tionontate
 religion = totemism
 capital = "Tionontate"
 trade_goods = tobacco		# Tionontate called the tobacco people

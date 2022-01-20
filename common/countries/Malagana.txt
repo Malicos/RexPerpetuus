@@ -1,6 +1,7 @@
 # MLG - Malagana.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 191  185  93 }
 #revolutionary_colors = { 10 8 5 }

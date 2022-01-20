@@ -161,7 +161,7 @@
 3181 = { "Valónia" "Valónia" }
 3182 = { "Szkutari" "Szkutari" } #(JP) or "Kadar" 
 3183 = { "Monasztir" "Monasztir" }
-#3185 Kruševac
+#3185 Krusevac
 3187 = { "Szabács" "Szabács" }
 3190 = { "Veroce" "Veroce" }
 3193 = { "Jajcza" "Jajcza" }
@@ -418,6 +418,8 @@
 #Xinan
 679 = { "Csengtu" "Csengtu" }
 680 = { "Csungcsing" "Csungcsing" }
+
+
 
 #asia
 2296 = "Dardanellák"

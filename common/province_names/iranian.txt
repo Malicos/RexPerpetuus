@@ -8,7 +8,7 @@
 2206 = { "Orumieh" "Orumieh" }
 2207 = { "Maragheh" "Maragheh" }
 2211 = { "Kordestan" "Sanandaj" } #(Arga) Ardalan
-2218 = { "Širaz" "Širaz" }
+2218 = { "Shiraz" "Shiraz" }
 4293 = { "Arbal" "Arbal" }
 4294 = { "Sulimaniyeh" "Sulimaniyeh" }
 4304 = { "Khoi" "Khoi" }
@@ -24,7 +24,7 @@
 454 = { "Samarqand" "Samarqand" }
 455 = { "Kyzyl Kum" "Kyzyl Kum" }
 458 = { "Xuqand" "Xuqand" }
-739 = { "Kašgar" "Kašgar" }
+739 = { "Kashgar" "Kashgar" }
 1967 = { "Xojand" "Xojand" }
 1973 = { "Gorganc" "Gorganc" }
 2124 = { "Arkend" "Arkend" } 
@@ -146,10 +146,10 @@
 #Hindustan
 507 = { "Laher" "Laher" }
 508 = { "Keshmar" "Shrenagar" }
-2086 = { "Hinduš" "Uch" }
+2086 = { "Hindush" "Uch" }
 
 #Western India
-504 = { "Thataguš" "Thatha" }
+504 = { "Thatagush" "Thatha" }
 2054 = { "Ahmedabad" "Ahmedabad" }
 
 #Deccan
@@ -167,7 +167,7 @@
 1197 = "Dar Es Salaam"
 1199 = "Kaole"
 1201 = "Zangbâr" #or "Zangi-bar"
-4289 = "Šuštar"
+4289 = "Shushtar"
 
 #Uncapitalised, to give provinces non-latin names (mostly Arabic)
 363 = "el-Farama"

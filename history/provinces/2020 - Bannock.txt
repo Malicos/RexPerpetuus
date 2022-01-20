@@ -18,6 +18,7 @@ discovered_by = north_american
 #discovered_by = bt_great_basin_tech
 
 
+1444.1.1 = { tribal_owner = SHO }
 1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
 	owner = COM			#Comanch repurposed to Eastern Shoshoni
 	controller = COM

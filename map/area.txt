@@ -221,7 +221,7 @@ dauphine_area = { # BT
 upper_guyenne_area = { # BT
 	198 4112 7905 7907 
 }
-upper_gascony = {  ; BT
+upper_gascony = {  # BT
 	175 7919 7921 7922 
 }
 limousin_area = { # BT
@@ -319,7 +319,7 @@ alentejo_area = {
 macaronesia_area = {
 	366 367 368 4565 5096 
 }
-murcia_area = { # BT; Moved for colour change
+murcia_area = { # BT# Moved for colour change
 	221 4547 8065 8066 8067 8068 8069 
 }
 new_castile_area = { # BT
@@ -418,7 +418,7 @@ umbria_area = { # BT
 abruzzo_area = { # BT
 	120 4733 7013 7014 7015 
 }
-upper_emilia_area = { # BT; Cut with area overhaul, then re-added in 12 .0 for trade reasons.
+upper_emilia_area = { # BT# Cut with area overhaul, then re-added in 12 .0 for trade reasons.
 	105 7045 7057 7060 
 }
 
@@ -1056,7 +1056,7 @@ aegean_archipelago_area = {
 eastern_mediterrenean_islands_area = {
 	163 3180 7106 7107 
 }
-western_aegean_area = { # BT; Western part of the Archipelago Eyalet; Hellas, or Boeotia and Attika
+western_aegean_area = { # BT# Western part of the Archipelago Eyalet# Hellas, or Boeotia and Attika
 	146 3003 3177 7109 7110 7111 7113 7114 
 }
 upper_thrace_area = { # BT
@@ -1068,7 +1068,7 @@ northern_macedonia_area = { # BT
 eastern_macedonia_area = { # BT
 	3167 4702 7120 7127 7128 7129 
 }
-northern_epirus_area = { # BT; Repurposed to Ionian Island area
+northern_epirus_area = { # BT# Repurposed to Ionian Island area
 	142 4698 7125 7126 
 }
 northern_thrace_area = { # BT
@@ -1208,19 +1208,19 @@ dulkadir_area = { #Cappadocia
 	color = { 184 54 72 }
 	2301 4307 4314 5146 5150 6026 6027 6028 6029 
 }
-lydia_area = { # BT; Lydia
+lydia_area = { # BT# Lydia
 	2297 5172 6008 6041 
 }
-pontus_area = { # BT; East Pontus
+pontus_area = { # BT# East Pontus
 	330 1846 3248 4315 5206 6040 
 }
-karasi_area = { # BT; Mysia
+karasi_area = { # BT# Mysia
 	2296 5130 5131 5156 5171 6003 6004 
 }
-pamphylia_area = { # BT; Lycia-Pamphylia
+pamphylia_area = { # BT# Lycia-Pamphylia
 	2298 5147 5162 6012 6013 6014 6020 
 }
-caria_area = { #BT; Caria
+caria_area = { #BT# Caria
 	319 4309 5134 6009 6010 
 }
 
@@ -1870,7 +1870,7 @@ kinai_area = {
 	color = { 208 206 65 }
 	1020 1021 1832 4187 
 }
-thohoku_area = { # Brian; properly: tohoku
+thohoku_area = { # Brian# properly: tohoku
 	1025 1026 4131 4192 
 }
 sanindo_area = {
@@ -2085,7 +2085,7 @@ sukhothai_area = { #replacing BT sukothai_area in BT14
 prachin_area = { # BT
 	603 612 4830 4836 8580 8642 
 }
-thai_cantons = {  ; BT
+thai_cantons = {  # BT
 	2371 4820 8573 8646 8648 8656 
 }
 
@@ -2854,7 +2854,7 @@ upper_missouri_area = {
 badlands_area = {
 	2501 2502 5627 5632 5633 
 }
-southern_rockies = {  ; BT
+southern_rockies = {  # BT
 	4959 5065 5066 5837 
 }
 yellowstone_area = { # BT
@@ -2907,7 +2907,7 @@ northern_cascades_area = { # BT
 southern_cascades_area = { # BT
 	2482 4946 4958 5777 5800 5819 
 }
-lost_coast_area = { # BT; Formerly northern_california_area, changed to avoid conflict with 1 .28 new area with the same name.
+lost_coast_area = { # BT# Formerly northern_california_area, changed to avoid conflict with 1 .28 new area with the same name.
 	871 2477 5031 5763 5848 5849 5851 5853 5854 
 }
 vancouver_island_area = { # BT
@@ -2925,7 +2925,7 @@ palouse_area = { # BT
 cariboo_area = { # BT
 	2604 2606 4944 4988 5886 5887 5889 
 }
-kootenays_area = { # BT; +Upper Columbia, RMT south, RMT central
+kootenays_area = { # BT# +Upper Columbia, RMT south, RMT central
 	2003 4947 5740 5741 5742 5779 5816 
 }
 okanogan_area = { # BT

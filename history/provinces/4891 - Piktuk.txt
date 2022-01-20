@@ -2,13 +2,10 @@
 # ex 5047
 # owned in 1.31
 
-owner = MIK
-controller = MIK
-add_core = MIK
 culture = mikmaq
 religion = totemism 
 capital = "Takumegoochk"  # BT; "Piktuk"; Remsheg could also work
-is_city = yes
+is_city = no
 hre = no 
 base_tax = 1 # BT; 2
 base_production = 1 # BT; 2
@@ -19,6 +16,8 @@ native_ferocity = 1
 native_hostileness = 3 # BT; 2
 
 discovered_by = north_american
+
+1444.1.1 = { tribal_owner = MIK }
 
 1500.1.1 = { discovered_by = ENG } # John Cabot
 

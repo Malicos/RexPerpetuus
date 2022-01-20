@@ -64,6 +64,7 @@ country_decisions = {
 				limit = { is_emperor = YES }
 				set_government_rank = 3
 			}
+			set_capital = 134
 			austria_proper_area = {
 				limit = {
 					NOT = { owned_by = ROOT }

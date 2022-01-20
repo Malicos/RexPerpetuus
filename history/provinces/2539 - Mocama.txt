@@ -1,7 +1,7 @@
  
 # No previous file for Mocama
 
-culture = creek
+culture = yamasee
 religion = totemism
 capital = "Mocama"
 trade_goods = unknown

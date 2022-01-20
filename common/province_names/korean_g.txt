@@ -1,6 +1,4 @@
 #Contributions from Arga and Flandre Scarlet 
-#(JP) British English, will be overwritten by local American, Scottish, Northumbrian, Old English etc
-#(JP) I have reorganised and cleaned up all the prior British/English naming to try and make it more legible, consistant and keep it easier to edit in future
 
 #Unsorted
 4228 = { "Naju" "Naju"} # Vanila province name and Historically accurate at the time. Who the hell even changed it?
@@ -76,6 +74,157 @@
 
 #Pyeongan
 1845 = { "Pyongyang" "Pyongyang" } #Same rule applies. also Vanila name.
+
+#Furdan
+1850 = { "Anbyeon" "Anju" } #Vanila, with changed province name to more fit
+2186 = { "Miju" "Miju"} 
+
+#South Ilin Hala
+4217 = { "Anwon" "Anwon" } #Vanila
+4663 = { "Taju" "Taju" } #Vanila
+731 = { "Cheolli" "Deokrijin" } #Had no idea where PDX devs found name "Samseong" for this
+2105 = { "Hoewon" "Hoewon" } #It's actually located at across Amur river but oh well
+729 = { "Baekryeok" "Baekryeok") #Bohori
+
+#Central Heilongjiang
+4200 = { "Makhil" "Makhil" } #Vanila
+727 = { "Aehon" "Aehon" } #Aigun
+
+#Essex (lmao why not)
+236 = { "Nandon" "Nandon" } #From Veritable records of Joseon Dynasty
+
+#North Ilin Hala
+4215 = { "Jemin" "Jemin" } #Fudali, Transliteration old chinese name of Komsomolsk-na-Amure
+4216 = { "Daeryun" "Daeryun" } #Ulch
+1050 = { "Borok" "Borok" } #Deren
+4214 = { "Bisaeng" "Bisaeng" } #Kalar
+1048 = { "Myoga" "Myoga" } #Miyoo Gasan
+
+#Sakhalin
+
+4658 = { "Nahapa" "Nahapa" } #Nangha'er
+1033 = { "Garyangbuji" "Pungwon" } #Vanila, minus of city name(Toyohara)
+
+#Kyushu/Okinawa
+
+4651 = { "Daema" "Daema" } #Vanila
+
+1818 = { "Chukjeon" "Bakda" } #Chikuzen, Vanila, minus of city name(From below it's same as here)
+4182 = { "Bijeon" "Janggi" } #Hizen
+1014 = { "Punghu" "Hayang" } #Bungo, City name came from other name of Funai
+
+4181 = { "Bihu" "Ungbon" } #Higo
+4180 = { "Ilhyang" "Eobi" } #Hyuga
+1012 = { "Salma" "Nokado" } #Satsuma
+
+1015 = { "Yugu" "Suri" } #Ryukyu, Okinawa
+
+#East Heilongjiangords
+2104 = { "Uman" "Uman" } #Birija
+4659 = { "Tonokjeongsan" "Tonokjeongsan" } #Tulutingshan
+1049 = { "Sochona" "Sochona" } #Haiilanboo
+4662 = { "Takjin" "Takjin" } #Halacha
+
+#Central Heilongjiang
+
+2185 = { "Mukigeun" "Mukigeun" } #Mergen
+4200 = { "Horan" "Horan" } #Hulan
+4660 = { "Dunha" "Dunha" } #Tunhe
+728 = { "Takon" "Takon" } #Tuwan
+
+#Furdan
+
+4655 = { "Sillimyeon" "Sillimyeon" } #Shilimian
+4656 = { "Allanha" "Allanha" } #Wolanhe
+
+#West Heilongjiangord
+
+1053 = { "Heungan" "Heungan" } #Hinggan
+4664 = { "Orochon" "Orochon" } #Oroqen
+
+#Cicigar
+
+4218 = { "Buteukhap" "Buteukhap" } #Buteha
+4665 = { "Seobuteukhap" "Seobuteukhap" } #West Buteha
+725 = { "Bokgyu" "Bokgyu" } #Cicigar, Bukui
+
+#Eastern Mongolia
+
+2109 = { "Baekdonap" "Baekdonap" } #Vanilla, Boduna
+2187 = { "Salido" "Salido" } #Sartu
+4674 = { "Gwaisim" "Gwaisim" } #Korchin
+4202 = { "Taenyeong" "Baekseong" } #Taining, Have no idea when did "Baichung" were first used howerver.
+
+#Chugoku(Sanin/Sanyo)
+1825 = { "Anye" "Gwangdo" } #Aki
+1017 = { "Jubang" "Sangu" } #Suo
+4184 = { "Biju" "Gangsan" } #Bizen
+1019 = { "Pama" "Huiro" } #Harima
+
+4183 = { "Seokgyeon" "Binjeon" } #Iwami
+1018 = { "Chulun" "Songgang" } #Izumo
+1830 = { "Danma" "Jochwi" } #Tajima
+4185 = { "Danhu" "Gungjin" } #Tango
+
+#Shikoku(adding here because seems to be missed out in latest update)
+
+4186 = { "Iyeo" "Yangchuk" } #Iyo
+1819 = { "Tojwa" "Jungchon" } #Tosa
+1820 = { "Apa" "Deokdo" } #Awa (edited)
+
+#Kansai and Hokuriku
+#Kinai
+
+1021 = { "Seobjin" "Nanpa" } #Settsu
+1020 = { "Gyeongdo" "Gyeongdo" } #Kyoto
+1832 = { "Daehwa" "Naryang" } #Yamato
+4187 = { "Gii" "Hwagasan" } #Kii
+
+#Hokuriku
+
+1023 = { "Woljeon" "Musaeng" } #Echizen
+1837 = { "Woljung" "Guemtaek" } #Etchu
+1024 = { "Wolhu" "Jikgangjin" } #Echigo
+
+#Tokai and Kanto
+#Western Chubu
+
+4359 = { "Ise" "Musan" } #Yes, it's also Ise in Korean
+1835 = { "Minong" "Doyeopsan" } #Mino
+1030 = { "Mijang" "Cheongju" } #Owari. Seems Kiyosu castle is also written as Cheongsu in some other cases
+
+#Eastern Chubu 
+
+4360 = { "Samha" "Ganggi" } #Mikawa
+4188 = { "Sinnong" "Jangya" } #Shinano
+1839 = { "Junha" "Junbu" } #Suruga
+1029 = { "Gapbi" "Gapbu" ) #Kai
+
+#Western Kanto
+
+4189 = { "Sangmo" "Gyeomchang" } #Sagami
+1028 = { "Mujang" "Cheonwol" } #Musasi
+1843 = { "Sangya" "Gugyo" } #Kozuke
+
+#Eastern Kanto
+
+4191 = { "Haya" "Udogung" } #Shimotsuke
+1027 = { "Sangryuk" "Taejeon" } #Hitachi
+4190 = { "Hachong" "Jwachang" } #Shimousa
+
+#Hokkaido and Tohoku
+
+4193 = { "Songjeon" "Songjeon" } #Oshima
+1847 = { "Seohai" "Huji" } #Shiribeshi, Sum'un'kur
+1852 = { "Donghai" "Sipseung" } #Tokachi, Menas'un'kur
+1031 = { "Jeunguya" "Jeunguya" } #Kamikawa, Peni'un'kur. Apparently someone in pdx messed up names in here, Jeunguya is nowaday Soya(located in prov.1031) while Donghai were translation of Menas'un'kur. Both were swapped in Vanilla.
+
+4131 = { "Yuko" "Samho" } #Mutsu
+4192 = { "Uhu" "Chujeon" } #Ugo
+1025 = { "Ujeon" "Sanhyeong" } #Uzen
+1026 = { "Yukjeon" "Hoejin" } #Rikuzen
+
+
 
 #Unsorted and Uncapitalised
 1056 = "Baleugujin"

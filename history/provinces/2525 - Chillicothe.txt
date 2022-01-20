@@ -1,9 +1,9 @@
  
 # No previous file for Chillicothe
 
-owner = SHA
-controller = SHA
-add_core = SHA
+owner = CLG
+controller = CLG
+add_core = CLG
 is_city = yes
 culture = shawnee
 religion = totemism

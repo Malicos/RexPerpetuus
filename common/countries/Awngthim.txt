@@ -1,6 +1,7 @@
 # AWN - Awngthim.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 137  69  69 }
 #revolutionary_colors = { 10 8 5 } #TODO

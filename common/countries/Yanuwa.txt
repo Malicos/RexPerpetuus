@@ -1,6 +1,7 @@
 # YNU - Yanuwa.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 230  145  62 }
 #revolutionary_colors = { 10 8 5 }

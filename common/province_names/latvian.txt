@@ -22,7 +22,7 @@
 1936 = { "Kauna" "Kauna" }
 2958 = { "Ostruda" "Ostruda" } #(JP) Lithuanian name
 2997 = { "Tuchola" "Tuchola" } #(JP) Lithuanian name
-3224 = { "Štallupenene" "Štallupenene" }
+3224 = { "Shtallupenene" "Shtallupenene" }
 3226 = { "Palanga" "Palanga" } #(JP) Lithuanian name
 3227 = { "Piltene" "Piltene" }
 3229 = { "Vilande" "Vilande" }
@@ -32,7 +32,7 @@
 4241 = { "Limbaži" "Limbaži" }
 4534 = { "Upyte" "Upyte" } #(JP) Lithuanian name
 4535 = { "Utena" "Utena" } #(JP) Lithuanian name
-7833 = { "Sembas" "Fišhauzene" }
+7833 = { "Sembas" "Fishhauzene" }
 7834 = { "Neihauzene" "Neihauzene" }
 7835 = { "Vengoževo" "Vengoževo" }
 7837 = { "Ragnite" "Ragnite" }
@@ -55,6 +55,6 @@
 7855 = { "Paide" "Paide" } #(JP) Estonian name
 7856 = { "Rapla" "Rapla" } #(JP) Estonian name
 7857 = { "Hapsalu" "Hapsalu" }
-7859 = { "Telši" "Telši" }
+7859 = { "Telshi" "Telshi" }
 7860 = { "Saule" "Saule" }
-7862 = { "Bartenšteina" "Bartenšteina" }
+7862 = { "Bartenshteina" "Bartenshteina" }

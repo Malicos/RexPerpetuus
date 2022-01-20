@@ -54,7 +54,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = SIA
-			swap_non_generic_missions = yes
+			#swap_non_generic_missions = yes #Siam no unique missions has
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 2 } }

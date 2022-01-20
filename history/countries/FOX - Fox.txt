@@ -1,7 +1,7 @@
 government = native
 add_government_reform = native_clan_council_reform
 government_rank = 1
-primary_culture = chiwere
+primary_culture = mesquakie
 religion = totemism
 technology_group = north_american
 capital = 945	# Fox

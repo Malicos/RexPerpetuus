@@ -1,4 +1,3 @@
-
 #879 - Apache
 
 culture = navajo 

@@ -687,25 +687,103 @@
 411 = { "Mossul" "Mossul" }
 418 = { "Amida" "Amida" }
 
-#Anatolia
-316 = { "Nicomedia" "Nicomedia" }
-317 = { "Brussa" "Brussa" }
-318 = { "Smirne" "Smirne" }
-323 = { "Iconio" "Iconio" }
-324 = { "Laranda" "Laranda" }
-326 = { "Angora" "Angora" }
-328 = { "Sinope" "Sinope" }
-329 = { "Sebastea" "Sebastea" }
-330 = { "Trebisonda" "Trebisonda" }
-2296 = { "Ellesponto" "Ellesponto" }
-2298 = { "Adalia" "Adalia" }
-2299 = { "Amastri" "Amastri" }
-2301 = { "Cesarea" "Cesarea" }
-2304 = { "Simisso" "Simisso" } #(JP) Genoese name
-5134 = { "Alicarnasso" "Alicarnasso" }
-5152 = { "Amasia" "Amasia" }
-5161 = { "Corico" "Corico" }
-6005 = { "Fogliavecchia" "Fogliavecchia" }
+#Anatolia3
+16 = { "Bosforo" "Nicomedia" } #Izmit
+317 = { "Prusa" "Prusa" } #Bursa
+318 = { "Smirne" "Smirne" } #Izmir
+319 = { "Moballa" "Moballa" } #Mughla
+322 = { "Dorileo" "Dorileo" } #Ekisehir
+323 = { "Iconio" "Iconio" } #Konya
+324 = { "Laranda" "Laranda" } #Karaman
+325 = { "Castro Comneno" "Castro Comneno" } #Kastamonu
+326 = { "Ancira" "Ancira" } #Ankara
+327 = { "Cilicia" "Mamistra" } #Adana
+328 = { "Sinope" "Sinope"} #Sinop
+329 = { "Sebaste" "Sebaste" } #Sivas
+330 = { "Trebisonda" "Trebisonda" } #Trabzon
+1324 = { "Ceraso" "Ceraso" } #Giresun
+1846 = { "Cotiora" "Cotiora" } #Ordu
+1848 = { "Acreno" "Acreno" } #Afyonkarahisar
+2300 = { "Neocesarea" "Neocesarea" } #Niksar
+2301 = { "Cesarea" "Cesarea di Cappadocia" }  #Kaysery
+2302 = { "Selinunte" "Selinunte" } #Gazipasa
+2304 = { "Amiso" "Amiso" } #Samsun
+2299 = { "Amastri" "Amastri" } #Amasra
+2296 = { "Troade" "Abido" } #Çanakkale
+2297 = { "Lidia" "Magnesia al Sipilo" } #Manisa
+2298 = { "Attalia" "Attalia" } #Adalia
+3248 = { "Rizeo" "Rizeo" } #Rize
+4307 = { "Cappadocia" "Colonia in Cappadocia" } #Aksaray
+4308 = { "Laodicea al Lico" "Laodicea al Lico" } #Denizli
+4309 = { "Tralle" "Tralle" } #Aydin
+4311 = { "Cotieo" "Cotieo" } #Kutahya
+4312 = { "Claudiopoli" "Claudiopoli" } #Bolu
+4313 = { "Paflagonia" "Gangra" } #Cankiri
+4314 = { "Nissa" "Nissa" } #Nevsehir
+4315 = { "Argiropoli" "Argiropoli" } #Gumushane
+5130 = { "Paleocastro" "Paleocastro" } #Balikesir
+5131 = { "Adramitto" "Adramitto" } #Ayvalik
+5134 = { "Caria" "Alicarnasso" } #Bodrum
+5135 = { "Zefirio" "Zefirio" } #Mersin
+5137 = { "Tavio" "Tavio" } #Yozgat
+5138 = { "Anazarbo" "Anazarbo" } #Anazarva
+5146 = { "Magida" "Magida" } #Nigde
+5147 = { "Cardelloro" "Cardelloro" } #Alanye
+5150 = { "Mocisso" "Mocisso" } #Viransehir
+5152 = { "Amasea" "Amasea" } #Amasya
+5154 = { "Sisio" "Sisio" } #Kozan
+5155 = { "Gordio" "Gordio" } #Polatli
+5156 = { "Pegea" "Pegea" } #Biga
+5157 = { "Nicea" "Nicea" } #Iznik 
+5161 = { "Corico" "Corico" } #Kizkalesi
+5162 = { "Licia" "Telmesso" } #Fethiye
+5163 = { "Temenotire" "Temenotire" } #Usak
+5164 = { "Zafferanopoli" "Zafferanopoli" } #Safranbolu
+5165 = { "Sarmalio" "Sarmalio" } #Kirikkale
+5167 = { "Eucaita" "Eucaita" } #Corum
+5168 = { "Agrilio" "Agrilio" } #Adapazari
+5171 = { "Miletopoli" "Miletopoli" } #Mihalich
+5172 = { "Filadelfia" "Filadelfia" } #Alasehir
+6001 = { "Tebasio" "Tebasio" } #Sögüt
+6002 = { "Armenocastro" "Armenocastro" } #Bilecik
+6003 = { "Pegadia" "Pegadia" } #Bigadiç
+6004 = { "Pergamo" "Pergamo " } #Bergama
+6005 = { "Fogliavecchia" "Fogliavecchia" } #Eskifoça
+6006 = { "Eritre" "Eritre" } #Çesme
+6007 = { "Efeso" "Efeso" } #Ayasoluk
+6008 = { "Pirgio" "Pirgio" } #Birgi
+6009 = { "Milasa" "Milasa" } #Milas 
+6010 = { "Tabe" "Tabe" } #Tavas
+6011 = { "Tiberiopoli" "Tiberiopoli" } #Emet
+6012 = { "Cibira" "Cibira" } #Gölhisar
+6013 = { "Antifilo" "Antifilo" } #Andifli
+6014 = { "Bari di Pisidia" "Bari di Pisidia" } #Isparta
+6015 = { "Polidorio" "Polidorio" } #Burdur
+6016 = { "Eraclea Pontica" "Eraclea Pontica" } #Eregli
+6017 = { "Lagania" "Lagania" } #Beypazari
+6018 = { "Amorio" "Amorio" } #Hergenkale
+6019 = { "Filomelio" "Filomelio" } #Aksehir
+6020 = { "Mistia" "Mistia" } #Beysehir
+6021 = { "Germanicopoli" "Germanicopoli" } #Ermenek
+6022 = { "Seleucia sul Calicadno" "Seleucia sul Calicadno" } #Siflike
+6023 = { "Ninica" "Ninica" } #Mut
+6024 = { "Eraclea Cibistra" "Eraclea Cibistra" } #Eregli 
+6025 = { "Tarso" "Tarso" } #Tarsus
+6026 = { "Bagnoregio" "Bagnoregio" } #Basilika Therma
+6027 = { "Malandara" "Malandara" } #Sarkisla
+6028 = { "Taranta" "Taranta" } #Darende
+6029 = { "Arabisso" "Arabisso" } #Yarpuz
+6031 = { "Malo" "Malo" } #Kalecik
+6032 = { "Partenia" "Partenia" } #Filyos
+6033 = { "Ionopoli" "Ionopoli" } #Inebolu
+6034 = { "Mersifonte" "Mersifonte" } #Merzifon
+6035 = { "Gadilo" "Gadilo" } #Bafra
+6036 = { "Laodicea Pontica" "Laodicea Pontica" } #Ladik
+6037 = { "Eudocia" "Eudocia" } #Tokat
+6038 = { "Melenzio" "Melenzio" } #Mesudiye
+6039 = { "Eno" "Eno" } #Unye
+6040 = { "Maurocastro" "Maurocastro" } #Sebinkarahisar
+6041 = { "Tiatira" "Tiatira" } #Akhisar
 
 #Caucasia
 419 = { "Erivan" "Erivan" }
@@ -1052,6 +1130,7 @@
 #Korea
 
 #Japan
+1012 = { "Napoli del Giappone" "Napoli del Giappone" } #derived from Kagoshima city's nickname, ahistorical
 
 #East Siberia
 

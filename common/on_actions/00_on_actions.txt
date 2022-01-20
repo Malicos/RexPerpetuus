@@ -219,7 +219,6 @@ on_religion_change = {
 # country.
 on_secondary_religion_change = {
 	# Done from code: add_prestige = -50 (Define: CHANGE_SECONDARY_PRESTIGE_HIT)
-	on_secondary_religion_change_estate_privileges_effect = yes
 	every_owned_province = {
 		limit = { has_province_modifier = tengri_monastic_order }
 		remove_province_modifier = tengri_monastic_order
@@ -870,43 +869,6 @@ on_new_monarch = {
 		limit = { has_any_heir_cult_active = yes }
 		remove_heir_cult = yes
 	}
-	#BT
-	if = {
-		limit = {
-			has_reform = tanistry_reform
-			NOT = { has_country_flag = bt_abolition_of_tanistry_succession }
-		}
-		set_country_flag = bt_tanistry_king_just_died
-		clr_country_flag = bt_tanistry_high_queen_reigning
-		remove_country_modifier = bt_uncertainty_about_a_high_queen
-		country_event = { id = BeyondTypusCelticFlavour.1 days = 1 } #New Tanist election
-		country_event = { id = BeyondTypusCelticFlavour.6 days = 1 } #High Queen comes to power, will only fire for female rulers
-	}
-	if = { #If Sweden fell under the Danish PU elsehow and the event that was supposed to fire the end of Karl Knutsson Bonde's reign never fired.
-		limit = {
-			tag = SWE
-			junior_union_with = DAN
-			has_global_flag = bt_kalmar_union_power_struggle_pt_I
-		}
-		disband_rebels = pretender_rebels
-		disband_rebels = catholic_rebels
-		disband_rebels = noble_rebels
-		clr_global_flag = bt_kalmar_union_power_struggle_pt_I
-	}
-	if = { #Kalmar Union power struggle flavour event.
-		limit = {
-			has_global_flag = bt_kalmar_union_power_struggle_pt_I
-			tag = SWE
-			war_with = DAN
-		}
-		DAN = {
-			create_union = SWE
-		}
-		disband_rebels = pretender_rebels
-		disband_rebels = catholic_rebels
-		disband_rebels = noble_rebels
-		clr_global_flag = bt_kalmar_union_power_struggle_pt_I
-	}
 	events = {
 		tribal_succession.1		# Harsh anti-tribals.
 		9492 					# Remove some event modifiers
@@ -945,6 +907,43 @@ on_new_monarch = {
 		50 = dynastic_events.4
 		50 = dynastic_events.5
 		25 = harem_events.7		#Failed Policy of Fratricide
+	}
+	#BT
+	if = {
+		limit = {
+			has_reform = tanistry_reform
+			NOT = { has_country_flag = bt_abolition_of_tanistry_succession }
+		}
+		set_country_flag = bt_tanistry_king_just_died
+		clr_country_flag = bt_tanistry_high_queen_reigning
+		remove_country_modifier = bt_uncertainty_about_a_high_queen
+		country_event = { id = BeyondTypusCelticFlavour.1 days = 1 } #New Tanist election
+		country_event = { id = BeyondTypusCelticFlavour.6 days = 1 } #High Queen comes to power, will only fire for female rulers
+	}
+	if = { #If Sweden fell under the Danish PU elsehow and the event that was supposed to fire the end of Karl Knutsson Bonde's reign never fired.
+		limit = {
+			tag = SWE
+			junior_union_with = DAN
+			has_global_flag = bt_kalmar_union_power_struggle_pt_I
+		}
+		disband_rebels = pretender_rebels
+		disband_rebels = catholic_rebels
+		disband_rebels = noble_rebels
+		clr_global_flag = bt_kalmar_union_power_struggle_pt_I
+	}
+	if = { #Kalmar Union power struggle flavour event.
+		limit = {
+			has_global_flag = bt_kalmar_union_power_struggle_pt_I
+			tag = SWE
+			war_with = DAN
+		}
+		DAN = {
+			create_union = SWE
+		}
+		disband_rebels = pretender_rebels
+		disband_rebels = catholic_rebels
+		disband_rebels = noble_rebels
+		clr_global_flag = bt_kalmar_union_power_struggle_pt_I
 	}
 }
 
@@ -1028,16 +1027,8 @@ on_monarch_death = {
 				government = tribal
 				government = monarchy
 			}
-			NOT = { has_ruler_flag = no_stab_bonus_on_ascending_the_throne }
-			NOT = { has_heir_flag = no_stab_bonus_on_ascending_the_throne }
 		}
 		add_stability = 1
-		if = {
-			limit = {
-				NOT = { heir_age = 15 }
-			}
-			set_heir_flag = no_stab_bonus_on_ascending_the_throne
-		}
 	}
 	#BT
 	#if = {
@@ -1063,6 +1054,7 @@ on_monarch_death = {
 		majapahit.8 # Majapahit pretenders
 		flavor_mal.11 # Mali pretenders
 		flavor_mal.47 # Pilgrimage ends prematurely
+		Chocolate_hab_hun.98 #continue Habsburg deaths
 	}
 }
 
@@ -1213,7 +1205,6 @@ on_heir_death = {
 		limit = { has_any_heir_cult_active = yes }
 		remove_heir_cult = yes
 	}
-	CHO_AlbrechtVI_heir_dies = yes
 	#BT
 	if = {
 		limit = {
@@ -1224,6 +1215,7 @@ on_heir_death = {
 		remove_country_modifier = bt_tanistry_female_heir
 		country_event = { id = BeyondTypusCelticFlavour.8 days = 1 } #Tanist dies, new tanist event
 	}
+	CHO_AlbrechtVI_heir_dies = yes
 }
 
 # country
@@ -1584,6 +1576,7 @@ on_integrate = {
 	events = {
 		610
 	}
+	clear_chocolate_flags = yes
 }
 
 # Nation annexed.
@@ -1610,6 +1603,7 @@ on_annexed = {
 			set_global_flag = no_primas_germaniae
 		}
 	}
+	clear_chocolate_flags = yes
 }
 
 # When the chinese empire gets dismantled (e.g. when the emperor is annexed)
@@ -4216,6 +4210,34 @@ on_province_owner_change = {
 	if = {
 		limit = {
 			owner = {
+				religion = ROOT
+				culture_group = ROOT
+				has_estate_privilege = estate_church_one_faith_one_culture
+			}
+			NOT = { has_province_modifier = estate_church_united_faith_and_culture }
+		}
+		add_province_modifier = {
+			name = estate_church_united_faith_and_culture
+			duration = -1
+		}
+	}
+	if = {
+		limit = {
+			owner = {
+				NOT = { culture_group = ROOT }
+				has_owner_accepted_culture = no
+				has_estate_privilege = estate_church_one_faith_one_culture
+			}
+			NOT = { has_province_modifier = estate_church_false_culture }
+		}
+		add_province_modifier = {
+			name = estate_church_false_culture
+			duration = -1
+		}
+	}
+	if = {
+		limit = {
+			owner = {
 				has_country_modifier = son_fetishism_as_secondary_religion
 			}
 			religion = shamanism
@@ -4295,52 +4317,6 @@ on_province_owner_change = {
 			}
 		}
 	}
-	#Demand Unlawful Land cooldown
-    if = {
-        limit = {
-            NOT = {
-                is_core = FROM
-            }
-            is_part_of_hre = yes
-            FROM = {
-                is_part_of_hre = yes
-            }
-            is_core = owner
-            has_province_flag = bt_sc_unlawful_land
-        }
-        FROM = {
-            add_country_modifier = { 
-                name = bt_sc_demand_unlawful_land_cooldown
-                duration = 1068 # 3 years
-            }
-        }
-    }
-
-    #i need to mark conquered province as being unlawful, because i cannot ask for the actual static_modifier
-    if = { 
-        limit = {
-            is_core = FROM
-            is_part_of_hre = yes
-            FROM = {
-                is_part_of_hre = yes
-            }
-            NOT = {
-                is_core = owner
-            }
-        }
-        set_province_flag = bt_sc_unlawful_land
-        owner = {
-            if = {
-                limit = {
-                    has_country_modifier = bt_sc_demand_unlawful_land_cooldown
-                }
-                remove_country_modifier = bt_sc_demand_unlawful_land_cooldown
-            }
-        }
-    }
-    else = {
-        clr_province_flag = bt_sc_unlawful_land
-    }
 }
 
 # country
@@ -4353,61 +4329,51 @@ on_parliament_debate_succeeded = {
 
 # country
 on_harmonized_pagan = {
-	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.1
 	}
 }
 on_harmonized_christian = {
-	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.2
 	}
 }
 on_harmonized_muslim = {
-	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.3
 	}
 }
 on_harmonized_jewish_group = {
-	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.5
 	}
 }
 on_harmonized_zoroastrian_group = {
-	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.6
 	}
 }
 on_harmonized_dharmic = {
-	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.4
 	}
 }
 on_harmonized_mahayana = {
-	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.9
 	}
 }
 on_harmonized_buddhism = { #Theravada
-	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.8
 	}
 }
 on_harmonized_shinto = {
-	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.7
 	}
 }
 on_harmonized_vajrayana = {
-	on_harmonized_religion_estate_privileges_effect = yes
 	events = {
 		confucian_events.10
 	}
@@ -4539,34 +4505,34 @@ on_center_of_trade_downgrade = {
 }
 
 on_culture_promoted = {
-	on_culture_promoted_estate_privileges_effect = yes
-	judaism_on_culture_country_effect = yes
-	kongo_on_culture_country_effect = yes
-}
 
-on_culture_demoted = {
-	on_culture_demoted_estate_privileges_effect = yes
-	judaism_on_culture_country_effect = yes
-	kongo_on_culture_country_effect = yes
-}
-
-on_primary_culture_changed = {
-	on_primary_culture_changed_privileges_effect = yes
-	judaism_on_culture_country_effect = yes
 	if = {
 		limit = {
-			has_country_modifier = kon_south_african_hegemony
-			NOT = { culture_group = kongo_group }
+			has_estate_privilege = estate_church_one_faith_one_culture
 		}
-		remove_country_modifier = kon_south_african_hegemony
 		every_owned_province = {
 			limit = {
-				has_province_modifier = kon_south_african_hegemony_province
+				has_province_modifier = estate_church_false_culture
+				has_owner_accepted_culture = yes
 			}
-			remove_province_modifier = kon_south_african_hegemony_province
+			remove_province_modifier = estate_church_false_culture
+			if = {
+				limit = {
+					owner = {
+						religion = PREV
+					}
+				}
+				add_province_modifier = {
+					name = estate_church_united_faith_and_culture
+					duration = -1
+				}
+			}
 		}
 	}
+	judaism_on_culture_promoted_effect = yes
+	kongo_on_culture_promoted_effect = yes
 }
+
 # FROM = Previous Country, ROOT = Province
 on_company_chartered = {
 	if = {
@@ -4706,6 +4672,7 @@ on_country_released = {
 			change_religion = FROM
 		}
 	}
+	clear_chocolate_flags = yes
 }
 
 # ROOT = province, FROM = country
@@ -4836,22 +4803,9 @@ on_golden_bull_enacted = {
 # FROM = The previous owner.
 on_conquest = {
 	remove_named_unrest = estate_land_seized
-	clr_province_flag = has_estate_unrest_flag
 }
 
 on_country_creation = {
-	if = {
-		limit = {
-			country_religion = noreligion
-		}
-		change_religion = capital
-	}
-	if = {
-		limit = {
-			primary_culture = noculture
-		}
-		change_culture = capital
-	}
 	if = {
 		limit = {
 			tag = PAP
@@ -4890,56 +4844,7 @@ on_pillaged_capital = {
 }
 
 #FROM = country dev was transferred from, ROOT = country doing the transferring
-#FROM = country dev was transferred from, ROOT = country doing the transferring
 on_transfer_development = {
-    capital_scope = {
-        if = {
-            limit = {
-                has_province_modifier = bt_dev_cost_4
-            }
-            add_province_modifier = {
-                name = bt_dev_cost_5
-                duration = 1825
-            }
-            remove_province_modifier = bt_dev_cost_4
-        }
-        else_if = {
-            limit = {
-                has_province_modifier = bt_dev_cost_3
-            }
-            add_province_modifier = {
-                name = bt_dev_cost_4
-                duration = 1825
-            }
-            remove_province_modifier = bt_dev_cost_3
-        }
-        else_if = {
-            limit = {
-                has_province_modifier = bt_dev_cost_2
-            }
-            add_province_modifier = {
-                name = bt_dev_cost_3
-                duration = 1825
-            }
-            remove_province_modifier = bt_dev_cost_2
-        }
-        else_if = {
-            limit = {
-                has_province_modifier = bt_dev_cost_1
-            }
-            add_province_modifier = {
-                name = bt_dev_cost_2
-                duration = 1825
-            }
-            remove_province_modifier = bt_dev_cost_1
-        }
-        else = {
-            add_province_modifier = {
-                name = bt_dev_cost_1
-                duration = 1825
-            }
-        }
-    }
 }
 
 on_colonial_type_change = {
@@ -5057,10 +4962,6 @@ on_colonist_boosting_colony = {
 							which = vab_nativesize
 							value = trigger_value:native_size
 						}
-						multiply_variable = {
-							which = vab_nativesize
-							value = 100
-						}
 						check_variable = {
 							which = vab_colonysize
 							which = vab_nativesize
@@ -5097,10 +4998,6 @@ on_colonist_boosting_colony = {
 							which = vab_nativesize
 							value = trigger_value:native_size
 						}
-						multiply_variable = {
-							which = vab_nativesize
-							value = 100
-						}
 						check_variable = {
 							which = vab_colonysize
 							which = vab_nativesize
@@ -5124,24 +5021,4 @@ on_colonist_boosting_colony = {
 			change_original_culture = FROM
 		}
 	}
-}
-
-#ROOT = converted country, FROM = country which force converts ROOT, on_action gets called on Force religion peace and Enforce Religion subject interaction
-on_force_conversion = {
-	#if = {	#Commented out for now because Catholicism has received a lot of buffs already.
-	#	limit = {
-	#		FROM = { religion = catholic }
-	#	}
-	#	if = {
-	#		limit = { ROOT = { government_rank = 3 } }
-	#		FROM = { add_papal_influence = 20 }
-	#	}
-	#	else_if = {
-	#		limit = { ROOT = { government_rank = 2 } }
-	#		FROM = { add_papal_influence = 10 }
-	#	}
-	#	else = {
-	#		FROM = { add_papal_influence = 5 }
-	#	}
-	#}
 }

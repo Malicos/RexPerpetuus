@@ -555,7 +555,7 @@ country_decisions = {
 					ROOT = { NOT = { tag = LBV } }
 					LBV = {
 						OR = {
-							num_of_cities = 5
+							num_of_cities = 8
 							NOT = { is_subject_of = ROOT }
 						}
 					}
@@ -565,7 +565,7 @@ country_decisions = {
 					ROOT = { NOT = { tag = ING } }
 					ING = {
 						OR = {
-							num_of_cities = 5
+							num_of_cities = 8
 							NOT = { is_subject_of = ROOT }
 						}
 					}
@@ -575,7 +575,7 @@ country_decisions = {
 					ROOT = { NOT = { tag = UBV } }
 					UBV = {
 						OR = {
-							num_of_cities = 5
+							num_of_cities = 8
 							NOT = { is_subject_of = ROOT }
 						}
 					}
@@ -2006,18 +2006,8 @@ country_decisions = {
 	kingdom_of_jerusalem = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_jerusalem }
-			NOT = { exists = KOJ }
-			normal_or_historical_nations = yes
 			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			religion = catholic
-			NOT = { government = republic }
-			NOT = { has_reform = celestial_empire }
-			OR = {
+				bt_generic_can_form_potential_check = yes
 				owns = 379
 				AND = {
 					ai = no
@@ -2032,6 +2022,16 @@ country_decisions = {
 					tag = PRO
 				}
 			}
+			NOT = { has_country_flag = formed_jerusalem }
+			NOT = { exists = KOJ }
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			religion = catholic
+			NOT = { government = republic }
+			NOT = { has_reform = celestial_empire }
 			OR = {
 				current_age = age_of_discovery
 				current_age = age_of_reformation

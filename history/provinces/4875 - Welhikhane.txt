@@ -1,7 +1,7 @@
  
 # new in 1.31
 
-culture = iroquois
+culture = tionontate
 religion = totemism
 capital = "Welhikane"
 hre = no

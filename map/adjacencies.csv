@@ -23,7 +23,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 35;3227;sea;1256;-1;-1;-1;-1;Ösel-Piltene
 597;620;sea;1361;-1;-1;-1;-1;Johor-Siak
 5048;982;sea;1491;-1;-1;-1;-1;Esgigeoag-Unamakik
-5047;983;sea;1491;-1;-1;-1;-1;Segepenegatig-Epekwitk
+4891;983;sea;1491;-1;-1;-1;-1;Segepenegatig-Epekwitk
 1050;4658;sea;1379;-1;-1;-1;-1;Deren-Nanghaer
 1215;387;sea;1330;-1;-1;-1;-1;Tajura-Mocha
 54;3136;sea;1268;-1;-1;-1;-1;Stade-Dithmarschen
@@ -69,9 +69,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 778;2851;sea;1536;-1;-1;-1;-1;Rio de la Plata-Colonia
 4993;4995;sea;5462;-1;-1;-1;-1;Naujaat-Shugliaq
 4974;5019;sea;1495;-1;-1;-1;-1;Grand Bank-Saint Pierre
-1240;5817;sea;1697;-1;-1;-1;-1;Hawaii-Maui
-5817;5029;sea;1697;-1;-1;-1;-1;Maui-Oahu
-5029;5818;sea;1697;-1;-1;-1;-1;Oahu-Kauai
+1240;4934;sea;1697;-1;-1;-1;-1;Hawaii-Maui
+4934;4935;sea;1697;-1;-1;-1;-1;Maui-Oahu
+4935;4936;sea;1697;-1;-1;-1;-1;Oahu-Kauai
 1001;5039;sea;1661;-1;-1;-1;-1;Soto-Manidoowaaling
 911;1001;sea;1663;-1;-1;-1;-1;Menominee-Sault
 911;5039;sea;1661;-1;-1;-1;-1;Belem-Manidoowaaling
@@ -89,8 +89,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 741;5579;sea;1520;-1;-1;-1;-1;Cumana-Waikeri
 484;4622;sea;1518;-1;-1;-1;-1;Havana-Siwanea
 4624;4622;sea;1518;-1;-1;-1;-1;Guanahatabey-Siwanea
-2022;5865;sea;1559;-1;-1;-1;-1;Haida-Taan
-5865;5866;sea;1559;-1;-1;-1;-1;Taan-Ketchikan
+2022;5728;sea;1559;-1;-1;-1;-1;Haida-Taan
+5728;5866;sea;1559;-1;-1;-1;-1;Taan-Ketchikan
 2219;5255;sea;1334;-1;-1;-1;-1;Bandar Langeh-Kish
 333;4560;sea;1295;-1;-1;-1;-1;The Baleares-Ibiza
 333;4559;sea;1300;-1;-1;-1;-1;The Baleares-Menorca
@@ -141,8 +141,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4352;8713;sea;1397;-1;-1;-1;-1;Cebu- Leyte
 4354;8720;sea;1398;-1;-1;-1;-1;Zamboanga-Taguima
 2703;8721;sea;1398;-1;-1;-1;-1;Lehad Datu-Taguima
-2686;8649;sea;1361;-1;-1;-1;-1;Bintan-Singapura
-597;8649;sea;1361;-1;-1;-1;-1;Johor-Singapura
+2686;4815;sea;1361;-1;-1;-1;-1;Bintan-Singapura
+597;4815;sea;1361;-1;-1;-1;-1;Johor-Singapura
 4351;8714;sea;1397;-1;-1;-1;-1;Buglas-Subanen
 4352;4353;sea;1397;-1;-1;-1;-1;Cebu-Leyte
 2699;8716;sea;1397;-1;-1;-1;-1;Bikol-Masbate
@@ -162,7 +162,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 6056;6055;sea;1503;-1;-1;-1;-1;Andros-Nassau
 6055;5574;sea;1503;-1;-1;-1;-1;Nassau-Eluthera
 6055;6052;sea;1503;-1;-1;-1;-1;Nassau-Exuma
-6504;5574;sea;1503;-1;-1;-1;-1;Mamana-Eleuthera
+6054;5574;sea;1503;-1;-1;-1;-1;Mamana-Eleuthera
 6054;6053;sea;1503;-1;-1;-1;-1;Mamana-SanSalvador
 6054;5575;sea;1503;-1;-1;-1;-1;Mamana-LongIsland
 6052;5575;sea;1503;-1;-1;-1;-1;Exuma-LongIsland

@@ -238,7 +238,12 @@ globe_theatre = {
 	type = monument
 
 	#can we build it?
-	build_trigger = {
+	build_trigger = {		#famous for Shakespeare plays, this limitation represents that
+		culture = english
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#what to do when it's built
@@ -250,11 +255,21 @@ globe_theatre = {
 	}
 
 	#can our country use it?
-	can_use_modifiers_trigger = {
+	can_use_modifiers_trigger = {		#famous for Shakespeare plays, this limitation represents that
+		culture = english
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country upgrade it?
-	can_upgrade_trigger = {
+	can_upgrade_trigger = {		#famous for Shakespeare plays, this limitation represents that
+		culture = english
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -313,7 +328,6 @@ globe_theatre = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			prestige = 0.25
-			legitimacy = 1
 			monthly_splendor = 1
 		}
 
@@ -335,7 +349,6 @@ globe_theatre = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			#local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -347,7 +360,7 @@ globe_theatre = {
 		country_modifiers = {
 			burghers_loyalty_modifier = 0.05
 			prestige = 0.5
-			legitimacy = 2
+			legitimacy = 0.5
 			monthly_splendor = 2
 		}
 
@@ -369,7 +382,6 @@ globe_theatre = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			#local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -382,7 +394,7 @@ globe_theatre = {
 			global_unrest = -1
 			burghers_loyalty_modifier = 0.1
 			prestige = 1
-			legitimacy = 5
+			legitimacy = 1
 			monthly_splendor = 3
 		}
 
@@ -667,10 +679,12 @@ leaning_tower = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_culture_conversion_cost = -0.05 #The Leaning Tower is a sign of Pisan/Tuscan pride
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			innovativeness_gain = 0.05 #Galileo used the tower to demonstrate the law of free fall 
 			church_loyalty_modifier = 0.025 #Belltower of the Pisa Cathedral
 		}
 
@@ -736,7 +750,6 @@ leaning_tower = {
 		country_modifiers = {
 			innovativeness_gain = 0.2 #Galileo used the tower to demonstrate the law of free fall 
 			church_loyalty_modifier = 0.1 #Belltower of the Pisa Cathedral
-			church_influence_modifier = 0.1
 			promote_culture_cost = -0.2 
 			culture_conversion_cost = -0.1
 
@@ -841,6 +854,7 @@ great_lighthouse = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			block_slave_raid = yes
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -849,6 +863,8 @@ great_lighthouse = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			light_ship_cost = -0.1
+			global_ship_trade_power = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -869,14 +885,18 @@ great_lighthouse = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			province_trade_power_modifier = 0.10
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			block_slave_raid = yes
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			light_ship_cost = -0.15
+			global_ship_trade_power = 0.15
 		}
 
 		#what effects happen when this tier is achieved
@@ -897,14 +917,18 @@ great_lighthouse = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			province_trade_power_modifier = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			block_slave_raid = yes
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			light_ship_cost = -0.2
+			global_ship_trade_power = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -1113,13 +1137,23 @@ mosque_cathedral = {
 	move_days_per_unit_distance = 10
 	
 	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 1
+	starting_tier = 2
 	
 	#project type
 	type = monument
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			AND = {
+				religion_group = muslim
+				has_owner_religion = yes
+			}
+			AND = {
+				religion_group = christian
+				has_owner_religion = yes
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -1132,10 +1166,30 @@ mosque_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				religion_group = muslim
+				has_owner_religion = yes
+			}
+			AND = {
+				religion_group = christian
+				has_owner_religion = yes
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				religion_group = muslim
+				has_owner_religion = yes
+			}
+			AND = {
+				religion_group = christian
+				has_owner_religion = yes
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1192,10 +1246,17 @@ mosque_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_heathen_missionary_strength = 0.01
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
+			}
 		}
 	}
 
@@ -1220,10 +1281,19 @@ mosque_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			church_loyalty_modifier = 0.05
+			global_heathen_missionary_strength = 0.02
+			warscore_cost_vs_other_religion = -0.05
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
+			}
 		}
 	}
 
@@ -1248,10 +1318,19 @@ mosque_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			church_loyalty_modifier = 0.1
+			global_missionary_strength = 0.02
+			warscore_cost_vs_other_religion = -0.10
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
+			}
 		}
 	}
 }
@@ -1285,6 +1364,10 @@ sdc_cathedral = {
 
 	#can we build it?
 	build_trigger = {
+		AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
 	}
 
 	#what to do when it's built
@@ -1297,10 +1380,18 @@ sdc_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1349,6 +1440,7 @@ sdc_cathedral = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -1361,6 +1453,12 @@ sdc_cathedral = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
+			}
 		}
 	}
 
@@ -1377,6 +1475,7 @@ sdc_cathedral = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_tax_modifier = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -1385,10 +1484,18 @@ sdc_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			papal_influence_from_cardinals = 0.025
+			enforce_religion_cost = -0.1
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
+			}
 		}
 	}
 
@@ -1409,14 +1516,24 @@ sdc_cathedral = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_tax_modifier = 0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			papal_influence_from_cardinals = 0.05
+			enforce_religion_cost = -0.2
+			manpower_in_true_faith_provinces= 0.10
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
+			}
 		}
 	}
 }
@@ -1443,13 +1560,17 @@ lindisfarne = {
 	move_days_per_unit_distance = 10
 	
 	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 0
+	starting_tier = 1
 	
 	#project type
 	type = monument
 
 	#can we build it?
-	build_trigger = {
+	build_trigger = {			#Fell into disrepair after reformation until 1860 restoration
+		AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
 	}
 
 	#what to do when it's built
@@ -1461,11 +1582,19 @@ lindisfarne = {
 	}
 
 	#can our country use it?
-	can_use_modifiers_trigger = {
+	can_use_modifiers_trigger = {		#Fell into disrepair after reformation until 1860 restoration
+		AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
 	}
 
 	#can our country upgrade it?
-	can_upgrade_trigger = {
+	can_upgrade_trigger = {			#Fell into disrepair after reformation until 1860 restoration
+		AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1518,10 +1647,12 @@ lindisfarne = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_prosperity_growth = 0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			establish_order_cost = -0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -1546,10 +1677,14 @@ lindisfarne = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_prosperity_growth = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			stability_cost_modifier = -0.05
+			establish_order_cost = -0.2
+			missionary_maintenance_cost = -0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -1574,10 +1709,15 @@ lindisfarne = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_prosperity_growth = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			stability_cost_modifier = -0.10
+			establish_order_cost = -0.2
+			missionary_maintenance_cost = -0.1
+			own_coast_naval_combat_bonus = 1.0
 		}
 
 		#what effects happen when this tier is achieved
@@ -1615,6 +1755,8 @@ mont_saint_michel = {
 
 	#can we build it?
 	build_trigger = {
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -1627,10 +1769,14 @@ mont_saint_michel = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1679,6 +1825,8 @@ mont_saint_michel = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.1	#Very hard to lay siege, technically never taken over by England it was so hard to get to
+			local_hostile_attrition = 1	#Rising tides were a major hazard to invading armies
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -1707,6 +1855,10 @@ mont_saint_michel = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_unrest = -1
+			hostile_disembark_speed = 0.5
+			local_defensiveness = 0.2	#Very hard to lay siege, technically never taken over by England it was so hard to get to
+			local_hostile_attrition = 2	#Rising tides were a major hazard to invading armies
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -1715,6 +1867,7 @@ mont_saint_michel = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_missionary_strength = 0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -1735,14 +1888,19 @@ mont_saint_michel = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.2	#Very hard to lay siege, technically never taken over by England it was so hard to get to
+			local_hostile_attrition = 3	#Rising tides were a major hazard to invading armies
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			hostile_disembark_speed = 1
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_missionary_strength = 0.02
 		}
 
 		#what effects happen when this tier is achieved
@@ -1780,6 +1938,11 @@ sanssouci = {
 
 	#can we build it?
 	build_trigger = {
+		culture_group = germanic
+		OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+		}
 	}
 
 	#what to do when it's built
@@ -1792,10 +1955,20 @@ sanssouci = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture_group = germanic
+		OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture_group = germanic
+		OR = {
+				has_owner_culture = yes
+				has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1852,6 +2025,8 @@ sanssouci = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			improve_relation_modifier = 0.1
+			monthly_militarized_society = 0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -1880,6 +2055,10 @@ sanssouci = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			nobles_loyalty_modifier = 0.05
+			nobles_influence_modifier = 0.05
+			improve_relation_modifier = 0.1
+			monthly_militarized_society = 0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -1908,6 +2087,11 @@ sanssouci = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			nobles_loyalty_modifier = 0.1
+			nobles_influence_modifier = 0.1
+			improve_relation_modifier = 0.15
+			monthly_militarized_society = 0.02
+			yearly_absolutism = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -1945,6 +2129,8 @@ teotihuacan = {
 
 	#can we build it?
 	build_trigger = {
+		religion_group = pagan
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -1957,10 +2143,14 @@ teotihuacan = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		religion_group = pagan
+		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		religion_group = pagan
+		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2017,6 +2207,9 @@ teotihuacan = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_own = 1
+			infantry_power = 0.05
+			prestige = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -2045,6 +2238,10 @@ teotihuacan = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_own = 1
+			infantry_power = 0.10
+			prestige_from_land = 0.10
+			prestige = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -2073,6 +2270,10 @@ teotihuacan = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_own = 1.5
+			infantry_power = 0.15
+			prestige_from_land = 0.10
+			prestige = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -2187,8 +2388,6 @@ mt_athos = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			min_local_autonomy = 2.5
-			local_tax_modifier = 0.05
 			local_unrest = -1
 		}
 
@@ -2198,7 +2397,6 @@ mt_athos = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_heretic_missionary_strength = 0.01
 			missionaries = 1
 		}
 
@@ -2220,18 +2418,16 @@ mt_athos = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			min_local_autonomy = 5
-			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_unrest = -2
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_heretic_missionary_strength = 0.02
+			global_heretic_missionary_strength = 0.01
 			missionaries = 1
 		}
 
@@ -2253,20 +2449,17 @@ mt_athos = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			min_local_autonomy = 10
-			local_religious_unity_contribution = 0.1
-			local_tax_modifier = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_unrest = -5
+			local_unrest = -2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_missionary_strength = 0.04
-			missionaries = 1
+			global_missionary_strength = 0.01
+			missionaries = 2
 		}
 
 		#what effects happen when this tier is achieved
@@ -2311,9 +2504,7 @@ mt_olympus = {
 			}
 			AND = {
 				culture_group = byzantine
-				OR = {
-					has_owner_culture = yes
-				}
+				has_owner_culture = yes
 			}
 		}	
 	}
@@ -2335,9 +2526,7 @@ mt_olympus = {
 			}
 			AND = {
 				culture_group = byzantine
-				OR = {
-					has_owner_culture = yes
-				}
+				has_owner_culture = yes
 			}
 		}	
 	}
@@ -2351,9 +2540,7 @@ mt_olympus = {
 			}
 			AND = {
 				culture_group = byzantine
-				OR = {
-					has_owner_culture = yes
-				}
+				has_owner_culture = yes
 			}
 		}	
 	}
@@ -2404,17 +2591,16 @@ mt_olympus = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			institution_growth = 1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_institution_spread = 0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			monthly_reform_progress_modifier = 0.05
-			warscore_cost_vs_other_religion = -0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -2439,14 +2625,12 @@ mt_olympus = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			institution_growth = 1
+			local_institution_spread = 0.3
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.5
 			monthly_reform_progress_modifier = 0.1
-			warscore_cost_vs_other_religion = -0.20
 		}
 
 		#what effects happen when this tier is achieved
@@ -2471,14 +2655,12 @@ mt_olympus = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			institution_growth = 2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 1
-			monthly_reform_progress_modifier = 0.2
-			warscore_cost_vs_other_religion = -0.30
+			global_institution_spread = 0.25
+			monthly_reform_progress_modifier = 0.1
 			advisor_pool = 1
 		}
 
@@ -2493,7 +2675,7 @@ shibam_hadramawt = {
 	start = 2343		#Hadramut
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1444.01.01	#built around 16th century	
+	date = 1444.01.01	#most of earliest buildings built around 16th century, although mosque is 9th-10th century and castle is 13th
 	
 	#time to build
 	time = {
@@ -2517,6 +2699,11 @@ shibam_hadramawt = {
 
 	#can we build it?
 	build_trigger = {
+		culture_group = turko_semitic
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#what to do when it's built
@@ -2529,10 +2716,20 @@ shibam_hadramawt = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture_group = turko_semitic
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture_group = turko_semitic
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2581,6 +2778,9 @@ shibam_hadramawt = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			trade_goods_size_modifier = 0.10		#Located at an important caravan halt on the spice and incense route across the Southern Arabian plateau
+			province_trade_power_modifier = 0.1
+			local_defensiveness = 0.2		#built to protect against Bedouin raids
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -2609,10 +2809,13 @@ shibam_hadramawt = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.3		#built to protect against Bedouin raids
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			trade_goods_size_modifier = 0.10		#Located at an important caravan halt on the spice and incense route across the Southern Arabian plateau
+			province_trade_power_modifier = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -2637,18 +2840,22 @@ shibam_hadramawt = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.4		#built to protect against Bedouin raids
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			trade_goods_size_modifier = 0.20		#Located at an important caravan halt on the spice and incense route across the Southern Arabian plateau
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_trade_power = 0.1
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			center_of_trade = 1		#Located at an important caravan halt on the spice and incense route across the Southern Arabian plateau
 		}
 	}
 }
@@ -2866,7 +3073,7 @@ rock_cashel = {
 				}
 			}
 			AND = {
-				culture = hiberno_norman
+				culture = anglo_irish
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
@@ -2896,7 +3103,7 @@ rock_cashel = {
 				}
 			}
 			AND = {
-				culture = hiberno_norman
+				culture = anglo_irish
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
@@ -2916,7 +3123,7 @@ rock_cashel = {
 				}
 			}
 			AND = {
-				culture = hiberno_norman
+				culture = anglo_irish
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
@@ -3046,7 +3253,6 @@ rock_cashel = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_defensiveness = 0.30
-			garrison_size = 0.10
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3101,6 +3307,8 @@ aula_palatina = {
 
 	#can we build it?
 	build_trigger = {
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -3113,10 +3321,14 @@ aula_palatina = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3165,6 +3377,7 @@ aula_palatina = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_religious_conversion_resistance = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3173,6 +3386,8 @@ aula_palatina = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			prestige_per_development_from_conversion = 0.02
+			devotion = 0.5		#Home of the Bishop of Trier, thus bonus to theocracies
 		}
 
 		#what effects happen when this tier is achieved
@@ -3197,10 +3412,14 @@ aula_palatina = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_religious_conversion_resistance = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			prestige_per_development_from_conversion = 0.05
+			church_loyalty_modifier = 0.05
+			devotion = 1		#Home of the Bishop of Trier, thus bonus to theocracies
 		}
 
 		#what effects happen when this tier is achieved
@@ -3225,10 +3444,15 @@ aula_palatina = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_religious_conversion_resistance = 0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			prestige_per_development_from_conversion = 0.1
+			missionaries = 1
+			church_loyalty_modifier = 0.1
+			devotion = 1.5		#Home of the Bishop of Trier, thus bonus to theocracies
 		}
 
 		#what effects happen when this tier is achieved
@@ -3266,6 +3490,11 @@ red_fort = {
 
 	#can we build it?
 	build_trigger = {
+		owner = {
+			capital_scope = {
+				superregion = india_superregion
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -3278,10 +3507,20 @@ red_fort = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		owner = {
+			capital_scope = {
+				superregion = india_superregion
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		owner = {
+			capital_scope = {
+				superregion = india_superregion
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3330,6 +3569,7 @@ red_fort = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_autonomy = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3338,6 +3578,7 @@ red_fort = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			advisor_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -3362,10 +3603,13 @@ red_fort = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_autonomy = -0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			advisor_cost = -0.1
+			autonomy_change_time = -0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -3394,6 +3638,9 @@ red_fort = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			advisor_cost = -0.15
+			autonomy_change_time = -0.25
+			global_autonomy = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -3431,6 +3678,20 @@ potala_palace = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {		
+			AND = {
+				religion = buddhism
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = vajrayana
+				has_owner_religion = yes
+			}
+			AND= {
+				religion = mahayana
+				has_owner_religion = yes
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -3443,10 +3704,38 @@ potala_palace = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {		
+			AND = {
+				religion = buddhism
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = vajrayana
+				has_owner_religion = yes
+			}
+			AND= {
+				religion = mahayana
+				has_owner_religion = yes
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {		
+			AND = {
+				religion = buddhism
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = vajrayana
+				has_owner_religion = yes
+			}
+			AND= {
+				religion = mahayana
+				has_owner_religion = yes
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3503,6 +3792,9 @@ potala_palace = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			diplomatic_reputation = 0.5
+			yearly_karma_decay = 0.01
+			tolerance_own = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -3531,6 +3823,9 @@ potala_palace = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			diplomatic_reputation = 1
+			yearly_karma_decay = 0.02
+			tolerance_own = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -3559,6 +3854,9 @@ potala_palace = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			diplomatic_reputation = 1.5
+			yearly_karma_decay = 0.03
+			tolerance_own = 1.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -3589,7 +3887,7 @@ theodosian_walls = {
 	move_days_per_unit_distance = 10
 	
 	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 1
+	starting_tier = 2
 	
 	#project type
 	type = monument
@@ -3660,8 +3958,8 @@ theodosian_walls = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.1
-			fort_level = 1
+			local_defensiveness = 0.25
+			garrison_size = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3690,9 +3988,8 @@ theodosian_walls = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.2
-			fort_level = 2
-			garrison_growth = 0.01
+			local_defensiveness = 0.5
+			garrison_size = 0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3701,7 +3998,7 @@ theodosian_walls = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			leader_siege = 1
+			prestige = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -3723,8 +4020,7 @@ theodosian_walls = {
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_defensiveness = 0.5
-			fort_level = 3
-			garrison_growth = 0.05
+			garrison_size = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -3734,7 +4030,7 @@ theodosian_walls = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			garrison_size = 0.10
+			prestige = 1
 			leader_siege = 1
 		}
 
@@ -3773,6 +4069,34 @@ mahabodhi_temple = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {		
+			AND = {
+				religion = buddhism
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = vajrayana
+				has_owner_religion = yes
+			}
+			AND= {
+				religion = mahayana
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -3785,10 +4109,66 @@ mahabodhi_temple = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {		
+			AND = {
+				religion = buddhism
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = vajrayana
+				has_owner_religion = yes
+			}
+			AND= {
+				religion = mahayana
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {		
+			AND = {
+				religion = buddhism
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = vajrayana
+				has_owner_religion = yes
+			}
+			AND= {
+				religion = mahayana
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = hinduism
+				has_owner_religion = yes
+				owner = {
+					has_personal_deity = buddha	
+				}						
+			}
+			AND = {
+				religion = shamanism
+				has_owner_religion = yes
+				owner = {
+					has_unlocked_cult = buddhism_cult	
+				}				
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3841,10 +4221,12 @@ mahabodhi_temple = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -0.5
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_heathen_missionary_strength = 0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -3869,10 +4251,13 @@ mahabodhi_temple = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_heathen_missionary_strength = 0.015
+			yearly_karma_decay = 0.01
 		}
 
 		#what effects happen when this tier is achieved
@@ -3897,10 +4282,13 @@ mahabodhi_temple = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_missionary_strength = 0.015
+			yearly_karma_decay = 0.02
 		}
 
 		#what effects happen when this tier is achieved
@@ -3938,6 +4326,8 @@ meenakshi_temple = {
 
 	#can we build it?
 	build_trigger = {
+		religion = hinduism
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -3950,10 +4340,14 @@ meenakshi_temple = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		religion = hinduism
+		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		religion = hinduism
+		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -4010,6 +4404,8 @@ meenakshi_temple = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			brahmins_hindu_loyalty_modifier = 0.05
+			heir_chance = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -4030,6 +4426,7 @@ meenakshi_temple = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4038,6 +4435,8 @@ meenakshi_temple = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			brahmins_hindu_loyalty_modifier = 0.1
+			heir_chance = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -4058,6 +4457,7 @@ meenakshi_temple = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4066,6 +4466,8 @@ meenakshi_temple = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			brahmins_hindu_loyalty_modifier = 0.15
+			heir_chance = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -4103,6 +4505,9 @@ schonbrunn_palace = {
 
 	#can we build it?
 	build_trigger = {
+		owner = {
+			government_rank = 3
+		}
 	}
 
 	#what to do when it's built
@@ -4115,10 +4520,16 @@ schonbrunn_palace = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		owner = {
+			government_rank = 3
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		owner = {
+			government_rank = 3
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -4175,6 +4586,8 @@ schonbrunn_palace = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			improve_relation_modifier = 0.1
+			legitimacy = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -4203,6 +4616,10 @@ schonbrunn_palace = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			improve_relation_modifier = 0.15
+			legitimacy = 1
+			yearly_absolutism = 0.1
+			reduced_liberty_desire_on_same_continent = 5
 		}
 
 		#what effects happen when this tier is achieved
@@ -4231,6 +4648,11 @@ schonbrunn_palace = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			improve_relation_modifier = 0.2
+			legitimacy = 1
+			yearly_absolutism = 0.1
+			max_absolutism = 10
+			reduced_liberty_desire_on_same_continent = 10
 		}
 
 		#what effects happen when this tier is achieved
@@ -4340,10 +4762,19 @@ st_basils_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_heathen_missionary_strength = 0.01
+			culture_conversion_cost = -0.1
+			tolerance_own = 0.25
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
+			}
 		}
 	}
 
@@ -4368,10 +4799,20 @@ st_basils_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			missionaries = 1
+			global_heathen_missionary_strength = 0.02
+			culture_conversion_cost = -0.15
+			tolerance_own = 0.5
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
+			}
 		}
 	}
 
@@ -4396,10 +4837,20 @@ st_basils_cathedral = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			missionaries = 1
+			global_missionary_strength = 0.03
+			culture_conversion_cost = -0.2
+			tolerance_own = 1
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 5
+				}
+			}
 		}
 	}
 }
@@ -4433,6 +4884,24 @@ solovetsky_monastery = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {		
+			AND = {
+				religion = orthodox
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = coptic
+				has_owner_religion = yes
+			}		
+			AND = {
+				religion = apostolic
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = catholic
+				has_owner_religion = yes
+			}
+		}	
 	}
 
 	#what to do when it's built
@@ -4445,10 +4914,46 @@ solovetsky_monastery = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {		
+			AND = {
+				religion = orthodox
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = coptic
+				has_owner_religion = yes
+			}		
+			AND = {
+				religion = apostolic
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = catholic
+				has_owner_religion = yes
+			}
+		}	
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {		
+			AND = {
+				religion = orthodox
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = coptic
+				has_owner_religion = yes
+			}		
+			AND = {
+				religion = apostolic
+				has_owner_religion = yes
+			}
+			AND = {
+				religion = catholic
+				has_owner_religion = yes
+			}
+		}	
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -4497,10 +5002,12 @@ solovetsky_monastery = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			trade_value_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			trade_goods_size_modifier = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -4525,14 +5032,18 @@ solovetsky_monastery = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			trade_value_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			trade_goods_size_modifier = 0.15
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			missionary_maintenance_cost = -0.05
+			yearly_patriarch_authority = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -4553,18 +5064,24 @@ solovetsky_monastery = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			trade_value_modifier = 0.2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			trade_goods_size_modifier = 0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_heretic_missionary_strength = 0.01
+			missionary_maintenance_cost = -0.1
+			yearly_patriarch_authority = 0.05
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			center_of_trade = 1		#In the 15th and 16th centuries, the monastery extended its commercial activities, becoming an economic and political center of the White Sea region.
 		}
 	}
 }
@@ -4598,6 +5115,8 @@ aachen_cathedral = {
 
 	#can we build it?
 	build_trigger = {
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -4610,10 +5129,14 @@ aachen_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -4662,7 +5185,7 @@ aachen_cathedral = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_unrest = -2
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4696,7 +5219,7 @@ aachen_cathedral = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_unrest = -2
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -4710,7 +5233,7 @@ aachen_cathedral = {
 			owner = {
 				add_estate_loyalty = {
 					estate = estate_church
-					loyalty = 10
+					loyalty = 5
 				}
 			}
 		}
@@ -4733,13 +5256,14 @@ aachen_cathedral = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_unrest = -3
+			local_unrest = -2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			tolerance_own = 1
 			church_loyalty_modifier = 0.05
+			imperial_authority = 0.1 #Dub recommended
 			imperial_authority_value = 0.05 #flat bonus
 		}
 
@@ -4748,7 +5272,7 @@ aachen_cathedral = {
 			owner = {
 				add_estate_loyalty = {
 					estate = estate_church
-					loyalty = 10
+					loyalty = 5
 				}
 			}
 		}
@@ -4848,6 +5372,7 @@ herrenhausen_gardens = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_development_cost = -0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -4856,6 +5381,7 @@ herrenhausen_gardens = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			same_culture_advisor_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -4880,10 +5406,13 @@ herrenhausen_gardens = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			same_culture_advisor_cost = -0.1
+			diplomatic_reputation = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -4912,6 +5441,10 @@ herrenhausen_gardens = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			advisor_cost = -0.1
+			num_accepted_cultures = 1
+			diplomatic_reputation = 0.5
+			development_cost = -0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -4949,6 +5482,8 @@ meroe_pyramids = {
 
 	#can we build it?
 	build_trigger = {
+		religion_group = pagan
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -4961,10 +5496,14 @@ meroe_pyramids = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		religion_group = pagan
+		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		religion_group = pagan
+		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -5021,6 +5560,8 @@ meroe_pyramids = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			prestige_decay = -0.0025
+			legitimacy = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -5049,6 +5590,10 @@ meroe_pyramids = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			prestige_decay = -0.005
+			legitimacy = 0.5
+			tolerance_own = 0.5
+			num_accepted_cultures = 1
 		}
 
 		#what effects happen when this tier is achieved
@@ -5077,6 +5622,10 @@ meroe_pyramids = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			prestige_decay = -0.005
+			legitimacy = 1
+			tolerance_own = 1
+			num_accepted_cultures = 2
 		}
 
 		#what effects happen when this tier is achieved
@@ -5114,6 +5663,10 @@ palace_of_the_popes = {
 
 	#can we build it?
 	build_trigger = {
+		AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
 	}
 
 	#what to do when it's built
@@ -5126,10 +5679,18 @@ palace_of_the_popes = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		AND = {
+			religion = catholic
+			has_owner_religion = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -5186,6 +5747,8 @@ palace_of_the_popes = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			diplomatic_reputation = 0.5
+			idea_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -5214,6 +5777,9 @@ palace_of_the_popes = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			diplomatic_reputation = 1
+			idea_cost = -0.1
+			advisor_cost = -0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -5242,6 +5808,10 @@ palace_of_the_popes = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			diplomatic_reputation = 1.5
+			idea_cost = -0.1
+			advisor_cost = -0.15
+			governing_capacity_modifier = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -5279,6 +5849,9 @@ imperial_gardens = {		#Old Summer Palace
 
 	#can we build it?
 	build_trigger = {
+		owner = {
+			is_emperor_of_china = yes
+		}
 	}
 
 	#what to do when it's built
@@ -5291,10 +5864,16 @@ imperial_gardens = {		#Old Summer Palace
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		owner = {
+			is_emperor_of_china = yes
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		owner = {
+			is_emperor_of_china = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -5351,6 +5930,8 @@ imperial_gardens = {		#Old Summer Palace
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			prestige = 0.5
+			envoy_travel_time = -0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -5379,6 +5960,9 @@ imperial_gardens = {		#Old Summer Palace
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			prestige = 1
+			diplomatic_reputation = 0.5
+			envoy_travel_time = -0.15
 		}
 
 		#what effects happen when this tier is achieved
@@ -5407,171 +5991,9 @@ imperial_gardens = {		#Old Summer Palace
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-}
-
-lincoln_cathedral = {
-	# province it starts in
-	start = 243		#Lincoln
-	
-	# date built in real life (so anything built during game time will be there if you start a game after that date)
-	date = 1092.01.01
-	
-	#time to build
-	time = {
-		months = 0
-	}
-	
-	#how much to build one
-	build_cost = 0
-	
-	#can we move it?
-	can_be_moved = no
-	
-	#time to move the project one unit of distance, in days
-	move_days_per_unit_distance = 10
-	
-	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
-	starting_tier = 1
-	
-	#project type
-	type = monument
-
-	#can we build it?
-	build_trigger = {
-	}
-
-	#what to do when it's built
-	on_built = {
-	}
-	
-	#what to do when it's destroyed
-	on_destroyed = {
-	}
-
-	#can our country use it?
-	can_use_modifiers_trigger = {
-	}
-
-	#can our country upgrade it?
-	can_upgrade_trigger = {
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
-	#tier data
-	tier_0 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 0
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 0
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 120
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 1000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 2500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 5000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
+			prestige = 1.5
+			diplomatic_reputation = 1
+			envoy_travel_time = -0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -6333,14 +6755,17 @@ segovia_alcazar = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			regiment_recruit_speed = -0.10
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			legitimacy = 0.5
 		}
 
 		#what effects happen when this tier is achieved
@@ -6361,14 +6786,18 @@ segovia_alcazar = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			regiment_recruit_speed = -0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			legitimacy = 1
+			drill_gain_modifier = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -6393,10 +6822,15 @@ segovia_alcazar = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			regiment_recruit_speed = -0.50
+			local_defensiveness = 0.2
+			local_state_maintenance_modifier = -0.30
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			legitimacy = 1
+			drill_gain_modifier = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -6498,6 +6932,8 @@ torre_del_oro = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_unrest = -1
+			local_manpower_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -6506,6 +6942,7 @@ torre_del_oro = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			yearly_army_professionalism = 0.002
 		}
 
 		#what effects happen when this tier is achieved
@@ -6530,10 +6967,13 @@ torre_del_oro = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -1
+			local_manpower_modifier = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			yearly_army_professionalism = 0.003
 		}
 
 		#what effects happen when this tier is achieved
@@ -6558,10 +6998,13 @@ torre_del_oro = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			global_manpower_modifier = 0.1
+			yearly_army_professionalism = 0.005
 		}
 
 		#what effects happen when this tier is achieved
@@ -6993,14 +7436,18 @@ hongan_ji = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -0.75
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_heretic = 0.5
+			church_loyalty_modifier = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -7021,14 +7468,20 @@ hongan_ji = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -0.75
+			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_heretic = 0.75
+			global_unrest = -0.5
+			church_loyalty_modifier = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -7049,14 +7502,20 @@ hongan_ji = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_unrest = -0.75
+			local_defensiveness = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			tolerance_heretic = 1
+			global_unrest = -1
+			church_loyalty_modifier = 0.15
 		}
 
 		#what effects happen when this tier is achieved

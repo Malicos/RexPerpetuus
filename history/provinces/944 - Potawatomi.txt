@@ -4,7 +4,7 @@
 add_core = POT
 owner = POT
 controller = POT
-culture = anishinabe
+culture = mesquakie
 religion = totemism
 capital = "Potawatomi"
 trade_goods = fur

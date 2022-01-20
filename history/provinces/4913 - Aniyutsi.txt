@@ -1,7 +1,7 @@
  
 # new in 1.31
 
-culture = chickasaw #was yuchi
+culture = yuchi
 religion = totemism
 capital = "Aniyutsi"
 hre = no
@@ -15,7 +15,7 @@ native_hostileness = 6
 
 discovered_by = north_american
 
-#1444.1.1 = { tribal_owner = CCA }
+1444.1.1 = { tribal_owner = CCA }
 1600.1.1 = {
 	tribal_owner = CCA
 	controller = CCA

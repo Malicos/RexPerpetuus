@@ -1,7 +1,7 @@
  
 # No previous file for Yustaga
 
-culture = creek
+culture = yamasee
 religion = totemism
 capital = "Yustaga"
 trade_goods = unknown

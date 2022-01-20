@@ -1,7 +1,7 @@
  
 # No previous file for Maliseet
 
-culture = abenaki
+culture = maliseet
 religion = totemism
 capital = "Arimoski"
 trade_goods = unknown
@@ -17,6 +17,7 @@ native_hostileness = 3
 
 discovered_by = north_american
 
+1444.1.1 = { tribal_owner = MLS }
 1536.5.1 = { discovered_by = FRA } # Jaques Cartier's second voyage
 
 1629.1.1 = { discovered_by = ENG }	# Vanilla who what where how

@@ -1,6 +1,7 @@
 # EOR - Eora.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 243  155  75 }
 revolutionary_colors = { 16 8 1 } #Aboriginal flag colours

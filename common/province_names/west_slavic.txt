@@ -1,8 +1,28 @@
-#Contributions from a wide range, including HR, Draiocht, JP, Arga, Math, Chrysocyon zdnp0003, Wielkobabita, Heinith and McLurr
-#(JP) Polish naming, will be overwritten by local files, slovak.txt, czech.txt, kashibian.txt, sorbian.txt and silesian.txt
+#Contributions from a wide range, including HR, Draiocht, JP, Arga, Math, Chrysocyon, zdnp0003, Wielkobabita, Heinith and McLurr
+#(JP) Polish naming, will be overwritten by local files, slovak.txt, czech.txt, kashubian.txt, sorbian.txt and silesian.txt
 #(JP) I have reorganised and cleaned up all the prior West Slavic naming to try and make it more legible, consistant and keep it easier to edit in future
 
 #Poland
+263 = { "Racibórz" "Racibórz" }
+264 = { "Wroclaw" "Wroclaw" }
+2966 = { "Glogów" "Glogów" }
+3142 = { "Opawa" "Opawa" }
+4238 = { "Legnica" "Legnica" }
+4723 = { "Opole" "Opole" }
+8176 = { "Oswiecim" "Oswiecim" }
+8221 = { "Cieszyn" "Cieszyn" }
+8234 = { "Luków" "Luków" }
+8239 = { "Osobloga" "Osobloga" }
+8240 = { "Bytom" "Bytom" }
+8241 = { "Kluczbork" "Kluczbork" }
+8243 = { "Olesnica" "Olesnica" }
+8244 = { "Brzeg" "Brzeg" }
+8245 = { "Scinawa" "Scinawa" }
+8246 = { "Krosno" "Krosno" }
+8247 = { "Zagan" "Zagan" }
+8248 = { "Jawor" "Jawor" }
+8249 = { "Swidnica" "Swidnica" }
+8251 = { "Nysa" "Nysa" }
 
 #Carpathia
 135 = { "Szopron" "Szopron" } 
@@ -19,17 +39,17 @@
 1318 = { "Spisz" "Lewocza" }
 1756 = { "Kilja" "Kilja" }
 1772 = { "Pozon" "Pozon" }
-#1864 Kaposvár
-#1951 Hunyad
+1864 = { "Kaposzwary" "Kaposzwary" }
+1951 = { "Hunjady" "Hunjady" }
 1952 = { "Chust" "Chust" } #(JP) Czecho-Slovak
 1953 = { "Níredháza" "Níredháza" } #(JP) Slovak
-#1954 Pancevo
+1954 = { "Panczewo" "Panczewo" }
 2405 = { "Orgiejów" "Orgiejów" }
 2998 = { "Buzów" "Buzów" } #(JP) or "Buzew"
 3146 = { "Uz" "Uzhorod" }
 3148 = { "Szolnok" "Szolnok" }
 3051 = { "Zelazno" "Zelazno" } #(Heinith) czech wiki says name means city of iron (zelazo)
-#3151 Zala/Zalaegerszeg
+3151 = { "Zalagerszag" "Zalagerszag" }
 3152 = { "Szatmar" "Szatmar" }
 3154 = { "Belgrad" "Belgrad" }
 3156 = { "Suczawa" "Suczawa" }
@@ -37,7 +57,7 @@
 3159 = { "Bielce" "Bielce" }
 3160 = { "Ilfow" "Bukareszt" }
 4125 = { "Heves" "Jagier" }
-#4126 Kiskunság/Kiskunhalas
+4126 = { "Rybnik Kumanski" "Rybnik Kumanski" }
 4127 = { "Bystrzyca" "Bystrzyca" }
 4128 = { "Braszów" "Braszów" }
 4173 = { "Szombor" "Szombor" }
@@ -46,7 +66,7 @@
 4529 = { "Jassy" "Jassy" }
 4530 = { "Galacz" "Galacz" }
 4531 = { "Jerzy" "Jerzy" }
-#4532 Severin
+4532 = { "Szeverin" "Szeverin" }
 7274 = { "Czerniowce" "Czerniowce" }
 7275 = { "Choczim" "Choczim" } #(JP) or "Chocim"
 7276 = { "Fokszany" "Fokszany" }
@@ -54,18 +74,18 @@
 7278 = { "Bialogród" "Bialogród" }
 7740 = { "Baczka" "Bacz" }
 7741 = { "Becesz" "Becesz" }
-7743 = { "Rešice" "Rešice" } #(JP) Czech
-#7744 Lugoj
-#7746 Caransebes
-#7748 Calafat
-#7749 Târgu Jiu
-#7750 Râmnicu Vâlcea
-#7751 Câmpulung
+7743 = { "Resice" "Resice" } #(JP) Czech
+7744 = { "Lugoj" "Lugoj" }
+7746 = { "Karansebesz" "Karansebesz" }
+7748 = { "Kalafat" "Kalafat" }
+7749 = { "Targil" "Targil" }
+7750 = { "Vilcea" "Vilcea" }
+7751 = { "Dlugopole" "Dlugopole" }
 7752 = { "Ardzesz" "Kurtja de Ardzesz" }
-#7753 Slatina
-#7754 Turnu
+7753 = { "Nowa Sól" "Nowa Sól" }
+7754 = { "Turna" "Turna" }
 7755 = { "Prahowa" "Ploeszti" }
-#7756 Lichiresti, later Calarasi
+7756 = { "Kelerasz" "Kelerasz" }
 7757 = { "Miasto Welny" "Miasto Welny" }
 7758 = { "Braila" "Braila" }
 8171 = { "Gusin" "Gusin" }
@@ -79,10 +99,10 @@
 8184 = { "Budín" "Budín" } #(JP) Czecho-Slovak
 8185 = { "Ráb" "Ráb" } #(JP) Slovak
 8186 = { "Vesprím" "Vesprím" } #(JP) Slovak
-#8190 Baranya/Pecs
-#8191 Tolna/Szekszárd
-#8192 Solt
-#8193 Jászság/Jászberény
+8190 = { "Pecz" "Pecz" }
+8191 = { "Seksar" "Seksar" }
+8192 = { "Szoltnowo" "Szoltnowo" }
+8193 = { "Jazygia" "Jazygaj" }
 8194 = { "Miszkolc" "Miszkolc" }
 8195 = { "Gemer" "Gemer" } #(JP) Slovak
 8196 = { "Koszyce" "Koszyce" }
@@ -90,27 +110,139 @@
 8198 = { "Bereg" "Mukaczewo" }
 8200 = { "Wielka Kumania" "Karszag" }
 8201 = { "Segedyn" "Segedyn" }
-#8203 Arad
+8203 = { "Arad" "Arad" }
 8204 = { "Syhot" "Syhot" }
-#8205 Doboka/Dej
-#8206 Szilagy/Simleu Silvaniei
+8205 = { "Desz" "Desz" }
+8206 = { "Silagi" "Szymlów" }
 8207 = { "Kluz" "Kluz" }
 8208 = { "Sybin" "Sybin" }
-#8209 Turda
+8209 = { "Torda" "Torda" }
 8210 = { "Fogarasz" "Fogarasz" }
 8211 = { "Swiety Jerzy" "Swiety Jerzy" } #(JP) town is "Saint George"
-#8212 Sumuleu Ciuc
+8212 = { "Sumuleu Ciuc" "Sumuleu Ciuc" } #(JP) Base name
 8213 = { "Sygiszoara" "Sygiszoara" }
-#8215 Reghin
+8215 = { "Regia" "Regia" }
 8218 = { "Debreczyn" "Debreczyn" }
 8219 = { "Wasijów" "Waslijów" } #(JP) "Vaslui", "V" -> "W", "i" -> "ijów". Could be very very very very wrong, please do correct me
 8220 = { "Kiszyniów" "Kiszyniów" }
-#8493 Zarand
-#8494 Prekmurje/Murska Sobota
-#8495 Kanizsa
-
+8493 = { "Zarandów" "Zarandów" }
+8494 = { "Zarmurzie" "Murska Sobota" }
+8495 = { "Kaniza" "Kaniza" }
 
 #Ruthenia
+261 = { "Halicz" "Halicz" }
+269 = { "Drohiczyn" "Drohiczyn" }
+270 = { "Troki" "Troki" }
+272 = { "Wilno" "Wilno" }
+275 = { "Polock" "Polock" }
+276 = { "Minsk" "Minsk" }
+277 = { "Brzesc" "Brzesc" }
+278 = { "Pinsk" "Pinsk" }
+279 = { "Wlodzimierz" "Wlodzimierz" }
+280 = { "Kijów" "Kijów" }
+281 = { "Kamieniec" "Kamieniec" }
+289 = { "Czernihów" "Czernihów" }
+290 = { "Poltawa" "Poltawa" }
+292 = { "Mohylów" "Mohylów" }
+297 = { "Briansk" "Briansk" }
+298 = { "Kursk" "Kursk" }
+770 = { "Oszmiana" "Oszmiana" }
+771 = { "Witebsk" "Witebsk" }
+1937 = { "Grodno" "Grodno" }
+1940 = { "Belz" "Belz" }
+1941 = { "Turów" "Turów" }
+1942 = { "Zytomierz" "Zytomierz" }
+1943 = { "Braclaw" "Braclaw" }
+1944 = { "Czerkasy" "Czerkasy" }
+1945 = { "Nowogród" "Nowogród" }
+2407 = { "Perejaslaw" "Perejaslaw" }
+2424 = { "Przemysl" "Przemysl" }
+2961 = { "Lwów" "Lwów" }
+2962 = { "Równe" "Równe" }
+3223 = { "Bialystok" "Bialystok" }
+3225 = { "Wylkowyszki" "Wylkowyszki" }
+3238 = { "Luck" "Luck" }
+3239 = { "Ploskirów" "Ploskirów" }
+3241 = { "Ilince" "Ilince" } #(JP) better than Kuzmyn
+3242 = { "Czehryn" "Czehryn" } #(JP) Motroninsky Monastery to Ukrainians for 1444 start
+3246 = { "Romny" "Romny" }
+3267 = { "Bielgorod" "Bielgorod" }
+3270 = { "Starodubie" "Starodubie" }
+4115 = { "Homel" "Homel" }
+4242 = { "Borysów" "Borysów" }
+4244 = { "Trubczewsk" "Trubczewsk" }
+4246 = { "Mscislaw" "Mscislaw" }
+4247 = { "Korosten" "Korosten" }
+4536 = { "Lida" "Lida" }
+4537 = { "Nowogródek" "Nowogródek" }
+4538 = { "Chelm" "Chelm" }
+4539 = { "Krzemieniec" "Krzemieniec" }
+4540 = { "Winnica" "Winnica" }
+4541 = { "Drohobycz" "Drohobycz" }
+4542 = { "Lubnie" "Lubnie" }
+4543 = { "Rylsk" "Rylsk" }
+4544 = { "Bobrujsk" "Bobrujsk" }
+4545 = { "Sluck" "Sluck" }
+5660 = { "Siebiez" "Siebiez" }
+5670 = { "Siewsk" "Siewsk" }
+7206 = { "Human" "Human" }
+7207 = { "Ostróg" "Ostróg" }
+7208 = { "Miedzybóz" "Miedzybóz" }
+7209 = { "Rybnica" "Rybnica" }
+7211 = { "Sejny" "Sejny" }
+7214 = { "Dryssa" "Dryssa" }
+7215 = { "Lepel" "Lepel" }
+7217 = { "Orsza" "Orsza" }
+7218 = { "Wilejka" "Wilejka" }
+7219 = { "Krewo" "Krewo" }
+7220 = { "Zaslaw" "Zaslaw" }
+7221 = { "Lohojsk" "Lohojsk" }
+7222 = { "Druck" "Druck" }
+7223 = { "Wolkowysk" "Wolkowysk" }
+7224 = { "Slonim" "Slonim" }
+7225 = { "Kojdanów" "Kojdanów" }
+7226 = { "Kopyl" "Kopyl" }
+7227 = { "Bialynicze" "Bialynicze" }
+7228 = { "Olewsk" "Olewsk" }
+7229 = { "Czausy" "Czausy" }
+7230 = { "Kobryn" "Kobryn" }
+7231 = { "Swislocz" "Swislocz" }
+7232 = { "Luniniec" "Luniniec" }
+7233 = { "Petrików" "Petrików" }
+7234 = { "Szacilki" "Szacilki" }
+7235 = { "Rohaczów" "Rohaczów" }
+7236 = { "Rzeczyca" "Rzeczyca" }
+7237 = { "Brahin" "Brahin" }
+7238 = { "Krzyczew" "Krzyczew" }
+7239 = { "Biala Cerkiew" "Biala Cerkiew" }
+7240 = { "Czeczersk" "Czeczersk" }
+7241 = { "Mozyrz" "Mozyrz" }
+7242 = { "Czarnobyl" "Czarnobyl" }
+7243 = { "Ratno" "Ratno" }
+7244 = { "Stepan" "Stepan" }
+7245 = { "Dabrowica" "Dabrowica" }
+7246 = { "Zwiahel" "Zwiahel" }
+7248 = { "Sosnica" "Sosnica" }
+7249 = { "Putywl" "Putywl" }
+7250 = { "Boryspol" "Boryspol" }
+7252 = { "Hadziacz" "Hadziacz" }
+7253 = { "Kamien Koszyrski" "Kamien Koszyrski" }
+7254 = { "Uszyca" "Uszyca" }
+7255 = { "Mirgorod" "Mirgorod" }
+7256 = { "Krzemienczuk" "Krzemienczuk" }
+7259 = { "Korsun" "Korsun" }
+7262 = { "Bielsk" "Bielsk" }
+7263 = { "Biala" "Biala" }
+7266 = { "Szczebrzeszyn" "Szczebrzeszyn" }
+7267 = { "Sanok" "Sanok" }
+7268 = { "Peremyl" "Peremyl" }
+7269 = { "Rohatyn" "Rohatyn" }
+7270 = { "Sambor" "Sambor" }
+7271 = { "Trembowla" "Trembowla" }
+7272 = { "Zaleszczyki" "Zaleszczyki" }
+7273 = { "Pokucie" "Kolomyja" }
+7858 = { "Glebokie" "Glebokie" }
+7882 = { "Poczep" "Poczep" }
 
 #Pontic Steppe
 
@@ -273,7 +405,7 @@
 7776 = { "Ezechów" "Ezechów" } #(Heinith) Ezechów ? from some old form "de Ezeho"
 7777 = { "Pinbork" "Pinbork" } #(Heinith) Pinbork ?
 7778 = { "Trzytal" "Trzytal" } #(Heinith) Trzytal ?
-7810 = { "Nowoszów" "Nowoszów" } #(Heinith) omg that germnan name, Neuhaus is so generic and Marschvogtei i wouldnt event try to pronounce :P, name i chose is polish name for diferent Neuhaus and Neu = Nowy
+7810 = { "Nowoszów" "Nowoszów" } #(Heinith) omg that germnan name, Neuhaus is so generic and Marschvogtei i wouldnt event try to pronounce P, name i chose is polish name for diferent Neuhaus and Neu = Nowy
 7811 = { "Zwierzyn" "Zwierzyn" }
 7812 = { "Parchim" "Parchim" } #(Heinith) my primary source that has shitload of polish names leaves that in specific as same name as german, no source for Parch
 7813 = { "Ostrow" "Ostrow" } #(Heinith) i have digital map that says Ostrów, no source for Guszczerow/Guszczerów other then Paradox Forums
@@ -292,6 +424,57 @@
 8265 = { "Gubin" "Gubin" }
 8266 = { "Lubusz" "Lubusz" }
 8268 = { "Zly Komorów" "Zly Komorów" }
+8269 = { "Sosna" "Sosna" }
+8270 = { "Kolonia nad Sprewa" "Kolonia nad Sprewa" }
+8271 = { "Jerychów" "Jerychów" }
+8272 = { "Mansfeldy" "Mansfeldy" }
+8273 = { "Dybno" "Dybno" }
+8274 = { "Torgawa" "Torgawa" }
+8276 = { "Misnia" "Misnia" }
+8277 = { "Donín" "Donín" }
+8278 = { "Kamienica Saska" "Kamienica Saska" }
+8279 = { "Gluchowe" "Gluchowe" }
+8280 = { "Altenborga" "Altenborga" }
+8281 = { "Gera" "Gera" }
+8282 = { "Biale Jezioro" "Biale Jezioro" }
+8283 = { "Specjalno" "Specjalno" }
+8284 = { "Mlynek" "Mlynek" }
+8285 = { "Ejzeny" "Ejzeny" }
+8286 = { "Rudolfice" "Rudolfice" }
+8287 = { "Kurnik" "Kurnik" }
+8288 = { "Dolna Haga" "Dolna Haga" }
+8289 = { "Halbertów" "Halbertów" }
+8290 = { "Holtezminia" "Holtezminia" }
+8291 = { "Hildesia" "Hildesia" }
+8292 = { "Nowe Miasto" "Nowe Miasto" }
+8293 = { "Wielorybnik" "Wielorybnik" }
+8294 = { "Wilkowo" "Wilkowo" }
+8295 = { "Weidars" "Weidars" }
+8296 = { "Ostrybród" "Ostrybród" }
+8297 = { "Wydry" "Wydry" }
+8298 = { "Wursty" "Wursty" }
+8402 = { "Szuwary" "Szuwary" }
+8403 = { "Lingo" "Lingo" }
+8404 = { "Kopenbork" "Kopenbork" }
+8405 = { "Drzyny" "Drzyny" }
+8406 = { "Tekla" "Tekla" }
+8407 = { "Krowipol" "Krowipol" }
+8408 = { "Soest" "Soest" }
+8409 = { "Disbera" "Disberga" }
+8410 = { "Morsy" "Morsy" }
+8411 = { "Prumia" "Prumia" }
+8412 = { "Bona" "Bona" }
+8413 = { "Soligownia" "Soligoawnia" }
+8414 = { "Sajny" "Sajny" }
+8415 = { "Spony" "Spony" }
+8416 = { "Walden" "Walden" }
+8417 = { "Witlisz" "Witlisz" }
+8425 = { "Waldek" "Waldek" }
+8426 = { "Melsja" "Melsja" }
+8427 = { "Siegny" "Siegny" }
+8428 = { "Weclar" "Weclar" }
+8429 = { "Hagenowa" "Hagenowa" }
+8430 = { "Kociolkowo" "Kociolkowo" }
 
 #South Germany
 64 = { "Lancut" "Lancut" } #(Heinith) seems strange, but it is Lancut
@@ -300,12 +483,12 @@
 67 = { "Norymberga" "Norymberga" } #(Heinith) proper polish
 68 = { "Memowo" "Memowo" } #(Heinith) wild guess
 69 = { "Rawenberga" "Rawenberga" } #(Heinith) wild guess
-70 = { "Sztutgard" "Sztutgard" } #(Heinith) Wirtebgergia seems outdated after so many provinces spawned from it sice eu3 (yes 3 :P)
+70 = { "Sztutgard" "Sztutgard" } #(Heinith) Wirtebgergia seems outdated after so many provinces spawned from it sice eu3 (yes 3 P)
 71 = { "Anszburga" "Anszburga" } #(Heinith) wild guess
 72 = { "Bryzgownia" "Fryburg" } #(Heinith) Fryburg is proper polish name, other one is polinized more, so i left this one since its just capital
 73 = { "Isnabryk" "Isnabryk" } #(Heinith) like Osnabryk
 74 = { "Badenia" "Badenia" } #(Heinith) taken from name of state, its the same tho
-75 = { "Sztrasburk" "Sztrasburk" } #(Heinith) since proper polish is Strasburg i used czech :P
+75 = { "Sztrasburk" "Sztrasburk" } #(Heinith) since proper polish is Strasburg i used czech P
 76 = { "Solnogród" "Solnogród" }
 77 = { "Hildeberga" "Hildeberga" } #(Heinith) wild guess
 78 = { "Moguncja" "Moguncja" } #(Heinith) proper polish 
@@ -331,7 +514,7 @@
 1869 = { "Zurych" "Zurych" } #(Heinith) proper polish
 1870 = { "Gawlno" "Gawlno" } #(Heinith) Gallen in polish is Gawel
 1871 = { "Syjon" "Syjon" } #(Heinith) wild guess
-1872 = { "Ulm" "Ulm" } #(Heinith) it was not germanized from celtic, so would not be polnized as well :P
+1872 = { "Ulm" "Ulm" } #(Heinith) it was not germanized from celtic, so would not be polnized as well
 1873 = { "Kuria" "Kuria" } #(Heinith) from capital name
 1880 = { "Cerekwica" "Cerekwica" } #(Heinith) its from Altenkirchen, not Altkirch but seems close enough
 2956 = { "Strubina" "Strubina" } #(Heinith) czech 
@@ -378,7 +561,7 @@
 7944 = { "Hagenin" "Hagenin" } #(Heinith) wild guess
 8216 = { "Ptuj" "Ptuj" } #(Heinith) slovien
 8217 = { "Metlika" "Metlika" } #(Heinith) slovien
-8236 = { "Unicow" "Unicow" } #(Heinith) swaped "v" with "w"
+8236 = { "Uniczow" "Uniczow" } #(Heinith) swaped "v" with "w"
 8237 = { "Znojmo" "Znojmo" } 
 8238 = { "Iglawa" "Iglawa" } #(Heinith) wiki says so
 8252 = { "Klodzko" "Klodzko" } 
@@ -396,23 +579,9 @@
 
 #Balkans
 
-4238 = "Legnica"
 
 #Mecklenburg
 3217 = "Starogród"
-
-#Lower Silesia
-2966 = { "Glogów" "Glogów" }
-
-#Middle Silesia
-8243 = { "Olesnica" "Olesnica" }
-8249 = { "Swidnica" "Swidnica" }
-
-#Upper Silesia
-263 = { "Racibórz" "Racibórz" }
-3142 = { "Opawa" "Opawa" }
-8221 = { "Cieszyn" "Cieszyn" }
-8239 = { "Osobloga" "Osobloga" }
 
 ##Kingdom of Poland
 
@@ -427,29 +596,16 @@
 110 = "Trydent"
 151 = "Carogród"
 262 = "Kraków"
-263 = "Racibórz"
-264 = "Wroclaw"
-270 = "Troki"
 271 = "Zmudz"
-272 = "Wilno"
 273 = "Inflanty"
 274 = "Psków"
-275 = "Polock"
-277 = "Brzesc"
-279 = "Wolyn"
-280 = "Kijów"
-281 = "Podole"
 282 = "Jedysan"
 284 = "Krym"
 285 = "Kaffa"
 286 = "Azow"
-289 = "Czernichów"
-290 = "Poltawa"
 291 = "Charków"
-292 = "Mohylew"
 294 = "Twer"
 295 = "Moskwa"
-297 = "Briansk"
 299 = "Woronez"
 301 = "Riazan"
 303 = "Saratów"
@@ -468,7 +624,6 @@
 468 = "Manycz"
 475 = "Baszkortostan"
 767 = "Szczytno"
-771 = "Witebsk"
 1079 = "Wiatka"
 1081 = "Symbirsk"
 1083 = "Wietluga"
@@ -477,11 +632,6 @@
 1769 = "Gorycja"
 1778 = "Kasimow"
 1842 = "Narwa"
-1941 = "Turów"
-1942 = "Zytomierz"
-1943 = "Braclaw"
-1944 = "Czerkasy"
-1945 = "Siewierszczyzna"
 1955 = "Cholmogory"
 1957 = "Galicz"
 1959 = "Torzok"
@@ -491,7 +641,6 @@
 1972 = "Udmurcja"
 1974 = "Cherson"
 2406 = "Oczaków"
-2407 = "Perejaslaw"
 2408 = "Lipieck"
 2410 = "Teodoro"
 2412 = "Melitopol"
@@ -501,38 +650,18 @@
 2420 = "Agidel"
 2421 = "Czystopol"
 2422 = "Czeboksary"
-2424 = "Przemysl"
 2427 = "Bielojarskij"
 2444 = "Zlatoust"
 2749 = "Tichwin"
 2959 = "Tarnów"
-2961 = "Lwów"
-2962 = "Równe"
-2966 = "Glogów"
-4115 = "Mozyrz"
 4117 = "Biezeck"
 4122 = "Szenkursk"
 4129 = "Stary Perm"
-4238 = "Lignica"
 4243 = "Toropiec"
-4244 = "Trubczewsk"
 4245 = "Wiazma"
-4246 = "Mscislaw"
 4260 = "Wysnij Woloczok"
 
 #BTP   -HR's Work
-261 = "Halicz"
-3142 = "Opawa"
-4537 = "Nowogródek"
-4242 = "Borysów"
-4545 = "Sluck"
-4115 = "Homel"
-#4541 = "Stryj"			#Overhauled changed what this province is.
-3238 = "Luck"
-3239 = "Zaslaw"
-4247 = "Korosten"
-3241 = "Winnica"
-3267 = "Bielgorod"
 3271 = "Bielyj"
 
 #Draiocht's work on the Russia overhaul
@@ -616,9 +745,6 @@
 #st lawrence bay
 2578 = "Wniebowziecie"
 
-#2017 Dec 19
-4244 = "Trubczewsk"
-
 #2018 Jan 2
 #Western Upper Oka
 5662 = "Masalsk"
@@ -639,7 +765,6 @@
 
 #Moscow
 5651 = "Zwienigorod"
-5670 = "Siewsk"
 5665 = "Wierieja"
 4251 = "Mozajsk"
 3290 = "Wolok" #I think? Polish Wikipedia has this in parenthesis and with such small provinces a shorter name is good?
@@ -649,8 +774,7 @@
 4249 = "Zubcow"
 4248 = "Kaszyn"
 
-#Misc ones:
-5660 = "Siebiez"
+#Misc ones
 4148 = "Wielkie Luki"
 5645 = "Porchow"
 3273 = "Russa"
@@ -659,45 +783,6 @@
 
 #nadruvia
 40 = "Kjalpeda"
-
-#trakai
-770 = "Krewo"
-7218 = "Wilejka"
-7219 = "Miadziol"
-
-#novgrudok
-7223 = "Wolkowysk"
-7226 = "Kopyl" #Note - "Nieswiez" would also be a good name for the province since it is very close and it had a bigger role as a Polish city. Also, if the province would be corrected to the shape of pre-WWII Poland, then Nieswiez would be the only apropriate name for the province since Kopyl stayed in the USSR. The Lithuanian name would then be Nesvyzius, Russian Nesvizh and Belarussian Niasviz.
-
-#minsk
-7220 = "Zaslaw"
-7221 = "Lohojsk"
-7225 = "Mogilno"			#(or Kojdanów since Mahilna in Belarus is so small that I couldn't find any info about it other than its localization)
-7231 = "Swislocz"
-
-#pripyat
-7232 = "Luniniec"
-7233 = "Petryków"
-7241 = "Mozyrz"
-7245 = "Dabrowica"
-
-#gomel
-7229 = "Czausy"
-7234 = "Swietlahorsk"
-7235 = "Rohaczów"
-7236 = "Rzeczyca"
-7238 = "Krzyczew"
-7240 = "Czeczersk"
-
-#bryansk
-7882 = "Poczep"
-
-#vitebsk
-7222 = "Druck"
-7227 = "Bialynicze"
-
-#polotsk
-7858 = "Glebokie" #Note - Glebokie laid inside pre-war Poland while the province seems to be outside of that border
 
 #toropets
 5661 = "Newel"			#(this province should also be changed to Nevel for East Slavic as Usvyaty is quite far from the center of the province)
@@ -709,24 +794,6 @@
 5684 = "Wieliz"
 5685 = "Roslaw"
 7881 = "Porzecze" #Note - Porzecze is now called Demidov and again, there are no Polish records about Verzhavsk while Porzecze was a name used until 1918, also when it laid in Grand Duchy of Lithuania
-
-#severia
-7249 = "Putywl"
-7252 = "Hadziacz"
-
-#kiev
-3242 = "Czehryn"
-7228 = "Olewsk"
-7239 = "Biala Cerkiew"
-7242 = "Czarnobyl"
-7246 = "Zwiahel"
-7259 = "Korsun"
-
-#east dnieper
-7248 = "Sosnica"
-7250 = "Boryspol"
-7255 = "Mirgorod"
-7256 = "Krzemienczuk"
 
 #slobozhanshchyna
 7205 = "Bielsk Slobodzki" #Note - "Belska Sloboda" is not a construction of a name familiar to Poland and considering that the family who found the settlement was Lithuanian, I changed the name so that it resembles the names from the Commonwealth
@@ -767,28 +834,6 @@
 7192 = "Symferopol"
 7193 = "Iczki"
 
-#podolia
-3241 = "Niemirów" #Note - this name (Nemyriv) would be also more appropriate for Ruthenian culture
-7206 = "Human"
-7208 = "Miedzybóz"
-7209 = "Rybnica"
-7254 = "Uszyca"
-7272 = "Zaleszczyki"
-
-#galicia
-7270 = "Sambor"
-7271 = "Trembowla"
-7273 = "Pokucie"
-
-#east volhynia
-4539 = "Krzemieniec"
-7207 = "Ostróg"
-
-#west volhynia
-279 = "Wlodzimierz" #Note - the name "Wolyn" or Volyn is now unfitting since it is only a small part of the region, thus I would suggest changing it to "Volodymyr" in Ruthenian and "Vladimir" in Russian
-7243 = "Ratno"
-7253 = "Kamien Koszyrski"
-
 5585 = "Swiety Bartlomiej"
 5586 = "Swiety Marcin"
 494 = "Swiety Krzysztof"
@@ -820,68 +865,23 @@
 
 #By Arga Oct 2020
 #1.30 fu ck duda update
-264 = { "Wroclaw" "Wroclaw" } #
-270 = { "Troki" "Troki" } #
-272 = { "Wilno" "Wilno" } #
-275 = { "Polock" "Polock" } #
-277 = { "Brzesc" "Brzesc" } #
-279 = { "Wlodzimierz" "Wlodzimierz" } #
 284 = { "Perekop" "Perekop" } #
-289 = { "Czernichów" "Czernichów" } #
-771 = { "Witebsk" "Witebsk" } #
 1859 = { "Chelmno" "Torun" } #
-1941 = { "Turów" "Turów" } #
-1945 = { "Siewierszczyzna" "Siewierszczyzna" } #
 1974 = { "Aleszki" "Aleszki" } #
 2412 = { "Melitopol" "Melitopol" } #
 2410 = { "Bakczysaraj" "Bakczysaraj" } #
-2962 = { "Równe" "Równe" } #
 3165 = { "Warna" "Warna" } #
-3238 = { "Luck" "Luck" } #
 3244 = { "Stary Krym" "Stary Krym" } #
-3267 = { "Bielgorod" "Bielgorod" } #
 3271 = { "Biala" "Biala" } #
 3301 = { "Dorohobuz" "Dorohobuz" } #
-4115 = { "Homel" "Homel" } #
-4238 = { "Lignica" "Lignica" } #
-4242 = { "Borysów" "Borysów" } #
 4243 = { "Toropiec" "Toropiec" } #
 4245 = { "Wiazma" "Wiazma" } #
-4537 = { "Nowogródek" "Nowogródek" } #
-4539 = { "Krzemieniec" "Krzemieniec" } #
-4544 = { "Bodrujsk" "Bodrujsk" } #
-4545 = { "Sluck" "Sluck" } #
-5660 = { "Siebiez" "Siebiez" } #
 5664 = { "Karaczew" "Karaczew" } #
 5666 = { "Mcensk" "Mcensk" } #
 5667 = { "Nowosil" "Nowosil" } #
-5670 = { "Siewsk" "Siewsk" } #
 5684 = { "Wieliz" "Wieliz" } #
 5685 = { "Roslaw" "Roslaw" } #
 7191 = { "Eupatoria" "Eupatoria" } #
 7192 = { "Symferopol" "Symferopol" } #
 7193 = { "Iczki" "Iczki" } #
 7202 = { "Aleksandrówka" "Aleksandrówka" } #
-7207 = { "Ostróg" "Ostróg" } #
-7218 = { "Wilejka" "Wilejka" } #
-7219 = { "Miadziol" "Miadziol" } #
-7220 = { "Zaslaw" "Zaslaw" } #
-7222 = { "Druck" "Druck" } #
-7223 = { "Wolkowysk" "Wolkowysk" } #
-7225 = { "Moglino" "Moglino" } #
-7226 = { "Kopyl" "Kopyl" } #
-7227 = { "Bialynicze" "Bialynicze" } #
-7229 = { "Czausy" "Czausy" } #
-7231 = { "Swislocz" "Swislocz" } #
-7232 = { "Luniniec" "Luniniec" } #
-7233 = { "Petryków" "Petryków" } #
-7236 = { "Rzeczyca" "Rzeczyca" } #
-7238 = { "Kryczew" "Kryczew" } #
-7241 = { "Mozyrz" "Mozyrz" } #
-7245 = { "Dabrowica" "Dabrowica" } #
-7248 = { "Sosnica" "Sosnica" } #
-7252 = { "Hadziacz" "Hadziacz" } #
-7253 = { "Kamien Koszyrski" "Kamien Koszyrski" } #
-7272 = { "Zaleszczyki" "Zaleszczyki" } #
-7858 = { "Glebokie" "Glebokie" } #
-7882 = { "Poczep" "Poczep" } #

@@ -1,7 +1,7 @@
  
 # No previous file for Mayaimi
 
-culture = creek			#changed from arawak, but not overhauled yet
+culture = yamasee			
 religion = totemism
 capital = "Mayaimi"
 trade_goods = unknown

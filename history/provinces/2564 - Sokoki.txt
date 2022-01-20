@@ -1,10 +1,14 @@
  
 # No previous file for Sokoki
 
+owner = ABE
+controller = ABE
+add_core = ABE
 culture = abenaki
 religion = totemism
 capital = "Sokoki"
-trade_goods = unknown
+trade_goods = naval_supplies
+is_city = yes
 hre = no
 base_tax = 1  
 base_production = 1 

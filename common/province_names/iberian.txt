@@ -951,7 +951,6 @@
 596 = { "Malaca" "Malaca" }
 574 = "Islas Andamán"			#No historical settlement name
 1644 = "Islas de Cocos"			#No historical settlement name
-1996 = "Isla de Navidad"		#No historical settlement name
 8581 = "Islas Nicobar"			#No historical settlement name
 
 #Sumatra
@@ -966,6 +965,46 @@
 #Lesser Sunda Islands
 
 #Polynesia
+1235 = { "Islas Marianas" "San Ignacio de Agaña" } #Marianne Islands + Guam 
+1236 = { "Nueva Gran Canaria" "Altura de Magallanes" } #New Britain
+1237 = { "Cola del Pájaro" "Puerto Mayoral" } #Port Moresby
+1238 = { "Islas Salomón" "Puerto de Santa Cruz" } #Solomon Islands 
+1239 = { "Islas Espíritu Santo" "Nueva Jerusalén" } #Vanuatu Island 
+1240 = { "Isla La Mesa" "Jilo" } #Hawaii Island 
+1241 = { "Isla Acea" "Madrid del Pacífico" } #Kiritimati Island 
+1242 = { "Isla Gran Fiyi" "Suva" } #Viti Levu 
+1243 = { "Islas Navegantes" "Apia" } #Samoa
+1244 = { "Islas Sagitárias" "Oneróa" } #Tuamotu Islands 
+1245 = { "Cabeza de Pájaro" "Fuerte Coronación" } #Manokwari
+1980 = { "Islas de los Amigos" "Nocualofa" } #Tonga
+1986 = { "Nueva Bética" "Puerto de España" } #New Caledonia
+1987 = { "Islas de la Sociedad" "La Pelada" } #Society Islands
+1988 = { "Isla de Pascua" "Bahía Larga" } #Easter Island  
+1990 = { "Islas Nombre de Jesús" "San Cristóbal Funafutí" } #Tuvalu
+1991 = { "Islas de Santa Catalina" "Tarava" } #Gilbert Islands 
+1992 = { "Isla Placentera" "Mocua" } #Nauru
+1993 = { "Islas los Pintados" "Majuro" } #Marshall Islands
+1994 = { "Isla San Francisco" "San Francisco" } #Wake Island 
+1995 = { "Islas Carolinas" "Santiago de la Ascensión" } #Caroline Islands 
+1996 = { "Islas Palaos" "Los Arrecifes" } #Palau Islands 
+1997 = { "Isla de Patrocinio" "El Medio" } #Midway Atoll
+2718 = { "Pueblo Capaur" "Pueblo Capaur" } #Fakfak
+2719 = { "Puerto Fernando" "Puerto Fernando" } #Madang
+2720 = { "Lajé" "Lajé" } #Lae
+2721 = { "Querema" "Querema" } #Kerema
+2722 = { "Río Mosca" "Darú" } #Daru
+2723 = { "Cabo Falso" "Ermasoé" } #Merauke
+2724 = { "San Pablo de Agaz" "San Pablo de Agaz" } #Agats
+4934 = { "Isla la Desgraciada" "La Desgraciada" } #Maui
+4935 = { "Isla Reunión" "Puerto Protegido" } #Honolulu
+4936 = { "Isla Jardín" "Costa de Cocoteros" } #Kauai
+4937 = { "Islas Lau" "Mabula" } #Lau Archipelago
+4938 = { "Isla Sándalo" "Labasa" } #Vanua Levu 
+5023 = { "Islas Fénix" "Abarriringa" } #Phoenix Islands 
+5024 = { "Islas Gente Hermosa" "Tuqueo" } #North Cook Islands
+5025 = { "Islas Marquesas" "Magdalena" } #Marquesas Islands
+5026 = { "Islas Mangareva" "Riquitea" } #Gambier Islands 
+5028 = { "Islas del Arzobispo" "Forfana" } #Ogasawara Islands 
 
 #Australia
 1084 = { "Figueras" "Figueras" } #Perth
@@ -1066,7 +1105,6 @@
 1816 = { "Pequín" "Pequín" }
 
 #Japan
-5028 = { "Islas del Arzobispo" "Forfana" }
 
 #Korea
 
@@ -2243,25 +2281,6 @@
 1810 = { "El Plano" "El Plano" } #Flat 
 2611 = { "Isla de Floridablanca" "Puerto de los Tres Santos" } #Kodiak
 2612 = { "Puerto Córdoba" "Puerto Córdoba" } #Cordova
-4920 = { "Canal de Comacho" "Puerto de Doña Teresa" } #Unalaska
-4921 = { "Rey Salomón" "Rey Salomón" } #King Salomon
-4922 = { "Bahía de Sevilla" "Fernandia" } #Alexandrovski/Bristol Bay 
-4923 = { "Betel" "Betel" } #Bethel 
-4924 = { "Unatlicua" "San Miguel de Unatlicua" } #Unalakleet
-4925 = { "Nombre" "Nombre" } #Name 
-4926 = { "Arenque" "Arenque" } #Seldovia
-4927 = { "Puerto Valdez" "Puerto Valdez" } #Valdez
-4928 = { "Galena" "Galena" } #Galena 
-4929 = { "Tortela" "Tortela" } #Nenana
-4930 = { "San Juan del Desierto" "San Juan del Desierto" } #Allakaket
-4931 = { "Fajarnés" "Fajarnés" } #Fairbanks
-4932 = { "El Castor" "El Castor" } #Beaver
-4933 = { "Fuerte Náutica" "Fuerte Náutica" } #Fort Yukon
-4934 = { "El Águila" "El Águila" } #Eagle 
-4935 = { "San Timoteo" "San Timoteo" } #Tanacross
-4936 = { "Villa de Cobre" "Villa de Cobre" } #Copperville
-4937 = { "Castellanos" "Castellanos" } #Dawson 
-4938 = { "Caballo Blanco" "Caballo Blanco" } #Whitehorse
 4968 = { "Bustamante" "Bustamante" } #Kotzebue 
 4969 = { "Cabo Esperanza" "Cabo Esperanza" } #Point Hope 
 4970 = { "Galiano" "Galiano" } #Barrow
@@ -2297,7 +2316,26 @@
 5916 = { "Doblato" "Doblato" } #Kipnuk
 5917 = { "Santa María" "Santa María" } #St. Mary's 
 5918 = { "Uglovia" "Uglovia" } #Marshall
-5919 = { "Promontorio Gonzalo" "Promontorio Gonzalo" } #Sheldon Point 
+5919 = { "Punta Gonzalo" "Punta Gonzalo" } #Sheldon Point 
+5920 = { "Canal de Comacho" "Puerto de Doña Teresa" } #Unalaska Was 4920 Pre BT 14.0
+5921 = { "Rey Salomón" "Rey Salomón" } #King Salomon. Was 4921 Pre BT 14.0
+5922 = { "Bahía de Sevilla" "Fernandia" } #Alexandrovski/Bristol. Was 4922 Pre BT 14.0
+5923 = { "Betel" "Betel" } #Bethel. Was 4923 Pre BT 14.0
+5924 = { "Unatlicua" "San Miguel de Unatlicua" } #Unalakleet. Was 4924 Pre BT 14.0
+5925 = { "Nombre" "Nombre" } #Name. Was 4925 Pre BT 14.0
+5926 = { "Arenque" "Arenque" } #Seldovia. Was 4925 Pre BT 14.0
+5927 = { "Puerto Valdez" "Puerto Valdez" } #Valdez. Was 4927 Pre BT 14.0
+5928 = { "Galena" "Galena" } #Galena. Was 4928 Pre BT 14.0
+5929 = { "Tortela" "Tortela" } #Nenana. Was 4929 Pre BT 14.0
+5930 = { "San Juan del Desierto" "San Juan del Desierto" } #Allakaket. Was 4930 Pre BT 14.0
+5931 = { "Fajarnés" "Fajarnés" } #Fairbanks. Was 4931 Pre BT 14.0
+5932 = { "El Castor" "El Castor" } #Beaver. Was 4932 Pre BT 14.0
+5933 = { "Fuerte Náutica" "Fuerte Náutica" } #Fort Yukon. Was 4933 Pre BT 14.0
+5934 = { "El Águila" "El Águila" } #Eagle. Was 4934 Pre BT 14.0
+5935 = { "San Timoteo" "San Timoteo" } #Tanacross. Was 5935 Pre BT 14.0
+5936 = { "Villa de Cobre" "Villa de Cobre" } #Copperville. Was 4936 Pre BT 14.0
+5937 = { "Castellanos" "Castellanos" } #Dawson. Was 4937 Pre BT 14.0
+5938 = { "Caballo Blanco" "Caballo Blanco" } #Whitehorse. Was 4938 Pre BT 14.0
 8000 = { "Santa Cruz del Norte" "Santa Cruz del Norte" } #Holy Cross 
 8001 = { "Caltaca" "Caltaca" } #Kaltag 
 8002 = { "Elín" "Elín" } #Elim 
@@ -2332,9 +2370,3 @@
 651 = "Joló"
 655 = "Paragua"
 8721 = "Tavi-Tavi"
-
-#Polynesia
-5023 = "Islas Phoenix" # Rawaki								#Iberian name
-5024 = "Islas Cook del Norte" # Tongareva				#Iberian name
-5025 = "Islas Marquesas" # Te Henua Enana			#Iberian name
-5026 = "Islas Gambier" # Mangareva					#Iberian name

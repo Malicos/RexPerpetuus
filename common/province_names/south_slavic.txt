@@ -6,11 +6,11 @@
 #Balkans
 
 #Carpathia
-135 = { "Šopron" "Šopron" }
-1864 = { "Šomod" "Rupertgrad" }
+135 = { "Sopron" "Sopron" }
+1864 = { "Somod" "Rupertgrad" }
 3151 = { "Zalska" "Jegersek" }
 8172 = { "Železna" "Sambotel" }
-8184 = { "Eštergon" "Eštergon" }
+8184 = { "Estergon" "Estergon" }
 8185 = { "Janok" "Janok" }
 8186 = { "Belomost" "Belomost" }
 8190 = { "Baranja" "Pecuj" }
@@ -414,7 +414,7 @@
 7740 = { "Backa" "Palanka" }
 8188 = { "Sombor" "Sombor" }
 8189 = { "Baja" "Baja" }
-8192 = { "Šolta" "Šolta" }
+8192 = { "Solta" "Solta" }
 8201 = { "Congrad" "Segedin" }
 8218 = { "Debrecin" "Debrecin" }
 

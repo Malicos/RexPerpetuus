@@ -1,6 +1,7 @@
 # MIA - Mianjin.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 148  88  59 }
 #revolutionary_colors = { 10 8 5 }

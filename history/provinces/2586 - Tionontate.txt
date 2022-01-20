@@ -1,7 +1,7 @@
  
 # No previous file for Tionontate
 
-culture = huron
+culture = tionontate
 religion = totemism
 capital = "Menesetung"		
 trade_goods = unknown 	#were called the Tobacco indians

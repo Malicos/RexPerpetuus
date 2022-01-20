@@ -2570,3 +2570,120 @@ GRN_ideas = {
 		defensiveness = 0.1
 	}
 }
+FRL_ideas = {
+	start = {
+		hostile_attrition = 1
+		power_projection_from_insults = 1 #because of Caterina Sforza's comment about her coochie
+	}
+	bonus = {
+		manpower_recovery_speed = 0.2
+	}
+	trigger = {
+		tag = FRL
+	}
+	free = yes
+	
+	FRL_idea_1 = {
+		land_morale = 0.1
+		reelection_cost = -0.1
+	}
+	FRL_idea_2 = {
+		papal_influence = 1.5
+		monthly_fervor_increase = 0.1	#just incase they turn prot or reform
+		church_power_modifier = 0.05
+	}
+	FRL_idea_3 = {
+		prestige = 1
+	}
+	FRL_idea_4 = {
+		advisor_pool = 1
+		tolerance_heathen = 1
+	}
+	FRL_idea_5 = {
+		defensiveness = 0.25
+	}
+	FRL_idea_6 = {
+		idea_cost = -0.1
+	}
+	FRL_idea_7 = {
+		monarch_military_power = 1
+		may_recruit_female_generals = yes
+	}
+}
+IST_ideas = {
+	start = {
+		navy_tradition = 1
+		global_sailors_modifier = 0.2
+	}
+	bonus = {
+		trade_steering = 0.2
+	}
+	trigger = {
+		tag = IST
+	}
+	free = yes
+	
+	IST_idea_1 = {
+		loot_amount = 0.1
+		galley_power = 0.1
+	}
+	IST_idea_2 = {
+		prestige_from_land = 0.25
+		build_cost = -0.05
+	}
+	IST_idea_3 = {
+		global_manpower_modifier = 0.2
+	}
+	IST_idea_4 = {
+		defensiveness = 0.15
+	}
+	IST_idea_5 = {
+		global_own_trade_power = 0.1
+	}
+	IST_idea_6 = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	IST_idea_7 = {
+		own_coast_naval_combat_bonus = 1.0
+		admiral_cost = -0.1
+	}
+}
+#aquileian ideas were originally made by someone named exnaenae on Paradox Forums, who gave permission for it's addition to Shattered Europa. i've edited them slightly, you should still credit exnaenae. 6yo code below:
+AQU_ideas = {
+	start = {
+		navy_tradition = 0.5
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	bonus = {
+		light_ship_power = 0.15
+	}
+	
+	trigger = {
+		tag = AQU
+	}
+	free = yes
+	
+	aqu_patriarchate_of_aquileia = {
+		prestige_decay = -0.01
+	}
+	aqu_aquileian_legacy = {
+		core_creation = -0.15
+	}
+	aqu_volchero_and_bertrand = {
+		idea_cost = -0.05
+	}
+	aqu_repopulate_aquileia = {
+		development_cost = -0.1
+	}
+	aqu_constitutiones_patriae_foriiulii = {
+		no_religion_penalty = yes
+	}
+	aqu_repubblica_che_di_principato = {
+		stability_cost_modifier = -0.1
+		years_of_nationalism = -5
+	}
+	aqu_adriatic_trade = {
+		dip_tech_cost_modifier = -0.15
+	}
+}

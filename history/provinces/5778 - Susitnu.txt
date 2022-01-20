@@ -18,4 +18,5 @@ discovered_by = north_american
 #discovered_by = bt_inuit_tech
 
 
+1444.1.1 = { tribal_owner = YYA }
 #No history prior to 1830

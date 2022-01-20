@@ -1,6 +1,7 @@
 # KUL - Kulin.txt
 
 graphical_culture = aboriginalgfx
+second_graphical_culture = africangfx
 
 color = { 32  35  117 }
 #revolutionary_colors = { 10 8 5 }

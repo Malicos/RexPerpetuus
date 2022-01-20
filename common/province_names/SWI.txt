@@ -451,3 +451,29 @@
 8255 = { "Zhatec" "Zhatec" } #
 8256 = { "Slané" "Slané" } #
 8259 = { "Prachensko" "Prachensko" } #
+
+#(JP) I've made the decision here to use capital and province names for 1871 and 8492 rather than Upper/Lower Valais in two langauges
+104 = { "Milàn" "Milàn" }
+1871 = { "Sitten" "Sitten" } #(Arga) note according to Cantonal statistical board was majority German until 1870
+7913 = { "Thonon-les-Bains" "Thonon-les-Bains" }
+7946 = { "Épinal" "Épinal" }
+8440 = { "Lörrach" "Lörrach" }
+8441 = { "Schwarzwald" "Fürstenberg" }
+8490 = { "Neuchâtel" "Neuchâtel" }
+8492 = { "Saint-Maurice" "Saint-Maurice" }
+2981 = { "Monferrato" "Monferrato" }
+3087 = { "Orlhac" "Orlhac" }
+4112 = { "Caors" "Caors" }
+4391 = { "Lo Puèi" "Lo Puèi" }
+4727 = { "Salusse" "Salusse" }
+7052 = { "Arba" "Arba" }
+7061 = { "Àich" "Àich" }
+7076 = { "Chióxa" "Chióxa" }
+7087 = { "Cèneda" "Cèneda" }
+7088 = { "Ciadore" "Ciadore" }
+7089 = { "Feltre" "Feltre" }
+7090 = { "Ruvèigno" "Ruvèigno" }
+7091 = { "Tolmin" "Tolmin" }
+7094 = { "Belun" "Belun" }
+7921 = { "Bigòrra" "Tarba" }
+7926 = { "Lo Moun" "Lo Moun" }

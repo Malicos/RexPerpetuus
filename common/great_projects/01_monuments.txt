@@ -35,13 +35,17 @@ hagia_sophia = {
 			AND = {
 				religion = coptic
 				has_owner_religion = yes
-			}			
+			}		
 			AND = {
-				religion_group = muslim
+				religion = apostolic
 				has_owner_religion = yes
 			}
 			AND = {
 				religion = catholic
+				has_owner_religion = yes
+			}			
+			AND = {
+				religion_group = muslim
 				has_owner_religion = yes
 			}
 		}			
@@ -68,7 +72,7 @@ hagia_sophia = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		OR = {		
+		OR = {	
 			AND = {
 				religion = orthodox
 				has_owner_religion = yes
@@ -76,13 +80,17 @@ hagia_sophia = {
 			AND = {
 				religion = coptic
 				has_owner_religion = yes
-			}			
-			AND= {
-				religion_group = muslim
+			}		
+			AND = {
+				religion = apostolic
 				has_owner_religion = yes
 			}
 			AND = {
 				religion = catholic
+				has_owner_religion = yes
+			}			
+			AND = {
+				religion_group = muslim
 				has_owner_religion = yes
 			}
 		}		
@@ -98,13 +106,17 @@ hagia_sophia = {
 			AND = {
 				religion = coptic
 				has_owner_religion = yes
-			}			
-			AND= {
-				religion_group = muslim
+			}		
+			AND = {
+				religion = apostolic
 				has_owner_religion = yes
 			}
 			AND = {
 				religion = catholic
+				has_owner_religion = yes
+			}			
+			AND = {
+				religion_group = muslim
 				has_owner_religion = yes
 			}
 		}		
@@ -287,7 +299,12 @@ stonehenge = {
 				has_owner_religion = yes
 			}
 			AND = {
-				culture = english
+				OR = {
+					culture_group = british
+					culture_group = brythonic
+					culture_group = gaelic
+					culture_group = unified_celtic_group
+				}
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
@@ -314,7 +331,12 @@ stonehenge = {
 				has_owner_religion = yes
 			}
 			AND = {
-				culture = english
+				OR = {
+					culture_group = british
+					culture_group = brythonic
+					culture_group = gaelic
+					culture_group = unified_celtic_group
+				}
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
@@ -331,7 +353,12 @@ stonehenge = {
 				has_owner_religion = yes
 			}
 			AND = {
-				culture = english
+				OR = {
+					culture_group = british
+					culture_group = brythonic
+					culture_group = gaelic
+					culture_group = unified_celtic_group
+				}
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
@@ -1807,6 +1834,7 @@ cologne_cathedral = {
 	#can we build it?
 	build_trigger = {
 		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#what to do when it's built
@@ -1822,11 +1850,13 @@ cologne_cathedral = {
 	#can our country use it?
 	can_use_modifiers_trigger = {
 		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
 		religion_group = christian
+		has_owner_religion = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -7057,7 +7087,8 @@ pyramid_of_cheops = {
 			AND = {
 				OR = { 
 					culture = al_misr_arabic
-					culture = coptic_culture
+					culture_group = egyptian_group
+					culture = old_egyptian
 				}
 				OR = {
 					has_owner_culture = yes
@@ -7085,7 +7116,11 @@ pyramid_of_cheops = {
 				has_owner_religion = yes
 			}
 			AND = {
-				culture = al_misr_arabic
+				OR = { 
+					culture = al_misr_arabic
+					culture_group = egyptian_group
+					culture = old_egyptian
+				}
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
@@ -7102,7 +7137,11 @@ pyramid_of_cheops = {
 				has_owner_religion = yes
 			}
 			AND = {
-				culture = al_misr_arabic
+				OR = { 
+					culture = al_misr_arabic
+					culture_group = egyptian_group
+					culture = old_egyptian
+				}
 				OR = {
 					has_owner_culture = yes
 					has_owner_accepted_culture = yes
@@ -9078,6 +9117,7 @@ versailles = {
 
 	#can we build it?
 	build_trigger = {
+		is_capital = yes
 		culture_group = french
 		OR = {
 			has_owner_culture = yes
@@ -9097,6 +9137,7 @@ versailles = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		is_capital = yes
 		culture_group = french
 		OR = {
 				has_owner_culture = yes
@@ -9106,6 +9147,7 @@ versailles = {
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		is_capital = yes
 		culture_group = french
 		OR = {
 				has_owner_culture = yes
@@ -9203,6 +9245,7 @@ versailles = {
 			global_tax_modifier = 0.15
 			improve_relation_modifier = 0.1
 			vassal_income = 0.1
+			max_absolutism = 5
 		}
 
 		#what effects happen when this tier is achieved
@@ -9236,6 +9279,7 @@ versailles = {
 			global_tax_modifier = 0.2
 			improve_relation_modifier = 0.15
 			vassal_income = 0.2
+			max_absolutism = 10
 		}
 
 		#what effects happen when this tier is achieved
@@ -10771,7 +10815,11 @@ bran_castle = {
 	type = monument
 
 	build_trigger = {
-		culture_group = carpathian
+		OR = {
+			culture = transylvanian_saxons
+			culture_group = dacian
+			culture_group = carpathian
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -10785,7 +10833,11 @@ bran_castle = {
 	}
 
 	can_use_modifiers_trigger = {
-		culture_group = carpathian
+		OR = {
+			culture = transylvanian_saxons
+			culture_group = dacian
+			culture_group = carpathian
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -10793,7 +10845,11 @@ bran_castle = {
 	}
 
 	can_upgrade_trigger = {
-		culture_group = carpathian
+		OR = {
+			culture = transylvanian_saxons
+			culture_group = dacian
+			culture_group = carpathian
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -14820,7 +14876,15 @@ royal_palace_caserta = {
 			governing_capacity = 100
 		}
 		on_upgraded = {
-			3039 = {
+			if = {
+				limit = { 
+					owner = {
+						OR = {
+							culture_group = latin
+							culture_group = iberian
+						}
+					}
+				}
 				change_province_name = "Caserta"
 				rename_capital = "Caserta"
 			}
@@ -16176,6 +16240,7 @@ ulm_minster_great_project = {
 
 	build_trigger = {
 		culture_group = germanic
+		religion_group = christian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -16190,6 +16255,7 @@ ulm_minster_great_project = {
 
 	can_use_modifiers_trigger = {
 		culture_group = germanic
+		religion_group = christian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -16198,6 +16264,7 @@ ulm_minster_great_project = {
 
 	can_upgrade_trigger = {
 		culture_group = germanic
+		religion_group = christian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
