@@ -653,3 +653,13 @@
  tyrone_area:0 "Tyrone"
  tyrone_area_name:0 "Tyrone"
  tyrone_area_adj:0 "Tyroner"
+ 
+ #################################################################################
+ # 7 - Colonial Regions
+ #################################################################################
+ colonial_appalachia:0 "Colonial Appalachia"
+ colonial_vinland:0 "Colonial Vinland"
+ colonial_vitmannland:0 "Colonial Vitmannland"
+ short_colonial_appalachia:0 "Appalachia"
+ short_colonial_vinland:0 "Vinland"
+ short_colonial_vitmannland:0 "Vitmannland"

@@ -1,0 +1,115 @@
+# Appalachia
+colonial_appalachia = {
+	color = { 195 120 40 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		936 937 938 949 950 952 953 955 956 957 962 963 965 966 967 2010 2011 2023 2544 2545 2546 2547 2549 2550 2552 2553 2554 2556 2557 2558 2560 2639 4874 4876 4877 4878
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_APPALACHIA_Appalachia"
+	}
+}
+
+# Vinland
+colonial_vinland = {
+	color = { 145 200 185 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		980 981 2573 
+		#BTNEWPROVINCES
+		5013 5019 4974 5058 5059
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_VINLAND_Vinland"
+	}
+}
+
+# Vitmannland
+colonial_vitmannland = {
+	color = { 145 55 65 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		968 969 970 971 982 983 984 985 2013 2561 2562 2563 2564 2565 2566 2567 2568 2569 2570 2571 2572 4871 4873 4891 4896 5048 5049 5050 5051 5052
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_VITMANNLAND_Vitmannland"
+	}
+}
