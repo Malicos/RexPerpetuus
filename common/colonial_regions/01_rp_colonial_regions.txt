@@ -1,3 +1,41 @@
+# Agustina
+colonial_agustina = {
+	color = { 125 25 80 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		484 485 486 2654 2655 2656 4624 4622 4623 5572
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_AGUSTINA_Agustina"
+	}
+}
+
 # Appalachia
 colonial_appalachia = {
 	color = { 195 120 40 }
@@ -22,7 +60,7 @@ colonial_appalachia = {
 	}
 
 	provinces = {
-		936 937 938 949 950 952 953 955 956 957 962 963 965 966 967 2010 2011 2023 2544 2545 2546 2547 2549 2550 2552 2553 2554 2556 2557 2558 2560 2639 4874 4876 4877 4878
+		936 937 938 949 950 951 952 953 955 956 957 962 963 965 966 967 2010 2011 2023 2544 2545 2546 2547 2548 2549 2550 2551 2552 2553 2554 2556 2557 2558 2560 2639 4874 4876 4877 4878 4889
 	}
 
 	# Specific
@@ -33,6 +71,161 @@ colonial_appalachia = {
 	}
 	names = {
 		name = "COLONIAL_APPALACHIA_Appalachia"
+	}
+}
+
+# Juventude
+colonial_juventude = {
+	color = { 0 145 120 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		926 927 928 2534 2535 2536 4625 4626
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_JUVENTUDE_Juventude"
+	}
+}
+
+# Kiskeya
+colonial_kiskeya = {
+	color = { 90 200 65 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		488 489 490 2658 2659 4619 5563 4618 5565 4620 5567 4621
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_KISKEYA_Kiskeya"
+	}
+}
+
+# Lucayas
+colonial_lucayas = {
+	color = { 40 105 150 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		482 483 5574 5575 5576 5577
+		481 #Bermuda - I don't know if I want it in a colonial region or not....
+		#BT14
+		6051 6052 6053 6054 6055 6056 6057
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_LUCAYAS_Lucayas"
+	}
+}
+
+# Merovingia
+colonial_merovingia = {
+	color = { 46 0 108 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		890 891 892 893 894 895 896 897 899 900 902 918 919 920 921 922 923 924 925 929 930 931 932 933 934 935 939 940 941 2014 2509 2514 2515 2516 2526 2527 2528 2529 2530 2531 2532 2533 2537 2538 2539 2540 2541 2542 2543 4879 4880 4881 4882 4883 4884 4885 4886 4887 4888 4906 4908 4913 4914 4921 4923 
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_MEROVINGIA_Merovingia"
 	}
 }
 
