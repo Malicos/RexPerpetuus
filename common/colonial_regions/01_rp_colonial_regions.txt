@@ -38,6 +38,44 @@ colonial_agustina = {
 
 # Appalachia
 colonial_appalachia = {
+	color = { 220 190 70 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		936 937 938 949 950 951 952 953 955 956 957 962 963 965 966 967 2010 2011 2023 2544 2545 2546 2547 2548 2549 2550 2551 2552 2553 2554 2555 2556 2557 2558 2560 2639 4874 4876 4877 4878 4889
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_APPALACHIA_Appalachia"
+	}
+}
+
+# Atakapa
+colonial_atakapa = {
 	color = { 195 120 40 }
 
 	# Random New World
@@ -60,7 +98,7 @@ colonial_appalachia = {
 	}
 
 	provinces = {
-		936 937 938 949 950 951 952 953 955 956 957 962 963 965 966 967 2010 2011 2023 2544 2545 2546 2547 2548 2549 2550 2551 2552 2553 2554 2556 2557 2558 2560 2639 4874 4876 4877 4878 4889
+		858 861 867 875 876 877 878 879 880 881 882 883 884 885 886 887 888 2491 2492 2493 2494 2495 2496 2497 2498 2499 2500 2614 2619 2665 2666 2667 2668 2669 4606 4909 4910 4627 4628 4629 4630 4631 4632 4634 4911 4966 4979 5042 5064 5823 5826 5827 5830 5832 5835 5838 5839 5840 5841 5843 5844 5858
 	}
 
 	# Specific
@@ -70,7 +108,7 @@ colonial_appalachia = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 	names = {
-		name = "COLONIAL_APPALACHIA_Appalachia"
+		name = "COLONIAL_ATAKAPA_Atakapa"
 	}
 }
 
@@ -191,6 +229,44 @@ colonial_lucayas = {
 	}
 }
 
+# Markland
+colonial_markland = {
+	color = { 30 150 50 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		990 991 992 993 994 995 996 997 998 1805 2574 2575 2576 2577 2578 2579 2580 2581 2583 2584 2585 2588 2590 4894 4895 4897 5006 5007 5010 5011 5012 5014 5015 5055 5592 5593 5594
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_MARKLAND_Markland"
+	}
+}
+
 # Merovingia
 colonial_merovingia = {
 	color = { 46 0 108 }
@@ -215,7 +291,7 @@ colonial_merovingia = {
 	}
 
 	provinces = {
-		890 891 892 893 894 895 896 897 899 900 902 918 919 920 921 922 923 924 925 929 930 931 932 933 934 935 939 940 941 2014 2509 2514 2515 2516 2526 2527 2528 2529 2530 2531 2532 2533 2537 2538 2539 2540 2541 2542 2543 4879 4880 4881 4882 4883 4884 4885 4886 4887 4888 4906 4908 4913 4914 4921 4923 
+		889 890 891 892 893 894 895 896 897 898 899 900 901 902 903 918 919 920 921 922 923 924 925 929 930 931 932 933 934 935 939 940 941 2014 2509 2508 2514 2515 2516 2526 2527 2528 2529 2530 2531 2532 2533 2537 2538 2539 2540 2541 2542 2543 2625 2672 4879 4880 4881 4882 4883 4884 4885 4886 4887 4888 4906 4908 4913 4914 4915 4916 4921 4923 4959 5065 5066 5837
 	}
 
 	# Specific
@@ -226,6 +302,44 @@ colonial_merovingia = {
 	}
 	names = {
 		name = "COLONIAL_MEROVINGIA_Merovingia"
+	}
+}
+
+# Storvatnland
+colonial_storvatnland = {
+	color = { 10 145 255 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		904 905 906 907 908 910 911 912 913 914 915 916 917 942 943 944 945 946 947 948 954 958 959 987 988 989 1001 1007 2015 2016 2511 2512 2513 2517 2518 2519 2520 2521 2522 2523 2524 2525 2586 2587 2670 2671 4872 4875 4898 4899 4900 4901 4902 4903 4904 4905 4907 4922 4973 5037 5038 5039 5621 5625 5638 5904
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_STORVATNLAND_Storvatnland"
 	}
 }
 
@@ -293,7 +407,7 @@ colonial_vitmannland = {
 	}
 
 	provinces = {
-		968 969 970 971 982 983 984 985 2013 2561 2562 2563 2564 2565 2566 2567 2568 2569 2570 2571 2572 4871 4873 4891 4896 5048 5049 5050 5051 5052
+		960 961 964 968 969 970 971 982 983 984 985 986 2012 2013 2559 2561 2562 2563 2564 2565 2566 2567 2568 2569 2570 2571 2572 2582 4871 4873 4891 4896 4912 5048 5049 5050 5051 5052 5053 5054 5060
 	}
 
 	# Specific
@@ -304,5 +418,43 @@ colonial_vitmannland = {
 	}
 	names = {
 		name = "COLONIAL_VITMANNLAND_Vitmannland"
+	}
+}
+
+# Zapotlan
+colonial_zapotlan = {
+	color = { 200 30 50 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		844 847 848 849 850 851 852 853 854 855 856 857 859 860 862 863 864 2615 2616 2617 2618 2621 2622 2623 2624 2626 2627 2628 2629 2630 2631 2641 2642 2643 2644 2645 2646 2647 2648 2657 4570 4571 4572 4573 4574 4575 4576 4577 4578 4579 4580 4581 4582 4583 4584 4598 4633 4640 4641 4642 4643 4644 4645 4646 4647 4648 4649 4650 4964 5061 5063 
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_ZAPOTLAN_Zapotlan"
 	}
 }
