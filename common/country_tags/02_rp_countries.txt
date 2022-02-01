@@ -120,7 +120,7 @@ CNI = "countries/Carnia.txt"
 # South Italy
 CTA = "countries/Capitanata.txt"
 GET = "countries/Gaeta.txt"
-MLS = "countries/Molise.txt"
+MLE = "countries/Molise.txt"
 TCA = "countries/Trinacria.txt"
 
 # Scandinavia
