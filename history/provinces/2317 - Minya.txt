@@ -3,8 +3,8 @@
 owner = EGY
 controller = EGY
 add_core = EGY
-culture = al_misr_arabic
-religion = sunni
+culture = sahidic
+religion = coptic
 capital = "El Minya"
 trade_goods = grain
 hre = no

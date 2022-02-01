@@ -125,7 +125,6 @@ zzzignore102 = {}
 zzzignore103 = {}
 zzzignore104 = {}
 zzzignore105 = {}
-zzzignore106 = {}
 
 germanic = {
 	graphical_culture = westerngfx
@@ -1453,196 +1452,6 @@ gaelic = {
 			Rothach Ros
 			Stiubhart Singlear Sutherlarach
 		}
-	}
-}
-
-latin = {
-	graphical_culture = westerngfx
-
-	lombard = {
-		primary = MLO
-	}
-	tuscan = {
-		primary = TUS
-	}
-	romagnan = {
-		primary = FER
-
-		dynasty_names = {
-			Bevilacqua Boschetti Carandini Castelvetri Tassoni "Pico di Mirandola" Rangoni Monesi "da Fogliano" Bevilacqua "da Correggio" Platoni Biondelli Arrigoni Castiglione Cavriani d'Arco Ceresara Donesmondi
-		}
-	}
-	ligurian = {
-		primary = GEN
-	}
-	venetian = {
-		primary = VEN
-	}
-	dalmatian = {
-		primary = DAL
-		male_names = {
-			Pongo
-			Alban Arber Ardian Aplis Apludus Aplus Aplius Aelius Andabio Armatus Apurus
-			Baezo Bardylis Baro Bepo Beusas Beuzas Batona Bassegli Bobali
-			Camdus Caboga Curbania Cursulavia
-			Daor Daes Dez Dalmat Dardan Delminium
-			Histro Heracles
-			Epulo Ghetaldi Giorgi Gondola Gozze Gradi
-			Iato Ivka Ibrica Ignacio
-			Lavincia Ledrus Liber
-			Messor Madecus
-			Naren
-			Paiio Panes Panias Panius Panentius Panthia Panes Panto Pinsus Pladomenus Platino
-			Samuntio Seiio Silvanus Statanius Staticus Stato Status Sestus Sextus Sexto
-			Taulant  Teuta Tito Thana Tizius Tritus Titus
-			Varro Vidasus Vidaza
-			Andre Andreas Bisti Blaxius Calenda Clime Comes
-			Domagna Gaucoli Gauzoli Gervasius Giuco Give
-			Jugno Juliano Junius Laurenzo Leonardus Loncho Lucarus
-			Mares Marco Maroe Marinus Matheus Michael Nale Nichiforus Nicola
-			Pascalis Pasqualis Petragna Petrus Piero Perue Rassinus Rusco
-			Stane Thoma Tuone Vallius Vita
-			Adam Aguastin Alecuandur Aliau Aliard Andre Antune Antuone Blasi Buartol Bunedec Bunin Caunstantin
-			Caurnel Clemiant Crastin Cuarl Dimitre Domienc Domienja Fabri Faguor Fiaurens Filip Frane
-			Giorgi Guaspar Jacop Jiolian Joan Jualb Liaun Marc Marjan Matei Mihial Mouro Muerten Nadual Nicaul
-			Paladen Piar Ponsio Puol Puoskal Raimaun Savjan Simaun Sismaun Stanislau Sthepan Taumas Taumasin
-			Teodor Timotei Vait Valdemaur Vidual Vittaur
-		}
-		female_names = {
-			Perdita
-			Ane Aneta Ante Anka Albina Augustina Amaica Amaura Alecuandra Amilja Andreja
-			Bepina Blanca Bruva Buni Catriana Cauleta Caunstantina Cvita Ibrica Ivka
-			Joana Lucia Krysto Matija Manda Nicauleta Pernica Piara Puola
-			Antolina Antonia Anussa Babalio Bodacia Catarena Caterina Clara Clara
-			Drase Dea Descia Deia Deussa Elena Eloija Fiaura Filippa Helene Giva
-			Jachussa Jacobica Jelussa Laurica Lene Helene
-			Magdalena Magdalena Margerita Margaret Maria Mauressa Micha Mira Nicoletta Nixa
-			Rade Rado Regina Regina Rossa Rosa Schimosa Thome Viola Vele Vittaurja
-		}
-	}
-	neapolitan = {
-		primary = NAP
-	}
-	piedmontese = {
-		primary = SAV
-	}
-	sicilian = {
-		primary = SIC
-	}
-	umbrian = {
-		primary = URB
-	}	#Moved down one position for different colour, too close to Tuscan
-	maltese = {
-		primary = JAI
-		dynasty_names = {
-			"de la Valette" "de Villaret" "L'Isle-Adam" "de Ponte" "de Saint-Jaille" "de la Sengle"
-			"de Monte" "de la Cassière" "de Vasconcellos" "de Paule" Cotoner Carafa "de Wignacourt"
-			"de Rohan-Polduc" "da Fonseca"
-		}
-	}
-	#BtPLegacy Culture
-	romanch_culture = {
-		#primary = XXX
-	}
-	#BtPLegacy Culture
-	corsican_culture = { #Personally, I'm not 100 percent sold on this idea, but a couple researchers want this, and it would help keep cores and such, so here we go.
-		primary = COR
-	}
-	#BtPLegacy Culture
-	friulian_culture = {
-		primary = AQU
-	}
-	#BtPLegacy Culture
-	ladin_culture = {
-		#primary = XXX
-	}
-	#BtPLegacy Culture
-	istriot_culture = {
-		primary = IST
-		dynasty_names = {
-			"di Rovigno" "di Pola" Polesini Stancovich Vidulich Campitelli Rizzi Lasciac
-			"de Sala" Molino "de Averoldi" Vergerio Elio Barbabianca Sozomeno
-			Testa Serpa Saraceni Badoer Marcello Cattaneo Fracassini Corniani
-			Pacello Bottari "Contessini-Ettorio" Contessini	Ettorio Balbi Juras
-			Trevisani "di Capodistria" Capodistrias Greblo "di Pisino" Antico Usper
-			Tartini	Cuetschisch Vlacich Garbitius Istrana Lupetino Juri Dalmata
-		}
-	}
-	#BtPLegacy Culture, deprecated
-	#dalmatian = {
-	#	#primary = XXX
-	#}
-	male_names = {
-		Abbondanzio Abbondio Abelardo Abelino Achille Adalberto Adelfo Adelmio Adelmo Adone
-		Agapito Agostino Aimone Alamanno Alarico Adriano
-		Albano Alberico Alberto Albino Alboino Alcide Aldobrandino Aleardo Aleramo Alessandro
-		Alessio Alighiero Alvise Ambrogio Amedeo Anastasio Andrea Angelo
-		Anselmo Antonino Antonio Antoniotto Arcibaldo Arderico Armando Arnolfo
-		Arsenio Artemio Ascanio Astorre Arrigo Annibale
-		Atenolfo Attilio Augusto Aurelio Ausilio Ausonio Averado Azzo Azzone Baldassarre
-		Barnaba Bartolomeo Basilio Basil Bassiano Basso Baldovino
-		Battista Beltrano Benedetto Benvenuto Berardo Bernabò Bernardo Berto
-		Bertoldo Biagio Bonaventura Bonifacio Borso Bruno Bruto Buonconte
-		Buoso Callisto Camillo Candido Cangrande Carlo Cassio Castore Cataldo Catone Cecco
-		Chiaffredo Chiano Ciro Ciuccio Claudio Clemente Costanzo Cesare
-		Comita Conone Cornelio Corradino Corrado Cosimo Cosma Costante Costantino
-		Cristoforo Damiano Davide Demetrio Dioniso Doménico
-		Durante Edoardo Elio Emmanuele Ennio Enrico Enzio Enzo Ercole
-		Ermenegildo Ettore Eugenio Ezio Ezzelino Fabrizio Fausto Federigo
-		Felice Ferdinando Ferruccio Filippo Fiorello Flavio Folco Fortunato
-		Fosco Francesco Fresco Gabriele Gabrino Gaetano Galasso Galeazzo Eriprando
-		Galeotto Gaspare Gastone Gelasio Gentile Geraldo Gerardo Germano Gerolamo
-		Gherardo Giacinto Giacomo Gian Gianfranco Gianleone Giano
-		Giberto Gilberto Giolio Giordano Giorgio Giovanni Giulio Giuseppe Goffredo
-		Gregorio Gualtiero Guarnito Guerrino Guglielmo Guido Guidone
-		Guigliadore Iacopo Igino Innocenzo Ippolito Isnardo Jacopo Lamberto Landolfo
-		Lanfranco Lattanzio Lazzarino Lazzaro Landone
-		Lealdo Leonardo Leone Leonello Leopoldo Libero Lionello Livio Lodovico Lorenzo Luca Luchino
-		Lucio Luigi Malacresta Manfredo Manuele
-		Marco Mariano Marino Mario Marsiglio Martino Mastino Matteo
-		Merigo Michelangelo Michele Napoleone Nazareno Nestore Niccolò Nicola
-		Nino Nolfo Oberto Obizzino Obizzo Oddone Omero Onorio Oreste Orlando Ottavio Ottobono Ottone
-		Pagano Pancrazio Pandolfo Paolo Pasquale Otto
-		Patrizio Pellegrino Pericle Pietro Pio Prospero Rafaello Raimondo
-		Ranerio Raniero Riccardo Rinaldo Rizzardo Roberto Rodolfo Rolando
-		Rosso Ruggiero Salinguerra Salvatore Salvestro Sante Sancho Saverio Sciarra Sebastiano
-		Secondotto Serafino Sergio Sesto Settimio Severino Severo
-		Silvano Silvestro Simone Simonetto Sinibaldo Sinucello Sozzo Spinetto Stefano
-		Taddeo Tedaldo Tedice Teodoro Tibaldo Tiziano Tommaso Lupo Vittorio Umberto
-	}
-	female_names = {
-		Abelina Adalberta Adalgisa Adelaida Adelasia Adelia Adela Adriana Agalina Agnese
-		Agostina Albina Alda Alessandra Alfonsina Alisia Aloisia
-		Amalia Amelia Ambrosia Anastasia Anna Antonella Antonia Argentina Augusta Aurelia
-		Ausilia Ausonia Beatrice Benedetta Benilde Berenice Berta Bianca Bona Brunilde Camilla Candida Caracosa Carla Carola
-		Cecilia Chiara Claudia Clorinda Caterina
-		Clotilde Costanza Cornelia Delinda Dora Edda Elena Eleonora
-		Elisabetta Ermenegilda Eudossia Eugenia Elisa
-		Fausta Felicia Felicita Filippa Filomena Flavia Fiora Fortunata Fosca Francesca
-		Froizza Giacinta Ginevra Giovanna Giuditta Giulia Giuliana
-		Giuseppa Ippolita Isabella Joscella Laura Lavinia Leonide Letizia Lidia Livia
-		Lodovica Lucia Lucinetta Lucrezia Maddalena Marcella
-		Margherita Maria Mariana Marietta Martina Matilda Micaela Nunzia Paola
-		Patrizia Renata Ricciarda Silvana Sofia Stefania Tiziana Tomasina Valentina Violante Virginia
-	}
-	dynasty_names = {
-		"de' Medici" "di Savoia" "d'Este" Farnese Visconti Sforza Gonzaga "d'Ivrea" Orsini
-		Colonna Caetani Ruspoli Aldobrandini Borghese Odescalchi Serlupi Crescenzi Massimo Patrizi Naro Montoro
-		Theodoli Senni Ricci Rocchi Datti Pietromarchi Tuccimei Mazzetti
-		# CKII
-		"di Monferrato" "Dandolo" "Spinola" "Ventimiglia" "de Sabran" "di Crivelli" "Montferrato"
-		"d'Arborea" "di Saluzzo" "Contarini" "di Cremona" "Scannabecchi" "di Lucca"
-		"de Candia" "Gozzadini" "Ghisi" "Zen" "Tocco" "di Biandrate" "Ariosti" "Pepoli"
-		"Borri" "Caccianemici" "del Balzo" Fortebraccio "di Ponzone" "Rangoni" "Zaccaria" "Zorzi"
-		"di Castello" "Allucingolli" "di Conti" "di Squillache" "da Romano" "degli Ubaldini"
-		"Cybo" "Pallavicini" "Adorno" "Campofregoso" "Bentivoglio" "Tiepolo" "Gradenigo" "Borromeo"
-		"Capponi" "Castracani" "Cenci" "Grimaldi" "Colleoni"
-		"Concini" "Obertenghi" "Crispo" "Dandolo" "Fieschi" "Gattilusio" "Bandinelli" "Serra" "Sfondrati"
-		"Doria" "di Morra" "Savelli" "Mancini" "da Correggio"
-		"Condulmer" "Moneta" "Parentucelli" "Valente" "Ziani" "Strozzi" "Sturzo" "di Piombino" "Monaldeschi"
-		"Sommaripa" "Borgia" "Orseolo" "Antelminelli" "Beccaria" "de Bonacolsi"
-		"Loredano" "di Malaspina" "Malipiero" "Maggi" "Mocenigo" "Pico di Mirandola" "della Rocca" "Rossi"
-		"di San Bonifazio" "de Sanseverino" "Zoagli" "Egidio"
 	}
 }
 
@@ -4179,6 +3988,9 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 		Nuri Radhi Rasul Sa'ud Salahaddin Seyfullah Sharaf
 		Sirhan Taimur Tawfiq Umaya Wahid Yahya Yahya Ya'qub Jacob Yasar Youkhanna John Zahir
 	}
+	siquli_culture = { #RPHotLV Culture
+		primary = SIC
+	}	
 }
 
 # RPHotLV: Iberian Muslim group
@@ -9880,6 +9692,14 @@ dravidian = {
 	}
 }
 
+andaman = {
+	graphical_culture = indiangfx
+
+	andamanese = {
+		primary = XXX
+	}
+}
+
 central_indic = {
 	graphical_culture = indiangfx
 
@@ -12195,7 +12015,22 @@ turkish_g = {
 egyptian_group = {
 	graphical_culture = muslimgfx
 
-	coptic_culture = {
+	coptic_culture = { #RPHotLV Renamed to Bohairic
+		primary = KEM
+		dynasty_names = {
+			Thinis Memphis Abydos Herakleopolis Thebes Itjtawy Avaris Bubastis Sais
+		}
+		male_names = {
+			Seka Khayu Tiu Thesh Neheb Wazner Mekh "Iry-Hor" Sekhen Serqer Narmer "Hor-Aha" Djer Djet Den Semerkhet "Qa'a" Sneferka Raneb Nynetjer Senedj Neferkara Hudjefa
+			Djoser Sekhemkhet Sanakht Khaba Huni Sneferu Khufu Khafre Djdefre Menkaure Thamphtis Userkaf Sahure Neferefre Shepseskare Nyuserre Unas Teti "Dejkadre Shemai"
+			Neferkare Merenhor Nikare Intef "Sankhkare Mentuhotep" Menkare Segerseni Senusret Nerikare Sonbef Sebkay Sobekhotep Dedumose Sheeshi Nehesy Sheneh Semenre Rahotep
+			"Nebpehtire Ahmose" Amenhotep Thutmose  "Awybre Hor" Akhenaten Tutankhamun Ramesses Herihor Piankh Pinedjem Masaharta Menkheperre Smendes Pinedjem
+		}
+		female_names = {
+			"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti
+		}
+	}
+	sahidic = { #RPHotLV Culture
 		primary = KEM
 		dynasty_names = {
 			Thinis Memphis Abydos Herakleopolis Thebes Itjtawy Avaris Bubastis Sais

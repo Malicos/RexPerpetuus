@@ -69,6 +69,8 @@
  schlesian:0 "Silesian"
  ###Armenian
  armenian:0 "Vaspurakani"
+ ###Coptic
+ coptic_culture:0 "Bohairic" 
 
  # Religions
  protestant:0 "Evangelical"

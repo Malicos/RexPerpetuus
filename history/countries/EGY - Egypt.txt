@@ -1,6 +1,6 @@
 government = monarchy
-add_government_reform = iqta
-primary_culture = al_misr_arabic
-religion = sunni
-technology_group = muslim
+add_government_reform = feudalism_reform
+primary_culture = coptic_culture
+religion = coptic
+technology_group = muslim #Unsure on whether to change this or not
 capital = 361 # Cairo

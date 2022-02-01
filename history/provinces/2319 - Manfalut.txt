@@ -3,7 +3,7 @@
 owner = EGY
 controller = EGY
 add_core = EGY
-culture = coptic_culture
+culture = sahidic
 religion = coptic
 capital = "Asyut"
 trade_goods = grain
