@@ -1,8 +1,8 @@
 #443 - Ust Yurt
 
-owner = OGZ
-controller = OGZ
-add_core = OGZ
+owner = KZM
+controller = KZM
+add_core = KZM
 culture = nogaybak
 religion = sunni
 capital = "Ust Yurt"

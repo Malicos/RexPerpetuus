@@ -1,8 +1,8 @@
 # 2365 - Orda
 
-owner = ITI
-controller = ITI 
-add_core = ITI
+owner = BOL
+controller = BOL
+add_core = BOL
 culture = nogaybak
 religion = sunni
 capital = "Orda"

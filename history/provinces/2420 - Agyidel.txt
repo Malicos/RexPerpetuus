@@ -1,7 +1,8 @@
 #2420 - Agyidel
 
-owner = BSH
-controller = BSH
+owner = WTH
+controller = WTH
+add_core = WTH
 add_core = BSH
 culture = bashkir
 religion = sunni

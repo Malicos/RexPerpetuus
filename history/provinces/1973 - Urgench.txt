@@ -1,8 +1,8 @@
 #1973 - Urgench
 
-owner = KLS
-controller = KLS
-add_core = KLS
+owner = KZM
+controller = KZM
+add_core = KZM
 culture = uzbehk
 religion = sunni
 capital = "Urgench"

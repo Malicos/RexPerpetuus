@@ -1,8 +1,8 @@
 #469 - Ryn
 
-owner = ITI
-controller = ITI 
-add_core = ITI
+owner = CUM
+controller = CUM
+add_core = CUM
 culture = nogaybak
 religion = sunni
 capital = "Ryn"

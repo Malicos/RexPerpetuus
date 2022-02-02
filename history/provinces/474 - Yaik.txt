@@ -1,8 +1,8 @@
 #474 - Yaik
 
-owner = ITI
-controller = ITI 
-add_core = ITI
+owner = WTH
+controller = WTH
+add_core = WTH
 culture = nogaybak
 religion = sunni
 capital = "Yaik"

@@ -1,8 +1,8 @@
 #464 - Astrakhan
 
-owner = ITI
-controller = ITI 
-add_core = ITI
+owner = CUM
+controller = CUM
+add_core = CUM
 culture = astrakhani
 religion = sunni
 capital = "Hajitarkhan"

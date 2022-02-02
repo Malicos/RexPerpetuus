@@ -1,8 +1,8 @@
 #437 - Atak
 
-owner = OGZ
-controller = OGZ
-add_core = OGZ
+owner = KZM
+controller = KZM
+add_core = KZM
 culture = turkmeni
 religion = sunni
 capital = "Nisa"
