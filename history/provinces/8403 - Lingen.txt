@@ -9,7 +9,7 @@ owner = LGE
 controller = LGE
 
 #Demographics
-culture = lower_saxon
+culture = hannoverian
 religion = catholic
 
 #Development and Trade

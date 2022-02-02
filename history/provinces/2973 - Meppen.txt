@@ -6,7 +6,7 @@
 owner = EFR
 controller = EFR
 add_core = EFR
-culture = lower_saxon
+culture = hannoverian
 religion = catholic
 trade_goods = livestock
 capital = "Meppen"

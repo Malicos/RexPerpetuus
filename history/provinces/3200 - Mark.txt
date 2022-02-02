@@ -6,7 +6,7 @@
 owner = WES
 controller = WES
 add_core = WES
-culture = lower_saxon
+culture = hannoverian
 religion = catholic
 trade_goods = grain
 capital = "Hamm"
