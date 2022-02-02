@@ -6,7 +6,7 @@
 owner = ESN
 controller = ESN
 add_core = ESN
-culture = lower_saxon
+culture = hannoverian
 religion = catholic
 trade_goods = cloth
 capital = "Dortmund"

@@ -9,7 +9,7 @@ owner = MUN
 controller = MUN
 
 #Demographics
-culture = lower_saxon
+culture = hannoverian
 religion = catholic
 
 #Development and Trade

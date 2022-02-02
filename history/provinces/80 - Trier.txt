@@ -6,7 +6,7 @@
 owner = TRI
 controller = TRI
 add_core = TRI
-culture = hessian
+culture = luxembourgish_culture
 religion = catholic
 trade_goods = grain
 capital = "Trier"

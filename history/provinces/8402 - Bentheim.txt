@@ -9,7 +9,7 @@ owner = CVD
 controller = CVD
 
 #Demographics
-culture = lower_saxon
+culture = hannoverian
 religion = catholic
 
 #Development and Trade

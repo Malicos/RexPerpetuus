@@ -1,7 +1,7 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = iqta
 government_rank = 2
-primary_culture = andalucian
-religion = catholic
-technology_group = western
+primary_culture = andalusi_culture
+religion = sunni
+technology_group = muslim
 capital = 225 # Cordoba

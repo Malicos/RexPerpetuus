@@ -6,7 +6,7 @@
 owner = LPP
 controller = LPP
 add_core = LPP
-culture = lower_saxon
+culture = hannoverian
 religion = catholic
 trade_goods = wool
 capital = "Detmold"

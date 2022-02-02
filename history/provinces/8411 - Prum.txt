@@ -9,7 +9,7 @@ owner = LUX
 controller = LUX
 
 #Demographics
-culture = hessian
+culture = luxembourgish_culture
 religion = catholic
 
 #Development and Trade
