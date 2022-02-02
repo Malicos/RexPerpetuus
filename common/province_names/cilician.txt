@@ -45,18 +45,8 @@
 
 #Anatolia
 
-#By Arga
-
-#armenia
-3254 = "Aghri"
-
-#turkey
+##Unsorted and Uncapitalised
 151 = "Kostandnupolis"
-5331 = "Sgerd"
-
-#By Arga Feb 2020
-#asia
-#Mardin
 418 = "Tigranocerta"
 2308 = "Ourha"
 5295 = "Gzira"

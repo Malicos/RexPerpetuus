@@ -1636,9 +1636,6 @@
 #switzerland
 1873 = "Al-Rayitia"
 
-#lower dnieper
-283 = "Zaburizia"
-
 #asia
 #central burma
 4396 = "Barum"

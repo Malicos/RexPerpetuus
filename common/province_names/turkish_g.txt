@@ -1056,7 +1056,7 @@
 #Pontic Steppe
 240 = { "Baliklava" "Baliklava" }
 282 = { "Hacibey" "Hacibey" }
-283 = { "Ortaca" "Ortaca" } #(JP) Khortytsia 
+283 = { "Kamenka" "Kamenka" }
 284 = { "Orkapi" "Orkapi" }
 285 = { "Kefe" "Kefe" }
 286 = { "Azak" "Azak" } 
@@ -1073,7 +1073,7 @@
 2406 = { "Kizikermen" "Kizikermen" } #(JP) Slavic name meaning Forest 
 2409 = { "Kamensk-Shahtinski" "Kamensk-Shahtinski" }
 2410 = { "Mangupkale" "Mangupkale" }
-2411 = { "Zaporijya" "Sari Kamis" }
+2411 = { "Ortaca" "Ortaca" }
 2412 = { "Kuturoglu" "Kuturoglu" }
 2413 = { "Taygan" "Taygan" }
 2414 = { "Yeya" "Yeya" }

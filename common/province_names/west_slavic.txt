@@ -800,23 +800,23 @@
 7258 = "Czugujew"
 
 #zaporizhia
-2411 = "Zaporoze" #Note - This unifies the names with Ruthenian ones and moves the city of Zaporozhe to the right place
+2411 = { "Czartyca" "Czartyca" } #(JP) Khortytsya
 3243 = "Zólte Wody"
 3302 = "Bachmut"
-7196 = "Kudak" #Note - This moves the name of Kudak back to the right bank of Dnieper where it laid
+7196 = { "Kudak" "Kudak" } #Note - This moves the name of Kudak back to the right bank of Dnieper where it laid
 7198 = "Krzywy Róg"
-7199 = "Zlotopol" #Note - This is actually a name for a former Polish border settlement, now part of Novomyrhorod, which was previously a historical capital of the region
+7199 = { "Orzel" "Orzel" }
 7202 = "Aleksandrówka"
 7204 = "Kamienny Bród"
-7251 = "Usówka"
+7251 = { "Usówka" "Usówka" }
 
 #yedisan
 7195 = "Oczaków" #Note - moving Oczaków to the place on the proper side of Southern Bug, the name change would be also appropriate for Ruthenian and Russian (Ochakiv and Ochakov respectively)
-7197 = "Holty" #Note - it would be appropriate to refit the border of provinces here to the Southern Bug so that it is possible to have the borders of Transnistria, as such Voznesensk stays behind the border of the province and the name should be changed to "Holta" in Ukrainian and Russian
 7279 = "Naddniestrze"
+7197 = { "Sokolecz" "Sokolecz" } #(JP) Tatar/Lithuanian Fortress of Sokoly here under Voznesensk
 
 #lower dnieper
-283 = "Kamienny Zaton" #Note - This is the name of one of the battlesites of Chmielnicki's insurrection from that area
+283 = { "Kamienny Zaton" "Kamienny Zaton" } #Note - This is the name of one of the battlesites of Chmielnicki's insurrection from that area
 1974 = "Aleszki" #Note - Ruthenian name should be changed to "Oleshye" since current spelling is very weird
 
 #pryazovia

@@ -11,10 +11,10 @@
 157 = { "Nagyvárad" "Nagyvárad" }
 158 = { "Marosszék" "Marosvásárhely" }
 160 = { "Királyi" "Királyi" }
-161 = { "Törgoviscse" "Törgoviscse" }
-162 = { "Zemplén" "Zemplén" }
+161 = { "Törgovistye" "Törgovistye" }
+162 = { "Zemplén" "Barancs" } #(goldy) Zemplinsky Branc is the slovak name
 268 = { "Botosány" "Botosány" }
-1318 = { "Szepesség" "Locse" }
+1318 = { "Szepes" "Locse" }
 1756 = { "Kilija" "Kilija" } #(JP) I don't like this, literally Hungarian Wiki page translated into English.
 1772 = { "Pozsony" "Pozsony" }
 1864 = { "Kaposvár" "Kaposvár" }
@@ -41,11 +41,11 @@
 4173 = { "Bodrog" "Czoborszentmihály" }
 4236 = { "Trencsén" "Trencsén" }
 4240 = { "Fejér" "Székesfehérvár" }
-4529 = { "Jászvásár" "Jászvásár" }
+4529 = { "Jász" "Jászvásár" }
 4530 = { "Galac" "Galac" }
 4531 = { "Gyurgyevó" "Gyurgyevó" }
 4532 = { "Szörényvár" "Szörényvár" }
-7274 = { "Csernovic" "Csernovic" }
+7274 = { "Csernyivci" "Csernyivci" }
 7275 = { "Hotin" "Hotin" }
 7276 = { "Foksány" "Foksány" }
 7277 = { "Tighina" "Tighina" }
@@ -55,15 +55,15 @@
 7743 = { "Resicabánya" "Resicabánya" }
 7744 = { "Lugos" "Lugos" }
 7746 = { "Karánsebes" "Karánsebes" }
-#7748 Calafat
+7748 = { "Dolzs" "Cafalat" }
 7749 = { "Zsilvásárhely" "Zsilvásárhely" }
-#7750 Râmnicu Vâlcea
+7750 = { "Vâlcea" "Râmnicu" } #(goldy) "Vâlcea" is current county name, why not
 7751 = { "Hosszúmezo" "Hosszúmezo" }
 7752 = { "Argaysudvarhely" "Argaysudvarhely" }
 #7753 Slatina
 7754 = { "Nikápoly" "Nikápoly" }
-#7755 Ploiesti
-#7756 Lichiresti, later Calarasi
+7755 = { "Prahova" "Ploiesti" }
+7756 = { "Calarasi" "Calarasi" }
 7757 = { "Gyapjúvásárhely" "Gyapjúvásárhely" } #(JP) "vásárhely" means market in Hungarian, "gyapjú" means wool. So "Gyapjúvásárhely"
 7758 = { "Brajla" "Brajla" }
 8171 = { "Németújvár" "Németújvár" }
@@ -92,7 +92,7 @@
 8204 = { "Dél Máramaros" "Máramarossziget" }
 8205 = { "Doboka" "Dés" }
 8206 = { "Szilágy" "Szilágysomlyó" }
-8207 = { "Kolozsvár" "Kolozsvár" }
+8207 = { "Kolozs" "Kolozsvár" }
 8208 = { "Szeben" "Nagyszeben" }
 8209 = { "Torda" "Torda" }
 8210 = { "Fogaras" "Fogaras" }
@@ -109,7 +109,7 @@
 
 #Balkans
 131 = { "Zágráb" "Zágráb" } #(JP) Or "Zabrag"
-136 = { "Szplit" "Szplit" } #(JP) Or "Spalató"
+136 = { "Spalató" "Spalató" }
 137 = { "Raguza" "Raguza" }
 138 = { "Ribiniczá" "Ribiniczá" }
 139 = { "Mosztár" "Mosztár" }
@@ -480,7 +480,7 @@
 7086 = "Naonrév" #literal translation
 
 #Trentino
-3048 = "Dél-tirol"
+3048 = "Dél-Tirol"
 4758 = "Meránia"
 
 #RUTHENIA
@@ -682,10 +682,7 @@
 7204 = "Luhanszk"
 3302 = "Bahmut"
 7198 = "Krivij Rih"
-7251 = "Olekszandrija"
-7199 = "Kropivnickij"
-7197 = "Vozneszenszk"
-283 = "Zaporizzsja"
+7251 = { "Olekszandrija" "Olekszandrija" }
 284 = "Krím"
 3245 = "Kercs"
 287 = "Kubány"

@@ -297,6 +297,11 @@
 8495 = { "Nadkaniža" "Nadkaniža" }
 
 #Pontic Steppe
+2411 = { "Chortycia" "Chortycia" }
+7169 = { "Kodakas" "Kodakas" }
+7197 = { "Cicakleja" "Cicakleja" } #(JP) Sokoly, Lithuanian-Tatar fortress underneath modern Voznesensk
+7199 = { "Oriolas" "Oriolas" }
+7251 = { "Usivkas" "Usivkas" }
 
 #Poland
 254 = "Posane"
@@ -325,7 +330,6 @@
 3247 = "Iziumas"
 3291 = "Oskolas"
 3302 = "Bachmutas"
-7196 = "Kodakas"
 
 #Russia
 274 = "Pleskava"

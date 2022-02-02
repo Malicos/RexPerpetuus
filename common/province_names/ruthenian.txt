@@ -1380,10 +1380,10 @@
 282 = "Kotsyubiyiv"
 7195 = "Dashiv" #Name of Lithuanian fortress before 1492 before founding of Black Fortress/Achi-Kale/Ochakiv
 7279 = "Prydnistrovya" #Better than Transdnistria tbf
-7197 = "Sokoly" #exists in 15th century as fortress, is a city under that/similar name way before russians
+7197 = { "Sokoly" "Sokoly" } #(JP) Name of Lithuanian fortress under modern Voznesensk
 
 #Lower Dnieper
-283 = "Kamyanyy Zaton" #Actual Zaporizhzhya is 2411; this now named after local settlements in 17XXs, better than nuffin
+283 = { "Kamyanyy Zaton" "Kamyanyy Zaton" } #Actual Zaporizhzhya is 2411; this now named after local settlements in 17XXs, better than nuffin
 1974 = "Oleshshya" #General name of area in Ukraine
 ##2406 = "Vitovt" #Fortress named after Lithuanian ruler in 1399
 ##Actually, the current location of city/port indicates more that capital 
@@ -1393,17 +1393,17 @@
 
 #West Zaporizhia
 3243 = "Mykytyn Rih" #Is fitting already
-7196 = "Kodak" #Local fortress relevant to cossacks (1635-1711) + two local settlements named new/old Kodak
+7196 = { "Kodaky" "Kodaky" } #Local fortress relevant to cossacks (1635-1711) + two local settlements named new/old Kodak
 7198 = "Kryvyy Rih" #Correction of spelling
-7199 = "Orel" #OG name, not Olviopol, that came from Turkish name of the region
-7251 = "Usivka" #Oleksandriya is russian enforced name
+7199 = { "Orel" "Orel" }
+7251 = { "Usivka" "Usivka" }
 
 #East Zaporizhia
-2411 = "Zaporizhzhya" #center of historical area+most Siches were there, altname "Khortytsya" (1st Sich + biggest island on Dnieper)
+2411 = { "Khortytsya" "Khortytsya" }
 3302 = "Bakhmut" #settlement in 16th century, capital of province
 7202 = "Oleksandrivka" #cossack settlement
 7204 = "Kamyanyy Brid" #name of capital of province, another cossack settlement
-7257 = "Samar" #River name before russians came
+7257 = { "Samara" "Samara" }
 
 #Pryazovia
 2412 = "Petrivka" #Fortress around which village slowly grew
