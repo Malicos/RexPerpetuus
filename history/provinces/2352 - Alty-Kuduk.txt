@@ -1,8 +1,8 @@
 # 2352 - Alty-Kuduk
 
-owner = KPC
-controller = KPC
-add_core = KPC
+owner = WTH
+controller = WTH
+add_core = WTH
 culture = khazak
 religion = sunni
 capital = "Alty-Kuduk"

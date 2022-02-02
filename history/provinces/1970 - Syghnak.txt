@@ -1,8 +1,8 @@
 #1970 - Syghnak
 
-owner = KLS
-controller = KLS
-add_core = KLS
+owner = WTH
+controller = WTH
+add_core = WTH
 culture = khazak
 religion = sunni
 capital = "Syghnak"

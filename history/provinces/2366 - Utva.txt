@@ -1,8 +1,8 @@
 # 2366 - Utva
 
-owner = KPC
-controller = KPC
-add_core = KPC
+owner = WTH
+controller = WTH
+add_core = WTH
 culture = nogaybak
 religion = sunni
 capital = "Utva"
