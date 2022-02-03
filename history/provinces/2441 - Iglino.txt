@@ -1,8 +1,8 @@
 #2441 - Iglino
 
-owner = BSH
-controller = BSH
-add_core = BSH
+owner = YGR
+controller = YGR
+add_core = YGR
 capital = "Iglino"
 culture = siberian
 religion = tengri_pagan_reformed

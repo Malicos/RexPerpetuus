@@ -1,8 +1,8 @@
 #2427 - Ostyaki
 
-owner = SIB
-controller = SIB
-add_core = SIB
+owner = YGR
+controller = YGR
+add_core = YGR
 capital = "Beloyarskiy"
 culture = ostyaki
 religion = tengri_pagan_reformed

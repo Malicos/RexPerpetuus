@@ -1,8 +1,8 @@
 #1076 - Kurgan
 
-owner = SIB
-controller = SIB
-add_core = SIB
+owner = YGR
+controller = YGR
+add_core = YGR
 capital = "Kurgan"
 culture = siberian
 religion = sunni

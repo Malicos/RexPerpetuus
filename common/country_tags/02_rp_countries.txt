@@ -235,6 +235,7 @@ KZM = "countries/Khwarazm.txt"
 QOC = "countries/Qocho.txt"
 SGD = "countries/Sughd.txt"
 WTH = "countries/WhiteHorde.txt"
+YGR = "countries/Yugra.txt"
 ZHT = "countries/Zhetysu.txt"
 
 # South-East Asia

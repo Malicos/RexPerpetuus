@@ -1,8 +1,8 @@
 #1075 - Tyumen
 
-owner = SIB
-controller = SIB
-add_core = SIB
+owner = YGR
+controller = YGR
+add_core = YGR
 capital = "Chimgi-Tura"
 culture = siberian
 religion = sunni
