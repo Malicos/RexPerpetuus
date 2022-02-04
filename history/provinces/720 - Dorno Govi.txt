@@ -1,8 +1,8 @@
 #720 - Tshiyet Noyan
 
-owner = KHA
-controller = KHA
-add_core = KHA
+owner = KRT
+controller = KRT
+add_core = KRT
 culture = khalkha
 religion = tengri_pagan_reformed
 capital = "Dornogovi"

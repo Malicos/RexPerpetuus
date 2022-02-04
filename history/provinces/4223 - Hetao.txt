@@ -1,9 +1,8 @@
 #4223 - Hetao
 
-owner = KHA
-controller = KHA
-add_core = KHA
-add_core = LIA
+owner = KRT
+controller = KRT
+add_core = KRT
 culture = mongol
 religion = vajrayana
 capital = "Otog"
