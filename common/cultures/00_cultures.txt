@@ -2484,6 +2484,10 @@ finno_ugric = { #Ugric
 		"Azegid" "Gachegid" "Zhebegid" "Lunegid" "Zhunegid" "Irtegid" "Moshegid" "Nydogid" "Nylogid" "Ozhegid" "Odegid"
 		"Rategid" "Permyakid" "Yugra" "Syktyvkar"
 	}
+	#RPHotLV Culture
+	mordvin = {
+		primary = MDV
+	}	
 }
 
 south_slavic = {
@@ -10833,8 +10837,6 @@ tartar = {
 	barlas = {
 	}
 	alukhai = {
-	}
-	mordvin = {
 	}
 	siberian = {
 		primary = SIB
