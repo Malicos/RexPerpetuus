@@ -3,7 +3,7 @@
 owner = KHA
 controller = KHA
 add_core = KHA
-culture = khalkha
+culture = oirats
 religion = tengri_pagan_reformed
 capital = "Qaraqorum"
 trade_goods = cloth

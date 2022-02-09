@@ -3,7 +3,7 @@
 owner = BOL
 controller = BOL
 add_core = BOL
-culture = kazani
+culture = bolghar
 religion = sunni
 capital = "Samara"
 trade_goods = wool

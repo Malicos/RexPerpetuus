@@ -3,7 +3,7 @@
 owner = BSH
 controller = BSH
 add_core = BSH
-culture = bashkir
+culture = yugran
 religion = sunni
 capital = "Bashgird"
 trade_goods = gold

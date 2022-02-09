@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = steppe_horde
 technology_group = nomad_group
-religion = tengri_pagan_reformed
+religion = nestorian
 primary_culture = oirats
 capital = 718
 add_accepted_culture = khalkha

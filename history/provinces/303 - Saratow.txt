@@ -3,7 +3,7 @@
 owner = BOL
 controller = BOL 
 add_core = BOL  
-culture = mishary
+culture = bolghar
 religion = sunni
 hre = no
 base_tax = 6 

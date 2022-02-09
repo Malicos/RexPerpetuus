@@ -3,7 +3,7 @@
 owner = AMD
 controller = AMD
 add_core = AMD
-culture = oirats
+culture = tibetan
 religion = vajrayana
 capital = "Anding"
 trade_goods = livestock

@@ -3,7 +3,7 @@
 owner = SIB
 controller = SIB
 add_core = SIB
-culture = kirgiz
+culture = siberian
 religion = tengri_pagan_reformed
 capital = "Baraba"
 trade_goods = livestock

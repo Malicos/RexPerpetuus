@@ -3,8 +3,8 @@
 owner = KHT
 controller = KHT
 add_core = KHT
-culture = oirats
-religion = sunni
+culture = khitan_culture
+religion = vajrayana
 capital = "Urzhar"
 trade_goods = salt
 hre = no

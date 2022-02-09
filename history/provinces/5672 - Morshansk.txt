@@ -3,8 +3,8 @@
 owner = MDV
 controller = MDV
 add_core = MDV
-culture = kazani
-religion = sunni
+culture = mordvin
+religion = orthodox
 capital = "Morshansk"
 trade_goods = grain
 hre = no

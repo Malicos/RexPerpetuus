@@ -1,8 +1,8 @@
 owner = NAI
 controller = NAI
 add_core = NAI
-culture = oirats
-religion = tengri_pagan_reformed
+culture = khalkha
+religion = vajrayana
 capital = "Monkhkhairkhan"
 trade_goods = livestock
 hre = no

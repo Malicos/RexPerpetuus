@@ -43,35 +43,60 @@
  QOM_ADJ:0 "Qomi"
 
  # Cultures
- 
- ###Germanic
- saxon:0 "Thuringian" #A little confusing I know - Illuminati
+ ###################
+ ###Indo-European###
+ ###################
+ ###Germanic###
+ saxon:0 "Thuringian" #A little confusing I know - Hadiros
  lower_saxon:0 "Saxon"
  swabian:0 "Allemanic" 
  hessian:0 "High Rhenish"
- ###British
+ ###British###
  anglo_saxon:1 "Sexish" 
- ###French
+ 
+ ###French###
  burgundian:0 "Low Burgundian"
- ###Occitanic
+ ###Occitanic###
  occitain:0 "Langdocian"  
- ###Illyrian
+ ###Dacian###
+ romanian:0 "Vlach"
+ 
+ ###Illyrian###
  albanian:0 "Arberian"
- ###Goidelic
+
+ ###Goidelic###
  gaelic:1 "Goidelic" 
  highland_scottish:0 "Gaelic"
- ###Dacian
- romanian:0 "Vlach"
- ###Hellenic
+
+ ###Hellenic###
  greek:0 "Aegean" #Unified Greece and West Anatolia 
  griko:0 "Kalabrian"
- ###West Slavic
+ 
+ ###West Slavic###
  schlesian:0 "Silesian"
- ###Armenian
+ 
+ ###Armenian###
  armenian:0 "Vaspurakani"
+ 
+ #################
+ ###Turko-Xubic###
+ #################
+ ###Turkic###
+ turkish_g:0 "Turkic"
+ ###Xubic###
+ altaic:0 "Xubic"
+ mongol:0 "Keraites"
+ chahar:0 "Khamag"
+ khalkha:0 "Naiman"
+ oirats:0 "Bayad"
+ uriankhai:0 "Uriankhai"
+ 
+ ###########
+ ###Other###
+ ###########
  ###Coptic
  coptic_culture:0 "Bohairic" 
-
+ 
  # Religions
  protestant:0 "Evangelical"
  protestant_religion_desc:1 "Evangelicalism covers a wide range of religious traditions starting with the teachings of REFORMERNAME during the reformation. They react against a number of the conventions that over time have developed in the Catholic church and the idea of a pope itself.\nIn the game Evangelicalism cover mainly countries inspired by REFORMERNAME's teachings and who have formed state churches."

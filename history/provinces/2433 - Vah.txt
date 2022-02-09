@@ -3,7 +3,7 @@
 owner = SIB
 controller = SIB
 add_core = SIB
-culture = ostyaki
+culture = siberian
 religion = tengri_pagan_reformed
 capital = "Vah"
 trade_goods = fur

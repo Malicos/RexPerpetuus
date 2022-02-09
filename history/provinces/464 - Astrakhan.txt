@@ -3,7 +3,7 @@
 owner = CUM
 controller = CUM
 add_core = CUM
-culture = astrakhani
+culture = manghit
 religion = sunni
 capital = "Hajitarkhan"
 trade_goods = wool

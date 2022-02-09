@@ -3,7 +3,7 @@
 owner = WTH
 controller = WTH
 add_core = WTH
-culture = khazak
+culture = alukhai
 religion = sunni
 capital = "Nadym"
 trade_goods = wool

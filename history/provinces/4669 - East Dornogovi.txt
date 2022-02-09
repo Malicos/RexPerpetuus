@@ -1,7 +1,7 @@
 owner = KRT
 controller = KRT
 add_core = KRT
-culture = khalkha
+culture = mongol
 religion = tengri_pagan_reformed
 capital = "Sainshand"
 trade_goods = livestock

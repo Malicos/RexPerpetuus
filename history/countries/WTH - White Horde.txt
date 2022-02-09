@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = steppe_horde
-primary_culture = mishary
+primary_culture = tariat
 religion = sunni
 technology_group = nomad_group
 capital = 303	# Saratov

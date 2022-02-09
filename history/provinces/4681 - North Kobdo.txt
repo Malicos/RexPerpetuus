@@ -1,8 +1,8 @@
 owner = URK
 controller = URK
 add_core = URK
-culture = oirats
-religion = tengri_pagan_reformed
+culture = uriankhai
+religion = vajrayana
 capital = "Olgii"
 trade_goods = livestock
 hre = no

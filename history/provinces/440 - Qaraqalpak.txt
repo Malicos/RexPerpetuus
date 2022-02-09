@@ -3,7 +3,7 @@
 owner = KZM
 controller = KZM
 add_core = KZM
-culture = uzbehk
+culture = barlas
 religion = sunni
 capital = "Chimbay"
 trade_goods = wool

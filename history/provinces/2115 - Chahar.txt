@@ -3,8 +3,8 @@
 owner = CHH
 controller = CHH
 add_core = CHH
-culture = mongol
-religion = vajrayana
+culture = chahar
+religion = tengri_pagan_reformed
 capital = "Chahar"
 trade_goods = livestock
 hre = no

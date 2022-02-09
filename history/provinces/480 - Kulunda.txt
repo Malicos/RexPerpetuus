@@ -3,7 +3,7 @@
 owner = URK
 controller = URK
 add_core = URK
-culture = kirgiz
+culture = uriankhai
 religion = tengri_pagan_reformed
 capital = "Pegaya Orda"
 trade_goods = wool

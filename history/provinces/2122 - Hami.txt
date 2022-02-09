@@ -3,8 +3,8 @@
 owner = NAI
 controller = NAI
 add_core = NAI
-culture = oirats
-religion = vajrayana
+culture = khalkha
+religion = nestorian
 capital = "Hami"
 trade_goods = grain
 hre = no

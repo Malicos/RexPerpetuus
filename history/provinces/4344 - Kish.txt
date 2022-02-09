@@ -3,7 +3,7 @@
 owner = SGD
 controller = SGD
 add_core = SGD
-culture = uzbehk
+culture = karluk
 religion = sunni
 capital = "Shahrisabz" #Renamed by Timur, but both names in use for most our era.
 trade_goods = wool

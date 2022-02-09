@@ -1,8 +1,8 @@
 owner = KRT
 controller = KRT
 add_core = KRT
-culture = khalkha
-religion = tengri_pagan_reformed
+culture = mongol
+religion = nestorian
 capital = "Noyon"
 trade_goods = livestock
 hre = no

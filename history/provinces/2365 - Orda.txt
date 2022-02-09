@@ -3,7 +3,7 @@
 owner = BOL
 controller = BOL
 add_core = BOL
-culture = nogaybak
+culture = manghit
 religion = sunni
 capital = "Orda"
 trade_goods = livestock

@@ -3,7 +3,7 @@
 owner = QOC
 controller = QOC
 add_core = QOC
-culture = oirats
+culture = uyghur
 religion = vajrayana
 capital = "Qakilik"
 trade_goods = livestock

@@ -3,8 +3,8 @@
 owner = WTH
 controller = WTH
 add_core = WTH
-culture = khazak
-religion = sunni
+culture = khitan_culture
+religion = vajrayana
 capital = "Narym"
 trade_goods = fish
 hre = no

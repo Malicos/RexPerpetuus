@@ -3,8 +3,8 @@
 owner = KHT
 controller = KHT
 add_core = KHT
-culture = uyghur
-religion = sunni
+culture = khitan_culture
+religion = nestorian
 capital = "Ili"
 trade_goods = grain
 hre = no

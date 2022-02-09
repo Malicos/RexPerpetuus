@@ -23,17 +23,31 @@
  # 2 - Cultures
  #################################################################################
  # Old World
+ ###################
+ ###Indo-European###
+ ###################
+ ##Nordic
  anglisk:0 "Denlegian"            # English Norse
  gallwegian:0 "Gallwegian"        # Irish Norse
+ ##British
  anglo_saxon:0 "Anglo-Saxon"      # Old English
  sexish_culture:0 "Sexish"        # No Normans Southern English
- muwalladi:0 "Muwalladi"          # Iberian Muslim Group
- batalyawsi:0 "Batalyawsi"        # Muslim Badajozi
- balansi_culture:0 "Balansi"      # Muslim Valencian
- ibri_culture:0 "Ibri"            # Muslim Aragonese
- patzinac:0 "Pacinac"             # Daco-Turkic Pecheneg
- turko_iranian:0 "Turkirani"      # Persianate Turks
- daylamite:0 "Daylamite"
+ ##Germanic
+ luxembourgish_culture:0 "Low Rhenish"
+
+ ##Occitanic
+ occitanic:0 "Occitanic"
+ ##French
+ high_burgundian:0 "High Burgundian"  
+ arelatian_culture:0 "Arlesian" 
+ ##African Romance
+ african_group:0 "African"
+ afri:0 "Afri"
+ ##Dacian
+ moldavian_culture:0 "Moldavian"
+ patzinac:0 "Pacinac"   # Daco-Turkic Pecheneg
+
+ ##Hellenic
  macedonian:0 "Macedonian"        # Hellenic Warlords
  thracian:0 "Thracian"            # Hellenic Warlords
  epirotan:0 "Epirotan"            # Hellenic Warlords
@@ -41,24 +55,59 @@
  moesian:0 "Moesian"              # Hellenised Bulgarian
  dodecanesian:0 "Dodecanesian"    # Hellenic Warlords
  imperial_bulgarian:0 "Rimmish"   # Hellenised Bulgarian Empire
- hellas_culture:0 "Hellenic"      # Hellenic Warlords 
+ hellas_culture:0 "Athenian"      # Hellenic Warlords 
  phrygian:0 "Phrygian"            # Hellenic Warlords
  pamphylian:0 "Pamphylian"        # Hellenic Warlords
  galatian:0 "Galatian"            # Hellenic Warlords
  rhomaioi:0 "Rhomaîoi"            # Unified Byzantium
- luxembourgish_culture:0 "Low Rhenish"
- high_burgundian:0 "High Burgundian"
- occitanic:0 "Occitanic"
- arelatian_culture:0 "Arlesian" 
- cumbrian_culture:0 "Cumbrian"
- siquli_culture:0 "Siquli"
- african_group:0 "African"
- afri:0 "Afri"
+  
+ ##Armenian
  armenian_group:0 "Armenian"
  arevmdian:0 "Arevmdian"
- yeravani:0 "Yerevani"
- moldavian_culture:0 "Moldavian"
+ yeravani:0 "Yerevani" 
+ 
+ ##Iranian
+ turko_iranian:0 "Turkirani"      # Persianate Turks
+ daylamite:0 "Daylamite"
+ 
+ ##Brythonic
+ cumbrian_culture:0 "Cumbrian"
+ 
+ ##################
+ ###Afro-Asiatic###
+ ##################
+ ##Arabic
+ siquli_culture:0 "Siquli"
+ 
+ ##Muwalladi
+ muwalladi:0 "Muwalladi"          # Iberian Muslim Group
+ batalyawsi:0 "Batalyawsi"        # Muslim Badajozi
+ balansi_culture:0 "Balansi"      # Muslim Valencian
+ ibri_culture:0 "Ibri"            # Muslim Aragonese
+ 
+ #################
+ ###Turko-Xubic###
+ #################
+ ###Turkic###
  qangar:0 "Qangar"
+ khitan_culture:0 "Khitan"
+ karluk:0 "Karluk"
+ yugran:0 "Yugran"
+ ###Xubic###
+ uriankhai:0 "Uriankhai"
+ ###Tatar###
+ manghit:0 "Manghit"
+ tariat:0 "Tariat"
+ barlas:0 "Barlas"
+ alukhai:0 "Alukhai"
+ mordvin:0 "Mordvin"
+ ###Oghur###
+ oghur:0 "Oghur"
+ bolghar:0 "Bolghar"
+ 
+ ###########
+ ###Other###
+ ###########
  andaman:0 "Andaman"
  andamanese:0 "Andamanese"
  sahidic:0 "Sahidic"

@@ -1,7 +1,7 @@
 owner = URK
 controller = URK
 add_core = URK
-culture = khalkha
+culture = uriankhai
 religion = tengri_pagan_reformed
 capital = "Khovsgol"
 trade_goods = fur

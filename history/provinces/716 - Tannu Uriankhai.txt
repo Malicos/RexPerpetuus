@@ -3,7 +3,7 @@
 owner = URK
 controller = URK
 add_core = URK
-culture = buryat
+culture = uriankhai
 religion = tengri_pagan_reformed
 capital = "Tannu Uriankhai"
 trade_goods = fur

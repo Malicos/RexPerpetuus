@@ -5,8 +5,8 @@
 owner = MDV
 controller = MDV
 add_core = MDV
-culture = mishary
-religion = sunni
+culture = mordvin
+religion = orthodox
 hre = no
 base_tax = 4 
 base_production = 4 

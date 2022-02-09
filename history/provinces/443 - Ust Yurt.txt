@@ -3,7 +3,7 @@
 owner = KZM
 controller = KZM
 add_core = KZM
-culture = nogaybak
+culture = turkmeni
 religion = sunni
 capital = "Ust Yurt"
 trade_goods = livestock

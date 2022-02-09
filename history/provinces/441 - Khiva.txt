@@ -3,7 +3,7 @@
 owner = KLS
 controller = KLS
 add_core = KLS
-culture = uzbehk
+culture = karluk
 religion = sunni
 capital = "Khiva"
 trade_goods = wool
