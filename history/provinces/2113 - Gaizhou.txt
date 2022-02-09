@@ -1,8 +1,8 @@
 # 2113 - Gaizhou
 
-owner = DNH
-controller = DNH
-add_core = DNH
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = shandong_culture
 religion = confucianism
 capital = "Gaizhou"

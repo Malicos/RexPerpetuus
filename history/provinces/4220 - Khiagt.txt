@@ -1,8 +1,8 @@
 # 4220 - Khiagt
 
-owner = KHA
-controller = KHA
-add_core = KHA
+owner = BAY
+controller = BAY
+add_core = BAY
 culture = oirats
 religion = tengri_pagan_reformed
 capital = "Khiagt"

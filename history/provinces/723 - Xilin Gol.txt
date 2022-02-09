@@ -1,8 +1,8 @@
 #723 - Xilin Gol
 
-owner = KHA	# The Oirads united much of Mongolia
-controller = KHA
-add_core = KHA
+owner = KMG
+controller = KMG
+add_core = KMG
 culture = chahar
 religion = tengri_pagan_reformed
 capital = "Xilin Gol"

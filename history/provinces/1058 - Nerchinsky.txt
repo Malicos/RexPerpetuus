@@ -1,8 +1,9 @@
 #1058 - Nerchinsky
 
-owner = KHA
-controller = KHA
-add_core = KHA
+owner = KMG
+controller = KMG
+add_core = KMG
+add_core = BRT
 culture = buryat
 religion = tengri_pagan_reformed
 capital = "Onan Gol"

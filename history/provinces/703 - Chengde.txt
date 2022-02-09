@@ -1,8 +1,8 @@
 #703 - Chengde
 
-owner = CHH
-controller = CHH
-add_core = CHH
+owner = KMG
+controller = KMG
+add_core = KMG
 culture = chahar
 religion = tengri_pagan_reformed
 capital = "Chengde"

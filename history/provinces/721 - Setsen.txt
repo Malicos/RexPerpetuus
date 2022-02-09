@@ -1,8 +1,8 @@
 #721 - Dornod
 
-owner = KHA
-controller = KHA
-add_core = KHA
+owner = KMG
+controller = KMG
+add_core = KMG
 culture = chahar
 religion = tengri_pagan_reformed
 capital = "Setsen"

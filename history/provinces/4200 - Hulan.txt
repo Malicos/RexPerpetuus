@@ -1,8 +1,7 @@
 #4200 - Hulan
 
-owner = KRC
-controller = KRC
-add_core = KRC
+owner = NHX
+controller = NHX
 add_core = NHX
 culture = manchu
 religion = tengri_pagan_reformed

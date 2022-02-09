@@ -1,9 +1,8 @@
 #Haicheng
 
-owner = KRC
-controller = KRC
-add_core = KRC
-add_core = CHH
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = shandong_culture # check
 religion = confucianism
 capital = "Haicheng"
