@@ -1,8 +1,8 @@
 # 2112 - Andong
 
-owner = DNH
-controller = DNH
-add_core = DNH
+owner = SNG
+controller = SNG
+add_core = SNG
 culture = manchu
 religion = confucianism
 capital = "Andong"

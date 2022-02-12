@@ -1,8 +1,7 @@
 #4232 - Ganggye
 
-owner = DNH
-controller = DNH
-add_core = DNH
+owner = GKR
+controller = GKR
 add_core = GKR
 culture = korean
 religion = confucianism
