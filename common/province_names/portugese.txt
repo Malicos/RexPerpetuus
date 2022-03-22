@@ -473,13 +473,46 @@
 #Mesopotamia
 410 = { "Baguedá" "Baguedá" }
 411 = { "Moçul" "Moçul" }
+2314 = { "Deireçor" "Deireçor" } #(JP) "Deir ez-Zor"
+4298 = { "Aintave" "Aintave" }
+6092 = { "Manbije" "Manbije" }
 
 #Levant
 321 = { "Limassol" "Limassol" }
+364 = { "Arixe" "Arixe" }
+365 = { "Raia" "Raia" }
 379 = { "Jerusalém" "Jerusalém" }
-1855 = { "Galileia" "Safé" }
+378 = { "Trípoles" "Trípoles do Oriente" }
+381 = { "Aslum" "Aslum" }
+1849 = { "Camela" "Camela" } #From Crusader name of "La Chamelle"
+1855 = { "Safé" "Safé" }
 2313 = { "Antioquia" "Antioquia" }
+4268 = { "Elim" "Elim" } #(JP) "Aqaba", "Elyn" to Crusaders
+4270 = { "Mã" "Mã" }
+4271 = { "Idreve" "Idreve" }
+5139 = { "Nicósia" "Nicósia" }
+5145 = { "Famagusta" "Famagusta" }
 5170 = { "Latáquia" "Latáquia" }
+5181 = { "Nequel" "Nequel" }
+5205 = { "Beirute" "Beirute" }
+6065 = { "Sinai" "Santa Catarina do Sinai" }
+6067 = { "Filadélfia" "Filadélfia" } #(JP) "Amman"
+6068 = { "Asraque" "Asraque" }
+6070 = { "Arbela" "Arbela" }
+6071 = { "Bersebá" "Bersebá" }
+6073 = { "Leão do Leste" "Leão do Leste" }
+6075 = { "Sidão" "Sidão" }
+6076 = { "Piscópia" "Piscópia" }
+6078 = { "Cirénia" "Cirénia" } 		#Brazilian = { "Cirênia" "Cirênia" } 
+6080 = { "Tartus" "Tartus" }
+6081 = { "Adrá" "Adrá" } #(JP) Modern "Daraa"
+6082 = { "Sueida" "Sueida" } #(JP) "As-Suwayda"
+6083 = { "Sanamém" "Sanamém" } #(JP) "Al-Sanamayn"
+6085 = { "Salámia" "Salámia" } 		#Brazilian = { "Salâmia" "Salâmia" } 
+6086 = { "Hamá" "Hamá" }
+6088 = { "Sunha" "Sunha" }
+6094 = { "Alexandreta" "Alexandreta" }
+6095 = { "Kilis" "Kilis" }
 
 #Arabia
 385 = { "Meca" "Meca" }
@@ -2028,7 +2061,7 @@
 3113 = { "Esperança de Ferrão" "Esperança de Ferrão" } #Frederick's Hope 
 5588 = { "Solidade" "Solidade" } #Literally nothing, probably some polar bears
 5589 = { "Cabo Ibéria" "Cabo Ibéria" } #Kap Dan 
-5590 = { "Terra de Segóvia" "Casas Grandes" } #Ittoqqortoormiit
+5590 = { "Terra de Dávila" "Casas Grandes" } #Ittoqqortoormiit
 
 ##########Uncapitalised##########				
 

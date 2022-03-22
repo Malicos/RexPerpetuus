@@ -1,5 +1,90 @@
 #Vanilla moved from ROM tag
 
+#Mesopotamia
+407 = { "Nicephorium" "Nicephorium" } #(JP) "Raqqa"
+2314 = { "Azdra" "Azdra" } #(Chrys) "When Syria came under the Roman Empire in 64 BC, Deir Ez-Zor was a small, marginal village known as Azdra, which the Romans made the center of the region and founded a strong military garrison."
+4298 = { "Doliche" "Doliche" }
+6089 = { "Audattha" "Audattha" }
+6090 = { "Dabana" "Dabana" } #(JP) It's in the province okay, "Suluk"
+6091 = { "Barbalissus" "Barbalissus" } #(JP) "Maskanah" developed over "Balis" which was abandoned
+6092 = { "Hierapolis" "Hierapolis" }
+6099 = { "Circesium" "Circesium" } #(Chrys) "Busayrah"
+6100 = { "Constantina" "Constantina" }
+6101 = { "Samosata" "Samosata" }
+6102 = { "Chasavara" "Chasavara" } #(Chrys) from Medieval Greek "Χασαυαρa", of Arabic origin though
+6103 = { "Arghana" "Arghana" }
+6104 = { "Artagigarta" "Artagigarta" }
+6105 = { "Balisbiga" "Balisbiga" } #(Chrys) Ancient nearby city, later called "Baioulous" by the Byzantines
+6106 = { "Chozanum" "Chozanum" } #(Chrys) derived from Greek "Chozanon"
+6107 = { "Romanopolis" "Romanopolis" } #(Chrys) derived from Greek "Romanoupolis"
+6108 = { "Mambre" "Mambre" } #(Chrys) closest settlement I could find
+6109 = { "Barzanissa" "Barzanissa" } #(Chrys) derived from Greek "Barzanissa"
+6110 = { "Manzicertum" "Manzicertum" }
+6111 = { "Colchium" "Colchium" } #(Chrys) derived from Greek "Colchion"
+6112 = { "Percri" "Percri" } #(Chrys) derived from Medieval Greek "Perkri"
+6113 = { "Aluaca" "Aluaca" } #(Chrys) derived from Greek "Alouaka"
+6114 = { "Haccarium" "Haccarium" } #(Chrys) Nothing Here at all, nullam rem natam
+6115 = { "Calata" "Calata" }
+6116 = { "Vastauna" "Vastauna" } #(Chrys) closest Roman settlement to the island
+6117 = { "Autiara" "Autiara" } #(Chrys) considering the Tyare are descended from the ancient "Autiyara"
+6118 = { "Ad Pontem" "Ad Pontem" }
+6119 = { "Dasinia" "Dasinia" } #(Chrys) originally called "Dohuk-e Dasinya" after the native Dasini tribe
+6120 = { "Gaugamela" "Gaugamela" } #(Chrys) closest Roman settlement I could find, apparently the city is mentioned in 576 AD but I could not find the original attestation.
+
+#Levant
+321 = { "Neapolis" "Neapolis" }
+364 = { "Rhinocorura" "Rhinocorura" }
+365 = { "Raithou" "Raithou" } #(JP) "Ancient", so... yeah?
+377 = { "Beroea" "Beroea" }
+378 = { "Tripolis" "Tripolis" }
+379 = { "Hierosolyma" "Hierosolyma" }
+380 = { "Characmoba" "Characmoba" }
+381 = { "Thesbe" "Thesbe" }
+382 = { "Damascus" "Damascus" }
+405 = { "Palmyra" "Palmyra" }
+1849 = { "Emesus" "Emesus" }
+1854 = { "Flavia Neapolis" "Flavia Neapolis" }
+1855 = { "Ptolemais" "Ptolemais" } #(JP) "Safed" didn't exist yet, this is Acre, the province's port
+2313 = { "Antiochia" "Antiochia" }
+4268 = { "Aela" "Aela" }
+4270 = { "Ammatha" "Ammatha" }
+4271 = { "Seremyn" "Seremyn" } #(JP) Roman town near "Idlib"
+4297 = { "Heliopolis Syriae" "Heliopolis Syriae" }
+5139 = { "Ledroi" "Ledroi" }
+5145 = { "Arsinoe" "Arsinoe" }
+5170 = { "Laodicea" "Laodicea" }
+5180 = { "Gaza" "Gaza" }
+5181 = { "Nechelia" "Nechelia" }
+5203 = { "Mons Regalis" "Mons Regalis" } #(JP) "Shoubak"
+5205 = { "Berytus" "Berytus" }
+6065 = { "Sinai" "Sancta Catharina" }
+6066 = { "Thornla" "Thornla" } #(JP) In the area
+6067 = { "Philadelphia" "Philadelphia" } #(JP) "Amman"
+6068 = { "Basie" "Basie" }
+6069 = { "Thanita" "Thanita" } #(JP) In the area
+6070 = { "Arabella" "Arabella" }
+6071 = { "Bersabea" "Bersabea" } #(JP) Feels out of place, but apparently is the name (Chrys) found better name
+6072 = { "Ascalonia" "Ascalonia" }
+6073 = { "Maximianopolis" "Maximianopolis" }
+6074 = { "Tyrus" "Tyrus" }
+6075 = { "Sidon" "Sidon" }
+6076 = { "Kourion" "Kourion" } #(JP) Next door
+6077 = { "Soloi" "Soloi" } #(JP) In the area
+6078 = { "Keryneia" "Keryneia" }
+6079 = { "Balanea" "Balanea" }
+6080 = { "Antaradus" "Antaradus" }
+6081 = { "Adraa" "Adraa" }
+6082 = { "Dionysias" "Dionysias" }
+6083 = { "Aere" "Aere" }
+6084 = { "Magloula" "Magloula" }
+6085 = { "Salamias" "Salamias" }
+6086 = { "Hemesa" "Hemesa" }
+6087 = { "Arre" "Arre" }
+6088 = { "Adada" "Adada" }
+6093 = { "Azazium" "Azazium" }
+6094 = { "Alexandria" "Alexandria" }
+6095 = { "Cyrrus" "Cyrrus" }
+
 #Italy
 101 = { "Genua" "Genua" }
 102 = { "Nicaea" "Nicaea" }
@@ -331,7 +416,6 @@
 329 = "Sebastea"
 330 = "Trapezus"
 332 = "Germanicia"
-377 = "Beroea"
 418 = "Amida"
 1846 = "Amasea"
 1848 = "Caria"
@@ -349,20 +433,11 @@
 2307 = "Arsissa"
 
 #Mashriq
-378 = "Tripolis Libanitis" #Or just Libanus (Lebanon)
-379 = "Hierosolyma"
-380 = "Idumea"
-381 = "Peraea"
-405 = "Palmyra"
 406 = "Dura Europus"
-407 = "Callinicum"
 410 = "Bagdatum"
 412 = "Susiana"
-1849 = "Epiphania"
-1854 = "Flavia Neapolis"
 2309 = "Singara"
 2310 = "Tagritum"
-2314 = "Circesium"
 
 #Aegyptus
 356 = "Berenice"
@@ -529,7 +604,6 @@
 353 = "Gigthis"
 361 = "Heliopolis"
 363 = "Pelusium"
-364 = "Rhinocorura"
 1233 = "Hibis"
 1234 = "Premis"	
 2315 = "Clysma"
@@ -547,7 +621,6 @@
 4317 = "Hermopolis Parva"
 4322 = "Troglodytae"
 4323 = "Mothis"
-5181 = "Nechelia" #Found in "Notitia orbis antiqui, sive, geographia plenior, ab ortu rerumpublicarum ad Constantinorum tempora orbis terrarum faciem declarans." on pg 832 there's something about Pliny visiting Nechelia in Egypt, almost certainly Nekhel.
 5219 = "Lixus"
 5224 = "Neapolis"
 5225 = "Africa"
@@ -590,7 +663,6 @@
 #Anatolia
 331 = "Theodosiopolis"
 4296 = "Cymiza"
-4298 = "Doliche"
 4310 = "Arsamosata"
 5138 = "Alexandria ad Issum"
 5154 = "Flaviopolis"

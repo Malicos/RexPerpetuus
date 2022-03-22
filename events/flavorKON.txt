@@ -23,7 +23,8 @@ country_event = {
 				POR = {
 					religion = catholic
 				}
-				# XXX
+				knows_country = POR
+				POR = { knows_country = KON }
 				kongo_area = { # BT; coastal_kongo  
 					has_discovered = POR
 				}
@@ -33,6 +34,8 @@ country_event = {
 				IBE = {
 					religion = catholic
 				}
+				knows_country = IBE
+				IBE = { knows_country = KON }
 				kongo_area = {
 					has_discovered = IBE
 				}
@@ -208,7 +211,27 @@ country_event = {
 			change_government_to_monarchy = yes
 			#set_legacy_government = despotic_monarchy
 		}
-		add_stability = -3
+		if = {
+			limit = {
+				has_dlc = "Origins"
+			}
+			if = {
+				limit = {
+					has_country_flag = kon_picked_side_with_europeans
+				}
+				add_stability = 1
+			}
+			else = {
+				custom_tooltip = flavor_kon.4.a.tt
+				hidden_effect = {
+					add_stability = -3
+					set_country_flag = kon_picked_oppose_europeans
+					set_country_flag = kon_betrayed_own_people	#Traitor
+					clr_country_flag = kon_picked_side_with_europeans
+					swap_non_generic_missions = yes
+				}
+			}
+		}
 
 		if = {
 			limit = { exists = POR } # BT
@@ -236,6 +259,26 @@ country_event = {
 		name =  flavor_kon.4.b
 		ai_chance = { factor = 10 }
 		kill_ruler = yes
+		if = {
+			limit = {
+				has_dlc = "Origins"
+			}
+			if = {
+				limit = {
+					has_country_flag = kon_picked_oppose_europeans
+				}
+				add_stability = 2
+			}
+			else = {
+				custom_tooltip = flavor_kon.4.b.tt
+				hidden_effect = {
+					add_stability = -3
+					clr_country_flag = kon_picked_side_with_europeans
+					set_country_flag = kon_picked_oppose_europeans
+					swap_non_generic_missions = yes
+				}
+			}
+		}
 	}
 }
 
@@ -276,10 +319,8 @@ country_event = {
 		capital_scope = {
 			continent = europe
 		}
-		coastal_kongo = {
-			has_discovered = ROOT
-		}
 		NOT = { has_global_flag = kon_kongo_got_discovered_by_europeans }
+		knows_country = KON
 		exists = KON
 		KON = {	#Can't really ship a missionary to Kongo if they don't have a coast line
 			num_of_ports = 1
@@ -1034,8 +1075,12 @@ province_event = {
 	hidden = yes
 
 	trigger = {
+		papacy_active = yes
 		has_active_triggered_province_modifier = kongo_cardinal_modifier
 		has_cardinal = no
+		owner = {
+			NOT = { num_of_cardinals = 7 }
+		}
 	}
 
 	mean_time_to_happen = {

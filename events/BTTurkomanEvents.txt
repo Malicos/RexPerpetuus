@@ -1,0 +1,119 @@
+namespace = BTTurkomanEvents
+
+#Death of Ispend bin Yusuf
+country_event = { 
+	id = BTTurkomanEvents.1
+	title = BTTurkomanEvents.1.t
+	desc = BTTurkomanEvents.1.d
+	picture = KING_SICK_IN_BED_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = IRQ
+		is_subject = yes
+		is_year = 1445
+		has_ruler = "Ispend"
+		has_heir = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = { #Follow our Emir's wishes and appoint his nephew Alvand Mirza
+		name = BTTurkomanEvents.1.a
+		hidden_effect = {
+			if = {
+				limit = {
+					is_subject = yes
+				}
+				overlord = {
+					country_event = {
+						id = BTTurkomanEvents.2
+						days = 2
+					}
+				}
+			}
+		}
+		kill_ruler = yes
+		define_ruler = {
+			name = "Alvand Mirza"
+			dynasty = "Qara Qoyunlu"
+			age = 24
+			adm = 3
+			dip = 2
+			mil = 5
+			culture = turkoman
+			religion = shiite
+		}
+		convert_ruler_to_general = yes
+		ai_chance = {
+			factor = 9
+		}
+	}
+	
+	option = { #Appoint a regency council for our late Emir's son, Fulad Mirza
+		name = BTTurkomanEvents.1.b
+		kill_ruler = yes
+		if = {
+			limit = {
+				not = {	
+					heir_age = 15
+				}
+			}
+			define_ruler = {
+				name = "(Regency Council)"
+				adm = 1
+				dip = 1
+				mil = 1
+				regency = yes
+				culture = turkoman
+				religion = shiite
+			}
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+#Baghdad picks Alvand Mirza
+country_event = {
+	id = BTTurkomanEvents.2
+	title = BTTurkomanEvents.2.t
+	desc = BTTurkomanEvents.2.d
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Invade Baghdad
+		name = BTTurkomanEvents.2.a
+		ai_chance = {
+			factor = 9
+		}
+		declare_war_with_cb = {
+			who = IRQ
+			casus_belli = bt_cb_tribal_reconquest
+		}
+	}
+	
+	option = { #Accept Ispend's decision
+		name = BTTurkomanEvents.2.b
+		ai_chance = {
+			factor = 1
+		}
+		custom_tooltip = BT_BaghdadTributary_Tooltip
+		add_prestige = -10
+		add_legitimacy = -25
+		IRQ = {
+			grant_independence = yes
+			
+		}
+		create_subject = {
+			subject_type = tributary_state
+			subject = IRQ
+		}
+	}
+}

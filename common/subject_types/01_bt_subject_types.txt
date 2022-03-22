@@ -35,8 +35,7 @@ default_II = { #Copied default because I'm not 100 percent certain I can refer t
 	diplomacy_subject_sprite = GFX_diplomacy_amvassal	# The one that the subject sees
 
 	# Triggers:
-	#is_potential_overlord = { always = no } 			# This part is not copied in copy_from. Actual default is equivalent to always = yes
-	#can_be_established = { always = no }				# Ditto
+	is_potential_overlord = { always = no } 			# This part is not copied in copy_from. Actual default is equivalent to always = yes
 	
 	# Properties:
 	has_overlords_ruler = no
@@ -74,7 +73,14 @@ default_II = { #Copied default because I'm not 100 percent certain I can refer t
 	can_send_missionary_to_subject = yes				# Requires Cradle of Civilization
 	can_union_break = no								# Only works together with has_overlords_ruler
 	overlord_can_fabricate_for = yes
-	
+	does_overlord_size_count_for_warscore_cost = yes
+	is_colony_subtype = no
+	is_march = no
+	forms_trade_companies = yes
+	can_concentrate_development = yes
+	can_have_great_projects_moved_by_overlord = yes
+	extend_trading_range = no
+
 	max_government_rank = 0								# 0 means no limit
 	cities_required_for_bonuses = 0						# How many cities the subject needs before giving bonuses to overlord
 	trust_on_start = 35									# Overlord and subject will each get this much extra trust with each other at game start
@@ -83,14 +89,17 @@ default_II = { #Copied default because I'm not 100 percent certain I can refer t
 	liberty_desire_negative_prestige = 0.0
 	liberty_desire_development_ratio = 0.0
 	liberty_desire_same_dynasty = 0.0
+	liberty_desire_revolution = 30.0					# Liberty desire at 100% revolution spread in country
 	pays_overlord = 0.0									# 1.0 represents the amount payed by vassals
-	forcelimit_bonus = 0.0								# 1.0 represents bonus from having a vassal
 	forcelimit_to_overlord = 0.0						# Percent of subject FL to use as base for modifiers
+	naval_forcelimit_to_overlord = 0.0					# Percent of subject FL to use as base for modifiers
+	manpower_to_overlord = 0.0							# Percent of subject FL to use as base for modifiers
+	sailors_to_overlord = 0.0							# Percent of subject FL to use as base for modifiers
 	military_focus = 1.0								# How much the AI subject should spend etc. on army and forts. 0 should make them spend nothing. Very high values will probably not make a big difference since there will be sanity checks.
 
 	relative_power_class = 1 							# See description above
+	should_quit_wars_on_activation = yes
 	diplomacy_view_class = 1							# See description above
-
 	can_fight = {
 	}
 	can_rival = {
@@ -137,6 +146,11 @@ default_II = { #Copied default because I'm not 100 percent certain I can refer t
 	return_land = no
 	conscript_general = no
 	knowledge_sharing = yes
+	block_settlement_growth = yes
+	allow_settlement_growth = yes
+	change_colonial_type = no
+	upgrade_subject_type = no
+
 	# (special)
 	sword_hunt = no
 	sankin_kotai = no
@@ -168,7 +182,6 @@ viceroyalty_bt = {
 	has_power_projection = no
 	gets_help_with_rebels = yes
 	press_sailors = yes
-	forcelimit_bonus = 1.0
 	forcelimit_to_overlord = 0.1
 
 	liberty_desire_development_ratio = 0.10
@@ -272,14 +285,13 @@ papal_subject_bt = {
 	subject_opinion_modifier = bt_is_papal_subject
 }
 
-# Rex Perpetuus: Reworked by Velius
 fiefdom_bt = {
 	copy_from = default
 	
 	# Graphics:
-	sprite = GFX_icon_fief
-	diplomacy_overlord_sprite = GFX_diplomacy_leadfief
-	diplomacy_subject_sprite = GFX_diplomacy_amfief
+	sprite = GFX_icon_vassal
+	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
+	diplomacy_subject_sprite = GFX_diplomacy_amvassal
 
 	# Properties:
 	takes_diplo_slot = yes #Modified
@@ -311,8 +323,8 @@ fiefdom_bt = {
 		modifier = vassal_subject
 	}
 
-	overlord_opinion_modifier = is_fief
-	subject_opinion_modifier = is_fief
+	overlord_opinion_modifier = is_vassal
+	subject_opinion_modifier = is_vassal
 }
 
 hanseatic_league_member_bt = {

@@ -242,146 +242,131 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
+		#BT tweaks to accomodate our map, balance, and general way of doing stuffs -Draiocht
 		name = "flavor_cri.2.a" #Let us help this new found friend!
 		ai_chance = {
 			factor = 100
 		}
-		tooltip = { create_march = CRI }
-		CRI = {
-			country_event = { id = flavor_cri.4 }
-		}
-		add_dip_power = -50 #Propping Up Weak Ruler
-		add_mil_power = -50 #Propping Up Weak Ruler
+		custom_tooltip = bt_otto_crimea_tweaks_tt
+		CRI = { country_event = { id = flavor_cri.4 } }
+		#add_dip_power = -50 #Propping Up Weak Ruler			#Save your dip for annexing, silly Ottos!
 		add_adm_power = -50 #Propping Up Weak Ruler
-		if = {
-			limit = {
-				285 = {
+		add_mil_power = -100 #Propping Up Weak Ruler			#50 more mil cost to prop up puppet, for reasons.
+		hidden_effect  = {
+			every_province = {
+				limit = {
+					is_core = CRI
+					NOT = { owned_by = CRI }
+					NOT = { owned_by = ROOT }
+					NOT = { owner = { is_subject_of = ROOT } }
+				}
+				add_claim = TUR
+			}
+			every_province = {
+				limit = {
+					is_claim = CRI
+					NOT = { owned_by = CRI }
+					NOT = { owned_by = ROOT }
+					NOT = { owner = { is_subject_of = ROOT } }
+					NOT = { owner = { alliance_with = ROOT } }
+				}
+				remove_claim = CRI
+				add_claim = TUR
+			}
+			crimea_area = {
+				limit = {
 					NOT = { owned_by = TUR }
 					NOT = { owned_by = CRI }
+					NOT = { owner = { alliance_with = ROOT } }
+					NOT = { owner = { has_matching_religion = ROOT } }
+					NOT = { owner = { is_subject_of = ROOT } }
 				}
+				add_claim = TUR
 			}
-			285 = { add_claim = TUR }
-		}
-		if = {
-			limit = {
-				286 = {
+			azov_area = {
+				limit = {
 					NOT = { owned_by = TUR }
 					NOT = { owned_by = CRI }
+					NOT = { owner = { alliance_with = ROOT } }
+					NOT = { owner = { has_matching_religion = ROOT } }
+					NOT = { owner = { is_subject_of = ROOT } }
 				}
+				add_claim = TUR
 			}
-			286 = { add_claim = TUR }
-		}
-		if = {
-			limit = {
-				2410 = {
+			pryazovia_area = {
+				limit = {
 					NOT = { owned_by = TUR }
 					NOT = { owned_by = CRI }
+					NOT = { owner = { alliance_with = ROOT } }
+					NOT = { owner = { has_matching_religion = ROOT } }
+					NOT = { owner = { is_subject_of = ROOT } }
 				}
+				add_claim = TUR
 			}
-			2410 = { add_claim = TUR }
-		}
-		if = {
-			limit = {
-				2447 = {
+			lower_dnieper_area = {
+				limit = {
+					NOT = { province_id = 2406 }
 					NOT = { owned_by = TUR }
 					NOT = { owned_by = CRI }
+					NOT = { owner = { alliance_with = ROOT } }
+					NOT = { owner = { has_matching_religion = ROOT } }
+					NOT = { owner = { is_subject_of = ROOT } }
+				}
+				add_claim = TUR
+			}
+			if = {			#Arga's idea to move capital to the historical location. Good idea. Just throwing it in here, so as to be unobtrusive & not too railroad-y
+				limit = {
+					CRI = { ai = yes }
+					CRI = { NOT = { capital = 2410 } }
+					2410 = { owned_by = CRI }
+				}
+				CRI = {
+					capital_scope = {
+						add_base_tax = -1
+						add_base_production = -1
+						add_base_manpower = -1
+					}
+					2410 = {
+						add_base_tax = 2
+						add_base_production = 2
+						add_base_manpower = 1
+					}
+					set_capital = 2410
 				}
 			}
-			2447 = { add_claim = TUR }
 		}
-		
-		if = {
-			limit = {
-				285 = {
-					owned_by = CRI
-					is_capital = no
+		CRI = {
+			every_neighbor_country = {
+				limit = {
+					NOT = { tag = ROOT }
+					NOT = { alliance_with = ROOT }
+					NOT = { is_subject_of = ROOT }
 				}
-			}
-			285 = {
-				cede_province = TUR
-				add_core = TUR
-			}
-		}
-		if = {
-			limit = {
-				286 = {
-					owned_by = CRI
-					is_capital = no
+				add_opinion = {
+					who = ROOT
+					modifier = bt_otto_badboy_crimea_opinion			#Apparently no good way to add AE in effects... so opinion modifier will have to do.
 				}
-			}
-			286 = {
-				cede_province = TUR
-				add_core = TUR
-			}
+			}			
 		}
-		if = {
-			limit = {
-				2410 = {
-					owned_by = CRI
-					is_capital = no
+		CRI = {
+			every_neighbor_country = {
+				limit = {
+					is_subject = yes
+					NOT = { overlord = { tag = ROOT } }
+					NOT = { overlord = { alliance_with = ROOT } }
+					NOT = { overlord = { is_neighbor_of = CRI } }			#prevents x2 of the modifier
 				}
-			}
-			2410 = {
-				cede_province = TUR
-				add_core = TUR
-			}
-		}
-		if = {
-			limit = {
-				2447 = {
-					owned_by = CRI
-					is_capital = no
+				overlord = {
+					add_opinion = {
+						who = ROOT
+						modifier = bt_otto_badboy_crimea_opinion			#Apparently no good way to add AE in effects... so opinion modifier will have to do.
+					}
 				}
-			}
-			2447 = {
-				cede_province = TUR
-				add_core = TUR
-			}
+			}			
 		}
-		# BT; added 2 prov. below
-		if = {
-			limit = {
-				3245 = {
-					NOT = { owned_by = TUR }
-					NOT = { owned_by = CRI }
-				}
-			}
-			3245 = { add_claim = TUR }
-		}
-		if = {
-			limit = {
-				7190 = {
-					NOT = { owned_by = TUR }
-					NOT = { owned_by = CRI }
-				}
-			}
-			7190 = { add_claim = TUR }
-		}
-		# BT; added 2 prov. below
-		if = {
-			limit = {
-				3245 = {
-					owned_by = CRI
-					is_capital = no
-				}
-			}
-			3245 = {
-				cede_province = TUR
-				add_core = TUR
-			}
-		}
-		if = {
-			limit = {
-				7190 = {
-					owned_by = CRI
-					is_capital = no
-				}
-			}
-			7190 = {
-				cede_province = TUR
-				add_core = TUR
-			}
-		}
+		#And yes. Making Ottos reviled is a good thing, here. It will encourage tensions with Genoa and Lithuania, both historical, and likely lead to an Ottoman victory against Genoa, causing their historical collapse in eastern Europe as well as Ottoman expansion.
+		#Against Lithuania results are, and should be, less consistant, though it will strain Lithuania more, possibly make Poland get more influence over Lithuania, and cause PLC in general to be more drained in other wars, less likely to rocket to number 1 great power, as we often see. 
+		#Even if it means Ottomans lose ground in the northern Black Sea from time to time, it might even encourage southern or eastern expansion through AE & relation side effects. All improvements to current BT balance as tested in observe runs.
 	}
 	option = {
 		name = "flavor_cri.2.b" #Let us not risk upsetting the balance of power in the area.

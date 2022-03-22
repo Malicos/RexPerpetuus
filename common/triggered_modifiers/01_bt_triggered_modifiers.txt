@@ -236,3 +236,36 @@ bt_wettin_realms = {
 	diplomatic_upkeep = 2 
 	reduced_liberty_desire = 40
 }
+
+###########################################
+# Kurdish Overlord Balancing
+###########################################
+bt_kurdish_overlords = {
+	potential = {
+		is_subject = no
+		OR = {
+			religion = sunni
+			religion = shiite
+		}
+		any_country = {
+				primary_culture = kurdish
+				OR = {
+					is_subject_of = ROOT
+					guaranteed_by = ROOT
+				}
+			}
+	}
+	trigger = {
+		calc_true_if = {
+			all_country = {
+				primary_culture = kurdish
+				OR = {
+					is_subject_of = ROOT
+					guaranteed_by = ROOT
+				}
+			}
+			amount = 3
+		}
+	}
+	diplomatic_upkeep = 2
+}

@@ -656,23 +656,57 @@
 
 #Levant
 321 = { "Limisso" "Limisso" }
+364 = { "Arisce" "Arisce" }
+365 = { "Razza" "Razza" } #(JP) "Raya"/"Raithu"
 377 = { "Aleppo" "Aleppo" }
-378 = { "Tripoli del Libano" "Tripoli del Libano" }
+378 = { "Tripoli" "Tripoli dell'Oriente" }
 379 = { "Gerusalemme" "Gerusalemme" }
-380 = { "Crac di Moab" "Crac di Moab" }
+380 = { "Crache di Moabe" "Crache di Moabe" }
+381 = { "Agiluno" "Agiluno" }
 382 = { "Damasco" "Damasco" }
 405 = { "Palmira" "Palmira" }
 1849 = { "Emesa" "Emesa" }
-1854 = { "Giaffa" "Giaffa" }
-1855 = { "Acri" "Acri" } #(JP) Province is technically "Safed" but the port is "Acre"
+1854 = { "Napoli" "Napoli" }
+1855 = { "Safaddo" "Safaddo" } #(JP) "Safed"
 2313 = { "Antiochia" "Antiochia" }
-4297 = { "Eliopoli" "Eliopoli" } #(JP) "Heliopolis"
-5139 = { "Nicosia" "Nicosia" } #(JP) Western name
+4268 = { "Elino" "Elino" } #(JP) "Aqaba"
+4270 = { "Mane" "Mane" }
+4271 = { "Idlibe" "Idlibe" }
+4297 = { "Eliopoli" "Eliopoli" }
+5139 = { "Nicosia" "Nicosia" }
 5145 = { "Famagosta" "Famagosta" }
 5170 = { "Laodicea" "Laodicea" }
 5180 = { "Gazza" "Gazza" }
-5203 = { "Monreale" "Monreale" }
-5205 = { "Berito" "Berito" } #(JP) Latin "Berytus", or "Baruti"
+5181 = { "Nechel" "Nechel" }
+5203 = { "Monreale" "Monreale" } #(JP) "Shoubak"
+5205 = { "Berito" "Berito" }
+6065 = { "Santa Caterina" "Santa Caterina del Sinai" }
+6066 = { "Tafila" "Tafila" }
+6067 = { "Filadelfia" "Filadelfia" } #(JP) "Amman"
+6068 = { "Asrache" "Asrache" } #(JP) "Azraq"
+6069 = { "Mafrache" "Mafrache" } #(JP) "Al-Mafraq"
+6070 = { "Abila" "Abila" }
+6071 = { "Bersabea" "Bersabea" }
+6072 = { "Ramula" "Ramula" }
+6073 = { "Massimianopoli" "Massimianopoli" } #(JP) "Maximianopolis", Massimiano being modern Italian for Maximian
+6074 = { "Tiro" "Tiro" }
+6075 = { "Sidone" "Sidone" }
+6076 = { "La Piscopia" "La Piscopia da Cornaro" }
+6077 = { "Cormacite" "Cormacite" } #(JP) "Kormakitis"
+6078 = { "Cerine" "Cerine" } #(JP) Found "Cerine" on German wiki
+6079 = { "Margatto" "Margatto" } 
+6080 = { "Tartosso" "Tartosso" }
+6081 = { "Adria" "Adria" } #(JP) Modern "Daraa"
+6082 = { "Sovado" "Sovado" } #(JP) "As-Suwayda"
+6083 = { "Sanamene" "Sanamene" } #(JP) "Al-Sanamayn"
+6084 = { "Malulla" "Malulla" }
+6085 = { "Salamia" "Salamia" }
+6086 = { "Epifania" "Epifania" } #(JP) Roman "Epiphania"
+6087 = { "Marra" "Marra" } #(JP) "Marre" is Crusader name of "Maarat al-Numan"
+6088 = { "Sugna" "Sugna" }
+6093 = { "Azarto" "Azarto" } #(JP) "Aziz", Crusader "Hazart", Medieval Greek "Azázion"
+6094 = { "Alessandretta" "Alessandretta" }
+6095 = { "Cilizza" "Cilizza" } #(JP) Roman "Ciliza"
 
 #Arabia
 384 = { "Medina" "Medina" }
@@ -681,13 +715,19 @@
 400 = { "Mascate" "Mascate" }
 
 #Mesopotamia
-407 = { "Callinico" "Callinico" }
+407 = { "Callinico" "Callinico" } #(JP) "Raqqa"
 408 = { "Bàssora" "Bàssora" }
 410 = { "Baldacca" "Baldacca" }
 411 = { "Mossul" "Mossul" }
 418 = { "Amida" "Amida" }
+2314 = { "Cirssesa" "Cirssesa" } #(JP) "Deir ez-Zor", from Latin "Circesium"
+4298 = { "Antep" "Antep" }
+6089 = { "Rahba" "Rahba" }
+6090 = { "Suluk" "Suluk" }
+6091 = { "Meskene" "Meskene" } #(JP) "Maskanah"
+6092 = { "Ierapoli" "Ierapoli" } #(JP)Italian for Roman "Hierapolis" according to wiki
 
-#Anatolia3
+#Anatolia
 16 = { "Bosforo" "Nicomedia" } #Izmit
 317 = { "Prusa" "Prusa" } #Bursa
 318 = { "Smirne" "Smirne" } #Izmir

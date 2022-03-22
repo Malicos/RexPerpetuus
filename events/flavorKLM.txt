@@ -14,9 +14,12 @@ country_event = {
 	trigger = {
 		is_year = 1600
 		any_country = {
-			culture_group = altaic
-			total_development = 400 # BT; 200
-			owns_core_province = 2190
+			OR = {
+				primary_culture = altaic_new 
+				culture_group = altaic
+			}
+			total_development = 400	#BT dev doubling
+			owns_core_province = 4678
 		}
 		is_subject = no
 		is_at_war = no

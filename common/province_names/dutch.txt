@@ -1,4 +1,4 @@
-#Contributions from a wide range, including Draiocht, JP, Lucky_Lucas20, Arga, Math
+#Contributions from a wide range, including Draiocht, JP, Lucky_Lucas20, Arga, Math, Gijs
 #(JP) Hollandic Dutch, will be overwritten by local Flemish and Frisian etc
 #(JP) I have reorganised and cleaned up all the prior Dutch/Flemish naming to try and make it more legible, consistant and keep it easier to edit in future
 
@@ -27,11 +27,13 @@
 3063 = { "Roermond" "Roermond" }
 3064 = { "Duinkerken" "Duinkerken" }
 3066 = { "Aarlen" "Aarlen" }
-4381 = { "Overijssel" "Zwolle" }
+4381 = { "IJsselstreek" "Zwolle" } 
 4382 = { "Ommelanden" "Delfzijl" }
-4383 = { "Des Gravenhage" "Des Gravenhage" }
+4383 = { "Den Haag" "Den Haag" } #Den Haag is the official name, "'s-Gravenhage" (in-game) is just an early 1600s "fancy" change. 
 4769 = { "Rijsel" "Rijsel" }
-4770 = { "Des Hertogenbosch" "Des Hertogenbosch" }
+4770 = { "'s-Hertogenbosch" "'s-Hertogenbosch" } #Contrary to Den Haag above, 's-Hertogenbosch is the official name, "Den Bosch" isn't.
+7676 = { "Valencijn" "Valencijn" } #Alternatively, "Dowaai" "Dowaai".
+7948 = { "Diedenhoven" "Diedenhoven" } 
 7954 = { "Helder" "Helder" }
 7975 = { "Dordrecht" "Dordrecht" }
 7976 = { "Valencijn" "Valencijn" }
@@ -53,20 +55,83 @@
 8118 = { "Groningen" "Groningen" }
 8119 = { "Oostergo" "Dokkum" }
 8120 = { "Twente" "Enschede" }
+8299 = { "Jever" "Jever" }
+8400 = { "Stellingwerven" "Wolvega" }
+8401 = { "Leer" "Leer" }
+8418 = { "Bitburg" "Bitburg" }
+8419 = { "Dietkerk" "Dietkerk" } #"Die-(Kirch)" -> "Diet/Diets", Middle High German/Old Dutch for "[language] (of) the people"
+8420 = { "Middelberg" "Middelberg" } #Taken from German "Mittelberg" (in-game) for lack of a better name.
 
 #North Germany
+53 = { "Lunenburg" "Lunenburg" } #After consonants, "u" is pronounced the same in Dutch as "ü" in German.
+54 = { "Standhe" "Standhe" } #Alternatively, without the "h"
+55 = { "Oldenburg" "Oldenburg" } #Could be "Oudenburg", but "Ol(d)-" is a common prefix in Dutch as well.
 56 = { "Osnabrugge" "Osnabrugge" }
+57 = { "Brunswijk" "Brunswijk" }
+78 = { "Ments" "Ments" }
+80 = { "Trier" "Trier" }
+82 = { "Westfalen" "Arensberg" } #Alternatively, "Suyderland" (Sauerland) "Arensberg".
+83 = { "Weidebaden" "Weidebaden" } 
+84 = { "Dusseldorp" "Dusseldorp" } #Alternatively, "Berg" "Dusseldorp", to refer to the Duchy of Berg with its capital "Düsseldorf".
 85 = { "Keulen" "Keulen" }
 86 = { "Munster" "Munster" }
+1758 = { "Calenberg" "Hannover" } #Alternatively, "Hamelen" "Hamelen"
+1760 = { "Coblens" "Coblens" }
+1874 = { "Bremen" "Bremen" }
+1876 = { "Frankfort" "Frankfort-aan-de-Main" } 
 1878 = { "Aken" "Aken" }
+2971 = { "Hoya" "Hoya" }
+2972 = { "Paderbron" "Paderbron" } 
+2973 = { "Twist" "Twist" } #Border wasn't always as clear as it's nowadays, the name "twist" comes from Dutch "betwist gebied", which literally means "contested area". 
 2975 = { "Kleef" "Kleef" }
+3198 = { "Saarbruggen" "Saarbruggen" }
+3199 = { "Ketwijk" "Ketwijk" } #Dutch surname "(van) Ketwijk" hails from this town (German: "Kettwig", part of the city of Essen nowadays).
+3200 = { "Marck" "Altena" } #Alternatively, "Wipperdal" "Wippervoort" (from the river "Wupper/Wipper").
+3201 = { "Nassau-Siegen" "Siegen" } #Same as 8430 (Nassau-Dillenburg).
+3202 = { "Minden" "Minden" } #Alternatively, "Beken" "Beken" (from Old Germanic "Menni-" -> "Bach/Creek"). Not really sure about this one, though.
+3203 = { "Lippe" "Detmold" } #Alternatively, "Lippe" "Biesterfeld" (homage to an infamous 20th century prince-consort to the Dutch royal house)
+3207 = { "Darmstad" "Darmstad" } #Alternatively, "Daarmondestad" "Daarmondestad". (This refers to another potential etymological origin)
+3292 = { "Dortmond" "Dortmond" } 
+4742 = { "Goselaer" "Goselaer" } 
+4768 = { "Gulik" "Gulik" }
+4771 = { "Verden" "Verden-aan-de-Aller" } 
+4772 = { "Celle" "Celle" }
+4773 = { "Geutinghen" "Geutinghen" } #Alternatively, without the "h". "Goting(h)en" also exists, but German "ö" (in Göttingen) is Dutch "eu", not "o" (that's German "oo" (Boot)). 
+4775 = { "Ravensberg" "Bijleveld" } #Etymology of "Biel(e)-" is unclear (some say "[to] seperate" (DE: trennen)), in which case "Bijl(e)- (NL: Axe) seems fitting. Bijleveld is also a common Dutch (sur)name.
+7810 = { "Marsvoogdij" "Nieuwhuis" } #Unsure of the translation of "Marsch" - could mean "Marsh/Swamp", in which case it's correct. Could also mean "March/Mark" in which case it should be "Markvoogdij".
+8228 = { "Groevenhagen" "Eenbeck" } 
+8289 = { "Halverstad" "Halverstad" } #Alternatively, "Halvestad" "Halvestad", but that literally means "(a) half [of the] city"; the etymology isn't really clear enough.
+8290 = { "Houtminden" "Houtminden" } #Alternatively, "Houtbeken" "Houtbeken" (from Old Germanic "Menni-" -> "Bach/Creek"). Not really sure about this one either.
+8291 = { "Hildeghem" "Hildeghem" } #Combination of "Hild(e)- (s)" and the Dutch version of the High German(ic) suffix "-heim" (-heem/-[g]hem). Alternatively without the "h".
+8292 = { "Nieuwstad" "Nieuwstad" } 
+8293 = { "Walsroode" "Walsroode" }
+8294 = { "Ueltsen" "Ueltsen" } #"Ue" - Dutch words starting with "u" are not pronounced as the German letter "ü", the diphthong "ue" is.
+8295 = { "Dannenberg" "Dannenberg" }
+8296 = { "Bremervoorde" "Bremervoorde" }
+8297 = { "Hadelinghen" "Hadelinghen" } #Alternatively, "Hadelen" "Hadelen", or without the "h"
+8298 = { "Wursten" "Wursten" } #Original Frisian name, later perhaps Bremerhaven (?)
+8402 = { "Benthem" "Benthem" } #Due to poverty and wars, many inhabitants of Bentheim and (Burg)steinfurt sought refuge in the wealthier Dutch Republic from the 17th century onwards. 
+8403 = { "Lingen" "Lingen" } #City "belonged" (de jure) to the Dutch republic from the 16th century onwards, but it was de facto always contested until 1702, when the Prussians took over.
+8404 = { "Cloppenburg" "Cloppenburg" }
+8405 = { "Vechte" "Vechte" } #From city Vechta, river Vecht(e). 
+8406 = { "Tecklenburg" "Tecklenburg" } 
+8407 = { "Steenvoorde" "Steenvoorde" } #See province 8402 above.
+8408 = { "Soest" "Soest" } 
+8409 = { "Duisburg" "Duisburg" } 
 8410 = { "Meurs" "Meurs" }
+8411 = { "Nieuwerburg" "Nieuwerburg" } #(DE) Neuerburg.
+8412 = { "Bon" "Bon" } #Two consonants at the end of a word is not done in Dutch.
+8413 = { "Solingen" "Solingen" }
+8414 = { "Zevengebergte" "Koningswinter" } #Alternatively, "Koningswinter" "Koningswinter".
+8415 = { "Kruisenaer" "Kruisenaer" } #Refers to "(Bad) Kreuznach", a rather important city in the region. Alternative could be "Bingen (am Rhein)", another important city and a common surname in the Netherlands hails from there. City name would then be "Bingen-aan-de-Rijn".
+8416 = { "Hondsrug" "Veldents" } #(DE) "Hunsrück" region -> (NL) "Hondsrug"
+8417 = { "Wittelijck" "Cochem" } #Don't really like (DE) "Wittlich" -> (NL) "Wittelijck" for the province name. Alternatively, perhaps "Eifel" or "Moezeldal" (Moseltal/Moselle valley).
+8428 = { "Wetslaer" "Wetslaer" }
+8430 = { "Nassau-Dillenburg" "Limburg-aan-de-Laen" } #Paying homage to Dutch national hero Prince William of Orange-Nassau and the rest of his lineage (Maurice, John Maurice and Frederick Henry).
 
 #South Germany
 72 = { "Breisgouw" "Vrijburg" } #(JP) Base capital name (Chrys) capital name from Vrijburg in Amsterdam which is the same in meaning and called Freiburg in German and Fribourg in French
 75 = { "Straatsburg" "Straatsburg" }
-78 = { "Ments" "Ments" }
-1876 = { "Frankfort" "Frankfort" }
 1880 = { "Sundgouw" "Oudkerk" } #(Chrys) translated Altkirch for capital, dunno how accurate it is
 
 #Italy
@@ -284,7 +349,6 @@
 41 = "Koningsbergen"
 43 = "Danswijk"
 49 = "Nieuwmark"
-57 = "Brunswijk"
 2964 = "Oudenmark"
 
 #channel islands
@@ -672,7 +736,6 @@
 #By Lucky_Lucas20 Oct 2019
 186 = "Riemen"
 3070 = "Louwen"
-7948 = "Diedenhoven"
 7965 = "Ponteland"
 7966 = "Vermandland"
 7968 = "Wieze"
@@ -731,8 +794,6 @@
 8581 = "Nicobaren"
 
 #By Lucky_Lucas20 Jun 2020
-3292 = "Dortmond"
-3198 = "Saarbruggen"
 52 = "Maagdenburg"
 67 = "Neurenberg"
 47 = "Straalsond"
@@ -799,9 +860,6 @@
 43 = { "Danswijk" "Danswijk" } #
 47 = { "Straalsond" "Straalsond" } #
 52 = { "Maagdenburg" "Maagdenburg" } #
-57 = { "Brunswijk" "Brunswijk" } #
-85 = { "Keulen" "Keulen" } #
-86 = { "Munster" "Munster" } #
 104 = { "Milaan" "Milaan" } #
 167 = { "Rowaan" "Rowaan" } #
 168 = { "Kaem" "Kaem" } #
@@ -839,8 +897,6 @@
 1182 = { "Fort Lydsaamheid" "Fort Lydsaamheid" } #
 1306 = { "Sint Thomas" "Sint Thomas" } #
 1756 = { "Bessarabië" "Ismail" } #
-1876 = { "Frankfort" "Frankfort" } #
-1878 = { "Aken" "Aken" } #
 2021 = { "Sint Franciscus" "Sint Franciscus" } #
 2558 = { "Wiltwijck" "Wiltwijck" } #
 2639 = { "Bergen" "Bergen" } #
@@ -852,10 +908,8 @@
 2865 = { "Zuidelijke Pampas" "Isabellathal" } #
 2866 = { "Sint Luise" "Sint Luise" } #
 2880 = { "Griekwastad" "Griekwastad" } #
-2975 = { "Kleef" "Kleef" } #
 3046 = { "Hogere Savoye" "Annecy" } #
 3054 = { "Tessino" "Lauis" } #
-3198 = { "Saarbruggen" "Saarbruggen" } #
 4548 = { "Hülvë" "Hülvë" } #
 4555 = { "Nieuwebrugge" "Nieuwebrugge" } #
 4596 = { "Nieuwe Oosten" "Kuna" } #

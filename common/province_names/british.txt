@@ -227,7 +227,68 @@
 #Caucasia
 #Anatolia
 #Mesopotamia
+407 = { "Rakkah" "Rakkah" } #(JP) "Raqqa"
+2314 = { "Deir ez-Zor" "Deir ez-Zor" } #(JP) "Deir ez-Zor"
+4298 = { "Hantab" "Hantab" }
+6089 = { "Rahba" "Rahba" }
+6090 = { "Suluk" "Suluk" }
+6091 = { "Meskene" "Meskene" } #(JP) "Maskanah"
+6092 = { "Manbij" "Manbij" }
+
 #Levant
+321 = { "Limassol" "Limassol" }
+364 = { "Arish" "Arish" }
+365 = { "Raya" "Raya" }
+377 = { "Aleppo" "Aleppo" }
+378 = { "Tripoli" "Tripoli" }
+379 = { "Jerusalem" "Jerusalem" }
+380 = { "Kerak" "Kerak" }
+381 = { "Ajlun" "Ajlun" }
+382 = { "Damascus" "Damascus" }
+405 = { "Palmyra" "Palmyra" }
+1849 = { "Emesa" "Emesa" }
+1854 = { "Naples" "Naples" }
+1855 = { "Saphet" "Saphet" } #(JP) "Safed"
+2313 = { "Antioch" "Antioch" }
+4268 = { "Elyn" "Elyn" } #(JP) "Aqaba"
+4270 = { "Maan" "Maan" }
+4271 = { "Idlib" "Idlib" }
+4297 = { "Becaa" "Balbeck" }
+5139 = { "Nicosia" "Nicosia" }
+5145 = { "Famagusta" "Famagusta" }
+5170 = { "Latakia" "Latakia" }
+5180 = { "Gaza" "Gaza" }
+5181 = { "Nekhel" "Nekhel" }
+5203 = { "Montreal" "Montreal" } #(JP) "Shoubak"
+5205 = { "Baruth" "Baruth" }
+6065 = { "Sinai" "Saint Catherine" }
+6066 = { "Tafila" "Tafila" }
+6067 = { "Philadelphia" "Philadelphia" } #(JP) "Amman"
+6068 = { "Azraq" "Azraq" }
+6069 = { "Mafra" "Mafra" } #(JP) "Al-Mafraq"
+6070 = { "Arbela" "Arbela" }
+6071 = { "Beersheba" "Beersheba" }
+6072 = { "Rama" "Rama" }
+6073 = { "Lyon" "Lyon" }
+6074 = { "Tyre" "Tyre" }
+6075 = { "Sidon" "Sidon" }
+6076 = { "Episkopi" "Episkopi" }
+6077 = { "Kormakitis" "Kormakitis" }
+6078 = { "Kyrenia" "Kyrenia" }
+6079 = { "Margate" "Margate" } #(JP) "Margat", semi-jokey-easter-egg for British "sunny" town of "Margate"
+6080 = { "Tartus" "Tartus" }
+6081 = { "Adraat" "Adraat" } #(JP) Modern "Daraa"
+6082 = { "Swaida" "Swaida" } #(JP) "As-Suwayda"
+6083 = { "Sanamain" "Sanamain" } #(JP) "Al-Sanamayn"
+6084 = { "Maaloula" "Maaloula" }
+6085 = { "Salamieh" "Salamieh" }
+6086 = { "Hama" "Hama" }
+6087 = { "Marre" "Marre" } #(JP) Crusader name of "Maarat al-Numan"
+6088 = { "Sukhnah" "Sukhnah" }
+6093 = { "Hasart" "Hasart" } #(JP) "Aziz", Crusader "Hazart"
+6094 = { "Alexandretta" "Alexandretta" }
+6095 = { "Kilis" "Kilis" }
+
 #Arabia
 #Persia
 #Khorasan
@@ -472,7 +533,84 @@
 #Great Plains
 #Great Lakes
 #Northeast
-#Southeast
+954 = { "Erie" "Erie" } #Erie 
+955 = { "Susquehanna River" "Harrisburg" } #Harrisburg
+956 = { "Philadelphia" "Philadelphia" } #Philadelphia
+957 = { "Delaware" "Dover" } #Dover 
+958 = { "Rochester" "Rochester" } #Rochester
+959 = { "Auburn" "Auburn" } #Auburn 
+960 = { "Cayuga" "Syracuse" } #Syracuse 
+961 = { "Fort Stanwix" "Fort Stanwix" } #Rome
+962 = { "West Jersey" "Burlington" } #Burlington
+963 = { "Hudson River" "Albany" } #Albany 
+964 = { "Schenectady" "Schenectady" } #Schenectady
+965 = { "New York" "New York" } #NYC
+966 = { "Worcester" "Worcester" } #Worcester 
+967 = { "Rhode Island" "Providence" } #Providence 
+968 = { "Massachusetts" "Boston" } #Boston 
+969 = { "Bennington" "Bennington" } #Bennington
+970 = { "New Hampshire" "Portsmouth" } #Portsmouth 
+2010 = { "Thames River" "New London" } #New London 
+2013 = { "Casco Bay" "Falmouth" } #Portland
+2023 = { "Allentown" "Allentown" } #Allentown 
+2555 = { "Pittsburgh" "Pittsburgh" } #Pittsburgh
+2556 = { "Juniata River" "Fort Bedford" } #Bedford
+2557 = { "West Branch" "Fort Augusta" } #Fort Augusta
+2558 = { "The Catskills" "Kingston" } #Kingston 
+2559 = { "Fort Ticonderoga" "Fort Ticonderoga" } #Ticonderoga 
+2560 = { "New Haven" "New Haven" } #New Haven 
+2561 = { "Cape Cod Bay" "Plymouth" } #Plymouth 
+2562 = { "White Hills" "Rumford" } #Concord
+2563 = { "Green Mountain" "Montpelier" } #Montpelier #there i'm assuming that the player has France in PU at least.
+2564 = { "Maynesborough" "Maynesborough" } #Berlin
+2639 = { "East Jersey" "New Perth" } #Perth Amboy
+4871 = { "Bessborough" "Bessborough" } #St. Johnsbury
+4872 = { "Buffalo" "Buffalo" }  #Buffalo
+4873 = { "Farmington" "Farmington" } #Farmington 
+4874 = { "The Berkshires" "Pittsfield" } #Pittsfield 
+4875 = { "Allegheny" "Rumbarger" } #DuBois. it was refounded by a french huguenot, so it could also be named DuBois if GB owns France.
+4876 = { "Wilkes-Barre" "Wilkes-Barre" } #Wilkes-Barre
+4912 = { "Canton" "Canton" } #Canton 
+
+##Southeast
+926 = { "Treasure Coast" "Melbourne" } #Melbourne 
+927 = { "St. Johns River" "Cowford" } #Jacksonville
+928 = { "Tallahassee" "Tallahassee" } #Tallahassee
+929 = { "Savannah" "Savannah" } #Savannah
+930 = { "Columbus" "Columbus" } #Columbus
+933 = { "Columbia" "Columbia" } #Columbia
+937 = { "Raleigh" "Raleigh" } #Raleigh
+938 = { "Pamlico Sound" "New Bern" } #New Bern 
+949 = { "Blacksburg" "Blacksburg" } #Blacksburg
+950 = { "Chesapeake Bay" "Norfolk" } #Norfolk 
+952 = { "James River" "Richmond" } #Richmond
+953 = { "Maryland" "Baltimore" } #Baltimore
+2011 = { "Shenandoah Valley" "Rocktown" } #Harrisonburg
+2534 = { "Paynes Prairie" "Gainesville" } #Gainesville
+2535 = { "Fort Myers" "Fort Myers" } #Fort Myers
+2536 = { "Miami" "Miami" } #Miami 
+2537 = { "Waycross" "Waycross" } #Waycross
+2538 = { "Fort Fidius" "Fort Fidius" } #Milledgeville
+2539 = { "Frederica River" "Fort Frederica" } #Fort Frederica National Monument
+2540 = { "Atlanta" "Atlanta" } #Atlanta 
+2541 = { "Ninety-Six" "Ninety-Six" } #Ninety-Six, i know it's ugly but it's the oldest settlement in the area, even prior to the American Revolution. If you have complaints, please refer to the english.
+2544 = { "Charlotte" "Charlotte" } #Charlotte
+2545 = { "Campbellton" "Campbellton" } #Fayetteville
+2546 = { "Cape Fear" "Wilmington" } #Wilmington
+2547 = { "Cape Hatteras" "Edenton" } #Edenton 
+2549 = { "Charlottesville" "Charlottesville" } #Charlottesville
+2550 = { "Potamac River" "Fredericksburg" } #Fredericksburg
+2552 = { "Fort Pearsall" "Fort Pearsall" } #Romney
+2553 = { "Frederick" "Frederick" } #Frederick
+2554 = { "Easton" "Easton" } #Easton 
+4625 = { "New Smyrna" "New Smyrna" } #New Smyrna Beach
+4626 = { "Hillsborough Bay" "Clearwater" } #Clearwater
+4877 = { "Fort Christanna" "Fort Christanna" } #Fort Christanna, near Lawrenceville
+4880 = { "Augusta" "Augusta" } #Augusta
+4881 = { "Valdosta" "Valdosta" } #Valdosta
+4882 = { "Fort Prince George" "Fort Prince George" } #Clemson
+4978 = { "Capefair" "Capefair" } #Greensboro
+
 #Mississippi
 #Rio Grande
 #Mexico
@@ -490,15 +628,9 @@
 361 = "Cairo"
 362 = "Rosetta"
 363 = "Damietta"
-364 = "Gaza"
-377 = "Aleppo" 
-379 = "Jerusalem"
-382 = "Damascus"
 388 = "Aden"
 410 = "Baghdad"
 411 = "Mosul"
-1854 = "Nablus"
-2313 = "Antioch"
 2315 = "Suez"
 2326 = "Bardia"
 

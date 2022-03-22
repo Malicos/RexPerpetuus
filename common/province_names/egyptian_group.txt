@@ -1,3 +1,13 @@
+#Levant
+364 = { "Hrinokorura" "Hrinokorura" }
+365 = { "Raitho" "Raitho" }
+379 = { "Hierusalim" "Hierusalim" }
+382 = { "Damaskos" "Damaskos" }
+4268 = { "Berenike" "Berenike" }
+5180 = { "Azza" "Azza" }
+5181 = { "Nakhl" "Nakhl" }
+6065 = { "Sina" "Agia Kattrin" }
+
 #Beyond Typus 7.0 Overhaul of Egypt
 358 = "Rakote"
 359 = "Phiom"
@@ -39,17 +49,6 @@
 2233 = "Tashabhar"
 
 #By Arga May 2020
-#asia
-#sinai
-364 = "Hrinokorura" #newer
-365 = "Biau" #or "Mefkat" old, or "Sina" new
-4268 = "Berenike"
-
-#palestine
-379 = "Hierusalim" #newer
-
-#syria
-382 = "Damaskos" #newer
 
 #luristan
 414 = "Amahatan" #newer
@@ -73,10 +72,6 @@
 361 = { "Kashromi" "Kashromi" } #
 362 = { "Rashit" "Rashit" } #
 363 = { "Beremun" "Beremun" } #
-364 = { "Hrinokorura" "Hrinokorura" } #
-365 = { "Sina" "Raithu" } #
-379 = { "Hierusalim" "Hierusalim" } #
-382 = { "Damaskos" "Damaskos" } #
 1228 = { "Dongola" "Dongola" } #
 1231 = { "Souan" "Souan" } #
 1233 = { "Wah Enhib" "Wah Enhib" } #Hib
@@ -86,13 +81,11 @@
 2317 = { "Thmone" "Thmone" } #
 2319 = { "Siowt" "Siowt" } #
 2326 = { "Tobruk" "Tobruk" } #
-4268 = { "Berenike" "Berenike" } #
 4317 = { "Timinhor" "Timinhor" } #
 4318 = { "Tpeh" "Tpeh" } #
 4319 = { "Ne" "Ne" } #
 4320 = { "Tin" "Tin" } #
 4323 = { "Dakhla" "Mut" } #
-5180 = { "Azza" "Azza" } #
 5261 = { "Tamiat" "Tamiat" } #
 5264 = { "Giza" "Giza" } #Me-Nefer, Memfi for Memphis
 5267 = { "Panisuf" "Panisuf" } #Pemdje

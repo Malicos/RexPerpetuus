@@ -4624,7 +4624,7 @@ guiTypes = {
 		{
 			name = "progress_bar_window"
 			backGround=""
-			position = { x=155 y=104 }
+			position = { x=180 y=113 }
 			size = { x=130 y=40 }
 			dontRender = ""
 			horizontalBorder= ""
@@ -4637,28 +4637,28 @@ guiTypes = {
 			{
 				name ="great_project_cancel"
 				quadTextureSprite = "GFX_alerticon_dismiss_always"
-				position = { x = 110 y = 5 }
+				position = { x = 10 y = -7 }
 			}
 
 			iconType =
 			{
 				name ="great_project_progress"
 				spriteType = "GFX_provinceView_progressbar"
-				position = { x = 8 y = 13 }
+				position = { x = 10 y = 19 }
 			}
 
 			iconType =
 			{
 				name ="great_project_progress_frame"
 				spriteType = "GFX_provinceView_morale_frame_long"
-				position = { x = 0 y = 9 }
+				position = { x = 0 y = 15 }
 			}
 		}
 
 		guiButtonType =
 		{
 			name ="build_upgrade_button"
-			position = { x= 193 y = 7 }
+			position = { x= 224 y = 26 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_build"
 			tooltip = ""
 			tooltipText =""
@@ -4671,7 +4671,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="use_money_to_boost_button"
-			position = { x= 193 y = 42 }
+			position = { x= 224 y = 60 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_money"
 			tooltip = ""
 			tooltipText =""
@@ -4684,7 +4684,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="use_manpower_to_boost_button"
-			position = { x= 193 y = 77 }
+			position = { x= 224 y = 94 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_manpower"
 			tooltip = ""
 			tooltipText =""
@@ -4697,7 +4697,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="move_button"
-			position = { x= 9 y = 28 }
+			position = { x= 145 y = 108 }
 			quadTextureSprite ="GFX_great_project_level_icon_move"
 			tooltip = ""
 			tooltipText =""
@@ -4712,7 +4712,7 @@ guiTypes = {
 		{
 			name = "tier_0_icon"
 			backGround=""
-			position = { x=5 y=104 }
+			position = { x=5 y=108 }
 			size = { x=32 y= 32 }
 			moveable = 0
 			dontRender = ""
@@ -4733,7 +4733,7 @@ guiTypes = {
 		{
 			name = "tier_1_icon"
 			backGround=""
-			position = { x=42 y=104 }
+			position = { x=40 y=108 }
 			size = { x=32 y= 32 }
 			moveable = 0
 			dontRender = ""
@@ -4754,7 +4754,7 @@ guiTypes = {
 		{
 			name = "tier_2_icon"
 			backGround=""
-			position = { x=82 y=104 }
+			position = { x=75 y=108 }
 			size = { x=32 y= 32 }
 			moveable = 0
 			dontRender = ""
@@ -4775,7 +4775,7 @@ guiTypes = {
 		{
 			name = "tier_3_icon"
 			backGround=""
-			position = { x=122 y=104 }
+			position = { x=110 y=108 }
 			size = { x=32 y= 32 }
 			moveable = 0
 			dontRender = ""
