@@ -869,7 +869,7 @@ christian = {
 	#RP Added
 	cathar = {
 		color = { 137 45 27 }
-		icon = 30
+		icon = 36
 		allow_female_defenders_of_the_faith = yes
 
 		allowed_center_conversion = {
@@ -922,7 +922,7 @@ christian = {
 	#RP Added
 	bosnian_church = {
 		color = { 153 117 134 }
-		icon = 32
+		icon = 37
 
 		allowed_center_conversion = {
 			catholic
@@ -958,7 +958,7 @@ christian = {
 	#RP Added
 	bogomilist = {
 		color = { 176 56 74 }
-		icon = 34
+		icon = 38
 		country = {
 			stability_cost_modifier = -0.1
 			tolerance_own = 1
@@ -1093,7 +1093,7 @@ christian = {
 	#RP Added
 	iconoclast = {
 		color = { 127 117 133 }
-		icon = 35
+		icon = 39
 		country = {
 			stability_cost_modifier = -0.1
 			tolerance_own = 1
@@ -1903,7 +1903,7 @@ eastern = {
 	#RP Added
 	nangchos = {
 		color = { 229 51 0 }
-		icon = 44
+		icon = 45
 		allowed_conversion = {
 			vajrayana
 			buddhism #Theravada
@@ -1934,7 +1934,7 @@ eastern = {
 
 	confucianism = {
 		color = { 214 229 140 }
-		icon = 9
+		icon = 44
 		country = {
 			tolerance_heretic = 2
 			adm_tech_cost_modifier = -0.1
@@ -1970,7 +1970,7 @@ eastern = {
 	#RP Added
 	bon = {
 		color = { 8 140 131 }
-		icon = 39
+		icon = 41
 		country = {
 			tolerance_heretic = 1
 			shock_damage_received = -0.1
@@ -2842,7 +2842,7 @@ pagan = {
 	
 	#RP Added
 	finnish_pagan_reformed = {
-		icon = 40
+		icon = 42
 		color = { 166 166 25 }
 		country = {
 			defensiveness = 0.1
@@ -2858,7 +2858,7 @@ pagan = {
 	
 	#RP Added
 	siberian_pagan_reformed = {
-		icon = 41
+		icon = 43
 		color = { 230 230 230 }
 		country = {
 			defensiveness = 0.1
@@ -3050,7 +3050,7 @@ zoroastrian_group = {
 	
 	#RP Added
 	manichean = {
-		icon = 38
+		icon = 40
 		color = { 0.5 0.7 0.2 }
 		country = {
 			tolerance_heathen = 2
