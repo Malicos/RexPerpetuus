@@ -17,7 +17,7 @@ christian = {
 	
 	
 	catholic = {
-		color = { 204 204 0 }
+		color = { 213 213 172 }
 		icon = 1
 		allowed_conversion = {
 			reformed
@@ -382,7 +382,7 @@ christian = {
 	}
 	
 	protestant = {
-		color = { 0 0 178 }
+		color = { 42 125 188 }
 		icon = 2
 
 		allowed_conversion = {
@@ -639,7 +639,7 @@ christian = {
 	}
 
 	orthodox = {
-		color = { 178 127 0 }
+		color = { 156 42 193 }
 		icon = 4
 		country = {
 			stability_cost_modifier = -0.1
@@ -812,7 +812,7 @@ christian = {
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
 
-		color = { 179 128 204 }
+		color = { 204 102 25 }
 		icon = 30
 		country = {
 			global_tax_modifier = 0.1
@@ -846,7 +846,7 @@ christian = {
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
 
-		color = { 225 50 255 }
+		color = { 188 161 53 }
 		icon = 31
 		country = {
 			stability_cost_modifier = -0.1
@@ -1681,7 +1681,7 @@ muslim = {
 	}
 	
 	sunni = {
-		color = { 0 153 0 }
+		color = { 0 108 53 }
 		icon = 5
 		country = {
 			cav_to_inf_ratio = 0.10
@@ -1701,7 +1701,7 @@ muslim = {
 	}
 
 	shiite = {
-		color = { 0 204 0 }
+		color = { 38 204 0 }
 		icon = 6
 		country = {
 			heir_chance = 1.0
@@ -1721,7 +1721,7 @@ muslim = {
 	}
 	
 	ibadi = {
-		color = { 0 102 0 }
+		color = { 0 153 0 }
 		icon = 16
 		country = {
 			heir_chance = 1.0
@@ -2883,7 +2883,7 @@ jewish_group = {
 
 	jewish = {
 		icon = 20
-		color = { 0 156 231 }
+		color = { 25 178 255 }
 		country = {
 			tolerance_own = 2
 			advisor_pool = 1
