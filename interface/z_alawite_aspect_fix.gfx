@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_alawite_aspects_icon"
+		texturefile = "gfx/interface/alawite_aspects_icon.dds"
+	}
+}	
+
+
+

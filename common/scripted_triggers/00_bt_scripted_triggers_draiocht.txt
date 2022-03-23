@@ -477,18 +477,3 @@ bt_trigger_third_partition_of_poland_areas = {
 		province_id = 7272
 	}
  }
- 
- bt_trigger_is_black_sea_ish = {
-	OR = {
-		area = hudavendigar_area
-		area = kastamonu_area
-		area = rum_area
-		area = pontus_area
-		area = imereti_area
-		area = azov_area
-		area = pryazovia_area
-		area = crimea_area
-		area = lower_dnieper_area
-		#not done yet
-	}
- }

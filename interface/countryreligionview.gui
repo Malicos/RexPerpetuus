@@ -3416,7 +3416,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "view_aspects"
 			position = { x=8 y = -22}
-			quadTextureSprite ="GFX_protestant_aspects_icon"
+			quadTextureSprite ="GFX_alawite_aspects_icon"
 			Orientation = "LEFT"
 		}
 	}

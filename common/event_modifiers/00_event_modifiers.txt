@@ -9031,7 +9031,7 @@ harmonized_christian = {
 
 #BT Added
 harmonized_mandaean_group = {
-	diplomatic_reputation = 1
+	same_culture_advisor_cost = -0.05
 	religion = yes
 }
 

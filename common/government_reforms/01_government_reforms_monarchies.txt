@@ -1060,6 +1060,9 @@ mughal_government = {
 		unified_celtic_group = {
 			defensiveness = 0.25
 		}
+		syriac_group  = {
+			core_decay_on_your_own = -0.05
+		}
 	}
 }
 
