@@ -1,20 +1,32 @@
 #2303 - Malatya
 
-owner = ARM
-controller = ARM
-add_core = ARM
-culture = arevmdian
-religion = apostolic
+owner = DUL
+controller = DUL
+add_core = DUL
+culture = turkoman
+religion = sunni
 capital = "Malatya"
 trade_goods = cloth
 hre = no
-base_tax = 5
-base_production = 5
+base_tax = 4
+base_production = 4
 base_manpower = 4
 is_city = yes
+
+
 
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
+discovered_by = indian
+discovered_by = east_african
+
+
+1514.8.23 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR		
+}
+
