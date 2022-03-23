@@ -3,15 +3,17 @@
 owner = SJK
 controller = SJK
 add_core = SJK
-culture = arevmdian			#Coptic Armenian or Orthodox Syriac both good choices. Unless I'm missing something, though, sunni kurdish from vanilla is not
-religion = apostolic
-capital = "Diyar Bekir"
+culture = assyrian_culture
+religion = orthodox
+capital = "Diyarbakir"
 trade_goods = copper			#abundant resources of copper around the city.
 hre = no
 base_tax = 5			#Dev so low because of matching dev with vanilla levels, might have to revisit in the future because Armenian territory seems to really get nothing in base game.
 base_production = 5
 base_manpower = 4 
 is_city = yes
+center_of_trade = 2
+fort_15th = yes
 
 discovered_by = east_african
 discovered_by = western

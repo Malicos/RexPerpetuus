@@ -1,8 +1,93 @@
-
 #File completely rewritten, updated, & reworked by Math August 2019.
 #Draiocht then made some further alterations for 12.0 in September.
 #Credit all around, at this point, about 10 different people have contributed something or other, and many quite a lot, including especially Math, Draiocht, and Arga.
 
+#France
+#Iberia
+#Ireland
+#Britain
+#Low Countries
+#North Germany
+#South Germany
+#Italy
+#Balkans
+#Carpathia
+#Poland
+#Baltic
+#Scandinavia
+#Ruthenia
+#Russia
+#Ural
+#Pontic Steppe
+#Caucasia
+#Anatolia
+
+#Mesopotamia
+407 = { "Racca" "Racca" } #(JP) "Raqqa"
+2314 = { "Deir ez-Zor" "Deir ez-Zor" } #(JP) "Deir ez-Zor"
+4298 = { "Aïntab" "Aïntab" }
+6089 = { "Rahba" "Rahba" }
+6090 = { "Soulouk" "Soulouk" }
+6091 = { "Meskene" "Meskene" } #(JP) "Maskanah"
+6092 = { "Manbij" "Manbij" }
+
+#Levant
+321 = { "Limassol" "Limassol" }
+364 = { "Arich" "Arich" }
+365 = { "Raya" "Raya" }
+377 = { "Alep" "Alep" }
+378 = { "Triple" "Triple" }
+379 = { "Jérusalem" "Jérusalem" }
+380 = { "Krak" "Krak des Moabites" }
+381 = { "Ajlun" "Ajlun" }
+382 = { "Damas" "Damas" }
+405 = { "Palmyre" "Palmyre" }
+1849 = { "La Chamelle" "La Chamelle" } #(JP) Used by Crusaders, or "Émèse" as a French transliteration of "Emesa"
+1854 = { "Naplouse" "Naplouse" }
+1855 = { "Saphet" "Saphet" } #(JP) Used by Crusaders, despite not owning the town
+2313 = { "Antioche" "Antioche" }
+4268 = { "Élyn" "Élyn" } #(JP) "Aqaba", "Elyn" to Crusaders
+4270 = { "Mane" "Mane" }
+4271 = { "Idleb" "Idleb" }
+4297 = { "Baalbec" "Baalbec" } #(JP) Or Ancient transliterated as "Héliopolis"
+5139 = { "Nicosie" "Nicosie" }
+5145 = { "Famagouste" "Famagouste" }
+5170 = { "Lattaquie" "Lattaquie" }
+5180 = { "Gazze" "Gazze" }
+5181 = { "Nechel" "Nechel" }
+5203 = { "Montréal" "Montréal" } #(JP) "Shoubak"
+5205 = { "Beyrouth" "Beyrouth" }
+6065 = { "Sinaï" "Sainte-Catherine du Sinaï" }
+6066 = { "Tafile" "Tafile" }
+6067 = { "Philadelphie" "Philadelphie" } #(JP) "Amman"
+6068 = { "Azrac" "Azrac" }
+6069 = { "Mafrac" "Mafrac" } #(JP) "Al-Mafraq"
+6070 = { "Arbelle" "Arbelle" }
+6071 = { "Bersabée" "Bersabée" }
+6072 = { "Remle" "Remle" }
+6073 = { "Le Lyon" "Le Lyon" }
+6074 = { "Tyr" "Tyr" }
+6075 = { "Saete" "Saete" } #(JP) Or "Sayette" or "Sagette"
+6076 = { "Episcopé" "Episcopé" }
+6077 = { "Kormakitis" "Kormakitis" }
+6078 = { "Cyrenie" "Cyrenie" }
+6079 = { "Margatte" "Margatte" } #(JP) "Margat"
+6080 = { "Tartous" "Tartous" }
+6081 = { "Adrée" "Adrée" } #(JP) Modern "Daraa"
+6082 = { "Soueïda" "Soueïda" } #(JP) "As-Suwayda"
+6083 = { "Sanamein" "Sanamein" } #(JP) "Al-Sanamayn"
+6084 = { "Maaloule" "Maaloule" }
+6085 = { "Salamié" "Salamié" }
+6086 = { "Hamath" "Hamath" }
+6087 = { "Marre" "Marre" } #(JP) Crusader name of "Maarat al-Numan"
+6088 = { "Soukhna" "Soukhna" }
+6093 = { "Hazart" "Hazart" } #(JP) "Aziz"
+6094 = { "Alexandrette" "Alexandrette" }
+6095 = { "Kilis" "Kilis" }
+
+#Arabia
+#Egypt
+#Maghreb
 
 ######Americas######
 
@@ -713,23 +798,10 @@
 5161 = { "Coryce" "Coryce" }				#Corycus. Found by Math5615, though Corycus was used more often
 
 #Levant
-365 = "Sinaï"						#Sinai. Notes
-377 = "Alep"						#Aleppo. Notes
-379 = "Jérusalem" 					#Al-Quds. Notes
-380 = "Krak des Moabites" 			#Kerak. Notes
-382 = "Damas"						#Damascus. Notes
-405 = "Palmyre" 					#Raqqa. Notes
-1849 = "Émèse" 							#Homs. Notes
-1855 = "Galilée"						#Sidon. Notes
-2313 = "Antioche" 						#Antioch. Notes
-4270 = "Outre-Jourdain"					#Azraq. Notes
+6068 = { "Basie" "Basie" }
 5138 = "Osmanie"						#Osmaniye. Notes
-5139 = "Nicosie" 						#Nicosia. Notes
-5145 = "Famagouste" 					#Famagusta. Notes
-5170 = "Lattaquié"						#Latakia. Notes
 5203 = "Montréal" 						#Arabah. Notes
 5205 = "Beyrouth"						#Beirut. Notes
-4297 = "Héliopolis" 					#Baalbek. Notes
 
 #Mesopotamia
 2309 = "Singare" 						#Sinjar. Notes

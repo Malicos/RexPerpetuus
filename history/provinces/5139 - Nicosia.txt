@@ -1,25 +1,21 @@
+ 
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = CIL
-controller = CIL
-add_core = CIL
+owner = CYP
+controller = CYP
 add_core = CYP
 culture = cypriot
 religion = orthodox
 capital = "Nicosia"
-trade_goods = sugar
+trade_goods = cloth #(JP) Moved sugar to coastal Italian owned provinces
 hre = no
-base_tax = 5
-base_production = 5
+base_tax = 3
+base_production = 4
 base_manpower = 3
 is_city = yes
 fort_15th = yes
 
-discovered_by = KAZ
-discovered_by = CRI
-discovered_by = GOL
-discovered_by = AST
-discovered_by = QAS
+discovered_by = nomad_group
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

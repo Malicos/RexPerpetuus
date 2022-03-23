@@ -1,3 +1,4 @@
+ 
 #4271 - Suwaida
 
 owner = SYR
@@ -6,11 +7,11 @@ add_core = SYR
 culture = al_suryah_arabic
 religion = sunni
 capital = "Idlib"
-trade_goods = grain			#A major agricultural center of Syria, grain but also olives groves, fruit, coton and much else from around here... going with grain, everyone likes grain
+trade_goods = cotton			#A major agricultural center of Syria, grain but also olives groves, fruit, coton and much else from around here... going with grain, everyone likes grain
 hre = no
-base_tax = 4
-base_production = 6
-base_manpower = 4
+base_tax = 3
+base_production = 2
+base_manpower = 2
 is_city = yes
 
 discovered_by = east_african

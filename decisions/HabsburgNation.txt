@@ -58,6 +58,7 @@ country_decisions = {
 		}
 		effect = {
 			restore_country_name = yes
+			add_government_reform = austrian_archduchy_reform
 			change_tag = HAB
 			add_prestige = 10
 			if = {

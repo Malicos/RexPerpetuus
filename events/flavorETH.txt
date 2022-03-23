@@ -2342,6 +2342,7 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				continent = ROOT
+				controlled_by = ROOT
 				is_state = yes 
 				NOT = { has_province_modifier = itinerant_capital_area }
 				NOT = { has_province_flag = is_itinerent_capital }
@@ -2351,40 +2352,116 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				continent = ROOT
+				controlled_by = ROOT
 				is_state = yes 
 				NOT = { has_province_modifier = itinerant_capital_area }
 				NOT = { has_province_flag = is_itinerent_capital }
-				development = 10
+				OR = {
+					local_autonomy = 20
+					development = 10
+				}
 			}
 			save_event_target_as = eth_new_capital
 		}
 		random_owned_province = {
 			limit = {
 				continent = ROOT
+				controlled_by = ROOT
 				is_state = yes 
 				NOT = { has_province_modifier = itinerant_capital_area }
 				NOT = { has_province_flag = is_itinerent_capital }
-				development = 20
+				OR = {
+					local_autonomy = 40
+					development = 20
+				}
 			}
 			save_event_target_as = eth_new_capital
 		}
 		random_owned_province = {
 			limit = {
 				continent = ROOT
+				controlled_by = ROOT
 				is_state = yes 
 				NOT = { has_province_modifier = itinerant_capital_area }
 				NOT = { has_province_flag = is_itinerent_capital }
-				development = 30
+				OR = {
+					local_autonomy = 60
+					development = 30
+				}
 			}
 			save_event_target_as = eth_new_capital
 		}
 		random_owned_province = {
 			limit = {
 				continent = ROOT
+				controlled_by = ROOT
 				is_state = yes 
 				NOT = { has_province_modifier = itinerant_capital_area }
 				NOT = { has_province_flag = is_itinerent_capital }
-				development = 40
+				OR = {
+					local_autonomy = 80
+					development = 40
+				}
+			}
+			save_event_target_as = eth_new_capital
+		}
+		random_owned_province = {
+			limit = {
+				continent = ROOT
+				controlled_by = ROOT
+				is_state = yes 
+				NOT = { has_province_modifier = itinerant_capital_area }
+				NOT = { has_province_flag = is_itinerent_capital }
+				OR = {
+					local_autonomy = 20
+					development = 10
+				}
+				religion = ROOT
+			}
+			save_event_target_as = eth_new_capital
+		}
+		random_owned_province = {
+			limit = {
+				continent = ROOT
+				controlled_by = ROOT
+				is_state = yes 
+				NOT = { has_province_modifier = itinerant_capital_area }
+				NOT = { has_province_flag = is_itinerent_capital }
+				OR = {
+					local_autonomy = 40
+					development = 20
+				}
+				religion = ROOT
+			}
+			save_event_target_as = eth_new_capital
+		}
+		random_owned_province = {
+			limit = {
+				continent = ROOT
+				controlled_by = ROOT
+				is_state = yes 
+				NOT = { has_province_modifier = itinerant_capital_area }
+				NOT = { has_province_flag = is_itinerent_capital }
+				OR = {
+					local_autonomy = 60
+					development = 30
+				}
+				religion = ROOT
+			}
+			save_event_target_as = eth_new_capital
+		}
+		random_owned_province = {
+			limit = {
+				continent = ROOT
+				controlled_by = ROOT
+				is_state = yes 
+				NOT = { has_province_modifier = itinerant_capital_area }
+				NOT = { has_province_flag = is_itinerent_capital }
+				OR = {
+					local_autonomy = 80
+					development = 40
+				}
+				religion = ROOT
 			}
 			save_event_target_as = eth_new_capital
 		}

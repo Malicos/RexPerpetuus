@@ -1,18 +1,16 @@
-#2311 - Samawah
+#2311 - Najaf
 
 owner = SJK
 controller = SJK
 add_core = SJK
-add_core = BSR
-add_core = MSY
 culture = al_iraqiya_arabic
 religion = shiite
 capital = "Najaf"
-trade_goods = spices #Dates
+trade_goods = bt_trade_good_books #(JP) Shia Religious Centre
 hre = no
-base_tax = 6 
-base_production = 6
-base_manpower = 4
+base_tax = 3
+base_production = 3
+base_manpower = 3
 is_city = yes
 
 discovered_by = muslim

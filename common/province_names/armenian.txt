@@ -35,13 +35,52 @@
 
 #Mesopotamia
 2307 = { "Van" "Van" }
+2314 = { "Derzor" "Derzor" } #(JP) "Deir ez-Zor"
 3254 = { "Ararat" "Daruynk" }
 4296 = { "Baghesh" "Baghesh" }
+4298 = { "Aintab" "Aintab" }
 4302 = { "Alashkert" "Alashkert" }
 5331 = { "Sghert" "Sghert" }
 5332 = { "Arjesh" "Arjesh" }
+6091 = { "Maskana" "Maskana" }
+6092 = { "Mabbogh" "Mabbogh" } #(JP) Syriac
 
-#Levant
+#Levant #(JP) Some are Base/Western/Crusader names
+321 = { "Limassol" "Limassol" }
+365 = { "Raya" "Raya" }
+377 = { "Halep" "Halep" }
+378 = { "Tripoli" "Tripoli" } #(JP) Base Names
+379 = { "Yerusalem" "Yerusalem" }
+380 = { "Kharkha" "Kharkha" }
+382 = { "Sham" "Sham" }
+405 = { "Palmyra" "Palmyra" } #(JP) Base Names
+1849 = { "Emesa" "Emesa" } #(JP) Base Names
+1854 = { "Nablus" "Nablus" } #(JP) Base Names
+1855 = { "Saphet" "Saphet" } #(JP) "Safed"
+2313 = { "Antiok" "Antiok" }
+4268 = { "Elyn" "Elyn" } #(JP) "Aqaba"
+4297 = { "Aregqag" "Aregqag" } #(JP) Under Tigran the Great
+5170 = { "Laodicea" "Laodicea" }
+5180 = { "Azan" "Azan" }
+5181 = { "Nakhl" "Nakhl" }
+5203 = { "Shubak" "Shubak" } #(JP) "Shoubak"
+5205 = { "Beyrut" "Beyrut" }
+6065 = { "Sina" "Surb Yekaterina" }
+6067 = { "Filadelfia" "Filadelfia" } #(JP) "Amman"
+6069 = { "Mafrag" "Mafrag" }
+6070 = { "Arbela" "Arbela" } #(JP) Base Names
+6071 = { "Beer Shea" "Beer Shea" }
+6072 = { "Rama" "Rama" }
+6073 = { "Ligum" "Ligum" } #(JP) A Crusader name
+6074 = { "Tire" "Tire" }
+6075 = { "Saida" "Saida" } #(JP) Base Names
+6080 = { "Tartus" "Tartus" } #(JP) Base Names
+6085 = { "Salamia" "Salamia" }
+6086 = { "Hama" "Hama" } #(JP) Base Names
+6087 = { "Arra" "Arra" }
+6093 = { "Azzau" "Azzau" } #(JP) "Aziz", Crusader "Hazart"
+6094 = { "Alexandrend" "Alexandrend" }
+6095 = { "Kilis" "Kilis" } #(JP) Base Names
 
 #Anatolia
 

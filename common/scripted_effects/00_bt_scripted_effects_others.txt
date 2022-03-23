@@ -130,12 +130,12 @@ choc_FrederickIII_dies_first = {
 				VOR = { ai = yes }
 			}
 			VOR = { clr_country_flag = choc_albrecht_friedrich_brothers exile_ruler_as = albrechtVI }
-			STY = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = GAU }
+			STY = { clr_country_flag = choc_albrecht_friedrich_brothers inherit = VOR }
 		}
 		else = {
 			HAB = { clr_country_flag = choc_albrecht_friedrich_brothers }
 			STY = { clr_country_flag = choc_albrecht_friedrich_brothers }
-			#GAU = { clr_country_flag = CHO_albrecht_friedrich_brothers inherit = ROOT change_tag = ROOT }
+			#VOR = { clr_country_flag = CHO_albrecht_friedrich_brothers inherit = ROOT change_tag = ROOT }
 		}
 	}
 }

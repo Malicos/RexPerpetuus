@@ -1,3 +1,4 @@
+ 
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
 owner = KOJ
@@ -6,12 +7,14 @@ add_core = KOJ
 culture = al_suryah_arabic
 religion = sunni
 capital = "Gaza"
-trade_goods = fish			#Going with fish because I cant think of anything better... it was mostly coastal desert.
+trade_goods = wine #(JP) Largest Christian population in Palestine who produced wine for export under Mamluks
 hre = no
 base_tax = 2 
-base_production = 2 
+base_production = 3 
 base_manpower = 2 
 is_city = yes
+
+center_of_trade = 1
 
 discovered_by = muslim
 discovered_by = ottoman

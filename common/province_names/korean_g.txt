@@ -224,7 +224,78 @@
 1025 = { "Ujeon" "Sanhyeong" } #Uzen
 1026 = { "Yukjeon" "Hoejin" } #Rikuzen
 
+703 = { "Yeolha" "Yeolha" } #Vanilla
+4194 = { "Yeongpyeong" "Yeongpyeong" } #Vanilla
+1816 = { "Bukgyeong" "Bukgyeong" } #Vanilla
+696 = { "Bojeong" "Bojeong" } #Vanilla
+695 = { "Hagan" "Hagan" } #Vanilla
+4195 = { "Jeonjeong" "Jeonjeong" } #Vanilla
+2137 = { "Daemyeong" "Daemyeong" } #Vanilla
 
+2138 = { "Mujeong" "Mujeong" } #Vanilla
+691 = { "Jenam" "Jenam" } #Vanilla
+2140 = { "Yeonju" "Yeonju" } #Vanilla
+690 = { "Ikdo" "Ikdo" } #Vanilla, Qingzhou's other name
+2139 = { "Naeju" "Naeju" } #Vanilla
+
+#North Hebei
+2136 = { "Seonhwa" "Seonhwa" } #Vanilla
+
+#Jiangsu
+2141 = { "Seoju" "Seoju" } #Vanilla
+4196 = { "Gongyu" "Gongyu" } #Vanilla
+2142 = { "Hoean" "Hoean" } #Vanilla
+685 = { "Yangju" "Yangju" } #Vanilla
+1821 = { "Namgyeong" "Namgyeong"} #Vanilla
+2145 = { "Jingang" "Jingang" } #Vanilla
+1822 = { "Soju" "Soju" } #Vanilla
+
+#Anhui
+2143 = { "Bongyang" "Bongyang" } #Vanilla
+2144 = { "Buyang" "Buyang" } #Vanilla
+1838 = { "Hapbi" "Hapbi" } #Vanilla
+686 = { "Angyeong" "Angyeong" } #Vanilla
+2146 = { "Yeongguk" "Yeongguk" } #Vanilla
+2147 = { "Hwiju" "Hwiju" } #Vanilla
+
+#Zheijiang
+684 = { "Hangju" "Hangju" } #Vanilla
+2148 = { "Soheung" "Soheung" } #Vanilla
+2149 = { "Yeongpa" "Yeongpa" } #Vanilla
+2150 = { "Geumhwa" "Geumhwa" } #Vanilla
+1824 = { "Onju" "Onju" } #Vanilla
+
+2111 = { "Hangju" "Hangju" } #Vanilla. Surely no one is gonna confuse with Hangzhou..?
+4201 = { "Amnok" "Sinju" } #Vanilla
+2110 = { "Jangryeong" "Haju" } #Vanilla
+
+4653 = { "Hyeondeok" "Hyeonju" } #Vanilla
+4661 = { "Hoju" "Hoju" }
+2107 = { "Yongcheon" "Yongju" } #2107 should be Yongcheon because Yeongan(Ningan) is where Yongcheon-bu and it's capital located
+2108 = { "Yongwon" "Gyeongju" } #Gyeongju is actual name of provincial capital of Yongwon-bu
+
+1850 = { "Jeongri" "Jeongju" } #Vanilla
+4656 = { "Anbyeon" "Anju" } #Vanilla. Anju isn't actually located here but Province 1850 is hugging the place so there is no choice
+
+2109 = { "Buyeo" "Buju" } #The place that PDX relocated Buyeo seems to be quite off
+
+731 = { "Yeongju" "Samseong" } #Turns out place itself seems to be called Yeongju and Samseong is name of castle located there
+4663 = { "Dongpyeong" "Iju" } #Iju is proper provincial capital of Dongpyeong-bu
+4217 = { "Anwon" "Yeongju" } #Yeongju is proper name for Provincial capital of Anwon-bu
+729 = { "Moju" "Moju" } #Had to go wild and use name of city that currently it's location unknown
+
+4660 = { "Cheolli" "Bunju" } #Because name of province moved from 731(it's still within historical border of Cheolli-bu), I had to go with city with unknown location(again)
+2185 = { "Nungang" "Nungang" } #Vanilla
+1049 = { "Haranpo" "Haranpo" } #Vanilla
+
+1031 = { "Jeunguya" "Sangcheon" } 
+4193 = { "Songjeon" "Seungsan" } 
+
+1825 = { "Anye" "Byeongpo" }
+
+4186 = { "Iyeo" "Songsan" } #There is note from PDX dev why they choose Songsan as city name
+
+#1032 = "Cheondo" #undecisive about city name
 
 #Unsorted and Uncapitalised
 1056 = "Baleugujin"
@@ -233,19 +304,5 @@
 707 = "Wimeon"
 708 = "Jang-ye"
 2747 = "Langsan"
-2187 = "Ssa"
-1053 = "Sing-an"
-725 = "Chichiha"
-4187 = "Sesseu"
-4185 = "Dango"
-1023 = "Echijen"
 1837 = "Eschu"
-1030 = "Owali"
-1839 = "Seuluga"
-4188 = "Sinano"
-1028 = "Musasi"
-1843 = "Gojeuke"
-4190 = "Simosa"
-1026 = "Likujen"
-4131 = "Musseu"
 4193 = "Osima"

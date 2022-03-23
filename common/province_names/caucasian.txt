@@ -1,3 +1,4 @@
+4302 = { "Alashkert" "Alashkert" }
 
 #Beyond Typus 4.0 Overhaul of Anatolia, incomplete, obviously
 331 = "Karin"			#Karnu-Kalaki in Georgian
@@ -10,7 +11,6 @@
 5158 = "Tewrik"
 
 #Beyond Typus 7.0 revisit of Van area
-4302 = "Manazkert"
 4295 = "Harsnkv"
 4296 = "Baghesh"
 5296 = "Mtsbin"

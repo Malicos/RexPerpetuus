@@ -617,20 +617,72 @@
 #Caucasia
 
 #Mesopotamia
+407 = { "Raca" "Raca" } #(JP) "Raqqa"
 410 = { "Baguedad" "Baguedad" }
 411 = { "Mozul" "Mozul" }
+2314 = { "Deirezor" "Deirezor" } #(JP) "Deir ez-Zor"
+4298 = { "Aintabe" "Aintabe" }
+6089 = { "Raba" "Raba" }
+6090 = { "Suluque" "Suluque" }
+6091 = { "Mesquene" "Mesquene" } #(JP) "Maskanah"
+6092 = { "Manbiz" "Manbiz" }
+
+#Levant
+5203 = { "Montreal" "Montreal" }
 
 #Levant
 321 = { "Limasol" "Limasol" }
-382 = { "Damasco" "Damasco" }
+364 = { "Ariz" "Ariz" }
+365 = { "Raya" "Raya" }
 377 = { "Alepo" "Alepo" }
+378 = { "Trípoles" "Trípoles del Oriente" }
 379 = { "Jerusalén" "Jerusalén" }
-1854 = { "Jafa" "Jafa" }
-1855 = { "Galilea" "Safé" }
+380 = { "Alcaraque" "Alcaraque" }
+381 = { "Ajlún" "Ajlún" }
+382 = { "Damasco" "Damasco" }
+405 = { "Palmira" "Palmira" }
+1849 = { "La Camella" "La Camella" } #From Crusader name of "La Chamelle"
+1854 = { "Naplosa" "Naplosa" }
+1855 = { "El Sahet" "El Sahet" }
 2313 = { "Antioquía" "Antioquía" }
-4268 = { "Ácaba" "Ácaba" }
+4268 = { "Elín" "Elín" } #(JP) "Aqaba", "Elyn" to Crusaders
+4270 = { "Mán" "Mán" }
+4271 = { "Idlebe" "Idlebe" }
+4297 = { "Balbeque" "Balbeque" } #(JP) Or Ancient transliterated as "Héliopolis"
+5139 = { "Nicosia" "Nicosia" }
+5145 = { "Hamagusta" "Hamagusta" }
 5170 = { "Lataquia" "Lataquia" }
+5180 = { "Gaza" "Gaza" }
+5181 = { "Nejel" "Nejel" }
 5203 = { "Montreal" "Montreal" }
+5205 = { "Beirud" "Beirud" }
+6065 = { "Sinaí" "Santa Catalina del Sinaí" }
+6066 = { "Táfila" "Táfila" }
+6067 = { "Filadelfia" "Filadelfia" } #(JP) "Amman"
+6068 = { "Azraque" "Azraque" }
+6069 = { "Mafraque" "Mafraque" } #(JP) "Al-Mafraq"
+6070 = { "Arbella" "Arbella" }
+6071 = { "Berseba" "Berseba" }
+6072 = { "Rámula" "Rámula" }
+6073 = { "El León" "El León" }
+6074 = { "Tiro" "Tiro" }
+6075 = { "Sidón" "Sidón" }
+6076 = { "La Piscopia" "La Piscopia" }
+6077 = { "Cormácite" "Cormácite" }
+6078 = { "Cirénia" "Cirénia" }
+6079 = { "Margata" "Margata" }
+6080 = { "Tartús" "Tartús" }
+6081 = { "Adra" "Adra" } #(JP) Modern "Daraa"
+6082 = { "Sueyda" "Sueyda" } #(JP) "As-Suwayda"
+6083 = { "Sanamén" "Sanamén" } #(JP) "Al-Sanamayn"
+6084 = { "Malula" "Malula" }
+6085 = { "Salamia" "Salamia" }
+6086 = { "Hamad" "Hamad" }
+6087 = { "Marra" "Marra" }
+6088 = { "Suña" "Suña" }
+6093 = { "Hazarte" "Hazarte" } #(JP) "Aziz"
+6094 = { "Alejandreta" "Alejandreta" }
+6095 = { "Kilís" "Kilís" }
 
 #Arabia
 385 = { "La Meca" "La Meca" }

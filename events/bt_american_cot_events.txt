@@ -1,0 +1,202 @@
+namespace = bt_american_cot_events
+
+province_event = {
+	id = bt_american_cot_events.1
+	title = "bt_american_cot_events.1.t" 
+	desc = "bt_american_cot_events.1.d"
+	picture = BURGHER_ESTATE_eventPicture
+	goto = ROOT
+	
+	trigger = {
+		OR = { #New World
+			superregion = north_america_superregion
+			superregion = central_america_superregion
+			superregion = south_america_superregion
+			superregion = andes_superregion
+		}
+		is_city = yes #Must be fully colonised
+		NOT = { province_has_center_of_trade_of_level = 1 } #May not have a center of trade already.
+		development = 10 #Needs at least 10 dev to spawn CoT
+		owner = { #Owner may not be a tribal nation as we want these to spawn as a result of colonisers colonising.
+			NOT = { is_tribal = yes }
+		}
+		NOT = { #Limit to a maximum of 7 CoTs per node.
+			calc_true_if = {
+				all_trade_node_member_province = { 
+					province_has_center_of_trade_of_level = 1
+				}
+				amount = 7
+			}
+		}
+		NOT = {	has_province_flag = bt_owner_denied_cot_in_province	} #For the player, should they decide that, no, this province is not worthy a CoT.
+	}
+	
+	mean_time_to_happen = {
+		years = 200
+		
+		#Decrease MTTH with dev by 0.8^mod(dev-10, 5). This can cut it down to a mere 17% of those 200 years, or 34 years MTTH at 50 dev.
+		modifier = { #15
+			factor = 0.8
+			development = 15
+		}
+		modifier = { #20
+			factor = 0.8
+			development = 20
+		}
+		modifier = { #25
+			factor = 0.8
+			development = 25
+		}
+		modifier = { #30
+			factor = 0.8
+			development = 30
+		}
+		modifier = { #35
+			factor = 0.8
+			development = 35
+		}
+		modifier = { #40
+			factor = 0.8
+			development = 40
+		}
+		modifier = { #45
+			factor = 0.8
+			development = 45
+		}
+		modifier = { #50
+			factor = 0.8
+			development = 50
+		}
+		
+		modifier = { #Historical nudge for provinces that grew to become important centers of trade, cutting MTTH by 0.9.
+			factor = 0.9
+			OR = { #Some of these have estuaries currently, but I think that's fine. Just shows that they're a bit more important.
+				province_id = 965 #New York. Has grown to become one of the biggest centers of trade in the US.
+				province_id = 994 #Quebec. Fur trading outpost by the French. Also suggested by Math5615
+				province_id = 4621 #Santo Domingo, suggested by Math5615.
+				province_id = 956 #Philadelphia. Wiki claims important trading center by the 1750s.
+				province_id = 950 #Chesapeake Bay Hampton Roads, suggested by neo.
+				province_id = 2554 #Baltimore. One of biggest ports in Americas, suggested by JP
+				province_id = 952 #Virginia, 1 of 3 cores of the colony, suggested by JP
+				province_id = 950 #Virginia, 1 of 3 cores of the colony, suggested by JP
+				province_id = 2547 #Virginia, 1 of 3 cores of the colony, suggested by JP
+				province_id = 487 #Jamaica. Port Royal/Kingston, biggest city and trading hub in the Carribean trade, suggested by Math5615
+				province_id = 932 #Charleston, early settlement and key port, suggested by JP
+				province_id = 2526 #Louisville. Early settlements in Kentucky here, suggested by JP
+				province_id = 2548 #Cumberland Pass, the main route across the Appalachians used by Colonists, suggested by JP
+				province_id = 922 #Mobile and other early French trading settlements, suggested by JP
+				province_id = 2530 #Early French trading settlements, suggested by JP
+				province_id = 4903 #Chicago, maybe maybe not. Certainly developed as a key industrial centre later on, suggested by JP.
+				province_id = 888 #Largest bay in Texas, has Houston and Galveston + others, suggested by JP
+				province_id = 886 #Dallas-Fort Worth, one of largest population centers in modern US, suggested by JP
+				province_id = 5018 #Los Angeles. Spanish mission & trading post. A bit of a no-brainer as well, suggested by JP
+				province_id = 973 #Vancouver. A bit of a no-brainer, suggested by JP
+				province_id = 1005 #Center of the Hudson Bay Company, suggested by JP
+				province_id = 2592 #Center of the Hudson Bay Company, suggested by JP
+				province_id = 5013 #St Johns on Newfoundland, suggested by JP
+				province_id = 2568 #Port Royal/Annapolis Royal, earliest settlement in Acadia & major trading post, suggested by JP
+				province_id = 2583 #Stretch from Quebec to Toronto. Very urbanised, settled very early, lots of trade along St. Lawrence, suggested by JP
+				province_id = 2585 #Stretch from Quebec to Toronto. Very urbanised, settled very early, lots of trade along St. Lawrence, suggested by JP
+				province_id = 989 #Stretch from Quebec to Toronto. Very urbanised, settled very early, lots of trade along St. Lawrence, suggested by JP
+				province_id = 5038 #Stretch from Quebec to Toronto. Very urbanised, settled very early, lots of trade along St. Lawrence, suggested by JP
+				province_id = 987 #Stretch from Quebec to Toronto. Very urbanised, settled very early, lots of trade along St. Lawrence, suggested by JP
+				
+				#The following cannot get this event in 1444 because they already start with a CoT, but just in case the 1444 map changes and these are cut, here goes:
+				province_id = 968 #Boston/Massachusetts. CoT at game start.
+				province_id = 2555 #Pittsburgh. CoT at game start.
+				province_id = 2670 #Toronto. CoT at game start, and had a bunch of important fur trading posts under the French.
+				province_id = 2584 #Montreal. CoT at game start, suggested by Math5615.
+				province_id = 893 #New Orleans. CoT at game start, suggested by Math5615.
+				province_id = 484 #la Habana. CoT at game start, suggested by Math5615.
+				province_id = 917 #Cahokia. CoT at game start, suggested by JP
+				province_id = 900 #St. Louis. CoT at game start, big part of the inland fur trade, suggested by Math5615
+				province_id = 944 #Detroit. CoT at game start, early industrialised city plus main crossing point between Canada and US, suggested by JP
+				province_id = 2021 #San Fransisco. Spanish mission & trading post. CoT at game start. A bit of a no-brainer, suggested by JP
+				province_id = 5755 #Portland. CoT at game start, suggested by JP
+				province_id = 874 #Seattle. CoT at game start, suggested by JP
+				province_id = 488 #Important natural harbour settled by French & Spanish, suggested by JP
+				province_id = 6055 #Nassau. CoT at game start, suggested by JP
+				province_id = 835 #Panama. No-brainer, suggested by JP
+			}
+		}
+		
+		#Increase by 1.10^number of CoTs in the region. This makes the last CoT's MTTH to be 77% higher than the first, meaning many trade nodes should not actually reach the 7th CoT unless it has a lot of developed provinces.
+		modifier = { #1
+			factor = 1.1
+			calc_true_if = {
+				all_trade_node_member_province = { 
+					province_has_center_of_trade_of_level = 1
+				}
+				amount = 1
+			}
+		}
+		modifier = { #2
+			factor = 1.1
+			calc_true_if = {
+				all_trade_node_member_province = { 
+					province_has_center_of_trade_of_level = 1
+				}
+				amount = 2
+			}
+		}
+		modifier = { #3
+			factor = 1.1
+			calc_true_if = {
+				all_trade_node_member_province = { 
+					province_has_center_of_trade_of_level = 1
+				}
+				amount = 3
+			}
+		}
+		modifier = { #4
+			factor = 1.1
+			calc_true_if = {
+				all_trade_node_member_province = { 
+					province_has_center_of_trade_of_level = 1
+				}
+				amount = 4
+			}
+		}
+		modifier = { #5
+			factor = 1.1
+			calc_true_if = {
+				all_trade_node_member_province = { 
+					province_has_center_of_trade_of_level = 1
+				}
+				amount = 5
+			}
+		}
+		modifier = { #6
+			factor = 1.1
+			calc_true_if = {
+				all_trade_node_member_province = { 
+					province_has_center_of_trade_of_level = 1
+				}
+				amount = 6
+			}
+		}
+		
+		modifier = { #A special modifier for if there is already a CoT in the area of the province, making it five times less likely to occur in that area.
+			factor = 5
+			area_for_scope_province = { #Should be an any_scope if I've understood the code correctly since this is a trigger scope.
+				province_has_center_of_trade_of_level = 1
+			}
+		}
+	}
+	
+	option = {
+		name = "bt_american_cot_events.1.a"
+		ai_chance = { factor = 1 } #AI will always want a CoT.
+		
+		center_of_trade = 1
+	}
+	
+	option = {
+		trigger = { NOT = { ai = yes }  } #Player-only choice
+		name = "bt_american_cot_events.1.b"
+		ai_chance = { factor = 0 } #Should not be necessary, but I've seen EU4 events trigger in circumstances when they really should not be able to trigger, so just in case, I'm putting this here.
+		
+		custom_tooltip = bt_american_cot_events.1.b_tooltip
+	}
+	
+}

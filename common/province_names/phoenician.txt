@@ -1,3 +1,22 @@
+#Levant
+377 = { "Hadad" "Hadad" } #(JP) post-Ebla name. Caananite God, Phonecians are Caananites, lbh.
+378 = { "Athar" "Athar" }
+379 = { "Shalem" "Shalem" }
+382 = { "Dimasqa" "Dimasqa" } #(JP) Amarna Letters name
+1854 = { "Iop" "Iop" }
+1855 = { "Akka" "Akka" }
+4268 = { "Elath" "Elath" } #(JP) Edomite port supported by Phoenicians
+4297 = { "Baalbek" "Baalbek" }
+5170 = { "Ramitha" "Ramitha" }
+5180 = { "Zazah" "Zazah" } #(JP) "ZZH"
+5205 = { "Biruta" "Biruta" }
+6072 = { "Ashqelon" "Ashqelon" } #(JP) "`šqln"
+6073 = { "Magidda" "Magidda" }
+6074 = { "Sur" "Sur" }
+6075 = { "Sidun" "Sidun" }
+6080 = { "Arwad" "Arwad" }
+6094 = { "Myriandrus" "Myriandrus" } #(JP) Greek name for Phoenician port near modern Alexandretta
+
 #By Arga
 #North Africa
 334 = "Tingis"
@@ -36,13 +55,8 @@
 5090 = "Tharras"			#"Thrr?s" (maybe AH, not conclusive, but should be plausible)
 
 #Levant
-
-378 = "Gebal"			#"Byblos" (sounds greek to me tho)
-1854 = "Iop"			#"Ipu"
 5145 = "Kition"			# (sounds like greek to me; nothing better yet), "Kittim" (biblical, so I highly doubt it. Still sounds plausible phonetically as a name)
 5179 = "Ba'albek"
-5180 = "Zzh"			#might be pronounced like "Tsatsah", but not sure
-#5205 = "Sidn"			#"?dn" / "Sidn" ("Sidon")
 
 #Balkans
 151 = "Qart-Byzas"			# (AH, based on origin of name)
@@ -70,14 +84,6 @@
 1247 = "Krs"			#or "Korsai"
 5092 = "Alalie" #phoenicians and carthage never had a foothold here afaik, but they had a protectorate
 
-
-
-#2017 Sep 7
-#phoenician
-#379 = "Shalem"
-
-
-
 #2018 Apr 15
 #Turkey
 4298 = "Sam'al" #works better than Antep maybe
@@ -93,9 +99,6 @@
 
 #adjustments on previous lists
 339 = "Ikosim" #basically Yksm with it's implication filled in
-5205 = "Sidon" #reads better than Sidn and conveys the implicated 'o'
-
-
 
 #2018 May 29 (new work based on Itineraria Phoenicia
 
@@ -114,12 +117,9 @@
 1222 = "Tingi"
 #5145 = "Shelami" #or "Shelowi"
 
-
-
 #2018 Nov 17
 #italy
 #7007 = "Baal-El"
-
 
 #2018 Dec
 
@@ -127,13 +127,9 @@
 221 = "Qart-Hadasht"
 321 = "Qart-Hadasht"
 341 = "Qart-Hadasht"
-379 = "Shalem"
 3098 = "Tarshish"
 5145 = "Shelami" #or "Shelowi"
 5218 = "Ash-Dir"
-
-
-
 
 #Beyond Typus 10.0 major localised naming contribution from multiple people, credit to everyone but Draiocht. Integrated 2018-11-16
 #Help from Arga
@@ -171,7 +167,6 @@
 1247 = "Kors" #KRS
 2454 = "Karavan" #idk and it's not sicca
 2986 = "Karily" #KRLY
-5180 = "Zazah" #ZZH
 5219 = "Likush" #or "Liksh, LKS
 
 #africa
@@ -247,16 +242,6 @@
 #sicily
 7001 = "Nika" #assumed from roman name for punic fort
 7002 = "Katana" #from greek name
-
-#asia
-#tripoli
-5170 = "Ramitha"
-
-#palestine
-1855 = "'Aka"
-
-#syria
-4297 = "Ba'albek"
 
 #cilicia
 327 = "Edna" #hebrew

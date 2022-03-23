@@ -40,7 +40,6 @@ estate_church =
 		church_power_modifier = 0.2			#BTAddOn changed from 0.1 - estates rebalancing
 		monthly_fervor_increase = 1
 		#stability_cost_modifier = -0.1			#BTAddOn removed - estates rebalancing
-		global_unrest = 2
 	}
 	country_modifier_neutral = {
 		tolerance_own = 1			#BTAddOn new - estates rebalancing
@@ -54,6 +53,7 @@ estate_church =
 		church_power_modifier = -0.2			#BTAddOn changed from -0.25 - estates rebalancing
 		monthly_fervor_increase = -1
 		stability_cost_modifier = 0.33			#BTAddOn changed from 0.1 - estates rebalancing
+		global_unrest = 2
 	}
 	
 	land_ownership_modifier = {
