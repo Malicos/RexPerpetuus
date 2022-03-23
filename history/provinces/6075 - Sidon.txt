@@ -5,8 +5,8 @@
 #Core Details
 capital = "Sidon"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = TYE
+controller = TYE
 
 #Demographics
 culture = al_suryah_arabic
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = cotton
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
+add_core = TYE
 add_core = LEB
 
 #Other Political

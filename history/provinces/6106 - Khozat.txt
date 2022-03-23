@@ -5,8 +5,8 @@
 #Core Details
 capital = "Khozat"
 is_city = yes
-owner = AKK
-controller = AKK
+owner = ARM
+controller = ARM
 
 #Demographics
 culture = armenian
@@ -19,8 +19,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = AKK
-add_core = ERE
+add_core = ARM
 
 #Other Political
 hre = no

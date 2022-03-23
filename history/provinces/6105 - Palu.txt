@@ -5,8 +5,8 @@
 #Core Details
 capital = "Palu"
 is_city = yes
-owner = EGL
-controller = EGL
+owner = ARM
+controller = ARM
 
 #Demographics
 culture = armenian
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = EGL
 add_core = ARM
 
 #Other Political

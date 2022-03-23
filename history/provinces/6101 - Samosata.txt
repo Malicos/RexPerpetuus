@@ -5,8 +5,8 @@
 #Core Details
 capital = "Samosata"
 is_city = yes
-owner = DUL
-controller = DUL
+owner = ARM
+controller = ARM
 
 #Demographics
 culture = turkoman
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = DUL
+add_core = ARM
 
 #Other Political
 hre = no

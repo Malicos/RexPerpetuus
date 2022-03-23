@@ -5,8 +5,8 @@
 #Core Details
 capital = "Qulb"
 is_city = yes
-owner = ZIR
-controller = ZIR
+owner = ARM
+controller = ARM
 
 #Demographics
 culture = kurdish
@@ -19,8 +19,6 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core=  ZIR
-add_core = QUL
 add_core = ARM
 
 #Other Political

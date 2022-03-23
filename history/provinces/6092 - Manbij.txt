@@ -5,8 +5,8 @@
 #Core Details
 capital = "Manbij"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = SJK
+controller = SJK
 
 #Demographics
 culture = al_iraqiya_arabic
@@ -19,8 +19,7 @@ base_manpower = 1
 trade_goods = grain #(JP) Fertile Manbij plain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
-add_core = SYR
+add_core = SJK
 
 #Other Political
 hre = no

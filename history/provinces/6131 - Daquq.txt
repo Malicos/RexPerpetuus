@@ -5,8 +5,8 @@
 #Core Details
 capital = "Daquq"
 is_city = yes
-owner = IRQ
-controller = IRQ
+owner = SJK
+controller = SJK
 
 #Demographics
 culture = turkoman
@@ -19,8 +19,7 @@ base_manpower = 2
 trade_goods = naval_supplies #(JP) Naptha here, not sure how to represent it so gone for naval_supplies
 
 #Cores and Occupation (Alphabetical after current)
-add_core = QAR
-add_core = IRQ
+add_core = SJK
 
 #Other Political
 hre = no

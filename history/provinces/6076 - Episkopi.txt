@@ -5,8 +5,8 @@
 #Core Details
 capital = "Episkopi"
 is_city = yes
-owner = VEN
-controller = VEN
+owner = CYP
+controller = CYP
 
 #Demographics
 culture = cypriot
@@ -19,9 +19,7 @@ base_manpower = 2
 trade_goods = sugar #(JP) Cornaro Venetian family ran a massive sugar processing factory here
 
 #Cores and Occupation (Alphabetical after current)
-add_core = VEN
 add_core = CYP
-add_core = ROC
 
 #Other Political
 hre = no

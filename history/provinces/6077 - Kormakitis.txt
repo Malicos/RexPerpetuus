@@ -20,8 +20,6 @@ trade_goods = livestock #(JP) Lots of rural villages
 
 #Cores and Occupation (Alphabetical after current)
 add_core = CYP
-add_core = CYP
-add_core = ROC
 
 #Other Political
 hre = no

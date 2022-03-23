@@ -5,8 +5,8 @@
 #Core Details
 capital = "Tyare"
 is_city = yes
-owner = HAK
-controller = HAK
+owner = SJK
+controller = SJK
 
 #Demographics
 culture = assyrian_culture
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = HAK
+add_core = SJK
 
 #Other Political
 hre = no

@@ -1,9 +1,9 @@
  
 #4270 - Azraq
 
-owner = MAM
-controller = MAM
-add_core = MAM
+owner = TUK
+controller = TUK
+add_core = TUK
 culture = bedouin_arabic
 religion = sunni
 capital = "Maan"
@@ -17,7 +17,6 @@ is_city = yes
 native_size = 30
 native_ferocity = 5
 native_hostileness = 5
-add_core = TSJ
 
 discovered_by = western
 discovered_by = eastern
@@ -28,27 +27,3 @@ discovered_by = indian
 discovered_by = east_african
 
 #Just about 0 information for the region, was going to leave it wasteland, but JP wanted a province here so why not
-
-
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-	remove_core = MAM
-	owner = XXX
-	controller = XXX
-	is_city = no
-} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-	add_core = MAM
-	owner = MAM
-	controller = MAM
-	is_city = yes
-} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-
-1516.8.24 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} # Part of the Ottoman Empire
-1665.1.1 = { unrest = 4 }
-1669.1.1 = { unrest = 2 } # Ottoman attempts to pacify unruly tribes 
-1670.1.1 = { unrest = 0 }
-1750.1.1 = { add_core = SYR }

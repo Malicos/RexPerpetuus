@@ -5,8 +5,8 @@
 #Core Details
 capital = "Amadiya"
 is_city = yes
-owner = BDI
-controller = BDI
+owner = SJK
+controller = SJK
 
 #Demographics
 culture = kurdish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = bt_trade_good_fruit #(JP) Figs, Walnuts and Apples
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BDI
+add_core = SJK
 
 #Other Political
 hre = no

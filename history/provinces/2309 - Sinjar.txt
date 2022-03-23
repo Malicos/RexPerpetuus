@@ -1,7 +1,8 @@
 #2309 - Sinjar
 
-owner = SIN
-controller = SIN
+owner = SJK
+controller = SJK
+add_core = SJK
 culture = kurdish
 religion = yazidi
 capital = "Sinjar"
@@ -11,28 +12,10 @@ base_tax = 3				#(JP) Described as "Little Damascus"
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = SIN
+
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = indian
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
-
-
-1496.2.8 = { controller = REB revolt = { type = pretender_rebels size = 0 name = "Qasim Jahangir's Faction" leader = "Qasim Jahangir Ak Koyunlu" } } # Civil war in Ak Koyunlu
-1507.1.1 = {
-	owner = PER
-	controller = PER
-	add_core = PER
-	revolt = { }
-	remove_core = AKK
-} # The Safavids took over
-1534.11.28 = { controller = TUR } # Ottoman conquest
-1536.1.1 = {
-	owner = TUR
-	add_core = TUR
-	remove_core = PER
-} # Annexed by the Ottomans
-1624.1.1 = { controller = PER }
-1638.12.24 = { controller = TUR }

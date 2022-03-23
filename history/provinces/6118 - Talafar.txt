@@ -5,8 +5,8 @@
 #Core Details
 capital = "Talafar"
 is_city = yes
-owner = QAR
-controller = QAR
+owner = SJK
+controller = SJK
 
 #Demographics
 culture = turkoman
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = QAR
+add_core = SJK
 
 #Other Political
 hre = no

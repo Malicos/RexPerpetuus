@@ -1,7 +1,8 @@
 #2307 - Van
 
-owner = QAR
-controller = QAR
+owner = ARM
+controller = ARM
+add_core = ARM
 culture = armenian
 religion = apostolic
 capital = "Van"
@@ -11,8 +12,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2 
 is_city = yes
-add_core = QAR
-add_core = ARM
 fort_15th = yes
 
 discovered_by = east_african
@@ -22,32 +21,3 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
 discovered_by = indian
-
-1469.2.4 = {
-	owner = AKK
-	controller = AKK
-	add_core = AKK
-	remove_core = QAR
-}
-1507.1.1 = {
-	owner = PER
-	controller = PER
-	add_core = PER
-} # Van to Ismail I in 1508.
-
-1515.1.1 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} # Ottomans take the city in 1515
-
-1520.1.1 = {
-	owner = PER
-	controller = PER
-} # Back to Persia
-
-1555.1.1 = {
-	owner = TUR
-	controller = TUR
-	add_core = TUR
-} # And back to Ottomans permanently this time

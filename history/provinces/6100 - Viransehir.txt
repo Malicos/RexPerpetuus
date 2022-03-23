@@ -5,8 +5,8 @@
 #Core Details
 capital = "Viransehir"
 is_city = yes
-owner = AKK
-controller = AKK
+owner = SJK
+controller = SJK
 
 #Demographics
 culture = kurdish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain #(JP) Agricultural centre
 
 #Cores and Occupation (Alphabetical after current)
-add_core = AKK
+add_core = SJK
 
 #Other Political
 hre = no

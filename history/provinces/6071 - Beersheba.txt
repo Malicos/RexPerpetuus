@@ -5,8 +5,8 @@
 #Core Details
 capital = "Beersheba"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = KOJ
+controller = KOJ
 
 #Demographics
 culture = bedouin_arabic
@@ -19,8 +19,7 @@ base_manpower = 2
 trade_goods = livestock #(JP) Bedouin tribal area
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
-add_core = PLS
+add_core = KOJ
 
 #Other Political
 hre = no

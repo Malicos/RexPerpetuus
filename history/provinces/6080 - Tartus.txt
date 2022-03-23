@@ -5,8 +5,8 @@
 #Core Details
 capital = "Tartus"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = SYR
+controller = SYR
 
 #Demographics
 culture = syriac_culture
@@ -19,7 +19,6 @@ base_manpower = 2
 trade_goods = naval_supplies #(JP) Port and forests
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
 add_core = SYR
 
 #Other Political

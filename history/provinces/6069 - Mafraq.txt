@@ -5,8 +5,8 @@
 #Core Details
 capital = "Mafraq"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = SYR
+controller = SYR
 
 #Demographics
 culture = al_suryah_arabic
@@ -19,8 +19,7 @@ base_manpower = 1
 trade_goods = livestock #(JP) Bedouin tribal area
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
-add_core = TSJ
+add_core = SYR
 
 #Other Political
 hre = no

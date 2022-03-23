@@ -5,8 +5,8 @@
 #Core Details
 capital = "Maarat al-Numan"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = SYR
+controller = SYR
 
 #Demographics
 culture = al_suryah_arabic
@@ -19,7 +19,6 @@ base_manpower = 2
 trade_goods = bt_trade_good_fruit #(JP) Figs, Grapes and Pistachios notably
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
 add_core = SYR
 
 #Other Political
