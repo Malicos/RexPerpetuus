@@ -1787,7 +1787,7 @@ new_world_i = {
 					owner = { technology_group = high_american }
 					owner = { colony = 1 }
 					AND = {
-						owner = { has_idea = quest_for_the_new_world }
+						owner = { has_any_exploration_idea = yes }
 						OR = {
 							province_trade_power = 16
 							development = 24
@@ -1799,7 +1799,7 @@ new_world_i = {
 				is_year = 1505
 				OR = {
 					AND = {
-						owner = { has_idea = quest_for_the_new_world }
+						owner = { has_any_exploration_idea = yes }
 						OR = {
 							province_trade_power = 12
 							development = 16
@@ -1818,7 +1818,7 @@ new_world_i = {
 					region = france_region
 					region = british_isles_region
 					AND = {
-						owner = { has_idea = quest_for_the_new_world }
+						owner = { has_any_exploration_idea = yes }
 						OR = {
 							province_trade_power = 8
 							development = 12
@@ -1944,7 +1944,7 @@ new_world_i = {
 			is_in_capital_area = yes			#BTAddOn note. Don't like this because it blocks a few good alt history options, but leaving it because it also blocks some bad ones
 		}
 		owner = {
-			has_idea = quest_for_the_new_world
+			has_any_exploration_idea = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_bt_add_new_instituiton_details_e			#BTcleaner UI
 				OR = {

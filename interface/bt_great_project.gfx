@@ -6,6 +6,16 @@ spriteTypes = {
 	}
 
 		spriteType = {
+		name = "GFX_great_project_aleppo_citadel"	
+		texturefile = "gfx//interface//great_projects//great_project_aleppo_citadel.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_aleppo_mosque"	
+		texturefile = "gfx//interface//great_projects//great_project_aleppo_mosque.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_aula_palatina"	
 		texturefile = "gfx//interface//great_projects//great_project_aula_palatina.dds"
 	}
@@ -13,6 +23,26 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_great_project_azuchi_castle"	
 		texturefile = "gfx//interface//great_projects//great_project_azuchi_castle.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_beaune_hospices"	
+		texturefile = "gfx//interface//great_projects//great_project_beaune_hospices.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_burkhan_khaldun"	
+		texturefile = "gfx//interface//great_projects//great_project_burkhan_khaldun.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_canterbury_cathedral"	
+		texturefile = "gfx//interface//great_projects//great_project_canterbury_cathedral.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_castle_rock"	
+		texturefile = "gfx//interface//great_projects//great_project_castle_rock.dds"
 	}
 
 		spriteType = {
@@ -26,13 +56,33 @@ spriteTypes = {
 	}
 
 		spriteType = {
+		name = "GFX_great_project_divrigi_mosque_hospital"	
+		texturefile = "gfx//interface//great_projects//great_project_divrigi_mosque_hospital.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_diyarbakir_fortress"	
+		texturefile = "gfx//interface//great_projects//great_project_diyarbakir_fortress.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_edo_castle"	
 		texturefile = "gfx//interface//great_projects//great_project_edo_castle.dds"
 	}
 
 		spriteType = {
+		name = "GFX_great_project_erbil_citadel"	
+		texturefile = "gfx//interface//great_projects//great_project_erbil_citadel.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_globe_theatre"	
 		texturefile = "gfx//interface//great_projects//great_project_globe_theatre.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_holy_cross_cathedral"	
+		texturefile = "gfx//interface//great_projects//great_project_holy_cross_cathedral.dds"
 	}
 
 		spriteType = {
@@ -43,6 +93,11 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_great_project_herrenhausen_gardens"	
 		texturefile = "gfx//interface//great_projects//great_project_herrenhausen_gardens.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_imam_ali_shrine"	
+		texturefile = "gfx//interface//great_projects//great_project_imam_ali_shrine.dds"
 	}
 
 		spriteType = {
@@ -68,6 +123,16 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_great_project_kotoku_in"	
 		texturefile = "gfx//interface//great_projects//great_project_kotoku_in.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_kufa_mosque"	
+		texturefile = "gfx//interface//great_projects//great_project_kufa_mosque.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_lalish"	
+		texturefile = "gfx//interface//great_projects//great_project_lalish.dds"
 	}
 
 		spriteType = {
@@ -131,8 +196,23 @@ spriteTypes = {
 	}
 
 		spriteType = {
+		name = "GFX_great_project_nineveh_gates"	
+		texturefile = "gfx//interface//great_projects//great_project_nineveh_gates.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_painted_churches"	
+		texturefile = "gfx//interface//great_projects//great_project_painted_churches.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_palace_of_the_popes"	
 		texturefile = "gfx//interface//great_projects//great_project_palace_of_the_popes.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_pelourinho"	
+		texturefile = "gfx//interface//great_projects//great_project_pelourinho.dds"
 	}
 
 		spriteType = {
@@ -143,6 +223,11 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_great_project_potala_palace"	
 		texturefile = "gfx//interface//great_projects//great_project_potala_palace.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_pont_du_gard"	
+		texturefile = "gfx//interface//great_projects//great_project_pont_du_gard.dds"
 	}
 
 		spriteType = {
@@ -191,6 +276,16 @@ spriteTypes = {
 	}
 
 		spriteType = {
+		name = "GFX_great_project_st_catherines"	
+		texturefile = "gfx//interface//great_projects//great_project_st_catherines.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_temple_valley"	
+		texturefile = "gfx//interface//great_projects//great_project_temple_valley.dds"
+	}
+
+		spriteType = {
 		name = "GFX_great_project_teotihuacan"	
 		texturefile = "gfx//interface//great_projects//great_project_teotihuacan.dds"
 	}
@@ -203,6 +298,21 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_great_project_torre_del_oro"	
 		texturefile = "gfx//interface//great_projects//great_project_torre_del_oro.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_umayyad_mosque"	
+		texturefile = "gfx//interface//great_projects//great_project_umayyad_mosque.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_venetian_arsenal"	
+		texturefile = "gfx//interface//great_projects//great_project_venetian_arsenal.dds"
+	}
+
+		spriteType = {
+		name = "GFX_great_project_york_minster"	
+		texturefile = "gfx//interface//great_projects//great_project_york_minster.dds"
 	}
 
 }

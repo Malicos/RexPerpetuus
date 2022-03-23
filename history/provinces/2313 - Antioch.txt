@@ -1,17 +1,22 @@
+ 
 #2313 - Antioch
 
 owner = SYR
 controller = SYR
 add_core = SYR
-culture = syriac_culture
-religion = sunni
-capital = "Antiokia"			#Was once one of the greatest cities in the world, circa the late Roman period
-trade_goods = cloth			#But hundreds of years of warfare weakened it -it is right on the border of most large empires for the 1000 years leading
+culture = al_suryah_arabic
+religion = alawite
+capital = "Antioch"			#Was once one of the greatest cities in the world, circa the late Roman period
+trade_goods = bt_trade_good_fruit #(JP) Lots and lots of orchards in the valley
 hre = no				#up to the start date. Experienced a revival under the Crusaders, but after the fall of Antioch in 1268
 base_tax = 4			#The Mamluk armies killed or enslaved every Christian in Antioch. 
-base_production = 4			#In 1355 it still had a considerable population, but by 1432 there
-base_manpower = 2 			#were only about 300 inhabited houses within its walls, mostly occupied by Turcomans.
+base_production = 5			#In 1355 it still had a considerable population, but by 1432 there
+base_manpower = 3 			#were only about 300 inhabited houses within its walls, mostly occupied by Turcomans.
 is_city = yes
+
+#Crusader Antioch core, possibly
+
+center_of_trade = 1
 
 discovered_by = muslim
 discovered_by = ottoman

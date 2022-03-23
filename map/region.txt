@@ -397,7 +397,7 @@ anatolia_region = { # 14 areas
 		caria_area
 	}
 }
-mashriq_region = { # 7 areas
+mashriq_region = { #Levant 9 areas
 	areas = {
 		aleppo_area
 		syria_area
@@ -406,9 +406,11 @@ mashriq_region = { # 7 areas
 		syrian_desert_area
 		cyprus_area
 		tripoli_area
+		bargylus_area
+		hauran_area
 	}
 }
-mesopotamia_region = { # 7 areas
+mesopotamia_region = { # 14 areas
 	areas = {
 		erzurum_area
 		iraq_arabi_area
@@ -417,6 +419,13 @@ mesopotamia_region = { # 7 areas
 		al_jazira_area
 		rakka_area
 		mardin_area
+		shahrizor_area
+		lower_tigris_area
+		middle_euphrates_area
+		sophene_area
+		ararat_area
+		corduene_area
+		adiabene_area
 	}
 }
 arabia_region = { # 18 areas
@@ -441,11 +450,10 @@ arabia_region = { # 18 areas
 		persian_gulf_islands_area
 	}
 }
-persia_region = { # 12 areas
+persia_region = { # 11 areas
 	areas = {
 		luristan_area
 		khuzestan_area
-		shahrizor_area
 		farsistan_area
 		iraq_e_ajam_area
 		azerbaijan_area

@@ -1,17 +1,18 @@
-#4393 - Arbil
+#4393 - Erbil
 
 owner = SJK
 controller = SJK
 add_core = SJK
 culture = kurdish
 religion = sunni
-capital = "Arbil"
-trade_goods = cloth
+capital = "Erbil"
+trade_goods = bt_trade_good_books
 hre = no
 base_tax = 4 
 base_production = 4
 base_manpower = 4
 is_city = yes
+fort_15th = yes
 
 discovered_by = east_african
 discovered_by = muslim

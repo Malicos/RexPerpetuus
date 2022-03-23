@@ -1,17 +1,16 @@
-#4391 - Qazaniya
+#4391 - Mandali
 
 owner = SJK
 controller = SJK
 add_core = SJK
-add_core = IRQ
-culture = turko_iranian
+culture = kurdish
 religion = sunni
-capital = "Qazaniya"
-trade_goods = cotton
+capital = "Mandali"
+trade_goods = livestock
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 3 
+base_tax = 1
+base_production = 1
+base_manpower = 2
 is_city = yes
 
 discovered_by = east_african

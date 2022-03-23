@@ -2687,3 +2687,43 @@ AQU_ideas = {
 		dip_tech_cost_modifier = -0.15
 	}
 }
+
+
+#by donland, 23-2-22
+MNC_ideas = {
+	start = {
+		naval_morale = 0.1
+		global_prosperity_growth = 0.15
+	}
+	bonus = {
+		development_cost = -0.2
+	}
+	trigger = {
+		tag = MNC
+	}
+	free = yes
+	
+	MNC_idea_1 = {
+		global_ship_repair = 0.2
+		build_time = -0.2
+	}
+	MNC_idea_2 = {
+		defensiveness = 0.1
+		privateer_efficiency = 0.1
+	}
+	MNC_idea_3 = {
+		spy_offence = 0.2
+	}
+	MNC_idea_4 = {
+		leader_naval_shock = 1
+	}
+	MNC_idea_5 = {
+		diplomatic_reputation = 1
+	}
+	MNC_idea_6 = {
+		infantry_fire = 1
+	}
+	MNC_idea_7 = {
+		global_tax_modifier = 0.15
+	}
+}

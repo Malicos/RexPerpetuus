@@ -3,15 +3,14 @@
 owner = SJK
 controller = SJK
 add_core = SJK
-add_core = IRQ
-culture = al_iraqiya_arabic
-religion = sunni
-capital = "Sindjar"
-trade_goods = sugar
+culture = kurdish
+religion = yazidi
+capital = "Sinjar"
+trade_goods = livestock
 hre = no
-base_tax = 4  
-base_production = 4
-base_manpower = 4
+base_tax = 3				#(JP) Described as "Little Damascus"
+base_production = 3
+base_manpower = 2
 is_city = yes
 
 discovered_by = east_african

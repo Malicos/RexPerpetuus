@@ -1,11 +1,123 @@
+#(Chrys) Choosing to depict "S-cedilla" as "Sh" until a native Kurdish speaker says they prefer otherwise
 
-#Beyond Typus 7.0 revisit of Van area
-4296 = "Bidlis"
+#Mesopotamia
 
-#Beyond Typus 8.0 revisit of Oman and Van area (again)
-5330 = "Farqin"
-5331 = "Sert"
-5332 = "Erdis"
+331 = { "Erzirom" "Erzirom" } #Erzurum
+406 = { "Hît" "Hît" } #Hit (Chrys) no Kurdish wiki, found after searching "Hît" and "Îraq" (hypothesized anme for Hit and actual name for Iraq)
+407 = { "Reqa" "Reqa" } #Raqqa
+408 = { "Besre" "Besre" } #Basra
+409 = { "Kerbela" "Kerbela" } #Karbala
+410 = { "Bexda" "Bexda" } #Baghdad
+411 = { "Mûsil" "Mûsil" } #Mosul
+415 = { "Kerkûk" "Kerkûk" } #Kirkuk
+418 = { "Amed" "Amed" } #Diyarbakir
+2303 = { "Meletî" "Meletî" } #Malatya
+2305 = { "Erzîngan" "Erzîngan" } #Erzincan
+2306 = { "Mûsh" "Mûsh" } #Mus
+2307 = { "Wan" "Wan" } #Van
+2308 = { "Riha" "Riha" } #Edessa
+2309 = { "Shingal" "Shingal" } #Sinjar
+2310 = { "Tikrît" "Tikrît" } #Tikrit
+2311 = { "Necef" "Necef" } #Najaf (Chrys) no Kurdish wiki, there is a Central Kurdish wiki which I used an online transliterator for
+2312 = { "Wasit" "Wasit" } #Wasit (Chrys) no Kurdish wiki, found on the Kurdish wiki for Wasit Province
+2314 = { "Dêrazorê" "Dêrazorê" } #Deir-ez-Zor (Chrys) no Kurdish wiki, found online
+3254 = { "Bazîd" "Bazîd" } #Bayazit
+4179 = { "Oremar" "Oremar" } #Oramar
+#4288 = { "" "" } #Qurna (Chrys) no Kurdish wiki
+4291 = { "Bendink" "Bendink" } #Mandali (JP) Kurdish "Bendink" or Persian "Bandanîj"
+4292 = { "Mêrdîn" "Mêrdîn" } #Mardin
+4293 = { "Hewlêr" "Hewlêr" } #Erbil
+4294 = { "Qelaçiwalan" "Qelaçiwalan" } #Qala Çolan/Sulaymaniyah (JP) Sulaymaniyah was founded in 1784, previously Kurdish "Qelaçiwalan" and turkic "Qala Çolan"
+4295 = { "Heskîf" "Heskîf" } #Hisn Kayfa
+4296 = { "Bidlîs" "Bidlîs" } #Bitlis
+4298 = { "Êntab" "Êntab" } #Aintab
+4302 = { "Zêdikan" "Zêdikan" } #Alashkert
+4310 = { "Xarpêt" "Xarpêt" } #Kharput
+#5151 = { "" "" } #Bayburt (Chrys) no Kurdish wiki
+5158 = { "Dîvrîgî" "Dîvrîgî" } #Divrigi
+5293 = { "Serê Kaniyê" "Serê Kaniyê" } #Ras al-Ayn
+5295 = { "Cizîr" "Cizîr" } #Cizre
+5296 = { "Hesekê" "Hesekê" } #Hasakah
+5330 = { "Farqîn" "Farqîn" } #Silvan
+5331 = { "Sêrt" "Sêrt" } #Siirt
+5332 = { "Erdish" "Erdish" } #Arjesh
+6030 = { "Semsûr" "Semsûr" } #Hisnmansur
+6089 = { "Reba" "Reba" } #(Chrys) "Rabha"
+6090 = { "Suluk" "Suluk" } #(Chrys) "Suluk" 
+6091 = { "Meskenê" "Meskenê" } #(Chrys) "Maskanah"
+6092 = { "Minbic" "Minbic" } #(Chrys) "Manbij"
+6099 = { "Busêre" "Busêre" } #Busayra (Chrys) no Kurdish wiki, one attestation found after searching "Busêre" and "Sûrî" (hypothesized anme for Busayra and actual name for Syria)
+6100 = { "Wêranshar" "Wêranshar" } #Viransehir
+6101 = { "Samîsad" "Samîsad" } #Samsat
+6102 = { "Sêwreg" "Sêwreg" } #Siverek
+6103 = { "Erxenî" "Erxenî" } #Ergani
+6104 = { "Egil" "Egil" } #Egil
+6105 = { "Palo" "Palo" } #Palu
+6106 = { "Xozat" "Xozat" } #Khozat
+6107 = { "Çewlîg" "Çewlîg" } #Bingöl
+6108 = { "Pasûr" "Pasûr" } #Qulb
+6109 = { "Gimgim" "Gimgim" } #Varto
+6110 = { "Melezgir" "Melezgir" } #Manzikert
+6111 = { "Qerekilîs" "Qerekilîs" } #Karakilise (JP) Modern "Agri" 
+6112 = { "Bêgirî" "Bêgirî" } #Bergiri (JP) Modern "Muradiye"
+6113 = { "Elbak" "Elbak" } #Baskale
+6114 = { "Colemêrg" "Colemêrg" } #Hakkari
+6115 = { "Xelat" "Xelat" } #Ahlat
+6116 = { "Axtamar" "Axtamar" } #Aghtamar
+6117 = { "Tiyare" "Tiyare" } #Tyare (Chrys) Kurdish wiki claims Tiyare was a village in the Hakkari area that was evacuated to the Makhmour refugee camp, likely to be equivalent to Tyare
+6118 = { "Telefer" "Telefer" } #Tal Afar (Chrys) no Kurdish wiki, there is a Central Kurdish wiki which I used an online transliterator for
+6119 = { "Dihok" "Dihok" } #Duhok
+6120 = { "Shêxan" "Shêxan" } #Shekhan
+6121 = { "Amêdî" "Amêdî" } #Amadiya
+6122 = { "Akrê" "Akrê" } #Akre
+6123 = { "Soran" "Soran" } #Soran
+6124 = { "Ranye" "Ranye" } #Ranya
+6125 = { "Qereqûsh" "Qereqûsh" } #Bakhdida (Chrys) no Kurdish wiki, there is a Central Kurdish wiki which I used an online transliterator for
+6126 = { "Qeyare" "Qeyare" } #Qayyarah (Chrys) no Kurdish wiki itself, but mentioned on the Kurdish page for the Qayyarah-Jad'ah IDP Camp
+6127 = { "Zê" "Zê" } #Zab (Chrys) no Kurdish wiki, labeled as "Zê (Zab)" in the Turkish book "Kürtler, Türkler ve Araplar"
+6128 = { "Sharqat" "Sharqat" } #Shirqat (Chrys) no Kurdish wiki, there is a Central Kurdish wiki which I used an online transliterator for, plus it's mentioned on the Kurdish wiki for the Little Zab River
+6129 = { "Çemçemal" "Çemçemal" } #Chamchamal
+6130 = { "Kifrî" "Kifrî" } #Kifri
+6131 = { "Daquk" "Daquk" } #Daquq
+6132 = { "Semare" "Semare" } #Samarra
+6133 = { "Shareban" "Shareban" } #Miqdadiyah
+6134 = { "Beqûbe" "Beqûbe" } #Baqubah (Chrys) no Kurdish wiki, there is a Central Kurdish wiki which I used an online transliterator for
+6135 = { "Ene" "Ene" } #Anah (Chrys) no Kurdish wiki, found three formsin the following Kurdish newspapers, taking their average for now:	Ene: https://arsiv.rojnameyawelat2.com/wp-content/uploads/Ar%C5%9F%C3%AEv/RojevaMedya2017/06-01-2017-rojevamedya.pdf.pdf	Ane: https://www.rudaw.net/kurmanci/middleeast/iraq/300420145, https://www.rudaw.net/kurmanci/middleeast/iraq/29092017		Enê: https://kurmanci.sahartv.ir/news/iraq-i255952
+6136 = { "Felûce" "Felûce" } #Fallujah (Chrys) no Kurdish wiki, there is a Central Kurdish wiki which I used an online transliterator for
+6137 = { "Bedre" "Bedre" } #Badra
+#6138 = { "" "" } #Numaniyah (Chrys) no Kurdish wiki
+6139 = { "Kût" "Kût" } #Kut (Chrys) no Kurdish wiki, there is a Central Kurdish wiki which I used an online transliterator for
+6140 = { "Emare" "Emare" } #Amarah (Chrys) no Kurdish wiki, there is a Central Kurdish wiki which I used an online transliterator for
+6141 = { "Hille" "Hille" } #Hillah (Chrys) no Kurdish wiki, found on the Kurdish wiki for the Babil Province
+6142 = { "Kufe" "Kufe" } #Kufa
+6143 = { "Semawe" "Semawe" } #Samawah (Chrys) no Kurdish wiki, found on the page of the Musena Province
+6144 = { "Zîqar" "Zîqar" } #Dhi Qar (JP) Modern Nasiriyah
+6145 = { "Zubêr" "Zubêr" } #Zubayr (Chrys) no Kurdish wiki, found on this Kurdish newspaper: http://ontwikkel2.mvanlaar.net/Portals/0/adam/Blog%20App/6IjQX8SBJEyByvb7AvPjsQ/File/bas_29.pdf
+#6149 = { "" "" } #Kelkit (Chrys) no Kurdish wiki
+
+#Levant
+377 = { "Heleb" "Heleb" }
+378 = { "Trablussam" "Trablussam" }
+379 = { "Orselîm" "Orselîm" }
+382 = { "Damaskus" "Damaskus" }
+405 = { "Palmira" "Palmira" }
+1849 = { "Humus" "Humus" }
+1854 = { "Napoli" "Napoli" }
+1855 = { "Safad" "Safad" } 
+2313 = { "Antîoxeia" "Antîoxeia" }
+4268 = { "Akabe" "Akabe" }
+4297 = { "Balbik" "Balbik" }
+5180 = { "Xeze" "Xeze" }
+5205 = { "Bêrût" "Bêrût" }
+6065 = { "Sîna" "Sêx Katherine" } #(JP) "Sêx" is Kurdish for Sheikh, the name given to Kurdish religious rulers, better than nowt for "Saint"right?
+6067 = { "Emman" "Emman" }
+6074 = { "Tir" "Tir" }
+6075 = { "Sidun" "Sidun" }
+6079 = { "Markab" "Markab" }
+6080 = { "Dardus" "Dardus" }
+6093 = { "Ezaz" "Ezaz" } #(JP) "Aziz"
+6094 = { "Mûrawanda" "Mûrawanda" }
+6095 = { "Kilîs" "Kilîs" }
 
 #Arga's Work
 
@@ -15,31 +127,17 @@
 
 #middle east and egypt
 330 = "Trebizonde"
-331 = "Erzirom"
 358 = "Iskenderiye"
 361 = "Qahire"
-405 = "Reqa"
-407 = "Riha"
-410 = "Bexda"			#Or "Bexdayê"
-411 = "Mûsil"
-414 = "Hemedan"
-415 = "Kerkûk"
 418 = "Amed"
 2206 = "Wurmê"			#Or "Urmê"
 2212 = "Zencanê"
-2306 = "Heskîf"
-2307 = "Wan"
-2308 = "Cizir"			#Or "Cizira Botan"
-2309 = "Shengal"			#Or "Shingar"
 
 
 
 #2017 Jul 25
 
 #middle east
-377 = "Helep"
-379 = "Orshelîm"
-382 = "Sham"
 395 = "Qeter"
 396 = "Behreyn" #could remain Awal since that is it's older name, but behreyn would be the modern name in kurdish
 408 = "Besre"
@@ -61,32 +159,19 @@
 2217 = "Yasûc"
 2219 = "Bender Lengeh"
 2221 = "Meshed"
-2311 = "Necef" #or "Musena" (rather Necef between the two)
-2313 = "Antakya"
 2340 = "Kuweyt"
 3257 = "Lenkeran"
-5183 = "Dîlok" #or "Entep" (funnily enough wikipedia has both a german and Kurdish page, the kurdish one uses the first name while the german page claims the latter was the kurdish name...)
-5205 = "Bêrût"
-
-
 
 #2017 Aug 23
 
 #persia
 417 = "Gîlan"
 433 = "Yezd"
-2209 = "îlam"
 2218 = "Shîraz"
 2999 = "Hurmiz"
 
 #arabian peninsula
 397 = "Abû Zebî"
-
-#Iraq
-406 = "Enbar" #kuridsh name for anbar province irl
-2310 = "Tikrît"
-
-
 
 #2018 Jan 11
 
@@ -94,40 +179,24 @@
 416 = "Tewrêz"
 2206 = "Ûrmiye" #or "Wirmê"
 4288 = "Shetelereb"
-4293 = "Hewlêr"
-4294 = "Silêmanî"
 4339 = "Resht" #or "Rest"
 4340 = "Lenkeran"
 4341 = "Sarî"
 
 #Arga Feb 2019
 
-#adjustment for mismatched ID
-405 = "Palmira"
-407 = "Reqa"
-2308 = "Riha"
-
 #middle east
-378 = "Trablussam"
 3254 = "Agirî"
-4292 = "Mêrdîn"
-4295 = "Heskîf"
-4298 = "Entep" #Dîlok
 4302 = "Gharakilisa" #seljuk
 4304 = "Xoy"
-5180 = "Xeze"
-5293 = "Serê Kaniyê"
-5295 = "Cizîr"
 
 #arabia
 385 = "Meke"
 2331 = "Jeddah"
 2338 = "El-Batin" #turkish
 2347 = "Hüfuf"
-4268 = "Akabe" #turkish
 
 #egypt
-365 = "Sîna"
 2315 = "Süveys"
 
 #anatolia
@@ -212,8 +281,6 @@
 111 = "Friaulê"
 
 #asia
-#cappadocia
-5158 = "Dîvîrgî"
 
 #isfahan
 429 = "Îsfehan"
@@ -256,9 +323,6 @@
 #ferghana
 1967 = "Hocent" #turkish
 
-#By Math Jul 2020
-2306 = { "Mush" "Mush" }
-
 #By Arga Sep 2020
 #1.30 updates
 144 = { "Epir" "Egîrî" } #
@@ -280,26 +344,13 @@
 358 = { "Iskenderiye" "Iskenderiye" } #
 361 = { "Qahire" "Qahire" } #
 362 = { "Reshid" "Reshid" } #
-365 = { "Sîna" "Al-Tur" } #
-377 = { "Helep" "Helep" } #
-378 = { "Trablussam" "Trablussam" } #
-379 = { "Orshelîm" "Orshelîm" } #
-382 = { "Sham" "Sham" } #
 384 = { "Yesrîb" "Yesrîb" } #
 385 = { "Meke" "Meke" } #
 397 = { "Abû Zebî" "Abû Zebî" } #
-405 = { "Palmira" "Palmira" } #
-406 = { "Enbar" "Enbar" } #
-407 = { "Reqa" "Reqa" } #
-408 = { "Besre" "Besre" } #
-410 = { "Bexda" "Bexda" } #
-411 = { "Mûsil" "Mûsil" } #
 412 = { "Xûzistan" "Ehvaz" } #
 414 = { "Hemedan" "Hemedan" } #
 416 = { "Tewrêz" "Tewrêz" } #
 419 = { "Êrivan" "Êrivan" } #
-424 = { "Erdebîl" "Erdebîl" } #
-425 = { "Kerkûk" "Kerkûk" } #
 428 = { "Taran" "Taran" } #
 429 = { "Îsfehan" "Îsfehan" } #
 418 = { "Amed" "Amed" } #
@@ -309,8 +360,6 @@
 436 = { "Bîrcend" "Bîrcend" } #
 463 = { "Çerkessk" "Çerkessk" } #
 1231 = { "Eswan" "Eswan" } #
-1854 = { "Yaffa" "Yaffa" } #
-1855 = { "Safad" "Safad" } #
 2201 = { "Alanistanê" "" } #
 2204 = { "Qers" "Qers" } #
 2205 = { "Naxçivan" "Naxçivan" } #
@@ -326,15 +375,6 @@
 2218 = { "Shîraz" "Shîraz" } #
 2219 = { "Bender Lengeh" "Bender Lengeh" } #
 2301 = { "Kaisariyah" "Kaisariyah" } #
-2303 = { "Meletî" "Meletî" } #
-2306 = { "Mûshê" "Mûshê" } #
-2307 = { "Wan" "Wan" } #
-2308 = { "Riha" "Riha" } #
-2309 = { "Shengal" "Shengal" } #
-2310 = { "Tikrît" "Tikrît" } #
-2311 = { "Necef" "Necef" } #
-2313 = { "Antakya" "Antakya" } #
-2314 = { "Deyrizor" "Deyrizor" } #
 2315 = { "Süveys" "Süveys" } #
 2327 = { "Makna" "Makna" } #
 2331 = { "Jeddah" "Jeddah" } #
@@ -345,16 +385,8 @@
 3177 = { "Tebai" "Tebai" } #
 3254 = { "Agirî" "Bazîd" } #
 3262 = { "Karaçay" "Karaçay" } #
-4268 = { "Akabe" "Akabe" } #
 4282 = { "Kalet Bisha" "Kalet Bisha" } #
-4288 = { "Shetelereb" "Shetelereb" } #
-4292 = { "Mêrdîn" "Mêrdîn" } #
-4293 = { "Hewlêr" "Hewlêr" } #
-4294 = { "Silêmanî" "Silêmanî" } #
-4295 = { "Heskîf" "Heskîf" } #
-4298 = { "Entep" "Entep" } #
 4301 = { "Bashûrê Alanistanê" "Shinval" } #
-4302 = { "Zêdikan" "Zêdikan" } #
 4304 = { "Xoy" "Xoy" } #
 4315 = { "Gümüshane" "Gümüshane" } #
 4319 = { "El-Uksur" "El-Uksur" } #
@@ -362,19 +394,9 @@
 4341 = { "Sarî" "Sarî" } #
 4698 = { "Kefalonya" "Argostolion" } #
 4779 = { "Gelibolu" "Gelibolu" } #
-5135 = { "Mêrsîn" "Mêrsîn" } #
-5158 = { "Dîvîrgî" "Dîvîrgî" } #
-5180 = { "Xeze" "Xeze" } #
-5205 = { "Bêrût" "Bêrût" } #
 5224 = { "Nebîl" "Nebîl" } #
 5264 = { "Gize" "Gize" } #
-5293 = { "Serê Kaniyê" "Serê Kaniyê" } #
-5295 = { "Cîzîr" "Cîzîr" } #
-5296 = { "Nisêbîn" "Nisêbîn" } #
 5314 = { "Bêca" "Bêca" } #
-5315 = { "Kef" "Kef" } #
-5331 = { "Sert" "Sert" } #
-5332 = { "Erdis" "Erdis" } #
 7112 = { "Inebahti" "Inebahti" } #
 7134 = { "Enez" "Enez" } #
 7278 = { "Akkerman" "Akkerman" } #

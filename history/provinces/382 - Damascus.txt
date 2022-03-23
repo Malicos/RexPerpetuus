@@ -1,3 +1,4 @@
+ 
 #382 - Damascus
 
 owner = SYR
@@ -5,12 +6,12 @@ controller = SYR
 add_core = SYR
 culture = al_suryah_arabic
 religion = sunni
-capital = "Dimashq"
-trade_goods = iron			#Cant find it, but I seem to remeber something about Damascus smithing industry... anyhow vanilla iron is fine
+capital = "Damascus"
+trade_goods = iron			#(JP) Damascus Steel
 hre = no
-base_tax = 12
-base_production = 12
-base_manpower = 8
+base_tax = 9
+base_production = 9
+base_manpower = 7
 is_city = yes
 fort_15th = yes
 

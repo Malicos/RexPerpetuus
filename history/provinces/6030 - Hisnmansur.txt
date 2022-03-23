@@ -9,8 +9,8 @@ owner = ARM
 controller = ARM
 
 #Demographics
-culture = arevmdian
-religion = apostolic
+culture = turkoman
+religion = sunni
 
 #Development and Trade
 base_tax = 2
@@ -34,5 +34,7 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
+discovered_by = indian
+discovered_by = east_african
 
 #Histories

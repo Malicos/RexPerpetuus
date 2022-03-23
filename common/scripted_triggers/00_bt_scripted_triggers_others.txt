@@ -2846,7 +2846,7 @@ emp_bav_netherlands_provinces = {
 	}
 }
 
-#Brandenburg-Prussia, EMP, made by C1CK
+#Brandenburg-Prussia, EMP, made by C1CK, updated by Nuq (1.33)
 emp_brapru_reclaim_neumark_provinces = {
 	OR = {
 		province_id = 49 #Landsberg
@@ -2889,10 +2889,7 @@ emp_brapru_franconian_conquest_provinces = {
 	OR = {
 		province_id = 4716 #Coburg
 		area = franconia_area #Lower Franconia
-		province_id = 4718 #Aschaffensburg
-		province_id = 3207 #Darmstadt
-		province_id = 71 #Ansbach
-		province_id = 4715 #Rothenburg
+		area = upper_franconia_area #Upper Franconia
 	}
 }
 
@@ -2914,8 +2911,11 @@ emp_brapru_lower_saxony_provinces = {
 	OR = {
 		area = northern_saxony_area
 		area = lower_saxony_area #Not excluding Eastphalia here, since I think its better here, than in the Westphalia mission
-		area = weser_area
-		province_id = 1931 #East Frisia
+		#area = weser_area
+		area = bremen_verden_area
+		province_id = 1931 #Emden
+		province_id = 8299 #Jever
+		province_id = 8401 #Lier
 		province_id = 44 #Hamburg
 		province_id = 1857 #Lauenburg
 	}
@@ -2923,8 +2923,10 @@ emp_brapru_lower_saxony_provinces = {
 
 emp_brapru_westphalian_conquest_provinces = {
 	OR = {
-		area = north_westphalia_area
-		area = westphalia_area #South Westphalia
+		area = north_westphalia_area #Lower Westphaloa
+		area = westphalia_area #Upper Westphalia
+		area = weser_area #Weser-Emsland
+		area = braunschweig_area #Upper... Eastphalia. This is vanilla's borders for mission, sue me.
 	}
 }
 
@@ -2948,5 +2950,32 @@ emp_brapru_rhineland_conquest_provinces = {
 		area = lower_rhineland_area
 		area = hesse_area
 		area = palatinate_area
+		area = nassau_area
+		province_id = 77	#Minor yoink of heidelberg from Swabia
+		province_id = 8434
+		province_id = 8435
+	}
+}
+
+#Uses one of the Alawite schools:
+#Country
+has_alawite_school_trigger = {
+	OR = {
+		religious_school = {
+			group = muslim
+			school = haddadin_school
+		}
+		religious_school = {
+			group = muslim
+			school = kalbiyya_school
+		}
+		religious_school = {
+			group = muslim
+			school = khayatin_school
+		}
+		religious_school = {
+			group = muslim
+			school = matawira_school
+		}
 	}
 }

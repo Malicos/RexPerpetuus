@@ -1,0 +1,23 @@
+# BT Religious Schools
+# Alawites credited to Vasilissa (Atlas Novum)
+spriteTypes = {   
+	spriteType = {
+		name = "GFX_icon_muslim_school_haddadin"
+		texturefile = "gfx/interface/icon_muslim_school_haddadin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_kalbiyya"
+		texturefile = "gfx/interface/icon_muslim_school_kalbiyya.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_khayatin"
+		texturefile = "gfx/interface/icon_muslim_school_khayatin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_muslim_school_matawira"
+		texturefile = "gfx/interface/icon_muslim_school_matawira.dds"
+	}
+}

@@ -1,17 +1,16 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
-
 owner = SYR
 controller = SYR
 add_core = SYR
-culture = syriac_culture
-religion = orthodox				#As far as I can tell, during this period realigion was really split 25-25-25-25 ER orthodox, Sunni, Shia or Druze, and Marionite Catholic... going with orthodox, for now
-capital = "Ladhiqiyyah"
-trade_goods = wine			#Region famous for its excellent grapes, even under Muslim rule
+culture = al_suryah_arabic
+religion = alawite
+capital = "Latakia"
+trade_goods = naval_supplies #(JP) Major port plus forests
 hre = no
-base_tax = 6
-base_production = 4
-base_manpower = 4
+base_tax = 2
+base_production = 3
+base_manpower = 2
 is_city = yes
+#Crusader Antioch core, possibly
 
 discovered_by = east_african
 discovered_by = muslim

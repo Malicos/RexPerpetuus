@@ -1,3 +1,4 @@
+ 
 #377 - Aleppo
 
 owner = SYR
@@ -5,12 +6,12 @@ controller = SYR
 add_core = SYR
 culture = al_suryah_arabic
 religion = sunni
-capital = "Halab"
-trade_goods = silk
+capital = "Aleppo"
+trade_goods = bt_trade_good_fruit #(JP) especially Olives and Pistachios
 hre = no
-base_tax = 14
-base_production = 14
-base_manpower = 10
+base_tax = 8
+base_production = 8
+base_manpower = 7
 is_city = yes
 fort_15th = yes
 

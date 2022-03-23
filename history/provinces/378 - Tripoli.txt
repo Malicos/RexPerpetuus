@@ -1,16 +1,17 @@
+ 
 #378 - Tripoli
 
 owner = SYR
 controller = SYR
-add_core = LEB
 add_core = SYR
-culture = syriac_culture
-religion = orthodox				#As far as I can tell, during this period realigion was really split 25-25-25-25 ER orthodox, Sunni, Shia or Druze, and Marionite Catholic... going with orthodox, for now
-capital = "Trablos" #Tripoli in the East.
-trade_goods = sugar			#Tripoli became a major trading port of Syria supplying Europe with candy, loaf and powdered sugar especially during the latter part of the 14th century
+add_core = LEB
+culture = al_suryah_arabic
+religion = sunni	
+capital = "Tripoli" #Tripoli in the East.
+trade_goods = silk #(JP) End of Silk Road plus lots of high industry and silk production
 hre = no
-base_tax = 8
-base_production = 8
+base_tax = 7
+base_production = 7
 base_manpower = 4
 is_city = yes
 

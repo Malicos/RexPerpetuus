@@ -1,3 +1,4 @@
+ 
 #379 - Judea
 
 owner = KOJ
@@ -6,11 +7,11 @@ add_core = KOJ
 culture = al_suryah_arabic
 religion = sunni
 capital = "Jerusalem"
-trade_goods = grain			#why not, leaving it. Too much wool around here anyway
+trade_goods = bt_trade_good_books #(JP) I mean, key learning and religious centre
 hre = no
-base_tax = 6
-base_production = 4
-base_manpower = 2 
+base_tax = 5
+base_production = 5
+base_manpower = 3 
 is_city = yes
 
 discovered_by = muslim

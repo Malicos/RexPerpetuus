@@ -16,12 +16,7 @@ aristocracy_ideas = {
 	}
 
 	trigger = {
-		OR = {
-			has_government_attribute = enables_aristocratic_idea_group
-			government = tribal
-		}
-		NOT = { government = theocracy }
-		NOT = { has_reform = steppe_horde }
+		has_government_attribute = enables_aristocratic_idea_group
 	}
 	
 	noble_knights = {
@@ -257,7 +252,7 @@ horde_gov_ideas = {
 	}
 	
 	trigger = {
-		has_reform = steppe_horde
+		has_government_attribute = enables_horde_idea_group
 	}
 	
 	horse_lords = {
@@ -298,10 +293,11 @@ theocracy_gov_ideas = {
 	}
 	
 	trigger = {
-		government = theocracy
+		has_government_attribute = enables_divine_idea_group
 	}
 	servants_of_god = {
 		devotion = 1
+		legitimacy = 0.5
 	}
 	by_the_grace_of_god = {
 		fire_damage_received = -0.1
@@ -343,7 +339,7 @@ indigenous_ideas = {
 	}
 
 	indigenous_bountiful_land = {
-		tribal_development_growth = 0.05
+		tribal_development_growth = 0.015
 		development_cost = -0.05
 	}
 	indigenous_irregular_warfare = {
@@ -477,6 +473,11 @@ religious_ideas = {
 		devotion = 0.5
 		monthly_fervor_increase = 0.25
 		church_power_modifier = 0.1
+		monthly_piety_accelerator = 0.001
+		yearly_karma_decay = 0.1
+		yearly_doom_reduction = 1
+		yearly_authority = 0.15
+		yearly_patriarch_authority = 0.005
 	}
 	religious_tradition = {
 		prestige = 1
@@ -649,6 +650,15 @@ spy_ideas = {
 	bonus = {
 		rebel_support_efficiency = 0.50
 	}
+	
+	claim_fabrication = {
+		fabricate_claims_cost = -0.25
+		can_fabricate_for_vassals = yes
+	}
+
+	state_propaganda = {
+		ae_impact = -0.2
+	}
 
 	efficient_spies = {
 		spy_offence = 0.5
@@ -661,15 +671,6 @@ spy_ideas = {
 
 	vetting = {
 		global_spy_defence = 0.33
-	}
-
-	state_propaganda = {
-		ae_impact = -0.2
-	}
-	
-	claim_fabrication = {
-		fabricate_claims_cost = -0.25
-		can_fabricate_for_vassals = yes
 	}
 	
 	privateers = {
@@ -1377,13 +1378,16 @@ maritime_ideas = {
 
 	bonus = {
 		sea_repair = yes
+		movement_speed_in_fleet_modifier = 1 
 	}
 
 	merchant_traditions = {
 		naval_tradition_from_trade = 1.0
+		trade_range_modifier = 0.25
 	}
 	merchant_marine = {
 		global_sailors_modifier = 0.5
+		allowed_marine_fraction = 0.25
 	}
 	sheltered_ports = {
 		global_ship_repair = 0.1
@@ -1391,6 +1395,7 @@ maritime_ideas = {
 	}
 	grand_navy = {
 		naval_forcelimit_modifier = 0.5
+		ship_power_propagation = 0.25
 	}
 	ships_penny = {
 		global_ship_cost = -0.1
@@ -1845,6 +1850,7 @@ humanist_ideas = {
 	}
 	local_traditions = {
 		global_unrest = -2
+		harmonization_speed = 0.25
 	}
 	ecumenism = {
 		tolerance_heretic = 2
@@ -2022,7 +2028,8 @@ naval_ideas = {
 
 	bonus = {
 		ship_durability = 0.1
-		allowed_marine_fraction = 0.05 # BT; 0.1
+		disengagement_chance = 0.15
+		#allowed_marine_fraction = 0.05 # BT; 0.1			#Cut with 1.33 to keep it at 2 modifiers
 	}
 
 	boarding_parties = {
@@ -2040,6 +2047,7 @@ naval_ideas = {
 	}
 	press_gangs = {
 		sailors_recovery_speed = 0.25
+		allowed_marine_fraction = 0.25
 	}
 	oak_forests_for_ships = {
 		heavy_ship_power = 0.20
