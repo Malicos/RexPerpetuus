@@ -421,6 +421,44 @@ colonial_vitmannland = {
 	}
 }
 
+# Westernesse
+colonial_westernesse = {
+	color = { 150 110 70 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		865 866 868 869 2476 2478 2620 4635 4636 4637 4639 4950 4952 4955 5018 5032 5043 5767 5771 5772 5773 5774 5791 5792 5793 5794 5795 5821 5855 5856 5857 5859 5860 5861 5862 
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_VITMANNLAND_Westernesse"
+	}
+}
+
 # Zapotlan
 colonial_zapotlan = {
 	color = { 200 30 50 }
