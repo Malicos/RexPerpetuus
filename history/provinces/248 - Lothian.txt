@@ -5,7 +5,7 @@
 owner = JRV
 controller = JRV
 add_core = JRV
-culture = anglisk
+culture = denlegian
 religion = catholic
 hre = no
 base_tax = 3

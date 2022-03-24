@@ -3,7 +3,7 @@
 owner = NAI
 controller = NAI
 add_core = NAI
-culture = khalkha
+culture = naiman
 religion = vajrayana
 capital = "Hoboksar"
 trade_goods = livestock

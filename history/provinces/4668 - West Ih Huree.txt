@@ -1,7 +1,7 @@
 owner = BAY
 controller = BAY
 add_core = BAY
-culture = oirats
+culture = bayads
 religion = tengri_pagan_reformed
 capital = "Orkhon"
 trade_goods = fur

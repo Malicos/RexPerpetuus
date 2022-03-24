@@ -9,7 +9,7 @@ owner = JRV
 controller = JRV
 
 #Demographics
-culture = anglisk
+culture = denlegian
 religion = catholic
 
 #Development and Trade

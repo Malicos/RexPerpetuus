@@ -3,7 +3,7 @@
 owner = URK
 controller = URK
 add_core = URK
-culture = oirats
+culture = bayads
 religion = tengri_pagan_reformed
 capital = "Uliastai"
 trade_goods = wool

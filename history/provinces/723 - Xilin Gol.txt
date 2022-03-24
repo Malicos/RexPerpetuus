@@ -3,7 +3,7 @@
 owner = KMG
 controller = KMG
 add_core = KMG
-culture = chahar
+culture = khamag
 religion = tengri_pagan_reformed
 capital = "Xilin Gol"
 trade_goods = livestock

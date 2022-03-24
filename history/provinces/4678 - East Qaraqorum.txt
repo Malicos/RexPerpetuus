@@ -3,7 +3,7 @@
 owner = BAY
 controller = BAY
 add_core = BAY
-culture = oirats
+culture = bayads
 religion = tengri_pagan_reformed
 capital = "Sain Noyon"
 trade_goods = livestock

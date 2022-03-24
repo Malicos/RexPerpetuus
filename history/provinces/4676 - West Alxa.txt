@@ -1,7 +1,7 @@
 owner = KRT
 controller = KRT
 add_core = KRT
-culture = mongol
+culture = keraite
 religion = nestorian
 capital = "Badain Jaran"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 owner = KMG
 controller = KMG
 add_core = KMG
-culture = chahar
+culture = khamag
 religion = tengri_pagan_reformed
 capital = "Kalgan"
 trade_goods = livestock
