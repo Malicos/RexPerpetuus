@@ -27,7 +27,7 @@
  ###Indo-European###
  ###################
  ##Nordic
- anglisk:0 "Denlegian"            # English Norse
+ denlegian:0 "Denlegian"            # English Norse
  gallwegian:0 "Gallwegian"        # Irish Norse
  ##British
  anglo_saxon:0 "Anglo-Saxon"      # Old English
@@ -69,6 +69,7 @@
  ##Iranian
  turko_iranian:0 "Turkirani"      # Persianate Turks
  daylamite:0 "Daylamite"
+ talysh:0 "Talysh"
  
  ##Brythonic
  cumbrian_culture:0 "Cumbrian"
@@ -79,8 +80,8 @@
  ##Arabic
  siquli_culture:0 "Siquli"
  
- ##Muwalladi
- muwalladi:0 "Muwalladi"          # Iberian Muslim Group
+ ##Moorish
+ moorish:0 "Moorish"          # Iberian Muslim Group
  batalyawsi:0 "Batalyawsi"        # Muslim Badajozi
  balansi_culture:0 "Balansi"      # Muslim Valencian
  ibri_culture:0 "Ibri"            # Muslim Aragonese
@@ -94,6 +95,10 @@
  karluk:0 "Karluk"
  yugran:0 "Yugran"
  ###Xubic###
+ keraite:0 "Keraite"
+ khamag:0 "Khamag"
+ naiman:0 "Naiman"
+ bayads:0 "Bayad"
  uriankhai:0 "Uriankhai"
  ###Tatar###
  manghit:0 "Manghit"
@@ -727,6 +732,7 @@
  colonial_storvatnland:0 "Colonial Storvatnland"
  colonial_vinland:0 "Colonial Vinland"
  colonial_vitmannland:0 "Colonial Vitmannland"
+ colonial_westernesse:0 "Colonial Westernesse"
  colonial_zapotlan:0 "Colonial Zapotlan"
  short_colonial_agustina:0 "Agustina"
  short_colonial_appalachia:0 "Appalachia"
@@ -739,4 +745,5 @@
  short_colonial_storvatnland:0 "Storvatnland"
  short_colonial_vinland:0 "Vinland"
  short_colonial_vitmannland:0 "Vitmannland"
+ short_colonial_westernesse:0 "Westernesse"
  short_colonial_zapotlan:0 "Zapotlan"
