@@ -5,8 +5,8 @@
 #Core Details
 capital = "Kilis"
 is_city = yes
-owner = SYR
-controller = SYR
+owner = ATC
+controller = ATC
 
 #Demographics
 culture = kurdish
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock #(JP) Hilly nomadic tribal Kurdish area
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SYR
+add_core = ATC
 
 #Other Political
 hre = no

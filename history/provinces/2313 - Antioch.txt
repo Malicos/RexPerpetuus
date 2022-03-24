@@ -1,9 +1,9 @@
  
 #2313 - Antioch
 
-owner = SYR
-controller = SYR
-add_core = SYR
+owner = ATC
+controller = ATC
+add_core = ATC
 culture = al_suryah_arabic
 religion = alawite
 capital = "Antioch"			#Was once one of the greatest cities in the world, circa the late Roman period

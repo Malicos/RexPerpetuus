@@ -1,6 +1,6 @@
-owner = SYR
-controller = SYR
-add_core = SYR
+owner = ATC
+controller = ATC
+add_core = ATC
 culture = al_suryah_arabic
 religion = alawite
 capital = "Latakia"
