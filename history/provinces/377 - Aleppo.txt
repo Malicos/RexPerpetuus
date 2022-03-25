@@ -1,11 +1,11 @@
  
 #377 - Aleppo
 
-owner = SYR
-controller = SYR
-add_core = SYR
-culture = al_suryah_arabic
-religion = sunni
+owner = APO
+controller = APO
+add_core = APO
+culture = syriac_culture
+religion = orthodox
 capital = "Aleppo"
 trade_goods = bt_trade_good_fruit #(JP) especially Olives and Pistachios
 hre = no

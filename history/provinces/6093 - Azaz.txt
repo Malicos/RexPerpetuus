@@ -5,12 +5,12 @@
 #Core Details
 capital = "Azaz" #(JP) TBD, I think Azaz is the Kurdish ones under Kilis
 is_city = yes
-owner = ATC
-controller = ATC
+owner = AZZ
+controller = AZZ
 
 #Demographics
-culture = turkoman
-religion = sunni
+culture = kurdish
+religion = yazidi
 
 #Development and Trade
 base_tax = 1
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = bt_trade_good_fruit #(JP) Notably Olives
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ATC
+add_core = AZZ
 
 #Other Political
 hre = no

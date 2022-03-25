@@ -5,12 +5,12 @@
 #Core Details
 capital = "Maarat al-Numan"
 is_city = yes
-owner = SYR
-controller = SYR
+owner = APO
+controller = APO
 
 #Demographics
-culture = al_suryah_arabic
-religion = sunni
+culture = syriac_culture
+religion = orthodox
 
 #Development and Trade
 base_tax = 2
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = bt_trade_good_fruit #(JP) Figs, Grapes and Pistachios notably
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SYR
+add_core = APO
 
 #Other Political
 hre = no

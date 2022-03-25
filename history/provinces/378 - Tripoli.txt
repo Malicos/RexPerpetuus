@@ -1,10 +1,9 @@
  
 #378 - Tripoli
 
-owner = SYR
-controller = SYR
-add_core = SYR
-add_core = LEB
+owner = TYE
+controller = TYE
+add_core = TYE
 culture = al_suryah_arabic
 religion = sunni	
 capital = "Tripoli" #Tripoli in the East.
