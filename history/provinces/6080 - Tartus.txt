@@ -5,12 +5,12 @@
 #Core Details
 capital = "Tartus"
 is_city = yes
-owner = SYR
-controller = SYR
+owner = LTK
+controller = LTK
 
 #Demographics
-culture = syriac_culture
-religion = orthodox				#Antiochian Orthodox
+culture = al_suryah_arabic
+religion = alawite
 
 #Development and Trade
 base_tax = 2
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = naval_supplies #(JP) Port and forests
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SYR
+add_core = LTK
 
 #Other Political
 hre = no

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Hama"
 is_city = yes
-owner = SYR
-controller = SYR
+owner = DMC
+controller = DMC
 
 #Demographics
 culture = al_suryah_arabic
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = bt_trade_good_fruit #(JP) Lots of orchards
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SYR
+add_core = DMC
 
 #Other Political
 hre = no

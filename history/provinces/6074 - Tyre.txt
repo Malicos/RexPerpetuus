@@ -9,8 +9,8 @@ owner = TYE
 controller = TYE
 
 #Demographics
-culture = al_suryah_arabic
-religion = shiite				#Actual Shia's
+culture = levantine_culture
+religion = catholic
 
 #Development and Trade
 base_tax = 3
@@ -20,7 +20,6 @@ trade_goods = silk #(JP) Not giving it dyes since Tyrian Purple gone (introduce 
 
 #Cores and Occupation (Alphabetical after current)
 add_core = TYE
-add_core = LEB
 
 #Other Political
 hre = no

@@ -1,11 +1,11 @@
  
 #378 - Tripoli
 
-owner = TYE
-controller = TYE
-add_core = TYE
-culture = al_suryah_arabic
-religion = sunni	
+owner = BUT
+controller = BUT
+add_core = BUT
+culture = syriac_culture
+religion = catholic						#Maronites
 capital = "Tripoli" #Tripoli in the East.
 trade_goods = silk #(JP) End of Silk Road plus lots of high industry and silk production
 hre = no

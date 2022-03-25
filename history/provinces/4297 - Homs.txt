@@ -4,8 +4,8 @@
 owner = TYE
 controller = TYE
 add_core = TYE
-culture = al_suryah_arabic
-religion = shiite				#Actual Shia's
+culture = levantine_culture
+religion = catholic
 capital = "Ba'albek"
 trade_goods = bt_trade_good_fruit #(JP) Lots and varied orchards
 hre = no

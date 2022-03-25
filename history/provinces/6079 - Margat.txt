@@ -5,8 +5,8 @@
 #Core Details
 capital = "Margat"
 is_city = yes
-owner = SYR
-controller = SYR
+owner = LTK
+controller = LTK
 
 #Demographics
 culture = al_suryah_arabic
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = silk #(JP) Famous silks from here
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SYR
+add_core = LTK
 
 #Other Political
 hre = no

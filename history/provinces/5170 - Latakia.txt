@@ -1,6 +1,6 @@
-owner = ATC
-controller = ATC
-add_core = ATC
+owner = LTK
+controller = LTK
+add_core = LTK
 culture = al_suryah_arabic
 religion = alawite
 capital = "Latakia"

@@ -1,11 +1,11 @@
  
 #382 - Damascus
 
-owner = SYR
-controller = SYR
-add_core = SYR
+owner = DMC
+controller = DMC
+add_core = DMC
 culture = al_suryah_arabic
-religion = sunni
+religion = shiite
 capital = "Damascus"
 trade_goods = iron			#(JP) Damascus Steel
 hre = no

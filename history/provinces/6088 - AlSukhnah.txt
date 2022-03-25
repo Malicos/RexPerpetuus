@@ -5,8 +5,8 @@
 #Core Details
 capital = "Sukhnah"
 is_city = yes
-owner = SJK
-controller = SJK
+owner = PYA
+controller = PYA
 
 #Demographics
 culture = syriac_culture
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock #(JP) Tribal Bedouin areas
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SJK
+add_core = PYA
 
 #Other Political
 hre = no
