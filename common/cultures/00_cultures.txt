@@ -1567,7 +1567,7 @@ latin = {
 		}
 	}
 	#RP Culture (Italian Outremer)
-	oltremarino = {
+	levantine_culture = {
 		primary = KOJ
 	}
 }
@@ -1996,7 +1996,11 @@ french = {
 	#RP Culture
 	arelatian_culture = {
 		primary = BUR
-	}	
+	}
+	#RP Culture
+	outremer = {
+		primary = TYE
+	}
 	#Note Perry and Cat Dad also contributed a number of Louisiana French names, though this culture does not exist yet. If it is ever added, here is the list
 	#Surnames
 	#Aigle Allain Allevin Augustine Barbin Bardon Baudemont Baudoin Baux Bellome Beaucher Bernard Bizoton Boyer Bouchanne Boucher Boyer Brazou Brosset Brunel Brunet
