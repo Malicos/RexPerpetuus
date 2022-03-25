@@ -40,8 +40,11 @@
  ##French
  high_burgundian:0 "High Burgundian"  
  arelatian_culture:0 "Arlesian" 
+ outremer:0 "Outremer"
+ ##Latin/Italian
+ levantine_culture:0 "Levantine"
  ##African Romance
- african_group:0 "African"
+ african_group:0 "African Romance"
  afri:0 "Afri"
  ##Dacian
  moldavian_culture:0 "Moldavian"
