@@ -526,6 +526,10 @@
  # Middle East
  ABS:0 "Abbasids"
  ABS_ADJ:0 "Abbasid"
+ APO:0 "Aleppo"
+ APO_ADJ:0 "Aleppi"
+ AZZ:0 "Azaz"
+ AZZ_ADJ:0 "Azazi"
  DAY:0 "Daylam"
  DAY_ADJ:0 "Daylamite"
  FJD:0 "Falajids"

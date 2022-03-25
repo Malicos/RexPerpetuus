@@ -212,6 +212,8 @@ WAJ = "countries/WestAjuraan.txt"
 
 # Middle East
 ABS = "countries/Abbasids.txt"
+APO = "countries/Aleppo.txt"
+AZZ = "countries/Azaz.txt"
 DAY = "countries/Daylam.txt"
 FJD = "countries/Falajid.txt"
 GAE = "countries/Galilee.txt"
