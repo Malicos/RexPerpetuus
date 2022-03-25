@@ -1,8 +1,8 @@
 #381 - Ajloun
 
-owner = UTJ
-controller = UTJ
-add_core = UTJ
+owner = AJL
+controller = AJL
+add_core = AJL
 culture = al_suryah_arabic
 religion = sunni
 capital = "Ajloun"			#Vanilla capital is fine, was going to go with Bosra, but whatever

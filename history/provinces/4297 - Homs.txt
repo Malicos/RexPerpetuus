@@ -4,7 +4,7 @@
 owner = TYE
 controller = TYE
 add_core = TYE
-culture = levantine_culture
+culture = outremer
 religion = catholic
 capital = "Ba'albek"
 trade_goods = bt_trade_good_fruit #(JP) Lots and varied orchards

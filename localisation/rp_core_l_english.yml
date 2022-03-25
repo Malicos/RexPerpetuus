@@ -529,6 +529,8 @@
  # Middle East
  ABS:0 "Abbasids"
  ABS_ADJ:0 "Abbasid"
+ AJL:0 "Ajlun"
+ AJL_ADJ:0 "Ajluni"
  APO:0 "Aleppo"
  APO_ADJ:0 "Aleppi"
  AZZ:0 "Azaz"
@@ -545,6 +547,8 @@
  GAE_ADJ:0 "Galilean"
  HSH:0 "Hashimids"
  HSH_ADJ:0 "Hashimid"
+ IBD:0 "Irbid"
+ IBD_ADJ:0 "Irbidi"
  LTK:0 "Latakia"
  LTK_ADJ:0 "Latakian"
  NHL:0 "Nekhel"

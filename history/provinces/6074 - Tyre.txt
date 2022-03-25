@@ -9,7 +9,7 @@ owner = TYE
 controller = TYE
 
 #Demographics
-culture = levantine_culture
+culture = outremer
 religion = catholic
 
 #Development and Trade

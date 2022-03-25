@@ -4,8 +4,8 @@
 owner = KOJ
 controller = KOJ
 add_core = KOJ
-culture = al_suryah_arabic
-religion = sunni
+culture = levantine_culture
+religion = catholic
 capital = "Jerusalem"
 trade_goods = bt_trade_good_books #(JP) I mean, key learning and religious centre
 hre = no

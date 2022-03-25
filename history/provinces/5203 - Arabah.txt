@@ -1,9 +1,9 @@
  
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = TUK
-controller = TUK
-add_core = TUK
+owner = UTJ
+controller = UTJ
+add_core = UTJ
 culture = bedouin_arabic
 religion = sunni
 capital = "Shoubak"

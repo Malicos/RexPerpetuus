@@ -4,8 +4,8 @@
 owner = UTJ
 controller = UTJ
 add_core = UTJ
-culture = al_suryah_arabic
-religion = sunni
+culture = levantine_culture
+religion = catholic
 capital = "Kerak"
 trade_goods = bt_trade_good_fruit #(JP) Apricots, Pears and Pomegranates notably
 hre = no

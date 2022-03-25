@@ -4,8 +4,8 @@
 owner = KOJ
 controller = KOJ
 add_core = KOJ
-culture = al_suryah_arabic
-religion = sunni
+culture = syriac_culture
+religion = orthodox
 capital = "Nablus"
 trade_goods = cloth #(JP) Nablus famous for its cloths and linen
 hre = no

@@ -4,8 +4,8 @@
 owner = KOJ
 controller = KOJ
 add_core = KOJ
-culture = al_suryah_arabic
-religion = sunni
+culture = levantine_culture
+religion = catholic
 capital = "Gaza"
 trade_goods = wine #(JP) Largest Christian population in Palestine who produced wine for export under Mamluks
 hre = no

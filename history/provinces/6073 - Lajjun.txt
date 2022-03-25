@@ -9,8 +9,8 @@ owner = GAE
 controller = GAE
 
 #Demographics
-culture = al_suryah_arabic
-religion = sunni
+culture = syriac_culture
+religion = orthodox
 
 #Development and Trade
 base_tax = 2
