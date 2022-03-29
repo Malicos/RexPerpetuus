@@ -1,8 +1,8 @@
 #4396 - Bitlis
 
-owner = ARM
-controller = ARM
-add_core = ARM
+owner = BTL
+controller = BTL
+add_core = BTL
 culture = kurdish
 religion = sunni
 capital = "Bitlis"

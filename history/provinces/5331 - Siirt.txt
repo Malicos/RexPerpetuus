@@ -1,9 +1,9 @@
  
 #4396 - Bitlis and Hakkari
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = HSN
+controller = HSN
+add_core = HSN
 capital = "Siirt"			#Syriac version is Si'reth
 culture = assyrian_culture
 religion = nestorian

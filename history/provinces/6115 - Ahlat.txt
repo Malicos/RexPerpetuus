@@ -5,8 +5,8 @@
 #Core Details
 capital = "Ahlat"
 is_city = yes
-owner = ARM
-controller = ARM
+owner = BTL
+controller = BTL
 
 #Demographics
 culture = kurdish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ARM
+add_core = BTL
 
 #Other Political
 hre = no

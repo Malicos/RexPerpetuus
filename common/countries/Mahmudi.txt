@@ -2,7 +2,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 215 210 95 }
+color = { 96 115 255 }
 
 preferred_religion = zoroastrian #Yazidi
 

@@ -1,8 +1,8 @@
 #New Province
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = BHT
+controller = BHT
+add_core = BHT
 culture = assyrian_culture
 religion = nestorian
 capital = "Cizir"			#Kurdish version

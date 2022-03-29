@@ -1,8 +1,8 @@
 #2307 - Van
 
-owner = ARM
-controller = ARM
-add_core = ARM
+owner = HAK
+controller = HAK
+add_core = HAK
 culture = armenian
 religion = apostolic
 capital = "Van"

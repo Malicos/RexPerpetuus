@@ -5,8 +5,8 @@
 #Core Details
 capital = "Hakkari"
 is_city = yes
-owner = ARM
-controller = ARM
+owner = HAK
+controller = HAK
 
 #Demographics
 culture = kurdish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = copper
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ARM
+add_core = HAK
 
 #Other Political
 hre = no

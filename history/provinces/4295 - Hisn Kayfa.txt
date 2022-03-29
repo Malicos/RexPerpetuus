@@ -1,8 +1,8 @@
 #4395 - Hisn Kayfa
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = HSN
+controller = HSN
+add_core = HSN
 capital = "Hisn Kayfa"	
 culture = assyrian_culture
 religion = orthodox
