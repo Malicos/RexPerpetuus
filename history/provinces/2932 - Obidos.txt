@@ -1,5 +1,8 @@
 # - Waddai
 
+owner = WAD
+controller = WAD
+add_core = WAD
 culture = bilala 
 religion = shamanism #Fetishism
 capital = "Ouara"
@@ -10,6 +13,4 @@ trade_goods = unknown
 hre = no
 base_tax = 1  
 base_production = 1 
-base_manpower = 1 
-
-1635.1.1 = { religion = sunni }
+base_manpower = 1

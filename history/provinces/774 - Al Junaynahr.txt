@@ -1,8 +1,8 @@
 # - Al-Junaynah
 
-owner = DAR
-controller = DAR
-add_core = DAR
+owner = WAD
+controller = WAD
+add_core = WAD
 culture = fur_culture 
 religion = shamanism #Fetishism
 capital = "Al-Junaynahr"

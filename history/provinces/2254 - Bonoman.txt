@@ -11,13 +11,4 @@ base_tax = 6
 base_production = 6
 base_manpower = 2 
 
-
-
 discovered_by = sub_saharan
-
-
-1735.1.1 = {
-	owner = ASH
-	controller = ASH
-	add_core = ASH
-} #Ashanti conquest
