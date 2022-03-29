@@ -1,8 +1,8 @@
 #New Province
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = RAY
+controller = RAY
+add_core = RAY
 capital = "Hasakah"
 culture = assyrian_culture
 religion = orthodox

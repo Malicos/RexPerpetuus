@@ -5,8 +5,8 @@
 #Core Details
 capital = "Episkopi"
 is_city = yes
-owner = CYP
-controller = CYP
+owner = KNT
+controller = KNT
 
 #Demographics
 culture = cypriot
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = sugar #(JP) Cornaro Venetian family ran a massive sugar processing factory here
 
 #Cores and Occupation (Alphabetical after current)
+add_core = KNT
 add_core = CYP
 
 #Other Political

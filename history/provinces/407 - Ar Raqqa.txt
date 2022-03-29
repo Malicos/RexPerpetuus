@@ -1,8 +1,8 @@
 #407 - Ar-Raqqah
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = RAK
+controller = RAK
+add_core = RAK
 culture = al_iraqiya_arabic
 religion = sunni				#The city retained an active Christian community well into the Middle Ages
 capital = "Rakka"			#Many versions in latin alphabet, just going with this one for fun, plus I have no idea what the differences are.

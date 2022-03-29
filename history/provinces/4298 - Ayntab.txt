@@ -1,8 +1,8 @@
 #4398 - Ayntab
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = AIB
+controller = AIB
+add_core = AIB
 culture = al_iraqiya_arabic
 religion = sunni			
 capital = "Aintab"

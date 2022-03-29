@@ -1,9 +1,9 @@
  
 #365 - Sinai
 
-owner = SIN
-controller = SIN
-add_core = SIN
+owner = NHL
+controller = NHL
+add_core = NHL
 culture = bedouin_arabic
 religion = sunni
 capital = "Raithu"			#Vanilla name was a more recent thing I think, old name was Raithu or Rutho, at least Byzantine era if not older

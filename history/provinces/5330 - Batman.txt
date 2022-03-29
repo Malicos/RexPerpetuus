@@ -1,8 +1,8 @@
 #4395 - Hisn Kayfa
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = AME
+controller = AME
+add_core = AME
 capital = "Silvan"	
 culture = kurdish
 religion = sunni

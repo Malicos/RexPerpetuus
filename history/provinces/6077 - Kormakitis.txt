@@ -5,8 +5,8 @@
 #Core Details
 capital = "Kormakitis"
 is_city = yes
-owner = CYP
-controller = CYP
+owner = KNT
+controller = KNT
 
 #Demographics
 culture = syriac_culture
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = livestock #(JP) Lots of rural villages
 
 #Cores and Occupation (Alphabetical after current)
+add_core = KNT
 add_core = CYP
 
 #Other Political

@@ -1,8 +1,8 @@
 #2314 - Rahba
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = RAK
+controller = RAK
+add_core = RAK
 culture = al_iraqiya_arabic
 religion = sunni
 capital = "Deyrizor"

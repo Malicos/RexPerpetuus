@@ -5,8 +5,8 @@
 #Core Details
 capital = "Maskanah"
 is_city = yes
-owner = SJK
-controller = SJK
+owner = AIB
+controller = AIB
 
 #Demographics
 culture = al_iraqiya_arabic
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain #(JP) Fertile Manbij plain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SJK
+add_core = AIB
 
 #Other Political
 hre = no

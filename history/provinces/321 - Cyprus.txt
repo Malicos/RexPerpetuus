@@ -1,8 +1,9 @@
  
 #321 - Cyprus
 
-owner = CYP
-controller = CYP
+owner = KNT
+controller = KNT
+add_core = KNT
 add_core = CYP
 culture = cypriot
 religion = orthodox

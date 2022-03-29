@@ -1,8 +1,8 @@
 #418 - Diyarbakir
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = AME
+controller = AME
+add_core = AME
 culture = assyrian_culture
 religion = orthodox
 capital = "Diyarbakir"
