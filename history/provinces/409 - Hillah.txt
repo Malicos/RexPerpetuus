@@ -1,9 +1,9 @@
 #409 - Karbala
 
-owner = SJK
-controller = SJK
-add_core = SJK
-culture = al_iraqiya_arabic
+owner = KBL
+controller = KBL
+add_core = KBL
+culture = turkoman
 religion = shiite
 capital = "Karbala"
 trade_goods = bt_trade_good_books #(JP) Shia Religious Centre

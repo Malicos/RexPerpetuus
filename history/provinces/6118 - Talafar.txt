@@ -5,12 +5,12 @@
 #Core Details
 capital = "Talafar"
 is_city = yes
-owner = SJK
-controller = SJK
+owner = SIN
+controller = SIN
 
 #Demographics
-culture = turkoman
-religion = shiite
+culture = kurdish
+religion = yazidi
 
 #Development and Trade
 base_tax = 1
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SJK
+add_core = SIN
 
 #Other Political
 hre = no

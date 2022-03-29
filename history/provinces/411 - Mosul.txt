@@ -1,9 +1,9 @@
 #411 - Mosul
 
-owner = SJK
-controller = SJK
-add_core = SJK
-culture = al_iraqiya_arabic
+owner = SMR
+controller = SMR
+add_core = SMR
+culture = kurdish
 religion = sunni
 capital = "Mosul"
 trade_goods = glass

@@ -3,7 +3,7 @@
 owner = SJK
 controller = SJK
 add_core = SJK
-culture = al_iraqiya_arabic
+culture = turko_iranian
 religion = shiite
 capital = "Basra"
 trade_goods = naval_supplies #(JP) Big port, right...?

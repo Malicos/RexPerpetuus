@@ -5,8 +5,8 @@
 #Core Details
 capital = "Shekhan"
 is_city = yes
-owner = SJK
-controller = SJK
+owner = SMR
+controller = SMR
 
 #Demographics
 culture = kurdish
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SJK
+add_core = SMR
 
 #Other Political
 hre = no

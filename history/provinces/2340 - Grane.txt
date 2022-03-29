@@ -1,9 +1,9 @@
  
 #2340 - Grane
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = FJD
+controller = FJD
+add_core = FJD
 culture = gulf_arabic
 religion = shiite
 capital = "Grane" #old name for Kuwait

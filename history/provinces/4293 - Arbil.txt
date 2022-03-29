@@ -1,8 +1,8 @@
 #4393 - Erbil
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = SMR
+controller = SMR
+add_core = SMR
 culture = kurdish
 religion = sunni
 capital = "Erbil"

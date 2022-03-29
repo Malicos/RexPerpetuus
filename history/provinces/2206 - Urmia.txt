@@ -1,8 +1,8 @@
 #2035 - Urmia
 
-owner = DAY
-controller = DAY
-add_core = DAY
+owner = SMR
+controller = SMR
+add_core = SMR
 culture = kurdish
 religion = sunni
 capital = "Urmiyeh"

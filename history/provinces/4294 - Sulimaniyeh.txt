@@ -1,8 +1,8 @@
 #4394 - Sulimaniyeh
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = KIF
+controller = KIF
+add_core = KIF
 culture = kurdish
 religion = sunni
 capital = "Sulimaniyeh"

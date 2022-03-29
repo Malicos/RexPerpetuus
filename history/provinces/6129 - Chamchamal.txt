@@ -5,11 +5,11 @@
 #Core Details
 capital = "Chamchamal"
 is_city = yes
-owner = SJK
-controller = SJK
+owner = KIF
+controller = KIF
 
 #Demographics
-culture = kurdish
+culture = turkoman
 religion = sunni
 
 #Development and Trade
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SJK
+add_core = KIF
 
 #Other Political
 hre = no

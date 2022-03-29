@@ -5,11 +5,11 @@
 #Core Details
 capital = "Samawah"
 is_city = yes
-owner = SJK
-controller = SJK
+owner = KBL
+controller = KBL
 
 #Demographics
-culture = al_iraqiya_arabic
+culture = turkoman
 religion = shiite
 
 #Development and Trade
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = salt #(JP) And Gypsum
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SJK
+add_core = KBL
 
 #Other Political
 hre = no

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Kufa"
 is_city = yes
-owner = SJK
-controller = SJK
+owner = KBL
+controller = KBL
 
 #Demographics
 culture = al_iraqiya_arabic
@@ -19,7 +19,7 @@ base_manpower = 3
 trade_goods = bt_trade_good_books #(JP) Shia Religious Centre
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SJK
+add_core = KBL
 
 #Other Political
 hre = no

@@ -3,7 +3,7 @@
 owner = SJK
 controller = SJK
 add_core = SJK
-culture = kurdish
+culture = turko_iranian
 religion = sunni
 capital = "Mandali"
 trade_goods = livestock
