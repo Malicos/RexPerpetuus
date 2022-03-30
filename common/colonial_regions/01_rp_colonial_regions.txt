@@ -36,6 +36,54 @@ colonial_agustina = {
 	}
 }
 
+# Alaska
+colonial_alaska = {
+	color = { 225 225 225 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 8
+	native_ferocity = 1
+	native_hostileness = 4
+	
+	trade_goods = {
+		fur = 10
+		fish = 3
+		naval_supplies = 2
+		gold = 2
+	}
+	
+	culture = {
+		inuit = 10
+		aleutian = 8
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		978 977 976 2611 2612 2613 1810
+		#BTNEWPROVINCES
+		5920 5921 5922 5923 5924 5925 5928 5929 5930 5932 5931 5933 4968 4969 4970 4971 5926 5927 5076 5934 5935 5936
+		5722 5723 5724 5726 5727 5728 5778 5095 5725 5905 5906 5907 5908 5909 5910 5911 5912 5913 5914 5915 5916 5917 
+		5918 5919 8000 8001 8002 8003 8004 8005 8006 8007 8008 8009 8010 8011 8012 5863 5864 5866 
+		#BTNEWPROVINCESWASTELANDS
+		5111 5112 5535 5536 5533 
+		979 5077 			#East side of the map
+	}
+	
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_ALASKA_Alaska"
+	}
+}
+
 # Appalachia
 colonial_appalachia = {
 	color = { 220 190 70 }
