@@ -494,6 +494,16 @@
  WAJ:0 "West Ajuuraan"
  WAJ_ADJ:0 "West Ajuuaraani"
  
+ # West Africa
+ AZW:0 "Azawad"
+ AZW_ADJ:0 "Azawadi"
+ BBK:0 "Bambuk"
+ BBK_ADJ:0 "Bambuki"
+ GAO:0 "Gao"
+ GAO_ADJ:0 "Gao"
+ SSO:0 "Sosso"
+ SSO_ADJ:0 "Sosso"
+ 
  # North Africa
  ANM:0 "Ainam"
  ANM_ADJ:0 "Ainami"

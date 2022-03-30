@@ -1,9 +1,8 @@
 # 2265 - Liptako
 
-owner = MSI
-controller = MSI
-add_core = MSI
-add_core = YAT
+owner = SSO
+controller = SSO
+add_core = SSO
 is_city = yes
 culture = mossi
 religion = shamanism #Fetishism
@@ -14,5 +13,3 @@ base_tax = 2
 base_production = 2 
 base_manpower = 2 
 discovered_by = sub_saharan
-
-1540.1.1 = { owner = YAT controller = YAT } #Yatenga established as distinct kingdom

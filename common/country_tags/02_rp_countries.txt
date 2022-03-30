@@ -205,6 +205,12 @@ TGR = "countries/Tangiers.txt"
 TLS = "countries/Talsint.txt"
 WZZ = "countries/Warzazat.txt"
 
+# West Africa
+AZW = "countries/Azawad.txt"
+BBK = "countries/Bambuk.txt"
+GAO = "countries/Gao.txt"
+SSO = "countries/Sosso.txt"
+
 # East Africa
 OAJ = "countries/OuterAjuraan.txt"
 RHF = "countries/RasHafun.txt"

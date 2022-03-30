@@ -2,6 +2,7 @@
 
 owner = MAL
 controller = MAL
+add_core = MAL
 culture = mali
 is_city = yes
 base_manpower = 4
@@ -11,11 +12,5 @@ trade_goods = gold
 hre = no
 base_tax = 12 
 base_production = 12
-add_core = MAL
-
-
 
 discovered_by = sub_saharan
-
-
-1600.1.1 = { base_tax = 4  base_production = 4 base_manpower = 2  } #Collapse of mali into minor states after Jennéambara takes over
