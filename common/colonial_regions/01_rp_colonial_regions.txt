@@ -160,6 +160,46 @@ colonial_atakapa = {
 	}
 }
 
+# Azania
+colonial_azania = {
+	color = { 180 225 115 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 10
+	native_ferocity = 1
+	native_hostileness = 3
+	
+	trade_goods = {
+		fish = 10
+		naval_supplies = 10
+	}
+	
+	culture = {
+		khoisan = 10
+	}
+	
+	religion = {
+		animism = 10
+	}
+
+	provinces = {
+		833 1176 1177 1178 1179 
+		5340 5341 5342 5343 5344 5345 5346 5348 5349 5350 5351 5352 5353 5354 5355 5356 5357 5361 5428 
+		5358 5359 1180 5370 #Xhosa
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_AZANIA_Azania"
+	}
+}
+
 # Juventude
 colonial_juventude = {
 	color = { 0 145 120 }
