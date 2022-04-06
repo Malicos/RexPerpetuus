@@ -1,7 +1,8 @@
 #4335 - Kashan
 
-owner = ISF
-controller = ISF
+owner = QOM
+controller = QOM
+add_core = QOM
 add_core = ISF
 culture = persian
 religion = shiite

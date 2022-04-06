@@ -3,7 +3,6 @@
 owner = BKH
 controller = BKH
 add_core = BKH
-add_core = AFG
 culture = afghani
 religion = sunni
 capital = "Kunduz"

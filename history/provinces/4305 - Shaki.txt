@@ -1,8 +1,8 @@
 #4305 - Shakhi
 
-owner = DAY
-controller = DAY
-add_core = DAY
+owner = SRV
+controller = SRV
+add_core = SRV
 culture = daylamite
 religion = shiite
 capital = "Sheki"

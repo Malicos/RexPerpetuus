@@ -1,8 +1,8 @@
 #2214 - Golestan
 
-owner = DAY
-controller = DAY
-add_core = DAY
+owner = SAB
+controller = SAB
+add_core = SAB
 culture = daylamite
 religion = shiite
 capital = "Asatarabad"

@@ -1,9 +1,9 @@
 #449 - Ghor
 
-owner = BKH
-controller = BKH
+owner = FRD
+controller = FRD
+add_core = FRD
 add_core = BKH
-add_core = AFG
 culture = afghani
 religion = sunni
 capital = "Ahangaran"

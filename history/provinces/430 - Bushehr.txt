@@ -1,9 +1,8 @@
 #430 - Bushehr
 
-owner = FRS
-controller = FRS
-add_core = FRS
-add_core = SJK
+owner = BUS
+controller = BUS
+add_core = BUS
 culture = turko_iranian
 religion = shiite
 capital = "Bushehr"

@@ -593,12 +593,24 @@
  UTJ_ADJ:0 "Ultrajordanian"
  
  # Iran
+ BDS:0 "Badakhshan"
+ BDS_ADJ:0 "Badakhshani"
  BKH:0 "Balkh"
  BKH_ADJ:0 "Balkhi"
+ BUS:0 "Bushehr"
+ BUS_ADJ:0 "Bushehri"
+ FRD:0 "Fariadids"
+ FRD_ADJ:0 "Fariadid"
+ KAB:0 "Kabul"
+ KAB_ADJ:0 "Kabuli"
  KLA:0 "Kalat"
  KLA_ADJ:0 "Kalati"
  MRN:0 "Makran"
  MRN_ADJ:0 "Makrani"
+ SAB:0 "Sabzevar"
+ SAB_ADJ:0 "Sabzevari"
+ TAL:0 "Talysh"
+ TAL_ADJ:0 "Talyshi"
  
  # Central Asia
  KHT:0 "Khitan"

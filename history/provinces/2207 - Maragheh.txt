@@ -1,8 +1,8 @@
 #2207 - Maragheh
 
-owner = DAY
-controller = DAY
-add_core = DAY
+owner = TBR
+controller = TBR
+add_core = TBR
 culture = kurdish
 religion = shiite
 capital = "Marageh"

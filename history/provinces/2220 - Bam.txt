@@ -1,9 +1,10 @@
 #2220 - Bam
 
-owner = ISF
-controller = ISF
-add_core = ISF
-add_core = SIS
+owner = FRD
+controller = FRD
+add_core = FRD
+add_core = KRM
+add_core = MRN
 culture = baluchi
 religion = shiite
 capital = "Bam"

@@ -1,8 +1,8 @@
 #427 - Qumis
 
-owner = KHO
-controller = KHO
-add_core = KHO
+owner = SAB
+controller = SAB
+add_core = SAB
 culture = khorasani
 religion = shiite
 capital = "Damghan"

@@ -1,8 +1,8 @@
 #424 - Ardabil
 
-owner = DAY
-controller = DAY
-add_core = DAY
+owner = TAL
+controller = TAL
+add_core = TAL
 culture = daylamite
 religion = shiite
 capital = "Ardabil"

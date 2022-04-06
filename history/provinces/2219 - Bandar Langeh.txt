@@ -1,8 +1,7 @@
 #2219 - Bandar Langeh
 
-owner = ORM
-controller = ORM
-add_core = ORM
+owner = FRS
+controller = FRS
 add_core = FRS
 culture = turko_iranian
 religion = sunni

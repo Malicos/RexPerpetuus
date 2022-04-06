@@ -1,8 +1,8 @@
 #4341 - Sari
 
-owner = DAY
-controller = DAY
-add_core = DAY
+owner = TAB
+controller = TAB
+add_core = TAB
 culture = daylamite
 religion = shiite
 capital = "Sari"

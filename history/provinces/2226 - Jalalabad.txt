@@ -1,8 +1,8 @@
 #2226 - Jalalabad
 
-owner = AFG
-controller = AFG
-add_core = AFG
+owner = BDS
+controller = BDS
+add_core = BDS
 culture = afghani
 religion = sunni
 capital = "Jalalabad"

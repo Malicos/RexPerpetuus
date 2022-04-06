@@ -1,7 +1,8 @@
 #2230 - Chakansur
 
-owner = KHO
-controller = KHO
+owner = FRD
+controller = FRD
+add_core = FRD
 add_core = KHO
 culture = khorasani
 religion = sunni

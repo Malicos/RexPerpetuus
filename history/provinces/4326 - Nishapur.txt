@@ -1,8 +1,8 @@
 #4326 - Nishapur
 
-owner = KHO
-controller = KHO
-add_core = KHO
+owner = SAB
+controller = SAB
+add_core = SAB
 culture = khorasani
 religion = sunni
 capital = "Nishapur"

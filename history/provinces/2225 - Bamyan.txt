@@ -1,8 +1,9 @@
 #2225 - Bamyan
 
-owner = AFG
-controller = AFG
-add_core = AFG
+owner = FRD
+controller = FRD
+add_core = FRD
+add_core = KAB
 culture = afghani
 religion = shiite
 capital = "Bamyan"

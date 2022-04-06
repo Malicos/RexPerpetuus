@@ -1,8 +1,8 @@
 #416 - Azerbaijan
 
-owner = DAY
-controller = DAY
-add_core = DAY
+owner = TBR
+controller = TBR
+add_core = TBR
 culture = daylamite
 religion = shiite
 capital = "Tabriz"

@@ -1,8 +1,8 @@
 #4345 - Saidabad
 
-owner = ISF
-controller = ISF
-add_core = ISF
+owner = FRD
+controller = FRD
+add_core = FRD
 add_core = KRM
 culture = persian
 religion = shiite

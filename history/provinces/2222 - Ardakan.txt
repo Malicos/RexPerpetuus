@@ -1,7 +1,8 @@
 #2222 - Ardakan
 
-owner = ISF
-controller = ISF
+owner = FRD
+controller = FRD
+add_core = FRD
 add_core = ISF
 culture = persian
 religion = shiite

@@ -1,8 +1,9 @@
 # 2350 - Konjikala
 
-owner = KHO
-controller = KHO
-add_core = KHO
+owner = FRD
+controller = FRD
+add_core = FRD
+add_core = KZM
 culture = turkmeni
 religion = sunni
 capital = "Konjikala"

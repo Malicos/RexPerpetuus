@@ -1,8 +1,8 @@
 #4299 - Shamakhi
 
-owner = DAY
-controller = DAY
-add_core = DAY
+owner = SRV
+controller = SRV
+add_core = SRV
 culture = daylamite
 religion = shiite
 capital = "Shemakha"
