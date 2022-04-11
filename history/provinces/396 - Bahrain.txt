@@ -1,8 +1,8 @@
 #396 - Bahrain
 
-owner = FJD
-controller = FJD
-add_core = FJD
+owner = AWL
+controller = AWL
+add_core = AWL
 culture = gulf_arabic
 religion = shiite
 capital = "Manama"

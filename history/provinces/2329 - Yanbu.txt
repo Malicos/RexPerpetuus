@@ -1,8 +1,8 @@
 #2329 - Yanbu
 
-owner = HSH
-controller = HSH
-add_core = HSH
+owner = YBU
+controller = YBU
+add_core = YBU
 culture = hejazi_culture
 religion = sunni
 capital = "Yanbu' al Bahr"

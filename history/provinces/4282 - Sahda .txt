@@ -1,8 +1,8 @@
 #4282 - Sahda
 
-owner = HSH
-controller = HSH
-add_core = HSH
+owner = ASR
+controller = ASR
+add_core = ASR
 capital = "Qal`at Bishah"
 culture = bedouin_arabic
 religion = sunni

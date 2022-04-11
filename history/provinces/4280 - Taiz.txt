@@ -1,8 +1,8 @@
 #4280 - Taiz
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = ADE
+controller = ADE
+add_core = ADE
 capital = "Ta'izz"
 culture = yemeni_culture
 religion = sunni

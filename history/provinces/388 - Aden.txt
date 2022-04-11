@@ -1,8 +1,8 @@
 #388 - Aden
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = ADE
+controller = ADE
+add_core = ADE
 culture = yemeni_culture
 religion = sunni
 capital = "Adan"

@@ -1,8 +1,8 @@
 #New Province
 
-owner = OMA
-controller = OMA
-add_core = OMA
+owner = ORM
+controller = ORM
+add_core = ORM
 capital = "Hasab"
 culture = gulf_arabic
 religion = shiite

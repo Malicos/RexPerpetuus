@@ -1,8 +1,8 @@
 #397 - Beni Yas
 
-owner = OMA
-controller = OMA
-add_core = OMA
+owner = TAW
+controller = TAW
+add_core = TAW
 culture = gulf_arabic
 religion = shiite
 capital = "Abu Zabi"

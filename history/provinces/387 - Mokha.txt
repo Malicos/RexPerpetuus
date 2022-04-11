@@ -1,8 +1,8 @@
 #387 - Mocha
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = ZBD
+controller = ZBD
+add_core = ZBD
 culture = yemeni_culture
 religion = sunni
 capital = "Al Mukha"

@@ -1,9 +1,8 @@
 #2346 - Jazan
 
-owner = HSH
-controller = HSH
-add_core = HSH
-add_core = YEM
+owner = ASR
+controller = ASR
+add_core = ASR
 culture = yemeni_culture
 religion = sunni
 capital = "Jazan"

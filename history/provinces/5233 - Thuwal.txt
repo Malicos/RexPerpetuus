@@ -1,8 +1,8 @@
 #New Province
 
-owner = HSH
-controller = HSH
-add_core = HSH
+owner = MEC
+controller = MEC
+add_core = MEC
 capital = "Thuwal"			#also could use Badr and move the capital to the northern coast of the province
 culture = hejazi_culture
 religion = sunni

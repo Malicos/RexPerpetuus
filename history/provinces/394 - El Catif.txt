@@ -1,8 +1,8 @@
 #394 - El Catif
 
-owner = FJD
-controller = FJD
-add_core = FJD
+owner = ALH
+controller = ALH
+add_core = ALH
 culture = gulf_arabic
 religion = shiite
 capital = "Al-Qatif"

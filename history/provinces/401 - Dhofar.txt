@@ -1,8 +1,8 @@
 #401 - Dhofar
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = DHF
+controller = DHF
+add_core = DHF
 culture = mahri_culture
 religion = sunni
 capital = "Salalah"

@@ -1,8 +1,8 @@
 #4278 - Qunfudhah
 
-owner = HSH
-controller = HSH
-add_core = HSH
+owner = ASR
+controller = ASR
+add_core = ASR
 capital = "Al Qunfudhah"
 culture = hejazi_culture
 religion = sunni

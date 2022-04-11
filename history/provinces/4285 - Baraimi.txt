@@ -1,8 +1,8 @@
 #4285 - Al Baraimi Oasis
 
-owner = OMA
-controller = OMA
-add_core = OMA
+owner = TAW
+controller = TAW
+add_core = TAW
 capital = "Al 'Ayn"
 culture = gulf_arabic
 religion = shiite

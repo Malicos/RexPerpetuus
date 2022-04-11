@@ -1,8 +1,8 @@
 #2331 - Jeddah
 
-owner = HSH
-controller = HSH
-add_core = HSH
+owner = JDD
+controller = JDD
+add_core = JDD
 culture = hejazi_culture
 religion = sunni
 capital = "Jiddah"

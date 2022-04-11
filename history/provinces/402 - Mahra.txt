@@ -1,8 +1,8 @@
 #402 - Mahra
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = HDR
+controller = HDR
+add_core = HDR
 culture = mahri_culture
 religion = sunni
 capital = "Qishn"			#Al Ghaydah

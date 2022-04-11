@@ -1,8 +1,8 @@
 #389 - Hadramut
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = HDR
+controller = HDR
+add_core = HDR
 culture = yemeni_culture
 religion = sunni
 capital = "Al Mukalla"

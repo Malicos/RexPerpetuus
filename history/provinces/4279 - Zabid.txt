@@ -1,8 +1,8 @@
 #4279 - Zabid & Hudaydah
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = ZBD
+controller = ZBD
+add_core = ZBD
 capital = "Al Hudaydah"
 culture = yemeni_culture
 religion = sunni

@@ -1,8 +1,8 @@
 #2344 - Al Jawf
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = YSA
+controller = YSA
+add_core = YSA
 culture = yemeni_culture
 religion = shiite
 capital = "Ma'rib"

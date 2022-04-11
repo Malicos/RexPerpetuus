@@ -1,8 +1,8 @@
 #2330 - Ma'din Sulaym
 
-owner = HSH
-controller = HSH
-add_core = HSH
+owner = MEC
+controller = MEC
+add_core = MEC
 culture = hejazi_culture
 religion = sunni
 capital = "Hajur"			#Vanilla Ma'din Sulaym was way to far north to be in this province, and I could find no historical info on any settlement in the region, but we don't want Mecca or Medina this long and skinny, so adding a province and just picking a name here

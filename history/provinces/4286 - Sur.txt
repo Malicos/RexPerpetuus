@@ -1,8 +1,8 @@
 #4286 - Sur, Qalhat, etc
 
-owner = OMA
-controller = OMA
-add_core = OMA
+owner = ORM
+controller = ORM
+add_core = ORM
 capital = "Al  Fugaira"
 culture = gulf_arabic
 religion = shiite

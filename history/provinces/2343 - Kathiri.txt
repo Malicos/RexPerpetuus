@@ -1,8 +1,8 @@
 #2343 - Kathiri
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = ADE
+controller = ADE
+add_core = ADE
 culture = yemeni_culture
 religion = sunni
 capital = "Tarim"			#vanilla Say'un, but Tarim was more important early on

@@ -1,8 +1,8 @@
 #4281 - Dhamar
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = YSA
+controller = YSA
+add_core = YSA
 capital = "Dhamar"
 culture = yemeni_culture
 religion = shiite

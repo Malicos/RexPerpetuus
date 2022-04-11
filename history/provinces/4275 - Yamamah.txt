@@ -1,8 +1,8 @@
 #4275 - Al-Yamamah
 
-owner = FJD
-controller = FJD
-add_core = FJD
+owner = ALH
+controller = ALH
+add_core = ALH
 capital = "Khurais"			#Couldn't find a historical settlement, so using this.
 culture = bedouin_arabic
 religion = shiite

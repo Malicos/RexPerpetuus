@@ -1,8 +1,8 @@
 #New Province
 
-owner = YEM
-controller = YEM
-add_core = YEM
+owner = ADE
+controller = ADE
+add_core = ADE
 capital = "Shuqrah"
 culture = yemeni_culture
 religion = sunni

@@ -1,8 +1,8 @@
 #383 - Tabouk
 
-owner = HSH
-controller = HSH
-add_core = HSH
+owner = MDA
+controller = MDA
+add_core = MDA
 culture = bedouin_arabic
 religion = sunni
 capital = "Duba"

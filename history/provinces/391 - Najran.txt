@@ -1,8 +1,8 @@
 #391 - Najran
 
-owner = HSH
-controller = HSH
-add_core = HSH
+owner = NJR
+controller = NJR
+add_core = NJR
 culture = yemeni_culture
 religion = jewish			#hard to say if they were in the majority at this point, but giving Yemeni Jews a presence here.
 capital = "Najran"

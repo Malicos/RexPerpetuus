@@ -1,8 +1,8 @@
 #384 - Medina
 
-owner = HSH
-controller = HSH
-add_core = HSH
+owner = MDA
+controller = MDA
+add_core = MDA
 culture = hejazi_culture
 religion = sunni
 capital = "Medina"

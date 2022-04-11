@@ -1,8 +1,8 @@
 #400 - Muscat
 
-owner = OMA
-controller = OMA
-add_core = OMA
+owner = ORM
+controller = ORM
+add_core = ORM
 culture = omani_culture
 religion = ibadi
 capital = "Rustaq"
