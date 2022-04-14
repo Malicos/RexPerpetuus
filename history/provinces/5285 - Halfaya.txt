@@ -1,8 +1,8 @@
 #New Province
 
-owner = NBA
-controller = NBA
-add_core = NBA
+owner = ALO
+controller = ALO
+add_core = ALO
 capital = "Halfaya"
 culture = nubian
 religion = coptic

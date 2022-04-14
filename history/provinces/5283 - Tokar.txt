@@ -3,6 +3,7 @@
 owner = BEJ
 controller = BEJ
 add_core = BEJ
+add_core = MED
 capital = "Tokar"
 culture = tigray
 religion = coptic

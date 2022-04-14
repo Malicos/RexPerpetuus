@@ -1,8 +1,8 @@
 #New Province
 
-owner = NBA
-controller = NBA
-add_core = NBA
+owner = NBI
+controller = NBI
+add_core = NBI
 capital = "Dakhesh"			#Don't know about the date of founding, here, doubt it was by the 15th century, but it is better than Abu Hamad which is recognisably later.
 culture = nubian
 religion = sunni

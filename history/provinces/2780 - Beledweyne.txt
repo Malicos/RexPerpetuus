@@ -1,8 +1,8 @@
 #2780 - Beledweyne
 
-owner = AJU
-controller = AJU
-add_core = AJU
+owner = TNN
+controller = TNN
+add_core = TNN
 add_core = HOB
 culture = somali
 religion = sunni

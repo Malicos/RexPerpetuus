@@ -1,8 +1,7 @@
 #1205 - Mogadishu
 
-owner = WAJ
-controller = WAJ
-add_core = WAJ
+owner = MDI
+controller = MDI
 add_core = MDI
 culture = somali
 religion = sunni

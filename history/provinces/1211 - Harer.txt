@@ -1,7 +1,8 @@
 #1211 - Harer
 
-owner = HAR
-controller = HAR
+owner = IFA
+controller = IFA
+add_core = IFA
 add_core = HAR
 culture = harari
 religion = sunni

@@ -1,8 +1,7 @@
 #2762 - Damot
 
-owner = WLY
-controller = WLY
-add_core = WLY
+owner = DAM
+controller = DAM
 add_core = DAM
 culture = amhara 
 religion = coptic

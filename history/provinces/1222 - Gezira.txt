@@ -1,8 +1,8 @@
 #1222 - Gezira
 
-owner = NBA
-controller = NBA
-add_core = NBA
+owner = ALO
+controller = ALO
+add_core = ALO
 culture = nubian
 religion = coptic
 capital = "Ad Douiem"

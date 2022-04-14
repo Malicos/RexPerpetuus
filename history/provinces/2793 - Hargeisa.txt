@@ -1,8 +1,8 @@
 #2793 - Hargeisa
 
-owner = ADA
-controller = ADA
-add_core = ADA
+owner = IFA
+controller = IFA
+add_core = IFA
 culture = somali
 religion = sunni
 capital = "Hargeisa"

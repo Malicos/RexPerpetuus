@@ -1,8 +1,8 @@
 #1208 - Degehabur
 
-owner = ADA
-controller = ADA
-add_core = ADA
+owner = IFA
+controller = IFA
+add_core = IFA
 culture = somali
 religion = sunni
 capital = "Degehabur"

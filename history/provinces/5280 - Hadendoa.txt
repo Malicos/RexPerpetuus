@@ -1,8 +1,8 @@
 #New Province
 
-owner = NBA
-controller = NBA
-add_core = NBA
+owner = NBI
+controller = NBI
+add_core = NBI
 capital = "Sinkat"
 culture = beja
 religion = sunni

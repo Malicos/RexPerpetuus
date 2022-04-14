@@ -212,9 +212,8 @@ GAO = "countries/Gao.txt"
 SSO = "countries/Sosso.txt"
 
 # East Africa
-OAJ = "countries/OuterAjuraan.txt"
-RHF = "countries/RasHafun.txt"
-WAJ = "countries/WestAjuraan.txt"
+IFA = "countries/Ifat.txt"
+TNN = "countries/Tunni.txt"
 
 # Middle East
 ABS = "countries/Abbasids.txt"

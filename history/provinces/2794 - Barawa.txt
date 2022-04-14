@@ -1,8 +1,8 @@
 #2794 - Barawa
 
-owner = WAJ
-controller = WAJ
-add_core = WAJ
+owner = TNN
+controller = TNN
+add_core = TNN
 culture = somali
 religion = sunni
 capital = "Barawa"

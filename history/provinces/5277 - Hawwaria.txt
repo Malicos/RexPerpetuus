@@ -1,8 +1,8 @@
 #New Province
 
-owner = NBA
-controller = NBA
-add_core = NBA
+owner = MAK
+controller = MAK
+add_core = MAK
 capital = "Semna"
 culture = nubian
 religion = sunni

@@ -1,8 +1,7 @@
 #2758 - Illubabor
 
-owner = WLY
-controller = WLY
-add_core = WLY
+owner = ENA
+controller = ENA
 add_core = ENA
 culture = sidamo
 religion = coptic

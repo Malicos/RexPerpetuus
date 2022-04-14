@@ -1,8 +1,7 @@
 #New Province
 
-owner = BEJ
-controller = BEJ
-add_core = BEJ
+owner = MED
+controller = MED
 add_core = MED
 capital = "Karura"
 culture = tigray

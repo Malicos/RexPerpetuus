@@ -1,8 +1,8 @@
 #2767 - Enderta
 
-owner = AFA
-controller = AFA
-add_core = AFA
+owner = MED
+controller = MED
+add_core = MED
 culture = tigray 
 religion = coptic
 capital = "Antalo"

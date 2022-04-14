@@ -1,8 +1,7 @@
 #2763 - Asosa
 
-owner = WLY
-controller = WLY
-add_core = WLY
+owner = DAM
+controller = DAM
 add_core = DAM
 culture = amhara 
 religion = coptic

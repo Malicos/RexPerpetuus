@@ -1,8 +1,8 @@
 #1215 - Tajura
 
-owner = ADA
-controller = ADA
-add_core = ADA
+owner = IFA
+controller = IFA
+add_core = IFA
 add_core = AFA
 culture = afar
 religion = sunni

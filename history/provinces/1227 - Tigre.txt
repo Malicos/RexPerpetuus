@@ -3,6 +3,7 @@
 owner = BTI
 controller = BTI
 add_core = BTI
+add_core = MED
 culture = tigray 
 religion = coptic #But also significant Jewish minority
 capital = "Debarwa"

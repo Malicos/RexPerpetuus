@@ -1,8 +1,8 @@
 #1228 - Dongola
 
-owner = NBA
-controller = NBA
-add_core = NBA
+owner = NBI
+controller = NBI
+add_core = NBI
 culture = nubian 
 religion = shiite
 capital = "Dunqula"

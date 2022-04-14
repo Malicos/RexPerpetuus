@@ -1,7 +1,8 @@
 #New Province
 
-owner = AFA
-controller = AFA
+owner = MED
+controller = MED
+add_core = MED
 add_core = AFA
 capital = "Zula"
 culture = afar

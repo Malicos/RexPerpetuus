@@ -1,8 +1,7 @@
 #4158 - Janjero
 
-owner = WLY
-controller = WLY
-add_core = WLY
+owner = JJI
+controller = JJI
 add_core = JJI
 culture = sidamo
 religion = shamanism

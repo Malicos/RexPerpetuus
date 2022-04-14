@@ -1,8 +1,8 @@
 #1234 - Qasr Ibrim
 
-owner = NBA
-controller = NBA
-add_core = NBA
+owner = MAK
+controller = MAK
+add_core = MAK
 culture = nubian
 religion = coptic			#From vanilla - sunni #To represent tenous hold over the province.   -Note-  I think Coptics already have it hard enough here, don't you?
 capital = "Ibrim"

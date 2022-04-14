@@ -1,8 +1,7 @@
 #2766 - Mendefera
 
-owner = BEJ
-controller = BEJ
-add_core = BEJ
+owner = MED
+controller = MED
 add_core = MED
 culture = tigray 
 religion = coptic

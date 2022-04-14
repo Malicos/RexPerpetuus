@@ -1,7 +1,8 @@
 #2765 - Assab
 
-owner = AFA
-controller = AFA
+owner = MED
+controller = MED
+add_core = MED
 add_core = AFA
 culture = afar
 religion = sunni
