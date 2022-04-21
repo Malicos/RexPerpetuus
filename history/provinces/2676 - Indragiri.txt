@@ -1,7 +1,9 @@
 #2676 - Indragiri
 
-owner = IDG
-controller = IDG
+owner = SVJ
+controller = SVJ
+add_core = SVJ
+add_core = IDG
 culture = malayan
 religion = sunni
 capital = "Indragiri"
@@ -11,7 +13,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
-add_core = IDG
 
 discovered_by = chinese
 discovered_by = indian

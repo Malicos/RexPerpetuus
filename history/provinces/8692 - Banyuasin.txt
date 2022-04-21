@@ -1,7 +1,8 @@
 #Banyuasin
 
-owner = PLB
-controller = PLB
+owner = SVJ
+controller = SVJ
+add_core = SVJ
 culture = musi
 religion = sunni
 capital = "Gasing"
@@ -11,12 +12,8 @@ base_tax = 4
 base_production = 5
 base_manpower = 3
 is_city = yes
-add_core = PLB
 
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-
-1405.1.1 = { discovered_by = MNG }
-1509.1.1 = { discovered_by = POR }

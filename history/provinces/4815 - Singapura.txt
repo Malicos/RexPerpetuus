@@ -1,9 +1,9 @@
  
 # ex 8649
 
-owner = MLC
-controller = MLC
-add_core = MLC
+owner = SVJ
+controller = SVJ
+add_core = SVJ
 add_core = JOH
 add_core = SGP # BT
 culture = malayan
@@ -20,23 +20,3 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-
-1509.1.1 = { discovered_by = POR }
-1521.1.1 = { discovered_by = SPA }
-
-1528.1.1 = {
-	owner = JOH
-	controller = JOH
-}
-
-1819.2.6 = { #Treaty signed between Great Britain & Johor, British settlement established in Singapore
-	owner = GBR
-	controller = GBR
-	add_core = GBR
-	remove_core = JOH
-	remove_core = MLC
-	capital = "Singapore"
-	base_tax = 6
-	base_production = 6
-	base_manpower = 3
-}

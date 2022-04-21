@@ -1,7 +1,9 @@
 #4599 - Kuansing
 
-owner = IDG
-controller = IDG
+owner = SVJ
+controller = SVJ
+add_core = SVJ
+add_core = IDG
 culture = musi
 religion = sunni
 capital = "Kota Besar"
@@ -11,13 +13,9 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = IDG
 
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-
-1405.1.1 = { discovered_by = MNG }
-1509.1.1 = { discovered_by = POR }
 

@@ -1,8 +1,8 @@
 #Akyab
 
-owner = PAG
-controller = PAG
-add_core = PAG
+owner = ARK
+controller = ARK
+add_core = ARK
 culture = arakanese
 religion = buddhism
 capital = "Saite Twey"

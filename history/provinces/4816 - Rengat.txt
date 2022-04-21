@@ -3,9 +3,10 @@
 # new in 1.31
 # in vanilla in a wrong place
 
-owner = IDG # ??? BT; SAK
-controller = IDG # ??? BT; SAK
-add_core = IDG # ??? BT; SAK
+owner = SVJ
+controller = SVJ
+add_core = SVJ
+add_core = IDG
 culture = malayan # ??? BT; sumatran
 religion = sunni
 capital = "Rengat"
@@ -20,6 +21,3 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-
-1405.1.1 = { discovered_by = MNG }
-1509.1.1 = { discovered_by = POR }

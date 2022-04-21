@@ -276,6 +276,7 @@ ZHT = "countries/Zhetysu.txt"
 HPC = "countries/Hariphunchai.txt"
 LAV = "countries/Lavo.txt"
 PAG = "countries/Pagan.txt"
+SGH = "countries/Singhasari.txt"
 XTG = "countries/XiengThong.txt"
 
 # Far East
