@@ -1,8 +1,7 @@
 #2398 - Thaungdut
 
-owner = PAG
-controller = PAG
-add_core = PAG
+owner = KAL
+controller = KAL
 add_core = KAL
 culture = chin
 religion = animism

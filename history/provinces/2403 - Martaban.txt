@@ -1,8 +1,7 @@
 #2403 - Martaban
 
-owner = PAG
-controller = PAG
-add_core = PAG
+owner = PEG
+controller = PEG
 add_core = PEG
 culture = mon
 religion = buddhism

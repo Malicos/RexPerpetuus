@@ -1,8 +1,7 @@
 #586 - Pegu
 
-owner = PAG
-controller = PAG
-add_core = PAG
+owner = PEG
+controller = PEG
 add_core = PEG
 culture = mon
 religion = buddhism

@@ -1,8 +1,8 @@
 #4393 - Tabayin
 
-owner = PAG
-controller = PAG
-add_core = PAG
+owner = KAL
+controller = KAL
+add_core = KAL
 culture = burmese
 religion = buddhism
 capital = "Tabayin"
