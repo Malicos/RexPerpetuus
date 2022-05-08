@@ -1,8 +1,7 @@
 #2690 - Pajang
 
-owner = SGH
-controller = SGH
-add_core = SGH
+owner = DMK
+controller = DMK
 add_core = DMK
 culture = javanese
 religion = sunni

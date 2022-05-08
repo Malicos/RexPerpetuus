@@ -1,10 +1,9 @@
  
 # ex 8671
 
-owner = MLC # BT; KED
-controller = MLC # BT; KED
-add_core = MLC # BT; KED
-add_core = PRK # BT
+owner = PRK
+controller = PRK
+add_core = PRK
 culture = malayan
 religion = sunni
 capital = "Klian Pauh" # BT; "Pengang"

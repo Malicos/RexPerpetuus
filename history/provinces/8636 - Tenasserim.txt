@@ -1,8 +1,8 @@
 #4736 - Tenasserim
 
-owner = LIG
-controller = LIG
-add_core = LIG
+owner = TNS
+controller = TNS
+add_core = TNS
 culture = mon
 religion = buddhism
 capital = "Tenasserim"

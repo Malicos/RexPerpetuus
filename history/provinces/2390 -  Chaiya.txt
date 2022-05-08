@@ -1,8 +1,8 @@
 #2390 - Chaiya
 
-owner = LIG
-controller = LIG
-add_core = LIG
+owner = TNS
+controller = TNS
+add_core = TNS
 culture = central_thai
 religion = buddhism
 capital = "Chaiya"

@@ -1,8 +1,8 @@
 #2391 - Thalang
 
-owner = LIG
-controller = LIG
-add_core = LIG
+owner = THG
+controller = THG
+add_core = THG
 culture = central_thai
 religion = buddhism
 capital = "Thalang"

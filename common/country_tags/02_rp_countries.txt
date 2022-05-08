@@ -274,9 +274,17 @@ ZHT = "countries/Zhetysu.txt"
 
 # South-East Asia
 HPC = "countries/Hariphunchai.txt"
+KTR = "countries/Kutaraja.txt"
 LAV = "countries/Lavo.txt"
+LMT = "countries/Lumut.txt"
 PAG = "countries/Pagan.txt"
 SGH = "countries/Singhasari.txt"
+SLR = "countries/Selangor.txt"
+SMD = "countries/Samudera.txt"
+SMN = "countries/SeriMenanti.txt"
+TGU = "countries/Terengganu.txt"
+THG = "countries/Thalang.txt"
+TNS = "countries/Tenasserim.txt"
 XTG = "countries/XiengThong.txt"
 
 # Far East

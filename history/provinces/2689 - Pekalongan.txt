@@ -1,11 +1,9 @@
  
 # renamed in 1.31
 
-owner = SGH
-controller = SGH
-add_core = SGH
-add_core = DMK # BT
-add_core = TGL # BT
+owner = DMK
+controller = DMK
+add_core = DMK
 culture = javanese
 religion = sunni # BT; hinduism
 capital = "Kendal" # BT; "Pekalongan"

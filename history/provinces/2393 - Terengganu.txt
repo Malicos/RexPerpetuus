@@ -1,7 +1,8 @@
 #2393 - Terengganu
 
-owner = KEL
-controller = KEL
+owner = TGU
+controller = TGU
+add_core = TGU
 culture = malayan
 religion = sunni
 capital = "Terengganu"
@@ -11,11 +12,8 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = KEL
 
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-
-1516.1.1 = { discovered_by = POR } # Godinho de Eredia
