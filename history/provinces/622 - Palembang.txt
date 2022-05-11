@@ -1,7 +1,8 @@
 #622 - Palembang
 
-owner = SVJ
-controller = SVJ
+owner = PLB
+controller = PLB
+add_core = PLB 
 add_core = SVJ
 culture = musi
 religion = sunni #Islam was already dominant in Palembang in the 1440's
