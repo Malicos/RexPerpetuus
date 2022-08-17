@@ -1,8 +1,7 @@
 #513 - Jaisalmer
 
-owner = MAM
-controller = MAM
-add_core = MAM
+owner = JSL
+controller = JSL
 add_core = JSL
 culture = rajput
 religion = hinduism

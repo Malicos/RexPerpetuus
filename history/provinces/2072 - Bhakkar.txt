@@ -1,8 +1,7 @@
 #2072 - Bhakkar
 
-owner = MAM
-controller = MAM
-add_core = MAM
+owner = SND
+controller = SND
 add_core = SND
 culture = sindhi
 religion = sunni
