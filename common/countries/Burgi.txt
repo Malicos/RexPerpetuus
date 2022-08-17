@@ -2,9 +2,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 188  166  93 } 
-
-revolutionary_colors = { 10  8  10 } #Tricolor of Mamluk Egypt
+color = { 187 0 0 }
 
 historical_score = 270
 
