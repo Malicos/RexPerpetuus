@@ -299,3 +299,6 @@ NRG = "countries/Nurgan.txt"
 ORO = "countries/Orochen.txt"
 SNG = "countries/Song.txt"
 URK = "countries/Uriankhai.txt"
+
+# India
+WGL = "countries/Warangal.txt"
