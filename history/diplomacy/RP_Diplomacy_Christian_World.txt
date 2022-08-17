@@ -661,6 +661,14 @@ vassal = {
 ####################################################################
 # 10 - Hungary
 ####################################################################
+# Union of Bohemia and Hungary
+union = {
+	first = BOH
+	second = HUN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Hungary and Banat
 vassal = {
 	subject_type = fiefdom_bt
