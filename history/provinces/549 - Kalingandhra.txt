@@ -1,8 +1,8 @@
 #549 - Kalingandhra
 
-owner = GRJ
-controller = GRJ
-add_core = GRJ
+owner = WGL
+controller = WGL
+add_core = WGL
 add_core = ORI
 culture = telegu
 religion = hinduism
