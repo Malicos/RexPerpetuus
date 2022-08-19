@@ -3,6 +3,7 @@
 owner = BNG
 controller = BNG
 add_core = BNG
+add_core = ORI
 culture = oriya
 religion = hinduism
 capital = "Balasore"

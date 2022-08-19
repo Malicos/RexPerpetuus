@@ -1,8 +1,7 @@
 #570 - Naga
 
-owner = ASS
-controller = ASS
-add_core = ASS
+owner = KAC
+controller = KAC
 add_core = KAC
 culture = chin
 religion = hinduism

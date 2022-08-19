@@ -3,6 +3,7 @@
 owner = BNG
 controller = BNG
 add_core = BNG
+add_core = ARK
 culture = bengali
 religion = hinduism #A good case could be made that this province was atleast 50% buddhist
 capital = "Chittagong"

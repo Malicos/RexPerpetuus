@@ -1,8 +1,7 @@
 #573 - Cachar
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = KAC
+controller = KAC
 add_core = KAC
 culture = chin
 religion = hinduism

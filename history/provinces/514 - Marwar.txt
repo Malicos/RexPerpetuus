@@ -1,8 +1,7 @@
 #514 - Marwar
 
-owner = MAM
-controller = MAM
-add_core = MAM
+owner = MAW
+controller = MAW
 add_core = MAW
 culture = rajput
 religion = hinduism

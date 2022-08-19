@@ -1,8 +1,7 @@
 #2091 - Tripura
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = TPR
+controller = TPR
 add_core = TPR
 culture = chin
 religion = hinduism

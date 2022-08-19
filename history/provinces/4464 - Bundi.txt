@@ -1,8 +1,7 @@
 #528 - Hadoti
 
-owner = MAM
-controller = MAM
-add_core = MAM
+owner = HAD
+controller = HAD
 add_core = HAD
 culture = rajput
 religion = hinduism
