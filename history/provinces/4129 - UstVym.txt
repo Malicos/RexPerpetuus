@@ -1,7 +1,7 @@
 #3286 - Pechora
 
-culture = russian
-religion = orthodox
+culture = komi
+religion = siberian_pagan_reformed
 capital = "Ust-Vym"
 trade_goods = fur
 hre = no

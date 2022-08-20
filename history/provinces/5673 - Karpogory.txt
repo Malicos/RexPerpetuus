@@ -1,7 +1,7 @@
 #New Beyond Typus Province
 
-culture = russian
-religion = orthodox
+culture = komi
+religion = siberian_pagan_reformed
 capital = "Karpogory"
 trade_goods = fur
 hre = no

@@ -1,7 +1,7 @@
 #4256 - Solvychegodsk
 
-culture = russian
-religion = orthodox
+culture = komi
+religion = siberian_pagan_reformed
 hre = no
 base_tax = 2 
 base_production = 2 

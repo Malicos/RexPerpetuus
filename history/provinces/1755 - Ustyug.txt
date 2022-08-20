@@ -2,8 +2,8 @@
 #Region - Russia
 #Area - Perm
 
-culture = russian 
-religion = orthodox
+culture = komi
+religion = siberian_pagan_reformed
 hre = no
 base_tax = 4 
 base_production = 6

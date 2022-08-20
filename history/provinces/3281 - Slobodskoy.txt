@@ -3,8 +3,8 @@
 owner = BOL
 controller = BOL
 add_core = BOL
-culture = russian
-religion = orthodox
+culture = uralic
+religion = siberian_pagan_reformed
 hre = no
 base_tax = 4 
 base_production = 4 

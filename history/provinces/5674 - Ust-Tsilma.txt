@@ -1,7 +1,7 @@
 #New Beyond Typus Province
 
 culture = samoyed
-religion = tengri_pagan_reformed
+religion = siberian_pagan_reformed
 capital = "Ust-Tsilma"
 trade_goods = unknown
 hre = no

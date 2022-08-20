@@ -3,7 +3,7 @@
 owner = PRM
 controller = PRM
 culture = uralic
-religion = tengri_pagan_reformed
+religion = siberian_pagan_reformed
 hre = no
 base_tax = 2 
 base_production = 2 

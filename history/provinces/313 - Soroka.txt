@@ -5,8 +5,8 @@
 owner = BJA
 controller = BJA 
 add_core = BJA
-culture = russian #116novogorodian
-religion = orthodox
+culture = komi
+religion = siberian_pagan_reformed
 hre = no
 base_tax = 2 
 base_production = 1 

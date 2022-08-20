@@ -113,6 +113,10 @@
  oghur:0 "Oghur"
  bolghar:0 "Bolghar"
  
+ #################
+ ###Finno-Ugric###
+ #################
+ komi:0 "Komi"
  ###########
  ###Other###
  ###########
@@ -725,6 +729,8 @@
  nangchos_religion_desc:0 "Buddhism in Tibet is known as Nangchos, or the Dharma of the Insiders. Within the Tibetan Empire, Vajrayana and Mahayana beliefs and practices synctretized with traditional Tibetan beliefs, practices, and deities, with varying schools also competing with each other for temporal control."
  nestorian:0 "Nestorian"
  nestorian_religion_desc:0 "In teaching that Jesus Christ has two natures, one divine and one human, Nestorianism has been declared as heretical by most Christian faiths. Despite this, its unique outlook has garnered followers in places as far east as China, India, and even Mongolia."
+ finnish_pagan_reformed:0 "Ukonusko"
+ finnish_pagan_reformed_religion_desc:0 "The veneration of nature and a profound respect for one's ancestors and their traditions are what define Finno-Ugric paganism. Held in high regard amongst adherents is "sisu," a Finnish concept of stoic determination, grit, bravery, and resilience."
  siberian_pagan_reformed:0 "Turumic"
  siberian_pagan_reformed_religion_desc:0 "Siberians believe in a horizontal world where men and beasts all live in clans, linked together through alliance or vengeance. Hunting is a core part of the equilibrium between taking and giving life, and with death all souls travel downstream to reincarnate in the clan they lived in previously."
  taoism: "Taoist"

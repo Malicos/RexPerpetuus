@@ -538,6 +538,10 @@ germanic = {
 	markish = {
 		primary = BRA
 	}
+	#RP Culture
+	luxembourgish_culture = {
+		primary = LUX
+	}	
 	female_names = {
 		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda
 		Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese
@@ -886,7 +890,7 @@ scandinavian = { #Nordic
 			"Vedel" "Bjelke" "Galle" "Griis"
 		}
 	}
-	#RPHotLV: Based on CK2Plus Culture (English Norse)
+	##RP Culture: Based on CK2Plus Culture (English Norse)
 	denlegian = {
 		graphical_culture = westerngfx
 		primary = DNL
@@ -906,7 +910,7 @@ scandinavian = { #Nordic
 			"Orgumleidi" "Folkmar" "Gauk" "Atli" "Hegg"
 		}
 	}
-	#RPHotLV: Based on CK2Plus Culture (Irish Norse)
+	##RP Culture: Based on CK2Plus Culture (Irish Norse)
 	gallwegian = {
 		graphical_culture = westerngfx
 		primary = DUB
@@ -1460,9 +1464,6 @@ latin = {
 	tuscan = {
 		primary = TUS
 	}
-	sardinian = {
-		primary = SAR
-	}
 	romagnan = {
 		primary = FER
 
@@ -1993,6 +1994,10 @@ french = {
 			Annick
 		}
 	}
+	#RP Culture
+	high_burgundian = {
+		primary = BUR
+	}	
 	#RP Culture
 	arelatian_culture = {
 		primary = BUR
@@ -2530,10 +2535,15 @@ finno_ugric = { #Ugric
 		graphical_culture = easterngfx
 		primary = LVA
 	}
-	#RPHotLV Culture
+	#RP Culture
 	mordvin = {
 		primary = MDV
 	}
+	#RP Culture
+	komi = {
+		primary = XXX
+	}
+	
 	dynasty_names = {
 		# CKII - Lappish
 		"Ubmeje" "Nuoráne" "Gájka" "Kaise" "Saiva" "Keite" "Sapmi" "Magga" "Guoládat"
@@ -3230,52 +3240,52 @@ byzantine = {
 	griko = {
 		graphical_culture = easterngfx
 	}
-	#RPHotLV Culture
+	#RP Culture
 	macedonian = {
 		graphical_culture = easterngfx
 		primary = MDN
 	}
-	#RPHotLV Culture
+	#RP Culture
 	thracian = {
 		graphical_culture = easterngfx
 		primary = TRC
 	}	
-	#RPHotLV Culture
+	#RP Culture
 	epirotan = {
 		graphical_culture = easterngfx
 		primary = EPI
 	}		
-	#RPHotLV Culture
+	#RP Culture
 	mikrasiatic = {
 		graphical_culture = easterngfx
 		primary = NIK
 	}	
-	#RPHotLV Culture
+	#RP Culture
 	moesian = {
 		graphical_culture = easterngfx
 		primary = PAI
 	}
-	#RPHotLV Culture
+	#RP Culture
 	dodecanesian = {
 		graphical_culture = easterngfx
 		primary = XXX #Needs new tag
 	}	
-	#RPHotLV Culture
+	#RP Culture
 	phrygian = {
 		graphical_culture = easterngfx
 		primary = XXX #Needs new tag
 	}	
-	#RPHotLV Culture
+	#RP Culture
 	pamphylian = {
 		graphical_culture = easterngfx
 		primary = ACN
 	}
-	#RPHotLV Culture
+	#RP Culture
 	galatian = {
 		graphical_culture = easterngfx
 		primary = GLT
 	}
-	#RPHotLV Culture
+	#RP Culture
 	imperial_bulgarian = { #For Rim
 		graphical_culture = easterngfx
 		primary = XXX #To be changed to whatever Rim's tag is (RIM?)
@@ -3302,12 +3312,12 @@ byzantine = {
 			"Krum" "Dulo" "Cometopuli" "Asen" "Terter" "Shishman" "Teleki"
 		}		
 	}	
-	#RPHotLV Culture
+	#RP Culture
 	hellas_culture = {
 		graphical_culture = easterngfx
 		primary = GRE
 	}
-	#RPHotLV Culture
+	#RP Culture
 	rhomaioi = { #Other Byzantine unifiers get this, merges Aegean, Moesian, Cappadocian, Pontic, Cypriot and Gothic
 		graphical_culture = easterngfx
 		primary = BYZ
@@ -3554,36 +3564,6 @@ caucasian = {
 			Tamari Tamar Taplo Tinatini Tsiala Vardo
 		}
 	}
-	#BtPLegacy Culture
-	cilician = {
-		primary = CIL
-		dynasty_names = {
-			Bagratuni Rubenid Pahlavuni
-			Tumanishvili Abamelik Amatuni "Argutinsky-Dolgorukov" Bebutov "Hasan-Jalalyan" Khojaminasishvili
-			Melikov Orbelid
-			#CK2
-			"Bagdazarian" "Melik-Avanyan"
-		}
-		male_names = {
-			David Mkhitar Ashot Gagik Smbat Abbas Hovhannes Smbat Vagram Musegh Sahak Tachar Arakel Ari Armen
-			Arshavir Avedis Badouagan Bedros Berjouhi Boghos Ghoukas Hagop Haig Hovhannes Hovsep Jirair Kapriel
-			Kevork Khajag Krikor Levon Movses Nairi Sevan Taniel Vahan Zadig Zoravan
-			Abas Abirad Aboughamr Aboulgharib Aleksandr Alexander Artashes Artashir Ardeshir Artavazd Arsen
-			Arshak Ashot Ashot Athom Atrnerseh Atrnerseh Avag Avedis Bagour Bagour Bagrat Bedros Peter
-			Boghos Paul Davit David Eshkhan Gagik Gagik Gevorg George Karayan
-			Gosdantin Constantine Grigor Gregory Gurgen Lupo Hagop Hamazasp Hethum Hovhannes John Hovsep
-			Joseph Ishkhan Ishkhan Ivane Kapriel Gabriel Khachik Khosrov Khosrau Levon Leo Malkhas Malkhas
-			Mamigon Manuel Manuel Margos Marcus Melek Mihrdat Mithridates Mikayel Michael Mleh Mushegh
-			Mushel Mzhezh Nerseh Narses Oshin Roupen Reuben Sahag Isaac Sarkis Sergius Sevag Shahanshah
-		}
-		female_names = {
-			Aghavni Alitz Alice Almasd Anahid Anna Anna Anoush Arda Arevig Arin Baydzar Berjanoush Berjouhi
-			Datevig Dalita Eliz Eloise Gadar Gorandoukht Gorandukht Hasmig Houri Hranoush Hripsimeh
-			Keghanoush Keran Khorishah Kohar Latavri Leyli Lousin Mara Margarid Margaret Maria Maria
-			Mariyam Mariam Meghranoush Nane Nazani Ovsanna Pounig Razmouhi Rita Satenik Satinik Seta Siran
-			Sirvart Srpouhi Shoushanig Takouhi Tamar Tamar Vartanoush Vartouhi Vosgi Yeva Zabel Elizabeth
-		}
-	}
 	dynasty_names = {
 		# CKII - Alan
 		"Burtasid" "Alauni" "Halani" "Shoana" "Senty" "Zmbalani" "Sathisi" "Totrazi" "Ovseti" "Tsaerasantae" "Aelbeg"
@@ -3593,7 +3573,7 @@ caucasian = {
 	}
 }
 
-armenian_group = {
+armenian_group = {	#RP Group
 	armenian = { #Vaspurakani (Central Armenian)
 		#graphical_culture = greekgfx
 		primary = ARM
@@ -4013,6 +3993,10 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
 		}
 	}
+	#RP Culture
+	siquli_culture = {
+		primary = SIC
+	}	
 }
 
 # RPHotLV: Iberian Muslim group
@@ -9820,6 +9804,14 @@ dravidian = {
 	}
 }
 
+andaman = {
+	graphical_culture = indiangfx
+
+	andamanese = {
+		primary = XXX
+	}
+}
+
 central_indic = {
 	graphical_culture = indiangfx
 
@@ -11004,6 +10996,30 @@ kamchatkan_g = {
 		}
 	}
 }
+oghur = {	#RP Culture Group
+	bolghar = {
+		primary = BOL
+		male_names = {
+			Almish Alzek Anzi Apskhih Araslan Asparukh Balamber Bars Bataul Batbayan Batoya
+			Batulia Bayan Belkermak Bezmer Boyan Bulger Buzan Chepa Chinialush Dengizikh Dizeng Dometa Dristar
+			Drong Dukum Ellak Elemag Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Irnek Isbul Islivan Isperikh
+			Ispor Kälaç Kano Karan Karaton Kardam Kharaton Khinialon Khudbard Kordil Kormesiy Kormisosh Kotrag
+			Krovat Krum Kuber Kubrat Kurt Kutrigur Kuvrat Labertam Magotin Malamir Mugel Odolgan Okhsi Okhsun
+			Okors Omurtag Onegavon Organ Organa Ornag Oshi Ostro Pagan Pakhtiyar Paväl Praksa Rassate
+			Rugila Sabin Sandil Sandilkh Sarkhan Sartäç Savin Sevar Shilki Sondoke Tähtaman Tarasiy Taridin Tatra
+			Telec Telerig Tervel Timër Timëreç Timërpälat Tingiz Tiradin Tokhtaman Toktu Tsog Tsul Tuk Umor
+			Uturgur Vakrim Venda Vetam Vinekh Yani Yavantey Yençepi Yerneslu Yeçtirek Zabergan Zenti Tukiy Aydar
+			Irkhan Batir
+		}
+		female_names = {
+			Çeçek Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek
+			Esin Gulçeçek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge Karacik Kätyarikka
+			Këlnissa Këlyamal Lärkka Lyukha Mala Maturkka Mutlu Naça Patiyer Paykëlti Peksen Puyantay Samur
+			Sarantay Sarä Sarica Sarikel Sati Savaçka Savkëlti Savtilek Savilay Savintik Shurkka
+			Sibel Sirin Sirma Songul Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek
+		}		
+	}
+}
 
 tartar = {
 	graphical_culture = muslimgfx
@@ -11876,7 +11892,7 @@ brythonic = {
 			Tamsyn Tegen Tregereth Tressa Trueth Wenna Ysella
 		}
 	}
-	#RPHotLV Culture
+	#RP Culture
 	cumbrian_culture = { #Using Highland Scottish namelist for now
 		primary = CBI
 		male_names = {
@@ -12286,7 +12302,8 @@ egyptian_group = {
 			"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti
 		}
 	}
-	sahidic = { #RPHotLV Culture
+	#RP Culture
+	sahidic = {
 		primary = KEM
 		dynasty_names = {
 			Thinis Memphis Abydos Herakleopolis Thebes Itjtawy Avaris Bubastis Sais
@@ -13813,6 +13830,9 @@ septrional_creoles = {
 }
 
 african_group = {
+	sardinian = {
+		primary = SAR
+	}
 	afri = {
 		primary = XXX
 		dynasty_names = {

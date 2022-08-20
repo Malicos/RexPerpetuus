@@ -2,7 +2,7 @@
 
 capital = "Pelym"
 culture = uralic
-religion = tengri_pagan_reformed #Sami Shamanism
+religion = siberian_pagan_reformed #Sami Shamanism
 trade_goods = unknown
 hre = no
 base_tax = 2  

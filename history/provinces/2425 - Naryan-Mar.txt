@@ -1,7 +1,7 @@
 #2425 - Naryan-Mar
 
 culture = samoyed
-religion = tengri_pagan_reformed
+religion = siberian_pagan_reformed
 capital = "Telviska"			#Temp name, look for better later
 trade_goods = unknown
 hre = no
