@@ -670,7 +670,7 @@
  THG:0 "Thalang"
  THG_ADJ:0 "Thalangian"
  TNS:0 "Tenasserim"
- TNS)ADJ:0 "Tenasserimian"
+ TNS:ADJ:0 "Tenasserimian"
  XTG:0 "Xieng Thong"
  XTG_ADJ:0 "Xieng Thong"
  
