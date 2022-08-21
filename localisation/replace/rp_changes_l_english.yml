@@ -89,6 +89,14 @@
  ###Xubic###
  altaic:0 "Zubic"
  
+ #################
+ ###Finno-Ugric###
+ #################
+ ###Finnic###
+ finno_ugric:0 "Finnic"
+ ###Sami###
+ sapmi:0 "Davvisamegiella"
+ 
  ###########
  ###Other###
  ###########

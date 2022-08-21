@@ -2341,7 +2341,7 @@ occitanic = { #Names taken from Occitan Renaissance, by Perry
 	}	
 }
 
-finno_ugric = { #Ugric
+finno_ugric = { #Finnic
 	graphical_culture = westerngfx
 
 	finnish = {
@@ -2374,32 +2374,6 @@ finno_ugric = { #Ugric
 			Tuulitar Talvikki
 		}
 	}
-	sapmi = {
-		primary = SMI
-		male_names = {
-			Baeivvet Biejan Bijás Bilzi Dávgon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatõiv
-			Hoovatõiv Hurmas Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Tõnn Uku Vootele Väino Värvo Õigemeel Ülo Küllelemb
-			Leetõiv Lembit Leppetõiv Lible Vambola Vandemeel Varjelemb Veli Vello Venno Vesse Vihavald Vililemb Vilimeel Andyamo
-			Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg Arnaz Arti Artis Arvo Aymort
-			Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka
-			Pyera Rateg Rayda Sarin Sektev Dobrinya Erziya Inzhay Kezhapa Kezhay Kezhedey Kezhevat Kichay Kubrat Malyaka Malyy
-			Koshel Murunza Naruchad Nishkepaz Orunza Puresh Purysho Saksa Shkay Surt Tul Tunya Tutyra
-		}
-		female_names = {
-			Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá Seará Soabá Sojá Suoinná Suonjar Uksáhkká Maija Mari Marja Meeli
-			Niine Ninni Oie Pilve Päivi Põim Salme Sirje Säde Taimi Talvi Heli Helina Helmi Helve Hiie Hämarik Hüüp Ida Ilme
-			Ilmi Ilo Kai Kaili Kaja Kalli Kare Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava
-			Yalgava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka
-			Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa Sernyava
-			Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka
-			Tekay
-		}
-		dynasty_names = {
-			Ubmeje Nuoráne Gájka
-			Magga Guoládat Yugra
-			Kaise Saiva
-		}
-	}
 	karelian = {
 		primary = KRL
 		male_names = {
@@ -2416,50 +2390,6 @@ finno_ugric = { #Ugric
 			Sanal'ka Sangasa Sernyava Serzhay Setyamka Seyamka Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka
 			Syryava Tatka Tekay Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava
 			Virtyava Yalgava Litova Mastorava Noroava
-		}
-	}
-	uralic = {
-		primary = PRM
-		male_names = {
-			Mikhail Yermolay Matvey Vasiley Pitirim Gerasim Isaak Iona Volod Gavril Yegor Ivan Mikulay Petyr
-			Kos'ta Öndrey Stepan Ölyöksey Boris Danil Dmitry Pedot Illya Segö Semö Pedör
-		}
-		female_names = {
-			Nasta Katyö Ölga
-		}
-	}
-	samoyed = {
-		male_names = {
-			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay
-			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne
-			Yar Yavlad Yurak Pudak Yapti
-		}
-		female_names = {
-			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
-		}
-		dynasty_names = {
-			# CKII
-			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
-		}
-	}
-	ostyaki = {
-		male_names = {
-			Ággi Áigesárri Áilu Ámmot Ára Árrajuoksa Ásllat Èoavvá Ahkemiella Algebaeivi Baeivi Aare Agul Ahas Aho Ahti Ahvo
-			Alar Alo Alur Aopelg Aotõiv Arp Arvet Arvo Atko Aul Aulemb Kaur Kiur Kiurupelg Koit Kosk Kudres Susi Sutemeel Meigo
-			Neeme Niglas Vilitõiv Vilivald Tasulemb Toivo Toom Tunne Tutkas Tuul Tõeleid Tõiv Tõivulemb Tõll Urmas Uru Valdur
-			Kezhevat Kichay Koksha Kuaz Kudym-Osh Kya Kyldysin Malyaka Malyy Meltsayka Mosheg Nalka Turush Uchva Varaka Vechkas
-			Velmayka Virdyan Viryas Viryay Vokan Yirkap Ylvan Andyamo Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar
-			Oshypel Ovtay Ozheg Ozhmeg Zhebeg Zhuneg Zyryan Zarny Zhebeg Zhuneg Zyryan Andyamo Chichayka Chumbulat Dergun Deryab
-			Uchva Varaka Vechkas Velmayka Virdyan Viryas Viryay Atyamas Azyren Chipaz Kardaz Kinyak
-		}
-		female_names = {
-			Áidná Álgen Állet Èuvje Biellá Biergá Buohttá Duojá Gealá Gierá Giste Juoksáhkká Leandu Kati Kiir Kiire Killu Käbi
-			Lagle Laine Lee Leek Leelo Leili Lemme Liis Lill Linda Luule Elyuva Inyava Kanyava Kanyuva Kirdyava Kunava Kunyavka
-			Litava Liyava Mazava Megurka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka Tekay Tetyava Tikshayka
-			Toyaksha Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa
-			Sernyava Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Yugörka Anava Ashava Asrava Avya Azra-Va
-			Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva Inyava Kanyava Kanyuva Kirdyava
-			Kunava Kunyavka Litava
 		}
 	}
 	ingrian = {
@@ -2536,14 +2466,14 @@ finno_ugric = { #Ugric
 		primary = LVA
 	}
 	#RP Culture
-	mordvin = {
-		primary = MDV
-	}
-	#RP Culture
 	komi = {
 		primary = XXX
 	}
-	
+	#RP Culture
+	vepsian = {
+		primary = XXX
+	}
+	#RP Culture
 	dynasty_names = {
 		# CKII - Lappish
 		"Ubmeje" "Nuoráne" "Gájka" "Kaise" "Saiva" "Keite" "Sapmi" "Magga" "Guoládat"
@@ -2553,6 +2483,169 @@ finno_ugric = { #Ugric
 	}
 }
 
+sami = {	#From Atlas Novum
+	graphical_culture = inuitgfx
+	sapmi = {	#davvisamegiella or North Sami
+		male_names = {
+			Baeivvet Biejan Bijás Bilzi Dávgon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatõiv
+			Hoovatõiv Hurmas Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Tõnn Uku Vootele Väino Värvo Õigemeel Ülo Küllelemb
+			Leetõiv Lembit Leppetõiv Lible Vambola Vandemeel Varjelemb Veli Vello Venno Vesse Vihavald Vililemb Vilimeel Andyamo
+			Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg Arnaz Arti Artis Arvo Aymort
+			Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka
+			Pyera Rateg Rayda Sarin Sektev Dobrinya Erziya Inzhay Kezhapa Kezhay Kezhedey Kezhevat Kichay Kubrat Malyaka Malyy
+			Koshel Murunza Naruchad Nishkepaz Orunza Puresh Purysho Saksa Shkay Surt Tul Tunya Tutyra
+		}
+		female_names = {
+			Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá Seará Soabá Sojá Suoinná Suonjar Uksáhkká Maija Mari Marja Meeli
+			Niine Ninni Oie Pilve Päivi Põim Salme Sirje Säde Taimi Talvi Heli Helina Helmi Helve Hiie Hämarik Hüüp Ida Ilme
+			Ilmi Ilo Kai Kaili Kaja Kalli Kare Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava
+			Yalgava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka
+			Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa Sernyava
+			Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka
+			Tekay
+		}
+	}	
+	sjosamer = {	#Sea Sami or Norse Sami
+		primary = SSM
+		male_names = {
+			Baeivvet Biejan Bijás Bilzi Dávgon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatõiv
+			Hoovatõiv Hurmas Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Tõnn Uku Vootele Väino Värvo Õigemeel Ülo Küllelemb
+			Leetõiv Lembit Leppetõiv Lible Vambola Vandemeel Varjelemb Veli Vello Venno Vesse Vihavald Vililemb Vilimeel Andyamo
+			Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg Arnaz Arti Artis Arvo Aymort
+			Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka
+			Pyera Rateg Rayda Sarin Sektev Dobrinya Erziya Inzhay Kezhapa Kezhay Kezhedey Kezhevat Kichay Kubrat Malyaka Malyy
+			Koshel Murunza Naruchad Nishkepaz Orunza Puresh Purysho Saksa Shkay Surt Tul Tunya Tutyra
+		}
+		female_names = {
+			Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá Seará Soabá Sojá Suoinná Suonjar Uksáhkká Maija Mari Marja Meeli
+			Niine Ninni Oie Pilve Päivi Põim Salme Sirje Säde Taimi Talvi Heli Helina Helmi Helve Hiie Hämarik Hüüp Ida Ilme
+			Ilmi Ilo Kai Kaili Kaja Kalli Kare Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava
+			Yalgava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka
+			Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa Sernyava
+			Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka
+			Tekay
+		}
+	}	
+	nuorttsaa = {	#East or Kola Sami
+		male_names = {
+			Baeivvet Biejan Bijás Bilzi Dávgon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatõiv
+			Hoovatõiv Hurmas Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Tõnn Uku Vootele Väino Värvo Õigemeel Ülo Küllelemb
+			Leetõiv Lembit Leppetõiv Lible Vambola Vandemeel Varjelemb Veli Vello Venno Vesse Vihavald Vililemb Vilimeel Andyamo
+			Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg Arnaz Arti Artis Arvo Aymort
+			Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka
+			Pyera Rateg Rayda Sarin Sektev Dobrinya Erziya Inzhay Kezhapa Kezhay Kezhedey Kezhevat Kichay Kubrat Malyaka Malyy
+			Koshel Murunza Naruchad Nishkepaz Orunza Puresh Purysho Saksa Shkay Surt Tul Tunya Tutyra
+		}
+		female_names = {
+			Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá Seará Soabá Sojá Suoinná Suonjar Uksáhkká Maija Mari Marja Meeli
+			Niine Ninni Oie Pilve Päivi Põim Salme Sirje Säde Taimi Talvi Heli Helina Helmi Helve Hiie Hämarik Hüüp Ida Ilme
+			Ilmi Ilo Kai Kaili Kaja Kalli Kare Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava
+			Yalgava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka
+			Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa Sernyava
+			Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka
+			Tekay
+		}
+	}
+	aarjelsaemia = {	#South Sami
+		male_names = {
+			Baeivvet Biejan Bijás Bilzi Dávgon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatõiv
+			Hoovatõiv Hurmas Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Tõnn Uku Vootele Väino Värvo Õigemeel Ülo Küllelemb
+			Leetõiv Lembit Leppetõiv Lible Vambola Vandemeel Varjelemb Veli Vello Venno Vesse Vihavald Vililemb Vilimeel Andyamo
+			Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg Arnaz Arti Artis Arvo Aymort
+			Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka
+			Pyera Rateg Rayda Sarin Sektev Dobrinya Erziya Inzhay Kezhapa Kezhay Kezhedey Kezhevat Kichay Kubrat Malyaka Malyy
+			Koshel Murunza Naruchad Nishkepaz Orunza Puresh Purysho Saksa Shkay Surt Tul Tunya Tutyra
+		}
+		female_names = {
+			Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá Seará Soabá Sojá Suoinná Suonjar Uksáhkká Maija Mari Marja Meeli
+			Niine Ninni Oie Pilve Päivi Põim Salme Sirje Säde Taimi Talvi Heli Helina Helmi Helve Hiie Hämarik Hüüp Ida Ilme
+			Ilmi Ilo Kai Kaili Kaja Kalli Kare Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava
+			Yalgava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka
+			Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa Sernyava
+			Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka
+			Tekay
+		}
+	}		
+	kainuunsaame = {
+		male_names = {
+			Baeivvet Biejan Bijás Bilzi Dávgon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatõiv
+			Hoovatõiv Hurmas Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Tõnn Uku Vootele Väino Värvo Õigemeel Ülo Küllelemb
+			Leetõiv Lembit Leppetõiv Lible Vambola Vandemeel Varjelemb Veli Vello Venno Vesse Vihavald Vililemb Vilimeel Andyamo
+			Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg Arnaz Arti Artis Arvo Aymort
+			Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka
+			Pyera Rateg Rayda Sarin Sektev Dobrinya Erziya Inzhay Kezhapa Kezhay Kezhedey Kezhevat Kichay Kubrat Malyaka Malyy
+			Koshel Murunza Naruchad Nishkepaz Orunza Puresh Purysho Saksa Shkay Surt Tul Tunya Tutyra
+		}
+		female_names = {
+			Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá Seará Soabá Sojá Suoinná Suonjar Uksáhkká Maija Mari Marja Meeli
+			Niine Ninni Oie Pilve Päivi Põim Salme Sirje Säde Taimi Talvi Heli Helina Helmi Helve Hiie Hämarik Hüüp Ida Ilme
+			Ilmi Ilo Kai Kaili Kaja Kalli Kare Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava
+			Yalgava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka
+			Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa Sernyava
+			Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka
+			Tekay
+		}
+	}			
+	dynasty_names = {
+			Ubmeje Nuoráne Gájka
+			Magga Guoládat Yugra
+			Kaise Saiva
+			"Ubmeje" "Nuoráne" "Gájka" "Kaise" "Saiva" "Keite" "Sapmi" "Magga" "Guoládat"
+			"Azegid" "Gachegid" "Zhebegid" "Lunegid" "Zhunegid" "Irtegid" "Moshegid" "Nydogid" "Nylogid" "Ozhegid" "Odegid"
+			"Rategid" "Permyakid" "Yugra" "Syktyvkar"
+	}
+}
+
+ugric = {	#RP Culture Group
+	uralic = {
+		primary = PRM
+		male_names = {
+			Mikhail Yermolay Matvey Vasiley Pitirim Gerasim Isaak Iona Volod Gavril Yegor Ivan Mikulay Petyr
+			Kos'ta Öndrey Stepan Ölyöksey Boris Danil Dmitry Pedot Illya Segö Semö Pedör
+		}
+		female_names = {
+			Nasta Katyö Ölga
+		}
+	}
+	samoyed = {
+		male_names = {
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne
+			Yar Yavlad Yurak Pudak Yapti
+		}
+		female_names = {
+			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
+		}
+	}
+	ostyaki = {
+		male_names = {
+			Ággi Áigesárri Áilu Ámmot Ára Árrajuoksa Ásllat Èoavvá Ahkemiella Algebaeivi Baeivi Aare Agul Ahas Aho Ahti Ahvo
+			Alar Alo Alur Aopelg Aotõiv Arp Arvet Arvo Atko Aul Aulemb Kaur Kiur Kiurupelg Koit Kosk Kudres Susi Sutemeel Meigo
+			Neeme Niglas Vilitõiv Vilivald Tasulemb Toivo Toom Tunne Tutkas Tuul Tõeleid Tõiv Tõivulemb Tõll Urmas Uru Valdur
+			Kezhevat Kichay Koksha Kuaz Kudym-Osh Kya Kyldysin Malyaka Malyy Meltsayka Mosheg Nalka Turush Uchva Varaka Vechkas
+			Velmayka Virdyan Viryas Viryay Vokan Yirkap Ylvan Andyamo Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar
+			Oshypel Ovtay Ozheg Ozhmeg Zhebeg Zhuneg Zyryan Zarny Zhebeg Zhuneg Zyryan Andyamo Chichayka Chumbulat Dergun Deryab
+			Uchva Varaka Vechkas Velmayka Virdyan Viryas Viryay Atyamas Azyren Chipaz Kardaz Kinyak
+		}
+		female_names = {
+			Áidná Álgen Állet Èuvje Biellá Biergá Buohttá Duojá Gealá Gierá Giste Juoksáhkká Leandu Kati Kiir Kiire Killu Käbi
+			Lagle Laine Lee Leek Leelo Leili Lemme Liis Lill Linda Luule Elyuva Inyava Kanyava Kanyuva Kirdyava Kunava Kunyavka
+			Litava Liyava Mazava Megurka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka Tekay Tetyava Tikshayka
+			Toyaksha Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa
+			Sernyava Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Yugörka Anava Ashava Asrava Avya Azra-Va
+			Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva Inyava Kanyava Kanyuva Kirdyava
+			Kunava Kunyavka Litava
+		}
+	}
+	#RP Culture
+	mordvin = {
+		primary = MDV
+	}
+}
 south_slavic = {
 	graphical_culture = easterngfx # Brian; BT westerngfx
 

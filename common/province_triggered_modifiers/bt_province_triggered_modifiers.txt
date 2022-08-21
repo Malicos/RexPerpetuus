@@ -123,8 +123,8 @@ bt_birkarls = {
 		}
 	}
 	trigger = {
-		culture = sapmi
-		religion = animism
+		culture_group = sami
+		religion = finnish_pagan_reformed
 		is_state = yes
 		owner = {
 			NOT = {

@@ -108,7 +108,6 @@
  tariat:0 "Tariat"
  barlas:0 "Barlas"
  alukhai:0 "Alukhai"
- mordvin:0 "Mordvin"
  ###Oghur###
  oghur:0 "Oghur"
  bolghar:0 "Bolghar"
@@ -116,7 +115,19 @@
  #################
  ###Finno-Ugric###
  #################
+ ###Finnic###
  komi:0 "Komi"
+ vepsian:0 "Vepsian"
+ ###Sami###
+ sami:0 "Sami"
+ sjosamer:0 "Sjosamer"
+ nuorttsaa:0 "Nuorttsaa"
+ aarjelsaemia:0 "Aarjelsaemia"
+ kainuunsaame:0 "Kainuunsaame"
+ ###Ugric###
+ ugric:0 "Ugric"
+ mordvin:0 "Mordvin"
+ 
  ###########
  ###Other###
  ###########

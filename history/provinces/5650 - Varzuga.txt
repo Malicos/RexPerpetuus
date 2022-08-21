@@ -3,7 +3,7 @@
 owner = BJA
 controller = BJA
 add_core = BJA
-culture = sapmi
+culture = nuorttsaa
 religion = finnish_pagan_reformed
 capital = "Varzuga"			#Appears to date to around the 1430s to the 1440s
 trade_goods = fur
