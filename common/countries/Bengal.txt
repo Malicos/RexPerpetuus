@@ -2,9 +2,7 @@
 
 graphical_culture = indiangfx
 
-color = { 36  109  194 }
-
-revolutionary_colors = { 9 5 9 }
+color = { 30 180 180 }
 
 historical_idea_groups = {
 	trade_ideas
