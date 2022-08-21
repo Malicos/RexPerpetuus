@@ -3,7 +3,7 @@
 owner = SMG
 controller = SMG
 add_core = SMG
-culture = lithuanian		#Major centre of Lithuanian culture in an predominantly German region. First ever book in Lithuanian published circa 
+culture = samogitian		#Major centre of Lithuanian culture in an predominantly German region. First ever book in Lithuanian published circa 
 religion = catholic
 capital = "Ragnit"			#Now known of Neman. The neighbouring Tilsit, now known as Sovetsk (growing around 1288 Teutonic castle Schalauer Haus) grew to be fairly larger and more important in later periods, though it seems like for both 1291 and 1444 strart Ragnit was still more important.
 base_tax = 5

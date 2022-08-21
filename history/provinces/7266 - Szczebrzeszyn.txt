@@ -3,7 +3,7 @@
 owner = VOL
 controller = VOL 
 add_core = VOL
-culture = cherven
+culture = halych
 religion = orthodox
 capital = "Szczebrzeszyn"
 base_tax = 1

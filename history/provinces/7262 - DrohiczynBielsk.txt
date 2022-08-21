@@ -3,7 +3,7 @@
 owner = HRO
 controller = HRO
 add_core = HRO
-culture = polesian
+culture = ruthenian
 religion = orthodox
 capital = "Bielsk"			#and Drohiczyn, of similar importance it appears
 base_tax = 2

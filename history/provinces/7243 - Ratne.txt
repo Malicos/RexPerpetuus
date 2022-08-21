@@ -3,7 +3,7 @@
 owner = VOL
 controller = VOL 
 add_core = VOL
-culture = polesian
+culture = ruthenian
 religion = orthodox
 capital = "Ratne"
 base_tax = 2

@@ -3239,7 +3239,43 @@ east_slavic = {
 		}
 	}
 	vologdan = {
-		
+		male_names = {
+			Vasiliy Ivan Dmitriy Yuriy Andrei Semen Fyodor Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy
+			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy
+			Onisim Pavel Prokopiy Pyotr Radomir Saveliy Sergei Terentiy Valeriy Yakim Yevgeniy
+			Afanasiy Athanasius Alexandr Alexander Alexei Alexis Andrei Andrew Boris Briachislav
+			Bretislaus Nikifor
+			Daniil Daniel Davyd David Demid Dmitriy Demetrius Dobrynia Fedot Theodat Feodor Theodore
+			Gavriil Gabriel Gleb
+			Grigoriy Gregory Iakov Jacob Igor Iliya Ingvar Ingvar Ivan John Iziaslav Kirill Cyril
+			Konstantin Constantine Koz'ma Cosma Lev Leo Matfei Matthew Mikhail Michael Mitrofan
+			Mstislav Nikita Oleg Helge Pavel Paul Putiata Radoslav Rodislav Rogvolod Roman
+			Rostislav Rurik
+			Rurik Ruslan Simeon Simon Stanislav Stanislav Stepan Stephen Sudislav
+			Svetozar Sviatopolk Svatopluk Sviatoslav Sviatoslav Terentiy Trifon Vasiliy Basil Vasilko
+			Viacheslav Vladimir Vladimir Vladislav Vladislav Voislav Volodar Vseslav
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Jaroslav Yefimiy Yelisey Yemelyan Emil Yeremey
+			Yevstafiy Yuriy George
+		}
+		female_names = {
+			Agafya Agatha Agrafena Alexandra Anastasia Anastasia Anna Anna Boleslava Darya Dobrava
+			Dobronega Dobroslava Yefimia Euphemia Yefrosinia Euphrosyne Yekaterina Catherine
+			Yelizaveta Elisabeth Yevdokia Eudocia Yevpraxia Feodora Theodora Feodosia Theodosia
+			Fevronia Gorislava Gradislava Gremislava Irina Irene Xenia Liubava
+			Liudmila Malfrida Malusha Maria Maria Marina Olena Helen Olga Pereyaslava Praskovya Praxida
+			Prebrana Predslava Premyslava Svetlana Yuliya
+			Pribislava Rogneda Rostislava Sbyslava Sofia Sophia Sviatoslava Tatyana Ulita Ulyana
+			Varvara Vasilisa Veleslava Verkhoslava Vseslava Viacheslava Yaroslava Zabava Zvenislava
+		}
+		dynasty_names = {
+			Rurikovich Godunov Shuisky Romanov Sheremetev Golitsyn Naryshkin Khilkov Gorchakov
+			Belosselsky Chelyadnin Potyomkin Poloch Izbor Tversky Lukisky Pleskov Toropetsky Dukhovsky
+			Koroviev Woland Tyvertsky Buzhansky Slutsky Pinesky Zhytomyrsky Vynnytsky Polan Ulich Drevl
+			Lyubech Roslavsky Turov
+			Dolgorukov Gagarin Galitzine Massalski Shuysky Gantimurov Sibirsky
+			# CKII
+			Demidov Lopukhin Tolstoy "Lobanov-Rostovsky" Menshikov Obolensky
+		}
 	}
 	rusyn = {
 		#primary = KIE
@@ -3254,30 +3290,11 @@ east_slavic = {
 			Gavriila Larisa Aleksandra Alla Bronislava Svetlana Yuliya Yaroslava Vladislava Lyudmila Nadejda Rostislava
 		}
 	}
-	polesian = {
-		#primary = KIE
-		male_names = {
-			Ivan Dmitriy Yuriy Andrei Semen Boris Fyodor Oleg Afanasiy Akim Aleksandr Alexei Anatoliy Arkadiy
-			Dorofey Feodosiy Feofilakt Gavriil Innokentiy Iosif Lavrentiy Makariy Matveiy Mikhail Nazariy
-			Onisim Pavel Prokopiy Pyotr Radomir Saveliy Sergei Terentiy Valeriy Yakim Yevgeniy Yaroslav Yaropolk
-			Vyacheslav Vsevolod Igor Izyaslav Rostislav Vladimir Mstislav Gleb Roman Ryurik Svyatoslav Ingvar 	
-			Stanislav Daniil Nikifor
-		}
-		female_names = {
-			Gavriila Larisa Aleksandra Alla Bronislava Svetlana Yuliya Yaroslava Vladislava Lyudmila Nadejda Rostislava
-		}
-	}
-	podolian = {
-		#primary = PDL
-	}
-	volhynian = {
-		#primary = VOL
-	}
 	halych = { #Halych/Galician
 		primary = VOL
 	}
-	cherven = { 
-		#primary = VOL
+	litvin = { #Rusified Lithuanians
+	
 	}
 	dynasty_names = {
 		Rurikovich Godunov Shuisky Romanov Sheremetev Golitsyn Naryshkin Khilkov Gorchakov
@@ -3354,29 +3371,50 @@ baltic = {
 	}
 	#Moved from lost cultures
 	pruthenian = {
-		male_names = {
-		Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas
-		Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
-		Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas
-		Karijotas Kesgaila Kestutis Korigaila Korybutas
-		Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas
-		Narimantas Povilas Pukuveras Rimantas
-		Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas
-		Traidenis Treniotas Vainius Vaisvilkas Valimantas Zygimantas
-		Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas
+		male_names = {	#CI Namelist; #SmartGuy725
+			Ata Aldegutis Algands Algerds Alnukis Alsutis Angaldis Angots Antiks Antavs Astinis Auktuma Auleps
+			Austigaudis Audangs Augaldis Ausis Asoverts Augulinis Alvareins Besdens Balinis Bitelis Buliks
+			Baidots Baisus Bajuns Bigedis Besvais Blivas Brauligs Buts Butilabs Bauds Baitis Barduns Baidiks
+			Baiduns Bandus Bandekis Banduns Bundiks Bunds Butekis Belavs Bongands Bingus Dargs Daguns Druktinis
+			Debikans Dabors Dabots Dabnus Dinguns Daristis Dargelis Daukants Dirs Dirsuns Druneiks Drauds Eikants
+			Eikuns Eitvids Eitiavs Eitmants Ervids Erdvas Erdetis Erbuts Erdangs Gerutis Gaudekis Gevinis
+			Gestekis Geikints Glauds Glands Glupas Glaubuts Gundeinis Grins Grandans Grazutis Gailmenis Gailiks
+			Gailinis Gads Gands Gandikis Garbs Gardekis Gastams Gedilgs Gedekis Gedauts Gedimts Gintauts Genebuts
+			Gintilis Gerkants Gerstutis Geras Girdavs Girduns Gelbirs Glabuns Galdis Gubiks Gudenis Guds Glabis
+			Girdilis Isgubs Isprats Istuts Isteis Jodas Jodutis Jaunestants Jaunegeids Jundelis Kalneins Kopsavs
+			Kantegerds Kaunis Katulis Kurviks Krakis Krauklis Kranklis Kaibuts Kants Kirsnans Kersus Karialinis
+			Kropolinis Klaugenis Kaltints Kalts Kariotis Kantuns Kirpeins Klausils Kodruns Koglands Kolangis
+			Kotulans Kodravs Kruteinis Kamuns Komaters Klausigailis Klokis Kadagis Kusys Kavaldis Kenervis
+			Ligedis Likuts Lokavs Linkas Lunkans Lunkytis Langedabs Langestants Lamotis Lemekins Lutis Madlits
+			Mauds Menkas Mazas Mantedruvis Mantimants Mantemenis Mingerds Mingaudis Milgaudis Milgeids Mains
+			Makrutus Manits Mindots Mants Mantekis Maustais Mastuns Munts Mundravs Merekis Mils Miluns
+			Misligentis Medeniks Medis Makis Nakalnis Naglands Nakaimis Nisdruvis Nodats Nodabs Nausetis Nobands
+			Nabuts Nadars Napragands Napragaudis Napragavs Napradavs Nirglands Nagribs Nakais Nakunts Nalabis
+			Naligs Nalubs Nermukis Nameris Nadingis Naprats Nergunds Navaldis Navekis Naverts Nauds Naudots
+			Nautints Nids Napals Nakvytis Narvais Nerveiks Naturis Posils Perapa Ponats Preibuts Peluks Pagaulus
+			Palaidus Pasutelis Pausta Paustilis Piktas Presiniks Pasergis Paituns Perbands Plovons Pobravs Pomeds
+			Poviltis Preides Preidruvis Podangs Preidaris Preituris Preiviltis Preives Poglabuns Pograzus
+			Prestlangis Prestvils Preimukis Pomants Permauds Pomenis Pomeris Ponids Pasauts Podars Pakelis Papuls
+			Pansdoprats Peniks Pensuds Perviltis Perveis Preitungis Kvetka Kveibuts Kveidangs Kveilangis Kveikais
+			Kveimislis Kveis Kveirams Redavs Regs Robutis Runkaimis Ruts Ringelis Rodas Redvils Redetis Sabuns
+			Sonikis Slaiks Skretins Sankuns Semas Semutis Sambangs Sanimts Sangavs Sangailis Sanglavs Sanglands
+			Santaps Sanzengs Santuns Surimts Spairots Spaitins Stangus Stirnis Surteiks Svaikaits Svaimislis
+			Svaiprats Sveikis Svirplis Svaidabs Surdots Surglands Surbands Surkrutus Stainbuts Stainilgs Stainiks
+			Stainavs Stainegaudis Surgaudis Svirgaudis Svaigaudis Surmenis Skarduns Skuma Skumants Skarbetis
+			Skaudegeids Skauds Skaudetis Spandetis Spruds Stants Stantekis Statuns Stebinis Skolinis Stigots Suds
+			Svidus Sinteis Satinkis Survils Sovids Svaidargs Skelants SkirisTulks Tistikis Taurinis Tutlis
+			Teisots Teisinis Tavis Tirskaimis Tlokutis Tramotis Trinta Trumpas Tulnekis Tungis Tungots Tungebuts
+			Tvirbuts Tulans Tuldruvis Tuldraugs Tultarps Tulgerds Tulgaudis Tulvirds Tulkants Tulbuts Tautgailis
+			Tulklaus Tultungis Tulmenis Tulsvidus Tulkaits Talnits Talpits Tarps Tautvils Temprbuts Teikuns
+			Tulnegeids Tustotis Tulvais Tautvaldis Tingus Vaiks Vargulis Varguzis Varpuns Vailubs Voikelis
+			Vesalins Viltauts Vismislis Vismants Vadula Visbuts Visredis Virgaudis Visgaudis Visgars Viskants
+			Vislutis Vistrints Vaigailis Visvils Viluns Vertelis Vaidens Vaidots Viltis Veniks Vindikis Viruks
+			Visdargs Visgailis Visekis Visbels Vareins Zalas Zalvitis Zints Zuklis Zaduns Zandavs Zandutis
+			Zangavis Zangs Zvilgis
 		}
 		female_names = {
-			Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna
-			Mikova Roze Saule Svajone Vida Laima
-		}
-		dynasty_names = {
-			Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
-			# CKII
-			"Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan"
-			"Jankowskie" "Konopacki" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
-			# Ugric Baltic
-			"Karasi" "Ingrija" "Revala" "Virumaa" "L‰‰nemaa" "Ingeri" "Livo" "Harjumaa"
-			"Ridala" "Saaremaa" "Vaiga" "Turaida"
+			Baide Barisla Buite Kazarie Druva Jerusa Grasute Makine Nameda Namege Patulne Trichoine
+			Vikele
 		}
 	}
 	#BtPLegacy Culture
@@ -3396,7 +3434,10 @@ baltic = {
 			Smilte Sofija Solveiga Svajone Tatjana Ugne Urte Valerija Veronika Viktorija Vilhelmina Viltaute Vilte Vita Vitalija
 		}
 	}
-
+	#RP Culture
+	samogitian = {
+		primary = SMG
+	}
 	male_names = {
 		Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas
 		Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
@@ -4213,7 +4254,7 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 	}	
 }
 
-# RPHotLV: Iberian Muslim group
+#RP Culture Group: Iberian Muslim group
 moorish = {
 	#BtPLegacy Culture - formerly part of BT's Arabic/Levantine
 	andalusi_culture = {

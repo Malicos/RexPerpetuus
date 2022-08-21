@@ -55,12 +55,12 @@
  pomor:0 "Pomor"
  cossack:0 "Cossack"
  vologdan:0 "Vologdan"
- polesian:0 "Polesian"
- podolian:0 "Podolian"
- volhynian:0 "Volhynian"
  halych:0 "Halych"
- cherven:0 "Cherven"
  rusyn:0 "Rusyn"
+ litvin:0 "Litvin"
+ ###Baltic###
+ samogitian:0 "Samogitian"
+ 
  ###Hellenic###
  macedonian:0 "Macedonian"        # Hellenic Warlords
  thracian:0 "Thracian"            # Hellenic Warlords

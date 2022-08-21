@@ -3,7 +3,7 @@
 owner = KIE
 controller = KIE
 add_core = KIE
-culture = volhynian
+culture = ruthenian
 religion = orthodox
 capital = "Ostrog"			#Also the probably more important Iziaslav, though it was under the authority of Ostrog for much of the period so sticking with that
 base_tax = 3

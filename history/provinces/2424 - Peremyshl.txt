@@ -3,7 +3,7 @@
 owner = VOL
 controller = VOL 
 add_core = VOL
-culture = cherven
+culture = halych
 religion = orthodox
 hre = no
 base_tax = 2

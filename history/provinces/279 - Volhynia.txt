@@ -5,7 +5,7 @@
 owner = KIE
 controller = KIE
 add_core = KIE
-culture = volhynian
+culture = ruthenian
 religion = orthodox
 hre = no
 base_tax = 2 
