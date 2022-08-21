@@ -9,8 +9,8 @@ owner = ARM
 controller = ARM
 
 #Demographics
-culture = turkoman
-religion = sunni
+culture = arevmdian
+religion = apostolic
 
 #Development and Trade
 base_tax = 2

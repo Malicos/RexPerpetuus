@@ -5,7 +5,7 @@
 owner = PSK
 controller = PSK
 add_core = PSK
-culture = russian #116novogorodian
+culture = novgorodian
 religion = orthodox
 hre = no
 base_tax = 4  

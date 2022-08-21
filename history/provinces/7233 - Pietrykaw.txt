@@ -3,7 +3,7 @@
 owner = MSK
 controller = MSK 
 add_core = MSK
-culture = byelorussian
+culture = ruthenian
 religion = orthodox
 capital = "Pietrykaw"
 base_tax = 1

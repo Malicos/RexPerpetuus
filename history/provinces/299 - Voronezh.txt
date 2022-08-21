@@ -5,7 +5,7 @@
 owner = VNH
 controller = VNH
 add_core = VNH
-culture = russian
+culture = cossack
 religion = orthodox
 hre = no
 base_tax = 4 

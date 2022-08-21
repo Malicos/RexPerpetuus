@@ -3,7 +3,7 @@
 owner = KBL
 controller = KBL
 add_core = KBL
-culture = turkoman
+culture = al_iraqiya_arabic
 religion = shiite
 capital = "Najaf"
 trade_goods = bt_trade_good_books #(JP) Shia Religious Centre

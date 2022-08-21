@@ -3,7 +3,7 @@
 owner = SMO
 controller = SMO
 add_core = SMO
-culture = byelorussian
+culture = ryazanian #Severian
 religion = orthodox
 capital = "Krychaw"
 base_tax = 1

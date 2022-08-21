@@ -9,7 +9,7 @@ owner = ARM
 controller = ARM
 
 #Demographics
-culture = turkoman
+culture = kurdish
 religion = sunni
 
 #Development and Trade

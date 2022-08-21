@@ -27,6 +27,6 @@ discovered_by = nomad_group
 	controller = MOS
 	add_core = MOS
 	remove_core = PRM
-	culture = russian 
+	culture = rostovian 
 }
-1547.4.16 = { owner = RUS controller = RUS add_core = RUS remove_core = MOS }	#Ivan IV (the Terrible) crowned 'Tsar of all Russians'
+1547.4.16 = { owner = RUS controller = RUS add_core = RUS remove_core = MOS }	#Ivan IV (the Terrible) crowned 'Tsar of all smolenskians'

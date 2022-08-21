@@ -3,7 +3,7 @@
 owner = VOL
 controller = VOL 
 add_core = VOL
-culture = ruthenian
+culture = halych
 religion = orthodox
 capital = "Terebovlia"			#Also Ternopil
 base_tax = 2

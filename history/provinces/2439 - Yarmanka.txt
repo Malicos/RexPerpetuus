@@ -26,7 +26,7 @@ discovered_by = KMC
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	culture = russian
+	culture = rostovian
 	is_city = yes
 	trade_goods = gold
 }

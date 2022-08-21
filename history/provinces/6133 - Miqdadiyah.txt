@@ -9,7 +9,7 @@ owner = SJK
 controller = SJK
 
 #Demographics
-culture = turkoman
+culture = turko_iranian
 religion = sunni
 
 #Development and Trade

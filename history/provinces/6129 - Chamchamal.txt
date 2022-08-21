@@ -9,7 +9,7 @@ owner = KIF
 controller = KIF
 
 #Demographics
-culture = turkoman
+culture = kurdish
 religion = sunni
 
 #Development and Trade

@@ -3,8 +3,8 @@
 owner = ARM
 controller = ARM
 add_core = ARM
-culture = turkoman
-religion = sunni
+culture = arevmdian
+religion = apostolic
 capital = "Malatya"
 trade_goods = cloth
 hre = no

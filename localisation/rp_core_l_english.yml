@@ -26,31 +26,42 @@
  ###################
  ###Indo-European###
  ###################
- ##Nordic
+ ###Nordic###
  denlegian:0 "Denlegian"            # English Norse
  gallwegian:0 "Gallwegian"        # Irish Norse
- ##British
+ ###British###
  anglo_saxon:0 "Anglo-Saxon"      # Old English
  sexish_culture:0 "Sexish"        # No Normans Southern English
- ##Germanic
+ ###Germanic###
  luxembourgish_culture:0 "Low Rhenish"
 
- ##Occitanic
+ ###Occitanic###
  occitanic:0 "Occitanic"
- ##French
+ ###French###
  high_burgundian:0 "High Burgundian"  
  arelatian_culture:0 "Arlesian" 
  outremer:0 "Outremer"
- ##Latin/Italian
+ ###Latin/Italian###
  levantine_culture:0 "Levantine"
- ##African Romance
+ ###African Romance###
  african_group:0 "African Romance"
  afri:0 "Afri"
- ##Dacian
+ ###Dacian###
  moldavian_culture:0 "Moldavian"
  patzinac:0 "Pacinac"   # Daco-Turkic Pecheneg
 
- ##Hellenic
+ ###East Slavic###
+ rostovian:0 "Rostovian"
+ pomor:0 "Pomor"
+ cossack:0 "Cossack"
+ vologdan:0 "Vologdan"
+ polesian:0 "Polesian"
+ podolian:0 "Podolian"
+ volhynian:0 "Volhynian"
+ halych:0 "Halych"
+ cherven:0 "Cherven"
+ rusyn:0 "Rusyn"
+ ###Hellenic###
  macedonian:0 "Macedonian"        # Hellenic Warlords
  thracian:0 "Thracian"            # Hellenic Warlords
  epirotan:0 "Epirotan"            # Hellenic Warlords
@@ -64,12 +75,12 @@
  galatian:0 "Galatian"            # Hellenic Warlords
  rhomaioi:0 "Rhomaîoi"            # Unified Byzantium
   
- ##Armenian
+ ###Armenian###
  armenian_group:0 "Armenian"
  arevmdian:0 "Arevmdian"
  yeravani:0 "Yerevani" 
  
- ##Iranian
+ ###Iranian###
  turko_iranian:0 "Turkirani"      # Persianate Turks
  daylamite:0 "Daylamite"
  talysh:0 "Talysh"

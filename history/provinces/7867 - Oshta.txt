@@ -3,7 +3,7 @@
 owner = BJA
 controller = BJA 
 add_core = BJA
-culture = vepsian
+culture = pomor
 religion = orthodox
 capital = "Oshta"
 base_tax = 1

@@ -3,7 +3,7 @@
 owner = MSL
 controller = MSL
 add_core = MSL
-culture = russian
+culture = ryazanian #Severian
 religion = orthodox 
 hre = no
 base_tax = 2

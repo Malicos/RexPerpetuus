@@ -5,6 +5,7 @@ technology_group = eastern
 religion = orthodox
 primary_culture = byelorussian
 capital = 1937
+add_accepted_culture = polesian
 1444.11.11= {
 	monarch = {
 		name = "Yaroslav III"

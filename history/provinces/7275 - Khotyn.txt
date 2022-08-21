@@ -3,7 +3,7 @@
 owner = BKV
 controller = BKV
 add_core = BKV
-culture = ruthenian
+culture = podolian
 religion = orthodox
 capital = "Khotyn"
 base_tax = 1

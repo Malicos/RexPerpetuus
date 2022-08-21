@@ -6,6 +6,7 @@ religion = orthodox
 technology_group = eastern
 capital = 293	# Smolensk
 fixed_capital = 293 # Cannot move capital away from this province & no power cost to move to it
+add_accepted_culture = rostovian
 
 1386.1.1 = {
 	monarch = {

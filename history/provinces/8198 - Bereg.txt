@@ -9,7 +9,7 @@ owner = HUN
 controller = HUN
 
 #Demographics
-culture = ruthenian
+culture = rusyn
 religion = orthodox
 
 #Development and Trade

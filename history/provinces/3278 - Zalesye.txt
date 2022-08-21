@@ -5,7 +5,7 @@
 owner = NZH
 controller = NZH
 add_core = NZH
-culture = russian 
+culture = rostovian 
 religion = orthodox
 hre = no
 base_tax = 6

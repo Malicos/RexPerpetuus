@@ -3,7 +3,7 @@
 owner = VLG
 controller = VLG
 add_core = VLG
-culture = russian 
+culture = vologdan 
 religion = orthodox
 hre = no
 base_tax = 2 

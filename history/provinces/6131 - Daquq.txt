@@ -9,8 +9,8 @@ owner = KIF
 controller = KIF
 
 #Demographics
-culture = turkoman
-religion = shiite
+culture = assyrian_culture
+religion = nestorian
 
 #Development and Trade
 base_tax = 1

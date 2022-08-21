@@ -3,7 +3,7 @@
 owner = KIE
 controller = KIE
 add_core = KIE
-culture = ruthenian
+culture = polesian
 religion = orthodox
 capital = "Kamen-Kashirskiy"
 base_tax = 1

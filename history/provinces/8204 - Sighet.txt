@@ -9,7 +9,7 @@ owner = TRA
 controller = TRA
 
 #Demographics
-culture = ruthenian
+culture = rusyn
 religion = orthodox
 
 #Development and Trade

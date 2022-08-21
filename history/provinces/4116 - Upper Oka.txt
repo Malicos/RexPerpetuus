@@ -5,7 +5,7 @@
 owner = OKA
 controller = OKA
 add_core = OKA
-culture = russian #116ryazanian
+culture = ryazanian #Severian
 religion = orthodox
 hre = no
 base_tax = 3

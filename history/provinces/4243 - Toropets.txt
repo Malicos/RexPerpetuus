@@ -3,7 +3,7 @@
 owner = SMO
 controller = SMO
 add_core = SMO
-culture = russian
+culture = novgorodian
 religion = orthodox
 hre = no
 base_tax = 3 

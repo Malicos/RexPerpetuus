@@ -21,7 +21,7 @@ native_hostileness = 3
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	culture = russian
+	culture = rostovian
 	is_city = yes
 	trade_goods = fur
 }

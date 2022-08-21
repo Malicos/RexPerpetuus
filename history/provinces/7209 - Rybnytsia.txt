@@ -3,7 +3,7 @@
 owner = PEC
 controller = PEC
 add_core = PEC
-culture = ruthenian
+culture = cossack
 religion = orthodox
 capital = "Rybnitsa"			#Error, founded 1628, but nothing better showing up easily
 base_tax = 1

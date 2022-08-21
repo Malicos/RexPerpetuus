@@ -3,7 +3,7 @@
 owner = PSL
 controller = PSL
 add_core = PSL
-culture = ruthenian
+culture = cossack
 religion = orthodox
 capital = "Kremenchuk"			#Error, founded 1571, but nothing better was showing up easily.
 base_tax = 1

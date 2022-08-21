@@ -3,7 +3,7 @@
 owner = PRS
 controller = PRS 
 add_core = PRS 
-culture = russian
+culture = ryazanian #Severian
 religion = orthodox
 hre = no
 base_tax = 6

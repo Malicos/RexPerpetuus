@@ -3,7 +3,7 @@
 owner = BOL
 controller = BOL
 add_core = BOL
-culture = russian
+culture = rostovian
 religion = orthodox
 capital = "Kurmysh"
 trade_goods = livestock

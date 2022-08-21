@@ -3,7 +3,7 @@
 owner = ARM
 controller = ARM
 add_core = ARM
-culture = armenian			#Marco Polo, who wrote about his visit to Erzincan, said that the "people of the country are Armenians" and that Erzincan was the "noblest of cities" which contained the See of an Archbishop.
+culture = arevmdian			#Marco Polo, who wrote about his visit to Erzincan, said that the "people of the country are Armenians" and that Erzincan was the "noblest of cities" which contained the See of an Archbishop.
 religion = apostolic
 capital = "Erzincan"
 trade_goods = grain

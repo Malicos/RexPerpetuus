@@ -3,7 +3,7 @@
 owner = RSO
 controller = RSO
 add_core = RSO
-culture = russian
+culture = rostovian
 religion = orthodox
 hre = no
 base_tax = 2 

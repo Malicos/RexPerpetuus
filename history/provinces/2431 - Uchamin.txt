@@ -17,7 +17,7 @@ native_hostileness = 3
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	culture = russian
+	culture = rostovian
 	is_city = yes
 }
 1628.2.1 = {

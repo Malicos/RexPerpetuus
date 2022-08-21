@@ -3,7 +3,7 @@
 owner = SMO
 controller = SMO
 add_core = SMO
-culture = byelorussian
+culture = rostovian
 religion = orthodox
 capital = "Verzhavsk"
 base_tax = 3

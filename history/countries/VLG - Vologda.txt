@@ -3,10 +3,10 @@ add_government_reform = principality
 government_rank = 1
 technology_group = eastern
 religion = orthodox
-primary_culture = russian
+primary_culture = vologdan
 capital = 314
 fixed_capital = 314
-
+add_accepted_culture = pomor
 
 #Speeding up history a bit for gameplay reasons, and giving Vasily II Vologda instantly after Moscow taken by Dmitry Shemyaka
 1446.2.13 = {

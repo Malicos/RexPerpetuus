@@ -3,7 +3,7 @@
 owner = MOZ
 controller = MOZ
 add_core = MOZ
-culture = russian
+culture = rostovian
 religion = orthodox
 capital = "Vereya"
 trade_goods = livestock

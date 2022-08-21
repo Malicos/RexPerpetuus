@@ -3,7 +3,7 @@
 owner = CHR
 controller = CHR
 add_core = CHR
-culture = byelorussian
+culture = ruthenian
 religion = orthodox
 capital = "Svietlahorsk"
 base_tax = 1

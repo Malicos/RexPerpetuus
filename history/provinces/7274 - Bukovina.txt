@@ -3,7 +3,7 @@
 owner = BKV
 controller = BKV
 add_core = BKV
-culture = ruthenian
+culture = halych
 religion = orthodox
 capital = "Chernivtsi"
 base_tax = 1

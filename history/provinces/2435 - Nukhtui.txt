@@ -23,7 +23,7 @@ discovered_by = BRT
 	owner = RUS
 	controller = RUS
 	religion = orthodox
-	culture = russian
+	culture = rostovian
 	is_city = yes
 	trade_goods = fish
 }

@@ -1,7 +1,10 @@
 #4259 - Velsk
 
-culture = komi
-religion = siberian_pagan_reformed
+owner = VLG
+controller = VLG 
+add_core = VLG
+culture = pomor
+religion = orthodox
 hre = no
 base_tax = 1 
 base_production = 1 

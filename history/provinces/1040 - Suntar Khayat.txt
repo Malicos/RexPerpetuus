@@ -25,7 +25,7 @@ discovered_by = KMC
 	owner = RUS
 	controller = RUS
 	is_city = yes
-	culture = russian
+	culture = rostovian
 	religion = orthodox
 	trade_goods = fur
 } # Conquered by Russia

@@ -3,7 +3,7 @@
 owner = RSO
 controller = RSO
 add_core = RSO
-culture = russian
+culture = rostovian
 religion = orthodox
 capital = "Gorodetsk"
 trade_goods = naval_supplies

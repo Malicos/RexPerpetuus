@@ -5,7 +5,7 @@
 owner = VLD
 controller = VLD 
 add_core = VLD
-culture = russian
+culture = ryazanian #Severian
 religion = orthodox
 hre = no
 base_tax = 4 

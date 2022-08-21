@@ -3,7 +3,7 @@
 owner = RSO
 controller = RSO
 add_core = RSO
-culture = russian
+culture = rostovian
 religion = orthodox
 capital = "Klin"
 trade_goods = grain			#in modern times produces a lot of beer... good enough

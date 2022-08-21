@@ -5,7 +5,7 @@
 owner = PSL
 controller = PSL
 add_core = PSL
-culture = ruthenian
+culture = cossack
 religion = orthodox
 hre = no
 base_tax = 1 

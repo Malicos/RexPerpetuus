@@ -24,7 +24,7 @@ discovered_by = nomad_group
 	controller = RUS
 	add_core = RUS
 	religion = orthodox
-	culture = russian
+	culture = rostovian
 	trade_goods = salt
 	is_city = yes 
 } # Berezov founded

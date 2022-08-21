@@ -3,7 +3,7 @@
 owner = RYA
 controller = RYA
 add_core = RYA
-culture = russian
+culture = ryazanian #Severian
 religion = orthodox
 capital = "Mtsensk"
 trade_goods = grain

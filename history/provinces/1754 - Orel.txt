@@ -5,7 +5,7 @@
 owner = MRM
 controller = MRM
 add_core = MRM
-culture = russian
+culture = rostovian
 religion = orthodox 
 hre = no
 base_tax = 6

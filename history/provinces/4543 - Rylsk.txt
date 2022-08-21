@@ -3,7 +3,7 @@
 owner = SVR
 controller = SVR
 add_core = SVR
-culture = ruthenian
+culture = ryazanian #Severian
 religion = orthodox
 hre = no
 base_tax = 1

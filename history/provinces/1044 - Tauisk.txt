@@ -26,7 +26,7 @@ discovered_by = KMC
 	controller = RUS
 	is_city = yes
 	religion = orthodox
-	culture = russian
+	culture = rostovian
 	trade_goods = gold
 } # Conquered by Russia
 1757.1.1 = { add_core = RUS }

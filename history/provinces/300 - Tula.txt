@@ -5,7 +5,7 @@
 owner = RYA
 controller = RYA 
 add_core = RYA  
-culture = russian #116ryazanian
+culture = ryazanian #Severian
 religion = orthodox
 hre = no
 base_tax = 2 

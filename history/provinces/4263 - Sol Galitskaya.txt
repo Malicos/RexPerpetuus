@@ -3,7 +3,7 @@
 owner = GLC
 controller = GLC
 add_core = GLC
-culture = russian 
+culture = vologdan 
 religion = orthodox
 hre = no
 base_tax = 2 

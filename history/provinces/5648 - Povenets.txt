@@ -3,7 +3,7 @@
 owner = BJA
 controller = BJA 
 add_core = BJA
-culture = karelian
+culture = pomor
 religion = orthodox
 capital = "Povenets"
 trade_goods = fur

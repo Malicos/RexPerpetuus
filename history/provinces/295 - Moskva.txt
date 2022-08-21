@@ -5,7 +5,7 @@
 owner = MOS
 controller = MOS
 add_core = MOS
-culture = russian
+culture = rostovian
 religion = orthodox
 hre = no
 base_tax = 6

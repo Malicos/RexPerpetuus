@@ -3,9 +3,10 @@ add_government_reform = principality
 government_rank = 1
 technology_group = eastern
 religion = orthodox
-primary_culture = russian
+primary_culture = ryazanian #Severian
 capital = 5662
 fixed_capital = 5662
+add_accepted_culture = rostovian
 
 
 #No time to fill this in, and information would be too hard to come by with CM's help so I'm leaving this blank for now. Engine should auto generate plausible.

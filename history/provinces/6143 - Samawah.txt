@@ -9,8 +9,8 @@ owner = KBL
 controller = KBL
 
 #Demographics
-culture = turkoman
-religion = shiite
+culture = mandaean_culture
+religion = mandaean
 
 #Development and Trade
 base_tax = 1

@@ -3,7 +3,7 @@
 owner = ARM
 controller = ARM
 add_core = ARM
-culture = armenian
+culture = yeravani
 religion = apostolic
 capital = "Bayazit"
 trade_goods = livestock

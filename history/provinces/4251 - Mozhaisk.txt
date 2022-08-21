@@ -3,7 +3,7 @@
 owner = MOZ
 controller = MOZ
 add_core = MOZ
-culture = russian
+culture = rostovian
 religion = orthodox
 hre = no
 base_tax = 4 

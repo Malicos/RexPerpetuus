@@ -30,6 +30,6 @@ discovered_by = nomad_group
 	controller = RUS
 	add_core = RUS 
 	remove_core = SIB
-	culture = russian
+	culture = rostovian
 	religion = orthodox 
 } # Yermak Timofeevich, annexed to Muscovy

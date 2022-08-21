@@ -2,7 +2,7 @@
 
 owner = HUN
 controller = HUN 
-culture = ruthenian
+culture = rusyn
 religion = orthodox
 capital = "Huszt"
 trade_goods = naval_supplies

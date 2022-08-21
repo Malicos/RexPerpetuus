@@ -9,7 +9,7 @@ owner = ARM
 controller = ARM
 
 #Demographics
-culture = armenian
+culture = arevmdian
 religion = apostolic
 
 #Development and Trade

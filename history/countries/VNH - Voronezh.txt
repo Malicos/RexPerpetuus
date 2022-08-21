@@ -1,9 +1,9 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = cossacks_reform
 government_rank = 1
 technology_group = eastern
 religion = orthodox
-primary_culture = ruthenian
+primary_culture = cossack
 capital = 299
 1444.11.11= {
 	monarch = {
@@ -14,7 +14,7 @@ capital = 299
 		mil = 4
 		birth_date = 1391.12.12
 		religion = orthodox
-		culture = ruthenian
+		culture = cossack
 	}
 	add_ruler_personality = bold_fighter_personality
 	add_ruler_personality = strict_personality
@@ -29,7 +29,7 @@ capital = 299
 		death_date = 1451.10.18
 		female = yes
 		religion = orthodox
-		culture = russian_culture
+		culture = cossack
 	}
 	add_queen_personality = conqueror_personality
 	add_queen_personality = expansionist_personality
@@ -44,7 +44,7 @@ capital = 299
 		death_date = 1474.6.12
 		claim = 89
 		religion = orthodox
-		culture = russian_culture
+		culture = cossack
 	}
 	add_heir_personality = just_personality
 	add_heir_personality = strict_personality
