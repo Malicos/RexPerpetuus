@@ -1,8 +1,7 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
 government_rank = 1
-primary_culture = prussian
-add_accepted_culture = estonian
+primary_culture = estonian
 religion = catholic
 technology_group = western
 capital = 3230

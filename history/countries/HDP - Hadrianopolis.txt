@@ -1,11 +1,11 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = mikrasiatic
+primary_culture = pontic_greek
 religion = orthodox
-technology_group = eastern
-historical_friend = FEO
-capital = 330	# Trebizond
-fixed_capital = 330 # Cannot move capital away from this province & no power cost to move to it
+technology_group = ottoman	# Rhomaion
+#historical_friend = FEO
+capital = 4312
+#fixed_capital = 330 # Cannot move capital away from this province & no power cost to move to it
 
 1390.1.1 = {
 	monarch = {

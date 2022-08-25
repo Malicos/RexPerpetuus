@@ -3438,6 +3438,9 @@ baltic = {
 	samogitian = {
 		primary = SMG
 	}
+	latgalian = {
+		primary = LGT
+	}
 	male_names = {
 		Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas
 		Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas

@@ -9,7 +9,7 @@ owner = HUN
 controller = HUN
 
 #Demographics
-culture = cuman
+culture = hungarian
 religion = catholic
 
 #Development and Trade
@@ -20,7 +20,6 @@ trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
 add_core = HUN
-add_core = CUM
 
 #Other Political
 hre = no

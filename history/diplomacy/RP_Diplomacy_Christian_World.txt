@@ -657,6 +657,77 @@ vassal = {
 ####################################################################
 # 9 - Balkans
 ####################################################################
+# Guarantee of Burgas (Dorostolon)
+guarantee = {
+	first = PAI
+	second = BGS
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# March of Corinth (Morea)
+march = {
+	first = MOE
+	second = CRH
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Thracian Vassal - Diampolis
+vassal = {
+	first = TRC
+	second = YAB
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Thracian Vassal - Bizya
+vassal = {
+	first = TRC
+	second = BZY
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Thracian Vassal - Selembria
+vassal = {
+	first = TRC
+	second = SBR
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Macedonian Vassal - Chalkdiki
+vassal = {
+	first = MDN
+	second = CLD
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Athenian Vassal - Phocis
+vassal = {
+	first = ATH
+	second = PCS
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Union of Athens and Thessaly
+union = {
+	first = ATH
+	second = TSY
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Macedonia - Philippopolis Alliance
+alliance_with = {
+	first = MDN
+	second = PHP
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
 
 ####################################################################
 # 10 - Hungary

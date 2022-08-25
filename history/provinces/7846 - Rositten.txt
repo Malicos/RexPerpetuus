@@ -3,7 +3,7 @@
 owner = LGT
 controller = LGT
 add_core = LGT
-culture = latvian
+culture = latgalian
 religion = catholic
 capital = "Rezekne"			#DE Rositten
 base_tax = 1

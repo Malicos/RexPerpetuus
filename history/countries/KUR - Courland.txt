@@ -2,8 +2,7 @@ government = theocracy
 add_government_reform = leading_clergy_reform
 government_rank = 1
 technology_group = western
-primary_culture = prussian
-add_accepted_culture = latvian
+primary_culture = latvian
 religion = catholic
 capital = 3227
 

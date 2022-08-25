@@ -1,10 +1,10 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = tuscan
-add_accepted_culture = greek
-religion = catholic
-technology_group = western
+primary_culture = hellas_culture
+add_accepted_culture = aromanian
+religion = orthodox
+technology_group = ottoman	# Rhomaion
 capital = 146	#Athens
 fixed_capital = 146 # Cannot move capital away from this province & no power cost to move to it
 

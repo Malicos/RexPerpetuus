@@ -3,7 +3,7 @@
 owner = LIV
 controller = LIV
 add_core = LIV
-culture = latvian
+culture = latgalian
 religion = catholic
 capital = "Koknese"			#DE Kokenhusen
 base_tax = 2

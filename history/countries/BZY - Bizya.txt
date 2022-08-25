@@ -1,10 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = serbian
+primary_culture = thracian
 religion = orthodox
-technology_group = eastern
-capital = 4176	# Krusevac
-historical_friend = BOS
+technology_group = ottoman	# Rhomaion
+capital = 7138
 
 1389.1.1 = {
 	government_rank = 1

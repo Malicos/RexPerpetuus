@@ -5,7 +5,7 @@
 owner = LGT
 controller = LGT
 add_core = LGT
-culture = latvian
+culture = latgalian
 religion = catholic
 capital = "Daugpils"			#DE Dünaburg
 #fort_15th = yes #Dünaburg

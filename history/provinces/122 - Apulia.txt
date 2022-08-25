@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Apulia
 
-owner = TAN
-controller = TAN
-add_core = TAN
+owner = TAT
+controller = TAT
+add_core = TAT
 culture = griko
 religion = orthodox
 hre = no 

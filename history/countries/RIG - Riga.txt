@@ -1,8 +1,7 @@
 government = theocracy
 add_government_reform = leading_clergy_reform
 technology_group = western
-primary_culture = prussian
-add_accepted_culture = latvian
+primary_culture = latvian
 historical_friend = LIV
 religion = catholic
 capital = 7845	# Riga

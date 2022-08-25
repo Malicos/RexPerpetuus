@@ -1,10 +1,10 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = serbian
+primary_culture = galatian
 religion = orthodox
-technology_group = eastern
-capital = 4176	# Krusevac
-historical_friend = BOS
+technology_group = ottoman	# Rhomaion
+capital = 326
+historical_friend = PPG
 
 1389.1.1 = {
 	government_rank = 1

@@ -10,7 +10,7 @@ controller = HUN
 
 #Demographics
 culture = slovak
-religion = hussite
+religion = catholic
 
 #Development and Trade
 base_tax = 1

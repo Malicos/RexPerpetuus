@@ -4,6 +4,7 @@ owner = SCP
 controller = SCP
 add_core = SCP
 add_core = BUL
+add_core = MDN
 culture = moesian
 religion = orthodox
 capital = "Prilep"

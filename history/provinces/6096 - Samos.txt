@@ -5,11 +5,11 @@
 #Core Details
 capital = "Samos"
 is_city = yes
-owner = GEN
-controller = GEN
+owner = PIS
+controller = PIS
 
 #Demographics
-culture = greek
+culture = dodecanesian
 religion = orthodox
 
 #Development and Trade
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = wine #(JP) Famed for its wine production
 
 #Cores and Occupation (Alphabetical after current)
-add_core = GEN
+add_core = PIS
 
 #Other Political
 hre = no
