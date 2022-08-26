@@ -1,6 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = coptic_culture
+add_accepted_culture = sahidic
 religion = coptic
 technology_group = muslim #Unsure on whether to change this or not
 capital = 361 # Cairo

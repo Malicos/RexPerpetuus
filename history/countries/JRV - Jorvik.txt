@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = anglisk
+primary_culture = denlegian
 religion = catholic
 technology_group = western
 capital = 245	# Jorvik
