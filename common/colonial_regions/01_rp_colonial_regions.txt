@@ -84,6 +84,44 @@ colonial_alaska = {
 	}
 }
 
+# Alderney
+colonial_alderney = {
+	color = { 0 145 120 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		918 919 920 921 922 923 924 925 926 927 928 929 930 931 932 933 934 935 939 940 941 2526 2527 2528 2529 2530 2531 2532 2533 2534 2535 2536 2537 2538 2539 2540 2541 2542 2543 4625 4626 4879 4880 4881 4882 4883 4884 4887 4888 4913 4921
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_ALDERNEY_Alderney"
+	}
+}
+
 # Appalachia
 colonial_appalachia = {
 	color = { 220 190 70 }
@@ -197,44 +235,6 @@ colonial_azania = {
 	}
 	names = {
 		name = "COLONIAL_AZANIA_Azania"
-	}
-}
-
-# Juventude
-colonial_juventude = {
-	color = { 0 145 120 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
-	provinces = {
-		926 927 928 2534 2535 2536 4625 4626
-	}
-
-	# Specific
-
-	# Generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_JUVENTUDE_Juventude"
 	}
 }
 
@@ -379,7 +379,7 @@ colonial_merovingia = {
 	}
 
 	provinces = {
-		889 890 891 892 893 894 895 896 897 898 899 900 901 902 903 918 919 920 921 922 923 924 925 929 930 931 932 933 934 935 939 940 941 2014 2509 2508 2514 2515 2516 2526 2527 2528 2529 2530 2531 2532 2533 2537 2538 2539 2540 2541 2542 2543 2625 2672 4879 4880 4881 4882 4883 4884 4885 4886 4887 4888 4906 4908 4913 4914 4915 4916 4921 4923 4959 5065 5066 5837
+		889 890 891 892 893 894 895 896 897 898 899 900 901 902 903 2014 2509 2508 2514 2515 2516 2625 2672 4885 4886 4906 4908 4914 4915 4916 4923 4959 5065 5066 5837
 	}
 
 	# Specific
