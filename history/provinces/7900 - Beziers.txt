@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = LDC
-controller = LDC
-add_core = LDC
+owner = TOU
+controller = TOU
+add_core = TOU
 culture = occitain
 religion = cathar
 capital = "Béziers"

@@ -2,9 +2,9 @@
 #Region - France
 #Area - Languedoc
 
-owner = LDC
-controller = LDC
-add_core = LDC
+owner = TOU
+controller = TOU
+add_core = TOU
 capital = "Montpellier"
 is_city = yes
 culture = occitain
