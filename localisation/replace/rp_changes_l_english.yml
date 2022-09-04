@@ -72,6 +72,9 @@
  greek:0 "Aegean" #Unified Greece and West Anatolia 
  griko:0 "Kalabrian"
  
+ ###Baltic###
+ lithuanian:0 "Aukstatijan"
+ 
  ###West Slavic###
  schlesian:0 "Silesian"
  ###East Slavic###
