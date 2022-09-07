@@ -50,31 +50,32 @@ low_countries_region = { # 9 areas
 		oversticht_area
 	}
 }
+# RP: Spain
 iberia_region = { # 23 areas
 	areas = {
-		aragon_area
-		catalonia_area
-		valencia_area
-		lower_andalucia_area
-		upper_andalucia_area
 		castille_area
-		toledo_area
 		asturias_area
 		galicia_area
 		baleares_area
 		basque_country
 		leon_area
-		extremadura_area
-		beieras_area
-		alentejo_area
 		macaronesia_area
-		murcia_area
-		new_castile_area
-		northern_andalusia_area
 		minho_duoro_area
-		estremadura_area
-		algarve_area
-		segovia_area
+		belatha_area
+		gharb_al_andalus_area
+		shenshir_area
+		ash_sharaf_area
+		al_yazirat_area
+		ash_sherrat_area
+		mawsat_al_andalus_area
+		kambaniya_area
+		rayya_and_ilvira_area
+		tudmir_area
+		qunqa_area
+		sharq_al_andalus_area
+		harkal_suli_area
+		az_zeitun_area
+		al_burtat_area
 	}
 }
 italy_region = { # 24 areas
@@ -117,6 +118,7 @@ ireland_region = { # 7 areas
 		connacht_area
 	}
 }
+# RP: British Isles
 british_isles_region = { # 17 areas
 	areas = {
 		southern_isles_area
