@@ -1285,6 +1285,7 @@
 8083 = "Lawsa"
 8084 = "Wadi 'Ashi"
 8085 = "Bastha"
+8087 = "Ushkar"
 8088 = "Daniya"
 8089 = "Banáskula"
 8093 = "Mir-Hândul"
