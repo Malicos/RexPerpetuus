@@ -2,9 +2,9 @@
 #Region - France
 #Area - Normandy
 
-owner = CHN
-controller = CHN
-add_core = CHN
+owner = JER
+controller = JER
+add_core = JER
 add_core = NRM
 capital = "St. Helier"
 is_city = yes
