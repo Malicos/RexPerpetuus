@@ -717,6 +717,14 @@
  URK:0 "Uriankhai"
  URK_ADJ:0 "Uriankhai"
  
+ # Japan
+ KMA:0 "Kamakura"
+ KMA_ADJ:0 "Kamakura"
+ MGM:0 "Mogami"
+ MGM_ADJ:0 "Mogami"
+ NGO:0 "Nagao"
+ NGO_ADJ:0 "Nagao" 
+ 
  # India
  WGL:0 "Warangal"
  WGL_ADJ:0 "Warangali"

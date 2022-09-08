@@ -298,5 +298,10 @@ ORO = "countries/Orochen.txt"
 SNG = "countries/Song.txt"
 URK = "countries/Uriankhai.txt"
 
+# Japan
+KMA = "countries/Kamakura.txt"
+MGM = "countries/Mogami.txt"
+NGO = "countries/Nagao.txt"
+
 # India
 WGL = "countries/Warangal.txt"

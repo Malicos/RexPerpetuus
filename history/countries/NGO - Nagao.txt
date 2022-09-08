@@ -1,7 +1,8 @@
 government = monarchy
-add_government_reform = shogunate
-primary_culture = japanese
+add_government_reform = daimyo
+government_rank = 1
 primary_culture = togoku
 religion = shinto
 technology_group = chinese
-capital = 1020	# Yamashiro
+capital = 1024
+

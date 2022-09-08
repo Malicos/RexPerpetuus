@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = indep_daimyo
+government_rank = 1
+primary_culture = togoku
+religion = shinto
+technology_group = chinese
+capital = 4189
+
+1433.4.28 = {
+	monarch = {
+		name = "Takamoto"
+		dynasty = "Hojo"
+		birth_date = 1412.8.27
+		adm = 5
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Shigeuji"
+		monarch_name = "Shigeuji"
+		dynasty = "Hojo"
+		birth_date = 1433.12.27
+		death_date = 1471.6.17
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+}
+
+

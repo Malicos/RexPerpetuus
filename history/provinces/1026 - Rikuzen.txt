@@ -2,6 +2,7 @@
 
 owner = DTE
 controller = DTE
+add_core = DTE
 culture = togoku
 religion = shinto
 capital = "Aizu"
@@ -11,14 +12,10 @@ base_tax = 6
 base_manpower = 6
 base_production = 6
 is_city = yes
-add_core = DTE
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
-
-1520.1.1 = { fort_15th = yes } # Iwadeyama Castle, Estimation
-1542.1.1 = { discovered_by = POR }
-1601.6.28 = { capital = "Sendai" }
