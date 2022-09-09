@@ -141,11 +141,72 @@ vassal = {
 	end_date = 1836.1.1
 }
 
+# France and Angouleme
+vassal = {
+	subject_type = fiefdom_bt
+	first = FRA
+	second = AGL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# France and Bourbonnais
+vassal = {
+	first = FRA
+	second = BOU
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# France and Duchy of Burgundy
+vassal = {
+	first = FRA
+	second = DBG
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# France and Hurepoix
+vassal = {
+	subject_type = fiefdom_bt
+	first = FRA
+	second = HPX
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# France and La Marche
+vassal = {
+	subject_type = fiefdom_bt
+	first = FRA
+	second = LMC
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# France and Orleans
+vassal = {
+	subject_type = fiefdom_bt
+	first = FRA
+	second = ORL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# France and Tours
+vassal = {
+	subject_type = fiefdom_bt
+	first = FRA
+	second = FTS
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Brittany and Channel Islands
 vassal = {
 	subject_type = fiefdom_bt
 	first = BRI
-	second = CHN
+	second = JER
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
@@ -159,6 +220,15 @@ vassal = {
 	end_date = 1836.1.1
 }
 
+# Guyenne and Armagnac
+vassal = {
+	subject_type = fiefdom_bt
+	first = GUY
+	second = AMG
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Guyenne and Bearne
 vassal = {
 	subject_type = fiefdom_bt
@@ -168,19 +238,28 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# Languedoc and Carcassonne
+# Guyenne and Armagnac
 vassal = {
 	subject_type = fiefdom_bt
-	first = LDC
+	first = TOU
+	second = AMG
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Toulouse and Carcassonne
+vassal = {
+	subject_type = fiefdom_bt
+	first = TOU
 	second = CCS
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Languedoc and Narbonne
+# Toulouse and Narbonne
 vassal = {
 	subject_type = fiefdom_bt
-	first = LDC
+	first = TOU
 	second = NBN
 	start_date = 1444.11.11
 	end_date = 1836.1.1
