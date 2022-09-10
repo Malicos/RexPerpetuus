@@ -6,7 +6,7 @@
 random_new_world_region = {}
 
 # Europe / 17 regions / 287 areas
-france_region = { # 27 areas
+france_region = { # 25 areas
 	areas = {
 		brittany_area
 		lower_brittany_area
@@ -20,7 +20,6 @@ france_region = { # 27 areas
 		languedoc_area
 		massif_central_area
 		savoy_dauphine_area
-		lorraine_area
 		picardy_area
 		ile_de_france_area
 		loire_area
@@ -34,20 +33,23 @@ france_region = { # 27 areas
 		upper_guyenne_area
 		upper_gascony  
 		limousin_area
-		barrois_area
 	}
 }
-low_countries_region = { # 9 areas
+low_countries_region = { #Lotharingia # 13 areas
 	areas = {
 		wallonia_area
 		holland_area
 		flanders_area
-		frisia_area
 		brabant_area
 		north_brabant_area
 		luxembourg_area
 		luxemburg_liege_area
-		oversticht_area
+		north_rhine_area
+		lower_rhineland_area
+		palatinate_area
+		alsace_area
+		lorraine_area
+		barrois_area
 	}
 }
 # RP: Spain
@@ -162,11 +164,8 @@ scandinavia_region = { # 18 areas
 		trondelag_area
 	}
 }
-south_german_region = { # 25 areas
+south_german_region = { # 19 areas
 	areas = {
-		bohemia_area
-		erzgebirge_area
-		moravia_area
 		upper_bavaria_area
 		lower_bavaria_area
 		lower_swabia_area
@@ -179,10 +178,7 @@ south_german_region = { # 25 areas
 		switzerland_area
 		upper_rhineland_area
 		romandie_area
-		palatinate_area
-		bohemian_forest_area
 		upper_austria_area
-		alsace_area
 		carniola_area
 		swiss_alps_area
 		east_bavaria_area
@@ -191,18 +187,10 @@ south_german_region = { # 25 areas
 		upper_franconia_area
 	}
 }
-north_german_region = { # 21 areas
+north_german_region = { # 16 areas
 	areas = {
-		lusatia_area
-		south_saxony_area
 		northern_saxony_area
 		thuringia_area
-		neumark_area
-		mittelmark_area
-		vorpommern_area
-		hinter_pommern_area
-		north_rhine_area
-		lower_rhineland_area
 		westphalia_area
 		north_westphalia_area
 		hesse_area
@@ -214,6 +202,8 @@ north_german_region = { # 21 areas
 		middle_saxony_area
 		braunschweig_area
 		bremen_verden_area
+		frisia_area
+		oversticht_area
 	}
 }
 baltic_region = { # 11 areas
@@ -232,7 +222,7 @@ baltic_region = { # 11 areas
 		semigallia_area
 	}
 }
-poland_region = { # 9 areas
+poland_region = { #Lechia  # 18 areas
 	areas = {
 		wielkopolska_area
 		malopolska_area
@@ -243,6 +233,16 @@ poland_region = { # 9 areas
 		silesia_area
 		lower_silesia_area
 		middle_silesia_area
+		bohemia_area
+		erzgebirge_area
+		moravia_area
+		bohemian_forest_area
+		vorpommern_area
+		hinter_pommern_area
+		lusatia_area
+		neumark_area
+		mittelmark_area
+		south_saxony_area
 	}
 }
 ruthenia_region = { # 17 areas
@@ -318,14 +318,28 @@ ural_region = { # 10 areas
 		pechora_area
 	}
 }
-balkan_region = { # 29 areas
+balkan_region = { #Rhomania # 15 areas
 	areas = {
 		macedonia_area
 		morea_area
 		northern_greece_area
 		thrace_area
-		bulgaria_area
 		silistria_area
+		aegean_archipelago_area
+		eastern_mediterrenean_islands_area
+		western_aegean_area
+		upper_thrace_area
+		eastern_macedonia_area
+		northern_epirus_area
+		northern_thrace_area
+		aetolia_area
+		thessaly_area
+		danubian_plain_area
+	}
+}
+illyria_region = {	# 14 areas
+	areas = {
+		bulgaria_area
 		serbia_area
 		rascia_area
 		albania_area
@@ -333,23 +347,13 @@ balkan_region = { # 29 areas
 		croatia_area
 		slavonia_area
 		east_adriatic_coast_area
-		aegean_archipelago_area
-		eastern_mediterrenean_islands_area
-		western_aegean_area
-		upper_thrace_area
 		northern_macedonia_area
-		eastern_macedonia_area
-		northern_epirus_area
-		northern_thrace_area
-		aetolia_area
-		thessaly_area
-		danubian_plain_area
 		syrmia_area
 		montenegro_area
 		krajina_area
 		herzegovina_area
 		vidin_area
-	}
+	}	
 }
 carpathia_region = { # 15 areas
 	areas = {

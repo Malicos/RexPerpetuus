@@ -138,6 +138,8 @@
  south_african_plateau_area_name:0 "South Ethiopia"
  south_african_plateau_area_adj:0 "South Ethiopian"
  west_africa_coast_area:0 "West Ethiopian Coast"
+ east_prussia_area:0 "Pruthenia"
+ west_prussia_area:0 "Kashubia"
  
  # Regions
  central_africa_region:0 "Central Ethiopia"
@@ -146,6 +148,18 @@
  east_africa_region:0 "East Ethiopia"
  horn_of_africa_region:0 "Horn of Ethiopia"
  south_africa_region:0 "South Ethiopia"
+ balkan_region:0 "Rhomania"
+ balkan_region_name:0 "Rhomania"
+ balkan_region_adj:0 "Rhomanian"
+ low_countries_region:0 "Lotharingia"
+ low_countries_region_name:0 "Lotharingia"
+ low_countries_region_adj:0 "Lotharingian"
+ poland_region:0 "Lechia"
+ poland_region_name:0 "Lechia"
+ poland_region_adj:0 "Lechitic"
+ mongolia_region:0 "Zubica"
+ mongolia_region_name:0 "Zubica"
+ mongolia_region_adj:0 "Zubic"
  
  # Superregions
  africa_superregion:1 "Northern Ethiopia"
