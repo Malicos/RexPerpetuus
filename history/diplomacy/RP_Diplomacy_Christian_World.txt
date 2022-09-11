@@ -14,6 +14,7 @@
 #8 - Russia
 #9 - Balkans
 #10 - Hungary
+#11 - Spain
 
 ####################################################################
 # 1 - Northern Isles (Albion)
@@ -833,6 +834,55 @@ vassal = {
 	subject_type = fiefdom_bt
 	first = HUN
 	second = TRA
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+####################################################################
+# 11 - Spain
+####################################################################
+
+# Galicia and Eonavia
+vassal = {
+	subject_type = fiefdom_bt
+	first = GAL
+	second = EON
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Galicia and Portugal
+vassal = {
+	subject_type = fiefdom_bt
+	first = GAL
+	second = POR
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Galicia and Tras-os-Montes
+vassal = {
+	subject_type = fiefdom_bt
+	first = GAL
+	second = TOM
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Leon and Braganza
+vassal = {
+	subject_type = fiefdom_bt
+	first = LON
+	second = BGC
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Castile and Santander
+vassal = {
+	subject_type = fiefdom_bt
+	first = CAS
+	second = STD
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
