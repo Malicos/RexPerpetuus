@@ -160,44 +160,6 @@ colonial_appalachia = {
 	}
 }
 
-# Atakapa
-colonial_atakapa = {
-	color = { 195 120 40 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
-	provinces = {
-		858 861 867 875 876 877 878 879 880 881 882 883 884 885 886 887 888 2491 2492 2493 2494 2495 2496 2497 2498 2499 2500 2614 2619 2665 2666 2667 2668 2669 4606 4909 4910 4627 4628 4629 4630 4631 4632 4634 4911 4966 4979 5042 5064 5823 5826 5827 5830 5832 5835 5838 5839 5840 5841 5843 5844 5858
-	}
-
-	# Specific
-
-	# Generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_ATAKAPA_Atakapa"
-	}
-}
-
 # Azania
 colonial_azania = {
 	color = { 180 225 115 }
@@ -235,6 +197,44 @@ colonial_azania = {
 	}
 	names = {
 		name = "COLONIAL_AZANIA_Azania"
+	}
+}
+
+# Aztlan
+colonial_aztlan = {
+	color = { 195 120 40 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		844 847 848 849 850 851 852 853 854 855 856 857 858 859 860 861 862 863 864 867 875 876 877 878 879 880 881 882 883 884 885 886 887 888 2491 2492 2493 2494 2495 2496 2497 2498 2499 2500 2614 2615 2616 2617 2618 2619 2621 2622 2623 2624 2626 2627 2628 2629 2630 2631 2641 2642 2643 2644 2645 2646 2647 2648 2657 2665 2666 2667 2668 2669 4570 4571 4572 4573 4574 4575 4576 4577 4578 4579 4580 4581 4582 4583 4584 4598 4606 4627 4628 4629 4630 4631 4632 4633 4634 4640 4641 4642 4643 4644 4645 4646 4647 4648 4649 4650 4909 4910 4911 4964 4966 4979 5042 5061 5063 5064 5823 5826 5827 5830 5832 5835 5838 5839 5840 5841 5843 5844 5858
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_AZTLAN_Aztlan"
 	}
 }
 
@@ -780,43 +780,5 @@ colonial_westernesse = {
 	}
 	names = {
 		name = "COLONIAL_VITMANNLAND_Westernesse"
-	}
-}
-
-# Zapotlan
-colonial_zapotlan = {
-	color = { 200 30 50 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
-	provinces = {
-		844 847 848 849 850 851 852 853 854 855 856 857 859 860 862 863 864 2615 2616 2617 2618 2621 2622 2623 2624 2626 2627 2628 2629 2630 2631 2641 2642 2643 2644 2645 2646 2647 2648 2657 4570 4571 4572 4573 4574 4575 4576 4577 4578 4579 4580 4581 4582 4583 4584 4598 4633 4640 4641 4642 4643 4644 4645 4646 4647 4648 4649 4650 4964 5061 5063 
-	}
-
-	# Specific
-
-	# Generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_ZAPOTLAN_Zapotlan"
 	}
 }
