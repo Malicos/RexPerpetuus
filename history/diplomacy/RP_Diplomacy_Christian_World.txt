@@ -520,7 +520,7 @@ dependency = {
 }
 
 # Papal Guarantee - Camerino
-vassal = {
+guarantee = {
 	first = PAP
 	second = CMR
 	start_date = 1444.11.11
@@ -531,6 +531,62 @@ vassal = {
 vassal = {
 	first = PAP
 	second = SVN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Bergamo and Brescia
+vassal = {
+	first = BGM
+	second = BSC
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Modena and Massa
+union = {
+	first = MOD
+	second = MSS
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Pisa and Pistoia
+guarantee = {
+	first = PIS
+	second = PST
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Tuscany and Pistoia
+guarantee = {
+	first = TUS
+	second = PST
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Ravenna and Carpegna
+march = {
+	first = RAV
+	second = CRP
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Ravenna and Urbino
+guarantee = {
+	first = RAV
+	second = URB
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Abruzzo and Molise
+march = {
+	first = ABR
+	second = MLE
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
