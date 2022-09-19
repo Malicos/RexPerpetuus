@@ -160,6 +160,44 @@ colonial_appalachia = {
 	}
 }
 
+# Avalon
+colonial_avalon = {
+	color = { 130 180 200 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		741 742 743 744 745 746 747 2805 2803 2804 2811 2889 2930 2931 2933 2934 2935 2937 2938 4615 4616 4617 
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_AVALON_Avalon"
+	}
+}
+
 # Azania
 colonial_azania = {
 	color = { 180 225 115 }
@@ -235,6 +273,48 @@ colonial_aztlan = {
 	}
 	names = {
 		name = "COLONIAL_AZTLAN_Aztlan"
+	}
+}
+
+# The Carribean
+colonial_the_carribean = {
+	color = { 254 117 9 }
+
+	# Random New World
+	tax_income = 1
+	native_size = 5
+	native_ferocity = 5
+	native_hostileness = 7
+	
+	trade_goods = {
+		sugar = 15
+		fish = 10
+		naval_supplies = 10
+	}
+	
+	culture = {
+		arawak = 15
+		carib = 8
+	}
+	
+	religion = {
+		animism = 10
+	}
+	
+	provinces = {
+		487 491 492 493 494 495 496 497 498 499 500 501 502 1881 5578 5581 5582 5583 5584 5585 5586
+		#BT14
+		6046 6047 6048 6049 6050 6061
+	}
+	
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_Caribbean_Caribbean"
 	}
 }
 
