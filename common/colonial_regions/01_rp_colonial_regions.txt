@@ -238,6 +238,49 @@ colonial_aztlan = {
 	}
 }
 
+# Cuzco
+colonial_cuzco = {
+	color = { 124 140 162 }
+
+	# Random New World
+	tax_income = 2
+	native_size = 12
+	native_ferocity = 1
+	native_hostileness = 1
+	
+	trade_goods = {
+		grain = 7
+		fish = 2
+		gold = 7
+		cocoa = 2
+		copper = 2
+	}
+
+	culture = {
+		inca = 10
+	}
+	religion = {
+		animism = 10
+	}
+
+	provinces = {
+		795 797 800 801 802 803 2831 2832 2833 2834 2835 2838 2940 2941 2942 2946 2947 #Bolivia
+		804 805 809 810 811 814 2826 2827 #Tawantisuyu
+		806 807 808 2828 2829 2830 #Kuntisuyu
+		2944 #Amazon
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_CUZCO_Cuzco"
+	}
+}
+
 # Greenland
 colonial_greenland = {
 	color = { 47 188 22 }
