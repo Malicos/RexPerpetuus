@@ -472,7 +472,7 @@ dependency = {
 	second = GUB
 	start_date = 1444.11.11
 	end_date = 1836.1.1
-}
+}	
 
 # Autonomous Papal State - Perugia
 dependency = {
@@ -858,7 +858,7 @@ union = {
 }
 
 # Macedonia - Philippopolis Alliance
-alliance_with = {
+alliance = {
 	first = MDN
 	second = PHP
 	start_date = 1444.11.11
