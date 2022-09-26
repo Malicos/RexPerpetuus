@@ -86,7 +86,7 @@ colonial_alaska = {
 
 # Alderney
 colonial_alderney = {
-	color = { 0 145 120 }
+	color = { 100 90 170 }
 
 	# Random New World
 	tax_income = 0
@@ -119,6 +119,82 @@ colonial_alderney = {
 	}
 	names = {
 		name = "COLONIAL_ALDERNEY_Alderney"
+	}
+}
+
+# Almere
+colonial_almere = {
+	color = { 195 120 40 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		741 742 743 744 745 829 830 831 834 2803 2804 2805 2806 2807 2808 2809 2810 2811 2812 2813 2814 2815 2816 2931 2937 2939 4601 4602 4608 4609 4610 4611 4612 4613 4614 4615 4616 4617
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_ALMERE_Almere"
+	}
+}
+
+# Antarctica
+colonial_antarctica = {
+	color = { 130 180 200 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		761 762 763 764 765 766 768 769 776 2881 2892 2893 2894 2895 2896 2897 2899 2903 2906 2907 2919 2920
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_ANTARCTICA_Antarctica"
 	}
 }
 
@@ -162,7 +238,7 @@ colonial_appalachia = {
 
 # Avalon
 colonial_avalon = {
-	color = { 130 180 200 }
+	color = { 0 77 128 }
 
 	# Random New World
 	tax_income = 0
@@ -184,7 +260,7 @@ colonial_avalon = {
 	}
 
 	provinces = {
-		741 742 743 744 745 746 747 2805 2803 2804 2811 2889 2930 2931 2933 2934 2935 2937 2938 4615 4616 4617 5059 5579 6058
+		772 773 775 777 778 779 786 790 791 794 799 2836 2837 2838 2839 2842 2843 2844 2845 2846 2847 2848 2849 2850 2851 2852 2853 2854 2855 2857 2858 2859 2860 2861 2863 2865 2866 2867 2872 2877 2878 2879 2882 2883 2884 2887
 	}
 
 	# Specific
@@ -240,7 +316,7 @@ colonial_azania = {
 
 # Aztlan
 colonial_aztlan = {
-	color = { 195 120 40 }
+	color = { 0 153 77 }
 
 	# Random New World
 	tax_income = 0
@@ -278,7 +354,7 @@ colonial_aztlan = {
 
 # The Carribean
 colonial_the_carribean = {
-	color = { 254 117 9 }
+	color = { 255 204 102 }
 
 	# Random New World
 	tax_income = 1
@@ -305,6 +381,7 @@ colonial_the_carribean = {
 		487 491 492 493 494 495 496 497 498 499 500 501 502 1881 5578 5581 5582 5583 5584 5585 5586
 		#BT14
 		6046 6047 6048 6049 6050 6061
+		5579 6058 6059
 	}
 	
 	# Specific
@@ -318,36 +395,31 @@ colonial_the_carribean = {
 	}
 }
 
-# Cuzco
-colonial_cuzco = {
-	color = { 124 140 162 }
+# Ethelland
+colonial_ethelland = {
+	color = { 175 45 45 }
 
 	# Random New World
-	tax_income = 2
-	native_size = 12
-	native_ferocity = 1
-	native_hostileness = 1
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
 	
 	trade_goods = {
-		grain = 7
-		fish = 2
-		gold = 7
-		cocoa = 2
-		copper = 2
+		fish = 10
 	}
-
+	
 	culture = {
-		inca = 10
+		beothuk = 10
+		mikmaq = 1
 	}
+	
 	religion = {
-		animism = 10
+		shamanism = 10
 	}
 
 	provinces = {
-		795 797 800 801 802 803 2831 2832 2833 2834 2835 2838 2940 2941 2942 2946 2947 #Bolivia
-		804 805 809 810 811 814 2826 2827 #Tawantisuyu
-		806 807 808 2828 2829 2830 #Kuntisuyu
-		2944 #Amazon
+		793 795 796 797 800 801 802 803 804 805 806 807 808 809 810 811 812 813 814 815 816 817 818 819 820 821 822 823 824 825 826 827 828 832 2817 2818 2820 2821 2822 2823 2824 2825 2826 2827 2828 2829 2830 2831 2832 2833 2834 2835 2840 2940 2941 2942 2943 2944 2945 2946 2947 4596 4599 4600 4603 4604 4605 4607	
 	}
 
 	# Specific
@@ -357,7 +429,45 @@ colonial_cuzco = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 	names = {
-		name = "COLONIAL_CUZCO_Cuzco"
+		name = "COLONIAL_ETHELLAND_Ethelland"
+	}
+}
+
+# Gharbiya
+colonial_gharbiya = {
+	color = { 31 122 31 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		750 751 752 753 754 755 756 757 759 760 2885 2886 2891 2898 2912 2913 2914 2915 2916 2917 2918 2921 2922 2925 
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_GHARBIYA_Gharbiya"
 	}
 }
 
@@ -560,6 +670,44 @@ colonial_lucayas = {
 	}
 }
 
+# Maragnan
+colonial_maragnan = {
+	color = { 102 102 255 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		746 747 748 749 758 2888 2889 2890 2900 2901 2902 2904 2905 2908 2909 2910 2911 2923 2924 2926 2927 2928 2929 2930 2933 2934 2935 2938
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_MARAGNAN_Maragnan"
+	}
+}
+
 # Markland
 colonial_markland = {
 	color = { 30 150 50 }
@@ -633,44 +781,6 @@ colonial_merovingia = {
 	}
 	names = {
 		name = "COLONIAL_MEROVINGIA_Merovingia"
-	}
-}
-
-# New Cantabria
-colonial_new_cantabria = {
-	color = { 175 45 45 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
-	provinces = {
-		812 813 815 816 817 818 819 820 821 822 823 824 825 826 827 828 829 830 831 832 834 2806 2807 2808 2809 2810 2813 2812 2814 2815 2816 2817 2818 2820 2821 2822 2823 2824 2825 2939 2943 2945 4596 4599 4600 4601 4602 4603 4604 4605 4607 4608 4609 4610 4611 4612 4613 4614
-	}
-
-	# Specific
-
-	# Generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_NEW_CANTABRIA_New_Cantabria"
 	}
 }
 
@@ -792,7 +902,7 @@ colonial_northwest_territories = {
 
 # Storvatnland
 colonial_storvatnland = {
-	color = { 100 90 170 }
+	color = { 0 145 120 }
 
 	# Random New World
 	tax_income = 0
