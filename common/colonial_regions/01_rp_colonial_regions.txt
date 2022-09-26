@@ -160,44 +160,6 @@ colonial_almere = {
 	}
 }
 
-# Antarctica
-colonial_antarctica = {
-	color = { 130 180 200 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
-	provinces = {
-		761 762 763 764 765 766 768 769 776 2881 2892 2893 2894 2895 2896 2897 2899 2903 2906 2907 2919 2920
-	}
-
-	# Specific
-
-	# Generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_ANTARCTICA_Antarctica"
-	}
-}
-
 # Appalachia
 colonial_appalachia = {
 	color = { 220 190 70 }
@@ -395,6 +357,45 @@ colonial_the_carribean = {
 	}
 }
 
+# Eastern Elysia
+colonial_eastern_elysia = {
+	color = { 31 122 31 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		750 751 752 753 754 755 756 757 759 760 2885 2886 2891 2898 2912 2913 2914 2915 2916 2917 2918 2921 2922 2925 
+		761 762 763 764 765 766 768 769 776 2881 2892 2893 2894 2895 2896 2897 2899 2903 2906 2907 2919 2920
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_EASTERN_ELYSIA_Eastern_Elysia"
+	}
+}
+
 # Ethelland
 colonial_ethelland = {
 	color = { 175 45 45 }
@@ -430,44 +431,6 @@ colonial_ethelland = {
 	}
 	names = {
 		name = "COLONIAL_ETHELLAND_Ethelland"
-	}
-}
-
-# Gharbiya
-colonial_gharbiya = {
-	color = { 31 122 31 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
-	provinces = {
-		750 751 752 753 754 755 756 757 759 760 2885 2886 2891 2898 2912 2913 2914 2915 2916 2917 2918 2921 2922 2925 
-	}
-
-	# Specific
-
-	# Generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_GHARBIYA_Gharbiya"
 	}
 }
 
