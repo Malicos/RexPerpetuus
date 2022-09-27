@@ -654,18 +654,35 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# Sweden and Jutland
+# Jutland and Djursland
 vassal = {
-	first = SWE
-	second = JUT
+	subject_type = fiefdom_bt
+	first = JUT
+	second = DSL
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Sweden and Zealand
+# Norway and Ribe
 vassal = {
-	first = SWE
-	second = ZEA
+	first = NOR
+	second = RBE
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Norway and Denmark
+vassal = {
+	first = NOR
+	second = DAN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Norway and Jutland
+union = {
+	first = NOR
+	second = JUT
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
