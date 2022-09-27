@@ -1,8 +1,8 @@
 #4151 - Most of Kemi Lappmark: Enare/Inari, Sodankylä, Kemikyla, Utsjoki, Kittila, Sombio
 
-owner = SWE
-controller = SWE 
-add_core = SWE
+owner = KNU
+controller = KNU
+add_core = KNU
 add_core = SMI
 capital = "Inari" #BT Bugfixes switched to Inari/Enare. This place was definitely inhabited since the Stone Age, even though the name Inari/Enare may not have occured before that. #Uncertain if this existed at that point.
 culture = sapmi
