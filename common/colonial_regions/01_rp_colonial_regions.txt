@@ -198,6 +198,44 @@ colonial_appalachia = {
 	}
 }
 
+# Arrigada
+colonial_arrigada = {
+	color = { 163 194 194 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		780 781 782 783 784 785 787 792 2841 2862 2868 2869 2870 2871 2873 2874 2875 2876
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_ARRIGADA_Arrigada"
+	}
+}
+
 # Avalon
 colonial_avalon = {
 	color = { 0 77 128 }
@@ -554,6 +592,28 @@ colonial_helluland = {
 	}
 }
 
+# Java-la-Grande
+colonial_java_la_grande = {
+	color = { 159 168 218 }
+
+	provinces = {
+		1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1094
+		2726 2727 2728 2729 2730 2731
+		2732 2733 2734 2735 2736
+		4865 4866 4867 4846 4847 4848 4849 4850 4853 4852 4851 4854 4855 4856 4857 4861 4859 4860 4858 4862 5687 5686 4863 4864 4868 4869
+	}
+	
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_JAVA_LA_GRANDE_Java-la-Grande"
+	}
+}
+
 # Kiskeya
 colonial_kiskeya = {
 	color = { 90 200 65 }
@@ -860,6 +920,45 @@ colonial_northwest_territories = {
 	}
 	names = {
 		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+# Polynesia
+colonial_polynesia = {
+	color = { 29 172 194 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 10
+	native_ferocity = 1
+	native_hostileness = 3
+	
+	trade_goods = {
+		fish = 10
+		naval_supplies = 10
+	}
+	
+	culture = {
+		maori = 10 # Brian
+	}
+	
+	religion = {
+		animism = 10
+	}
+
+	provinces = {
+		1106 1107 1108 1109 1246 2737 2738 2739 5021 5022 
+		5597 5598 5599 5600 5601 5602 5603 5604 5605 5606 5607 5608 5609 5610 4939
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_POLYNESIA_Polynesia"
 	}
 }
 
