@@ -1,8 +1,9 @@
  
 #BT Scandinavia and Baltics reoverhaul
 
-owner = RUG
-controller = RUG
+owner = DAN
+controller = DAN
+add_core = DAN
 add_core = RUG
 culture = polabian_culture
 religion = catholic
