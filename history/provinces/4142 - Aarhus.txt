@@ -1,7 +1,8 @@
 #Eastern Jutland, incl. Aarhus, Djursland and Randers.
 
-owner = JUT
-controller = JUT
+owner = DAN
+controller = DAN
+add_core = DAN
 add_core = JUT
 culture = danish
 religion = catholic

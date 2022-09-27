@@ -2,9 +2,9 @@
 #Region - Scandinavia
 #Area - Denmark
 
-owner = SCN
-controller = SCN
-add_core = SCN
+owner = DAN
+controller = DAN
+add_core = DAN
 culture = danish
 religion = catholic
 hre = no

@@ -2,8 +2,10 @@
 #Region - Scandinavia
 #Area - Skaneland
 
-owner = SCN
-controller = SCN
+owner = SWE
+controller = SWE
+add_core = SWE
+add_core = DAN
 add_core = SCN
 culture = danish
 religion = catholic

@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 224 24 54 }
+color = { 166 97 60 }
 
 revolutionary_colors = { 5  0  5 } #Made up
 

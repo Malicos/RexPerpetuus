@@ -2,9 +2,9 @@
 #Region - Scandinavia
 #Area - Jutland
 
-owner = SLW
-controller = SLW
-add_core = SLW
+owner = RBE
+controller = RBE
+add_core = RBE
 add_core = JUT
 culture = danish
 religion = catholic

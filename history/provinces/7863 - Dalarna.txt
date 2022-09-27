@@ -1,7 +1,8 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = SWE
-controller = SWE
+owner = NOR
+controller = NOR
+add_core = NOR
 add_core = SWE
 culture = swedish
 religion = catholic

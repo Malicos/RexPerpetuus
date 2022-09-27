@@ -3,8 +3,9 @@
 #Region - Germany
 #Area - Vorpommern
 
-owner = RUG
-controller = RUG
+owner = DAN
+controller = DAN
+add_core = DAN
 add_core = RUG
 culture = polabian_culture
 religion = catholic

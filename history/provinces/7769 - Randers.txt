@@ -1,7 +1,8 @@
 #BT reoverhaul
 
-owner = JUT
-controller = JUT
+owner = DSL
+controller = DSL
+add_core = DSL
 add_core = JUT
 culture = danish
 religion = catholic

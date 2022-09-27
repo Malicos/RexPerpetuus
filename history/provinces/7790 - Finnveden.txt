@@ -1,7 +1,8 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = SWE
-controller = SWE
+owner = DAN
+controller = DAN
+add_core = DAN
 add_core = SWE
 add_core = GTA
 culture = swedish

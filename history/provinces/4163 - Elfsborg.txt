@@ -1,7 +1,8 @@
 #Elfsborgs Län
 
-owner = SWE
-controller = SWE
+owner = NOR
+controller = NOR
+add_core = NOR
 add_core = SWE
 add_core = GTA
 culture = swedish

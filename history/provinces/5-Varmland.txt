@@ -2,9 +2,11 @@
 #Region - Scandinavia
 #Area - Svealand
 
+owner = NOR
+controller = NOR
+add_core = NOR
 add_core = SWE
-owner = SWE
-controller = SWE
+add_core = GTA
 culture = swedish
 religion = catholic
 hre = no
@@ -14,7 +16,6 @@ trade_goods = iron
 base_manpower = 1 
 capital = "Tingvalla"
 is_city = yes
-add_core = GTA
 
 discovered_by = western
 discovered_by = eastern

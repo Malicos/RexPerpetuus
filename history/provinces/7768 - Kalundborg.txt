@@ -1,9 +1,9 @@
 #BT reoverhaul
 
-owner = ZEA
-controller = ZEA
-add_core = ZEA
+owner = DAN
+controller = DAN
 add_core = DAN
+add_core = ZEA
 culture = danish
 religion = catholic
 capital = "Kalundborg"

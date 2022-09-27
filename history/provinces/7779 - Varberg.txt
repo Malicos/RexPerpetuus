@@ -1,7 +1,9 @@
 #BT reoverhaul
 
-owner = SCN
-controller = SCN
+owner = NOR
+controller = NOR
+add_core = NOR
+add_core = DAN
 add_core = SCN
 culture = danish
 religion = catholic
