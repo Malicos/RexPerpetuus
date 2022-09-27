@@ -123,8 +123,10 @@ TCA = "countries/Trinacria.txt"
 
 # Scandinavia
 ABO = "countries/Abo.txt"
+DSL = "countries/Djursland.txt"
 KNU = "countries/Kainuu.txt"
 OSB = "countries/Ostrobothnia.txt"
+RBE = "countries/Ribe.txt"
 SAN = "countries/Savonia.txt"
 SKN = "countries/Satakunta.txt"
 SVB = "countries/Svalbard.txt"
