@@ -646,10 +646,42 @@ vassal = {
 ####################################################################
 # 6 - Scandinavia
 ####################################################################
-# Sweden and Estonia
+# Sweden and Abo
 vassal = {
 	first = SWE
+	second = ABO
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Sweden and Estonia
+guarantee = {
+	first = SWE
 	second = EST
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Sweden and Gotland
+vassal = {
+	first = SWE
+	second = GOT
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Sweden and Norrland
+march = {
+	first = SWE
+	second = NRL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Sweden and Lappland
+guarantee = {
+	first = SWE
+	second = LPL
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
@@ -667,6 +699,14 @@ vassal = {
 vassal = {
 	first = NOR
 	second = RBE
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Norway and Lappland
+guarantee = {
+	first = NOR
+	second = LPL
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }

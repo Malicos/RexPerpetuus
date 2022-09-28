@@ -2,9 +2,9 @@
 #Region - Scandinavia
 #Area - Norrland
 
-add_core = SWE
-owner = SWE
-controller = SWE
+add_core = NRL
+owner = NRL
+controller = NRL
 culture = swedish
 religion = catholic
 hre = no

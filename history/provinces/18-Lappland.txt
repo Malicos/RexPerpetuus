@@ -2,9 +2,9 @@
 #Region - Scandinavia
 #Area - Norrland
 
-owner = SWE
-controller = SWE 
-add_core = SWE
+owner = LPL
+controller = LPL 
+add_core = LPL
 add_core = SMI
 capital = "Sorsele"
 culture = aarjelsaemia
