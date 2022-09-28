@@ -239,15 +239,6 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# Guyenne and Armagnac
-vassal = {
-	subject_type = fiefdom_bt
-	first = TOU
-	second = AMG
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Toulouse and Carcassonne
 vassal = {
 	subject_type = fiefdom_bt
