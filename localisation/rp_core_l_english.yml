@@ -48,7 +48,7 @@
  afri:0 "Afri"
  ###Dacian###
  moldavian_culture:0 "Moldavian"
- patzinac:0 "Pacinac"   # Daco-Turkic Pecheneg
+ patzinac:0 "Paccinac"   # Daco-Turkic Pecheneg
 
  ###East Slavic###
  rostovian:0 "Rostovian"
@@ -428,8 +428,8 @@
  LSL_ADJ:0 "Lower Silesian"
  PCS:0 "Phocis"
  PCS_ADJ:0 "Phocean"
- PEC:0 "Pacinacia"
- PEC_ADJ:0 "Pacinac"
+ PEC:0 "Paccinacia"
+ PEC_ADJ:0 "Paccinac"
  PNS:0 "Pinsk"
  PNS_ADJ:0 "Pinskian"
  SGR:0 "Starogard"
