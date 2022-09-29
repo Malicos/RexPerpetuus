@@ -39,22 +39,37 @@ historical_units = {
 }
 
 monarch_names = {
-	"Christian #0" = 140
-	"Frederik #0" = 120
-	"Erik #7" = 20
-	"Christoffer #3" = 20
-	"Adolf #0" = 10
+	# RP HISTORICAL RULERS
+	"Knud #4" = 60
+	"Gorm #1" = 1
+	"Harald #3" = 40
+	"Svein #2" = 20
+	"Magnus #1" = 10
+	"Erik #2" = 20
 	"Niels #1" = 10
+	"Torfinn #1" = 0
+	"Ester #1" = -10
+	"Thorolf #1" = 1
+	"Sigtryg #1"= 0
+	"Ulf #1" = 10
+	"Halvor #1" = 10
+	"Grim #1" = 0
+	"Holger #1" = 0
+	"Oluf #1" = 1
+	"Karoline #1" = -10
+	"Anders #1" = 1
+	
+	# RANDOM NAMES - MALE
+	"Christian #0" = 10
+	"Frederik #0" = 10
+	"Christoffer #0" = 20
+	"Adolf #0" = 10
 	"Karl #0" = 10
-	"Magnus #1" = 1
 	"Maximilian #0" = 10
 	"Ulrik #0" = 10
-	"Abel #1" = 10
+	"Abel #0" = 10
 	"Vilhelm #0" = 5
-	"Knud #6" = 1
-	"Valdemar #4" = 1
-	"Harald #3" = 1
-	"Oluf #2" = 1
+	"Valdemar #0" = 1
 	"Alfred #0" = 0
 	"Anton #0" = 0
 	"Bent #0" = 0
@@ -65,7 +80,6 @@ monarch_names = {
 	"Gunnar #0" = 0
 	"Hans #0" = 20
 	"Henrik #0" = 0
-	"Holger #0" = 0
 	"Jørgen #0" = 0
 	"Kasper #0" = 0
 	"Peter #0" = 0
@@ -80,6 +94,8 @@ monarch_names = {
 	"Joachim #0" = 0
 	"Ernst #0" = 0
 	"Frans #0" = 0
+	
+	# RANDOM NAMES - FEMALE
 	"Sofie #0" = -5
 	"Dorothea #0" = -10
 	"Margrete #1" = -10

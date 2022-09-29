@@ -5,8 +5,8 @@
 #Core Details
 capital = "Monmouth"
 is_city = yes
-owner = GWE
-controller = GWE
+owner = MGS
+controller = MGS
 
 #Demographics
 culture = sexish_culture
@@ -19,6 +19,7 @@ base_manpower = 1
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
+add_core = MGS
 add_core = GWE
 
 #Other Political
