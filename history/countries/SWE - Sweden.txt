@@ -8,10 +8,10 @@ religion = catholic
 add_accepted_culture = finnish
 capital = 1	#Stockholm
 
-1444.11.11 = {
+1441.06.15 = {
 	monarch = {
-		name = "Sven"
-		dynasty = "af Holstein-Gottorp"
+		name = "Sven II"
+		dynasty = "Hälsingi"
 		adm = 2
 		dip = 3
 		mil = 4
@@ -21,33 +21,4 @@ capital = 1	#Stockholm
 	}
 	add_ruler_personality = drunkard_personality
 	add_ruler_personality = intricate_web_weaver_personality
-	queen = {
-		name = "Åshild"
-		dynasty = "Orkneyjar-Steig"
-		adm = 4
-		dip = 5
-		mil = 5
-		country_of_origin = NOR
-		birth_date = 1402.9.21
-		death_date = 1462.9.21
-		female = yes
-		religion = catholic
-		culture = norwegian
-	}
-	add_queen_personality = naive_personality
-	add_queen_personality = righteous_personality
-	heir = {
-		name = "Järpulf"
-		monarch_name = "Järpulf"
-		dynasty = "af Holstein-Gottorp"
-		adm = 6
-		dip = 4
-		mil = 6
-		birth_date = 1407.8.7
-		death_date = 1472.8.7
-		religion = catholic
-		culture = swedish
-	}
-	add_heir_personality = drunkard_personality
-	add_heir_personality = righteous_personality
 }
