@@ -5,8 +5,8 @@
 #Core Details
 capital = "Flint"
 is_city = yes
-owner = PCK
-controller = PCK
+owner = WKS
+controller = WKS
 
 #Demographics
 culture = welsh
@@ -20,6 +20,7 @@ trade_goods = fish
 latent_trade_goods = { coal }
 
 #Cores and Occupation (Alphabetical after current)
+add_core = WKS
 add_core = PCK
 add_core = GWD
 
