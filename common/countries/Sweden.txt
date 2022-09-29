@@ -40,7 +40,7 @@ historical_units = {
 monarch_names = {
 	# RP HISTORICAL RULERS
 	"Erik #2" = 50
-	"Olafr #1" = 10
+	"Olaf #1" = 10
 	"Anundr #2" = 0
 	"Emundr #1" = 0
 	"Stenkil #2" = 10
@@ -88,7 +88,6 @@ monarch_names = {
 	"Lars #0" = 0
 	"Ludvig #0" = 0
 	"Mikael #0" = 0
-	"Olof #0" = 0
 	"Patrik #0" = 0
 	"Rangvald #0" = 0
 	"Rettil #0" = 0
