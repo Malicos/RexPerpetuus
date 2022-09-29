@@ -18,6 +18,7 @@
 1231 = "Souan"
 1233 = "Hibis"
 #1234 = "Ibrim"			#as Default
+2315 = "Klousma"			#found on https://www.trismegistos.org/
 2316 = "Zau"			#Ancient Egyptian, modern uncomfirmed
 2317 = "Thmone"			#Or Shmounein
 2318 = "Wahenpemdje"
