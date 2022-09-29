@@ -77,7 +77,7 @@
 1231 = { "Souan" "Souan" } #
 1233 = { "Wah Enhib" "Wah Enhib" } #Hib
 1234 = { "Prim" "Prim" } #
-2315 = { "Suez" "Suez" } #
+2315 = { "Klousma" "Klousma" } #
 2316 = { "Tantato" "Tantato" } #
 2317 = { "Thmone" "Thmone" } #
 2319 = { "Siowt" "Siowt" } #
