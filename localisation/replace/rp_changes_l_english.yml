@@ -162,6 +162,9 @@
  mongolia_region:0 "Zubica"
  mongolia_region_name:0 "Zubica"
  mongolia_region_adj:0 "Zubic"
+ scandinavia_region:0 "Nordurica"
+ scandinavia_region_name:0 "Nordurica"
+ scandinavia_region_adj:0 "Nordurican"
  
  # Superregions
  africa_superregion:1 "Northern Ethiopia"
