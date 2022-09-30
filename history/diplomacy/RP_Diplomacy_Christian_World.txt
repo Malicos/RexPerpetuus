@@ -15,6 +15,7 @@
 #9 - Balkans
 #10 - Hungary
 #11 - Spain
+#12 - Christian Levant and Egypt
 
 ####################################################################
 # 1 - Northern Isles (Albion)
@@ -987,6 +988,26 @@ vassal = {
 	subject_type = fiefdom_bt
 	first = CAS
 	second = STD
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+####################################################################
+# 12 - Christian Levant and Egypt
+####################################################################
+
+# Jerusalem and Galilee
+vassal = {
+	first = KOJ
+	second = GAE
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Jerusalem and Ultrajordania
+vassal = {
+	first = KOJ
+	second = UTJ
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
