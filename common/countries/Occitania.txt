@@ -2,7 +2,7 @@
 
 graphical_culture = latingfx
 
-color = { 212 9 38 } #Revised/Lighter Red. #164 7 30 #139 6 25 #115 5 21 #Revised/Darker Red. #170 152 169 would be HOI4 Kaiserreich color pre-removal. #Original Red: 188 8 34. Too close to England, which is why am using KR.
+color = { 170 152 169 }
 revolutionary_colors = { 5 8 0 }
 
 historical_idea_groups = {
