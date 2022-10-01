@@ -289,9 +289,9 @@ fiefdom_bt = {
 	copy_from = default
 	
 	# Graphics:
-	sprite = GFX_icon_vassal
-	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
-	diplomacy_subject_sprite = GFX_diplomacy_amvassal
+	sprite = GFX_icon_fief
+	diplomacy_overlord_sprite = GFX_diplomacy_leadfief
+	diplomacy_subject_sprite = GFX_diplomacy_amfief
 
 	# Properties:
 	takes_diplo_slot = yes #Modified
@@ -323,8 +323,8 @@ fiefdom_bt = {
 		modifier = vassal_subject
 	}
 
-	overlord_opinion_modifier = is_vassal
-	subject_opinion_modifier = is_vassal
+	overlord_opinion_modifier = is_fief
+	subject_opinion_modifier = is_fief
 }
 
 hanseatic_league_member_bt = {
