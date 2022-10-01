@@ -43,12 +43,9 @@ ship_names = {
 	Lieaibolmmai Ruohtta  Stallo  Tjaetsieålmaj Raedieahkka
 }
 
-monarch_names = {
-	# RP HISTORICAL RULERS
-	"Anders #2" = 20
-	
+monarch_names = {	
 	# RANDOM NAMES
-	"Kaupo #0" = 20
+	"Kaupo #2" = 20
 	"Shutr #0" = 20
 	"Narvait #0" = 20
 	"Dovyat #0" = 10
