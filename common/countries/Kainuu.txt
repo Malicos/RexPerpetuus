@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 255 100 50 }
-revolutionary_colors = { 0 13 0 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -71,6 +70,24 @@ ship_names = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+
+	"Rastos #1" = 1
+	"Voitto #1" = 1
+	"Erkki #1" = 1
+	"Speaidna #1" = 1
+	"Mohkku #2" = 20
+	"Algebaeivi #1" = 0
+	"Biejan #1" = 0
+	"Akhemiella #1" = 0
+	"Aggi #2" = 20
+	"Asllat #1" = 0
+	"Ara #1" = 0
+	"Giera #1" = -1
+	"Baeivi #1" = 0
+	"Bijas #1" = 10
+
+	# RANDOM NAMES
 	"Eerikki #0" = 20
 	"Niklas #0" = 20
 	"Väinämöinen #0" = 20
@@ -109,7 +126,6 @@ monarch_names = {
 	"Veli #0" = 0
 	"Vieno #0" = 0
 	"Vilhelmi #0" = 0
-	"Voitto #0" = 0
 	
 	"Tarja #0" = -1
 	"Aina #0" = -1
