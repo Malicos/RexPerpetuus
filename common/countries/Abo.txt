@@ -1,9 +1,8 @@
-#Finland
+# Abo
 
 graphical_culture = westerngfx
 
 color = { 4 86 184 }
-revolutionary_colors = { 0 13 0 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -71,6 +70,29 @@ ship_names = {
 }
 
 monarch_names = {
+	# RP HISTORICAL RULERS
+	"Miemo #1" = 10
+	"Paivio #2" = 20
+	"Voitto #2" = 20
+	"Tapani #2" = 20
+	"Satajalka #3" = 60
+	"Otso #1" = 10
+	"Ihala #1" = 10
+	"Sven #1" = 0
+	"Grim #1" = 1
+	"Folke #2" = 10
+	"Dag #1" = 0
+	"Brynolf #2" = 10
+	"Alfhild #1" = -1
+	"Etienne #1" = 0
+	"Bajoras #1" = 0
+	"Kolbjorn #2" = 1
+	"Ragnhild #1" = -1
+	"Gerolt #1" = 1
+	"Georg #1" = 1
+	"Sviatopluk #2" = 0
+	
+	# RANDOM NAMES
 	"Eerikki #0" = 20
 	"Niklas #0" = 20
 	"Väinämöinen #0" = 20
@@ -96,7 +118,6 @@ monarch_names = {
 	"Mainio #0" = 0
 	"Mikael #0" = 0
 	"Onni #0" = 0
-	"Otso #0" = 0
 	"Paavo #0" = 0
 	"Petteri #0" = 0
 	"Ransu #0" = 0
@@ -109,7 +130,6 @@ monarch_names = {
 	"Veli #0" = 0
 	"Vieno #0" = 0
 	"Vilhelmi #0" = 0
-	"Voitto #0" = 0
 	
 	"Tarja #0" = -1
 	"Aina #0" = -1
