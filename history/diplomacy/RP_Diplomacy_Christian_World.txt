@@ -670,6 +670,22 @@ march = {
 	end_date = 1836.1.1
 }
 
+# Sweden and Kvenland
+march = {
+	first = SWE
+	second = OSB
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Sweden and Satakunta
+march = {
+	first = SWE
+	second = SKN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Sweden and Lappland
 guarantee = {
 	first = SWE

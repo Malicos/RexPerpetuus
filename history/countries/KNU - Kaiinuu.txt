@@ -1,8 +1,20 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = western
-religion = catholic
-primary_culture = finnish
-add_accepted_culture = swedish
-capital = 28	# Nyland
+religion = finnish_pagan_reformed
+primary_culture = kainuunsaame
+capital = 4152	# Kainuu
+
+1421.11.27 = {
+	monarch = {
+		name = "Bijas"
+		dynasty = "Okalya"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1400.11.18
+		religion = finnish_pagan_reformed
+		culture = kainuunsaame
+	}
+}

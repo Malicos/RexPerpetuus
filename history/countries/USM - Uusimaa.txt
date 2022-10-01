@@ -6,3 +6,16 @@ religion = catholic
 primary_culture = finnish
 add_accepted_culture = swedish
 capital = 28	# Nyland
+
+1436.10.21 = {
+	monarch = {
+		name = "Frej"
+		dynasty = "Vogelius"
+		adm = 4
+		dip = 2
+		mil = 3
+		birth_date = 1397.7.16
+		religion = catholic
+		culture = swedish
+	}
+}

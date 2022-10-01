@@ -2,8 +2,9 @@
 #Region - Scandinavia
 #Area - Finland
 
-owner = TAV
-controller = TAV
+owner = SKN
+controller = SKN
+add_core = SKN
 add_core = TAV
 culture = finnish
 religion = finnish_pagan_reformed

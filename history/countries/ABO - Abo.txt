@@ -11,10 +11,10 @@ capital = 27	# Abo
 	monarch = {
 		name = "Sviatopluk II"
 		dynasty = "Piast-Turku"
-		adm = 4
+		adm = 2
 		dip = 3
-		mil = 2
-		birth_date = 1425.2.13
+		mil = 4
+		birth_date = 1400.2.13
 		religion = catholic
 		culture = swedish
 	}

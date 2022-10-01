@@ -1,8 +1,20 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = western
-religion = catholic
+religion = finnish_pagan_reformed
 primary_culture = finnish
-add_accepted_culture = swedish
-capital = 28	# Nyland
+capital = 31	# Savolax
+
+1388.05.13 = {
+	monarch = {
+		name = "Tuovi"
+		dynasty = "Savolainen"
+		adm = 2
+		dip = 2
+		mil = 4
+		birth_date = 1384.05.02
+		religion = finnish_pagan_reformed
+		culture = finnish
+	}
+}

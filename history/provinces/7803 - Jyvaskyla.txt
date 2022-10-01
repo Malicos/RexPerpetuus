@@ -1,7 +1,8 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = TAV
-controller = TAV
+owner = SAN
+controller = SAN
+add_core = SAN
 add_core = TAV
 culture = finnish
 religion = finnish_pagan_reformed

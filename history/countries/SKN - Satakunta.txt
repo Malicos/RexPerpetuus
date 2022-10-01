@@ -5,4 +5,17 @@ technology_group = western
 religion = catholic
 primary_culture = finnish
 add_accepted_culture = swedish
-capital = 28	# Nyland
+capital = 3128	# Satakunta
+
+1433.03.19 = {
+	monarch = {
+		name = "Dagonis"
+		dynasty = "Sjoblad"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1389.08.06
+		religion = catholic
+		culture = swedish
+	}
+}
