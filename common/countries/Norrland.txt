@@ -1,7 +1,6 @@
 graphical_culture = westerngfx
 
 color = { 55 69 115 }
-revolutionary_colors = { 5 8 13 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -45,21 +44,77 @@ ship_names = {
 }
 
 monarch_names = {
-	"Kaupo #0" = 20
-	"Shutr #0" = 20
-	"Narvait #0" = 20
-	"Dovyat #0" = 10
-	"Likiik #0" = 10
-	"Nils-Sako #0" = 10
-	"Ingor #0" = 5
-	"Niko #0" = 5
-	"Jaco #0" = 5
-	"Frode #0" = 5
-	"Vetseke #0" = 0
-	"Vaishvilkas #0" = 0
-	"Yudki #0" = 0
+	# RP RULERS OF NORRLAND
+	"Osten #1" = 50
 	
-	"Inga #0" = -1
-	"Ulla #0" = -1
-	"Lisa #0" = -1
+	# RP HISTORICAL RULERS OF SWEDEN
+	"Erik #0" = 50
+	"Olaf #0" = 10
+	"Anundr #0" = 0
+	"Emundr #0" = 0
+	"Stenkil #0" = 10
+	"Halsten #0" = 0
+	"Hakan #0" = 60
+	"Inge #0" = 10
+	"Blot-Sven #0" = 0
+	"Filip #0" = 10
+	"Ragnvald #0" = 0
+	"Sigurd #0" = 10
+	"Georg #0" = 10
+	"Nils #0" = 60
+	"Rangfrid #0" = -10
+	"Tord #0" = 0
+	"Toste #0" = 1
+	"Arne #0" = 20
+	"Ragnar #0" = 1
+	"Sven #0" = 20
+	"Botulf #0" = 0
+	"Samund #0" = 10
+
+	# RANDOM NAMES - MALE
+	"Karl #0" = 20
+	"Gustav #0" = 60
+	"Johan #0" = 10
+	"Christian #0" = 20
+	"Christoph #0" = 20
+	"Adolf #0" = 10
+	"Magnus #0" = 10	
+	"Oskar #0" = 10
+	"Fredrik #0" = 5
+	"Göran Love #0" = 5	
+	"Sigismund #0" = 5
+	"Björn #0" = 1
+	"Knut #0" = 1
+	"Alfred #0" = 0
+	"Axel #0" = 0
+	"Bengt #0" = 0
+	"Edvard #0" = 0
+	"Einar #0" = 0
+	"Folke #0" = 0
+	"Gottfrid #0" = 0
+	"Henrik #0" = 0
+	"Jakob #0" = 0
+	"Lars #0" = 0
+	"Ludvig #0" = 0
+	"Mikael #0" = 0
+	"Patrik #0" = 0
+	"Rangvald #0" = 0
+	"Rettil #0" = 0
+	"Sigvard #0" = 0
+	"Simon #0" = 0
+	"Sten #0" = 0
+	"Svante #0" = 0
+	"Tomas #0" = 0
+	"Ulrik #0" = 0
+	
+	# RANDOM NAMES - FEMALE	
+	"Christina #0" = -10
+	"Hedwig #0" = -5
+	"Katarina #0" = -1
+	"Margareta #0" = -1
+	"Anna #0" = -1
+	"Cecilia #0" = -1
+	"Elisabet #0" = -1
+	"Birgitta #0" = -1
+	"Ulrika Eleonora #0" = -10
 }

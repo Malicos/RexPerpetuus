@@ -1,7 +1,6 @@
 graphical_culture = westerngfx
 
 color = { 194 176 58 }
-revolutionary_colors = { 5 8 13 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -45,6 +44,10 @@ ship_names = {
 }
 
 monarch_names = {
+	# RP HISTORICAL RULERS
+	"Anders #2" = 20
+	
+	# RANDOM NAMES
 	"Kaupo #0" = 20
 	"Shutr #0" = 20
 	"Narvait #0" = 20
