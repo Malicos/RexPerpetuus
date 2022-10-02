@@ -35,30 +35,61 @@ historical_units = {
 }
 
 monarch_names = {
-	"Bagsecg #1" = 10
-	"Benedikt #1" = 10
-	"Eirikr #1" = 10
-	"Ellinor #0" = -1
-	"Filip #1" = 10
-	"Gnupa #2" = 10
-	"Gorm #1" = 10
-	"Gudrun #0" = -1
-	"Holmger #1" = 10
-	"Joakim #2" = 10
-	"Järpulf #0" = 0
-	"Katarina #0" = -1
-	"Mads #0" = 0
-	"Pridbjørn #1" = 10
-	"Ragnhild #0" = -1
-	"Sanna #1" = -1
-	"Sara #0" = -1
-	"Sigfred #0" = 0
-	"Sigtryg #1" = 10
-	"Svanhild #1" = -1
-	"Svend #1" = 10
-	"Thrugot #1" = 10
-	"Tobias #1" = 10
-	"Varg #2" = 10
+	# RP RULER NAMES
+	"Vagn #1" = 0
+	"Ingegerd #1" = -1
+	"Rodulvard #1" = 0
+	"Ulf #1" = 0
+	"Ragnfrid #1" = -1
+	"Tord #1" = 0
+	"Einar #2" = 20
+	"Torsten #2" = 20
+	"Brynolf #4" = 60
+
+	# RANDOM NAMES - MALE
+	"Christian #0" = 10
+	"Frederik #0" = 10
+	"Christoffer #0" = 20
+	"Adolf #0" = 10
+	"Karl #0" = 10
+	"Maximilian #0" = 10
+	"Ulrik #0" = 10
+	"Abel #0" = 10
+	"Vilhelm #0" = 5
+	"Valdemar #0" = 1
+	"Alfred #0" = 0
+	"Anton #0" = 0
+	"Bent #0" = 0
+	"Emanuel #0" = 0
+	"Esben #0" = 0
+	"Fritjof #0" = 0
+	"Frode #0" = 0
+	"Gunnar #0" = 0
+	"Hans #0" = 20
+	"Henrik #0" = 0
+	"Jørgen #0" = 0
+	"Kasper #0" = 0
+	"Peter #0" = 0
+	"Poul #0" = 0
+	"Rudolf #0" = 0
+	"Sigrun #0" = 0
+	"Stefan #0" = 0
+	"Tobias #0" = 0
+	"Torbald #0" = 0
+	"Viktor #0" = 0
+	"Vilfred #0" = 0
+	"Joachim #0" = 0
+	"Ernst #0" = 0
+	"Frans #0" = 0
+	
+	# RANDOM NAMES - FEMALE
+	"Sofie #0" = -5
+	"Dorothea #0" = -10
+	"Margrete #1" = -10
+	"Louise #0" = -1
+	"Vilhelmina #0" = -1
+	"Anne #0" = -1
+	"Christina #0" = -1
 }
 
 leader_names = {
