@@ -2,8 +2,9 @@
 #Region - Baltic
 #Area - Lithuania
 
-owner = SMG
-controller = SMG
+owner = LIT
+controller = LIT
+add_core = LIT
 add_core = SMG
 culture = samogitian
 religion = catholic

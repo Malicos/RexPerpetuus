@@ -1,7 +1,8 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = SMG
-controller = SMG
+owner = PRU
+controller = PRU
+add_core = PRU
 add_core = SMG
 culture = samogitian		#Major centre of Lithuanian culture in an predominantly German region. First ever book in Lithuanian published circa 
 religion = catholic

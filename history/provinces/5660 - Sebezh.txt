@@ -1,7 +1,8 @@
 #New Beyond Typus Province
 
-owner = PLT
-controller = PLT
+owner = KRV
+controller = KRV
+add_core = KRV
 add_core = PLT
 culture = byelorussian
 religion = orthodox

@@ -1,7 +1,8 @@
 #BT GDL reoverhaul
 
-owner = LEK
-controller = LEK
+owner = LIT
+controller = LIT
+add_core = LIT
 add_core = LEK
 culture = yotvingian_culture
 religion = catholic

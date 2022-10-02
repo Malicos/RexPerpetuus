@@ -1,7 +1,8 @@
 #4534 - Upita
 
-owner = AUK
-controller = AUK
+owner = LIT
+controller = LIT
+add_core = LIT
 add_core = AUK
 culture = lithuanian
 religion = catholic

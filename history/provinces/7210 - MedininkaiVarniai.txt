@@ -1,7 +1,8 @@
 #BT GDL reoverhaul
 
-owner = SMG
-controller = SMG
+owner = LIT
+controller = LIT
+add_core = LIT
 add_core = SMG
 culture = samogitian
 religion = catholic			#Realistically probably still pagan, but don't have the religion changes set up yet.

@@ -2,8 +2,9 @@
 #Region - Baltic
 #Area - Lithuania
 
-owner = LEK
-controller = LEK
+owner = LIT
+controller = LIT
+add_core = LIT
 add_core = LEK
 religion = catholic
 culture = yotvingian_culture

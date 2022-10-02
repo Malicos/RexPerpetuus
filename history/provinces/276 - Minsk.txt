@@ -1,7 +1,8 @@
 #276 - Minsk
 
-owner = MSK
-controller = MSK 
+owner = KRV
+controller = KRV
+add_core = KRV
 add_core = MSK
 culture = byelorussian
 religion = orthodox

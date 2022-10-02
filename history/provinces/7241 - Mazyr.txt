@@ -1,8 +1,10 @@
 #BT GDL reoverhaul
 
-owner = MSK
-controller = MSK 
+owner = KRV
+controller = KRV
+add_core = KRV
 add_core = MSK
+add_core = KIE
 culture = ruthenian
 religion = orthodox
 capital = "Mazyr"

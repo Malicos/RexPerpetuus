@@ -3,8 +3,8 @@
 owner = LIT
 controller = LIT
 add_core = LIT
-religion = orthodox
-culture = litvin
+culture = lithuanian
+religion = catholic
 capital = "Lida"
 trade_goods = livestock
 hre = no

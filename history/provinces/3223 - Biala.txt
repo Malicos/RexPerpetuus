@@ -1,7 +1,8 @@
 #3223 - Biala
 
-owner = LEK
-controller = LEK
+owner = HRO
+controller = HRO 
+add_core = HRO
 add_core = LEK
 culture = yotvingian_culture
 religion = catholic

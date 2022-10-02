@@ -2,8 +2,9 @@
 #Region - Baltic
 #Area - East Prussia
 
-owner = LEK
-controller = LEK
+owner = LIT
+controller = LIT
+add_core = LIT
 add_core = LEK
 capital = "Lek"
 culture = yotvingian_culture
