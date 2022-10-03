@@ -9,7 +9,7 @@ government_rank = 1
 
 1399.10.30 = {
 	monarch = {
-		name = "?underbarn"
+		name = "Þunderbarn"
 		dynasty = "Carlisle"
 		adm = 3
 		dip = 4
