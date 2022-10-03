@@ -10,7 +10,7 @@ government_rank = 1
 
 1436.10.7 = {
 	monarch = {
-		name = "Þunderstan"
+		name = "Thunderstan"
 		dynasty = "of Godwin"
 		adm = 3
 		dip = 2
