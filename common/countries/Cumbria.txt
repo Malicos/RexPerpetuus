@@ -49,7 +49,7 @@ monarch_names = {
 	"Aderen #1" = 10
 	"Anlof #1" = 1
 	"Seward #1" = 10
-	"Þunderbarn #1" = 1
+	"Thunderbarn #1" = 1
 	
 	# RANDOM NAMES - MALE
     "Hamrich #0" = 1
@@ -1418,7 +1418,7 @@ ship_names = {
 }
 
 army_names = {
-	"Royal Army" "Army of Scotland" "Army of Ireland"
+	"Royal Army"
 }
 
 fleet_names = {

@@ -965,29 +965,90 @@ british = {
 	english = {
 		primary = ENG
 		dynasty_names = {
-			Plantagenet Lancaster York Tudor Dudley Mowbray Beaufort Neville Percy Howard Seymour Holland
-			Talbot Stanley Courtenay "de la Pole" "de Vere" Stafford Grey Mortimer "le Despenser" "de Camoys"
-			"Oglethorpe" Hyde
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 			# CKII
 			"Turberville" "Butler" "Montagu" "Beauchamp" "Raleigh" "Stratford"
 		}
 		male_names = {
-			Henry Edward Charles James William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund
-			George John Jacob Humphrey Robert Stephen Adam Alexander Albert Alfred Ambrose Andrew Anthony Archibald
-			Benjamin Christopher Daniel David Ernest Francis Geoffrey Guy Horatio Hugh Isaac Jeremy Jonathan Joseph
-			Lawrence Matthew Nehemiah Oliver Samuel Sydney
-
-			Adam Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Christopher David
-			Edmund Edward Eric Erik Eustace Fulk Folke Geoffrey George Gerald Gilbert Godfrey Gregory Guy
-			Henry Hugh Humphrey Jocelyn John Jordan Laurence Lionel Mark Marcus Martin Matthew Maurice
-			Michael Nicholas Paul Peter Philip Ralph Randolph Reginald Richard Robert Roger Simon Stephen
-			Theobald Thomas Waleran Walter William Jacob Ambrose Anthony Archibald Benjamin Daniel Ernest
-			Francis Horatio Isaac Jeremy Jonathan Joseph Lawrence Nehemiah Oliver Samuel Sydney
+			Ackerley Acton Addelm Addis Ainard Ainbald Aingar Ainmer Ainnar Ainsley Ainsworth Ainwolf Alden Aldrich Aldrin Aldwin Alf Alfie Alfnoth Alfred Alfrich Alfswith Alger Alkar Alkard Alkbert 
+			Alkelm Alkmund Alkoun Alkrich Alkward Alkwin Alleaf Alrich Alsey Alston Alton Alvald Alvar Alvard Alvat Alvelm Alvey Alvin Alvmer Alvoun Alvy Alwin Anbald Anbert Ancoal Anfrith Anmer Annar 
+			Announ Anshoe Anwolf Ardwolf Armstrong Ashar Ashard Ashbert Ashbury Ashey Ashford Ashfrith Ashley Ashlock Ashman Ashmer Ashmund Ashred Ashton Ashwald Ashwin Ashwolf Ashwood Ashwy Aston Athelstan 
+			Atley Atwater Atwell Atwood Atworth Awald 
+			Bagmund Bagnoth Bagstan Balday Baldhelm Baldhoun Baldred Baldrich Baldwin Bancroft Barden Barrington Barton Baxter Beck Beddard Bede Bedfrith Bednoth Bedthane Bedwald Bedwolf Bedwy Beewolf
+			Bentley Benton Beowulf Beresford Berkeley Bernard Bernfrith Berngar Bernheath Bernhelm Bernhey Bernich Bernlof Bernmood Bernmund Bernred Bernrich Bernsey Bernstan Bernwald Bernwin Bernwolf 
+			Bernwy Bert Bertar Bertelm Bertey Bertferth Bertfrith Berthank Bertlof Bertmer Bertmund Bertnoth Berton Bertoun Bertrand Bertred Bertren Bertrich Bertsey Bertstan Bertwy Bertyils Beverley Billard 
+			Billfrith Billnoth Birchall Blackburn Blackstone Blackwell Blagden Blake Blakeley Blakeney Blithar Bond Booker Borden Botwin Botwolf Brad Bradburn Bradford Bradley Brand Brandon Branson Branton 
+			Braxton Brenton Breywald Breywin Breywolf Bridgeley Brigham Brighton Brinley Brinnar Brinning Brinwald Bristol Brock Brockley Brockton Bromley Bromwell Bronson Brooke Brunard Brunstan Buck Buckley 
+			Burhard Burhelm Burnelm Burnferth Burnoth Burrich Bursey Burstan Burton Burwald Burwin Burwolf Buxton Byron 
+			Cade Caldwell Calvert Cedric Chad Chadley Chadwick Chapman Chelbald Chelfrith Chellar Chellard Chellelm Chelley Chelnoth Chelred Chelrich Chelsea Chelsey Chelstan Chelwald Chelwin Chelwolf 
+			Chelwy Cherl Chester Churchbor Churchill Clay Clayland Clayton Cleveland Clifford Clifton Clint Clinton Colbor Colburn Colden Coleridge Colgate Colton Conwel Cranford Cranley Cranston Crawford
+			Crofton Cromwell Crow Cuthard Cuthbald Cuthbert Cuthmund Cuthred Cuthrich Cuthwin Cuthwolf Cuthyils Dale Dalwin Dane Darton Darwin Daybert Dayelm Dayey Daymund Dayren Dayrich Dayton Dean Dell 
+			Denard Denbert Denfrith Denham Denley Denmood Denton Denver Denwald Denwolf Denyils Derbert Derland Dermood Dermund Dernoth Derswith Derwald Derwolf Drayton Dritnoth Drittelm Dritwald Dryden Dunnar
+			Dunstan Dunton Dunwald Durward 
+			Easterwin Easton Edbald Edbert Eddar Eddelm Eddey Edfrith Edils Edlof Edmar Edmer Ednoth Edoun Edsey Edstan Edwaker Edwald Edwolf Edyard Egbald Egbert Egfrith Eggard Eggelm Eggoun Eglof Egmund Egnoth 
+			Egred Egrich Egstan Egwald Egwel Egwin Egwolf Eldar Eldbert Eldelm Eldfrith Eldoun Eldred Elmer Elton Elwood Emer Enbald Enbert Enfrith Engelren Enmund Ennar Enred Enstan Enwald Enwin Enyard Enyisel 
+			Erendel Erkenbald Erkenbert Erkenwald Ermenlof Ermenred Ermenrich Ernwald Ernwin Ernwolf Ernwy Erpwald Erpwin Esmund Ethelbald Ethelbrand Ethelgar Ethellar Ethellard Ethellelm Ethelley Ethelloun 
+			Ethelman Ethelmer Ethelmood Ethelmund Ethelnoth Ethelrich Ethelsey Ethelwald Ethelward Ethelwel Ethelwin Ethelwy Everard Everwin 
+			Fairchild Farman Farnham Farnley Farnoth Fastwolf Felton Felyeld Fenton Fenwick Fleetwood Folkar Folkard Folkbert Folkwald Folkwin Freeman Frelof Frewin Frewolf Frithbert Frithelm Frithgar
+			Frithlof Frithmund Frithred Frithrich Frithstan Frithwald Frithwin Frithwolf Frithyard Frithyils Frodo Fulred Fulton Gadfrith Gadrich Gangwolf Gar Garfield Garland Garmund Garrard Garthrist 
+			Garwald Garwin Garwolf Gladwin Goddard Godshalk Godwin Goodar Goodman Goodwin Goodwolf Goodwy Gorham Gorton Gresham Grimbald Guthfrith Guthlock Guthlof Guthmund Guthwald Guthwin 
+			Hadley Halfdan Hamilton Handshoe Harbald Harbert Hardbert Hardred Hardwick Hardwin Harfrith Harich Harland Harley Harman Harmer Harmood Harred Harsey Harstan Hartford Hartley Hartwell Harward 
+			Harwin Harwolf Hathaway Hathbald Hathbert Hathfrith Hathkin Hathlock Hathlof Hathred Hathrich Hathwald Hathwolf Hayden Hayley Hayward Haywood Heath Helmstan Helmweald Helmwolf Helmyils Helstan
+			Helwald Hereward Hergar Herolf Herrend Herstan Herwald Herward Heybert Heyfrith Heymund Heynoth Heyred Heystan Heyward Heywolf Hildbald Hildbert Hildfrith Hildmer Hildred Hildwin Hildyard Hilton
+			Hisbert Hisnoth Holden Horton Hunbert Hunlof Hunred Hunsey Hunstan Hunter Huntley Hunwald Hybald Hybert Hylock Hyton 
+			Ingbrand Ingwald Irwin 
+			Kenbert Kenelm Kenfous Kenfrith Kenlof Kennar Kennard Kenred Kenwald Kenwel Kenwin Kenwolf Kenyisel Kimber Kimberley Kinbald Kinbert Kinbill Kinfrith Kingsley Kingston Kingswell Kinmund Kinnard 
+			Kinred Kinrich Kinsey Kinsley Kinstan Kinthane Kinwald Kinwin Kinwolf Kinyils Knightley
+			Langdon Langford Langley Langston Langworth Layton Leaf Lechild Ledbald Leddar Ledfrith Ledwald Ledwolf Lefrich Lefrith Legar Leland Leman Lemer Lenoth Lesey Leson Lestan Leving Leward Lewin 
+			Livingston Lothar Luddar Ludlum Ludwy 
+			Mainar Mainard Marston Marwood Mathellard Melbourne Merhard Merryweather Merton Merwel Merwhite Middleton Milburn Milford Millard Milton Modwulf Morcar Morland Morley Morton Mycroft 
+			Newcombe Newland Newman Newport Newton Nithad Nithard Nithmund Norbert Norman Northrop Norton Norwood Nothar Nothard Nothbald Nothbert Nothelm Nothmund Nothwolf 
+			Oakbald Oakfrith Oakley Oakwolf Odell Ogden Onel Onyenthew Ordbert Ordfrith Ordgar Ordhelm Ordhey Ordlof Ordmer Ordnoth Ordrich Ordwald Ordwolf Osbald Osbert Osborn Osfrith Osgar Osgood
+			Oslock Oslof Osmer Osmood Osmund Osrich Osselm Osser Oswald Osward Oswin Oswolf Oswood Oswy Ottar Outred Oz
+			Pendleton Penley Pillard Playard Playbert Playmund Playred Playwin Portland Prescott Presley Preston
+			Quickhelm Quickwin Quinton
+			Radburn Radcliff Radford Radley Rainar Rainard Rainbow Raingar Rainhold Rainmund Rainwald Rainward Raleigh Ramsden Ramsey Randwolf Raven Reddar Redfrith Rednoth Redrich Redwald Redwin
+			Redwolf Richbert Richsey Ridgebor Ridgeley Ridgeway Ridley Riley Rodney Rosefield Rothgar Rothland Rothmund Rothrich Rothwin Rothwolf Rudyard Rutherford Rycroft Ryland 
+			Samwise Sandford Saxbold Saxhelm Saxwolf Seabert Seabrook Seabury Seafrith Seaman Seaton Selbor Seldon Sellard Selred Selwyn Sewell Sewin Sewolf Seyar Seyard Shaftar Shaftwin Sheldon 
+			Shelley Shelton Shepherd Shepley Sherbald Sherburn Sherlock Sherrard Sherwald Sherwood Shirley Sibbald Sibbert Sibbery Sidman Sidney Sifrith Sigger Sillock Simmer Simmund Sinnoth Sirred 
+			Sirrich Smedley Snowden Somerset Somerton Southwell Stafford Stan Stanford Stanley Stannand Stanton Steadman Stewart Stockley Stockton Stockwell Stone Storm Stratford Strickland Suffield 
+			Suffolk Summerlider Sutcliff Sutton Swafbert Swanton Swavard Swavild Swavred Swinburne Swinford Swinton Swithbald Swithbert Swithelm Swithfrith Swithnoth Switholf Swithoun Swithwin 
+			Thedbert Thedred Thedrich Thedwolf Thingfrith Thorburn Thrithgar Thrithred Thrithwolf Thurbrand Thurfrith Thurlock Thurlow Thurstan Thurwald Tidbald Tidbert Tiddelm Tiddey Tiddoun Tidfrith 
+			Tidwald Tidwolf Tilbert Tilden Tilford Tillar Tillman Tilred Tilthane Tilton Tilwin Tirwald Tirwolf Tortar Tortbert Tortelm Tortmund Tortred Tortwald Tortwin Truman Trumbert Trummar Trumwin 
+			Tuesday Tunbert Tunred Tunrich Tunwald Tunwolf Twyford 
+			Uhtferth Uhtred Upton 
+			Wade Wadsworth Waldar Walden Walder Waldhelm Waldmer Walker Wallard Walloun Walthew Walton Warbald Warbert Ward Wardar Wardell Warfrith Warhard Warhelm Warmund Warnoth Warstan Warwick Washington
+			Waybrand Wayday Wayland Weestan Weldon Wellington Welton Wentworth Wesley Weston Whatbert Whatred Wheatley Whitaker Whitfield Whitley Whitney Whitred Whittis Widsith Wilbur Wilder Wilford Wilfred
+			Wilgar Will Willar Willard Wilmer Wilmund Wilred Wilsey Wilstan Wilyils Winbald Winbert Windsor Winfield Winfred Winfrith Winhelm Winnar Winnie Winsey Winston Winthrop Winton Witbald Witbert Witbrod
+			Witfrith Witgar Witlof Witmund Witnoth Witred Witsey Wittar Wittard Wittelm Wittoun Wityils Wolf Wolfbald Wolfbert Wolfgang Wolfgar Wolflof Wolfmer Wolfred Wolfrich Wolfsey Wolvar Wolvard Wolvat
+			Wolvey Wolvin Wolvoun Woodrow Woodstock Woodward Wyatt Wybald Wybert Wyfous Wyfrith Wyhar Wyhard Wyhelm Wyhey Wylof Wymund Wynoth Wyred Wystan Wythane
+			Yardley Yardwin Yardwolf Yenbald Yenbert Yenred Yildwin Yiselar Yiselard Yiselbert Yiselmer Yiselmund
 		}
 		female_names = {
-			Jane Adela Adelaide Alice Amice Anne Anna Aveline Avelina Beatrice Blanche Catherine Cecilia
-			Constance Edith Ela Eleanor Elizabeth Emma Hawise Isabel Isabella Elisabeth Joan Joanna
-			Juliana Mahaut Margaret Mary Maria Maud Matilda Philippa Sybilla Sibylla
+			Ailith Ainild Ainsley Alfled Alfswith Alkbury Alkswith Alkwer Althrith Alvara Alvina Alvith Alvive Ashbury Ashley Ashwin
+			Badhild Baldhild Baldive Berndred Bernfled Bernith Bernwin Berta Bertive Bertwer Bertwin Beverley Blessing Blithrith Blossom Blythe Boot Breyswith Briar Brooke Burhild Burnfled
+			Burnild Burwin 
+			Chelbury Chelfled Chelsea Chelswith Chelthrith Chelwin Chillie Crow Cuthbury Cuthswith 
+			Dale Dell 
+			Easter Edbury Edfled Edild Edith Edive Edleaf Edswith Edwina Egbury Eldith Elfled Elfrith Elfroun Elfswith Elith Elver Elvild Elvith Elvive Enfled Enith Enswith Erkenyat Ermenbury 
+			Ermenhild Ermenthrith Ethel Ethelbury Etheleaf Ethelfled Ethelith Ethelive Ethellad Ethellild Ethelswith Ethelthrith Ethelwin Ethelyard 
+			Folkbury Frewer Frewin Frith Frithith Frithswith 
+			Garthrith Godiva Goodey Goodie Goodwife Goodwin 
+			Hadley Halwid Harith Harley Harswith Hathaway Hathwy Hayden Hayley Heather Heybury Hild Hildbury Hildred Hildwin Hildyard Holly Hope Hunith Hunive Hunter 
+			Ivy 
+			Kenbury Kenswith Kenthrith Kenwin Kimber Kimberley Kinbury Kinleaf Kinnild Kinsey Kinwin 
+			Leaf Lefled Lequen Leroun Lewer Leyive Lily 
+			Merwin Mildred Mittild Monday 
+			Nothith 
+			Odell Osbury Osfrith Osthrith 
+			Queen Queenie Quenbury Quenith Quenthrith
+			Rainbow Raven Riley Rose Rothwer 
+			Saxbury Seabury Seafled Seathrith Selbury Selthrith Selwyn Shelley Shirley Sibbery Sidney Sifled Storm Summer Sunday Sunny 
+			Theddild Tidbury Tortith Tuesday 
+			Warbury Warthrith Welthrith Whitley Whitney Wilfled Wilnoth Windsor Winfled Winnie Witbury Witfled Wolfled Wolfroun Wolswith Wolthrith Wolver Wolvin Wolvith Wolvive Wybury Wyswith 
+			Yardley Yenbury Yenthrith
 		}
 	}
 	american = {
@@ -1111,29 +1172,90 @@ british = {
 		graphical_culture = westerngfx
 		primary = NOL
 		dynasty_names = {
-			Dudley Mowbray  Percy Howard Seymour Holland
-			Talbot Stanley Courtenay "de la Pole" "de Vere" Stafford Grey Mortimer "le Despenser" "de Camoys"
-			"Oglethorpe" Hyde
+			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
+			Æthelfrithing Yffing Ingving Offing Oswalding Cerdicing Wiglafing Coenwalhing
+			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 			# CKII
 			"Turberville" "Butler" "Montagu" "Beauchamp" "Raleigh" "Stratford"
 		}
 		male_names = {
-			Henry Edward Charles James William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund
-			George John Jacob Humphrey Robert Stephen Adam Alexander Albert Alfred Ambrose Andrew Anthony Archibald
-			Benjamin Christopher Daniel David Ernest Francis Geoffrey Guy Horatio Hugh Isaac Jeremy Jonathan Joseph
-			Lawrence Matthew Nehemiah Oliver Samuel Sydney Ellis Duncan Sampson Turstan Edulf Edwyn Hereward
-
-			Adam Alan Albert Alexander Alfred Andrew Anselm Arnold Arthur Aubrey Christopher David
-			Edmund Edward Eric Erik Eustace Fulk Folke Geoffrey George Gerald Gilbert Godfrey Gregory Guy
-			Henry Hugh Humphrey Jocelyn John Jordan Laurence Lionel Mark Marcus Martin Matthew Maurice
-			Michael Nicholas Paul Peter Philip Ralph Randolph Reginald Richard Robert Roger Simon Stephen
-			Theobald Thomas Waleran Walter William Jacob Ambrose Anthony Archibald Benjamin Daniel Ernest
-			Francis Horatio Isaac Jeremy Jonathan Joseph Lawrence Nehemiah Oliver Samuel Sydney
+			Ackerley Acton Addelm Addis Ainard Ainbald Aingar Ainmer Ainnar Ainsley Ainsworth Ainwolf Alden Aldrich Aldrin Aldwin Alf Alfie Alfnoth Alfred Alfrich Alfswith Alger Alkar Alkard Alkbert 
+			Alkelm Alkmund Alkoun Alkrich Alkward Alkwin Alleaf Alrich Alsey Alston Alton Alvald Alvar Alvard Alvat Alvelm Alvey Alvin Alvmer Alvoun Alvy Alwin Anbald Anbert Ancoal Anfrith Anmer Annar 
+			Announ Anshoe Anwolf Ardwolf Armstrong Ashar Ashard Ashbert Ashbury Ashey Ashford Ashfrith Ashley Ashlock Ashman Ashmer Ashmund Ashred Ashton Ashwald Ashwin Ashwolf Ashwood Ashwy Aston Athelstan 
+			Atley Atwater Atwell Atwood Atworth Awald 
+			Bagmund Bagnoth Bagstan Balday Baldhelm Baldhoun Baldred Baldrich Baldwin Bancroft Barden Barrington Barton Baxter Beck Beddard Bede Bedfrith Bednoth Bedthane Bedwald Bedwolf Bedwy Beewolf
+			Bentley Benton Beowulf Beresford Berkeley Bernard Bernfrith Berngar Bernheath Bernhelm Bernhey Bernich Bernlof Bernmood Bernmund Bernred Bernrich Bernsey Bernstan Bernwald Bernwin Bernwolf 
+			Bernwy Bert Bertar Bertelm Bertey Bertferth Bertfrith Berthank Bertlof Bertmer Bertmund Bertnoth Berton Bertoun Bertrand Bertred Bertren Bertrich Bertsey Bertstan Bertwy Bertyils Beverley Billard 
+			Billfrith Billnoth Birchall Blackburn Blackstone Blackwell Blagden Blake Blakeley Blakeney Blithar Bond Booker Borden Botwin Botwolf Brad Bradburn Bradford Bradley Brand Brandon Branson Branton 
+			Braxton Brenton Breywald Breywin Breywolf Bridgeley Brigham Brighton Brinley Brinnar Brinning Brinwald Bristol Brock Brockley Brockton Bromley Bromwell Bronson Brooke Brunard Brunstan Buck Buckley 
+			Burhard Burhelm Burnelm Burnferth Burnoth Burrich Bursey Burstan Burton Burwald Burwin Burwolf Buxton Byron 
+			Cade Caldwell Calvert Cedric Chad Chadley Chadwick Chapman Chelbald Chelfrith Chellar Chellard Chellelm Chelley Chelnoth Chelred Chelrich Chelsea Chelsey Chelstan Chelwald Chelwin Chelwolf 
+			Chelwy Cherl Chester Churchbor Churchill Clay Clayland Clayton Cleveland Clifford Clifton Clint Clinton Colbor Colburn Colden Coleridge Colgate Colton Conwel Cranford Cranley Cranston Crawford
+			Crofton Cromwell Crow Cuthard Cuthbald Cuthbert Cuthmund Cuthred Cuthrich Cuthwin Cuthwolf Cuthyils Dale Dalwin Dane Darton Darwin Daybert Dayelm Dayey Daymund Dayren Dayrich Dayton Dean Dell 
+			Denard Denbert Denfrith Denham Denley Denmood Denton Denver Denwald Denwolf Denyils Derbert Derland Dermood Dermund Dernoth Derswith Derwald Derwolf Drayton Dritnoth Drittelm Dritwald Dryden Dunnar
+			Dunstan Dunton Dunwald Durward 
+			Easterwin Easton Edbald Edbert Eddar Eddelm Eddey Edfrith Edils Edlof Edmar Edmer Ednoth Edoun Edsey Edstan Edwaker Edwald Edwolf Edyard Egbald Egbert Egfrith Eggard Eggelm Eggoun Eglof Egmund Egnoth 
+			Egred Egrich Egstan Egwald Egwel Egwin Egwolf Eldar Eldbert Eldelm Eldfrith Eldoun Eldred Elmer Elton Elwood Emer Enbald Enbert Enfrith Engelren Enmund Ennar Enred Enstan Enwald Enwin Enyard Enyisel 
+			Erendel Erkenbald Erkenbert Erkenwald Ermenlof Ermenred Ermenrich Ernwald Ernwin Ernwolf Ernwy Erpwald Erpwin Esmund Ethelbald Ethelbrand Ethelgar Ethellar Ethellard Ethellelm Ethelley Ethelloun 
+			Ethelman Ethelmer Ethelmood Ethelmund Ethelnoth Ethelrich Ethelsey Ethelwald Ethelward Ethelwel Ethelwin Ethelwy Everard Everwin 
+			Fairchild Farman Farnham Farnley Farnoth Fastwolf Felton Felyeld Fenton Fenwick Fleetwood Folkar Folkard Folkbert Folkwald Folkwin Freeman Frelof Frewin Frewolf Frithbert Frithelm Frithgar
+			Frithlof Frithmund Frithred Frithrich Frithstan Frithwald Frithwin Frithwolf Frithyard Frithyils Frodo Fulred Fulton Gadfrith Gadrich Gangwolf Gar Garfield Garland Garmund Garrard Garthrist 
+			Garwald Garwin Garwolf Gladwin Goddard Godshalk Godwin Goodar Goodman Goodwin Goodwolf Goodwy Gorham Gorton Gresham Grimbald Guthfrith Guthlock Guthlof Guthmund Guthwald Guthwin 
+			Hadley Halfdan Hamilton Handshoe Harbald Harbert Hardbert Hardred Hardwick Hardwin Harfrith Harich Harland Harley Harman Harmer Harmood Harred Harsey Harstan Hartford Hartley Hartwell Harward 
+			Harwin Harwolf Hathaway Hathbald Hathbert Hathfrith Hathkin Hathlock Hathlof Hathred Hathrich Hathwald Hathwolf Hayden Hayley Hayward Haywood Heath Helmstan Helmweald Helmwolf Helmyils Helstan
+			Helwald Hereward Hergar Herolf Herrend Herstan Herwald Herward Heybert Heyfrith Heymund Heynoth Heyred Heystan Heyward Heywolf Hildbald Hildbert Hildfrith Hildmer Hildred Hildwin Hildyard Hilton
+			Hisbert Hisnoth Holden Horton Hunbert Hunlof Hunred Hunsey Hunstan Hunter Huntley Hunwald Hybald Hybert Hylock Hyton 
+			Ingbrand Ingwald Irwin 
+			Kenbert Kenelm Kenfous Kenfrith Kenlof Kennar Kennard Kenred Kenwald Kenwel Kenwin Kenwolf Kenyisel Kimber Kimberley Kinbald Kinbert Kinbill Kinfrith Kingsley Kingston Kingswell Kinmund Kinnard 
+			Kinred Kinrich Kinsey Kinsley Kinstan Kinthane Kinwald Kinwin Kinwolf Kinyils Knightley
+			Langdon Langford Langley Langston Langworth Layton Leaf Lechild Ledbald Leddar Ledfrith Ledwald Ledwolf Lefrich Lefrith Legar Leland Leman Lemer Lenoth Lesey Leson Lestan Leving Leward Lewin 
+			Livingston Lothar Luddar Ludlum Ludwy 
+			Mainar Mainard Marston Marwood Mathellard Melbourne Merhard Merryweather Merton Merwel Merwhite Middleton Milburn Milford Millard Milton Modwulf Morcar Morland Morley Morton Mycroft 
+			Newcombe Newland Newman Newport Newton Nithad Nithard Nithmund Norbert Norman Northrop Norton Norwood Nothar Nothard Nothbald Nothbert Nothelm Nothmund Nothwolf 
+			Oakbald Oakfrith Oakley Oakwolf Odell Ogden Onel Onyenthew Ordbert Ordfrith Ordgar Ordhelm Ordhey Ordlof Ordmer Ordnoth Ordrich Ordwald Ordwolf Osbald Osbert Osborn Osfrith Osgar Osgood
+			Oslock Oslof Osmer Osmood Osmund Osrich Osselm Osser Oswald Osward Oswin Oswolf Oswood Oswy Ottar Outred Oz
+			Pendleton Penley Pillard Playard Playbert Playmund Playred Playwin Portland Prescott Presley Preston
+			Quickhelm Quickwin Quinton
+			Radburn Radcliff Radford Radley Rainar Rainard Rainbow Raingar Rainhold Rainmund Rainwald Rainward Raleigh Ramsden Ramsey Randwolf Raven Reddar Redfrith Rednoth Redrich Redwald Redwin
+			Redwolf Richbert Richsey Ridgebor Ridgeley Ridgeway Ridley Riley Rodney Rosefield Rothgar Rothland Rothmund Rothrich Rothwin Rothwolf Rudyard Rutherford Rycroft Ryland 
+			Samwise Sandford Saxbold Saxhelm Saxwolf Seabert Seabrook Seabury Seafrith Seaman Seaton Selbor Seldon Sellard Selred Selwyn Sewell Sewin Sewolf Seyar Seyard Shaftar Shaftwin Sheldon 
+			Shelley Shelton Shepherd Shepley Sherbald Sherburn Sherlock Sherrard Sherwald Sherwood Shirley Sibbald Sibbert Sibbery Sidman Sidney Sifrith Sigger Sillock Simmer Simmund Sinnoth Sirred 
+			Sirrich Smedley Snowden Somerset Somerton Southwell Stafford Stan Stanford Stanley Stannand Stanton Steadman Stewart Stockley Stockton Stockwell Stone Storm Stratford Strickland Suffield 
+			Suffolk Summerlider Sutcliff Sutton Swafbert Swanton Swavard Swavild Swavred Swinburne Swinford Swinton Swithbald Swithbert Swithelm Swithfrith Swithnoth Switholf Swithoun Swithwin 
+			Thedbert Thedred Thedrich Thedwolf Thingfrith Thorburn Thrithgar Thrithred Thrithwolf Thurbrand Thurfrith Thurlock Thurlow Thurstan Thurwald Tidbald Tidbert Tiddelm Tiddey Tiddoun Tidfrith 
+			Tidwald Tidwolf Tilbert Tilden Tilford Tillar Tillman Tilred Tilthane Tilton Tilwin Tirwald Tirwolf Tortar Tortbert Tortelm Tortmund Tortred Tortwald Tortwin Truman Trumbert Trummar Trumwin 
+			Tuesday Tunbert Tunred Tunrich Tunwald Tunwolf Twyford 
+			Uhtferth Uhtred Upton 
+			Wade Wadsworth Waldar Walden Walder Waldhelm Waldmer Walker Wallard Walloun Walthew Walton Warbald Warbert Ward Wardar Wardell Warfrith Warhard Warhelm Warmund Warnoth Warstan Warwick Washington
+			Waybrand Wayday Wayland Weestan Weldon Wellington Welton Wentworth Wesley Weston Whatbert Whatred Wheatley Whitaker Whitfield Whitley Whitney Whitred Whittis Widsith Wilbur Wilder Wilford Wilfred
+			Wilgar Will Willar Willard Wilmer Wilmund Wilred Wilsey Wilstan Wilyils Winbald Winbert Windsor Winfield Winfred Winfrith Winhelm Winnar Winnie Winsey Winston Winthrop Winton Witbald Witbert Witbrod
+			Witfrith Witgar Witlof Witmund Witnoth Witred Witsey Wittar Wittard Wittelm Wittoun Wityils Wolf Wolfbald Wolfbert Wolfgang Wolfgar Wolflof Wolfmer Wolfred Wolfrich Wolfsey Wolvar Wolvard Wolvat
+			Wolvey Wolvin Wolvoun Woodrow Woodstock Woodward Wyatt Wybald Wybert Wyfous Wyfrith Wyhar Wyhard Wyhelm Wyhey Wylof Wymund Wynoth Wyred Wystan Wythane
+			Yardley Yardwin Yardwolf Yenbald Yenbert Yenred Yildwin Yiselar Yiselard Yiselbert Yiselmer Yiselmund
 		}
 		female_names = {
-			Agnes Alice Cristina Matild Emma Margery Aline Eve Hawis Catherine Cecily
-			Beatrix Mabil Ramett Alienor Amabil Emma Hawise Isabel Isold Elisabeth Joan Idony
-			Custance Mahaut Margaret Mary Denis Maud Matilda Gillian Milisent
+			Ailith Ainild Ainsley Alfled Alfswith Alkbury Alkswith Alkwer Althrith Alvara Alvina Alvith Alvive Ashbury Ashley Ashwin
+			Badhild Baldhild Baldive Berndred Bernfled Bernith Bernwin Berta Bertive Bertwer Bertwin Beverley Blessing Blithrith Blossom Blythe Boot Breyswith Briar Brooke Burhild Burnfled
+			Burnild Burwin 
+			Chelbury Chelfled Chelsea Chelswith Chelthrith Chelwin Chillie Crow Cuthbury Cuthswith 
+			Dale Dell 
+			Easter Edbury Edfled Edild Edith Edive Edleaf Edswith Edwina Egbury Eldith Elfled Elfrith Elfroun Elfswith Elith Elver Elvild Elvith Elvive Enfled Enith Enswith Erkenyat Ermenbury 
+			Ermenhild Ermenthrith Ethel Ethelbury Etheleaf Ethelfled Ethelith Ethelive Ethellad Ethellild Ethelswith Ethelthrith Ethelwin Ethelyard 
+			Folkbury Frewer Frewin Frith Frithith Frithswith 
+			Garthrith Godiva Goodey Goodie Goodwife Goodwin 
+			Hadley Halwid Harith Harley Harswith Hathaway Hathwy Hayden Hayley Heather Heybury Hild Hildbury Hildred Hildwin Hildyard Holly Hope Hunith Hunive Hunter 
+			Ivy 
+			Kenbury Kenswith Kenthrith Kenwin Kimber Kimberley Kinbury Kinleaf Kinnild Kinsey Kinwin 
+			Leaf Lefled Lequen Leroun Lewer Leyive Lily 
+			Merwin Mildred Mittild Monday 
+			Nothith 
+			Odell Osbury Osfrith Osthrith 
+			Queen Queenie Quenbury Quenith Quenthrith
+			Rainbow Raven Riley Rose Rothwer 
+			Saxbury Seabury Seafled Seathrith Selbury Selthrith Selwyn Shelley Shirley Sibbery Sidney Sifled Storm Summer Sunday Sunny 
+			Theddild Tidbury Tortith Tuesday 
+			Warbury Warthrith Welthrith Whitley Whitney Wilfled Wilnoth Windsor Winfled Winnie Witbury Witfled Wolfled Wolfroun Wolswith Wolthrith Wolver Wolvin Wolvith Wolvive Wybury Wyswith 
+			Yardley Yenbury Yenthrith
 		}
 	}
 	#Beyond the Pale Culture
@@ -1188,29 +1310,83 @@ british = {
 			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 		}
 		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
-			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
-			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
-			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
-			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
-			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
-			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+			Ackerley Acton Addelm Addis Ainard Ainbald Aingar Ainmer Ainnar Ainsley Ainsworth Ainwolf Alden Aldrich Aldrin Aldwin Alf Alfie Alfnoth Alfred Alfrich Alfswith Alger Alkar Alkard Alkbert 
+			Alkelm Alkmund Alkoun Alkrich Alkward Alkwin Alleaf Alrich Alsey Alston Alton Alvald Alvar Alvard Alvat Alvelm Alvey Alvin Alvmer Alvoun Alvy Alwin Anbald Anbert Ancoal Anfrith Anmer Annar 
+			Announ Anshoe Anwolf Ardwolf Armstrong Ashar Ashard Ashbert Ashbury Ashey Ashford Ashfrith Ashley Ashlock Ashman Ashmer Ashmund Ashred Ashton Ashwald Ashwin Ashwolf Ashwood Ashwy Aston Athelstan 
+			Atley Atwater Atwell Atwood Atworth Awald 
+			Bagmund Bagnoth Bagstan Balday Baldhelm Baldhoun Baldred Baldrich Baldwin Bancroft Barden Barrington Barton Baxter Beck Beddard Bede Bedfrith Bednoth Bedthane Bedwald Bedwolf Bedwy Beewolf
+			Bentley Benton Beowulf Beresford Berkeley Bernard Bernfrith Berngar Bernheath Bernhelm Bernhey Bernich Bernlof Bernmood Bernmund Bernred Bernrich Bernsey Bernstan Bernwald Bernwin Bernwolf 
+			Bernwy Bert Bertar Bertelm Bertey Bertferth Bertfrith Berthank Bertlof Bertmer Bertmund Bertnoth Berton Bertoun Bertrand Bertred Bertren Bertrich Bertsey Bertstan Bertwy Bertyils Beverley Billard 
+			Billfrith Billnoth Birchall Blackburn Blackstone Blackwell Blagden Blake Blakeley Blakeney Blithar Bond Booker Borden Botwin Botwolf Brad Bradburn Bradford Bradley Brand Brandon Branson Branton 
+			Braxton Brenton Breywald Breywin Breywolf Bridgeley Brigham Brighton Brinley Brinnar Brinning Brinwald Bristol Brock Brockley Brockton Bromley Bromwell Bronson Brooke Brunard Brunstan Buck Buckley 
+			Burhard Burhelm Burnelm Burnferth Burnoth Burrich Bursey Burstan Burton Burwald Burwin Burwolf Buxton Byron 
+			Cade Caldwell Calvert Cedric Chad Chadley Chadwick Chapman Chelbald Chelfrith Chellar Chellard Chellelm Chelley Chelnoth Chelred Chelrich Chelsea Chelsey Chelstan Chelwald Chelwin Chelwolf 
+			Chelwy Cherl Chester Churchbor Churchill Clay Clayland Clayton Cleveland Clifford Clifton Clint Clinton Colbor Colburn Colden Coleridge Colgate Colton Conwel Cranford Cranley Cranston Crawford
+			Crofton Cromwell Crow Cuthard Cuthbald Cuthbert Cuthmund Cuthred Cuthrich Cuthwin Cuthwolf Cuthyils Dale Dalwin Dane Darton Darwin Daybert Dayelm Dayey Daymund Dayren Dayrich Dayton Dean Dell 
+			Denard Denbert Denfrith Denham Denley Denmood Denton Denver Denwald Denwolf Denyils Derbert Derland Dermood Dermund Dernoth Derswith Derwald Derwolf Drayton Dritnoth Drittelm Dritwald Dryden Dunnar
+			Dunstan Dunton Dunwald Durward 
+			Easterwin Easton Edbald Edbert Eddar Eddelm Eddey Edfrith Edils Edlof Edmar Edmer Ednoth Edoun Edsey Edstan Edwaker Edwald Edwolf Edyard Egbald Egbert Egfrith Eggard Eggelm Eggoun Eglof Egmund Egnoth 
+			Egred Egrich Egstan Egwald Egwel Egwin Egwolf Eldar Eldbert Eldelm Eldfrith Eldoun Eldred Elmer Elton Elwood Emer Enbald Enbert Enfrith Engelren Enmund Ennar Enred Enstan Enwald Enwin Enyard Enyisel 
+			Erendel Erkenbald Erkenbert Erkenwald Ermenlof Ermenred Ermenrich Ernwald Ernwin Ernwolf Ernwy Erpwald Erpwin Esmund Ethelbald Ethelbrand Ethelgar Ethellar Ethellard Ethellelm Ethelley Ethelloun 
+			Ethelman Ethelmer Ethelmood Ethelmund Ethelnoth Ethelrich Ethelsey Ethelwald Ethelward Ethelwel Ethelwin Ethelwy Everard Everwin 
+			Fairchild Farman Farnham Farnley Farnoth Fastwolf Felton Felyeld Fenton Fenwick Fleetwood Folkar Folkard Folkbert Folkwald Folkwin Freeman Frelof Frewin Frewolf Frithbert Frithelm Frithgar
+			Frithlof Frithmund Frithred Frithrich Frithstan Frithwald Frithwin Frithwolf Frithyard Frithyils Frodo Fulred Fulton Gadfrith Gadrich Gangwolf Gar Garfield Garland Garmund Garrard Garthrist 
+			Garwald Garwin Garwolf Gladwin Goddard Godshalk Godwin Goodar Goodman Goodwin Goodwolf Goodwy Gorham Gorton Gresham Grimbald Guthfrith Guthlock Guthlof Guthmund Guthwald Guthwin 
+			Hadley Halfdan Hamilton Handshoe Harbald Harbert Hardbert Hardred Hardwick Hardwin Harfrith Harich Harland Harley Harman Harmer Harmood Harred Harsey Harstan Hartford Hartley Hartwell Harward 
+			Harwin Harwolf Hathaway Hathbald Hathbert Hathfrith Hathkin Hathlock Hathlof Hathred Hathrich Hathwald Hathwolf Hayden Hayley Hayward Haywood Heath Helmstan Helmweald Helmwolf Helmyils Helstan
+			Helwald Hereward Hergar Herolf Herrend Herstan Herwald Herward Heybert Heyfrith Heymund Heynoth Heyred Heystan Heyward Heywolf Hildbald Hildbert Hildfrith Hildmer Hildred Hildwin Hildyard Hilton
+			Hisbert Hisnoth Holden Horton Hunbert Hunlof Hunred Hunsey Hunstan Hunter Huntley Hunwald Hybald Hybert Hylock Hyton 
+			Ingbrand Ingwald Irwin 
+			Kenbert Kenelm Kenfous Kenfrith Kenlof Kennar Kennard Kenred Kenwald Kenwel Kenwin Kenwolf Kenyisel Kimber Kimberley Kinbald Kinbert Kinbill Kinfrith Kingsley Kingston Kingswell Kinmund Kinnard 
+			Kinred Kinrich Kinsey Kinsley Kinstan Kinthane Kinwald Kinwin Kinwolf Kinyils Knightley
+			Langdon Langford Langley Langston Langworth Layton Leaf Lechild Ledbald Leddar Ledfrith Ledwald Ledwolf Lefrich Lefrith Legar Leland Leman Lemer Lenoth Lesey Leson Lestan Leving Leward Lewin 
+			Livingston Lothar Luddar Ludlum Ludwy 
+			Mainar Mainard Marston Marwood Mathellard Melbourne Merhard Merryweather Merton Merwel Merwhite Middleton Milburn Milford Millard Milton Modwulf Morcar Morland Morley Morton Mycroft 
+			Newcombe Newland Newman Newport Newton Nithad Nithard Nithmund Norbert Norman Northrop Norton Norwood Nothar Nothard Nothbald Nothbert Nothelm Nothmund Nothwolf 
+			Oakbald Oakfrith Oakley Oakwolf Odell Ogden Onel Onyenthew Ordbert Ordfrith Ordgar Ordhelm Ordhey Ordlof Ordmer Ordnoth Ordrich Ordwald Ordwolf Osbald Osbert Osborn Osfrith Osgar Osgood
+			Oslock Oslof Osmer Osmood Osmund Osrich Osselm Osser Oswald Osward Oswin Oswolf Oswood Oswy Ottar Outred Oz
+			Pendleton Penley Pillard Playard Playbert Playmund Playred Playwin Portland Prescott Presley Preston
+			Quickhelm Quickwin Quinton
+			Radburn Radcliff Radford Radley Rainar Rainard Rainbow Raingar Rainhold Rainmund Rainwald Rainward Raleigh Ramsden Ramsey Randwolf Raven Reddar Redfrith Rednoth Redrich Redwald Redwin
+			Redwolf Richbert Richsey Ridgebor Ridgeley Ridgeway Ridley Riley Rodney Rosefield Rothgar Rothland Rothmund Rothrich Rothwin Rothwolf Rudyard Rutherford Rycroft Ryland 
+			Samwise Sandford Saxbold Saxhelm Saxwolf Seabert Seabrook Seabury Seafrith Seaman Seaton Selbor Seldon Sellard Selred Selwyn Sewell Sewin Sewolf Seyar Seyard Shaftar Shaftwin Sheldon 
+			Shelley Shelton Shepherd Shepley Sherbald Sherburn Sherlock Sherrard Sherwald Sherwood Shirley Sibbald Sibbert Sibbery Sidman Sidney Sifrith Sigger Sillock Simmer Simmund Sinnoth Sirred 
+			Sirrich Smedley Snowden Somerset Somerton Southwell Stafford Stan Stanford Stanley Stannand Stanton Steadman Stewart Stockley Stockton Stockwell Stone Storm Stratford Strickland Suffield 
+			Suffolk Summerlider Sutcliff Sutton Swafbert Swanton Swavard Swavild Swavred Swinburne Swinford Swinton Swithbald Swithbert Swithelm Swithfrith Swithnoth Switholf Swithoun Swithwin 
+			Thedbert Thedred Thedrich Thedwolf Thingfrith Thorburn Thrithgar Thrithred Thrithwolf Thurbrand Thurfrith Thurlock Thurlow Thurstan Thurwald Tidbald Tidbert Tiddelm Tiddey Tiddoun Tidfrith 
+			Tidwald Tidwolf Tilbert Tilden Tilford Tillar Tillman Tilred Tilthane Tilton Tilwin Tirwald Tirwolf Tortar Tortbert Tortelm Tortmund Tortred Tortwald Tortwin Truman Trumbert Trummar Trumwin 
+			Tuesday Tunbert Tunred Tunrich Tunwald Tunwolf Twyford 
+			Uhtferth Uhtred Upton 
+			Wade Wadsworth Waldar Walden Walder Waldhelm Waldmer Walker Wallard Walloun Walthew Walton Warbald Warbert Ward Wardar Wardell Warfrith Warhard Warhelm Warmund Warnoth Warstan Warwick Washington
+			Waybrand Wayday Wayland Weestan Weldon Wellington Welton Wentworth Wesley Weston Whatbert Whatred Wheatley Whitaker Whitfield Whitley Whitney Whitred Whittis Widsith Wilbur Wilder Wilford Wilfred
+			Wilgar Will Willar Willard Wilmer Wilmund Wilred Wilsey Wilstan Wilyils Winbald Winbert Windsor Winfield Winfred Winfrith Winhelm Winnar Winnie Winsey Winston Winthrop Winton Witbald Witbert Witbrod
+			Witfrith Witgar Witlof Witmund Witnoth Witred Witsey Wittar Wittard Wittelm Wittoun Wityils Wolf Wolfbald Wolfbert Wolfgang Wolfgar Wolflof Wolfmer Wolfred Wolfrich Wolfsey Wolvar Wolvard Wolvat
+			Wolvey Wolvin Wolvoun Woodrow Woodstock Woodward Wyatt Wybald Wybert Wyfous Wyfrith Wyhar Wyhard Wyhelm Wyhey Wylof Wymund Wynoth Wyred Wystan Wythane
+			Yardley Yardwin Yardwolf Yenbald Yenbert Yenred Yildwin Yiselar Yiselard Yiselbert Yiselmer Yiselmund
 		}
 		female_names = {
-			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
-			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
-			Æthelburh Seaxburh Wihtburh
+			Ailith Ainild Ainsley Alfled Alfswith Alkbury Alkswith Alkwer Althrith Alvara Alvina Alvith Alvive Ashbury Ashley Ashwin
+			Badhild Baldhild Baldive Berndred Bernfled Bernith Bernwin Berta Bertive Bertwer Bertwin Beverley Blessing Blithrith Blossom Blythe Boot Breyswith Briar Brooke Burhild Burnfled
+			Burnild Burwin 
+			Chelbury Chelfled Chelsea Chelswith Chelthrith Chelwin Chillie Crow Cuthbury Cuthswith 
+			Dale Dell 
+			Easter Edbury Edfled Edild Edith Edive Edleaf Edswith Edwina Egbury Eldith Elfled Elfrith Elfroun Elfswith Elith Elver Elvild Elvith Elvive Enfled Enith Enswith Erkenyat Ermenbury 
+			Ermenhild Ermenthrith Ethel Ethelbury Etheleaf Ethelfled Ethelith Ethelive Ethellad Ethellild Ethelswith Ethelthrith Ethelwin Ethelyard 
+			Folkbury Frewer Frewin Frith Frithith Frithswith 
+			Garthrith Godiva Goodey Goodie Goodwife Goodwin 
+			Hadley Halwid Harith Harley Harswith Hathaway Hathwy Hayden Hayley Heather Heybury Hild Hildbury Hildred Hildwin Hildyard Holly Hope Hunith Hunive Hunter 
+			Ivy 
+			Kenbury Kenswith Kenthrith Kenwin Kimber Kimberley Kinbury Kinleaf Kinnild Kinsey Kinwin 
+			Leaf Lefled Lequen Leroun Lewer Leyive Lily 
+			Merwin Mildred Mittild Monday 
+			Nothith 
+			Odell Osbury Osfrith Osthrith 
+			Queen Queenie Quenbury Quenith Quenthrith
+			Rainbow Raven Riley Rose Rothwer 
+			Saxbury Seabury Seafled Seathrith Selbury Selthrith Selwyn Shelley Shirley Sibbery Sidney Sifled Storm Summer Sunday Sunny 
+			Theddild Tidbury Tortith Tuesday 
+			Warbury Warthrith Welthrith Whitley Whitney Wilfled Wilnoth Windsor Winfled Winnie Witbury Witfled Wolfled Wolfroun Wolswith Wolthrith Wolver Wolvin Wolvith Wolvive Wybury Wyswith 
+			Yardley Yenbury Yenthrith
 		}
 	}
 	sexish_culture = {
@@ -1221,29 +1397,83 @@ british = {
 			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 		}
 		male_names = {
-			Arncytel Balthere Beorhtfrith Beorhthelm Beorhtmær Beorhtnoth Beorhtric Beorhtsige Beorhtwine_Beorhtwine Beorn_Beorn Beornræd Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus Cenræd Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht Cuthræd Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund Eadmær Eadric
-			Eadræd Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund Ealdræd Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht Inwær Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar Mærleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric Osræd Osulf Osweald Oswine Oswulf Peter Rædwulf_Ralph Rægenweald Scule
-			Sigeberht Sigehelm Sigeric Sigeræd Sighere Siweard Stigand Swegn Swithelm Swithræd Swæfræd Sæbert Sælræd Sæweald
-			Sæxbald Sæxræd Thoræd Thurcytel Thurfrith Tostig Uhtræd Ulfcytel Waltheof Werestan Wiglaf Wihtræd
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere Wulfmær Wulfnoth Wulfstan Ælfgar Ælfmær Ælfnoth Ælfric Ælfræd_Alfred Ælfsige
-			Ælfstan Ælfwald Ælfweard Ælfwig Ælfwine Ælle Æthelbald Æthelberht Æthelfrith Æthelhere Æthelmær
-			Æthelric Æthelræd_Ailred Æthelsige Æthelstan Æthelweald Æthelweard Æthelwine Æthelwold Æthelwulf
-			Eormenred Eorcenberht Eormenric Eadbald Rædwald
+			Ackerley Acton Addelm Addis Ainard Ainbald Aingar Ainmer Ainnar Ainsley Ainsworth Ainwolf Alden Aldrich Aldrin Aldwin Alf Alfie Alfnoth Alfred Alfrich Alfswith Alger Alkar Alkard Alkbert 
+			Alkelm Alkmund Alkoun Alkrich Alkward Alkwin Alleaf Alrich Alsey Alston Alton Alvald Alvar Alvard Alvat Alvelm Alvey Alvin Alvmer Alvoun Alvy Alwin Anbald Anbert Ancoal Anfrith Anmer Annar 
+			Announ Anshoe Anwolf Ardwolf Armstrong Ashar Ashard Ashbert Ashbury Ashey Ashford Ashfrith Ashley Ashlock Ashman Ashmer Ashmund Ashred Ashton Ashwald Ashwin Ashwolf Ashwood Ashwy Aston Athelstan 
+			Atley Atwater Atwell Atwood Atworth Awald 
+			Bagmund Bagnoth Bagstan Balday Baldhelm Baldhoun Baldred Baldrich Baldwin Bancroft Barden Barrington Barton Baxter Beck Beddard Bede Bedfrith Bednoth Bedthane Bedwald Bedwolf Bedwy Beewolf
+			Bentley Benton Beowulf Beresford Berkeley Bernard Bernfrith Berngar Bernheath Bernhelm Bernhey Bernich Bernlof Bernmood Bernmund Bernred Bernrich Bernsey Bernstan Bernwald Bernwin Bernwolf 
+			Bernwy Bert Bertar Bertelm Bertey Bertferth Bertfrith Berthank Bertlof Bertmer Bertmund Bertnoth Berton Bertoun Bertrand Bertred Bertren Bertrich Bertsey Bertstan Bertwy Bertyils Beverley Billard 
+			Billfrith Billnoth Birchall Blackburn Blackstone Blackwell Blagden Blake Blakeley Blakeney Blithar Bond Booker Borden Botwin Botwolf Brad Bradburn Bradford Bradley Brand Brandon Branson Branton 
+			Braxton Brenton Breywald Breywin Breywolf Bridgeley Brigham Brighton Brinley Brinnar Brinning Brinwald Bristol Brock Brockley Brockton Bromley Bromwell Bronson Brooke Brunard Brunstan Buck Buckley 
+			Burhard Burhelm Burnelm Burnferth Burnoth Burrich Bursey Burstan Burton Burwald Burwin Burwolf Buxton Byron 
+			Cade Caldwell Calvert Cedric Chad Chadley Chadwick Chapman Chelbald Chelfrith Chellar Chellard Chellelm Chelley Chelnoth Chelred Chelrich Chelsea Chelsey Chelstan Chelwald Chelwin Chelwolf 
+			Chelwy Cherl Chester Churchbor Churchill Clay Clayland Clayton Cleveland Clifford Clifton Clint Clinton Colbor Colburn Colden Coleridge Colgate Colton Conwel Cranford Cranley Cranston Crawford
+			Crofton Cromwell Crow Cuthard Cuthbald Cuthbert Cuthmund Cuthred Cuthrich Cuthwin Cuthwolf Cuthyils Dale Dalwin Dane Darton Darwin Daybert Dayelm Dayey Daymund Dayren Dayrich Dayton Dean Dell 
+			Denard Denbert Denfrith Denham Denley Denmood Denton Denver Denwald Denwolf Denyils Derbert Derland Dermood Dermund Dernoth Derswith Derwald Derwolf Drayton Dritnoth Drittelm Dritwald Dryden Dunnar
+			Dunstan Dunton Dunwald Durward 
+			Easterwin Easton Edbald Edbert Eddar Eddelm Eddey Edfrith Edils Edlof Edmar Edmer Ednoth Edoun Edsey Edstan Edwaker Edwald Edwolf Edyard Egbald Egbert Egfrith Eggard Eggelm Eggoun Eglof Egmund Egnoth 
+			Egred Egrich Egstan Egwald Egwel Egwin Egwolf Eldar Eldbert Eldelm Eldfrith Eldoun Eldred Elmer Elton Elwood Emer Enbald Enbert Enfrith Engelren Enmund Ennar Enred Enstan Enwald Enwin Enyard Enyisel 
+			Erendel Erkenbald Erkenbert Erkenwald Ermenlof Ermenred Ermenrich Ernwald Ernwin Ernwolf Ernwy Erpwald Erpwin Esmund Ethelbald Ethelbrand Ethelgar Ethellar Ethellard Ethellelm Ethelley Ethelloun 
+			Ethelman Ethelmer Ethelmood Ethelmund Ethelnoth Ethelrich Ethelsey Ethelwald Ethelward Ethelwel Ethelwin Ethelwy Everard Everwin 
+			Fairchild Farman Farnham Farnley Farnoth Fastwolf Felton Felyeld Fenton Fenwick Fleetwood Folkar Folkard Folkbert Folkwald Folkwin Freeman Frelof Frewin Frewolf Frithbert Frithelm Frithgar
+			Frithlof Frithmund Frithred Frithrich Frithstan Frithwald Frithwin Frithwolf Frithyard Frithyils Frodo Fulred Fulton Gadfrith Gadrich Gangwolf Gar Garfield Garland Garmund Garrard Garthrist 
+			Garwald Garwin Garwolf Gladwin Goddard Godshalk Godwin Goodar Goodman Goodwin Goodwolf Goodwy Gorham Gorton Gresham Grimbald Guthfrith Guthlock Guthlof Guthmund Guthwald Guthwin 
+			Hadley Halfdan Hamilton Handshoe Harbald Harbert Hardbert Hardred Hardwick Hardwin Harfrith Harich Harland Harley Harman Harmer Harmood Harred Harsey Harstan Hartford Hartley Hartwell Harward 
+			Harwin Harwolf Hathaway Hathbald Hathbert Hathfrith Hathkin Hathlock Hathlof Hathred Hathrich Hathwald Hathwolf Hayden Hayley Hayward Haywood Heath Helmstan Helmweald Helmwolf Helmyils Helstan
+			Helwald Hereward Hergar Herolf Herrend Herstan Herwald Herward Heybert Heyfrith Heymund Heynoth Heyred Heystan Heyward Heywolf Hildbald Hildbert Hildfrith Hildmer Hildred Hildwin Hildyard Hilton
+			Hisbert Hisnoth Holden Horton Hunbert Hunlof Hunred Hunsey Hunstan Hunter Huntley Hunwald Hybald Hybert Hylock Hyton 
+			Ingbrand Ingwald Irwin 
+			Kenbert Kenelm Kenfous Kenfrith Kenlof Kennar Kennard Kenred Kenwald Kenwel Kenwin Kenwolf Kenyisel Kimber Kimberley Kinbald Kinbert Kinbill Kinfrith Kingsley Kingston Kingswell Kinmund Kinnard 
+			Kinred Kinrich Kinsey Kinsley Kinstan Kinthane Kinwald Kinwin Kinwolf Kinyils Knightley
+			Langdon Langford Langley Langston Langworth Layton Leaf Lechild Ledbald Leddar Ledfrith Ledwald Ledwolf Lefrich Lefrith Legar Leland Leman Lemer Lenoth Lesey Leson Lestan Leving Leward Lewin 
+			Livingston Lothar Luddar Ludlum Ludwy 
+			Mainar Mainard Marston Marwood Mathellard Melbourne Merhard Merryweather Merton Merwel Merwhite Middleton Milburn Milford Millard Milton Modwulf Morcar Morland Morley Morton Mycroft 
+			Newcombe Newland Newman Newport Newton Nithad Nithard Nithmund Norbert Norman Northrop Norton Norwood Nothar Nothard Nothbald Nothbert Nothelm Nothmund Nothwolf 
+			Oakbald Oakfrith Oakley Oakwolf Odell Ogden Onel Onyenthew Ordbert Ordfrith Ordgar Ordhelm Ordhey Ordlof Ordmer Ordnoth Ordrich Ordwald Ordwolf Osbald Osbert Osborn Osfrith Osgar Osgood
+			Oslock Oslof Osmer Osmood Osmund Osrich Osselm Osser Oswald Osward Oswin Oswolf Oswood Oswy Ottar Outred Oz
+			Pendleton Penley Pillard Playard Playbert Playmund Playred Playwin Portland Prescott Presley Preston
+			Quickhelm Quickwin Quinton
+			Radburn Radcliff Radford Radley Rainar Rainard Rainbow Raingar Rainhold Rainmund Rainwald Rainward Raleigh Ramsden Ramsey Randwolf Raven Reddar Redfrith Rednoth Redrich Redwald Redwin
+			Redwolf Richbert Richsey Ridgebor Ridgeley Ridgeway Ridley Riley Rodney Rosefield Rothgar Rothland Rothmund Rothrich Rothwin Rothwolf Rudyard Rutherford Rycroft Ryland 
+			Samwise Sandford Saxbold Saxhelm Saxwolf Seabert Seabrook Seabury Seafrith Seaman Seaton Selbor Seldon Sellard Selred Selwyn Sewell Sewin Sewolf Seyar Seyard Shaftar Shaftwin Sheldon 
+			Shelley Shelton Shepherd Shepley Sherbald Sherburn Sherlock Sherrard Sherwald Sherwood Shirley Sibbald Sibbert Sibbery Sidman Sidney Sifrith Sigger Sillock Simmer Simmund Sinnoth Sirred 
+			Sirrich Smedley Snowden Somerset Somerton Southwell Stafford Stan Stanford Stanley Stannand Stanton Steadman Stewart Stockley Stockton Stockwell Stone Storm Stratford Strickland Suffield 
+			Suffolk Summerlider Sutcliff Sutton Swafbert Swanton Swavard Swavild Swavred Swinburne Swinford Swinton Swithbald Swithbert Swithelm Swithfrith Swithnoth Switholf Swithoun Swithwin 
+			Thedbert Thedred Thedrich Thedwolf Thingfrith Thorburn Thrithgar Thrithred Thrithwolf Thurbrand Thurfrith Thurlock Thurlow Thurstan Thurwald Tidbald Tidbert Tiddelm Tiddey Tiddoun Tidfrith 
+			Tidwald Tidwolf Tilbert Tilden Tilford Tillar Tillman Tilred Tilthane Tilton Tilwin Tirwald Tirwolf Tortar Tortbert Tortelm Tortmund Tortred Tortwald Tortwin Truman Trumbert Trummar Trumwin 
+			Tuesday Tunbert Tunred Tunrich Tunwald Tunwolf Twyford 
+			Uhtferth Uhtred Upton 
+			Wade Wadsworth Waldar Walden Walder Waldhelm Waldmer Walker Wallard Walloun Walthew Walton Warbald Warbert Ward Wardar Wardell Warfrith Warhard Warhelm Warmund Warnoth Warstan Warwick Washington
+			Waybrand Wayday Wayland Weestan Weldon Wellington Welton Wentworth Wesley Weston Whatbert Whatred Wheatley Whitaker Whitfield Whitley Whitney Whitred Whittis Widsith Wilbur Wilder Wilford Wilfred
+			Wilgar Will Willar Willard Wilmer Wilmund Wilred Wilsey Wilstan Wilyils Winbald Winbert Windsor Winfield Winfred Winfrith Winhelm Winnar Winnie Winsey Winston Winthrop Winton Witbald Witbert Witbrod
+			Witfrith Witgar Witlof Witmund Witnoth Witred Witsey Wittar Wittard Wittelm Wittoun Wityils Wolf Wolfbald Wolfbert Wolfgang Wolfgar Wolflof Wolfmer Wolfred Wolfrich Wolfsey Wolvar Wolvard Wolvat
+			Wolvey Wolvin Wolvoun Woodrow Woodstock Woodward Wyatt Wybald Wybert Wyfous Wyfrith Wyhar Wyhard Wyhelm Wyhey Wylof Wymund Wynoth Wyred Wystan Wythane
+			Yardley Yardwin Yardwolf Yenbald Yenbert Yenred Yildwin Yiselar Yiselard Yiselbert Yiselmer Yiselmund
 		}
 		female_names = {
-			Agatha Balthild Beorhtflæd Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn Beornflæd Beorngyth Blæja Burgflæd Ceolflæd Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg Eadflæd Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			Ealhflæd Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			Leofflæd Leofgifu Leofrun Leofwaru Leofwynn Margaret_Margaret Maud Matilda Mildrith Octreda Sifflæd Sigrid Sæthryth Wulfflæd Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn Wynnflæd Wærburg Æbba Ælfflæd Ælfgifu Ælfgyth Ælflæda_Ælflæda Ælfrida
-			Ælfswith Ælfthryth Ælfwynn Æthelburg Æthelflæd Æthelgifu Æthelhild Æthelræda_Æthelreda Æthelswith Æthelthryth
-			Æthelburh Seaxburh Wihtburh
+			Ailith Ainild Ainsley Alfled Alfswith Alkbury Alkswith Alkwer Althrith Alvara Alvina Alvith Alvive Ashbury Ashley Ashwin
+			Badhild Baldhild Baldive Berndred Bernfled Bernith Bernwin Berta Bertive Bertwer Bertwin Beverley Blessing Blithrith Blossom Blythe Boot Breyswith Briar Brooke Burhild Burnfled
+			Burnild Burwin 
+			Chelbury Chelfled Chelsea Chelswith Chelthrith Chelwin Chillie Crow Cuthbury Cuthswith 
+			Dale Dell 
+			Easter Edbury Edfled Edild Edith Edive Edleaf Edswith Edwina Egbury Eldith Elfled Elfrith Elfroun Elfswith Elith Elver Elvild Elvith Elvive Enfled Enith Enswith Erkenyat Ermenbury 
+			Ermenhild Ermenthrith Ethel Ethelbury Etheleaf Ethelfled Ethelith Ethelive Ethellad Ethellild Ethelswith Ethelthrith Ethelwin Ethelyard 
+			Folkbury Frewer Frewin Frith Frithith Frithswith 
+			Garthrith Godiva Goodey Goodie Goodwife Goodwin 
+			Hadley Halwid Harith Harley Harswith Hathaway Hathwy Hayden Hayley Heather Heybury Hild Hildbury Hildred Hildwin Hildyard Holly Hope Hunith Hunive Hunter 
+			Ivy 
+			Kenbury Kenswith Kenthrith Kenwin Kimber Kimberley Kinbury Kinleaf Kinnild Kinsey Kinwin 
+			Leaf Lefled Lequen Leroun Lewer Leyive Lily 
+			Merwin Mildred Mittild Monday 
+			Nothith 
+			Odell Osbury Osfrith Osthrith 
+			Queen Queenie Quenbury Quenith Quenthrith
+			Rainbow Raven Riley Rose Rothwer 
+			Saxbury Seabury Seafled Seathrith Selbury Selthrith Selwyn Shelley Shirley Sibbery Sidney Sifled Storm Summer Sunday Sunny 
+			Theddild Tidbury Tortith Tuesday 
+			Warbury Warthrith Welthrith Whitley Whitney Wilfled Wilnoth Windsor Winfled Winnie Witbury Witfled Wolfled Wolfroun Wolswith Wolthrith Wolver Wolvin Wolvith Wolvive Wybury Wyswith 
+			Yardley Yenbury Yenthrith
 		}
 	}
 }

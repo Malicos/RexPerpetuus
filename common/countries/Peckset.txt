@@ -44,8 +44,8 @@ monarch_names = {
 	"Burred #1" = 1
 	"Cristine #1" = -1
 	"Edrich #1" = 10
-	"Eþelwolf #1" = 10
-	"Sigriþ #1" = -1
+	"Ethelwolf #1" = 10
+	"Sigrith #1" = -1
 	"Bard #1" = 1
 	"Onwand #1" = 10
 	"Fin #1" = 1
@@ -54,9 +54,9 @@ monarch_names = {
 	"Harwald #2" = 20
 	"Ainric #1" = 10
 	"Arling #1" = 1
-	"Þundergar #1" = 1
+	"Thundergar #1" = 1
 	"Grim #2" = 20
-	"Þunderstan #1" = 1
+	"Thunderstan #1" = 1
 	
 	# RANDOM NAMES - MALE
     "Hamrich #0" = 1
