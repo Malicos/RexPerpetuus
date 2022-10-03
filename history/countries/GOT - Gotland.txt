@@ -16,11 +16,4 @@ fixed_capital = 25 # Cannot move capital away from this province & no power cost
 		mil = 3
 		regent = yes
 	}
-	if = {
-		limit = {
-			has_dlc = "Golden Century"
-		}
-		change_government = republic
-		add_government_reform = pirate_republic_reform
-	}
 }
