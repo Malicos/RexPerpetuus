@@ -1,8 +1,22 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = welsh
+primary_culture = english
+add_accepted_culture = welsh
 religion = catholic
 technology_group = western
-capital = 8139 # Flint
-fixed_capital = 8139 # Cannot move capital away from this province & no power cost to move to it
+capital = 4375 # Chester
+fixed_capital = 4375 # Cannot move capital away from this province & no power cost to move to it
 government_rank = 1
+
+1436.10.7 = {
+	monarch = {
+		name = "?understan"
+		dynasty = "of Godwin"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1391.1.2
+		religion = catholic
+		culture = english
+	}
+}

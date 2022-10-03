@@ -6,3 +6,16 @@ technology_group = western
 capital = 4366 # Montgomery
 fixed_capital = 4366 # Cannot move capital away from this province & no power cost to move to it
 government_rank = 1
+
+1399.10.19 = {
+	monarch = {
+		name = "Hywel III"
+		dynasty = "Mathrafal"
+		adm = 3
+		dip = 2
+		mil = 1
+		birth_date = 1386.4.30
+		religion = catholic
+		culture = welsh
+	}
+}
