@@ -48,14 +48,18 @@ leader_names = {
 }
 
 monarch_names = {
-	"Donal #12" = 40
+	# RP RULER NAMES
+	"Daigre #1" = 10
+	
+	# RANDOM NAMES
+	"Donal #0" = 40
 	"Art #0" = 40
 	"Conn #0" = 40
 	"Einrí #0" = 40
-	"Áed #13" = 20
-	"Niall #6" = 20
-	"Brian #2" = 20
-	"Eoghan #1" = 20
+	"Áed #0" = 20
+	"Niall #0" = 20
+	"Brian #0" = 20
+	"Eoghan #0" = 20
 	"Séan #0" = 20
 	"Turlough #0" = 20
 	"Alaois #0" = 0
