@@ -1,0 +1,100 @@
+ancestor_worship = {
+	legitimacy = 1
+
+	allow = {
+		religion = anito
+	}
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+	        personality = ai_balanced
+			factor = 2
+		}
+		modifier = {
+			NOT = { stability = 0 }
+			factor = 2
+		}
+	}
+}
+
+anlabban = {
+	global_unrest = -2
+	prestige = 1
+
+	allow = {
+		religion = anito
+	}
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+	        personality = ai_balanced
+			factor = 2
+		}
+		modifier = {
+			NOT = { stability = 0 }
+			factor = 2
+		}
+	}
+}
+
+bago = {
+	hostile_attrition = 1
+	land_attrition = -0.5
+
+	allow = {
+		religion = anito
+	}
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+	        personality = ai_balanced
+			factor = 2
+		}
+		modifier = {
+			NOT = { stability = 0 }
+			factor = 2
+		}
+	}
+}
+
+arurin = {
+	production_efficiency = 0.1
+
+	allow = {
+		religion = anito
+	}
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+	        personality = ai_balanced
+			factor = 2
+		}
+		modifier = {
+			NOT = { stability = 0 }
+			factor = 2
+		}
+	}
+}
+
+lumawig = {
+	sprite = 1
+	allow  = {
+		religion = anito
+	}
+	discipline = 0.05
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_militarist
+			factor = 2
+		}
+	}
+}

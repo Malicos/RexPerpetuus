@@ -1,0 +1,98 @@
+ancestor_worshiping = {
+	legitimacy = 1
+
+	allow = {
+		religion = celebic
+	}
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+	        personality = ai_balanced
+			factor = 2
+		}
+		modifier = {
+			NOT = { stability = 0 }
+			factor = 2
+		}
+	}
+}
+
+malesung = {
+	land_attrition = -0.10
+
+	allow = {
+		religion = celebic
+	}
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+	        personality = ai_balanced
+			factor = 2
+		}
+		modifier = {
+			NOT = { stability = 0 }
+			factor = 2
+		}
+	}
+}
+
+makassaric_traditions = {
+	galley_power = 0.1
+
+	allow = {
+		religion = celebic
+	}
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+	        personality = ai_balanced
+			factor = 2
+		}
+		modifier = {
+			NOT = { stability = 0 }
+			factor = 2
+		}
+	}
+}
+
+tolotang = {
+	global_trade_power = 0.1
+
+	allow = {
+		religion = celebic
+	}
+	sprite = 1
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+	        personality = ai_balanced
+			factor = 2
+		}
+		modifier = {
+			NOT = { stability = 0 }
+			factor = 2
+		}
+	}
+}
+
+papuan_traditions = {
+	sprite = 1
+	allow = {
+		religion = celebic
+	}
+	hostile_attrition = 0.10
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			personality = ai_militarist
+			factor = 2
+		}
+	}
+}
