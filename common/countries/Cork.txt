@@ -49,7 +49,7 @@ leader_names = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Daigre #1" = 10
+	"Gunnar #1" = 10
 	
 	# RANDOM NAMES
 	"Donal #0" = 40
