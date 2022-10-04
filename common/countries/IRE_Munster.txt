@@ -34,12 +34,28 @@ historical_units = {
 }
 
 monarch_names = {
-	"Turlough #2" = 80
-	"Conchobhar #2" = 60
-	"Tadhg #2" = 40
-	"Donnchad #7" = 20
-	"Muireadhach #1" = 20
-	"Diarmaid #3" = 1
+	# RP RULER NAMES
+	"Donnchad #1" = 0
+	"Murchad #1" = 10
+	"Brian #2" = 20
+	"Mo-Chonna #1" = 0
+	"Ailbrenn #1" = 0
+	"Cathalan #1" = 10
+	"Faelchad #1" = 10
+	"Coeman #1" = 0
+	"Saerbrethach #1" = 10
+	"Conlang #1" = 0
+	"Temnen #2" = 20
+	"Moenach #1" = 0
+	"Cobthach #1" = 0
+
+	# RANDOM NAMES
+	"Turlough #0" = 80
+	"Conchobhar #0" = 60
+	"Tadhg #0" = 40
+	"Donnchad #0" = 20
+	"Muireadhach #0" = 20
+	"Diarmaid #0" = 1
 	"Mathghamhain #0" = 20
 	"Ádhamh #0" = 0
 	"Ailill #0" = 0
