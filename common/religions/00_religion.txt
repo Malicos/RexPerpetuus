@@ -3100,3 +3100,57 @@ mandaean_group = {
 	crusade_name = HOLY_WAR
 
 }
+
+Anito = {
+		color = { 245 64 32 }
+		icon = 11
+		country = {
+			tolerance_own = 1
+			merchants = 1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+			merchants = 1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		fetishist_cult = yes
+		heretic = { ANITO_HERETIC }
+	}	
+
+	Celebic= {
+		color = { 245 64 32 }
+		icon = 11
+		country = {
+			merchants = 1
+			production_efficiency = 0.05
+		}
+		country_as_secondary = {
+			merchants = 1
+			production_efficiency = 0.05
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		fetishist_cult = yes
+		heretic = { MALESUNG TOLOTANG MAKASSARIC }
+	}	
+
+	Polynesian = {
+		color = { 255 171 87 }
+		icon = 11
+		country = {
+			global_colonial_growth = 10
+			global_sailors_modifier = 0.1
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			global_sailors_modifier = 0.1
+		}
+		province = {
+			local_missionary_strength = 0.02
+		}
+		personal_deity = yes
+		heretic = { MAUI_CULT }
+	}
