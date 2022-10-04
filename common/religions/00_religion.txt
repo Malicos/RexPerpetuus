@@ -2872,9 +2872,6 @@ pagan = {
 		heretic = { OLD_TURUMIC }
 	}
 	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_pagan
-
 	#RP Added	
 	anito = {
 		color = { 245 64 32 }
@@ -2895,7 +2892,7 @@ pagan = {
 	}	
 
 	#RP Added
-	celebic= {
+	celebic = {
 		color = { 245 64 32 }
 		icon = 11
 		country = {
@@ -2931,6 +2928,10 @@ pagan = {
 		personal_deity = yes
 		heretic = { MAUI_CULT }
 	}
+	
+	crusade_name = CRUSADE
+	harmonized_modifier = harmonized_pagan
+
 }
 
 jewish_group = {
