@@ -1,7 +1,7 @@
 #Subanen
 
 culture = danao
-religion = animism
+religion = anito
 capital = "Subenan"
 trade_goods = grain
 hre = no
@@ -14,15 +14,3 @@ controller = MGD
 add_core = MGD
 
 discovered_by = chinese
-
-
-1520.1.1 = {
-	religion = sunni
-}
-1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
-1569.1.1 = {	
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-	religion = catholic
-}

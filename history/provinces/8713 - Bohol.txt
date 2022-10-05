@@ -3,7 +3,7 @@
 owner = DPT
 controller = DPT
 culture = visayan
-religion = animism
+religion = anito
 capital = "Tagbilaran"
 trade_goods = fish
 is_city = yes
@@ -14,13 +14,3 @@ base_manpower = 1
 add_core = DPT
 
 discovered_by = chinese
-
-
-1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
-1595.1.1 = {	
-	culture = castillian
-	religion = catholic
-	owner = SPA
-	controller = SPA
-	add_core = SPA
-}

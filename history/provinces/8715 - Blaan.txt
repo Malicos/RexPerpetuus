@@ -1,7 +1,7 @@
 #Blaan
 
 culture = danao
-religion = animism
+religion = anito
 capital = "Dadiangas"
 trade_goods = livestock
 hre = no
@@ -14,9 +14,3 @@ controller = MGD
 add_core = MGD
 
 discovered_by = chinese
-
-
-1520.1.1 = {
-	religion = sunni
-} # Sultanate of Maguindanao
-1527.1.1 = { discovered_by = SPA }
