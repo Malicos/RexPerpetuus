@@ -35,18 +35,43 @@ historical_units = {
 }
 
 monarch_names = {
-	"James #4" = 60
-	"Thomas #1" = 40
-	"John #0" = 40
-	"Piers #0" = 20
-	"Walter #0" = 20
-	"Charles #0" = 20
-	"George #0" = 1
-	"Robert #0" = 1
-	"James #0" = 0
-	
-	"Catherine #0" = -1
-	"Mary #0" = -1
+	"Feradach #1" = 1
+	"Colman #1" = 1
+	"Crundmail #1" = 1
+	"Scannlan #1" = 1
+	"Faelchar #1" = 1
+	"Cu Cherca #1" = 1
+	"Fland #1" = 1
+	"Ailill #1" = 1
+	"Forbasach #1" = 1
+	"Anmchad #1" = 1
+	"Toim Snama #2" = 20
+	"Faelan #1" = 10
+	"Mael Duin #1" = 1
+	"Fergal #1" = 1
+	"Dungal #2" = 20
+	"Cerball #1" = 10
+	"Diarmait #1" = 10
+	"Ceallach #2" = 20
+	"Cuilen #1" = 1
+	"Donnchad #2" = 20
+	"Muirchertach #1" = 1
+	"Gilla-Patraic #2" = 20
+	"Domnall #1" = 10
+	"Ragnvald #1" = 1
+	"Oissine #1" = 1
+	"Olav #1" = 10
+	"Fine #1" = -1
+	"Loisa #1" = -1
+	"Suibne #1" = 1
+	"Dunaed #1" = 1
+	"Rigan #1" = 10
+	"Anlaith #1" = -1
+	"Cainnech #1" = -1
+	"Eamonn #1" = 10
+	"Eochad #2" = 20
+	"Rigan #2" = 20
+	"Eochad #3" = 60
 }
 
 leader_names = {
