@@ -3,7 +3,7 @@
 owner = MKS
 controller = MKS
 culture = sulawesi
-religion = animism
+religion = celebic
 capital = "Makassar"
 trade_goods = spices
 hre = no
