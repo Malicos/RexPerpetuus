@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = irish
-capital = 4118	# Cork
+capital = 4378	# Desmond
 
 1436.10.22 = {
 	monarch = {
