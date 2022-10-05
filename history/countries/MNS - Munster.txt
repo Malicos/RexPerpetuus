@@ -4,6 +4,17 @@ government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = irish
-capital = 4118	# Cork
+capital = 4378	# Desmond
 
-#emptied by Draiocht because this tag is a formable with no land
+1436.10.22 = {
+	monarch = {
+		name = "Cobthach"
+		dynasty = "gCais"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1388.2.3
+		religion = catholic
+		culture = irish
+	}
+}
