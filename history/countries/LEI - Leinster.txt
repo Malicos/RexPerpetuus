@@ -4,6 +4,15 @@ government_rank = 1
 technology_group = western
 primary_culture = irish
 religion = catholic
-capital = 373	# Dublin
+capital = 374	# Leinster
 
-#emptied by Draiocht because this tag is a formable with no land
+1422.3.19 = {
+	monarch = {
+		name = "Donnchad II"
+		dynasty = "Gowran"
+		birth_date = 1394.5.10
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
