@@ -60,16 +60,16 @@ monarch_names = {
 	"Donnchad #2" = 20
 
 	# RANDOM NAMES
-	"Donal #7" = 40
-	"Muchadh #3" = 40
-	"Art #1" = 40
+	"Donal #0" = 40
+	"Muchadh #0" = 40
+	"Art #0" = 40
 	"Cathaoir #0" = 40
-	"Gearóid #1" = 20
-	"Muiris #1" = 20
-	"Muireadhach #1" = 20
+	"Gearóid #0" = 20
+	"Muiris #0" = 20
+	"Muireadhach #0" = 20
 	"Criomhthann #0" = 20
-	"Diarmaid #5" = 1
-	"Donnchad #5" = 1
+	"Diarmaid #0" = 1
+	"Donnchad #0" = 1
 	"Ádhamh #0" = 0
 	"Cadwgwan #0" = 0
 	"Caoimhín #0" = 0
