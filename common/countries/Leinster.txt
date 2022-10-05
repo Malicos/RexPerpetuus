@@ -46,6 +46,20 @@ leader_names = {
 }
 
 monarch_names = {
+	# RP MONARCH NAMES
+
+	"Cathalan #1" = 10
+	"Rigan #1" = 1
+	"Fursu #1" = 0
+	"Eystein #1" = 1
+	"Uargalach #1" = 0
+	"Anlaith #1" = -1
+	"Ailbrenn #4" = 60
+	"Fine #1" = -1
+	"Eochad #2" = 20
+	"Donnchad #2" = 20
+
+	# RANDOM NAMES
 	"Donal #7" = 40
 	"Muchadh #3" = 40
 	"Art #1" = 40
