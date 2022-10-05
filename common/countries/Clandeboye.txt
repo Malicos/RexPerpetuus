@@ -35,14 +35,33 @@ historical_units = {
 }
 
 monarch_names = {
-	"Donal #12" = 40
+	# RP MONARCH NAMES
+	"Fiachnae #1" = 1
+	"Uladh #1" = 1
+	"Malcolm #1" = 10
+	"Duncan #1" = 10
+	"Fer-Fugaill #1" = 1
+	"Mael-Snechtai #1" = 1
+	"Lulach #1" = 1
+	"Ailpin #1" = 1
+	"Ailbrenn #1" = 1
+	"Cathalan #2" = 20
+	"Coeman #1" = 1
+	"Blathmacc #1" = 1
+	"Ciaran #1" = 1
+	"Harold #2" = 20
+	"Faelchad #2" = 20
+	"Ailpin #2" = 20
+
+	# RANDOM NAMES
+	"Donal #0" = 40
 	"Art #0" = 40
 	"Conn #0" = 40
 	"Einrí #0" = 40
-	"Áed #13" = 20
-	"Niall #6" = 20
-	"Brian #2" = 20
-	"Eoghan #1" = 20
+	"Áed #0" = 20
+	"Niall #0" = 20
+	"Brian #0" = 20
+	"Eoghan #0" = 20
 	"Séan #0" = 20
 	"Turlough #0" = 20
 	"Alaois #0" = 0
