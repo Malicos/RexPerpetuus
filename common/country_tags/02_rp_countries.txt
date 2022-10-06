@@ -43,7 +43,6 @@ WTC = "countries/Whitch.txt"
 CRK = "countries/Cork.txt"
 DGA = "countries/Donegal.txt"
 DUB = "countries/Dublin.txt"
-RCM = "countries/Roscommon.txt"
 
 # France
 AGL = "countries/Angouleme.txt"
