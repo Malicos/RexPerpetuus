@@ -5,8 +5,8 @@
 #Core Details
 capital = "An Caisleán Riabhach"
 is_city = yes
-owner = RCM
-controller = RCM
+owner = MYO
+controller = MYO
 
 #Demographics
 culture = irish
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = RCM
+add_core = MYO
 
 #Other Political
 hre = no
