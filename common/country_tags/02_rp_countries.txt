@@ -69,6 +69,8 @@ WLL = "countries/Wallis.txt"
 # Iberia
 BGC = "countries/Braganca.txt"
 EON = "countries/Eonavia.txt"
+SHQ = "countries/Sharq.txt"
+SHS = "countries/Shenshir.txt"
 STD = "countries/Santander.txt"
 TOM = "countries/TrasOsMontes.txt"
 

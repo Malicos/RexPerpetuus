@@ -1,8 +1,8 @@
-#Country Name: Please see filename.
+#Legacy of Manzikert: Balansiya
 
 graphical_culture = muslimgfx
 
-color = { 242 200 115 }
+color = { 150 200 115 }
 
 historical_idea_groups = {
 	exploration_ideas
@@ -26,27 +26,11 @@ historical_units = {
 }
 
 monarch_names = {
-	# RP NAMES
-	"al-Mundir #1" = 1
-	"al-Hakam #2" = 20
-	"al-Qasim #1" = 1
-	"Yahya #1" = 1
-	"Abd al-Rahman #5" = 100
-	"Muhammad #3" = 60
-	"Hisham #3" = 60
-	"Amr #1" = 1
-	"Abdul-Razzaq #2" = 20
-	"Musa #2" = 20
-	"Suleyman #2" = 20
-	"Abdallah #4" = 60
-	"Garsiya #1" = 1
-	"Ali #3" = 60
-
-	# RANDOM
 	"Abda #0" = -1
 	"Abdul-Aziz #0" = 10
 	"Abdul-Hakam #0" = 10
 	"Ahmad #0" = 10
+	"Ali #0" = 0
 	"Bakka #0" = -1
 	"Balashk #0" = 0
 	"Bilal #1" = 10
@@ -54,6 +38,7 @@ monarch_names = {
 	"Fadl #1" = 10
 	"Fahra #0" = -1
 	"Fath #0" = 10
+	"Garsiya #0" = 0
 	"Ghada #0" = -1
 	"Habiba #0" = -1
 	"Hakam #0" = 10
@@ -67,6 +52,7 @@ monarch_names = {
 	"Rashid #0" = 0
 	"Sa'd #0" = 10
 	"Sanyo #0" = 0
+	"Suleyman #0" = 0
 	"Suraya #0" = -1
 	"Utman #0" = 0
 	"Uzmir #0" = 0
@@ -115,4 +101,3 @@ ship_names = {
 	"Mundir I"
 	"S'ad I"
 }
-

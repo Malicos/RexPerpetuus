@@ -1,0 +1,8 @@
+government = monarchy
+
+add_government_reform = iqta
+
+religion = sunni
+primary_culture = balansi_culture
+technology_group = muslim
+capital = 220	# Valencia
