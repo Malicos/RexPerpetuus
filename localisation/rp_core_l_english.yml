@@ -97,8 +97,8 @@
  
  ##Moorish
  moorish:0 "Moorish"          # Iberian Muslim Group
- batalyawsi:0 "Batalyawsi"        # Muslim Badajozi
- balansi_culture:0 "Balansi"      # Muslim Valencian
+ batalyawsi:0 "Shenshiri"        # Muslim Badajozi
+ balansi_culture:0 "Sharqi"      # Muslim Valencian
  ibri_culture:0 "Ibri"            # Muslim Aragonese
  
  #################
