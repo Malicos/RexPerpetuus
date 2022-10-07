@@ -9,6 +9,7 @@ latent_trade_goods = {
 owner = CDB
 controller = CDB
 add_core = CDB
+add_core = SHS
 culture = batalyawsi
 religion = sunni
 capital = "Aveiro"

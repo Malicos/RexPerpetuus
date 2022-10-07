@@ -1,8 +1,8 @@
 #1750 - Xativa
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = SHQ
+controller = SHQ
+add_core = SHQ
 culture = balansi_culture
 religion = sunni
 hre = no

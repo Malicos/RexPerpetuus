@@ -1,8 +1,7 @@
 government = monarchy
-
 add_government_reform = iqta
-
+government_rank = 2
 religion = sunni
-primary_culture = balansi_culture
+primary_culture = batalyawsi
 technology_group = muslim
-capital = 220	# Valencia
+capital = 218	# Badajoz

@@ -2,9 +2,9 @@
 #Region - Iberia
 #Area - Aragon
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = SHQ
+controller = SHQ
+add_core = SHQ
 culture = ibri_culture
 religion = sunni
 hre = no

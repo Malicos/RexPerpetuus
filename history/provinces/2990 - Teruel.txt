@@ -6,9 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = SHQ
+controller = SHQ
+add_core = SHQ
 culture = balansi_culture
 religion = sunni
 hre = no

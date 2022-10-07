@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = SHQ
+controller = SHQ
+add_core = SHQ
 culture = balansi_culture
 religion = sunni
 capital = "Albarracín"

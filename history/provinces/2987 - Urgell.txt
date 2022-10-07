@@ -2,9 +2,9 @@
 #Region - Iberia
 #Area - Catalonia
 
-owner = VAL
-controller = VAL
-add_core = VAL
+owner = SHQ
+controller = SHQ
+add_core = SHQ
 add_core = CAT
 culture = ibri_culture
 religion = sunni
