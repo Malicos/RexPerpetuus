@@ -8,29 +8,16 @@ government_rank = 1
 
 1412.09.16 = {
 	monarch = {
-		name = "Evrard"
-		dynasty = "Robertine-Nontron"
-		adm = 3
-		dip = 4
-		mil = 5
-		birth_date = 1395.5.23
+		name = "Eve"
+		dynasty = "de Saint-Denis"
+		adm = 5
+		dip = 3
+		mil = 3
+		birth_date = 1385.5.11
 		religion = catholic
 		culture = cosmopolitan_french
+		female = yes
 	}
 	add_ruler_personality = just_personality
 	add_ruler_personality = pious_personality
-	heir = {
-		name = "Lothaire"
-		monarch_name = "Lothaire"
-		dynasty = "Robertine-Nontron"
-		adm = 5
-		dip = 6
-		mil = 6
-		birth_date = 1420.3.21
-		death_date = 1485.3.21
-		religion = catholic
-		culture = cosmopolitan_french
-	}
-	add_heir_personality = free_thinker_personality
-	add_heir_personality = intricate_web_weaver_personality
 }
