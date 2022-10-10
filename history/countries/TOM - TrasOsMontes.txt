@@ -6,7 +6,7 @@ technology_group = western
 capital = 1330 # Vila Real
 government_rank = 1
 
-1427.3.30 = {
+1440.10.19 = {
 	monarch = {
 		name = "Nadia"
 		dynasty = "de Lerez"
