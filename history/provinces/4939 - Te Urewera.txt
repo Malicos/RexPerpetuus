@@ -5,7 +5,7 @@ owner = MAA
 controller = MAA
 add_core = MAA
 culture = maori
-religion = animism
+religion = polynesian
 capital = "Tauwhare"
 is_city = yes
 hre = no
@@ -15,5 +15,3 @@ base_manpower = 1
 trade_goods = naval_supplies
 
 discovered_by = polynesian_tech
-
-1642.1.1 = { discovered_by = NED } # Abel Tasman

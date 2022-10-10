@@ -4,7 +4,7 @@ owner = SBW
 controller = SBW
 add_core = SBW
 culture = nusa_tenggara
-religion = animism
+religion = celebic
 capital = "Sumbawa Besar"
 trade_goods = dyes
 hre = no
@@ -17,7 +17,3 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-
-1512.1.1 = { discovered_by = POR }
-
-1637.1.1 = { religion = sunni }

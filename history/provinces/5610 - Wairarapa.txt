@@ -2,7 +2,7 @@
 #New Beyond Typus Provinces
 
 culture = maori # Brian
-religion = animism
+religion = polynesian
 capital = "Whakaoriori"
 trade_goods = unknown
 hre = no

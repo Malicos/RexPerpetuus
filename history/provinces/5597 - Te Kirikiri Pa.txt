@@ -2,7 +2,7 @@
 #New Beyond Typus Provinces
 
 culture = maori # Brian
-religion = animism
+religion = polynesian
 capital = "Te Kirikiri Pa"
 trade_goods = unknown
 hre = no
@@ -12,8 +12,3 @@ base_manpower = 1
 native_size = 10
 native_ferocity = 3
 native_hostileness = 5
-
-
-
-
-#History

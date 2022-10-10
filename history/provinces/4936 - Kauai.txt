@@ -6,7 +6,7 @@ owner = KAA
 controller = KAA
 add_core = KAA
 culture = hawaiian # BT; polynesian
-religion = animism
+religion = polynesian
 capital = "Kauai" # BT; "Tapaa"
 is_city = yes
 hre = no
@@ -20,6 +20,3 @@ trade_goods = fish
 #native_hostileness = 3
 
 discovered_by = polynesian_tech # 1.31
-
-1555.1.1 = { discovered_by = SPA }
-1778.1.1 = { discovered_by = GBR } #James Cook

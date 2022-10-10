@@ -1,7 +1,7 @@
 #Oekusi
 
 culture = timorese
-religion = animism
+religion = celebic
 capital = "Lifao"
 trade_goods = unknown
 hre = no
@@ -16,15 +16,3 @@ discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman
-
-
-1512.1.1 = { discovered_by = POR }
-
-1556.1.1 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	religion = catholic
-	is_city = yes
-	trade_goods = fish
-} # Portuguese colony

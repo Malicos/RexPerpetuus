@@ -5,7 +5,7 @@ owner = SAM
 controller = SAM
 add_core = SAM
 culture = polynesian
-religion = animism
+religion = polynesian
 capital = "Samoa" # BT; "Falealupo"
 is_city = yes
 hre = no
@@ -19,5 +19,3 @@ trade_goods = cloth
 #native_hostileness = 9
 
 discovered_by = polynesian_tech # 1.31
-
-1722.1.1 = { discovered_by = NED } # Jacob Roggeveen

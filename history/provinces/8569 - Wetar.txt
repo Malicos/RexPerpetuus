@@ -1,7 +1,7 @@
 #Repurposed provinces from CR's SEA overhaul
 
 culture = moluccan
-religion = animism
+religion = celebic
 capital = "Wetar"
 trade_goods = unknown
 hre = no
@@ -13,15 +13,3 @@ native_ferocity = 5
 native_hostileness = 5
 
 discovered_by = chinese
-
-
-1512.1.1 = { discovered_by = POR }
-
-1556.1.1 = {
-	owner = POR
-	controller = POR
-	add_core = POR
-	religion = catholic
-	is_city = yes
-	trade_goods = spices
-}

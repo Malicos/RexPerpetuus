@@ -6,7 +6,7 @@ owner = TEA
 controller = TEA
 add_core = TEA
 culture = maori # 1.31
-religion = animism
+religion = polynesian
 capital = "Te Moana-a-toi" # BT; "Tauranga"
 is_city = yes
 hre = no
@@ -20,5 +20,3 @@ trade_goods = fish
 #native_hostileness = 5
 
 discovered_by = polynesian_tech # 1.31
-
-1642.1.1 = { discovered_by = NED } # Abel Tasman

@@ -2,7 +2,7 @@
 # No previous file for Beyond Typus province
 
 culture = maori # Brian
-religion = animism
+religion = polynesian
 capital = "Maungahuka"
 trade_goods = unknown
 hre = no
@@ -12,5 +12,3 @@ base_manpower = 1
 native_size = 1
 native_ferocity = 1
 native_hostileness = 1
-
-1773.1.17 = { discovered_by = GBR }

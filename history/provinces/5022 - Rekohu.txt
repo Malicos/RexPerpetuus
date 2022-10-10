@@ -2,7 +2,7 @@
 # No previous file for Beyond Typus province
 
 culture = maori # Brian
-religion = animism
+religion = polynesian
 capital = "Wharekauri"
 trade_goods = unknown
 hre = no
