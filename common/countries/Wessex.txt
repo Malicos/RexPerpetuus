@@ -1417,34 +1417,12 @@ leader_names = {
 }
 
 ship_names = {
-	Achille Adventure Ajax Albemarle Alexander "Anne Gallant" Antelope "Ark Royal" Assurance Audacious "Anne Royal"
-	Bear Bellerophon Bonaventure Boyne Britannia Buckingham
-	Charles Christ Constant Convertine Culloden Cumberland Crane Crescent
-	Defence Defiance Destiny Dragon Dreadnought
-	"Edward Howard" Elizabeth Eltham Essex Expedition Eleanor Eagle
-	Foresight Foudroyant Falcon Fortune Fellowship
-	"Gabriel Royal" Garland George Gibraltar Gloucester Goliath "Grace Dieu" Grafton "Grand Mistress" "Great Barbara" "Great Bark" "Great Elizabeth"
-	"Great Harry" "Great Nicholas" Guernsey Greyhound Globe
-	Haarlem "Happy Entrance" Hector "Henrietta Maria" Hope Hart
-	James "John Baptist" Jennet
-	"Katherine Forteleza" Kent
-	Leander Leopard Lion Lizard
-	Majestic Margaret Mary "Mary Rose" Mercury Merhonour Michael Minion Minotaur 
-	Nonpareil Nonsuch Northumberland Nottingham
-	Orion
-	Peter Providence "Prince Frederick" Primrose "Prince Royal" Phoenix Pelican
-	"Queen Charlotte"
-	Rainbow "Red Lion" Regent Renown Repulse Revenge "Royal Anne" "Royal Charles" "Royal Prince" Recovery
-	"Scourge of Malice" Sovereign "Sovereign o the Seas" "St Andrew" "St Esprit" "St George" "St Matthew" Suffolk Superb Swallow Swiftsure
-	Speedwell Scout "Seven Stars" "St Anne" Swan Star Satisfaction
-	Theseus Tigre Tramontana Triumph Trinity Tiger
-	Unicorn Union
-	Vanguard Victory
-	Warspite Worcester Weymouth
+	Ithlide Sundwood Ringedstefen Harnfloot Brimwood Merthiss Brondstefen Ethofe Wayhengst Brimhengst Sundhengst Ithhengst
+	Lawmarrow Seamarrow Ithmarrow
 }
 
 army_names = {
-	"Royal Army" "Army of Scotland" "Army of Ireland"
+	"Royal Army"
 }
 
 fleet_names = {

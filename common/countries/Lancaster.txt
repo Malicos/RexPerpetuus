@@ -33,22 +33,8 @@ historical_units = {
 }
 
 ship_names = {
-    Amberry Amounderness
-	Blackburn Bowland
-	Chester
-	Delamere Deva "Duke of Lancaster"
-	Furness Fylde
-	"Henry of Lancaster" Heysham Hornby
-	Irwell
-	"John o' Gaunt"
-	"Lancaster Castle" Lancastrian Leasowe Leyland Liverpool Lonsdale Lune
-	Makerfield Manchester Manxman Mersey "Morecambe Bay"
-	Northwestern
-	Pendle Pennine Preston
-	"Red Rose" Ribble "River Dee"
-	Salford Stopfordian
-	Trafford 
-	"West Derby" Wirral Wyre
+	Ithlide Sundwood Ringedstefen Harnfloot Brimwood Merthiss Brondstefen Ethofe Wayhengst Brimhengst Sundhengst Ithhengst
+	Lawmarrow Seamarrow Ithmarrow
 }
 
 monarch_names = {
