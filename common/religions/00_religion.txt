@@ -2815,7 +2815,7 @@ pagan = {
 	
 	tengri_pagan_reformed = {
 		icon = 27
-		color = { 25 76 217 }
+		color = { 135 206 235 }
 		country = {
 			cav_to_inf_ratio = 0.25
 			global_regiment_cost = -0.2
@@ -2874,7 +2874,7 @@ pagan = {
 	
 	#RP Added	
 	anito = {
-		color = { 245 64 32 }
+		color = { 20 50 150 }
 		icon = 11
 		country = {
 			tolerance_own = 1
@@ -2893,7 +2893,7 @@ pagan = {
 
 	#RP Added
 	celebic = {
-		color = { 245 64 32 }
+		color = { 130 30 170 }
 		icon = 11
 		country = {
 			merchants = 1
@@ -2912,7 +2912,7 @@ pagan = {
 
 	#RP Added
 	polynesian = {
-		color = { 255 171 87 }
+		color = { 234 175 238 }
 		icon = 11
 		country = {
 			global_colonial_growth = 10
