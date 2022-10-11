@@ -2035,7 +2035,7 @@ iberian = {
 		}
 		male_names = {
 			Afonso Álvar Alvito André Ansur Arias Berenguel Bernardo Diego Estevo
-			FernA_n Fernando Flaín Froila García Gerardo Gómez Gonzalo Guillerme Guterre
+			Fernán Fernando Flaín Froila García Gerardo Gómez Gonzalo Guillerme Guterre
 			Henrique Hermenexildo Lope Lourenzo Lucidio Manuel Martino Mendo Munio Nuno
 			Ordono Osorio Oveco Paio Pedro Ponce Raimundo Rodrigo Roi Román
 			Rosendo Sancho Sebastián Sueiro Vasco Vela Vermudo Xil Xoán
