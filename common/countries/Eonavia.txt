@@ -33,15 +33,15 @@ historical_units = {
 }
 
 monarch_names = {
-	"Alfonso #11" = 40
-	"Fernando #4" = 20
-	"Sancho #4" = 10
-	"Ramiro #2" = 10
-	"Juan #1" = 10
+	"Alfonso #0" = 40
+	"Fernando #0" = 20
+	"Sancho #0" = 10
+	"Ramiro #0" = 10
+	"Juan #0" = 10
 	"Felipe #0" = 10
 	"Carlos #0" = 10
-	"Enrique #2" = 5
-	"Pedro #1" = 1
+	"Enrique #0" = 5
+	"Pedro #0" = 1
 	"Isabel #0" = -10
 	"Juana #0" = -10
 	"María #0" = -5
