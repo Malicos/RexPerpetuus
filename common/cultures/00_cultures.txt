@@ -4470,23 +4470,32 @@ moorish = {
 	andalusi_culture = {
 		primary = ADU
 		dynasty_names = {
-			Dhunnunid Nasrid Ummayad Zirid "al-Ilighi" "al-Tadsi" "Zayyanid"
+			Nasrid Ummayad Zirid "al-Ilighi" "al-Tadsi" "Zayyanid"
+			"Mutamin" "Huddid" "Matiyid" "Tahirid" "Razinid" "Hakamid" "Wazirid" "Ismailid" "Farayid" "Abu-Ya'farid"
+			"Mardanisid" "Mursiyid" "Laridid" "Ishbiliyid" "Qunkid" "Balansiyyid" "Maymunid" "Adhavid" "Hassunid" "Gharnatid"
+			"Hishamid" "Mahfuzid" "Ahlidid" "Zannunid" "Mahdid" "Sa'did" "Wadalqavirid" "Qadirid" "Hamdinid" "Yakubid"
+			"Yassin" "Aminid" "Ismailid" "Nasrid" "Muzaffar" "Bajjah" "Zuhr" "Rushd" "Hafsid"
 		}
 		male_names = {
-			Muhammad Yûsuf 'Alî Sa'd Isma'îl Nasr 'Abd al-Karim Ayman Barakat Basir Dawud Fahd Faris Faruq 
-			Haidar Hashim Husam Iqbal Jabbar Ja'far Jamal Junayd Khaliq Malik Mansur Mustafa Najib Qasim Qusay 
-			Rashîd Safi Sakhr Samir Tariq Umar Wahid Zahir Firdaus Fuad Rahim
-			Abbad Abbas Abbas Abdallah Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan Hasan Abdul-Hazm 
-			Abdul-Rahman Abdul-Razzaq Abdul Abdul Abu Abu-Bakr Abu-Bakr Adfuns Alphonse Ahmad Ahmad Ali Ali Amr 
-			Ayyub Balashk Vasco Bilal Fadl Fath Galind Galindo Garsiya Garcia Hakam Hakam Hilal Ibrahim Abraham 
-			Isma'il Ismail Jyad Lubb Lupo Ma'n Mubashir Muhammad Muhammad Mundir Musa Moses Muyahid Raf Rashid 
-			Rasiq Sa'd Sanyo Sancho Siddray Suleyman Solomon Tariq Tifilwit Umar Umar Utman Wannaqo Inigo 
-			Ya'far Yahaff Yahya John Yusuf Joseph
+			Aban Abbad Abbas Abdallah Abd-al-Baqi Abd-al-Gafur Abd-al-Majid Abd-al-Nur Abd-al-Qadir Abd-al-Ra'uf Abd-al-Warith Abdul-Aziz 
+			Abdul-Hakam Abdul-Hasan Abdul-Hazm Abdul-Rahman Abdul-Razzaq Abdul Abu Abu-al-Qasim
+			Abu-Bakr Adfuns Adi Affan Aflah Ahmad A'idh Ajannas Ala Ali Amir Asas Asbat Ashhab Asim Aslam Atarid Atiyya Atrad Ayshun Ayyash 
+			Ayyub Aziz Bahram Bakr Balashk Balj Baqi Bashir Bilal Dimam Darras Dhu-al-Nun Dulaf Fadl Faraj Farqad Fath Fulayh Galib Galind Ganim 
+			Garsiya Gazi Habib Hakam Hamda Hamdin Hamid Hamza Haway Hayyan Hazm Hilal Hiyaz Hizam Hubab Hani' Harith Hatim Haykal Hisham Ibrahim Idris
+			Imran Isa Isma'il Iyad Jahhaf Jahwar Jalaf Allah Jalhama Jalil Jami Jarir Jattab Jayr Jayrun Jidr Jubayr Juda Jumahir Juzayy 
+			Jyad Kathir Kaysan Kulayb Lubb Mahbub Majluf Malik Ma'n Mansur Marwan Maymun Mirdas Mu'awiyah Mubashir Mudrik Muffarij Muhallab Muhammad Mundir Musa
+			Mus'ab Mutarrif Muyahid Nadar Nasir Nizar Nudhayr Qar'us Qasim Qatan Qays Raf Rashid Rasiq Razin Sa'd Sa'dan Safwan Sa'ib Sajr Salmun Sanyo Saqi Sarur Shabtun
+			Shajara Siddray Siraj Sufyan Suleyman Tahir Talha Tamim Tammam Tariq Taytal Tayyib Tawd Tifilwit Tuways Ubada Ubayd Ubaydun Ulaym  
+			Umar Umayyah Urayb Utman Wadih Wahb Walid Wannaqo Wasim Wathima Wazir Ya'far Yahaff Yahya Ya'ish Yasin Yaskar Yasid Yujamir Yusr Yusuf
+			Zaban Zafir Zakariyya Zarb Ziyad Zuhayr Zuhr Zurar 
 		}
 		female_names = {
-			Aliya Fahima Haifa Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda 
-			Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			Abda Ahu Aiza A'isha Afiya Aliyah al-Shura Amat-al-Aziz Amat-al-Izz Amat-al-Jaliq Amat-al-Rahman Amat-al-Wahhab Amina Amira Arwa Asma Asmuna Asmuniya Atika 
+			Awriya Ayluh Ayshuna Aziza Baraka Bazi_a Butayna Dana Daniyah Dhuna Dima Fahra Fahriya Fatima Faynan Gamila Ganiya Ghada Gislan Habiba Hadija Hakima Halawa Hamda Hamida 
+			Hassana Hawa' Hayal Hayzuran Hind Huda Ibtisam Idlal Ihtizaz Ishush Isra Jalida Jawra Kanza Karima Kera Khadija Kinda Layla Lidhdha
+			Maha Mahabba Mahjuna Makkiya Malika Mariam Masabih Ma'shuq Maymuna Mayya Mu'amarra Muhja Munya Muzahima Muzna Nadia Naila Najat Najma Nazhun Nu'ayma Nur Nuwayra Nuzha 
+			Qasmuna Qusayma Rafiqa Rahat Raisa Randa Rasis Ra'y Rayhana Ruhayma Ruqayya Sa'ada Sa'duna Safiya Sakan Salma Samra Shakira Shawwab Su'ad Sukayna Suraya 
+			Tahira Tahr Tahtazz Tarifa Tarub Thashim Umayna Umm Urraka Usayma Utayqa Wahida Wallada Yasmin Zahida Zahra
 		}
 	}
 	#BtPLegacy Culture
@@ -4514,67 +4523,95 @@ moorish = {
 		}
 	}
 	batalyawsi = {
+		primary = SHS
 		dynasty_names = {
-			Almohad Azizid Balansid Nasrid Zirid "al-Ilighi" "al-Tadsi" "Zayyanid"
+			Nasrid Ummayad Zirid "al-Ilighi" "al-Tadsi" "Zayyanid"
+			"Mutamin" "Huddid" "Matiyid" "Tahirid" "Razinid" "Hakamid" "Wazirid" "Ismailid" "Farayid" "Abu-Ya'farid"
+			"Mardanisid" "Mursiyid" "Laridid" "Ishbiliyid" "Qunkid" "Balansiyyid" "Maymunid" "Adhavid" "Hassunid" "Gharnatid"
+			"Hishamid" "Mahfuzid" "Ahlidid" "Zannunid" "Mahdid" "Sa'did" "Wadalqavirid" "Qadirid" "Hamdinid" "Yakubid"
+			"Yassin" "Aminid" "Ismailid" "Nasrid" "Muzaffar" "Bajjah" "Zuhr" "Rushd" "Hafsid"
 		}
 		male_names = {
-			Muhammad Yûsuf 'Alî Sa'd Isma'îl Nasr 'Abd al-Karim Ayman Barakat Basir Dawud Fahd Faris Faruq 
-			Haidar Hashim Husam Iqbal Jabbar Ja'far Jamal Junayd Khaliq Malik Mansur Mustafa Najib Qasim Qusay 
-			Rashîd Safi Sakhr Samir Tariq Umar Wahid Zahir Firdaus Fuad Rahim
-			Abbad Abbas Abbas Abdallah Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan Hasan Abdul-Hazm 
-			Abdul-Rahman Abdul-Razzaq Abdul Abdul Abu Abu-Bakr Abu-Bakr Adfuns Alphonse Ahmad Ahmad Ali Ali Amr 
-			Ayyub Balashk Vasco Bilal Fadl Fath Galind Galindo Garsiya Garcia Hakam Hakam Hilal Ibrahim Abraham 
-			Isma'il Ismail Jyad Lubb Lupo Ma'n Mubashir Muhammad Muhammad Mundir Musa Moses Muyahid Raf Rashid 
-			Rasiq Sa'd Sanyo Sancho Siddray Suleyman Solomon Tariq Tifilwit Umar Umar Utman Wannaqo Inigo 
-			Ya'far Yahaff Yahya John Yusuf Joseph
+			Aban Abbad Abbas Abdallah Abd-al-Baqi Abd-al-Gafur Abd-al-Majid Abd-al-Nur Abd-al-Qadir Abd-al-Ra'uf Abd-al-Warith Abdul-Aziz 
+			Abdul-Hakam Abdul-Hasan Abdul-Hazm Abdul-Rahman Abdul-Razzaq Abdul Abu Abu-al-Qasim
+			Abu-Bakr Adfuns Adi Affan Aflah Ahmad A'idh Ajannas Ala Ali Amir Asas Asbat Ashhab Asim Aslam Atarid Atiyya Atrad Ayshun Ayyash 
+			Ayyub Aziz Bahram Bakr Balashk Balj Baqi Bashir Bilal Dimam Darras Dhu-al-Nun Dulaf Fadl Faraj Farqad Fath Fulayh Galib Galind Ganim 
+			Garsiya Gazi Habib Hakam Hamda Hamdin Hamid Hamza Haway Hayyan Hazm Hilal Hiyaz Hizam Hubab Hani' Harith Hatim Haykal Hisham Ibrahim Idris
+			Imran Isa Isma'il Iyad Jahhaf Jahwar Jalaf Allah Jalhama Jalil Jami Jarir Jattab Jayr Jayrun Jidr Jubayr Juda Jumahir Juzayy 
+			Jyad Kathir Kaysan Kulayb Lubb Mahbub Majluf Malik Ma'n Mansur Marwan Maymun Mirdas Mu'awiyah Mubashir Mudrik Muffarij Muhallab Muhammad Mundir Musa
+			Mus'ab Mutarrif Muyahid Nadar Nasir Nizar Nudhayr Qar'us Qasim Qatan Qays Raf Rashid Rasiq Razin Sa'd Sa'dan Safwan Sa'ib Sajr Salmun Sanyo Saqi Sarur Shabtun
+			Shajara Siddray Siraj Sufyan Suleyman Tahir Talha Tamim Tammam Tariq Taytal Tayyib Tawd Tifilwit Tuways Ubada Ubayd Ubaydun Ulaym  
+			Umar Umayyah Urayb Utman Wadih Wahb Walid Wannaqo Wasim Wathima Wazir Ya'far Yahaff Yahya Ya'ish Yasin Yaskar Yasid Yujamir Yusr Yusuf
+			Zaban Zafir Zakariyya Zarb Ziyad Zuhayr Zuhr Zurar 
 		}
 		female_names = {
-			Aliya Fahima Haifa Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda 
-			Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			Abda Ahu Aiza A'isha Afiya Aliyah al-Shura Amat-al-Aziz Amat-al-Izz Amat-al-Jaliq Amat-al-Rahman Amat-al-Wahhab Amina Amira Arwa Asma Asmuna Asmuniya Atika 
+			Awriya Ayluh Ayshuna Aziza Baraka Bazi_a Butayna Dana Daniyah Dhuna Dima Fahra Fahriya Fatima Faynan Gamila Ganiya Ghada Gislan Habiba Hadija Hakima Halawa Hamda Hamida 
+			Hassana Hawa' Hayal Hayzuran Hind Huda Ibtisam Idlal Ihtizaz Ishush Isra Jalida Jawra Kanza Karima Kera Khadija Kinda Layla Lidhdha
+			Maha Mahabba Mahjuna Makkiya Malika Mariam Masabih Ma'shuq Maymuna Mayya Mu'amarra Muhja Munya Muzahima Muzna Nadia Naila Najat Najma Nazhun Nu'ayma Nur Nuwayra Nuzha 
+			Qasmuna Qusayma Rafiqa Rahat Raisa Randa Rasis Ra'y Rayhana Ruhayma Ruqayya Sa'ada Sa'duna Safiya Sakan Salma Samra Shakira Shawwab Su'ad Sukayna Suraya 
+			Tahira Tahr Tahtazz Tarifa Tarub Thashim Umayna Umm Urraka Usayma Utayqa Wahida Wallada Yasmin Zahida Zahra
 		}
 	}
 	balansi_culture = {
-		primary = VAL
+		primary = SHQ
 		dynasty_names = {
-			Almohad Azizid Balansid Nasrid Zirid "al-Ilighi" "al-Tadsi" "Zayyanid"
+			Nasrid Ummayad Zirid "al-Ilighi" "al-Tadsi" "Zayyanid"
+			"Mutamin" "Huddid" "Matiyid" "Tahirid" "Razinid" "Hakamid" "Wazirid" "Ismailid" "Farayid" "Abu-Ya'farid"
+			"Mardanisid" "Mursiyid" "Laridid" "Ishbiliyid" "Qunkid" "Balansiyyid" "Maymunid" "Adhavid" "Hassunid" "Gharnatid"
+			"Hishamid" "Mahfuzid" "Ahlidid" "Zannunid" "Mahdid" "Sa'did" "Wadalqavirid" "Qadirid" "Hamdinid" "Yakubid"
+			"Yassin" "Aminid" "Ismailid" "Nasrid" "Muzaffar" "Bajjah" "Zuhr" "Rushd" "Hafsid"
 		}
 		male_names = {
-			Muhammad Yûsuf 'Alî Sa'd Isma'îl Nasr 'Abd al-Karim Ayman Barakat Basir Dawud Fahd Faris Faruq 
-			Haidar Hashim Husam Iqbal Jabbar Ja'far Jamal Junayd Khaliq Malik Mansur Mustafa Najib Qasim Qusay 
-			Rashîd Safi Sakhr Samir Tariq Umar Wahid Zahir Firdaus Fuad Rahim
-			Abbad Abbas Abbas Abdallah Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan Hasan Abdul-Hazm 
-			Abdul-Rahman Abdul-Razzaq Abdul Abdul Abu Abu-Bakr Abu-Bakr Adfuns Alphonse Ahmad Ahmad Ali Ali Amr 
-			Ayyub Balashk Vasco Bilal Fadl Fath Galind Galindo Garsiya Garcia Hakam Hakam Hilal Ibrahim Abraham 
-			Isma'il Ismail Jyad Lubb Lupo Ma'n Mubashir Muhammad Muhammad Mundir Musa Moses Muyahid Raf Rashid 
-			Rasiq Sa'd Sanyo Sancho Siddray Suleyman Solomon Tariq Tifilwit Umar Umar Utman Wannaqo Inigo 
-			Ya'far Yahaff Yahya John Yusuf Joseph
+			Aban Abbad Abbas Abdallah Abd-al-Baqi Abd-al-Gafur Abd-al-Majid Abd-al-Nur Abd-al-Qadir Abd-al-Ra'uf Abd-al-Warith Abdul-Aziz 
+			Abdul-Hakam Abdul-Hasan Abdul-Hazm Abdul-Rahman Abdul-Razzaq Abdul Abu Abu-al-Qasim
+			Abu-Bakr Adfuns Adi Affan Aflah Ahmad A'idh Ajannas Ala Ali Amir Asas Asbat Ashhab Asim Aslam Atarid Atiyya Atrad Ayshun Ayyash 
+			Ayyub Aziz Bahram Bakr Balashk Balj Baqi Bashir Bilal Dimam Darras Dhu-al-Nun Dulaf Fadl Faraj Farqad Fath Fulayh Galib Galind Ganim 
+			Garsiya Gazi Habib Hakam Hamda Hamdin Hamid Hamza Haway Hayyan Hazm Hilal Hiyaz Hizam Hubab Hani' Harith Hatim Haykal Hisham Ibrahim Idris
+			Imran Isa Isma'il Iyad Jahhaf Jahwar Jalaf Allah Jalhama Jalil Jami Jarir Jattab Jayr Jayrun Jidr Jubayr Juda Jumahir Juzayy 
+			Jyad Kathir Kaysan Kulayb Lubb Mahbub Majluf Malik Ma'n Mansur Marwan Maymun Mirdas Mu'awiyah Mubashir Mudrik Muffarij Muhallab Muhammad Mundir Musa
+			Mus'ab Mutarrif Muyahid Nadar Nasir Nizar Nudhayr Qar'us Qasim Qatan Qays Raf Rashid Rasiq Razin Sa'd Sa'dan Safwan Sa'ib Sajr Salmun Sanyo Saqi Sarur Shabtun
+			Shajara Siddray Siraj Sufyan Suleyman Tahir Talha Tamim Tammam Tariq Taytal Tayyib Tawd Tifilwit Tuways Ubada Ubayd Ubaydun Ulaym  
+			Umar Umayyah Urayb Utman Wadih Wahb Walid Wannaqo Wasim Wathima Wazir Ya'far Yahaff Yahya Ya'ish Yasin Yaskar Yasid Yujamir Yusr Yusuf
+			Zaban Zafir Zakariyya Zarb Ziyad Zuhayr Zuhr Zurar 
 		}
 		female_names = {
-			Aliya Fahima Haifa Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda 
-			Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			Abda Ahu Aiza A'isha Afiya Aliyah al-Shura Amat-al-Aziz Amat-al-Izz Amat-al-Jaliq Amat-al-Rahman Amat-al-Wahhab Amina Amira Arwa Asma Asmuna Asmuniya Atika 
+			Awriya Ayluh Ayshuna Aziza Baraka Bazi_a Butayna Dana Daniyah Dhuna Dima Fahra Fahriya Fatima Faynan Gamila Ganiya Ghada Gislan Habiba Hadija Hakima Halawa Hamda Hamida 
+			Hassana Hawa' Hayal Hayzuran Hind Huda Ibtisam Idlal Ihtizaz Ishush Isra Jalida Jawra Kanza Karima Kera Khadija Kinda Layla Lidhdha
+			Maha Mahabba Mahjuna Makkiya Malika Mariam Masabih Ma'shuq Maymuna Mayya Mu'amarra Muhja Munya Muzahima Muzna Nadia Naila Najat Najma Nazhun Nu'ayma Nur Nuwayra Nuzha 
+			Qasmuna Qusayma Rafiqa Rahat Raisa Randa Rasis Ra'y Rayhana Ruhayma Ruqayya Sa'ada Sa'duna Safiya Sakan Salma Samra Shakira Shawwab Su'ad Sukayna Suraya 
+			Tahira Tahr Tahtazz Tarifa Tarub Thashim Umayna Umm Urraka Usayma Utayqa Wahida Wallada Yasmin Zahida Zahra
 		}
 	}
 	ibri_culture = {
 		dynasty_names = {
-			Almohad Azizid Balansid Nasrid Zirid "al-Ilighi" "al-Tadsi" "Zayyanid"
+			Nasrid Ummayad Zirid "al-Ilighi" "al-Tadsi" "Zayyanid"
+			"Mutamin" "Huddid" "Matiyid" "Tahirid" "Razinid" "Hakamid" "Wazirid" "Ismailid" "Farayid" "Abu-Ya'farid"
+			"Mardanisid" "Mursiyid" "Laridid" "Ishbiliyid" "Qunkid" "Balansiyyid" "Maymunid" "Adhavid" "Hassunid" "Gharnatid"
+			"Hishamid" "Mahfuzid" "Ahlidid" "Zannunid" "Mahdid" "Sa'did" "Wadalqavirid" "Qadirid" "Hamdinid" "Yakubid"
+			"Yassin" "Aminid" "Ismailid" "Nasrid" "Muzaffar" "Bajjah" "Zuhr" "Rushd" "Hafsid"
 		}
 		male_names = {
-			Muhammad Yûsuf 'Alî Sa'd Isma'îl Nasr 'Abd al-Karim Ayman Barakat Basir Dawud Fahd Faris Faruq 
-			Haidar Hashim Husam Iqbal Jabbar Ja'far Jamal Junayd Khaliq Malik Mansur Mustafa Najib Qasim Qusay 
-			Rashîd Safi Sakhr Samir Tariq Umar Wahid Zahir Firdaus Fuad Rahim
-			Abbad Abbas Abbas Abdallah Abdullah Abdul-Aziz Abdul-Hakam Abdul-Hasan Hasan Abdul-Hazm 
-			Abdul-Rahman Abdul-Razzaq Abdul Abdul Abu Abu-Bakr Abu-Bakr Adfuns Alphonse Ahmad Ahmad Ali Ali Amr 
-			Ayyub Balashk Vasco Bilal Fadl Fath Galind Galindo Garsiya Garcia Hakam Hakam Hilal Ibrahim Abraham 
-			Isma'il Ismail Jyad Lubb Lupo Ma'n Mubashir Muhammad Muhammad Mundir Musa Moses Muyahid Raf Rashid 
-			Rasiq Sa'd Sanyo Sancho Siddray Suleyman Solomon Tariq Tifilwit Umar Umar Utman Wannaqo Inigo 
-			Ya'far Yahaff Yahya John Yusuf Joseph
+			Aban Abbad Abbas Abdallah Abd-al-Baqi Abd-al-Gafur Abd-al-Majid Abd-al-Nur Abd-al-Qadir Abd-al-Ra'uf Abd-al-Warith Abdul-Aziz 
+			Abdul-Hakam Abdul-Hasan Abdul-Hazm Abdul-Rahman Abdul-Razzaq Abdul Abu Abu-al-Qasim
+			Abu-Bakr Adfuns Adi Affan Aflah Ahmad A'idh Ajannas Ala Ali Amir Asas Asbat Ashhab Asim Aslam Atarid Atiyya Atrad Ayshun Ayyash 
+			Ayyub Aziz Bahram Bakr Balashk Balj Baqi Bashir Bilal Dimam Darras Dhu-al-Nun Dulaf Fadl Faraj Farqad Fath Fulayh Galib Galind Ganim 
+			Garsiya Gazi Habib Hakam Hamda Hamdin Hamid Hamza Haway Hayyan Hazm Hilal Hiyaz Hizam Hubab Hani' Harith Hatim Haykal Hisham Ibrahim Idris
+			Imran Isa Isma'il Iyad Jahhaf Jahwar Jalaf Allah Jalhama Jalil Jami Jarir Jattab Jayr Jayrun Jidr Jubayr Juda Jumahir Juzayy 
+			Jyad Kathir Kaysan Kulayb Lubb Mahbub Majluf Malik Ma'n Mansur Marwan Maymun Mirdas Mu'awiyah Mubashir Mudrik Muffarij Muhallab Muhammad Mundir Musa
+			Mus'ab Mutarrif Muyahid Nadar Nasir Nizar Nudhayr Qar'us Qasim Qatan Qays Raf Rashid Rasiq Razin Sa'd Sa'dan Safwan Sa'ib Sajr Salmun Sanyo Saqi Sarur Shabtun
+			Shajara Siddray Siraj Sufyan Suleyman Tahir Talha Tamim Tammam Tariq Taytal Tayyib Tawd Tifilwit Tuways Ubada Ubayd Ubaydun Ulaym  
+			Umar Umayyah Urayb Utman Wadih Wahb Walid Wannaqo Wasim Wathima Wazir Ya'far Yahaff Yahya Ya'ish Yasin Yaskar Yasid Yujamir Yusr Yusuf
+			Zaban Zafir Zakariyya Zarb Ziyad Zuhayr Zuhr Zurar 
 		}
 		female_names = {
-			Aliya Fahima Haifa Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda 
-			Ibtisam Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			Abda Ahu Aiza A'isha Afiya Aliyah al-Shura Amat-al-Aziz Amat-al-Izz Amat-al-Jaliq Amat-al-Rahman Amat-al-Wahhab Amina Amira Arwa Asma Asmuna Asmuniya Atika 
+			Awriya Ayluh Ayshuna Aziza Baraka Bazi_a Butayna Dana Daniyah Dhuna Dima Fahra Fahriya Fatima Faynan Gamila Ganiya Ghada Gislan Habiba Hadija Hakima Halawa Hamda Hamida 
+			Hassana Hawa' Hayal Hayzuran Hind Huda Ibtisam Idlal Ihtizaz Ishush Isra Jalida Jawra Kanza Karima Kera Khadija Kinda Layla Lidhdha
+			Maha Mahabba Mahjuna Makkiya Malika Mariam Masabih Ma'shuq Maymuna Mayya Mu'amarra Muhja Munya Muzahima Muzna Nadia Naila Najat Najma Nazhun Nu'ayma Nur Nuwayra Nuzha 
+			Qasmuna Qusayma Rafiqa Rahat Raisa Randa Rasis Ra'y Rayhana Ruhayma Ruqayya Sa'ada Sa'duna Safiya Sakan Salma Samra Shakira Shawwab Su'ad Sukayna Suraya 
+			Tahira Tahr Tahtazz Tarifa Tarub Thashim Umayna Umm Urraka Usayma Utayqa Wahida Wallada Yasmin Zahida Zahra
 		}
 	}
 }
