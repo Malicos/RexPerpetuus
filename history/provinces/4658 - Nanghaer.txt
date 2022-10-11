@@ -1,6 +1,9 @@
 #Nangha'er
 
-culture = evenk
+owner = ANU
+controller = ANU
+add_core = ANU
+culture = ainu
 religion = animism
 capital = "Nangha'er"
 trade_goods = fish
