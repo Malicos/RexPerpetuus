@@ -1895,23 +1895,21 @@ iberian = {
 			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
 		}
 		male_names = {
-			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar
-			Bernardo Bertrán Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo
-			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
-			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco
-			Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil
-			Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan
-			Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono
-			Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho
-			Suero Tello Vela Vela Suero Oveco John Enrique
+			Alfonso Alonso Álvar Álvaro Andrés Ansur Antonino Arias Benito Berenguel
+			Bermudo Bernardo Diego Domingo Enrique Esteban Fadrique Felipe Fernán Fernando
+			Fruela García Gerardo Gil Gómez Gonzalo Guillén Guillermo Gutierre Hermenegildo
+			Jaime Jimeno Juan Laín Lope Lorenzo Luis Manrique Manuel Martín
+			Menendo Munio Nuno Ordono Osorio Oveco Pedro Pelayo Pero Ponce
+			Raimundo Ramiro Ramón Rodrigo Salvador Sancho Sebastián Simón Suero Tello
+			Teobaldo Vela Velasco Vellido
 		}
 		female_names = {
-			Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza
-			Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes
-			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine
-			Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
-			Isabel
+			Aldonza Alduara Alicia Anderquina Andregoto Aragonte Argilo Beatriz Benita Berenguela
+			Blanca Brígida Catalina Constanza Cristina Duena Dulce Elvira Ermengarda Ermesinda
+			Eslonza Estefanía Eulalia Eva Eylo Flámula Fronilde Godina Goto Gotruda
+			Guina Guiomar Gustio Inés Isabel Jimena Juana Leonor Mafalda Margarita
+			María Marina Marquesa Mayor Mencía Mília Munia Muniadona Oneca Sancha
+			Sol Teresa Toda Urraca Velasquita Violante Visclavara
 		}
 	}
 	mexican = {
@@ -1985,22 +1983,19 @@ iberian = {
 			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
 		}
 		male_names = {
-			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar
-			Bernardo Bertrán Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo
-			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
-			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco
-			Henry Fadrique Frederick Felipe Fruela Froila  Gil
-			Egidius Guillén Guillermo Juan
-			Lupo Luis Manrique Martín Martin Munio Ordoño
-			Obeko Pelayo Pelagius Roderick Salvador
-			Tello Vela Suero Oveco
+			Alfonsu Álvaru Andrés Arias Asur Aureliu Bermudu Bernaldu Bosón Diegu
+			Domingu Estébanu Facundu Favila Fernandu Flaín Fruela García Gómez Gonzalu
+			Guillén Gundemaru Gutierre Hermenexildu Llope Llorián Manuel Martín Melendu Muniu
+			Nunu Ordonu Osoriu Ovecu Pedru Pelayu Pinolu Ponce Ramiru Ramón
+			Rodrigu Sanchu Savaricu Sebastián Silu Sueru Vela Velascu Xerardu Xil
+			Xuan
 		}
 		female_names = {
-			Aldonza Anderquina Beatriz Berenguela Berengaria Blanca Constanza
-			Elvira Estefanía Fronilda Gontroda Gotruda Inés Agnes
-			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Marina Marine
-			Mayor Mencía Milia Emily Sancha Teresa Toda Urraca Isabela
+			Adosinda Aldara Aldonza Aragonte Beatriz Belasquida Blanca Catalina Constanza Cristina
+			Dulce Egilona Elvira Enderquina Ermesenda Estefanía Eva Fronilde Gontroda Gotina
+			Goto Guiomar Inés Iyana Leodegundia Lleonor Margarita María Marina Marquesa
+			Mayor Mencía Mília Munia Muniadona Nicor Nuna Olaya Oneca Patrona
+			Sabela Sancha Taresa Tegridia Toda Urraca Varela Ximena Xuana Xusta
 		}
 	}
 	aragonese = {
@@ -2039,14 +2034,18 @@ iberian = {
 			"de Cabrera" "de Villena"
 		}
 		male_names = {
-			García Ordoño Afonso Sancho Ramiro Bermudo Froila Aleixo Alvaro Anxo Baltasar Bernaldo Brais Carlos
-			Cristovo Domingos Estevo Felipe Fernán Francisco Frederico Gonzalo Guillerme Gumersindo Henrique
-			Hermenexildo Hixinio Hugo Iago Ignacio Leandro Lope Miguel Nuno Odón Paulo Pedro Ramón Roi Tomé
-			Vitor Xoan Xorxe
+			Afonso Álvar Alvito André Ansur Arias Berenguel Bernardo Diego Estevo
+			FernA_n Fernando Flaín Froila García Gerardo Gómez Gonzalo Guillerme Guterre
+			Henrique Hermenexildo Lope Lourenzo Lucidio Manuel Martino Mendo Munio Nuno
+			Ordono Osorio Oveco Paio Pedro Ponce Raimundo Rodrigo Roi Román
+			Rosendo Sancho Sebastián Sueiro Vasco Vela Vermudo Xil Xoán
 		}
 		female_names = {
-			Branca Iria Sabela Lúa Rodolfa Sofía Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengária Berengaria Branca
-			Blanche Antía Branca Carme Catarina Dores Iria Lía Margarida María Noela Rosalía Sabela Uxía Xoana
+			Adosinda Aldara Aldonza Beatriz Berengaria Branca Catarina Constanza Corexía Cristina
+			Duce Elo Elvira Enderquina Estefanía Eulalia Eva Fronilde Gontrode Goto
+			Gudilona Guiomar Guntina Hermesinda Inés Leodegundia Leonor Loba Mafalda Maior
+			Margarida María Marina Marquesa Mencía Mília Mumadona Munia Oneca Sabela
+			Sancha Tarexia Tigridia Toda Urraca Velasquida Visclavara Ximena Xoana
 		}
 	}
 	andalucian = {
