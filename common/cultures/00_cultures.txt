@@ -12185,24 +12185,23 @@ aquitanian = {
 			"de Navarra" "de Beaumont" "de Lerín" "de Monteagudo" Escors
 			# CKII
 			"de Haro"
+			# CKIII
+			"de Agurto" "de Vizcaya" "de Noboa" "de Vidaure" "de Azagra" "Benavides" "Coronel" "de Viguera"
+			"de Cea" "Cajal" "de Cameros" "de Viscaya" "de La Rioja" "de Laturce"
 		}
 		male_names = {
-			Enrique Carlos Francisco Juan Luis Gastón Pedro Buenaventura Godofredo Jaime Lanzarote
-			Martín García Felipe Teobaldo Alfonso Agustín Alejandro Álvaro Andrés Antonio Bernardo César
-			Cristóbal Diego Esteban Fernando Gaspar José Melchor Nicolás Simón Leonel
-			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Belasko Vasco Bermudo Vermudo
-			Bernard Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond
-			Fortun Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John
-			Lope Lupo Louis Manrike Amalric Martin Munio Nuño Nuno Obeko Ordoño
-			Ordono Pelaio Pelagius Piarres Peter Ramiro Rodrigo Roderick Vela Ximeno Simon
-			Zentulo Centule Ladron Ferdinand Bernart
+			Alfontso Alvar Antso Armengol Aznar Belasko Bermudo Bernart Diego Donato
+			Egidio Eneko Erramun Fernando Filipe Fortun Galindo Gartzia Gil Gilen
+			Gomez Gontzal Henrique Herramel Jakue Joanes Karlos Kasio Ladron Lope
+			Luis Manrike Martín Munio Nuno Obeko Ordono Pelaio Petri Piarres Ramiro
+			Rodrigo Suero Tibalt Vela Ximeno Zentulo
 		}
 		female_names = {
-			Juana Catalina Leonor Blanca
-			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Blanka
-			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance
-			Maior Mayor Maria Mentzia Mencia Munia Nuña Oneka Oria Plazentzia
-			Teresa Toda Urraka Urraca Ximena Plaisance
+			Adalais Aines Alausia Aldontza Anderkina Andregoto Antsa Assona Ava Azibella
+			Beatritz Belaskita Berengaria Blanka Briska Elbira Elisabet Eliza Emili Endulcia
+			Ermesinda Estefania Fakilo Fronilde Gersenda Guntroda Joana Katalina Kisilo Konstantzia
+			Leonor Maior Maria Matilda Matrona Mentzia Munia Muniadona Nunila Nuna
+			Oneka Oria Plazentzia Tekla Teresa Toda Toda-Adalais Urraka Ximena
 		}
 	}
 }
