@@ -120,8 +120,11 @@
  siberian_pagan_reformed_religion_desc:0 "Siberians believe in a horizontal world where men and beasts all live in clans, linked together through alliance or vengeance. Hunting is a core part of the equilibrium between taking and giving life, and with death all souls travel downstream to reincarnate in the clan they lived in previously."
  
  # Technologies
- ottoman:0 "Rhomaion"
- ottoman_desc:0 "With the Rhomaion technology group, technology levels are 10% more expensive (110%)."
+ north_american:0 "Vesperian"
+ mesoamerican:0 "Mexikhan"
+ south_american:0 "Elysian"
+ ottoman:0 "Rhomanian"
+ ottoman_desc:0 "With the Rhomanian technology group, technology levels are [PH] more expensive (placeholder percentage)."
 
  # Continents
  africa:0 "Ethiopia"
