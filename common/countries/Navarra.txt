@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 128 81 24 }
-revolutionary_colors = { 5 8 5 }
 
 historical_idea_groups = {
 	maritime_ideas
@@ -34,21 +33,37 @@ historical_units = {
 }
 
 monarch_names = {
-	"Antso #4" = 10
-	"Arias #0" = 0
-	"Cristina #0" = -1
-	"Domingo #0" = 0
-	"Eneko #1" = 10
-	"Evrard #0" = 0
+	# RP RULERNAMES
+	"Eneko #1" = 1
 	"Fortun #1" = 10
-	"Gartzia #5" = 10
-	"Gotruda #0" = -1
-	"Inés #0" = -1
-	"Jaime #1" = 10
-	"Ladron #1" = 10
-	"Lothaire #0" = 0
-	"Mencía #0" = -1
+	"Gartzia #5" = 80
+	"Petri #1" = 10
+	"Alfontso #1" = 10
+	"Lope #1" = 10
+	"Martín #1" = 10
+	"Antso #6" = 100
 	"Vellido #1" = 10
+	"Jaime #1" = 5
+	"Eve #1" = -10
+
+	# RANDOM NAMES
+	"Henrique #0" = 40
+	"Karlos #0" = 20
+	"Joan #0" = 10
+	"Luis #0" = 10
+	"Buenaventura #0" = 5
+	"Godofredo #0" = 5
+	"Leonel #0" = 5
+	"Filipe #0" = 1
+	"Teobaldo #0" = 1
+	"Alvar #0" = 0
+	"Bernart #0" = 0
+	"Diego #0" = 0
+
+	"Joana #0" = -10	
+	"Katalina #0" = -10
+	"Leonor #0" = -10
+	"Blanka #0" = -10
 }
 
 leader_names = {
