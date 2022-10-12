@@ -41,8 +41,26 @@ groups = {
 			value = 75
 		}
 	}
-	# Rex Perpetuus: Greek/Rhomanian
+	# Rex Perpetuus: Turkic
 	ottoman = {
+		start_level = 3
+		start_cost_modifier = 0.25
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
+	# Rex Perpetuus: Rhomanian
+	rhomanian = {
 		start_level = 3
 		start_cost_modifier = 0.25
 		nation_designer_cost = {
