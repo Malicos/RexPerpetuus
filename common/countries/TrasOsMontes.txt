@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 82 142 56 }
-revolutionary_colors = { 0 2 0 }
 
 historical_idea_groups = {
 	exploration_ideas
@@ -33,46 +32,66 @@ historical_units = {
 }
 
 monarch_names = {
-	"Alfonso #11" = 40
-	"Fernando #4" = 20
-	"Sancho #4" = 10
-	"Ramiro #2" = 10
-	"Juan #1" = 10
-	"Felipe #0" = 10
-	"Carlos #0" = 10
-	"Enrique #2" = 5
-	"Pedro #1" = 1
-	"Isabel #0" = -10
-	"Juana #0" = -10
-	"María #0" = -5
-	"Urraca #0" = -5
-	"Alonso #0" = 0
-	"Álvaro #0" = 0
+	# RP RULER NAMES
+	"Hermenexildo #1" = 10
+	"Flain #1" = 10
+	"Lope #1" = 10
+	"Sancho #2" = 20
+	"Vellido #1" = 10
+	"Ponce #1" = 10
+	"Goto #1" = -1
+	"Jaime #1" = 1
+	"María #1" = -1
+	"Salvador #3" = 60
+	"Munio #1" = 10
+	"Raimundo #2" = 20
+	"Nadía #1" = -1
+
+	# RANDOM NAMES
+	"García #0" = 20
+	"Ordoño #0" = 20
+	"Afonso #0" = 15
+	"Ramiro #0" = 10
+	"Bermudo #0" = 10
+	"Froila #0" = 10
+	"Aleixo #0" = 0
+	"Alvaro #0" = 0
+	"Anxo #0" = 0
 	"Baltasar #0" = 0
-	"Bernardo #0" = 0
-	"Bertrán #0" = 0
-	"Cristobal #0" = 0
-	"Diego #0" = 0
-	"Domingo #0" = 0
-	"Esteban #0" = 0
-	"Fadrique #0" = 0
+	"Bernaldo #0" = 0
+	"Brais #0" = 0
+	"Carlos #0" = 0
+	"Cristovo #0" = 0
+	"Domingos #0" = 0
+	"Estevo #0" = 0
+	"Felipe #0" = 0
+	"Fernán #0" = 0
 	"Francisco #0" = 0
-	"García #0" = 0
-	"Gómez #0" = 0
+	"Frederico #0" = 0
 	"Gonzalo #0" = 0
-	"Gutierre #0" = 0
-	"Hermenegildo #0" = 0
-	"Hernando #0" = 0
+ 	"Guillerme #0" = 0
+	"Gumersindo #0" = 0
+	"Henrique #0" = 0
+	"Hixinio #0" = 0
+	"Hugo #0" = 0
+	"Iago #0" = 0
 	"Ignacio #0" = 0
-	"Laín #0" = 0
-	"Lope #0" = 0
+	"Leandro #0" = 0
 	"Miguel #0" = 0
-	"Nuño #0" = 0
-	"Odón #0" = 0
-	"Ramón #0" = 0
-	"Rodrigo #0" = 0
-	"Tomás #0" = 0
-	"Valeriano #0" = 0
+	"Nuno #0" = 0
+	"MONARCH_NAME_ODON" = 0
+	"Paulo #0" = 0
+	"Pedro #0" = 0
+	"MONARCH_NAME_RAMON" = 0
+	"Roi #0" = 0
+	"Tomé #0" = 0
+	"Vitor #0" = 0
+	"Xoan #0" = 0
+	"Xorxe #0" = 0
+	
+	"Branca #0" = -1
+	"Iria #0" = -1
+	"Sabela #0" = -1
 }
 
 leader_names = {
@@ -88,12 +107,12 @@ leader_names = {
 }
 
 ship_names = {
-	León Argonauta Asturias Asunción Atrevido Azor
+	Galicia Argonauta Asturias Asunción Atrevido Azor
 	Cartagonova Castilla "Castillo Negro" Castor "Ciervo Volante"
 	Doncella Dragón 
 	"El Gran Grin" "El Retiro" Eneas Eolo Esperanza "Espíritu Santo" Extremadura
-	Furor Galicia "Gran Grifón" Halcón Hércules Isabela Júpiter
-	"La Concepción" "La Magdalena" "La Manuela" Ligera "Lobo Marino"
+	Furor "Gran Grifón" Halcón Hércules Isabela Júpiter
+	"La Concepción" "La Magdalena" "La Manuela" León Ligera "Lobo Marino"
 	Marte Mercurio Neptuno Niña Orión
 	"Paloma Blanca" Pegaso "Perro Marino" Pinta Plutón Pollux "Príncipe de Asturias"
 	Rayo "Real Alfonso" "Real Enrique" "Real Juan" "Rey Pelayo" "Rey Rodrigo"
