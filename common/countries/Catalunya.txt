@@ -2,9 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 213  132  76 }
-
-revolutionary_colors = { 8 5 8 }
+color = { 228 77 21 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -35,17 +33,17 @@ historical_units = {
 
 monarch_names = {
 	"Lluís #0" = 40	
-	"Pere #4" = 20
+	"Pere #0" = 20
 	"Enric #0" = 20
 	"Renat #0" = 20	
-	"Alfons #5" = 15
-	"Joan #2" = 15
-	"Carles #0 " = 10
+	"Alfons #0" = 15
+	"Joan #0" = 15
+	"Carles #0" = 10
 	"Felip #0" = 10
 	"Nicolau #0" = 10
-	"Ferran #2" = 5
-	"Jaume #2" = 5
-	"Martí #1" = 5
+	"Ferran #0" = 5
+	"Jaume #0" = 5
+	"Martí #0" = 5
 	"Ambrós #0" = 0
 	"Andreu #0" = 0
 	"Antoni #0" = 0
@@ -78,9 +76,16 @@ monarch_names = {
 	"Alícia #0" = -1
 	"Sofia #0" = -1
 	"Marta #0" = -1
+	#####HISTORICAL FORENAMES#####
+	
+	#####OTHER#####
+	"Tomàs #0" = 0
 }
 
 leader_names = {
+	#####HISTORICAL LASTNAMES#####
+	
+	#####EU4 CATALANS#####
 	Alemany Ametller Amic "de Balaguer" Barceló Blanc Canals Casanovas "de Guimerà" Casaus
 	Dalmau Desplà Destorrent Domènec "d’Espés" Ferrer "Folc de Cardona" Fontana
 	Gallart Gassol Gisbert Graner "de Grau" Guimet
@@ -90,15 +95,89 @@ leader_names = {
 }
 
 ship_names = {
-	"Blanca Aurora" "Sant Jacob" Flama Lleona Falcó "La Bonaventura" "Sant Antoni" 
-	"Sant Miquel" "Sant Bernat" "Sant Francesc" "Santa Ágata" "Santa Eulàlia" 
-	"Sant Gabriel" "Sant Climent" "Sant Jordi" "La Reial" Trinitat "Santa Creu" 
-	"Santa Maria" "Santa Caterina" "Sant Joan Evangelista" "Santa Bàrbara" 
-	"Sant Pere de Roma" "La Gasela" "Santa Magdalena" "Sant Víctor" Magnana 
+	#####UNIQUES#####
+	"Llop Marí" "Dona de Llieda" "Espasa del Principat" "Senyora de Tarragona" "Sol d'Ibèria"
+	###SAINTS (From Catalan churches, particularly Barcelona)
+	#"Mare de Déu"
+	"Sagrat Cor"
+	"Santa Àgata" "Santa Anna" "Sant Andreu" "Sant Cebrià" "Sant Cugat" "Santa Eulàlia" "Sant Felip" "Sant Genís" #"Sant Antoni" "Santa Caterina"
+	"Sant Jaume" "Sant Joan" "Sant Josep" "Sant Just" "Santa Justina" "Santa Madrona" "Sant Medir" #"Santa Maria" "Sant Miquel"
+	"Sant Pacià" "Sant Pastor" "Sant Pere" "Sant Ramon" "Sant Sebastià" "Sant Vicenç"
+	#"Sagrada Família"
+	#####EU4#####
+	"Blanca Aurora" "Sant Jacob" "La Bonaventura" "Sant Antoni"
+	"Sant Miquel" "Sant Bernat" "Sant Francesc" "Santa Eulàlia" #"Santa Ágata"
+	"Sant Gabriel" "Sant Climent" "Sant Jordi" "La Reial" "Santa Creu"
+	"Santa Maria" "Santa Caterina" "Sant Joan Evangelista" "Santa Bàrbara"
+	"Sant Pere de Roma" "La Gasela" "Santa Magdalena" "Sant Víctor" Magnana
 	"Santa Ventura" "Santa Coloma" "Sant Ambrós" Constança "Sant Ferran"
-	Invencible Telèmac Sobirà "Verge del Carme" "Verge de Montserrat" Juno
-	Vigilant Eclipsi "Sant Joan Baptista" "Santíssima Trinitat" Terrible
-	Temerària "Verge de les Neus" "Jaume el Conqueridor" Mart Alerta Ceres
-	Sorpresa Empordà Catalunya "Roger de Flor" "Roger de Llúria"
+	Telèmac "Verge del Carme" "Verge de Montserrat"
+	"Sant Joan Baptista" "Santíssima Trinitat"
+	Temerària "Verge de les Neus" "Jaume el Conqueridor"
+	Empordà Catalunya "Roger de Flor" "Roger de Llúria"
 	"La Garsa"
+	#####COMMON#####
+	###NOUN COMMON
+	#Concepts+Values
+	Abundància Acció Aliança Amistat Aptitud Constància Destresa Esplendor Força Fortitud Fúria Joventut Habilitat Magnitud Ordenança Santuari Tenacitat Trinitat Unió Venjança Victòria
+	#Critters
+	Abella Balena Calàndria Calandrella Corb Drac Dragó Dromedari Falcó Lleó Lleona Llop Ós Óssa Tigre Tigressa Ur #Creatures. Ur = Aurochs
+	#Culture - Legends
+	#Culture - Literature+Music
+	#Culture - Traditions
+	#Folk - Ruler Titles
+	Baró Baronessa Comte Comtessa Dama Duc Duquessa Emperador Emperadriu Marquès Marquesa Monarca Príncep Princesa Rei Reina Senyor Senyora Senyoreta Vescomte Vescomtessa #Sobirà
+	#Folk - People+Professions
+	Alliberador Alliberadora Apòstol Aprenent Aprenenta Cantant Corsari Corsària "Damisel·la" Defensor Defensora Escrivà Escrivana Heroi Heroïna Mentor Mentora
+	Protector Protectora Trobador Trobadora Viatger #People+Professions #Cercador - too recent.
+	#Heritage - GrecoRoman (Mythology)
+	Fides Concòrdia Fors Camenes Ceres Flora "Bel·lona" Janus Júpiter Juno Juventus Lars Hèrcules Mart Ops Penats Salus Saturn Silvà Terminus Vertumne Vesta
+	Afrodita "Apol·lo" Ares Àrtemis Atena Demèter Dionís Hades Hefest Hera Hermes Hèstia Posidó Zeus
+	"Aquil·les" Hèctor Troia Heracles Jasó Argonauta Odisseu Odissea Perseu Teseu Atalanta Calidó
+	Amaltea Centaures Ciclop Esfinx Fènix Gòrgona Griu Harpia Hidra Hipocamp Medusa Minotaure Musa Nàiada Nereida Nimfa Oceànide Pegàs Plèiades Potamoi Quimera Sàtir Sirena Vent
+	#Heritage - Greek
+	Alexandre Dracma
+	Leònides
+	#Heritage - Roman
+	Anníbal Cèsar Cleòpatra Constantí Juli
+	Cartago Centúria Centurió Colònia Colós Gladiador Legió Legionari Patrici
+	#Misc Nouns
+	Alerta Cornucòpia Corona Diamant Eclipsi Escut Espasa Flama Javelina Llança Llum Lluna
+	Memòria Meridià Mite Monument Música Paradís Pica Pinacle Promesa Sorpresa Torre Trinitat Trirrem Vent #Misc
+	#Name - First (Import the list once the cultures are done?)
+	#Place
+	Ibèria
+	#Plants
+	Espígol Lavanda Lli Lliri Pi Rosa Violeta
+	#Winds
+	Gregal Llevant Migjorn Ponent Tramuntana Xaloc #Llebeig/garbí Mestral/mestre/serè/cerç
+	###ADJ COMMON (M followed by F, by reason of naming plausability & higher historical equality. Catalan lacks feminine forms for certain adj endings, listed separately.)
+	Abundós Abundosa Actiu Activa Amat Amada Ambiciós Ambiciosa Amorós Amorosa Astruc Astruga Astuciós Astuciosa Argentat Argentada Bo Bona Brau Brava
+	Coratjós Coratjosa Coronat Coronada Creatiu Creativa Curiós Curiosa Daurat Daurada Dur Dura Estrany Estranya Extraordinari Extraordinària Famós Famosa Fort Forta Furiós Furiosa
+	Gai Gaia Just Justa Lluminós Marin Marina Mític Mítica Misteriós Misteriosa Muntanyós Muntanyosa Poderós Poderosa Polit Polida Pompós Pomposa Seriós Seriosa Sobirà Sobirana
+	Valorós Valorosa Ventós Ventosa Virtuós Virtuosa
+	#Common Catalan - Adj w/ no feminine variant!
+	Agradable Amable Ardent Benvolent Brillant Capaç Constant Content Eminent Esclatant Espectacular Formidable Galant Invencible Noble Perseverant Persistent Prudent Reial Suficient Terrible Vigilant
+	#Common Catalan - Adj Ethnic
+	Balear Baleara Català Catalana Valencià Valenciana #Principatin Principatina
+	Romà Romana Vàndal Vàndala
+}
+army_names = {
+	#####FILLER#####
+	#Filler - Generic
+	"Exèrcit de l'Oest" "Exèrcit del Nord" "Exèrcit del Sud" "Exèrcit de l'Est"
+	#Filler - Province
+	"Exèrcit de $PROVINCE$"
+}
+fleet_names = {
+	#####REGIONAL LEVIES#####
+	###Vassal Fleets - Counties
+	"Flota de Barcelona" "Flota d'Empúries" "Flota de Girona"
+	#####FILLER#####
+	#Filler - Generic
+	"Esquadra Vermella" "Esquadra Groga" "Esquadra Blava" "Esquadra Blanca" "Esquadra Verda" "Esquadra Rosa" "Esquadra Negra" "Esquadra Grisa" "Esquadra Bruna"
+	#Filler - Cities (Scraping the Barrel)
+	"Esquadra de Tarragona" "Esquadra de Tortosa" #Other coastal (or near-coastal; Tortosa appears to be on a navigable-from-the-sea stretch of the Ebro) cities.
+	#Filler - Province
+	"Esquadra de $PROVINCE$"
 }

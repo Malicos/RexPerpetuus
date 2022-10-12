@@ -33,17 +33,17 @@ historical_units = {
 
 monarch_names = {
 	"Lluís #0" = 40	
-	"Pere #4" = 20
+	"Pere #0" = 20
 	"Enric #0" = 20
 	"Renat #0" = 20	
-	"Alfons #5" = 15
-	"Joan #2" = 15
+	"Alfons #0" = 15
+	"Joan #0" = 15
 	"Carles #0 " = 10
 	"Felip #0" = 10
 	"Nicolau #0" = 10
-	"Ferran #2" = 5
-	"Jaume #2" = 5
-	"Martí #1" = 5
+	"Ferran #0" = 5
+	"Jaume #0" = 5
+	"Martí #0" = 5
 	"Ambrós #0" = 0
 	"Andreu #0" = 0
 	"Antoni #0" = 0
@@ -79,6 +79,78 @@ monarch_names = {
 }
 
 leader_names = {
+	#####HISTORICAL FIGURES (PRE-1850)#####
+	###PALMA (MALLORCA) #https://ca.wikipedia.org/wiki/Categoria:Palmesans
+	"de Togores i Sales" #Jaume Ballester de Togores i Sales
+	Botellas Bisbal #Jaume Botellas Bisbal
+	#Joaquín Caro y Álvarez de Toledo
+	Fargas Soler #Antoni Fargas i Soler
+	Muntaner Garcia #Joan Muntaner Garcia
+	Mesquida Rosselló #Lluc Mesquida i Rosselló
+	Moltó #Antonio Moltó y Díaz-Berrio
+	Cabot #Sebastià Muntaner Cabot
+	"de Comasema" #Pau Palou de Comasema i Sánchez
+	#Subcategories:
+	Abrí-Descatlar Serralta #Guillem Abrí-Descatlar i Serralta
+	Burgues #Francesc Burgues
+	Sureda #Josep Caro i Sureda
+	#Pere Caro Sureda
+	Cotoner Ballester #Bernat Lluís Cotoner i Ballester
+	#Antoni Maria Dameto i Crespí de Valldaura
+	Desbrull "Boïl d'Arenós" #Antoni Desbrull i Boïl d'Arenós
+	Despuig #Antoni Despuig i Dameto
+	#Ramon Despuig i Martínez de Marcilla
+	Gual #Joanot Gual
+	#Guillem Ignasi de Montis i Pont i Vich
+	d'Olesa Santmartí #Francesc d'Olesa i Santmartí
+	#Jaume d'Olesa
+	"de Pacs" #Nicolau de Pacs
+	"de Rocabertí" "de Verí" #Tomàs de Rocabertí-Boixadors Dameto i de Verí
+	d'Oms #Joan Manuel de Sentmenat-Oms de Santapau i d'Oms
+	Sureda Villalonga #Joan Sureda i Villalonga
+	#Francina Thomàs Sureda
+	Torrella #Joan Torrella i Ballester
+	Trullols #Agustí Torrella i Trullols
+	"Font de Roqueta" #Francesc Trullols Font de Roqueta
+	Olesa #Salvador Trullols i Olesa
+	#Ferrando/Ferran Valentí
+	#Teseu Valentí
+	Zaforteza Togores #Josep Quint Zaforteza i Togores
+	"de Togores" #Catalina Zaforteza i de Togores
+	#Pau Palou de Comasema i Sánchez
+	#Subcategories II:
+	Bassa #Josep Bassa Conrado
+	Cifre #Elisabet Cifre
+	#Joan Dameto i Cotoner
+	Dulcert #Angelino Dulcert
+	Morey #Jeroni Nadal i Morey
+	"de Pacs" "de Quint" #Agnès de Pacs i de Quint
+	Roca Poderós Mora #Joan Baptista Roca Mora
+	Antic "de Llorac" #Agustí Antic de Llorac
+	Mir #Gabriel Benet Mir
+	Tortella #Antoni Deià Tortella
+	Estapoll #Francesc Estapoll
+	Sunyer #Maria Sunyer
+	Fullana #Nicolau Antoni Oliver Fullana
+	#Joan Ballester
+	#Joan Eixemeno
+	#Joan Ponç
+	###PALMA (MALLORCA) #https://ca.wikipedia.org/wiki/Palma#Palmesans_i_palmesanes_il%C2%B7lustres
+	Llull #Ramon Llull
+	Turmeda #Anselm Turmeda
+	Cresques #Jafudà Cresques
+	#Cresques Abraham/Abraham Cresques
+	#Valerià Weyler i Nicolau
+	Barceló "Pont de la Terra" #Antoni Barceló i Pont de la Terra
+	Aguiló Fuster #Marià Aguiló i Fuster
+	Fiol #Joan Crespí (i) Fiol
+	#Ferrando/Ferran Valentí
+	Forteza Cortès #Tomàs Forteza i Cortès
+	Rosselló Ribera #Jeroni Rosselló Ribera
+	Descós #Arnau Descós
+	"de Torroella" #Guillem de Torroella
+	Cuyàs Borés #Vicenç Cuyàs i Borés
+	#####EU4 CATALANS#####
 	Alemany Ametller Amic "de Balaguer" Barceló Blanc Canals Casanovas "de Guimerà" Casaus
 	Dalmau Desplà Destorrent Domènec "d’Espés" Ferrer "Folc de Cardona" Fontana
 	Gallart Gassol Gisbert Graner "de Grau" Guimet
@@ -88,15 +160,83 @@ leader_names = {
 }
 
 ship_names = {
-	"Blanca Aurora" "Sant Jacob" Flama Lleona Falcó "La Bonaventura" "Sant Antoni" 
-	"Sant Miquel" "Sant Bernat" "Sant Francesc" "Santa Ágata" "Santa Eulàlia" 
-	"Sant Gabriel" "Sant Climent" "Sant Jordi" "La Reial" Trinitat "Santa Creu" 
-	"Santa Maria" "Santa Caterina" "Sant Joan Evangelista" "Santa Bàrbara" 
-	"Sant Pere de Roma" "La Gasela" "Santa Magdalena" "Sant Víctor" Magnana 
-	"Santa Ventura" "Santa Coloma" "Sant Ambrós" Constança "Sant Ferran"
-	Invencible Telèmac Sobirà "Verge del Carme" "Verge de Montserrat" Juno
-	Vigilant Eclipsi "Sant Joan Baptista" "Santíssima Trinitat" Terrible
-	Temerària "Verge de les Neus" "Jaume el Conqueridor" Mart Alerta Ceres
-	Sorpresa Empordà Catalunya "Roger de Flor" "Roger de Llúria"
-	"La Garsa"
+	#####UNIQUES#####
+	"Escut de la Mar" "Sol Marítim" "Ona Vermella"
+	###History-Related
+	#Preroman
+	Bóquer #Bocchor
+	#Roman
+	"Quint Cecili Metel"
+	###Places
+	Pollença
+	#Mallorca Menorca Eivissa Formentera
+	#####COMMON#####
+	###NOUN COMMON
+	#Concepts+Values
+	Abundància Acció Aliança Amistat Aptitud Constància Destresa Esplendor Força Fortitud Fúria Joventut Habilitat Magnitud Ordenança Santuari Tenacitat Trinitat Unió Venjança Victòria
+	#Critters
+	Abella Balena Calàndria Calandrella Corb Drac Dragó Dromedari Falcó Lleó Lleona Llop Ós Óssa Tigre Tigressa Ur #Creatures. Ur = Aurochs
+	#Culture - Legends
+	#Culture - Literature+Music
+	#Culture - Traditions
+	#Folk - Ruler Titles
+	Baró Baronessa Comte Comtessa Dama Duc Duquessa Emperador Emperadriu Marquès Marquesa Monarca Príncep Princesa Rei Reina Senyor Senyora Senyoreta Vescomte Vescomtessa #Sobirà
+	#Folk - People+Professions
+	Alliberador Alliberadora Apòstol Aprenent Aprenenta Cantant Corsari Corsària "Damisel·la" Defensor Defensora Escrivà Escrivana Heroi Heroïna Mentor Mentora
+	Protector Protectora Trobador Trobadora Viatger #People+Professions #Cercador - too recent.
+	#Heritage - GrecoRoman (Mythology)
+	Fides Concòrdia Fors Camenes Ceres Flora "Bel·lona" Janus Júpiter Juno Juventus Lars Hèrcules Mart Ops Penats Salus Saturn Silvà Terminus Vertumne Vesta
+	Afrodita "Apol·lo" Ares Àrtemis Atena Demèter Dionís Hades Hefest Hera Hermes Hèstia Posidó Zeus
+	"Aquil·les" Hèctor Troia Heracles Jasó Argonauta Odisseu Odissea Perseu Teseu Atalanta Calidó
+	Amaltea Centaures Ciclop Esfinx Fènix Gòrgona Griu Harpia Hidra Hipocamp Medusa Minotaure Musa Nàiada Nereida Nimfa Oceànide Pegàs Plèiades Potamoi Quimera Sàtir Sirena Vent
+	#Heritage - Greek
+	Alexandre Dracma
+	Leònides
+	#Heritage - Roman
+	Anníbal Cèsar Cleòpatra Constantí Juli
+	Cartago Centúria Centurió Colònia Colós Gladiador Legió Legionari Patrici
+	#Misc Nouns
+	Alerta Cornucòpia Corona Diamant Eclipsi Escut Espasa Flama Javelina Llança Llum Lluna
+	Memòria Meridià Mite Monument Música Paradís Pica Pinacle Promesa Sorpresa Torre Trinitat Trirrem Vent #Misc
+	#Name - First (Import the list once the cultures are done?)
+	#Place
+	Ibèria
+	#Plants
+	Espígol Lavanda Lli Lliri Pi Rosa Violeta
+	#Winds
+	Gregal Llevant Migjorn Ponent Tramuntana Xaloc #Llebeig/garbí Mestral/mestre/serè/cerç
+	###ADJ COMMON (M followed by F, by reason of naming plausability & higher historical equality. Catalan lacks feminine forms for certain adj endings, listed separately.)
+	Abundós Abundosa Actiu Activa Amat Amada Ambiciós Ambiciosa Amorós Amorosa Astruc Astruga Astuciós Astuciosa Argentat Argentada Bo Bona Brau Brava
+	Coratjós Coratjosa Coronat Coronada Creatiu Creativa Curiós Curiosa Daurat Daurada Dur Dura Estrany Estranya Extraordinari Extraordinària Famós Famosa Fort Forta Furiós Furiosa
+	Gai Gaia Just Justa Lluminós Marin Marina Mític Mítica Misteriós Misteriosa Muntanyós Muntanyosa Poderós Poderosa Polit Polida Pompós Pomposa Seriós Seriosa Sobirà Sobirana
+	Valorós Valorosa Ventós Ventosa Virtuós Virtuosa
+	#Common Catalan - Adj w/ no feminine variant!
+	Agradable Amable Ardent Benvolent Brillant Capaç Constant Content Eminent Esclatant Espectacular Formidable Galant Invencible Noble Perseverant Persistent Prudent Reial Suficient Terrible Vigilant
+	#Common Catalan - Adj Ethnic
+	Balear Baleara Català Catalana Valencià Valenciana #Principatin Principatina
+	Romà Romana Vàndal Vàndala
+}
+army_names = {
+	#####REGIONAL LEVIES#####
+	#Insular Capitals
+	"Exèrcit de Palma" "Exèrcit d'Eivissa" "Exèrcit de Maó" #Formentera mostly depopulated during much of the game period.
+	#Cities - Mallorca
+	"Exèrcit de Manacor" "Exèrcit de Llucmajor" "Exèrcit de Felanitx"
+	#Cities - Menorca
+	"Exèrcit de Ciutadella" "Exèrcit d'Alaior"
+	#####FILLER#####
+	#Filler - Generic
+	"Exèrcit de l'Oest" "Exèrcit del Nord" "Exèrcit del Sud" "Exèrcit de l'Est"
+	#Filler - Province
+	"Exèrcit de $PROVINCE$"
+}
+fleet_names = {
+	#####REGIONAL LEVIES#####
+	###Vassal Fleets - Islands
+	"Flota de Mallorca" "Flota de Menorca" "Flota d'Eivissa" "Flota de Formentera"
+	#####FILLER#####
+	#Filler - Generic
+	"Esquadra Vermella" "Esquadra Groga" "Esquadra Blava" "Esquadra Blanca" "Esquadra Verda" "Esquadra Rosa" "Esquadra Negra" "Esquadra Grisa" "Esquadra Bruna"
+	#Filler - Province
+	"Esquadra de $PROVINCE$"
 }
