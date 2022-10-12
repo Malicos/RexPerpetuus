@@ -33,46 +33,56 @@ historical_units = {
 }
 
 monarch_names = {
-	"Alfonso #11" = 40
-	"Fernando #4" = 20
-	"Sancho #4" = 10
-	"Ramiro #2" = 10
-	"Juan #1" = 10
-	"Felipe #0" = 10
-	"Carlos #0" = 10
-	"Enrique #2" = 5
-	"Pedro #1" = 1
-	"Isabel #0" = -10
-	"Juana #0" = -10
-	"María #0" = -5
-	"Urraca #0" = -5
-	"Alonso #0" = 0
-	"Álvaro #0" = 0
+	# RP RULER NAMES
+	"Pelayu #1" = 1
+	"Favila #1" = 1
+	"Aureliu #1" = 1
+	"Silu #1" = 1
+	"Mauregatu #1" = 1
+	"Veremondu #1" = 1
+	"Adelfonsu #2" = 20
+	"Fruela #2" = 20
+	"Ordonu #4" = 80
+	"Sanchu #1" = 10
+	"Ramiru #3" = 60
+	"Bermudu #3" = 60
+	"Alfonsu #6" = 40
+	"Llope #1" = 1
+	"Marquesez #1" = 1
+
+	# RANDOM NAMES
+	"Fernandu #0" = 20
+	"Juan #0" = 10
+	"Enrique #0" = 5
+	"Pedru #0" = 1
+	"Alonsu #0" = 0
+	"Álvaru #0" = 0
 	"Baltasar #0" = 0
-	"Bernardo #0" = 0
+	"Bernardu #0" = 0
 	"Bertrán #0" = 0
 	"Cristobal #0" = 0
-	"Diego #0" = 0
-	"Domingo #0" = 0
-	"Esteban #0" = 0
+	"Diegu #0" = 0
+	"Domingu #0" = 0
+	"Estébanu #0" = 0
 	"Fadrique #0" = 0
-	"Francisco #0" = 0
+	"Franciscu #0" = 0
 	"García #0" = 0
 	"Gómez #0" = 0
-	"Gonzalo #0" = 0
+	"Gonzalu #0" = 0
 	"Gutierre #0" = 0
-	"Hermenegildo #0" = 0
-	"Hernando #0" = 0
-	"Ignacio #0" = 0
+	"Hermenexildu #0" = 0
 	"Laín #0" = 0
-	"Lope #0" = 0
 	"Miguel #0" = 0
 	"Nuño #0" = 0
-	"Odón #0" = 0
+	"Odon #0" = 0
 	"Ramón #0" = 0
-	"Rodrigo #0" = 0
+	"Rodrigu #0" = 0
 	"Tomás #0" = 0
 	"Valeriano #0" = 0
+	
+	"Sabela #0" = -10
+	"Iyana #0" = -10
+	"María #0" = -5	
 }
 
 leader_names = {
