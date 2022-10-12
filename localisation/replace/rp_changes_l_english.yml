@@ -62,6 +62,9 @@
  occitain:0 "Langdocian"  
  ###Dacian###
  romanian:0 "Vlach"
+ ###Iberian###
+ galician:0 "Portogalician"
+ leonese:0 "Asturleonese"
  
  ###Illyrian###
  albanian:0 "Arberian"
