@@ -1,7 +1,7 @@
 #New BT Province
 
 culture = formosan_culture
-religion = animism
+religion = anito
 capital = "Nantou"
 trade_goods = unknown
 hre = no
@@ -17,24 +17,3 @@ discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
-
-
-1521.1.1 = { discovered_by = SPA }
-1544.1.1 = { discovered_by = POR }
-
-1662.1.1 = {
-	owner = MNG
-	controller = MNG
-	add_core = MNG
-	religion = confucianism
-	is_city = yes
-	trade_goods = tea
-} # Captured by Zheng Chenggong
-1683.1.1 = {
-	owner = QNG
-	controller = QNG
-	add_core = QNG
-	remove_core = MNG
-} # Submitted to Manchu control
-1786.1.1 = { unrest = 5 } # Rebellion
-1788.1.1 = { unrest = 0 }

@@ -2,7 +2,7 @@
 
 capital = "Chichijima"
 culture = japanese
-religion = animism
+religion = polynesian
 trade_goods = unknown
 hre = no
 base_tax = 1 
@@ -43,5 +43,3 @@ discovered_by = SMZ
 discovered_by = KKC
 discovered_by = SHN
 discovered_by = RYU
-
-1543.1.1 = { discovered_by = SPA }
