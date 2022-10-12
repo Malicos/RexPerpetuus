@@ -73,12 +73,12 @@ monarch_names = {
 	"Hermenexildu #0" = 0
 	"Laín #0" = 0
 	"Miguel #0" = 0
-	"Nuño #0" = 0
+	"Nuñu #0" = 0
 	"Odon #0" = 0
 	"Ramón #0" = 0
 	"Rodrigu #0" = 0
 	"Tomás #0" = 0
-	"Valeriano #0" = 0
+	"Valerianu #0" = 0
 	
 	"Sabela #0" = -10
 	"Iyana #0" = -10
