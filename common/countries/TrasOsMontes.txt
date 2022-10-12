@@ -33,104 +33,150 @@ historical_units = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Hermenexildo #1" = 10
-	"Flain #1" = 10
-	"Lope #1" = 10
+	"Hermenegildo #1" = 10
+	"Flaín #1" = 5
+	"Lopo #1" = 5
+	"Vela #1" = 1
 	"Sancho #2" = 20
-	"Vellido #1" = 10
-	"Ponce #1" = 10
-	"Goto #1" = -1
-	"Jaime #1" = 1
-	"María #1" = -1
+	"Pôncio #1" = 1
+	"Goda #1" = -1
+	"Maria #1" = -10
 	"Salvador #3" = 60
-	"Munio #1" = 10
+	"Monio #1" = 1
 	"Raimundo #2" = 20
-	"Nadía #1" = -1
+	"Nadia #1" = -10
 
 	# RANDOM NAMES
-	"García #0" = 20
-	"Ordoño #0" = 20
-	"Afonso #0" = 15
-	"Ramiro #0" = 10
-	"Bermudo #0" = 10
-	"Froila #0" = 10
-	"Aleixo #0" = 0
-	"Alvaro #0" = 0
-	"Anxo #0" = 0
-	"Baltasar #0" = 0
-	"Bernaldo #0" = 0
-	"Brais #0" = 0
-	"Carlos #0" = 0
-	"Cristovo #0" = 0
-	"Domingos #0" = 0
-	"Estevo #0" = 0
-	"Felipe #0" = 0
-	"Fernán #0" = 0
+	"Vimarano #0" = 1
+	"Lucidio #0" = 1
+	"Aloito #0" = 20
+	"Nuno #0" = 20
+	"Fernao #0" = 20
+	"Mendo #0" = 60
+	"Gomes #0" = 10
+	"Ansur #0" = 1
+	"Vasco #0" = 1
+	"Mem #0" = 1	
+	"Diogo #0" = 10
+	"Gonçalo #0" = 10	
+	"Rodrigo #0" = 10
+	"João #0" = 120
+	"Filipe #0" = 60
+	"Afonso #0" = 40
+	"Pedro #0" = 40
+	"Duarte #0" = 20
+	"Henrique #0" = 20
+	"José #0" = 20
+	"Manuel #0" = 20
+	"Sebastião #0" = 20
+	"Miguel #0" = 10
+	"Dinis #0" = 5
+	"Fernando #0" = 5
+	"Alexandre #0" = 5
+	"Carlos #0" = 5
+	"Jaime #0" = 5
+	"Luís #0" = 5
+	"Álvaro #0" = 0
+	"André #0" = 0
+	"Bartolomeu #0" = 0
+	"Caetano #0" = 0
+	"Damião #0" = 0
+	"Estevão #0" = 0
 	"Francisco #0" = 0
-	"Frederico #0" = 0
-	"Gonzalo #0" = 0
- 	"Guillerme #0" = 0
-	"Gumersindo #0" = 0
-	"Henrique #0" = 0
-	"Hixinio #0" = 0
-	"Hugo #0" = 0
-	"Iago #0" = 0
-	"Ignacio #0" = 0
-	"Leandro #0" = 0
-	"Miguel #0" = 0
-	"Nuno #0" = 0
-	"MONARCH_NAME_ODON" = 0
+	"Gabriel #0" = 0
+	"Garcia #0" = 0
+	"Gaspar #0" = 0
+	"Gil #0" = 0
+	"Guilherme #0" = 0
+	"Inácio #0" = 0
+	"Joaquim #0" = 0
+	"Jorge #0" = 0
+	"Lourenço #0" = 0
+	"Marco #0" = 0
+	"Nicolau #0" = 0
+	"Octávio #0" = 0
 	"Paulo #0" = 0
-	"Pedro #0" = 0
-	"MONARCH_NAME_RAMON" = 0
-	"Roi #0" = 0
-	"Tomé #0" = 0
-	"Vitor #0" = 0
-	"Xoan #0" = 0
-	"Xorxe #0" = 0
-	
-	"Branca #0" = -1
-	"Iria #0" = -1
-	"Sabela #0" = -1
+	"Rafael #0" = 0
+	"Rogério #0" = 0
+	"Rui #0" = 0
+	"Simão #0" = 0
+	"Uriel #0" = 0
+	"Vicente #0" = 0
+
+	"Mor #0" = -1
+	"Isabel #0" = -5
+	"Ermesinda #0" = -10
+	"Joana #0" = -1	
+	"Beatriz #0" = -1
+	"Filipa #0" = -1
+	"Luísa #0" = -1
+	"Catarina #0" = -1
+	"Ana #0" = -1
+	"Barbara #0" = -1
 }
 
 leader_names = {
-	"de Aguirre" "de Alarcón" "de Toledo" "de Andrade" "de Ayala"
-	"de Bazán" "de Benavides" Campomanes "de Castilla" "de la Cerda" Cienfuegos Colón Coronado Cortés
-	"de Toledo" "de Córdoba" "de la Cueva" "de Figueroa" Fonseca
-	Gálvez Gómez "de Guzmán" "Jiménez de Cisneros"
-	"de Leiva" "López de Haro" "de Luna"
-	"de Lara" "de Velasco" "de Villena" "de Mendoza"
-	Narváez "de Nebrija" "Nuñez de Balboa" "de Ojeda" Orellana Osorio 
-	Pimentel Pinzón Pizarro "Ponce de León" Portocarrero
-	"de Rojas" Tellez-Girón "de la Vega" "de Zúñiga"
+	"Machado"
+	Cabral Coelho Corte-Real Coutinho
+	"da Câmara" "da Costa" "da Cunha" "da Fonseca" "de Albuquerque"
+	"de Almeida" "de Andrade" "de Aveiro" "de Ataíde" "de Azevedo"
+	"de Bragança" "de Braganza" "de Brito" "de Carvalho" "de Castelo-Branco" "de Castro"
+	"de Correia" "de Faria" "da Gama" "de Guimarães" "de Lemos" "de Magalhães"
+	"de Marialva" "de Melo" "de Mendonça" "de Meneses" "de Noronha"
+	"de Oliveira" "de Paiva" "de Penamacor" "de Pimentel" "de Queiróz"
+	"de Sá" "de Sampaio" "de Sequeira" "de Sousa" "de Souto" "de Tavares"
+	"de Távora" "de Vilhena" Dias
+	Eanes
+	"Ferreira Martins"
+	Gomes Gonçalves
+	"Lemos de Brito"
+	"Martins de Mascarenhas" "de Vasconcelos" "Mendonça Furtado"
+	"Nunes Barreto"
+	Pereira
+	Rebelo Rodrigues
+	Sarmento
+	Teixeira "Teles de Meneses"
 }
 
 ship_names = {
-	Galicia Argonauta Asturias Asunción Atrevido Azor
-	Cartagonova Castilla "Castillo Negro" Castor "Ciervo Volante"
-	Doncella Dragón 
-	"El Gran Grin" "El Retiro" Eneas Eolo Esperanza "Espíritu Santo" Extremadura
-	Furor "Gran Grifón" Halcón Hércules Isabela Júpiter
-	"La Concepción" "La Magdalena" "La Manuela" León Ligera "Lobo Marino"
-	Marte Mercurio Neptuno Niña Orión
-	"Paloma Blanca" Pegaso "Perro Marino" Pinta Plutón Pollux "Príncipe de Asturias"
-	Rayo "Real Alfonso" "Real Enrique" "Real Juan" "Rey Pelayo" "Rey Rodrigo"
-	"San Andrés" "San Antonio" "San Bartolomé" "San Bernabé" "San Cristobal" "San Enrique"
-	"San Esteban" "San Fernando" "San Francisco" "San Gabriel" "San Isidoro" "San Jerónimo"
-	"San José" "San Juan" "San Juan Bautista" "San Leandro" "San Miguel" "San Pedro"
-	"San Rafael" "San Salvador" "San Sebastian" "Santa Ana" "Santa Bárbara" "Santa Beatriz"
-	"Santa Catalina" "Santa Cruz" "Santa Fe" "Santa Isabel" "Santa Justa" "Santa María"
-	"Santa Marta" "Santa Rita" "Santa Teresa" Santiago "Santísima Trinidad" "Santo Domingo" Sirena
-	Terror Toledo Trinidad Tritón Unicornio
-	Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Zúñiga
+	Activo "Afonso de Albuquerque" Águia Albacora "Almas Santas" Amazona Andorinha António Arpão Bazana Belém Benjamin Boaventura "Bom Jesus de Mazagão"
+	"Cabo de São Vicente" Calipso Capitania Chagas "Cinco Chagas" Colombo "Conde Dom Henrique" "Condessa de Resende" "Coração de Jesus" Coroa "Corte Real"
+	Curiosa Damão Dão Delfim Diana Diligente "Diogo Cão" "Dom João VI" "Don João Sexto" "Dona Maria II" Douro "Duquesa de Bragança" Espadarte Falcão Fénix
+	"Fénix Constitucional" Fereta "Flor de la Mar" Furão Gaivota Galgo Garça Garota Giavota Golfinho "Graça Divina" Guadiana "Infante Don Pedro" "Jesus da Ajuda"
+	Lebre Leio Liz "Lobo Soares" Luanda "Madre de Deus" Magnânimo "Maria I" "Martim de Freitas" Medusa Minerva "Monte du Ouro" Neptuno Ninfa "N. Sra. Belém"
+	"N. Sra. da Ajuda" "N. Sra. da Ajuda e São Fransisco" "N. Sra. da Ajuda e São Pedro" "N. Sra. da Arribada" "N. Sra. da Assunção" "N. Sra. da Atalaia"
+	"N. Sra. da Boa Hora" "N. Sra. da Boa Memória" "N. Sra. da Boa Viagem" "N. Sra. da Caridade" "N. Sra. da Caridade e São Fransisco" "N. Sra. da Conceicao"
+	"N. Sra. da Conceição e São João" "N. Sra. da Conceição e São José" "N. Sra. da Conceição e Sao Vicente" "N. Sra. da Encarnação" "N. Sra. da Esperanca"
+	"N. Sra. da Estrela" "N. Sra. da Glória" "N. Sra. da Graça" "N. Sra. da Guia" "N. Sra. da Lampadosa" "N. Sra. da Luz" "N. Sra. da Madre de Deus"
+	"N. Sra. da Misericórdia" "N. Sra. da Natividade" "N. Sra. da Nazaré" "N. Sra. da Nazaré e Santa Ana" "N. Sra. da Nazaré e Santo António" "N. Sra. da Oliveira"
+	"N. Sra. da Oliveira de Guimarães" "N. Sra. da Oliveira e Santo António" "N. Sra. da Palma e São Pedro" "N. Sra. da Penha de Franca" "N. Sra. da Piedade"
+	"N. Sra. da Vitória" "N. Sra. das Angústias" "N. Sra. das Brotas" "N. Sra. das Merces" "N. Sra. das Necessidades" "N. Sra. das Ondas"
+	"N. Sra. das Portas do Céu de Rosette" "N. Sra. de Belem e São José" "N. Sra. de Bettencourt" "N. Sra. de Guadalupe" "N. Sra. de Belém"
+	"N. Sra. do Bom" "N. Sra. do Bom Despacho" "N. Sra. do Bom Sucesso" "N. Sra. do Cabo" "N. Sra. do Cabo e São Pedro" "N. Sra. do Cardais"
+	"N. Sra. do Livramento" "N. Sra. do Livramento e São José" "N. Sra. do Loreto" "N. Sra. do Monte do Carmo" "N. Sra. do Pilar" "N. Sra. do Quietação"
+	"N. Sra. do Rosário" "N. Sra. do Rosário e Santo André" "N. Sra. do Vale" "N. Sra. do Vencimento e São José" "N. Sra. dos Milagres" "N. Sra. dos Prazeres"
+	"N. Sra. dos Prazeres e Santo Antonio" "N. Sra. dos Remédios dos Cassabe" "N. Sra. Madre de Deus" "N. Sra. Madre de Deus e São Fransisco"
+	"N. Sra. Madre de Deus e São José" "N. Sra. Necessidades e Santo Antonio" "Nossa Senhora da Glória" "Nossa Senhora das Necessidades" "Nossa Senhora da Conceição"
+	"Nossa Senhora da Esperanca" "Nossa Senhora da Vitória" "Oliveira de Guimarães" "Padre Eterno" Pérola Polifemo "Princesa Carlota" "Princesa da Beira"
+	"Princesa da Beira e Portuguesa" "Princesa do Brasil" "Princesa do Céu" "Princesa Real" "Príncipe do Brasil" "Príncipe Dom Pedro" "Príncipe Real"
+	"Príncipe Regente" Quietação "Rainha de Portugal" "Rainha dos Anjos" "Rainha Santa Isabel" "Real Carolina" "Real Fidelíssima" "Real Fonsor" "Real Fonza"
+	"Real Voador" Relíquias Sacramento "Salvador do Mundo" "Santa Ana" "Santa Ana e Maria" "Santa Ana e São Joaquim" "Santa Catarina" "Santa Catarina do Monte Sinai"
+	"Santa Clara" "Santa Cruz" "Santa Cruz do Ouro" "Santa Maria Isabel de Saboia" "Santa Rosa" "Santa Teresa" "Santa Teresa de Jesus" Santiago "Santiago Maior"
+	"Santíssimo Sacramento" "Santíssima Trinidade" "Santo Alberto" "Santo Andre" "Santo António" "Santo António de Flores" "Santo António de Padua"
+	"Santo António de Tanna" "Santo António e São Joaquim" "Santo António e São José" "Santo Agustinho" "Santo Miguel" "São António" "São Bartholomeu"
+	"São Benedito" "São Bento" "São Bernardo" "São Boaventura" "São Brás e São Lourenço" "São Cristovão" "São Fransisco de Assis" "São Fransisco de Paula"
+	"São Fransisco Xavier" "São Fransisco Xavier e Santo António" "São Fransisco Xavier e Todo o Bem" "São João" "São João Baptista" "São João de Deus"
+	"São João Magnânimo" "São Jorge" "São José" "São José e N. Sra. da Conceição" "São José e N. Sra. das Mercês" "São José Paquete África" "São Lourenço"
+	"São Martinho" "São Nicolau" "São Pedro" "São Pedro Goncalves" "São Rafael" "São Salvador" "São Sebasteio" "São Simão" "São Tomé" "Sacramento"
+	"Santíssimo Sacramento" "Sem Nome" Serpente "Serpento do Mar" "Simenta de Carvalho" Successo Taforea Tejo "Temível Portuguesa" "Todos os Santos" Torta
+	Tritão Ulisses União Unido Unilo Urania Vale "Vasco da Gama" Vénus Vingança Voador Volador Vulcano "Zabra Augusta" "Zabra Júlia" "São Gabriel" Bérrio
+	Gonçalo Nunes Argo "Arca de Noé" Júpiter Jesus Cristo "Jesus Cristo" Lisboa
 }
 
-
 army_names = {
-	"Guardia Real" "Ejército de $PROVINCE$"
+	"Guarda Real" "Terço de $PROVINCE$" "Exército de $PROVINCE$" "Bandeira de $PROVINCE$"
 }
 
 fleet_names = {
-	"Armada Real"	"Flota de $PROVINCE$"
+	"Armada Real" "Armada de $PROVINCE$" "Esquadra de $PROVINCE$" "Frota de $PROVINCE$"
 }

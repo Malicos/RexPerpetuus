@@ -9,7 +9,7 @@ government_rank = 1
 
 1427.3.30 = {
 	monarch = {
-		name = "Xoana"
+		name = "Joana"
 		dynasty = "Jimena-Porto"
 		adm = 3
 		dip = 2
