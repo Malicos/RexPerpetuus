@@ -38,7 +38,6 @@ monarch_names = {
 	"Soeiro #1" = 1
 	"Mauregato #1" = 1
 	"Vermudo #1" = 1
-	"Adefonso #2" = 20
 	"Fruella #2" = 20
 	"Ordonho #4" = 80
 	"Sancho #1" = 10

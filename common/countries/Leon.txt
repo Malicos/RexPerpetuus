@@ -40,7 +40,6 @@ monarch_names = {
 	"Silu #1" = 1
 	"Mauregatu #1" = 1
 	"Veremondu #1" = 1
-	"Adelfonsu #2" = 20
 	"Fruela #2" = 20
 	"Ordonu #4" = 80
 	"Sanchu #1" = 10

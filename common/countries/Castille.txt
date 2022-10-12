@@ -36,18 +36,29 @@ historical_units = {
 }
 
 monarch_names = {
-	"Enrique #2" = 40
+	# RP RULER NAMES
+	"Pelayo #1" = 1
+	"Fafila #1" = 1
+	"Aurelio #1" = 1
+	"Suero #1" = 1
+	"Mauregato #1" = 1
+	"Ordono #4" = 80
+	"Ramiro #3" = 60
+	"Bermudo #3" = 60
+	"Alfonso #6" = 60
+	"Lope #1" = 25
+	"Vellido #1" = 10
+	"Sancho #4" = 80
+	"Berenguela #1" = -1
+	"Gerardo #1" = 10
+	"Fruela #3" = 60
 	"Fernando #4" = 20
-	"Juan #1" = 20
+
+	# RANDOM NAMES
+	"Enrique #0" = 40
+	"Juan #0" = 20
 	"Felipe #0" = 20
-	"Alfonso #11" = 10
 	"Carlos #0" = 10
-	"Isabel #0" = -10
-	"Juana #0" = -10
-	"María #0" = -5
-	"Catalina #0" = -5
-	"Sancho #4" = 1
-	"Ramiro #2" = 1
 	"Pedro #1" = 1
 	"Alonso #0" = 0
 	"Álvaro #0" = 0
@@ -68,7 +79,6 @@ monarch_names = {
 	"Hernando #0" = 0
 	"Ignacio #0" = 0
 	"Laín #0" = 0
-	"Lope #0" = 0
 	"Miguel #0" = 0
 	"Nuño #0" = 0
 	"Odón #0" = 0
@@ -76,6 +86,11 @@ monarch_names = {
 	"Rodrigo #0" = 0
 	"Tomás #0" = 0
 	"Valeriano #0" = 0
+	
+	"Isabel #0" = -10
+	"Juana #0" = -10
+	"María #0" = -5
+	"Catalina #0" = -5	
 }
 
 leader_names = {
