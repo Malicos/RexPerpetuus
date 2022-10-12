@@ -1972,6 +1972,7 @@ iberian = {
 			Isabel
 		}
 	}
+	# Asturleonese
 	leonese = {
 		primary = LON
 		dynasty_names = {
@@ -2023,6 +2024,7 @@ iberian = {
 			Maria Marquesa Marquise Sança Sancha Sibila Sibylla Teresa Teresa Toda Toda Violant Yolanda
 		}
 	}
+	# Portogalician
 	galician = {
 		primary = GAL
 		dynasty_names = {
@@ -2034,18 +2036,22 @@ iberian = {
 			"de Cabrera" "de Villena"
 		}
 		male_names = {
-			Afonso Álvar Alvito André Ansur Arias Berenguel Bernardo Diego Estevo
-			Fernán Fernando Flaín Froila García Gerardo Gómez Gonzalo Guillerme Guterre
-			Henrique Hermenexildo Lope Lourenzo Lucidio Manuel Martino Mendo Munio Nuno
-			Ordono Osorio Oveco Paio Pedro Ponce Raimundo Rodrigo Roi Román
-			Rosendo Sancho Sebastián Sueiro Vasco Vela Vermudo Xil Xoán
+			Abril Afonso Aires Aloito Álvaro André Arualdo Aurovelido Berengário Bermudo
+			Bernardo Dinis Diogo Durao Egas Estevao Fernao Fernando Galindo Garcia
+			Geraldo Gil Godinho Gomes Gonçalo Gondesendo Guilherme Guterre Heitor Henrique
+			Hermenegildo Hermígio Joao Lopo Lourenço Lovesendo Lucidio Manuel Martim Martinho
+			Mem Mendo Monio Mourao Muno Nuno Ordonho Paio Pedro Pero
+			Pôncio Raimundo Ramiro Roberto Rodrigo Rui Sancho Sebastiao Sisnando Soeiro
+			Trastemiro Vasco Vela Vicente Xelmirio
 		}
 		female_names = {
-			Adosinda Aldara Aldonza Beatriz Berengaria Branca Catarina Constanza Corexía Cristina
-			Duce Elo Elvira Enderquina Estefanía Eulalia Eva Fronilde Gontrode Goto
-			Gudilona Guiomar Guntina Hermesinda Inés Leodegundia Leonor Loba Mafalda Maior
-			Margarida María Marina Marquesa Mencía Mília Mumadona Munia Oneca Sabela
-			Sancha Tarexia Tigridia Toda Urraca Velasquida Visclavara Ximena Xoana
+			Adosinda Alda Aldara Aldonça Aragunta Ausenda Beatriz Berengária Branca Brites
+			Catarina Chamoa Clara Constança Cristina Domingas Dórdia Dulce Elvira Emisu
+			Ermesinda Estevainha Estefânia Eva Fruilhe Geralda Gonçinha Goda Goina Goldregodo
+			Gontinha Gontroda Guiomar Ilduara Inés Isabel Joana Leodegúndia Leonor Loba
+			Lúcia Mafalda Margarida Maria Marinha Marquesa Mécia Mília Moninha Mor
+			Mumadona Onega Ouroana Ourtigueira Sancha Senhorinha Teresa Toda Tota Trodilde
+			Unisco Urraca Usco Velasquida Violante Vivili Ximena
 		}
 	}
 	andalucian = {
