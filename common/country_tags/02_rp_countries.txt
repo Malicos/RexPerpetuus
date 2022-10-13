@@ -143,6 +143,7 @@ MSU = "countries/Masuria.txt"
 PME = "countries/Pomerelia.txt"
 SGR = "countries/Starogard.txt"
 TSO = "countries/Truso.txt"
+TRG = "countries/Triregnum.txt"
 
 # Hungary
 BNT = "countries/Banat.txt"
