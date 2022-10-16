@@ -2874,7 +2874,7 @@ pagan = {
 	
 	#RP Added	
 	anito = {
-		color = { 20 50 150 }
+		color = { 95 60 140 }
 		icon = 11
 		country = {
 			tolerance_own = 1
@@ -2893,7 +2893,7 @@ pagan = {
 
 	#RP Added
 	celebic = {
-		color = { 130 30 170 }
+		color = { 65 25 120 }
 		icon = 11
 		country = {
 			merchants = 1
@@ -2911,9 +2911,9 @@ pagan = {
 	}	
 
 	#RP Added
-	polynesian = {
+	polynesian_religion = {
 		color = { 234 175 238 }
-		icon = 11
+		icon = 46
 		country = {
 			global_colonial_growth = 10
 			global_sailors_modifier = 0.1

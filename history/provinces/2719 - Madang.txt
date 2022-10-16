@@ -2,7 +2,7 @@
 #2719 - Madang
 
 culture = papuan
-religion = polynesian
+religion = polynesian_religion
 capital = "Madang"
 trade_goods = unknown
 hre = no

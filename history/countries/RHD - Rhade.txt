@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = tribal_federation
 primary_culture = degar
 religion = animism
-technology_group = chinese
+technology_group = southeast_asian_group
 capital = 4824	# Rhade
 
 1291.1.1 = {

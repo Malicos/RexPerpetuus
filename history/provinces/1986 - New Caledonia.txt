@@ -1,7 +1,7 @@
  
 
 culture = polynesian # BT; ??? melanesian
-religion = polynesian
+religion = polynesian_religion
 capital = "Nouméa"
 hre = no
 base_tax = 2 # BT; 1

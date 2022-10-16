@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = mandala_reform
 primary_culture = cham
 religion = hinduism
-technology_group = chinese
+technology_group = southeast_asian_group
 capital = 607	# Vijaya
 
 1318.1.1 = {

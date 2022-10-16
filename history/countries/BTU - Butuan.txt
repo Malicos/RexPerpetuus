@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = plutocratic_reform
-technology_group = chinese
+technology_group = southeast_asian_group
 primary_culture = danao
 capital = 2702	# Butuan
 religion = hinduism

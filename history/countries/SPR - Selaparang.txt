@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = nusa_tenggara
-technology_group = chinese
-religion = animism
+technology_group = southeast_asian_group
+religion = celebic
 capital = 2693	#Lombok
 
 1440.1.1 = {

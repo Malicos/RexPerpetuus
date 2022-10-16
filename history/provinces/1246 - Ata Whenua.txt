@@ -3,7 +3,7 @@
 # see: BT 5599
 
 culture = maori # 1.31
-religion = polynesian
+religion = polynesian_religion
 capital = "Waihopai" # BT; "Hokitika"
 hre = no
 base_tax = 1

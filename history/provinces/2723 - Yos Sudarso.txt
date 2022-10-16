@@ -2,7 +2,7 @@
 #2723 - Yos Sudarso
 
 culture = papuan
-religion = polynesian
+religion = polynesian_religion
 capital = "Yos Sudarso"
 trade_goods = unknown
 hre = no

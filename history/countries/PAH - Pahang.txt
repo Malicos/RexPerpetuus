@@ -3,7 +3,7 @@ add_government_reform = mandala_reform
 government_rank = 2
 primary_culture = malayan
 religion = mahayana
-technology_group = chinese
+technology_group = southeast_asian_group
 capital = 598	# Pahang
 
 1440.1.1 = {

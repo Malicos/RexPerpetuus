@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = plutocratic_reform
 primary_culture = moluccan
-religion = animism
-technology_group = chinese
+technology_group = southeast_asian_group
+religion = celebic
 capital = 650	# Tidore
 
 1334.1.1 = {

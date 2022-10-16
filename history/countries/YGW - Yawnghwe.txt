@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = mandala_reform
 government_rank = 1
-technology_group = chinese
+technology_group = southeast_asian_group
 religion = buddhism
 primary_culture = shan
 capital = 4397 #Yawnghwe

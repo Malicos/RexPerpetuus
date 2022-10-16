@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = mandala_reform
 primary_culture = sumatran
 religion = mahayana
-technology_group = chinese
+technology_group = southeast_asian_group
 capital = 2681	# Pagarruyung
 
 1347.1.1 = {

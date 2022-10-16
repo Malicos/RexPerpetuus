@@ -2,7 +2,7 @@
 #2721 - Kerema
 
 culture = papuan
-religion = polynesian
+religion = polynesian_religion
 capital = "Kerema"
 trade_goods = unknown
 hre = no

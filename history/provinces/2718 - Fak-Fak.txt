@@ -2,7 +2,7 @@
 #2718 - Fak-Fak
 
 culture = papuan
-religion = polynesian
+religion = polynesian_religion
 capital = "Fak-Fak"
 trade_goods = unknown
 hre = no

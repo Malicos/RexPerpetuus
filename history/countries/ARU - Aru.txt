@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = batak
 religion = sunni
-technology_group = chinese
+technology_group = southeast_asian_group
 capital = 618
 religious_school = shafii_school
 

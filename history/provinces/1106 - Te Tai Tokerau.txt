@@ -6,7 +6,7 @@
 #controller = TTT
 #add_core = TTT
 culture = maori # 1.31
-religion = polynesian
+religion = polynesian_religion
 capital = "Whanganui" # BT; "Whangarei"
 #is_city = no
 hre = no

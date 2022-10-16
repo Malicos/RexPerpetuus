@@ -2,7 +2,7 @@
 #2720 - Lae
 
 culture = papuan
-religion = polynesian
+religion = polynesian_religion
 capital = "Lae"
 trade_goods = unknown
 hre = no

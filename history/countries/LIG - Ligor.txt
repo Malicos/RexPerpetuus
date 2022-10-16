@@ -3,7 +3,7 @@ add_government_reform = mandala_reform
 government_rank = 2
 primary_culture = central_thai
 religion = buddhism
-technology_group = chinese
+technology_group = southeast_asian_group
 capital = 593	# Nakhon Si Thammarat
 
 1430.1.1 = {

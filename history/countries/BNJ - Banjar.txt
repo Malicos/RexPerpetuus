@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = plutocratic_reform
 primary_culture = banjarese
 religion = hinduism
-technology_group = chinese
+technology_group = southeast_asian_group
 capital = 639	# Banjar
 
 1440.1.1 = {

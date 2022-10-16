@@ -2,7 +2,7 @@
 #New Beyond Typus Provinces
 
 culture = maori # Brian
-religion = polynesian
+religion = polynesian_religion
 capital = "Taupo"
 trade_goods = unknown
 hre = no

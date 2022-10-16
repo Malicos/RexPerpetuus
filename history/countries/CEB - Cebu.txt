@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = plutocratic_reform
-technology_group = chinese
+technology_group = southeast_asian_group
 primary_culture = visayan
 capital = 4352	# Cebu
 religion = hinduism

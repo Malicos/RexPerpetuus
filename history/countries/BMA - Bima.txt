@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = bimanese
-technology_group = chinese
-religion = animism
+technology_group = southeast_asian_group
+religion = celebic
 capital = 8630	# Bima
 
 1440.1.1 = {

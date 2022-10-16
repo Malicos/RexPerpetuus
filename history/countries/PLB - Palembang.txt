@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = mandala_reform
 primary_culture = musi
 religion = hinduism
-technology_group = chinese
+technology_group = southeast_asian_group
 capital = 622	# Palembang
 
 1399.1.1 = {

@@ -1,7 +1,7 @@
  
 
 culture = polynesian
-religion = polynesian
+religion = polynesian_religion
 capital = "Tahiti"
 hre = no
 base_tax = 6 # BT; 3

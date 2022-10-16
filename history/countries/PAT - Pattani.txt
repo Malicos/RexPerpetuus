@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = plutocratic_reform
-technology_group = chinese
+technology_group = southeast_asian_group
 religion = buddhism #mahayana in truth, but as mahayana, will just convert at the start of the game due to Ayutthaya being Theravada
 primary_culture = malayan
 capital = 594	# Pattani

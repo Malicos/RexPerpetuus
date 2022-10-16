@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = plutocratic_reform
 primary_culture = sulawesi
-religion = animism
-technology_group = chinese
+technology_group = southeast_asian_group
+religion = celebic
 capital = 8613	# Soppeng
 
 # Kings of Soppeng

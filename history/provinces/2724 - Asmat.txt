@@ -2,7 +2,7 @@
 #2724 - Asmat
 
 culture = papuan
-religion = polynesian
+religion = polynesian_religion
 capital = "Asmat"
 trade_goods = unknown
 hre = no
