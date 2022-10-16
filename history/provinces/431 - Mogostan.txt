@@ -1,8 +1,8 @@
 #431 - Mogostan
 
-owner = FRD
-controller = FRD
-add_core = FRD
+owner = JDR
+controller = JDR
+add_core = JDR
 culture = turko_iranian
 religion = shiite
 capital = "Gamrun"
