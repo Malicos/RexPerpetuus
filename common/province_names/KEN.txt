@@ -8,7 +8,6 @@
 248 = { "Loþian" "Edinberry" }
 4130 = { "Somerset" "Tanton" }
 4361 = { "Roxberry" "Roxberry" }
-4367 = { "Hull" "Kengston upon Hull" }
 4370 = { "Cambrecg" "Cambrecg" }
 8123 = { "Surrey" "Geldford" }
 8170 = { "Wiltscire" "Sarisberry" }

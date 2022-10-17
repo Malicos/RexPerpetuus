@@ -12,6 +12,7 @@
 1860 = { "Norfolk" "Norwick" }
 3008 = { "Galloway" "Wigtown" }
 3028 = { "Suffolk" "Ipswick" }
+4367 = { "Wic" "Wic" }
 4370 = { "Cambrig" "Cambrig" }
 4371 = { "Sussex" "Kicaster" }
 4372 = { "Worcaster" "Worcaster" }
