@@ -215,7 +215,6 @@ north_german_region = { # 16 areas
 		middle_saxony_area
 		braunschweig_area
 		bremen_verden_area
-		frisia_area
 		oversticht_area
 	}
 }
