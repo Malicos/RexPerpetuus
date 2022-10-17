@@ -63,6 +63,7 @@ LNS = "countries/Lyonnais.txt"
 NBN = "countries/Narbonne.txt"
 RTH = "countries/Rethel.txt"
 SOI = "countries/Soissons.txt"
+TBG = "countries/TwoBurgundies.txt"
 VSL = "countries/Vesoul.txt"
 WLL = "countries/Wallis.txt"
 
