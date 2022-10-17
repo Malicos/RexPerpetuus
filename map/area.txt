@@ -172,7 +172,7 @@ champagne_area = {
 }
 
 ###
-# RP: Austrasia - 18
+# RP: Austrasia - 17
 ###
 alsace_area = {
 	75 1880 4765 7944 
@@ -185,9 +185,6 @@ brabant_area = {
 }
 flanders_area = {
 	87 90 1865 3064 4769 8015 8018 8020 8021 
-}
-frisia_area = {
-	100 1931 3058 4382 8118 8119 8299 8400 8401
 }
 guelders_area = {
 	99 3060 4381 8032 8120
@@ -674,6 +671,9 @@ upper_rhineland_area = { #(JP) Baden
 # North Germany
 ###
 
+frisia_area = {
+	100 1931 3058 4382 8118 8119 8299 8400 8401
+}
 holstein_area = {
 	44 45 1775 4141 7775 7776 7777 7778 
 }

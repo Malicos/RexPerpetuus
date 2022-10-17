@@ -18,13 +18,12 @@ neustria_region = { # 8 areas
 		champagne_area
 	}
 }
-austrasia_region = { # 18 areas
+austrasia_region = { # 17 areas
 	areas = {
 		alsace_area
 		barrois_area
 		brabant_area
 		flanders_area
-		frisia_area
 		guelders_area
 		hainaut_area
 		holland_area
@@ -215,6 +214,7 @@ north_german_region = { # 16 areas
 		middle_saxony_area
 		braunschweig_area
 		bremen_verden_area
+		frisia_area
 		oversticht_area
 	}
 }
