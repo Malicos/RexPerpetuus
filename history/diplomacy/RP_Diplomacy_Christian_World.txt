@@ -559,6 +559,14 @@ guarantee = {
 	end_date = 1836.1.1
 }
 
+# Pisa and Monaco
+guarantee = {
+	first = PIS
+	second = MNC
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Tuscany and Pistoia
 guarantee = {
 	first = TUS
