@@ -15,4 +15,5 @@ base_manpower = 2 # BT; 1
 trade_goods = livestock # BT; ivory
 
 discovered_by = chinese
+discovered_by = southeast_asian_group
 discovered_by = indian

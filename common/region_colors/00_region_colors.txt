@@ -1,12 +1,14 @@
 color = { 180 70 100 } #RNW or something IDK. 
 ###European Regions###
-color = { 20 30 100 } #France Region, Dummy Group 
-color = { 160 100 90 } #Lotharingia Region, Dummy Group
+color = { 30 40 150 } #Neustria Region, Dummy Group 
+color = { 100 90 160 } #Austrasia Region, Dummy Group
+color = { 245 75 75 } #Aquitaine Region, Dummy Group
+color = { 165 0 40 } #Burgundy Region, Dummy Group
 color = { 130 190 75 } #Iberia Region, Dummy Group
 color = { 240 240 160 } #Italy Region, Dummy Group
 color = { 35 140 50 } #Ireland Region, Dummy Group
-color = { 170 40 60 } #Great Britain Region, Dummy Group
-color = { 60 70 120 } #Scandinavia Region, Dummy Group
+color = { 150 80 110 } #Great Britain Region, Dummy Group
+color = { 60 70 120 } #Nordurica Region, Dummy Group
 color = { 140 150 140 } #South German Region, Dummy Group
 color = { 80 90 80 } #North German Region, Dummy Group
 color = { 120 70 100 } #Baltic Region, Dummy Group

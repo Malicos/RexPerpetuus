@@ -18,6 +18,7 @@ controller = CEB
 add_core = CEB
 
 discovered_by = chinese
+discovered_by = southeast_asian_group
 
 extra_cost = 8
 center_of_trade = 1

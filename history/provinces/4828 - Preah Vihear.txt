@@ -15,6 +15,7 @@ base_manpower = 1 # BT; 2
 trade_goods = livestock # BT; grain
 
 discovered_by = chinese
+discovered_by = southeast_asian_group
 discovered_by = indian
 
 1500.1.1 = { religion = buddhism }

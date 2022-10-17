@@ -126,6 +126,8 @@ zzzignore103 = {}
 zzzignore104 = {}
 zzzignore105 = {}
 zzzignore106 = {}
+zzzignore107 = {}
+zzzignore108 = {}
 
 germanic = {
 	graphical_culture = westerngfx

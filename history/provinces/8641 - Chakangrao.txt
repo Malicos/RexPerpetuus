@@ -15,4 +15,5 @@ is_city = yes
 fort_15th = yes
 
 discovered_by = chinese
+discovered_by = southeast_asian_group
 discovered_by = indian

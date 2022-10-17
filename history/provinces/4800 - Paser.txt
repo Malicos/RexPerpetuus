@@ -17,6 +17,7 @@ base_manpower = 2
 trade_goods = tropical_wood # BT; spices
 
 discovered_by = chinese
+discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman

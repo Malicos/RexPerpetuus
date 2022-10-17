@@ -16,4 +16,5 @@ trade_goods = iron # BT; grain
 latent_trade_goods = { coal } # BT
 
 discovered_by = chinese
+discovered_by = southeast_asian_group
 discovered_by = indian

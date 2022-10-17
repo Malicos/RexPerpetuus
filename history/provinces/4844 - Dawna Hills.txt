@@ -17,6 +17,7 @@ base_manpower = 1
 trade_goods = livestock
 
 discovered_by = chinese
+discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim # 1.31
 discovered_by = ottoman # 1.31

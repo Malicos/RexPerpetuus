@@ -15,6 +15,7 @@ add_core = BEI
 add_local_autonomy = 25
 
 discovered_by = chinese
+discovered_by = southeast_asian_group
 
 
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 

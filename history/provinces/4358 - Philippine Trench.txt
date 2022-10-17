@@ -1,4 +1,5 @@
 discovered_by = chinese
+discovered_by = southeast_asian_group
 #This thing sticks out in BT.
 #discovered_by = indian
 #discovered_by = muslim

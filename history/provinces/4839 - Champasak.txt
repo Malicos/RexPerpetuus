@@ -16,4 +16,5 @@ base_manpower = 3
 trade_goods = tea
 
 discovered_by = chinese
+discovered_by = southeast_asian_group
 discovered_by = indian
