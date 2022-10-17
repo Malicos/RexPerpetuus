@@ -1,0 +1,43 @@
+#Culture group naming in british.txt
+
+#Britain
+234 = { "Hampskire" "Wincaster" }
+238 = { "Essex" "Kelmsford" }
+239 = { "Glowcaster" "Glowcaster" }
+240 = { "Skropscire" "Screwsbirry" }
+244 = { "Lancaskire" "Lancaster" }
+245 = { "Eferwick" "Eferwick" }
+246 = { "Norþumberland" "Alnwick" }
+249 = { "Ayrskire" "Ayr" }
+1860 = { "Norfolk" "Norwick" }
+3008 = { "Galloway" "Wigtown" }
+3028 = { "Suffolk" "Ipswick" }
+4370 = { "Cambrig" "Cambrig" }
+4371 = { "Sussex" "Kicaster" }
+4372 = { "Worcaster" "Worcaster" }
+4374 = { "Dorset" "Dorcaster" }
+4375 = { "Caskire" "Caster" }
+4376 = { "Leicaster" "Leicaster" }
+4785 = { "Skeffeeld" "Skeffeeld" }
+8124 = { "Berkskire" "Abingdon" }
+8128 = { "Warwick" "Warwick" }
+8133 = { "Skipton" "Skipton" }
+8137 = { "Berwick" "Berwick upon Tweed" }
+8170 = { "Wiltskire" "Sarisbirry" }
+
+#Austrasia
+90 = { "Brigs" "Brigs" }
+3064 = { "Dunkirk" "Dunkirk" }
+4383 = { "Þe Earlsheg" "Þe Earlsheg" }
+7966 = { "Wermanskire" "Sant Cwint" }
+
+#Neustria
+171 = { "Wantskire" "Wannets" }
+172 = { "Namptskire" "Nampts" }
+178 = { "Angews" "Angews" }
+4384 = { "Reþenskire" "Reþens" }
+7962 = { "Meþenskire" "Meþent" }
+7980 = { "Perk" "Mortany" }
+7987 = { "Abrinksikre" "Abrinks" }
+7992 = { "Rays" "Racket" }
+7993 = { "Ankeniss" "Ankeniss" }
