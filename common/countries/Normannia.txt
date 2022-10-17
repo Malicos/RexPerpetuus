@@ -1,0 +1,122 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 20 20 100 }
+
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	maritime_ideas
+	spy_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {	
+	"Alix #1" = -1
+	"Almodis #0" = -1
+	"Angelbert #1" = 10
+	"Armand #0" = -1
+	"Arnault #2" = 10
+	"Astrid #0" = -1
+	"Charles #1" = 10
+	"Csák #0" = 0
+	"Douce #0" = -1
+	"Ermengarde #0" = -1
+	"Evrard #0" = -1
+	"Frédéric #0" = 0
+	"Gaucelin #1" = 10
+	"Gauzfrid #1" = 10
+	"Gerald #2" = 10
+	"Gerard #1" = 10
+	"Gulusa #0" = 0
+	"Hrolfr #1" = 10
+	"Mahaut #0" = -1
+	"Raoul #3" = 10
+	"Ricard #0" = -1
+	"Richard #3" = 10
+	"Robert #2" = 10
+	"Roger #1" = 10
+	"Thierry #0" = -1
+	"Tiburge #0" = -1
+	"Turquetil #3" = 10
+	"William #3" = 10
+	"Édouard #0" = 0
+}
+
+leader_names = {
+	"d'Amfreville" "d'Abancourt" "d'Aboville"
+	"de Bailleul" "de Berquetot" "de Béthencourt" "de la Boucque" "de Bracquemont" "de Brionne"
+	"de Croismarie" "de Crottay" "du Chastel" 
+	"de Dampierre" "Duquesne"
+	"d'Émondeville" "d'Estrimont" "Esquemelin"
+	"de Fréville" "de Fry"
+	"de la Galissonière" "Gosselin" "de Graville" "Guillaumery"
+	"d'Harcourt" "d'Herbouville" "de Houdetot" "de La Houssaye"
+	"d'Imbleval"
+	"de Joigny" "de Jourville"
+	"de La Motte" "Le Moyne" "de Lenemont" "Lesperon" "de Lessard" "Le Tellier"
+	"de Marigny" "de Mauquenchy" "de Mornay" "du Moucel"
+	"de Noscey"
+	"d'Alençon" "d'Ozenne"
+	"de Parbay" "Parmentier" "de Presteval"
+	"de Quenonville" "de Quesdeville" "du Quesnoy"
+	"de Riancourt" "Roncerolles "
+	"de Saint-Passy" "de Saint-Bosmer" "de Sébouville"
+	"de Tallebot" "de Tassigny" "de Thiboutot"
+	"de Valiquerville" "de Vauquelin"
+	"d'Ymonville"
+}
+
+ship_names = {
+	"l'Actif" "l'Adroit" "l'Aigrette" "l'Alouette" "l'Amarante"
+	"l'Angélique" "l'Ardent" "l'Aréthuse" "l'Arrogant" "l'Alcyon"
+	"l'Atalante" "l'Aurore" "la Balance" "la Blanche" "la Blonde"
+	"le Brave" "la Brune" "la Bricolle" "la Brûlante" "la Carpe"
+	"la Charente" "le Chariot-Royal" "la Chasse" "la Corneille" "la Coulisse"
+	"la Cruelle" "la Curieuse" "le Danaé" "la Danuble" "la Dauphine"
+	"la Digue" "la Diligente" "la Dryade" "l'Écluse" "l'Écueil"
+	"l'Embuscade" "l'Émeraude" "l'Enjouée" "l'Entendue" "l'Éole"
+	"l'Étoile" "la Favorite" "la Fée" "la Félicité" "la Fidèle"
+	"la Fine" "la Flatteuse" "la Flore" "le François" "le Gaillard"
+	"la Galatée" "la Garonne" "la Gazelle" "la Gentille" "la Gironde"
+	"la Gloire" "la Grâce" "la Gracieuse" "le Grand-Ponton" "la Grive"
+	"l'Harmonie" "l'Hébé" "l'Heureux" "l'Inconstante" "l'Infidèle"
+	"le Jason" "la Jolie" "la Joyeuse" "la Junon" "le Juste"
+	"le Léger" "Le Havre" "la Levrette" "le Lion" "la Marie-Françoise"
+	"le Marin" "la Martiale" "la Menaçante" "la Nayade" "la Normande"
+	"l'Orage" "l'Oriflamme" "le Palmier" "la Palombe" "la Pélerine"
+	"le Petit-Ponton" "le Petit Saint-François" "la Pintade" "le Précieux" "le Prompte"
+	"le Résolu" "la Rocheloise" "le Rubis" "le Saint-Louis" "le Saint-Michel"
+	"le Sans-Pareil" "la Somme" "la Subtile" "la Trompeuse" "la Turquoise"
+}
+
+army_names = {
+	"Armée du Cotentin" "Armée du Bessin" "Armée du Pays d'Auge"
+	"Armée d'Alençon" "Armée de Caen" "Armée d'Argentan"
+	"Armée de Falaise" "Armée du Virois" "Armée de Neubourg"
+	"Armée de l'Avranchin" "Armée du Perche" "Armée du Mortainais"
+	"Armée du Pays de Caux" 
+	"Armée de $PROVINCE$" 
+}
