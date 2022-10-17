@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = limousin #was Gascon.
+add_accepted_culture = basque #Bayonne area is bilingual.
+add_accepted_culture = poitevin_culture
+add_accepted_culture = occitain #If three will fit.
+religion = catholic
+capital = 174 #Bordeaux. Could also be 180 Poitiers.
+
+1525.4.12 = { government = monarchy
+add_government_reform = autocracy_reform }
+
+1560.1.1 = { religion = reformed }
+
+1562.11.18 = { set_legacy_government = administrative_monarchy }

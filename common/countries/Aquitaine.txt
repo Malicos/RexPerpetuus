@@ -1,0 +1,345 @@
+#Country Name: GUYENNE.
+
+graphical_culture = latingfx
+
+color = { 245 75 75 } #Chrysocyon's Aquitaine color. My old greyish color (initially meant for Gascony): 188 176 208.
+
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = { #Written in 'Peitavin', Limousin and Old Poitevin-based dialect if Oc continued to develop.
+	#####RULERS#####
+	#"Acfred #1" = 1 #900s.
+	"Audon #3" = 15 #2 'Eudes', which translates to Odon, Audon, or Audoïn in Occitan. One 'Otto' of Germany.
+	"Charles #2" = 10 #4 total. 2 800s and 2 1400s.
+	"Eble #1" = 5 #900s.
+	"Edoard #0" = 20 #4 total under England. I reigning 1291.
+	"Enric #2" = 25 #5 total under England. 2 by 1291.
+	"Guilhèm #10" = 50 #10 total, when Aquitaine was independent.
+	"Joan #1" = 10 #2 total. I reigned 1199-1216.
+	"Loís #4" = 25 #5 total. Only 1 reigned after 1291 date.
+	"Lop #1" = 1 #600s.
+	"Raimon #2" = 10 #2 total, under Toulouse. 900s.
+	#Ramnulf
+	"Richard #1" = 10 #2 total. One 1100s, one 1300s.
+	"Xavièr #0" = 5 #1700s.
+
+	"Alienòr #1" = -50 #Eleanor, legendary duchess of Aquitaine.
+	#####HEIRS AND CONSORTS#####
+	"Adèla #0" = -5 #Wife of William III.
+	"Adelaïda #0" = -1 #Daughter of William III.
+	"Asalaís #0" = -5 #Adelais - Daughter of William V. Uncertain orthography.
+	"Agnès #0" = -5 #Daughter of William IX. Aunt of Eleanor.
+	"Beatritz #0" = -5 #Daughter of William VIII.
+	"Emma #0" = 5 #Wife of William IV.
+	"Ermengarda #0" = -5 #Wife of William IX.
+	"Felipa #0" = -5 #Felipa or Felipia. Wife of William IX.
+	"Ildegarda #0" = -5 #Wife of William VIII.
+	"Petronilha #0" = -5 #Sister of Eleanor.
+
+	#####TROBADORS#####
+	###POITOU
+	"Savaric #0" = 0
+	###SAINTONGE+ANGOUMOIS
+	"Jaufré #0" = 0
+	"Jordan #0" = 0
+	"Rainaud #0" = 0
+	"Rigaud #0" = 0
+
+	#####MISC##### #Some are common, some are Limousin saints.
+	"Aimeric #0" = 0
+	"Arnaud #0" = 0
+	"Audric #0" = 0
+	"Aurelian #0" = 0
+	"Bertran #0" = 0
+	"Bonet #0" = 0
+	"Brecís #0" = 0
+	"Brun #0" = 0
+	"Centolh #0" = 0
+	"Edmond #0" = 5
+	"Elias #0" = 0
+	"Estève #0" = 0
+	"Ferriòu #0" = 0
+	"Francés #0" = 0
+	"Gaston #0" = 0
+	"German #0" = 0
+	"Giniés #0" = 0
+	"Gui #0" = 0
+	"Guiraud #0" = 0
+	"Ilaire #0" = 0
+	"Iriès #0" = 0
+	"Jacme #0" = 0
+	"Julian #0" = 0
+	"Junian #0" = 0
+	"Just #0" = 0
+	"Jòrge #0" = 0
+	"Laurenç #0" = 0
+	"Legèr #0" = 0
+	"Legíer #0" = 0
+	"Liunard #0" = 0
+	"Matieu #0" = 0
+	"Martin #0" = 0
+	"Marçau #0" = 0
+	"Mèrd #0" = 0
+	"Michèu #0" = 0
+	"Nicolau #0" = 0
+	"Oen #0" = 0
+	"Paul #0" = 0
+	"Pèire #0" = 0
+	"Ponç #0" = 0
+	"Príech #0" = 0
+	"Sòrnin #0" = 0
+	"Tomàs #0" = 0
+	"Vertunian #0" = 0
+	"Vincenç #0" = 0
+	"Vit #0" = 0
+	"Vivian #0" = 0
+	"Uc #0" = 0
+
+	"Anna #0" = -5
+	"Bèrta #0" = -1
+	"Charlòta #0" = -2
+	#"Elisabèt #0" = -1
+	"Joana #0" = -5
+	"Matilda #0" = -2
+	"Maria #0" = -5
+	"Oliva #0" = -1
+	#"Rosalia #0" = -1
+	"Urraca #0" = -1
+	"Valèria #0" = -1
+	"Victòria #0" = -2
+	#####OLD#####
+	#Trobadors
+	#"Alegret #0" = 0
+	#"Bernat Arnaud #0" = 0
+	#"Grimoard #0" = 0
+}
+leader_names = { #GUYENNE! For Gascony, see GasconyBT.txt!
+	#####GIRONDE LASTNAMES#####
+	#ó ò
+	#Most common surnames GIRONDE (http://www.geopatronyme.com/hitdept/33 1890.)
+	#ABADIE ALBERT ALLARD ANDRE ANDRON ANGLADE ARDOUIN ARNAUD ARNAUDIN AUBERT AUDOIRE
+	Abadiá Anglada #ARDOUIN AUDOIRE
+	#Forenames: Albèrt Andri(e)u Andron Arnaud Arnaudin Aubèrt
+	#BACQUEY BAILLET BALLION BAQUEY BARBE BARBOT BARON BARRAUD BARRE BARREAU BARRERE BARRIERE BARTHE BAUDET BAYLE BEAU BELLOC BENOIT BENTEJAC BERARD BERGEON BERGER BERGES BERGEY
+	Balhet Balhon Barba Barbòt Baron Barrau Barrèra Barrièra Barta Baudet Baile Bèu Bèllòc #BACQUEY BAQUEY BARRE BARREAU BENOIT BENTEJAC BERARD BERGEON BERGER BERGES BERGEY
+	#BERNADET BERNARD BERNEDE BERNIARD BERTEAU BERTIN BERTRAND BESSE BEZIADE BLANC BLANCHARD BLANCHET BOIREAU BONNEAU BONNET BONNIN BORDENAVE BORDES BORDESSOULLES BOS BOSC BOSQ
+	#BOSSUET BOUCHET BOUCHON BOUDEY BOUIC BOURSEAU BOUSQUET BOUTIN BOYER BRET BROUSSE BRUN BRUNET
+	#CAPDEVILLE CARRERE CARREYRE CASSAGNE CASTAGNET CASTAING CASTANDET CASTERA CASTET CASTETS CAZAUX CAZEAUX CAZENAVE CHAGNEAU CHARLES CHARPENTIER CHAUVET CHAUVIN CHEVALIER CHIRON
+	Capdevila Carrèra Cassanha Castanhet Castanh Castèra Castèth Castèths Casaus Casanava
+	#CHOLLET CLAVERIE CLEMENCEAU CLEMENT CLUZEAU COIFFARD CONSTANT CONSTANTIN COSTE COUDERC COURBIN COURREGELONGUE COURREGES COUTHURES
+	#DANEY DARCOS DARRIET DARTIAILH DAVID DEDIEU DEGRAVE DEJEAN DELAGE DELAS DELBOS DELMAS DELOUBES DELPECH DENIS DESCAT DESPAGNE DESPUJOLS DESQUEYROUX DEYCARD DEYRES DORNON DOUENCE
+	#DOUX DUBERNET DUBET DUBOIS DUBOS DUBOURDIEU DUBOURG DUBREUIL DUBROCA DUCASSE DUCAU DUCOS DUCOURNEAU DUFAU DUFAURE DUFFAU DUFOUR DULAS DULOU DULUC DUMARTIN DUMAS DUMEAU DUMON
+	#DUMORA DUPART DUPEYRON DUPHIL DUPIN DUPONT DUPOUY DUPRAT DUPUCH DUPUY DURAND DURET DUVERGER
+	#ELIE ELIES ESPAGNET ESQUERRE ESTEVE ESTRADE EYQUEM FABRE FAUCHE FAUCHER FAUGERE FAURE FAUX FAVEREAU FERRAND FORT FORTIN FOUQUET FOURCADE FOURNIER FOURTON FRANCOIS
+	#GAILLARD GARBAY GARDERE GARNUNG GASTON GAUTHIER GAUTIER GAY GERMAIN GILLET GIRARD GIRAUD GIRAUDEAU GOUJON GOURGUES GREGOIRE GRENIER GRILLET GROS GUERIN GUIBERT GUICHARD
+	Galhard Gardèra Gai German Girardèu Gojon Gorgas Granièr Grilhet Gròs #GOURGUES - Gorgas, or Gorgàs?
+	#Forenames:Gaston Gautièr Girard Giraud Gregòri Garin
+	#GUICHENEY GUILHEM GUILLOT GUIMBERTEAU GUIRAUD HARRIBEY HAZERA HERAUD HERVE HOSTEIN HOSTEINS HUBERT JAUBERT JEAN JEANNEAU JOUBERT JOURDAN
+	Jaubèrt #JAUBERT pretty much always a family name nowadays; probably a forename in the middle ages, but keeping it here for now.
+	#Forenames:Guilhèm Guilhòt Ubèrt Joan Jordan
+	#LABADIE LABARTHE LABAT LABATUT LABBE LABEYRIE LABORDE LABORIE LABROUCHE LABROUSSE LACAMPAGNE LACAZE LACOMBE LACOSTE LACROIX LAFARGUE LAFAYE LAFFARGUE LAFFITTE LAFITTE LAFON
+	Labadiá Labarta Labat Labatut Labòrda Labòria Labrocha Labrossa Lacampanha Lacasa Lacomba Lacòsta Lacrotz Lafarga Lafaia Lafita Lafont
+	#LAFONT LAFOURCADE LAGARDE LAGARDERE LAGRANGE LAGRAVE LALANDE LALANNE LAMARQUE LAMBERT LAMOTHE LANDREAU LAPEYRE LAPORTE LARCHE LAROCHE LARQUEY LARRIEU LARRUE LARTIGUE LASSALLE
+	Laforcada Lagarda Lagardèra Lagranja Lagrava Lalanda Lalana Lamarca Lapèira Lapòrta Larcha Laròcha Larriu Larrua Lartiga Lassala
+	#Firenames:Lambèrt
+	#LASSERRE LATASTE LATOUR LATOURNERIE LATRILLE LAULAN LAURENT LAVAL LAVAUD LAVEAU LAVERGNE LAVIGNE LAVILLE LEGLISE LEON LESCARRET LESCOUZERES LESPINE LESTAGE LUCAS LUCBERT LUSSAC
+	Lassèrra Latasta Lator Laval Lavau Lavinha Lavila Leon Lespina Luçac
+	#MAGNE MALEYRAN MALLET MANO MANSENCAL MARCHAIS MARCHAND MARTET MARTIN MARTINEAU MARTY MASSE MASSIAS MASSIEU MASSON MATHIEU MAURIN MAURY MAZEAU MENARD MERCIER MERLET MEYNARD
+	Manha Malet Massa Massiu Mercièr
+	#MEYNIEU MEYRE MICHAUD MICHEL MINVIELLE MONDON MONTEIL MORA MOREAU MORIN MOTHES MUSSET NICOLAS NOEL NORMAND NORMANDIN OLIVIER
+	Normand Normandin
+	#Forenames:Olivièr
+	#PALLAS PARIS PATANCHON PAULY PERES PERRIER PETIT PICARD PIERRE PINAUD PINEAU PLANTEY POIRIER PONS PREVOT PUJOL
+	Palas París Perièr Petit Picard Pinau Poirièr Ponç Pujòl
+	#Forenames:Paulin? Pèir(e)
+	#RAMBAUD RAYMOND RENARD RENAUD REY REYNAUD RICARD RICAUD RICHARD RIVIERE ROBERT ROBIN ROCHE ROLLAND ROQUES ROSSIGNOL ROUGIER ROUMEGOUS ROUMEGOUX ROUSSEAU ROUSSET ROUX ROY
+	Rei Ribièra Robin Ròcha Ròcas Rossinhòl Romegós Rossèu Rosset Ros Roi
+	#Forenames:Rogièr
+	#SAGE SAINT-MARC SAINT-MARTIN SALLES SARRAZIN SAUBOUA SEGUIN SENSEY SERRES SEURIN SIMON SORE SOULARD TARIS TASTET TAUDIN TAUZIN TECHOUEYRES TESSIER TEYSSIER THOMAS TORRES
+	Savi "Sent Marc" "Sent Martin" Salas Sarrasin Sèrras Sòra Tarís Tastet Tausin Teissièr Torres #TASTET - Proably Tastet, maybe Tastèth.
+	#Forenames:Seguin Seurin? Simon Tomàs
+	#VACHER VERDIER VIAUD VIDAL VIDEAU VIGNEAU VIGNOLLES VILLENAVE VILLETORTE VINCENT
+	Verdièr Viau Vinhau Vinhòlas Vilanava Vilatòrta
+	#Forenames:Vidal
+
+	#####OLD
+	#Troubadours, Saintonge (Aquitaine for now)
+	"de Confolens" "de Ponç" "Rudèl"
+}
+
+ship_names = {
+	#BORDELAIS dialect - Gascon but *in some places* retaining latin F- (rather than H- as the rest of Gascon areal), intervocalic -n- and -nd-, starting with R-. Du = dau/deu.
+	#intervocalic -l- doesn't become -r-. 'De+Lo' is 'dau' here, as well.
+	#####UNIQUES#####
+	"Bèla Maria" "Cort d'Amor" "Còr de Leon" "Diamant Reiau" "Esperit d'Oportunitat" "Fènix de l'Oèst" "Galiòta Bordalesa" "Leon d'Aquitània"
+	"Patz Aquitana" "Riba Argentada" "Sang daus Dius" "Solelh d'Aquitània" "Venjança Guianesa"
+	"En Bernat" "En Raimon" "N'Ena" "Pòrta-Jòia" #Subtle reference to the sirventés poetry of Raimon de Durfort, trobador. Huehuehue...
+	"Sent Esperit" #There was an actual ship from Bordeaux called Seintesperit. See http://www.ellipsis.cx/~liana/names/other/ships.html
+	#Trobadors - Guyenne
+	#Trobadors - Poitou
+	"N'Adam" #Guilhèm de Peitieus
+	#Trobadors - Saintonge
+	"Sénher Jaufré" #Jaufré de Ponç
+	"Prince de Blaia" #Jaufré Rudèl
+	#Jordan Bonèl de Confolenç
+	"Sénher Rainaud" #Rainaut de Ponç
+	#History - Gaul
+	#Biturige Nitiobrige #
+	#Benhasent Justessa
+	#Bordalés - Noun
+	#Miugrana
+	#Aunor Estelada Fèsta Leiautat Leon Riu
+	#Bordalés - Common Adj
+	#Blanca
+	#Brutau Brutala Florit Florida Fòrt Fòrta Invencible Invencibla Meravilha Reiau Supèrb Supèrba Valent Valenta #(H)Ardit
+	#GUY - Adj ETHNIC (Native dialects, so Carcinòl)
+	#Espanhòu Grèc Grèca #Grèga?
+	#Agenés Agenesa Bordalés Bordalesa Carcinòl Carcinòla Peiregòrd Peiregòrda Roergàs Roergàssa
+	#For Quercy, if created.
+	#Caors Montalban Fijac #Major cities.
+	#Cadurc Cadurca #Gaulish tribe adj.
+	#"N'Enric" #from Bernart de Tot-lo-mon's trobar poetry.
+	#For Roergue, if created.
+	#Rodés #Major cities.
+	#Caranton #Gaulish city.
+	#Rutèn Rutèna #Gaulish tribe adj.
+	#####COMMON OCCITAN#####
+	###NOUN COMMON
+	#Concepts+Values
+	Abiletat Abondància Absolucion Accion Acòrdi Adaptabilitat Adaptacion Admiracion Afirmacion Aliança Ambicion Amistat Aparicion Armonia Aspiracion Autoritat Benanança Benediccion
+	Comoditat Concepcion Concinitat Constància Contemplacion Coratge Creativitat Curiositat Dedicacion Deliberacion Determinacion Devocion Diversitat
+	Elegància Equanimitat Esperança Esperit Estabilitat Estrategia Euforia Exploracion Extasi Federacion Fiertat Fortitud Glòria Gràcia Gratitud Illusion Independéncia Inspiracion
+	Justícia Legenda Leialista Liberacion Luminositat Miracle Navigacion Necessitat Oportunitat Ordenança
+	Passatge Passion Patronatge Persisténcia Predominança Primautat Propension Prosperitat
+	Reialista Relativitat Resolucion Restitucion Revelacion Santuari Sapiéncia Seguritat Senhoratge Silenci Sinceritat Solaç Solidaritat Supremacia
+	Tenacitat Trionf Union Unitat Venjança Vertut Virtuositat
+	#Critters
+	Abelha Balena Calandra Calandreta Còrb Dromadari Lop Ors Orsa Pelican Rapaça Tigre Tigressa Ur #Ur = Aurochs #Lapin/Conilh/Coniu.
+	#Culture - Legends
+	Colòbra Drac Dragon Matagòt #Pariseta? How old is the Parisette?
+	#Culture - Literature+Music (Non-Trobar)
+	Flamenca Laüt Melodia Musica Poesia Ritme Rima #Oc Literature and Music
+	#Culture - Traditions
+
+	#Culture - Trobar Genres
+	Balada Cobla Dança Descort Escondit Estampida Gap Partiment Planh Rason "Salut d'Amor" Sestina Sirventés Sòmi Tençon Vida #Trobador genres. Not included here: Alba/Auba; C(h)anso(n); C(h)ançon de Gèsta; Enuèg/Enueg/Enuei/Einueg; Pastorèla/Pastorela.
+	#Folk - Ruler Titles
+	Baron Comte Comtessa Dinastia Duc Marqués Marquesa Monarca Princessa
+	#Folk - People+Professions
+	Aprendís Aprendissa Apòstol Coquin Coquina Corsari Corsària Defensor Defensora Escolan Escolana Eròi Escriba Liberator Mentòr Protector Trobador Trobairitz Viatjaire #Victor #Feminine endings here are more variable, usually between -tora and -tritz, but should go in individual cultures' tags, if at all.
+	#Heritage - GrecoRoman (Mythology)
+	Abondanci Afrodita Amazòna Angita Annona Apollon Aquilles Aquilon Argonauta Artèmis Atena Aurora Bacus Bellona Borèas Calipso Cassandra Ceres Cesar Clemença Concòrdia Constança
+	Demetèr Diana Dionís Driada Efèst Equitat Eracles Estia Felicitat Fidelitat Fortuna Fèbus Fènix Furia Gorgòna Ilaritat Iris Isis Janus Junon Jupitèr Justícia Juventas
+	Làmia Laton Leticia Liberalitat Libertat Luna Lèto Mart Medusa Mercuri Minotaure Minèrva Neptun Nobilitat Ocean Onos Oranos Orfèu
+	Pandora Persefòna Pietat Pollux Pomona Poseidon Proserpina Providéncia Quirin Sagitari Saturn Serena Silvan Titan Triton Tròia Ulisses Uranus Vesta Victòria Virt Vulcan Vènus
+	Zèus Èra Òps
+	#^Var. VivAup:Venús
+	#Heritage - Greek
+	Alexandre Dracma Leonidas
+	#Heritage - Gaulish (Mythology)
+	Cernunnos Damòna Epòna Esus Lug Rosmerta Sucellos Taranis Teutatès #or Epona? #Damona? Rosmèrta?
+	#Albiorix Caturix #Ortografia?
+	#Heritage - Roman
+	Annibal Cesar Cleopatra Juli
+	Cartage Centuria Centurion Colonia Colòs Gladiator Legion Legionari Patrician
+	#Misc Nouns
+	Abís Arpon Blason Cendre Centre Constellacion Corona Devisa Diamant Escut Florença Gargolha Jòia Lança Lum Lutz Mainatge Memòria Meridian Mite Monument Paradís Pica Pinacle Promessa Sason Torn Tractat Trinitat Trirema Vent Violeta
+	#Name - First (Import the list once the cultures are done?)
+	Agustin Anna Antòni Antonin Beatritz Brunissenda Clara Clàudia Emma Ivan Ivana Ives Ivon Ivona Joana Justinian Laura Loïsa Luc Maria
+	Ròsa Rosalia Rosalina Rosamonda Roseta Rosina Roson Sabin Sabina Sabrina Samson Savin Sebastian Simon Simona Simonet Simoneta Solanja Suson #Sulpici
+	Teresina Uldaric Ulisses Ulric Urban Valentin Valentina Valerian Valeriana Veran Verana Veronica Victorin Victorina Victorian Victoriana Vidalina Vincenç Violeta Zenon
+	#Place
+	Gàllia Roma Visigòtia
+	Alemanha Aragon Berric Bretanha Castelha Espanha Escòcia França Guernesei Irlanda Jersei Londres Normandia Ongria Peitau Roan Toscana #Var. Pro:Castilha (i/e variation, Castelha is still good.)
+	Orient Ponent
+	#Plants
+	Espic Lavanda Lin Liri Oliva Pin Ròsa
+	#Winds
+	
+	###ADJ COMMON (M followed by F, by reason of naming plausability & higher historical equality)
+	Abondós Abondosa Actiu Activa Agradiu Agradiva Adaptable Adaptabla Aimable Aimabla Aimat Aimada Ambiciós Ambiciosa Amorós Amorosa Antic Antica Ardent Ardenta Argentat Argentada
+	Artistic Artistica Aspirant Aspiranta Astruc Astruga Astuciós Astuciosa Aventurós Aventurosa Benvolent Benvolenta Bon Bona Brave Brava Brilhant Brilhanta
+	Capable Capabla Constant Constanta Content Contenta Coratjós Coratjosa Coronat Coronada Creatiu Creativa Curiós Curiosa Daurat Daurada Dur Dura
+	Elegant Eleganta Eminent Eminenta Erculenc Erculenca Esclatant Esclatanta Estelat Estelada Estranh Estranha Espectaclós Espectaclosa Excepcionala Extraordinari Extraordinària
+	Famós Famosa Fin Fina Finet Fineta Finòt Finòta Florissent Florissenta Formidable Formidabla Furiós Furiosa Galant Galanta
+	Imperiós Imperiosa Iniciala Insurgent Insurgenta Intrepid Intrepida #Fin, Finet, Finòt - Fine, clever.
+	Just Justa Legendari Legendària Luminós Luminosa Lusent Lusenta Majestuós Majestuosa Marin Marina Mitic Mitica Misteriós Misteriosa Montanhós Montanhosa Nòble Nòbla Òcre Òcra #Malin means malign rather than clever, and in some dialects could mean Satan, so leaving it out.
+	Pacific Pacifica Persistent Persistenta Pintat Pintada Placid Placida Plasent Plasenta Poderós Poderosa Polit Polida Pompós Pomposa Predominant Predominanta Prudent Prudenta
+	Radiant Radianta Redobtable Redobtabla Reiala Remarcable Remarcabla Salat Salada Sedusent Sedusenta Segur Segura Seriós Seriosa Sufisent Sufisenta Terrible Terribla
+	Urós Urosa Valorós Valorosa Ventós Ventosa Verdejant Verdejanta Verdós Verdosa Vertuós Vertuosa Viciós Viciosa Vigilant Vigilanta
+	#M forms vary too much by dialect to include:Excepcional/Excepcionau Inicial/Iniciau Reial/Reiau
+	#Adj Ethnic (F Matches)
+	African Africana Anglés Anglesa Aquitan Aquitana Arab Araba Aragonés Aragonesa Artesian Artesiana Asiatic Asiatica Breton Castelhan Castelhana Cornic Cornica #Castelhan/Castilhan.
+	Egipcian Egipciana Escosés Escocesa Flamenc Francés Francesa Galés Galesa Gallés Gallesa Galloroman Galloromana German Germana
+	Indian Indiana Irlandés Irlandesa Italian Italiana Latin Latina
+	Normand Normanda Peitavin Peitavina Picard Picarda Roman Romana Visigòt Visigòta #Breto(n)a
+	Occitan Occitana Auvernhat Auvernhata Daufinenc Daufinenca Gascon Guianés Guianesa Lemosin Lemosina Lengadocian Lengadociana Provençau Provençala #Gasco(n)a
+	Balear Baleara Catalan Catalana Valencian Valenciana #Principatin Principatina
+	Basca Espanhòla #Len+Lim Basc; G&P Basco; VivAlp Basc o Basque #Auv+Len Espanhòl; autres: Espanhòu
+}
+
+army_names = {
+	#####REGIONAL LEVIES#####
+	#Regional Levies - Cities (Bordelais)
+	#"Armada de Bordèu"
+	#"Armada de Liborna"
+	#Regional Levies - Cities (SE Angoumois)
+	#"Armada de Montmaurèu"
+	#####FILLER#####
+	#Filler - Parçan (Bordelais)
+	#"Armada de Medòc" "Armada de l'Entre Duas Mars" "Armada dera Grava"
+	#Filler - Generic
+	"Armada dau Nòrd" "Armada dau Sud" "Armada de l'Èst" "Armada de l'Oèst"
+	#Filler - Province
+	"Armada de $PROVINCE$"
+	#####OLD#####
+	#"Armada Guianesa" "Armada Blaiesa" "Armada Agenesa" "Armada Roergassa" "Armada Carcinòla"
+	#"Armada Garonesa" "Armada Gavaia"
+	#Betw Gasc+Guy
+	#"Armada Bordalesa" "Armada Vasadesa" "Armada Libornesa" "Armada Girondina" "Armada Medoquina" "Armada Landesa" "Armada de La Grava"
+}
+
+fleet_names = { #Bordelais!
+	"Flòta deu Lion" #CoA
+	"Flòta Granda" #Bordelais Gascon. South Gascon'd be 'Grana'. In any case, could be a Great Fleet, or in reference to the Great Sea (Atlantic).
+	"Flòta d'Alienòr" #"Flòta d'Alienòr" = "Eleanor's Fleet". While I don't know whether she personally commanded any vessels, she did lead armies on Crusade which traveled to and from Europe by ship, in addition to sending her things to France from England by boat. So this as a fleet name is honorary but not entirely implausible.
+	"Flòta de Richard" #In honor of Richard the Lionheart. Eleanor's son, he spent much of his adult life in France rather than England, and would die in today's Limousin. Unfortunately his name has the ca-/cha- split as well. As his mother was from Poitou it seems he was called "Richart" with the ch, but Bordeaux (BT's capital of Guyenne) would use c. Périgord, still in Guyenne, is mostly north of the c/ch divide.
+	#For QUERCY, if added.
+	#"Flòta dels Cadurcs" #Gaulish tribe.
+	#####FILLER#####
+	"Escadra de Gules" #CoA
+	"Escadra d'Aur" #CoA
+	#Filler - Generic
+	"Escadra Roja" "Escadra Jauna" "Escadra Blancha" "Escadra Blava" "Escadra Negra" "Escadra Burèla" "Escadra Grisa" "Escadra Verda" "Escadra Vermelha" "Escadra Rossa" "Escadra Òcra" #"Escadra Porpala"
+	#Filler - Province
+	"Escadra de $PROVINCE$"
+	#####OLD#####
+	#"Escadra de Mar Grana" "Escadra de l'Atlantic" "Escadra de Mediterranèa" "Escadra de Gasconha" "Escadra Blaua" "Escadra Arroi" "Escadra Blanca"
+}
