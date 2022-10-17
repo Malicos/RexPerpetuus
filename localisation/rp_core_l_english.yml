@@ -862,6 +862,15 @@
  #################################################################################
  # 6 - Areas, Regions, etc.
  #################################################################################
+ austrasia_region:0 "Austrasia"
+ austrasia_region_name:0 "Austrasia"
+ austrasia_region_adj:0 "Austrasian"
+ aquitaine_region:0 "Aquitaine"
+ aquitaine_region_name:0 "Aquitaine"
+ aquitaine_region_adj:0 "Aquitanian"
+ burgundy_region:0 "Burgundy"
+ burgundy_region_name:0 "Burgundy"
+ burgundy_region_adj:0 "Burgundian"
  cumbria_lancashire_area:0 "Cumbria-Lancashire"
  cumbria_lancashire_area_name:0 "Cumbria-Lancashire"
  cumbria_lancashire_england_area_adj:0 "Cumbrian"
@@ -880,6 +889,9 @@
  london_area:0 "Thames Valley"
  london_area_name:0 "Thames"
  london_area_adj:0 "Thamesian"
+ neustria_region:0 "Neustria"
+ neustria_region_name:0 "Neustria"
+ neustria_region_adj:0 "Neustrian"
  meath_area:0 "Meath"
  meath_area_name:0 "Meath"
  meath_area_adj:0 "Meathish"

@@ -6,52 +6,65 @@
 random_new_world_region = {}
 
 # Europe / 17 regions / 287 areas
-france_region = { # 25 areas
+neustria_region = { # 8 areas
 	areas = {
 		brittany_area
 		lower_brittany_area
 		normandy_area
 		lower_normandy_area
-		provence_area
-		guyenne_area
-		pyrenees_area
-		bourgogne_area
-		west_burgundy_area
-		languedoc_area
-		massif_central_area
-		savoy_dauphine_area
-		picardy_area
 		ile_de_france_area
 		loire_area
 		orleans_area
-		poitou_area
 		champagne_area
-		berry_touraine_area
-		lyonnais_area
-		west_languedoc_area
-		dauphine_area
-		upper_guyenne_area
-		upper_gascony  
-		limousin_area
 	}
 }
-low_countries_region = { #Lotharingia # 13 areas
+austrasia_region = { # 18 areas
 	areas = {
-		wallonia_area
-		holland_area
-		flanders_area
-		brabant_area
-		north_brabant_area
-		luxembourg_area
-		luxemburg_liege_area
-		north_rhine_area
-		lower_rhineland_area
-		palatinate_area
 		alsace_area
-		lorraine_area
 		barrois_area
+		brabant_area
+		flanders_area
+		frisia_area
+		guelders_area
+		hainaut_area
+		holland_area
+		luxembourg_area
+		lotharingia_proper_area
+		mosellia_area
+		outrerhein_area
+		palatinate_area
+		picardy_area
+		ripuaria_area
+		ruhrland_area
+		wallonia_area
+		limburg_area
 	}
 }
+aquitaine_region = { # 9 areas
+	areas = {
+		berry_touraine_area
+		guyenne_area
+		limousin_area
+		massif_central_area
+		poitou_area
+		pyrenees_area
+		septimania_area
+		toulousia_area
+		upper_gascony_area
+	}
+}
+burgundy_region = { # 7 areas
+	areas = {
+		cisjurania_area
+		forcalquier_area
+		lyonnais_area
+		new_burgundy_area
+		old_burgundy_area
+		provence_area
+		transjurania_area
+	}
+}
+
 # RP: Spain
 iberia_region = { # 23 areas
 	areas = {

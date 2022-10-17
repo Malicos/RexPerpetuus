@@ -142,9 +142,8 @@ st_john_valley_area = {
 #####
 
 ###
-# France
+# RP: Neustria - 8
 ###
-
 brittany_area = {
 	color = { 118 99 151 }
 	169 172 4384 7992 7993 7994 7995 7996 8013 
@@ -158,35 +157,6 @@ normandy_area = {
 lower_normandy_area = { # BT
 	168 3110 4385 7983 7984 7985 7986 7987 
 }
-provence_area = {
-	201 202 2991 4696 7890 7891 7892 7893 7894 
-}
-guyenne_area = {
-	174 194 3081 7925 7927 7928 7930 
-}
-pyrenees_area = {
-	173 176 3083 7923 7924 7926 
-}
-bourgogne_area = { #Burgundy Proper
-	color = { 144 0 32 }
-	191 192 1877 3091 4392 7938 7950 7951 7952 8028 
-}
-west_burgundy_area = { #Franche-Comté
-	193 3092 4764 7939 7940 7942 8029 8030 8422
-}
-languedoc_area = { #Moved for better colour assignment. Was identical to Provence
-	200 3085 4391 7898 7899 7906 
-}
-massif_central_area = {
-	color = { 26 26 217 }
-	190 199 3087 7914 7915 7916 7917 
-}
-savoy_dauphine_area = { #Savoy and Dauphiné, Upper Burgundy
-	205 3046 4719 7913 8031 
-}
-picardy_area = {
-	87 88 89 7965 7966 7969 7973 7974 
-}
 ile_de_france_area = { #Champagne and Ile de France
 	182 183 185 3070 7960 7961 7962 7963 
 }
@@ -197,76 +167,124 @@ loire_area = {
 orleans_area = {
 	177 178 7980 7988 7989 7990 7991 
 }
-poitou_area = {
-	180 3077 4111 4386 4387 7932 7933 7934 
-}
 champagne_area = {
 	186 3071 4390 7953 7955 7956 
 }
-berry_touraine_area = { # BT
-	179 4389 7935 7936 7937 7959 
-}
-lyonnais_area = { # BT
-	203 4777 7908 7909 7911 
-}
-west_languedoc_area = { # BT
-	196 2753 4694 4695 7900 7901 7904 
-}
-dauphine_area = { # BT
-	204 3089 7895 7896 7897 7910 
-}
-upper_guyenne_area = { # BT
-	198 4112 7905 7907 
-}
-upper_gascony = {  # BT
-	175 7919 7921 7922 
-}
-limousin_area = { # BT
-	195 4697 7918 7931 
-}
 
 ###
-# RP: Lotharingia
+# RP: Austrasia - 18
 ###
-
-wallonia_area = {
-	91 181 1743 7968 7976 7977 8014
+alsace_area = {
+	75 1880 4765 7944 
+}
+barrois_area = {
+	187 188 8421 8422 4766 7947
+}
+brabant_area = {
+	92 95 1744 4770 8017 8019 
+}
+flanders_area = {
+	87 90 1865 3064 4769 8015 8018 8020 8021 
+}
+frisia_area = {
+	100 1931 3058 4382 8118 8119 8299 8400 8401
+}
+guelders_area = {
+	99 3060 4381 8032 8120
+}
+hainaut_area = {
+	91 1743 7976 7977 8014
 }
 holland_area = {
 	96 97 98 4383 7954 7975 8112 
 }
-flanders_area = {
-	90 1865 3064 4769 8015 8018 8020 8021 
-}
-brabant_area = {
-	92 95 1744 4770 8019 
-}
-north_brabant_area = {
-	99 3060 3063 8017 2975
-}
-luxembourg_area = { # BT
+luxembourg_area = {
 	94 3066 7948 8024 8027 8418 8419 8420
 }
-luxemburg_liege_area = {
-	93 1742 1866 2974 7964 8022 8023 8025 
+lotharingia_proper_area = {
+	189 7945 7946 7949 8423 8424
 }
-north_rhine_area = { #(JP) Lower Rhineland
-	85 1878 4768 8410 8411 8412
-}
-lower_rhineland_area = { #(JP) Upper Rhineland
+mosellia_area = {
 	80 1760 3198 8415 8416 8417
 }
-alsace_area = {
-	75 1880 4765 7944 
+outrerhein_area = {
+	83 1876 3207 8428 8430
 }
 palatinate_area = { #(JP) Lower Palatinate
 	78 1761 4767 8431 8432 8433
 }
-lorraine_area = {
-	189 7945 7946 7949 8423 8424
+picardy_area = {
+	88 89 7965 7966 7968 7969 7973 7974
 }
-barrois_area = {
-	187 188 8421 4766 7947
+ripuaria_area = {
+	84 85 1878 4768 8411 8412 8413 8414
+}
+ruhrland_area = {
+	2975 3199 3292 8409 8410
+}
+wallonia_area = {
+	93 181 1866 7964 8022 8023
+}
+limburg_area = {
+	1742 2974 3063 8025
+}
+
+###
+# RP: Aquitaine - 9
+###
+berry_touraine_area = { # BT
+	179 4389 7935 7936 7937 7959 
+}
+guyenne_area = {
+	174 194 3081 7925 7927 7928 7930 
+}
+limousin_area = { # BT
+	195 4697 7918 7931 
+}
+massif_central_area = {
+	color = { 26 26 217 }
+	190 199 3087 7914 7915 7916 7917 
+}
+poitou_area = {
+	180 3077 4111 4386 4387 7932 7933 7934 
+}
+pyrenees_area = {
+	173 176 3083 7923 7924 7926 
+}
+septimania_area = {
+	200 2753 3085 4695 7898 7900 7901
+}
+toulousia_area = {
+	196 198 4112 4694 7904 7905 7906 7907 
+}
+upper_gascony_area = {  # BT
+	175 7919 7921 7922 
+}
+
+###
+# RP: Burgundy - 7
+###
+cisjurania_area = {
+	204 205 3089 7910 8031
+}
+forcalquier_area = {
+	202 2991 7892 7895 7896 7897
+}
+lyonnais_area = { # BT
+	203 4391 4777 7899 7908 7909 7911 
+}
+new_burgundy_area = { #Burgundy Proper
+	color = { 144 0 32 }
+	191 192 1877 3091 4392 7938 7950 7951 7952 8028 
+}
+old_burgundy_area = {
+	193 3092 4719 4764 7939 7940 7942 8029 8030
+}
+provence_area = {
+	102 201 4696 7890 7891 7893 7894 
+}
+transjurania_area = {
+	1867 1871 3046 4720 4721 7913 8490 8491 8492
 }
 
 ###
@@ -411,7 +429,7 @@ north_piedmont_area = { # BT
 	2979 3045 7072 7075 7079 7080 
 }
 south_piedmont_area = { # BT
-	102 1875 4727 7052 7062 7063 7064 
+	1875 4727 7052 7062 7063 7064 
 }
 south_tuscany_area = { # BT
 	117 3040 7039 7041 7042 7043 7044 7046 7050 
@@ -647,9 +665,6 @@ switzerland_area = { #(JP) Swiss Plateau
 swiss_alps_area = { #Rhaetia
 	1870 1873 4710 4722 8484 8486
 }
-romandie_area = {
-	1867 1871 4720 4721 8490 8491 8492
-}
 upper_rhineland_area = { #(JP) Baden
 	72 74 4714 8439 8440 8441
 }
@@ -684,26 +699,17 @@ braunschweig_area = { #(JP) Upper Eastphalia
 hesse_area = {
 	81 1762 3209 4774 8425 8426 8427 8429
 }
-nassau_area = {
-	83 1876 3207 8413 8414 8428 8430
-}
 westphalia_area = { #(JP) Upper Westphalia
 	82 2972 3201 3202 3203 4775 8408
 }
 north_westphalia_area = { #(JP) Lower Westphalia
-	84 86 3292 3199 3200 8406 8407 8409
+	86 3200 8406 8407
 }
 weser_area = { #(JP) Weser-Ems
 	55 56 2971 2973 8402 8403 8404 8405
 }
 bremen_verden_area = {
 	54 1874 4771 8296 8297 8298
-}
-frisia_area = {
-	100 1931 4382 8119 8299 8401
-}
-oversticht_area = {
-	3058 4381 8118 8120 8400 8032
 }
 
 ###
