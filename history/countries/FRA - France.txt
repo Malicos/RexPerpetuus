@@ -7,47 +7,17 @@ religion = catholic
 technology_group = western
 capital = 183 # Paris
 
-#ck3: verify the actual inauguration date
-1444.11.11= {
+1430.6.13 = {
 	monarch = {
-		name = "Centule"
-		dynasty = "Robertine-Montfort"
+		name = "Judicael II"
+		dynasty = "de Rennes"
 		adm = 4
 		dip = 4
 		mil = 5
-		birth_date = 1418.8.1
+		birth_date = 1383.10.21
 		religion = catholic
-		culture = cosmopolitan_french
+		culture = gallo_culture
 	}
 	add_ruler_personality = careful_personality
 	add_ruler_personality = tolerant_personality
-	queen = {
-		name = "Mahaut"
-		dynasty = "Árpád-Orval"
-		adm = 5
-		dip = 4
-		mil = 5
-		country_of_origin = FRA
-		birth_date = 1416.1.16
-		death_date = 1476.1.16
-		female = yes
-		religion = catholic
-		culture = cosmopolitan_french
-	}
-	add_queen_personality = charismatic_negotiator_personality
-	add_queen_personality = pious_personality
-	heir = {
-		name = "Bård"
-		monarch_name = "Bård"
-		dynasty = "Robertine-Montfort"
-		adm = 6
-		dip = 6
-		mil = 6
-		birth_date = 1386.7.17
-		death_date = 1451.7.17
-		religion = catholic
-		culture = cosmopolitan_french
-	}
-	add_heir_personality = charismatic_negotiator_personality
-	add_heir_personality = tolerant_personality
 }
