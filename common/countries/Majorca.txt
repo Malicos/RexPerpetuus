@@ -32,6 +32,8 @@ historical_units = {
 }
 
 monarch_names = {
+	"Antoni #1" = 10
+	"Francesc #1" = 10
 	"Lluís #0" = 40	
 	"Pere #0" = 20
 	"Enric #0" = 20
@@ -46,14 +48,12 @@ monarch_names = {
 	"Martí #0" = 5
 	"Ambrós #0" = 0
 	"Andreu #0" = 0
-	"Antoni #0" = 0
 	"Arnau #0" = 0
 	"Bernat #0" = 0
 	"Climent #0" = 0
 	"Domènec #0" = 0
 	"Eduard #0" = 0
 	"Esteve #0" = 0
-	"Francesc #0" = 0
 	"Gonçal #0" = 0
 	"Guillem #0" = 0
 	"Hèctor #0" = 0

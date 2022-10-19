@@ -1,8 +1,20 @@
 government = monarchy
-
 add_government_reform = feudalism_reform
-
+government_rank = 1
 religion = catholic
 primary_culture = catalan
 technology_group = western
 capital = 333	# Majorca
+
+1410.12.21 = {
+	monarch = {
+		name = "Antoni"
+		dynasty = "di Canossa"
+		adm = 3
+		dip = 4
+		mil = 2
+		birth_date = 1390.12.28
+		religion = catholic
+		culture = occitain
+	}
+}
