@@ -1,0 +1,22 @@
+#Culture group naming in british.txt
+
+#Britain
+235 = { "Kent" "Canterberry" }
+240 = { "Scropscire" "Screwsberry" }
+243 = { "Linkeln" "Linkeln" }
+247 = { "Kemberland" "Carlile" }
+248 = { "Loþian" "Edinberry" }
+4130 = { "Somerset" "Tanton" }
+4361 = { "Roxberry" "Roxberry" }
+4370 = { "Cambrecg" "Cambrecg" }
+8123 = { "Surrey" "Geldford" }
+8170 = { "Wiltscire" "Sarisberry" }
+
+#Austrasia
+90 = { "Brecges" "Brecges" }
+96 = { "Sealand" "Middelberry" }
+3064 = { "Duncerc" "Duncerc" }
+
+#Neustria
+3064 = { "Cornwales" "Kemper" }
+4385 = { "Constenten" "Kiersberry" }

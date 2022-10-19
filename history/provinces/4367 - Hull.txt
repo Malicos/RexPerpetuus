@@ -3,7 +3,7 @@
 #Region - Britain
 
 #Core Details
-capital = "Kingston upon Hull"
+capital = "Wyke"	#Scandinavian form would be Vik, will be added to dynamic naming
 is_city = yes
 owner = JRV
 controller = JRV

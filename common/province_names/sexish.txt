@@ -1,0 +1,22 @@
+#Culture group naming in british.txt
+
+#Britain
+235 = { "Kent" "Canterbury" }
+240 = { "Scropscire" "Screwsbury" }
+243 = { "Linculn" "Linculn" }
+247 = { "Cumberland" "Carlile" }
+248 = { "Loþian" "Edinbury" }
+4130 = { "Somerset" "Tanton" }
+4361 = { "Roxbury" "Roxbury" }
+4370 = { "Cambrucg" "Cambrucg" }
+8123 = { "Surrey" "Guldford" }
+8170 = { "Wiltscire" "Sarisbury" }
+
+#Austrasia
+90 = { "Brucges" "Brucges" }
+96 = { "Sealand" "Middelbury" }
+3064 = { "Dunceurc" "Dunceurc" }
+
+#Neustria
+3064 = { "Cornwales" "Cumper" }
+4385 = { "Constenten" "Kiersbury" }
