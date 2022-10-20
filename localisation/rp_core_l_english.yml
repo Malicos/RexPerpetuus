@@ -220,6 +220,8 @@
  FEU_ADJ:0 "Eudese"
  FRB:0 "Fribourg"
  FRB_ADJ:0 "Fribourgian"
+ FRK:0 "Francia"
+ FRK_ADJ:0 "Francien"
  FTS:0 "Tours"
  FTS_ADJ:0 "Tourange"
  GET:0 "Gaeta"
