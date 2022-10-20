@@ -51,7 +51,7 @@
 8128 = { "Warwic" "Warwic" }
 8129 = { "Hereford" "Hereford" }
 8130 = { "Stafford" "Stafford" }
-8131 = { "Nottingham" "Nottingham" }
+8131 = { "Snottingham" "Snottingham" }
 8133 = { "Scipton" "Scipton" }
 8134 = { "Whitby" "Whitby" }
 8135 = { "Westmoreland" "Appelby" }
