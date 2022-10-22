@@ -32,8 +32,29 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Bera #1" = 1
+	"Rampon #1" = 1
+	"Berenguer #1" = 1
+	"Sunifred #1" = 1
+	"Guillem #1" = 1
+	"Aldedramn #1" = 1
+	"Isembard #1" = 1
+	"Odelric #1" = 1
+	"Hunifred #1" = 1
+	"Bernat #2" = 10
+	"Guifre #2" = 10
+	"Sunyer #1" = 1
+	"Borrell #1" = 1
+	"Ramon-Borell #1" = 10
+	"Ramon-Berenguer #1" = 20
+	"Berenguer-Ramon #2" = 20
+	"Roderic #1" = 20
+	"Dídac #1" = 20
+	"Pere #1" = 20
+
+	# RANDOM NAMES
 	"Lluís #0" = 40	
-	"Pere #0" = 20
 	"Enric #0" = 20
 	"Renat #0" = 20	
 	"Alfons #0" = 15
@@ -48,14 +69,12 @@ monarch_names = {
 	"Andreu #0" = 0
 	"Antoni #0" = 0
 	"Arnau #0" = 0
-	"Bernat #0" = 0
 	"Climent #0" = 0
 	"Domènec #0" = 0
 	"Eduard #0" = 0
 	"Esteve #0" = 0
 	"Francesc #0" = 0
 	"Gonçal #0" = 0
-	"Guillem #0" = 0
 	"Hèctor #0" = 0
 	"Hug #0" = 0
 	"Ignasi #0" = 0
@@ -70,7 +89,6 @@ monarch_names = {
 	"Pau #0" = 0
 	"Rafel #0" = 0
 	"Ramon #0" = 0
-	"Roderic #0" = 0
 	"Xavier #0" = 0
 	
 	"Alícia #0" = -1
