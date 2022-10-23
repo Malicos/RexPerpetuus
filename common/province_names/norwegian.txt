@@ -1,7 +1,6 @@
 #RPHotLV
 
 #Nordurica
-1 = { "Stokholm" "Stokholm" } 		#Stockholm
 12 = { "Kaupenhamn" "Kaupenhamn" } 		#Copenhagen
 
 #Britain
