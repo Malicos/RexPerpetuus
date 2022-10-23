@@ -7,7 +7,7 @@
 #Britain
 236 = { "Midsaks" "Lundun" } 		#Middlesex, London
 237 = { "Oksensfjord" "Oksensfjord" } 		#Oxford
-238 = { "Østersaks" "Kjøllmarfjord" } 		#Essex, Chelmsford
+238 = { "Østsaks" "Kjøllmarfjord" } 		#Essex, Chelmsford
 243 = { "Linkylna" "Linkylna" }		#Lincoln
 244 = { "Lønkæstra" "Lønkæstra" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 245 = { "Jorvik" "Jorvik" }		#York

@@ -7,7 +7,7 @@
 #Britain
 236 = { "Miðsaxar" "Lundúnir" } 		#Middlesex, London
 237 = { "Uxansfjörður" "Uxansfjörður" } 		#Oxford
-238 = { "Austursaxar" "Kjöllmarrfjörður" } 		#Essex, Chelmsford
+238 = { "Austsaxar" "Kjöllmarrfjörður" } 		#Essex, Chelmsford
 243 = { "Línkylna" "Línkylna" }		#Lincoln
 244 = { "Lónkæstra" "Lónkæstra" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 245 = { "Jórvík" "Jórvík" }		#York

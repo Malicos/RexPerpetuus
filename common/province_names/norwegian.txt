@@ -6,7 +6,7 @@
 
 #Britain
 236 = { "Midtsaks" "Lundun" } 		#Middlesex, London
-238 = { "Austersaks" "Kjøllmarfjord" } 		#Essex, Chelmsford
+238 = { "Austsaks" "Kjøllmarfjord" } 		#Essex, Chelmsford
 247 = { "Kumbraland" "Karljaul" }		#Cumberland, Carlisle
 248 = { "Lodien" "Edinborg" } 		#Lothian, Edinburgh
 1861 = { "Dyrby" "Dyrby" }		#Derby
