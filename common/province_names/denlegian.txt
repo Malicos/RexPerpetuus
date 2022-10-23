@@ -13,7 +13,6 @@
 247 = { "Kumbraland" "Karlyl" }		#Cumberland, Carlisle
 248 = { "Loðien" "Edinborg" } 		#Lothian, Edinburgh
 1860 = { "Norðfolk" "Norðvik" }		#Norfolk, Norwich
-1861 = { "Djurby" "Djurby" }		#Derby
 3028 = { "Suðfolk" "Eppsvik" }		#Suffolk, Ipswich
 4361 = { "Raukasborg" "Raukasborg" } 		#Roxburgh
 4365 = { "Moen" "Duglas" }		#Isle of Man, Douglas
