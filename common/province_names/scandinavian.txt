@@ -1,5 +1,9 @@
 #Base culture in RPHotLV will be a Koine, provinces that do not match the dynamic naming here will be present in other text files
 
+#Nordurica
+1 = { "Stokkholm" "Stokkholm" } 		#Stockholm
+12 = { "Køpenhavn" "Køpenhavn" } 		#Copenhagen
+
 #Britain
 236 = { "Midsaks" "Lundun" } 		#Middlesex, London
 237 = { "Oksensfjord" "Oksensfjord" } 		#Oxford

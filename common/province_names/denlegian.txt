@@ -1,5 +1,9 @@
 #RPHotLV
 
+#Nordurica
+1 = { "Stockholm" "Stockholm" } 		#Stockholm
+12 = { "Coepenhaven" "Coepenhaven" } 		#Copenhagen
+
 #Britain
 236 = { "Midsax" "Lundun" } 		#Middlesex, London
 237 = { "Oxensford" "Oxensford" } 		#Oxford
