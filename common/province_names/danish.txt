@@ -1,3 +1,25 @@
+#RPHotLV
+
+#Britain
+243 = { "Linkylne" "Linkylne" }		#Lincoln
+244 = { "Lønkæstre" "Lønkæstre" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
+245 = { "Jorvig" "Jorvig" }		#York
+246 = { "Nordymbraland" "Alnavig" }		#Northumberland, Alnwick
+247 = { "Kumbreland" "Karljøl" }		#Cumberland, Carlisle
+3008 = { "Gallovej" "Vigtun" }		#Galloway, Wigtown
+4361 = { "Raagesborg" "Raagesborg" } 		#Roxburgh
+4367 = { "Vig" "Vig" } 		#Hull, Kingston-upon-Hull, changed to Wyke as KuH does not exist without Normans
+4375 = { "Kæstrelen" "Kæstre" } 		#Cheshire, Chester, ON lén is equivalent to OE scire
+4376 = { "Ledkæstre" "Ledkæstre" } 		#Leicester
+4785 = { "Skefelt" "Skefelt" } 		#Sheffield
+8126 = { "Nordjemtun" "Nordjemtun" } 		#Northampton
+8128 = { "Veringvig" "Veringvig" } 		#Warwick
+8131 = { "Snottinghjem" "Snottinghjem" } 		#Nottingham, loss of initial S was due to Norman influence
+8134 = { "Hvidby" "Hvidby" } 		#Whitby
+8136 = { "Tinadal" "Høkshjem" } 		#Tynedale, Hexham
+8137 = { "Barvig" "Barvig paa Tvid" } 		#Berwick, Berwick-upon-Tweed
+8145 = { "Tviddal" "Pibler" } 		#Tweeddale, Peebles
+
 #Moved to Scandinavian group localised naming
 
 #Restored Vanilla names
