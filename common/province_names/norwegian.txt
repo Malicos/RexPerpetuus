@@ -1,13 +1,17 @@
 #RPHotLV
 
 #Britain
+236 = { "Midtsaks" "Lundun" } 		#Middlesex, London
+238 = { "Austersaks" "Kjøllmarfjord" } 		#Essex, Chelmsford
 247 = { "Kumbraland" "Karljaul" }		#Cumberland, Carlisle
 248 = { "Lodien" "Edinborg" } 		#Lothian, Edinburgh
 1861 = { "Dyrby" "Dyrby" }		#Derby
 3008 = { "Gallovej" "Viktun" }		#Galloway, Wigtown
 4361 = { "Rokasborg" "Rokasborg" } 		#Roxburgh
+4370 = { "Kamtabrygge" "Kamtabrygge" } 		#Cambridge
 4375 = { "Kæstralen" "Kæstra" } 		#Cheshire, Chester, ON lén is equivalent to OE scire
 4785 = { "Skeifelt" "Skeifelt" } 		#Sheffield
+8125 = { "Bukkingheim" "Bukkingheim" } 		#Buckingham
 8131 = { "Snottingheim" "Snottingheim" } 		#Nottingham, loss of initial S was due to Norman influence
 8134 = { "Kvitby" "Kvitby" } 		#Whitby
 8136 = { "Tinadal" "Hauksheim" } 		#Tynedale, Hexham

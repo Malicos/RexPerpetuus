@@ -1,23 +1,31 @@
 #RPHotLV
 
 #Britain
+236 = { "Miðsaxar" "Lundúnir" } 		#Middlesex, London
+237 = { "Uxansfjörður" "Uxansfjörður" } 		#Oxford
+238 = { "Austursaxar" "Kjöllmarrfjörður" } 		#Essex, Chelmsford
 243 = { "Línkylna" "Línkylna" }		#Lincoln
 244 = { "Lónkæstra" "Lónkæstra" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 245 = { "Jórvík" "Jórvík" }		#York
 246 = { "Norðymbraland" "Alnavík" }		#Northumberland, Alnwick
 247 = { "Kumbaraland" "Karljaul" }		#Cumberland, Carlisle
 248 = { "Loðjenn" "Eðinborg" } 		#Lothian, Edinburgh
+1860 = { "Norðfólk" "Norðvík" }		#Norfolk, Norwich
 1861 = { "Dýrabýr" "Dýrabýr" }		#Derby
 3008 = { "Gallovey" "Víktún" }		#Galloway, Wigtown
+3028 = { "Suðfólk" "Eppsvík" }		#Suffolk, Ipswich
 4361 = { "Hróksborg" "Hróksborg" } 		#Roxburgh
 4362 = { "Dúnfrís" "Dúnfrís" } 		#Dumfries
 4365 = { "Mön" "Duglas" }		#Isle of Man, Douglas
 4367 = { "Vík" "Vík" } 		#Hull, Kingston-upon-Hull, changed to Wyke as KuH does not exist without Normans
 4368 = { "Dúnhólmur" "Dúnhólmur" }		#Durham
+4370 = { "Kamtabryggja" "Kamtabryggja" } 		#Cambridge
 4375 = { "Kæstralén" "Kæstra" } 		#Cheshire, Chester, ON lén is equivalent to OE scire
 4376 = { "Leiðkæstra" "Leiðkæstra" } 		#Leicester
 4785 = { "Skeiðfelt" "Skeiðfelt" } 		#Sheffield
+8125 = { "Bukkingaheimur" "Bukkingaheimur" } 		#Buckingham
 8126 = { "Norðeimtún" "Norðeimtún" } 		#Northampton
+8127 = { "Bedafjörður" "Bedafjörður" } 		#Bedford
 8128 = { "Veringavík" "Veringavík" } 		#Warwick
 8130 = { "Stöðfjörður" "Stöðfjörður" } 		#Stafford
 8131 = { "Snottingaheimur" "Snottingaheimur" } 		#Nottingham, loss of initial S was due to Norman influence

@@ -6,12 +6,16 @@
 245 = { "Jorvig" "Jorvig" }		#York
 246 = { "Nordymbraland" "Alnavig" }		#Northumberland, Alnwick
 247 = { "Kumbreland" "Karljøl" }		#Cumberland, Carlisle
+1860 = { "Nordfolk" "Nordvig" }		#Norfolk, Norwich
 3008 = { "Gallovej" "Vigtun" }		#Galloway, Wigtown
+3028 = { "Sudfolk" "Eppsvig" }		#Suffolk, Ipswich
 4361 = { "Raagesborg" "Raagesborg" } 		#Roxburgh
 4367 = { "Vig" "Vig" } 		#Hull, Kingston-upon-Hull, changed to Wyke as KuH does not exist without Normans
+4370 = { "Kamtebrygge" "Kamtebrygge" } 		#Cambridge
 4375 = { "Kæstrelen" "Kæstre" } 		#Cheshire, Chester, ON lén is equivalent to OE scire
 4376 = { "Ledkæstre" "Ledkæstre" } 		#Leicester
 4785 = { "Skefelt" "Skefelt" } 		#Sheffield
+8125 = { "Bukkinghjem" "Bukkinghjem" } 		#Buckingham
 8126 = { "Nordjemtun" "Nordjemtun" } 		#Northampton
 8128 = { "Veringvig" "Veringvig" } 		#Warwick
 8131 = { "Snottinghjem" "Snottinghjem" } 		#Nottingham, loss of initial S was due to Norman influence
