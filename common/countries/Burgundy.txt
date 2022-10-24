@@ -34,20 +34,30 @@ historical_units = {
 }
 
 monarch_names = {
-	"Philippe #1" = 80
-	"Charles #0" = 60
-	"Louis #0" = 30
+	# RP RULER NAMES
+	"Louis #1" = 10
+	"Lothaire #1" = 10
+	"Adelaide #1" = -1
+	"Raymond #3" = 60
+	"Bermond #1" = 10
+	"Guifré #1" = 1
+	"Artau #1" = 1
+	"Isabelle #1" = -1
+	"Charles #4" = 60
+	"Catherine #1" = -2
+	"Jeanne #1" = -1 # La Pléiade
+
+	# RANDOM NAMES
+	"Philippe #0" = 80
 	"Jean #0" = 20
-	"Louis-Henri #0" = 20
-	"Louis-Joseph #0" = 20
-	"Henri #1" = 10
+	"Henri #0" = 10
 	"Antoine #0" = 10
 	"Henri-Jules #0" = 10
 	"Joseph #0" = 10
 	"François #0" = 5
-	"Hughes #5" = 1
-	"Eudes #4" = 1
-	"Robert #2" = 1
+	"Hughes #0" = 1
+	"Eudes #0" = 1
+	"Robert #0" = 1
 	"Armand #0" = 0
 	"Barthélemy #0" = 0
 	"Benoît #0" = 0
@@ -81,10 +91,7 @@ monarch_names = {
 	"Charlotte #0" = -1
 	"Hélène #0" = -1
 	"Éléonore #0" = -1
-	"Isabelle #0" = -1
-	"Catherine #0" = -2
 	"Marguerite #0" = -2 # La Pléiade
-	"Jeanne #0" = -1 # La Pléiade
 	"Agnès #0" = -1 # La Pléiade
 }
 

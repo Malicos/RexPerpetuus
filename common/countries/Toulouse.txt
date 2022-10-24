@@ -34,17 +34,34 @@ historical_units = {
 }
 
 monarch_names = {
-	"Louis #0" = 80
-	"Charles #0" = 60
-	"Louis Philippe #0" = 40
-	"Philippe #0" = 40
-	"Gaston #0" = 20
-	"Henri Alexandre #0" = 20
-	"Nicolas #0" = 20
-	"Alexandre Louis #0" = 10
+	# RP RULER NAMES
+	"Beggo #1" = 1
+	"Berenguié #1" = 1
+	"Fredelon #1" = 1
+	"Bernat #2" = 20
+	"Eble #1" = 1
+	"Raimond-Pons #1" = 1
+	"Pons-Guilhèm #1" = 1
+	"Guilhèm #5" = 80
+	"Bertran #1" = 1
+	"Anfos #1" = 10
+	"Raimon #5" = 80
+	"Charles #1" = 60
+	"Gaston #1" = 20
+	"Rainaud #2" = 20
+	"Amaneus #1" = 20
+	"Jaufret #3" = 60
+	"Nicholaus #1" = 1
+	"André #2" = 20
+	"Elena #1" = -10
+	"Blasi #2" = 20
+	"Peironéla #1" = -10
+	"Anton #1" = 10
+	
+	# RANDOM NAMES
+	"Loui #0" = 10
 	"François #0" = 10
-	"Jean #0" = 5		
-	"Antoine Philippe #0" = 5
+	"Joan #0" = 5		
 	"Hughes #0" = 1
 	"Robert #0" = 1
 	"Alexandre #0" = 0
@@ -56,12 +73,9 @@ monarch_names = {
 	"Denis #0" = 0
 	"Eudes #0" = 0
 	"Gui #0" = 0
-	"Guillaume #0" = 0
 	"Gustave #0" = 0
 	"Henri #0" = 0
 	"Jacques #0" = 0
-	"Jean-Baptiste #0" = 0
-	"Jean-Philippe #0" = 0
 	"Jules #0" = 0
 	"Marc #0" = 0
 	"Maurice #0" = 0
@@ -71,7 +85,7 @@ monarch_names = {
 	"Raoul #0" = 0
 	"René #0" = 0
 	"Simon #0" = 0
-	"Thibaut #0" = 0
+	"Tibaud #0" = 0
 	"Xavier #0" = 0
 	
 	"Claudine #0" = -10
