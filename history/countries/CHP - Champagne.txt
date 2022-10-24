@@ -7,10 +7,15 @@ primary_culture = cosmopolitan_french
 capital = 186	# Reims
 fixed_capital = 186 # Cannot move capital away from this province & no power cost to move to it
 
-1515.1.1 = { government = monarchy
-add_government_reform = autocracy_reform }
-
-1589.8.3 = { set_legacy_government = administrative_monarchy }
-
-1661.3.9 = { government = monarchy
-add_government_reform = autocracy_reform }
+1407.6.17 = {
+	monarch = {
+		name = "Gilbert"
+		dynasty = "de Blois"
+		adm = 1
+		mil = 2
+		dip = 4
+		birth_date = 1394.9.24
+		religion = catholic
+		culture = cosmopolitan_french
+	}
+}

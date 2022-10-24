@@ -8,48 +8,17 @@ religion = catholic
 technology_group = western
 capital = 7894	# Arles
 
-#ck3: verify the actual inauguration date
-1444.11.11 = {
+1410.10.9 = {
 	monarch = {
-		name = "Otton"
-		dynasty = "de Craon"
+		name = "Charles IV"
+		dynasty = "Ponthieu"
 		adm = 3
 		dip = 5
 		mil = 3
-		birth_date = 1404.7.9
+		birth_date = 1376.3.26
 		religion = catholic
-		culture = burgundian
+		culture = arelatian_culture
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = well_connected_personality
-	queen = {
-		name = "Irén"
-		dynasty = "Ják-Moson"
-		adm = 3
-		dip = 4
-		mil = 3
-		country_of_origin = HUN
-		birth_date = 1386.3.25
-		death_date = 1446.3.25
-		female = yes
-		religion = catholic
-		culture = hungarian
-	}
-	add_queen_personality = drunkard_personality
-	add_queen_personality = midas_touched_personality
-	heir = {
-		name = "Lúcia"
-		monarch_name = "Lúcia"
-		dynasty = "de Craon"
-		adm = 6
-		dip = 5
-		mil = 6
-		birth_date = 1421.10.10
-		death_date = 1486.10.10
-		female = yes
-		religion = catholic
-		culture = burgundian
-	}
-	add_heir_personality = fierce_negotiator_personality
-	add_heir_personality = well_connected_personality
 }
