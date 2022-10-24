@@ -30,17 +30,19 @@ historical_units = {
 }
 
 monarch_names = {
-	"Carlo #1" = 60
-	"Giovanni #1" = 60
-	"Antonio #2" = 40
-	"Lodovico #1" = 40
-	"Ranieri #2" = 40
+	"Lorenzo #1" = 60
+	"Manfredo #1" = 60
+	"Carlo #0" = 60
+	"Giovanni #0" = 60
+	"Antonio #0" = 40
+	"Lodovico #0" = 40
+	"Ranieri #0" = 40
 	"Alberto #0" = 20
-	"Francesco #1" = 20
+	"Francesco #0" = 20
 	"Onorato #0" = 20
-	"Ambrogio #1" = 10
+	"Ambrogio #0" = 10
 	"Catalano #0" = 10
-	"Gabriele #1" = 10
+	"Gabriele #0" = 10
 	"Lamberto #0" = 10
 	"Agostino #0" = 5
 	"Bartholomeo #0" = 5
