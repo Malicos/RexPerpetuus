@@ -5,7 +5,7 @@
 240 = { "Scropscire" "Screwsberry" }
 243 = { "Linkeln" "Linkeln" }
 247 = { "Kemberland" "Carlile" }
-248 = { "LoÃ¾ian" "Edinberry" }
+248 = { "Loþian" "Edinberry" }
 4130 = { "Somerset" "Tanton" }
 4361 = { "Roxberry" "Roxberry" }
 4370 = { "Cambrecg" "Cambrecg" }

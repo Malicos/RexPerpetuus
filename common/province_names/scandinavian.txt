@@ -2,30 +2,30 @@
 
 #Nordurica
 1 = { "Stokkholm" "Stokkholm" } 		#Stockholm
-12 = { "KÃ¸penhavn" "KÃ¸penhavn" } 		#Copenhagen
+12 = { "Køpenhavn" "Køpenhavn" } 		#Copenhagen
 
 #Britain
 236 = { "Midsaks" "Lundun" } 		#Middlesex, London
 237 = { "Oksensfjord" "Oksensfjord" } 		#Oxford
-238 = { "Ã˜stsaks" "KjÃ¸llmarfjord" } 		#Essex, Chelmsford
+238 = { "Østsaks" "Kjøllmarfjord" } 		#Essex, Chelmsford
 243 = { "Linkylna" "Linkylna" }		#Lincoln
-244 = { "LÃ¸nkÃ¦stra" "LÃ¸nkÃ¦stra" }		#Lancashire, Lancaster, Lancashire would be LÃ¸nkÃ¦stralen but I decided to shorten it
+244 = { "Lønkæstra" "Lønkæstra" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 245 = { "Jorvik" "Jorvik" }		#York
 246 = { "Nordymbraland" "Alnavik" }		#Northumberland, Alnwick
-247 = { "Kumbraland" "KarljÃ¸l" }		#Cumberland, Carlisle
+247 = { "Kumbraland" "Karljøl" }		#Cumberland, Carlisle
 248 = { "Lodien" "Edinborg" } 		#Lothian, Edinburgh
 1860 = { "Nordfolk" "Nordvik" }		#Norfolk, Norwich
 1861 = { "Dyrby" "Dyrby" }		#Derby
 3008 = { "Gallovej" "Viktun" }		#Galloway, Wigtown
 3028 = { "Sudfolk" "Eppsvik" }		#Suffolk, Ipswich
-4361 = { "RÃ¥kasborg" "RÃ¥kasborg" } 		#Roxburgh
+4361 = { "Råkasborg" "Råkasborg" } 		#Roxburgh
 4362 = { "Dunfris" "Dunfris" } 		#Dumfries
-4365 = { "MÃ¸n" "Duglas" }		#Isle of Man, Douglas
+4365 = { "Møn" "Duglas" }		#Isle of Man, Douglas
 4367 = { "Vik" "Vik" } 		#Hull, Kingston-upon-Hull, changed to Wyke as KuH does not exist without Normans
 4368 = { "Dunholm" "Dunholm" }		#Durham
 4370 = { "Kamtabrygga" "Kamtabrygga" } 		#Cambridge
-4375 = { "KÃ¦stralen" "KÃ¦stra" } 		#Cheshire, Chester, ON lÃ©n is equivalent to OE scire
-4376 = { "LedkÃ¦stra" "LedkÃ¦stra" } 		#Leicester
+4375 = { "Kæstralen" "Kæstra" } 		#Cheshire, Chester, ON lén is equivalent to OE scire
+4376 = { "Ledkæstra" "Ledkæstra" } 		#Leicester
 4785 = { "Skedfelt" "Skedfelt" } 		#Sheffield
 8125 = { "Bukkinghem" "Bukkinghem" } 		#Buckingham
 8126 = { "Nordemtun" "Nordemtun" } 		#Northampton
@@ -36,7 +36,7 @@
 8133 = { "Skeptun" "Skeptun" } 		#Skipton
 8134 = { "Hvitby" "Hvitby" } 		#Whitby
 8135 = { "Vestmoringland" "Appelby" } 		#Westmoreland, Appleby
-8136 = { "Tinadal" "HÃ¸kshem" } 		#Tynedale, Hexham
-8137 = { "Barvik" "Barvik pÃ¥ Tvid" } 		#Berwick, Berwick-upon-Tweed
+8136 = { "Tinadal" "Høkshem" } 		#Tynedale, Hexham
+8137 = { "Barvik" "Barvik på Tvid" } 		#Berwick, Berwick-upon-Tweed
 8145 = { "Tviddal" "Piblar" } 		#Tweeddale, Peebles
-8146 = { "Marsken" "GrÃ¸nlÃ¦" } 		#The Merse, Greenlaw
+8146 = { "Marsken" "Grønlæ" } 		#The Merse, Greenlaw

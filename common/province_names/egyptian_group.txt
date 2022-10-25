@@ -22,7 +22,7 @@
 5261 = { "Tamiat" "Tamiat" } #
 5264 = { "Tipersioi" "Tipersioi" } #Me-Nefer, Memfi for Memphis
 5267 = { "Panisuf" "Panisuf" } #Pemdje
-5271 = { "Sheheri" "Sheheri" } #attempted adaptation of Ancient Egyptian šꜣs ḥrt
+5271 = { "Sheheri" "Sheheri" } #attempted adaptation of Ancient Egyptian �?s ?rt
 5272 = { "Paraetnion" "Paraetnion" } #
 5273 = { "Ammoniake" "Ammoniake" } #
 5281 = { "Arme" "Arme" } #
