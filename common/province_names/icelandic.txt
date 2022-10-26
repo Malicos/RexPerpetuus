@@ -9,11 +9,11 @@
 237 = { "Uxansfjörður" "Uxansfjörður" } 		#Oxford
 238 = { "Austsaxar" "Kjöllmarrfjörður" } 		#Essex, Chelmsford
 243 = { "Línkylna" "Línkylna" }		#Lincoln
-244 = { "Lónkæstra" "Lónkæstra" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
+244 = { "Lánkæstra" "Lánkæstra" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 245 = { "Jórvík" "Jórvík" }		#York
 246 = { "Norðymbraland" "Alnavík" }		#Northumberland, Alnwick
 247 = { "Kumbaraland" "Karljaul" }		#Cumberland, Carlisle
-248 = { "Loðjenn" "Eðinborg" } 		#Lothian, Edinburgh
+248 = { "Loðinn" "Eðinborg" } 		#Lothian, Edinburgh
 1860 = { "Norðfólk" "Norðvík" }		#Norfolk, Norwich
 1861 = { "Dýrabýr" "Dýrabýr" }		#Derby
 3008 = { "Gallovey" "Víktún" }		#Galloway, Wigtown

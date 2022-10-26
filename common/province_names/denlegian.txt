@@ -2,12 +2,12 @@
 
 #Nordurica
 1 = { "Stockholm" "Stockholm" } 		#Stockholm
-12 = { "Coepenhaven" "Coepenhaven" } 		#Copenhagen
+12 = { "Koupenhaven" "Koupenhaven" } 		#Copenhagen
 
 #Britain
 236 = { "Midsax" "Lundun" } 		#Middlesex, London
 237 = { "Oxensfyrð" "Oxensfyrð" } 		#Oxford
-238 = { "Oestsaks" "Kylmarfyrð" } 		#Essex, Chelmsford
+238 = { "Oustsaks" "Kylmarfyrð" } 		#Essex, Chelmsford
 244 = { "Loenkaestra" "Loenkaestra" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 246 = { "Norðymbraland" "Alnavik" }		#Northumberland, Alnwick
 247 = { "Kumbraland" "Karlyl" }		#Cumberland, Carlisle
@@ -22,6 +22,6 @@
 8125 = { "Buckinghem" "Buckinghem" } 		#Buckingham
 8127 = { "Bedfyrð" "Bedfyrð" } 		#Bedford
 8130 = { "Stodfyrð" "Stodfyrð" } 		#Stafford
-8136 = { "Tinadal" "Hoexhem" } 		#Tynedale, Hexham
+8136 = { "Tinadal" "Houxhem" } 		#Tynedale, Hexham
 8137 = { "Barvik" "Barvik pau Tvid" } 		#Berwick, Berwick-upon-Tweed
 8146 = { "Marsken" "Groenlae" } 		#The Merse, Greenlaw
