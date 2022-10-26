@@ -2,7 +2,27 @@
 
 #Nordurica
 1 = { "Stokkhólmur" "Stokkhólmur" } 		#Stockholm
+6 = { "Málmey" "Málmey" } 		#Malmö
 12 = { "Kaupmannahöfn" "Kaupmannahöfn" } 		#Copenhagen
+14 = { "Fjón" "Óðinsvé" } 		#Fyn
+15 = { "Rípar" "Rípar" } 		#Ripe
+17 = { "Akurhús" "Ósló" } 		#Akerhus
+26 = { "Halmstaður" "Halmstaður" } 		#Halmstad
+1981 = { "Borgundarhólmur" "Rónne" } 		#Bornholm
+1982 = { "Bleiking" "Bleiking" } 		#Blekinge
+1983 = { "Láland" "Nýkaupangur" } 		#Lolland
+1984 = { "Álaborg" "Álaborg" } 		#Aalborg
+4142 = { "Árósar" "Árósar" } 		#Aarhus
+4143 = { "Austfold" "Borg" } 		#Østfold
+4165 = { "Áhús" "Áhús" } 		#Åhus
+7766 = { "Helsingjaborg" "Helsingjaborg" } 		#Helsingborg
+7767 = { "Hróarskelda" "Hróarskelda" } 		#Roskilde
+7768 = { "Kálundborg" "Kálundborg" } 		#Kalundborg
+7769 = { "Dýrsland" "Röndrósar" } 		#Randers
+7770 = { "Véborg" "Véborg" } 		#Viborg
+7771 = { "Hringkaupangur" "Hringkaupangur" } 		#Ringkøbing
+7779 = { "Vörðaberg" "Vörðaberg" } 		#Varberg
+7780 = { "Vestfold" "Túnsberg" } 		#Vestfold
 
 #Britain
 236 = { "Miðsaxar" "Lundúnir" } 		#Middlesex, London

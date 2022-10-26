@@ -2,6 +2,9 @@
 
 #Nordurica
 12 = { "Kaupenhamn" "Kaupenhamn" } 		#Copenhagen
+1983 = { "Låland" "Nykaupang" } 		#Lolland
+7767 = { "Roskjelda" "Roskjelda" } 		#Roskilde
+7771 = { "Ringkaupang" "Ringkaupang" } 		#Ringkøbing
 
 #Britain
 236 = { "Midtsaks" "Lundun" } 		#Middlesex, London

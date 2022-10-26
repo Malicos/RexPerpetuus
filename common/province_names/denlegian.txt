@@ -2,7 +2,18 @@
 
 #Nordurica
 1 = { "Stockholm" "Stockholm" } 		#Stockholm
+6 = { "Malmoe" "Malmoe" } 		#Malmö
 12 = { "Koupenhaven" "Koupenhaven" } 		#Copenhagen
+17 = { "Aukerhus" "Oslo" } 		#Akerhus
+26 = { "Halmstað" "Halmstað" } 		#Halmstad
+1981 = { "Bornholm" "Roenne" } 		#Bornholm
+1983 = { "Lauland" "Nykouping" } 		#Lolland
+1984 = { "Aulborg" "Aulborg" } 		#Aalborg
+4142 = { "Aurhus" "Aurhus" } 		#Aarhus
+4143 = { "Oustfold" "Borg" } 		#Østfold
+4165 = { "Auhus" "Auhus" } 		#Åhus
+7771 = { "Ringkouping" "Ringkouping" } 		#Ringkøbing
+7780 = { "Vestfold" "Toensberg" } 		#Vestfold
 
 #Britain
 236 = { "Midsax" "Lundun" } 		#Middlesex, London

@@ -2,7 +2,16 @@
 
 #Nordurica
 1 = { "Stockholm" "Stockholm" } 		#Stockholm
+6 = { "Malmö" "Malmö" } 		#Malmö
 12 = { "Köpenhamn" "Köpenhamn" } 		#Copenhagen
+1981 = { "Bornholm" "Rönne" } 		#Bornholm
+1983 = { "Låland" "Nyköping" } 		#Lolland
+4143 = { "Östfold" "Borg" } 		#Østfold
+4149 = { "Kalling" "Kalling" } 		#Kolding
+7767 = { "Roskälla" "Roskälla" } 		#Roskilde
+7769 = { "Djursland" "Randers" } 		#Randers
+7771 = { "Ringköping" "Ringköping" } 		#Ringkøbing
+7780 = { "Västfold" "Tönsberg" } 		#Vestfold
 
 #Britain
 236 = { "Midsax" "Lundun" } 		#Middlesex, London

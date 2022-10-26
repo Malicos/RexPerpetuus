@@ -3,6 +3,16 @@
 #Nordurica
 1 = { "Stokholm" "Stokholm" } 		#Stockholm
 12 = { "København" "København" } 		#Copenhagen
+15 = { "Ribe" "Ribe" } 		#Ripe
+17 = { "Agerhus" "Oslo" } 		#Akerhus
+1982 = { "Bleging" "Bleging" } 		#Blekinge
+1983 = { "Laaland" "Nykøbing" } 		#Lolland
+1984 = { "Aalborg" "Aalborg" } 		#Aalborg
+4142 = { "Aarhus" "Aarhus" } 		#Aarhus
+4149 = { "Kolding" "Kolding" } 		#Kolding
+4165 = { "Aahus" "Aahus" } 		#Åhus
+7767 = { "Roskilde" "Roskilde" } 		#Roskilde
+7771 = { "Ringkøbing" "Ringkøbing" } 		#Ringkøbing
 
 #Britain
 243 = { "Linkylne" "Linkylne" }		#Lincoln
