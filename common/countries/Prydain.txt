@@ -1,0 +1,105 @@
+#Copied from Denmark. Feel free to improve later.
+
+graphical_culture = westerngfx
+
+color = { 175 80 10 }
+
+preferred_religion = protestant
+
+historical_idea_groups = {
+	maritime_ideas
+	administrative_ideas
+	aristocracy_ideas
+	expansion_ideas
+	naval_ideas 
+	trade_ideas 
+	quality_ideas
+	economic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Agnes #0" = -1
+	"Arnvid #1" = 10
+	"Bård #0" = -1
+	"Bérengère #0" = -1
+	"Frej #0" = 0
+	"Gudleik #1" = 10
+	"Gyda #0" = -1
+	"Haldor #3" = 10
+	"Halfdan #1" = 10
+	"Kolbein #1" = 10
+	"Lann #0" = -1
+	"Magnus #1" = 10
+	"Maria #0" = -1
+	"Odd #0" = 0
+	"Olav #2" = 10
+	"Orm #0" = 0
+	"Ossor #2" = 10
+	"Pål #1" = 10
+	"Ragnvald #1" = 10
+	"Rolf #0" = 0
+	"Skofte #0" = 0
+	"Sverre #1" = 10
+	"Sétach #0" = -1
+	"Torbjørn #0" = -1
+	"Torbrand #1" = 10
+	"Torolf #0" = -1
+	"Torstein #0" = 0
+	"Vigleik #1" = 10
+	"Åse #0" = -1
+}
+
+leader_names = {
+	Adeler Ahlefeldt Akeleye Arenstorff 
+	Bille Bielke Brahe Brockenhuus
+	Christiansen
+	Daa
+	Ebbesen Eberstein Ellbrecht 
+	Falkenskjold Fischer
+	Galt Gersdorff Gjedde Gyldenløve Gyldenstjerne Gøye
+	Harboe Hardenberg Holstein Huitfeldt Høegh
+	Jensen Juel
+	Krabbe Krag Krumpen Knudtzon Kvistgaard Kaas
+	Lillienskjold Lingby Lunge Lützow Løvenørn
+	Moltke Moth Munk
+	Norby
+	Pedersen Povlsen Pallesen Pil
+	Rantzau Reventlow Rosenkrantz Rosenørn
+	Schlentz Schack Scholten Sehested Skram
+	Thomsen "von Trampe" Trolle
+	Ulfeldt
+}
+
+ship_names = {
+	Achilles "Arche Noa" Arken Beskjermer "Byens Løffue" Caritas "Charlotte Amalie" 
+	Christiania Christiansand Christiansø "Christianus IV" "Christianus V" Churprindsen 
+	Concordia Cæsar Dannebroge David Delmenhorst Ditmarsken Draken "Dronning Louisa" 
+	Ebenetzer Elefanten Enighed "Engelske Fortuna" Enhiørningen Fides Flores 
+	"Flygende Hjorten" Fortuna "Fredericus III" "Fredericus IV" Fyen Gravenstein Griffe 
+	Gyldenløve Hannibal Havfru Havhest Havmand Hector Hercules "Hertug Olufs Pincke" 
+	Hiælperen Hjort Høyenhald Hummer "Hvide Ørn" Højenhald Island Jernvågen Jægermester 
+	Justitia "Kongens Jagt Krone" "Kronet Fisk" Lamprenen Leopard Lindorm Loss Lovisa 
+	"Løvendals Gallej" Makaløs Mars Merkurius Morian Najaden Nelleblad Neptunus 
+	"Norske Løve" Oldenborg Papegoye Patienta Pelican Phønix "Prinds Carl" 
+	"Prinds Christian" "Prinds Wilhelm" Raae Samson Solen 
+	"Sophia Amalia" "Sophia Hedvig" "St. Erik" "St. Georg" "St. Oluf" Stormar Stralsund 
+	Svaerdfisk Svan "Svenske Jomfru" Søridder Tomler "To Løver" "Tre Løver" Trefoldighed 
+	Victoria Vindhunden Wenden Ørnen
+}
