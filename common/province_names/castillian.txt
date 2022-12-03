@@ -60,6 +60,5 @@
 
 #Mordain (otl Morocco)
 335 = { "Melilla" "Melilla" }		#Melilla
-1751 = { "Ceuta" "Ceuta" }		#Ceuta
 5210 = { "Jahuén" "Jahuén" }		#Chefchaouen
 5218 = { "Alhucemas" "Alhucemas" }		#Al Hoceima

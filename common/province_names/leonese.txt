@@ -1,1 +1,80 @@
-#Dummy file for vanilla, see iberian. 
+#Blend of OTL Leonese and Asturian
+#Always using b, never v, in line with minority languages spelling things less ambiguously
+
+#Iberia
+206 = { "La Coruña" "La Coruña" }		#La Coruña
+207 = { "Obiedu" "Obiedu" }		#Oviedo
+208 = { "Llión" "Llión" }		#León
+209 = { "Bizcaya" "Bilbau" }		#Biscay
+211 = { "Güesca" "Güesca" }		#Huesca
+215 = { "Balladolí" "Balladolí" }		#Valladolid
+217 = { "Madrí" "Madrí" }		#Madrid
+218 = { "Badayouce" "Badayouce" }		#Badajoz
+219 = { "Toledu" "Toledu" }		#Toledo
+224 = { "Sebilla" "Sebilla" }		#Sevilla
+228 = { "Biseu" "Biseu" }		#Viseu
+230 = { "Llagos" "Llagos" }		#Lagos
+231 = { "Lo Puertu" "Lo Puertu" }		#Porto
+1748 = { "Xaén" "Xaén" }		#Jaén
+2754 = { "Ciudá Rial" "Ciudá Rial" }		#Ciudad Real
+2987 = { "Urgiellu" "Sé de Urgiellu" }		#Urgel
+2989 = { "La Rioja" "Llogroñu" }		#La Rioja
+3095 = { "Calatayú" "Calatayú" }		#Calatayud
+3108 = { "Setúbal" "Setúbal" }		#Setúbal
+4548 = { "Güelba" "Güelba" }		#Huelva
+4554 = { "Llugu" "Llugu" }		#Lugo
+4556 = { "Abeiru" "Abeiru" }		#Aveiro
+4557 = { "Llérida" "Llérida" }		#Lérida
+4787 = { "Ribateixu" "Santarén" }		#Ribatejo
+7889 = { "Andorra" "Andorra la Bieya" }		#Andorra
+7920 = { "Sangüesa" "Sangüesa" }		#Sangüesa
+8033 = { "Laredu" "Laredu" }		#Laredo
+8034 = { "Campou" "Reinosa" }		#Campoo
+8036 = { "Arébalu" "Arébalu" }		#Arévalo
+8038 = { "Eu-Nabia" "Nabia" }		#Eonavia
+8039 = { "Tineu" "Cangas de Tineu" }		#Tineo
+8040 = { "Mondoñedu" "Mondoñedu" }		#Mondonhedo
+8042 = { "Santiagu" "Santiagu de Compostiella" }		#Santiago
+8048 = { "Miranda" "Miranda de'l Ebru" }		#Miranda
+8050 = { "Ciudá Rodrigu" "Ciudá Rodrigu" }		#Ciudad Rodrigo
+8052 = { "Guadalaxara" "Guadalaxara" }		#Guadalajara
+8055 = { "Aranxuez" "Aranxuez" }		#Aranjuez
+8060 = { "Truxiellu" "Truxiellu" }		#Trujillo
+8065 = { "Billena" "Billena" }		#Villena
+8068 = { "Llorca" "Llorca" }		#Lorca
+8071 = { "Andúxar" "Andúxar" }		#Andújar
+8072 = { "Llucena" "Llucena" }		#Lucena
+8073 = { "Los Pedroches" "Pozublancu" }		#Los Pedroches
+8074 = { "Palma de'l Ríu" "Palma de'l Ríu" }		#Palma del Río
+8076 = { "Écija" "Écija" }		#Écija
+8087 = { "Güéscar" "Güéscar" }		#Huéscar
+8089 = { "Maestralgu" "Peñíscola" }		#Maestrazgo
+8093 = { "Miranda" "Miranda de'l Douro" }		#Miranda
+8095 = { "Monqüerbu" "Monqüerbu" }		#Moncorvo
+8096 = { "Cobiyana" "Cobiyana" }		#Covilhã
+8097 = { "Pruenza" "Pruenza" }		#Proença
+8098 = { "Llerena" "Llerena" }		#Leiria
+8105 = { "Santiagu de'l Cacén" "Santiagu de'l Cacén" }		#Santiago do Cacém
+8106 = { "Castru Berde" "Castru Berde" }		#Castro Verde
+8107 = { "Faru" "Faru" }		#Faro
+8108 = { "Xaca" "Xaca" }		#Jaca
+8109 = { "Borxa" "Borxa" }		#Borja
+8111 = { "Barbastru" "Barbastru" }		#Barbastro
+
+#Aquitaine
+176 = { "Bearno" "Palu" }		#Béarn
+197 = { "Roxillón" "Perpiñán" }		#Rousillon
+2753 = { "Narbona" "Narbona" }		#Narbonne
+7900 = { "Beceiros" "Beceiros" }		#Béziers
+7905 = { "Millau" "Millau" }		#Millau
+7907 = { "Montalbanu" "Montalbanu" }		#Montauban
+7919 = { "Cominjas" "Muredu" }		#Comminges
+7922 = { "Lleitora" "Lleitora" }		#Lectoure
+7923 = { "Baxa Nabarra" "San Xuan Pie de Puertu" }		#Lower Navarre
+7925 = { "Buxu" "Buxu" }		#Buch
+7928 = { "Lliborna" "Lliborna" }		#Libourne
+
+#Mordain (otl Morocco)
+335 = { "Melilla" "Melilla" }		#Melilla
+5210 = { "Xexauén" "Xexauén" }		#Chefchaouen
+5218 = { "Alfacemas" "Alfacemas" }		#Al Hoceima
