@@ -2,59 +2,59 @@
 #Always using b, never v, in line with minority languages spelling things less ambiguously
 
 #Iberia
-206 = { "La CoruÃ±a" "La CoruÃ±a" }		#La CoruÃ±a
+206 = { "La Coruña" "La Coruña" }		#La Coruña
 207 = { "Obiedu" "Obiedu" }		#Oviedo
-208 = { "LliÃ³n" "LliÃ³n" }		#LeÃ³n
+208 = { "Llión" "Llión" }		#León
 209 = { "Bizcaya" "Bilbau" }		#Biscay
-211 = { "GÃ¼esca" "GÃ¼esca" }		#Huesca
-215 = { "BalladolÃ­" "BalladolÃ­" }		#Valladolid
-217 = { "MadrÃ­" "MadrÃ­" }		#Madrid
+211 = { "Güesca" "Güesca" }		#Huesca
+215 = { "Balladolí" "Balladolí" }		#Valladolid
+217 = { "Madrí" "Madrí" }		#Madrid
 218 = { "Badayouce" "Badayouce" }		#Badajoz
 219 = { "Toledu" "Toledu" }		#Toledo
 224 = { "Sebilla" "Sebilla" }		#Sevilla
 228 = { "Biseu" "Biseu" }		#Viseu
 230 = { "Llagos" "Llagos" }		#Lagos
 231 = { "Lo Puertu" "Lo Puertu" }		#Porto
-1748 = { "XaÃ©n" "XaÃ©n" }		#JaÃ©n
-2754 = { "CiudÃ¡ Rial" "CiudÃ¡ Rial" }		#Ciudad Real
-2987 = { "Urgiellu" "SÃ© de Urgiellu" }		#Urgel
-2989 = { "La Rioja" "LlogroÃ±u" }		#La Rioja
-3095 = { "CalatayÃº" "CalatayÃº" }		#Calatayud
-3108 = { "SetÃºbal" "SetÃºbal" }		#SetÃºbal
-4548 = { "GÃ¼elba" "GÃ¼elba" }		#Huelva
+1748 = { "Xaén" "Xaén" }		#Jaén
+2754 = { "Ciudá Rial" "Ciudá Rial" }		#Ciudad Real
+2987 = { "Urgiellu" "Sé de Urgiellu" }		#Urgel
+2989 = { "La Rioja" "Llogroñu" }		#La Rioja
+3095 = { "Calatayú" "Calatayú" }		#Calatayud
+3108 = { "Setúbal" "Setúbal" }		#Setúbal
+4548 = { "Güelba" "Güelba" }		#Huelva
 4554 = { "Llugu" "Llugu" }		#Lugo
 4556 = { "Abeiru" "Abeiru" }		#Aveiro
-4557 = { "LlÃ©rida" "LlÃ©rida" }		#LÃ©rida
-4787 = { "Ribateixu" "SantarÃ©n" }		#Ribatejo
+4557 = { "Llérida" "Llérida" }		#Lérida
+4787 = { "Ribateixu" "Santarén" }		#Ribatejo
 7889 = { "Andorra" "Andorra la Bieya" }		#Andorra
-7920 = { "SangÃ¼esa" "SangÃ¼esa" }		#SangÃ¼esa
+7920 = { "Sangüesa" "Sangüesa" }		#Sangüesa
 8033 = { "Laredu" "Laredu" }		#Laredo
 8034 = { "Campou" "Reinosa" }		#Campoo
-8036 = { "ArÃ©balu" "ArÃ©balu" }		#ArÃ©valo
+8036 = { "Arébalu" "Arébalu" }		#Arévalo
 8038 = { "Eu-Nabia" "Nabia" }		#Eonavia
 8039 = { "Tineu" "Cangas de Tineu" }		#Tineo
-8040 = { "MondoÃ±edu" "MondoÃ±edu" }		#Mondonhedo
+8040 = { "Mondoñedu" "Mondoñedu" }		#Mondonhedo
 8042 = { "Santiagu" "Santiagu de Compostiella" }		#Santiago
 8048 = { "Miranda" "Miranda de'l Ebru" }		#Miranda
-8050 = { "CiudÃ¡ Rodrigu" "CiudÃ¡ Rodrigu" }		#Ciudad Rodrigo
+8050 = { "Ciudá Rodrigu" "Ciudá Rodrigu" }		#Ciudad Rodrigo
 8052 = { "Guadalaxara" "Guadalaxara" }		#Guadalajara
 8055 = { "Aranxuez" "Aranxuez" }		#Aranjuez
 8060 = { "Truxiellu" "Truxiellu" }		#Trujillo
 8065 = { "Billena" "Billena" }		#Villena
 8068 = { "Llorca" "Llorca" }		#Lorca
-8071 = { "AndÃºxar" "AndÃºxar" }		#AndÃºjar
+8071 = { "Andúxar" "Andúxar" }		#Andújar
 8072 = { "Llucena" "Llucena" }		#Lucena
 8073 = { "Los Pedroches" "Pozublancu" }		#Los Pedroches
-8074 = { "Palma de'l RÃ­u" "Palma de'l RÃ­u" }		#Palma del RÃ­o
-8076 = { "Ã‰cija" "Ã‰cija" }		#Ã‰cija
-8087 = { "GÃ¼Ã©scar" "GÃ¼Ã©scar" }		#HuÃ©scar
-8089 = { "Maestralgu" "PeÃ±Ã­scola" }		#Maestrazgo
+8074 = { "Palma de'l Ríu" "Palma de'l Ríu" }		#Palma del Río
+8076 = { "Écija" "Écija" }		#Écija
+8087 = { "Güéscar" "Güéscar" }		#Huéscar
+8089 = { "Maestralgu" "Peñíscola" }		#Maestrazgo
 8093 = { "Miranda" "Miranda de'l Douro" }		#Miranda
-8095 = { "MonqÃ¼erbu" "MonqÃ¼erbu" }		#Moncorvo
-8096 = { "Cobiyana" "Cobiyana" }		#CovilhÃ£
-8097 = { "Pruenza" "Pruenza" }		#ProenÃ§a
+8095 = { "Monqüerbu" "Monqüerbu" }		#Moncorvo
+8096 = { "Cobiyana" "Cobiyana" }		#Covilhã
+8097 = { "Pruenza" "Pruenza" }		#Proença
 8098 = { "Llerena" "Llerena" }		#Leiria
-8105 = { "Santiagu de'l CacÃ©n" "Santiagu de'l CacÃ©n" }		#Santiago do CacÃ©m
+8105 = { "Santiagu de'l Cacén" "Santiagu de'l Cacén" }		#Santiago do Cacém
 8106 = { "Castru Berde" "Castru Berde" }		#Castro Verde
 8107 = { "Faru" "Faru" }		#Faro
 8108 = { "Xaca" "Xaca" }		#Jaca
@@ -62,10 +62,10 @@
 8111 = { "Barbastru" "Barbastru" }		#Barbastro
 
 #Aquitaine
-176 = { "Bearno" "Palu" }		#BÃ©arn
-197 = { "RoxillÃ³n" "PerpiÃ±Ã¡n" }		#Rousillon
+176 = { "Bearno" "Palu" }		#Béarn
+197 = { "Roxillón" "Perpiñán" }		#Rousillon
 2753 = { "Narbona" "Narbona" }		#Narbonne
-7900 = { "Beceiros" "Beceiros" }		#BÃ©ziers
+7900 = { "Beceiros" "Beceiros" }		#Béziers
 7905 = { "Millau" "Millau" }		#Millau
 7907 = { "Montalbanu" "Montalbanu" }		#Montauban
 7919 = { "Cominjas" "Muredu" }		#Comminges
@@ -76,5 +76,5 @@
 
 #Mordain (otl Morocco)
 335 = { "Melilla" "Melilla" }		#Melilla
-5210 = { "XexauÃ©n" "XexauÃ©n" }		#Chefchaouen
+5210 = { "Xexauén" "Xexauén" }		#Chefchaouen
 5218 = { "Alfacemas" "Alfacemas" }		#Al Hoceima

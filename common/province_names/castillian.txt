@@ -2,7 +2,7 @@
 #Always using b, never v, in line with minority languages spelling things less ambiguously
 
 #Iberia
-206 = { "La CoruÃ±a" "La CoruÃ±a" }		#La CoruÃ±a
+206 = { "La Coruña" "La Coruña" }		#La Coruña
 211 = { "Huesca" "Huesca" }		#Huesca
 212 = { "Girona" "Girona" }		#Gerona
 218 = { "Badajoz" "Badajoz" }		#Badajoz
@@ -10,21 +10,21 @@
 231 = { "El Puerto" "El Puerto" }		#Porto
 2751 = { "Cuenca" "Cuenca" }		#Cuenca
 2987 = { "Urgillo" "Se de Urgillo" }		#Urgel
-2989 = { "La Rioja" "LogroÃ±o" }		#La Rioja
+2989 = { "La Rioja" "Logroño" }		#La Rioja
 4548 = { "Huelba" "Huelba" }		#Huelva
-4549 = { "JÃ¡tiba" "JÃ¡tiba" }		#JÃ¡tiva
-4550 = { "CastillÃ³n" "CastillÃ³n" }		#CastellÃ³n
+4549 = { "Játiba" "Játiba" }		#Játiva
+4550 = { "Castillón" "Castillón" }		#Castellón
 4556 = { "Abero" "Abero" }		#Aveiro
 4559 = { "Menorca" "Ciudadilla de Menorca" }		#Menorca
-4787 = { "Ribatajo" "SantarÃ©n" }		#Ribatejo
+4787 = { "Ribatajo" "Santarén" }		#Ribatejo
 7889 = { "Andorra" "Andorra la Bieja" }		#Andorra
-8034 = { "CampÃ³" "Renosa" }		#Campoo
-8040 = { "MondoÃ±edo" "MondoÃ±edo" }		#Mondonhedo
+8034 = { "Campó" "Renosa" }		#Campoo
+8040 = { "Mondoñedo" "Mondoñedo" }		#Mondonhedo
 8041 = { "Herrol" "Herrol" }		#Ferrol
 8042 = { "Santiago" "Santiago de Compostilla" }		#Santiago
 8043 = { "Ponherrada" "Ponherrada" }		#Ponferrada
-8045 = { "SahagÃºn" "SahagÃºn" }		#SahagÃºn
-8051 = { "CuÃ©llar" "CuÃ©llar" }		#CuÃ©llar
+8045 = { "Sahagún" "Sahagún" }		#Sahagún
+8051 = { "Cuéllar" "Cuéllar" }		#Cuéllar
 8054 = { "Talabera" "Talabera" }		#Talavera
 8060 = { "Trujillo" "Trujillo" }		#Trujillo
 8065 = { "Billena" "Billena" }		#Villena
@@ -35,30 +35,30 @@
 8083 = { "Loja" "Loja" }		#Loja
 8084 = { "Guadix" "Guadix" }		#Guadix
 8086 = { "Bera" "Bera" }		#Vera
-8087 = { "HuÃ©scar" "HuÃ©scar" }		#HuÃ©scar
-8089 = { "Maestrazgo" "PeÃ±Ã­scola" }		#Maestrazgo
+8087 = { "Huéscar" "Huéscar" }		#Huéscar
+8089 = { "Maestrazgo" "Peñíscola" }		#Maestrazgo
 8090 = { "Biana" "Biana" }		#Viana
-8091 = { "Balenza" "Balenza" }		#ValenÃ§a
+8091 = { "Balenza" "Balenza" }		#Valença
 8092 = { "Llabes" "Llabes" }		#Chaves
 8093 = { "Miranda" "Miranda del Duero" }		#Miranda
 8095 = { "Moncuerbo" "Moncuerbo" }		#Moncorvo
-8096 = { "Cobijana" "Cobijana" }		#CovilhÃ£
-8097 = { "Pruenza" "Pruenza" }		#ProenÃ§a
+8096 = { "Cobijana" "Cobijana" }		#Covilhã
+8097 = { "Pruenza" "Pruenza" }		#Proença
 8104 = { "Mora" "Mora" }		#Moura
 8107 = { "Haro" "Haro" }		#Faro
-8114 = { "EmpÃºries" "Higueras" }		#EmpÃºries
+8114 = { "Empúries" "Higueras" }		#Empúries
 
 #Aquitaine
-175 = { "ArmaÃ±aque" "Aux" }		#Armagnac
-197 = { "RojillÃ³n" "PerpiÃ±Ã¡n" }		#Rousillon
+175 = { "Armañaque" "Aux" }		#Armagnac
+197 = { "Rojillón" "Perpiñán" }		#Rousillon
 4694 = { "Huez" "Huez" }		#Foix
 4695 = { "Carcasona" "Carcasona" }		#Carcassonne
-7900 = { "Beceros" "Beceros" }		#BÃ©ziers
+7900 = { "Beceros" "Beceros" }		#Béziers
 7905 = { "Millao" "Millao" }		#Millau
 7922 = { "Lechora" "Lechora" }		#Lectoure
 7923 = { "Baja Nabarra" "San Juan Pie de Puerto" }		#Lower Navarre
 
 #Mordain (otl Morocco)
 335 = { "Melilla" "Melilla" }		#Melilla
-5210 = { "JahuÃ©n" "JahuÃ©n" }		#Chefchaouen
+5210 = { "Jahuén" "Jahuén" }		#Chefchaouen
 5218 = { "Alhucemas" "Alhucemas" }		#Al Hoceima
