@@ -18,5 +18,8 @@ fort_15th = yes #Varberg fästning
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = rhomanian_tech
+discovered_by = muslim_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech
 discovered_by = ottoman

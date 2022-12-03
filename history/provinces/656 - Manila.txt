@@ -13,6 +13,7 @@ controller = MNA
 add_core = MNA
 
 discovered_by = chinese
+discovered_by = japanese_group
 discovered_by = southeast_asian_group
 
 extra_cost = 8

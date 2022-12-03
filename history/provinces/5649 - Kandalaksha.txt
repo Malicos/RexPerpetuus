@@ -19,4 +19,5 @@ fort_15th = yes #Readding it to prevent Sami separatists from getting too far.
 add_local_autonomy = 55 #This stacks with culture and religious starting autonomy, it seems. Reducing from 90.
 
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = western

@@ -3,7 +3,7 @@ add_government_reform = iqta
 primary_culture = khorasani
 religion = sunni
 government_rank = 1
-technology_group = muslim
+technology_group = muslim_tech
 capital = 435	# Zaranj
 religious_school = shafii_school
 

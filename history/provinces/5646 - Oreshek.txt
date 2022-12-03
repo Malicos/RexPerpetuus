@@ -18,6 +18,7 @@ fort_15th = yes #Various border fortifications throughout the history of the pro
 
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

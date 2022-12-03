@@ -17,6 +17,9 @@ trade_goods = cloth			#Eventual origin of demin, though it seems this was a late
 base_manpower = 4 
 
 discovered_by = western
-discovered_by = muslim
+discovered_by = muslim_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = rhomanian_tech

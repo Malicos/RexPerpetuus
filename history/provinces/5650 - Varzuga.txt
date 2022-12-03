@@ -18,4 +18,5 @@ native_ferocity = 2
 add_local_autonomy = 55 #This stacks with culture and religious starting autonomy, it seems. Reducing from 90.
 
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = western

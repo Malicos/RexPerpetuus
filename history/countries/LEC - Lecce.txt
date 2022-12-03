@@ -1,9 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = western
-primary_culture = neapolitan
-add_accepted_culture = griko
+technology_group = rhomanian_tech
+primary_culture = griko
 religion = orthodox
 capital = 7005
 fixed_capital = 7005

@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = moesian
 religion = iconoclast
-technology_group = ottoman	# Rhomaion
+technology_group = rhomanian_tech
 capital = 7155
 
 1389.1.1 = {

@@ -18,6 +18,7 @@ add_core = NOV
 add_local_autonomy = 10
 
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = KAZ
 discovered_by = CRI

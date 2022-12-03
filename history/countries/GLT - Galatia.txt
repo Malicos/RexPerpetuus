@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = galatian
 religion = orthodox
-technology_group = ottoman	# Rhomaion
+technology_group = rhomanian_tech
 capital = 326
 historical_friend = PPG
 

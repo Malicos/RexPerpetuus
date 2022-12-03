@@ -20,5 +20,6 @@ add_local_autonomy = 55 #This stacks with culture and religious starting autonom
 
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech
 
 add_province_triggered_modifier = bt_birkarls

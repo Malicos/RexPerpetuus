@@ -18,3 +18,4 @@ add_local_autonomy = -55 #This stacks with culture and religious starting autono
 
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech

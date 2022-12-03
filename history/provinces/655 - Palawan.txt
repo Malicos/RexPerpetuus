@@ -15,6 +15,7 @@ add_core = BEI
 add_local_autonomy = 25
 
 discovered_by = chinese
+discovered_by = japanese_group
 discovered_by = southeast_asian_group
 
 

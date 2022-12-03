@@ -15,4 +15,5 @@ is_city = yes
 add_local_autonomy = 65
 
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = western

@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = shogunate
 primary_culture = japanese
-primary_culture = togoku
+add_accepted_culture = togoku
 religion = shinto
-technology_group = chinese
+technology_group = japanese_group
 capital = 1020	# Yamashiro

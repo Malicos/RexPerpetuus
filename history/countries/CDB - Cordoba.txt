@@ -4,7 +4,7 @@ government_rank = 2
 primary_culture = andalusi_culture
 add_accepted_culture = batalyawsi
 religion = sunni
-technology_group = muslim
+technology_group = maghrebi_tech
 capital = 225 # Cordoba
 
 1415.12.20 = {

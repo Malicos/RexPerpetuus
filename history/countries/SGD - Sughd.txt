@@ -1,7 +1,7 @@
 #######################################
 # Timurid Empire
 #######################################
-technology_group = muslim
+technology_group = ottoman
 primary_culture = uzbehk
 religion = sunni
 government = monarchy

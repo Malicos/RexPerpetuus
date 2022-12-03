@@ -15,7 +15,10 @@ base_manpower = 1 # BT; 3
 trade_goods = grain
 
 discovered_by = chinese
+discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
-discovered_by = muslim # 1.31
+discovered_by = muslim_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech # 1.31
 discovered_by = ottoman # 1.31

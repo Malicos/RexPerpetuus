@@ -22,3 +22,4 @@ fort_15th = yes
 
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech

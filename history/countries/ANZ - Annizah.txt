@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = tribal_federation
-technology_group = muslim
+technology_group = muslim_tech
 primary_culture = bedouin_arabic
 religion = sunni
 capital = 4274

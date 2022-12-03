@@ -16,5 +16,6 @@ base_manpower = 1
 is_city = yes
 
 discovered_by = chinese
+discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian

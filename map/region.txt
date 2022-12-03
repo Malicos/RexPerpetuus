@@ -1130,7 +1130,7 @@ south_africa_region = { # 20 areas
 	}
 }
 # North America / 15 regions / 171 areas
-northeast_america_region = { # 8 areas
+northeast_america_region = { # 12 areas
 	areas = {
 		great_woods_area
 		massachusetts_bay_area
@@ -1140,6 +1140,10 @@ northeast_america_region = { # 8 areas
 		iroquoisia_area
 		south_iroquoisia_area
 		susquehanna_area
+		appalachia_area
+		south_appalachia_area
+		chesapeake_area
+		great_valley_area
 	}
 }
 canada_region = { # 13 areas
@@ -1161,8 +1165,6 @@ canada_region = { # 13 areas
 }
 southeast_america_region =  { # 9 areas
 	areas = {
-		chesapeake_area
-		great_valley_area
 		piedmont_north_america_area
 		carolinas_area
 		south_carolina_area
@@ -1170,20 +1172,18 @@ southeast_america_region =  { # 9 areas
 		upper_american_georgia_area
 		florida_area
 		north_florida_area
+		alabama_area
+		west_florida_area
 	}
 	monsoon = {
 		00.06.01
 		00.11.30
 	}
 }
-mississippi_region = { # 11 areas
+mississippi_region = { # 9 areas
 	areas = {
-		appalachia_area
-		south_appalachia_area
-		west_florida_area
 		mississippi_area
 		choctaw_area
-		alabama_area
 		kentucky_area
 		mississippi_plain_area
 		lower_louisiana_area

@@ -17,6 +17,7 @@ capital = "Raasepori"
 is_city = yes
 
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = western
 
 extra_cost = 8

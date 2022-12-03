@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = mikrasiatic
 religion = orthodox
-technology_group = ottoman	# Rhomaion
+technology_group = rhomanian_tech
 historical_friend = PON
 capital = 6039
 

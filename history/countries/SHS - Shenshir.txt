@@ -3,5 +3,5 @@ add_government_reform = iqta
 government_rank = 2
 religion = sunni
 primary_culture = batalyawsi
-technology_group = muslim
+technology_group = maghrebi_tech
 capital = 218	# Badajoz

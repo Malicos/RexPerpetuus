@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = goths
 religion = orthodox
-technology_group = ottoman	# Rhomaion
+technology_group = rhomanian_tech
 historical_friend = TRE
 capital = 2410	# Theodoro
 

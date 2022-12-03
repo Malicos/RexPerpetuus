@@ -1,4 +1,4 @@
-technology_group = muslim
+technology_group = muslim_tech
 primary_culture = uzbehk
 add_accepted_culture = khorasani
 add_accepted_culture = persian
@@ -266,7 +266,7 @@ change_estate_land_share = {
 add_government_reform = autocracy_reform
 	primary_culture = afghani
 	capital = 451	# Kabul
-	technology_group = muslim #Timurid domains has by now become Persianized, Babur starts drilling musketmen and hires Ottoman officers
+	technology_group = muslim_tech #Timurid domains has by now become Persianized, Babur starts drilling musketmen and hires Ottoman officers
 }
 
 1508.3.6 = {

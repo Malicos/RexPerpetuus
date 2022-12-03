@@ -1,2 +1,3 @@
 1453.1.1 = { discovered_by = western }
-1500.1.1 = { discovered_by = eastern }
+1500.1.1 = { discovered_by = eastern
+discovered_by = rhomanian_tech }

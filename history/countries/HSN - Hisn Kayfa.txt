@@ -5,7 +5,7 @@ primary_culture = kurdish
 add_accepted_culture = syriac_culture
 add_accepted_culture = al_suryah_arabic
 religion = sunni
-technology_group = muslim
+technology_group = muslim_tech
 capital = 4295 #Hisn Kayfa
 religious_school = shafii_school
 

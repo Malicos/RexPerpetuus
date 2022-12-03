@@ -1,2 +1,3 @@
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = western

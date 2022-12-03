@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = ottoman	# Rhomaion
+technology_group = rhomanian_tech
 primary_culture = epirotan
 religion = orthodox
 capital = 146	# Athens

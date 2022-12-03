@@ -15,4 +15,5 @@ add_core = MGD
 add_core = LNO
 
 discovered_by = chinese
+discovered_by = japanese_group
 discovered_by = southeast_asian_group

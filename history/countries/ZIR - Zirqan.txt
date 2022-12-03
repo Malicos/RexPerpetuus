@@ -15,7 +15,7 @@ religious_school = shafii_school
 #add_accepted_culture
 
 #Tech and Military
-technology_group = muslim
+technology_group = muslim_tech
 
 #History
 

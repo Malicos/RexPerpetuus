@@ -16,9 +16,12 @@ base_manpower = 2 # BT; 1
 trade_goods = livestock # BT; tropical_wood
 
 discovered_by = chinese
+discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
-discovered_by = muslim
+discovered_by = muslim_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech
 discovered_by = ottoman
 
 1454.1.1 = {

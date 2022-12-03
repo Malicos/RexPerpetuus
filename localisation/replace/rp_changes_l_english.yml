@@ -130,8 +130,8 @@
  north_american:0 "Vesperian"
  mesoamerican:0 "Mexikhan"
  south_american:0 "Elysian"
- ottoman:0 "Rhomanian"
- ottoman_desc:0 "With the Rhomanian technology group, technology levels are [PH] more expensive (placeholder percentage)."
+ ottoman:0 "Turkic"
+ ottoman_desc:0 "With the Turkic technology group, technology levels are [PH] more expensive (placeholder percentage)."
  east_african:0 "Eastern Ethiopian"
  central_african:0 "Central Ethiopian"
  sub_saharan:0 "Western Ethiopian"
@@ -178,18 +178,70 @@
  scandinavia_region:0 "Nordurica"
  scandinavia_region_name:0 "Nordurica"
  scandinavia_region_adj:0 "Nordurican"
+ maghreb_region:0 "Barbary"
+ maghreb_region_name:0 "Barbary"
+ maghreb_region_adj:0 "Barbary"
+ southeast_america_region:0 "Alderney"
+ southeast_america_region_name:0 "Alderney"
+ southeast_america_region_adj:0 "Alderney"
+ northeast_america_region:0 "Appalachia"
+ northeast_america_region_name:0 "Appalachia"
+ northeast_america_region_adj:0 "Appalachian"
+ hudson_bay_region:0 "Helluland"
+ hudson_bay_region_name:0 "Helluland"
+ hudson_bay_region_adj:0 "Hellulandic"
+ canada_region:0 "Markland"
+ canada_region_name:0 "Markland"
+ canada_region_adj:0 "Marklandic"
+ mexico_region:0 "Aztlan"
+ mexico_region_name:0 "Aztlan"
+ mexico_region_adj:0 "Aztlan"
+ central_america_region:0 "Guaimura"
+ central_america_region_name:0 "Guaimura"
+ central_america_region_adj:0 "Guaimura"
+ colombia_region:0 "Almere"
+ colombia_region_name:0 "Almere"
+ colombia_region_adj:0 "Almeric"
+ peru_region:0 "Ethelland"
+ peru_region_name:0 "Ethelland"
+ peru_region_adj:0 "Ethellander"
+ upper_peru_region:0 "Upper Ethelland"
+ upper_peru_region_name:0 "Upper Ethelland"
+ upper_peru_region_adj:0 "Upper Ethellander"
+ la_plata_region:0 "Chubut"
+ la_plata_region_name:0 "Chubut"
+ la_plata_region_adj:0 "Chubut"
+ brazil_region:0 "Eastern Elysia"
+ brazil_region_name:0 "Eastern Elysia"
+ brazil_region_adj:0 "Eastern Elysian"
  
  # Superregions
+ 
  africa_superregion:1 "Northern Ethiopia"
  north_america_superregion:0 "Vesperia"
  north_america_superregion_name:0 "Vesperia"
  north_america_superregion_adj:0 "Vesperian"
  southern_africa_superregion:0 "Southern Ethiopia"
+ central_america_superregion:0 "Mexika"
+ south_america_superregion:0 "Elysia"
  
  # Sea Regions and Areas
+ hudson_bay_sea_region:0 "Bay of Helluland"
  south_atlantic_area:0 "Ethiopian Sea"
  west_african_sea_region:0 "West Ethiopian Sea"
  west_african_coast_sea_area:0 "West Ethiopian Coast"
+ 
+ # Trade Companies
+ trade_company_girin:0 "Jurchenian Charter"
+ trade_company_yumen:0 "Zubican Charter"
+ trade_company_timbuktu:0 "West Ethiopian Charter"
+ trade_company_east_africa:0 "East Ethiopian Charter"
+ trade_company_south_africa:0 "South Ethiopian Charter"
+ 
+ 
+ 
+ 
+ 
  
  # Base Localization Miscallenea
  LOADING_TIP_0:0 "Despite the decline of the Seljuk dynasty in 1125, the house endured as minor lords, and a second Seljuk state has been formed in Mashriq in year 1434 after deposing the Samarrids."

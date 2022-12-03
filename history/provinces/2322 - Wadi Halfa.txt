@@ -13,9 +13,12 @@ hre = no
 base_tax = 4
 base_production = 4
 
-discovered_by = muslim
+discovered_by = muslim_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = east_african
 
 extra_cost = 5

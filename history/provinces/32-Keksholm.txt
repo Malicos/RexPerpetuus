@@ -18,4 +18,5 @@ fort_15th = yes #Kexholm fortress
 add_local_autonomy = 25
 
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = western

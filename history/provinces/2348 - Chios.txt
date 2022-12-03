@@ -18,9 +18,12 @@ is_city = yes
 1444.1.1 = { discovered_by = GOL }
 1444.1.1 = { discovered_by = AST }
 1444.1.1 = { discovered_by = QAS }
-discovered_by = muslim
+discovered_by = muslim_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = western
 
 #Possible province modifier for the Tears of Chios

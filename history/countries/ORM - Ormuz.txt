@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = iqta
 government_rank = 2
-technology_group = muslim
+technology_group = muslim_tech
 religion = sunni
 primary_culture = gulf_arabic
 capital = 2999	# Ormuz Island

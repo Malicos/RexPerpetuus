@@ -22,9 +22,12 @@ add_local_autonomy = 25
 1444.1.1 = { discovered_by = AST }
 1444.1.1 = { discovered_by = QAS }
 discovered_by = western
-discovered_by = muslim
+discovered_by = muslim_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = rhomanian_tech
 
 extra_cost = 10
 

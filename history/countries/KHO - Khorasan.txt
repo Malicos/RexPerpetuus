@@ -3,7 +3,7 @@ add_government_reform = iqta
 primary_culture = khorasani
 add_accepted_culture = persian
 religion = shiite
-technology_group = muslim
+technology_group = muslim_tech
 #capital = 446	# Herat
 capital = 2214 #Astarabad
 

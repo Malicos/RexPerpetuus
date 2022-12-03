@@ -13,10 +13,13 @@ base_manpower = 2
 is_city = yes
 add_core = TUN
 
-discovered_by = muslim
+discovered_by = muslim_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech
 
 
 1491.1.1 = {

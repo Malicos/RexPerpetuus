@@ -4,7 +4,7 @@ government_rank = 2
 religion = sunni
 primary_culture = balansi_culture
 add_accepted_culture = ibri_culture
-technology_group = muslim
+technology_group = maghrebi_tech
 capital = 220	# Valencia
 
 1443.7.7 = {

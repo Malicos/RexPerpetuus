@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2	# Greek Despotate
-technology_group = ottoman	# Rhomaion
+technology_group = rhomanian_tech	# Rhomaion
 primary_culture = hellas_culture
 religion = orthodox
 capital = 145	# Nafplio

@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = moesian
 religion = orthodox
-technology_group = ottoman	# Rhomaion
+technology_group = rhomanian_tech
 capital = 1764	# Krusevac
 
 1389.1.1 = {

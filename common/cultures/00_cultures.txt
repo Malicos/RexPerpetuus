@@ -1777,10 +1777,6 @@ latin = {
 		#primary = XXX
 	}
 	#BtPLegacy Culture
-	corsican_culture = { #Personally, I'm not 100 percent sold on this idea, but a couple researchers want this, and it would help keep cores and such, so here we go.
-		primary = COR
-	}
-	#BtPLegacy Culture
 	friulian_culture = {
 		primary = AQU
 	}
@@ -14362,6 +14358,10 @@ septrional_creoles = {
 }
 
 african_group = {
+	#BtPLegacy Culture
+	corsican_culture = {
+		primary = COR
+	}
 	sardinian = {
 		primary = SAR
 	}

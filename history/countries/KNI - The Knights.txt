@@ -5,7 +5,7 @@ primary_culture = occitain
 add_accepted_culture = greek
 religion = catholic
 technology_group = western
-capital = 320 # Rhodes
+capital = 340 # Rhodes
 historical_friend = VEN
 add_army_professionalism = 0.1
 

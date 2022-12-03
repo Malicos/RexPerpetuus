@@ -22,6 +22,9 @@ fort_15th = yes #Durham Castle, but built by Norwegians kind of earlier than OTL
 is_city = yes
 
 discovered_by = western
-discovered_by = muslim
+discovered_by = muslim_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = rhomanian_tech

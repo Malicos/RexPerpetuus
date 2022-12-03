@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = mahri_culture
 religion = nestorian
-technology_group = muslim
+technology_group = muslim_tech
 capital = 1099
 historical_rival = MHR
 

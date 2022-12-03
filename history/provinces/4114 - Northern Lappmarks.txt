@@ -22,5 +22,6 @@ trade_goods = fur
 
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech
 
 add_province_triggered_modifier = bt_birkarls

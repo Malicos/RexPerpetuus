@@ -18,3 +18,4 @@ add_local_autonomy = 65
 
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech

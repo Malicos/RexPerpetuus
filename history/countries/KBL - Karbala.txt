@@ -3,7 +3,7 @@ add_government_reform = iqta
 government_rank = 2
 primary_culture = turko_iranian
 religion = sunni
-technology_group = muslim
+technology_group = iranian_tech
 capital = 408	# Basra
 
 1433.12.2 = {

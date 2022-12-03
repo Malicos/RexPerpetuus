@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = iqta
 government_rank = 1
-primary_culture = azerbaijani
+primary_culture = daylamite
 religion = shiite
-technology_group = muslim
+technology_group = iranian_tech
 capital = 416 # Tabriz
 
 #Tabriz Khanate

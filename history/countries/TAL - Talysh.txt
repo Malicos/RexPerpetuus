@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = iqta
 primary_culture = daylamite
 religion = shiite
-technology_group = muslim
+technology_group = iranian_tech
 capital = 4339 # Rasht
 religious_school = jafari_school

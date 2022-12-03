@@ -18,3 +18,4 @@ fort_15th = yes #Örebro slott
 
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech

@@ -1,6 +1,7 @@
 # ex 8550
 
 discovered_by = chinese
+discovered_by = japanese_group
 discovered_by = southeast_asian_group # 1.31
 
 1400.1.1 = { # Brian fixed; BT

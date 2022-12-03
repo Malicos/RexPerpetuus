@@ -10,7 +10,10 @@ europe_superregion = {
 
 	restrict_charter		# harder to get TC here.
 	
-	france_region
+	neustria_region
+	austrasia_region
+	aquitaine_region
+	burgundy_region
 	low_countries_region
 	iberia_region
 	italy_region

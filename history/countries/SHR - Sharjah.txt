@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = iqta
-technology_group = muslim
+technology_group = muslim_tech
 religion = shiite
 primary_culture = gulf_arabic
 capital = 398	# Sharjah

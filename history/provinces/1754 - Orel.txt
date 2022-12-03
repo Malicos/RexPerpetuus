@@ -16,6 +16,7 @@ capital = "Murom"
 is_city = yes
 
 discovered_by = eastern
+discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = GOL
 discovered_by = nomad_group
