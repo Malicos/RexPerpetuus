@@ -28,7 +28,7 @@
 230 = { "Lagos" "Lagos" }		#Lagos
 231 = { "Lo Puerto" "Lo Puerto" }		#Porto
 232 = { "Braganza" "Braganza" }		#Bragança
-333 = { "Mayorca" "Mayorca" }		#Majorca
+333 = { "Mayorca" "Palma de Mayorca" }		#Majorca
 1745 = { "Santander" "Santander" }		#Santander
 1746 = { "Burgos" "Burgos" }		#Burgos
 1747 = { "Cáceres" "Cáceres" }		#Cáceres
@@ -66,12 +66,12 @@
 4787 = { "Ribateijo" "Santarén" }		#Ribatejo
 4788 = { "Plasencia" "Plasencia" }		#Plasencia
 4789 = { "Segobia" "Segobia" }		#Segovia
-7889 = { "Andorra" "Bielya" }		#Andorra
+7889 = { "Andorra" "Andorra la Bielya" }		#Andorra
 7903 = { "Tudela" "Tudela" }		#Tudela
 7920 = { "Sangüesa" "Sangüesa" }		#Sangüesa
 7929 = { "Laguardia" "Laguardia" }		#Laguardia
 8016 = { "Guipúzcoa" "San Sebastián" }		#Guipúzcoa
-8026 = { "Álaba" "Álaba" }		#Álava
+8026 = { "Álaba" "Bitoria" }		#Álava
 8033 = { "Laredo" "Laredo" }		#Laredo
 8034 = { "Campó" "Reinosa" }		#Campoo
 8035 = { "Gijón" "Gijón" }		#Gijón
@@ -112,6 +112,7 @@
 8071 = { "Andújar" "Andújar" }		#Andújar
 8072 = { "Lucena" "Lucena" }		#Lucena
 8073 = { "Los Pedroches" "Pozoblanco" }		#Los Pedroches
+8074 = { "Palma del Río" "Palma del Río" }		#Palma del Río
 8075 = { "Carmona" "Carmona" }		#Carmona
 8076 = { "Écija" "Écija" }		#Écija
 8077 = { "Aracena" "Aracena" }		#Aracena
@@ -176,7 +177,7 @@
 7905 = { "Milyao" "Milyao" }		#Millau
 7907 = { "Montalbano" "Montalbano" }		#Montauban
 7919 = { "Cominjas" "Muredo" }		#Comminges
-7921 = { "Bigorra" "Bigorra" }		#Bigorre
+7921 = { "Bigorra" "Tarbas" }		#Bigorre
 7922 = { "Leitora" "Leitora" }		#Lectoure
 7923 = { "Baxa Nabarra" "San Joan Pie de Puerto" }		#Lower Navarre
 7924 = { "Daques" "Daques" }		#Dax
