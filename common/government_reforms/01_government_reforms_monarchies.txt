@@ -59,16 +59,24 @@ plutocratic_reform = {
 	potential = {
 		OR = {
 			technology_group = indian
-			technology_group = muslim
+			technology_group = muslim_tech
+			technology_group = maghrebi_tech
+			technology_group = iranian_tech
 			technology_group = chinese
+			technology_group = japanese_group
+			technology_group = southeast_asian_group
 			technology_group = east_african
 		}
 	}
 	nation_designer_trigger = {
 		OR = {
 			technology_group = indian
-			technology_group = muslim
+			technology_group = muslim_tech
+			technology_group = maghrebi_tech
+			technology_group = iranian_tech
 			technology_group = chinese
+			technology_group = japanese_group
+			technology_group = southeast_asian_group
 			technology_group = east_african
 		}
 	}
@@ -227,7 +235,7 @@ shogunate = {
 	nation_designer_cost = 50
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = japanese_group
 		capital_scope = { region = japan_region }
 		owns = 1020
 	}
@@ -265,7 +273,7 @@ daimyo = {
 	lock_level_when_selected = yes
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = japanese_group
 		capital_scope = { region = japan_region }
 	}
 	modifiers = {
@@ -302,7 +310,7 @@ indep_daimyo = {
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = japanese_group
 		capital_scope = { region = japan_region }
 	}
 	legacy_equivalent = indep_daimyo_legacy
@@ -1138,7 +1146,7 @@ mandala_reform = {
 			religion_group = muslim
 			religion = animism
 		}
-		technology_group = chinese
+		technology_group = southeast_asian_group
 		OR = {
 			has_dlc = "Leviathan"
 			has_dlc = "Dharma"
@@ -1154,7 +1162,7 @@ mandala_reform = {
 			religion_group = dharmic
 			religion_group = muslim
 		}
-		technology_group = chinese
+		technology_group = southeast_asian_group
 		OR = {
 			has_dlc = "Leviathan"
 			has_dlc = "Dharma"
@@ -1339,11 +1347,11 @@ uparaja_reform = {
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		religion = buddhism
-		technology_group = chinese
+		technology_group = southeast_asian_group
 	}
 	potential = {
 		religion = buddhism
-		technology_group = chinese
+		technology_group = southeast_asian_group
 	}
 	valid_for_nation_designer = no
 	modifiers = {

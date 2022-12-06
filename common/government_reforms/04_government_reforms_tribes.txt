@@ -29,7 +29,10 @@ steppe_horde = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		technology_group = nomad_group
+		OR = {
+			technology_group = nomad_group
+			technology_group = ottoman #Turkic
+		}	
 	}
 
 	lock_level_when_selected = yes
@@ -631,7 +634,10 @@ tribe_becomes_monarchy_reform = {
 		lose_reforms = 4
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				OR = {
 					religion_group = muslim
 					secondary_religion = sunni
@@ -644,7 +650,10 @@ tribe_becomes_monarchy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion_group = christian
 			}
 			change_technology_group = eastern
@@ -652,7 +661,10 @@ tribe_becomes_monarchy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion = totemism
 			}
 			change_technology_group = north_american
@@ -660,7 +672,10 @@ tribe_becomes_monarchy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion = inti
 			}
 			change_technology_group = andean
@@ -668,7 +683,10 @@ tribe_becomes_monarchy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				OR = {
 					religion = mesoamerican_religion
 					religion = nahuatl
@@ -679,7 +697,10 @@ tribe_becomes_monarchy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion = dreamtime
 			}
 			change_technology_group = aboriginal_tech
@@ -687,7 +708,10 @@ tribe_becomes_monarchy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				NOT = { religion_group = muslim }
 				NOT = { religion_group = christian }
 				NOT = { secondary_religion = sunni }
@@ -721,7 +745,10 @@ tribe_becomes_republic_reform = {
 		lose_reforms = 4
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				OR = {
 					religion_group = muslim
 					secondary_religion = sunni
@@ -734,7 +761,10 @@ tribe_becomes_republic_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion_group = christian
 			}
 			change_technology_group = eastern
@@ -742,7 +772,10 @@ tribe_becomes_republic_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion = totemism
 			}
 			change_technology_group = north_american
@@ -750,7 +783,10 @@ tribe_becomes_republic_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion = inti
 			}
 			change_technology_group = andean
@@ -758,7 +794,10 @@ tribe_becomes_republic_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				OR = {
 					religion = mesoamerican_religion
 					religion = nahuatl
@@ -769,7 +808,10 @@ tribe_becomes_republic_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion = dreamtime
 			}
 			change_technology_group = aboriginal_tech
@@ -777,7 +819,10 @@ tribe_becomes_republic_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				NOT = { religion_group = muslim }
 				NOT = { religion_group = christian }
 				NOT = { secondary_religion = sunni }
@@ -837,7 +882,10 @@ tribe_becomes_theocracy_reform = {
 		lose_reforms = 4
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				OR = {
 					religion_group = muslim
 					secondary_religion = sunni
@@ -850,7 +898,10 @@ tribe_becomes_theocracy_reform = {
 		}
 		else_if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion_group = christian
 			}
 			change_technology_group = eastern
@@ -858,7 +909,10 @@ tribe_becomes_theocracy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion = totemism
 			}
 			change_technology_group = north_american
@@ -866,7 +920,10 @@ tribe_becomes_theocracy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion = inti
 			}
 			change_technology_group = andean
@@ -874,7 +931,10 @@ tribe_becomes_theocracy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				OR = {
 					religion = mesoamerican_religion
 					religion = nahuatl
@@ -885,7 +945,10 @@ tribe_becomes_theocracy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				religion = dreamtime
 			}
 			change_technology_group = aboriginal_tech
@@ -893,7 +956,10 @@ tribe_becomes_theocracy_reform = {
 		}
 		if = {
 			limit = {
-				technology_group = nomad_group
+				OR = {
+					technology_group = nomad_group
+					technology_group = ottoman #Turkic
+				}	
 				NOT = { religion_group = muslim }
 				NOT = { religion_group = christian }
 				NOT = { secondary_religion = sunni }

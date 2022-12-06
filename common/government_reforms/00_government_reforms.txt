@@ -1217,7 +1217,10 @@ steppe_horde_legacy = {
 
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		technology_group = nomad_group
+		OR = {
+			technology_group = nomad_group
+			technology_group = ottoman #Turkic
+		}	
 	}
 
 	monarchy = yes
@@ -1251,7 +1254,10 @@ great_mongol_state_legacy = {
 
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		technology_group = nomad_group
+		OR = {
+			technology_group = nomad_group
+			technology_group = ottoman #Turkic
+		}	
 	}
 
 	monarchy = yes
@@ -1961,7 +1967,7 @@ daimyo_legacy = {
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = japanese_group
 		capital_scope = { region = japan_region }
 	}
 
@@ -2030,7 +2036,7 @@ shogunate_legacy = {
 	nation_designer_cost = 50
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = japanese_group
 		capital_scope = { region = japan_region }
 		owns = 1020
 	}
@@ -2064,7 +2070,7 @@ indep_daimyo_legacy = {
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = chinese
+		technology_group = japanese_group
 		capital_scope = { region = japan_region }
 	}
 
