@@ -2003,7 +2003,7 @@ eastern = {
 		
 		heretic = { CONFUCIANIST }
 		
-		#harmonized_modifier = harmonized_taoism
+		harmonized_modifier = harmonized_taoism
 	}
 	
 	crusade_name = CRUSADE

@@ -3,11 +3,13 @@ add_government_reform = autocracy_reform
 mercantilism = 0.1
 primary_culture = korean
 religion = confucianism
+add_harmonized_religion = mahayana
 technology_group = chinese
 capital = 1845	# Pyongyang
 historical_rival = SKR
 historical_friend = SHU
 historical_friend = WUU
+
 
 
 1393.1.1 = {

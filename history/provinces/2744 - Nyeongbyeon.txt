@@ -3,8 +3,8 @@
 owner = GKR
 controller = GKR
 add_core = GKR
-culture = korean
-religion = confucianism
+culture = pyongan
+religion = mahayana
 capital = "Nyeongbyeon"
 trade_goods = naval_supplies
 hre = no

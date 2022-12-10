@@ -3,8 +3,8 @@
 owner = GKR
 controller = GKR
 add_core = GKR
-culture = korean
-religion = confucianism
+culture = gyeongsang
+religion = mahayana
 capital = "Jinju"
 trade_goods = bt_trade_good_books
 hre = no

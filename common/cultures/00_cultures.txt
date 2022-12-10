@@ -8186,33 +8186,39 @@ east_asian = { # Chinese Group
 korean_g = {
 	graphical_culture = asiangfx
 
-	korean = {
+	korean = { #Gyeongi
 		primary = KOR
-		dynasty_names = {
-			Yi Wang Kim Pak Shin Song Chae Gang Jeong Jang Yun Han Hong Yu Ki Choi Ga Gye Go Na Noh Woo Do Du Ban Ma Min Mun
-			Seo Son Sim An Yang O Jeon Cho Jin Ha Hong Heo Kwak Lim Won Kwon Hwang Bae Seok Bang Dae Gyeong Nam Sung Baek
-		}
-		male_names = {
-			Hongwi Yu Gwang Hyeol Yung Yeok Ho Hwan Yeon Hon Jong Sun Yun Geum San Gong Byeon Myeongbok Ha-eung Un Gu Seon Hyeon
-			Cho Yeong Bu Haeng Hwon Kang Ji Rip Jae-u Seong-ryong Yakyong Jongmu Se-young Hong-rip Deokgi Munsu Hee-woon Busik
-			Jiwon Gwangjo Sukju Hongdo Yong-bok Jong-un Chung-hee Yeong-sil Yun-ui Myung-shin Chae-ho Chwa-jin Honghi Byong-hi
-			Hwang Jae-sang Yu-sin Wonjong Jong-seo Jangchun Museon Sung-gyeom Seungman Sun-sin Chang-ho Dae-seung Jae-suk
-			Dae-yong Eok-gi Si-min Gam-chan Chung-heon U Tong-jeon In-seon Gwanghyeon Gyun Yul Wi Im Geon Jun Mok Il Tak
-
-		}
-		female_names = {
-			Ae-jung Areum Bit-na Bo-young Bora Chae-won Chae-young Cho-hee Chun-hwa Chun-ja Da-hee Da-hyun Do-hee Eun-ah
-			Eun-bi Eun-byul Eun-chae Eun-ha Eun-hee Eun-hye Eun-ji Eun-jin Eun-ju Eun-jung Eun-kyung Eun-mi Eun-sook Eun-suh
-			Eun-young Ga-in Ga-young Gyuri Ha-eun Hana Hye-bin Hye-in Hye-ja Hye-jin Hye-jung Hye-kyung Hye-mi Hye-rim
-			Hye-su Hye-won Hyo-joo Hyo-rin Hyun-a Hyun-kyung Hyun-mi Hyun-sook In-hye In-sook In-sun Ja-kyung Jae-eun
-			Jang-geum Jang-mi Jeong-ja Ji-ae Ji-eun Ji-hye Ji-yeon Ji-young Jina Jin-yi Jung-ah Jung-sook Jung-soon Kyung-ah Kyung-hee
-			Kyung-hwa Kyung-ja Kyung-ok Kyung-sook Mi-hee Mi-ja Mi-jung Mi-kyung Mi-ran Mi-sook Mi-yeon Mi-young Min-hee
-			Min-ji Min-jung Min-seo Mina Myung-hwa Myung-ok Myung-sook Myung-soon Na-young Nana Nari Noo-ri Sang-mi
-			Se-bin Seo-hyeon Seo-yeon Seo-yun Seol-hee Seon-ok Seong-ja Seung-ah Shin-hye Si-yeon So-hee So-hyun So-won So-yi
-			So-young Soo-ah Soo-hee Sook-ja Soon-hee Soon-ja Sora Su-mi Sun-hee Sun-hwa Sun-mi Sun-ok Sung-mi Sung-sook
-			Ye-eun Ye-ji Ye-jin Ye-rin Ye-seo Ye-won Yeo-jin Yeon-hee Yi-kyung Yoo-kyung Yoo-na Yoon-hee Yoon-sook Young-ae
-			Young-hee Young-ja Young-mi Young-sook Yu-ri Yumi
-		}
+	}
+	jeju = {	#From Cultural Influence
+		primary = KOR
+	}
+	pyongan = {	#From Atlas Novum
+	}
+	gyeongsang = {	#From Atlas Novum
+	}
+	jeolla = {	#From Atlas Novum
+	}
+	dynasty_names = {
+		Yi Wang Kim Shin Song Pak Chae Gang Jeong Jang Yun Han Hong Yu Ki
+	}
+	male_names = {
+		In Se Ye Seong Yonsan Jung Myeon Seon Gwanghae Hyo Hyeon Suk Gyeong Yeong Jeong Dan Mun Tae Imhae Uian
+		Bokseong Geumwon Yeongyang Yeongchang Yuenrueng Sado Munhyo Bongseong Deokheung Sinseong Uichang Jeongwon
+		Hyesun Hyejeong Hyohye Uihye Hyosun Gyeonghyeon Insun Jeongsin Jeonghye Jeongsuk Jeong-an Jeonghyu
+		Jeongmyeong Hwan Do Ik Mok Si I Guem Sun Rip Il Dong Gwai Sang Ji U Gyu Dae Gu
+	}
+	female_names = {
+		Ae-jung Areum Bit-na Bo-young Bora Chae-won Chae-young Chun-hwa Chun-ja Da-hee Do-hee Eun-ah Eun-bi
+		Eun-byul Eun-chae Eun-ha Eun-hee Eun-hye Eun-ji Eun-jin Eun-ju Eun-jung Eun-kyung Eun-mi Eun-sook Eun-suh
+		Eun-young Ga-in Ga-young Gyuri Ha-eun Hana Hye-bin Hye-in Hye-ja Hye-jin Hye-jung Hye-kyung Hye-mi Hye-rim
+		Hye-su Hye-won Hyo-joo Hyo-rin Hyun-a Hyun-kyung Hyun-mi Hyun-sook In-hye In-sook Ja-kyung Jae-eun Jang-mi
+		Jeong-ja Ji-ae Ji-eun Ji-hye Ji-yeon Ji-young Jina Jung-ah Jung-sook Jung-soon Kyung-ah Kyung-hee Kyung-hwa
+		Kyung-ja Kyung-ok Kyung-sook Mi-hee Mi-ja Mi-jung Mi-kyung Mi-ran Mi-sook Mi-yeon Mi-young Min-hee Min-ji
+		Min-jung Min-seo Mina Myung-hwa Myung-ok Myung-sook Myung-soon Na-young Nana Nari Nuri Sang-mi Se-bin
+		Seo-hyeon Seo-yeon Seo-yun Seol-hee Seon-ok Seong-ja Seung-ah Shin-hye Si-yeon So-hyun So-won So-yi
+		So-young Soo-ah Soo-hee Sook-ja Soon-hee Soon-ja Sora Su-mi Sun-hee Sun-hwa Sun-mi Sun-ok Sung-mi Sung-sook
+		Ye-eun Ye-ji Ye-jin Ye-rin Ye-seo Ye-won Yeo-jin Yeon-hee Yi-kyung Yoo-kyung Yoon-hee Yoon-sook Young-ae
+		Young-hee Young-ja Young-mi Young-sook Yu-ri Yumi
 	}
 }
 
@@ -8286,6 +8292,32 @@ japanese_g = {
 		}
 		female_names = {
 			Toku Sen Tama Aya Ina Kumiko Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka
+			Ayako Ayame Ayane Ayano Chika Chikako Chinatsu Chiyo Chiyoko Cho Chou Chouko Emi Etsuko Hana Hanae Hanako Haru
+			Haruka Haruko Haruna Hikari Hikaru Hina Hinata Hiroko Hitomi Honoka Hoshi Hoshiko Hotaru Izumi Junko Kaede
+			Kanon Kaori Kaoru Kasumi Kazue Kazuko Keiko Kiku Kiyoko Kohaku Koharu Kokoro Kotone Kumiko Kyo Kyou Mai Makoto
+			Mami Manami Mao Mariko Masami Masuyo Mayu Megumi Mei Michi Michiko Midori Mika Miki Miku Minako Minato Mio
+			Misaki Mitsuko Miu Miyako Miyu Mizuki Moe Momoka Momoko Moriko Nana Nanami Naoko Naomi Natsuki Natsuko Natsumi
+			Noa Noriko Ran Rei Ren Riko Rin Rina Rio Sachiko Saki Sakura Sakurako Satomi Sayuri Setsuko Shinju Shinobu
+			Shiori Shizuka Shun Sora Sumiko Suzu Suzume Takako Takara Tamiko Tomiko Tomoko Tomomi Tsubaki Tsubame Tsubasa
+			Tsukiko Ume Umeko Wakana Yasu Yoko Yoshi Yoshiko Youko Yua Yui Yuina Yuki Yukiko Yuko Yumi Yumiko Yuri Yuu
+			Yuuka Yuuki Yuuko Yuuna Yuzuki
+		}
+	}
+}
+
+ryukuan_g = {
+	ryukuan = {
+		primary = RYU
+		dynasty_names = {
+		}
+		male_names = {
+			Bunei Satto Shisho Hashi Chu Shitatsu Kimpuku Taikyu Toku En Sen'i Shin Gen Sei Ei Nei Ho Ken Shitsu Tei Eki
+			Kei Boku Tetsu On Ko Ton Iku Shu Yo Kaku Wa Ki Koki Kotoku Kojin Kosai Tuka Taru Jira Sanru Gura Chiru Ushi
+			Guji Sho Ba Mo O Agarie Arakachi Fija Ikegusuku Kanagusuku Nagusuku Shimabuku Tamagusuku Tera Toyomigusuku
+			Ufugusuku Yamagusuku Wibaru
+		}
+		female_names = { #Borrowed from Japanese
+			Honko Seishin Ranshitsu Hekiren Nanso Toku Sen Tama Aya Ina Kumiko Ai Aiko Aimi Aina Airi Akane Akemi Aki Akiko Akira Ami Aoi Asuka Atsuko Aya Ayaka
 			Ayako Ayame Ayane Ayano Chika Chikako Chinatsu Chiyo Chiyoko Cho Chou Chouko Emi Etsuko Hana Hanae Hanako Haru
 			Haruka Haruko Haruna Hikari Hikaru Hina Hinata Hiroko Hitomi Honoka Hoshi Hoshiko Hotaru Izumi Junko Kaede
 			Kanon Kaori Kaoru Kasumi Kazue Kazuko Keiko Kiku Kiyoko Kohaku Koharu Kokoro Kotone Kumiko Kyo Kyou Mai Makoto

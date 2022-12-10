@@ -101,7 +101,7 @@
  ###Afro-Asiatic###
  #################
  
- ####Semetic####
+ ####Semitic####
  ###Arabic###
  al_suryah_arabic:0 "Shaami"
  
@@ -121,10 +121,20 @@
  #################
  ###Finno-Ugric###
  #################
+ 
  ###Finnic###
  finno_ugric:0 "Finnic"
  ###Sami###
  sapmi:0 "Davvisamegiella"
+ 
+ #################
+ ###East Asian###
+ #################
+ 
+ ####Koreanic####
+ ###Korean###
+ korean:0 "Gyeonggi"
+ 
  
  ###########
  ###Other###

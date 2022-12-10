@@ -166,6 +166,7 @@ color = { 80 200 210 } #Penutian Group
 color = { 240 200 60 } #Chinese Group
 color = { 65 30 125 } #Korean Group
 color = { 190 0 40 } #Japanese Group
+color = { 150 60 80 } #Ryukuan Group
 color = { 180 30 15 } #Tibetan Group
 color = { 40 5 85 } #Malay Group
 color = { 165 25 50 } #Thai Group

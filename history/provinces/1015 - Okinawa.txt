@@ -3,8 +3,8 @@
 owner = RYU
 controller = RYU
 add_core = RYU
-culture = kyushuan #Was really Ryukuan
-religion = polynesian_religion
+culture = ryukuan 
+religion = animism #Their actual religion is far more complex, but this will do for now
 capital = "Shuri"
 trade_goods = chinaware
 hre = no

@@ -3,8 +3,8 @@
 owner = GKR
 controller = GKR
 add_core = GKR
-culture = korean
-religion = confucianism
+culture = jeolla
+religion = mahayana
 capital = "Naju"
 trade_goods = paper #And Silk
 hre = no

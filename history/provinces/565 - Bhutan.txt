@@ -3,7 +3,7 @@
 owner = PHA
 controller = PHA
 culture = tibetan
-religion = vajrayana
+religion = nangchos
 capital = "Thimbu"
 trade_goods = wool
 hre = no

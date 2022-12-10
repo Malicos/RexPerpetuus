@@ -2,7 +2,7 @@ government = tribal
 add_government_reform = tribal_kingdom
 government_rank = 1
 primary_culture = tibetan
-religion = vajrayana
+religion = nangchos
 technology_group = chinese
 capital = 677 # Lhasa
 

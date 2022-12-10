@@ -8998,6 +8998,16 @@ harmonized_shinto = {
 	religion = yes
 }
 
+harmonized_taoism = {	#RP
+	governing_capacity_modifier = 0.05
+	religion = yes
+}
+
+harmonized_nangchos = {	#RP
+	build_time = -0.1
+	religion = yes
+}
+
 # Religion Groups
 harmonized_pagan = {
 	global_unrest = -1
