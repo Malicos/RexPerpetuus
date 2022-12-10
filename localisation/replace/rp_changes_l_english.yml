@@ -52,7 +52,9 @@
  ###################
  ###Indo-European###
  ###################
- ###Germanic###
+ 
+ ####Germanic####
+ ###Continental Germanic###
  saxon:0 "Thuringian" #A little confusing I know - Hadiros
  lower_saxon:0 "Saxon"
  swabian:0 "Allemanic" 
@@ -60,41 +62,57 @@
  ###British###
  anglo_saxon:1 "Sexish" 
  
- ###French###
+ ####Romance####
+ ###Oïlitanic###
+ french:0 "Oïlitanic"
  burgundian:0 "Low Burgundian"
  ###Occitanic###
  occitain:0 "Langdocian"  
  ###Dacian###
  romanian:0 "Vlach"
+ ###Spanish###
+ iberian:0 "Spanish"
  
+ ####Paleohaemic#### #Otl Paleobalkan, of which it is unknown if Albanian even actually decends from old Illyrian or not
  ###Illyrian###
  albanian:0 "Arberian"
-
- ###Goidelic###
- gaelic:1 "Goidelic" 
- highland_scottish:0 "Gaelic"
-
  ###Hellenic###
  greek:0 "Aegean" #Unified Greece and West Anatolia 
  griko:0 "Kalabrian"
  
+ ####Celtic####
+ ###Goidelic###
+ gaelic:1 "Goidelic" 
+ highland_scottish:0 "Gaelic"
+
+ ####Balto-Slavic####
  ###Baltic###
  lithuanian:0 "Aukstatijan"
- 
  ###West Slavic###
  schlesian:0 "Silesian"
  ###East Slavic###
  ryazanian:0 "Severian"
  
+ ####Armenic####
  ###Armenian###
  armenian:0 "Vaspurakani"
  
+ #################
+ ###Afro-Asiatic###
+ #################
+ 
+ ####Semetic####
  ###Arabic###
  al_suryah_arabic:0 "Shaami"
+ 
+ ####Old Egyptian####
+ ###Coptic###
+ coptic_culture:0 "Bohairic" 
  
  #################
  ###Turko-Xubic###
  #################
+ 
  ###Turkic###
  turkish_g:0 "Turkic"
  ###Xubic###
@@ -111,8 +129,7 @@
  ###########
  ###Other###
  ###########
- ###Coptic
- coptic_culture:0 "Bohairic" 
+
  
  # Religions
  protestant:0 "Evangelical"
@@ -160,6 +177,9 @@
  east_africa_region:0 "East Ethiopia"
  horn_of_africa_region:0 "Horn of Ethiopia"
  south_africa_region:0 "South Ethiopia"
+ iberia_region:0 "Spain"
+ iberia_region_name:0 "Spain"
+ iberia_region_adj:0 "Spanish"
  balkan_region:0 "Rhomania"
  balkan_region_name:0 "Rhomania"
  balkan_region_adj:0 "Rhomanian"
