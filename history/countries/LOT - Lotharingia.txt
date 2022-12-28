@@ -4,7 +4,7 @@ government_rank = 2
 technology_group = western
 primary_culture = lorraine_culture
 religion = catholic
-capital = 189	# Lorraine
+capital = 1878	# Aachen
 elector = yes
 add_accepted_culture = luxembourgish_culture
 
