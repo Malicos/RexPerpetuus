@@ -198,44 +198,6 @@ colonial_appalachia = {
 	}
 }
 
-# Arrigada
-colonial_arrigada = {
-	color = { 163 194 194 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
-	provinces = {
-		780 781 782 783 784 785 787 792 2841 2862 2868 2869 2870 2871 2873 2874 2875 2876
-	}
-
-	# Specific
-
-	# Generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_ARRIGADA_Arrigada"
-	}
-}
-
 # Avalon
 colonial_avalon = {
 	color = { 0 77 128 }
@@ -469,6 +431,44 @@ colonial_ethelland = {
 	}
 	names = {
 		name = "COLONIAL_ETHELLAND_Ethelland"
+	}
+}
+
+# Gigantia
+colonial_gigantia = {
+	color = { 163 194 194 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		780 781 782 783 784 785 787 792 2841 2862 2868 2869 2870 2871 2873 2874 2875 2876
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_GIGANTIA_Gigantia"
 	}
 }
 
