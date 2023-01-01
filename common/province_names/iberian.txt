@@ -1,7 +1,7 @@
 #Represents Iberian Koine orthography in RPHotLV
 
 #Iberia
-206 = { "La Corunya" "La Corunya" }		#La Coruña
+206 = { "La Coruña" "La Coruña" }		#La Coruña
 207 = { "Obiedo" "Obiedo" }		#Oviedo
 208 = { "León" "León" }		#León
 209 = { "Bizcaya" "Bilbao" }		#Biscay
@@ -13,13 +13,13 @@
 215 = { "Balladolid" "Balladolid" }		#Valladolid
 216 = { "Salamanca" "Salamanca" }		#Salamanca
 217 = { "Madrid" "Madrid" }		#Madrid
-218 = { "Badalyouce" "Badalyouce" }		#Badajoz
+218 = { "Badallouce" "Badallouce" }		#Badajoz
 219 = { "Toledo" "Toledo" }		#Toledo
 220 = { "Valencia" "Valencia" }		#Valencia
 221 = { "Murcia" "Murcia" }		#Murcia
 222 = { "Almería" "Almería" }		#Almería
 223 = { "Granada" "Granada" }		#Granada
-224 = { "Sebilya" "Sebilya" }		#Sevilla
+224 = { "Sebilla" "Sebilla" }		#Sevilla
 225 = { "Córdoba" "Córdoba" }		#Córdoba
 226 = { "Gibraltar" "Gibraltar" }		#Gibraltar
 227 = { "Lisbuena" "Lisbuena" }		#Lisbon
@@ -41,7 +41,7 @@
 2755 = { "Soria" "Soria" }		#Soria
 2987 = { "Urgiello" "Sé de Urgiello" }		#Urgel
 2988 = { "Tarragona" "Tarragona" }		#Tarragona
-2989 = { "La Rioja" "Logronyo" }		#La Rioja
+2989 = { "La Rioja" "Logroño" }		#La Rioja
 2990 = { "Teruel" "Teruel" }		#Teruel
 3095 = { "Calatayud" "Calatayud" }		#Calatayud
 3099 = { "Mérida" "Mérida" }		#Mérida
@@ -66,7 +66,7 @@
 4787 = { "Ribateijo" "Santarén" }		#Ribatejo
 4788 = { "Plasencia" "Plasencia" }		#Plasencia
 4789 = { "Segobia" "Segobia" }		#Segovia
-7889 = { "Andorra" "Andorra la Bielya" }		#Andorra
+7889 = { "Andorra" "Andorra la Biella" }		#Andorra
 7903 = { "Tudela" "Tudela" }		#Tudela
 7920 = { "Sangüesa" "Sangüesa" }		#Sangüesa
 7929 = { "Laguardia" "Laguardia" }		#Laguardia
@@ -79,7 +79,7 @@
 8037 = { "Abilés" "Abilés" }		#Avilés
 8038 = { "Eonabia" "Nabia" }		#Eonavia
 8039 = { "Tineo" "Cangas de Tineo" }		#Tineo
-8040 = { "Mondonyedo" "Mondonyedo" }		#Mondonhedo
+8040 = { "Mondoñedo" "Mondoñedo" }		#Mondonhedo
 8041 = { "Ferrol" "Ferrol" }		#Ferrol
 8042 = { "Santiago" "Santiago de Compostiella" }		#Santiago
 8043 = { "Ponferrada" "Ponferrada" }		#Ponferrada
@@ -103,7 +103,7 @@
 8062 = { "Llerena" "Llerena" }		#Llerena
 8063 = { "Olibenza" "Olibenza" }		#Olivença
 8064 = { "Alcaraz" "Alcaraz" }		#Alcaraz
-8065 = { "Bilyena" "Bilyena" }		#Villena
+8065 = { "Billena" "Billena" }		#Villena
 8066 = { "Carabaca" "Carabaca" }		#Caravaca
 8067 = { "Cartagena" "Cartagena" }		#Cartagena
 8068 = { "Lorca" "Lorca" }		#Lorca
@@ -134,7 +134,7 @@
 8093 = { "Miranda" "Miranda del Douro" }		#Miranda
 8094 = { "Billa Real" "Billa Real" }		#Vila Real
 8095 = { "Monqüerbo" "Monqüerbo" }		#Moncorvo
-8096 = { "Cobilyana" "Cobilyana" }		#Covilhã
+8096 = { "Cobillana" "Cobillana" }		#Covilhã
 8097 = { "Proenza" "Proenza" }		#Proença
 8098 = { "Lerena" "Lerena" }		#Leiria
 8099 = { "Guarda" "Guarda" }		#Guarda
@@ -163,7 +163,7 @@
 175 = { "Armañaque" "Auxe" }		#Armagnac
 176 = { "Bearno" "Palo" }		#Béarn
 196 = { "Tolosa" "Tolosa" }		#Toulouse
-197 = { "Roxilyón" "Perpinyán" }		#Rousillon
+197 = { "Roxillón" "Perpiñán" }		#Rousillon
 198 = { "Rodés" "Rodés" }		#Rodez
 2753 = { "Narbona" "Narbona" }		#Narbonne
 3081 = { "Agenés" "Agén" }		#Agenais
@@ -174,7 +174,7 @@
 7900 = { "Beceiros" "Beceiros" }		#Béziers
 7901 = { "Castros" "Castros" }		#Castres
 7904 = { "Albí" "Albí" }		#Albi
-7905 = { "Milyao" "Milyao" }		#Millau
+7905 = { "Millao" "Millao" }		#Millau
 7907 = { "Montalbano" "Montalbano" }		#Montauban
 7919 = { "Cominjas" "Muredo" }		#Comminges
 7921 = { "Bigorra" "Tarbas" }		#Bigorre
@@ -189,7 +189,7 @@
 
 #Mordain (otl Morocco)
 334 = { "Tánger" "Tánger" }		#Tangiers
-335 = { "Melilya" "Melilya" }		#Melilla
+335 = { "Melilla" "Melilla" }		#Melilla
 1751 = { "Ceuta" "Ceuta" }		#Ceuta
 4561 = { "Tetuán" "Tetuán" }		#Tetwan
 5210 = { "Xexauén" "Xexauén" }		#Chefchaouen

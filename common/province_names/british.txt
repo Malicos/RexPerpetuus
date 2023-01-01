@@ -111,7 +111,7 @@
 7967 = { "Ew" "Ew" }
 7970 = { "Wexen" "Isorts" }
 7971 = { "Þe Deep" "Þe Deep" }
-7972 = { "Harfloot" "Harfloot" }
+7972 = { "Harfleet" "Harfleet" }
 7980 = { "Perc" "Mortany" }
 7981 = { "Drews" "Drews" }
 7982 = { "Lisews" "Lisews" }
@@ -128,7 +128,7 @@
 7993 = { "Anceniss" "Anceniss" }
 7994 = { "Witrey" "Witrey" }
 7995 = { "Sant Maclow" "Sant Maclow" }
-7996 = { "Potercot" "Plormeal" }
+7996 = { "Poþerkote" "Plormeal" }
 7997 = { "Rockan" "Pontwey" }
 7998 = { "Pocker" "Carhas" }
 7999 = { "Tregger" "Monterlays" }

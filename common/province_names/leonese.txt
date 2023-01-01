@@ -47,6 +47,7 @@
 8073 = { "Los Pedroches" "Pozublancu" }		#Los Pedroches
 8074 = { "Palma de'l Ríu" "Palma de'l Ríu" }		#Palma del Río
 8076 = { "Écija" "Écija" }		#Écija
+8083 = { "Llouxa" "Llouxa" }		#Huéscar
 8087 = { "Güéscar" "Güéscar" }		#Huéscar
 8089 = { "Maestralgu" "Peñíscola" }		#Maestrazgo
 8093 = { "Miranda" "Miranda de'l Douro" }		#Miranda
