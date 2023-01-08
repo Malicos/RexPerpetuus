@@ -3,8 +3,8 @@
 owner = BIZ
 controller = BIZ
 add_core = BIZ
-culture = tunisian
-religion = sunni
+culture = tunisian #PH
+religion = catholic
 capital = "Bizerte"
 trade_goods = sugar
 hre = no
