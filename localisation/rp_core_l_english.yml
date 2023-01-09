@@ -591,6 +591,8 @@
  # North Africa
  AFR:0 "Africa"
  AFR_ADJ:0 "African"
+ AGO:0 "Augustine Order"
+ AGO_ADJ:0 "Augustine"
  ANM:0 "Ainam"
  ANM_ADJ:0 "Ainami"
  AIT:0 "Auarita"
