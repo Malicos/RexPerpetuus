@@ -4,8 +4,6 @@ graphical_culture = muslimgfx
 
 color = { 155 5 50 }
 
-revolutionary_colors = { 8  5  9 }
-
 historical_idea_groups = {
 	trade_ideas
 	defensive_ideas
@@ -18,81 +16,93 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	mamluk_archer
-	mamluk_cavalry_charge
-	mamluk_duel
-	mamluk_musket_charge
-	muslim_mass_infantry
-	muslim_dragoon
-	ali_bey_reformed_infantry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	italian_condotta
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
 }
 
 monarch_names = {
-	"Muhammad #3" = 100
-	"'Alî #0" = 40
-	"Ahmad #2" = 20
-	"Yahyâ #2" = 20
-	"Zkariyâ' #1" = 20
-	"'Abd al-'Aziz #0" = 20
-	"'Abd al-Mu'min #0" = 20
-	"Hamûda #0" = 20
-	"Husayn #0" = 20
-	"'Usman #0" = 20
-	"Salih #0" = 15
-	"Sulaiman #0" = 15
-	"Yunus #0" = 15
-	"Isma'îl #0" = 10
-	"Yûsuf #0" = 10
-	"Abû Bakr #0" = 0
-	"Ala ad-Din #0" = 0
-	"Butrus #0" = 0
-	"Fakhri #0" = 0
-	"Fayiz #0" = 0
-	"Hadj #0" = 0
-	"Hafiz #0" = 0
-	"Harun #0" = 0
-	"Hasan #0" = 0
-	"Hashim #0" = 0
-	"Ibrahim #0" = 0
-	"Ja'far #0" = 0
-	"Khalil #0" = 0
-	"Mahir #0" = 0
-	"Mas'ud #0" = 0
-	"Murad #0" = 10
-	"Mustafa #0" = 0
-	"Qadir #0" = 0
-	"Rasim #0" = 0
-	"Salah #0" = 0
-	"Shadi #0" = 0
-	"Tahir #0" = 0
-	"Torgud #0" = 0
-	
-	"Hikmat #0" = -1
-	"Inas #0" = -1
-	"Hafsia #0" = -1
-	"Fatima #0" = -1
-	"Jannat #0" = -1
-	"Jalila #0" = -1
-	"Aisha #0" = -1
-	"Khadija #0" = -1
+	# RP RULER NAMES
+	"Robertu #1" = 10
+	"Sergiu #1" = 10
+	"Adelardu #1" = 10
+	"Albuinu #1" = 10
+	"Ablarion #1" = 10
+	"Zuseppe #1" = 10
+	"Mighele #1" = 10
+	"Basiliu #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Marianu #0" = 20
+	"Guglielmu #0" = 20
+	"Pedru #0" = 15
+	"Ugu #0" = 15
+	"Barisone #0" = 10
+	"Andria #0" = 10
+	"Giuanne #0" = 10
+	"Gonariu #0" = 5
+	"Austinu #0" = 0
+	"Andria #0" = 0
+	"Beneitu #0" = 0
+	"Carolu #0" = 0
+	"Costantzu #0" = 0
+	"Cristolu #0" = 0
+	"Damianu #0" = 0
+	"Felictu #0" = 0
+	"Gasparru #0" = 0
+	"Giustu #0" = 0
+	"Ilariu #0" = 0
+	"Laurentu #0" = 0
+	"Luciu #0" = 0
+	"Patriziu #0" = 0
+	"Sebustianu #0" = 0
+	"Simione #0" = 0
+	"Vittore #0" = 0
+
+	# RANDOM NAMES - FEMALE
+	"Beatrici #0" = -5	
+	"Giuanna #0" = -1
+	"Rosalia #0" = -1
 }
 
 leader_names = {
-	Taher
-	Akimi
-	Adhoum
-	Hakimi
-	Naybet
-	Bassir
-	Saber
-	Badra
-	Sassi
-	Dali
+	Alfieri "d'Appiani d'Aragona" "Arborio Mella" Asinari d'Attalaya
+	Balbo Benso "de Bette" "Boncompagni Ludovisi" Borromeo Bosco Botta Broglia "di Busca"
+	Cafasso "di Cardé" "del Carreto" Casati "di Cavour" Chiodo "Cisa Asinari" Cottolengo
+	Delitalia "Doria di Cirié" "Facchinetti de Nuce" Ferrero-Fiesco 
+	"Gaetani dell'Aquila" Galletti Gioberti "Homo dei Moura" Lascaris Ludovisi "Luserna Campiglione" "di Luserna"
+	"del Marco" "de Maretta" Micca Ossorio "d'Ottaiano" "di Paesana" Pallavicini Pignatelli
+	"di Savoia" Solaro Taparelli Tassoni "della Torre" Trivulzio "de Tutavila" Vico
 }
 
-ship_names = {
-	Alim Fattah Razzaq Wahhab Qahhar Ghaffar
-	Musawwir Bari Khaliq Mutakabbir Jabbar
-	Aziz Muhaymin Mu'min Salam Quddus Malik
-	Rahim Rahman
+ship_names = { 
+	"Alfonso il Benigno" Alghero Asinara Assemini
+	Campidano Capoterra Caprera "Carbonia-Iglesias" Cagliari Cedrino Coghinas
+	"Dolomiti di Oliena"
+	"Eleanor Arborea"
+	Flumendosa
+	"Giacomo II" "Giovanni il Galantuomo" "Giudice Ugone"
+	"lago di Baratz"
+	"Martino l'Umano" "Medio Campidano" Monserrato "Monte Albo" "Monte Rasu" "Monti di Limbara" "Monti di Alà" 
+	Nuoro 
+	Ogliastra "Olbia-Tempio" Oristano Orosei
+	"Porto Torres" "Punta La Marmora"
+	Quartucciu
+	Sant'Antioco "Santa Gilla" Sant'Elena "San Michele" "San Pietro" Sassari S.Domenico S.Maria "S.Saturnino" Selargiu Sestu Sinnai Sorso
+	Tavolara Tirso
+}
+
+army_names = {
+	"Armata de $PROVINCE$"
 }
