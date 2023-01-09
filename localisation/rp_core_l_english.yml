@@ -589,6 +589,8 @@
  SSO_ADJ:0 "Sosso"
  
  # North Africa
+ AFR:0 "Africa"
+ AFR_ADJ:0 "African"
  ANM:0 "Ainam"
  ANM_ADJ:0 "Ainami"
  AIT:0 "Auarita"

@@ -203,6 +203,7 @@ TMT = "countries/Tmutarakan.txt"
 ZIC = "countries/Zichia.txt"
 
 # North Africa
+AFR = "countries/Africa.txt"
 ANM = "countries/Ainam.txt"
 AIT = "countries/Auarita.txt"
 BIZ = "countries/Bizerte.txt"
