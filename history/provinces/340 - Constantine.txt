@@ -1,8 +1,8 @@
 #340 - Constantine
 
-owner = KNI
-controller = KNI 
-add_core = KNI
+owner = AGO
+controller = AGO 
+add_core = AGO
 culture = tunisian
 religion = sunni
 capital = "Constantine"

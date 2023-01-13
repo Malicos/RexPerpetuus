@@ -1,8 +1,8 @@
 #New Beyond Typus Province
 
-owner = KNI
-controller = KNI 
-add_core = KNI
+owner = AGO
+controller = AGO 
+add_core = AGO
 add_core = KBA
 culture = kabylian
 religion = sunni
