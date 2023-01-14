@@ -176,7 +176,7 @@ scandinavia_region = { # 18 areas
 		trondelag_area
 	}
 }
-south_german_region = { # 19 areas
+south_german_region = { # 18 areas
 	areas = {
 		upper_bavaria_area
 		lower_bavaria_area
@@ -189,7 +189,6 @@ south_german_region = { # 19 areas
 		carinthia_area
 		switzerland_area
 		upper_rhineland_area
-		romandie_area
 		upper_austria_area
 		carniola_area
 		swiss_alps_area
@@ -199,7 +198,7 @@ south_german_region = { # 19 areas
 		upper_franconia_area
 	}
 }
-north_german_region = { # 16 areas
+north_german_region = { # 13 areas
 	areas = {
 		northern_saxony_area
 		thuringia_area
@@ -210,12 +209,10 @@ north_german_region = { # 16 areas
 		holstein_area
 		lower_saxony_area
 		mecklenburg_area
-		nassau_area
 		middle_saxony_area
 		braunschweig_area
 		bremen_verden_area
 		frisia_area
-		oversticht_area
 	}
 }
 baltic_region = { # 11 areas

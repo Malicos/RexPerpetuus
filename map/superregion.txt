@@ -14,7 +14,6 @@ europe_superregion = {
 	austrasia_region
 	aquitaine_region
 	burgundy_region
-	low_countries_region
 	iberia_region
 	italy_region
 	ireland_region # Brian; changed from _area
