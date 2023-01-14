@@ -48,9 +48,11 @@
  outremer:0 "Outremer"
  ###Latin/Italian###
  levantine_culture:0 "Levantine"
+ latine:0 "Latine"
  ###African Romance###
  african_group:0 "African"
  afri:0 "Afri"
+ atins:0 "Atins"
  ###Dacian###
  moldavian_culture:0 "Moldavian"
  patzinac:0 "Paccinac"   # Daco-Turkic Pecheneg
@@ -85,7 +87,11 @@
  phrygian:0 "Phrygian"            # Hellenic Warlords
  pamphylian:0 "Pamphylian"        # Hellenic Warlords
  galatian:0 "Galatian"            # Hellenic Warlords
+ morean:0 "Morean"                # Hellenic Warlords
  rhomaioi:0 "Rhomaîoi"            # Unified Byzantium
+ kalabrian:0 "Kalabrian"
+ siciliote:0 "Siciliote"
+ antiochene:0 "Antiochene"
   
  #####Armenic#### 
  ###Armenian###

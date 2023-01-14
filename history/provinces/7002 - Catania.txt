@@ -3,7 +3,7 @@
 owner = TCA
 controller = TCA
 add_core = TCA
-culture = griko
+culture = siciliote
 religion = orthodox
 capital = "Catania"
 base_tax = 3

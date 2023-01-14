@@ -5,7 +5,7 @@
 owner = CBR
 controller = CBR
 add_core = CBR
-culture = griko 
+culture = kalabrian 
 religion = orthodox 
 hre = no 
 base_tax = 3

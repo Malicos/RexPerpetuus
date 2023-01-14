@@ -2,7 +2,7 @@
 owner = MHD
 controller = MHD
 add_core = MHD
-culture = tunisian #PH
+culture = atins
 religion = catholic
 capital = "Mahdia"
 base_tax = 2

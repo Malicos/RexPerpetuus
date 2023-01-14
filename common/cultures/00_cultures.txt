@@ -1800,6 +1800,10 @@ latin = {
 	levantine_culture = {
 		primary = KOJ
 	}
+	#RP Culture (Italian Africa)
+	latine = {
+		primary = XXX
+	}
 }
  # BtPLegacy Culture, deprecated
  # dalmatian = {
@@ -3733,6 +3737,16 @@ byzantine = {
 		graphical_culture = easterngfx
 	}
 	#RP Culture
+	siciliote = {
+		graphical_culture = easterngfx
+		primary = XXX
+	}
+	#RP Culture
+	kalabrian = {
+		graphical_culture = easterngfx
+		primary = CBR
+	}
+	#RP Culture
 	macedonian = {
 		graphical_culture = easterngfx
 		primary = MDN
@@ -3746,6 +3760,11 @@ byzantine = {
 	epirotan = {
 		graphical_culture = easterngfx
 		primary = EPI
+	}	
+	#RP Culture
+	morean = {
+		graphical_culture = easterngfx
+		primary = MOE
 	}		
 	#RP Culture
 	mikrasiatic = {
@@ -3805,7 +3824,7 @@ byzantine = {
 		}		
 	}	
 	#RP Culture
-	hellas_culture = {
+	hellas_culture = {	#Athenian
 		graphical_culture = easterngfx
 		primary = GRE
 	}
@@ -3814,6 +3833,11 @@ byzantine = {
 		graphical_culture = easterngfx
 		primary = BYZ
 	}	
+	#RP Culture
+	antiochene = {
+		graphical_culture = easterngfx
+		primary = XXX
+	}
 	male_names = {
 		Adrianos Adrian Akakios Alexandros Alexander Alexios Alexis Anastasios Anastasius Anatolios
 		Andreas Andrew Andronikos Andronicus Anthemios Anthimos Antiochos Antonios Antonius Apollonios
@@ -14405,5 +14429,8 @@ african_group = {
 		}
 		female_names = {
 		}
+	}
+	atins = {
+		primary = AFR
 	}
 }

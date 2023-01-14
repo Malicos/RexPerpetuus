@@ -3,7 +3,7 @@
 owner = CBR
 controller = CBR
 add_core = CBR
-culture = griko
+culture = kalabrian
 religion = orthodox
 capital = "Catanzaro"
 base_tax = 2

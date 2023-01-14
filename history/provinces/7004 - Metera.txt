@@ -3,7 +3,7 @@
 owner = MTA
 controller = MTA
 add_core = MTA
-culture = griko
+culture = kalabrian
 religion = orthodox
 capital = "Matera"
 base_tax = 2

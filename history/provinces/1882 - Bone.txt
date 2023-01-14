@@ -3,7 +3,7 @@
 owner = AGO
 controller = AGO 
 add_core = AGO
-culture = tunisian
+culture = atins
 religion = catholic
 capital = "Annaba"
 trade_goods = naval_supplies

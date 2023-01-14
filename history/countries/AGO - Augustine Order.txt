@@ -4,4 +4,4 @@ government_rank = 2
 primary_culture = atins
 religion = catholic
 technology_group = western
-capital = 341	# Tunis
+capital = 340	# Constantine

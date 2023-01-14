@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = rhomanian_tech
-primary_culture = hellas_culture
+primary_culture = morean
 add_accepted_culture = arvanite
 religion = orthodox
 capital = 146	# Athens

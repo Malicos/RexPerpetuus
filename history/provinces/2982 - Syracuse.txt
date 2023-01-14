@@ -5,7 +5,7 @@
 owner = TCA
 controller = TCA
 add_core = TCA
-culture = griko 
+culture = siciliote 
 religion = orthodox 
 hre = no 
 base_tax = 3

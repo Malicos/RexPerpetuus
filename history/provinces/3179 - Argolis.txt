@@ -3,7 +3,7 @@
 owner = CRH
 controller = CRH
 add_core = CRH
-culture = hellas_culture
+culture = morean
 religion = orthodox
 capital = "Náfplion"
 trade_goods = bt_trade_good_fruit

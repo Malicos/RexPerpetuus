@@ -3,7 +3,7 @@
 owner = TBA
 controller = TBA
 add_core = TBA
-culture = tunisian #PH
+culture = atins
 religion = catholic
 capital = "Tabarka"
 trade_goods = fish
