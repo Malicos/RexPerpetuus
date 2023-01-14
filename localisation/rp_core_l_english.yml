@@ -78,7 +78,7 @@
  ###Hellenic###
  macedonian:0 "Macedonian"        # Hellenic Warlords
  thracian:0 "Thracian"            # Hellenic Warlords
- epirotan:0 "Epirotan"            # Hellenic Warlords
+ epirotan:0 "Epirot"            # Hellenic Warlords
  mikrasiatic:0 "Mikrasiatic"      # Hellenic Warlords
  moesian:0 "Moesian"              # Hellenised Bulgarian
  dodecanesian:0 "Dodecanesian"    # Hellenic Warlords
@@ -89,8 +89,8 @@
  galatian:0 "Galatian"            # Hellenic Warlords
  morean:0 "Morean"                # Hellenic Warlords
  rhomaioi:0 "Rhomaîoi"            # Unified Byzantium
- kalabrian:0 "Kalabrian"
- siciliote:0 "Siciliote"
+ kalabrian:0 "Kalabriot"
+ siciliote:0 "Siciliot"
  antiochene:0 "Antiochene"
   
  #####Armenic#### 
