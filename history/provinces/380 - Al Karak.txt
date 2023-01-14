@@ -4,7 +4,7 @@
 owner = UTJ
 controller = UTJ
 add_core = UTJ
-culture = levantine_culture
+culture = outremer
 religion = catholic
 capital = "Kerak"
 trade_goods = bt_trade_good_fruit #(JP) Apricots, Pears and Pomegranates notably

@@ -1796,10 +1796,6 @@ latin = {
 			Tartini	Cuetschisch Vlacich Garbitius Istrana Lupetino Juri Dalmata
 		}
 	}
-	#RP Culture (Italian Outremer)
-	levantine_culture = {
-		primary = KOJ
-	}
 	#RP Culture (Italian Africa)
 	latine = {
 		primary = XXX
@@ -2242,7 +2238,7 @@ french = {
 	}
 	#RP Culture
 	outremer = {
-		primary = TYE
+		primary = KOJ
 	}
 	#Note Perry and Cat Dad also contributed a number of Louisiana French names, though this culture does not exist yet. If it is ever added, here is the list
 	#Surnames
