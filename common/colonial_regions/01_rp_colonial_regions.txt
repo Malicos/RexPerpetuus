@@ -84,44 +84,6 @@ colonial_alaska = {
 	}
 }
 
-# Alderney
-colonial_alderney = {
-	color = { 100 90 170 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
-	provinces = {
-		918 919 920 921 922 923 924 925 926 927 928 929 930 931 932 933 934 935 939 940 941 2526 2527 2528 2529 2530 2531 2532 2533 2534 2535 2536 2537 2538 2539 2540 2541 2542 2543 4625 4626 4879 4880 4881 4882 4883 4884 4887 4888 4913 4921
-	}
-
-	# Specific
-
-	# Generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_ALDERNEY_Alderney"
-	}
-}
-
 # Almere
 colonial_almere = {
 	color = { 195 120 40 }
@@ -160,9 +122,9 @@ colonial_almere = {
 	}
 }
 
-# Appalachia
-colonial_appalachia = {
-	color = { 220 190 70 }
+# Aurigny
+colonial_aurigny = {
+	color = { 100 90 170 }
 
 	# Random New World
 	tax_income = 0
@@ -184,7 +146,7 @@ colonial_appalachia = {
 	}
 
 	provinces = {
-		936 937 938 949 950 951 952 953 955 956 957 962 963 965 966 967 2010 2011 2023 2544 2545 2546 2547 2548 2549 2550 2551 2552 2553 2554 2555 2556 2557 2558 2560 2639 4874 4876 4877 4878 4889
+		918 919 920 921 922 923 924 925 926 927 928 929 930 931 932 933 934 935 939 940 941 2526 2527 2528 2529 2530 2531 2532 2533 2534 2535 2536 2537 2538 2539 2540 2541 2542 2543 4625 4626 4879 4880 4881 4882 4883 4884 4887 4888 4913 4921
 	}
 
 	# Specific
@@ -194,7 +156,7 @@ colonial_appalachia = {
 		name = "COLONIAL_REGION_New_Root_GetName"
 	}
 	names = {
-		name = "COLONIAL_APPALACHIA_Appalachia"
+		name = "COLONIAL_AURIGNY_Aurigny"
 	}
 }
 
@@ -311,6 +273,82 @@ colonial_aztlan = {
 	}
 	names = {
 		name = "COLONIAL_AZTLAN_Aztlan"
+	}
+}
+
+# Batavia
+colonial_batavia = {
+	color = { 220 190 70 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		936 937 938 949 950 951 952 953 955 956 957 962 963 965 966 967 2010 2011 2023 2544 2545 2546 2547 2548 2549 2550 2551 2552 2553 2554 2555 2556 2557 2558 2560 2639 4874 4876 4877 4878 4889
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_BATAVIA_Batavia"
+	}
+}
+
+# Brasil
+colonial_brasil = {
+	color = { 145 55 65 }
+
+	# Random New World
+	tax_income = 0
+	native_size = 4
+	native_ferocity = 2
+	native_hostileness = 8
+	
+	trade_goods = {
+		fish = 10
+	}
+	
+	culture = {
+		beothuk = 10
+		mikmaq = 1
+	}
+	
+	religion = {
+		shamanism = 10
+	}
+
+	provinces = {
+		960 961 964 968 969 970 971 982 983 984 985 986 2012 2013 2559 2561 2562 2563 2564 2565 2566 2567 2568 2569 2570 2571 2572 2582 4871 4873 4891 4896 4912 5048 5049 5050 5051 5052 5053 5054 5060
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_BRASIL_Brasil"
 	}
 }
 
@@ -1037,44 +1075,6 @@ colonial_vinland = {
 	}
 	names = {
 		name = "COLONIAL_VINLAND_Vinland"
-	}
-}
-
-# Vitmannland
-colonial_vitmannland = {
-	color = { 145 55 65 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
-	provinces = {
-		960 961 964 968 969 970 971 982 983 984 985 986 2012 2013 2559 2561 2562 2563 2564 2565 2566 2567 2568 2569 2570 2571 2572 2582 4871 4873 4891 4896 4912 5048 5049 5050 5051 5052 5053 5054 5060
-	}
-
-	# Specific
-
-	# Generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_VITMANNLAND_Vitmannland"
 	}
 }
 
