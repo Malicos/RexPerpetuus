@@ -352,49 +352,6 @@ colonial_brasil = {
 	}
 }
 
-# The Carribean
-colonial_the_carribean = {
-	color = { 255 204 102 }
-
-	# Random New World
-	tax_income = 1
-	native_size = 5
-	native_ferocity = 5
-	native_hostileness = 7
-	
-	trade_goods = {
-		sugar = 15
-		fish = 10
-		naval_supplies = 10
-	}
-	
-	culture = {
-		arawak = 15
-		carib = 8
-	}
-	
-	religion = {
-		animism = 10
-	}
-	
-	provinces = {
-		487 491 492 493 494 495 496 497 498 499 500 501 502 1881 5578 5581 5582 5583 5584 5585 5586
-		#BT14
-		6046 6047 6048 6049 6050 6061
-		5579 6058 6059
-	}
-	
-	# Specific
-
-	# Generic
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_Caribbean_Caribbean"
-	}
-}
-
 # Eastern Elysia
 colonial_eastern_elysia = {
 	color = { 31 122 31 }
@@ -469,6 +426,49 @@ colonial_ethelland = {
 	}
 	names = {
 		name = "COLONIAL_ETHELLAND_Ethelland"
+	}
+}
+
+# Fortunate Isles
+colonial_fortunate_isles = {
+	color = { 255 204 102 }
+
+	# Random New World
+	tax_income = 1
+	native_size = 5
+	native_ferocity = 5
+	native_hostileness = 7
+	
+	trade_goods = {
+		sugar = 15
+		fish = 10
+		naval_supplies = 10
+	}
+	
+	culture = {
+		arawak = 15
+		carib = 8
+	}
+	
+	religion = {
+		animism = 10
+	}
+	
+	provinces = {
+		487 491 492 493 494 495 496 497 498 499 500 501 502 1881 5578 5581 5582 5583 5584 5585 5586
+		#BT14
+		6046 6047 6048 6049 6050 6061
+		5579 6058 6059
+	}
+	
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_FORTUNATE_ISLES_Fortunate_Isles"
 	}
 }
 
