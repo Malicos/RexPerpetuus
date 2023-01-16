@@ -1,7 +1,8 @@
 government = monarchy
-add_government_reform = feudalism_reform
-government_rank = 2
-primary_culture = atins
+add_government_reform = monastic_order_reform
+government_rank = 1
+primary_culture = catalan
+add_accepted_culture = atins
 religion = catholic
 technology_group = western
-capital = 340	# Constantine
+capital = 1882 # Annaba
