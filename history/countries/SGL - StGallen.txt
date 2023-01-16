@@ -10,7 +10,7 @@ government = theocracy
 add_government_reform = imperial_abbey_reform
 
 #Demographics
-primary_culture = swiss
+primary_culture = swabian
 religion = catholic
 
 #Tech and Military

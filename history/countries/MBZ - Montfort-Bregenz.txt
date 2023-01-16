@@ -4,7 +4,7 @@ add_government_reform = feudalism_reform
 technology_group = western
 religion = catholic
 primary_culture = bavarian
-add_accepted_culture = swiss
+add_accepted_culture = swabian
 capital = 4710 #Bregenz
 
 1422.1.1 = {

@@ -11,7 +11,7 @@ government = republic
 add_government_reform = united_cantons_reform #(JP) Closest thing, makes more sense than the other republican options
 
 #Demographics
-primary_culture = swiss
+primary_culture = swabian
 religion = catholic
 
 #Tech and Military

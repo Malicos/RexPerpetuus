@@ -2669,7 +2669,7 @@ pagan = {
 	flag_emblem_index_range = { 83 96 }
 
 	animism = {
-		color = { 127 0 0 }
+		color = { 30 155 130 }
 		icon = 11
 		country = {
 			tolerance_own = 1
@@ -2704,7 +2704,7 @@ pagan = {
 		heretic = { GOAT_SKULL }
 	}
 	totemism = {
-		color = { 127 115 115 }
+		color = { 150 90 25 }
 		icon = 13
 		country = {
 			tolerance_own = 1
@@ -2724,7 +2724,7 @@ pagan = {
 	}
 	
 	inti = {
-		color = { 64 115 115 }
+		color = { 210 180 60 }
 		icon = 18
 		country = {
 			tolerance_own = 1
@@ -2748,7 +2748,7 @@ pagan = {
 	}
 	
 	nahuatl = {
-		color = { 64 115 64 }
+		color = { 150 0 25 }
 		icon = 17
 		country = {
 			land_morale = 0.1
@@ -2773,7 +2773,7 @@ pagan = {
 	
 	mesoamerican_religion = {
 		#color = { 76 25 178 }
-		color = { 127 25 178 }
+		color = { 0 190 115 }
 		icon = 19
 		country = {
 			tolerance_own = 1
@@ -2826,7 +2826,7 @@ pagan = {
 	
 	dreamtime = {
 		icon = 29
-		color = { 197 133 43 }
+		color = { 200 75 75 }
 		country = {
 			shock_damage_received = -0.05
 			diplomatic_reputation = 1

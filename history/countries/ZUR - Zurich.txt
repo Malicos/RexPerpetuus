@@ -11,7 +11,7 @@ government = republic
 add_government_reform = free_city
 
 #Demographics
-primary_culture = swiss
+primary_culture = swabian
 religion = catholic
 
 #Tech and Military
