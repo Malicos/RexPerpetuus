@@ -4,8 +4,6 @@ graphical_culture = muslimgfx
 
 color = { 255 133 15 } 
 
-revolutionary_colors = { 5 1 10 }
-
 historical_idea_groups = {
 	trade_ideas
 	defensive_ideas
@@ -28,15 +26,30 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Umar #1" = 5
+	"Masnsen #1" = 5
+	"Shamir #1" = 5
+	"Fadil #1" = 5
+	"Ghalib #2" = 20
+	"Muhammad #2" = 60
+	"Najib #1" = 5
+	"Karidenna #1" = 5
+	"Menzu #1" = 5
+	"Zalelsan #2" = 20
+	"Hafiz #1" = 5
+	"Ya'qub #1" = 5
+	"Burhanaddin #1" = 5
+
+	# RANDOM NAMES - MALE
 	"'Alî #0" = 60
 	"Ahmad #0" = 40
-	"Muhammad #0" = 40
 	"Yûsuf #0" = 40
 	"'Abdallâh #0" = 20
 	"Mammi #0" = 20
 	"Mansur #0" = 20
 	"Yahyâ #0" = 20
-	"Thabit #2" = 10
+	"Thabit #0" = 10
 	"'Abd al-'Aziz #0" = 0
 	"Abû Bakr #0" = 0
 	"Ala ad-Din #0" = 0
@@ -44,7 +57,6 @@ monarch_names = {
 	"Fakhri #0" = 0
 	"Fayiz #0" = 0
 	"Hadj #0" = 0
-	"Hafiz #0" = 0
 	"Haidar #0" = 0
 	"Harun #0" = 0
 	"Hasan #0" = 0
@@ -69,6 +81,7 @@ monarch_names = {
 	"Ziyad #0" = 0
 	"'Usman #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Nasira #0" = -1
 	"Jamila #0" = -1
 	"Aisha #0" = -1
