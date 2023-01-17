@@ -1,19 +1,26 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = riffian
-add_accepted_culture = moroccan
+primary_culture = moroccan
+government_rank = 1
 religion = sunni
 technology_group = maghrebi_tech
-capital = 5218
+capital = 334 # Tangiers
+fixed_capital = 334 # Cannot move capital away from this province & no power cost to move to it
 religious_school = maliki_school
 
-
-1441.11.01 = {
+1444.11.11 = {
 	monarch = {
 		name = "Regency"
 		adm = 3
 		dip = 3
 		mil = 3
 		regent = yes
+	}
+	if = {
+		limit = {
+			has_dlc = "Golden Century"
+		}
+		change_government = republic
+		add_government_reform = pirate_republic_reform
 	}
 }
