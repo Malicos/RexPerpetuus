@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = batalyawsi
+primary_culture = andalusi_culture
 government_rank = 1
 religion = sunni
 technology_group = muslim_tech
