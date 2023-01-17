@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 102  105  104 }
+color = { 65 90 65 }
 
 historical_idea_groups = {
 	religious_ideas
@@ -32,91 +32,155 @@ historical_units = {
 	napoleonic_lancers
 }
 
-monarch_names = {
-	"Heinrich #4" = 70
-	"Konrad #4" = 40
-	"Albrecht #0" = 20
-	"Friedrich #0" = 20
-	"Johann #0" = 20
-	"Johann Kaspar #0" = 20
-	"Karl #0" = 20
-	"Ludwig #0" = 20
-	"Martin #0" = 20
-	"Michael #0" = 20
-	"Paul #0" = 20
-	"Ulrich #0" = 20
-	"Walter #0" = 20
-	"Wolfgang #0" = 20
-	"Clemens August #0" = 15
-	"Georg #0" = 15
-	"Johann Eustach #0" = 15
-	"Karl Alexander #0" = 15
-	"Karl Joseph #0" = 15
-	"Leopold Wilhelm #0" = 15
-	"Ludwig Anton #0" = 15
-	"Ludwig Franz #0" = 15
-	"Maximilian #0" = 15
-	"Maximilian Franz #0" = 15
-	"Adalbert #0" = 0
-	"Adam #0" = 0
-	"Arnold #0" = 0
-	"Bernhard #0" = 0
-	"Dietrich #0" = 0
-	"Egon #0" = 0
-	"Gregor #0" = 0
-	"Humbert #0" = 0
-	"Immanuel #0" = 0
-	"Isidor #0" = 0
-	"Lothar #0" = 0
-	"Markus #0" = 0
-	"Matthias #0" = 0
-	"Pankraz #0" = 0
-	"Rudolf #0" = 0
-	"Theodor #0" = 0
+monarch_names = { #Written in 'Peitavin', Limousin and Old Poitevin-based dialect if Oc continued to develop.
+	# RP RULER NAMES
+	"Ambrus #1" = 0
+	"Elemer #1" = 0
+	"Filibert #1" = 10
+
+	# RANDOM NAMES
+	"Lluís #0" = 40	
+	"Enric #0" = 20
+	"Renat #0" = 20	
+	"Alfons #0" = 15
+	"Joan #0" = 15
+	"Carles #0" = 10
+	"Felip #0" = 10
+	"Nicolau #0" = 10
+	"Ferran #0" = 5
+	"Jaume #0" = 5
+	"Martí #0" = 5
+	"Ambrós #0" = 0
+	"Andreu #0" = 0
+	"Antoni #0" = 0
+	"Arnau #0" = 0
+	"Climent #0" = 0
+	"Domènec #0" = 0
+	"Eduard #0" = 0
+	"Esteve #0" = 0
+	"Francesc #0" = 0
+	"Gonçal #0" = 0
+	"Hèctor #0" = 0
+	"Hug #0" = 0
+	"Ignasi #0" = 0
+	"Joaquim #0" = 0
+	"Jordi #0" = 0
+	"Josep #0" = 0
+	"Josep Antoni #0" = 0
+	"Llorenç #0" = 0
+	"Lluc #0" = 0
+	"Manel #0" = 0
+	"Miquel #0" = 0
+	"Pau #0" = 0
+	"Rafel #0" = 0
+	"Ramon #0" = 0
+	"Xavier #0" = 0
 	
-	"Maria #0" = -1
-	"Magdalena #0" = -1
-	"Eva #0" = -1
+	"Alícia #0" = -1
+	"Sofia #0" = -1
+	"Marta #0" = -1
+	#####HISTORICAL FORENAMES#####
+	
+	#####OTHER#####
+	"Tomàs #0" = 0
 }
 
 leader_names = {
-	"von Aderkas" "von Albedyll" "von Altenburg" "von Ampringen" "von Arfberg" 
-	"von Bassenheim" "von Bobenhausen" "von Bremen" "von Buchholtz" "von Buxhoeveden"
-	"von Campenhausen" "von Cronberg" "von Cube"
-	"von Dellinghausen" "von Drachenfels"
-	"von Ekesparre" "von Erlichshausen"
-	"von Freymann" "Freytag von Loringhoven"
-	"von Hehn" "von Helbrungen" "von Hohenzollern" "von Howen" "von Hunnius" "von Hoyningen" 
-	"von Jungingen"
-	"von Keyserling" "von Koskull" "von Kniprode" "von Klot-Heydenfeldt" "von Krusenstiern"
-	"von Lilienfeld"
-	"von Patkul" "von Poll"
-	"von Rennenkampff" "von Rothstein" "von Ruszdorf" "von Richtenberg" "von Roth-Rösthof"
-	"von Sass" "von Schubert" "von Sangershausen" "von Schwanden"
-	"von Tieffen"
-	"von Uexküll" "von Ungern-Sternberg" "von Urenbach"
-	"von Wrangel" "von Wistinghausen" "von Wattzau" "von Wallenrode"
+	#####HISTORICAL LASTNAMES#####
+	
+	#####EU4 CATALANS#####
+	Alemany Ametller Amic "de Balaguer" Barceló Blanc Canals Casanovas "de Guimerà" Casaus
+	Dalmau Desplà Destorrent Domènec "d’Espés" Ferrer "Folc de Cardona" Fontana
+	Gallart Gassol Gisbert Graner "de Grau" Guimet
+	Lleixà Llull "de Margarit" Muntaner "de Montcada" Moragues "de Mur" Nadal d’Oms
+	Pallarès Pinós Piquer Pons Rasquí "de la Riba" Ribalta Ripio Rifós "de Ripoll"
+	Salavert "de Subirats" Tamarit Vallès Vergós Vilamarí Vilaplana
 }
 
 ship_names = {
-	Danzig
-	Elbing
-	Gottersweder
-	Königsberg
-	Marienburg Mittenburg Mitau
-	Thorn
-	Windau
-	Goldingen
-	"von Bassenheim" "Otto von Kerpen" "Heinrich von Tunna" "Hermann von Salza" "Konrad von Thüringen"
-	"Gerhard von Malberg" "von Hohenlohe" "von Wüllersleben" "Poppo von Osterna"
-	"von Sangershausen" "von Heldrungen" "Burkhard von Schwanden" "von Feuchtwangen"
-	"von Trier" "Werner von Orseln" "von Braunschweig" "Dietrich von Altenburg" "von Wattzau"
-	"von Arfberg" "Winrich von Kniprode" "von Rotenstein" "von Wallenrode" "Konrad V von Jungingen"
-	"Ulrich von Jungingen" "Heinrich von Plauen" "von Sternberg" "von Wetzhausen"
-	"Johann von Tiefen" "Walter von Cronberg"
+	#####UNIQUES#####
+	"Llop Marí" "Dona de Llieda" "Espasa del Principat" "Senyora de Tarragona" "Sol d'Ibèria"
+	###SAINTS (From Catalan churches, particularly Barcelona)
+	#"Mare de Déu"
+	"Sagrat Cor"
+	"Santa Àgata" "Santa Anna" "Sant Andreu" "Sant Cebrià" "Sant Cugat" "Santa Eulàlia" "Sant Felip" "Sant Genís" #"Sant Antoni" "Santa Caterina"
+	"Sant Jaume" "Sant Joan" "Sant Josep" "Sant Just" "Santa Justina" "Santa Madrona" "Sant Medir" #"Santa Maria" "Sant Miquel"
+	"Sant Pacià" "Sant Pastor" "Sant Pere" "Sant Ramon" "Sant Sebastià" "Sant Vicenç"
+	#"Sagrada Família"
+	#####EU4#####
+	"Blanca Aurora" "Sant Jacob" "La Bonaventura" "Sant Antoni"
+	"Sant Miquel" "Sant Bernat" "Sant Francesc" "Santa Eulàlia" #"Santa Ágata"
+	"Sant Gabriel" "Sant Climent" "Sant Jordi" "La Reial" "Santa Creu"
+	"Santa Maria" "Santa Caterina" "Sant Joan Evangelista" "Santa Bàrbara"
+	"Sant Pere de Roma" "La Gasela" "Santa Magdalena" "Sant Víctor" Magnana
+	"Santa Ventura" "Santa Coloma" "Sant Ambrós" Constança "Sant Ferran"
+	Telèmac "Verge del Carme" "Verge de Montserrat"
+	"Sant Joan Baptista" "Santíssima Trinitat"
+	Temerària "Verge de les Neus" "Jaume el Conqueridor"
+	Empordà Catalunya "Roger de Flor" "Roger de Llúria"
+	"La Garsa"
+	#####COMMON#####
+	###NOUN COMMON
+	#Concepts+Values
+	Abundància Acció Aliança Amistat Aptitud Constància Destresa Esplendor Força Fortitud Fúria Joventut Habilitat Magnitud Ordenança Santuari Tenacitat Trinitat Unió Venjança Victòria
+	#Critters
+	Abella Balena Calàndria Calandrella Corb Drac Dragó Dromedari Falcó Lleó Lleona Llop Ós Óssa Tigre Tigressa Ur #Creatures. Ur = Aurochs
+	#Culture - Legends
+	#Culture - Literature+Music
+	#Culture - Traditions
+	#Folk - Ruler Titles
+	Baró Baronessa Comte Comtessa Dama Duc Duquessa Emperador Emperadriu Marquès Marquesa Monarca Príncep Princesa Rei Reina Senyor Senyora Senyoreta Vescomte Vescomtessa #Sobirà
+	#Folk - People+Professions
+	Alliberador Alliberadora Apòstol Aprenent Aprenenta Cantant Corsari Corsària "Damisel·la" Defensor Defensora Escrivà Escrivana Heroi Heroïna Mentor Mentora
+	Protector Protectora Trobador Trobadora Viatger #People+Professions #Cercador - too recent.
+	#Heritage - GrecoRoman (Mythology)
+	Fides Concòrdia Fors Camenes Ceres Flora "Bel·lona" Janus Júpiter Juno Juventus Lars Hèrcules Mart Ops Penats Salus Saturn Silvà Terminus Vertumne Vesta
+	Afrodita "Apol·lo" Ares Àrtemis Atena Demèter Dionís Hades Hefest Hera Hermes Hèstia Posidó Zeus
+	"Aquil·les" Hèctor Troia Heracles Jasó Argonauta Odisseu Odissea Perseu Teseu Atalanta Calidó
+	Amaltea Centaures Ciclop Esfinx Fènix Gòrgona Griu Harpia Hidra Hipocamp Medusa Minotaure Musa Nàiada Nereida Nimfa Oceànide Pegàs Plèiades Potamoi Quimera Sàtir Sirena Vent
+	#Heritage - Greek
+	Alexandre Dracma
+	Leònides
+	#Heritage - Roman
+	Anníbal Cèsar Cleòpatra Constantí Juli
+	Cartago Centúria Centurió Colònia Colós Gladiador Legió Legionari Patrici
+	#Misc Nouns
+	Alerta Cornucòpia Corona Diamant Eclipsi Escut Espasa Flama Javelina Llança Llum Lluna
+	Memòria Meridià Mite Monument Música Paradís Pica Pinacle Promesa Sorpresa Torre Trinitat Trirrem Vent #Misc
+	#Name - First (Import the list once the cultures are done?)
+	#Place
+	Ibèria
+	#Plants
+	Espígol Lavanda Lli Lliri Pi Rosa Violeta
+	#Winds
+	Gregal Llevant Migjorn Ponent Tramuntana Xaloc #Llebeig/garbí Mestral/mestre/serè/cerç
+	###ADJ COMMON (M followed by F, by reason of naming plausability & higher historical equality. Catalan lacks feminine forms for certain adj endings, listed separately.)
+	Abundós Abundosa Actiu Activa Amat Amada Ambiciós Ambiciosa Amorós Amorosa Astruc Astruga Astuciós Astuciosa Argentat Argentada Bo Bona Brau Brava
+	Coratjós Coratjosa Coronat Coronada Creatiu Creativa Curiós Curiosa Daurat Daurada Dur Dura Estrany Estranya Extraordinari Extraordinària Famós Famosa Fort Forta Furiós Furiosa
+	Gai Gaia Just Justa Lluminós Marin Marina Mític Mítica Misteriós Misteriosa Muntanyós Muntanyosa Poderós Poderosa Polit Polida Pompós Pomposa Seriós Seriosa Sobirà Sobirana
+	Valorós Valorosa Ventós Ventosa Virtuós Virtuosa
+	#Common Catalan - Adj w/ no feminine variant!
+	Agradable Amable Ardent Benvolent Brillant Capaç Constant Content Eminent Esclatant Espectacular Formidable Galant Invencible Noble Perseverant Persistent Prudent Reial Suficient Terrible Vigilant
+	#Common Catalan - Adj Ethnic
+	Balear Baleara Català Catalana Valencià Valenciana #Principatin Principatina
+	Romà Romana Vàndal Vàndala
 }
-
-
 army_names = {
-	"Banner"
+	#####FILLER#####
+	#Filler - Generic
+	"Exèrcit de l'Oest" "Exèrcit del Nord" "Exèrcit del Sud" "Exèrcit de l'Est"
+	#Filler - Province
+	"Exèrcit de $PROVINCE$"
+}
+fleet_names = {
+	#####REGIONAL LEVIES#####
+	###Vassal Fleets - Counties
+	"Flota de Barcelona" "Flota d'Empúries" "Flota de Girona"
+	#####FILLER#####
+	#Filler - Generic
+	"Esquadra Vermella" "Esquadra Groga" "Esquadra Blava" "Esquadra Blanca" "Esquadra Verda" "Esquadra Rosa" "Esquadra Negra" "Esquadra Grisa" "Esquadra Bruna"
+	#Filler - Cities (Scraping the Barrel)
+	"Esquadra de Tarragona" "Esquadra de Tortosa" #Other coastal (or near-coastal; Tortosa appears to be on a navigable-from-the-sea stretch of the Ebro) cities.
+	#Filler - Province
+	"Esquadra de $PROVINCE$"
 }
