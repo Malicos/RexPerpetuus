@@ -1,7 +1,8 @@
 # - Ouargla
 
-owner = OGL
-controller = OGL
+owner = MZB
+controller = MZB
+add_core = MZB
 add_core = OGL
 culture = berber
 religion = ibadi
