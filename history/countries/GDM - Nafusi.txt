@@ -5,7 +5,17 @@ primary_culture = libyan_berber_culture
 technology_group = maghrebi_tech
 religion = ibadi
 capital = 4567
+fixed_capital = 4567 # Cannot move capital away from this province & no power cost to move to it
 
-
-
-#May fill in later, but very unlikely anyone will care
+1426.7.22 = {
+	monarch = {
+		name = "Burhanaddin"
+		dynasty = "Mirzid"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1397.7.24
+		religion = ibadi
+		culture = libyan_berber_culture
+	}
+}
