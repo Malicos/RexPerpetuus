@@ -5,7 +5,7 @@
  AFG_ADJ:0 "Kabulian"
  ALB:0 "Arbanon"
  ALB_ADJ:0 "Arberian"
- AZT:0 "Mexikho"
+ AZT:0 "Mexikha"
  AZT_ADJ:0 "Mexikhan"
  BUR:0 "Arelat"
  BUR_ADJ:0 "Burgundian"
@@ -322,7 +322,7 @@
  north_america_superregion_name:0 "Vesperia"
  north_america_superregion_adj:0 "Vesperian"
  southern_africa_superregion:0 "Southern Ethiopia"
- central_america_superregion:0 "Mexikho"
+ central_america_superregion:0 "Mexikha"
  south_america_superregion:0 "Elysia"
  
  # Sea Regions and Areas
