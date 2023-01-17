@@ -7,6 +7,15 @@ religion = ibadi
 capital = 350
 fixed_capital = 350 # Cannot move capital away from this province & no power cost to move to it
 
-
-
-#May fill in later, but very unlikely anyone will care
+1408.9.5 = {
+	monarch = {
+		name = "Adam II"
+		dynasty = "Menzu"
+		adm = 3
+		dip = 1
+		mil = 1
+		birth_date = 1391.3.4
+		religion = ibadi
+		culture = berber
+	}
+}
