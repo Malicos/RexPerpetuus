@@ -26,6 +26,25 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES	
+	"Hashim #1" = 5
+	"Aflah #1" = 5
+	"Muhammad #1" = 5
+	"al-Mansur #1" = 5
+	"Micipsa #1" = 5
+	"Lewnis #1" = 5
+	"Kawsen #1" = 5
+	"Gauda #1" = 5
+	"an-Nasir #2" = 20
+	"Iken #1" = 5
+	"Niptasan #1" = 5
+	"Uregh #1" = 5
+	"Umar #1" = 5
+	"Misagenes #1" = 5
+	"Maysar #2" = 20
+	"Afulay #1" = 5
+
+	# RANDOM NAMES - MALE
 	"Abu Abdallah #0" = 20
 	"Abu Abbas Ahmad #0" = 20
 	"Abu Tashufin #0" = 20
@@ -54,7 +73,8 @@ monarch_names = {
 	"Sakhr #0" = 0
 	"Wahid #0" = 0
 	"Zahir #0" = 0
-	
+
+	# RANDOM NAMES - FEMALE
 	"Randa #0" = -1
 	"Tabassum #0" = -1
 	"Daïkra #0" = -1
