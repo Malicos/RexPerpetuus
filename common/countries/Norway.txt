@@ -52,7 +52,7 @@ monarch_names = {
 	"Bjørn #1" = 10
 	"Haldor #1" = 10
 	"Ossor #1" = 10
-	"Ase #1" -1
+	"Ase #1" = -1
 	"Alf #1" = 10
 		
 	# RANDOM NAMES - MALE
