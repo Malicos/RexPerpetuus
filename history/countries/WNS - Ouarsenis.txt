@@ -2,11 +2,20 @@ government = tribal
 add_government_reform = tribal_kingdom
 government_rank = 1
 primary_culture = berber
-religion = sunni
+religion = ibadi
 technology_group = maghrebi_tech
-capital = 5328
-fixed_capital = 5328
-religious_school = maliki_school
+capital = 2459
+fixed_capital = 2459
 
-
-#Leaving this blank for now. Engine will auto generate, and historical rulers for a later-start-date-only minor isn't a priority atm.
+1425.1.25 = {
+	monarch = {
+		name = "Afulay"
+		dynasty = "Umarid"
+		adm = 1
+		dip = 2
+		mil = 2
+		birth_date = 1397.11.12
+		religion = ibadi
+		culture = berber
+	}
+}
