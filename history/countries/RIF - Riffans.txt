@@ -1,19 +1,22 @@
 government = monarchy
 add_government_reform = iqta
+government_rank = 1
 primary_culture = riffian
 add_accepted_culture = moroccan
 religion = sunni
 technology_group = maghrebi_tech
-capital = 5218
-religious_school = maliki_school
+capital = 4561 # Tetouan
+fixed_capital = 4561 # Cannot move capital away from this province & no power cost to move to it
 
-
-1441.11.01 = {
+1396.3.25 = {
 	monarch = {
-		name = "Regency"
-		adm = 3
-		dip = 3
+		name = "Mubashir II"
+		dynasty = "Mubashirid"
+		adm = 2
+		dip = 2
 		mil = 3
-		regent = yes
+		birth_date = 1392.12.5
+		religion = sunni
+		culture = riffian
 	}
 }
