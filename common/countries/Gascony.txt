@@ -40,18 +40,18 @@ monarch_names = {
 	"Lop #1" = 1
 	"Aznar #1" = 1
 	"Simon #2" = 20
-	"Arnaut #1" = 1
+	"Arnaud #1" = 1
 	"Garcia #2" = 20
-	"Sancho #5" = 10
+	"Sanche #5" = 10
 	"Berenger #1" = 1
-	"Ebles #1" = 1 
+	"Eble #1" = 1 
 	"Bernat #1" = 1
-	"Aines #1" = -1
+	"Agnès #1" = -1
 	"Jaufret #1" = 5
-	"Guilhem #3" = 60
+	"Guilhèm #3" = 60
 	"André #1" = 5
 	"Mascarosa #1" = -1
-	"Lois #1" = 5
+	"Loís #1" = 5
 	"Raimond #1" = 1
 	"Aldebert #1" = 1
 	"Arsenda #1" = -1
@@ -59,47 +59,37 @@ monarch_names = {
 	"Dídac #2" = 20
 	"Roderic #1" = 20
 
-	# RANDOM NAMES
-	"Henri #0" = 60
-	"Edouard #0" = 10
-	"Guillaume #0" = 5
-	"Richard #0" = 5
-	"Jean #0" = 5
-	"Edmond #0" = 5
-	"Humphrey #0" = 5
-	"Armand #0" = 0
-	"Arnaud #0" = 0
-	"Aymeric #0" = 0
-	"Bartomiu #0" = 0
-	"Benedit #0" = 0
-	"Bertran #0" = 0
-	"Brun #0" = 0
-	"Carles #0" = 0	
-	"Eneco #0" = 0
-	"Enric #0" = 0
-	"Estève #0" = 0
-	"Folquet #0" = 0
-	"Frances #0" = 0
-	"Frédol #0" = 0
-	"Gastó #0" = 0
-	"Gaufré #0" = 0
-	"Hug #0" = 0
-	"Jacme #0" = 0
-	"Jordan #0" = 0
-	"Loys #0" = 0
-	"Matheu #0" = 0
-	"Miqueu #0" = 0
-	"Nicolau #0" = 0
-	"Pol #0" = 0
-	"Pons #0" = 0
-	"Thomas #0" = 10
-	"Vicentz #0" = 0
-	"Vivian #0" = 0
-	"Xavier #0" = 0
-	
-	"Olivie #0" = -1
-	"Ninette #0" = -1
-	"Rosalie #0" = -1
+	#####SOVEREIGNS#####
+	#Amanç? Amand of Vasconia...
+	"Audon #0" = 5 #Eudes de Poitiers, which translates to Odon, Audon, or Audoïn in Occitan. One 'Otto' of Germany.
+	"Carles #0" = 10 #2 1400s.
+	"Edoard #0" = 20 #4 total under England. I reigning 1291.
+	"Enric #0" = 25 #5 total under England-Aquitaine. 2 by 1291.
+	"Joan #0" = 10 #2 total under Aquitaine. I reigned 1199-1216.
+	"Ricard #0" = 10 #2 total under England. One 1100s, one 1300s.
+	#"Xavièr #0" = 5 #Aquitaine, 1700s.
+
+	"Alienòr #0" = -10 #Eleanor, legendary duchess of Aquitaine.
+	#####CONSORTS+HEIRS#####
+	"Amaniu #0" = 2 #Son of Sanche III.
+	"Anèr #0" = 1 #Son of Sanche III.
+	"Donat #0" = 1 #Son of Sanche III.
+	"Gombaud #0" = 1 #Son of Sanche III.
+
+	"Asalaís #0" = -3 #Wife of Bernard II d'Armagnac. #fr Adelais... What's the spelling?
+	"Ermengarda #0" = -5
+	"Urraca #0" = -1 #Navarrese.
+
+	"Beatritz #0" = -5 #AQT. Daughter of William VIII.
+	#"Ermengarda #0" = -5 #AQT. Wife of William IX.
+	"Felipa #0" = -5 #AQT. Felipa or Felipia. Wife of William IX.
+	"Ildegarda #0" = -5 #AQT. Wife of William VIII.
+	"Petronilha #0" = -5 #AQT. Sister of Eleanor.
+	#####MISC#####
+	"Centolh #0" = 1
+	"Gui #0" = 1
+	"Jacme #0" = 1
+	"Ramon #0" = 1
 }
 
 leader_names = {
