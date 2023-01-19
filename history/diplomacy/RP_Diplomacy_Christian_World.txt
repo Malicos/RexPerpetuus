@@ -160,10 +160,10 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# France and Bourbonnais
+# France and Auvergne
 vassal = {
 	first = FRA
-	second = BOU
+	second = AUV
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }

@@ -7,17 +7,3 @@ religion = catholic
 technology_group = western
 capital = 190	# Bourges
 fixed_capital = 190 # Cannot move capital away from this province & no power cost to move to it
-
-
-1427.1.14 = {
-	monarch = {
-		name = "Guillaume"
-		dynasty = "de Orval"
-		adm = 1
-		dip = 3
-		mil = 1
-		birth_date = 1427.10.29
-		religion = catholic
-		culture = auvergnat_culture
-	}
-}

@@ -2,9 +2,9 @@
 #Region - France
 #Area - Languedoc
 
-owner = BOU
-controller = BOU
-add_core = BOU
+owner = AUV
+controller = AUV
+add_core = AUV
 capital = "Le Puy"
 is_city = yes
 culture = auvergnat_culture

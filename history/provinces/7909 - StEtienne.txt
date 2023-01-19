@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = BOU
-controller = BOU
-add_core = BOU
+owner = AUV
+controller = AUV
+add_core = AUV
 culture = auvergnat_culture
 religion = cathar
 capital = "St. Étienne"

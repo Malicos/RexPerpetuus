@@ -2,9 +2,9 @@
 #Region - France
 #Area - Massif Central
 
-owner = BOU
-controller = BOU
-add_core = BOU
+owner = AUV
+controller = AUV
+add_core = AUV
 capital = "Feurs"
 is_city = yes
 culture = auvergnat_culture
