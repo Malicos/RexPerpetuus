@@ -10,7 +10,7 @@ fixed_capital = 175 # Cannot move capital away from this province & no power cos
 
 1426.6.1 = {
 	monarch = {
-		name = "Bertrand"
+		name = "Bertran"
 		dynasty = "Pettiti"
 		adm = 2
 		dip = 2
