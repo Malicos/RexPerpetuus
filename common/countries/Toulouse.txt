@@ -35,16 +35,16 @@ historical_units = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Beggo #1" = 1
+	"Begon #1" = 1
 	"Berenguié #1" = 1
 	"Fredelon #1" = 1
 	"Bernat #2" = 20
 	"Eble #1" = 1
-	"Raimond-Pons #1" = 1
-	"Pons-Guilhèm #1" = 1
+	"Raimon-Pons #1" = 1
+	"Ponç-Guilhèm #1" = 1
 	"Guilhèm #5" = 80
 	"Bertran #1" = 1
-	"Anfos #1" = 10
+	"Anfós #1" = 10
 	"Raimon #5" = 80
 	"Charles #1" = 60
 	"Gaston #1" = 20
@@ -58,39 +58,54 @@ monarch_names = {
 	"Peironéla #1" = -10
 	"Anton #1" = 10
 	
-	# RANDOM NAMES
-	"Loui #0" = 10
-	"François #0" = 10
-	"Joan #0" = 5		
-	"Hughes #0" = 1
-	"Robert #0" = 1
-	"Alexandre #0" = 0
-	"Ambroise #0" = 0
-	"Armand #0" = 0
-	"Barthélémy #0" = 0
-	"Bernard #0" = 0
-	"Claude #0" = 0
-	"Denis #0" = 0
-	"Eudes #0" = 0
-	"Gui #0" = 0
-	"Gustave #0" = 0
-	"Henri #0" = 0
-	"Jacques #0" = 0
-	"Jules #0" = 0
-	"Marc #0" = 0
-	"Maurice #0" = 0
-	"Maximilien #0" = 0
-	"Michel #0" = 0
-	"Pierre #0" = 0
-	"Raoul #0" = 0
-	"René #0" = 0
-	"Simon #0" = 0
-	"Tibaud #0" = 0
-	"Xavier #0" = 0
+	#Regnal Numbering: Up to the last by startdate (Later versions of BT will be 1291, so going from there)
+	#COUNTS of TOULOUSE (Carolingian+Hereditary Counts (778-1271), plus Simon de Montfort.)
+	"Audoïn #0" = 8 #Reigned 886-918.
+	"Corson #0" = 0 #This guy ruled Toulouse in 778-790, but was appointed by Charlemagne...No later counts were named this.
+	"Simon #0" = 0 #Simon de Montfort, count by conquest. Only count of Toulouse by this name. Foreign ruler and genocided the place. Local rulers won't want to name heirs for him.
+	"Uc #0" = 8 #Reigned 961-972.
+	#An 'Unifred' ruled for one year in the late 800s through conquest, but I am unable to find an Occitan form and it doesn't seem worth naming rulers after an ancient and short-lived foreigner.
+
+	#COUNTESSES of TOULOUSE
+	#Inherited Countesses
+	"Felipa #0" = -10 #Countess of Toulouse, 1110-1117. Wikipedia: 'Profitant de la jeunesse d'Alphonse Jourdain, Guillaume s'empare des terres du comté au nom de sa femme, mais doit y renoncer au bout de dix ans de luttes.'
+	"Joana #0" = -10 #Jeanne I de Toulouse, countess by marriage 1249-1271, who was definitely of Occitan birth. There's also Joan of England, English princess who predated her (and inherited the county!), but de Toulouse's regnal number was I.
+	#Marriage Countesses
+	"Adelaïda #0" = -5 #Adelaide (Adélaïde) of Anjou.
+	"Aliç #0" = -2 #Or perhaps Alícia. Alix, wife of Simon de Montfort. We're not having a big chance of heirs named for him, so not sensible to give her name a large chance either.
+	"Alienòr #0" = -5 #"Alienòr #1" = -8 #Eleanor (Elionor) of Aragon, second wife of Raimon VI. Countess 1202 until Raimond's death in 1222.
+	"Almòdis #0" = -5 #Countess of Toulouse 1040-1053.
+	"Bèrta #0" = -2 #Wife of Raymond I, died 883.
+	"Borgonha #0" = -5 #Bourgogne de Lusignan, countess by marriage 1194-1196.
+	"Constança #0" = -2 #" #1" = -8 #Constance of France. Countess 1154-1176.
+	"Cunegonda #0" = -1 #700s.
+	#"Doda #0" = -5 #Another very ancient countess. I'm not even sure Doda is the right speling, so leaving it out.
+	"Elena #0" = -2 #Helen (Hélène) of Burgundy. Countess 1105-1109.
+	"Elvira #0" = -1 #Elvira of Castile.
+	"Emma #0" = -7 #de Provence and de Mortain.
+	"Ermengarda #0" = -10 #Wife of Bernard Plantevelue (Bernard of Auvergne).
+	"Faidida #0" = -5 #Faydide d'Uzès, countess by marriage 1125-1148.
+	"Garsenda #0" = -5 #Originally Garsinda. Hereditary Countess of Albi, Countess of Toulouse by marriage in the 900s. The spelling was about to evolve into Garsenda, the modern form (attested from the late 900s as far as I can find, whereas Garsinda disappears. Keep in mind E in modern Occitan also interchanges with I in a number of words).
+	#"Guiborg #0" = -1 #Early countess, but I don't think this name was in use by EU4 timeframe? I could be wrong.
+	#Guinidilde #Guinidilde, countess till 923. Unknown Occitan name, though could theoretically be Guinidilda.
+	"Margarida #0" = -5 #Marguerite de Lusignan, countess by marriage...though it appears the marriage wasn't wholly official?
+	"Sança #0" = -5 #Sancia of Aragon (Sança in Catalan and Occitan both), countess by marriage 1222-1242.
 	
-	"Claudine #0" = -10
-	"Anne #0" = -10
-	"Marie #0" = -10
+	"Alpaïs #0" = -2 #800s in Toulouse, 1100s the name appears in Armagnac.
+	"Beatritz #0" = -7 #Common
+	"Emilda #0" = -2
+	"Ermessenda #0" = -2
+	"Matilda #0" = -2
+	"Maria #0" = -7 #Common
+
+	#####LANGUEDOCIAN FORENAMES#####
+	###S-GABRIEL TOULOUSE https://www.s-gabriel.org/names/arval/toulouse/
+	"Arnaud #0" = 0
+	"Joan #0" = 0
+	"Joanet #0" = 0
+	"Pèire #0" = 0
+	
+	"Sibilha #0" = -1
 }
 
 leader_names = {
