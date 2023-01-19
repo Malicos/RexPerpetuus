@@ -34,12 +34,6 @@ historical_units = {
 }
 
 monarch_names = {
-	# RP RULER NAMES
-	"Aimery #1" = 10
-	"Arnault #3" = 40
-	"Guillaume #1" = 10
-
-	# RANDOM NAMES
 	"Charles #0" = 80
 	"Antoine #0" = 20
 	"Jean #0" = 40
