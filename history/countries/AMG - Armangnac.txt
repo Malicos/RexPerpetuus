@@ -7,7 +7,6 @@ religion = catholic
 capital = 175	# Bayonne
 fixed_capital = 175 # Cannot move capital away from this province & no power cost to move to it
 
-
 1426.6.1 = {
 	monarch = {
 		name = "Bertran"
