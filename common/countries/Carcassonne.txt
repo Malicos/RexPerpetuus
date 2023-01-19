@@ -36,90 +36,391 @@ historical_units = {
 }
 
 monarch_names = {
-	"Louis #0" = 80
-	"Charles #1" = 60
-	"Louis-Philippe #0" = 40
-	"Philippe #0" = 40
-	"Gaston #0" = 20
-	"Henri-Alexandre #0" = 20
-	"Nicolas #0" = 20
-	"Alexandre-Louis #0" = 10
-	"François #0" = 10
-	"Jean #0" = 5		
-	"Antoine Philippe #0" = 5
-	"Hughes #2" = 1
-	"Robert #1" = 1
-	"Alexandre #0" = 0
-	"Ambroise #0" = 0
-	"Armand #0" = 0
-	"Barthélemy #0" = 0
-	"Bernard #0" = 0
-	"Claude #0" = 0
-	"Denis #0" = 0
-	"Eudes #0" = 0
-	"Gui #0" = 0
-	"Guillaume #0" = 0
-	"Gustave #0" = 0
-	"Henri #0" = 0
-	"Jacques #0" = 0
-	"Jean-Baptiste #0" = 0
-	"Jean-Philippe #0" = 0
-	"Jules #0" = 0
-	"Marc #0" = 0
-	"Maurice #0" = 0
-	"Maximilien #0" = 0
-	"Michel #0" = 0
-	"Pierre #0" = 0
-	"Raoul #0" = 0
-	"René #0" = 0
-	"Simon #0" = 0
-	"Thibaut #0" = 0
-	"Xavier #0" = 0
-	
-	"Claudine #0" = -10
-	"Catherine #0" = -1
-	"Marguerite #0" = -1
-	"Marie #0" = -1
-	"Jeanne #0" = -1
-}
+	# RP RULER NAMES
+	"Adelard #1" = 5
+	"Bernat #2" = 20
+	"Gartzia #1" = 5
+	"Acfred #1" = 5
+	"Arnaut #1" = 5
+	"Pèire-Raimon #1" = 5
+	"Raimon-Roger #1" = 5
+	"Garsenda #1" = -1
+	"Ermengarda #1" = -1
+	"Adelaide #1" = -1
+	"Bernat Ato #4" = 80
+	"Alpais #1" = -1
+	"Pons #1" = 5
+	"Roge #2" = 20
+	"Raimon #2" = 20
+	"Charles #1" = 5
+	"Bertrand #2" = 20
+	"Simon #3" = 60
 
-ship_names = {
-        "l'Amboise" "l'Amilly" "l'Artenay" "l'Azay-le-Rideau"
-        "la Beaune-la-Rolande" "le Beauregard" "la Bellegarde" "le Blois" "la Briare"
-        "la Chalette" "le Chambord" "le Chamerolles" "le Châteauneuf" "le Château-Renard" "le Châtillon-Coligny" "le Chécy" "le Chenonceau" "le Cheverny" "le Chevilly" "le Cléry-Saint-André" "le Combleux" "le Courtenay"
-        "le Dunois"
-        "la Fay-aux-Loges" "le Ferrières" "la Ferté-Saint-Aubin" "le Fleury-les-Aubrais"
-        "le Germigny" "le Gien"
-        "le Jargeau"
-        "la Bussière"
-        "le Malesherbes" "le Meung-sur-Loire" "le Montargis"
-        "le Neuville-aux-Bois"
-        "l'Olivet" "l'Outarville" "l'Ouzouer"
-        "le Patay" "le Pithiviers" "le Pontchevron" "le Puiseaux"
-        "le Saint-Benoît" "le Saint-Jean-de-Braye" "le Saint-Jean-le-Blanc" "le Sully"
-        "le Talcy"
-        "le Vendôme" "le Villesavin"
+	#Regnal Numbering: Up to the last by startdate (Later versions of BT will be 1291, so going from there)
+	#https://fr.wikipedia.org/wiki/Liste_des_vicomtes_de_Narbonne
+	#https://ca.wikipedia.org/wiki/Vescomtat_de_Narbona
+	"Aimeric #0" = 30 #Six total. III was in power in 1291.
+	"Alaric #0" = 5 #Alaric I - 852-876.
+	"Alberic #0" = 10 #II reigned ~911-919.
+	"Amalric #0" = 15 #3 total. I reigned 1239-1270.
+	"Anfós #0" = 10 #I reigned 832-834. Anfós 'Jordan' of Toulouse held the title in the 1100s until handing it back to the hereditary line.
+	"Audon #0" = 5 #Odon/Eudes (var.oc: Audoïn, Audon; local O-names in toponyms appear to become Au-. See Ouveillan) Early 900s.
+	"Berenguièr #0" = 5 #~1023-1067.
+	"Estève #0" = 5 #834-836.
+	"Francon #0" = 10 #II reigned 911-924.
+	"Gaston #0" = 10 #Two Gastons of Foix.
+	"Guilhèm #0" = 10 #Two reigned during HYW.
+	"Joan #0" = 5 #Jean de Foix.
+	"Lindoïn #0" = 0 #~878. Name possibly out of use by EU4 timeframe.
+	"Maiol #0" = 10 #II reigned 933-952.
+	"Matfre #0" = 5 #Matfred ~952-~966. Name still in use in the 1300s.
+	"Pèire #0" = 10 #Pedro de Lara reigned 1192-1202.
+	"Volverad #0" = 0 #Early 900s. Definitely not a common name later.
 }
 
 leader_names = {
-        "d'Avaray"
-        Badoux "de Barville" "de Beaugency" "de Beauharnais" "de Beauregard" "du Bellay" "Bernard de Montebise" "de Boigneux" 
-        "de Chabot" "de Châtillon"
-        d'Ennery
-        "de Gauville" "de Geresme" "Givès de Creusy" Garandeau "de Garlande"
-        "de Laage" "de La Brisardière" "de La Bussière" "de La Chapelle" "de La Chesnaye" "de La Valette" "de L'Estoile" "Le Maître" "Le Texier"
-        "de Maintenon" "de Marolles" "de Martel de Rénac" "de Montboissier" "de Montigny" "de Montlhéry"
-        "de Neufcarres"
-        "Péan de Saint-Gilles" "de Phéline" "de Pontville" "de Prunelé"
-        "de Rancourt" "de Réméon d'Orval" 
-        "de Sabrecois" "de Saint-Cosme" "de Saint-Marc" "de Saint-Mars" "de Salles" "Scott de Coulanges" "de Senneville" "de Sérizy"  "Seurat de La Boullaye"
-        "de Tannoys"
-        "de Villiers"
+	"de Narbona"
+	###COURSAN
+	"d'Exeya" #Marie Scipion d'Exéa (1734-1806). Général des armées de la République. Aragonese version of the family name is Exeya; Spanish is Ejea; Basque is Etxea. The Y appears to be pronounced I, so theoretically Exeia in Oc?
+	###ABBEYS OF FONTFROIDE (REGULAR) https://fr.wikipedia.org/wiki/Abbaye_Sainte-Marie_de_Fontfroide
+	#Alpharici
+	Novèl #Novel/Novelli
+	Fornièr #Fournier
+	"de Barrau" #"de Barrau"
+	Engelbèrt #German? #Engelbert
+	Clerani #Itlian? #Clérani
+	Ferrari #Italian. #Ferrari
+	"de Rua" #"de Rua"
+	"de La Ròca" #"de La Roque"
+	###ABBEYS OF FONTFROIDE (COMMENDATORY) https://fr.wikipedia.org/wiki/Abbaye_Sainte-Marie_de_Fontfroide
+	#"de Narbona-Lara" #"de Narbonne-Lara"
+	Talhacarna #Taillecarne
+	#Trivulce
+	"d'Este" #Italian. #d'Este
+	#Massey
+	"de Frejós" #de Frégose (di Fregoso). Best Occitan translation I can come up with, assuming fregoso means cold. To verify.
+	#de Rébé
+	#de Noblet-Desprez
+	"de La Ròcha Focaud" #de La Rochefoucauld
+	#de Cossé-Brissac
+	"de Grassa" #de Grasse
+	###VINASSAN
+	Rasimbaud #Occitanized spelling; should be correct. #Antoine Razimbaud mentionné comme maire en 1762 dans les archives communales.
+	#Rasimbaud #Occitanized spelling; should be correct. #Jacques Razimbaud maire du village en 1833.
+	###NARBONNE
+	Mondonvila #Joan Josèp Cassanea de Mondonvila, called Mondonvila as lastname (1711-1772). Composer.
+	###SIGEAN
+	#Angles (Local noble family).
+	Malric #Gabriel Malric (1775-1837). Homme politique né et mort à Sigean et ancien maire de cette commune.
+	Cauvet #Emile Cauvet (1816-1898). Magistrat né à Sigean.
+	#####TOPONYMIC#####
+	###CITIES (See Army List)
+	"de Sijan" "de Grussan" "de Corçan" "de Cucçac"
+	#Fleury 923, Ouveillan 900, Bages 716, Salles-d'Aude 712, Leucate 647, Sallèles-d'Aude 620, St-Nazaire-d'Aude 550, Moussan 515, Canet 500
+	"de Perinhan" "d'Auvelhan" "de Bajas" "de Salas" "de Leucata" "de Salèlas" "de Sant Nazari" "de Moçan" "de Canet" #Fleury was called Pérignan during the Middle Ages, taking its modern name (Fluris) in the 1700s, reverting once during the revolution.
+	#Peyriac-de-Mer 480 (Had a Castle during HYW), St-Marcel-sur-Aude 457, "La Palme" 379, Névian 365, Marcorignan 343
+	"de Peiriac" "de Sant Marcèl" "de La Pauma" "de Nevian" "de Marcorinhan"
+	#Armissan 281, Montredon-des-Corbières 280, Raissac-d'Aude 256, Vinassan 256
+	"d'Armissan" "de Montredond" "de Raissac" "de Vinaçan" #(FR+Oc Wikis say Montredond as Oc name; Oc wiki pagename still is missing the final D. To tweak on Wikipedia when I get the chance...with sources, obvi.)
+	#Port-la-Nouvelle ? (500 in the village in 1839, 1364 in the commune in 1846; it appears the place may have been founded in the 1500s.)
+	#Villedaigne ? (467 in 1896)
+	"de La Novèla"
+	"de Viladanha"
+	#Hamlets
+	"de Vedilhan" #Moussan: Védilhan (commune during the Revolution), the 'Hortes du Roucan'.
+	"de Las Cabanas" #Fleury: Cabanes-de-Fleury
+	"del Lac" #Sijan: Le Lac (commune during the Revolution).
+	#####AUDE LASTNAMES#####
+	#ü ó ò
+	#Most common surnames AUDE (http://www.geopatronyme.com/hitdept/11 1890.)
+	Crotz Teissièr
+	#Vidal Duran
+	#ABET ALARD ALARY ALAUX ALBERNY ALBERT ALBOUY ALIBERT ALQUIE ALQUIER ALRIC AMIEL AMIGUES AMOUROUX ANCELY ANDRE ANDRIEU ANGLADE ANIORT ARIBAUD ARMENGAUD ARNAUD ASTRE
+	Àbet Alaus Alboïn Alquièr Amigas Amorós Ancelin Anglada Aniòrt Astre
+	#ASTRUC AUDEMAR AUDOUY AUGE AURIOL AUTHIER AZAIS AZALBERT AZAM AZEAU AZEMA
+	Ariòl Astruc Autièr
+	#BABY BAILLAT BARBASTE BARBAZA BARBE BARDOU BARRAU BARRIERE BARTHE BARTHES BARTHEZ BASSET BASTIE BASTOUIL BATAILLE BAUX BAYLE BEDOS BELLISSENT BELMAS BENAZET BENAZETH BENET
+	Babin Balhat Barbasta Barbasan Barba Bardon Barrau Barrièra Barta Bartàs Bartés Basset Bastiá Batalha Bauç Baile Bedòs Bèlmas
+	#BERGE BERNARD BERTHOMIEU BERTRAND BES BETEILLE BEZIAT BIAU BIGOU BLANC BONHOURE BONNAFOUS BONNAURE BONNERIC BONNERY BONNES BONNET BORIES BOSC BOUCABEILLE BOUICHOU BOUISSET
+	Bèrja Beç Vesiat Bigon Blanc Bonafós Boneric Bonas Bonet Bòrias Bòsc Boisset #BONNERIC - 'bon e ric' ? BOUCABEILLE - Bocabelha??
+	#BOURDEL BOURGES BOURREL BOUSQUET BOUTET BOYER BRIEU BRINGUIER BRU BRUNEL BRUNET BURGAT
+	Bordèl Borgés Borrèl Bosquet Botet Boièr Briu Brunèl Brunet Burgat #Briu or Brieu?
+	#CABANIE CABROL CAHUZAC CALAS CALMET CALMETTES CALS CALVAYRAC CALVEL CALVET CAMBON CANAL CANAVY CANET CANTIE CARAYOL CARBONNEL CARBOU CARLES CARRIE CARRIERE CASSAN CASSIGNOL
+	Cabròl Causac Calas Calmet Calmetas Cals Calvairac Calvèl Calvet Cambon Canal Canavi Canet Carbonèl Carbon Carrièra Cassanh Cassinhòl
+	#CASTAN CASTEL CASTELLA CATHALA CATHARY CAU CAUNES CAVAILLES CAVERIVIERE CAYROL CAZANAVE CHAUBET CHAUVET CHIFFRE CLAMENS CLANET CLARET CLAUZEL CLERC CLERGUE COMBES CONQUET
+	Castanh Castèl Castelhan Catalan Catarin Cau Caud Caunas Cavalhés Cavaribièra Cairòl Casanava Chifra Clanet Claret Clausèl Clerc Clèrgue Combas Conquet #Cau, or Caud? Incl both for now...
+	#CONSTANS CONTE COSTE COSTES COURTHIEU CROS CUXAC
+	Conte Comte Còsta Còstas Cortil Cortiu Cròs Cucçac #Conte, or Comte? Both Occitan, so including both for now. #Cortiu is the Provençal version of Cortil, so including both.
+	#DAVID DAYDE DEDIEU DEJEAN DELBOURG DELFOUR DELLONG DELMAS DELPECH DENARNAUD DENAT DESARNAUD DEVILLE DOUMENC DOUMERGUE DOUTRE DUBOIS DURAND
+	Dedieu Dejoan Delborg Delforn Dellong Delmas Delpuèg Denarnaud Denat Devila Dotra Delbòsc #Denarnaud = D'En'Arnaud?
+	#EMBRY ESCANDE ESCARGUEL ESCOURROU ESCUDIE ESQUIROL ESTEVE EYCHENNE
+	Escande Escudièr Esquiròl #ESCARGUEL...Escarguèl?
+	#FABRE FAGES FALANDRY FALCOU FARGUES FAU FAURE FERRAND FERRASSE FERRIE FERRIER FONTES FORT FOULQUIER FOURES FOURNIE FOURNIER FRAISSE FRANC FRANCES FREU
+	Fabre Fajas Falcon Fargas Fau Faure Ferrassa Fèrria Ferrièr Fontés Fòrt Fornièr Fraisse Franc Freu
+	#GAILLARD GALIBERT GALINIER GALY GARRIGUES GARROS GARROUSTE GASC GASTOU GAU GAUBERT GAY GAYRAUD GAZEL GELIS GERMA GIBERT GIL GLEIZES GLEYZES GOUT GRASSAUD GRAUBY GRIFFE GRILLERES
+	Galinièr Galin Garrigas Garròs Gau Gai Gairaud Gasèl German Glèisas Got Grassaud
+	#GROS GUICHOU GUILHEM GUIRAUD GUY
+	Gròs Guichon
+	#HUC HUILLET ICHE ICHER IZARD JALABERT JALBAUD JAMMES JEAN JEANJEAN JORDY JOULIA JOURDA JOURNET JULIA JULIEN
+
+	#LABADIE LABATUT LABORDE LABOUCARIE LACOMBE LACROIX LACUBE LAFFON LAFFONT LAGARDE LANNES LAPEYRE LASSERRE LAURENT LIMOUZY LOUBES
+	Labadiá Labatut Labòrda Labocariá Lacomba Lacrotz Lacuba Lafont Lagarda Lanas Lapèira Lassèrra Lemosin Lobas
+	#MAHOUX MALET MARC MARCEROU MARQUIE MARQUIER MARRE MARTIN MARTRE MARTY MAS MATHIEU MAUGARD MAUREL MAURY MELET MERCIER MESTRE METGE MILHAU MIQUEL MIR MOLINIER MONIE MONIER MONS
+	Malet Marceron Marquièr Marra Martra Mas Maugard Maurèl Melet Mercièr Mèstre Mètge Milhau Mir Molinièr Monièr Mont
+	#MONTAGNE MOULIS MOUNIE MOURRUT NEGRE NICOL NOUVEL OLIVE ORMIERES OURLIAC OURNAC OUSTRIC
+	Montanha Morrut Negre Novèl Oliva Ormièras Orlhac
+	#PAGES PASTRE PECH PELISSIER PELOFI PENNAVAIRE PETIT PEYRE PIBOULEAU PINEL PIQUEMAL PISTRE PLA PLANCADE PLANEL PLANQUES PONS POUDOU POUILLES POUS PRAX PUEL PUJOL
+	Pagés Pastre Puèg Pelissièr Pelofi Penavaira Petit Pèira Pibolèl Pinèl Picamal Pistre Plan Plancada Planèl Plancas Polha Pos Prats Pujòl #Pelofi, or Pelòfi like Provençal?
+	#RAMON RASTOUIL RAYNAUD RAYNIER REVEL REVERDY REY REYNES RIBES RICARD RICHOU RIEUX RIGAIL RIGAUD RIVALS RIVES RIVIERE ROBERT ROGER ROLLAND ROQUEFORT ROQUES ROUANET ROUBY ROUCH
+	Rastolh Revelh Reverdin Rei Reinas Ribas Richon Rius Rigalh Rivals Ribièra Ròcafòrt Ròcas Roanet Robin Rog
+	#ROUDIERE ROUGE ROUGER ROUQUET ROUQUETTE ROUSSEL ROUSSET ROUX ROUZAUD RUFFAT
+	Rodièra Roge Roquet Roqueta Rossèl Rosset Ros Rosaud Rufat
+	#SABATIER SALLES SALVAT SALVETAT SARDA SAUNIERE SAURY SEGUIER SEGUY SEMAT SENEGAS SERRES SEVERAC SIBADE SIBRA SICARD SICRE SIE SIFFRE SIRE SIRVEN SOULA SOULIE SUBRA SYLVESTRE
+	Sabatièr Salas Salvat Salvetat Sarda Saunièra Seguièr Semat Senèrgas Sèrras Severac Sicrèt Sirvent Solan Solièr #Senèrgas is the only even somewhat likely translation I can find for SENEGAS. SIE - Sian? Cira?
+	#TAILHAN TAILLEFER TARBOURIECH TEISSEIRE TEISSEYRE THERON THOMAS TISSEYRE TOULZA TOURNIE TOUSTOU TRIBILLAC TRICOIRE
+	Talhant Talhafèr Teisseire Teron Tolosan Tornièr Toston Trevilhac Tricoire #Unsure exact Oc orthography of Tricoire.
+	#VAISSIERE VALETTE VASSAL VERDIER VERGE VERGNES VIALA VIALADE VIDAL VIE VIEU VIGUIER VILLEFRANQUE VIVES
+	Vaissièra Valeta Vassal Verdièr Vèrge Vèrnhes Viala Vialada Via Vida Viu Viguièr Vilafranca #VIE - Via? Vida? Neither?
+	#####COMMON (From Languedoc.txt)#####
+	###S-GABRIEL RODEZ https://www.s-gabriel.org/names/juliana/occitan/ (W/ Permission)
+	#Affaros Alaman Aldebal Andreas Aribert Ayceli Balsac Bandeli Barbier Bastier Bergonho Bocard Bolas Bonafos Bonifaci Bornasel Boyer Boissonada Bozesa Brau Broa Brun
+	Alaman Aribèrt Aicelin Balsac Barbièr Bastièr Bergonhon Bocard Bolas Bonafós Bornasèl Boièr Boissonada Brau Broa #Affaros Bandeli
+	#Cabrespinas Caissac Calsutras Cambolas Campanhac Canac Cantal Capelier Carlat Carrada Castanhier Catel Cairosa Charais Coderc Codonat Combas Combret Contet Corbes
+	Cabrespinas Caissac Cambolas Campanhac Canac Cantal Capelièr Carlat Carrada Castanhièr Catèl Cairosa Charais Coderc Codonat Combas Combret Contet Corbés #Calsutras
+	#d'Auzits "de Carlat" "de Condat" "de Fontencha" "de la Fon" "de la Parra" "de Limayrac" "de Manso" "de Mauro" "de Mayres" "de Moncado" "de Monferrier"
+	"d'Ausits" "de Carlat" "de Condat" "de La Font" "de La Parra" "de Limairac" "de Manson" "de Mauron" "de Maires" "de Montferrièr" #"de Fontencha" "de Montcado" - de Montcadon?
+	#"de Namaria" "de Penavayra" "de Pessolis" "de Petra" "de Peyrasmortas" "de Pineto" "de Podeo" "de Scoralha" "de Segur" "de Sortz" "de Terralh" "de Vernholes" "de Veyrac"
+	"de Penavaira" "de Pessolens" "de Petra" "de Pèirasmòrtas" "de Pineton" "d'Escoralha" "de Segur" "de Sòrts" "de Terralh" "de Vernhòlas" "de Vairac" #"de Namaria" "de Podeo" #Unknown where 'Penaveyra' is, but is still a surname today as 'Pénavaire'. 'Petra' is still a surname today. Peyrasmortas doesn't appear to exist today, but is gramatically sound ('dead stones').
+	#"del Cayro" "del Cros" "del Fraysse" "del Verdier" Deodat Domergue Duran Ebrart Engels Fabre Farcel Ferrand Floretas Fonfrega Formis Fort Fromenta Gabriac Gauffer
+	"del Cairon" "del Cròs" "del Fraisse" "del Verdièr" Fabre Farcèl Floretas Fontfreja Fòrt Fromenta Gabriac #Engels Formis Gauffer
+	#Galvahn Gasc Gasto Ginesta Girma Gras Grefolieyra Guasanha Guirlada Guirlard Guisardo Guitart Jalenca Joan Lagomia Manha Mansaga Marqués Marro Martel Martin Maruel
+	Gras Grefolièra Guitard Mansaga Marqués Marron Martèl Maruèlh #Galvahn Gasc Guasanha Jalenca Lagomia #Mansaga unattested in modern Occitan, but Mansac/Mançac is the name of a few villages.
+	#Forenames: Gaston German? Joan Martin
+	#Massabuou Mercia Mercier Mercieyra Miquel Molenier Monmato Montes Moysset Natas Pages Paget Palhargues Palhol Payra Perier Pons Pontier Porret Porro Randaynes Regandi
+	Massabuòu Mèrcia Mercièr Mercièra Miquèl Molinièr Montmaton Montés Moisset Pagés Paget Pairan Perièr Pontièr Porret Porron Regandin #Natas Palhargues - either an Occitanization of the Catalan feminine 'Pallargues', or something else entirely. Palhol Randaynes #Mèrcia or Mercia is referring to the English kingdom. Unsure of exact Occitan orthography. 'Montes' is not the plural of 'mont' in Occitan. Either an -és (-ese) or it's Spanish. Regandin is an old surname AFAIK, also found in Jean Féron's Les trois grenadiers (Québec, 1927), but nowhere else today that I can find. Past both ends of the game period, so keeping it.
+	#Rigaldi Riol Riols Riquet Robberta Robert Roquier Rossinhol Rostanh Salustre Samoral Sampso Sandral Saumah Saur Sedassier Segualar Segui Serras Seyrac Teldes Terissa
+	Rigaudin Riòl Riòls Riquet Roquièr Rossinhòl Rostanh Salustre Samson Sandral Sedassièr Segalar Sèrras Seirac #Riòl - variant of the same, sans-S? Or not? Samoral - Salmoral, Spain? Saumah - Sauman? Saumana? Teldes - Telde in the Canaries??? Terissa - Teresa???
+	#Forenames:Robèrta Robèrt Seguin
+	#Tomas Valeta Veziac Vigorous Viguer Viguier
+	Valeta Besiat Vigorós Viguièr #Veziac Viguèr is a Gascon variant of Viguièr.
+	#Forenames: Tomàs
 }
 
-army_names = { 
-         "Armée du Blésois"   "Armée de la Beauce" 
-         "Armée du Dunois"    "Armée du Gâtinais"
-         "Armée de Sologne"      "Armée du Vendômois" "Armée de la Loire"
-	 "Armée de $PROVINCE$" 
+ship_names = {
+	#####UNIQUES#####
+	"Aigla Daurada" "Amor de Petronilha" "Barba de Neptun" "Barca Blava" "Bèla Juliana" "Castèl Narbonés" "Corona de Laurièrs" "Corona Narbonesa" "Escut de Narbona"
+	"Escut de Septimània" "Filh de Gòtia" "Filh de Roma" "Flor Jauna" "Glòria Romana" "Granda Galiòta" "Na Luciana" "Pèrla Catalana" "Pèrla Ventosa" "Presa Tolosana"
+	"Ròsa de Septimània" "Solelh dels Vinhairons" "Vicenç Aimable" "Violeta Daurada" #Sun of the winegrowers, somewhat of a nod to both climate and the 1907 revolt.
+	"Fin'amor" #In honor of Ermengarda, as the fin'amor developed here during her reign.
+	"La Robina" #Canal de la Robine, built 1686-1692 along the ancient bed of the Aude (Romans traveled this way when it was part of the river) after the success of the Canal du Midi. The name itself isn't out-of-place earlier, as "La Robina" could refer to anyone by that given name.
+	###ROMAN ROADS
+	Domícia #Via Domícia
+	###NATURAL FEATURES
+	"Bajas" #étang de Bages.
+	"L'Uèlh Dotz"
+	"Pissavacha" #étang de Pissevaches.
+	"La Crosada" #Grotte de la Crouzade. Unknown exact Occitan name.
+	###MONUMENTS
+	"Puèg dels Molins" #Pech des Moulins (Gruissan). How old is the name?
+	#"Tor Barbarossa" #Tour Barberousse (Gruissan). Named after an Ottoman pirate, so only good after 1400.
+	#"Oppidum de la Molinassa" #"Oppidum de la Moulinasse" #The site is Gaulish; was it known before the 1920 prospection?
+	###CHURCHES
+	#Churches of Armissan
+	"Sant Pèire" "Sant Estève"
+	#Churches of Cuxac-d'Aude
+	"Sant Martin"
+	#Churches of Fleury
+	"Los Penitents" #"Sant Martin" "Nòstra Dòna" #Chapelle des Pénitents
+	#Churches of Gruissan
+	#"Nòstra Dòna"
+	#Churches of Narbonne
+	"La Magdalena" #Chapelle de la Madeleine de Narbonne
+	"Sant Sebastian" #Église Saint-Sébastien de Narbonne #Built 1400s.
+	"Santa Maria" "Nòstra Dòna" #Sainte-Marie/Notre-Dame de Lamourguier. 700s.
+	"Sant Just" "Sant Pastor" #Cathédrale Saint-Just-et-Saint-Pasteur de Narbonne. 1200s.
+	"Sant Pau" #Église Saint-Paul de Narbonne. 1180. Paul, or Pau? Pau Albarèl was from Narbonnais region, so going with the U spelling for now.
+	#"Santa Maria" #Abbaye Sainte-Marie de Fontfroide
+	#Churches of Port-la-Nouvelle
+	"Bona Novèla" #Notre-Dame-de-Bonne-Nouvelle
+	#Churches of Sallèles-d'Aude
+	"Sant Ròc"
+	#Churches of Salles-d'Aude
+	"Sant Julian" "Santa Basilissa" #"Los Penitents" #Saint-Julien-et-Sainte-Basilisse de Salles-d'Aude
+	#Churches of Vinassan
+	#"Sant Martin"
+	###MISC
+	#Coursan has a source of iron water, at the village plaza 'Place Auguste-Tailhade'
+	###CITIES (See Army List)
+	"Sijan" "Grussan" "Corçan" "Cucçac"
+	"Perinhan" "Auvelhan" "Bajas" "Salas" "Leucata" "Salèlas" "Sant Nazari" "Moçan" "Canet" #Fleury was called Pérignan during the Middle Ages, taking its modern name (Fluris) in the 1700s, reverting once during the revolution.
+	"Peiriac" "Sant Marcèl" "La Pauma" "Nevian" "Marcorinhan"
+	"Armissan" "Montredond" "Raissac" "Vinaçan" #(FR+Oc Wikis say Montredond as Oc name; Oc wiki pagename still is missing the final D. To tweak on Wikipedia when I get the chance...with sources, obvi.)
+	"La Novèla"
+	"Viladanha"
+	#Hamlets
+	"Vedilhan" #Moussan: Védilhan (commune during the Revolution), the 'Hortes du Roucan'.
+	"Las Cabanas" #Fleury: Cabanes-de-Fleury
+	"Lo Lac" #Sijan: Le Lac (commune during the Revolution).
+	###CITY ADJ
+	Bajòt Bajòta Cabanaire Cabanaira Grussanòt Grussanòta Narbonés Narbonesa Nevianés Nevianesa Peiriagòl Peiriagòla Peiriagòt Peiriagòta Perinhanés Perinhanesa #Sijanés Sijanesa
+	###PEOPLES ADJ
+	Elisic Elisica #Local Pre-Roman tribe. Elísic is the Catalan name, French is Élisyque. There is ONE attestation on the Oc wiki, which spells it elisic.
+	#####COMMON LANGUEDOCIAN#####
+	###NOUN COMMON
+	#Concepts+Values
+	Desfisança Joventut Leialtat Onor Resisténcia Volença
+	#Critters
+	Agla "Agla Marina" Aironda Alauseta Balena Estornèl Falcon Gralha Macarèl Mandra Rossinhòl Sardina Taur Volp #MACARÈÈÈÈÈÈÈLLLLLL
+	#https://fr.wikipedia.org/wiki/Animaux_tot%C3%A9miques_de_l%27H%C3%A9rault #Some are generic, some are particular. Most fit with Languedocian regardless of the year.
+	#https://oc.wikipedia.org/wiki/Animal_totemic
+	Agaça Ase Baiard Baragonha Boc Buòu Cabra "Cabra Blanca" Cabreta Cagaròl Camèl Can Cauquilhat "Caval Marin" Cavalet Cèrvi Cranc Crapaud Dalfin Gralhesca Granhòta #Chivalet should be Cavalet! #Common:Drac Lop
+	Lapin Lebrièr Leon Locàs Moissau Mùjol Muòl Pelican Pesolh Picart Pofre Polin "Pòrc Negre" Porquet Rana Ratàs Romegaire Sèrp Cèrvi Tamaron Tartuga Vaca "Vaca Roja" Vedèl Veidrac	
+	Cogairós #Recent totemic animal, but older+folkloric in origin. Unknown age.
+	#Culture - Legends
+	"Bèla Magalona" "Cavalièr Ermita" "Dòna Carcas" Fada Fadet Farfadet "Pòrt Sarrasin" "Princessa Irèna" "Sant Lop" "Sant Guiral" "Sant Alban" Sultan "Tres Flamas" "Tres Senhors"
+	#Culture - Traditions
+	Justa Justaire Justairitz Targa Targaire Targairitz
+	#Folk - Ruler Titles
+	Dalfin Escudièr Sobeiran Vescomte Vescomtessa
+	#Folk - People+Professions
+	Artisan Aventurièr Caçaire Campion Cavalièr Conquistaire Liberatritz Patron Venjador
+	#Misc Nouns
+	Alba Arpa Busca Cometa Castèl Cròs Flama Miralh Nívol Oasí Opèra "Santa Crotz" Solelh Tempèsta Tor
+	#Name - First
+	Aimeric Andrieu Carles Jaume Olivier
+	Azalaís Ildegarda Isabèla
+	#Place
+	Santonja Santonge
+	#Plants
+	Alapeda Boisseròla Cade Cornièr Flor Garric Genebre Genebrièr Laurièr "Lin de Narbona" Milgrana Palma Rosèla #Alapeda = Asphodel. Cade = Juniperus oxycedrus, a type of juniper native to the Mediterranean. Cornièr = Boxwood. Genebre/Genebrièr is another juniper.
+	#Winds
+	Autan #Vent d'Autan - In Guyenne also.
+	Tramontana #Provence also.
+	Autan Levant Lombarda Marin Mistral Ponent Simon Siròc Tramontana #Embat #To finish later.
+	###ADJ COMMON
+	Ardit Ardida Benfasent Benfasenta Blanca Brutal Cendrós Cendrosa Erculèu Erculèa Excepcional Florit Florida Fòrt Fòrta Invencible Invencibla Meravilha
+	Reial Supèrba Tronant Tronanta Valent Valenta Volontari Volontària
+	#Adj Ethnic (F Matches)
+	Basc Provençal Santongés Santongesa
+	#####COMMON OCCITAN#####
+	###NOUN COMMON
+	#Concepts+Values
+	Abiletat Abondància Absolucion Accion Acòrdi Adaptabilitat Adaptacion Admiracion Afirmacion Aliança Ambicion Amistat Aparicion Armonia Aspiracion Autoritat Benanança Benediccion
+	Comoditat Concepcion Concinitat Constància Contemplacion Coratge Creativitat Curiositat Dedicacion Deliberacion Determinacion Devocion Diversitat
+	Elegància Equanimitat Esperança Esperit Estabilitat Estrategia Euforia Exploracion Extasi Federacion Fiertat Fortitud Glòria Gràcia Gratitud Illusion Independéncia Inspiracion
+	Justícia Legenda Leialista Liberacion Luminositat Miracle Navigacion Necessitat Oportunitat Ordenança
+	Passatge Passion Patronatge Persisténcia Predominança Primautat Propension Prosperitat
+	Reialista Relativitat Resolucion Restitucion Revelacion Santuari Sapiéncia Seguritat Senhoratge Silenci Sinceritat Solaç Solidaritat Supremacia
+	Tenacitat Trionf Union Unitat Venjança Vertut Virtuositat
+	#Critters
+	Abelha Balena Calandra Calandreta Còrb Dromadari Lop Ors Orsa Pelican Rapaça Tigre Tigressa Ur #Ur = Aurochs #Lapin/Conilh/Coniu.
+	#Culture - Legends
+	Colòbra Drac Dragon Matagòt #Pariseta? How old is the Parisette?
+	#Culture - Literature+Music (Non-Trobar)
+	Flamenca Laüt Melodia Musica Poesia Ritme Rima #Oc Literature and Music
+	#Culture - Traditions
+
+	#Culture - Trobar Genres
+	Balada Cobla Dança Descort Escondit Estampida Gap Partiment Planh Rason "Salut d'Amor" Sestina Sirventés Sòmi Tençon Vida #Trobador genres. Not included here: Alba/Auba; C(h)anso(n); C(h)ançon de Gèsta; Enuèg/Enueg/Enuei/Einueg; Pastorèla/Pastorela.
+	#Folk - Ruler Titles
+	Baron Comte Comtessa Dinastia Duc Marqués Marquesa Monarca Princessa
+	#Folk - People+Professions
+	Aprendís Aprendissa Apòstol Coquin Coquina Corsari Corsària Defensor Defensora Escolan Escolana Eròi Escriba Liberator Mentòr Protector Trobador Trobairitz Viatjaire #Victor #Feminine endings here are more variable, usually between -tora and -tritz, but should go in individual cultures' tags, if at all.
+	#Heritage - GrecoRoman (Mythology)
+	Abondanci Afrodita Amazòna Angita Annona Apollon Aquilles Aquilon Argonauta Artèmis Atena Aurora Bacus Bellona Borèas Calipso Cassandra Ceres Cesar Clemença Concòrdia Constança
+	Demetèr Diana Dionís Driada Efèst Equitat Eracles Estia Felicitat Fidelitat Fortuna Fèbus Fènix Furia Gorgòna Ilaritat Iris Isis Janus Junon Jupitèr Justícia Juventas
+	Làmia Laton Leticia Liberalitat Libertat Luna Lèto Mart Medusa Mercuri Minotaure Minèrva Neptun Nobilitat Ocean Onos Oranos Orfèu
+	Pandora Persefòna Pietat Pollux Pomona Poseidon Proserpina Providéncia Quirin Sagitari Saturn Serena Silvan Titan Triton Tròia Ulisses Uranus Vesta Victòria Virt Vulcan Vènus
+	Zèus Èra Òps
+	#^Var. VivAup:Venús
+	#Heritage - Greek
+	Alexandre Dracma Leonidas
+	#Heritage - Gaulish (Mythology)
+	Cernunnos Damòna Epòna Esus Lug Rosmerta Sucellos Taranis Teutatès #or Epona? #Damona? Rosmèrta?
+	#Albiorix Caturix #Ortografia?
+	#Heritage - Roman
+	Annibal Cesar Cleopatra Juli
+	Cartage Centuria Centurion Colonia Colòs Gladiator Legion Legionari Patrician
+	#Misc Nouns
+	Abís Arpon Blason Cendre Centre Constellacion Corona Devisa Diamant Escut Florença Gargolha Jòia Lança Lum Lutz Mainatge Memòria Meridian Mite Monument Paradís Pica Pinacle Promessa Sason Torn Tractat Trinitat Trirema Vent Violeta
+	#Name - First (Import the list once the cultures are done?)
+	Agustin Anna Antòni Antonin Beatritz Brunissenda Clara Clàudia Emma Ivan Ivana Ives Ivon Ivona Joana Justinian Laura Loïsa Luc Maria
+	Ròsa Rosalia Rosalina Rosamonda Roseta Rosina Roson Sabin Sabina Sabrina Samson Savin Sebastian Simon Simona Simonet Simoneta Solanja Suson #Sulpici
+	Teresina Uldaric Ulisses Ulric Urban Valentin Valentina Valerian Valeriana Veran Verana Veronica Victorin Victorina Victorian Victoriana Vidalina Vincenç Violeta Zenon
+	#Place
+	Gàllia Roma Visigòtia
+	Alemanha Aragon Berric Bretanha Castelha Espanha Escòcia França Guernesei Irlanda Jersei Londres Normandia Ongria Peitau Roan Toscana #Var. Pro:Castilha (i/e variation, Castelha is still good.)
+	Orient Ponent
+	#Plants
+	Espic Lavanda Lin Liri Oliva Pin Ròsa
+	#Winds
+	
+	###ADJ COMMON (M followed by F, by reason of naming plausability & higher historical equality)
+	Abondós Abondosa Actiu Activa Agradiu Agradiva Adaptable Adaptabla Aimable Aimabla Aimat Aimada Ambiciós Ambiciosa Amorós Amorosa Antic Antica Ardent Ardenta Argentat Argentada
+	Artistic Artistica Aspirant Aspiranta Astruc Astruga Astuciós Astuciosa Aventurós Aventurosa Benvolent Benvolenta Bon Bona Brave Brava Brilhant Brilhanta
+	Capable Capabla Constant Constanta Content Contenta Coratjós Coratjosa Coronat Coronada Creatiu Creativa Curiós Curiosa Daurat Daurada Dur Dura
+	Elegant Eleganta Eminent Eminenta Erculenc Erculenca Esclatant Esclatanta Estelat Estelada Estranh Estranha Espectaclós Espectaclosa Excepcionala Extraordinari Extraordinària
+	Famós Famosa Fin Fina Finet Fineta Finòt Finòta Florissent Florissenta Formidable Formidabla Furiós Furiosa Galant Galanta
+	Imperiós Imperiosa Iniciala Insurgent Insurgenta Intrepid Intrepida #Fin, Finet, Finòt - Fine, clever.
+	Just Justa Legendari Legendària Luminós Luminosa Lusent Lusenta Majestuós Majestuosa Marin Marina Mitic Mitica Misteriós Misteriosa Montanhós Montanhosa Nòble Nòbla Òcre Òcra #Malin means malign rather than clever, and in some dialects could mean Satan, so leaving it out.
+	Pacific Pacifica Persistent Persistenta Pintat Pintada Placid Placida Plasent Plasenta Poderós Poderosa Polit Polida Pompós Pomposa Predominant Predominanta Prudent Prudenta
+	Radiant Radianta Redobtable Redobtabla Reiala Remarcable Remarcabla Salat Salada Sedusent Sedusenta Segur Segura Seriós Seriosa Sufisent Sufisenta Terrible Terribla
+	Urós Urosa Valorós Valorosa Ventós Ventosa Verdejant Verdejanta Verdós Verdosa Vertuós Vertuosa Viciós Viciosa Vigilant Vigilanta
+	#M forms vary too much by dialect to include:Excepcional/Excepcionau Inicial/Iniciau Reial/Reiau
+	#Adj Ethnic (F Matches)
+	African Africana Anglés Anglesa Aquitan Aquitana Arab Araba Aragonés Aragonesa Artesian Artesiana Asiatic Asiatica Breton Castelhan Castelhana Cornic Cornica #Castelhan/Castilhan.
+	Egipcian Egipciana Escosés Escocesa Flamenc Francés Francesa Galés Galesa Gallés Gallesa Galloroman Galloromana German Germana
+	Indian Indiana Irlandés Irlandesa Italian Italiana Latin Latina
+	Normand Normanda Peitavin Peitavina Picard Picarda Roman Romana Visigòt Visigòta #Breto(n)a
+	Occitan Occitana Auvernhat Auvernhata Daufinenc Daufinenca Gascon Guianés Guianesa Lemosin Lemosina Lengadocian Lengadociana Provençala #Provençau Gasco(n)a
+	Balear Baleara Catalan Catalana Valencian Valenciana #Principatin Principatina
+	Basca Espanhòla #Len+Lim Basc; G&P Basco; VivAlp Basc o Basque #Auv+Len Espanhòl; autres: Espanhòu
+}
+
+army_names = {
+	#####REGIONAL LEVIES#####
+	"Armada de Narbona" #Capital
+	#Viscounty of Narbonne - Castle Cities by 1793 pop
+	#^Or not; Narbonne's a bit small for that. Trying by commune:
+	#Sigean 1822, Gruissan 1715, Coursan 1440, Cuxac-d'Aude 1105
+	"Armada de Sijan" "Armada de Grussan" "Armada de Corçan" "Armada de Cucçac"
+	#Fleury 923, Ouveillan 900, Bages 716, Salles-d'Aude 712, Leucate 647, Sallèles-d'Aude 620, St-Nazaire-d'Aude 550, Moussan 515, Canet 500
+	"Armada de Perinhan" "Armada d'Auvelhan" "Armada de Bajas" "Armada de Salas" "Armada de Leucata" "Armada de Salèlas" "Armada de Sant Nazari" "Armada de Moçan" "Armada de Canet" #Fleury was called Pérignan during the Middle Ages, taking its modern name (Fluris) in the 1700s, reverting once during the revolution.
+	#Peyriac-de-Mer 480 (Had a Castle during HYW), St-Marcel-sur-Aude 457, "La Palme" 379, Névian 365, Marcorignan 343
+	"Armada de Peiriac" "Armada de Sant Marcèl" "Armada de La Pauma" "Armada de Nevian" "Armada de Marcorinhan"
+	#Armissan 281, Montredon-des-Corbières 280, Raissac-d'Aude 256, Vinassan 256
+	"Armada d'Armissan" "Armada de Montredond" "Armada de Raissac" "Armada de Vinaçan" #(FR+Oc Wikis say Montredond as Oc name; Oc wiki pagename still is missing the final D. To tweak on Wikipedia when I get the chance...with sources, obvi.)
+	#Port-la-Nouvelle ? (500 in the village in 1839, 1364 in the commune in 1846; it appears the place may have been founded in the 1500s.)
+	#Villedaigne ? (467 in 1896)
+	"Armada de La Novèla"
+	"Armada de Viladanha"
+	#Hamlets
+	"Armada de Vedilhan" #Moussan: Védilhan (commune during the Revolution), the 'Hortes du Roucan'.
+	"Armada de Las Cabanas" #Fleury: Cabanes-de-Fleury
+	"Armada del Lac" #Sijan: Le Lac (commune during the Revolution).
+	#Castle
+	#"Armada del Puèg de Celeiran" #Castèl del Puèg de Celeiran (at Salles-d'Aude)
+	#####FILLER#####
+	#Filler - Parçan
+	"Armada de la Clapa" #Massís de la Clapa
+	#Filler - Generic
+	"Armada del Nòrd" "Armada del Sud" "Armada de l'Èst" "Armada de l'Oèst"
+	"Armada d'Autan" "Armada del Ponent" "Armada del Miègjorn"
+	#Filler - Province
+	"Armada de $PROVINCE$"
+}
+
+fleet_names = {
+	"Flòta dels Elisics" #Local Pre-Roman tribe. Elísic is the Catalan name, French is Élisyque. There is ONE attestation on the Oc wiki, which spells it elisic.
+	"Flòta de Septimània" #Septimania, of which Narbonne was the capital.
+	"Flòta de Gòtia" #Marquisate of Gothia, of which Barcelona and Narbonne appear to be the main cities. Its division led to the formation of the County of Narbonne.
+	#####FILLER#####
+	#Filler - Generic
+	"Escadra Roja" "Escadra Jauna" "Escadra Blanca" "Escadra Blava" "Escadra Verda" "Escadra Grisa" "Escadra Iranja" "Escadra Negra" "Escadra Violeta" "Escadra Ròsa"
+	#Filler - Cities (Scraping the Barrel)
+	"Escadra de Narbona" "Escadra de Leucata" "Escadra de Grussan"
+	#Filler - Towns (Scraping the Barrel II)
+	"Escadra de Perinhan" "Escadra de La Pauma" "Escadra de Sijan" "Escadra de Bajas" "Escadra de Peiriac" "Escadra de La Novèla"
+	#Filler - Province
+	"Escadra de $PROVINCE$"
 }
