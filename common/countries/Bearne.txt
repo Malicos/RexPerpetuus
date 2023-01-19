@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 27 16 249 }
 
-revolutionary_colors = { 8 15 8 }
-
 historical_idea_groups = {
 	defensive_ideas
 	trade_ideas
@@ -36,90 +34,403 @@ historical_units = {
 }
 
 monarch_names = {
-	"Louis #0" = 80
-	"Charles #1" = 60
-	"Louis-Philippe #0" = 40
-	"Philippe #0" = 40
-	"Gaston #0" = 20
-	"Henri-Alexandre #0" = 20
-	"Nicolas #0" = 20
-	"Alexandre-Louis #0" = 10
-	"François #0" = 10
-	"Jean #0" = 5		
-	"Antoine Philippe #0" = 5
-	"Hughes #2" = 1
-	"Robert #1" = 1
-	"Alexandre #0" = 0
-	"Ambroise #0" = 0
-	"Armand #0" = 0
-	"Barthélemy #0" = 0
-	"Bernard #0" = 0
-	"Claude #0" = 0
-	"Denis #0" = 0
-	"Eudes #0" = 0
-	"Gui #0" = 0
-	"Guillaume #0" = 0
-	"Gustave #0" = 0
-	"Henri #0" = 0
-	"Jacques #0" = 0
-	"Jean-Baptiste #0" = 0
-	"Jean-Philippe #0" = 0
-	"Jules #0" = 0
-	"Marc #0" = 0
-	"Maurice #0" = 0
-	"Maximilien #0" = 0
-	"Michel #0" = 0
-	"Pierre #0" = 0
-	"Raoul #0" = 0
-	"René #0" = 0
-	"Simon #0" = 0
-	"Thibaut #0" = 0
-	"Xavier #0" = 0
-	
-	"Claudine #0" = -10
-	"Catherine #0" = -1
-	"Marguerite #0" = -1
-	"Marie #0" = -1
-	"Jeanne #0" = -1
-}
+	# RP RULER NAMES
+	"Lop Centolh #1" = 5
+	"Gaston #4" = 60
+	"Guiscarda #1" = -5
+	"Joana #1" = -5
+	"Lop #1" = 5
+	"Plaisance #1" = -5
+	"Ebles #1" = 5
+	"Arnaud #1" = 5
+	"Rogèr #3" = 0
+	"Centolh #7" = 60
+	"Jaufret #4" = 60
 
-ship_names = {
-        "l'Amboise" "l'Amilly" "l'Artenay" "l'Azay-le-Rideau"
-        "la Beaune-la-Rolande" "le Beauregard" "la Bellegarde" "le Blois" "la Briare"
-        "la Chalette" "le Chambord" "le Chamerolles" "le Châteauneuf" "le Château-Renard" "le Châtillon-Coligny" "le Chécy" "le Chenonceau" "le Cheverny" "le Chevilly" "le Cléry-Saint-André" "le Combleux" "le Courtenay"
-        "le Dunois"
-        "la Fay-aux-Loges" "le Ferrières" "la Ferté-Saint-Aubin" "le Fleury-les-Aubrais"
-        "le Germigny" "le Gien"
-        "le Jargeau"
-        "la Bussière"
-        "le Malesherbes" "le Meung-sur-Loire" "le Montargis"
-        "le Neuville-aux-Bois"
-        "l'Olivet" "l'Outarville" "l'Ouzouer"
-        "le Patay" "le Pithiviers" "le Pontchevron" "le Puiseaux"
-        "le Saint-Benoît" "le Saint-Jean-de-Braye" "le Saint-Jean-le-Blanc" "le Sully"
-        "le Talcy"
-        "le Vendôme" "le Villesavin"
+	#####BEARN SOVEREIGNS#####
+	"Guilhèm #0" = 10 #II reigned 1224-1229.
+	"Pèr #0" = 5 #Wikis are a mess as to what his regnal number was. Some say 1, some 2.
+
+	"Maria #0" = -5 #I 1170-1173.
+	#####BEARN CONSORTS+HEIRS#####
+	"Bernat #0" = 5 #Son.
+
+	"Asalaís #0" = -4 #How many, what value?
+	"Beatritz #0" = -3 #Consort.
+	"Constança #0" = -5 #Daughter. Constança, or Constància?
+	"Garsenda #0" = -2 #Provençal.
+	"Guilhemeta #0" = -2 #Guillema/Guillemette. Catalan.
+	"Marta #0" = -3 #Consort.
+	"Petronilha #0" = -2 #Bigorre.
+	"Sancha #0" = -2 #Navarrese.
+	"Talesa #0" = -1 #Aragonese noblewoman. Consort.
+
+	#####FOIX-BEARN#####
+	"Archambaud #0" = 5 #Actually unsure of the spelling, but the count was French and not Occitan. PDX used Archambaud, but Catalan has Arquimbald. Given it's south of the c-/ch- shift, Arquambaud or Arquimbaud seems more likely to be native.
+	"Francés #0" = 5 #Francés Fèbus.
+	"Jacme #0" = 5 #PDX:Jacques (French)
+	"Matèu #0" = 5 #PDX:Matiu (Gascon orthography, but wrong subdialect?) Reign starts 1398!
+	"Rogèr Bernat #0" = 1 #Reigned 1265-1302. For the history files.
+
+	#####PYRENEES-ATLANTIQUES LASTNAMES+TOPONYMS#####
+	"Armon #0" = 0
+	"Avit #0" = 0
+	"Castin #0" = 0
+	"Estève #0" = 0
+	#"Gladia #0" = 0
+	#"Goen #0" = 0
+	"Guironç #0" = 0
+	"Haust #0" = 0
+	#"Jacme #0" = 0
+	"Just #0" = 0
+	"Laurenç #0" = 0
+	"Martin #0" = 0
+	"Medard #0" = 0
+	"Miquèu #0" = 0
+	"Palai #0" = 0
+	#"Pèr #0" = 0
+	"Vincenç #0" = 0
+	
+	"Coloma #0" = -1
+	"Gràcia #0" = -1
+	#####MISC##### #These names all existed AFAIK, but for some reason some feel...misplaced in time? Geck...
+	"Alan #0" = 0
+	"Artús #0" = 0
+	"Bertran #0" = 0
+	"Blasi #0" = 0
+	"Dàvid #0" = 0
+	"Enric #0" = 0
+	"Ernèst #0" = 0
+	"Eustaqui #0" = 0
+	"Geraud #0" = 0
+	"German #0" = 0
+	"Gonçau #0" = 0
+	"Gregòri #0" = 0
+	"Gui #0" = 0
+	"Marc #0" = 0
+	"Nadau #0" = 0
+	"Simon #0" = 0
+	"Tomàs #0" = 0
+	"Uc #0" = 0
+	"Valèri #0" = 0
+	"Vidau #0" = 0
+
+	"Alícia #0" = -1
+	"Anna #0" = -1
+	"Aurèlia #0" = -1
+	"Barbara #0" = -1
+	"Bèrta #0" = -1
+	#?"Cecília #0" = -1
+	"Clàudia #0" = -1
+	"Diana #0" = -1
+	"Domenja #0" = -1
+	"Elena #0" = -1
+	"Ermengarda #0" = -1
+	"Ilària #0" = -1
+	"Julia #0" = -1
+	"Laura #0" = -1
+	"Loïsa #0" = -1
+	"Lucia #0" = -1
+	"Marieta #0" = -1
+	"Marisa #0" = -1
+	"Matilda #0" = -1
+	"Miquèla #0" = -1
+	"Mirelha #0" = -1
+	"Monica #0" = -1
+	"Natalia #0" = -1
+	"Octàvia #0" = -1
+	"Patrícia #0" = -1
+	"Paula #0" = -1
+	"Ramona #0" = -1
+	"Reina #0" = -1
+	"Renada #0" = -1
+	"Ròsa #0" = -1
+	"Serafina #0" = -1
+	"Serena #0" = -1
+	"Sidònia #0" = -1
+	"Ugueta #0" = -1
+	"Valèria  #0" = -1
+	"Veronica #0" = -1
 }
 
 leader_names = {
-        "d'Avaray"
-        Badoux "de Barville" "de Beaugency" "de Beauharnais" "de Beauregard" "du Bellay" "Bernard de Montebise" "de Boigneux" 
-        "de Chabot" "de Châtillon"
-        d'Ennery
-        "de Gauville" "de Geresme" "Givès de Creusy" Garandeau "de Garlande"
-        "de Laage" "de La Brisardière" "de La Bussière" "de La Chapelle" "de La Chesnaye" "de La Valette" "de L'Estoile" "Le Maître" "Le Texier"
-        "de Maintenon" "de Marolles" "de Martel de Rénac" "de Montboissier" "de Montigny" "de Montlhéry"
-        "de Neufcarres"
-        "Péan de Saint-Gilles" "de Phéline" "de Pontville" "de Prunelé"
-        "de Rancourt" "de Réméon d'Orval" 
-        "de Sabrecois" "de Saint-Cosme" "de Saint-Marc" "de Saint-Mars" "de Salles" "Scott de Coulanges" "de Senneville" "de Sérizy"  "Seurat de La Boullaye"
-        "de Tannoys"
-        "de Villiers"
+	#####HISTORICAL FIGURES#####
+	"de Bordèu" #Teofil de Bordèu, Bearnese doctor and writer of the 1700s.
+	#"de Boset" #Jan de Boset, writer, late 1800s-1950s. Name isn't out-of-place for the EU4 timeframe.
+	Desporrins #Ciprian Desporrins, 1698-1759. Bearnese poet and parliamentarian.
+	"de Fondevila" #Joan Enric de Fondevila, Bearnese writer and playwright.
+	"de Fontans" #Peiròt de Fontans, military man, late 1300s.
+	"de Gassion" #Jacòb de Gassion, Occitan writer and doctor, uncle of a French marshal and president of the Parliament of Navarre, at Pau.
+	"de Jeliòt" #Pèir de Jeliòt. Composer, 1700s.
+	"de Marca" #Pèir de Marca. Historian, president of the Parliament of Navarre, and a church man, 1594-1662.
+	Navarròt #Xavièr Navarròt, 1799-1832. Writer.
+	Peiret #Alèxi Peiret, born 1826, so right after the game. Writer, engineer, history professor.
+	"de Saleta" #Arnaut de Saleta. Protestant pastor and writer, late 1500s.
+	#Musketeers! Yay!
+	"d'Aràmits" #Enric d'Aràmits
+	"d'Artanhan" #"de Batz Castèlmoro" #Carles de Batz Castèlmoro, alias d'Artanhan
+	"d'Atòs" #Armand de Sillèga d'Atòs d'Auta Viela
+	"de Portau" #Isaac de Portau
+	"de Tres Vièlas" #Joan Armand deu Peirèr, comte de Tres Vièlas
+	#Explorer
+	"de Lom d'Arce" #Loís Armand de Lom d'Arce, baron de Lahontan
+	#BIGORRE
+	"de Miramont" #Mother of Ciprian Desporrins, who would become a Bearnese writer.
+	#MARSAN
+	"de Gorgas" #Domenge de Gorgas. Military man, born in Mont-de-Marsan, 1530.
+	#####TOPONYMIC (See Army List)#####
+	"de Pau" "d'Ortès"
+	"d'Auloron"
+	"de Morlans"
+	"de Juranson" "de Nai"
+	"d'Artés" "de Sovèstre" "deu Vic Vilh"
+	"de Montanèr"
+	"de Varetons" "d'Aspa" "d'Aussau"
+	#####PYRENEES-ATLANTIQUES LASTNAMES#####
+	#ó ò
+	#Most common lastnames PYRENEES-ATLANTIQUES (http://www.geopatronyme.com/hitdept/64 1890.) Keep in mind that a lot of these are Basque or spanish, so don't need to be included.
+	#ABADIE ABBADIE AGUER AGUERRE AGUIRRE AMESTOY ANGLADE ARAMBURU ARLA AROSTEGUY ARRETCHE ARTOLA AUGE AYCAGUER
+	Abadia Abadia Anglada #AGUER AGUERRE AGUIRRE AMESTOY ARAMBURU ARLA AROSTEGUY ARRETCHE ARTOLA AUGE - Augèr? AYCAGUER
+	#Forenames - Augèr?
+	#^Rechecked w/ Gasconha.com.
+	#BACQUE BADIE BARADAT BARATS BARBE BAREILLE BARNECHE BARNETCHE BARRAQUE BARRERE BARTHE BAYLE BEGUE BEIGBEDER BELLEGARDE BELLOCQ BERGE BERGERET BERGEROT BERGES BERGEZ BERHO BERHOUET
+	Vaquèr Varadat Varats Barbèr Varelha Barraquèr Barrèra Barta Baile Veguèr Bèthvéder Bèraguarda Bellòc Vergèr Vergeret Vergeròt Vergèrs Vergèrs #BADIE - Badia? BARBE - Barbèr or Barba, depending on accent. BARNECHE BARNETCHE BERHO BERHOUET
+	#^Rechecked w/ Gasconha.com.
+	#BERNARD BERNET BERROUET BETBEDER BIDART BIDEGAIN BIDEGARAY BISCAY BONNECAZE BONNET BORDA BORDAGARAY BORDENAVE BORDES BOUE BOURDA BOURDET BOURDIEU BOUSQUET BOY BRANA BROCA
+	Vernet Bèthvéder Bidart Bidegarai Biscai Bonacasa Bonet Bordar Bòrdagarai Bòrdanava Bòrdas Boèr Bordar Bordet Bordiu Bosquet Bòi Branar Brocar #BERROUET BIDART - Bidart - French or Occitan? Both? BIDEGAIN BORDAGARAY - Bòrdagarai?
+	#Forenames: Bernat
+	#^Rechecked w/ Gasconha.com. Doesn't have: Bòrdagarai.
+	#CABANNE CACHAU CAMBOT CAMI CAMINO CAMPAGNE CAMY CANDAU CANTON CAPDEBOSCQ CAPDEPON CAPDEVIELLE CAPDEVILLE CARRERE CARREY CARRICABURU CARRIQUIRY CARSUZAA CASABONNE CASAMAYOU
+	Cabana Caishau Camin Caminòt Campanha Camin Candau Canton Capdebòsc Capdepont Capdeviela Capdevila Carrèra Carsusan Casabona Casamajor #CAMBOT - Cambòt? CAMINO - Caminòt? CARREY - Carrèir? CARRICABURU CARRIQUIRY
+	#^Rechecked w/ Gasconha.com. Missing: CAMI.
+	#CASANAVE CASAUBON CASAUX CASENAVE CASSOU CASTAGNET CASTAING CASTAINGS CASTERA CASTET CASTILLON CAUBET CAUHAPE CAZABAN CAZALA CAZALET CAZALIS CAZAUBON CAZAUX CAZENAVE CHAGUE
+	Casanava Casaubon Casaus Casanava Casso Castanhet Castanh Castanhs Casterar Castèth Castilhon Cauvet Cauhapè Casavant Casalar Casalet Casalís Casaubon Casaus Casanava #CHAGUE - Chaga? Shaga?
+	#^Rechecked w/ Gasconha.com.
+	#CHOY CLAVERIE CLOS COSTEDOAT COURREGES CURUTCHET CUYEU
+	Chòi Claveria Clòs Còstadoat Correjas #CLOS - Clòs? or Claus? CURUTCHET CUYEU
+	#^Rechecked w/ Gasconha.com.
+	#DABADIE DACHARY DAGUERRE DAMESTOY DARMENDRAIL DARRACQ DARRICARRERE DARRICAU DARRIEUMERLOU DARRIGRAND DARRITCHON DESCLAUX DOMECQ DOSPITAL DUBOUE DUCASSE DUCASSOU DUCLOS DUCOS
+	d'Abadia d'Arrac Darricarrèra d'Arricau d'Arriumèrlo d'Arrigran d'Arrichon Deusclaus Domec Deucasso Deucasso Deuclòs Deucòs Deuboèr #DACHARY DAGUERRE - d'Aguèrra? DAMESTOY = either d'Ameztoi, the latter part being Basque, or "de Mastòi". DARMENDRAIL DARRICAU - d'Arricau? DARRIGRAND - d'Arrigran. Gasconha.com kept the final 'd', but it's always lost in southern Gascon. DOSPITAL
+	#^Rechecked w/ Gasconha.com.
+	#DUFAU DUFOURCQ DUFOURG DUHALDE DUHART DUHAU DUPLAA DUPOUY DUPRAT DUPUY DURRUTY
+	Deuhau Deuhorc Deuhorc Deuhart Deuhau Deuplan Deupoi Deuprat Deupui #DUHALDE DURRUTY
+	#^Rechecked w/ Gasconha.com.
+	#ECHEVERRIA ELGART ELISSALDE ERRAMOUSPE ERRANDONEA ERRECART ESPIL ETCHART ETCHEBARNE ETCHEBERRY ETCHEBEST ETCHECOPAR ETCHEGARAY ETCHEGOIN ETCHEGORRY ETCHEGOYEN ETCHEGOYHEN
+	Echegarai
+	#^Rechecked w/ Gasconha.com. Overwhelmingly Basque; found only Echegarai, of Basque origin. However, this plus the toponym 'Echebar' means 'Eche' is likely a consistent Oc spelling of 'Etche'/'Etxe'.
+	#ETCHEMENDY ETCHEPARE ETCHETO ETCHEVERRIA ETCHEVERRY ETCHEVERS EYHERABIDE FERNANDEZ FERRER FEUGAS FLOUS FOURCADE FRECHOU GALAN GALHARRET GARAT GARCIA GIL GIMENEZ GONZALEZ
+	Herrèr Heugars Flors Horcada Hrèisho Galant Garat Garcia #ETCHEMENDY ETCHEPARE ETCHETO ETCHEVERRIA ETCHEVERRY ETCHEVERS EYHERABIDE FERNANDEZ GALAN GALHARRET GIL GIMENEZ GONZALEZ
+	#^Rechecked w/ Gasconha.com. They were missing GALAN, GARCIA.
+	#GOYHENEIX GRACIA GRANGE GRECIET HAGET HARAMBOURE HARAN HARGUINDEGUY HARISMENDY HARISPURU HARISTOY HARRIET HAU HAURE HAURET HAURIE HAYET HEGOBURU HEGUY HEUGAS HIRIART HIRIBARREN
+	Gracian Granja Haget Hau Haure Hauret Hauria Haget Heugars #GOYHENEIX GRECIET HARAMBOURE HARAN - Haran? HARGUINDEGUY HARISMENDY HARISPURU HARISTOY HARRIET HAU - Hau? Haur? HEGOBURU HEGUY HIRIART HIRIBARREN
+	#^Rechecked w/ Gasconha.com. They were missing HAU.
+	#HIRIGOYEN HOURCADE HOURDEBAIGT IDIART INCHAUSPE INDA INDART IRATCABAL IRIART IRIARTE IRIBARNE IRIBARREN IRIGARAY IRIGOIN IRIGOYEN ITHURBIDE ITHURRALDE JAUREGUIBERRY JAUREGUY JUNCA
+	Horcada Hordevath Juncar #HIRIGOYEN IDIART INCHAUSPE INDA INDART IRATCABAL IRIART IRIARTE IRIBARNE IRIBARREN IRIGARAY IRIGOIN IRIGOYEN ITHURBIDE ITHURRALDE JAUREGUIBERRY JAUREGUY
+	#^Rechecked w/ Gasconha.com. Overwhelmingly Basque; found only Horcada, Hordevath, Juncar.
+	#LABADIE LABAN LABARRERE LABARTHE LABASTIE LABAT LABORDE LABOURDETTE LACABANNE LACAZE LACLAU LACOSTE LACRAMPE LACROIX LACROUTS LAFARGUE LAFFARGUE LAFFITTE LAFITTE LAFON LAFONT
+	Labadia Lavant Labarrèra Labarta Lavath Labòrda Labordeta Lacabana Lacasa Laclau Lacòsta Lacrampa Lacrotz Lacrotz Laharga Laharga Lahita Lahita Lahont Lahont #LABASTIE
+	#^Rechecked w/ Gasconha.com. Missing: LACABANNE
+	#LAFOURCADE LAGARDE LAGOUARDE LAGRAVE LAHITTE LAHON LAHORE LAJUS LALANNE LAMAISON LAMARQUE LAMAZOU LAMBERT LAMOTHE LANNES LANOT LANUSSE LAPEYRE LAPLACE LAPORTE LAPUYADE LARQUE
+	Lahorcada Laguarda Laguarda Lagrava Lahita Lahont Lahòra Lajús Lalana Lamaison Lamarca Lamason Lamòta Lanas Lanòt Lanussa Lapèira Laplaça Lapòrta Lapujada Larquèr
+	#Forenames: LAMBERT - Lambèrt?
+	#^Rechecked w/ Gasconha.com. Missing: LAMBERT LAPLACE LAPUYADE
+	#LARQUIER LARRALDE LARRAMENDY LARRAN LARRE LARREGAIN LARRIEU LARRONDE LARROQUE LARROUDE LARROUY LARTIGAU LARTIGUE LARZABAL LASSALLE LASSERRE LASSUS LATAILLADE LATAPIE LATAPY
+	Larquèr Larramendi Larrèr Larriu Larròca Larrodèr Larroi Lartigau Lartiga Lassala Lassèrra Lassús Latalhada Latàpia Latàpia #LARRALDE LARRAN LARREGAIN LARRONDE - Larronda? LARZABAL
+	#^Rechecked w/ Gasconha.com.
+	#LATASTE LATRUBESSE LATXAGUE LAUGA LAULHE LAUROUA LAVIE LAVIELLE LAVIGNASSE LAVIGNE LAXAGUE LEMBEYE LISSALDE LOPEZ LOSTE LOUSTALET LOUSTALOT LOUSTAU LOUSTAUNAU LURO
+	Latasta Latrubessa Laugar Laulhèr Lavia Laviela Lavinhassa Lavinha Lenveja Lostalet Lostalòt Lostau Lostaunau #LATXAGUE LAUROUA LAXAGUE LISSALDE LOPEZ LOSTE LURO
+	#^Rechecked w/ Gasconha.com.
+	#MAGENDIE MAISONNAVE MAITIA MARQUE MARTIN MARTINEZ MAYSONNAVE MENDIBOURE MENDIBURU MENDIONDO MENDY MICHELENA MIMIAGUE MINVIELLE MIRAMON MIRANDE MIRASSOU MIREMONT MORA MOULIA
+	Magendia Maisonnava Marca Martin Maisonnava Mendi Minviela Miramont Miranda Mirassó Miramont Morar Moliar #MAITIA MARQUE - Marca? MARTINEZ MENDIBOURE MENDIBURU MENDIONDO MENDY - Mendi? MICHELENA MIMIAGUE
+	#^Rechecked w/ Gasconha.com. Missing - MAGENDIE MARQUE MIRAMON
+	#MOURA MOUREU MOUSQUES NOGUES OLAIZOLA OLHAGARAY OSPITAL OXOBY OYHARCABAL OYHENART
+	Morar Morèu Mosquèrs Noguèrs #OLAIZOLA OLHAGARAY OSPITAL OXOBY OYHARCABAL OYHENART
+	#^Rechecked w/ Gasconha.com.
+	#PAGADOY PAILLE PARIS PASCOUAU PEHAU PERE PEREZ PETIT PETRISSANS PEYRAN PEYRE PEYROU PEYROUTET PLAA PLANTE POCHELU POEY POMMIES PONTACQ POUBLAN POUEY POURTAU PRAT PUCHEU PUYAU
+	Palhèr París Pehau Perèr Petit Petrissans Peiran Peirèr Peiron Peirotet Plan Plantèr Poèi Pontac Poblant Poèi Portau Prat Puisheu Pujau #PAGADOY PASCOUAU PEREZ PEYRE - Peirèr? PLAA - Plan? POCHELU POMMIES PUYAU - Pujòu? or Pujau?
+	#^Rechecked w/ Gasconha.com. Missing: PARIS
+	#PUYO RACHOU RECALDE RECALT REY RODRIGUEZ ROGER
+	Pujòu Hraisho Rei #RECALDE RECALT REY - Rei? RODRIGUEZ ROGER - Rogèr?
+	#Forenames:Rogèr
+	#^Rechecked w/ Gasconha.com.
+	#SABAROTS SAGASPE SAHORES SAINT-JEAN SAINT-MARTIN SALLABERRY SALLENAVE SALLES SANCHEZ SANGLAR SANS SARRAILH SARTHOU SEMPE SERE SERRES SOULE SUHAS SUPERVIELLE SUZANNE
+	"Sent Joan" "Sent Martin" Salaberri Salanava Salas Sanglar Sans Sarralh Sarto Sempèr Serèr Sèrras #SABAROTS SAGASPE SAHORES SALLABERRY - Basque. 'Salaberri'. SANCHEZ SOLA - Sola? Solèr? SUHAS SUPERVIELLE - Sobervila? Soberviela?
+	#Forenames:Susana
+	#^Rechecked w/ Gasconha.com.
+	#TAUZIN TELLECHEA TEULE TISNE TOULET TOURON TOUYA TREBUCQ TROUILH TURON UHALDE UHART URRUTIA URRUTY VERGEZ VIGNAU VIGNEAU ZAMORA ZOZAYA
+	Tausin Teulèr Tisnèr Tolet Toron Tojar Trebuc Trolh Turon Uhart Urruti Vergèrs Vinhau Vinhau #TELLECHEA TEULE - Teulèr. Possibly Teula. TOULET - Tolet? UHALDE URRUTIA - Urruti? ZAMORA ZOZAYA
+	#^Rechecked w/ Gasconha.com.
+	#####OLD, ToSort#####
+	##From toponyms BEARN
+	#"de Sauvatèrra" "de Bornòs" "de Carrèra" d'Isesta "de Sent Castin" "de Sarrança" "de Sauceda" "deth Mont" "de Masèras" "de Pontac" Ramós "de Sevinhac" "deth Luc" "de Morlans" "d'Astis" "de Castèthbon" Cobluc "dera Cadea" Gaion "de Bètlòc" "de Bòrdas" "de Bòrça" Cabidòs Cardessa "deras Claverias" "de Diussa" "de Domin" d'Escor d'Espuei d'Estòs "de Gomèr"
 }
 
-army_names = { 
-         "Armée du Blésois"   "Armée de la Beauce" 
-         "Armée du Dunois"    "Armée du Gâtinais"
-         "Armée de Sologne"      "Armée du Vendômois" "Armée de la Loire"
-	 "Armée de $PROVINCE$" 
+ship_names = {
+	#####UNIQUES#####
+	"Cançon deus Montanhas" "Centolh le Joen" "Còr Pirenenc" "Dama Joana" "Duas Vascas" "Escut de Fèbus" "Hilh de Mart" "Hilha de Vènus" "Hlor de Vedilha"
+	"Ors de Bearn" "Ors Nere" "Pica Blanca" "Prosperitat de Bigòrra" "Riu d'Aura" "Sagèth de Gaston" "Simbèu de Libertat" "Tor de Montcada" "Vescomtessa Maria" "Volentat d'Alienòr"
+	#"Taurs Roges"
+	"Princessa Rosada" #Fèbus Castèth
+	#Bearn - Places
+	"Circ de Lescun"
+	#Bearnese - Birds
+	Estornèth "Maria Blanca" #Egyptian Raptor. Bearn and Provence are its only range in Occitania.
+	#Saints - Pyrenees-Atlantiques Toponyms+Lastnames
+	"Sent Armon" "Sent Avit" "Sent Castin" "Sent Estève" "Sent Gladia" "Sent Goen" "Sent Guironç" "Sent Haust" "Sent Jacme" "Sent Joan" "Sent Just" "Sent Laurenç" "Sent Martin"
+	"Sent Medard" "Sent Miquèu" "Sent Palai" "Sent Pèr" "Sent Vincenç" "Senta Coloma" "Senta Gràcia"
+	#####BASE EU4 (FOIX)#####
+	###EU4 - BEARN
+	Ania Aspa #Ansabère Ayous
+	Varetons Bearn Valaitós #Balaïtous = Valaitós?
+	Aussau #"Midi d'Ossau" = Pic (de Mieidia) d'Aussau
+	Gèr #Bearn if the mountain, Bigorre if the commune.
+	Palas
+	Sescas #Sesques - should translate as Sescas. To verify.
+	"Vic Vilh" Vic Montanèr #EU4 had Vic-Montaner. That's a modern commune community! No, P'dox! Bad!
+	#####OLD#####
+	#History-related
+	#"Gaston Fèbus" "Joana d'Artés"
+	#"Rogièr Bernat" "Vescomte de Marsan" 
+	#Constança Margarida Matèu Centolh Joana 
+	#Guiscarda Pèir
+	#Talesa
+	#"Santa Maria"
+	#"Centolh de Bearn"
+	#"Gaston le Crozat"
+	#####COMMON GASCON#####
+	###NOUN COMMON
+	#Concepts+Values
+	Aunor "Des·hidança" Joenessa Joentut Resisténcia Volentat
+	#Desfisança Joventut Leialtat Onor Resisténcia Volença
+	#Critters
+	Agla "Agla Marina" Faucon Mandra Taur Tortuga Vop #Rossinhòu/Roshinhòu #Estorniu - Dialectal variation; used in constituent tags instead.
+	#Culture - Legends
+	Becut Becuda Carcòlh Hadet Tac #"Cama Crusa" - Exists throughout Gascony, Guyenne and western Languedoc, but the orthography varies.
+	#Culture - Traditions
+	#Folk - Ruler Titles
+	Daufin Sobiran Vescomte Vescomtessa
+	#Dalfin Escudièr Sobeiran Vescomte Vescomtessa
+	#Folk - People+Professions
+	Artisan Caçaire Campion Conquistaire Liberatora Marcadèr #Aventuèr Cavalèr
+	#Misc Nouns
+	Auba Busca Comèta Harpa Hlama Miralh Nubla Oasi Opèra "Senta Crotz" Solelh Tempèsta Tor
+	#Name - First
+	Carles
+	#Place
+	Sentonge
+	#Plants
+	Casso Castanha Castanhèr Higa Higuèr Hlor Palma Paparòc
+	#Rivers
+	Ador
+	#Winds
+	###ADJ COMMON
+	Blanca Brasós Brasosa Brutau "Des·hidant" Erculèu Erculèa Fidèu Fidèla Hardit Hlorida Hòrt Hòrta Invencible Invencibla Meravilha Reiau Supèrba Valent Valenta
+	#Adj Ethnic (F Matches)
+	Baionés Baionesa Basco Provençau Sentongés Sentongesa
+	#####COMMON OCCITAN#####
+	###NOUN COMMON
+	#Concepts+Values
+	Abiletat Abondància Absolucion Accion Acòrdi Adaptabilitat Adaptacion Admiracion Afirmacion Aliança Ambicion Amistat Aparicion Armonia Aspiracion Autoritat Benanança Benediccion
+	Comoditat Concepcion Concinitat Constància Contemplacion Coratge Creativitat Curiositat Dedicacion Deliberacion Determinacion Devocion Diversitat
+	Elegància Equanimitat Esperança Esperit Estabilitat Estrategia Euforia Exploracion Extasi Federacion Fiertat Fortitud Glòria Gràcia Gratitud Illusion Independéncia Inspiracion
+	Justícia Legenda Leialista Liberacion Luminositat Miracle Navigacion Necessitat Oportunitat Ordenança
+	Passatge Passion Patronatge Persisténcia Predominança Primautat Propension Prosperitat
+	Reialista Relativitat Resolucion Restitucion Revelacion Santuari Sapiéncia Seguritat Senhoratge Silenci Sinceritat Solaç Solidaritat Supremacia
+	Tenacitat Trionf Union Unitat Venjança Vertut Virtuositat
+	#Critters
+	Abelha Balena Calandra Calandreta Còrb Dromadari Lop Ors Orsa Pelican Rapaça Tigre Tigressa Ur #Ur = Aurochs #Lapin/Conilh/Coniu.
+	#Culture - Legends
+	Colòbra Drac Dragon Matagòt #Pariseta? How old is the Parisette?
+	#Culture - Literature+Music (Non-Trobar)
+	Flamenca Laüt Melodia Musica Poesia Ritme Rima #Oc Literature and Music
+	#Culture - Traditions
+
+	#Culture - Trobar Genres
+	Balada Cobla Dança Descort Escondit Estampida Gap Partiment Planh Rason "Salut d'Amor" Sestina Sirventés Sòmi Tençon Vida #Trobador genres. Not included here: Alba/Auba; C(h)anso(n); C(h)ançon de Gèsta; Enuèg/Enueg/Enuei/Einueg; Pastorèla/Pastorela.
+	#Folk - Ruler Titles
+	Baron Comte Comtessa Dinastia Duc Marqués Marquesa Monarca Princessa
+	#Folk - People+Professions
+	Aprendís Aprendissa Apòstol Coquin Coquina Corsari Corsària Defensor Defensora Escolan Escolana Eròi Escriba Liberator Mentòr Protector Trobador Trobairitz Viatjaire #Victor #Feminine endings here are more variable, usually between -tora and -tritz, but should go in individual cultures' tags, if at all.
+	#Heritage - GrecoRoman (Mythology)
+	Abondanci Afrodita Amazòna Angita Annona Apollon Aquilles Aquilon Argonauta Artèmis Atena Aurora Bacus Bellona Borèas Calipso Cassandra Ceres Cesar Clemença Concòrdia Constança
+	Demetèr Diana Dionís Driada Efèst Equitat Eracles Estia Felicitat Fidelitat Fortuna Fèbus Fènix Furia Gorgòna Ilaritat Iris Isis Janus Junon Jupitèr Justícia Juventas
+	Làmia Laton Leticia Liberalitat Libertat Luna Lèto Mart Medusa Mercuri Minotaure Minèrva Neptun Nobilitat Ocean Onos Oranos Orfèu
+	Pandora Persefòna Pietat Pollux Pomona Poseidon Proserpina Providéncia Quirin Sagitari Saturn Serena Silvan Titan Triton Tròia Ulisses Uranus Vesta Victòria Virt Vulcan Vènus
+	Zèus Èra Òps
+	#^Var. VivAup:Venús
+	#Heritage - Greek
+	Alexandre Dracma Leonidas
+	#Heritage - Gaulish (Mythology)
+	Cernunnos Damòna Epòna Esus Lug Rosmerta Sucellos Taranis Teutatès #or Epona? #Damona? Rosmèrta?
+	#Albiorix Caturix #Ortografia?
+	#Heritage - Roman
+	Annibal Cesar Cleopatra Juli
+	Cartage Centuria Centurion Colonia Colòs Gladiator Legion Legionari Patrician
+	#Misc Nouns
+	Abís Arpon Blason Cendre Centre Constellacion Corona Devisa Diamant Escut Florença Gargolha Jòia Lança Lum Lutz Mainatge Memòria Meridian Mite Monument Paradís Pica Pinacle Promessa Sason Torn Tractat Trinitat Trirema Vent Violeta
+	#Name - First (Import the list once the cultures are done?)
+	Agustin Anna Antòni Antonin Beatritz Brunissenda Clara Clàudia Emma Ivan Ivana Ives Ivon Ivona Joana Justinian Laura Loïsa Luc Maria
+	Ròsa Rosalia Rosalina Rosamonda Roseta Rosina Roson Sabin Sabina Sabrina Samson Savin Sebastian Simon Simona Simonet Simoneta Solanja Suson #Sulpici
+	Teresina Uldaric Ulisses Ulric Urban Valentin Valentina Valerian Valeriana Veran Verana Veronica Victorin Victorina Victorian Victoriana Vidalina Vincenç Violeta Zenon
+	#Place
+	Gàllia Roma Visigòtia
+	Alemanha Aragon Berric Bretanha Castelha Espanha Escòcia França Guernesei Irlanda Jersei Londres Normandia Ongria Peitau Roan Toscana #Var. Pro:Castilha (i/e variation, Castelha is still good.)
+	Orient Ponent
+	#Plants
+	Espic Lavanda Lin Liri Oliva Pin Ròsa
+	#Winds
+	
+	###ADJ COMMON (M followed by F, by reason of naming plausability & higher historical equality)
+	Abondós Abondosa Actiu Activa Agradiu Agradiva Adaptable Adaptabla Aimable Aimabla Aimat Aimada Ambiciós Ambiciosa Amorós Amorosa Antic Antica Ardent Ardenta Argentat Argentada
+	Artistic Artistica Aspirant Aspiranta Astruc Astruga Astuciós Astuciosa Aventurós Aventurosa Benvolent Benvolenta Bon Bona Brave Brava Brilhant Brilhanta
+	Capable Capabla Constant Constanta Content Contenta Coratjós Coratjosa Coronat Coronada Creatiu Creativa Curiós Curiosa Daurat Daurada Dur Dura
+	Elegant Eleganta Eminent Eminenta Erculenc Erculenca Esclatant Esclatanta Estelat Estelada Estranh Estranha Espectaclós Espectaclosa Excepcionala Extraordinari Extraordinària
+	Famós Famosa Fin Fina Finet Fineta Finòt Finòta Florissent Florissenta Formidable Formidabla Furiós Furiosa Galant Galanta
+	Imperiós Imperiosa Iniciala Insurgent Insurgenta Intrepid Intrepida #Fin, Finet, Finòt - Fine, clever.
+	Just Justa Legendari Legendària Luminós Luminosa Lusent Lusenta Majestuós Majestuosa Marin Marina Mitic Mitica Misteriós Misteriosa Montanhós Montanhosa Nòble Nòbla Òcre Òcra #Malin means malign rather than clever, and in some dialects could mean Satan, so leaving it out.
+	Pacific Pacifica Persistent Persistenta Pintat Pintada Placid Placida Plasent Plasenta Poderós Poderosa Polit Polida Pompós Pomposa Predominant Predominanta Prudent Prudenta
+	Radiant Radianta Redobtable Redobtabla Reiala Remarcable Remarcabla Salat Salada Sedusent Sedusenta Segur Segura Seriós Seriosa Sufisent Sufisenta Terrible Terribla
+	Urós Urosa Valorós Valorosa Ventós Ventosa Verdejant Verdejanta Verdós Verdosa Vertuós Vertuosa Viciós Viciosa Vigilant Vigilanta
+	#M forms vary too much by dialect to include:Excepcional/Excepcionau Inicial/Iniciau Reial/Reiau
+	#Adj Ethnic (F Matches)
+	African Africana Anglés Anglesa Aquitan Aquitana Arab Araba Aragonés Aragonesa Artesian Artesiana Asiatic Asiatica Breton Castelhan Castelhana Cornic Cornica #Castelhan/Castilhan.
+	Egipcian Egipciana Escosés Escocesa Flamenc Francés Francesa Galés Galesa Gallés Gallesa Galloroman Galloromana German Germana
+	Indian Indiana Irlandés Irlandesa Italian Italiana Latin Latina
+	Normand Normanda Peitavin Peitavina Picard Picarda Roman Romana Visigòt Visigòta #Breto(n)a
+	Occitan Occitana Auvernhat Auvernhata Daufinenc Daufinenca Gascon Guianés Guianesa Lemosin Lemosina Lengadocian Lengadociana Provençau Provençala #Gasco(n)a
+	Balear Baleara Catalan Catalana Valencian Valenciana #Principatin Principatina
+	Basca Espanhòla #Len+Lim Basc; G&P Basco; VivAlp Basc o Basque #Auv+Len Espanhòl; autres: Espanhòu
+}
+army_names = { #Country, Parçans, Rivers.
+	#####REGIONAL LEVIES#####
+	#Capital
+	"Armada de Pau" #"Armada d'Ortès" #"Armada de $CAPITAL_CITY$"
+	#Viscounties
+	"Armada d'Auloron"
+	#####FILLER#####
+	#Filler - Core(?) Cities
+	"Armada de Morlans" #Former capital, before Ortès.
+	"Armada de Juranson" "Armada de Nai" #Nai founded as a bastida in 1302, though seemingly inhabited for longer?
+	#Filler - Geographic - Parçans (In order of size within Early Bearn)
+	"Armada d'Artés" "Armada de Sovèstre" "Armada deu Vic Vilh"
+	#Filler - Geographic - Parçans (In order of size within Bearn)
+	"Armada de Montanèr" #Montanèr is capital of the Montanerés
+	#Filler - Geographic - Parçans (In order of size within Oloron)
+	"Armada de Varetons" "Armada d'Aspa" "Armada d'Aussau"
+	#Filler - Generic
+	"Armada deu Nòrd" "Armada deu Sud" "Armada de l'Èst" "Armada de l'Oèst"
+	#Filler - Province
+	"Armada de $PROVINCE$"
+	#####OLD#####
+	#"Armada Bearnesa" "Armada Pirenenca" "Armada de Coserans"
+	#"Armada de Castelbon" "Armada de Donasan" "Armada de Nebosan"
+}
+
+fleet_names = {
+	"Flòta deu Taur"
+	#####FILLER#####
+	#Filler - Generic
+	"Escadra Arroja" "Escadra Blanca" "Escadra Òcra" "Escadra Verda" "Escadra Jauna" "Escadra Blava" "Escadra Negra" "Escadra Burèla" "Escadra Grisa" "Escadra Verda" "Escadra Vermelha" "Escadra Rossa"
+	#Filler - Province
+	"Escadra de $PROVINCE$"
 }
