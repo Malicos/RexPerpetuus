@@ -2,9 +2,9 @@
 #Region - France
 #Area - Massif Central
 
-owner = AUV
-controller = AUV
-add_core = AUV
+owner = BOU
+controller = BOU
+add_core = BOU
 capital = "Moulins"
 is_city = yes
 culture = auvergnat_culture

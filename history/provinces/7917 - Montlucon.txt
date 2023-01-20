@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = AUV
-controller = AUV
-add_core = AUV
+owner = BOU
+controller = BOU
+add_core = BOU
 culture = auvergnat_culture
 religion = catholic
 capital = "Montluçon"

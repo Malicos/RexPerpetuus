@@ -1,9 +1,22 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = auvergnat_culture
-add_accepted_culture = arpitan
+primary_culture = cosmopolitan_french
+add_accepted_culture = auvergnat_culture
 religion = catholic
 technology_group = western
 capital = 190	# Bourges
 fixed_capital = 190 # Cannot move capital away from this province & no power cost to move to it
+
+1427.1.14 = {
+	monarch = {
+		name = "Guilhem"
+		dynasty = "de Orval"
+		adm = 1
+		dip = 3
+		mil = 1
+		birth_date = 1427.10.29
+		religion = catholic
+		culture = cosmopolitan_french
+	}
+}

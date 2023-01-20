@@ -5,16 +5,16 @@ technology_group = western
 primary_culture = auvergnat_culture
 religion = catholic
 capital = 199	# Clermont
-#fixed_capital = 199 # Cannot move capital away from this province & no power cost to move to it
+fixed_capital = 199 # Cannot move capital away from this province & no power cost to move to it
 
-1427.1.14 = {
+1426.1.1 = {
 	monarch = {
-		name = "Guilhčm"
-		dynasty = "d' Orval"
-		adm = 1
-		dip = 3
-		mil = 1
-		birth_date = 1427.10.29
+		name = "Felip III"
+		dynasty = "Allier"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1420.11.9
 		religion = catholic
 		culture = auvergnat_culture
 	}
