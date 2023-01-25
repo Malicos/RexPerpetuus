@@ -107,6 +107,15 @@ vassal = {
 	end_date = 1836.1.1
 }
 
+# Arelat and Gruyeres
+vassal = {
+	subject_type = fiefdom_bt
+	first = BUR
+	second = GRU
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Arelat and Geneva
 vassal = {
 	subject_type = fiefdom_bt
