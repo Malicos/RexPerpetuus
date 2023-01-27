@@ -34,6 +34,26 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Hupold #1" = 1
+	"Raoul #1" = 10
+	"Robert #1" = 10
+	"Baudouin #4" = 100
+	"Arnulf #2" = 20
+	"Arsinde #1" = -1
+	"Mautild #1" = -1
+	"Beatrix #2" = -10
+	"Stephanie #1" = -1
+	"Jean #1" = 10
+	"Gelduin #1" = 10
+	"Hodierne #1" = -1
+	"Leonard #1" = 10
+	"Edouard #1" = 10
+	"Ida #1" = -1
+	"Manasses #1" = 10
+	"Adalbert #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Louis #0" = 80
 	"Charles #0" = 60
 	"Louis-Philippe #0" = 40
@@ -42,8 +62,7 @@ monarch_names = {
 	"Henri-Alexandre #0" = 20
 	"Nicolas #0" = 20
 	"Alexandre-Louis #0" = 10
-	"François #0" = 10
-	"Jean #0" = 5		
+	"François #0" = 10		
 	"Antoine-Philippe #0" = 5
 	"Hughes #0" = 1
 	"Robert #0" = 1
@@ -68,12 +87,12 @@ monarch_names = {
 	"Maximiliem #0" = 0
 	"Michel #0" = 0
 	"Pierre #0" = 0
-	"Raoul #0" = 0
 	"René #0" = 0
 	"Simon #0" = 0
 	"Thibaut #0" = 0
 	"Xavier #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Claudine #0" = -10
 	"Isabelle #0" = -1
 	"Jeanne #0" = -1

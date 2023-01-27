@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 63 80 191 }
 
-revolutionary_colors = { 8 15 8 }
-
 historical_idea_groups = {
 	defensive_ideas
 	trade_ideas
@@ -36,8 +34,29 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Australdis #1" = 10
+	"Renaud #1" = 10
+	"Guillaume #1" = 10
+	"Robert #2" = 20
+	"Fulk #2" = 20
+	"Jaufret #1" = 10
+	"Henri #1" = 10
+	"Guilhem #1" = 10
+	"Alix #1" = -1
+	"Lancelin #1" = 5
+	"Roubaud #1" = 5
+	"Edouard #1" = 5
+	"Beuves #2" = 20
+	"Haimo #3" = 60
+	"Gaucelin #1" = 10
+	"Raoul #2" = 20
+	"Roger #3" = 20
+	"Antoine #2" = 20
+
+	# RANDOM NAMES - MALE
 	"Louis #0" = 80
-	"Charles #1" = 60
+	"Charles #0" = 60
 	"Louis-Philippe #0" = 40
 	"Philippe #0" = 40
 	"Gaston #0" = 20
@@ -47,8 +66,7 @@ monarch_names = {
 	"François #0" = 10
 	"Jean #0" = 5		
 	"Antoine Philippe #0" = 5
-	"Hughes #2" = 1
-	"Robert #1" = 1
+	"Hughes #0" = 1
 	"Alexandre #0" = 0
 	"Ambroise #0" = 0
 	"Armand #0" = 0
@@ -58,9 +76,7 @@ monarch_names = {
 	"Denis #0" = 0
 	"Eudes #0" = 0
 	"Gui #0" = 0
-	"Guillaume #0" = 0
 	"Gustave #0" = 0
-	"Henri #0" = 0
 	"Jacques #0" = 0
 	"Jean-Baptiste #0" = 0
 	"Jean-Philippe #0" = 0
@@ -70,12 +86,12 @@ monarch_names = {
 	"Maximilien #0" = 0
 	"Michel #0" = 0
 	"Pierre #0" = 0
-	"Raoul #0" = 0
 	"René #0" = 0
 	"Simon #0" = 0
 	"Thibaut #0" = 0
 	"Xavier #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Claudine #0" = -10
 	"Catherine #0" = -1
 	"Marguerite #0" = -1

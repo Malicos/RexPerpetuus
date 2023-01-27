@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 43  141  172 }
-revolutionary_colors = { 1 8 5 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -33,28 +32,61 @@ historical_units = {
 }
 
 monarch_names = {
-	"Angelbert #0" = -1
-	"Arnulf #3" = 10
-	"Arsinde #1" = -1
-	"Benoît #0" = -1
-	"Bouchard #0" = -1
-	"Boudewijn #5" = 10
-	"Charlotte #0" = -1
-	"Dobrogost #0" = 0
-	"Domawuj #0" = 0
-	"Fernán #1" = 10
-	"Gelduin #2" = 10
-	"Geoffroy #0" = -1
-	"Gilbert #1" = 10
-	"Gisèle #1" = -1
-	"Hodierne #1" = -1
-	"Ida #1" = -1
-	"Léonard #1" = 10
-	"Manassès #1" = 10
-	"Sarrazine #0" = -1
-	"Wanko #0" = 0
-	"Zsigmond #0" = 0
-	"Édouard #1" = 10
+	# RP RULER NAMES
+	"Boudewijn #5" = 100
+	"Arsenda #1" = -1
+	"Gisele #1" = -1
+	"Fernan #1" = 10
+	"Gelduijn #1" = 10
+	"Jan #3" = 60
+	"Leonard #2" = 20
+	"Arnolf #6" = 100
+
+	# RANDOM NAMES - MALE
+	"Filips #0" = 15
+	"Lodewijk #0" = 5
+	"Robrecht #0" = 5
+	"Willem #0" = 5
+	"Diederik #0" = 5	
+	"Gwijde #0" = 5	
+	"Karel #0" = 5
+	"Antoon #0" = 5
+	"Abraham #0" = 0
+	"Alexander #0" = 0
+	"Alfons #0" = 0
+	"Andries #0" = 0
+	"Balthasar #0" = 0
+	"Bartholomeus #0" = 0
+	"Christoffel #0" = 0
+	"Constantijn #0" = 0
+	"Cornelis #0" = 0
+	"Daniël #0" = 0
+	"David #0" = 0
+	"Ernst #0" = 0
+	"Erwin #0" = 0
+	"Ewoud #0" = 0
+	"Floris #0" = 0
+	"Gabriel #0" = 0
+	"Godfried #0" = 0
+	"Hans #0" = 0
+	"Jacob #0" = 0
+	"Kasper #0" = 0
+	"Ludger #0" = 0
+	"Luuk #0" = 0
+	"Marinus #0" = 0
+	"Pieter #0" = 0
+	"Renate #0" = 0
+	"Rodolf #0" = 0
+	"Roeland #0" = 0
+	"Valentijn #0" = 0
+	
+	# RANDOM NAMES - FEMALE
+	"Margareta #0" = -15
+	"Maria #0" = -5
+	"Jeanne #0" = -1
+	"Matilda #0" = -1
+	"Beatrix #0" = -1
+	"Yolande #0" = -1
 }
 
 leader_names = {
