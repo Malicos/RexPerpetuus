@@ -6,46 +6,17 @@ religion = catholic
 primary_culture = flemish
 capital = 90	# Brugge
 
-1444.11.11 = {
+1402.10.19 = {
 	monarch = {
-		name = "Gilbert"
-		dynasty = "de Blois"
+		name = "Arnolf VI"
+		dynasty = "de Calais"
 		adm = 4
 		dip = 3
 		mil = 5
-		birth_date = 1394.9.24
+		birth_date = 1385.4.11
 		religion = catholic
-		culture = cosmopolitan_french
+		culture = flemish
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = intricate_web_weaver_personality
-	queen = {
-		name = "Sarrazine"
-		dynasty = "Robertine-Lisieux"
-		adm = 2
-		dip = 3
-		mil = 1
-		country_of_origin = FRA
-		birth_date = 1388.5.17
-		death_date = 1448.5.17
-		female = yes
-		religion = catholic
-		culture = cosmopolitan_french
-	}
-	add_queen_personality = charismatic_negotiator_personality
-	add_queen_personality = strict_personality
-	heir = {
-		name = "Boson"
-		monarch_name = "Boson"
-		dynasty = "de Blois"
-		adm = 4
-		dip = 5
-		mil = 5
-		birth_date = 1412.2.2
-		death_date = 1477.2.2
-		religion = catholic
-		culture = cosmopolitan_french
-	}
-	add_heir_personality = strict_personality
-	add_heir_personality = tactical_genius_personality
 }
