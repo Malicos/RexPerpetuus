@@ -46,7 +46,7 @@ monarch_names = {
 	"Martin #1" = 5
 	"Stephen #1" = 5
 	"Archambaud #1" = 5
-	"Frederic #1" = 5
+	"Frédéric #1" = 5
 
 	# RULER NAMES - MALE
 	"Johann #1" = 20

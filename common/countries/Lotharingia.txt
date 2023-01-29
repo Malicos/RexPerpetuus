@@ -56,7 +56,7 @@ monarch_names = {
 	"Stephen #2" = 20
 	"Louis #3" = 60
 	"Archambaud #1" = 10
-	"Frederic #1" = 10
+	"Frédéric #1" = 10
 
 	# RANDOM NAMES - MALE
 	"Philippe #0" = 20
