@@ -2,9 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 200 85 45 }
-
-revolutionary_colors = { 9  5  8 } #Helvetian Republic
+color = { 13 21 147 }
 
 preferred_religion = reformed
 

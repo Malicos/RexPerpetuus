@@ -2,7 +2,7 @@
 
 graphical_culture = latingfx
 
-color = { 245 75 75 } #Chrysocyon's Aquitaine color. My old greyish color (initially meant for Gascony): 188 176 208.
+color = { 54 50 226 }
 
 historical_idea_groups = {
 	defensive_ideas
