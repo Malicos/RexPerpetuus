@@ -50,15 +50,33 @@ leader_names = {
 }
 
 monarch_names = {
-	"Guillaume #2" = 40
+	# RP RULER NAMES
+	"Anselm #1" = 1
+	"Giselbert #1" = 1
+	"Gottfried #1" = 1
+	"Richar #1" = 1
+	"Reginar #5" = 100
+	"Herman #1" = 1
+	"Richilde #1" = -1
+	"Baudouin #1" = 15
+	"Jacques #1" = 5
+	"Payen #1" = 5
+	"Alphonse #1" = 5
+	"Thomas #1" = 5
+	"Bernhard #1" = 5
+	"Archambaud #2" = 20
+	"Sophie #1" = -1
+	"Louis #1" = 15
+	"August #1" = 5
+	"Adalbert #2" = 20
+
+	# RANDOM NAMES - MALE
+	"Guillaume #0" = 40
 	"Albert #0" = 20
-	"Jean #2" = 15
-	"Jacqueline #0" = -15
-	"Lodewijk #2" = 15
+	"Jean #0" = 15
+	"Lodewijk #0" = 15
 	"Odo #0" = 15
-	"Baudouin #6" = 5
-	"Charles #1" = 5
-	"Louis #0" = 5
+	"Charles #0" = 5
 	"Adam #0" = 0
 	"Adolphe #0" = 0
 	"Adrien #0" = 0
@@ -85,11 +103,22 @@ monarch_names = {
 	"Raphael #0" = 0
 	"Rodolphe #0" = 0
 	"Roger #0" = 0
-	"Thomas #0" = 0
 	"Vincent #0" = 0
 	"Xavier #0" = 0
 	"Zacharie #0" = 0
 	"Roeland #0" = 0
+	
+	# RANDOM NAMES - FEMALE
+	"Jacqueline #0" = -15
+	"Marguerite #0" = -5
+	"Anne #0" = -1
+	"Agnès #0" = -1
+	"Beatrix #0" = -1
+	"Élisabeth #0" = -1
+	"Filippa #0" = -1
+	"Isabelle #0" = -1
+	"Blanche #0" = -1
+	"Marie #0" = -1
 }
 
 ship_names = {

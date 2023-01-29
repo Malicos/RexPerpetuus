@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 250 79 0 }
-revolutionary_colors = { 5 8 5 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -34,8 +33,25 @@ historical_units = {
 }
 
 monarch_names = {
-	"Jean #5" = 80
-	"Robert #1" = 20
+	# RP RULER NAMES
+	"Robert #2" = 20
+	"Francon #1" = 5
+	"Thierry #1" = 5
+	"Pierre #1" = 5
+	"Manasses #1" = 5
+	"Arnoul #1" = 5
+	"Odo #1" = 5
+	"Maurice #1" = 5
+	"Fernan #1" = 5
+	"Bermudo #1" = 5
+	"Askell #1" = 5
+	"Foulquet #1" = 5
+	"Heilwich #1" = 5
+	"Verner #1" = 5
+	"Ruprecht #1" = 5
+
+	# RANDOM NAMES - MALE
+	"Jean #0" = 80
 	"Corneille #0" = 20
 	"Ferdinand #0" = 20
 	"François-Antoine #0" = 20
@@ -52,10 +68,10 @@ monarch_names = {
 	"Charles #0" = 20
 	"Louis #0" = 20
 	"Maximilien-Henri #0" = 20
-	"Guillaume #3" = 5
-	"Alexandre #2" = 5
-	"Théoduin #1" = 5
-	"Henri #1" = 5
+	"Guillaume #0" = 5
+	"Alexandre #0" = 5
+	"Théoduin #0" = 5
+	"Henri #0" = 5
 	"Adriaan #0" = 0
 	"Andries #0" = 0
 	"Augustijn #0" = 0
@@ -75,6 +91,7 @@ monarch_names = {
 	"Jacob #0" = 0
 	"Stefanus #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Irena #0" = -1
 	"Jozefien #0" = -1
 	"Lysanne #0" = -1

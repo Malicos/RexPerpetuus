@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 144 80 60 }
-revolutionary_colors = { 8 5 8 }
 
 historical_idea_groups = {
 	administrative_ideas
@@ -35,15 +34,33 @@ historical_units = {
 }
 
 monarch_names = {
-	"Lothair #2" = 100
-	"Arnulf #1" = 5
-	"Zwentibold #1" = 1
+	# RP RULER NAMES
+	"Thibaut #1" = 10
+	"Theodebert #2" = 20
+	"Sigebert #3" = 60
+	"Clovis #3" = 60
+	"Childebert #2" = 20
+	"Dagobert #3" = 60
+	"Chilpéric #1" = 10
+	"Clotaire #3" = 60
+	"Thierry #3" = 60
+	"Childéric #1" = 30
+	"Carloman #1" = 10
+	"Lothaire #2" = 100
+	"Arnulf #1" = 10
+	"Zwentibold #1" = 10
+	"Charles #4" = 100
+	"Emund #2" = 20
+	"Manfred #2" = 20
+	"Martin #1" = 10
+	"Stephen #2" = 20
+	"Louis #3" = 60
+	"Archambaud #1" = 10
+	"Frederic #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Philippe #0" = 20
-	"Charles #3" = 60
-	"Louis #2" = 30
 	"Jean #0" = 20
-	"Louis-Henri #0" = 20
-	"Louis-Joseph #0" = 20
 	"Henri #0" = 10
 	"Antoine #0" = 10
 	"Henri-Jules #0" = 10
@@ -76,29 +93,18 @@ monarch_names = {
 	"René #0" = 0
 	"Sébastien #0" = 0
 	"Simon #0" = 0
-
-	"Clovis #0" = 50
 	"Clodomir #0" = 10
-	"Thierry #0" = 30
-	"Childéric #0" = 30
-	"Childebert #0" = 30
-	"Clotaire #0" = 20
 	"Clodoald #0" = 0
-	"Thibaut #0" = 0
 	"Gonthier #0" = 0
 	"Charibert #0" = 0
 	"Gontran #0" = 10
-	"Sigebert #0" = 10
-	"Dagobert #0" = 10
 	"Louis #0" = 30
-	"Chilpéric #0" = 10
 	"Pépin #0" = 20
 	"Hugues #0" = 10
-	"Carloman #0" = 10
 	"Robert #0" = 10
 	"Arnoul #0" = 0
 
-	
+	# RANDOM NAMES - FEMALE
 	"Marie #0" = -10
 	"Geneviève #0" = -2
 	"Anne #0" = -1
@@ -110,8 +116,7 @@ monarch_names = {
 	"Catherine #0" = -2
 	"Marguerite #0" = -1 # La Pléiade
 	"Jeanne #0" = -1 # La Pléiade
-	"Agnès #0" = -1 # La Pléiade
-	
+	"Agnès #0" = -1 # La Pléiade	
 	"Clotilde #0" = -1
 	"Evochilde #0" = -1
 	"Suavegotta #0" = -1
@@ -127,7 +132,7 @@ monarch_names = {
 	"Berthe #0" = -1
 	"Théodrade #0" = -1
 	"Ansgarde #0" = -1
-	"Gisèle  #0" = -1
+	"Gisèle #0" = -1
 	"Béatrice #0" = -1
 	"Théodechilde #0" = -1
 }

@@ -34,7 +34,27 @@ historical_units = {
 }
 
 monarch_names = {
-	"Johann #1" = 100
+	# RP RULER NAMES
+	"Wido #1" = 1
+	"Bouvin #1" = 1
+	"Lothar #1" = 10
+	"Adalhard #1" = 1
+	"Poppo #1" = 1
+	"Arnulf #1" = 5
+	"Udo #3" = 60
+	"Emelrich #1" = 5
+	"Mechthild #1" = -1
+	"Agaete #1" = -1
+	"Pieter #1" = 5
+	"Frederik #1" = 10
+	"Oda #1" = -1
+	"Werner #1" = 5
+	"Andreas #1" = 5
+	"Sieghard #2" = 20
+	"Martin #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Johann #0" = 100
 	"Jakob #0" = 60
 	"Clemens Wenzel #0" = 20
 	"Franz Georg #0" = 20
@@ -44,19 +64,16 @@ monarch_names = {
 	"Johann Philipp #0" = 20
 	"Karl Joseph #0" = 20
 	"Karl Kaspar #0" = 20
-	"Lothar #0" = 20
 	"Otto #0" = 20
 	"Philipp Christoph #0" = 20
 	"Rhaban #0" = 20
 	"Richard #0" = 20
-	"Werner #0" = 20
-	"Bohemond #2" = 15
-	"Kuno #2" = 15
-	"Heinrich #3" = 10
-	"Arnold #2" = 10
-	"Dieter #1" = 10
+	"Bohemond #0" = 15
+	"Kuno #0" = 15
+	"Heinrich #0" = 10
+	"Arnold #0" = 10
+	"Dieter #0" = 10
 	"Alexander #0" = 0
-	"Andreas #0" = 0
 	"Baldur #0" = 0
 	"Bruno #0" = 0
 	"Clemens #0" = 0
@@ -68,13 +85,13 @@ monarch_names = {
 	"Guntram #0" = 0
 	"Helmfried #0" = 0
 	"Jürgen #0" = 0
-	"Martin #0" = 0
 	"Maximilian #0" = 0
 	"Michael #0" = 0
 	"Rainer #0" = 0
 	"Siegert #0" = 0
 	"Siegmund #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Kasimira #0" = -1
 	"Lydia #0" = -1
 	"Nicola #0" = -1

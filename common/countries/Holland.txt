@@ -32,15 +32,32 @@ historical_units = {
 }
 
 monarch_names = {
-	"Willem #5" = 40
+	# RP RULER NAMES
+	"Anselm #1" = 1
+	"Hrorekr #1" = 0
+	"Gudfrid #1" = 0
+	"Arnulf #1" = 5
+	"Floris #1" = 5
+	"Dirk #5" = 100
+	"Onno #1" = 1
+	"Waelram #1" = 1
+	"Koenraad #1" = 15
+	"Herman #2" = 20
+	"Agaete #1" = -1
+	"Udalrich #1" = 5
+	"Reinhard #3" = 60
+	"Kathrijne #1" = -1
+	"Gerulf #2" = 20
+	"Jan #3" = 60
+	"Cille #1" = -10
+
+	# RANDOM NAMES - MALE
+	"Willem #0" = 40
 	"Albert #0" = 20
-	"Johan #2" = 15	
+	"Johan #0" = 15	
 	"Lodewijk #0" = 15
 	"Eberhard #0" = 15
-	"Dirk #7" = 5
-	"Floris #5" = 5
-	"Jan #1" = 5
-	"Arnolf #1" = 5
+	"Arnolf #0" = 5
 	"Adriaan #0" = 0
 	"Anton #0" = 0
 	"Barthout #0" = 0
@@ -70,14 +87,14 @@ monarch_names = {
 	"Rodolf #0" = 0
 	"Roeland #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Jakoba #0" = -15
-	"Margaretha #1" = -10
+	"Margaretha #0" = -10
 	"Isabella #0" = -1
 	"Johanna #0" = -1
 	"Maria #0" = -1
 	"Mathilde #0" = -1
 	"Aleid #0" = -1
-	"Katherin #0" = -1
 }
 
 leader_names = {

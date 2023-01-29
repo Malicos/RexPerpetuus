@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 178  163  143 }
 
-revolutionary_colors = { 13 8 13 }
-
 historical_idea_groups = {
 	defensive_ideas
 	trade_ideas
@@ -36,20 +34,44 @@ historical_units = {
 }
 
 monarch_names = {
-	"Robert #1" = 55
-	"Edward #2" = 50
+	# RP RULER NAMES
+	"Madelgaud #1" = 5
+	"Lothaire #2" = 20
+	"Louis #1" = 60
+	"Charles #2" = 20
+	"Arnulf #1" = 5
+	"Zwentibold #1" = 0
+	"Richwin #1" = 5
+	"Eudes #1" = 15
+	"Konrad #1" = 1
+	"Thierry #1" = 5
+	"Frederick #2" = 20
+	"Sophie #1" = -1
+	"Guigues #1" = 1
+	"Adelaide #1" = -1
+	"Ermessinde #1" = -1
+	"Alderic #3" = 60
+	"Helvis #1" = -1
+	"Pernette #1" = -1
+	"Gauthier #1" = 5
+	"Benoit #2" = 20
+	"Centule #2" = 20
+	"Ermengarde #1" = -1
+	"Gaucelin #1" = 1
+	"Eve #2" = -5
+	"Robin #1" = 5
+
+	# RANDOM NAMES - MALE
+	"Robert #0" = 55
+	"Edward #0" = 50
 	"René #0" = 35
-	"Louis #0" = 30
-	"Henri #4" = 20
-	"Frederick #3" = 10
-	"Thierry #1" = 10
-	"Theodoric #2" = 10
-	"Reginald #2" = 10
-	"Theobald #2" = 10
+	"Henri #0" = 20
+	"Theodoric #0" = 10
+	"Reginald #0" = 10
+	"Theobald #0" = 10
 	"Nicholas #0" = 10
 	"François #0" = 10
 	"Philippe #0" = 10
-	"Charles #0" = 10
 	"Jean #0" = 10
 	"Antoine #0" = 10
 	"Nicolas #0" = 10
@@ -58,9 +80,7 @@ monarch_names = {
 	"Ferdinand Philippe #0" = 5
 	"Léopold #0 Clément" = 5
 	"Rodolphe #0" = 5
-	"Charles #1 Ferdinand" = 5
-	"Charles #1 Henri" = 5
-	"François #1 Antoine" = 5
+	"François #0 Antoine" = 5
 	"Joseph #0" = 5
 	"Alfred #0" = 5
 	"Bernard #0" = 5
@@ -69,7 +89,7 @@ monarch_names = {
 	"Jacques #0" = 10
 	"Gaston #0" = 10
 	
-	"Sophie #1" = -10
+	# RANDOM NAMES - FEMALE
 	"Isabelle #0" = -10
 	"Jeanne #0" = -1
 	"Anne #0" = -1

@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 103  62  185 }
-revolutionary_colors = { 8 4 8 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -33,14 +32,32 @@ historical_units = {
 }
 
 monarch_names = {
-	"Guillaume #2" = 40
+	# RP RULER NAMES
+	"Anselm #1" = 5
+	"Giselbert #1" = 5
+	"Geoffroy #1" = 5
+	"Richard #1" = 5
+	"Reginar #5" = 100
+	"Herman #1" = 5
+	"Richilde #1" = -1
+	"Baudouin #2" = 20
+	"Jacques #2" = 20
+	"Esclarmonde #1" = -1
+	"Peronelle #1" = -1
+	"Louis #1" = 15
+	"Clara #1" = -1
+	"Ekaterina #1" = -1
+	"Humbert #1" = 10
+	"Odo #1" = 15
+	"Sophie #1" = -1
+	"Aymar #1" = 5
+	"Eglantine #1" = -1
+
+	# RANDOM NAMES - MALE
+	"Guillaume #0" = 40
 	"Albert #0" = 20
-	"Jean #2" = 15
-	"Lodewijk #2" = 15
-	"Odo #0" = 15
-	"Baudouin #6" = 5
-	"Charles #1" = 5
-	"Louis #0" = 5
+	"Jean #0" = 15
+	"Charles #0" = 5
 	"Adam #0" = 0
 	"Adolphe #0" = 0
 	"Adrien #0" = 0
@@ -56,7 +73,6 @@ monarch_names = {
 	"Gaspard #0" = 0
 	"Gérard #0" = 0
 	"Hughes #0" = 0
-	"Humbert #0" = 0
 	"Ignace #0" = 0
 	"Jérôme #0" = 0
 	"Joachim #0" = 0
@@ -73,8 +89,9 @@ monarch_names = {
 	"Zacharie #0" = 0
 	"Roland #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Jacqueline #0" = -15
-	"Marguerite #2" = -5
+	"Marguerite #0" = -5
 	"Anne #0" = -1
 	"Agnès #0" = -1
 	"Beatrix #0" = -1
