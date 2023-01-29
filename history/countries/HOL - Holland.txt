@@ -4,14 +4,13 @@ government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = dutch
-add_accepted_culture = frisian
 capital = 4383 #Haag
+fixed_capital = 4383 # Cannot move capital away from this province & no power cost to move to it
 
-#ck3: check inauguration
-1444.11.11= {
+1426.9.13 = {
 	monarch = {
 		name = "Cille"
-		dynasty = "Boulogne-Haarlem"
+		dynasty = "van Haarlem"
 		adm = 5
 		dip = 5
 		mil = 4
@@ -22,18 +21,4 @@ capital = 4383 #Haag
 	}
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = tactical_genius_personality
-	queen = {
-		name = "Ruprecht"
-		dynasty = "Nordheim-Kufstein"
-		adm = 3
-		dip = 4
-		mil = 4
-		country_of_origin = TIR
-		birth_date = 1420.7.26
-		death_date = 1480.7.26
-		religion = catholic
-		culture = austrian
-	}
-	add_queen_personality = strict_personality
-	add_queen_personality = tolerant_personality
 }

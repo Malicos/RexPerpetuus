@@ -1,20 +1,21 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = burgundian
+primary_culture = high_burgundian
 religion = catholic
 technology_group = western
 capital = 7950
+fixed_capital = 7950 # Cannot move capital away from this province & no power cost to move to it
 
-
-#History not yet done
-1434.1.1 = {			#Exact date unknown, however between 1433 and 1436 it seems. 
+1417.8.10 = {
 	monarch = {
-		name = "Philippe"
-		dynasty = "de Vienne"
-		#Date of birth is unknown.
-		adm = 2			
-		dip = 2		
+		name = "Othon"
+		dynasty = "de Langres"
+		adm = 1
+		dip = 1
 		mil = 2
+		birth_date = 1400.4.13
+		religion = catholic
+		culture = high_burgundian
 	}
 }

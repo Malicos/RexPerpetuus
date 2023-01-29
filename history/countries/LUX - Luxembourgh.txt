@@ -1,45 +1,22 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 1
-primary_culture = hessian
-add_accepted_culture = wallonian
+government_rank = 2
+primary_culture = luxembourgish_culture
 religion = catholic
 technology_group = western
 capital = 94	# Luxembourg
-fixed_capital = 94 # Cannot move capital away from this province & no power cost to move to it
 
-1388.1.1 = {
+1414.3.8 = {
 	monarch = {
-		name = "Jobst I"
-		dynasty = "von Luxemburg"
-		adm = 3
-		dip = 3
-		mil = 4
+		name = "Frédéric"
+		dynasty = "Salian"
+		adm = 5
+		dip = 5
+		mil = 3
+		birth_date = 1387.5.2
+		religion = catholic
+		culture = lorraine_culture
 	}
-}
-
-1390.11.1 = {
-	heir = {
-		name = "Elisabeth"
-		monarch_name = "Elisabeth"
-		dynasty = "von Luxemburg"
-		birth_date = 1390.11.1
-		death_date = 1451.8.3
-		claim = 95
-		adm = 2
-		dip = 2
-		mil = 1
-		female = yes
-	}
-}
-
-1415.1.1 = {
-	monarch = {
-		name = "Elisabeth I"
-		dynasty = "von Luxemburg"
-		adm = 2
-		dip = 2
-		mil = 1
-		female = yes
-	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = midas_touched_personality
 }

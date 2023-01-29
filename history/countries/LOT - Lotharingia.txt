@@ -1,20 +1,19 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
-technology_group = western
 primary_culture = lorraine_culture
+add_accepted_culture = luxembourgish_culture
 religion = catholic
+technology_group = western
 capital = 1878	# Aachen
 elector = yes
-add_accepted_culture = luxembourgish_culture
 
-#ck3: verify inauguration date
-1444.11.11= {
+1414.3.8 = {
 	monarch = {
 		name = "Frédéric"
-		dynasty = "Salian-Nancy"
-		adm = 4
-		dip = 4
+		dynasty = "Salian"
+		adm = 5
+		dip = 5
 		mil = 3
 		birth_date = 1387.5.2
 		religion = catholic
@@ -22,34 +21,4 @@ add_accepted_culture = luxembourgish_culture
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = midas_touched_personality
-	queen = {
-		name = "Anna"
-		dynasty = "Trpimirovic-Cazma"
-		adm = 4
-		dip = 4
-		mil = 5
-		country_of_origin = CRO
-		birth_date = 1369.11.15
-		death_date = 1429.11.15
-		female = yes
-		religion = catholic
-		culture = croatian
-	}
-	add_queen_personality = charismatic_negotiator_personality
-	add_queen_personality = zealot_personality
-	heir = {
-		name = "Anne"
-		monarch_name = "Anne"
-		dynasty = "Salian-Nancy"
-		adm = 6
-		dip = 6
-		mil = 5
-		birth_date = 1404.6.24
-		death_date = 1469.6.24
-		female = yes
-		religion = catholic
-		culture = lorraine_culture
-	}
-	add_heir_personality = naive_personality
-	add_heir_personality = righteous_personality
 }

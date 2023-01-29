@@ -6,48 +6,19 @@ add_accepted_culture = hannoverian
 religion = catholic
 technology_group = western
 capital = 99	# Coevorde
+fixed_capital = 99 # Cannot move capital away from this province & no power cost to move to it
 
-#ck3: check inauguration date
-1444.11.11= {
+1422.11.26 = {
 	monarch = {
-		name = "Raynaud III"
-		dynasty = "de Meaux"
+		name = "Reinoud III"
+		dynasty = "Geldern"
 		adm = 3
 		dip = 4
 		mil = 3
 		birth_date = 1421.5.24
 		religion = catholic
-		culture = cosmopolitan_french
+		culture = dutch
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = tolerant_personality
-	queen = {
-		name = "Ingrid"
-		dynasty = "Ásbrning"
-		adm = 6
-		dip = 2
-		mil = 5
-		country_of_origin = NOR
-		birth_date = 1410.8.2
-		death_date = 1470.8.2
-		female = yes
-		religion = catholic
-		culture = norwegian
-	}
-	add_queen_personality = free_thinker_personality
-	add_queen_personality = tactical_genius_personality
-	heir = {
-		name = "Jean"
-		monarch_name = "Jean II"
-		dynasty = "de Meaux"
-		adm = 0
-		dip = 0
-		mil = 1
-		birth_date = 1440.8.11
-		death_date = 1505.8.11
-		religion = catholic
-		culture = cosmopolitan_french
-	}
-	add_heir_personality = cruel_personality
-	add_heir_personality = zealot_personality
 }
