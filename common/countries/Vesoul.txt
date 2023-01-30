@@ -34,10 +34,32 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Carloman #1" = 1
+	"Hardouin #1" = 1
+	"Eudes #1" = 10
+	"Rudolf #2" = 20
+	"Othon-Guillaume #1" = 1
+	"Renaud #1" = 10
+	"Guillaume #1" = 10
+	"Hugues #1" = 10
+	"Adelaide #1" = -1
+	"Conrad #2" = 20
+	"Matthias #1" = 10
+	"Amalie #1" = -1
+	"Eberhard #2" = 20
+	"Brunhilde #1" = -1
+	"Giselbert #2" = 20
+	"Philippe #3" = 60
+	"Romilda #1" = -1
+	"Charles #2" = 20
+	"Catherine #1" = -1
+	"Patrick #1" = 10
+	"Torgodorio #1" = 1
+
+	# RANDOM NAMES - MALE
 	"Louis #0" = 80
-	"Charles #1" = 60
 	"Louis-Philippe #0" = 40
-	"Philippe #0" = 40
 	"Gaston #0" = 20
 	"Henri-Alexandre #0" = 20
 	"Nicolas #0" = 20
@@ -45,8 +67,8 @@ monarch_names = {
 	"François #0" = 10
 	"Jean #0" = 5		
 	"Antoine Philippe #0" = 5
-	"Hughes #2" = 1
-	"Robert #1" = 1
+	"Hughes #0" = 1
+	"Robert #0" = 1
 	"Alexandre #0" = 0
 	"Ambroise #0" = 0
 	"Armand #0" = 0
@@ -54,9 +76,7 @@ monarch_names = {
 	"Bernard #0" = 0
 	"Claude #0" = 0
 	"Denis #0" = 0
-	"Eudes #0" = 0
 	"Gui #0" = 0
-	"Guillaume #0" = 0
 	"Gustave #0" = 0
 	"Henri #0" = 0
 	"Jacques #0" = 0
@@ -74,8 +94,8 @@ monarch_names = {
 	"Thibaut #0" = 0
 	"Xavier #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Claudine #0" = -10
-	"Catherine #0" = -1
 	"Marguerite #0" = -1
 	"Marie #0" = -1
 	"Jeanne #0" = -1

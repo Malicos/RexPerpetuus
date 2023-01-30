@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 126 104 135 }
 
-preferred_religion = reformed
-
 historical_idea_groups = {
 	defensive_ideas
 	economic_ideas
@@ -36,6 +34,28 @@ historical_units = {
 
 #generic Arpitan, taken from Vienne and tweaked
 monarch_names = {
+	# RP RULER NAMES
+	"Frederic #1" = 10
+	"Hucbert #1" = 1
+	"Gerold #1" = 1
+	"Konrad #1" = 1
+	"Rudolf #1" = 1
+	"Burchard #1" = 1
+	"Ulrich #2" = 20
+	"Mechthild #1" = -1
+	"Poppo #1" = 1
+	"Charles #1" = 20
+	"Erich #2" = 20
+	"Ramond #3" = 60
+	"Ferran #1" = 20
+	"Joan #1 Guerau" = 10
+	"Nikolaus #1" = 10
+	"Gaucher #1" = 1
+	"Guiges #1" = 1
+	"Plaisance #1" = -1
+	"Lothaire #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Guigues #0" = 40
 	"Humbert #0" = 40
 	"Jean #0" = 40
@@ -46,8 +66,7 @@ monarch_names = {
 	"Aymeric #0" = 0
 	"Bartomiu #0" = 0
 	"Bernat #0" = 0
-	"Bertran #0" = 0		
-	"Charles #0" = 0
+	"Bertran #0" = 0	
 	"Damián #0" = 0
 	"Enric #0" = 0
 	"Estève #0" = 0
@@ -68,7 +87,6 @@ monarch_names = {
 	"Per #0" = 0
 	"Pol #0" = 0
 	"Pons #0" = 0
-	"Ramond #0" = 0
 	"Ricard #0" = 0
 	"Sanc #0" = 0
 	"Simos #0" = 0
@@ -77,7 +95,8 @@ monarch_names = {
 	"Victor #0" = 0
 	"John #0" = 0
 	
-	"Joan #0" = -1
+	# RANDOM NAMES - FEMALE
+	"Jeanne #0" = -1
 	"Marie #0" = -1
 	"Charlotte #0" = -1
 	"Anne #0" = -1

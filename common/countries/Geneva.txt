@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 13 21 147 }
 
-preferred_religion = reformed
-
 historical_idea_groups = {
 	administrative_ideas
 	plutocracy_ideas

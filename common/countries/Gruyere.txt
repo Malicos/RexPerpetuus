@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 220 209 44 }
 
-preferred_religion = catholic
-
 historical_idea_groups = {
 	defensive_ideas
 	economic_ideas
@@ -36,6 +34,12 @@ historical_units = {
 
 #generic Arpitan, taken from Vienne and tweaked
 monarch_names = {
+	# RP RULER NAMES
+	"Geoffroy #2" = 20
+	"Josselin #1" = 5
+	"Otton #1" = 5
+
+	# RANDOM NAMES - MALE
 	"Guigues #0" = 40
 	"Humbert #0" = 40
 	"Jean #0" = 40
@@ -77,6 +81,7 @@ monarch_names = {
 	"Victor #0" = 0
 	"John #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Joan #0" = -1
 	"Marie #0" = -1
 	"Charlotte #0" = -1
