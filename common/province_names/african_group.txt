@@ -1,0 +1,62 @@
+#Represents Sardinian as group primary
+
+#Italy
+118 = { "Roma" "Roma" }		#Rome
+121 = { "Nàpoli" "Nàpoli" }		#Naples
+124 = { "Messina" "Messina" }		#Messina
+125 = { "Palermu" "Palermu" }		#Palermo
+126 = { "Malta" "Cità Begra" }		#Malta
+127 = { "Caddura" "Terranoa" }		#Gallura
+2982 = { "Siracusa" "Siracusa" }		#Syracuse
+2986 = { "Caddari" "Caddari" }		#Syracuse
+4735 = { "Arbaree" "Aristanis" }		#Arborea
+4737 = { "Grighentu" "Grighentu" }		#Agrigento
+4746 = { "Tràpani" "Tràpani" }		#Trapani
+5091 = { "Logudoru" "Tàtari" }		#Logudoro
+7001 = { "Caltanissetta" "Caltanissetta" }		#Caltanissetta
+7002 = { "Catània" "Catània" }		#Catania
+7038 = { "Bonifàtziu" "Bonifàtziu" }		#Bonifacio
+7095 = { "Maurreddia" "Igrèsias" }		#Sulcis
+7097 = { "Nùgoro" "Otieri" }		#Nuoro
+7099 = { "Ogiastra" "Jersu" }		#Ogliastra
+
+#Africa
+339 = { "Begiàia" "Begiàia" }		#Béjaïa
+340 = { "Costantina" "Costantina" }		#Constantine
+341 = { "Tùnisi" "Tùnisi" }		#Tunis
+352 = { "Càssia" "Càssia" }		#Gafsa
+353 = { "Medenina" "Medenina" }		#Medenine
+354 = { "Trìpoli" "Trìpoli d'Àfrica" }		#Tripoli
+1882 = { "Ubu" "Ubu" }		#Annaba
+2453 = { "Sfaci" "Sfaci" }		#Sfax
+2454 = { "Sa Caravanas" "Sa Caravanas" }		#Qayrwan
+2455 = { "Piserta" "Piserta" }		#Bizerte
+2473 = { "Susa" "Susa" }		#Susa
+2954 = { "Meningi" "Meningi" }		#Djerba
+4566 = { "Ebira" "Ebira" }		#Habira
+5224 = { "Capu Bonu" "Nàpoli d'Àfrica" }		#Cape Bon
+5225 = { "Madìa" "Madìa" }		#Madiya
+5312 = { "Càpisi" "Càpisi" }		#Gabes
+5313 = { "Casserina" "Casserina" }		#Kasserine
+5314 = { "Baga" "Baga" }		#Béja
+5315 = { "Scabaneri" "Scabaneri" }		#Kef/Scabaneria
+5316 = { "Tusuru" "Tusuru" }		#Tozeur
+5317 = { "Tabarca" "Tabarca" }		#Tabarqa
+5320 = { "Mitza Arba" "Mitza Arba" }		#Aïn Beïda
+5321 = { "Ghighili" "Ghighili" }		#Igilgili
+5325 = { "Tabatenta" "Tabatenta" }		#Batna
+5326 = { "Màscula" "Màscula" }		#Khenchela
+
+
+#Egypt
+358 = { "Lisàndria" "Lisàndria" }		#Alexandria
+
+#Levant
+359 = { "Gerusalemme" "Gerusalemme" }		#Jerusalem
+2313 = { "Antiòchia" "Antiòchia" }		#Antioch
+
+#Balkans
+151 = { "Costantinòpoli" "Costantinòpoli" }		#Constantinople
+
+#Iberia
+224 = { "Spìlia" "Spìlia" }		#Seville

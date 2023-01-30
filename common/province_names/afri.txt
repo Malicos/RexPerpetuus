@@ -1,0 +1,58 @@
+#Surviving African Romance language based off work by u/xarsha_93 on Reddit with a few modifications
+
+#Italy
+121 = { "Napri-Italiaí" "Napri-Italiaí" }		#Naples
+124 = { "Mxina" "Mxina" }		#Messina
+126 = { "Mauta" "Kitati Bekra" }		#Malta
+127 = { "Kadjura" "Trranoba" }		#Gallura
+2982 = { "Xirakuxa" "Xirakuxa" }		#Syracuse
+2986 = { "Kadjari" "Kadjari" }		#Syracuse
+4735 = { "Aubarie" "Arixtanix" }		#Arborea
+4737 = { "Grigentu" "Grigentu" }		#Agrigento
+4746 = { "Trápani" "Trápani" }		#Trapani
+5091 = { "Logudoru" "Tátari" }		#Logudoro
+7001 = { "Kautanixeta" "Kautanixeta" }		#Caltanissetta
+7002 = { "Katania" "Katania" }		#Catania
+7038 = { "Bonifatsu" "Bonifatsu" }		#Bonifacio
+7095 = { "Maurredja" "Grexax" }		#Sulcis
+7097 = { "Nugru" "Osieri" }		#Nuoro
+7099 = { "Odjastra" "Ierxu" }		#Ogliastra
+
+#Africa
+339 = { "Bdjaia" "Bdjaia" }		#Béjaïa
+340 = { "Kxtansina" "Kxtansina" }		#Constantine
+341 = { "Tunix" "Tunix" }		#Tunis
+352 = { "Kaxa" "Kaxa" }		#Gafsa
+353 = { "Madnina" "Madnina" }		#Medenine
+354 = { "Tripri" "Tripri" }		#Tripoli
+2453 = { "Tfrura" "Tfrura" }		#Sfax
+2454 = { "X'Karabanax" "X'Karabanax" }		#Qayrwan
+2455 = { "Pizarta" "Pizarta" }		#Bizerte
+2473 = { "Xuxa" "Xuxa" }		#Susa
+2954 = { "Mninri" "Mninri" }		#Djerba
+4566 = { "Hpira" "Hpira" }		#Habira
+5224 = { "Kapu-Bonu" "Napri" }		#Cape Bon
+5225 = { "Madía" "Madía" }		#Madiya
+5312 = { "Tkapix" "Tkapix" }		#Gabes
+5313 = { "Kaxrina" "Kaxrina" }		#Kasserine
+5315 = { "Skabneri" "Skabneri" }		#Kef/Scabaneria
+5316 = { "Tuxru" "Tuxru" }		#Tozeur
+5317 = { "Tbarka" "Tbarka" }		#Tabarqa
+5320 = { "Ain-Auba" "Ain-Auba" }		#Aïn Beïda
+5321 = { "Gígili" "Gígili" }		#Igilgili
+5325 = { "Tbasenta" "Tbasenta" }		#Batna
+5326 = { "Maxkra" "Maxkra" }		#Khenchela
+
+
+#Egypt
+358 = { "Xkándria" "Xkándria" }		#Alexandria
+
+#Levant
+359 = { "Jruxalén" "Jruxalén" }		#Jerusalem
+2313 = { "Ansokia" "Ansokia" }		#Antioch
+
+#Balkans
+151 = { "Kxtansinopri" "Kxtansinopri" }		#Constantinople
+
+#Iberia
+224 = { "Spilia" "Spilia" }		#Seville
