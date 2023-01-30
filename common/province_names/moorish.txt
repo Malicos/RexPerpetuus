@@ -519,7 +519,7 @@
 #Tunis 
 340 = "Qusantinâ"
 2453 = "Safaqus" #or "Safaqis"
-#2454 = "Al-Kaf"
+#2454 = "Iskabanariya"
 2455 = "Binzart"
 2458 = "Al-Masila" #current name is the name of a saltlake?
 
@@ -703,7 +703,7 @@
 
 #adjustment or correction
 2454 = "Al-Qairawan"
-5315 = "Al-Kaf"
+5315 = "Iskabanariya"
 
 
 
@@ -1850,7 +1850,7 @@
 
 #aures
 5313 = { "Al-Qasrain" "Al-Qasrain" } #
-5315 = { "Al-Kaf" "Al-Kaf" } #
+5315 = { "Iskabanariya" "Iskabanariya" } #
 5326 = { "Hanshala" "Hanshala" } #
 
 #barbary coast
