@@ -10,34 +10,22 @@ government = monarchy
 add_government_reform = feudalism_reform
 
 #Demographics
-primary_culture = arpitan
+primary_culture = high_burgundian
 religion = catholic
 
 #Tech and Military
 technology_group = western
 
 #History
-1444.1.1 = {
+1421.10.15 = {
 	monarch = {
-		name = "Rudolf IV"
-		birth_date = 1407.3.1
-		adm = 1
-		dip = 2
+		name = "Lothaire"
+		dynasty = "von Saarbrucken"
+		adm = 3
+		dip = 3
 		mil = 3
-		dynasty = "von Zähringen"
-	}
-}
-
-1444.1.1 = {
-	heir = {
-		name = "Philipp"
-		monarch_name = "Philipp"
-		birth_date = 1444.1.1
-		death_date = 1517.7.15
-		claim = 95
-		adm = 1
-		dip = 1
-		mil = 1
-		dynasty = "von Zähringen"		
+		birth_date = 1420.10.15
+		religion = catholic
+		culture = high_burgundian
 	}
 }

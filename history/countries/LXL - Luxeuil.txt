@@ -1,20 +1,19 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
+government = republic
+add_government_reform = free_city
 government_rank = 1
-primary_culture = burgundian
+mercantilism = 25
+primary_culture = high_burgundian
 religion = catholic
 technology_group = western
 capital = 8030
+fixed_capital = 8030 # Cannot move capital away from this province & no power cost to move to it
 
-
-#History not yet done
-1431.1.1 = {			#Exact date unknown.
+1440.1.1 = {
 	monarch = {
-		name = "Guy"
-		dynasty = "Briffaut"
-		#Date of birth unknown.
-		adm = 2
-		dip = 2
-		mil = 2
+		name = "Conseil municipal"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
 	}
 }
