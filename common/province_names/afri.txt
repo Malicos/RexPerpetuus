@@ -4,7 +4,7 @@
 121 = { "Napri-Italiaí" "Napri-Italiaí" }		#Naples
 124 = { "Mxina" "Mxina" }		#Messina
 126 = { "Mauta" "Kitati Bekra" }		#Malta
-127 = { "Kadjura" "Trranoba" }		#Gallura
+127 = { "Kadjura" "Srranoba" }		#Gallura
 2982 = { "Xirakuxa" "Xirakuxa" }		#Syracuse
 2986 = { "Kadjari" "Kadjari" }		#Syracuse
 4735 = { "Aubarie" "Arixtanix" }		#Arborea
@@ -23,9 +23,9 @@
 340 = { "Kxtansina" "Kxtansina" }		#Constantine
 341 = { "Tunix" "Tunix" }		#Tunis
 352 = { "Kaxa" "Kaxa" }		#Gafsa
-353 = { "Madnina" "Madnina" }		#Medenine
+353 = { "Maznina" "Maznina" }		#Medenine
 354 = { "Tripri" "Tripri" }		#Tripoli
-2453 = { "Tfrura" "Tfrura" }		#Sfax
+2453 = { "Sfrura" "Sfrura" }		#Sfax
 2454 = { "X'Karabanax" "X'Karabanax" }		#Qayrwan
 2455 = { "Pizarta" "Pizarta" }		#Bizerte
 2473 = { "Xuxa" "Xuxa" }		#Susa
@@ -33,14 +33,14 @@
 4566 = { "Hpira" "Hpira" }		#Habira
 5224 = { "Kapu-Bonu" "Napri" }		#Cape Bon
 5225 = { "Madía" "Madía" }		#Madiya
-5312 = { "Tkapix" "Tkapix" }		#Gabes
+5312 = { "Skapix" "Skapix" }		#Gabes
 5313 = { "Kaxrina" "Kaxrina" }		#Kasserine
 5315 = { "Skabneri" "Skabneri" }		#Kef/Scabaneria
 5316 = { "Tuxru" "Tuxru" }		#Tozeur
-5317 = { "Tbarka" "Tbarka" }		#Tabarqa
+5317 = { "Sbarka" "Sbarka" }		#Tabarqa
 5320 = { "Ain-Auba" "Ain-Auba" }		#Aïn Beïda
 5321 = { "Gígili" "Gígili" }		#Igilgili
-5325 = { "Tbasenta" "Tbasenta" }		#Batna
+5325 = { "Sbasenta" "Sbasenta" }		#Batna
 5326 = { "Maxkra" "Maxkra" }		#Khenchela
 
 
