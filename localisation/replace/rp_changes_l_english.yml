@@ -62,17 +62,21 @@
  ###################
  
  ####Germanic####
+ ###Nordic###
+ faroese:0 "Norn"
  ###Continental Germanic###
  saxon:0 "Thuringian" #A little confusing I know - Hadiros
  lower_saxon:0 "Saxon"
  swabian:0 "Allemanic" 
  hessian:0 "High Rhenish"
+ pommeranian:0 "Mecklenburger"
  ###British###
  anglo_saxon:1 "Sexish" 
  
  ####Romance####
  ###Oïlitanic###
  french:0 "Oïlitanic"
+ cosmopolitan_french:0 "Neustrian"
  burgundian:0 "Low Burgundian"
  ###Occitanic###
  occitain:0 "Langdocian"  
@@ -88,10 +92,11 @@
  greek:0 "Aegean" #Unified Greece and West Anatolia 
  
  ####Celtic####
- ###Goidelic###
- gaelic:1 "Goidelic" 
- highland_scottish:0 "Gaelic"
-
+ ###Gaelic###
+ highland_scottish:0 "Scottis"
+ ###Unified Celtic
+ celtic_highland_scottish_culture:0 "Scottis"
+ 
  ####Balto-Slavic####
  ###Baltic###
  lithuanian:0 "Aukstatijan"

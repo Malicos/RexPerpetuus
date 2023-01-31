@@ -33,6 +33,7 @@
  ###Nordic###
  denlegian:0 "Denlegian"            # English Norse
  gallwegian:0 "Gallwegian"        # Irish Norse
+ nordurican:0 "Nordurican"        #Koine Nordic
  ###British###
  anglo_saxon:0 "Anglo-Saxon"      # Old English
  sexish_culture:0 "Sexish"        # No Normans Southern English
@@ -91,6 +92,7 @@
  kalabrian:0 "Kalabriot"
  siciliote:0 "Siciliot"
  antiochene:0 "Antiochene"
+ cretan:0 "Cretan"
   
  #####Armenic#### 
  ###Armenian###
@@ -200,6 +202,8 @@
  AGL_ADJ:0 "Angoulemese"
  AGN:0 "Agenais"
  AGN_ADJ:0 "Agenaisian"
+ ANA:0 "Anatolia"
+ ANA_ADJ:0 "Anatolian"
  AOS:0 "Aosta"
  AOS_ADJ:0 "Aostan"
  AQT:0 "Aquitaine"
