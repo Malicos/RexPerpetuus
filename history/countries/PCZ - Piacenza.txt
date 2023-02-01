@@ -7,8 +7,15 @@ religion = catholic
 capital = 7057
 fixed_capital = 7057
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1431.10.19 = {
+	monarch = {
+		name = "Lorenzo"
+		dynasty = "Pallavicini"
+		adm = 2
+		dip = 6
+		mil = 3
+		birth_date = 1405.2.12
+		religion = catholic
+		culture = romagnan
+	}
+}

@@ -1,43 +1,21 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = oligarchy_reform
 government_rank = 1
-primary_culture = piedmontese
+mercantilism = 25
+primary_culture = high_burgundian
 religion = catholic
 technology_group = western
-capital = 4727 # Saluzzo
+capital = 3045 # Aosta
+fixed_capital = 3045 # Cannot move capital away from this province & no power cost to move to it
 
-1405.1.1 = {
+1433.7.19 = {
 	monarch = {
-		name = "Ludovico I"
-		dynasty = "del Vasto"
-		birth_date = 1405.1.1
-		adm = 3
-		dip = 3
-		mil = 2
-	}
-}
-
-1438.3.23 = {
-	heir = {
-		name = "Ludovico"
-		monarch_name = "Ludovico II"
-		dynasty = "del Vasto"
-		birth_date = 1438.3.23
-		death_date = 1504.1.27
-		claim = 95
-		adm = 3
+		name = "Roubaud de Vienne"
+		adm = 2
 		dip = 2
-		mil = 1
-	}
-}
-
-1475.4.15 = {
-	monarch = {
-		name = "Ludovico II"
-		dynasty = "del Vasto"
-		birth_date = 1438.3.23
-		adm = 3
-		dip = 2
-		mil = 1
+		mil = 4
+		birth_date = 1412.12.18
+		religion = catholic
+		culture = high_burgundian
 	}
 }

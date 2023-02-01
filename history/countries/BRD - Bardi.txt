@@ -7,8 +7,15 @@ religion = catholic
 capital = 7045 #Bardi
 fixed_capital = 7045
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1429.10.10 = {
+	monarch = {
+		name = "Aleramo"
+		dynasty = "Landi"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1403.11.3
+		religion = catholic
+		culture = neapolitan
+	}
+}

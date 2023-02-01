@@ -7,8 +7,15 @@ religion = catholic
 capital = 7058
 fixed_capital = 7058
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1433.10.20 = {
+	monarch = {
+		name = "Teobaldo"
+		dynasty = "Visconti"
+		adm = 4
+		dip = 3
+		mil = 6
+		birth_date = 1394.4.13
+		religion = catholic
+		culture = piedmontese
+	}
+}
