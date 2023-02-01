@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 172 189 87 }
-revolutionary_colors = { 8 15 8 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -33,6 +32,32 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Lantpert #1" = 10
+	"Suppo #2" = 20
+	"Adelchis #2" = 20
+	"Sigifredo #1" = 10
+	"Attone #1" = 10
+	"Manfredo #1" = 10
+	"Guido #1" = 10
+	"Bernardo #2" = 20
+	"Bonifacio #1" = 10
+	"Arduino #1" = 10
+	"Oberto #2" = 20
+	"Adelmo #1" = 10
+	"Elisabetta #2" = -10
+	"Premysl #1" = 0
+	"Jaroslav #1" = 0
+	"Ottone #1" = 10
+	"Bernabo #1" = 10
+	"Adalberto #1" = 10
+	"Ambrogio #1" = 10
+	"Adelia #1" = -1
+	"Rinaldo #1" = 10
+	"Leo #1" = 10
+	"Lorenzo #2" = 20
+
+	# RANDOM NAMES - MALE
 	"Ranuccio #0" = 40
 	"Alessandro #0" = 20
 	"Antonio #0" = 20
@@ -49,7 +74,6 @@ monarch_names = {
 	"Achille #0" = 0
 	"Alberto #0" = 0
 	"Benedetto #0" = 0
-	"Bernardo #0" = 0
 	"Ciro #0" = 0
 	"Claudio #0" = 0
 	"Daniele #0" = 0
@@ -60,7 +84,6 @@ monarch_names = {
 	"Gaetano #0" = 0
 	"Graziano #0" = 0
 	"Luciano #0" = 0
-	"Manfredo #0" = 0
 	"Mario #0" = 0
 	"Modesto #0" = 0
 	"Nestore #0" = 0
@@ -72,6 +95,7 @@ monarch_names = {
 	"Valerio #0" = 0
 	"Vincenzo #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Maria Luigia #0" = -15
 	"Isabella #0" = -5
 	"Margherita #0" = -5
@@ -80,7 +104,6 @@ monarch_names = {
 	"Francesco Maria #0" = -1
 	"Caterina #0" = -5
 	"Teresa #0" = -1
-	"Elisabetta #0" = -1
 	"Vittoria #0" = -1
 }
 

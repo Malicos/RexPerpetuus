@@ -30,16 +30,18 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Galeotto #2" = 60
+	"Giorgio #1" = 20
+
 	#Finale specific names
-	"Galeotto #1" = 60
-	"Lazzarino #2" = 60
+	"Lazzarino #0" = 60
 	"Alfonso #0" = 40
-	"Enrico #2" = 40
+	"Enrico #0" = 40
 	"Giovanni #0" = 40
-	"Antonio #1" = 20
-	"Giorgo #1" = 20
+	"Antonio #0" = 20
 	"Carlo #0" = 10
-	"Giacomo #1" = 10
+	"Giacomo #0" = 10
 	"Ottone #0" = 10
 	"Alessandro #0" = 5
 	"Fabrizio #0" = 5
