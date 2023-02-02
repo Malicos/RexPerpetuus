@@ -3,14 +3,14 @@
 owner = SSV
 controller = SSV
 add_core = SSV
-culture = neapolitan 
-religion = catholic 
+culture = griko 
+religion = orthodox
 hre = no 
 base_tax = 2
 base_production = 3
 trade_goods = wine
 base_manpower = 2
-capital = "San Severo"
+capital = "Lucera"
 is_city = yes 
 
 discovered_by = western
