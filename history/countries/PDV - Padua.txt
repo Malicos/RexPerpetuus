@@ -7,8 +7,15 @@ religion = catholic
 capital = 4729
 fixed_capital = 4729
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1435.4.14 = {
+	monarch = {
+		name = "Luigi II"
+		dynasty = "von Zahringen"
+		adm = 2
+		dip = 2
+		mil = 5
+		birth_date = 1389.10.13
+		religion = catholic
+		culture = venetian
+	}
+}

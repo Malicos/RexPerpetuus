@@ -7,8 +7,15 @@ religion = catholic
 capital = 107
 fixed_capital = 107
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1434.2.25 = {
+	monarch = {
+		name = "Moruello"
+		dynasty = "Vukanovic"
+		adm = 2
+		dip = 4
+		mil = 3
+		birth_date = 1429.5.20
+		religion = catholic
+		culture = lombard
+	}
+}

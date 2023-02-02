@@ -7,8 +7,15 @@ religion = catholic
 capital = 114
 fixed_capital = 114
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1425.2.15 = {
+	monarch = {
+		name = "Fresco"
+		dynasty = "Traversari"
+		adm = 5
+		dip = 1
+		mil = 3
+		birth_date = 1396.12.29
+		religion = catholic
+		culture = romagnan
+	}
+}

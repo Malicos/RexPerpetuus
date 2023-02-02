@@ -8,11 +8,14 @@ technology_group = western
 capital = 115	# Pisa
 fixed_capital = 115 # Cannot move capital away from this province & no power cost to move to it
 
-1494.1.1 = {
+1439.5.31 = {
 	monarch = {
-		name = "Simone Orlandi"
+		name = "Gerolamo da Lavello"
 		adm = 2
-		dip = 4
-		mil = 2
+		dip = 2
+		mil = 5
+		birth_date = 1398.5.9
+		religion = catholic
+		culture = tuscan
 	}
 }

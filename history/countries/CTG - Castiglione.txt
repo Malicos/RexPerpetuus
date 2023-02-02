@@ -7,8 +7,16 @@ religion = catholic
 capital = 7043
 fixed_capital = 7043
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1438.3.2 = {
+	monarch = {
+		name = "Stefania"
+		dynasty = "di Canossa"
+		adm = 3
+		dip = 5
+		mil = 3
+		birth_date = 1408.7.31
+		religion = catholic
+		culture = tuscan
+		female = yes
+	}
+}
