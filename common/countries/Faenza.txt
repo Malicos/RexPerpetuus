@@ -31,15 +31,15 @@ historical_units = {
 
 monarch_names = {
 	#Faenza specific names
-	"Astorre #2" = 60
-	"Carlo #1" = 60
-	"Francesco #1" = 40
-	"Gian Galeazzo #2" = 40
-	"Giovanni #1" = 20
-	"Ricciardo #1" = 20
-	"Alberghetto #1" = 10
+	"Astorre #0" = 60
+	"Carlo #0" = 60
+	"Francesco #0" = 40
+	"Gian Galeazzo #0" = 40
+	"Giovanni #0" = 20
+	"Ricciardo #0" = 20
+	"Alberghetto #0" = 10
 	"Galeotto #0" = 10
-	"Guidantoni #1" = 10
+	"Guidantoni #0" = 10
 	"Federico #0" = 5
 	"Taddeo #0" = 5
 	"Lancelotto #0" = 0

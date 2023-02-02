@@ -30,10 +30,43 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Nandinig #1" = 1
+	"Rothari #1" = 1
+	"Rodoald #1" = 1
+	"Alachis #1" = 1
+	"Potho #1" = 1
+	"Suppo #1" = 1
+	"Mauring #1" = 1
+	"Berthari #1" = 1
+	"Rodolfo #2" = 20
+	"Tedaldo #1" = 10
+	"Bonifazio #1" = 10
+	"Federico #1" = 10
+	"Matilda #1" = -1
+	"Gilberto #1" = 10
+	"Berardo #1" = 10
+	"Vittorio #1" = 10
+	"Odalrico #1" = 10
+	"Girolamo #1" = 10
+	"Teodoro #1" = 10
+	"Gaucher #1" = 1
+	"Alessandro #1" = 10
+	"Martino #1" = 10
+	"Francesca #1" = -1
+	"Gotefredo #1" = 10
+	"Simone #1" = 10
+	"Oberto #1" = 10
+	"Micaela #1" = -1
+	"Pandolfo #1" = 10
+	"Massimiliano #1" = 10
+	"Moruello #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Cosimo #0" = 60
 	"Ferdinando #0" = 60
 	"Francesco #0" = 60
-	"Lodovico #2" = 40
+	"Lodovico #0 = 40
 	"Carlo #0 Emmanuele" = 20
 	"Carlo #0 Felice" = 20
 	"Lodovico #0 Maria" = 20
@@ -42,7 +75,6 @@ monarch_names = {
 	"Galeazzo Maria #0" = 20
 	"Gian Galeazzo #0" = 20
 	"Gian Gastone #0" = 20
-	"Massimiliano #0" = 20
 	"Napoleone #0" = 20
 	"Pietro Leopoldo #0" = 20
 	"Vittorio Amedeo #0" = 20
@@ -55,7 +87,6 @@ monarch_names = {
 	"Giovanni #0 Maria" = 10
 	"Pietro #0" = 10
 	"Alberto #0" = 5
-	"Rodolfo #0" = 5
 	"Ascanio Maria #0" = 5
 	"Augusto #0" = 5
 	"Benedetto #0" = 5
@@ -79,8 +110,8 @@ monarch_names = {
 	"Paolo #0" = 0
 	"Romeo #0" = 0
 	"Severino #0" = 0
-	"Vittorio #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Viola #0" = -1
 	"Zaira #0" = -1
 	"Angelica #0" = -1

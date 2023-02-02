@@ -3,9 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 59 59 119 } 
-revolutionary_colors = { 14  0  14 }
-
-historical_score = 75
 
 historical_idea_groups = {
 	innovativeness_ideas
@@ -35,6 +32,10 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Galasso #1" = 20
+
+	# RANDOM NAMES - MALE
 	"Cosimo #0" = 60
 	"Ferdinando #0" = 60
 	"Alessandro #0" = 20
@@ -76,6 +77,7 @@ monarch_names = {
 	"Sergio #0" = 0
 	"Vitale #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Luisella #0" = -1
 	"Milena #0" = -1
 	"Paolina #0" = -1

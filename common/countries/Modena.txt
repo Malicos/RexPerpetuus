@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 86 166 15 }
 
-revolutionary_colors = { 5  13  5 } #Somewhat lilke the 1830s flag of Modena
-
 historical_idea_groups = {
 	trade_ideas
 	economic_ideas
@@ -34,25 +32,38 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Alberto Atto #1" = 10
+	"Tedaldo #1" = 10
+	"Bonifacio #1" = 10
+	"Federico #1" = 10
+	"Matilda #1" = -1
+	"Berardo #1" = 10
+	"Gilberto #5" = 100
+	"Carlo #2" = 20
+	"Agalina #1" = -1
+	"Fresco #2" = 20
+	"Antonio #1" = 10
+	"Bertoldo #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Francesco #0" = 100
 	"Alfonso #0" = 80
 	"Ercole #0" = 60
-	"Niccolò #2" = 20
-	"Rinaldo #2" = 20
+	"Niccolò #0" = 20
+	"Rinaldo #0" = 20
 	"Borso #0" = 20
 	"Cesare #0" = 20
 	"Ferdinando #0" = 20
 	"Leonello #0" = 20
-	"Obizzo #3" = 15
-	"Alberto #1 Carlo" = 15
+	"Obizzo #0" = 15
+	"Alberto #0 Carlo" = 15
 	"Alessandro #0" = 15
 	"Almerigo #0" = 15
 	"Luigi #0" = 15
 	"Sigismondo #0" = 15
 	"Tebaldo #0" = 15
 	"Benedetto #0" = 10
-	"Bonifazio #0" = 10
-	"Carlo #0" = 10
 	"Carlo Alessandro #0" = 10
 	"Clemente #0" = 10
 	"Filiberto #0" = 10
@@ -60,8 +71,8 @@ monarch_names = {
 	"Gian Federico #0" = 10
 	"Ippolito #0" = 10
 	"Massimiliano #0" = 10
-	"Azzo #8" = 5
-	"Aldobrandino #3" = 5
+	"Azzo #0" = 5
+	"Aldobrandino #0" = 5
 	"Agostino #0" = 0
 	"Cosimo #0" = 0
 	"Davide #0" = 0
@@ -75,6 +86,7 @@ monarch_names = {
 	"Torquato #0" = 0
 	"Vincenzo #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Filippa #0" = -1
 	"Giosetta #0" = -1
 	"Mafalda #0" = -1
