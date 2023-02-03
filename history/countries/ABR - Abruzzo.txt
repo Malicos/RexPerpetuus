@@ -7,8 +7,15 @@ religion = catholic
 capital = 120
 fixed_capital = 120
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1436.10.11 = {
+	monarch = {
+		name = "Ambrosu"
+		dynasty = "di Avezzano"
+		adm = 2
+		dip = 2
+		mil = 4
+		birth_date = 1398.6.30
+		religion = catholic
+		culture = neapolitan
+	}
+}

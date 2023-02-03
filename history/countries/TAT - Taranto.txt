@@ -1,10 +1,21 @@
-# changed from TAN
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = neapolitan
-religion = catholic
-technology_group = western
-add_accepted_culture = griko
+primary_culture = griko
+religion = orthodox
+technology_group = rhomanian_tech
 capital = 122
 fixed_capital = 122
+
+1420.11.19 = {
+	monarch = {
+		name = "Damianos"
+		dynasty = "Demetrianos"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1405.10.11
+		religion = orthodox
+		culture = griko
+	}
+}

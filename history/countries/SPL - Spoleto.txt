@@ -7,3 +7,15 @@ religion = catholic
 capital = 4731
 fixed_capital = 4731 # Cannot move capital away from this province & no power cost to move to it
 
+1438.4.7 = {
+	monarch = {
+		name = "Tedaldo II"
+		dynasty = "di Canossa"
+		adm = 2
+		dip = 2
+		mil = 4
+		birth_date = 1430.10.9
+		religion = catholic
+		culture = umbrian
+	}
+}

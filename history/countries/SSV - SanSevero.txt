@@ -1,14 +1,21 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = western
-primary_culture = umbrian
-religion = catholic
+technology_group = rhomanian_tech
+primary_culture = griko
+religion = orthodox
 capital = 7011 #San Severo
 fixed_capital = 7011
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1422.4.10 = {
+	monarch = {
+		name = "Symmachos"
+		dynasty = "Komnenos"
+		adm = 3
+		dip = 5
+		mil = 5
+		birth_date = 1395.10.19
+		religion = orthodox
+		culture = griko
+	}
+}

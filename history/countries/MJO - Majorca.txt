@@ -5,6 +5,7 @@ religion = catholic
 primary_culture = catalan
 technology_group = western
 capital = 333	# Majorca
+fixed_capital = 333
 
 1410.12.21 = {
 	monarch = {

@@ -7,8 +7,15 @@ religion = catholic
 capital = 7016
 fixed_capital = 7016
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1441.7.9 = {
+	monarch = {
+		name = "Vitale"
+		dynasty = "Argyll"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1402.1.15
+		religion = catholic
+		culture = neapolitan
+	}
+}
