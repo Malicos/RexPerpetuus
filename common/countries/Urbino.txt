@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 61  152  180 }
 
-revolutionary_colors = { 13  8  5 } #Repubblica Ancona
-
 historical_idea_groups = {
 	defensive_ideas
 	trade_ideas
@@ -34,9 +32,21 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Pio #1" = 10
+	"Enrico #1" = 10
+	"Galasso #1" = 10
+	"Lazzaro #1" = 10
+	"Lealdo #1" = 10
+	"Tedaldo #1" = 10
+	"Amedeo #1" = 10
+	"Matilda #1" = -5
+	"Federico #1" = 10
+	"Rafaello #1" = 10
+
+	# RANDOM NAMES
 	"Guidobaldo #0" = 40
 	"Francesco Maria #0" = 40
-	"Federico #1" = 40
 	"Antonio #0" = 20
 	"Francesco Ubaldo #0" = 20
 	"Guidantonio #0" = 20
@@ -52,7 +62,7 @@ monarch_names = {
 	"Giovanni Pietro #0" = 10
 	"Girolamo #0" = 10
 	"Lucrezia #0" = -10
-	"Guido #1" = 5
+	"Guido #0" = 5
 	"Aldo #0" = 0
 	"Alfonso #0" = 0
 	"Baldovino #0" = 0
@@ -70,7 +80,6 @@ monarch_names = {
 	"Paolo #0" = 0
 	"Pietro #0" = 0
 	"Prospero #0" = 0
-	"Rafaello #0" = 0
 	"Scipione #0" = 0
 	"Teodosio #0" = 0
 	"Vittorio #0" = 0

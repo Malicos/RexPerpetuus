@@ -30,19 +30,22 @@ historical_units = {
 }
 
 monarch_names = {
-	#Camerino-specific.
-	"Rodolfo #3" = 60
-	"Gentile #3" = 60
-	"Giovanni #2" = 40
-	"Berardo #2" = 40
-	"Piergentile #1" = 30
+	# RP RULER NAMES
+	"Lealdo #1" = 20
+
+	# CAMERINO-SPECIFIC
+	"Rodolfo #0" = 60
+	"Gentile #0" = 60
+	"Giovanni #0" = 40
+	"Berardo #0" = 40
+	"Piergentile #0" = 30
 	"Giulio #0 Cesare" = 20
 	"Venanzio #0" = 20
 	"Giovanni #0 Maria" = 20
 	
 	"Giulia #0" = -5
 	
-	#Generic
+	# RANDOM NAMES - MALE
 	"Cosimo #0" = 15
 	"Ferdinando #0" = 15
 	"Francesco #0" = 15
@@ -91,6 +94,7 @@ monarch_names = {
 	"Severino #0" = 0
 	"Vittorio #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Viola #0" = -1
 	"Zaira #0" = -1
 	"Angelica #0" = -1

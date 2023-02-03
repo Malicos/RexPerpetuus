@@ -32,9 +32,13 @@ historical_units = {
 }
 
 monarch_names = {
-	"Giovanni #1" = 40
-	"Annibale #1" = 30
-	"Anton #1 Galeazzo" = 25
+	# RP RULER NAMES
+	"Ruprecht #1" = 20
+
+	# RANDOM NAMES - MALE
+	"Giovanni #0" = 40
+	"Annibale #0" = 30
+	"Anton #0 Galeazzo" = 25
 	"Guglielmo #0" = 25
 	"Ercole #0" = 20
 	"Taddeo #0" = 20
@@ -93,6 +97,7 @@ monarch_names = {
 	"Romeo #0" = 0
 	"Vincenzo #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Antonmaria #0" = -1
 	"Costanza #0" = -1
 	"Eleonora #0" = -1

@@ -35,6 +35,13 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Tiudoru #2" = 20
+	"Antipatra #1" = -1
+	"Rodrigu #1" = 10
+	"Rubbertu #2" = 20
+
+	# RANDOM NAMES - MALE
 	"Firdinannu #0" = 20
 	"Martinu #0" = 20
 	"Petru #0" = 15
@@ -59,11 +66,11 @@ monarch_names = {
 	"Grazzianu #0" = 0
 	"Manfredi #0" = 0
 	"Ottaviu #0" = 0
-	"Rubbertu #0" = 0
 	"Samueli #0" = 0
 	"Valirianu #0" = 0
 	"Vicenzu #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Maria #0" = -15
 	"Viulanti #0" = -1
 	"Custanza #0" = -5

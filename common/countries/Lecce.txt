@@ -30,119 +30,148 @@ historical_units = {
 }
 
 monarch_names = {
-	"Cosimo #0" = 60
-	"Ferdinando #0" = 60
-	"Francesco #0" = 60
-	"Lodovico #2" = 40
-	"Carlo #0 Emmanuele" = 20
-	"Carlo #0 Felice" = 20
-	"Lodovico #0 Maria" = 20
-	"Alessandre #0" = 20
-	"Francesco #0 Stefano" = 20
-	"Galeazzo Maria #0" = 20
-	"Gian Galeazzo #0" = 20
-	"Gian Gastone #0" = 20
-	"Massimiliano #0" = 20
-	"Napoleone #0" = 20
-	"Pietro Leopoldo #0" = 20
-	"Vittorio Amedeo #0" = 20
-	"Carlo #0" = 10
-	"Antonio #0" = 10
-	"Ermes #0" = 10
-	"Eugenio #0" = 10
-	"Filippo #0" = 10
-	"Gian Carlo #0" = 10
-	"Giovanni #0 Maria" = 10
-	"Pietro #0" = 10
-	"Alberto #0" = 5
-	"Rodolfo #0" = 5
-	"Ascanio Maria #0" = 5
-	"Augusto #0" = 5
-	"Benedetto #0" = 5
-	"Emmanuele Filiberto #0" = 5
-	"Filippo #0 Maria" = 5
-	"Giovanni #0" = 5
-	"Giuseppe #0" = 5
-	"Leopoldo #0" = 5
-	"Matteo #0" = 5
-	"Maurizio #0" = 5
-	"Ottaviano #0" = 5
-	"Raniero #0" = 5
-	"Sforza Maria #0" = 5
-	"Agostino #0" = 0
-	"Constanzo #0" = 0
-	"Demetrio #0" = 0
-	"Fabio #0" = 0
-	"Giordano #0" = 0
-	"Isidoro #0" = 0
-	"Niccolò #0" = 0
-	"Paolo #0" = 0
-	"Romeo #0" = 0
-	"Severino #0" = 0
-	"Vittorio #0" = 0
+	# RP RULER NAMES
+	"Sebastianos #1" = 10
+	"Andronikos #1" = 10
+	"Theodoros #1" = 10
+	"Eustathios #1" = 10
+	"Ioakim #1" = 10
+	"Antipatra #1" = -10
+
+	# RANDOM NAMES
+	"Georgios #0" = 40
+	"Alexandros #0" = 20
+	"Konstantinos #0" = 20
+	"Pavlos #0" = 15
+	"Andreas #0" = 10
+	"Nikolaos #0" = 10
+
+	"Alexandra #0" = -10
+	"Antonia #0" = -5
+	"Anna #0" = -5
+	"Artemisia #0" = -1
+	"Eirene #0" = -1
+	"Euphrosyne #0" = -1
+	"Laskarina #0" = -1
+	"Manto #0" = -1
+	"Thalia #0" = -1
+	"Sevasti #0" = -1
+	"Sophia #0" = -1
 	
-	"Viola #0" = -1
-	"Zaira #0" = -1
-	"Angelica #0" = -1
+	"Aineias #0" = 0
+	"Alexeios #0" = 0
+	"Ambrosios #0" = 0
+	"Bartholomaios #0" = 0
+	"Basileios #0" = 0
+	"Chrysanthos #0" = 0
+	"David #0" = 0
+	"Dimitrios #0" = 0
+	"Diogenes #0" = 0
+	"Dionysos #0" = 0
+	"Eirenaios #0" = 0
+	"Elpidios #0" = 0
+	"Gregorios #0" = 0
+	"Hektor #0" = 0
+	"Herakles #0" = 0
+	"Iason #0" = 0
+	"Ioannes #0" = 0
+	"Kastor #0" = 0
+	"Lambros #0" = 0
+	"Manuel #0" = 0
+	"Matthaios #0" = 0
+	"Nestor #0" = 0
+	"Nikomedes #0" = 0
+	"Orestes #0" = 0
+	"Palaemon #0" = 0
+	"Pelagios #0" = 0
+	"Petros #0" = 0
+	"Philemon #0" = 0
+	"Philippos #0" = 0
+	"Prokopios #0" = 0
+	"Skantarios #0" = 0
+	"Stefanos #0" = 0
+	"Tasos #0" = 0
+	"Thomas #0" = 0
 }
 
 leader_names = {
-	"Appiani d'Aragona" "Arborio Mella" 
-	Barberini Barzagli Boncompagni Borghese Borromeo Buonarroti "di Busca"
-	"di Campofregoso" Carafa "di Cardé" "del Carreto" Casanova Castagna
-	Castagnaro "di Cavour" Chigi Colonna Contarini Conti Corsini Cybo 
-	"Doria di Cirié" Doria-Landi Doria-Pamphili
-	d'Este 	"di Farnese" "di Ferrari"
-	"Gaetani dell'Aquila" Galilei Gambacorta Gentileschi Giustiniani Gonzaga Grimaldi
-	Ludovisi Malaspina "de' Medici" Melzi Montefeltro Orsini
-	"di Paesana" "Paleologi Montferrato" Pallavicini Paradisi Petrucci Pico Pignatelli
-	"dalla Rosa" "della Rovere"
-	"di Saluzzo" "di Savoia" Sfondrati Sforza Spinola
-	"della Torre" "della Ubaldini" Vico Visconti
+	Anina Angelopoulos Androutsos Aulakos
+	Botsaris Bouboulis
+	Chatzeris Christianopoulos Chatzimoschos
+	Dalianis Doumpiotis Diakos Danglis Dagres Deligiannis Damodos
+	Flessas Farmakidis
+	Gotzias Gonemis Gouras Giatrakos Gazalis
+	Hatzipetros
+	Kapodistrias Kolokotronis Karaiskakis Kanaris Katsonis Karykes Kontares Karatzas Kriezotis Kirezis Kountouriotis Korais
+	Kairis Kyriazis Kontostavlos
+	Loukaris Livinis
+	Mavrokordatos Mavrikios Makris Mavromichalis Meletopoulos Metaxas Milios Meintanis Mavrogenes
+	Notaras
+	Pegas Patelaros Pelekasis Petrovas Panourgias Pappas Papatsonis Papazafiropoulos Psalidas Papanikolis Pinotsis
+	Ratzikotsikas
+	Serpetzoglou Skoufas Sachtouris Skourtis Stamatelopoulos Soumalis
+	Triantaphyllos Tsakalov Tsokris Tombazis
+	Vokos Verousis Vasileiou Voulgaris
+	Xanthos Xiros
+	Ypsilantis Yiannouzas
+	Zalykis Zeras
 }
 
 ship_names = {
-	"Abbodanza e Ricchezza" "Adria in Pace" "Amazzone Guerriera" "Anna Maria" "Aquila Incoronata" "Aquila Reale" "Aquila Valeria" "Aquila Volante"
-	"Arca di Noè" "Arma di Lech" "Arma di Nassau" "Barza Grande" "Beata Margherita" "Bella Genovese" "Buon Consiglio" "Campo d'Oche" "Capitana Barbarigo"
-	"Capitana Canale" "Capitana dei Mari" "Capitana di Sua Santità" "Capitana Lanterna" "Carli Regolati" "Carlo Duca di Lorena" "Cavalier Angelo"
-	"Cavallo Marino di Candia" "Cavallo Marino" "Cervo d'Oro" "Cristo di Venezia" "Cocha Granda di Comun" "Colomba d'Oro" "Commerce di Genova" "Corona d'Or"
-	"Corriera Veneta" "Costanza Guerriera" "Cristo di Candia" "Cristo di Corfù" "Cristo Resuscitato di Veglia" "Cristo Resuscitato di Venezia" "Cristo Risorto"
-	"Croce d'Oro" "Croce Rossa" "Dama a Cavallo" "David Golia" "Dio Padre e Santa Trinità" "Donna con il Cavallo Armata" "Drago Volante" "Duca di Lorena"
-	"Due Delfini" "Due Leoni" "Due Mani" "Elettore di Colonia" "Ercole Grande" "Ercole Piccolo" "Ercole Vittorioso" "Fama Volante" "Fattor del Zante" "Fede Guerriera"
-	"Fontana d'Oro" "Fortuna Guerriera" "Fortunato Jacob" "Fregata Contarini" "Galeone di San Marco" "Galeone Grande" "Galeone Piccolo" "Galeone Pubblico"
-	"Galera Balbi" "Galera Bembo" "Galera Civran" "Galera Diedo" "Galera Dona" "Galera Gritti" "Galera Magno" "Galera Palma" "Galera Paruta" "Galera Sagredo"
-	"Galera Soranzo" "Giglio d'Oro" "Giove Fulminante" "Gloria Veneta" "Gran Delfino" "Grande Alessandro" "Haute Combe" "I Sette Fratelli" "I Tre Re"
-	"Illuminazione Celeste" "Immacolata Concezione" "Isabella Maria" "La Donna" "Leon Coronato" "Leon d'Oro" "Leon Incoronato" "Leon Negro" "Leone di Candia"
-	"Leone di Capodistria" "Leone e Fenice" "Leone Trionfante" "Lepre Rossa" "Lucien Charles" "Madonna degli Angeli" "Madonna dei Carmine" "Madonna dei Miracoli"
-	"Madonna dei Sette Dolori" "Madonna del Rosario e San Domenico" "Madonna del Rosario" "Madonna dell'Arsenal" "Madonna delle Grazie" "Madonna delle Salute"
-	"Madonna delle Vigne" "Madonna di Loreto e San Paolo" "Madonna di Loreto" "Madonna di Marina" "Marchese Doria" "Maria Teresa" "Mezza Luna" "Monton d'Oro"
-	"Nostra Donna" "Nostra Signora del Rosario" "Nostra Signora del Soccorso" "Nostra Signora delle Vigne" "Nostra Signora di Venezia" "Nostra Signora di Zanti"
-	"Nostra Signora" "Nuova Caparra" "Pace e Abbondanza" "Padre Eterno" "Padrone di Davide Imperiale" "Piramide con Cane" "Principe di Colonia" "Principessa Grande"
-	"Principessa Piccola" "Profeta Elia" "Profeta Samuel" "Re Attila" "Re David" "Redentor del Mondo" "Regina del Mar" "Regina Incoronata" "Regina Isabella"
-	"Rizzo d'Oro" "Rosa Blanca" "Rosa Moceniga" "Ruota con Serpente" "Sacra Lega" "Sacrificio d'Abramo" "San Alvise" "San Andrea" "San Antonio Abate"
-	"San Antonio di Padova" "San Antonio" "San Bartolomeo" "San Bonaventura" "San Brun" "San Carlo Borrome" "San Carlo" "San Cristoforo" "San Demetrio"
-	"San Domenico" "San Ferdinando" "San Filippo" "San Francesco di Paola" "San Gabriele" "San Gaetano" "San Gennaro" "San Giacomo" "San Gioacchino"
-	"San Giorgio" "San Giovanni Battista" "San Giovanni" "San Girolamo" "San Giuseppe" "San Giulian" "San Guiseppe" "San Ignazio" "San Iseppo" "San Jacopo"
-	"San Jose" "San Leopoldo" "San Lorenzo Giustinian" "San Luca" "San Luigi Gonzaga" "San Luigi" "San Marco e San Tito" "San Marco Grande" "San Marco"
-	"San Michele Arcangelo" "San Michele" "San Niccolò" "San Paolo" "San Pasquale" "San Pietro Apostolo" "San Pietro di Alcantara" "San Pietro" "San Pio Quinto"
-	"San Sebastiano" "San Spiridione" "San Teodoro" "San Trifone" "San Vincenzo Ferrer" "San Vittore" "San Vittorio" "San Zaccaria" "Santa Amalia"
-	"Santa Anna" "Santa Barbara" "Santa Caterina" "Santa Chiara" "Santa Dorotea" "Santa Elena" "Santa Elisabetta" "Santa Francisco" "Santa Lucia" "Santa Maddalena"
-	"Santa Margherita" "Santa Maria Torre di Mar" "Santa Maria" "Santa Michele Arcangelo" "Santa Teresa" "Santa Virginia" "Sant'Alessandro" "Sant'Andrea" "Sant'Angelo"
-	"Sant'Eufemia" "Santissima Annunziata" "Santissima Concezione" "Santissima Trinità" "Santissimo Crocefisso" "Scala di Giacob" "Scudo della Fede" "Sibilla Europa"
-	"Signora del Belvedere" "Sol d'Oro" "Stella Maris" "Tomaso Francesco" "Toro Negro" "Tre Mani" "Tre Re" "Uomo Armato" "Uomo di Mare" "Valor Coronato"
-	"Venezia Trionfante" "Vergine Santa" "Virgo Potens" "Vittorio Emanuele" Achille Agile Aguila Alceste Aletto Amalia Amazzone Angelo Aquila Archimede Aretusa
-	Armellino Aurora Azzardo Azzardoso Baccana Barzotto Bastarda Bechignana Bellona Beroldo Braccio Brava Bucintoro Cacciatore Capitana Capri Caracciolo Carlo
-	Felice Carloforte Carolana Cerere Cigno Cingana Colombo Concezione Concordia Confidenzia Constanza Corona Costanza Cristina Cristo Croce Cupido Daino Determinada
-	Diamante Diana Diligenza Donzella Doria Ecate Elbigina Enea Eolo Ercole Eridano Etna Euridice Europa Falco Falcone Fama Fede Fedeltà Fenice Ferme Fiamma Fiorenza
-	Flora Fortuna Forza Fulmine Fuoco Furia Galantuomo Galatea Galatea Generoso Gerusalemme Giano Giasone Gioacchino Gioia Giove Giuditta Giustizia Gloria Grifona Gru
-	Guerriera Guiditta Guiscardo Gusmana Hardie Idra Idra Intrepido Invidia Ira Iride Jupiter Ketianana Lampreda Leone Leonessa Letiza Levriero Libertà Liguria Lomellina
-	Luna Lupa Maddalena Madonna Marchesa Margherita Medea Medusa Megera Mendoza Mercurio Minerva Monagina Monarca Mondo Mongibello Montagna Natività Nave Negrona
-	Neireide Nettuno Nino Ocasion Oliva Oltremare Pace Padrona Pallade Palma Partenope Passaro Patrona Perla Piemontese Pilastro Piramide Pisana Polonia Postiglione
-	Prima Pugliese Pylades Pynele Raggia Regina Roccafortis Rodi Roma Rondinella Rosa Ruggiero Sagittaria Samnita Scala Seconda Serena Sibilla Sicilia Signora
-	Simplon Sirena Sole Sparviero Speranza Stabia Staffetta Stromboli Suprema Tancredi Taranto Temperanza Terana Tigre Tirsi Torre Toscana Totusmundus Trionfo Tritone
-	Tronco Turca Urania Valor Veloce Vendicatore Venere Venetia Vesuvio Vigilante Vigilanza Vittoria Volpe Vulcano Zeffiro
-}
-
-army_names = {
-	"Armata di $PROVINCE$"
+	Ydra Lesvos Limnos Mikonos Salamis Samos Themistoklis Evripidis Aischylos Aristofanis Archimedes Demokritos Anaxagoras Diomedes Herakles Atreas Perseas Aigyptos
+	Aiolos Poseidon Athena Zeus Dias Kronos Rea Ouranos Hera Adonis Afroditi Charavgi Orion Iasonas Theseus Achilleas Mermidon Makedon Lakedemon Athineos Xenofon
+	Miltiades Alexandros Megalexandros Gorgona Midia Efterpi Andriantas Demetra Estia Apollon Ermis Gorgopodaros Gorgoplefstos Artemis Aris Theofanis Theochara
+	Filippos Edessa Ionia Korinthos Sparti Athenai Messina Anthosparti Kampos Argolida Argo Hephestos Hephestion Nearchos Parmenion Leonidas Averof Christos
+	Christoforos "Agios Christoforos" "Vasileus Christoforos" Theodora "Agia Theodora" "Agios Theodoros" "Vasileus Theodoros" Aftokrator "Vasillisa Theodora"
+	Nikephoros "Agios Nikephoros" "Vasileus Nikephoros" Pavlos "Apostolos Pavlos" "Osios Pavlos" Alexios "Agios Alexios" "Agia Alexia" Alexia "Vasileus Alexios"
+	"Vasilissa Alexia" Konstantinos "Agios Konstantinos" "Konstantinos o Megas" "Vasileus Konstantinos" "Autokrator Konstantinos" Herakleios "Agios Herakleios"
+	"Vasileus Herakleios" "Agios Herakleidios" "Agios Sergios" "Agios Maximos" "Agios Athanasios" "Agia Athanasia" "Agia Eleni" Eleni "Oraia Eleni" "Vasilissa Eleni"
+	"Aftokrateira Eleni" "Konstantinos kai Eleni" Stephanos "Agios Stephanos" "Agia Stephania" "Vasileus Stephanos" "Autokrator Stephanos" "Archangellos Michael"
+	"Archangellos Gavriel" "Archangellos Uriel" Archangellos Angelos Exangelos Exapterygon Cheruvim Seraphim Osios Osia Ostia Ioustiniani "Agios Ioustinianos"
+	"Agia Ioustiniani" "Aftokrator Ioustinianos" "Vasileus Ioustinianos" "Ioustinianos o Megas" "Vasileus Michael" Andronikos Androniki "Agios Andronikos"
+	"Agia Androniki" "Vasileus Andronikos" Vasileios Vasileia "Agios Vasileios" "Agia Vasileia" "Vasileus Vasileios" "Vasileios o Vulgaroktonos" Zoe "Agia Zoe"
+	"Iera Zoe" "Vasilissa Zoe" Velissarios Piri Reis Aetos "Dikephalos Aetos" "Dikephalos tou Vorra" Tryfilli Olympios Delphini Delphina Apochis Nemesis Yvris
+	Drakon Lykourgos Solon Kroisos Lysippos Phedias Ades Plutonas "Mpaniera tou Poseidona" Ikaros Daidalos Ikaria Imvros Fournoi Kia Naxos Chios "Christos Soter"
+	Soter Soterios Sozomenos Despotis "Despotis tou Moria" Peloponissos Nafplio Athos "Agion Oros" Panagia "Panagia Parthena" "Panagia Chrysorogiatissa"
+	"Panagia Pleomeni" "Panagia Dakryzousa" "Panagia Romaion" "Panagia Mitera" "Panagia Chrysospilliotisa" "Panagia Ampelokamoti" "Panagia Pigazousa"
+	"Panagia Anthousa" Hektor Menelaos Aias "Aias o Telamonios" Odysseas Ithaki Tilemachos Penelopi Minoas Minotavros Tryfon Agamemnon Ifigeneia Tavrida Tavros
+	Ichthys Galaxias Astir Asteras "Erythros Asteras" "Asteri tis Vithleem" "Agioi Topoi" Ierosolima Alexandreia "Doxa tou Theou" "Chara Theou" Tama Ieromartyras
+	Kyprianos Archiepiskopos Episkopos Doukas Ionion Aigaion Kritikon Kriti Zoniana Herakleia Herakleion Chania Lesvos Kypros Rodos Gigantas Polyphimos Laistrygona
+	Lamia Skylla Charyvdi Echidna Ofis Eva Hellespontos "Efxeinos Pontos" Prokopios Prokopia "Agios Prokopios" Prokomenos Frixos Elli Kerkyra Kyriarchos Kentavros
+	Kaisar Keravnos Keratios Keraton Konstantinoupolis "Leon Skleros" Lykia Thalassolykos Megaleion "Megaleion tis Makedonias" "Mikra Asia" Morfeas Orfeas Evridiki
+	Keryneia Ammochostos Ledra Pafos Akamas Amathous Evagoras Chalkanoras Grigorios Kyrillos Methodios Nike Okeanos Tyranos Orestis "Orgi Theou" Orthodoxia Loukia
+	Loukiani "Agios Loukas" "Osios Loukas" "Profitis Helias" "Ai Lias" Profitis Sampson David Goliath Patrida "Ellas Patrida" Patris Mitera Pateras Pater Papas Papadia
+	Diakonos Atlas Egkelados Titanas Yperion Helios "Helios Pantokrator" Diomedes Avgeas Achellos Acheros Stymfalida Lernea "Lernea Ydra" Nemea "Leon tis Nemeas" Kapros
+	Erymanthea Monastiri Ouranos Nefeli Gea Thalassa Mesogeios Politis Vasilevousa Thalassokrator Pantheras Leon Pelargos Mermigkas Onos Thesallia Thesalloniki
+	Theophylaktos Taxiarchos Stratilatis Oplarchigos Navarchos Sikelia Ellas Samos Samothraki Thraki Rodopi Alexandroupoli Andrianoupolis Thrylos Triton Achinos
+	Asterias Xiphias Xiphomachos Xiphos Spatha Zakynthos Zoodotis Ypertatos Andrianos Anthimos Dragumanos Akritas Digenis "Digenis Akritas" Mavroskyllos Charon
+	Kalymnos "Oraia Kalymnos" Psara Psaras Varrangios Gothos Pontios Mavromata Prasinomata Kastanomata Gata Gatos Magkas Foneas Karcharias Skyllopsaro Pyrofis
+	Stavraetos Zenon Machairas Kykkos Anthos Korax "Mavros Korax" Phovos Dimos "Theodoros Kolokotronis" "Odysseas Andrutsos" "Georgios Karaiskakis" "Rigas Ferraios"
+	"Dionysios Solomos" Dionysios Dionysos Talos Efterpi Mpoumpoulina "Manto Mavrogenous" "Konstantinos Kanaris" Nikitaras Tourkofagos Nikitas Vulgaroktonos Messologi
+	Palaiologos Komnenos "Isaakios Komnenos" Thalpori Lazaros "Apostolos Andreas" "Apostolos Varnavas" "Apostolos Loukas" "Apostolos Thomas" "Apostolos Petros"
+	"Apostolos Iakovos" "Apostolos Stephanos" "Apostolos Ioannis" "Apostolos Simonas "Apostolos Vartholomaios" "Apostolos Thaddeos" "12 Apostoloi" "Agioi Saranta"
+	"Agioi Pantes "Agios Nikolaos" Naftikos "O Leventis ton Psaron" Leventis Tromos Rigaina Rigas Doukaina Dioskouroi Romos Romylos "Romos kai Romylos" Papandreas
+	Papamichalis Papakonstantinos "Agios Demetrios" "Agios Theodoros" "Agia Marina" "Agia Evlampia" "Agia Charalambia" "Agios Charalambos" "Agios Charilaos"
+	"Agios Antonios" "Agia Antonia" "Agios Amvrosios" "Panagia Aggelovastachti" "Panagia Filoptochi" "Panagia Thalassofiliti" Thalassomachos Amfitriti "Thalassios Ippos"
+	"Thalassios Leontas" Persoktonos "Autokrator Isavros" "Autokrato Makedon" Thekla "Agia Thekla" Papaflessas "Alexandros Ypsilantis" "Nea Ionia" Alikarnassos
+	Voukefalas "Afros tou Kymmatos" "Afros tis Thalassas" Trieiris Iris Daphni Salamis Thermopyles Marathon Platees Theva "Epta Epi Thevas" Platees Dervenakia
+	"Elefthero Pouli" Peristera "Oraia Peristera" Perifanos Perifani Perifania Akritikon "Eleftheros Poliorkimenos" Eleftheros Eleftheria "Eleftheria H Thanatos"
+	"Vasileios Digenis Akritas" Prosfygopoulla Giofyri "Giofyrin tis Artas" Gefyra Serres Trikoupis Athanatos Athanati Styga "Agios Athanasios" "Agia Athanasia"
+	Athanasia Agerochos Agerochi Atrotos Atroti Pachyammos Maa "Agia Paraskevi" "Agios Paraskevas" Larnaka Amathounta Lemesos Kolossi Kolossos Akamas Lara Onisilos
+	Makarios "Agios Grigorios" Petra Kypseli Melissa Sfikas Kifinas Meliteni Kentri "Mavra Ori" Karagkiozis Nionios Nafpaktos Rodon Emporopoulla Emporas Chontros
+	Chontri "Iera Odos" "Egnatia Odos" Egnatia Ignatios Thalis Efkleidis Milos Omiros Iliada Odysseia Faiakas Fylakas Chalkida Psalida Zodia Morfou Aeriko Stefana
+	Oneiro Onar Ilarion "Agios Ilarion" Eftychia "Agios Eftychios" Chara Mystras "3 Charites" Nymfi Nymfes Ariadni Stratiotis Palikaras "Markos Mpotsaris"
+	"Lampros Katsonis" Karavida Kavouri "Mana Kavourina" Mana "Mana Kouragio" Kouragio Voreios Notios "To Vlemma tis Theodoras" Rizokarpaso Lysis Enosis
+	"Philippos o Makedon" Evropi Ypatia Aristarchos Aristos Ellada Ellinopoulla Romiopoulla Omorfi Omorfoulla Gynaika "Pyr Gyni kai Thalassa" Athlos Mpessa
+	Apostolos "Pani tou Osiou" "Osio Pani" Kapetanios Kapetaneos Sfyra Chelona Porfyrogennitos Porfyrogenis Porfyros Mavrogenis Savatogennimenos Kyriaki
+	"Re Alexis" Prigkipessa Prigkips Voskos Poimenas Thanatos Ethnikos Olympia Olympiakos Athlitis Axios Antaxios Antartis Kallinikos Prespa Sofia "Agia Sofia"
+	Vlacheia Vlachopoulla Vlacherna Kaffa Moldavia Vulgaria Servia Mavrovunion Ragusa Dyrrachion Kastoria Kastoras "Xylino Toichos" Xoanon Zoni Zallogos
+	"O Choros tou Zallogou" Achaea Aigina Avydos Akanthos Agrinion Alexandretta Patra Antipatra Amisos Amarinthos Antigona Antigoni Amphipolis Antiocheia Anir
+	Andros Apollonia Argos Elia Elaion Argyroupoli Tigris Tyros Foiniki Asklepios Pontos Pontios Varis Verga Vyvlos Vyzantion Vosporos Chersonesos Chalkis Kroton
+	Kyrinea Dekeleia Delos Delphoi Mantis Tiresias "Mantis Tiresias" Dodona Doryaion Doryn Sarissa Dorystolon Stolos Elefsis Ephesos Epidavros Eretria Efvoia Gaza
+	Gonios Goneas "Agios Onoufrios" "Agia Triada" Alikarnassos Helioupolis Ellinikon Ierapolis Ierapetra Chimera Iasos Ialysos Ithaki Kallipolis Kamares Kameiros
+	Kipos Kipoi Kimmerikon Knidos Kios Kionas Knossos Kos Kourion Laodikeia Lapithos Lation Lefkada Lissos Lindos Magnesia Marathonas Massalia Megara Methoni Militos
+	Mylasa Nafkratis Neapolis Nikea Nikopolis Nymfeon Nysa Odessos Olvia Orchomenos Erchomenos Palaikastro Pandosia Festos Pirreas Pella Phanagoria Pamflagonia Farnakia
+	Faros Fillipoi Fillipopolis Platanos Fokida Fokea Elis Kampania Kampana Poseidonia Psychros Pseira Pylos Pylion Amforeas Krassoamfora Region Sinopi Sozopolis
+	Pisidia Thassos Thespia Tragurion Trapeza "Agia Trapeza" Tripolis Troia Tylissos Tyra Vasilliki Zakros Vathypetra Megalopetra
 }
