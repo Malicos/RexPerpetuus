@@ -1,5 +1,5 @@
 government = republic
-add_government_reform = free_city
+add_government_reform = signoria_reform
 government_rank = 1
 mercantilism = 25
 technology_group = western
@@ -17,7 +17,7 @@ fixed_capital = 7028
 
 1440.1.1 = {
 	monarch = {
-		name = "Consiglio comunale"
+		name = "Repubblica"
 		adm = 3
 		dip = 3
 		mil = 3
