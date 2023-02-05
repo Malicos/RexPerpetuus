@@ -94,11 +94,11 @@ monarch_names = {
 	"Valentinus #1" = 1
 	"Formosus #1" = 1
 	"Romanus #1" = 1
-	"Cristoforo #1" = 1
+	"Christophorus #1" = 1
 	"Lando #1" = 1
 	"Theodoricus #1" = 1
 	"Adalbertus #1" = 1
-	"Syxtus #3" = 20
+	"Sixtus #3" = 20
 	"Felix #4" = 20
 	"Adeodatus #2" = 20
 	"Theodorus #2" = 20
@@ -128,12 +128,28 @@ monarch_names = {
 	"Leo #14" = 60
 	"Stephanus #12" = 60
 	"Gregorius #12" = 60
+	"Augustus #0" = 1
+	"Augustinus #0" = 1
+	"Bartholomeus #0" = 1
+	"Caesarius #0" = 1
+	"Christophilus #0" = 1
+	"Dominicus #0" = 1
+	"Gratilianus #0" = 1
+	"Hippolytus #0" = 1
+	"Iacobus #0" = 1
+	"Iosephus #0" = 1
+	"Isidorus #0" = 1
+	"Mattheus #0" = 1
+	"Matthias #0" = 1
+	"Patricius #0" = 1
+	"Theophilus #0" = 1
 
 	# OTHER NAMES
 	"Magdalena #0" = -1
 	"Maria #0" = -1
 	"Eva #0" = -1
 	"Antonia #0" = -1
+	"Ioanna #1" = -1		#Pope Joan wouldn't be disproven until after the game's end date, so any hypothethical Papissa would count her
 }
 
 leader_names = {
