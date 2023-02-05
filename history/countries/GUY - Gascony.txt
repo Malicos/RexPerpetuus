@@ -6,6 +6,7 @@ primary_culture = gascon
 religion = catholic
 capital = 174 	# Bordeaux
 historical_friend = NRM
+historical_rival = TOU
 
 1430.8.15 = {
 	monarch = {
