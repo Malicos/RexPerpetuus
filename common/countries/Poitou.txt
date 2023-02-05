@@ -27,21 +27,27 @@ historical_units = {
 }
 
 monarch_names = {
-	"Louis #10" = 160
-	"Charles #5" = 80
-	"Henri #1" = 60
+	# RP RULER NAMES
+	"Bohemond #1" = 20
+	"Arsinde #1" = -1
+	"Centule #1" = 20
+
+	# RANDOM NAMES
+	"Louis #0" = 160
+	"Charles #0" = 80
+	"Henri #0" = 60
 	"François #0" = 40
-	"Philippe #6" = 10
-	"Jean #2" = 10
+	"Philippe #0" = 10
+	"Jean #0" = 10
 	"Gaston #0" = 10
 	"Nicolas #0 Henri" = 10
 	"Louis François #0" = 5
 	"Jacques #0" = 5
 	"Joachim #0" = 5
 	"Xavier #0" = 5
-	"Robert #2" = 1
-	"Hughes #1" = 1
-	"Raoul #1" = 1
+	"Robert #0" = 1
+	"Hughes #0" = 1
+	"Raoul #0" = 1
 	"Alexandre #0" = 0
 	"Alphonse #0" = 0
 	"Ambroise #0" = 0

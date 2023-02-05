@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = poitevin_culture
+religion = catholic
+technology_group = western
+capital = 195 # Angoumois
+fixed_capital = 195 # Cannot move capital away from this province & no power cost to move to it
