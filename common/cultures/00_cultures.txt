@@ -961,6 +961,8 @@ scandinavian = { #Nordic
 	}
 	##RP: Moved from Lost Cultures
 	scanian = {
+		graphical_culture = westerngfx
+		primary = SCN
 		male_names = {
 			Anders Anund Asger Benedikt Bjørn Bo Christopher Daniel Edvard
 			Einar Fredrik Gorm Grim Hårik
