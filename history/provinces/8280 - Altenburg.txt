@@ -9,7 +9,7 @@ owner = ATB
 controller = ATB
 
 #Demographics
-culture = saxon
+culture = thuringian
 religion = catholic
 
 #Development and Trade

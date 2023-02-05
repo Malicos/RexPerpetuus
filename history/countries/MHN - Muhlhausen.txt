@@ -10,7 +10,7 @@ government = republic
 add_government_reform = free_city
 
 #Demographics
-primary_culture = saxon
+primary_culture = thuringian
 religion = catholic
 
 #Tech and Military

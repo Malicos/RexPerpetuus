@@ -4,7 +4,7 @@
 owner = LUN
 controller = LUN
 add_core = LUN
-culture = lower_saxon
+culture = saxon
 religion = catholic
 capital = "Neuhaus"
 base_tax = 2

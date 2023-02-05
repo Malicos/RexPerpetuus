@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = lower_saxon
+primary_culture = saxon
 capital = 53
 
 #ck3: check inauguration
@@ -17,7 +17,7 @@ capital = 53
 		birth_date = 1386.11.18
 		female = yes
 		religion = catholic
-		culture = lower_saxon
+		culture = saxon
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = scholar_personality
@@ -45,7 +45,7 @@ capital = 53
 		birth_date = 1429.12.7
 		death_date = 1494.12.7
 		religion = catholic
-		culture = lower_saxon
+		culture = saxon
 	}
 	add_heir_personality = calm_personality
 	add_heir_personality = careful_personality

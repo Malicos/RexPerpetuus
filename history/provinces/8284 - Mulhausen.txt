@@ -9,7 +9,7 @@ owner = MHN
 controller = MHN
 
 #Demographics
-culture = saxon
+culture = thuringian
 religion = catholic
 
 #Development and Trade

@@ -9,7 +9,7 @@ owner = OLD
 controller = OLD
 
 #Demographics
-culture = lower_saxon
+culture = saxon
 religion = catholic
 
 #Development and Trade

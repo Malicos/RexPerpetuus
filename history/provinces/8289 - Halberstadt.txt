@@ -9,7 +9,7 @@ owner = SAX
 controller = SAX
 
 #Demographics
-culture = lower_saxon
+culture = saxon
 religion = catholic
 
 #Development and Trade

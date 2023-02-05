@@ -200,7 +200,7 @@ germanic = {
 	#		Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
 	#	}
 	#}
-	lower_saxon = {
+	saxon = {
 		primary = HAN
 		male_names = {
 			Ernst Adolf Alfred August Christian Eduard Friedrich Georg Karl Philipp Maximilian Octavius Wilhelm
@@ -234,7 +234,7 @@ germanic = {
 			Christa Christel Christiane Christina Christine Clara Claudia Constanze
 		}
 	}
-	saxon = {
+	thuringian = {
 		primary = SAX
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor

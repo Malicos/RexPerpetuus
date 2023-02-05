@@ -6,7 +6,7 @@
 owner = HAN
 controller = HAN
 add_core = HAN
-culture = lower_saxon
+culture = saxon
 religion = catholic
 trade_goods = livestock
 capital = "Minden"

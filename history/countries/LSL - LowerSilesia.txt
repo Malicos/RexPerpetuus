@@ -31,7 +31,7 @@ capital = 264	# Wroclaw
 		death_date = 1480.2.2
 		female = yes
 		religion = catholic
-		culture = saxon
+		culture = thuringian
 	}
 	add_queen_personality = expansionist_personality
 	add_queen_personality = tactical_genius_personality

@@ -4,7 +4,7 @@
 owner = HLE
 controller = HLE
 add_core = HLE
-culture = saxon
+culture = thuringian
 religion = catholic
 hre = yes
 base_tax = 4

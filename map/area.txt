@@ -14,9 +14,7 @@
 #severia_area --> chernigov_area
 
 
-#Area reshuffles:
-#lower_saxony_area --> braunschweig_area
-#lower_eastphalia_area --> lower_saxony_area
+
 
 #kalimantan_area -> banjar_area
 #kapuas_area -> kalimantan_area
@@ -172,7 +170,7 @@ champagne_area = {
 }
 
 ###
-# RP: Austrasia - 17
+# RP: Austrasia - 15
 ###
 alsace_area = {
 	75 1880 4765 7944 
@@ -181,49 +179,43 @@ barrois_area = {
 	187 188 8421 8422 4766 7947
 }
 brabant_area = {
-	92 95 1744 4770 8017 8019 
+	91 92 95 1744 8018 8019
 }
 flanders_area = {
-	87 90 1865 3064 4769 8015 8018 8020 8021 
+	87 90 1865 3064 4769 8015 8020 8021 
 }
 guelders_area = {
-	99 3060 4381 8032 8120
+	99 2975 4381 8032 8409 8410
 }
 hainaut_area = {
-	91 1743 7976 7977 8014
+	181 1743 7964 7968 7976 7977 8014 8023
 }
 holland_area = {
 	96 97 98 4383 7954 7975 8112 
 }
 luxembourg_area = {
-	94 3066 7948 8024 8027 8418 8419 8420
+	80 94 3066 3198 7948 8418 8419 8420
 }
 lotharingia_proper_area = {
 	189 7945 7946 7949 8423 8424
 }
 mosellia_area = {
-	80 1760 3198 8415 8416 8417
+	1760 8411 8415 8416 8417 8430
 }
-outrerhein_area = {
-	83 1876 3207 8428 8430
-}
-palatinate_area = { #(JP) Lower Palatinate
+palatinate_area = {
 	78 1761 4767 8431 8432 8433
 }
 picardy_area = {
-	88 89 7965 7966 7968 7969 7973 7974
+	88 89 7965 7966 7969 7973 7974
 }
 ripuaria_area = {
-	84 85 1878 4768 8411 8412 8413 8414
+	84 85 1878 4768 8412 8413 8414
 }
-ruhrland_area = {
-	2975 3199 3292 8409 8410
+liege_area = {
+	93 1742 1866 8022 8024 8025 8027
 }
-wallonia_area = {
-	93 181 1866 7964 8022 8023
-}
-limburg_area = {
-	1742 2974 3063 8025
+batavia_area = {
+	2974 3060 3063 4770 8017 
 }
 
 ###
@@ -546,7 +538,7 @@ jorvik_area = {
 }
 
 ###
-# Scandinavia 
+# Nordurica 
 ###
 
 jutland_area = {
@@ -605,74 +597,80 @@ trondelag_area = { # BT
 }
 
 ###
-# South Germany
+# Allemania
 ###
 
 upper_bavaria_area = {
-	65 2955 4707 4708 8455 8456 8457 8458
+	65 2955 4707 4708 8457 8458
 }
 lower_bavaria_area = {
 	64 2956 2957 4709 8459 8460 8461
 }
-upper_palatinate_area = {
-	1757 8453 8454
-}
-franconia_area = { #(JP) Lower Franconia
-	color = { 121 49 117 }
-	71 79 4715 4718 8449 8450
-}
 upper_franconia_area = {
-	66 67 4717 8451 8452
+	67 1757 4717 8453 8454 8455 8456
+}
+lower_franconia_area = {
+	color = { 121 49 117 }
+	66 71 79 4715 8449 8452
 }
 lower_swabia_area = { 
-	70 77 3206 8434 8435 8436 8437 8438
+	70 77 3206 4714 8434 8435 8436 8437
 }
 upper_swabia_area = {
-	69 1872 3204 4712 4713 8442 8443 8444 8445 
+	69 1872 3204 4712 4713 8442 8444 8445 
 }
-east_bavaria_area = { #Cut BT's eastern_swabia_area
-	68 1868 8446 4711 8447 8448
+east_swabia_area = { 
+	68 1868 8446 4711 8438 8447 8448
+}
+baden_area = {
+	72 74 8439 8440 8441 8443
+}
+switz_area = {
+	165 166 1869 3055 8485 8487 8488 8489
+}
+raetia_area = {
+	1870 1873 4710 4722 8483 8484 8486
 }
 tirol_area = {
-	73 110 1768 3048 4758 7093 8482 8483
+	73 110 3048 4758 7093 8462 8482
 }
 salzburg_area = {
-	76 8462 8463 8464 8465
+	76 8463 8464 8465 8466
 }
-austria_proper_area = { #(JP) Lower Austria
+traungau_area = {
+	133 4760 4761 8467 8468 8469
+}
+austria_area = {
 	color = { 213 40 40 }
 	134 1770 4762 8470 8471 8472 8473 8474
 }
-upper_austria_area = {
-	133 4760 4761 8466 8467 8468 8469
-}
-inner_austria_area = { #(JP) Styria
-	132 1863 3050 4751 8216 8475 8476 8477 8478 8479
+styria_area = {
+	132 1863 3050 8216 8475 8476 8477 8478 8479
 }
 carinthia_area = {
 	color = { 46 217 110 }
-	128 4759 8480 8481
+	128 1768 4759 8480 8481
 }
 carniola_area = {
-	129 7760 7761 7762 7764 
+	129 4751 7760 7761 7762 7764 
 }
-switzerland_area = { #(JP) Swiss Plateau
-	165 166 1869 3055 8485 8487 8488 8489
-}
-swiss_alps_area = { #Rhaetia
-	1870 1873 4710 4722 8484 8486
-}
-upper_rhineland_area = { #(JP) Baden
-	72 74 4714 8439 8440 8441
-}
+
+
+
 
 
 ###
-# North Germany
+# Germania
 ###
 
-frisia_area = {
-	100 1931 3058 4382 8118 8119 8299 8400 8401
+west_frisia_area = {
+	100 3058 8118 8119 8400
+}
+east_frisia_area = {
+	1931 4382 8299 8401
+}
+bremen_verden_area = {
+	54 1874 4771 8296 8297 8298
 }
 holstein_area = {
 	44 45 1775 4141 7775 7776 7777 7778 
@@ -680,36 +678,41 @@ holstein_area = {
 mecklenburg_area = {
 	1857 2996 7810 7811 7812
 }
-northern_saxony_area = { #Altmark
-	color = { 229 20 20 }
-	52 58 2964 8271
+weser_emsland_area = { 
+	55 56 2971 2973 8403 8404 8405 8406
 }
-middle_saxony_area = {
-	59 62 4741 8272 8273 8274 8280 8281
+lower_eastphalia_area = {
+	53 4772 8293 8294 8295
 }
-thuringia_area = {
-	63 3214 4716 4743 8282 8283 8284 8285 8286 8287
+upper_eastphalia_area = {
+	1758 3202 8290 8291 8292
 }
-lower_saxony_area = { #Cut lower_eastphalia_area
-	53 4772 8292 8293 8294 8295
+altmark_area = {
+	52 57 2964 4742 8271 8289 
 }
-braunschweig_area = { #(JP) Upper Eastphalia
-	57 1758 4742 4773 8288 8289 8290 8291
+lower_westphalia_area = {
+	86 3199 3200 3292 8402 8407 8120
+}
+upper_westphalia_area = {
+	82 2972 3201 3203 4775 8408 
 }
 hesse_area = {
-	81 1762 3209 4774 8425 8426 8427 8429
+	81 1762 8425 8426 8427 
 }
-westphalia_area = { #(JP) Upper Westphalia
-	82 2972 3201 3202 3203 4775 8408
+lower_thuringia_area = {
+	58 59 4741 8272 8273 8274 
 }
-north_westphalia_area = { #(JP) Lower Westphalia
-	86 3200 8406 8407
+middle_thuringia_area = {
+	62 3214 4743 8280 8281 
 }
-weser_area = { #(JP) Weser-Ems
-	55 56 2971 2973 8402 8403 8404 8405
+upper_thuringia_area = {
+	63 4773 8282 8283 8284 8285 8288
 }
-bremen_verden_area = {
-	54 1874 4771 8296 8297 8298
+henneburg_area = {
+	4716 4774 8286 8287 8450 8451 
+}
+frankfurt_area = {
+	83 1876 3207 3209 4718 8428 8429
 }
 
 ###
@@ -813,7 +816,7 @@ neumark_area = {
 mittelmark_area = {
 	51 1759 4748 4786 8267 8269 8270
 }
-south_saxony_area = { #(JP) Upper Saxony
+sorbia_area = {
 	61 2965 4744 8276 8277 8278 8279  
 }
 

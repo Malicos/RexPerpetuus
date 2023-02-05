@@ -349,7 +349,7 @@
  lig_the_tai_frontier_desc:0 "Trotz der malaiischen Wurzeln unseres Landes entstand der Wohlstand unseres Königreichs durch die ständige Migration der thailändischen Bevölkerung auf die malaiische Halbinsel. Als das am weitesten entfernte thailändische Staatswesen ist es wichtig, dass wir diese Politik der thailändischen Kolonisierung der Halbinsel fortsetzen."
  lig_wat_phra_mahathat_voramahavihan:0 "Wat Phra Mahathat"
  lig_wat_phra_mahathat_voramahavihan_desc:0 "Wat Phra Mahathat Woramahawihan ist eine der wichtigsten historischen Stätten auf der gesamten malaiischen Halbinsel. Der Tempel ist mit verschiedenen Elefantenköpfen und Statuen von Buddha und Riesen geschmückt, die den Tempel bewachen. Der Tempel wurde von König Chandrabhanu von der Lotus-Dynastie im lankischen Stil erbaut, wahrscheinlich um an seine Eroberung der Insel zu erinnern."
- lower_saxon:2 "Niedersächsisch"
+ saxon:2 "Sächsisch"
  lue_ideas:0 "Shanische Ideen"
  lue_ideas_bonus:0 "Shanische Ambitionen"
  lue_ideas_start:0 "Shanische Traditionen"
@@ -567,7 +567,7 @@
  russian:0 "Russisch"
  safi:0 "Safi"
  salish:0 "Salisch"
- saxon:2 "Obersächsisch"
+ thuringian:2 "Thüringer"
  schlesian:2 "Oberschlesisch"
  secure_the_imperial_crown.tooltip:1 "§Y5§! Kurfürsten müssen:\nDie Wahl von §Y[Root.GetName]§! zum Kaiser unterstützen.\nMindestens eine Meinung von §Y100§! von §Y[Root.GetName]§! haben."
  # tmp fix 'cause counter is fucky

@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = lower_saxon
+primary_culture = saxon
 religion = catholic
 elector = yes
 technology_group = western
@@ -17,7 +17,7 @@ capital = 44 # Hamburg
 		mil = 4
 		birth_date = 1401.10.6
 		religion = catholic
-		culture = lower_saxon
+		culture = saxon
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = scholar_personality
@@ -46,7 +46,7 @@ capital = 44 # Hamburg
 		birth_date = 1408.4.4
 		death_date = 1473.4.4
 		religion = catholic
-		culture = lower_saxon
+		culture = saxon
 	}
 	add_heir_personality = charismatic_negotiator_personality
 	add_heir_personality = lawgiver_personality

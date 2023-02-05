@@ -189,10 +189,10 @@ nationalist_rebels = {
 		##########################
 		modifier = {
 			factor = 0.001
-			culture = saxon
+			culture = thuringian
 			NOT = {
 				any_country = {
-					primary_culture = saxon
+					primary_culture = thuringian
 					is_core = ROOT
 				}
 			}

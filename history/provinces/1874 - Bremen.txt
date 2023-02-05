@@ -6,7 +6,7 @@
 owner = BRE
 controller = BRE
 add_core = BRE
-culture = lower_saxon
+culture = saxon
 religion = catholic
 capital = "Bremen"
 trade_goods = bt_trade_good_beer

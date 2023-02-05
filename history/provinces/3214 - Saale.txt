@@ -6,7 +6,7 @@
 owner = MAG
 controller = MAG
 add_core = MAG
-culture = saxon
+culture = thuringian
 religion = catholic
 capital = "Weiﬂenfels"
 trade_goods = salt

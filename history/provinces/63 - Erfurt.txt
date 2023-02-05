@@ -6,7 +6,7 @@
 owner = EFT
 controller = EFT
 add_core = EFT
-culture = saxon
+culture = thuringian
 religion = catholic
 capital = "Erfurt"
 trade_goods = dyes #Woad

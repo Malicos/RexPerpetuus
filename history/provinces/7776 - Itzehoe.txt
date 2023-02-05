@@ -4,7 +4,7 @@
 owner = ITH
 controller = ITH
 add_core = ITH
-culture = lower_saxon
+culture = saxon
 religion = catholic
 capital = "Itzehoe"
 base_tax = 5

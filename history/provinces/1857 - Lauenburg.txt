@@ -6,7 +6,7 @@
 owner = MKL
 controller = MKL
 add_core = MKL
-culture = lower_saxon
+culture = saxon
 religion = catholic
 capital = "Lauenburg"
 trade_goods = salt

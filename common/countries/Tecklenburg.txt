@@ -34,7 +34,7 @@ historical_units = {
 	napoleonic_lancers
 }
 
-#generic lower_saxon names, taken from Brunswick and tweaked
+#generic saxon names, taken from Brunswick and tweaked
 monarch_names = {
 	"Heinrich #0" = 80
 	"Wilhelm #0" = 40

@@ -10,7 +10,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 
 #Demographics
-primary_culture = lower_saxon
+primary_culture = saxon
 religion = catholic
 
 #Tech and Military

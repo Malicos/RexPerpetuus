@@ -9,7 +9,7 @@ owner = HAN
 controller = HAN
 
 #Demographics
-culture = lower_saxon
+culture = saxon
 religion = catholic
 
 #Development and Trade

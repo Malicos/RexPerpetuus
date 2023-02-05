@@ -4,7 +4,7 @@
 owner = SHL
 controller = SHL
 add_core = SHL
-culture = lower_saxon
+culture = saxon
 religion = catholic
 capital = "Trittau"
 base_tax = 3

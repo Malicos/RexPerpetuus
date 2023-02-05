@@ -6,7 +6,7 @@
 owner = HAM
 controller = HAM
 add_core = HAM
-culture = lower_saxon
+culture = saxon
 religion = catholic
 hre = yes
 base_tax = 7						#(JP) It wasn't actually as big as we expect. It was certainly important in trade, hence the CoT, but not as big

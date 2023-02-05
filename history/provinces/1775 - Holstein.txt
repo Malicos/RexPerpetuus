@@ -6,7 +6,7 @@
 owner = SHL
 controller = SHL
 add_core = SHL
-culture = lower_saxon
+culture = saxon
 religion = catholic
 hre = yes
 base_tax = 4 

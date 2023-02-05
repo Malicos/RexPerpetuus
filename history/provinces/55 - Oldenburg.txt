@@ -6,7 +6,7 @@
 owner = OLD
 controller = OLD
 add_core = OLD
-culture = lower_saxon
+culture = saxon
 religion = catholic
 capital = "Oldenburg"
 trade_goods = salt

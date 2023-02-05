@@ -9,7 +9,7 @@ owner = BRU
 controller = BRU
 
 #Demographics
-culture = lower_saxon
+culture = saxon
 religion = catholic
 
 #Development and Trade

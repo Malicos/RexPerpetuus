@@ -6,7 +6,7 @@
 owner = WEI
 controller = WEI 
 add_core = WEI
-culture = saxon
+culture = thuringian
 religion = catholic
 capital = "Weimar"
 trade_goods = grain

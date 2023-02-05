@@ -6,7 +6,7 @@
 owner = BRU
 controller = BRU
 add_core = BRU
-culture = lower_saxon
+culture = saxon
 religion = catholic
 capital = "Braunschweig"
 trade_goods = iron

@@ -18,7 +18,7 @@ neustria_region = { # 8 areas
 		champagne_area
 	}
 }
-austrasia_region = { # 17 areas
+austrasia_region = { # 15 areas
 	areas = {
 		alsace_area
 		barrois_area
@@ -30,13 +30,11 @@ austrasia_region = { # 17 areas
 		luxembourg_area
 		lotharingia_proper_area
 		mosellia_area
-		outrerhein_area
 		palatinate_area
 		picardy_area
 		ripuaria_area
-		ruhrland_area
-		wallonia_area
-		limburg_area
+		liege_area
+		batavia_area
 	}
 }
 aquitaine_region = { # 9 areas
@@ -178,44 +176,47 @@ nordurica_region = { # 18 areas
 	}
 }
 # RP: Allemania
-allemania_region = { # 18 areas
+allemania_region = { # 17 areas
 	areas = {
 		upper_bavaria_area
 		lower_bavaria_area
-		lower_swabia_area
-		franconia_area
-		upper_swabia_area
-		tirol_area
-		austria_proper_area
-		inner_austria_area
-		carinthia_area
-		switzerland_area
-		upper_rhineland_area
-		upper_austria_area
-		carniola_area
-		swiss_alps_area
-		east_bavaria_area
-		upper_palatinate_area
-		salzburg_area
 		upper_franconia_area
+		lower_franconia_area
+		lower_swabia_area
+		upper_swabia_area
+		east_swabia_area
+		baden_area
+		switz_area
+		raetia_area
+		tirol_area
+		salzburg_area
+		traungau_area
+		austria_area
+		styria_area
+		carinthia_area
+		carniola_area
 	}
 }
 # RP: Germania
-germania_region = { # 13 areas
+germania_region = { # 17 areas
 	areas = {
-		northern_saxony_area
-		thuringia_area
-		westphalia_area
-		north_westphalia_area
-		hesse_area
-		weser_area
-		holstein_area
-		lower_saxony_area
-		mecklenburg_area
-		middle_saxony_area
-		braunschweig_area
+		west_frisia_area
+		east_frisia_area
 		bremen_verden_area
-		frisia_area
+		holstein_area
+		mecklenburg_area
+		weser_emsland_area
+		lower_eastphalia_area
+		upper_eastphalia_area
+		altmark_area
+		lower_westphalia_area
+		upper_westphalia_area
+		hesse_area
+		lower_thuringia_area
+		middle_thuringia_area
+		upper_thuringia_area
+		henneburg_area
+		frankfurt_area
 	}
 }
 baltic_region = { # 11 areas
@@ -254,7 +255,7 @@ poland_region = { #Lechia  # 18 areas
 		lusatia_area
 		neumark_area
 		mittelmark_area
-		south_saxony_area
+		sorbia_area
 	}
 }
 ruthenia_region = { # 17 areas

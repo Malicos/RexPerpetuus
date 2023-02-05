@@ -350,7 +350,7 @@
  lig_the_tai_frontier_desc:0 "Despite our country's Malay roots, the prosperity of our kingdom came from the constant migration of Tai peoples into the Malayan peninsular. As the farthermost Tai polity, it is important that we continue this policy of Tai colonization of the peninsular."
  lig_wat_phra_mahathat_voramahavihan:0 "Wat Phra Mahathat"
  lig_wat_phra_mahathat_voramahavihan_desc:0 "Wat Phra Mahathat Woramahawihan is one of the most important historical sites in all of Malayan peninsular. The temple is decorated by various elephant heads, and statues of Buddha and giants which guard the temple. The temple was built by King Chandrabhanu of the Lotus Dynasty in a Lankan style, most likely to commemorate his conquest of the island."
- lower_saxon:2 "Low Saxon"
+ saxon:2 "Saxon"
  lue_ideas:0 "Shan Ideas"
  lue_ideas_bonus:0 "Shan Ambition"
  lue_ideas_start:0 "Shan Traditions"
@@ -568,7 +568,7 @@
  russian:0 "Russian"
  safi:0 "Safi"
  salish:0 "Lushootseed"
- saxon:2 "High Saxon"
+ thuringian:2 "Thuringian"
  schlesian:2 "High Silesian"
  secure_the_imperial_crown.tooltip:1 "§Y5§! Electors are:\nBacking §Y[Root.GetName]§! to become Emperor.\nHave at least §Y100§! opinion of §Y[Root.GetName]§!."
  # tmp fix 'cause counter is fucky

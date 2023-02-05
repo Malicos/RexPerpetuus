@@ -6,7 +6,7 @@
 owner = SAX
 controller = SAX
 add_core = SAX
-culture = lower_saxon
+culture = saxon
 religion = catholic
 capital = "Hoya"
 trade_goods = livestock
