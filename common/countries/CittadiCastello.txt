@@ -30,10 +30,13 @@ historical_units = {
 }
 
 monarch_names = {
-	#Citta di Castello specific names
-	"Vittelozzo #1" = 60
+	# RP RULER NAMES
+	"Pandolfo #1" = 20
+	
+	# Citta di Castello specific names
+	"Vittelozzo #0" = 60
 	"Niccolò #0" = 60
-	"Gerozzo #1" =  40
+	"Gerozzo #0" =  40
 	"Paolo #0" = 40
 	"Camillo #0" = 20
 	"Giovanni #0" = 20

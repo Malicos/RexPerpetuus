@@ -5,6 +5,7 @@ primary_culture = occitain
 religion = cathar
 technology_group = western
 capital = 196 # Toulouse
+historical_rival = GUY
 
 1431.1.2 = {
 	monarch = {

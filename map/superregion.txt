@@ -18,9 +18,9 @@ europe_superregion = {
 	italy_region
 	ireland_region # Brian; changed from _area
 	british_isles_region
-	scandinavia_region
-	south_german_region
-	north_german_region
+	nordurica_region
+	allemania_region
+	germania_region
 }
 eastern_europe_superregion = {
 

@@ -7,8 +7,16 @@ religion = orthodox
 capital = 7004
 fixed_capital = 7004
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1420.3.10 = {
+	monarch = {
+		name = "Eleonora"
+		dynasty = "Kamardas"
+		adm = 1
+		dip = 3
+		mil = 1
+		birth_date = 1397.6.19
+		religion = orthodox
+		culture = kalabrian
+		female = yes
+	}
+}

@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = LIM
+controller = LIM
+add_core = LIM
 culture = auvergnat_culture
 religion = catholic
 capital = "Tulle"

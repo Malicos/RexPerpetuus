@@ -5,7 +5,6 @@ primary_culture = lombard
 religion = catholic
 technology_group = western
 capital = 104 #Milan
-fixed_capital = 104
 
 1442.4.26 = {
 	monarch = {

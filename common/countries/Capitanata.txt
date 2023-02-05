@@ -3,9 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 181 98 124 }
-revolutionary_colors = { 15  6  16 } #Parthenopean Republic
-
-historical_score = 120
 
 historical_idea_groups = {
 	trade_ideas
@@ -35,46 +32,46 @@ historical_units = {
 }
 
 monarch_names = {
-	"Carlo #3" = 80
-	"Ferdinando #0" = 80
-	"Filippo #0" = 60
-	"Alfonso #0" = 40
-	"Federigo #0" = 20
-	"Ladislao #0" = 20
-	"Gioachino #0" = 20
-	"Achille #0" = 15
-	"Gabriele #0" = 15
-	"Alberto #0" = 10
-	"Antonio #0" = 10
-	"Cesare #0" = 10
-	"Francesco #0" = 10
-	"Giovanni #0" = 10
-	"Giuseppe #0" = 10
-	"Leopoldo #0" = 10
-	"Adriano #0" = 0
-	"Alessandro #0" = 0
-	"Alfredo #0" = 0
-	"Bartolomeo #0" = 0
-	"Benedetto #0" = 0
-	"Claudio #0" = 0
-	"Enzo #0" = 0
-	"Fabio #0" = 0
-	"Fabrizio #0" = 0
-	"Gaspare #0" = 0
-	"Leandro #0" = 0
-	"Marco #0" = 0
-	"Martino #0" = 0
-	"Nestore #0" = 0
-	"Paolo #0" = 0
-	"Pietro #0" = 0
-	"Raniero #0" = 0
-	"Roberto #0" = 0
-	"Salvatore #0" = 0
-	"Vicenzo #0" = 0
+	# RP RULER NAMES
+	"Geretrudis #1" = -5
+	"Arichis #1" = 20
+	"Landolfu #1" = 20
+	"Sergiu #1" = 20
+
+	"Firdinannu #0" = 20
+	"Martinu #0" = 20
+	"Petru #0" = 15
+	"Franciscu #0" = 15
+	"Fidiricu #0" = 10
+	"Gugghiermu #0" = 10
+	"Luiggi #0" = 10
+	"Carlu #0" = 5
+	"Manfredi #0" = 5
+	"Tancredi #0" = 5
+	"Albertu #0" = 0
+	"Antoniu #0" = 0
+	"Birnardu #0" = 0
+	"Cesari #0" = 0
+	"Claudiu #0" = 0
+	"Danieli #0" = 0
+	"Filippu #0" = 0
+	"Flaviu #0" = 0
+	"Gaitanu #0" = 0
+	"Giuvanni #0" = 0
+	"Giuseppi #0" = 0
+	"Grazzianu #0" = 0
+	"Manfredi #0" = 0
+	"Ottaviu #0" = 0
+	"Rubbertu #0" = 0
+	"Samueli #0" = 0
+	"Valirianu #0" = 0
+	"Vicenzu #0" = 0
 	
-	"Giovanna #1" = -15
-	"Julia #0" = -5
-	"Carlotta #0" = -5
+	"Maria #0" = -15
+	"Viulanti #0" = -1
+	"Custanza #0" = -5
+	"Eufemia #0" = -1
+	"Biatrici #0" = -1
 	"Isabella #0" = -1
 }
 

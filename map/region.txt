@@ -154,7 +154,8 @@ british_isles_region = { # 17 areas
 		jorvik_area
 	}
 }
-scandinavia_region = { # 18 areas
+# RP: Nordurica
+nordurica_region = { # 18 areas
 	areas = {
 		jutland_area
 		denmark_area
@@ -176,7 +177,8 @@ scandinavia_region = { # 18 areas
 		trondelag_area
 	}
 }
-south_german_region = { # 18 areas
+# RP: Allemania
+allemania_region = { # 18 areas
 	areas = {
 		upper_bavaria_area
 		lower_bavaria_area
@@ -198,7 +200,8 @@ south_german_region = { # 18 areas
 		upper_franconia_area
 	}
 }
-north_german_region = { # 13 areas
+# RP: Germania
+germania_region = { # 13 areas
 	areas = {
 		northern_saxony_area
 		thuringia_area

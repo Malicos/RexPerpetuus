@@ -8,9 +8,9 @@ mercantilism = 25
 capital = 112 # Venezia
 fixed_capital = 112 # Cannot move capital away from this province & no power cost to move to it
 
-1444.11.11= {
+1422.6.14 = {
 	monarch = {
-		name = "Fresco Monferrato"
+		name = "Fresco di Monferrato"
 		adm = 5
 		dip = 1
 		mil = 6

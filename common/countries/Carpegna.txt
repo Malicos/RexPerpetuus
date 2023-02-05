@@ -30,13 +30,16 @@ historical_units = {
 }
 
 monarch_names = {
-	#Carpegna specific names
-	"Giovanni #1" = 60
+	# RP RULER NAMES
+	"Ermenegildo #1" = 20
+
+	# Carpegna specific names
+	"Giovanni #0" = 60
 	"Orazio #0" = 60
 	"Francesco Maria #0" = 40
-	"Ramberto #1" = 40
+	"Ramberto #0" = 40
 	"Antonio #0" = 20
-	"Ugo #1" = 20
+	"Ugo #0" = 20
 	"Gaspare #0" = 10
 	"Muzio #0" = 10
 	"Nerio #0" = 10

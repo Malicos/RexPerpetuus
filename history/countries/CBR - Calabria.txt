@@ -7,8 +7,15 @@ religion = orthodox
 capital = 123
 fixed_capital = 123
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1414.5.25 = {
+	monarch = {
+		name = "Meletios"
+		dynasty = "Monokarites"
+		adm = 2
+		dip = 3
+		mil = 3
+		birth_date = 1380.10.2
+		religion = orthodox
+		culture = kalabrian
+	}
+}

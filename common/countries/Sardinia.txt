@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 72 96 176 }
-revolutionary_colors = { 1 5 0 }
 
 historical_idea_groups = {
 	maritime_ideas
@@ -34,6 +33,13 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Beneitu #1" = 20
+	"Giulia #1" = -5	
+	"Basiliu #1" = 20
+	"Dionisi #1" = 20
+
+	# RANDOM NAMES - MALE
 	"Marianu #0" = 20
 	"Guglielmu #0" = 20
 	"Pedru #0" = 15
@@ -44,7 +50,6 @@ monarch_names = {
 	"Gonariu #0" = 5
 	"Austinu #0" = 0
 	"Andria #0" = 0
-	"Beneitu #0" = 0
 	"Carolu #0" = 0
 	"Costantzu #0" = 0
 	"Cristolu #0" = 0
@@ -60,6 +65,7 @@ monarch_names = {
 	"Simione #0" = 0
 	"Vittore #0" = 0
 
+	# RANDOM NAMES - FEMALE
 	"Beatrici #0" = -5	
 	"Giuanna #0" = -1
 	"Rosalia #0" = -1

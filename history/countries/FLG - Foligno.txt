@@ -7,8 +7,15 @@ religion = catholic
 capital = 7036
 fixed_capital = 7036
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1429.4.10 = {
+	monarch = {
+		name = "Amedeo"
+		dynasty = "Trinci"
+		adm = 5
+		dip = 1
+		mil = 3
+		birth_date = 1405.4.10
+		religion = catholic
+		culture = umbrian
+	}
+}

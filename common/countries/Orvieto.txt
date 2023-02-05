@@ -30,10 +30,27 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Giacopo #1" = 10
+	"Bobone #1" = 10
+	"Maddalena #1" = -1
+	"Rafaello #2" = 20
+	"Pandolfo #2" = 20
+	"Pellegrino #1" = 10
+	"Adelmio #1" = 10
+	"Gunzelin #1" = 10
+	"Ferdinando #1" = 10
+	"Filiberto #1" = 10
+	"Folkmar #1" = 1
+	"Aurelio #1" = 10
+	"Tiziana #1" = -1
+	"Hadmar #1" = 1
+
+	# RANDOM NAMES - MALE
 	"Cosimo #0" = 60
 	"Ferdinando #0" = 60
 	"Francesco #0" = 60
-	"Lodovico #2" = 40
+	"Lodovico #0" = 40
 	"Carlo #0 Emmanuele" = 20
 	"Carlo #0 Felice" = 20
 	"Lodovico #0 Maria" = 20
@@ -81,6 +98,7 @@ monarch_names = {
 	"Severino #0" = 0
 	"Vittorio #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Viola #0" = -1
 	"Zaira #0" = -1
 	"Angelica #0" = -1

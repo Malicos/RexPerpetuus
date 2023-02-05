@@ -2,9 +2,9 @@
 #Region - France
 #Area - Guyenne
 
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = BRI
+controller = BRI
+add_core = BRI
 capital = "Fontenay"
 is_city = yes
 culture = poitevin_culture
