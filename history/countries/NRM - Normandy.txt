@@ -5,6 +5,7 @@ technology_group = western
 primary_culture = normand
 religion = catholic
 capital = 167	# Rouen
+historical_friend = GUY
 
 1425.12.1 = {
 	monarch = {

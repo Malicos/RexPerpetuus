@@ -6,3 +6,19 @@ religion = catholic
 technology_group = western
 capital = 195 # Angoumois
 fixed_capital = 195 # Cannot move capital away from this province & no power cost to move to it
+
+1412.09.16 = {
+	monarch = {
+		name = "Eve"
+		dynasty = "de Saint-Denis"
+		adm = 5
+		dip = 3
+		mil = 3
+		birth_date = 1385.5.11
+		religion = catholic
+		culture = cosmopolitan_french
+		female = yes
+	}
+	add_ruler_personality = just_personality
+	add_ruler_personality = pious_personality
+}

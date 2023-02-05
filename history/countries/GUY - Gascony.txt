@@ -5,6 +5,7 @@ technology_group = western
 primary_culture = gascon
 religion = catholic
 capital = 174 	# Bordeaux
+historical_friend = NRM
 
 1430.8.15 = {
 	monarch = {
