@@ -36,8 +36,6 @@ historical_units = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Vellido #1" = 10
-	"Jaime #1" = 5
 	"Eve #1" = -10
 
 	# RANDOM NAMES - MALE
