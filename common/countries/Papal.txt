@@ -135,6 +135,7 @@ monarch_names = {
 	"Caesarius #0" = 1
 	"Christophilus #0" = 1
 	"Dominicus #0" = 1
+	"Fidus #0" = 1
 	"Georgius #0" = 1
 	"Gratilianus #0" = 1
 	"Hippolytus #0" = 1
