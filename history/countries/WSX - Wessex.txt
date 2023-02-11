@@ -13,13 +13,13 @@ government_rank = 2
 		adm = 1
 		dip = 1
 		mil = 5
-		birth_date = 1407.5.18
+		birth_date = 1402.5.18
 		religion = catholic
 		culture = sexish_culture
 	}
 }
 
-1417.10.18 = {
+1427.10.18 = {
 	heir = {
 		name = "Hayden"
 		monarch_name = "Hayden"
@@ -28,9 +28,9 @@ government_rank = 2
 		dip = 6
 		mil = 6
 		claim = 95
-		birth_date = 1417.10.17
+		birth_date = 1427.10.17
 		religion = catholic
-		culture = anglisk
+		culture = sexish_culture
 	}
 	add_heir_personality = fierce_negotiator_personality
 	add_heir_personality = midas_touched_personality
