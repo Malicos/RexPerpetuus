@@ -143,6 +143,10 @@
  ###East Asian###
  #################
  
+ ####Sinitic####
+ ###Cathayan###
+ east_asian:0 "Cathayan"
+ 
  ####Koreanic####
  ###Korean###
  korean:0 "Gyeonggi"
@@ -252,6 +256,12 @@
  manchuria_region:0 "Jurchenia"
  manchuria_region_name:0 "Jurchenia"
  manchuria_region_adj:0 "Jurchenia"
+ north_china_region:0 "Northern Cathay"
+ north_china_region_name:0 "Northern Cathay"
+ north_china_region_adj:0 "Northern Cathayan" 
+ south_china_region:0 "Southern Cathay"
+ south_china_region_name:0 "Southern Cathay"
+ south_china_region_adj:0 "Southern Cathayan"
  #Elysia
  colombia_region:0 "Almere"
  colombia_region_name:0 "Almere"
@@ -383,3 +393,20 @@
  
  african_slaves:0 "Ethiopian Slaves"
  desc_african_slaves:0 "The labor shortage is being reduced by slaves from Ethiopia."
+ 
+ CELESTIAL_CELESTIAL:1 "Empire of Cathay"
+ CELESTIAL_EMPEROR:0 "$EMPERORNAME|Y$ is the Emperor of Cathay"
+ CELESTIAL_EMPIRE:0 "Empire of Cathay"
+ SET_CELESTIAL_EMPEROR_DESC:0 "$COUNTRYNAME$ becomes the Emperor of Cathay.\n"
+ DISMANTLE_CELESTIAL_EMPIRE_DESC:0 "The Empire of Cathay is dismantled.\n"
+ REFORM_CELESTIAL_EMPIRE_DESC:0 "The Empire of Cathay is re-formed.\n"
+ no_country_is_EoC:0 "No country is the Emperor of Cathay."
+ COUNTRY_CANNOT_EMBRACE_REVOLUTION_CELESTIAL_EMPIRE:0 "The Revolution goes against everything the Mandate of Heaven stands for. The Emperor of Cathay would never embrace it."
+ CELESTIALREFORMBYUS_SETUP:0 "When we, as the Emperor of Cathay, enact a reform."
+ CELESTIALREFORMBYUS_LOG:0 "We, as Emperor of Cathay, enacted $REFORM$."
+ CELESTIALREFORM_SETUP:0 "When the Emperor of Cathay enacts a reform."
+ CELESTIALREFORM_2:0 "$MONARCHTITLE$, the Emperor of Cathay,"
+ CELESTIALREFORM_LOG:0 "The Emperor of Cathay enacted $REFORM$."
+ 
+ obj_emperor_of_china:0 "Emperor of Cathay"
+ obj_emperor_of_china_desc:0 "Be the Emperor of Cathay, with a mandate over 50."
