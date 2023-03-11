@@ -4,10 +4,6 @@ graphical_culture = westerngfx
 
 color = { 56 67 158 }
 
-revolutionary_colors = { 0  14  0 }
-
-historical_score = 350
-
 historical_idea_groups = {
 	administrative_ideas
 	defensive_ideas
@@ -37,9 +33,33 @@ historical_units = {
 }
 
 monarch_names = {
-	"Albrecht #2" = 60
-	"Wilhelm #3" = 40
-	"Johann #3" = 20
+	# RP RULER NAMES
+	"Karlmann #1" = 10
+	"Luitpold #1" = 10
+	"Arnulf #1" = 10
+	"Berthold #1" = 10
+	"Kuno #1" = 10
+	"Otto #2" = 20
+	"Heinrich #10" = 100
+	"Ludolf #1" = 10
+	"Walpurga #1" = -1
+	"Eberhard #2" = 20
+	"Rutger #2" = 20
+	"Adam #1" = 10
+	"Friedrich #1" = 10
+	"Emma #1" = -1
+	"Wilhelm #1" = 10
+	"Ademar #2" = 20
+	"Siegmund #1" = 10
+	"Peter #1" = 10
+	"Hedwig #1" = -1
+	"Anno #1" = 10
+	"Bernhard #1" = 10
+	"Philipp #5" = 100
+
+	# RANDOM NAMES - MALE
+	"Albrecht #0" = 60
+	"Johann #0" = 20
 	"Ernst #0" = 20
 	"Ferdinand Maria #0" = 20
 	"Karl Albrecht #0" = 20
@@ -47,8 +67,7 @@ monarch_names = {
 	"Maximilian #0" = 20
 	"Maximilian #0 Joseph" = 40
 	"Maximilian #0 Emanuel" = 20
-	"Siegmund #0" = 20
-	"Ludwig #9" = 15
+	"Ludwig #0" = 15
 	"Anton #0" = 15
 	"Christoph #0" = 15
 	"Ferdinand #0" = 15
@@ -62,12 +81,9 @@ monarch_names = {
 	"Adalbert #0" = 10
 	"Alois Johann #0" = 10
 	"Clemens August #0" = 10
-	"Friedrich #0" = 10
 	"Johann Theodor #0" = 10
 	"Joseph Ludwig #0" = 10
 	"Kajetan Maria #0" = 10
-	"Luitpold #0" = 10
-	"Otto #0" = 10
 	"Philipp Moritz #0" = 10
 	"Wolfgang #0" = 10
 	"Engelbert #0" = 0
@@ -78,6 +94,7 @@ monarch_names = {
 	"Meinhard #0" = 0
 	"Raphael #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Hiltraud #0" = -1
 	"Friede #0" = -1
 	"Juliane #0" = -1

@@ -36,10 +36,19 @@ historical_units = {
 
 #generic Bavarian, taken from Bavaria and tweaked
 monarch_names = {
+	# RP RULER NAMES
+	"Ekkehard #1" = 15
+	"Gunzelin #2" = 20
+	"Baldewin #1" = 15
+	"Ernst #1" = 15
+	"Gebhard #1" = 15
+	"Ademar #3" = 60
+	"Eginolf #1" = 15
+
+	# RANDOM NAMES - MALE
 	"Albrecht #0" = 60
 	"Wilhelm #0" = 40
 	"Johann #0" = 20
-	"Ernst #0" = 20
 	"Ferdinand Maria #0" = 20
 	"Karl Albrecht #0" = 20
 	"Karl Theodor #0" = 20
@@ -47,7 +56,7 @@ monarch_names = {
 	"Maximilian #0 Joseph" = 40
 	"Maximilian #0 Emanuel" = 20
 	"Siegmund #0" = 20
-	"Ludwig #9" = 15
+	"Ludwig #0" = 15
 	"Anton #0" = 15
 	"Christoph #0" = 15
 	"Ferdinand #0" = 15
@@ -77,6 +86,7 @@ monarch_names = {
 	"Meinhard #0" = 0
 	"Raphael #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Hiltraud #0" = -1
 	"Friede #0" = -1
 	"Juliane #0" = -1

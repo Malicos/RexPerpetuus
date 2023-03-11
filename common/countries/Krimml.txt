@@ -36,6 +36,10 @@ historical_units = {
 
 #generic Bavarian, taken from Bavaria and tweaked
 monarch_names = {
+	# RP RULER NAMES
+	"Hupold #1" = 20
+
+	# GENERIC
 	"Albrecht #0" = 60
 	"Wilhelm #0" = 40
 	"Johann #0" = 20
@@ -47,7 +51,7 @@ monarch_names = {
 	"Maximilian #0 Joseph" = 40
 	"Maximilian #0 Emanuel" = 20
 	"Siegmund #0" = 20
-	"Ludwig #9" = 15
+	"Ludwig #0" = 15
 	"Anton #0" = 15
 	"Christoph #0" = 15
 	"Ferdinand #0" = 15

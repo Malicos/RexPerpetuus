@@ -33,6 +33,16 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Ulrik #3" = 60
+	"Erik #2" = 20
+	"Jan #2" = 20
+	"Albrecht #1" = 10
+	"Suronja #1" = -1
+	"Teodorik #1" = 1
+	"Ulfo #1" = 1
+
+	# RANDOM NAMES
 	"Slavko #0" = 20
 	"Vladko #0" = 20
 	"Tomasz #0" = 20

@@ -4,16 +4,14 @@ graphical_culture = westerngfx
 
 color = { 253 216 53 }
 
-revolutionary_colors = { 0 13 5 }
-
-historical_idea_groups = {	
-	diplomatic_ideas
-	economic_ideas
-	defensive_ideas
-	influence_ideas
-	offensive_ideas
+historical_idea_groups = {
 	trade_ideas
-	administrative_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	religious_ideas
 	quality_ideas
 }
 
@@ -35,17 +33,41 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Adalbero #1" = 0
+	"Henrik #4" = 10
+	"Welf #1" = 10
+	"Konrad #3" = 30
+	"Gebhard #2" = 20
+	"Ehrenfrid #1" = 5
+	"Rainard #1" = 5
+	"Magnus #1" = 5
+	"Berard #1" = 5
+	"Viktor #1" = 5
+	"Milo #2" = 20
+	"Lambert #2" = 20
+	"Kuno #1" = 5
+	"Berthold #4" = 40
+	"Wolfram #1" = 5
+	"Radbot #1" = 5
+	"Guntpolt #1" = 5
+	"Ekkehard #6" = 20
+	"Folkhard #1" = 5
+	"Teodorik #2" = 20
+	"Arnold #3" = 30
+	"Valdemar #1" = 30
+
+	# RANDOM NAMES - MALE
 	"Stefan #0" = 35
-	"Ulrik #1" = 35
-	"Friderik #2" = 30
+	"Ulrik #0" = 35
+	"Friderik #0" = 30
 	"Jurij #0" = 30
-	"Herman #2" = 25
+	"Herman #0" = 25
 	"Albreht #0" = 25
 	"Jozef #0" = 20
 	"Ludvik #0" = 20
 	"Otokar #0" = 20
 	"Karel #0" = 20
-	"Konrad #1" = 15
 	"Oton #0" = 15
 	"Henrik #0" = 10
 	"Maksimilijan #0" = 10
@@ -85,6 +107,7 @@ monarch_names = {
 	"Valentin #0" = 0
 	"Vitomil #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Agnes #0" = -1
 	"Elizabeta #0" = -1
 	"Jozefa #0" = -1
@@ -94,43 +117,16 @@ monarch_names = {
 	"Terezija #0" = -1
 }
 
-leader_names = { 
-	Attems
-	Bohoric Bagari
-	Candek Cobenzl
-	Dajnko Dravecz
-	Erjavec
-	Florjancic
-	Gacnik Gogala Gadolla Gregorcic Gruntar
-	Hren Hribar Hül
-	Ivanoczy
-	Jarnik Janezic Jurcic Jenko Japelj Jeglic
-	Kavcic Kozler Kersnik Kos Klekl Kosic Küzmic Kolar
-	Lavrin Lankovic Levstik Lavric Levec Lavtizar
-	Miklosic Murko Mornik Mahnic Mandelc
-	Oblak Ogrinec
-	Preseren Pogacar Ptujski Persa Pintaric
-	Rogan
-	Slomsek Suklje Svetec Stritar Sbül Selmar Sakovic Slepec Strle
-	Trstenjak Trubar Tavcar Temlin Trsteniski Toman Treiber
-	Ulepic Usenicnik
-	Vraz Vidmar Vodnik Valvasor Vesel Vosnjak
-	Zorko Zelko Zarnik Zuzek Zemlic
+leader_names = {
+	Arnic Avbelj Avsenik Bajuk Bitenc Cankar Cec Cernigoj Czipott Dolar
+	Drolc Duletic Globocnik Gobec Godina Golob Haus Hladnik Ivanek Kantuser
+	Kidric Komar Kopitar Kraigher Lipovsek Lipuscek Macek Maister Marinko Miklosic
+	Mravlajk Pengov Pesek Peterle Pirec Plecnik Rozman Rupnik Sarh Srebrnic
+	Tomazic Tomsic Urbancic Vega "Von Windisch-Grätz" Zagar Zerjal Zizke Zornada Zupancic
 }
 
 ship_names = {
-	Aesontius
-	Carnia
-	Istra Ilirija
-	Jalovec
-	Kranjska
-	Ljubljana
-	Mangart
-	Prlekija Ptuj Pazin
-	Ribnica
-	Stajerska Sava Sitik
-	Triglav
-	Vrba Vinica
-	Zdravljica
+	Ljubljana Maribor Celje Kranj
+	Drava Kolpa Mura Sava Savinja
+	Ivana Metka Štefka Duša Nataša
 }
-
