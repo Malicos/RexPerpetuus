@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 189  115  99 }
-revolutionary_colors = { 10 0 15 }
 
 preferred_religion = protestant
 
@@ -36,9 +35,17 @@ historical_units = {
 }
 
 monarch_names = {
-	"Albrecht #2" = 40
-	"Friedrich #2" = 40
-	"Günther #1" = 20
+	# RP RULER NAMES
+	"Vincent #1" = 20
+	"Nikolaus #1" = 20
+	"Otto #1" = 20
+	"Kruto #1" = 20
+	"Wolfram #1" = 20
+	
+	# RANDOM NAMES - MALE
+	"Albrecht #0" = 40
+	"Friedrich #0" = 40
+	"Günther #0" = 20
 	"August #0" = 20
 	"Christian Wilhelm #0" = 20
 	"Ernst #0" = 20
@@ -47,17 +54,16 @@ monarch_names = {
 	"Johann Albrecht #0" = 20
 	"Leopold Wilhelm #0" = 20
 	"Siegmund #0" = 20
-	"Dietrich #1" = 15
-	"Ludwig #1" = 15
-	"Otto #1" = 15
-	"Peter #1" = 15
-	"Burkhard #3" = 10
-	"Heinrich #2" = 10
-	"Konrad #2" = 10
-	"Bernhard #1" = 10
-	"Erich #1" = 10
-	"Rudolf #1" = 10
-	"Ruprecht #1" = 10
+	"Dietrich #0" = 15
+	"Ludwig #0" = 15
+	"Peter #0" = 15
+	"Burkhard #0" = 10
+	"Heinrich #0" = 10
+	"Konrad #0" = 10
+	"Bernhard #0" = 10
+	"Erich #0" = 10
+	"Rudolf #0" = 10
+	"Ruprecht #0" = 10
 	"Adolf #0" = 0
 	"Clemens #0" = 0
 	"Diederick #0" = 0
@@ -77,6 +83,7 @@ monarch_names = {
 	"Viktor #0" = 0
 	"Wolfgang #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Monika #0" = -1
 	"Philippa #0" = -1
 	"Swanhilda #0" = -1

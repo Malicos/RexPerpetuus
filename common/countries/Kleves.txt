@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 132 132 132 }
-revolutionary_colors = { 8 5 8 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -35,6 +34,12 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Eusebios #1" = 5
+	"Meletios #1" = 5
+	"Symmachos #2" = 20
+
+	# RANDOM NAMES - MALE
 	"Johann #0" = 60
 	"Adolf #0" = 20
 	"Joachim #0" = 20
@@ -76,6 +81,7 @@ monarch_names = {
 	"Werner #0" = 0
 	"Wolfram #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Amber #0" = -1
 	"Carla #0" = -1
 	"Georgina #0" = -1

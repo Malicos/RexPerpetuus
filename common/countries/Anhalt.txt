@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 203  93  124 }
 
-revolutionary_colors = { 5 10 0 }
-
 historical_idea_groups = {
 	religious_ideas
 	economic_ideas
@@ -35,20 +33,26 @@ historical_units = {
 }
 
 monarch_names = {
-	"Johann Georg #0" = 40
+	# RP RULER NAMES
+	"Nikolaus #1" = 10
+	"Johann #1" = 15
+	"Hermann #2" = 20
+	"Otto #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Johann Georg #1" = 40
 	"Leopold #0" = 40
 	"Georg #0" = 20
 	"Jakob Ernst #0" = 20
 	"Joachim Ernst #0" = 20
-	"Johann Kasimir #0" = 20
+	"Johann Kasimir #1" = 20
 	"Leopold #0 Friedrich" = 20
 	"Leopold #0 Maximilian" = 20
 	"Ernst #0" = 20
 	"Siegmund #0" = 20
-	"Bernhard #6" = 15
-	"Waldemar #5" = 15
-	"Johann #4" = 15
-	"Rudolf #3" = 15
+	"Bernhard #0" = 15
+	"Waldemar #0" = 15
+	"Rudolf #0" = 15
 	"Friedrich #0" = 15
 	"Friedrich Kasimir #0" = 15
 	"Georg Aribert #0" = 15
@@ -56,8 +60,8 @@ monarch_names = {
 	"Moritz #0" = 15
 	"Thomas #0" = 15
 	"Wilhelm Gustav #0" = 15
-	"Albrecht #5" = 15
-	"Heinrich #4" = 10
+	"Albrecht #0" = 15
+	"Heinrich #0" = 10
 	"Albrecht Friedrich #0" = 10
 	"August #0" = 10
 	"Christian #0" = 10
@@ -67,7 +71,7 @@ monarch_names = {
 	"Heinrich Waldemar #0" = 10
 	"Joachim #0" = 10
 	"Joachim Christoph #0" = 10
-	"Johann Ernst #0" = 10
+	"Johann Ernst #1" = 10
 	"Lorenz #0" = 10
 	"Ludwig #0" = 10
 	"Paul #0" = 10
@@ -77,6 +81,7 @@ monarch_names = {
 	"Michael #0" = 0
 	"Ulrich #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Helmine #0" = -1
 	"Johanna #0" = -1
 	"Leonore #0" = -1

@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 225 78 78 }
-revolutionary_colors = { 1 5 13 }
 
 historical_idea_groups = {
 	innovativeness_ideas
@@ -35,12 +34,18 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Odo #1" = 10
+	"Unwan #2" = 20
+	"Marquard #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Enno #0" = 40
 	"Edzard #0" = 40
 	"Ulrich #0" = 40
 	"Christian #0" = 20
-	"Ocko #1" = 20
-	"Keno #1" = 20
+	"Ocko #0" = 20
+	"Keno #0" = 20
 	"Rudolf #0" = 10
 	"George #0" = 10
 	"Charles #0" = 10
@@ -88,6 +93,7 @@ monarch_names = {
 	"Wilfried #0" = 0
 	"Willem #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Theda #0" = -10
 	"Anne #0" = -5
 	"Waltrud #0" = -1

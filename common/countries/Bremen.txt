@@ -4,10 +4,6 @@ graphical_culture = westerngfx
 
 color = { 33  101  137 }
 
-revolutionary_colors = { 5 0 5 }
-
-historical_score = 50
-
 preferred_religion = protestant
 
 historical_idea_groups = {
@@ -39,22 +35,25 @@ historical_units = {
 }
 
 monarch_names = {
-	"Heinrich #1" = 40
-	"Johann #1" = 40
-	"Gerhard #2" = 20
-	"Friedrich #1" = 20
-	"Otto #1" = 20
+	# RP RULER NAMES
+	"Heinrich #1" = 40	
+
+	# RANDOM NAMES - MALE
+	"Johann #0" = 40
+	"Gerhard #0" = 20
+	"Friedrich #0" = 20
+	"Otto #0" = 20
 	"Baldwin #0" = 20
 	"Christoph #0" = 20
 	"Georg #0" = 20
 	"Johann Adolf #0" = 20
 	"Johann Friedrich #0" = 20
 	"Nicolaus #0" = 20
-	"Burkhard #2" = 15
-	"Albrecht #1" = 15
-	"Gottfried #1" = 15
-	"Bernhard #1" = 10
-	"Florent #1" = 10
+	"Burkhard #0" = 15
+	"Albrecht #0" = 15
+	"Gottfried #0" = 15
+	"Bernhard #0" = 10
+	"Florent #0" = 10
 	"Adam #0" = 0
 	"Alexander #0" = 0
 	"Andreas #0" = 0
@@ -80,6 +79,7 @@ monarch_names = {
 	"Siegert #0" = 0
 	"Siegmund #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Verena #0" = -1
 	"Alexia #0" = -1
 	"Beatrix #0" = -1

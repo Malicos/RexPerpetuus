@@ -3,9 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 78 98 40 }
-revolutionary_colors = { 0 9 0 }
-
-historical_score = 300
 
 preferred_religion = protestant
 
@@ -39,13 +36,28 @@ historical_units = {
 }
 
 monarch_names = {
-	"Johann Georg #0" = 80
+	# RP RULER NAMES
+	"Bernhard #2" = 30
+	"Magnus #1" = 10
+	"Ordulf #2" = 30
+	"Harthgate #1" = 10
+	"Rodelinda #1" = -1
+	"Hermann #2" = 30
+	"Tymmeke #1" = 10
+	"Gerold #1" = 10
+	"Balduin #3" = 60
+	"Jaspar #1" = 10
+	"Johann #1" = 10
+	"Enda #1" = -1
+
+	# RANDOM NAMES - MALE
+	"Johann Georg #1" = 10
 	"Friedrich #0" = 60
 	"Friedrich August #0" = 60
-	"Albrecht #3" = 40
+	"Albrecht #0" = 40
 	"Christian #0" = 40
-	"Heinrich #4" = 20
-	"Rudolf #2" = 20
+	"Heinrich #0" = 20
+	"Rudolf #0" = 20
 	"August #0" = 20
 	"Ernst #0" = 20
 	"Friedrich Christian #0" = 20
@@ -55,13 +67,11 @@ monarch_names = {
 	"Anton #0" = 15
 	"Christian Albrecht #0" = 15
 	"Hektor #0" = 15
-	"Johann #0" = 15
 	"Karl #0" = 15
 	"Clemens Wenzel #0" = 10
 	"Franz Xaver #0" = 10
 	"Joachim #0" = 10
 	"Joseph #0" = 10
-	"Magnus #0" = 10
 	"Maximilian #0" = 10
 	"Severinus #0" = 10
 	"Wolfgang #0" = 10
@@ -70,7 +80,6 @@ monarch_names = {
 	"Bruno #0" = 0
 	"Burkhard #0" = 0
 	"Günther #0" = 0
-	"Hermann #0" = 0
 	"Kajetan #0" = 0
 	"Lambert #0" = 0
 	"Lukas #0" = 0
@@ -80,6 +89,7 @@ monarch_names = {
 	"Wilfried #0" = 0
 	"Wolfram #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Amalia #0" = -1
 	"Bianka #0" = -1
 	"Eleonora #0" = -1

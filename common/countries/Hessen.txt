@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 114  171  184 }
-revolutionary_colors = { 15 0 5 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -34,15 +33,26 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Rudigar #1" = 10
+	"Giselher #1" = 10
+	"Bertold #1" = 10
+	"Udu #1" = 10
+	"Eberhard #1" = 10
+	"Gertrude #1" = -1
+	"Georg #1" = 10
+	"Adalbert #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Wilhelm #0" = 170
-	"Ludwig #1" = 40
+	"Ludwig #0" = 40
 	"Friedrich #0" = 40
-	"Hermann #1" = 20
+	"Hermann #0" = 20
 	"Karl #0" = 20
 	"Moritz #0" = 20
 	"Philipp #0" = 20
-	"Heinrich #1" = 15
-	"Otto #1" = 15
+	"Heinrich #0" = 15
+	"Otto #0" = 15
 	"Adolf #0" = 10
 	"Christian #0" = 10
 	"Georg #0" = 10
@@ -75,6 +85,7 @@ monarch_names = {
 	"Werner #0" = 0
 	"Wolfram #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Corinna #0" = -1
 	"Else #0" = -1
 	"Hedwig #0" = -1

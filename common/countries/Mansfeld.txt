@@ -36,6 +36,14 @@ historical_units = {
 
 #generic saxon, taken from Saxony and tweaked
 monarch_names = {
+	# RP RULER NAMES
+	"Bouchard #2" = 20
+	"Hadwig #1" = -1
+	"Hermann #1" = 10
+	"Otto #1" = 10
+	"Siegfried #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Johann Georg #0" = 80
 	"Friedrich #0" = 60
 	"Friedrich August #0" = 60
@@ -67,7 +75,6 @@ monarch_names = {
 	"Bruno #0" = 0
 	"Burkhard #0" = 0
 	"Günther #0" = 0
-	"Hermann #0" = 0
 	"Kajetan #0" = 0
 	"Lambert #0" = 0
 	"Lukas #0" = 0
@@ -77,6 +84,7 @@ monarch_names = {
 	"Wilfried #0" = 0
 	"Wolfram #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Amalia #0" = -1
 	"Bianka #0" = -1
 	"Eleonora #0" = -1

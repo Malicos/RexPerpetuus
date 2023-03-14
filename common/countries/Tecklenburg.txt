@@ -36,6 +36,15 @@ historical_units = {
 
 #generic saxon names, taken from Brunswick and tweaked
 monarch_names = {
+	# RP RULER NAMES
+	"Ida #1" = -1
+	"Talore #1" = 10
+	"Cord #1" = 10
+	"Mikael #1" = 10
+	"Philipp #4" = 80
+	"Adalbert #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Heinrich #0" = 80
 	"Wilhelm #0" = 40
 	"August #0" = 20
@@ -53,7 +62,7 @@ monarch_names = {
 	"Christian #0" = 10
 	"Franz #0" = 10
 	"Karl #0 Georg" = 10
-	"Philipp Siegmund #0" = 10
+	"Philipp Siegmund #4" = 10
 	"August #0" = 5
 	"August Franz #0" = 5
 	"August Heinrich #0" = 5
@@ -74,9 +83,10 @@ monarch_names = {
 	"Julius August #0" = 5
 	"Julius Ernst #0" = 5
 	"Otto #0" = 5
-	"Philipp Magnus #0" = 5
+	"Philipp Magnus #4" = 5
 	"Rudolf #0" = 5
 	
+	# RANDOM NAMES - FEMALE
 	"Amalia #0" = -1
 	"Cornelia #0" = -1
 	"Gerhild #0" = -1

@@ -34,6 +34,7 @@ historical_units = {
 }
 
 monarch_names = {
+	# RANDOM NAMES - MALE
 	"Friedrich #0" = 100
 	"Ludwig #0" = 80
 	"Ruprecht #0" = 20
@@ -51,8 +52,8 @@ monarch_names = {
 	"Johann Friedrich #0" = 15
 	"Ludwig Anton #0" = 15
 	"Ludwig Philipp #0" = 15
-	"Hermann #3 Ludwig" = 10
-	"Wilhelm #1" = 10
+	"Hermann #0 Ludwig" = 10
+	"Wilhelm #0" = 10
 	"Albrecht #0" = 10
 	"Christoph #0" = 10
 	"Eduard #0" = 10
@@ -75,6 +76,7 @@ monarch_names = {
 	"Raphael #0" = 0
 	"Rüdiger #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Nina #0" = -1
 	"Ottilie #0" = -1
 	"Reinhild #0" = -1

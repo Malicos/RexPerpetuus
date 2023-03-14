@@ -4,8 +4,6 @@ graphical_culture = westerngfx
 
 color = { 249 116 0 }
 
-revolutionary_colors = { 8 5 8 }
-
 historical_idea_groups = {
 	trade_ideas
 	defensive_ideas
@@ -36,19 +34,33 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Liutfrid #1" = 5
+	"Ludwig #1" = 20
+	"Hermann #1" = 20
+	"Berthold #1" = 10
+	"Klementia #1" = -1
+	"Welf #1" = 5
+	"Cecilie #1" = -1
+	"Norbert #2" = 20
+	"Burchard #1" = 10
+	"Reinhard #1" = 10
+	"Adalbert #1" = 10
+	"Viktor #2" = 20
+	
+	# RANDOM NAMES - MALE
 	"Bernhard #0" = 70
 	"Christoph #0" = 40
 	"Karl #0" = 40
 	"Jakob #0" = 50
-	"Philipp #1" = 30
+	"Philipp #0" = 30
 	"August Georg #0" = 20
 	"Eduard Fortunat #0" = 20
 	"Ernst Friedrich #0" = 20
 	"Georg Friedrich #0" = 20
 	"Karl Friedrich #0" = 20
-	"Ludwig #0" = 20
-	"Ludwig Georg #0" = 20
-	"Ludwig Wilhelm #0" = 20
+	"Ludwig Georg #1" = 20
+	"Ludwig Wilhelm #1" = 20
 	"Philibert #0" = 20
 	"Wilhelm #0" = 20
 	"Ferdinand Maximilian #0" = 15
@@ -58,7 +70,7 @@ monarch_names = {
 	"Karl Ludwig #0" = 15
 	"Leopold Wilhelm #0" = 15
 	"Wilhelm Georg #0" = 15
-	"Rudolf #4" = 10
+	"Rudolf #0" = 10
 	"Albrecht #0" = 10
 	"Albrecht Karl #0" = 10
 	"Christoph Gustav #0" = 10
@@ -76,6 +88,7 @@ monarch_names = {
 	"Oskar #0" = 0
 	"Wolfram #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Aurora #0" = -1
 	"Dorothea #0" = -1
 	"Henriette #0" = -1

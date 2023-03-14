@@ -36,6 +36,10 @@ historical_units = {
 
 #generic Swabian, taken from Wurttemberg and tweaked
 monarch_names = {
+	# RP RULER NAMES
+	"Ernst #1" = 20
+
+	# RANDOM NAMES - MALE
 	"Eberhard #0" = 100
 	"Ulrich #0" = 60
 	"Ludwig #0" = 50
@@ -77,6 +81,7 @@ monarch_names = {
 	"Siegbert #0" = 0
 	"Tobias #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Renata #0" = -1
 	"Sieglinde #0" = -1
 	"Ulrike #0" = -1

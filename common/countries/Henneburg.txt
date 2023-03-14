@@ -36,6 +36,12 @@ historical_units = {
 
 #generic franconian taken from wurzburg this is hell
 monarch_names = {
+	# RP RULER NAMES
+	"Liutbrand #1" = 20
+	"Dieter #1" = 20
+	"Adela #1" = -1
+
+	# RANDOM NAMES - MALE
 	"Johann #0" = 60
 	"Konrad #0" = 40
 	"Johann Gottfried #0" = 40
@@ -77,6 +83,7 @@ monarch_names = {
 	"Christian #0" = 0
 	"Jürgen #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Regine #0" = -1
 	"Salome #0" = -1
 	"Thora #0" = -1

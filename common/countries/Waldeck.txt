@@ -36,14 +36,26 @@ historical_units = {
 
 #generic Hessian, taken from Hesse and tweaked
 monarch_names = {
+	# RP RULER NAMES
+	"Hermann #1" = 20
+	"Bernhard #2" = 20
+	"Magnus #2" = 20
+	"Banzleib #1" = 10
+	"Kopke #1" = 10
+	"Volkwin #1" = 10
+	"Heinrich #3" = 60
+	"Theodorich #1" = 10
+	"Ludwig #1" = 40
+	"Radke #1" = 10
+	"Jutta #1" = -1
+	"Hoger #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Wilhelm #0" = 170
-	"Ludwig #0" = 40
 	"Friedrich #0" = 40
-	"Hermann #0" = 20
 	"Karl #0" = 20
 	"Moritz #0" = 20
 	"Philipp #0" = 20
-	"Heinrich #0" = 15
 	"Otto #0" = 15
 	"Adolf #0" = 10
 	"Christian #0" = 10
@@ -77,6 +89,7 @@ monarch_names = {
 	"Werner #0" = 0
 	"Wolfram #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Corinna #0" = -1
 	"Else #0" = -1
 	"Hedwig #0" = -1

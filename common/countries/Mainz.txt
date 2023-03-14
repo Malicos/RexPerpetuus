@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 178  145  87 }
-revolutionary_colors = { 5 0 5 }
 
 historical_idea_groups = {
 	religious_ideas
@@ -35,12 +34,19 @@ historical_units = {
 }
 
 monarch_names = {
-	"Albrecht #1" = 40
-	"Konrad #2" = 20
-	"Adolf #1" = 20
-	"Johann #1" = 20
-	"Anselm Franz #0" = 20
-	"Anselm Kasimir #0" = 20
+	# RP RULER NAMES
+	"Anselm #1" = 20
+	"Emrico #1" = 20
+	"Philipp #1" = 20
+	"Radbot #1" = 20
+
+	# RANDOM NAMES - MALE
+	"Albrecht #0" = 40
+	"Konrad #0" = 20
+	"Adolf #0" = 20
+	"Johann #0" = 20
+	"Anselm Franz #1" = 20
+	"Anselm Kasimir #1" = 20
 	"Berthold #0" = 20
 	"Damian Hartrad #0" = 20
 	"Daniel Brendel #0" = 20
@@ -59,23 +65,24 @@ monarch_names = {
 	"Karl Theodor #0" = 20
 	"Lothar Franz #0" = 20
 	"Lothar Friedrich #0" = 20
-	"Philipp Karl #0" = 20
+	"Philipp Karl #1" = 20
 	"Sebastian #0" = 20
 	"Uriel #0" = 20
 	"Wolfgang #0" = 20
-	"Heinrich #3" = 10
-	"Ludwig #1" = 15
-	"Matthias #1" = 15
-	"Peter #1" = 15
-	"Christian #3" = 10
-	"Siegfried #3" = 10
-	"Gerhard #2" = 10
-	"Werner #2" = 10
+	"Heinrich #0" = 10
+	"Ludwig #0" = 15
+	"Matthias #0" = 15
+	"Peter #0" = 15
+	"Christian #0" = 10
+	"Siegfried #0" = 10
+	"Gerhard #0" = 10
+	"Werner #0" = 10
 	"Gottfried #0" = 0
 	"Hieronymus #0" = 0
 	"Markus #0" = 0
 	"Raphael #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Sylvia #0" = -1
 	"Wilhelmine #0" = -1
 	"Alexis #0" = -1

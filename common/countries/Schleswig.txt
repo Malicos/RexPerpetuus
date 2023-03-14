@@ -1,3 +1,4 @@
+#Country Name: Please see filename.
 
 graphical_culture = westerngfx
 
@@ -32,6 +33,15 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Malthe #1" = 0
+	"Oluf #1" = 10
+	"Christoffer #2" = 20
+	"Ragnfrid #1" = -1
+	"Ragnar #1" = 10
+	"Johanne #1" = -1
+
+	# RANDOM NAMES - MALE
 	"Christian #0" = 60
 	"Friedrich #0" = 60
 	"Friedrich Wilhelm #0" = 40
@@ -73,6 +83,7 @@ monarch_names = {
 	"Thomas #0" = 0
 	"Waldemar #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Ada #0" = -1
 	"Germaine #0" = -1
 	"Mathilde #0" = -1

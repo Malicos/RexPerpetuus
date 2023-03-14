@@ -32,15 +32,27 @@ historical_units = {
 }
 
 monarch_names = {
-	"Willem #5" = 40
+	# RP RULER NAMES
+	"Richer #1" = 10
+	"Berengar #1" = 10
+	"Ulrich #1" = 10
+	"Arnolf #1" = 10
+	"Koenraad #1" = 10
+	"Olivier #1" = 10
+	"Kathrijne #1" = -1
+	"Zoete #1" = -1
+	"Willem #1" = 40
+	"Bernhard #1" = 10
+	"Philipp #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Albert #0" = 20
-	"Johan #2" = 15	
+	"Johan #0" = 15	
 	"Lodewijk #0" = 15
 	"Eberhard #0" = 15
-	"Dirk #7" = 5
-	"Floris #5" = 5
-	"Jan #1" = 5
-	"Arnolf #1" = 5
+	"Dirk #0" = 5
+	"Floris #0" = 5
+	"Jan #0" = 5
 	"Adriaan #0" = 0
 	"Anton #0" = 0
 	"Barthout #0" = 0
@@ -70,8 +82,9 @@ monarch_names = {
 	"Rodolf #0" = 0
 	"Roeland #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Jakoba #0" = -15
-	"Margaretha #1" = -10
+	"Margaretha #0" = -10
 	"Isabella #0" = -1
 	"Johanna #0" = -1
 	"Maria #0" = -1
