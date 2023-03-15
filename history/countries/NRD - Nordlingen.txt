@@ -6,8 +6,8 @@ fixed_capital = 4711 #Cannot move capital away from this province & no power cos
 
 #Government
 government_rank = 1
-government = republic
-add_government_reform = free_city
+government = monarchy
+add_government_reform = feudalism_reform
 
 #Demographics
 primary_culture = swabian
@@ -17,12 +17,15 @@ religion = catholic
 technology_group = western
 
 #History
-1399.1.1 = {
+1426.10.25 = {
 	monarch = {
-		name = "Stadtrat"
-		adm = 3
+		name = "Wolfgang II"
+		dynasty = "Rapotonen"
+		adm = 2
 		dip = 3
-		mil = 3
-		regent = yes
+		mil = 2
+		birth_date = 1405.7.21
+		religion = catholic
+		culture = swabian
 	}
 }

@@ -1,53 +1,22 @@
 government = monarchy
 add_government_reform = feudalism_reform
+government_rank = 1
 primary_culture = bavarian
 religion = catholic
 technology_group = western
 capital = 65	# München!
-government_rank = 1
 
-#ck3: check inauguration date
-1444.11.11 = {
+1441.12.18 = {
 	monarch = {
-		name = "Dietrich"
-		dynasty = "von Bogen"
+		name = "Philipp V"
+		dynasty = "Billung"
 		adm = 3
-		dip = 4
-		mil = 4
-		birth_date = 1399.6.27
+		dip = 2
+		mil = 5
+		birth_date = 1390.5.19
 		religion = catholic
 		culture = bavarian
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = silver_tongue_personality
-	queen = {
-		name = "Thordis"
-		dynasty = "Normandie-Eu"
-		adm = 4
-		dip = 3
-		mil = 4
-		country_of_origin = NRM
-		birth_date = 1398.10.30
-		death_date = 1458.10.30
-		female = yes
-		religion = catholic
-		culture = normand
-	}
-	add_queen_personality = tactical_genius_personality
-	add_queen_personality = well_connected_personality
-	heir = {
-		name = "Elisabeth"
-		monarch_name = "Elisabeth"
-		dynasty = "von Bogen"
-		adm = 4
-		dip = 5
-		mil = 6
-		birth_date = 1416.5.24
-		death_date = 1481.5.24
-		female = yes
-		religion = catholic
-		culture = bavarian
-	}
-	add_heir_personality = free_thinker_personality
-	add_heir_personality = tolerant_personality
 }

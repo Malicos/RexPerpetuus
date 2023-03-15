@@ -3,7 +3,6 @@
 #Political Situation
 capital = 8444
 fixed_capital = 8444 #Cannot move capital away from this province & no power cost to move to it
-historical_friend = MBZ #the abbess was from house Montfort and left it to a cousin from the same house
 
 #Government
 government_rank = 1
@@ -18,10 +17,10 @@ religion = catholic
 technology_group = western
 
 #History
-1426.1.1 = {
+1426.9.10 = {
 	monarch = {
-		name = "Klara von Montfort"
-		birth_date = 1385.1.1
+		name = "Klara"
+		birth_date = 1400.10.12
 		female = yes
 		adm = 3
 		dip = 3

@@ -5,3 +5,17 @@ technology_group = western
 primary_culture = slovene
 religion = catholic
 capital = 129	# Carniola
+fixed_capital = 129 # Cannot move capital away from this province & no power cost to move to it
+
+1438.5.22 = {
+	monarch = {
+		name = "Ulfo"
+		dynasty = "von Weimar"
+		adm = 1
+		dip = 1
+		mil = 3
+		birth_date = 1436.6.2
+		religion = catholic
+		culture = bavarian
+	}
+}

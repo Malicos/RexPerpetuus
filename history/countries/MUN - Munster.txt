@@ -6,3 +6,13 @@ religion = catholic
 technology_group = western
 capital = 86	# Münster
 fixed_capital = 86 # Cannot move capital away from this province & no power cost to move to it
+
+1426.3.4 = {
+	monarch = {
+		name = "Boson"
+		birth_date = 1375.1.23
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

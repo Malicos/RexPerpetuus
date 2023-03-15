@@ -1,7 +1,19 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 1
 primary_culture = hannoverian
 religion = catholic
 technology_group = western
-capital = 81	# Kassel
+capital = 82	# Arnsberg
+
+1433.5.27 = {
+	monarch = {
+		name = "Meinhard"
+		adm = 3
+		dip = 4
+		mil = 4
+		birth_date = 1379.1.31
+		religion = catholic
+		culture = hannoverian
+	}
+}

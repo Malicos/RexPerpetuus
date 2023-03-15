@@ -17,10 +17,10 @@ religion = catholic
 technology_group = western
 
 #History
-1444.1.1 = {
+1420.8.13 = {
 	monarch = {
-		name = "Johann von Eych"
-		birth_date = 1385.1.1
+		name = "Friedrich"
+		birth_date = 1395.3.16
 		adm = 3
 		dip = 3
 		mil = 1

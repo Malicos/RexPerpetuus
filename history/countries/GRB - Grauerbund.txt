@@ -2,8 +2,6 @@
 
 #Political Situation
 capital = 4722
-historical_friend = ZGB
-historical_friend = GHB
 
 #Government
 government_rank = 1

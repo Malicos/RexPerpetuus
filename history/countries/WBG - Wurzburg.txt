@@ -1,8 +1,21 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 primary_culture = franconian
 religion = catholic
 capital = 79	# Würzburg
 fixed_capital = 79 # Cannot move capital away from this province & no power cost to move to it
+
+1426.9.18 = {
+	monarch = {
+		name = "Johann"
+		dynasty = "von Sayn"
+		adm = 4
+		dip = 2
+		mil = 4
+		birth_date = 1406.9.15
+		religion = catholic
+		culture = franconian
+	}
+}

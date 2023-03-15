@@ -17,26 +17,15 @@ religion = catholic
 technology_group = western
 
 #History
-1417.1.1 = {
+1423.9.17 = {
 	monarch = {
-		name = "Friedrich IV"
-		dynasty = "von Mörs"
-		birth_date = 1377.1.1
-		adm = 4
-		dip = 6 #brothers are bishops of Cologne, Ulster and Munster
-		mil = 2
-	}
-}
-1444.1.1 = {
-	heir = {
-		name = "Friedrich"
-		monarch_name ="Friedrich V"
-		dynasty = "von Mörs"
-		birth_date = 1414.1.1
-		death_Date = 1493.1.1
-		claim = 95
+		name = "Otto III"
+		dynasty = "von Sayn"
 		adm = 3
-		dip = 2
-		mil = 2
+		dip = 1
+		mil = 4
+		birth_date = 1393.1.30
+		religion = catholic
+		culture = dutch
 	}
 }

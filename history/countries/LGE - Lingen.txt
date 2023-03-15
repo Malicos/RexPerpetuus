@@ -1,54 +1,20 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
+government = republic
+add_government_reform = free_city
 government_rank = 1
+mercantilism = 25
 technology_group = western
 religion = catholic
 primary_culture = dutch
 add_accepted_culture = hannoverian
-capital = 98	# Utrecht
-fixed_capital = 98 # Cannot move capital away from this province & no power cost to move to it
+capital = 8403 # Lingen
+fixed_capital = 8403 # Cannot move capital away from this province & no power cost to move to it
 
-#ck3: check inauguration
-1444.11.11= {
+1440.1.1 = {
 	monarch = {
-		name = "Willem"
-		dynasty = "Otakeren"
+		name = "Stadtrat"
 		adm = 3
 		dip = 3
-		mil = 4
-		birth_date = 1391.6.30
-		religion = catholic
-		culture = dutch
+		mil = 3
+		regent = yes
 	}
-	add_ruler_personality = charismatic_negotiator_personality
-	add_ruler_personality = intricate_web_weaver_personality
-	queen = {
-		name = "Irmeltrud"
-		dynasty = "von Sayn"
-		adm = 3
-		dip = 5
-		mil = 4
-		country_of_origin = PAL
-		birth_date = 1390.9.11
-		death_date = 1450.9.11
-		female = yes
-		religion = catholic
-		culture = hessian
-	}
-	add_queen_personality = cruel_personality
-	add_queen_personality = martial_educator_personality
-	heir = {
-		name = "Willem"
-		monarch_name = "Willem II"
-		dynasty = "Otakeren"
-		adm = 6
-		dip = 5
-		mil = 6
-		birth_date = 1420.6.9
-		death_date = 1485.6.9
-		religion = catholic
-		culture = dutch
-	}
-	add_heir_personality = pious_personality
-	add_heir_personality = righteous_personality
 }
