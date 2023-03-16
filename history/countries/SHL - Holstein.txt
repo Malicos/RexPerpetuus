@@ -7,47 +7,16 @@ religion = catholic
 technology_group = western
 capital = 1775	# Kiel
 
-#ck3: check inauguration
-1444.11.11= {
+1442.2.18 = {
 	monarch = {
-		name = "Dietmar"
+		name = "Andaberta"
 		dynasty = "von Beetzen"
-		adm = 4
-		dip = 2
-		mil = 4
-		birth_date = 1411.5.7
+		adm = 1
+		dip = 3
+		mil = 3
+		birth_date = 1405.2.6
 		religion = catholic
 		culture = saxon
-	}
-	add_ruler_personality = just_personality
-	add_ruler_personality = strict_personality
-	queen = {
-		name = "Adalgisa"
-		dynasty = "Lucca-Spoleto"
-		adm = 6
-		dip = 4
-		mil = 5
-		country_of_origin = PIS
-		birth_date = 1410.9.27
-		death_date = 1470.9.27
 		female = yes
-		religion = catholic
-		culture = tuscan
 	}
-	add_queen_personality = drunkard_personality
-	add_queen_personality = tactical_genius_personality
-	heir = {
-		name = "Otakar"
-		monarch_name = "Otakar"
-		dynasty = "von Beetzen"
-		adm = 4
-		dip = 5
-		mil = 4
-		birth_date = 1430.1.16
-		death_date = 1495.1.16
-		religion = catholic
-		culture = saxon
-	}
-	add_heir_personality = bold_fighter_personality
-	add_heir_personality = pious_personality
 }

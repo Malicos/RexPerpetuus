@@ -4,9 +4,10 @@
 capital = 8286
 
 #Government
+government = republic
+add_government_reform = free_city
 government_rank = 1
-government = monarchy
-add_government_reform = feudalism_reform
+mercantilism = 25
 
 #Demographics
 primary_culture = thuringian
@@ -16,40 +17,12 @@ religion = catholic
 technology_group = western
 
 #History
-1444.1.1 = {
+1440.1.1 = {
 	monarch = {
-		name = "Heinrich"
-		monarch_name = "Heinrich XXI"
-		dynasty = "von Schwarzburg"
-		birth_date = 1418.1.1
-		adm = 4
-		dip = 2
-		mil = 2
-	}
-}
-1439.1.2 = {
-	heir = {
-		name = "Gunther"
-		monarch_name ="Gunther XX"
-		dynasty = "von Schwarzburg"
-		birth_date = 1439.1.1
-		death_Date = 1503.1.1
-		claim = 95
+		name = "Stadtrat"
 		adm = 3
 		dip = 3
 		mil = 3
-	}
-}
-1476.1.1 = {
-	monarch = {
-		name = "Gunther"
-		monarch_name ="Gunther XX"
-		dynasty = "von Schwarzburg"
-		birth_date = 1439.1.1
-		death_Date = 1503.1.1
-		claim = 95
-		adm = 3
-		dip = 3
-		mil = 3
+		regent = yes
 	}
 }

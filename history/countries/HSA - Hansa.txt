@@ -6,6 +6,7 @@ technology_group = western
 religion = catholic
 primary_culture = saxon
 capital = 45	# Lübeck
+fixed_capital = 45
 
 1444.11.11 = {
 	monarch = {

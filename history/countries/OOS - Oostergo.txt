@@ -1,39 +1,20 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = free_city
 government_rank = 1
+mercantilism = 25
 technology_group = western
 religion = catholic
 primary_culture = dutch
 add_accepted_culture = frisian
-capital = 4383 #Haag
+capital = 8119
+fixed_capital = 8119
 
-#ck3: check inauguration
-1444.11.11= {
+1440.1.1 = {
 	monarch = {
-		name = "Cille"
-		dynasty = "Boulogne-Haarlem"
-		adm = 5
-		dip = 5
-		mil = 4
-		birth_date = 1419.9.7
-		female = yes
-		religion = catholic
-		culture = dutch
-	}
-	add_ruler_personality = cruel_personality
-	add_ruler_personality = tactical_genius_personality
-	queen = {
-		name = "Ruprecht"
-		dynasty = "Nordheim-Kufstein"
+		name = "Gemeenteraad"
 		adm = 3
-		dip = 4
-		mil = 4
-		country_of_origin = TIR
-		birth_date = 1420.7.26
-		death_date = 1480.7.26
-		religion = catholic
-		culture = austrian
+		dip = 3
+		mil = 3
+		regent = yes
 	}
-	add_queen_personality = strict_personality
-	add_queen_personality = tolerant_personality
 }

@@ -1,8 +1,21 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = thuringian
+primary_culture = markish
 religion = catholic
 technology_group = western
 capital = 52	# Magdeburg
 fixed_capital = 52 # Cannot move capital away from this province & no power cost to move to it
+
+1423.12.26 = {
+	monarch = {
+		name = "Wolfram"
+		dynasty = "von Gommern"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1399.4.20
+		religion = catholic
+		culture = markish
+	}
+}

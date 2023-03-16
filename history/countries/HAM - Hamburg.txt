@@ -7,9 +7,6 @@ religion = catholic
 primary_culture = saxon
 capital = 44	# Hamburg
 fixed_capital = 44 # Cannot move capital away from this province & no power cost to move to it
-historical_friend = HSA #Lübeck
-historical_friend = BRE #Bremen
-historical_friend = RIG #Riga
 
 1399.1.1 = {
 	monarch = {
@@ -20,7 +17,3 @@ historical_friend = RIG #Riga
 		regent = yes
 	}
 }
-
-1529.1.1 = { religion = protestant }
-
-1529.1.1 = { set_legacy_government = administrative_republic }

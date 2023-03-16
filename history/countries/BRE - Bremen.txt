@@ -1,26 +1,19 @@
-#lom: archbishopic
-government = republic
-add_government_reform = free_city
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 1
-mercantilism = 25
 technology_group = western
 religion = catholic
 primary_culture = saxon
 capital = 1874	# Bremen
-historical_friend = HSA #Lübeck
-historical_friend = HAM #Hamburg
-historical_friend = RIG #Riga
 
-1444.11.11 = {
+1412.8.8 = {
 	monarch = {
-		name = "Stadtrat"
-		adm = 3
-		dip = 3
+		name = "Heinrich"
+		adm = 2
+		dip = 2
 		mil = 3
-		regent = yes
+		birth_date = 1385.2.25
+		religion = catholic
+		culture = saxon
 	}
 }
-
-1532.1.1 = { religion = protestant }
-
-1806.7.12 = { set_legacy_government = administrative_republic }
