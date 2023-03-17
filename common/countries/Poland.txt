@@ -36,12 +36,24 @@ historical_units = {
 }
 
 monarch_names = {
-	"August #1" = 60
-	"Wladyslaw #3" = 60
+	# RP RULER NAMES
+	"Mieszko #1" = 10
+	"Boleslaw #2" = 20
+	"Swietoslaw #1" = 10
+	"Piotr #1" = 10
+	"Karol #1" = 10
+	"Henryk #3" = 60
+	"Zwienislawa #1" = -1
+	"Sedziej #1" = 10
+	"Kazimierz #3" = 60
+	"Konrad #2" = 20
+	"Zbigniew #2" = 20
+
+	# RANDOM NAMES - MALE
+	"August #0" = 60
+	"Wladyslaw #0" = 60
 	"Stanislaw #0" = 40
-	"Kazimierz #3" = 20
 	"Aleksander #0" = 20
-	"Henryk #0" = 20
 	"Jan #0" = 20
 	"Jan #0 Olbracht" = 20
 	"Jan #0 Kazimierz" = 20
@@ -54,7 +66,7 @@ monarch_names = {
 	"Krzysztof #0" = 10
 	"Fryderyk #0" = 10
 	"Jan #0 Zygmunt" = 10
-	"Karol #0 Ferdynand" = 10
+	"Karol #1 Ferdynand" = 10
 	"Olbracht #0" = 10
 	"Albert #0" = 0
 	"Aleksy #0" = 0
@@ -77,7 +89,6 @@ monarch_names = {
 	"Lukasz #0" = 0
 	"Maksym #0" = 0
 	"Mariusz #0" = 0
-	"Mieszko #3" = 0
 	"Miroslaw #0" = 0
 	"Oskar #0" = 0
 	"Patryk #0" = 0
@@ -85,7 +96,9 @@ monarch_names = {
 	"Sylwester #0" = 0
 	"Szymon #0" = 0
 	"Zygfryd #0" = 0
-	"Jadwiga #1" = -1
+	
+	# RANDOM NAMES - FEMALE
+	"Jadwiga #0" = -1
 	"Anna #0" = -1
 	"Katarzyna #0" = -1
 }
