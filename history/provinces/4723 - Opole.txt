@@ -1,8 +1,7 @@
 #4723 - Opole
 
-owner = USL
-controller = USL
-add_core = USL
+owner = OPL
+controller = OPL
 add_core = OPL
 culture = schlesian
 religion = catholic

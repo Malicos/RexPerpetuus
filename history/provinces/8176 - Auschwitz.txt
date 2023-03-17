@@ -5,8 +5,8 @@
 #Core Details
 capital = "Oswiecim"
 is_city = yes
-owner = USL
-controller = USL
+owner = OPL
+controller = OPL
 
 #Demographics
 culture = schlesian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = USL
+add_core = OPL
 add_core = ASC
 
 #Other Political
