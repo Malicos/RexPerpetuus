@@ -1,14 +1,15 @@
-government = republic
-add_government_reform = oligarchy_reform #administrative_republic #Ain't a thing any more.
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = frisian
 religion = catholic
 technology_group = western
 capital = 100	# Groningen
 
-1444.11.11= {
+1424.5.6= {
 	monarch = {
-		name = "Douwe Fezenzaguet"
+		name = "Douwe II"
+		dynasty = "de Fezenzaguet"
 		adm = 3
 		dip = 5
 		mil = 4
