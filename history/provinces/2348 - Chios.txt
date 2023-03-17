@@ -1,8 +1,8 @@
 #2348 - Chios
 
-owner = PIS
-controller = PIS
-add_core = PIS
+owner = VEN
+controller = VEN
+add_core = VEN
 culture = dodecanesian
 religion = orthodox
 capital = "Chio"

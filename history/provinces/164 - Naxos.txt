@@ -1,8 +1,8 @@
 #164 - Naxos
 
-owner = PIS
-controller = PIS
-add_core = PIS
+owner = VEN
+controller = VEN
+add_core = VEN
 add_core = NAX
 culture = dodecanesian
 religion = orthodox

@@ -1,8 +1,8 @@
 #4700 - Lesbos
 
-owner = PIS
-controller = PIS
-add_core = PIS
+owner = VEN
+controller = VEN
+add_core = VEN
 add_core = LES
 culture = dodecanesian
 religion = orthodox

@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = PIS
-controller = PIS
-add_core = PIS
+owner = VEN
+controller = VEN
+add_core = VEN
 add_core = MOE
 culture = morean
 religion = orthodox
