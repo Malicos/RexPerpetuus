@@ -5,8 +5,8 @@
 #Core Details
 capital = "Senftenburg"
 is_city = yes
-owner = SOR
-controller = SOR
+owner = LUS
+controller = LUS
 
 #Demographics
 culture = sorbian
@@ -20,7 +20,7 @@ trade_goods = grain
 latent_trade_goods = { coal }
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SOR
+add_core = LUS
 
 #Other Political
 hre = yes

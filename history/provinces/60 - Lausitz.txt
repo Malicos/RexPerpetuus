@@ -1,9 +1,9 @@
  
 #60 - Lausitz
 
-owner = SOR
-controller = SOR
-add_core = SOR
+owner = LUS
+controller = LUS
+add_core = LUS
 capital = "Bautzen"
 culture = sorbian
 religion = catholic

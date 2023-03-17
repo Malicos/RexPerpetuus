@@ -21,7 +21,7 @@ trade_goods = naval_supplies
 
 #Cores and Occupation (Alphabetical after current)
 add_core = JRB
-add_core = SOR
+add_core = LUS
 
 #Other Political
 hre = yes
