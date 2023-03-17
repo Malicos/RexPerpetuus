@@ -70,7 +70,8 @@
  ####Germanic####
  ###Nordic###
  faroese:0 "Norn"
- ###Continental Germanic###
+ ###Teutonic###
+ germanic:0 "Teutonic"
  swabian:0 "Allemanic" 
  hessian:0 "High Rhenish"
  pommeranian:0 "Mecklenburger"

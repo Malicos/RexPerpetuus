@@ -129,7 +129,7 @@ zzzignore106 = {}
 zzzignore107 = {}
 zzzignore108 = {}
 
-germanic = {
+germanic = { #RP Renamed to Teutonic
 	graphical_culture = westerngfx
 
 	male_names = { Gunther Rolf }
