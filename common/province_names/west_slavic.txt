@@ -584,6 +584,7 @@
 3217 = "Starogród"
 
 ##Kingdom of Poland
+257 = { "Goclaw" "Goclaw" }	# RP
 
 #Krakow
 3220 = { "Czestochowa" "Czestochowa" }
