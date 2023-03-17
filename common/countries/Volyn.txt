@@ -1,7 +1,6 @@
 graphical_culture = easterngfx
 
-color = { 10 69 106 }
-revolutionary_colors = { 13 5 8 }
+color = { 174 73 43 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -48,16 +47,32 @@ leader_names = {
 }
 
 monarch_names = {
-	"Vasiliy #1" = 5
-	"Ivan #0" = 0
+	# RP RULER NAMES
+	"Volodar #1" = 10
+	"Ivan #1" = 10
+	"Volodymyrko #1" = 10
+	"Vasyiliy #1" = 10
+	"Demid #1" = 10
+	"Putiata #2" = 20
+	"Yekaterina #1" = -1
+	"Viacheslav #1" = 10
+	"Vseslav #1" = 10
+	"Gremislava #1" = -1
+	"Vysheslav #1" = 10
+	"Svetozar #1" = 10
+	"Konstantin #1" = 10
+	"Oleg #2" = 10
+
+	# RANDOM NAMES - MALE
+	"Vasiliy #0" = 5
 	"Dmitriy #0" = 0
-	"Yuriy #1" = 5
-	"Andrei #2" = 10
+	"Yuriy #0" = 5
+	"Andrei #0" = 10
 	"Semen #0" = 0
 	"Fyodor #0" = 0
 	"Afanasiy #0" = 0
 	"Akim #0" = 0
-	"Aleksandr #2" = 5
+	"Aleksandr #0" = 5
 	"Alexei #0" = 0
 	"Anatoliy #0" = 0
 	"Arkadiy #0" = 0
@@ -75,7 +90,6 @@ monarch_names = {
 	"Mikhail #0" = 0
 	"Nazariy #0" = 0
 	"Nikifor #0" = 0
-	"Oleg #0" = 0
 	"Onisim #0" = 0
 	"Pavel #0" = 0
 	"Prokopiy #0" = 0
@@ -87,21 +101,22 @@ monarch_names = {
 	"Valeriy #0" = 0
 	"Yakim #0" = 0
 	"Yevgeniy #0" = 0
-	"Vladimir-Ivan #1" = 5
-	"Vladimir #2" = 70
-	"Vsevolod #3" = 20
-	"Igor #1" = 5
-	"Rostislav #1" = 5
-	"Yaroslav #2" = 10
-	"Yaropolk #1" = 5
-	"Davyd #1" = 5
-	"Mstislav #3" = 10
-	"Roman #2" = 5
-	"Izyaslav #1" = 5
-	"Svyatoslav #4" = 5
-	"Svyatopolk #1" = 5
-	"Lev #1" = 0
+	"Vladimir-Ivan #0" = 5
+	"Vladimir #0" = 70
+	"Vsevolod #0" = 20
+	"Igor #0" = 5
+	"Rostislav #0" = 5
+	"Yaroslav #0" = 10
+	"Yaropolk #0" = 5
+	"Davyd #0" = 5
+	"Mstislav #0" = 10
+	"Roman #0" = 5
+	"Izyaslav #0" = 5
+	"Svyatoslav #0" = 5
+	"Svyatopolk #0" = 5
+	"Lev #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Agafya #0" = -1
 	"Svetlana #0" = -1
 	"Yuliya #0" = -1
