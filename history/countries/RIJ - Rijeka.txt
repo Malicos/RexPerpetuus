@@ -1,10 +1,19 @@
-government = monarchy
-add_government_reform = feudalism_reform
-primary_culture = austrian
-add_accepted_culture = croatian
+government = republic
+add_government_reform = merchants_reform
+government_rank = 1
+mercantilism = 25
+primary_culture = croatian
 religion = catholic
 technology_group = western
 capital = 4752
+fixed_capital = 4752
 
-
-#Incomplete
+1444.11.11 = {
+      monarch = {
+           name = "Vijece"
+           adm = 3
+           dip = 3
+           mil = 2
+           regent = yes
+      }
+}
