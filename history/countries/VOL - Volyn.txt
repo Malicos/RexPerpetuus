@@ -1,7 +1,20 @@
 government = monarchy
 add_government_reform = feudalism_reform
+government_rank = 1
 technology_group = eastern
 religion = catholic
 primary_culture = halych
-capital = 261	# halych
-add_accepted_culture = cherven
+capital = 4538 # Cherven
+
+1437.4.14 = {
+	monarch = {
+		name = "Oleg II"
+		dynasty = "Betula"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1400.9.15
+		religion = catholic
+		culture = halych
+	}
+}
