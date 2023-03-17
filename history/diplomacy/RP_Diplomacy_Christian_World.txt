@@ -828,10 +828,10 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# Poland and Upper Silesia
+# Poland and Opole
 vassal = {
 	first = POL
-	second = USL
+	second = OPL
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
