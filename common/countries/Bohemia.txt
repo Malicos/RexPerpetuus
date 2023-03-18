@@ -36,14 +36,43 @@ historical_units = {
 }
 
 monarch_names = {
-	"Václav #4" = 50
+	# RP RULER NAMES
+	"Vratislav #1" = 5
+	"Svatobor #1" = 10
+	"Radosta #1" = 10
+	"Letoslav #1" = 10
+	"Matous #1" = 10
+	"Konrad #1" = 10
+	"Nemoj #1" = 10
+	"Jaromír #2" = 20
+	"Otakar #1" = 10
+	"Boleslav #2" = 20
+	"Jindrich #1" = 5
+	"Borut #1" = 5
+	"Premysl #1" = 5
+	"Tobias #1" = 5
+	"Václav #2" = 20
+	"Budislav #1" = 10
+	"Detrich #3" = 60
+	"Jakub #1" = 10
+	"Neusa #2" = 20
+	"Dalimil #2" = 20
+	"Eustathios #1" = 0
+	"Jetrich #1" = 5
+	"Odolen #1" = 5
+	"Bedrich #1" = 5
+	"Pelhrim #1" = 5
+	"Vnislav #1" = 5
+	"Bohuslav #2" = 20
+	"Drslav #1" = 5
+	"Bretislav #4" = 60
+
+	# RANDOM NAMES - MALE
 	"Jirí #0" = 25
-	"Karel #5" = 40
-	"Premysl #0" = 10
-	"Premysl Otakar #3" = 25
+	"Karel #0" = 40
+	"Premysl Otakar #0" = 25
 	"Zikmund #0" = 0
 	"Frantisek #0" = 0
-	"Jindrich #0" = 5
 	"Josef #0" = 5
 	"Frantisek Josef #0" = 0
 	"Bocek #0" = 0
@@ -59,13 +88,11 @@ monarch_names = {
 	"Karel Josef #0" = 0
 	"Matyáš #0" = 0
 	"Ferdinand #0" = 5
-	"Otakar #0" = 10
-	"Vratislav #3" = 5
-	"Boleslav #4" = 10
 	"Vilém #0" = 5
 	"Viktor #0" = 0
-	"Jaromír #0" = 5
 	"Jaroslav #0" = 1
+	
+	# RANDOM NAMES - FEMALE
 	"Anezka #0" = -1
 	"Eliska #0" = -1
 	"Katerina #0" = -1
