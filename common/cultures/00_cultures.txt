@@ -3235,11 +3235,49 @@ west_slavic = {
 	polabian_culture = {
 		graphical_culture = westerngfx
 		primary = RUG
+		# NOTE: Rework with actual conlang
+		male_names = {
+			Aleksander Andrzej Antoni Aron Barnim Bedrich Blazej Blus Bogislav Bohdan Bohumir Boles;aw Borivoj Bozydar Branimir Branislav
+			Bretislav Budivoj Burislav Czcibor Czimislav Dervan Dobieslav Dobromil Drosuk Dytryk Frantisek Gawel Grzegorz Havel Henry Jacenty Jakub Jakusz Janusz Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Jozef Juliusz Kajetan Kamil Karel Kasimir Kasper Kliment Kolman Kornel Kresimir Krzeslaw
+			Kruto Krzysztof Lech Leszek Lubomir Lucjan Ludvik Marek Marian Martin Mateusz Mieszko Miliduch Miloslav Milosz Miroslav Mscislaw Mstivoj
+			Niklot Nikolaus Oldrich Ondrej Otokar Patryk Pawel Petrus Piotr Prendota Pribignev Pribislav Przemysl Przybyslaw Radomil Radomir Radoslav Ratibor Rostislav Ryszard Sambor Sobieslav Stanislav
+			Strasz Swietopelk Svietoslav Szczepan Szczesny Szymon Tadeusz Tetzlav Tomasz Udalrich Urjasz Vojtech Vaclav Vratislav Vitslav Walenty Wertislav Wawrzyniec Venceslav
+			Wincenty Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Vratislav Zbigniew Zdenek Zdislav Zygmunt
+		}
+		female_names = {
+			Agnieszka Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobrava Dobroniega Dobroslava Dorota Dragomira Edyta Eva Geira Gertruda
+			Gracja Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Kamila Katarina Kenna Kornelia Krystyna Ksenia Lidia
+			Ludmila Magda Magdalena Marcelina Maria Martyna Mateja Matylda Milena Miroslava Pechna Roza Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Svetlana Ursula Vaclava Vera Vladislava Woislava Zdenka Zofia Zvinislava
+		}
+		dynasty_names = {
+			Obroditen Gryfita Swieca Grzymala Jastrzebiec Lodzia Lubicz Nalecz Gniewosz "z Roztoki" "ze Slupska"
+		}
 	}
 	#BtPLegacy Culture
 	kashubian_culture = {
 		graphical_culture = westerngfx
 		#primary = XXX
+		# NOTE: Rework with actual Kashubian dialect
+		male_names = {
+			Aleksander Andrzej Antoni Aron Barnim Bedrich Blazej Blus Bogislav Bohdan Bohumir Boles;aw Borivoj Bozydar Branimir Branislav
+			Bretislav Budivoj Burislav Czcibor Czimislav Dervan Dobieslav Dobromil Drosuk Dytryk Frantisek Gawel Grzegorz Havel Henry Jacenty Jakub Jakusz Janusz Jaromar
+			Jaromil Jaromir Jaroslav Jedrzej Jindrich Jozef Juliusz Kajetan Kamil Karel Kasimir Kasper Kliment Kolman Kornel Kresimir Krzeslaw
+			Kruto Krzysztof Lech Leszek Lubomir Lucjan Ludvik Marek Marian Martin Mateusz Mieszko Miliduch Miloslav Milosz Miroslav Mscislaw Mstivoj
+			Niklot Nikolaus Oldrich Ondrej Otokar Patryk Pawel Petrus Piotr Prendota Pribignev Pribislav Przemysl Przybyslaw Radomil Radomir Radoslav Ratibor Rostislav Ryszard Sambor Sobieslav Stanislav
+			Strasz Swietopelk Svietoslav Szczepan Szczesny Szymon Tadeusz Tetzlav Tomasz Udalrich Urjasz Vojtech Vaclav Vratislav Vitslav Walenty Wertislav Wawrzyniec Venceslav
+			Wincenty Wizlaw Wladyslaw Wlodek Wlodzimierz Wlodzislaw Vratislav Zbigniew Zdenek Zdislav Zygmunt
+		}
+		female_names = {
+			Agnieszka Alzbeta Andela Anna Berta Bohuslava Bozena Branislava Dagmar Danuta Dobrava Dobroniega Dobroslava Dorota Dragomira Edyta Eva Geira Gertruda
+			Gracja Halina Hanna Irena Izabela Jadwiga Jarka Jarmila Jolanta Judyta Kamila Katarina Kenna Kornelia Krystyna Ksenia Lidia
+			Ludmila Magda Magdalena Marcelina Maria Martyna Mateja Matylda Milena Miroslava Pechna Roza Radomila Radomira Radoslava
+			Raina Regelinda Rycheza Salomea Smiechna Stanislava Stefana Svetlana Ursula Vaclava Vera Vladislava Woislava Zdenka Zofia Zvinislava
+		}
+		dynasty_names = {
+			Obroditen Gryfita Swieca Grzymala Jastrzebiec Lodzia Lubicz Nalecz Gniewosz "z Roztoki" "ze Slupska"
+		}
 	}
 	dynasty_names = {
 		Gryf Piast Jagiellon Wisniowiecki Sobieski Leszczynski
