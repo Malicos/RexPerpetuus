@@ -3237,7 +3237,7 @@ west_slavic = {
 		primary = RUG
 		# NOTE: Rework with actual conlang
 		male_names = {
-			Aleksander Andrzej Antoni Aron Barnim Bedrich Blazej Blus Bogislav Bohdan Bohumir Boles;aw Borivoj Bozydar Branimir Branislav
+			Aleksander Andrzej Antoni Aron Barnim Bedrich Blazej Blus Bogislav Bohdan Bohumir Boleslaw Borivoj Bozydar Branimir Branislav
 			Bretislav Budivoj Burislav Czcibor Czimislav Dervan Dobieslav Dobromil Drosuk Dytryk Frantisek Gawel Grzegorz Havel Henry Jacenty Jakub Jakusz Janusz Jaromar
 			Jaromil Jaromir Jaroslav Jedrzej Jindrich Jozef Juliusz Kajetan Kamil Karel Kasimir Kasper Kliment Kolman Kornel Kresimir Krzeslaw
 			Kruto Krzysztof Lech Leszek Lubomir Lucjan Ludvik Marek Marian Martin Mateusz Mieszko Miliduch Miloslav Milosz Miroslav Mscislaw Mstivoj
@@ -3261,7 +3261,7 @@ west_slavic = {
 		#primary = XXX
 		# NOTE: Rework with actual Kashubian dialect
 		male_names = {
-			Aleksander Andrzej Antoni Aron Barnim Bedrich Blazej Blus Bogislav Bohdan Bohumir Boles;aw Borivoj Bozydar Branimir Branislav
+			Aleksander Andrzej Antoni Aron Barnim Bedrich Blazej Blus Bogislav Bohdan Bohumir Boleslaw Borivoj Bozydar Branimir Branislav
 			Bretislav Budivoj Burislav Czcibor Czimislav Dervan Dobieslav Dobromil Drosuk Dytryk Frantisek Gawel Grzegorz Havel Henry Jacenty Jakub Jakusz Janusz Jaromar
 			Jaromil Jaromir Jaroslav Jedrzej Jindrich Jozef Juliusz Kajetan Kamil Karel Kasimir Kasper Kliment Kolman Kornel Kresimir Krzeslaw
 			Kruto Krzysztof Lech Leszek Lubomir Lucjan Ludvik Marek Marian Martin Mateusz Mieszko Miliduch Miloslav Milosz Miroslav Mscislaw Mstivoj
