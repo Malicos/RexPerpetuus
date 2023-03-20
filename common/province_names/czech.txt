@@ -396,7 +396,7 @@
 1744 = "Antverpy"
 1745 = "Kantabrie"
 1752 = "Rzev"
-1759 = "Postupim"
+1759 = "Jutribok" # RP Altname
 1760 = "Koblenc"
 1761 = "Falc"
 1765 = "Sofie"

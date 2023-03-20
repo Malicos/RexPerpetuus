@@ -354,7 +354,7 @@
 85 = { "Kolonia" "Kolonia" }
 86 = { "Monastyr" "Monastyr" }
 1758 = { "Hanower" "Hanower" }
-1759 = { "Postapin" "Postapin" } #(Heinith) Postapin with "a" not "a" is old polish historical name, Poczdam is current polish name
+1759 = { "Jutribok" "Jutribok" } #RP Altname
 1760 = { "Koblencja" "Koblencja" }
 1762 = { "Kasel" "Kasel" }
 1763 = { "Chociebuz" "Chociebuz" }
