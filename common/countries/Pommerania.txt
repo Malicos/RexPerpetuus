@@ -3,7 +3,6 @@
 graphical_culture = westerngfx
 
 color = { 78 49 36 }
-revolutionary_colors = { 14 0 14 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -34,17 +33,26 @@ historical_units = {
 }
 
 monarch_names = {
-	"Boguslaw #9" = 100
-	"Barnim #10" = 20
-	"Ota #3" = 20
-	"Eryk #1" = 20
-	"Filip #1" = 20
+	# RP RULER NAMES
+	"Andrzej #1" = 10
+	"Radomil #3" = 60
+	"Salomea #1" = -1
+	"Przybor #1" = 10
+	"Czyrzniech #1" = 10
+	"Pelka #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Boguslaw #0" = 100
+	"Barnim #0" = 20
+	"Ota #0" = 20
+	"Eryk #0" = 20
+	"Filip #0" = 20
 	"Franciszek #0" = 20
 	"Jan Fryderyk #0" = 20
-	"Wratislaw #5" = 20
+	"Wratislaw #0" = 20
 	"Georg #0" = 15
 	"Ulrich #0" = 15
-	"Kazimierz #5" = 10
+	"Kazimierz #0" = 10
 	"Ernest Ludwik #0" = 10
 	"Jan Ernest #0" = 10
 	"Albrecht #0" = 0
@@ -76,6 +84,7 @@ monarch_names = {
 	"Wilhelm #0" = 0
 	"Valentin #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Gabriela #0" = -1
 	"Helena #0" = -1
 	"Janina #0" = -1
@@ -85,19 +94,46 @@ monarch_names = {
 }
 
 leader_names = {
-	"von Krockows" "von Lettows" "von Peglows"
-	"von Neustreliz" "von Prenzlau" "von Strelows"
-	"von Zitzewitzes" "von Szczecin" Witt Behm
-	Beyse Kurzmann Jürgens Stellmacher Heidmann
-	Grosch Krumtum Miercke Rähl Wessel Meuseling
-	"von Wolin" "von Wolgatz"
-	"von Wolgast" "von Cammin" "von Stettin" "von Neustettin" "von Neubrandenburg" "von Rügen" "von Stolp" "von Kolberg" "von Greifswald" "von Stralsund" "von und zu Stargard"
-	"von Schwerin" "von Eickstedt" "von Ramin" "Normann" "von Borcke"
+	Arciszewski
+	Benyowski Bidzinski Branicki Bielinski Boner Brzostowski Buczacki Butler
+	Czarniecki Chometowski Cetner Chlewicki Chodecki Czapski Czarnkowski
+	Dunin Denhoff Drzewicki Dambski Dzialynski Dzieduszycki
+	Firlej Fredro
+	Grodzicki Górka Grabowski Gembicki Gosiewski Grudzinski Grzymultowski Gurowski
+	Houwaldt Herburt Hylzen
+	Jablonowski Jazlowiecki Jaroslawski Jordan Judycki
+	Kurozwecki Koniecpolski Krasinski Kalinowski Korycki Kazanowski Kmita Komorowski Kamieniecki Karnkowski Krasicki Kwilecki
+	Lubomirski Lisowski Lanckoronski Leszczynski Lacki Latalski Ligeza Lipski Lubranski
+	Malski Mniszech Matczynski Mlodziejowski Malachowski Melsztynski Mielecki Mielzynski Morsztyn Mycielski
+	Nalecz Niesiolowski
+	Olesnicki Opacki Ozarowski Ossolinski Odrowaz Oporowski Ostroróg Ostrowski
+	Paniewski Poniatowski Pulaski Przyjemski Piaseczynski Potocki Pilecki Pociej Poninski Prazmowski Przebendowski
+	Rytwianski Rzewuski Raczynski Radziejowski Rej
+	Sobieski Siemienowicz Sulkowski Stadnicki Sieniawski Sierakowski Skarbek Soltyk Szafraniec Szembek Szydlowiecki Scibor
+	Tarnowski Tarlo Teczynski Tomicki Tyzenhaus
+	Uchanski
+	Wyhowski Wielopolski Walewski Weyher Wierzbowski Wolski Wodzicki
+	Zamoyski Zebrzydowski Zacwilchowski Zborowski Zaluski
 }
 
 ship_names = {
-	Pommern "Herzog Kasimir" "Herzog Bogislaw"
-	"Stettin Herzog Barnim" Wismar Rostock
-	Stralsund Greifswald Demmin Anklam "Herzog Otto"
-	Wolgast Cammin Neustettin "Fräulein von Rügen"
+	"Arka Noego"
+        "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
+        Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
+        Fortuna
+        Gryf Gwiazda Gnieznienskie
+	Inowroclawskie
+	"Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
+        Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie
+        "Maly Bialy Orzel" Malborskie Mazowieckie
+        Niewrazliwy "Nowy Czarny Orzel"
+        "Prorok Samuel" "Panna Wodna" Plomien Poznanskie Plockie Podlaskie Podolskie
+	"Rycerz Swiety Jerzy" Rawskie Ruskie
+        Strzelec Suwerenny "Swiety Piotr" Sieradzkie Sandomierskie "Swiety Kazimierz"
+        "Wielkie Slonce" Wodnik Warminskie Wolynskie Warszawa
+        Zwyciestwo "Zólty Lew"
+}
+
+army_names = {
+	"Armia z $PROVINCE$"
 }

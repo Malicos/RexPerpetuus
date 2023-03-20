@@ -1,26 +1,145 @@
 graphical_culture = westerngfx
+
 color = { 125 125 125 }
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	quality_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
 monarch_names = {
-	"Agnieszka #0" = 0
-	"Barbara #0" = -1
-	"Bartosz #0" = 0
-	"Bozydar #2" = 10
-	"Danuta #0" = -1
-	"Dytryk #1" = 10
-	"Grim #0" = 0
+	# RP RULER NAMES
+	"Swietibor #1" = 0
+	"Katarzyna #1" = -1
+	"Goszczon #1" = 10
+	"Maslaw #1" = 10
+	"Wszebora #1" = -1
+	"Wszebor #1" = 10
+	"Zbyszko #2" = 20
+	"Wieslaw #1" = 10
+	"Dobieslaw #1" = 10
+	"Diana #1" = -1
+	"Bozydar #1" = 10
+	"Zwinislawa #1" = -1
+	"Waclaw #1" = 10
+	"Zygfryd #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Boguslaw #0" = 100
+	"Barnim #0" = 20
+	"Ota #0" = 20
+	"Eryk #0" = 20
+	"Filip #0" = 20
+	"Franciszek #0" = 20
+	"Jan Fryderyk #0" = 20
+	"Wratislaw #0" = 20
+	"Georg #0" = 15
+	"Ulrich #0" = 15
+	"Kazimierz #0" = 10
+	"Ernest Ludwik #0" = 10
+	"Jan Ernest #0" = 10
+	"Albrecht #0" = 0
+	"Arnt #0" = 0
+	"August #0" = 0
+	"Bernhard #0" = 0
+	"Bodo #0" = 0
+	"Carl #0" = 0
+	"Emil #0" = 0
+	"Ernest #0" = 0
+	"Fritz #0" = 0
+	"Fryderyk #0" = 0
+	"Gerhard #0" = 0
+	"Gustav #0" = 0
+	"Harald #0" = 0
+	"Hendryk #0" = 0
+	"Herbert #0" = 0
+	"Hermann #0" = 0
+	"Jan #0" = 0
+	"Janusz #0" = 0
+	"Jochem #0" = 0
+	"Martin #0" = 0
+	"Maximiliam #0" = 0
+	"Paul #0" = 0
+	"Reinhold #0" = 0
+	"Richard #0" = 0
+	"Siegfried #0" = 0
+	"Walter #0" = 0
+	"Wilhelm #0" = 0
+	"Valentin #0" = 0
+	
+	# RANDOM NAMES - FEMALE
+	"Gabriela #0" = -1
 	"Helena #0" = -1
-	"Ibrahim #0" = 0
-	"Kazimiera #0" = -1
-	"Kunegunda #0" = -1
-	"Matylda #0" = -1
-	"Miroslaw #0" = -1
-	"Siemomysl #1" = 10
-	"Stanislawa #1" = -1
-	"Ubah #0" = -1
-	"Wincenty #1" = 10
-	"Witosz #1" = 10
-	"Wojuta #0" = -1
-	"Yevpraxia #0" = -1
-	"Zuber #0" = 0
-	"Zwinislawa #0" = -1
+	"Janina #0" = -1
+	"Elisabeth #0" = -1
+	"Magdalena #0" = -1
+	"Sophia #0" = -1
+}
+
+leader_names = {
+	Arciszewski
+	Benyowski Bidzinski Branicki Bielinski Boner Brzostowski Buczacki Butler
+	Czarniecki Chometowski Cetner Chlewicki Chodecki Czapski Czarnkowski
+	Dunin Denhoff Drzewicki Dambski Dzialynski Dzieduszycki
+	Firlej Fredro
+	Grodzicki Górka Grabowski Gembicki Gosiewski Grudzinski Grzymultowski Gurowski
+	Houwaldt Herburt Hylzen
+	Jablonowski Jazlowiecki Jaroslawski Jordan Judycki
+	Kurozwecki Koniecpolski Krasinski Kalinowski Korycki Kazanowski Kmita Komorowski Kamieniecki Karnkowski Krasicki Kwilecki
+	Lubomirski Lisowski Lanckoronski Leszczynski Lacki Latalski Ligeza Lipski Lubranski
+	Malski Mniszech Matczynski Mlodziejowski Malachowski Melsztynski Mielecki Mielzynski Morsztyn Mycielski
+	Nalecz Niesiolowski
+	Olesnicki Opacki Ozarowski Ossolinski Odrowaz Oporowski Ostroróg Ostrowski
+	Paniewski Poniatowski Pulaski Przyjemski Piaseczynski Potocki Pilecki Pociej Poninski Prazmowski Przebendowski
+	Rytwianski Rzewuski Raczynski Radziejowski Rej
+	Sobieski Siemienowicz Sulkowski Stadnicki Sieniawski Sierakowski Skarbek Soltyk Szafraniec Szembek Szydlowiecki Scibor
+	Tarnowski Tarlo Teczynski Tomicki Tyzenhaus
+	Uchanski
+	Wyhowski Wielopolski Walewski Weyher Wierzbowski Wolski Wodzicki
+	Zamoyski Zebrzydowski Zacwilchowski Zborowski Zaluski
+}
+
+ship_names = {
+	"Arka Noego"
+        "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
+        Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
+        Fortuna
+        Gryf Gwiazda Gnieznienskie
+	Inowroclawskie
+	"Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
+        Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie
+        "Maly Bialy Orzel" Malborskie Mazowieckie
+        Niewrazliwy "Nowy Czarny Orzel"
+        "Prorok Samuel" "Panna Wodna" Plomien Poznanskie Plockie Podlaskie Podolskie
+	"Rycerz Swiety Jerzy" Rawskie Ruskie
+        Strzelec Suwerenny "Swiety Piotr" Sieradzkie Sandomierskie "Swiety Kazimierz"
+        "Wielkie Slonce" Wodnik Warminskie Wolynskie Warszawa
+        Zwyciestwo "Zólty Lew"
+}
+
+army_names = {
+	"Armia z $PROVINCE$"
 }

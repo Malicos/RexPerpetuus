@@ -1,28 +1,127 @@
 graphical_culture = westerngfx
+
 color = { 34 101 23 }
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+	religious_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
 monarch_names = {
-	"Anno #0" = 0
+	# RP RULER NAMES
+	"Miroslaw #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Fryderyk #0" = 80
+	"Jan #0" = 40
+	"Henryk #0" = 40
+	"Ludwik #0" = 20
+	"Jan Krystian #0" = 20
+	"Jerzy #0" = 20
+	"Jerzy Rudolf #0" = 20
+	"Jerzy Wilhelm #0" = 20
+	"Joachim Fryderyk #0" = 20
+	"Krystian #0" = 20
+	"Ruprecht #0" = 20
+	"Jan Jerzy #0" = 15
+	"Jerzy Ernest #0" = 15
+	"August #0" = 10
+	"Ernest #0" = 10
+	"Krystian Ludwik #0" = 10
+	"Rudolf #0" = 10
+	"Wladislaw #0" = 5
+	"Albert #0" = 0
+	"Aleksander #0" = 0
+	"Andel #0" = 0
+	"Branko #0" = 0
 	"Bruno #0" = 0
-	"Dalimir #0" = 0
-	"Diana #0" = -1
-	"Gniewosz #0" = 0
-	"Gwienomir #1" = 10
-	"Irena #1" = -1
-	"Jadwiga #0" = -1
-	"Jakusz #0" = 0
-	"Jan #0" = 0
-	"Kunegunda #0" = -1
-	"Lucjan #1" = 10
-	"Ludvig #1" = 10
-	"Matylda #1" = -1
-	"Nadzieja #1" = -1
-	"Pelka #2" = 10
-	"Piotr #1" = 10
-	"Przemyslaw #0" = 0
-	"Scholastyka #0" = 0
-	"Sieciech #0" = 0
-	"Siemomysl #1" = 10
-	"Stanislaw #1" = 10
-	"Wincenty #1" = 10
-	"Wolislawa #0" = -1
+	"Cezar #0" = 0
+	"Dietrich #0" = 0
+	"Eugeniusz #0" = 0
+	"Filip #0" = 0
+	"Hermann #0" = 0
+	"Joachim #0" = 10
+	"Krzysztof #0" = 0
+	"Lech #0" = 0
+	"Libor #0" = 0
+	"Markus #0" = 0
+	"Maurycy #0" = 0
+	"Radomir #0" = 0
+	"Siegfried #0" = 0
+	"Tomás #0" = 0
+	"Václav #0" = 0
+	"Wilhelm #0" = 0
+	
+	# RANDOM NAMES - FEMALE
+	"Heinrike #0" = -1
+	"Ilona #0" = -1
+	"Andrea #0" = -1
+}
+
+leader_names = {
+	Arciszewski
+	Benyowski Bidzinski Branicki Bielinski Boner Brzostowski Buczacki Butler
+	Czarniecki Chometowski Cetner Chlewicki Chodecki Czapski Czarnkowski
+	Dunin Denhoff Drzewicki Dambski Dzialynski Dzieduszycki
+	Firlej Fredro
+	Grodzicki Górka Grabowski Gembicki Gosiewski Grudzinski Grzymultowski Gurowski
+	Houwaldt Herburt Hylzen
+	Jablonowski Jazlowiecki Jaroslawski Jordan Judycki
+	Kurozwecki Koniecpolski Krasinski Kalinowski Korycki Kazanowski Kmita Komorowski Kamieniecki Karnkowski Krasicki Kwilecki
+	Lubomirski Lisowski Lanckoronski Leszczynski Lacki Latalski Ligeza Lipski Lubranski
+	Malski Mniszech Matczynski Mlodziejowski Malachowski Melsztynski Mielecki Mielzynski Morsztyn Mycielski
+	Nalecz Niesiolowski
+	Olesnicki Opacki Ozarowski Ossolinski Odrowaz Oporowski Ostroróg Ostrowski
+	Paniewski Poniatowski Pulaski Przyjemski Piaseczynski Potocki Pilecki Pociej Poninski Prazmowski Przebendowski
+	Rytwianski Rzewuski Raczynski Radziejowski Rej
+	Sobieski Siemienowicz Sulkowski Stadnicki Sieniawski Sierakowski Skarbek Soltyk Szafraniec Szembek Szydlowiecki Scibor
+	Tarnowski Tarlo Teczynski Tomicki Tyzenhaus
+	Uchanski
+	Wyhowski Wielopolski Walewski Weyher Wierzbowski Wolski Wodzicki
+	Zamoyski Zebrzydowski Zacwilchowski Zborowski Zaluski
+}
+
+ship_names = {
+	"Arka Noego"
+        "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
+        Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
+        Fortuna
+        Gryf Gwiazda Gnieznienskie
+	Inowroclawskie
+	"Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
+        Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie
+        "Maly Bialy Orzel" Malborskie Mazowieckie
+        Niewrazliwy "Nowy Czarny Orzel"
+        "Prorok Samuel" "Panna Wodna" Plomien Poznanskie Plockie Podlaskie Podolskie
+	"Rycerz Swiety Jerzy" Rawskie Ruskie
+        Strzelec Suwerenny "Swiety Piotr" Sieradzkie Sandomierskie "Swiety Kazimierz"
+        "Wielkie Slonce" Wodnik Warminskie Wolynskie Warszawa
+        Zwyciestwo "Zólty Lew"
+}
+
+army_names = {
+	"Armia z $PROVINCE$"
 }

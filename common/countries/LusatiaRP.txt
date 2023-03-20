@@ -33,6 +33,14 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Derwan #1" = 10
+	"Matej #1" = 10
+	"Inga #1" = -1
+	"Alojs #3" = 60
+	"Jurij #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Arnost #0" = 20
 	"Lysko #0" = 20
 	"Macij #0" = 20
@@ -73,6 +81,7 @@ monarch_names = {
 	"Václav #0" = 0
 	"Wilhelm #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Heinrike #0" = -1
 	"Ilona #0" = -1
 	"Andrea #0" = -1
