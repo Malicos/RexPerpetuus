@@ -3,30 +3,19 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = catholic
-primary_culture = polish
+primary_culture = polabian_culture
 capital = 49
 fixed_capital = 49
 
-1444.11.11= {
+1437.11.16 = {
 	monarch = {
-		name = "(Regency Council)"
-		adm = 1
-		dip = 0
-		mil = 0
-		birth_date = 1.1.1
-		regent = yes
-		religion = catholic
-		culture = polish
-	}
-	heir = {
-		name = "Stanislaw"
-		dynasty = "Dunin-Góra"
+		name = "Miroslaw"
+		dynasty = "Gora"
 		adm = 3
-		dip = 2
-		mil = 2
-		birth_date = 1441.9.8
-		death_date = 1506.9.8
+		dip = 1
+		mil = 4
+		birth_date = 1388.5.11
 		religion = catholic
-		culture = polish
+		culture = polabian_culture
 	}
 }

@@ -3,19 +3,19 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 primary_culture = schlesian
-add_accepted_culture = silesian_german
 religion = catholic
 capital = 4238 #Legnica
+fixed_capital = 4238
 
-1436.5.30 = {
+1438.4.15 = {
 	monarch = {
-		name = "Elisabeth"
-		dynasty = "Hohenzollern"
-		culture = thuringian
-		birth_date = 1403.5.1
-		female = yes
-		adm = 4
-		dip = 5
-		mil = 1
+		name = "Aleksander"
+		dynasty = "Szafraniec"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1425.7.11
+		religion = catholic
+		culture = schlesian
 	}
 }

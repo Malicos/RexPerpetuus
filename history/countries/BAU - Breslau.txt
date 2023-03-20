@@ -1,8 +1,21 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 primary_culture = schlesian
-add_accepted_culture = silesian_german
 religion = catholic
 capital = 264 #Breslau
+fixed_capital = 264
+
+1432.12.20 = {
+	monarch = {
+		name = "Gierolt"
+		dynasty = "Piast"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1394.8.28
+		religion = catholic
+		culture = schlesian
+	}
+}

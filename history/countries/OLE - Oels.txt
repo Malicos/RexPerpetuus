@@ -3,39 +3,19 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 primary_culture = schlesian
-add_accepted_culture = silesian_german
 religion = catholic
 capital = 8243 #Oels
+fixed_capital = 8243
 
-1412.9.10 = {
+1426.9.5 = {
 	monarch = {
-		name = "Konrad V"
-		dynasty = "Piast"
-		birth_date = 1385.1.1
-		adm = 3
-		dip = 5
-		mil = 1
-	}
-}
-
-1439.9.10 = {
-	monarch = {
-		name = "Konrad VII"
-		dynasty = "Piast"
-		birth_date = 1396.1.1
-		adm = 2
+		name = "Jozef"
+		dynasty = "z Milicza"
+		adm = 5
 		dip = 3
-		mil = 1
-	}
-}
-
-1450.1.1 = {
-	monarch = {
-		name = "Konrad X"
-		dynasty = "Piast"
-		birth_date = 1420.1.1
-		adm = 1
-		dip = 3
-		mil = 4
+		mil = 3
+		birth_date = 1389.11.3
+		religion = catholic
+		culture = schlesian
 	}
 }
