@@ -38,14 +38,14 @@ monarch_names = {
 	"Bonifacio #1" = 10
 	"Federico #1" = 10
 	"Mariana #1" = -1
-	"Matilda #2" -5
+	"Matilda #2" = -5
 	"Rafaello #1" = 10
 	"Ermenegildo #2" = 20
 	"Ferdinando #3" = 60
 	"Filiberto #2" = 20
 	"Folkmar #1" = 1
 	"Aurelio #1" = 10
-	"Tiziana #1" -1
+	"Tiziana #1" = -1
 	"Tedaldo #2" = 20
 
 	# RANDOM NAMES - MALE
