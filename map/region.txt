@@ -217,6 +217,7 @@ germania_region = { # 17 areas
 		upper_thuringia_area
 		henneburg_area
 		frankfurt_area
+		mittelmark_area
 	}
 }
 baltic_region = { # 11 areas
@@ -224,13 +225,10 @@ baltic_region = { # 11 areas
 		estonia_ingria_area
 		livonia_area
 		curonia_area
-		east_prussia_area
-		west_prussia_area
 		samogitia_area
 		lithuania_area
 		nadruvia_area
 		latgallia_area
-		masuria_area
 		north_livonia_area
 		semigallia_area
 	}
@@ -240,27 +238,28 @@ poland_region = { #Lechia  # 18 areas
 		wielkopolska_area
 		malopolska_area
 		mazovia_area
-		central_poland_area
-		sandomierz_area
+		lublin_area
 		kuyavia_area
 		silesia_area
 		lower_silesia_area
-		middle_silesia_area
 		bohemia_area
 		erzgebirge_area
 		moravia_area
 		bohemian_forest_area
-		vorpommern_area
-		hinter_pommern_area
+		pomerania_area
+		pomerelia_area
 		lusatia_area
-		neumark_area
-		mittelmark_area
+		polabia_area
 		sorbia_area
+		east_prussia_area
+		west_prussia_area
+		masuria_area
+		lvov_area
+		grody_czervienskie_area
 	}
 }
 ruthenia_region = { # 17 areas
 	areas = {
-		red_ruthenia_area
 		podolia_volhynia_area
 		volhynia_area
 		pripyat_area
@@ -270,7 +269,6 @@ ruthenia_region = { # 17 areas
 		white_ruthenia_area
 		minsk_area
 		bryansk_area
-		eastern_volhynia_area
 		chernigov_area
 		vitebsk_area
 		polotsk_area
