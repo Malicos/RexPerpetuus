@@ -754,17 +754,17 @@ semigallia_area = { # BT
 # Lechia
 ###
 
-wielkopolska_area = { #Poznan in BT
+gniezno_area = { #Poznan in BT
 	254 2963 4526 8226 8227 8228 8229 
 }
-malopolska_area = { #Krakow area in BT
+krakow_area = { #Krakow area in BT
 	color = { 147 23 62 }
 	259 262 2959 2960 3220 8222 8223 8224    
 }
 mazovia_area = {
 	256 257 1938 4525 7264 8230 8233 
 }
-lublin_area = { #RP Lublin
+sandomierz_area = { #RP
 	260 3221 4527 8231 8232 8234 
 }
 kuyavia_area = { #converting in BT Kalisz area, and cutting the old BT Kalisz
@@ -791,35 +791,35 @@ moravia_area = {
 bohemian_forest_area = { # BT
 	2968 4725 8258 8259 
 }
-pomerania_area = {
+veletia_area = {
 	46 47 2993 2994 4745 4749 7813 7815 7842 
 }
-pomerelia_area = {
+pomerania_area = {
 	48 1858 4746 4747 7816 7817 7818 7819 7823 
 }
 lusatia_area = {
 	60 1763 4778 8247 8262 8263 8264 8268
 }
-polabia_area = {
+luticia_area = {
 	color = { 234 22 44 }
 	49 50 2969 7821 8265 8266 8269 8270
 }
-sorbia_area = {
+milcenia_area = {
 	61 2965 4744 8276 8277 8278 8279  
 }
-east_prussia_area = {
+truso_area = {
 	42 1841 1859 2958 7829 
 }
-west_prussia_area = {
+pomerelia_area = {
 	43 2997 2995 5097 7824 7825 7826 7827 7828 
 }
 masuria_area = { # BT
 	767 7830 7831 7832 
 }
-lvov_area = { #RP
+lwow_area = { #RP
 	261 2961 4541 7269 7270 7271 7273 
 }
-grody_czervienskie_area = { #Cherven Cities
+cherven_cities_area = {
 	1940 2424 4538 7266 7267 
 }
 ###

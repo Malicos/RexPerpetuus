@@ -235,10 +235,10 @@ baltic_region = { # 11 areas
 }
 poland_region = { #Lechia  # 18 areas
 	areas = {
-		wielkopolska_area
-		malopolska_area
+		gniezno_area
+		krakow_area
 		mazovia_area
-		lublin_area
+		sandomierz_area
 		kuyavia_area
 		silesia_area
 		lower_silesia_area
@@ -246,16 +246,16 @@ poland_region = { #Lechia  # 18 areas
 		erzgebirge_area
 		moravia_area
 		bohemian_forest_area
+		veletia_area
 		pomerania_area
-		pomerelia_area
 		lusatia_area
-		polabia_area
-		sorbia_area
-		east_prussia_area
-		west_prussia_area
+		luticia_area
+		milcenia_area
+		truso_area
+		pomerelia_area
 		masuria_area
-		lvov_area
-		grody_czervienskie_area
+		lwow_area
+		cherven_cities_area
 	}
 }
 ruthenia_region = { # 17 areas

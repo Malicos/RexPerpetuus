@@ -250,17 +250,6 @@
  south_african_plateau_area_name:0 "South Ethiopia"
  south_african_plateau_area_adj:0 "South Ethiopian"
  west_africa_coast_area:0 "West Ethiopian Coast"
- east_prussia_area:0 "Pruthenia"
- west_prussia_area:0 "Kashubia"
- volhynia_area:0 "Volhynia"
- volhynia_area_name:0 "Volhynia"
- volhynia_area_adj:0 "Volhynian"
- malopolska_area:0 "Krakóv"
- malopolska_area_name:0 "Krakóv"
- malopolska_area_adj:0 "Krakóv"
- west_dniepr_area:0 "Kyiv"
- west_dniepr_area_name:0 "Kyiv"
- west_dniepr_area_adj:0 "Kyiven"
  
  ## Regions
  #Asia
