@@ -764,7 +764,7 @@ krakow_area = { #Krakow area in BT
 mazovia_area = {
 	256 257 1938 4525 7264 8230 8233 
 }
-sandomierz_area = { #RP
+lublin_area = { #RP
 	260 3221 4527 8231 8232 8234 
 }
 kuyavia_area = { #converting in BT Kalisz area, and cutting the old BT Kalisz

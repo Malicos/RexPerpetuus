@@ -238,7 +238,7 @@ poland_region = { #Lechia  # 18 areas
 		gniezno_area
 		krakow_area
 		mazovia_area
-		sandomierz_area
+		lublin_area
 		kuyavia_area
 		silesia_area
 		lower_silesia_area
