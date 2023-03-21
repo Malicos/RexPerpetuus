@@ -2,25 +2,6 @@
 colonial_agustina = {
 	color = { 125 25 80 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		484 485 486 2654 2655 2656 4624 4622 4623 5572
 	}
@@ -39,28 +20,6 @@ colonial_agustina = {
 # Alaska
 colonial_alaska = {
 	color = { 225 225 225 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 8
-	native_ferocity = 1
-	native_hostileness = 4
-	
-	trade_goods = {
-		fur = 10
-		fish = 3
-		naval_supplies = 2
-		gold = 2
-	}
-	
-	culture = {
-		inuit = 10
-		aleutian = 8
-	}
-	
-	religion = {
-		shamanism = 10
-	}
 
 	provinces = {
 		978 977 976 2611 2612 2613 1810
@@ -88,25 +47,6 @@ colonial_alaska = {
 colonial_almere = {
 	color = { 195 120 40 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		741 742 743 744 745 829 830 831 834 2803 2804 2805 2806 2807 2808 2809 2810 2811 2812 2813 2814 2815 2816 2931 2937 2939 4601 4602 4608 4609 4610 4611 4612 4613 4614 4615 4616 4617
 	}
@@ -125,25 +65,6 @@ colonial_almere = {
 # Aurigny
 colonial_aurigny = {
 	color = { 100 90 170 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
 
 	provinces = {
 		918 919 920 921 922 923 924 925 926 927 928 929 930 931 932 933 934 935 939 940 941 2526 2527 2528 2529 2530 2531 2532 2533 2534 2535 2536 2537 2538 2539 2540 2541 2542 2543 4625 4626 4879 4880 4881 4882 4883 4884 4887 4888 4913 4921
@@ -164,25 +85,6 @@ colonial_aurigny = {
 colonial_avalon = {
 	color = { 0 77 128 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		772 773 775 777 778 779 786 790 791 794 799 2836 2837 2838 2839 2842 2843 2844 2845 2846 2847 2848 2849 2850 2851 2852 2853 2854 2855 2857 2858 2859 2860 2861 2863 2865 2866 2867 2872 2877 2878 2879 2882 2883 2884 2887
 	}
@@ -201,25 +103,6 @@ colonial_avalon = {
 # Azania
 colonial_azania = {
 	color = { 180 225 115 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 10
-	native_ferocity = 1
-	native_hostileness = 3
-	
-	trade_goods = {
-		fish = 10
-		naval_supplies = 10
-	}
-	
-	culture = {
-		khoisan = 10
-	}
-	
-	religion = {
-		animism = 10
-	}
 
 	provinces = {
 		833 1176 1177 1178 1179 
@@ -242,25 +125,6 @@ colonial_azania = {
 colonial_aztlan = {
 	color = { 0 153 77 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		844 847 848 849 850 851 852 853 854 855 856 857 858 859 860 861 862 863 864 867 875 876 877 878 879 880 881 882 883 884 885 886 887 888 2491 2492 2493 2494 2495 2496 2497 2498 2499 2500 2614 2615 2616 2617 2618 2619 2621 2622 2623 2624 2626 2627 2628 2629 2630 2631 2641 2642 2643 2644 2645 2646 2647 2648 2657 2665 2666 2667 2668 2669 4570 4571 4572 4573 4574 4575 4576 4577 4578 4579 4580 4581 4582 4583 4584 4598 4606 4627 4628 4629 4630 4631 4632 4633 4634 4640 4641 4642 4643 4644 4645 4646 4647 4648 4649 4650 4909 4910 4911 4964 4966 4979 5042 5061 5063 5064 5823 5826 5827 5830 5832 5835 5838 5839 5840 5841 5843 5844 5858
 	}
@@ -279,25 +143,6 @@ colonial_aztlan = {
 # Batavia
 colonial_batavia = {
 	color = { 220 190 70 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
 
 	provinces = {
 		936 937 938 949 950 951 952 953 955 956 957 962 963 965 966 967 2010 2011 2023 2544 2545 2546 2547 2548 2549 2550 2551 2552 2553 2554 2555 2556 2557 2558 2560 2639 4874 4876 4877 4878 4889
@@ -318,25 +163,6 @@ colonial_batavia = {
 colonial_brasil = {
 	color = { 145 55 65 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		960 961 964 968 969 970 971 982 983 984 985 986 2012 2013 2559 2561 2562 2563 2564 2565 2566 2567 2568 2569 2570 2571 2572 2582 4871 4873 4891 4896 4912 5048 5049 5050 5051 5052 5053 5054 5060
 	}
@@ -355,25 +181,6 @@ colonial_brasil = {
 # Eastern Elysia
 colonial_eastern_elysia = {
 	color = { 31 122 31 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
 
 	provinces = {
 		750 751 752 753 754 755 756 757 759 760 2885 2886 2891 2898 2912 2913 2914 2915 2916 2917 2918 2921 2922 2925 
@@ -395,25 +202,6 @@ colonial_eastern_elysia = {
 colonial_ethelland = {
 	color = { 175 45 45 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		793 795 796 797 800 801 802 803 804 805 806 807 808 809 810 811 812 813 814 815 816 817 818 819 820 821 822 823 824 825 826 827 828 832 2817 2818 2820 2821 2822 2823 2824 2825 2826 2827 2828 2829 2830 2831 2832 2833 2834 2835 2840 2940 2941 2942 2943 2944 2945 2946 2947 4596 4599 4600 4603 4604 4605 4607	
 	}
@@ -432,27 +220,6 @@ colonial_ethelland = {
 # Fortunate Isles
 colonial_fortunate_isles = {
 	color = { 255 204 102 }
-
-	# Random New World
-	tax_income = 1
-	native_size = 5
-	native_ferocity = 5
-	native_hostileness = 7
-	
-	trade_goods = {
-		sugar = 15
-		fish = 10
-		naval_supplies = 10
-	}
-	
-	culture = {
-		arawak = 15
-		carib = 8
-	}
-	
-	religion = {
-		animism = 10
-	}
 	
 	provinces = {
 		487 491 492 493 494 495 496 497 498 499 500 501 502 1881 5578 5581 5582 5583 5584 5585 5586
@@ -476,25 +243,6 @@ colonial_fortunate_isles = {
 colonial_gigantia = {
 	color = { 163 194 194 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		780 781 782 783 784 785 787 792 2841 2862 2868 2869 2870 2871 2873 2874 2875 2876
 	}
@@ -514,24 +262,6 @@ colonial_gigantia = {
 colonial_greenland = {
 	color = { 47 188 22 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 8
-	native_ferocity = 1
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		kalaallisut = 10
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		1104 1105 3111 3112 3113
 		#BTCHANGES
@@ -550,24 +280,6 @@ colonial_greenland = {
 colonial_guaimura = {
 	color = { 150 90 170 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 8
-	native_ferocity = 1
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		kalaallisut = 10
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		835 836 838 837 839 840 841 842 843 845 846 2002 2632 2633 2634 2635 2636 2637 2638 2640 2649 2650 2651 2652 2653 2660 2661 2662 2663 2664 2819 4585 4586 4587 4588 4589 4590 4591 4592 4593 4594 4595 4597
 	}
@@ -583,33 +295,6 @@ colonial_guaimura = {
 # Helluland
 colonial_helluland = {
 	color = { 40 80 180 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fur = 10
-		naval_supplies = 6
-		wool = 6
-		iron = 2
-		copper = 2
-		gold = 1
-	}
-	
-	culture = {
-		cree = 10
-		inuit = 10
-		nakota = 2
-		cheyenne = 2
-		chipewyan = 2
-	}
-	
-	religion = {
-		shamanism = 10
-	}
 
 	provinces = {
 		999 1000 1003 1004 1005 1006 1008 1009 1010 1011 1806 1811 1813 2004 2005 2016 2017 2018 2589 2591 2592 2593 2594 2596 2597 2598 2602 2511 1002 2595
@@ -656,25 +341,6 @@ colonial_java_la_grande = {
 colonial_kiskeya = {
 	color = { 90 200 65 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		488 489 490 2658 2659 4619 5563 4618 5565 4620 5567 4621
 	}
@@ -693,25 +359,6 @@ colonial_kiskeya = {
 # Lucayas
 colonial_lucayas = {
 	color = { 40 105 150 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
 
 	provinces = {
 		482 483 5574 5575 5576 5577
@@ -735,25 +382,6 @@ colonial_lucayas = {
 colonial_maragnan = {
 	color = { 102 102 255 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		746 747 748 749 758 2888 2889 2890 2900 2901 2902 2904 2905 2908 2909 2910 2911 2923 2924 2926 2927 2928 2929 2930 2933 2934 2935 2938
 	}
@@ -772,25 +400,6 @@ colonial_maragnan = {
 # Markland
 colonial_markland = {
 	color = { 30 150 50 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
 
 	provinces = {
 		990 991 992 993 994 995 996 997 998 1805 2574 2575 2576 2577 2578 2579 2580 2581 2583 2584 2585 2588 2590 4894 4895 4897 5006 5007 5010 5011 5012 5014 5015 5055 5592 5593 5594
@@ -811,25 +420,6 @@ colonial_markland = {
 colonial_merovingia = {
 	color = { 46 0 108 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		889 890 891 892 893 894 895 896 897 898 899 900 901 902 903 909 1809 2006 2007 2008 2009 2014 2501 2502 2503 2504 2505 2506 2507 2508 2509 2510 2514 2515 2516 2625 2672 4885 4886 4906 4908 4914 4915 4916 4917 4918 4923 4959 5065 5066 5524 5613 5614 5616 5617 5618 5619 5627 5629 5630 5632 5633 5837 5846
 	}
@@ -848,43 +438,6 @@ colonial_merovingia = {
 # Nootka
 colonial_nootka = {
 	color = { 170 162 90 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-		fur = 6
-		naval_supplies = 6
-		wool = 2
-		iron = 1
-		copper = 1
-	}
-	
-	culture = {
-		salish = 10
-		interior_salish = 10
-		plateau_penutian = 10
-		chinook = 4
-		dakelh = 4
-		wakashan = 2
-		coast_penutian = 2
-		ktunaxa = 2
-		shoshone = 2
-		nuxalk = 1
-		umpqua = 1
-		tlingit = 1
-		haida = 1
-		quileute = 1
-		tsimshianic = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
 
 	provinces = {
 		#ALASKANCASCADIA
@@ -917,30 +470,6 @@ colonial_nootka = {
 colonial_northwest_territories = {
 	color = { 95 65 35 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fur = 10
-		naval_supplies = 6
-		wool = 6
-		iron = 2
-		copper = 2
-		gold = 1
-	}
-	
-	culture = {
-		athabascan = 10
-		chipewyan = 3
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		2599 2600 2601 1812
 		#BTNEWPROVINCES
@@ -965,25 +494,6 @@ colonial_northwest_territories = {
 colonial_polynesia = {
 	color = { 29 172 194 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 10
-	native_ferocity = 1
-	native_hostileness = 3
-	
-	trade_goods = {
-		fish = 10
-		naval_supplies = 10
-	}
-	
-	culture = {
-		maori = 10 # Brian
-	}
-	
-	religion = {
-		animism = 10
-	}
-
 	provinces = {
 		1106 1107 1108 1109 1246 2737 2738 2739 5021 5022 
 		5597 5598 5599 5600 5601 5602 5603 5604 5605 5606 5607 5608 5609 5610 4939
@@ -1004,25 +514,6 @@ colonial_polynesia = {
 colonial_storvatnland = {
 	color = { 0 145 120 }
 
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
-
 	provinces = {
 		904 905 906 907 908 910 911 912 913 914 915 916 917 942 943 944 945 946 947 948 954 958 959 987 988 989 1001 1007 2015 2512 2513 2517 2518 2519 2520 2521 2522 2523 2524 2525 2586 2587 2670 2671 4872 4875 4898 4899 4900 4902 4903 4904 4905 4907 4922 4973 5037 5038 5039 5621 5638 5904
 	}
@@ -1041,25 +532,6 @@ colonial_storvatnland = {
 # Vinland
 colonial_vinland = {
 	color = { 145 200 185 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
 
 	provinces = {
 		980 981 2573 
@@ -1081,25 +553,6 @@ colonial_vinland = {
 # Westernesse
 colonial_westernesse = {
 	color = { 25 60 200 }
-
-	# Random New World
-	tax_income = 0
-	native_size = 4
-	native_ferocity = 2
-	native_hostileness = 8
-	
-	trade_goods = {
-		fish = 10
-	}
-	
-	culture = {
-		beothuk = 10
-		mikmaq = 1
-	}
-	
-	religion = {
-		shamanism = 10
-	}
 
 	provinces = {
 		865 866 868 869 870 871 1808 2020 2021 2476 2477 2478 2479 2489 2490 2608 2620 4635 4636 4637 4638 4639 4950 4951 4952 4953 4954 4955 4962 4963 4965 4967 4975 5016 5017 5018 5030 5031 5032 5043 5044 5045 5758 5762 5757 5763 5764 5765 5766 5767 5768 5769 5770 5771 5772 5773 5774 5775 5782 5791 5792 5793 5794 5795 5796 5797 5799 5814 5815 5820 5821 5822 5833 5834 5836 5845 5848 5849 5851 5852 5853 5854 5855 5856 5857 5859 5860 5861 5862 
