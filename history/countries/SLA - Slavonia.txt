@@ -1,9 +1,21 @@
-capital = 1767 #Osijek, largest city
-
-technology_group = eastern
-
 government = monarchy
 add_government_reform = feudalism_reform
-
-religion = catholic
+government_rank = 1
 primary_culture = croatian
+religion = catholic
+technology_group = eastern
+capital = 1767 #Osijek, largest city
+fixed_capital = 1767
+
+1413.8.27 = {
+	monarch = {
+		name = "Igor"
+		dynasty = "von Trier"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 1411.8.10
+		religion = catholic
+		culture = croatian
+	}
+}
