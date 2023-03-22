@@ -35,50 +35,68 @@ historical_units = {
 }
 
 monarch_names = {
-	"Janos #0" = 60
-	"István #0" = 60
-	"Mihály #0" = 50
-	"Ferenc #0" = 40
-	"Gábor #0" = 40
-	"György #0" = 40
-	"Ákos #0" = 20
+	# RP RULER NAMES
+	"Pál #1" = 10
+	"Máte #1" = 10
+	"Aranka #2" = -10
+
+	# RP RULER NAMES - HUNGARY
+	"István #0" = 40
+	"Péter #0" = 10
+	"Sámuel #0" = 10
+	"Béla #0" = 10
+	"Salamon #0" = 10
+	"Géza #0" = 10
+	"Kálmán #0" = 10
+	"Margit #0" = -1
+	"László #0" = 40
+	"Mátyás #0" = 10
+	"Vászoly #0" = 20
+	"Antal #0" = 10
+	"Lajos #0" = 20
+	"Gazsi #0" = 10
+	"Gyula #0" = 10
+	"Keled #0" = 10
 	"András #0" = 20
-	"Krisztóf #0" = 20
-	"Lancu #0" = 20
-	"Lorand #0" = 20
-	"Stibor #0" = 20
-	"Zsigmond #0" = 20
-	"Boldiszár #0" = 15
-	"Imre #0" = 15
-	"Leopold #0" = 15
-	"Samuel #0" = 15
-	"Sándor #0" = 15
-	"Miklós #0" = 10
-	"Tamás #0" = 10
-	"Ardojan #0" = 0
-	"Amasztáz #0" = 0
+	"Kornel #0" = 10
+	"Etel #0" = -1
+	
+	# RANDOM NAMES - MALE
+	"Albert #0" = 20
+	"János #0" = 20
+	"Ulászló #0" = 20
+	"Károly #0" = 15
+	"Zsigmond #0" = 10
+	"Anasztáz #0" = 0
 	"Barnabás #0" = 0
-	"Betalan #0" = 0
+	"Bertalan #0" = 0
+	"Boldizsár #0" = 0
 	"Dávid #0" = 0
 	"Dömötör #0" = 0
 	"Edvárd #0" = 0
 	"Ernö #0" = 0
-	"Iszák #0" = 0
-	"Jószef #0" = 0
-	"Kálmán #0" = 0
+	"Ferenc #0" = 0
+	"Gábor #0" = 0
+	"György #0" = 0
+	"Izsák #0" = 0
+	"Jenö #0" = 0
+	"József #0" = 0
 	"Kázmér #0" = 0
-	"Kelemen #0" = 0
 	"Lörinc #0" = 0
-	"Lukäcs #0" = 0
+	"Lukács #0" = 0
 	"Márk #0" = 0
-	"Oszkár #0" = 0
-	"Péter #0" = 0
+	"Miklós #0" = 0
+	"Ottó #0" = 0
+	"Patrik #0" = 0
 	"Simon #0" = 0
+	"Tamás #0" = 0
 	"Vencel #0" = 0
 	
-	"Dorina #0" = -1
-	"Elisabeta #0" = -1
-	"Isabela #0" = -1
+	# RANDOM NAMES - FEMALE
+	"Anna #0" = -10
+	"Erzsébet #0" = -5
+	"Agnes #0" = -1
+	"Katalin #0" = -1
 }
 
 leader_names = {

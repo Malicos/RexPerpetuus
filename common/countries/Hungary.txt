@@ -4,10 +4,6 @@ graphical_culture = easterngfx
 
 color = { 75 128 81 }
 
-revolutionary_colors = { 5  0  10 }
-
-historical_score = 250
-
 historical_idea_groups = {
 	economic_ideas
 	defensive_ideas
@@ -36,17 +32,33 @@ historical_units = {
 }
 
 monarch_names = {
-	"István #5" = 40
-	"László #4" = 40
-	"Lajos #1" = 20
-	"Albert #1" = 20
+	# RP RULER NAMES
+	"István #1" = 40
+	"Péter #1" = 10
+	"Sámuel #1" = 10
+	"Béla #1" = 10
+	"Salamon #1" = 10
+	"Géza #1" = 10
+	"Kálmán #1" = 10
+	"Margit #1" = -1
+	"László #2" = 40
+	"Mátyás #1" = 10
+	"Vászoly #2" = 20
+	"Antal #1" = 10
+	"Lajos #2" = 20
+	"Gazsi #1" = 10
+	"Gyula #1" = 10
+	"Keled #1" = 10
+	"András #2" = 20
+	"Kornel #1" = 10
+	"Etel #1" = -1
+
+	# RANDOM NAMES - MALE
+	"Albert #0" = 20
 	"János #0" = 20
-	"Ulászló #1" = 20
-	"Mátyás #1" = 20
-	"András #3" = 15
-	"Károly #2" = 15
-	"Zsigmond #1" = 10
-	"Béla #4" = 5
+	"Ulászló #0" = 20
+	"Károly #0" = 15
+	"Zsigmond #0" = 10
 	"Anasztáz #0" = 0
 	"Barnabás #0" = 0
 	"Bertalan #0" = 0
@@ -61,7 +73,6 @@ monarch_names = {
 	"Izsák #0" = 0
 	"Jenö #0" = 0
 	"József #0" = 0
-	"Kálmán #1" = 0
 	"Kázmér #0" = 0
 	"Lörinc #0" = 0
 	"Lukács #0" = 0
@@ -70,10 +81,11 @@ monarch_names = {
 	"Oszkár #0" = 0
 	"Ottó #0" = 0
 	"Patrik #0" = 0
-	"Péter #0" = 0
 	"Simon #0" = 0
 	"Tamás #0" = 0
 	"Vencel #0" = 0
+	
+	# RANDOM NAMES - FEMALE
 	"Anna #0" = -10
 	"Erzsébet #0" = -5
 	"Agnes #0" = -1
