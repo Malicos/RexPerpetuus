@@ -4,8 +4,6 @@ graphical_culture = easterngfx
 
 color = { 149 12 19 }
 
-preferred_religion = catholic
-
 historical_idea_groups = {
 	trade_ideas
 	defensive_ideas
@@ -36,25 +34,51 @@ historical_units = {
 }
 
 monarch_names = {
-	"Kreshimir #4" = 80
-	"Stjepan #2" = 40
-	"Almosh #1" = 20
-	"Dimitrije Zvonimir #1" = 20
-	"Trpimir #2" = 15
-	"Goislav #1" = 15
-	"Slavic #1" = 15
-	"Svetoslav #1" = 15
-	"Miroslav #1" = 10
-	"Mutimir #1" = 10
-	"Tomislav #1" = 10
-	"Gashpar #5" = 5
-	"Ladislav #3" = 5
-	"Karlo #2" = 5
-	"Andrija #1" = 5
-	"Ludovik #1" = 5
-	"Petar #1" = 5
-	"Vladislav #1" = 5
-	"Vjenceslav #1" = 5
+	# RP RULER NAMES
+	"Radovan #1" = 10
+	"Zvonimir #2" = 20
+	"Karlo #3" = 60
+	"Adriana #1" = -1
+	"Dragan #2" = 20
+	"Petar #1" = 10
+	"Dobromir #2" = 20
+	"Kuno #1" = 10
+	"Igor #1" = 10
+
+	# RP RULER NAMES - CROATIA
+	"Tomislav #0" = 10
+	"Trpimir #0" = 20
+	"Miroslav #0" = 10
+	"Svetoslav #0" = 10
+	"Svetoslav #0 Stjepan" = 10
+	"Stjepan #0" = 40
+	"Kreshimir #0" = 100
+	"Castimir #0" = 20
+	"Ratimir #0" = 20
+	"Tisemir #0" = 10
+	"Maria #0" = -1
+	"Kunigunde #0" = -1
+	"Gordana #0" = -1
+	"Frederik #0" = 60
+	"Filip #0" = 10
+	"Bartol #0" = 10
+	"Ekaterina #0" = -1
+	"Jovana #0" = -1
+	"Ivanis #0" = 20
+	"Radbot #0" = 60
+
+	# RANDOM NAMES - MALE
+	"Almosh #0" = 20
+	"Dimitrije Zvonimir #0" = 20
+	"Goislav #0" = 15
+	"Slavic #0" = 15
+	"Mutimir #0" = 10
+	"Gashpar #0" = 5
+	"Ladislav #0" = 5
+	"Andrija #0" = 5
+	"Ludovik #0" = 5
+	"Vladislav #0" = 5
+	"Vjenceslav #0" = 5
 	"Aleksandar #0" = 0
 	"Dragutin #0" = 0
 	"Faust #0" = 0
@@ -78,9 +102,9 @@ monarch_names = {
 	"Slavko #0" = 0
 	"Toma #0" = 0
 	"Vladko #0" = 0
-	"Zvonimir #0" = 0
 	
-	"Jelena #1" = -15
+	# RANDOM NAMES - FEMALE
+	"Jelena #0" = -15
 	"Marija #0" = -1
 	"Petra #0" = -1
 }

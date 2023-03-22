@@ -4,8 +4,6 @@ graphical_culture = easterngfx
 
 color = { 162 53 53 }
 
-revolutionary_colors = { 5 0 13 }
-
 historical_idea_groups = {
 	trade_ideas
 	defensive_ideas
@@ -36,25 +34,42 @@ historical_units = {
 }
 
 monarch_names = {
-	"Kreshimir #4" = 80
-	"Stjepan #2" = 40
-	"Almosh #1" = 20
-	"Dimitrije Zvonimir #1" = 20
-	"Trpimir #2" = 15
-	"Goislav #1" = 15
-	"Slavic #1" = 15
-	"Svetoslav #1" = 15
-	"Miroslav #1" = 10
-	"Mutimir #1" = 10
+	# RP RULER NAMES
 	"Tomislav #1" = 10
-	"Gashpar #5" = 5
-	"Ladislav #3" = 5
-	"Karlo #2" = 5
-	"Andrija #1" = 5
-	"Ludovik #1" = 5
-	"Petar #1" = 5
-	"Vladislav #1" = 5
-	"Vjenceslav #1" = 5
+	"Trpimir #1" = 20
+	"Miroslav #1" = 10
+	"Svetoslav #1" = 10
+	"Svetoslav #1 Stjepan" = 10
+	"Stjepan #2" = 40
+	"Kreshimir #5" = 100
+	"Castimir #2" = 20
+	"Ratimir #2" = 20
+	"Tisemir #1" = 10
+	"Maria #1" = -1
+	"Kunigunde #1" = -1
+	"Gordana #1" = -1
+	"Frederik #3" = 60
+	"Filip #1" = 10
+	"Bartol #1" = 10
+	"Ekaterina #1" = -1
+	"Jovana #1" = -1
+	"Ivanis #2" = 20
+	"Radbot #3" = 60
+
+	# RANDOM NAMES - MALE
+	"Almosh #0" = 20
+	"Dimitrije Zvonimir #0" = 20
+	"Goislav #0" = 15
+	"Slavic #0" = 15
+	"Mutimir #0" = 10
+	"Gashpar #0" = 5
+	"Ladislav #0" = 5
+	"Karlo #0" = 5
+	"Andrija #0" = 5
+	"Ludovik #0" = 5
+	"Petar #0" = 5
+	"Vladislav #0" = 5
+	"Vjenceslav #0" = 5
 	"Aleksandar #0" = 0
 	"Dragutin #0" = 0
 	"Faust #0" = 0
@@ -80,7 +95,8 @@ monarch_names = {
 	"Vladko #0" = 0
 	"Zvonimir #0" = 0
 	
-	"Jelena #1" = -15
+	# RANDOM NAMES - FEMALE
+	"Jelena #0" = -15
 	"Marija #0" = -1
 	"Petra #0" = -1
 }
