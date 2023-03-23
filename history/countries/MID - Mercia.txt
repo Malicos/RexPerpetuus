@@ -4,7 +4,7 @@ primary_culture = english
 religion = catholic
 technology_group = western
 capital = 8126 # Northampton
-government_rank = 2
+government_rank = 1
 
 1423.1.28 = {
 	monarch = {

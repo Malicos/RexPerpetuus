@@ -4,7 +4,7 @@ primary_culture = sexish_culture
 religion = catholic
 technology_group = western
 capital = 235 # Kent
-government_rank = 2
+government_rank = 1
 
 1418.2.2 = {
 	monarch = {

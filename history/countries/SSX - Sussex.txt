@@ -4,7 +4,7 @@ primary_culture = sexish_culture
 religion = catholic
 technology_group = western
 capital = 4371 # Sussex
-government_rank = 2
+government_rank = 1
 
 1434.8.11 = {
 	monarch = {
