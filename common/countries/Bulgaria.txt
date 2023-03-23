@@ -4,8 +4,6 @@ graphical_culture = easterngfx
 
 color = { 113 88 101 }
 
-revolutionary_colors = { 0 10 5 }
-
 historical_idea_groups = {
 	defensive_ideas
 	offensive_ideas
@@ -36,20 +34,29 @@ historical_units = {
 }
 
 monarch_names = {
-	"Iwan Asen #3" = 20
-	"Koloman #2" = 20
+	# RP RULER NAMES
+	"Vladimir-Rasate #1" = 5
+	"Boris #2" = 20
+	"Roman #1" = 10
+	"Samuil #1" = 10
+	"Gavril #1 Radomir" = 5
+	"Ivan #1 Vladislav" = 5
 	"Petar #2" = 20
-	"Todor #1" = 20
-	"Michael #3" = 15
-	"Aleksandar #1" = 15
-	"Iwan #1" = 15
-	"Kalojan #1" = 15
-	"Georgi #2" = 10
-	"Konstantin #1" = 10
-	"Stepan #1" = 10
-	"Stracimir #1" = 10
-	"Boris #2" = 5
-	"Simeon #1" = 5
+	"Presian #3" = 60
+	"Simeon #2" = 20
+
+	# RANDOM NAMES - MALE
+	"Iwan Asen #0" = 20
+	"Koloman #0" = 20
+	"Todor #0" = 20
+	"Michael #0" = 15
+	"Aleksandar #0" = 15
+	"Iwan #0" = 15
+	"Kalojan #0" = 15
+	"Georgi #0" = 10
+	"Konstantin #0" = 10
+	"Stepan #0" = 10
+	"Stracimir #0" = 10
 	"Andon #0" = 0
 	"Andrei #0" = 0
 	"Angel #0" = 0
@@ -60,7 +67,7 @@ monarch_names = {
 	"Damyan #0" = 0
 	"Dimitar #0" = 0
 	"Emil #0" = 0
-	"Gavril #0" = 0
+	"Gavril #1" = 0
 	"Hristo #0" = 0
 	"Iordan #0" = 0
 	"Kliment #0" = 0
@@ -72,11 +79,11 @@ monarch_names = {
 	"Nikola #0" = 0
 	"Pavel #0" = 0
 	"Radomir #0" = 0
-	"Samuil #0" = 0
 	"Vasil #0" = 0
 	"Vladimir #0" = 0
 	"Zhivko #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Bogomilia #0" = -1
 	"Sofija #0" = -1
 	"Krasimira #0" = -1

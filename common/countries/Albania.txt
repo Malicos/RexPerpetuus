@@ -4,8 +4,6 @@ graphical_culture = easterngfx
 
 color = { 104 152 186 }
 
-revolutionary_colors = { 4 1 4 }
-
 historical_idea_groups = {
 	religious_ideas
 	defensive_ideas
@@ -36,16 +34,22 @@ historical_units = {
 }
 
 monarch_names = {
-	"Gjergj #0" = 20
+	# RP RULER NAMES
+	"Pjetër #1" = 10
+	"Kostandin #1" = 10
+	"Karolus #2" = 20
+	"Gjergj #1" = 10
+	"Aleksandër #1" = 10
+	"Viktor #1" = 10
+	"Hekuran #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Lekë #0" = 20
 	"Gjon #0" = 10
-	"Kostandin #0" = 10
 	"Lulëzim #0" = 10
 	"Pal #0" = 0
-	"Tanush #1" = 10
-	"Aleksandër #0" = 10
-	"Karolus #2" = 1
-	"Filippo #1" = 1
+	"Tanush #0" = 10
+	"Filippo #0" = 1
 	"Adnan #0" = 1
 	"Agim #0" = 1
 	"Bashkim #0" = 1
@@ -59,7 +63,6 @@ monarch_names = {
 	"Fatmir #0" = 1
 	"Flamur #0" = 1
 	"Florin #0" = 1
-	"Hekuran #0" = 1
 	"Ilir #0" = 1
 	"Ismail #0" = 5
 	"Klodian #0" = 1
@@ -69,11 +72,9 @@ monarch_names = {
 	"Pashko #0" = 1
 	"Pëllumb #1" = 5
 	"Përparim #0" = 1
-	"Pjetër #0" = 5
 	"Rrok #0" = 1
 	"Shpëtim #0" = 1
 	"Tahir #0" = 1
-	"Viktor #0" = 1
 	"Xhevat #0" = 1
 	"Ylli #0" = 1
 	"Zenel #0" = 1
@@ -101,6 +102,7 @@ monarch_names = {
 	"Selim #0" = 1
 	"Sadik #0" = 1
 	
+	# RANDOM NAMES - FEMALE
 	"Gjylo #0" = -1
 	"Blerta #0" = -1
 	"Fatmire #0" = -1

@@ -1,6 +1,7 @@
-graphical_culture = muslimgfx
+graphical_culture = easterngfx
+
 color = { 90 150 175 }
-revolutionary_colors = { 2 8 2 }
+
 historical_idea_groups = {
 	defensive_ideas
 	offensive_ideas
@@ -30,67 +31,92 @@ historical_units = {
 	slavic_stradioti
 }
 monarch_names = {
-	"Andrei #1" = 10
-	"Baitzas #0" = 0
-	"Bator #2" = 10
-	"Biçkili #0" = 0
+	# RP RULER NAMES
+	"Tatus #1" = 5
 	"Cyrus #1" = 10
+	"Grigore #1" = 10
+	"Kugel #1" = 5
+	"Yavdi #2" = 20
 	"Dobroslav #1" = 10
-	"Esin #0" = -1
-	"Eunike #0" = 0
-	"Eusebia #0" = -1
-	"Giorgi #1" = 10
-	"Illona #1" = -1
-	"Ilyas #0" = 0
-	"Ipekel #0" = -1
-	"Konel #0" = -1
-	"Kortan #0" = 0
-	"Kostas #0" = 0
-	"Kugel #1" = 10
-	"Malfrida #0" = -1
+	"Artyo #1" = 10
+	"Andrei #1" = 10
 	"Samuel #1" = 10
-	"Songul #0" = 0
-	"Temir #0" = 0
-	"Yavdi #2" = 10
-	"Yeke #0" = -1
-	"Yemelyan #0" = 0
+	"Ilona #1" = -1
+	"Bator #2" = 20
+
+	# RANDOM NAMES - MALE
+	"Alexandru #0" = 160
+	"Radu #0" = 120
+	"Vlad #0" = 120
+	"Mihail #0" = 80
+	"Mircea #0" = 80
+	"George #0" = 60
+	"Mihnea #0" = 60
+	"Nicolae #0" = 60
+	"Besarab #0" = 40
+	"Vladislav #0" = 40
+	"Mattia #0" = 40
+	"Petru #0" = 40
+	"Radu Ilias #0" = 40
+	"Scarlat #0" = 40
+	"Stefan #0" = 40
+	"Dan #0" = 20
+	"Alexandru Ilias #0" = 20
+	"Gabriel #0" = 20
+	"Ioan George #0" = 20
+	"Leon #0" = 20
+	"Moise #0" = 20
+	"Neagoie Besarab #0" = 20
+	"Petrascu #0" = 20
+	"Radu Leon #0" = 20
+	"Radu Mihnea #0" = 20
+	"Serban #0" = 20
+	"Simeon #0" = 20
+	"Teodosiu #0" = 20
+	"Vintila #0" = 20
+	"Vladut #0" = 20
+	"Milos #0" = 10
+	"Corneliu #0" = 0
+	"Flaviu #0" = 0
+	"Iuliu #0" = 0
+	"Octavian #0" = 0
+	"Sergiu #0" = 0
+	"Teodor #0" = 0
+	"Valeriu #0" = 0
+	
+	# RANDOM NAMES - FEMALE
+	"Rahela #0" = -1
+	"Flavia #0" = -1
+	"Cosmina #0" = -1
 }
+
 leader_names = {
-	"Andrukhovych"
-	"Cheremshyna"
-	"Dukhnovych"
-	"Holovatskyi"
-	"Hutsalo"
-	"Khvylovy"
-	"Kobylyanska"
-	"Korniychuk"
-	"Kostomarov"
-	"Kulish"
-	"Kvitka"
-	"Marinina"
-	"Palahniuk"
-	"Pokalchuk"
-	"Shashkevych"
-	"Stefanyk"
-	"Stelmakh"
-	"Tobilevich"
-	"Vovchok"
-	"Vyshnia"
-	"Zabara"
+	Basarab Brâncoveanu
+	Cantacuzino Caragea Craiovescu
+	Dracul Duca
+	Ghica Golescu
+	Ilias Ipsilanti
+	Mavrocordat Mircea Moruzi
+	Racovita
+	Sutu 
+	Tepelus Tolmay
+	Vacarescu Voda
 }
+
 ship_names = {
-	"Akimivka"
-	"Dnieper"
-	"Energodar"
-	"Guliajpole"
-	"Khortytsia"
-	"Melitopol"
-	"Mikhaylovka"
-	"Orekhov"
-	"Pologi"
-	"Tokmak"
-	"Vesele"
-	"Viliansk"
-	"Zaporizhia Sich"
-	"Zaporozhian Voisko"
+	Dracul
+	Viteazul
+	Putera mari
+	Sperietoaria
+	"Frumuseatsa valurilor"
+	Posada
+	Calugareni
+	Rovine
+	Sirmium
+	"Atacul de noapte"
+	Litovoi
+}
+
+army_names = {
+	"Oastea de $PROVINCE$" 
 }

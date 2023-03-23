@@ -1,6 +1,7 @@
 graphical_culture = muslimgfx
+
 color = { 30 170 50 }
-revolutionary_colors = { 2 8 2 }
+
 historical_idea_groups = {
 	defensive_ideas
 	offensive_ideas
@@ -11,6 +12,7 @@ historical_idea_groups = {
 	religious_ideas
 	innovativeness_ideas
 }
+
 historical_units = {
 	bardiche_infantry
 	druzhina_cavalry
@@ -29,68 +31,49 @@ historical_units = {
 	russian_petrine
 	slavic_stradioti
 }
+
 monarch_names = {
-	"Andrei #1" = 10
+	# RP RULER NAMES
+	"Bator #2" = 20
+	"Yavdi #1" = 10
+	"Tatus #1" = 10
+	"Ismail #1" = 10
+
+	# RANDOM NAMES
+	"Andrei #0" = 10
 	"Baitzas #0" = 0
-	"Bator #2" = 10
 	"Biçkili #0" = 0
-	"Cyrus #1" = 10
-	"Dobroslav #1" = 10
+	"Cyrus #0" = 10
+	"Dobroslav #0" = 10
 	"Esin #0" = -1
 	"Eunike #0" = 0
 	"Eusebia #0" = -1
-	"Giorgi #1" = 10
-	"Illona #1" = -1
+	"Giorgi #0" = 10
+	"Illona #0" = -1
 	"Ilyas #0" = 0
 	"Ipekel #0" = -1
 	"Konel #0" = -1
 	"Kortan #0" = 0
 	"Kostas #0" = 0
-	"Kugel #1" = 10
+	"Kugel #0" = 10
 	"Malfrida #0" = -1
-	"Samuel #1" = 10
-	"Songul #0" = 0
+	"Samuel #0" = 10
 	"Temir #0" = 0
-	"Yavdi #2" = 10
 	"Yeke #0" = -1
 	"Yemelyan #0" = 0
 }
-leader_names = {
-	"Andrukhovych"
-	"Cheremshyna"
-	"Dukhnovych"
-	"Holovatskyi"
-	"Hutsalo"
-	"Khvylovy"
-	"Kobylyanska"
-	"Korniychuk"
-	"Kostomarov"
-	"Kulish"
-	"Kvitka"
-	"Marinina"
-	"Palahniuk"
-	"Pokalchuk"
-	"Shashkevych"
-	"Stefanyk"
-	"Stelmakh"
-	"Tobilevich"
-	"Vovchok"
-	"Vyshnia"
-	"Zabara"
+
+leader_names = { 
+	"Bayan Arslan" "Mongke Cheren" "Mongke Bayar" "Suren Chinua" "Oyugun Nasan"
+	"Bora Tolui" Qadancher Batulun Batutai Bokejin Arighqan Burilgiteni
+	Bayarnai Subegene Tegusdai Yekedei
 }
+
 ship_names = {
-	"Akimivka"
-	"Dnieper"
-	"Energodar"
-	"Guliajpole"
-	"Khortytsia"
-	"Melitopol"
-	"Mikhaylovka"
-	"Orekhov"
-	"Pologi"
-	"Tokmak"
-	"Vesele"
-	"Viliansk"
-	"Zaporizhia Sich"
-	"Zaporozhian Voisko"
+	Khwarezm Urganj "Din Muhammad" "Yelu Dashi"
+	Kunya "Amu Darya" "Anush Tigin" "Ala Aziz"
+	"Ahmed Sanjar" "Ala Takish" "Jaxartes"
+	"Syr Darya" "Bukhara" "Jalal Mingburnu"
+	"Abu Mamun" "Abu Hasan Ali" "Altun Yash"
+	Harun "Ismail Khandan"
 }

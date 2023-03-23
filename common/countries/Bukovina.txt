@@ -3,7 +3,6 @@
 graphical_culture = easterngfx
 
 color = { 227 206 149 }
-revolutionary_colors = { 15 8 5 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -17,94 +16,117 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	eastern_medieval_infantry
-	eastern_knights
-	slavic_stradioti
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
 	eastern_militia
-	ottoman_sekban
-	ottoman_reformed_spahi
-	ottoman_reformed_janissary
-	ottoman_toprakli_hit_and_run
-	ottoman_nizami_cedid
-	ottoman_toprakli_dragoon
 	eastern_skirmisher
 	eastern_uhlan
-	eastern_carabinier
-	ottoman_new_model
-	ottoman_lancer
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
 }
 
 monarch_names = {
-	"Alexandru #0" = 280
-	"Stefan #1" = 180
-	"Constantin #0" = 120
-	"Mihail #0" = 80
-	"Grigore #0" = 60
-	"Ioan #0" = 60
-	"Petru #2" = 40
-	"Bogdan #1" = 40
-	"Antioh #0" = 40
-	"Ilias #0" = 40
-	"Scarlat #0" = 40
-	"Stefanito #0" = 40
-	"George #0" = 40
-	"Petru #2 Aron" = 20
-	"Aron #0" = 20
-	"Dimitrie #0" = 20
-	"Dumitrascu #0" = 20
-	"Emanuel #0" = 20
-	"Eustratius #0" = 20
-	"Gaspar #0" = 20
-	"George Stefan #0" = 20
-	"Iancu #0" = 20
-	"Ilias Alexandru #0" = 20
-	"Ioan #0 Iacob" = 20
-	"Ioan Teodoru #0" = 20
-	"Iuga #0" = 20
-	"Jeremie #0" = 20
-	"Matvei #0" = 20
-	"Milos #0" = 20
-	"Moise #0" = 20
-	"Nicolae #0" = 20
-	"Radu #0" = 20
-	"Simeon #0" = 20
-	"Vasile #0" = 20
-	"Ioan #0 Bogdan" = 15
-	"Sergei #0" = 10
-	"Roman #2" = 5
-	"Andrei #0" = 0
-	"Iulian #0" = 0
-	"Mircea #0" = 0
+	# RP RULER NAMES
+	"Olek #1" = 10
+	"Aristarkh #1" = 10
+	"Volodar #1" = 10
+	"Veleslava #1" = -1
+	"Fevronia #1" = -1
+	"Trifon #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Ivan #0" = 60
+	"Fedir #0" = 20
+	"Oleksander #0" = 20
+	"Mikhailo #0" = 15
+	"Yaroslav #0" = 15
+	"Danylo #0" = 10
+	"Rostislav #0" = 10
+	"Vassyl #0" = 10
+	"Volodymyr #0" = 10
+	"Yuriy #0" = 10
+	"Andriy #0" = 0
+	"Bogdan #0" = 0
+	"Bohuslav #0" = 0
+	"Borysko #0" = 0
+	"Boyko #0" = 0
+	"Demyan #0" = 0
+	"Dmytro #0" = 0
+	"Hryhoriy #0" = 0
+	"Kristiyan #0" = 0
+	"Kyrylo #0" = 0
+	"Maksym #0" = 0
+	"Marko #0" = 0
+	"Matviyko #0" = 0
+	"Mecheslav #0" = 0
+	"Mykola #0" = 0
+	"Myroslav #0" = 0
+	"Nykon #0" = 0
+	"Oleksiy #0" = 0
+	"Pavlo #0" = 0
+	"Petro #0" = 0
+	"Pylip #0" = 0
+	"Radomyr #0" = 0
+	"Stepan #0" = 0
+	"Svyatoslav #0" = 0
+	"Symon #0" = 0
+	"Taras #0" = 0
+	"Yakiv #0" = 0
+	"Yevhevniy #0" = 0
+	"Yosip #0" = 0
 	
-	"Camelia #0" = -1
-	"Doina #0" = -1
-	"Olga #0" = -1
+	# RANDOM NAMES - FEMALE
+	"Kalyna #0" = -1
+	"Oxana #0" = -1
+	"Zoya #0" = -1
 }
 
 leader_names = {
-	Callimachi Campineanu Cantacuzino Cantemir Caragea Craiovescu
-	Duca
-	Ghica
-	Ilias
-	Lupu
-	Mavrocordat Moruzi Movila Musatin
-	Norocea 
-	Racovita Ruset                         
-	Sturdza Sutu
-	Voda
+	"Andrukhovych"
+	"Cheremshyna"
+	"Dukhnovych"
+	"Holovatskyi"
+	"Hutsalo"
+	"Khvylovy"
+	"Kobylyanska"
+	"Korniychuk"
+	"Kostomarov"
+	"Kulish"
+	"Kvitka"
+	"Marinina"
+	"Palahniuk"
+	"Pokalchuk"
+	"Shashkevych"
+	"Stefanyk"
+	"Stelmakh"
+	"Tobilevich"
+	"Vovchok"
+	"Vyshnia"
+	"Zabara"
 }
 
 ship_names = {
-	"Athleta Christi"
-	Baia "Bogdan I"
-	Iuga
-	Moldova
-	"Râul Prut"
-	"Stefan cel Mare" Suceava
-	"Târgul Moldovei"
-	Vaslui
-}
-
-army_names = {
-	"Oastea de $PROVINCE$" 
+	"Akimivka"
+	"Dnieper"
+	"Energodar"
+	"Guliajpole"
+	"Khortytsia"
+	"Melitopol"
+	"Mikhaylovka"
+	"Orekhov"
+	"Pologi"
+	"Tokmak"
+	"Vesele"
+	"Viliansk"
+	"Zaporizhia Sich"
+	"Zaporozhian Voisko"
 }
