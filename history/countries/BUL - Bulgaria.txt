@@ -1,34 +1,20 @@
 government = monarchy
-government_rank = 1
 add_government_reform = feudalism_reform
-technology_group = eastern
+government_rank = 1
 primary_culture = bulgarian
 religion = orthodox
-capital = 4704	# Tarnovo
-historical_rival = BYZ
+technology_group = eastern
+capital = 1765	# Sofia
 
-
-1397.7.17 = { capital = 7706 }			#Tarnovo falls. Could move capital about a bunch here, but just moving it directly to Lovech, because simplicity.
-
-#lovech at this point, by JP
-
-1440.1.1 = {
+1435.10.21 = {
 	monarch = {
-		name = "Stanko"
-		dynasty = "Kossan"
-		birth_date = 1420.1.1 #approximate date, makes him 26 upon conquest
-		death_date = 1480.1.1 #approximate date, makes him die at 60
-		adm = 2
-		dip = 5 #lasted decades after the collapse of the rest of Bulgaria
-		mil = 3 #strong fortress and defender of the city
-		leader = {
-			name = "Stanko Kossan" #thought I'd give him half decent stats, he doesn't stand a chance anyway
-			type = general
-			fire = 2
-			shock = 4
-			manuever = 3
-			siege = 0
-		}
+		name = "Simeon II"
+		dynasty = "Prodanic"
+		adm = 5
+		dip = 5
+		mil = 6
+		birth_date = 1399.11.19
+		religion = orthodox
+		culture = bulgarian
 	}
-	add_ruler_personality = careful_personality			
 }

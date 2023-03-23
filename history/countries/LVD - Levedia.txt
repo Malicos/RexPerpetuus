@@ -1,52 +1,22 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 2
-technology_group = ottoman
+government_rank = 1
+technology_group = eastern
 religion = orthodox
-primary_culture = patzinac
-capital = 282
-1444.11.11= {
+primary_culture = qangar
+capital = 2412
+fixed_capital = 2412
+
+1420.11.30 = {
 	monarch = {
-		name = "Bator II"
-		dynasty = "Batorid"
-		adm = 2
-		dip = 5
-		mil = 3
-		birth_date = 1408.5.6
-		religion = orthodox
-		culture = patzinac
-	}
-	add_ruler_personality = free_thinker_personality
-	add_ruler_personality = kind_hearted_personality
-	queen = {
-		name = "Eusebia"
-		dynasty = "Diogenes-Breznik"
+		name = "Songul"
+		dynasty = "Samurid"
 		adm = 3
-		dip = 5
+		dip = 3
 		mil = 3
-		country_of_origin = ZAZ
-		birth_date = 1418.11.30
-		death_date = 1478.11.30
-		female = yes
+		birth_date = 1376.4.12
 		religion = orthodox
-		culture = greek
-	}
-	add_queen_personality = strict_personality
-	add_queen_personality = tactical_genius_personality
-	heir = {
-		name = "Esin"
-		monarch_name = "Esin"
-		dynasty = "Tzopon"
-		adm = 3
-		dip = 6
-		mil = 4
-		birth_date = 1404.1.26
-		death_date = 1469.1.26
+		culture = qangar
 		female = yes
-		claim = 89
-		religion = orthodox
-		culture = patzinac
 	}
-	add_heir_personality = fertile_personality
-	add_heir_personality = tactical_genius_personality
 }
