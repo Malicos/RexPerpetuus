@@ -13,7 +13,7 @@
 #7 - Poland
 #8 - Russia
 #9 - Balkans
-#10 - Hungary
+#10 - Hungary, Dacia and Tauric Steppe
 #11 - Spain
 #12 - Christian Levant and Egypt
 
@@ -1039,6 +1039,31 @@ march = {
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
+
+# Paccinacia and Levedia
+vassal = {
+	first = PEC
+	second = LVD
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Union of Paccinacia and Moldavia
+union = {
+	first = PEC
+	second = MOL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Cumania and Qangaria
+vassal = {
+	first = CUM
+	second = QGR
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 
 ####################################################################
 # 11 - Spain
