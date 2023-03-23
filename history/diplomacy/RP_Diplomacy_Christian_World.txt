@@ -1048,6 +1048,15 @@ vassal = {
 	end_date = 1836.1.1
 }
 
+# Paccinacia and Bukovina
+vassal = {
+	subject_type = fiefdom_bt
+	first = PEC
+	second = BKV
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Union of Paccinacia and Moldavia
 union = {
 	first = PEC
