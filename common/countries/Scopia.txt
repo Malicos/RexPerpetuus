@@ -37,15 +37,29 @@ historical_units = {
 }
 
 monarch_names = {
-	"Alexios #3" = 20
-	"Ioannes #3" = 20
-	"Manuel #2" = 20
-	"David #0" = 20
-	"Basileios #1" = 15
-	"Skantarios #0" = 15
-	"Andronikos #3" = 10
+	# RP RULER NAMES
+	"Nikephoros #1" = 10
+	"Gregorios #1" = 10
+	"Markia #1" = -1
+	"Adrianos #1" = 10
+	"Theophilos #1" = 10
 	"Michael #1" = 10
-	"Georgios #1" = 10
+	"Anna #1" = -1
+	"Euphrasia #1" = -1
+	"Iouliana #2" = -5
+	"Isaakios #3" = 60
+	"Pavlos #1" = 10
+	"Aristarchos #2" = 10
+
+	# RANDOM NAMES - MALE
+	"Alexios #0" = 20
+	"Ioannes #0" = 20
+	"Manuel #0" = 20
+	"David #0" = 20
+	"Basileios #0" = 15
+	"Skantarios #0" = 15
+	"Andronikos #0" = 10
+	"Georgios #0" = 10
 	"Aineias #0" = 0
 	"Alexandros #0" = 0
 	"Ambrosios #0" = 0
@@ -56,7 +70,6 @@ monarch_names = {
 	"Dionysos #0" = 0
 	"Eirenaios #0" = 0
 	"Elpidios #0" = 0
-	"Gregorios #0" = 0
 	"Hektor #0" = 0
 	"Herakles #0" = 0
 	"Hermes #0" = 0
@@ -70,7 +83,6 @@ monarch_names = {
 	"Nikomedes #0" = 0
 	"Orestes #0" = 0
 	"Palaemon #0" = 0
-	"Pavlos #0" = 0
 	"Pelagios #0" = 0
 	"Petros #0" = 0
 	"Philemon #0" = 0
@@ -80,6 +92,7 @@ monarch_names = {
 	"Theodoros #0" = 0
 	"Timotheos #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Maria #0" = -1
 	"Photine #0" = -1
 	"Sotiria #0" = -1
