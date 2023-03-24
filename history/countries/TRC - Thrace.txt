@@ -1,6 +1,20 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = rhomanian_tech
+government_rank = 1
 primary_culture = thracian
 religion = orthodox
-capital = 146	# Athens
+technology_group = rhomanian_tech
+capital = 149	# Edirne
+
+1435.10.9 = {
+	monarch = {
+		name = "Iason"
+		dynasty = "Madytenos"
+		adm = 5
+		dip = 4
+		mil = 4
+		birth_date = 1407.3.17
+		religion = orthodox
+		culture = thracian
+	}
+}
