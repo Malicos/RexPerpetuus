@@ -1004,14 +1004,6 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# Union of Athens and Thessaly
-union = {
-	first = ATH
-	second = TSY
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Macedonia - Philippopolis Alliance
 alliance = {
 	first = MDN
