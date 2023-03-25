@@ -1,9 +1,9 @@
 #BT GDL reoverhaul
 
-owner = PEC
-controller = PEC
-add_core = PEC
-culture = patzinac
+owner = BIS
+controller = BIS
+add_core = BIS
+culture = bisseni
 religion = orthodox
 capital = "Tyagyanyakyacha"
 base_tax = 2

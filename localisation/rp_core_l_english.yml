@@ -57,7 +57,7 @@
  atins:0 "Atin"
  ###Dacian###
  moldavian_culture:0 "Moldavian"
- patzinac:0 "Paccinac"   # Daco-Turkic Pecheneg
+ bisseni:0 "Bisseni"   # Daco-Turkic Pecheneg
  
  ####Celtic####
  ###Brythonic###
@@ -454,6 +454,8 @@
  BGR_ADJ:0 "Bialogardian"
  BGS:0 "Burgas"
  BGS_ADJ:0 "Burgan"
+ BIS:0 "Bissenia"
+ BIS_ADJ:0 "Bisseni"
  BKV:0 "Bukovina"
  BKV_ADJ:0 "Bukovinan"
  BNT:0 "Banat"
@@ -496,8 +498,6 @@
  LGT_ADJ:0 "Latgalian"
  PCS:0 "Phocis"
  PCS_ADJ:0 "Phocean"
- PEC:0 "Paccinacia"
- PEC_ADJ:0 "Paccinac"
  PNS:0 "Pinsk"
  PNS_ADJ:0 "Pinskian"
  SGR:0 "Starogard"

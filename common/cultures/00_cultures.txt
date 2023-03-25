@@ -12276,7 +12276,7 @@ dacian = {
 			Tereza Teresa Vasilica Violeta Yolanda Voica Zina
 		}
 	}
-	patzinac = { 
+	bisseni = { 
 		dynasty_names = {
 			"Basarab" "Danesti" "Draculesti"
 			Callimachi Ghica Cantacuzino Cantemiresti Racovita Caradja Sturdza 

@@ -1,9 +1,9 @@
 #BT GDL reoverhaul
 
-owner = PEC
-controller = PEC
-add_core = PEC
-culture = patzinac
+owner = BIS
+controller = BIS
+add_core = BIS
+culture = bisseni
 religion = orthodox
 capital = "Olviopol"			#Insignificant village probably founded in the 16th or maybe late 15th century, but nothing better is showing up easily
 base_tax = 1
