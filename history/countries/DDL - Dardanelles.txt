@@ -1,6 +1,21 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = rhomanian_tech
+government_rank = 1
 primary_culture = thracian
 religion = orthodox
-capital = 146	# Athens
+technology_group = rhomanian_tech
+capital = 4779 # Gallipoli
+fixed_capital = 4779
+
+1417.12.7 = {
+	monarch = {
+		name = "Basileios II"
+		dynasty = "Makrembolites"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1386.2.19
+		religion = orthodox
+		culture = thracian
+	}
+}

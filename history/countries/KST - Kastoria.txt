@@ -1,6 +1,21 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = eastern
-primary_culture = aromanian
+government_rank = 1
+primary_culture = aromanian_culture
 religion = orthodox
+technology_group = rhomanian_tech
 capital = 1853
+fixed_capital = 1853
+
+1410.5.17 = {
+	monarch = {
+		name = "Aristarchos II"
+		dynasty = "Synadenos"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1395.2.12
+		religion = orthodox
+		culture = aromanian_culture
+	}
+}

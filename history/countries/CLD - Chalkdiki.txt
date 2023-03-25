@@ -1,6 +1,21 @@
-government = monarchy
-add_government_reform = feudalism_reform
-technology_group = rhomanian_tech
+government = theocracy
+add_government_reform = leading_clergy_reform
+government_rank = 1
 primary_culture = macedonian
 religion = orthodox
-capital = 146	# Athens
+technology_group = rhomanian_tech
+capital = 7120	# Chalkidiki
+fixed_capital = 7120 # Cannot move capital away from this province & no power cost to move to it
+
+1390.12.11 = {
+	monarch = {
+		name = "Konstantinos"
+		dynasty = "Amiropoulos"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1372.8.2
+		religion = orthodox
+		culture = mikrasiatic
+	}
+}

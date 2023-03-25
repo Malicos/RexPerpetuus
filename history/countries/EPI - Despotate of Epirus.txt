@@ -1,59 +1,21 @@
 government = monarchy
 add_government_reform = autocracy_reform
-government_rank = 1
-technology_group = rhomanian_tech
+government_rank = 2
 primary_culture = epirotan
 add_accepted_culture = albanian
 religion = orthodox
-capital = 4699
-fixed_capital = 4699 # Cannot move capital away from this province & no power cost to move to it
+technology_group = rhomanian_tech
+capital = 144
 
-1385.1.1 = {
+1418.5.29 = {
 	monarch = {
-		name = "Esau I"
-		dynasty = "de Buondelmonti"
-		dip = 1
-		adm = 1
-		mil = 2
-	}
-}
-
-1411.2.6 = {
-	monarch = {
-		name = "Giorgio I"
-		dynasty = "de Buondelmonti"
-		dip = 0
-		adm = 0
-		mil = 0
-	}
-}
-
-1411.2.26 = {
-	monarch = {
-		name = "Carlo I"
-		dynasty = "Tocco"
-		dip = 4
-		adm = 4
-		mil = 3
-	}
-}
-
-1429.6.4 = {
-	monarch = {
-		name = "Carlo II"
-		dynasty = "Tocco"
-		dip = 0
-		adm = 1
-		mil = 3
-	}
-}
-
-1448.9.30 = {
-	monarch = {
-		name = "Leonardo"
-		dynasty = "Tocco"
-		dip = 1
-		adm = 2
-		mil = 3
+		name = "Anthemios"
+		dynasty = "Monokarites"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1394.9.24
+		religion = orthodox
+		culture = epirotan
 	}
 }

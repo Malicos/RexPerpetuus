@@ -1,6 +1,18 @@
-government = monarchy
-add_government_reform = feudalism_reform
-technology_group = eastern
+government = republic
+add_government_reform = peasants_republic
+government_rank = 1
 primary_culture = arvanite
 religion = orthodox
+technology_group = rhomanian_tech
 capital = 7114
+fixed_capital = 7114
+
+1444.11.11 = {
+      monarch = {
+           name = "Local Council"
+           adm = 3
+           dip = 3
+           mil = 2
+           regent = yes
+      }
+}

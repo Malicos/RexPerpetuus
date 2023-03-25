@@ -1,6 +1,21 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = rhomanian_tech
+government_rank = 1
 primary_culture = epirotan
 religion = orthodox
-capital = 146	# Athens
+technology_group = rhomanian_tech
+capital = 3175	# Aetolia
+fixed_capital = 3175
+
+1419.9.22 = {
+	monarch = {
+		name = "Hypatios"
+		dynasty = "Lidoriki"
+		adm = 4
+		dip = 4
+		mil = 2
+		birth_date = 1406.9.24
+		religion = orthodox
+		culture = epirotan
+	}
+}

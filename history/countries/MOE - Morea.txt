@@ -1,8 +1,23 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2	# Greek Despotate
-technology_group = rhomanian_tech	# Rhomaion
-primary_culture = morean
-religion = orthodox
+primary_culture = venetian
+add_accepted_culture = morean
+religion = catholic
+technology_group = western
 capital = 145	# Nafplio
 fixed_capital = 145 # Cannot move capital away from this province & no power cost to move to it
+
+1415.12.27 = {
+	monarch = {
+		name = "Antipatra"
+		dynasty = "Loredano"
+		adm = 4
+		dip = 5
+		mil = 3
+		birth_date = 1408.1.27
+		religion = catholic
+		culture = venetian
+		female = yes
+	}
+}
