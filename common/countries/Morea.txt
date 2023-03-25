@@ -3,7 +3,6 @@
 graphical_culture = easterngfx
 
 color = { 246 188 0 }
-revolutionary_colors = { 4 8 4 }
 
 historical_idea_groups = {
 	maritime_ideas
@@ -36,49 +35,61 @@ historical_units = {
 }
 
 monarch_names = {
-	"Theodoros #0" = 40
-	"Demetrios #1" = 20
-	"Thomas #0" = 15
-	"Manuel #2" = 10
-	"Andreas #1" = 10
-	"Ioannes #1" = 10
-	"Konstantinos #1" = 10
-	"Aineias #0" = 0
+	# RP RULER NAMES
+	"Timotheos #1" = 10
+	"Samuel #2" = 20
+	"Pavlina #1" = -1
+	"Gabriel #1" = 10
+	"Theodoro #1" = 10
+	"Sergius #1" = 10
+	"Antipatra #1" = -1
+
+	# RANDOM NAMES - MALE
+	"Thomas #0" = 20
+	"Michael #0" = 20
+	"Nikephoros #0" = 20
+	"Nicholas #0" = 10
+	"Giovanni #0" = 10
+	"Theodore #0" = 5
+	"Maria #0" = -5
+	"Simeon #0" = 5
+	"Agapios #0" = 0
+	"Akakios #0" = 0
 	"Alexandros #0" = 0
-	"Ambrosios #0" = 0
-	"Aristoteles #0" = 0
-	"Bartholomaios #0" = 0
+	"Anargyros #0" = 0
+	"Anastasios #0" = 0
+	"Andreas #0" = 0
+	"Angelos #0" = 0
+	"Aniketos #0" = 0
+	"Apostolos #0" = 0
+	"Argyros #0" = 0
+	"Athanasios #0" = 0
+	"Charalampos #0" = 0
 	"Chrysanthos #0" = 0
-	"Diogenes #0" = 0
-	"Dionysos #0" = 0
-	"Eirenaios #0" = 0
-	"Elpidios #0" = 0
+	"Demetrios #0" = 0
+	"Dimosthenes #0" = 0
+	"Dionysios #0" = 0
+	"Dorotheos #0" = 0
+	"Eleftherios #0" = 0
+	"Elias #0" = 0
+	"Emmanouil #0" = 0
+	"Evangelos #0" = 0
+	"Georgios #0" = 0
 	"Gregorios #0" = 0
-	"Hektor #0" = 0
-	"Herakles #0" = 0
-	"Hermes #0" = 0
-	"Iason #0" = 0
-	"Iosephos #0" = 0
-	"Kastor #0" = 0
-	"Kreon #0" = 0
-	"Matthaios #0" = 0
-	"Nestor #0" = 0
-	"Nikolaos #0" = 0
-	"Nikomedes #0" = 0
-	"Orestes #0" = 0
-	"Palaemon #0" = 0
+	"Ioannes #0" = 0
+	"Konstantinos #0" = 0
 	"Pavlos #0" = 0
-	"Pelagios #0" = 0
 	"Petros #0" = 0
-	"Philemon #0" = 0
 	"Philippos #0" = 0
-	"Prokopios #0" = 0
-	"Stefanos #0" = 0
-	"Timotheos #0" = 0
+	"Photios #0" = 0
+	"Stephanos #0" = 0
+	"Theophylaktos #0" = 0
+	"Vasilis #0" = 0
+	"Vlasis #0" = 0
 	
-	"Helene #0" = -10
-	"Anna #0" = -1
-	"Maria #0" = -1
+	# RANDOM NAMES - FEMALE
+	"Sibylla #0" = -1
+	"Xenia #0" = -1
 }	
 
 leader_names = { 

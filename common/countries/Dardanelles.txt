@@ -37,13 +37,28 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Theodoros #1" = 10
+	"Narses #1" = 10
+	"Konstantinos #1" = 10
+	"Ioannes #2" = 20
+	"Michael #1" = 10
+	"Megistos #2" = 20
+	"Antiochos #1" = 10
+	"Hypatios #1" = 10
+	"Thomas #3" = 60
+	"Anthemios #1" = 10
+	"Ioustinos #1" = 10
+	"Basileios #2" = 20
+
+	# RANDOM NAMES - MALE
 	"Georgios #0" = 40
 	"Alexandros #0" = 20
-	"Konstantinos #0" = 20
 	"Pavlos #0" = 15
 	"Andreas #0" = 10
 	"Nikolaos #0" = 10
 
+	# RANDOM NAMES - FEMALE
 	"Alexandra #0" = -10
 	"Antonia #0" = -5
 	"Anna #0" = -5
@@ -56,12 +71,11 @@ monarch_names = {
 	"Sevasti #0" = -1
 	"Sophia #0" = -1
 	
-
+	# OTHER RANDOM
 	"Aineias #0" = 0
 	"Alexeios #0" = 0
 	"Ambrosios #0" = 0
 	"Bartholomaios #0" = 0
-	"Basileios #0" = 0
 	"Chrysanthos #0" = 0
 	"David #0" = 0
 	"Dimitrios #0" = 0
@@ -73,7 +87,6 @@ monarch_names = {
 	"Hektor #0" = 0
 	"Herakles #0" = 0
 	"Iason #0" = 0
-	"Ioannes #0" = 0
 	"Kastor #0" = 0
 	"Lambros #0" = 0
 	"Manuel #0" = 0
@@ -90,8 +103,6 @@ monarch_names = {
 	"Skantarios #0" = 0
 	"Stefanos #0" = 0
 	"Tasos #0" = 0
-	"Theodoros #0" = 0
-	"Thomas #0" = 0
 }
 
 leader_names = {
