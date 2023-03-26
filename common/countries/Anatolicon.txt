@@ -35,6 +35,12 @@ historical_units = {					#Copied from Armenia for now
 }
 
 monarch_names = {					#Copied from Greece for now
+	# RP RULER NAMES
+	"Anastasios #1" = 10
+	"Chrysogonos #3" = 60
+	"Aristarchus #1" = 10
+
+	# RANDOM NAMES
 	"Georgios #0" = 40
 	"Alexandros #0" = 20
 	"Konstantinos #0" = 20

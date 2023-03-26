@@ -1,6 +1,19 @@
 government = republic
 add_government_reform = merchants_reform
-technology_group = rhomanian_tech
+government_rank = 1
+mercantilism = 25
 primary_culture = pamphylian
 religion = orthodox
+technology_group = rhomanian_tech
 capital = 5147
+fixed_capital = 5147
+
+1444.11.11 = {
+      monarch = {
+           name = "Noble Council"
+           adm = 3
+           dip = 3
+           mil = 2
+           regent = yes
+      }
+}
