@@ -1,6 +1,22 @@
 government = monarchy
 add_government_reform = feudalism_reform
+government_rank = 1
 technology_group = rhomanian_tech
 primary_culture = mikrasiatic
 religion = orthodox
-capital = 146	# Athens
+capital = 5172 # Athens
+fixed_capital = 5172
+
+1440.12.5 = {
+	monarch = {
+		name = "Eugenia"
+		dynasty = "Diogenes"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1409.2.17
+		religion = orthodox
+		culture = mikrasiatic
+		female = yes
+	}
+}
