@@ -35,10 +35,18 @@ historical_units = {					#Copied from Armenia for now
 }
 
 monarch_names = {					#Copied from Greece for now
+	# RP RULER NAMES
+	"Eugenios #1" = 10
+	"Valerios #1" = 10
+	"Anastasia #1" = -1
+	"Theodoros #1" = 10
+	"Theodoulos #1" = 10
+	"Pavlos #4" = 80
+
+	# RANDOM NAMES
 	"Georgios #0" = 40
 	"Alexandros #0" = 20
 	"Konstantinos #0" = 20
-	"Pavlos #0" = 15
 	"Andreas #0" = 10
 	"Alexandra #0" = -10
 	"Nikolaos #0" = 10
@@ -73,7 +81,6 @@ monarch_names = {					#Copied from Greece for now
 	"Prokopios #0" = 0
 	"Skantarios #0" = 0
 	"Stefanos #0" = 0
-	"Theodoros #0" = 0
 	"Thomas #0" = 0
 }
 

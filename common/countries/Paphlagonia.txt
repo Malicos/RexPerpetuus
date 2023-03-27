@@ -3,7 +3,6 @@
 graphical_culture = easterngfx
 
 color = { 231 74 177 } 
-revolutionary_colors = { 1  0  1 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -37,17 +36,24 @@ historical_units = {
 }
 
 monarch_names = {
-	"Alexios #3" = 20
-	"Ioannes #3" = 20
-	"Manuel #2" = 20
+	# RP RULER NAMES
+	"Alexandros #1" = 10
+	"Evanthia #1" = -1
+	"Chrysogone #1" = -1
+	"Lazaros #1" = 10
+	"Hypatia #1" = -1
+
+	# RANDOM NAMES - MALE
+	"Alexios #0" = 20
+	"Ioannes #0" = 20
+	"Manuel #0" = 20
 	"David #0" = 20
-	"Basileios #1" = 15
+	"Basileios #0" = 15
 	"Skantarios #0" = 15
-	"Andronikos #3" = 10
-	"Michael #1" = 10
-	"Georgios #1" = 10
+	"Andronikos #0" = 10
+	"Michael #0" = 10
+	"Georgios #0" = 10
 	"Aineias #0" = 0
-	"Alexandros #0" = 0
 	"Ambrosios #0" = 0
 	"Aristoteles #0" = 0
 	"Bartholomaios #0" = 0
@@ -80,6 +86,7 @@ monarch_names = {
 	"Theodoros #0" = 0
 	"Timotheos #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Maria #0" = -1
 	"Photine #0" = -1
 	"Sotiria #0" = -1

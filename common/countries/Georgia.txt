@@ -37,13 +37,26 @@ historical_units = {
 }
 
 monarch_names = {
-	"Giorgi #6" = 120
-	"David #9" = 60
-	"Vakhtang #3" = 60
-	"Bagrat #5" = 40
+	# RP RULER NAMES
+	"Giorgi #2" = 20
+	"Bagrat #3" = 60
+	"Gurgen #1" = 10
+	"Mathiko #1" = -1
+	"Elene #1" = -1
+	"Mikheil #1" = 10
+	"Konstantine #2" = 20
+	"Nikoletta #1" = -1
+	"Daniel #1" = 10
+	"Robert #2" = 20
+	"Polykarpos #1" = 10
+	"Ioane #1" = 10
+	"Euphemios #3" = 60
+
+	# RANDOM NAMES
+	"David #0" = 60
+	"Vakhtang #0" = 60
 	"Aleksandre #0" = 20
 	"Erekle #0" = 40
-	"Konstantine #0" = 40
 	"Luarsab #0" = 40
 	"Simon #0" = 40
 	"Teimuraz #0" = 40
@@ -53,7 +66,7 @@ monarch_names = {
 	"Kaikhosro #0" = 10
 	"Rostom #0" = 10
 	"Levan #0" = 15
-	"Demetre #2" = 20
+	"Demetre #0" = 20
 		
 	"Bebur #0" = 0
 	"Torgva #0" = 0
@@ -76,7 +89,6 @@ monarch_names = {
 	"Bidzina #0" = 0
 	"Nikoloz #0" = 0
 	"Garsevan #0" = 0
-	"Ioane #0" = 0
 #IMERETI
 	"Datua #0" = 0
 	"Bezhan #0" = 0
@@ -104,14 +116,13 @@ monarch_names = {
 	"Ivane #0" = 0
 	
 #QUEENS
-	"Tamar #1" = -20
-	"Rusudan #1" = -10
+	"Tamar #0" = -20
+	"Rusudan #0" = -10
 	"Nestan-Darejan #0" = -10
 	"Darejan #0" = -5
 	"Ketevan #0" = -5
 	"Tinatin #0" = -5
 	"Nino #0" = -1
-	"Elene #0" = -1
 	"Ana #0" = -1
 	"Mariam #0" = -1
 	"Khoreshan #0" = -1

@@ -37,14 +37,20 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Vahram #1" = 15
+	"Aristakes #1" = 15
+	"Nerseh #1" = 15
+
+	# RANDOM NAMES - MALE
 	"David #0" = 20
 	"Mkhitar #0" = 20
-	"Ashot #4" = 15
-	"Gagik #2" = 15
-	"Smbat #3" = 15
-	"Abbas #1" = 15
-	"Hovhannes Smbat #1" = 15
-	"Vagram #1" = 10
+	"Ashot #0" = 15
+	"Gagik #0" = 15
+	"Smbat #0" = 15
+	"Abbas #0" = 15
+	"Hovhannes Smbat #0" = 15
+	"Vagram #0" = 10
 	"Musegh #0" = 10
 	"Sahak #0" = 10
 	"Tachar #0" = 10
@@ -78,6 +84,7 @@ monarch_names = {
 	"Zadig #0" = 0
 	"Zoravan #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Adrine #0" = -1
 	"Elsapet #0" = -1
 	"Sarine #0" = -1
