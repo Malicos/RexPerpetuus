@@ -1,11 +1,8 @@
 #Cumania
 
-graphical_culture = easterngfx
+graphical_culture = muslimgfx
 
 color = { 242  188  81 }
-revolutionary_colors = { 1  8  0 }
-
-preferred_religion = catholic
 
 historical_idea_groups = {
 	economic_ideas
@@ -19,92 +16,110 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	bardiche_infantry
-	eastern_knights
-	slavic_stradioti
-	eastern_militia
-	hungarian_hussar
-	germanized_pike
-	polish_musketeer
-	polish_hussar
-	polish_tercio
-	polish_winged_hussar
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
+	steppe_riders
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_cavalry
+	steppe_uhlans
+	steppe_raiders
+	steppe_footmen
+	steppe_musketeers
+	steppe_infantry
+	steppe_rifles
+	reformed_steppe_rifles
 }
 
 monarch_names = {
-	"Bonyak #1" = 40
-	"Koten #1" = 40
-	"Bacman #1" = 40
-	"Maniak #0" = 20
-	"Konchak #1" = 20
-	"Kobyak #1" = 20
-	"Kopek #0" = 20
-	"Isac #0" = 20
-	"Daniel #0" = 20
-	"Chilbuk #1" = 15
-	"Roman #0" = 15
-	"Gzak #1" = 10
-	"David #0" = 10
-	"Edvard #0" = 10
-	"Syrchan #1" = 10
-	"Turgokan #1" = 5
-	"Koza #0" = 5
-	"Kopti #1" = 5
-	"Eldechyuk #1" = 5
-	"Toksobich #0" = 5
-	"Sharokun #0" = 5
-	"Ayepa #0" = 0
-	"Andrei #0" = 0
-	"Toglyy #0" = 0
-	"Sokal #0" = 0
-	"Kutesk #0" = 0
-	"Otrok #0" = 0
-	"Jozsef #0" = 0
-	"Arbuz #0" = 0
-	"Zeyhan #0" = 0
-	"Begovars #0" = 0
-	"Tortul #0" = 0
-	"Uzur #0" = 0
-	"Sytzigan #0" = 0
-	"Bortz #0" = 0
-	"Otto #0" = 0
-	"Patrik #0" = 0
-	"Peter #0" = 0
-	"Simon #0" = 0
-	"Tamas #0" = 0
-	"Baytursun #0" = 0
-	"Saraga #0" = 0
-	"Membrok #0" = 0
+	# RP RULER NAMES
+	"Kopti #1" = 10
+	"Eltut #1" = 10
+	"Eldecyuk #1" = 10
+	"Ovlur #1" = 10
+	"Aibak #1" = 10
 
-	"Konchakovna #0" = -10
-	"Gurandukht #0" = -10
-	"Anna #0" = -10
-	"Erzsebet #0" = -5
-	"Agnes #0" = -1
-	"Katalin #0" = -1
+	# RANDOM NAMES - MALE
+	"Abdul-Aziz #0" = 20
+	"Abdul-Karim #0" = 20
+	"Abdul-Mumin #0" = 20
+	"Abdul-Rahim #0" = 20
+	"Abdulla #0" = 20
+	"Abu Said #0" = 20
+	"Abu'l-Feiz #0" = 20
+	"Abu'l-Ghazi #0" = 20
+	"Abu'l-Khayr #0" = 20
+	"Abu'l-Mansur #0" = 20
+	"Agatay #0" = 20
+	"Alim #0" = 20
+	"Anusha #0" = 20
+	"Arab Muhammad #0" = 20
+	"Avanesh #0" = 20
+	"Bahadur #0" = 20
+	"Bakht #0" = 20
+	"Baqi Muhammad #0" = 20
+	"Budjuga #0" = 20
+	"Bureke #0" = 20
+	"Daniyal #0" = 20
+	"Djuchi #0" = 20
+	"Dost #0" = 20
+	"Habash #0" = 20
+	"Hadji #0" = 20
+	"Hadji Muhammad #0" = 20
+	"Hassan Quli #0" = 20
+	"Haydar #0" = 20
+	"Imam Quli #0" = 20
+	"Ilbars #0" = 20
+	"Irdana #0" = 20
+	"Isfandiyar #0" = 20
+	"Isim #0" = 20
+	"Iskandar #0" = 20
+	"Janibek #0" = 20
+	"Kal #0" = 20
+	"Khudayar #0" = 20
+	"Khudaydad #0" = 20
+	"Kochkunju #0" = 20
+	"Muhammad #0" = 20
+	"Muhammad Amin #0" = 20
+	"Muhammad Hakim #0" = 20
+	"Muhammad Rahim #0" = 20
+	"Nadir Muhammad #0" = 20
+	"Narbuta #0" = 20
+	"Navruz Ahmad #0" = 20
+	"Niyaz #0" = 20
+	"Pir Muhammad #0" = 20
+	"Sanjar #0" = 20
+	"Sevinch #0" = 20
+	"Shadi #0" = 20
+	"Shahmurad #0" = 20
+	"Shahrukh #0" = 20
+	"Shaykh Haidar #0" = 20
+	"Subhan Quli #0" = 20
+	"Sufyan #0" = 20
+	"Suleyman #0" = 20
+	"Tahir #0" = 20
+	"Timur #0" = 20
+	"Ubaydulla #0" = 20
+	"Umar #0" = 20
+	"Vali #0" = 20
+	"Vali Muhammad #0" = 20
+	"Yadgar #0" = 20
+
+	# RANDOM NAMES - FEMALE
+	"Hooda #0" = -1
+	"Malaika #0" = -1
+	"Munira #0" = -1
+	"Rabiya #0" = -1
+	"Rafiqa #0" = -1
 }
 
-leader_names = {
-	Osenevich Terteroba Turgay Kimak Askarid Adirlu Gutkeled Kolbasz Olas Kunev Kumanov Folban Qoun Polovtsy
-	Kipchak Kuman Thocomer Bazaraads Kunsag Nagykunsag Kiskunsag Bortz Bahariyya Klobuky Dentumoger Andjogli Durut
-	Kochoba Toksoba Urosoba Laktan Turai Karachay Kuni Kopek Bakhchisaray Varzas Tana Itil Ochak Akhtuba Zhezdi
-	Ishim Talash Illi Ubeni Sarener Tasyru Sariyi Turani Tengay Oshani
+leader_names = { 
+	"Bayan Arslan" "Mongke Cheren" "Mongke Bayar" "Suren Chinua" "Oyugun Nasan"
+	"Bora Tolui" Qadancher Batulun Batutai Bokejin Arighqan Burilgiteni
+	Bayarnai Subegene Tegusdai Yekedei
 }
 
 ship_names = {
-	Aranybulla 
-	Arpad
-	Magyar
-	Sigismund
-	"Szent Istvan kiraly"
-	"Hunyadi Matyas"
-	"Karoly Robert"
-	"Nagy Lajos"
-	Laszlo
-	Kalman
-	Polovtsy
-	Kipchak
+	Xacitarxan Volga Ästerxan Khadjitarkhan
+	"Chinggis Khan" Kuchuk Actarxan 
+	"Sarai Batu" "Hadzhy-Tarkhan" 
+	Gitorkhan Tsitrokhan
 }
