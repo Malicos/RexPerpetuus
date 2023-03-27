@@ -1,6 +1,20 @@
 government = monarchy
 add_government_reform = autocracy_reform
+government_rank = 1
 primary_culture = cappadocian
 religion = orthodox
 technology_group = rhomanian_tech
-capital = 5155						# Rough guess
+capital = 4307
+
+1437.1.14 = {
+	monarch = {
+		name = "Pavlos IV"
+		dynasty = "Kritharas"
+		adm = 2
+		dip = 4
+		mil = 4
+		birth_date = 1405.1.26
+		religion = orthodox
+		culture = cappadocian
+	}
+}

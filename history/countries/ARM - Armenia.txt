@@ -1,8 +1,22 @@
 government = monarchy
 add_government_reform = autocracy_reform 
+government_rank = 2
 primary_culture = yeravani
 add_accepted_culture = armenian
 add_accepted_culture = arevmdian
 religion = apostolic
 technology_group = eastern
 capital = 419	# Yerevan
+
+1416.3.20 = {
+	monarch = {
+		name = "Nerseh"
+		dynasty = "Vartsikhe"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1397.7.18
+		religion = apostolic
+		culture = yeravani
+	}
+}

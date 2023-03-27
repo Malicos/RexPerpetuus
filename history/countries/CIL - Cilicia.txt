@@ -1,6 +1,20 @@
 government = monarchy
 add_government_reform = autocracy_reform 
+government_rank = 2
 primary_culture = cilician
-religion = catholic					# Close ties with crusaders and relations with the pope
+religion = apostolic
 technology_group = eastern
 capital = 5138						# Provinces encompassing Sis
+
+1436.11.21 = {
+	monarch = {
+		name = "Sarkis"
+		dynasty = "Sarkis"
+		adm = 3
+		dip = 5
+		mil = 4
+		birth_date = 1397.11.13
+		religion = apostolic
+		culture = cilician
+	}
+}
