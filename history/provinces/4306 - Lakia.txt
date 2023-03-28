@@ -3,7 +3,7 @@
 owner = LKA
 controller = LKA
 add_core = LKA
-culture = dagestani
+culture = kumyk
 religion = shiite
 capital = "Kumukh"
 trade_goods = wool

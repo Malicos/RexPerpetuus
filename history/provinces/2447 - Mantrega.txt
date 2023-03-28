@@ -3,7 +3,7 @@
 owner = TMT
 controller = TMT
 add_core = TMT
-culture = pontic_greek
+culture = circassian
 religion = orthodox
 hre = no
 base_tax = 3 

@@ -3,7 +3,7 @@
 owner = SSR
 controller = SSR
 add_core = SSR
-culture = dagestani
+culture = kumyk
 religion = shiite
 capital = "Solzh-Glala"
 trade_goods = iron

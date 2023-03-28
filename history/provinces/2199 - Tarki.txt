@@ -3,7 +3,7 @@
 owner = KMK
 controller = KMK
 add_core = KMK
-culture = dagestani
+culture = kumyk
 religion = shiite
 capital = "Tarku"
 trade_goods = fish

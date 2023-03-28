@@ -3,7 +3,7 @@
 owner = ALN
 controller = ALN
 add_core = ALN
-culture = circassian
+culture = alan
 religion = orthodox
 capital = "Karachai"
 trade_goods = wool
