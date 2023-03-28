@@ -1,112 +1,85 @@
-#Cumania
+# Kumykia
 
 graphical_culture = easterngfx
 
-color = { 154 156 92 }
+color = { 70 125 65 }
 
-preferred_religion = catholic
-
-historical_idea_groups = {
-	economic_ideas
+historical_idea_groups = { 
 	defensive_ideas
-	diplomatic_ideas
-	offensive_ideas
+	quantity_ideas
+	administrative_ideas
 	trade_ideas
-	innovativeness_ideas
-	religious_ideas
-	spy_ideas	
+	spy_ideas
+	economic_ideas
+	aristocracy_ideas
+	diplomatic_ideas
 }
 
 historical_units = {
-	bardiche_infantry
-	eastern_knights
-	slavic_stradioti
-	eastern_militia
-	hungarian_hussar
-	germanized_pike
-	polish_musketeer
-	polish_hussar
-	polish_tercio
-	polish_winged_hussar
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
 }
 
 monarch_names = {
-	"István #5" = 40
-	"László #4" = 40
-	"Lajos #1" = 20
-	"Albert #1" = 20
-	"János #0" = 20
-	"Ulászló #1" = 20
-	"Mátyás #1" = 20
-	"András #3" = 15
-	"Károly #2" = 15
-	"Zsigmond #1" = 10
-	"Béla #4" = 5
-	"Anasztáz #0" = 0
-	"Barnabás #0" = 0
-	"Bertalan #0" = 0
-	"Boldizsár #0" = 0
-	"Dávid #0" = 0
-	"Dömötör #0" = 0
-	"Edvárd #0" = 0
-	"Ernö #0" = 0
-	"Ferenc #0" = 0
-	"Gábor #0" = 0
-	"György #0" = 0
-	"Izsák #0" = 0
-	"Jenö #0" = 0
-	"József #0" = 0
-	"Kálmán #1" = 0
-	"Kázmér #0" = 0
-	"Lörinc #0" = 0
-	"Lukács #0" = 0
-	"Márk #0" = 0
-	"Miklós #0" = 0
-	"Oszkár #0" = 0
-	"Ottó #0" = 0
-	"Patrik #0" = 0
-	"Péter #0" = 0
-	"Simon #0" = 0
-	"Tamás #0" = 0
-	"Vencel #0" = 0
-	"Anna #0" = -10
-	"Erzsébet #0" = -5
-	"Agnes #0" = -1
-	"Katalin #0" = -1
+	# RP RULER NAMES
+	"Khalil #1" = 30
+	"Aurang #1" = 30
+	"Magomed #2" = 60
+
+	# RANDOM NAMES
+	"Surkhay #0" = 40
+	"Eldar #0" = 30
+	"Alibek #0" = 30
+	"Budai #0" = 30
+	"Murtazali #0" = 20
+	"Muhammad #0" = 20
+	"Aidemer #0" = 20
+	"Elisu #0" = -1
+	"Gulandash #0" = -1
+	"Istadjalu #0" = -1
+	"Shamay-beke #0" = -1
 }
 
 leader_names = {
-	Andrássy Alvinczy
-	Bocskay Bethlen Báthory Batthyány Benovský Beleznay
-	Csák
-	Dessewffy
-	Esterházy
-	Festetics Frangepán
-	Garay
-	Hunyadi Hadik Horthy
-	Kinizsi Károlyi Kán "de Kovats" Kemeny
-	Lackovic' Losonci
-	Mészáros Milványi
-	Nadasdy
-	Ozoray
-	Rákóczi Rozgonyi
-	Šubic' Széchenyi
-	Thököly Teleki
-	Zrinski Zápolya Zichy
+	Derbent
+	Tabasaran
+	Gumik
+	Sarir
+	Lakz
+	Haidak
+	Philan
+	Shandan
+	Zirihgeran
+	Tumen
+	Djidan
+	Khamzin
+	Samandar
+	Balanjar
+	Shamkal
 }
 
 ship_names = {
-	Aranybulla 
-	Arpad
-	Magyar
-	Sigismund
-	"Szent Istvan kiraly"
-	"Hunyadi Matyas"
-	"Karoly Robert"
-	"Nagy Lajos"
-	Laszlo
-	Kalman
+	Lakia Tarki "Umal Muhammad" Gazi Kumukh Khundzal
+	Kumukh
+	Gazi
+	Machimi
+	Vitskhi
+	Gumuchi
+	Kullal
+	Uri-Mukarki
+	Bartki
+	Tarki
+	Kurkli
+	Avaria
+	Agul
+	Rutul
 }
