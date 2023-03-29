@@ -4,28 +4,18 @@ government_rank = 1
 primary_culture = rostovian
 religion = orthodox
 technology_group = eastern
-capital = 312	# Beloozero
-fixed_capital = 312 # Cannot move capital away from this province & no power cost to move to it
+capital = 1754
+fixed_capital = 1754 # Cannot move capital away from this province & no power cost to move to it
 
-
-1432.1.1 = {
+1421.12.15 = {
 	monarch = {
-		name = "Mikhail"
-		dynasty = "Rurikovich"
+		name = "Feodor"
+		dynasty = "Nerevinich"
 		adm = 2
 		dip = 2
 		mil = 2
-	}
-	heir = {
-		name = "Vasily"
-		monarch_name = "Vasily"
-		dynasty = "Rurikovich"
-		birth_date = 1432.1.1
-		death_date = 1501.1.1
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 1
+		birth_date = 1385.12.3
+		religion = orthodox
+		culture = rostovian
 	}
 }
-

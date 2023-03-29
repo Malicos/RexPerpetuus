@@ -4,8 +4,19 @@ government_rank = 1
 technology_group = eastern
 religion = orthodox
 primary_culture = ruthenian
+add_accepted_culture = cossack
 capital = 280	# Kiev
 fixed_capital = 280 # Cannot move capital away from this province & no power cost to move to it
-add_accepted_culture = cossack
 
-historical_friend = LIT
+1431.7.12 = {
+	monarch = {
+		name = "Iliya III"
+		dynasty = "Rurikovich"
+		adm = 3
+		dip = 5
+		mil = 3
+		birth_date = 1393.6.16
+		religion = orthodox
+		culture = ruthenian
+	}
+}

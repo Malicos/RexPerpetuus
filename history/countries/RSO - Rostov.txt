@@ -7,17 +7,15 @@ technology_group = eastern
 capital = 4147
 fixed_capital = 4147
 
-#Keeping BtP info for now, mostly. Will revisit later in all likelyhood
-
-1417.7.17 = {
+1428.2.19 = {
 	monarch = {
-		name = "Andrei Aleksandrovich"
-		dynasty = "Rurikovich"
-		birth_date = 1400.1.1
+		name = "Oleg II"
+		dynasty = "Yenikeyev"
 		adm = 1
-		dip = 3
-		mil = 2
+		dip = 1
+		mil = 3
+		birth_date = 1395.8.16
+		religion = orthodox
+		culture = rostovian
 	}
 }
-
-#Added directly to Muscovy

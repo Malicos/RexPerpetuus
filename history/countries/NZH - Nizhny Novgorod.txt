@@ -8,14 +8,15 @@ religion = orthodox
 technology_group = eastern
 capital = 306	# Nizhny Novgorod
 
-1350.1.1 = {
+1429.5.18 = {
 	monarch = {
-		name = "Dmitry I"
-		dynasty = "Rurikovich"
-		adm = 4
-		dip = 2
+		name = "Mikhail"
+		dynasty = "Gorodets"
+		adm = 1
+		dip = 3
 		mil = 4
+		birth_date = 1399.1.14
+		religion = orthodox
+		culture = rostovian
 	}
 }
-
-# 1392 to Muscowy

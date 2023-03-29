@@ -2,18 +2,21 @@ government = monarchy
 add_government_reform = principality
 government_rank = 1
 primary_culture = byelorussian
+add_accepted_culture = rostovian
 religion = orthodox
 technology_group = eastern
 capital = 293	# Smolensk
 fixed_capital = 293 # Cannot move capital away from this province & no power cost to move to it
-add_accepted_culture = rostovian
 
-1386.1.1 = {
+1430.1.31 = {
 	monarch = {
-		name = "Yury I"
-		dynasty = "Rostaslavichi"
-		adm = 0
-		dip = 0
-		mil = 3
+		name = "Agafya"
+		dynasty = "Dashkov"
+		adm = 2
+		dip = 2
+		mil = 4
+		birth_date = 1398.9.21
+		religion = orthodox
+		culture = byelorussian
 	}
 }

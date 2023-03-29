@@ -6,7 +6,16 @@ religion = orthodox
 primary_culture = ryazanian #Severian
 capital = 5662
 fixed_capital = 5662
-add_accepted_culture = rostovian
 
-
-#No time to fill this in, and information would be too hard to come by with CM's help so I'm leaving this blank for now. Engine should auto generate plausible.
+1435.11.9 = {
+	monarch = {
+		name = "Igor"
+		dynasty = "Potyomkin"
+		adm = 3
+		dip = 1
+		mil = 1
+		birth_date = 1406.3.12
+		religion = orthodox
+		culture = ryazanian
+	}
+}

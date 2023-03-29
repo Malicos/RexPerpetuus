@@ -4,42 +4,19 @@ government_rank = 1
 technology_group = eastern
 religion = orthodox
 primary_culture = vologdan
+add_accepted_culture = pomor
 capital = 314
 fixed_capital = 314
-add_accepted_culture = pomor
 
-#Speeding up history a bit for gameplay reasons, and giving Vasily II Vologda instantly after Moscow taken by Dmitry Shemyaka
-1446.2.13 = {
+1439.8.18 = {
 	monarch = {
-		name = "Vasiliy Temny"
-		dynasty = "Rurikovich"
-		birth_date = 1381.1.1
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-	queen = {
-		country_of_origin = SPK
-		name = "Maria"
-		dynasty = "Rurikovich"
-		birth_date = 1418.1.1
-		death_date = 1484.1.1
-		female = yes
-		adm = 3 
-		dip = 3
-		mil = 1
-	}
-	heir = {
-		name = "Ivan Veliky"
-		monarch_name = "Ivan Veliky"
-		dynasty = Rurikovich
-		birth_date = 1440.1.22
-		death_date = 1505.10.27
-		claim = 95
-		adm = 3
+		name = "Volodar"
+		dynasty = "Nerevinich"
+		adm = 4
 		dip = 4
-		mil = 5
+		mil = 2
+		birth_date = 1387.6.26
+		religion = orthodox
+		culture = pomor
 	}
 }
-
-#Vasiliy reclaims the throne in 1447

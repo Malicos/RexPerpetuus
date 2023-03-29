@@ -3,9 +3,19 @@ add_government_reform = principality
 government_rank = 1
 technology_group = eastern
 religion = orthodox
-primary_culture = rostovian
+primary_culture = ryazanian
 capital = 5681
 fixed_capital = 5681
-add_accepted_culture = ryazanian #Severian
 
-#No time to fill this in, and information would be too hard to come by with CM's help so I'm leaving this blank for now. Engine should auto generate plausible.
+1420.2.11 = {
+	monarch = {
+		name = "Simeon III"
+		dynasty = "Khitrov"
+		adm = 2
+		dip = 1
+		mil = 3
+		birth_date = 1399.10.15
+		religion = orthodox
+		culture = ryazanian
+	}
+}

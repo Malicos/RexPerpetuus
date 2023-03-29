@@ -6,8 +6,17 @@ religion = orthodox
 primary_culture = ryazanian #Severian
 capital = 4255
 fixed_capital = 4255
-historical_rival = RYA
 
-#No information found, EU4 should auto generate appropriate name from culture list
-
-#Annexed in 1483
+1424.1.1 = {
+	monarch = {
+		name = "Yefrosinia"
+		dynasty = "Pronsk"
+		adm = 4
+		dip = 3
+		mil = 1
+		birth_date = 1399.9.10
+		religion = orthodox
+		culture = ryazanian
+		female = yes
+	}
+}

@@ -1,21 +1,20 @@
-# Principality of Nizhny Novgorod-Suzdal
-
 government = monarchy
-add_government_reform = principality
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = mordvin
 religion = orthodox
 technology_group = eastern
-capital = 306	# Nizhny Novgorod
+capital = 5672	# Morshansk
 
-1350.1.1 = {
+1409.8.12 = {
 	monarch = {
-		name = "Dmitry I"
-		dynasty = "Rurikovich"
-		adm = 4
-		dip = 2
+		name = "Viryas"
+		dynasty = "Saran"
+		adm = 3
+		dip = 4
 		mil = 4
+		birth_date = 1392.11.13
+		religion = orthodox
+		culture = mordvin
 	}
 }
-
-# 1392 to Muscowy

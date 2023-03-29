@@ -1,7 +1,23 @@
 government = monarchy
-add_government_reform = grand_duchy_reform
+add_government_reform = principality
 government_rank = 1
 technology_group = eastern
 religion = orthodox
 primary_culture = byelorussian
+add_accepted_culture = ruthenian
 capital = 276	# Minsk
+
+1433.9.30 = {
+	monarch = {
+		name = "Rodislav II"
+		dynasty = "Rurikovich"
+		adm = 4
+		dip = 4
+		mil = 6
+		birth_date = 1393.1.4
+		religion = orthodox
+		culture = byelorussian
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = strict_personality
+}
