@@ -49,34 +49,53 @@ leader_names = {
 }
 
 monarch_names = {
-	"Vasiliy #2" = 15
+	# RP RULER NAMES
+	"Vladimir #1" = 10
+	"Yaroslav #1" = 10
+	"Mstislav #1" = 10
+	"Sviatoslav #2" = 20
+	"Gleb #2" = 20
+	"Nomedas #1" = 10
+	"Klukis #1" = 10
+	"Vseslav #1" = 10
+	"Dobrynia #1" = 10
+	"Afanasiy #2" = 20
+	"Vysheslav #1" = 10
+	"Feodosia #1" = -1
+	"Tatyana #1" = -1
+	"Nikoletta #1" = -1
+	"Rostislava #1" = -1
+	"Gavriil #2" = 20
+	"Volodar #2" = 20
+	"Fedot #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Vasiliy #0" = 15
 	"Ivan #0" = 0
-	"Dmitriy #3" = 70
+	"Dmitriy #0" = 70
 	"Yuriy #0" = 0
-	"Andrei #2" = 15
+	"Andrei #0" = 15
 	"Semen #0" = 0
 	"Fyodor #0" = 0
-	"Afanasiy #0" = 0
 	"Akim #0" = 0
 	"Aleksandr #0" = 0
 	"Alexei #0" = 0
 	"Anatoliy #0" = 0
 	"Arkadiy #0" = 0
-	"Boris #1" = 10
+	"Boris #0" = 10
 	"Daniil #0" = 0
 	"Dorofey #0" = 0
 	"Feodosiy #0" = 0
 	"Feofilakt #0" = 0
-	"Gavriil #0" = 0
 	"Innokentiy #0" = 0
 	"Iosif #0" = 0
 	"Lavrentiy #0" = 0
 	"Makariy #0" = 0
 	"Matveiy #0" = 0
-	"Mikhail #2" = 10
+	"Mikhail #0" = 10
 	"Nazariy #0" = 0
 	"Nikifor #0" = 0
-	"Oleg #3" = 15
+	"Oleg #0" = 15
 	"Onisim #0" = 0
 	"Pavel #0" = 0
 	"Prokopiy #0" = 0
@@ -88,14 +107,12 @@ monarch_names = {
 	"Valeriy #0" = 0
 	"Yakim #0" = 0
 	"Yevgeniy #0" = 0
-	"Mstislav #3" = 20
-	"Svyatoslav #4" = 40
-	"Vsevolod #3" = 20
-	"Vladimir #2" = 15
-	"Roman #2" = 15
-	"Izyaslav #2" = 10
-	"Gleb #2" = 5
-	
+	"Svyatoslav #0" = 40
+	"Vsevolod #0" = 20
+	"Roman #0" = 15
+	"Izyaslav #0" = 10
+
+	# RANDOM NAMES - FEMALE
 	"Agafya #0" = -1
 	"Svetlana #0" = -1
 	"Yuliya #0" = -1

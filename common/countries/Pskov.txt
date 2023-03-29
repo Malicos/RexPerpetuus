@@ -36,16 +36,16 @@ historical_units = {
 }
 
 monarch_names = {
-	"Aleksandr #3" = 80
-	"Ivan #1" = 80
-	"Vasiliy #2" = 60
+	"Aleksandr #0" = 80
+	"Ivan #0" = 80
+	"Vasiliy #0" = 60
 	"Fyodor #0" = 60
-	"Andrei #1" = 40
+	"Andrei #0" = 40
 	"Dmitriy #0" = 40
 	"Konstantin #0" = 40
 	"Pyotr #0" = 40
-	"Vladimir #2" = 20
-	"Yaroslav #1" = 20
+	"Vladimir #0" = 20
+	"Yaroslav #0" = 20
 	"Daniil #0" = 20
 	"Grigoriy #0" = 20
 	"Semen #0" = 20

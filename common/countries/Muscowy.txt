@@ -51,16 +51,22 @@ leader_names = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Rostislava #1" = -1
+	"Putiata #1" = 10
+	"Grigoriy #2" = 20
+	"Alexandr #2" = 20
+
+	# RANDOM NAMES - MALE
 	"Vasiliy #0" = 70
-	"Ivan #2" = 40
-	"Dmitriy #5" = 20
-	"Yuriy #1" = 20
-	"Andrei #3" = 10
-	"Semen #1" = 10
-	"Fyodor #1" = 5
+	"Ivan #0" = 40
+	"Dmitriy #0" = 20
+	"Yuriy #0" = 20
+	"Andrei #0" = 10
+	"Semen #0" = 10
+	"Fyodor #0" = 5
 	"Afanasiy #0" = 0
 	"Akim #0" = 0
-	"Aleksandr #0" = 0
 	"Alexei #0" = 0
 	"Anatoliy #0" = 0
 	"Arkadiy #0" = 0
@@ -91,6 +97,7 @@ monarch_names = {
 	"Yakim #0" = 0
 	"Yevgeniy #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Agafya #0" = -1
 	"Svetlana #0" = -1
 	"Yuliya #0" = -1

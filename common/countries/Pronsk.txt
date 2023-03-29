@@ -36,6 +36,10 @@ historical_units = {
 
 #Unknown for Mologa, couldn't find any historical info
 monarch_names = {
+	# RP RULER NAMES
+	"Yefrosinia #1" = -1
+
+	# RANDOM NAMES - MALE
 	"Mikhail #0" = 20
 	"Aleksandr #0" = 20
 	"Boris #0" = 20
@@ -81,6 +85,7 @@ monarch_names = {
 	"Simeon #0" = 0			#BT addition
 	"Andrey #0" = 0			#BT addition
 	
+	# RANDOM NAMES - FEMALE
 	"Serafima #0" = -1
 	"Viktoriya #0" = -1
 	"Anna #0" = -1

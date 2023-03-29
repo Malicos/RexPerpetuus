@@ -1,33 +1,102 @@
 graphical_culture = easterngfx
+
 color = { 109 173 157 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	diplomatic_ideas
+	quality_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	slavic_stradioti
+	eastern_militia
+	muscovite_musketeer
+	muscovite_caracolle
+	muscovite_soldaty
+	muscovite_cossack
+	russian_petrine
+	russian_lancer
+	russian_green_coat
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
 monarch_names = {
-	"Achigh #0" = -1
-	"Anna #0" = -1
-	"Antiochos #0" = 0
-	"Athanasios #2" = 10
-	"Briachislav #0" = 0
-	"Caiu #1" = 10
-	"Eupraxia #0" = -1
-	"Feodora #0" = -1
-	"Iakov #1" = 10
-	"Kallinikos #0" = -1
-	"Konstantin #1" = 10
-	"Koshel #1" = 10
-	"Koz'ma #0" = 0
+	# RP RULER NAMES
+	"Roman #1" = 10
 	"Loukas #1" = 10
-	"Matthias #0" = 0
-	"Nikita #0" = 0
-	"Romanos #1" = 10
-	"Sviatoslav #0" = 0
-	"Tatyana #1" = -1
-	"Theoktiste #0" = -1
-	"Ulita #0" = -1
-	"Vikay #1" = 10
-	"Vyshata #0" = -1
-	"Xenia #0" = -1
-	"Yasar #0" = -1
-	"Yeke #0" = -1
+	"Afanasiy #3" = 60
 	"Yemelyan #1" = 10
-	"Yeremey #0" = 0
-	"Çilen #0" = -1
+
+	# RANDOM NAMES - MALE
+	"Ivan #0" = 80
+	"Fyodor #0" = 20
+	"Oleg #0" = 20
+	"Vasiliy #0" = 20
+	"Dmitriy #0" = 10
+	"Akim #0" = 0
+	"Anastas #0" = 0
+	"Anton #0" = 0
+	"Arseniy #0" = 0
+	"Bogdan #0" = 0
+	"Daniil #0" = 0
+	"David #0" = 0
+	"Ferapont #0" = 0
+	"Fyodor #0" = 0
+	"Isaak #0" = 0
+	"Kirill #0" = 0
+	"Lavrentiy #0" = 0
+	"Lazar #0" = 0
+	"Leonid #0" = 0
+	"Leonti #0" = 0
+	"Luka #0" = 0
+	"Makariy #0" = 0
+	"Mefodiy #0" = 0
+	"Milan #0" = 0
+	"Mitrofan #0" = 0
+	"Nazariy #0" = 0
+	"Nestor #0" = 0
+	"Nikolai #0" = 0
+	"Nikon #0" = 0
+	"Pyotr #0" = 0
+	"Valeriy #0" = 0
+	"Veniamin #0" = 0
+	"Vlad #0" = 0
+	"Vsevolod #0" = 0
+	"Yaromir #0" = 0
+	"Yevgeniy #0" = 0
+	"Zinoviy #0" = 0
+	"Zakhar #0" = 0
+	
+	# RANDOM NAMES - FEMALE
+	"Dominika #0" = -1
+	"Katya #0" = -1
+	"Anna #0" = -5
+	"Fedora #0" = -1
+	"Maria #0" = -1
+}
+
+leader_names = { 
+	Muromsky Pronsky Barabshin Brukathy Shuisky Glazaty Gorbaty
+	Kirdyapin Nizhegorodsky Nogtew Skopin Ivanov Travin Tolbuzin
+	Rozhestvensky Sapogov Vsevolozhsky Gubastov Danilov Dmitriev
+	Dobrynsky Yeropkin
+}
+
+ship_names = {
+	Pronsk Pronya "Y. Sviatoslavich" Murom
+	"Staraya Ryazan" Pereslavl Ryazansky Moksha
+	Oka Tsna Skopin Mikhailov Lolotcha Kasimov
+	Kadorn Sasovo Shatsk Novornichurinsk
 }

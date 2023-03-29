@@ -36,15 +36,24 @@ historical_units = {
 }
 
 monarch_names = {
-	"Mikhail #2" = 20
-	"Aleksandr #1" = 20
+	# RP RULER NAMES
+	"Vseslav #1" = 10
+	"Predslava #1" = -1
+	"Irina #1" = -1
+	"Rurik #1" = 0
+	"Simeon #1" = 10
+	"Pavel #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Mikhail #0" = 20
+	"Aleksandr #0" = 20
 	"Boris #0" = 20
 	"Yuriy #0" = 20
-	"Yaroslav #2" = 5
-	"Dmitriy #1" = 5
-	"Ivan #1" = 5
-	"Konstantin #1" = 5
-	"Svyatoslav #1" = 5
+	"Yaroslav #0" = 5
+	"Dmitriy #0" = 5
+	"Ivan #0" = 5
+	"Konstantin #0" = 5
+	"Svyatoslav #0" = 5
 	"Akim #0" = 0
 	"Anastas #0" = 0
 	"Anton #0" = 0
@@ -77,6 +86,7 @@ monarch_names = {
 	"Yevgeniy #0" = 0
 	"Zinoviy #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Serafima #0" = -1
 	"Viktoriya #0" = -1
 	"Anna #0" = -1

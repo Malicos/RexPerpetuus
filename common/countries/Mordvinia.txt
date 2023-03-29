@@ -6,105 +6,94 @@ color = { 243 183 22 }
 revolutionary_colors = { 0 5 0 }
 
 historical_idea_groups = {
-	defensive_ideas
 	trade_ideas
+	defensive_ideas
 	offensive_ideas
-	maritime_ideas
-	religious_ideas
 	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
 	spy_ideas
-	administrative_ideas
+	religious_ideas
 }
 
 historical_units = {
-	bardiche_infantry
-	druzhina_cavalry
-	slavic_stradioti
-	eastern_militia
-	muscovite_musketeer
-	muscovite_caracolle
-	muscovite_soldaty
-	muscovite_cossack
-	russian_petrine
-	russian_lancer
-	russian_green_coat
-	russian_cuirassier
-	eastern_skirmisher
-	eastern_uhlan
-	eastern_carabinier
-	russian_mass
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
 }
 
 leader_names = {
-	Apraksin
-	Bagration "Barclay de Tolly" Bibikoff Bodisco Boruffsin
-	Golitzin
-	Kaibula Kamenski Kolzoff
-	Mensjikov Mustislavski
-	"Ostermann Tolstoy"
-	Paletskij
-	Rajevski
-	Schuvalov Sjeremetjev Sjtjenjatvev
-	Tiesenhusen
-	Vasiljevitj "von Buxhoevden" "von Knorring" "von Lascy"
-}
-
-monarch_names = {
-	"Konstantin #1" = 40
-	"Dmitry #1" = 40
-	"Vasily #1" = 30
-	"Iurii #0" = 4
-	"Sviatoslav #0" = 1
-	"Rostislav #0" = 1
-	"Davyd #0" = 4
-	"Igor #0" = 1
-	"Fedor #0" = 4
-	"Ivan #0" = 4
-	"Dmitriy #0" = 4
-	"Andrei #0" = 4
-	"Vladimir #0" = 4
-	"Semen #0" = 2
-	"Boris #0" = 2
-	"Afanasiy #0" = 0
-	"Akim #0" = 0
-	"Aleksandr #0" = 0
-	"Alexei #0" = 0
-	"Anatoliy #0" = 0
-	"Arkadiy #0" = 0
-	"Daniil #0" = 0
-	"Dorofey #0" = 0
-	"Feodosiy #0" = 0
-	"Feofilakt #0" = 0
-	"Gavriil #0" = 0
-	"Innokentiy #0" = 0
-	"Iosif #0" = 0
-	"Lavrentiy #0" = 0
-	"Makariy #0" = 0
-	"Matveiy #0" = 0
-	"Mikhail #0" = 0
-	"Nazariy #0" = 0
-	"Nikifor #0" = 0
-	"Oleg #0" = 0
-	"Onisim #0" = 0
-	"Pavel #0" = 0
-	"Prokopiy #0" = 0
-	"Pyotr #0" = 0
-	"Radomir #0" = 0
-	"Saveliy #0" = 0
-	"Sergei #0" = 0
-	"Terentiy #0" = 0
-	"Valeriy #0" = 0
-	"Yakim #0" = 0
-	"Yevgeniy #0" = 0
-	
-	"Yana #0" = -1
-	"Zlata #0" = -1
-	"Fedora #0" = -1
+	Azegid Gachegid Zhebegid
+	Lunegid Zhunegid Irtegid
+	Moshegid Rategid
+	Yugra Syktyvkar
 }
 
 ship_names = {
-	"Dmitri Donskoi" "Konstantin I" "Suzdal" "Nizhny Novgorod" 
-	Rurik "Ivan Kalita" Moscha Volga Schorna Coluna
-	Cortiza Mosnisk Olescho Piersek Troitzkoy Wolok
-	Klin Iausa
+	Noroava Olota Ordava Pemka Poshayka
+	Tekay Tetyava  Tundya Unzhutka Yalgava
+}
+
+monarch_names = {
+	# RP RULER NAMES
+	"Sofia #1" = -1
+	"Fedot #1" = 10
+	"Koma #1" = 10
+	"Pakstyan #1" = 10
+	"Dobrinya #1" = 10
+	"Viryas #1" = 10
+
+	# RANDOM NAMES
+	"Lemetti #0" = 20
+	"Kettu #0" = 10
+	"Ihala #0" = 20
+	"Tuure #0" = 20
+	"Vaino #0" = 20
+	"Kalevi #0" = 10
+	"Kettu #0" = 40
+	"Mstislav #0" = 0
+	"Rodislav #0" = 0
+	"Elisabet #0" = -1
+	"Asbjorn #0" = 10
+	"Madog #0" = 0
+	"Sara #0" = -1
+	"Svetozar #0" = 10
+	"Ulita #0" = -1
+	"Dobromir #0" = 10
+	"Maria #0" = -1
+	"Vyshata #0" = 0
+	"Sviatopolk #0" = 0
+	"Prokki #0" = 10
+	"Buklei #0" = 10
+	"Savasti #0" = 10
+	"Mohkku #0" = 20
+	"Mokci #0" = 20
+	"Náhkol #0" = 20
+	"Päevalemb #0" = 10
+	"Sulev #0" = 10
+	"Pivtsay #0" = 10
+	"Pokshayka #0" = 5
+	"Shypicha #0" = 5
+	"Irter #0" = 5
+	"Karuvald #0" = 5
+	"Piho #0" = 0
+	"Varaka #0" = 0
+	"Náinnas #0" = 0
+	
+	"Nyayka #0" = -1
+	"Vidyava #0" = -1
+	"Poshayka #0" = -1
+	"Satu #0" = -1
 }
