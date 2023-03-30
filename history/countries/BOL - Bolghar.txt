@@ -1,11 +1,12 @@
-government = monarchy
-add_government_reform = iqta
+government = tribal
+add_government_reform = steppe_horde
 government_rank = 2
 technology_group = nomad_group
 religion = sunni
 primary_culture = bolghar
 capital = 4267
-1444.11.11= {
+
+1405.4.3 = {
 	monarch = {
 		name = "Chepa"
 		dynasty = "Balanjar"
@@ -18,38 +19,4 @@ capital = 4267
 	}
 	add_ruler_personality = bold_fighter_personality
 	add_ruler_personality = charismatic_negotiator_personality
-	queen = {
-		name = "Peksen"
-		dynasty = "Orsini"
-		adm = 4
-		dip = 2
-		mil = 2
-		country_of_origin = Z30
-		birth_date = 1394.10.8
-		death_date = 1454.10.8
-		female = yes
-		religion = sunni
-		culture = bolghar
-	}
-	add_queen_personality = charismatic_negotiator_personality
-	add_queen_personality = conqueror_personality
-	heir = {
-		name = "Venda"
-		monarch_name = "Venda"
-		dynasty = "Balanjar"
-		adm = 6
-		dip = 6
-		mil = 6
-		birth_date = 1407.5.13
-		death_date = 1472.5.13
-		claim = 89
-		religion = sunni
-		culture = bolghar
-	}
-	add_heir_personality = intricate_web_weaver_personality
-	add_heir_personality = secretive_personality
-}
-1444.11.11= {
-	add_prestige = 102
-	add_treasury = 77
 }
