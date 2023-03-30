@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = principality
+government = theocracy
+add_government_reform = leading_clergy_reform
 government_rank = 1
 technology_group = eastern
 religion = orthodox
@@ -10,7 +10,6 @@ fixed_capital = 5680
 1433.1.9 = {
 	monarch = {
 		name = "Yuriy"
-		dynasty = "Ivanovich"
 		adm = 1
 		dip = 1
 		mil = 2
