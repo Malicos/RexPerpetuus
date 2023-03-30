@@ -4,8 +4,6 @@ graphical_culture = easterngfx
 
 color = { 169 90 95 }
 
-historical_score = 150
-
 historical_idea_groups = {
 	humanist_ideas
 	trade_ideas
@@ -36,19 +34,41 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Cirulis #1" = 10
+	"Imanta #1" = 10
+	"Manvydas #1" = 10
+	"Palemon #1" = 10
+	"Kunos #1" = 10
+	"Kernius #1" = 10
+	"Kiras #1" = 10
+	"Kukovaitis #1" = 10
+	"Utenis #1" = 10
+	"Sventaragis #1" = 10
+	"Skirmantas #1" = 10
+	"Kurlemuse #1" = 10
+	"Talivaldis #1" = 10
+	"Bulei #1" = 10
+	"Gleb #1" = 10
+	"Mstislav #1" = 10
+	"Aristarkh #1" = 10
+	"Agrafena #1" = -1
+	"Rodislav #2" = 20
+
+	# RANDOM NAMES - MALE
 	"Zygimantas #0" = 40
 	"Kazimieras #0" = 20
 	"Aleksandras #0" = 20
 	"Jonas #0 Albertas" = 20
 	"Zygimantas #0 Augustas" = 20
-	"Vytautas #1" = 20
-	"Jogaila #1" = 20
+	"Vytautas #0" = 20
+	"Jogaila #0" = 20
 	"Vladislovas #0" = 15
-	"Kestutis #1" = 10
-	"Algirdas #1" = 10
+	"Kestutis #0" = 10
+	"Algirdas #0" = 10
 	"Stanislovas #0" = 10
-	"Svitrigaila #1" = 10
-	"Mindaugas #1" = 5
+	"Svitrigaila #0" = 10
+	"Mindaugas #0" = 5
 	"Albertas #0" = 0
 	"Andrius #0" = 0
 	"Antanas #0" = 0
@@ -57,7 +77,7 @@ monarch_names = {
 	"Azuolas #0" = 0
 	"Bronislovas #0" = 0
 	"Darius #0" = 0
-	"Gediminas #1" = 0
+	"Gediminas #0" = 0
 	"Giedrius #0" = 0
 	"Gintaras #0" = 0
 	"Henrikas #0" = 0
@@ -79,13 +99,14 @@ monarch_names = {
 	"Raimondas #0" = 0
 	"Ramunas #0" = 0
 	"Steponas #0" = 0
-	"Skirgaila #1" = 0
+	"Skirgaila #0" = 0
 	"Tomas #0" = 0
 	"Viktoras #0" = 0
 	"Vincentas #0" = 0
 	"Vilhelmas #0" = 0
-	"Vytenis #1" = 0
+	"Vytenis #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Agné #0" = -1
 	"Morta #0" = -1
 	"Viltauté #0" = -1

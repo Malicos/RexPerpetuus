@@ -47,6 +47,23 @@ ship_names = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Deryab #1" = 10
+	"Arvet #1" = 10
+	"Tarva #1" = 10
+	"Niglas #1" = 10
+	"Kudres #1" = 10
+	"Hurmas #1" = 10
+	"Valdur #1" = 10
+	"Maija #1" = -1
+	"Vasilisa #1" = -1
+	"Heameel #1" = 10
+	"Ilmar #1" = 10
+	"Vambola #1" = 10
+	"Kahar #2" = 20
+	"Ohevald #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Kaupo #0" = 20
 	"Shutr #0" = 20
 	"Narvait #0" = 20
@@ -61,6 +78,7 @@ monarch_names = {
 	"Vaishvilkas #0" = 0
 	"Yudki #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Savna #0" = -1
 	"Brita #0" = -1
 	"Kordula #0" = -1

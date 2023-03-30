@@ -46,6 +46,11 @@ ship_names = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Hannu #1" = 10
+	"Aatos #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Eerikki #0" = 20
 	"Jaak #0" = 20
 	"Ilmar #0" = 20
@@ -60,6 +65,7 @@ monarch_names = {
 	"Meeme #0" = 0
 	"Riivo #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Silja #0" = -1
 	"Kätlin #0" = -1
 	"Juta #0" = -1

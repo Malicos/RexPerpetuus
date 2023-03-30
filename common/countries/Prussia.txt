@@ -6,10 +6,6 @@ color = { 80 80 76 }
 
 revolutionary_colors = { 1  0  4 }
 
-historical_score = 1800
-
-preferred_religion = protestant
-
 historical_idea_groups = {
 	innovativeness_ideas
 	offensive_ideas
@@ -39,144 +35,109 @@ historical_units = {
 }
 
 monarch_names = {
-	"Friedrich Wilhelm #0" = 60
-	"Friedrich #0" = 40
-	"Albrecht #0" = 20
-	"Friedrich Albrecht #0" = 20
-	"August Wilhelm #0" = 15
-	"Wilhelm Friedrich #0" = 15
-	"Emil #0" = 10
-	"Ferdinand #0" = 10
-	"Karl #0" = 10
-	"Ludwig Karl #0" = 10
-	"Wilhelm #0" = 10
-	"Adolf #0" = 0
-	"Alfred #0" = 0
-	"Anton #0" = 0
-	"Benedikt #0" = 0
-	"Benjamin #0" = 0
-	"Denis #0" = 0
-	"Diederick #0" = 0
-	"Eckbert #0" = 0
-	"Erwin #0" = 0
-	"Florian #0" = 0
-	"Franz #0" = 0
-	"Gebhard #0" = 0
-	"Gottfried #0" = 0
-	"Hartmann #0" = 0
-	"Heinrich #0" = 10
-	"Helmut #0" = 0
-	"Horst #0" = 0
-	"Joachim #0" = 0
-	"Kaspar #0" = 0
-	"Kurt #0" = 0
-	"Leo #0" = 0
-	"Ludwig #0" = 0
-	"Lukas #0" = 0
-	"Manfred #0" = 0
-	"Michael #0" = 0
-	"Nikolaus #0" = 0
-	"Oskar #0" = 0
-	"Otto #0" = 0
-	"Philipp #0" = 0
-	"Reiner #0" = 0
-	"Rudolf #0" = 0
-	"Rupprecht #0" = 0
-	"Siegfried #0" = 0
-	"Siegmund #0" = 0
-	"Thomas #0" = 0
-	"Urs #0" = 0
-	"Viktor #0" = 0
-	"Werner #0" = 0
+	# RP RULER NAMES
+	"Dagonis #1" = 10
+	"Prusas #1" = 10
+	"Ekkelis #1" = 10
+	"Gulbis #1" = -1
+	"Milzas #2" = 20
+	"Gerdautas #1" = 10
+	"Bajoras #1" = 10
+	"Alvydas #2" = 20
+	"Mila #2" = -5
+	"Glande #2" = 20
+	"Arelis #2" = 20
+	"Budo #3" = 60
+	"Karatas #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Zygimantas #0" = 40
+	"Kazimieras #0" = 20
+	"Aleksandras #0" = 20
+	"Jonas #0 Albertas" = 20
+	"Zygimantas #0 Augustas" = 20
+	"Vytautas #0" = 20
+	"Jogaila #0" = 20
+	"Vladislovas #0" = 15
+	"Kestutis #0" = 10
+	"Algirdas #0" = 10
+	"Stanislovas #0" = 10
+	"Svitrigaila #0" = 10
+	"Mindaugas #0" = 5
+	"Albertas #0" = 0
+	"Andrius #0" = 0
+	"Antanas #0" = 0
+	"Aras #0" = 0
+	"Arturas #0" = 0
+	"Azuolas #0" = 0
+	"Bronislovas #0" = 0
+	"Darius #0" = 0
+	"Gediminas #0" = 0
+	"Giedrius #0" = 0
+	"Gintaras #0" = 0
+	"Henrikas #0" = 0
+	"Jonas #0" = 0
+	"Jonusas #0" = 0
+	"Juozapas #0" = 0
+	"Jurgis #0" = 0
+	"Kaributas #0" = 0
+	"Karolis #0" = 0
+	"Kristupas #0" = 0
+	"Leonas #0" = 0
+	"Linas #0" = 0
+	"Liudvikas #0" = 0
+	"Marijus #0" = 0
+	"Mykolas #0" = 0
+	"Paulius #0" = 0
+	"Petras #0" = 0
+	"Pranciskus #0" = 0
+	"Raimondas #0" = 0
+	"Ramunas #0" = 0
+	"Steponas #0" = 0
+	"Skirgaila #0" = 0
+	"Tomas #0" = 0
+	"Viktoras #0" = 0
+	"Vincentas #0" = 0
+	"Vilhelmas #0" = 0
+	"Vytenis #0" = 0
 	
-	"Raphaela #0" = -1
-	"Sabine #0" = -1
-	"Vera #0" = -1
-	
-	#1.18 added vanilla female names
-	"Miriam #0" = -1
-	"Paula #0" = -1
-	"Ulrike #0" = -1
-	"Sabina #0" = -1
-	"Anna Maria #0" = -1
-	"Sophie #0" = -1
-	"Hedwig #0" = -1
-	"Magdalena #0" = -1
-	"Margarete #0" = -1
-	"Agnes #0" = -1
-	"Barbara #0" = -1
-	"Amalie #0" = -1
-	"Frederike #0" = -1
+	# RANDOM NAMES - FEMALE
+	"Agné #0" = -1
+	"Morta #0" = -1
+	"Viltauté #0" = -1
 }
 
-leader_names = {	
-	Arnim
-	"von Schwerin"
-	Blankensee
-	"von Taubeneck"
-	"von Dossow"
-	Perlkowski
-	"von Bühler"
-	"von Dessau"
-	"von Kyau"
-	Arnswald
-	Finck
-	Zitzwitz
-	"von Plothow"
-	Billerbeck
-	"von Stille"
-	"von Anhalt-Dessau"
-	Knobelsdorf
-	"von Rauch"
-	"von Quernheimberg"
-	Höltzendorff
-	"von Quitzow"
-	Cisielsky
-	Linkendorf
-	Ucklanski
-	Selasinky
-	"von Ziethen"
-	Münchov
-	Briesen
-	Riwotzki
-	Schnittern
-	"von Merckatz"
-	"von Manstein"
-	Schach
-	"von Seel"
-	Treskaw
-	"von Hohenlohe"
-	"von Rottenburg"
-	Truxes
-	Kreytz
-	"von Rüts"
-	"von Derfflinger"
-	"von Wermsdorff"
-	"von Hohenzollern"
-	Below
-	"von Bimback"
-	"von Mach"
-	Posadofsky
-	"von Preußen"
+leader_names = {
+	Alseniskis Astikas
+	Chodkevicius
+	Daukantas Dauksa Denhofas
+	Giedraitis Gosevskis Gostautas
+	Kesgaila Kiska Kosakovskis Kulvietis
+	Lietuvis
+	Masalskis Mazvydas
+	Nemirovicius
+	Oginskis Ostrogiskis
+	Pacas Pociejus
+	Radvila Rapolionis Rimsa
+	Sanguska Sapiega Simonavicius Sirvydas Skorina Sluska Sosnovskis Svyriskis
+	Tiskevicius
+	Valancius Valavicius Visniovieckis
+	Zabiela
 }
 
 ship_names = {
-	"Brandenburgischer Dragoner" "Charlotte Louise" "Churfürst von Brandenburg" "Churfürtstlische Liebjagd" "Churprinz von Brandenburg" "Clevesche Lindenbaum"
-	"Die Sieben Provinzien" "Fliegender Drache" "Friedrich Carl" "Friedrich Wilhelm zu Pferde" "Friedrich Wilhelm" "Goldener Löve" "Grafschaft Mark" "Große Jacht"
-	"Grüner Drache" "Herzogtum Cleve" "Kastell Spandau" "Kronprinz van Preußen" "König von Preußen" "König von Spanien" "König Wilhelm" "Littauer Bauer" "Maria Catharina"
-	"Markgraf von Brandenburg" "Nordischer Löve" "Preußischer Adler" "Princess Maria" "Prinz Adalbert" "Prinz Ludwig" "Prinz Philipp" "Prinz von Preußen" "Prinz Wilhelm"
-	"Prinzess Maria" "Rother Löve" "Sankt Johannes der Täufer" "Sankt Josef" "Sankt Peter" "Schloss Oranienburg" "Stad Emden" "Vogel Greif" "Wappen von Brandenburg"
-	"Wappen von Cleve" "Wilhelmine Margrethe" Afrikaner Amazone Arminius Barbarossa Basilisk Berlin Bersteinfänger Bielefeld Blitz Britannia Bulle Camaeleon Churprinz
-	Clementia Cleve Comet Cyclop Danzig Delphin Derffinger Dorothea Drache Eichhorn Falke Fortuna Frauenlob Frede Fuchs Gazelle Gefion Grille Grossfriedrichburg Habicht
-	Hansa Hay Hela Hertha Hyäne Jupiter Kronprinz Leopard Makarele Maria Mars Merkur Meteor Mohrian Morian Mummelpot Musquito Natter Neptun Niobe Pallas Pax Pfeil
-	Pierlepomp Post Potsdam Prosperpina Rommelpot Rosenfelde Rover Salamander Schwalbe Seeritter Spandau Sperber Stralsund Thetis Tiger Undine Vineta Wasserhund Wespe
-	Wolkensäule
-}
-
-army_names = {
-	"Königliche Armee"
-}
-
-fleet_names = {
-	"Ost See Squadron"
+	Alytus
+	Birzai
+	Druskininkai
+	Gardinas
+	Jonava
+	Kaunas Kretinga Kreva
+	Lazdijai
+	Naugardukas
+	Palanga
+	Raseiniai
+	Siauliai Sventoji
+	Taurage Telsiai Trakai
+	Utena
+	Vilkmerge
 }
