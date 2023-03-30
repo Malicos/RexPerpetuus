@@ -36,6 +36,20 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Pyera #1" = 10
+	"Virdyan #1" = 10
+	"Gazheg #1" = 10
+	"Kudym-Osh #3" = 60
+	"Taridin #1" = 10
+	"Shilki #1" = 10
+	"Yavantey #1" = 10
+	"Bars #1" = 10
+	"Mugel #2" = 20
+	"Ceceppi #1" = -1
+	"Toktu #1" = 10
+
+	# RANDOM NAMES
 	"Mikhail #0" = 20
 	"Yermolay #0" = 20
 	"Matvey #0" = 20
