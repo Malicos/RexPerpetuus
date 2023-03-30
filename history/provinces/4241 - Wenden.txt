@@ -2,9 +2,9 @@
 #Region - Baltic
 #Area - Livonia
 
-owner = LIV
-controller = LIV
-add_core = LIV
+owner = LVA
+controller = LVA
+add_core = LVA
 culture = livonian
 religion = catholic
 capital = "Limbazi"

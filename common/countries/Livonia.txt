@@ -1,7 +1,8 @@
 graphical_culture = easterngfx
 
-color = { 78  65  15 }
-revolutionary_colors = { 4 0 4 }
+color = { 191 191 191 }
+
+revolutionary_colors = { 5  9  0 } #Livonian Governate
 
 historical_idea_groups = {
 	trade_ideas
