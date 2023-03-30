@@ -4,8 +4,17 @@ government_rank = 1
 technology_group = eastern
 religion = catholic
 primary_culture = livonian
-capital = 1834
+capital = 4241
 
-1542.1.1 = {
-	religion = protestant
+1419.9.14 = {
+	monarch = {
+		name = "Ohevald"
+		dynasty = "Livo"
+		adm = 3
+		dip = 2
+		mil = 5
+		birth_date = 1408.9.22
+		religion = catholic
+		culture = livonian
+	}
 }

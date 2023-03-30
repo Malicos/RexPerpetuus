@@ -1,18 +1,22 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 primary_culture = estonian
-religion = catholic
+religion = norse_pagan_reformed
 technology_group = eastern
-capital = 3230
+capital = 35
+fixed_capital = 35
 
-
-1439.1.1 = {
+1419.9.20 = {
 	monarch = {
-		name = "Ludolf Grove"
-		birth_date = 1389.1.1
-		adm = 3
-		dip = 3
-		mil = 3
+		name = "Kristina"
+		dynasty = "Stjerne"
+		adm = 1
+		dip = 1
+		mil = 5
+		birth_date = 1399.4.23
+		religion = norse_pagan_reformed
+		culture = estonian
+		female = yes
 	}
 }

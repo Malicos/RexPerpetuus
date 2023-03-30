@@ -1,20 +1,21 @@
 government = monarchy
-add_government_reform = feudalism_reform #SE tribal democracy, using basic feudalism for now.
+add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
-primary_culture = latgalian #latgallian
-add_accepted_culture = lithuanian
-religion = catholic #baltic_pagan_reformed
+primary_culture = latgalian
+religion = catholic
 capital = 273	# Mitau
-#historical_friend = SEL
-historical_friend = LIT
+fixed_capital = 273
 
-1444.1.1 = {
+1435.2.10 = {
 	monarch = {
-		name = "Elder Council"
-		adm = 3
-		dip = 3
-		mil = 3
-		regent = yes
+		name = "Janis"
+		dynasty = "Ventava"
+		adm = 5
+		dip = 1
+		mil = 2
+		birth_date = 1410.4.11
+		religion = catholic
+		culture = latgalian
 	}
 }

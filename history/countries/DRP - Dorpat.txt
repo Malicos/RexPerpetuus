@@ -1,17 +1,21 @@
-government = theocracy
-add_government_reform = leading_clergy_reform
+government = monarchy
+add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = estonian
 religion = catholic
 technology_group = eastern
 capital = 1834
+fixed_capital = 1834
 
-1441.1.1 = {
+1417.10.29 = {
 	monarch = {
-		name = "Bartholomäus Savijerwe"
-		birth_date = 1395.1.1
-		adm = 3
-		dip = 2
-		mil = 2
+		name = "Veli"
+		dynasty = "Ridala"
+		adm = 2
+		dip = 1
+		mil = 5
+		birth_date = 1396.2.24
+		religion = catholic
+		culture = estonian
 	}
 }

@@ -6,3 +6,18 @@ add_accepted_culture = lithuanian
 religion = orthodox
 technology_group = eastern
 capital = 272 # Vilnius
+
+1433.9.30 = {
+	monarch = {
+		name = "Rodislav II"
+		dynasty = "Rurikovich"
+		adm = 4
+		dip = 4
+		mil = 6
+		birth_date = 1393.1.4
+		religion = orthodox
+		culture = byelorussian
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = strict_personality
+}
