@@ -1,6 +1,21 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = al_misr_arabic
+government_rank = 1
+primary_culture = al_suryah_arabic
 religion = sunni
 technology_group = muslim_tech
-capital = 361 # Cairo
+capital = 6070 # Irbid
+fixed_capital = 6070
+
+1410.10.7 = {
+	monarch = {
+		name = "Sulayman II"
+		dynasty = "Sadaddin"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1392.11.3
+		religion = sunni
+		culture = al_suryah_arabic
+	}
+}

@@ -1,6 +1,21 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = al_misr_arabic
-religion = sunni
+government_rank = 1
+primary_culture = bedouin_arabic
+religion = shiite
 technology_group = muslim_tech
-capital = 361 # Cairo
+capital = 5181 # Nekhel
+fixed_capital = 5181 
+
+1423.2.1 = {
+	monarch = {
+		name = "Fayiz"
+		dynasty = "Yasarid"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1390.4.8
+		religion = shiite
+		culture = bedouin_arabic
+	}
+}

@@ -9,8 +9,8 @@ owner = TYE
 controller = TYE
 
 #Demographics
-culture = al_suryah_arabic
-religion = druze
+culture = outremer
+religion = catholic
 
 #Development and Trade
 base_tax = 3

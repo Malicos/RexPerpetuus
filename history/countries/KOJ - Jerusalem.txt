@@ -1,9 +1,22 @@
 government = monarchy
 add_government_reform = feudalism_reform
-
-primary_culture = cosmopolitan_french
+government_rank = 2
+primary_culture = outremer
+add_accepted_culture = syriac_culture
 religion = catholic
 technology_group = eastern
 capital = 379	# Jerusalem
+fixed_capital = 379
 
-
+1428.5.19 = {
+	monarch = {
+		name = "Charles III"
+		dynasty = "Bourgogne"
+		adm = 4
+		dip = 4
+		mil = 5
+		birth_date = 1427.1.2
+		religion = catholic
+		culture = outremer
+	}
+}

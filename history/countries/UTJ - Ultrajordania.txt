@@ -1,6 +1,21 @@
 government = monarchy
-add_government_reform = iqta
-primary_culture = al_misr_arabic
-religion = sunni
-technology_group = muslim_tech
-capital = 361 # Cairo
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = outremer
+religion = catholic
+technology_group = eastern
+capital = 380 # Kerak
+fixed_capital = 380
+
+1435.5.28 = {
+	monarch = {
+		name = "Julien II"
+		dynasty = "de Bourbourg"
+		adm = 2
+		dip = 3
+		mil = 4
+		birth_date = 1394.1.21
+		religion = catholic
+		culture = outremer
+	}
+}

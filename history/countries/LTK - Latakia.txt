@@ -1,7 +1,21 @@
 government = monarchy
 add_government_reform = iqta
+government_rank = 1
 primary_culture = al_suryah_arabic
-religion = sunni
+religion = shiite
 technology_group = muslim_tech
-capital = 382	# Damascus
-religious_school = shafii_school
+capital = 5710 # Latakia
+fixed_capital = 5710
+
+1412.10.30 = {
+	monarch = {
+		name = "Muzaffar"
+		dynasty = "Muzaffarid"
+		adm = 1
+		dip = 1
+		mil = 3
+		birth_date = 1395.10.1
+		religion = shiite
+		culture = al_suryah_arabic
+	}
+}

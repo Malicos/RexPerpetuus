@@ -1,7 +1,22 @@
 government = monarchy
-add_government_reform = iqta
-primary_culture = al_suryah_arabic
-religion = sunni
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = syriac_culture
+religion = orthodox
 technology_group = muslim_tech
-capital = 382	# Damascus
-religious_school = shafii_school
+capital = 405	# Palmyra
+fixed_capital = 405
+
+1418.12.28 = {
+	monarch = {
+		name = "Najela"
+		dynasty = "Kamranid"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1376.8.26
+		religion = orthodox
+		culture = syriac_culture
+		female = yes
+	}
+}

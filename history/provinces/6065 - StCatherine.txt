@@ -10,7 +10,7 @@ controller = NHL
 
 #Demographics
 culture = bedouin_arabic
-religion = sunni
+religion = shiite
 
 #Development and Trade
 base_tax = 2
