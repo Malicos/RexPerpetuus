@@ -118,7 +118,7 @@ leader_names = {
 }
 
 ship_names = {
-	Xacitarxan Volga Ã„sterxan Khadjitarkhan
+	Xacitarxan Volga Ästerxan Khadjitarkhan
 	"Chinggis Khan" Kuchuk Actarxan 
 	"Sarai Batu" "Hadzhy-Tarkhan" 
 	Gitorkhan Tsitrokhan

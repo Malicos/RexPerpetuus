@@ -205,7 +205,7 @@ leader_names = {
 	#MONFRAIX MONGE MONTARIOL MONTAUT MORERE MOULIS NAUDY NOGUES OLIVIER ORTET OUSSET
 	Montfrais Monge Montairòl Montaut Morera Molins Nòga Ortet Osset #MORERE is a Catalan name, BUT also appears in Languedoc? Church of Notre-Dame of the Morère, in Rieux-Volvestre. Gascon form: Molèra. NOGUES - Nòga in Gascon, Noga in Languedocian. Ortet could be from the Narbonnese version of Ortet, as it's pronounced O and not U there.
 	#PAGES PECH PELISSIER PENE PERES PERIES PERISSE PETIT PEYRE PICOT PINAUD PINEL PIQUEMAL PONS PORTES PRADEL PRADELLES PRADERE PRAT PROUDHOM PUISSEGUR PUJO PUJOL
-	Pagés Puèg Pelissièr Pena Perissa Petit Pèira Picòt Pinau Pinèl Picmal/Picamal? Pòrtas Pradèl Pradèlas Pradèra Prat Prodòme Poisigur Pujòu Pujòl #Len:Prudòme Gas:Prodòme/Prodòmi.
+	Pagés Puèg Pelissièr Pena Perissa Petit Pèira Picòt Pinau Pinèl Picmal Pòrtas Pradèl Pradèlas Pradèra Prat Prodòme Poisigur Pujòu Pujòl #Len:Prudòme Gas:Prodòme/Prodòmi.
 	#RACAUD RAMOND RAMONDOU RASPAUD RAYMOND RAYNAUD REDONNET REGAGNON RESPAUD REULET REY RIBET RICAUD RICHARD RIGAL RIGAUD RIVALS RIVES RIVIERE ROBERT ROQUES ROUCH ROUGE ROUQUET
 	Redonet Reganhon Riulet Rei Rivet Rigal Rigaud Rivals Ribas Ribièra Ròcas Rog Roge Roquet
 	#ROUX RUMEAU
