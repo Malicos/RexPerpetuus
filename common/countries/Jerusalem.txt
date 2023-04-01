@@ -33,19 +33,17 @@ historical_units = {
 }
 
 monarch_names = {
-	"Godfrey #1" = 60
-	"Baldwin #5" = 60
-	"Henry #2" = 40
-	"Amalric #2" = 30
-	"John #2" = 10
-	"Fulk #1" = 10
-	"Conrad #3" = 10
-	"Sibylla #1" = -5
-	"Isabella #2" = -10
-	"Melisende #1" = -5
-	"Maria #1" = -5
-	"Guy #1" = 5
-	"Hugues #1" = 5
+	# RP RULER NAMES
+	"Nicolas #1" = 10
+	"Baudouin #1" = 10
+	"Frédéric #1" = 10
+	"Louis #2" = 20
+	"Adémar #1" = 10
+	"Simon #3" = 60
+	"Charles #3" = 60
+	"Mathilde #0" = -1
+	"Elodie #0" = -1
+	"Emma #0" = -1
 }
 
 ship_names = {

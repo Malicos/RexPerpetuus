@@ -30,19 +30,31 @@ historical_units = {
 }
 
 monarch_names = {
-	"al-Nasr #2" = 20
-	"al-Mu'azzam #2" = 20
-	"al-Salih #2" = 20
-	"al-'Adil #2" = 20
-	"al-Kamil #1" = 20
-	"al-Ashraf #1" = 20
-	"al-Afdal #1" = 15
-	"Tadj #2" = 10
-	"Mujir ud-Din #1" = 10
-	"Djamal ud-Din #1" = 10
-	"Shihab ud-Din #1" = 10
-	"Shams #1" = 10
-	"Saif #1" = 10
+	# RP RULER NAMES
+	"Ezekiel #1" = 10
+	"Wahid #1" = 10
+	"Yaqob #1" = 10
+	"Sa'ud #1" = 10
+	"Babaeus #1" = 10
+	"Nehor #1" = 10
+	"Lazarus #1" = 10
+	"Ismat #1" = 10
+	"Ashraf #1" = 10
+
+	# RANDOM NAMES - MALE
+	"al-Nasr #0" = 20
+	"al-Mu'azzam #0" = 20
+	"al-Salih #0" = 20
+	"al-'Adil #0" = 20
+	"al-Kamil #0" = 20
+	"al-Ashraf #0" = 20
+	"al-Afdal #0" = 15
+	"Tadj #0" = 10
+	"Mujir ud-Din #0" = 10
+	"Djamal ud-Din #0" = 10
+	"Shihab ud-Din #0" = 10
+	"Shams #0" = 10
+	"Saif #0" = 10
 	"'Abbas #0" = 0
 	"'Abd al-Rahman #0" = 0
 	"Anwar #0" = 0
@@ -71,6 +83,7 @@ monarch_names = {
 	"Zaid #0" = 0
 	"Zîyad #0" = 0
 	
+	# RANDOM NAMES - FEMALE
 	"Ihsan #0" = -1
 	"Marwa #0" = -1
 	"Fatima #0" = -1
