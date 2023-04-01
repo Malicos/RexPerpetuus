@@ -1,13 +1,9 @@
 #New Beyond Typus Province
 
-owner = CYR
-controller = CYR
-add_core = CYR
 culture = libyan_berber_culture
 religion = sunni
 capital = "Al Jaghbub"
-is_city = yes
-trade_goods = livestock
+trade_goods = unknown
 hre = no
 base_tax = 1 
 base_production = 1 
