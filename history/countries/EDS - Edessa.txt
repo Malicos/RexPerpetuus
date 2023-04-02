@@ -1,8 +1,8 @@
-#SRN - Soran
+#Edessa
 
 #Political Situation
-capital = 6123
-fixed_capital = 6123 #Cannot move capital away from this province & no power cost to move to it
+capital = 2308
+fixed_capital = 2308 #Cannot move capital away from this province & no power cost to move to it
 
 #Government
 government_rank = 1	
@@ -20,13 +20,15 @@ technology_group = muslim_tech
 
 #History
 
-1444.1.1 = {
-	monarch = { 
-		name = "Seyfeddin"
-		dynasty = "Pir Budak"
-		birth_date = 1423.1.1
-		adm = 2
+1434.12.12 = {
+	monarch = {
+		name = "Yahya"
+		dynasty = "Himsid"
+		adm = 1
 		dip = 1
-		mil = 3
+		mil = 4
+		birth_date = 1406.12.1
+		religion = sunni
+		culture = kurdish
 	}
 }

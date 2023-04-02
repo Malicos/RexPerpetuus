@@ -1,8 +1,8 @@
-#SRN - Soran
+#Rakka
 
 #Political Situation
-capital = 6123
-fixed_capital = 6123 #Cannot move capital away from this province & no power cost to move to it
+capital = 407
+fixed_capital = 407 #Cannot move capital away from this province & no power cost to move to it
 
 #Government
 government_rank = 1	
@@ -10,7 +10,7 @@ government = monarchy
 add_government_reform = iqta
 
 #Demographics
-primary_culture = kurdish
+primary_culture = al_iraqiya_arabic
 religion = sunni
 religious_school = shafii_school
 #add_accepted_culture
@@ -20,13 +20,15 @@ technology_group = muslim_tech
 
 #History
 
-1444.1.1 = {
-	monarch = { 
-		name = "Seyfeddin"
-		dynasty = "Pir Budak"
-		birth_date = 1423.1.1
+1419.6.12 = {
+	monarch = {
+		name = "Ibrahim II"
+		dynasty = "Hakamid"
 		adm = 2
-		dip = 1
+		dip = 2
 		mil = 3
+		birth_date = 1411.4.2
+		religion = sunni
+		culture = al_iraqiya_arabic
 	}
 }
