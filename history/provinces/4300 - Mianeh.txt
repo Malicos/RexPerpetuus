@@ -3,7 +3,7 @@
 owner = TAL
 controller = TAL
 add_core = TAL
-culture = daylamite
+culture = talysh
 religion = shiite
 capital = "Mianeh"
 trade_goods = bt_trade_good_books

@@ -3,7 +3,7 @@
 owner = SRV
 controller = SRV
 add_core = SRV
-culture = daylamite
+culture = shirvani
 religion = shiite
 capital = "Quba"
 trade_goods = fish
