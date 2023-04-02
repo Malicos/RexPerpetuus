@@ -30,65 +30,92 @@ historical_units = {
 }
 
 monarch_names = {
-	"Qutalmish #1" = 20
-	"Suleiman #2" = 30
-	"Masud #3" = 40
-	"Kaykhusraw #3" = 40
-	"Kilij #3" = 40
-	"Kaykaus  #2" = 20
-	"Kayqubad  #3" = 40
-	"Muhammed #0" = 10
-	"Izzeddin #0" = 10
-	"Taceddin #0" = 10
-	"Ishak #0" = 10
-	"Ahmed #0" = 10
-	"Kasim #0" = 10
-	"Mahmud #0" = 10
+	# RP RULER NAMES
+	"Danus #1" = 10
+	"Ruhollah #1" = 10
+	"Firdews #2" = 20
+	"Murad #1" = 10
+	"Xasayar #1" = 10
+	"Fath #1" = 10
+	"Rustam #1" = 10
+	"Varsasp #2" = 20
+	"Sahin #1" = 10
+
+	# RANDOM NAMES - MALE
+	"Bawa #0" = 30
+	"Helo #0" = 30
+	"Timur #0" = 30
+	"Ahmad #0" = 20
+	"Soleiman #0" = 10
+	"Sobhanverdi #0" = 30
+	"Khosrow #0" = 15
+	"Bozorg #0" = 20
+	"Hosayn #0" = 10
+	"Aman-Allah #0 Shâh" = 10
+	"Faqi Ahmad #0 Shâh" = 10
+	"Mohammad #0" = 10
+	"Nawaub Khalid #0" = 10
+	"Nawaub Salim #0" = 5
+	"Abdolla #0 Khân" = 10
+	"Mahmoud #0" = 10
 	"Ibrahim #0" = 10
-	"Ali #0" = 10
-	"Mustafa #0" = 10
-	"Dervis #0" = 10 
+	"Abdurrahman #0" = 10
+	"Kulos #0" = 10
+	"Isa #0" = 10
+	"Mir Saifeddin #0" = 10
+	"Saidi #0" = 10
+	"Budak #0" = 10
 	
-	"Havva #0" = -1
-	"Gamze #0" = -1
-	"Hanife #0" = -1
-	"Melis #0" = -1
-	"Rabia #0" = -1
-	"Safiye #0" = -1
-	"Umut #0" = -1
-	"Ziynet #0" = -1
-	"Zübeyde #0" = -1
+	# RANDOM NAMES - FEMALE
+	"Atiya #0" = -1
+	"Mir Xanzad #0" = -1
+	"Mir Suliman #0" = -1
 }
 
 leader_names = {
-	Alemdar Amasyali Ayas
-	Bali Barbaros Bayram
-	Cezzar Çandarli Çelebi Cerrah Çerkes Civan Çuhadar
-	Damad Dervis Defterdar
-	Gedik Gazi Gümülcineli Gürcü
-	Hadim Hekimoglu Hersekli
-	Köprülü Kemal Küçük Koca Karamanli Köse Kara Kanijeli Kemankes Kaymak Kavalali
-	Ishak Izzed
-	Lala Lefkeli
-	Malkoç Müezzinzade
-	Nevsehirli Nisanci
-	Oruç Uluç Osmancikli Ohrili Oflu
-	Rumi
-	Piri Pargali Piyale Pehlivan
-	Salih Sokullu Sari Silahdar Semiz Serdar
-	Topal Tayyar Turgut Tarhuncu
-	Veli
-	Yemisçi
+	Sanjâbi
+	Bukhti
+	Ferozkohi
+	Feyli
+	Gewirk
+	Rekani
+	Hadhabani
+	"Ali Sherwan"
+	Herki
+	Jalilavand
+	Zafaranlu
+	Zarrinkafsh
+	Mangur
+	Jaff
+	Sheylanli
+	Barzani
 }
 
 ship_names = {
-	"Nure Sufi" Sadaddin "Karaman Bey" Ermenek
-	Mut Gülnar Mer Silifke Cilicia Larande
-	Bunsuz "Zeynül-Hac" "Semseddin Mehmet" Göksu
+	Abathur "Adamn Kasia" "Aesma Daeva" Agas
+	Ahriman Ahura "Ahura Mazda" Ahurani Airyaman
+	"Aka Manah" Aladdin Allatum Amashaspan Ameratat
+	"Amesha Spentas" Anahita "Angra Mainyu" Anjuman
+	"Apam-natat" Apaosa Aredvi Arishtat Armaiti Arsaces
+	"Asha vahista" Asman "Asto Vidatu" "Astvat-Ereta"
+	Atar "Azi Dahaka" Baga Bahram Burijas Bushyasta Buyasta
+	Camros Daena Daevas Ahaka Dahhak Dena Dev Diwe Drug
+	Drvaspa Frashegird Fravashis Gandarewa "Gao-kerena"
+	Gayomard Gayomart "Geus-Tasan" "Geus-Urvan" Haoma
+	Haurvatat Humay Hvar Hvarekhshaeta Indar Indra Izha
+	Jamshid Jeh Karshipta Kavi Khara "Khshathra vairya"
+	Kundrav Mah Mahre Mahrianag Manu Manuchihir Mao 
+	Mashyane Mashye Menog Mithra Nairyosangha Nanghaithya
+	Neriosang Ormazd Peris Peshdadians Rapithwin Rashnu
+	Rustam Saurva Simurgh "Spenta Mainyu" Sraosa Srosh
+	Tawrich Thunaupa Tistrya Tushnamatay Vanant Vata
+	Verethragna "Vohu Manah" Vouruskasha Yam Yasht Yazata
+	Yezidi Yima Zal Zam "Zam-Armatay" Zarathustra Zarich
+	"Zend-Avesta" Zurvan
 }
 
 army_names = {
-	"$PROVINCE$ Ordusu"
+	Artesa "$PROVINCE$"
 }
 
 fleet_names = {

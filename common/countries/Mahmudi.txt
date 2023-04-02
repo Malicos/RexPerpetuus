@@ -4,7 +4,7 @@ graphical_culture = muslimgfx
 
 color = { 96 115 255 }
 
-preferred_religion = zoroastrian #Yazidi
+preferred_religion = yazidi
 
 historical_idea_groups = {
 	defensive_ideas
@@ -32,6 +32,12 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Hafez #1" = 10
+	"Darab #1" = 10
+	"Rustam #2" = 20
+
+	# RANDOM NAMES - MALE
 	"Bawa #0" = 30
 	"Helo #0" = 30
 	"Timur #0" = 30
@@ -56,6 +62,7 @@ monarch_names = {
 	"Saidi #0" = 10
 	"Budak #0" = 10
 	
+	# RANDOM NAMES - FEMALE
 	"Atiya #0" = -1
 	"Mir Xanzad #0" = -1
 	"Mir Suliman #0" = -1

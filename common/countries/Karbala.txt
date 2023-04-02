@@ -30,67 +30,86 @@ historical_units = {
 }
 
 monarch_names = {
-	"Qutalmish #1" = 20
-	"Suleiman #2" = 30
-	"Masud #3" = 40
-	"Kaykhusraw #3" = 40
-	"Kilij #3" = 40
-	"Kaykaus  #2" = 20
-	"Kayqubad  #3" = 40
-	"Muhammed #0" = 10
-	"Izzeddin #0" = 10
-	"Taceddin #0" = 10
-	"Ishak #0" = 10
-	"Ahmed #0" = 10
-	"Kasim #0" = 10
-	"Mahmud #0" = 10
-	"Ibrahim #0" = 10
-	"Ali #0" = 10
-	"Mustafa #0" = 10
-	"Dervis #0" = 10 
+	# RP RULER NAMES
+	"Mukhtar #1" = 20
+	"Isa #1" = 20
+	"Mehrab #1" = 20
+
+	# RANDOM NAMES - MALE
+	"al-Nasr #0" = 20
+	"al-Mu'azzam #0" = 20
+	"al-Salih #0" = 20
+	"al-'Adil #0" = 20
+	"al-Kamil #0" = 20
+	"al-Ashraf #0" = 20
+	"al-Afdal #0" = 15
+	"Tadj #0" = 10
+	"Mujir ud-Din #0" = 10
+	"Djamal ud-Din #0" = 10
+	"Shihab ud-Din #0" = 10
+	"Shams #0" = 10
+	"Saif #0" = 10
+	"'Abbas #0" = 0
+	"'Abd al-Rahman #0" = 0
+	"Anwar #0" = 0
+	"Atuf #0" = 0
+	"Bakr #0" = 0
+	"Fahd #0" = 0
+	"Hakim #0" = 0
+	"Harun #0" = 0
+	"Hikmat #0" = 0
+	"Hisham #0" = 0
+	"Husayn #0" = 0
+	"Isma'il #0" = 0
+	"Jafar #0" = 0
+	"Jamaal #0" = 0
+	"Karim #0" = 0
+	"Malîk #0" = 0
+	"Mirza #0" = 0
+	"Muhammad #0" = 0
+	"Rashîd #0" = 0
+	"Rusul #0" = 0
+	"Shimun #0" = 0
+	"Tarîq #0" = 0
+	"Usama #0" = 0
+	"Yasir #0" = 0
+	"Yusuf #0" = 0
+	"Zaid #0" = 0
+	"Zîyad #0" = 0
 	
-	"Havva #0" = -1
-	"Gamze #0" = -1
-	"Hanife #0" = -1
-	"Melis #0" = -1
-	"Rabia #0" = -1
-	"Safiye #0" = -1
-	"Umut #0" = -1
-	"Ziynet #0" = -1
-	"Zübeyde #0" = -1
+	# RANDOM NAMES - FEMALE
+	"Ihsan #0" = -1
+	"Marwa #0" = -1
+	"Fatima #0" = -1
+	"Aisha #0" = -1
 }
 
 leader_names = {
-	Alemdar Amasyali Ayas
-	Bali Barbaros Bayram
-	Cezzar Çandarli Çelebi Cerrah Çerkes Civan Çuhadar
-	Damad Dervis Defterdar
-	Gedik Gazi Gümülcineli Gürcü
-	Hadim Hekimoglu Hersekli
-	Köprülü Kemal Küçük Koca Karamanli Köse Kara Kanijeli Kemankes Kaymak Kavalali
-	Ishak Izzed
-	Lala Lefkeli
-	Malkoç Müezzinzade
-	Nevsehirli Nisanci
-	Oruç Uluç Osmancikli Ohrili Oflu
-	Rumi
-	Piri Pargali Piyale Pehlivan
-	Salih Sokullu Sari Silahdar Semiz Serdar
-	Topal Tayyar Turgut Tarhuncu
-	Veli
-	Yemisçi
+	Damad
+	Esad
+	Farhad
+	Hafiz
+	Fazil
+	Ismail
+	Mehmed
+	Murad
+	Nasuh
+	Osman
+	Salih
+	Sinan
 }
 
 ship_names = {
-	"Nure Sufi" Sadaddin "Karaman Bey" Ermenek
-	Mut Gülnar Mer Silifke Cilicia Larande
-	Bunsuz "Zeynül-Hac" "Semseddin Mehmet" Göksu
-}
-
-army_names = {
-	"$PROVINCE$ Ordusu"
-}
-
-fleet_names = {
-	"$PROVINCE$ Donanmasî"
+	Arif
+	Azmi
+	Dervish
+	Fuad
+	Haci
+	Haydar
+	Mulish
+	Nuri
+	Salih
+	Said
+	Sefveti
+	Shukri
 }
