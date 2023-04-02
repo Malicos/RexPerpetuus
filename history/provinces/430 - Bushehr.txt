@@ -3,7 +3,7 @@
 owner = BUS
 controller = BUS
 add_core = BUS
-culture = turko_iranian
+culture = luri
 religion = shiite
 capital = "Bushehr"
 trade_goods = silk

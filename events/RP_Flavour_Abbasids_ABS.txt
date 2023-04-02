@@ -44,7 +44,7 @@ country_event = {
 		else = {
 			change_tag = IRQ
 			change_primary_culture = al_iraqiya_arabic
-			add_accepted_culture = turko_iranian
+			add_accepted_culture = saljuqid
 			swap_free_idea_group = yes
 			410 = { move_capital_effect = yes }
 			mesopotamia_region = {
@@ -87,7 +87,7 @@ country_event = {
 		name = rp_flavour_abbasids.2.a
 		change_tag = ABS
 		change_primary_culture = al_iraqiya_arabic
-		add_accepted_culture = turko_iranian
+		add_accepted_culture = saljuqid
 		swap_free_idea_group = yes
 		custom_tooltip = ABS_BAGHDAD
 		hidden_effect = {

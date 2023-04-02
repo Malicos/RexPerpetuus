@@ -3,8 +3,8 @@
 owner = SJK
 controller = SJK
 add_core = SJK
-culture = al_iraqiya_arabic
-religion = shiite
+culture = saljuqid
+religion = sunni
 capital = "Baghdad"
 trade_goods = bt_trade_good_books #(JP) Shia Religious Centre
 hre = no

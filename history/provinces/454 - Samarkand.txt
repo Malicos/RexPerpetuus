@@ -3,7 +3,7 @@
 owner = SGD
 controller = SGD
 add_core = SGD
-culture = karluk
+culture = tajik
 religion = sunni
 capital = "Samarkand"
 trade_goods = bt_trade_good_books

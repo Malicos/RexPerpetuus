@@ -3,7 +3,7 @@
 owner = FRS
 controller = FRS
 add_core = FRS
-culture = turko_iranian
+culture = khamseh
 religion = sunni
 capital = "Bandar Langeh"
 trade_goods = spices

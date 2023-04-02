@@ -9,8 +9,8 @@ owner = KBL
 controller = KBL
 
 #Demographics
-culture = al_iraqiya_arabic
-religion = shiite
+culture = saljuqid
+religion = sunni
 
 #Development and Trade
 base_tax = 3

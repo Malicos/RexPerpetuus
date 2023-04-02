@@ -3,7 +3,7 @@
 owner = SJK
 controller = SJK
 add_core = SJK
-culture = al_iraqiya_arabic
+culture = saljuqid
 religion = sunni
 capital = "Tikrit"
 trade_goods = cloth

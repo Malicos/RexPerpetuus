@@ -3,8 +3,8 @@
 owner = CUM
 controller = CUM
 add_core = CUM
-culture = cuman
-religion = sunni
+culture = ashkenazi
+religion = jewish
 hre = no
 base_tax = 4 
 base_production = 4

@@ -3,8 +3,8 @@
 owner = CDB
 controller = CDB
 add_core = CDB
-culture = andalusi_culture
-religion = sunni
+culture = sephardi
+religion = jewish
 capital = "Úbeda"			#Also Baeza
 base_tax = 2
 base_production = 2

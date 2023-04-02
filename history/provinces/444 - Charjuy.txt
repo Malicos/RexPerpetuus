@@ -3,7 +3,7 @@
 owner = SGD
 controller = SGD
 add_core = SGD
-culture = karluk
+culture = xorasani
 religion = sunni
 capital = "Charjuy"
 trade_goods = livestock

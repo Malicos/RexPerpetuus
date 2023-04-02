@@ -3,7 +3,7 @@
 owner = SAB
 controller = SAB
 add_core = SAB
-culture = khorasani
+culture = horasanli
 religion = sunni
 capital = "Bojnord"
 trade_goods = wool

@@ -3,7 +3,7 @@
 owner = SJK
 controller = SJK
 add_core = SJK
-culture = turko_iranian
+culture = saljuqid
 religion = shiite
 capital = "Qurna"
 trade_goods = bt_trade_good_fruit #(JP) Dates, plus where Muslims think the Garden of Eden is

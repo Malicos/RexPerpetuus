@@ -3,7 +3,7 @@
 owner = JDR
 controller = JDR
 add_core = JDR
-culture = turko_iranian
+culture = khamseh
 religion = shiite
 capital = "Gamrun"
 trade_goods = spices

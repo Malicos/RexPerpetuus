@@ -2,7 +2,7 @@
 # Timurid Empire
 #######################################
 technology_group = ottoman
-primary_culture = uzbehk
+primary_culture = tajik
 religion = sunni
 government = monarchy
 add_government_reform = iqta

@@ -9,7 +9,7 @@ owner = SJK
 controller = SJK
 
 #Demographics
-culture = turko_iranian
+culture = saljuqid
 religion = shiite
 
 #Development and Trade

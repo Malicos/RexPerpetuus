@@ -104,10 +104,14 @@
  
  ####Indo-Iranic####
  ###Iranian###
- turko_iranian:0 "Turkirani"      # Persianate Turks
+ saljuqid:0 "Saljuqid"      # Persianate Turks
  daylamite:0 "Daylamite"
  talysh:0 "Talysh"
-
+ tajik:0 "Tajik"
+ ###Saka###
+ saka_g:0 "Saka"
+ pashtuni:0 "Pashtuni"
+ xorasani:0 "Xorasani"
  
  ##################
  ###Afro-Asiatic###
@@ -116,11 +120,19 @@
  ####Semitic####
  ###Arabic###
  siquli_culture:0 "Siquli"
+ khamseh:0 "Khamseh"
  ###Moorish####
  moorish:0 "Moorish"          # Iberian Muslim Group
  batalyawsi:0 "Shenshiri"        # Muslim Badajozi
  balansi_culture:0 "Sharqi"      # Muslim Valencian
  ibri_culture:0 "Ibri"            # Muslim Aragonese
+ ###Judaic###
+ jewish_culture_group:0 "Judaic"
+ ashkenazi:0 "Ashkenazi"
+ sephardi:0 "Sephardi"
+ mizrahi:0 "Mizrahi"
+ beta_israeli:0 "Beta Isreali"
+ dzhidi:0 "Dzhidi"  #Iranian Jews
  
  ####Old Egyptian####
  ###Coptic###
@@ -135,6 +147,7 @@
  khitan_culture:0 "Khitan"
  karluk:0 "Karluk"
  yugran:0 "Yugran"
+ horasanli:0 "Horasanli"
  ###Xubic###
  keraite:0 "Keraite"
  khamag:0 "Khamag"

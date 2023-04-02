@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = iqta
 government_rank = 2
-primary_culture = turko_iranian
+primary_culture = saljuqid
 religion = sunni
 technology_group = iranian_tech
 capital = 408	# Basra
@@ -15,7 +15,7 @@ capital = 408	# Basra
 		mil = 3
 		birth_date = 1386.9.2
 		religion = sunni
-		culture = turko_iranian
+		culture = saljuqid
 	}
 	add_ruler_personality = calm_personality
 	add_ruler_personality = charismatic_negotiator_personality
@@ -41,7 +41,7 @@ capital = 408	# Basra
 		mil = 6
 		birth_date = 1407.4.26
 		religion = sunni
-		culture = turko_iranian
+		culture = saljuqid
 	}
 	add_heir_personality = midas_touched_personality
 	add_heir_personality = just_personality

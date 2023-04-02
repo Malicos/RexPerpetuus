@@ -3,8 +3,8 @@
 owner = CUM
 controller = CUM
 add_core = CUM
-culture = cuman
-religion = sunni
+culture = ashkenazi
+religion = jewish
 capital = "Sarai"
 trade_goods = wool
 hre = no

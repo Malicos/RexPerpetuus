@@ -3,7 +3,7 @@
 owner = KAB
 controller = KAB
 add_core = KAB
-culture = afghani
+culture = pashtuni
 religion = sunni
 capital = "Kabul"
 trade_goods = gems #Emeralds
