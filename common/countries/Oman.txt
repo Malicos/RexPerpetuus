@@ -30,7 +30,22 @@ historical_units = {
 }
 
 monarch_names = {
-	"Sulaymân #0" = 10
+	# RP RULER NAMES
+	"Qawurd #1" = 10
+	"Kerman Shah #1" = 10
+	"Tolun #1" = 10
+	"Tutus #1" = 10
+	"Alptigin #1" = 10
+	"Berkan #1" = 10
+	"Ridvan #1" = 10
+	"Ayaz #2" = 20
+	"Sulaymân #1" = 10
+	"Inal #1" = 10
+	"Jabir #1" = 10
+	"Mukhtar #2" = 20
+	"Is'mail #2" = 20
+
+	# RANDOM NAMES - MALE
 	"'Umar #0" = 10
 	"Abu'l-Hasan #0" = 10
 	"Barakât #0" = 10
@@ -46,6 +61,7 @@ monarch_names = {
 	"Ya'rub #0" = 10
 	"Ahmad #0" = 10
 	
+	# RANDOM NAMES - FEMALE
 	"Lujayn #0" = -1
 	"Ghanneyeh #0" = -3
 	"Ghaliya #0" = -3

@@ -30,6 +30,11 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Is'mail #1" = 10
+	"Zeyd #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Muhammad #0" = 10
 	"Sadun #0" = 10
 	"Barrak #0" = 10
@@ -42,6 +47,7 @@ monarch_names = {
 	"Nadjim ibn Duhaynim #0" = 10
 	"Zayid #0" = 10
 	
+	# RANDOM NAMES - FEMALE
 	"Ilham #0" = -1
 	"Fatimah #0" = -1
 	"Walida #0" = -1

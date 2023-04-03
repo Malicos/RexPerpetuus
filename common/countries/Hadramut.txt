@@ -30,6 +30,20 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Malik #1" = 10
+	"Ibrahim #3" = 60
+	"Abdul-Lateef #1" = 10
+	"Adhid #1" = 10
+	"Nuraddin #1" = 10
+	"Khalid #2" = 20
+	"Taimur #1" = 10
+	"Radhi #1" = 10
+	"Ala'i #1" = 10
+	"Imamaddin #2" = 20
+	"Nasraddin #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Jafar #0" = 40
 	"Abdallah #0" = 30
 	"Amr #0" = 20
@@ -39,6 +53,7 @@ monarch_names = {
 	"Ali #0" = 10
 	"Husayn #0" = 10
 	
+	# RANDOM NAMES - FEMALE
 	"Hiba #0" = -1
 	"Fatimah #0" = -1
 	"Walida #0" = -1
