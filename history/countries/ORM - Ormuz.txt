@@ -5,27 +5,17 @@ technology_group = muslim_tech
 religion = sunni
 primary_culture = gulf_arabic
 capital = 2999	# Ormuz Island
-religious_school = maliki_school
+fixed_capital = 2999
 
-#Rulers of Ormuz
-1442.1.1 = {
+1435.1.11 = {
 	monarch = {
-		name = "Fakhr al-Din"
-		dynasty = "Turani"
+		name = "Mukhtar"
+		dynasty = "Batuhan"
+		adm = 3
 		dip = 4
-		mil = 2
-		adm = 2
+		mil = 4
+		birth_date = 1395.3.15
+		religion = sunni
+		culture = gulf_arabic
 	}
-	add_piety = 0.1
-}
-
-1465.1.1 = {
-	monarch = {
-		name = "Salghur"
-		dynasty = "Turani"
-		dip = 4
-		mil = 2
-		adm = 2
-	}
-	add_piety = 0.1
 }

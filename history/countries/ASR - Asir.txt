@@ -3,6 +3,20 @@ add_government_reform = iqta
 government_rank = 2 #Sultanate
 technology_group = muslim_tech
 religion = sunni
-primary_culture = gulf_arabic
-capital = 394	# Al Hasa
-religious_school = maliki_school
+primary_culture = yemeni_culture
+add_accepted_culture = bedouin_arabic 
+add_accepted_culture = hejazi_culture
+capital = 386
+
+1410.10.28 = {
+	monarch = {
+		name = "Murad"
+		dynasty = "Falajid"
+		adm = 4
+		dip = 2
+		mil = 4
+		birth_date = 1400.4.1
+		religion = sunni
+		culture = yemeni_culture
+	}
+}

@@ -3,19 +3,18 @@ add_government_reform = iqta
 government_rank = 1
 technology_group = muslim_tech
 religion = sunni
-primary_culture = mahri_culture
-capital = 301
-fixed_capital = 301
-religious_school = maliki_school
+primary_culture = yemeni_culture
+capital = 4279
+fixed_capital = 4279
 
-1434.12.17 = {
+1443.1.6 = {
 	monarch = {
-		name = "Khalil"
+		name = "Youkhanna"
 		dynasty = "Zailid"
 		adm = 3
-		dip = 3
-		mil = 3
-		birth_date = 1412.4.27
+		dip = 4
+		mil = 2
+		birth_date = 1427.8.4
 		religion = sunni
 		culture = mahri_culture
 	}

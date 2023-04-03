@@ -1,8 +1,22 @@
 government = monarchy
 add_government_reform = iqta
-government_rank = 2 #Sultanate
+government_rank = 1
 technology_group = muslim_tech
 religion = sunni
-primary_culture = gulf_arabic
-capital = 394	# Al Hasa
+primary_culture = hejazi_culture
+capital = 2331
+fixed_capital = 2331
 religious_school = maliki_school
+
+1416.11.22 = {
+	monarch = {
+		name = "Yahya"
+		dynasty = "Hashimid"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 1382.06.6
+		religion = sunni
+		culture = hejazi_culture
+	}
+}

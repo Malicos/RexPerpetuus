@@ -1,8 +1,21 @@
 government = monarchy
 add_government_reform = iqta
-government_rank = 2 #Sultanate
+government_rank = 1
 technology_group = muslim_tech
-religion = sunni
-primary_culture = gulf_arabic
-capital = 394	# Al Hasa
-religious_school = maliki_school
+religion = shiite
+primary_culture = yemeni_culture
+capital = 390
+fixed_capital = 390
+
+1416.11.5 = {
+	monarch = {
+		name = "Abdul-Jaleel"
+		dynasty = "Quawurdid"
+		adm = 3
+		dip = 4
+		mil = 4
+		birth_date = 1391.5.6
+		religion = shiite
+		culture = yemeni_culture
+	}
+}

@@ -1,8 +1,21 @@
 government = monarchy
 add_government_reform = iqta
-government_rank = 2 #Sultanate
+government_rank = 1
 technology_group = muslim_tech
-religion = sunni
-primary_culture = gulf_arabic
-capital = 394	# Al Hasa
-religious_school = maliki_school
+religion = shiite
+primary_culture = bedouin_arabic
+capital = 2338
+fixed_capital = 2338
+
+1433.10.19 = {
+	monarch = {
+		name = "Isma'il"
+		dynasty = "Murselid"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 1399.10.10
+		religion = shiite
+		culture = bedouin_arabic
+	}
+}
