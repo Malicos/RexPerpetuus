@@ -44,7 +44,7 @@
 7793 = { "Nordkaiping" "Nordkaiping" } 		#Norrköping
 
 #Finland
-27 = { "Aebou" "Aebou" } 		#Turku
+27 = { "Aebae" "Aebae" } 		#Turku
 
 #Britain
 236 = { "Midsass" "Lundoun" } 		#Middlesex, London
