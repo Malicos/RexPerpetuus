@@ -3,10 +3,8 @@ add_government_reform = steppe_horde
 government_rank = 1
 technology_group = nomad_group
 religion = nestorian
-secondary_religion = vajrayana
-primary_culture = mongol
-capital = 2116
-add_accepted_culture = khalkha
+primary_culture = keraite
+capital = 720
 
 1260.5.5 = {
 	monarch = {

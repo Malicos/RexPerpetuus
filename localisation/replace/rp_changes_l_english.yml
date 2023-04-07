@@ -263,6 +263,9 @@
  south_china_region:0 "Southern Cathay"
  south_china_region_name:0 "Southern Cathay"
  south_china_region_adj:0 "Southern Cathayan"
+ indo_china_region:0 "Indocathay"
+ indo_china_region_name:0 "Indocathay"
+ indo_china_region_adj:0 "Indocathayan"
  #Elysia
  colombia_region:0 "Almere"
  colombia_region_name:0 "Almere"
@@ -305,6 +308,9 @@
  iberia_region:0 "Spain"
  iberia_region_name:0 "Spain"
  iberia_region_adj:0 "Spanish"
+ crimea_region:0 "Taurican Steppe"
+ crimea_region_name:0 "Taurican Steppe"
+ crimea_region_adj:0 "Taurican"
  #Oceania
  #Vesperia
  southeast_america_region:0 "Alderney"

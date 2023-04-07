@@ -2,9 +2,8 @@ government = tribal
 add_government_reform = steppe_horde
 technology_group = nomad_group
 religion = nestorian
-primary_culture = oirats
-capital = 718
-add_accepted_culture = khalkha
+primary_culture = naiman
+capital = 4683
 
 #Khans of the Oirats (Kalmyks, Dzungars)
 1399.1.1 = {

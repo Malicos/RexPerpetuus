@@ -4,9 +4,8 @@ government_rank = 1
 technology_group = nomad_group
 religion = tengri_pagan_reformed
 secondary_religion = vajrayana
-primary_culture = mongol
+primary_culture = bayads
 capital = 2116
-add_accepted_culture = khalkha
 
 1260.5.5 = {
 	monarch = {

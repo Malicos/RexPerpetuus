@@ -3,9 +3,8 @@ add_government_reform = steppe_horde
 technology_group = nomad_group
 religion = tengri_pagan_reformed
 secondary_religion = vajrayana
-primary_culture = oirats
-capital = 718
-add_accepted_culture = khalkha
+primary_culture = uriankhai
+capital = 716
 
 #Khans of the Oirats (Kalmyks, Dzungars)
 1399.1.1 = {

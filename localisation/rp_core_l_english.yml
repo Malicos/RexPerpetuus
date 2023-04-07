@@ -132,8 +132,9 @@
  ashkenazi:0 "Ashkenazi"
  sephardi:0 "Sephardi"
  mizrahi:0 "Mizrahi"
- beta_israeli:0 "Beta Isreali"
- dzhidi:0 "Dzhidi"  #Iranian Jews
+ beta_israeli:0 "Beta Israeli"
+ kalimi:0 "Kalimi"  #Iranian Jews
+ teimanim:0 "Teimanim" #Yemeni Jews
  
  ####Old Egyptian####
  ###Coptic###

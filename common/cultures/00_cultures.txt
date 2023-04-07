@@ -5413,7 +5413,7 @@ altaic = {
 		}
 	}
 	keraite = {
-		#primary = KHA
+		primary = KRT
 		male_names = {
 			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan
 			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Köke Ligdan Markörgis Möngke
@@ -5434,7 +5434,7 @@ altaic = {
 		}
 	}
 	khamag = {
-		#primary = KRC
+		primary = KMG
 		male_names = {
 			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan
 			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Köke Ligdan Markörgis Möngke
@@ -5447,7 +5447,7 @@ altaic = {
 		}
 	}
 	naiman = {
-		#primary = KLK
+		primary = NAI
 		male_names = {
 			Agbarjin Adai Altan Arigaba Arugtai Ayurparibhadra Bodi Bek Bahamu Bars Buyan Biligtü Dayan
 			Delbeg Ejei Elbeg Engke Güyük Gün Gulichi Irinchibal Jorightu Kublai Köke Ligdan Markörgis Möngke
@@ -5460,7 +5460,7 @@ altaic = {
 		}
 	}
 	bayads = {
-		#primary = ZUN
+		primary = BAY
 		male_names = {
 			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Güshi Lha-bzang Khara Khula Kho Sengge Tseten
 			Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai Bäki Bayan Dayan Hami Molon Oori
@@ -5471,7 +5471,7 @@ altaic = {
 		}
 	}
 	uriankhai = {
-		#primary = ZUN
+		primary = URK
 		male_names = {
 			Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Güshi Lha-bzang Khara Khula Kho Sengge Tseten
 			Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai Bäki Bayan Dayan Hami Molon Oori
@@ -13371,7 +13371,28 @@ jewish_culture_group = { #Added for BtPLegacy Project's Jewish Modifiers. Unsure
 			Shluida Shoinlin Shonlin Tziporah Yehudis Yeintil
 		}
 	}
-	dzhidi = {
+	kalimi = {
+		dynasty_names = {
+			Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid Nahumid Nirid Nogahid
+			Oferid Omrid Pinchasid Raananid Shemidid Shemidid Yairid
+		}
+		male_names = {
+			Abba Abbaye Acha Achai Achunai Aharon Alechsandri Ammi Amram Amunah Ashi Asher Avomai Avraham Azariah Baboi Baruch
+			Bibai Binyamin Boaz Bustenai Chanan Chananel Chaninai Chanoch Chaim Chayim Chelbo Chisdai Chiyya Chizkiyah Chofni Chushiel
+			Daniel David Dimi Dodai Dudai Efrayim Eina Elazar Elchanan Eldad Eliezer Elyakim Gedalyah Gershom Ghayyat Giat Giza Hillel
+			Hila Isaac Ivomai Kafnai Kahana Kalonymos Levi Kiyomi Machir Malcha Mar Mari Matiyahu Meir Menechem Menashe Mesharsheya Meshulam
+			Mevasser Mishael Mordechai Moshe Nachman Nachshon Nasan Natan Natroi Natronai Nechemiah Nehilai Nesanel Nissim Paltoi Pirkoi
+			Peter Rava Ravai Ravi Ravya Reuven Rivai Saadiah Sechok Shabsai Shalom Shanoi Shemaryah Sherira Sheshna Shila Shimon Shinoi
+			Shlomo Shmuel Sorgo Sulam Tachlifa Tamar Tzadok Tzemach Uri Yaakov Yachya Yechiel Yehudah Yehudai Yehoshua Yeshayah
+			Yisrael Yitzchak Yoel Yosef Yoshiah Yosi Yuda Zakkai Zelekman Zuiskind
+		}
+		female_names = {
+			Beila Belet Chana Doltza Esther Guta Guthela Madrona Matrona Minna Pultzelina Rachel Rivkah Saris Scolaster
+			Shluida Shoinlin Shonlin Tziporah Yehudis Yeintil
+		}
+	}
+
+	teimanim = {
 		dynasty_names = {
 			Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid Nahumid Nirid Nogahid
 			Oferid Omrid Pinchasid Raananid Shemidid Shemidid Yairid
