@@ -2,16 +2,29 @@
 
 #Nordurica
 1 = { "Stockholm" "Stockholm" } 		#Stockholm
+2 = { "Linköping" "Linköping" } 		#Linköping
 6 = { "Malmö" "Malmö" } 		#Malmö
 12 = { "Köpenhamn" "Köpenhamn" } 		#Copenhagen
+369 = { "Orknöarna" "Kyrkovågen" } 		#Orkney, Kirkwall
+1978 = { "Hjaltlandsöarna" "Lervik" } 		#Shetlands, Lerwick
+1979 = { "Färöarna" "Torshamn" } 		#Faroes, Tórshavn
 1981 = { "Bornholm" "Rönne" } 		#Bornholm
 1983 = { "Låland" "Nyköping" } 		#Lolland
+3120 = { "Jönköping" "Jönköping" } 		#Jönköping
+3121 = { "Öland" "Borgholm" } 		#Öland, Borgholm
+3135 = { "Norrfriesland" "Husum" } 		#North Frisia, Husum
 4143 = { "Östfold" "Borg" } 		#Østfold
 4149 = { "Kalling" "Kalling" } 		#Kolding
+4166 = { "Kronoberg" "Växjö" } 		#Kronoberg, Växjö
 7767 = { "Roskälla" "Roskälla" } 		#Roskilde
 7769 = { "Djursland" "Randers" } 		#Randers
 7771 = { "Ringköping" "Ringköping" } 		#Ringkøbing
+7773 = { "Flennsborg" "Flennsborg" } 		#Flensborg
+7774 = { "Tönder" "Tönder" } 		#Tønder
 7780 = { "Västfold" "Tönsberg" } 		#Vestfold
+7790 = { "Finnveden" "Ljungby" } 		#Finnveden, Ljungby
+7792 = { "Tjust" "Västervik" } 		#Tjust
+7793 = { "Norrköping" "Norrköping" } 		#Norrköping
 
 #Britain
 236 = { "Midsax" "Lundun" } 		#Middlesex, London
@@ -20,9 +33,13 @@
 244 = { "Lönkästra" "Lönkästra" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 246 = { "Norrymbraland" "Alnavik" }		#Northumberland, Alnwick
 247 = { "Kumbraland" "Karljöl" }		#Cumberland, Carlisle
+253 = { "Yttre Södröarna" "Stjurnavågen" } 		#Outer Hebrides, Stornoway
 1860 = { "Norrfolk" "Norrvik" }		#Norfolk, Norwich
 1861 = { "Djurby" "Djurby" }		#Derby
 3028 = { "Söderfolk" "Epsvik" }		#Suffolk, Ipswich
+3136 = { "Russöland" "Tingvall" } 		#Ross, Tingwall
+4110 = { "Katanäs" "Vik" } 		#Caithness, Wick
+4364 = { "Inre Södröarna" "Slätt" } 		#Inner Hebrides, Sleat
 4365 = { "Mön" "Duglas" }		#Isle of Man, Douglas
 4375 = { "Kästralän" "Kästra" } 		#Cheshire, Chester, ON lén is equivalent to OE scire
 4376 = { "Ledkästra" "Ledkästra" } 		#Leicester
@@ -34,3 +51,18 @@
 8136 = { "Tinadal" "Hökshem" } 		#Tynedale, Hexham
 8137 = { "Barrvik" "Barrvik på Tvid" } 		#Berwick, Berwick-upon-Tweed
 8146 = { "Marsken" "Grönlä" } 		#The Merse, Greenlaw
+8153 = { "Söderland" "Tornog" } 		#Sutherland, Dornoch
+
+#Germany
+43 = { "Dänsk" "Dänsk" } 		#Danzig
+45 = { "Lybeck" "Lybeck" } 		#Lübeck
+46 = { "Rostock" "Rostock" } 		#Rostock
+1841 = { "Trusö" "Trusö" } 		#Truso
+1857 = { "Låmnborg" "Låmnborg" } 		#Lauenburg
+1858 = { "Stettin" "Stettin" } 		#Stettin
+2994 = { "Vallgåst" "Vallgåst" } 			#Wolgast
+4745 = { "Rygen" "Rygård" } 		#Rügen, Rugard
+7816 = { "Usöm" "Usöm" } 		#Usedom
+7817 = { "Löckniss" "Löckniss" } 		#Löcknitz
+7825 = { "Lemnborg" "Lemnborg" } 		#Lauenburg
+7842 = { "Gribsvall" "Gribsvall" } 		#Greifswald

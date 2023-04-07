@@ -2,18 +2,34 @@
 
 #Nordurica
 1 = { "Stokholm" "Stokholm" } 		#Stockholm
+2 = { "Linkøbing" "Linkøbing" } 		#Linköping
 12 = { "København" "København" } 		#Copenhagen
+13 = { "Slesvig" "Slesvig" } 		#Schleswig
 15 = { "Ribe" "Ribe" } 		#Ripe
 17 = { "Agerhus" "Oslo" } 		#Akerhus
+369 = { "Hjaltlandsøerne" "Kirkevaagen" } 		#Orkney, Kirkwall
+25 = { "Gulland" "Visby" } 		#Gotland, Visby
+1930 = { "Aaland" "Jomala" } 		#Åland, Jomala
+1978 = { "Hjaltlandsøerne" "Lervig" } 		#Shetlands, Lerwick
+1979 = { "Færøerne" "Torshavn" } 		#Faroes, Tórshavn
 1982 = { "Bleging" "Bleging" } 		#Blekinge
 1983 = { "Laaland" "Nykøbing" } 		#Lolland
 1984 = { "Aalborg" "Aalborg" } 		#Aalborg
+3120 = { "Jynkøbing" "Jynkøbing" } 		#Jönköping
+3134 = { "Aapenraa" "Aapenraa" } 		#Aabenraa
 4142 = { "Aarhus" "Aarhus" } 		#Aarhus
 4149 = { "Kolding" "Kolding" } 		#Kolding
 4165 = { "Aahus" "Aahus" } 		#Åhus
+4166 = { "Kronebjerg" "Vejsø" } 		#Kronoberg, Växjö
 7767 = { "Roskilde" "Roskilde" } 		#Roskilde
 7771 = { "Ringkøbing" "Ringkøbing" } 		#Ringkøbing
 7779 = { "Varbjerg" "Varbjerg" } 		#Varberg
+7790 = { "Finnveddet" "Lyngby" } 		#Finnveden, Ljungby
+7792 = { "Tyst" "Vestervig" } 		#Tjust
+7793 = { "Nordkøbing" "Nordkøbing" } 		#Norrköping
+
+#Finland
+27 = { "Aabo" "Aabo" } 		#Turku
 
 #Britain
 243 = { "Linkylne" "Linkylne" }		#Lincoln
@@ -21,10 +37,14 @@
 245 = { "Jorvig" "Jorvig" }		#York
 246 = { "Nordymbraland" "Alnevig" }		#Northumberland, Alnwick
 247 = { "Kumbreland" "Karljøl" }		#Cumberland, Carlisle
+253 = { "Ydre Sydrøerne" "Styrnevaagen" } 		#Outer Hebrides, Stornoway
 1860 = { "Nordfolk" "Nordvig" }		#Norfolk, Norwich
 3008 = { "Gallovej" "Vigtun" }		#Galloway, Wigtown
 3028 = { "Sudfolk" "Eppsvig" }		#Suffolk, Ipswich
+3136 = { "Rosøland" "Tingval" } 		#Ross, Tingwall
+4110 = { "Katenæs" "Vig" } 		#Caithness, Wick
 4361 = { "Raagesborg" "Raagesborg" } 		#Roxburgh
+4364 = { "Indre Sydrøerne" "Slet" } 		#Inner Hebrides, Sleat
 4367 = { "Vig" "Vig" } 		#Hull, Kingston-upon-Hull, changed to Wyke as KuH does not exist without Normans
 4370 = { "Kamtebrygge" "Kamtebrygge" } 		#Cambridge
 4375 = { "Kæstrelen" "Kæstre" } 		#Cheshire, Chester, ON lén is equivalent to OE scire
@@ -38,4 +58,16 @@
 8136 = { "Tinadal" "Høkshjem" } 		#Tynedale, Hexham
 8137 = { "Barvig" "Barvig paa Tvid" } 		#Berwick, Berwick-upon-Tweed
 8145 = { "Tviddal" "Pibler" } 		#Tweeddale, Peebles
+8153 = { "Sydreland" "Tornog" } 		#Sutherland, Dornoch
 
+#Germany
+45 = { "Lybek" "Lybek" } 		#Lübeck
+46 = { "Rostok" "Rostok" } 		#Rostock
+47 = { "Straalsund" "Straalsund" } 		#Stralsund
+1857 = { "Laavnborg" "Laavnborg" } 		#Lauenburg
+1858 = { "Stedin" "Stedin" } 		#Stettin
+2994 = { "Valgaast" "Valgaast" } 			#Wolgast
+4745 = { "Rygen" "Rygaard" } 		#Rügen, Rugard
+7815 = { "Treftof" "Treftof" } 		#Treptow
+7817 = { "Løknis" "Løknis" } 		#Löcknitz
+7842 = { "Gribsval" "Gribsval" } 		#Greifswald

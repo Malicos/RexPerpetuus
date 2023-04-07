@@ -2,28 +2,49 @@
 
 #Nordurica
 1 = { "Stokhoam" "Stokhoam" } 		#Stockholm
+2 = { "Lingkaiping" "Lingkaiping" } 		#Linköping
+3 = { "Kaumer" "Kaumer" } 		#Kalmar
 6 = { "Maelmae" "Maelmae" } 		#Malmö
 12 = { "Kaipenham" "Kaipenham" } 		#Copenhagen
+13 = { "Sleswiek" "Sleswiek" } 		#Schleswig
 14 = { "Fuin" "Odensae" } 		#Fyn
 15 = { "Riep" "Riep" } 		#Ripe
 17 = { "Ekerhouss" "Ouslou" } 		#Akerhus
+25 = { "Gotlaund" "Weesbie" } 		#Gotland, Visby
 26 = { "Haumstad" "Haumstad" } 		#Halmstad
+369 = { "Orknern" "Kirkwain" } 		#Orkney, Kirkwall
+1930 = { "Aelaund" "Yomael" } 		#Åland, Jomala
+1978 = { "Hautlaundsern" "Laerwiek" } 		#Shetlands, Lerwick
+1979 = { "Faerairn" "Fuirsham" } 		#Faroes, Tórshavn
 1981 = { "Haumstad" "Raen" } 		#Bornholm
 1982 = { "Bleking" "Bleking" } 		#Blekinge
 1983 = { "Laeland" "Niekaiping" } 		#Lolland
 1984 = { "Aelbrogh" "Aelbrogh" } 		#Aalborg
+3120 = { "Yunkaiping" "Yunkaiping" } 		#Jönköping
+3121 = { "Ailaund" "Broghhoam" } 		#Öland, Borgholm
+3134 = { "Aepenrae" "Aepenrae" } 		#Aabenraa
+3135 = { "Nordfrieslaund" "Houssum" } 		#North Frisia, Husum
 4142 = { "Aerhouss" "Aerhouss" } 		#Aarhus
 4143 = { "Aistfoad" "Brogh" } 		#Østfold
 4149 = { "Kauding" "Kauding" } 		#Kolding
 4165 = { "Aehouss" "Aehouss" } 		#Åhus
+4166 = { "Kronbregh" "Wessae" } 		#Kronoberg, Växjö
 7766 = { "Helsingbrogh" "Helsingbrogh" } 		#Helsingborg
 7767 = { "Roskeld" "Roskeld" } 		#Roskilde
 7768 = { "Kaelundbrogh" "Kaelundbrogh" } 		#Kalundborg
 7769 = { "Duirslaund" "Raunders" } 		#Randers
 7770 = { "Weebrogh" "Weebrogh" } 		#Viborg
 7771 = { "Ringkaiping" "Ringkaiping" } 		#Ringkøbing
+7773 = { "Flensbrogh" "Flensbrogh" } 		#Flensborg
+7774 = { "Tender" "Tender" } 		#Tønder
 7779 = { "Warbregh" "Warbregh" } 		#Varberg
 7780 = { "Westfoad" "Tounsbregh" } 		#Vestfold
+7790 = { "Finweden" "Lingbie" } 		#Finnveden, Ljungby
+7792 = { "Tuist" "Westerwiek" } 		#Tjust
+7793 = { "Nordkaiping" "Nordkaiping" } 		#Norrköping
+
+#Finland
+27 = { "Aebou" "Aebou" } 		#Turku
 
 #Britain
 236 = { "Midsass" "Lundoun" } 		#Middlesex, London
@@ -35,12 +56,16 @@
 246 = { "Nordimmerlaund" "Aunwiek" }		#Northumberland, Alnwick
 247 = { "Kummerlaund" "Kaerlail" }		#Cumberland, Carlisle
 248 = { "Misselbrogh" "Misselbrogh" } 		#Lothian, Edinburgh
+253 = { "Iter Sidrern" "Stuirnwain" } 		#Outer Hebrides, Stornoway
 1860 = { "Norfoak" "Norwiek" }		#Norfolk, Norwich
 1861 = { "Duirbie" "Duirbie" }		#Derby
 3008 = { "Gallowae" "Wiektoun" }		#Galloway, Wigtown
 3028 = { "Sidfoak" "Epswiek" }		#Suffolk, Ipswich
+3136 = { "Rosselaund" "Fingwaw" } 		#Ross, Tingwall
+4110 = { "Kaetness" "Wiek" } 		#Caithness, Wick
 4361 = { "Ruiksbrogh" "Ruiksbrogh" } 		#Roxburgh
 4362 = { "Dumfries" "Dumfries" } 		#Dumfries
+4364 = { "Inner Sidrern" "Slet" } 		#Inner Hebrides, Sleat
 4365 = { "Maun" "Dughlass" }		#Isle of Man, Douglas
 4367 = { "Wiek" "Wiek" } 		#Hull, Kingston-upon-Hull, changed to Wyke as KuH does not exist without Normans
 4368 = { "Dounhoam" "Dounhoam" }		#Durham
@@ -58,3 +83,25 @@
 8137 = { "Baerwiek" "Baerwiek pae Twied" } 		#Berwick, Berwick-upon-Tweed
 8145 = { "Twieddael" "Pibler" } 		#Tweeddale, Peebles
 8146 = { "Maersken" "Greenlae" } 		#The Merse, Greenlaw
+8153 = { "Siðerlaund" "Tornogh" } 		#Sutherland, Dornoch
+
+#Germany
+43 = { "Daensk" "Daensk" } 		#Danzig
+45 = { "Liebek" "Liebek" } 		#Lübeck
+46 = { "Rostok" "Rostok" } 		#Rostock
+47 = { "Straelsund" "Straelsund" } 		#Stralsund
+1775 = { "Kiel" "Kiel" } 		#Kiel
+1841 = { "Trusae" "Trusae" } 		#Truso
+1857 = { "Laembrogh" "Laembrogh" } 		#Lauenburg
+1858 = { "Stetten" "Stetten" } 		#Stettin
+2994 = { "Waugaest" "Waugaest" } 			#Wolgast
+2995 = { "Stoap" "Stoap" } 		#Stolp
+2996 = { "Vismer" "Vismer" } 			#Wismar
+4745 = { "Reen" "Reegard" } 		#Rügen, Rugard
+7815 = { "Treftoff" "Treftoff" } 		#Treptow
+7816 = { "Yussuim" "Yussuim" } 		#Usedom
+7817 = { "Lekness" "Lekness" } 		#Löcknitz
+7818 = { "Kammen" "Kammen" } 		#Kammin
+7825 = { "Lembrogh" "Lembrogh" } 		#Lauenburg
+7828 = { "Pousk" "Pousk" } 		#Putzig
+7842 = { "Griefswaw" "Griefswaw" } 		#Greifswald
