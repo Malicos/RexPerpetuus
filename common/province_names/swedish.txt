@@ -20,7 +20,6 @@
 244 = { "Lönkästra" "Lönkästra" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 246 = { "Norrymbraland" "Alnavik" }		#Northumberland, Alnwick
 247 = { "Kumbraland" "Karljöl" }		#Cumberland, Carlisle
-248 = { "Lodien" "Edinborg" } 		#Lothian, Edinburgh
 1860 = { "Norrfolk" "Norrvik" }		#Norfolk, Norwich
 1861 = { "Djurby" "Djurby" }		#Derby
 3028 = { "Söderfolk" "Epsvik" }		#Suffolk, Ipswich

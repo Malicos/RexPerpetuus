@@ -13,12 +13,13 @@
 4165 = { "Aahus" "Aahus" } 		#Åhus
 7767 = { "Roskilde" "Roskilde" } 		#Roskilde
 7771 = { "Ringkøbing" "Ringkøbing" } 		#Ringkøbing
+7779 = { "Varbjerg" "Varbjerg" } 		#Varberg
 
 #Britain
 243 = { "Linkylne" "Linkylne" }		#Lincoln
 244 = { "Lønkæstre" "Lønkæstre" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 245 = { "Jorvig" "Jorvig" }		#York
-246 = { "Nordymbraland" "Alnavig" }		#Northumberland, Alnwick
+246 = { "Nordymbraland" "Alnevig" }		#Northumberland, Alnwick
 247 = { "Kumbreland" "Karljøl" }		#Cumberland, Carlisle
 1860 = { "Nordfolk" "Nordvig" }		#Norfolk, Norwich
 3008 = { "Gallovej" "Vigtun" }		#Galloway, Wigtown

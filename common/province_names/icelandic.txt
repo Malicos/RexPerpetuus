@@ -10,7 +10,7 @@
 26 = { "Halmstaður" "Halmstaður" } 		#Halmstad
 1981 = { "Borgundarhólmur" "Rónne" } 		#Bornholm
 1982 = { "Bleiking" "Bleiking" } 		#Blekinge
-1983 = { "Láland" "Nýkaupangur" } 		#Lolland
+1983 = { "Láland" "Nýkaupstaður" } 		#Lolland
 1984 = { "Álaborg" "Álaborg" } 		#Aalborg
 4142 = { "Árósar" "Árósar" } 		#Aarhus
 4143 = { "Austfold" "Borg" } 		#Østfold
@@ -20,7 +20,7 @@
 7768 = { "Kálundborg" "Kálundborg" } 		#Kalundborg
 7769 = { "Dýrsland" "Röndrósar" } 		#Randers
 7770 = { "Véborg" "Véborg" } 		#Viborg
-7771 = { "Hringkaupangur" "Hringkaupangur" } 		#Ringkøbing
+7771 = { "Hringkaupstaður" "Hringkaupstaður" } 		#Ringkøbing
 7779 = { "Vörðaberg" "Vörðaberg" } 		#Varberg
 7780 = { "Vestfold" "Túnsberg" } 		#Vestfold
 
@@ -33,7 +33,7 @@
 245 = { "Jórvík" "Jórvík" }		#York
 246 = { "Norðymbraland" "Alnavík" }		#Northumberland, Alnwick
 247 = { "Kumbaraland" "Karljaul" }		#Cumberland, Carlisle
-248 = { "Loðinn" "Eðinborg" } 		#Lothian, Edinburgh
+248 = { "Mýsselborg" "Mýsselborg" } 		#Lothian, Edinburgh
 1860 = { "Norðfólk" "Norðvík" }		#Norfolk, Norwich
 1861 = { "Dýrabýr" "Dýrabýr" }		#Derby
 3008 = { "Gallovey" "Víktún" }		#Galloway, Wigtown

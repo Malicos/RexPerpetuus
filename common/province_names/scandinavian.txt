@@ -34,7 +34,7 @@
 245 = { "Jorvik" "Jorvik" }		#York
 246 = { "Nordymbraland" "Alnavik" }		#Northumberland, Alnwick
 247 = { "Kumbraland" "Karljøl" }		#Cumberland, Carlisle
-248 = { "Lodien" "Edinborg" } 		#Lothian, Edinburgh
+248 = { "Mysselborg" "Mysselborg" } 		#Lothian, Edinburgh
 1860 = { "Nordfolk" "Nordvik" }		#Norfolk, Norwich
 1861 = { "Dyrby" "Dyrby" }		#Derby
 3008 = { "Gallovej" "Viktun" }		#Galloway, Wigtown
