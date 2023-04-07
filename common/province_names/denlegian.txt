@@ -82,7 +82,7 @@
 8136 = { "Tiendael" "Haisshem" } 		#Tynedale, Hexham
 8137 = { "Baerwiek" "Baerwiek pae Twied" } 		#Berwick, Berwick-upon-Tweed
 8145 = { "Twieddael" "Pibler" } 		#Tweeddale, Peebles
-8146 = { "Maersken" "Greenlae" } 		#The Merse, Greenlaw
+8146 = { "Maersen" "Greenlae" } 		#The Merse, Greenlaw
 8153 = { "Siðerlaund" "Tornogh" } 		#Sutherland, Dornoch
 
 #Germany
