@@ -3,7 +3,10 @@
 #Nordurica
 1 = { "Stokholm" "Stokholm" } 		#Stockholm
 2 = { "Linkøbing" "Linkøbing" } 		#Linköping
+4 = { "Vestmandland" "Vesteraas" } 		#Västmanland, Västerås
 5 = { "Vermland" "Tingvolde" } 		#Värmland, Tingvalla
+8 = { "Koperberg" "Falun" } 		#Kopparberg, Falun
+9 = { "Gestrikland" "Gefle" } 		#Gästrikland, Gävle
 12 = { "København" "København" } 		#Copenhagen
 13 = { "Slesvig" "Slesvig" } 		#Schleswig
 15 = { "Ribe" "Ribe" } 		#Ripe
@@ -17,6 +20,8 @@
 1983 = { "Laaland" "Nykøbing" } 		#Lolland
 1984 = { "Aalborg" "Aalborg" } 		#Aalborg
 3120 = { "Jynkøbing" "Jynkøbing" } 		#Jönköping
+3122 = { "Sydremandland" "Nykøbing" } 		#Södermanland, Nyköping
+3123 = { "Opland" "Opsala" } 		#Uppland, Uppsala
 3134 = { "Aapenraa" "Aapenraa" } 		#Aabenraa
 4142 = { "Aarhus" "Aarhus" } 		#Aarhus
 4149 = { "Kolding" "Kolding" } 		#Kolding
@@ -26,11 +31,14 @@
 4166 = { "Kronebjerg" "Vejsø" } 		#Kronoberg, Växjö
 7767 = { "Roskilde" "Roskilde" } 		#Roskilde
 7771 = { "Ringkøbing" "Ringkøbing" } 		#Ringkøbing
+7774 = { "Tønner" "Tønner" } 		#Tønder
 7779 = { "Varbjerg" "Varbjerg" } 		#Varberg
 7790 = { "Finnveddet" "Lyngby" } 		#Finnveden, Ljungby
 7791 = { "Buesund" "Buesund" } 		#Bogesund
 7792 = { "Tyst" "Vestervig" } 		#Tjust
 7793 = { "Nordkøbing" "Nordkøbing" } 		#Norrköping
+7794 = { "Linnesaas" "Linnesaas" } 		#Lindesås
+7863 = { "Dalene" "More" } 		#Dalarna, Mora
 
 #Finland
 27 = { "Aabo" "Aabo" } 		#Turku

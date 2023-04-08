@@ -4,9 +4,12 @@
 1 = { "Stokkholm" "Stokkholm" } 		#Stockholm
 2 = { "Linkøping" "Linkøping" } 		#Linköping
 3 = { "Kalmar" "Kalmar" } 		#Kalmar
+4 = { "Vestmanland" "Vesterås" } 		#Västmanland, Västerås
 5 = { "Vermland" "Tingvollar" } 		#Värmland, Tingvalla
 6 = { "Malmø" "Malmø" } 		#Malmö
 7 = { "Skaraborg" "Skara" } 		#Skaraborg, Skara
+8 = { "Koparberg" "Falun" } 		#Kopparberg, Falun
+9 = { "Gestrikland" "Gevle" } 		#Gästrikland, Gävle
 12 = { "Køpenhavn" "Køpenhavn" } 		#Copenhagen
 13 = { "Slesvik" "Slesvik" } 		#Schleswig
 14 = { "Fyn" "Odense" } 		#Fyn
@@ -23,8 +26,11 @@
 1982 = { "Blekinge" "Blekinge" } 		#Blekinge
 1983 = { "Låland" "Nykøping" } 		#Lolland
 1984 = { "Ålborg" "Ålborg" } 		#Aalborg
+1985 = { "Nærke" "Ørebro" } 		#Närke, Örebro
 3120 = { "Jønkøping" "Jønkøping" } 		#Jönköping
 3121 = { "Øland" "Borgholm" } 		#Öland, Borgholm
+3122 = { "Sødremanland" "Nykøping" } 		#Södermanland, Nyköping
+3123 = { "Uppland" "Uppsala" } 		#Uppland, Uppsala
 3134 = { "Åpenrå" "Åpenrå" } 		#Aabenraa
 3135 = { "Nordfrisland" "Husum" } 		#North Frisia, Husum
 4142 = { "Århus" "Århus" } 		#Aarhus
@@ -48,7 +54,9 @@
 7791 = { "Bogesund" "Bogesund" } 		#Bogesund
 7792 = { "Tjust" "Vestervik" } 		#Tjust
 7793 = { "Nordkøping" "Nordkøping" } 		#Norrköping
+7794 = { "Lindesås" "Lindesås" } 		#Lindesås
 7795 = { "Bro" "Bro" } 		#Bro
+7863 = { "Dalarna" "Mora" } 		#Dalarna, Mora
 
 #Finland
 27 = { "Åbo" "Åbo" } 		#Turku

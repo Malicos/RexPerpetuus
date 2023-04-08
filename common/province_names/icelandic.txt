@@ -3,8 +3,11 @@
 #Nordurica
 1 = { "Stokkhólmur" "Stokkhólmur" } 		#Stockholm
 2 = { "Lyngkaupstaður" "Lyngkaupstaður" } 		#Linköping
+4 = { "Vestmannaland" "Vesturás" } 		#Västmanland, Västerås
 5 = { "Vermaland" "Þingvellir" } 		#Värmland, Tingvalla
 6 = { "Málmey" "Málmey" } 		#Malmö
+8 = { "Koparsberg" "Falun" } 		#Kopparberg, Falun
+9 = { "Gestrekaland" "Gafvin" } 		#Gästrikland, Gävle
 12 = { "Kaupmannahöfn" "Kaupmannahöfn" } 		#Copenhagen
 13 = { "Slésvík" "Slésvík" } 		#Schleswig
 14 = { "Fjón" "Óðinsvé" } 		#Fyn
@@ -21,8 +24,10 @@
 1982 = { "Bleiking" "Bleiking" } 		#Blekinge
 1983 = { "Láland" "Nýkaupstaður" } 		#Lolland
 1984 = { "Álaborg" "Álaborg" } 		#Aalborg
+1985 = { "Neríki" "Eyrarbrú" } 		#Närke, Örebro
 3120 = { "Junkaupstaður" "Junkaupstaður" } 		#Jönköping
 3121 = { "Eyland" "Borghólmur" } 		#Öland, Borgholm
+3122 = { "Suðurmannaland" "Nýkaupstaður" } 		#Södermanland, Nyköping
 3134 = { "Ápenrá" "Ápenrá" } 		#Aabenraa
 3135 = { "Norðfrísland" "Húsum" } 		#North Frisia, Husum
 4142 = { "Árósar" "Árósar" } 		#Aarhus
@@ -44,7 +49,9 @@
 7791 = { "Bogisund" "Bogisund" } 		#Bogesund
 7792 = { "Tjúst" "Vesturvík" } 		#Tjust
 7793 = { "Norðkaupstaður" "Norðkaupstaður" } 		#Norrköping
+7794 = { "Lindesás" "Lindesás" } 		#Lindesås
 7795 = { "Bró" "Bró" } 		#Bro
+7863 = { "Dalir" "Mora" } 		#Dalarna, Mora
 
 #Finland
 27 = { "Árbæ" "Árbæ" } 		#Turku
