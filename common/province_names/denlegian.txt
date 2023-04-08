@@ -27,7 +27,7 @@
 3121 = { "Ailaund" "Brochhoam" } 		#Öland, Borcholm
 3134 = { "Aepenrae" "Aepenrae" } 		#Aabenraa
 3135 = { "Nordfrieslaund" "Houssum" } 		#North Frisia, Husum
-4142 = { "erhouss" "erhouss" } 		#Aarhus
+4142 = { "Erhouss" "Erhouss" } 		#Aarhus
 4143 = { "Aistfoad" "Broch" } 		#Østfold
 4149 = { "Kauding" "Kauding" } 		#Kolding
 4163 = { "Elfsbroch" "Ledess" } 		#Älvsborg, Lödöse
