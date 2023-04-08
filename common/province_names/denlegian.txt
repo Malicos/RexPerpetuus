@@ -16,6 +16,7 @@
 15 = { "Reip" "Reip" } 		#Ripe
 16 = { "Bauhusleen" "Merstrand" } 		#Bohuslän, Marstrand
 17 = { "Ekerhuss" "Ouslae" } 		#Akerhus
+22 = { "Haidmark" "Hamer" } 		#Hedmark, Hamar
 25 = { "Gotland" "Weesbie" } 		#Gotland, Visby
 26 = { "Haumstad" "Haumstad" } 		#Halmstad
 369 = { "Orknern" "Kirkwain" } 		#Orkney, Kirkwall
@@ -27,6 +28,7 @@
 1983 = { "Laeland" "Nikaiping" } 		#Lolland
 1984 = { "Aelbroch" "Aelbroch" } 		#Aalborg
 1985 = { "Nerk" "Airbrou" } 		#Närke, Örebro
+3117 = { "Uplandern" "Litelhamer" } 		#Oppland, Lillehammer
 3120 = { "Yunkaiping" "Yunkaiping" } 		#Jönköping
 3121 = { "Ailand" "Brochhoam" } 		#Öland, Borcholm
 3122 = { "Sidermanland" "Nikaiping" } 		#Södermanland, Nyköping
@@ -35,6 +37,7 @@
 3135 = { "Norfreisland" "Houssem" } 		#North Frisia, Husum
 4142 = { "Erhuss" "Erhuss" } 		#Aarhus
 4143 = { "Aistfoad" "Broch" } 		#Østfold
+4144 = { "Bratsbrech" "Skeiden" } 		#Bratsberg, Skien
 4149 = { "Kauding" "Kauding" } 		#Kolding
 4163 = { "Elfsbroch" "Ledess" } 		#Älvsborg, Lödöse
 4164 = { "Dael" "Daelbroch" } 		#Dal, Dalaborg
@@ -50,6 +53,9 @@
 7774 = { "Tender" "Tender" } 		#Tønder
 7779 = { "Warbrech" "Warbrech" } 		#Varberg
 7780 = { "Westfoad" "Tounsbrech" } 		#Vestfold
+7781 = { "Solair" "Winger" } 		#Solør, Vinger
+7783 = { "Biskerrud" "Dram" } 		#Buskeryd, Drammen
+7784 = { "Felmark" "Daelen" } 		#Telemark, Dalen
 7790 = { "Finweden" "Lingbie" } 		#Finnveden, Ljungby
 7791 = { "Bousund" "Bousund" } 		#Bogesund
 7792 = { "Tuist" "Westrik" } 		#Tjust

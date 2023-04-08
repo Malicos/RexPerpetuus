@@ -11,6 +11,7 @@
 13 = { "Slesvig" "Slesvig" } 		#Schleswig
 15 = { "Ribe" "Ribe" } 		#Ripe
 17 = { "Agerhus" "Oslo" } 		#Akerhus
+22 = { "Hædmark" "Hammer" } 		#Hedmark, Hamar
 369 = { "Hjaltlandsøerne" "Kirkevaagen" } 		#Orkney, Kirkwall
 25 = { "Gulland" "Visby" } 		#Gotland, Visby
 1930 = { "Aaland" "Jomala" } 		#Åland, Jomala
@@ -19,11 +20,13 @@
 1982 = { "Bleging" "Bleging" } 		#Blekinge
 1983 = { "Laaland" "Nykøbing" } 		#Lolland
 1984 = { "Aalborg" "Aalborg" } 		#Aalborg
+3117 = { "Oplanderne" "Lillehammer" } 		#Oppland, Lillehammer
 3120 = { "Jynkøbing" "Jynkøbing" } 		#Jönköping
 3122 = { "Sydremandland" "Nykøbing" } 		#Södermanland, Nyköping
 3123 = { "Opland" "Opsala" } 		#Uppland, Uppsala
 3134 = { "Aapenraa" "Aapenraa" } 		#Aabenraa
 4142 = { "Aarhus" "Aarhus" } 		#Aarhus
+4144 = { "Bratsberg" "Skien" } 		#Bratsberg, Skien
 4149 = { "Kolding" "Kolding" } 		#Kolding
 4163 = { "Elfsborg" "Løse" } 		#Älvsborg, Lödöse
 4164 = { "Dal" "Daleborg" } 		#Dal, Dalaborg
@@ -33,6 +36,8 @@
 7771 = { "Ringkøbing" "Ringkøbing" } 		#Ringkøbing
 7774 = { "Tønner" "Tønner" } 		#Tønder
 7779 = { "Varbjerg" "Varbjerg" } 		#Varberg
+7781 = { "Solør" "Vinger" } 		#Solør, Vinger
+7783 = { "Buskerud" "Dravn" } 		#Buskeryd, Drammen
 7790 = { "Finnveddet" "Lyngby" } 		#Finnveden, Ljungby
 7791 = { "Buesund" "Buesund" } 		#Bogesund
 7792 = { "Tyst" "Vestervig" } 		#Tjust

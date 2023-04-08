@@ -14,6 +14,7 @@
 15 = { "Rípar" "Rípar" } 		#Ripe
 16 = { "Bágahúslén" "Márströnd" } 		#Bohuslän, Marstrand
 17 = { "Akurhús" "Ósló" } 		#Akerhus
+22 = { "Heiðmörk" "Hamar" } 		#Hedmark, Hamar
 25 = { "Gotland" "Vésbýr" } 		#Gotland, Visby
 26 = { "Halmstaður" "Halmstaður" } 		#Halmstad
 369 = { "Orkneyjar" "Kirkjuvogur" } 		#Orkney, Kirkwall
@@ -25,6 +26,7 @@
 1983 = { "Láland" "Nýkaupstaður" } 		#Lolland
 1984 = { "Álaborg" "Álaborg" } 		#Aalborg
 1985 = { "Neríki" "Eyrarbrú" } 		#Närke, Örebro
+3117 = { "Upplöndin" "Lítillhamar" } 		#Oppland, Lillehammer
 3120 = { "Junkaupstaður" "Junkaupstaður" } 		#Jönköping
 3121 = { "Eyland" "Borghólmur" } 		#Öland, Borgholm
 3122 = { "Suðurmannaland" "Nýkaupstaður" } 		#Södermanland, Nyköping
@@ -32,6 +34,7 @@
 3135 = { "Norðfrísland" "Húsum" } 		#North Frisia, Husum
 4142 = { "Árósar" "Árósar" } 		#Aarhus
 4143 = { "Austfold" "Borg" } 		#Østfold
+4144 = { "Brattsberg" "Skíðan" } 		#Bratsberg, Skien
 4164 = { "Dalur" "Dalaborg" } 		#Dal, Dalaborg
 4163 = { "Elfarborg" "Ljóðhús" } 		#Älvsborg, Lödöse
 4165 = { "Áhús" "Áhús" } 		#Åhus
@@ -45,6 +48,9 @@
 7774 = { "Töndra" "Töndra" } 		#Tønder
 7779 = { "Vörðaberg" "Vörðaberg" } 		#Varberg
 7780 = { "Vestfold" "Túnsberg" } 		#Vestfold
+7781 = { "Soleyjar" "Vængir" } 		#Solør, Vinger
+7783 = { "Biskupsruð" "Dröfn" } 		#Buskeryd, Drammen
+7784 = { "Þelamörk" "Dalur" } 		#Telemark, Dalen
 7790 = { "Finnviður" "Lyngbýr" } 		#Finnveden, Ljungby
 7791 = { "Bogisund" "Bogisund" } 		#Bogesund
 7792 = { "Tjúst" "Vesturvík" } 		#Tjust
