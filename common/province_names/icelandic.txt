@@ -3,11 +3,13 @@
 #Nordurica
 1 = { "Stokkhólmur" "Stokkhólmur" } 		#Stockholm
 2 = { "Lyngkaupstaður" "Lyngkaupstaður" } 		#Linköping
+5 = { "Vermaland" "Þingvellir" } 		#Värmland, Tingvalla
 6 = { "Málmey" "Málmey" } 		#Malmö
 12 = { "Kaupmannahöfn" "Kaupmannahöfn" } 		#Copenhagen
 13 = { "Slésvík" "Slésvík" } 		#Schleswig
 14 = { "Fjón" "Óðinsvé" } 		#Fyn
 15 = { "Rípar" "Rípar" } 		#Ripe
+16 = { "Bágahúslén" "Márströnd" } 		#Bohuslän, Marstrand
 17 = { "Akurhús" "Ósló" } 		#Akerhus
 25 = { "Gotland" "Vésbýr" } 		#Gotland, Visby
 26 = { "Halmstaður" "Halmstaður" } 		#Halmstad
@@ -25,6 +27,8 @@
 3135 = { "Norðfrísland" "Húsum" } 		#North Frisia, Husum
 4142 = { "Árósar" "Árósar" } 		#Aarhus
 4143 = { "Austfold" "Borg" } 		#Østfold
+4164 = { "Dalur" "Dalaborg" } 		#Dal, Dalaborg
+4163 = { "Elfarborg" "Ljóðhús" } 		#Älvsborg, Lödöse
 4165 = { "Áhús" "Áhús" } 		#Åhus
 4166 = { "Krónjuberg" "Vegssær" } 		#Kronoberg, Växjö
 7766 = { "Helsingjaborg" "Helsingjaborg" } 		#Helsingborg
@@ -37,8 +41,10 @@
 7779 = { "Vörðaberg" "Vörðaberg" } 		#Varberg
 7780 = { "Vestfold" "Túnsberg" } 		#Vestfold
 7790 = { "Finnviður" "Lyngbýr" } 		#Finnveden, Ljungby
+7791 = { "Bogisund" "Bogisund" } 		#Bogesund
 7792 = { "Tjúst" "Vesturvík" } 		#Tjust
 7793 = { "Norðkaupstaður" "Norðkaupstaður" } 		#Norrköping
+7795 = { "Bró" "Bró" } 		#Bro
 
 #Finland
 27 = { "Árbæ" "Árbæ" } 		#Turku

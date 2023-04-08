@@ -3,8 +3,10 @@
 #Nordurica
 1 = { "Stockholm" "Stockholm" } 		#Stockholm
 2 = { "Linköping" "Linköping" } 		#Linköping
+5 = { "Värmland" "Tingvallar" } 		#Värmland, Tingvalla
 6 = { "Malmö" "Malmö" } 		#Malmö
 12 = { "Köpenhamn" "Köpenhamn" } 		#Copenhagen
+16 = { "Bohuslän" "Marstrand" } 		#Bohuslän, Marstrand
 369 = { "Orknöarna" "Kyrkovågen" } 		#Orkney, Kirkwall
 1978 = { "Hjaltlandsöarna" "Lervik" } 		#Shetlands, Lerwick
 1979 = { "Färöarna" "Torshamn" } 		#Faroes, Tórshavn
@@ -15,6 +17,7 @@
 3135 = { "Norrfriesland" "Husum" } 		#North Frisia, Husum
 4143 = { "Östfold" "Borg" } 		#Østfold
 4149 = { "Kalling" "Kalling" } 		#Kolding
+4163 = { "Älvsborg" "Lödöse" } 		#Älvsborg, Lödöse
 4166 = { "Kronoberg" "Växjö" } 		#Kronoberg, Växjö
 7767 = { "Roskälla" "Roskälla" } 		#Roskilde
 7769 = { "Djursland" "Randers" } 		#Randers

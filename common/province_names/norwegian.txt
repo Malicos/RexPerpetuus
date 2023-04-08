@@ -3,14 +3,17 @@
 #Nordurica
 2 = { "Linkaupang" "Linkaupang" } 		#Linköping
 12 = { "Kaupenhamn" "Kaupenhamn" } 		#Copenhagen
+16 = { "Båhuslen" "Marstrand" } 		#Bohuslän, Marstrand
 369 = { "Orknøyane" "Kyrkjevågen" } 		#Orkney, Kirkwall
 1978 = { "Hjaltlandsøyane" "Lervik" } 		#Shetlands, Lerwick
 1979 = { "Færøyane" "Torshamn" } 		#Faroes, Tórshavn
 1983 = { "Låland" "Nykaupang" } 		#Lolland
 3120 = { "Jønkaupang" "Jønkaupang" } 		#Jönköping
+4163 = { "Elfsborg" "Lødøse" } 		#Älvsborg, Lödöse
 7767 = { "Roskjelda" "Roskjelda" } 		#Roskilde
 7771 = { "Ringkaupang" "Ringkaupang" } 		#Ringkøbing
 7793 = { "Nordkaupang" "Nordkaupang" } 		#Norrköping
+7795 = { "Bru" "Bru" } 		#Bro
 
 #Finland
 27 = { "Åbu" "Åbu" } 		#Turku

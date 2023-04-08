@@ -3,6 +3,7 @@
 #Nordurica
 1 = { "Stokholm" "Stokholm" } 		#Stockholm
 2 = { "Linkøbing" "Linkøbing" } 		#Linköping
+5 = { "Vermland" "Tingvolde" } 		#Värmland, Tingvalla
 12 = { "København" "København" } 		#Copenhagen
 13 = { "Slesvig" "Slesvig" } 		#Schleswig
 15 = { "Ribe" "Ribe" } 		#Ripe
@@ -19,12 +20,15 @@
 3134 = { "Aapenraa" "Aapenraa" } 		#Aabenraa
 4142 = { "Aarhus" "Aarhus" } 		#Aarhus
 4149 = { "Kolding" "Kolding" } 		#Kolding
+4163 = { "Elfsborg" "Løse" } 		#Älvsborg, Lödöse
+4164 = { "Dal" "Daleborg" } 		#Dal, Dalaborg
 4165 = { "Aahus" "Aahus" } 		#Åhus
 4166 = { "Kronebjerg" "Vejsø" } 		#Kronoberg, Växjö
 7767 = { "Roskilde" "Roskilde" } 		#Roskilde
 7771 = { "Ringkøbing" "Ringkøbing" } 		#Ringkøbing
 7779 = { "Varbjerg" "Varbjerg" } 		#Varberg
 7790 = { "Finnveddet" "Lyngby" } 		#Finnveden, Ljungby
+7791 = { "Buesund" "Buesund" } 		#Bogesund
 7792 = { "Tyst" "Vestervig" } 		#Tjust
 7793 = { "Nordkøbing" "Nordkøbing" } 		#Norrköping
 
