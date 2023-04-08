@@ -11,14 +11,14 @@
 13 = { "Sleswiek" "Sleswiek" } 		#Schleswig
 14 = { "Fuin" "Odensae" } 		#Fyn
 15 = { "Riep" "Riep" } 		#Ripe
-16 = { "Bauhousleen" "Maerstraund" } 		#Bohuslän, Marstrand
+16 = { "Bauhousleen" "Merstraund" } 		#Bohuslän, Marstrand
 17 = { "Ekerhouss" "Ouslou" } 		#Akerhus
 25 = { "Gotlaund" "Weesbie" } 		#Gotland, Visby
 26 = { "Haumstad" "Haumstad" } 		#Halmstad
 369 = { "Orknern" "Kirkwain" } 		#Orkney, Kirkwall
 1930 = { "Aelaund" "Yomael" } 		#Åland, Jomala
-1978 = { "Hautlaundsern" "Laerwiek" } 		#Shetlands, Lerwick
-1979 = { "Faerairn" "Fuirsham" } 		#Faroes, Tórshavn
+1978 = { "Hautlaundsern" "Lerwiek" } 		#Shetlands, Lerwick
+1979 = { "Ferairn" "Fuirsham" } 		#Faroes, Tórshavn
 1981 = { "Haumstad" "Raen" } 		#Bornholm
 1982 = { "Bleking" "Bleking" } 		#Blekinge
 1983 = { "Laeland" "Niekaiping" } 		#Lolland
@@ -27,7 +27,7 @@
 3121 = { "Ailaund" "Brochhoam" } 		#Öland, Borcholm
 3134 = { "Aepenrae" "Aepenrae" } 		#Aabenraa
 3135 = { "Nordfrieslaund" "Houssum" } 		#North Frisia, Husum
-4142 = { "Aerhouss" "Aerhouss" } 		#Aarhus
+4142 = { "erhouss" "erhouss" } 		#Aarhus
 4143 = { "Aistfoad" "Broch" } 		#Østfold
 4149 = { "Kauding" "Kauding" } 		#Kolding
 4163 = { "Elfsbroch" "Ledess" } 		#Älvsborg, Lödöse
@@ -61,7 +61,7 @@
 244 = { "Laenkaster" "Laenkaster" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 245 = { "Orwiek" "Orwiek" }		#York
 246 = { "Nordimmerlaund" "Aunwiek" }		#Northumberland, Alnwick
-247 = { "Kummerlaund" "Kaerlail" }		#Cumberland, Carlisle
+247 = { "Kummerlaund" "Kerlail" }		#Cumberland, Carlisle
 248 = { "Misselbroch" "Misselbroch" } 		#Lothian, Edinburch
 253 = { "Iter Sidrern" "Stuirnwain" } 		#Outer Hebrides, Stornoway
 1860 = { "Norfoak" "Norwiek" }		#Norfolk, Norwich
@@ -87,9 +87,9 @@
 8134 = { "Hwietbie" "Hwietbie" } 		#Whitby
 8135 = { "Westmoringlaund" "Appelbie" } 		#Westmoreland, Appleby
 8136 = { "Tiendael" "Haisshem" } 		#Tynedale, Hexham
-8137 = { "Baerwiek" "Baerwiek pae Twied" } 		#Berwick, Berwick-upon-Tweed
+8137 = { "Berwiek" "Berwiek pae Twied" } 		#Berwick, Berwick-upon-Tweed
 8145 = { "Twieddael" "Pibler" } 		#Tweeddale, Peebles
-8146 = { "Maersen" "Greenlae" } 		#The Merse, Greenlaw
+8146 = { "Mersen" "Greenlae" } 		#The Merse, Greenlaw
 8153 = { "Siðerlaund" "Tornoch" } 		#Sutherland, Dornoch
 
 #Germany
