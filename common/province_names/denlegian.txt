@@ -13,7 +13,7 @@
 12 = { "Kaipenham" "Kaipenham" } 		#Copenhagen
 13 = { "Slessik" "Slessik" } 		#Schleswig
 14 = { "Fuin" "Odensae" } 		#Fyn
-15 = { "Riep" "Riep" } 		#Ripe
+15 = { "Reip" "Reip" } 		#Ripe
 16 = { "Bauhusleen" "Merstrand" } 		#Bohuslän, Marstrand
 17 = { "Ekerhuss" "Ouslae" } 		#Akerhus
 25 = { "Gotland" "Weesbie" } 		#Gotland, Visby
@@ -32,7 +32,7 @@
 3122 = { "Sidermanland" "Nikaiping" } 		#Södermanland, Nyköping
 3123 = { "Upland" "Upsael" } 		#Uppland, Uppsala
 3134 = { "Aepenrae" "Aepenrae" } 		#Aabenraa
-3135 = { "Norfriesland" "Houssem" } 		#North Frisia, Husum
+3135 = { "Norfreisland" "Houssem" } 		#North Frisia, Husum
 4142 = { "Erhuss" "Erhuss" } 		#Aarhus
 4143 = { "Aistfoad" "Broch" } 		#Østfold
 4149 = { "Kauding" "Kauding" } 		#Kolding
@@ -65,7 +65,7 @@
 236 = { "Midsass" "Lundun" } 		#Middlesex, London
 237 = { "Ossensfird" "Ossensfird" } 		#Oxford
 238 = { "Aissass" "Kaumerfird" } 		#Essex, Chelmsford
-243 = { "Lienkiln" "Lienkiln" }		#Lincoln
+243 = { "Leinkiln" "Leinkiln" }		#Lincoln
 244 = { "Laenkaster" "Laenkaster" }		#Lancashire, Lancaster, Lancashire would be Lønkæstralen but I decided to shorten it
 245 = { "Orrik" "Orrik" }		#York
 246 = { "Nordimmerland" "annik" }		#Northumberland, Alnwick
@@ -77,16 +77,17 @@
 3008 = { "Gallowae" "Wiktun" }		#Galloway, Wigtown
 3028 = { "Sifoak" "Epsik" }		#Suffolk, Ipswich
 3136 = { "Rosseland" "Fingwau" } 		#Ross, Tingwall
-4110 = { "Kaetness" "Wiek" } 		#Caithness, Wick
+4110 = { "Kaetness" "Weik" } 		#Caithness, Wick
 4361 = { "Ruiksbroch" "Ruiksbroch" } 		#Roxburch
-4362 = { "Dumfries" "Dumfries" } 		#Dumfries
+4362 = { "Dumfreis" "Dumfreis" } 		#Dumfreis
 4364 = { "Inner Sidrern" "Slet" } 		#Inner Hebrides, Sleat
 4365 = { "Man" "Duchlass" }		#Isle of Man, Douglas
-4367 = { "Wiek" "Wiek" } 		#Hull, Kingston-upon-Hull, changed to Wyke as KuH does not exist without Normans
+4367 = { "Weik" "Weik" } 		#Hull, Kingston-upon-Hull, changed to Wyke as KuH does not exist without Normans
 4368 = { "Dunhoam" "Dunhoam" }		#Durham
 4370 = { "Kamtebrig" "Kamtebrig" } 		#Cambridge
 4375 = { "Kasterleen" "Kaster" } 		#Cheshire, Chester, ON lén is equivalent to OE scire
 4376 = { "Ledkaster" "Ledkaster" } 		#Leicester
+4785 = { "Skefelt" "Skefelt" } 		#Sheffeild
 8126 = { "Nordemtun" "Nordemtun" } 		#Northampton
 8127 = { "Bedfird" "Bedfird" } 		#Bedford
 8128 = { "Weringik" "Weringik" } 		#Warwick
@@ -94,18 +95,18 @@
 8133 = { "Skeftun" "Skeftun" } 		#Skipton
 8134 = { "Hwitbie" "Hwitbie" } 		#Whitby
 8135 = { "Westmoringland" "Appelbie" } 		#Westmoreland, Appleby
-8136 = { "Tiendael" "Haisshem" } 		#Tynedale, Hexham
-8137 = { "Berwiek" "Berwiek pae Twied" } 		#Berwick, Berwick-upon-Tweed
-8145 = { "Twieddael" "Pibler" } 		#Tweeddale, Peebles
-8146 = { "Mersen" "Grenlae" } 		#The Merse, Greenlaw
+8136 = { "Teindael" "Haisshem" } 		#Tynedale, Hexham
+8137 = { "Berrik" "Berrik pae Tweid" } 		#Berwick, Berwick-upon-Tweed
+8145 = { "Tweiddael" "Pibler" } 		#Tweeddale, Peebles
+8146 = { "Mersen" "Greenlae" } 		#The Merse, Greenlaw
 8153 = { "Siderland" "Tornoch" } 		#Sutherland, Dornoch
 
 #Germany
 43 = { "Daensk" "Daensk" } 		#Danzig
-45 = { "Liebek" "Liebek" } 		#Lübeck
+45 = { "Leibek" "Leibek" } 		#Lübeck
 46 = { "Rostok" "Rostok" } 		#Rostock
 47 = { "Straelsund" "Straelsund" } 		#Stralsund
-1775 = { "Kiel" "Kiel" } 		#Kiel
+1775 = { "Keil" "Keil" } 		#Keil
 1841 = { "Trusae" "Trusae" } 		#Truso
 1857 = { "Laembroch" "Laembroch" } 		#Lauenburg
 1858 = { "Stetten" "Stetten" } 		#Stettin
@@ -119,4 +120,4 @@
 7818 = { "Kammen" "Kammen" } 		#Kammin
 7825 = { "Lembroch" "Lembroch" } 		#Lauenburg
 7828 = { "Pousk" "Pousk" } 		#Putzig
-7842 = { "Griefswau" "Griefswau" } 		#Greifswald
+7842 = { "Greifswau" "Greifswau" } 		#Greifswald
