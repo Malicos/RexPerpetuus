@@ -19,9 +19,11 @@
 4163 = { "Elfsborg" "Lødøse" } 		#Älvsborg, Lödöse
 7767 = { "Roskjelda" "Roskjelda" } 		#Roskilde
 7771 = { "Ringkaupang" "Ringkaupang" } 		#Ringkøbing
+7782 = { "Nedenes" "Kongshamn" } 		#Nadenes, Kongshamn
 7783 = { "Biskurud" "Dramn" } 		#Buskeryd, Drammen
 7793 = { "Nordkaupang" "Nordkaupang" } 		#Norrköping
 7795 = { "Bru" "Bru" } 		#Bro
+7809 = { "Lister" "Farsund" } 		#Lister, Farsund
 7863 = { "Dalane" "Mora" } 		#Dalarna, Mora
 
 #Finland

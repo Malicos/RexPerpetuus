@@ -35,6 +35,7 @@
 4142 = { "Árósar" "Árósar" } 		#Aarhus
 4143 = { "Austfold" "Borg" } 		#Østfold
 4144 = { "Brattsberg" "Skíðan" } 		#Bratsberg, Skien
+4145 = { "Agðir" "Byggland" } 		#Agder, Bygland
 4164 = { "Dalur" "Dalaborg" } 		#Dal, Dalaborg
 4163 = { "Elfarborg" "Ljóðhús" } 		#Älvsborg, Lödöse
 4165 = { "Áhús" "Áhús" } 		#Åhus
@@ -45,9 +46,11 @@
 7769 = { "Dýrsland" "Röndrósar" } 		#Randers
 7770 = { "Véborg" "Véborg" } 		#Viborg
 7771 = { "Hringkaupstaður" "Hringkaupstaður" } 		#Ringkøbing
+7772 = { "Marnadalur" "Vesturríseyjar" } 		#Mandal, Vesterrisør
 7774 = { "Töndra" "Töndra" } 		#Tønder
 7779 = { "Vörðaberg" "Vörðaberg" } 		#Varberg
 7780 = { "Vestfold" "Túnsberg" } 		#Vestfold
+7782 = { "Niðurnes" "Kóngshöfn" } 		#Nadenes, Kongshamn
 7781 = { "Soleyjar" "Vængir" } 		#Solør, Vinger
 7783 = { "Biskupsruð" "Dröfn" } 		#Buskeryd, Drammen
 7784 = { "Þelamörk" "Dalur" } 		#Telemark, Dalen
@@ -57,6 +60,7 @@
 7793 = { "Norðkaupstaður" "Norðkaupstaður" } 		#Norrköping
 7794 = { "Lindesás" "Lindesás" } 		#Lindesås
 7795 = { "Bró" "Bró" } 		#Bro
+7809 = { "Lústur" "Farsund" } 		#Lister, Farsund
 7863 = { "Dalir" "Mora" } 		#Dalarna, Mora
 
 #Finland

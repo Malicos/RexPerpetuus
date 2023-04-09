@@ -38,6 +38,7 @@
 4142 = { "Århus" "Århus" } 		#Aarhus
 4143 = { "Østfold" "Borg" } 		#Østfold
 4144 = { "Brattsberg" "Skidan" } 		#Bratsberg, Skien
+4145 = { "Agder" "Byggland" } 		#Agder, Bygland
 4149 = { "Kalding" "Kalding" } 		#Kolding
 4163 = { "Elvsborg" "Lødøse" } 		#Älvsborg, Lödöse
 4164 = { "Dal" "Dalaborg" } 		#Dal, Dalaborg
@@ -49,11 +50,13 @@
 7769 = { "Dyrsland" "Randers" } 		#Randers
 7770 = { "Viborg" "Viborg" } 		#Viborg
 7771 = { "Ringkøping" "Ringkøping" } 		#Ringkøbing
+7772 = { "Mandal" "Vesterrisør" } 		#Mandal, Vesterrisør
 7773 = { "Flensborg" "Flensborg" } 		#Flensborg
 7774 = { "Tønder" "Tønder" } 		#Tønder
 7779 = { "Varberg" "Varberg" } 		#Varberg
 7780 = { "Vestfold" "Tønsberg" } 		#Vestfold
 7781 = { "Solør" "Vingar" } 		#Solør, Vinger
+7782 = { "Nedenes" "Kongshavn" } 		#Nadenes, Kongshamn
 7783 = { "Biskorud" "Dravn" } 		#Buskeryd, Drammen
 7784 = { "Telemark" "Dalen" } 		#Telemark, Dalen
 7790 = { "Finnveden" "Lyngby" } 		#Finnveden, Ljungby
@@ -62,6 +65,7 @@
 7793 = { "Nordkøping" "Nordkøping" } 		#Norrköping
 7794 = { "Lindesås" "Lindesås" } 		#Lindesås
 7795 = { "Bro" "Bro" } 		#Bro
+7809 = { "Lyster" "Farsund" } 		#Lister, Farsund
 7863 = { "Dalarna" "Mora" } 		#Dalarna, Mora
 
 #Finland

@@ -27,6 +27,7 @@
 3134 = { "Aapenraa" "Aapenraa" } 		#Aabenraa
 4142 = { "Aarhus" "Aarhus" } 		#Aarhus
 4144 = { "Bratsberg" "Skien" } 		#Bratsberg, Skien
+4145 = { "Agder" "Bygland" } 		#Agder, Bygland
 4149 = { "Kolding" "Kolding" } 		#Kolding
 4163 = { "Elfsborg" "Løse" } 		#Älvsborg, Lödöse
 4164 = { "Dal" "Daleborg" } 		#Dal, Dalaborg
@@ -37,12 +38,14 @@
 7774 = { "Tønner" "Tønner" } 		#Tønder
 7779 = { "Varbjerg" "Varbjerg" } 		#Varberg
 7781 = { "Solør" "Vinger" } 		#Solør, Vinger
+7782 = { "Nedenæs" "Kongshavn" } 		#Nadenes, Kongshamn
 7783 = { "Buskerud" "Dravn" } 		#Buskeryd, Drammen
 7790 = { "Finnveddet" "Lyngby" } 		#Finnveden, Ljungby
 7791 = { "Buesund" "Buesund" } 		#Bogesund
 7792 = { "Tyst" "Vestervig" } 		#Tjust
 7793 = { "Nordkøbing" "Nordkøbing" } 		#Norrköping
 7794 = { "Linnesaas" "Linnesaas" } 		#Lindesås
+7809 = { "Lystre" "Farsund" } 		#Lister, Farsund
 7863 = { "Dalene" "More" } 		#Dalarna, Mora
 
 #Finland
