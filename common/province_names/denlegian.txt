@@ -16,7 +16,7 @@
 14 = { "Fuin" "Odensae" } 		#Fyn
 15 = { "Reip" "Reip" } 		#Ripe
 16 = { "Bauhusleen" "Merstrand" } 		#Bohuslän, Marstrand
-17 = { "Ekerhuss" "Ouslae" } 		#Akerhus
+17 = { "Aikerhuss" "Ouslae" } 		#Akerhus
 20 = { "Fraindlae" "Fruindhem" } 		#Trøndelag
 22 = { "Haidmark" "Hamer" } 		#Hedmark, Hamar
 23 = { "Breghenhuss" "Breghen" } 		#Bergenhus, Bergen
@@ -24,6 +24,8 @@
 25 = { "Gotland" "Weesbie" } 		#Gotland, Visby
 26 = { "Haumstad" "Haumstad" } 		#Halmstad
 369 = { "Orknern" "Kirkwain" } 		#Orkney, Kirkwall
+370 = { "Raikkik" "Raikkik" } 		#Reykjavík
+371 = { "Aikrair" "Aikrair" } 		#Akureyri
 1930 = { "Aeland" "Yomael" } 		#Åland, Jomala
 1978 = { "Hautlandsern" "Lerrik" } 		#Shetlands, Lerwick
 1979 = { "Ferairn" "Fuirsham" } 		#Faroes, Tórshavn
@@ -33,6 +35,8 @@
 1984 = { "Aelbroch" "Aelbroch" } 		#Aalborg
 1985 = { "Nerk" "Airbrou" } 		#Närke, Örebro
 2752 = { "Sin" "Leddik" } 		#Sogn, Lavik
+3114 = { "Eisfird" "Eisfird" } 		#Ísafjörður
+3115 = { "Aistfirder" "Duipwain" } 		#Austfirðir, Djúpavogur
 3117 = { "Uplandern" "Litelhamer" } 		#Oppland, Lillehammer
 3118 = { "Maur" "Ailsund" } 		#Møre, Ålesund
 3120 = { "Yunkaiping" "Yunkaiping" } 		#Jönköping
@@ -50,6 +54,7 @@
 4164 = { "Dael" "Daelbroch" } 		#Dal, Dalaborg
 4165 = { "Aehuss" "Aehuss" } 		#Åhus
 4166 = { "Kronbrech" "Wessae" } 		#Kronoberg, Växjö
+5591 = { "Swaelberd" "Swaelberd" } 		#Jan Mayen
 7766 = { "Helsingbroch" "Helsingbroch" } 		#Helsingborg
 7767 = { "Roskeld" "Roskeld" } 		#Roskilde
 7768 = { "Kaelundbroch" "Kaelundbroch" } 		#Kalundborg

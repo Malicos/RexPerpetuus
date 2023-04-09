@@ -14,8 +14,10 @@
 17 = { "Agerhus" "Oslo" } 		#Akerhus
 20 = { "Trønnelag" "Trondhjem" } 		#Trøndelag
 22 = { "Hædmark" "Hammer" } 		#Hedmark, Hamar
-369 = { "Hjaltlandsøerne" "Kirkevaagen" } 		#Orkney, Kirkwall
 25 = { "Gulland" "Visby" } 		#Gotland, Visby
+369 = { "Hjaltlandsøerne" "Kirkevaagen" } 		#Orkney, Kirkwall
+370 = { "Røgvigen" "Røgvigen" } 		#Reykjavík
+371 = { "Agerør" "Agerør" } 		#Akureyri
 1930 = { "Aaland" "Jomala" } 		#Åland, Jomala
 1978 = { "Hjaltlandsøerne" "Lervig" } 		#Shetlands, Lerwick
 1979 = { "Færøerne" "Torshavn" } 		#Faroes, Tórshavn
@@ -23,6 +25,7 @@
 1983 = { "Laaland" "Nykøbing" } 		#Lolland
 1984 = { "Aalborg" "Aalborg" } 		#Aalborg
 2752 = { "Sogn" "Ladvig" } 		#Sogn, Lavik
+3115 = { "Østfjorde" "Dybvaagen" } 		#Austfirðir, Djúpavogur
 3117 = { "Oplanderne" "Lillehammer" } 		#Oppland, Lillehammer
 3118 = { "Møre" "Aalesund" } 		#Møre, Ålesund
 3120 = { "Jynkøbing" "Jynkøbing" } 		#Jönköping

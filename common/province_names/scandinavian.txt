@@ -24,6 +24,8 @@
 25 = { "Gotland" "Visby" } 		#Gotland, Visby
 26 = { "Halmstad" "Halmstad" } 		#Halmstad
 369 = { "Orknøarna" "Kirkjevågen" } 		#Orkney, Kirkwall
+370 = { "Røkvik" "Røkvik" } 		#Reykjavík
+371 = { "Åkerør" "Åkerør" } 		#Akureyri
 1930 = { "Åland" "Jomala" } 		#Åland, Jomala
 1978 = { "Hjaltlandsøarna" "Lervik" } 		#Shetlands, Lerwick
 1979 = { "Færøarna" "Torshavn" } 		#Faroes, Tórshavn
@@ -33,6 +35,8 @@
 1984 = { "Ålborg" "Ålborg" } 		#Aalborg
 1985 = { "Nærke" "Ørebro" } 		#Närke, Örebro
 2752 = { "Sygn" "Ladvik" } 		#Sogn, Lavik
+3114 = { "Isfjord" "Isfjord" } 		#Ísafjörður
+3115 = { "Østfjordar" "Djupvågen" } 		#Austfirðir, Djúpavogur
 3117 = { "Upplandarna" "Litlahamar" } 		#Oppland, Lillehammer
 3118 = { "Møre" "Ålesund" } 		#Møre, Ålesund
 3120 = { "Jønkøping" "Jønkøping" } 		#Jönköping
@@ -50,6 +54,7 @@
 4164 = { "Dal" "Dalaborg" } 		#Dal, Dalaborg
 4165 = { "Åhus" "Åhus" } 		#Åhus
 4166 = { "Kronjeberg" "Vegsjø" } 		#Kronoberg, Växjö
+5591 = { "Svalbard" "Svalbard" } 		#Jan Mayen
 7766 = { "Helsingborg" "Helsingborg" } 		#Helsingborg
 7767 = { "Roskelda" "Roskelda" } 		#Roskilde
 7768 = { "Kalundborg" "Kalundborg" } 		#Kalundborg

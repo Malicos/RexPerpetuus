@@ -13,11 +13,14 @@
 16 = { "Bohuslän" "Marstrand" } 		#Bohuslän, Marstrand
 20 = { "Tröndelagen" "Trondhem" } 		#Trøndelag
 369 = { "Orknöarna" "Kyrkovågen" } 		#Orkney, Kirkwall
+370 = { "Rökvik" "Rökvik" } 		#Reykjavík
+371 = { "Åkerör" "Åkerör" } 		#Akureyri
 1978 = { "Hjaltlandsöarna" "Lervik" } 		#Shetlands, Lerwick
 1979 = { "Färöarna" "Torshamn" } 		#Faroes, Tórshavn
 1981 = { "Bornholm" "Rönne" } 		#Bornholm
 1983 = { "Låland" "Nyköping" } 		#Lolland
 1985 = { "Närke" "Örebro" } 		#Närke, Örebro
+3115 = { "Östfjordar" "Djupvågen" } 		#Austfirðir, Djúpavogur
 3117 = { "Uppländerna" "Lillahamar" } 		#Oppland, Lillehammer
 3118 = { "Möre" "Ålesund" } 		#Møre, Ålesund
 3120 = { "Jönköping" "Jönköping" } 		#Jönköping
