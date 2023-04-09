@@ -17,6 +17,8 @@
 16 = { "Bohuslen" "Marstrand" } 		#Bohuslän, Marstrand
 17 = { "Åkerhus" "Oslo" } 		#Akerhus
 22 = { "Hedmark" "Hamar" } 		#Hedmark, Hamar
+23 = { "Bergenhus" "Bergen" } 		#Bergenhus, Bergen
+24 = { "Stavanger" "Stavanger" } 		#Stavanger
 25 = { "Gotland" "Visby" } 		#Gotland, Visby
 26 = { "Halmstad" "Halmstad" } 		#Halmstad
 369 = { "Orknøarna" "Kirkjevågen" } 		#Orkney, Kirkwall
@@ -28,7 +30,9 @@
 1983 = { "Låland" "Nykøping" } 		#Lolland
 1984 = { "Ålborg" "Ålborg" } 		#Aalborg
 1985 = { "Nærke" "Ørebro" } 		#Närke, Örebro
+2752 = { "Sygn" "Ladvik" } 		#Sogn, Lavik
 3117 = { "Upplandarna" "Litlahamar" } 		#Oppland, Lillehammer
+3118 = { "Møre" "Ålesund" } 		#Møre, Ålesund
 3120 = { "Jønkøping" "Jønkøping" } 		#Jönköping
 3121 = { "Øland" "Borgholm" } 		#Öland, Borgholm
 3122 = { "Sødremanland" "Nykøping" } 		#Södermanland, Nyköping
@@ -59,13 +63,15 @@
 7782 = { "Nedenes" "Kongshavn" } 		#Nadenes, Kongshamn
 7783 = { "Biskorud" "Dravn" } 		#Buskeryd, Drammen
 7784 = { "Telemark" "Dalen" } 		#Telemark, Dalen
+7785 = { "Hardanger" "Kinsarvik" } 		#Hardanger, Kinsarvik
+7786 = { "Luster" "Køpinger" } 		#Luster, Kaupanger
 7790 = { "Finnveden" "Lyngby" } 		#Finnveden, Ljungby
 7791 = { "Bogesund" "Bogesund" } 		#Bogesund
 7792 = { "Tjust" "Vestervik" } 		#Tjust
 7793 = { "Nordkøping" "Nordkøping" } 		#Norrköping
 7794 = { "Lindesås" "Lindesås" } 		#Lindesås
 7795 = { "Bro" "Bro" } 		#Bro
-7809 = { "Lyster" "Farsund" } 		#Lister, Farsund
+7809 = { "Lista" "Farsund" } 		#Lister, Farsund
 7863 = { "Dalarna" "Mora" } 		#Dalarna, Mora
 
 #Finland

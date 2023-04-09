@@ -20,7 +20,9 @@
 1982 = { "Bleging" "Bleging" } 		#Blekinge
 1983 = { "Laaland" "Nykøbing" } 		#Lolland
 1984 = { "Aalborg" "Aalborg" } 		#Aalborg
+2752 = { "Sogn" "Ladvig" } 		#Sogn, Lavik
 3117 = { "Oplanderne" "Lillehammer" } 		#Oppland, Lillehammer
+3118 = { "Møre" "Aalesund" } 		#Møre, Ålesund
 3120 = { "Jynkøbing" "Jynkøbing" } 		#Jönköping
 3122 = { "Sydremandland" "Nykøbing" } 		#Södermanland, Nyköping
 3123 = { "Opland" "Opsala" } 		#Uppland, Uppsala
@@ -40,12 +42,14 @@
 7781 = { "Solør" "Vinger" } 		#Solør, Vinger
 7782 = { "Nedenæs" "Kongshavn" } 		#Nadenes, Kongshamn
 7783 = { "Buskerud" "Dravn" } 		#Buskeryd, Drammen
+7785 = { "Hardanger" "Kinservig" } 		#Hardanger, Kinsarvik
+7786 = { "Luster" "Købinger" } 		#Luster, Kaupanger
 7790 = { "Finnveddet" "Lyngby" } 		#Finnveden, Ljungby
 7791 = { "Buesund" "Buesund" } 		#Bogesund
 7792 = { "Tyst" "Vestervig" } 		#Tjust
 7793 = { "Nordkøbing" "Nordkøbing" } 		#Norrköping
 7794 = { "Linnesaas" "Linnesaas" } 		#Lindesås
-7809 = { "Lystre" "Farsund" } 		#Lister, Farsund
+7809 = { "Lister" "Farsund" } 		#Lister, Farsund
 7863 = { "Dalene" "More" } 		#Dalarna, Mora
 
 #Finland

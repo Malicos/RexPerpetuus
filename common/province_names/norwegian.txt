@@ -12,6 +12,7 @@
 1979 = { "Færøyane" "Torshamn" } 		#Faroes, Tórshavn
 1983 = { "Låland" "Nykaupang" } 		#Lolland
 1985 = { "Nærke" "Øyrebru" } 		#Närke, Örebro
+2752 = { "Sogn" "Lavik" } 		#Sogn, Lavik
 3117 = { "Opplandene" "Litahamar" } 		#Oppland, Lillehammer
 3120 = { "Jønkaupang" "Jønkaupang" } 		#Jönköping
 3122 = { "Sørmannland" "Nykaupang" } 		#Södermanland, Nyköping
@@ -21,9 +22,9 @@
 7771 = { "Ringkaupang" "Ringkaupang" } 		#Ringkøbing
 7782 = { "Nedenes" "Kongshamn" } 		#Nadenes, Kongshamn
 7783 = { "Biskurud" "Dramn" } 		#Buskeryd, Drammen
+7786 = { "Luster" "Kaupanger" } 		#Luster, Kaupanger
 7793 = { "Nordkaupang" "Nordkaupang" } 		#Norrköping
 7795 = { "Bru" "Bru" } 		#Bro
-7809 = { "Lister" "Farsund" } 		#Lister, Farsund
 7863 = { "Dalane" "Mora" } 		#Dalarna, Mora
 
 #Finland

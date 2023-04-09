@@ -17,6 +17,7 @@
 1983 = { "Låland" "Nyköping" } 		#Lolland
 1985 = { "Närke" "Örebro" } 		#Närke, Örebro
 3117 = { "Uppländerna" "Lillahamar" } 		#Oppland, Lillehammer
+3118 = { "Möre" "Ålesund" } 		#Møre, Ålesund
 3120 = { "Jönköping" "Jönköping" } 		#Jönköping
 3121 = { "Öland" "Borgholm" } 		#Öland, Borgholm
 3122 = { "Södermanland" "Nyköping" } 		#Södermanland, Nyköping
@@ -37,6 +38,7 @@
 7781 = { "Solör" "Vingar" } 		#Solør, Vinger
 7782 = { "Nedenäs" "Kongshamn" } 		#Nadenes, Kongshamn
 7783 = { "Biskorud" "Dramn" } 		#Buskeryd, Drammen
+7786 = { "Luster" "Köpinger" } 		#Luster, Kaupanger
 7790 = { "Finnveden" "Ljungby" } 		#Finnveden, Ljungby
 7792 = { "Tjust" "Västervik" } 		#Tjust
 7793 = { "Norrköping" "Norrköping" } 		#Norrköping
