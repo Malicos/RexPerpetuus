@@ -40,6 +40,7 @@
 4164 = { "Dal" "Daleborg" } 		#Dal, Dalaborg
 4165 = { "Aahus" "Aahus" } 		#Åhus
 4166 = { "Kronebjerg" "Vejsø" } 		#Kronoberg, Växjö
+5591 = { "Svalbard" "Aasby" } 		#Jan Mayen
 7767 = { "Roskilde" "Roskilde" } 		#Roskilde
 7771 = { "Ringkøbing" "Ringkøbing" } 		#Ringkøbing
 7774 = { "Tønner" "Tønner" } 		#Tønder

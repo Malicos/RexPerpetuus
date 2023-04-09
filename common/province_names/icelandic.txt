@@ -50,7 +50,7 @@
 4163 = { "Elfarborg" "Ljóðhús" } 		#Älvsborg, Lödöse
 4165 = { "Áhús" "Áhús" } 		#Åhus
 4166 = { "Krónjuberg" "Vegssær" } 		#Kronoberg, Växjö
-5591 = { "Svalbarð" "Svalbarð" } 		#Jan Mayen
+5591 = { "Svalbarð" "Ásbýr" } 		#Jan Mayen
 7766 = { "Helsingjaborg" "Helsingjaborg" } 		#Helsingborg
 7767 = { "Hróarskelda" "Hróarskelda" } 		#Roskilde
 7768 = { "Kálundborg" "Kálundborg" } 		#Kalundborg

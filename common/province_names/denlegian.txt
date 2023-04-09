@@ -54,7 +54,7 @@
 4164 = { "Dael" "Daelbroch" } 		#Dal, Dalaborg
 4165 = { "Aehuss" "Aehuss" } 		#Åhus
 4166 = { "Kronbrech" "Wessae" } 		#Kronoberg, Växjö
-5591 = { "Swaelberd" "Swaelberd" } 		#Jan Mayen
+5591 = { "Swaelberd" "Aisbie" } 		#Jan Mayen
 7766 = { "Helsingbroch" "Helsingbroch" } 		#Helsingborg
 7767 = { "Roskeld" "Roskeld" } 		#Roskilde
 7768 = { "Kaelundbroch" "Kaelundbroch" } 		#Kalundborg
