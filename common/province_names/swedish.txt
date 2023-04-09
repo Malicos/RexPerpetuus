@@ -8,8 +8,10 @@
 6 = { "Malmö" "Malmö" } 		#Malmö
 8 = { "Kopparberg" "Falun" } 		#Kopparberg, Falun
 9 = { "Gästrikland" "Gävle" } 		#Gästrikland, Gävle
+10 = { "Jämtland" "Frösön" } 		#Jämtland, Frösön
 12 = { "Köpenhamn" "Köpenhamn" } 		#Copenhagen
 16 = { "Bohuslän" "Marstrand" } 		#Bohuslän, Marstrand
+20 = { "Tröndelagen" "Trondhem" } 		#Trøndelag
 369 = { "Orknöarna" "Kyrkovågen" } 		#Orkney, Kirkwall
 1978 = { "Hjaltlandsöarna" "Lervik" } 		#Shetlands, Lerwick
 1979 = { "Färöarna" "Torshamn" } 		#Faroes, Tórshavn
@@ -39,9 +41,12 @@
 7782 = { "Nedenäs" "Kongshamn" } 		#Nadenes, Kongshamn
 7783 = { "Biskorud" "Dramn" } 		#Buskeryd, Drammen
 7786 = { "Luster" "Köpinger" } 		#Luster, Kaupanger
+7787 = { "Römsdal" "Molde" } 		#Romsdal, Molde
+7788 = { "Stenkar" "Stenkar" } 		#Steinkjer
 7790 = { "Finnveden" "Ljungby" } 		#Finnveden, Ljungby
 7792 = { "Tjust" "Västervik" } 		#Tjust
 7793 = { "Norrköping" "Norrköping" } 		#Norrköping
+7796 = { "Härjedalen" "Sveg" } 		#Herjedalen, Sveg
 
 #Britain
 236 = { "Midsax" "Lundun" } 		#Middlesex, London

@@ -7,10 +7,12 @@
 5 = { "Vermland" "Tingvolde" } 		#Värmland, Tingvalla
 8 = { "Koperberg" "Falun" } 		#Kopparberg, Falun
 9 = { "Gestrikland" "Gefle" } 		#Gästrikland, Gävle
+10 = { "Jæmtland" "Frøsøen" } 		#Jämtland, Frösön
 12 = { "København" "København" } 		#Copenhagen
 13 = { "Slesvig" "Slesvig" } 		#Schleswig
 15 = { "Ribe" "Ribe" } 		#Ripe
 17 = { "Agerhus" "Oslo" } 		#Akerhus
+20 = { "Trønnelag" "Trondhjem" } 		#Trøndelag
 22 = { "Hædmark" "Hammer" } 		#Hedmark, Hamar
 369 = { "Hjaltlandsøerne" "Kirkevaagen" } 		#Orkney, Kirkwall
 25 = { "Gulland" "Visby" } 		#Gotland, Visby
@@ -44,6 +46,8 @@
 7783 = { "Buskerud" "Dravn" } 		#Buskeryd, Drammen
 7785 = { "Hardanger" "Kinservig" } 		#Hardanger, Kinsarvik
 7786 = { "Luster" "Købinger" } 		#Luster, Kaupanger
+7787 = { "Rømsdal" "Molle" } 		#Romsdal, Molde
+7788 = { "Stenkar" "Stenkar" } 		#Steinkjer
 7790 = { "Finnveddet" "Lyngby" } 		#Finnveden, Ljungby
 7791 = { "Buesund" "Buesund" } 		#Bogesund
 7792 = { "Tyst" "Vestervig" } 		#Tjust

@@ -8,12 +8,14 @@
 6 = { "Málmey" "Málmey" } 		#Malmö
 8 = { "Koparsberg" "Falun" } 		#Kopparberg, Falun
 9 = { "Gestrekaland" "Gafvin" } 		#Gästrikland, Gävle
+10 = { "Jamtaland" "Freysey" } 		#Jämtland, Frösön
 12 = { "Kaupmannahöfn" "Kaupmannahöfn" } 		#Copenhagen
 13 = { "Slésvík" "Slésvík" } 		#Schleswig
 14 = { "Fjón" "Óðinsvé" } 		#Fyn
 15 = { "Rípar" "Rípar" } 		#Ripe
 16 = { "Bágahúslén" "Márströnd" } 		#Bohuslän, Marstrand
 17 = { "Akurhús" "Ósló" } 		#Akerhus
+20 = { "Þrændalög" "Þrándheimur" } 		#Trøndelag
 22 = { "Heiðmörk" "Hamar" } 		#Hedmark, Hamar
 23 = { "Björgvinhús" "Björgvin" } 		#Bergenhus, Bergen
 24 = { "Stafangur" "Stafangur" } 		#Stavanger
@@ -60,12 +62,15 @@
 7784 = { "Þelamörk" "Dalur" } 		#Telemark, Dalen
 7785 = { "Harðangur" "Kinsarvík" } 		#Hardanger, Kinsarvik
 7786 = { "Lústur" "Kaupstaður" } 		#Luster, Kaupanger
+7787 = { "Raumsdalur" "Móldar" } 		#Romsdal, Molde
+7788 = { "Steinnker" "Steinnker" } 		#Steinkjer
 7790 = { "Finnviður" "Lyngbýr" } 		#Finnveden, Ljungby
 7791 = { "Bogisund" "Bogisund" } 		#Bogesund
 7792 = { "Tjúst" "Vesturvík" } 		#Tjust
 7793 = { "Norðkaupstaður" "Norðkaupstaður" } 		#Norrköping
 7794 = { "Lindesás" "Lindesás" } 		#Lindesås
 7795 = { "Bró" "Bró" } 		#Bro
+7796 = { "Herjadalur" "Sveig" } 		#Herjedalen, Sveg
 7863 = { "Dalir" "Mora" } 		#Dalarna, Mora
 
 #Finland

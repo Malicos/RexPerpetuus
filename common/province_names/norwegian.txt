@@ -4,6 +4,7 @@
 2 = { "Linkaupang" "Linkaupang" } 		#Linköping
 4 = { "Vestmannland" "Vesterås" } 		#Västmanland, Västerås
 9 = { "Gestrikland" "Gefle" } 		#Gästrikland, Gävle
+10 = { "Jemtland" "Frøysøya" } 		#Jämtland, Frösön
 12 = { "Kaupenhamn" "Kaupenhamn" } 		#Copenhagen
 16 = { "Båhuslen" "Marstrand" } 		#Bohuslän, Marstrand
 22 = { "Heidmark" "Hamar" } 		#Hedmark, Hamar
@@ -23,6 +24,8 @@
 7782 = { "Nedenes" "Kongshamn" } 		#Nadenes, Kongshamn
 7783 = { "Biskurud" "Dramn" } 		#Buskeryd, Drammen
 7786 = { "Luster" "Kaupanger" } 		#Luster, Kaupanger
+7787 = { "Romsdal" "Molde" } 		#Romsdal, Molde
+7788 = { "Steinkjer" "Steinkjer" } 		#Steinkjer
 7793 = { "Nordkaupang" "Nordkaupang" } 		#Norrköping
 7795 = { "Bru" "Bru" } 		#Bro
 7863 = { "Dalane" "Mora" } 		#Dalarna, Mora

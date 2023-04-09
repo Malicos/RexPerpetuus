@@ -10,12 +10,14 @@
 7 = { "Skaraborg" "Skara" } 		#Skaraborg, Skara
 8 = { "Koparberg" "Falun" } 		#Kopparberg, Falun
 9 = { "Gestrikland" "Gevle" } 		#Gästrikland, Gävle
+10 = { "Jemtland" "Frøsøn" } 		#Jämtland, Frösön
 12 = { "Køpenhavn" "Køpenhavn" } 		#Copenhagen
 13 = { "Slesvik" "Slesvik" } 		#Schleswig
 14 = { "Fyn" "Odense" } 		#Fyn
 15 = { "Ripa" "Ripa" } 		#Ripe
 16 = { "Bohuslen" "Marstrand" } 		#Bohuslän, Marstrand
 17 = { "Åkerhus" "Oslo" } 		#Akerhus
+20 = { "Trøndelag" "Trondhem" } 		#Trøndelag
 22 = { "Hedmark" "Hamar" } 		#Hedmark, Hamar
 23 = { "Bergenhus" "Bergen" } 		#Bergenhus, Bergen
 24 = { "Stavanger" "Stavanger" } 		#Stavanger
@@ -65,12 +67,15 @@
 7784 = { "Telemark" "Dalen" } 		#Telemark, Dalen
 7785 = { "Hardanger" "Kinsarvik" } 		#Hardanger, Kinsarvik
 7786 = { "Luster" "Køpinger" } 		#Luster, Kaupanger
+7787 = { "Rømsdal" "Molde" } 		#Romsdal, Molde
+7788 = { "Stenker" "Stenker" } 		#Steinkjer
 7790 = { "Finnveden" "Lyngby" } 		#Finnveden, Ljungby
 7791 = { "Bogesund" "Bogesund" } 		#Bogesund
 7792 = { "Tjust" "Vestervik" } 		#Tjust
 7793 = { "Nordkøping" "Nordkøping" } 		#Norrköping
 7794 = { "Lindesås" "Lindesås" } 		#Lindesås
 7795 = { "Bro" "Bro" } 		#Bro
+7796 = { "Herjedalen" "Sveg" } 		#Herjedalen, Sveg
 7809 = { "Lista" "Farsund" } 		#Lister, Farsund
 7863 = { "Dalarna" "Mora" } 		#Dalarna, Mora
 
