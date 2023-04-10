@@ -21,6 +21,7 @@
 24 = { "Stafangur" "Stafangur" } 		#Stavanger
 25 = { "Gotland" "Vésbýr" } 		#Gotland, Visby
 26 = { "Halmstaður" "Halmstaður" } 		#Halmstad
+315 = { "Finnmörk" "Vardey" } 		#Finnmark, Vardø
 369 = { "Orkneyjar" "Kirkjuvogur" } 		#Orkney, Kirkwall
 370 = { "Reykjavík" "Reykjavík" } 		#Reykjavík
 371 = { "Akureyri" "Akureyri" } 		#Akureyri
@@ -37,6 +38,7 @@
 3115 = { "Austfirðir" "Djúpavogur" } 		#Austfirðir, Djúpavogur
 3117 = { "Upplöndin" "Lítillhamar" } 		#Oppland, Lillehammer
 3118 = { "Mæri" "Álasund" } 		#Møre, Ålesund
+3119 = { "Tromsey" "Tromsey" } 		#Tromsø
 3120 = { "Junkaupstaður" "Junkaupstaður" } 		#Jönköping
 3121 = { "Eyland" "Borghólmur" } 		#Öland, Borgholm
 3122 = { "Suðurmannaland" "Nýkaupstaður" } 		#Södermanland, Nyköping
@@ -69,6 +71,7 @@
 7786 = { "Lústur" "Kaupstaður" } 		#Luster, Kaupanger
 7787 = { "Raumsdalur" "Móldar" } 		#Romsdal, Molde
 7788 = { "Steinnker" "Steinnker" } 		#Steinkjer
+7789 = { "Salfti" "Boðøy" } 		#Salten, Bodø
 7790 = { "Finnviður" "Lyngbýr" } 		#Finnveden, Ljungby
 7791 = { "Bogisund" "Bogisund" } 		#Bogesund
 7792 = { "Tjúst" "Vesturvík" } 		#Tjust

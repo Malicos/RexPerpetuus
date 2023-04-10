@@ -8,6 +8,7 @@
 12 = { "Kaupenhamn" "Kaupenhamn" } 		#Copenhagen
 16 = { "Båhuslen" "Marstrand" } 		#Bohuslän, Marstrand
 22 = { "Heidmark" "Hamar" } 		#Hedmark, Hamar
+315 = { "Finnmark" "Vardøy" } 		#Finnmark, Vardø
 369 = { "Orknøyane" "Kyrkjevågen" } 		#Orkney, Kirkwall
 370 = { "Røykvik" "Røykvik" } 		#Reykjavík
 371 = { "Åkerøyr" "Åkerøyr" } 		#Akureyri
@@ -18,6 +19,7 @@
 2752 = { "Sogn" "Lavik" } 		#Sogn, Lavik
 3115 = { "Austfjordar" "Djupvågen" } 		#Austfirðir, Djúpavogur
 3117 = { "Opplandene" "Litahamar" } 		#Oppland, Lillehammer
+3119 = { "Tromsøy" "Tromsøy" } 		#Tromsø
 3120 = { "Jønkaupang" "Jønkaupang" } 		#Jönköping
 3122 = { "Sørmannland" "Nykaupang" } 		#Södermanland, Nyköping
 3123 = { "Oppland" "Oppsala" } 		#Uppland, Uppsala
@@ -29,6 +31,7 @@
 7786 = { "Luster" "Kaupanger" } 		#Luster, Kaupanger
 7787 = { "Romsdal" "Molde" } 		#Romsdal, Molde
 7788 = { "Steinkjer" "Steinkjer" } 		#Steinkjer
+7789 = { "Salten" "Bodøy" } 		#Salten, Bodø
 7793 = { "Nordkaupang" "Nordkaupang" } 		#Norrköping
 7795 = { "Bru" "Bru" } 		#Bro
 7863 = { "Dalane" "Mora" } 		#Dalarna, Mora

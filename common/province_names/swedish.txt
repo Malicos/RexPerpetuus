@@ -12,6 +12,7 @@
 12 = { "Köpenhamn" "Köpenhamn" } 		#Copenhagen
 16 = { "Bohuslän" "Marstrand" } 		#Bohuslän, Marstrand
 20 = { "Tröndelagen" "Trondhem" } 		#Trøndelag
+315 = { "Finnmark" "Vardö" } 		#Finnmark, Vardø
 369 = { "Orknöarna" "Kyrkovågen" } 		#Orkney, Kirkwall
 370 = { "Rökvik" "Rökvik" } 		#Reykjavík
 371 = { "Åkerör" "Åkerör" } 		#Akureyri
@@ -23,6 +24,7 @@
 3115 = { "Östfjordar" "Djupvågen" } 		#Austfirðir, Djúpavogur
 3117 = { "Uppländerna" "Lillahamar" } 		#Oppland, Lillehammer
 3118 = { "Möre" "Ålesund" } 		#Møre, Ålesund
+3119 = { "Tromsö" "Tromsö" } 		#Tromsø
 3120 = { "Jönköping" "Jönköping" } 		#Jönköping
 3121 = { "Öland" "Borgholm" } 		#Öland, Borgholm
 3122 = { "Södermanland" "Nyköping" } 		#Södermanland, Nyköping
@@ -46,6 +48,7 @@
 7786 = { "Luster" "Köpinger" } 		#Luster, Kaupanger
 7787 = { "Römsdal" "Molde" } 		#Romsdal, Molde
 7788 = { "Stenkar" "Stenkar" } 		#Steinkjer
+7789 = { "Salten" "Bodö" } 		#Salten, Bodø
 7790 = { "Finnveden" "Ljungby" } 		#Finnveden, Ljungby
 7792 = { "Tjust" "Västervik" } 		#Tjust
 7793 = { "Norrköping" "Norrköping" } 		#Norrköping
