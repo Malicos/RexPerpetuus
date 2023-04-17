@@ -31,6 +31,15 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Togay #2"  = 20
+	"Togtekin #1"  = 10
+	"Toktamis #1"  = 10
+	"Baturay #1"  = 10
+	"Boru #1"  = 10
+	"Iskender #1"  = 10
+
+	# RANDOM NAMES
 	"Bisutun #0"  = 20
 	"Adud ud-Dawlah #0"  = 10
 	"Kayumarth #0"  = 20

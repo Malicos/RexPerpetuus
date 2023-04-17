@@ -2,7 +2,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 174 192 91 }
+color = { 255 203 100 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -31,6 +31,15 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Ayaz #1" = 10
+	"Selcuk #1" = 10
+	"Korkut #1" = 10
+	"Togay #4" = 80
+	"Sinan #2" = 20
+	"Aksonqor #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Abdul-Aziz #0" = 20
 	"Abdul-Karim #0" = 20
 	"Abdul-Mumin #0" = 20
@@ -96,6 +105,7 @@ monarch_names = {
 	"Vali Muhammad #0" = 20
 	"Yadgar #0" = 20
 
+	# RANDOM NAMES - FEMALE
 	"Hooda #0" = -1
 	"Malaika #0" = -1
 	"Munira #0" = -1

@@ -30,6 +30,17 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Mardavij #1" = 10
+	"Afshar #2" = 20
+	"Tahmasb #1" = 10
+	"Jahandar #1" = 10
+	"Shahin #1" = 10
+	"Yousef #1" = 10
+	"Mihrmardan #2" = 20
+	"Zartosht #2" = 20
+
+	# RULER NAMES - MALE
 	"Joneid #0" = 30
 	"Haidar #0" = 30
 	"Ismâ'îl #0" = 30
@@ -67,6 +78,7 @@ monarch_names = {
 	"Hamid #0" = 0
 	"Farid #0" = 0
 	
+	# RULER NAMES - FEMALE
 	"Atiya #0" = -1
 	"Pari #0" = -1
 	"Khayr al-Nisa #0" = -1

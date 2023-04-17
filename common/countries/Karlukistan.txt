@@ -32,6 +32,20 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Kotyan #1" = 10
+	"Mamet #1" = 10
+	"Asep #2" = 20
+	"Kobyak #1" = 10
+	"Sotan #1" = 10
+	"Ituk #1" = 10
+	"Kutan #1" = 10
+	"Tolun #1" = 10
+	"Togli #1" = 10
+	"Blush #2" = 20
+	"Kubasar #1" = 10
+
+	# RANDOM NAMES - MALE
 	"Abdul-Aziz #0" = 20
 	"Abdul-Karim #0" = 20
 	"Abdul-Mumin #0" = 20
@@ -97,6 +111,7 @@ monarch_names = {
 	"Vali Muhammad #0" = 20
 	"Yadgar #0" = 20
 
+	# RANDOM NAMES - FEMALE
 	"Hooda #0" = -1
 	"Malaika #0" = -1
 	"Munira #0" = -1
