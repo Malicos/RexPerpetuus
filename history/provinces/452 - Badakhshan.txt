@@ -3,7 +3,7 @@
 owner = BDS
 controller = BDS
 add_core = BDS
-culture = pashtuni
+culture = pamiri
 religion = sunni
 capital = "Munjan"
 trade_goods = gems #Rubies, Saphires

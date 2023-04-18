@@ -257,11 +257,11 @@
  manchuria_region:0 "Jurchenia"
  manchuria_region_name:0 "Jurchenia"
  manchuria_region_adj:0 "Jurchenia"
- north_china_region:0 "Northern Cathay"
- north_china_region_name:0 "Northern Cathay"
+ north_china_region:0 "North Cathay"
+ north_china_region_name:0 "North Cathay"
  north_china_region_adj:0 "Northern Cathayan" 
- south_china_region:0 "Southern Cathay"
- south_china_region_name:0 "Southern Cathay"
+ south_china_region:0 "South Cathay"
+ south_china_region_name:0 "South Cathay"
  south_china_region_adj:0 "Southern Cathayan"
  indo_china_region:0 "Indocathay"
  indo_china_region_name:0 "Indocathay"
@@ -338,12 +338,13 @@
  # Superregions
  
  africa_superregion:1 "Northern Ethiopia"
+ southern_africa_superregion:0 "Southern Ethiopia"
  north_america_superregion:0 "Vesperia"
  north_america_superregion_name:0 "Vesperia"
  north_america_superregion_adj:0 "Vesperian"
- southern_africa_superregion:0 "Southern Ethiopia"
  central_america_superregion:0 "Mexikha"
  south_america_superregion:0 "Elysia"
+ china_superregion:0 "Cathay"
  
  # Sea Regions and Areas
  hudson_bay_sea_region:0 "Bay of Helluland"

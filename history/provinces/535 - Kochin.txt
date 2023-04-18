@@ -3,8 +3,8 @@
 owner = KOC
 controller = KOC
 add_core = KOC
-culture = malayalam
-religion = hinduism
+culture = bene_israeli
+religion = jewish
 capital = "Kochin"
 trade_goods = spices
 hre = no
