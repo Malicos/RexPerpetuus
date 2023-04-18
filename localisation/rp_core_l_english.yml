@@ -109,6 +109,7 @@
  talysh:0 "Talysh"
  tajik:0 "Tajik"
  shirvani:0 "Shirvani"
+ pamiri:0 "Pamiri"
  ###Saka###
  saka_g:0 "Saka"
  pashtuni:0 "Pashtuni"
@@ -133,6 +134,7 @@
  sephardi:0 "Sephardi"
  mizrahi:0 "Mizrahi"
  beta_israeli:0 "Beta Israeli"
+ bene_israeli:0 "Bene Israeli"
  kalimi:0 "Kalimi"  #Iranian Jews
  teimanim:0 "Teimani" #Yemeni Jews
  
