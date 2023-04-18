@@ -10,7 +10,7 @@ controller = SJK
 
 #Demographics
 culture = saljuqid
-religion = shiite
+religion = sunni
 
 #Development and Trade
 base_tax = 1
