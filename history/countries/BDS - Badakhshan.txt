@@ -1,7 +1,22 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = daylamite
-religion = shiite
+government_rank = 1
+primary_culture = pashtuni
+add_accepted_culture = afghani
+religion = sunni
 technology_group = iranian_tech
-capital = 4339 # Rasht
-religious_school = jafari_school
+capital = 452
+fixed_capital = 452
+
+1397.2.9 = {
+	monarch = {
+		name = "Artuk"
+		dynasty = "Artukid"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1387.7.28
+		religion = sunni
+		culture = pashtuni
+	}
+}

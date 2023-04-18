@@ -2,58 +2,20 @@ government = monarchy
 add_government_reform = iqta
 government_rank = 1
 primary_culture = daylamite
+add_accepted_culture = shirvani
 religion = shiite
 technology_group = iranian_tech
 capital = 416 # Tabriz
 
-#Tabriz Khanate
-
-1731.1.1 = {
+1412.6.17 = {
 	monarch = {
-		name = "Najaf Qoli"
-		dynasty = "Donboli"
-		adm = 2
-		dip = 3
-		mil = 3
-	}
-}
-
-1785.1.1 = {
-	monarch = {
-		name = "Khodadad"
-		dynasty = "Donboli"
+		name = "Rustam IV"
+		dynasty = "Rustamid"
 		adm = 2
 		dip = 2
-		mil = 2
-	}
-}
-
-1787.1.1 = {
-	monarch = {
-		name = "Hossein Qoli"
-		dynasty = "Donboli"
-		adm = 2
-		dip = 2 
-		mil = 1
-	}
-}
-
-1798.1.1 = {
-	monarch = {
-		name = "Jafar Qoli"
-		dynasty = "Donboli"
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-}
-
-1809.1.1 = {
-	monarch = {
-		name = "Najaf Qoli II"
-		dynasty = "Donboli"
-		adm = 2
-		dip = 2
-		mil = 2
+		mil = 4
+		birth_date = 1385.1.21
+		religion = shiite
+		culture = daylamite
 	}
 }

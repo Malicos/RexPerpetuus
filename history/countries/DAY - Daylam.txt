@@ -1,7 +1,22 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = feudal_theocracy
+government_rank = 1
 primary_culture = daylamite
+add_accepted_culture = kurdish
 religion = shiite
 technology_group = iranian_tech
-capital = 4339 # Rasht
+capital = 417 # Alamut
 religious_school = jafari_school
+
+1438.7.9 = {
+	monarch = {
+		name = "Zartosht II"
+		dynasty = "Afsharid"
+		adm = 3
+		dip = 2
+		mil = 5
+		birth_date = 1386.2.21
+		religion = shiite
+		culture = daylamite
+	}
+}

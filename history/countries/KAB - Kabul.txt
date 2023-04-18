@@ -1,7 +1,21 @@
 government = monarchy
 add_government_reform = iqta
-primary_culture = daylamite
-religion = shiite
+government_rank = 1
+primary_culture = pashtuni
+add_accepted_culture = afghani
+religion = sunni
 technology_group = iranian_tech
-capital = 4339 # Rasht
-religious_school = jafari_school
+capital = 451 # Kabul
+
+1436.11.2 = {
+	monarch = {
+		name = "Kharmandar"
+		dynasty = "Dundarid"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1422.6.11
+		religion = sunni
+		culture = pashtuni
+	}
+}
