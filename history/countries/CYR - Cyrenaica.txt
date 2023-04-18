@@ -2,17 +2,20 @@ government = monarchy
 add_government_reform = iqta
 government_rank = 1
 primary_culture = al_misr_arabic
-religion = sunni
+religion = shiite
 technology_group = muslim_tech
-capital = 356 #Benghazi
-historical_rival = MAM
+capital = 356 # Benghazi
+fixed_capital = 356
 
-1441.11.01 = {
+1402.9.30 = {
 	monarch = {
-		name = "Regency"
+		name = "Isma'îl"
+		dynasty = "Khaireddin"
 		adm = 3
 		dip = 3
-		mil = 3
-		regent = yes
+		mil = 4
+		birth_date = 1384.1.22
+		religion = shiite
+		culture = al_misr_arabic
 	}
 }

@@ -1,7 +1,21 @@
 government = monarchy
 add_government_reform = feudalism_reform
+government_rank = 2
 primary_culture = coptic_culture
 add_accepted_culture = sahidic
 religion = coptic
 technology_group = muslim_tech #Unsure on whether to change this or not
 capital = 361 # Cairo
+
+1414.5.25 = {
+	monarch = {
+		name = "Nynetjer"
+		dynasty = "Ghanemid"
+		adm = 4
+		dip = 4
+		mil = 5
+		birth_date = 1373.5.5
+		religion = coptic
+		culture = coptic_culture
+	}
+}
