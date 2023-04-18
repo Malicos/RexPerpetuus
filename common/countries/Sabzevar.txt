@@ -37,87 +37,90 @@ monarch_names = {
 	"Fariborz #1" = 10
 
 	# RANDOM NAMES - MALE
-	"Joneid #0" = 30
-	"Haidar #0" = 30
-	"Ismâ'îl #0" = 30
-	"Tamâshp #0" = 20
-	"Mohammad Kodabânda #0" = 10
-	"'Abbâs #0" = 30
-	"Safi #0" = 15
-	"Solaymân #0" = 20
-	"Hosayn #0" = 10
-	"Nâder #0 Shâh" = 10
-	"'Âdel #0 Shâh" = 10
-	"Ebrâhim #0" = 10
-	"Shâh Rukh #0" = 10
-	"Nâder Mirza #0" = 5
-	"Karim #0 Khân" = 10
-	"Abu'l Fath #0" = 10
-	"Mohammad Ali #0" = 10
-	"Mohammad Sâdiq #0" = 10
-	"'Ali Morâd #0" = 10
-	"Ja'far #0" = 10
-	"Loft Ali #0" = 10
-	"Aga Muhammad #0" = 10
-	"Fath Alî #0" = 10
-	"Najm-e #0" = 0
-	"Ahmad #0" = 0
-	"Hatem #0" = 0
-	"Shahqoli #0" = 0
-	"Rajab Ali #0" = 0
-	"Farajollah #0" = 0
-	"Amanollah #0" = 0
-	"Ebrahim #0" = 0
-	"Ali #0" = 0
-	"Allahyar #0" = 0
-	"Abdol #0" = 0
-	"Hamid #0" = 0
-	"Farid #0" = 0
-	
+	"Abdul-Aziz #0" = 20
+	"Abdul-Karim #0" = 20
+	"Abdul-Mumin #0" = 20
+	"Abdul-Rahim #0" = 20
+	"Abdulla #0" = 20
+	"Abu Said #0" = 20
+	"Abu'l-Feiz #0" = 20
+	"Abu'l-Ghazi #0" = 20
+	"Abu'l-Khayr #0" = 20
+	"Abu'l-Mansur #0" = 20
+	"Agatay #0" = 20
+	"Alim #0" = 20
+	"Anusha #0" = 20
+	"Arab Muhammad #0" = 20
+	"Avanesh #0" = 20
+	"Bahadur #0" = 20
+	"Bakht #0" = 20
+	"Baqi Muhammad #0" = 20
+	"Budjuga #0" = 20
+	"Bureke #0" = 20
+	"Daniyal #0" = 20
+	"Djuchi #0" = 20
+	"Dost #0" = 20
+	"Habash #0" = 20
+	"Hadji #0" = 20
+	"Hadji Muhammad #0" = 20
+	"Hassan Quli #0" = 20
+	"Haydar #0" = 20
+	"Imam Quli #0" = 20
+	"Ilbars #0" = 20
+	"Irdana #0" = 20
+	"Isfandiyar #0" = 20
+	"Isim #0" = 20
+	"Iskandar #0" = 20
+	"Janibek #0" = 20
+	"Kal #0" = 20
+	"Khudayar #0" = 20
+	"Khudaydad #0" = 20
+	"Kochkunju #0" = 20
+	"Muhammad #0" = 20
+	"Muhammad Amin #0" = 20
+	"Muhammad Hakim #0" = 20
+	"Muhammad Rahim #0" = 20
+	"Nadir Muhammad #0" = 20
+	"Narbuta #0" = 20
+	"Navruz Ahmad #0" = 20
+	"Niyaz #0" = 20
+	"Pir Muhammad #0" = 20
+	"Sanjar #0" = 20
+	"Sevinch #0" = 20
+	"Shadi #0" = 20
+	"Shahmurad #0" = 20
+	"Shahrukh #0" = 20
+	"Shaykh Haidar #0" = 20
+	"Subhan Quli #0" = 20
+	"Sufyan #0" = 20
+	"Suleyman #0" = 20
+	"Tahir #0" = 20
+	"Timur #0" = 20
+	"Ubaydulla #0" = 20
+	"Umar #0" = 20
+	"Vali #0" = 20
+	"Vali Muhammad #0" = 20
+	"Yadgar #0" = 20
+
 	# RANDOM NAMES - FEMALE
-	"Atiya #0" = -1
-	"Pari #0" = -1
-	"Khayr al-Nisa #0" = -1
-	"Tajlu #0" = -1
-	"Dilaram #0" = -1
-	"Shahbanu #0" = -1
-	"Razia #0" = -1
-	"Maryam #0" = -1
+	"Hooda #0" = -1
+	"Malaika #0" = -1
+	"Munira #0" = -1
+	"Rabiya #0" = -1
+	"Rafiqa #0" = -1
 }
 
-leader_names = {
-	Sabiri
-	Jalili
-	Azizi
-	Shahy
-	Daei
-	Qazai
-	Dalwand
-	Ahrari
-	Fatemi
-	Sabet
-	Ansari
+leader_names = { 
+	"Bayan Arslan" "Mongke Cheren" "Mongke Bayar" "Suren Chinua" "Oyugun Nasan"
+	"Bora Tolui" Qadancher Batulun Batutai Bokejin Arighqan Burilgiteni
+	Bayarnai Subegene Tegusdai Yekedei
 }
 
 ship_names = {
-	Abathur "Adamn Kasia" "Aesma Daeva" Agas
-	Ahriman Ahura "Ahura Mazda" Ahurani Airyaman
-	"Aka Manah" Aladdin Allatum Amashaspan Ameratat
-	"Amesha Spentas" Anahita "Angra Mainyu" Anjuman
-	"Apam-natat" Apaosa Aredvi Arishtat Armaiti Arsaces
-	"Asha vahista" Asman "Asto Vidatu" "Astvat-Ereta"
-	Atar "Azi Dahaka" Baga Bahram Burijas Bushyasta Buyasta
-	Camros Daena Daevas Ahaka Dahhak Dena Dev Diwe Drug
-	Drvaspa Frashegird Fravashis Gandarewa "Gao-kerena"
-	Gayomard Gayomart "Geus-Tasan" "Geus-Urvan" Haoma
-	Haurvatat Humay Hvar Hvarekhshaeta Indar Indra Izha
-	Jamshid Jeh Karshipta Kavi Khara "Khshathra vairya"
-	Kundrav Mah Mahre Mahrianag Manu Manuchihir Mao 
-	Mashyane Mashye Menog Mithra Nairyosangha Nanghaithya
-	Neriosang Ormazd Peris Peshdadians Rapithwin Rashnu
-	Rustam Saurva Simurgh "Spenta Mainyu" Sraosa Srosh
-	Tawrich Thunaupa Tistrya Tushnamatay Vanant Vata
-	Verethragna "Vohu Manah" Vouruskasha Yam Yasht Yazata
-	Yezidi Yima Zal Zam "Zam-Armatay" Zarathustra Zarich
-	"Zend-Avesta" Zurvan
+	Khwarezm Urganj "Din Muhammad" "Yelu Dashi"
+	Kunya "Amu Darya" "Anush Tigin" "Ala Aziz"
+	"Ahmed Sanjar" "Ala Takish" "Jaxartes"
+	"Syr Darya" "Bukhara" "Jalal Mingburnu"
+	"Abu Mamun" "Abu Hasan Ali" "Altun Yash"
+	Harun "Ismail Khandan"
 }
