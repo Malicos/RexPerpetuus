@@ -112,7 +112,7 @@
 4365 = { "Man" "Duchlass" }		#Isle of Man, Douglas
 4367 = { "Weik" "Weik" } 		#Hull, Kingston-upon-Hull, changed to Wyke as KuH does not exist without Normans
 4368 = { "Dunhoam" "Dunhoam" }		#Durham
-4370 = { "Kamtebrig" "Kamtebrig" } 		#Cambridge
+4370 = { "Kamtbrig" "Kamtbrig" } 		#Cambridge
 4375 = { "Kasterleen" "Kaster" } 		#Cheshire, Chester, ON lén is equivalent to OE scire
 4376 = { "Ledkaster" "Ledkaster" } 		#Leicester
 4785 = { "Skefelt" "Skefelt" } 		#Sheffeild
