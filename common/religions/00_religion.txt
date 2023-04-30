@@ -1808,7 +1808,7 @@ eastern = {
 	flag_emblem_index_range = { 58 80 }
 
 	buddhism = { #Theravada
-		color = { 204 76 0 }
+		color = { 225 200 50 }
 		icon = 24
 		allowed_conversion = {
 			vajrayana
@@ -2016,7 +2016,7 @@ dharmic = {
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
 
 	hinduism = {
-		color = { 245 50 20 }
+		color = { 255 0 0 }
 		icon = 8
 		allowed_conversion = {
 			sikhism
