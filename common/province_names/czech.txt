@@ -40,7 +40,7 @@
 #Poland
 263 = { "Ratibor" "Ratibor" }
 264 = { "Vratislav" "Vratislav" }
-257 = { "Hotislav" "Hotislav" }	# RP
+257 = { "Hoclav" "Hoclav" }	# RP
 2966 = { "Hlohov" "Hlohov" }
 3142 = { "Opava" "Opava" }
 4238 = { "Lehnice" "Lehnice" }
