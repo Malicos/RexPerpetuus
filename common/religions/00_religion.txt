@@ -2016,7 +2016,7 @@ dharmic = {
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
 
 	hinduism = {
-		color = { 0 204 204 }
+		color = { 245 50 20 }
 		icon = 8
 		allowed_conversion = {
 			sikhism
