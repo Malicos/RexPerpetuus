@@ -307,7 +307,7 @@ XTG = "countries/XiengThong.txt"
 # Far East
 AMD = "countries/Amdo.txt"
 BAY = "countries/Bayad.txt"
-DNH = "countries/DongNuzhen.txt"
+BHE = "countries/Balhae.txt"
 GKR = "countries/Goryeo.txt"
 KMG = "countries/Khamag.txt"
 KRT = "countries/Keraite.txt"
