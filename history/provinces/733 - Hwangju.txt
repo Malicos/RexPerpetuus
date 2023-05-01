@@ -1,8 +1,8 @@
 #733 - Hwangju
 
-owner = GKR
-controller = GKR
-add_core = GKR
+owner = BHE
+controller = BHE
+add_core = BHE
 culture = korean
 religion = mahayana
 capital = "Hwangju"

@@ -1,8 +1,8 @@
 #2744 - Nyeongbyeon
 
-owner = GKR
-controller = GKR
-add_core = GKR
+owner = BHE
+controller = BHE
+add_core = BHE
 culture = pyongan
 religion = mahayana
 capital = "Nyeongbyeon"

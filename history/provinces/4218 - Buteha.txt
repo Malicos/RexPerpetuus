@@ -1,7 +1,8 @@
 #4218 - Buteha
 
-owner = KMG
-controller = KMG
+owner = ORO
+controller = ORO
+add_core = ORO
 add_core = KMG
 culture = khamag
 religion = tengri_pagan_reformed

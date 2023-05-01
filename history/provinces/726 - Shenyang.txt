@@ -1,8 +1,8 @@
 #726 - Liaodong
 
-owner = DNH
-controller = DNH
-add_core = DNH
+owner = MJZ
+controller = MJZ
+add_core = MJZ
 culture = manchu
 religion = mahayana
 capital = "Shenyang"

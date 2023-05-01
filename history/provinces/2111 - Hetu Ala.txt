@@ -1,8 +1,9 @@
 # 2111 - Hetu Ala
 
-owner = DNH
-controller = DNH
-add_core = DNH
+owner = BHE
+controller = BHE
+add_core = BHE
+add_core = MJZ
 culture = manchu
 religion = mahayana
 capital = "Hetu Ala"

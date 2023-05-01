@@ -1,8 +1,10 @@
 # 2112 - Andong
 
-owner = SNG
-controller = SNG
+owner = BHE
+controller = BHE
+add_core = BHE
 add_core = SNG
+add_core = MJZ
 culture = manchu
 religion = mahayana
 capital = "Andong"

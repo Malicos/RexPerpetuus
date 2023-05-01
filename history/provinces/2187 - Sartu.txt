@@ -1,7 +1,8 @@
 # 2187 - Sartu
 
-owner = KMG
-controller = KMG
+owner = NHX
+controller = NHX
+add_core = NHX
 add_core = KMG
 culture = khamag
 religion = tengri_pagan_reformed

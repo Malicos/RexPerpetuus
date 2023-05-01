@@ -1,9 +1,9 @@
 #2742 - Gyeongseong
 
-owner = DNH
-controller = DNH
-add_core = DNH
-add_core = GKR
+owner = BHE
+controller = BHE
+add_core = BHE
+add_core = MJZ
 culture = manchu
 religion = mahayana
 capital = "Gyeongseong"

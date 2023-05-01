@@ -1,8 +1,8 @@
 # 2186 - Iman
 
-owner = DNH
-controller = DNH
-add_core = DNH
+owner = MJZ
+controller = MJZ
+add_core = MJZ
 add_core = EJZ
 culture = manchu
 religion = tengri_pagan_reformed
