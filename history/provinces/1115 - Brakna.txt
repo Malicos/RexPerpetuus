@@ -2,7 +2,7 @@
 
 culture = fulani
 capital = "Aligh"
-religion = shamanism #Fetishism
+religion = mande
 trade_goods = unknown
 hre = no
 base_tax = 2  

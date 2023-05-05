@@ -1,10 +1,9 @@
 government = monarchy
-add_government_reform = indian_sultanate_reform
+add_government_reform = autocracy_reform
 primary_culture = bengali
-religion = sunni
+religion = vajrayana
 technology_group = indian
 capital = 563	# Pandua
-religious_school = hanafi_school
 
 change_estate_land_share = {
 	estate = estate_church

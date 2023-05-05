@@ -3,7 +3,7 @@ add_government_reform = iqta
 government_rank = 1
 primary_culture = riffian
 add_accepted_culture = moroccan
-religion = sunni
+religion = muwalladi
 technology_group = maghrebi_tech
 capital = 4561 # Tetouan
 fixed_capital = 4561 # Cannot move capital away from this province & no power cost to move to it
@@ -16,7 +16,7 @@ fixed_capital = 4561 # Cannot move capital away from this province & no power co
 		dip = 2
 		mil = 3
 		birth_date = 1392.12.5
-		religion = sunni
+		religion = muwalladi
 		culture = riffian
 	}
 }

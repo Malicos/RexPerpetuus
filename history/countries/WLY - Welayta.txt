@@ -1,15 +1,10 @@
 government = monarchy
 add_government_reform = autocracy_reform
 primary_culture = sidamo
-religion = shamanism
+religion = waaq
 technology_group = east_african
 unit_type = sub_saharan
 capital = 2756		# Welayta
-unlock_cult = mwari_cult
-unlock_cult = central_african_ancestor_cult
-unlock_cult = cwezi_cult
-unlock_cult = christianity_cult
-unlock_cult = islam_cult
 
 1444.1.1 = {
 	monarch = {

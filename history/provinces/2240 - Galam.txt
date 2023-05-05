@@ -1,7 +1,7 @@
 # No previous file for Galam
 
 culture = fulani 
-religion = shamanism #Fetishism
+religion = mande
 capital = "Galam"
 trade_goods = unknown
 hre = no

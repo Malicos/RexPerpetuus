@@ -1,5 +1,5 @@
 culture = senegambian 
-religion = shamanism #Fetishism
+religion = mande
 capital = "Beafada"
 trade_goods = slaves
 hre = no

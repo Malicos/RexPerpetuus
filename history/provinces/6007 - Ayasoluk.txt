@@ -10,7 +10,7 @@ controller = ION
 
 #Demographics
 culture = mikrasiatic
-religion = orthodox
+religion = bogomilist
 
 #Development and Trade
 base_tax = 3
