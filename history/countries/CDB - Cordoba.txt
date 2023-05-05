@@ -3,7 +3,7 @@ add_government_reform = iqta
 government_rank = 2
 primary_culture = andalusi_culture
 add_accepted_culture = batalyawsi
-religion = muwalladi
+religion = sunni
 technology_group = maghrebi_tech
 capital = 225 # Cordoba
 
@@ -15,7 +15,7 @@ capital = 225 # Cordoba
 		dip = 1
 		mil = 5
 		birth_date = 1381.9.9
-		religion = muwalladi
+		religion = sunni
 		culture = andalusi_culture
 	}
 }
