@@ -217,10 +217,14 @@
  protestant:0 "Evangelical"
  protestant_religion_desc:1 "Evangelicalism covers a wide range of religious traditions starting with the teachings of REFORMERNAME during the reformation. They react against a number of the conventions that over time have developed in the Catholic church and the idea of a pope itself.\nIn the game Evangelicalism cover mainly countries inspired by REFORMERNAME's teachings and who have formed state churches."
  reformed_religion_desc:1 "Reformed covers a wide range of religious traditions inspired by men such as REFORMERNAME or REFORMERNAME. Generally appearing later than the religions classified as Evangelical the Reformed religion also rejects papal authority and want to return to the rules of the scriptures but unlike the Evangelicals they embrace a number of perceived more hard-line ideas such as predestination and iconoclasm and will not form state Churches."
- nahuatl:0 "Teotl"
- nahuatl_religion_desc:0 "Teotl is a Nahuatl term for sacredness or divinity, for the Mexica, who are also known as the Aztecs, Teotl is the metaphysical omnipresence upon which their religious philosophy is based. While the Pantheon and many concepts are quite similar to the Mayan religion the Mexica assign a much higher importance on the need for human sacrifice in order to survive each new cosmic cycle."
- inti:0 "Andean"
+ coptic:0 "Oriental"
+ coptic_religion_desc:0 "Oriental Christianity is a branch of Christendom that follow the Alexandrine rite and who answer to the Patriarch in Alexandria."
+ nahuatl:0 "Mexikha"
+ nahuatl_religion_desc:0 "Mexikha religion is a range of Aztlani polytheistic traditions. While the Pantheon and many concepts are quite similar to the Mayapan religion the Nahuas or Mexikha assign a much higher importance on the need for human sacrifice in order to survive each new cosmic cycle. In the game most of the area around modern central Aztlan starts out with Mexikha religion."
+ inti:0 "Inti"
  inti_religion_desc:0 "Andean religion covers a wide range of disparate faiths across the Andes with many common features. The most well known deity is Inti, the name of the sun god that the Tawantinsuyu empire promoted over all the other local Huacas.\nIn the game most of the Andes start out with the Andean religion."
+ mesoamerican_religion:0 "Mayapan"
+ 
  # Technologies
  north_american:0 "Vesperian"
  mesoamerican:0 "Mexikhan"

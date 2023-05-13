@@ -839,14 +839,15 @@
  apostolic_religion_desc:0 "Founded by the Apostles Bartholomew and Thaddeus, the Armenian Apostolic Church rapidly gained followers in the region and shepherded the Kingdom of Armenia into becoming the first state ever to adopt Christianity as its official religion."
  bogomilist:0 "Bogomilist"
  bogomilist_religion_desc:0 "Electing their spiritual leaders from amongst the general populace, Bogomils reject all worldly trappings and institutions of power, advocating instead for a return to the earlier methods of spiritual teaching practiced by Christ and his disciples."
- bosnian_church:0 "Patarene"
- bosnian_church_religion_desc:0 "The Patarenes is an umbrella term for the followers of Marko Dragičević, founder of a Slavonic religious reformation movement that united the adherents of the Catholic and Bosnian churches, and was deemed heretical by the Pope. They are a diverse group of non-conformists ranging from moderates with minor theological disagreements with Catholic doctrine to radicals who see the Catholic Church as irredeemably corrupt."
+ bosnian_church:0 "Dragicevite"
+ bosnian_church_religion_desc:0 "The Dragicevite is an umbrella term for the followers of Marko Dragičević, founder of a Slavonic religious reformation movement that united the adherents of the Catholic and Bosnian churches, and was deemed heretical by the Pope. They are a diverse group of non-conformists ranging from moderates with minor theological disagreements with Catholic doctrine to radicals who see the Catholic Church as irredeemably corrupt."
  cathar:0 "Cathar"
  cathar_religion_desc:0 "Teaching that all matter was created by Satan and is therefore inherently tainted with sin, Cathars believe that the only way to achieve salvation is to reject the materialistic world, and with it, all worldly desires."
  iconoclast:0 "Iconoclast"
  iconoclast_religion_desc:0 "Believing that any use of spiritual symbols violates the Second Commandment to not make any graven images, the Iconoclasts seek to destroy existing religious iconography and reject the creation of new ones."
  nestorian:0 "Nestorian"
  nestorian_religion_desc:0 "In teaching that Jesus Christ has two natures, one divine and one human, Nestorianism has been declared as heretical by most Christian faiths. Despite this, its unique outlook has garnered followers in places as far east as China, India, and even Zubica."
+ 
  #Muslim
  muwalladi: "Muwalladi"
  muwalladi_religion_desc: "TBD"
@@ -898,7 +899,7 @@
  MALESUNG:0 "Malesung"
  TOLOTANG:0 "Tolotang"
  MAKASSARIC:0 "Makassaric"
- polynesian_religion:0 "Tapu" #Going with AN's name
+ polynesian_religion:0 "Oceanic" 
  polynesian_religion_religion_desc:0 "TBD"
  polynesian_religion_rebels_demand:0 "Convert $COUNTRYNAME$"
  polynesian_religion_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."

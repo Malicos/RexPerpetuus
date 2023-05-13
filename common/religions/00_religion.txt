@@ -640,7 +640,7 @@ christian = {
 
 	orthodox = {
 		color = { 156 42 193 }
-		icon = 4
+		icon = 35
 		country = {
 			stability_cost_modifier = -0.1
 			tolerance_own = 1
@@ -869,7 +869,7 @@ christian = {
 	#RP Added
 	cathar = {
 		color = { 137 45 27 }
-		icon = 36
+		icon = 44
 		allow_female_defenders_of_the_faith = yes
 
 		allowed_center_conversion = {
@@ -958,7 +958,7 @@ christian = {
 	#RP Added
 	bogomilist = {
 		color = { 176 56 74 }
-		icon = 38
+		icon = 44
 		country = {
 			stability_cost_modifier = -0.1
 			tolerance_own = 1
@@ -1093,7 +1093,7 @@ christian = {
 	#RP Added
 	iconoclast = {
 		color = { 127 117 133 }
-		icon = 39
+		icon = 45
 		country = {
 			stability_cost_modifier = -0.1
 			tolerance_own = 1
@@ -1743,7 +1743,7 @@ muslim = {
 	#BT Added
 	druze = {
 		color = { 0 229 102 }
-		icon = 33
+		icon = 36
 		country = {
 			heir_chance = 1.0
 			dip_tech_cost_modifier = -0.1 # Promoted intellectualism
@@ -1765,7 +1765,7 @@ muslim = {
 	#BT Added
 	alawite = {
 		color = { 101 148 70 }
-		icon = 32
+		icon = 37
 		country = {
 			heir_chance = 1.0
 			global_spy_defence = 0.25
@@ -1799,7 +1799,7 @@ muslim = {
 	#RP Added
 	muwalladi = {
 		color = { 111 201 164 }
-		icon = 48
+		icon = 46
 		country = {
 			infantry_cost = -0.10
 			heir_chance = 1.0
@@ -1923,7 +1923,7 @@ eastern = {
 	#RP Added
 	nangchos = {
 		color = { 229 51 0 }
-		icon = 45
+		icon = 7
 		allowed_conversion = {
 			vajrayana
 			buddhism #Theravada
@@ -1954,7 +1954,7 @@ eastern = {
 
 	confucianism = {
 		color = { 214 229 140 }
-		icon = 44
+		icon = 48
 		country = {
 			tolerance_heretic = 2
 			adm_tech_cost_modifier = -0.1
@@ -1990,7 +1990,7 @@ eastern = {
 	#RP Added
 	bon = {
 		color = { 8 140 131 }
-		icon = 41
+		icon = 40
 		country = {
 			tolerance_heretic = 1
 			shock_damage_received = -0.1
@@ -2862,7 +2862,7 @@ pagan = {
 	
 	#RP Added
 	finnish_pagan_reformed = {
-		icon = 42
+		icon = 50
 		color = { 166 166 25 }
 		country = {
 			defensiveness = 0.1
@@ -2878,7 +2878,7 @@ pagan = {
 	
 	#RP Added
 	siberian_pagan_reformed = {
-		icon = 43
+		icon = 51
 		color = { 230 230 230 }
 		country = {
 			defensiveness = 0.1
@@ -2894,8 +2894,8 @@ pagan = {
 	
 	#RP Added	
 	anito = {
-		color = { 95 60 140 }
-		icon = 11
+		color = { 30 40 70 }
+		icon = 54
 		country = {
 			tolerance_own = 1
 			merchants = 1
@@ -2913,8 +2913,8 @@ pagan = {
 
 	#RP Added
 	celebic = {
-		color = { 65 25 120 }
-		icon = 11
+		color = { 45 145 200 }
+		icon = 55
 		country = {
 			merchants = 1
 			production_efficiency = 0.05
@@ -2932,8 +2932,8 @@ pagan = {
 
 	#RP Added
 	polynesian_religion = {
-		color = { 234 175 238 }
-		icon = 46
+		color = { 25 190 180 }
+		icon = 56
 		country = {
 			global_colonial_growth = 10
 			global_sailors_modifier = 0.1
@@ -2950,7 +2950,7 @@ pagan = {
 	}
 	waaq = { #Au Waaq
 		color = {  215 40 30 }
-		icon = 47
+		icon = 53
 		country = {
 			global_unrest = -1
 			tolerance_heretic = 2
@@ -2965,7 +2965,7 @@ pagan = {
 	}
 	mande = {
 		color = { 204 89 0 }
-		icon = 11
+		icon = 52
 		country = {
 			same_culture_advisor_cost = -0.15
 			manpower_in_culture_group_provinces = 0.05
@@ -3133,7 +3133,7 @@ zoroastrian_group = {
 	
 	#BT Added
 	yazidi = {
-		icon = 34
+		icon = 33
 		color = { 51 51 178 }
 		country = {
 			tolerance_own = 3 # Preoccupation with religious purity
@@ -3157,7 +3157,7 @@ zoroastrian_group = {
 	
 	#RP Added
 	manichean = {
-		icon = 40
+		icon = 38
 		color = { 0.5 0.7 0.2 }
 		country = {
 			tolerance_heathen = 2
@@ -3183,7 +3183,7 @@ mandaean_group = {
 	flag_emblem_index_range = { 110 110 }
 	
 	mandaean = {
-		icon = 35
+		icon = 34
 		color = { 188 191 170 }
 		country = {
 			tolerance_own = 2
