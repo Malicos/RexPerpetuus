@@ -4150,7 +4150,7 @@ zoroastrian_group = {
 	flag_emblem_index_range = { 110 110 }
 	zoroastrian = {
 		icon = 26
-		color = { 127 178 51 }
+		color = { 127 76 153 }
 		province = {
 			local_missionary_strength = -0.02
 		}
