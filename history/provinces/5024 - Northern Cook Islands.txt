@@ -2,7 +2,7 @@
 # No previous file for Beyond Typus province
 
 culture = polynesian
-religion = polynesian_religion
+religion = oceanic_animism
 capital = "Te Matafourua"
 trade_goods = unknown
 hre = no

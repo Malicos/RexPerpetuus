@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = tribal_despotism
 primary_culture = dagomba
-religion = mande
+religion = west_african_pagan_reformed
 technology_group = sub_saharan
 capital = 2256 #Yendi
 

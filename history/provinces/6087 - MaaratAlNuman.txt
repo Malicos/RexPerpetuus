@@ -10,7 +10,7 @@ controller = APO
 
 #Demographics
 culture = syriac_culture
-religion = orthodox
+religion = syriac
 
 #Development and Trade
 base_tax = 2

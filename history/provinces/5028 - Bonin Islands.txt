@@ -2,7 +2,7 @@
 
 capital = "Chichijima"
 culture = japanese
-religion = polynesian_religion
+religion = oceanic_animism
 trade_goods = unknown
 hre = no
 base_tax = 1 

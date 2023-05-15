@@ -1,7 +1,7 @@
  
 
 culture = maori # 1.31
-religion = polynesian_religion
+religion = oceanic_animism
 capital = "Pukekura" # ??? BT; "Kaiapoi"
 hre = no
 base_tax = 2 # BT; 1

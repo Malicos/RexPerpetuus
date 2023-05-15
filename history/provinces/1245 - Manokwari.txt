@@ -2,7 +2,7 @@
 #1245 - Manokwari
 
 culture = papuan
-religion = polynesian_religion
+religion = oceanic_animism
 capital = "Manokwari"
 trade_goods = unknown
 hre = no

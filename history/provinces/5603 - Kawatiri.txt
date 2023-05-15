@@ -6,7 +6,7 @@ latent_trade_goods = {
 }
 
 culture = maori # Brian
-religion = polynesian_religion
+religion = oceanic_animism
 capital = "Kawatiri"
 trade_goods = unknown
 hre = no

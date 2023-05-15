@@ -3,7 +3,7 @@
 government = tribal
 add_government_reform = tribal_kingdom
 primary_culture = mossi
-religion = mande
+religion = west_african_pagan_reformed
 technology_group = sub_saharan
 capital = 1137	# Niani
 

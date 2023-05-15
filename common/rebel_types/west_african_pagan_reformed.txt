@@ -1,14 +1,14 @@
 
 ######################################################################
-# Tapu rebels. Disgruntled fanatics.
+# west_african_pagan_reformed rebels. Disgruntled fanatics.
 ######################################################################
-polynesian_rebels = {
+west_african_pagan_reformed_rebels = {
 
 	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = polynesian
+	religion = west_african_pagan_reformed
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -46,7 +46,7 @@ polynesian_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = polynesian }
+			NOT = { religion = west_african_pagan_reformed }
 		}
 		modifier = {
 			factor = 0.001
@@ -91,21 +91,21 @@ polynesian_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = polynesian
-			owner = { religion = polynesian }
+			religion = west_african_pagan_reformed
+			owner = { religion = west_african_pagan_reformed }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = polynesian }
+			NOT = { religion = west_african_pagan_reformed }
 			any_neighbor_province = {
-	 			religion = polynesian
+	 			religion = west_african_pagan_reformed
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
 		modifier = {
 			factor = 5
 			has_missionary = yes
-			religion = polynesian
+			religion = west_african_pagan_reformed
 		}
 		modifier = {
 			factor = 1.5
@@ -136,9 +136,9 @@ polynesian_rebels = {
 			if = {
 				limit = {
 					OR = {
-						religion = polynesian
+						religion = west_african_pagan_reformed
 						is_reformation_center = yes
-						owner = { religion = polynesian }
+						owner = { religion = west_african_pagan_reformed }
 					}
 				}
 				add_province_modifier = {
@@ -148,11 +148,11 @@ polynesian_rebels = {
 			}
 			if = {
 				limit = {
-					NOT = { religion = polynesian }
+					NOT = { religion = west_african_pagan_reformed }
 					is_reformation_center = no
-					NOT = { owner = { religion = polynesian } }
+					NOT = { owner = { religion = west_african_pagan_reformed } }
 				}
-				change_religion = polynesian
+				change_religion = west_african_pagan_reformed
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -179,7 +179,7 @@ polynesian_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "polynesian_rebels_demand"
+	demands_description = "west_african_pagan_reformed_rebels_demand"
 	
 	# Country Scope	
 	demands_enforced_effect = {
@@ -210,7 +210,7 @@ polynesian_rebels = {
 		}
 		else_if = {
 			limit = {
-				religion = polynesian
+				religion = west_african_pagan_reformed
 			}
 			add_country_modifier = {
 				name = "religious_intolerance_enforced"
@@ -221,17 +221,17 @@ polynesian_rebels = {
 			limit = {
 				OR = {
 					religion_group = pagan
-					dominant_religion = polynesian
+					dominant_religion = west_african_pagan_reformed
 				}
-				NOT = { religion = polynesian }
+				NOT = { religion = west_african_pagan_reformed }
 			}
-			change_religion = polynesian
+			change_religion = west_african_pagan_reformed
 			force_converted = yes
 		}
 		else = { add_stability = -1 } #Should probably never get here
 		if = {
 			limit = {
-				religion = polynesian
+				religion = west_african_pagan_reformed
 				has_estate = estate_church
 				NOT = {
 					has_estate_influence_modifier = {

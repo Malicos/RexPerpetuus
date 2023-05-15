@@ -1,14 +1,14 @@
 
 ######################################################################
-# Mande rebels. Disgruntled fanatics.
+# Tapu rebels. Disgruntled fanatics.
 ######################################################################
-mande_rebels = {
+oceanic_animism_rebels = {
 
 	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = mande
+	religion = oceanic_animism
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -46,7 +46,7 @@ mande_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = mande }
+			NOT = { religion = oceanic_animism }
 		}
 		modifier = {
 			factor = 0.001
@@ -91,21 +91,21 @@ mande_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = mande
-			owner = { religion = mande }
+			religion = oceanic_animism
+			owner = { religion = oceanic_animism }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = mande }
+			NOT = { religion = oceanic_animism }
 			any_neighbor_province = {
-	 			religion = mande
+	 			religion = oceanic_animism
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
 		modifier = {
 			factor = 5
 			has_missionary = yes
-			religion = mande
+			religion = oceanic_animism
 		}
 		modifier = {
 			factor = 1.5
@@ -136,9 +136,9 @@ mande_rebels = {
 			if = {
 				limit = {
 					OR = {
-						religion = mande
+						religion = oceanic_animism
 						is_reformation_center = yes
-						owner = { religion = mande }
+						owner = { religion = oceanic_animism }
 					}
 				}
 				add_province_modifier = {
@@ -148,11 +148,11 @@ mande_rebels = {
 			}
 			if = {
 				limit = {
-					NOT = { religion = mande }
+					NOT = { religion = oceanic_animism }
 					is_reformation_center = no
-					NOT = { owner = { religion = mande } }
+					NOT = { owner = { religion = oceanic_animism } }
 				}
-				change_religion = mande
+				change_religion = oceanic_animism
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -179,7 +179,7 @@ mande_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "mande_rebels_demand"
+	demands_description = "oceanic_animism_rebels_demand"
 	
 	# Country Scope	
 	demands_enforced_effect = {
@@ -210,7 +210,7 @@ mande_rebels = {
 		}
 		else_if = {
 			limit = {
-				religion = mande
+				religion = oceanic_animism
 			}
 			add_country_modifier = {
 				name = "religious_intolerance_enforced"
@@ -221,17 +221,17 @@ mande_rebels = {
 			limit = {
 				OR = {
 					religion_group = pagan
-					dominant_religion = mande
+					dominant_religion = oceanic_animism
 				}
-				NOT = { religion = mande }
+				NOT = { religion = oceanic_animism }
 			}
-			change_religion = mande
+			change_religion = oceanic_animism
 			force_converted = yes
 		}
 		else = { add_stability = -1 } #Should probably never get here
 		if = {
 			limit = {
-				religion = mande
+				religion = oceanic_animism
 				has_estate = estate_church
 				NOT = {
 					has_estate_influence_modifier = {

@@ -1,7 +1,7 @@
  
 
 culture = polynesian
-religion = polynesian_religion
+religion = oceanic_animism
 capital = "Tarawa"
 hre = no
 base_tax = 2 # BT; 1

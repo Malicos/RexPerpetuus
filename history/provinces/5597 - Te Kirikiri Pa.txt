@@ -2,7 +2,7 @@
 #New Beyond Typus Provinces
 
 culture = maori # Brian
-religion = polynesian_religion
+religion = oceanic_animism
 capital = "Te Kirikiri Pa"
 trade_goods = unknown
 hre = no

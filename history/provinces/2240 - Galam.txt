@@ -1,7 +1,7 @@
 # No previous file for Galam
 
 culture = fulani 
-religion = mande
+religion = west_african_pagan_reformed
 capital = "Galam"
 trade_goods = unknown
 hre = no

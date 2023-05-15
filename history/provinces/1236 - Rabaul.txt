@@ -2,7 +2,7 @@
 #1236 - Rabaul
 
 culture = papuan
-religion = polynesian_religion
+religion = oceanic_animism
 capital = "Rabaul"
 trade_goods = unknown
 hre = no

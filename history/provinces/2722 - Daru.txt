@@ -2,7 +2,7 @@
 #2722 - Daru
 
 culture = papuan
-religion = polynesian_religion
+religion = oceanic_animism
 capital = "Daru"
 trade_goods = unknown
 hre = no

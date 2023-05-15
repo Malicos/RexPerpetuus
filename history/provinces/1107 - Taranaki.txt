@@ -5,7 +5,7 @@
 #controller = TNK
 #add_core = TNK
 culture = maori # 1.31
-religion = polynesian_religion
+religion = oceanic_animism
 capital = "Te Whanganui-a-Tara" # ??? BT; "Ngamotu"
 #is_city = yes
 hre = no

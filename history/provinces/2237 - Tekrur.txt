@@ -1,7 +1,7 @@
 # No previous file for Tekrur
 
 culture = fulani
-religion = mande
+religion = west_african_pagan_reformed
 capital = "Tekrur"
 trade_goods = unknown
 hre = no

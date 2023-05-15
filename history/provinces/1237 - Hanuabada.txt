@@ -2,7 +2,7 @@
 #1237 - Hanuabada
 
 culture = papuan
-religion = polynesian_religion
+religion = oceanic_animism
 capital = "Hanuabada"
 trade_goods = unknown
 hre = no
