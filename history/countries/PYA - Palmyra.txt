@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = syriac_culture
-religion = orthodox
+religion = syriac
 technology_group = muslim_tech
 capital = 405	# Palmyra
 fixed_capital = 405
@@ -15,7 +15,7 @@ fixed_capital = 405
 		dip = 4
 		mil = 4
 		birth_date = 1376.8.26
-		religion = orthodox
+		religion = syriac
 		culture = syriac_culture
 		female = yes
 	}

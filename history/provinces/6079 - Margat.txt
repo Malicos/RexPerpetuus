@@ -10,7 +10,7 @@ controller = LTK
 
 #Demographics
 culture = al_suryah_arabic
-religion = sunni
+religion = shiite
 
 #Development and Trade
 base_tax = 1

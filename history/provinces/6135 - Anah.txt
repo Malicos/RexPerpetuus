@@ -10,7 +10,7 @@ controller = SJK
 
 #Demographics
 culture = assyrian_culture
-religion = syriac
+religion = nestorian
 
 #Development and Trade
 base_tax = 1
