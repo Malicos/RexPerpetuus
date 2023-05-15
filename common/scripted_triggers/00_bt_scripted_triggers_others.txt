@@ -2956,26 +2956,3 @@ emp_brapru_rhineland_conquest_provinces = {
 		province_id = 8435
 	}
 }
-
-#Uses one of the Alawite schools:
-#Country
-has_alawite_school_trigger = {
-	OR = {
-		religious_school = {
-			group = muslim
-			school = haddadin_school
-		}
-		religious_school = {
-			group = muslim
-			school = kalbiyya_school
-		}
-		religious_school = {
-			group = muslim
-			school = khayatin_school
-		}
-		religious_school = {
-			group = muslim
-			school = matawira_school
-		}
-	}
-}
