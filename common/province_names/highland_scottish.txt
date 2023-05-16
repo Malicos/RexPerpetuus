@@ -14,7 +14,6 @@
 3019 = { "Srath Chluaidh" "Lannraig" } #(JP) Later "Glasgu" or modern "Glaschu"
 3137 = { "Rois" "Inbhir Pheofharain" }
 3138 = { "Athall" "Blàr Athall" }
-
 3139 = { "Aonghas" "Baile Fharfair" }
 4110 = { "Gallaibh" "Inbhir Ùige" }
 4361 = { "Rosbrog" "Rosbrog" } #(JP) Earlier "Roxburgh" for capital
@@ -23,7 +22,7 @@
 4364 = { "Eileanan a-Staigh" "Port an Eilein" }
 4365 = { "Manainn" "Baile a' Chaisteil" }
 8145 = { "Srath Thuaidh" "Na Pùballan" } #(JP) Capital could also be "Selkirk"
-8146 = { "An Dùn" "Na Dùintean" }
+8146 = { "Na Dùintean" "Na Dùintean" }
 8147 = { "Leamhnachd" "Dùn Breatann" }
 8148 = { "Sruighlea" "Sruighlea" }
 8149 = { "Srath Èireann" "Craoibh" }
@@ -34,6 +33,9 @@
 8154 = { "Latharna" "An t-Òban" }
 8155 = { "Loch Abar" "Inbhir Lochaidh" }
 
+#England
+8137 = { "Bearaig" "Bearaig-a-Deas" }
+
 #Ireland
 372 = { "Tìr Eoghain" "Dùn Geanainn" }
 373 = { "Baile Àth Cliath" "Baile Àth Cliath" }
@@ -41,8 +43,11 @@
 375 = { "Tuamhain" "Inis Cluana Ràmhfhada" }
 376 = { "Baile na Gailbhinn" "Baile na Gailbhinn" }
 3005 = { "Ard Mhacha" "Ard Mhacha" }
-3006 = { "Beul Feirste" "Beul Feirste" }
+3006 = { "An Dùn" "Dùn Phàdraig" }
+3008 = { "Beul Feirste" "Beul Feirste" }
+4121 = { "Aontroim" "Bun Abhann Dalla" }
 4380 = { "Tìr Chonaill" "Dùn na nGall" }
+8156 = { "Cúil Raithin" "Cúil Raithin" }
 
 #Scandinavia
 369 = { "Arcaibh" "Bàgh na h-Eaglaise" }
