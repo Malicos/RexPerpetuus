@@ -15,24 +15,24 @@
 3137 = { "Rois" "Inbhir Pheofharain" }
 3138 = { "Athall" "Blàr Athall" }
 
-3139 = { "Angus" "Forfar" }
-4110 = { "Caithness" "Wick" }
-4361 = { "Teviotdale" "Jedburgh" } #(JP) Earlier "Roxburgh" for capital
-4362 = { "Dumfries" "Dumfries" }
-4363 = { "Argyle" "Tarbert" }
-4364 = { "Inner Hebrides" "Finlaggan" }
-4365 = { "Mann" "Castletown" }
-8145 = { "Tweeddale" "Peebles" } #(JP) Capital could also be "Selkirk"
-8146 = { "The Merse" "Greenlaw" }
-8147 = { "Lennox" "Dumbarton" }
-8148 = { "Stirling" "Stirling" }
-8149 = { "Strathearn" "Crieff" }
-8150 = { "Fife" "Cupar" }
-8151 = { "Kincardine" "Kincardine" }
-8152 = { "Banff" "Banff" }
-8153 = { "Sutherland" "Dornoch" }
-8154 = { "Lorne" "Oban" }
-8155 = { "Lochaber" "Inverlochy" }
+3139 = { "Aonghas" "Baile Fharfair" }
+4110 = { "Gallaibh" "Inbhir Ùige" }
+4361 = { "Rosbrog" "Rosbrog" } #(JP) Earlier "Roxburgh" for capital
+4362 = { "Dùn Phris" "Dùn Phris" }
+4363 = { "Earra-Ghàidheal" "An Tairbeart" }
+4364 = { "Eileanan a-Staigh" "Port an Eilein" }
+4365 = { "Manainn" "Baile a' Chaisteil" }
+8145 = { "Srath Thuaidh" "Na Pùballan" } #(JP) Capital could also be "Selkirk"
+8146 = { "An Dùn" "Na Dùintean" }
+8147 = { "Leamhnachd" "Dùn Breatann" }
+8148 = { "Sruighlea" "Sruighlea" }
+8149 = { "Srath Èireann" "Craoibh" }
+8150 = { "Fìobha" "Cùbar" }
+8151 = { "Cinn Chàrdainn" "Cinn Chàrdainn" }
+8152 = { "Banbh" "Banbh" }
+8153 = { "Cataibh" "Dòrnach" }
+8154 = { "Latharna" "An t-Òban" }
+8155 = { "Loch Abar" "Inbhir Lochaidh" }
 
 #Ireland
 372 = { "Tìr Eoghain" "Dùn Geanainn" }
