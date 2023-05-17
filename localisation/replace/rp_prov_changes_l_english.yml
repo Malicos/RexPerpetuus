@@ -3,7 +3,8 @@
  # When adding an entry here, do not forget to comment any changes found in other files in replace directory to avoid clashing.
 
  # RP Province Changes
- PROV43:0 "Gdańsk"      #Polonized - Formerly Danzig
+ PROV41:0 "Twangste"      #Polonized - Formerly Danzig
+ PROV43:0 "Gdansk"      #Polonized - Formerly Danzig
  PROV47:0 "Strzalow"    #Polonized - Formerly Stralsund
  PROV48:0 "Budzistowo"      #Polonized - Formerly Kolberg
  PROV49:0 "Kostrzyn"    #Polonized - Formerly Neumark

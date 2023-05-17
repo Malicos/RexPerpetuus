@@ -8,7 +8,7 @@
 38 = { "Ryga" "Ryga" }
 39 = { "Kuldinga" "Kuldinga" }
 40 = { "Klaipeda" "Klaipeda" }
-41 = { "Karaliaucius" "Karaliaucius" }
+41 = { "Tvangyste" "Tvangyste" }
 42 = { "Varme" "Lidzbarkas" }
 43 = { "Gdanskas" "Gdanskas" }
 271 = { "Raseiniai" "Raseiniai" }
