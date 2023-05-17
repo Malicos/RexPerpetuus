@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = prussian
+primary_culture = pruthenian
 religion = catholic
 technology_group = eastern
 capital = 41 # Twangste
@@ -15,6 +15,6 @@ capital = 41 # Twangste
 		mil = 4
 		birth_date = 1428.2.3
 		religion = catholic
-		culture = prussian
+		culture = pruthenian
 	}
 }
