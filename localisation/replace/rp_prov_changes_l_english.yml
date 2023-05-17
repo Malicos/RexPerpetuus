@@ -3,7 +3,7 @@
  # When adding an entry here, do not forget to comment any changes found in other files in replace directory to avoid clashing.
 
  # RP Province Changes
- PROV41:0 "Twangste"      #Polonized - Formerly Danzig
+ PROV41:0 "Twangste"      #Old Prussian - Formerly Königsberg
  PROV43:0 "Gdansk"      #Polonized - Formerly Danzig
  PROV47:0 "Strzalow"    #Polonized - Formerly Stralsund
  PROV48:0 "Budzistowo"      #Polonized - Formerly Kolberg
@@ -44,6 +44,8 @@
  PROV7826:0 "Bytow"     #Polonized - Formerly Bütow
  PROV7827:0 "Czluchowo"     #Polonized - Formerly Schlochau
  PROV7828:0 "Puck"      #Polonized - Formerly Putzig
+ PROV7833:0 "Semba"      #Old Prussian - Formerly Sambia
+ PROV7834:0 "Tapiow"      #Old Prussian - Formerly Neuhausen
  PROV7842:0 "Gryfia"    #Polonized - Formerly Griefswald
  PROV8130:0 "Tamworth"  #Formerly Stafford
  PROV8134:0 "Whitby"    #Formerly Richmond

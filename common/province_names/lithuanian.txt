@@ -45,7 +45,7 @@
 7831 = { "Scytnas" "Scytnas" }
 7832 = { "Rynas" "Rynas" }
 7833 = { "Semba" "Skanavikas" }
-7834 = { "Romuva" "Romuva" }
+7834 = { "Tepliava" "Tepliava" }
 7835 = { "Ungura" "Ungura" }
 7836 = { "Sparge" "Sparge" } #(JP) Nadruvian castle-town, better than two Jurbarkas'
 7837 = { "Ragaine" "Ragaine" }
