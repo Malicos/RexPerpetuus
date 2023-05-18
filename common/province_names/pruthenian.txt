@@ -1,6 +1,12 @@
 #RP
 
 #Prussia
+40 = { "Nemuna" "Nemuna" }
 41 = { "Tvangste" "Tvangste" }
+3224 = { "Kirsowe" "Kirsowe" }
 7833 = { "Semba" "Skanevis" }
 7834 = { "Tapjava" "Tapjava" }
+7835 = { "Angura" "Angura" }
+7836 = { "Velowe" "Velowe" }
+7837 = { "Ragnita" "Ragnita" }
+7862 = { "Plickabartha" "Plickabartha" }

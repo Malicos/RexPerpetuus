@@ -7,7 +7,7 @@
 37 = { "Krizbarkas" "Krizbarkas" } #(JP) Attemped from Polish
 38 = { "Ryga" "Ryga" }
 39 = { "Kuldinga" "Kuldinga" }
-40 = { "Klaipeda" "Klaipeda" }
+40 = { "Nemun" "Nemun" }
 41 = { "Tvangyste" "Tvangyste" }
 42 = { "Varme" "Lidzbarkas" }
 43 = { "Gdanskas" "Gdanskas" }
@@ -22,7 +22,7 @@
 1936 = { "Kaunas" "Kaunas" }
 2958 = { "Ostruda" "Ostruda" }
 2997 = { "Tuchula" "Tuchula" } 
-3224 = { "Stalupenai" "Stalupenai" }
+3224 = { "Kirsuva" "Kirsuva" }
 3226 = { "Palanga" "Palanga" } 
 3227 = { "Piltene" "Piltene" }
 3229 = { "Vilendi" "Vilendi" }
@@ -47,8 +47,8 @@
 7833 = { "Semba" "Skanavikas" }
 7834 = { "Tepliava" "Tepliava" }
 7835 = { "Ungura" "Ungura" }
-7836 = { "Sparge" "Sparge" } #(JP) Nadruvian castle-town, better than two Jurbarkas'
-7837 = { "Ragaine" "Ragaine" }
+7836 = { "Veluva" "Veluva" }
+7837 = { "Ragneta" "Ragneta" }
 7838 = { "Gruobinia" "Gruobinia" }
 7839 = { "Vanta" "Vanta" }
 7840 = { "Kandava" "Kandava" }
@@ -71,7 +71,7 @@
 7859 = { "Telsiai" "Telsiai" }
 7860 = { "Siauliai" "Siauliai" }
 7861 = { "Vilkmerge" "Vilkmerge" }
-7862 = { "Barstynas" "Barstynas" }
+7862 = { "Plikabarta" "Plikabarta" }
 
 #Russia
 
