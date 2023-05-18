@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 165  171  115 }
+color = { 243 53 81 }
 revolutionary_colors = { 13 8 13 }
 
 historical_idea_groups = {
@@ -42,7 +42,7 @@ monarch_names = {
 	"Fabio #0" = 20
 	"Gian Galeazzo #0" = 20
 	"Giovanni Maria #0" = 20
-	"Carlo #2" = 15
+	"Carlo #0" = 15
 	"Azzone #0" = 15
 	"Filippo Maria #0" = 15
 	"Gaspare #0" = 15

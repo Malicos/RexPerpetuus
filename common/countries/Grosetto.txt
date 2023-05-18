@@ -1,6 +1,6 @@
 graphical_culture = westerngfx
 
-color = { 221  146  142 }
+color = { 123 114 64 }
 
 historical_idea_groups = {
 	administrative_ideas
@@ -33,7 +33,7 @@ monarch_names = {
 	"Cosimo #0" = 60
 	"Ferdinando #0" = 60
 	"Francesco #0" = 60
-	"Lodovico #2" = 40
+	"Lodovico #0" = 40
 	"Carlo #0 Emmanuele" = 20
 	"Carlo #0 Felice" = 20
 	"Lodovico #0 Maria" = 20
