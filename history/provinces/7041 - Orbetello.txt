@@ -1,7 +1,8 @@
 #BT Italy reoverhaul
 
-owner = CTG
-controller = CTG
+owner = PIS
+controller = PIS
+add_core = PIS
 add_core = CTG
 culture = umbrian
 religion = catholic

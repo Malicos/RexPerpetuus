@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = TUS
-controller = TUS
-add_core = TUS
+owner = LAN
+controller = LAN
+add_core = LAN
 add_core = MSM
 culture = tuscan
 religion = catholic

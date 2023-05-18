@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = PST
-controller = PST
-add_core = PST
+owner = PIS
+controller = PIS
+add_core = PIS
 culture = tuscan
 religion = catholic
 capital = "Pistoia"

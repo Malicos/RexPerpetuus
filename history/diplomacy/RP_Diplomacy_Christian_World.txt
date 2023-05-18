@@ -479,6 +479,15 @@ vassal = {
 	end_date = 1836.1.1
 }
 
+# Lombard Fief - Grosetto
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = GRO
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Papal Fief - Norcia
 vassal = {
 	subject_type = fiefdom_bt
@@ -643,17 +652,17 @@ guarantee = {
 }
 
 # Pisa and Monaco
-guarantee = {
+vassal = {
 	first = PIS
 	second = MNC
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Tuscany and Pistoia
-guarantee = {
-	first = TUS
-	second = PST
+# Pisa and Siena
+vassal = {
+	first = PIS
+	second = SIE
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
