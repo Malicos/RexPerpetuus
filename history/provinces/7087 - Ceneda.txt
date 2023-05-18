@@ -1,7 +1,8 @@
 #BT Italy reoverhaul
 
-owner = VEN
-controller = VEN
+owner = AQU
+controller = AQU
+add_core = AQU
 add_core = VEN
 culture = friulian_culture	#Appears borderline, but I think this is probably accurate enough
 religion = catholic
@@ -11,7 +12,7 @@ base_production = 5
 base_manpower = 3
 trade_goods = grain #mentioned as primarily agricultural
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim_tech

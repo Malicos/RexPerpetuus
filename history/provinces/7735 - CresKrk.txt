@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = RAG
+controller = RAG
+add_core = RAG
 add_core = CRO
 culture = istriot_culture
 religion = catholic

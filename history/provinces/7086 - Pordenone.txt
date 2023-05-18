@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = AQU
+controller = AQU
+add_core = AQU
 culture = friulian_culture
 religion = catholic
 capital = "Pordenone"
@@ -11,7 +11,7 @@ base_production = 4
 base_manpower = 2
 trade_goods = glass			#pottery. Later very important, called the Manchester of Italy
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim_tech

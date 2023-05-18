@@ -1,8 +1,8 @@
 #BT Italy reoverhaul
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = CNT
+controller = CNT
+add_core = CNT
 add_core = AQU
 culture = friulian_culture	#Appears borderline, but I think this is probably accurate enough
 religion = catholic

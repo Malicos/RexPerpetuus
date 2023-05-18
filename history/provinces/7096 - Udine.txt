@@ -1,8 +1,7 @@
 #BT Italy reoverhaul
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = AQU
+controller = AQU
 add_core = AQU
 culture = friulian_culture	#Appears borderline, but I think this is probably accurate enough
 religion = catholic
@@ -12,7 +11,7 @@ base_production = 8
 base_manpower = 5
 trade_goods = wine # Friuli wine region
 is_city = yes
-hre = no
+hre = yes
 fort_15th = yes
 
 extra_cost = 8

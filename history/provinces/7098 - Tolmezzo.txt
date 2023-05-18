@@ -1,8 +1,7 @@
 #BT Italy reoverhaul
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = AQU
+controller = AQU
 add_core = AQU
 culture = friulian_culture	#Appears borderline, but I think this is probably accurate enough
 religion = catholic
@@ -12,7 +11,7 @@ base_production = 3
 base_manpower = 2
 trade_goods = naval_supplies			#notable wood production, like Cadore. Also has lots of Livestock, and even Paper
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim_tech

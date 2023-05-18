@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Carniola
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = RAG
+controller = RAG
+add_core = RAG
 add_core = AQU
 culture = istriot_culture
 religion = catholic
