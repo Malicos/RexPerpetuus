@@ -515,6 +515,15 @@ dependency = {
 	end_date = 1836.1.1
 }
 
+# Autonomous Papal State - Cortona
+dependency = {
+	subject_type = papal_subject_bt
+	first = PAP
+	second = CTN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Autonomous Papal State - Gubbio
 dependency = {
 	subject_type = papal_subject_bt
@@ -577,10 +586,34 @@ guarantee = {
 	end_date = 1836.1.1
 }
 
+# Papal Guarantee - Molise
+guarantee = {
+	first = PAP
+	second = MLE
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Papal Guarantee - Urbino
+guarantee = {
+	first = PAP
+	second = URB
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Papal Vassal - Sovana
 vassal = {
 	first = PAP
 	second = SVN
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Papal March - Abruzzo
+march = {
+	first = PAP
+	second = ABR
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
@@ -629,22 +662,6 @@ guarantee = {
 march = {
 	first = RAV
 	second = CRP
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Ravenna and Urbino
-guarantee = {
-	first = RAV
-	second = URB
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Abruzzo and Molise
-march = {
-	first = ABR
-	second = MLE
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
