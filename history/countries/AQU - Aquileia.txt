@@ -1,5 +1,6 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = merchants_reform
+mercantilism = 25
 government_rank = 1
 primary_culture = friulian_culture
 add_accepted_culture = venetian
@@ -7,31 +8,12 @@ religion = catholic
 technology_group = western
 capital = 111	# Friuli
 
-1394.1.1 = {
+1440.1.1 = {
 	monarch = {
-		name = "Antonio I"
+		name = "Repubblica"
 		adm = 3
-		dip = 1
-		mil = 1
+		dip = 3
+		mil = 3
+		regent = yes
 	}
 }
-
-1402.1.1 = {
-	monarch = {
-		name = "Antonio II"
-		adm = 2
-		dip = 1
-		mil = 2
-	}
-}
-
-1412.1.1 = {
-	monarch = {
-		name = "Lodovico II"
-		adm = 2
-		dip = 1
-		mil = 0
-	}
-}
-
-# To Venice in 1402
