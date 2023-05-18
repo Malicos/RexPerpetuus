@@ -2,8 +2,9 @@
 #Region - Italy
 #Area - Calabria
 
-owner = CBR
-controller = CBR
+owner = TCA
+controller = TCA
+add_core = TCA
 add_core = CBR
 culture = kalabrian 
 religion = orthodox 

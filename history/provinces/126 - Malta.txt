@@ -2,9 +2,9 @@
 #Region - Italy
 #Area - Sicily
 
-owner = PIS
-controller = PIS
-add_core = PIS
+owner = TCA
+controller = TCA
+add_core = TCA
 culture = siquli_culture
 religion = sunni 
 hre = no 

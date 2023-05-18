@@ -1,6 +1,7 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = merchants_reform
 government_rank = 1
+mercantilism = 25
 technology_group = western
 religion = catholic
 primary_culture = neapolitan
@@ -9,8 +10,7 @@ fixed_capital = 121 # Napoli
 
 1440.4.1 = {
 	monarch = {
-		name = "Sergiu VIII"
-		dynasty = "Sturzo"
+		name = "Sergiu di Capua"
 		adm = 3
 		dip = 2
 		mil = 2

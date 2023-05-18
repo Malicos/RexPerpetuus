@@ -1,6 +1,7 @@
 
-owner = MHD
-controller = MHD
+owner = TCA
+controller = TCA
+add_core = TCA
 add_core = MHD
 culture = atins
 religion = catholic

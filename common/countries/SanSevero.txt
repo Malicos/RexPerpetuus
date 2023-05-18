@@ -31,15 +31,15 @@ historical_units = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Rhobert #1" = 10
-	"Sayer #1" = 10
-	"Augusta #1" = -1
-	"Meletios #1" = 10
-	"Eustathios #1" = 10
-	"Ioakim #6" = 100
-	"Pandone #3" = 60
-	"Libberiu #2" = 20
-	"Symmachos #1" = 10
+	"Rhobert #0" = 10
+	"Sayer #0" = 10
+	"Augusta #0" = -1
+	"Meletios #0" = 10
+	"Eustathios #0" = 10
+	"Ioakim #0" = 100
+	"Pandone #0" = 60
+	"Libberiu #0" = 20
+	"Symmachos #0" = 10
 
 	# RANDOM NAMES
 	"Georgios #0" = 40

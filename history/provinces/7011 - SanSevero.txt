@@ -1,7 +1,7 @@
 #BT Italy reoverhaul
-
-owner = SSV
-controller = SSV
+owner = CTA
+controller = CTA
+add_core = CTA
 add_core = SSV
 culture = griko 
 religion = orthodox

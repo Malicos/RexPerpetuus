@@ -2,8 +2,9 @@
 #Region - Italy
 #Area - Calabria
 
-owner = MTA
-controller = MTA
+owner = TCA
+controller = TCA
+add_core = TCA
 add_core = MTA
 culture = kalabrian
 religion = orthodox 

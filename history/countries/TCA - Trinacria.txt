@@ -3,6 +3,9 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 primary_culture = sicilian
+add_accepted_culture = kalabrian
+add_accepted_culture = siciliote
+add_accepted_culture = siquli_culture
 religion = catholic
 capital = 125	# Palermo
 
@@ -18,5 +21,5 @@ capital = 125	# Palermo
 		culture = sicilian
 	}
 	add_ruler_personality = tactical_genius_personality
-	add_ruler_personality = well_connected_personality
+	add_ruler_personality = tolerant_personality
 }

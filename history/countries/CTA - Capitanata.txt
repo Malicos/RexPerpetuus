@@ -1,22 +1,23 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-technology_group = western
-religion = catholic
-primary_culture = neapolitan
-add_accepted_culture = griko
-capital = 2985
+technology_group = rhomanian_tech
+primary_culture = griko
+add_accepted_culutre = kalabrian
+add_accepted_culture = neapolitan
+religion = orthodox
+capital = 2985 # Capitanata
 fixed_capital = 2985
 
-1436.10.18 = {
+1422.4.10 = {
 	monarch = {
-		name = "Sergiu"
-		dynasty = "Landolfidi"
-		adm = 1
-		dip = 1
-		mil = 3
-		birth_date = 1410.2.3
-		religion = neapolitan
-		culture = catholic
+		name = "Symmachos"
+		dynasty = "Komnenos"
+		adm = 3
+		dip = 5
+		mil = 5
+		birth_date = 1395.10.19
+		religion = orthodox
+		culture = griko
 	}
 }
