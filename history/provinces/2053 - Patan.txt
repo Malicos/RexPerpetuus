@@ -1,8 +1,8 @@
 #2053 - Patan
 
-owner = GUJ
-controller = GUJ
-add_core = GUJ
+owner = IDR
+controller = IDR
+add_core = IDR
 culture = gujarati
 religion = hinduism
 capital = "Patan"

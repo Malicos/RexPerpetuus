@@ -1,8 +1,7 @@
 #4508 - Bahawalpur
 
-owner = MAM
-controller = MAM
-add_core = MAM
+owner = MUL
+controller = MUL
 add_core = MUL
 culture = panjabi
 religion = sunni

@@ -1,8 +1,7 @@
 #4456 - Jhalavad
 
-owner = GUJ
-controller = GUJ
-add_core = GUJ
+owner = JLV
+controller = JLV
 add_core = JLV
 culture = saurashtri
 religion = hinduism

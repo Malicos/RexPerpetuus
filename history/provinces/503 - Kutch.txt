@@ -1,8 +1,8 @@
 #503 - Kutch
 
-owner = SND
-controller = SND
-add_core = SND
+owner = JLV
+controller = JLV
+add_core = JLV
 culture = saurashtri
 religion = sunni
 capital = "Lakhiyarvira"

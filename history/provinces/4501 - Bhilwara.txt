@@ -1,8 +1,7 @@
 #4501 - Bhilwara
 
-owner = MLW
-controller = MLW
-add_core = MLW
+owner = MER
+controller = MER
 add_core = MER
 culture = rajput
 religion = hinduism

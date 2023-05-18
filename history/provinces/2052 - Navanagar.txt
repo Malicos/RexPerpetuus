@@ -1,8 +1,8 @@
 #2052 - Navanagar
 
-owner = RJK
-controller = RJK
-add_core = RJK
+owner = JLV
+controller = JLV
+add_core = JLV
 culture = saurashtri
 religion = hinduism
 capital = "Nagnes"

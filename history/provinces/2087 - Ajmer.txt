@@ -1,8 +1,8 @@
 #2087 - Ajmer
 
-owner = MAW
-controller = MAW
-add_core = MAW
+owner = MER
+controller = MER
+add_core = MER
 culture = rajput
 religion = hinduism
 capital = "Ajmer"

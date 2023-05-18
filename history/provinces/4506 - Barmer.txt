@@ -1,8 +1,8 @@
 #4506 - Barmer
 
-owner = SND
-controller = SND
-add_core = SND
+owner = MAW
+controller = MAW
+add_core = MAW
 culture = rajput
 religion = sunni
 capital = "Barmer"

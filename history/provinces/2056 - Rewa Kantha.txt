@@ -1,8 +1,7 @@
 #2056 - Rewa Kantha
 
-owner = MLW
-controller = MLW
-add_core = MLW
+owner = CMP
+controller = CMP
 add_core = CMP
 culture = gujarati
 religion = hinduism
