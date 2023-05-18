@@ -33,7 +33,7 @@ historical_units = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Galasso #1" = 20
+	"Galasso #0" = 20
 
 	# RANDOM NAMES - MALE
 	"Cosimo #0" = 60
