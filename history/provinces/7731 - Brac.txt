@@ -11,7 +11,7 @@ base_production = 1
 base_manpower = 1
 trade_goods = fish #stone. Niki calls this the most important marble mine in the world.
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = KAZ
 discovered_by = CRI

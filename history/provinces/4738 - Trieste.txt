@@ -2,16 +2,15 @@
 #Region - Germany
 #Area - Carniola
 
-owner = VEN
-controller = VEN
-add_core = VEN
-add_core = AQU
+owner = TST
+controller = TST
 add_core = TST
+add_core = AQU
 culture = istriot_culture
 religion = catholic
 capital = "Trieste"
 trade_goods = naval_supplies #Major Shipbuilding Centre
-hre = no
+hre = yes
 base_tax = 7
 base_production = 7			#In the 1200s, Trieste was a centre to rival Venice, Ancona, Pisa, or Genoa, but wasn't able to maintain this influence, and was already on the decline after the Venetian occupation in 1283-1287.
 base_manpower = 3

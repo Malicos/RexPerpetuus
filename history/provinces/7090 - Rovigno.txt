@@ -12,7 +12,7 @@ base_production = 3
 base_manpower = 2
 trade_goods = fish # many small fishing towns, Istria is famous for fish delicacies. Could also be Naval Supplies
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim_tech
