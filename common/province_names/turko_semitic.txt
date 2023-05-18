@@ -1,5 +1,12 @@
 #In Beyond Typus this is now Arabic group
 
+#RP
+
+2987 = { "Urjill" "Al-Kursiyyu al-Urjill" }
+7903 = { "Tutilah" "Tutilah" } 
+8108 = { "Yaqqa" "Yaqqa" } 
+8110 = { "Al-Ayyinsah" "Al-Ayyinsah" } 
+
 #Levant
 321 = { "Limassol" "Limassol" }
 364 = { "Al-Arish" "Al-Arish" }
