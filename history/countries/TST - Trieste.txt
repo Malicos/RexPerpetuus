@@ -7,8 +7,12 @@ religion = catholic
 capital = 4738
 fixed_capital = 4738
 
-#historical_friend = XXX
-#historical_rival = XXX
-
-
-#History, currently empty.
+1440.1.1 = {
+	monarch = {
+		name = "Republic"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
