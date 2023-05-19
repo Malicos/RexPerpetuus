@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = ALB
-controller = ALB
+owner = KST
+controller = KST
+add_core = KST
 add_core = ALB
 culture = albanian
 religion = orthodox

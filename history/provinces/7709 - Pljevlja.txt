@@ -4,8 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = RSC
-controller = RSC
+owner = BUL
+controller = BUL
+add_core = BUL
 add_core = RSC
 culture = serbian
 religion = bogomilist

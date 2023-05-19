@@ -1,8 +1,8 @@
 #138 - Zeta
 
-owner = ALB
-controller = ALB
-add_core = ALB
+owner = RAG
+controller = RAG
+add_core = RAG
 add_core = RSC
 add_core = MON
 culture = serbian

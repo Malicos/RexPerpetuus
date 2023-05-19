@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = BNT
-controller = BNT
+owner = BUL
+controller = BUL
+add_core = BUL
 add_core = BNT
 add_core = SEV
 culture = transylvanian

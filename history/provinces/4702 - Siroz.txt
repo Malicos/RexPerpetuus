@@ -1,7 +1,8 @@
 #4702 - Serres
 
-owner = MDN
-controller = MDN
+owner = BUL
+controller = BUL
+add_core = BUL
 add_core = MDN
 culture = macedonian
 religion = orthodox

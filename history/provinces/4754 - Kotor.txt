@@ -1,9 +1,7 @@
 #4754 - Kotor
 
-owner = VEN
-controller = VEN
-add_core = VEN
-add_core = SER
+owner = RAG
+controller = RAG
 add_core = RAG
 culture = serbian
 religion = catholic

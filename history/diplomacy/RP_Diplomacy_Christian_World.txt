@@ -990,6 +990,15 @@ march = {
 	end_date = 1836.1.1
 }
 
+# Thessalonican Vassal - Chalkdiki
+# TODO Special religious mechanics
+vassal = {
+	first = TSL
+	second = CLD
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Thracian Vassal - Diampolis
 vassal = {
 	first = TRC
@@ -1014,14 +1023,6 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# Macedonian Vassal - Chalkdiki
-vassal = {
-	first = MDN
-	second = CLD
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Athenian Vassal - Phocis
 vassal = {
 	first = ATH
@@ -1030,10 +1031,10 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# Macedonia - Philippopolis Alliance
-alliance = {
-	first = MDN
-	second = PHP
+# Bulgarian March - Arbanon
+march = {
+	first = BUL
+	second = ALB
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }

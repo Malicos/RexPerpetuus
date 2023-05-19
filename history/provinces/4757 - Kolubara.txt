@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = SYA
-controller = SYA
+owner = BUL
+controller = BUL
+add_core = BUL
 add_core = SYA
 culture = serbian
 religion = orthodox

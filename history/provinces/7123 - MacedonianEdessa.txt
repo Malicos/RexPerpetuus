@@ -1,10 +1,11 @@
 #BT Balkans reoverhaul
 
-owner = MDN
-controller = MDN
+owner = TSL
+controller = TSL
+add_core = TSL
 add_core = MDN
 culture = macedonian
-religion = orthodox
+religion = bogomilist
 capital = "Vodena"
 base_tax = 2
 base_production = 2

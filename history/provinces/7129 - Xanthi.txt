@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = MDN
-controller = MDN
+owner = TRC
+controller = TRC
+add_core = TRC
 add_core = MDN
 culture = macedonian
 religion = orthodox

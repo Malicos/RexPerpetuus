@@ -1,7 +1,8 @@
 #3182 - BtP Province repurposed by Draiocht due to 1.19 changes
 
-owner = ALB
-controller = ALB
+owner = RAG
+controller = RAG
+add_core = RAG
 add_core = ALB
 culture = albanian
 religion = catholic

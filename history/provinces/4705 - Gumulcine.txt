@@ -1,9 +1,9 @@
 #3171 - Komotini
 
-owner = MDN
-controller = MDN
-add_core = MDN
+owner = TRC
+controller = TRC
 add_core = TRC
+add_core = MDN
 culture = thracian
 religion = orthodox
 capital = "Komotini"

@@ -1,9 +1,9 @@
 #BT Balkans reoverhaul
 
-owner = MDN
-controller = MDN
-add_core = MDN
+owner = BUL
+controller = BUL
 add_core = BUL
+add_core = MDN
 culture = moesian
 religion = orthodox
 capital = "Shtip"

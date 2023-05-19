@@ -1,9 +1,9 @@
 #BT Balkans reoverhaul
 
-owner = SCP
-controller = SCP
-add_core = SCP
+owner = BUL
+controller = BUL
 add_core = BUL
+add_core = SCP
 add_core = MDN
 culture = moesian
 religion = orthodox
