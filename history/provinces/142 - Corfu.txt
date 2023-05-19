@@ -1,8 +1,8 @@
 #142 - Corfu
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = EPI
+controller = EPI
+add_core = EPI
 add_core = CEP
 culture = epirotan
 religion = orthodox

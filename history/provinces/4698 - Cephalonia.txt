@@ -1,8 +1,8 @@
 #4698 - Cephalonia
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = AET
+controller = AET
+add_core = AET
 add_core = CEP
 culture = epirotan
 religion = orthodox

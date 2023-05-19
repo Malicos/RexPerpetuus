@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = MOE
+controller = MOE
+add_core = MOE
 add_core = EPI
 culture = epirotan
 religion = orthodox
