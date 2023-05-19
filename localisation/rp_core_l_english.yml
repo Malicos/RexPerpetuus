@@ -568,6 +568,8 @@
  ZAD_ADJ:0 "Zadarian"
  
  # Asia Minor
+ COS:0 "Chios"
+ COS_ADJ:0 "Chio"
  DDL:0 "Dardanelles"
  DDL_ADJ:0 "Dardanellian"
  GLT:0 "Galatia"
@@ -580,6 +582,8 @@
  PGI_ADJ:0 "Pegaioi"
  PHI:0 "Philadelphia"
  PHI_ADJ:0 "Philadelphian"
+ PHO:0 "Phocaea"
+ PHO_ADJ:0 "Phocaean"
  NIK:0 "Nicea"
  NIK_ADJ:0 "Nicean"
  PON:0 "Pontus"
