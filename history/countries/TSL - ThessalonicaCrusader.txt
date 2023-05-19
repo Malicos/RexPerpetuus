@@ -1,6 +1,7 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = merchants_reform
 government_rank = 1
+mercantilism = 25
 primary_culture = macedonian
 religion = bogomilist
 technology_group = rhomanian_tech
@@ -9,8 +10,7 @@ fixed_capital = 148 # Cannot move capital away from this province & no power cos
 
 1441.7.28 = {
 	monarch = {
-		name = "Megistos II"
-		dynasty = "Damokos"
+		name = "Megistos Damokos"
 		adm = 5
 		dip = 2
 		mil = 2

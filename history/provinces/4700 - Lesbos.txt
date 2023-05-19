@@ -1,11 +1,10 @@
 #4700 - Lesbos
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = LES
+controller = LES
 add_core = LES
 culture = dodecanesian
-religion = orthodox
+religion = bogomilist
 capital = "Mytilene"
 trade_goods = bt_trade_good_fruit			#good agricultural land, with olives & grains produced in relative abndance. Was also formerly fish, which makes sense for an island, too
 hre = no
@@ -20,6 +19,7 @@ is_city = yes
 1444.1.1 = { discovered_by = GOL }
 1444.1.1 = { discovered_by = AST }
 1444.1.1 = { discovered_by = QAS }
+
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
