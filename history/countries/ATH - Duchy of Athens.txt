@@ -1,6 +1,7 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = republic
+add_government_reform = merchants_reform
 government_rank = 1
+mercantilism = 25
 primary_culture = hellas_culture
 add_accepted_culture = aromanian
 religion = orthodox
@@ -10,8 +11,7 @@ fixed_capital = 146 # Cannot move capital away from this province & no power cos
 
 1413.11.20 = {
 	monarch = {
-		name = "Petros"
-		dynasty = "Theotokitis"
+		name = "Petros Theotokitis"
 		adm = 1
 		dip = 5
 		mil = 2

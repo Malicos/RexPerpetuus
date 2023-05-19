@@ -5,8 +5,8 @@
 #Core Details
 capital = "Samos"
 is_city = yes
-owner = VEN
-controller = VEN
+owner = COS
+controller = COS
 
 #Demographics
 culture = dodecanesian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = wine #(JP) Famed for its wine production
 
 #Cores and Occupation (Alphabetical after current)
-add_core = VEN
+add_core = COS
 
 #Other Political
 hre = no

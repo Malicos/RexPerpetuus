@@ -1,8 +1,7 @@
 #164 - Naxos
 
-owner = VEN
-controller = VEN
-add_core = VEN
+owner = NAX
+controller = NAX
 add_core = NAX
 culture = dodecanesian
 religion = orthodox
