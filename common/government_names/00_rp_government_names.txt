@@ -1,7 +1,7 @@
 # For specific government types
 # Will pick the first valid one it finds in list
 
-captainate = {
+gov_captainate = {
 	rank = {
 		1 = CAPTAINATE
 		2 = GRAND_CAPTAINATE
