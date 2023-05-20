@@ -5,6 +5,7 @@ technology_group = western
 religion = catholic
 primary_culture = bavarian
 capital = 1863	# Graz
+elector = yes
 
 1442.2.15 = {
 	monarch = {

@@ -7,6 +7,7 @@ technology_group = western
 capital = 266 # Praha
 add_accepted_culture = sorbian
 add_accepted_culture = bavarian			#Draiocht added, only change in this file
+elector = yes
 
 1437.5.17 = {
 	monarch = {

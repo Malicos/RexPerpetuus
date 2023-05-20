@@ -5,6 +5,7 @@ technology_group = western
 religion = catholic
 primary_culture = polabian_culture
 capital = 50 # Barlin (Berlin)
+elector = yes
 
 1426.5.7 = {
 	monarch = {

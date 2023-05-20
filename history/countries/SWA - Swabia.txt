@@ -5,6 +5,7 @@ government_rank = 1
 religion = catholic
 primary_culture = swabian
 capital = 4712	#Constance
+elector = yes
 
 1438.3.2 = {
 	monarch = {

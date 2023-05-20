@@ -5,6 +5,7 @@ primary_culture = saxon
 religion = catholic
 technology_group = western
 capital = 8292 # Neustadt
+elector = yes
 
 1414.1.19 = {
 	monarch = {
