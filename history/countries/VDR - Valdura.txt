@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = leonese
 religion = catholic
 technology_group = western
-capital = 4553 #Leon
+capital = 4553 # Zamora
 fixed_capital = 4553
 government_rank = 1
 
