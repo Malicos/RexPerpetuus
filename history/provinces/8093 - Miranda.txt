@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = LON
-controller = LON
-add_core = LON
+owner = VDR
+controller = VDR
+add_core = VDR
 culture = leonese
 religion = catholic
 capital = "Miranda"

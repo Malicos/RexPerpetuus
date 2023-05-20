@@ -82,6 +82,7 @@ SHQ = "countries/Sharq.txt"
 SHS = "countries/Shenshir.txt"
 STD = "countries/Santander.txt"
 TOM = "countries/TrasOsMontes.txt"
+VDR = "countries/Valdura.txt"
 
 # HRE
 ATB = "countries/Altenburg.txt"

@@ -2,9 +2,9 @@
 #Region - Iberia
 #Area - Leon
 
-owner = LON
-controller = LON
-add_core = LON
+owner = VDR
+controller = VDR
+add_core = VDR
 culture = leonese
 religion = catholic
 hre = no
