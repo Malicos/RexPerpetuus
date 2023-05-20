@@ -16,6 +16,7 @@
  # 6) Areas, Regions, etc.
  # 7) Colonial Regions
  # 8) Technologies
+ # 9) Governments
 
  #################################################################################
  # 1 - Start Dates
@@ -1310,3 +1311,10 @@
  southeast_asian_group_desc:0 "With the South East Asian technology group, technology levels are [PH] more expensive (placeholder percentage)."
  siberian_group:0 "Siberian"
  siberian_group_desc:0 "With the Siberian technology group, technology levels are [PH] more expensive (placeholder percentage)."
+ 
+  #################################################################################
+ # 9 - Governments
+ #################################################################################
+ CAPTAINATE:0 "Captainate"
+ GRAND_CAPTAINATE:0 "Grand Captainate"
+ ADMIRALTY:0 "Admiralty"

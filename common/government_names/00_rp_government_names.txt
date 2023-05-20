@@ -5,19 +5,19 @@ gov_captainate = {
 	rank = {
 		1 = CAPTAINATE
 		2 = GRAND_CAPTAINATE
-		3 = GREAT_CAPTAINATE
+		3 = ADMIRALTY
 	}
 	
 	ruler_male = {
 		1 = CAPTAIN
 		2 = GRAND_CAPTAIN
-		3 = GREAT_CAPTAIN
+		3 = GRAND_ADMIRAL
 	}
 	
 	ruler_female = {
-		1 = CAPTAIN
-		2 = GRAND_CAPTAIN
-		3 = GREAT_CAPTAIN
+		1 = CAPTAIN_fem
+		2 = GRAND_CAPTAIN_fem
+		3 = ADMIRAL_fem
 	}
 	
 	trigger = {
