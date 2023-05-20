@@ -1,0 +1,27 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+captainate = {
+	rank = {
+		1 = CAPTAINATE
+		2 = GRAND_CAPTAINATE
+		3 = GREAT_CAPTAINATE
+	}
+	
+	ruler_male = {
+		1 = CAPTAIN
+		2 = GRAND_CAPTAIN
+		3 = GREAT_CAPTAIN
+	}
+	
+	ruler_female = {
+		1 = CAPTAIN
+		2 = GRAND_CAPTAIN
+		3 = GREAT_CAPTAIN
+	}
+	
+	trigger = {
+		tag = CTA
+		government = monarchy
+	}
+}
