@@ -10,7 +10,7 @@ controller = SLA
 
 #Demographics
 culture = croatian
-religion = bosnian_church
+religion = hussite
 
 #Development and Trade
 base_tax = 1
