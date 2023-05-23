@@ -1,8 +1,8 @@
 #517 - Surat (Surat, Rander)
 
-owner = DEC
-controller = DEC
-add_core = DEC
+owner = GUJ
+controller = GUJ
+add_core = GUJ
 culture = gujarati
 religion = hinduism
 capital = "Surat"
