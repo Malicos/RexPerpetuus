@@ -49,13 +49,13 @@ monarch_names = {
 	"Frédéric #1" = 5
 
 	# RULER NAMES - MALE
-	"Johann #1" = 20
-	"Wenzel #1" = 20
+	"Johann #0" = 20
+	"Wenzel #0" = 20
 	"Anton #0" = 20
 	"Jobst #0" = 20
 	"Sigmund #0" = 20
-	"Karl #1" = 5
-	"Wilhelm #1" = 5
+	"Karl #0" = 5
+	"Wilhelm #0" = 5
 	"Albrecht #0" = 0
 	"Andreas #0" = 0
 	"Bernhard #0" = 0
