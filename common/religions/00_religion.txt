@@ -642,8 +642,8 @@ christian = {
 	#	fervor = yes
 	#}
 
-	# RP Added
-	regist = {
+	# RP: Regist
+	anglican = {
 		color = { 135 77 255 }
 		icon = 35
 		allow_female_defenders_of_the_faith = yes
@@ -676,8 +676,8 @@ christian = {
 		date = 1534.11.3 # act of supremacy
 	}
 
-	# RP Added	
-	bosnian_church = {
+	# RP: Dragicevite
+	hussite = {
 		color = { 153 117 134 }
 		icon = 37
 
@@ -712,13 +712,13 @@ christian = {
 		heretic = { TABORITE UTRAQUIST ORPHAN }
 	}
 	
-	reclamist = {
+	#RP: Reclamist
+	protestant = {
 		color = { 28 69 135 }
 		icon = 2
 
 		allowed_conversion = {
-			#reformed
-			confederate
+			reformed
 			catholic
 		}
 		allowed_center_conversion = {
@@ -756,13 +756,13 @@ christian = {
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
 				can_have_center_of_reformation_trigger = {
-					RELIGION = reclamist
+					RELIGION = protestant
 				}
 			}
 		}
 
 		on_convert = {
-			change_religion = reclamist
+			change_religion = protestant
 			add_prestige = -100
 			remove_country_modifier = counter_reformation
 			remove_country_modifier = the_statue_in_restraint_of_appeals
@@ -779,7 +779,7 @@ christian = {
 					NOT = {
 						calc_true_if = {
 							all_province = {
-								religion = reclamist
+								religion = protestant
 								is_reformation_center = yes
 							}
 							amount = 5			#BT increased to 5 CoR to accomodate the increased number of provinces & tags
@@ -790,11 +790,11 @@ christian = {
 					random_owned_province = {
 						limit = {
 							can_have_center_of_reformation_trigger = {
-								RELIGION = reclamist
+								RELIGION = protestant
 							}
 						}
-						change_religion = reclamist
-						add_reform_center = reclamist
+						change_religion = protestant
+						add_reform_center = protestant
 					}
 				}
 				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
@@ -805,7 +805,7 @@ christian = {
 					NOT = {
 						calc_true_if = {
 							all_province = {
-								religion = reclamist
+								religion = protestant
 								is_reformation_center = yes
 							}
 							amount = 5			#BT increased to 5 CoR to accomodate the increased number of provinces & tags
@@ -817,11 +817,11 @@ christian = {
 					random_owned_province = {
 						limit = {
 							can_have_center_of_reformation_trigger = {
-								RELIGION = reclamist
+								RELIGION = protestant
 							}
 						}
-						change_religion = reclamist
-						add_reform_center = reclamist
+						change_religion = protestant
+						add_reform_center = protestant
 					}
 				}
 				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
@@ -851,13 +851,12 @@ christian = {
 		date = 1517.10.31
 	}
 
-	# RP Added
-	confederate = {
+	# RP: Confederate
+	reformed = {
 		color = { 42 125 188 }
 		icon = 36
 		allowed_conversion = {
-			#protestant
-			reclamist
+			protestant
 			catholic
 		}
 		allowed_center_conversion = {
@@ -876,13 +875,13 @@ christian = {
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
 				can_have_center_of_reformation_trigger = {
-					RELIGION = confederate
+					RELIGION = reformed
 				}
 			}
 		}
 		
 		on_convert = {
-			change_religion = confederate
+			change_religion = reformed
 			add_prestige = -100
 			remove_country_modifier = counter_reformation
 			remove_country_modifier = the_statue_in_restraint_of_appeals
@@ -899,7 +898,7 @@ christian = {
 					NOT = {
 						calc_true_if = {
 							all_province = {
-								religion = confederate
+								religion = reformed
 								is_reformation_center = yes
 							}
 							amount = 5			#BT increased to 5 CoR to accomodate the increased number of provinces & tags
@@ -910,11 +909,11 @@ christian = {
 					random_owned_province = {
 						limit = {
 							can_have_center_of_reformation_trigger = {
-								RELIGION = confederate
+								RELIGION = reformed
 							}
 						}
-						change_religion = confederate
-						add_reform_center = confederate
+						change_religion = reformed
+						add_reform_center = reformed
 					}
 				}
 				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
@@ -925,7 +924,7 @@ christian = {
 					NOT = {
 						calc_true_if = {
 							all_province = {
-								religion = confederate
+								religion = reformed
 								is_reformation_center = yes
 							}
 							amount = 5			#BT increased to 5 CoR to accomodate the increased number of provinces & tags
@@ -937,11 +936,11 @@ christian = {
 					random_owned_province = {
 						limit = {
 							can_have_center_of_reformation_trigger = {
-								RELIGION = confederate
+								RELIGION = reformed
 							}
 						}
-						change_religion = confederate
-						add_reform_center = confederate
+						change_religion = reformed
+						add_reform_center = reformed
 					}
 				}
 				custom_tooltip = CENTER_OF_REFORMATION_POSSIBLE
@@ -2452,8 +2451,7 @@ dharmic = {
 		color = { 230 51 77 }
 		icon = 8
 		allowed_conversion = {
-			#sikhism
-			ilahi
+			sikhism
 		}
 		country = {
 			tolerance_heathen = 1
@@ -3084,8 +3082,8 @@ dharmic = {
 	#	}
 	#}
 	
-	#RP added
-	ilahi = {
+	#RP: Ilahi
+	sikhism = {
 		color = { 0 153 153 }
 		icon = 45
 		allowed_conversion = {
