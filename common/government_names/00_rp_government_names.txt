@@ -5,23 +5,23 @@ gov_captainate = {
 	rank = {
 		1 = CAPTAINATE
 		2 = GRAND_CAPTAINATE
-		3 = ADMIRALTY
+		3 = GRAND_CAPTAINATE
 	}
 	
 	ruler_male = {
 		1 = CAPTAIN
 		2 = GRAND_CAPTAIN
-		3 = GRAND_ADMIRAL
+		3 = GRAND_CAPTAIN
 	}
 	
 	ruler_female = {
 		1 = CAPTAIN_fem
 		2 = GRAND_CAPTAIN_fem
-		3 = ADMIRAL_fem
+		3 = GRAND_CAPTAIN_fem
 	}
 	
 	trigger = {
 		tag = CTA
-		government = monarchy
+		NOT = { government = theocracy }
 	}
 }
