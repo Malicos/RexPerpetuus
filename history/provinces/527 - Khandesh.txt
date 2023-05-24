@@ -1,8 +1,7 @@
 #527 - Khandesh
 
-owner = MAR
-controller = MAR
-add_core = MAR
+owner = KHD
+controller = KHD
 add_core = KHD
 culture = marathi
 religion = hinduism

@@ -1,8 +1,8 @@
 #4444 - Manidurg
 
-owner = CHD
-controller = CHD
-add_core = CHD
+owner = GOC
+controller = GOC
+add_core = GOC
 culture = telegu
 religion = hinduism
 capital = "Manidurg"

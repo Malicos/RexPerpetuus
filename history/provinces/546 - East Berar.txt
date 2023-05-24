@@ -1,8 +1,8 @@
 #546 - East Berar / Nagpur
 
-owner = CHD
-controller = CHD
-add_core = CHD
+owner = BRR
+controller = BRR
+add_core = BRR
 culture = gondi
 religion = hinduism
 capital = "Wairagarh"

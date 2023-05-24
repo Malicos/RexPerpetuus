@@ -1,8 +1,8 @@
 #4425 - Kondavidu
 
-owner = WGL
-controller = WGL
-add_core = WGL
+owner = DEC
+controller = DEC
+add_core = DEC
 culture = telegu
 religion = jain
 capital = "Kondavidu"

@@ -1,8 +1,8 @@
 #4443 - Karanja
 
-owner = MAR
-controller = MAR
-add_core = MAR
+owner = BRR
+controller = BRR
+add_core = BRR
 culture = marathi
 religion = hinduism
 capital = "Karanja"

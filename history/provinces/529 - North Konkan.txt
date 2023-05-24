@@ -1,8 +1,8 @@
 #529 - North Konkan (Thana, Mahim, Bombay, Bassein, up to Daman)
 
-owner = DEC
-controller = DEC
-add_core = DEC
+owner = AHM
+controller = AHM
+add_core = AHM
 culture = marathi
 religion = hinduism
 capital = "Thana"

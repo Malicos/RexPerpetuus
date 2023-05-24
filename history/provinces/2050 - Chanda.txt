@@ -1,8 +1,8 @@
 #2050 - Chanda
 
-owner = CHD
-controller = CHD
-add_core = CHD
+owner = BRR
+controller = BRR
+add_core = BRR
 culture = gondi
 religion = hinduism
 capital = "Ballarsah"

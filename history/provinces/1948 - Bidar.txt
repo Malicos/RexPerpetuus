@@ -1,8 +1,8 @@
 #1948 - Bidar
 
-owner = DEC
-controller = DEC
-add_core = DEC
+owner = GOC
+controller = GOC
+add_core = GOC
 culture = kannada
 religion = hinduism
 capital = "Bidar"

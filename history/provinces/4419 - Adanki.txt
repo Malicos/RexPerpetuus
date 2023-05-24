@@ -1,8 +1,8 @@
 #4419 - Adanki
 
-owner = WGL
-controller = WGL
-add_core = WGL
+owner = DEC
+controller = DEC
+add_core = DEC
 culture = telegu
 religion = hinduism
 capital = "Adanki"

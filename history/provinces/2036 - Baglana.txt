@@ -1,8 +1,8 @@
 #2036 - Baglana
 
-owner = DEC
-controller = DEC
-add_core = DEC
+owner = KHD
+controller = KHD
+add_core = KHD
 culture = marathi
 religion = hinduism
 capital = "Mayuragiri"

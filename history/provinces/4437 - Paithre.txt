@@ -1,8 +1,8 @@
 #4437 - Paithre
 
-owner = MAR
-controller = MAR
-add_core = MAR
+owner = AHM
+controller = AHM
+add_core = AHM
 culture = marathi
 religion = hinduism
 capital = "Paithre"

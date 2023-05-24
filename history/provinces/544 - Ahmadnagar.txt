@@ -1,8 +1,8 @@
 #544 - Ahmednagar
 
-owner = DEC
-controller = DEC
-add_core = DEC
+owner = AHM
+controller = AHM
+add_core = AHM
 culture = marathi
 religion = hinduism
 capital = "Ahmednagar"
