@@ -329,4 +329,6 @@ MGM = "countries/Mogami.txt"
 NGO = "countries/Nagao.txt"
 
 # India
-WGL = "countries/Warangal.txt"
+BIH = "countries/Bihar.txt"
+GAD = "countries/Gauda.txt"
+PGJ = "countries/Prayagraj.txt"

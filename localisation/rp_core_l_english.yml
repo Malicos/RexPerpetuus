@@ -839,8 +839,12 @@
  NGO_ADJ:0 "Nagao" 
  
  # India
- WGL:0 "Warangal"
- WGL_ADJ:0 "Warangali"
+ BIH:0 "Bihar"
+ BIH_ADJ:0 "Bihari"
+ GAD:0 "Gauda"
+ GAD_ADJ:0 "Gaudi"
+ PGJ:0 "Prayagraj"
+ PGJ_ADJ:0 "Prayagraji"
  
  #################################################################################
  # 4 - Religions
