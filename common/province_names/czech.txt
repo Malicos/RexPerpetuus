@@ -10,6 +10,7 @@
 4709 = { "Pasov" "Pasov" }
 4724 = { "Chrudim" "Chrudim" }
 4726 = { "Prerov" "Prerov" }
+8454 = { "Novy Hrad" "Novy Hrad" } 		#Translated from German for RP
 8459 = { "Kouba" "Kouba" }
 8470 = { "Vitoraz" "Vitoraz" }
 8471 = { "Bejdov" "Bejdov" }

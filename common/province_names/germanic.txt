@@ -1142,7 +1142,7 @@
 8030 = { "Luseul" "Luseul" }
 #8031
 8421 = { "Langich" "Langich" }
-#8422 #Bourmont
+8422 = { "Burgberg" "Burgberg" } #Translation for RP
 8423 = { "Sankt Didel" "Sankt Didel" }
 8424 = { "Busendorf" "Busendorf" }
 
