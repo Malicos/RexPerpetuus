@@ -1,8 +1,8 @@
 #530 - South Konkan (Dabhol, Rajapur, up to and including Bankot)
 
-owner = DEC
-controller = DEC
-add_core = DEC
+owner = GOA
+controller = GOA
+add_core = GOA
 culture = marathi
 religion = hinduism
 capital = "Dabhol"

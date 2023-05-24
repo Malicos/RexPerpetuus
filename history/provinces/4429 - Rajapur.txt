@@ -1,8 +1,8 @@
 #4429 - Rajapur
 
-owner = DEC
-controller = DEC
-add_core = DEC
+owner = GOA
+controller = GOA
+add_core = GOA
 culture = marathi
 religion = jain
 capital = "Rajapur"

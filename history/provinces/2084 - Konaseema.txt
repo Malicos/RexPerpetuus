@@ -1,8 +1,8 @@
 #2084 - Konaseema
 
-owner = WGL
-controller = WGL
-add_core = WGL
+owner = VED
+controller = VED
+add_core = VED
 culture = telegu
 religion = hinduism
 capital = "Rajahmundry"

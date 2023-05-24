@@ -1,8 +1,8 @@
 #2030 - Goa
 
-owner = DEC
-controller = DEC
-add_core = DEC
+owner = GOA
+controller = GOA
+add_core = GOA
 culture = marathi
 religion = hinduism
 capital = "Goa"
