@@ -331,5 +331,6 @@ NGO = "countries/Nagao.txt"
 # India
 BIH = "countries/Bihar.txt"
 GAD = "countries/Gauda.txt"
+GOA = "countries/Goa.txt"
 PGJ = "countries/Prayagraj.txt"
 VED = "countries/Velanadu.txt"
