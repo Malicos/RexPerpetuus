@@ -3,6 +3,8 @@
  # Country tags
  AFG:0 "Kabulistan"
  AFG_ADJ:0 "Kabulian"
+ AHM:0 "Bhingar"
+ AHM_ADJ:0 "Bhingari" 
  ALB:0 "Arbanon"
  ALB_ADJ:0 "Arberian"
  AZT:0 "Mexikha"
@@ -27,6 +29,8 @@
  GUY_ADJ:0 "Guyennese"
  INC:0 "Tawantinsuyu"
  INC_ADJ:0 "Runa"
+ JML:0 "Baisi Rajya"
+ JML_ADJ:0 "Baisi Rajyan"
  KAS:0 "Kashgaria"
  KAS_ADJ:0 "Kashgar"
  LCA:0 "Lancashire"
