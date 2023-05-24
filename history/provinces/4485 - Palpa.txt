@@ -1,8 +1,8 @@
 #4485 - Palpa
 
-owner = GRK
-controller = GRK
-add_core = GRK
+owner = NPL
+controller = NPL
+add_core = NPL
 culture = nepali
 religion = vajrayana
 capital = "Palpa"

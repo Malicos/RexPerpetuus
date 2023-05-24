@@ -1,8 +1,8 @@
 #4484 - Morang
 
-owner = LWA
-controller = LWA
-add_core = LWA
+owner = NPL
+controller = NPL
+add_core = NPL
 culture = nepali
 religion = vajrayana
 capital = "Rangeli"

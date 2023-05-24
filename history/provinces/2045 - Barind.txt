@@ -1,8 +1,8 @@
 #2045 - Barind
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = KMT
+controller = KMT
+add_core = KMT
 culture = kochi
 religion = vajrayana
 capital = "Rangpur"

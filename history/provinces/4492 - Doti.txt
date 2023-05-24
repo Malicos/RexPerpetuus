@@ -1,7 +1,8 @@
 #4492 - Doti
 
-owner = DTI
-controller = DTI
+owner = JML
+controller = JML
+add_core = JML
 add_core = DTI
 culture = nepali
 religion = hinduism

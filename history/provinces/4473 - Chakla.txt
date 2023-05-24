@@ -1,8 +1,8 @@
 #4473 - Chakla #Tripuran Plains Region
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = TPR
+controller = TPR
+add_core = TPR
 culture = chin
 religion = hinduism
 capital = "Chakla"

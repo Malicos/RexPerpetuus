@@ -1,8 +1,8 @@
 #2046 - Nasirabad
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = KMT
+controller = KMT
+add_core = KMT
 culture = bengali
 religion = vajrayana
 capital = "Nasirabad"

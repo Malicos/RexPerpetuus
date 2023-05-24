@@ -1,8 +1,8 @@
 #4484 - Makwanpur
 
-owner = KTU
-controller = KTU
-add_core = KTU
+owner = NPL
+controller = NPL
+add_core = NPL
 add_core = MKP
 culture = nepali
 religion = vajrayana

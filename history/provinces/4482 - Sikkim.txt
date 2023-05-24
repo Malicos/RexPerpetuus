@@ -1,8 +1,8 @@
 #4482 - Sikkim
 
-owner = LWA
-controller = LWA
-add_core = LWA
+owner = NPL
+controller = NPL
+add_core = NPL
 add_core = SKK
 culture = nepali
 religion = vajrayana
