@@ -37,16 +37,16 @@ monarch_names = {
 	"Siegfried #1" = 5
 	"Heinrich #2" = 20
 	"Giselbert #1" = 5
-	"Emund #1" = 5
+	"Aumund #1" = 5
 	"Konrad #2" = 20
 	"Hartmann #4" = 80
 	"Hemma #1" = -1
-	"Manfred #1" = 5
+	"Manfried #1" = 5
 	"Ludwig #1" = 5
-	"Martin #1" = 5
-	"Stephen #1" = 5
-	"Archambaud #1" = 5
-	"Frédéric #1" = 5
+	"Mahrzen #1" = 5
+	"Steffen #1" = 5
+	"Erchenbold #1" = 5
+	"Friedrich #1" = 5
 
 	# RULER NAMES - MALE
 	"Johann #0" = 20

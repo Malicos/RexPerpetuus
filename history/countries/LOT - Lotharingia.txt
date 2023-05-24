@@ -10,7 +10,7 @@ elector = yes
 
 1414.3.8 = {
 	monarch = {
-		name = "Frédéric"
+		name = "Friedrich"
 		dynasty = "Salian"
 		adm = 5
 		dip = 5
