@@ -1,8 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
-primary_culture = lorraine_culture
-add_accepted_culture = luxembourgish_culture
+primary_culture = luxembourgish_culture
+add_accepted_culture = hessian
+add_accepted_culture = lorraine_culture
 religion = catholic
 technology_group = western
 capital = 1878	# Aachen
