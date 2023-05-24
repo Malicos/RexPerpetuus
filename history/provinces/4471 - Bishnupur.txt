@@ -1,8 +1,8 @@
 # 4471 - Bishnupur
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = NGP
+controller = NGP
+add_core = NGP
 culture = bengali
 religion = vajrayana
 capital = "Bishnupur"

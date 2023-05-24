@@ -1,8 +1,8 @@
 #4469 - Rohtas
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = NGP
+controller = NGP
+add_core = NGP
 culture = bihari
 religion = hinduism
 capital = "Rohtasgarh"

@@ -1,8 +1,8 @@
 #2047 - Tirhut
 
-owner = TRT
-controller = TRT
-add_core = TRT
+owner = BIH
+controller = BIH
+add_core = BIH
 culture = bihari
 religion = vajrayana
 capital = "Sugauna"

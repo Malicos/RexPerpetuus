@@ -1,8 +1,8 @@
 #558 - Patna
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = BIH
+controller = BIH
+add_core = BIH
 culture = bihari
 religion = hinduism
 capital = "Patna"

@@ -1,8 +1,8 @@
 #550 - Mahakoshal
 
-owner = PAN
-controller = PAN
-add_core = PAN
+owner = KLP
+controller = KLP
+add_core = KLP
 culture = gondi
 religion = hinduism
 capital = "Garha"

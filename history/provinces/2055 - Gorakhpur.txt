@@ -1,8 +1,8 @@
 #2055 - Gorakhpur
 
-owner = TRT
-controller = TRT
-add_core = TRT
+owner = BIH
+controller = BIH
+add_core = BIH
 culture = bihari
 religion = hinduism
 capital = "Gorakhpur"

@@ -1,8 +1,8 @@
 #4496 - Kora
 
-owner = ODH
-controller = ODH
-add_core = ODH
+owner = PGJ
+controller = PGJ
+add_core = PGJ
 culture = avadhi
 religion = hinduism
 capital = "Kora"

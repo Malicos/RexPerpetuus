@@ -1,8 +1,8 @@
 #4468 - Bandogarh
 
-owner = PAN
-controller = PAN
-add_core = PAN
+owner = KLP
+controller = KLP
+add_core = KLP
 culture = vindhyan
 religion = hinduism
 capital = "Bandogarh"

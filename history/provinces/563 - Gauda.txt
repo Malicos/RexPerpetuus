@@ -1,8 +1,8 @@
 #563 - Gauda
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = GAD
+controller = GAD
+add_core = GAD
 culture = bengali
 religion = vajrayana
 capital = "Pandua"

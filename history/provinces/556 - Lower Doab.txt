@@ -1,8 +1,8 @@
 #556 - Lower Doab
 
-owner = JNP
-controller = JNP
-add_core = JNP
+owner = PGJ
+controller = PGJ
+add_core = PGJ
 culture = avadhi
 religion = hinduism
 capital = "Allahabad"

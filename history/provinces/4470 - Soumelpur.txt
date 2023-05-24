@@ -1,8 +1,8 @@
 #4470 - Soumelpur
 
-owner = NGP
-controller = NGP
-add_core = NGP
+owner = SBP
+controller = SBP
+add_core = SBP
 culture = jharkhandi
 religion = hinduism
 capital = "Soumelpur"

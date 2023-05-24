@@ -1,8 +1,8 @@
 #2095 - Varanasi
 
-owner = JNP
-controller = JNP
-add_core = JNP
+owner = BIH
+controller = BIH
+add_core = BIH
 culture = bihari
 religion = hinduism
 capital = "Varanasi"

@@ -1,8 +1,8 @@
 #4459 - Saugor
 
-owner = PAN
-controller = PAN
-add_core = PAN
+owner = KLP
+controller = KLP
+add_core = KLP
 culture = gondi
 religion = nestorian
 capital = "Saugor"

@@ -1,8 +1,7 @@
 #2043 - Balasore
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = ORI
+controller = ORI
 add_core = ORI
 culture = oriya
 religion = hinduism

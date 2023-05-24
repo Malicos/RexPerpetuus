@@ -1,8 +1,8 @@
 #2103 - Khurda (Orissa Tributary States)
 
-owner = GRJ
-controller = GRJ
-add_core = GRJ
+owner = ORI
+controller = ORI
+add_core = ORI
 culture = garjati
 religion = hinduism
 capital = "Khurda"
