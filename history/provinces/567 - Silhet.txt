@@ -1,8 +1,8 @@
 #567 - Sylhet
 
-owner = BNG
-controller = BNG
-add_core = BNG
+owner = KAC
+controller = KAC
+add_core = KAC
 culture = bengali
 religion = hinduism
 capital = "Sylhet"

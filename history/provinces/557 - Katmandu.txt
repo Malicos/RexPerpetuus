@@ -1,8 +1,8 @@
 #557 - Katmandu
 
-owner = KTU
-controller = KTU
-add_core = KTU
+owner = NPL
+controller = NPL
+add_core = NPL
 culture = nepali
 religion = vajrayana
 capital = "Kathmandu"
