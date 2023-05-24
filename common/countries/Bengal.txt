@@ -2,7 +2,7 @@
 
 graphical_culture = indiangfx
 
-color = { 30 180 180 }
+color = { 219 177 87 }
 
 historical_idea_groups = {
 	trade_ideas

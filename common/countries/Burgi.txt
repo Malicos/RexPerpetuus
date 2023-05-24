@@ -2,9 +2,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 187 0 0 }
-
-historical_score = 270
+color = { 49 13 22 }
 
 historical_idea_groups = {
 	maritime_ideas
