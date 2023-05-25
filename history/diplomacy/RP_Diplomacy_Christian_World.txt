@@ -1047,6 +1047,14 @@ vassal = {
 	end_date = 1836.1.1
 }
 
+# Ragusa Vassal - Montenegro
+vassal = {
+	first = RAG
+	second = MON
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 ####################################################################
 # 10 - Hungary
 ####################################################################
@@ -1060,9 +1068,25 @@ vassal = {
 }
 
 # Hungary and Transylvania
-march = {
+vassal = {
 	first = HUN
 	second = TRA
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Hungary and Felvidek
+march = {
+	first = HUN
+	second = UHU
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Hungary and Szeklerland
+march = {
+	first = HUN
+	second = SZE
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }

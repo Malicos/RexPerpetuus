@@ -1,9 +1,7 @@
 #138 - Zeta
 
-owner = RAG
-controller = RAG
-add_core = RAG
-add_core = RSC
+owner = MON
+controller = MON
 add_core = MON
 culture = serbian
 religion = orthodox
