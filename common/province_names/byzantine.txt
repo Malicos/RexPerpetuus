@@ -574,6 +574,7 @@
 7011 = { "Gargaros" "Sipous" } #San Severo 
 123 = { "Kalavrìa" "Rhegion" } #Reggio Calabria
 7003 = { "Kroton" "Kroton" } #Crotone
+2983 = { "Salernon" "Salernon" } #Salerno, RP, from Latin Salernum
 2984 = { "Sybaris" "Sybaris" } #Sibari
 7004 = { "Loukania" "Siris" } #Matera
 1934 = { "Potentia" "Potentia" } #Potenza
