@@ -5,6 +5,7 @@
 
 #Scotland
 246 = { "Tuath air an Abhainn" "An Caisteal Nuadh" }		#North of the Humber/River (Humber's Celtic name is attested as Proto-Celtic Abu by Ptolemy)
+247 = { "Tìr na Comhbhrugh" "Cathair Lughall" }
 248 = { "Lodainn" "Dùn Èideann" }
 249 = { "Inbhir Àir" "Inbhir Àir" }
 250 = { "Peairt" "Peairt" }
