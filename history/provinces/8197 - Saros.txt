@@ -5,8 +5,8 @@
 #Core Details
 capital = "Eperjes"
 is_city = yes
-owner = HUN
-controller = HUN
+owner = UHU
+controller = UHU
 
 #Demographics
 culture = slovak
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = salt
 
 #Cores and Occupation (Alphabetical after current)
-add_core = HUN
 add_core = UHU
 
 #Other Political
@@ -44,18 +43,3 @@ discovered_by = iranian_tech
 discovered_by = ottoman
 
 #Histories
-
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-	remove_core = HUN
-	remove_core = UHU
-	add_core = SLO
-	owner = SLO
-	controller = SLO
-} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-	add_core = HUN
-	add_core = UHU
-	remove_core = SLO
-	owner = HUN
-	controller = HUN
-} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores

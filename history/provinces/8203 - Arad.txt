@@ -5,8 +5,8 @@
 #Core Details
 capital = "Arad"
 is_city = yes
-owner = TRA
-controller = TRA
+owner = HUN
+controller = HUN
 
 #Demographics
 culture = transylvanian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = TRA
+add_core = HUN
 
 #Other Political
 hre = no

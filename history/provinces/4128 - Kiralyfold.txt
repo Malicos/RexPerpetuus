@@ -1,7 +1,8 @@
 #3155 - Brassó
 
-owner = TRA
-controller = TRA
+owner = SZE
+controller = SZE
+add_core = SZE
 add_core = TRA
 culture = szekely
 religion = catholic

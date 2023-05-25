@@ -1,9 +1,9 @@
 #158 - Maros
 
-owner = TRA
-controller = TRA
-add_core = TRA
+owner = SZE
+controller = SZE
 add_core = SZE
+add_core = TRA
 culture = szekely
 religion = catholic
 capital = "Targu Mures"

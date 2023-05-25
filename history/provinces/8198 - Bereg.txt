@@ -5,8 +5,8 @@
 #Core Details
 capital = "Munkács"
 is_city = yes
-owner = HUN
-controller = HUN
+owner = TRA
+controller = TRA
 
 #Demographics
 culture = rusyn
@@ -19,8 +19,7 @@ base_manpower = 1
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = HUN
-add_core = UHU
+add_core = TRA
 
 #Other Political
 hre = no
