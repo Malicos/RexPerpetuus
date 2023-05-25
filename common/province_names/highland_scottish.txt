@@ -4,7 +4,7 @@
 #(JP) I make absolutely 0 claim to speak, understand, or even comprehend celtic languages. Please correct me when I am wrong!
 
 #Scotland
-246 = { "Tuath air an Abhainn" "Caisteal Ùr" }		#North of the Humber/River (Humber's Celtic name is attested as Proto-Celtic Abu by Ptolemy)
+246 = { "Tuath air an Abhainn" "An Caisteal Nuadh" }		#North of the Humber/River (Humber's Celtic name is attested as Proto-Celtic Abu by Ptolemy)
 248 = { "Lodainn" "Dùn Èideann" }
 249 = { "Inbhir Àir" "Inbhir Àir" }
 250 = { "Peairt" "Peairt" }
