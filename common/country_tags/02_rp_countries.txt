@@ -78,6 +78,7 @@ WLL = "countries/Wallis.txt"
 
 # Iberia
 BGC = "countries/Braganca.txt"
+CPO = "countries/Campoo.txt"
 EON = "countries/Eonavia.txt"
 SHQ = "countries/Sharq.txt"
 SHS = "countries/Shenshir.txt"
