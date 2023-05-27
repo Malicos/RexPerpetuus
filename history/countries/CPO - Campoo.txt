@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = castillian
 religion = catholic
 technology_group = western
-capital = 8034	# Burgos
+capital = 8034	# Campoo
 fixed_capital = 8034
 government_rank = 1
 
