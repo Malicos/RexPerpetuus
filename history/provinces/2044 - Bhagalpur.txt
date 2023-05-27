@@ -3,7 +3,7 @@
 owner = GAD
 controller = GAD
 add_core = GAD
-culture = bengali
+culture = kochi
 religion = vajrayana
 capital = "Bhagalpur"
 trade_goods = silk

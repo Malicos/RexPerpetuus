@@ -3,7 +3,7 @@
 owner = KLP
 controller = KLP
 add_core = KLP
-culture = gondi
+culture = vindhyan
 religion = hinduism
 capital = "Garha"
 trade_goods = grain

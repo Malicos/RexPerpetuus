@@ -3,7 +3,7 @@
 owner = DEC
 controller = DEC
 add_core = DEC
-culture = kannada
+culture = tamil
 religion = hinduism
 capital = "Devarayanagara"
 trade_goods = grain

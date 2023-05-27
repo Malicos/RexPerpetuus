@@ -63,6 +63,8 @@
  ####Celtic####
  ###Brythonic###
  cumbrian_culture:0 "Cumbrian"
+ ###Unified
+ celtic_cumbrian_culture:0 "Cumbrian"
  
  ####Balto-Slavic####
  ###East Slavic###
@@ -878,7 +880,7 @@
  iconoclast_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  iconoclast_rebels_army:0 "$RELIGION$ Army" 
  nestorian:0 "Nestorian"
- nestorian_religion_desc:0 "In teaching that Jesus Christ has two natures, one divine and one human, Nestorianism has been declared as heretical by most Christian faiths. Despite this, its unique outlook has garnered followers in places as far east as China, India, and even Zubica."
+ nestorian_religion_desc:0 "In teaching that Jesus Christ has two natures, one divine and one human, Nestorianism has been declared as heretical by most Christian faiths. Despite this, its unique outlook has garnered followers in places as far east as Cathay, India, and even Zubica."
  
  syriac:0 "Syriac"
  syriac_religion_desc:0 "TBD."

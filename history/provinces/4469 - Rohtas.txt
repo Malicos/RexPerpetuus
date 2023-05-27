@@ -3,7 +3,7 @@
 owner = NGP
 controller = NGP
 add_core = NGP
-culture = bihari
+culture = jharkhandi
 religion = hinduism
 capital = "Rohtasgarh"
 trade_goods = salt

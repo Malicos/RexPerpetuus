@@ -3,7 +3,7 @@
 owner = KLP
 controller = KLP
 add_core = KLP
-culture = gondi
+culture = vindhyan
 religion = nestorian
 capital = "Saugor"
 trade_goods = bt_trade_good_beer

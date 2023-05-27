@@ -3,7 +3,7 @@
 owner = KMT
 controller = KMT
 add_core = KMT
-culture = assamese
+culture = kochi
 religion = vajrayana
 capital = "Gauhauti"
 trade_goods = cotton

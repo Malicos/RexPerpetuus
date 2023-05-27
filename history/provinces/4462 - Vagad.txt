@@ -3,7 +3,7 @@
 owner = MER
 controller = MER
 add_core = MER
-culture = rajput
+culture = malvi
 religion = hinduism
 capital = "Dungarpur"
 trade_goods = copper

@@ -3,7 +3,7 @@
 owner = NGP
 controller = NGP
 add_core = NGP
-culture = jharkhandi
+culture = bengali
 religion = vajrayana
 capital = "Deogarh"
 trade_goods = ivory

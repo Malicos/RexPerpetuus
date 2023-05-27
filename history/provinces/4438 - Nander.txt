@@ -3,7 +3,7 @@
 owner = GOC
 controller = GOC
 add_core = GOC
-culture = marathi
+culture = telegu
 religion = hinduism
 capital = "Nander"
 trade_goods = silk
