@@ -23,8 +23,9 @@
 4363 = { "Earra-Ghàidheal" "An Tairbeart" }
 4364 = { "Eileanan a-Staigh" "Port an Eilein" }
 4365 = { "Manainn" "Baile a' Chaisteil" }
-4368 = { "Cathair Feir" "Cathair Feir" }		#(Chrys) translationf of Brythonic name Gaer Weir
-8135 = { "Mòinteach an Iar" "Treabh Ubhal" }
+4368 = { "Cathair Feir" "Cathair Feir" }		#(Chrys) translation of Brythonic name Gaer Weir
+8134 = { "An Treabh Bàn" "An Treabh Bàn" }		#(Chrys) translation of Whitby
+8135 = { "Mòinteach an Iar" "Treabh Ubhal" }		#(Chrys) translation of Appleby
 8136 = { "Gleann Tìne" "Taigh Ghille" }			#(Chrys) attempt at translation of Tynedale and Hexham
 8145 = { "Srath Thuaidh" "Na Pùballan" } #(JP) Capital could also be "Selkirk"
 8146 = { "Na Dùintean" "Na Dùintean" }
