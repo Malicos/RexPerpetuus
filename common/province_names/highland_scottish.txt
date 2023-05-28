@@ -48,11 +48,11 @@
 375 = { "Tuamhain" "Inis Cluana Ràmhfhada" }
 376 = { "Baile na Gailbhinn" "Baile na Gailbhinn" }
 3005 = { "Ard Mhacha" "Ard Mhacha" }
-3006 = { "An Dùn" "Dùn Phàdraig" }
-3008 = { "Beul Feirste" "Beul Feirste" }
+3006 = { "Beul Feirste" "Beul Feirste" }
 4121 = { "Aontroim" "Bun Abhann Dalla" }
 4380 = { "Tìr Chonaill" "Dùn na nGall" }
-8156 = { "Cúil Raithin" "Cúil Raithin" }
+8158 = { "An Dùn" "Dùn Phàdraig" }
+8159 = { "Cúil Raithin" "Cúil Raithin" }
 
 #Scandinavia
 369 = { "Arcaibh" "Bàgh na h-Eaglaise" }
