@@ -5,7 +5,7 @@ primary_culture = yeravani
 add_accepted_culture = armenian
 add_accepted_culture = arevmdian
 religion = apostolic
-technology_group = eastern
+technology_group = rhomanian_tech
 capital = 419	# Yerevan
 
 1416.3.20 = {

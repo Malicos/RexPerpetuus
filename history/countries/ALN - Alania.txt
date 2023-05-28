@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = alan
 religion = orthodox
-technology_group = eastern
+technology_group = rhomanian_tech
 capital = 3262 # Maghas
 fixed_capital = 3262
 

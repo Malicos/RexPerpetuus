@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 2
 primary_culture = cilician
 religion = apostolic
-technology_group = eastern
+technology_group = rhomanian_tech
 capital = 5138						# Provinces encompassing Sis
 
 1436.11.21 = {

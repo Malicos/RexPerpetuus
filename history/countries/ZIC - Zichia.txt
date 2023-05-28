@@ -3,7 +3,7 @@ add_government_reform = tribal_kingdom
 government_rank = 1
 primary_culture = circassian
 religion = orthodox
-technology_group = eastern
+technology_group = rhomanian_tech
 capital = 463 # Adyche
 fixed_capital = 463
 
