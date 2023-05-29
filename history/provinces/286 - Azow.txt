@@ -1,8 +1,8 @@
 #286 - Azow
 
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = BHD
+controller = BHD
+add_core = BHD
 culture = ashkenazi
 religion = jewish
 hre = no

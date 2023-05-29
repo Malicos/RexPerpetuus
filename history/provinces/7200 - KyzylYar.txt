@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = LVD
-controller = LVD
-add_core = LVD
+owner = BHD
+controller = BHD
+add_core = BHD
 culture = qangar
 religion = orthodox
 capital = "Kyzyl-Yar"

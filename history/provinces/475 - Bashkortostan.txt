@@ -1,8 +1,8 @@
 #475 - Bashkortostan
 
-owner = BSH
-controller = BSH
-add_core = BSH
+owner = YGR
+controller = YGR
+add_core = YGR
 culture = yugran
 religion = sunni
 capital = "Bashkort"

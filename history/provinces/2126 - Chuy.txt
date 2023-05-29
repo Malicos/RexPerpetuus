@@ -1,8 +1,8 @@
 # 2126 - Chuy
 
-owner = KHT
-controller = KHT
-add_core = KHT
+owner = TGD
+controller = TGD
+add_core = TGD
 culture = khitan_culture
 religion = nestorian
 capital = "Chuy"

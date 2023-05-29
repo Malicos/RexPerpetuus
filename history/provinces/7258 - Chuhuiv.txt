@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = QGR
-controller = QGR
-add_core = QGR
+owner = BHD
+controller = BHD
+add_core = BHD
 culture = qangar
 religion = sunni
 capital = "Chuhuiv"			#Dates to circa 1600 so.... better than most of Wild Fields, but still really horrible.

@@ -1,8 +1,8 @@
 #714 - Dzungaria
 
-owner = NAI
-controller = NAI
-add_core = NAI
+owner = TGD
+controller = TGD
+add_core = TGD
 culture = naiman
 religion = vajrayana
 capital = "Hoboksar"

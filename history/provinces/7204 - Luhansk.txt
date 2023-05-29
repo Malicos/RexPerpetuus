@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = BHD
+controller = BHD
+add_core = BHD
 culture = cuman
 religion = sunni
 capital = "Kamianyi Brid"			#Cossacks settlement, probably dating to circa 17th century... no better options.

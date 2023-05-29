@@ -1,8 +1,8 @@
 #2411 - Mansur
 
-owner = LVD
-controller = LVD
-add_core = LVD
+owner = BHD
+controller = BHD
+add_core = BHD
 culture = qangar
 religion = orthodox
 hre = no

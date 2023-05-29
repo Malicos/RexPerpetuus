@@ -1,8 +1,8 @@
 #287 - Kouban
 
-owner = CUM
-controller = CUM
-add_core = CUM
+owner = BHD
+controller = BHD
+add_core = BHD
 culture = cuman
 religion = sunni
 hre = no

@@ -1,8 +1,8 @@
 # 2360 - Tobykty
 
-owner = WTH
-controller = WTH
-add_core = WTH
+owner = TGD
+controller = TGD
+add_core = TGD
 culture = alukhai
 religion = sunni
 capital = "Tobykty"

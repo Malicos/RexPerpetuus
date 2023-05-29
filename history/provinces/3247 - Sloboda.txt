@@ -2,9 +2,9 @@
 #Region - Ruthenia
 #Area - Sloboda Ukraine
 
-owner = QGR
-controller = QGR
-add_core = QGR
+owner = BHD
+controller = BHD
+add_core = BHD
 culture = qangar
 religion = sunni
 hre = no

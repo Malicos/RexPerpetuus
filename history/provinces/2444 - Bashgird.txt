@@ -1,8 +1,8 @@
 #2444 - Bashgird
 
-owner = BSH
-controller = BSH
-add_core = BSH
+owner = YGR
+controller = YGR
+add_core = YGR
 culture = yugran
 religion = sunni
 capital = "Bashgird"

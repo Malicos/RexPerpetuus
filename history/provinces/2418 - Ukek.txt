@@ -1,8 +1,8 @@
 #2418 - Ukek
 
-owner = BOL
-controller = BOL
-add_core = BOL
+owner = BHD
+controller = BHD
+add_core = BHD
 culture = bolghar
 religion = sunni
 hre = no

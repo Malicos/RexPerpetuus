@@ -1,8 +1,8 @@
 #474 - Yaik
 
-owner = WTH
-controller = WTH
-add_core = WTH
+owner = BHD
+controller = BHD
+add_core = BHD
 culture = manghit
 religion = sunni
 capital = "Yaik"

@@ -1,8 +1,8 @@
 # 2118 - Urzhar
 
-owner = KHT
-controller = KHT
-add_core = KHT
+owner = TGD
+controller = TGD
+add_core = TGD
 culture = khitan_culture
 religion = vajrayana
 capital = "Urzhar"

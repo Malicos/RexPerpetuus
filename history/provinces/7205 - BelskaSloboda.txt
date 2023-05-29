@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = QGR
-controller = QGR
-add_core = QGR
+owner = BHD
+controller = BHD
+add_core = BHD
 culture = qangar
 religion = sunni
 capital = "Belska Sloboda"			#Russian settlement from circa 1600, but no better options showing up

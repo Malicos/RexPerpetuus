@@ -1,8 +1,8 @@
 #2421 - Ar-Chally
 
-owner = BOL
-controller = BOL
-add_core = BOL
+owner = YGR
+controller = YGR
+add_core = YGR
 culture = yugran
 religion = sunni
 hre = no

@@ -1,9 +1,8 @@
 #1965 - Buzuluk
 
-owner = BSH
-controller = BSH
-add_core = BSH
-add_core = BOL
+owner = YGR
+controller = YGR
+add_core = YGR
 culture = manghit
 religion = sunni
 capital = "Buzuluk"
