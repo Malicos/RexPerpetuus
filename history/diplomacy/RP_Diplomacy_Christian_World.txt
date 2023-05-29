@@ -16,6 +16,7 @@
 #10 - Hungary, Dacia and Tauric Steppe
 #11 - Spain
 #12 - Christian Levant and Egypt
+#13 - Anatolia and Caucasus
 
 ####################################################################
 # 1 - Northern Isles (Albion)
@@ -1206,6 +1207,26 @@ vassal = {
 vassal = {
 	first = KOJ
 	second = UTJ
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+####################################################################
+# 13 - Anatolia and Caucasus
+####################################################################
+
+# Guarantee - Georgia and Trebizond
+guarantee = {
+	first = GEO
+	second = TRE
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Alliance - Pontus and Trebizond
+alliance = {
+	first = PON
+	second = TRE
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
