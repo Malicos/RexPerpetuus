@@ -1215,14 +1215,6 @@ vassal = {
 # 13 - Anatolia and Caucasus
 ####################################################################
 
-# Guarantee - Georgia and Trebizond
-guarantee = {
-	first = GEO
-	second = TRE
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Alliance - Pontus and Trebizond
 alliance = {
 	first = PON
