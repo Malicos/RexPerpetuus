@@ -765,8 +765,8 @@
  TAL_ADJ:0 "Talyshi"
  
  # Central Asia
- KHT:0 "Khitan"
- KHT_ADJ:0 "Khitan"
+ BHD:0 "Blue Horde"
+ BHD_ADJ:0 "Blue Horde"
  KLS:0 "Karlukistan"
  KLS_ADJ:0 "Karluk"
  KZM:0 "Chorasmia"
@@ -775,6 +775,8 @@
  QOC_ADJ:0 "Qocho"
  SGD:0 "Sogdia"
  SGD_ADJ:0 "Sogdian"
+ TGD:0 "Telengid"
+ TGD_ADJ:0 "Telengid"
  WTH:0 "White Horde"
  WTH_ADJ:0 "White Horde"
  YGR:0 "Yugra"

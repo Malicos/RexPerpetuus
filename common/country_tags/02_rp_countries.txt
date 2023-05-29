@@ -287,11 +287,12 @@ SAB = "countries/Sabzevar.txt"
 TAL = "countries/Talysh.txt"
 
 # Central Asia
-KHT = "countries/Khitan.txt"
+BHD = "countries/BlueHorde.txt"
 KLS = "countries/Karlukistan.txt"
 KZM = "countries/Khwarazm.txt"
 QOC = "countries/Qocho.txt"
 SGD = "countries/Sughd.txt"
+TGD = "countries/Telengid.txt"
 WTH = "countries/WhiteHorde.txt"
 YGR = "countries/Yugra.txt"
 ZHT = "countries/Zhetysu.txt"

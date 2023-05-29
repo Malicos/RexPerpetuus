@@ -1,8 +1,8 @@
-#Cumania
+# Blue Horde
 
 graphical_culture = muslimgfx
 
-color = { 160 160 80 }
+color = { 50 150 180 }
 
 historical_idea_groups = {
 	economic_ideas
@@ -31,11 +31,11 @@ historical_units = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Kopti #0" = 10
-	"Eltut #0" = 10
-	"Eldecyuk #0" = 10
-	"Ovlur #0" = 10
-	"Aibak #0" = 10
+	"Kopti #1" = 10
+	"Eltut #1" = 10
+	"Eldecyuk #1" = 10
+	"Ovlur #1" = 10
+	"Aibak #1" = 10
 
 	# RANDOM NAMES - MALE
 	"Abdul-Aziz #0" = 20
