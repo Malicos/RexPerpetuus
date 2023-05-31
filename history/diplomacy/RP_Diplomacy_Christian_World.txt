@@ -1222,3 +1222,23 @@ alliance = {
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
+
+####################################################################
+# 14 - Africa
+####################################################################
+
+# Augustine Order and Piserta
+vassal = {
+	first = AGO
+	second = BIZ
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Augustine Order and Tabarca
+vassal = {
+	first = AGO
+	second = TBA
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
