@@ -35,6 +35,7 @@
  denlegian:0 "Denlegian"            # English Norse
  gallwegian:0 "Gallwegian"        # Irish Norse
  nordurican:0 "Nordurican"        #Koine Nordic
+ geatish:0 "Geatish"
  ###British###
  anglo_saxon:0 "Anglo-Saxon"      # Old English
  sexish_culture:0 "Sexish"        # No Normans Southern English
