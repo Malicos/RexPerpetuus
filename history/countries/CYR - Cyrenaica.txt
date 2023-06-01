@@ -6,6 +6,7 @@ religion = shiite
 technology_group = muslim_tech
 capital = 356 # Benghazi
 fixed_capital = 356
+religious_school = ismaili_school
 
 1402.9.30 = {
 	monarch = {

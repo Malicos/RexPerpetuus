@@ -6,7 +6,7 @@ add_accepted_culture = kurdish
 religion = shiite
 technology_group = iranian_tech
 capital = 417 # Alamut
-religious_school = jafari_school
+religious_school = ismaili_school
 
 1438.7.9 = {
 	monarch = {
