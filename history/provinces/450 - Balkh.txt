@@ -3,7 +3,7 @@
 owner = BKH
 controller = BKH
 add_core = BKH
-culture = pashtuni
+culture = afghani
 religion = sunni
 capital = "Balkh"
 trade_goods = cotton

@@ -3,7 +3,7 @@
 owner = KLA
 controller = KLA
 add_core = KLA
-culture = baluchi
+culture = pashtuni
 religion = sunni
 capital = "Siwi"
 trade_goods = wool
