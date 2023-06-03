@@ -4,7 +4,7 @@
 40 = { "Mémeli" "Mémeli" }
 41 = { "Twánksta" "Twánksta" }
 42 = { "Kaílasgarbs" "Kaílasgarbs" }
-42 = { "Gudánits" "Gudánits" }
+43 = { "Gudánits" "Gudánits" }
 767 = { "Luks" "Luks" }
 1841 = { "Drúsa" "Drúsa" }
 2958 = { "Austráti" "Austráti" }
