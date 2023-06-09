@@ -1,12 +1,24 @@
-#RP
+#RP, using acute accents for macrons, using nawaprusiskan
 
 #Prussia
-40 = { "Nemuna" "Nemuna" }
-41 = { "Tvangste" "Tvangste" }
-3224 = { "Kirsowe" "Kirsowe" }
-7833 = { "Semba" "Skanevis" }
-7834 = { "Tapjava" "Tapjava" }
-7835 = { "Angura" "Angura" }
-7836 = { "Velowe" "Velowe" }
-7837 = { "Ragnita" "Ragnita" }
-7862 = { "Plickabartha" "Plickabartha" }
+40 = { "Mémeli" "Mémeli" }
+41 = { "Twánksta" "Twánksta" }
+42 = { "Kaílasgarbs" "Kaílasgarbs" }
+43 = { "Gudánits" "Gudánits" }
+767 = { "Luks" "Luks" }
+1841 = { "Drúsa" "Drúsa" }
+2958 = { "Austráti" "Austráti" }
+3224 = { "Stalappi" "Stalappi" }
+7829 = { "Kwédina" "Kwédina" }
+7830 = { "Lúbawa" "Lúbawa" }
+7831 = { "Skaítan" "Skaítan" }
+7832 = { "Ríns" "Ríns" }
+7833 = { "Skónewiks" "Skónewiks" }
+7834 = { "Nauwúzan" "Nauwúzan" }
+7835 = { "Wángrawa" "Wángrawa" }
+7836 = { "Spargi" "Spargi" }
+7837 = { "Rangáni" "Rangáni" }
+7862 = { "Bartanstabs" "Bartanstabs" }
+
+#Lihuania
+272 = { "Wilnis" "Wilnis" }
