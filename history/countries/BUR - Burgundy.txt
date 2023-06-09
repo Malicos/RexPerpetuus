@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
-primary_culture = arelatian_culture
+primary_culture = aquitaine
 add_accepted_culture = high_burgundian
 add_accepted_culture = burgundian
 religion = catholic
@@ -17,7 +17,7 @@ capital = 7894	# Arles
 		mil = 3
 		birth_date = 1376.3.26
 		religion = catholic
-		culture = arelatian_culture
+		culture = burgundian
 	}
 	add_ruler_personality = charismatic_negotiator_personality
 	add_ruler_personality = well_connected_personality

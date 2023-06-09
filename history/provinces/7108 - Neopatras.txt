@@ -3,8 +3,8 @@
 owner = AET
 controller = AET
 add_core = AET
-culture = epirotan
-religion = orthodox
+culture = yevani
+religion = jewish
 capital = "Neopatras"
 base_tax = 2
 base_production = 2

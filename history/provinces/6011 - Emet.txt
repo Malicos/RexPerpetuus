@@ -9,8 +9,8 @@ owner = NIK
 controller = NIK
 
 #Demographics
-culture = phrygian
-religion = orthodox
+culture = yevani
+religion = jewish
 
 #Development and Trade
 base_tax = 1

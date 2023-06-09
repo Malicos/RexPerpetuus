@@ -49,7 +49,6 @@
  occitanic:0 "Occitanic"
  ###Oïlitanic###
  high_burgundian:0 "High Burgundian"  
- arelatian_culture:0 "Arlesian" 
  outremer:0 "Outremer"
  ###Latin/Italian###
  latine:0 "Latine"
@@ -143,6 +142,7 @@
  bene_israeli:0 "Bene Israeli"
  kalimi:0 "Kalimi"  #Iranian Jews
  teimanim:0 "Teimani" #Yemeni Jews
+ yevani:0 "Yevani" #Greek Jews
  
  ####Old Egyptian####
  ###Coptic###

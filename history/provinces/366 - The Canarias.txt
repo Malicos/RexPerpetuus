@@ -2,7 +2,7 @@
 #Region - Iberia
 #Area - Macaronesia
 
-culture = berber
+culture = guanche
 religion = animism
 capital = "Erbania" #Found on the wiki to be indigenous name of Fuerteventura, which seems to be what the province mostly corresponds to in BT.
 trade_goods = unknown
