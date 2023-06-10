@@ -3,9 +3,22 @@
 #RP
 
 2987 = { "Urjill" "Al-Kursiyyu al-Urjill" }
+4788 = { "Ambaruz" "Ambaruz" } 
+7889 = { "Andura" "Andura" } 
 7903 = { "Tutilah" "Tutilah" } 
+8036 = { "Ar-Rabalu" "Ar-Rabalu" } 
+8051 = { "Kuliy'at" "Kuliy'at" } 
+8055 = { "Arankej" "Arankej" } 
+8057 = { "Al-Wahaj" "Al-Wahaj" } 
+8063 = { "Al-Ghubb" "Al-Ghubb" } 
+8064 = { "Al-Karaz" "Al-Karaz" } 
+8073 = { "Bir 'Abyad" "Bir 'Abyad" } 
+8097 = { "Qurtizah" "Qurtizah" } 
+8098 = { "Layrina" "Layrina" } 
+8099 = { "Wardah" "Wardah" } 
 8108 = { "Yaqqa" "Yaqqa" } 
 8110 = { "Al-Ayyinsah" "Al-Ayyinsah" } 
+8121 = { "Al-Mada'in" "Al-Mada'in" } 
 
 #Levant
 321 = { "Limassol" "Limassol" }
