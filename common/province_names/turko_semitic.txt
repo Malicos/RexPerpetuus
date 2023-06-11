@@ -1280,7 +1280,7 @@
 7903 = "At-Tutili"
 8042 = "Shant Yakub"
 8047 = "Al-Mahsan"
-8051 = "Quellar"
+#8051 = "Quellar"
 8052 = "Wadi-al-Hajara"
 8054 = "Talabayra"
 8059 = "Al-Qasr"
@@ -2199,7 +2199,7 @@
 8026 = { "Al-Laua" "Al-Laua" } #
 8042 = { "Shant Yakub" "Shant Yakub" } #
 8047 = { "Al-Mahsan" "Al-Mahsan" } #
-8051 = { "Quellar" "Quellar" } #
+#8051 = { "Quellar" "Quellar" } #
 8052 = { "Wadi al-Hajara" "Wadi al-Hajara" } #
 8053 = { "Mulina" "Mulina" } #
 8054 = { "Talabayra" "Talabayra" } #
