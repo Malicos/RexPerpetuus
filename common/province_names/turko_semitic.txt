@@ -15,6 +15,7 @@
 8064 = { "Al-Karaz" "Al-Karaz" } 
 8066 = { "Karabaqqa" "Karabaqqa" } 
 8073 = { "Bir 'Abyad" "Bir 'Abyad" } 
+8081 = { "Antakira" "Antakira" } 
 8097 = { "Qurtizah" "Qurtizah" } 
 8098 = { "Layrina" "Layrina" } 
 8099 = { "Wardah" "Wardah" } 
@@ -1303,7 +1304,7 @@
 8078 = "Saduna"
 8079 = "Sahra"
 8080 = "Marbil-la"
-8081 = "Antaquira"
+#8081 = "Antaquira"
 8082 = "Al-Hammah"
 8083 = "Lawsa"
 8084 = "Wadi 'Ashi"
@@ -1928,7 +1929,7 @@
 222 = { "Al-Mariyya" "Al-Mariyya" } #
 223 = { "Garnatah" "Garnatah" } #
 4546 = { "Malaqah" "Malaqah" } #
-8081 = { "Antaquira" "Antaquira" } #
+#8081 = { "Antaquira" "Antaquira" } #
 8082 = { "Al-Hammah" "Al-Hammah" } #
 8083 = { "Lawsa" "Lawsa" } #
 8084 = { "Wadi 'Ashi" "Wadi 'Ashi" } #
