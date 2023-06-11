@@ -3,6 +3,7 @@
 #RP
 
 2987 = { "Urjill" "Al-Kursiyyu al-Urjill" }
+4549 = { "Shatiba" "Shatiba" } 
 4788 = { "Ambaruz" "Ambaruz" } 
 7889 = { "Andura" "Andura" } 
 7903 = { "Tutilah" "Tutilah" } 
@@ -18,6 +19,7 @@
 8099 = { "Wardah" "Wardah" } 
 8108 = { "Yaqqa" "Yaqqa" } 
 8110 = { "Al-Ayyinsah" "Al-Ayyinsah" } 
+8113 = { "Awsuna" "Awsuna" } 
 8121 = { "Al-Mada'in" "Al-Mada'in" } 
 
 #Levant
