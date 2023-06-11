@@ -13,6 +13,7 @@
 8057 = { "Al-Wahaj" "Al-Wahaj" } 
 8063 = { "Al-Ghubb" "Al-Ghubb" } 
 8064 = { "Al-Karaz" "Al-Karaz" } 
+8066 = { "Karabaqqa" "Karabaqqa" } 
 8073 = { "Bir 'Abyad" "Bir 'Abyad" } 
 8097 = { "Qurtizah" "Qurtizah" } 
 8098 = { "Layrina" "Layrina" } 
