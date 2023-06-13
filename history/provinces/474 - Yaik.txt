@@ -1,8 +1,8 @@
 #474 - Yaik
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = AST
+controller = AST
+add_core = AST
 culture = manghit
 religion = sunni
 capital = "Yaik"

@@ -1,8 +1,8 @@
 #2419 - Kanadey
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = BOL
+controller = BOL
+add_core = BOL
 culture = bolghar
 religion = sunni
 hre = no

@@ -1,8 +1,8 @@
 #466 - Sarai
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = AST
+controller = AST
+add_core = AST
 culture = ashkenazi
 religion = jewish
 capital = "Sarai"
