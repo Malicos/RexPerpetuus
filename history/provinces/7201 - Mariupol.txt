@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = AZK
+controller = AZK
+add_core = AZK
 culture = qangar
 religion = orthodox
 capital = "Mariampol"			#Nothing here 'til the late 18th century... so.... getting creative. No evidence of settlement prior to Tartar devastation, so a Greek names isn't the absolute worst.

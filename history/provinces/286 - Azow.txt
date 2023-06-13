@@ -1,8 +1,8 @@
 #286 - Azow
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = AZK
+controller = AZK
+add_core = AZK
 culture = ashkenazi
 religion = jewish
 hre = no

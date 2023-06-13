@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = AZK
+controller = AZK
+add_core = AZK
 culture = cuman
 religion = sunni
 hre = no

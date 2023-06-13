@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = AZK
+controller = AZK
+add_core = AZK
 culture = cuman
 religion = sunni
 capital = "Taganrog"			#Nothing here 'til circa 1700... so doing what I can
