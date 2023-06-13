@@ -1,0 +1,20 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 2
+technology_group = nomad_group
+religion = sunni
+primary_culture = cuman
+capital = 464 # Haji Tarkhan
+
+1408.5.27 = {
+	monarch = {
+		name = "Aibak"
+		dynasty = "Kopti"
+		adm = 1
+		dip = 1
+		mil = 4
+		birth_date = 1391.9.9
+		religion = sunni
+		culture = cuman
+	}
+}

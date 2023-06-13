@@ -161,6 +161,7 @@ TRG = "countries/Triregnum.txt"
 BNT = "countries/Banat.txt"
 
 # East Europe
+AZK = "countries/Azak.txt"
 BOL = "countries/Bolghar.txt"
 BIS = "countries/Bissenia.txt"
 BJA = "countries/Bjarmia.txt"

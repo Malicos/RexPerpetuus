@@ -479,6 +479,8 @@
  AET_ADJ:0 "Aetolian"
  AUK:0 "Aukstaitija"
  AUK_ADJ:0 "Aukstaitijan"
+ AZK:0 "Azak"
+ AZK_ADJ:0 "Azaki"
  BGR:0 "Bialogard"
  BGR_ADJ:0 "Bialogardian"
  BGS:0 "Burgas"
@@ -596,8 +598,6 @@
  NIK_ADJ:0 "Nicean"
  PON:0 "Pontus"
  PON_ADJ:0 "Pontic"
- VAR:0 "Varangian League"
- VAR_ADJ:0 "Varangian"
  
  # Caucasus
  ALN:0 "Alania"
