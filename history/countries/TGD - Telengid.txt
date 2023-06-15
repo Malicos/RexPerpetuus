@@ -1,6 +1,6 @@
 government = tribal
 add_government_reform = steppe_horde
-primary_culture = khitan_culture
+primary_culture = telengid
 religion = sunni
 technology_group = nomad_group
 capital = 461 # Almaty
