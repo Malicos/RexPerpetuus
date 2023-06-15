@@ -153,8 +153,6 @@
  #################
  
  ###Turkic###
- qangar:0 "Qangar"
- khitan_culture:0 "Khitan"
  karluk:0 "Karluk"
  yugran:0 "Yugran"
  horasanli:0 "Horasanli"
@@ -166,12 +164,13 @@
  uriankhai:0 "Uriankhai"
  ###Tatar###
  manghit:0 "Manghit"
- tariat:0 "Tariat"
  barlas:0 "Barlas"
- alukhai:0 "Alukhai"
+ telengid:0 "Telengid"
+ toqsoba:0 "Toqsoba"
  ###Oghur###
  oghur:0 "Oghur"
  bolghar:0 "Bolghar"
+ burtas:0 "Burtas"
  
  #################
  ###Finno-Ugric###

@@ -12067,6 +12067,28 @@ oghur = {	#RP Culture Group
 			Sibel Sirin Sirma Songul Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek
 		}		
 	}
+	burtas = {
+		# primary = BOL
+		male_names = {
+			Almish Alzek Anzi Apskhih Araslan Asparukh Balamber Bars Bataul Batbayan Batoya
+			Batulia Bayan Belkermak Bezmer Boyan Bulger Buzan Chepa Chinialush Dengizikh Dizeng Dometa Dristar
+			Drong Dukum Ellak Elemag Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Irnek Isbul Islivan Isperikh
+			Ispor Kälaç Kano Karan Karaton Kardam Kharaton Khinialon Khudbard Kordil Kormesiy Kormisosh Kotrag
+			Krovat Krum Kuber Kubrat Kurt Kutrigur Kuvrat Labertam Magotin Malamir Mugel Odolgan Okhsi Okhsun
+			Okors Omurtag Onegavon Organ Organa Ornag Oshi Ostro Pagan Pakhtiyar Paväl Praksa Rassate
+			Rugila Sabin Sandil Sandilkh Sarkhan Sartäç Savin Sevar Shilki Sondoke Tähtaman Tarasiy Taridin Tatra
+			Telec Telerig Tervel Timër Timëreç Timërpälat Tingiz Tiradin Tokhtaman Toktu Tsog Tsul Tuk Umor
+			Uturgur Vakrim Venda Vetam Vinekh Yani Yavantey Yençepi Yerneslu Yeçtirek Zabergan Zenti Tukiy Aydar
+			Irkhan Batir
+		}
+		female_names = {
+			Çeçek Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek
+			Esin Gulçeçek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge Karacik Kätyarikka
+			Këlnissa Këlyamal Lärkka Lyukha Mala Maturkka Mutlu Naça Patiyer Paykëlti Peksen Puyantay Samur
+			Sarantay Sarä Sarica Sarikel Sati Savaçka Savkëlti Savtilek Savilay Savintik Shurkka
+			Sibel Sirin Sirma Songul Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek
+		}		
+	}
 }
 
 tartar = {
@@ -12207,14 +12229,13 @@ tartar = {
 	manghit = {
 	}
 	#RP Culture
-	tariat = {
-		primary = WTH
-	}
-	#RP Culture
 	barlas = {
 	}
 	#RP Culture
-	alukhai = {
+	toqsoba = {
+	}
+	#RP Culture
+	telengid = {
 	}
 	dynasty_names = {
 		"Chagatay" "Edigüid" "Giray" "Borjigin" "Shaybanid" "Janid" "Mangit"
@@ -13235,13 +13256,7 @@ turkish_g = {
 	}
 	cuman = {
 		primary = CUM
-	}
-	qangar = {
-		primary = QGR
 	}	
-	khitan_culture = {
-		primary = KHT
-	}
 	karluk = {
 		primary = KLS
 	}
