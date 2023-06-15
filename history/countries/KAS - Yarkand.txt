@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = iqta
 primary_culture = uyghur
-religion = vajrayana
+religion = sunni
 technology_group = ottoman
 capital = 739	# kashgar
 religious_school = hanafi_school
