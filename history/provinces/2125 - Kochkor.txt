@@ -3,8 +3,8 @@
 owner = TGD
 controller = TGD
 add_core = TGD
-culture = khitan_culture
-religion = nestorian
+culture = telengid
+religion = sunni
 capital = "Kochkor"
 trade_goods = wool
 hre = no

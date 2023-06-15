@@ -3,7 +3,7 @@
 owner = BHD
 controller = BHD
 add_core = BHD
-culture = qangar
+culture = toqsoba
 religion = sunni
 hre = no
 base_tax = 1 

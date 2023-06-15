@@ -3,7 +3,7 @@
 owner = TGD
 controller = TGD
 add_core = TGD
-culture = alukhai
+culture = barlas
 religion = sunni
 capital = "Tobykty"
 trade_goods = wool

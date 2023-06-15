@@ -3,7 +3,7 @@
 owner = AST
 controller = AST
 add_core = AST
-culture = cuman
+culture = astrakhani
 religion = sunni
 capital = "Hajitarkhan"
 trade_goods = wool

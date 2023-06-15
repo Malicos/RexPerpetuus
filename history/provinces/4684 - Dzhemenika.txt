@@ -3,7 +3,7 @@
 owner = TGD
 controller = TGD
 add_core = TGD
-culture = khitan_culture
+culture = telengid
 religion = vajrayana
 capital = "Dzhemenika"
 trade_goods = fish

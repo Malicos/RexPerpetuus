@@ -3,7 +3,7 @@
 owner = BHD
 controller = BHD
 add_core = BHD
-culture = qangar
+culture = toqsoba
 religion = sunni
 capital = "Chuhuiv"			#Dates to circa 1600 so.... better than most of Wild Fields, but still really horrible.
 base_tax = 1

@@ -3,8 +3,8 @@
 owner = BHD
 controller = BHD
 add_core = BHD
-culture = qangar
-religion = orthodox
+culture = toqsoba
+religion = sunni
 capital = "Samara"			#Dates to circa mid 16th century so.... much better than most of Wild Fields, but still really horrible.
 base_tax = 1
 base_production = 1

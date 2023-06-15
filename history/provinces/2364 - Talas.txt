@@ -3,8 +3,8 @@
 owner = KLS
 controller = KLS
 add_core = KLS
-culture = khitan_culture
-religion = nestorian
+culture = telengid
+religion = sunni
 capital = "Talas"
 trade_goods = iron
 hre = no

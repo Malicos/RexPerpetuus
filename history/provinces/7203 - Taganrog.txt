@@ -3,7 +3,7 @@
 owner = AZK
 controller = AZK
 add_core = AZK
-culture = cuman
+culture = toqsoba
 religion = sunni
 capital = "Taganrog"			#Nothing here 'til circa 1700... so doing what I can
 base_tax = 1

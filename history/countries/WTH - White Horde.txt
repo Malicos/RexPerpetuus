@@ -1,7 +1,7 @@
 government = tribal
 add_government_reform = steppe_horde
 government_rank = 2
-primary_culture = tariat
+primary_culture = barlas
 religion = sunni
 technology_group = nomad_group
 capital = 476 # Kypshak

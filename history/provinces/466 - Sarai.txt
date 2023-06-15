@@ -3,7 +3,7 @@
 owner = AST
 controller = AST
 add_core = AST
-culture = ashkenazi
+culture = burtas
 religion = jewish
 capital = "Sarai"
 trade_goods = wool

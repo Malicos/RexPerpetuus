@@ -3,8 +3,8 @@
 owner = BHD
 controller = BHD
 add_core = BHD
-culture = qangar
-religion = orthodox
+culture = toqsoba
+religion = sunni
 capital = "Kyzyl-Yar"
 base_tax = 1 
 base_production = 1 

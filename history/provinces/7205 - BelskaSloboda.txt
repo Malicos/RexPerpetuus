@@ -3,7 +3,7 @@
 owner = BHD
 controller = BHD
 add_core = BHD
-culture = qangar
+culture = toqsoba
 religion = sunni
 capital = "Belska Sloboda"			#Russian settlement from circa 1600, but no better options showing up
 base_tax = 1

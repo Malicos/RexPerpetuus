@@ -3,7 +3,7 @@
 owner = BHD
 controller = BHD
 add_core = BHD
-culture = cuman
+culture = toqsoba
 religion = sunni
 capital = "Semikarakor"
 trade_goods = wool

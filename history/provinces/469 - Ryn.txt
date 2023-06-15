@@ -3,7 +3,7 @@
 owner = AST
 controller = AST
 add_core = AST
-culture = manghit
+culture = astrakhani
 religion = sunni
 capital = "Ryn"
 trade_goods = fish
