@@ -1,6 +1,22 @@
-bookmark =
-{
-	name = LOM_NAME
-	desc = LOM_DESC
-	date = "1444.11.11"
+bookmark = {
+	name = "BOOK_REX_PERPETUUS"
+	desc = "BOOK_REX_PERPETUUS_DESC"
+	date = 1444.11.11
+	
+	center = 17
+	default = yes
+	
+	country = NOR
+	country = CDB
+	country = MID
+	country = NIK
+	country = NRM
+	country = POL
+	country = RYA
+	country = BAV
+	country = LOM
+	country = BUL
+	
+	easy_country = NOR
+	easy_country = CDB
 }
