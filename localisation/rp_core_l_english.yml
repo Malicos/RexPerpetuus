@@ -21,8 +21,8 @@
  #################################################################################
  # 1 - Start Dates
  #################################################################################
- book_rex_perpetuus:0 "v0.1 | Rex Perpetuus"
- book_rex_perpetuus_desc:0 "Placeholder"
+ book_the_grand_campaign:0 "The Grand Campaign"
+ book_the_grand_campaign_desc:0 "Placeholder"
 
  #################################################################################
  # 2 - Cultures

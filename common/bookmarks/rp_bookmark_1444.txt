@@ -1,6 +1,6 @@
 bookmark = {
-	name = "BOOK_REX_PERPETUUS"
-	desc = "BOOK_REX_PERPETUUS_DESC"
+	name = "BOOK_THE_GRAND_CAMPAIGN"
+	desc = "BOOK_THE_GRAND_CAMPAIGN_DESC"
 	date = 1444.11.11
 	
 	center = 17
