@@ -1,10 +1,10 @@
 #3245 - Kerch
 
-owner = TMT
-controller = TMT
-add_core = TMT
-culture = pontic_greek
-religion = orthodox
+owner = KCR
+controller = KCR
+add_core = KCR
+culture = karaite
+religion = jewish
 hre = no
 base_tax = 3 
 base_production = 3 

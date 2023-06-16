@@ -77,6 +77,7 @@
  halych:0 "Halych"
  rusyn:0 "Rusyn"
  litvin:0 "Litvin"
+ matregan:0 "Matregan"
  ###Baltic###
  samogitian:0 "Samogitian"
  latgalian:0 "Latgalian"
@@ -169,6 +170,7 @@
  barlas:0 "Barlas"
  telengid:0 "Telengid"
  toqsoba:0 "Toqsoba"
+ karaite:0 "Karaite"
  ###Oghur###
  oghur:0 "Oghur"
  bolghar:0 "Bolghar"
@@ -336,6 +338,8 @@
  JRV_ADJ:0 "Jorviker"
  JUT:0 "Jutland"
  JUT_ADJ:0 "Jutlander"
+ KCR:0 "Kerch"
+ KCR_ADJ:0 "Kerch"
  KEN:0 "Kent"
  KEN_ADJ:0 "Kentish"
  KML:0 "Krimml"

@@ -1,9 +1,9 @@
 government = tribal
 add_government_reform = tribal_kingdom
 government_rank = 1
-primary_culture = circassian
+primary_culture = matregan
 religion = orthodox
-technology_group = rhomanian_tech
+technology_group = eastern
 capital = 2447	# Matrega
 fixed_capital = 2447
 
@@ -16,6 +16,6 @@ fixed_capital = 2447
 		mil = 4
 		birth_date = 1384.3.12
 		religion = orthodox
-		culture = circassian
+		culture = matregan
 	}
 }

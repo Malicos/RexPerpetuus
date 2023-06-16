@@ -4,7 +4,7 @@ government_rank = 2
 technology_group = nomad_group
 religion = jewish
 primary_culture = karaite
-capital = 286 # Haji Tarkhan
+capital = 3245 # Kerch
 
 1408.5.27 = {
 	monarch = {

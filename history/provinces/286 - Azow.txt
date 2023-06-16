@@ -3,7 +3,7 @@
 owner = AZK
 controller = AZK
 add_core = AZK
-culture = ashkenazi
+culture = karaite
 religion = jewish
 hre = no
 base_tax = 4 
