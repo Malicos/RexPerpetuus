@@ -1,0 +1,15 @@
+spriteTypes = {
+	spriteType = {
+		name = "mission_reindeer_herder"
+		texturefile = "gfx//interface//missions//mission_reindeer_herder.dds"
+	}
+	spriteType = {
+		name = "mission_bryggen_i_bergen"
+		texturefile = "gfx//interface//missions//mission_bryggen_i_bergen.dds"
+	}
+	spriteType = {
+		name = "mission_soldiers_dug_in"
+		texturefile = "gfx//interface//missions//mission_soldiers_dug_in.dds"
+	}
+}
+
