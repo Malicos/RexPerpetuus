@@ -101,7 +101,7 @@
 8087 = { "Óscar" "Óscar" }		#Huéscar
 8088 = { "Dênia" "Dênia" }		#Denia
 8089 = { "Mestrádego" "Peníscola" }		#Maestrazgo
-8090 = { "Viã" "Viã" }		#Viana
+8090 = { "Viana" "Viana" }		#Viana
 8091 = { "Veença" "Veença" }		#Valença
 8092 = { "Chaves" "Chaves" }		#Chaves
 8093 = { "Miranda" "Miranda do Douro" }		#Miranda

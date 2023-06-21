@@ -37,7 +37,6 @@
 8086 = { "Bera" "Bera" }		#Vera
 8087 = { "Huéscar" "Huéscar" }		#Huéscar
 8089 = { "Maestrazgo" "Peñíscola" }		#Maestrazgo
-8090 = { "Biana" "Biana" }		#Viana
 8091 = { "Balenza" "Balenza" }		#Valença
 8092 = { "Llabes" "Llabes" }		#Chaves
 8093 = { "Miranda" "Miranda del Duero" }		#Miranda
