@@ -129,6 +129,7 @@
 2753 = { "Narbõa" "Narbõa" }		#Narbonne
 3081 = { "Agenhês" "Agem" }		#Agenais
 4112 = { "Carcim" "Carcim" }		#Quercy
+4694 = { "Foixo" "Foixo" }		#Foix
 4695 = { "Carcassõa" "Carcassõa" }		#Carcassonne
 7900 = { "Bezeiros" "Bezeiros" }		#Béziers
 7904 = { "Alvi" "Alvi" }		#Albi

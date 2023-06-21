@@ -66,6 +66,7 @@
 176 = { "Bearno" "Palu" }		#Béarn
 197 = { "Roxillón" "Perpiñán" }		#Rousillon
 2753 = { "Narbona" "Narbona" }		#Narbonne
+4694 = { "Fuexu" "Fuexu" }		#Foix
 7900 = { "Beceiros" "Beceiros" }		#Béziers
 7905 = { "Millau" "Millau" }		#Millau
 7907 = { "Montalbanu" "Montalbanu" }		#Montauban

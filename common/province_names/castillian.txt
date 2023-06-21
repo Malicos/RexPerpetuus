@@ -51,7 +51,7 @@
 #Aquitaine
 175 = { "Armañaque" "Aux" }		#Armagnac
 197 = { "Rojillón" "Perpiñán" }		#Rousillon
-4694 = { "Huez" "Huez" }		#Foix
+4694 = { "Fuejo" "Fuejo" }		#Foix
 4695 = { "Carcasona" "Carcasona" }		#Carcassonne
 7900 = { "Beceros" "Beceros" }		#Béziers
 7905 = { "Millao" "Millao" }		#Millau

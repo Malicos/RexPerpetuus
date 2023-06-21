@@ -169,7 +169,7 @@
 3081 = { "Agenés" "Agén" }		#Agenais
 3083 = { "Labreto" "Labreto" }		#Albret
 4112 = { "Carcín" "Carcín" }		#Quercy
-4694 = { "Foice" "Foice" }		#Foix
+4694 = { "Foixo" "Foixo" }		#Foix
 4695 = { "Carcassona" "Carcassona" }		#Carcassonne
 7900 = { "Beceiros" "Beceiros" }		#Béziers
 7901 = { "Castros" "Castros" }		#Castres
