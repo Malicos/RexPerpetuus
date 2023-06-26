@@ -73,7 +73,7 @@
 8016 = { "Guipúzcoa" "San Sebastián" }		#Guipúzcoa
 8026 = { "Álaba" "Bitoria" }		#Álava
 8033 = { "Laredo" "Laredo" }		#Laredo
-8034 = { "Campó" "Reinosa" }		#Campoo
+8034 = { "Campoo" "Reinosa" }		#Campoo
 8035 = { "Gijón" "Gijón" }		#Gijón
 8036 = { "Arébalo" "Arébalo" }		#Arévalo
 8037 = { "Abilés" "Abilés" }		#Avilés
@@ -150,7 +150,7 @@
 8109 = { "Borja" "Borja" }		#Borja
 8110 = { "Sobrarbe" "Aínsa" }		#Sobrarbe
 8111 = { "Barbastro" "Barbastro" }		#Barbastro
-8113 = { "Osona" "Osona" }		#Osona
+8113 = { "Osona" "Vigo" }		#Osona
 8114 = { "Empúries" "Figueiras" }		#Empúries
 8115 = { "Tortosa" "Tortosa" }		#Tortosa
 8116 = { "Alcañiz" "Alcañiz" }		#Alcañiz

@@ -6,7 +6,7 @@
 239 = { "Glowcaster" "Glowcaster" }
 240 = { "Skropscire" "Screwsbirry" }
 244 = { "Lancaskire" "Lancaster" }
-245 = { "Eferwick" "Eferwick" }
+245 = { "Erwick" "Erwick" }
 246 = { "Norþumberland" "Alnwick" }
 249 = { "Ayrskire" "Ayr" }
 1860 = { "Norfolk" "Norwick" }
@@ -16,6 +16,7 @@
 4370 = { "Cambrig" "Cambrig" }
 4371 = { "Sussex" "Kicaster" }
 4372 = { "Worcaster" "Worcaster" }
+4373 = { "Deon" "Exeter" }
 4374 = { "Dorset" "Dorcaster" }
 4375 = { "Caskire" "Caster" }
 4376 = { "Leicaster" "Leicaster" }

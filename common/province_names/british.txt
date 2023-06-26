@@ -82,7 +82,7 @@
 4383 = { "Þe Earlshecg" "Þe Earlshecg" }
 4769 = { "Risel" "Risel" }
 7965 = { "Pontew" "Abbeywill" }
-7966 = { "Wermanscire" "Sant Cwint" }
+7966 = { "Warmanscire" "Sant Cwint" }
 7969 = { "Bonen" "Bonen-on-Sea" }
 7973 = { "Sant Edmer" "Sant Edmer" }
 7974 = { "Betton" "Betton" }
@@ -115,7 +115,7 @@
 7980 = { "Perc" "Mortany" }
 7981 = { "Drews" "Drews" }
 7982 = { "Lisews" "Lisews" }
-7983 = { "Falesy" "Falesy" }
+7983 = { "Falsy" "Falsy" }
 7984 = { "Bessen" "Bayus" }
 7985 = { "Mortan" "Mortan" }
 7986 = { "Constents" "Constents" }

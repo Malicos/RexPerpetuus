@@ -6,10 +6,10 @@
 207 = { "Ovedo" "Ovedo" }		#Oviedo
 208 = { "Leom" "Leom" }		#León
 209 = { "Viscaia" "Bilbau" }		#Biscay
-210 = { "Pamplõa" "Pamplõa" }		#Pamplona
+210 = { "Pamploa" "Pamploa" }		#Pamplona
 211 = { "Osca" "Osca" }		#Huesca
-212 = { "Gerõa" "Gerõa" }		#Gerona
-213 = { "Barcelõa" "Barcelõa" }		#Barcelona
+212 = { "Geroa" "Geroa" }		#Gerona
+213 = { "Barceloa" "Barceloa" }		#Barcelona
 214 = { "Saragoça" "Saragoça" }		#Zaragoza
 215 = { "Valadoíde" "Valadoíde" }		#Valladolid
 217 = { "Madride" "Madride" }		#Madrid
@@ -20,7 +20,7 @@
 222 = { "Almeria" "Almeria" }		#Almería
 224 = { "Sevilha" "Sevilha" }		#Sevilla
 225 = { "Córdova" "Córdova" }		#Córdoba
-227 = { "Lisbõa" "Lisbõa" }		#Lisbon
+227 = { "Lisboa" "Lisboa" }		#Lisbon
 228 = { "Viseu" "Viseu" }		#Viseu
 229 = { "Beja" "Beja" }		#Beja
 231 = { "Porto" "Porto" }		#Porto
@@ -33,7 +33,7 @@
 2754 = { "Cidade Real" "Cidade Real" }		#Ciudad Real
 2755 = { "Sória" "Sória" }		#Soria
 2987 = { "Urgelo" "Sé de Urgelo" }		#Urgel
-2988 = { "Tarragõa" "Tarragõa" }		#Tarragona
+2988 = { "Tarragoa" "Tarragoa" }		#Tarragona
 2989 = { "Rioja" "Logronho" }		#La Rioja
 2990 = { "Terol" "Terol" }		#Teruel
 3095 = { "Calataiude" "Calataiude" }		#Calatayud
@@ -90,7 +90,7 @@
 8072 = { "Luceia" "Luceia" }		#Lucena
 8073 = { "Pedroches" "Poçobranco" }		#Los Pedroches
 8074 = { "Palma do Rio" "Palma do Rio" }		#Palma del Río
-8075 = { "Carmõa" "Carmõa" }		#Carmona
+8075 = { "Carmoa" "Carmoa" }		#Carmona
 8076 = { "Écija" "Écija" }		#Écija
 8077 = { "Araceia" "Araceia" }		#Aracena
 8078 = { "Medina Sidônia" "Medina Sidônia" }		#Medina Sidonia
@@ -114,23 +114,23 @@
 8101 = { "Elvas" "Elvas" }		#Elvas
 8105 = { "Santiago do Cacem" "Santiago do Cacem" }		#Santiago do Cacém
 8106 = { "Castro Verde" "Castro Verde" }		#Castro Verde
-8113 = { "Osõa" "Osõa" }		#Osona
+8113 = { "Osoa" "Vigo" }		#Osona
 8116 = { "Alcaniz" "Alcaniz" }		#Alcañiz
 8117 = { "Albarracim" "Albarracim" }		#Albarracín
 8121 = { "Almadem" "Almadem" }		#Albarracín
 
 #Aquitaine
-173 = { "Baiõa" "Baiõa" }		#Bayonne
+173 = { "Baioa" "Baioa" }		#Bayonne
 174 = { "Bordéus" "Bordéus" }		#Bordeaux
 175 = { "Armanhaque" "Auxe" }		#Armagnac
 176 = { "Bearno" "Pau" }		#Béarn
 196 = { "Toosa" "Toosa" }		#Toulouse
 197 = { "Rouxilhom" "Perpinham" }		#Rousillon
-2753 = { "Narbõa" "Narbõa" }		#Narbonne
-3081 = { "Agenhês" "Agem" }		#Agenais
+2753 = { "Narboa" "Narboa" }		#Narbonne
+3081 = { "Agiês" "Agem" }		#Agenais
 4112 = { "Carcim" "Carcim" }		#Quercy
 4694 = { "Foixo" "Foixo" }		#Foix
-4695 = { "Carcassõa" "Carcassõa" }		#Carcassonne
+4695 = { "Carcassoa" "Carcassoa" }		#Carcassonne
 7900 = { "Bezeiros" "Bezeiros" }		#Béziers
 7904 = { "Alvi" "Alvi" }		#Albi
 7905 = { "Milhau" "Milhau" }		#Millau

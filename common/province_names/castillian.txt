@@ -18,7 +18,7 @@
 4559 = { "Menorca" "Ciudadilla de Menorca" }		#Menorca
 4787 = { "Ribatajo" "Santarén" }		#Ribatejo
 7889 = { "Andorra" "Andorra la Bieja" }		#Andorra
-8034 = { "Campó" "Renosa" }		#Campoo
+8034 = { "Campoo" "Renosa" }		#Campoo
 8040 = { "Mondoñedo" "Mondoñedo" }		#Mondonhedo
 8041 = { "Herrol" "Herrol" }		#Ferrol
 8042 = { "Santiago" "Santiago de Compostilla" }		#Santiago
