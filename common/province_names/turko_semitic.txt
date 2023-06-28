@@ -2,12 +2,49 @@
 
 #RP
 
+173 = { "Bayuna" "Bayuna" }
+174 = { "Burdawsh" "Burdawsh" }
+175 = { "Al-Manyak" "Awsh" }
+196 = { "Tulusah" "Tulusah" }
+206 = { "Al-Qurunya" "Al-Qurunya" }
+207 = { "Ubyad" "Ubyad" }
+209 = { "Al-Akhdar" "Bilbaw" }
+1756 = { "Burqush" "Burqush" }
+2753 = { "Narbun" "Narbun" }
 2987 = { "Urjill" "Al-Kursiyyu al-Urjill" }
+3083 = { "Al-Barat" "Al-Barat" }
+3104 = { "Bargha" "Bargha" }
 4549 = { "Shatiba" "Shatiba" } 
+4552 = { "Falansha" "Falansha" } 
+4554 = { "Al-Uk" "Al-Uk" } 
+4555 = { "Jisr Qadim" "Jisr Qadim" } 
+4558 = { "Awrinsi" "Awrinsi" } 
+4694 = { "Fuwash" "Fuwash" } 
 4788 = { "Ambaruz" "Ambaruz" } 
 7889 = { "Andura" "Andura" } 
 7903 = { "Tutilah" "Tutilah" } 
+7919 = { "Qumanj" "Al-Murat" } 
+7921 = { "Bighurra" "Tarbash" } 
+7923 = { "Nabarra al-Sufliya" "Safh al-Mamarri" } 
+7924 = { "Ad-Daqis" "Ad-Daqis" } 
+7925 = { "Al-Buj" "Ras al-Buj" } 
+7926 = { "Jabal al-Marsan" "Jabal al-Marsan" } 
+8016 = { "Ghibusq" "Dunastiya" } 
+8026 = { "Al-Lawa" "Al-Lawa" } 
+8033 = { "Al-Arit" "Al-Arit" } 
+8034 = { "Qambu'u" "Raynusa" } 
+8035 = { "Ghijun" "Ghijun" } 
 8036 = { "Ar-Rabalu" "Ar-Rabalu" } 
+8037 = { "Abilish" "Abilish" } 
+8038 = { "An-Nabiya" "An-Nabiya" } 
+8039 = { "Al-Tiniw" "Al-Tiniw" } 
+8040 = { "Jabal al-Awnit" "Jabal al-Awnit" } 
+8041 = { "Farul" "Farul" } 
+8043 = { "Jisr al-Hadid" "Jisr al-Hadid" } 
+8044 = { "Binabant" "Binabant" } 
+8045 = { "Sfaqun" "Sfaqun" } 
+8048 = { "Mir-Handul" "Mir-Handul al-'Ibra" } 
+8049 = { "Ar-Randha" "Ar-Randha" } 
 8051 = { "Kuliy'at" "Kuliy'at" } 
 8055 = { "Arankej" "Arankej" } 
 8057 = { "Al-Wahaj" "Al-Wahaj" } 
@@ -16,12 +53,18 @@
 8066 = { "Karabaqqa" "Karabaqqa" } 
 8073 = { "Bir 'Abyad" "Bir 'Abyad" } 
 8081 = { "Antakira" "Antakira" } 
+8090 = { "Biyanna" "Biyanna" } 
+8091 = { "Balansha" "Balansha" } 
+8092 = { "Al-Shabish" "Al-Shabish" } 
+8093 = { "Mir-Handul" "Mir-Handul ad-Duwayra" } 
+8094 = { "Al-Malakiya" "Al-Malakiya" } 
+8095 = { "Jabal al-Ghurab" "Jabal al-Ghurab" } 
 8097 = { "Qurtizah" "Qurtizah" } 
 8098 = { "Layrina" "Layrina" } 
-8099 = { "Wardah" "Wardah" } 
+8099 = { "Wardha" "Wardha" } 
 8108 = { "Yaqqa" "Yaqqa" } 
-8110 = { "Al-Ayyinsah" "Al-Ayyinsah" } 
-8113 = { "Awsuna" "Awsuna" } 
+8110 = { "Al-Ayyinsa" "Al-Ayyinsa" } 
+8113 = { "Awsuna" "Al-Bij" } 
 8121 = { "Al-Mada'in" "Al-Mada'in" } 
 
 #Levant
@@ -741,7 +784,6 @@
 
 #2018 Aug 11
 #iberia
-3104 = "Bragha"
 
 #westafrica
 1139 = "As-Sahi adh-Dhahabiu"
@@ -1312,7 +1354,7 @@
 8087 = "Ushkar"
 8088 = "Daniya"
 8089 = "Banáskula"
-8093 = "Mir-Hândul"
+8093 = "Mir-Handul"
 8096 = "Quwilah"
 8100 = "Marwán"
 8101 = "Al-Bash"
@@ -1644,7 +1686,6 @@
 #europe
 #corrections on older naming
 209 = "Bilbo"
-8026 = "Al-Laua"
 
 #beiras
 4556 = "'Afiru" #seemingly modern translation
@@ -2226,7 +2267,7 @@
 8096 = { "Quwilah" "Quwilah" } #
 8100 = { "Marwan" "Marwan" } #
 8101 = { "Al-Bash" "Al-Bash" } #
-8102 = { "Iistrimuz" "Iistrimuz" } #
+8102 = { "'Istrimuz" "'Istrimuz" } #
 8104 = { "Al-Manijah" "Al-Manijah" } #
 8106 = { "Martulah" "Martulah" } #
 8109 = { "Burya" "Burya" } #
