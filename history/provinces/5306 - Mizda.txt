@@ -1,8 +1,7 @@
 #New Beyond Typus Province
 
-owner = FZA
-controller = FZA 
-add_core = FZA
+owner = GDM
+controller = GDM
 add_core = GDM
 culture = libyan_berber_culture
 religion = ibadi

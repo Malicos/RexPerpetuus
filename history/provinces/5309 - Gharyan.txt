@@ -1,7 +1,8 @@
 #New Beyond Typus Province
 
-owner = TRP
-controller = TRP
+owner = GDM
+controller = GDM
+add_core = GDM
 add_core = TRP
 culture = libyan_berber_culture
 religion = ibadi

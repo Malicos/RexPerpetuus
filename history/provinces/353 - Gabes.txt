@@ -1,8 +1,8 @@
 #353 - Tataouine
 
-owner = KAI
-controller = KAI
-add_core = KAI
+owner = GDM
+controller = GDM
+add_core = GDM
 add_core = TRP
 culture = tunisian
 religion = sunni

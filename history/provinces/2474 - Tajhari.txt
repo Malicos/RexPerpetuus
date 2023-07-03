@@ -1,8 +1,8 @@
 # - Tajhari (Idehan Murzuq)
 
-owner = GHT
-controller = GHT
-add_core = GHT
+owner = FZA
+controller = FZA 
+add_core = FZA
 culture = fezzan_arabic
 religion = sunni
 capital = "Murzuq"

@@ -1,7 +1,8 @@
 #New Beyond Typus Province
 
-owner = KEF
-controller = KEF
+owner = TUN
+controller = TUN 
+add_core = TUN
 add_core = KEF
 culture = tunisian
 religion = sunni

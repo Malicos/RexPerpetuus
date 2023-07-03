@@ -1,8 +1,8 @@
 #New Beyond Typus Province
 
-owner = GHT
-controller = GHT
-add_core = GHT
+owner = FZA
+controller = FZA 
+add_core = FZA
 culture = fezzan_arabic
 religion = sunni
 capital = "Ghat"
