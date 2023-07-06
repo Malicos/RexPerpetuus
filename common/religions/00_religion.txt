@@ -1028,7 +1028,7 @@ christian = {
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
 
-		color = { 188 161 53 }
+		color = { 178 169 38 }
 		icon = 31
 		country = {
 			stability_cost_modifier = -0.1
