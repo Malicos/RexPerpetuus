@@ -3,8 +3,8 @@
 owner = SHQ
 controller = SHQ
 add_core = SHQ
-culture = ibri_culture
-religion = sunni
+culture = aragonese
+religion = catholic
 capital = "Jaca"
 base_tax = 1
 base_production = 1
