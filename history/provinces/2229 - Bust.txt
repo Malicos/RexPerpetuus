@@ -1,8 +1,8 @@
 #2229 - Bust
 
-owner = JDR
-controller = JDR
-add_core = JDR
+owner = SIS
+controller = SIS
+add_core = SIS
 add_core = KAB
 culture = pashtuni
 religion = sunni

@@ -1,9 +1,8 @@
 #435 - Sistan
 
-owner = JDR
-controller = JDR
-add_core = JDR
-add_core = KHO
+owner = SIS
+controller = SIS
+add_core = SIS
 culture = afghani
 religion = sunni
 capital = "Zaranj"

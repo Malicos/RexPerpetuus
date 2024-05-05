@@ -1,8 +1,8 @@
 #4327 - Jask
 
-owner = JDR
-controller = JDR
-add_core = JDR
+owner = JDS
+controller = JDS
+add_core = JDS
 add_core = ORM
 culture = khamseh
 religion = sunni

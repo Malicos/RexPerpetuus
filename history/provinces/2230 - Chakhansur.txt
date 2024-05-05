@@ -1,9 +1,8 @@
 #2230 - Chakansur
 
-owner = JDR
-controller = JDR
-add_core = JDR
-add_core = KHO
+owner = SIS
+controller = SIS
+add_core = SIS
 culture = pashtuni
 religion = sunni
 capital = "Chakansur"

@@ -1,8 +1,9 @@
 #430 - Bushehr
 
-owner = BUS
-controller = BUS
-add_core = BUS
+owner = JDS
+controller = JDS
+add_core = JDS
+add_core = LRI
 culture = luri
 religion = sunni
 capital = "Bushehr"

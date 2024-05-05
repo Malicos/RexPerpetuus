@@ -30,12 +30,6 @@ historical_units = {
 }
 
 monarch_names = {
-	# RP RULER NAMES
-	"Jahan #1" = 10
-	"Hakam #1" = 10
-	"Salahaddin #1" = 10
-	"Ashraf #1" = 10
-
 	# RANDOM NAMES - MALE
 	"Joneid #0" = 10
 	"Haidar #0" = 10

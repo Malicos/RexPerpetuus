@@ -1,8 +1,8 @@
 #429 - Isfahan
 
-owner = QOM
-controller = QOM
-add_core = QOM
+owner = JDS
+controller = JDS
+add_core = JDS
 add_core = ISF
 culture = persian
 religion = sunni

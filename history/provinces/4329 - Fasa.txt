@@ -1,7 +1,8 @@
 #4329 - Fasa and Jahrum
 
-owner = FRS
-controller = FRS
+owner = JDS
+controller = JDS
+add_core = JDS
 add_core = FRS
 culture = persian
 religion = sunni

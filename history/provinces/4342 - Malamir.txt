@@ -1,7 +1,8 @@
 #4342 - Malamir
 
-owner = LRI
-controller = LRI
+owner = JDS
+controller = JDS
+add_core = JDS
 add_core = LRI
 culture = luri
 religion = sunni

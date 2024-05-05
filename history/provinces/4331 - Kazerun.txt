@@ -1,8 +1,8 @@
 #4331 - Kazerun
 
-owner = FRS
-controller = FRS
-add_core = FRS
+owner = JDS
+controller = JDS
+add_core = JDS
 add_core = LRI
 culture = luri
 religion = sunni
