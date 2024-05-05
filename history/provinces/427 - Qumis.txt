@@ -1,7 +1,8 @@
 #427 - Qumis
 
-owner = SAB
-controller = SAB
+owner = KHJ
+controller = KHJ
+add_core = KHJ
 add_core = SAB
 culture = khorasani
 religion = sunni

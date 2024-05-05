@@ -1,7 +1,8 @@
 #441 - Khiva
 
-owner = KLS
-controller = KLS
+owner = KHJ
+controller = KHJ
+add_core = KHJ
 add_core = KLS
 culture = karluk
 religion = sunni

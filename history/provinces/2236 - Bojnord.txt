@@ -1,7 +1,8 @@
 #2236 - Bojnord
 
-owner = SAB
-controller = SAB
+owner = KHJ
+controller = KHJ
+add_core = KHJ
 add_core = SAB
 culture = xorasani
 religion = sunni
