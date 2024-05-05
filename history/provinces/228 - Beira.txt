@@ -2,12 +2,11 @@
 #Region - Iberia
 #Area - Beiras
 
-owner = CDB
-controller = CDB
-add_core = CDB
-add_core = SHS
-culture = batalyawsi
-religion = sunni
+owner = TOM
+controller = TOM
+add_core = TOM
+culture = galician
+religion = catholic
 capital = "Viseu"
 trade_goods = wine
 hre = no

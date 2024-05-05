@@ -2,11 +2,11 @@
 #Region - Iberia
 #Area - Castille
 
-owner = CDB
-controller = CDB
-add_core = CDB
-culture = ibri_culture
-religion = sunni
+owner = CAS
+controller = CAS
+add_core = CAS
+culture = castillian
+religion = catholic
 hre = no
 base_tax = 3 
 base_production = 3 

@@ -6,12 +6,11 @@ latent_trade_goods = {
 	coal
 }
 
-owner = CDB
-controller = CDB
-add_core = CDB
-add_core = SHS
-culture = batalyawsi
-religion = sunni
+owner = POR
+controller = POR
+add_core = POR
+culture = galician
+religion = catholic
 capital = "Aveiro"
 trade_goods = salt			#Major salt production centre going back a long time it seems
 hre = no

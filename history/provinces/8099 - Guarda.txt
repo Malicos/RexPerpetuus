@@ -1,11 +1,10 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = CDB
-controller = CDB
-add_core = CDB
-add_core = SHS
-culture = batalyawsi
-religion = sunni
+owner = TOM
+controller = TOM
+add_core = TOM
+culture = galician
+religion = catholic
 capital = "Guarda"
 base_tax = 3
 base_production = 3
