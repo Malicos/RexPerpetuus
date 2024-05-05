@@ -33,11 +33,11 @@ historical_units = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Surxap #1" = 10
-	"Vahhab #1" = 10
-	"Jahanshah #3" = 60
-	"Fariborz #1" = 10
-	"Shahryar #1" = 10
+	"Surxap #0" = 10
+	"Vahhab #0" = 10
+	"Jahanshah #0" = 60
+	"Fariborz #0" = 10
+	"Shahryar #0" = 10
 
 	# RANDOM NAMES - MALE
 	"Mir Ways #0" = 20

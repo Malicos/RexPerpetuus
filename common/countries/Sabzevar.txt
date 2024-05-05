@@ -31,10 +31,10 @@ historical_units = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Arzhang #1" = 10
-	"Houshmand #1" = 10
-	"Parsa #1" = 10
-	"Fariborz #1" = 10
+	"Arzhang #0" = 10
+	"Houshmand #0" = 10
+	"Parsa #0" = 10
+	"Fariborz #0" = 10
 
 	# RANDOM NAMES - MALE
 	"Abdul-Aziz #0" = 20

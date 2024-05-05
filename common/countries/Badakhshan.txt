@@ -31,7 +31,7 @@ historical_units = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Artuk #1" = 10
+	"Artuk #0" = 10
 
 	# RANDOM NAMES - MALE
 	"Joneid #0" = 30
