@@ -282,7 +282,7 @@ transjurania_area = {
 
 castille_area = {
 	color = { 58 58 207 }
-	1746 2755 2989 8047 8048 8049 
+	1746 2755 2989 8047 8048 8049 8051 
 }
 asturias_area = {
 	207 1745 8033 8034 8035 8037 8038 8039 
@@ -298,22 +298,28 @@ basque_country = {
 }
 leon_area = {
 	color = { 243 235 28 }
-	208 215 4552 4553 8043 8044 8045 
+	208 4552 8043 8044 8045 
 }
 macaronesia_area = {
 	366 367 368 4565 5096 
 }
 minho_duoro_area = { # BT
-	231 232 3104 8090 8091 8092 8093 8094 8095 
+	231 3104 4556 8090 8091 
+}
+tras_os_montes_area = { # RP
+	228 232 8092 8094 8095 8099 
+}
+valdura_area = { # RP
+	215 216 4553 8036 8050 8093 
 }
 belatha_area = { # RP
-	227 228 1851 4556 4787 8097 8098 8103
+	227 1851 4787 8097 8098 8103
 }
 gharb_al_andalus_area = { # RP
-	229 230 3108 4150 8100 8101 8102 8105 8106 8107
+	229 230 3108 4150 8100 8101 8102 8105 8106 8107 
 }
 shenshir_area = { # RP
-	216 218 1747 3099 4788 8050 8060 8061 8063 8096 8099
+	218 1747 3099 4788 8060 8061 8063 8096 
 }
 ash_sharaf_area = { # RP
 	224 4548 8062 8075 8077 8104
@@ -322,7 +328,7 @@ al_yazirat_area = { # RP
 	226 1749 8078 8079 8080
 }
 ash_sherrat_area = { # RP
-	217 219 4551 4789 8036 8051 8052 8053 8054 8055
+	217 219 4551 4789 8052 8053 8054 8055
 }
 mawsat_al_andalus_area = { # RP
 	2754 8057 8058 8059 8060 8073 8121 
@@ -477,16 +483,16 @@ highlands_area = { #8
 	252 4110 3137 3138 8153 8154 8155 8152
 }
 
-eastern_lowlands_area = { 
-	248 4361 8145 8146 8148
-}
+# eastern_lowlands_area = { #Cut from RP
+#	
+# }
 
 wales_area = { #6
 	242 8138 8139 8140 8141
 }
 
 northern_england_area = { #4
-	246 4368 8136 8137
+	246 248 4361 4368 8136 8137 8145 8146 
 }
 
 mercia_area = { #8
@@ -505,8 +511,8 @@ east_anglia_area = { #3
 	1860 3028 4370
 }
 
-western_lowlands_area = { 
-	249 3008 3019 4362 8147
+western_lowlands_area = { #Repurposed into just Lowlands for RP
+	249 3008 3019 4362 8147 8148
 }
 
 three_kingdoms_area = {

@@ -250,9 +250,14 @@
  south_america:0 "Elysia"
 
  # Areas
+ minho_duoro_area_name:0 "Portugal"
+ minho_duoro_area_adj:0 "Portuguese"
  northern_england_area:0 "Bernicia"
  northern_england_area_name:0 "Bernicia"
  northern_england_area_adj:0 "Bernician"
+ western_lowlands_area:0 "Lowlands"
+ western_lowlands_area_name:0 "Strathclyde"
+ western_lowlands_area_adj:0 "Strathclydean"
  tunisia_area:0 "Africa"
  tunisia_area_name:0 "Africa"
  tunisia_area_adj:0 "African"
