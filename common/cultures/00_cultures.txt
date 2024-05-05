@@ -2296,10 +2296,6 @@ french = {
 		primary = DAU
 	}
 	#BtPLegacy Culture
-	poitevin_culture = {
-		#primary = XXX
-	}
-	#BtPLegacy Culture
 	picard_culture = {
 		primary = PIC
 	}
@@ -2456,6 +2452,10 @@ occitanic = { #Names taken from Occitan Renaissance, by Perry
 			#Other Nobility (Leaders for tags)
 			#"de Bodinat" "de Montagut" #Unsure of Occitan Spelling - "de Barrin"
 		}
+	}
+	#BtPLegacy Culture
+	poitevin_culture = {
+		#primary = XXX
 	}
 	gascon = {
 		primary = GUY
