@@ -1,8 +1,8 @@
 #4335 - Kashan
 
-owner = QOM
-controller = QOM
-add_core = QOM
+owner = TEH
+controller = TEH
+add_core = TEH
 add_core = ISF
 culture = kalimi
 religion = jewish

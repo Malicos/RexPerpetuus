@@ -1,8 +1,8 @@
 #4337 - Savah
 
-owner = QOM
-controller = QOM
-add_core = QOM
+owner = TEH
+controller = TEH
+add_core = TEH
 culture = persian
 religion = sunni
 capital = "Savah"
