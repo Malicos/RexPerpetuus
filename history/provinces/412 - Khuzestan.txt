@@ -1,8 +1,8 @@
 #412 - Khuzestan
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = ABS
+controller = ABS
+add_core = ABS
 add_core = MSY
 culture = saljuqid
 religion = sunni

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Qayyarah"
 is_city = yes
-owner = SJK
-controller = SJK
+owner = ABS
+controller = ABS
 
 #Demographics
 culture = al_iraqiya_arabic
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = gems #(JP) Bitumen, not a clue what to show this as, but gems are pretty wealthy so yeah
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SJK
+add_core = ABS
 
 #Other Political
 hre = no

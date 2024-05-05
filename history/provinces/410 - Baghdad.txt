@@ -1,8 +1,8 @@
 #410 - Iraq-i-Arab
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = ABS
+controller = ABS
+add_core = ABS
 culture = saljuqid
 religion = sunni
 capital = "Baghdad"

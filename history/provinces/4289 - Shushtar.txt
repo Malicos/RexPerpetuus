@@ -1,8 +1,8 @@
 #4289 - Shushtar
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = ABS
+controller = ABS
+add_core = ABS
 add_core = MSY
 culture = kalimi
 religion = jewish

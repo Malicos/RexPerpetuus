@@ -1,7 +1,8 @@
 #414 - Hamadan
 
-owner = LRI
-controller = LRI
+owner = DAY
+controller = DAY
+add_core = DAY
 add_core = LRI
 culture = luri
 religion = sunni

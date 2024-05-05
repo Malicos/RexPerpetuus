@@ -5,8 +5,8 @@
 #Core Details
 capital = "Zab"
 is_city = yes
-owner = SJK
-controller = SJK
+owner = ABS
+controller = ABS
 
 #Demographics
 culture = assyrian_culture
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = SJK
+add_core = ABS
 
 #Other Political
 hre = no

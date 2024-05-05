@@ -1,8 +1,8 @@
 #2209 - Ilam
 
-owner = SJK
-controller = SJK
-add_core = SJK
+owner = ABS
+controller = ABS
+add_core = ABS
 add_core = LRI
 culture = saljuqid
 religion = sunni
