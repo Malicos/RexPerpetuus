@@ -1,7 +1,8 @@
 #448 - Gazni
 
-owner = KAB
-controller = KAB
+owner = DDR
+controller = DDR
+add_core = DDR
 add_core = KAB
 culture = pashtuni
 religion = sunni

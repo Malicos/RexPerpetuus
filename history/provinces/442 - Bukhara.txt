@@ -1,7 +1,8 @@
 #442 - Bukhara
 
-owner = KLS
-controller = KLS
+owner = DDR
+controller = DDR
+add_core = DDR
 add_core = KLS
 culture = karluk
 religion = sunni

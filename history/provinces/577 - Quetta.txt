@@ -1,7 +1,8 @@
 #577 - Quetta
 
-owner = KAB
-controller = KAB
+owner = DDR
+controller = DDR
+add_core = DDR
 add_core = KAB
 add_core = KLA
 culture = pashtuni

@@ -1,7 +1,8 @@
 #451 - Kabulistan
 
-owner = KAB
-controller = KAB
+owner = DDR
+controller = DDR
+add_core = DDR
 add_core = KAB
 culture = afghani
 religion = sunni

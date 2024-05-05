@@ -1,7 +1,8 @@
 #452 - Badakhshan
 
-owner = BDS
-controller = BDS
+owner = DDR
+controller = DDR
+add_core = DDR
 add_core = BDS
 culture = pamiri
 religion = sunni

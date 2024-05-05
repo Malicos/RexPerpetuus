@@ -1,7 +1,8 @@
 #2227 - Kunduz
 
-owner = BKH
-controller = BKH
+owner = DDR
+controller = DDR
+add_core = DDR
 add_core = BKH
 culture = afghani
 religion = sunni

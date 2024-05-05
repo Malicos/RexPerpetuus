@@ -2,7 +2,7 @@
 
 graphical_culture = muslimgfx
 
-color = { 50 200 180 }
+color = { 163 121 57 }
 
 historical_idea_groups = {
 	defensive_ideas
@@ -30,6 +30,11 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Dundar #1" = 10
+	"Abbas #1" = 10
+	"Kharmandar #1" = 10
+
 	# RANDOM NAMES - MALE
 	"Joneid #0" = 30
 	"Haidar #0" = 30

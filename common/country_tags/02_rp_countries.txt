@@ -286,6 +286,7 @@ TAL = "countries/Talysh.txt"
 TEH = "countries/Teheran.txt"
 JDS = "countries/Jahanids.txt"
 RZV = "countries/Razavids.txt"
+DDR = "countries/Dundarids.txt"
 
 # Central Asia
 BHD = "countries/BlueHorde.txt"

@@ -1,8 +1,8 @@
 #2225 - Bamyan
 
-owner = JDR
-controller = JDR
-add_core = JDR
+owner = DDR
+controller = DDR
+add_core = DDR
 add_core = KAB
 culture = hazara
 religion = sunni

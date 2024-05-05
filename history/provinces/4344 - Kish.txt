@@ -1,7 +1,8 @@
 #4344 - Kish
 
-owner = SGD
-controller = SGD
+owner = DDR
+controller = DDR
+add_core = DDR
 add_core = SGD
 culture = tajik
 religion = sunni
