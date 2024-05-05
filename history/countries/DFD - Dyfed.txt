@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = welsh
 religion = catholic
 technology_group = western
-capital = 4369 # Camarthen
+capital = 4369 # Dyfed
 fixed_capital = 4369 # Cannot move capital away from this province & no power cost to move to it
 government_rank = 1
 

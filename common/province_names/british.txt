@@ -49,7 +49,7 @@
 8126 = { "Norþampton" "Norþampton" }
 8127 = { "Bedford" "Bedford" }
 8128 = { "Warwic" "Warwic" }
-8129 = { "Hereford" "Hereford" }
+8129 = { "Ircenfeeld" "Ircenham" }
 8130 = { "Stafford" "Stafford" }
 8131 = { "Snottingham" "Snottingham" }
 8133 = { "Scipton" "Scipton" }
@@ -62,7 +62,7 @@
 8140 = { "Denbige" "Denbige" }
 8141 = { "Merioneþ" "Dolgelley" }
 8143 = { "Carmarþen" "Carmarþen" }
-8144 = { "Monmuþ" "Monmuþ" }
+8144 = { "Gwentscire" "Cargwent" }
 8145 = { "Tweeddale" "Peebels" }
 8146 = { "Þe Merse" "Greenlaw" }
 8147 = { "Lennox" "Dumbarton" }

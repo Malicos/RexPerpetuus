@@ -3,13 +3,13 @@
 #Region - Britain
 
 #Core Details
-capital = "Monmouth"
+capital = "Caerwent"
 is_city = yes
-owner = MGS
-controller = MGS
+owner = GWE
+controller = GWE
 
 #Demographics
-culture = sexish_culture
+culture = welsh
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MGS
 add_core = GWE
 
 #Other Political

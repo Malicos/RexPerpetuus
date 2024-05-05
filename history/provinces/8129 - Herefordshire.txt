@@ -3,10 +3,10 @@
 #Region - Britain
 
 #Core Details
-capital = "Hereford"
+capital = "Ergyng"
 is_city = yes
-owner = MGS
-controller = MGS
+owner = PWS
+controller = PWS
 
 #Demographics
 culture = welsh
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = bt_trade_good_fruit
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MGS
 add_core = PWS
 add_core = GWE
 
@@ -28,7 +27,6 @@ hre = no
 add_local_autonomy = 25
 
 #Fort/Other Buildings
-fort_15th = yes	#Hereford Castle, frontier outpost of Maggenset.
 
 #Special Modifiers
 

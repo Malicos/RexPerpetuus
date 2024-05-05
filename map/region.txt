@@ -73,6 +73,8 @@ iberia_region = { # 23 areas
 		leon_area
 		macaronesia_area
 		minho_duoro_area
+		tras_os_montes_area
+		valdura_area
 		belatha_area
 		gharb_al_andalus_area
 		shenshir_area

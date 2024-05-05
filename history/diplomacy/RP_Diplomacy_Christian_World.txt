@@ -21,15 +21,8 @@
 ####################################################################
 # 1 - Northern Isles (Albion)
 ####################################################################
-# March of Maggenset (Mercia)
-march = {
-	first = MID
-	second = MGS
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
 
-# March of Peckset (Mercia)
+# March of Pexet (Mercia)
 march = {
 	first = MID
 	second = PCK
@@ -37,7 +30,7 @@ march = {
 	end_date = 1836.1.1
 }
 
-# March of Wreakset (Mercia)
+# March of Wroxet (Mercia)
 march = {
 	first = MID
 	second = WKS
@@ -1140,8 +1133,7 @@ vassal = {
 }
 
 # Galicia and Portugal
-vassal = {
-	subject_type = fiefdom_bt
+march = {
 	first = GAL
 	second = POR
 	start_date = 1444.11.11
@@ -1149,8 +1141,7 @@ vassal = {
 }
 
 # Galicia and Tras-os-Montes
-vassal = {
-	subject_type = fiefdom_bt
+march = {
 	first = GAL
 	second = TOM
 	start_date = 1444.11.11
