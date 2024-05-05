@@ -2,17 +2,17 @@
 
 graphical_culture = muslimgfx
 
-color = { 125 165 239 }
+color = { 122 33 100 }
 
 historical_idea_groups = {
-	administrative_ideas
-	religious_ideas
 	defensive_ideas
-	trade_ideas
-	economic_ideas
+	religious_ideas
 	offensive_ideas
-	maritime_ideas
-	quantity_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
 }
 
 historical_units = {
@@ -30,6 +30,15 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Mahyar #1" = 10
+	"Siamak #1" = 10
+	"Kamran #1" = 10
+	"Ismâ'îl #1" = 30
+	"Mani #1" = 10
+	"Murad #1" = 10
+	"Arash #3" = 60
+
 	# RANDOM NAMES - MALE
 	"Joneid #0" = 30
 	"Haidar #0" = 30
@@ -79,6 +88,16 @@ monarch_names = {
 }
 
 leader_names = {
+	Abiwardi
+	Halabi
+	Farrash
+	Murshid
+	Bawardi
+	Qadi
+	Simnani
+	Banu Tamim
+	Khidrshah
+	Chuhra
 	Sabiri
 	Jalili
 	Azizi
