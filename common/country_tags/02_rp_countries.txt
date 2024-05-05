@@ -279,12 +279,12 @@ BDS = "countries/Badakhshan.txt"
 BKH = "countries/Balkh.txt"
 BUS = "countries/Bushehr.txt"
 DAY = "countries/Daylam.txt"
-JDR = "countries/Jahandarids.txt"
 KAB = "countries/Kabul.txt"
 KLA = "countries/Kalat.txt"
 MRN = "countries/Makran.txt"
 SAB = "countries/Sabzevar.txt"
 TAL = "countries/Talysh.txt"
+TEH = "countries/Teheran.txt"
 
 # Central Asia
 BHD = "countries/BlueHorde.txt"

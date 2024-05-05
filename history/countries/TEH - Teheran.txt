@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = persian
+add_accepted_culture = kalimi
+religion = sunni
+technology_group = iranian_tech
+capital = 428 # Teheran
+
+1435.12.22 = {
+	monarch = {
+		name = "Aurang"
+		dynasty = "Sadri"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1400.4.21
+		religion = sunni
+		culture = persian
+	}
+}
