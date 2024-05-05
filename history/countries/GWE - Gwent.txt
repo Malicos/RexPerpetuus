@@ -3,8 +3,8 @@ add_government_reform = feudalism_reform
 primary_culture = welsh
 religion = catholic
 technology_group = western
-capital = 241 # Glamorgan
-fixed_capital = 241 # Cannot move capital away from this province & no power cost to move to it
+capital = 8144 # Caerwent
+fixed_capital = 8144 # Cannot move capital away from this province & no power cost to move to it
 government_rank = 1
 
 1430.10.6 = {

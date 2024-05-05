@@ -243,13 +243,15 @@
  east_african:0 "Eastern Ethiopian"
  central_african:0 "Central Ethiopian"
  sub_saharan:0 "Western Ethiopian"
-
- # Continents
- africa:0 "Ethiopia"
- north_america:0 "Vesperia"
- south_america:0 "Elysia"
+ 
+ # Provinces
+ PROV8129:0 "Ergyng"
+ PROV_ADJ8129:0 "Ergyngian"
+ PROV8144:0 "Caerwent"
+ PROV_ADJ8144:0 "Caerwentian"
 
  # Areas
+ castille_area:0 "Castile"
  minho_duoro_area_name:0 "Portugal"
  minho_duoro_area_adj:0 "Portuguese"
  northern_england_area:0 "Bernicia"
@@ -363,6 +365,11 @@
  central_america_superregion:0 "Mexikha"
  south_america_superregion:0 "Elysia"
  china_superregion:0 "Cathay"
+
+ # Continents
+ africa:0 "Ethiopia"
+ north_america:0 "Vesperia"
+ south_america:0 "Elysia"
  
  # Sea Regions and Areas
  hudson_bay_sea_region:0 "Bay of Helluland"
