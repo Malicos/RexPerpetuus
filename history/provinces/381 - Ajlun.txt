@@ -1,7 +1,8 @@
 #381 - Ajloun
 
-owner = AJL
-controller = AJL
+owner = UTJ
+controller = UTJ
+add_core = UTJ
 add_core = AJL
 culture = al_suryah_arabic
 religion = sunni

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Kyrenia"
 is_city = yes
-owner = CIL
-controller = CIL
+owner = KNT
+controller = KNT
 
 #Demographics
 culture = cypriot
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = bt_trade_good_fruit
 
 #Cores and Occupation (Alphabetical after current)
-add_core = CIL
+add_core = KNT
 add_core = CYP
 
 #Other Political

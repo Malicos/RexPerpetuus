@@ -5,8 +5,8 @@
 #Core Details
 capital = "Azraq"
 is_city = yes
-owner = AJL
-controller = AJL
+owner = UTJ
+controller = UTJ
 
 #Demographics
 culture = al_suryah_arabic
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = livestock #(JP) Bedouin tribal area
 
 #Cores and Occupation (Alphabetical after current)
+add_core = UTJ
 add_core = AJL
 
 #Other Political
