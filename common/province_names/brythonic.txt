@@ -4,6 +4,8 @@
 #(JP) I make absolutely 0 claim to speak, understand, or even comprehend celtic languages. Please correct me when I am wrong!
 
 #England
+247 = { "Hen Ogledd" "Caerliwelydd" }
+8135  = { "Y Waun" "Trefafal" }
 
 #Wales
 
@@ -22,7 +24,7 @@
 3139 = { "Angus" "Forfar" }
 4110 = { "Caithness" "Wick" }
 4361 = { "Teviotdale" "Jedburgh" } #(JP) Earlier "Roxburgh" for capital
-4362 = { "Dumfries" "Dumfries" }
+4362 = { "Din Prys" "Din Prys" }
 4363 = { "Argyle" "Tarbert" }
 4364 = { "Inner Hebrides" "Finlaggan" }
 4365 = { "Mann" "Castletown" }
@@ -58,7 +60,6 @@
 4365 = "Manaw"			#Brythonic version
 4110 = "Gwlad Cat"				#Brythonic version, perhaps not ideal, but going with it
 4363 = "Ymyl Wyddelod"			#Brythonic version, Beyond Typus invention. (just a literal translation of the original name, which works okay here)
-4362 = "Din Prys"			#Brythonic version
 4361 = "Rhyd Eirian"			#Brythonic version, Beyond Typus invention, a translation of the origin of the capital name (an Geal Ath), which is itself a bit odd (adj-n instead of n-adj as would be expected. I may have to look into this more)
 3139 = "Caer Cinn"			#Taken from CK2, actually really interesting history/idea here, so I'm using it.
 4364 = "Ynysoedd Mewnol"			#Brythonic version

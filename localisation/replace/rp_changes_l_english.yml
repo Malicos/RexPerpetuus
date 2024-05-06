@@ -247,8 +247,8 @@
  # Provinces
  PROV8129:0 "Ergyng"
  PROV_ADJ8129:0 "Ergyngian"
- PROV8144:0 "Caerwent"
- PROV_ADJ8144:0 "Caerwentian"
+ PROV8144:0 "Gwent"
+ PROV_ADJ8144:0 "Gwentian"
 
  # Areas
  castille_area:0 "Castile"

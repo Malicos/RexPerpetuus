@@ -1,4 +1,4 @@
-#RP, using acute accents for macrons, using nawaprusiskan
+#RP, using acute accents for macrons, using nawaprusiskan reconstruction
 
 #Prussia
 40 = { "Mémeli" "Mémeli" }
