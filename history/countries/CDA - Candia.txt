@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = cretan
-religion = orthodox
+religion = catholic
 technology_group = rhomanian_tech
 capital = 163 # Candia
 fixed_capital = 163
@@ -15,7 +15,7 @@ fixed_capital = 163
 		dip = 4
 		mil = 4
 		birth_date = 1403.10.19
-		religion = orthodox
+		religion = catholic
 		culture = cretan
 	}
 }
