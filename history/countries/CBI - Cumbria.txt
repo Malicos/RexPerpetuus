@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = cumbrian
+primary_culture = cumbrian_culture
 religion = catholic
 technology_group = western
 capital = 247 # Cumberland
