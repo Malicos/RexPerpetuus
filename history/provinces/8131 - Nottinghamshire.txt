@@ -3,13 +3,13 @@
 #Region - Britain
 
 #Core Details
-capital = "Nottingham"
+capital = "Snottingham"
 is_city = yes
 owner = MID
 controller = MID
 
 #Demographics
-culture = english
+culture = denlegian
 religion = catholic
 
 #Development and Trade
