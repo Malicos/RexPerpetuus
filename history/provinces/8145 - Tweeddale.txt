@@ -9,7 +9,7 @@ owner = JRV
 controller = JRV
 
 #Demographics
-culture = highland_scottish
+culture = northumbrian
 religion = catholic
 
 #Development and Trade

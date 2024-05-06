@@ -2,9 +2,9 @@
 #Region - Britain
 #Area - Western Lowlands
 
-owner = STC
-controller = STC
-add_core = STC
+owner = DMF
+controller = DMF
+add_core = DMF
 culture = cumbrian_culture
 religion = catholic
 hre = no
@@ -14,6 +14,7 @@ trade_goods = bt_trade_good_beer
 base_manpower = 2
 capital = "Dumfries"
 is_city = yes
+fort_15th = yes
 
 discovered_by = western
 discovered_by = muslim_tech

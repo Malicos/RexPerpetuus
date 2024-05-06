@@ -2,9 +2,8 @@
 #Region - Britain
 #Area - Western Lowlands
 
-owner = STC
-controller = STC
-add_core = STC
+owner = GWY
+controller = GWY
 add_core = GWY
 culture = gallgaidheil			#Galwegian Gaelic seems to have lasted longer than Gaelic in other parts of Lowland Scotland
 religion = catholic

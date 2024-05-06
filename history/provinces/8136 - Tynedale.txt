@@ -10,7 +10,7 @@ controller = JRV
 add_core = JRV
 
 #Demographics
-culture = denlegian
+culture = northumbrian
 religion = catholic
 
 #Development and Trade
