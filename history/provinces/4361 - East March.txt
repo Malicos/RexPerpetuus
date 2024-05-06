@@ -5,7 +5,7 @@
 owner = JRV
 controller = JRV
 add_core = JRV
-culture = highland_scottish
+culture = northumbrian
 religion = catholic
 hre = no
 base_tax = 2

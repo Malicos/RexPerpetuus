@@ -62,6 +62,22 @@ guarantee = {
 	end_date = 1836.1.1
 }
 
+# Strathclyde and Galloway
+vassal = {
+	first = STC
+	second = GWY
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Strathclyde and Dumfries
+march = {
+	first = STC
+	second = DMF
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 ####################################################################
 # 2 - France, Occitania and Lotharingia
 ####################################################################

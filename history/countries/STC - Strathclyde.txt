@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = gallgaidheil
-add_accepted_culture = highland_scottish
+primary_culture = highland_scottish
+add_accepted_culture = gallgaidheil
 religion = catholic
 technology_group = western
 capital = 3019	# Strathclyde
@@ -16,6 +16,6 @@ government_rank = 1
 		mil = 3
 		birth_date = 1391.3.30
 		religion = catholic
-		culture = gallgaidheil
+		culture = highland_scottish
 	}
 }

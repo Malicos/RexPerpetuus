@@ -20,7 +20,6 @@ trade_goods = bt_trade_good_fruit
 
 #Cores and Occupation (Alphabetical after current)
 add_core = PWS
-add_core = GWE
 
 #Other Political
 hre = no
