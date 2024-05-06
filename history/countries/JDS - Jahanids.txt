@@ -5,7 +5,7 @@ primary_culture = persian
 add_accepted_culture = luri
 religion = sunni
 technology_group = iranian_tech
-capital = 429 # Isfahan
+capital = 2218 # Shiraz
 
 1419.10.1 = {
 	monarch = {
