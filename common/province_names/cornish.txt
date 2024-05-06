@@ -27,5 +27,8 @@
 3036 = "Keredigion"
 
 #Kernow
-233 = "Kernow"
-4373 = "Dewnens"			#Capital Karesk, think that may be modern, though.
+233 = { "Kernow" "Truru" } 
+4130 = { "Gwlas an Hav" "Tredon" } 
+4373 = { "Dewnens" "Karesk" } 			#Capital Karesk, think that may be modern, though.
+4374 = { "Gwlas an Dhorn" "Dorngora" } 			#
+8122 = { "Dewnens Kledh" "Peul an Gasvool"}			#Unsure of consonant mutation happens here, currently guessing it doesn't but if it does then this should be "Dewnens Gledh", capital is a likely botched translation of Barnstaple
