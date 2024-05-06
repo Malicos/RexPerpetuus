@@ -1,7 +1,21 @@
 government = monarchy
 add_government_reform = iqta
-government_rank = 1
-primary_culture = persian
-religion = shiite
-technology_group = muslim_tech
-capital = 433 # Kerman
+government_rank = 2
+technology_group = ottoman
+primary_culture = khorasani
+religion = sunni
+capital = 433 # Yazd
+religious_school = hanafi_school
+
+1435.4.13 = {
+	monarch = {
+		name = "Arash III"
+		dynasty = "Razavid"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1415.9.20
+		religion = sunni
+		culture = khorasani
+	}
+}

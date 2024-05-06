@@ -5,12 +5,12 @@ primary_culture = saljuqid
 add_accepted_culture = al_iraqiya_arabic
 religion = sunni
 technology_group = iranian_tech
-capital = 408	# Basra
+capital = 445	# Merv
 
 1434.5.19 = {
 	monarch = {
 		name = "Erdehan"
-		dynasty = "Seljuk"
+		dynasty = "Khalji"
 		adm = 4
 		dip = 4
 		mil = 5
