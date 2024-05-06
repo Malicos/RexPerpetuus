@@ -1,8 +1,9 @@
  
 #2313 - Antioch
 
-owner = ATC
-controller = ATC
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = ATC
 culture = antiochene
 religion = orthodox

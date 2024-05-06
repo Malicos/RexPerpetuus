@@ -1,8 +1,9 @@
  
 #1849 - Homs
 
-owner = DMC
-controller = DMC
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = DMC
 culture = al_suryah_arabic			#Ibn Batuta visited Homs in 1355, writing that it had fine trees, good markets, and a fine Friday Mosque, noting that all of its inhabitants were Arabs.
 religion = sunni

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Rabha"
 is_city = yes
-owner = ABS
-controller = ABS
+owner = ALM
+controller = ALM
 
 #Demographics
 culture = al_iraqiya_arabic
@@ -19,7 +19,8 @@ base_manpower = 2
 trade_goods = livestock #(JP) site used to protect semi-nomadic herders
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ABS
+add_core = ALM
+add_core = RAY
 
 #Other Political
 hre = no

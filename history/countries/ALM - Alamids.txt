@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = al_suryah_arabic
+religion = shiite
+technology_group = muslim_tech
+capital = 382	# Damascus
+fixed_capital = 382 
+
+1420.10.5 = {
+	monarch = {
+		name = "Fayiz II"
+		dynasty = "Alam"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1396.11.18
+		religion = shiite
+		culture = al_suryah_arabic
+	}
+}

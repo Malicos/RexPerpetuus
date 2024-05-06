@@ -5,8 +5,8 @@
 #Core Details
 capital = "Busayra"
 is_city = yes
-owner = RAY
-controller = RAY
+owner = ALM
+controller = ALM
 
 #Demographics
 culture = al_iraqiya_arabic
@@ -19,6 +19,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
+add_core = ALM
 add_core = RAY
 
 #Other Political

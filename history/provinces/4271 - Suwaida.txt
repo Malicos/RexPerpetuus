@@ -1,8 +1,9 @@
  
 #4271 - Suwaida
 
-owner = APO
-controller = APO
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = APO
 culture = syriac_culture
 religion = syriac

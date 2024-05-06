@@ -5,8 +5,8 @@
 #Core Details
 capital = "Suluk"
 is_city = yes
-owner = EDS
-controller = EDS
+owner = ALM
+controller = ALM
 
 #Demographics
 culture = kurdish
@@ -19,6 +19,7 @@ base_manpower = 1
 trade_goods = livestock #(JP) Tribal Kurdish areas
 
 #Cores and Occupation (Alphabetical after current)
+add_core = ALM
 add_core = EDS
 
 #Other Political

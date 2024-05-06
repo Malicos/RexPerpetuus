@@ -1,9 +1,10 @@
  
 #4297 - Homs
 
-owner = TYE
-controller = TYE
-add_core = TYE
+owner = ALM
+controller = ALM
+add_core = ALM
+add_core = BUT
 culture = outremer
 religion = catholic
 capital = "Ba'albek"

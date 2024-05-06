@@ -5,8 +5,8 @@
 #Core Details
 capital = "Sidon"
 is_city = yes
-owner = TYE
-controller = TYE
+owner = ALM
+controller = ALM
 
 #Demographics
 culture = outremer
@@ -19,7 +19,8 @@ base_manpower = 2
 trade_goods = cotton
 
 #Cores and Occupation (Alphabetical after current)
-add_core = TYE
+add_core = ALM
+add_core = BUT
 
 #Other Political
 hre = no

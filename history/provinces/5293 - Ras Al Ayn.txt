@@ -1,7 +1,8 @@
 #New Province
 
-owner = RAY
-controller = RAY
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = RAY
 capital = "Ras al-Ayn"
 culture = assyrian_culture

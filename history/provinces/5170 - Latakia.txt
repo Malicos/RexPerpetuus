@@ -1,5 +1,6 @@
-owner = LTK
-controller = LTK
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = LTK
 culture = al_suryah_arabic
 religion = sunni

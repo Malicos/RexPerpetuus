@@ -1,8 +1,9 @@
  
 #382 - Damascus
 
-owner = DMC
-controller = DMC
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = DMC
 culture = al_suryah_arabic
 religion = shiite

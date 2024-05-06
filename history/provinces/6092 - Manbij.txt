@@ -5,8 +5,8 @@
 #Core Details
 capital = "Manbij"
 is_city = yes
-owner = AIB
-controller = AIB
+owner = ALM
+controller = ALM
 
 #Demographics
 culture = al_iraqiya_arabic
@@ -19,6 +19,7 @@ base_manpower = 1
 trade_goods = grain #(JP) Fertile Manbij plain
 
 #Cores and Occupation (Alphabetical after current)
+add_core = ALM
 add_core = AIB
 
 #Other Political

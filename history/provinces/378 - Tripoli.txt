@@ -1,8 +1,9 @@
  
 #378 - Tripoli
 
-owner = BUT
-controller = BUT
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = BUT
 culture = syriac_culture
 religion = catholic						#Maronites

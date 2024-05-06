@@ -1,8 +1,9 @@
  
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = BUT
-controller = BUT
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = BUT
 culture = syriac_culture
 religion = catholic						#Maronites

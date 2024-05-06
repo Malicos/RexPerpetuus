@@ -1,8 +1,8 @@
 #New Province
 
-owner = RAY
-controller = RAY
-add_core = RAY
+owner = SIN
+controller = SIN
+add_core = SIN
 capital = "Hasakah"
 culture = assyrian_culture
 religion = nestorian

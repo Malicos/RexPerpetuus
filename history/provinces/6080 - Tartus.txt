@@ -5,8 +5,8 @@
 #Core Details
 capital = "Tartus"
 is_city = yes
-owner = LTK
-controller = LTK
+owner = ALM
+controller = ALM
 
 #Demographics
 culture = al_suryah_arabic
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = naval_supplies #(JP) Port and forests
 
 #Cores and Occupation (Alphabetical after current)
+add_core = ALM
 add_core = LTK
 
 #Other Political

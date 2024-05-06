@@ -1,7 +1,8 @@
 #4398 - Ayntab
 
-owner = AIB
-controller = AIB
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = AIB
 culture = al_iraqiya_arabic
 religion = sunni			

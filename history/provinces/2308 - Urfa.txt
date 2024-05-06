@@ -1,7 +1,8 @@
 #2308 - Cizre
 
-owner = EDS
-controller = EDS
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = EDS
 culture = kurdish
 religion = sunni

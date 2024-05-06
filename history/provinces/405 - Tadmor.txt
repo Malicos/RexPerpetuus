@@ -1,8 +1,9 @@
  
 #405 - Tadmor
 
-owner = PYA
-controller = PYA
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = PYA
 culture = syriac_culture
 religion = syriac				

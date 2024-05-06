@@ -1,7 +1,8 @@
 #407 - Ar-Raqqah
 
-owner = RAK
-controller = RAK
+owner = ALM
+controller = ALM
+add_core = ALM
 add_core = RAK
 culture = al_iraqiya_arabic
 religion = sunni				#The city retained an active Christian community well into the Middle Ages
