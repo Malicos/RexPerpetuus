@@ -1210,8 +1210,16 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# Jerusalem and Ultrajordania
+# Jerusalem and Tyre
 vassal = {
+	first = KOJ
+	second = TYE
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Jerusalem and Ultrajordania
+march = {
 	first = KOJ
 	second = UTJ
 	start_date = 1444.11.11
