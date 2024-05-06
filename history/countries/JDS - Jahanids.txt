@@ -7,7 +7,7 @@ add_accepted_culture = xorasani
 add_accepted_culture = khorasani
 add_accepted_culture = persian
 religion = sunni
-capital = 446 # Herat
+capital = 2218 # Shiraz
 religious_school = hanafi_school
 
 1421.2.8 = {

@@ -4,8 +4,7 @@ government_rank = 1
 primary_culture = al_suryah_arabic
 religion = shiite
 technology_group = muslim_tech
-capital = 382	# Damascus
-fixed_capital = 382 
+capital = 1849	# Homs, Damascus is too close to enemy territory at game start, but it should be possible to move there by even or mission later
 
 1420.10.5 = {
 	monarch = {

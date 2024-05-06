@@ -4,4 +4,4 @@ government_rank = 1
 primary_culture = persian
 religion = shiite
 technology_group = muslim_tech
-capital = 433 # Kerman
+capital = 433 # Yazd
