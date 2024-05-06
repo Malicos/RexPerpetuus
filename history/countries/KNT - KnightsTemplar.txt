@@ -5,7 +5,7 @@ technology_group = western
 primary_culture = cosmopolitan_french
 add_accepted_culture = neapolitan
 religion = catholic
-capital = 7011
+capital = 5139
 
 #historical_friend = XXX
 historical_rival = KNI
