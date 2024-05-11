@@ -20,3 +20,13 @@
  rp_flavour_abbasids.2.d:0 "placeholder"
  rp_flavour_abbasids.2.a:0 "placeholder"
  
+ #Celtic Events
+ celtic.1.t:0 "Reconquest of Dublin"
+ celtic.1.d:0 ""
+ celtic.1.a:0 "purge gallwegians"
+ celtic.1.b:0 "chilling with ma gallwegian bois B)"
+
+ celtic.2.t:0 "Reconquest of Lodainn"
+ celtic.2.d:0 ""
+ celtic.2.a:0 "purge denlegians"
+ celtic.2.b:0 "chilling with ma denlegian bois B)"
