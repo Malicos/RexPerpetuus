@@ -51,9 +51,11 @@ house_of_wisdom = {
 			factor = 1000
 		}
 		province_modifiers = {
-			institution_growth = 0.01
+			institution_growth = 0.1
 		}
 		area_modifier = {
+		}
+		region_modifier = {
 		}
 		country_modifiers = {
 			global_institution_spread = 0.1
@@ -70,9 +72,11 @@ house_of_wisdom = {
 			factor = 2500
 		}
 		province_modifiers = {
-			institution_growth = 0.02
+			institution_growth = 0.2
 		}
 		area_modifier = {
+		}
+		region_modifier = {
 		}
 		country_modifiers = {
 			global_institution_spread = 0.2
@@ -92,7 +96,9 @@ house_of_wisdom = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			institution_growth = 0.02
+			institution_growth = 0.2
+		}
+		region_modifier = {
 		}
 		country_modifiers = {
 			global_institution_spread = 0.3
