@@ -1,0 +1,6 @@
+spriteTypes = {
+
+		spriteType = {
+		name = "GFX_great_project_house_of_wisdom"	
+		texturefile = "gfx//interface//great_projects//great_project_house_of_wisdom.dds"
+	}
