@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BIS
-controller = BIS
-add_core = BIS
+owner = SKH
+controller = SKH
+add_core = SKH
 culture = bisseni
 religion = orthodox
 capital = "Ekaterinoslav"			#Error, name from 1776, named after Catherine the Great, 1729 to 1796, and city founded mid 1500s, but no better options showing up quickly

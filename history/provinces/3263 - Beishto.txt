@@ -1,9 +1,10 @@
 #3263 - Beishto
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = RDH
+controller = RDH
+add_core = RDH
 add_core = ALN
+add_core = KMK
 culture = kumyk
 religion = orthodox
 hre = no

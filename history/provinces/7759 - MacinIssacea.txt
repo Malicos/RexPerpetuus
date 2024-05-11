@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = PAI
-controller = PAI
-add_core = PAI
+owner = BIS
+controller = BIS
+add_core = BIS
 culture = moldavian_culture		
 religion = orthodox
 capital = "Isaccea"

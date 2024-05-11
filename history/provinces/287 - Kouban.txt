@@ -1,8 +1,8 @@
 #287 - Kouban
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = RDH
+controller = RDH
+add_core = RDH
 culture = toqsoba
 religion = sunni
 hre = no

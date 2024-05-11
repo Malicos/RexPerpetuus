@@ -1,8 +1,8 @@
 # 2365 - Orda
 
-owner = AST
-controller = AST
-add_core = AST
+owner = RDH
+controller = RDH
+add_core = RDH
 culture = astrakhani
 religion = sunni
 capital = "Orda"

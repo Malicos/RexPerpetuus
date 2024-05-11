@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = SKH
+controller = SKH
+add_core = SKH
 culture = toqsoba
 religion = sunni
 capital = "Aleksandrovka"			#Nothing here 'til the late 18th century... so.... getting creative. Modern Donetsk

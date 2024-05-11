@@ -1,8 +1,8 @@
 #4706 - Tulcea
 
-owner = PAI
-controller = PAI
-add_core = PAI
+owner = BIS
+controller = BIS
+add_core = BIS
 culture = moldavian_culture		#Unclear if Bulgarian or Romanian majority.
 religion = orthodox
 capital = "Tulcea"

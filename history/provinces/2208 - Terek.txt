@@ -1,7 +1,8 @@
 #2208 - Terek
 
-owner = KMK
-controller = KMK
+owner = RDH
+controller = RDH
+add_core = RDH
 add_core = KMK
 culture = kumyk
 religion = shiite

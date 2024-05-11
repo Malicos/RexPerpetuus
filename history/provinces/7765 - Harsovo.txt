@@ -1,8 +1,9 @@
 #BT Balkans reoverhaul
 
-owner = PAI
-controller = PAI
-add_core = PAI
+owner = BIS
+controller = BIS
+add_core = BIS
+add_core = VAR
 culture = moesian
 religion = orthodox
 capital = "Harsovo"

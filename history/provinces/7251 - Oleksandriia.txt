@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BIS
-controller = BIS
-add_core = BIS
+owner = SKH
+controller = SKH
+add_core = SKH
 culture = bisseni
 religion = orthodox
 capital = "Kamiani Potoky"			#formerly Buhogard. Kamiani Potoky was an early 16th century zaporizhian town, but nothing better showing up right now and it is better than Oleksandriia.

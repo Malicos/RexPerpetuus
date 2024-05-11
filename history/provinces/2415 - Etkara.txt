@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Tambov
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = MDV
+controller = MDV
+add_core = MDV
 culture = mordvin
 religion = orthodox
 hre = no

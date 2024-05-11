@@ -1,7 +1,8 @@
 # Giurgiu
 
-owner = WAL
-controller = WAL
+owner = BIS
+controller = BIS
+add_core = BIS 
 add_core = WAL
 culture = romanian
 religion = orthodox

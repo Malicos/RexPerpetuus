@@ -1,8 +1,8 @@
 #3244 - Qirim
 
-owner = GTH
-controller = GTH
-add_core = GTH
+owner = SKH
+controller = SKH
+add_core = SKH
 culture = goths
 religion = orthodox
 hre = no

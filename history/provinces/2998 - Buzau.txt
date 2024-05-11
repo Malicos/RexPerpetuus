@@ -1,7 +1,9 @@
 #2998 - Buzau
 
-owner = WAL
-controller = WAL  
+owner = BIS
+controller = BIS
+add_core = BIS 
+add_core = WAL
 culture = romanian
 religion = orthodox
 capital = "Buzau"
@@ -11,7 +13,6 @@ base_tax = 2
 base_production = 2 
 base_manpower = 1 
 is_city = yes
-add_core = WAL
 
 discovered_by = KAZ
 discovered_by = CRI

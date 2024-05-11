@@ -2,9 +2,9 @@
 #Region - Ruthenia
 #Area - Sloboda Ukraine
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = SKH
+controller = SKH
+add_core = SKH
 culture = toqsoba
 religion = sunni
 hre = no

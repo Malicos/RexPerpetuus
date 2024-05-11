@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BIS
-controller = BIS
-add_core = BIS
+owner = KIE
+controller = KIE
+add_core = KIE
 culture = bisseni
 religion = orthodox
 capital = "Olviopol"			#Insignificant village probably founded in the 16th or maybe late 15th century, but nothing better is showing up easily

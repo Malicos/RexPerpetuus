@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = SKH
+controller = SKH
+add_core = SKH
 culture = toqsoba
 religion = sunni
 capital = "Kamianyi Brid"			#Cossacks settlement, probably dating to circa 17th century... no better options.

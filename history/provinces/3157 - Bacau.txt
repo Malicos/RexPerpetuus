@@ -1,8 +1,8 @@
 #3157 - Bacau
 
-owner = MOL
-controller = MOL
-add_core = MOL
+owner = BIS
+controller = BIS
+add_core = BIS
 culture = moldavian_culture
 religion = orthodox
 hre = no

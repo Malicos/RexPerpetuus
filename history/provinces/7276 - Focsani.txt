@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = MOL
-controller = MOL
-add_core = MOL
+owner = BIS
+controller = BIS
+add_core = BIS
 culture = moldavian_culture
 religion = orthodox
 capital = "Focshani"

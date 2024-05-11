@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = PAI
-controller = PAI
-add_core = PAI
+owner = VAR
+controller = VAR
+add_core = VAR
 culture = bulgarian
 religion = orthodox
 capital = "halych"			#Would decline in favour of Ruse later, but in 1444 it appears to have remained the Ottoman admin centre for the area.

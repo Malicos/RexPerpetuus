@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BHD
-controller = BHD
-add_core = BHD
+owner = SKH
+controller = SKH
+add_core = SKH
 culture = toqsoba
 religion = sunni
 capital = "Chuhuiv"			#Dates to circa 1600 so.... better than most of Wild Fields, but still really horrible.

@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BIS
-controller = BIS
-add_core = BIS
+owner = KIE
+controller = KIE
+add_core = KIE
 culture = bisseni
 religion = orthodox
 capital = "Voznesensk"			#Error, founded 1790. No better options showing up quickly, though

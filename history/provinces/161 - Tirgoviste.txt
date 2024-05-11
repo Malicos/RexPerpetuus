@@ -1,7 +1,9 @@
 #161 - Tîrgoviste
 
-owner = WAL
-controller = WAL 
+owner = BIS
+controller = BIS
+add_core = BIS 
+add_core = WAL
 culture = romanian
 religion = orthodox
 capital = "Tîrgoviste"
@@ -12,7 +14,6 @@ base_production = 3
 base_manpower = 2 
 is_city = yes
 #fort_15th = yes
-add_core = WAL
 
 discovered_by = KAZ
 discovered_by = CRI

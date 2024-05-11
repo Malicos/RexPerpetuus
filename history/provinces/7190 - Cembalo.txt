@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = OPT
-controller = OPT
-add_core = OPT
+owner = GTH
+controller = GTH
+add_core = GTH
 culture = pontic_greek
 religion = orthodox
 capital = "Cembalo"
