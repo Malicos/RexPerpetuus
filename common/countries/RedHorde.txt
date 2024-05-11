@@ -1,8 +1,8 @@
-# Blue Horde
+# Red Horde
 
 graphical_culture = muslimgfx
 
-color = { 50 150 180 }
+color = { 255 33 59 }
 
 historical_idea_groups = {
 	economic_ideas
