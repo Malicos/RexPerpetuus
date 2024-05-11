@@ -1,0 +1,73 @@
+namespace = celtic
+
+country_event = {
+	id = celtic.1
+	title = celtic.1.t
+	desc = celtic.1.d
+	picture = RAMADAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = celtic.1.a
+
+		add_treasury = 50
+		373 = {
+            change_culture = irish
+            add_base_tax = -5
+            add_base_production = -5
+            add_base_manpower = -5
+            add_devastation = 100
+		}
+
+        add_country_modifier = {
+            name = celtic_vendeta
+            duration = -1
+        }
+    }
+
+    option = {
+        name = celtic.1.b
+            add_prestige = 25
+            373 = {
+                add_core = ROOT
+            }
+    }
+}
+
+country_event = {
+	id = celtic.2
+	title = celtic.2.t
+	desc = celtic.2.d
+	picture = RAMADAN_eventPicture
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = celtic.2.a
+
+		add_treasury = 50
+		248 = {
+            change_culture = highland_scottish
+            add_base_tax = -5
+            add_base_production = -5
+            add_base_manpower = -5
+            add_devastation = 100
+		}
+
+        add_country_modifier = {
+            name = celtic_vendeta
+            duration = -1
+        }
+    }
+
+    option = {
+        name = celtic.2.b
+            add_prestige = 25
+            248 = {
+                add_core = ROOT
+            }
+    }
+}
