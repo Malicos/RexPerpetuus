@@ -809,10 +809,9 @@ country_decisions = {
 		provinces_to_highlight = {
 			OR = {
 				region = ireland_region # Brian; changed from _area
-				area = lowlands_area
-				area = scottish_marches_area
+				area = western_lowlands_area
 				area = highlands_area
-				area = kingdom_of_the_isles_area
+				area = southern_isles_area
 				area = grampians_area
 			}
 			OR = {
@@ -836,13 +835,12 @@ country_decisions = {
 			num_of_owned_provinces_with = {
 				is_core = ROOT
 				OR = {
-					area = lowlands_area
-					area = scottish_marches_area
+					area = western_lowlands_area
 					area = highlands_area
-					area = kingdom_of_the_isles_area
+					area = southern_isles_area
 					area = grampians_area
 				}
-				value = 21			#3/4 of Scotland's 28 provinces
+				value = 18			#3/4 of Scotland's 24 provinces
 			}
 			total_development = 400			#Special discount for cultural union of a small group. Normal requirement for rank 3 is 2000 dev, so this is 80 percent discounted. Note base dev in 1444 Ireland and Scotland is around 360 total
 			prestige = 25			#Special discount. Normal requirement for rank 2 is 75 prestige, so this is 2/3rds discounted
