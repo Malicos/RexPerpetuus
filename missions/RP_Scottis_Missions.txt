@@ -1,0 +1,497 @@
+lodainn_branch = {
+    slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+        OR = {
+            primary_culture = gallgaidheil
+            primary_culture = highland_scottish
+        }
+    }
+
+    retake_lodainn = {
+		icon = overshadow_venice
+		position = 1
+		provinces_to_highlight = {
+            province_id = 248
+            NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			owns = 248
+		}
+
+		effect = {
+			country_event = { id = celtic.2 }
+		}
+	}
+}
+
+conquest_branch = {
+    slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+        OR = {
+            primary_culture = gallgaidheil
+            primary_culture = highland_scottish
+        }
+    }
+
+    unite_scotland = {
+		icon = mission_dominate_home_trade_node
+		position = 2
+		required_missions = { retake_lodainn }
+		provinces_to_highlight = {
+			OR = {
+                area = western_lowlands_area
+				area = highlands_area
+				area = southern_isles_area
+				area = grampians_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			owns_all_provinces = {
+				area = western_lowlands_area
+			}
+			owns_all_provinces = {
+				area = highlands_area
+			}
+			owns_all_provinces = {
+				area = southern_isles_area
+			}
+			owns_all_provinces = {
+				area = grampians_area
+			}
+		}
+
+		effect = {
+			random_owned_province = {
+				limit = { has_port = yes }
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+			}
+			add_country_modifier = {
+				name = prepare_for_ireland
+				duration = 7300
+			}
+		}
+	}
+
+	gaelic_unity = {
+		icon = mission_dominate_home_trade_node
+		position = 3
+		required_missions = { unite_scotland }
+		provinces_to_highlight = {
+			culture_group = gaelic
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			owns_all_provinces = {
+				culture_group = gaelic
+			}
+		}
+
+		effect = {
+			british_isles_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	unite_british_isles = {
+		icon = mission_dominate_home_trade_node
+		position = 4
+		required_missions = { gaelic_unity }
+		provinces_to_highlight = {
+			region = british_isles_region
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			owns_all_provinces = {
+				region = british_isles_region
+			}
+		}
+
+		effect = {
+			random_owned_province = {
+				limit = { has_port = yes }
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+				galley = ROOT
+			}
+			add_country_modifier = {
+				name = prepare_for_gaul
+				duration = -1
+			}
+			austrasia_region = {
+				add_permanent_claim = ROOT
+			}
+			neustria_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	invade_gaul = {
+		icon = mission_dominate_home_trade_node
+		position = 5
+		required_missions = { unite_british_isles }
+		provinces_to_highlight = {
+			OR = {
+				region = austrasia_region
+				region = neustria_region
+			}
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				OR = {
+					region = austrasia_region
+					region = neustria_region
+				}
+				value = 30
+			}
+		}
+
+		effect = {
+			burgundy_region = {
+				add_permanent_claim = ROOT
+			}
+			aquitaine_region = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+}
+
+cultural_domination_branch = {
+    slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+        OR = {
+            primary_culture = gallgaidheil
+            primary_culture = highland_scottish
+        }
+    }
+
+	destroy_denlegian_culture = {
+		icon = mission_dominate_home_trade_node
+		position = 2
+		required_missions = { retake_lodainn }
+		provinces_to_highlight = {
+			culture = gallwegian
+		}
+
+		trigger = {
+			all_province = {
+				NOT = {
+					culture = denlegian
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = scottish_lowlands
+				duration = 7300
+			}
+		}
+	}
+
+	destroy_gallwegian_culture = {
+		icon = mission_dominate_home_trade_node
+		position = 3
+		required_missions = { destroy_denlegian_culture }
+		provinces_to_highlight = {
+			culture = gallwegian
+		}
+
+		trigger = {
+			all_province = {
+				NOT = {
+					culture = gallwegian
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = gaelic_renaissance
+				duration = 18250
+			}
+		}
+	}
+
+	destroy_anglosaxon_culture = {
+		icon = mission_dominate_home_trade_node
+		position = 5
+		required_missions = { destroy_denlegian_culture }
+		provinces_to_highlight = {
+			culture_group = british
+		}
+
+		trigger = {
+			all_province = {
+				NOT = {
+					culture_group = british
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = rulers_of_britania
+				duration = -1
+			}
+		}
+
+	}
+
+}
+
+trade_branch = {
+    slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+        OR = {
+            primary_culture = gallgaidheil
+            primary_culture = highland_scottish
+        }
+    }
+
+	subjugate_man = {
+		icon = mission_dominate_home_trade_node
+		position = 2
+		required_missions = { retake_lodainn }
+		provinces_to_highlight = {
+			province_id = 4365
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			owns = 4365
+		}
+
+		effect = {
+			4365 = {
+				light_ship = ROOT
+				light_ship = ROOT
+				center_of_trade = 1
+				add_building = dock
+			}
+		}
+	}
+
+	irish_sea_domination = {
+		icon = mission_dominate_home_trade_node
+		position = 3
+		required_missions = { subjugate_man }
+		provinces_to_highlight = {
+			province_id = 8138
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			1284 = {
+				is_strongest_trade_power = ROOT
+			}
+			owns = 8138
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = drunken_sailor
+				duration = -1
+			}
+			8138 = {
+				light_ship = ROOT
+				light_ship = ROOT
+				center_of_trade = 1
+				add_building = dock
+			}
+		}
+	}
+
+    lamanche_foothold = {
+		icon = mission_dominate_home_trade_node
+		position = 4
+		required_missions = { irish_sea_domination }
+		provinces_to_highlight = {  }
+
+		trigger = {
+			1269 = {
+				num_of_centers_of_trade = 1
+			}
+		}
+
+		effect = {
+			add_mercantilism = 2
+			add_country_modifier = {
+				name = new_opportunities
+				duration = 7300
+			}
+		}
+	}
+
+	lamanche_domination = {
+		icon = mission_dominate_home_trade_node
+		position = 5
+		required_missions = { lamanche_foothold }
+		provinces_to_highlight = {  }
+
+		trigger = {
+			1269 = {
+				is_strongest_trade_power = ROOT
+			}
+		}
+
+		effect = {
+			add_mercantilism = 5
+			add_country_modifier = {
+				name = trade_behemoth
+				duration = -1
+			}
+		}
+	}
+}
+
+colonial_branch = {
+    slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+        OR = {
+            primary_culture = gallgaidheil
+            primary_culture = highland_scottish
+        }
+    }
+
+    ytre_soroya_port = {
+		icon = mission_dominate_home_trade_node
+		position = 3
+		required_missions = { subjugate_man }
+		provinces_to_highlight = {
+			province_id = 253
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			owns = 253
+		}
+
+		effect = {
+			define_explorer = {
+				shock = 0
+				fire = 0
+				manuever = 6
+				siege = 0
+			}
+		}
+	}
+
+    amerika_ya = {
+		icon = mission_dominate_home_trade_node
+		position = 4
+		required_missions = { ytre_soroya_port }
+		provinces_to_highlight = {  }
+
+		trigger = {
+			any_province = {
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+				has_discovered = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = brand_new_world
+				duration = 3650
+			}
+		}
+	}
+
+	sun_never_sets = {
+		icon = mission_dominate_home_trade_node
+		position = 5
+		required_missions = { amerika_ya }
+		provinces_to_highlight = {  }
+
+		trigger = { num_of_continents = 3 }
+
+		effect = {
+			add_country_modifier = {
+				name = sun_never_sets_on_gaelic_empire
+				duration = -1
+			}
+		}
+	}
+
+}
+
+final_reward_branch = {
+    slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+        OR = {
+            primary_culture = gallgaidheil
+            primary_culture = highland_scottish
+        }
+    }
+
+    celtic_rebirth = {
+		icon = overshadow_venice
+		position = 6
+		required_missions = {
+            invade_gaul
+            destroy_anglosaxon_culture
+            lamanche_domination
+        }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {
+			custom_tooltip = celtic_rebirth_tooltip
+			add_country_modifier = {
+				name = push_for_europe
+				duration = 18250
+			}
+			if = {
+				limit = { in_golden_age = yes }
+				extend_golden_age = 6000
+			}
+			else = {
+				reset_golden_age = yes
+			}
+		}
+	}
+}
