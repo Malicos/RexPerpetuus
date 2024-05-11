@@ -1,0 +1,69 @@
+############################################################
+#         BONUSES FROM CELTIC MISSION TREE
+############################################################
+celtic_vendeta = {
+    land_morale = 0.1
+    culture_conversion_cost = -0.25
+    improve_relation_modifier = -0.333
+}
+
+prepare_for_britain = {
+    naval_forcelimit = 5
+    galley_power = 0.1
+}
+
+prepare_for_ireland = {
+    naval_forcelimit = 5
+    galley_power = 0.1
+}
+
+prepare_for_gaul = {
+    naval_forcelimit = 10
+    galley_power = 0.15
+}
+
+irish_cities = {
+    monthly_splendor = 1
+}
+
+scottish_lowlands = {
+    monthly_splendor = 1
+}
+
+gaelic_renaissance = {
+    monthly_splendor = 1
+}
+
+rulers_of_britania = {
+    monthly_splendor = 1
+    army_tradition = 1
+}
+
+push_for_europe = {
+    movement_speed = 0.25
+    core_creation = -0.25
+    ae_impact = 0.05
+}
+
+drunken_sailor = {
+    global_ship_trade_power = 0.2
+}
+
+new_opportunities = {
+    trade_efficiency = 0.2
+}
+
+trade_behemoth = {
+    trade_efficiency = 0.25
+    merchants = 1
+}
+
+brand_new_world = {
+    colonists = 1
+}
+
+sun_never_sets_on_gaelic_empire = {
+    prestige = 1
+    global_institution_spread = 1
+    merchants = 1
+}
