@@ -1,0 +1,49 @@
+war_of_the_ravens = {
+
+    potential = {
+        TAG = NOR
+        NOT = {
+            has_country_flag = had_avens
+        }
+
+    }
+
+    can_start = {
+        is_year = 1444
+    }
+
+    can_stop = {
+        is_year = 1500
+    }
+
+    can_end = {
+        war_score_against = {
+            who = NCW
+            value = 100
+        }
+    }
+
+    progress = {
+        modifier = {
+            factor = 50
+            exists = ROOT
+        }
+    }
+
+    ended_by_country_breaking_to_rebels = no
+
+    modifier = {
+        legitimacy = -10
+    }
+
+    on_start = waroftheravens.1
+    on_end = waroftheravens.2
+
+    on_monthly = {
+        random_events = {
+                900 = 0
+                100 = waroftheravens.3
+        }
+}
+
+}
