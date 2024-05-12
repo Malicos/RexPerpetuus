@@ -45,7 +45,7 @@ first_british_branch = {
 		effect = {  }
 	}
 
-	sexian_conquest = {
+	sexish_conquest = {
 		icon = overshadow_venice
 		position = 4
 		required_missions = { conquer_mercia }
