@@ -5,8 +5,8 @@
 #Core Details
 capital = "Longwy"
 is_city = yes
-owner = LOT
-controller = LOT
+owner = AUT
+controller = AUT
 
 #Demographics
 culture = lorraine_culture
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = iron
 
 #Cores and Occupation (Alphabetical after current)
-add_core = LOT
+add_core = AUT
 
 #Other Political
 hre = yes

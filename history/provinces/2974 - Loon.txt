@@ -2,9 +2,9 @@
 #Region - Low Countries
 #Area - Liege
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = AUT
+controller = AUT
+add_core = AUT
 is_city = yes
 capital = "Loon"
 culture = luxembourgish_culture

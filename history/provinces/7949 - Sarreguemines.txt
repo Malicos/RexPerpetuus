@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = AUT
+controller = AUT
+add_core = AUT
 culture = hessian
 religion = catholic
 capital = "Sarreguemines"			#Niki wanted Bitche

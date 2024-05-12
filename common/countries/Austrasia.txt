@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 144 80 60 }
+color = { 188 207 173 }
 
 historical_idea_groups = {
 	administrative_ideas
@@ -35,21 +35,12 @@ historical_units = {
 
 monarch_names = {
 	# RP RULER NAMES
-	"Diepold #1" = 10
-	"Diepert #2" = 20
-	"Siegbert #3" = 60
-	"Ludwig #6" = 60
-	"Hilpert #2" = 20
-	"Tagenbert #3" = 60
-	"Hilfreich #1" = 10
-	"Clotaire #3" = 60
-	"Thierry #3" = 60
-	"Childéric #1" = 30
-	"Karlmann #1" = 10
-	"Lothar #2" = 100
-	"Arnulf #1" = 10
-	"Schwanderbald #1" = 10
-	"Karl #4" = 100
+	"Aumund #2" = 20
+	"Manfried #2" = 20
+	"Marhrzen #1" = 10
+	"Steffen #2" = 20
+	"Erchenbold #1" = 10
+	"Friedrich #1" = 10
 
 	# RULER NAMES - MALE
 	"Johann #0" = 20

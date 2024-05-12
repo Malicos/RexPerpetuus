@@ -2,9 +2,9 @@
 #Region - Low Countries
 #Area - Brabant
 
-owner = LOT
-controller = LOT
-add_core = LOT
+owner = AUT
+controller = AUT
+add_core = AUT
 is_city = yes
 capital = "Des Hertogenbosch"
 culture = dutch

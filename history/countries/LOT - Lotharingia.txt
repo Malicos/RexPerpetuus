@@ -7,19 +7,3 @@ add_accepted_culture = lorraine_culture
 religion = catholic
 technology_group = western
 capital = 1878	# Aachen
-elector = yes
-
-1414.3.8 = {
-	monarch = {
-		name = "Friedrich"
-		dynasty = "Salian"
-		adm = 5
-		dip = 5
-		mil = 3
-		birth_date = 1387.5.2
-		religion = catholic
-		culture = lorraine_culture
-	}
-	add_ruler_personality = charismatic_negotiator_personality
-	add_ruler_personality = midas_touched_personality
-}

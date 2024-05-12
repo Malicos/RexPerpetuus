@@ -4,7 +4,7 @@
 ###################################################################
 #Order goes
 #1 - Northern Isles (Albion)
-#2 - France, Occitania and Lotharingia
+#2 - France, Occitania and Austrasia
 #3 - Italy, non-HRE
 #4 - HRE, Italy and Croatia
 #4.5 - HRE, German and Bohemian
@@ -79,7 +79,7 @@ march = {
 }
 
 ####################################################################
-# 2 - France, Occitania and Lotharingia
+# 2 - France, Occitania and Austrasia
 ####################################################################
 # Arelat and Basel
 vassal = {
@@ -327,70 +327,70 @@ guarantee = {
 	end_date = 1836.1.1
 }
 
-# Union of Lotharingia and Luxemburg
+# Union of Austrasia and Luxemburg
 union = {
-	first = LOT
+	first = AUT
 	second = LUX
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Lotharingia and Gelre
+# Austrasia and Gelre
 vassal = {
-	first = LOT
+	first = AUT
 	second = GEL
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Lotharingia and Luxeuil
+# Austrasia and Luxeuil
 vassal = {
 	subject_type = fiefdom_bt
-	first = LOT
+	first = AUT
 	second = LXL
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Lotharingia and Verdun
+# Austrasia and Verdun
 vassal = {
 	subject_type = fiefdom_bt
-	first = LOT
+	first = AUT
 	second = VDN
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Lotharingia and Liege
+# Austrasia and Liege
 vassal = {
 	subject_type = fiefdom_bt
-	first = LOT
+	first = AUT
 	second = LIE
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Lotharingia and Cambray
+# Austrasia and Cambray
 vassal = {
 	subject_type = fiefdom_bt
-	first = LOT
+	first = AUT
 	second = CMB
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Lotharingia and Cleves
+# Austrasia and Cleves
 vassal = {
 	subject_type = fiefdom_bt
-	first = LOT
+	first = AUT
 	second = KLE
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
 
-# Lotharingia and Champagne (guarantee)
+# Austrasia and Champagne (guarantee)
 guarantee = {
-	first = LOT
+	first = AUT
 	second = CHP
 	start_date = 1444.11.11
 	end_date = 1836.1.1
