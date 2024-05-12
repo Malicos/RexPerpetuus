@@ -1,3 +1,6 @@
+#War of the Ravens
+NCW = "countries/NorwayRebels.txt"
+
 # Balkans
 AET = "countries/Aetolia.txt"
 BGS = "countries/Burgas.txt"
