@@ -172,6 +172,13 @@ country_event = {
 		remove_country_modifier = ravens_debuff_08
 		remove_country_modifier = ravens_debuff_09
 		remove_country_modifier = ravens_debuff_10
+
+		NCW = {
+            every_owned_province = {
+                cede_province = NOR
+                remove_core = NCW
+            }
+		}
     }
 }
 
