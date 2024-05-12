@@ -144,6 +144,10 @@ country_event = {
 
 	option = {
 		name = waroftheravens.1.a
+		add_country_modifier = {
+            name = ravens_debuff_01
+            duration = -1
+        }
     }
 }
 
@@ -158,7 +162,16 @@ country_event = {
 
 	option = {
 		name = waroftheravens.2.a
-		remove_country_modifier = ravens_debuff
+		remove_country_modifier = ravens_debuff_01
+		remove_country_modifier = ravens_debuff_02
+		remove_country_modifier = ravens_debuff_03
+		remove_country_modifier = ravens_debuff_04
+		remove_country_modifier = ravens_debuff_05
+		remove_country_modifier = ravens_debuff_06
+		remove_country_modifier = ravens_debuff_07
+		remove_country_modifier = ravens_debuff_08
+		remove_country_modifier = ravens_debuff_09
+		remove_country_modifier = ravens_debuff_10
     }
 }
 
@@ -172,23 +185,141 @@ country_event = {
 
 	immediate = {
         random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
+            limit = {
+                region = nordurica_region
+                is_capital = no
+                is_island = no
+                NOT = { area = subarctic_islands_area }
             }
+            cede_province = NCW
+            add_core = NCW
+        }
+        random_owned_province = {
+            limit = {
+                region = nordurica_region
+                is_capital = no
+                is_island = no
+                NOT = { area = subarctic_islands_area }
+            }
+            cede_province = NCW
+            add_core = NCW
+        }
     }
 
     option = {
 		name = waroftheravens.3.a
-		add_country_modifier = {
-            name = ravens_debuff
+		trigger = {
+            has_country_modifier = ravens_debuff_01
+        }
+        remove_country_modifier = ravens_debuff_01
+        add_country_modifier = {
+            name = ravens_debuff_02
             duration = -1
         }
+    }
+
+    option = {
+		name = waroftheravens.3.a
+		trigger = {
+            has_country_modifier = ravens_debuff_02
+        }
+        remove_country_modifier = ravens_debuff_02
+        add_country_modifier = {
+            name = ravens_debuff_03
+            duration = -1
+        }
+    }
+
+    option = {
+		name = waroftheravens.3.a
+		trigger = {
+            has_country_modifier = ravens_debuff_03
+        }
+        remove_country_modifier = ravens_debuff_03
+        add_country_modifier = {
+            name = ravens_debuff_04
+            duration = -1
+        }
+    }
+
+    option = {
+		name = waroftheravens.3.a
+		trigger = {
+            has_country_modifier = ravens_debuff_04
+        }
+        remove_country_modifier = ravens_debuff_04
+        add_country_modifier = {
+            name = ravens_debuff_05
+            duration = -1
+        }
+    }
+
+    option = {
+		name = waroftheravens.3.a
+		trigger = {
+            has_country_modifier = ravens_debuff_05
+        }
+        remove_country_modifier = ravens_debuff_05
+        add_country_modifier = {
+            name = ravens_debuff_06
+            duration = -1
+        }
+    }
+
+    option = {
+		name = waroftheravens.3.a
+		trigger = {
+            has_country_modifier = ravens_debuff_06
+        }
+        remove_country_modifier = ravens_debuff_06
+        add_country_modifier = {
+            name = ravens_debuff_07
+            duration = -1
+        }
+    }
+
+    option = {
+		name = waroftheravens.3.a
+		trigger = {
+            has_country_modifier = ravens_debuff_07
+        }
+        remove_country_modifier = ravens_debuff_07
+        add_country_modifier = {
+            name = ravens_debuff_08
+            duration = -1
+        }
+    }
+
+    option = {
+		name = waroftheravens.3.a
+		trigger = {
+            has_country_modifier = ravens_debuff_08
+        }
+        remove_country_modifier = ravens_debuff_08
+        add_country_modifier = {
+            name = ravens_debuff_09
+            duration = -1
+        }
+    }
+
+    option = {
+		name = waroftheravens.3.a
+		trigger = {
+            has_country_modifier = ravens_debuff_09
+        }
+        remove_country_modifier = ravens_debuff_09
+        add_country_modifier = {
+            name = ravens_debuff_10
+            duration = -1
+        }
+    }
+
+    option = {
+		name = waroftheravens.3.b
+		trigger = {
+            has_country_modifier = ravens_debuff_10
+        }
+        add_war_exhaustion = 5
     }
 }
 
