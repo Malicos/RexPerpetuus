@@ -1,251 +1,318 @@
-naval_branch = {
-	slot = 1
-	generic = no
-	ai = yes
-	has_country_shield = yes
-	potential = { tag = NOR } 
-
-	upgrade_the_navy = {
-		icon = overshadow_venice
-		position = 1
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-
-	control_north_sea_trade = {
-		icon = mission_dominate_home_trade_node
-		position = 3
-		required_missions = { upgrade_the_navy } 
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-
-	port_of_bergen = {
-		icon = mission_bryggen_i_bergen
-		position = 4
-		required_missions = { control_north_sea_trade } 
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-}
-military_branch = {
-	slot = 2
-	generic = no
-	ai = yes
-	has_country_shield = yes
-	potential = { tag = NOR } 
-
-	pacify_outlying_areas = {
-		icon = consolidate_the_stadholders
-		position = 1
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-
-	occupy_the_north_channel = {
-		icon = invest_in_the_rich_trades
-		position = 2
-		required_missions = {
-			upgrade_the_navy
-			pacify_outlying_areas
-		}
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-
-	subdue_the_scots = {
-		icon = mission_rb_rein_in_the_highland_clans
-		position = 3
-		required_missions = { occupy_the_north_channel } 
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-
-	the_denlegian_question = {
-		icon = mission_alliances
-		position = 4
-		required_missions = {
-			subdue_the_scots
-			control_north_sea_trade
-		}
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-}
-diplomatic_branch = {
+civilwar_branch = {
 	slot = 3
 	generic = no
 	ai = yes
 	has_country_shield = yes
-	potential = { tag = NOR } 
+	potential = { tag = NOR }
 
-	guarantee_our_position = {
-		icon = mission_unite_home_region
+	win_civil_war = {
+		icon = overshadow_venice
 		position = 1
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = {  }
 
-		trigger = {  } 
+		trigger = {  }
 
-		effect = {  } 
-	}
-
-	put_sweden_in_its_place = {
-		icon = mission_rb_unite_the_clans
-		position = 2
-		required_missions = {
-			pacify_outlying_areas
-			guarantee_our_position
-		}
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-
-	sweden_humbled = {
-		icon = mission_have_two_subjects
-		position = 3
-		required_missions = { put_sweden_in_its_place } 
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-
-	focusing_on_the_baltic = {
-		icon = mission_rb_scottish_north_sea_trade
-		position = 4
-		required_missions = { sweden_humbled } 
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
+		effect = {  }
 	}
 }
-administrative_branch = {
-	slot = 4
+
+first_british_branch = {
+	slot = 1
 	generic = no
 	ai = yes
 	has_country_shield = yes
-	potential = { tag = NOR } 
+	potential = { tag = NOR }
 
-	jutish_sovereignty = {
-		icon = mission_noble_council
-		position = 1
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-
-	secure_central_jutland = {
-		icon = mission_soldiers_dug_in
+	denlegian_question = {
+		icon = overshadow_venice
 		position = 2
-		required_missions = { jutish_sovereignty } 
-		provinces_to_highlight = {  } 
+		required_missions = { win_civil_war }
+		provinces_to_highlight = {  }
 
-		trigger = {  } 
+		trigger = {  }
 
-		effect = {  } 
+		effect = {  }
 	}
 
-	subjugate_denmark = {
-		icon = mission_conquer_50_development
+	conquer_mercia = {
+		icon = overshadow_venice
 		position = 3
-		required_missions = { secure_central_jutland } 
-		provinces_to_highlight = {  } 
+		required_missions = { denlegian_question }
+		provinces_to_highlight = {  }
 
-		trigger = {  } 
+		trigger = {  }
 
-		effect = {  } 
+		effect = {  }
 	}
 
-	unite_nordurica = {
-		icon = mission_sca_shield
+	sexian_conquest = {
+		icon = overshadow_venice
 		position = 4
-		required_missions = {
-			sweden_humbled
-			subjugate_denmark
-		}
-		provinces_to_highlight = {  } 
+		required_missions = { conquer_mercia }
+		provinces_to_highlight = {  }
 
-		trigger = {  } 
+		trigger = {  }
 
-		effect = {  } 
+		effect = {  }
+	}
+
+	reclaim_english_crown = {
+		icon = overshadow_venice
+		position = 5
+		required_missions = { sexian_conquest subdue_the_welsh }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	create_gallwegia = {
+		icon = overshadow_venice
+		position = 6
+		required_missions = { reclaim_english_crown }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
 	}
 }
-economic_branch = {
+
+second_british_branch = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = NOR }
+
+	subdue_the_scots = {
+		icon = overshadow_venice
+		position = 3
+		required_missions = { denlegian_question }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	subdue_the_welsh = {
+		icon = overshadow_venice
+		position = 4
+		required_missions = { conquer_mercia }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+}
+
+scandinavian_branch = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = NOR }
+
+	lappland_proxy_war = {
+		icon = overshadow_venice
+		position = 2
+		required_missions = { win_civil_war }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	claim_swedish_crown = {
+		icon = overshadow_venice
+		position = 4
+		required_missions = { lappland_proxy_war }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	claim_danish_crown = {
+		icon = overshadow_venice
+		position = 5
+		required_missions = { claim_swedish_crown }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	secure_schleswig = {
+		icon = overshadow_venice
+		position = 6
+		required_missions = { claim_danish_crown }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	nor_vs_hre = {
+		icon = overshadow_venice
+		position = 7
+		required_missions = { secure_schleswig }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+}
+
+baltic_branch = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = NOR }
+
+	finnish_what_we_started = {
+		icon = overshadow_venice
+		position = 5
+		required_missions = { claim_swedish_crown }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	baltic_lake = {
+		icon = overshadow_venice
+		position = 6
+		required_missions = { finnish_what_we_started }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	norwegian_reformation = {
+		icon = overshadow_venice
+		position = 7
+		required_missions = { secure_schleswig }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+}
+
+naval_branch = {
 	slot = 5
 	generic = no
 	ai = yes
 	has_country_shield = yes
-	potential = { tag = NOR } 
+	potential = { tag = NOR }
 
-	administration_from_oslo = {
-		icon = mission_early_game_buildings
-		position = 1
-		provinces_to_highlight = {  } 
-
-		trigger = {  } 
-
-		effect = {  } 
-	}
-
-	increased_arctic_presence = {
-		icon = mission_invade_island
+	sailing_boom = {
+		icon = overshadow_venice
 		position = 2
-		required_missions = { administration_from_oslo } 
-		provinces_to_highlight = {  } 
+		required_missions = { win_civil_war }
+		provinces_to_highlight = {  }
 
-		trigger = {  } 
+		trigger = {  }
 
-		effect = {  } 
+		effect = {  }
 	}
 
-	reindeer_herding_laws = {
-		icon = mission_reindeer_herder
+	norwegian_wood = {
+		icon = overshadow_venice
 		position = 3
-		required_missions = { increased_arctic_presence } 
-		provinces_to_highlight = {  } 
+		required_missions = { sailing_boom }
+		provinces_to_highlight = {  }
 
-		trigger = {  } 
+		trigger = {  }
 
-		effect = {  } 
+		effect = {  }
 	}
 
-	falun_mining_district = {
-		icon = mission_mine
+	norwegian_manufactures = {
+		icon = overshadow_venice
 		position = 4
-		required_missions = { reindeer_herding_laws } 
-		provinces_to_highlight = {  } 
+		required_missions = { norwegian_wood }
+		provinces_to_highlight = {  }
 
-		trigger = {  } 
+		trigger = {  }
 
-		effect = {  } 
+		effect = {  }
+	}
+
+	cannon_obsession = {
+		icon = overshadow_venice
+		position = 5
+		required_missions = { norwegian_manufactures }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	greatest_sailors = {
+		icon = overshadow_venice
+		position = 6
+		required_missions = { norwegian_manufactures norwegian_vesperia }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+}
+
+colonial_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = NOR }
+
+	subjugate_iceland = {
+		icon = overshadow_venice
+		position = 3
+		required_missions = { sailing_boom }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	vinland_saga = {
+		icon = overshadow_venice
+		position = 4
+		required_missions = { subjugate_iceland }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
+	}
+
+	norwegian_vesperia = {
+		icon = overshadow_venice
+		position = 5
+		required_missions = { vinland_saga }
+		provinces_to_highlight = {  }
+
+		trigger = {  }
+
+		effect = {  }
 	}
 }
