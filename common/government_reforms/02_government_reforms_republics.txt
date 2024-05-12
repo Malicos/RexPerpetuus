@@ -28,6 +28,42 @@ republic_mechanic = {
 
 #Oligarchy vs Merchant Class vs Noble Elite
 
+########################
+##### RP REFORMS #######
+########################
+
+gallwegian_republic = {
+	allow_normal_conversion = no
+	dictatorship = yes
+	lock_level_when_selected = yes
+	icon = "merchant_ship"
+	potential = {
+		has_reform = gallwegian_republic
+	}
+	valid_for_nation_designer = no
+
+	factions = {
+		gr_traders
+		gr_raiders
+	}
+
+	modifiers = {
+		global_sailors_modifier = 0.5
+		max_absolutism = 40
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = yes
+	}
+	has_term_election = no
+}
+
+########################
+#####  VANILLA  ########
+########################
+
 oligarchy_reform = {
 	icon = "people_walking"
 	allow_normal_conversion = yes
