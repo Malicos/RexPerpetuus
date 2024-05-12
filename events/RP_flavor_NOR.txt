@@ -1,0 +1,24 @@
+namespace = norway
+
+country_event = {
+	id = norway.1
+	title = norway.1.t
+	desc = norway.1.d
+	picture = RAMADAN_eventPicture
+
+	is_triggered_only = yes
+
+    option = {
+        name = norway.1.a
+        trigger = {
+            JRV = {
+                was_player = no
+            }
+        }
+        vassalize = JRV
+    }
+
+    option = {
+        name = norway.1.b
+    }
+}

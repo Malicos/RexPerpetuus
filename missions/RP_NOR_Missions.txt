@@ -8,11 +8,21 @@ civilwar_branch = {
 	win_civil_war = {
 		icon = overshadow_venice
 		position = 1
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			controlled_by = NCW
+		}
 
-		trigger = {  }
+		trigger = {
+			has_country_modifier = war_of_the_ravens_victors
+		}
 
-		effect = {  }
+		effect = {
+			add_legitimacy = 10
+			add_country_modifier = {
+				name = stronger_raven
+				duration = 7300
+			}
+		}
 	}
 }
 
@@ -27,11 +37,56 @@ first_british_branch = {
 		icon = overshadow_venice
 		position = 2
 		required_missions = { win_civil_war }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = northern_england_area
+				area = jorvik_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			OR = {
+				AND = {
+					alliance_with = JRV
+					JRV = {
+						has_opinion = {
+							who = ROOT
+							value = 190
+						}
+					}
+				}
+				AND = {
+					owns_all_provinces = {
+						area = northern_england_area
+					}
+					owns_all_provinces = {
+						area = jorvik_area
+					}
+				}
+			}
+		}
 
-		effect = {  }
+		effect = {
+			if = {
+				limit = {
+					owns_all_provinces = {
+						area = northern_england_area
+					}
+					owns_all_provinces = {
+						area = jorvik_area
+					}
+				}
+				add_prestige = 25
+			}
+			else = {
+				country_event = {
+					id = norway.1
+				}
+			}
+		}
 	}
 
 	conquer_mercia = {
@@ -120,33 +175,77 @@ scandinavian_branch = {
 		icon = overshadow_venice
 		position = 2
 		required_missions = { win_civil_war }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 18
+				province_id = 4114
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			owns_or_non_sovereign_subject_of = 18
+			owns_or_non_sovereign_subject_of = 4114
+		}
 
-		effect = {  }
+		effect = {
+			add_casus_belli = {
+				target = SWE
+				type = cb_restore_personal_union
+				months = 9125
+			}
+		}
 	}
 
 	claim_swedish_crown = {
 		icon = overshadow_venice
 		position = 4
 		required_missions = { lappland_proxy_war }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			province_id = 1
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = { owns_or_non_sovereign_subject_of = 1 }
 
-		effect = {  }
+		effect = {
+			add_casus_belli = {
+				target = DAN
+				type = cb_restore_personal_union
+				months = 9125
+			}
+		}
 	}
 
 	claim_danish_crown = {
 		icon = overshadow_venice
 		position = 5
 		required_missions = { claim_swedish_crown }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			province_id = 12
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = { owns_or_non_sovereign_subject_of = 12 }
 
-		effect = {  }
+		effect = {
+
+		}
 	}
 
 	secure_schleswig = {

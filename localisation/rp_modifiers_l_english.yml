@@ -1,6 +1,9 @@
 ﻿l_english:
 
-#NORWAY MORALE DEBUFF
+#NORWAY STUFF
+ war_of_the_ravens_victors:0 "Victors of the War of the Ravens"
+ stronger_raven:0 "The Stronger Raven"
+
  ravens_debuff_01:0 "Diminishing support"
  ravens_debuff_02:0 "Diminishing support"
  ravens_debuff_03:0 "Diminishing support"

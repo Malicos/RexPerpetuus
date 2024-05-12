@@ -6,7 +6,6 @@ country_event = {
 	desc = waroftheravens.1.d
 	picture = RAMADAN_eventPicture
 
-	fire_only_once = yes
 	is_triggered_only = yes
 
 	immediate = {
@@ -157,11 +156,16 @@ country_event = {
 	desc = waroftheravens.2.d
 	picture = RAMADAN_eventPicture
 
-    fire_only_once = yes
-	is_triggered_only = yes
+    is_triggered_only = yes
 
 	option = {
 		name = waroftheravens.2.a
+
+		add_country_modifier = {
+            name = war_of_the_ravens_victors
+            duration = -1
+        }
+
 		remove_country_modifier = ravens_debuff_01
 		remove_country_modifier = ravens_debuff_02
 		remove_country_modifier = ravens_debuff_03

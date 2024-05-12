@@ -38,6 +38,14 @@ ravens_debuff_10 = {
     land_morale = -0.5
 }
 
+war_of_the_ravens_victors = {
+    legitimacy = 0.25
+}
+
+stronger_raven = {
+    land_morale = 0.1
+}
+
 ############################################################
 #         BONUSES FROM CELTIC MISSION TREE
 ############################################################
