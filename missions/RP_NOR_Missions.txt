@@ -59,7 +59,7 @@ first_british_branch = {
 	reclaim_english_crown = {
 		icon = overshadow_venice
 		position = 5
-		required_missions = { sexian_conquest subdue_the_welsh }
+		required_missions = { sexish_conquest subdue_the_welsh }
 		provinces_to_highlight = {  }
 
 		trigger = {  }
