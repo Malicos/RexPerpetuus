@@ -62,61 +62,133 @@
  religious_empire_desc:0 ""
 
 #NORWAY MISSIONS
- upgrade_the_navy_title:0 "Upgrade the Navy"
- upgrade_the_navy_desc:0 ""
+ win_civil_war_title:0 "The Stronger Raven"
+ win_civil_war_desc:0 ""
 
- control_north_sea_trade_title:0 "Control North Sea Trade"
- control_north_sea_trade_desc:0 ""
+ denlegian_question_title:0 "The Denlegian Question"
+ denlegian_question_desc:0 ""
 
- port_of_bergen_title:0 "Port of Bergen"
- port_of_bergen_desc:0 ""
-
- pacify_outlying_areas_title:0 "Pacify Outlying Areas"
- pacify_outlying_areas_desc:0 ""
-
- occupy_the_north_channel_title:0 "Occupy the North Channel"
- occupy_the_north_channel_desc:0 ""
+ conquer_mercia_title:0 "3rd Germanic Invasion"
+ conquer_mercia_desc:0 ""
 
  subdue_the_scots_title:0 "Subdue the Scots"
  subdue_the_scots_desc:0 ""
 
- the_denlegian_question_title:0 "The Denlegian Question"
- the_denlegian_question_desc:0 ""
+ subdue_the_welsh_title:0 "Subdue the Welsh"
+ subdue_the_welsh_desc:0 ""
 
- guarantee_our_position_title:0 "Guarantee our Position"
- guarantee_our_position_desc:0 ""
+ sexish_conquest_title:0 "Sexish Conquest"
+ sexish_conquest_desc:0 ""
 
- put_sweden_in_its_place_title:0 "Put Sweden in its Place"
- put_sweden_in_its_place_desc:0 ""
+ reclaim_english_crown_title:0 "The Crown of England"
+ reclaim_english_crown_desc:0 ""
 
- sweden_humbled_title:0 "Sweden Humbled"
- sweden_humbled_desc:0 ""
+ create_gallwegia_title:0 "Gallwegian Kingdom"
+ create_gallwegia_desc:0 ""
 
- focusing_on_the_baltic_title:0 "Focusing on the Baltic"
- focusing_on_the_baltic_desc:0 ""
+ lappland_proxy_war_title:0 "Provoke Sweden"
+ lappland_proxy_war_desc:0 ""
 
- jutish_sovereignty_title:0 "Jutish Sovereignty"
- jutish_sovereignty_desc:0 ""
+ claim_swedish_crown_title:0 "Sit on Swedish Throne"
+ claim_swedish_crown_desc:0 ""
 
- secure_central_jutland_title:0 "Secure Central Jutland"
- secure_central_jutland_desc:0 ""
+ claim_danish_crown_title:0 "A Big Lovely Family"
+ claim_danish_crown_desc:0 ""
 
- subjugate_denmark_title:0 "Subjugate Denmark"
- subjugate_denmark_desc:0 ""
+ finnish_what_we_started_title:0 "Finnish them!"
+ finnish_what_we_started_desc:0 ""
 
- unite_nordurica_title:0 "Unite Nordurica"
- unite_nordurica_desc:0 ""
+ baltic_lake_title:0 "Baltic Lake"
+ baltic_lake_desc:0 ""
 
- administration_from_oslo_title:0 "Administration from Oslo"
- administration_from_oslo_desc:0 ""
+ secure_schleswig_title:0 "Humiliate the HRE"
+ secure_schleswig_desc:0 ""
 
- increased_arctic_presence_title:0 "Increased Arctic Presence"
- increased_arctic_presence_desc:0 ""
+ nor_vs_hre_title:0 "The Only Emperor"
+ nor_vs_hre_desc:0 ""
 
- reindeer_herding_laws_title:0 "Reindeer Herding Laws"
- reindeer_herding_laws_desc:0 ""
+ norwegian_reformation_title:0 "Reformation in Norway"
+ norwegian_reformation_desc:0 ""
 
- falun_mining_district_title:0 "Falun Mining District"
- falun_mining_district_desc:0 ""
+ sailing_boom_title:0 "Sailing Boom!"
+ sailing_boom_desc:0 ""
+
+ norwegian_wood_title:0 "Norwegian Wood"
+ norwegian_wood_desc:0 ""
+
+ norwegian_manufactures_title:0 "Modern Shipbuilding"
+ norwegian_manufactures_desc:0 ""
+
+ cannon_obsession_title:0 "More Powder!"
+ cannon_obsession_desc:0 ""
+
+ subjugate_iceland_title:0 "Welcome back, Katla!"
+ subjugate_iceland_desc:0 ""
+
+ vinland_saga_title:0 "The Vinland Saga"
+ vinland_saga_desc:0 ""
+
+ norwegian_vesperia_title:0 "The Rulers of Vesperia"
+ norwegian_vesperia_desc:0 ""
+
+ greatest_sailors_title:0 "Modern Vikings"
+ greatest_sailors_desc:0 ""
+
+#upgrade_the_navy_title:0 "Upgrade the Navy"
+# upgrade_the_navy_desc:0 ""
+#
+# control_north_sea_trade_title:0 "Control North Sea Trade"
+# control_north_sea_trade_desc:0 ""
+#
+# port_of_bergen_title:0 "Port of Bergen"
+# port_of_bergen_desc:0 ""
+#
+# pacify_outlying_areas_title:0 "Pacify Outlying Areas"
+# pacify_outlying_areas_desc:0 ""
+#
+# occupy_the_north_channel_title:0 "Occupy the North Channel"
+# occupy_the_north_channel_desc:0 ""
+#
+# subdue_the_scots_title:0 "Subdue the Scots"
+ #subdue_the_scots_desc:0 ""
+#
+ #the_denlegian_question_title:0 "The Denlegian Question"
+ #the_denlegian_question_desc:0 ""
+#
+ #guarantee_our_position_title:0 "Guarantee our Position"
+ #guarantee_our_position_desc:0 ""
+#
+ #put_sweden_in_its_place_title:0 "Put Sweden in its Place"
+ #put_sweden_in_its_place_desc:0 ""
+#
+ #sweden_humbled_title:0 "Sweden Humbled"
+ #sweden_humbled_desc:0 ""
+#
+ #focusing_on_the_baltic_title:0 "Focusing on the Baltic"
+ #focusing_on_the_baltic_desc:0 ""
+#
+ #jutish_sovereignty_title:0 "Jutish Sovereignty"
+ #jutish_sovereignty_desc:0 ""
+#
+ #secure_central_jutland_title:0 "Secure Central Jutland"
+ #secure_central_jutland_desc:0 ""
+#
+ #subjugate_denmark_title:0 "Subjugate Denmark"
+ #subjugate_denmark_desc:0 ""
+#
+# unite_nordurica_title:0 "Unite Nordurica"
+ #unite_nordurica_desc:0 ""
+#
+ #administration_from_oslo_title:0 "Administration from Oslo"
+ #administration_from_oslo_desc:0 ""
+#
+ #increased_arctic_presence_title:0 "Increased Arctic Presence"
+ #increased_arctic_presence_desc:0 ""
+#
+ #reindeer_herding_laws_title:0 "Reindeer Herding Laws"
+ #reindeer_herding_laws_desc:0 ""
+#
+ #falun_mining_district_title:0 "Falun Mining District"
+ #falun_mining_district_desc:0 ""
 
 
