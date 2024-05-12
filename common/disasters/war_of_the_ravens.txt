@@ -3,7 +3,7 @@ war_of_the_ravens = {
     potential = {
         TAG = NOR
         NOT = {
-            has_country_flag = had_avens
+            has_country_flag = had_ravens
         }
 
     }
