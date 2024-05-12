@@ -267,7 +267,7 @@ naval_branch = {
 	greatest_sailors = {
 		icon = overshadow_venice
 		position = 6
-		required_missions = { norwegian_manufactures norwegian_vesperia }
+		required_missions = { cannon_obsession norwegian_vesperia }
 		provinces_to_highlight = {  }
 
 		trigger = {  }
