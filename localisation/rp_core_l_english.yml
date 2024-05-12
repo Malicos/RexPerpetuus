@@ -239,8 +239,6 @@
  AOS_ADJ:0 "Aostan"
  AQT:0 "Aquitaine"
  AQT_ADJ:0 "Aquitanian"
- AUT:0 "Austrasia"
- AUT_ADJ:0 "Austrasian"
  ATB:0 "Altenburg"
  ATB_ADJ:0 "Altenburger"
  BGC:0 "Braganza"
@@ -1400,6 +1398,15 @@
  #################################################################################
  CAPTAINATE:0 "Captainate"
  GRAND_CAPTAINATE:0 "Grand Captainate"
+
+ gallwegian_republic:0 "Gallwegian Republic"
+ gallwegian_republic_desc:0 ""
+ gr_traders:0 "The Traders"
+ gr_traders_influence:0 "Traders' Influence"
+ gr_traders_FACTION_DESC:0 "Those in favor of modern, market approach."
+ gr_raiders:0 "The Raiders"
+ gr_raiders_influence:0 "Raiders' Influence"
+ gr_raiders_FACTION_DESC:0 "Those in favor of the good old ways."
  
  #################################################################################
  # 10 - Great Projects
