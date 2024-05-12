@@ -1,0 +1,20 @@
+gr_traders = {
+    monarch_power = DIP
+    always = yes
+
+    modifier = {
+        naval_tradition_from_trade = 0.25
+        merchants = 1
+    }
+}
+
+gr_raiders = {
+    monarch_power = MIL
+     always = yes
+
+    modifier = {
+        naval_tradition_from_battle = 0.25
+        privateer_efficiency = 0.25
+        may_perform_slave_raid_on_same_religion = yes
+    }
+}
