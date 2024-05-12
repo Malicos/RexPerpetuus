@@ -1,5 +1,41 @@
-ravens_debuff = {
+ravens_debuff_01 = {
     land_morale = -0.05
+}
+
+ravens_debuff_02 = {
+    land_morale = -0.1
+}
+
+ravens_debuff_03 = {
+    land_morale = -0.15
+}
+
+ravens_debuff_04 = {
+    land_morale = -0.2
+}
+
+ravens_debuff_05 = {
+    land_morale = -0.25
+}
+
+ravens_debuff_06 = {
+    land_morale = -0.3
+}
+
+ravens_debuff_07 = {
+    land_morale = -0.35
+}
+
+ravens_debuff_08 = {
+    land_morale = -0.4
+}
+
+ravens_debuff_09 = {
+    land_morale = -0.45
+}
+
+ravens_debuff_10 = {
+    land_morale = -0.5
 }
 
 ############################################################
