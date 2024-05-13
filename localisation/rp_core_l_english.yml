@@ -22,8 +22,8 @@
  #################################################################################
  # 1 - Start Dates
  #################################################################################
- BOOK_THE_GRAND_CAMPAIGN:0 "The Grand Campaign"
- BOOK_THE_GRAND_CAMPAIGN_DESC:0 "Placeholder"
+ BOOK_REX_PERPETUUS:0 "Rex Perpetuus"
+ BOOK_REX_PERPETUUS_DESC:0 "Placeholder"
 
  #################################################################################
  # 2 - Cultures
