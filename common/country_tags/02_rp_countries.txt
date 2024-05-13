@@ -26,7 +26,6 @@ YAB = "countries/Yambol.txt"
 ZAD = "countries/Zadar.txt"
 
 # Albion
-BRL = "countries/Bretland.txt"
 CBI = "countries/Cumbria.txt"
 CRD = "countries/Ceredigion.txt"
 DFD = "countries/Dyfed.txt"
