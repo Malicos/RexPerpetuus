@@ -22,8 +22,8 @@
  #################################################################################
  # 1 - Start Dates
  #################################################################################
- book_the_grand_campaign:0 "The Grand Campaign"
- book_the_grand_campaign_desc:0 "Placeholder"
+ BOOK_THE_GRAND_CAMPAIGN:0 "The Grand Campaign"
+ BOOK_THE_GRAND_CAMPAIGN_DESC:0 "Placeholder"
 
  #################################################################################
  # 2 - Cultures
