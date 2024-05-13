@@ -372,30 +372,30 @@ NOR_ideas = {
 	}
 	free = yes
 
-	heritage_of_harald = {
-		prestige_from_naval = 0.5
+	nor1 = {
+		prestige_from_naval = 1
 		siege_blockade_progress = 2
 	}
-	adventuring_tradition = {
+	nor2 = {
 		range = 0.333
 		colonists = 1
 	}
-	crown_hoarder = {
+	nor3 = {
 		diplomatic_upkeep = 2
 		reduced_liberty_desire_on_same_continent = 20
 	}
-	old_ways_of_combat = {
+	nor4 = {
 		infantry_power = 0.1
 		movement_speed = 0.25
 	}
-	sturdy_ships = {
+	nor5 = {
 		ship_durability = 0.15
 		sea_repair = yes
 	}
-	enlightened_vikings = {
+	nor6 = {
 		discipline = 0.05
 	}
-	norduricans_make_do = {
+	nor7 = {
 		free_adm_policy = 1
 		possible_adm_policy = 1
 	}
