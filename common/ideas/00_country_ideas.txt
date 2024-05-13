@@ -1930,46 +1930,46 @@ AYU_ideas = {
 }
 
 
-NOR_ideas = {
-	start = {
-		global_sailors_modifier = 0.25
-		ship_durability = 0.10
-	}
-	
-	bonus = {
-		trade_steering = 0.20
-	}
-	
-	trigger = {
-		tag = NOR
-	}
-	free = yes
-	
-	natural_seamanship = {
-		naval_morale = 0.20
-		
-	}
-	call_of_our_forefathers = {
-		range = 0.33
-		may_explore = yes
-	}
-	pioneer_spirit = {
-		colonists = 1
-	}
-	nor_shipbuilding = {
-		global_ship_cost = -0.1
-	}
-	seize_the_opportunity = {
- 		global_trade_power = 0.1
-	}
-	nor_fishing = {
-		production_efficiency = 0.1
-	}
-	write_new_sagas = {
-		prestige = 1
-		discipline = 0.025
-	}
-}
+#NOR_ideas = {
+#	start = {
+#		global_sailors_modifier = 0.25
+#		ship_durability = 0.10
+#	}
+#
+#	bonus = {
+#		trade_steering = 0.20
+#	}
+#
+#	trigger = {
+#		tag = NOR
+#	}
+#	free = yes
+#
+#	natural_seamanship = {
+#		naval_morale = 0.20
+#
+#	}
+#	call_of_our_forefathers = {
+#		range = 0.33
+#		may_explore = yes
+#	}
+#	pioneer_spirit = {
+#		colonists = 1
+#	}
+#	nor_shipbuilding = {
+#		global_ship_cost = -0.1
+#	}
+#	seize_the_opportunity = {
+#	global_trade_power = 0.1
+#	}
+#	nor_fishing = {
+#		production_efficiency = 0.1
+#	}
+#	write_new_sagas = {
+#		prestige = 1
+#		discipline = 0.025
+#	}
+#}
 
 
 OMA_ideas = {
