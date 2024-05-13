@@ -45,6 +45,9 @@ first_british_branch = {
 			NOT = {
 				owned_by = ROOT
 			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
 		}
 
 		trigger = {
@@ -93,9 +96,21 @@ first_british_branch = {
 		icon = overshadow_venice
 		position = 3
 		required_missions = { denlegian_question }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			area = mercia_area
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			owns_all_provinces = {
+				area = mercia_area
+			}
+		}
 
 		effect = {  }
 	}
@@ -232,7 +247,10 @@ scandinavian_branch = {
 		position = 5
 		required_missions = { claim_swedish_crown }
 		provinces_to_highlight = {
-			province_id = 12
+			OR = {
+				province_id = 1
+				province_id = 12
+			}
 			NOT = {
 				owned_by = ROOT
 			}
@@ -241,10 +259,18 @@ scandinavian_branch = {
 			}
 		}
 
-		trigger = { owns_or_non_sovereign_subject_of = 12 }
+		trigger = {
+			owns_or_non_sovereign_subject_of = 1
+			owns_or_non_sovereign_subject_of = 12
+		}
 
 		effect = {
-
+			jutland_area = {
+				add_permanent_claim = ROOT
+			}
+			schleswig_area = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 
@@ -252,9 +278,27 @@ scandinavian_branch = {
 		icon = overshadow_venice
 		position = 6
 		required_missions = { claim_danish_crown }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = jutland_area
+				area = schleswig_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			owns_all_provinces = {
+				area = jutland_area
+			}
+			owns_all_provinces = {
+				area = schleswig_area
+			}
+		}
 
 		effect = {  }
 	}
@@ -265,7 +309,14 @@ scandinavian_branch = {
 		required_missions = { secure_schleswig }
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = {
+			OR = {
+				is_emperor = yes
+				NOT = {
+					hre_size = 1
+				}
+			}
+		}
 
 		effect = {  }
 	}
