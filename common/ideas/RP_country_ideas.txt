@@ -386,7 +386,7 @@ NOR_ideas = {
 	}
 	nor4 = {
 		infantry_power = 0.1
-		movement_speed = 0.25
+		galley_power = 0.1
 	}
 	nor5 = {
 		ship_durability = 0.15
