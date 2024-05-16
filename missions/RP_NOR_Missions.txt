@@ -119,9 +119,29 @@ first_british_branch = {
 		icon = overshadow_venice
 		position = 4
 		required_missions = { conquer_mercia }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = wessex_area
+				area = three_kingdoms_area
+				province_id = 236
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			owns = 236
+			owns_all_provinces = {
+				area = wessex_area
+			}
+			owns_all_provinces = {
+				area = three_kingdoms_area
+			}
+		}
 
 		effect = {  }
 	}
@@ -130,9 +150,67 @@ first_british_branch = {
 		icon = overshadow_venice
 		position = 5
 		required_missions = { sexish_conquest subdue_the_welsh }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = northern_england_area
+				area = jorvik_area
+				area = cumbria_lancashire_area
+				area = mercia_area
+				area = east_anglia_area
+				area = london_area
+				area = wessex_area
+				area = three_kingdoms_area
+				area = wales_area
+				area = deheubarth_area
+				area = powys_area
+				area = cornwall_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			owns_all_provinces = {
+				area = northern_england_area
+			}
+			owns_all_provinces = {
+				area = jorvik_area
+			}
+			owns_all_provinces = {
+				area = cumbria_lancashire_area
+			}
+			owns_all_provinces = {
+				area = mercia_area
+			}
+			owns_all_provinces = {
+				area = east_anglia_area
+			}
+			owns_all_provinces = {
+				area = london_area
+			}
+			owns_all_provinces = {
+				area = wessex_area
+			}
+			owns_all_provinces = {
+				area = three_kingdoms_area
+			}
+			owns_all_provinces = {
+				area = wales_area
+			}
+			owns_all_provinces = {
+				area = deheubarth_area
+			}
+			owns_all_provinces = {
+				area = powys_area
+			}
+			owns_all_provinces = {
+				area = cornwall_area
+			}
+		}
 
 		effect = {  }
 	}
@@ -141,11 +219,27 @@ first_british_branch = {
 		icon = overshadow_venice
 		position = 6
 		required_missions = { reclaim_english_crown }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			region = ireland_region
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			owns_all_provinces = {
+				region = ireland_region
+			}
+		}
 
-		effect = {  }
+		effect = {
+			country_event = {
+				id = norway.2
+			}
+		}
 	}
 }
 
@@ -160,9 +254,35 @@ second_british_branch = {
 		icon = overshadow_venice
 		position = 3
 		required_missions = { denlegian_question }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = western_lowlands_area
+				area = highlands_area
+				area = southern_isles_area
+				area = grampians_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			owns_all_provinces = {
+				area = western_lowlands_area
+			}
+			owns_all_provinces = {
+				area = highlands_area
+			}
+			owns_all_provinces = {
+				area = southern_isles_area
+			}
+			owns_all_provinces = {
+				area = grampians_area
+			}
+		}
 
 		effect = {  }
 	}
@@ -171,9 +291,31 @@ second_british_branch = {
 		icon = overshadow_venice
 		position = 4
 		required_missions = { conquer_mercia }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = wales_area
+				area = deheubarth_area
+				area = powys_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			owns_all_provinces = {
+				area = wales_area
+			}
+			owns_all_provinces = {
+				area = deheubarth_area
+			}
+			owns_all_provinces = {
+				area = powys_area
+			}
+		}
 
 		effect = {  }
 	}
@@ -333,9 +475,27 @@ baltic_branch = {
 		icon = overshadow_venice
 		position = 5
 		required_missions = { claim_swedish_crown }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = finland_area
+				area = bothnia_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			owns_all_provinces = {
+				area = finland_area
+			}
+			owns_all_provinces = {
+				area = bothnia_area
+			}
+		}
 
 		effect = {  }
 	}
@@ -344,9 +504,87 @@ baltic_branch = {
 		icon = overshadow_venice
 		position = 6
 		required_missions = { finnish_what_we_started }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1
+				province_id = 3
+				province_id = 6
+				province_id = 9
+				province_id = 11
+				province_id = 19
+				province_id = 25
+				province_id = 27
+				province_id = 28
+				province_id = 30
+				province_id = 33
+				province_id = 34
+				province_id = 35
+				province_id = 36
+				province_id = 38
+				province_id = 40
+				province_id = 41
+				province_id = 42
+				province_id = 43
+				province_id = 45
+				province_id = 46
+				province_id = 47
+				province_id = 48
+				province_id = 1841
+				province_id = 1842
+				province_id = 1858
+				province_id = 1930
+				province_id = 1981
+				province_id = 1982
+				province_id = 2994
+				province_id = 2995
+				province_id = 2996
+				province_id = 4113
+				province_id = 4165
+				province_id = 4746
+				province_id = 4745
+			}
+			NOT = { owned_by = ROOT }
+		}
 
-		trigger = {  }
+		trigger = {
+			owns_core_province = 1
+			owns_core_province = 1
+			owns_core_province = 3
+			owns_core_province = 6
+			owns_core_province = 9
+			owns_core_province = 11
+			owns_core_province = 19
+			owns_core_province = 25
+			owns_core_province = 27
+			owns_core_province = 28
+			owns_core_province = 30
+			owns_core_province = 33
+			owns_core_province = 34
+			owns_core_province = 35
+			owns_core_province = 36
+			owns_core_province = 38
+			owns_core_province = 40
+			owns_core_province = 41
+			owns_core_province = 42
+			owns_core_province = 43
+			owns_core_province = 45
+			owns_core_province = 46
+			owns_core_province = 47
+			owns_core_province = 48
+			owns_core_province = 1841
+			owns_core_province = 1842
+			owns_core_province = 1858
+			owns_core_province = 1930
+			owns_core_province = 1981
+			owns_core_province = 1982
+			owns_core_province = 2994
+			owns_core_province = 2995
+			owns_core_province = 2996
+			owns_core_province = 4113
+			owns_core_province = 4165
+			owns_core_province = 4746
+			owns_core_province = 4745
+		}
 
 		effect = {  }
 	}
@@ -357,7 +595,14 @@ baltic_branch = {
 		required_missions = { secure_schleswig }
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = {
+			OR = {
+				religion = protestant
+				religion = reformed
+				full_idea_group = religious_ideas
+				full_idea_group = humanist_ideas
+			}
+		}
 
 		effect = {  }
 	}
@@ -376,7 +621,7 @@ naval_branch = {
 		required_missions = { win_civil_war }
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = { navy_size_percentage = 1 }
 
 		effect = {  }
 	}
@@ -387,7 +632,12 @@ naval_branch = {
 		required_missions = { sailing_boom }
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = {
+			any_owned_province = {
+				trade_goods = naval_supplies
+				base_production = 12
+			}
+		}
 
 		effect = {  }
 	}
@@ -398,7 +648,9 @@ naval_branch = {
 		required_missions = { norwegian_wood }
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = {
+			wharf = 3
+		}
 
 		effect = {  }
 	}
@@ -409,7 +661,12 @@ naval_branch = {
 		required_missions = { norwegian_manufactures }
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = {
+			OR = {
+				num_of_heavy_ship = 10
+				num_of_galley = 30
+			}
+		}
 
 		effect = {  }
 	}
@@ -420,7 +677,7 @@ naval_branch = {
 		required_missions = { cannon_obsession norwegian_vesperia }
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = { full_idea_group = naval_ideas }
 
 		effect = {  }
 	}
@@ -437,9 +694,21 @@ colonial_branch = {
 		icon = overshadow_venice
 		position = 3
 		required_missions = { sailing_boom }
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			area = iceland_area
+			NOT = {
+				owned_by = ROOT
+			}
+			NOT = {
+				owned_by_subject_of = ROOT
+			}
+		}
 
-		trigger = {  }
+		trigger = {
+			owns_all_provinces = {
+				area = iceland_area
+			}
+		}
 
 		effect = {  }
 	}
@@ -450,7 +719,14 @@ colonial_branch = {
 		required_missions = { subjugate_iceland }
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = {
+			any_country = {
+				capital_scope = {
+					region = canada_region
+				}
+				is_colonial_nation_of = ROOT
+			}
+		}
 
 		effect = {  }
 	}
@@ -461,7 +737,7 @@ colonial_branch = {
 		required_missions = { vinland_saga }
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = { colony = 3 }
 
 		effect = {  }
 	}
