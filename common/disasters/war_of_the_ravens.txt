@@ -3,7 +3,7 @@ war_of_the_ravens = {
     potential = {
         TAG = NOR
         NOT = {
-            has_country_flag = had_ravens
+            has_global_flag = had_ravens
         }
 
     }
@@ -42,8 +42,8 @@ war_of_the_ravens = {
     on_monthly = {
         random_events = {
                 900 = 0
-                100 = waroftheravens.3
+                100 = waroftheravens.4
         }
-}
+    }
 
 }
