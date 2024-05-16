@@ -22,3 +22,27 @@ country_event = {
         name = norway.1.b
     }
 }
+
+country_event = {
+	id = norway.2
+	title = norway.2.t
+	desc = norway.2.d
+	picture = RAMADAN_eventPicture
+
+	is_triggered_only = yes
+
+    option = {
+        name = norway.2.a
+        every_province = {
+            limit = {
+                region = ireland_region
+            }
+            cede_province = GLW
+        }
+        create_union = GLW
+    }
+
+    option = {
+        name = norway.2.b
+    }
+}
