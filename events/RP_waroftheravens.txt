@@ -25,6 +25,7 @@ country_event = {
                 }
                 cede_province = NCW
                 add_core = NCW
+                remove_core = ROOT
                 infantry = NCW
                 infantry = NCW
                 infantry = NCW
@@ -47,6 +48,7 @@ country_event = {
                 }
                 cede_province = NCW
                 add_core = NCW
+                remove_core = ROOT
             }
 
             random_owned_province = {
@@ -58,6 +60,7 @@ country_event = {
                 }
                 cede_province = NCW
                 add_core = NCW
+                remove_core = ROOT
             }
 
             random_owned_province = {
@@ -69,6 +72,7 @@ country_event = {
                 }
                 cede_province = NCW
                 add_core = NCW
+                remove_core = ROOT
             }
 
             random_owned_province = {
@@ -80,6 +84,7 @@ country_event = {
                 }
                 cede_province = NCW
                 add_core = NCW
+                remove_core = ROOT
             }
 
             random_owned_province = {
@@ -91,6 +96,7 @@ country_event = {
                 }
                 cede_province = NCW
                 add_core = NCW
+                remove_core = ROOT
             }
 
             random_owned_province = {
@@ -102,6 +108,7 @@ country_event = {
                 }
                 cede_province = NCW
                 add_core = NCW
+                remove_core = ROOT
             }
 
             random_owned_province = {
@@ -113,6 +120,7 @@ country_event = {
                 }
                 cede_province = NCW
                 add_core = NCW
+                remove_core = ROOT
             }
 
             random_owned_province = {
@@ -124,6 +132,7 @@ country_event = {
                 }
                 cede_province = NCW
                 add_core = NCW
+                remove_core = ROOT
             }
 
             random_owned_province = {
@@ -135,6 +144,7 @@ country_event = {
                 }
                 cede_province = NCW
                 add_core = NCW
+                remove_core = ROOT
             }
 
             NCW = {
@@ -186,7 +196,8 @@ country_event = {
 
 		NCW = {
             every_owned_province = {
-                cede_province = NOR
+                cede_province = ROOT
+                add_core = ROOT
                 remove_core = NCW
             }
 		}
@@ -209,16 +220,27 @@ country_event = {
         days = 1
     }
 
+    immediate = {
+        hidden_effect = {
+            kill_ruler = yes
+            kill_heir = { allow_new_heir = no }
+        }
+    }
+
 	option = {
 		name = waroftheravens.3.a
 
-		NOR = {
-            every_owned_province = {
-                cede_province = NCW
-                add_core = NCW
-                remove_core = NOR
+		NCW = {
+            add_country_modifier = {
+                name = war_of_the_ravens_victors
+                duration = -1
             }
 		}
+        every_owned_province = {
+            cede_province = NCW
+            add_core = NCW
+            remove_core = ROOT
+        }
     }
 }
 
@@ -240,6 +262,7 @@ country_event = {
             }
             cede_province = NCW
             add_core = NCW
+            remove_core = ROOT
         }
         random_owned_province = {
             limit = {
@@ -250,6 +273,7 @@ country_event = {
             }
             cede_province = NCW
             add_core = NCW
+            remove_core = ROOT
         }
     }
 
