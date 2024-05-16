@@ -9,8 +9,12 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
+        add_country_modifier = {
+            name = ravens_debuff_01
+            duration = -1
+        }
         hidden_effect = {
-            set_country_flag = had_ravens
+            set_global_flag = had_ravens
             random_owned_province = {
                 limit = {
                     region = nordurica_region
@@ -133,6 +137,13 @@ country_event = {
                 add_core = NCW
             }
 
+            NCW = {
+                add_country_modifier = {
+                    name = raven_buff
+                    duration = -1
+                }
+            }
+
             declare_war_with_cb = {
                 who = NCW
                 casus_belli = cb_annex
@@ -143,10 +154,6 @@ country_event = {
 
 	option = {
 		name = waroftheravens.1.a
-		add_country_modifier = {
-            name = ravens_debuff_01
-            duration = -1
-        }
     }
 }
 
@@ -186,10 +193,39 @@ country_event = {
     }
 }
 
+
 country_event = {
 	id = waroftheravens.3
 	title = waroftheravens.3.t
 	desc = waroftheravens.3.d
+	picture = RAMADAN_eventPicture
+
+	trigger = {
+        has_disaster = war_of_the_ravens
+        NOT = { war_with = INC }
+	}
+
+	mean_time_to_happen = {
+        days = 1
+    }
+
+	option = {
+		name = waroftheravens.3.a
+
+		NOR = {
+            every_owned_province = {
+                cede_province = NCW
+                add_core = NCW
+                remove_core = NOR
+            }
+		}
+    }
+}
+
+country_event = {
+	id = waroftheravens.4
+	title = waroftheravens.4.t
+	desc = waroftheravens.4.d
 	picture = RAMADAN_eventPicture
 
 	is_triggered_only = yes
@@ -218,7 +254,7 @@ country_event = {
     }
 
     option = {
-		name = waroftheravens.3.a
+		name = waroftheravens.4.a
 		trigger = {
             has_country_modifier = ravens_debuff_01
         }
@@ -230,7 +266,7 @@ country_event = {
     }
 
     option = {
-		name = waroftheravens.3.a
+		name = waroftheravens.4.a
 		trigger = {
             has_country_modifier = ravens_debuff_02
         }
@@ -242,7 +278,7 @@ country_event = {
     }
 
     option = {
-		name = waroftheravens.3.a
+		name = waroftheravens.4.a
 		trigger = {
             has_country_modifier = ravens_debuff_03
         }
@@ -254,7 +290,7 @@ country_event = {
     }
 
     option = {
-		name = waroftheravens.3.a
+		name = waroftheravens.4.a
 		trigger = {
             has_country_modifier = ravens_debuff_04
         }
@@ -266,7 +302,7 @@ country_event = {
     }
 
     option = {
-		name = waroftheravens.3.a
+		name = waroftheravens.4.a
 		trigger = {
             has_country_modifier = ravens_debuff_05
         }
@@ -278,7 +314,7 @@ country_event = {
     }
 
     option = {
-		name = waroftheravens.3.a
+		name = waroftheravens.4.a
 		trigger = {
             has_country_modifier = ravens_debuff_06
         }
@@ -290,7 +326,7 @@ country_event = {
     }
 
     option = {
-		name = waroftheravens.3.a
+		name = waroftheravens.4.a
 		trigger = {
             has_country_modifier = ravens_debuff_07
         }
@@ -302,7 +338,7 @@ country_event = {
     }
 
     option = {
-		name = waroftheravens.3.a
+		name = waroftheravens.4.a
 		trigger = {
             has_country_modifier = ravens_debuff_08
         }
@@ -314,7 +350,7 @@ country_event = {
     }
 
     option = {
-		name = waroftheravens.3.a
+		name = waroftheravens.4.a
 		trigger = {
             has_country_modifier = ravens_debuff_09
         }
@@ -326,7 +362,7 @@ country_event = {
     }
 
     option = {
-		name = waroftheravens.3.b
+		name = waroftheravens.4.b
 		trigger = {
             has_country_modifier = ravens_debuff_10
         }

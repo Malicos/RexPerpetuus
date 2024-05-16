@@ -16,10 +16,15 @@ country_event = {
             }
         }
         vassalize = JRV
+
+        ai_chance = { factor = 100 }
     }
 
     option = {
         name = norway.1.b
+
+        ai_chance = { factor = 0 }
+
     }
 }
 
@@ -40,9 +45,15 @@ country_event = {
             cede_province = GLW
         }
         create_union = GLW
+
+        ai_chance = { factor = 100 }
+
     }
 
     option = {
         name = norway.2.b
+
+        ai_chance = { factor = 0 }
+
     }
 }
