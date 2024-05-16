@@ -1,0 +1,24 @@
+country_decisions = {
+    rebel_form_norway = {
+		major = yes
+		potential = {
+			tag = NCW
+		}
+		allow = {
+			NOT = { exists = NOR }
+		}
+		effect = {
+			change_tag = NOR
+			if = {
+                limit = {
+                    owns = 17
+                }
+                set_capital = 17
+            }
+            remove_country_modifier = raven_buff
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+ }
