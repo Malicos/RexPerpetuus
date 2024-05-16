@@ -44,14 +44,18 @@
  norway.2.b:0 "Galway will become our crownland."
 
  waroftheravens.1.t:0 "War of the Ravens"
- waroftheravens.1.d:0 "PLEACE DO NOT ATTEMPT TO SIGN PEACE TREATIES WITH THE REBELS! THE WAR AND THE DISASTER WILL END AUTOMATICALLY WHEN YOU GET 100% WAR SCORE."
+ waroftheravens.1.d:0 "(SIGNING ANY PEACE WITH THE REBELS WILL RESULT IN A GAME OVER)"
  waroftheravens.1.a:0 "We will prove our strength again!"
 
  waroftheravens.2.t:0 "Rebels crushed"
  waroftheravens.2.d:0 ""
  waroftheravens.2.a:0 "Now our rule shall never be questioned anymore!"
 
- waroftheravens.3.t:0 "More provinces join the revolt"
- waroftheravens.3.d:0 ""
- waroftheravens.3.a:0 "We must end this before we lose all support"
- waroftheravens.3.b:0 "We are doomed!"
+ waroftheravens.3.t:0 "Royal Family Assasinated"
+ waroftheravens.3.d:0 "Our attempts to reason with the rebels have failed, resulting in the tragic death of our King. With noone else to rule Norway, the predenter took control over the country."
+ waroftheravens.3.a:0 "This is the end..."
+
+ waroftheravens.4.t:0 "More provinces join the revolt"
+ waroftheravens.4.d:0 ""
+ waroftheravens.4.a:0 "We must end this before we lose all support"
+ waroftheravens.4.b:0 "We are doomed!"
