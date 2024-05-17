@@ -1,3 +1,7 @@
+############################################################
+#                       NORWAY
+############################################################
+#WOR STUFF
 raven_buff = {
     land_forcelimit = 15
     land_maintenance_modifier = -0.8
@@ -49,10 +53,85 @@ war_of_the_ravens_victors = {
     legitimacy = 0.25
 }
 
+#MISSION REWARDS
+
 stronger_raven = {
     land_morale = 0.15
 }
 
+sailing_boom = {
+    development_cost = -0.1
+    naval_maintenance_modifier = -0.25
+}
+
+norwegian_wood = {
+    build_time = -0.25
+    build_cost = -0.25
+}
+
+modern_shipbuilding = {
+    global_ship_cost = -0.1
+    global_ship_recruit_speed = -0.1
+}
+
+bigger_cannons = {
+    galley_power = 0.2
+    heavy_ship_power = 0.2
+}
+
+viking_spirit = {
+    movement_speed_in_fleet_modifier = 2
+    global_naval_barrage_cost = -1
+}
+
+settlers_of_vesperia = {
+    global_colonial_growth = 30
+}
+
+masters_of_new_world = {
+    treasure_fleet_income = 1
+    global_colonial_growth = 20
+}
+
+haralds_empire = {
+    prestige = 0.5
+}
+
+gallwegian_autonomy = {
+    country_admin_power = 1
+    diplomatic_upkeep = 2
+}
+
+king_of_nordurica = {
+    diplomatic_upkeep = 2
+    country_diplomatic_power = 1
+}
+
+incompetent_emperor = {
+    discipline = -0.05
+    diplomatic_reputation = -3
+}
+
+nordic_threat = {
+    land_morale = -0.25
+}
+
+the_only_emperor = {
+    all_power_cost = -0.05
+}
+
+integrating_finland = {
+    core_creation = -0.25
+    culture_conversion_cost = -0.25
+}
+
+baltic_domination = {
+    merchants = 1
+}
+
+nordic_reformation = {
+    religious_unity = 0.25
+}
 ############################################################
 #         BONUSES FROM CELTIC MISSION TREE
 ############################################################
