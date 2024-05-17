@@ -50,7 +50,7 @@ war_of_the_ravens_victors = {
 }
 
 stronger_raven = {
-    land_morale = 0.1
+    land_morale = 0.15
 }
 
 ############################################################
