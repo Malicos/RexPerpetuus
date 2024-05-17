@@ -17,7 +17,7 @@ civilwar_branch = {
 		}
 
 		effect = {
-			add_legitimacy = 10
+			add_legitimacy = 50
 			add_country_modifier = {
 				name = stronger_raven
 				duration = 7300
@@ -112,7 +112,11 @@ first_british_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			british_isles_region = {
+				add_permanent_claim = ROOT
+			}
+		}
 	}
 
 	sexish_conquest = {
@@ -143,7 +147,7 @@ first_british_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = { add_adm_power = 100 }
 	}
 
 	reclaim_english_crown = {
@@ -212,7 +216,15 @@ first_british_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = haralds_empire
+				duration = -1
+			}
+			ireland_region = {
+				add_permanent_claim = ROOT
+			}
+		}
 	}
 
 	create_gallwegia = {
@@ -284,7 +296,7 @@ second_british_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = { add_mil_power = 100 }
 	}
 
 	subdue_the_welsh = {
@@ -317,7 +329,7 @@ second_british_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = { add_dip_power = 100 }
 	}
 }
 
@@ -407,6 +419,10 @@ scandinavian_branch = {
 		}
 
 		effect = {
+			add_country_modifier = {
+				name = king_of_nordurica
+				duration = -1
+			}
 			jutland_area = {
 				add_permanent_claim = ROOT
 			}
@@ -442,7 +458,40 @@ scandinavian_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			emperor = {
+				limit = {
+					NOT = {
+						OR = {
+							tag = NOR
+							tag = SCA
+						}
+					}
+				}
+				add_country_modifier = {
+					name = incompetent_emperor
+					duration = 9125
+				}
+				add_country_modifier = {
+					name = nordic_threat
+					duration = 9125
+				}
+			}
+			every_elector = {
+				limit = {
+					NOT = {
+						OR = {
+							tag = NOR
+							tag = SCA
+						}
+					}
+				}
+				add_country_modifier = {
+					name = nordic_threat
+					duration = 9125
+				}
+			}
+		}
 	}
 
 	nor_vs_hre = {
@@ -460,7 +509,12 @@ scandinavian_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = the_only_emperor
+				duration = -1
+			}
+		}
 	}
 }
 
@@ -497,7 +551,12 @@ baltic_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = integrating_finland
+				duration = 7300
+			}
+		}
 	}
 
 	baltic_lake = {
@@ -586,7 +645,12 @@ baltic_branch = {
 			owns_core_province = 4745
 		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = baltic_domination
+				duration = -1
+			}
+		}
 	}
 
 	norwegian_reformation = {
@@ -604,7 +668,12 @@ baltic_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = nordic_reformation
+				duration = -1
+			}
+		}
 	}
 }
 
@@ -621,9 +690,17 @@ naval_branch = {
 		required_missions = { win_civil_war }
 		provinces_to_highlight = {  }
 
-		trigger = { navy_size_percentage = 1 }
+		trigger = {
+			navy_size_percentage = 1
+			naval_forcelimit = 25
+		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = sailing_boom
+				duration = 7300
+			}
+		}
 	}
 
 	norwegian_wood = {
@@ -639,7 +716,12 @@ naval_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = norwegian_wood
+				duration = 7300
+			}
+		}
 	}
 
 	norwegian_manufactures = {
@@ -652,7 +734,12 @@ naval_branch = {
 			wharf = 3
 		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = modern_shipbuilding
+				duration = -1
+			}
+		}
 	}
 
 	cannon_obsession = {
@@ -668,7 +755,12 @@ naval_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = bigger_cannons
+				duration = -1
+			}
+		}
 	}
 
 	greatest_sailors = {
@@ -679,7 +771,12 @@ naval_branch = {
 
 		trigger = { full_idea_group = naval_ideas }
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = viking_spirit
+				duration = -1
+			}
+		}
 	}
 }
 
@@ -710,7 +807,16 @@ colonial_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			define_explorer = {
+				name = "Kristofer Kolumbsson"
+				shock = 6
+				fire = 6
+				manuever = 6
+				siege = 6
+			}
+
+		}
 	}
 
 	vinland_saga = {
@@ -728,7 +834,12 @@ colonial_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = settlers_of_vesperia
+				duration = 9125
+			}
+		}
 	}
 
 	norwegian_vesperia = {
@@ -739,6 +850,12 @@ colonial_branch = {
 
 		trigger = { colony = 3 }
 
-		effect = {  }
+		effect = {
+			add_prestige = 25
+			add_country_modifier = {
+				name = masters_of_new_world
+				duration = -1
+			}
+		}
 	}
 }
