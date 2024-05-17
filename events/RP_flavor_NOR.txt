@@ -38,6 +38,10 @@ country_event = {
 
     option = {
         name = norway.2.a
+        add_country_modifier = {
+            name = gallwegian_autonomy
+            duration = -1
+        }
         every_province = {
             limit = {
                 region = ireland_region
