@@ -6,7 +6,7 @@ civilwar_branch = {
 	potential = { tag = NOR }
 
 	win_civil_war = {
-		icon = overshadow_venice
+		icon = mission_rb_war_of_the_roses
 		position = 1
 		provinces_to_highlight = {
 			controlled_by = NCW
@@ -34,7 +34,7 @@ first_british_branch = {
 	potential = { tag = NOR }
 
 	denlegian_question = {
-		icon = overshadow_venice
+		icon = mission_enforce_danelaw
 		position = 2
 		required_missions = { win_civil_war }
 		provinces_to_highlight = {
@@ -93,7 +93,7 @@ first_british_branch = {
 	}
 
 	conquer_mercia = {
-		icon = overshadow_venice
+		icon = mission_rb_into_england
 		position = 3
 		required_missions = { denlegian_question }
 		provinces_to_highlight = {
@@ -116,7 +116,7 @@ first_british_branch = {
 	}
 
 	sexish_conquest = {
-		icon = overshadow_venice
+		icon = mission_rb_scottish_conquer_london
 		position = 4
 		required_missions = { conquer_mercia }
 		provinces_to_highlight = {
@@ -147,7 +147,7 @@ first_british_branch = {
 	}
 
 	reclaim_english_crown = {
-		icon = overshadow_venice
+		icon = english_alliance
 		position = 5
 		required_missions = { sexish_conquest subdue_the_welsh }
 		provinces_to_highlight = {
@@ -216,7 +216,7 @@ first_british_branch = {
 	}
 
 	create_gallwegia = {
-		icon = overshadow_venice
+		icon = mission_rb_rule_britannia_irish_version
 		position = 6
 		required_missions = { reclaim_english_crown }
 		provinces_to_highlight = {
@@ -251,7 +251,7 @@ second_british_branch = {
 	potential = { tag = NOR }
 
 	subdue_the_scots = {
-		icon = overshadow_venice
+		icon = mission_rb_conquer_scotland
 		position = 3
 		required_missions = { denlegian_question }
 		provinces_to_highlight = {
@@ -288,7 +288,7 @@ second_british_branch = {
 	}
 
 	subdue_the_welsh = {
-		icon = overshadow_venice
+		icon = mission_rb_conquer_wales
 		position = 4
 		required_missions = { conquer_mercia }
 		provinces_to_highlight = {
@@ -329,7 +329,7 @@ scandinavian_branch = {
 	potential = { tag = NOR }
 
 	lappland_proxy_war = {
-		icon = overshadow_venice
+		icon = mission_reindeer_herder
 		position = 2
 		required_missions = { win_civil_war }
 		provinces_to_highlight = {
@@ -360,7 +360,7 @@ scandinavian_branch = {
 	}
 
 	claim_swedish_crown = {
-		icon = overshadow_venice
+		icon = mission_have_two_subjects
 		position = 4
 		required_missions = { lappland_proxy_war }
 		provinces_to_highlight = {
@@ -385,7 +385,7 @@ scandinavian_branch = {
 	}
 
 	claim_danish_crown = {
-		icon = overshadow_venice
+		icon = mission_sca_shield
 		position = 5
 		required_missions = { claim_swedish_crown }
 		provinces_to_highlight = {
@@ -417,7 +417,7 @@ scandinavian_branch = {
 	}
 
 	secure_schleswig = {
-		icon = overshadow_venice
+		icon = mission_assemble_an_army
 		position = 6
 		required_missions = { claim_danish_crown }
 		provinces_to_highlight = {
@@ -446,7 +446,7 @@ scandinavian_branch = {
 	}
 
 	nor_vs_hre = {
-		icon = overshadow_venice
+		icon = a.e.i.o.u.
 		position = 7
 		required_missions = { secure_schleswig }
 		provinces_to_highlight = {  }
@@ -472,7 +472,7 @@ baltic_branch = {
 	potential = { tag = NOR }
 
 	finnish_what_we_started = {
-		icon = overshadow_venice
+		icon = mission_conquer_finland
 		position = 5
 		required_missions = { claim_swedish_crown }
 		provinces_to_highlight = {
@@ -501,7 +501,7 @@ baltic_branch = {
 	}
 
 	baltic_lake = {
-		icon = overshadow_venice
+		icon = mission_establish_high_seas_navy
 		position = 6
 		required_missions = { finnish_what_we_started }
 		provinces_to_highlight = {
@@ -590,7 +590,7 @@ baltic_branch = {
 	}
 
 	norwegian_reformation = {
-		icon = overshadow_venice
+		icon = join_the_reformation
 		position = 7
 		required_missions = { secure_schleswig }
 		provinces_to_highlight = {  }
@@ -627,7 +627,7 @@ naval_branch = {
 	}
 
 	norwegian_wood = {
-		icon = overshadow_venice
+		icon = mission_galleys_in_port
 		position = 3
 		required_missions = { sailing_boom }
 		provinces_to_highlight = {  }
@@ -643,7 +643,7 @@ naval_branch = {
 	}
 
 	norwegian_manufactures = {
-		icon = overshadow_venice
+		icon = mission_state_manufactories
 		position = 4
 		required_missions = { norwegian_wood }
 		provinces_to_highlight = {  }
@@ -656,7 +656,7 @@ naval_branch = {
 	}
 
 	cannon_obsession = {
-		icon = overshadow_venice
+		icon = mission_sea_battles
 		position = 5
 		required_missions = { norwegian_manufactures }
 		provinces_to_highlight = {  }
@@ -672,7 +672,7 @@ naval_branch = {
 	}
 
 	greatest_sailors = {
-		icon = overshadow_venice
+		icon = crusader_fleet
 		position = 6
 		required_missions = { cannon_obsession norwegian_vesperia }
 		provinces_to_highlight = {  }
@@ -691,7 +691,7 @@ colonial_branch = {
 	potential = { tag = NOR }
 
 	subjugate_iceland = {
-		icon = overshadow_venice
+		icon = mission_protect_white_sea_trade
 		position = 3
 		required_missions = { sailing_boom }
 		provinces_to_highlight = {
@@ -714,7 +714,7 @@ colonial_branch = {
 	}
 
 	vinland_saga = {
-		icon = overshadow_venice
+		icon = mission_rb_colonise_canada
 		position = 4
 		required_missions = { subjugate_iceland }
 		provinces_to_highlight = {  }
@@ -732,7 +732,7 @@ colonial_branch = {
 	}
 
 	norwegian_vesperia = {
-		icon = overshadow_venice
+		icon = settle_north_america
 		position = 5
 		required_missions = { vinland_saga }
 		provinces_to_highlight = {  }
