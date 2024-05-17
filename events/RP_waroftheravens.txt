@@ -13,8 +13,22 @@ country_event = {
             name = ravens_debuff_01
             duration = -1
         }
+        set_global_flag = had_ravens
+	}
+
+	option = {
+		name = waroftheravens.1.a
+		set_global_flag = started_ravens
+        define_ruler = {
+            name = "Severin"
+            dynasty = "Staur"
+            adm = 3
+            dip = 2
+            mil = 2
+            age = 43
+            claim = 95
+        }
         hidden_effect = {
-            set_global_flag = had_ravens
             random_owned_province = {
                 limit = {
                     region = nordurica_region
@@ -148,9 +162,19 @@ country_event = {
             }
 
             NCW = {
+                override_country_name = "Kvitramnar"
                 add_country_modifier = {
                     name = raven_buff
                     duration = -1
+                }
+                define_ruler = {
+                    name = "Halvard"
+                    dynasty = "Hjerne"
+                    adm = 3
+                    dip = 5
+                    mil = 5
+                    age = 27
+                    claim = 25
                 }
             }
 
@@ -160,10 +184,176 @@ country_event = {
             }
 
         }
-	}
+    }
 
-	option = {
-		name = waroftheravens.1.a
+    option = {
+		name = waroftheravens.1.b
+		set_global_flag = started_ravens
+        define_ruler = {
+            name = "Halvard"
+            dynasty = "Hjerne"
+            adm = 3
+            dip = 5
+            mil = 5
+            age = 27
+            claim = 25
+        }
+        hidden_effect = {
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    fort_level = 1
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                cavalry = NCW
+                cavalry = NCW
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            NCW = {
+                override_country_name = "Blaramnar"
+                add_country_modifier = {
+                    name = raven_buff
+                    duration = -1
+                }
+                define_ruler = {
+                    name = "Severin"
+                    dynasty = "Staur"
+                    adm = 3
+                    dip = 2
+                    mil = 2
+                    age = 43
+                    claim = 95
+                }
+            }
+
+            declare_war_with_cb = {
+                who = NCW
+                casus_belli = cb_annex
+            }
+
+        }
     }
 }
 
@@ -212,8 +402,9 @@ country_event = {
 	picture = RAMADAN_eventPicture
 
 	trigger = {
+        has_global_flag = started_ravens
         has_disaster = war_of_the_ravens
-        NOT = { war_with = INC }
+        NOT = { war_with = NCW }
 	}
 
 	mean_time_to_happen = {
@@ -222,24 +413,27 @@ country_event = {
 
     immediate = {
         hidden_effect = {
-            kill_ruler = yes
-            kill_heir = { allow_new_heir = no }
+            switch_tag = JUT
         }
     }
 
 	option = {
 		name = waroftheravens.3.a
-
-		NCW = {
-            add_country_modifier = {
-                name = war_of_the_ravens_victors
-                duration = -1
+        switch_tag = JUT
+        hidden_effect = {
+            NCW = {
+                add_country_modifier = {
+                    name = war_of_the_ravens_victors
+                    duration = -1
+                }
             }
-		}
-        every_owned_province = {
-            cede_province = NCW
-            add_core = NCW
-            remove_core = ROOT
+            NOR = {
+                every_owned_province = {
+                    cede_province = NCW
+                    add_core = NCW
+                    remove_core = NOR
+                }
+            }
         }
     }
 }
