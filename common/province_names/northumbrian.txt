@@ -1,45 +1,77 @@
 #Culture group naming in british.txt
+#ch here is always pronounced like in loch
 
 #Britain
+233 = { "Cornaw" "Trurae" }
 234 = { "Hampskire" "Wincaster" }
+235 = { "Kent" "Canterbirch" }
 238 = { "Essex" "Kelmsford" }
 239 = { "Glowcaster" "Glowcaster" }
-240 = { "Skropscire" "Screwsbirry" }
+240 = { "Skropskire" "Skrewsbirch" }
+241 = { "Glamorgan" "Kerdiff" }
+242 = { "Kernairfon" "Kernairfon" }
 244 = { "Lancaskire" "Lancaster" }
-245 = { "Erwick" "Erwick" }
-246 = { "Norþumberland" "Alnwick" }
+245 = { "Errick" "Errick" }
+246 = { "Norþummerland" "Annick" }
+247 = { "Kimmerland" "Cairlile" }
+248 = { "Loþien" "Edinbirch" }
 249 = { "Ayrskire" "Ayr" }
-1860 = { "Norfolk" "Norwick" }
-3008 = { "Galloway" "Wigtown" }
-3028 = { "Suffolk" "Ipswick" }
-4367 = { "Wic" "Wic" }
-4370 = { "Cambrig" "Cambrig" }
+1860 = { "Norfowk" "Norrick" }
+3019 = { "Lanrick" "Lanrick" }
+3028 = { "Suffowk" "Ipsick" }
+3034 = { "Brecknockskire" "Brecknock" }
+4361 = { "Roxbirch" "Roxbirch" }
+4366 = { "Bawdinton" "Bawdinton" }
+4367 = { "Wick" "Wick" }
+4370 = { "Cambrigg" "Cambrigg" }
 4371 = { "Sussex" "Kicaster" }
 4372 = { "Worcaster" "Worcaster" }
-4373 = { "Deon" "Exeter" }
+4373 = { "Den" "Exeter" }
 4374 = { "Dorset" "Dorcaster" }
 4375 = { "Caskire" "Caster" }
 4376 = { "Leicaster" "Leicaster" }
 4785 = { "Skeffeeld" "Skeffeeld" }
+8122 = { "Bernstapel" "Bernstapel" }
 8124 = { "Berkskire" "Abingdon" }
-8128 = { "Warwick" "Warwick" }
+8128 = { "Warrick" "Warrick" }
+8129 = { "Irkenfeeld" "Ircenham" }
 8133 = { "Skipton" "Skipton" }
-8137 = { "Berwick" "Berwick upon Tweed" }
-8170 = { "Wiltskire" "Sarisbirry" }
+8137 = { "Berrick" "Berrick upon Tweed" }
+8140 = { "Denbich" "Denbich" }
+8141 = { "Merioneþ" "Dowgelleg" }
+8143 = { "Kermairþen" "Kermairþen" }
+8144 = { "Gwentskire" "Kergwent" }
+8147 = { "Lennox" "Dummarton" }
+8170 = { "Wiltskire" "Sairsbirch" }
 
 #Austrasia
+89 = { "Ameens" "Ameens" }
 90 = { "Brigs" "Brigs" }
+96 = { "Sealand" "Middelbirch" }
 3064 = { "Dunkirk" "Dunkirk" }
-4383 = { "Þe Earlsheg" "Þe Earlsheg" }
+4383 = { "Þe Yerlshegg" "Þe Yerlshegg" }
+7965 = { "Pontew" "Abbegill" }
 7966 = { "Wermanskire" "Sant Cwint" }
+8020 = { "Tornick" "Tornick" }
+8021 = { "Houst" "Houst" }
 
 #Neustria
 171 = { "Wantskire" "Wannets" }
-172 = { "Namptskire" "Nampts" }
+172 = { "Nampskire" "Nampts" }
+177 = { "Kelmans" "Kelmans" }
 178 = { "Angews" "Angews" }
+1879 = { "Alenkeun" "Alenkeun" }
+3068 = { "Cornales" "Kimper" }
 4384 = { "Reþenskire" "Reþens" }
+4385 = { "Costenten" "Keersbirch" }
 7962 = { "Meþenskire" "Meþent" }
-7980 = { "Perk" "Mortany" }
-7987 = { "Abrinksikre" "Abrinks" }
+7963 = { "Belags" "Belags" }
+7972 = { "Herfleet" "Herfleet" }
+7980 = { "Perk" "Mortanie" }
+7983 = { "Fawscie" "Fawscie" }
+7986 = { "Costanks" "Costanks" }
+7987 = { "Abrinkskire" "Abrinks" }
+7991 = { "Sawmor" "Sawmor" }
 7992 = { "Rays" "Racket" }
 7993 = { "Ankeniss" "Ankeniss" }
+8013 = { "Wairand" "Wairand" }
