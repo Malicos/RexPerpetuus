@@ -19,7 +19,7 @@
 3019 = { "Lanark" "Lanark" }
 3028 = { "Suffolk" "Ipswitch" }
 4361 = { "Roxberry" "Roxberry" }
-4365 = { "Manney" "Duglas" }
+4365 = { "Manney" "Chestertown" }
 4367 = { "Witch" "Witch" }
 4370 = { "Cambredge" "Cambredge" }
 4371 = { "Sussex" "Chichester" }

@@ -1,6 +1,6 @@
 #RP, using Cumbraek conlang/reconstruction (an attempt at the most historically plausible form, though highly speculative given there is no direct knowledge of the Cumbric language at all)
 
 #Albion
-247 = { "Cumbry" "Cayr-Luwel" }
+247 = { "Cumbry" "Cayr Luwel" }
 4362 = { "Din Pris" "Din Pris" }
 8135  = { "Er Hown" "Trevaval" }

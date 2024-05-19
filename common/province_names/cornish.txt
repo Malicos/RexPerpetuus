@@ -28,7 +28,9 @@
 
 #Kernow
 233 = { "Kernow" "Truru" } 
+239 = { "Karlow" "Karlow" }
 4130 = { "Gwlas an Hav" "Tredon" } 
+4372 = { "Karwrangon" "Karwrangon" }
 4373 = { "Dewnens" "Karesk" } 			#Capital Karesk, think that may be modern, though.
-4374 = { "Gwlas an Dhorn" "Dorngora" }
+4374 = { "Gwlas an Dorn" "Kardorn" }
 8122 = { "Dewnens Kledh" "Peul an Gasvool"}			# capital is a likely botched translation of Barnstaple

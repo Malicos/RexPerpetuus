@@ -29,7 +29,7 @@
 4130 = { "Somerset" "Tonton" }
 4361 = { "Roxbirrie" "Roxbirrie" }
 4362 = { "Dumfrees" "Dumfrees" }
-4365 = { "Manneg" "Duglas" }
+4365 = { "Manneg" "Cestertune" }
 4366 = { "Baldwinton" "Baldwinton" }
 4367 = { "Wic" "Wic" }
 4368 = { "Durham" "Durham" }
