@@ -52,7 +52,7 @@
 8144 = { "Gwent" "Caergwent" }
 
 #Scotland
-248 = { "Lleuddiniawn" "Caeredin" } #(JP) or "Dinas Eidyn"
+248 = { "Caermisglen" "Caermisglen" } #calque of Musselburgh for RP
 249 = { "Aeron" "Aberair" } #(JP) "Aeron" was a likely Brythonic Kingdom in Ayrshire
 250 = { "Dinas Coed" "Dinas Coed" } #(JP) wood-city, "Perth" derived from a Pictish word for wood or copse
 251 = { "Aberdon" "Aberdon" }

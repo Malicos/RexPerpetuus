@@ -4,23 +4,23 @@
 #Britain
 233 = { "Cornaw" "Trurae" }
 234 = { "Hampskire" "Wincaster" }
-235 = { "Kent" "Canterbirch" }
+235 = { "Kent" "Canterbirrae" }
 238 = { "Essex" "Kelmsford" }
 239 = { "Glowcaster" "Glowcaster" }
-240 = { "Skropskire" "Skrewsbirch" }
+240 = { "Skropskire" "Skrewsbirrae" }
 241 = { "Glamorgan" "Kerdiff" }
 242 = { "Kernairfon" "Kernairfon" }
 244 = { "Lancaskire" "Lancaster" }
 245 = { "Errick" "Errick" }
 246 = { "Norþummerland" "Annick" }
 247 = { "Kimmerland" "Cairlile" }
-248 = { "Loþien" "Edinbirch" }
+248 = { "Loþien" "Edinbirrae" }
 249 = { "Ayrskire" "Ayr" }
 1860 = { "Norfowk" "Norrick" }
 3019 = { "Lanrick" "Lanrick" }
 3028 = { "Suffowk" "Ipsick" }
 3034 = { "Brecknockskire" "Brecknock" }
-4361 = { "Roxbirch" "Roxbirch" }
+4361 = { "Roxbirrae" "Roxbirrae" }
 4365 = { "Manneg" "Castertune" }
 4366 = { "Bawdinton" "Bawdinton" }
 4367 = { "Wick" "Wick" }
@@ -43,12 +43,12 @@
 8143 = { "Kermairþen" "Kermairþen" }
 8144 = { "Gwentskire" "Kergwent" }
 8147 = { "Lennox" "Dummarton" }
-8170 = { "Wiltskire" "Sairsbirch" }
+8170 = { "Wiltskire" "Sairsbirrae" }
 
 #Austrasia
 89 = { "Ameens" "Ameens" }
 90 = { "Brigs" "Brigs" }
-96 = { "Sealand" "Middelbirch" }
+96 = { "Sealand" "Middelbirrae" }
 3064 = { "Dunkirk" "Dunkirk" }
 4383 = { "Þe Yerlshegg" "Þe Yerlshegg" }
 7965 = { "Pontew" "Abbegill" }
@@ -64,7 +64,7 @@
 1879 = { "Alenkeun" "Alenkeun" }
 3068 = { "Cornales" "Kimper" }
 4384 = { "Reþenskire" "Reþens" }
-4385 = { "Costenten" "Keersbirch" }
+4385 = { "Costenten" "Keersbirrae" }
 7962 = { "Meþenskire" "Meþent" }
 7963 = { "Belags" "Belags" }
 7972 = { "Herfleet" "Herfleet" }
