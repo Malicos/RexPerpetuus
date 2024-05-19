@@ -21,8 +21,10 @@
 #Wales
 240 = { "Amwythig" "Amwythig" }
 241 = { "Morgannwg" "Caerdydd" }
+242 = { "Gwynedd" "Caernarfon" }
 3034 = { "Brycheiniog" "Aberhonddu" }
 3036 = { "Ceredigion" "Aberteifi" }
+4366 = { "Powys" "Y Trallwng" }	#capital Welshpool, Montgomery is never founded in RP
 8129 = { "Erging" "Erging" }
 8138 = { "Ynys Môn" "Aberffraw" }
 8139 = { "Y Fflint" "Y Fflint" }
