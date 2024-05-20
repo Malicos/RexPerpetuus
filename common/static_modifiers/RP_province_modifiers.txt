@@ -1,0 +1,3 @@
+bernician_autonomy = {
+    min_local_autonomy = 50
+}
