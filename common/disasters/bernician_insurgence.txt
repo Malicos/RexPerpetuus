@@ -1,0 +1,48 @@
+bernician_insurgence = {
+
+    potential = {
+        TAG = JRV
+        NOT = {
+            has_global_flag = had_bernicia
+        }
+
+    }
+
+    can_start = {
+        num_of_owned_provinces_with = {
+            value = 1
+            area = northern_england_area
+        }
+    }
+
+    can_stop = {
+        exists = GER
+    }
+
+    can_end = {
+        exists = GER
+    }
+
+    progress = {
+         modifier = {
+            factor = 100
+            exists = ROOT
+        }
+    }
+
+    ended_by_country_breaking_to_rebels = yes
+
+    modifier = {
+        global_unrest = 20
+    }
+
+    on_start = bernicia.1
+    on_end = bernicia.2
+
+    on_monthly = {
+        random_events = {
+                900 = 0
+        }
+    }
+
+}
