@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = denlegian
+religion = catholic
+technology_group = western
+capital = 8137	# Berrik
+government_rank = 2
+
+
