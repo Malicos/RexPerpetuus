@@ -8,6 +8,7 @@ is_city = yes
 owner = JRV
 controller = JRV
 add_core = JRV
+add_core = BNC
 
 #Demographics
 culture = denlegian
@@ -39,3 +40,11 @@ discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+
+#Histories
+1067.1.1 = {
+    add_province_modifier = {
+        name = bernician_autonomy
+        duration = -1
+    }
+}

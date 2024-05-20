@@ -20,6 +20,7 @@ trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
 add_core = JRV
+add_core = BNC
 
 #Other Political
 hre = no
@@ -39,3 +40,10 @@ discovered_by = eastern
 discovered_by = rhomanian_tech
 
 #Histories
+
+1067.1.1 = {
+    add_province_modifier = {
+        name = bernician_autonomy
+        duration = -1
+    }
+}
