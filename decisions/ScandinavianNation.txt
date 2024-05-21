@@ -14,6 +14,8 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
 			culture_group = scandinavian
+			NOT = { culture = denlegian }
+			NOT = { culture = gallwegian }
 			OR = {
 				ai = no
 				AND = {
