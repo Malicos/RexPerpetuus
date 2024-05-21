@@ -450,7 +450,6 @@ final_reward_branch = {
 		trigger = {  }
 
 		effect = {
-			custom_tooltip = celtic_rebirth_tooltip
 			add_country_modifier = {
 				name = push_for_europe
 				duration = 18250
