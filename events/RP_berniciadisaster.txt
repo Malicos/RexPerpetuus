@@ -1,0 +1,24 @@
+namespace = berniciadisaster
+
+country_event = {
+	id = berniciadisaster.1
+	title = berniciadisaster.1.t
+	desc = berniciadisaster.1.d
+	picture = RAMADAN_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = {
+        set_global_flag = had_bernicia
+	}
+
+	option = {
+		name = berniciadisaster.1.a
+		every_owned_province = {
+            limit = { area = northern_england_area }
+            remove_province_modifier = bernician_autonomy
+            remove_province_modifier = shrinking_bernician_autonomy
+            add_local_autonomy = 100
+		}
+    }
+}
