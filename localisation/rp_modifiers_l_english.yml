@@ -1,5 +1,8 @@
 ﻿l_english:
 
+#JORVIK STUFF
+ lost_bernicia_modifier:0 "Forfeited Ducal Title"
+
 #NORWAY STUFF
  war_of_the_ravens_victors:0 "Victors of the War of the Ravens"
  stronger_raven:0 "The Stronger Raven"
@@ -50,3 +53,4 @@
 
  #PROVINCE MODIFIERS
  bernician_autonomy:0 "Bernician Autonomy"
+ shrinking_bernician_autonomy:0 "Shrinking Bernician Autonomy"
