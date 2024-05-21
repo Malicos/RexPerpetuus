@@ -1,0 +1,56 @@
+country_decisions = {
+    bretland_nation = {
+        major = yes
+        potential = {
+            NOT = { has_country_flag = formed_bretland }
+            NOT = { tag = BRL }
+            NOT = { tag = GBR }			#Unlikely, but doesn't do any harm here
+            culture = denlegian
+            capital_scope = { region = british_isles_region }
+        }
+        provinces_to_highlight = {
+            region = british_isles_region
+            OR = {
+                NOT = { owned_by = ROOT }
+                NOT = { is_core = ROOT }
+            }
+        }
+        allow = {
+            NOT = { exists = BRL }
+            is_at_war = no
+            is_free_or_tributary_trigger = yes
+            is_nomad = no
+            owns_core_province = 245
+            num_of_owned_provinces_with = {
+                is_core = ROOT
+                region = british_isles_region
+                value = 50
+            }
+        }
+        effect = {
+            change_tag = BRL
+            remove_non_electors_emperors_from_empire_effect = yes
+            british_isles_region = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                    NOT = { is_core = ROOT }
+                }
+                add_permanent_claim = BRL
+            }
+            if = {
+                limit = { NOT = { government_rank = 2 } }
+                set_government_rank = 2
+            }
+            add_country_modifier = {
+                name = "centralization_modifier"
+                duration = 7300
+            }
+            add_prestige = 35
+            set_country_flag = formed_bretland
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        ai_importance = 400 #
+    }
+}

@@ -1,0 +1,133 @@
+# Country name see file name.
+
+graphical_culture = westerngfx
+
+color = { 255 192 203 }
+revolutionary_colors = { 8 5 8 }
+
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	anglofrench_line
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+leader_names = { 
+	Atkinson Armstrong
+	Ball Bell Birkett Braithwaite Burdon
+	Carlisle Cavendish Carr Charlton
+	Dacre Dixon Dodd
+	Elliott 
+	Featherstonehaugh Fenwick
+	Graham Grey
+	Hall Heron Hodgson Hume
+	Lambton Liddell Lowther Lumley
+	Marley Milburn Musgrave
+	Neville 
+	Percy
+	Radcliffe Robinson Robson
+	Scott Shafto Swinburne
+	Todhunter Tyson	
+}
+
+monarch_names = {
+	# RP HISTORICAL NAMES
+	"Pal #1" = 1
+	"Torbrand #1" = 10
+	"Hælder #3" = 60
+	"Samund #1" = 10
+	"Ragnvald #1" = 10
+	"Hælfden #1" = 1
+	"Olaf #2" = 20
+	"Gudleik #1" = 1
+	"Kolbein #1" = 1
+	"Arnvid #1" = 10
+	"Vigleik #1" = 1
+	"Osser #2" = 20
+	"Sverre #1" = 1
+	
+	# RANDOM NAMES - MALE
+	"Rolf #0" = 10
+	"Hĺkon #0" = 0
+	"Erik #0" = 1
+	"Christoffer #0" = 0
+	"Magnus #0" = 1
+	"Harald #0" = 0
+	"Inge #0" = 0
+	"Sigurd #0" = 0
+	"Aksel #0" = 0
+	"Alf #0" = 0
+	"Anders #0" = 0
+	"Ansgard #0" = 0
+	"Bernt #0" = 0
+	"Birger #0" = 0
+	"Bjřrn #0" = 0
+	"Daniel #0" = 0
+	"Edvard #0" = 0
+	"Eilert #0" = 0
+	"Einar #0" = 0
+	"Elias #0" = 0
+	"Esben #0" = 0
+	"Folke #0" = 0
+	"Gunnar #0" = 0
+	"Kasper #0" = 0
+	"Kennet #0" = 0
+	"Knut #0" = 0
+	"Ludvig #0" = 0
+	"Mats #0" = 0
+	"Mikael #0" = 0
+	"Njĺld #0" = 0
+	"Njord #0" = 0
+	"Oddmund #0" = 0
+	"Peder #0" = 0
+	"Rikard #0" = 0
+	"Simon #0" = 0
+	"Sřren #0" = 0
+	"Tollak #0" = 0
+	
+	# RANDOM NAMES - FEMALE
+	"Margaret #0" = -10
+	"Ingeborg #0" = -5
+	"Ragnhild #0" = -1
+	"Kristin #0" = -1
+	"Torhild #0" = -1	
+}
+
+ship_names = {
+          Aethelfrith Alnwick
+          Bamburgh Bede Bernicia Berwick Blackadder Borderer Bowes
+          Carlisle Cheviot Cumberland
+          Derwent Durham
+          Eden
+          Hadrian Helvellyn
+          Jarrow
+          Lindisfarne
+          Morpeth
+          Newcastle Northumbria
+          Penrith Percy
+          Reiver Rheged
+          Scafell Shap Skiddaw Solway "St Cuthbert" "St Edwin" "St Oswald" Sunderland
+          Tees Tweed Tyne
+          Wear Westmorland Windermere
+}
