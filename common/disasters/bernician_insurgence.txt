@@ -50,8 +50,108 @@ bernician_insurgence = {
 
     progress = {
          modifier = {
-            factor = 50
-            exists = ROOT
+            factor = 0.2
+            246 = {
+                has_province_modifier = bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.2
+            248 = {
+                has_province_modifier = bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.2
+            4361 = {
+                has_province_modifier = bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.2
+            4368 = {
+                has_province_modifier = bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.2
+            8136 = {
+                has_province_modifier = bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.2
+            8137 = {
+                has_province_modifier = bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.2
+            8145 = {
+                has_province_modifier = bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.2
+            8146 = {
+                has_province_modifier = bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.1
+            246 = {
+                has_province_modifier = shrinking_bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.1
+            248 = {
+                has_province_modifier = shrinking_bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.1
+            4361 = {
+                has_province_modifier = shrinking_bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.1
+            4368 = {
+                has_province_modifier = shrinking_bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.1
+            8136 = {
+                has_province_modifier = shrinking_bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.1
+            8137 = {
+                has_province_modifier = shrinking_bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.1
+            8145 = {
+                has_province_modifier = shrinking_bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = 0.1
+            8146 = {
+                has_province_modifier = shrinking_bernician_autonomy
+            }
+        }
+        modifier = {
+            factor = -0.5
+            stability = 1
+        }
+        modifier = {
+            factor = -0.5
+            stability = 2
         }
     }
 
