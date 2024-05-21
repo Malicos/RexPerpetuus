@@ -1,3 +1,9 @@
 bernician_autonomy = {
     min_local_autonomy = 50
+    nobles_influence_modifier = 0.05
+}
+
+shrinking_bernician_autonomy = {
+    min_local_autonomy = 25
+    nobles_influence_modifier = 0.025
 }
