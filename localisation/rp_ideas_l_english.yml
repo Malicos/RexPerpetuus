@@ -12,11 +12,23 @@
  #################################################################################
 
  # Jorvik
- JRV_ideas:0 "Jorviker Ideas"
- JRV_ideas_start:0 "Jorviker Traditions"
- JRV_ideas_bonus:0 "Jorviker Ambition"
- jrv_first:0 "Heirs of the Last Viking"
- jrv_second:0 "Royal Merchant Navy"
+ JRV_ideas:0 "Denlegian Ideas"
+ JRV_ideas_start:0 "Denlegian Traditions"
+ JRV_ideas_bonus:0 "Denlegian Ambition"
+ jrv1:0 "Bastion Against the Anglo-Saxons"
+ jrv1_desc:0 ""
+ jrv2:0 "Royal Merchant Navy"
+ jrv2_desc:0 ""
+ jrv3:0 "Strength and Wisdom"
+ jrv3_desc:0 ""
+ jrv4:0 "Sons of the Viking Raiders"
+ jrv4_desc:0 ""
+ jrv5:0 "Swift Ships"
+ jrv5_desc:0 ""
+ jrv6:0 "The Great Heathen Army"
+ jrv6_desc:0 ""
+ jrv7:0 "Legacy of Cnut the Great"
+ jrv7_desc:0 ""
 
  # Norway
  nor1:0 "Legacy of Harald Hardrada"
