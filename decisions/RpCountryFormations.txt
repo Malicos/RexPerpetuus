@@ -5,7 +5,7 @@ country_decisions = {
             NOT = { has_country_flag = formed_bretland }
             NOT = { tag = BRL }
             NOT = { tag = GBR }			#Unlikely, but doesn't do any harm here
-            culture = denlegian
+            tag = DNL
             capital_scope = { region = british_isles_region }
         }
         provinces_to_highlight = {
@@ -24,7 +24,7 @@ country_decisions = {
             num_of_owned_provinces_with = {
                 is_core = ROOT
                 region = british_isles_region
-                value = 50
+                value = 54
             }
         }
         effect = {
@@ -38,14 +38,15 @@ country_decisions = {
                 add_permanent_claim = BRL
             }
             if = {
-                limit = { NOT = { government_rank = 2 } }
-                set_government_rank = 2
+                limit = { NOT = { government_rank = 3 } }
+                set_government_rank = 3
             }
             add_country_modifier = {
                 name = "centralization_modifier"
                 duration = 7300
             }
             add_prestige = 35
+            swap_ideas = yes
             set_country_flag = formed_bretland
         }
         ai_will_do = {
