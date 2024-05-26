@@ -10,14 +10,19 @@ country_event = {
 
     option = {
         name = norway.1.a
-        trigger = {
-            JRV = {
-                ai = yes
-            }
-        }
-        vassalize = JRV
 
-        ai_chance = { factor = 100 }
+        if = {
+            limit = {
+                JRV = {
+                    ai = yes
+                }
+            }
+            vassalize = JRV
+        }
+
+        ai_chance = {
+            factor = 100
+        }
     }
 
     option = {
