@@ -45,7 +45,7 @@ lvl2_denlegian_ideas = {
 
 	2jrv2 = { ship_power_propagation = 0.25 }
 
-	2jrv3 = { monarch_lifespan = 0.333 monarch_admin_power = 2 monarch_diplomatic_power = 2 }
+	2jrv3 = { monarch_lifespan = 0.35 monarch_admin_power = 2 monarch_diplomatic_power = 2 }
 
 	2jrv4 = { movement_speed = 0.3 movement_speed_onto_off_boat_modifier = 0.5 }
 
