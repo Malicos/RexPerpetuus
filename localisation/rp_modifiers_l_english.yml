@@ -1,5 +1,12 @@
 ﻿l_english:
 
+#JORVIK STUFF
+ lost_bernicia_modifier:0 "Forfeited Ducal Title"
+ feared_ruler:0 "Feared Ruler"
+ fixing_state:0 "Fixing the State"
+ reintegration_of_south:0 "Reintegration of the South"
+ raider_fleet:0 "Denlegian Raider Fleet"
+
 #NORWAY STUFF
  war_of_the_ravens_victors:0 "Victors of the War of the Ravens"
  stronger_raven:0 "The Stronger Raven"
@@ -47,3 +54,7 @@
  trade_behemoth:0 "Trade Behemoth"
  brand_new_world:0 "Brand New World"
  sun_never_sets_on_gaelic_empire:0 "Sun Never Sets on the Gaelic Empire"
+
+ #PROVINCE MODIFIERS
+ bernician_autonomy:0 "Bernician Autonomy"
+ shrinking_bernician_autonomy:0 "Shrinking Bernician Autonomy"

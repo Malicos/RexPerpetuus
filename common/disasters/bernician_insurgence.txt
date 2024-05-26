@@ -1,0 +1,145 @@
+bernician_insurgence = {
+    potential = {
+        TAG = JRV
+        NOT = {
+            has_global_flag = had_bernicia
+        }
+        NOT = {
+            has_global_flag = lost_bernicia
+        }
+
+    }
+
+    can_start = {
+        owns_all_provinces = {
+            area = northern_england_area
+        }
+    }
+
+    can_stop = {
+        OR = {
+            any_province = {
+                area = northern_england_area
+                NOT = { owned_by = ROOT controlled_by = ROOT }
+            }
+            NOT = {
+                any_province = {
+                    OR = {
+                        has_province_modifier = bernician_autonomy
+                        has_province_modifier = shrinking_bernician_autonomy
+                    }
+                }
+            }
+        }
+    }
+
+    can_end = {
+        OR = {
+            AND = {
+                NOT = { overextension_percentage = 0.01 }
+                NOT = { average_autonomy = 1 }
+                NOT = { num_of_rebel_armies = 1 }
+                NOT = { num_of_rebel_controlled_provinces = 1 }
+            }
+            any_province = {
+                area = northern_england_area
+                NOT = { owned_by = ROOT controlled_by = ROOT }
+            }
+        }
+    }
+
+    progress = {
+         modifier = {
+            factor = 0.2
+            246 = {
+                OR = {
+                    has_province_modifier = bernician_autonomy
+                    has_province_modifier = shrinking_bernician_autonomy
+                }
+            }
+        }
+        modifier = {
+            factor = 0.2
+            248 = {
+                OR = {
+                    has_province_modifier = bernician_autonomy
+                    has_province_modifier = shrinking_bernician_autonomy
+                }
+            }
+        }
+        modifier = {
+            factor = 0.2
+            4361 = {
+                OR = {
+                    has_province_modifier = bernician_autonomy
+                    has_province_modifier = shrinking_bernician_autonomy
+                }
+            }
+        }
+        modifier = {
+            factor = 0.2
+            4368 = {
+                OR = {
+                    has_province_modifier = bernician_autonomy
+                    has_province_modifier = shrinking_bernician_autonomy
+                }
+            }
+        }
+        modifier = {
+            factor = 0.2
+            8136 = {
+                OR = {
+                    has_province_modifier = bernician_autonomy
+                    has_province_modifier = shrinking_bernician_autonomy
+                }
+            }
+        }
+        modifier = {
+            factor = 0.2
+            8137 = {
+                OR = {
+                    has_province_modifier = bernician_autonomy
+                    has_province_modifier = shrinking_bernician_autonomy
+                }
+            }
+        }
+        modifier = {
+            factor = 0.2
+            8145 = {
+                OR = {
+                    has_province_modifier = bernician_autonomy
+                    has_province_modifier = shrinking_bernician_autonomy
+                }
+            }
+        }
+        modifier = {
+            factor = 0.2
+            8146 = {
+                OR = {
+                    has_province_modifier = bernician_autonomy
+                    has_province_modifier = shrinking_bernician_autonomy
+                }
+            }
+        }
+
+        modifier = {
+            factor = -0.5
+            stability = 2
+        }
+    }
+
+    ended_by_country_breaking_to_rebels = yes
+
+    modifier = {
+        global_unrest = 20
+    }
+
+    on_start = berniciadisaster.1
+    on_end = berniciadisaster.2
+
+    on_monthly = {
+        random_events = {
+                900 = 0
+        }
+    }
+}
