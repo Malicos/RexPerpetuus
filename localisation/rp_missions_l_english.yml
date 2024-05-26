@@ -27,7 +27,7 @@
  destroy_denlegian_culture_title:0 "Denlegian Eclipse"
  destroy_denlegian_culture_desc:0 ""
 
- destroy_anglosaxon_culture_title:0 "All-Celtic Britain"
+ destroy_anglosaxon_culture_title:0 "Celtic Britain"
  destroy_anglosaxon_culture_desc:0 ""
 
  subjugate_man_title:0 "Control the Island of Man"
@@ -60,6 +60,20 @@
 
  religious_empire_title:0 "Religious Empire"
  religious_empire_desc:0 ""
+
+#JORVIK MISSIONS
+ integrate_bernicia_title:0 "Integrate Bernicia"
+ integrate_bernicia_desc:0 ""
+ recover_lost_provinces_title:0 "Reunite Denlegians"
+ recover_lost_provinces_desc:0 ""
+ the_other_danes_title:0 "The Other Danes"
+ the_other_danes_desc:0 ""
+ dnl_raider_fleet_title:0 "Establish the Raiders"
+ dnl_raider_fleet_desc:0 ""
+ danelaw_history_title:0 "Study our History"
+ danelaw_history_desc:0 ""
+ restore_danelaw_title:0 "Restore Danelaw"
+ restore_danelaw_desc:0 ""
 
 #NORWAY MISSIONS
  win_civil_war_title:0 "The Stronger Raven"
