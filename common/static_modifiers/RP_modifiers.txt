@@ -9,6 +9,26 @@ lost_bernicia_modifier = {
 
 bernicia_events_cooldown = {  }
 
+#MISSION REWARDS
+feared_ruler = {
+    discipline = 0.05
+    global_autonomy = -0.05
+}
+
+fixing_state = {
+    development_cost = -0.1
+    global_monthly_devastation = -0.1
+    build_cost = -0.25
+}
+
+reintegration_of_south = {
+    core_creation = -0.1
+}
+
+raider_fleet = {
+    may_perform_slave_raid_on_same_religion = yes
+}
+
 ############################################################
 #                       NORWAY
 ############################################################
