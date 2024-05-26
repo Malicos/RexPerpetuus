@@ -12,7 +12,7 @@ country_event = {
         name = norway.1.a
         trigger = {
             JRV = {
-                was_player = no
+                ai = yes
             }
         }
         vassalize = JRV
