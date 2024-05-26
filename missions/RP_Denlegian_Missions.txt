@@ -12,27 +12,39 @@ bernicia_branch = {
 	}
 
 	integrate_bernicia = {
-		icon = mission_rb_war_of_the_roses
+		icon = mission_assemble_an_army
 		position = 1
-		provinces_to_highlight = {  }
-
-		trigger = {
-			NOT = { has_disaster = bernician_insurgence }
-			all_province = {
-				OR = {
-					AND = {
-						area = northern_england_area
-						is_state_core = ROOT
-						NOT = { has_province_modifier = bernician_autonomy }
-						NOT = { has_province_modifier = shrinking_bernician_autonomy }
-					}
-					NOT = { area = northern_england_area }
-				}
+		provinces_to_highlight = {
+			area = northern_england_area
+			OR = {
+				has_province_modifier = bernician_autonomy
+				has_province_modifier = shrinking_bernician_autonomy
+				NOT = { is_state_core = ROOT }
 
 			}
 		}
 
-		effect = {  }
+		trigger = {
+			NOT = { has_disaster = bernician_insurgence }
+			246 = {
+				all_province_in_state = {
+					is_state_core = ROOT
+					NOT = { has_province_modifier = bernician_autonomy }
+					NOT = { has_province_modifier = shrinking_bernician_autonomy }
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = feared_ruler
+				duration = -1
+			}
+			add_country_modifier = {
+				name = fixing_state
+				duration = 7300
+			}
+		}
 	}
 }
 
@@ -50,9 +62,12 @@ mercia_branch = {
 	}
 
 	recover_lost_provinces = {
-		icon = mission_rb_war_of_the_roses
+		icon = unite_the_realm
 		position = 1
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			culture = denlegian
+			NOT = { owned_by = ROOT }
+		}
 
 		trigger = {
 			owns_all_provinces = {
@@ -60,7 +75,16 @@ mercia_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = reintegration_of_south
+				duration = -1
+			}
+			244 = {
+				add_permanent_claim = ROOT
+			}
+
+		}
 	}
 }
 
@@ -78,7 +102,7 @@ denmark_branch = {
 	}
 
 	the_other_danes = {
-		icon = mission_rb_war_of_the_roses
+		icon = catholic_confraternity
 		position = 1
 		provinces_to_highlight = {  }
 
@@ -91,18 +115,29 @@ denmark_branch = {
 			}
 		}
 
-		effect = {  }
+		effect = { add_dip_power = 50 }
 	}
 
 	restore_danelaw = {
-		icon = mission_rb_war_of_the_roses
+		icon = mission_enforce_danelaw
 		position = 2
-		provinces_to_highlight = {  }
+		provinces_to_highlight = {
+			OR = {
+				area = northern_england_area
+				area = jorvik_area
+				area = east_anglia_area
+				province_id = 244
+				province_id = 243
+				province_id = 8131
+			}
+			NOT = { owned_by = ROOT }
+		}
 		required_missions = {
 			integrate_bernicia
 			recover_lost_provinces
 			the_other_danes
-			denlegian_fleet
+			dnl_raider_fleet
+			danelaw_history
 		}
 
 		trigger = {
@@ -141,18 +176,23 @@ fleet_branch = {
 		}
 	}
 
-	denlegian_fleet = {
-		icon = mission_rb_war_of_the_roses
+	dnl_raider_fleet = {
+		icon = mission_launch_a_flagship
 		position = 1
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = { num_ships_privateering = 25 }
 
-		effect = {  }
+		effect = {
+			add_country_modifier = {
+				name = raider_fleet
+				duration = -1
+			}
+		}
 	}
 }
 
-idk_branch = {
+renaissance_branch = {
 	slot = 5
 	generic = no
 	ai = yes
@@ -165,13 +205,15 @@ idk_branch = {
 		}
 	}
 
-	idk = {
-		icon = mission_rb_war_of_the_roses
+	danelaw_history = {
+		icon = continue_the_renaissance
 		position = 1
 		provinces_to_highlight = {  }
 
-		trigger = {  }
+		trigger = {
+			has_institution = renaissance
+		}
 
-		effect = {  }
+		effect = { add_adm_power = 50 }
 	}
 }
