@@ -31,6 +31,25 @@
  celtic.2.a:0 "purge denlegians"
  celtic.2.b:0 "chilling with ma denlegian bois B)"
 
+ #Denlegian Events
+ berniciadisaster.1.t:0 "Bernician Insurgence"
+ berniciadisaster.1.d:0 ""
+ berniciadisaster.1.a:0 "We have to extinguish their hopes."
+
+ bernicia.1.t:0 "Lost control over Bernicia"
+ bernicia.1.d:0 ""
+ bernicia.1.a:0 "I don't care, they caused too much trouble"
+
+ bernicia.2.t:0 "Bernician Nobles refuse to pay tax"
+ bernicia.2.d:0 ""
+ bernicia.2.a:0 "If they don't pay with ducats, they'll pay with their lives."
+ bernicia.2.b:0 "Well..."
+
+ bernicia.3.t:0 "Bernicians form their own administration"
+ bernicia.3.d:0 ""
+ bernicia.3.a:0 "They need to be reminded who rules over them."
+ bernicia.3.b:0 "Well..."
+
  #Norwegian Events
 
  norway.1.t:0 "The Denlegian Question"
