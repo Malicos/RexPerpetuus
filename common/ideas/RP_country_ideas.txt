@@ -17,7 +17,7 @@ lvl1_denlegian_ideas = {
 	
 	jrv1 = { rival_border_fort_maintenance = -0.25 }
 
-	jrv2 = { ship_power_propagation = 0.125 }
+	jrv2 = { global_ship_trade_power = 0.125 }
 	
 	jrv3 = { monarch_lifespan = 0.2 monarch_admin_power = 2 }
 	
@@ -43,7 +43,7 @@ lvl2_denlegian_ideas = {
 
 	2jrv1 = { rival_border_fort_maintenance = -0.5 }
 
-	2jrv2 = { ship_power_propagation = 0.25 }
+	2jrv2 = { global_ship_trade_power = 0.25 }
 
 	2jrv3 = { monarch_lifespan = 0.35 monarch_admin_power = 2 monarch_diplomatic_power = 2 }
 
@@ -69,7 +69,7 @@ lvl3_denlegian_ideas = {
 
 	3jrv1 = { fort_maintenance_modifier = -0.5 }
 
-	3jrv2 = { ship_power_propagation = 0.5 }
+	3jrv2 = { global_ship_trade_power = 0.5 }
 
 	3jrv3 = { monarch_lifespan = 0.5 monarch_admin_power = 2 monarch_diplomatic_power = 2 monarch_military_power = 2 }
 
