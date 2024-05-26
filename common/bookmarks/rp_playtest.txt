@@ -1,0 +1,14 @@
+bookmark = {
+	name = "COUNTRIES TO PLAYTEST"
+	desc = "Countries that have features to be playtested."
+	date = 1444.11.11
+	
+	center = 17
+	default = yes
+	
+	country = NOR
+	country = JRV
+	
+	easy_country = NOR
+	easy_country = JRV
+}
