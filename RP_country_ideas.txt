@@ -1,0 +1,128 @@
+# Rex Perpetuus work by all contributors
+
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+# Jorvik/Danelaw/Bretland
+lvl1_denlegian_ideas = {
+	start = { naval_forcelimit = 15 global_ship_recruit_speed = -0.333 }
+	
+	bonus = { discipline = 0.025 }
+	
+	trigger = {
+		tag = JRV
+	}
+	
+	free = yes	# Will be added at load
+	
+	jrv1 = { rival_border_fort_maintenance = -0.25 }
+
+	jrv2 = { ship_power_propagation = 0.125 }
+	
+	jrv3 = { monarch_lifespan = 0.2 monarch_admin_power = 2 }
+	
+	jrv4 = { movement_speed = 0.2 movement_speed_onto_off_boat_modifier = 0.25 }
+	
+	jrv5 = { movement_speed_in_fleet_modifier = 2 }
+	
+	jrv6 = { infantry_power = 0.05 }
+	
+	jrv7 = { administrative_efficiency = 0.025 }
+}
+
+lvl2_denlegian_ideas = {
+	start = { naval_forcelimit = 15 global_ship_recruit_speed = -0.333 }
+
+	bonus = { discipline = 0.05 }
+
+	trigger = {
+		tag = DNL
+	}
+
+	free = yes	# Will be added at load
+
+	2jrv1 = { rival_border_fort_maintenance = -0.5 }
+
+	2jrv2 = { ship_power_propagation = 0.25 }
+
+	2jrv3 = { monarch_lifespan = 0.35 monarch_admin_power = 2 monarch_diplomatic_power = 2 }
+
+	2jrv4 = { movement_speed = 0.3 movement_speed_onto_off_boat_modifier = 0.5 }
+
+	2jrv5 = { movement_speed_in_fleet_modifier = 5 }
+
+	2jrv6 = { infantry_power = 0.10 }
+
+	2jrv7 = { administrative_efficiency = 0.05 }
+}
+
+lvl3_denlegian_ideas = {
+	start = { naval_forcelimit = 15 global_ship_recruit_speed = -0.333 }
+
+	bonus = { discipline = 0.1 }
+
+	trigger = {
+		tag = BRL
+	}
+
+	free = yes	# Will be added at load
+
+	3jrv1 = { fort_maintenance_modifier = -0.5 }
+
+	3jrv2 = { ship_power_propagation = 0.5 }
+
+	3jrv3 = { monarch_lifespan = 0.5 monarch_admin_power = 2 monarch_diplomatic_power = 2 monarch_military_power = 2 }
+
+	3jrv4 = { movement_speed = 0.4 movement_speed_onto_off_boat_modifier = 1 }
+
+	3jrv5 = { movement_speed_in_fleet_modifier = 8 }
+
+	3jrv6 = { infantry_power = 0.15 }
+
+	3jrv7 = { administrative_efficiency = 0.1 }
+}
+
+#Norway
+NOR_ideas = {
+	start = {
+		global_sailors_modifier = 0.5
+		navy_tradition = 1
+	}
+
+	bonus = {
+		country_military_power = 1
+	}
+
+	trigger = {
+		tag = NOR
+	}
+	free = yes
+
+	nor1 = {
+		prestige_from_naval = 1
+		siege_blockade_progress = 2
+	}
+	nor2 = {
+		range = 0.333
+		colonists = 1
+	}
+	nor3 = {
+		diplomatic_upkeep = 2
+		reduced_liberty_desire_on_same_continent = 20
+	}
+	nor4 = {
+		infantry_power = 0.1
+		galley_power = 0.1
+	}
+	nor5 = {
+		ship_durability = 0.15
+		sea_repair = yes
+	}
+	nor6 = {
+		discipline = 0.05
+	}
+	nor7 = {
+		free_adm_policy = 1
+		possible_adm_policy = 1
+	}
+}
