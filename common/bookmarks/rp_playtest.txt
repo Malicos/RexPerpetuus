@@ -1,6 +1,6 @@
 bookmark = {
 	name = "COUNTRIES TO PLAYTEST"
-	desc = "Countries that have features to be playtested."
+	desc = "Countries that have some flavor work done or have unique features to be playtested."
 	date = 1444.11.11
 	
 	center = 17
