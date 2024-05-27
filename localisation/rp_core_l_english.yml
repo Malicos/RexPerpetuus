@@ -894,6 +894,14 @@
  cathar_rebels_name:0 "$RELIGION$ Zealots"
  cathar_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  cathar_rebels_army:0 "$RELIGION$ Army" 
+ waldensian:0 "Sabotier"
+ waldensian_religion_desc:0 "Originally a reform movement within the Catholic church, Sabotier heretics are anti-clerical and advocate a return to vows of poverty. They are opposed to capital punishment and believe that laymen can also administer the sacraments."
+ waldensian_rebels_demand:0 "Convert $COUNTRYNAME$"
+ waldensian_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ waldensian_rebels_title:0 "Religious"
+ waldensian_rebels_name:0 "$RELIGION$ Zealots"
+ waldensian_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ waldensian_rebels_army:0 "$RELIGION$ Army" 
  iconoclast:0 "Iconoclast"
  iconoclast_religion_desc:0 "Believing that any use of spiritual symbols violates the Second Commandment to not make any graven images, the Iconoclasts seek to destroy existing religious iconography and reject the creation of new ones."
  iconoclast_rebels_demand:0 "Convert $COUNTRYNAME$"
@@ -913,6 +921,16 @@
  syriac_rebels_name:0 "$RELIGION$ Zealots"
  syriac_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  syriac_rebels_army:0 "$RELIGION$ Army" 
+ 
+ monophysite:0 "Monophysite"
+ monophysite_religion_desc:0 "Monophysitism is an early Christian heresy which states that Christ had but a single nature. This is the opposite of the Nestorian position where Christ has two separate natures - one divine and one human."
+ monophysite_rebels_demand:0 "Convert $COUNTRYNAME$"
+ monophysite_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ monophysite_rebels_title:0 "Religious"
+ monophysite_rebels_name:0 "$RELIGION$ Zealots"
+ monophysite_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ monophysite_rebels_army:0 "$RELIGION$ Army" 
+ 
  #Muslim
  muwalladi: "Muwalladi"
  muwalladi_religion_desc: "TBD"
@@ -930,12 +948,22 @@
  manichean:0 "Manichean"
  manichean_religion_desc:0 "The revelations granted to Buddha, Zoroaster and Jesus were incomplete reflections of the real world. The prophet Mani brought the final revelation of the existence of the spiritual world of light and the material world of darkness, and how human souls, as with all light, gradually return to the creator."
  #Eastern
- nangchos:0 "Nangchos"
- nangchos_religion_desc:0 "Buddhism in Tibet is known as Nangchos, or the Dharma of the Insiders. Within the Tibetan Empire, Vajrayana and Mahayana beliefs and practices synctretized with traditional Tibetan beliefs, practices, and deities, with varying schools also competing with each other for temporal control."
+ devaraja:0 "Devaraja"
+ devaraja_religion_desc:0 "The Khmer cult of the Devaraja worships the king of Kambuja as the divine manifestation of Shiva in human form."
  taoism:0 "Taoist"
  taoism_religion_desc:0 "Taoism is a philosophical or religious tradition of Chinese origin which emphasizes living in harmony with the Tao: the source, pattern and substance of everything that exists. Taoism differs from Confucianism by not emphasizing rigid rituals and social order, but is similar in the sense that it is a teaching about the various disciplines for achieving 'perfection' by becoming one with the unplanned rhythms of the universe called 'the way' or 'dao'. Taoism has had a profound influence on Chinese culture in the course of the centuries and has extensively merged with traditional Chinese folk religion."
  bimoism:0 "Bimoist"
  bimoism_religion_desc:0 "TBD"
+ 
+ #Jewish
+ karaism:0 "Karaite"
+ karaism_desc:0 "Karaite Judaism is a Jewish movement characterized by the recognition of the Tanakh alone as its supreme legal authority in Jewish religious law and theology. In this it is distinct from mainstream Rabbinic Judaism. Karaites maintain that all of the divine commandments handed down to Moses by God were recorded in the written Torah, without additional Oral Law or explanation."
+ karaism_rebels_demand:0 "Convert $COUNTRYNAME$"
+ karaism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ karaism_rebels_title:0 "Religious"
+ karaism_rebels_name:0 "$RELIGION$ Zealots"
+ karaism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ karaism_rebels_army:0 "$RELIGION$ Army"
  
  #Pagan
 
