@@ -1,0 +1,179 @@
+country_decisions = {
+###################################################################################################
+################################		Britain (miltary)			 ##############################
+###################################################################################################
+	british_nation = { #BritishNation.txt
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_great_britain_flag }
+			OR = {
+				tag = ENG
+				tag = SEX
+			}
+		}
+		provinces_to_highlight = {
+			region = british_isles_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = GBR }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 236			#London
+			owns_core_province = 241			#Glamorgan
+			owns_core_province = 248			#Lothian
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = british_isles_region
+				value = 63	#At least 3/4 of Britain's 84 provinces
+			}
+			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
+		}
+		effect = {
+			change_tag = GBR
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			british_isles_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = GBR
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			swap_ideas = yes
+			set_country_flag = formed_great_britain_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+###################################################################################################
+################################			England			 ##############################################
+###################################################################################################
+	english_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_england_flag }
+			NOT = { tag = ENG }
+			NOT = { tag = GBR }
+			OR = {
+				primary_culture = english
+				primary_culture = northumbrian
+				AND = {
+					primary_culture = anglo_irish
+					any_owned_province = { region = british_isles_region }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			region = british_isles_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ENG }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 236		# London
+			owns_core_province = 234		# Wessex
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = british_isles_region
+				value = 37			#2/3 of England-Wales' 56 provinces
+			}
+			total_development = 200
+		}
+		effect = {
+			change_tag = ENG
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			northern_england_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			east_midlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			east_anglia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			wessex_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			home_counties_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			yorkshire_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			west_midlands_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ENG
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					NOT = { has_idea_group = ENG_ideas }
+				}
+				swap_ideas = yes
+			}
+			set_country_flag = formed_england_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}
