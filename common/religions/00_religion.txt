@@ -644,7 +644,7 @@ christian = {
 
 	# RP Added
 	cathar = {
-		color = { 155 29 23 }
+		color = { 143 42 24 }
 		icon = 38
 		allow_female_defenders_of_the_faith = yes
 
