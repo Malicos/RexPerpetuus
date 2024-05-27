@@ -222,8 +222,8 @@
  # Religions
  protestant:0 "Reclamist"
  protestant_religion_desc:1 "Reclamism covers a wide range of religious traditions starting with the teachings of REFORMERNAME during the reformation. They react against a number of the conventions that over time have developed in the Catholic church and the idea of a pope itself.\nIn the game Evangelicalism cover mainly countries inspired by REFORMERNAME's teachings and who have formed state churches."
- hussite:0 "Dragicevite"
- hussite_religion_desc:0 "Dragicevite is an umbrella term for the followers of Marko Dragičević, founder of a Slavonic religious reformation movement that united the adherents of the Catholic and Bosnian churches, and was deemed heretical by the Pope. They are a diverse group of non-conformists ranging from moderates with minor theological disagreements with Catholic doctrine to radicals who see the Catholic Church as irredeemably corrupt."
+ hussite:0 "Utraquist"
+ hussite_religion_desc:0 "The Utraquists, also known as the Calixtines, is a Proto-Reformation movement, which advocates for communion under both kinds (bread and wine) for the laity."
  reformed:0 "Confederate"
  reformed_religion_desc:1 "Confederate covers a wide range of religious traditions inspired by men such as REFORMERNAME or REFORMERNAME. Generally appearing later than the religions classified as Reclamist the Reformed religion also rejects papal authority and want to return to the rules of the scriptures but unlike the Reclamists they embrace a number of perceived more hard-line ideas such as predestination and iconoclasm and will not form state Churches."
  coptic:0 "Oriental"
