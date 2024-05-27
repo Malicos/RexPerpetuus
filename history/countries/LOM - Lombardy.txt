@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 primary_culture = lombard
-religion = catholic
+religion = waldensian
 technology_group = western
 capital = 104 #Milan
 
@@ -14,7 +14,7 @@ capital = 104 #Milan
 		dip = 4
 		mil = 5
 		birth_date = 1408.11.5
-		religion = catholic
+		religion = waldensian
 		culture = lombard
 	}
 	add_ruler_personality = strict_personality

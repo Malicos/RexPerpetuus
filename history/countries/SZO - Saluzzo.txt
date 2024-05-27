@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = piedmontese
-religion = catholic
+religion = waldensian
 technology_group = western
 capital = 4727 # Saluzzo
 fixed_capital = 4727 # Cannot move capital away from this province & no power cost to move to it
@@ -15,7 +15,7 @@ fixed_capital = 4727 # Cannot move capital away from this province & no power co
 		dip = 3
 		mil = 3
 		birth_date = 1401.10.30
-		religion = catholic
+		religion = waldensian
 		culture = piedmontese
 	}
 }

@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = piedmontese
-religion = catholic
+religion = waldensian
 technology_group = western
 capital = 2981	# Montferrat
 fixed_capital = 2981	# AI won't move capital from here.
@@ -15,7 +15,7 @@ fixed_capital = 2981	# AI won't move capital from here.
 		dip = 3
 		mil = 5
 		birth_date = 1392.5.30
-		religion = catholic
+		religion = waldensian
 		culture = piedmontese
 	}
 }
