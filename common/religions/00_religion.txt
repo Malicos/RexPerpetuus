@@ -2841,7 +2841,7 @@ dharmic = {
 	
 	#RP Added
 	devaraja = {
-		color = { 242 245 66 }
+		color = { 50 168 82 }
 		icon = 1
 		allowed_conversion = {
 			sikhism
