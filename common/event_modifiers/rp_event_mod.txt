@@ -1,0 +1,10 @@
+#SHARQ
+unstoppable_jihad = {
+	can_bypass_forts = yes
+	movement_speed = 0.25
+}
+
+envigorated_by_faith = {
+	land_morale = 0.2
+	siege_ability = 0.2
+}
