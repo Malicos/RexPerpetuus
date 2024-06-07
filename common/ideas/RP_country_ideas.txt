@@ -126,3 +126,43 @@ NOR_ideas = {
 		possible_adm_policy = 1
 	}
 }
+
+#Norway
+SHQ_ideas = {
+	start = {
+		global_missionary_strength = 0.020
+		land_morale = 0.10
+	}
+
+	bonus = {
+		no_cost_for_reinforcing = yes
+	}
+
+	trigger = {
+		tag = SHQ
+	}
+	free = yes
+
+	shq1 = {
+		manpower_in_true_faith_provinces= 0.2
+	}
+	shq2 = {
+		missionaries = 1
+	}
+	shq3 = {
+		discipline = 0.05
+	}
+	shq4 = {
+		core_creation = -0.15
+	}
+	shq5 = {
+		war_taxes_cost_modifier = -1
+	}
+	shq6 = {
+		warscore_cost_vs_other_religion = -0.25
+	}
+	shq7 = {
+		cavalry_shock = 2
+		cav_to_inf_ratio = 0.2
+	}
+}
