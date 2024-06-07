@@ -1,0 +1,38 @@
+namespace = sharqmissions
+
+country_event = {
+	id = sharqmissions.1
+	title = sharqmissions.1.t
+	desc = sharqmissions.1.d
+	picture = RAMADAN_eventPicture
+
+	trigger = {
+        tag = SHQ
+        at_war_with_religious_enemy = yes
+	}
+
+	mean_time_to_happen = { days = 1000 }
+
+	option = {
+		name = sharqmissions.1.a
+        add_country_modifier = {
+            name = mystic_strength
+            duration = -1
+        }
+    }
+    option = {
+		name = sharqmissions.1.a
+        add_country_modifier = {
+            name = mystic_morale
+            duration = -1
+        }
+    }
+    option = {
+		name = sharqmissions.1.a
+        add_country_modifier = {
+            name = mystic_defense
+            duration = -1
+        }
+    }
+}
+
