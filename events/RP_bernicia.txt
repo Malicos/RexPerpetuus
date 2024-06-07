@@ -81,9 +81,6 @@ country_event = {
 			spawn_rebels = {
 				type = noble_rebels
 			}
-			spawn_rebels = {
-				type = noble_rebels
-			}
 			if = {
 				limit = {
 					has_province_modifier = bernician_autonomy
@@ -99,11 +96,17 @@ country_event = {
 			}
 			add_local_autonomy = -25
 		}
+		ai_chance = {
+			factor = 90
+		}
 	}
 
 	option = {
 		name = bernicia.2.b
 		add_years_of_income = -0.3
+		ai_chance = {
+			factor = 10
+		}
 	}
 }
 
@@ -151,9 +154,6 @@ country_event = {
 			spawn_rebels = {
 				type = nationalist_rebels
 			}
-			spawn_rebels = {
-				type = nationalist_rebels
-			}
 			if = {
 				limit = {
 					has_province_modifier = bernician_autonomy
@@ -169,10 +169,16 @@ country_event = {
 			}
 			add_local_autonomy = -25
 		}
+		ai_chance = {
+			factor = 90
+		}
 	}
 
 	option = {
 		name = bernicia.3.b
 		add_adm_power = -15
+		ai_chance = {
+			factor = 10
+		}
 	}
 }
