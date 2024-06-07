@@ -1,0 +1,52 @@
+namespace = sharq
+
+country_event = {
+	id = sharq.1
+	title = sharq.1.t
+	desc = sharq.1.d
+	picture = RAMADAN_eventPicture
+
+	trigger = {
+        tag = SHQ
+        at_war_with_religious_enemy = yes
+	}
+
+	mean_time_to_happen = { days = 1000 }
+
+	option = {
+		name = sharq.1.a
+        add_country_modifier = {
+            name = unstoppable_jihad
+            duration = 100
+        }
+    }
+}
+
+country_event = {
+	id = sharq.2
+	title = sharq.2.t
+	desc = sharq.2.d
+	picture = RAMADAN_eventPicture
+
+    fire_only_once = yes
+
+	trigger = {
+        tag = SHQ
+        at_war_with_religious_enemy = yes
+        war_exhaustion = 10
+	}
+
+	mean_time_to_happen = { days = 14 }
+
+	option = {
+		name = sharq.2.a
+		add_war_exhaustion = -10
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+        add_country_modifier = {
+            name = envigorated_by_faith
+            duration = 3650
+        }
+    }
+}
