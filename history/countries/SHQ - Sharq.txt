@@ -11,11 +11,12 @@ capital = 220	# Valencia
 	monarch = {
 		name = "Jyad III"
 		dynasty = "Azizid"
-		adm = 3
-		dip = 1
-		mil = 5
+		adm = 4
+		dip = 3
+		mil = 6
 		birth_date = 1420.2.5
 		religion = sunni
 		culture = balansi_culture
 	}
+	add_ruler_personality = conqueror_personality
 }

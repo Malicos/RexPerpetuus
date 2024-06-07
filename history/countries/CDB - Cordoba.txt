@@ -12,10 +12,13 @@ capital = 225 # Cordoba
 		name = "Ali III"
 		dynasty = "Dhulnunid"
 		adm = 3
-		dip = 1
-		mil = 5
+		dip = 2
+		mil = 1
 		birth_date = 1381.9.9
 		religion = sunni
 		culture = andalusi_culture
 	}
+	add_ruler_personality = obsessive_perfectionist_personality
+	add_ruler_personality = tolerant_personality
+	add_ruler_personality = craven_personality
 }

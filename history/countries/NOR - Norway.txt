@@ -2,7 +2,6 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
 primary_culture = norwegian
-add_accepted_culture = icelandic
 religion = catholic
 technology_group = western
 historical_friend = DAN
@@ -12,13 +11,14 @@ capital = 17 #Akershus
 	monarch = {
 		name = "Alv"
 		dynasty = "Hardrada"
-		adm = 5
-		dip = 1
-		mil = 3
+		adm = 0
+		dip = 0
+		mil = 0
 		birth_date = 1415.4.28
 		religion = catholic
 		culture = norwegian
 	}
-	add_ruler_personality = martial_educator_personality
-	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = babbling_buffoon_personality
+	add_ruler_personality = craven_personality
 }
