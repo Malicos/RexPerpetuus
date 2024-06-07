@@ -22,13 +22,18 @@ country_event = {
         define_ruler = {
             name = "Severin"
             dynasty = "Staur"
-            adm = 3
-            dip = 2
+            adm = 4
+            dip = 4
             mil = 2
             age = 43
             claim = 95
         }
+        add_ruler_personality = just_personality
+        add_ruler_personality = well_connected_personality
+        add_ruler_personality = incorruptible_personality
+
         hidden_effect = {
+            kill_heir = { allow_new_heir = no }
             random_owned_province = {
                 limit = {
                     region = nordurica_region
@@ -176,6 +181,9 @@ country_event = {
                     age = 27
                     claim = 25
                 }
+                add_ruler_personality = intricate_web_weaver_personality
+                add_ruler_personality = charismatic_negotiator_personality
+                add_ruler_personality = bold_fighter_personality
             }
 
             declare_war_with_cb = {
@@ -198,7 +206,11 @@ country_event = {
             age = 27
             claim = 25
         }
+        add_ruler_personality = intricate_web_weaver_personality
+        add_ruler_personality = charismatic_negotiator_personality
+        add_ruler_personality = bold_fighter_personality
         hidden_effect = {
+            kill_heir = { allow_new_heir = no }
             random_owned_province = {
                 limit = {
                     region = nordurica_region
@@ -340,12 +352,15 @@ country_event = {
                 define_ruler = {
                     name = "Severin"
                     dynasty = "Staur"
-                    adm = 3
-                    dip = 2
+                    adm = 4
+                    dip = 4
                     mil = 2
                     age = 43
                     claim = 95
                 }
+                add_ruler_personality = just_personality
+                add_ruler_personality = well_connected_personality
+                add_ruler_personality = incorruptible_personality
             }
 
             declare_war_with_cb = {
