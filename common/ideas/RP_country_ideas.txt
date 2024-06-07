@@ -127,7 +127,7 @@ NOR_ideas = {
 	}
 }
 
-#Norway
+#Sharq
 SHQ_ideas = {
 	start = {
 		global_missionary_strength = 0.020
@@ -148,6 +148,7 @@ SHQ_ideas = {
 	}
 	shq2 = {
 		missionaries = 1
+		monthly_piety = -0.002
 	}
 	shq3 = {
 		discipline = 0.05
