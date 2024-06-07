@@ -1,0 +1,23 @@
+mysticism = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = SHQ }
+
+	embrace_mysticism = {
+		icon = mission_baghdad
+		position = 1
+		provinces_to_highlight = {  }
+
+		trigger = {
+			NOT = { piety = -0.99 }
+		}
+
+		effect = {
+			country_event = {
+				id = sharqmissions.1
+			}
+		}
+	}
+}
