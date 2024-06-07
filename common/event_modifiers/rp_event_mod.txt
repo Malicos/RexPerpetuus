@@ -8,3 +8,15 @@ envigorated_by_faith = {
 	land_morale = 0.2
 	siege_ability = 0.2
 }
+
+mystic_strength = {
+	global_missionary_strength = 0.03
+}
+
+mystic_morale = {
+	land_morale = 0.1
+}
+
+mystic_defense = {
+	defensiveness = 0.2
+}
