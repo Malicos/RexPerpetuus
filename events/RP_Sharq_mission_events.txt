@@ -6,12 +6,7 @@ country_event = {
 	desc = sharqmissions.1.d
 	picture = RAMADAN_eventPicture
 
-	trigger = {
-        tag = SHQ
-        at_war_with_religious_enemy = yes
-	}
-
-	mean_time_to_happen = { days = 1000 }
+	is_triggered_only = yes
 
 	option = {
 		name = sharqmissions.1.a
