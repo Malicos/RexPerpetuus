@@ -1,3 +1,10 @@
 ﻿l_english:
  bretland_nation_title:0 "Form Bretland"
  bretland_nation_desc:0 " "
+
+ CDB_decision_revoke_nobles_title:0 "Abandon our Defensive Mindset"
+ CDB_decision_revoke_nobles_desc:0 ""
+ CDB_decision_revoke_burghers_title:0 "Ban Interreligious Trade"
+ CDB_decision_revoke_burghers_desc:0 ""
+ CDB_decision_revoke_dhimmi_title:0 "Proclaim Jihad"
+ CDB_decision_revoke_dhimmi_desc:0 ""
