@@ -1,0 +1,842 @@
+# Development Point Debug Events by Harbivore
+# These are the events for dev points, they all have their own desciptions of what they do
+# None of them actually appear as events and are hidden from players
+# Except the debug event which is only available from the console
+
+namespace = dev_points
+
+# Event for players fired from 01_monthly_tick_clock in triggered_province_modifiers
+# Is triggered every month
+# Fully calculates and adds monthly dev points to player nations, also spends dev points if over the maximum amount
+country_event = {
+    id = dev_points.1
+    title = "dev_points.1.title"
+    desc = "dev_points.1.desc"
+    picture = ECONOMY_eventPicture
+	
+    is_triggered_only = yes
+	hidden = yes
+	
+	immediate = {
+		hidden_effect = {
+			calculate_monthly_dev_points_in_all_provinces_effect = yes			#In 02_scripted_effects_for_dev_points
+			calculate_monthly_dev_points_with_country_modifiers_effect = yes	#In 02_scripted_effects_for_dev_points
+			add_monthly_dev_points_effect = yes									#In 02_scripted_effects_for_dev_points
+			calculate_dev_point_limit_effect = yes								#In 02_scripted_effects_for_dev_points
+			if = {	#If over the maximum amount then spend dev points
+				limit = {
+					check_variable = { 
+						which = current_dev_points
+						which = maximum_dev_points
+					}
+					NOT = {
+						is_variable_equal = {
+							which = current_dev_points
+							which = maximum_dev_points
+						}
+					}
+				}
+				spend_dev_points_if_over_limit_effect = yes						#In 02_scripted_effects_for_dev_points
+			}
+		}
+	}
+	option = {
+		name = "dev_points.1.opta"
+		ai_chance = { factor = 1 }
+	}
+}
+
+# Event for ai fired from 01_monthly_tick_clock in triggered_province_modifiers
+# Is triggered roughly once every 2 years
+# Fully calculates and adds monthly dev points to ai nations, also spends dev points if over the maximum amount
+country_event = {
+    id = dev_points.2
+    title = "dev_points.2.title"
+    desc = "dev_points.2.desc"
+    picture = ECONOMY_eventPicture
+	  
+    is_triggered_only = yes
+	hidden = yes
+    
+    trigger = {
+		ai = yes
+	}
+	
+	immediate = {
+		calculate_monthly_dev_points_in_all_provinces_effect = yes			#In 02_scripted_effects_for_dev_points
+		calculate_monthly_dev_points_with_country_modifiers_effect = yes	#In 02_scripted_effects_for_dev_points
+		add_monthly_dev_points_effect = yes									#In 02_scripted_effects_for_dev_points
+		calculate_dev_point_limit_effect = yes								#In 02_scripted_effects_for_dev_points
+		random_list = {
+			90 = {
+				if = {	#If over the maximum amount then spend dev points
+					limit = {
+						check_variable = {
+							which = current_dev_points
+							which = maximum_dev_points
+						}
+						NOT = {
+							is_variable_equal = {
+								which = current_dev_points
+								which = maximum_dev_points
+							}
+						}
+					}
+					spend_dev_points_if_over_limit_effect = yes						#In 02_scripted_effects_for_dev_points
+				}
+			}
+			10 = {	# To help nations that don't make many points
+				spend_dev_points_if_over_limit_effect = yes						#In 02_scripted_effects_for_dev_points
+			}
+		}
+	}
+	
+	option = {
+		name = "dev_points.2.opta"
+		ai_chance = { factor = 1 }
+	}
+}
+
+# Event for all nations on startup to initialise all the dev points variables
+# Is only be triggered a single time per nation
+country_event = { 					
+    id = dev_points.3
+    title = "dev_points.3.title"
+    desc = "dev_points.3.desc"
+    picture = ECONOMY_eventPicture
+	  
+    is_triggered_only = yes
+	
+	hidden = yes
+    
+    trigger = {
+		NOT = { 
+			has_country_flag = dev_points_startup	#This means this event hasn't fired for them
+		}
+	}
+	
+	immediate = {
+		set_country_flag = calculating_auto_dev_desirability	#This will ensure the nation calculates their auto dev desireability for their provinces
+		calculate_monthly_dev_points_in_all_provinces_effect = yes			#In 02_scripted_effects_for_dev_points
+		calculate_monthly_dev_points_with_country_modifiers_effect = yes	#In 02_scripted_effects_for_dev_points
+		calculate_dev_point_limit_effect = yes	#In 02_scripted_effects_for_dev_points
+		set_variable = {							#Initialises the dev point variable for this nation
+			which = shown_current_dev_points
+			value = 0
+		}
+		set_variable = {							#Initialises the dev point variable for this nation
+			which = current_dev_points
+			value = 0
+		}
+		set_variable = {				#Adds to the debug total dev points
+			which = total_development_gained_from_dev_points 
+			value = 0
+		}
+		export_to_variable = {
+			which = gui_corruption_var
+			value = corruption
+			who = ROOT
+		}
+		one_decimal = { var = gui_corruption_var }
+		# Done 14 times to simulate the same thing that is done for monarch points
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		add_monthly_dev_points_effect = yes
+		set_country_flag = dev_points_startup		#Sets flag so this event won't fire again for this nation
+	}
+	
+	option = {
+		name = "dev_points.3.opta"
+		ai_chance = { factor = 1 }
+	}
+}
+
+# Event for Ai to add their monthly dev points
+# Is triggered every month that the ai doesn't have dev_points.2 fire for them instead
+# Only adds their previously calculated monthly dev points to the ai nation
+country_event = {
+    id = dev_points.4
+    title = "dev_points.4.title"
+    desc = "dev_points.4.desc"
+    picture = ECONOMY_eventPicture
+	  
+    is_triggered_only = yes
+	hidden = yes
+    
+    trigger = {
+		ai = yes
+	}
+	
+	immediate = {
+		add_monthly_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+	}
+	
+	option = {
+		name = "dev_points.4.opta"
+		ai_chance = { factor = 1 }
+	}
+}
+
+# Event that decides who should be paying for the province having it's tax development being increased from the button in the province view
+# It also refunds the hard coded vanilla monarch points being taken away on developing
+# This is only used for players as ai cannot click the buttons in the province view
+# Is triggered from the 02_on_actions_dev_points.txt -> on_adm_development
+province_event = { 					
+    id = dev_points.5
+    title = "dev_points.5.title"
+    desc = "dev_points.5.desc"
+    picture = ECONOMY_eventPicture
+	  
+    is_triggered_only = yes
+    
+    trigger = {
+	}
+	
+	hidden = yes
+	
+	immediate = {
+		add_base_tax = -1	#This needs to be removed otherwise the calculations will be off by one
+		if = {
+			limit = {	#This is for a free nation, they should spend their own dev points
+				owner = {
+					is_subject = no
+				}
+			}
+			owner = {
+				ROOT = {
+					spend_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+				}
+				refund_monarch_points_on_dev = {			#In 02_scripted_effects_for_dev_points
+					var = adm
+				}
+				change_variable = {				#Adds to the debug total dev points
+					which = total_development_gained_from_dev_points 
+					value = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for a subject nation under an ai, they should spend their own dev points
+				owner = {
+					is_subject = yes
+					overlord = {
+						ai = yes
+					}
+				}
+			}
+			owner = {
+				ROOT = {
+					spend_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+				}
+				refund_monarch_points_on_dev = {			#In 02_scripted_effects_for_dev_points
+					var = adm
+				}
+				change_variable = {				#Adds to the debug total dev points
+					which = total_development_gained_from_dev_points 
+					value = 1
+				}
+			}
+		}
+		else_if = {	
+			limit = {	#This is for an ai subject nation under an human, they should spend their overlord's dev points
+				owner = {
+					is_subject = yes
+					ai = yes
+					overlord = {
+						ai = no
+					}
+				}
+			}
+			owner = {
+				overlord = {
+					ROOT = {
+						spend_dev_points_effect = yes		#In 02_scripted_effects_for_dev_points
+					}
+					refund_monarch_points_on_dev = {		#In 02_scripted_effects_for_dev_points
+						var = adm
+					}
+					change_variable = {				#Adds to the debug total dev points
+						which = total_development_gained_from_dev_points 
+						value = 1
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for an subject nation under an human with the decision letting their overlord dev off, they should spend their own dev points
+				owner = {
+					is_subject = yes
+					NOT = {
+						has_country_flag = let_player_overlord_dev
+					}
+					overlord = {
+						ai = no
+					}
+				}
+			}
+			owner = {
+				ROOT = {
+					spend_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+				}
+				refund_monarch_points_on_dev = {			#In 02_scripted_effects_for_dev_points
+					var = adm
+				}
+				change_variable = {				#Adds to the debug total dev points
+					which = total_development_gained_from_dev_points 
+					value = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for an subject nation under an human with the decision letting their overlord dev on, they should spend their overlord's dev points
+				owner = {
+					is_subject = yes
+					has_country_flag = let_player_overlord_dev
+					overlord = {
+						ai = no
+					}
+				}
+			}
+			owner = {
+				overlord = {
+					ROOT = {
+					spend_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+					}
+					refund_monarch_points_on_dev = {		#In 02_scripted_effects_for_dev_points
+						var = adm
+					}
+					change_variable = {				#Adds to the debug total dev points
+						which = total_development_gained_from_dev_points 
+						value = 1
+					}
+				}
+			}
+		}
+		add_base_tax = 1
+	}
+		
+	option = {
+		name = "dev_points.5.opta"
+		ai_chance = { factor = 1 }
+	}
+}
+
+# Event that decides who should be paying for the province having it's production development being increased from the button in the province view
+# It also refunds the hard coded vanilla monarch points being taken away on developing
+# This is only used for players as ai cannot click the buttons in the province view
+# Is triggered from the 02_on_actions_dev_points.txt -> on_dip_development
+province_event = { 					
+    id = dev_points.55
+    title = "dev_points.55.title"
+    desc = "dev_points.55.desc"
+    picture = ECONOMY_eventPicture
+	  
+    is_triggered_only = yes
+    
+    trigger = {
+	}
+	
+	hidden = yes
+	
+	immediate = {
+		add_base_production = -1	#This needs to be removed otherwise the calculations will be off by one
+		if = {
+			limit = {	#This is for a free nation, they should spend their own dev points
+				owner = {
+					is_subject = no
+				}
+			}
+			owner = {
+				ROOT = {
+					spend_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+				}
+				refund_monarch_points_on_dev = {			#In 02_scripted_effects_for_dev_points
+					var = dip
+				}
+				change_variable = {				#Adds to the debug total dev points
+					which = total_development_gained_from_dev_points 
+					value = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for a subject nation under an ai, they should spend their own dev points
+				owner = {
+					is_subject = yes
+					overlord = {
+						ai = yes
+					}
+				}
+			}
+			owner = {
+				ROOT = {
+					spend_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+				}
+				refund_monarch_points_on_dev = {			#In 02_scripted_effects_for_dev_points
+					var = dip
+				}
+				change_variable = {				#Adds to the debug total dev points
+					which = total_development_gained_from_dev_points 
+					value = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for an ai subject nation under an human, they should spend their overlord's dev points
+				owner = {
+					is_subject = yes
+					ai = yes
+					overlord = {
+						ai = no
+					}
+				}
+			}
+			owner = {
+				overlord = {
+					ROOT = {
+						spend_dev_points_effect = yes		#In 02_scripted_effects_for_dev_points
+					}
+					refund_monarch_points_on_dev = {		#In 02_scripted_effects_for_dev_points
+						var = dip
+					}
+					change_variable = {				#Adds to the debug total dev points
+						which = total_development_gained_from_dev_points 
+						value = 1
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for an subject nation under an human with the decision letting their overlord dev off, they should spend their own dev points
+				owner = {
+					is_subject = yes
+					NOT = {
+						has_country_flag = let_player_overlord_dev
+					}
+					overlord = {
+						ai = no
+					}
+				}
+			}
+			owner = {
+				ROOT = {
+					spend_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+				}
+				refund_monarch_points_on_dev = {			#In 02_scripted_effects_for_dev_points
+					var = dip
+				}
+				change_variable = {				#Adds to the debug total dev points
+					which = total_development_gained_from_dev_points 
+					value = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for an subject nation under an human with the decision letting their overlord dev on, they should spend their overlord's dev points
+				owner = {
+					is_subject = yes
+					has_country_flag = let_player_overlord_dev
+					overlord = {
+						ai = no
+					}
+				}
+			}
+			owner = {
+				overlord = {
+					ROOT = {
+						spend_dev_points_effect = yes		#In 02_scripted_effects_for_dev_points
+					}
+					refund_monarch_points_on_dev = {		#In 02_scripted_effects_for_dev_points
+						var = dip
+					}
+					change_variable = {				#Adds to the debug total dev points
+						which = total_development_gained_from_dev_points 
+						value = 1
+					}
+				}
+			}
+		}
+		add_base_production = 1
+	}
+		
+	option = {
+		name = "dev_points.55.opta"
+		ai_chance = { factor = 1 }
+	}
+}
+
+# Event that decides who should be paying for the province having it's manpower development being increased from the button in the province view
+# It also refunds the hard coded vanilla monarch points being taken away on developing
+# This is only used for players as ai cannot click the buttons in the province view
+# Is triggered from the 02_on_actions_dev_points.txt -> on_mil_development
+province_event = { 					
+    id = dev_points.555
+    title = "dev_points.555.title"
+    desc = "dev_points.555.desc"
+    picture = ECONOMY_eventPicture
+	  
+    is_triggered_only = yes
+    
+    trigger = {
+	}
+	
+	hidden = yes
+	
+	immediate = {
+		add_base_manpower = -1	#This needs to be removed otherwise the calculations will be off by one
+		if = {
+			limit = {	#This is for a free nation, they should spend their own dev points
+				owner = {
+					is_subject = no
+				}
+			}
+			owner = {
+				ROOT = {
+					spend_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+				}
+				refund_monarch_points_on_dev = {			#In 02_scripted_effects_for_dev_points
+					var = mil
+				}
+				change_variable = {				#Adds to the debug total dev points
+					which = total_development_gained_from_dev_points 
+					value = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for a subject nation under an ai, they should spend their own dev points
+				owner = {
+					is_subject = yes
+					overlord = {
+						ai = yes
+					}
+				}
+			}
+			owner = {
+				ROOT = {
+					spend_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+				}
+				refund_monarch_points_on_dev = {			#In 02_scripted_effects_for_dev_points
+					var = mil
+				}
+				change_variable = {				#Adds to the debug total dev points
+					which = total_development_gained_from_dev_points 
+					value = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for an ai subject nation under an human, they should spend their overlord's dev points
+				owner = {
+					is_subject = yes
+					ai = yes
+					overlord = {
+						ai = no
+					}
+				}
+			}
+			owner = {
+				overlord = {
+					ROOT = {
+						spend_dev_points_effect = yes		#In 02_scripted_effects_for_dev_points
+					}
+					refund_monarch_points_on_dev = {		#In 02_scripted_effects_for_dev_points
+						var = mil
+					}
+					change_variable = {				#Adds to the debug total dev points
+						which = total_development_gained_from_dev_points 
+						value = 1
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for an subject nation under an human with the decision letting their overlord dev off, they should spend their own dev points
+				owner = {
+					is_subject = yes
+					NOT = {
+						has_country_flag = let_player_overlord_dev
+					}
+					overlord = {
+						ai = no
+					}
+				}
+			}
+			owner = {
+				ROOT = {
+					spend_dev_points_effect = yes			#In 02_scripted_effects_for_dev_points
+				}
+				refund_monarch_points_on_dev = {			#In 02_scripted_effects_for_dev_points
+					var = mil
+				}
+				change_variable = {				#Adds to the debug total dev points
+					which = total_development_gained_from_dev_points 
+					value = 1
+				}
+			}
+		}
+		else_if = {
+			limit = {	#This is for an subject nation under an human with the decision letting their overlord dev on, they should spend their overlord's dev points
+				owner = {
+					is_subject = yes
+					has_country_flag = let_player_overlord_dev
+					overlord = {
+						ai = no
+					}
+				}
+			}
+			owner = {
+				overlord = {
+					ROOT = {
+						spend_dev_points_effect = yes		#In 02_scripted_effects_for_dev_points
+					}
+					refund_monarch_points_on_dev = {		#In 02_scripted_effects_for_dev_points
+						var = mil
+					}
+					change_variable = {				#Adds to the debug total dev points
+						which = total_development_gained_from_dev_points 
+						value = 1
+					}
+				}
+			}
+		}
+		add_base_manpower = 1
+	}
+		
+	option = {
+		name = "dev_points.555.opta"
+		ai_chance = { factor = 1 }
+	}
+}
+
+
+# Debug event for dev points, is only triggered from the console
+# Has a lot of different options for testing and debugging issues with the calculations
+# These will be explained on the options themselves
+country_event = {
+    id = dev_points.99
+    title = "dev_points.99.title"
+    desc = "dev_points.99.desc"
+    picture = ECONOMY_eventPicture
+	  
+    is_triggered_only = yes
+    
+    trigger = {
+	}
+	
+	# Recalculates all owned provinces local development point generation
+	option = { 						
+		name = "dev_points.99.opta"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			calculate_monthly_dev_points_in_all_provinces_effect = yes		#In 02_scripted_effects_for_dev_points
+		}
+	}
+
+	# Recalculates all owned provinces local development point generation
+	# Then recalculates the nations monthly dev points using the new province calulations
+	option = {
+		name = "dev_points.99.optb"
+		ai_chance = { factor = 1 }
+		calculate_monthly_dev_points_with_country_modifiers_effect = yes	#In 02_scripted_effects_for_dev_points
+		add_monthly_dev_points_effect = yes									#In 02_scripted_effects_for_dev_points
+	}
+	
+	# Recalculates the nations monthly dev points using old province calulations
+	option = {
+		name = "dev_points.99.optc"
+		ai_chance = { factor = 1 }
+		calculate_monthly_dev_points_with_country_modifiers_effect = yes	#In 02_scripted_effects_for_dev_points
+	}
+	
+	# Adds the previously calculated monthly dev points to the nation
+	option = {
+		name = "dev_points.99.optd"
+		ai_chance = { factor = 1 }
+		calculate_monthly_dev_points_with_country_modifiers_effect = yes	#In 02_scripted_effects_for_dev_points
+		add_monthly_dev_points_effect = yes
+	}
+	
+	# Spending dev points in the capital
+	# This one is for tax
+	option = { 						
+		name = "dev_points.99.opte"
+		ai_chance = { factor = 1 }
+		capital_scope = { 
+			spend_dev_points_effect = yes									#In 02_scripted_effects_for_dev_points
+			add_base_tax = 1
+			simulate_development = yes										#In 02_scripted_effects_for_dev_points
+		}
+
+	}
+	# Spending dev points in the capital
+	# This one is for production
+	option = { 						
+		name = "dev_points.99.optf"
+		ai_chance = { factor = 1 }
+		capital_scope = { 
+			spend_dev_points_effect = yes									#In 02_scripted_effects_for_dev_points
+			add_base_production = 1
+			simulate_development = yes										#In 02_scripted_effects_for_dev_points
+		}
+	}
+	# Spending dev points in the capital
+	# This one is for manpower
+	option = { 						
+		name = "dev_points.99.optg"
+		ai_chance = { factor = 1 }
+		capital_scope = { 
+			spend_dev_points_effect = yes									#In 02_scripted_effects_for_dev_points
+			add_base_manpower = 1
+			simulate_development = yes										#In 02_scripted_effects_for_dev_points
+		}
+	}
+	
+	# Recalculates the max development points for the nation
+	option = { 						
+		name = "dev_points.99.opth"
+		ai_chance = { factor = 1 }
+		calculate_dev_point_limit_effect = yes								#In 02_scripted_effects_for_dev_points
+	}
+	
+	#Sets dev points to 0
+	option = {						
+		name = "dev_points.99.opti"
+		ai_chance = { factor = 1 }
+		set_variable = {
+			which = current_dev_points
+			value = 0
+		}
+		set_variable = { 
+			which = shown_current_dev_points 
+			which = current_dev_points 
+		}
+		integer = { var = shown_current_dev_points }						#In 02_scripted_effects_for_dev_points
+	}
+	
+	# Turns on the total generated dev points gui 
+	option = {						
+		name = "dev_points.99.optj"
+		ai_chance = { factor = 1 }
+		set_global_flag = debug_total_dev_points
+	}
+	# Turns off the total generated dev points gui 
+	option = {						
+		name = "dev_points.99.optjj"
+		ai_chance = { factor = 1 }
+		clr_global_flag = debug_total_dev_points
+	}
+	
+	# Gives 100 dev points to the nation
+	option = {						
+		name = "dev_points.99.optk"
+		ai_chance = { factor = 1 }
+		give_dev_points_effect = {
+			dev = 100
+		}
+		set_variable = { 
+			which = shown_current_dev_points 
+			which = current_dev_points 
+		}
+		integer = { var = shown_current_dev_points }
+	}
+	# Gives 500 dev points to the nation
+	option = {						
+		name = "dev_points.99.optl"
+		ai_chance = { factor = 1 }
+		give_dev_points_effect = {
+			dev = 500
+		}
+		set_variable = { 
+			which = shown_current_dev_points 
+			which = current_dev_points 
+		}
+		integer = { var = shown_current_dev_points }
+	}
+	# Gives 1000 dev points to the nation
+	option = {						
+		name = "dev_points.99.optm"
+		ai_chance = { factor = 1 }
+		give_dev_points_effect = {
+			dev = 1000
+		}
+		set_variable = { 
+			which = shown_current_dev_points 
+			which = current_dev_points 
+		}
+		integer = { var = shown_current_dev_points }
+	}
+	# Gives 10000 dev points to the nation
+	option = {						
+		name = "dev_points.99.optn"
+		ai_chance = { factor = 1 }
+		give_dev_points_effect = {
+			dev = 10000
+		}
+		set_variable = { 
+			which = shown_current_dev_points 
+			which = current_dev_points 
+		}
+		integer = { var = shown_current_dev_points }
+	}
+}
+
+
+# # Spending development if the dev points go over the max
+# country_event = {
+    # id = dev_points.999
+    # title = "dev_points.999.title"
+    # desc = "dev_points.999.desc"
+    # picture = ECONOMY_eventPicture
+	  
+    # is_triggered_only = yes
+    
+    # trigger = {
+		# #Dev Points over max
+	# }
+
+	# mean_time_to_happen = {
+    # }
+	
+	# option = {
+		# name = "dev_points.999.opta"
+		# ai_chance = { factor = 1 }
+		# while = {
+			# limit = {
+				# OR = {
+					# AND = {			#For the ai this will spend all their points
+						# ai = yes
+						# check_variable = {
+							# which = current_dev_points
+							# value = 25
+						# }
+					# }
+					# AND = {			#For players this will spend their points until they are under the max
+						# ai = no
+						# check_variable = {
+							# which = current_dev_points
+							# which = maximum_dev_points
+						# }
+					# }
+				# }
+			# }
+			# if = {						#Goes down the if else chain going from the best province to the worst
+				# limit = {
+					
+				# }
+			# }
+		# }
+	# }
+# }
+	

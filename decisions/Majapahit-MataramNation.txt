@@ -123,7 +123,8 @@ country_decisions = {
 			NOT = { tag = SUN }
 			NOT = { tag = JAV }
 			NOT = { tag = MSA }
-                        NOT = { exists = MTR }
+			NOT = { exists = MTR }
+			NOT = { tag = MAJ }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -132,11 +133,8 @@ country_decisions = {
 					ai = no
 				}
 			}
-                        religion_group = muslim
-			OR = {
-				tag = MAJ
-				primary_culture = javanese
-			}
+			religion_group = muslim
+			primary_culture = javanese
 		}
 		provinces_to_highlight = {
 			OR = {

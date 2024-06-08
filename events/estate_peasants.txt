@@ -1,0 +1,1141 @@
+#Written by Dub
+#I am not a great artist myself, so the event pictures are taken directly from vanilla event pictures. If someone wishes to create some, I'd be grateful, but as it stands it is not my forté.
+#Updated to include a LOT more options for personalities if owning RoM
+namespace = peasants_estate_events
+
+country_event = { #1 Conflicts between [Root.GetPeasantsName] and [Root.GetNobilityName]
+	id = peasants_estate_events.1
+	title = peasants_estate_events.1.t
+	desc = peasants_estate_events.1.d
+	picture = NOBLE_ESTATE_DEMANDS_eventPicture
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+						trade_goods = grain
+						trade_goods = wool
+						trade_goods = livestock
+						trade_goods = bt_trade_good_fruit
+					}
+				}
+				save_event_target_as = peasants_nobility_conflict_province
+			}
+		}
+	}
+	
+	
+	trigger = {
+		has_estate = estate_nobles
+		has_estate = estate_peasants
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_AGREED_TO_LIMIT_NOBILITY
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_DISAGREED_TO_LIMIT_NOBILITY
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 2.0
+			estate_influence = {
+				estate = estate_nobles
+				influence = 60
+			}
+			estate_influence = {
+				estate = estate_peasants
+				influence = 40
+			}
+		}
+		
+	}
+	
+	option = { #Side with the [Root.GetPeasantsName]
+		name = peasants_estate_events.1.a
+		ai_chance = {
+			factor = 50
+		}
+		
+		if = {
+			limit = {
+				event_target:peasants_nobility_conflict_province = {
+					development = 30
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = -2
+			}
+			change_estate_land_share = {
+				estate = estate_peasants
+				share = 2
+			}
+		}
+		else = {
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = -1
+			}
+			change_estate_land_share = {
+				estate = estate_peasants
+				share = 1
+			}
+			
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -10
+		}
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_AGREED_TO_LIMIT_NOBILITY
+			influence = 10
+			duration = 5475
+		}
+	}
+	
+	option = { #Side with the [Root.GetNobilityName]
+		name = peasants_estate_events.1.b
+		ai_chance = {
+			factor = 50
+		}
+		
+		if = {
+			limit = {
+				event_target:peasants_nobility_conflict_province = {
+					development = 30
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 2
+			}
+			change_estate_land_share = {
+				estate = estate_peasants
+				share = -2
+			}
+		}
+		else = {
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = 1
+			}
+			change_estate_land_share = {
+				estate = estate_peasants
+				share = -1
+			}
+			
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = -15
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_DISAGREED_TO_LIMIT_NOBILITY
+			influence = -10
+			duration = 5475
+		}
+	}
+	
+	option = { #Surely we can come to an agreement here?
+		name = peasants_estate_events.1.c 
+		ai_chance = {
+			factor = 1000
+		}
+		highlight = yes
+		trigger = {
+			ruler_has_personality_ancestor = { key = charismatic_negotiator }
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 5
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 5
+		}
+	}
+	
+	option = { #Surely we can come to an agreement here?
+		name = peasants_estate_events.1.e 
+		ai_chance = {
+			factor = 1000
+		}
+		highlight = yes
+		trigger = {
+			ruler_has_personality_ancestor = { key = fierce_negotiator }
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 5
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -5
+		}
+	}
+	
+	option = { #Promise the [Root.GetNobilityName] compensation
+		name = peasants_estate_events.1.f 
+		ai_chance = {
+			factor = 1000
+		}
+		highlight = yes
+		trigger = {
+			ruler_has_personality_ancestor = { key = silver_tongue }
+		}
+		
+		if = {
+			limit = {
+				event_target:peasants_nobility_conflict_province = {
+					development = 30
+				}
+			}
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = -2
+			}
+			change_estate_land_share = {
+				estate = estate_peasants
+				share = 2
+			}
+		}
+		else = {
+			change_estate_land_share = {
+				estate = estate_nobles
+				share = -1
+			}
+			change_estate_land_share = {
+				estate = estate_peasants
+				share = 1
+			}
+		}
+		add_years_of_income = -0.25
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_AGREED_TO_LIMIT_NOBILITY
+			influence = 10
+			duration = 5475
+		}
+	}
+}
+
+country_event = { #2 Influential Land Owner
+	id = peasants_estate_events.2
+	title = peasants_estate_events.2.t
+	desc = peasants_estate_events.2.d
+	picture = FARMING_eventPicture
+	
+	trigger = {
+		has_estate = estate_peasants
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_PEASANTS_SHRINK
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_PEASANTS_GROW
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+
+	option = {
+		name = peasants_estate_events.2.a #Ok
+		
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_PEASANTS_GROW
+			influence = 10
+			duration = 5475
+		}
+	}
+}
+
+country_event = { #3 Shrinking Influence among the Peasantry
+	id = peasants_estate_events.3
+	title = peasants_estate_events.3.t
+	desc = peasants_estate_events.3.d
+	picture = FAMINE_eventPicture
+	
+	trigger = {
+		has_estate = estate_peasants
+		estate_influence = {
+			estate = estate_peasants
+			influence = 15
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_PEASANTS_SHRINK
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_PEASANTS_GROW
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = peasants_estate_events.3.a #Ok
+		
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_PEASANTS_SHRINK
+			influence = -10
+			duration = 5475
+		}
+	}
+}
+
+country_event = { #4 [Root.GetPeasantsName] Furious about [Root.GetNobilityName] Conduct
+	id = peasants_estate_events.4
+	title = peasants_estate_events.4.t
+	desc = peasants_estate_events.4.d
+	picture = NOBLE_ESTATE_eventPicture
+		
+	trigger = {
+		has_estate = estate_nobles
+		has_estate = estate_peasants
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_nobility
+				modifier = EST_VAL_PUNISHED_NOBILITY
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_UNPUNISHED_NOBILITY
+			}
+		}
+		estate_influence = {
+			estate = estate_nobles
+			influence = 60
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 2.0
+			estate_influence = {
+				estate = estate_nobles
+				influence = 80
+			}
+			estate_influence = {
+				estate = estate_peasants
+				influence = 40
+			}
+		}
+		
+	}
+	
+	option = { #Punish the [Root.GetNobilityName]!
+		name = peasants_estate_events.4.a
+		ai_chance = {
+			factor = 50
+		}
+		
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = -3
+		}
+		change_estate_land_share = {
+			estate = estate_peasants
+			share = 3
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 15
+		}
+		add_estate_influence_modifier = {
+			estate = estate_nobles
+			desc = EST_VAL_PUNISHED_NOBILITY
+			influence = -10
+			duration = 5475
+		}
+	}
+	
+	option = { #The [Root.GetNobilityName] did nothing wrong!
+		name = peasants_estate_events.4.b
+		ai_chance = {
+			factor = 50
+		}
+		
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = 3
+		}
+		change_estate_land_share = {
+			estate = estate_peasants
+			share = -3
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = -15
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_UNPUNISHED_NOBILITY
+			influence = -10
+			duration = 5475
+		}
+	}
+	
+	option = { #Let's take the land for ourselves!
+		name = peasants_estate_events.4.c 
+		ai_chance = {
+			factor = 1000
+		}
+		highlight = yes
+		trigger = {
+			ruler_has_personality = greedy_personality
+		}
+		
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = -3
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = -10
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -15
+		}
+	}
+	
+	option = { #Any illegal claims befall the State.
+		name = peasants_estate_events.4.e 
+		ai_chance = {
+			factor = 1000
+		}
+		highlight = yes
+		trigger = {
+			ruler_has_personality_ancestor = { key = lawgiver }
+		}
+		
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = -3
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -15
+		}
+	}
+	
+	option = { #Compensate the [Root.GetPeasantsName]
+		name = peasants_estate_events.4.f 
+		ai_chance = {
+			factor = 1000
+		}
+		highlight = yes
+		trigger = {
+			ruler_has_personality = embezzler_personality
+		}
+		
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = -3
+		}
+		change_estate_land_share = {
+			estate = estate_peasants
+			share = 3
+		}
+		add_years_of_income = -0.25
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 15
+		}
+	}
+}
+
+country_event = { #5 [Root.GetPeasantsName] Refuse to pay Tithes!
+	id = peasants_estate_events.5
+	title = peasants_estate_events.5.t
+	desc = peasants_estate_events.5.d
+	picture = CHURCH_ESTATE_1_eventPicture
+		
+	trigger = {
+		has_estate = estate_church
+		has_estate = estate_peasants
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_ENFORCED_TITHING
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_church
+				modifier = EST_VAL_UNENFORCED_TITHING
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 2.0
+			estate_influence = {
+				estate = estate_peasants
+				influence = 40
+			}
+		}
+		modifier = {
+			factor = 2.0
+			estate_influence = {
+				estate = estate_church
+				influence = 40
+			}
+		}
+		
+	}
+	
+	option = { #Tithes must be paid!
+		name = peasants_estate_events.5.a
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 10
+		}
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = -10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_ENFORCED_TITHING
+			influence = -10
+			duration = 5475
+		}
+	}
+	
+	option = { #Let it slide
+		name = peasants_estate_events.5.b
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -10
+		}
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_church
+			desc = EST_VAL_UNENFORCED_TITHING
+			influence = -10
+			duration = 5475
+		}
+	}
+	
+	option = { #If the [Root.GetPeasantsName] refuse, we shall pay!
+		name = peasants_estate_events.5.c 
+		ai_chance = {
+			factor = 1000
+		}
+		highlight = yes
+		trigger = {
+			ruler_has_personality_ancestor = { key = pious }
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 10
+		}
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 15
+		}
+	}
+	
+	option = { #Punish the [Root.GetPeasantsName], harshly!
+		name = peasants_estate_events.5.e
+		ai_chance = {
+			factor = 1000
+		}
+		highlight = yes
+		trigger = {
+			ruler_has_personality_ancestor = { key = zealot }
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = -15
+		}
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = 15
+		}
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_ENFORCED_TITHING
+			influence = -10
+			duration = 5475
+		}
+	}
+}
+
+country_event = { #6 [peasants_revolting_province.GetName] Revolts!
+	id = peasants_estate_events.6
+	title = peasants_estate_events.6.t
+	desc = peasants_estate_events.6.d
+	picture = REVOLUTION_eventPicture
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+						trade_goods = grain
+						trade_goods = wool
+						trade_goods = livestock
+						trade_goods = bt_trade_good_fruit
+					}
+				}
+				save_event_target_as = peasants_revolting_province
+			}
+		}
+	}
+	trigger = {
+		has_estate = estate_peasants
+		NOT = {
+			estate_loyalty = {
+				estate = estate_peasants
+				loyalty = 30
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 2
+			estate_influence = {
+				estate = estate_peasants
+				influence = 40
+			}
+		}
+		modifier = {
+			factor = 2
+			estate_influence = {
+				estate = estate_peasants
+				influence = 60
+			}
+		}
+	}
+	
+	option = {
+		name = peasants_estate_events.6.a #Those arrogant fools!
+		
+		event_target:peasants_revolting_province = {
+			spawn_rebels = {
+				type = anti_tax_rebels
+				size = 5
+			}
+		}
+	}
+}
+
+country_event = { #7 [Root.GetPeasantsName] feel lack of protection
+	id = peasants_estate_events.7
+	title = peasants_estate_events.7.t
+	desc = peasants_estate_events.7.d
+	picture = REFUGEES_ESCAPING_eventPicture
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					NOT = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+						any_neighbor_province = {
+							owned_by = ROOT
+							OR = {
+								has_building = fort_15th
+								has_building = fort_16th
+								has_building = fort_17th
+								has_building = fort_18th
+							}
+						}
+					}
+				}
+				save_event_target_as = peasants_unsafe_province
+			}
+		}
+	}
+	trigger = {
+		has_estate = estate_peasants
+		NOT = {
+			estate_loyalty = {
+				estate = estate_peasants
+				loyalty = 60
+			}
+		}
+		any_owned_province = {
+			NOT = { 
+				has_building = fort_15th
+				has_building = fort_16th
+				has_building = fort_17th
+				has_building = fort_18th
+				any_neighbor_province = {
+					owned_by = ROOT
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+			}
+		}
+		any_owned_province = {
+			OR = {
+				has_building = fort_15th
+				has_building = fort_16th
+				has_building = fort_17th
+				has_building = fort_18th
+				any_neighbor_province = {
+					owned_by = ROOT
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+				}
+			}
+
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 2
+			estate_influence = {
+				estate = estate_peasants
+				influence = 40
+			}
+		}
+		modifier = {
+			factor = 2
+			estate_influence = {
+				estate = estate_peasants
+				influence = 60
+			}
+		}
+	}
+	
+	option = {
+		name = peasants_estate_events.7.a #Make vague promises of protection
+		
+		random_list = {
+			33 = {
+				event_target:peasants_unsafe_province = {
+					add_base_tax = -1
+				}
+				random_owned_province = {
+					limit = {
+						has_influencing_fort = yes
+					}
+					add_base_tax = 1
+				}
+			}
+			33 = {
+				event_target:peasants_unsafe_province = {
+					add_base_production = -1
+				}
+				random_owned_province = {
+					limit = {
+						has_influencing_fort = yes
+					}
+					add_base_production = 1
+				}
+			}
+			33 = {
+				event_target:peasants_unsafe_province = {
+					add_base_manpower = -1
+				}
+				random_owned_province = {
+					limit = {
+						has_influencing_fort = yes
+					}
+					add_base_manpower = 1
+				}
+			}
+		}
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = -5
+		}
+	}
+}
+
+country_event = { #8 [Root.GetPeasantsName] Ripped Off by Merchants
+	id = peasants_estate_events.8
+	title = peasants_estate_events.8.t
+	desc = peasants_estate_events.8.d
+	picture = ACCUSATION_eventPicture
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				save_event_target_as = peasants_burghers_conflict_province
+			}
+			random_owned_province = {
+				limit = {
+					development = 10
+				}
+				save_event_target_as = peasants_burghers_conflict_province
+			}
+			random_owned_province = {
+				limit = {
+					development = 20
+				}
+				save_event_target_as = peasants_burghers_conflict_province
+			}
+		}
+	}	
+	trigger = {
+		has_estate = estate_burghers
+		has_estate = estate_peasants
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_burghers
+				modifier = EST_VAL_PUNISHED_MERCHANTS
+			}
+		}
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_UNPUNISHED_MERCHANTS
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 2.0
+			estate_influence = {
+				estate = estate_peasants
+				influence = 40
+			}
+		}
+		modifier = {
+			factor = 2.0
+			estate_influence = {
+				estate = estate_burghers
+				influence = 40
+			}
+		}
+		
+	}
+	
+	option = { #Traders are not barbarians!
+		name = peasants_estate_events.8.a
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = 10
+		}
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = -10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_UNPUNISHED_MERCHANTS
+			influence = -10
+			duration = 5475
+		}
+	}
+	
+	option = { #Demand compensation from the [Root.GetBurghersName]!
+		name = peasants_estate_events.8.b
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = -10
+		}
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_burghers
+			desc = EST_VAL_PUNISHED_MERCHANTS
+			influence = -10
+			duration = 5475
+		}
+	}
+	
+	option = { #Lies need not be entertained
+		name = peasants_estate_events.8.c
+		ai_chance = {
+			factor = 1000
+		}
+		highlight = yes
+		trigger = {
+			ruler_has_personality_ancestor = { key = intricate_web_weaver }
+		}
+		custom_tooltip = peasants_estate_events.8.c.tooltip
+		change_estate_land_share = {
+			estate = estate_peasants
+			share = -1
+		}
+		add_estate_loyalty = {
+			estate = estate_burghers
+			loyalty = 10
+		}
+	}
+}
+
+country_event = { #9 Bad Harvest
+	id = peasants_estate_events.9
+	title = peasants_estate_events.9.t
+	desc = peasants_estate_events.9.d
+	picture = FAMINE_eventPicture
+		
+	trigger = {
+		has_estate = estate_peasants
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_REFUSED_HELP_WITH_HARVEST
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #Help the [Root.GetPeasantsName]
+		name = peasants_estate_events.9.a
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_years_of_income = -0.25
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 10
+		}
+	}
+	
+	option = { #Refrain
+		name = peasants_estate_events.9.b
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = -10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_REFUSED_HELP_WITH_HARVEST
+			influence = -10
+			duration = 5475
+		}
+	}
+	
+	option = { #We must help our people in need!
+		name = peasants_estate_events.9.c 
+		ai_chance = {
+			factor = 1000
+		}
+		highlight = yes
+		trigger = {
+			ruler_has_personality_ancestor = { key = kind_hearted }
+		}
+		
+		add_years_of_income = -0.33
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 20
+		}
+	}
+}
+
+country_event = { #10 Bountiful Harvest
+	id = peasants_estate_events.10
+	title = peasants_estate_events.10.t
+	desc = peasants_estate_events.10.d
+	picture = FEAST_eventPicture
+		
+	trigger = {
+		has_estate = estate_peasants
+		NOT = {
+			has_estate_influence_modifier = {
+				estate = estate_peasants
+				modifier = EST_VAL_SEIZED_HARVEST
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #Seize the harvest!
+		name = peasants_estate_events.10.a
+		ai_chance = {
+			factor = 50
+		}
+		
+		if = {
+			limit = {
+				estate_influence = {
+					estate = estate_peasants
+					influence = 80
+				}
+			}
+			add_years_of_income = 1.0
+		}
+		else_if = {
+			limit = {
+				estate_influence = {
+					estate = estate_peasants
+					influence = 60
+				}
+			}
+			add_years_of_income = 0.75
+		}
+		else_if = {
+			limit = {
+				estate_influence = {
+					estate = estate_peasants
+					influence = 40
+				}
+			}
+			add_years_of_income = 0.5
+		}
+		else = {
+			add_years_of_income = 0.25
+		}
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = -10
+		}
+		add_estate_influence_modifier = {
+			estate = estate_peasants
+			desc = EST_VAL_SEIZED_HARVEST
+			influence = -10
+			duration = 5475
+		}
+	}
+	
+	option = { #Refrain
+		name = peasants_estate_events.10.b
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_estate_loyalty = {
+			estate = estate_peasants
+			loyalty = 10
+		}
+	}
+}
+
+#TODO:
+#11 Conflict between miners and traders
+#12 Nobles lay claim to minerals
+#13 Rowdy troops
+#14 Peasants don't want to be conscripted

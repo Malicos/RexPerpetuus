@@ -1,0 +1,62 @@
+namespace = BeyondTypusCarpathiaPolandEvents
+
+#1-5: Pawning on Szepes towns
+#1: Reserved for start event for pre-1444: Hungary pawns Szepes (13 out of 24) to Poland
+#2: Hungary wants Szepes towns back. If they pay, event 3. If they war, event 4.
+#3: Hungary pays for Poland. If Poland accepts, event 5. If Poland refuses, event 6.
+#4: Hungary wars for Poland. Poland is notified through event 7
+#5: Hungary is notified that Poland accepted payment
+#6: Hungary is notified that Poland refuses. Hungary can choose to go to war, and Poland is notified through event 7.
+#7: Poland is notified that Hungary has gone to war.
+
+
+country_event = { # Hungary wants Szepes towns back
+    id = BeyondTypusCarpathiaPolandEvents.2
+    title = BeyondTypusCarpathiaPolandEvents.2.title
+    desc = BeyondTypusCarpathiaPolandEvents.2.desc
+    picture = GOOD_WITH_MONARCH_eventPicture
+
+    fire_only_once = yes
+	
+	trigger = {
+		tag = HUN
+		1318 = { #Szepes owned by Poland/PLC
+			OR = {
+				owned_by = POL
+				owned_by = PLC
+			}
+			any_neighbor_province = {
+				owned_by = HUN
+			}
+		}
+		# no negative prestige or stability
+		prestige = 0
+		stability = 0
+		years_of_income = 1 #So Hungary doesn't go too crazy into debt
+		always = no #Will come back to this later. I don't want this to fire just yet as it's not done.
+	}
+	
+	mean_time_to_happen = {
+		months = 300 #About 25 years
+	}
+	
+	option = {
+		add_years_of_income = -2
+		tooltip = {
+			1318 = {
+				add_core = HUN
+				if = {
+					limit = {
+						owned_by = POL
+					}
+					remove_core = POL
+				}
+				else = {
+					remove_core = PLC
+				}
+				cede_province = HUN
+			}
+		}
+			
+		}
+}

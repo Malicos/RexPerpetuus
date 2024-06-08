@@ -2,3 +2,257 @@
 
 #I normally don't like messing with vanilla files when I don't have to, but between all the map changes and the fact that I wanted to clean up a few things
 #and make everything more dynamic anyway, I figured I'd just reorganise. Hope this doesn't mess with anyone too much. - Draiocht
+country_decisions = {
+
+	sardinia_piedmont_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_sardinia_piedmont_flag }
+			NOT = { tag = SPI }
+			NOT = { tag = ITL }
+			NOT = { tag = ITA }
+			NOT = { tag = TUS }
+			NOT = { tag = EMR }
+			NOT = { tag = LMV }
+			OR = {
+				tag = SAV
+				tag = SAR
+				tag = PIE
+				primary_culture = piedmontese
+				primary_culture = sardinian
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = north_piedmont_area #North Piedmont
+				area = piedmont_area #Central Piedmont
+				area = south_piedmont_area #South Piedmont
+				area = savoy_dauphine_area #Savoy
+				area = sardinia_area #Sardinia
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		
+		allow = {
+			NOT = { exists = SPI }
+			OR = {
+				OR = {
+					NOT = { exists = SAV }
+					NOT = { exists = PIE }
+				}
+				NOT = { exists = SAR }
+			}
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 205 #Savoy
+			owns_core_province = 103 #Piedmont
+			owns_core_province = 102 #Nice
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				OR = {
+					area = north_piedmont_area #North Piedmont
+					area = piedmont_area #Central Piedmont
+					area = south_piedmont_area #South Piedmont
+					area = savoy_dauphine_area #Savoy
+				}
+				value = 18			#Two thirds of Savoy+Piedmont provinces (27)
+			}
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				area = sardinia_area #Sardinia
+				value = 4			#Half of Sardinia's 7 provinces
+			}
+			total_development = 150			#Normal requirement for rank 2 is 500 dev, so this is 70 percent discounted
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+		}
+		effect = {
+			#No claims: Savoy has missions to conquer all of Italy in 1.30.
+			103 = {
+				move_capital_effect = yes
+			}
+			change_tag = SPI
+			on_change_tag_effect = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+			set_country_flag = formed_sardinia_piedmont_flag
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					primary_culture = sardinian
+					NOT = { accepted_culture = piedmontese }
+				}
+				add_accepted_culture = piedmontese
+			}
+			else_if = {
+				limit = {
+					primary_culture = piedmontese
+					NOT = { accepted_culture = sardinian }
+				}
+				add_accepted_culture = sardinian
+			}
+			swap_ideas = yes
+			if = {
+				limit = {
+					NOT = { was_tag = SAV }
+				}
+				swap_non_generic_missions = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+	sardinia_piedmont_nation_inherit = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_sardinia_piedmont_flag }
+			NOT = { tag = SPI }
+			NOT = { tag = ITL }
+			NOT = { tag = ITA }
+			NOT = { tag = TUS }
+			NOT = { tag = EMR }
+			NOT = { tag = LMV }
+			government = monarchy
+			OR = {
+				AND = {
+					tag = SAV
+					SAR = { 
+						ai = yes 
+						was_player = no
+					}
+				}
+				AND = {
+					tag = PIE
+					SAR = { 
+						ai = yes 
+						was_player = no
+					}
+				}
+				AND = {
+					tag = SAR
+					OR = {
+						SAV = { 
+							ai = yes 
+							was_player = no 
+						}
+						PIE = { 
+							ai = yes 
+							was_player = no 
+						}
+					}
+				}
+			}
+			OR = {
+				primary_culture = sardinian
+				primary_culture = piedmontese
+			}
+		}
+		allow = {
+			adm_tech = 10
+			NOT = { exists = SPI }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			prestige = 75
+			dip = 3
+			adm = 3
+			OR = {
+				AND = {
+					tag = SAR
+					owns_core_province = 127			# Sardinia
+					senior_union_with = SAV
+					SAV = {
+						owns_core_province = 205 #Savoy
+						owns_core_province = 103 #Piedmont
+						owns_core_province = 102 #Nice
+						NOT = { num_of_cities = 28 } #Original 18+10
+					}
+				}
+				AND = {
+					tag = SAV
+					owns_core_province = 103			# Piedmont
+					senior_union_with = SAR
+					SAR = {
+						owns_core_province = 127		# Sardinia
+						NOT = { num_of_cities = 12 } #Original 7 + 5
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					tag = SAV
+				}
+				inherit = SAR
+			}
+			if = {
+				limit = {
+					tag = SAR
+				}
+				inherit = SAV
+			}
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+			change_tag = SPI
+			on_change_tag_effect = yes
+			set_country_flag = formed_sardinia_piedmont_flag
+			add_prestige = 25
+			
+			if = {
+				limit = {
+					primary_culture = sardinian
+					NOT = { accepted_culture = piedmontese }
+				}
+				add_accepted_culture = piedmontese
+			}
+			else_if = {
+				limit = {
+					primary_culture = piedmontese
+					NOT = { accepted_culture = sardinian }
+				}
+				add_accepted_culture = sardinian
+			}
+			swap_ideas = yes
+			if = {
+				limit = {
+					NOT = { was_tag = SAV }
+				}
+				swap_non_generic_missions = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+		do_not_integrate = SAR
+		do_not_integrate = SAV
+	}
+
+}

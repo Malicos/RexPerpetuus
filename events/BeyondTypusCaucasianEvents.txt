@@ -1,0 +1,47 @@
+namespace = BeyondTypusCaucasianEvents
+
+country_event = { #Death of Vakhtang IV
+	id = BeyondTypusCaucasianEvents.1
+	title = "BeyondTypusCaucasianEvents.EVTNAME1"
+	desc = "BeyondTypusCaucasianEvents.EVTDESC1"
+	picture = DEATH_OF_HEIR_eventPicture
+	
+	mean_time_to_happen =  {
+		months = 60
+	}
+	
+	immediate =  {
+		kill_ruler = yes
+		create_interregnum_effect = yes
+	}
+	trigger = {
+		tag = KRT
+		has_ruler = "Vakhtang IV"
+		has_heir = no
+		IME =  {
+			has_ruler = "Demetre I"
+		}
+		KKE = {
+			has_ruler = "Giorgi IV"
+		}
+	}
+	
+	option = { #Favor Demetre
+		name = "BeyondTypusCaucasianEvents.EVTOPTA1"
+		create_union = IME
+		custom_tooltip = BeyondTypusCaucasianEvents.EVTOPTA1.tt
+		KKE = {
+			add_liberty_desire = 100
+		}
+		
+	}
+	
+	option = { #Favor Giorgi
+		name = "BeyondTypusCaucasianEvents.EVTOPTB1"
+		create_union = KKE
+		custom_tooltip = BeyondTypusCaucasianEvents.EVTOPTB1.tt
+		IME = {
+			add_liberty_desire = 100
+		}
+	}
+}

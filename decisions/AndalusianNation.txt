@@ -2,3 +2,195 @@
 
 #I normally don't like messing with vanilla files when I don't have to, but between all the map changes and the fact that I wanted to clean up a few things
 #and make everything more dynamic anyway, I figured I'd just reorganise. Hope this doesn't mess with anyone too much. - Draiocht
+country_decisions = {
+
+	andalusian_nation = { #AndalusianNation.txt
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes #Generic check
+			NOT = { has_country_flag = formed_andalusia_flag } #Has not formed Andalusia before.
+			NOT = { tag = ADU } #Is not tag.
+			OR = { #Right identity
+				primary_culture = andalusi_culture 
+				AND = {
+					culture_group = maghrebi
+					any_owned_province = { region = iberia_region }
+				}
+				AND = {
+					culture_group = turko_semitic
+					any_owned_province = { region = iberia_region }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			region = iberia_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ADU }
+			OR = {
+				NOT = { exists = IBE }			#Special, no doubling up on Iberia superpowers
+				num_of_cities = IBE 			#...Unless you eclipse them.
+			}
+			OR = {
+				NOT = { exists = ADU }			#Special, no doubling up on Iberia superpowers
+				num_of_cities = ADU 			#...Unless you eclipse them.
+			}
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#religion_group = muslim
+			owns_core_province = 223			# Granada
+			owns_core_province = 224			# Andalucia
+			owns_core_province = 225			# Cordoba
+			owns_core_province = 221			# Murcia
+			owns_core_province = 220			# Valencia
+			if = {
+				limit = {
+					NOT = { #Any tags that end up with the Granadan mission tree.
+						has_mission = gra_restore_the_andalusian_caliphate
+					}
+				}
+				num_of_owned_provinces_with = {
+					is_core = ROOT
+					region = iberia_region
+					value = 103			#At least 2/3 of Iberia's 153 provinces. This is Portugal plus 72 other provinces, roughly half of non Portuguese Iberia.
+				}
+			}
+			else = { #Taifa tags get discount, because their mission tree will not continue unless they form Andalusia, which entails 40 provinces. Hence, the formation of the tag needs to be done earlier.
+				num_of_owned_provinces_with = {
+					is_core = ROOT
+					region = iberia_region
+					value = 40			#All provinces in the three Andalusia areas (27) + Murcia (7) & Valencia (6) areas, which the missions give claims to.
+				}
+			}
+			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+		}
+		effect = {
+			#Mission completions
+			#Morocco
+			hidden_effect = {
+				if = {
+					limit = { 
+						tag = MOR 
+						has_dlc = "Golden Century"
+					}
+					complete_mission = gra_overcome_internal_strife
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = { 
+						tag = MOR 
+						has_dlc = "Golden Century"
+					}
+					complete_mission = gra_friends_in_high_places
+				}
+			}
+			#Country formation effects
+			change_tag = ADU
+			on_change_tag_effect = yes
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			#Rank + Prestige
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			#Nation claims + Mission claims
+			if = { 
+				limit = {
+					NOT = { #Any tags that end up with the Granadan mission tree.
+						has_mission = gra_restore_the_andalusian_caliphate
+					}
+				}
+				iberia_region = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ADU
+				}
+			}
+			else = { #You have the above mission, therefore you have GC as well, hence you potentially have the ability to complete the below missions.
+				if = { #Portuguese mission claims
+					limit = {
+						mission_completed = gra_reconquer_sevilla
+						has_dlc = "Golden Century"
+					}
+					#Claims
+					give_permaclaims_for_mission = { mission=adu_conquer_portugal }
+				}
+				if = { #Sardinian-Corsican mission claims
+					limit = {
+						mission_completed = gra_restore_trade_superiority
+						has_dlc = "Golden Century"
+					}
+					#Claims
+					give_permaclaims_for_mission = { mission=adu_conquer_med_islands }
+				}
+				if = { #Tunisian-Moroccan mission claims
+					limit = {
+						mission_completed = gra_restore_faith_in_the_throne
+						has_dlc = "Golden Century"
+					}
+					#Claims
+					give_permaclaims_for_mission = { mission=adu_moroccan_conquest }
+					#Claims
+					give_permaclaims_for_mission = { mission=adu_own_tunisia_1 }
+				}
+			}
+			#Swap culture, government, government reform & ideas, plus set flag
+			if = {
+				limit = {
+					culture_group = turko_semitic
+					NOT = { primary_culture = andalusi_culture }
+				}
+				change_primary_culture = andalusi_culture
+			}
+			if = { 
+				limit = { 
+					NOT = { government = monarchy }
+					is_revolutionary = no
+				}
+				change_government = monarchy
+			}
+			if = { 
+				limit = { is_revolutionary = no }
+				add_government_reform = al_andalusia_government
+			}
+			if = {
+				limit = {
+					NOT = { has_idea_group = ADU_ideas }
+				}
+				swap_ideas = yes 
+			}
+			set_country_flag = formed_andalusia_flag
+			set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				num_of_owned_provinces_with = {				#Will not form if already owns over half of North Africa's 93 provinces
+					value = 47
+					region = maghreb_region
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { capital_scope = { region = iberia_region } }			#Capital not in Iberia
+			}
+		}
+		ai_importance = 400 #
+	}
+}

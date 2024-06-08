@@ -1,0 +1,264 @@
+country_decisions = {
+	
+##############################################
+#				Toggle buttons				 #
+##############################################
+
+	start_converting_monarch_points_to_dev_points = {
+		potential = {
+			NOT = {
+				has_country_modifier = monarch_points_to_dev_points
+			}
+		}
+		allow = {
+			monthly_adm = 0
+			monthly_dip = 0
+			monthly_mil = 0
+			NOT = {
+				has_country_modifier = monarch_points_to_dev_points
+			}
+		}
+		effect = {
+			custom_tooltip = explain_monthly_monarch_points_to_dev_points
+			hidden_effect = {
+				add_country_modifier = {
+					name = "monarch_points_to_dev_points"
+					duration = -1
+					
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0 #debug so ai shouldnt do
+		}
+	}
+	stop_converting_monarch_points_to_dev_points = {
+		potential = {
+			has_country_modifier = monarch_points_to_dev_points
+		}
+		allow = {
+			has_country_modifier = monarch_points_to_dev_points
+		}
+		effect = {
+			custom_tooltip = explain_removing_monthly_monarch_points_to_dev_points
+			hidden_effect = {
+			remove_country_modifier = monarch_points_to_dev_points
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0 #debug so ai shouldnt do
+		}
+	}
+	
+	
+	start_converting_adm_points_to_reform_progress = {
+		potential = {
+			NOT = {
+				has_country_modifier = adm_points_to_reform_progress
+			}
+		}
+		allow = {
+			monthly_adm = 0
+			
+			NOT = {
+				has_country_modifier = adm_points_to_reform_progress
+			}
+		}
+		effect = {
+			custom_tooltip = explain_monthly_adm_points_to_reform_progress
+			hidden_effect = {
+				add_country_modifier = {
+					name = "adm_points_to_reform_progress"
+					duration = -1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0 #debug so ai shouldnt do
+		}
+	}
+	stop_converting_adm_points_to_reform_progress = {
+		potential = {
+			has_country_modifier = adm_points_to_reform_progress
+		}
+		allow = {
+			has_country_modifier = adm_points_to_reform_progress
+		}
+		effect = {
+			custom_tooltip = explain_removing_monthly_adm_points_to_reform_progress
+			hidden_effect = {
+				remove_country_modifier = adm_points_to_reform_progress
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0 #debug so ai shouldnt do
+		}
+	}
+	
+	
+	
+	start_converting_dip_points_to_spy_defence = {
+		potential = {
+			NOT = {
+				has_country_modifier = dip_points_to_spy_defence
+			}
+		}
+		allow = {
+			monthly_dip = 0
+			NOT = {
+				has_country_modifier = dip_points_to_spy_defence
+			}
+		}
+		effect = {
+			custom_tooltip = explain_monthly_dip_points_to_spy_defence
+			hidden_effect = {
+				add_country_modifier = {
+					name = "dip_points_to_spy_defence"
+					duration = -1 
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0 #debug so ai shouldnt do
+		}
+	}
+	stop_converting_dip_points_to_spy_defence = {
+		potential = {
+			has_country_modifier = dip_points_to_spy_defence
+		}
+		allow = {
+			has_country_modifier = dip_points_to_spy_defence
+		}
+		effect = {
+			custom_tooltip = explain_removing_monthly_dip_points_to_spy_defence
+			hidden_effect = {
+			remove_country_modifier = dip_points_to_spy_defence
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0 #debug so ai shouldnt do
+		}
+	}
+	
+	
+	
+	
+	start_converting_mil_points_to_professionalism = {
+		potential = {
+			has_dlc = "Cradle of Civilization"
+			NOT = {
+				has_country_modifier = mil_points_to_professionalism
+			}
+		}
+		allow = {
+			monthly_mil = 0
+			NOT = {
+				has_country_modifier = mil_points_to_professionalism
+			}
+		}
+		effect = {
+			custom_tooltip = explain_monthly_mil_points_to_professionalism
+			hidden_effect = {
+				add_country_modifier = {
+					name = "mil_points_to_professionalism"
+					duration = -1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0 #debug so ai shouldnt do
+		}
+	}
+	stop_converting_mil_points_to_professionalism = {
+		potential = {
+			has_dlc = "Cradle of Civilization"
+			has_country_modifier = mil_points_to_professionalism
+		}
+		allow = {
+			has_country_modifier = mil_points_to_professionalism
+		}
+		effect = {
+			custom_tooltip = explain_removing_monthly_mil_points_to_professionalism
+			hidden_effect = {
+				remove_country_modifier = mil_points_to_professionalism
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0 #debug so ai shouldnt do
+		}
+	}
+	
+	start_converting_mil_points_to_army_tradition = {
+		potential = {
+			NOT = {
+				has_dlc = "Cradle of Civilization"
+				has_country_modifier = mil_points_to_army_tradition
+			}
+		}
+		allow = {
+			monthly_mil = 0
+			NOT = {
+				has_country_modifier = mil_points_to_army_tradition
+			}
+		}
+		effect = {
+			custom_tooltip = explain_monthly_mil_points_to_army_tradition
+			hidden_effect = {
+				add_country_modifier = {
+					name = "mil_points_to_army_tradition"
+					duration = -1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0 #debug so ai shouldnt do
+		}
+	}
+	stop_converting_mil_points_to_army_tradition = {
+		potential = {
+			NOT = {
+				has_dlc = "Cradle of Civilization"
+			}
+			has_country_modifier = mil_points_to_army_tradition
+		}
+		allow = {
+			has_country_modifier = mil_points_to_army_tradition
+		}
+		effect = {
+			custom_tooltip = explain_removing_monthly_mil_points_to_army_tradition
+			hidden_effect = {
+				remove_country_modifier = mil_points_to_army_tradition
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0 #debug so ai shouldnt do
+		}
+	}
+		
+##############################################
+#			  Repeatable Buttons			 #
+##############################################
+
+	# stop_converting_mil_points_to_professionalism = {
+		# potential = {
+			# always = yes
+		# }
+		# allow = {
+			# adm_power = 
+		# }
+		# effect = {
+			# custom_tooltip = explain_removing_monthly_mil_points_to_professionalism
+			
+		# }
+		
+		# ai_will_do = {
+			# factor = 0 #debug so ai shouldnt do
+		# }
+	# }
+	
+}

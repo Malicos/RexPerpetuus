@@ -1,0 +1,468 @@
+namespace = bt_harb_misc
+normal_or_historical_nations = yes
+
+
+country_event = {                         #Event to give wales english rivalry 
+	id = bt_harb_misc.1
+	desc = bt_harb_misc.1.desc
+	title = bt_harb_misc.1.title
+	picture = CONQUEST_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = WLS
+		NOT = {
+		 	is_subject = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+    }
+	
+	option = {
+		name = bt_harb_misc.1.opt
+		add_historical_rival = ENG
+		remove_country_modifier = pissed_at_the_english_bt
+	}
+}
+
+country_event = {                         #The descovery of amalgamation 
+	id = bt_harb_misc.2
+	desc = bt_harb_misc.2.desc
+	title = bt_harb_misc.2.title
+	picture = CONQUEST_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = bt_great_bullion_famine_over
+		is_year = 1500
+		OR = {
+			owns = 4239
+			owns = 7761
+			owns = 8121
+		}
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		months = 120
+    }
+	
+	immediate = {
+		set_global_flag = amalgamation_used_for_gold
+	}
+	
+	option = {
+		name = bt_harb_misc.2.opta
+		add_treasury = 250
+		add_prestige = 10
+		random_owned_province = { 
+			limit = {
+				province_id = 8121 #Spanish one
+			}
+			change_trade_goods = gold
+		}
+		random_owned_province = { 
+			limit = {
+				province_id = 7761 #Slovinian one
+			}
+			change_trade_goods = gold
+		}
+		random_owned_province = { 
+			limit = {
+				province_id = 4239 #The serbian one
+			}
+			change_trade_goods = gold
+		}
+	}
+}
+
+country_event = {                         #Event to change mercury provinces into gold with the descovery of amalgamation 
+	id = bt_harb_misc.3
+	desc = bt_harb_misc.3.desc
+	title = bt_harb_misc.3.title
+	picture = CONQUEST_eventPicture
+	
+	trigger = {
+		OR = {
+			AND = {
+				owns = 8121
+				8121 = {
+					NOT = {
+						trade_goods = gold 
+					}
+				}
+			}
+			AND = {
+				owns = 7761
+				7761 = {
+					NOT = {
+						trade_goods = gold 
+					}
+				}
+			}
+			AND = {
+				owns = 4239
+				4239 = {
+					NOT = {
+						trade_goods = gold 
+					}
+				}
+			}
+		}
+		religion_group = christian
+		has_global_flag = amalgamation_used_for_gold
+	}
+
+	mean_time_to_happen = {
+		days = 1
+    }
+	
+	option = {
+		name = bt_harb_misc.3.opta
+		random_owned_province = { 
+			limit = {
+				province_id = 8121 #Spanish one
+			}
+			change_trade_goods = gold
+		}
+		random_owned_province = { 
+			limit = {
+				province_id = 7761 #Slovinian one
+			}
+			change_trade_goods = gold
+		}
+		random_owned_province = { 
+			limit = {
+				province_id = 4239 #The serbian one
+			}
+			change_trade_goods = gold
+		}
+	}
+}
+
+country_event = {                         #Event to remove venice's albanian subsudies
+	id = bt_harb_misc.4
+	desc = bt_harb_misc.4.desc
+	title = bt_harb_misc.4.title
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+	}
+
+	mean_time_to_happen = {
+    }
+	
+	option = {
+		name = bt_harb_misc.4.opt
+		remove_country_modifier = bt_venice_lezhe_subsidies
+	}
+}
+
+country_event = {                         #Event to remove venice's albanian subsudies
+	id = bt_harb_misc.5
+	desc = bt_harb_misc.5.desc
+	title = bt_harb_misc.5.title
+	picture = CONQUEST_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = {
+			exists = ALB
+		}
+		tag = VEN 
+		has_country_modifier = bt_venice_lezhe_subsidies
+	}
+
+	mean_time_to_happen = {
+    }
+	
+	option = {
+		name = bt_harb_misc.5.opt
+		remove_country_modifier = bt_venice_lezhe_subsidies
+	}
+}
+
+country_event = {                         #Start of event chain to cede english provinces in normandy and gascony in the HYW
+	id = bt_harb_misc.6
+	desc = bt_harb_misc.6.desc
+	title = bt_harb_misc.6.title
+	picture = CONQUEST_eventPicture
+	fire_only_once = yes
+	major = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {	# Is france in HYW and occupies all english provinces in france except calais
+		tag = FRA
+	}
+	
+	# Cede all of Gascony and Normandy to France
+	option = {
+		name = bt_harb_misc.6.a
+		custom_tooltip = bt_harb_misc.6.a.tt
+		ENG = {
+			country_event = {
+				id = bt_harb_misc.7
+			}
+		}
+		france_region = {
+			limit = {
+				has_province_flag = bt_hyw_concession
+			}
+			add_core = FRA
+		}
+		ai_chance = {
+			factor = 4
+		}
+	}
+	
+	# Cede all of Gascony to France, but make Normandy into an Appanage
+	option = {
+		name = bt_harb_misc.6.b
+		custom_tooltip = bt_harb_misc.6.b.tt
+		ENG = {
+			country_event = {
+				id = bt_harb_misc.7
+			}
+		}
+		hidden_effect = {
+			france_region = {
+				limit = {
+					has_province_flag = bt_hyw_concession
+				}
+				if = {
+					limit = {
+						is_core = NRM
+					}
+					cede_province = NRM
+				}
+				else = {
+					add_core = FRA
+				}
+			}
+			NRM = {
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+				change_religion = ROOT
+				change_primary_culture = normand
+				set_prestige_to_zero = yes
+				add_adm_power = 50
+				add_dip_power = 50
+				add_mil_power = 50
+			}
+		}
+		tooltip = {
+			release = NRM
+		}
+		create_subject = {
+			subject_type = appanage
+			subject = NRM
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = -10
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	# Cede all of Normandy to France, but make Gascony into an Appanage
+	option = {
+		name = bt_harb_misc.6.c
+		custom_tooltip = bt_harb_misc.6.c.tt
+		ENG = {
+			country_event = {
+				id = bt_harb_misc.7
+			}
+		}
+		hidden_effect = {
+			france_region = {
+				limit = {
+					has_province_flag = bt_hyw_concession
+				}
+				if = {
+					limit = { is_core = GUY }
+					cede_province = GUY
+				}
+				else = {
+					add_core = FRA
+				}
+			}
+			GUY = {
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+				change_religion = ROOT
+				change_primary_culture = gascon
+				set_prestige_to_zero = yes
+				add_adm_power = 50
+				add_dip_power = 50
+				add_mil_power = 50
+			}
+		}
+		create_subject = {
+			subject_type = appanage
+			subject = GUY
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = -2.5
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+	
+	# Make Gascony and Normandy into an Appanage
+	option = {
+		name = bt_harb_misc.6.d
+		custom_tooltip = bt_harb_misc.6.d.tt
+		ENG = {
+			country_event = {
+				id = bt_harb_misc.7
+			}
+		}
+		hidden_effect = {
+			france_region = {
+				limit = {
+					has_province_flag = bt_hyw_concession
+				}
+				if = {
+					limit = {
+						is_core = GUY
+					}
+					cede_province = GUY
+				}
+				else_if = {
+					limit = {
+						is_core = NRM
+					}
+					cede_province = NRM
+				}
+				else = {
+					add_core = FRA
+				}
+			}
+			NRM = {
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+				change_religion = ROOT
+				change_primary_culture = normand
+				set_prestige_to_zero = yes
+				add_adm_power = 50
+				add_dip_power = 50
+				add_mil_power = 50
+			}
+			GUY = {
+				change_government = monarchy
+				add_government_reform = feudalism_reform
+				change_religion = ROOT
+				change_primary_culture = gascon
+				set_prestige_to_zero = yes
+				add_adm_power = 50
+				add_dip_power = 50
+				add_mil_power = 50
+			}
+		}
+		tooltip = {
+			release = NRM
+		}
+		create_subject = {
+			subject_type = appanage
+			subject = NRM
+		}
+		tooltip = {
+			release = GUY
+		}
+		create_subject = {
+			subject_type = appanage
+			subject = GUY
+		}
+		change_estate_land_share = {
+			estate = estate_nobles
+			share = -12.5
+		}
+		ai_chance = {
+			factor = 2
+		}
+	}
+	after = {
+		every_owned_province = {
+			clr_province_flag = bt_hyw_concession
+		}
+	}
+}
+
+# Event to let ENG know they lost all of france
+country_event = {
+	id = bt_harb_misc.7
+	title = bt_harb_misc.7.t
+	desc = bt_harb_misc.7.desc
+	picture = CONQUEST_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = bt_harb_misc.7.a
+		custom_tooltip = bt_harb_misc.7.a.tt
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+
+# province_event = {                         #Event to make colonial nations actually start colonies
+	# id = bt_harb_misc.4
+	# desc = bt_harb_misc.4.desc
+	# title = bt_harb_misc.4.t
+	# picture = CONQUEST_eventPicture
+	
+	# trigger = {
+		# is_capital = yes
+		# owner = {
+			# is_colonial_nation = yes
+			# num_of_colonists = 1
+			# current_income_balance = 2.5
+		# }
+		# owner = {
+			# variable_arithmetic_trigger = {
+				# export_to_variable = {
+					# variable_name = num_of_colonies
+					# value = trigger_value:num_of_colonies
+				# }
+				# export_to_variable = {
+					# variable_name = num_of_colonists
+					# value = trigger_value:num_of_colonists
+				# }
+				# check_variable = {
+					# which = num_of_colonies
+					# which = num_of_colonists
+				# }
+			# }
+			# #ai = yes 
+		# }
+		# owner = {
+			# any_owned_province = {
+				# #has_empty_adjacent_province = yes
+				# any_neighbor_province = { 
+					# colonial_region = ROOT
+					# is_empty = yes
+				# }
+			# }
+		# }
+	# }
+	
+	# option = {
+		# name = bt_harb_misc.4.opta
+		
+	# }
+# }

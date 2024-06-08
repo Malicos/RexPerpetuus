@@ -38,26 +38,20 @@ country_decisions = {
 			#owns_core_province = 596 #Melaka
 			#owns_core_province = 2673 #Pasai
 			owns_core_province = 2677 #Jambi
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					region = malaya_region
-				}
-				amount = 18			#At least 2/3 of Malaya's 29 provinces. One is uncolonised, but it shouldn't matter too much.
+			num_of_owned_provinces_with  = {
+				is_core = ROOT
+				region = malaya_region
+				value = 18			#At least 2/3 of Malaya's 29 provinces. One is uncolonised, but it shouldn't matter too much.
 			}
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					region = sumatran_region
-				}
-				amount = 20			#At least half of Sumatra's 39 provinces. Lower because 9 provinces start uncolonised.
+			num_of_owned_provinces_with  = {
+				is_core = ROOT
+				region = sumatran_region
+				value = 20			#At least half of Sumatra's 39 provinces. Lower because 9 provinces start uncolonised.
 			}
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					region = indonesia_region
-				}
-				amount = 14			#At least 2/3 of Java's 22 provinces. Will be fulfilled if you conquer West + Central Java, roughly their historical extent.
+			num_of_owned_provinces_with  = {
+				is_core = ROOT
+				region = indonesia_region
+				value = 14			#At least 2/3 of Java's 22 provinces. Will be fulfilled if you conquer West + Central Java, roughly their historical extent.
 			}
 			total_development = 500 #Normal requirement for rank 3 is 2000 dev, so this is 75 percent discounted
 			prestige = 50 #Normal requirement for rank 3 is 75 prestige, so this is 33 percent discounted

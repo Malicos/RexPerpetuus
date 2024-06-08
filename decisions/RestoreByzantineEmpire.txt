@@ -3,12 +3,23 @@ country_decisions = {
 	restore_byzantine_empire = {
 		major = yes
 		potential = {
-			was_never_end_game_tag_trigger = yes
+			OR = {
+				was_never_end_game_tag_trigger = yes
+				AND = {
+					was_tag = BYZ
+					tag = MOE
+					has_country_flag = BYZ_accepted_ottoman_threat
+				}
+			}
 			normal_or_historical_nations = yes
 			NOT = { has_country_flag = formed_byzantium_flag }
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { exists = BYZ }
 			NOT = { exists = GRE }
@@ -16,9 +27,10 @@ country_decisions = {
 			NOT = { tag = ROM }
 			NOT = { tag = TUR }
 			OR = {
-				#primary_culture = greek # BT removed
-				#primary_culture = pontic_greek # BT removed
-				culture_group = byzantine # BT
+				AND = {
+					culture_group = byzantine
+					NOT = { primary_culture = goths }
+				}
 				AND = {
 					has_idea = MFA_byzantine_claimants
 					dynasty = "Palaiologos"
@@ -104,6 +116,8 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = BYZ
+			on_change_tag_effect = yes
+			restore_country_name = yes
 			# BT removed below, because makes no sense?
 			#if = {
 			#	limit = {
@@ -113,13 +127,15 @@ country_decisions = {
 			#	add_accepted_culture = greek
 			#}
 			swap_non_generic_missions = yes
-			every_province = {
+			balkan_region = {
 				limit = {
-					OR = {
-						region = balkan_region
-						region = anatolia_region
-					}	#Removed the long and tedious list of various specific provinces in favour of a region and area based approach. For permanent claims, going for just the two regions for now
-					NOT = { is_core = BYZ }
+					NOT = { is_permanent_claim = BYZ }
+				}
+				add_permanent_claim = BYZ
+			}
+			anatolia_region = {
+				limit = {
+					NOT = { is_permanent_claim = BYZ }
 				}
 				add_permanent_claim = BYZ
 			}
@@ -159,7 +175,7 @@ country_decisions = {
 					add_base_tax = 2
 					add_base_production = 2
 					add_base_manpower = 1
-					rename_capital = Constantinople
+					#rename_capital = Constantinople
 					if = {
 						limit = { NOT = { culture = greek } }
 						change_culture = greek
@@ -173,12 +189,27 @@ country_decisions = {
 				show_ambient_object = hagia_sophia
 				hide_ambient_object = hagia_sophia_minarets
 			}
+			if = {
+				limit = { NOT = { government = monarchy } }
+				change_government = monarchy
+			}
+			if = {
+				limit = { has_not_locked_first_tier_reform = yes }
+				add_government_reform = byzantine_autocracy_reform
+			}
 			set_government_rank = 3
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			set_country_flag = formed_byzantium_flag
+			
+			if = {
+				limit = {
+					has_country_flag = BYZ_accepted_ottoman_threat
+				}
+				clr_country_flag = BYZ_accepted_ottoman_threat 
+			}
 		}
 		ai_will_do = {
 			factor = 1

@@ -118,8 +118,7 @@ country_decisions = {
 						ruler_has_personality = expansionist_personality
 						ruler_has_personality = conqueror_personality
 						ruler_has_personality = greedy_personality
-						any_province = {
-							region = ireland_region # Brian; changed from _area
+						ireland_region = {
 							NOT = { owned_by = ENG }
 							OR = {
 								is_claim = ROOT

@@ -6,3 +6,140 @@
 #Note I'm also standardising Ireland a bit, compared to other nations. The Irish favouritism was awesome and engaging, but I feel like it wasn't worth the
 #updating work, balance concerns, and irregularities for only a couple extra dev. Still keepin HR's Clan - Province - Kingdom chain though, obviously,
 #and most of the fun flavour.
+country_decisions = {
+	
+	irish_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_ireland_flag }
+			NOT = { tag = IRE }
+			NOT = { tag = SCO }
+			NOT = { tag = ANI }
+			NOT = { tag = TNA }
+			OR = {
+				primary_culture = irish
+				AND = {
+					culture_group = gaelic
+					any_owned_province = { region = ireland_region } # Brian; changed from _area
+				}
+			}
+			OR = {
+				tag = LEI
+				tag = ULS
+				tag = MNS
+				tag = CNN
+				num_of_owned_provinces_with = {
+					is_core = ROOT
+					region = ireland_region # Brian; changed from _area
+					value = 16			#over half of Ireland to see if not one of the four primary provincial kingdoms Mun 9 Lei 7 Con 6 Uls 8
+				}
+			}
+			#NOT = { has_reform = irish_clann_reform }			#Clans and Lordships need to create provincial kingdom
+			#NOT = { has_reform = norman_lordship_reform }			#Clans and Lordships need to create provincial kingdom
+		}
+		provinces_to_highlight = {
+			region = ireland_region # Brian; changed from _area
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = IRE }
+			hidden_trigger = { NOT = { exists = ANI } }			#Hidden because it shows up in UI as doubled Ireland
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 4120			# Kildare, stand in for Tara
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = ireland_region # Brian; changed from _area
+				value = 20			#requires roughly two thirds of Ireland to form, so ANI can be formed without the west or IRE can be formed without the Pale and the NE plantations
+			}
+			total_development = 150			#Normal requirement for rank 2 is 500 dev, so this is 70 percent discounted
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+		}
+		effect = {
+			#Mission completions - None at the moment
+			#Country formation effects
+			change_tag = IRE
+			on_change_tag_effect = yes
+			restore_country_name_effect = yes			
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			#Rank + prestige
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			#Nation claims + Mission claims
+			ireland_region = { # Brian; changed from _area
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = IRE
+			}
+			#Swap culture, government, government reform & ideas, plus set flag
+			if = { #Domination added their own version of tanistry/irish high kingship whatnot. Disabling BT's version until further notice. //Dub
+				limit = {
+					has_dlc = "Domination"
+				}
+				if = {
+					limit = {
+						has_reform = tanistry_reform
+					}
+					hidden_effect = {
+						unlock_government_reform = {
+							government_reform = irish_highkingdom_reform
+						}
+					}
+					add_government_reform = irish_highkingdom_reform
+				}
+				# else = {
+					# unlock_government_reform = {
+						# government_reform = irish_highkingdom_reform
+					# }
+				# }
+				else = { #This is for non-DLC-players essentially. Years back, this was created, and it still stands. Good on ya, HR/Draiocht. //Dub
+					remove_government_reform = irish_clann_reform
+					add_government_reform = bt_tanistry_reform
+					hidden_effect = { country_event = { id = BeyondTypusCelticFlavour.1 days = 1 } }			#Fires new BT Tanistry succession
+					custom_tooltip = tooltip_bt_starts_tanistry_succession
+				}
+			}
+			else = { #This is for non-DLC-players essentially. Years back, this was created, and it still stands. Good on ya, HR/Draiocht. //Dub
+				remove_government_reform = irish_clann_reform
+				add_government_reform = bt_tanistry_reform
+				hidden_effect = { country_event = { id = BeyondTypusCelticFlavour.1 days = 1 } }			#Fires new BT Tanistry succession
+				custom_tooltip = tooltip_bt_starts_tanistry_succession
+			}
+			if = { #Add England as a historical rival if relations are negative (and not already rivals or friends)
+				limit = {
+					exists = ENG
+					NOT = { historical_friend_with = ENG }
+					NOT = { historical_rival_with = ENG }
+					NOT = { has_opinion = { who = ENG value = 0 } }
+				}
+				add_historical_rival = ENG
+			}			
+			if = {
+				limit = {
+					NOT = { has_idea_group = irish_ideas }
+				}
+				swap_ideas = yes
+			}
+			set_country_flag = formed_ireland_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

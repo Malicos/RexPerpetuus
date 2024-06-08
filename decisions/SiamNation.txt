@@ -33,15 +33,14 @@ country_decisions = {
 			owns_core_province = 593 #Si Thammarat
 			owns_core_province = 614 #Viangchan
 			owns_core_province = 609 #Angkor
-			calc_true_if = { #Same as Khmer except it uses a different Tenasserim.
-				all_owned_province = {
-					is_core = ROOT
-					OR = {
-						region = indo_china_region
-						area = tenasserim_area
-					}
+			#Same as Khmer except it uses a different Tenasserim.
+			num_of_owned_provinces_with  = {
+				is_core = ROOT
+				OR = {
+					region = indo_china_region
+					area = tenasserim_area
 				}
-				amount = 52			#At least half of Indochina's 97 provinces & North Tenasserim's 7 provinces. Out of these, 79 provinces were historically under Siam influence.
+				value = 52			#At least half of Indochina's 97 provinces & North Tenasserim's 7 provinces. Out of these, 79 provinces were historically under Siam influence.
 			}
 			total_development = 400 #Normal requirement for rank 2 is 500 dev, so this is 20 percent discounted
 			prestige = 25 #Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
