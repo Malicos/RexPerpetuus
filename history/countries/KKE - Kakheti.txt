@@ -1,0 +1,26 @@
+#KKE - Kakheti
+
+#Political Situation
+capital = 2203
+
+#Government
+government_rank = 2
+government = monarchy
+add_government_reform = autocracy_reform
+
+#Demographics
+primary_culture = georgian
+religion = orthodox
+
+#Tech and Military
+technology_group = eastern
+
+1433.1.1 = {
+	monarch = {
+		name = "Giorgi VII"
+		dynasty = "Bagrationi"
+		adm = 0
+		dip = 0
+		mil = 3
+	}
+}

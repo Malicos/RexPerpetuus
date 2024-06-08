@@ -1,0 +1,20 @@
+#IFT - Ifat
+
+#Political Situation
+capital = 1212
+
+#Government
+government_rank = 2
+government = monarchy
+add_government_reform = iqta
+
+#Demographics
+primary_culture = argobba
+religion = sunni
+religious_school = shafii_school
+add_accepted_culture = afar
+add_accepted_culture = harari
+add_accepted_culture = dir
+
+#Tech and Military
+technology_group = east_african

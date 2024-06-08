@@ -1,0 +1,17 @@
+#SVA - Svanetia
+
+#Political Situation
+capital = 7298
+fixed_capital = 7298 #Cannot move capital away from this province & no power cost to move to it
+
+#Government
+government_rank = 1
+government = monarchy
+add_government_reform = autocracy_reform
+
+#Demographics
+primary_culture = georgian
+religion = orthodox
+
+#Tech and Military
+technology_group = eastern

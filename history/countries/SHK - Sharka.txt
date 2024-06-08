@@ -1,0 +1,18 @@
+#SHK - Sharka
+
+#Political Situation
+capital = 8813
+fixed_capital = 8813 #Cannot move capital away from this province & no power cost to move to it
+
+#Government
+government_rank = 1
+government = monarchy
+add_government_reform = iqta
+
+#Demographics
+primary_culture = argobba
+religion = sunni
+religious_school = shafii_school
+
+#Tech and Military
+technology_group = east_african

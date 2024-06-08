@@ -1,0 +1,17 @@
+#BLE - Bale
+
+#Political Situation
+capital = 8810
+
+#Government
+government_rank = 2
+government = monarchy
+add_government_reform = iqta
+
+#Demographics
+primary_culture = sidamo
+religion = sunni
+religious_school = shafii_school
+
+#Tech and Military
+technology_group = east_african
