@@ -409,7 +409,8 @@ estate_nobles =
 		estate_nobles_extremely_strong_duchies
 		estate_nobles_british_strong_marches
 		estate_nobles_border_forts
-		#End of BT-specific privileges
+		#RP_specific_privileges
+		estate_nobles_CDB_stationary_army
 	}
 
 	agendas = {

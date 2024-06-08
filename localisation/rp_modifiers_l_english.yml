@@ -39,6 +39,13 @@
  ravens_debuff_09:0 "Diminishing support"
  ravens_debuff_10:0 "Diminishing support"
 
+#SHARQI STUFF
+ unstoppable_jihad:0 "Unstoppable Jihad"
+ envigorated_by_faith:0 "Envigorated by Faith"
+ mystic_strength:0 "Mystic Strength"
+ mystic_morale:0 "Mystic Morale"
+ mystic_defense:0 "Mystic Defense"
+
 #CELTIC BONUSES
  celtic_vendeta:0 "Celtic Vendeta"
  prepare_for_britain:0 "Prepare for Britain"

@@ -207,7 +207,7 @@ indian_sultanate_reform = {
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		government_abilities = {
-			iqta_mechanic
+			# iqta_mechanic
 		}
 	}
 }
@@ -541,7 +541,7 @@ iqta = {
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		government_abilities = {
-			iqta_mechanic
+			# iqta_mechanic
 		}
 	}
 }

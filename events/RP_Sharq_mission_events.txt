@@ -21,14 +21,14 @@ country_event = {
         }
     }
     option = {
-		name = sharqmissions.1.a
+		name = sharqmissions.1.b
         add_country_modifier = {
             name = mystic_morale
             duration = -1
         }
     }
     option = {
-		name = sharqmissions.1.a
+		name = sharqmissions.1.c
         add_country_modifier = {
             name = mystic_defense
             duration = -1

@@ -81,7 +81,15 @@
  waroftheravens.4.b:0 "We are doomed!"
 
  sharq.1.t:0 "Fighting Spirit"
+ sharq.1.d:0 ""
  sharq.1.a:0 "May Allah show mercy to them, for we will not!"
 
  sharq.2.t:0 "Faith Envigorates Us"
+ sharq.2.d:0 ""
  sharq.2.a:0 "Mashallah"
+
+ sharqmissions.1.t:0 "Embracing Mysticism"
+ sharqmissions.1.d:0 ""
+ sharqmissions.1.a:0 "May our passionate love for God spread onto the Kafirun."
+ sharqmissions.1.b:0 "May our soldiers sing the praise of God on the battlefield."
+ sharqmissions.1.c:0 "May the houses of prayer be our strongholds."
