@@ -1,0 +1,92 @@
+country_decisions = {
+###################################################################################################
+################################		Cordoba privileges		 ##############################
+###################################################################################################
+	CDB_decision_revoke_nobles = {
+		major = yes
+		potential = {
+			has_estate_privilege = estate_nobles_CDB_stationary_army
+		}
+		provinces_to_highlight = {
+
+		}
+		allow = {
+			artillery_fraction = 0.3
+			OR = {
+				mil = 4
+				mil_power = 300
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = { mil = 4 }
+				}
+				add_mil_power = -300
+			}
+			remove_estate_privilege = estate_nobles_CDB_stationary_army
+			set_country_flag = CDB_noble_revoke
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 100
+	}
+
+	CDB_decision_revoke_burghers = {
+		major = yes
+		potential = {
+			has_estate_privilege = estate_burghers_CDB_peacetime_trade
+		}
+		provinces_to_highlight = {
+
+		}
+		allow = {
+			NOT = { num_of_loans = 1 }
+			stability = 3
+			any_country = {
+				NOT = { religion_group = muslim }
+				is_in_war = {
+					attacker_leader = ROOT
+				}
+			}
+		}
+		effect = {
+			remove_estate_privilege = estate_burghers_CDB_peacetime_trade
+			set_country_flag = CDB_burgher_revoke
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 100
+	}
+
+	CDB_decision_revoke_dhimmi = {
+		major = yes
+		potential = {
+			has_estate_privilege = estate_dhimmi_CDB_religious_ceasefire
+		}
+		provinces_to_highlight = {  }
+		allow = {
+			at_war_with_religious_enemy = yes
+			num_of_owned_provinces_with = {
+				value = 10
+				NOT = { controlled_by = ROOT }
+			}
+			NOT = {
+				estate_loyalty = {
+					estate = estate_dhimmi
+					loyalty = 30
+				}
+			}
+		}
+		effect = {
+			remove_estate_privilege = estate_dhimmi_CDB_religious_ceasefire
+			set_country_flag = CDB_dhimmi_revoke
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 100
+	}
+}
