@@ -10,6 +10,9 @@ capital = 225 # Cordoba
 set_estate_privilege = estate_nobles_CDB_stationary_army
 set_estate_privilege = estate_burghers_CDB_peacetime_trade
 set_estate_privilege = estate_dhimmi_CDB_religious_ceasefire
+set_estate_privilege = estate_burghers_indebted_to_burghers
+
+add_treasury = -646
 
 1415.12.20 = {
 	monarch = {
