@@ -3,8 +3,8 @@ estate_nobles_CDB_stationary_army = {
 	max_absolutism = 0
 	loyalty = 0
 	influence  = 0
- 	is_valid = { tag = CDB }
- 	can_select = { tag = CDB }
+ 	is_valid = { has_estate_privilege = estate_nobles_CDB_stationary_army }
+ 	can_select = { has_estate_privilege = estate_nobles_CDB_stationary_army }
  	on_granted = {  }
  	can_revoke = { has_country_flag = CDB_noble_revoke }
  	on_revoked = {  }
@@ -28,8 +28,8 @@ estate_burghers_CDB_peacetime_trade = {
 	max_absolutism = 0
 	loyalty = 0.05
 	influence  = 0.1
- 	is_valid = { tag = CDB }
- 	can_select = { tag = CDB }
+ 	is_valid = { has_estate_privilege = estate_burghers_CDB_peacetime_trade }
+ 	can_select = { has_estate_privilege = estate_burghers_CDB_peacetime_trade }
  	on_granted = {  }
  	can_revoke = { has_country_flag = CDB_burgher_revoke }
  	on_revoked = {  }
@@ -52,8 +52,8 @@ estate_dhimmi_CDB_religious_ceasefire = {
 	max_absolutism = -10
 	loyalty = 0.1
 	influence  = 0.2
- 	is_valid = { tag = CDB }
- 	can_select = { tag = CDB }
+ 	is_valid = { has_estate_privilege = estate_dhimmi_CDB_religious_ceasefire }
+ 	can_select = { has_estate_privilege = estate_dhimmi_CDB_religious_ceasefire }
  	on_granted = {  }
  	can_revoke = { has_country_flag = CDB_dhimmi_revoke }
  	on_revoked = {  }
