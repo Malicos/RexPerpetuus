@@ -1,0 +1,1505 @@
+# Dev points customisable localisation by Harbivore 
+# All of the dev points GUI text boxes are made by hand to show all of the modifiers that are affecting dev point generation
+# This means whenever we add a new modifier that will change dev point generation (like adding dev points to a new building) we need to add it in here
+
+ # !!!!!!! YOU SHOULD NOT BE EDITING THIS FILE !!!!!!!
+ # You should probably be in the file called 01_dev_points_additional_modifiers.txt
+
+###############################################################
+# Local generated dev point modifiers (Mostly from buildings) #
+###############################################################
+
+defined_text = {	#Has constabulary family buildings
+    name = DevPointsProvinceHasTaxBuilding
+    text = {
+        localisation_key = dev_points_province_base_has_constabulary 
+        trigger = {
+            has_building = constable
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_treasury_office 
+        trigger = {
+            has_building = treasury_office
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has workshop family buildings
+    name = DevPointsProvinceHasProductionBuilding
+    text = {
+        localisation_key = dev_points_province_base_has_workshop
+        trigger = {
+            has_building = workshop
+        }
+    }
+	text = {
+        localisation_key = dev_points_province_base_has_counting_house
+        trigger = {
+            has_building = counting_house
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has post office family buildings
+    name = DevPointsProvinceHasPostOffice
+    text = {
+        localisation_key = dev_points_province_base_has_post_office
+        trigger = {
+            has_building = post_office
+        }
+    }
+	text = {
+        localisation_key = dev_points_province_base_has_customs_house
+        trigger = {
+            has_building = customs_house
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has marketplace family buildings
+    name = DevPointsProvinceHasTradeBuilding
+    text = {
+        localisation_key = dev_points_province_base_has_marketplace
+        trigger = {
+            has_building = marketplace
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_trade_depot
+        trigger = {
+            has_building = trade_depot
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_stock_exchange
+        trigger = {
+            has_building = stock_exchange
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has shipyard family buildings (In code naval_arsenal building family, BT changed the role of these but kept the code name the same)
+    name = DevPointsProvinceHasShipyardBuilding
+    text = {
+        localisation_key = dev_points_province_base_has_shipyard
+        trigger = {
+            has_building = naval_arsenal
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_grand_shipyard
+        trigger = {
+            has_building = naval_base
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+		}
+    }
+}
+
+defined_text = {	#Has college family buildings
+    name = DevPointsProvinceHasUniversity
+    text = {
+        localisation_key = dev_points_province_base_has_college
+        trigger = {
+            has_building = college
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_university
+        trigger = {
+            has_building = university
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has granary family buildings
+    name = DevPointsProvinceHasGranary
+    text = {
+        localisation_key = dev_points_province_base_has_granary
+        trigger = {
+            has_building = grain_depot
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has tax assessor family buildings
+    name = DevPointsProvinceHasTaxAssessor
+    text = {
+        localisation_key = dev_points_province_base_has_tax_assessor
+        trigger = {
+            has_building = tax_assessor
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has production manufactory family buildings
+    name = DevPointsProvinceHasProductionManufactory
+    text = {
+        localisation_key = dev_points_province_base_has_furnace
+        trigger = {
+            has_building = furnace
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_farm_estate
+        trigger = {
+            has_building = farm_estate
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_naval_equipment_m
+        trigger = {
+            has_building = wharf
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_textile_m
+        trigger = {
+            has_building = textile
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_weapons_m
+        trigger = {
+            has_building = weapons
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_plantation
+        trigger = {
+            has_building = plantations
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_trade_station
+        trigger = {
+            has_building = tradecompany
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_mill
+        trigger = {
+            has_building = mills
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_base_has_mint
+        trigger = {
+            has_building = mint
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has state house family buildings
+    name = DevPointsProvinceHasStateHouse
+    text = {
+        localisation_key = dev_points_province_base_has_state_house
+        trigger = {
+            has_building = state_house
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Is a new world provinces
+    name = DevPointsProvinceIsInNewWorld
+    text = {
+        localisation_key = dev_points_province_base_is_in_the_new_world
+        trigger = {
+			is_in_any_colonial_region = yes
+			owner = { 
+				is_tribal = no
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+###############################################################
+#                      Province Modifiers                     #
+###############################################################
+
+
+defined_text = {	#Has any province modifers at all (This removes an empty space left if there are no modifiers)
+    name = DevPointsProvinceHasModifiers
+    text = {
+        localisation_key = dev_points_province_modifier_has_modifiers
+        trigger = {
+			OR = {
+				province_has_center_of_trade_of_level = 1
+				area_for_scope_province = {
+					is_capital_of = ROOT
+				}
+				is_prosperous = yes
+				has_state_edict = edict_encourage_development 
+				num_of_times_expanded_infrastructure = 1
+				AND = {
+					ROOT = {
+						has_idea = regulation_bureau
+					}
+					num_of_buildings_in_province = 6
+				}
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has a centre of trade
+    name = DevPointsProvinceHasCoT
+    text = {
+        localisation_key = dev_points_province_modifier_has_coastal_CoT3
+        trigger = {
+			province_has_center_of_trade_of_level = 3
+			has_port = yes
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_modifier_has_CoT3
+        trigger = {
+			province_has_center_of_trade_of_level = 3
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_modifier_has_coastal_CoT2
+        trigger = {
+			province_has_center_of_trade_of_level = 2
+			has_port = yes
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_modifier_has_CoT2
+        trigger = {
+			province_has_center_of_trade_of_level = 2
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_modifier_has_coastal_CoT1
+        trigger = {
+				province_has_center_of_trade_of_level = 1
+				has_port = yes
+        }
+    }
+    text = {
+        localisation_key = dev_points_province_modifier_has_CoT1
+        trigger = {
+				province_has_center_of_trade_of_level = 1
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Is in the capital state
+    name = DevPointsProvinceIsInCapitalState
+    text = {
+        localisation_key = dev_points_province_modifier_part_of_capital_state 
+        trigger = {
+			area_for_scope_province = {
+				is_capital_of = ROOT
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has edict - encourage development 
+    name = DevPointsProvinceHasEdictOfDevelpment
+    text = {
+        localisation_key = dev_points_province_modifier_has_edict_of_development 
+        trigger = {
+			has_state_edict = edict_encourage_development 
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Is propserous
+    name = DevPointsProvinceIsProsperous
+    text = {
+        localisation_key = dev_points_province_modifier_is_prosperous 
+        trigger = {
+			is_prosperous = yes
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has infrastructure ideas complete and 8 buildings built
+    name = DevPointsProvinceInfrastructureIdeasAndBigDevPoints
+    text = {
+        localisation_key = dev_points_province_modifier_intrastructure_ideas_and_dev_points 
+        trigger = {
+			AND = {
+				ROOT = {
+					has_idea = regulation_bureau
+				}
+				num_of_buildings_in_province = 8
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has expanded infrastructure here
+    name = DevPointsProvinceInfrastructureLevel
+    text = {
+        localisation_key = dev_points_province_modifier_infrastructure_level 
+        trigger = {
+			num_of_times_expanded_infrastructure = 1
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Is occupied
+    name = DevPointsProvinceOccupation
+    text = {
+        localisation_key = dev_points_province_modifier_occupation 
+        trigger = {
+			NOT = {
+				controlled_by = owner
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Is under seige
+    name = DevPointsProvinceUnderSeige
+    text = {
+        localisation_key = dev_points_province_modifier_under_siege 
+        trigger = {
+			has_siege = yes
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Is a horde
+    name = DevPointsProvinceHorde
+    text = {
+        localisation_key = dev_points_province_modifier_horde 
+        trigger = {
+			ROOT = {
+				has_reform = steppe_horde
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+
+defined_text = {	#Is a horde (Mongol Empire)
+    name = DevPointsProvinceMongolEmpire
+    text = {
+        localisation_key = dev_points_province_modifier_mongol_empire 
+        trigger = {
+			ROOT = {
+				has_reform = great_mongol_state_reform
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+
+defined_text = {	#Has devastation
+    name = DevPointsProvinceDevastation
+    text = {
+        localisation_key = dev_points_province_modifier_devastation 
+        trigger = {
+			devastation = 0.1
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has autonomy
+    name = DevPointsProvinceAutonomy
+    text = {
+        localisation_key = dev_points_province_modifier_has_autonomy 
+        trigger = {
+			local_autonomy = 0.1
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+###################################################################
+#                          From Subjects                          #
+###################################################################
+
+
+
+defined_text = {	#Has subjects
+    name = DevPointsFromSubjects
+    text = {
+        localisation_key = dev_points_country_from_subjects 
+        trigger = {
+			FROM = {
+				num_of_subjects = 1
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+
+##################################################################
+#                       National Modifiers                       #
+##################################################################
+
+
+defined_text = {	#Has any nationwide modifers at all (This removes an empty space left if there are no modifiers)
+    name = DevPointsCountryHasModifiers
+    text = {
+        localisation_key = dev_points_country_modifier_has_modifiers 
+        trigger = {
+			FROM = {
+			OR = {
+				is_at_war = yes
+				overextension_percentage = 0.01
+				AND = {
+					is_colonial_nation = no
+					NOT = {
+						is_subject_of_type = tributary_state
+					}
+					is_subject = yes
+				}
+				AND = {
+					is_subject = no
+					is_former_colonial_nation = yes 
+				}
+				corruption = 0.1
+				war_exhaustion = 0.1
+				overextension_percentage = 0.01
+				estate_loyalty = {
+					estate = all
+					loyalty = 60
+				}
+				NOT = {
+					estate_loyalty = {
+						estate = all
+						loyalty = 30
+					}
+				}
+			}
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Is at war
+    name = DevPointsCountryAtWar
+    text = {
+        localisation_key = dev_points_country_modifier_war 
+        trigger = {
+			FROM = {
+				is_at_war = yes
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Has over 90% manpower
+    name = DevPointsCountryHighManpower
+    text = {
+        localisation_key = dev_points_country_modifier_manpower 
+        trigger = {
+			FROM = {
+				manpower_percentage = 0.90
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Is a non colonial subject
+    name = DevPointsCountryNonColonialSubject
+    text = {
+        localisation_key = dev_points_country_modifier_is_non_colonial_full_subject 
+        trigger = {
+			FROM = {
+				is_colonial_nation = no
+			NOT = {
+				is_subject_of_type = tributary_state
+			}
+			is_subject = yes 
+			}			
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Is an ex colonial nation
+    name = DevPointsCountryFreeColony
+    text = {
+        localisation_key = dev_points_country_modifier_independent_colony 
+        trigger = {
+			FROM = {
+				is_subject = no
+				is_former_colonial_nation = yes 
+        }
+		}
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Has economic ideas completed
+    name = DevPointsCountryEconomicIdeas
+    text = {
+        localisation_key = dev_points_country_modifier_has_economic_ideas 
+        trigger = {
+			FROM = {
+				has_idea = smithian_economics
+			}
+		}
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Has monthly dev points button toggled on
+    name = DevPointsCountryMonthlyDevPointsButton
+    text = {
+        localisation_key = dev_points_country_modifier_has_monthly_dev_points_button 
+        trigger = {
+			FROM = {
+				has_country_modifier = monthly_dev_points_button_mod
+			}
+		}
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Has corruption
+    name = DevPointsCountryHasCorruption
+    text = {
+        localisation_key = dev_points_country_modifier_corruption 
+        trigger = {
+			FROM = {
+				corruption = 0.1
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Has war exhaustion
+    name = DevPointsCountryHasWarExhaustion
+    text = {
+        localisation_key = dev_points_country_modifier_war_exhaustion 
+        trigger = {
+			FROM = {
+				war_exhaustion = 0.1
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Has overextension
+    name = DevPointsCountryHasOverextension
+    text = {
+        localisation_key = dev_points_country_modifier_overextension 
+        trigger = {
+			FROM = {
+				overextension_percentage = 0.01
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Nation's stability
+    name = DevPointsCountryStabilty
+    text = {
+        localisation_key = dev_points_country_modifier_positive_3stability 
+        trigger = {
+			FROM = {
+			stability = 3
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_positive_2stability 
+        trigger = {
+			FROM = {
+			stability = 2
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_positive_1stability 
+        trigger = {
+			FROM = {
+			stability = 1
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+			FROM = {
+			stability = 0
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_negative_1stability 
+        trigger = {
+			FROM = {
+			stability = -1
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_negative_2stability 
+        trigger = {
+			FROM = {
+			stability = -2
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_negative_3stability 
+        trigger = {
+			FROM = {
+			stability = -3
+			}
+        }
+    }
+}
+
+
+defined_text = {	#Is bankrupt
+    name = DevPointsCountryIsBankrupt
+    text = {
+        localisation_key = dev_points_country_modifier_bankrupt 
+        trigger = {
+			FROM = {
+				is_bankrupt = yes
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+defined_text = {	#Is over governing capacity
+    name = DevPointsCountryIsOverGCap
+    text = {
+        localisation_key = dev_points_country_modifier_over_gcap 
+        trigger = {
+			FROM = {
+				governing_capacity_percentage = 1
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+################################
+#    Loyal/disloyal estates    #
+################################
+
+defined_text = {
+    name = DevPointsCountryBurghers
+    text = {
+		localisation_key = dev_points_country_modifier_burghers_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_burghers
+				loyalty = 60
+			}
+			has_estate = estate_burghers
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_burghers_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 30
+				}
+			}
+			has_estate = estate_burghers
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryNobles
+    text = {
+        localisation_key = dev_points_country_modifier_nobles_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 60
+			}
+			has_estate = estate_nobles
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_nobles_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 30
+				}
+			}
+			has_estate = estate_nobles
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryChurch
+    text = {
+        localisation_key = dev_points_country_modifier_church_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_church 
+				loyalty = 60
+			}
+			has_estate = estate_church
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_church_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_church 
+					loyalty = 30
+				}
+			}
+			has_estate = estate_church
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryBrahmins
+    text = {
+        localisation_key = dev_points_country_modifier_brahmins_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_brahmins
+				loyalty = 60
+			}
+			has_estate = estate_brahmins
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_brahmins_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_brahmins
+					loyalty = 30
+				}
+			}
+			has_estate = estate_brahmins
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryRajput
+    text = {
+        localisation_key = dev_points_country_modifier_rajput_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_rajput
+				loyalty = 60
+			}
+			has_estate = estate_rajput
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_rajput_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_rajput
+					loyalty = 30
+				}
+			}
+			has_estate = estate_rajput
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryDhimmi
+    text = {
+        localisation_key = dev_points_country_modifier_dhimmi_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_dhimmi
+				loyalty = 60
+			}
+			has_estate = estate_dhimmi
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_dhimmi_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_dhimmi
+					loyalty = 30
+				}
+			}
+			has_estate = estate_dhimmi
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryJains
+    text = {
+        localisation_key = dev_points_country_modifier_jains_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_jains
+				loyalty = 60
+			}
+			has_estate = estate_jains
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_jains_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_jains
+					loyalty = 30
+				}
+			}
+			has_estate = estate_jains
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryVaisyas
+    text = {
+        localisation_key = dev_points_country_modifier_vaisyas_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_vaisyas
+				loyalty = 60
+			}
+			has_estate = estate_vaisyas
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_vaisyas_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_vaisyas
+					loyalty = 30
+				}
+			}
+			has_estate = estate_vaisyas
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryTribes
+    text = {
+        localisation_key = dev_points_country_modifier_nomadic_tribes_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_nomadic_tribes
+				loyalty = 60
+			}
+			has_estate = estate_nomadic_tribes
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_nomadic_tribes_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nomadic_tribes
+					loyalty = 30
+				}
+			}
+			has_estate = estate_nomadic_tribes
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {	
+    name = DevPointsCountryMaratha
+    text = {
+        localisation_key = dev_points_country_modifier_maratha_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_maratha
+				loyalty = 60
+			}
+			has_estate = estate_maratha
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_maratha_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_maratha
+					loyalty = 30
+				}
+			}
+			has_estate = estate_maratha
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryCossacks
+    text = {
+        localisation_key = dev_points_country_modifier_cossacks_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_cossacks  
+				loyalty = 60
+			}
+			has_estate = estate_cossacks
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_cossacks_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_cossacks 
+					loyalty = 30
+				}
+			}
+			has_estate = estate_cossacks
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryJanissaries
+    text = {
+        localisation_key = dev_points_country_modifier_janissaries_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_janissaries 
+				loyalty = 60
+			}
+			has_estate = estate_janissaries
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_janissaries_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_janissaries 
+					loyalty = 30
+				}
+			}
+			has_estate = estate_janissaries
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryEunuchs
+    text = {
+        localisation_key = dev_points_country_modifier_eunuchs_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_eunuchs 
+				loyalty = 60
+			}
+			has_estate = estate_eunuchs
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_eunuchs_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_eunuchs 
+					loyalty = 30
+				}
+			}
+			has_estate = estate_eunuchs
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryQizilbash
+    text = {
+        localisation_key = dev_points_country_modifier_qizilbash_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_qizilbash 
+				loyalty = 60
+			}
+			has_estate = estate_qizilbash
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_qizilbash_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_qizilbash 
+					loyalty = 30
+				}
+			}
+			has_estate = estate_qizilbash
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+defined_text = {
+    name = DevPointsCountryGhulams
+    text = {
+        localisation_key = dev_points_country_modifier_ghulams_loyal 
+        trigger = {
+			FROM = {
+			estate_loyalty = {
+				estate = estate_ghulams 
+				loyalty = 60
+			}
+			has_estate = estate_ghulams
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_country_modifier_ghulams_disloyal 
+        trigger = {
+			FROM = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_ghulams 
+					loyalty = 30
+				}
+			}
+			has_estate = estate_ghulams
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+######################################################
+#                   Max Dev Points                   #
+######################################################
+
+defined_text = {	#Has infrastructure ideas 
+    name = MaxDevPointsInfrastructureIdeas
+    text = {
+        localisation_key = max_dev_points_country_infrastructure_idea 
+        trigger = {
+			FROM = {
+				has_idea = efficient_construction_plans 
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Government rank
+    name = MaxDevPointsGovRank
+    text = {
+        localisation_key = max_dev_points_country_modifier_empire 
+        trigger = {
+			FROM = {
+				government_rank = 3
+			}
+        }
+    }
+    text = {
+        localisation_key = max_dev_points_country_modifier_kingdom 
+        trigger = {
+			FROM = {
+				government_rank = 2 
+			}
+        }
+    }
+    text = {
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+######################################################
+#           Injecting Additional Modifiers           #
+######################################################
+
+defined_text = {	#Government rank
+    name = DevPointsProvinceBaseAdditionalModifiers
+    text = {
+        localisation_key = dev_points_province_base_additional_modifiers 
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {	#Government rank
+    name = DevPointsProvinceModifierAdditionalModifiers
+    text = {
+        localisation_key = dev_points_province_modifier_additional_modifiers 
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {	#Government rank
+    name = DevPointsCountryBaseAdditionalModifiers
+    text = {
+        localisation_key = dev_points_country_base_additional_modifiers 
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {	#Government rank
+    name = DevPointsCountryModifierAdditionalModifiers
+    text = {
+        localisation_key = dev_points_country_modifier_additional_modifiers 
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {	#Government rank
+    name = MaxDevPointsBaseAdditionalModifiers
+    text = {
+        localisation_key = max_dev_points_country_base_additional_modifiers 
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+defined_text = {	#Government rank
+    name = MaxDevPointsModifierAdditionalModifiers
+    text = {
+        localisation_key = max_dev_points_country_modifier_additional_modifiers 
+        trigger = {
+			always = yes
+        }
+    }
+}
+
+
+
+
+
+
+

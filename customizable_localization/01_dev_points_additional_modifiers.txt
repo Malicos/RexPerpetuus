@@ -1,0 +1,143 @@
+# Dev points customisable localisation by Harbivore 
+# All of the dev points GUI text boxes are made by hand to show all of the modifiers that are affecting dev point generation
+# This means whenever we add a new modifier that will change dev point generation (like adding dev points to a new building) we need to add it in here
+
+# Follow the templates for modifiers and remember to add them to dev_points_additional_modifiers_l_english.yml as well or they won't work
+
+###############################################################
+# Local generated dev point modifiers (Mostly from buildings) #
+###############################################################
+
+# defined_text = {	#Has/Is 'x thing'
+    # name = DevPointsProvince#'x thing'
+    # text = {
+        # localisation_key = dev_points_province_base#'x thing'
+        # trigger = {
+			# #Trigger goes here. Should not have FROM here
+        # }
+    # }
+    # text = {	#Leave this the same
+        # localisation_key = dev_points_empty_string
+        # trigger = {
+        # }
+    # }
+# }
+
+defined_text = {	#Has 'Engish Loyalist Immigrants' Event Modifier
+    name = DevPointsProvinceBtEnglishLoyalistImmigrants
+    text = {
+        localisation_key = dev_points_province_base_bt_english_loyalist_immigrants
+        trigger = {
+			has_province_modifier = bt_english_loyalist_immigrants
+        }
+    }
+    text = {	#Leave this the same
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+defined_text = {	#Has/Is 'Bulgarian Macedonia' Event Modifier
+    name = DevPointsProvinceBulBulgarianMacedoniaMod
+    text = {
+        localisation_key = dev_points_province_base_bul_bulgarian_macedonia_mod
+        trigger = {
+			has_province_modifier = bul_bulgarian_macedonia_mod
+        }
+    }
+    text = {	#Leave this the same
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+
+###############################################################
+#                      Province Modifiers                     #
+###############################################################
+
+# # Example customisable LOC
+# defined_text = {	#Has/Is 'x thing'
+    # name = DevPointsProvince#'x thing'
+    # text = {
+        # localisation_key = dev_points_province_modifier_#'x thing'
+        # trigger = {
+			# #Use FROM here if wanting to scope to owner of the province
+			# #Trigger goes here 
+        # }
+    # }
+    # text = {	#Leave this the same
+        # localisation_key = dev_points_empty_string
+        # trigger = {
+        # }
+    # }
+# }
+
+
+defined_text = {	#Has 'dutch polders' monument modifier
+    name = DevPointsProvinceDutchPolders
+    text = {
+        localisation_key = dev_points_province_modifier_dutch_polders
+        trigger = {
+			always = no #Needs figuring out
+        }
+    }
+    text = {	#Leave this the same
+        localisation_key = dev_points_empty_string
+        trigger = {
+        }
+    }
+}
+
+##################################################################
+#                       National Modifiers                       #
+##################################################################
+
+# # Example customisable LOC
+# defined_text = {	#Has/Is 'x thing'
+    # name = DevPointsCountry#'x thing'
+    # text = {
+        # localisation_key = dev_points_country_modifier#'x thing' 
+        # trigger = {
+			# FROM = {	#Needed because this is visible in province
+				# #Trigger goes here 
+			# }
+        # }
+    # }
+    # text = {	#Leave this the same
+        # localisation_key = dev_points_empty_string
+        # trigger = {
+        # }
+    # }
+# }
+
+######################################################
+#                   Max Dev Points                   #
+######################################################
+
+# # Example customisable LOC
+# defined_text = {	#Has/Is 'x thing'
+    # name = MaxDevPoints#'x thing'
+    # text = {
+        # localisation_key = max_dev_points_country_base#'x thing'
+        # trigger = {
+			# FROM = {	#Needed because this is visible in province
+				# #Trigger goes here 
+			# }
+        # }
+    # }
+    # text = {	#Leave this the same
+        # localisation_key = dev_points_empty_string
+        # trigger = {
+        # }
+    # }
+# }
+
+
+
+
+
+
+
