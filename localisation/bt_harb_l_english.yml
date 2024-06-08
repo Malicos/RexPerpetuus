@@ -1,0 +1,98 @@
+﻿l_english:
+#DEV NOTE: Some of these strings don't follow proper syntax, containing capital letters in strings. //Dub
+#Events
+
+ bt_silk_events.1.title: "Murcian Silk production"
+ bt_silk_events.1.desc: "After the Reconquista and the fall of Andalusi control in Murcia, silk production was disrupted to the point that the region was almost exclusively producting raw silk and no refined fabrics. Even this silk production, was only done on a small scale and produced low quality raw silk. Around the end of the 1400s there was an increase in production and a true industry creating raw silk was made. This was the result of a change in how the spinners were paid and also the introduction of the white mulberry tree to the region. Finally, there was an ordinance introduced which helped to organise the silk industry."
+ bt_silk_events.1.opta: "Only raw silk?"
+
+ bt_silk_events.2.title: "Bologna Silk Mills"
+ bt_silk_events.2.desc: "Around the mid 15th Century Bologna was the first place to use hydraulic silk mills to refine the silk into threads. Also, thanks to an extensive network of underground waterways, they were the place they became the most persuasive and they built a great many hydraulic silk mills. They continued to improve apon these designs and eventually developed a fully mechanised silk mill. This allowed them to create high quality silk with very little intervention from the workers. The design and working of the hydraulic silk mill was a closely guarded secret and there was at least two artisans that were put to death as a result of being suspected of having leaked it's secrets."
+ bt_silk_events.2.opta: "Truely ingenious"
+
+ bt_silk_events.3.title: "Venetian Silk Mills"
+ bt_silk_events.3.desc: "Around the mid 15th Century Bologna was the first place to use hydraulic silk mills to refine the silk into threads. Also, thanks to an extensive network of underground waterways, they were the place they became the most persuasive and they built a great many hydraulic silk mills. They continued to improve apon these designs and eventually developed a fully mechanised silk mill. This allowed them to create high quality silk with very little intervention from the workers. We have tried for a long time to aquire these secrets and finally we have the designs of their silk mills and we can start using it to boost our silk production."
+ bt_silk_events.3.opta: "It took long enough" 
+
+ bt_silk_events.4.title: "Silk Mills in Lucca"
+ bt_silk_events.4.desc: "Around the mid 15th Century Bologna was the first place to use hydraulic silk mills to refine the silk into threads. Also, thanks to an extensive network of underground waterways, they were the place they became the most persuasive and they built a great many hydraulic silk mills. They continued to improve apon these designs and eventually developed a fully mechanised silk mill. This allowed them to create high quality silk with very little intervention from the workers. Knowledge of this mechanism has come back to Lucca the birthplace of silk in Italy."
+ bt_silk_events.4.opta: "It is only natural that we get this"
+
+ bt_silk_events.5.title: "Silk Mills reach [Root.GetName]"  #Localise to the ROOT
+ bt_silk_events.5.desc: "Around the mid 15th Century Bologna was the first place to use hydraulic silk mills to refine the silk into threads. Also, thanks to an extensive network of underground waterways, they were the place they became the most persuasive and they built a great many hydraulic silk mills. They continued to improve apon these designs and eventually developed a fully mechanised silk mill. This allowed them to create high quality silk with very little intervention from the workers. They have guarded this secret for a long time and the designs for it has finally landed in our lap."
+ bt_silk_events.5.opta: "We are lucky to get these secrets"
+
+ bt_silk_events.6.title: "Sicilian Silk"
+ bt_silk_events.6.desc: "Around the mid 15th Century Bologna was the first place to use hydraulic silk mills to refine the silk into threads. Also, thanks to an extensive network of underground waterways, they were the place they became the most persuasive and they built a great many hydraulic silk mills. They continued to improve apon these designs and eventually developed a fully mechanised silk mill. This allowed them to create high quality silk with very little intervention from the workers. Knowledge of this mechanism has come to Sicily and we can use it to massively improve our silk industry here."
+ bt_silk_events.6.opta: "Silky Smooth Sicilian Silk"
+
+ bt_silk_events.7.title: "Neapolitan Silk"
+ bt_silk_events.7.desc: "Around the mid 15th Century Bologna was the first place to use hydraulic silk mills to refine the silk into threads. Also, thanks to an extensive network of underground waterways, they were the place they became the most persuasive and they built a great many hydraulic silk mills. They continued to improve apon these designs and eventually developed a fully mechanised silk mill. This allowed them to create high quality silk with very little intervention from the workers. Knowledge of this mechanism has come to Calabria and we can use it to improve our silk industry here."
+ bt_silk_events.7.opta: "More silk sounds good"
+
+ bt_silk_events.8.title: "Creating a French Silk Industry"
+ bt_silk_events.8.desc: "With the burgeoning Italian silk industry France made a second attempt to start a silk industry in Lyon. They did this by granting the city of Lyon a monoploy on silk production. Lyon then grew to become the capital of silk production in europe, they started to move away from the Arabic styles and created their own style of dress. The question we must ask ourselves if we should create a centralised industry or to spread silk production to all the corners of France."
+ bt_silk_events.8.opta: "We will grand Lyon a monopoly"
+ bt_silk_events.8.optb: "We will spread out our production across France"
+
+ bologna_silk_mills: "Bologna Hydraulic Silk Mills"
+ desc_bologna_silk_mills: "Bologna was the birthplace of the invention of the hydraulic silk mill. Which allowed to process silk much faster and resulted in higher quality silk as well."
+
+ bt_shah_rukh_deaded: "Chaos following Shah Rukh's Death"
+ 
+ bt_harb_misc.1.title: "Hidden Event"
+ bt_harb_misc.1.desc: "Hidden Event"
+ bt_harb_misc.1.opta: "Hidden Event"
+ 
+ bt_harb_misc.2.title: "Amalgamation"
+ bt_harb_misc.2.desc: "Cinnabar was used for dyes and to create gold and silver plating. Mercury can be refined from the cinnabar and this was used in the process of amalgamation which extracted gold and silver from ore. With this descovery is now being used to extract gold and silver from their ores in the new world."
+ bt_harb_misc.2.opta: "Liquid gold?"
+ 
+ bt_harb_misc.3.title: "Amalgamation"
+ bt_harb_misc.3.desc: "Cinnabar was used for dyes and to create gold and silver plating. Mercury can be refined from the cinnabar and this was used in the process of amalgamation which extracted gold and silver from ore. With this descovery is now being used to extract gold and silver from their ores in the new world."
+ bt_harb_misc.3.opta: "Liquid gold?"
+ 
+ bt_harb_misc.4.title: "Albanian Subsidies"
+ bt_harb_misc.4.desc: "We have been sending ducats to Albania as our agreement with the League of Lezhë, but with the death of Skanderbeg, the nation lacks a unanimous leader. As a result of this if we were to stop paying them, they wouldn't be able to do anything about it. It also seems unlikely that without Skanderbeg they will be able to hold back the Turks."
+ bt_harb_misc.4.opta: "More money for us!"
+ 
+ bt_harb_misc.5.title: "Albanian Subsidies"
+ bt_harb_misc.5.desc: "We have been sending ducats to Albania as our agreement with the League of Lezhë, but with the colapse of the nation, the agreement is now void."
+ bt_harb_misc.5.opta: "More money for us!"
+ 
+ bt_venice_lezhe_subsidies: "Subsidising the League of Lezhë"
+ bt_albania_lezhe_subsidies: "Venetian Subsidies"
+ 
+ flavor_teu.3.b: "Invite teutonic order to reclaim ducal prussia as our vassal"
+
+ bt_danzig_revolt: "Thirteen Years' War"
+ bt_danzig_revolt_desc: "They have declared themselves to be an independant state we must reincorporate them."
+ bt_danzig_revolt_wargoal: "Take their capital"
+ bt_danzig_revolt_wargoal_desc: "We must take their capital"
+ bt_danzig_revolt_war_name: "Thirteen Years' War"
+ 
+ bt_teu_submitted_to_keep_prussia: "They accepted offer to become our vassal"
+ bt_we_submitted_to_keep_prussia: "We accepted offer to become their vassal"
+ bt_teu_turned_pru: "Submitted to Polish Rule"
+ 
+ bt_cas_lost_infantes_tt: "Have the rebels enforce their demands"
+
+ bt_cultures_value_gui: "-"
+ bt_cultures_value_gui_tooltip: "BT no longer has a limit to your §YPromoted Culture Slots§!. Instead accepting a culture costs a base of 300 §YDiplomatic Power§!."
+ 
+ bt_mines_of_upper_hungary_copper: "The Association of the Upper Hungarian Mining Towns"
+ desc_bt_mines_of_upper_hungary_copper: "The region of Upper Hungary was very rich in Copper, Silver and Gold, producing about a third of all European Silver and Gold until 1490. There were seven major mining towns in the region which shared a common mining law and frequently cooperated."
+ bt_mines_of_upper_hungary_silver: "The Association of the Upper Hungarian Mining Towns"
+ desc_bt_mines_of_upper_hungary_silver: "The region of Upper Hungary was very rich in Copper, Silver and Gold, producing about a third of all European Silver and Gold until 1490. There were seven major mining towns in the region which shared a common mining law and frequently cooperated."
+
+ bt_english_loyalist_immigrants: "English Loyalist Immigrants"
+ bt_english_loyalist_immigrants_desc: "Whether a result of the conclusion of the Hundred Years War or random occurrence. England was experiencing a period of tremendous immigration from continental Europe in this time. They settled all over the English countryside intermingling with the local peoples."
+ 
+ bt_interregnum_so_no_heir: "Interregnum Period"
+ bt_interregnum_so_no_heir_desc: "We are in an interregnum period and cannot get an heir through birth."
+ 
+ BTINTEGRATETOOHIGHLIBERTYDESIRE: "They must have less than §Y25§! Liberty desire to start annexation, but currently have their liberty desire above this."
+ BT_ANNEX_TOO_HIGH_LIBERTY_DESIRE: "They must have less than §Y25§! Liberty desire to start annexation, but currently have their liberty desire above this."
+ 
+ 
+ 

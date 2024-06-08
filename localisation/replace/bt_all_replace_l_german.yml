@@ -220,7 +220,7 @@
  brm_suppress_local_leaders:0 "Lokale Machthaber verdrängen"
  brm_suppress_local_leaders_desc:0 "Die kleinen Herzöge, Prinzen und Saophas in unserer Nation sind derzeit eine Stimme der Rebellion und des Aufstands. Indem wir sie zum Schweigen bringen und ihre Privilegien aufheben, können wir problemlos alle Aufstände und Rebellionen, die in unserer Nation stattfinden können, vernichten."
  bt_super_cows:1 "Friesisches Rind"
- building_constable:0 "Polizeistation"
+ building_constable:0 "Polizeistation" #Note to Malcador from BT devs: a Constabulary in this context is less about policing, and is more about being the location of the constable of the area, i.e a marshal under the feudal system, keeper of horses.
  building_customs_house:0 "Börse"
  building_grain_depot:0 "Kornspeicher"
  building_royal_palace:1 "Palast"
@@ -349,7 +349,7 @@
  lig_the_tai_frontier_desc:0 "Trotz der malaiischen Wurzeln unseres Landes entstand der Wohlstand unseres Königreichs durch die ständige Migration der thailändischen Bevölkerung auf die malaiische Halbinsel. Als das am weitesten entfernte thailändische Staatswesen ist es wichtig, dass wir diese Politik der thailändischen Kolonisierung der Halbinsel fortsetzen."
  lig_wat_phra_mahathat_voramahavihan:0 "Wat Phra Mahathat"
  lig_wat_phra_mahathat_voramahavihan_desc:0 "Wat Phra Mahathat Woramahawihan ist eine der wichtigsten historischen Stätten auf der gesamten malaiischen Halbinsel. Der Tempel ist mit verschiedenen Elefantenköpfen und Statuen von Buddha und Riesen geschmückt, die den Tempel bewachen. Der Tempel wurde von König Chandrabhanu von der Lotus-Dynastie im lankischen Stil erbaut, wahrscheinlich um an seine Eroberung der Insel zu erinnern."
- saxon:2 "Sächsisch"
+ lower_saxon:2 "Niedersächsisch"
  lue_ideas:0 "Shanische Ideen"
  lue_ideas_bonus:0 "Shanische Ambitionen"
  lue_ideas_start:0 "Shanische Traditionen"
@@ -567,7 +567,7 @@
  russian:0 "Russisch"
  safi:0 "Safi"
  salish:0 "Salisch"
- thuringian:2 "Thüringer"
+ saxon:2 "Obersächsisch"
  schlesian:2 "Oberschlesisch"
  secure_the_imperial_crown.tooltip:1 "§Y5§! Kurfürsten müssen:\nDie Wahl von §Y[Root.GetName]§! zum Kaiser unterstützen.\nMindestens eine Meinung von §Y100§! von §Y[Root.GetName]§! haben."
  # tmp fix 'cause counter is fucky
@@ -672,3 +672,7 @@
  
  #BT15.0.1
  flavor_cri.2.d:0 "Mit dem Tod von Hadschi Giray muss sich das junge Krim-Khanat zum ersten Mal ohne seinen dynamischen Gründer zurechtfinden. [From.Monarch.GetName] hat es geschafft, den Thron der Krim zu sichern, aber [From.Monarch.GetHerHis] Position ist sehr schwach. Ehrgeizige Geschwister haben nicht aufgegeben, das Erbe Hadschis für sich zu beanspruchen, und im Osten und Westen schielen hungrige Nachbarn gierig auf die Ländereien der Krim. Um die Situation zu stabilisieren, hat [From.Monarch.GetName] einen Hilferuf an uns gerichtet. [From.Monarch.GetSheHeCap] bietet [From.Monarch.GetHerHis] Dienlichkeit und Loyalität an, wenn wir bereit sind, die Krim vor ihren Feinden zu schützen."         #Cut the mention of 'as well as direct ownership of a number of Black Sea ports' & rearranged to sound fluid with the cut. I'm no expert here, but in game terms I think a subject is a fine representation.
+ 
+ #BT16
+ caucasian:0 "Kartvelian"
+ circassian:0 "Adyghe"

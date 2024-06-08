@@ -1,0 +1,778 @@
+mnd_mlc_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = MLC
+	}
+	has_country_shield = yes
+	
+	mnd_mlc_pajang = {
+		icon = mission_kowtow
+		required_missions = { }
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					province_id = 598
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				AND = {
+					owner = {
+						tag = PAH
+						NOT = { is_subject_of = ROOT }
+					}
+				}
+			}
+		}
+		trigger = {
+			598 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			OR = {
+				PAH = { is_subject_of = ROOT }
+				NOT = { exists = PAH }
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					PAH = { is_subject_of = ROOT }
+				}
+				PAH = {
+					add_liberty_desire = -50
+					change_religion = ROOT
+					define_ruler = {
+						dynasty = ROOT
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = KEL
+					KEL = {
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					target = KEL
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			if = {
+				limit = {
+					exists = PAT
+					PAT = {
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					target = PAT
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			if = {
+				limit = {
+					exists = KED
+					KED = {
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					target = KED
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						NOT = { exists = KEL }
+						KEL = {
+							is_free_or_tributary_trigger = no
+						}
+					}
+					OR = {
+						NOT = { exists = PAT }
+						PAT = {
+							is_free_or_tributary_trigger = no
+						}
+					}
+					OR = {
+						NOT = { exists = KED }
+						KED = {
+							is_free_or_tributary_trigger = no
+						}
+					}
+				}
+				malaya_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				north_malaya_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				594 = {
+					if = {
+						limit = {
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+				8673 = {
+					if = {
+						limit = {
+							NOT = { is_core = ROOT }
+							NOT = { is_permanent_claim = ROOT }
+						}
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	mnd_mlc_peninsula = {
+		icon = mission_unite_home_region
+		required_missions = { mnd_mlc_pajang }
+		provinces_to_highlight = {
+			OR = {
+				area = malaya_area
+				area = north_malaya_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			malaya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_malaya_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = mlc_morale
+				duration = 7300
+			}
+		}
+	}
+	mnd_mlc_show_of_force = {
+		icon = mission_kowtow
+		required_missions = { }
+		provinces_to_highlight = {
+			OR = {
+				owned_by = MAJ
+				owned_by = SAK
+			}
+			owner = {
+				is_free_or_tributary_trigger = yes
+				army_size = ROOT
+			}
+		}
+		trigger = {
+			is_free_or_tributary_trigger = yes
+			army_size_percentage = 1
+			OR = {
+				army_size = MAJ
+				NOT = { exists = MAJ }
+			}
+			## BT: SAK doesn't exist in 1444, just remove it.
+			#OR = {
+			#	army_size = SAK
+			#	NOT = { exists = SAK }
+			#}
+		}
+		effect = {
+			#if = {
+			#	limit = {
+			#		exists = SAK
+			#		SAK = {
+			#			is_free_or_tributary_trigger = yes
+			#			ai = yes
+			#		}
+			#	}
+			#	vassalize = SAK
+			#}
+			
+			##BT: if SAK somehow breaks free, just get a CB, lol.
+			if = {
+				limit = {
+					exists = SAK
+					SAK = {
+						is_free_or_tributary_trigger = yes
+						ai = yes
+					}
+				}
+				add_casus_belli = {
+					target = SAK
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			#BT: new IDG tag.
+			if = {
+				limit = {
+					exists = IDG 
+					IDG = {
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					target = IDG
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			## If neither IDJ or SAK exists, get claims.
+			if = {
+				limit = {
+					OR = {
+						NOT = { exists = KEL }
+						KEL = {
+							is_free_or_tributary_trigger = no
+						}
+					}
+					OR = {
+						NOT = { exists = PAT }
+						PAT = {
+							is_free_or_tributary_trigger = no
+						}
+					}
+				}
+				central_sumatra_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					exists = JMB
+					JMB = {
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					target = JMB
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			else = {
+				jambi_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			#BT: Deli tag is ARU in BT not DLI
+			if = {
+				limit = {
+					exists = ARU 
+					ARU = {
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					target = ARU
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			else = {
+				batak_area = { #BT: central_sumatra_area shifted further south in BT.
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	mnd_mlc_jambi = {
+		icon = mission_invade_island
+		required_missions = { mnd_mlc_show_of_force }
+		provinces_to_highlight = {
+			OR = {
+				area = jambi_area
+				area = central_sumatra_area
+				area = batak_area
+			}			
+		}
+		trigger = {
+			calc_true_if = {
+				amount = 9
+				jambi_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				central_sumatra_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				batak_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					any_country = {
+						OR =  {
+							primary_culture = sumatran
+							#BT addition.
+							primary_culture = musi
+							primary_culture = batak
+						}
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				every_country = {
+					limit = {
+						OR =  {
+							primary_culture = sumatran
+							#BT addition.
+							primary_culture = musi
+							primary_culture = batak
+						}
+						is_free_or_tributary_trigger = yes
+					}
+					ROOT = {
+						add_casus_belli = {
+							target = PREV
+							type = cb_vassalize_mission
+							months = 120
+						}
+					}
+				}
+			}
+			else = {
+				central_sumatra_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				jambi_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}				
+				batak_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				minangkabau_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				#...Acehnese culture, so no.
+				#north_sumatra_area = {
+				#	limit = {
+				#		NOT = { is_core = ROOT }
+				#		NOT = { is_permanent_claim = ROOT }
+				#	}
+				#	add_permanent_claim = ROOT
+				#}
+			}
+			south_sumatra_area = { #BT Dev note: It begs the question if this is intentionally put outside the if-statement.
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mnd_mlc_defeat_ayutthaya = {
+		icon = mission_indian_soldier_elephant
+		required_missions = { }
+		provinces_to_highlight = {	
+			OR = {
+				AND = {
+					is_capital = yes
+					owned_by = AYU
+					NOT = { AYU = { humiliated_by = ROOT } }
+				}
+				AND = {
+					OR = {
+						area = tenasserim_area
+						area = north_tenasserim_area
+					}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		trigger = {
+			OR = {
+				AYU = { humiliated_by = ROOT }
+				AND = {
+					tenasserim_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+					north_tenasserim_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			add_mil_power = 200
+			tenasserim_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			north_tenasserim_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			central_thai_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			prachin_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+mnd_mlc_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = MLC
+	}
+	has_country_shield = yes
+	
+	mnd_mlc_ming = {
+		icon = mission_great_wall
+		required_missions = { }
+		provinces_to_highlight = {
+			is_capital = yes
+			owned_by = MNG
+		}
+		trigger = {
+			if = {
+				limit = {
+					MNG = { 
+						exists = yes 
+						is_emperor_of_china = yes 
+					}
+					#is_subject = no 
+				}
+				MNG = {
+					is_at_war = no
+				}
+				MNG = {
+					OR = { 
+						is_rival = ROOT 
+						AND = {
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
+							if = {
+								limit = { has_dlc = "Leviathan" }
+								trust = { 
+									who = ROOT 
+									value = 65 
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				any_country = {
+					total_development = 500 #BT Dev Doubling; 300
+					alliance_with = ROOT
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					MNG = { 
+						exists = yes 
+						is_emperor_of_china = yes 
+						is_subject = no 
+					}
+					#	is_subject = no 
+				}
+				#BT: MLC is already a tributary_state of MNG at start. The mission is redone to add extra 10 trust.
+				if = { limit = { is_subject = no } 
+					MNG = {
+						create_subject = {
+							subject_type = tributary_state
+							subject = ROOT
+						}
+					}
+				}
+				else = {
+					add_trust = {
+						who = MNG
+						value = 10
+						mutual = yes
+					}
+				}
+				add_favors = {
+					who = MNG 
+					amount = 15
+				}
+				change_dip = 1 
+			}
+			else_if = {
+				limit = {
+					exists = MNG
+					NOT = { has_dlc = "Mandate of Heaven" }
+					MNG = { is_subject = no }
+					is_subject = no 
+				}
+				MNG = {
+					create_guarantee = ROOT
+				}
+			}
+			else_if = {
+				limit = { 
+					MNG = { is_subject = yes }
+				}
+				add_dip_power = 100
+			}
+		}
+	}	
+	mnd_mlc_champa = {
+		icon = mission_kowtow
+		required_missions = {  }
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					exists = CHA
+					CHA = { is_free_or_tributary_trigger = yes }
+					owned_by = CHA
+				}
+				AND = {
+					OR = {
+						NOT = { exists = CHA }
+						CHA = { is_free_or_tributary_trigger = no }
+					}
+					area = champa_area
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					exists = CHA
+					CHA = { is_free_or_tributary_trigger = yes }
+				}
+				CHA = {
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+					OR = {
+						alliance_with = ROOT
+						guaranteed_by = ROOT
+					}
+				}
+			}
+			else = {
+				champa_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					exists = DAI
+					DAI = {
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				add_casus_belli = {
+					target = DAI
+					type = cb_vassalize_mission
+					months = 120
+				}
+			}
+			else = {
+				red_river_delta_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				vietnam_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	mnd_mlc_develop_malacca = {
+		icon = mission_market_place_with_asian_traders
+		required_missions = {  }
+		provinces_to_highlight = {
+			province_id = 596
+			OR = {
+				NOT = { development = 25 }
+				NOT = { fort_level = 3 }
+				NOT = {
+					OR = {
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+				NOT = {
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+			}
+		}
+		trigger = {
+			596 = {
+				development = 40 #BT dev doubling, up from 25
+				fort_level = 2 #BT, down form 3
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_dlc = "Dharma"
+					596 = {
+						NOT = {
+							province_has_center_of_trade_of_level = 3
+						}
+					}
+				}
+				596 = {
+					add_center_of_trade_level = 1
+				}
+			}
+			else = {
+				596 = {
+					add_province_modifier = {
+						name = mlc_trade_modifier
+						duration = 36500
+					}
+				}
+			}
+		}
+	}
+	mnd_mlc_tributaries = {
+		icon = mission_kowtow
+		required_missions = { mnd_mlc_show_of_force }
+		provinces_to_highlight = {
+			owner = {
+				is_subject_of = ROOT
+				liberty_desire = 40
+			}
+		}
+		trigger = {
+			num_of_subjects = 4
+			NOT = {
+				any_subject_country = {
+					liberty_desire = 40
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = mlc_subjects
+				duration = -1
+			}
+			#BT: changed surabaya_area to east_java_area due to area cuts
+			east_java_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	mnd_mlc_destroy_majapahit = {
+		icon = mission_junk_boat
+		required_missions = { mnd_mlc_tributaries }
+		provinces_to_highlight = {
+			OR = {
+				owned_by = MAJ
+				area = east_java_area
+			}
+		}
+		trigger = {
+			NOT = { exists = MAJ }
+			east_java_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			custom_tooltip = mlc_cb_tt
+		}
+	}
+}

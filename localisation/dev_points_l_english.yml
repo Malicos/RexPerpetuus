@@ -1,0 +1,225 @@
+﻿l_english:
+ # !!!!!!! YOU SHOULD NOT BE EDITING THIS FILE !!!!!!!
+ # You should probably be in the file called dev_points_additional_modifiers_l_english.yml
+ 
+ 
+ # Debug event localisation
+ dev_points.99.title: "Dev Points Debug Event"
+ dev_points.99.desc: "" #No description here
+ dev_points.99.opta: "Calculate Monthly Dev Points In Provinces"
+ dev_points.99.optb: "Calc. Countrywide Dev Points, Give Monthly Dev Point"
+ dev_points.99.optc: "Calc. Countrywide Dev Points"
+ dev_points.99.optd: "Simulate Gaining Monthly Dev Point"
+ dev_points.99.opte: "Add Tax To Capital Spending Dev Points"
+ dev_points.99.optf: "Add Production Dev To Capital Spending Dev Points"
+ dev_points.99.optg: "Add Manpower Dev To Capital Spending Dev Points"
+ dev_points.99.opth: "Calculate The Max Dev Points"
+ dev_points.99.opti: "Set Dev Points To 0"
+ dev_points.99.optj: "Enable Total Dev Points GUI"
+ dev_points.99.optjj: "Disable Total Dev Points GUI"
+ dev_points.99.optk: "Gain 100 Dev Points"
+ dev_points.99.optl: "Gain 500 Dev Points"
+ dev_points.99.optm: "Gain 1000 Dev Points"
+ dev_points.99.optn: "Gain 10000 Dev Points"
+ 
+ # Monthly tick event (Unable to be hidden when loading an autosave)
+ dev_points.1.title: "Tick Clock"
+ dev_points.1.desc: "This event is normally hidden.\n\nUnfortunately due to a bug in EU4 it shows if you load an autosave. Just ignore it at click the event away."
+ dev_points.1.opta: "Ok.... sure??"
+ 
+ topbar_current_dev_points_gui: "[From.shown_current_dev_points.GetValue]"
+ current_dev_points_gui: "[From.shown_current_dev_points.GetValue]"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+ current_dev_points_gui_tooltip: "§YDevelopment Points§!\nMonthly increase: §G+[From.calc_monthly_dev_points.GetValue]§!\n\nThis is the total §YDevelopment Points§!\ngenerated in your nation.\nFrom Provinces: §G+[From.monthly_dev_points_from_provinces.GetValue]§![This.DevPointsFromSubjects][This.DevPointsCountryHasModifiers][This.DevPointsCountryAtWar][This.DevPointsCountryHighManpower][This.DevPointsCountryNonColonialSubject][This.DevPointsCountryFreeColony][This.DevPointsCountryEconomicIdeas][This.DevPointsCountryMonthlyDevPointsButton][This.DevPointsCountryHasCorruption][This.DevPointsCountryHasWarExhaustion][This.DevPointsCountryHasOverextension][This.DevPointsCountryStabilty][This.DevPointsCountryBurghers][This.DevPointsCountryNobles][This.DevPointsCountryChurch][This.DevPointsCountryBrahmins][This.DevPointsCountryRajput][This.DevPointsCountryDhimmi][This.DevPointsCountryJains][This.DevPointsCountryVaisyas][This.DevPointsCountryTribes][This.DevPointsCountryMaratha][This.DevPointsCountryCossacks][This.DevPointsCountryJanissaries][This.DevPointsCountryEunuchs][This.DevPointsCountryQizilbash][This.DevPointsCountryGhulams][This.DevPointsCountryIsBankrupt][This.DevPointsCountryIsOverGCap][This.DevPointsCountryModifierAdditionalModifiers]\n\nYou can have a maximum of §G[From.maximum_dev_points.GetValue]§!\n§YDevelopment Points§! stored\nIf you go over they will be spent\nautomatically.\n\nModified by:\nBase: §G+100§!\nAdministrative Technology: §G+[From.admin_tech_for_dev_points.GetValue]§![This.MaxDevPointsInfrastructureIdeas][This.MaxDevPointsBaseAdditionalModifiers][This.MaxDevPointsGovRank]"                                                                                                                                                                                      
+ #     
+ 
+ local_generated_dev_points_gui: "[Root.shown_precalc_monthly_dev_points.GetValue]"
+ local_generated_dev_points_gui_tooltip: "This is the monthly §YDevelopment Points§!\ngenerated in this province\n\nThe base of this is affected by:\nBase: §G+0.02§![This.DevPointsProvinceHasTaxBuilding][This.DevPointsProvinceHasProductionBuilding][This.DevPointsProvinceHasTradeBuilding][This.DevPointsProvinceHasPostOffice][This.DevPointsProvinceHasGranary][This.DevPointsProvinceHasTaxAssessor][This.DevPointsProvinceHasShipyardBuilding][This.DevPointsProvinceHasUniversity][This.DevPointsProvinceHasProductionManufactory][This.DevPointsProvinceHasStateHouse][This.DevPointsProvinceIsInNewWorld][This.DevPointsProvinceBaseAdditionalModifiers][This.DevPointsProvinceHasModifiers][This.DevPointsProvinceHasCoT][This.DevPointsProvinceIsProsperous][This.DevPointsProvinceIsInCapitalState][This.DevPointsProvinceHasEdictOfDevelpment][This.DevPointsProvinceInfrastructureIdeasAndBigDevPoints][This.DevPointsProvinceInfrastructureLevel][This.DevPointsProvinceHorde][This.DevPointsProvinceMongolEmpire][This.DevPointsProvinceOccupation][This.DevPointsProvinceUnderSeige][This.DevPointsProvinceDevastation][This.DevPointsProvinceModifierAdditionalModifiers][This.DevPointsProvinceAutonomy]"                                                                                                                                                                                                                 
+ 
+ dev_points_empty_string: ""    # The empty string used whenever we want an empty line
+ 
+ # Localisation for the local base dev points generated
+ dev_points_province_base_has_constabulary: "\nConstabulary: §G+0.01§!"
+ dev_points_province_base_has_treasury_office: "\nTreasury: §G+0.02§!"
+ dev_points_province_base_has_workshop: "\nWorkshop: §G+0.01§!"
+ dev_points_province_base_has_counting_house: "\nCounting House: §G+0.02§!"
+ dev_points_province_base_has_marketplace: "\nMarketplace: §G+0.02§!"
+ dev_points_province_base_has_trade_depot: "\nTrade Depot: §G+0.04§!"
+ dev_points_province_base_has_stock_exchange: "\nStock Exchange: §G+0.05§!"
+ dev_points_province_base_has_granary: "\nGranary: §G+0.04§!"
+ dev_points_province_base_has_tax_assessor: "\nTax Assessor: §G+0.02§!"
+ dev_points_province_base_has_post_office: "\nPost Office: §G+0.02§!"
+ dev_points_province_base_has_customs_house: "\nCustoms House: §G+0.04§!"
+ dev_points_province_base_has_shipyard: "\nShipyard: §G+0.02§!"
+ dev_points_province_base_has_grand_shipyard: "\nGrand Shipyard: §G+0.04§!"
+ dev_points_province_base_has_college: "\nCollege: §G+0.04§!"
+ dev_points_province_base_has_university: "\nUniversity: §G+0.06§!"
+ dev_points_province_base_has_furnace: "\nFurnace: §G+0.08§!"
+ dev_points_province_base_has_mint: "\nMint: §G+0.08§!"
+ dev_points_province_base_has_farm_estate: "\nFarm Estate: §G+0.08§!"
+ dev_points_province_base_has_naval_equipment_m: "\nNaval Equipment Manufactory: §G+0.08§!"
+ dev_points_province_base_has_textile_m: "\nTextile Manufactory: §G+0.08§!"
+ dev_points_province_base_has_weapons_m: "\nWeapons Manufactory: §G+0.08§!"
+ dev_points_province_base_has_plantation: "\nPlantation: §G+0.08§!"
+ dev_points_province_base_has_trade_station: "\nTrade Station: §G+0.08§!"
+ dev_points_province_base_has_mill: "\nMill: §G+0.08§!"
+ dev_points_province_base_has_state_house: "\nState House: §G+0.04§!"
+ dev_points_province_base_is_in_the_new_world: "\nIs in the New World: §G+0.06§!"
+ 
+ # Localisation for the local dev points modifiers
+ dev_points_province_modifier_has_modifiers: "\n\nThis is then modified by:"
+ dev_points_province_modifier_part_of_capital_state: "\nCapital State: §G+50%§!"
+ dev_points_province_modifier_has_CoT3: "\nWorld Trade Centre: §G+40%§!"
+ dev_points_province_modifier_has_coastal_CoT3: "\nWorld Port: §G+40%§!"
+ dev_points_province_modifier_has_CoT2: "\nMarket Town: §G+20%§!"
+ dev_points_province_modifier_has_coastal_CoT2: "\nEntrepot: §G+20%§!"
+ dev_points_province_modifier_has_CoT1: "\nEmporium: §G+10%§!"
+ dev_points_province_modifier_has_coastal_CoT1: "\nNatural Harbor: §G+10%§!"
+ dev_points_province_modifier_has_edict_of_development: "\nEncourage Development: §G+25%§!"
+ dev_points_province_modifier_is_prosperous: "\nProsperity: §G+20%§!"
+ dev_points_province_modifier_infrastructure_level: "\nExpand Infrastructure: §G+[Root.infrastucture_ui_var.GetValue]%§!"
+ dev_points_province_modifier_intrastructure_ideas_and_dev_points: "\nRegulation Bureau: §G+20%§!"
+ dev_points_province_modifier_horde: "\nReform §YSteppe Normads§!: §R-50%§!"
+ dev_points_province_modifier_mongol_empire: "\nReform §YGreat Mongol State§!: §R-50%§!"
+ dev_points_province_modifier_under_siege: "\nUnder Seige: §R-25%§!"
+ dev_points_province_modifier_occupation: "\nOccupation: §R-50%§!"
+ dev_points_province_modifier_devastation: "\nDevastation: §R-[Root.devastation_ui_var.GetValue]%§!"
+ dev_points_province_modifier_has_autonomy: "\nLocal Autonomy further modifies this by §R-[Root.local_autonomy_ui_var.GetValue]%§!"
+ 
+ #Localisation for Development from subjects
+ dev_points_country_from_subjects: "\nFrom Subjects: §G+[From.monthly_dev_points_from_subjects.GetValue]§!"
+ 
+ # Localisation for the nationwide dev point modifiers
+ dev_points_country_modifier_has_modifiers: "\nThis is then modified by:"
+ dev_points_country_modifier_war: "\nAt War: §R-20%§!"
+ dev_points_country_modifier_manpower: "\nOver 90% Manpower: §G+10%§!"
+ dev_points_country_modifier_is_non_colonial_full_subject: "\nNon-colonial Subject: §R-20%§!"
+ dev_points_country_modifier_has_economic_ideas: "\nFull Ecomomic: §G10%§!"
+ dev_points_country_modifier_has_monthly_dev_points_button: "\nPromoting Infrastructure: §G20%§!"
+ dev_points_country_modifier_independent_colony: "\nIndependent Colony: §G+20%§!"
+ dev_points_country_modifier_corruption: "\nCorruption: §R-[From.gui_corruption_var.GetValue]%§!"
+ dev_points_country_modifier_war_exhaustion: "\nWar Exhaustion: §R-[From.gui_war_exhaustion_var.GetValue]%§!"
+ dev_points_country_modifier_overextension: "\nOverextension: §R-[From.gui_overextension_var.GetValue]%§!"
+ dev_points_country_modifier_positive_1stability: "\nPositive Stability: §G+5%§!"
+ dev_points_country_modifier_positive_2stability: "\nPositive Stability: §G+10%§!"
+ dev_points_country_modifier_positive_3stability: "\nPositive Stability: §G+15%§!"
+ dev_points_country_modifier_negative_1stability: "\nNegative Stability: §R-5%§!"
+ dev_points_country_modifier_negative_2stability: "\nNegative Stability: §R-10%§!"
+ dev_points_country_modifier_negative_3stability: "\nNegative Stability: §R-15%§!"
+ dev_points_country_modifier_bankrupt: "\nBankrupt: §R-50%§!"
+ dev_points_country_modifier_over_gcap: "\nOver Governing Capacity: §R-[From.over_gov_cap_value_ui_var.GetValue]%§!"
+ # All the estates go below here
+ dev_points_country_modifier_burghers_loyal: "\n[From.GetBurghersName]: §G+2%§!"
+ dev_points_country_modifier_burghers_disloyal: "\n[From.GetBurghersName]: §R-2%§!"
+ dev_points_country_modifier_nobles_loyal: "\n[From.GetNobilityName]: §G+2%§!"
+ dev_points_country_modifier_nobles_disloyal: "\n[From.GetNobilityName]: §R-2%§!"
+ dev_points_country_modifier_church_loyal: "\n[From.GetClergyName]: §G+2%§!"
+ dev_points_country_modifier_church_disloyal: "\n[From.GetClergyName]: §R-2%§!"
+ dev_points_country_modifier_brahmins_loyal: "\n[From.GetBrahminsName]: §G+2%§!"
+ dev_points_country_modifier_brahmins_disloyal: "\n[From.GetBrahminsName]: §R-2%§!"
+ dev_points_country_modifier_rajput_loyal: "\n[From.GetRajputsName]: §G+2%§!"
+ dev_points_country_modifier_rajput_disloyal: "\n[From.GetRajputsName]: §R-2%§!"
+ dev_points_country_modifier_dhimmi_loyal: "\n[From.GetDhimmiName]: §G+2%§!"
+ dev_points_country_modifier_dhimmi_disloyal: "\n[From.GetDhimmiName]: §R-2%§!"
+ dev_points_country_modifier_jains_loyal: "\n[From.GetJainsName]: §G+2%§!"
+ dev_points_country_modifier_jains_disloyal: "\n[From.GetJainsName]: §R-2%§!"
+ dev_points_country_modifier_vaisyas_loyal: "\n[From.GetVaishyasName]: §G+2%§!"
+ dev_points_country_modifier_vaisyas_disloyal: "\n[From.GetVaishyasName]: §R-2%§!"
+ dev_points_country_modifier_nomadic_tribes_loyal: "\n[From.GetTribesName]: §G+2%§!"
+ dev_points_country_modifier_nomadic_tribes_disloyal: "\n[From.GetTribesName]: §R-2%§!"
+ dev_points_country_modifier_maratha_loyal: "\n[From.GetMarathasName]: §G+2%§!"
+ dev_points_country_modifier_maratha_disloyal: "\n[From.GetMarathasName]: §R-2%§!"
+ dev_points_country_modifier_cossacks_loyal: "\n[From.GetCossacksName]: §G+2%§!"
+ dev_points_country_modifier_cossacks_disloyal: "\n[From.GetCossacksName]: §R-2%§!"
+ dev_points_country_modifier_janissaries_loyal: "\n[From.GetJanissariesName]: §G+2%§!"
+ dev_points_country_modifier_janissaries_disloyal: "\n[From.GetJanissariesName]: §R-2%§!"
+ dev_points_country_modifier_eunuchs_loyal: "\n[From.GetEunuchsName]: §G+2%§!"
+ dev_points_country_modifier_eunuchs_disloyal: "\n[From.GetEunuchsName]: §R-2%§!"
+ dev_points_country_modifier_qizilbash_loyal: "\n[From.GetQizilbashName]: §G+2%§!"
+ dev_points_country_modifier_qizilbash_disloyal: "\n[From.GetQizilbashName]: §R-2%§!"
+ dev_points_country_modifier_ghulams_loyal: "\n[From.GetGhilmanName]: §G+2%§!"
+ dev_points_country_modifier_ghulams_disloyal: "\n[From.GetGhilmanName]: §R-2%§!"
+ 
+ 
+ total_development_gained_from_dev_points_gui: "[Root.Owner.total_development_gained_from_dev_points.GetValue]"
+ 
+ total_generated_dev_points_gui: "[Root.Owner.shown_total_accumulated_dev_points.GetValue]"
+ 
+ # Localisation for all the modifiers to max dev points 
+ max_dev_points_country_base_tech: "\n[From.gui_dev_maximum_var.GetValue]"
+ max_dev_points_country_base_infrastructure_idea: "\nEfficient construction plans: §G+100§!"
+ max_dev_points_country_modifier_kingdom: "\n\nThis is modified by:\nGovernment Rank: §G+100%§!"
+ max_dev_points_country_modifier_empire: "\n\nThis is modified by:\nGovernment Rank: §G+200%§!"
+ 
+ #statewide_monthly_dev_points_gui: "[Root.statewide_monthly_dev_points.GetValue]"  #Doesn't work right now
+ 
+ 
+ province_development_cost_gui: "[Root.shown_development_cost.GetValue]"
+ 
+ province_view_dev_points_tax_dev_increase_button_tooltip: ""
+ province_view_dev_points_production_dev_increase_button_tooltip: ""
+ province_view_dev_points_manpower_dev_increase_button_tooltip: ""
+ 
+ dev_points_not_enough_dev_points: "§RYou do not have the Development Points required to increase development here.§!"
+ dev_points_you_allow_overlord_to_dev: "§RYou are currently allowing your overlord to develop your provinces.§!"
+ dev_points_your_subject_does_not_allow_overlord_to_dev: "§RYour subject doesn't allow it's overlord to develop it's provinces.§!"
+ 
+ #
+ start_converting_monarch_points_to_dev_points_title: "1) Start National Infrastructure Programs"
+ start_converting_monarch_points_to_dev_points_desc: "If we wish we can spend our Government's energy on improving bridges, quarries and other similar projects. Which should result our nation being able to grow quicker.""
+ explain_monthly_monarch_points_to_dev_points: "Spend one of each Monarch Point to gain 20% extra Development Point generation"
+ stop_converting_monarch_points_to_dev_points_title: "1) Stop National Infrastructure Programs"
+ stop_converting_monarch_points_to_dev_points_desc: ""
+ explain_removing_monthly_monarch_points_to_dev_points: "Stop spending one of each Monarch Point to gain 20% extra Development Point generation"
+ monarch_points_to_dev_points: "National Infrastructure Programs"
+ 
+ #
+ start_converting_adm_points_to_reform_progress_title: "2) Re-assess antiquated political ideology"
+ start_converting_adm_points_to_reform_progress_desc: "Task political thinkers to re-assess old ideas that we may have looked over to improve our Government"
+ explain_monthly_adm_points_to_reform_progress: "Spend 1 Administrative Power a month to gain 50% Monthly Reform Progress Modifier"
+ stop_converting_adm_points_to_reform_progress_title: "2) Stop re-assessing antiquated political ideology"
+ stop_converting_adm_points_to_reform_progress_desc: ""
+ explain_removing_monthly_adm_points_to_reform_progresss: "Stop spending 1 Administrative Power a month to gain 50% Monthly Reform Progress Modifier"
+ adm_points_to_reform_progress: "Re-assessing antiquated political ideologies"
+ 
+ #
+ start_converting_dip_points_to_spy_defence_title: "3) Start spy training initiatives"
+ start_converting_dip_points_to_spy_defence_desc: "Start training our spys to a much higher level. This should allow them to be better at spying and detecting spys"
+ explain_monthly_dip_points_to_spy_defence: "Spend 1 Diplomatic Power a month to gain +25% spy offence and defence"
+ stop_converting_dip_points_to_spy_defence_title: "3) End spy training initiatives"
+ stop_converting_dip_points_to_spy_defence_desc: ""
+ explain_removing_monthly_dip_points_to_spy_defence: "Stop spending 1 Diplomatic Power a month to gain +25% spy offence and defence"
+ dip_points_to_spy_defence: "Spy training initiatives"
+ 
+ #
+ start_converting_mil_points_to_professionalism_title: "4) Start Military Reorganisation"
+ start_converting_mil_points_to_professionalism_desc: "Restructure the military to rely less on levees and more on standing armies"
+ explain_monthly_mil_points_to_professionalism: "Spend 1 Military Power to gain +0.5 Yearly Army Professionalism"
+ stop_converting_mil_points_to_professionalism_title: "4) End Military Reorganisation"
+ stop_converting_mil_points_to_professionalism_desc: ""
+ explain_removing_monthly_mil_points_to_professionalism: "Stop spending 1 Military Power to gain +0.5 Yearly Army Professionalism"
+ mil_points_to_professionalism: "Reorganising military structure"
+ 
+ #
+ start_converting_mil_points_to_army_tradition_title: "4) Start Military Reorganisation"
+ start_converting_mil_points_to_army_tradition_desc: "Restructure the military to rely less on levees and more on standing armies"
+ explain_monthly_mil_points_to_army_tradition: "Spend 1 Military Power to gain +0.25 Yearly Army Tradition"
+ stop_converting_mil_points_to_army_tradition_title: "4) End Military Reorganisation"
+ stop_converting_mil_points_to_army_tradition_desc: ""
+ explain_removing_monthly_mil_points_to_army_tradition: "Stop spending 1 Military Power to gain +0.25 Yearly Army Tradition"
+ mil_points_to_army_tradition: "Reorganising military structure"
+ 
+ base_local_dev_points: "Development Points"
+ local_dev_points_modifier: "Local Development Points"
+ country_dev_points_modifier: "Monthly Development Points"
+ max_dev_points: "Maximum Development Points"
+ dev_points_from_subjects_modifier: "Development Points from Subjects"
+ 
+ # Localisation for trying to see another nations dev points 
+ cant_see_foreign_dev_points: "-"
+ cant_see_foreign_dev_points_tooltip: "You cannot see how many §YDevelopment Points§! this province generates."
+ cant_see_foreign_current_dev_points: "-"
+ cant_see_foreign_current_dev_points_tooltip: "You cannot see how many §YDevelopment Points§! this nation has."
+ 
+ 
+ current_dev_points: "Development Points"
+ 

@@ -1,0 +1,35 @@
+﻿l_english:
+ #New Fortifications
+ # building_earth_rampart:1 "Earthen Rampart"
+ # earth_rampart_short:1 "Earthen Rampart"
+ # earth_rampart:1 "Earthen Rampart"
+ # building_tenaille:1 "Tenaille"
+ # tenaille_short:1 "Tenaille"
+ # tenaille:1 "Tenaille"
+ # building_redoubt:1 "Redoubt"
+ # redoubt_short:1 "Redoubt"
+ # redoubt:1 "Redoubt"
+ building_mb_canal:0 "Canal"
+ mb_canal_short:0 "Canal"
+ mb_canal:0 "Canal"
+ 
+ # #Area modifiers
+ # post_office_area_modifier:0 "Post Office in Area"
+ # desc_post_office_area_modifier:0 "A Post Office has been built in this area, granting this province bonuses."
+ # glorious_monument_area_modifier:0 "Glorious Monument in Area"
+ # desc_glorious_monument_area_modifier:0 "A Glorious Monument has been built in this area, granting this province bonuses."
+ # treasury_office_area_modifier:0 "Treasury in Area"
+ # desc_treasury_office_area_modifier:0 "A Treasury has been built in this area, granting this province bonuses."
+ # constable_area_modifier:0 "Constablary in Area"
+ # desc_constable_area_modifier:0 "A Constablary has been built in this area, granting this province bonuses."
+ # royal_palace_area_modifier:0 "Palace in Area"
+ # desc_royal_palace_area_modifier:0 "A Palace has been built in this area, granting this province bonuses."
+ # war_college_area_modifier:0 "War College in Area"
+ # desc_war_college_area_modifier:0 "A War College has been built in this area, granting this province bonuses."
+ # admiralty_area_modifier:0 "Admiralty in Area"
+ # desc_admiralty_area_modifier:0 "An Admiralty has been built in this area, granting this province bonuses."
+ 
+ #Building category:
+ INFRASTRUCTURE:0 "Government Infrastructure"
+ INFLUENCE:0 "Influence"
+ AREA_ADMINISTRATION:0 "State Administration"

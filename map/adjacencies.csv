@@ -25,7 +25,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5048;982;sea;1491;-1;-1;-1;-1;Esgigeoag-Unamakik
 4891;983;sea;1491;-1;-1;-1;-1;Segepenegatig-Epekwitk
 1050;4658;sea;1379;-1;-1;-1;-1;Deren-Nanghaer
-1215;387;sea;1330;-1;-1;-1;-1;Tajura-Mocha
+8888;387;sea;1330;-1;-1;-1;-1;Obock-Mocha
 54;3136;sea;1268;-1;-1;-1;-1;Stade-Dithmarschen
 1820;1021;sea;1391;-1;-1;-1;-1;1223;Awa-Settsu
 4131;4193;sea;1387;-1;-1;-1;-1;Oshima-Mutsu
@@ -41,7 +41,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1268;5494;canal;1775;-1;-1;-1;-1;kiel_canal
 1548;1515;canal;835;-1;-1;-1;-1;panama_canal
 1328;1316;canal;363;-1;-1;-1;-1;suez_canal
-2348;6006;sea;5493;-1;-1;-1;-1;Chios-Cheshme
+2348;318;sea;5493;-1;-1;-1;-1;Chios-Izmir
 4700;2296;sea;1319;-1;-1;-1;-1;Lesbos-Biga
 3245;2447;sea;1323;-1;-1;-1;-1;Kerch-Mapa
 536;2100;sea;1340;-1;-1;-1;-1;Madurai-Vanni
@@ -129,7 +129,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 137;7731;sea;1309;-1;-1;-1;-1;Ragusa-Brac
 7734;7735;sea;1308;-1;-1;-1;-1;Senj-Krk
 130;7735;sea;1308;-1;-1;-1;-1;Istria-Krk
-54;4141;sea;1268;-1;-1;-1;-1;Stade-Dithmarschen
+54;4141;sea;1268;2779;1916;2779;1918;Stade-Dithmarschen
 5729;5866;sea;1559;-1;-1;-1;-1;Nisga'a-Kichxaan
 5728;5866;sea;1559;-1;-1;-1;-1;Taan-Kichxaan
 976;5864;sea;1559;-1;-1;-1;-1;Tlingit-Taan
@@ -151,10 +151,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2700;8716;sea;1397;-1;-1;-1;-1;Panay-Masbate
 650;8544;sea;1400;-1;-1;-1;-1;Tidore-Weda
 95;8112;sea;1269;-1;-1;-1;-1;Breda-Rotterdam
-100;7954;sea;1279;-1;-1;-1;-1;Frisia-West Frisia
+100;7954;sea;1279;2720;1897;2718;1894;Frisia-West Frisia
 8164;3009;sea;1285;-1;-1;-1;-1;Wexford-Waterford
 242;8138;sea;1284;-1;-1;-1;-1;Carnarvonshire-Anglesey
-235;238;sea;1269;-1;-1;-1;-1;Kent-Essex
+235;238;sea;1269;2647;1869;2645;1871;Kent-Essex
 248;8150;sea;1280;-1;-1;-1;-1;Lothian-Fife
 2807;830;sea;1519;-1;-1;-1;-1;Altagracia-Maracaibo
 6057;482;sea;1503;-1;-1;-1;-1;Abaco-Bahama
@@ -191,9 +191,19 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5582;6047;sea;1522;-1;-1;-1;-1;Grenada-Grenadines
 502;5581;sea;1522;-1;-1;-1;-1;Trinidad-Tobago
 5578;2808;sea;1519;-1;-1;-1;-1;Aruba-Coro
-7777;54;sea;1268;-1;-1;-1;-1;Pinneberg-Stade
-7776;54;sea;1268;-1;-1;-1;-1;Itzehoe-Stade
-4141;8297;sea;1268;-1;-1;-1;-1;Dithmarschen-Hadeln
-8299;8298;sea;1268;-1;-1;-1;-1;Jever-Wursten
+7777;54;sea;1268;-1;-1;2785;1911;Pinneberg-Stade
+7776;54;sea;1268;2784;1916;2782;1915;Itzehoe-Stade
+4141;8297;sea;1268;-1;-1;2775;1916;Dithmarschen-Hadeln
+8299;8298;sea;1268;2768;1910;2770;1910;Jever-Wursten
 1931;4382;sea;1268;-1;-1;-1;-1;Emsgau-Ommelanden
+6300;6301;sea;1414;-1;-1;-1;-1;PortPhilipBay
+6315;6316;sea;1415;-1;-1;-1;-1;KangarooIsland
+4867;6377;sea;1408;-1;-1;-1;-1;KingSound
+6367;6365;sea;1408;4661;770;4664;771;VictoriaRiverEstuary
+2728;6356;sea;1408;-1;-1;-1;-1;Tiwi-Cobourg
+2728;4846;sea;1408;-1;-1;-1;-1;Tiwi-Darwin
+2729;6352;sea;1410;-1;-1;-1;-1;Arnhemland-GrooteEyland
+2730;6219;sea;1410;-1;-1;-1;-1;TorresStraitIslands
+1230;8892;sea;4333;-1;-1;-1;-1;Massawa-Dahlak
+5298;8892;sea;4333;-1;-1;-1;-1;Zula-Dahlak
 -1;-1;;-1;-1;-1;-1;-1;-1;

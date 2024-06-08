@@ -1,0 +1,50 @@
+Welcome to BT's Mission Scriptification tutorial! My name's Dub and I'll guide you, fellow contributor, through how to scriptify missions in BT's style.
+
+In order to create a scriptified mission that specifically refers to a set number of provinces, such that it'll work after future map updates, do the following.
+
+First, create a province group inside map/provincegroup.txt
+The province group's name should be the name of the mission with _provinces appended to it. E.g, if the mission is called "spa_conquer_hispaniola", name it "spa_conquer_hispaniola_provinces"
+Inside this province group, add all province IDs that you wish to include. The easiest way to do this is to open the area.txt and paste all province IDs of an in-game area that you wish to include.
+To find this area, simply find a 4 digit province ID in-game that belongs to the area using the debug_mode console command, then Ctrl+F for this inside area.txt. Paste this set of IDs into the province group.
+Continue to do this until you are satisfied.
+
+An example could look like this:
+
+spa_conquer_hispaniola_provinces = {
+   488 489 4618 4619
+   490 2658 2659 4620 4621
+   487 481 491 492
+}
+
+Once you've done this, you can now use this province group inside the following three areas of the mission.
+
+Say you want the mission to require you to own all provinces. Then, do the following (For more information, check 00_bt_mission_scripted_triggers:
+provinces_to_highlight = {
+	province_group = spa_conquer_hispaniola_provinces
+	NOT = { owned_by = ROOT }
+}
+
+trigger = {
+	has_fulfiled_general_province_requirement_for_mission_trigger = {
+		tooltip=country_holds_highlighted
+		provinces=spa_conquer_hispaniola_provinces
+		triggers="
+			owned_by = ROOT
+		"
+	}
+}
+
+And if you desire to add claims to the provinces in a previous mission, do, in that effect:
+effect = {
+	give_permaclaims_for_mission = { mission=spa_conquer_hispaniola }
+}
+
+If this is done, the following needs localisation:
+1. The tooltip used in the trigger. BT already holds a couple of localised tooltips, but if you do custom triggers that are particularly interesting, you need a custom tooltip localised.
+2. A tooltip for giving permaclaims. The tooltip that needs localisation is spa_conquer_hispaniola_claims. This is usually localised as "§Y[Root.GetName] gains permanent claims on the provinces required for the mission §Y<mission name>§!"
+3. An empty localisation string for the province group. To make it empty, simply denote it as ""
+
+This system allows you to quickly copy-paste mission triggers and the like, as well as allowing BT to quickly update existing missions upon provinces being cut and/or added.
+
+Good luck!
+//Dub
