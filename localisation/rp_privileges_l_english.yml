@@ -1,0 +1,12 @@
+﻿l_english:
+
+#CORDOBA
+ estate_nobles_CDB_stationary_army:0 "Stationary Army"
+ estate_nobles_CDB_stationary_army_desc:0 "Our nation hasn't participaed in any major conflict for centuries."
+ CDB_noble_revoke:0 "Revoked Stationary Army"
+ estate_burghers_CDB_peacetime_trade:0 "Peacetime Trade"
+ estate_burghers_CDB_peacetime_trade_desc:0 "With peace and quiet on our northern border, our merchants started openly trading with the Christians."
+ CDB_burgher_revoke:0 "Revoked Peacetime Trade"
+ estate_dhimmi_CDB_religious_ceasefire:0 "Religious Ceasefire"
+ estate_dhimmi_CDB_religious_ceasefire_desc:0 "Peaceful relations with the Catholic Kingdoms, as well as a sizeable Jewish minority made our Dhimmi very influential in social, economical and political matters."
+ CDB_dhimmi_revoke:0 "Revoked Religious Ceasefire"
