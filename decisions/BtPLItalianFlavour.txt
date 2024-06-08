@@ -27,15 +27,15 @@ country_decisions = {
 			custom_trigger_tooltip = {
 				tooltip = bt_italian_maritime_republic_merchant_enclaves_tooltip
 				OR = {
-					377 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Aleppo
-					330 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Pontus
-					1322 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Crimea
-					358 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Cairo
-					341 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Tunis
-					1320 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Constantinople
-					5493 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Aegean
-					1309 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Ragusa
-					121 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Naples
+					377 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Aleppo
+					330 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Pontus
+					1322 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Crimea
+					358 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Cairo
+					341 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Tunis
+					1320 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Constantinople
+					5493 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Aegean
+					1309 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Ragusa
+					121 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Naples
 				}
 			}
 		}
@@ -48,26 +48,26 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							1295 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Valencia
-							341 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Tunis
+							1295 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Valencia
+							341 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Tunis
 						}
 						home_trade_node = { province_id = 1298 } # XXX
 					}
 					1295 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Valencia
 				}
 				if = {
-					limit = { 377 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } } }			#Aleppo
+					limit = { 377 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } } }			#Aleppo
 					377 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Aleppo
 				}
 				if = {
-					limit = { 330 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } } }			#Pontus
+					limit = { 330 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } } }			#Pontus
 					330 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Pontus
 				}
 				if = {
 					limit = {
 						OR = {
-							330 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Pontus
-							1322 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Crimea
+							330 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Pontus
+							1322 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }		#Crimea
 						}
 					}
 					1322 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Crimea
@@ -75,9 +75,9 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							330 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Pontus
-							1322 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Crimea
-							1320 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Constantinople
+							330 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Pontus
+							1322 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Crimea
+							1320 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Constantinople
 						}
 					}
 					1320 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Constantinople
@@ -85,8 +85,8 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							377 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Aleppo
-							358 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Cairo
+							377 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Aleppo
+							358 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }		#Cairo
 						}
 					}
 					358 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Cairo
@@ -94,10 +94,10 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							377 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Aleppo
-							358 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Cairo
-							1320 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Constantinople
-							5493 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Aegean
+							377 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Aleppo
+							358 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Cairo
+							1320 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }		#Constantinople
+							5493 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }		#Aegean
 						}
 					}
 					5493 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Aegean
@@ -105,8 +105,8 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							358 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Cairo
-							341 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Tunis
+							358 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Cairo
+							341 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }		#Tunis
 						}
 					}
 					341 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Tunis
@@ -114,8 +114,8 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							5493 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Aegean
-							1309 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Ragusa
+							5493 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Aegean
+							1309 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }		#Ragusa
 						}
 					}
 					1309 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Ragusa
@@ -123,10 +123,10 @@ country_decisions = {
 				if = {
 					limit = {
 						OR = {
-							341 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Tunis
-							5493 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Aegean
-							1309 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Ragusa
-							121 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Naples
+							341 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }			#Tunis
+							5493 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }		#Aegean
+							1309 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }		#Ragusa
+							121 = { any_trade_node_member_country = { OR = { is_subject_of = ROOT } tag = ROOT } }		#Naples
 						}
 					}
 					121 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Naples

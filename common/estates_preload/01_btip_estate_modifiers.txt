@@ -1,0 +1,241 @@
+estate_peasants = {
+	modifier_definition = {
+		type = loyalty
+		key = peasants_loyalty_modifier
+		trigger = {
+			has_estate = estate_peasants
+		}
+	}
+	
+	modifier_definition = {
+		type = loyalty
+		key = peasants_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_peasants
+			has_government_attribute = no_peasants_loyalty_loss_from_absolutism
+		}
+	}
+
+	modifier_definition = {
+		type = influence
+		key = peasants_influence_modifier
+		trigger = {
+			has_estate = estate_peasants
+		}
+	}
+	
+	modifier_definition = {
+		type = privileges
+		key = peasants_privilege_slots
+		trigger = {
+			has_estate = estate_peasants
+		}
+	}
+	#May potentially do something for peasant republic-specific modifiers. Will have to get back to this.
+}
+
+#Of the below, only the Church is currently in use, and that's for Byzantine Resurgence. The rest have been created for mod compatibility purposes.
+estate_church = {
+	modifier_definition = {
+		type = loyalty
+		key = church_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_church
+			NOT = { has_government_attribute = no_church_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_nobles = {
+	modifier_definition = {
+		type = loyalty
+		key = nobles_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_nobles
+			NOT = { has_government_attribute = no_nobles_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_burghers = {
+	modifier_definition = {
+		type = loyalty
+		key = burghers_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_burghers
+			NOT = { has_government_attribute = no_burghers_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_cossacks = {
+	modifier_definition = {
+		type = loyalty
+		key = cossacks_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_cossacks
+			NOT = { has_government_attribute = no_cossacks_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_nomadic_tribes = {
+	modifier_definition = {
+		type = loyalty
+		key = nomadic_tribes_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_nomadic_tribes
+			NOT = { has_government_attribute = no_nomadic_tribes_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_dhimmi = {
+	modifier_definition = {
+		type = loyalty
+		key = dhimmi_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_dhimmi
+			NOT = { has_government_attribute = no_dhimmi_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_maratha = {
+	modifier_definition = {
+		type = loyalty
+		key = maratha_exclusive_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_maratha
+			NOT = { has_estate = estate_nobles }
+			NOT = { has_government_attribute = no_maratha_loyalty_loss_from_absolutism }
+		}
+	}
+	modifier_definition = {
+		type = loyalty
+		key = maratha_muslim_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_maratha
+			religion_group = muslim
+			NOT = { has_government_attribute = no_maratha_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_brahmins = {
+	modifier_definition = {
+		type = loyalty
+		key = brahmins_hindu_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_brahmins
+			religion = hinduism
+			NOT = { has_government_attribute = no_brahmins_loyalty_loss_from_absolutism }
+		}
+	}
+	modifier_definition = {
+		type = loyalty
+		key = brahmins_muslim_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_brahmins
+			religion_group = muslim
+			NOT = { has_government_attribute = no_brahmins_loyalty_loss_from_absolutism }
+		}
+	}
+	modifier_definition = {
+		type = loyalty
+		key = brahmins_other_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_brahmins
+			NOT = { religion = hinduism }
+			NOT = { religion_group = muslim }
+			NOT = { has_government_attribute = no_brahmins_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_vaisyas = {
+	modifier_definition = {
+		type = loyalty
+		key = vaisyas_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_vaisyas
+			NOT = { has_government_attribute = no_vaisyas_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_jains = {
+	modifier_definition = {
+		type = loyalty
+		key = jains_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_jains
+			NOT = { has_government_attribute = no_jains_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_rajput = {
+	modifier_definition = {
+		type = loyalty
+		key = rajput_exclusive_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_rajput
+			NOT = { has_estate = estate_nobles }
+			NOT = { has_government_attribute = no_rajput_loyalty_loss_from_absolutism }
+		}
+	}
+	modifier_definition = {
+		type = loyalty
+		key = rajput_muslim_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_rajput
+			religion_group = muslim
+			NOT = { has_government_attribute = no_rajput_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_janissaries = {
+	modifier_definition = {
+		type = loyalty
+		key = janissaries_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_janissaries
+			NOT = { has_government_attribute = no_janissaries_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_eunuchs = {
+	modifier_definition = {
+		type = loyalty
+		key = eunuchs_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_eunuchs
+			NOT = { has_government_attribute = no_eunuchs_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_ghulams = {
+	modifier_definition = {
+		type = loyalty
+		key = ghulams_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_ghulams
+			NOT = { has_government_attribute = no_ghulams_loyalty_loss_from_absolutism }
+		}
+	}
+}
+
+estate_qizilbash = {
+	modifier_definition = {
+		type = loyalty
+		key = qizilbash_absolutism_loyalty_modifier
+		trigger = {
+			has_estate = estate_qizilbash
+			NOT = { has_government_attribute = no_qizilbash_loyalty_loss_from_absolutism }
+		}
+	}
+}

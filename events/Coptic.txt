@@ -397,7 +397,10 @@ country_event = {
 					NOT = { religion = coptic } 
 					owned_by = ROOT
 				}
-				set_province_flag = copts_liberated
+				add_province_modifier = {
+					name = the_faithful_liberated
+					duration = 3650
+				}
 			}
 		}
 	}

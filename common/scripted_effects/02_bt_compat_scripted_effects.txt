@@ -1,0 +1,29 @@
+#This file has been created to allow mod addon authors to inject specific code into BT's files without having to alter an entire file.
+#By creating a file that injects these particular scripted effects, while the filename precedes this one alphabetically,
+#addon mod authors can ensure compatibility between one another by not having to modify the core file, and can selectively alter scripted effects within this file.
+#Should something in the BT mod proper be moved to this file, please notify the mod authors and it can be done.
+#//Dub
+
+bt_compat_swe_swedish_peasantry_effect_effect = {
+	add_country_modifier = {
+		name = swe_support_of_the_peasantry
+		duration = -1
+	}
+	custom_tooltip = swe_swedish_peasantry_tt
+	hidden_effect = {
+		every_owned_province = {
+			limit = {
+				OR = {
+					trade_goods = grain
+					trade_goods = fish
+					trade_goods = livestock
+				}
+			}
+			add_province_modifier = {
+				name = swe_support_of_the_peasantry_prov
+				duration = -1
+				hidden = yes
+			}
+		}
+	}
+}

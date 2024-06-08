@@ -1,0 +1,4 @@
+#(JP) Saho, will override Somali in cushitic.txt
+#(JP) Using Afar names where no Saho exists
+
+#Horn of Africa  

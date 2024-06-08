@@ -1,0 +1,17 @@
+#ISP - Ispahbads of Gilan (Talish)
+
+#Political Situation
+capital = 7285
+
+#Government
+government_rank = 1
+government = monarchy
+add_government_reform = iqta
+
+#Demographics
+primary_culture = talysh
+religion = sunni
+religious_school = hanafi_school
+
+#Tech and Military
+technology_group = muslim

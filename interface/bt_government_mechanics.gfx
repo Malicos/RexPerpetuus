@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_draft_mamluks_button"
+		texturefile = "gfx/interface/government_mechanics/ayyubid_sultanate_mechanic/draft_mamluks_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_grant_iqta_button"
+		texturefile = "gfx/interface/government_mechanics/ayyubid_sultanate_mechanic/grant_iqta_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_sponsor_shayks_button"
+		texturefile = "gfx/interface/government_mechanics/ayyubid_sultanate_mechanic/sponsor_shayks_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

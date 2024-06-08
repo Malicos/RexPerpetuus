@@ -1,0 +1,90 @@
+﻿l_english:
+ # Here is where any additional modifiers for any of the dev points modifiers go. 
+ # It needs to be in here to keep the files neat and organised.
+ # Follow the rules of the file and it should work all fine.
+ 
+ # Remember it needs to be in 01_dev_points_additional_modifiers.txt as well to work.
+
+
+ #################################################################################################
+ # Province Base Dev Points - The customisable localisation [YourCustomLoc] goes here
+ dev_points_province_base_additional_modifiers: "[This.DevPointsProvinceBtEnglishLoyalistImmigrants][This.DevPointsProvinceBulBulgarianMacedoniaMod]"
+ 
+ # Province Base Dev Points - The customisable localisation actual string goes below here
+ #dev_points_province_base_example_LOC_positive_modifier: "\nYour Modifier: §G+0.05%§!"
+ #dev_points_province_base_example_LOC_negative_modifier: "\nYour Modifier: §R-0.05%§!"
+ dev_points_province_base_bt_english_loyalist_immigrants: "\nEngish Loyalist Immigrants: §G+0.10§!"
+ dev_points_province_base_bul_bulgarian_macedonia_mod: "\nBulgarian Macedonia: §G+0.02§!"
+ 
+ #################################################################################################
+ 
+ 
+ 
+ 
+ #################################################################################################
+ # Province Dev Points Modifiers - The customisable localisation [YourCustomLoc] goes here
+ dev_points_province_modifier_additional_modifiers: "[This.DevPointsProvinceDutchPolders]"
+ 
+ # Province Dev Points Modifiers - The customisable localisation actual string goes below here
+ #dev_points_province_modifier_example_LOC_positive_modifier: "\nYour Modifier: §G+20%§!"
+ #dev_points_province_modifier_example_LOC_negative_modifier: "\nYour Modifier: §R-20%§!"
+ dev_points_province_modifier_dutch_polders: "\nDutch Polders: §G+20%§!"
+ 
+ #################################################################################################
+ 
+ 
+ 
+ # Not yet working
+ #################################################################################################
+ # Country Base Dev Points - The customisable localisation [YourCustomLoc] goes here
+ dev_points_country_base_additional_modifiers: ""
+ 
+ # Country Base Dev Points - The customisable localisation actual string goes below here
+ #dev_points_country_base_example_LOC_positive_modifier: "\nYour Modifier: §G+2§!"
+ #dev_points_country_base_example_LOC_negative_modifier: "\nYour Modifier: §R-2§!"
+ 
+ 
+ #################################################################################################
+
+ 
+ 
+ 
+ #################################################################################################
+ # Country Dev Points Modifiers - The customisable localisation [YourCustomLoc] goes here
+ dev_points_country_modifier_additional_modifiers: ""
+ 
+ # Country Dev Points Modifiers - The customisable localisation actual string goes below here
+ #dev_points_country_modifier_example_LOC_positive_modifier: "\nYour Modifier: §G+20%§!"
+ #dev_points_country_modifier_example_LOC_positive_modifier: "\nYour Modifier: §R-20%§!"
+ 
+ 
+ #################################################################################################
+ 
+ 
+ 
+ 
+ #################################################################################################
+ # Max Base Dev Points - The customisable localisation [YourCustomLoc] goes here
+ max_dev_points_country_base_additional_modifiers: ""
+ 
+ # Max Base Dev Points - The customisable localisation actual string goes below here
+ #max_dev_points_country_base_example_LOC_positive_modifier: "\nYour Modifier: §G+20%§!"
+ #max_dev_points_country_base_example_LOC_negative_modifier: "\nYour Modifier: §R-20%§!"
+ 
+ 
+ #################################################################################################
+ 
+ 
+ 
+ # Not yet working
+ #################################################################################################
+ # Max Dev Points Modifiers - The customisable localisation [YourCustomLoc] goes here
+ max_dev_points_country_modifier_additional_modifiers: ""
+ 
+ # Max Dev Points Modifiers - The customisable localisation actual string goes below here
+ #max_dev_points_country_modifier_example_LOC_positive_modifier: "\nYour Modifier: §G+20%§!"
+ #max_dev_points_country_modifier_example_LOC_negative_modifier: "\nYour Modifier: §R-20%§!"
+ 
+ 
+ 
+ #################################################################################################

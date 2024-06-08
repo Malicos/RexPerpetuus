@@ -1,0 +1,484 @@
+#Chocolate HabHun written by Pieter
+#edited by neo to work better with BT
+#Edited by Harbivore to work and then completely renamed to BT Austrian Unification
+
+namespace = bt_austrian_unification
+
+country_event = { 								#Event for styria informing them austria is now a pu of hungary
+	id = bt_austrian_unification.1
+	title = bt_austrian_unification.1.t
+	desc = bt_austrian_unification.1.desc
+	picture = ACCUSATION_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+			
+	option = {
+		name = bt_austrian_unification.1.a
+		ai_chance = { factor = 1 }
+		# hidden_effect = {
+			# every_owned_province = {
+				# limit = {
+					# is_core = HAB
+				# }
+				# add_core = STY
+			# }
+		# }
+		custom_tooltip = BT_StyrialosesLadislaus_Tooltip
+		add_prestige = -10
+	}
+}
+
+country_event = { #Nobles in Tirol force the duchy to be ruled by the styrian/austrian king
+	id = bt_austrian_unification.2
+	title = bt_austrian_unification.2.t
+	desc = bt_austrian_unification.2.desc
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1450
+		NOT = { 
+			is_year = 1500
+		}
+		tag = TIR
+		OR = {
+			dynasty = HAB
+			dynasty = STY
+		}
+		OR = {
+			HAB = {
+				exists = yes
+				has_country_flag = bt_the_real_austria
+			}
+			STY = {
+				exists = yes
+				has_country_flag = bt_the_real_austria
+			}
+		}
+		NOT = {
+			is_at_war = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.75
+			is_year = 1450
+		}
+		modifier = {
+			factor = 0.666
+			is_year = 1460
+		}
+		modifier = {
+			factor = 0.5
+			is_year = 1470
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 40
+				}
+			}
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 20
+				}
+			}
+		}
+			
+    }
+	
+	option = {
+		name = bt_austrian_unification.2.a
+		ai_chance = { factor = 1 }
+		if = { 
+			limit = { 
+				STY = { 
+					exists = yes 
+					has_country_flag = bt_the_real_austria
+				} 
+				ai = yes
+			}
+			STY = { 
+				inherit = TIR 
+			}
+		}
+		else_if = { 
+			limit = { 
+				STY = { 
+					exists = yes 
+					has_country_flag = bt_the_real_austria
+				} 
+				ai = no
+			}
+			switch_tag = STY
+			inherit = TIR
+		}
+		else_if = {
+			limit = {
+				HAB = { 
+					exists = yes 
+					has_country_flag = bt_the_real_austria
+				} 
+				ai = yes
+			}
+			HAB = {
+				inherit = TIR 
+			}
+		}
+		else_if = {
+			limit = {
+				HAB = { 
+					exists = yes 
+					has_country_flag = bt_the_real_austria
+				} 
+				ai = no
+			}
+			switch_tag = HAB
+			inherit = TIR
+		}
+	}
+	
+	option = {
+		name = bt_austrian_unification.2.b
+		ai_chance = { 
+			factor = 0 
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -30
+		}
+	}
+}
+
+country_event = { #Maximilian is born 
+	id = bt_austrian_unification.3
+	title = bt_austrian_unification.3.t
+	desc = bt_austrian_unification.3.desc
+	#picture = DEATH_OF_HEIR_eventPicture
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = { 
+		OR = {
+			AND = {
+				tag = STY
+				has_country_flag = bt_the_real_austria
+			}
+			AND = {
+				tag = HAB
+				has_country_flag = bt_the_real_austria
+			}
+		}
+		has_ruler = "Friedrich III"
+		is_year = 1455
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+		modifier = {
+			factor = 0.5
+			has_consort = yes
+			NOT = {
+				has_heir = yes
+			}
+		}
+		modifier = {
+			factor = 0.5
+			is_year = 1465
+		}
+		modifier = {
+			factor = 6
+			has_heir = yes
+		}
+	}
+	
+	option = { #Maximilian
+		name = bt_austrian_unification.3.a
+		ai_chance = { factor = 19 }
+		define_heir = {
+			name = "Maximilian"
+			dynasty = ROOT
+			age = 0
+			adm = 4
+			dip = 5
+			mil = 4
+			claim = 90
+			male = yes
+		}
+		custom_tooltip = BT_StyriagetsMaximilian_Tooltip
+		hidden_effect = {
+			remove_country_modifier = bt_au_cannot_get_heir_or_die
+			remove_country_modifier = bt_au_cannot_get_heir
+		}
+	}
+}
+
+
+country_event = { #Event for Styria to get Ladislaus as an heir after he leaves for Hungary
+	id = bt_austrian_unification.4
+	desc = bt_austrian_unification.4.desc
+	title = bt_austrian_unification.4.t
+	picture = CONQUEST_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = STY
+		has_country_flag = bt_the_real_austria
+		is_year = 1445
+		HUN = { has_heir = "Ladislaus Postumus" }
+	}
+
+	mean_time_to_happen = {
+		months = 12
+    }
+	
+	option = {
+		name = bt_austrian_unification.4.opt
+		define_heir = {
+			name = "Ladislaus Postumus"
+			dynasty = "von Habsburg"
+			culture = austrian
+			adm = 3
+			dip = 3
+			mil = 2
+			birth_date = 1440.2.22
+			claim = 60
+		}
+		set_country_flag = hab_ladislaus_postumus_heir
+		remove_country_modifier = bt_au_cannot_get_heir_or_die
+		add_country_modifier = {
+			name = bt_au_cannot_get_heir 
+			duration = -1
+			hidden = yes
+		}
+		set_heir_flag = united_austria_person
+		custom_tooltip = BT_StyriaproclaimsLadislausheir_Tooltip
+	}
+}
+
+country_event = { #Event for removing modifiers if something goes wrong
+	id = bt_austrian_unification.5
+	desc = bt_austrian_unification.5.desc
+	title = bt_austrian_unification.5.t
+	picture = CONQUEST_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			TAG = STY
+			TAG = HAB
+			TAG = VOR
+		}
+		is_year = 1490
+		OR = {
+			has_country_modifier = bt_au_cannot_get_heir
+			has_country_modifier = bt_au_cannot_get_heir_or_die
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 0
+    }
+	
+	option = {
+		name = bt_austrian_unification.5.opt
+		remove_country_modifier = bt_au_cannot_get_heir_or_die
+		remove_country_modifier = bt_au_cannot_get_heir
+	}
+}
+
+country_event = { #Event for turning styria into austria
+	id = bt_austrian_unification.6
+	desc = bt_austrian_unification.6.desc
+	title = bt_austrian_unification.6.t
+	picture = CONQUEST_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		TAG = STY
+		has_country_flag = bt_the_real_austria
+		NOT = { exists = HAB }
+		owns = 134
+		num_of_owned_provinces_with = {
+			value = 10
+			is_core = root
+			culture = austrian
+			continent = europe
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 0
+    }
+	
+	immediate = {
+		change_tag = HAB
+		on_change_tag_effect = yes
+		restore_country_name = yes
+		swap_non_generic_missions = yes
+		if = {
+			limit = { ai = yes }
+			set_ai_personality = {
+				personality = ai_balanced
+				locked = yes
+			}
+			add_manpower = 10	#Just for ai to help them
+			add_treasury = 200
+		}
+		8471 = {				#Added cores to all provinces of Austrian culture in germany
+			add_core = HAB
+		}
+		8474 = {
+			add_core = HAB
+		}
+		8469 = {
+			add_core = HAB
+		}
+		8480 = {
+			add_core = HAB
+		}
+		8475 = {
+			add_core = HAB
+		}
+		4759 = {
+			add_core = HAB
+		}
+		8481 = {
+			add_core = HAB
+		}
+		7762 = {
+			add_core = HAB
+		}
+		austria_proper_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		inner_austria_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		tirol_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		salzburg_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		austria_proper_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		upper_austria_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		carinthia_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		carniola_area = {
+			limit = {
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = HAB
+		}
+		#Swap culture, government, government reform & ideas, plus set flag
+		add_government_reform = austrian_archduchy_reform
+		if = {
+			limit = {
+				NOT = { has_idea_group = HAB_ideas }
+			}
+			swap_ideas = yes
+		}
+		set_country_flag = formed_austria_flag
+	}
+	
+	option = {
+		name = bt_austrian_unification.6.opt
+			add_prestige = 10
+			add_legitimacy = 20
+			add_splendor = 200	
+	}
+}
+
+country_event = {                         #Event to add development to austrian gold mine to help their economy
+	id = bt_austrian_unification.7
+	desc = bt_austrian_unification.7.desc
+	title = bt_austrian_unification.7.t
+	picture = CONQUEST_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			TAG = STY
+			TAG = HAB
+			TAG = TIR
+		}
+		owns = 73
+		adm_power = 50
+		dip_power = 50
+		mil_power = 50
+		73 = {
+			NOT = {
+			 	base_tax = 10
+				base_production = 10
+				base_manpower = 10
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 240
+    }
+	
+	option = {
+		name = bt_austrian_unification.7.opt
+		add_adm_power = -50
+		add_dip_power = -100
+		add_mil_power = -50
+		73 = {
+			add_base_tax = 1
+			add_base_production = 2
+			add_base_manpower = 1
+		}
+	}
+}

@@ -1,0 +1,9 @@
+
+
+custom_text_box = {
+	name = bt_cultures_value_gui
+	potential = { 
+		always = yes
+    }
+   tooltip = bt_cultures_value_gui_tooltip
+}

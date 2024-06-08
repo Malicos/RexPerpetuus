@@ -1,0 +1,4 @@
+cossack_host_bonus = {
+	allowed_cossack_fraction = 0.2
+	can_recruit_cossacks = yes
+}

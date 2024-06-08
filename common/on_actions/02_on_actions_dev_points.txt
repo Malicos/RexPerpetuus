@@ -1,0 +1,71 @@
+#When adding effects directly in on_actions always consider if it would be best to do so through a scripted effect. on_actions with a lot of script in them are harder to get an overview of.
+
+# country
+on_startup = {
+	events = {
+		dev_points.3		#Event for all nations on startup to initialise all the dev points variables
+	}
+}
+# province
+on_adm_development = {
+	province_event = {
+		id = dev_points.5	#Event that decides who should be paying for the province having it's tax development being increased
+	}
+	if = {					#Decreases this variable when the province is developed, the variable is to prioritise this province for missions and agendas
+		limit = {
+			check_variable = {
+				which = num_of_times_needed_to_be_deved_for_missions_or_agendas
+				value = 1
+			}
+		}
+		change_variable = {
+			which = num_of_times_needed_to_be_deved_for_missions_or_agendas
+			value = -1
+		}
+	}
+}
+
+# province
+on_dip_development = {
+	province_event = {
+		id = dev_points.55	#Event that decides who should be paying for the province having it's production development being increased
+	}
+	if = {					#Decreases this variable when the province is developed, the variable is to prioritise this province for missions and agendas
+		limit = {
+			check_variable = {
+				which = num_of_times_needed_to_be_deved_for_missions_or_agendas
+				value = 1
+			}
+		}
+		change_variable = {
+			which = num_of_times_needed_to_be_deved_for_missions_or_agendas
+			value = -1
+		}
+	}
+}
+
+# province
+on_mil_development = {
+	province_event = {
+		id = dev_points.555	#Event that decides who should be paying for the province having it's manpower development being increased
+	}
+	if = {					#Decreases this variable when the province is developed, the variable is to prioritise this province for missions and agendas
+		limit = {
+			check_variable = {
+				which = num_of_times_needed_to_be_deved_for_missions_or_agendas
+				value = 1
+			}
+		}
+		change_variable = {
+			which = num_of_times_needed_to_be_deved_for_missions_or_agendas
+			value = -1
+		}
+	}
+}
+
+
+on_country_creation = {
+	events = {
+		dev_points.3		#Event for all nations on startup to initialise all the dev points variables
+	}
+}

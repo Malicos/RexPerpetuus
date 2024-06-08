@@ -103,7 +103,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-
+	
 	triumph_asia = {
 		potential = {
 			tag = BYZ
@@ -139,7 +139,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-
+	
 	triumph_anatolia = {
 		potential = {
 			tag = BYZ
@@ -168,7 +168,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-
+	
 	triumph_italy = {
 		potential = {
 			tag = BYZ
@@ -187,7 +187,7 @@ country_decisions = {
 		}
 		allow = {
 			italy_region = { type = all owned_by = BYZ }
-
+			
 		}
 		effect = {
 			add_prestige = 35
@@ -198,5 +198,5 @@ country_decisions = {
 			factor = 1
 		}
 	}
-
+	
 }

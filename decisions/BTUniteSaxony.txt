@@ -24,22 +24,35 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
-			senior_union_with = THU
-			senior_union_with = MEI
-			THU = {
-				NOT = { liberty_desire = 50 }
-				has_opinion = {
-					who = ROOT
-					value = 100
+			if = {
+				limit = { senior_union_with = THU }
+				THU = {
+					NOT = { liberty_desire = 50 }
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
 				}
 			}
-			MEI = {
-				NOT = { liberty_desire = 50 }
-				has_opinion = {
-					who = ROOT
-					value = 100
+			else = {
+				owns_core_province = 4743
+				NOT = { exists = THU }
+			}
+			if = {
+				limit = { senior_union_with = MEI }
+				MEI = {
+					NOT = { liberty_desire = 50 }
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
 				}
 			}
+			else = {
+				owns_core_province = 61
+				NOT = { exists = MEI }
+			}
+			
 		}
 		effect = {
 			add_country_modifier = {
@@ -49,8 +62,36 @@ country_decisions = {
 			add_prestige = 25
 			#swap_free_idea_group = yes
 			set_country_flag = formed_saxony_flag_bt
-			inherit = MEI
-			inherit = THU
+			if = {
+				limit = { senior_union_with = MEI }
+				inherit = MEI
+			}
+			else = {
+				middle_saxony_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				south_saxony_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+			if = {
+				limit = { senior_union_with = THU }
+				inherit = THU
+			}
+			else = {
+				thuringia_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
 			override_country_name = bt_united_saxony
 		}
 		ai_will_do = {

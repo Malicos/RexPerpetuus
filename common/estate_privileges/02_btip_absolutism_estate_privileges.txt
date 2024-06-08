@@ -1,0 +1,241 @@
+#Added here in BR checking for the BTIP flag in order to avoid error log spam.
+estate_church_court_titles = {
+	icon = privilege_church_court_titles
+	loyalty = 0.1
+	is_valid = {
+		is_absolutism_active = yes
+		government = theocracy
+	}
+	can_select = {
+	}
+	on_granted = {
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	modifier_by_land_ownership = {
+	}
+	penalties = {
+		yearly_corruption = 0.1
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+		#AI will never take this - they tend to be pretty good at this anyway.
+		# modifier = { #Do this if cannot revoke privileges and has less loyalty than influence.
+			# factor = 10
+			# is_absolutism_active = yes
+			# num_of_estate_privileges = {
+				# estate = estate_church
+				# value = 1
+			# }
+			# estate_loyalty = {
+				# estate = estate_church
+				# higher_than_influence = no
+			# }
+		# }
+	}
+}
+
+estate_burghers_court_titles = {
+	icon = privilege_burghers_court_titles
+	loyalty = 0.1
+	is_valid = {
+		is_absolutism_active = yes
+		government = republic
+	}
+	can_select = {
+	}
+	on_granted = {
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	modifier_by_land_ownership = {
+	}
+	penalties = {
+		yearly_corruption = 0.1
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+		#AI will never take this - they tend to be pretty good at this anyway.
+		# modifier = { #Do this if cannot revoke privileges and has less loyalty than influence.
+			# factor = 10
+			# is_absolutism_active = yes
+			# num_of_estate_privileges = {
+				# estate = estate_burghers
+				# value = 1
+			# }
+			# estate_loyalty = {
+				# estate = estate_burghers
+				# higher_than_influence = no
+			# }
+		# }
+	}
+}
+
+estate_nobles_court_titles = {
+	icon = privilege_nobles_court_titles
+	loyalty = 0.1
+	is_valid = {
+		is_absolutism_active = yes
+		government = monarchy
+	}
+	can_select = {
+	}
+	on_granted = {
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	modifier_by_land_ownership = {
+	}
+	penalties = {
+		yearly_corruption = 0.1
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+		#AI will never take this - they tend to be pretty good at this anyway.
+		# modifier = { #Do this if cannot revoke privileges and has less loyalty than influence.
+			# factor = 10
+			# is_absolutism_active = yes
+			# num_of_estate_privileges = {
+				# estate = estate_nobles
+				# value = 1
+			# }
+			# estate_loyalty = {
+				# estate = estate_nobles
+				# higher_than_influence = no
+			# }
+		# }
+	}
+}
+
+
+estate_church_tithe_collection_freedom = {
+	icon = privilege_tithe_collection_freedom
+	loyalty = 0.1
+	is_valid = {
+		is_absolutism_active = yes
+	}
+	can_select = {
+	}
+	on_granted = {
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	modifier_by_land_ownership = {
+	}
+	penalties = {
+		yearly_corruption = 0.2
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+		#AI will never take this - they tend to be pretty good at this anyway.
+		# modifier = { #Do this if cannot revoke privileges and has less loyalty than influence.
+			# factor = 10
+			# is_absolutism_active = yes
+			# num_of_estate_privileges = {
+				# estate = estate_church
+				# value = 1
+			# }
+			# estate_loyalty = {
+				# estate = estate_church
+				# higher_than_influence = no
+			# }
+			# NOT = { corruption = 5 }
+		# }
+	}
+}
+
+estate_burghers_trade_deals_freedom = {
+	icon = privilege_trade_deals_freedom
+	loyalty = 0.1
+	is_valid = {
+		is_absolutism_active = yes
+	}
+	can_select = {
+	}
+	on_granted = {
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	modifier_by_land_ownership = {
+	}
+	penalties = {
+		yearly_corruption = 0.2
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+		#AI will never take this - they tend to be pretty good at this anyway.
+		# modifier = { #Do this if cannot revoke privileges and has less loyalty than influence.
+			# factor = 10
+			# is_absolutism_active = yes
+			# num_of_estate_privileges = {
+				# estate = estate_burghers
+				# value = 1
+			# }
+			# estate_loyalty = {
+				# estate = estate_burghers
+				# higher_than_influence = no
+			# }
+			# NOT = { corruption = 5 }
+		# }
+	}
+}
+
+estate_nobles_tax_collection_freedom = {
+	icon = privilege_tax_collection_freedom
+	loyalty = 0.1
+	is_valid = {
+		is_absolutism_active = yes
+	}
+	can_select = {
+	}
+	on_granted = {
+	}
+	on_revoked = {
+	}
+	on_invalid = {
+	}
+	modifier_by_land_ownership = {
+	}
+	penalties = {
+		yearly_corruption = 0.2
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 1
+		#AI will never take this - they tend to be pretty good at this anyway.
+		# modifier = { #Do this if cannot revoke privileges and has less loyalty than influence.
+			# factor = 10
+			# is_absolutism_active = yes
+			# num_of_estate_privileges = {
+				# estate = estate_nobles
+				# value = 1
+			# }
+			# estate_loyalty = {
+				# estate = estate_nobles
+				# higher_than_influence = no
+			# }
+			# NOT = { corruption = 5 }
+		# }
+	}
+}

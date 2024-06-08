@@ -1,0 +1,190 @@
+namespace = estate_privilege_events
+
+#At some point I intend on porting over the Generals/Strategoi estate privilege event(s) here, but right now I cannot be bothered.
+#ID list (First number is estate icon ID):
+#100s = estate_church
+#200s = estate_nobles
+#300s = estate_burghers
+#...
+#1200s = estate_generals
+#1300s = estate_exarches
+#1400s = estate_peasants
+
+country_event = { #201 Bulgarian Hillforts privilege modifiers application for newly conquered provinces, or provinces gaining or losing forts because on_actions is bad.
+	id = estate_privilege_events.201
+	title = estate_privilege_events.201.t
+	desc = estate_privilege_events.201.d
+	picture = BATTLE_eventPicture
+	
+	hidden = yes
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	trigger = {
+		has_estate = estate_nobles
+		has_estate_privilege = estate_nobles_bulgarian_hill_forts
+		any_owned_province = {
+			OR = {
+				AND = {
+					has_terrain = mountain
+					has_fort_building_trigger = yes
+					NOT = { has_province_modifier = estate_nobles_bulgarian_hillforts_mountains_fort }
+				}
+				AND = {
+					has_terrain = hills
+					has_fort_building_trigger = yes
+					NOT = { has_province_modifier = estate_nobles_bulgarian_hillforts_hills_fort }
+				}
+				AND = {
+					has_terrain = mountain
+					NOT = { has_fort_building_trigger = yes }
+					NOT = { has_province_modifier = estate_nobles_bulgarian_hillforts_mountains_no_fort }
+				}
+				AND = {
+					has_terrain = hills
+					NOT = { has_fort_building_trigger = yes }
+					NOT = { has_province_modifier = estate_nobles_bulgarian_hillforts_hills_no_fort }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = estate_privilege_events.200.a #Apply effects
+		every_owned_province = {
+			limit = {
+				OR = {
+					AND = {
+						has_terrain = mountain
+						has_fort_building_trigger = yes
+						NOT = { has_province_modifier = estate_nobles_bulgarian_hillforts_mountains_fort }
+					}
+					AND = {
+						has_terrain = hills
+						has_fort_building_trigger = yes
+						NOT = { has_province_modifier = estate_nobles_bulgarian_hillforts_hills_fort }
+					}
+					AND = {
+						has_terrain = mountain
+						NOT = { has_fort_building_trigger = yes }
+						NOT = { has_province_modifier = estate_nobles_bulgarian_hillforts_mountains_no_fort }
+					}
+					AND = {
+						has_terrain = hills
+						NOT = { has_fort_building_trigger = yes }
+						NOT = { has_province_modifier = estate_nobles_bulgarian_hillforts_hills_no_fort }
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_terrain = mountain
+				}
+				if = {
+					limit = {
+						has_fort_building_trigger = yes
+					}
+					if = {
+						limit = {
+							has_province_modifier = estate_nobles_bulgarian_hillforts_mountains_no_fort
+						}
+						remove_province_modifier = estate_nobles_bulgarian_hillforts_mountains_no_fort
+					}
+					add_province_modifier = {
+						name = estate_nobles_bulgarian_hillforts_mountains_fort
+						duration = -1
+					}
+				}
+				else = {
+					if = {
+						limit = {
+							has_province_modifier = estate_nobles_bulgarian_hillforts_mountains_fort
+						}
+						remove_province_modifier = estate_nobles_bulgarian_hillforts_mountains_fort
+					}
+					add_province_modifier = {
+						name = estate_nobles_bulgarian_hillforts_mountains_no_fort
+						duration = -1
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						has_fort_building_trigger = yes
+					}
+					if = {
+						limit = {
+							has_province_modifier = estate_nobles_bulgarian_hillforts_hills_no_fort
+						}
+						remove_province_modifier = estate_nobles_bulgarian_hillforts_hills_no_fort
+					}
+					add_province_modifier = {
+						name = estate_nobles_bulgarian_hillforts_hills_fort
+						duration = -1
+					}
+				}
+				else = {
+					if = {
+						limit = {
+							has_province_modifier = estate_nobles_bulgarian_hillforts_hills_fort
+						}
+						remove_province_modifier = estate_nobles_bulgarian_hillforts_hills_fort
+					}
+					add_province_modifier = {
+						name = estate_nobles_bulgarian_hillforts_hills_no_fort
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #1400 Peasants Mining privilege modifiers application for newly conquered provinces because on_actions is bad.
+	id = estate_privilege_events.1400
+	title = estate_privilege_events.1400.t
+	desc = estate_privilege_events.1400.d
+	picture = BATTLE_eventPicture
+	
+	hidden = yes
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	trigger = {
+		has_estate = estate_peasants
+		has_estate_privilege = estate_peasants_mining_privileges
+		any_owned_province = {
+			OR = {
+				trade_goods = gold
+				trade_goods = iron
+				trade_goods = copper
+				trade_goods = coal
+			}
+			NOT = { has_province_modifier = estate_peasants_mining_privileges_mod }
+		}
+	}
+	
+	option = {
+		name = estate_privilege_events.1400.a #Apply effects
+		every_owned_province = {
+			limit = {
+				OR = {
+					trade_goods = gold
+					trade_goods = iron
+					trade_goods = copper
+					trade_goods = coal
+				}
+				NOT = { has_province_modifier = estate_peasants_mining_privileges_mod }
+			}
+			add_province_modifier = {
+				name = estate_peasants_mining_privileges_mod
+				duration = -1
+			}
+		}
+	}
+}

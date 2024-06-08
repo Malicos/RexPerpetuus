@@ -13,6 +13,8 @@ difficulty_very_easy_player = {
 	manpower_recovery_speed = 0.50
 	land_forcelimit_modifier = 0.5
 	naval_forcelimit_modifier = 0.5
+	production_efficiency = 0.5
+	global_tax_income = 60
 	global_regiment_cost = -0.33
 	global_ship_cost = -0.33
 	inflation_reduction = 0.05
@@ -99,11 +101,14 @@ city = {
 	allowed_num_of_buildings = 2
 	local_sailors_modifier = 0.25
 	garrison_growth = 0.05
+	base_local_dev_points = 0.02 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 	allowed_num_of_manufactories = 1
 }
 
 port = {
 	local_institution_spread = 0.10
+	local_has_geobukseon = yes
+	local_has_voc_indiamen = yes
 }
 
 in_state = {
@@ -114,6 +119,16 @@ in_capital_state = {
 	local_institution_spread = 0.05
 	local_state_maintenance_modifier = -0.5
 	local_governing_cost = -1.0
+	local_has_qizilbash = yes
+	local_dev_points_modifier = 0.5 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
+	
+	#BT Centralize State rebalance: Capital states cannot be centralized, so capital states get buffs equal to about 4-5 levels worth of centralize state clicks.
+	local_build_cost = -0.25
+	local_build_time = -0.25
+	regiment_recruit_speed = -0.5
+	ship_recruit_speed = -0.5
+	local_prosperity_growth = 1
+	local_development_cost_modifier = -0.1
 }
 
 coastal = {
@@ -123,8 +138,8 @@ coastal = {
 
 seat_in_parliament = {
 	#local_manpower_modifier = 0.1			#BTAddOn removed - local representation at a federal level doesn't neccessarily mean a boost to local economy.
-	#local_sailors_modifier = 0.05			#BTAddOn removed - local representation at a federal level doesn't neccessarily mean a boost to local economy.
-	#local_tax_modifier = 0.1			#BTAddOn removed - local representation at a federal level doesn't neccessarily mean a boost to local economy.
+	#local_sailors_modifier = 0.1			#BTAddOn removed - local representation at a federal level doesn't neccessarily mean a boost to local economy.
+	#local_tax_modifier = 0.15			#BTAddOn removed - local representation at a federal level doesn't neccessarily mean a boost to local economy.
 	#local_production_efficiency = 0.1			#BTAddOn removed - local representation at a federal level doesn't neccessarily mean a boost to local economy.
 	local_institution_spread = 0.10			#BTAddOn new - local representation at a federal level does often mean the province benefits from new ideas sooner. This also is a consolation prize for the enlightenment, which no longer spreads in provinces with a seat in parliament.
 	local_development_cost = -0.05			#BTAddOn new - little bonus, because I say so =p
@@ -188,6 +203,9 @@ sea_zone = {
 land_province = {
 	max_attrition = 5						#Maximum Attrition is 5
 	local_manpower_modifier = 0.25			#25% of manpower.
+	local_has_musketeers = yes
+	local_has_streltsy = yes
+	local_has_mamluks = yes
 }
 
 mild_winter = {
@@ -195,7 +213,6 @@ mild_winter = {
 	local_hostile_movement_speed = -0.10
 	local_friendly_movement_speed = -0.10
 	supply_limit_modifier = -0.2
-	
 	picture = "winter_mild"
 }
 
@@ -204,7 +221,8 @@ normal_winter = {
 	local_hostile_movement_speed = -0.30
 	local_friendly_movement_speed = -0.30
 	supply_limit_modifier = -0.5
-	
+	migration_cost = 0.1
+
 	picture = "winter_normal"
 }
 
@@ -213,7 +231,8 @@ severe_winter = {
 	local_hostile_movement_speed = -0.50
 	local_friendly_movement_speed = -0.50
 	supply_limit_modifier = -0.8
-	
+	migration_cost = 0.2
+
 	picture = "winter_severe"
 }
 
@@ -257,6 +276,9 @@ provincial_tax_income = {
 	#a tax income of 1.0 appears to be hardcoded into the engine. I hate messy stuff like this, but if I want to double dev, I'm going to have to offset it
 	tax_income = -0.5			#aforementioned offset
 	regiment_recruit_speed = -0.005
+	#local_great_project_upgrade_time = -0.01
+	#local_build_time = -0.01
+	#local_institution_spread = 0.02
 }
 
 provincial_production_size = {
@@ -266,6 +288,7 @@ provincial_production_size = {
 
 knowledge_sharing = {
 	institution_growth = 12
+	monthly_russian_modernization = 0.06
 }
 
 cardinals_spread_institution = {
@@ -274,11 +297,6 @@ cardinals_spread_institution = {
 
 manpower = {
 	garrison_growth = 0.005 # BT; 0.01
-}
-
-# Caps at 600
-horde_development = {
-	horde_unity = -3
 }
 
 province_razed = {
@@ -291,10 +309,12 @@ development = {
 	local_missionary_strength = -0.001
 	land_forcelimit	= 0.05			# special case, affected by autonomy
 	naval_forcelimit = 0.05			# special case, affected by autonomy & set to 0 by code if not port
-	local_sailors = 15			# special case, affected by autonomy & set to 0 by code if not port
+	local_sailors = 30			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.1
-	local_amount_of_banners = 0.05
-	local_amount_of_cawa = 0.125
+	local_amount_of_banners = 0.033 #BT Changed from 0.05 to match vanilla's 0.066
+	local_amount_of_cawa = 0.063 #BT Changed from 0.125 for dev doubling
+	local_amount_of_carolean = 0.05 #BT Changed from 0.1 for dev doubling
+	local_amount_of_hussars = 0.005 #BT Changed from 0.01 for dev doubling
 }
 
 development_scaled = {
@@ -324,11 +344,12 @@ patriarch_authority_global = {
 	church_influence_modifier = 0.10
 }
 
-pasha_state = {
-	local_state_maintenance_modifier = -0.5
-	local_unrest = -2
-	local_build_cost = 0.2
-	local_regiment_cost = 0.2
+pasha_state = { #Overwrote old entries with vanilla 1.35
+	#local_governing_cost = -0.2 #BT Cut because governing cost has been rebalanced.
+	min_local_autonomy = 20
+	local_state_maintenance_modifier = -0.33
+	local_autonomy = -0.1
+	local_tolerance_of_heathens = 10
 }
 
 colony_level = {
@@ -352,6 +373,7 @@ core = {
 
 non_core = {
 	local_missionary_strength = -0.02
+	min_local_autonomy = 90 #BT Added: Should be treated the same as territorial cores in states (colonial_core)
 }
 
 colonial_core = {
@@ -360,7 +382,7 @@ colonial_core = {
 	local_sailors_modifier = 0.75
 	local_missionary_strength = -0.02
 	min_local_autonomy = 50
-	local_governing_cost = -0.75
+	local_governing_cost = -0.5 #BT Adjusted from old -0.75 because vanilla
 }
 
 territory_core = {
@@ -389,6 +411,33 @@ march_bonus = {
 	naval_maintenance_modifier = -0.20
 }
 
+pu_subject_bonus = {
+	global_manpower_modifier = 0.25
+	land_forcelimit_modifier = 0.30
+	naval_forcelimit_modifier = 0.30
+	defensiveness = 0.2
+	fort_maintenance_modifier = -0.20
+	manpower_recovery_speed = 0.20
+	land_maintenance_modifier = -0.20
+	naval_maintenance_modifier = -0.20
+}
+
+pu_overlord_bonus = {
+	global_manpower = 4
+	global_sailors = 2000
+	global_manpower_modifier = 0.05
+	global_sailors_modifier = 0.05
+}
+
+gbr_emperor_of_india_subject_bonus = {
+	global_trade_goods_size_modifier = 0.15
+}
+
+gbr_emperor_of_india_overlord_bonus = {
+	trade_efficiency = 0.1
+	reduced_trade_penalty_on_non_main_tradenode = 0.25
+}
+
 same_culture_group = {
 	local_tax_modifier = -0.1				#10% penalty if same culture group but nothing else. Not applied if the controller is the Union Tag of the culture group, or has culture_group_union set.			#BTAddOn changed from 0.15, comprehensively reducing culture penalties and increasing religious ones
 	local_manpower_modifier = -0.1			#BTAddOn changed from 0.15, comprehensively reducing culture penalties and increasing religious ones
@@ -398,6 +447,7 @@ same_culture_group = {
 }
 
 non_accepted_culture = {
+	monthly_persian_influence = -0.01
 	local_tax_modifier = -0.25			#BTAddOn changed from 0.33, comprehensively reducing culture penalties and increasing religious ones
 	local_missionary_strength = -0.02
 	local_manpower_modifier = -0.25			#BTAddOn changed from 0.33, comprehensively reducing culture penalties and increasing religious ones
@@ -428,34 +478,40 @@ occupied = {
 	local_manpower_modifier = -0.5
 	local_sailors_modifier = -0.5
 	local_institution_spread = -0.1
-
+	local_dev_points_modifier = -0.5 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 	local_monthly_devastation = 0.2
+	local_autonomy = 1	#BT Added to make it possible to lower war score over long wars (Combined with province war score lowered with autonomy) +24 autonomy over 10 years of being occupied
 }
 
 under_siege = {
 	trade_goods_size_modifier = -0.25
 	province_trade_power_modifier = -0.25
 	local_institution_spread = -0.1
-
+	local_dev_points_modifier = -0.25 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 	local_monthly_devastation = 0.1
+	local_autonomy = 0.25	#BT Added to make it possible to lower war score over long wars (Combined with province war score lowered with autonomy) +12 autonomy over 10 years of being seiged
 }
 
 
 devastation = {
-	trade_goods_size_modifier = -1
+	trade_goods_size_modifier = -2 #BT Vanilla made +100% harsher
 	supply_limit_modifier = -0.5
-	local_institution_spread = -1.0
-	local_development_cost = 0.5			#BTAddOn changed from 0.1 - This is replacing my terrain addon's old stabilty impact on development cost, but I want something much more significant that 10 percent. Plus it appears a province can get through a normal war with less than 30 devastation often, so this can be higher.
-	local_manpower_modifier = -1.0
-	local_sailors_modifier = -1.0
+	local_institution_spread = -2.0 #BT Vanilla made +100% harsher
+	local_development_cost = 1			#BTAddOn changed from 0.1 - This is replacing my terrain addon's old stabilty impact on development cost, but I want something much more significant that 10 percent. Plus it appears a province can get through a normal war with less than 30 devastation often, so this can be higher. #BT Vanilla made +100% harsher
+	local_manpower_modifier = -2.0 #BT Vanilla made +100% harsher
+	local_sailors_modifier = -2.0 #BT Vanilla made +100% harsher
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
+	local_dev_points_modifier = -1 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
-prosperity = {
-	local_development_cost = -0.1
-	trade_goods_size_modifier = 0.25
+prosperity = { 							#BT changed to be more compatible with dev points and to reduce crazy goods produced
+	local_tax_modifier = 0.25
+	trade_goods_size_modifier = 0.1
+	local_manpower_modifier = 0.25
 	local_autonomy = -0.05
+	supply_limit = 1
+	local_dev_points_modifier = 0.20 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
 slaves_raided = {
@@ -481,11 +537,13 @@ intolerance = {
 unrest = {
 	regiment_recruit_speed = 0.1			#10% longer time to build troops for each rr
 	ship_recruit_speed = 0.1
+	local_tax_modifier = -0.02
 }
 
 nationalism = {
 	local_unrest = 0.5					#for each year revolt risk!
 	local_governing_cost = 0.01			#Default is 30 years of separatism - +30% governing cost.
+	min_local_autonomy = 3				#Default is 30 years of separatism - +90% autonomy floor
 }
 
 harsh_treatment = {
@@ -498,8 +556,9 @@ local_autonomy_multiplicative = {
 	local_tax_modifier = -1.0
 	local_production_efficiency = -1.0
 	province_trade_power_modifier = -0.5
-	land_forcelimit_modifier = -1.0 # Misleading, only used to avoid errors when applying effect of Estates in code. 
-	naval_forcelimit_modifier = -1.0 # Misleading, only used to avoid errors when applying effect of Estates in code. 
+	land_forcelimit_modifier = -1.0 # Misleading, only used to avoid errors when applying effect of Estates in code.
+	naval_forcelimit_modifier = -1.0 # Misleading, only used to avoid errors when applying effect of Estates in code.
+	local_dev_points_modifier = -0.5 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI, changed to be half seems to make more sense, with high autonomy still giving half the amount like trade
 }
 
 local_autonomy = {
@@ -511,6 +570,7 @@ local_autonomy_trade_company_multiplicative = {
 	local_tax_modifier = -1.0
 	local_production_efficiency = -0.5
 	land_forcelimit_modifier = -1.0
+	local_dev_points_modifier = -1.0 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
 local_autonomy_trade_company = {
@@ -543,10 +603,9 @@ resource_depleted = {
 }
 
 in_trade_company = {
-	local_unrest = -5 #Implementing to revert absolutism issues in TCs.
 	province_trade_power_modifier = 1
 	naval_forcelimit = 0.5
-	local_missionary_strength = -2
+	local_missionary_strength = -0.2
 	#local_institution_spread = 0.10			#BTAddOn removed - why exactly does an institution spread faster in the assend of the empire weeks away from the capital.... This also makes institutions spread faster to 3rd world neighbours than to European neighbours, which is silly.
 	local_governing_cost = 0.25
 }
@@ -558,6 +617,7 @@ left_trade_company = {
 
 scorched_earth = {
 	local_hostile_movement_speed = -0.30			#BTAddOn changed from -0.5 - that is far too much, and I don't like the way it stacks with my terrain changes
+	local_monthly_devastation = 0.25 #BT Inherited from vanilla
 }
 
 ##########################################################################
@@ -587,16 +647,19 @@ base_values = {
 	horde_unity = -2
 	devotion = -0.5
 	meritocracy = -2
-	governing_capacity = 200			#BTB Probably not a wise idea to lower from 200 to 80 based on the 10 to 4 max states conversion.
-	num_accepted_cultures = 1			#BTAddOn changed from 2 - Note accepted culture bonus to government levels, so kingdoms start with the same as vanilla, and empires get 1 more.
+	governing_capacity = 400			#BT Adjusted from 200 to 400 as part of GovCap overhaul. #BTB Probably not a wise idea to lower from 200 to 80 based on the 10 to 4 max states conversion.
+	num_accepted_cultures = 9999		#BT16 Accepted Culture Overhaul removing accepted culture slots.	#BTAddOn changed from 2 - Note accepted culture bonus to government levels, so kingdoms start with the same as vanilla, and empires get 1 more. Changed back to 2 because of number of cultures in bt is a lot higher #Harbivore
 	monthly_splendor = 1
-	artillery_bonus_vs_fort = 5
+	artillery_levels_available_vs_fort = 5
 	cav_to_inf_ratio = 0.3			#BTAddOn changed from 0.5 - Seriously, what normal army was a full 50 percent cavalry? Realistic might be closer to 10 as a base, but 30 hits a nice gameplay/realism balance, I think.
-	merc_maintenance_modifier = 0.5
+	merc_maintenance_modifier = 0.1
 	monthly_heir_claim_increase = 0.208
 	tolerance_of_heretics_capacity = 3
 	tolerance_of_heathens_capacity = 3
-
+	max_flagships = 1
+	num_of_parliament_issues = 10
+	has_marines = yes
+	promote_culture_cost = 0.5 #BT Accepted Culture Slots overhaul: Tech reduces promote culture cost by up to -50% by the end of the game. This is here partly to prevent modifier stacking until the absolute last part of the game, but also just makes sense to me. //Dub
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -607,6 +670,10 @@ ai_nation = {
 	native_uprising_chance = -0.18			#BTAddOn added - As was pointed out to me, the AI doesn't really handle native revolts well, so we want this to be very rare. 
 	army_tradition_decay = -0.02			#BTAddOn added - AI isn't and to be fair, shouldn't be, as aggressive as player. As a result, AI will always have lower tradition, and always be easily steamrolled by an expansionist player. Trying this to offset that a bit here.
 	navy_tradition_decay = -0.02			#BTAddOn added - AI isn't and to be fair, shouldn't be, as aggressive as player. As a result, AI will always have lower tradition, and always be easily steamrolled by an expansionist player. Trying this to offset that a bit here.
+	global_tax_modifier = 0.25				#BT Added: AI economy was too shit to be fun to play with.
+	production_efficiency = 0.25			#BT Added: AI economy was too shit to be fun to play with.
+	trade_efficiency = 0.25					#BT Added: AI economy was too shit to be fun to play with.
+	country_dev_points_modifier = 0.25 		#BT Added to ofset the ai not being able to expand  infrastructure. Consider removing when that is implimented.
 }
 
 
@@ -620,6 +687,9 @@ war_taxes = {
 stability = {
 	global_trade_power = 0.01			#1% chance each step.
 	global_spy_defence = 0.05				#-15 to +15% modifier
+	monthly_cultural_unity = 0.1
+	monthly_divine_authority = 0.05
+	country_dev_points_modifier = 0.05 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
 positive_stability = {
@@ -635,8 +705,8 @@ positive_stability = {
 	yearly_corruption = -0.02
 	global_institution_spread = 0.05
 	yearly_harmony = 0.25
-	
-	
+	monthly_ottoman_decadence = -0.05
+	monthly_authority_power = -0.01
 }
 
 privateering = {
@@ -651,12 +721,16 @@ negative_stability = {
 	devotion = 1
 	caravan_power = 0.05
 	yearly_harmony = 0.25
+	monthly_russian_modernization = 0.03
+	monthly_ottoman_decadence = -0.15
+	monthly_authority_power = 0.05
 }
 
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
 	global_unrest = -2.5
-	stability_cost_modifier = -0.1
-	war_exhaustion = -0.03
+	#stability_cost_modifier = -0.1 #BT Vanilla cut
+	war_exhaustion = -0.05 #BT Vanilla upped from -0.03
+	all_estate_loyalty_equilibrium = 0.1 #BT Vanilla added
 	
 	#Aborted these changes... I think the Autonomy caused some major lag
 	#global_unrest = -2.5
@@ -665,16 +739,16 @@ positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
 }
 
 negative_mandate = { # By default, starts at 50 mandate, 100% strength at 0 mandate
+	meritocracy = -2
+	reduced_liberty_desire = -30
 	global_trade_goods_size_modifier = -0.5
 	fire_damage_received = 0.5
 	shock_damage_received = 0.5
 	global_unrest = 5
 	mercenary_manpower = -0.5
 	global_manpower_modifier = -0.5
-	#BTB moved from Estate files.
-	nobles_loyalty_modifier = -0.1
-	church_loyalty_modifier = -0.1
-	burghers_loyalty_modifier = -0.1
+	all_estate_loyalty_equilibrium = -0.1 #BT Added as a counterbalance on positive mandate replacing an old BTB feature
+	
 
 	#Aborted these changes... I think the Autonomy caused some major lag
 	#global_autonomy = 0.2			#BTAddOn added. China seems simultaneously too weak and too strong, so I'm toying with some logic-inspired changes to see if that makes matters better. I feel like autonomy is going to be the key to a perfectly balanced China.
@@ -738,6 +812,16 @@ inflation = {
 	advisor_cost = 0.01						#1% for each inflation step
 	mercenary_cost = 0.01					#1% for each inflation step
 	fort_maintenance_modifier = 0.01		#1% for each inflation step
+	missionary_maintenance_cost = 0.01					#1% for each inflation step
+	colony_cost_modifier = 0.01							#1% for each inflation step
+	great_project_upgrade_cost = 0.01					#1% for each inflation step
+	embracement_cost = 0.01								#1% for each inflation step
+	colonial_subject_type_upgrade_cost_modifier = 0.01	#1% for each inflation step
+	colonial_type_change_cost_modifier = 0.01			#1% for each inflation step
+	center_of_trade_upgrade_cost = 0.01					#1% for each inflation step
+	trade_company_investment_cost = 0.01				#1% for each inflation step
+	state_maintenance_modifier = 0.01					#1% for each inflation step
+	monthly_russian_modernization = -0.01
 }
 
 bankruptcy = {
@@ -751,19 +835,30 @@ bankruptcy = {
 	sailors_recovery_speed = -1.0
 	advisor_cost = 0.5
 	monthly_fervor_increase = -1
-	global_colonial_growth = -200
 	global_autonomy = 0.05
 	global_institution_spread = -0.50
 	monthly_militarized_society = -0.5
+	monthly_prussian_militarized_society_1 = 0.02
+	monthly_prussian_militarized_society_2 = 0.05
+	monthly_prussian_militarized_society_3 = 0.075
 	yearly_absolutism = -2.0
 	technology_cost = 0.5
 	idea_cost = 0.5
 	imperial_mandate = -0.1
+	great_project_upgrade_cost = 0.5
+	monthly_russian_modernization = -1
+	monthly_authority_power = 0.25
+	country_dev_points_modifier = -0.5 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
 
 war = {
+	monthly_militarized_society = 0.1
 	rr_girondists_influence = 0.15
+	monthly_arabic_trade_influence_power = -0.5
+	monthly_blood = 0.3
+	monthly_authority_power = -0.05
+	country_dev_points_modifier = -0.20 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
 peace = {
@@ -773,6 +868,13 @@ peace = {
 	global_institution_spread = 0.1
 	rr_girondists_influence = -0.1
 	pr_smugglers_influence = 0.1
+	monthly_militarized_society = -0.1
+	monthly_ottoman_decadence = 0.1
+	monthly_asha_vahishta = 0.25
+	monthly_arabic_trade_influence_power = 0.1
+	monthly_cultural_unity = 0.1
+	monthly_blood = -0.05
+	monthly_authority_power = 0.1
 }
 
 unconditional_surrender = {
@@ -782,7 +884,7 @@ unconditional_surrender = {
 }
 
 call_for_peace = {
-	war_exhaustion = 0.008
+	war_exhaustion = 0.005
 }
 
 war_exhaustion = {
@@ -798,13 +900,19 @@ war_exhaustion = {
 	sailors_recovery_speed = -0.01
 	#siege_ability = -0.01			#BTAddOn removed. This made minimal difference with new fort bonuses, and was just cluttering up UI, really.
 	global_trade_goods_size_modifier = -0.02
+	monthly_militarized_society = -0.05
 	recover_army_morale_speed = -0.005			#BTAddOn new, as a war drags on soliders recover morale more slowly. At 20 WE it should be the penalty as 100 AT gives in bonus.
+	monthly_arabic_trade_influence_power = -0.05
+	monthly_cultural_unity = -0.05
+	monthly_authority_power = 0.01
+	country_dev_points_modifier = -0.025 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
 doom = {
 	technology_cost = 0.5
 	idea_cost = 0.2
 	ae_impact = -1
+	blood_gain_modifier = 1
 }
 
 authority = {
@@ -818,6 +926,7 @@ regency_council = {
 }
 
 trade_efficiency = {
+	allowed_voc_indiamen_fraction = 0.25	#At 100% Trade Efficiency you get 25% available VOC Indiamen
 }
 
 production_efficiency = {
@@ -830,9 +939,9 @@ trade_refusal = {
 
 mercantilism = {
 	global_prov_trade_power_modifier = 2.0
-	embargo_efficiency = 0.5
-	burghers_loyalty_modifier = 0.05
-	vaisyas_loyalty_modifier = 0.05
+	burghers_loyalty_modifier = 0.1 #BT Vanilla doubled effects
+	vaisyas_loyalty_modifier = 0.1 #BT Vanilla doubled effects
+	embargo_efficiency = 1 #BT Vanilla doubled effects
 }
 
 army_tradition = {
@@ -848,6 +957,11 @@ army_tradition = {
 	nobles_loyalty_modifier = 0.05
 	maratha_loyalty_modifier = 0.05
 	rajput_loyalty_modifier = 0.05
+	janissaries_loyalty_modifier = 0.05
+	qizilbash_loyalty_modifier = 0.05
+	ghulams_loyalty_modifier = 0.05
+	allowed_tercio_fraction = 0.1
+	allowed_samurai_fraction = 0.1
 }
 
 navy_tradition = {
@@ -859,8 +973,11 @@ navy_tradition = {
 	mr_traders_influence = 0.1
 	blockade_efficiency = 1
 	sailors_recovery_speed = 0.2
+	monthly_arabic_trade_influence_power = 0.2
 	burghers_loyalty_modifier = 0.05
 	vaisyas_loyalty_modifier = 0.05
+	allowed_geobukseon_fraction = 0.5
+	allowed_galleass_fraction = 0.5
 }
 
 positive_piety = { #As of 1.23 Legalism
@@ -869,16 +986,16 @@ positive_piety = { #As of 1.23 Legalism
 	global_tax_modifier = 0.20
 	brahmins_muslim_loyalty_modifier = -0.1
 	church_loyalty_modifier = 0.1
-	dhimmi_loyalty_modifier = -0.1
+	piety_dhimmi_loyalty_modifier = -0.1
 }
 
 #For convenience, its multiplied by negative piety in code.
 negative_piety = { #As of 1.23 Mysticism
 	land_morale = 0.10
 	global_missionary_strength = 0.03
-	defensiveness = 0.20
+	idea_cost = -0.1
 	brahmins_muslim_loyalty_modifier = 0.1
-	church_loyalty_modifier = -0.1
+	piety_church_loyalty_modifier = -0.1
 	dhimmi_loyalty_modifier = 0.1
 }
 
@@ -893,12 +1010,12 @@ defender_of_faith = {
 	prestige = 1							#1% extra prestige yearly
 	missionaries = 1
 	devotion = 0.5
-	
-	
+	monthly_asha_vahishta = 0.25
 }
 
 defender_of_faith_refused_cta = {
 	diplomatic_reputation = -1
+	monthly_asha_vahishta = -2
 }
 
 emperor = {
@@ -910,14 +1027,15 @@ emperor = {
 }
 
 states_in_hre = {							#bonuses for each non-free city with capital in HRE.. as emperor
-    land_forcelimit    = 0.2                # BT ~2.5x as many princes, bonus down by same factor
+    land_forcelimit = 0.2                # BT ~2.5x as many princes, bonus down by same factor
     global_manpower = 0.2                   # BT Look above.
+	global_tax_income = 0.6					# BT buff to make being emperor good
 }
 
 free_cities_in_hre = {                            #bonuses for each free city in the HRE.. as emperor
-    global_tax_income = 1                    # BT ~2x as many free cities. Up from 0p5 past version(unnecessary nerf?)
+    global_tax_income = 1.5                    # BT ~2x as many free cities. Up from 0p5 past version(unnecessary nerf?)
     global_manpower = 0.25                    # BT, look above. Up from 0p15 past version
-    land_forcelimit    = 0.5                    # BT, look above. Up from 0p15 past version
+    land_forcelimit = 0.5                    # BT, look above. Up from 0p15 past version
 }
 
 free_city_in_hre = {
@@ -949,15 +1067,37 @@ num_of_provinces = {
 	
 }
 
-# Multiplied by Development
-country_development = {
-	yearly_tribal_allegiance = -0.005
+# Multiplied by the amount of papal influence
+papal_influence = {
 }
 
-# Multiplied by Tribal Allegiance / 100
-tribal_allegiance = {
-	manpower_recovery_speed = 0.33
-	global_unrest = -3
+# Multiplied by the amount of Church Power
+church_power = {
+}
+
+# Multiplied by the amount of Fervor
+fervor = {
+	build_cost = -0.001
+	stability_cost_modifier = -0.001
+	years_of_nationalism = -0.05
+	improve_relation_modifier = 0.001
+}
+
+# Multiplied by the amount of Karma
+karma = {
+}
+
+# Multiplied by the amount of positive karma
+positive_karma = {
+}
+
+# Multiplied by the amount of negative karma
+negative_karma = {
+}
+
+# Multiplied by Development/COUNTRY_DEVELOPMENT_SCALE
+country_development = {
+	horde_unity = -1.5 #BT Halved for dev doubling
 }
 
 # Multiplied by current Legitimacy - 50
@@ -971,35 +1111,46 @@ legitimacy = {
 	monthly_militarized_society = 0.05
 	max_absolutism = 20
 	nobles_loyalty_modifier = 0.1
+	monthly_cultural_unity = 0.2
+	monthly_divine_authority = 0.3
 }
 
 #Multiplied by current Horde Unity - 50
 horde_unity = {
 	global_unrest = -4
 	discipline = 0.10
-	nomadic_tribes_loyalty_modifier = 0.05
+	#nomadic_tribes_loyalty_modifier = 0.05	#New Change
 }
-
 
 # Multiplied by current Devotion - 50
 devotion = {
 	papal_influence = 2
-	church_power_modifier = 0.25
+	monthly_fervor_increase = 2
+	church_power_modifier = 0.5
+	harmonization_speed = 0.5
+	monthly_piety_accelerator = 0.01
+	yearly_authority = 0.5
+	monthly_divine_authority = 0.1
+	yearly_patriarch_authority = 0.01
+	yearly_doom_reduction = 0.5
+	yearly_karma_decay = 0.1
 	prestige = 2
 	global_tax_modifier = 0.50
-	church_loyalty_modifier = 0.05
-	brahmins_hindu_loyalty_modifier = 0.05
+	church_loyalty_modifier = 0.1
+	brahmins_hindu_loyalty_modifier = 0.1
+	reform_progress_growth = 0.5
 }
 
 # Multiplied by current meritocracy - 50
 meritocracy = {
 	global_spy_defence = 1.0
 	advisor_cost = -0.5
+	reform_progress_growth = 0.5
 }
 
 # Multiplied by 50 - meritocracy
 low_meritocracy = {
-	yearly_corruption = 0.2 #i.e. 0.1 at 0 Meritocracy
+	yearly_corruption = 0.2 #i.e. 0.2 at 0 Meritocracy
 }
 
 # Scaled, multiplied by current corruption / 100
@@ -1007,24 +1158,33 @@ corruption = {
 	global_spy_defence = -0.25
 	spy_offence = -0.50
 	all_power_cost = 1.0
-	min_autonomy = 50
+	#min_autonomy = 50 #BTIP Cut and moved to over_governing_capacity_modifier
 	global_unrest = -20
 	imperial_mandate = -1
-	brahmins_hindu_loyalty_modifier = 0.1
-	brahmins_muslim_loyalty_modifier = 0.1
-	brahmins_other_loyalty_modifier = 0.1
-	church_loyalty_modifier = 0.1
-	maratha_loyalty_modifier = 0.1
-	nobles_loyalty_modifier = 0.1
-	burghers_loyalty_modifier = 0.1
-	vaisyas_loyalty_modifier = 0.1
-	cossacks_loyalty_modifier = 0.1
-	nomadic_tribes_loyalty_modifier = 0.1
-	dhimmi_loyalty_modifier = 0.1
-	jains_loyalty_modifier = 0.1
-	rajput_loyalty_modifier = 0.1
-
+	# brahmins_hindu_loyalty_modifier = 0.1
+	# brahmins_muslim_loyalty_modifier = 0.1
+	# brahmins_other_loyalty_modifier = 0.1
+	# church_loyalty_modifier = 0.1
+	# maratha_loyalty_modifier = 0.1
+	# nobles_loyalty_modifier = 0.1
+	# burghers_loyalty_modifier = 0.1
+	# vaisyas_loyalty_modifier = 0.1
+	# cossacks_loyalty_modifier = 0.1
+	# nomadic_tribes_loyalty_modifier = 0.1
+	# dhimmi_loyalty_modifier = 0.1
+	# jains_loyalty_modifier = 0.1
+	# rajput_loyalty_modifier = 0.1
+	# janissaries_loyalty_modifier = 0.1
+	# eunuchs_loyalty_modifier = 0.1
+	# qizilbash_loyalty_modifier = 0.1
+	# ghulams_loyalty_modifier = 0.1
+	all_estate_loyalty_equilibrium = 0.20 #BTIP Added to replace the above code mess. Increased to +20% at 100 corruption
 	monthly_heir_claim_increase = 0.025
+	monthly_russian_modernization = -1
+	monthly_ottoman_decadence = 10
+	monthly_arabic_trade_influence_power = -0.5
+	monthly_authority_power = 0.5
+	country_dev_points_modifier = -1 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
 root_out_corruption = {
@@ -1041,15 +1201,6 @@ recovery_motivation = {
 	interest = -1
 	horde_unity = 10
 }
-
-militarized_society = {
-
-	discipline = 0.10
-	manpower_recovery_speed = 0.20
-	land_maintenance_modifier = -0.20
-
-}
-
 
 luck = {
 	#core
@@ -1068,6 +1219,7 @@ luck = {
 	manpower_recovery_speed = 0.25
 	defensiveness = 0.1
 	siege_ability = 0.05
+	land_attrition = -0.25 #BT Added: AI took too much attrition casualties in mountains. Specifically Ottos.
 
 	#diplomacy
 	spy_offence = 0.1
@@ -1078,19 +1230,26 @@ luck = {
 	republican_tradition = 0.5
 	legitimacy = 1
 	ae_impact = -0.25
+	governing_capacity_modifier = 0.25
+	core_creation = -0.25 #BT Added: Coring overhaul caused lucky nations to take ages to declare new wars. This cuts coring time down by 25%, or 2.5 years.
 
 }
 
 over_extension = {
-	global_foreign_trade_power = -1.0
+	#global_foreign_trade_power = -1.0		#BT removed as part of Coring Overhaul
 	stability_cost_modifier = 1.0				#BTAddOn changed from 0.5 - this on the other hands makes a lot of sense. Increasing this penalty to balance losing below penalty.
 	#mercenary_cost = 0.5				#BTAddOn removed - We have more land, so mercenaries of course cost more... huh?
-	diplomatic_reputation = -2
-	improve_relation_modifier = -0.5
+	#diplomatic_reputation = -2				#BT removed as part of Coring Overhaul
+	#improve_relation_modifier = -0.5		#BT removed as part of Coring Overhaul
 	global_unrest = 5
+	manpower_recovery_speed = -0.5			#BT added as part of Coring Overhaul - you're policing newly conquered territories
+	reduced_liberty_desire = -25			#BT added as part of Coring Overhaul - your administration is focusing on integrating new territories
+	diplomatic_annexation_cost = 0.5		#BT added as part of Coring Overhaul - your administration is focusing on integrating conquered territories - i.e it takes longer to annex subjects
 	bureaucrats_influence = 0.5
 	mr_guilds_influence = 0.5
 	yearly_corruption = 0.5
+	ottoman_decadence_gain_modifier = 0.25
+	country_dev_points_modifier = -0.25 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
 prestige = {
@@ -1103,23 +1262,29 @@ prestige = {
 	monthly_fervor_increase = 1
 	ae_impact = -0.10
 	#embracement_cost = -0.1			#BTAddOn removed - no real reason other than I don't like it. It does make balance easier to plan too, though, when not having to factor this into AI chance to embrace.
-
 	monthly_heir_claim_increase = 0.05
-
-	brahmins_hindu_loyalty_modifier = 0.05
-	brahmins_muslim_loyalty_modifier = 0.05
-	brahmins_other_loyalty_modifier = 0.05
-	church_loyalty_modifier = 0.05
-	maratha_loyalty_modifier = 0.05
-	nobles_loyalty_modifier = 0.05
-	burghers_loyalty_modifier = 0.05
-	vaisyas_loyalty_modifier = 0.05
-	cossacks_loyalty_modifier = 0.05
-	nomadic_tribes_loyalty_modifier = 0.05
-	dhimmi_loyalty_modifier = 0.05
-	jains_loyalty_modifier = 0.05
-	rajput_loyalty_modifier = 0.05
-
+	
+	monthly_persian_influence = 0.25
+	all_estate_loyalty_equilibrium = 0.05 #BR Tweaked for better interface.
+	# brahmins_hindu_loyalty_modifier = 0.05
+	# brahmins_muslim_loyalty_modifier = 0.05
+	# brahmins_other_loyalty_modifier = 0.05
+	# church_loyalty_modifier = 0.05
+	# maratha_loyalty_modifier = 0.05
+	# nobles_loyalty_modifier = 0.05
+	# burghers_loyalty_modifier = 0.05
+	# vaisyas_loyalty_modifier = 0.05
+	# cossacks_loyalty_modifier = 0.05
+	# nomadic_tribes_loyalty_modifier = 0.05
+	# dhimmi_loyalty_modifier = 0.05
+	# jains_loyalty_modifier = 0.05
+	# rajput_loyalty_modifier = 0.05
+	# janissaries_loyalty_modifier = 0.05
+	# eunuchs_loyalty_modifier = 0.05
+	# qizilbash_loyalty_modifier = 0.05
+	# ghulams_loyalty_modifier = 0.05
+	monthly_divine_authority = 0.1
+	monthly_authority_power = -0.2
 }
 
 no_debate_in_parliament = {
@@ -1133,11 +1298,13 @@ republican_tradition = {
 	reform_progress_growth = 1.0
 	burghers_loyalty_modifier = 0.05
 	vaisyas_loyalty_modifier = 0.05
+	monthly_authority_power = -0.05
 }
 
 inverse_republican_tradition = {
 	stability_cost_modifier = 2.0
 	rr_jacobins_influence = -0.1
+	monthly_authority_power = 0.25
 }
 
 ########################################
@@ -1154,6 +1321,8 @@ curia_controller = {
 	ae_impact = -0.2
 	#technology_cost = -0.05			#BTAddOn removed - So being the defender of the faith means you automatically become a philistine, yet being the curia controller means you have new insight into technological development..... Removing penalty and bonus
 	church_loyalty_modifier = 0.1
+	diplomatic_reputation = 1
+	diplomatic_annexation_cost = -0.1
 }
 
 bought_indulgence = {
@@ -1166,6 +1335,7 @@ religious_unity = {
 	church_loyalty_modifier = 0.05
 	brahmins_hindu_loyalty_modifier = 0.05
 	yearly_harmony = 1
+	monthly_cultural_unity = 0.1
 }
 
 inverse_religious_unity = {
@@ -1182,6 +1352,8 @@ total_occupation = {
 
 total_blockaded = {
 	war_exhaustion = 0.10					#increases exhaustion.
+	global_trade_power = -0.75
+	trade_steering = -0.75
 }
 
 uncontested_cores = {
@@ -1220,6 +1392,50 @@ federation_leader = {
 	land_morale = 0.1
 }
 
+pronoia_base_overlord_modifiers = {
+	# land_forcelimit = -5
+	pronoia_amount_check_influence = 1 #used for exporting, invisible by default
+}
+
+pronoia_base_modifiers = {
+	core_creation = 1
+	overextension_impact_modifier = 1
+	administrative_efficiency = -0.2
+	global_manpower = 5
+	global_manpower_modifier = 0.5 
+	global_regiment_cost = -0.5
+}
+
+BYZ_pronoia_buff_army_tradition_modifier = {
+	army_tradition = 0.2
+}
+
+BYZ_pronoia_land_forcelimit_penalty = {
+	land_forcelimit = -5
+}
+
+BYZ_extra_forcelimit_for_pronoiars = {
+	land_forcelimit = 5
+}
+
+BYZ_army_trad = {
+	army_tradition = 3
+}
+
+BYZ_discipline = {
+	discipline = 0.05
+}
+
+soyurghal_base_overlord_modifiers = {
+	land_forcelimit_modifier = 0.05
+	soyurghals_amount_check_influence = 1 #used for exporting, invisible by default
+}
+
+soyurghal_base_modifiers = { #slightly weaker pronoia but without penalties
+	global_manpower = 5
+	global_manpower_modifier = 0.25
+	global_regiment_cost = -0.25
+}	
 
 tributary_state_behind_overlord_tech_adm = {
 	adm_tech_cost_modifier = -0.05
@@ -1233,7 +1449,24 @@ tributary_state_behind_overlord_tech_mil = {
 	mil_tech_cost_modifier = -0.05
 }
 
+trade_protectorate_subject_modifier = {
+	global_institution_spread = 0.25
+	production_efficiency = 0.2
+	diplomatic_upkeep = -1
+}
+
+trade_protectorate_low_development_subject_modifier = {
+	technology_cost = -0.2
+}
+
+trade_protectorate_overlord_modifier = {
+	global_trade_power = 0.05
+	global_trade_goods_size_modifier = 0.02
+}
+
 liberty_desire = {
+	#extra diplo slot when at least 80% LD so that they can ask for support
+	diplomatic_upkeep = 1.25
 }
 
 is_great_power = {						#Only works with Rights of Man DLC enabled
@@ -1249,6 +1482,7 @@ in_golden_era = {
 	naval_morale = 0.1
 	max_absolutism = 5
 	max_revolutionary_zeal = 10
+	monthly_arabic_trade_influence_power = 0.25
 }
 
 absolutism = {
@@ -1257,8 +1491,34 @@ absolutism = {
 	production_efficiency = 0.2			#BTAddOn added. Compensation for losing the Admin efficiency, and also just logical sense... the description even says absolutism is how 'efficient' the government is. (Plus, 1.25 cut 0.3 from tech)
 	#discipline = 0.05			#BTAddOn removed. I see why this is here and appreciate the reasoning, but upon extensive consideration, I want to keep discipline out of absolutism. Absolute governments can have well trained, well drilled troops, but it can also be the sort of government that treats soldiers as fodder. Moving this bonus to professionalism, for what should be obvious reasons.
 	all_power_cost	= -0.05			#BTAddOn added. Very powerful compensation for losing Admin Efficiency, hopefully putting to rest any whining about that. Note again, the description of absolutism does read 'how efficient' the government is, so this seems fitting.
-	global_unrest = 10			#BTAddOn added. Further disuading exploitation and just makes logical sense... the description even says absolutism is how 'ruthless' the government is.
+	#global_unrest = 10			#BTAddOn added. Further disuading exploitation and just makes logical sense... the description even says absolutism is how 'ruthless' the government is. BTIP Cut to replace with estate loyalty equilibrium
 	#core_decay_on_your_own = -0.5			#BTAddOn removed. This is a fun idea that I might have to use elsewhere, but I'm just not seeing the link here with absolute governments specifically.
+	monthly_ottoman_decadence = -0.5
+	
+	#I feel the idea behind absolutism is relegating all power away from, well, the estates of the realm, leaving the Monarch absolute. As such, estates should definitely become disloyal. This also makes a lot more sense mechanically, since now the player has a lot more control over how they handle their state. If they run headfirst into high absolutism with highly influential estates, they will definitely run into issues, what with them turning disloyal. As well, unrest will naturally rise as estates become disloyal at high absolutism, and other modifiers will have a degree of impact to try and offset Absolutism's bonuses.
+	church_absolutism_loyalty_modifier = -0.20 #BTIP Added.
+	nobles_absolutism_loyalty_modifier = -0.20 #BTIP Added. 
+	burghers_absolutism_loyalty_modifier = -0.20 #BTIP Added.
+	#Indian Castes
+	brahmins_hindu_absolutism_loyalty_modifier = -0.20 #BTIP Added.
+	brahmins_muslim_absolutism_loyalty_modifier = -0.10 #BTIP Added. Halved because unique estate
+	brahmins_other_absolutism_loyalty_modifier = -0.20 #BTIP Added.
+	maratha_exclusive_absolutism_loyalty_modifier = -0.20 #BTIP Added. For nations whose nobles are Marathas, reduce by -20%
+	maratha_muslim_absolutism_loyalty_modifier = -0.10 #BTIP Added. Halved because unique estate
+	vaisyas_absolutism_loyalty_modifier = -0.20 #BTIP Added. 
+	jains_absolutism_loyalty_modifier = -0.20 #BTIP Added. I have pondered to split between -10% for Hindu indians and -20% for Muslim indians. However, there's no loyalty modifier to do this in vanilla, and I like the symmetry of all Indian nations having -20% loyalty.
+	rajput_exclusive_absolutism_loyalty_modifier = -0.20 #BTIP Added. For nations whose nobles are Rajputs, reduce by -20%
+	rajput_muslim_absolutism_loyalty_modifier = -0.10 #BTIP Added. Halved because unique estate
+	#Unique estates
+	cossacks_absolutism_loyalty_modifier = -0.10 #BTIP Added. Halved because unique estate
+	nomadic_tribes_absolutism_loyalty_modifier = -0.20 #BTIP Added.
+	dhimmi_absolutism_loyalty_modifier = -0.10 #BTIP Added. Halved because unique estate
+	janissaries_absolutism_loyalty_modifier = -0.10 #BTIP Added. Halved because unique estate
+	eunuchs_absolutism_loyalty_modifier = -0.10 #BTIP Added. Halved because unique estate
+	qizilbash_absolutism_loyalty_modifier = -0.10 #BTIP Added. Halved because unique estate
+	ghulams_absolutism_loyalty_modifier = -0.10 #BTIP Added. Halved because unique estate
+
+	peasants_absolutism_loyalty_modifier = -0.10 #BTIP Added: Peasants estate. There is an argument that this shouldn't be here given that historically Absolutism granted the peasants more power relatively, but I think halving it works nicely.
 }
 
 low_army_professionalism = {
@@ -1274,10 +1534,46 @@ high_army_professionalism = {
 	#shock_damage = 0.1			#BTAddOn removed. Replaced by discipline.
 	#siege_ability = 0.2			#BTAddOn removed. Replaced by discipline, plus I'm getting closer with sieges reblancing in this addon, I don't really want (or think we need) another wild card.
 	drill_decay_modifier = -0.5
+	allowed_samurai_fraction = 0.1
 }
 
 streltsy_modifier = {
-	stability_cost_modifier = 1.0
+}
+
+cossacks_modifier = {
+}
+
+tercio_modifier = {
+}
+
+musketeers_modifier = {
+}
+
+samurai_modifier = {
+}
+
+qizilbash_modifier = {
+}
+
+mamluks_modifier = {
+}
+
+geobukseon_modifier = {
+}
+
+man_of_war_modifier = {
+}
+
+galleon_modifier = {
+}
+
+galleass_modifier = {
+}
+
+caravel_modifier = {
+}
+
+voc_indiamen_modifier = {
 }
 
 power_projection = {
@@ -1290,6 +1586,8 @@ power_projection = {
 	devotion = 0.5
 	horde_unity = 0.5
 	republican_tradition = 0.2
+	monthly_divine_authority = 0.05
+	monthly_authority_power = -0.1
 }
 
 power_projection_25 = {
@@ -1299,6 +1597,7 @@ power_projection_25 = {
 #100 Land Forcelimit = 1
 land_forcelimit = {
     free_land_leader_pool = 1.25 #80 Army forcelimit -> +1 free leader
+	num_of_pronoiars = 1
 }
 
 #100 Naval Forcelimit = 1
@@ -1308,6 +1607,7 @@ naval_forcelimit = {
 
 trade_company_strong = {
 	merchants = 1
+	monthly_arabic_trade_influence_power = 0.01
 }
 
 large_colonial_nation = {
@@ -1315,6 +1615,15 @@ large_colonial_nation = {
 	global_trade_power = 0.05
 	naval_forcelimit = 3			#BTAddOn changed from 10. Naval forcelimits were getting obscene
 	land_forcelimit = 2			#BTAddOn changed from 5. Too large a bonus compared to vassals and marches
+}
+
+new_world_exploitation_modifier = {
+	global_trade_goods_size_modifier = 0.1
+}
+
+gbr_colonial_investment = {
+	production_efficiency = 0.5
+	trade_efficiency = 0.5
 }
 
 crown_colony_overlord = {
@@ -1357,10 +1666,17 @@ march_subject = {
 }
 
 vassal_subject = {
-	land_forcelimit = 2			#BTAddOn changed from 1. Uses up an dip upkeep slot, so might as well be useful
+	land_forcelimit = 1			#BTAddOn changed from 1. Uses up an dip upkeep slot, so might as well be useful. Tweaked back down to 1 because vanilla added +10% FL of vassal's FL to overlord in Dharma (1.26). This modifier causes too much craziness with 1444 starts at +2. //Dub
 }
 
 daimyo_subject = {
+}
+
+appanage_subject = {
+}
+
+appanage_overlord = {
+	nobles_loyalty_modifier = 0.02
 }
 
 union_subject = {
@@ -1386,9 +1702,34 @@ primitive_nation = {
 	development_cost = 0.5
 }
 
+pirate_subject = {
+	global_manpower = 4
+	global_sailors = 2000
+	global_sailors_modifier = 0.1
+	global_manpower_modifier = 0.05
+	navy_tradition = 0.25
+	naval_forcelimit = 2
+}
+
+subject_tax_modifier = {
+	global_tax_modifier = 0.25
+}
+
+same_religion_subject_bonus_mod = {
+	manpower_in_true_faith_provinces = 0.25
+	global_sailors_modifier = 0.25
+	production_efficiency = 0.15
+}
+
+eyalet_modifier = {
+	global_manpower = -5
+	land_forcelimit	= -5
+}
+
 #scales to amount of up-to-date forts compared to total development
 maintained_forts = {
 	army_tradition = 1
+	nobles_loyalty_modifier_forts = 0.1 
 }
 
 gov_rank_1 = {
@@ -1437,14 +1778,13 @@ autonomy_decreased = {
 revolution_target = {
 	global_manpower_modifier = 0.10
 	land_morale = 0.10
-	naval_morale = 0.10
+	naval_morale = 0.1
 	war_exhaustion = -0.15
 	unjustified_demands = -0.5
 	land_maintenance_modifier = -0.15
 	naval_maintenance_modifier = -0.15
 	manpower_recovery_speed = 0.25
 	sailors_recovery_speed = 0.25
-	papal_influence = -100
 }
 
 dishonoured_alliance =  {
@@ -1465,6 +1805,7 @@ recruitment_sabotaged = {
 
 merchants_slandered = {
 	global_trade_power = -0.1
+	monthly_arabic_trade_influence_power = -0.1
 }
 
 discontent_sowed = {
@@ -1485,7 +1826,12 @@ corrupt_officials = {
 }
 
 scaled_trade_league_leader = { #scaled by number of members
-	trade_steering = 0.025
+	trade_steering = 0.05
+	naval_forcelimit = 2
+	global_sailors = 1000
+	land_forcelimit = 1
+	global_manpower = 1
+	monthly_authority_power = -0.01
 }
 
 in_trade_league = {
@@ -1538,19 +1884,16 @@ divert_trade = {
 # Karma
 ########################################
 
-karma_just_right =
-{
+karma_just_right = {
 	diplomatic_reputation = 2
 	discipline = 0.05
 }
 
-karma_too_high =
-{
+karma_too_high = {
 	diplomatic_reputation = 1
 }
 
-karma_too_low =
-{
+karma_too_low = {
 	discipline = 0.025
 }
 
@@ -1579,16 +1922,16 @@ invasion_nation = {
 ########################################
 
 native_policy_coexist = {
-	native_uprising_chance = -0.8			#BTAddOn changed from -1.0 - So if every is nice and learns to communicate, everyone become your best friends and you all go skipping through the forest together, while you steal their land, assimilate their culture, pillage their resources, and annihilate their civiliation..... Coexist policy now reduces, but does not eliminate, the chance of native uprisings. Also going to do some events if I can find a trigger to check for the policy set here.
+	native_uprising_chance = -1.0		#BT Buffed back to -1.0 - Unfortunately this policy is practically useless in normal gameplay at -0.8, and there are about 10 different sources of native uprising chance elsewhere in the code. //Dub #BTAddOn changed from -1.0 - So if every is nice and learns to communicate, everyone become your best friends and you all go skipping through the forest together, while you steal their land, assimilate their culture, pillage their resources, and annihilate their civiliation..... Coexist policy now reduces, but does not eliminate, the chance of native uprisings. Also going to do some events if I can find a trigger to check for the policy set here.
 }
 
 native_policy_trade = {
-	native_assimilation = 0.5
+	native_assimilation = 1 			#BT Doubled because it was very lacking.
 	native_uprising_chance = -0.5
 }
 
 native_policy_hostile = {
-	global_colonial_growth = 35			#BTAddOn changed from 20 - Now that native uprising are possible under every policy, giving this policy a boost to make it still competitive.
+	global_colonial_growth = 20			#BT Nerfed back down to 20 - if the comment to the right is the intention, then buffing this is the wrong way around as it's relatively been buffed. //Dub. BTAddOn changed from 20 - Now that native uprising are possible under every policy, giving this policy a boost to make it still competitive.
 }
 
 ########################################
@@ -1651,11 +1994,11 @@ overlord_sankin_kotai = {
 }
 
 subject_sankin_kotai = {
-	diplomatic_upkeep = -1
+	global_autonomy = 0.25
 }
 
 overlord_expel_ronin = {
-	# Left for modders/future changes
+	global_unrest = -1
 }
 
 subject_expel_ronin = {
@@ -1663,13 +2006,11 @@ subject_expel_ronin = {
 }
 
 overlord_sword_hunt = { # Unlike the others, this one counts per subject
-	land_forcelimit = 0.5
-	global_manpower = 0.250
+	global_regiment_cost = -0.15
 }
 
 subject_sword_hunt = {
-	land_forcelimit = -2
-	global_manpower = -1.000
+	manpower_recovery_speed = -0.1
 }
 
 supply_depot_area = {
@@ -1707,6 +2048,74 @@ seize_clerical_holdings_modifier = {
 
 invite_minorities_modifier = {
 	local_development_cost = -0.2
+}
+
+royal_council_meeting_mod = {
+	country_admin_power = 1
+}
+
+state_council_meeting_mod = {
+	country_diplomatic_power = 1
+}
+
+war_council_meeting_mod = {
+	country_military_power = 1
+}
+
+equipped_streltsy_modifier_weaker = {
+	infantry_power = 0.05
+	is_streltsy_modifier = yes
+}
+
+equipped_streltsy_modifier = {
+	infantry_power = 0.1
+	is_streltsy_modifier = yes
+}
+
+prepared_streltsy_modifier = {
+	reinforce_speed = 0.2
+	reinforce_cost_modifier = -0.1
+	is_streltsy_modifier = yes
+}
+
+new_order_regiment_mobilized_modifier = {
+	infantry_power = 0.15
+}
+
+inward_focus_modifier = {
+	core_creation = 0.33
+	province_warscore_cost = 1
+	stability_cost_to_declare_war = 1
+	ae_impact = 0.33
+	development_cost_modifier = -0.05
+	defensiveness = 0.15
+	fort_maintenance_modifier = -0.2
+	build_cost = -0.05
+	global_unrest = -2
+	all_estate_loyalty_equilibrium = 0.05
+}
+
+outward_focus_modifier = {
+	ae_impact = 0.15
+	land_forcelimit_modifier = -0.1
+	trade_efficiency = 0.1
+	diplomatic_reputation = 1
+	global_colonial_growth = 20
+	range = 0.25
+	burghers_loyalty_modifier = 0.05
+	harmonization_speed = 0.25
+}
+
+expansion_focus_modifier = {
+	development_cost_modifier = 0.1
+	all_estate_loyalty_equilibrium = -0.1
+	global_unrest = 2
+	diplomatic_reputation = -1
+	core_creation = -0.1
+	land_morale = 0.05
+	naval_morale = 0.05
+	manpower_recovery_speed = 0.1
+	ae_impact = -0.1
 }
 
 ########################################
@@ -1786,17 +2195,107 @@ army_drill_modifier = { # Used by an entire army, is the average of all subunits
 }
 
 janissary_regiment = {
+	assault_fort_ability = 0.5
 	fire_damage_received = -0.1
 	shock_damage_received = -0.1
-	reinforce_cost_modifier = 1.0
-	drill_gain_modifier = 1.0
+	drill_gain_modifier = 0.5
+	reinforce_cost_modifier = 1
 }
 
 cawa_regiment = {
-	shock_damage_received = -0.15
-	land_attrition = -0.25
-	reinforce_cost_modifier = 0.25
-	reinforce_speed = -0.25
+	shock_damage_received = -0.05
+	land_attrition = -0.5
+	reinforce_speed = 0.5
+}
+
+hussars_regiment = {
+	cavalry_shock = 1
+	morale_damage = 0.5
+	reinforce_speed = -0.5
+}
+
+marine_regiment = {
+    regiment_disembark_speed = 2
+	shock_damage_received = 0.1
+}
+
+banner_regiment = {
+	discipline = 0.05
+	land_maintenance_modifier = -0.5
+	regiment_manpower_usage = -0.75
+	reinforce_speed = -0.5
+}
+
+streltsy_regiment = {
+	fire_damage = 0.1
+	fire_damage_received = -0.1
+}
+
+tercio_regiment = {
+	shock_damage_received = -0.3
+}
+
+musketeer_regiment = {
+	fire_damage = 0.15
+}
+
+samurai_regiment = {
+	discipline = 0.05
+	morale_damage_received = -0.1
+	reinforce_cost_modifier = 0.5
+}
+
+qizilbash_regiment = {
+	fire_damage_received = -0.05
+	land_maintenance_modifier = -0.25
+}
+
+mamluks_regiment = {
+	drill_gain_modifier = 1
+	morale_damage = 0.1
+	reinforce_speed = 0.33 
+}
+
+geobukseon_ship = {
+	ship_durability = 0.1
+	galley_power = 0.1
+}
+
+man_of_war_ship = {
+	#engagement_cost = -1
+	#naval_maintenance_modifier = 0.5
+	naval_morale_damage = 0.15
+}
+
+galleon_ship = {
+	hull_size_modifier = 0.1
+	heavy_ship_power = 0.1
+}
+
+galleass_ship = {
+	galley_power = 0.2
+}
+
+caravel_ship = {
+	movement_speed_in_fleet_modifier = 1 
+	naval_attrition = -0.25
+	ship_trade_power_modifier = 0.33
+}
+
+voc_indiamen_ship = {
+	number_of_cannons_modifier = 0.33
+	ship_trade_power_modifier = 0.2
+	can_transport_units = yes
+}
+
+
+cossacks_regiment = {
+    shock_damage = 0.15
+}
+
+carolean_regiment = {
+	morale_damage = 0.05
+	drill_decay_modifier = -0.25
 }
 
 revolutionary_guard_regiment = {
@@ -1827,8 +2326,15 @@ serfs_recieved_by_cossacks = {
 	global_tax_modifier = -0.1
 }
 
-cossacks_modifier = {
-	stability_cost_modifier = 1.0
+cultural_revolution = {
+	all_estate_influence_modifier = -0.1
+	global_tax_modifier = 0.2
+	idea_cost = -0.05
+}
+
+mobilized_new_order_regiments = {
+	infantry_power = 0.1
+	reinforce_speed = 0.2
 }
 
 ########################################
@@ -1842,26 +2348,28 @@ expand_administation_modifier = {
 
 # At 100% over capacity, this modifier will be fully used
 over_governing_capacity_modifier = {
-	stability_cost_modifier = 1.0
-	ae_impact = 0.5 
-	improve_relation_modifier = -0.5 	
-	core_creation = 0.2
-	advisor_cost = 1.0
-	monthly_militarized_society = -1.0
+	stability_cost_modifier = 1.0	
+	min_autonomy = 50 #BTIP Added: Over governing capacity means you cannot utilise your provinces as much.
+	#ae_impact = 0.5
+	#improve_relation_modifier = -0.5
+	#advisor_cost = 1.0
+	yearly_corruption = 1.0 #BTIP Added: Added to try and get your govcap to equalise itself if you go over it. If you decide not to, you need to pay more money to root it out.
+	monthly_militarized_society = -1
+	monthly_prussian_militarized_society_1 = -1
+	monthly_prussian_militarized_society_2 = -1
+	monthly_prussian_militarized_society_3 = -1
+	administrative_efficiency = -0.5
+	monthly_ottoman_decadence = 2
+	monthly_authority_power = 0.5
+	country_dev_points_modifier = -0.5 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
-#A new, modified 100% over capacity modifier that BT wants to test.
-# over_governing_capacity_modifier = {
-	# stability_cost_modifier = 1.0
-	# #ae_impact = 0.5 					#Cut in BT in favour of economically impacting modifiers
-	# #improve_relation_modifier = -0.5 	#Cut in BT in favour of economically impacting modifiers
-	# core_creation = 0.2 #-5% admin efficiency in dev diaries. Worthwhile change? Not sure.
-	# advisor_cost = 1.0
-	# monthly_militarized_society = -1.0
-	# min_autonomy = 50					#BT new: This just makes sense on so many levels: Being over what you could possibly govern means that you can't administrate your territories, hence increased base autonomy. If your economy gets crippled, you have little choice than to unstate some of your provinces to get below.
-	# min_autonomy_in_territories = 5	#To impact territories 1/10th of what it impacts in regular provinces.
-# }
-
+# At 1000% below capacity, this modifier will be fully used
+under_governing_capacity_modifier = {
+}
+#Scales with unused capacity, eing at full capacity means 0% of the modifier
+reverse_under_governing_capacity_modifier = {
+}
 
 lost_hegemony = {
 	all_power_cost	= 0.10
@@ -1871,37 +2379,248 @@ at_peace_revolutionary = { # Applied if at peace while reactionaries are borderi
 	yearly_revolutionary_zeal = -4
 }
 
+#BT16 overhauled to better fit with what I think the button is meant to do.
+#Basically I believe this button is the tall version of coring new provinces. A tall player will be likely to have developed their provinces.
+#Therefore, the logic of this button is to amplify those clicks that a tall player has made. Therefore, most of the bonuses this button gave have been cut,
+#and the ones left have instead been buffed. Some new modifiers have also been added as they just make sense.
+#
+#Some other mechanics of this button that needs explaining, such that this will not be modified in a vacuum:
+#The button can only be clicked once per 15 dev in the province, so this button is unavailable until the province reaches 15 dev, and can be clicked again at 30 dev.
+#Clicking the button costs 50 admin points
 expanded_infrastructure = {
-	allowed_num_of_buildings = 1
-	allowed_num_of_manufactories = 1
-	regiment_recruit_speed = -0.15
-	ship_recruit_speed = -0.15
-	local_defensiveness = 0.05
-	garrison_growth = 0.05
-	local_development_cost = -0.05
-	local_production_efficiency = 0.05
-	local_tax_modifier = 0.1
-	local_manpower_modifier = 0.05
-	local_sailors_modifier = 0.05
-	local_ship_repair = 0.05
-	local_autonomy = -0.005
-	local_build_cost = -0.05
-	local_build_time = -0.05
-	province_trade_power_modifier = 0.05
-	trade_goods_size_modifier = 0.05
-	local_governing_cost_increase = 15
-	local_governing_cost = 0.1
-	local_great_project_upgrade_cost = -0.05
+	allowed_num_of_buildings = 0.5 #BT changed from 1
+	allowed_num_of_manufactories = 0.5 #BT changed from 1
+	#regiment_recruit_speed = -0.10 #BT Cut
+	#ship_recruit_speed = -0.10 #BT Cut
+	#local_defensiveness = 0.05 #BT Cut
+	#garrison_growth = 0.05 #BT Cut
+	#local_development_cost = -0.15 #BT Cut
+	local_production_efficiency = 0.25 #BT changed from 0.05
+	local_tax_modifier = 0.25 #BT changed from 0.1
+	local_manpower_modifier = 0.25 #BT changed from 0.05
+	local_sailors_modifier = 0.25 #BT changed from 0.05
+	province_trade_power_modifier = 0.25 #BT changed from 0.05
+	local_garrison_size = 0.1 #BT New, intermingles with base manpower's garrison growth.
+	#trade_goods_size_modifier = 0.05 #BT Cut
+	#local_ship_repair = 0.05 #BT Cut
+	#local_autonomy = -0.005 #BT Cut
+	#local_build_cost = -0.1 #BT Cut
+	#local_build_time = -0.1 #BT Cut
+	local_governing_cost_increase = 10 #BT changed from 15. Makes sense given that +15 is a steep cost for more provinces.
+	#local_governing_cost = 0.1 #BT Cut due to governing capacity rebalance
+	local_great_project_upgrade_cost = -0.1 #BT changed from 0.05. Makes sense that monuments become cheaper to upgrade. A nice little bonus.
+	local_dev_points_modifier = 0.15 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
-centralize_state = {
-	statewide_governing_cost = -0.25
-	local_prosperity_growth = 0.1
+#BT16 overhauled to fit better what I think this button is meant to do.
+#Essentially, we want this button to solely, or almost completely only, benefit tall players. It is meant to make more areas work like your capital state.
+#The costs of the button means that it will be clicked as an alternative for tall players instead of expand administration that is clicked by wide players to gain government capacity.
+#Tall players have probably way more governing capacity than they need, but what they do need is more abilities to develop their nation.
+#I have shuffled some modifiers from expand infrastructure over to centralize state, as I feel they make more sense here than above, plus a couple of new ones.
+#Some other mechanics of this button:
+#The button can be clicked up to 5 times for for the highest dev province in the state, and the modifiers are not state-wide by default, instead applying to the highest dev province in the state.
+#This button can therefore theoretically be clicked any number of times if you dev a province to become highest in the state, and costs 50 reform progress and 50 admin points to click.
+#There is a government reform that refunds half this cost upon clicking (I.e 25 reform progress and 25 admin points).
+#We have added a +20% cost to this modifier, meaning each additional click costs 10 more reform progress and admin points.
+centralize_state = { #This modifier also gets applied in all other provinces of the state as part of on_actions.
+	#statewide_governing_cost = -0.2 #BT Cut for balance
+	local_build_cost = -0.1 #BT added, moved from expanded_infrastructure.
+	local_build_time = -0.1 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -0.1 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -0.1 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -0.1 #BT added because centralization makes sense.
+	local_missionary_strength = 0.01 #BT added because centralization makes sense.
+	local_autonomy = -0.025 #BT added because centralization makes sense.
+	
+	local_development_cost_modifier = -0.025 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_prosperity_growth = 0.25
 	local_state_maintenance_modifier = -0.2
+	local_centralize_state_cost = 0.2 #BT Added for balance so that the button isn't clicked 911 times.
 	picture = "centralize_state"
 }
 
 # Applied once for each guru teaching
 guru_teaching = {
 	global_missionary_strength = -0.01
+}
+
+diplomatic_reputation = {
+	num_of_soyurghals = 0.5
+	chance_to_inherit = 0.05 #BT added: Base inheritance chance is +5%/diplorep, -1% per province. Since we cannot modify this value, this is a bandaid fix. Since only Christians can form PUs and inherit, I think this is fine. //Dub
+}
+
+tolerance_own = {
+	monthly_divine_authority = 0.03
+}
+
+tolerance_heretic = {
+}
+
+tolerance_heathen = {
+}
+
+num_accepted_cultures = {
+}
+
+ruler_adm = {
+	monthly_council_consensus = 0.1
+	monthly_egyptian_westernization = 0.05
+	monthly_divine_authority = 0.01
+}
+
+ruler_dip = {
+	monthly_council_consensus = 0.1
+	monthly_egyptian_westernization = 0.05
+	monthly_arabic_trade_influence_power = 0.05
+	monthly_divine_authority = 0.01
+}
+
+ruler_mil = {
+	monthly_council_consensus = 0.1
+	monthly_egyptian_westernization = 0.05
+	monthly_divine_authority = 0.01
+}
+
+heir_adm = {
+}
+
+heir_dip = {
+}
+
+heir_mil = {
+}
+
+consort_adm = {
+}
+
+consort_dip = {
+}
+
+consort_mil = {
+}
+
+mandate = {
+
+}
+
+imperial_authority_emperor = {
+
+}
+
+imperial_authority_member = {
+
+}
+
+positive_imperial_authority_emperor = {
+	
+}
+
+positive_imperial_authority_member = {
+	
+}
+
+negative_imperial_authority_emperor = {
+	
+}
+
+negative_imperial_authority_member = {
+	
+}
+
+slackening_modifier = {
+    yearly_army_professionalism = -0.05
+    manpower_recovery_speed = 2
+}
+
+royal_council_meeting_mod = {
+	country_admin_power = 1
+}
+
+state_council_meeting_mod = {
+	country_diplomatic_power = 1
+}
+
+war_council_meeting_mod = {
+	country_military_power = 1
+}
+
+average_overseas_subject_liberty_desire = { #only counts subjects with capitals on different continents than yours, 100% LD => 100% modifier
+
+}
+
+reverse_average_overseas_subject_liberty_desire = { #only counts subjects with capitals on different continents than yours, 100% LD => 0% modifier
+	monthly_council_consensus = 0.2
+}
+
+average_subject_liberty_desire = { #100% LD => 100% modifier
+	monthly_ottoman_decadence = 0.125
+}
+
+reverse_average_subject_liberty_desire = { #100% LD => 0% modifier
+	MAY_conditional_loyalty = 0.1
+}
+
+average_global_autonomy = { #100% autonomy => 100% modifier
+	monthly_ottoman_decadence = 0.25
+	monthly_divine_authority = -0.5
+}
+
+reverse_average_global_autonomy = { #100% autonomy => 0% modifier
+	monthly_council_consensus = 0.2
+}
+
+adur_burzhen_mihr_mod = {
+	country_diplomatic_power = 1
+	development_cost = -0.1
+	monthly_asha_vahishta = -0.5
+	religion = yes
+}
+
+adur_farnbag_mod = {
+	country_admin_power = 1
+	reform_progress_growth = 0.1
+	monthly_asha_vahishta = -0.5
+	religion = yes
+}
+
+adur_gushnasp_mod = {
+	country_military_power = 1
+	own_territory_dice_roll_bonus = 1
+	monthly_asha_vahishta = -0.5
+	religion = yes
+}
+
+culturally_influencing_countries = {
+	influence_to_vassal_elevation_cost = 20
+	monthly_persian_influence = -0.2
+}
+
+culturally_influencing_countries_same_culture = {
+	influence_to_vassal_elevation_cost = 20
+}
+
+culturally_influenced_country = {
+	relation_with_same_religion = 10
+	reverse_relation_with_same_religion = 10
+}
+
+manpower_percentage = {
+
+}
+
+reverse_manpower_percentage = {
+
+}
+
+sailors_percentage = {
+
+}
+
+reverse_sailors_percentage = {
+
+}
+
+may_dynastic_influence_modifier = {
+	legitimacy = 0.25 
+	land_forcelimit = 3
 }

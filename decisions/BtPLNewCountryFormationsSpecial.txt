@@ -474,6 +474,7 @@ country_decisions = {
 			add_prestige = 50
 			swap_ideas = yes
 			set_country_flag = formed_tir_na_gceilteach_btp
+			set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.
 		}
 		ai_will_do = {
 			factor = 1
@@ -809,9 +810,10 @@ country_decisions = {
 		provinces_to_highlight = {
 			OR = {
 				region = ireland_region # Brian; changed from _area
-				area = western_lowlands_area
+				area = lowlands_area
+				area = scottish_marches_area
 				area = highlands_area
-				area = southern_isles_area
+				area = kingdom_of_the_isles_area
 				area = grampians_area
 			}
 			OR = {
@@ -835,12 +837,13 @@ country_decisions = {
 			num_of_owned_provinces_with = {
 				is_core = ROOT
 				OR = {
-					area = western_lowlands_area
+					area = lowlands_area
+					area = scottish_marches_area
 					area = highlands_area
-					area = southern_isles_area
+					area = kingdom_of_the_isles_area
 					area = grampians_area
 				}
-				value = 18			#3/4 of Scotland's 24 provinces
+				value = 21			#3/4 of Scotland's 28 provinces
 			}
 			total_development = 400			#Special discount for cultural union of a small group. Normal requirement for rank 3 is 2000 dev, so this is 80 percent discounted. Note base dev in 1444 Ireland and Scotland is around 360 total
 			prestige = 25			#Special discount. Normal requirement for rank 2 is 75 prestige, so this is 2/3rds discounted
@@ -968,6 +971,7 @@ country_decisions = {
 			}
 			add_prestige = 35		#Extra prestige for Albion. Long live King Arthur!
 			set_country_flag = formed_ynys_y_cedyrn_flag_bt
+			set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.
 		}
 		ai_will_do = {
 			factor = 1
@@ -981,7 +985,10 @@ country_decisions = {
 	united_kingdom_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			OR = {
+				tag = GBR
+				bt_generic_can_form_potential_check = yes
+			}
 			NOT = { has_country_flag = formed_united_kingdom_flag }
 			NOT = { tag = UNK }
 			NOT = { tag = CEL }
@@ -1082,6 +1089,7 @@ country_decisions = {
 				add_permanent_claim = UNK
 			}
 			set_country_flag = formed_united_kingdom_flag
+			set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.
 		}
 		ai_will_do = {
 			factor = 1

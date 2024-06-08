@@ -1,0 +1,10 @@
+#Contributions from Chairman Meow (JP)
+#(JP) Abkhaz, will overwrite caucasian.txt
+#(JP) Torn here. Abkhaz is a distinct language from Georgian, being in one of the worlds primarily language families. Currently, all under Caucasian
+#(JP) group, and so leaving this for if and when Circassian and Abkhaz are moved to their own group. Minor tag that may never appear.
+
+#Caucasia
+423 = { "Kart" "Kart" }
+462 = { "Agirni" "Zugdidi" }
+1856 = { "Aqwa" "Aqwa" }
+7299 = { "Gagra" "Gagra" }

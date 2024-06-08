@@ -86,6 +86,20 @@ country_event = {
 		name = ming_crisis.2.a
 		add_stability = 1
 		add_mandate = 20
+		
+		if = { 
+			limit = { 
+				has_estate = estate_eunuchs 
+				num_of_estate_privileges = { 
+					estate = estate_eunuchs 
+					value = 1 
+				}
+			}
+			add_ruler_modifier = {
+				name = mng_undisputed_mandate_modifier
+				duration = -1
+			}
+		}
 	}
 }
 
@@ -208,6 +222,7 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_dlc = "Mandate of Heaven"
 				is_emperor_of_china = yes
 			}
 			CSH = {
@@ -231,7 +246,6 @@ country_event = {
 		}
 		add_stability = -2
 		add_mandate = -10
-		switch_tag = CSH
 		CSH = {
 			define_ruler = {
 				name = "Zicheng"
@@ -242,6 +256,7 @@ country_event = {
 		}
 		if = {
 			limit = {
+				has_dlc = "Mandate of Heaven"
 				is_emperor_of_china = yes
 			}
 			CSH = {
@@ -256,6 +271,7 @@ country_event = {
 				declare_war = root
 			}
 		}
+		switch_tag = CSH
 	}
 
 	after = {
@@ -265,7 +281,7 @@ country_event = {
 					limit = {
 						any_neighbor_country = {
 							has_reform = steppe_horde
-							total_own_and_non_tributary_subject_development = 500		#BT dev doubling
+							total_own_and_non_tributary_subject_development = 300
 							is_subject = no
 							#NOT = { truce_with = ROOT }
 							NOT = { alliance_with = ROOT }
@@ -275,7 +291,7 @@ country_event = {
 					random_neighbor_country = {
 						limit = {
 							has_reform = steppe_horde
-							total_own_and_non_tributary_subject_development = 500		#BT dev doubling
+							total_own_and_non_tributary_subject_development = 300
 							is_subject = no
 							#NOT = { truce_with = ROOT }
 							NOT = { alliance_with = ROOT }
@@ -351,7 +367,6 @@ country_event = {
 				clear_rebels = yes
 			}
 			release = CDL
-			create_march = CDL
 			CDL = {
 				capital_scope = {
 					build_to_forcelimit = {
@@ -478,7 +493,6 @@ country_event = {
 						clear_rebels = yes
 					}
 					release = WUU
-					create_march = WUU
 					WUU = {
 						capital_scope = {
 							build_to_forcelimit = {
@@ -521,7 +535,6 @@ country_event = {
 						clear_rebels = yes
 					}
 					release = YUE
-					create_march = YUE
 					YUE = {
 						capital_scope = {
 							build_to_forcelimit = {
@@ -973,7 +986,6 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					is_state = yes
 					superregion = china_superregion
 					any_core_country = {
 						NOT = { tag = ROOT }
@@ -1000,7 +1012,6 @@ country_event = {
 	
 	option = {
 		name = ming_crisis.11.a
-		ai_chance = { factor = 1 }
 		add_mandate = 5
 		event_target:ming_disaster_new_tag = {
 			event_target:ming_disaster_nationalist_province = {
@@ -1017,8 +1028,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ming_crisis.11.a
-		ai_chance = { factor = 1 }
+		name = ming_crisis.11.b
 		add_mandate = -5
 		event_target:ming_disaster_nationalist_province = {
 			area = {

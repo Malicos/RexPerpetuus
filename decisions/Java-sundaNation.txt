@@ -8,6 +8,7 @@ country_decisions = {
 			NOT = { exists = JAV }
 			NOT = { tag = MSA }
 			NOT = { tag = SVJ }
+			NOT = { tag = MAJ }
 			OR = { 
 				primary_culture = sundanese 
 				primary_culture = javanese 
@@ -33,12 +34,10 @@ country_decisions = {
 			owns = 625 #Blambangan
 			owns = 628 #Surabaya
 			#owns = 626 #Karta
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					region = indonesia_region
-				}
-				amount = 17			#At least 3/4 of Java's 22 provinces.
+			num_of_owned_provinces_with  = {
+				is_core = ROOT
+				region = indonesia_region
+				value = 17			#At least 3/4 of Java's 22 provinces.
 			}
 			total_development = 250 #Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
 			prestige = 25 #Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted

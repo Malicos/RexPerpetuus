@@ -1,0 +1,122 @@
+#KRT - Kartli
+
+#Political Situation
+capital = 423
+#fixed_capital = #Cannot move capital away from this province & no power cost to move to it
+
+#Government
+government_rank = 2
+government = monarchy
+add_government_reform = autocracy_reform
+
+#Demographics
+primary_culture = georgian
+religion = orthodox
+
+#Tech and Military
+technology_group = eastern
+
+#History #(JP) Copied from GEO - Georgia.txt
+1399.1.1 = {
+	monarch = {
+		name = "Giorgi VII"
+		dynasty = "Bagrationi"
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}
+
+1399.1.1 = {
+	heir = {
+		name = "Konstantine"
+		monarch_name = "Konstantine I"
+		dynasty = "Bagrationi"
+		birth_date = 1369.1.1
+		death_date = 1412.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1403.1.1 = {
+	government_rank = 1
+}
+
+1405.1.1 = {
+	monarch = {
+		name = "Konstantine I"
+		dynasty = "Bagrationi"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+	government_rank = 2
+}
+
+1405.1.1 = {
+	heir = {
+		name = "Aleksandre"
+		monarch_name = "Aleksander I"
+		dynasty = "Bagrationi"
+		birth_date = 1386.1.1
+		death_date = 1445.8.26
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 2
+		leader = { name = "Aleksandre I"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0 }
+	}
+}
+
+1412.1.1 = {
+	monarch = {
+		name = "Aleksandre I"
+		dynasty = "Bagrationi"
+		adm = 3
+		dip = 4
+		mil = 2
+		leader = { name = "Aleksandre I"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0 }
+	}
+}
+
+1413.1.1 = {
+	heir = {
+		name = "Vakhtang"
+		monarch_name = "Vakhtang IV"
+		dynasty = "Bagrationi"
+		birth_date = 1413.1.1
+		death_date = 1446.12.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1433.1.1 = {
+	monarch = {
+		name = "Vakhtang IV"
+		dynasty = "Bagrationi"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+	add_ruler_modifier = {
+		name = bt_georgia_triarchy
+		duration = -1
+	}
+	set_estate_privilege = estate_nobles_strong_duchies
+}
+
+1446.1.1 = {
+	monarch = {
+		name = "Giorgi VII"
+		dynasty = "Bagrationi"
+		adm = 0
+		dip = 0
+		mil = 3
+	}
+}

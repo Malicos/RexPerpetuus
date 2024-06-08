@@ -1,0 +1,319 @@
+# [range_from, range_to[
+#BT16 Overhauled by Dub
+#The entire design gist is based off a conversation from 2022, where the philosophy is the following:
+#-Theocracies want their religion to have a defender of faith.
+#-The defender's clergy should be happy about its country declaring a defender of faith and willing to contribute to your cause.
+#-You shall be able to draft armies more easily if you're a defender of faith
+#-Political benefits such as more religious currency should only show up if your faith is large enough
+#-A defender of the faith should not have good relations with countries of other religions.
+#-Defender of the faith T5 should not just be a dump tier for specifically Sunni/Catholic nations like it is in vanilla.
+defender_of_faith_1 = {
+	level = 1
+    range_to = 10 #BT; from 5
+    modifier = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.1
+		#papal_influence = 1 #BT Cut: What in the world are you doing being the defender of a religion with less than 10 countries following it?
+		#church_power_modifier = 0.1 #BT Cut: What in the world are you doing being the defender of a religion with less than 10 countries following it?
+		#monthly_fervor_increase = 1 #BT Cut: What in the world are you doing being the defender of a religion with less than 10 countries following it?
+		church_loyalty_modifier = 0.05 #BT Added: Church should be more loyal to a king that defends the faith.
+		relation_with_heretics = -50 #BT Added: Just makes sense.
+		relation_with_heathens  = -50 #BT Added: Just makes sense.
+    }
+	same_faith_modifier = { #BT16 Added for all tiers
+		# Applies also on the DoF
+		devotion = 0.25 #I think Devotion makes sense if a religion has a defender of faith.
+	}
+	ai_will_do = {
+		factor = 0.1
+		modifier = {
+			factor = 0.75
+			full_idea_group = humanist_ideas
+		}
+		modifier = {
+			factor = 1.25
+			full_idea_group = religious_ideas
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				num_of_cities = 20
+			}
+		}
+		modifier = {
+			factor = 5
+			tag = SPA
+			religion = catholic
+		}
+		modifier = {
+			factor = 5
+			tag = SWE
+			religion = protestant
+		}
+		modifier = {
+			factor = 5
+			NOT = { has_idea_group = humanist_ideas }
+			num_of_owned_provinces_with = {
+				value = 10
+				NOT = { religion = ROOT }
+			}
+		}
+	}
+}
+
+defender_of_faith_2 = {
+	level = 2
+    range_from = 10 #BT; from 5
+    range_to = 20 #BT; from 10
+    modifier = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.1
+		prestige = 0.5
+		#war_exhaustion = -0.03 #BT Cut: This was likely one of the main reasons why you'd pick up DotF, and while it makes some degree of sense, I don't like it here.
+		manpower_in_true_faith_provinces = 0.1 #BT Added: Replacing the above war exhaustion, and making it so that you can draft more units from true faith provinces.
+		#papal_influence = 1 #BT Cut: Similar to the above, I don't think this bonus makes sense quite yet.
+		#church_power_modifier = 0.1 #BT Cut: Similar to the above, I don't think this bonus makes sense quite yet.
+		#monthly_fervor_increase = 1 #BT Cut: Similar to the above, I don't think this bonus makes sense quite yet.
+		church_loyalty_modifier = 0.05 #BT Added: Church should be more loyal to a king that defends the faith.
+		relation_with_heretics = -50 #BT Added: Just makes sense.
+		relation_with_heathens  = -50 #BT Added: Just makes sense.
+    }
+	same_faith_modifier = { #BT16 Added for all tiers
+		# Applies also on the DoF
+		devotion = 0.25 #BT Added: I think Devotion makes sense if a religion has a defender of faith.
+		stability_cost_modifier = -0.1 #BT Added: I mean, I feel like national stability would be higher if there is a defender of the faith.
+	}
+	ai_will_do = {
+		factor = 0.2
+		modifier = {
+			factor = 0.75
+			full_idea_group = humanist_ideas
+		}
+		modifier = {
+			factor = 1.25
+			full_idea_group = religious_ideas
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				num_of_cities = 15
+			}
+		}
+		modifier = {
+			factor = 5
+			tag = SPA
+			religion = catholic
+		}
+		modifier = {
+			factor = 5
+			tag = SWE
+			religion = protestant
+		}
+		modifier = {
+			factor = 5
+			NOT = { has_idea_group = humanist_ideas }
+			num_of_owned_provinces_with = {
+				value = 10
+				NOT = { religion = ROOT }
+			}
+		}
+	}
+}
+
+defender_of_faith_3 = {
+	level = 3
+    range_from = 20 #BT; from 10
+    range_to = 35 #BT; from 20
+    modifier = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.2
+		#land_morale = 0.05 #BT Cut: Similar to WE, cut because I'd rather give more manpower or cheaper men.
+		#naval_morale = 0.05 #BT Cut: Similar to WE, cut because I'd rather give more manpower or cheaper men.
+		land_maintenance_modifier = -0.1 #BT Added: Emulates the clergy supporting the state with arming troops as you've gone militant.
+		prestige = 1
+		#war_exhaustion = -0.03 #BT Cut: This was likely one of the main reasons why you'd pick up DotF, and while it makes some degree of sense, I don't like it here.
+		manpower_in_true_faith_provinces = 0.2 #BT Added: Replacing the above war exhaustion, and making it so that you can draft more units from true faith provinces.
+		papal_influence = 1
+		church_power_modifier = 0.1
+		monthly_fervor_increase = 1
+		monthly_piety_accelerator = 0.001 #BT Added: Just so muslims don't miss out.
+		church_loyalty_modifier = 0.1 #BT Added: Church should be more loyal to a king that defends the faith.
+		relation_with_heretics = -50 #BT Added: Just makes sense.
+		relation_with_heathens  = -50 #BT Added: Just makes sense.
+    }
+	same_faith_modifier = { #BT16 Added for all tiers
+		# Applies also on the DoF
+		devotion = 0.5 #BT Added: I think Devotion makes sense if a religion has a defender of faith.
+		stability_cost_modifier = -0.1 #BT Added: I mean, I feel like national stability would be higher if there is a defender of the faith.
+		establish_order_cost = -0.1 #BT Added: Makes sense that religious orders are cheaper if there's a defender of faith. A lot of these were quite militant anyway.
+	}
+	ai_will_do = {
+		factor = 0.5
+		modifier = {
+			factor = 0.75
+			full_idea_group = humanist_ideas
+		}
+		modifier = {
+			factor = 1.25
+			full_idea_group = religious_ideas
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				num_of_cities = 10
+			}
+		}
+		modifier = {
+			factor = 5
+			tag = SPA
+			religion = catholic
+		}
+		modifier = {
+			factor = 5
+			tag = SWE
+			religion = protestant
+		}
+		modifier = {
+			factor = 5
+			NOT = { has_idea_group = humanist_ideas }
+			num_of_owned_provinces_with = {
+				value = 10
+				NOT = { religion = ROOT }
+			}
+		}
+	}
+}
+
+defender_of_faith_4 = {
+	level = 4
+    range_from = 35 #BT; from 20. Logic being that Orthodox is just below 35 (32) in 1444. Putting it at 50 just doesn't make sense to me.
+    range_to = 100 #BT; from 50. Logic being that two faiths hit 100 in BT at game start: Catholic & Sunni. Totemist do as well but I doubt they have DotF.
+    modifier = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.2
+		#land_morale = 0.05 #BT Cut: Similar to WE, cut because I'd rather give more manpower or cheaper men.
+		#naval_morale = 0.05 #BT Cut: Similar to WE, cut because I'd rather give more manpower or cheaper men.
+		land_maintenance_modifier = -0.1 #BT Added: Emulates the clergy supporting the state with arming troops as you've gone militant.
+		prestige = 1
+		#war_exhaustion = -0.03 #BT Cut: This was likely one of the main reasons why you'd pick up DotF, and while it makes some degree of sense, I don't like it here. Manpower in true faith is further down because it existed in vanilla already
+		warscore_cost_vs_other_religion = -0.1 #BT Added: Added bonus to make a new T4 bonus instead of +20% manpower in true faith provinces
+		papal_influence = 1
+		church_power_modifier = 0.1
+		monthly_fervor_increase = 1
+		monthly_piety_accelerator = 0.001 #BT Added: Just so muslims don't miss out.
+		manpower_in_true_faith_provinces = 0.2 #Same as vanilla, but kept here. Getting it earlier I think makes sense.
+		church_loyalty_modifier = 0.1 #BT Added: Church should be more loyal to a king that defends the faith.
+		relation_with_heretics = -50 #BT Added: Just makes sense.
+		relation_with_heathens  = -50 #BT Added: Just makes sense.
+    }
+	same_faith_modifier = { #BT16 Added for all tiers
+		# Applies also on the DoF
+		devotion = 1 #BT Added: I think Devotion makes sense if a religion has a defender of faith.
+		stability_cost_modifier = -0.1 #BT Added: I mean, I feel like national stability would be higher if there is a defender of the faith.
+		establish_order_cost = -0.1 #BT Added: Makes sense that religious orders are cheaper if there's a defender of faith. A lot of these were quite militant anyway.
+		merc_maintenance_modifier = -0.25 #BT Added: Nations with defender of faith should have cheaper mercs because religious crusaders
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0.75
+			full_idea_group = humanist_ideas
+		}
+		modifier = {
+			factor = 1.25
+			full_idea_group = religious_ideas
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				num_of_cities = 10
+			}
+		}
+		modifier = {
+			factor = 5
+			tag = SPA
+			religion = catholic
+		}
+		modifier = {
+			factor = 5
+			tag = SWE
+			religion = protestant
+		}
+		modifier = {
+			factor = 5
+			NOT = { has_idea_group = humanist_ideas }
+			num_of_owned_provinces_with = {
+				value = 10
+				NOT = { religion = ROOT }
+			}
+		}
+	}
+}
+
+defender_of_faith_5 = {
+	level = 5
+    range_from = 100 #BT; from 50. Logic being that two faiths hit 100 in BT at game start: Catholic & Sunni. Totemist do as well but I doubt they have DotF.
+    modifier = {
+		missionaries = 1
+		missionary_maintenance_cost = -0.2
+		#land_morale = 0.05 #BT Cut: Similar to WE, cut because I'd rather give more manpower or cheaper men.
+		#naval_morale = 0.05 #BT Cut: Similar to WE, cut because I'd rather give more manpower or cheaper men.
+		land_maintenance_modifier = -0.1 #BT Added: Emulates the clergy supporting the state with arming troops as you've gone militant.
+		prestige = 1
+		#war_exhaustion = -0.03 #BT Cut: This was likely one of the main reasons why you'd pick up DotF, and while it makes some degree of sense, I don't like it here. Manpower in true faith is further down because it existed in vanilla already
+		warscore_cost_vs_other_religion = -0.1 #BT Added: Added bonus to make a new T4 bonus instead of +20% manpower in true faith provinces
+		manpower_in_true_faith_provinces = 0.2 #Same as vanilla, but kept here. Getting it earlier I think makes sense.
+		enforce_religion_cost = -0.2 #BT Added: Final buff to T5 DotF.
+		papal_influence = 1
+		church_power_modifier = 0.1
+		monthly_fervor_increase = 1
+		monthly_piety_accelerator = 0.001 #BT Added: Just so muslims don't miss out.
+		church_loyalty_modifier = 0.1 #BT Added: Church should be more loyal to a king that defends the faith.
+		relation_with_heretics = -50 #BT Added: Just makes sense.
+		relation_with_heathens  = -50 #BT Added: Just makes sense.
+    }
+	same_faith_modifier = {
+		# Applies also on the DoF
+		missionaries = 1 #BT Added: To emulate DotF bonuses, and this also gives +1 missionary to the DotF for a total of +2. Also serves as a nice bonus for T5 same faiths
+		missionary_maintenance_cost = -0.2
+		devotion = 1 #BT Added: I think Devotion makes sense if a religion has a defender of faith.
+		stability_cost_modifier = -0.1 #BT Added: I mean, I feel like national stability would be higher if there is a defender of the faith.
+		establish_order_cost = -0.1 #BT Added: Makes sense that religious orders are cheaper if there's a defender of faith. A lot of these were quite militant anyway.
+		merc_maintenance_modifier = -0.25 #BT Added: Nations with defender of faith should have cheaper mercs because religious crusaders
+	}
+	ai_will_do = {
+		factor = 1.5
+		modifier = {
+			factor = 0.75
+			full_idea_group = humanist_ideas
+		}
+		modifier = {
+			factor = 1.25
+			full_idea_group = religious_ideas
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				num_of_cities = 10
+			}
+		}
+		modifier = {
+			factor = 5
+			tag = SPA
+			religion = catholic
+		}
+		modifier = {
+			factor = 5
+			tag = SWE
+			religion = protestant
+		}
+		modifier = {
+			factor = 5
+			NOT = { has_idea_group = humanist_ideas }
+			num_of_owned_provinces_with = {
+				value = 10
+				NOT = { religion = ROOT }
+			}
+		}
+	}
+}

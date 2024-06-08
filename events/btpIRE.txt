@@ -216,7 +216,7 @@ country_event = {
 		clr_country_flag = independent_ireland_reorganisation_underway
 		change_tag = IRE
 		change_government = monarchy
-		add_government_reform = tanistry_reform
+		add_government_reform = bt_tanistry_reform
 		change_primary_culture = irish
 		if = {
 			limit = { historical_friend_with = ENG }

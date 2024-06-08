@@ -1,0 +1,48 @@
+#6369 - Wunambal
+#Area - Kimberley
+#Region - Northern Australia
+
+#Core Details
+capital = "Wunambal"
+is_city = yes
+owner = WUN
+controller = WUN
+
+#Demographics
+culture = wunambal
+religion = dreamtime
+native_size = 60
+native_ferocity = 3
+native_hostileness = 4
+
+#Development and Trade
+base_tax = 2
+base_production = 1
+base_manpower = 2
+trade_goods = unknown
+
+#Cores and Occupation (Alphabetical after current)
+add_core = WUN
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech # 1.31
+
+#Histories  
+#1444 onwards
+1444.11.15 = { #BeyondTypus batch edit shortcut no vassal start date begin
+	owner = xxx
+	controller = xxx
+	remove_core = WUN
+}
+1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+	owner = WUN
+	controller = WUN
+	add_core = WUN
+}

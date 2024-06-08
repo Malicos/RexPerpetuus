@@ -2,3 +2,100 @@
 
 #I normally don't like messing with vanilla files when I don't have to, but between all the map changes and the fact that I wanted to clean up a few things
 #and make everything more dynamic anyway, I figured I'd just reorganise. Hope this doesn't mess with anyone too much. - Draiocht
+country_decisions = {
+	#More or less HR's work with only a few adjustments from Draiocht
+	tuscan_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			bt_italy_stem_duchy_check = yes
+			NOT = { has_country_flag = formed_tuscany_flag }
+			NOT = { tag = ITL }
+			NOT = { tag = ITA }
+			NOT = { tag = TUS }
+			NOT = { tag = SPI }
+			NOT = { tag = EMR }
+			NOT = { tag = LMV }
+			OR = {
+				primary_culture = tuscan
+				tag = PGA
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				culture = tuscan
+				province_id = 116	# Firenze
+				province_id = 115	# Pisa
+				province_id = 117	# Siena
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = TUS }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 116	# Firenze
+			owns_core_province = 115	# Pisa
+			owns_core_province = 117	# Siena
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				culture = tuscan
+				value = 9			#At least 2/3 of 14 Tuscan-cultured provinces
+			}
+		}
+		effect = {
+			change_tag = TUS
+			on_change_tag_effect = yes
+			#remove_non_electors_emperors_from_empire_effect = yes
+			tuscany_area = {
+				limit = { 
+					NOT = { is_permanent_claim = ROOT } 
+					NOT = { is_core = ROOT } 
+				}
+				add_permanent_claim = TUS
+			}
+			south_tuscany_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT } 
+					NOT = { is_core = ROOT } 
+				}
+				add_permanent_claim = TUS
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			if = {
+				limit = {
+					NOT = { has_idea_group = TUS_ideas }
+				}
+				swap_ideas = yes
+			}
+			set_country_flag = formed_tuscany_flag
+			hidden_effect = {
+				country_event = { id = flavor_tus.2 days = 50 random = 20 }
+			}
+			if = {
+				limit = { 
+					has_dlc = "Emperor" 
+					NOT = { 
+						OR = { 
+							tag = LAN 
+							tag = TUS
+						}
+					}
+				}
+				swap_non_generic_missions = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

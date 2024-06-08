@@ -1,0 +1,47 @@
+namespace = BT_guarantee_independent_fix
+
+
+country_event = {                         #Event to reset guarantees
+	id = BT_guarantee_independent_fix.1
+	desc = BT_guarantee_independent_fix.1.desc
+	title = BT_guarantee_independent_fix.1.title
+	picture = CONQUEST_eventPicture
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	trigger = {			#Add to this when new nations are guaranteeing other nations
+		OR = {
+			guaranteed_by = FRA
+			guaranteed_by = MAM
+			guaranteed_by = TUR
+			guaranteed_by = BUR
+			guaranteed_by = NAP
+			guaranteed_by = ARA
+			guaranteed_by = VEN
+			guaranteed_by = POL
+			guaranteed_by = HUN
+			guaranteed_by = LIT
+			guaranteed_by = TUN
+			#guaranteed_by = 
+		}
+		NOT = {
+			has_country_flag = reset_guarantees
+		}
+	}
+
+	mean_time_to_happen = {
+    }
+	
+	option = {
+		name = BT_guarantee_independent_fix.1.opta
+		set_country_flag = reset_guarantees
+		every_country = {
+			limit = {
+				has_guaranteed = ROOT
+			}
+			remove_guarantee = ROOT
+			create_guarantee = ROOT
+		}
+	}
+}

@@ -1,0 +1,294 @@
+# Dev points custom GUI by Harbivore 
+
+# This controls the dev points icon for nations current dev points ui (It also shows in subjects)
+custom_icon = {
+	name = topbar_current_dev_points_gui_icon
+	potential = { 
+		always = yes
+    }
+   tooltip = current_dev_points_gui_tooltip
+}
+# This controls the text box for nations current dev points ui (It also shows in subjects)
+custom_text_box = {
+	name = topbar_current_dev_points_gui
+	potential = { 
+		always = yes
+    }
+   tooltip = current_dev_points_gui_tooltip
+}
+
+# This controls the dev points icon for nations current dev points ui (It also shows in subjects)
+custom_icon = {
+	name = current_dev_points_gui_icon
+	potential = { 
+		OR = { 
+			owned_by = FROM 
+			owner = {
+				is_subject_of = FROM
+			}
+		}
+    }
+   tooltip = current_dev_points_gui_tooltip
+}
+# This controls the text box for nations current dev points ui (It also shows in subjects)
+custom_text_box = {
+	name = current_dev_points_gui
+	potential = { 
+		OR = { 
+			owned_by = FROM 
+			owner = {
+				is_subject_of = FROM
+			}
+		}
+    }
+   tooltip = current_dev_points_gui_tooltip
+}
+
+# This controls the dev points icon for a provinces local generated dev points ui (It also shows in subjects)
+custom_icon = {
+	name = local_generated_dev_points_gui_icon
+	potential = { 
+		OR = {
+			owned_by = FROM 
+			owner = {
+				is_subject_of = FROM
+			}
+		}
+    }
+   tooltip = local_generated_dev_points_gui_tooltip
+}
+# This controls the text box for a provinces local generated dev points ui (It also shows in subjects)
+custom_text_box = {
+	name = local_generated_dev_points_gui 
+	potential = {
+		OR = {
+			owned_by = FROM
+			owner = {
+				is_subject_of = FROM
+			}
+		}
+    }
+	tooltip = local_generated_dev_points_gui_tooltip
+}
+
+# This controls the dev points icon that appears when looking in other nations current dev points
+custom_icon = {
+	name = current_dev_points_gui_icon_foreign
+	potential = {
+		NOT = {
+			OR = { 
+				owned_by = FROM 
+				owner = {
+					is_subject_of = FROM
+				}
+			}
+		}
+    }
+    tooltip = cant_see_foreign_current_dev_points_tooltip
+}
+# This controls the text box which makes a '-'  appear when looking in other nations current dev points
+custom_text_box = {
+	name = cant_see_foreign_current_dev_points
+	potential = {
+		NOT = {
+			OR = {
+				owned_by = FROM 
+				owner = {
+					is_subject_of = FROM
+				}
+			}
+		}
+    }
+    tooltip = cant_see_foreign_current_dev_points_tooltip
+}
+
+# This controls the dev points icon when looking in other nations local generated dev points
+custom_icon = {
+	name = local_generated_dev_points_gui_icon_foreign
+	potential = { 
+		NOT = {
+			OR = { 
+				owned_by = FROM 
+				owner = {
+					is_subject_of = FROM
+				}
+			}
+		}
+	}
+	tooltip = cant_see_foreign_dev_points_tooltip
+}
+# This controls the text box which makes a '-'  appear when looking in other nations local generated dev points
+custom_text_box = {
+	name = cant_see_foreign_dev_points 
+	potential = {
+		NOT = {
+			OR = {
+				owned_by = FROM
+				owner = {
+					is_subject_of = FROM
+				}
+			}
+		}
+    }
+	tooltip = cant_see_foreign_dev_points_tooltip
+}
+
+# This is for the text box for debug gui that shows the total amount of dev points a nation had generated throughout the game
+custom_text_box = {
+	name = total_generated_dev_points_gui 
+	potential = {
+		has_global_flag = debug_total_dev_points
+	}
+}
+
+# This is for the text box for debug gui that shows the total amount of development a nation had gained from dev points throughout the game
+custom_text_box = {
+	name = total_development_gained_from_dev_points_gui 
+	potential = {
+		has_global_flag = debug_total_dev_points
+	}
+}
+
+
+#Not yet working Probably not possible
+# custom_text_box = {
+	# name = statewide_monthly_dev_points_gui
+	# potential = { always = yes } 
+# }
+
+#Province buttons kept just incase
+# custom_button = {
+	# name = dev_points_tax_dev_increase_button
+	# potential = { always = yes }
+	# trigger = { 
+		# country_or_subject_holds = FROM
+		# owned_by = controller
+		# variable_arithmetic_trigger = {
+			# export_to_variable = {
+				# variable_name = base_adm_dev
+				# value = trigger_value:base_tax 
+			# }
+			# export_to_variable = {
+				# variable_name = base_dip_dev
+				# value = trigger_value:base_production
+			# }
+			# export_to_variable = {	
+				# variable_name = base_mil_dev
+				# value = trigger_value:base_manpower
+			# }
+			# change_variable = {	
+				# which = base_adm_dev
+				# which = base_dip_dev
+			# }
+			# check_variable = {
+				# which = base_adm_dev
+				# which = base_mil_dev
+			# }
+		# }
+		# FROM = {
+			# has_enough_dev_points_to_dev = yes
+		# }
+	# }
+    # effect = { 
+		# hidden_effect = {
+			# spend_dev_points_effect = yes
+			# add_base_tax = 1
+			# simulate_development = yes
+		# }
+	# }
+    # tooltip = province_view_dev_points_tax_dev_increase_button_tooltip
+# }
+
+# custom_button = {
+	# name = dev_points_production_dev_increase_button
+    # potential = { always = yes }
+    # trigger = { 
+			# OR = {
+				# AND = {
+					# owned_by = FROM
+					# controlled_by = FROM
+				# }
+				# country_or_non_sovereign_subject_holds = FROM
+			# }
+		# variable_arithmetic_trigger = {
+			# export_to_variable = {
+				# variable_name = base_adm_dev
+				# value = trigger_value:base_tax 
+			# }
+			# export_to_variable = {
+				# variable_name = base_dip_dev
+				# value = trigger_value:base_production
+			# }
+			# export_to_variable = {	
+				# variable_name = base_mil_dev
+				# value = trigger_value:base_manpower
+			# }
+			# change_variable = {	
+				# which = base_adm_dev
+				# which = base_dip_dev
+			# }
+			# check_variable = {
+				# which = base_adm_dev
+				# which = base_mil_dev
+			# }
+		# }
+		# FROM = {
+			# has_enough_dev_points_to_dev = yes
+		# }
+	# }
+    # effect = { 
+		# hidden_effect = {
+			# spend_dev_points_effect = yes
+			# add_base_production = 1
+			# simulate_development = yes
+		# }
+	# }
+    # tooltip = province_view_dev_points_production_dev_increase_button_tooltip
+# }
+
+# custom_button = {
+    # name = dev_points_manpower_dev_increase_button
+    # potential = { always = yes }
+    # trigger = { 
+		# OR = {
+			# AND = {
+				# owned_by = FROM
+				# controlled_by = FROM
+			# }
+			# country_or_non_sovereign_subject_holds = FROM
+		# }
+		# variable_arithmetic_trigger = {
+			# export_to_variable = {
+				# variable_name = base_adm_dev
+				# value = trigger_value:base_tax 
+			# }
+			# export_to_variable = {
+				# variable_name = base_dip_dev
+				# value = trigger_value:base_production
+			# }
+			# export_to_variable = {	
+				# variable_name = base_mil_dev
+				# value = trigger_value:base_manpower
+			# }
+			# change_variable = {	
+				# which = base_adm_dev
+				# which = base_dip_dev
+			# }
+			# check_variable = {
+				# which = base_adm_dev
+				# which = base_mil_dev
+			# }
+		# }
+		# FROM = {
+			# has_enough_dev_points_to_dev = yes
+		# }
+	# }
+    # effect = { 
+		# hidden_effect = {
+			# spend_dev_points_effect = yes
+			# add_base_manpower = 1
+			# simulate_development = yes
+		# }
+	# }
+    # tooltip = province_view_dev_points_manpower_dev_increase_button_tooltip
+# }

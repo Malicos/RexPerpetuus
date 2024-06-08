@@ -1,0 +1,78 @@
+spriteTypes = {
+	spriteType = {
+		name = "extra_colonist_button"
+		texturefile = "gfx/interface/custom_buttons/extra_colonist_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "extra_diplomat_button"
+		texturefile = "gfx/interface/custom_buttons/extra_diplomat_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "extra_merchant_button"
+		texturefile = "gfx/interface/custom_buttons/extra_merchant_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "extra_missionary_button"
+		texturefile = "gfx/interface/custom_buttons/extra_missionary_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "institution_spread_button"
+		texturefile = "gfx/interface/custom_buttons/institution_spread_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "monthly_dev_points_button"
+		texturefile = "gfx/interface/custom_buttons/monthly_dev_points_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "reform_progress_growth_button"
+		texturefile = "gfx/interface/custom_buttons/reform_progress_growth_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "yearly_absolutism_button"
+		texturefile = "gfx/interface/custom_buttons/yearly_absolutism_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "yearly_army_professionalism_button"
+		texturefile = "gfx/interface/custom_buttons/yearly_army_professionalism_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "yearly_army_tradition_button"
+		texturefile = "gfx/interface/custom_buttons/yearly_army_tradition_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "yearly_innovativeness_button"
+		texturefile = "gfx/interface/custom_buttons/yearly_innovativeness_button.dds"
+		noOfFrames = 2
+		loadType = "INGAME"
+	}
+}

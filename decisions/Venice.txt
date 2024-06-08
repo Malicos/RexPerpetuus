@@ -6,7 +6,6 @@ country_decisions = {
 				has_country_modifier = thalassocracy
 			}
 			OR = {
-					
 				1298 = { # Genua
 					is_strongest_trade_power = ROOT
 				}
@@ -100,7 +99,11 @@ country_decisions = {
 			}
 		}
 		allow = {
-			full_idea_group = maritime_ideas
+			OR = {
+				full_idea_group = maritime_ideas
+				full_idea_group = naval_ideas
+				full_idea_group = trade_ideas
+			}
 			OR = {
 				custom_trigger_tooltip = {
 					tooltip = bt_venetian_genoese_thalassocracy_tooltip # BT
@@ -210,13 +213,161 @@ country_decisions = {
 					}
 				}
 			}
-		}		
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						1298 = { # Genua
+							is_strongest_trade_power = ROOT
+						}
+						1308 = { # Venice
+							is_strongest_trade_power = ROOT
+						}
+						341 = { #Tunis
+							is_strongest_trade_power = ROOT
+						}
+						137 = { #Ragusa
+							is_strongest_trade_power = ROOT
+						}
+						358 = { #Alexandria
+							is_strongest_trade_power = ROOT
+						}
+						121 = { #Naples # BT
+							is_strongest_trade_power = ROOT
+						}
+						5493 = { #Aegean Sea # BT
+							is_strongest_trade_power = ROOT
+						}
+					}
+					OR = {
+						#Venice-Genoa
+						province_id = 1298
+						province_id = 1308
+						province_id = 341
+						province_id = 137
+						province_id = 358
+						province_id = 121
+						province_id = 5493
+					}
+				}
+				AND = {
+					OR = {
+						45 = {	# Lübeck
+							is_strongest_trade_power = ROOT
+						}
+						#1926 = { #Baltic Sea # BT removed
+						#	is_strongest_trade_power = ROOT
+						#}
+						1269 = { #Antwerpen
+							is_strongest_trade_power = ROOT
+						}
+						1975 = { #North Sea
+							is_strongest_trade_power = ROOT
+						}
+						33 = { #Novgorod
+							is_strongest_trade_power = ROOT
+						}
+						85 = { #Cologne # BT
+							is_strongest_trade_power = ROOT
+						}
+						1 = { #Stockholm # BT
+							is_strongest_trade_power = ROOT
+						}
+						43 = { #Danzig # BT
+							is_strongest_trade_power = ROOT
+						}
+					}
+					OR = {
+						province_id = 45
+						province_id = 1269
+						province_id = 1975
+						province_id = 85
+						province_id = 1
+						province_id = 43
+					}
+				}
+				AND = {
+					OR = {
+						1331 = { #Gulf of Aden # BT; 4346
+							is_strongest_trade_power = ROOT
+						}
+						504 = { #Indus
+							is_strongest_trade_power = ROOT
+						}
+						1340 = { #Ceylon
+							is_strongest_trade_power = ROOT
+						}
+						1343 = { #Bengal
+							is_strongest_trade_power = ROOT
+						}
+						1361 = { #Malacca
+							is_strongest_trade_power = ROOT
+						}
+						1357 = { #Moluccas # BT
+							is_strongest_trade_power = ROOT
+						}
+						1412 = { #Australia # BT
+							is_strongest_trade_power = ROOT
+						}
+					}
+					OR = {
+						province_id = 1331
+						province_id = 504
+						province_id = 1340
+						province_id = 1343
+						province_id = 1361
+						province_id = 1357
+						province_id = 1412
+					}
+				}
+				AND = {
+					OR = {
+						1816 = { #Beijing
+							is_strongest_trade_power = ROOT
+						}
+						684 = { #Hangzhou
+							is_strongest_trade_power = ROOT
+						}
+						730 = { #Girin
+							is_strongest_trade_power = ROOT
+						}
+						1376 = { #Nippon
+							is_strongest_trade_power = ROOT
+						}
+						1371 = { #Canton
+							is_strongest_trade_power = ROOT
+						}
+						1397 = { #Philippines
+							is_strongest_trade_power = ROOT
+						}
+						1365 = { #Siam
+							is_strongest_trade_power = ROOT
+						}
+					}
+					OR = {
+						province_id = 1816
+						province_id = 684
+						province_id = 730
+						province_id = 1376
+						province_id = 1371
+						province_id = 1397
+						province_id = 1365
+					}
+				}
+			}
+			NOT = { is_strongest_trade_power = ROOT }
+		}
 
 		effect = {
 			add_country_modifier = {
 				name = "thalassocracy"
 				duration = -1
 			}
+			unlock_government_reform = {
+				government_reform = thalassocracy_reform
+			}
+			change_government_reform_progress = 50
 		}
 		
 		ai_will_do = {
@@ -224,4 +375,43 @@ country_decisions = {
 		}
 	}
 
+	replenish_mercenary_ranks = {
+		major = yes
+		potential = {
+			has_country_flag = ven_condottieri_flag
+			owns = 112
+		} 
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = ROOT_5_YEAR_CD_TT
+				OR = {
+					had_country_flag = {
+						flag = 5_year_cd_flag
+						days = 1825
+					}
+					NOT = { has_country_flag = 5_year_cd_flag }
+				}	
+			}
+			any_hired_mercenary_company = {
+				NOT = { has_company_manpower = 0.75 }
+				location = {
+					province_id = 112
+				}
+			}
+			mil_power_cost = 20
+			years_of_income = 0.1
+		}
+		effect = {
+			clr_country_flag = 5_year_cd_flag
+			set_country_flag = 5_year_cd_flag
+			random_hired_mercenary_company = {
+				limit = {
+					location = { province_id = 112 } 
+				}
+				add_company_manpower = 0.5
+			}
+			mil_power_cost = 20
+			add_years_of_income = -0.1
+		}
+	}
 }

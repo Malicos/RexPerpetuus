@@ -13,3 +13,17 @@ bt_cb_tribal_reconquest = {
 
 	war_goal = bt_tribal_reconquest_wargoal
 }
+
+bt_danzig_revolt = {
+
+	is_triggered_only = yes
+	months = 240
+	
+	prerequisites_self = {
+	}
+
+	prerequisites = {
+	}
+
+	war_goal = bt_danzig_revolt_wargoal
+}

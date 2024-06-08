@@ -45,3 +45,6 @@
  WEANNEX:0 "Full Annexation. \n"
  WHITE_PEACE:0 "White Peace."
  WHITE_PEACE_INDEPENDANCE:0 "White Peace. \n §R$ATTACKER$ remains subject to $DEFENDER$.§!\n"
+ MENU_BAR_GAME_RESIGN:0 "Restart to Menu"
+ RESIGN_TITLE:0 "Restart to Main Menu"
+ RESIGN_DESC:0 "Are you sure you want to resign and restart the game to return to the main menu?"

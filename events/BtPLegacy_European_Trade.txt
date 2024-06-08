@@ -19,7 +19,7 @@ country_event = {
 	trigger = {
 		is_year = 1499
 		owns = 90			#Owns Brugge
-		90 = { province_has_center_of_trade_of_level = 3 }
+		#90 = { province_has_center_of_trade_of_level = 3 } Removed because other events wont fire if they lose it in a war
 	}
 
 	mean_time_to_happen = {
@@ -29,34 +29,35 @@ country_event = {
 	option = { # No, keep trade in Brugge
 		name = "BtPLegacy_european_trade.EVTOPTA1"
 		ai_chance = {
-			factor = 1
+			factor = 10
 			modifier = {
 				factor = 0
 				owns = 1744			#Doesn't care if already owns Antwerp
 			}
 			modifier = {
 				factor = 0
-				NOT = { years_of_income = 7.5 }			#Wont do if would go too broke
+				NOT = { treasury = 500 }			#Wont do if would go too broke
 			}
 			modifier = {
-				factor = 33
-				years_of_income = 15.0			#More likely if plenty of money
+				factor = 1
+				treasury = 500			#More likely if plenty of money
+			}
+			modifier = {
+				factor = 40
+				treasury = 1000			#More likely if plenty of money
 			}
 		}
-		if = {
-			limit = { NOT = { monthly_income = 25 } }				#Yearly income below 300 (meaning total cost under 3000)
-			add_years_of_income = -10.0
-		}
-		if = {
-			limit = { monthly_income = 25 }				#Caps out at 3000 cost for high income nations
-			add_treasury = -3000
-		}
-		add_country_modifier = { name = "btpl_clearing_the_inlet" duration = 7300 }
+		add_treasury = -1000
+		add_base_tax = -5
+		add_base_production = -5
+		add_base_manpower = -2
+		1744 = { owner = { country_event = { id = BtPLegacy_european_trade.2 days = 1 } } }
+		add_prestige = 10
 	}
 	option = { # Oh well, crap happens
 		name = "BtPLegacy_european_trade.EVTOPTB1"
 		ai_chance = {
-			factor = 98
+			factor = 50
 		}
 		90 = {
 			add_center_of_trade_level = -2
@@ -67,18 +68,20 @@ country_event = {
 		1744 = { owner = { country_event = { id = BtPLegacy_european_trade.2 days = 1 } } }
 		add_prestige = -10
 	}
-	option = { # Force the industry and port to move to Sluis, nearer to the sea
-		name = "BtPLegacy_european_trade.EVTOPTC1"
-		ai_chance = {
-			factor = 1
-		}
-		90 = {
-			rename_capital = "Sluis"
-			add_base_tax = -5
-			add_base_production = -5
-			add_base_manpower = -2
-		}
-	}
+	# option = { # Force the industry and port to move to Sluis, nearer to the sea			BT HARB removed just better than the other 2
+		# name = "BtPLegacy_european_trade.EVTOPTC1"
+		# ai_chance = {
+			# factor = 20
+		# }
+		# 90 = {
+			# rename_capital = "Sluis"
+			# add_center_of_trade_level = -1
+			# add_base_tax = -5
+			# add_base_production = -5
+			# add_base_manpower = -2
+		# }
+		# 1744 = { owner = { country_event = { id = BtPLegacy_european_trade.2 days = 1 } } }
+	# }
 }
 
 # Antwerp from Brugge
@@ -131,12 +134,41 @@ country_event = {
 	
 	trigger = {
 		owns = 1744			#Owns Antwerp
-		1744 = { province_has_center_of_trade_of_level = 3 }	#Antwerp has a Centre of Trade, ie. Brugge didn't keep it
+		1744 = { province_has_center_of_trade_of_level = 1 }	#Antwerp has a Centre of Trade, ie. Brugge didn't keep it BT Harb changed to 1 so it will always fire
 		OR = {	#OR lines, any one of these will enable the event
 			1744 = { controller = { is_in_deficit = yes } }	#Controller running in deficit
 			1744 = { controller = { is_bankrupt = yes } }	#Controller is bankrupt
 			1744 = { controlled_by = REB }	#Controller is a rebel faction
 			1744 = { unrest = 30 }	#Very high unrest
+			owner = {
+				is_subject_other_than_tributary_trigger = yes
+				overlord = {
+					OR = {
+						is_in_deficit = yes
+						is_bankrupt = yes
+					}
+				}
+			}
+		}	#End of OR lines
+		NOT = { is_year = 1620 }	#If the player can protect Antwerp until 1620, they deserve to keep it the CoT..... stays in vanilla anyway
+	}
+
+	mean_time_to_happen = {
+		months = 480
+		modifier = { 
+			factor = 0.5
+			1744 = { controller = { is_in_deficit = yes } }	#Controller running in deficit
+		}
+		modifier = { 
+			factor = 0.04
+			1744 = { controller = { is_bankrupt = yes } }	#Controller is bankrupt
+		}
+		modifier = { 
+			factor = 0.02
+			1744 = { controlled_by = REB }	#Controller is a rebel faction
+		}
+		modifier = { 
+			factor = 0.04
 			1744 = {	#Owner is subject and overlord has financial trouble   - This is what happened historically, look up Spanish Fury aka Sack of Antwerp
 				owner = {
 					is_subject_other_than_tributary_trigger = yes
@@ -148,73 +180,37 @@ country_event = {
 					}
 				}
 			}
-			AND = {	#AI controlled with no overlord
-				ai = yes
-				is_year = 1590
-				is_free_or_tributary_trigger = yes
-			}
-			AND = {	#AI controlled with an overlord who is also ai controlled
-				ai = yes
-				is_year = 1590
-				is_subject_other_than_tributary_trigger = yes
-				overlord = { ai = yes }
-			}
-		}	#End of OR lines
-		NOT = { is_year = 1620 }	#If the player can protect Antwerp until 1620, they deserve to keep it the CoT..... stays in vanilla anyway
-	}
-
-	mean_time_to_happen = {
-		months = 30
-		
-		modifier = { #Slower for the AI
-			factor = 2
-			ai = yes
-		}
-		modifier = { #If it hasnt fired by 1619 and it should, make it near instant
-			factor = 0.05
-			is_year = 1619
 		}
 	}
 	
 	option = { # No, keep trade in Antwerp
 		name = "BtPLegacy_european_trade.EVTOPTA3"
 		ai_chance = {
-			factor = 1
+			factor = 10
 			modifier = {
 				factor = 0
 				owns = 97			#Doesn't care if already owns Amsterdam
 			}
 			modifier = {
 				factor = 0
-				NOT = { years_of_income = 15.0 }			#Wont do if would go too broke
+				NOT = { treasury = 500 }			#Wont do if would go too broke
 			}
 			modifier = {
-				factor = 33
-				years_of_income = 30.0			#More likely if plenty of money
+				factor = 1
+				treasury = 500			#More likely if plenty of money
+			}
+			modifier = {
+				factor = 40
+				treasury = 1000			#More likely if plenty of money
 			}
 		}
-		if = {
-			limit = { NOT = { monthly_income = 25 } }				#Yearly income below 300 (meaning total cost under 6000)
-			add_years_of_income = -20.0
-		}
-		if = {
-			limit = { monthly_income = 25 }				#Caps out at 6000 cost for high income nations
-			add_treasury = -6000
-		}
-		add_country_modifier = { name = "btpl_stabilising_the_economy" duration = 7300 }
-		if = {
-			limit = { NOT = { has_dlc = "Common Sense" } }
-			1744 = { add_province_modifier = { name = "severe_tax_reduction" duration = 3650 } }
-		}
-		if = {
-			limit = { has_dlc = "Common Sense" }
-			1744 = { add_province_modifier = { name = "btpl_investing_in_antwerp" duration = 7300 } }
-		}
+		add_treasury = -1000
+		1744 = { add_province_modifier = { name = "btpl_investing_in_antwerp" duration = 7300 } }
 	}
 	option = { # Oh well, crap happens
 		name = "BtPLegacy_european_trade.EVTOPTB3"
 		ai_chance = {
-			factor = 99
+			factor = 50
 		}
 		1744 = {
 			add_center_of_trade_level = -2
@@ -269,15 +265,19 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		is_year = 1620
+		is_year = 1600
 		owns = 97			#Owns Amsterdam
 		primary_culture = dutch
 		NOT = { is_year = 1681 }			#chance to just get plain unlucky, and miss out
 	}
 
 	mean_time_to_happen = {
-		months = 120
+		months = 180
 		
+		modifier = { #If it hasnt fired by this, make it more likely
+			factor = 0.5
+			is_year = 1620
+		}
 		modifier = { #If it hasnt fired by this, make it more likely
 			factor = 0.5
 			is_year = 1640
@@ -285,10 +285,6 @@ country_event = {
 		modifier = { #If it hasnt fired by this, make it more likely
 			factor = 0.5
 			is_year = 1660
-		}
-		modifier = { #If it hasnt fired by this, make it more likely
-			factor = 0.5
-			is_year = 1680
 		}
 	}
 	
@@ -298,7 +294,7 @@ country_event = {
 		97 = {
 			add_base_tax = 6
 			add_base_production = 6
-			add_base_manpower = 3
+			add_base_manpower = 4
 		}
 		if = {
 			limit = { 97 = { NOT = { province_has_center_of_trade_of_level = 3 } } }

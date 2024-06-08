@@ -1,0 +1,17 @@
+#GNJ - GanjaKhanate
+
+#Political Situation
+capital = 420
+fixed_capital = 420 #Cannot move capital away from this province & no power cost to move to it
+
+#Government
+government_rank = 1
+government = monarchy
+add_government_reform = iqta
+
+#Demographics
+primary_culture = turkoman
+religion = shiite
+
+#Tech and Military
+technology_group = muslim

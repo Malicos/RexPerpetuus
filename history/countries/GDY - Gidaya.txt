@@ -1,0 +1,18 @@
+#GDY - Gidaya
+
+#Political Situation
+capital = 2773
+fixed_capital = 2773 #Cannot move capital away from this province & no power cost to move to it
+
+#Government
+government_rank = 1
+government = monarchy
+add_government_reform = iqta
+
+#Demographics
+primary_culture = harari
+religion = sunni
+religious_school = shafii_school
+
+#Tech and Military
+technology_group = east_african

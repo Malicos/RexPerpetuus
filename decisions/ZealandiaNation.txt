@@ -35,12 +35,12 @@ country_decisions = {
 				ai = no
 				AND = {
 					ai = yes
-					num_of_cities = 3
+					num_of_cities = 3	
 				}
 			}
 		}
 		provinces_to_highlight = {
-			OR = { # XXX
+			OR = {
 				province_id = 2737
 				province_id = 1107
 				province_id = 1109
@@ -82,6 +82,7 @@ country_decisions = {
 				}
 			}
 			change_tag = NZL
+			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { is_former_colonial_nation = yes }
@@ -102,24 +103,6 @@ country_decisions = {
 				}
 				add_permanent_claim = NZL
 			}
-			#te_ika_a_maui_hauauru_area = {
-			#	limit = {
-			#		NOT = { owned_by = ROOT }
-			#	}
-			#	add_permanent_claim = NZL
-			#}
-			#te_ika_a_maui_waho_area = {
-			#	limit = {
-			#		NOT = { owned_by = ROOT }
-			#	}
-			#	add_permanent_claim = NZL
-			#}
-			#te_waipounamu_area = {
-			#	limit = {
-			#		NOT = { owned_by = ROOT }
-			#	}
-			#	add_permanent_claim = NZL
-			#}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -147,6 +130,7 @@ country_decisions = {
 	aotearoa_nation = {
 		major = yes
 		potential = {
+			NOT = { exists = AOT }
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
 			primary_culture = maori
@@ -166,7 +150,7 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			OR = { # XXX
+			OR = {
 				province_id = 2737
 				province_id = 1107
 				province_id = 1109
@@ -198,6 +182,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = AOT
+			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { government_rank = 2 }
@@ -218,24 +203,6 @@ country_decisions = {
 				}
 				add_permanent_claim = AOT
 			}
-			#te_ika_a_maui_hauauru_area = {
-			#	limit = {
-			#		NOT = { owned_by = ROOT }
-			#	}
-			#	add_permanent_claim = AOT
-			#}
-			#te_ika_a_maui_waho_area = {
-			#	limit = {
-			#		NOT = { owned_by = ROOT }
-			#	}
-			#	add_permanent_claim = AOT
-			#}
-			#te_waipounamu_area = {
-			#	limit = {
-			#		NOT = { owned_by = ROOT }
-			#	}
-			#	add_permanent_claim = AOT
-			#}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300

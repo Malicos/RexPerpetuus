@@ -23,3 +23,8 @@ bt_trade_good_apiculture = {
 	#Events change value as follows   3.0 - 3.25 - 3.5 - 2.0
 #Note on coal:
 	#Events change value as follows   8.0 - 6.0
+
+bt_trade_good_silver = {
+	base_price = 0 
+	goldtype = yes
+}

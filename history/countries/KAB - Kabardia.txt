@@ -1,0 +1,17 @@
+#KAB - Kabardia
+
+#Political Situation
+capital = 2197
+fixed_capital = 2197 #Cannot move capital away from this province & no power cost to move to it
+
+#Government
+government_rank = 1
+government = monarchy
+add_government_reform = autocracy_reform
+
+#Demographics
+primary_culture = kabardian
+religion = orthodox
+
+#Tech and Military
+technology_group = eastern

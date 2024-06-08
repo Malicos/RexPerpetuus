@@ -368,3 +368,98 @@ imperial_abbacy = {
 		government = theocracy
 	}
 }
+
+####
+# Dub
+####
+
+ruthenian_monarchy = { #Carbon-copy of Muscovy monarchy
+	rank = {
+		1 = GRAND_PRINCIPALITY
+		2 = GRAND_PRINCIPALITY
+		3 = TSARDOM
+	}
+
+	ruler_male = {
+		1 = GREAT_KNIAZ
+		2 = GREAT_KNIAZ
+		3 = TSAR
+	}
+
+	ruler_female = {
+		1 = GREAT_KNIAGINIA
+		2 = GREAT_KNIAGINIA
+		3 = TSARITSA
+	}
+	
+	consort_male = {
+		1 = GREAT_KNIAZ
+		2 = GREAT_KNIAZ
+		3 = TSAR
+	}
+
+	consort_female = {
+		1 = GREAT_KNIAGINIA
+		2 = GREAT_KNIAGINIA
+		3 = TSARITSA
+	}
+
+	heir_male = {
+		1 = KNIAZHICH
+		2 = KNIAZHICH
+		3 = TSAREVICH
+	}
+
+	heir_female = {
+		1 = KNIAZHNA
+		2 = KNIAZHNA
+		3 = TSAREVNA
+	}
+
+	trigger = {
+		tag = KIE
+		OR = {
+			has_reform = principality
+			has_reform = tsardom
+		}
+		mission_completed = ukr_restore_kiev
+	}
+}
+
+bulgarian_monarchy = {
+	rank = {
+		1 = DESPOTATE
+		2 = PRINCIPALITY
+		3 = TSARDOM
+	}
+
+	ruler_male = {
+		1 = DESPOT
+		2 = KNIAZ
+		3 = TSAR
+	}
+
+	ruler_female = {
+		1 = DESPOTITSA
+		2 = KNIAGINIA
+		3 = TSARINA
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = KNIAZHICH
+		3 = DESPOT #I have read that at times, they crowned a co-emperor in the Bulgarian Empire, but I'm going with this as it's a bit more grounded.
+	}
+
+	heir_female = {
+		1 = HEIR
+		2 = KNIAZHICH
+		3 = DESPOTITSA
+	}
+
+	trigger = {
+		government = monarchy
+		primary_culture = bulgarian
+	}
+	
+}

@@ -2968,7 +2968,7 @@
 	{
 		type="kiel_canal"
 		use_animation=no
-		scale=1.300000
+		scale=1.320000
 		time_duration=300.000000
 		always_visible=yes
 		always_visible=yes
@@ -2979,11 +2979,11 @@
 			hidden_on_start=yes
 			position=
 			{
-				2781.000 -0.150 1927.500 
+				2782.000 0.150 1924.000 
 			}
 			rotation=
 			{
-				0.000 -75.000 0.000 
+				0.000 -70.000 0.000 
 			}
 		}
 	}

@@ -1,10 +1,66 @@
 country_decisions = {
+	#Major Decisions:	color = { 146 174 114 }
+	#Minor Decisions:	color = { 60 117 165 }
+	#Estate Decsisions:	color = { 152 121 56 }
+	statue_in_restraint_of_appeals = {
+		potential = {
+			NOT = { has_country_modifier = the_statue_in_restraint_of_appeals }
+			religion = catholic
+			exists = PAP
+			NOT = { tag = PAP }
+		}
+		allow = {
+			NOT = { PAP = { has_opinion = { who = root value = -50 } } }
+			adm = 2
+			mil = 2
+		}
+		effect = {
+			add_prestige = 10
+			add_reform_desire  = 0.01
+			every_neighbor_country = {
+				limit = { 
+					religion = catholic 
+					NOT = {
+						tag = PAP
+					}
+				}
+				add_opinion = { who = ROOT modifier = opinion_demote_pope }
+			}
+			PAP = { add_opinion = { who = ROOT modifier = opinion_pope_realise_demotion } }
+			add_country_modifier = {
+				name = "the_statue_in_restraint_of_appeals"
+				duration = -1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				PAP = { has_opinion = { who = root value = -100 } } 
+				NOT = { is_excommunicated = yes }
+				OR = {
+					culture_group = french
+					culture_group = latin
+					culture_group = iberian
+				}
+			}
+			modifier = {
+				factor = 0
+				is_emperor = yes
+				hre_religion_treaty = no
+			}
+		}
+	}
 	
 	abolish_slavery_act = {
 		potential = {
 			NOT = { has_country_modifier = the_abolish_slavery_act }
 			slaves = 1
-			current_age = age_of_revolutions
+			OR = {
+				current_age = age_of_revolutions
+				has_country_flag = ned_abolish_slavery_flag
+			}
 			adm_tech = 15
 		}
 		allow = {
@@ -52,27 +108,27 @@ country_decisions = {
 					full_idea_group = humanist_ideas
 				}
 			}
-
-			modifier = {
-				factor = 1.15
-				enlightenment = 20
-			}
-			modifier = {
-				factor = 1.15
-				enlightenment = 40
-			}
-			modifier = {
-				factor = 1.15
-				enlightenment = 60
-			}
-			modifier = {
-				factor = 1.15
-				enlightenment = 80
-			}
-			modifier = {
-				factor = 1.5
-				enlightenment = 100
-			}
+			#I don't know who coded this, but this makes no sense. //Dub
+			#modifier = {
+			#	factor = 1.15
+			#	enlightenment = 20
+			#}
+			#modifier = {
+			#	factor = 1.15
+			#	enlightenment = 40
+			#}
+			#modifier = {
+			#	factor = 1.15
+			#	enlightenment = 60
+			#}
+			#modifier = {
+			#	factor = 1.15
+			#	enlightenment = 80
+			#}
+			#modifier = {
+			#	factor = 1.5
+			#	enlightenment = 100
+			#}
 			modifier = {
 				factor = 1.5
 				has_institution = enlightenment
@@ -352,85 +408,34 @@ country_decisions = {
 					value = 40
 				}
 			}
-
-			modifier = {
-				factor = 1.15
-				industrialization = 20
-			}
-			modifier = {
-				factor = 1.15
-				industrialization = 40
-			}
-			modifier = {
-				factor = 1.15
-				industrialization = 60
-			}
-			modifier = {
-				factor = 1.15
-				industrialization = 80
-			}
-			modifier = {
-				factor = 1.33
-				industrialization = 100
-			}
+			#Same here. No clue. //Dub
+			#modifier = {
+			#	factor = 1.15
+			#	industrialization = 20
+			#}
+			#modifier = {
+			#	factor = 1.15
+			#	industrialization = 40
+			#}
+			#modifier = {
+			#	factor = 1.15
+			#	industrialization = 60
+			#}
+			#modifier = {
+			#	factor = 1.15
+			#	industrialization = 80
+			#}
+			#modifier = {
+			#	factor = 1.33
+			#	industrialization = 100
+			#}
 			modifier = {
 				factor = 1.33
 				has_institution = industrialization
 			}
 		}
 	}
-	
-	statue_in_restraint_of_appeals = {
-		potential = {
-			NOT = { has_country_modifier = the_statue_in_restraint_of_appeals }
-			religion = catholic
-			exists = PAP
-			NOT = { tag = PAP }
-		}
-		allow = {
-			NOT = { PAP = { has_opinion = { who = root value = -50 } } }
-			adm = 2
-			mil = 2
-		}
-		effect = {
-			add_prestige = 10
-			add_reform_desire  = 0.01
-			every_neighbor_country = {
-				limit = { 
-					religion = catholic 
-					NOT = {
-						tag = PAP
-					}
-				}
-				add_opinion = { who = ROOT modifier = opinion_demote_pope }
-			}
-			PAP = { add_opinion = { who = ROOT modifier = opinion_pope_realise_demotion } }
-			add_country_modifier = {
-				name = "the_statue_in_restraint_of_appeals"
-				duration = -1
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				PAP = { has_opinion = { who = root value = -100 } } 
-				NOT = { is_excommunicated = yes }
-				OR = {
-					culture_group = french
-					culture_group = latin
-					culture_group = iberian
-				}
-			}
-			modifier = {
-				factor = 0
-				is_emperor = yes
-				hre_religion_treaty = no
-			}
-		}
-	}
-	
+
 	revoke_restraint_of_appeals = {
 		potential = {
 			has_country_modifier = the_statue_in_restraint_of_appeals
@@ -471,5 +476,5 @@ country_decisions = {
 			}
 		}
 	}
-	
+
 }

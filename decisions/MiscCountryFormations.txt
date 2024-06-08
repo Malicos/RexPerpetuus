@@ -2,3 +2,194 @@
 
 #I normally don't like messing with vanilla files when I don't have to, but between all the map changes and the fact that I wanted to clean up a few things
 #and make everything more dynamic anyway, I figured I'd just reorganise. Hope this doesn't mess with anyone too much. - Draiocht
+country_decisions = {
+	greek_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_greece_flag }
+			NOT = { tag = GRE }
+			NOT = { tag = BYZ }
+			NOT = { tag = TUR }
+			primary_culture = greek
+		}
+		provinces_to_highlight = {
+			bt_trigger_modern_greece_areas = yes
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = GRE }
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 145
+			owns_core_province = 146
+			owns_core_province = 1773
+			owns_core_province = 3175
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				bt_trigger_modern_greece_areas = yes
+				value = 23			#At least 40 percent of Greece's 56 provinces, per historical Kingdom of Greece borders
+			}
+			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+		}
+		effect = {
+			change_tag = GRE
+			#swap_non_generic_missions = yes #Greece no missions yet has.
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			balkan_region = {
+				limit = {
+					bt_trigger_historical_greece_areas = yes
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = GRE
+			}
+			hidden_effect = {
+				balkan_region = {
+					limit = {
+						bt_trigger_modern_greece_areas = yes
+						NOT = { is_claim = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_claim = GRE
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_idea_group = greek_ideas } 
+				}
+				swap_ideas = yes
+			}
+			set_country_flag = formed_greece_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	icelandic_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_iceland }
+			NOT = { tag = ICE }
+			NOT = { tag = SCA }
+			NOT = { tag = NOR }
+			NOT = { tag = DAN }
+			NOT = { tag = SWE }
+			OR = {
+				primary_culture = icelandic
+				AND = {
+					culture_group = scandinavian
+					any_owned_province = { area = iceland_area }
+				}
+			}
+			NOT = { num_of_cities = 40 }			#I was tired of looking at this =p
+		}
+		provinces_to_highlight = {
+			area = iceland_area
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = ICE }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				area = iceland_area
+				value = 3			#3 of Iceland's 4 provinces
+			}
+		}
+		effect = {
+			hidden_effect = {
+				every_province = {
+					limit = {
+						is_core = ROOT
+						NOT = { owned_by = ROOT }
+					}
+					remove_core = ROOT
+					if = {
+						limit = { ROOT = { tag = NOR } }
+						set_province_flag = norwegian_core
+					}
+					if = {
+						limit = { ROOT = { tag = DAN } }
+						set_province_flag = danish_core
+					}
+					if = {
+						limit = { ROOT = { tag = SWE } }
+						set_province_flag = swedish_core
+					}					
+				}
+			}
+			on_change_tag_effect = yes
+			set_country_flag = formed_iceland
+			change_tag = ICE
+			remove_non_electors_emperors_from_empire_effect = yes
+			hidden_effect = {
+				every_province = {
+					if = {
+						limit = {
+							has_province_flag = norwegian_core
+						}
+						add_core = NOR
+						clr_province_flag = norwegian_core					
+					}
+					if = {
+						limit = {
+							has_province_flag = danish_core
+						}
+						add_core = DAN
+						clr_province_flag = danish_core					
+					}
+					if = {
+						limit = {
+							has_province_flag = swedish_core
+						}
+						add_core = SWE
+						clr_province_flag = swedish_core					
+					}					
+				}
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+			add_prestige = 10
+			if = {
+				limit = {
+					NOT = { has_idea_group = ICE_ideas }
+				}
+				swap_ideas = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				capital_scope = { NOT = { area = iceland_area } }
+			}
+		}
+	}
+	
+}

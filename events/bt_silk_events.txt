@@ -1,0 +1,966 @@
+namespace = bt_silk_events #Made by Harbivore assume all untagged notes are me
+# Aim is to make silk slowly spread into areas of europe where it was historically.
+# This is done through several events. It first spreads to Bolonga with the invention of the hydrolic silk mill. 
+# Then after a while it spreads to other italian states. 
+# Historically it was stolen but there is no way to show it in game without adding mechanics.
+# Later it spreads to France who can pick to focus production and give Lyon a monopoly (like historically)
+# Or they can decentralise it and get it in multiple provinces.
+
+# Also sperate event for Murcian Silk Industry which developed independently from the italian prodcution.
+
+#Todo -
+#Lower 221 province current dev to 3/3/2 from 5/5/3 which would result in a 4/6/3 province.
+#Lower 4730 province current dev to 9/9/5 from 11/11/6 which would result in a 10/12/6 province. 
+#Lower 7084 province current dev to 4/3/3 from 4/4/3 which would result in a 4/5/3 province.
+#
+#
+
+country_event = {					#Changing Murcian good to Silk
+    id = bt_silk_events.1
+    title = "bt_silk_events.1.title"
+    desc = "bt_silk_events.1.desc"
+    desc = "bt_silk_events.1.desc"
+    picture = TRADEGOODS_eventPicture
+	  
+    is_triggered_only = no
+	
+	fire_only_once = yes
+    
+    trigger = {
+		is_year = 1480
+		owns_core_province = 221
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+			is_year = 1490
+		}
+		modifier = {
+			factor = 0.1
+			is_year = 1498
+		}
+    }
+	
+	option = {			#Todo Lower province current dev to 3/3/2 from 5/5/3 which would result in a 4/6/3 province. Was very important in Silk production #Harbivore
+		name = "bt_silk_events.1.opta"
+		221 = {
+			change_trade_goods = silk
+			add_base_tax = 1
+			add_base_production = 3
+			add_base_manpower = 1
+			set_province_flag = minor_trade_good
+		}
+	}
+}
+
+country_event = {					#Changing Bolonga trade good to Silk
+    id = bt_silk_events.2
+    title = "bt_silk_events.2.title"
+    desc = "bt_silk_events.2.desc"
+    picture = TRADEGOODS_eventPicture
+	  
+    is_triggered_only = no
+	
+	fire_only_once = yes
+    
+    trigger = {
+		is_year = 1445
+		owns_core_province = 4730
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		modifier = {
+			factor = 0.5
+		 is_year = 1455
+		}
+		modifier = {
+			factor = 0.1
+		 is_year = 1460
+		}
+    }
+	
+	immediate = {
+		set_country_flag = recived_knowledge_of_silk_mills
+		set_global_flag = hydraulic_silk_mill_invented
+	}
+	
+	option = {			#Todo Lower province current dev to 9/9/5 from 11/11/6 which would result in a 10/12/6 province. Huge breakthrough in Silk production #Harbivore
+		name = "bt_silk_events.2.opta"
+		4730 = {
+			set_province_flag = minor_trade_good
+			change_trade_goods = silk
+			add_base_tax = 1
+			add_base_production = 3
+			add_base_manpower = 1
+			add_permanent_province_modifier = {
+				name = bologna_silk_mills
+				duration = -1
+			}
+		}
+		if = {						#Added for BLG tag because they can't get the other one later. Just incase bol gets big early
+			limit = {
+				TAG = BLG
+				total_development = 100
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+		if = {
+			limit = {
+				TAG = BLG
+				total_development = 250
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+		if = {
+			limit = {
+				TAG = BLG
+				total_development = 500
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+	}
+}
+
+country_event = {					#Changing Vallagarina trade good to Silk
+    id = bt_silk_events.3
+    title = "bt_silk_events.3.title"
+    desc = "bt_silk_events.3.desc"
+    picture = TRADEGOODS_eventPicture
+	  
+    is_triggered_only = no
+	
+	fire_only_once = yes
+    
+    trigger = { 	
+		had_global_flag = {
+			flag = hydraulic_silk_mill_invented
+			days = 18250
+		}
+		tag = VEN
+	}
+
+	mean_time_to_happen = {
+		months = 480
+		modifier = {
+			factor = 0.8
+		 is_year = 1560
+		}
+		modifier = {
+			factor = 0.6
+		 is_year = 1580
+		}
+		modifier = {
+			factor = 0.2
+		 is_year = 1600
+		}
+    }
+	
+	option = {			#Todo Lower province current dev to 4/3/3 from 4/4/3 which would result in a 4/5/3 province. #Harbivore
+		name = "bt_silk_events.3.opta"
+		random_owned_province = {
+			limit = {
+				NOT = {
+					province_id = 213					#Cannot spawn in venice
+					province_with_special_goods_produced_trigger = yes
+					trade_goods = silk
+					area = sicily_area
+				}
+				development = 20
+				region = italy_region
+			}
+			set_province_flag = minor_trade_good
+			change_trade_goods = silk
+			add_base_production = 2
+		}
+		random_owned_province = {
+			limit = {
+				NOT = {
+					province_id = 213					#Cannot spawn in venice
+					province_with_special_goods_produced_trigger = yes
+					trade_goods = silk
+					area = sicily_area
+				}
+				development = 20
+				region = italy_region
+			}
+			set_province_flag = minor_trade_good
+			change_trade_goods = silk
+			add_base_production = 2
+		}
+		if = {
+			limit = {
+				total_development = 500
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_id = 213					#Cannot spawn in venice
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 2
+			}
+		}
+		if = {
+			limit = {
+				total_development = 750
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_id = 213					#Cannot spawn in venice
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 2
+			}
+		}
+		if = {
+			limit = {
+				total_development = 500
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_id = 213					#Cannot spawn in venice
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 2
+			}
+		}
+		if = {
+			limit = {
+				total_development = 1000
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+	}
+}
+
+country_event = {					#Hydrolic Silk mill makes it's way to Lucca
+    id = bt_silk_events.4
+    title = "bt_silk_events.4.title"
+    desc = "bt_silk_events.4.desc"
+    picture = TRADEGOODS_eventPicture
+	  
+    is_triggered_only = no
+	
+	fire_only_once = yes
+    
+    trigger = {
+		had_global_flag = {
+			flag = hydraulic_silk_mill_invented
+			days = 9125
+		}
+		owns_core_province = 2980
+	}
+
+	mean_time_to_happen = {
+		months = 360
+		modifier = {
+			factor = 0.8
+		 is_year = 1490
+		}
+		modifier = {
+			factor = 0.6
+		 is_year = 1510
+		}
+		modifier = {
+			factor = 0.2
+		 is_year = 1540
+		}
+    }
+	
+	immediate = {
+		set_country_flag = recived_knowledge_of_silk_mills
+	}
+	
+	
+	option = {	
+		name = "bt_silk_events.4.opta"
+		2980 = {
+			add_base_tax = 1
+			add_base_production = 3
+			add_base_manpower = 3
+			change_trade_goods = silk
+		}
+		if = {							#Extra silk if Lucca gets big. Lucca can't fire the other event and also own lucca
+			limit = {
+				TAG = LUC
+				total_development = 50
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+		if = {
+			limit = {
+				TAG = LUC
+				total_development = 250
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+		if = {
+			limit = {
+				TAG = LUC
+				total_development = 500
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+		if = {
+			limit = {
+				TAG = LUC
+				total_development = 750
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+		if = {
+			limit = {
+				TAG = LUC
+				total_development = 1000
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+	}
+}
+
+
+country_event = {					#Silk event for random italian provinces. Only one of these events can be recived. Rewarded by high dev with more Silk, aim to make roughly the same amount from game to game
+    id = bt_silk_events.5
+    title = "bt_silk_events.5.title"
+    desc = "bt_silk_events.5.desc"
+    picture = TRADEGOODS_eventPicture
+	  
+    is_triggered_only = no
+    
+    trigger = {
+		NOT = {
+			TAG = VEN
+			TAG = NAP
+			TAG = SIC
+			TAG = TTS
+			has_country_flag = recived_knowledge_of_silk_mills
+		}
+		had_global_flag = {
+			flag = hydraulic_silk_mill_invented
+			days = 18250
+		}
+		capital_scope = {
+			region = italy_region
+			development = 20
+		}
+		NOT = { 
+			is_year = 1620
+		}
+	}
+
+	mean_time_to_happen = {		#Might need changing to a larger or smaller mtth. Aiming to have 10-15 Silk provinces by 1620 which is the cut off #Harbivore
+		months = 2400
+		modifier = {
+			factor = 0.8
+			is_year = 1540
+		}
+		modifier = {
+			factor = 0.8
+			is_year = 1560
+		}
+		modifier = {
+			factor = 0.8
+			is_year = 1580
+		}
+		modifier = {
+			factor = 0.75
+			total_development = 400
+		}
+		modifier = {
+			factor = 0.6
+			total_development = 800
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				total_development = 100
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				total_development = 50
+			}
+		}
+    }
+	
+	immediate = {
+		set_country_flag = recived_knowledge_of_silk_mills
+	}
+	
+	option = {								#Extra Silk for every 250 dev
+		name = "bt_silk_events.5.opta"
+		random_owned_province = {
+			limit = {
+				NOT = {
+					province_with_special_goods_produced_trigger = yes
+					trade_goods = silk
+					area = sicily_area
+				}
+				development = 20
+				region = italy_region
+			}
+			set_province_flag = minor_trade_good
+			change_trade_goods = silk
+			add_base_tax = 1
+			add_base_production = 2
+			add_base_manpower = 1
+		}
+		if = {
+			limit = {
+				total_development = 250
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+		if = {
+			limit = {
+				total_development = 500
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+		if = {
+			limit = {
+				total_development = 750
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+		if = {
+			limit = {
+				total_development = 1000
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						area = sicily_area
+					}
+				 	development = 20
+					region = italy_region
+				}
+				set_province_flag = minor_trade_good
+				change_trade_goods = silk
+				add_base_production = 1
+			}
+		}
+	}
+}
+	
+	
+country_event = {						#Sicilian Silk
+id = bt_silk_events.6
+    title = "bt_silk_events.6.title"
+    desc = "bt_silk_events.6.desc"
+    picture = TRADEGOODS_eventPicture
+	  
+    is_triggered_only = no
+	
+	fire_only_once = yes
+    
+    trigger = {
+		had_global_flag = {
+			flag = hydraulic_silk_mill_invented
+			days = 9125
+		}
+		owns_core_province = 124
+		owns_core_province = 125
+	}
+
+	mean_time_to_happen = {	
+		months = 360
+		modifier = {
+			factor = 0.8
+		 is_year = 1520
+		}
+		modifier = {
+			factor = 0.5
+		 is_year = 1540
+		}
+		modifier = {
+			factor = 0.3
+		 is_year = 1560
+		}
+    }
+	
+	option = {								
+		name = "bt_silk_events.6.opta"		#Silk for messina, they had a near monopoly on Silk in eastern sicily
+		124 = {
+			change_trade_goods = silk
+			add_base_tax = 1
+			add_base_production = 2
+			add_base_manpower = 1
+			set_province_flag = minor_trade_good
+		}
+		125 = {								#Silk for Palermo, very important Silk producer previously. Perfered to give this one it directly than a random one
+			change_trade_goods = silk
+			add_base_tax = 1
+			add_base_production = 2
+			add_base_manpower = 1
+			set_province_flag = minor_trade_good
+		}
+		if = {								#Extra Silk for sicily if they exist instead of the random one. Partly because they aren't italian controlled, partly because there is a city that directly needs to become Silk.
+			limit = {
+				TAG = SIC
+				total_development = 250
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+					}
+				 	development = 20
+					area = sicily_area		#1 Guaranteed in sicily area
+				}
+				change_trade_goods = silk
+				add_base_production = 1
+				set_province_flag = minor_trade_good
+			}
+		}
+		if = {
+			limit = {
+				TAG = SIC
+				total_development = 500
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+					}
+				 	development = 20
+					region = italy_region
+				}
+				change_trade_goods = silk
+				add_base_production = 1
+				set_province_flag = minor_trade_good
+			}
+		}
+		if = {
+			limit = {
+				TAG = SIC
+				total_development = 750
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+					}
+				 	development = 20
+					region = italy_region
+				}
+				change_trade_goods = silk
+				add_base_production = 1
+				set_province_flag = minor_trade_good
+			}
+		}
+	}
+}
+	
+	
+country_event = {						#Neapolitan Silk
+id = bt_silk_events.7
+    title = "bt_silk_events.7.title"
+    desc = "bt_silk_events.7.desc"
+    picture = TRADEGOODS_eventPicture
+	  
+    is_triggered_only = no
+	
+	fire_only_once = yes
+    
+    trigger = {
+		had_global_flag = {
+			flag = hydraulic_silk_mill_invented
+			days = 18250
+		}
+		owns_core_province = 123
+		owns_core_province = 7003
+	}
+
+	mean_time_to_happen = {	
+		months = 480
+		modifier = {
+			factor = 0.8
+		 is_year = 1550
+		}
+		modifier = {
+			factor = 0.5
+		 is_year = 1575
+		}
+		modifier = {
+			factor = 0.3
+		 is_year = 1600
+		}
+    }
+	
+	option = {								
+		name = "bt_silk_events.7.opta"		#Dev increase for 2 provinces in calabria when they get Silk mill
+		123 = {
+			add_base_tax = 1
+			add_base_production = 2
+			add_base_manpower = 1
+			change_trade_goods = silk
+			set_province_flag = minor_trade_good
+		}
+		7003 = {								
+			add_base_tax = 1
+			add_base_production = 2
+			add_base_manpower = 1
+			change_trade_goods = silk
+			set_province_flag = minor_trade_good
+		}
+		if = {								#Extra Silk for naples instead of the random one, because they have 2 silk provinces already and are an edge case as a result.
+			limit = {
+				TAG = NAP
+				TAG = TTS
+				total_development = 250
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+						
+					}
+				 	development = 20
+				}
+				change_trade_goods = silk
+				add_base_production = 1
+				set_province_flag = minor_trade_good
+			}
+		}
+		if = {
+			limit = {
+				TAG = NAP
+				TAG = TTS
+				total_development = 500
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+					}
+				 	development = 20
+					region = italy_region
+				}
+				change_trade_goods = silk
+				add_base_production = 1
+				set_province_flag = minor_trade_good
+			}
+		}
+		if = {
+			limit = {
+				TAG = NAP
+				TAG = TTS
+				total_development = 750
+			}
+			random_owned_province = {
+				limit = {
+					NOT = {
+						province_with_special_goods_produced_trigger = yes
+						trade_goods = silk
+					}
+				 	development = 20
+					region = italy_region
+				}
+				change_trade_goods = silk
+				add_base_production = 1
+				set_province_flag = minor_trade_good
+			}
+		}
+	}
+}
+	
+	
+country_event = {						#French Silk industry
+id = bt_silk_events.8
+    title = "bt_silk_events.8.title"
+    desc = "bt_silk_events.8.desc"
+    picture = TRADEGOODS_eventPicture
+	  
+    is_triggered_only = no
+	
+	fire_only_once = yes
+    
+    trigger = {
+		TAG = FRA
+		owns_core_province = 203
+		had_global_flag = {
+			flag = hydraulic_silk_mill_invented
+			days = 36500
+		}
+	}
+
+	mean_time_to_happen = {	
+		months = 360
+		modifier = {
+			factor = 0.8
+		 is_year = 1560
+		}
+		modifier = {
+			factor = 0.5
+		 is_year = 1580
+		}
+		modifier = {
+			factor = 0.5
+		 is_year = 1600
+		}
+		modifier = {
+			factor = 0.2
+		 is_year = 1605
+		}
+    }
+	
+	option = {								
+		name = "bt_silk_events.8.opta"		#Dev increase for lyon major producer of silk. Centralised silk production
+		203 = {
+			add_base_tax = 3
+			add_base_production = 6
+			add_base_manpower = 3
+			change_trade_goods = silk
+			set_province_flag = minor_trade_good
+		}
+	}
+	
+	option = {								
+		name = "bt_silk_events.8.optb"		#Several provinces become silk, no development increase. Decentralised silk production
+		203 = {
+			change_trade_goods = silk
+			set_province_flag = minor_trade_good
+		}
+		random_owned_province = {
+			limit = {
+				NOT = {
+					province_with_special_goods_produced_trigger = yes
+					trade_goods = silk	
+				}
+				region = france_region
+				development = 20
+				}
+			change_trade_goods = silk
+			set_province_flag = minor_trade_good
+		}
+		random_owned_province = {
+			limit = {
+				NOT = {
+					province_with_special_goods_produced_trigger = yes
+					trade_goods = silk	
+				}
+				region = france_region
+				development = 20
+				}
+			change_trade_goods = silk
+			set_province_flag = minor_trade_good
+		}
+		random_owned_province = {
+			limit = {
+				NOT = {
+					province_with_special_goods_produced_trigger = yes
+					trade_goods = silk	
+				}
+				region = france_region
+				development = 20
+				}
+			change_trade_goods = silk
+			set_province_flag = minor_trade_good
+		}
+		random_owned_province = {
+			limit = {
+				NOT = {
+					province_with_special_goods_produced_trigger = yes
+					trade_goods = silk	
+				}
+				region = france_region
+				development = 20
+				}
+			change_trade_goods = silk
+			set_province_flag = minor_trade_good
+		}
+	}
+}
+		
+	 

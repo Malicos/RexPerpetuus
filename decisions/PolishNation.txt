@@ -2,3 +2,87 @@
 
 #I normally don't like messing with vanilla files when I don't have to, but between all the map changes and the fact that I wanted to clean up a few things
 #and make everything more dynamic anyway, I figured I'd just reorganise. Hope this doesn't mess with anyone too much. - Draiocht
+country_decisions = {
+	
+	polish_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_poland_flag }
+			NOT = { tag = PLC }
+			NOT = { tag = POL }
+			NOT = { tag = GMV  }
+			OR = {
+				primary_culture = polish
+				primary_culture = polish_new
+				#primary_culture = pommeranian
+				primary_culture = schlesian
+				#tag = DNZ #BT cut because we don't want Danzig forming Poland methinks.
+			}
+		}
+		provinces_to_highlight = {
+			region = poland_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = POL }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			owns_core_province = 262	# Krakow
+			owns_core_province = 257	# Warszawa
+			owns_core_province = 260	# Lublin
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = poland_region
+				#Note that the below value claims it's Greece's. Not sure if this makes any sense, might just be Draiocht fucking up.
+				value = 24			#At least 67 percent of Greece's 36 provinces, per historical Kingdom of Greece borders
+			}
+			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+		}
+		effect = {
+			set_country_flag = pol_chose_pu_flag
+			change_tag = POL
+			on_change_tag_effect = yes
+			restore_country_name = yes
+			swap_non_generic_missions = yes
+			complete_mission = pol_leverage_magnates
+			complete_mission = pol_great_sejm
+			complete_mission = plc_articles_agreement
+			complete_mission = pol_varna_aftermath
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			poland_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = POL
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					NOT = { has_idea_group = POL_ideas }
+				}
+				swap_ideas = yes
+			}
+			set_country_flag = formed_poland_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #If there is no Poland then Polish minors will prioritize reforming it.
+	}
+	
+}

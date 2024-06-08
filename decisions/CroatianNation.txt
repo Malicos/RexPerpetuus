@@ -2,3 +2,132 @@
 
 #I normally don't like messing with vanilla files when I don't have to, but between all the map changes and the fact that I wanted to clean up a few things
 #and make everything more dynamic anyway, I figured I'd just reorganise. Hope this doesn't mess with anyone too much. - Draiocht
+
+country_decisions = {
+	croatian_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_croatia_flag_btp }
+			NOT = { tag = CRO }
+			NOT = { tag = ILY }
+			OR = {
+				primary_culture = croatian
+				primary_culture = croatian_new
+				primary_culture = dalmatian
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = croatia_area #7
+				area = east_adriatic_coast_area #8
+				area = slavonia_area #6
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = CRO }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 131			# Zagreb
+			owns_core_province = 136			# Split. Knin may have been an old capital, but going with Split because major city. Plus point of contention due to Venice
+			owns_core_province = 152			# Varazdin. Probably most important city in in-game Slavonia
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				OR = {
+					area = croatia_area #7
+					area = east_adriatic_coast_area #8
+					area = slavonia_area #6
+				}
+				value = 14			#At least 2/3 of Croatia's 21 provinces (approximate)
+			}
+			total_development = 100			#Normal requirement for rank 2 is 500 dev, so this is 80 percent discounted
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+		}
+		effect = {
+			#Mission completions - None at the moment
+			#Country formation effects
+			change_tag = CRO
+			on_change_tag_effect = yes
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			#Rank + prestige
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			croatia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = CRO
+			}
+			east_adriatic_coast_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = CRO
+			}
+			slavonia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = CRO
+			}
+			#Swap culture, government, government reform & ideas, plus set flag
+			if = {
+				limit = {
+					has_updated_culture = { culture = slavic }
+				}
+				add_accepted_culture_or_dip_power = {
+					culture = croatian_new
+					dip_reward = yes
+				}
+			}
+			else = {
+				add_accepted_culture_or_dip_power = {
+					culture = croatian
+					dip_reward = yes
+				}
+			}
+			if = {
+				limit = {
+					NOT = { primary_culture = dalmatian }
+					NOT = { accepted_culture = dalmatian }
+				}
+				add_accepted_culture = dalmatian
+			}
+			if = {
+				limit = {
+					government = republic
+				}
+				change_government = monarchy
+				#set_legacy_government = feudal_monarchy
+			}
+			if = {
+				limit = {
+					NOT = { has_idea_group = CRO_ideas }
+				}
+				swap_ideas = yes
+			}
+			set_country_flag = formed_croatia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

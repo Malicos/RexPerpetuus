@@ -1,0 +1,38 @@
+#Copy-pasted then modified from vanilla's monopoly privileges written by Groogy.
+
+namespace = btip_monopoly_privileges
+
+# Extension of Agriculture Monopoly
+country_event = {
+	id = btip_monopoly_privileges.1
+	title = btip_monopoly_privileges.1.t
+	desc = btip_monopoly_privileges.1.d
+	picture = TRADEGOODS_eventPicture
+
+	is_triggered_only = yes
+
+	immediate = {
+		remove_estate_monopoly_modifier = { privilege = estate_peasants_monopoly_of_agriculture }
+	}
+	
+	option = {
+		name = btip_monopoly_privileges.1.a
+		reapply_estate_privilege = { privilege = estate_peasants_monopoly_of_agriculture }
+	}
+	option = {
+		name = btip_monopoly_privileges.1.b
+		custom_tooltip = btip_monopoly_privileges.1.b.tooltip
+
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						trade_goods = grain
+						trade_goods = bt_trade_good_fruit
+					}
+				}
+				apply_estate_monopoly_modifier = { privilege = estate_peasants_monopoly_of_agriculture}
+			}
+		}
+	}
+}

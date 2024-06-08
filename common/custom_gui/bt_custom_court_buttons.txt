@@ -1,0 +1,501 @@
+custom_button = {
+	name = extra_colonist_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+	}
+	trigger = {
+		if = {
+			limit = {
+				NOT = { has_country_modifier = extra_colonist_button_mod }
+			}
+			monthly_dip = 1
+		}
+		num_of_colonists = 1
+	} 
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = extra_colonist_button_mod }
+				}
+				add_country_modifier = {
+					name = "extra_colonist_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = extra_colonist_button_mod
+			}
+		}
+	} #Effect
+	tooltip = extra_colonist_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = extra_colonist_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = extra_colonist_button_mod
+		}
+	}
+}
+
+custom_button = {
+	name = extra_diplomat_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+	} 
+	trigger = { 
+		if = {
+			limit = {
+				NOT = { has_country_modifier = extra_diplomat_button_mod }
+			}
+			monthly_dip = 1
+		}
+	}
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = extra_diplomat_button_mod }
+				}
+				add_country_modifier = {
+					name = "extra_diplomat_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = extra_diplomat_button_mod
+			}
+		}
+	} #Effect
+	tooltip = extra_diplomat_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = extra_diplomat_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = extra_diplomat_button_mod
+		}
+	}
+}
+
+custom_button = {
+	name = extra_merchant_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+	} 
+	trigger = { 
+		if = {
+			limit = {
+				NOT = { has_country_modifier = extra_merchant_button_mod }
+			}
+			monthly_dip = 1
+		}
+	}
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = extra_merchant_button_mod }
+				}
+				add_country_modifier = {
+					name = "extra_merchant_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = extra_merchant_button_mod
+			}
+		}
+	} #Effect
+	tooltip = extra_merchant_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = extra_merchant_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = extra_merchant_button_mod
+		}
+	}
+}
+
+custom_button = {
+	name = extra_missionary_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+	}
+	trigger = { 
+		if = {
+			limit = {
+				NOT = { has_country_modifier = extra_missionary_button_mod }
+			}
+			monthly_adm = 1
+		}
+	}
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = extra_missionary_button_mod }
+				}
+				add_country_modifier = {
+					name = "extra_missionary_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = extra_missionary_button_mod
+			}
+		}
+	} #Effect
+	tooltip = extra_missionary_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = extra_missionary_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = extra_missionary_button_mod
+		}
+	}
+}
+
+custom_button = {
+	name = institution_spread_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+	} 
+	trigger = { 
+		if = {
+			limit = {
+				NOT = { has_country_modifier = institution_spread_button_mod }
+			}
+			monthly_adm = 1
+		}
+	}
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = institution_spread_button_mod }
+				}
+				add_country_modifier = {
+					name = "institution_spread_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = institution_spread_button_mod
+			}
+		}
+	} #Effect
+	tooltip = institution_spread_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = institution_spread_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = institution_spread_button_mod
+		}
+	}
+}
+
+custom_button = {
+	name = monthly_dev_points_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+	}
+	trigger = { 
+		if = {
+			limit = {
+				NOT = { has_country_modifier = monthly_dev_points_button_mod }
+			}
+			monthly_adm = 1
+			monthly_dip = 1
+			monthly_mil = 1
+		}
+	}
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = monthly_dev_points_button_mod }
+				}
+				add_country_modifier = {
+					name = "monthly_dev_points_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = monthly_dev_points_button_mod
+			}
+		}
+	} #Effect
+	tooltip = monthly_dev_points_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = monthly_dev_points_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = monthly_dev_points_button_mod
+		}
+	}
+}
+
+custom_button = {
+	name = reform_progress_growth_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+	} 
+	trigger = { 
+		if = {
+			limit = {
+				NOT = { has_country_modifier = reform_progress_growth_button_mod }
+			}
+			monthly_adm = 1
+		}
+	}
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = reform_progress_growth_button_mod }
+				}
+				add_country_modifier = {
+					name = "reform_progress_growth_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = reform_progress_growth_button_mod
+			}
+		}
+	} #Effect
+	tooltip = reform_progress_growth_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = reform_progress_growth_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = reform_progress_growth_button_mod
+		}
+	}
+}
+
+custom_button = {
+	name = yearly_absolutism_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+	}
+	trigger = { 
+		if = {
+			limit = {
+				NOT = { has_country_modifier = yearly_absolutism_button_mod }
+			}
+			monthly_mil = 1
+		}
+		is_absolutism_active = yes
+	} 
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = yearly_absolutism_button_mod }
+				}
+				add_country_modifier = {
+					name = "yearly_absolutism_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = yearly_absolutism_button_mod
+			}
+		}
+	} #Effect
+	tooltip = yearly_absolutism_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = yearly_absolutism_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = yearly_absolutism_button_mod
+		}
+	}
+}
+
+custom_button = {
+	name = yearly_army_professionalism_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+		has_dlc = "Cradle of Civilization"
+	}
+	trigger = { 
+		if = {
+			limit = {
+				NOT = { has_country_modifier = yearly_army_professionalism_button_mod }
+			}
+			monthly_mil = 1
+		}
+	}
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = yearly_army_professionalism_button_mod }
+				}
+				add_country_modifier = {
+					name = "yearly_army_professionalism_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = yearly_army_professionalism_button_mod
+			}
+		 }
+	} #Effect
+	tooltip = yearly_army_professionalism_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = yearly_army_professionalism_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = yearly_army_professionalism_button_mod
+		}
+	}
+}
+
+custom_button = {
+	name = yearly_army_tradition_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+		NOT = { has_dlc = "Cradle of Civilization" }
+	}
+	trigger = { 
+		if = {
+			limit = {
+				NOT = { has_country_modifier = yearly_army_tradition_button_mod }
+			}
+			monthly_mil = 1
+		}
+	} 
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = yearly_army_tradition_button_mod }
+				}
+				add_country_modifier = {
+					name = "yearly_army_tradition_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = yearly_army_tradition_button_mod
+			}
+		}
+	} #Effect
+	tooltip = yearly_army_tradition_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = yearly_army_tradition_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = yearly_army_tradition_button_mod
+		}
+	}
+}
+
+custom_button = {
+	name = yearly_innovativeness_button #Must match a scripted guiButtonType in a .gui file
+	potential = { 
+		always = yes
+		has_dlc = "Rule Britannia"
+	}
+	trigger = { 
+		if = {
+			limit = {
+				NOT = { has_country_modifier = yearly_innovativeness_button_mod }
+			}
+			monthly_mil = 1
+		}
+	}
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_country_modifier = yearly_innovativeness_button_mod }
+				}
+				add_country_modifier = {
+					name = "yearly_innovativeness_button_mod"
+					duration = -1
+					hidden = yes
+				}
+			}
+			else = {
+				remove_country_modifier = yearly_innovativeness_button_mod
+			}
+		}
+	} #Effect
+	tooltip = yearly_innovativeness_loc #Can use customizable localisation
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_country_modifier = yearly_innovativeness_button_mod }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_country_modifier = yearly_innovativeness_button_mod
+		}
+	}
+}

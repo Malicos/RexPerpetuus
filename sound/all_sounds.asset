@@ -14,16 +14,6 @@ sound = {
 	name = defender_of_the_ibadi_faith
 	file = "claim_defender_faith_ibadi.wav"
 }
-# BT Added
-sound = {
-	name = defender_of_the_alawite_faith
-	file = "claim_defender_faith_shia.wav"
-}
-# BT Added
-sound = {
-	name = defender_of_the_druze_faith
-	file = "claim_defender_faith_sunni.wav"
-}
 sound = {
 	name = defender_of_the_protestant_faith
 	file = "claim_defender_faith_protestant.wav"
@@ -39,6 +29,18 @@ sound = {
 sound = {
 	name = defender_of_the_coptic_faith
 	file = "claim_defender_faith_coptic.wav"
+}
+sound = {
+	name = defender_of_the_zoroastrian_faith
+	file = "claim_defender_faith_coptic.wav"
+}
+sound = {
+	name = defender_of_the_hussite_faith
+	file = "claim_defender_faith_protestant.wav"
+}
+sound = {
+	name = defender_of_the_anglican_faith
+	file = "claim_defender_faith_protestant.wav"
 }
 # BT Added
 sound = {
@@ -190,29 +192,40 @@ sound = {
 	file = "start_conversion_eastern_shinto.wav"
 }
 sound = {
-	name = start_convert_shia
-	file = "start_conversion_muslim_shiite.wav"
-}
-sound = {
-	name = start_convert_ibadi
+	name = start_convert_shiite
 	file = "start_conversion_muslim_shiite.wav"
 }
 # BT Added
 sound = {
-	name = start_convert_alawite
+	name = start_convert_waaq
+	file = "start_conversion_pagan_animism.wav"
+}
+sound = {
+	name = start_convert_ibadi
 	file = "start_conversion_muslim_shiite.wav"
 }
 sound = {
 	name = start_convert_sunni
 	file = "start_conversion_muslim_sunni.wav"
 }
-# BT Added
-sound = {
-	name = start_convert_druze
-	file = "start_conversion_muslim_sunni.wav"
-}
 sound = {
 	name = start_convert_animism
+	file = "start_conversion_pagan_animism.wav"
+}
+sound = {
+	name = start_convert_inti
+	file = "start_conversion_pagan_animism.wav"
+}
+sound = {
+	name = start_convert_nahuatl
+	file = "start_conversion_pagan_animism.wav"
+}
+sound = {
+	name = start_convert_mesoamerican_religion
+	file = "start_conversion_pagan_animism.wav"
+}
+sound = {
+	name = start_convert_totemism
 	file = "start_conversion_pagan_animism.wav"
 }
 sound = {
@@ -221,6 +234,14 @@ sound = {
 }
 sound = {
 	name = start_convert_tengri_pagan_reformed
+	file = "start_conversion_pagan_shamanism.wav"
+}
+sound = {
+	name = start_convert_hussite
+	file = "start_conversion_christian_reformed.wav"
+}
+sound = {
+	name = start_convert_dreamtime
 	file = "start_conversion_pagan_shamanism.wav"
 }
 sound = {
@@ -676,18 +697,6 @@ sound = {
 	file = "start_conversion_zoroastrian.wav"
 }
 
-# BT Added
-sound = {
-	name = religion_yazidi
-	file = "start_conversion_zoroastrian.wav"
-}
-
-# BT Added
-sound = {
-	name = religion_mandaean
-	file = "start_conversion_zoroastrian.wav"
-}
-
 sound = {
 	name = religion_catholic
 	file = "tab_religion_christian.wav"
@@ -699,17 +708,17 @@ sound = {
 }
 
 sound = {
-	name = religion_angelican
+	name = religion_anglican
+	file = "tab_religion_christian.wav"
+}
+
+sound = {
+	name = religion_hussite
 	file = "tab_religion_christian.wav"
 }
 
 sound = {
 	name = religion_reformed
-	file = "tab_religion_christian.wav"
-}
-
-sound = {
-	name = religion_anglican
 	file = "tab_religion_christian.wav"
 }
 
@@ -791,8 +800,29 @@ sound = {
 }
 
 sound = {
+	name = religion_inti
+	file = "tab_religion_america.wav"
+}
+
+sound = {
+	name = religion_nahuatl
+	file = "tab_religion_america.wav"
+}
+
+sound = {
+	name = religion_mesoamerican_religion
+	file = "tab_religion_america.wav"
+}
+
+sound = {
 	name = religion_totemism
 	file = "tab_religion_america.wav"
+}
+
+# BT Added
+sound = {
+	name = religion_waaq
+	file = "tab_religion_pagan.wav"
 }
 
 sound = {
@@ -805,16 +835,9 @@ sound = {
 	file = "tab_religion_muslim.wav"
 }
 
-# BT Added
 sound = {
-	name = religion_alawite
-	file = "tab_religion_muslim.wav"
-}
-
-# BT Added
-sound = {
-	name = religion_druze
-	file = "tab_religion_muslim.wav"
+	name = religion_dreamtime
+	file = "tab_religion_pagan.wav"
 }
 
 #########################################

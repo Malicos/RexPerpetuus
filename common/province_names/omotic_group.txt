@@ -1,0 +1,6 @@
+#(JP) Omotic Languages
+#(JP) Will likely use local Omotic names for their provinces
+
+#Horn of Africa 
+2758 = { "Hinnaryo" "Yadare" } #(JP) Local Gonga name of the Kingdom.
+4158 = { "Yamma" "Fofa" } #(JP) Local Yemsa Name  

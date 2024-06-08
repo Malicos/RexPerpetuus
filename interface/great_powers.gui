@@ -3,7 +3,7 @@ guiTypes = {
 		name = "great_powers"
 		backGround="great_powers_bg"
 		position = { x=-274 y= -340 }	
-		size = { x=548 y=691 }
+		size = { x=548 y=761 }
 		moveable = 1
 		dontRender = ""
 		horizontalBorder= ""
@@ -90,7 +90,7 @@ guiTypes = {
 			name = "gp_list"
 			position = { x = 60 y = 119 }
 			backGround=""
-			size = { x=465  y=315}
+			size = { x=465  y=385}
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
@@ -98,7 +98,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "hegemony_label"
-				position = { x = 126 y = 445 }
+				position = { x = 126 y = 515 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 2}
@@ -112,7 +112,7 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 			name = "hegemons"
-			position = { x = -63 y = 473 }
+			position = { x = -63 y = 543 }
 			size = { x = 600 y = 300 }
 			Orientation = "UPPER_LEFT"
 			format = center
@@ -121,7 +121,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "close_button"
-				position = { x=200 y = 604}
+				position = { x=200 y = 674}
 				quadTextureSprite ="button_type_1"	
 				tooltip = ""
 				tooltipText =""

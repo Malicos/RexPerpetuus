@@ -1,0 +1,591 @@
+ayyubid_sultanate_mechanic = {
+	alert_icon_gfx = GFX_alerticons_government_mechanics
+	alert_icon_index = 2
+	available = {
+	}
+	
+	interactions = {
+		ayyubid_sultanate_mechanic_draft_mamluks = {
+			icon = GFX_draft_mamluks_button
+			trigger = {
+			}
+			effect = {
+				if = {
+					limit = {
+						has_dlc = "King of Kings"
+					}
+					add_country_modifier = {
+						name = "bt_hsn_draft_mamluks_mod"
+						duration = 1825
+					}
+				}
+				else = {
+					add_years_of_owned_provinces_manpower = {
+						years = 1
+						trigger = {
+							NOT = { has_owner_religion = yes }
+							NOT = { has_owner_accepted_culture = yes }
+							is_state = yes
+						}
+						custom_tooltip = ayyubid_sultanate_mechanic_draft_mamluks_tt
+					}
+				}
+			}
+			cooldown_years = 5
+			cooldown_token = ayyubid_sultanate_mechanic
+			cooldown_desc = AYYUBID_SULTANATE_INTERACTION
+			ai_chance = { #How did the AI get here?
+				factor = 0
+			}
+		}
+		ayyubid_sultanate_mechanic_sponsor_shayk = {
+			icon = GFX_sponsor_shayks_button
+			trigger = { 
+			}
+			effect = {
+				if = {
+					limit = {
+						monthly_income = 35
+					}
+					random_list = {
+						33 = {
+							custom_tooltip = ayyubid_sultanate_mechanic_sponsor_shayk_tt_adm
+							hidden_effect = {
+								random_list = {
+									1 ={
+										define_advisor = {
+											type = philosopher
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = natural_scientist
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = artist
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = treasurer
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = theologian
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = master_of_mint
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = inquisitor
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+								}
+							}
+						}
+						33 = {
+							custom_tooltip = ayyubid_sultanate_mechanic_sponsor_shayk_tt_dip
+							hidden_effect = {
+								if = {
+									limit = {
+										num_of_colonists = 1
+									}
+									random_list = {
+										1 ={
+											define_advisor = {
+												type = statesman
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = naval_reformer
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = trader
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = spymaster
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = diplomat
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = colonial_governor
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = navigator
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+									}
+								}
+								else = {	
+									random_list = {
+										1 ={
+											define_advisor = {
+												type = statesman
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = naval_reformer
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = trader
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = spymaster
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = diplomat
+												skill = 3
+												discount = yes
+												religion = ROOT
+											}
+										}
+									}
+								}
+							}
+						}
+						33 = {
+							custom_tooltip = ayyubid_sultanate_mechanic_sponsor_shayk_tt_mil
+							hidden_effect = {
+								random_list = {
+									1 ={
+										define_advisor = {
+											type = army_reformer
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = army_organiser
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = commandant
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = quartermaster
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = recruitmaster
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = fortification_expert
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = grand_captain
+											skill = 3
+											discount = yes
+											religion = ROOT
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				else = {
+					random_list = {
+						33 = {
+							custom_tooltip = ayyubid_sultanate_mechanic_sponsor_shayk_tt_adm_2
+							hidden_effect = {
+								random_list = {
+									1 ={
+										define_advisor = {
+											type = philosopher
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = natural_scientist
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = artist
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = treasurer
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = theologian
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = master_of_mint
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = inquisitor
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+								}
+							}
+						}
+						33 = {
+							custom_tooltip = ayyubid_sultanate_mechanic_sponsor_shayk_tt_dip_2
+							hidden_effect = {
+								if = {
+									limit = {
+										num_of_colonists = 1
+									}
+									random_list = {
+										1 ={
+											define_advisor = {
+												type = statesman
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = naval_reformer
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = trader
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = spymaster
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = diplomat
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = colonial_governor
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = navigator
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+									}
+								}
+								else = {	
+									random_list = {
+										1 ={
+											define_advisor = {
+												type = statesman
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = naval_reformer
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = trader
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = spymaster
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+										1 ={
+											define_advisor = {
+												type = diplomat
+												skill = 2
+												discount = yes
+												religion = ROOT
+											}
+										}
+									}
+								}
+							}
+						}
+						33 = {
+							custom_tooltip = ayyubid_sultanate_mechanic_sponsor_shayk_tt_mil_2
+							hidden_effect = {
+								random_list = {
+									1 ={
+										define_advisor = {
+											type = army_reformer
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = army_organiser
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = commandant
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = quartermaster
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = recruitmaster
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = fortification_expert
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+									1 ={
+										define_advisor = {
+											type = grand_captain
+											skill = 2
+											discount = yes
+											religion = ROOT
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			cooldown_years = 5
+			cooldown_token = ayyubid_sultanate_mechanic
+			cooldown_desc = AYYUBID_SULTANATE_INTERACTION
+			ai_chance = { #How did the AI get here?
+				factor = 0
+			}
+		}
+		ayyubid_sultanate_mechanic_grant_iqta = {
+			icon = GFX_grant_iqta_button
+			trigger = {
+			}
+			effect = { 
+				trigger_switch = { #On intervals of 5. I don't really feel like making this 5 times longer.
+					on_trigger = army_tradition
+					100 = { create_general = { tradition = 100 } }
+					95 = { create_general = { tradition = 100 } }
+					90 = { create_general = { tradition = 100 } }
+					85 = { create_general = { tradition = 100 } }
+					80 = { create_general = { tradition = 100 } }
+					75 = { create_general = { tradition = 100 } }
+					70 = { create_general = { tradition = 95 } }
+					65 = { create_general = { tradition = 90 } }
+					60 = { create_general = { tradition = 85 } }
+					55 = { create_general = { tradition = 80 } }
+					50 = { create_general = { tradition = 75 } }
+					45 = { create_general = { tradition = 70 } }
+					40 = { create_general = { tradition = 65 } }
+					35 = { create_general = { tradition = 60 } }
+					30 = { create_general = { tradition = 55 } }
+					25 = { create_general = { tradition = 50 } }
+					20 = { create_general = { tradition = 45 } }
+					15 = { create_general = { tradition = 40 } }
+					10 = { create_general = { tradition = 35 } }
+					5 = { create_general = { tradition = 30 } }
+					0 = { create_general = { tradition = 25 } }
+				}
+				#Seems that effects still don't accept variables, only triggers. Oh well.
+				# hidden_effect = {
+					# export_to_variable = { #Take current army tradition
+						# which = armyTrad
+						# value = trigger_value:army_tradition
+					# }
+					# change_variable = { #Add 25
+						# which = armyTrad
+						# value = 25
+					# }
+				# }
+				# create_general = { tradition = "armyTrad" }
+			}
+			cooldown_years = 5
+			cooldown_token = ayyubid_sultanate_mechanic
+			cooldown_desc = AYYUBID_SULTANATE_INTERACTION
+			ai_chance = { #How did the AI get here?
+				factor = 0
+			}
+		}
+	}
+}

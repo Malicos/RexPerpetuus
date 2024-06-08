@@ -1,0 +1,29 @@
+﻿l_english:
+ #Jackkade's KEM_ideas
+ KEM_ideas:0 "Remenkhemi Ideas"
+ KEM_ideas_bonus:0 "Remenkhemi Ambitions"
+ KEM_ideas_start:0 "Remenkhemi Traditions"
+ 
+ kem_religious_scholars:0 "Coptic Scholars"
+ kem_religious_scholars_desc:0 "Our culture is responsible for some of the earliest christian literature, and our country was one of the earliest centers of christianity in the Roman Empire. We must secure our religious heritage if we are to not put our nation at risk."
+ 
+ kem_fertile_river:0 "The Black Land"
+ kem_fertile_river_desc:0 "The black soil of the Nile gives life to our people, and to an immensely productive agricultural base."
+ 
+ kem_nile_fleet:0 "Establlish Nile Fleet"
+ kem_nile_fleet_desc:0 "Our river is navigable for the entirety of the length we know about. If we are to protect our independence and even project power into the mediterranean, we should utilize the river to construct a large fleet, far from the reach of our enemies."
+ 
+ kem_coptic_literacy:0 "Coptic Literary Culture"
+ kem_coptic_literacy_desc:0 "The Copts have a literary culture dating back to the early 3rd century, making up some of the earliest christian and gnostic writing. We should patronize our scholars so as to reestabllish a literary culture."
+ 
+ kem_administative_state:0 "Administrative Culture"
+ kem_administative_state_desc:0 "Even though we have not been ruled by our own since antiquity, we have maintained a culture of administrators by working under the foreign occupiers. Because of this, we should have no issue governing our country."
+ 
+ kem_pharonic_legacy:0 "Land of Pharaohs"
+ kem_pharonic_legacy_desc:0 "We are the direct descendants of the Pharaohs of egypt, we were here before the Arabs, the Persians, the Romans, and the Greeks, and we will be here long after they have left."
+ 
+ kem_monumentality:0 "Restore the Ancient Monuments"
+ kem_monumentality_desc:0 "The monuments of our forefathers still permeate the landscape we inhabit. To pay our respects, we shall restore them to their former glory, and build new monuments to show we have continued their legacy."
+ 
+ ITA_spread_base_tax_and_base_production:0 "Distribute §G20§! Base Tax and §G20§! Base Production among our owned provinces."
+ emp_ita_develop_the_south_tt:0 "At least 10 owned provinces in §YSouthern Italy§! must have at least §Y50§! development"

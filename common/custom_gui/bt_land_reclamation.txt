@@ -1,0 +1,36 @@
+custom_button = {
+	name = bt_land_reclamation_1_forest_button
+	potential = {
+        ai = no #AI no monkey. AI no click button.
+		OR = {
+			NOT = { has_province_flag = bt_land_reclamation_1_forest_clicked } #You have not reclaimed the land yet
+			NOT = { #You've started the process of reclamation
+				had_province_flag = {
+					flag = bt_land_reclamation_1_forest_clicked
+					days = 1825 #Time to remove forest
+				}
+			}
+		}
+	}
+	trigger = {
+		if = {
+			limit = {
+				NOT = { has_province_flag = bt_land_reclamation_1_forest_clicked }
+			}
+			treasury = 500 #Requires 500 ducats probably. Can change later.
+		}
+		else = { #If you're here, you've clicked the button and the button trigger flips to showing you that the land reclamation is not quite done yet.
+			custom_trigger_tooltip = {
+				tooltip = bt_land_reclamation_1_forest_timer_tt
+				always = no
+			}
+		}
+	}
+	effect = {
+		FROM = {
+			add_treasury = -500 #Tie to above trigger
+		}
+		set_province_flag = bt_land_reclamation_1_forest_clicked
+	}
+	tooltip = bt_land_reclamation_1_forest_button_tt
+}

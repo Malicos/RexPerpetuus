@@ -29,8 +29,7 @@ country_decisions = {
 					exists = MLO
 				}
 				NOT = {
-					any_province = {
-						region = italy_region
+					italy_region = {
 						owned_by = MLO
 					}
 				}
@@ -286,8 +285,7 @@ country_decisions = {
 					exists = SAV
 				}
 				NOT = {
-					any_province = {
-						region = italy_region
+					italy_region = {
 						owned_by = SAV
 					}
 				}

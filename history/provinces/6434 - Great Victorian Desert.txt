@@ -1,0 +1,4 @@
+#6434 - Great Victorian Desert
+#Discoveries
+discovered_by = aboriginal_tech # 1.31
+

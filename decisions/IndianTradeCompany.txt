@@ -1,0 +1,156 @@
+country_decisions = {
+	indian_trade_company = {
+		potential = { #The lagmaster of vanilla EU4. Let's fix this.
+			# to prevent overfeeding of provinces into conquer
+			OR = { #BT Overhauled to decrease lag. Also put it at top because this thing seems to finish real quick.
+				ai = no
+				AND = {
+					has_institution = global_trade
+					OR = {
+						india_superregion = {
+							owned_by = ROOT
+							has_port = yes
+						}
+						china_superregion = {
+							owned_by = ROOT
+							has_port = yes
+						}
+						east_indies_superregion = {
+							owned_by = ROOT
+							has_port = yes
+						}
+						japan_region = {
+							owned_by = ROOT
+							has_port = yes
+						}
+					}
+				}
+			}
+			num_of_ports = 2 #Moved up in an attempt at failing the potential faster.
+			NOT = { tag = NED }
+			NOT = { has_country_modifier = hab_ostende_company }
+			NOT = { has_country_flag = trade_company }
+			NOT = { has_country_modifier = portuguese_india_trade_co }
+			NOT = { has_country_modifier = scottish_india_trade_co }
+			NOT = {
+				capital_scope = {
+					OR = {
+						continent = asia
+						continent = oceania
+					}
+				}
+			}
+			OR = { #BT Overhauled to decrease lag.
+				india_superregion = {
+					has_discovered = ROOT
+				}
+				china_superregion = {
+					has_discovered = ROOT
+				}
+				east_indies_superregion = {
+					has_discovered = ROOT
+				}
+				japan_region = {
+					has_discovered = ROOT
+				}
+			}
+		}
+
+		allow = {
+			has_institution = global_trade
+			custom_trigger_tooltip = {
+				tooltip = own_port_province_in_far_east_tooltip
+				OR = {
+					india_superregion = {
+						owned_by = ROOT
+						has_port = yes
+					}
+					china_superregion = {
+						owned_by = ROOT
+						has_port = yes
+					}
+					east_indies_superregion = {
+						owned_by = ROOT
+						has_port = yes
+					}
+					japan_region = {
+						owned_by = ROOT
+						has_port = yes
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = trade_company
+			add_country_modifier = {
+				name = "india_trade_co"
+				duration = -1
+			}
+			if = {
+				limit = { has_dlc = "Domination" }
+				add_treasury = 300
+			}
+			else = {
+				add_treasury = 200
+				hidden_effect = {
+					if = {
+						limit = {
+							OR = {
+								tag = ENG
+								tag = GBR
+							}
+						}
+						country_event = { id = flavor_eng.9145 days = 1 }
+					}
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	expel_foreign_traders = {
+		potential = {
+			any_owned_province = {
+				has_province_modifier = trade_company_factory
+			}
+		}
+
+		allow = {
+			has_institution = global_trade
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			stability = 2
+		}
+
+		effect = {
+			every_owned_province = {
+				limit = { has_province_modifier = trade_company_factory }
+				remove_province_modifier = trade_company_factory
+			}
+			every_known_country = {
+				limit = {
+					has_institution = global_trade
+					provinces_on_capital_continent_of = ROOT
+					ROOT = {
+						NOT = { provinces_on_capital_continent_of = PREV }
+					}
+				}
+				add_casus_belli = {
+					target = ROOT
+					type = cb_trade_war_triggered
+					months = 60
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = opinion_expelled_traders
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

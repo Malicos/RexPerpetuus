@@ -76,5 +76,33 @@ spriteTypes = {
 		name = "mission_muslim_piety"
 		texturefile = "gfx//interface//missions//mission_muslim_piety.dds"
 	}
+	spriteType = {
+		name = "mission_ruthenian_revolution"
+		texturefile = "gfx//interface//missions//mission_ruthenian_revolution.dds"
+	}
+	spriteType = {
+		name = "mission_rose_valley"
+		texturefile = "gfx//interface//missions//mission_rose_valley.dds"
+	}
+	spriteType = {
+		name = "mission_kaliakra"
+		texturefile = "gfx//interface//missions//mission_kaliakra.dds"
+	}
+	spriteType = {
+		name = "mission_tarnovo"
+		texturefile = "gfx//interface//missions//mission_tarnovo.dds"
+	}
+	spriteType = {
+		name = "mission_plovdiv"
+		texturefile = "gfx//interface//missions//mission_plovdiv.dds"
+	}
+	spriteType = {
+		name = "mission_vidin"
+		texturefile = "gfx//interface//missions//mission_vidin.dds"
+	}
+	spriteType = {
+		name = "mission_tsarevets"
+		texturefile = "gfx//interface//missions//mission_tsarevets.dds"
+	}
 }
 

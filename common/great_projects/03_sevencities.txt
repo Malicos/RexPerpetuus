@@ -1,0 +1,2022 @@
+#El Dorado
+el_dorado = {
+	# province it starts in
+	#start = 1511 #Starting sea tile to test
+	
+	# date built in real life (so anything built during game time will be there if you start a game after that date)
+	date = 9999.01.01
+	
+	#time to build
+	time = {
+		months = 0
+	}
+	
+	#how much to build one
+	build_cost = 0
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 3
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 1
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		#anyone
+		has_province_modifier = el_dorado_mod
+	}
+
+	#what to do when it's built
+	on_built = {
+		#no model currently
+		remove_province_modifier = el_dorado_mod
+		if = { #A little boost if you discovered the Ultimate one.
+			limit = { has_global_flag = sce_ultimate_eldorado }
+			add_great_project_tier = {
+				type = el_dorado
+				tier = 1
+			}
+		}
+		#Force a trade good right away.
+		if = {
+				limit = {	
+					NOT = { trade_goods = gold }
+				}
+				change_trade_goods = gold
+			}
+		else = { add_base_production = 1 }
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+		#no model currently
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		#anyone		
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		FROM = {
+			full_idea_group = exploration_ideas
+		}
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_goods_size_modifier = 0.5
+			local_development_cost = -0.2
+			local_unrest = -3	
+			#local_colonial_growth = 25
+			local_gold_depletion_chance_modifier = -0.25
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			#inflation_reduction = -0.1
+			prestige = 0.25
+			interest = -0.5
+			#overlord = {
+			#	treasure_fleet_income = 0.1
+			#}
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { trade_goods = gold }
+				}
+				change_trade_goods = gold
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_goods_size_modifier = 0.5
+			local_unrest = -3
+			#local_colonial_growth = 25
+			local_gold_depletion_chance_modifier = -0.5
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_development_cost = -0.2
+			local_unrest = -1
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			#inflation_reduction = -0.15
+			prestige = 0.5
+			interest = -0.75
+			#overlord = {
+			#	treasure_fleet_income = 0.2
+			#}
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 5
+				}
+			}
+			if = {
+				limit = {	
+					NOT = { trade_goods = gold }
+				}
+				change_trade_goods = gold
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_goods_size_modifier = 0.5
+			local_unrest = -3
+			#local_colonial_growth = 25
+			local_gold_depletion_chance_modifier = -0.75
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_development_cost = -0.25
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+			local_unrest = -1
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			#inflation_reduction = -0.25
+			prestige = 1
+			interest = -1
+			#overlord = {
+			#	treasure_fleet_income = 0.4
+			#}
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_burghers
+					loyalty = 10
+				}
+			}
+			if = {
+				limit = {	
+					NOT = { trade_goods = gold }
+				}
+				change_trade_goods = gold
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+}
+#Fountain of Youth
+fountain_of_youth = {
+	# province it starts in
+	#start = 1511 #Starting sea tile to test
+	
+	# date built in real life (so anything built during game time will be there if you start a game after that date)
+	date = 9999.01.01
+	
+	#time to build
+	time = {
+		months = 0
+	}
+	
+	#how much to build one
+	build_cost = 0
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 3
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 1
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		#anyone
+		has_province_modifier = sce_life_water
+	}
+
+	#what to do when it's built
+	on_built = {
+		#no model currently
+		remove_province_modifier = sce_life_water
+		if = { #A little boost if you discovered the Ultimate one.
+			limit = { has_global_flag = sce_ultimate_fountainofyouth }
+			add_great_project_tier = {
+				type = fountain_of_youth
+				tier = 1
+			}
+		}
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+		#no model currently
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		#anyone		
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		FROM = {
+			full_idea_group = exploration_ideas
+		}
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			local_build_cost = -0.5
+			local_colonial_growth = 30
+			local_unrest = -3
+			local_tax_modifier = 0.25
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			local_unrest = -3
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_colonial_growth = 30
+			local_unrest = -3
+			local_tax_modifier = 0.25
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			monarch_lifespan = 0.1
+			manpower_recovery_speed = 0.15
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			local_unrest = -3
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_unrest = -3
+			local_tax_modifier = 0.25
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+			local_colonial_growth = 30
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			monarch_lifespan = 0.15
+			manpower_recovery_speed = 0.3
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+}
+#Cibola
+cibola = {
+	# province it starts in
+	#start = 1511 #Starting sea tile to test
+	
+	# date built in real life (so anything built during game time will be there if you start a game after that date)
+	date = 9999.01.01
+	
+	#time to build
+	time = {
+		months = 0
+	}
+	
+	#how much to build one
+	build_cost = 0
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 3
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 1
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		#anyone
+		has_province_modifier = sce_cibola_silver
+	}
+
+	#what to do when it's built
+	on_built = {
+		#no model currently
+		remove_province_modifier = sce_cibola_silver
+		if = { #A little boost if you discovered the Ultimate one.
+			limit = { has_global_flag = sce_ultimate_cibola }
+			add_great_project_tier = {
+				type = cibola
+				tier = 1
+			}
+		}
+		#Force trade good right away.
+		if = {
+				limit = {	
+					NOT = { 
+						trade_goods = gems
+						trade_goods = gold
+					}
+				}
+				random_list = {
+					75 = {
+						change_trade_goods = gems
+					}
+					25 = {
+						change_trade_goods = gold
+					}
+				}
+			}
+			else = { add_base_production = 1 }
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+		#no model currently
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		#anyone		
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		FROM = {
+			full_idea_group = exploration_ideas
+		}
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			global_tax_income = 6
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { 
+						trade_goods = gems
+						trade_goods = gold
+					}
+				}
+				random_list = {
+					75 = {
+						change_trade_goods = gems
+					}
+					25 = {
+						change_trade_goods = gold
+					}
+				}
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			global_tax_income = 12
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_tax_modifier = 0.25
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { 
+						trade_goods = gems
+						trade_goods = gold
+					}
+				}
+				random_list = {
+					75 = {
+						change_trade_goods = gems
+					}
+					25 = {
+						change_trade_goods = gold
+					}
+				}
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			global_tax_income = 24
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_tax_modifier = 0.25
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+			local_tax_modifier = 0.25
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { 
+						trade_goods = gems
+						trade_goods = gold
+					}
+				}
+				random_list = {
+					75 = {
+						change_trade_goods = gems
+					}
+					25 = {
+						change_trade_goods = gold
+					}
+				}
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+}
+#City of the Caesars
+city_of_caesars = {
+	# province it starts in
+	#start = 1511 #Starting sea tile to test
+	
+	# date built in real life (so anything built during game time will be there if you start a game after that date)
+	date = 9999.01.01
+	
+	#time to build
+	time = {
+		months = 0
+	}
+	
+	#how much to build one
+	build_cost = 0
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 3
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 1
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		#anyone
+		has_province_modifier = sce_city_of_caesars
+	}
+
+	#what to do when it's built
+	on_built = {
+		#no model currently
+		remove_province_modifier = sce_city_of_caesars
+		if = { #A little boost if you discovered the Ultimate one.
+			limit = { has_global_flag = sce_ultimate_cityofcaesars }
+			add_great_project_tier = {
+				type = city_of_caesars
+				tier = 1
+			}
+		}
+		#Force trade good right away
+		if = {
+				limit = {	
+					NOT = { 
+						trade_goods = gems
+					}
+				}
+				change_trade_goods = gems
+			}
+		else = { add_base_production = 1 }
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+		#no model currently
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		#anyone		
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		FROM = {
+			full_idea_group = exploration_ideas
+		}
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			province_trade_power_modifier = 1
+			trade_goods_size_modifier = 0.5
+			local_development_cost = -0.2
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+					limit = {	
+						NOT = { 
+							trade_goods = gems
+						}
+					}
+					change_trade_goods = gems
+				}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			province_trade_power_modifier = 1
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			trade_goods_size_modifier = 0.5
+			local_development_cost = -0.2
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+					limit = {	
+						NOT = { 
+							trade_goods = gems
+						}
+					}
+					change_trade_goods = gems
+				}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			province_trade_power_modifier = 1
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			trade_goods_size_modifier = 0.75
+			local_development_cost = -0.25
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+			local_tax_modifier = 0.15
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+					limit = {	
+						NOT = { 
+							trade_goods = gems
+						}
+					}
+					change_trade_goods = gems
+				}
+			else = { add_base_production = 1 }
+		}
+	}
+}
+#Sierra de la Plata
+sierra_de_la_plata = {
+	# province it starts in
+	#start = 1511 #Starting sea tile to test
+	
+	# date built in real life (so anything built during game time will be there if you start a game after that date)
+	date = 9999.01.01
+	
+	#time to build
+	time = {
+		months = 0
+	}
+	
+	#how much to build one
+	build_cost = 0
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 3
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 1
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		#anyone
+		has_province_modifier = sce_sierradelaplata_quartz
+	}
+
+	#what to do when it's built
+	on_built = {
+		#no model currently
+		remove_province_modifier = sce_sierradelaplata_quartz
+		if = { #A little boost if you discovered the Ultimate one.
+			limit = { has_global_flag = sce_ultimate_sierradelaplata }
+			add_great_project_tier = {
+				type = sierra_de_la_plata
+				tier = 1
+			}
+		}
+		#Force trade good right away.
+		if = {
+			limit = {	
+				NOT = { trade_goods = bt_trade_good_silver }
+			}
+			change_trade_goods = bt_trade_good_silver
+		}
+		else = { add_base_production = 1 }
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+		#no model currently
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		#anyone		
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		FROM = {
+			full_idea_group = exploration_ideas
+		}
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			local_tax_modifier = 0.5
+			local_institution_spread = 1
+			local_development_cost = -0.2
+			local_gold_depletion_chance_modifier = -0.15
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { trade_goods = bt_trade_good_silver }
+				}
+				change_trade_goods = bt_trade_good_silver
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			local_tax_modifier = 0.8
+			local_institution_spread = 1
+			local_development_cost = -0.2
+			local_gold_depletion_chance_modifier = -0.20
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_institution_spread = 0.5
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			interest = -0.25
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { trade_goods = bt_trade_good_silver }
+				}
+				change_trade_goods = bt_trade_good_silver
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			local_tax_modifier = 1.25
+			local_institution_spread = 1
+			#Adjusted to stack to 100% only if you/CN take econ ideas
+			local_gold_depletion_chance_modifier = -0.25
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_institution_spread = 0.5
+			local_development_cost = -0.25
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			interest = -0.5
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { trade_goods = bt_trade_good_silver }
+				}
+				change_trade_goods = bt_trade_good_silver
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+}
+#Norumbega
+norumbega = {
+	# province it starts in
+	#start = 1511 #Starting sea tile to test
+	
+	# date built in real life (so anything built during game time will be there if you start a game after that date)
+	date = 9999.01.01
+	
+	#time to build
+	time = {
+		months = 0
+	}
+	
+	#how much to build one
+	build_cost = 0
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 3
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 1
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		#anyone
+		has_province_modifier = sce_norumbega_abandoned
+	}
+
+	#what to do when it's built
+	on_built = {
+		#no model currently
+		remove_province_modifier = sce_norumbega_abandoned
+		if = { #A little boost if you discovered the Ultimate one.
+			limit = { has_global_flag = sce_ultimate_norumbega }
+			add_great_project_tier = {
+				type = norumbega
+				tier = 1
+			}
+		}
+		#Force trade good right away
+		if = {
+			limit = {	
+				NOT = { trade_goods = fur }
+			}
+			change_trade_goods = fur
+		}
+		else = { add_base_production = 1 }
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+		#no model currently
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		#anyone		
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		FROM = {
+			full_idea_group = exploration_ideas
+		}
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			local_development_cost = -0.2
+			province_trade_power_modifier = 0.5
+			trade_goods_size_modifier = 0.5
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { trade_goods = fur }
+				}
+				change_trade_goods = fur
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_goods_size_modifier = 1
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			trade_goods_size_modifier = 0.5
+			province_trade_power_modifier = 0.5
+			local_development_cost = -0.2
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			prestige = 0.5
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { trade_goods = fur }
+				}
+				change_trade_goods = fur
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_goods_size_modifier = 2
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			trade_goods_size_modifier = 0.5
+			province_trade_power_modifier = 0.5
+			local_development_cost = -0.2
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			prestige = 1
+			promote_culture_cost = -0.1
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { trade_goods = fur }
+				}
+				change_trade_goods = fur
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+}
+#Kingdom of Saguenay
+saguenay_kingdom = {
+	# province it starts in
+	#start = 1511 #Starting sea tile to test
+	
+	# date built in real life (so anything built during game time will be there if you start a game after that date)
+	date = 9999.01.01
+	
+	#time to build
+	time = {
+		months = 0
+	}
+	
+	#how much to build one
+	build_cost = 0
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 3
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 1
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		#anyone
+		has_province_modifier = sce_saguenay_abandoned
+	}
+
+	#what to do when it's built
+	on_built = {
+		#no model currently
+		remove_province_modifier = sce_saguenay_abandoned
+		if = { #A little boost if you discovered the Ultimate one.
+			limit = { has_global_flag = sce_ultimate_saguenay }
+			add_great_project_tier = {
+				type = saguenay_kingdom
+				tier = 1
+			}
+		}
+		#Force trade good right away
+		if = {
+			limit = {	
+				NOT = { trade_goods = gems }
+			}
+			change_trade_goods = gems
+		}
+		else = { add_base_production = 1 }
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+		#no model currently
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		#anyone		
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		FROM = {
+			full_idea_group = exploration_ideas
+		}
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_goods_size_modifier = 0.25
+			province_trade_power_modifier = 0.25
+			local_development_cost = -0.2
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { trade_goods = gems }
+				}
+				change_trade_goods = gems
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_goods_size_modifier = 0.25
+			province_trade_power_modifier = 0.25
+			local_development_cost = -0.2
+			local_defender_dice_roll_bonus = 1
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			shock_damage = 0.05
+			shock_damage_received = -0.05
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { trade_goods = gems }
+				}
+				change_trade_goods = gems
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			trade_goods_size_modifier = 0.25
+			province_trade_power_modifier = 0.25
+			local_development_cost = -0.2
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_defender_dice_roll_bonus = 1
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+			shock_damage = 0.1
+			shock_damage_received = -0.1
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { trade_goods = gems }
+				}
+				change_trade_goods = gems
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+}
+#City of Quivira
+quivira_city = {
+	# province it starts in
+	#start = 1511 #Starting sea tile to test
+	
+	# date built in real life (so anything built during game time will be there if you start a game after that date)
+	date = 9999.01.01
+	
+	#time to build
+	time = {
+		months = 0
+	}
+	
+	#how much to build one
+	build_cost = 0
+	
+	#can we move it?
+	can_be_moved = no
+	
+	#time to move the project one unit of distance, in days
+	move_days_per_unit_distance = 3
+	
+	#tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)
+	starting_tier = 1
+	
+	#project type
+	type = monument
+
+	#can we build it?
+	build_trigger = {
+		#anyone
+		has_province_modifier = sce_golden_cups
+	}
+
+	#what to do when it's built
+	on_built = {
+		#no model currently
+		remove_province_modifier = sce_golden_cups
+		if = { #A little boost if you discovered the Ultimate one.
+			limit = { has_global_flag = sce_ultimate_quivira }
+			add_great_project_tier = {
+				type = quivira_city
+				tier = 1
+			}
+		}
+		#Force trade good right away
+		if = {
+			limit = {	
+				NOT = { 
+					trade_goods = gems
+					trade_goods = wine
+					trade_goods = bt_trade_good_fruit
+				}
+			}
+			random_list = {
+				20 = {
+					change_trade_goods = gems
+				}
+				40 = {
+					change_trade_goods = wine
+				}
+				40 = {
+					change_trade_goods = bt_trade_good_fruit
+				}
+			}
+		}
+		else = { add_base_production = 1 }
+	}
+	
+	#what to do when it's destroyed
+	on_destroyed = {
+		#no model currently
+	}
+
+	#can our country use it?
+	can_use_modifiers_trigger = {
+		#anyone		
+	}
+
+	#can our country upgrade it?
+	can_upgrade_trigger = {
+		FROM = {
+			full_idea_group = exploration_ideas
+		}
+	}
+
+	#can our country keep it or is it destroyed when we get hold of it?
+	keep_trigger = {
+	}
+
+	#tier data
+	tier_0 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+		}
+	}
+
+	tier_1 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 0
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			local_production_efficiency = 0.25
+			local_tax_modifier = 0.25
+			local_build_cost = -0.5
+			local_development_cost = -0.2
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { 
+						trade_goods = gems
+						trade_goods = wine
+						trade_goods = bt_trade_good_fruit
+					}
+				}
+				random_list = {
+					20 = {
+						change_trade_goods = gems
+					}
+					40 = {
+						change_trade_goods = wine
+					}
+					40 = {
+						change_trade_goods = bt_trade_good_fruit
+					}
+				}
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_2 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 240
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 2500
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			local_production_efficiency = 0.50
+			local_tax_modifier = 0.50
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_build_cost = -0.5
+			local_development_cost = -0.2
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { 
+						trade_goods = gems
+						trade_goods = wine
+						trade_goods = bt_trade_good_fruit
+					}
+				}
+				random_list = {
+					20 = {
+						change_trade_goods = gems
+					}
+					40 = {
+						change_trade_goods = wine
+					}
+					40 = {
+						change_trade_goods = bt_trade_good_fruit
+					}
+				}
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+
+	tier_3 = {
+		#time to upgrade to this level (0 for tier 0)
+		upgrade_time = {
+			months = 480
+		}
+
+		#cost to upgrade to this level (0 for tier 0)
+		cost_to_upgrade = {
+			factor = 5000
+		}
+
+		#what modifiers are added to the province when we have this project here on this tier
+		province_modifiers = {
+			local_production_efficiency = 1
+			local_tax_modifier = 1
+		}
+
+		#what modifiers are added to the provinces in the map area when we have this project here on this tier
+		area_modifier = {
+			local_build_cost = -0.5
+			local_development_cost = -0.2
+		}
+
+		#what modifiers are added to the provinces in the map region when we have this project here on this tier
+		region_modifier = {
+			local_build_cost = -0.15
+			local_development_cost = -0.05
+		}
+
+		#what modifiers are added to the country when we have this project here on this tier
+		country_modifiers = {
+		}
+
+		#what effects happen when this tier is achieved
+		on_upgraded = {
+			if = {
+				limit = {	
+					NOT = { 
+						trade_goods = gems
+						trade_goods = wine
+						trade_goods = bt_trade_good_fruit
+					}
+				}
+				random_list = {
+					20 = {
+						change_trade_goods = gems
+					}
+					40 = {
+						change_trade_goods = wine
+					}
+					40 = {
+						change_trade_goods = bt_trade_good_fruit
+					}
+				}
+			}
+			else = { add_base_production = 1 }
+		}
+	}
+}

@@ -1,0 +1,21 @@
+#Sharka
+
+graphical_culture = muslimgfx
+
+color = { 11 134 78 }
+
+preferred_religion = sunni
+
+historical_idea_groups = { }
+
+historical_units = { }
+
+monarch_names = { }
+
+leader_names = { }
+
+ship_names = { }
+
+army_names = { }
+
+fleet_names = { }

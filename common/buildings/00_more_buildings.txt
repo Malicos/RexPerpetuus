@@ -1,0 +1,962 @@
+#Infrastructure
+
+road_network = {
+	cost = 200			#Roads are expensive!
+	time = 36
+	
+	build_trigger = {
+        OR = {
+			is_capital = yes
+			province_has_center_of_trade_of_level = 2
+			province_has_center_of_trade_of_level = 3
+			any_neighbor_province = {
+				has_building = road_network
+			}
+		}
+    }
+	
+	modifier = {
+		local_friendly_movement_speed = 0.2 #Troop movement and whatnot
+		local_hostile_movement_speed = 0.1
+		province_trade_power_modifier = 0.25 #Toll roads
+		allowed_num_of_buildings = 2 #Adding a bit of a reason to actually build roads.
+	}
+
+	on_built = {
+		add_development_from_building = {
+			building = road_network
+			type = tax
+			value = 1
+		}
+		add_development_from_building = {
+			building = road_network
+			type = production
+			value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = road_network
+			type = tax
+			value = 1
+		}
+		remove_development_from_building = {
+			building = road_network
+			type = production
+			value = 1
+		}
+	}
+	
+	ai_will_do = {
+		factor = 10 #The AI does consider the trade power, but I did not see a single road being built, so increasing this for now.
+		modifier = { #AI should value this more if they have no building slots here.
+			factor = 2
+			NOT = {
+				num_free_building_slots = 1
+			}
+		}
+	}
+}
+
+mb_canal = {
+	cost = 200			#Stuff
+	time = 36
+	
+	build_trigger = {
+        OR = {
+			has_port = yes
+			any_neighbor_province = {
+				has_building = mb_canal
+			}
+		}
+    }
+	
+	modifier = {
+		local_development_cost = -0.2 #Canals allow trade, thus furthering development
+		province_trade_power_modifier = 0.25 #Promotes trade.
+		allowed_num_of_buildings = 2 #Adding a bit of a reason to actually build canals.
+	}
+
+	on_built = {
+		add_development_from_building = {
+			building = mb_canal
+			type = tax
+			value = 1
+		}
+		add_development_from_building = {
+			building = mb_canal
+			type = production
+			value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = mb_canal
+			type = tax
+			value = 1
+		}
+		remove_development_from_building = {
+			building = mb_canal
+			type = production
+			value = 1
+		}
+	}
+	
+	ai_will_do = {
+		factor = 10 #The AI does consider the trade power, but I did not see a single canal being built, so increasing this for now.
+		modifier = { #AI should value this more if they have no building slots here.
+			factor = 2
+			NOT = {
+				num_free_building_slots = 1
+			}
+		}
+	}
+}
+
+grain_depot = {
+	cost = 100			#Stuff
+	time = 36
+	
+	modifier = {
+		local_monthly_devastation = -0.1
+		base_local_dev_points = 0.04	#BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
+	}
+	
+	ai_will_do = {
+		factor = 120
+		modifier = { #AI should value this more in provinces with devastation.
+			factor = 1.2
+			is_prosperous = yes
+		}
+		modifier = { #AI should value this more in provinces with devastation.
+			factor = 1.5
+			province_has_center_of_trade_of_level = 1
+		}
+		modifier = { #AI should value this more if they have economic ideas.
+			factor = 1.2
+			owner = {
+				has_idea_group = economic_ideas
+			}
+		}
+		modifier = { #AI should value this more if they have infrastructure ideas.
+			factor = 1.2
+			owner = {
+				has_idea_group = infrastructure_ideas
+			}
+		}
+		modifier = { #AI should value this more if they have expanded infrastructure here.
+			factor = 1.2
+			num_of_times_expanded_infrastructure = 1
+		}
+		modifier = { #AI should value this more if they have expanded infrastructure here.
+			factor = 1.5
+			num_of_times_expanded_infrastructure = 2
+		}
+		modifier = { #AI should value this more if they have building slots here.
+			factor = 1.5
+			num_free_building_slots = 4
+		}
+		modifier = { #AI should value this more in provinces with devastation.
+			factor = 1.1
+			devastation = 10
+		}
+		modifier = {
+			factor = 1.1
+			devastation = 20
+		}
+		modifier = {
+			factor = 1.1
+			devastation = 30
+		}
+		modifier = {
+			factor = 1.1
+			devastation = 40
+		}
+		modifier = {
+			factor = 1.2
+			devastation = 50
+		}
+		modifier = {
+			factor = 1.2
+			devastation = 60
+		}
+		modifier = {
+			factor = 1.2
+			devastation = 70
+		}
+		modifier = {
+			factor = 1.2
+			devastation = 80
+		}
+		modifier = {
+			factor = 1.2
+			devastation = 90
+		}
+	}
+}
+
+#Manufactory
+
+mint = {
+	manufactory = {
+		gold
+		bt_trade_good_silver
+	}
+	cost = 500			#This is very much like a manufactory
+	time = 36
+	
+	build_trigger = {
+		OR = {
+			trade_goods = gold
+			trade_goods = bt_trade_good_silver
+		}
+        #development = 30
+    }
+	onmap = no
+	show_separate = yes # Means as a manufactory it will be shown according to the old way
+	
+	keep_trigger = {
+		OR = {
+			trade_goods = gold
+			trade_goods = bt_trade_good_silver
+		}
+	}
+	on_built = {
+		add_development_from_building = {
+			building = manufactory
+			type = production
+			value = 2
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = manufactory
+			type = production
+			value = 2
+		}
+	}
+	
+	modifier = {
+		trade_goods_size_modifier = 1
+		global_tax_modifier = 0.05
+		monthly_gold_inflation_modifier = 0.1
+		base_local_dev_points = 0.08	#BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
+		#inflation_reduction = -0.1 #Logically, this costs you 0.3 admin points/month/building. I think this is a sensible matchup.
+	}
+	#show_separate = yes # Means as a manufactory it will be shown according to the old way
+	
+	ai_will_do = {
+		factor = 1
+		#Lots of factors taken from BT manufactories
+		modifier = {
+			factor = 0.5
+			FROM = { inflation = 5 }
+		}	#Does not want to build if has high inflation
+		modifier = {
+			factor = 0.4
+			FROM = { inflation = 10 }
+		}	#Does not want to build if has high inflation
+		modifier = {
+			factor = 0.3
+			FROM = { inflation = 15 }
+		}	#Does not want to build if has high inflation
+		modifier = {
+			factor = 0.2
+			FROM = { inflation = 20 }
+		}	#Does not want to build if has high inflation
+		modifier = {
+			factor = 0.1
+			FROM = { inflation = 25 }
+		}	#AI, the fuck you doing?
+		modifier = {
+			factor = 0.9
+			FROM = { technology_group = eastern }
+		}	#Minor penalty for eastern tech
+		modifier = {
+			factor = 0.6
+			FROM = {
+				OR = {
+					technology_group = ottoman
+					technology_group = muslim
+				}
+			}
+		}	#Lesser penalty for non european medium-high tech groups.
+		modifier = {
+			factor = 0.4
+			FROM = {
+				OR = {
+					technology_group = indian
+					technology_group = east_african
+					technology_group = chinese
+					technology_group = sub_saharan
+					technology_group = central_african
+					technology_group = nomad_group
+				}
+			}
+		}	#Penalty for medium-low tech groups
+		modifier = {
+			factor = 0.2
+			FROM = {
+				OR = {
+					technology_group = mesoamerican
+					technology_group = andean
+					technology_group = north_american
+					technology_group = south_american
+					#Any other future new world cultures should be added here
+				}
+			}
+		}	#Much like the university, some technology groups simply did not have the infrastructure, history, or circumstance to evolve and develop in this way.
+		modifier = {
+			factor = 1.5
+			FROM = {				
+				is_great_power = yes
+			}
+		}	#Great powers get a sustantial bonus, putting Muslims on par with Europeans, other Old World techs on par with Muslims, and rocketing European powers even higher.
+		modifier = {
+			factor = 0.1
+			FROM = {
+				AND = {
+					NOT = { technology_group = western }
+					NOT = { total_development = 100 }
+				}
+			}
+		}	#Small non western AI countries shouldn't be grasping like this, institutions can spread to them from bigger neighbours. Further penalty even beyond the tech group penalty above. 
+		modifier = {
+			factor = 1.3
+			owner = { ruler_has_personality = entrepreneur_personality }
+		}
+		modifier = {
+			factor = 1.3
+			owner = { ruler_has_personality = industrious_personality }
+		}
+		modifier = {
+			factor = 1.3
+			owner = { full_idea_group = economic_ideas }
+		}
+		modifier = {
+			factor = 1.1
+			base_production = 4
+		}
+		modifier = {
+			factor = 1.2
+			base_production = 8
+		}
+		modifier = {
+			factor = 1.4
+			base_production = 12
+		}
+	}
+}
+
+tax_assessor = { 
+	manufactory = {
+		all
+	}
+
+	bonus_manufactory = { # Will apply an extra modifier if these goods
+		paper
+		bt_trade_good_books
+		dyes
+		slaves
+	}
+	
+	cost = 500	
+	time = 36			
+	modifier = {
+		tax_income = 1
+		local_tax_modifier = 0.5
+		base_local_dev_points = 0.02	#BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
+	}
+	bonus_modifier = {
+		tax_income = 1
+		local_tax_modifier = 0.5
+	}
+	onmap = no
+	show_separate = yes # Means as a manufactory it will be shown according to the old way
+	on_built = {
+		add_development_from_building = {
+			building = tax_assessor
+			type = tax
+			value = 2
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = tax_assessor
+			type = tax
+			value = 2
+		}
+	}
+	on_obsolete = {
+	}
+	
+	
+	
+	ai_will_do = {
+		factor = 1 #Removed all factors.
+	}
+}
+
+#Army Recruitment
+armory = {
+	cost = 50			#Building an armoury should not cost much.
+	time = 12
+	
+	modifier = {
+		supply_limit = 1
+		supply_limit_modifier = 0.50
+	}
+
+	on_built = {
+		add_development_from_building = {
+			building = armory
+			type = manpower
+			value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = armory
+			type = manpower
+			value = 1
+		}
+	}
+	
+	ai_will_do = {
+		factor = 20 #To counterbalance the non-existent economic value of this building, automatically assigning it a value of 0.01. NOTE: AI seems to see some value in supply limit, so lowering.
+		modifier = {
+			factor = 0.2
+			is_state = no
+		}
+	}
+}
+
+arsenal = {
+	cost = 200			#Building an armoury should not cost much.
+	time = 24
+	
+	make_obsolete = armory
+	
+	modifier = {
+		supply_limit = 2
+		supply_limit_modifier = 1.00
+	}
+
+	on_built = {
+		add_development_from_upgrading_or_building = {
+			building = arsenal
+			obsolete_building = armory
+			type = manpower
+			value = 2
+			upgrade_value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = arsenal
+			type = manpower
+			value = 2
+		}
+	}
+	
+	ai_will_do = {
+		factor = 80 #To counterbalance the non-existent economic value of this building, automatically assigning it a value of 0.01. NOTE: AI seems to see some value in supply limit, so lowering.
+		modifier = {
+			factor = 0.2
+			is_state = no
+		}
+	}
+}
+
+#Navy Recruitment
+
+naval_arsenal = { #Actually Shipyard in-game
+	cost = 50			#Following the trend of the armoury
+	time = 12
+	
+	build_trigger = {
+		has_port = yes
+	}
+	
+	modifier = {
+		local_ship_repair = 0.10		
+		ship_recruit_speed = -0.10
+		province_trade_power_value = 1
+		base_local_dev_points = 0.02	#BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
+	}
+	
+	on_built = {
+		add_development_from_building = {
+			building = naval_arsenal
+			type = production
+			value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = naval_arsenal
+			type = production
+			value = 1
+		}
+	}
+	
+	ai_will_do = {
+		factor = 2 #To counterbalance the non-existent economic value of this building, automatically assigning it a value of 0.01.
+		modifier = {
+			factor = 0
+			NOT = { has_port = yes }
+		}
+		modifier = {
+			factor = 0.6
+			local_autonomy = 30			
+		}
+		modifier = {
+			factor = 0.6
+			local_autonomy = 60			
+		}
+		modifier = {
+			factor = 0.2
+			is_state = no
+		}
+		modifier = { #Do NOT use your last building slot on one of these buildings.
+			factor = 0.01
+			NOT = { num_free_building_slots = 2 }
+		}
+	}
+}
+
+naval_base = { #Actually Grand Shipyard in-game
+	cost = 200			#Following the trend of the armoury
+	time = 24
+
+	build_trigger = {
+		has_port = yes
+	}
+	
+	make_obsolete = naval_arsenal
+	
+	modifier = {
+		local_ship_repair = 0.20	
+		ship_recruit_speed = -0.20
+		province_trade_power_value = 2.5
+		base_local_dev_points = 0.04	#BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
+	}
+
+	on_built = {
+		add_development_from_upgrading_or_building = {
+			building = naval_base
+			obsolete_building = naval_arsenal
+			type = production
+			value = 2
+			upgrade_value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = naval_base
+			type = production
+			value = 2
+		}
+	}
+	
+	ai_will_do = {
+		factor = 2 #To counterbalance the non-existent economic value of this building, automatically assigning it a value of 0.01.
+		modifier = {
+			factor = 0
+			NOT = { has_port = yes }
+		}
+		#Non-economic buildings get some penalties in high autonomy regions. This is intended to prevent situations caused by the AI not understand how to prioritise non-economic buildings in high autonomy regions due to factoring being forced and not dynamic.
+		modifier = {
+			factor = 0.6
+			local_autonomy = 30			
+		}
+		modifier = {
+			factor = 0.6
+			local_autonomy = 60			
+		}
+		modifier = {
+			factor = 0.2
+			is_state = no
+		}
+		modifier = { #Do NOT use your last building slot on one of these buildings.
+			factor = 0.01
+			NOT = { num_free_building_slots = 2 }
+		}
+	}
+}
+
+#Taxation
+
+constable = {
+	cost = 50
+	time = 12
+	
+	modifier = {
+		local_tax_modifier = 0.50
+		base_local_dev_points = 0.01	#BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
+	}
+	
+	on_built = {
+		#on_built_tax_building_effect = yes #We do not want these as they are all religious in nature.
+		#on_province_tax_building_built_estate_privileges_effect = yes #We do not want these as they are all religious in nature.
+		add_development_from_building = {
+			building = constable
+			type = tax
+			value = 1
+		}
+	}
+	on_destroyed = {
+		#on_province_tax_building_destroyed_estate_privileges_effect = yes #We do not want these as they are all religious in nature.
+		remove_development_from_building = {
+			building = constable
+			type = tax
+			value = 1
+		}
+	}
+	on_obsolete = {
+	}
+	
+	ai_will_do = {
+		factor = 2 #AI sees value in this building, so factor will be 1.
+		modifier = { #4 BT
+			factor = 2
+			base_tax = 4
+		}
+		modifier = { #8 BT
+			factor = 3
+			base_tax = 8
+		}
+		modifier = { #12 BT
+			factor = 4
+			base_tax = 12
+		}
+	}
+}
+
+treasury_office = {
+	cost = 200
+	time = 24
+	
+	make_obsolete = constable
+	
+	modifier = {
+		local_tax_modifier = 1.0
+		base_local_dev_points = 0.02	#BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
+	}
+	
+	on_built = {
+		#on_built_tax_building_effect = yes #We do not want these as they are all religious in nature.
+		#on_province_tax_building_built_estate_privileges_effect = yes #We do not want these as they are all religious in nature.
+		add_development_from_upgrading_or_building = {
+			building = treasury_office
+			obsolete_building = constable
+			type = tax
+			value = 2
+			upgrade_value = 1
+		}
+	}
+	on_destroyed = {
+		#on_province_tax_building_destroyed_estate_privileges_effect = yes #We do not want these as they are all religious in nature.
+		remove_development_from_building = {
+			building = treasury_office
+			type = tax
+			value = 2
+		}
+	}
+	
+	ai_will_do = {
+		factor = 3 #AI sees value in this building, so factor will be 1.
+		modifier = { #4 BP
+			factor = 2
+			base_production = 4
+		}
+		modifier = { #8 BP
+			factor = 3
+			base_production = 8
+		}
+		modifier = { #12 BP
+			factor = 4
+			base_production = 12
+		}	
+	}
+}
+
+
+#Production
+post_office = {
+	cost = 50			#An area-wide effect seems sensible for this price.
+	time = 12
+	
+	modifier = {
+		trade_value_modifier = 0.4
+		local_institution_spread = 0.25 #Just makes sense.
+		base_local_dev_points = 0.01	#BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
+	}
+	
+	allow_in_gold_provinces = no
+	
+	on_built = {
+		add_development_from_building = {
+			building = post_office
+			type = production
+			value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = post_office
+			type = production
+			value = 1
+		}
+	}
+	on_obsolete = {
+	}
+	
+	ai_will_do = {
+		factor = 3
+		modifier = { #Mainly to promote this building over others.
+			factor = 5
+			base_production = 5
+		}
+		modifier = { #Mainly to promote this building over others.
+			factor = 5
+			base_production = 10
+		}
+		modifier = { #Encourage if a proper manufactory was built in the province
+			factor = 10
+			has_manufactory_no_custom_tooltip_trigger = yes
+		}
+		modifier = { #Strongly encourage if you are the strongest trade power in the node.
+			factor = 5
+			is_strongest_trade_power = FROM
+		}
+	}
+}
+
+customs_house = {
+	cost = 200			
+	time = 24			
+	
+	make_obsolete = post_office
+	modifier = {
+		trade_value_modifier = 0.6
+		local_institution_spread = 0.5 #Just makes sense.
+		base_local_dev_points = 0.02	#BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
+	}
+	
+	allow_in_gold_provinces = no
+	
+	on_built = {
+		add_development_from_upgrading_or_building = {
+			building = customs_house
+			obsolete_building = post_office
+			type = production
+			value = 2
+			upgrade_value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = customs_house
+			type = production
+			value = 2
+		}
+	}
+	on_obsolete = {
+	}
+	
+	ai_will_do = {
+		factor = 5
+		modifier = { #Mainly to promote this building over others.
+			factor = 5
+			base_production = 5
+		}
+		modifier = { #Mainly to promote this building over others.
+			factor = 5
+			base_production = 10
+		}
+		modifier = { #Encourage if a proper manufactory was built in the province
+			factor = 10
+			has_manufactory_no_custom_tooltip_trigger = yes
+		}
+		modifier = { #Strongly encourage if you are the strongest trade power in the node.
+			factor = 5
+			is_strongest_trade_power = FROM
+		}
+	}
+}
+
+#Subject-only buildings
+
+march_building = {
+	cost = 500			#I think this is sensible, considering you only ever build 1 per subject.
+	time = 48
+
+	build_trigger = {
+		owner = {
+			is_march_or_similar_subject = yes
+		}
+		is_capital = yes
+	}
+
+	keep_trigger = {
+		owner = {
+			is_march_or_similar_subject = yes
+		}
+		is_capital = yes
+	}
+	
+	modifier = {
+		defensiveness = 0.2
+		fort_maintenance_modifier = -0.5
+	}
+	
+	ai_will_do = {
+		factor = 500 #AI sees no value in this building, so this brings it to 1% yearly return, i.e AI will build it.
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					is_march_or_similar_subject = yes
+				}
+				is_capital = yes
+			}
+		}
+	}
+}
+
+glorious_monument = {
+	cost = 500			#An area-wide effect seems sensible for this price.
+	time = 36
+
+
+	build_trigger = {
+		owner = {
+			is_subject = yes
+		}
+		is_capital = yes
+	}
+	
+	keep_trigger = { #Copying vanilla for now.
+		owner = {
+			is_subject = yes
+		}
+		is_capital = yes
+	}
+	
+	modifier = {
+		liberty_desire = -15
+	}
+	
+	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
+	on_built = {
+	}
+
+	# THIS = Province, FROM = Destroyer, Will not be called on buildings made obsolete!
+	on_destroyed = { 
+	}
+	
+	ai_will_do = {
+		factor = 500 #AI sees no value in this building, so this brings it to 0.8% yearly return
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					is_march_or_similar_subject = yes
+				}
+				is_capital = yes
+			}
+		}
+		#Dynamix
+		modifier = {
+			factor = 2
+			FROM = {
+				ruler_has_personality = conqueror_personality				
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				ruler_has_personality = architectural_visionary_personality
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				ruler_has_personality = embezzler_personality
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				consort_has_personality = conqueror_personality
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				consort_has_personality = architectural_visionary_personality
+			}
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				consort_has_personality = embezzler_personality
+			}
+		}
+	}
+}
+
+spy_agency = {
+	cost = 500			#I think this is sensible, considering you only ever build 1 per subject.
+	time = 48
+
+	build_trigger = {
+		owner = {
+			is_subject = yes
+		}
+		is_capital = yes
+	}
+
+	keep_trigger = {
+		owner = {
+			is_subject = yes
+		}
+		is_capital = yes
+	}
+	
+	modifier = {
+		fabricate_claims_cost = -0.33 
+		administrative_efficiency = 0.1 #This building is here as a way of buffing subjects a bit.
+	}
+	
+	ai_will_do = {
+		factor = 500 #AI sees no value in this building, so this brings it to 1% yearly return, i.e AI will build it.
+		modifier = {
+			factor = 0
+			NOT = {
+				owner = {
+					is_march_or_similar_subject = yes
+				}
+				is_capital = yes
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

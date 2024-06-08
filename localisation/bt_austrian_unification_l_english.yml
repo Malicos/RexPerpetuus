@@ -1,0 +1,88 @@
+﻿l_english:
+ bt_austrian_unification.1.name: "End of Styrian Control over Ladislaus" 
+ bt_austrian_unification.1.desc: "Ladislaus Posthumus, as the son of King Albert had a great position to become King as well. However, he is held by his Regent, the Archduke of Styria. We must demand his return to Hungary."
+ bt_austrian_unification.1.a: "Liberate Ladislaus" 
+ bt_austrian_unification.1.b: "Give Styria all of Austria to keep them satisfied." 
+ 
+ bt_austrian_unification.1.t: "Treachery in Austria" 
+ bt_austrian_unification.1.desc: "With our nephew Ladislaus Postumus elected as king in Hungary and we have been forced to hand him over to them. Frederick III's guardianship over him has ended as a result and the Hungarians have taken our place, ruling over Austria Proper in Ladislaus' behalf. If Ladislaus dies without an heir we will still have our claim over those lands and it would likely return to us."
+ bt_austrian_unification.1.a: "Damnation" 
+ 
+ bt_austrian_unification.3.t: "Ladislaus Posthumus, Ruler of Hungary and Austria" 
+ bt_austrian_unification.3.desc: "Ladislaus Posthumus, as the son of King Albert had a great position to become King as well, but he was born after the death of his father. Through a string of lucky circumstances, we have once more been able to unify Hungary and Austria under a Habsburg Ruler. With him coming of legal age, he can be crowned King."
+ bt_austrian_unification.3.a: "Crown Ladislaus King" 
+ bt_austrian_unification.3.b: "Keep Janos Hunyadi." 
+ bt_austrian_unification.3.c: ""
+ 
+ bt_austrian_unification.2.t: "Unrest amongst the Nobility" 
+ bt_austrian_unification.2.desc: "The Nobles have become uneasy with our situation. They prefer a more capable ruler to take control. A nearby Habsburg Ruler could perhaps make a better ruler. He should take the Throne and defend the lands."
+ bt_austrian_unification.2.a: "We must accept their wishes." 
+ bt_austrian_unification.2.b: "We will not bend to their wishes." 
+
+ bt_austrian_unification.5.t: "Hunyadi's Children" 
+ bt_austrian_unification.5.desc: "With Ladislaus crowned king, the troubles aren't over yet. With Hunyadi's popularity still being great, it's best if we were to get rid of his children."
+ bt_austrian_unification.5.a: "Imprison the children"
+ bt_austrian_unification.5.b: "We have no to imprison them." 
+
+ bt_austrian_unification.500.t: "Michael Szilágyi is Gaining Ground"
+ bt_austrian_unification.500.desc: "With Michael Szilágyi gaining ground, there is not that much time to make a decision, either Ladislaus flees or he has a chance to be captured and executed."
+ bt_austrian_unification.500.a: "Flee to Prague!"
+ bt_austrian_unification.500.b: "Stay and fight!"
+
+ bt_austrian_unification.6.t: "Death of Ladislaus"
+ bt_austrian_unification.6.desc: "The young Ladislaus has passed away and his advisor George of Podebrady has been elected by the estates as the new King."
+ bt_austrian_unification.6.a: "Glorious!"
+
+ bt_austrian_unification.8.t: "The Young Ladislaus"
+ bt_austrian_unification.8.desc: "Ladislaus Posthumus, the son of King Albrecht the Second, has recently been crowned the ruler in Austria and Hungary. He still holds a strong claim and since our nation has not yet elected a new ruler, we must now make a decision."
+ bt_austrian_unification.8.a: "Elect Ladislaus King of Bohemia."
+ bt_austrian_unification.8.b: "George Podebrady makes a more suitable ruler"
+ bt_austrian_unification.8.c: "Keep the current situation"
+
+ bt_austrian_unification.7.t: "Death of Ladislaus"
+ bt_austrian_unification.7.desc: "The young Ladislaus has passed away and Friedrich's Brother Albrecht has taken over Upper Austria. He lays claim on Lower Austria as well. This could lead to a very dicey situation."
+ bt_austrian_unification.7.a: "We shall take some time to weigh our options."
+ 
+ bt_austrian_unification.700.t: "Albrecht's claims on Austria"
+ bt_austrian_unification.700.desc: "After Ladislaus death and with Albrecht claiming most of Austria. We must now decide whether or not to take action and retake this land and reunite the Austrian lands once more."
+ bt_austrian_unification.700.a: "We need to force Albrecht to surrender Austria."
+ bt_austrian_unification.700.b: "We cannot afford a war right now."
+ 
+ bt_austrian_unification.701.t: "Siege of Vienna"
+ bt_austrian_unification.701.desc: "With our forces finally winning the Siege of Vienna, we can force Friedrich to give up this war."
+ bt_austrian_unification.701.a: "This is a reasonable peace."
+ bt_austrian_unification.701.b: "We must continue the war for a more favorable peace."
+ 
+ bt_austrian_unification.702.t: "Death of Albrecht"
+ bt_austrian_unification.702.desc: "Word has reached us that Albrecht has passed away. We are the primary benefactor of his death and will inherit most of his domains."
+ bt_austrian_unification.702.a: "We shall no longer have to deal with him."
+
+ bt_austrian_unification.3.t: "Maximilian is Born!"
+ bt_austrian_unification.3.desc: "Friedrich is ecstatic to learn that his wife has bore him a son."
+ bt_austrian_unification.3.a: "We shall name him Maximilian!"
+ BT_StyriagetsMaximilian_Tooltip: "With Ladislaus no longer our heir we have lost our chance to get a personal union over Hungary that way."
+ 
+ bt_austrian_unification.10.t: "Royal Marriage with Portugal"
+ bt_austrian_unification.10.desc: "Friedrich has yet to marry. This is causing tension as without a marriage, he cannot get a legal heir. The country of Portugal has been quite amicable to us and it has been proposed to marry Eleanor of Portugal."
+ bt_austrian_unification.10.a: "Eleanor will be a perfect Wife."
+ bt_austrian_unification.10.b: "We ought not to bind ourselves to Portugal."
+ 
+ bt_austrian_unification.39.t: "Death of Friedrich III"
+ bt_austrian_unification.39.desc: "With the Death of Friedrich III, Albrecht stands to inherit the throne of Inner Austria."
+ bt_austrian_unification.39.a: "Take the reign in Inner Austria"
+ bt_austrian_unification.39.desc: "We will remain in Further Austria"
+ 
+ bt_austrian_unification.4.t: "Lack of an heir"
+ bt_austrian_unification.4.desc: "Friedrich III has been struggling to produce and heir and as he is getting older it is worrying the nobles of our realm and also would mean that the crown of the HRE would fall outside of Habsburg influence. We should proclaim and heir, we could always go back on it if Fredrick III manages to produce on himself. If, we selected Ladislaus as our heir it would also serve to unite our Austrian Duchies and Hungary under one king."
+ bt_austrian_unification.4.opt: "A brilliant solution" 
+ BT_StyriaproclaimsLadislausheir_Tooltip: "If Frederick III dies you will get a personal union over Hungary and inherit Austria"
+ 
+ BT_StyrialosesLadislaus_Tooltip: "Austria Proper is under a personal union with Hungary, if there isn't a Habsburg on Hungary's throne we will inherit Austria."
+ 
+ bt_centralization_effort: "Centralisation Effort"
+ bt_fredricks_diplomats: "Fredrick's Diplomacy"
+ bt_au_cannot_get_heir_or_die: "Ignore this"
+ bt_au_cannot_get_heir: "Ignore this"
+ 
+ 
+ 

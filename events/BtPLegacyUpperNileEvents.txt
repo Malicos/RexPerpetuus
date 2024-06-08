@@ -123,9 +123,10 @@ country_event = {
 	option = { # Uh oh
 		name = "BtPLegacyUpperNileEvents.EVTOPTA2"
 		ai_chance = { factor = 95 }
-		every_province = {
-			limit = { owned_by = ALO }
-			add_claim = ABD
+		ALO = {
+			every_owned_province = {
+				add_claim = ABD
+			}
 		}
 		set_capital = 5285
 		2798 = {
@@ -237,14 +238,15 @@ country_event = {
 			name = "btpl_funj_militarisation"
 			duration = 7300
 		}
-		every_province = {
-			limit = {
-				OR = {
-					owned_by = ALO
-					owned_by = ABD
-				}
+		ALO = {
+			every_owned_province = {
+				add_claim = FNJ
 			}
-			add_claim = FNJ
+		}
+		ABD = {
+			every_owned_province = {
+				add_claim = FNJ
+			}
 		}
 		if = {
 			limit = { exists = ALO }

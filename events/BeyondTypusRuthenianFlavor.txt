@@ -1,0 +1,214 @@
+namespace = BeyondTypusRuthenianFlavour
+
+
+#Release Zaporizhie
+country_event = {
+	id = BeyondTypusRuthenianFlavour.1
+	title = "BeyondTypusRuthenianFlavour.EVTNAME1"
+	desc = "BeyondTypusRuthenianFlavour.EVTDESC1"
+	picture = COSSACK_ESTATE_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	option = { # Establish the Cossack Host of Zaporizhie
+		name = "BeyondTypusRuthenianFlavour.EVTOPTA1"
+		
+		hidden_effect = {
+			crimea_region = {
+				limit = {
+					owned_by = ROOT
+					religion = orthodox
+					#NOT = { culture = ruthenian }
+					NOT = {
+						area = crimea_area
+						area = azov_area
+					}
+				}
+				add_core = ZAZ
+				remove_core = ROOT 
+			}
+		}
+		if = {
+			limit = { NOT = { exists = ZAZ } }
+			release = ZAZ
+			hidden_effect = {
+				ZAZ = {
+					change_government = republic
+					add_government_reform = cossacks_reform
+					change_religion = orthodox
+					change_primary_culture = ruthenian
+					set_prestige_to_zero = yes
+					add_adm_power = 50
+					add_dip_power = 50
+					add_mil_power = 50
+				}
+			}
+		}
+		create_subject = {
+			who = ZAZ
+			subject_type = bt_cossack_host
+		}
+		ZAZ = {
+			custom_tooltip = ukr_claim_wild_fields_claims
+			hidden_effect = {
+				ukr_claim_wild_fields_provinces = {
+					#limit = {
+					#	NOT = { is_permanent_claim = ZAZ }
+					#	NOT = { is_core = ZAZ }
+					#}
+					add_permanent_claim = ZAZ
+				}
+			}
+		}
+	}
+	option = { # Refrain
+		name = "BeyondTypusRuthenianFlavour.EVTOPTB1"
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		give_permaclaims_for_mission = { mission=ukr_claim_wild_fields }
+	}
+}
+
+country_event = { #The Vodka Monopoly
+	id = BeyondTypusRuthenianFlavour.2
+	title = "BeyondTypusRuthenianFlavour.EVTNAME2"
+	desc = "BeyondTypusRuthenianFlavour.EVTDESC2"
+	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	option = { # Give it to the Boyars!
+		name = "BeyondTypusRuthenianFlavour.EVTOPTA2"
+		add_years_of_owned_provinces_production_income = {
+			custom_tooltip = MONOPOLY_INCOME_GRAIN_DESC
+			trigger = {
+				trade_goods = grain
+			}
+			years = 2
+		}
+		set_country_flag = estate_nobles_vodka_monopoly
+		set_estate_privilege = estate_nobles_monopoly_of_vodka
+	}
+	option = { # Give it to the Clergy!
+		name = "BeyondTypusRuthenianFlavour.EVTOPTB2"
+		add_years_of_owned_provinces_production_income = {
+			custom_tooltip = MONOPOLY_INCOME_GRAIN_DESC
+			trigger = {
+				trade_goods = grain
+			}
+			years = 2
+		}
+		set_country_flag = estate_church_vodka_monopoly
+		set_estate_privilege = estate_church_monopoly_of_vodka
+		
+	}
+	option = { # Give it to the Burghers!
+		name = "BeyondTypusRuthenianFlavour.EVTOPTC2"
+		add_years_of_owned_provinces_production_income = {
+			custom_tooltip = MONOPOLY_INCOME_GRAIN_DESC
+			trigger = {
+				trade_goods = grain
+			}
+			years = 2
+		}
+		set_country_flag = estate_burghers_vodka_monopoly
+		set_estate_privilege = estate_burghers_monopoly_of_vodka
+	}
+	option = { # Give it to the Cossacks!
+		name = "BeyondTypusRuthenianFlavour.EVTOPTD2"
+		add_years_of_owned_provinces_production_income = {
+			custom_tooltip = MONOPOLY_INCOME_GRAIN_DESC
+			trigger = {
+				trade_goods = grain
+			}
+			years = 2
+		}
+		set_country_flag = estate_cossacks_vodka_monopoly
+		set_estate_privilege = estate_cossacks_monopoly_of_vodka
+	}
+	option = { # Keep it for the State!
+		name = "BeyondTypusRuthenianFlavour.EVTOPTE2"
+		if = { #Gov reform is DLC-locked unfortunately.
+			limit = {
+				has_dlc = "Domination"
+			}
+			unlock_government_reform = {
+				government_reform = vodka_of_the_crown_reform
+			}
+			add_government_reform = vodka_of_the_crown_reform
+		}
+		custom_tooltip = rus_enable_vodka_sales_decision_tt #Decision is not Domination DLC-locked.
+		set_country_flag = rus_enable_vodka_sales_decision
+		add_years_of_owned_provinces_production_income = {
+			custom_tooltip = MONOPOLY_INCOME_GRAIN_DESC
+			trigger = {
+				trade_goods = grain
+			}
+			years = 4
+		}
+	}
+}
+
+country_event = { #A Son of Rurik
+	id = BeyondTypusRuthenianFlavour.3
+	title = "BeyondTypusRuthenianFlavour.EVTNAME3"
+	desc = "BeyondTypusRuthenianFlavour.EVTDESC3"
+	picture = COSSACK_ESTATE_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		if = {
+			limit = {
+				valid_for_personal_unions_trigger = yes
+				event_target:rurik_country = {
+					ai = yes
+					NOT = { total_development = 200 } #Is small
+					valid_for_personal_unions_trigger = yes
+				}
+			}
+			hidden_effect = {
+				create_interregnum_effect = yes
+			}
+			create_union = event_target:rurik_country
+		}
+		else = {
+			hidden_effect = {
+				create_interregnum_effect = yes
+			}
+			define_ruler = {
+				dynasty = event_target:rurik_country
+				culture = event_target:rurik_country
+				religion = event_target:rurik_country
+				change_adm = 2
+				change_dip = 2
+				change_mil = 2
+			}
+		}
+		event_target:rurik_country = {
+			add_trust = {
+				who = ROOT
+				value = 10
+				mutual = yes
+			}
+			add_favors = {
+			   who = ROOT
+			   amount = 10
+			}
+		}
+	}
+	
+	after = {
+		clear_global_event_target = rurik_country
+	}
+}

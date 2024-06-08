@@ -1,5 +1,5 @@
 country_decisions = {
-
+	#This one needs a thunker: Burma is for the Taungoo whatnot a namechange.
 	burma_nation = {
 		major = yes
 		potential = {
@@ -44,12 +44,10 @@ country_decisions = {
 			owns_core_province = 587 #Tseng Tung
 			owns_core_province = 586 #Hongsawatoi
 			owns_core_province = 591 #Thawai
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					region = burma_region
-				}
-				amount = 35			#At least 2/3rds of Burma's 52 provinces.
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = burma_region
+				value = 35			#At least 2/3rds of Burma's 52 provinces.
 			}
 			total_development = 250 #Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
 			prestige = 25 #Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted			

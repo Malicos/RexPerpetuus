@@ -233,39 +233,39 @@ bt_wettin_realms = {
 		senior_union_with = MEI
 		senior_union_with = THU
 	}
-	diplomatic_upkeep = 2 
+	#diplomatic_upkeep = 2 `Removed because of strong duchies reform. Strong duchies added to history files
 	reduced_liberty_desire = 40
 }
 
 ###########################################
 # Kurdish Overlord Balancing
 ###########################################
-bt_kurdish_overlords = {
-	potential = {
-		is_subject = no
-		OR = {
-			religion = sunni
-			religion = shiite
-		}
-		any_country = {
-				primary_culture = kurdish
-				OR = {
-					is_subject_of = ROOT
-					guaranteed_by = ROOT
-				}
-			}
-	}
-	trigger = {
-		calc_true_if = {
-			all_country = {
-				primary_culture = kurdish
-				OR = {
-					is_subject_of = ROOT
-					guaranteed_by = ROOT
-				}
-			}
-			amount = 3
-		}
-	}
-	diplomatic_upkeep = 2
-}
+# bt_kurdish_overlords = { #BT Deleting: Tribs don't cost diplo slots. It was pretty laggy. //Dub
+	# potential = {
+		# is_subject = no
+		# OR = {
+			# religion = sunni
+			# religion = shiite
+		# }
+		# any_known_country = {
+			# primary_culture = kurdish
+			# OR = {
+				# is_subject_of = ROOT
+				# guaranteed_by = ROOT
+			# }
+		# }
+	# }
+	# trigger = {
+		# calc_true_if = {
+			# all_known_country = {
+				# primary_culture = kurdish
+				# OR = {
+					# is_subject_of = ROOT
+					# guaranteed_by = ROOT
+				# }
+			# }
+			# amount = 3
+		# }
+	# }
+	# diplomatic_upkeep = 2
+# }

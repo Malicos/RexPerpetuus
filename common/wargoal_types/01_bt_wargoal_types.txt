@@ -27,3 +27,31 @@ bt_tribal_reconquest_wargoal = {
 	
 	war_name = bt_tribal_reconquest_war_name	
 }
+
+bt_danzig_revolt_wargoal = {
+	type = take_capital
+	
+	attacker = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+
+		peace_options = {
+			po_demand_provinces
+			po_revoke_cores
+		}
+	}
+	
+	defender = {
+		badboy_factor = 0.5
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+
+		peace_options = {
+			po_demand_provinces
+			po_revoke_cores
+		}
+	}
+	
+	war_name = bt_danzig_revolt_war_name	
+}

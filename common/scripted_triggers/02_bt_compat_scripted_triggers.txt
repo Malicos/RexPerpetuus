@@ -1,0 +1,57 @@
+#This file has been created to allow mod addon authors to inject specific code into BT's files without having to alter an entire file.
+#By creating a file that injects these particular scripted triggers, while the filename precedes this one alphabetically,
+#addon mod authors can ensure compatibility between one another by not having to modify the core file, and can selectively alter scripted triggers within this file.
+#Should something in the BT mod proper be moved to this file, please notify the mod authors and it can be done.
+#//Dub
+
+bt_compat_btip_swe_swedish_peasantry_provinces_to_highlight_trigger = { #Used in swe_swedish_peasantry mission provinces_to_highlight scope
+	owned_by = ROOT
+	OR = {
+		trade_goods = grain
+		trade_goods = livestock
+		trade_goods = fish
+	}
+	if = {
+		limit = {
+			ROOT = { NOT = { has_country_flag = had_the_dacke_feud } }
+		}
+		OR = {
+			NOT = { development = 10 }
+			NOT = { has_manufactory_trigger = yes }
+		}
+	}
+	else = {
+		NOT = { has_manufactory_trigger = yes }
+	}
+}
+
+bt_compat_swe_btip_swedish_peasantry_trigger_trigger = {
+	stability = 2
+	has_any_disaster = no
+	NOT = { has_spawned_rebels = particularist_rebels }
+	NOT = { has_spawned_rebels = anti_tax_rebels }
+	num_of_owned_provinces_with = {
+		OR = {
+			trade_goods = grain
+			trade_goods = livestock
+			trade_goods = fish
+		}
+		has_manufactory_trigger = yes
+		value = 10
+	}
+	OR = {
+		custom_trigger_tooltip = {
+			tooltip = swe_swedish_peasantry_ct
+			has_country_flag = had_the_dacke_feud
+		}
+		num_of_owned_provinces_with = {
+			OR = {
+				trade_goods = grain
+				trade_goods = livestock
+				trade_goods = fish
+			}
+			development = 10
+			value = 10
+		}
+	}
+}

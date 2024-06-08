@@ -1,0 +1,10 @@
+defined_text = { #Because I initially thought I could refer to the Strategoi as [estate_strategoi.GetName], which simply is not possible.
+    name = GetPeasantsName
+
+	text = { #Because there is currently no specific peasants name
+        localisation_key = estate_peasants
+        trigger = {
+			always = yes
+        }
+    }
+}

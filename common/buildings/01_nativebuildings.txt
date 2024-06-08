@@ -30,11 +30,16 @@ native_earthwork = {
 	}
 	modifier = {
 		local_defensiveness = 0.25
+		local_hostile_movement_speed = -0.25 
 	}
 	government_specific = yes
 
 	ai_will_do = {
 		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { owner = { government = native } }
+		}
 		modifier = {
 			factor = 2.0
 			is_capital = yes
@@ -62,6 +67,10 @@ native_palisade = {
 	ai_will_do = {
 		factor = 100
 		modifier = {
+			factor = 0
+			NOT = { owner = { government = native } }
+		}
+		modifier = {
 			factor = 2.0
 			is_capital = yes
 		}
@@ -78,13 +87,17 @@ native_fortified_house = {
 		owner = { government = native }
 	}
 	modifier = {
-		land_forcelimit = 10
+		land_forcelimit = 5
 	}
 	one_per_country = yes
 	government_specific = yes
 
 	ai_will_do = {
 		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { owner = { government = native } }
+		}
 		modifier = {
 			factor = 2.0
 			is_capital = yes
@@ -113,6 +126,10 @@ native_ceremonial_fire_pit = {
 	ai_will_do = {
 		factor = 100
 		modifier = {
+			factor = 0
+			NOT = { owner = { government = native } }
+		}
+		modifier = {
 			factor = 2.0
 			is_capital = yes
 		}
@@ -129,12 +146,16 @@ native_irrigation = {
 		owner = { government = native }
 	}
 	modifier = {
-		tribal_development_growth = 0.02
+		tribal_development_growth = 0.01
 	}
 	government_specific = yes
 
 	ai_will_do = {
 		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { owner = { government = native } }
+		}
 		modifier = {
 			factor = 2.0
 			is_capital = yes
@@ -159,6 +180,10 @@ native_storehouse = {
 	ai_will_do = {
 		factor = 100
 		modifier = {
+			factor = 0
+			NOT = { owner = { government = native } }
+		}
+		modifier = {
 			factor = 2.0
 			is_capital = yes
 		}
@@ -176,11 +201,16 @@ native_longhouse = {
 	}
 	modifier = {
 		monthly_reform_progress_building = 0.1
+		local_governing_cost = -0.25
 	}
 	government_specific = yes
 
 	ai_will_do = {
 		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { owner = { government = native } }
+		}
 		modifier = {
 			factor = 2.0
 			is_capital = yes
@@ -206,6 +236,10 @@ native_sweat_lodge = {
 	ai_will_do = {
 		factor = 100
 		modifier = {
+			factor = 0
+			NOT = { owner = { government = native } }
+		}
+		modifier = {
 			factor = 2.0
 			is_capital = yes
 		}
@@ -230,6 +264,10 @@ native_great_trail = {
 	ai_will_do = {
 		factor = 100
 		modifier = {
+			factor = 0
+			NOT = { owner = { government = native } }
+		}
+		modifier = {
 			factor = 2.0
 			is_capital = yes
 		}
@@ -253,6 +291,10 @@ native_three_sisters_field = {
 
 	ai_will_do = {
 		factor = 100
+		modifier = {
+			factor = 0
+			NOT = { owner = { government = native } }
+		}
 		modifier = {
 			factor = 2.0
 			is_capital = yes

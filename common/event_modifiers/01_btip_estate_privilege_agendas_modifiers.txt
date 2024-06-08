@@ -1,0 +1,11 @@
+estate_peasants_mining_privileges_mod = {
+	trade_goods_size_modifier = 0.25
+}
+
+estate_peasants_monopoly_of_agriculture_mod = {
+	local_production_efficiency = -10
+}
+
+btip_peasants_rallying = {
+	land_morale = 0.1
+}

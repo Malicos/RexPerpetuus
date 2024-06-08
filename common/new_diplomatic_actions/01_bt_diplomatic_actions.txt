@@ -1,5 +1,5 @@
 
-#Apparently AI won't use these.... that kinda stinks. Ah well.
+#Apparently AI won't use these.... that kinda stinks. Ah well. #THEY DO NOW #HARB
 
 bt_enforce_temporal_authority_action = {
 

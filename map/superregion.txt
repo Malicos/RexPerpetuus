@@ -10,17 +10,15 @@ europe_superregion = {
 
 	restrict_charter		# harder to get TC here.
 	
-	neustria_region
-	austrasia_region
-	aquitaine_region
-	burgundy_region
+	france_region
+	low_countries_region
 	iberia_region
 	italy_region
 	ireland_region # Brian; changed from _area
 	british_isles_region
-	nordurica_region
-	allemania_region
-	germania_region
+	scandinavia_region
+	south_german_region
+	north_german_region
 }
 eastern_europe_superregion = {
 
@@ -33,7 +31,6 @@ eastern_europe_superregion = {
 	russia_region
 	ural_region
 	balkan_region
-	illyria_region
 	carpathia_region
 }
 near_east_superregion = {
@@ -134,6 +131,9 @@ andes_superregion = {
 }
 oceania_superregion = {
 	australia_region
+	northeastern_australia_region #BT
+	northern_australia_region #BT
+	western_australia_region #BT
 	new_zealand_region
 	oceanea_region
 }

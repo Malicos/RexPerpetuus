@@ -133,19 +133,19 @@ country_event = { # declaration of Jan IV
         #stability
         modifier = { # Poland good
             factor = 0.8
-            POL = { stability  = 60 }
+            POL = { stability  = 2 }
         }
         modifier = { # Poland bad
             factor = 1.5
-            POL = { NOT = { stability  = 30 } }
+            POL = { NOT = { stability  = 1 } }
         }
         modifier = { # Bohemia good
             factor = 1.5
-            BOH = { stability  = 50 }
+            BOH = { stability  = 2 }
         }
         modifier = { # Bohemia bad
             factor = 0.8
-            BOH = { NOT = { stability  = 0 } }
+            BOH = { NOT = { stability  = 1 } }
         }
 
         #opinion
@@ -413,19 +413,19 @@ country_event = { # declaration of Jan IV
         #stability
         modifier = { # Commonwealth good
             factor = 0.8
-            PLC = { stability  = 60 }
+            PLC = { stability  = 2 }
         }
         modifier = { # Commonwealth bad
             factor = 1.5
-            PLC = { NOT = { stability  = 30 } }
+            PLC = { NOT = { stability  = 1 } }
         }
         modifier = { # Bohemia good
             factor = 1.5
-            BOH = { stability  = 50 }
+            BOH = { stability  = 2 }
         }
         modifier = { # Bohemia bad
             factor = 0.8
-            BOH = { NOT = { stability  = 0 } }
+            BOH = { NOT = { stability  = 1 } }
         }
 
         #opinion

@@ -32,15 +32,13 @@ country_decisions = {
 			owns_core_province = 2390 #Chaiya
 			owns_core_province = 601 #Sukhothai
 			owns_core_province = 614 #Viangchan
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					OR = {
-						region = indo_china_region
-						area = north_tenasserim_area
-					}
+			num_of_owned_provinces_with  = {
+				is_core = ROOT
+				OR = {
+					region = indo_china_region
+					area = north_tenasserim_area
 				}
-				amount = 51			#At least half of Indochina's 97 provinces & North Tenasserim's 4 provinces. Out of these, 76 provinces were historically under Khmer Empire influence.
+				value = 51			#At least half of Indochina's 97 provinces & North Tenasserim's 4 provinces. Out of these, 76 provinces were historically under Khmer Empire influence.
 			}
 			total_development = 500 #Normal requirement for rank 3 is 2000 dev, so this is 75 percent discounted
 			prestige = 50 #Normal requirement for rank 3 is 75 prestige, so this is 33 percent discounted

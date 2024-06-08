@@ -1,4 +1,5 @@
 namespace = bt_ayyubid_mission_events
+namespace = bt_bulgarian_mission_events
 
 country_event = { #1 The Jewish of Jerusalem
 	id = bt_ayyubid_mission_events.1
@@ -187,5 +188,242 @@ country_event = { #2 The Eagle's Perch
 			}
 			move_capital_effect = yes
 		}
+	}
+}
+
+country_event = { #1 United Principalities of Romania
+	id = bt_bulgarian_mission_events.1
+	title = "bt_bulgarian_mission_events.1.t" 
+	desc = "bt_bulgarian_mission_events.1.d"
+	picture = GOOD_WITH_MONARCH_eventPicture
+	
+	#major = yes
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = BUL
+	}
+	
+	option = { #Unite the Romanian Principalities
+		name = "bt_bulgarian_mission_events.1.a"
+		if = {
+			limit = {
+				OR = {
+					exists = WAL
+					exists = MOL
+					exists = TRA
+				}
+				OR = {
+					TRA = { is_subject_of = ROOT }
+					MOL = { is_subject_of = ROOT }
+					WAL = { is_subject_of = ROOT }
+				}
+			}
+			if = {
+				limit = {
+					exists = TRA
+					TRA = { is_subject_of = ROOT }
+				}
+				TRA = {
+					if = {
+						limit = {
+							exists = WAL
+							WAL = { is_subject_of = ROOT }
+						}
+						inherit = WAL
+					}
+					else = {
+						wallachia_area = {
+							add_core = TRA
+							cede_province = TRA
+						}
+						upper_muntenia_area = {
+							add_core = TRA
+							cede_province = TRA
+						}
+						oltenia_area = {
+							add_core = TRA
+							cede_province = TRA
+						}
+					}
+					if = {
+						limit = {
+							exists = MOL
+							MOL = { is_subject_of = ROOT }
+						}
+						inherit = MOL
+					}
+					else = {
+						moldavia_area = {
+							add_core = TRA
+							cede_province = TRA
+						}
+						western_moldovia_area = {
+							add_core = TRA
+							cede_province = TRA
+						}
+						bukovina_area = {
+							add_core = TRA
+							cede_province = TRA
+						}
+					}
+					change_tag = RMN
+					swap_ideas = yes
+				}
+			}
+			else_if = {
+				limit = {
+					exists = MOL
+					MOL = { is_subject_of = ROOT }
+				}
+				MOL = {
+					if = {
+						limit = {
+							exists = WAL
+							WAL = { is_subject_of = ROOT }
+						}
+						inherit = WAL
+					}
+					else = {
+						wallachia_area = {
+							add_core = MOL
+							cede_province = MOL
+						}
+						upper_muntenia_area = {
+							add_core = MOL
+							cede_province = MOL
+						}
+						oltenia_area = {
+							add_core = MOL
+							cede_province = MOL
+						}
+					}
+					if = {
+						limit = {
+							exists = TRA
+							TRA = { is_subject_of = ROOT }
+						}
+						inherit = TRA
+					}
+					else = {
+						transylvania_area = {
+							add_core = MOL
+							cede_province = MOL
+						}
+						southern_transylvania_area = {
+							add_core = MOL
+							cede_province = MOL
+						}
+					}
+					change_tag = RMN
+					swap_ideas = yes
+				}
+			}
+			else = {
+				WAL = {
+					if = {
+						limit = {
+							exists = MOL
+							MOL = { is_subject_of = ROOT }
+						}
+						inherit = MOL
+					}
+					else = {
+						moldavia_area = {
+							add_core = WAL
+							cede_province = WAL
+						}
+						western_moldovia_area = {
+							add_core = WAL
+							cede_province = WAL
+						}
+						bukovina_area = {
+							add_core = WAL
+							cede_province = WAL
+						}
+					}
+					if = {
+						limit = {
+							exists = TRA
+							TRA = { is_subject_of = ROOT }
+						}
+						inherit = TRA
+					}
+					else = {
+						transylvania_area = {
+							add_core = WAL
+							cede_province = WAL
+						}
+						southern_transylvania_area = {
+							add_core = WAL
+							cede_province = WAL
+						}
+					}
+					change_tag = RMN
+					swap_ideas = yes
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				wallachia_area = {
+					add_core = RMN
+				}
+				upper_muntenia_area = {
+					add_core = RMN
+				}
+				oltenia_area = {
+					add_core = RMN
+				}
+				moldavia_area = {
+					add_core = RMN
+				}
+				western_moldovia_area = {
+					add_core = RMN
+				}
+				bukovina_area = {
+					add_core = RMN
+				}
+				transylvania_area = {
+					add_core = RMN
+				}
+				southern_transylvania_area = {
+					add_core = RMN
+				}
+			}
+			release = RMN
+			vassalize = RMN
+			RMN = { add_liberty_desire = -50 }
+			hidden_effect = {
+				RMN = {
+					change_government = monarchy
+					add_government_reform = feudalism_reform
+					change_religion = ROOT
+					change_primary_culture = romanian
+					set_prestige_to_zero = yes
+					add_adm_power = 50
+					add_dip_power = 50
+					add_mil_power = 50
+				}
+			}
+		}
+		custom_tooltip = give_200_dev_points_effect
+		hidden_effect = {
+			give_dev_points_effect = { dev = 200 }
+		}
+	}
+	
+	option = { #No.
+		name = "bt_bulgarian_mission_events.1.b"
+		add_accepted_culture_or_dip_power = {
+			culture = romanian
+			dip_reward = yes
+		}
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
 	}
 }

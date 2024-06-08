@@ -10,6 +10,17 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				if = {
+					limit = {
+						overlord = {
+							has_country_flag = feo_russian_cooperation_flag
+						}
+					}
+					always = yes
+				}
+				ai = no
+			}
 			NOT = { tag = POL }
 			NOT = { tag = RUS }
 			OR = {
@@ -22,6 +33,9 @@ country_decisions = {
 				primary_culture = russian
 				primary_culture = novgorodian
 				primary_culture = ryazanian
+				primary_culture = russian_new
+				primary_culture = novgorodian_new
+				primary_culture = ryazanian_new
 			}
 			OR = {
 				ai = no
@@ -77,7 +91,17 @@ country_decisions = {
 			NOT = { exists = RUS }
 			#adm_tech = 10 # BT removed
 			NOT = { has_reform = states_general_reform }
-			is_free_or_tributary_trigger = yes
+			if = {
+				limit = {
+					overlord = {
+						has_country_flag = feo_russian_cooperation_flag
+					}
+				}
+				always = yes
+			}
+			else = {
+				is_free_or_tributary_trigger = yes
+			}
 			is_nomad = no
 			is_at_war = no
 			owns_core_province = 295			# Moskva
@@ -106,20 +130,25 @@ country_decisions = {
 				}
 			}
 			change_tag = RUS
+			on_change_tag_effect = yes
+			restore_country_name = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
-				limit = {
-					NOT = { government = monarchy }
-					is_revolutionary = no
+				limit = { is_revolutionary = no }
+				if = {
+					limit = { government = republic }
+					add_government_reform = great_veche_republic
 				}
-				change_government_to_monarchy = yes
+				else = {
+					if = {
+						limit = { NOT = { government = monarchy } }
+						change_government = monarchy
+					}
+					add_government_reform = tsardom
+				}
 			}
 			RUS = { set_government_rank = 3 }
-			if = {
-				limit = { is_revolutionary = no }
-				add_government_reform = tsardom
-			}
 			russia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -152,10 +181,34 @@ country_decisions = {
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			set_country_flag = formed_russia_flag
+			set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.
 			add_prestige = 25
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { tag = MOS }
+				NOT = {
+					calc_true_if = {
+						owns_core_province = 295			# Moskva
+						owns_core_province = 310			# Novgorod
+						OR = {
+							owns_core_province = 294		# Tver
+							owns_core_province = 308		# Yaroslavl	
+						}
+						OR = {
+							owns_core_province = 301		# Ryazan
+							owns_core_province = 293		# Smolensk
+						}
+						OR = {
+							owns_core_province = 306		# Nijni-Novgorod
+							owns_core_province = 307		# Vladimir	
+						}
+						amount = 2
+					}
+				}
+			}
 		}
 		ai_importance = 400
 	}

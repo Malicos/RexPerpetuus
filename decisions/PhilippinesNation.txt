@@ -27,15 +27,13 @@ country_decisions = {
 			owns_core_province = 4352 #Cebu
 			owns_core_province = 652 #Maguindanao
 			owns_core_province = 656 #Manila
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					OR = {
-						region = philippines_region
-						area = palawan_area
-					}
+			num_of_owned_provinces_with  = {
+				is_core = ROOT
+				OR = {
+					region = philippines_region
+					area = palawan_area
 				}
-				amount = 14			#At least a third of Philippines's + Palawan's 34 and 5 provinces respectively. 16 + 1 provinces are uncolonised in 1444 and 6 are in Taiwan, meaning this is in practice 2/3rds the required colonised provinces.
+				value = 14			#At least a third of Philippines's + Palawan's 34 and 5 provinces respectively. 16 + 1 provinces are uncolonised in 1444 and 6 are in Taiwan, meaning this is in practice 2/3rds the required colonised provinces.
 			}
 			total_development = 100 #Normal requirement for rank 2 is 500 dev, so this is 80 percent discounted (Uncolonised dev of Philippines region is 98, hence the low number)
 			prestige = 25 #Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted

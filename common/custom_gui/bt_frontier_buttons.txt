@@ -1,0 +1,191 @@
+custom_button = { #For USA (USA)
+	name = manifest_destiny_button #Must match a scripted guiButtonType in a .gui file
+	
+	potential = { 
+		FROM = { has_government_attribute = bt_manifest_destiny_mechanic }
+	}
+	
+	trigger = {
+		FROM = { has_government_attribute = bt_manifest_destiny_mechanic }
+		dip_power = 20
+	} 
+	effect = {
+		add_siberian_construction = 5
+		set_province_flag = bt_is_frontier_province
+	}
+	tooltip = manifest_destiny_loc #Can use customizable localisation
+	
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_province_flag = bt_is_frontier_province }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_province_flag = bt_is_frontier_province
+		}
+	}
+}
+
+custom_button = { #For Brazil (BRZ)
+	name = bandeirantes_button #Must match a scripted guiButtonType in a .gui file
+	
+	potential = { 
+		FROM = { has_government_attribute = bt_bandeirantes_mechanic }
+	}
+	
+	trigger = {
+		FROM = { has_government_attribute = bt_bandeirantes_mechanic }
+		dip_power = 20
+	} 
+	effect = {
+		add_siberian_construction = 5
+		set_province_flag = bt_is_frontier_province
+	}
+	tooltip = manifest_destiny_loc #Can use customizable localisation
+	
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_province_flag = bt_is_frontier_province }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_province_flag = bt_is_frontier_province
+		}
+	}
+}
+
+custom_button = { #For Chile (CHL) & La Plata (LAP)
+	name = conquest_of_the_desert_button #Must match a scripted guiButtonType in a .gui file
+	
+	potential = {
+		FROM = {
+			has_government_attribute = bt_conquest_of_the_desert_mechanic
+		}
+	}
+	
+	trigger = {
+		FROM = {
+			has_government_attribute = bt_conquest_of_the_desert_mechanic
+		}
+		dip_power = 20
+	} 
+	effect = {
+		add_siberian_construction = 5
+		set_province_flag = bt_is_frontier_province
+	}
+	tooltip = conquest_of_the_desert_loc #Can use customizable localisation
+	
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_province_flag = bt_is_frontier_province }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_province_flag = bt_is_frontier_province
+		}
+	}
+}
+
+custom_button = { #For Australia (AUS)
+	name = aghan_cameleers_button #Must match a scripted guiButtonType in a .gui file
+	
+	potential = { 
+		FROM = { has_government_attribute = bt_aghan_cameleers_mechanic }
+	}
+	
+	trigger = {
+		FROM = { has_government_attribute = bt_aghan_cameleers_mechanic }
+		dip_power = 20
+	} 
+	effect = {
+		add_siberian_construction = 5
+		set_province_flag = bt_is_frontier_province
+	}
+	tooltip = manifest_destiny_loc #Can use customizable localisation
+	
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_province_flag = bt_is_frontier_province }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_province_flag = bt_is_frontier_province
+		}
+	}
+}
+
+custom_button = { #Generic Nomad
+	name = nomad_frontier_button #Must match a scripted guiButtonType in a .gui file
+	
+	potential = { 
+		FROM = { has_government_attribute = bt_nomad_frontier_mechanic }
+	}
+	
+	trigger = {
+		FROM = { has_government_attribute = bt_nomad_frontier_mechanic }
+		dip_power = 20
+	} 
+	effect = {
+		add_siberian_construction = 5
+		set_province_flag = bt_is_frontier_province
+	}
+	tooltip = manifest_destiny_loc #Can use customizable localisation
+	
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_province_flag = bt_is_frontier_province }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_province_flag = bt_is_frontier_province
+		}
+	}
+}
+
+custom_button = { #Generic Tribal
+	name = settle_tribal_land_button #Must match a scripted guiButtonType in a .gui file
+	
+	potential = { 
+		tribal_land_of = FROM
+	}
+	
+	trigger = {
+		FROM = {
+			has_government_attribute = bt_can_settle_tribal_land
+		}
+		dip_power = 20
+	} 
+	effect = {
+		add_siberian_construction = 5
+		set_province_flag = bt_is_frontier_province
+	}
+	tooltip = settle_tribal_land_loc #Can use customizable localisation
+	
+	frame = { #Not clicked
+		number = 1 
+		trigger = { 
+			NOT = { has_province_flag = bt_is_frontier_province }
+		}
+	}
+	frame = { #Clicked
+		number = 2 
+		trigger = {
+			has_province_flag = bt_is_frontier_province
+		}
+	}
+}

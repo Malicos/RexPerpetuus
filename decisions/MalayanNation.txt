@@ -31,39 +31,32 @@ country_decisions = {
 			owns = 594 #Patani
 			owns = 622 #Palembang
 			owns = 636 #Brunei
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					region = malaya_region
-				}
-				amount = 18			#At least 2/3 of Malaya's 29 provinces. One is uncolonised, but it shouldn't matter too much.
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = malaya_region
+				value = 18			#At least 2/3 of Malaya's 29 provinces. One is uncolonised, but it shouldn't matter too much.
 			}
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					region = borneo_region
-				}
-				amount = 20			#At least half of Borneo's 41 provinces. Lower because 5 provinces start uncolonised and disconnected from the rest of the regions.
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = borneo_region
+				value = 20			#At least half of Borneo's 41 provinces. Lower because 5 provinces start uncolonised and disconnected from the rest of the regions.
 			}
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					region = sumatran_region
-				}
-				amount = 20			#At least half of Sumatra's 39 provinces. Lower because 9 provinces start uncolonised.
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = sumatran_region
+				value = 20			#At least half of Sumatra's 39 provinces. Lower because 9 provinces start uncolonised.
 			}
-			calc_true_if = {
-				all_owned_province = {
-					is_core = ROOT
-					region = indonesia_region
-				}
-				amount = 14			#At least 2/3 of Java's 22 provinces. Majapahit fulfills this at game start.
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = indonesia_region
+				value = 14			#At least 2/3 of Java's 22 provinces. Majapahit fulfills this at game start.
 			}
 			total_development = 1000 #Normal requirement for rank 3 is 200 dev, so this is 50 percent discounted
 			prestige = 50 #Normal requirement for rank 3 is 75 prestige, so this is 33 percent discounted
 		}
 		effect = {
 			change_tag = MSA
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -99,11 +92,18 @@ country_decisions = {
 				}
 				add_permanent_claim = MSA
 			}
+			country_event = { #Vanilla has this. Adding just in case. //Dub
+				id = flavor_mlc.9
+			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 3650
 			}
 			set_country_flag = formed_malaya_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				swap_ideas = yes
+			}
 			add_prestige = 25
 		}
 		ai_will_do = {

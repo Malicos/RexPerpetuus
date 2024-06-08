@@ -70,6 +70,11 @@ bt_trade_good_fruit = {
 	}
 	chance = {
 		factor = 20
+		# BT16 Seven Cities rework addition
+		modifier = {
+			factor = 300
+			has_province_modifier = sce_quivira
+		}
 		modifier = {
 			factor = 0
 			is_random_new_world = no
@@ -228,6 +233,256 @@ bt_trade_good_apiculture = {
 		modifier = {
 			factor = 0
 			area = newfoundland_area
+		}
+	}
+}
+
+bt_trade_good_silver = {
+	color = { 0.69 0.91 0.99 }
+	modifier = {
+		
+	}
+	province = {
+		trade_goods_size_modifier = -0.5
+		local_gold_depletion_chance_modifier = -0.5
+	}
+	chance = {
+		factor = 6
+		# BT16 Seven Cities rework addition
+		modifier = {
+			factor = 150
+			has_province_modifier = sce_sierradelaplata_quartz
+		}
+		modifier = {
+			factor = 0
+			is_random_new_world = no
+			NOT = { region = west_siberia_region }
+			NOT = { region = east_siberia_region }
+			NOT = { region = cascadia_region }
+			NOT = { region = australia_region }
+			NOT = { region = western_australia_region }
+			NOT = { region = northeastern_australia_region }
+			NOT = { region = northern_australia_region }
+			NOT = { region = california_region }
+			#NOT = { region = south_africa_region }
+			NOT = { area = highveld_area }
+			NOT = { area = transvaal_area }
+			NOT = { area = lowveld_area }
+			NOT = { area = south_african_plateau_area }
+			NOT = { area = orange_river_area }
+			NOT = { region = central_africa_region }
+			NOT = { region = peru_region }
+			NOT = { region = upper_peru_region }
+			NOT = { region = mexico_region }
+			NOT = { region = central_america_region }
+			NOT = { area = goias_area }
+			NOT = { area = pontal_area }
+			NOT = { area = mato_grosso_area }
+			NOT = { area = ofaie_area }
+			NOT = { area = minas_gerais_area }
+			NOT = { area = diamantina_area }
+			NOT = { area = guapore_area }
+			NOT = { area = grao_para_area }
+			NOT = { area = amapa_area }
+			NOT = { area = ucayali_area }
+			NOT = { area = amazon_area }
+			NOT = { region = alaska_region }
+			NOT = { region = northwest_territories_region }
+			NOT = { region = new_zealand_region }
+			NOT = { area = hispaniola_area }
+			#NOT = { area = west_hispaniola_area }
+			NOT = { area = dominica_area }
+			NOT = {
+				owner = {
+					AND = {
+						technology_group = aboriginal_tech	#Don't want unreformed aboriginals getting metals
+						primitives = no
+					}	
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_random_new_world = yes
+			NOT = { continent = new_world }
+			NOT = { region = west_siberia_region }
+			NOT = { region = east_siberia_region }
+			NOT = { region = australia_region }
+			NOT = { region = western_australia_region }
+			NOT = { region = northeastern_australia_region }
+			NOT = { region = northern_australia_region }
+			NOT = { region = south_africa_region }
+			NOT = { region = central_africa_region }
+		}
+		modifier = {
+			factor = 0
+			is_random_new_world = yes
+			continent = new_world
+			OR = {
+				has_terrain = forest
+				has_terrain = woods
+				has_terrain = drylands
+				has_terrain = grasslands
+				has_terrain = savannah
+				has_terrain = steppe
+				has_terrain = jungle
+				has_terrain = coastline
+				has_terrain = coastal_desert
+				has_terrain = marsh
+			}
+		}
+		modifier = {
+			factor = 1.5
+			is_random_new_world = yes
+			has_terrain = mountain
+			continent = new_world #Always in RNW
+		}
+		modifier = {
+			factor = 2
+			FROM = {
+				OR = {
+					has_country_flag = por_bandeirantes_flag
+					colonial_parent = { has_country_flag = por_bandeirantes_flag }
+				}
+			}
+		}
+		modifier = { #too much gold in Glacial areas due to few other options
+			factor = 0.5
+			has_terrain = glacier
+		}
+		modifier = { #A few terrain modifers
+			factor = 1.2
+			OR = {
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = highlands
+			}
+		}
+		modifier = { #A few terrain modifers
+			factor = 0.5
+			OR = {
+				has_terrain = steppe
+				has_terrain = drylands
+				has_terrain = grasslands
+				has_terrain = savannah
+				has_terrain = coastline
+				has_terrain = farmlands
+				has_terrain = marsh
+			}
+		}
+		modifier = {
+			factor = 1.5
+			normal_or_historical_nations = no
+		}
+		modifier = {	#Gold is abundant here
+			factor = 4.0
+			OR = {
+				region = peru_region
+				area = minas_gerais_area
+				area = diamantina_area
+				area = mato_grosso_area
+				area = ofaie_area
+				area = goias_area
+				area = pontal_area
+				area = mexico_area
+				area = jalisco_area
+				area = gran_chichimeca_area
+				#area = high_desert_area
+				#area = stikine_area
+			}
+		}
+		modifier = {	#Gold is common here
+			factor = 2.5
+			OR = {
+				area = hispaniola_area			#Hispaniola has been described as 'one immense gold field', though ironically, the Spanish didn't find many of the deposits in the colonial period, and instead travelled further inland in search of often poorer gold mines
+				#area = west_hispaniola_area
+				area = dominica_area
+				area = sierra_nevada_area
+				area = murchison_area
+			}
+		}
+		modifier = {	#Gold is a bit more common here
+			factor = 1.5
+			OR = {
+				region = alaska_region
+				region = australia_region
+				region = northeastern_australia_region
+				region = western_australia_region
+				region = northern_australia_region
+			}
+		}
+		modifier = {	#Gold is a bit rarer here
+			factor = 0.5
+			OR = {
+				region = northwest_territories_region			#Chance was a bit too high in the NWT because of lack of other options
+				area = california_area			#Gold rarer in coastal California
+				area = baja_california_area
+				area = central_valley_area
+				area = sonora_y_sinaloa_area
+				area = great_victoria_desert_area
+				area = deep_outback_area
+			}
+		}
+		modifier = {	#Gold is rarer here
+			factor = 0.25
+			OR = {
+				AND = {
+					region = cascadia_region
+					NOT = {
+						OR = {
+							area = southern_cascades_area			#Gold is rare in Cascadia, but more common in Oregon
+							area = oregon_area
+						}
+					}
+				}
+			}
+		}
+		modifier = {	#Specific province bonuses
+			factor = 8.0
+			OR = {
+				province_id = 4937		# Klondike
+				province_id = 1109		# Otago
+				province_id = 5599		# Westland (NZ)
+			}
+		}
+		modifier = {	#Specific province bonuses
+			factor = 4.0
+			OR = {
+				province_id = 4925		# Nome or Chinik
+				province_id = 4934		# Han Hwichin
+				province_id = 2480		# Shasta
+				province_id = 4967		# Nevada (east)
+				province_id = 5597		# Tahuna (Central Otago NZ)
+				province_id = 5608		# Cormorandel Peninsula (NZ)
+			}
+		}
+		modifier = {	#Specific province bonuses
+			factor = 2.0
+			OR = {
+				province_id = 858		# Tamaulipas
+				province_id = 2738		# Nelson (NZ)
+				province_id = 4926		# Kenai
+				province_id = 4956		# Klamath A
+				province_id = 4958		# Klamath B
+				province_id = 5078		# NWT
+				province_id = 5079		# NWT
+				province_id = 5601		# Westland (NZ)
+				province_id = 5603		# Westland (NZ)
+			}
+		}
+		modifier = {	#Specific province bonuses
+			factor = 0.25
+			OR = {
+				province_id = 4972		# Tahltan
+				province_id = 4977		# Teechik
+			}
+		}
+		modifier = {	#Cut in these provinces
+			factor = 0.0
+			OR = {
+				province_id = 5021		# NZ Islands
+				province_id = 5022		# NZ Islands
+			}
 		}
 	}
 }
