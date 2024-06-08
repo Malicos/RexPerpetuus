@@ -33,10 +33,10 @@ country_event = {
 	trigger = {
         tag = SHQ
         at_war_with_religious_enemy = yes
-        war_exhaustion = 10
+        war_exhaustion = 8
 	}
 
-	mean_time_to_happen = { days = 14 }
+	mean_time_to_happen = { days = 30 }
 
 	option = {
 		name = sharq.2.a
