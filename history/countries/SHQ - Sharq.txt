@@ -6,6 +6,13 @@ primary_culture = balansi_culture
 add_accepted_culture = ibri_culture
 technology_group = maghrebi_tech
 capital = 220	# Valencia
+religious_school = hanbali_school
+
+add_historical_rival = CAS
+add_historical_rival = CDB
+add_historical_rival = GAL
+add_historical_rival = LON
+add_historical_rival = NAV
 
 1443.7.7 = {
 	monarch = {

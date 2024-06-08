@@ -6,6 +6,7 @@ add_accepted_culture = batalyawsi
 religion = sunni
 technology_group = maghrebi_tech
 capital = 225 # Cordoba
+religious_school = maliki_school
 
 set_estate_privilege = estate_nobles_CDB_stationary_army
 set_estate_privilege = estate_burghers_CDB_peacetime_trade
