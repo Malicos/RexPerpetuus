@@ -193,18 +193,17 @@ age_of_discovery = {
 		}
 		
 		ab_rp_sharq_jihad = {
-		
 			allow = {
 				tag = SHQ
 			}
 			modifier = {
-				siege_ability = 0.4
+				siege_ability = 0.30
+				cb_on_religious_enemies = yes
 			}
 			ai_will_do = {
 				factor = 100
 			}
 		}
-
 	}
 }
 
