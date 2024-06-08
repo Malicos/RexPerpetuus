@@ -1,0 +1,18 @@
+spriteTypes = {							
+	spriteType = {
+		name = "privilege_peasants_tax_exempts"
+		texturefile = "gfx/interface/privileges/privilege_peasants_tax_exempts.dds"
+	}
+	spriteType = {
+		name = "privilege_peasants_mining_privileges"
+		texturefile = "gfx/interface/privileges/privilege_peasants_mining_privileges.dds"
+	}
+	spriteType = {
+		name = "privilege_peasants_work_crown_lands"
+		texturefile = "gfx/interface/privileges/privilege_peasants_work_crown_lands.dds"
+	}
+	spriteType = {
+		name = "privilege_monopoly_of_goods_agriculture"
+		texturefile = "gfx/interface/privileges/privilege_monopoly_of_goods_agriculture.dds"
+	}
+}

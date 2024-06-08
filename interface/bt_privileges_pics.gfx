@@ -8,4 +8,51 @@ spriteTypes = {
 		name = "privilege_autonomous_defences"
 		texturefile = "gfx/interface/privileges/privilege_autonomous_defences.dds"
 	}
+	
+	#BTIP Privileges
+	spriteType = {
+		name = "privilege_church_court_titles"
+		texturefile = "gfx/interface/privileges/privilege_church_court_titles.dds"
+	}
+	spriteType = {
+		name = "privilege_burghers_court_titles"
+		texturefile = "gfx/interface/privileges/privilege_burghers_court_titles.dds"
+	}
+	spriteType = {
+		name = "privilege_nobles_court_titles"
+		texturefile = "gfx/interface/privileges/privilege_nobles_court_titles.dds"
+	}
+	
+	spriteType = {
+		name = "privilege_tithe_collection_freedom"
+		texturefile = "gfx/interface/privileges/privilege_tithe_collection_freedom.dds"
+	}
+	spriteType = {
+		name = "privilege_trade_deals_freedom"
+		texturefile = "gfx/interface/privileges/privilege_trade_deals_freedom.dds"
+	}
+	spriteType = {
+		name = "privilege_tax_collection_freedom"
+		texturefile = "gfx/interface/privileges/privilege_tax_collection_freedom.dds"
+	}
+	spriteType = {
+        name = "privilege_siberian_frontier"
+        texturefile = "gfx/interface/privileges/privilege_siberian_frontier.dds"
+    }
+	spriteType = {
+        name = "privilege_mamluk_decadence"
+        texturefile = "gfx/interface/privileges/privilege_mamluk_decadence.dds"
+    }
+	spriteType = {
+        name = "privilege_monopoly_of_goods_beer"
+        texturefile = "gfx/interface/privileges/privilege_monopoly_of_goods_beer.dds"
+    }
+	spriteType = {
+        name = "privilege_monopoly_of_goods_books"
+        texturefile = "gfx/interface/privileges/privilege_monopoly_of_goods_books.dds"
+    }
+	spriteType = {
+        name = "privilege_monopoly_of_goods_apiculture"
+        texturefile = "gfx/interface/privileges/privilege_monopoly_of_goods_apiculture.dds"
+    }
 }

@@ -92,7 +92,7 @@ spriteTypes = {
 		name = "GFX_religion_icon_strip"
 		texturefile = "gfx\\interface\\icon_religion_small.dds"
 		transparencecheck = yes
-		noOfFrames = 45
+		noOfFrames = 34 #BT; 29
 	}
 	spriteType = {
 		name = "GFX_ledger_bg"
@@ -110,6 +110,12 @@ spriteTypes = {
 		texturefile = "gfx\interface\rivals\ledger_invisible_button_60x17.dds"
 		transparencecheck = no
 	}	
+
+	spriteType = {
+		name = "GFX_ledger_invisible_button65x26"
+		texturefile = "gfx\interface\rivals\ledger_invisible_button_65x26.dds"
+		transparencecheck = no
+	}
 	
 	spriteType = {
 		name = "GFX_ledger_linegraph_bg"
