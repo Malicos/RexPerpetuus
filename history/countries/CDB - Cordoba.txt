@@ -7,6 +7,10 @@ religion = sunni
 technology_group = maghrebi_tech
 capital = 225 # Cordoba
 
+set_estate_privilege = estate_nobles_CDB_stationary_army
+set_estate_privilege = estate_burghers_CDB_peacetime_trade
+set_estate_privilege = estate_dhimmi_CDB_religious_ceasefire
+
 1415.12.20 = {
 	monarch = {
 		name = "Ali III"
