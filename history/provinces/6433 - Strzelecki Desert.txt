@@ -1,0 +1,4 @@
+#6433 - Strzelecki Desert
+#Discoveries
+discovered_by = aboriginal_tech # 1.31
+

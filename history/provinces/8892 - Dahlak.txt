@@ -1,0 +1,38 @@
+#8892 - Dahlak
+#Area - 
+#Region - Horn of Africa
+
+#Core Details
+capital = "Dahlak Kebir"
+is_city = yes
+owner = DHK
+controller = DHK
+
+#Demographics
+culture = dahalik
+religion = sunni
+
+#Development and Trade
+base_tax = 3
+base_production = 4
+base_manpower = 3
+trade_goods = fish #Rich marine life, but I do not know if gems representing pearls or other things like such is a good idea here. //Dub
+
+#Cores and Occupation (Alphabetical after current)
+add_core = DHK
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+center_of_trade = 1
+
+#Discoveries
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+
+#Histories 

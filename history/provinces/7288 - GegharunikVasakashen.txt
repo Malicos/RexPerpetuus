@@ -1,0 +1,40 @@
+#7288 - Gegharunik/Vasakashen
+#Area - 
+#Region - Caucasia
+
+#Core Details
+capital = "Vasakashen"
+is_city = yes
+owner = QAR
+controller = QAR
+
+#Demographics
+culture = armenian
+religion = apostolic
+
+#Development and Trade
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = fish #Location has arable lands, cattle farming, as well as some amount of fishing around the lake.
+
+#Cores and Occupation (Alphabetical after current)
+add_core = QAR
+add_core = ARM
+add_core = ERV
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = nomad_group
+
+#Histories 

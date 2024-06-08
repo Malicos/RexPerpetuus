@@ -1,0 +1,42 @@
+#6368 - Miwa
+#Area - Kimberley
+#Region - Northern Australia
+
+#Core Details
+capital = "Miwa"
+is_city = no
+
+#Demographics
+culture = wunambal
+religion = dreamtime
+native_size = 60
+native_ferocity = 3
+native_hostileness = 4
+
+#Development and Trade
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = unknown
+
+#Cores and Occupation (Alphabetical after current)
+tribal_owner = WUN
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech # 1.31
+
+#Histories  
+#1444 onwards
+1444.11.15 = { #BeyondTypus batch edit shortcut no vassal start date begin
+	tribal_owner = xxx
+}
+1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+	tribal_owner = WUN
+}

@@ -1,0 +1,48 @@
+#6363 - Wagaydyic
+#Area - Darwin
+#Region - Northern Australia
+
+#Core Details
+capital = "Wagaydyic"
+is_city = yes
+owner = MRJ
+controller = MRJ
+
+#Demographics
+culture = marranj
+religion = dreamtime
+native_size = 70
+native_ferocity = 4
+native_hostileness = 5
+
+#Development and Trade
+base_tax = 2
+base_production = 1
+base_manpower = 2
+trade_goods = unknown
+
+#Cores and Occupation (Alphabetical after current)
+add_core = MRJ
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech # 1.31
+
+#Histories  
+#1444 onwards
+1444.11.15 = { #BeyondTypus batch edit shortcut no vassal start date begin
+	owner = xxx
+	controller = xxx
+	remove_core = MRJ
+}
+1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+	owner = MRJ
+	controller = MRJ
+	add_core = MRJ
+}

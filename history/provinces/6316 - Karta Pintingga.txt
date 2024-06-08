@@ -1,0 +1,32 @@
+#6316 - Karta Pintingga
+#Area - Gulf Of St. Vincent
+#Region - Southeastern Australia
+
+#Core Details
+capital = "Karta Pintingga"
+is_city = no
+
+#Demographics - Kangaroo Island was seen as cursed and thus uninhabited by aboriginals for the last ~2000 years
+native_size = 0
+native_ferocity = 0
+native_hostileness = 0
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = unknown
+
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech # 1.31
+
+#Histories  

@@ -1,0 +1,34 @@
+#6240 - Koa
+#Area - East Mitchell Downs
+#Region - Northeastern Australia
+
+#Core Details
+capital = "Koa"
+is_city = no
+
+#Demographics
+culture = karnic
+religion = dreamtime
+native_size = 30
+native_ferocity = 1
+native_hostileness = 2
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = unknown
+
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech # 1.31
+
+#Histories  

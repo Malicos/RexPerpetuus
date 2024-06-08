@@ -1,0 +1,38 @@
+#8856 - Endagabatan
+#Area - 
+#Region - Horn of Africa
+
+#Core Details
+capital = "Ambo"
+is_city = yes
+owner = DAM
+controller = DAM
+
+#Demographics
+culture = gafat
+religion = coptic #(JP) seems to be first area christianised in Damot
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = bt_trade_good_fruit #Endreyas' suggestion
+
+#Cores and Occupation (Alphabetical after current)
+add_core = DAM
+add_core = SOA
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+
+#Histories 

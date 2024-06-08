@@ -1,0 +1,41 @@
+#6297 - Benalta
+#Area - Southeast Highlands
+#Region - Southeastern Australia
+
+#Core Details
+capital = "Benalta"
+is_city = no
+
+#Demographics
+culture = kulin
+religion = dreamtime
+native_size = 40
+native_ferocity = 2
+native_hostileness = 3
+
+#Development and Trade
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = unknown
+
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech # 1.31
+
+#Histories  
+#1444 onwards
+1444.11.12 = { #BeyondTypus batch edit shortcut no vassal start date begin
+	tribal_owner = WRU
+}
+1444.11.14 = { #BeyondTypus batch edit shortcut no vassal start date end
+	tribal_owner = xxx
+}

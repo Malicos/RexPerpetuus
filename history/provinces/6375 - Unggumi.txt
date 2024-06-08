@@ -1,0 +1,34 @@
+#6375 - Unggumi
+#Area - Kimberley
+#Region - Northern Australia
+
+#Core Details
+capital = "Unggumi"
+is_city = no
+
+#Demographics
+culture = ungarinjin
+religion = dreamtime
+native_size = 50
+native_ferocity = 3
+native_hostileness = 4
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = unknown
+
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech # 1.31
+
+#Histories  

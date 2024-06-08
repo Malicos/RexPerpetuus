@@ -1,0 +1,4 @@
+#6432 - Sturt Stony Desert
+#Discoveries
+discovered_by = aboriginal_tech # 1.31
+

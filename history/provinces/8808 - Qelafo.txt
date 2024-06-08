@@ -1,0 +1,38 @@
+#8808 - Qelafo
+#Area - 
+#Region - Horn of Africa
+
+#Core Details
+capital = "Qelafo"
+is_city = yes
+owner = AJU
+controller = AJU
+
+#Demographics
+culture = hawiye
+religion = sunni
+
+#Development and Trade
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = bt_trade_good_fruit #JP's research in conjunction with Endreyas
+
+#Cores and Occupation (Alphabetical after current)
+add_core = AJU
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+center_of_trade = 1
+
+#Discoveries
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+
+#Histories 

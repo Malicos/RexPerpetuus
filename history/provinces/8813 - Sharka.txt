@@ -1,0 +1,38 @@
+#8813 - Sharka
+#Area - 
+#Region - Horn of Africa
+
+#Core Details
+capital = "Ganbah" #(JP) A place described as "above Sharka". Will do. Is pre-Oromo at least
+is_city = yes
+owner = HDY #Sultanate of Hadiya
+controller = HDY #Sultanate of Hadiya
+
+#Demographics
+culture = hadiya
+religion = sunni
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = grain
+
+#Cores and Occupation (Alphabetical after current)
+add_core = HDY #Sultanate of Hadiya
+add_core = SHK
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+
+#Histories 

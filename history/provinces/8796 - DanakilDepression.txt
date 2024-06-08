@@ -1,0 +1,9 @@
+#8796 - Danakil Depression
+#Area - 
+#Region - Horn of Africa
+
+#Discoveries
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian

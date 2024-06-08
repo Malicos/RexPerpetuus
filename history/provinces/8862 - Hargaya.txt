@@ -1,0 +1,39 @@
+#8862 - Hargaya
+#Area - 
+#Region - Horn of Africa
+
+#Core Details
+capital = "Fadis"
+is_city = yes
+owner = ADA
+controller = ADA
+
+#Demographics
+culture = harari
+religion = sunni
+
+#Development and Trade
+base_tax = 2
+base_production = 2
+base_manpower = 2
+trade_goods = coffee #I could not find anything better other than it being on the Harari highlands. //Dub
+
+#Cores and Occupation (Alphabetical after current)
+add_core = ADA
+add_core = HRG
+add_core = IFT
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+
+#Histories 

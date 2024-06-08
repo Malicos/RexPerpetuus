@@ -1,0 +1,37 @@
+#8886 - Agame
+#Area - 
+#Region - Horn of Africa
+
+#Core Details
+capital = "Debre Damo"
+is_city = yes
+owner = ETH
+controller = ETH
+
+#Demographics
+culture = saho
+religion = sunni
+
+#Development and Trade
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = salt #JP and Endreyas' TG research
+
+#Cores and Occupation (Alphabetical after current)
+add_core = ETH
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+
+#Histories 

@@ -1,0 +1,37 @@
+#8829 - Gedeo
+#Area - 
+#Region - Horn of Africa
+
+#Core Details
+capital = "Dilla"
+is_city = no
+owner = GDO
+controller = GDO
+
+#Demographics
+culture = gedeo
+religion = shamanism
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = bt_trade_good_fruit
+
+#Cores and Occupation (Alphabetical after current)
+add_core = GDO
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+
+#Histories 

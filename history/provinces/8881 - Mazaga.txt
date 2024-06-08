@@ -1,0 +1,37 @@
+#8881 - Mazaga
+#Area - 
+#Region - Horn of Africa
+
+#Core Details
+capital = "Addi Balaw"
+is_city = no
+owner = MZG
+controller = MZG
+
+#Demographics
+culture = qwara #(JP) When doing Nubia, will likely end up being Beja
+religion = shamanism
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = cloth
+
+#Cores and Occupation (Alphabetical after current)
+add_core = MZG
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = indian
+
+#Histories 
