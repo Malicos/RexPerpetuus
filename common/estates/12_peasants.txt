@@ -1,0 +1,960 @@
+estate_peasants = {
+	icon = 19
+	
+	# If true, country will get estate
+	trigger = {	
+		OR = { #Putting all culture groups that considered peasants as their own estate in their estates general/diet. Reportedly, I have heard they held some degree of power in Russia, Austria & Switzerland as well, but until someone can confirm this for me I'm making this Scandinavian/Peasant Republic-unique.
+			culture_group = scandinavian #From what I've researched, all Scandinavian nations regarded the Peasants as an estate of the realm. Norway to the point that they replaced their Burghers because rural. Iceland was also considered a peasant republic pre-Norwegian assertion of law.
+			has_reform = peasants_republic #Peasants republic surely should have this?
+		}
+		#always = no #Because estate is unfinished. Comment out when testing or finished.
+		#Things that don't have estates basically.
+		NOT = { has_government_attribute = is_merchant_republic }
+		NOT = { has_reform = pirate_republic_reform }
+		NOT = { has_reform = veche_republic }
+		NOT = { has_reform = cossacks_reform }
+		NOT = { government = native }
+		NOT = { has_reform = trading_city }
+		NOT = { has_reform = siberian_tribe }
+		NOT = { is_revolutionary_republic_trigger = yes }
+		NOT = { has_reform = revolutionary_empire_reform }
+		NOT = { has_reform = american_republic }
+		NOT = { has_reform = federal_republic }
+		OR = {
+			NOT = { has_reform = celestial_empire }
+			has_dlc = "Mandate of Heaven"
+		}
+	}
+	country_modifier_happy = {
+		global_tax_modifier = 0.1
+		reinforce_speed = 0.33 #I think this makes sense. A more cooperative peasantry means reinforcements are easier to amass.
+		global_unrest = -2 #Happy peasants means less revolts
+		country_dev_points_modifier = 0.02
+	}
+	country_modifier_neutral = {
+		global_tax_modifier = 0.1
+	}	
+	country_modifier_angry = {
+		production_efficiency = -0.2 #Less productive peasants
+		global_tax_modifier = -0.2 #Less willing to pay taxes
+		global_unrest = 4 #Peasants cause revolts
+		country_dev_points_modifier = -0.02
+	}
+	
+	#New in 1.30. Seems to be a modifier scaled to the percentage of crown land.
+	land_ownership_modifier = {
+		peasants_loyalty_modifier = 0.3 #Normal ones tend to be at 0.2
+	}
+	base_influence = 5 #Base influence of farmers was rather low to my knowledge. I also prefer this and then let the player increase their influence through privileges.
+	influence_modifier = { #TODO: Move to gov reform
+		desc = EST_VAL_PEASANT_REPUBLIC
+		trigger = { 
+			has_reform = peasants_republic
+		
+		}
+		influence = 20
+	}	
+	influence_modifier = { #In Sweden, miners were included in this estate, hence I'm including it here, giving a total of 20% influence as a base for them.
+		desc = EST_VAL_MINERS
+		trigger = { 
+			OR = { #Has any province producing minerals
+				gold = 1
+				iron = 1
+				copper = 1
+				coal = 1
+			}
+		}
+		influence = 15
+	}	
+	influence_modifier = {
+		desc = EST_VAL_LARGE_FARMING_PRODUCTION
+		trigger = { #Warning, massive trigger
+			OR = { #Checks for 25% of total dev belonging to either grain, fruit, wool or livestock on intervals of 100 on 100-1000, 200 on 1000-2000 and 400 on 2000-4000
+				AND = { #20
+					total_development = 20
+					NOT = { total_development = 60 }
+					development_in_provinces = {
+						value = 5
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 8
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #60
+					total_development = 60
+					NOT = { total_development = 100 }
+					development_in_provinces = {
+						value = 15
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 24
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #100
+					total_development = 100
+					NOT = { total_development = 200 }
+					development_in_provinces = {
+						value = 25
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 40
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #200
+					total_development = 200
+					NOT = { total_development = 300 }
+					development_in_provinces = {
+						value = 50
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 80
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #300
+					total_development = 300
+					NOT = { total_development = 400 }
+					development_in_provinces = {
+						value = 75
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 120
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #400
+					total_development = 400
+					NOT = { total_development = 500 }
+					development_in_provinces = {
+						value = 100
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 160
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #500
+					total_development = 500
+					NOT = { total_development = 600 }
+					development_in_provinces = {
+						value = 125
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 200
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #600
+					total_development = 600
+					NOT = { total_development = 700 }
+					development_in_provinces = {
+						value = 150
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 240
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #700
+					total_development = 700
+					NOT = { total_development = 800 }
+					development_in_provinces = {
+						value = 175
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 280
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #800
+					total_development = 800
+					NOT = { total_development = 900 }
+					development_in_provinces = {
+						value = 200
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 320
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #900
+					total_development = 900
+					NOT = { total_development = 1000 }
+					development_in_provinces = {
+						value = 225
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 360
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #1000
+					total_development = 1000
+					NOT = { total_development = 1200 }
+					development_in_provinces = {
+						value = 250
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 400
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #1200
+					total_development = 1200
+					NOT = { total_development = 1400 }
+					development_in_provinces = {
+						value = 300
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 480
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #1400
+					total_development = 1400
+					NOT = { total_development = 1600 }
+					development_in_provinces = {
+						value = 350
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 560
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #1600
+					total_development = 1600
+					NOT = { total_development = 1800 }
+					development_in_provinces = {
+						value = 400
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 640
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #1800
+					total_development = 1800
+					NOT = { total_development = 2000 }
+					development_in_provinces = {
+						value = 450
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 720
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #2000
+					total_development = 2000
+					NOT = { total_development = 2400 }
+					development_in_provinces = {
+						value = 500
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 800
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #2400
+					total_development = 2400
+					NOT = { total_development = 2800 }
+					development_in_provinces = {
+						value = 600
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 960
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #2800
+					total_development = 2800
+					NOT = { total_development = 3200 }
+					development_in_provinces = {
+						value = 700
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 1120
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #3200
+					total_development = 3200
+					NOT = { total_development = 3600 }
+					development_in_provinces = {
+						value = 800
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 1280
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #3600
+					total_development = 3600
+					NOT = { total_development = 4000 }
+					development_in_provinces = {
+						value = 900
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 1440
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+				AND = { #4000
+					total_development = 4000
+					development_in_provinces = {
+						value = 1000
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+					NOT = {
+						development_in_provinces = {
+							value = 1600
+							OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+								trade_goods = grain
+								trade_goods = wool
+								trade_goods = livestock
+								trade_goods = bt_trade_good_fruit
+							}
+						}
+					}
+				}
+			}
+		}	
+		influence = 10
+	}
+	influence_modifier = {
+		desc = EST_VAL_HUGE_FARMING_PRODUCTION
+		trigger = { #Warning, massive trigger
+			OR = { #Checks for 40% of total dev belonging to either grain, fruit, wool or livestock on intervals of 100 on 100-1000, 200 on 1000-2000 and 400 on 2000-4000
+				AND = { #20
+					total_development = 20
+					NOT = { total_development = 60 }
+					development_in_provinces = {
+						value = 8
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #60
+					total_development = 60
+					NOT = { total_development = 100 }
+					development_in_provinces = {
+						value = 24
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #100
+					total_development = 100
+					NOT = { total_development = 200 }
+					development_in_provinces = {
+						value = 40
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #200
+					total_development = 200
+					NOT = { total_development = 300 }
+					development_in_provinces = {
+						value = 80
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #300
+					total_development = 300
+					NOT = { total_development = 400 }
+					development_in_provinces = {
+						value = 120
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #400
+					total_development = 400
+					NOT = { total_development = 500 }
+					development_in_provinces = {
+						value = 160
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #500
+					total_development = 500
+					NOT = { total_development = 600 }
+					development_in_provinces = {
+						value = 200
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #600
+					total_development = 600
+					NOT = { total_development = 700 }
+					development_in_provinces = {
+						value = 240
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #700
+					total_development = 700
+					NOT = { total_development = 800 }
+					development_in_provinces = {
+						value = 280
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #800
+					total_development = 800
+					NOT = { total_development = 900 }
+					development_in_provinces = {
+						value = 320
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #900
+					total_development = 900
+					NOT = { total_development = 1000 }
+					development_in_provinces = {
+						value = 360
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #1000
+					total_development = 1000
+					NOT = { total_development = 1200 }
+					development_in_provinces = {
+						value = 400
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #1200
+					total_development = 1200
+					NOT = { total_development = 1400 }
+					development_in_provinces = {
+						value = 480
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #1400
+					total_development = 1400
+					NOT = { total_development = 1600 }
+					development_in_provinces = {
+						value = 560
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #1600
+					total_development = 1600
+					NOT = { total_development = 1800 }
+					development_in_provinces = {
+						value = 640
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #1800
+					total_development = 1800
+					NOT = { total_development = 2000 }
+					development_in_provinces = {
+						value = 720
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #2000
+					total_development = 2000
+					NOT = { total_development = 2400 }
+					development_in_provinces = {
+						value = 800
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #2400
+					total_development = 2400
+					NOT = { total_development = 2800 }
+					development_in_provinces = {
+						value = 960
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #2800
+					total_development = 2800
+					NOT = { total_development = 3200 }
+					development_in_provinces = {
+						value = 1120
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #3200
+					total_development = 3200
+					NOT = { total_development = 3600 }
+					development_in_provinces = {
+						value = 1280
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #3600
+					total_development = 3600
+					NOT = { total_development = 4000 }
+					development_in_provinces = {
+						value = 1440
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+				AND = { #4000
+					total_development = 4000
+					development_in_provinces = {
+						value = 1600
+						OR = { #Farming goods. I exclude new-world farming goods because they were mostly tended to by slaves and the like. I also exclude alcohol-producing goods (Beer & Wine) because they were mainly tended to by monks.
+							trade_goods = grain
+							trade_goods = wool
+							trade_goods = livestock
+							trade_goods = bt_trade_good_fruit
+						}
+					}
+				}
+			}
+		}	
+		influence = 20
+	}
+		
+	# Influence modifiers from Events:
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			OR = {
+				has_disaster = estate_church_disaster
+				has_disaster = estate_burghers_disaster
+				has_disaster = estate_nobility_disaster
+			}
+		}	
+		influence = -40
+	}
+	
+	# Loyalty modifiers
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				has_disaster = estate_church_disaster
+				has_disaster = estate_burghers_disaster
+				has_disaster = estate_nobility_disaster
+			}
+		}
+		loyalty = -20
+	}
+	
+	# Alternative naming of estates
+	# No.
+	
+	# Does the AI want to give any extra territory beyond the minimum?
+	# No.
+	
+	color = { 156 134 94 } #Beige
+	
+	privileges = {
+		estate_peasants_land_rights
+		estate_peasants_tax_exempts
+		estate_peasants_mining_privileges
+		estate_peasants_work_crown_lands
+		estate_peasants_monopoly_of_agriculture
+	}
+	
+	agendas = {
+		estate_peasants_develop_agricultural_tax_in_x
+		estate_peasants_develop_agricultural_prod_in_x
+		estate_peasants_develop_mineral_tax_in_x
+		estate_peasants_develop_mineral_prod_in_x
+		estate_peasants_two_privileges
+		estate_peasants_build_fort_building_in_y
+		estate_peasants_build_up_manpower_reserves
+		estate_peasants_recover_from_devastation_in_y
+		estate_peasants_achieve_prosperity_in_y
+		estate_peasants_build_farm_estate_in_y
+		#Build soldier households
+		#Stop construction of non-farm-estate manufactory
+		#Increase autonomy in province
+		#Reduce war exhaustion
+		#Accept a culture
+		#Improve relations with Peasants Republic (Minimum 2 that aren't the player)
+		#Support grand concessions to the peasantry resolution of the Great Peasants War Imperial incident.
+	}
+	influence_from_dev_modifier = 1.0
+}

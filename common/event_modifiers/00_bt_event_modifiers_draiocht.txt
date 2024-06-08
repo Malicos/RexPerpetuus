@@ -362,14 +362,6 @@ btpl_funj_demilitarisation = {
 	diplomatic_reputation = 1
 }
 
-btpl_clearing_the_inlet = {
-	global_tax_modifier = -0.10
-}
-
-btpl_stabilising_the_economy = {
-	global_tax_modifier = -0.20
-}
-
 btpl_investing_in_antwerp = {
 	local_development_cost = -0.2
 	local_tax_modifier = -0.8

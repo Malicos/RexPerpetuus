@@ -1,0 +1,35 @@
+#####################################
+# Event modifiers for Dev Points	#
+##################################### 
+
+monarch_points_to_dev_points = {
+	country_admin_power = -1
+	country_diplomatic_power = -1
+	country_military_power = -1
+	country_dev_points_modifier = 0.2
+}
+
+adm_points_to_reform_progress = {
+	country_admin_power = -1
+	monthly_reform_progress_modifier = 0.3
+}
+
+dip_points_to_spy_defence = { 
+	country_diplomatic_power = -1	
+	spy_offence = 0.25
+	global_spy_defence = 0.25
+}
+
+mil_points_to_professionalism = {
+	country_military_power = -1
+ 	yearly_army_professionalism = 0.005
+}
+
+mil_points_to_army_tradition = {
+	country_military_power = -1
+	army_tradition = 0.25
+}
+
+
+
+

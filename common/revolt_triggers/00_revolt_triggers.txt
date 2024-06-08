@@ -424,6 +424,22 @@ RUM = {
 	always = no
 }
 
+#Austria-Hungary
+AUH = {
+    OR = {
+        is_core = AUH
+        exists = AUH
+    }
+}
+
+HAB = {
+	NOT = { exists = AUH }
+}
+
+HUN = {
+	NOT = { exists = AUH }
+}
+
 #BT these are tags added for Shattered Start
 #Scandinavia
 AAL = {
@@ -552,4 +568,19 @@ ATC = {
 }
 CYP = {
 	always = no
+}
+
+#BT Caucasus
+#If Georgia exists, don't revolt to these.
+SME = {
+	NOT = { exists = GEO }
+}
+KRT = {
+	NOT = { exists = GEO }
+}
+IME = {
+	NOT = { exists = GEO }
+}
+KKE = {
+	NOT = { exists = GEO }
 }

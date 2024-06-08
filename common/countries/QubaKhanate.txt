@@ -1,0 +1,47 @@
+#QubaKhanate
+
+graphical_culture = muslimgfx
+
+color = { 223 161 243 }
+
+preferred_religion = shiite
+
+historical_idea_groups = { 
+	defensive_ideas
+	quantity_ideas
+	administrative_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	aristocracy_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+}
+
+leader_names = { 
+}
+
+ship_names = {
+}
+
+army_names = {
+}
+
+fleet_names = {
+}

@@ -1,0 +1,19 @@
+#Country Name: Please seefilename.
+
+graphical_culture = africangfx
+
+color = { 90 50 50 }
+
+historical_idea_groups = { }
+
+historical_units = { }
+
+monarch_names = { }
+
+leader_names = { }
+
+ship_names = { }
+
+army_names = { }
+
+fleet_names = { }

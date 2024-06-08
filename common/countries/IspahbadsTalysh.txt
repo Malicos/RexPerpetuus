@@ -1,0 +1,42 @@
+#Ispahbads of Gilan (Talish)
+
+graphical_culture = muslimgfx
+
+color = { 169 13 47 }
+
+preferred_religion = sunni
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas 
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+#monarch_names = { }
+
+#leader_names = { }
+
+#ship_names = { }
+
+#army_names = { }
+
+#fleet_names = { }

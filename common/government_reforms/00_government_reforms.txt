@@ -12,8 +12,6 @@ defaults_reform = {
 	heirs_can_be_generals = yes
 	fixed_rank = 0
 	republican_name = no
-	militarised_society = no
-	government_abilities = { }
 	claim_states = no
 	religion = no
 	republic = no
@@ -46,6 +44,7 @@ defaults_reform = {
 	papacy = no
 	has_harem = no
 	has_pashas = no
+	has_janissaries = no
 	allow_vassal_war = no
 	allow_vassal_alliance = no
 	min_autonomy = 0
@@ -63,6 +62,7 @@ defaults_reform = {
 	start_territory_to_estates = 0.8
 	has_term_election = no
 	force_admiral_leader = no
+	force_general_leader = no
 	admirals_become_rulers = no
 	generals_become_rulers = no
 	allow_banners = no
@@ -75,6 +75,13 @@ defaults_reform = {
 	can_customise_heir = yes
 	allow_cawa = no
 	can_change_primary_culture = yes
+	allow_carolean = no
+	can_inherit_personal_unions = yes
+	block_cultural_union = no
+	has_cultural_union = no 
+	can_remove_idea_group = yes
+	mercs_do_not_cost_army_professionalism = no
+	is_eligible_for_hre_emperor = no
 }
 
 # legacy governments
@@ -207,7 +214,8 @@ enlightened_despotism = {
 	monarchy = yes
 	modifiers = {
     	governing_capacity = 300 # BT; 150
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2 
+		promote_culture_cost = -0.15 #BT Accepted Culture Slots overhaul
 		global_manpower_modifier = 0.1
 		global_autonomy = -0.075
 		max_absolutism = 10
@@ -244,11 +252,13 @@ revolutionary_empire = {
 	valid_for_nation_designer = no
 	monarchy = yes
 	revolutionary = yes
+	is_eligible_for_hre_emperor = no
 	modifiers = {
     	governing_capacity = 300 # BT; 150
 		global_manpower_modifier = 0.25
 		land_morale = 0.10
 		global_autonomy = -0.2
+		allowed_rev_guard_fraction = 0.2
 	}
 	removed_effect = {
 		hidden_effect = {
@@ -281,6 +291,16 @@ revolutionary_empire = {
 				restore_country_name = yes
 				override_country_name = GURKANI_EMPIRE_STRING
 				set_country_flag = is_gurkani_flag
+			}
+			if = {
+				limit = {
+					has_country_flag = is_revolutionary_iran_flag
+					is_revolutionary = no
+				}
+				clr_country_flag = is_revolutionary_iran_flag
+				restore_country_name = yes
+				override_country_name = IRAN_STRING
+				set_country_flag = is_iran_flag
 			}
 		}
 	}
@@ -353,6 +373,7 @@ merchant_republic = {
 	
 	custom_attributes = {
 		is_merchant_republic = yes
+		elections_increase_factions_influence = yes
 	}
 
 	ai = {
@@ -420,6 +441,7 @@ venetian_merchant_republic = {
 		lottery_election = yes
 		election_on_death = yes
 		is_merchant_republic = yes
+		elections_increase_factions_influence = yes
 	}
 
 	ai = {
@@ -488,7 +510,9 @@ prussian_republic = {
 	
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 	
 	custom_attributes = {
@@ -540,7 +564,10 @@ pirate_republic = {
 	can_form_trade_league = no
 
 	nation_designer_trigger = {
-		has_dlc = "Golden Century"
+		OR = {
+			has_dlc = "Golden Century"
+			has_dlc = "Lions of the North"
+		}
 		capital_scope = {
 			has_port = yes
 			OR = {
@@ -556,7 +583,10 @@ pirate_republic = {
 	}
 	
 	potential = {	
-		has_dlc = "Golden Century"
+		OR = {
+			has_dlc = "Golden Century"
+			has_dlc = "Lions of the North"
+		}
 	}
 	
 	factions_frame = 9
@@ -849,10 +879,10 @@ protectorate_parliament_legacy = {
 	conditional = {
 		allow = { has_dlc = "Common Sense" }
 		has_parliament = yes
-	custom_attributes = {
-		blocked_call_diet = yes
+		custom_attributes = {
+			blocked_call_diet = yes
+		}
 	}
-}
 	has_term_election = no
 }
 
@@ -872,6 +902,7 @@ republican_dictatorship = {
 
 
 	dictatorship = yes
+	is_eligible_for_hre_emperor = no
 	modifiers = {
     	governing_capacity = 300 # BT; 150
 		global_autonomy = -0.075
@@ -919,7 +950,7 @@ constitutional_republic = {
 
 	republic = yes
 	modifiers = {
-    	governing_capacity = 300 # BT; 150
+    	governing_capacity = 150
 		production_efficiency = 0.1
 		trade_efficiency = 0.1
 		global_autonomy = -0.075
@@ -931,9 +962,9 @@ constitutional_republic = {
 			has_dlc = "Common Sense"
 		}
 		has_parliament = yes
-	custom_attributes = {
-		blocked_call_diet = yes
-	}
+		custom_attributes = {
+			blocked_call_diet = yes
+		}
 	}
 
 	ai = {
@@ -977,6 +1008,7 @@ revolutionary_republic = {
 		tolerance_heretic = 2
 		land_morale = 0.1
 		global_autonomy = -0.2
+		allowed_rev_guard_fraction = 0.2
 	}
 
 	conditional = {
@@ -1020,6 +1052,16 @@ revolutionary_republic = {
 				restore_country_name = yes
 				override_country_name = GURKANI_EMPIRE_STRING
 				set_country_flag = is_gurkani_flag
+			}
+			if = {
+				limit = {
+					has_country_flag = is_revolutionary_iran_flag
+					is_revolutionary = no
+				}
+				clr_country_flag = is_revolutionary_iran_flag
+				restore_country_name = yes
+				override_country_name = IRAN_STRING
+				set_country_flag = is_iran_flag
 			}
 		}
 	}
@@ -1118,6 +1160,9 @@ monastic_order_government = {
     fixed_rank = 1
 	religion = yes
 	monastic = yes
+
+	is_eligible_for_hre_emperor = no
+
 	modifiers = {
     	governing_capacity = 300 # BT; 150
 		tolerance_own = 1
@@ -1148,6 +1193,9 @@ holy_state_theocracy = {
 	}
 	religion = yes
 	monastic = yes
+	
+	is_eligible_for_hre_emperor = no
+
 	modifiers = {
     	governing_capacity = 200 # BT; 100
 		# cb_on_religious_enemies = yes
@@ -1183,6 +1231,7 @@ papal_government = {
     fixed_rank = 2
 	religion = yes
 	monastic = yes
+	is_eligible_for_hre_emperor = no
 	modifiers = {
     	governing_capacity = 100 # BT; 50
 		tolerance_own = 1
@@ -1217,10 +1266,7 @@ steppe_horde_legacy = {
 
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		OR = {
-			technology_group = nomad_group
-			technology_group = ottoman #Turkic
-		}	
+		technology_group = nomad_group
 	}
 
 	monarchy = yes
@@ -1254,10 +1300,7 @@ great_mongol_state_legacy = {
 
 	nation_designer_cost = 0
 	nation_designer_trigger = {
-		OR = {
-			technology_group = nomad_group
-			technology_group = ottoman #Turkic
-		}	
+		technology_group = nomad_group
 	}
 
 	monarchy = yes
@@ -1503,7 +1546,6 @@ english_monarchy_legacy = {
 		allow = {
 			has_dlc = "Common Sense"
 		}
-
 		has_parliament = yes
 		custom_attributes = {
 			blocked_call_diet = yes
@@ -1531,11 +1573,11 @@ mamluk_government_legacy = {
 
 	monarchy = yes
 	modifiers = {
-		num_accepted_cultures = 3
+		#num_accepted_cultures = 3 #BT Discarded as part of Accepted Culture Slot Overhaul
 		global_autonomy = -0.025
 		monarch_admin_power = 2
 		same_culture_advisor_cost = -0.25
-		promote_culture_cost = -0.5
+		promote_culture_cost = -0.2 #BT Nerfed from -0.5 as part of Accepted Culture Slots overhaul
 	}
 
 	conditional = {
@@ -1703,6 +1745,9 @@ trading_city_legacy = {
 		can_form_trade_league = yes
 		trade_city_reform = merchant_republic # For trade cities this is their fallback government if they get more than 1 provinces
 	}
+	custom_attributes = {
+		elections_increase_factions_influence = yes
+	}
 	ai = {
 		factor = 0
 	}
@@ -1861,7 +1906,7 @@ ottoman_government_legacy = {
 
 
 	modifiers = {
-		governing_capacity = 500 # BT; 250
+		governing_capacity = 250
 		unjustified_demands = -0.1
 		legitimacy = 0.5
 		max_absolutism = 5
@@ -1871,6 +1916,7 @@ ottoman_government_legacy = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		has_harem = yes
 		has_pashas = yes
+		has_janissaries = yes
 	}
 
 	ai = {
@@ -1909,7 +1955,9 @@ prussian_monarchy_legacy = {
 
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 
 	ai = {
@@ -1941,7 +1989,12 @@ iqta_legacy = {
 	}
 
 	conditional = {
-		allow = { has_dlc = "Cradle of Civilization" }
+		allow = {
+			OR = {
+				has_dlc = "Cradle of Civilization"
+				has_dlc = "Winds of Change"
+			}
+		}
 		government_abilities = {
 			iqta_mechanic
 		}
@@ -1967,7 +2020,7 @@ daimyo_legacy = {
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = japanese_group
+		technology_group = chinese
 		capital_scope = { region = japan_region }
 	}
 
@@ -2007,7 +2060,12 @@ indian_sultanate_legacy = {
 	}
 
 	conditional = {
-		allow = { has_dlc = "Cradle of Civilization" }
+		allow = {
+			OR = {
+				has_dlc = "Cradle of Civilization"
+				has_dlc = "Winds of Change"
+			}
+		}
 		government_abilities = {
 			iqta_mechanic
 		}
@@ -2036,9 +2094,16 @@ shogunate_legacy = {
 	nation_designer_cost = 50
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = japanese_group
+		technology_group = chinese
 		capital_scope = { region = japan_region }
 		owns = 1020
+	}
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		government_abilities = {
+			shogunate_mechanic
+		}
 	}
 
     fixed_rank = 2
@@ -2049,6 +2114,7 @@ shogunate_legacy = {
 		envoy_travel_time = -0.25
 		max_absolutism = 5
 	}
+	can_change_primary_culture = no
 
 	ai = {
 		factor = 5
@@ -2070,7 +2136,7 @@ indep_daimyo_legacy = {
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		culture_group = japanese_g
-		technology_group = japanese_group
+		technology_group = chinese
 		capital_scope = { region = japan_region }
 	}
 
@@ -2241,7 +2307,10 @@ veche_republic_legacy = {
 	nation_designer_cost = 40
 
 	nation_designer_trigger = {
-		culture_group = east_slavic
+		OR = {
+			culture_group = east_slavic
+			culture_group = slavic
+		}
 	}
 
 	factions = {
@@ -2330,6 +2399,9 @@ veche_republic_legacy = {
 		can_form_trade_league = yes
 		trade_city_reform = trading_city
 	}
+	custom_attributes = {
+		elections_increase_factions_influence = yes
+	}
 
 	ai = {
 		factor = 0
@@ -2349,7 +2421,10 @@ principality_legacy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 5
 	nation_designer_trigger = {
-		culture_group = east_slavic
+		OR = {
+			culture_group = east_slavic
+			culture_group = slavic
+		}
 		religion = orthodox
 	}
 
@@ -2386,7 +2461,10 @@ tsardom_legacy = {
 	nation_designer_cost = 40
 
 	nation_designer_trigger = {
-		culture_group = east_slavic
+		OR = {
+			culture_group = east_slavic
+			culture_group = slavic
+		}
 		religion = orthodox
 	}
 
@@ -2438,11 +2516,17 @@ cossacks_legacy_reform = {
 		}
 	}
 
+	conditional = {
+		allow = { has_dlc = "Origins" }
+		custom_attributes = {
+			has_itinerant_capital = yes
+		}
+	}
+
 	ai = {
 		factor = 5
 	}
 }
-
 
 united_cantons_legacy = {
 	# government mechanics flags go here
@@ -2496,7 +2580,6 @@ sacred_kingdom_legacy = {
 		factor = 5
 	}
 }
-
 negusa_nagast_legacy = {
 	icon = "chieftain"
 	allow_normal_conversion = no
@@ -2736,7 +2819,9 @@ shaka_regime_legacy = {
 		allow = {
 			has_dlc = "Rights of Man"
 		}
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 }
 
@@ -3026,7 +3111,8 @@ lithuanian_grand_duchy_legacy = {			#New in BT 10.0, this is a unique non Dharma
 		diplomatic_upkeep = 2
 		min_autonomy_in_territories = -0.25
 		land_maintenance_modifier = -0.25
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 
 	ai = { factor = 3 }

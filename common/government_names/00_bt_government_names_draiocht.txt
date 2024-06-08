@@ -197,7 +197,7 @@ gov_high_kingship = { #Irish Ireland, pretty much. Tanistry.
 	}
 	
 	trigger = {
-		has_reform = tanistry_reform
+		has_reform = bt_tanistry_reform
 	}
 }
 

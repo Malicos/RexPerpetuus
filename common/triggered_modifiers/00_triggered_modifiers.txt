@@ -335,27 +335,6 @@ custodian_of_the_two_holy_mosques = {
 ######################################
 # Catholic control of Rome.
 ######################################
-catholic_rome = {
-	potential = {
-		normal_or_historical_nations = yes
-		has_discovered = 118	# Roma
-		religion = catholic
-		NOT = { tag = PAP }
-		any_owned_province = { region = italy_region }			#BT added. Doesn't spam everyone unless they actually have some land in Italy. Might cause very rare situation of Rome taken in the first war.... but I like it organised.
-	}
-
-	trigger = {	
-		NOT = { overlord_of = PAP }
-		owns_or_vassal_of = 118 # Roma		
-		NOT = { tag = ITA }
-		NOT = { tag = ROM }
-		NOT = { tag = ITL }			#BtP
-	}
-
-	papal_influence = -10
-	diplomatic_reputation = -2			#BT changed from -1. Harsh penalties, but a Catholic shouldn't occupy Rome.
-	#icon = 9
-}
 
 papal_subjugation = {
 	potential = {
@@ -370,6 +349,35 @@ papal_subjugation = {
 		overlord_of = PAP
 		NOT = { tag = ITA }
 		NOT = { tag = ITL }			#BtP
+		NOT = { tag = HLR }
+		if = {
+			limit = {
+				is_emperor = yes
+				has_dlc = "Emperor"
+			}
+			OR = {
+				PAP = {
+					NOT = { is_part_of_hre = yes }	#Needs to be written like that for localization purpose
+				}
+				NOT = { hre_reform_passed = emperor_privilegia_de_non_appelando }
+			}
+		}
+		else_if = {
+			limit = {
+				is_emperor = yes
+				NOT = { has_dlc = "Emperor" }
+			}
+			OR = {
+				PAP = {
+					NOT = { is_part_of_hre = yes }	#Needs to be written like that for localization purpose
+				}
+				NOT = { hre_reform_passed = privilegia_de_non_appelando }
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = no_dip_malus_reward_tt
+			NOT = { has_country_flag = general_flag_Rome_flag }			
+		}
 	}
 
 	diplomatic_reputation = -1			#BT changed from -2. Subjugating isn't worse than outright occupying, at least subjects have the illusion of self determination.
@@ -409,20 +417,22 @@ rapid_collapse_of_society = {
 	
 }
 
-
 ######################################
 # Italian - Submission to Emperor
 ######################################
 submission_to_emperor = {
 	potential = {
+		# AI will avoid joining HRE when this modifier is potential:
+
 		has_global_flag = italians_leave_hre
 		NOT = { has_country_flag = reined_in_for_shadow_kingdom }
-		is_part_of_hre = yes
+		is_emperor = no
+		NOT = { is_year = 1550 }
 		culture_group = latin
 	}
 
 	trigger = {
-		is_emperor = no
+		is_part_of_hre = yes
 		NOT = { tag = ITA }
 		NOT = { tag = ITL } # BT
 		capital_scope = {
@@ -430,6 +440,7 @@ submission_to_emperor = {
 		}
 		NOT = { is_year = 1550 }
 		NOT = { emperor = { alliance_with = ROOT } }
+		NOT = { is_year = 1550 } # Duplicating so it shows in tooltip
 	}
 
 	global_unrest = 3
@@ -449,7 +460,7 @@ counter_revolution = {
 		any_country = {
 			is_revolution_target = yes
 			OR = {
-			capital_scope = {
+				capital_scope = {
 				continent = ROOT
 			}
 				is_neighbor_of = ROOT
@@ -526,9 +537,9 @@ crusader = {
 		
 		crusade_target = {
 			war_with = ROOT
-			any_province = {
-				controlled_by = root
-			}
+			# any_province = { #BT Cut. I do not understand why this is here. I guess it means the modifier ends when ROOT is fully occupied, but I have no idea what the point is. //Dub
+				# controlled_by = root
+			# }
 		}  
 		land_maintenance = 1.0
 	}
@@ -669,7 +680,7 @@ lost_control_of_beijing = {
 			NOT = { controls = 1816 }
 		}
 	}
-	
+
 	ai_weight = {
 		factor = -1000 # Do what you can to avoid this modifier
 	}
@@ -818,6 +829,33 @@ hre_dominant_reformed = {
 	imperial_authority = 0.25
 }
 
+hre_dominant_hussite = {
+	potential = {
+		capital_scope = {
+			continent = europe
+		}
+		OR = {
+			religion = catholic
+			religion = protestant
+			religion = reformed
+			religion = hussite
+		}
+		is_part_of_hre = yes			#BT added. This prevents the bonuses for non-HRE tags. Sure, HRE taking a side religiously was significant, but not THAT significant, especially to foreigners outside HRE sphere.
+		is_religion_enabled = hussite			#BT added. Doesn't show up until there is actually reformation religions around.
+	}
+
+	trigger = {
+		religion = hussite
+		hre_religion = hussite
+		hre_religion_locked = yes
+	}
+	
+	legitimacy = 0.25
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	imperial_authority = 0.25
+}
+
 ######################################
 # Robot parts
 ######################################
@@ -865,7 +903,7 @@ great_peasants_war_triggered_modifier = {
 	}
 	trigger = {
 		is_part_of_hre = yes
-		NOT = { has_reform = peasants_republic }
+		NOT = { has_government_attribute = is_peasants_republic }
 	}
 	global_unrest = 6
 }
@@ -882,7 +920,7 @@ great_peasants_war_concessions_triggered_modifier = {
 	}
 	trigger = {
 		is_part_of_hre = yes
-		NOT = { has_reform = peasants_republic }
+		NOT = { has_government_attribute = is_peasants_republic }
 	}
 	global_tax_modifier = -0.05
 }
@@ -961,4 +999,99 @@ defense_of_the_empire_modifier = {
 		}
 	}
 	war_taxes_cost_modifier = -1.0
+}
+
+######################################
+# Judaism Defensive Aspect
+######################################
+
+judaism_yom_kippur_aspect_war_modifier = {
+	potential = {
+		religion = jewish
+		has_church_aspect = judaism_yom_kippur_aspect
+	}
+	trigger = {
+		is_at_war = yes
+	}
+	manpower_recovery_speed = 0.20
+	church_power_modifier = 0.25
+}
+
+judaism_yom_kippur_aspect_defensive_war_modifier = {
+	potential = {
+		religion = jewish
+		has_church_aspect = judaism_yom_kippur_aspect
+	}
+	trigger = {
+		is_at_war = yes
+		is_in_war = {
+			defenders = ROOT
+		}
+	}
+	manpower_recovery_speed = 0.20
+	church_power_modifier = 0.25
+}
+
+######################################
+# Government Reform Specific
+######################################
+
+ahmudan_system_attacker = {
+	potential = {
+		has_government_attribute = ahmudan_system
+	}
+
+	trigger = {
+		is_at_war = yes
+	}
+	global_regiment_cost = -0.1
+	manpower_recovery_speed = 0.2
+}
+
+ahmudan_system_defender = {
+	potential = {
+		has_government_attribute = ahmudan_system
+	}
+
+	trigger = {
+		is_in_war = {
+			defenders = ROOT
+		}
+	}
+	land_morale = 0.075
+	defensiveness = 0.15
+	manpower_recovery_speed = 0.1
+}
+
+TIM_diwan_adm = {
+	potential = {
+		has_reform = timurid_diwan_reform
+	}
+
+	trigger = {
+		national_focus = adm
+	}
+	yearly_corruption = -0.15
+}
+
+TIM_diwan_dip = {
+	potential = {
+		has_reform = timurid_diwan_reform
+	}
+
+	trigger = {
+		national_focus = dip
+	}
+	global_unrest = -1
+}
+
+TIM_diwan_mil = {
+	potential = {
+		has_reform = timurid_diwan_reform
+	}
+
+	trigger = {
+		national_focus = mil
+	}
+	land_maintenance_modifier = -0.1
 }

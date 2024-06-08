@@ -65,6 +65,10 @@ has_river_estuary_trigger = {
 			has_province_modifier = irrawaddy_estuary_modifier
 			has_province_modifier = kongo_estuary_modifier
 			has_province_modifier = amur_estuary_modifier
+			has_province_modifier = orinoco_estuary_modifier
+			#China
+			has_province_modifier = mng_bogue_modifier
+			has_province_modifier = expanded_nile_estuary_modifier
 			#Added estuaries in BT. Thanks for the note in event_modifiers Paradox! =D -Draiocht
 			has_province_modifier = fraiser_estuary_modifier
 			has_province_modifier = yukon_estuary_modifier
@@ -159,6 +163,9 @@ has_no_river_estuary_trigger = {
 			has_province_modifier = irrawaddy_estuary_modifier
 			has_province_modifier = kongo_estuary_modifier
 			has_province_modifier = amur_estuary_modifier
+			has_province_modifier = orinoco_estuary_modifier
+			has_province_modifier = mng_bogue_modifier
+			has_province_modifier = expanded_nile_estuary_modifier #Vanilla EU4 probably forgot this one //Dub
 			#Added estuaries in BT. Thanks for the note in event_modifiers Paradox! =D -Draiocht
 			has_province_modifier = fraiser_estuary_modifier
 			has_province_modifier = yukon_estuary_modifier
@@ -188,9 +195,25 @@ has_no_river_estuary_trigger = {
 	}
 }
 
+#Has special Trade modifier
+has_special_trade_modifier = {
+	OR = {
+		has_province_modifier = sound_toll
+		has_province_modifier = bosphorous_sound_toll
+		has_province_modifier = trade_post_modifier
+		has_province_modifier = tur_hormuz_toll_modifier
+		has_province_modifier = birth_of_a_new_city_dip
+		has_province_modifier = birthplace_of_the_new_world
+		has_province_modifier = growth_of_global_trade
+		has_province_modifier = dominant_trade_hub
+	}
+}
+
 #Province with special production modifier:
 province_with_special_goods_produced_trigger = {
 	OR = {
+		trade_goods = bt_trade_good_silver
+		trade_goods = gold
 		has_province_modifier = stora_kopparberget_modifier
 		has_province_modifier = granary_of_the_mediterranean
 		has_province_modifier = ven_murano_glass_industry
@@ -204,6 +227,7 @@ province_with_special_goods_produced_trigger = {
 		has_province_modifier = bookmarket_of_x
 		has_province_modifier = grand_bank_fisheries
 		has_province_modifier = diamond_district
+		has_province_modifier = diamond_district2
 		has_province_modifier = jingdezhen_kilns
 		has_province_modifier = perfume_capital
 		has_active_triggered_province_modifier = cerro_rico_modifier
@@ -240,6 +264,7 @@ province_without_special_goods_produced_trigger = {
 		has_province_modifier = bookmarket_of_x
 		has_province_modifier = grand_bank_fisheries
 		has_province_modifier = diamond_district
+		has_province_modifier = diamond_district2
 		has_province_modifier = jingdezhen_kilns
 		has_province_modifier = perfume_capital
 		has_active_triggered_province_modifier = cerro_rico_modifier

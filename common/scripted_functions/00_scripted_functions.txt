@@ -1,0 +1,585 @@
+#Not sure if I can take parts of these scripted functions and implement them that way, so I'm just taking the whole file. //Dub
+
+# Hard-coded functions made fully or partly scripted
+#
+# Note that most functions use unique mechanics
+
+# ROOT = country
+can_join_hre_league = {
+	condition = {
+		tooltip = "CANNOT_JOIN_LEAGUE_AT_WAR"
+		potential = {
+		}
+		allow = {
+			is_at_war = no
+		}
+	}
+}
+
+can_leave_hre_league = {
+}
+
+can_harsh_treatment = {
+}
+
+can_reduce_war_exhaustion = {
+	condition = {
+		tooltip = "MAY_CANNOT_REDUCE_WAR_EXHAUSTION_OR_AUTONOMY"
+		potential = {
+			has_country_modifier = MAY_mayan_reform
+		}
+		allow = {
+			NOT = {
+				has_country_modifier = MAY_mayan_reform
+			}
+		}
+	}
+}
+
+can_reduce_inflation = {
+}
+
+can_declare_bankruptcy = {
+}
+
+can_release_colonial_nation = {
+	condition = {
+		tooltip = "CAN_RELEASE_CN_WE_ARE_AT_WAR"
+		potential = {
+		}
+		allow = {
+			is_at_war = no
+		}
+	}
+}
+
+can_claim_defender_of_faith = {
+}
+
+can_change_national_focus = {
+}
+
+can_increase_stability = {
+}
+
+# ROOT = province, FROM = country
+can_add_province_to_hre = {
+	
+}
+
+#ROOT = province, FROM = country
+can_remove_province_from_hre = {
+	condition = {
+		potential = {
+			owner = {
+				ai = yes
+			}
+		}
+		allow = {
+			owner = {
+				NOT = {
+					has_country_flag = permanently_left_hre_flag
+				}
+			}
+		}
+	}
+}
+
+can_increase_autonomy = {
+	condition = {
+		tooltip = "MAY_CANNOT_REDUCE_WAR_EXHAUSTION_OR_AUTONOMY"
+		potential = {
+			owner = {
+				has_country_modifier = MAY_mayan_reform
+			}
+		}
+		allow = {
+			owner = {
+				NOT = {
+					has_country_modifier = MAY_mayan_reform
+				}
+			}
+		}
+	}
+}
+
+can_decrease_autonomy = {
+}
+
+can_make_core = {
+}
+
+can_make_state = { #BT Modified
+	condition = { #An overseas province should never be made a state by the AI.
+		tooltip = "BT_AI_SPECIFIC_CHANGE"
+		potential = {
+			owner = {
+				ai = yes
+			}
+		}
+		allow = {
+			NOT = { is_overseas = yes }
+		}
+	}
+}
+
+can_abandon_state = {
+}
+
+can_improve_tax = { #BT Modified for dev points
+	condition = {	#Stops ai from devloping with these buttons (they use the auto dev function)
+        tooltip = "dev_points_disabled"
+        potential = {
+			FROM = {
+				ai = yes
+			}
+        }
+        allow = { always = no }
+    }
+	condition = {	#Stops the player from developing their own provinces if they don't have enough dev points 
+        tooltip = "dev_points_not_enough_dev_points"
+        potential = {
+			FROM = {
+				ai = no
+			}
+        }
+        allow = {
+			owner = {
+				FROM = {	#This should be the person who is going to pay for the dev
+					has_enough_dev_points_to_dev = yes
+				}
+			}
+		}
+    }
+	condition = {	#Can a player develop their own provinces
+        tooltip = "dev_points_you_allow_overlord_to_dev"
+        potential = {
+			owned_by = FROM
+        }
+        allow = {
+			owned_by = FROM
+			OR = {
+				#Allows players to dev their own provinces if they are independent
+				FROM = {
+					ai = no
+					is_subject = no
+				}
+				#Allows players to dev their own provinces if they are a subject with an ai overlord
+				FROM = {
+					ai = no
+					is_subject = yes
+					overlord = {
+						ai = yes
+					}
+				}
+				#Allows players to dev their own provinces if they are a subject with a player overlord without the flag let_player_overlord_dev
+				FROM = {
+					ai = no
+					is_subject = yes
+					NOT = {
+						has_country_flag = let_player_overlord_dev
+					}
+					overlord = {
+						ai = no
+					}
+				}
+			}
+		}
+    }
+	condition = {	#Can a player develop their subject's provinces
+        tooltip = "dev_points_your_subject_does_not_allow_overlord_to_dev"
+        potential = {
+			NOT = {
+				owned_by = FROM
+			}
+        }
+        allow = {
+			NOT = {
+				owned_by = FROM
+			}
+			OR = {
+				#Allows players to dev their subject's provinces if they are an ai
+				owner = {
+					ai = yes
+					is_subject = yes
+					overlord = {
+						ai = no
+					}
+					is_subject_of = FROM
+				}
+				#Allows players to dev their subject's provinces if they are a player with the flag let_player_overlord_dev
+				owner = {
+					ai = no
+					is_subject = yes
+					has_country_flag = let_player_overlord_dev
+					overlord = {
+						ai = no
+					}
+					is_subject_of = FROM
+				}
+			}
+		}
+    }
+}
+
+can_improve_production = { #BT Modified for dev points
+	condition = {	#Stops ai from devloping with these buttons (they use the auto dev function)
+        tooltip = "dev_points_disabled"
+        potential = {
+			FROM = {
+				ai = yes
+			}
+        }
+        allow = { always = no }
+    }
+	condition = {	#Stops the player from developing their own provinces if they don't have enough dev points
+        tooltip = "dev_points_not_enough_dev_points"
+        potential = {
+			FROM = {
+				ai = no
+			}
+        }
+        allow = {
+			owner = {
+				FROM = {	#This should be the person who is going to pay for the dev
+					has_enough_dev_points_to_dev = yes
+				}
+			}
+		}
+    }
+	condition = {	#Can a player develop their own provinces
+        tooltip = "dev_points_you_allow_overlord_to_dev"
+        potential = {
+			owned_by = FROM
+        }
+        allow = {
+			owned_by = FROM
+			OR = {
+				#Allows players to dev their own provinces if they are independent
+				FROM = {
+					ai = no
+					is_subject = no
+				}
+				#Allows players to dev their own provinces if they are a subject with an ai overlord
+				FROM = {
+					ai = no
+					is_subject = yes
+					overlord = {
+						ai = yes
+					}
+				}
+				#Allows players to dev their own provinces if they are a subject with a player overlord without the flag let_player_overlord_dev
+				FROM = {
+					ai = no
+					is_subject = yes
+					NOT = {
+						has_country_flag = let_player_overlord_dev
+					}
+					overlord = {
+						ai = no
+					}
+				}
+			}
+		}
+    }
+	condition = {	#Can a player develop their subject's provinces
+        tooltip = "dev_points_your_subject_does_not_allow_overlord_to_dev"
+        potential = {
+			NOT = {
+				owned_by = FROM
+			}
+        }
+        allow = {
+			NOT = {
+				owned_by = FROM
+			}
+			OR = {
+				#Allows players to dev their subject's provinces if they are an ai
+				owner = {
+					ai = yes
+					is_subject = yes
+					overlord = {
+						ai = no
+					}
+					is_subject_of = FROM
+				}
+				#Allows players to dev their subject's provinces if they are a player with the flag let_player_overlord_dev
+				owner = {
+					ai = no
+					is_subject = yes
+					has_country_flag = let_player_overlord_dev
+					overlord = {
+						ai = no
+					}
+					is_subject_of = FROM
+				}
+			}
+		}
+    }
+}
+
+can_improve_manpower = { #BT Modified for dev points
+	condition = {	#Stops ai from devloping with these buttons (they use the auto dev function)
+        tooltip = "dev_points_disabled"
+        potential = {
+			FROM = {
+				ai = yes
+			}
+        }
+        allow = { always = no }
+    }
+	condition = {	#Stops the player from developing their own provinces if they don't have enough dev points
+        tooltip = "dev_points_not_enough_dev_points"
+        potential = {
+			FROM = {
+				ai = no
+			}
+        }
+        allow = {
+			owner = {
+				FROM = {	#This should be the person who is going to pay for the dev
+					has_enough_dev_points_to_dev = yes
+				}
+			}
+		}
+    }
+	condition = {	#Can a player develop their own provinces
+        tooltip = "dev_points_you_allow_overlord_to_dev"
+        potential = {
+			owned_by = FROM
+        }
+        allow = {
+			owned_by = FROM
+			OR = {
+				#Allows players to dev their own provinces if they are independent
+				FROM = {
+					ai = no
+					is_subject = no
+				}
+				#Allows players to dev their own provinces if they are a subject with an ai overlord
+				FROM = {
+					ai = no
+					is_subject = yes
+					overlord = {
+						ai = yes
+					}
+				}
+				#Allows players to dev their own provinces if they are a subject with a player overlord without the flag let_player_overlord_dev
+				FROM = {
+					ai = no
+					is_subject = yes
+					NOT = {
+						has_country_flag = let_player_overlord_dev
+					}
+					overlord = {
+						ai = no
+					}
+				}
+			}
+		}
+    }
+	condition = {	#Can a player develop their subject's provinces
+        tooltip = "dev_points_your_subject_does_not_allow_overlord_to_dev"
+        potential = {
+			NOT = {
+				owned_by = FROM
+			}
+        }
+        allow = {
+			NOT = {
+				owned_by = FROM
+			}
+			OR = {
+				#Allows players to dev their subject's provinces if they are an ai
+				owner = {
+					ai = yes
+					is_subject = yes
+					overlord = {
+						ai = no
+					}
+					is_subject_of = FROM
+				}
+				#Allows players to dev their subject's provinces if they are a player with the flag let_player_overlord_dev
+				owner = {
+					ai = no
+					is_subject = yes
+					has_country_flag = let_player_overlord_dev
+					overlord = {
+						ai = no
+					}
+					is_subject_of = FROM
+				}
+			}
+		}
+    }
+	# Kept here for posterity, was used pre dev points. Removed from tax and production
+	# condition = { #We want to stop overdevving of coal provinces.
+		# tooltip = "BT_AI_SPECIFIC_CHANGE"
+		# potential = {
+			# owner = {
+				# ai = yes
+			# }
+			# has_latent_trade_goods = coal
+		# }
+		# allow = { #So if province has coal latent trade good, only develop up to 5 clicks, unless is capital or enlightenment is spreading.
+			# OR = {
+				# AND = {
+					# is_capital = yes
+					# NOT = { is_part_of_hre = yes }
+				# }
+				# enlightenment = 10
+				# NOT = { num_of_times_improved_by_owner = 5 }
+			# }
+		# }
+	# }
+}
+
+can_exploit_tax = {
+}
+
+can_exploit_production = {
+}
+
+can_exploit_manpower = {
+}
+
+can_change_culture = {
+}
+
+can_move_capital = {
+	condition = {
+		tooltip = "NO_CAPITAL_MOVE_SHOGUN"
+		potential = {
+			FROM = {
+				has_reform = shogunate
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+can_move_trade_port = {
+}
+
+can_order_assault = {
+}
+
+can_order_force_march = {
+}
+
+can_scorch_earth = {
+}
+
+can_garrison_sorties = {
+}
+
+can_seize_colony = {
+}
+
+can_burn_colony = {
+}
+
+can_colonize_province = {
+}
+
+can_colonize_province_siberian_frontier = {
+	#condition = {
+	#	tooltip = "MAY_COLONIZE_ONCE_EVERY_5_YEARS"
+	#	potential = {
+	#		FROM = {
+	#			has_country_modifier = MAY_american_frontiers
+	#		}
+	#	}
+	#	allow = {
+	#		FROM = {
+	#			OR = {
+	#				NOT = { has_country_flag = MAY_american_frontier_cooldown }
+	#				had_country_flag = {
+	#					flag = MAY_american_frontier_cooldown
+	#					days = 1825
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
+}
+
+can_add_seat_in_parliament = {
+}
+
+can_remove_seat_in_parliament = {
+}
+
+can_add_estate = {
+}
+
+can_expel_minority_from = {
+	condition = {
+		potential = {
+			OR = {
+				is_religious_center_province = yes
+				is_reformation_center = yes
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+#hardcoded: has a colonial parent or is in the same colonial region as the capital
+can_have_colonial_nations = {
+	condition = {
+		potential = {
+			FROM = {
+				has_country_flag = no_colonial_nations
+			}
+		}
+		allow = {
+			always = no 
+		}
+	}
+}
+
+### Special functions
+
+# Called by can_add_province_to_hre
+is_possible_hre_province = {
+	condition = {
+		tooltip = "APH_ONLY_EUROPE"
+		potential = {
+		}
+		allow = {
+			continent = europe
+		}
+	}
+}
+
+will_demand_annexation = {
+	condition = {
+		potential = {
+			is_elector = yes
+		}
+		allow = {
+			NOT = { hre_reform_passed = landfriede }
+		}
+	}
+}
+
+can_join_hre = {
+	condition = {
+		tooltip = "PERMANENTLY_LEFT_HRE"
+		potential = {
+		}
+		allow = {
+			NOT = {
+				has_country_flag = permanently_left_hre_flag
+			}
+		}
+	}
+}
+
+can_leave_hre = {
+}

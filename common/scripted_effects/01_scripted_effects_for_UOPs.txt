@@ -1,0 +1,55 @@
+
+add_UOP_modifier = {
+	set_global_flag = UOP_modifiers_given
+	every_province = {
+		limit = {
+			OR = {
+				### Subcontinents
+				superregion = persia_superregion
+				superregion = tartary_superregion
+				superregion = india_superregion
+				superregion = far_east_superregion
+				superregion = china_superregion
+				superregion = south_america_superregion
+				superregion = andes_superregion
+				### Regions
+				region = oceanea_region
+				#
+				region = kongo_region
+				region = central_africa_region
+				region = east_africa_region
+				#
+				region = northeast_america_region
+				region = southeast_america_region
+				region = mississippi_region
+				region = great_lakes_region
+				region = rio_grande_region	
+				#
+				region = mexico_region
+				region = central_america_region
+				# 
+				region = guinea_region
+				region = niger_region
+				region = sahel_region
+				#
+				region = arabia_region
+				#
+				region = ural_region
+				area = azov_area
+				area = lower_yik_area
+				area = middle_don_area
+				area = lower_don_area
+				area = astrakhan_area
+				#Caucasia
+				area = circassia_area
+				area = dagestan_area
+				province_id = 2195 #Adyghe
+			}
+		}
+		add_permanent_province_modifier = {
+			name = BT_UOP_province
+			duration = -1
+			desc = BT_UOP_province_tooltip
+		}
+	}
+}

@@ -1,0 +1,663 @@
+# ai_alliance = {
+    # category = alliance        #Complete remaking of basegame alliances. Made by Harbivore with the intention to allow for much smarter ai in bt
+    
+    
+    # require_acceptance = yes   # Whether the action needs to be accepted by the target country for the accept effect to execute.
+    
+    # is_visible = {
+		# always = no
+        # NOT = {
+			# alliance_with = FROM	#To make it disappear if an alliance is already made
+			# #ai = yes				#Unless I can make the original one disappear completely this will only affect ai
+		# }
+    # }
+    
+    # is_allowed = {
+		# always = no
+        # NOT = {
+			# alliance_with = FROM	#To make it disappear if an alliance is already made
+		# }
+    # }
+    
+    # # Which effects to execute on acceptance
+    # on_accept = {
+        # add_treasury = 1000
+    # }
+	
+    # on_decline = {
+		# add_opinion = {
+			# who = ROOT
+			# modifier = rejected_alliance 
+		# }
+    # }
+        
+	# # Vanilla Things that need to go here
+	# # - Proposer army strength
+	# # - Proposer navy strength
+	# # - Ai attitude to proposer
+	# # - Proposer is a subject nation
+	# # - Nation is a subject nation
+	# # - Historical rival
+	# # - Common rival
+	# # - Royal Marriage
+	# # - Nation's opinion about proposer
+	# # - Trust
+	# # - Allied to proposer's rival
+	# # - Proposer allied to rival
+	# # - Proposer diplomatic reputation
+	# # - Proposer is at war
+	# # - Not the same religious group
+	# # - Distance between borders (only if attitude is neutral)
+	# # - Target nations' ruler is Kind-Hearted
+	# # - Proposer is threatened by nation's rival
+	# # - Proposer already has a powerful ally
+	# # - Same religious school (for Islam nations)
+	# # - Religious school relations (for Islam nations)
+	# #
+	# #
+	# # Extra things to add
+	# # - Negative points for target being too low development 
+	# #	This is for large nations to stop them getting poor allies
+	# #	It also should have an out for countries that are trying to get a vassal
+	# # - Negative points for target being too high development
+	# #	This is for small nations to stop them trying to ally large nations
+	# # - Positives for being a good ally
+	# #	This is to make the nation pick good alliances. Would increase if the
+	# #	target is a great power or is allied to a great power
+	# # - Negatives for being too close to the nation
+	# #	This is to stop the ai from allying a nation in their path of conquest
+	# # - Potential to add modifiers depending on missions completed 
+	# #	An example of this would be to 
+	# # - Add modifiers to the Emperor of the HRE and nations who have at least 1 HRE vote
+	# #	This allows smart alliances to get more intelligent HRE nations
+	# # - Positive points for potential diplomatic vassalisation targets
+	# # - Negative points for low manpower
+	# # - Negative points for low forcelimit percent
+	# # - Negative points for disaster
+	# # - Negative points for occupied provinces (rebel or war)
+	# # - Negative points for war exhaustion
+	# # - Negative points for loans
+	# # - Positive points for large treasury size
+	
+	
+
+	
+		
+    # # Controls the AI's acceptance of the action, if acceptable. Optional.
+    # ai_acceptance = {
+									# #Large simple modifiers
+									
+									# #We are a subject
+		# add_entry = {				
+            # name = bt_ai_alliance_proposer_is_subject	
+			# limit = {
+				# is_subject = yes
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #Target is subject
+		# add_entry = {	
+            # name = bt_ai_alliance_target_is_subject	
+			# limit = {
+				# FROM = {
+					# is_subject = yes
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #They are a historical rival
+		# add_entry = {	
+            # name = bt_ai_alliance_is_historical_rival
+			# limit = {
+				# FROM = {
+					# historical_rival_with = ROOT
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #We have a rival in common
+		# add_entry = {				#Not done
+            # name = bt_ai_alliance_has_common_rival
+			# limit = {
+				# always = no
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = 10
+			# }
+		# }
+									# #We have a royal marrage
+		# add_entry = {									
+            # name = bt_ai_alliance_has_royal_marrage
+			# limit = {
+				# FROM = {
+					# marriage_with = ROOT
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = 10
+			# }
+		# }
+									# #They are allied to our rival
+		# add_entry = {				#Not done
+            # name = bt_ai_alliance_they_are_allied_to_our_rival
+			# limit = {
+				# always = no
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #We are allied to their rival
+		# add_entry = {				#Not done
+            # name = bt_ai_alliance_they_we_allied_to_their_rival
+			# limit = {
+				# always = no
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #We are in an offensive war
+		# add_entry = {									
+            # name = bt_ai_alliance_we_are_in_an_offensive_war
+			# limit = {
+				# is_in_war = {
+					# attackers = ROOT
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #We are in a defensive war
+		# add_entry = {				#Only works for 1 war, shouldn't matter much, added modifier if proposer is occupied
+            # name = bt_ai_alliance_we_are_at_in_an_defensive_war
+			# limit = {
+				# is_in_war = {
+					# defenders = ROOT
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -50
+			# }
+		# }
+									# #We are not in the same religious group
+		# add_entry = {				#Not done
+            # name = bt_ai_alliance_we_are_not_the_same_religious_group
+			# limit = {
+				# always = no
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #Their ruler is kind hearted
+		# add_entry = {
+            # name = bt_ai_alliance_their_ruler_is_kind_hearted
+			# limit = {
+				# FROM = {
+					# ruler_has_personality = kind_hearted_personality
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = 10
+			# }
+		# }
+									# #We are threatened by their rival
+		# add_entry = {				#Not done
+            # name = bt_ai_alliance_we_are_threatened_by_their_rival
+			# limit = {
+				# always = no
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #We already have a powerful ally
+		# add_entry = {				#Not done
+            # name = bt_ai_alliance_proposer_already_has_powerful_ally
+			# limit = {
+				# always = no
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #We are not the same religious school
+		# add_entry = {				#Not done
+            # name = bt_ai_alliance_same_religious_school
+			# limit = {
+				# always = no
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #We are the same religious school
+		# add_entry = {				#Not done
+            # name = bt_ai_alliance_religious_school_relations
+			# limit = {
+				# always = no
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+									# #Friendly attitude
+		# add_entry = {				
+            # name = bt_ai_alliance_attitude_towards_proposer_friendly
+			# limit = { 
+				# FROM = {
+					# ai_attitude = {
+						# who = ROOT
+						# attitude = attitude_friendly
+					# }
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = 50
+			# }
+		# }
+									# #Protective attitude
+		# add_entry = {
+            # name = bt_ai_alliance_attitude_towards_proposer_protective
+			# limit = { 	
+				# FROM = {
+					# ai_attitude = {
+						# who = ROOT
+						# attitude = attitude_protective
+					# }
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = 50
+			# }
+		# }
+									# #Threatened attitude
+		# add_entry = {
+            # name = bt_ai_alliance_attitude_towards_proposer_threatened
+			# limit = { 	
+				# FROM = {
+					# ai_attitude = {
+						# who = ROOT
+						# attitude = attitude_threatened
+					# }
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = 20
+			# }
+		# }
+									# #Neutral attitude
+		# add_entry = {
+            # name = bt_ai_alliance_attitude_towards_proposer_neutral
+			# limit = { 	
+				# FROM = {
+					# ai_attitude = {
+						# who = ROOT
+						# attitude = attitude_neutral
+					# }
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -20
+			# }
+		# }
+									# #Hostile attitude
+		# add_entry = {
+            # name = bt_ai_alliance_attitude_towards_proposer_hostile
+			# limit = { 	
+				# FROM = {
+					# ai_attitude = {
+						# who = ROOT
+						# attitude = attitude_hostile
+					# }
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -100
+			# }
+		# }
+									# #Rivalry attitude
+		# add_entry = {
+            # name = bt_ai_alliance_attitude_towards_rivalry
+			# limit = { 	
+				# FROM = {
+					# ai_attitude = {
+						# who = ROOT
+						# attitude = attitude_rivalry
+					# }
+				# }
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = -1000
+			# }
+		# }
+
+									# #Harder ones that have scaling modifiers
+									
+									# #Strength of our army
+		# add_entry = {				#Im guessing these max out at +/- 50% of the reciver changed to not have a lower limit
+            # name = bt_ai_alliance_proposer_army_strength
+			# limit = {
+				# always = yes
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = 40
+			# }
+			# export_to_variable = {
+				# which = our_army_size
+				# value = army_size 
+				# who = ROOT
+			# }
+			# if = {
+				# limit = {
+					# check_variable = {
+						# which = our_army_size
+						# value = 0
+					# }
+				# }
+				# export_to_variable = {
+					# which = our_army_size
+					# value = 1
+				# }
+				
+			# }
+			# export_to_variable = {
+				# which = their_army_size
+				# value = army_size 
+				# who = FROM
+			# }
+			# if = {
+				# limit = {
+					# check_variable = {
+						# which = their_army_size
+						# value = 0
+					# }
+				# }
+				# export_to_variable = {
+					# which = their_army_size
+					# value = 1
+				# }
+				
+			# }
+			# divide_variable = {          
+				# which = our_army_size  
+				# which = their_army_size
+			# }
+			# subtract_variable = {            
+				# which = our_army_size
+				# value = 1
+			# }
+			# if = {
+				# limit = {
+					# check_variable = {
+						# which = our_army_size
+						# value = 0.5
+					# }
+				# }
+				# export_to_variable = {
+					# which = ai_value
+					# value = 0.5
+				# }
+				
+			# }
+			# multiply_variable = {         
+				# which = ai_value
+				# which = our_army_size
+			# }
+		# }
+									# #Strength of our navy
+		# add_entry = {				#Im guessing these max out at +/- 50% of the reciver changed to not have a lower limit
+            # name = bt_ai_alliance_proposer_navy_strength
+			# limit = {
+				# always = yes
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = 20 
+			# }
+			# export_to_variable = {
+				# which = our_navy_size
+				# value = navy_size 
+				# who = ROOT
+			# }
+			# if = {
+				# limit = {
+					# check_variable = {
+						# which = our_navy_size
+						# value = 0
+					# }
+				# }
+				# export_to_variable = {
+					# which = our_navy_size
+					# value = 1
+				# }
+				
+			# }
+			# export_to_variable = {
+				# which = their_navy_size
+				# value = navy_size 
+				# who = FROM
+			# }
+			# if = {
+				# limit = {
+					# check_variable = {
+						# which = their_navy_size
+						# value = 0
+					# }
+				# }
+				# export_to_variable = {
+					# which = their_navy_size
+					# value = 1
+				# }
+			# }
+			# divide_variable = {            
+				# which = their_navy_size
+				# which = our_navy_size
+			# }
+			# subtract_variable = {            
+				# which = our_navy_size
+				# value = 1
+			# }
+			# if = {
+				# limit = {
+					# check_variable = {
+						# which = our_navy_size
+						# value = 0.5
+					# }
+				# }
+				# export_to_variable = {
+					# which = ai_value
+					# value = 0.5
+				# }
+				
+			# }
+			# multiply_variable = {         
+				# which = ai_value
+				# which = our_navy_size
+			# }
+		# }
+									# #Opinion of us
+		# add_entry = {				#This one scales from -200 to +200 with each point giving 0.25 reasons
+            # name = bt_ai_alliance_opinion_towards_proposer
+			# limit = {
+				# always = yes
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = opinion
+				# who = FROM
+				# with = ROOT
+			# }
+			# multiply_variable = {            
+				# which = ai_value
+				# value = 0.25
+			# }
+			# if = {
+				# limit = {
+					# NOT = {
+						# check_variable = {
+							# which = ai_value
+							# value = -20
+						# }
+					# }
+				# }
+				# export_to_variable = {
+					# which = ai_value
+					# value = -1000
+				# } 
+			# }
+		# }
+									# #Trust with us
+		# add_entry = {				#This one gives 0.5 per positive and -2 per negative
+            # name = bt_ai_alliance_trust_towards_proposer
+			# limit = {
+				# always = yes
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = trust
+				# who = FROM
+				# with = ROOT
+			# }
+			# subtract_variable = {            
+				# which = ai_value
+				# value = 50
+			# }
+			# if = {
+				# limit = {
+					# check_variable = {
+						# which = ai_value
+						# value = 0
+					# }
+				# }
+				# multiply_variable = {            
+					# which = ai_value
+					# value = 0.5
+				# }
+			# }
+			# if = {
+				# limit = {
+					# NOT = {
+						# check_variable = {
+							# which = ai_value
+							# value = 0
+						# }
+					# }
+				# }
+				# multiply_variable = {            
+					# which = ai_value
+					# value = 2
+				# }
+			# }
+		# }
+									# #Our diplomatic reputation
+		# add_entry = {				#This one is 5 per point +ive and -ive
+            # name = bt_ai_alliance_proposer_diplomatic_reputation
+			# limit = {
+				# always = yes
+			# }
+			# export_to_variable = {
+				# which = ai_value
+				# value = trigger_value:diplomatic_reputation
+			# }
+			# multiply_variable = {            
+				# which = ai_value
+				# value = 5
+			# }
+		# }
+									# #Distance between our borders
+		# add_entry = {				#−0.2 per distance between borders greater than 30 only if neutral attitude
+            # name = bt_ai_alliance_distance_between_borders
+			# limit = {
+				# FROM = {
+					# ai_attitude = {
+						# who = ROOT
+						# attitude = attitude_friendly
+					# }
+				# }
+			# }
+		# }
+									# #
+        # add_entry = {			#Based the difference in development of the ai the smaller our development is than them 60% free
+            # name = ally_target_too_small
+            # limit = { 
+				# always = yes
+            # }
+			# export_to_variable = {
+				# which = ai_value
+				# value = 200
+			# }
+            # export_to_variable = {
+                # variable_name = their_development
+                # value = total_development
+                # who = FROM
+            # }
+            # export_to_variable = {
+                # variable_name = our_development
+                # value = total_development
+                # who = ROOT
+            # }
+			# divide_variable = {
+				# which = our_development
+				# which = their_development
+			# }
+            # change_variable = {
+				# which = our_development
+				# which = -0.4
+			# }
+			# if = {
+				# limit = {
+					# NOT = {
+						# check_variable = {
+							# which = our_development
+							# value = 0
+						# }
+					# }
+				# }
+				# export_to_variable = {            
+					# which = our_development
+					# value = 0
+				# }
+			# }
+            # multiply_variable = {            
+				# which = our_development
+				# which = ai_value
+			# }
+        # }
+    # }
+	
+    # # Controls the AI's usage of the action
+    # ai_will_do = {
+        # always = yes
+    # }
+# }

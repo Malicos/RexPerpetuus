@@ -103,8 +103,280 @@ bt_dev_cost_4 = {
 bt_dev_cost_5 = {
     local_development_cost = 2
 }
+bt_centralize_state_provinces_1 = {
+	local_build_cost = -0.1 #BT added, moved from expanded_infrastructure.
+	local_build_time = -0.1 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -0.1 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -0.1 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -0.1 #BT added because centralization makes sense.
+	local_missionary_strength = 0.01 #BT added because centralization makes sense.
+	local_autonomy = -0.025 #BT added because centralization makes sense.
+	local_state_maintenance_modifier = -0.2 #Because this only applies to a single province otherwise.
+	
+	local_development_cost_modifier = -0.025 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_centralize_state_cost = 0.2 #BT Added for balance so that the button isn't clicked 911 times.
+	picture = "centralize_state"
+}
+bt_centralize_state_provinces_2 = {
+	local_build_cost = -0.2 #BT added, moved from expanded_infrastructure.
+	local_build_time = -0.2 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -0.2 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -0.2 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -0.2 #BT added because centralization makes sense.
+	local_missionary_strength = 0.02 #BT added because centralization makes sense.
+	local_autonomy = -0.05 #BT added because centralization makes sense.
+	local_state_maintenance_modifier = -0.4 #Because this only applies to a single province otherwise.
+	
+	local_development_cost_modifier = -0.05 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_centralize_state_cost = 0.4 #BT Added for balance so that the button isn't clicked 911 times.
+	picture = "centralize_state"
+}
+bt_centralize_state_provinces_3 = {
+	local_build_cost = -0.3 #BT added, moved from expanded_infrastructure.
+	local_build_time = -0.3 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -0.3 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -0.3 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -0.3 #BT added because centralization makes sense.
+	local_missionary_strength = 0.03 #BT added because centralization makes sense.
+	local_autonomy = -0.075 #BT added because centralization makes sense.
+	local_state_maintenance_modifier = -0.6 #Because this only applies to a single province otherwise.
+	
+	local_development_cost_modifier = -0.075 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_centralize_state_cost = 0.6 #BT Added for balance so that the button isn't clicked 911 times.
+	picture = "centralize_state"
+}
+bt_centralize_state_provinces_4 = {
+	local_build_cost = -0.4 #BT added, moved from expanded_infrastructure.
+	local_build_time = -0.4 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -0.4 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -0.4 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -0.4 #BT added because centralization makes sense.
+	local_missionary_strength = 0.04 #BT added because centralization makes sense.
+	local_autonomy = -0.1 #BT added because centralization makes sense.
+	local_state_maintenance_modifier = -0.8 #Because this only applies to a single province otherwise.
+	
+	local_development_cost_modifier = -0.1 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_centralize_state_cost = 0.8 #BT Added for balance so that the button isn't clicked 911 times.
+	picture = "centralize_state"
+}
+bt_centralize_state_provinces_5 = {
+	local_build_cost = -0.5 #BT added, moved from expanded_infrastructure.
+	local_build_time = -0.5 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -0.5 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -0.5 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -0.5 #BT added because centralization makes sense.
+	local_missionary_strength = 0.05 #BT added because centralization makes sense.
+	local_autonomy = -0.125 #BT added because centralization makes sense.
+	local_state_maintenance_modifier = -1.0 #Because this only applies to a single province otherwise.
+	
+	local_development_cost_modifier = -0.1 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_centralize_state_cost = 1.0 #BT Added for balance so that the button isn't clicked 911 times.
+	picture = "centralize_state"
+}
+bt_centralize_state_provinces_6 = {
+	local_build_cost = -0.6 #BT added, moved from expanded_infrastructure.
+	local_build_time = -0.6 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -0.6 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -0.6 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -0.6 #BT added because centralization makes sense.
+	local_missionary_strength = 0.06 #BT added because centralization makes sense.
+	local_autonomy = -0.15 #BT added because centralization makes sense.
+	local_state_maintenance_modifier = -1.2 #Because this only applies to a single province otherwise.
+	
+	local_development_cost_modifier = -0.15 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_centralize_state_cost = 1.2 #BT Added for balance so that the button isn't clicked 911 times.
+	picture = "centralize_state"
+}
+bt_centralize_state_provinces_7 = {
+	local_build_cost = -0.7 #BT added, moved from expanded_infrastructure.
+	local_build_time = -0.7 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -0.7 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -0.7 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -0.7 #BT added because centralization makes sense.
+	local_missionary_strength = 0.07 #BT added because centralization makes sense.
+	local_autonomy = -0.175 #BT added because centralization makes sense.
+	local_state_maintenance_modifier = -1.4 #Because this only applies to a single province otherwise.
+	
+	local_development_cost_modifier = -0.175 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_centralize_state_cost = 1.4 #BT Added for balance so that the button isn't clicked 911 times.
+	picture = "centralize_state"
+}
+bt_centralize_state_provinces_8 = {
+	local_build_cost = -0.8 #BT added, moved from expanded_infrastructure.
+	local_build_time = -0.8 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -0.8 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -0.8 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -0.8 #BT added because centralization makes sense.
+	local_missionary_strength = 0.08 #BT added because centralization makes sense.
+	local_autonomy = -0.2 #BT added because centralization makes sense.
+	local_state_maintenance_modifier = -1.6 #Because this only applies to a single province otherwise.
+	
+	local_development_cost_modifier = -0.2 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_centralize_state_cost = 1.6 #BT Added for balance so that the button isn't clicked 911 times.
+	picture = "centralize_state"
+}
+bt_centralize_state_provinces_9 = {
+	local_build_cost = -0.9 #BT added, moved from expanded_infrastructure.
+	local_build_time = -0.9 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -0.9 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -0.9 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -0.9 #BT added because centralization makes sense.
+	local_missionary_strength = 0.09 #BT added because centralization makes sense.
+	local_autonomy = -0.225 #BT added because centralization makes sense.
+	local_state_maintenance_modifier = -1.8 #Because this only applies to a single province otherwise.
+	
+	local_development_cost_modifier = -0.225 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_centralize_state_cost = 1.8 #BT Added for balance so that the button isn't clicked 911 times.
+	picture = "centralize_state"
+}
+bt_centralize_state_provinces_10 = {
+	local_build_cost = -1.0 #BT added, moved from expanded_infrastructure.
+	local_build_time = -1.0 #BT added, moved from expanded_infrastructure.
+	regiment_recruit_speed = -1.0 #BT added, moved from expanded_infrastructure.
+	ship_recruit_speed = -1.0 #BT added, moved from expanded_infrastructure.
+	local_culture_conversion_time = -1.0 #BT added because centralization makes sense.
+	local_missionary_strength = 0.1 #BT added because centralization makes sense.
+	local_autonomy = -0.25 #BT added because centralization makes sense.
+	local_state_maintenance_modifier = -2.0 #Because this only applies to a single province otherwise.
+	
+	local_development_cost_modifier = -0.25 #BT added because we want to incentivise tall play. #Changed to local development efficiency, we want to encourage tall play but not that much.
+	local_centralize_state_cost = 2.0 #BT Added for balance so that the button isn't clicked 911 times.
+	picture = "centralize_state"
+}
+
+#The below modifiers apply in on_actions and are a hacky way of doing the overhaul because the dip tech file does not take promote culture cost as a valid modifier.
+bt_culture_cost_redux_1 = { #Dip tech 8-13
+	promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
+}
+
+bt_culture_cost_redux_2 = { #Dip tech 14-19
+	promote_culture_cost = -0.2 #BT Accepted Culture Slots overhaul
+}
+
+bt_culture_cost_redux_3 = { #Dip tech 20-25
+	promote_culture_cost = -0.3 #BT Accepted Culture Slots overhaul
+}
+
+bt_culture_cost_redux_4 = { #Dip tech 26-30
+	promote_culture_cost = -0.4 #BT Accepted Culture Slots overhaul
+}
+
+bt_culture_cost_redux_5 = { #Dip tech 31-32
+	promote_culture_cost = -0.5 #BT Accepted Culture Slots overhaul
+}
+
+bt_georgia_triarchy = {			#BT Added to fix Georgian minors starting LD.
+	reduced_liberty_desire = 20
+}
+
+extra_colonist_button_mod = {
+	colonists = 1
+	country_diplomatic_power = -1
+}
+
+extra_diplomat_button_mod = {
+	diplomats = 1
+	country_diplomatic_power = -1
+}
+
+extra_merchant_button_mod = {
+	merchants = 1
+	country_diplomatic_power = -1
+}
+
+extra_missionary_button_mod = {
+	missionaries = 1
+	country_admin_power = -1
+}
+
+institution_spread_button_mod = {
+	global_institution_spread = 0.5
+	country_admin_power = -1
+}
+
+monthly_dev_points_button_mod = {
+	country_dev_points_modifier = 0.20
+	country_admin_power = -1
+	country_diplomatic_power = -1
+	country_military_power = -1
+}
+
+reform_progress_growth_button_mod = {
+	monthly_reform_progress_modifier = 0.25
+	country_admin_power = -1
+}
+
+yearly_absolutism_button_mod = {
+	yearly_absolutism = 0.5
+	country_military_power = -1
+}
+
+yearly_army_professionalism_button_mod = {
+	yearly_army_professionalism = 0.005
+	country_military_power = -1
+}
+
+yearly_army_tradition_button_mod = {
+	army_tradition = 1
+	country_military_power = -1
+}
+
+yearly_innovativeness_button_mod = {
+	yearly_innovativeness = 0.25
+	country_military_power = -1
+}
+
+estate_church_monopoly_of_books_mod = {
+	local_production_efficiency = -10
+}
+
+estate_church_monopoly_of_apiculture_mod = {
+	local_production_efficiency = -10
+}
+
+estate_church_monopoly_of_vodka_mod = {
+	local_production_efficiency = -10
+}
+
+estate_nobles_monopoly_of_vodka_mod = {
+	local_production_efficiency = -10
+}
+
+estate_burghers_monopoly_of_vodka_mod = {
+	local_production_efficiency = -10
+}
+
+estate_cossacks_monopoly_of_vodka_mod = {
+	local_production_efficiency = -10
+}
+
+#BUL_missions modifiers
+bul_bulgarian_macedonia_mod = {
+	base_local_dev_points = 0.02
+}
+
+bul_siege_engines = {
+	siege_ability = 0.15
+}
 
 
+bul_third_bulgarian_empire = {
+	administrative_efficiency = 0.05
+}
+
+#BUL estate privilege modifiers - Remember to change these if terrain dev costs are ever changed.
+estate_nobles_bulgarian_hillforts_mountains_fort = {
+	local_development_cost = -0.5
+}
+estate_nobles_bulgarian_hillforts_hills_fort = {
+	local_development_cost = -0.3
+}
+estate_nobles_bulgarian_hillforts_mountains_no_fort = {
+	local_development_cost = -0.25
+}
+estate_nobles_bulgarian_hillforts_hills_no_fort = {
+	local_development_cost = -0.15
+}
 ##################################################################################################
 ##################################################################################################
 ##################################################################################################
@@ -171,4 +443,81 @@ stannery_law_modifier = {
 
 bt_sc_demand_unlawful_land_cooldown = {
     picture = "relations_decay_of_me"
+}
+
+##################################################################################################
+##################################################################################################
+##################################################################################################
+# Harbivore's work
+##################################################################################################
+##################################################################################################
+##################################################################################################
+
+bt_au_cannot_get_heir = {
+	heir_chance = -10
+}
+
+bt_au_cannot_get_heir_or_die = {
+	heir_chance = -10
+ 	monarch_lifespan = 1
+}
+
+bt_fredricks_diplomats = {				#Added to help styria to get good allies at game start as they have 70% of their vanilla land taken
+	 diplomatic_reputation = 3
+}
+
+bt_centralization_effort = {
+	global_autonomy = -0.05
+	global_unrest = -2
+}
+
+danzig_revolt_fervor = {
+	land_maintenance_modifier = -0.20
+	land_forcelimit = 7
+	land_morale = 0.20
+}
+
+pissed_at_the_english_bt = {
+	liberty_desire = 25
+}
+
+bt_shah_rukh_deaded = {			#BT Added as a fix for timmy until there is a region overhaul Harbivore
+	reduced_liberty_desire = -20
+}
+
+bt_teu_turned_pru = {			#BT added to keep prussian vassal loyal
+	liberty_desire = -20
+}
+
+bt_english_loyalist_immigrants = {
+	base_local_dev_points = 0.1
+}
+
+bt_albania_lezhe_subsidies = {
+	global_tax_income = 18
+}
+
+bt_venice_lezhe_subsidies = {
+	global_tax_income = -18
+}
+
+bt_interregnum_so_no_heir = {
+	heir_chance = -10
+}
+
+BT_UOP_province = {
+	local_build_cost = 1
+	local_dev_points_modifier = 1.5
+	local_defensiveness = 1
+	local_development_cost_modifier = -0.2
+	local_fort_maintenance_modifier = 1
+	local_garrison_size = 1
+	ship_recruit_speed = -0.2
+	regiment_recruit_speed = -0.2
+	allowed_num_of_buildings = -1
+	local_gold_depletion_chance_modifier = -0.25
+	local_institution_spread = -0.25
+	local_culture_conversion_time = -0.5
+	local_center_of_trade_upgrade_cost = 0.25
+	local_sailors_modifier = -0.2
 }

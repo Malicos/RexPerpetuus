@@ -1,15 +1,23 @@
+#Dev note: This file may eventually be split up into several different files, one for each estate, but until it grows larger, we'll keep it in a single file.
+
+#BT Nobles privileges
 estate_nobles_very_strong_duchies = {
 	icon = privilege_royal_authority
 	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.1
 	loyalty = 0.05
+	check_valid_when_tag_switching = no
 	is_valid = {
 		calc_true_if = {
 			amount = 3
 			all_subject_country = {
 				OR = {
-					is_march = yes
-					is_vassal = yes
+					is_subject_of_type = vassal
+					is_subject_of_type = client_vassal
+					is_subject_of_type = march
+					is_subject_of_type = client_march
+					is_subject_of_type = personal_union
 				}
 			}
 		}
@@ -20,28 +28,24 @@ estate_nobles_very_strong_duchies = {
 		}
 	}
 	can_select = {
-		if = {
-			limit = {
-				has_dlc = "Art of War"
-			}
-			custom_trigger_tooltip = {
-				tooltip = estate_nobles_very_strong_duchies_trigger_tooltip
-				calc_true_if = {
-					amount = 4
-					all_subject_country = {
-						OR = {
-							is_march = yes
-							is_vassal = yes
-						}
+		custom_trigger_tooltip = {
+			tooltip = estate_nobles_very_strong_duchies_trigger_tooltip
+			calc_true_if = {
+				amount = 4
+				all_subject_country = {
+					OR = {
+						is_subject_of_type = vassal
+						is_subject_of_type = client_vassal
+						is_subject_of_type = march
+						is_subject_of_type = client_march
+						is_subject_of_type = personal_union
 					}
 				}
 			}
 		}
-		else = {
-			vassal = 4
-		}
 	}
 	penalties = {
+		governing_capacity_modifier = -0.15	#BT added to balance and add another reasonable negative to taking this (The other negative is the privilege slots) Harb
 	}
 	benefits = {
 		diplomatic_upkeep = 2
@@ -58,43 +62,44 @@ estate_nobles_very_strong_duchies = {
 estate_nobles_extremely_strong_duchies = {
 	icon = privilege_royal_authority
 	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	influence = 0.1
 	loyalty = 0.05
+	check_valid_when_tag_switching = no
 	is_valid = {
 		calc_true_if = {
 			amount = 5
 			all_subject_country = {
 				OR = {
-					is_march = yes
-					is_vassal = yes
+					is_subject_of_type = vassal
+					is_subject_of_type = client_vassal
+					is_subject_of_type = march
+					is_subject_of_type = client_march
+					is_subject_of_type = personal_union
 				}
 			}
 		}
 		has_estate_privilege = estate_nobles_very_strong_duchies
 	}
 	can_select = {
-		if = {
-			limit = {
-				has_dlc = "Art of War"
-			}
-			custom_trigger_tooltip = {
-				tooltip = estate_nobles_extremely_strong_duchies_trigger_tooltip
-				calc_true_if = {
-					amount = 6
-					all_subject_country = {
-						OR = {
-							is_march = yes
-							is_vassal = yes
-						}
+		custom_trigger_tooltip = {
+			tooltip = estate_nobles_extremely_strong_duchies_trigger_tooltip
+			calc_true_if = {
+				amount = 6
+				all_subject_country = {
+					OR = {
+						is_subject_of_type = vassal
+						is_subject_of_type = client_vassal
+						is_subject_of_type = march
+						is_subject_of_type = client_march
+						is_subject_of_type = personal_union
 					}
 				}
 			}
 		}
-		else = {
-			vassal = 6
-		}
 	}
 	penalties = {
+		governing_capacity_modifier = -0.15  #BT added to balance and add another reasonable negative to taking this (The other negative is the privilege slots) Harb
 	}
 	benefits = {
 		diplomatic_upkeep = 2
@@ -111,8 +116,10 @@ estate_nobles_extremely_strong_duchies = {
 estate_nobles_british_strong_marches = {
 	icon = privilege_british_strong_marches
 	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	loyalty = 0.1
 	influence = 0.1
+	check_valid_when_tag_switching = no
 	is_valid = {
 		OR = {
 			has_estate_privilege = estate_nobles_british_strong_marches
@@ -151,6 +158,7 @@ estate_nobles_british_strong_marches = {
 		}
 	}
 	penalties = {
+		governing_capacity_modifier = -0.2	#BT added to balance and add another reasonable negative to taking this (The other negative is the privilege slots) Harb
 	}
 	benefits = {
 		diplomatic_upkeep = 3
@@ -167,6 +175,7 @@ estate_nobles_british_strong_marches = {
 estate_nobles_border_forts = {
 	icon = privilege_autonomous_defences
 	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
 	#loyalty = 0.1
 	influence = 0.05
 	is_valid = {
@@ -189,13 +198,13 @@ estate_nobles_border_forts = {
 			}
 		}
 	}
+	conditional_modifier = { trigger = { ai = yes } modifier = { fort_maintenance_modifier = -0.25 } }
 	modifier_by_land_ownership = { 
 		fort_maintenance_modifier = -0.75
 	}
 	penalties = {
 	}
 	benefits = {
-		fort_maintenance_modifier = -0.25
 	}
 	ai_will_do = {
 		factor = 1
@@ -234,4 +243,870 @@ estate_nobles_border_forts = {
 			NOT = { has_estate_privilege = estate_nobles_border_forts }
 		}
 	}
+}
+estate_nobles_mamluk_decadence = {
+	icon = privilege_mamluk_decadence
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	influence = 0.1
+	is_valid = {
+		OR = {
+			has_estate_privilege = estate_nobles_mamluk_decadence
+			has_reform = mamluk_government
+		}
+	}
+	can_select = {
+		has_estate_privilege = estate_nobles_mamluk_decadence
+	}
+	penalties = {
+		mil_tech_cost_modifier = 0.25
+	}
+	benefits = {
+	}
+	modifier_by_land_ownership = { 
+		mil_tech_cost_modifier = 0.75
+	}
+}
+estate_nobles_monopoly_of_vodka = {
+	icon = privilege_monopoly_of_goods_beer
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	loyalty = 0.05
+	is_valid = {
+		has_country_flag = estate_nobles_vodka_monopoly
+		any_owned_province = {
+			trade_goods = bt_trade_good_beer
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = french_revolution
+					value = 1
+				}
+			}
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				bt_trade_good_beer = 1
+			}
+			add_mercantilism = 1
+		}
+		add_years_of_owned_provinces_production_income = {
+			years = 8
+			trigger = {
+				trade_goods = bt_trade_good_beer
+			}
+			custom_tooltip = MONOPOLY_INCOME_BEER_DESC
+		}
+		custom_tooltip = estate_nobles_monopoly_of_vodka_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				trade_goods = bt_trade_good_beer
+			}
+			add_province_modifier = {
+				name = estate_nobles_monopoly_of_vodka_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_nobles_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_nobles_monopoly_of_vodka_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_nobles_monopoly_of_vodka_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_nobles_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_nobles_monopoly_of_vodka_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_nobles_monopoly_of_vodka_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_nobles_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_nobles_monopoly_of_vodka_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		land_morale = 0.1
+	}
+
+	cooldown_years = 10
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = buffed_monopolies
+		}
+		modifier = {
+			max_absolutism = 10
+			nobles_privilege_slots = 1
+		}
+	}
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.14 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+estate_nobles_bulgarian_hill_forts = {
+	icon = privilege_autonomous_defences
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.1
+	influence = 0.1
+	is_valid = {
+		has_country_flag = enable_estate_nobles_bulgarian_hillforts_privilege
+	}
+	can_select = {
+		any_owned_province = {
+			OR = {
+				has_terrain = mountain
+				has_terrain = hills
+			}
+		}
+	}
+	on_granted = {
+		custom_tooltip = estate_nobles_bulgarian_hillforts_effect_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_terrain = mountain
+						has_terrain = hills
+					}
+				}
+				if = {
+					limit = {
+						has_fort_building_trigger = yes
+					}
+					if = {
+						limit = {
+							has_terrain = mountain
+						}
+						add_province_modifier = {
+							name = estate_nobles_bulgarian_hillforts_mountains_fort
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = estate_nobles_bulgarian_hillforts_hills_fort
+							duration = -1
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = {
+							has_terrain = mountain
+						}
+						add_province_modifier = {
+							name = estate_nobles_bulgarian_hillforts_mountains_no_fort
+							duration = -1
+						}
+					}
+					else = {
+						add_province_modifier = {
+							name = estate_nobles_bulgarian_hillforts_hills_no_fort
+							duration = -1
+						}
+					}
+				}
+			}
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_nobles_bulgarian_hillforts_revoke_effect_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_province_modifier = estate_nobles_nakharar_titles_mountains
+						has_province_modifier = estate_nobles_nakharar_titles_highlands						
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = estate_nobles_nakharar_titles_mountains
+					}
+					remove_province_modifier = estate_nobles_nakharar_titles_mountains
+				}
+				else = {
+					remove_province_modifier = estate_nobles_nakharar_titles_highlands
+				}
+			}
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_nobles_nakharar_titles_revoke_effect_tooltip
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_province_modifier = estate_nobles_nakharar_titles_mountains
+						has_province_modifier = estate_nobles_nakharar_titles_highlands						
+					}
+				}
+				if = {
+					limit = {
+						has_province_modifier = estate_nobles_nakharar_titles_mountains
+					}
+					remove_province_modifier = estate_nobles_nakharar_titles_mountains
+				}
+				else = {
+					remove_province_modifier = estate_nobles_nakharar_titles_highlands
+				}
+			}
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+
+#BT Church privileges
+estate_church_monopoly_of_books = {
+	icon = privilege_monopoly_of_goods_books
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	loyalty = 0.05
+	is_valid = {
+		any_owned_province = {
+			trade_goods = bt_trade_good_books
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = french_revolution
+					value = 1
+				}
+			}
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				bt_trade_good_books = 1
+			}
+			add_mercantilism = 1
+		}
+		add_years_of_owned_provinces_production_income = {
+			years = 8
+			trigger = {
+				trade_goods = bt_trade_good_books
+			}
+			custom_tooltip = MONOPOLY_INCOME_BOOKS_DESC
+		}
+		custom_tooltip = estate_church_monopoly_of_books_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				trade_goods = bt_trade_good_books
+			}
+			add_province_modifier = {
+				name = estate_church_monopoly_of_books_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_books_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_books_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_church_monopoly_of_books_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_books_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_books_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_church_monopoly_of_books_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_books_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_books_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+
+	cooldown_years = 10
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = buffed_monopolies
+		}
+		modifier = {
+			max_absolutism = 10
+			church_privilege_slots = 1
+		}
+	}
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.12 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+estate_church_monopoly_of_apiculture = {
+	icon = privilege_monopoly_of_goods_apiculture
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	loyalty = 0.05
+	is_valid = {
+		any_owned_province = {
+			trade_goods = bt_trade_good_apiculture
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = french_revolution
+					value = 1
+				}
+			}
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				bt_trade_good_apiculture = 1
+			}
+			add_mercantilism = 1
+		}
+		add_years_of_owned_provinces_production_income = {
+			years = 8
+			trigger = {
+				trade_goods = bt_trade_good_apiculture
+			}
+			custom_tooltip = MONOPOLY_INCOME_APICULTURE_DESC
+		}
+		custom_tooltip = estate_church_monopoly_of_apiculture_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				trade_goods = bt_trade_good_apiculture
+			}
+			add_province_modifier = {
+				name = estate_church_monopoly_of_apiculture_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_apiculture_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_apiculture_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_church_monopoly_of_apiculture_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_apiculture_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_apiculture_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_church_monopoly_of_apiculture_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_apiculture_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_apiculture_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+
+	cooldown_years = 10
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = buffed_monopolies
+		}
+		modifier = {
+			max_absolutism = 10
+			church_privilege_slots = 1
+		}
+	}
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.13 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+estate_church_monopoly_of_vodka = {
+	icon = privilege_monopoly_of_goods_beer
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	loyalty = 0.05
+	is_valid = {
+		has_country_flag = estate_church_vodka_monopoly
+		any_owned_province = {
+			trade_goods = bt_trade_good_beer
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = french_revolution
+					value = 1
+				}
+			}
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				bt_trade_good_beer = 1
+			}
+			add_mercantilism = 1
+		}
+		add_years_of_owned_provinces_production_income = {
+			years = 8
+			trigger = {
+				trade_goods = bt_trade_good_beer
+			}
+			custom_tooltip = MONOPOLY_INCOME_BEER_DESC
+		}
+		custom_tooltip = estate_church_monopoly_of_vodka_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				trade_goods = bt_trade_good_beer
+			}
+			add_province_modifier = {
+				name = estate_church_monopoly_of_vodka_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_vodka_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_church_monopoly_of_vodka_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_vodka_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_church_monopoly_of_vodka_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_vodka_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		war_exhaustion = -0.03
+	}
+
+	cooldown_years = 10
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = buffed_monopolies
+		}
+		modifier = {
+			max_absolutism = 10
+			church_privilege_slots = 1
+		}
+	}
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.14 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#BT Burghers privileges
+estate_burghers_monopoly_of_vodka = {
+	icon = privilege_monopoly_of_goods_beer
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	loyalty = 0.05
+	is_valid = {
+		has_country_flag = estate_burghers_vodka_monopoly
+		any_owned_province = {
+			trade_goods = bt_trade_good_beer
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = french_revolution
+					value = 1
+				}
+			}
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				bt_trade_good_beer = 1
+			}
+			add_mercantilism = 1
+		}
+		add_years_of_owned_provinces_production_income = {
+			years = 8
+			trigger = {
+				trade_goods = bt_trade_good_beer
+			}
+			custom_tooltip = MONOPOLY_INCOME_BEER_DESC
+		}
+		custom_tooltip = estate_burghers_monopoly_of_vodka_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				trade_goods = bt_trade_good_beer
+			}
+			add_province_modifier = {
+				name = estate_burghers_monopoly_of_vodka_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_burghers_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_burghers_monopoly_of_vodka_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_burghers_monopoly_of_vodka_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_burghers_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_burghers_monopoly_of_vodka_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_burghers_monopoly_of_vodka_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_burghers_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_burghers_monopoly_of_vodka_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		trade_efficiency = 0.1
+	}
+
+	cooldown_years = 10
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = buffed_monopolies
+		}
+		modifier = {
+			max_absolutism = 10
+			church_privilege_slots = 1
+		}
+	}
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.14 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+#BT Cossacks privileges
+estate_cossacks_siberian_frontier = {
+    icon = privilege_siberian_frontier
+    land_share = 5 # should this cost crown land?
+    max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+    loyalty = 0.05
+    influence = 0.05
+    
+    is_valid = { # auto revoke when no provinces left to colonize
+        any_owned_province = {
+            any_empty_neighbor_province = {
+                ROOT = { has_discovered = prev }
+                is_city = no
+                is_wasteland = no
+                OR = {
+                    region = ural_region
+                    region = west_siberia_region
+                    region = east_siberia_region
+                }
+            }
+        }
+		mission_completed = ukr_break_tatar_yoke
+    }
+    can_select = {
+        NOT = {
+            has_idea = siberian_frontier
+            #has_idea = custom_establish_frontier_ability
+        }
+		mission_completed = ukr_break_tatar_yoke
+    }
+    on_granted = {
+        #custom_tooltip = estate_cossacks_siberian_frontier_effect_tooltip
+    }
+    on_revoked = {
+        #custom_tooltip = estate_cossacks_siberian_frontier_revoke_tooltip
+    }
+    on_invalid = {
+        #custom_tooltip = estate_cossacks_siberian_frontier_revoke_tooltip
+    }
+	benefits = {
+		may_establish_frontier = yes
+		auto_explore_adjacent_to_colony = yes
+		global_colonial_growth = 20
+	}
+    ai_will_do = {
+        factor = 1
+        modifier = {
+            factor = 2
+            num_of_colonists = 2
+        }
+        modifier = {
+            factor = 2
+            tag = RUS
+        }
+        modifier = {
+            factor = 0
+            OR = {
+                NOT = { crown_land_share = 25 }
+                estate_influence = {
+                    estate = estate_cossacks
+                    influence = 75
+                }
+            }
+            NOT = { has_estate_privilege = estate_cossacks_siberian_frontier }
+        }
+        modifier = {
+            factor = 0
+            is_absolutism_active = yes
+        }
+    }
+}
+estate_cossacks_monopoly_of_vodka = {
+	icon = privilege_monopoly_of_goods_beer
+	max_absolutism = -10
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
+	loyalty = 0.05
+	is_valid = {
+		has_country_flag = estate_cossacks_vodka_monopoly
+		any_owned_province = {
+			trade_goods = bt_trade_good_beer
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = french_revolution
+					value = 1
+				}
+			}
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				bt_trade_good_beer = 1
+			}
+			add_mercantilism = 1
+		}
+		add_years_of_owned_provinces_production_income = {
+			years = 8
+			trigger = {
+				trade_goods = bt_trade_good_beer
+			}
+			custom_tooltip = MONOPOLY_INCOME_BEER_DESC
+		}
+		custom_tooltip = estate_cossacks_monopoly_of_vodka_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				trade_goods = bt_trade_good_beer
+			}
+			add_province_modifier = {
+				name = estate_cossacks_monopoly_of_vodka_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_cossacks_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_cossacks_monopoly_of_vodka_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_cossacks_monopoly_of_vodka_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_cossacks_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_cossacks_monopoly_of_vodka_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_cossacks_monopoly_of_vodka_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_cossacks_monopoly_of_vodka_mod
+			}
+			remove_province_modifier = estate_cossacks_monopoly_of_vodka_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		morale_damage_received = -0.2
+		is_cossack_modifier = yes
+	}
+
+	cooldown_years = 10
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = buffed_monopolies
+		}
+		modifier = {
+			max_absolutism = 10
+			cossacks_privilege_slots = 1
+		}
+	}
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.14 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+	
 }

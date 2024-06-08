@@ -1,0 +1,224 @@
+# Dev points scripted triggers by Harbivore
+
+
+# Used in dev points to give modifiers to provinces in a colonial region
+is_in_any_colonial_region = {
+	OR = {
+		colonial_region = colonial_alaska
+		colonial_region = colonial_canada
+		colonial_region = colonial_eastern_america
+		colonial_region = colonial_louisiana
+		colonial_region = colonial_california
+		colonial_region = colonial_mexico
+		colonial_region = colonial_the_carribean
+		colonial_region = colonial_colombia
+		colonial_region = colonial_peru
+		colonial_region = colonial_la_plata
+		colonial_region = colonial_brazil
+		colonial_region = colonial_australia
+		
+		#These for for RNW the game hates these and crashes so RNW won't get bonuses
+		# colonial_region = colonial_placeholder_1
+		# colonial_region = colonial_placeholder_2
+		# colonial_region = colonial_placeholder_3
+		# colonial_region = colonial_placeholder_4
+		# colonial_region = colonial_placeholder_5
+		# colonial_region = colonial_placeholder_6
+		# colonial_region = colonial_placeholder_7
+		# colonial_region = colonial_placeholder_8
+		# colonial_region = colonial_placeholder_9
+		# colonial_region = colonial_placeholder_10
+		# colonial_region = colonial_placeholder_11
+		# colonial_region = colonial_placeholder_12
+		# colonial_region = colonial_placeholder_13
+		# colonial_region = colonial_placeholder_14
+		# colonial_region = colonial_placeholder_15
+		# colonial_region = colonial_placeholder_16
+		# colonial_region = colonial_placeholder_17
+		# colonial_region = colonial_placeholder_18
+		# colonial_region = colonial_placeholder_19
+		# colonial_region = colonial_placeholder_20
+		# colonial_region = colonial_placeholder_21
+		
+		#These are for new bt regions for some reason this is ok in vanilla
+		colonial_region = colonial_cascadia
+		colonial_region = colonial_northwest_territories
+		colonial_region = colonial_hudson_bay
+		colonial_region = colonial_newfoundland
+		colonial_region = colonial_acadia
+		colonial_region = colonial_cuba
+		colonial_region = colonial_hispaniola
+		colonial_region = colonial_bahamas
+		colonial_region = colonial_polynesia
+		colonial_region = colonial_cape
+		colonial_region = colonial_greenland
+	}
+}
+
+# This trigger checks if the cost to develop a province is more than the amount of current dev points a nation has
+# It is used in 00_scripted_functions.txt -> can_improve_tax/can_improve_production/can_improve_manpower
+# Only the players use the province improve dev buttons so this is only used on players
+has_enough_dev_points_to_dev = {
+	variable_arithmetic_trigger = {
+		export_to_variable = {				#Sets variable for base development cost
+			variable_name = province_dev_cost
+			value = 25
+		}
+		export_to_variable = {				#Gets the local development cost modifier
+			variable_name = local_development_cost_for_dev_points
+			value = modifier:local_development_cost
+			who = ROOT
+		}
+		change_variable = {					#Adds 1 to make modifier ready for multiplication
+			which = local_development_cost_for_dev_points
+			value = 1
+		}
+		export_to_variable = {				#Gets the nationwide development cost modifier
+			variable_name = development_cost_for_dev_points
+			value = modifier:development_cost
+		}
+		export_to_variable = {				#Gets the nationwide all power cost modifier
+			variable_name = all_power_cost_for_dev_points
+			value = modifier:all_power_cost
+		}
+		change_variable = {					#Adds nationwide development cost to the local dev cost variable 
+			which = local_development_cost_for_dev_points
+			which = development_cost_for_dev_points
+		}
+		change_variable = {					#Adds nationwide all power cost to the local dev cost variable 
+			which = local_development_cost_for_dev_points
+			which = all_power_cost_for_dev_points
+		}
+		if = {
+			limit = {
+				ROOT = {
+					is_capital = yes
+				}
+				total_development = 2000
+			}
+			variable_arithmetic_trigger = {
+				change_variable = {			#Adds the dev cost reduction from capital to the province
+					which = local_development_cost_for_dev_points
+					value = -0.5
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				ROOT = {
+					is_capital = yes
+				}
+			}
+			variable_arithmetic_trigger = {
+				export_to_variable = {		#Gets the total development of the nation
+					variable_name = total_development_for_dev_points
+					value = total_development 
+					who = PREV
+				}
+				divide_variable = {			#Divides the total dev to get the development reduction for the capital
+					which = total_development_for_dev_points
+					value = -4000
+				}
+				change_variable = {			#Adds the dev cost reduction from capital to the province
+					which = local_development_cost_for_dev_points
+					which = total_development_for_dev_points
+				}
+			}
+		}
+		export_to_variable = {				#Gets the 'local development cost modifier' modifier
+			variable_name = local_development_cost_modifier_for_dev_points
+			value = modifier:local_development_cost_modifier 
+			who = ROOT
+		}
+		change_variable = {					#Adds 1 to make modifier ready for multiplication
+			which = local_development_cost_modifier_for_dev_points
+			value = 1
+		}
+		export_to_variable = {				#Gets the 'development cost modifier' modifier
+			variable_name = development_cost_modifier_for_dev_points
+			value = modifier:development_cost_modifier 
+		}
+		change_variable = {					#Adds the 'local development cost modifier' modifiers to the nationwide one
+			which = local_development_cost_modifier_for_dev_points
+			which = development_cost_modifier_for_dev_points
+		}
+		if = {
+			limit = {
+				adm_tech = 27
+			}
+			variable_arithmetic_trigger = {
+				change_variable = {			#Adds the 'development cost modifier' modifier from tech 27
+					which = local_development_cost_modifier_for_dev_points
+					value = -0.3
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				adm_tech = 23
+			}
+			variable_arithmetic_trigger = {
+				change_variable = {			#Adds the 'development cost modifier' modifier from tech 23
+					which = local_development_cost_modifier_for_dev_points
+					value = -0.2
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				adm_tech = 17
+			}
+			variable_arithmetic_trigger = {
+				change_variable = {			#Adds the 'development cost modifier' modifier from tech 17
+					which = local_development_cost_modifier_for_dev_points
+					value = -0.1
+				}
+			}
+		}
+		multiply_variable = {				#Multiplies the base province dev cost with the total development cost modifier 
+			which = province_dev_cost
+			which = local_development_cost_for_dev_points
+		}
+		multiply_variable = {				#Multiplies the total development cost modifier with the total 'development cost modifier' modifier
+			which = province_dev_cost
+			which = local_development_cost_modifier_for_dev_points
+		}
+		check_variable = {					#Checks if the cost of to dev the province is higher than the nations current dev points
+			which = current_dev_points		#Doesn't let the nation dev if it costs too much
+			which = province_dev_cost
+		}
+	}
+}
+
+# This trigger checks that one development type isn't more than the other 2 combined
+# $DevA$ = Dev type being Developed  $DevB$, $DevC$ = Other 2 Dev types
+has_more_than_double_any_dev_type = {		
+	variable_arithmetic_trigger = {
+		export_to_variable = {
+			variable_name = adm_dev
+			value = base_tax
+		}
+		export_to_variable = {
+			variable_name = dip_dev
+			value = base_production
+		}
+		export_to_variable = {
+			variable_name = mil_dev
+			value = base_manpower
+		}
+		multiply_variable = {
+			which = $DevA$
+			value = 1.25
+		}
+		change_variable = {
+			which = $DevB$
+			which = $DevC$
+		}
+		NOT = {
+			check_variable = {
+				which = $DevB$
+				which = $DevA$
+			}
+		}
+	}
+}

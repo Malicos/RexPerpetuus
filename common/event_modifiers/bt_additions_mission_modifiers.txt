@@ -36,3 +36,77 @@ bt_hsn_nobility_crushed = {
 bt_hsn_madrasas = {
 	technology_cost = -0.1
 }
+
+bt_hsn_draft_mamluks_mod = {
+	discipline = 0.05
+	is_mamluks_modifier = yes
+}
+
+bt_ukr_mother_of_all_rus = { #Permanent, country mod
+	core_creation = -0.1 #Doubles uniting Rus' CCC from Ruthenian ideas. Fallback if you somehow did not pick up Ruthenian Ideas. //Dub
+}
+
+bt_ukr_flourishing_peasant_fields = { #Permanent, province mod
+	trade_goods_size = 0.3
+	local_development_cost = -0.1
+}
+
+bt_ukr_resettled_dniepr = { #Permanent, country mod
+	development_cost = -0.1
+}
+
+bt_kievan_metropolitanate_no_dlc_mod = { #T2 version of additional modifiers for non-Leviathan users. Permanent, much like the monument.
+	global_missionary_strength = 0.01
+	church_loyalty_modifier = 0.05
+}
+
+bt_ukr_ruthenia_restored = { #Permanent, province mod
+	tax_income = 1 #+2 base tax
+	trade_goods_size = 0.2 #+2 base production
+}
+
+bt_ukr_bane_of_turk = { #Permanent, gain one of these three
+	administrative_efficiency = 0.05
+	power_projection_from_insults = 1
+}
+
+bt_ukr_restored_second_rome = { #Permanent, gain one of these three
+	administrative_efficiency = 0.05
+	legitimacy = 1
+	prestige = 1
+}
+
+bt_ukr_banished_scourge_of_christendom = { #Permanent, gain one of these three
+	administrative_efficiency = 0.05
+	land_morale = 0.1
+}
+
+bt_ukr_black_sea_naval_base = { #Permanent, province mod
+	ship_recruit_speed = -0.25
+	naval_morale = 0.1
+}
+
+bt_ukr_navy_of_the_intermarum = { #Permanent, country mod
+	navy_tradition_decay = -0.01
+}
+
+bt_ukr_elite_streltsy = { #Permanent, streltsy mod
+	morale_damage = 0.1
+	morale_damage_received = -0.1
+	is_streltsy_modifier = yes
+}
+
+bt_ukr_elite_cossacks = { #Permanent, cossack mod
+	morale_damage = 0.15
+	is_cossack_modifier = yes
+}
+
+bt_ukr_donets_coal = {
+	trade_goods_size = 1
+	trade_goods_size_modifier = 0.25
+}
+
+bt_ukr_tamed_the_steppes = {
+	can_recruit_cossacks = yes
+	allowed_cossack_fraction = 0.2
+}

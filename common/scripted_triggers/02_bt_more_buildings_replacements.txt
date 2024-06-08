@@ -1,0 +1,23 @@
+has_tax_building_trigger = {
+	OR = {
+		has_building = temple
+		has_building = cathedral
+		has_building = tax_assessor #BTMB Added
+	}
+}
+
+has_production_building_trigger = {
+	OR = {
+		has_building = workshop
+		has_building = counting_house
+		has_building = customs_house #BTMB Added
+	}
+}
+
+#New BTMB triggers that can be used for BTMB compatibility.
+has_university_building_trigger = {
+	OR = {
+		has_building = college #BTMB Added
+		has_building = university
+	}
+}

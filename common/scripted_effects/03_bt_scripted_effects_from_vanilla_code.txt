@@ -1,0 +1,119 @@
+# This is vanilla code that has been repeated many times and will be easier for us to balance/ make changes to if they were just scripted affects.
+# Started by Harbivore
+
+# This effect finds and marks the province that will then need to be developed to complete an estate agenda
+estate_agenda_finding_province_to_develop_effect = {
+	random_list = {
+		1 = {
+			random_owned_province = {
+				limit = {
+					is_state_core = root
+					area_for_scope_province = {
+						is_capital_of = root
+					}
+				} 
+				save_event_target_as = agenda_province
+			}
+		}
+		2 = {
+			trigger = {
+				any_owned_province = {
+					is_state_core = root
+					OR = {
+						AND = {
+							religion = root
+							OR = {
+								culture = root
+								has_owner_accepted_culture = yes
+							}
+						}
+					}
+					region_for_scope_province = {
+						is_capital_of = root
+					}
+				}
+			}
+			random_owned_province = {
+				limit = {
+					is_state_core = root
+					OR = {
+						AND = {
+							religion = root
+							OR = {
+								culture = root
+								has_owner_accepted_culture = yes
+							}
+						}
+					}
+					region_for_scope_province = {
+						is_capital_of = root
+					}
+				}
+				save_event_target_as = agenda_province
+			}
+		}
+		1 = {
+			random_owned_province = {
+				limit = {
+					is_state_core = root
+				}
+				save_event_target_as = agenda_province
+			}
+		}
+	}
+}
+	
+# Effect for calculating how much the province needs to be developed by
+# These $var$ types are needed to function with the vanilla LOC and code
+# $dev_type_var$ = province_adm_var / province_dip_var / province_mil_var
+# $dev_type$ = base_tax / base_production / base_manpower
+estate_agenda_calculating_dev_required_to_develop_effect = {
+	event_target:agenda_province = {
+		if = {
+			limit = {
+				check_variable = {
+					which = $dev_type_var$
+					value = 1
+				}
+			}
+			set_variable = {
+				which = $dev_type_var$
+				value = 0
+			}
+		}
+		export_to_variable = {
+			which = $dev_type_var$
+			value = trigger_value:$dev_type$
+		}
+		export_to_variable = {
+			which = total_dev_for_estate_agenda
+			value = total_development
+			who = owner
+		}
+		change_variable = {
+			which = total_dev_for_estate_agenda
+			value = 300
+		}
+		multiply_variable = {
+			which = total_dev_for_estate_agenda
+			value = 0.005
+		}
+		integer_down = { var = total_dev_for_estate_agenda }
+		if = {
+			limit = {
+				check_variable = {
+					which = total_dev_for_estate_agenda
+					value = 20
+				}
+			}
+			set_variable = {
+				which = total_dev_for_estate_agenda
+				value = 20
+			}
+		}
+		change_variable = {
+			which = $dev_type_var$
+			which = total_dev_for_estate_agenda
+		}
+	}
+}

@@ -101,7 +101,6 @@ silk = {
 	base_price = 4			#BTAddOn note - Goes 4-5
 }
 
-
 tropical_wood = {
 	base_price = 2.5			#BTAddOn changed from 2 - Now goes 2.5-4.5 (Vanilla was 2-2.7)
 }

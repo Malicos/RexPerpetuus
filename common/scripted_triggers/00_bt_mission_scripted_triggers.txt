@@ -1,0 +1,173 @@
+#Provinces of a province group have fulfiled ROOT requirements
+#------------#
+#Usage:
+#has_fulfiled_province_requirement_for_mission_trigger = {
+#	tooltip=country_holds_or_non_sovereign_subject_holds_highlighted
+#	provinces=byz_mainland_greece_provinces
+#	owner_type=country_or_non_sovereign_subject_holds
+#	is_empty=yes (Optional)
+#}
+#------------#
+#Explanation:
+#tooltip is a localisation string and can be:
+#	country_holds_or_non_sovereign_subject_holds_highlighted
+#	country_holds_highlighted
+#	...or anything else that you desire to add.
+#provinces is a province group that defines the provinces. These are defined in provincegroup.txt.
+#owner_type is to define whether the provinces need to be directly owned or can also be owned by a subject. Thus it can be:
+#	country_or_non_sovereign_subject_holds
+#	owned_by
+#is_empty declares if the mission does not need uncolonized provinces to be completed
+#------------#
+has_fulfiled_province_requirement_for_mission_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = $tooltip$
+		$provinces$ = {
+			type = all
+			OR = {
+				$owner_type$ = PREV
+				area = unused_area #Fixes the edge case whereif a province group is outdated such that it contains provinces that were at some point cut from the game.
+				[[is_empty]
+					is_empty = yes 
+				]
+			}
+		}
+	}
+}
+
+#Provinces of a province group have fulfiled target requirements
+#------------#
+#Usage:
+#has_fulfiled_province_target_requirement_for_mission_trigger = {
+#	tooltip=country_holds_or_non_sovereign_subject_holds_highlighted
+#	provinces=byz_mainland_greece_provinces
+#	owner_type=country_or_non_sovereign_subject_holds
+#	target=TUR
+#	is_empty=yes (Optional)
+#}
+#------------#
+#Explanation:
+#tooltip is a localisation string and can be:
+#	target_holds_or_non_sovereign_subject_holds_not_highlighted
+#	country_holds_not_highlighted
+#	...or anything else that you desire to add.
+#provinces is a province group that defines the provinces. These are defined in provincegroup.txt.
+#owner_type is to define whether the provinces need to be directly owned or can also be owned by a subject. Thus it can be:
+#	country_or_non_sovereign_subject_holds
+#	owned_by
+#target is a tag that owns the defined provinces if they cannot be owned by them (or their non-sovereign subjects if country_or_non_sovereign_subject_holds was declared.
+#is_empty declares if the mission does not need uncolonized provinces to be completed
+#------------#
+has_fulfiled_province_target_requirement_for_mission_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = $tooltip$
+		$provinces$ = {
+			type = all
+			OR = {
+				NOT = { $owner_type$ = $target$ }
+				area = unused_area #Fixes the edge case whereif a province group is outdated such that it contains provinces that were at some point cut from the game.
+				[[is_empty]
+					is_empty = yes 
+				]
+			}
+		}
+	}
+}
+
+
+#Has conquered X provinces of a province group
+#------------#
+#Usage:
+#has_fulfiled_num_of_province_requirement_for_mission_trigger = {
+#	tooltip=country_holds_or_non_sovereign_subject_holds_highlighted_num
+#	provinces=byz_mainland_greece_provinces
+#	owner_type=country_or_non_sovereign_subject_holds
+#	value=15
+#}
+#------------#
+#Explanation:
+#tooltip is a localisation string that is meant to appear after "At least X (Currently Y) " and can be:
+#	country_holds_or_non_sovereign_subject_holds_highlighted_num
+#	country_holds_highlighted_num
+#	...or anything else that you desire to add.
+#provinces is a province group that defines the provinces. These are defined in provincegroup.txt.
+#owner_type is to define whether the provinces need to be directly owned or can also be owned by a subject. Thus it can be:
+#	country_or_non_sovereign_subject_holds
+#	owned_by
+#------------#
+has_fulfiled_num_of_province_requirement_for_mission_trigger = {
+	calc_true_if = {
+		desc = $tooltip$
+		$provinces$ = {
+			type = all
+			$owner_type$ = PREV #No check for unused_area because they would count towards this.
+		}
+		amount = $value$
+	}
+}
+
+#General case with custom set of triggers:
+#------------#
+#Usage:
+#has_fulfiled_general_province_requirement_for_mission_trigger = {
+#	tooltip=country_holds_or_non_sovereign_subject_holds_highlighted
+#	provinces=byz_mainland_greece_provinces
+#	triggers="
+#		country_or_non_sovereign_subject_holds = ROOT
+#		religion = ROOT
+#	"
+#}
+#------------#
+#Explanation:
+#tooltip is a localisation string and can be:
+#	country_holds_or_non_sovereign_subject_holds_highlighted
+#	country_holds_highlighted
+#	...or anything else that you desire to add.
+#provinces is a province group that defines the provinces. These are defined in provincegroup.txt.
+#triggers allows you to define any amount of triggers to apply to the provinces. Examples are:
+#	country_or_non_sovereign_subject_holds = ROOT
+#	owned_by = ROOT
+#------------#
+has_fulfiled_general_province_requirement_for_mission_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = $tooltip$
+		$provinces$ = {
+			type = all
+			$triggers$
+		}
+	}
+}
+
+#General num of province case with custom set of triggers:
+#------------#
+#Usage:
+#has_fulfiled_general_num_of_provinces_requirement_for_mission_trigger = {
+#	tooltip=country_holds_or_non_sovereign_subject_holds_highlighted
+#	provinces=byz_mainland_greece_provinces
+#	triggers="
+#		country_or_non_sovereign_subject_holds = ROOT
+#		religion = ROOT
+#	"
+#	amount=15
+#}
+#------------#
+#Explanation:
+#tooltip is a localisation string that is meant to appear after "At least X (Currently Y) " and can be:
+#	country_holds_or_non_sovereign_subject_holds_highlighted_num
+#	country_holds_highlighted_num
+#	...or anything else that you desire to add.
+#provinces is a province group that defines the provinces. These are defined in provincegroup.txt.
+#triggers allows you to define any amount of triggers to apply to the provinces. Examples are:
+#	country_or_non_sovereign_subject_holds = ROOT
+#	owned_by = ROOT
+#------------#
+has_fulfiled_general_num_of_provinces_requirement_for_mission_trigger = {
+	calc_true_if = {
+		desc = $tooltip$
+		$provinces$ = {
+			type = all
+			$triggers$
+		}
+		amount = $value$
+	}
+}

@@ -59,85 +59,52 @@ bt_more_colonies_than_colonists_check = {
 #Generic shortcut for form nation potential, based on copy-pasted default from vanilla - Vanilla stole my idea here in 1.26 and made a 'was_never_end_game_tag_trigger', but rather than run about updating, I'm just going to copy their additions into mine already here.
 bt_generic_can_form_potential_check = {
 	#Generic Requirements all or (almost all to the point of looking like an oversight when missing) vanilla decisions have. Note colonial nations do have some quirks.
-	normal_or_historical_nations = yes
-	OR ={
+	#Modified by Dub: This should contain mainly surefire major triggers. These are the below.
+	normal_or_historical_nations = yes #If you're not doing a historical nations game, why are you forming nations?
+	OR ={ #Only player-controlled custom nations shall be able to form other nations.
 		ai = no
 		is_playing_custom_nation = no
 	}
-	OR = {
+	is_colonial_nation = no #We do not want colonial nations that haven't broken free to have ambitions to form a nation.
+	
+	#The below are semi-surefire nations. Circumvent these by adding an OR-statement containing the negation of the below triggers if necessary.
+	#If multiple triggers need negation, add them inside an AND-statement inside the OR-statement.
+	#E.g:
+	#OR = {
+	#	bt_generic_can_form_potential_check = yes
+	#	AND = {
+	#		has_reform = celestial_empire
+	#		was_never_end_game_tag_trigger = yes
+	#	}
+	#}
+	NOT = { has_reform = celestial_empire } #The Emperor of China shall not form any nations.
+	was_never_end_game_tag_trigger = yes #We do not want endgame tags to form other nations.
+	OR = { #Mainly a lagcheck: Circumvent with this trigger inside an OR-statement with num_of_cities = X
 		ai = no
 		AND = {
 			ai = yes
-			num_of_cities = 3	#BT Bugfixes reverting to 3	because this caused issues for Pomeranian minors' railroading since they all start below 6 cities and therefore will never feel the need to form Pomerania and thus won't desire Pomeranian cities.	#3 is common in vanilla, but more provinces in BT
+			num_of_cities = 3	#3 is common in vanilla, but more provinces in BT. Making it 3 however because some nation formables are tiny.
 		}
 	}
-	is_colonial_nation = no
-	OR = {
-		is_former_colonial_nation = no
-		AND = {
-			is_former_colonial_nation = yes
-			ai = no
-		}
+	OR = { #Only player-controlled subjects shall see decisions.
+		is_free_or_tributary_trigger = yes
+		ai = no
 	}
-	#Special tags we don't want forming anything else. These are top-level empire tags and should not try to switch unless a decision specifically is design to allow it.
-	NOT = { has_reform = celestial_empire }
-	NOT = { tag = UNK }
-	NOT = { tag = CEL }
-	NOT = { tag = LTE }			#Latin Empire, on Dub's request.
-
-	NOT = { was_tag = UNK }
-	NOT = { was_tag = CEL }
-	NOT = { was_tag = LTE }			#Latin Empire, on Dub's request.
-	#Vanilla's list of exlusions from 1.26, when they copied my idea =D
-	NOT = { was_tag = MUG }
-	NOT = { was_tag = TUR }
-	NOT = { was_tag = BYZ }
-	NOT = { was_tag = ROM }
-	NOT = { was_tag = HLR }
-	NOT = { was_tag = RUM }
-	NOT = { was_tag = QNG }
-	NOT = { was_tag = RUS }
-	NOT = { was_tag = PLC }
-	NOT = { was_tag = JAP }
-	NOT = { was_tag = YUA }
-	NOT = { was_tag = HIN }
-	NOT = { was_tag = BHA }
-	NOT = { was_tag = ARB }
-	NOT = { was_tag = PAP }
-	NOT = { was_tag = SPA }
-	#NOT = { was_tag = GBR }			#Cut GBR, as I add the UK formable
-	NOT = { was_tag = ITA }
-	NOT = { was_tag = GER }
-	NOT = { was_tag = MNG }
-	NOT = { was_tag = MGE }
-	NOT = { was_tag = SYN }
-	NOT = { was_tag = ADU }
-	NOT = { was_tag = LOT }
-
-	NOT = { tag = MUG }
-	NOT = { tag = TUR }
-	NOT = { tag = BYZ }
-	NOT = { tag = ROM }
-	NOT = { tag = HLR }
-	NOT = { tag = RUM }
-	NOT = { tag = QNG }
-	NOT = { tag = RUS }
-	NOT = { tag = PLC }
-	NOT = { tag = JAP }
-	NOT = { tag = YUA }
-	NOT = { tag = HIN }
-	NOT = { tag = BHA }
-	NOT = { tag = ARB }
-	NOT = { tag = PAP }
-	NOT = { tag = SPA }
-	#NOT = { tag = GBR }			#Cut GBR, as I add the UK formable
-	NOT = { tag = ITA }
-	NOT = { tag = GER }
-	NOT = { tag = MNG }
-	NOT = { tag = MGE }
-	NOT = { tag = SYN }
-	NOT = { tag = ADU }
-	NOT = { tag = LOT }
+	
+	
+	
+	
+	
+	
+	#Cut.
+	# OR = {
+		# is_former_colonial_nation = no
+		# AND = {
+			# is_former_colonial_nation = yes
+			# ai = no
+		# }
+	# }
+	#TODO: Move to was_never_end_game_tag_trigger in 00_scripted_triggers.txt
 }
 
 #A check for HRE formables to make sure of a smooth progression from minor to mid to major to Germany or united HRE. This should prevent lateral progression

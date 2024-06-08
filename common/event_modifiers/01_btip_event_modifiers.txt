@@ -1,0 +1,7 @@
+btip_recently_seized_land = {
+	all_estate_loyalty_equilibrium = -0.20
+}
+
+btip_recently_seized_land_15_loyalty = {
+	all_estate_loyalty_equilibrium = -0.15
+}

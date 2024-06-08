@@ -1,0 +1,570 @@
+on_startup = {
+	if = { #Because tribal land gets random tradegood irregardless of what the history file declares. It comes out as about 75% slaves at game start because game.
+		limit = { NOT = { has_global_flag = bt_tribal_land_tradegoods } }
+		#HoA overhaul
+		1208 = { change_trade_goods = livestock }
+		1207 = { change_trade_goods = incense }
+		2792 = { change_trade_goods = livestock }
+		2024 = { change_trade_goods = livestock }
+		1206 = { change_trade_goods = livestock }
+		8809 = { change_trade_goods = cotton }
+		2779 = { change_trade_goods = salt }
+		8807 = { change_trade_goods = livestock }
+		2784 = { change_trade_goods = livestock }
+		set_global_flag = bt_tribal_land_tradegoods
+	}
+	if = {	#For unoverhauled provinces
+		limit = {
+			NOT = {
+				has_global_flag = UOP_modifiers_given
+			}
+		}
+		add_UOP_modifier = yes
+	}
+}
+
+on_new_monarch = {
+	#BT
+	if = {
+		limit = {
+			has_reform = bt_tanistry_reform
+			NOT = { has_country_flag = bt_abolition_of_tanistry_succession }
+		}
+		set_country_flag = bt_tanistry_king_just_died
+		clr_country_flag = bt_tanistry_high_queen_reigning
+		remove_country_modifier = bt_uncertainty_about_a_high_queen
+		country_event = { id = BeyondTypusCelticFlavour.1 days = 1 } #New Tanist election
+		country_event = { id = BeyondTypusCelticFlavour.6 days = 1 } #High Queen comes to power, will only fire for female rulers
+	}
+	if = { #If Sweden fell under the Danish PU elsehow and the event that was supposed to fire the end of Karl Knutsson Bonde's reign never fired.
+		limit = {
+			tag = SWE
+			junior_union_with = DAN
+			has_global_flag = bt_kalmar_union_power_struggle_pt_I
+		}
+		disband_rebels = pretender_rebels
+		disband_rebels = catholic_rebels
+		disband_rebels = noble_rebels
+		clr_global_flag = bt_kalmar_union_power_struggle_pt_I
+	}
+	if = { #Kalmar Union power struggle flavour event.
+		limit = {
+			has_global_flag = bt_kalmar_union_power_struggle_pt_I
+			tag = SWE
+			war_with = DAN
+		}
+		DAN = {
+			create_union = SWE
+		}
+		disband_rebels = pretender_rebels
+		disband_rebels = catholic_rebels
+		disband_rebels = noble_rebels
+		clr_global_flag = bt_kalmar_union_power_struggle_pt_I
+	}
+}
+
+on_monarch_death = {
+	BT_AU_AlbrechtVI_dies_first = yes	#BT
+	BT_AU_FrederickIII_dies_first = yes	#BT
+	if = {
+		limit = {
+			tag = ALB
+			NOT = {
+				has_global_flag = bt_skanderbeg_died
+			}
+		}
+		set_country_flag = bt_skanderbeg_died
+		VEN = {
+			country_event = { id = bt_harb_misc.4 days = 1 }
+		}
+	}
+	if = { #Rijekan inheritance post-Rambert II von Walsee
+		limit = {
+			tag = RIJ
+			has_country_flag = bt_rijeka_austrian_inheritance_flag
+			ai = yes
+			OR = {
+				AND = {
+					HAB = {
+						exists = yes
+						NOT = { is_subject = yes }
+					}
+				}
+				AND = {
+					STY = {
+						exists = yes
+						NOT = {
+							is_subject = yes
+						}
+					}
+				}
+			}
+			has_heir = no
+		}
+		if = { #Frederick III
+			limit = {
+				STY = {
+					exists = yes
+					NOT = {
+						is_subject = yes
+					}
+				}
+			}
+			STY = { inherit = RIJ }
+		}
+		else = { #Styria has likely formed Austria
+			HAB = { inherit = RIJ }
+		}
+		clr_country_flag = bt_rijeka_austrian_inheritance_flag #Happened, shan't happen again.
+	}
+	else = {
+		clr_country_flag = bt_rijeka_austrian_inheritance_flag #Didn't happen, shan't happen again.
+	}
+	#BT
+	#if = {
+	#	limit = {
+	#		has_reform = bt_tanistry_reform
+	#		NOT = { has_country_flag = bt_abolition_of_tanistry_succession }
+	#	}
+	#	set_country_flag = bt_tanistry_king_just_died
+	#	clr_country_flag = bt_tanistry_high_queen_reigning
+	#	remove_country_modifier = bt_uncertainty_about_a_high_queen
+	#	remove_country_modifier = bt_tanistry_underaged_heir
+	#	remove_country_modifier = bt_tanistry_female_heir
+	#	remove_country_modifier = bt_tanistry_waiting_on_heir
+	#}
+}
+
+on_heir_death = {
+	#BT
+	#CHO_AlbrechtVI_heir_dies = yes
+	if = {
+		limit = {
+			has_reform = bt_tanistry_reform
+			NOT = { has_country_flag = bt_abolition_of_tanistry_succession }
+		}
+		remove_country_modifier = bt_tanistry_underaged_heir
+		remove_country_modifier = bt_tanistry_female_heir
+		country_event = { id = BeyondTypusCelticFlavour.8 days = 1 } #Tanist dies, new tanist event
+	}
+	
+}
+
+on_new_heir = {
+	#BT
+	if = {
+		limit = {
+			has_reform = bt_tanistry_reform
+			has_country_modifier = bt_tanistry_waiting_on_heir
+			NOT = { has_country_flag = bt_abolition_of_tanistry_succession }
+		}
+		country_event = { id = BeyondTypusCelticFlavour.2 days = 1 } #Male heir born/introduced - doesn't seem to work, I'll look into this later, added a 1 day MTTH in the meantime
+		country_event = { id = BeyondTypusCelticFlavour.3 days = 1 } #Female heir born/introduced - doesn't seem to work, I'll look into this later, added a 1 day MTTH in the meantime
+	}
+}
+
+on_five_year_pulse_2 = {
+	random_events = {
+		# Peasants for BTIP
+		100 = peasants_estate_events.1
+		100 = peasants_estate_events.2
+		100 = peasants_estate_events.3
+		100 = peasants_estate_events.4
+		100 = peasants_estate_events.5
+		400 = peasants_estate_events.6 #Disloyal
+		100 = peasants_estate_events.7
+		100 = peasants_estate_events.8
+		100 = peasants_estate_events.9
+		100 = peasants_estate_events.10 #Bonus
+	}
+}
+
+on_province_religion_changed = {
+	#BT
+	#BT added if Culture's Iberian and gets converted to muslim, it turns into Andalusi culture.
+	if = {
+		limit = {
+			religion_group = muslim
+			culture = andalucian
+		}
+		change_culture = andalusi_culture
+	}
+	#And vice versa.
+	if = {
+		limit = {
+			religion_group = christian
+			culture = andalusi_culture
+		}
+		change_culture = andalucian
+	}
+}
+
+on_province_owner_change = {
+	#BT Demand Unlawful Land cooldown
+    if = {
+        limit = {
+            NOT = {
+                is_core = FROM
+            }
+            is_part_of_hre = yes
+            FROM = {
+                is_part_of_hre = yes
+            }
+            is_core = owner
+            has_province_flag = bt_sc_unlawful_land
+        }
+        FROM = {
+            add_country_modifier = { 
+                name = bt_sc_demand_unlawful_land_cooldown
+                duration = 1068 # 3 years
+            }
+        }
+    }
+
+    #BT need to mark conquered province as being unlawful, because i cannot ask for the actual static_modifier
+    if = { 
+        limit = {
+            is_core = FROM
+            is_part_of_hre = yes
+            FROM = {
+                is_part_of_hre = yes
+            }
+            NOT = {
+                is_core = owner
+            }
+        }
+        set_province_flag = bt_sc_unlawful_land
+        owner = {
+            if = {
+                limit = {
+                    has_country_modifier = bt_sc_demand_unlawful_land_cooldown
+                }
+                remove_country_modifier = bt_sc_demand_unlawful_land_cooldown
+            }
+        }
+    }
+	#BT
+    else = { 
+        clr_province_flag = bt_sc_unlawful_land
+    }
+	#BT Dithmarschen production bonus on grain modifier.
+	if = {
+		limit = {
+			has_province_modifier = dtt_bread_bonus_prod
+			FROM = { 
+				tag = DTT 
+				mission_completed = peasants_conquest_of_bread
+			}
+			NOT = { 
+				owner = {
+					tag = DTT 
+					mission_completed = peasants_conquest_of_bread
+				} 
+			}
+		}
+		remove_province_modifier = dtt_bread_bonus_prod
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_province_modifier = dtt_bread_bonus_prod
+			}
+			owner = { 
+				tag = DTT 
+				mission_completed = peasants_conquest_of_bread
+			}
+			NOT = { 
+				FROM = {
+					tag = DTT 
+					mission_completed = peasants_conquest_of_bread
+				} 
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					trade_goods = grain
+				}
+				add_province_modifier = { 
+					name = dtt_bread_bonus_prod
+					duration = -1
+					hidden = yes
+				}
+			}
+		}
+	}
+}
+
+on_country_creation = {
+	#BT Fix bug with noreligion/noculture tags
+	if = {
+		limit = {
+			country_religion = noreligion
+		}
+		change_religion = capital
+	}
+	if = {
+		limit = {
+			primary_culture = noculture
+		}
+		change_culture = capital
+	}
+}
+
+on_transfer_development = { #BT concentrate development fix/tweak/whatever
+    capital_scope = {
+        if = {
+            limit = {
+                has_province_modifier = bt_dev_cost_5
+            }
+            extend_province_modifier = {
+                name = bt_dev_cost_5
+                duration = 1825
+            }
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_dev_cost_4
+            }
+            add_province_modifier = {
+                name = bt_dev_cost_5
+                duration = 1825
+            }
+            remove_province_modifier = bt_dev_cost_4
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_dev_cost_3
+            }
+            add_province_modifier = {
+                name = bt_dev_cost_4
+                duration = 1825
+            }
+            remove_province_modifier = bt_dev_cost_3
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_dev_cost_2
+            }
+            add_province_modifier = {
+                name = bt_dev_cost_3
+                duration = 1825
+            }
+            remove_province_modifier = bt_dev_cost_2
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_dev_cost_1
+            }
+            add_province_modifier = {
+                name = bt_dev_cost_2
+                duration = 1825
+            }
+            remove_province_modifier = bt_dev_cost_1
+        }
+        else = {
+            add_province_modifier = {
+                name = bt_dev_cost_1
+                duration = 1825
+            }
+        }
+    }
+}
+
+on_centralized_state = { #BT Centralized state overhaul - now applies area-wide modifiers.
+	area = {
+		limit = {
+			NOT = { province_id = ROOT }
+		}
+        if = {
+            limit = {
+                has_province_modifier = bt_centralize_state_provinces_10
+            }
+            extend_province_modifier = {
+                name = bt_centralize_state_provinces_10
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_centralize_state_provinces_9
+            }
+            add_province_modifier = {
+                name = bt_centralize_state_provinces_10
+                duration = -1
+            }
+            remove_province_modifier = bt_centralize_state_provinces_9
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_centralize_state_provinces_8
+            }
+            add_province_modifier = {
+                name = bt_centralize_state_provinces_9
+                duration = -1
+            }
+            remove_province_modifier = bt_centralize_state_provinces_8
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_centralize_state_provinces_7
+            }
+            add_province_modifier = {
+                name = bt_centralize_state_provinces_8
+                duration = -1
+            }
+            remove_province_modifier = bt_centralize_state_provinces_7
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_centralize_state_provinces_6
+            }
+            add_province_modifier = {
+                name = bt_centralize_state_provinces_7
+                duration = -1
+            }
+            remove_province_modifier = bt_centralize_state_provinces_6
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_centralize_state_provinces_5
+            }
+            add_province_modifier = {
+                name = bt_centralize_state_provinces_6
+                duration = -1
+            }
+            remove_province_modifier = bt_centralize_state_provinces_5
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_centralize_state_provinces_4
+            }
+            add_province_modifier = {
+                name = bt_centralize_state_provinces_5
+                duration = -1
+            }
+            remove_province_modifier = bt_centralize_state_provinces_4
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_centralize_state_provinces_3
+            }
+            add_province_modifier = {
+                name = bt_centralize_state_provinces_4
+                duration = -1
+            }
+            remove_province_modifier = bt_centralize_state_provinces_3
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_centralize_state_provinces_2
+            }
+            add_province_modifier = {
+                name = bt_centralize_state_provinces_3
+                duration = -1
+            }
+            remove_province_modifier = bt_centralize_state_provinces_2
+        }
+        else_if = {
+            limit = {
+                has_province_modifier = bt_centralize_state_provinces_1
+            }
+            add_province_modifier = {
+                name = bt_centralize_state_provinces_2
+                duration = -1
+            }
+            remove_province_modifier = bt_centralize_state_provinces_1
+        }
+        else = {
+            add_province_modifier = {
+                name = bt_centralize_state_provinces_1
+                duration = -1
+            }
+        }
+	}
+	#Funky bandaid fix without actually replacing vanilla's 00_on_actions.txt to remove gov reform progress stuff since they don't cost in BT.
+	if = {
+		limit = {
+			owner = { has_government_attribute = centralize_state_no_reform_cost }
+		}
+		owner = {
+			change_government_reform_progress = -50
+		}
+	}
+	else_if = {
+		limit = {
+			owner = { has_government_attribute = centralize_state_half_refund }
+		}
+		owner = {
+			change_government_reform_progress = -25
+		}
+	}
+}
+
+#Dev note: Can as part of 1.36 be added in dip.txt instead.
+on_dip_tech_taken = { #ROOT - Country, executed after on_tech_taken!
+	if = {
+		limit = {
+			dip_tech = 31
+			NOT = { has_country_modifier = bt_culture_cost_redux_5 }
+		}
+		remove_country_modifier = bt_culture_cost_redux_4
+		add_country_modifier = { 
+			name = bt_culture_cost_redux_5
+			duration = -1
+		}
+	}
+	else_if = {
+		limit = {
+			dip_tech = 26
+			NOT = { has_country_modifier = bt_culture_cost_redux_5 }
+			NOT = { has_country_modifier = bt_culture_cost_redux_4 }
+		}
+		remove_country_modifier = bt_culture_cost_redux_3
+		add_country_modifier = { 
+			name = bt_culture_cost_redux_4
+			duration = -1
+		}
+	}
+	else_if = {
+		limit = {
+			dip_tech = 20
+			NOT = { has_country_modifier = bt_culture_cost_redux_5 }
+			NOT = { has_country_modifier = bt_culture_cost_redux_4 }
+			NOT = { has_country_modifier = bt_culture_cost_redux_3 }
+		}
+		remove_country_modifier = bt_culture_cost_redux_2
+		add_country_modifier = { 
+			name = bt_culture_cost_redux_3
+			duration = -1
+		}
+	}
+	else_if = {
+		limit = {
+			dip_tech = 14
+			NOT = { has_country_modifier = bt_culture_cost_redux_5 }
+			NOT = { has_country_modifier = bt_culture_cost_redux_4 }
+			NOT = { has_country_modifier = bt_culture_cost_redux_3 }
+			NOT = { has_country_modifier = bt_culture_cost_redux_2 }
+		}
+		remove_country_modifier = bt_culture_cost_redux_1
+		add_country_modifier = { 
+			name = bt_culture_cost_redux_2
+			duration = -1
+		}
+	}
+	else_if = {
+		limit = {
+			dip_tech = 8
+			NOT = { has_country_modifier = bt_culture_cost_redux_5 }
+			NOT = { has_country_modifier = bt_culture_cost_redux_4 }
+			NOT = { has_country_modifier = bt_culture_cost_redux_3 }
+			NOT = { has_country_modifier = bt_culture_cost_redux_2 }
+			NOT = { has_country_modifier = bt_culture_cost_redux_1 }
+		}
+		add_country_modifier = { 
+			name = bt_culture_cost_redux_1
+			duration = -1
+		}
+	}
+}

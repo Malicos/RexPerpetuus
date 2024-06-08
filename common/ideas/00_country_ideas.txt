@@ -2,7 +2,53 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new groups or ideas, make sure they are unique.
 
-# Nation specific idea groups
+# This one is the first for the case that some country manages to become fully Norse.
+
+norse_ideas = {
+	start = {
+		land_morale = 0.15	
+		may_perform_slave_raid_on_same_religion = yes
+	}
+	
+	bonus = {
+		infantry_power = 0.15
+	}
+	
+	trigger = {
+		has_country_flag = accepted_norse_ideas_flag
+		NOT = { has_country_flag = refused_norse_ideas }
+	}
+	free = yes
+	
+	norse_ideas_eternal_struggle = {
+		manpower_recovery_speed = 0.15
+		war_exhaustion = -0.03
+	}
+	norse_ideas_norse_seamen = {
+		own_coast_naval_combat_bonus = 1
+		naval_morale = 0.15	
+	}
+	norse_ideas_a_wall_of_shields_for_the_king = {
+		leader_land_shock = 1
+		leader_naval_shock = 1
+	}
+	norse_ideas_norse_artisans = {
+		development_cost = -0.1
+	}
+	norse_ideas_berserkir = {
+		shock_damage = 0.2
+	}
+	norse_ideas_leifs_legacy = {
+		may_explore = yes
+		colonists = 1
+		effect = { remove_temporary_colonist = yes }
+	}
+	norse_ideas_ancestral_faith = {
+		tolerance_own = 2
+	}
+}
+
+### Nation specific idea groups
 
 HLR_ideas = {
 	start = {
@@ -21,6 +67,10 @@ HLR_ideas = {
 	
 	hlr_imperial_throne = {
 		legitimacy = 1.5 #unique (it's the HRE :D)
+		republican_tradition = 0.5
+		devotion = 1.5
+		meritocracy = 1.5	#For completion's sake
+		horde_unity = 1.5
 	}
 	hlr_kaiserliche_armee = {
 		land_morale = 0.15
@@ -47,6 +97,8 @@ GER_ideas = {
 		legitimacy = 1
 		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		infantry_power = 0.15
 	}
 	
@@ -89,7 +141,7 @@ ENG_ideas = {
 	}
 
 	bonus = {
-		free_leader_pool = 1
+		naval_morale = 0.1
 	}
 	
 	trigger = {
@@ -120,6 +172,7 @@ ENG_ideas = {
 	}
 	british_bill_of_rights = {
 		years_of_nationalism = -5
+		num_of_parliament_issues = 1
 	}
 }
 
@@ -147,10 +200,15 @@ GBR_ideas = {
 	}
 	city_upon_a_hill = {
 		global_colonial_growth = 20
-	}
-	british_merchant_navy = {
 		global_tariffs = 0.15
 	}
+	the_british_parliament = {
+		global_unrest = -1
+		num_of_parliament_issues = 1
+	}
+	#british_merchant_navy = {
+	#	global_tariffs = 0.15
+	#}
 	gbr_the_royal_society = {
 		technology_cost = -0.05
 	}
@@ -164,6 +222,93 @@ GBR_ideas = {
 		leader_naval_manuever = 1
 		blockade_efficiency = 0.33
 		allowed_marine_fraction = 0.50
+	}
+}
+
+AVE_ideas = {
+	start = {
+		global_manpower_modifier = 0.2
+		improve_relation_modifier = 0.3
+	}
+
+	bonus = {
+		years_of_nationalism = -5
+	}
+	
+	trigger = {
+		tag = AVE
+	}
+	free = yes		#will be added at load.
+
+	angevin_decentralized_rule = {
+		core_creation = -0.2
+	}
+	english_common_law = {
+		global_tax_modifier = 0.15
+		num_of_parliament_issues = 1
+	}
+	lessons_of_the_anglo_french_wars = {
+		discipline = 0.05
+	}
+	the_many_thrones = {
+		heir_chance = 0.5
+		years_to_integrate_personal_union = -10
+	}
+	reformed_angevin_infantry = {
+		infantry_power = 0.1
+	}
+	seneschal_of_france = {
+		governing_capacity_modifier = 0.15
+	}
+	rule_of_the_plantagenet = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+	}
+}
+
+EIC_ideas = {
+	start = {
+		global_prov_trade_power_modifier = 0.2
+		no_religion_penalty = yes
+	}
+
+	bonus = {
+		global_trade_power = 0.15
+	}
+	
+	trigger = {
+		tag = EIC
+	}
+	free = yes		#will be added at load.
+
+	eic_governors_general = {
+		global_unrest = -1
+		governing_capacity_modifier = 0.1
+	}
+	eic_indian_trade = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	eic_chartered_merchants = {
+		merchants = 1
+		placed_merchant_power = 10
+	}
+	eic_presidency_armies = {
+		global_manpower_modifier = 0.1
+		global_sailors_modifier = 0.2
+	}
+	eic_intercontinental_trade = {
+		trade_steering = 0.25
+		trade_range_modifier = 0.1
+	}
+	eic_colonial_monopoly = {
+		trade_efficiency = 0.1
+	}
+	eic_colonial_exploitation = {
+		trade_company_investment_cost = -0.1
+		build_cost = -0.1
 	}
 }
 
@@ -184,6 +329,10 @@ SWE_ideas = {
 
 	kung_och_riksdag = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
 		possible_policy = 1
 	}
 	swedish_steel = {
@@ -207,6 +356,293 @@ SWE_ideas = {
 	}
 }
 
+DAN_ideas = {
+	start = {
+		navy_tradition = 1
+		global_manpower_modifier = 0.2
+	}
+	
+	bonus = {
+		global_naval_engagement_modifier = 0.15
+	}
+	
+	trigger = {
+		tag = DAN
+	}
+	free = yes		#will be added at load.
+
+	dan_kalmar_union = {
+		reduced_liberty_desire_on_same_continent = 10
+		diplomatic_annexation_cost = -0.1
+	}
+	dan_sound_dues = {
+		global_own_trade_power = 0.2
+		trade_efficiency = 0.05
+	}
+	dan_the_kings_sea = {
+		naval_forcelimit_modifier = 0.5
+	}
+	dan_royal_mercenaries = {
+		shock_damage = 0.1
+		mercenary_discipline = 0.05
+	}
+	dan_naval_heroes = {
+		leader_naval_shock = 1
+		naval_morale = 0.15
+	}
+	dan_colonial_ventures = {
+		global_colonial_growth = 15
+		build_cost = -0.1
+	}
+	dan_danish_absolutism_idea = {
+		global_autonomy = -0.05
+		max_absolutism = 10
+	}
+}
+
+NOR_ideas = {
+	start = {
+		global_sailors_modifier = 0.25
+		ship_durability = 0.10
+	}
+	
+	bonus = {
+		trade_steering = 0.20
+	}
+	
+	trigger = {
+		tag = NOR
+	}
+	free = yes
+	
+	call_of_our_forefathers = {
+		range = 0.33
+		may_explore = yes
+	}
+	pioneer_spirit = {
+		colonists = 1
+		effect = { remove_temporary_colonist = yes }
+	}
+	natural_seamanship = {
+		naval_morale = 0.20		
+	}
+	nor_shipbuilding = {
+		global_ship_cost = -0.1
+	}
+	seize_the_opportunity = {
+ 		global_trade_power = 0.1
+	}
+	nor_fishing = {
+		production_efficiency = 0.1
+	}
+	write_new_sagas = {
+		prestige = 1
+		discipline = 0.025
+	}
+}
+
+FIN_ideas = {
+	start = {
+		discipline = 0.05
+		global_tax_modifier = 0.10
+	}
+	
+	bonus = {
+		global_heretic_missionary_strength = 0.02
+	}
+	
+	trigger = {
+		tag = FIN
+	}
+	free = yes
+	
+	expand_viborg = {
+		defensiveness = 0.15
+	}
+	hakkapelitta_fin = {
+ 		cavalry_power = 0.15
+	}	
+	the_fourth_estate = {
+		production_efficiency = 0.1
+	}
+	settle_middle_finland = {
+		build_cost = -0.1
+		development_cost = -0.1
+	}
+	found_turun_akatemia = {
+		technology_cost = -0.05
+	}
+	the_white_death = {
+		hostile_attrition = 1
+	}
+	anjala_conspiracy = {
+		land_morale = 0.1
+	}
+}
+
+KRL_ideas = {
+	start = {
+		global_regiment_cost = -0.1
+		land_attrition = -0.1
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.15
+	}
+	
+	trigger = {
+		tag = KRL
+	}
+	free = yes
+	
+	krl_ladoge_fishing_industry = {
+		global_manpower_modifier = 0.15
+	}
+	krl_between_two_seas = {
+		global_ship_cost = -0.1
+	}	
+	krl_the_sestra_river = {
+		trade_steering = 0.1
+	}
+	krl_the_two_karelian_realms = {
+		years_of_nationalism = -5
+	}
+	krl_baltic_shipyards = {
+		naval_forcelimit_modifier = 0.33
+	}
+	krl_valaam_monastery = {
+		global_missionary_strength = 0.01
+		yearly_patriarch_authority = 0.005
+	}
+	krl_from_the_varangians_to_the_greeks = {
+		global_trade_power = 0.1
+	}
+}
+
+ICE_ideas = {
+	start = {
+		may_explore = yes
+		hostile_attrition = 1
+	}
+	
+	bonus = {
+		colonists = 1
+		effect = { remove_temporary_colonist = yes }
+	}	
+
+	trigger = {
+		tag = ICE
+	}
+	free = yes
+	
+	ICE_althingi = {
+		global_unrest = -1
+		reform_progress_growth = 0.15
+	}
+	ICE_hrafna_floki = {
+		global_ship_recruit_speed = -0.2
+	}
+	ICE_christian_identity = {
+		papal_influence = 1
+		monthly_fervor_increase = 0.25
+		church_power_modifier = 0.1
+		global_missionary_strength = 0.01
+	}
+	ICE_merchant_navy = {
+		light_ship_power = 0.15
+	}
+	ICE_fire_and_ice = {
+		discipline = 0.05
+	}
+	ICE_natural_builders = {
+		build_cost = -0.1
+		development_cost = -0.05
+	}
+	ICE_nationalism = {
+		culture_conversion_cost = -0.2
+	}
+}
+
+GOT_ideas = {
+	start = {
+		privateer_efficiency = 0.15
+		core_creation = -0.15
+	}
+	
+	bonus = {
+		trade_efficiency = 0.1
+	}
+	
+	trigger = {
+		tag = GOT
+	}
+	free = yes
+	
+	rebuild_visby = {
+		development_cost = -0.1
+	}
+	invite_mercenaries_to_visby = {
+		merc_maintenance_modifier = -0.15
+	}
+	expand_visby_dockyard = {
+		global_ship_cost = -0.1
+	}
+	rebuild_the_trade = {
+		global_trade_power = 0.1
+	}
+	gutnish_merchant_adventurers = {
+		merchants = 1
+	}
+	gutnish_merchant_navy = {
+		naval_forcelimit_modifier = 0.33
+	}
+	found_visby_bank = {
+		interest = -0.5
+	}
+}
+
+SCA_ideas = { #Let's be honest, our idea set is better. I'm throwing this one in the trash. //Dub
+	start = {
+		discipline = 0.05
+		global_trade_goods_size_modifier = 0.15
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.2
+	}
+	
+	trigger = {
+		tag = SCA
+	}
+	free = yes
+	
+	sca_united_craftsman = {
+		global_allowed_num_of_buildings = 1
+		build_cost = -0.05
+	}
+	sca_unified_scandinavian = {
+		possible_policy = 1
+		administrative_efficiency = 0.05
+	}
+	sca_danish_baltic_fleet = {
+		trade_efficiency = 0.1
+		ship_durability = 0.05
+	}
+	sca_norwegian_marines = {
+		naval_morale = 0.2
+	}
+	sca_finnish_hakkapeliita = {
+		cavalry_fire = 0.5
+		cavalry_cost = -0.15
+	}
+	sca_swedish_carolean = {
+		infantry_power = 0.2
+	}
+	sca_empire_of_the_north = {
+		max_absolutism = 10
+		yearly_absolutism = 1
+	}
+}
 
 MOS_ideas = { #Take another look at this with new estates.
 	start = {
@@ -215,7 +651,7 @@ MOS_ideas = { #Take another look at this with new estates.
 	}
 
 	bonus = {
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.25
 	}
 
 	trigger = {
@@ -259,12 +695,16 @@ MOS_ideas = { #Take another look at this with new estates.
 
 RUS_ideas = {
 	start = {
-		core_creation = -0.10
+		core_creation = -0.15
 		global_manpower_modifier = 0.33
 	}
 
 	bonus = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
 	}
 
 	trigger = {
@@ -273,7 +713,7 @@ RUS_ideas = {
 	free = yes		#will be added at load.
 
 	land_of_the_rus = {
-		ae_impact = -0.1
+		ae_impact = -0.15
 	}
 	siberian_frontier = {
 		may_establish_frontier = yes
@@ -285,11 +725,11 @@ RUS_ideas = {
 		artillery_power = 0.1
 	}
 	life_long_conscription  = {
-		land_forcelimit_modifier = 0.50
+		land_forcelimit_modifier = 0.33
 	}
-
 	abolish_the_mestnichestvo = {
 		yearly_corruption = -0.1
+		nobles_influence_modifier = -0.1
 	}
 	table_of_ranks = {
 		advisor_cost = -0.10
@@ -316,36 +756,42 @@ SPA_ideas = {
 	}
 	free = yes		#will be added at load.
 
-	devout_catholisism = {
+	devout_catholisism = { #This is wack, but I suppose it's the sake of completionism. //Dub
 		papal_influence = 2
+		church_power_modifier = 0.25
+		monthly_fervor_increase = 0.5
 	}
 	inter_caetera = {
 		idea_claim_colonies = yes
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
-	gold_fleet = {
-		naval_forcelimit_modifier = 0.25
+	salamanca_scholars = {
+		global_institution_spread = 0.1
+		reform_progress_growth = 0.1
 	}
 	spanish_armada = {
 		heavy_ship_power = 0.1
-		leader_naval_manuever = 1
+		naval_forcelimit_modifier = 0.25
 	}
 	spa_casa_de_contracion = {
 		envoy_travel_time = -0.33
 		global_tariffs = 0.15
 	}
-	spa_cortes = { 
-		possible_dip_policy = 1
-	}
 	siglo_de_oro = {
 		prestige = 1
 	}
+	spa_cortes = { 
+		possible_dip_policy = 1
+		loyalty_change_on_revoked = 0.05
+	}
+	
 }
 
 CAS_ideas = {
 	start = {
 		land_morale = 0.15
-		allowed_marine_fraction = 0.25
+		naval_forcelimit_modifier = 0.25
 	}
 	bonus = {
 		global_colonial_growth = 25
@@ -367,6 +813,7 @@ CAS_ideas = {
 	inter_caetera = {
 		idea_claim_colonies = yes
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	infantas = {
 		diplomatic_reputation = 1
@@ -374,6 +821,7 @@ CAS_ideas = {
 	}
 	salamanca_scholars = {
 		global_institution_spread = 0.1
+		reform_progress_growth = 0.1
 	}
 	nueva_planta = {
 		global_autonomy = -0.05
@@ -395,6 +843,7 @@ NED_ideas = {
 			tag = NED
 			tag = HOL
 		}
+		NOT = { has_country_flag = ned_united_crowns_flag }
 	}
 	free = yes		#will be added at load.
 	
@@ -403,7 +852,7 @@ NED_ideas = {
 	}
 	dutch_trading_spirit = {
 		merchants = 1
-		trade_range_modifier = 0.10
+		trade_range_modifier = 0.1
 	}
 	polders = {
 		development_cost = -0.1
@@ -423,85 +872,95 @@ NED_ideas = {
 	}
 }
 
-
-DAN_ideas = {
-	start = {
-		ship_durability = 0.05
-		global_tax_modifier = 0.10
-	}
-	
-	bonus = {
-		global_naval_engagement_modifier = 0.10
-	}
-	
-	trigger = {
-		tag = DAN
-	}
-	free = yes		#will be added at load.
-
-	nordic_rulers_legacy = {
-		shock_damage = 0.1
-	}
-	vornedskab = {
-		global_manpower_modifier = 0.2
-		global_sailors_modifier = 0.2
-	}
-	old_naval_traditions = {
-		naval_morale = 0.1
-		disengagement_chance = 0.05
-	}
-	rentekammer = {
-		build_cost = -0.15
-	}
-	klaedekammer = {
-		naval_maintenance_modifier = -0.15
-	}
-	expanded_dockyards = {
-		naval_forcelimit_modifier = 0.5
-	}
-	den_danske_lov = {
-		global_unrest = -1
-	}
-}
-
-
 FRA_ideas = {
 	start = {
 		diplomatic_reputation = 1
-		global_manpower_modifier = 0.20
+		global_manpower_modifier = 0.2
 	}
 	
 	bonus = {
-		discipline = 0.05
+		development_cost = -0.1
 	}	
 
 	trigger = {
 		tag = FRA
+		is_revolutionary = no 
+		is_revolution_target = no 
 	}
 	free = yes		#will be added at load.
 	
-	french_language_in_all_courts = {
-		diplomatic_upkeep = 1
+	fra_taille = {
+		global_tax_modifier = 0.1
+		war_taxes_cost_modifier = -0.5
 	}
-	elan = {
-		land_morale = 0.20
+	lessons_hundred_years_war = {
+		army_tradition = 0.5
+		land_morale = 0.15
 	}
 	estates_general = {
-		global_tax_modifier = 0.1
+		reform_progress_growth = 0.1
+		global_unrest = -1 
 	}
 	native_trading_principles = {
 		native_uprising_chance = -0.5
 		native_assimilation = 0.5
 	}
+	divine_right_to_rule = {
+		core_creation = -0.1
+		max_absolutism = 5
+	}
+	europes_first_standing_army = {
+		discipline = 0.05
+	}
 	vauban_fortifications = {
-		fort_maintenance_modifier = -0.2
+		defensiveness = 0.15
+		garrison_damage = 0.5
 	}
-	the_philosophes = {
-		technology_cost = -0.1
+}
+
+FRA_ideas_2 = {
+	start = {
+		max_revolutionary_zeal = 5 
+		harsh_treatment_cost = -0.5
 	}
+	
+	bonus = {
+		siege_ability = 0.15
+	}	
+
+	trigger = {
+		tag = FRA
+		OR = {
+			is_revolution_target = yes
+			is_revolutionary = yes 
+		} 
+	}
+	free = yes		#will be added at load.
+	
+	revolutionary_tribunal = {
+		years_of_nationalism = -10
+	}
+	elan = {
+		land_morale = 0.15
+		morale_damage = 0.05
+	}
+	mandats_territoriaux = {
+		production_efficiency = 0.15
+		inflation_reduction = 0.05
+	} 
 	liberty_egalite_fraternity = {
-		tolerance_heathen = 2
-		tolerance_heretic = 2
+		tolerance_heretic = 1 
+		tolerance_heathen = 1 
+	}
+	jourdan_law = {
+		manpower_recovery_speed = 0.2
+	}
+	napoleonic_tactics = {
+		military_tactics = 0.1 #This is actually weaker than a +5% discipline at this point. //Dub
+		drill_gain_modifier = 0.5
+	}
+	european_ambitions = {
+		core_creation = -0.2
 	}
 }
 
@@ -513,7 +972,7 @@ TUR_ideas = {
 	}
 	
 	bonus = {
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.25
 	}
 
 	trigger = {
@@ -522,8 +981,8 @@ TUR_ideas = {
 	free = yes		#will be added at load.
 	
 	millets = {
-		core_creation = -0.20
-		num_accepted_cultures = 1
+		core_creation = -0.20 #Not giving the vanilla buff to -25%. //Dub
+		#num_accepted_cultures = 1 #BT removed entirely as part of the Accepted Culture Slots overhaul. Ottomans get unique government reforms that already give accepted culture cost reduction, and it gets quite insane if it stacks.
 	}	
 	ghazi = {
 		manpower_recovery_speed = 0.2
@@ -531,16 +990,18 @@ TUR_ideas = {
 	timariot_system = {
 		cavalry_power = 0.15
 	}
-	autonmous_pashas = {
-		war_exhaustion_cost = -0.10
-	}		
 	lawcode_of_suleiman_01 = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.15
+		reform_progress_growth = 0.1
 	}
+	autonmous_pashas = {
+		global_unrest = -2
+	}		
 	tulip_period = {
 		trade_efficiency = 0.10
 	}
 	imperial_school_of_naval_engineering = {
+		navy_tradition = 0.5
 		global_ship_cost = -0.1
 	}
 }
@@ -646,6 +1107,10 @@ BLG_ideas = {
 	BLG_bentivoglio = {
 		reelection_cost = -0.2
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
 	}
 	BLG_papal_rebellion = {
 		church_power_modifier = 0.1
@@ -731,7 +1196,11 @@ PGA_ideas = {
 		tolerance_own = 2
 	}
 	PGA_signoria = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		prestige = 1
 	}
 	PGA_heartbeat_of_christianity = {
@@ -786,8 +1255,12 @@ SZO_ideas = {
 
 MFA_ideas = {
 	start = {
-		recover_army_morale_speed = 0.05
+		recover_army_morale_speed = 0.10
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
 	}
 	
 	bonus = {
@@ -897,7 +1370,11 @@ LUC_ideas = {
 		global_unrest = -1
 	}
 	LUC_jacobin_state = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		max_revolutionary_zeal = 10
 	}
 }
@@ -918,7 +1395,11 @@ VRN_ideas = {
 	free = yes		#will be added at load.
 	
 	VRN_three_households = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		stability_cost_modifier = -0.15
 	}
 	VRN_fair_verona = {
@@ -944,8 +1425,12 @@ VRN_ideas = {
 
 VEN_ideas = {
 	start = {
-		global_sailors_modifier = 0.20
-		global_trade_power = 0.1
+		trade_steering = 0.33
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	bonus = {
@@ -954,33 +1439,163 @@ VEN_ideas = {
 	
 	trigger = {
 		tag = VEN
+		NOT = { has_country_flag = ven_upgrade_state_inuisition_idea_flag }
+		NOT = { has_country_flag = LNS_ideas_flag }
 	}
 	free = yes		#will be added at load.
 	
 	venetian_arsenal = {
 		naval_forcelimit_modifier = 0.25
-		galley_cost = -0.20
+		ship_durability = 0.05
 	}
 	printing_industry = {
-		diplomats = 1
+		institution_spread_from_true_faith = 0.33
+		technology_cost = -0.05
 	}
 	stato_da_mar = {
-		trade_efficiency = 0.10
+		trade_efficiency = 0.2
 	}
 	state_inquisition = {
 		global_spy_defence = 0.3
+		yearly_corruption = -0.05
 	}
 	conscription = {
-		naval_maintenance_modifier = -0.2
-		sailor_maintenance_modifer = -0.05
+		global_sailors_modifier = 0.33
+		allowed_marine_fraction = 0.1
 	}
 	defend_the_law = {
-		stability_cost_modifier = -0.1
-		justify_trade_conflict_cost = -0.1
+		global_unrest = -2
 	}
 	provveditori_ai_beni_inculti = {
-		land_attrition = -0.10
-		naval_attrition = -0.10
+		development_cost = -0.1
+	}
+}
+
+VEN_ideas_2 = {
+	start = {
+		trade_steering = 0.33
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	
+	bonus = {
+		galley_power = 0.25
+	}
+	
+	trigger = {
+		tag = VEN
+		has_country_flag = ven_upgrade_state_inuisition_idea_flag
+	}
+	free = yes		#will be added at load.
+	
+	venetian_arsenal = {
+		#Present in the previous VEN_ideas ideaset
+	}
+	printing_industry = {
+		#Present in the previous VEN_ideas ideaset
+	}
+	stato_da_mar = {
+		#Present in the previous VEN_ideas ideaset
+	}
+	state_inquisition_2 = {
+		diplomats = 1 
+		max_absolutism = 10
+	}
+	conscription = {
+		#Present in the previous VEN_ideas ideaset
+	}
+	defend_the_law = {
+		#Present in the previous VEN_ideas ideaset
+	}
+	provveditori_ai_beni_inculti = {
+		development_cost = -0.1
+	}
+}
+
+LNS_ideas = {
+	start = {
+		trade_steering = 0.33
+		galley_power = 0.25
+	}
+	
+	bonus = {
+		envoy_travel_time = -0.25
+	}
+	
+	trigger = {
+		tag = VEN
+		NOT = { has_country_flag = ven_upgrade_state_inuisition_idea_flag }
+	}
+	free = yes		#will be added at load.
+	
+	lns_renaissance_art = {
+		technology_cost = -0.1
+	}
+	stato_da_mar = {
+		#Present in the previous VEN_ideas ideaset
+	}
+	lns_maritime_dominance = {
+		global_trade_power = 0.2
+	}
+	lns_a_gunpowder_republic = {
+		fire_damage = 0.10 #BT Nerf. //Dub
+		land_forcelimit_modifier = 0.2
+	}
+	backing_of_the_ducat = {
+		naval_forcelimit_modifier = 0.5
+	}
+	reform_the_uscocchi = {
+		global_ship_trade_power = 0.35
+		global_trade_goods_size_modifier = 0.1
+	}
+	maggior_consiglio = {
+		max_absolutism = 10
+		max_revolutionary_zeal = 10
+	}
+}
+
+DAL_ideas = {
+	start = {
+		trade_efficiency = 0.15
+		land_morale = 0.1
+	}
+	
+	bonus = {
+		naval_morale = 0.15
+	}
+	
+	trigger = {
+		tag = DAL
+
+	}
+	free = yes		#will be added at load.
+	
+	DAL_kingdom_of_dalmatia = {
+		reform_progress_growth = 0.15
+		global_unrest = -1
+	}
+	DAL_principalities = {
+		global_foreign_trade_power = 0.15
+	}
+	DAL_language = {
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
+	}
+	DAL_art_and_lit = {
+		global_institution_spread = 0.1
+		development_cost = -0.05
+	}
+	DAL_independent_army = {
+		infantry_power = 0.10 #BT Nerf //Dub
+	}
+	DAL_arsenal = {
+		naval_forcelimit_modifier = 0.25
+	}
+	DAL_illyria = {
+		core_creation = -0.15
 	}
 }
 
@@ -1028,7 +1643,7 @@ PRU_ideas = {
 
 BRA_ideas = {
 	start = {
-		fabricate_claims_cost = -0.2
+		fabricate_claims_cost = -0.2 #BT Added space for consistency
 		build_cost = -0.15
 	}
 	
@@ -1068,7 +1683,7 @@ BRA_ideas = {
 
 POR_ideas = {
 	start = {
-		range = 0.25
+		movement_speed_in_fleet_modifier = 1
 		infantry_power = 0.1
 	}
 	
@@ -1083,7 +1698,7 @@ POR_ideas = {
 	
 	legacy_of_the_navigator = {
 		naval_morale = 0.1
-		disengagement_chance = 0.05
+		range = 0.20
 	}
 	afonsine_ordinances = {
 		global_trade_goods_size_modifier = 0.1
@@ -1111,7 +1726,8 @@ POR_ideas = {
 POL_ideas = {
 	start = {
 		cavalry_cost = -0.1
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	
 	bonus = {
@@ -1119,10 +1735,7 @@ POL_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = POL
-			tag = PLC
-		}
+		tag = POL
 	}
 	free = yes		#will be added at load.
 	
@@ -1138,8 +1751,8 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
-		cav_to_inf_ratio = 0.10
+		cavalry_power = 0.25 #BT Nerf from 0.3
+		can_recruit_hussars = yes
 	}
 	wojsko_komputoe = {
 		global_regiment_cost = -0.10
@@ -1152,6 +1765,170 @@ POL_ideas = {
 	}
 }
 
+LIT_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		tolerance_heretic = 3
+	}
+	
+	bonus = {
+		leader_land_manuever = 1
+	}
+	
+	trigger = {
+		tag = LIT
+		NOT = { has_country_flag = lit_new_magdeburg_laws }
+	}
+	free = yes		#will be added at load.
+	
+	warlord_dukes = {
+		leader_land_shock = 1
+	}
+	auksine_laisve = {
+		stability_cost_modifier = -0.1
+	}
+	magdeburg_laws = {
+		global_tax_modifier = 0.1
+	}
+	magnate_estates = {
+		production_efficiency = 0.1
+	}
+	lithuanian_hussars = {
+		cavalry_power = 0.20 #BT Nerf
+		can_recruit_hussars = yes
+	}
+	statutes_of_lithuania = {
+		global_unrest = -2
+	}
+	lithuanian_renaissance = {
+		technology_cost = -0.05
+	}
+}
+
+LIT2_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		tolerance_heretic = 3
+	}
+	
+	bonus = {
+		leader_land_manuever = 1
+	}
+	
+	trigger = {
+		tag = LIT
+		has_country_flag = lit_new_magdeburg_laws
+	}
+	free = yes		#will be added at load.
+	
+	warlord_dukes = {
+		leader_land_shock = 1
+	}
+	auksine_laisve = {
+		stability_cost_modifier = -0.1
+	}
+	lit_new_magdeburg_laws = {
+		development_cost = -0.1
+		global_trade_goods_size_modifier = 0.05
+	}
+	magnate_estates = {
+		production_efficiency = 0.1
+	}
+	lithuanian_hussars = {
+		cavalry_power = 0.2 #BT Nerf from 0.25
+		can_recruit_hussars = yes
+	}
+	statutes_of_lithuania = {
+		global_unrest = -2
+	}
+	lithuanian_renaissance = {
+		technology_cost = -0.05
+	}
+}
+
+PLC_ideas = {
+	start = {
+		nobles_loyalty_modifier = 0.1
+		#num_accepted_cultures = 2 
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
+	}
+	
+	bonus = {
+		tolerance_heretic = 3
+	}
+	
+	trigger = {
+		tag = PLC
+		NOT = { has_country_flag = is_LPC_flag }
+	}
+	free = yes
+	
+	plc_prosperous_folwarks = { #Same for all of them
+		global_trade_goods_size_modifier = 0.10
+	}
+	pol_jagiellonian_university = {
+		idea_cost = -0.10
+	}
+	plc_the_obrona_potoczna = { #Same for all of them
+		drill_gain_modifier = 0.25
+		army_tradition = 1
+	}
+	winged_hussars = { 
+		cavalry_power = 0.25 #BT Nerf
+		can_recruit_hussars = yes
+	}
+	plc_refine_our_golden_liberty = { #Same for all of them
+		country_admin_power = 1 
+	}
+	pol_royal_guards = {
+		infantry_power = 0.15
+	}
+	plc_tempered_by_neighbors = { #Same for all of them
+		discipline = 0.05
+	}
+}
+
+PLC_LIT_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		tolerance_heretic = 3
+	}
+	
+	bonus = {
+		governing_capacity_modifier = 0.15
+	}
+	
+	trigger = {
+		tag = PLC 
+		has_country_flag = is_LPC_flag 
+	}
+	free = yes	
+	
+	warlord_dukes = {
+		leader_land_shock = 1 
+	}
+	plc_tempered_by_neighbors = { 
+		discipline = 0.05
+	}
+	lit_new_magdeburg_laws = {
+		development_cost = -0.1
+		global_trade_goods_size_modifier = 0.05
+	}
+	reciprocal_guarantee_of_two_nations = {
+		all_estate_loyalty_equilibrium = 0.05
+		diplomatic_annexation_cost = -0.15
+	}
+	lithuanian_hussars = {
+		cavalry_power = 0.2 #BT Nerf
+		can_recruit_hussars = yes 
+	}
+	statutes_of_lithuania = {
+		global_unrest = -2
+	}
+	lithuanian_renaissance = {
+		technology_cost = -0.05
+	}
+}
 
 HAB_ideas = {
 	start = {
@@ -1205,7 +1982,7 @@ HAB_ideas = {
 	}
 	hofkriegsrat = {
 		reinforce_speed = 0.3
-		discipline = 0.03
+		discipline = 0.05 #BT: Austria needs the vanilla buff I think //Dub
 	}
 }
 
@@ -1252,45 +2029,200 @@ CHI_ideas = {
 
 PER_ideas = {
 	start = {
-		land_morale = 0.1
-		cavalry_power = 0.15
+		land_morale = 0.15
+		cavalry_power = 0.15 
 	}
 	
 	bonus = {
-		recover_army_morale_speed = 0.05
+		recover_army_morale_speed = 0.05 #BT Not buffing to 0.1. That'd be a +66% faster morale recovery in enemy territory.
 	}
 	
 	trigger = {
 		tag = PER
 	}
 	free = yes
-
 	the_qizilbash = {
 		global_manpower_modifier = 0.15
+		qizilbash_privilege_slots = 1
 	}
 	persian_rug_production = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	the_ghulams = {
 		discipline = 0.05
+		ghulams_privilege_slots = 1
 	}
 	improved_silk_road = {
 		caravan_power = 0.2
 	}
 	encouraged_art = {
 		prestige = 1
-		production_efficiency = 0.05
+		production_efficiency = 0.1
 	}
 	promotion_of_irrigation = {
-		manpower_recovery_speed = 0.10
+		manpower_recovery_speed = 0.15
+		development_cost = -0.05
 	}
 	increased_crown_lands = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.10 #Not buffing this - Persia has enough buffs as it is. //Dub
 	}
 }
 
+ERANSHAHR_ideas = {
+	start = {
+		land_morale = 0.15
+		diplomatic_reputation = 2
+	}
+	
+	bonus = {
+		overextension_impact_modifier = -0.2
+	}
+	
+	trigger = {
+		tag = ERS
+	}
+	free = yes
+	ers_guardians_of_the_sacred_fire = {
+		tolerance_own = 2
+		yearly_government_power = 1
+	}
+	ers_restore_the_academy_of_gondishapur = {
+		technology_cost = -0.05
+	}
+	ers_wuzurg_framadar = {
+		same_religion_advisor_cost = -0.2
+	}
+	ers_reform_the_savaran_cavalry = {
+		cavalry_power = 0.2
+	}
+	improved_silk_road = {
+		#same as in PER_ideas
+		#caravan_power = 0.2
+	}
+	ers_rebuild_the_caspian_gates = {
+		defensiveness = 0.2
+		garrison_size = 0.2
+	}
+	ers_sasanian_siege_warfare = {
+		artillery_level_modifier = 0.5
+	}
+}
 
-BUR_ideas = { # Brian fixed
+MUG_ideas = {
+	start = {
+		core_creation = -0.25
+		cavalry_power = 0.20
+	}
+	
+	bonus = {
+		technology_cost = -0.05
+	}
+	
+	trigger = {
+		tag = MUG
+	}
+	free = yes
+	#Before you change any of the ideas here, make sure ERANA_ideas are adjusted too, or else they will have empty ideas.
+	mansabdari_system = {
+		discipline = 0.05
+	}
+	control_of_the_ulema = {
+		global_unrest = -1
+	}
+	mughal_ibadat_khana = {
+		idea_cost = -0.1
+	}
+	an_indian_padshah = {
+		free_mil_policy = 1
+	}
+	zabt_system = {
+		global_tax_modifier = 0.15
+	}
+	mughal_architecture = {
+		prestige = 1
+		great_project_upgrade_time = -0.1
+	}
+	fatawa_e_alamgiri = {
+		stability_cost_modifier = -0.10
+	}
+}
+
+#ERANA_ideas = {
+#	start = {
+#		core_creation = -0.25
+#		cavalry_power = 0.20
+#	}
+#	
+#	bonus = {
+#		technology_cost = -0.05
+#	}
+#	
+#	trigger = {
+#		tag = MUG
+#		NOT = { has_country_flag = per_blend_with_mug_ideas_flag }
+#	}
+#	free = yes
+#	#Modifiers are defined in PER_ideas and ERANA_ideas
+#	mansabdari_system = {
+#	}
+#	persian_rug_production = {
+#	}
+#	mughal_ibadat_khana = {
+#	}
+#	an_indian_padshah = {
+#	}
+#	promotion_of_irrigation = {
+#	}
+#	encouraged_art = {
+#	}
+#	fatawa_e_alamgiri = {
+#	}
+#}
+
+TIM_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		leader_land_shock = 1
+	}
+	
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		tag = TIM
+	}
+	free = yes
+	
+	timurid_architecture = {
+		prestige = 1
+	}
+	the_mantle_of_the_great_khan = {
+		land_morale = 0.1
+	}
+	unleash_the_tiger = {
+		shock_damage = 0.1
+	}
+	chagatai_literature = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
+	}
+	timurid_renaissance = {
+		technology_cost = -0.05
+	}
+	riches_of_the_silk_road = {
+		global_own_trade_power = 0.25
+	}
+	reform_the_diwan = {
+		yearly_corruption = -0.1
+ 	}
+}
+
+
+BUR_ideas = { # Brian fixed #Not sure I like this. If they check for BUR_Ideas somewhere in code, this may backfire horribly... //Dub
 	start = {
 		land_morale = 0.1
 		diplomatic_upkeep = 2			#An additional one added. Burgundy is a mess in BT
@@ -1329,7 +2261,7 @@ BUR_ideas = { # Brian fixed
 }
 
 
-GEN_ideas = { # Brian fixed
+GEN_ideas = { # Brian fixed #See above. //Dub
 	start = {
 		trade_efficiency = 0.10
 		interest = -0.5
@@ -1369,10 +2301,10 @@ GEN_ideas = { # Brian fixed
 	}
 }
 
-SCO_ideas = { # Brian fixed
+SCO_ideas = { # Brian fixed #See above //Dub
 	start = {
 		leader_land_shock = 1
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.25
 	}
 	
 	bonus = {
@@ -1406,6 +2338,10 @@ SCO_ideas = { # Brian fixed
 	}
 	basilikon_doron = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
 	}
 	act_of_revocation = {
 		ae_impact = -0.15
@@ -1416,11 +2352,11 @@ SCO_ideas = { # Brian fixed
 HUN_ideas = {
 	start = {
 		cavalry_power = 0.20
-		recover_army_morale_speed = 0.05
+		army_tradition_decay = -0.01
 	}
 	
 	bonus = {
-		free_leader_pool = 1
+		cav_to_inf_ratio = 0.25
 	}
 	
 	trigger = {
@@ -1430,24 +2366,109 @@ HUN_ideas = {
 	
 	hun_renaissanse_knowledge = {
 		global_unrest = -1
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = hun_unlocked_first_idea
+					}
+					has_country_flag = hun_national_idea_bonus
+				}
+				change_government_reform_progress =  25
+			}
+			set_country_flag = hun_unlocked_first_idea
+		}
 	}
 	bulwark_of_christianity = {
 		global_manpower_modifier = 0.2
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = hun_unlocked_second_idea
+					}
+					has_country_flag = hun_national_idea_bonus
+				}
+				change_government_reform_progress =  25
+			}
+			set_country_flag = hun_unlocked_second_idea
+		}
 	}
 	found_the_black_army = {
 		discipline = 0.05
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = hun_unlocked_third_idea
+					}
+					has_country_flag = hun_national_idea_bonus
+				}
+				change_government_reform_progress =  25
+			}
+			set_country_flag = hun_unlocked_third_idea
+		}
 	}
 	reformed_coinage = {
 		global_tax_modifier = 0.1
+		#gold_depletion_chance_modifier = -0.25 #BT Cut; Sneak buff. Bye bye
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = hun_unlocked_fourth_idea
+					}
+					has_country_flag = hun_national_idea_bonus
+				}
+				change_government_reform_progress =  25
+			}
+			set_country_flag = hun_unlocked_fourth_idea
+		}
 	}
 	curtailed_peasantry = {
 		production_efficiency = 0.1
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = hun_unlocked_fifth_idea
+					}
+					has_country_flag = hun_national_idea_bonus
+				}
+				change_government_reform_progress =  25
+			}
+			set_country_flag = hun_unlocked_fifth_idea
+		}
 	}
 	strengthened_towns = {
-		global_own_trade_power = 0.25
+		global_prov_trade_power_modifier = 0.25
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = hun_unlocked_sixth_idea
+					}
+					has_country_flag = hun_national_idea_bonus
+				}
+				change_government_reform_progress =  25
+			}
+			set_country_flag = hun_unlocked_sixth_idea
+		}
 	}
 	hungarian_estates_general = {
 		no_religion_penalty = yes
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = hun_unlocked_seventh_idea
+					}
+					has_country_flag = hun_national_idea_bonus
+				}
+				change_government_reform_progress =  25
+			}
+			set_country_flag = hun_unlocked_seventh_idea
+		}
 	}
 }
 
@@ -1467,11 +2488,13 @@ JAP_ideas = {
 	}
 	free = yes
 	
-	jap_unification_under_the_emperor = {
-		global_unrest = -2
-	}
 	reformed_land_holding = {
 		global_manpower_modifier = 0.2
+		allowed_samurai_fraction = 0.15
+		has_samurai = yes 
+	}
+	jap_unification_under_the_emperor = {
+		global_unrest = -2
 	}
 	jap_modernization = {
 		technology_cost = -0.05
@@ -1491,8 +2514,7 @@ JAP_ideas = {
 	}
 }
 
-
-MAM_ideas = {
+MAM2_ideas = { #Mission reward to double mam_monopoly_ports // see mam_establish_merchant_escorts
 	start = {
 		trade_steering = 0.25
 		cavalry_power = 0.10
@@ -1504,12 +2526,16 @@ MAM_ideas = {
 	
 	trigger = {
 		tag = MAM
+		has_country_flag = mam_upgrade_national_idea_flag
 	}
 	free = yes
 	
 	red_sea_trade = {
 		global_trade_power = 0.05
 		trade_range_modifier = 0.10
+	}
+	mam_monopoly_ports_evolved = {
+		trade_efficiency = 0.2
 	}
 	monuments_to_greatness = {
 		prestige = 1
@@ -1526,8 +2552,46 @@ MAM_ideas = {
 	reformed_succession = {
 		stability_cost_modifier = -0.15
 	}
+}
+
+
+MAM_ideas = {
+	start = {
+		trade_steering = 0.25
+		cavalry_power = 0.10
+	}
+	
+	bonus = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = MAM
+		NOT = { has_country_flag = mam_upgrade_national_idea_flag }
+	}
+	free = yes
+	
+	red_sea_trade = {
+		global_trade_power = 0.05
+		trade_range_modifier = 0.10
+	}
 	mam_monopoly_ports = {
 		trade_efficiency = 0.10
+	}
+	monuments_to_greatness = {
+		prestige = 1
+	}
+	purchase_new_mamelukes = {
+		manpower_recovery_speed = 0.15
+	}
+	mam_army_reform = {
+		discipline = 0.05
+	}
+	reform_fellah_system = {
+		production_efficiency = 0.1
+	}
+	reformed_succession = {
+		stability_cost_modifier = -0.15
 	}
 }
 
@@ -1568,6 +2632,10 @@ NAP_ideas = {
 	}
 	lazzaroni_support = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
 	}
 }
 
@@ -1653,83 +2721,6 @@ ARA_ideas = {
 	}
 }
 
-MUG_ideas = {
-	start = {
-		core_creation = -0.25
-		cavalry_power = 0.20
-	}
-	
-	bonus = {
-		technology_cost = -0.05
-	}
-	
-	trigger = {
-		tag = MUG
-	}
-	free = yes
-	
-	mansabdari_system = {
-		discipline = 0.05
-	}
-	control_of_the_ulema = {
-		global_unrest = -1
-	}
-	mughal_ibadat_khana = {
-		idea_cost = -0.1
-	}
-	an_indian_padshah = {
-		free_mil_policy = 1
-	}
-	zabt_system = {
-		global_tax_modifier = 0.1
-	}
-	mughal_architecture = {
-		prestige = 1
-	}
-	fatawa_e_alamgiri = {
-		stability_cost_modifier = -0.10
-	}
-}
-
-TIM_ideas = {
-	start = {
-		diplomatic_upkeep = 1
-		leader_land_shock = 1
-	}
-	
-	bonus = {
-		discipline = 0.05
-	}
-	
-	trigger = {
-		tag = TIM
-	}
-	free = yes
-	
-	timurid_architecture = {
-		prestige = 1
-	}
-	the_mantle_of_the_great_khan = {
-		land_morale = 0.1
-	}
-	unleash_the_tiger = {
-		shock_damage = 0.1
-	}
-	chagatai_literature = {
-		legitimacy = 1
-		horde_unity = 1
-	}
-	timurid_renaissance = {
-		technology_cost = -0.05
-	}
-	riches_of_the_silk_road = {
-		global_own_trade_power = 0.25
-	}
-	reform_the_diwan = {
-		yearly_corruption = -0.1
- 	}
-}
-
 HSA_ideas = {
 	start = {
 		merchants = 1			#BT Misc Addon changed, moved some modifiers around, no actual change to effect.
@@ -1743,6 +2734,7 @@ HSA_ideas = {
 	
 	trigger = {
 		tag = HSA
+		NOT = { has_country_flag = hsa_proclaimed_queen_of_the_hansa_flag }
 	}
 	free = yes
 	
@@ -1814,11 +2806,11 @@ MLO_ideas = {
 BYZ_ideas = {
 	start = {
 		advisor_cost = -0.10
-		tolerance_own = 3
+		improve_relation_modifier = 0.2
 	}
 	
 	bonus = {
-		prestige = 1
+		tolerance_own = 3
 	}
 	
 	trigger = {
@@ -1826,27 +2818,33 @@ BYZ_ideas = {
 	}
 	free = yes
 	
-	regulations_for_mercenaries = {
-		merc_maintenance_modifier = -0.15
-	}
 	repopulation_of_countryside = {
-		global_trade_goods_size_modifier = 0.05
-		global_manpower_modifier = 0.10
+		global_trade_goods_size_modifier = 0.1
 	}
-	byz_state_admin_reform = {
-		global_tax_modifier = 0.10
+	
+	byz_roman_empire = {
+		core_creation = -0.20 #BT Nerfing from -0.25
 	}
-	byz_admin_power = {
-		stability_cost_modifier = -0.1
-	}
-	merchant_class = {
-		global_trade_power = 0.1
-	}
-	new_imperial_army = {
-		discipline = 0.05
-	}
+	
 	ecumenical_patriarch = {
 		global_missionary_strength = 0.03
+		yearly_patriarch_authority = 0.003
+	}
+	
+	byz_corpus_iuris_civilis = {	#Replaces byz_admin_power for Purple Phoenix events
+		reform_progress_growth = 0.2
+	}
+	
+	byz_protect_the_frontiers = {
+		defensiveness = 0.15
+	}
+	
+	byz_strategikon = {
+		discipline = 0.05
+	}
+
+	new_imperial_army = {
+		global_manpower_modifier = 0.15
 	}
 }
 
@@ -1929,49 +2927,6 @@ AYU_ideas = {
 	}
 }
 
-
-#NOR_ideas = {
-#	start = {
-#		global_sailors_modifier = 0.25
-#		ship_durability = 0.10
-#	}
-#
-#	bonus = {
-#		trade_steering = 0.20
-#	}
-#
-#	trigger = {
-#		tag = NOR
-#	}
-#	free = yes
-#
-#	natural_seamanship = {
-#		naval_morale = 0.20
-#
-#	}
-#	call_of_our_forefathers = {
-#		range = 0.33
-#		may_explore = yes
-#	}
-#	pioneer_spirit = {
-#		colonists = 1
-#	}
-#	nor_shipbuilding = {
-#		global_ship_cost = -0.1
-#	}
-#	seize_the_opportunity = {
-#	global_trade_power = 0.1
-#	}
-#	nor_fishing = {
-#		production_efficiency = 0.1
-#	}
-#	write_new_sagas = {
-#		prestige = 1
-#		discipline = 0.025
-#	}
-#}
-
-
 OMA_ideas = {
 	start = {
 		naval_morale = 0.15
@@ -2015,8 +2970,8 @@ OMA_ideas = {
 
 KOR_ideas = {
 	start = {
-		global_own_trade_power = 0.25
 		build_cost = -0.1
+		land_morale = 0.1
 	}
 	
 	bonus = {
@@ -2027,28 +2982,46 @@ KOR_ideas = {
 		tag = KOR
 	}
 	free = yes
-	
-	hanguel_alphabet = {
-		technology_cost = -0.1
+
+	kor_uijeongbu = {
+		advisor_cost = -0.1
+		all_estate_loyalty_equilibrium = 0.05
 	}
-	grand_code = {
-		stability_cost_modifier = -0.10
+	metal_movable_type = {
+		adm_tech_cost_modifier = -0.05
+		innovativeness_gain = 0.5
+	}
+	choi_mu_seon_gunpower_engines = {
+		fire_damage = 0.1
+	}
+	korean_artisanery = {
+		prestige = 1
+		development_cost = -0.05
 	}
 	hyanyak_system = {
 		production_efficiency = 0.10
 	}
 	geobukseon = {
 		ship_durability = 0.1
-	}
-	hopae_system = {
-		global_manpower_modifier = 0.10
+		naval_morale = 0.05
+		has_geobukseon = yes
 	}
 	kyujanggak = {
 		idea_cost = -0.1
 	}
-	kor_economy_reform = {
-		global_tax_modifier = 0.10
-	}
+
+	#hanguel_alphabet = {
+	#	technology_cost = -0.1
+	#}
+	#grand_code = {
+	#	stability_cost_modifier = -0.10
+	#}
+	#hopae_system = {
+	#	global_manpower_modifier = 0.10
+	#}
+	#kor_economy_reform = {
+	#	global_tax_modifier = 0.10
+	#}
 	
 }
 
@@ -2073,6 +3046,10 @@ BOH_ideas = {
 	}
 	boh_elective_monarchy = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1	#For completion's sake
+		horde_unity = 1
 	}
 	wagenburg = {
 		infantry_power = 0.10
@@ -2089,6 +3066,51 @@ BOH_ideas = {
 	}
 	czech_nationalism = {
 		same_culture_advisor_cost = -0.25
+	}
+}
+
+BOH2_ideas = { #Vanilla 1.37 borked this hard, hence why there's so many comments down below. //Dub
+	start = {
+		imperial_authority = 0.10
+		advisor_cost = -0.1
+	}
+	
+	bonus = {
+		leader_land_fire = 1
+	}
+	
+	trigger = {
+		tag = BOH
+		has_country_flag = boh_empowered_ni
+	}
+	free = yes
+	
+	compacta_of_prague = {
+		#tolerance_heretic = 3
+	}
+	boh_elective_monarchy = {
+		#legitimacy = 1
+		#devotion = 1
+		#republican_tradition = 0.3
+		#meritocracy = 1	#For completion's sake
+		#horde_unity = 1
+	}
+	wagenburg = {
+		#infantry_power = 0.10
+		#shock_damage_received = -0.05
+	}
+	letter_of_majesty = {
+		#global_unrest = -1
+	}
+	hussite_legacy = {
+		#technology_cost = -0.1
+	}
+	kutnohorian_deal = {
+		#stability_cost_modifier = -0.10
+	}
+	czech_nationalism2 = {
+		same_culture_advisor_cost = -0.25
+		development_cost_in_primary_culture = -0.05
 	}
 }
 
@@ -2162,6 +3184,9 @@ MJZ_ideas = {
 	jurchen_pigtail = {
 		horde_unity = 0.5
 		legitimacy = 0.5
+		devotion = 0.5
+		republican_tradition = 0.15
+		meritocracy = 0.5
 		global_unrest = -1
 	}
 	jurchen_foreign_service = {
@@ -2210,6 +3235,9 @@ MCH_ideas = {
 	the_later_jin = {
 		horde_unity = 1
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
 	}	
 	link_with_the_mongol_dynasty = {
 		cavalry_power = 0.15
@@ -2225,7 +3253,7 @@ MCH_ideas = {
 
 QNG_ideas = {
 	start = {
-		core_creation = -0.2
+		core_creation = -0.2 #BT Not buffing to -25% CCC
 		ae_impact = -0.1
 	}
 	
@@ -2252,7 +3280,10 @@ QNG_ideas = {
 	qng_bogda_khan = {
 		years_of_nationalism = -5
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
 		meritocracy = 1
+		horde_unity = 1
 	}
 	the_chinese_rules = {
 		administrative_efficiency = 0.05
@@ -2329,7 +3360,11 @@ NOV_ideas = {
 		global_missionary_strength = 0.01
 	}
 	ivans_hundred = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	control_of_the_hanseatic_kontor = {
 		merchants = 1
@@ -2355,7 +3390,7 @@ ETH_ideas = {
 	}
 	
 	bonus = {
-		legitimacy = 1
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -2368,9 +3403,15 @@ ETH_ideas = {
 	}
 	nagusa_negast = {
 		heir_chance = 0.5
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	hostile_borders = {
 		defensiveness = 0.20
+		war_exhaustion = -0.03
 	}
 	diplomatic_demeanor = {
 		diplomatic_reputation = 1
@@ -2382,7 +3423,7 @@ ETH_ideas = {
 		core_creation = -0.10
 	}
 	eth_reformed_armies = {
-		infantry_power = 0.1
+		army_tradition = 0.5
 	}
 }
 
@@ -2424,6 +3465,10 @@ SAV_ideas = {
 	}
 	savoyard_legitimacy = {
 		legitimacy = 1   
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -2535,7 +3580,7 @@ SPI_ideas = {
 #		prestige = 0.5
 	}
 	spi_royal_sardinian_army = {
-		discipline = 0.05 #BTB Tweak due to vanilla powercreep. 3% discipline isn't worth jack.
+		discipline = 0.05 #BTB Tweak due to vanilla powercreep. 3% discipline isn't worth jack. Not sure I like that vanilla did the same thing, though...
 		global_manpower_modifier = 0.1
 	}
 	spi_centralized_state = {
@@ -2570,7 +3615,6 @@ SAX_ideas = {
 			}
 		}
 	}
-	
 	free = yes		#will be added at load.
 	
 	albertine_and_ernestine = {
@@ -2597,44 +3641,6 @@ SAX_ideas = {
 	}
 }
 
-
-LIT_ideas = {
-	start = {
-		manpower_recovery_speed = 0.15
-		tolerance_heretic = 3
-	}
-	
-	bonus = {
-		leader_land_manuever = 1
-	}
-	
-	trigger = {
-			tag = LIT
-	}
-	free = yes		#will be added at load.
-	
-	warlord_dukes = {
-		leader_land_shock = 1
-	}
-	auksine_laisve = {
-		stability_cost_modifier = -0.1
-	}
-	magdeburg_laws = {
-		global_tax_modifier = 0.1
-	}
-	magnate_estates = {
-		production_efficiency = 0.1
-	}
-	lithuanian_hussars = {
-		cavalry_power = 0.2
-	}
-	statutes_of_lithuania = {
-		global_unrest = -2
-	}
-	lithuanian_renaissance = {
-		technology_cost = -0.05
-	}
-}
 
 
 
@@ -2792,7 +3798,7 @@ GRA_ideas = {
 		global_own_trade_power = 0.1
 		trade_steering = 0.1
 	}
-	alhambra = {
+	gra_alhambra = {
 		build_cost = -0.1
 	}
 	moors = {
@@ -2884,7 +3890,7 @@ SER_ideas = {
 
 ORI_ideas = {
 	start = {
-		production_efficiency = 0.05
+		production_efficiency = 0.1
 		shock_damage_received = -0.1
 	}
 
@@ -2902,6 +3908,10 @@ ORI_ideas = {
 	}
 	servitor_of_jagganath = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	parikshas = {
 		global_tax_modifier = 0.1
@@ -3000,47 +4010,6 @@ RAG_ideas = {
 	}
 }
 
-DAL_ideas = {
-	start = {
-		trade_efficiency = 0.15
-		land_morale = 0.1
-	}
-	
-	bonus = {
-		naval_morale = 0.15
-	}
-	
-	trigger = {
-		tag = DAL
-
-	}
-	free = yes		#will be added at load.
-	
-	DAL_kingdom_of_dalmatia = {
-		reform_progress_growth = 0.15
-		global_unrest = -1
-	}
-	DAL_principalities = {
-		global_foreign_trade_power = 0.15
-	}
-	DAL_language = {
-		num_accepted_cultures = 2
-	}
-	DAL_art_and_lit = {
-		global_institution_spread = 0.1
-		development_cost = -0.05
-	}
-	DAL_independent_army = {
-		infantry_power = 0.15
-	}
-	DAL_arsenal = {
-		naval_forcelimit_modifier = 0.25
-	}
-	DAL_illyria = {
-		core_creation = -0.15
-	}
-}
-
 
 RYU_ideas = {
 	start = {
@@ -3076,7 +4045,7 @@ RYU_ideas = {
 		technology_cost = -0.05
 	}
 	ryu_the_three_mountains = {
-		free_leader_pool = 1
+		manpower_recovery_speed = 0.1
 	}
 }
 
@@ -3124,6 +4093,8 @@ ASS_ideas = {
 TUS_ideas = {
 	start = {
 		papal_influence = 2
+		church_power_modifier = 0.1
+		monthly_fervor_increase = 0.25
 		development_cost = -0.1
 	}
 	
@@ -3167,12 +4138,16 @@ TUS_ideas = {
 USA_ideas = {
 	start = {
 		merchants = 1
-		#allowed_marine_fraction = 0.1			#Just nope. EU4 doesnt go to 19-bloddy-44   -Draiocht
+		#allowed_marine_fraction = 0.5			#Just nope. EU4 doesnt go to 19-bloddy-44   -Draiocht
 		culture_conversion_cost = -0.1			#New to replace marine
 	}
 	
 	bonus = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	trigger = {
@@ -3188,6 +4163,7 @@ USA_ideas = {
 	}
 	manifest_destiny = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	lessons_of_valley_forge = {
 		land_morale = 0.10
@@ -3307,8 +4283,10 @@ BRI_ideas = {
 	
 	legacy_of_breton_independence = {
 		legitimacy = 1
-		republican_tradition = 0.3
 		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	estates_of_brittany = {
 		global_unrest = -1		
@@ -3557,7 +4535,7 @@ MAL_ideas = {
 		vassal_income = 0.20
 	}
 	gold_of_bure = {
-		production_efficiency = 0.10
+		gold_depletion_chance_modifier = -0.25 #BT changing to depletion chance because it makes more sense here. Also don't want to add +10% goods produced. //Dub
 	}
 	reclamation_of_land = {
 		global_manpower_modifier = 0.10
@@ -3921,6 +4899,10 @@ PRO_ideas = {
 	}
 	revive_house_of_anjou = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	composite_monarchy = {
 		global_unrest = -1
@@ -3981,8 +4963,12 @@ MDI_ideas = {
 
 TRE_ideas = {
 	start = {
-		legitimacy = 1
 		heir_chance = 0.5
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 
 	bonus = {
@@ -4033,6 +5019,8 @@ GEO_ideas = {
 		OR = {
 			tag = GEO
 			tag = IME
+			tag = KRT #BT Added
+			tag = KKE #BT Added
 		}
 	}
 	free = yes
@@ -4040,6 +5028,10 @@ GEO_ideas = {
 	bagrationi_dynasty = {
 		heir_chance = 0.5
 		legitimacy = 0.5
+		devotion = 0.5
+		republican_tradition = 0.15
+		meritocracy = 0.5
+		horde_unity = 0.5
 	}
 	georgian_isolation = {
 		improve_relation_modifier = 0.3
@@ -4093,6 +5085,10 @@ AFG_ideas = {
 	}
 	institutionalized_loya_jirga = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	graveyard_of_empires = {
 		hostile_attrition = 1
@@ -4131,6 +5127,10 @@ WAL_ideas = {
 	}
 	boyar_regime = { 
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	abolition_of_serfdom = {
 		global_manpower_modifier = 0.2
@@ -4153,7 +5153,8 @@ CRO_ideas = {
 	free = yes		#will be added at load.
 	
 	hrvatski_ban = {
-		free_leader_pool = 1
+		nobles_loyalty_modifier = 0.05
+		cavalry_cost = -0.1
 	}
 	pearl_of_the_adriatic = {
 		trade_steering = 0.1
@@ -4191,6 +5192,10 @@ CYP_ideas = {
 
 	king_of_jerusalem = {
 		legitimacy = 0.5
+		devotion = 0.5
+		republican_tradition = 0.15
+		meritocracy = 0.5
+		horde_unity = 0.5
 		fabricate_claims_cost = -0.25
 	}
 	frankish_crusaders = {
@@ -4216,38 +5221,41 @@ CYP_ideas = {
 
 NAV_ideas = {
 	start = {
-		naval_forcelimit_modifier = 0.2
-		light_ship_cost = -0.20
+		morale_damage = 0.1
+		diplomatic_reputation = 1
 	}
 	bonus = {
-		trade_efficiency = 0.1
+		leader_naval_fire = 1
 	}
 	trigger = {
 		tag = NAV
 	}
 	free = yes
 
-	dorretxeak_towers = {
-		defensiveness = 0.1
+	fearless_seamen = {
+		ship_durability = 0.05
+		naval_morale = 0.15
 	}
-	navarrese_company = {
-		merc_maintenance_modifier = -0.15
+	shipbuiling_experts = {
+		naval_forcelimit_modifier = 0.33
 	}
-	intrepid_pioneers = {
-		global_colonial_growth = 20
+	basque_ferocity = {
+		discipline = 0.05
 	}
-	transatlantic_whaling = {
-		production_efficiency = 0.1
+	camara_de_comptos = {
+		free_adm_policy = 1
+		inflation_reduction = 0.1
 	}
-	crosspyrenean_trade = {
-		global_institution_spread = 0.05
-		trade_steering = 0.25
+	people_of_the_sea = {
+		allowed_marine_fraction = 0.2
+		global_sailors_modifier = 0.25
 	}
 	royal_basque_society = {
-		idea_cost = -0.1
+		technology_cost = -0.1
 	}
-	end_of_fueros = {
-		autonomy_change_time = -0.25
+	an_industrious_folk = {
+		culture_conversion_cost = -0.1
+		development_cost_in_primary_culture = -0.15
 	}
 }
 
@@ -4267,10 +5275,15 @@ AZT_ideas = {
 	free = yes		#wibe added at load.
 	
 	flower_wars = {
-		war_exhaustion_cost = -0.10
+		war_exhaustion = -0.03
 	}
 	sustaining_the_gods = {
+		tolerance_own = 1
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	telpochcalli = {
 		manpower_recovery_speed = 0.1
@@ -4279,13 +5292,15 @@ AZT_ideas = {
 		land_morale = 0.10
 	}
 	imperial_tribute = {
-		global_tax_modifier = 0.1
+		monarch_power_tribute = 1
+		reduced_liberty_desire = 10
 	}
 	floating_gardens = {
 		production_efficiency = 0.1
 	}
 	pochtecayotl = {
 		spy_offence = 0.2
+		burghers_loyalty_modifier = 0.1
 	}
 }
 
@@ -4306,6 +5321,10 @@ DAH_ideas = {
 	
 	children_of_the_panther = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	slave_hunts = {
 		global_manpower_modifier = 0.15
@@ -4331,11 +5350,15 @@ DAH_ideas = {
 KBO_ideas = {
 	start = {
 		vassal_income = 0.25
-		free_leader_pool = 1
+		ae_impact = -0.1
 	}
 
 	bonus = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
  
 	trigger = {
@@ -4428,7 +5451,7 @@ SIL_ideas = {
 			tag = LEG
 			tag = OLE
 			tag = TRO
-			tag = KLU
+			tag = KLZ
 			tag = NIE
 			tag = RAC
 			tag = TES
@@ -4584,7 +5607,7 @@ AJU_ideas = {
 RYA_ideas = {
 	start = {
 		global_unrest = -1
-		recover_army_morale_speed = 0.05
+		recover_army_morale_speed = 0.05 #BT Not buffing to +0.10. See Persian ideas. //Dub
 	}
 	
 	bonus = {
@@ -4727,7 +5750,7 @@ PSK_ideas = {
 		advisor_pool = 1
 	}
 	legacy_of_daumantas = {
-		recover_army_morale_speed = 0.05
+		recover_army_morale_speed = 0.05 #BT Not buffing to +0.10. //Dub
 	}
 	balt_mercenaries = {
 		merc_maintenance_modifier = -0.1
@@ -4767,6 +5790,7 @@ SMO_ideas = {
 	}
 	armories_of_smolensk = {
 		fire_damage = 0.1	
+		artillery_shock = 2 #Omegalul //Dub
 	}
 	smo_western_mercenaries = {
 		merc_maintenance_modifier = -0.15
@@ -4805,9 +5829,13 @@ BOS_ideas = {
 	}
 	per_aspera_ad_astra = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	empower_bosnian_nobility = {
-		free_leader_pool = 1
+		global_manpower_modifier = 0.1
 	}
 	italian_connections = {
 		diplomatic_upkeep = 1
@@ -4889,6 +5917,10 @@ MOL_ideas = {
 	}
 	moldavia_hospodar = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	moldavia_metropoly = {
 		global_missionary_strength = 0.02
@@ -4925,6 +5957,10 @@ AIR_ideas = {
 	}
 	legacy_of_tin_hinan = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	blue_people = { 
 		prestige = 1
@@ -4955,6 +5991,7 @@ mossi_ideas = {
 		OR = {
 			TAG = MSI
 			TAG = YAT
+			primary_culture = mossi #Added in case BT does some funky map change I am not aware of. //Dub
 		}
 	}
 	
@@ -4962,6 +5999,10 @@ mossi_ideas = {
 	
 	riale_and_yennenga = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	mossi_cavalry_raids = { 
@@ -4969,7 +6010,8 @@ mossi_ideas = {
 	}
 	
 	nyonnyonse_vassals = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	
 	nakomse = { 
@@ -4992,7 +6034,7 @@ mossi_ideas = {
 
 fulani_jihad_ideas = {
 	start = {
-		recover_army_morale_speed = 0.05
+		recover_army_morale_speed = 0.05 #Stop buffing army morale speed!
 		cavalry_cost = -0.10
 	}
 	
@@ -5030,7 +6072,8 @@ fulani_jihad_ideas = {
 	}
 	
 	community_of_the_faithful = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 
 	caliph_in_africa = {
@@ -5041,8 +6084,12 @@ fulani_jihad_ideas = {
 
 TAR_ideas = {
 	start = {
-		legitimacy = 1
 		years_of_nationalism = -5
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	bonus = {
@@ -5123,6 +6170,10 @@ KAR_ideas = {
 	}
 	true_heirs_seljuk_empire = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -5143,6 +6194,10 @@ MON_ideas = {
 	
 	mon_idea_1 = {
 		legitimacy = 1	
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	mon_idea_2 = {
 		tolerance_own = 1		
@@ -5192,6 +6247,10 @@ RMN_ideas = {
 	}
 	latin_island = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	rom_peasant_soldiers = {
 		infantry_cost = -0.1
@@ -5220,9 +6279,14 @@ ATH_ideas = {
 
 	dominus_athenarum = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	athenian_openeness = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	athenian_pragmatism = {
 		diplomatic_reputation = 1
@@ -5239,83 +6303,6 @@ ATH_ideas = {
 	athenian_army_reform = {
 		infantry_power = 0.05
 		artillery_power = 0.05		
-	}
-}
-
-GOT_ideas = {
-	start = {
-		privateer_efficiency = 0.15
-		core_creation = -0.15
-	}
-	
-	bonus = {
-		trade_efficiency = 0.1
-	}
-	
-	trigger = {
-		tag = GOT
-	}
-	free = yes
-	
-	rebuild_visby = {
-		development_cost = -0.1
-	}
-	invite_mercenaries_to_visby = {
-		merc_maintenance_modifier = -0.15
-	}
-	expand_visby_dockyard = {
-		global_ship_cost = -0.1
-	}
-	rebuild_the_trade = {
-		global_trade_power = 0.1
-	}
-	gutnish_merchant_adventurers = {
-		merchants = 1
-	}
-	gutnish_merchant_navy = {
-		naval_forcelimit_modifier = 0.33
-	}
-	found_visby_bank = {
-		interest = -0.5
-	}
-}
-
-FIN_ideas = {
-	start = {
-		discipline = 0.05
-		global_tax_modifier = 0.10
-	}
-	
-	bonus = {
-		global_heretic_missionary_strength = 0.02
-	}
-	
-	trigger = {
-		tag = FIN
-	}
-	free = yes
-	
-	expand_viborg = {
-		defensiveness = 0.15
-	}
-	hakkapelitta_fin = {
- 		cavalry_power = 0.15
-	}	
-	the_fourth_estate = {
-		production_efficiency = 0.1
-	}
-	settle_middle_finland = {
-		build_cost = -0.1
-		development_cost = -0.1
-	}
-	found_turun_akatemia = {
-		technology_cost = -0.05
-	}
-	the_white_death = {
-		hostile_attrition = 1
-	}
-	anjala_conspiracy = {
-		land_morale = 0.1
 	}
 }
 
@@ -5378,6 +6365,10 @@ PLT_ideas = {
 	}	
 	heritage_of_the_rus = {
 		legitimacy = 1	
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	cultural_center = {
 		idea_cost = -0.1	
@@ -5408,7 +6399,7 @@ PRM_ideas = {
 	}
 	
 	trigger = {
-		OR  {
+		OR = {
 			tag = PRM
 			tag = VYA # BT
 		}
@@ -5464,6 +6455,10 @@ ASH_ideas = {
 	}
 	ash_idea_4 = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	ash_idea_5 = {
 		global_manpower_modifier = 0.15
@@ -5520,7 +6515,7 @@ INC_ideas = {
 		land_forcelimit_modifier = 0.2
 	}
 	bonus = {
-		free_leader_pool = 1
+		max_hostile_attrition = 1
 	}
 	trigger = {
 		OR = {
@@ -5532,12 +6527,14 @@ INC_ideas = {
 		
 	machu_picchu = {
 		prestige = 1
+		great_project_upgrade_cost = -0.1
 	}
 	mitma = { #Increased Obligations on local chiefs
 		development_cost = -0.1
 	}
 	quipu = {
 		global_tax_modifier = 0.1
+		adm_tech_cost_modifier = -0.05
 	}
 	drafted_hatun_runas = {
 		discipline = 0.025
@@ -5627,6 +6624,10 @@ MCA_ideas = {
 	}
 	mca_idea_7 = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -5709,6 +6710,90 @@ TEU_ideas = {
 	}
 }
 
+LIV_ideas = {
+	start = {
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
+		missionaries = 1
+	}
+	
+	bonus = {
+		manpower_in_true_faith_provinces = 0.2
+	}
+	
+	trigger = {
+		tag = LIV
+	}
+	free = yes
+	
+	liv_knights_of_livonia = {
+		discipline = 0.05
+	}
+	liv_hanseatic_merchants = {
+		global_trade_power = 0.1
+	}
+	liv_livonian_castles = {
+		fort_maintenance_modifier = -0.15
+	}
+	liv_baptizers_of_terra_mariana = {
+		global_missionary_strength = 0.02
+		papal_influence = 1
+		church_power_modifier = 0.05
+	}
+	liv_local_serfs = {
+		production_efficiency = 0.1
+	}
+	liv_promote_local_bishops = {
+		tolerance_own = 1
+	}
+	liv_the_new_infantry = {
+		infantry_power = 0.1
+	}
+}
+
+LVA_ideas = {
+	start = {
+		discipline = 0.05
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
+	}
+	
+	bonus = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	trigger = {
+		tag = LVA
+	}
+	free = yes
+	
+	lva_legacy_of_the_knights = {
+		infantry_power = 0.15
+	}
+	lva_border_between_east_and_west = {
+		land_morale = 0.1
+		development_cost = -0.05
+	}
+	lva_livonian_hanseatic_cities = {
+		global_foreign_trade_power = 0.25
+	}
+	lva_livlandischer_landtag = {
+		stability_cost_modifier = -0.05
+		all_estate_loyalty_equilibrium = 0.1
+	}
+	lva_livonian_colonization = {
+		range = 0.25
+		global_colonial_growth = 10
+	}
+	lva_naval_professionalism = {
+		naval_morale = 0.2
+	}
+	lva_religious_tolerance = {
+		tolerance_of_heretics_capacity = 1
+		tolerance_heretic = 1
+	}
+}
+
 BUL_ideas = {
 	start = {	
 		merchants = 1
@@ -5744,6 +6829,10 @@ BUL_ideas = {
 	}
 	bul_idea_7 = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -5956,7 +7045,7 @@ KAZ_ideas = {
 ARM_ideas = {
 	start = {
 		war_exhaustion = -0.02
-		recover_army_morale_speed = 0.05
+		recover_army_morale_speed = 0.05 #STOP! WE DO NOT NEED MORE MORALE RECOVERY SPEED
 	}
 
 	bonus = {
@@ -5967,7 +7056,6 @@ ARM_ideas = {
 		OR = {
 			tag = ARM
 			tag = MLK
-			tag = KCH # BT ???
 		}
 	}
 	free = yes		#will be added at load.
@@ -6022,6 +7110,10 @@ WLS_ideas = {
 	}
 	unbennaeth_prydain = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	economic_revival = {
 		production_efficiency = 0.1
@@ -6218,7 +7310,8 @@ LXA_ideas = {
 	free = yes
 	
 	lao_ethnic_diversity = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}	
 	lxa_elephant_cavalry = {
 		cavalry_power = 0.15
@@ -6303,7 +7396,8 @@ BAH_ideas = {
 		prestige = 0.5
 	}
 	dakani_language = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	karimis = {
 		trade_efficiency = 0.1
@@ -6313,6 +7407,10 @@ BAH_ideas = {
 	}
 	bahmani_primogeniture = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	madrasa_of_mahmud_gawan = {
 		idea_cost = -0.1
@@ -6416,7 +7514,11 @@ HAM_ideas = {
 		global_trade_power = 0.15
 	}		
 	hamburg_republic = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	walls_of_hamburg = {
 		defensiveness = 0.25
@@ -6438,8 +7540,8 @@ HAM_ideas = {
 
 jerusalem_ideas = {
 	start = {
-		missionary_maintenance_cost = -0.25
 		global_missionary_strength = 0.02
+		land_morale = 0.15
 	}
 	
 	bonus = {
@@ -6455,15 +7557,21 @@ jerusalem_ideas = {
 	crown_of_thorns = {
 		prestige = 1
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	latin_patriarch = {
 		papal_influence = 2
+		curia_powers_cost = -0.1
 	}
 	frontier_state = {
 		discipline = 0.05
 	}
 	land_of_the_heathen = {
 		missionaries = 1
+		missionary_maintenance_cost = -0.25
 	}
 	crusader_aristocracy = {
 		leader_land_shock = 1
@@ -6561,8 +7669,11 @@ CAN_ideas = {
 	}
 	
 	bonus = {
-		republican_tradition = 0.3
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	trigger = {
@@ -6579,6 +7690,7 @@ CAN_ideas = {
 	}
     settling_the_interior = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	the_maritimes = {
 		navy_tradition = 1
@@ -6626,7 +7738,8 @@ QUE_ideas = {
 		global_institution_spread = 0.1
 	}
 	commissions_for_noble_sons = {
-		free_leader_pool = 1
+		yearly_corruption = -0.05 
+		reinforce_speed = 0.1
 	}
 	jesuit_missions = {
 		global_missionary_strength = 0.01
@@ -6653,7 +7766,8 @@ MEX_ideas = {
 		build_cost = -0.10
 	}	
 	the_republic_of_indians = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
     peace_by_purchase = {
 		years_of_nationalism = -5
@@ -6742,6 +7856,10 @@ SUK_ideas = {
 	}
 	ramkhamhaeng_stele = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	suk_war_elephants = {
 		cavalry_power = 0.1
@@ -6901,6 +8019,10 @@ BRZ_ideas = {
 	}
 	old_seat_of_the_empire = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -6932,6 +8054,7 @@ CAB_ideas = {
 	}
 	cab_carib_seafaring = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	cab_religious_syncretism = {
 		tolerance_heathen = 2
@@ -6957,6 +8080,10 @@ BEN_ideas = {
 	
 	ben_curb_the_uzama = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	ben_isiatua = {
 		siege_ability = 0.1
@@ -6971,7 +8098,8 @@ BEN_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	ben_adoption_of_benin_customs = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	ben_regulation_of_trade = {
 		trade_efficiency = 0.1
@@ -7052,6 +8180,10 @@ SHL_ideas = {
 	}
 	danish_protest_pigs = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -7096,7 +8228,8 @@ HES_ideas = {
 ARK_ideas = {
 	start = {
 		light_ship_cost = -0.20
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	bonus = {
 		light_ship_power = 0.15
@@ -7109,6 +8242,10 @@ ARK_ideas = {
 	
 	ark_mrauk_u_dynasty = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	ark_rohingya_immigrants = {
 		tolerance_heathen = 2
@@ -7147,6 +8284,10 @@ NOL_ideas = {
 	
 	nol_secure_percy_rule = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	nol_memory_of_hegemony = {
 		fabricate_claims_cost = -0.25
@@ -7208,7 +8349,7 @@ MUN_ideas = {
 
 THU_ideas = {
 	start = {
-		free_leader_pool = 1
+		province_warscore_cost = -0.1
 		diplomats = 1
 	}
 	bonus = {
@@ -7222,6 +8363,10 @@ THU_ideas = {
 	
 	thu_partition_of_leipizg = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	thu_erfurt_fortifications = {
 		defensiveness = 0.2
@@ -7271,6 +8416,10 @@ BTI_ideas = {
 	}
 	bti_gideon_dynasty = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	bti_lost_tribe = {
 		advisor_cost = -0.15
@@ -7340,6 +8489,10 @@ LNA_ideas = {
  
 	lna_legacy_of_mangrai = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
     }
 	lna_million_ice_paddies = {
         global_trade_goods_size_modifier = 0.1
@@ -7351,7 +8504,8 @@ LNA_ideas = {
         tolerance_own = 2
     }
 	lna_red_and_black= {
-        num_accepted_cultures = 1
+        #num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
     }
 	lna_elephant_charge = {
 		cavalry_flanking = 0.5
@@ -7384,6 +8538,10 @@ PGR_ideas = {
     }
     pgr_istano_basa = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
     }
     pgr_rajo_tigo_selo = {
 		global_unrest = -1
@@ -7458,6 +8616,10 @@ BAD_ideas = {
 	}
 	bad_zahringen = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	bad_small_nation_diplomacy = {
 		diplomats = 1
@@ -7537,6 +8699,10 @@ MLB_ideas = {
 	}
 	mlb_kingdom_of_the_meitei = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	mlb_mayek = {
 		tolerance_own = 2
@@ -7584,6 +8750,10 @@ PEG_ideas = {
 	}
 	peg_buddhist_traditions = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	peg_mon_diaspora = {
 		diplomatic_reputation = 1
@@ -7598,6 +8768,10 @@ KIC_ideas = {
 
 	bonus = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	trigger = {
@@ -7660,6 +8834,10 @@ LDK_ideas = {
 	}
 	ldk_kingdom_united = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	ldk_far_away_traders = {
 		trade_efficiency = 0.1
@@ -7693,6 +8871,9 @@ ZIM_ideas = {
 	zim_spokesman_before_the_dead = {
 		legitimacy = 1
 		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	zim_elected_administrators = {
 		global_tax_modifier = 0.1
@@ -7728,6 +8909,10 @@ BAL_ideas = {
 	}
 	bal_khan_of_the_baloch = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	bal_reorganization_of_the_army = {
 		global_manpower_modifier = 0.15
@@ -7779,7 +8964,7 @@ ORL_ideas = {
 		idea_cost = -0.1
 	}
 	french_language_in_all_courts = {
-		#See French Ideas
+		diplomatic_upkeep = 1
 	}
 }
 
@@ -7887,7 +9072,11 @@ KAS_ideas = {
 	}
 	kas_empower_the_khojas = {
 		tolerance_own = 2
+		legitimacy = 0.5
 		devotion = 0.5
+		republican_tradition = 0.15
+		meritocracy = 0.5
+		horde_unity = 0.5
 	}
 	kas_holy_warriors = {
 		land_morale = 0.1
@@ -7961,6 +9150,7 @@ LON_ideas = {
 	}
 	lon_conquistadores = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	lon_school_of_salamanca = {
 		idea_cost = -0.10
@@ -8009,6 +9199,9 @@ CYI_ideas = {
 	cyi_renovate_skyward_tombs = {
 		legitimacy = 1
 		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	cyi_children_of_the_black_tiger = {
 		land_morale = 0.1
@@ -8044,6 +9237,7 @@ NZH_ideas = {
 	}
 	nzh_expand_to_the_east = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	nzh_open_up_the_river_trade = {
 		trade_efficiency = 0.10
@@ -8124,6 +9318,10 @@ MAZ_ideas = {
     }
     maz_sejmy_i_sejmiki = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
     }
     maz_emporium = {
 		global_prov_trade_power_modifier = 0.25
@@ -8312,7 +9510,8 @@ JMN_ideas = {
 		naval_attrition = -0.15
 	}
 	polarized_nation = {
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.25 #BT Accepted Culture Slots overhaul, though I frankly don't know if Jan Mayenese needs to be properly altered.
 	}
 	come_bearing_gifts = {
 		improve_relation_modifier = 0.3
@@ -8369,6 +9568,10 @@ MRA_ideas = {
 	
 	bonus = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	trigger = {
@@ -8405,6 +9608,8 @@ ROM_ideas = {
 		legitimacy = 1
 		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	bonus = {
@@ -8505,7 +9710,8 @@ SLN_ideas = {
 		defensiveness = 0.15
 	}
 	sln_galic_meets_norman = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	sln_a_different_way = {
 		spy_offence = 0.10
@@ -8595,6 +9801,10 @@ BTS_ideas = {
 	}
 	bts_royal_justice = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	bts_european_diplomacy = {
 		diplomatic_reputation = 1
@@ -8642,7 +9852,8 @@ MIR_ideas = {
 TBK_ideas = {
 	start = {  
 		hostile_attrition = 1.0
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
   
 	bonus = {
@@ -8662,6 +9873,10 @@ TBK_ideas = {
 	}
 	tbk_healthy_priest_kings = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	tbk_office_of_the_mulwa = {
 		tolerance_own = 2
@@ -8697,6 +9912,10 @@ LUB_ideas = {
 	}
 	lub_royal_village_shrines = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	lub_bambudye = {
 		stability_cost_modifier = -0.1
@@ -8747,6 +9966,10 @@ KUB_ideas = {
 	}
 	kub_ndop_statue = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	kub_courtly_competition = {
 		global_unrest = -1
@@ -8773,6 +9996,10 @@ LND_ideas = {
 	}
 	lnd_perpetual_kingship = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	lnd_tukwata = {
 		global_tax_modifier = 0.1
@@ -8803,7 +10030,10 @@ RZW_ideas = {
 	}
   
 	trigger = {
-		tag = RZW
+		OR = {
+			tag = RZI
+			tag = RZW
+		}
 	}
 	free = yes
   
@@ -8877,7 +10107,8 @@ MLW_ideas = {
 	}
 
 	bonus = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	
 	trigger = {
@@ -8911,7 +10142,8 @@ MLW_ideas = {
 
 PAT_ideas = {
 	start = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 		light_ship_power = 0.10
 	}
 	bonus = {
@@ -8963,7 +10195,8 @@ KAF_ideas = {
 		production_efficiency = 0.10
 	}
 	kaf_minjo_usurpation = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	kaf_kaffan_highlands = {
 		global_trade_goods_size_modifier = 0.1
@@ -8973,6 +10206,10 @@ KAF_ideas = {
 	}
 	kaf_strengthen_ties_with_ethiopian_church = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	kaf_king_of_kings = {
 		discipline = 0.05
@@ -9044,7 +10281,8 @@ LOR_ideas = {
 		diplomats = 1
 	}
 	lor_two_languages = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	lor_three_bishoprics = {
 		tolerance_own = 2
@@ -9057,6 +10295,10 @@ LOR_ideas = {
 WUR_ideas = {
 	start = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		trade_efficiency = 0.1
 	}
 	bonus = {
@@ -9141,8 +10383,11 @@ GLH_ideas = {
 	free = yes
 	
 	glh_legacy_of_the_golden_horde = {
-		horde_unity = 1
+		horde_unity = 1 #BT Moved up to show horde unity icon //Dub
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
 	}
 	glh_perso_mongol_administration = {
 		core_creation = -0.25
@@ -9198,6 +10443,50 @@ YUA_ideas = {
 	}
 	yua_pax_mongolica = {
 		global_trade_goods_size_modifier = 0.1
+	}
+}
+
+BUK_ideas = {
+	start = {
+		cavalry_power = 0.20
+		development_cost = -0.1
+	}
+	bonus = {
+		build_cost = -0.15
+	}
+	trigger = {
+		tag = BUK
+	}
+	free = yes
+	
+	buk_jochid_patrimony = {
+		core_creation = -0.2
+		legitimacy = 0.5
+		devotion = 0.5
+		republican_tradition = 0.15
+		meritocracy = 0.5
+		horde_unity = 0.5
+	}
+	buk_naqshbandi_patronage = {
+		monthly_piety_accelerator = 0.001
+		global_institution_spread = 0.15
+	}
+	buk_mahalla_schools = {
+		technology_cost = -0.05
+	}
+	buk_the_jews_of_bukhara = {
+		tolerance_of_heathens_capacity = 1
+		dhimmi_loyalty_modifier = 0.05
+	}
+	buk_the_ark = {
+		fort_maintenance_modifier = -0.25
+	}
+	buk_the_tower_of_death = {
+		global_unrest = -2
+	}
+	buk_sahih_al-bukhari = {
+		tolerance_own = 1
+		global_heretic_missionary_strength = 0.02
 	}
 }
 
@@ -9316,6 +10605,9 @@ BAM_ideas = {
 		missionaries = 1
 		legitimacy = 0.5
 		devotion = 0.5
+		republican_tradition = 0.15
+		meritocracy = 0.5
+		horde_unity = 0.5
 	}
 	bonus = {
 		discipline = 0.05
@@ -9369,6 +10661,10 @@ OKA_ideas = {
 	
 	oka_heirs_of_chernigov = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	oka_dynamic_diplomacy = {
 		diplomats = 1
@@ -9419,6 +10715,9 @@ GHR_ideas = {
 	ghr_source_of_the_ganges = {
 		legitimacy = 1
 		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	ghr_land_of_the_gods = {
 		tolerance_own = 2
@@ -9435,7 +10734,11 @@ DTT_ideas = {
 		shock_damage_received = -0.1
 	}
 	bonus = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	trigger = {
 		tag = DTT
@@ -9503,6 +10806,10 @@ HTK_ideas = {
 	
 	HTK_clan_unification = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	HTK_saiku_shu = {
@@ -9518,6 +10825,10 @@ IMG_ideas = {
 	
 	bonus = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 
 	trigger = {
@@ -9619,6 +10930,10 @@ HSK_ideas = {
 	
 	hsk_kanrei = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	hsk_branches_and_retainers = {
@@ -10033,6 +11348,10 @@ ASK_ideas = {
 	
 	ask_defender_of_the_imperial_court = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 
 	higashiyama_culture = {
@@ -10276,7 +11595,8 @@ ITO_ideas = {
 		prestige = 1
 	}
 	ito_alliance_with_tsuchimochi_clan = {
-		free_leader_pool = 1
+		stability_cost_modifier = -0.1
+		war_exhaustion = -0.03
 	}
 	ito_land_of_gods_landing = {
 		ae_impact = -0.1
@@ -10367,6 +11687,10 @@ TTI_ideas = {
 	
 	tti_nara_city = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	tti_wise_opportunist = {
@@ -10403,6 +11727,10 @@ KKC_ideas = {
 	}
 	kkc_aso_schrine = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	kkc_resistance_against_foreign_intervention = {
 		land_morale = 0.1
@@ -10531,6 +11859,7 @@ TKD_ideas = {
 	}
 	tkd_twentyfour_generals = {
 		free_leader_pool = 1
+		yearly_army_professionalism = 0.0025
 	}
 	tkd_koyo_gunkan = {
 		army_tradition = 0.5
@@ -10594,6 +11923,10 @@ BLO_ideas = {
 	}
 	blo_strengthen_local_lineages = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	blo_control_the_northern_trade = {
 		global_own_trade_power = 0.25
@@ -10671,7 +12004,8 @@ MVA_ideas = {
 		production_efficiency = 0.1
 	}
 	mva_german_quarters = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	mva_jesuit_university = {
 		papal_influence = 1
@@ -10712,7 +12046,7 @@ EST_ideas = {
 		merchants = 1
 	}
 	est_estophilia = {
-		prestige = 1
+		diplomatic_reputation = 1
 	}
 	est_national_awakening = {
 		global_unrest = -1
@@ -10734,6 +12068,10 @@ TPR_ideas = {
 	
 	tpr_rajmala = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	tpr_adaptive_administration = {
 		global_tax_modifier = 0.1
@@ -10919,6 +12257,10 @@ BRG_ideas = {
 	
 	BRG_heirs_of_lotharingia = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	BRG_julich_berg = {
 		governing_capacity_modifier = 0.1
@@ -11077,7 +12419,11 @@ ROT_ideas = {
 		global_institution_spread = 0.1
 	}
 	ROT_end_of_the_line = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	ROT_hinterland_knights = {
 		build_cost = -0.1
@@ -11102,6 +12448,10 @@ ANH_ideas = {
 	}
 	bonus = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	trigger = {
 		tag = ANH
@@ -11156,7 +12506,8 @@ TNT_ideas = {
 		yearly_absolutism = 0.5
 	}
 	TNT_south_tyrol_identity = {
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	TNT_italy_and_the_empire = {
 		global_prov_trade_power_modifier = 0.1
@@ -11208,6 +12559,47 @@ ULM_ideas = {
 	}
 }
 
+AUG_ideas = {
+    start = {
+		improve_relation_modifier = 0.2
+		land_morale = 0.1
+    }
+    bonus = {
+		development_cost = -0.1
+    }
+    trigger = {
+        tag = AUG
+    }
+    free = yes
+    
+    aug_augusta_vindelicorum = {
+        legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+    }
+    aug_afra_ulrich = {
+		church_loyalty_modifier = 0.1
+    }
+    aug_hans_holbein = {
+        prestige = 1
+    }
+    aug_fugger_welser = {
+        merchants = 1
+        interest = -0.5
+    }
+    aug_elias_holl = {
+        build_cost = -0.1
+    }
+    aug_religionsfrieden = {
+        tolerance_heretic = 3
+    }
+    aug_textile_industry = {
+        production_efficiency = 0.1
+    }
+}
+
 FRN_ideas = {
 	start = {
 		global_tax_modifier = 0.1
@@ -11242,7 +12634,11 @@ FRN_ideas = {
 		production_efficiency = 0.1
 	}
 	frn_freie_stadt = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -11269,8 +12665,11 @@ KOL_ideas = {
 		development_cost = -0.1
 	}
 	kol_prime_minister = {
-		devotion = 0.5
 		legitimacy = 0.5
+		devotion = 0.5
+		republican_tradition = 0.15
+		meritocracy = 0.5
+		horde_unity = 0.5
 		global_autonomy = -0.03
 	}
 	kol_pivotal_ecclesiastic_territory = {
@@ -11307,8 +12706,11 @@ MAI_ideas = {
 		land_morale = 0.1
 	}
 	mai_saint_hildegard = {
-		devotion = 1
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	mai_perpetual_privy_council = {
 		global_autonomy = -0.05
@@ -11377,7 +12779,7 @@ AKK_ideas = {
 		leader_land_shock = 1
 	}
 	akk_unite_the_federation = {
-		yearly_tribal_allegiance = 1
+		yearly_government_power = 1
 		cavalry_cost = -0.2
 	}
 	akk_turko_iranian_bureaucracy = {
@@ -11421,6 +12823,10 @@ KHO_ideas = {
 	}
 	kho_dynastic_chronicles = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	kho_irrigation_network = {
 		global_trade_goods_size_modifier = 0.1
@@ -11717,6 +13123,10 @@ RAS_ideas = {
 	}
 	ras_unite_rassid_state = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	ras_mountain_strongholds = {
 		shock_damage_received = -0.15
@@ -11757,6 +13167,10 @@ MSY_ideas = {
 	}
 	msy_house_united = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	msy_outward_pragmatism = {
 		diplomats = 1
@@ -11796,6 +13210,10 @@ SIS_ideas = {
 	}
 	sis_chronicles_of_sistan = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	sis_scholars_of_sistan = {
 		global_institution_spread = 0.1
@@ -11820,10 +13238,15 @@ RUM_ideas = {
 	}
 	rum_king_of_the_east_and_west = {
 		core_creation = -0.20
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul. Keeping this because Rum does not get Ottoman content as far as I know. If that ends up being the case, this should be removed. //Dub
 	}
 	rum_shahanshah = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	rum_sultan_of_rum = {
 		tolerance_heathen = 3
@@ -11874,6 +13297,10 @@ ARL_ideas = {
 	}
 	arl_shahs_of_iran = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -11892,6 +13319,10 @@ SME_ideas = {
 	
 	sme_atabegs_of_samtskhe = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	sme_proactive_diplomacy = {
 		spy_offence = 0.2
@@ -11928,6 +13359,10 @@ SRV_ideas = {
 	
 	srv_khalwati_order = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		monthly_piety = -0.001
 	}
 	srv_fortresses_of_shirvan = {
@@ -11995,6 +13430,7 @@ HDR_ideas = {
 	}
 	bonus = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	trigger = {
 		tag = HDR
@@ -12035,6 +13471,7 @@ HSN_ideas = {
 	}
 	trigger = {
 		tag = HSN
+		NOT = { has_country_flag = hsn_ayyubid_ideas } #BT Vanilla bugfix 
 	}
 	free = yes
 	
@@ -12050,7 +13487,7 @@ HSN_ideas = {
 	hsn_elite_warriors = {
 		cavalry_power = 0.1
 	}
-	hsn_rise_of_the_eagle = {
+	hsn_rise_of_the_eagle_idea = {
 		core_creation = -0.15
 	}
 	hsn_strenghten_central_authority = {
@@ -12270,6 +13707,10 @@ CEB_ideas = {
 	}
 	ceb_chola_legacy = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	ceb_protect_against_the_magalos = {
 		navy_tradition = 1
@@ -12344,6 +13785,10 @@ HJO_ideas = {
 	
 	hjo_legacy_of_the_kamakura_shogunate = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	hjo_night_combat = {
 		leader_land_shock = 1
@@ -12470,6 +13915,10 @@ ASA_ideas = {
 	}
 	asa_seventeen_clan_code = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	asa_control_of_buddhist_sects = {
 		tolerance_own = 2
@@ -12540,6 +13989,10 @@ TYR_ideas = {
 	}
 	tyr_o_neill_mor = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	tyr_tanistry = {
 		stability_cost_modifier = -0.1 # change to heir chance?
@@ -12729,6 +14182,10 @@ ORD_ideas = {
 
 	bonus = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	trigger = {
@@ -12758,7 +14215,6 @@ ORD_ideas = {
 		build_cost = -0.1
 	}
 }
-
 
 irish_ideas = {
 	start = {
@@ -12791,7 +14247,11 @@ irish_ideas = {
 	}
 	the_clanns = {
 		stability_cost_modifier = -0.1 # BT; same_culture_advisor_cost = -0.2
-		republican_tradition = 0.5 # BT
+		republican_tradition = 0.3 # BT
+		legitimacy = 1 # BT
+		devotion = 1 # BT
+		meritocracy = 1 # BT
+		horde_unity = 1 # BT
 	}
 	more_than_irish = {
 		culture_conversion_cost = -0.2 # BT; global_unrest = -2
@@ -12810,6 +14270,7 @@ irish_ideas = {
 		discipline = 0.05
 	}
 }
+
 ULS_ideas = {
 	start = {
 		global_manpower_modifier = 0.1
@@ -12827,6 +14288,7 @@ ULS_ideas = {
 	
 	uls_clan_connections = {
 		free_leader_pool = 1
+		morale_damage = 0.1
 	}
 	uls_peerage = {
 		prestige = 1
@@ -12883,7 +14345,10 @@ FLY_ideas = {
 	}
 	fly_family_affair = {
 		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	fly_buannacht = {
 		global_manpower_modifier = 0.15
@@ -12927,8 +14392,6 @@ CRN_ideas = {
 		prestige_decay = -0.01
 	}
 }
-
-
 # Manx ideas
 KOI_ideas = {
 	start = {
@@ -13042,7 +14505,8 @@ FRI_ideas = {
 		tolerance_heathen = 1
 	}
 	fri_brothers_arms = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 		global_own_trade_power = 0.1
 	}
 }
@@ -13067,7 +14531,11 @@ UTR_ideas = {
 	}
 	utr_ex_cathedra = {
 		papal_influence = 2
+		legitimacy = 0.5
 		devotion = 0.5
+		republican_tradition = 0.15
+		meritocracy = 0.5
+		horde_unity = 0.5
 		monthly_fervor_increase = 0.25
 		church_power_modifier = 0.1
 	}
@@ -13084,7 +14552,8 @@ UTR_ideas = {
 	}
 	utr_cultural_resilience = {
 		same_culture_advisor_cost = -0.25
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	utr_enlightenment_masses = {
 		global_institution_spread = 0.25
@@ -13190,8 +14659,11 @@ LIE_ideas = {
 		manpower_recovery_speed = 0.2
 	}
 	lie_religious_devotion = {
-		devotion = 1
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	lie_wittelsbach_bishops = {
 		improve_relation_modifier = 0.3
@@ -13229,6 +14701,10 @@ GEL_ideas = {
 	}
 	gel_defy_burgundy = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	gel_rivers = {
 		development_cost = -0.1
@@ -13299,7 +14775,11 @@ AAC_ideas = {
 		prestige_decay = -0.01
 	}
 	aac_free_city = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	aac_spa = {
 		stability_cost_modifier = -0.10
@@ -13336,6 +14816,10 @@ KLE_ideas = {
 	}
 	kle_cleves_mark = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	kle_reformers = {
 		papal_influence = 1
@@ -13402,7 +14886,8 @@ DLH_ideas = {
 	}
 	
 	bonus = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	
 	trigger = {
@@ -13430,6 +14915,10 @@ DLH_ideas = {
 	}
 	dlh_throne_of_india = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -13451,7 +14940,8 @@ BHA_ideas = {
 		cavalry_power = 0.15
 	}
 	bha_united_india = {
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	bha_sanskrit_golden_age = {
 		technology_cost = -0.05
@@ -13494,6 +14984,10 @@ HIN_ideas = {
 	}
 	hin_peacock_throne = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	hin_gunpowder_empire = {
 		fire_damage = 0.1
@@ -13522,7 +15016,7 @@ RJP_ideas = {
 	free = yes
 	
 	rjp_imperial_legacy = {
-		core_creation = -0.1
+		core_creation = -0.1 #BT Keeping old -0.1 CCC //Dub
 	}
 	rjp_land_of_petty_princes = {
 		global_manpower_modifier = 0.15
@@ -13542,6 +15036,10 @@ RJP_ideas = {
 	}
 	rjp_monumental_architecture = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 }
 
@@ -13551,7 +15049,7 @@ NAG_ideas = {
 		land_morale = 0.15
 	}
 	bonus = {
-		free_leader_pool = 1
+		overextension_impact_modifier = -0.1
 	}
 	trigger = {
 		tag = NAG
@@ -13577,7 +15075,8 @@ NAG_ideas = {
 		production_efficiency = 0.1
 	}
 	nag_no_cb_best_cb = {
-		unjustified_demands = -0.25
+		stability_cost_to_declare_war = -1
+		unjustified_demands = -0.15 
 	}
 }
 
@@ -13710,6 +15209,10 @@ SND_ideas = {
 
 	snd_enduring_dynasty = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	snd_bab_ul_islam = {
 		global_missionary_strength = 0.02
@@ -13772,7 +15275,7 @@ DHU_ideas = {
 MYS_ideas = {
 	start = {
 		land_morale = 0.1
-		free_leader_pool = 1
+		leader_cost = -0.10
 	}
 	
 	bonus = {
@@ -13789,6 +15292,10 @@ MYS_ideas = {
 	}
 	mys_patronize_kannada_literature = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	mys_religious_tolerance = {
 		tolerance_heathen = 2
@@ -13841,6 +15348,43 @@ RIG_ideas = {
 	}
 	rig_restore_brothers_of_the_sword = {
 		discipline = 0.05
+	}
+}
+
+LTG_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		global_unrest = -1
+	}
+	bonus = {
+		fire_damage_received = -0.1
+	}
+	trigger = {
+		tag = LTG
+	}
+	free = yes
+	ltg_daugava_river_trade = {
+		trade_efficiency = 0.1
+	}
+	ltg_diplomatic_overtures = {
+		improve_relation_modifier = 0.3
+	}
+	ltg_religious_flexibility = {
+		tolerance_of_heretics_capacity = 2
+	}
+	ltg_latvian_people = {
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Nerfed from -0.25 as part of the Accepted Culture Slots overhaul
+	}
+	ltg_modernize_livonian_castles = {
+		defensiveness = 0.2
+	}	
+	ltg_daina = {
+		prestige_decay = -0.01
+	}
+	ltg_reduction_of_noble_lands = {
+		global_autonomy = -0.05
+		nobles_influence_modifier = -0.1
 	}
 }
 
@@ -13931,13 +15475,17 @@ ILK_ideas = {
 	free = yes
 	ilk_restored_ilkhanate = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
 		horde_unity = 1
 	}
 	ilk_favor_sufism = {
 		tolerance_heretic = 2
 	}
 	ilk_persian_language_at_court = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	ilk_yam_networks = {
 		movement_speed = 0.15
@@ -13992,7 +15540,7 @@ SYN_ideas = {
 
 MOR_ideas = {
 	start = {
-		may_perform_slave_raid = yes
+		naval_attrition = -0.25
 		naval_forcelimit_modifier = 0.25
 	}
 	bonus = {
@@ -14030,7 +15578,7 @@ MOR_ideas = {
 
 TUN_ideas = {
 	start = {
-		may_perform_slave_raid = yes
+		naval_attrition = -0.25
 		galley_power = 0.2		
 	}
 	bonus = {
@@ -14117,6 +15665,7 @@ AUS_ideas = {
 	free = yes
 	AUS_outback_stations = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	AUS_land_down_under = {
 		land_attrition = -0.1
@@ -14148,6 +15697,7 @@ NZL_ideas = {
 	}
 	bonus = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	trigger = {
 		tag = NZL
@@ -14155,7 +15705,11 @@ NZL_ideas = {
 	free = yes
 	NZL_maori_seats = {
 		no_religion_penalty = yes
+		legitimacy = 0.5
+		devotion = 0.5
 		republican_tradition = 0.15
+		meritocracy = 0.5
+		horde_unity = 0.5
 	}
 	NZL_otago_gold = {
 		global_trade_goods_size_modifier = 0.1
@@ -14204,7 +15758,8 @@ ALA_ideas = {
 	}
 	ALA_diversity = {
 		tolerance_heretic = 2
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	ALA_navy = {
 		naval_forcelimit_modifier = 0.25
@@ -14228,7 +15783,8 @@ CSC_ideas = {
 	}
 	free = yes
 	CSC_melting_pot = {
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	CSC_chinook_jargon = {
 		native_uprising_chance = -0.5
@@ -14258,6 +15814,7 @@ WSI_ideas = {
 	}
 	bonus = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	trigger = {
 		tag = WSI
@@ -14278,7 +15835,8 @@ WSI_ideas = {
 		trade_range_modifier = 0.1
 	}
 	WSI_Miskoto_Zambos = {
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	WSI_Interconnected_Relations = {
 		diplomatic_reputation = 1
@@ -14318,7 +15876,7 @@ SNA_ideas = {
 		privateer_efficiency = 0.1
 	}
 	SNA_uniting_the_outlaws = {
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.25
 	}
 	SNA_taking_the_fight_south = {
 		movement_speed = 0.15
@@ -14354,7 +15912,8 @@ VRM_ideas = {
 		global_tax_modifier = 0.1
 	}
 	VRM_vermont_constitution = {
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	VRM_Liberty_is_Life = {
 		liberty_desire_from_subject_development = -0.25
@@ -14387,6 +15946,7 @@ ASU_ideas = {
 	}
 	asu_colonialism = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	asu_millenarian_revival = {
 		global_missionary_strength = 0.02
@@ -14433,6 +15993,7 @@ ADU_ideas = {
 	}
 	adu_expeditionary_sentiment = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	adu_al_awasim = {
 		defensiveness = 0.1
@@ -14507,8 +16068,11 @@ OIR_ideas = {
 		land_attrition = -0.20
 	}
 	the_four_oirats = {
-		horde_unity = 1
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	todo_besheg_script = {
 		technology_cost = -0.05
@@ -14642,8 +16206,11 @@ CSH_ideas = {
 	}
 	shun_claim_to_the_mandate = {
 		imperial_mandate = 0.03
-		meritocracy = 0.5
 		legitimacy = 0.5
+		devotion = 0.5
+		republican_tradition = 0.15
+		meritocracy = 0.5
+		horde_unity = 0.5
 	}
 }
 
@@ -14651,6 +16218,10 @@ NRM_ideas = {
 	start = {
 		leader_land_manuever = 1
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	
 	bonus = {
@@ -14709,7 +16280,11 @@ PIS_ideas = {
 		development_cost = -0.1
 	}
 	pis_anziani_del_popolo = {
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	pis_maritimes_legacy = {
 		light_ship_cost = -0.10
@@ -14750,6 +16325,7 @@ EPI_ideas = {
 	}
 	epi_latin_knights = {
 		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.25
 	}
 	epi_trade_influences = {
 		global_trade_power = 0.1
@@ -14757,6 +16333,55 @@ EPI_ideas = {
 	epi_unity_in_strength = {
 		discipline = 0.05
 	}
+}
+
+LAE_ideas = {
+	start = {
+        discipline = 0.05
+		missionaries = 1 #BT Swapped with ambition - made no sense.
+	}
+	
+	bonus = {
+        global_heretic_missionary_strength = 0.03 #BT Swapped with tradition - made no sense.
+	}
+	
+	trigger = {
+		tag = LAE
+	}
+	free = yes
+    
+    lae_emperor_constantinople = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+        vassal_forcelimit_bonus = 1
+    }
+    lae_latin_patriarch = {
+        papal_influence = 2
+        curia_powers_cost = -0.1
+    }
+    lae_byzantine_bureaucracy = {
+        advisor_cost = -0.1
+        stability_cost_modifier = -0.1
+    }
+    lae_guilds_pera = {
+        global_trade_power = 0.1
+        galley_power = 0.1
+    }
+    epi_latin_knights = {
+        #cavalry_power = 0.15 same as Epirus
+    }
+    lae_partitio_graeci = {
+        warscore_cost_vs_other_religion = -0.1
+        unjustified_demands = -0.25
+    }
+    lae_frankokratia = {
+        diplomatic_upkeep = 1 #BT Changed from diplorep to diplorelations slot.
+		#diplomatic_reputation = 1
+        manpower_in_true_faith_provinces = 0.15
+    }
 }
 
 
@@ -14818,6 +16443,8 @@ FKN_ideas = {
 		legitimacy = 1
 		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	fkn_main_trading = {
 		trade_efficiency = 0.1
@@ -14874,7 +16501,8 @@ SOR_ideas = {
 		tolerance_heretic = 3
 	}
 	sor_political_influences = {
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 }
 
@@ -14940,7 +16568,8 @@ WES_ideas = {
 		global_manpower_modifier = 0.20
 	}
 	wes_administrative_assimilation_of_rheinlanders = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 		same_culture_advisor_cost = -0.25
 	}
 	wes_taxation = {
@@ -15071,49 +16700,6 @@ GNV_ideas = {
 	}
 }
 
-ICE_ideas = {
-	start = {
-		may_explore = yes
-		hostile_attrition = 1
-	}
-	
-	bonus = {
-		colonists = 1
-	}	
-
-	trigger = {
-		tag = ICE
-	}
-	free = yes
-	
-	ICE_althingi = {
-		global_unrest = -1
-		reform_progress_growth = 0.15
-	}
-	ICE_hrafna_floki = {
-		global_ship_recruit_speed = -0.2
-	}
-	ICE_christian_identity = {
-		papal_influence = 1
-		monthly_fervor_increase = 0.25
-		church_power_modifier = 0.1
-		global_missionary_strength = 0.01
-	}
-	ICE_merchant_navy = {
-		light_ship_power = 0.15
-	}
-	ICE_fire_and_ice = {
-		discipline = 0.05
-	}
-	ICE_natural_builders = {
-		build_cost = -0.1
-		development_cost = -0.05
-	}
-	ICE_nationalism = {
-		culture_conversion_cost = -0.2
-	}
-}
-
 TIW_ideas = {
 	start = {
 		female_advisor_chance = 0.75
@@ -15161,7 +16747,8 @@ EOR_ideas = {
 	}
 
 	bonus = {
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	
 	trigger = {
@@ -15255,7 +16842,12 @@ PLW_ideas = {
 	}
 	PLW_dual_identity = {
 		legitimacy = 1
-		num_accepted_cultures = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	PLW_darwin = {
 		shock_damage = 0.2
@@ -15301,7 +16893,10 @@ LAR_ideas = {
 	}
 	LAR_dowed = {
 		legitimacy = 1
-		republican_tradition = 0.2
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		global_unrest = -1
 	}
 	LAR_ceremonial_scarring = {
@@ -15322,7 +16917,7 @@ GMI_ideas = {
 	}
 
 	bonus = {
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.25
 	}
 	
 	trigger = {
@@ -15334,7 +16929,8 @@ GMI_ideas = {
 		core_creation = -0.15
 	}
 	GMI_land_of_languages = {
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	GMI_fertile_soils = {
 		development_cost = -0.1
@@ -15345,7 +16941,10 @@ GMI_ideas = {
 	}
 	GMI_matrilineal_lineage = {
 		legitimacy = 1
-		republican_tradition = 0.2
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		female_advisor_chance = 0.5
 	}
 	GMI_familial_law = {
@@ -15392,25 +16991,36 @@ DAI_ideas = {
 	}
 	thuan_thien = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		imperial_mandate = 0.05
 	}
 	literary_reform = {
 		technology_cost = -0.05
 	}
 }
-# vanilla
+
 MAJ_ideas = {
 	start = {
 		ae_impact = -0.15
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
+	
 	bonus = {
 		diplomatic_annexation_cost = -0.15
 	}
+	
+	free = yes		#will be added at load.
+	
 	trigger = {
 		tag = MAJ
 	}
-	free = yes
 	maj_nusantara_tributaries = {
 		vassal_forcelimit_bonus = 1
 		reduced_liberty_desire = 10
@@ -15423,6 +17033,7 @@ MAJ_ideas = {
 	}
 	maj_nusa_tenggara = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	maj_gajah_madas_oath = {
 		land_morale = 0.1
@@ -15515,7 +17126,7 @@ SUN_ideas = {
 		manpower_recovery_speed = 0.2
 	}
 	bonus = {
-		land_morale = 0.2
+		land_morale = 0.20
 	}
 	trigger = {
 		tag = SUN
@@ -15535,13 +17146,13 @@ SUN_ideas = {
 	}
 	pan_asian_trade = {
 		merchants = 1
-		trade_steering = 0.1
+		trade_steering = 0.10
 	}
 	seren_taun = {
 		global_tax_modifier = 0.1
 	}
 	bi_yearly_harvest = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.10
 	}
 }
 
@@ -15607,10 +17218,15 @@ MLC_ideas = {
 	}
 	mlc_habor_masters = {
 		trade_steering = 0.2
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	mlc_daulat = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	mlc_jawi_script = {
 		idea_cost = -0.1
@@ -15655,41 +17271,42 @@ MSA_ideas = {
 }
 
 SIA_ideas = {
-	start = {
-		land_morale = 0.1
-		global_manpower_modifier = 0.3
-	}
-	bonus = {
+    start = {
+        land_morale = 0.1
+        global_manpower_modifier = 0.25
+    }
+    bonus = {
 		discipline = 0.05
-	}
-	trigger = {
-		tag = SIA
-	}
-	free = yes
-	sia_royal_poets = {
+    }
+    trigger = {
+        tag = SIA
+    }
+    free = yes
+    sia_royal_poets = {
 		prestige = 0.5
-		idea_cost = -0.1
-	}
-	sia_advanced_elephant_warfare = {
+		adm_advisor_cost = -0.15
+    }
+    sia_advanced_elephant_warfare = {
 		cavalry_power = 0.15
 		cavalry_fire = 1
-	}
-	sia_experienced_ambassadors = {
-		diplomatic_reputation = 2
-	}
-	sia_encourage_immigration = {
-		development_cost = -0.1
-	}
-	sia_integrating_the_realm = {
-		diplomatic_annexation_cost = -0.2
-	}
-	sia_education_reform = {
-		technology_cost = -0.1
-	}
-	sia_royal_absolutism = {
-		yearly_absolutism = 1
-		legitimacy = 1
-	}
+    }
+    sia_experienced_ambassadors = {
+        diplomatic_reputation = 2
+    }
+    sia_encourage_immigration = {
+        development_cost = -0.1
+    }
+    sia_integrating_the_realm = {
+        diplomatic_annexation_cost = -0.15
+        culture_conversion_cost = -0.15
+    }
+    sia_royal_absolutism = {
+        global_autonomy = -0.05
+		yearly_absolutism = 0.5
+    }
+    sia_education_reform = {
+        idea_cost = -0.1
+    }
 }
 
 LFA_ideas = {
@@ -15706,7 +17323,11 @@ LFA_ideas = {
 	free = yes
 	lfa_free_elections = {
 		global_unrest = -2
+		legitimacy = 1
+		devotion = 1
 		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	lfa_mining_syndicates = {
 		production_efficiency = 0.15
@@ -15720,7 +17341,8 @@ LFA_ideas = {
 		hostile_attrition = 1.0
 	}
 	lfa_integrate_local_communities = {
-		num_accepted_cultures = 2
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 	lfa_improved_mining_techniques = {
 		global_trade_goods_size_modifier = 0.1
@@ -15733,7 +17355,7 @@ LFA_ideas = {
 
 LIG_ideas = {
 	start = {
-		liberty_desire = 20
+		reduced_liberty_desire = 20
 		global_ship_cost = -0.1
 	}
 	bonus = {
@@ -15837,7 +17459,8 @@ BAN_ideas = {
 	}
 	ban_cultural_richness = {
 		core_creation = -0.20
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	}
 }
 
@@ -15864,14 +17487,14 @@ SUL_ideas = {
 		envoy_travel_time = -0.25
 	}
 	sul_port_of_jolo = { 
-		trade_efficiency = 0.1
+		trade_efficiency = 0.10
 	}
 	sul_dagat_sulu = { 
 		sunk_ship_morale_hit_recieved = -0.2
 	}
 	sul_coconut_plantations = {
 		production_efficiency = 0.1
-		build_cost = -0.1
+		build_cost = -0.10
 	}
 	sul_pearl_farming = {
 		global_trade_goods_size_modifier = 0.1
@@ -15880,7 +17503,8 @@ SUL_ideas = {
 
 CRB_ideas = { 
 	start = {
-		num_accepted_cultures = 1
+		#num_accepted_cultures = 1
+		promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 		core_creation = -0.20
 	}
 	bonus = {
@@ -15893,6 +17517,10 @@ CRB_ideas = {
 	crb_negara_gede = { 
 		yearly_absolutism = 1
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	crb_tari_topeng = { 
 		same_culture_advisor_cost = -0.25
@@ -15989,6 +17617,10 @@ samoan_ideas = { #Credit to James Beaumont
 	}
 	samoa_tatau = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		prestige = 1
 	}
 	samoa_faavae = {
@@ -16000,10 +17632,13 @@ samoan_ideas = { #Credit to James Beaumont
 	}
 }
 
-
 ISR_ideas = {
 	start = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		religious_unity = 0.25
 	}
 	
@@ -16061,6 +17696,10 @@ OYO_ideas = {
 	}
 	oyo_oduduwa_mythos = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	oyo_ile_ife_protector = {
 		global_missionary_strength = 0.02
@@ -16103,6 +17742,10 @@ ZAN_ideas = {
 
 	zan_shirazis_legacy = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 
 	zan_the_deal_with_almuli = {
@@ -16269,6 +17912,10 @@ KIT_ideas = {
 	
 	kit_legacy_of_the_gods = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 		tolerance_own = 1
 	}
 	kit_empire_of_the_light = {
@@ -16356,6 +18003,10 @@ ADA_ideas = {
 
 	ada_a_monarchial_imamate = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 
 	ada_zeila_and_harar = {
@@ -16419,6 +18070,10 @@ JOL_ideas = {
 
 	jol_wolof_griots = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 
 	jol_paying_the_waref = {
@@ -16464,5 +18119,425 @@ ZUL_ideas = {
 	}
 	zul_conquest_through_patronage = {
 		accept_vassalization_reasons = 10
+	}
+}
+
+FU2_ideas = {
+	start = {
+		trade_efficiency = 0.2
+		merchants = 1 
+	}
+	
+	bonus = {
+		trade_steering = 0.2 
+	}
+	
+	trigger = {
+		tag = HSA
+		has_country_flag = hsa_proclaimed_queen_of_the_hansa_flag
+	}
+	free = yes 
+	
+	FU2_foreign_kontors = {
+		global_trade_power = 0.15
+	}
+	FU2_the_handelsmarine = {
+		global_ship_trade_power = 0.25
+		global_ship_cost = -0.05
+	}
+	FU2_reform_queens_army = {
+		discipline = 0.05
+	}
+	FU2_adler_von_lubeck_legacy = {
+		heavy_ship_power = 0.1
+	}
+	FU2_merchants_with_state = {
+		global_trade_goods_size_modifier = 0.1
+		development_cost = -0.05
+	}
+	FU2_spread_the_northern_style = {
+		idea_cost = -0.1
+	}
+	regularised_contribution = {
+		global_prov_trade_power_modifier = 0.20
+	}
+}
+
+UKR_ideas = {
+	start = {
+		manpower_recovery_speed = 0.2
+		morale_damage_received = -0.1
+	}
+
+	bonus = {
+		discipline = 0.05
+	}
+ 
+	trigger = {
+		tag = UKR
+		NOT = { mission_completed = ukr_mother_of_all_rus } #BT Added: This mission augments this idea set to give -20% CCC instead of -10%. //Dub
+	}
+	free = yes
+ 
+	mother_of_russian_cities = { #Mother of Russian States
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+		prestige = 1
+	}
+	international_influences = {
+		#num_accepted_cultures = 2
+		promote_culture_cost = -0.2 #BT Nerfed from -0.25 as part of the Accepted Culture Slot overhaul.
+	}
+	zaporizhian_cossacs = {
+		cavalry_power = 0.15
+		cossacks_privilege_slots = 1
+	}
+	east_and_west = {
+		global_trade_power = 0.1
+	}
+	legacy_of_ancient_rus = {
+		stability_cost_modifier = -0.1
+	}
+	reuniting_rus = {
+		core_creation = -0.1
+		years_of_nationalism = -5
+	}
+	birth_of_russian_orthodoxy = {
+		tolerance_own = 2
+		yearly_patriarch_authority = 0.005
+	}
+}
+
+#1.36
+#(Great) Armenia
+
+ARM1_ideas = {
+	start = {
+		war_exhaustion = -0.05
+		recover_army_morale_speed = 0.10 #OK. I give up. Sure, take this one, tiny Armenia. //Dub
+	}
+
+	bonus = {
+		hostile_attrition = 1
+	}
+	
+	trigger = {
+		OR = {
+			tag = ARM
+			tag = MLK
+		}
+		has_country_flag = arm_great_armenian_ideas
+	}
+	free = yes		#will be added at load.
+	
+	apostolic_church = {
+		global_missionary_strength = 0.02
+		prestige_per_development_from_conversion = 0.25
+	}
+	land_reclamation1 = {
+		development_cost = -0.15
+	}
+	border_nation = {
+		diplomatic_reputation = 1
+	}
+	melikdom_organization1 = {
+		global_tax_modifier = 0.2
+	}
+	sygnakhs = {
+		global_regiment_cost = -0.1
+	}
+	nakharar_titles1 = {
+		army_tradition = 1
+	}
+	end_of_armenian_diaspora1 = {
+		production_efficiency = 0.1
+		manpower_in_own_culture_provinces = 0.2
+	}
+}
+
+ARB_ideas = {
+	start = {
+		tolerance_own = 2
+		years_of_nationalism = -10
+	}
+
+	bonus = {
+		siege_ability = 0.15
+	}
+
+	trigger = {
+		tag = ARB
+	}
+	free = yes
+
+	ARB_arabian_pincers = {
+		cav_to_inf_ratio = 0.25
+		cavalry_power = 0.20 #BT Nerfed from 0.25
+	}
+	ARB_pact_of_umar = {
+		dhimmi_loyalty_modifier = 0.1
+		global_tax_modifier = 0.2
+	}
+	ARB_engage_in_indian_ocean_trade = {
+		trade_steering = 0.2	
+	}
+	ARB_conversion = {
+		global_missionary_strength = 0.03
+	}
+	ARB_jihad = {
+		warscore_cost_vs_other_religion = -0.1
+	}
+	ARB_new_caliphate_rising = {
+		missionaries = 2
+	}
+	ARB_mubarizun = {
+		army_tradition_decay = -0.01
+	}
+}
+
+EGY_ideas = {
+	start = {
+		trade_efficiency = 0.1
+		administrative_efficiency = 0.05
+	}
+
+	bonus = {
+		free_policy = 1
+	}
+	
+	trigger = {
+		tag = EGY
+	}
+	free = yes		#will be added at load.
+	
+	egy_centralization_works = {
+		development_cost = -0.1
+	}
+	training_missions_in_egypt = {
+		country_military_power = 1
+	}
+	legacy_of_the_karimis = {
+		burghers_loyalty_modifier = 0.1
+	}
+	nile_production = {
+		production_efficiency = 0.10
+	}
+	westernize_the_military = {
+		max_general_fire = 1
+		fire_damage = 0.1
+	}
+	mediterranean_shipwrights = {
+		sea_repair = yes
+	}
+	crossroads_between_europe_and_africa = {
+		global_trade_power = 0.1
+	}
+}
+
+AYB_ideas = { #Vanilla 1.37 added a buffed idea set as a mission reward. I don't think they need them, but... I guess it's a reward. //Dub
+	start = {
+		shock_damage_received = -0.1
+		global_tax_modifier = 0.2
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = HSN
+		has_country_flag = hsn_ayyubid_ideas
+	}
+	free = yes
+	
+	hsn2_citadels_and_fortesses = {
+		defensiveness = 0.2
+	}
+	hsn2_ayyubid_heritage = {
+		global_manpower_modifier = 0.25
+	}
+	hsn2_righteousness_of_the_faith = {
+		land_morale = 0.1
+	}
+	hsn2_elite_warriors = {
+		cavalry_power = 0.1
+		cav_to_inf_ratio = 0.25
+	}
+	hsn2_rise_of_the_eagle = {
+		core_creation = -0.25
+	}
+	hsn2_strenghten_central_authority = {
+		stability_cost_modifier = -0.1
+	}
+	hsn2_state_economics = {
+		global_trade_goods_size_modifier = 0.15
+	}
+}
+
+UCN_ideas = {
+	start = {
+		trade_efficiency = 0.15
+		fire_damage = 0.1
+	}
+	
+	trigger = {
+		has_country_flag = ned_united_crowns_flag
+		tag = NED 
+	}
+	free = yes
+	
+	bonus = {
+		naval_morale = 0.15
+	}		
+	
+	reform_of_comission_buying = {
+		
+	}
+	british_industrialization = {
+		
+	}
+	instructie_voor_de_admiraliteiten = {
+		
+	}
+	dutch_trading_spirit = {
+		
+	}
+	army_sappers = {
+		
+	}
+	amsterdam_wisselbank = {
+		
+	}
+	city_upon_a_hill = {
+		
+	}
+}
+
+AUH_ideas = {
+	start = {
+		land_morale = 0.1
+		diplomatic_reputation = 2
+	}
+	
+	bonus = {
+		no_religion_penalty = yes
+	}
+	
+	trigger = {
+		tag = AUH
+	}
+	free = yes		
+	
+	auh_first = {
+		discipline = 0.05
+	}
+	auh_second = {
+		manpower_in_accepted_culture_provinces = 0.3
+	}
+	auh_third = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	auh_fourth = {
+		global_unrest = -1
+	}
+	auh_fifth = {
+		#state_governing_cost = -0.2 #BT Cut as part of govcap overhaul
+		state_maintenance_modifier = -0.5
+	}
+	auh_sixth = {
+		global_prov_trade_power_modifier = 0.25
+	}
+	auh_seventh = {
+		artillery_power = 0.1
+		artillery_cost = -0.1
+	}
+}
+
+GMA_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	bonus = {
+		max_absolutism_effect = 0.15
+	}	
+
+	trigger = {
+		tag = GMA
+	}
+	free = yes
+	
+	gma_reforge_moravias_hegemony = {
+		overextension_impact_modifier = -0.25
+	}
+	gma_apostles_to_the_slavs = {
+		missionaries = 1
+	}
+	gma_princes_of_nitra_kings_of_moravia = {
+		monarch_admin_power = 1
+	}
+	gma_rebuild_veligrad = {
+		build_time = -0.1
+		development_cost = -0.05
+	}
+	gma_rex_sclavorum = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	gma_canonize_cyril_methodius = {
+		tolerance_own = 3
+	}
+	gma_svatopluks_legacy = {
+		discipline = 0.05
+		max_absolutism = 5
+	}
+}
+
+voc_ideas = {
+	start = {
+		no_religion_penalty = yes
+		global_prov_trade_power_modifier = 0.1
+	}
+	
+	bonus = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	trigger = {
+		tag = VOC
+	}
+	free = yes
+	
+	voc_1 = {
+		global_unrest = -2
+		global_autonomy = -0.05
+	}
+	voc_2 = {
+		years_of_nationalism = -5
+		core_creation = -0.1
+	}
+	voc_3 = {
+		development_cost = -0.05
+	}
+	voc_4 = {
+		governing_capacity_modifier = 0.15
+		merchants = 1
+	}
+	voc_5 = {
+		build_cost = -0.15
+		naval_forcelimit_modifier = 0.1
+	}
+	voc_6 = {
+		movement_speed = 0.1
+		land_attrition = -0.15
+	}
+	voc_7 = {
+		global_manpower_modifier = 0.15
+		land_forcelimit_modifier = 0.1
 	}
 }

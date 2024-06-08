@@ -5,27 +5,24 @@
 give_permaclaims_for_mission = {
 	if = {
 		limit = {
-			any_province = {
-				$mission$_provinces = yes
-				OR = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
+			$mission$_provinces = {
+				NOT = { is_permanent_claim = ROOT }
+				NOT = { is_core = ROOT }
 			}
 		}
 		custom_tooltip = $mission$_claims
 		hidden_effect = {
-			every_province = {
+			$mission$_provinces = {
 				limit = {
-					$mission$_provinces = yes
-					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
 		}
 	}
 }
+
 #Usage:
 #give_cores_for_mission = { mission=X }
 #Where X is the mission name, assuming the mission has a corresponding X_provinces scripted_trigger to check for the provinces.
@@ -34,16 +31,14 @@ give_permaclaims_for_mission = {
 give_cores_for_mission = {
 	if = {
 		limit = {
-			any_province = {
-				$mission$_provinces = yes
+			$mission$_provinces = {
 				NOT = { is_core = ROOT }
 			}
 		}
 		custom_tooltip = $mission$_claims
 		hidden_effect = {
-			every_province = {
+			$mission$_provinces = {
 				limit = {
-					$mission$_provinces = yes
 					NOT = { is_core = ROOT }
 				}
 				add_core = ROOT
@@ -52,6 +47,28 @@ give_cores_for_mission = {
 	}
 }
 
+#Special case version of give_permaclaims_for_mission used in Russia's mission tree.
+give_russian_permaclaims_for_mission = {
+	if = {
+		limit = {
+			$mission$_provinces = {
+				NOT = { is_permanent_claim = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		custom_tooltip = $mission$_claims
+		hidden_effect = {
+			$mission$_provinces = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_russian_claim = ROOT
+			}
+		}
+	}
+	
+}
 bt_grand_trunk_road_mission_effect = { #This occurs in three mission trees: Bengal, Delhi and generic Indian. I figured I'd put it in a scripted effect to allow for easier additions in new trees and eventual modification.
 	custom_tooltip = dlh_grand_trunk_road.tooltip
 	hidden_effect = {

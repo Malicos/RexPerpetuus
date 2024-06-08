@@ -34,3 +34,9 @@ IST = {
     color2= { 240 190 40 }
     color3= { 180 36 36 }
 }
+# Salzburg
+SLZ = {
+    color1= { 65 100 125 }
+    color2= { 235 100 90 }
+    color3= { 240 240 240}
+}

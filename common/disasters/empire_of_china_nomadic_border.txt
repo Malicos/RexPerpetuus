@@ -115,10 +115,13 @@ empire_of_china_nomadic_border = {
 					}
 					total_own_and_non_tributary_subject_development = 500
 				}
-				ROOT = {
-					war_score_against = {
-						who = PREV
-						value = 25
+				custom_trigger_tooltip = {
+					tooltip = warscore_v_horde_25_tt
+					ROOT = {
+						war_score_against = {
+							who = PREV
+							value = 25
+						}
 					}
 				}
 			}
@@ -155,7 +158,7 @@ empire_of_china_nomadic_border = {
 	
 
 	modifier = {
-		imperial_mandate = -0.3
+		imperial_mandate = -0.5
 		reduced_liberty_desire = -25
 		land_morale = -0.15
 	}	
