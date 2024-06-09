@@ -5,6 +5,42 @@
 # -This file contains new reforms at the bottom.
 
 
+########################
+##### RP REFORMS #######
+########################
+
+gallwegian_republic = {
+	allow_normal_conversion = no
+	dictatorship = yes
+	lock_level_when_selected = yes
+	icon = "merchant_ship"
+	potential = {
+		has_reform = gallwegian_republic
+	}
+	valid_for_nation_designer = no
+
+	factions = {
+		gr_traders
+		gr_raiders
+	}
+
+	modifiers = {
+		global_sailors_modifier = 0.5
+		max_absolutism = 40
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = yes
+	}
+	has_term_election = no
+}
+
+########################
+#####  VANILLA  ########
+########################
+
 republic_mechanic = {
 	basic_reform = yes
 	republican_name = yes

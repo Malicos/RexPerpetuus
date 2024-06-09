@@ -7,6 +7,10 @@ country_decisions = {
 		potential = {
 			bt_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_great_britain_flag }
+			NOT = { tag = GBR }
+			NOT = { tag = AVE } #New in 1.35 because Angevin Empire
+			NOT = { exists = UNK } #BT Added: We don't want Great Britain to form when United Kingdom exists.
+			NOT = { has_country_flag = eng_took_ave_branch }
 			OR = {
 				tag = ENG
 				tag = SEX
@@ -30,18 +34,48 @@ country_decisions = {
 			num_of_owned_provinces_with = {
 				is_core = ROOT
 				region = british_isles_region
-				value = 63	#At least 3/4 of Britain's 84 provinces
+				value = 63	#At least 3/4 of Britain's 84 provinces ##OUTDATED##(Note England has 26 in 1444 with 7 more under subjects, so this is rather easy)##END OUTDATED##
 			}
 			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
 		}
 		effect = {
+			#Mission completions
+			hidden_effect = {
+				complete_mission = eng_rb_war_of_roses
+			}
+			hidden_effect = {
+				if = {
+					limit = { tag = SCO }
+					complete_mission = eng_mighty_army
+					complete_mission = conquer_scotland
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = { tag = IRE }			#sounds moot with BtP formables, but putting in 1.26 update just for the sake of it.
+					complete_mission = eng_mighty_army
+					complete_mission = conquer_scotland
+					complete_mission = conquer_ireland
+				}
+			}
+			#Country formation effects
 			change_tag = GBR
+			on_change_tag_effect = yes
+			restore_country_name = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			#Rank + prestige
 			if = {
 				limit = { NOT = { government_rank = 2 } }
 				set_government_rank = 2
 			}
+			add_prestige = 25
+			#Nation claims + Mission claims
 			british_isles_region = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
@@ -49,127 +83,37 @@ country_decisions = {
 				}
 				add_permanent_claim = GBR
 			}
-			add_prestige = 25
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			swap_ideas = yes
-			set_country_flag = formed_great_britain_flag
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 400
-	}
-###################################################################################################
-################################			England			 ##############################################
-###################################################################################################
-	english_nation = {
-		major = yes
-		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_england_flag }
-			NOT = { tag = ENG }
-			NOT = { tag = GBR }
-			OR = {
-				primary_culture = english
-				primary_culture = northumbrian
-				AND = {
-					primary_culture = anglo_irish
-					any_owned_province = { region = british_isles_region }
-				}
-			}
-		}
-		provinces_to_highlight = {
-			region = british_isles_region
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
-		}
-		allow = {
-			NOT = { exists = ENG }
-			is_at_war = no
-			is_free_or_tributary_trigger = yes
-			is_nomad = no
-			owns_core_province = 236		# London
-			owns_core_province = 234		# Wessex
-			num_of_owned_provinces_with = {
-				is_core = ROOT
-				region = british_isles_region
-				value = 37			#2/3 of England-Wales' 56 provinces
-			}
-			total_development = 200
-		}
-		effect = {
-			change_tag = ENG
-			remove_non_electors_emperors_from_empire_effect = yes
-			if = {
-				limit = { NOT = { government_rank = 2 } }
-				set_government_rank = 2
-			}
-			northern_england_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ENG
-			}
-			east_midlands_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ENG
-			}
-			east_anglia_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ENG
-			}
-			wessex_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ENG
-			}
-			home_counties_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ENG
-			}
-			yorkshire_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ENG
-			}
-			west_midlands_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ENG
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			add_prestige = 25
+			#Nation claims + Mission claims
 			if = {
 				limit = {
-					NOT = { has_idea_group = ENG_ideas }
+					mission_completed = conquer_scotland
+					has_dlc = "Rule Britannia"
+				}
+				give_permaclaims_for_mission = { mission=eng_rb_take_shetland_and_faro_isles }
+				iceland_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					mission_completed = eng_rb_spice_islands
+					has_dlc = "Rule Britannia"
+				}
+				give_permaclaims_for_mission = { mission=gbr_rb_india_landfall }
+			}
+			#Swap culture, government, government reform & ideas, plus set flag
+			if = {
+				limit = {
+					NOT = { has_idea_group = GBR_ideas }
 				}
 				swap_ideas = yes
 			}
-			set_country_flag = formed_england_flag
+			set_country_flag = formed_great_britain_flag
+			set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.
 		}
 		ai_will_do = {
 			factor = 1
