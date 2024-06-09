@@ -3,6 +3,7 @@ common/ages/00_default.txt
 common/estates/02_nobility.txt
 common/estates/03_burghers.txt
 common/estates/06_dhimmi.txt
+common/ideas/00_country_ideas.txt
 decisions/BritishNation.txt
 missions/DOM_Britain_Missions
 
