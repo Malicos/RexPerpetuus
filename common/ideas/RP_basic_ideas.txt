@@ -18,6 +18,7 @@ viking_ideas = {
 	}
 	viking3 = {
         loot_amount = 1
+        available_province_loot = 1
 	}
 	viking4 = {
 		range = 0.5
