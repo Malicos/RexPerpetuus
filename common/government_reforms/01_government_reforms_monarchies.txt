@@ -20,6 +20,34 @@ monarchy_mechanic = {
 	}
 }
 
+########################
+##### RP REFORMS #######
+########################
+
+nordic_monarchy = {
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	icon = "merchant_ship"
+	potential = {
+		has_reform = nordic_monarchy
+	}
+	valid_for_nation_designer = no
+
+	modifiers = {
+		max_absolutism = 20
+		war_taxes_cost_modifier = -0.5
+	}
+
+	custom_attributes = {
+		enables_aristocratic_idea_group = no
+		enables_viking_idea_group = yes
+	}
+}
+
+########################
+#####  VANILLA  ########
+########################
+
 #Feudalism vs Autocracy:
 
 feudalism_reform = {
