@@ -4,7 +4,7 @@
 owner = CAP
 controller = CAP
 add_core = CAP
-culture = cappadocian
+culture = cappadocian_greek
 religion = orthodox
 capital = "Aksaray"
 trade_goods = salt			#(JP) Lake Tuz 

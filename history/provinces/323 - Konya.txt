@@ -4,7 +4,7 @@
 owner = ACN
 controller = ACN
 add_core = ACN
-culture = cappadocian
+culture = cappadocian_greek
 religion = orthodox
 capital = "Konya"
 trade_goods = salt				#(JP) Lake Tuz

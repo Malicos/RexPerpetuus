@@ -9,7 +9,7 @@ owner = GLT
 controller = GLT
 
 #Demographics
-culture = cappadocian
+culture = cappadocian_greek
 religion = orthodox
 
 #Development and Trade

@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
-primary_culture = cappadocian
+primary_culture = cappadocian_greek
 religion = orthodox
 technology_group = rhomanian_tech
 capital = 324	# Laranda
@@ -16,6 +16,6 @@ fixed_capital = 324 # Cannot move capital away from this province & no power cos
 		mil = 1
 		birth_date = 1370.12.16
 		religion = orthodox
-		culture = cappadocian
+		culture = cappadocian_greek
 	}
 }

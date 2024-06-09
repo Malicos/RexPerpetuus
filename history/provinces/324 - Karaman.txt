@@ -4,7 +4,7 @@
 owner = LRD
 controller = LRD
 add_core = LRD
-culture = cappadocian
+culture = cappadocian_greek
 religion = orthodox
 capital = "Karaman"
 trade_goods = bt_trade_good_books			#(JP) Important religious and educational centre

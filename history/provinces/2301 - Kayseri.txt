@@ -2,7 +2,7 @@
 owner = CAP
 controller = CAP
 add_core = CAP
-culture = cappadocian
+culture = cappadocian_greek
 religion = orthodox
 capital = "Kayseri"
 is_city = yes
