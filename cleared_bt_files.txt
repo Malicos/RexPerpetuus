@@ -6,5 +6,5 @@ common/estates/06_dhimmi.txt
 decisions/BritishNation.txt
 missions/DOM_Britain_Missions
 
-FRESH UPTADE REQUIRED FOR:
+EDITED BT FILES THAT COULDN'T BE CLEARED
 common/government_reforms/02_government_reforms_republics (all RP added code is at the top)
