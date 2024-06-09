@@ -13,9 +13,9 @@ tags={
 	"Technologies"
 	"Trade"
 }
-name="Rex Perpetuus - Development"
+name="Rex Perpetuus: Heirs of the Last Viking - Development"
 replace_path="common/bookmarks"
 replace_path="history/diplomacy/"
 replace_path="history/wars/"
-supported_version="1.33.*"
-path="mod/RexPerpetuus"
+supported_version="1.37.*"
+path="/home/jahoda/.local/share/Paradox Interactive/Europa Universalis IV/mod/RexPerpetuus"
