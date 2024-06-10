@@ -4344,6 +4344,7 @@ estate_nobles_reformatio_sigismundi = {
 				has_owner_accepted_culture = no
 				culture_group = germanic
 			}
+			NOT = { culture_group = germanic } #BT Added: Otherwise Bohemia can cultureswitch to Germanic and enjoy bonuses in Germanic provinces. 
 		}
 	}
 	can_select = {

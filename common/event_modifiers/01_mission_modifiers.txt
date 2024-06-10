@@ -1238,13 +1238,16 @@ sca_hegemony_over_germany = {	#Permanent unless culture swap
 }
 
 #Province modifier
-sca_hegemony_over_germany_province = {	#Accepts non-accepted culture effect
-	local_unrest = -2
-	local_tax_modifier = 0.33
+sca_hegemony_over_germany_province = {	#Accepts non-accepted culture effect #BT Pasted from non_accepted_culture in 00_static_modifiers.
+	#monthly_persian_influence = 0.01 	#Probably not necessary here.
+	local_tax_modifier = 0.25			#BTAddOn changed from 0.33, comprehensively reducing culture penalties and increasing religious ones
 	local_missionary_strength = 0.02
-	local_manpower_modifier = 0.33
-	local_sailors_modifier = 0.2
-}
+	local_manpower_modifier = 0.25			#BTAddOn changed from 0.33, comprehensively reducing culture penalties and increasing religious ones
+	local_sailors_modifier = 0.25			#BTAddOn changed from 0.2, comprehensively reducing culture penalties and increasing religious ones
+	local_unrest = -2					#1% revolt risk!	
+	local_development_cost = -0.3
+	local_governing_cost = -0.3 #BTB added to incentivise accepting cultures/culture conversion
+} #BT Dev note: Cannot be arsed to make a special one for republics to not negate cultural sufferance. This is so breakable anyway.
 sca_hegemony_over_germany_province_same_culture = {	#Accepts non-accepted culture effect
 	local_tax_modifier = -0.15
 	local_manpower_modifier = -0.15
@@ -7021,13 +7024,16 @@ kon_south_african_hegemony = {	#Has also a province modifier for other culture p
 }
 
 #Province modifier
-kon_south_african_hegemony_province = {	#Accepts non-accepted culture effect
-	local_unrest = -2
-	local_tax_modifier = 0.33
+kon_south_african_hegemony_province = {	#Accepts non-accepted culture effect  #BT Pasted from non_accepted_culture in 00_static_modifiers.
+	#monthly_persian_influence = 0.01 	#Probably not necessary here.
+	local_tax_modifier = 0.25			#BTAddOn changed from 0.33, comprehensively reducing culture penalties and increasing religious ones
 	local_missionary_strength = 0.02
-	local_manpower_modifier = 0.33
-	local_sailors_modifier = 0.2
-}
+	local_manpower_modifier = 0.25			#BTAddOn changed from 0.33, comprehensively reducing culture penalties and increasing religious ones
+	local_sailors_modifier = 0.25			#BTAddOn changed from 0.2, comprehensively reducing culture penalties and increasing religious ones
+	local_unrest = -2					#1% revolt risk!	
+	local_development_cost = -0.3
+	local_governing_cost = -0.3 #BTB added to incentivise accepting cultures/culture conversion
+} #BT Dev note: Cannot be arsed to make a special one for republics to not negate cultural sufferance. This is so breakable anyway.
 
 #Country modifier
 kon_permanent_army_level_1 = {	#Permanent
@@ -11958,13 +11964,16 @@ hsn_overthrow_the_ottomans = {
 	war_exhaustion = -0.03
 }
 
-hsn_ayyubid_tolerance = {
-	local_unrest = -2
-	local_tax_modifier = 0.33
+hsn_ayyubid_tolerance = { #BT Pasted from non_accepted_culture in 00_static_modifiers.
+	#monthly_persian_influence = 0.01 	#Probably not necessary here.
+	local_tax_modifier = 0.25			#BTAddOn changed from 0.33, comprehensively reducing culture penalties and increasing religious ones
 	local_missionary_strength = 0.02
-	local_manpower_modifier = 0.33
-	local_sailors_modifier = 0.2
-}
+	local_manpower_modifier = 0.25			#BTAddOn changed from 0.33, comprehensively reducing culture penalties and increasing religious ones
+	local_sailors_modifier = 0.25			#BTAddOn changed from 0.2, comprehensively reducing culture penalties and increasing religious ones
+	local_unrest = -2					#1% revolt risk!	
+	local_development_cost = -0.3
+	local_governing_cost = -0.3 #BTB added to incentivise accepting cultures/culture conversion
+} #BT Dev note: Cannot be arsed to make a special one for republics to not negate cultural sufferance. This is so breakable anyway.
 
 hsn_anatolian_alliance = {
 	diplomatic_reputation = 1
@@ -13858,13 +13867,16 @@ boh_reformatio_sigismundi_hre = {
 	manpower_against_imperial_enemies = 0.2
 }
 
-boh_cultural_integration = {
-	local_unrest = -2
-	local_tax_modifier = 0.33
+boh_cultural_integration = { #BT Pasted from non_accepted_culture in 00_static_modifiers.
+	#monthly_persian_influence = 0.01 	#Probably not necessary here.
+	local_tax_modifier = 0.25			#BTAddOn changed from 0.33, comprehensively reducing culture penalties and increasing religious ones
 	local_missionary_strength = 0.02
-	local_manpower_modifier = 0.33
-	local_sailors_modifier = 0.2
-}
+	local_manpower_modifier = 0.25			#BTAddOn changed from 0.33, comprehensively reducing culture penalties and increasing religious ones
+	local_sailors_modifier = 0.25			#BTAddOn changed from 0.2, comprehensively reducing culture penalties and increasing religious ones
+	local_unrest = -2					#1% revolt risk!	
+	local_development_cost = -0.3
+	local_governing_cost = -0.3 #BTB added to incentivise accepting cultures/culture conversion
+} #BT Dev note: Cannot be arsed to make a special one for republics to not negate cultural sufferance. This is so breakable anyway.
 
 boh_balkan_subjugation = {
 	overextension_impact_modifier = -0.2

@@ -25,5 +25,7 @@
  kem_monumentality:0 "Restore the Ancient Monuments"
  kem_monumentality_desc:0 "The monuments of our forefathers still permeate the landscape we inhabit. To pay our respects, we shall restore them to their former glory, and build new monuments to show we have continued their legacy."
  
+ #Jackkade's mission tree updates
  ITA_spread_base_tax_and_base_production:0 "Distribute §G20§! Base Tax and §G20§! Base Production among our owned provinces."
  emp_ita_develop_the_south_tt:0 "At least 10 owned provinces in §YSouthern Italy§! must have at least §Y50§! development"
+ boh_bohemian_forest_area_religion_tt:0 "All provinces in §YBohemian Forest§! Area follow the §Y[Root.Religion.GetName]§! religion."
