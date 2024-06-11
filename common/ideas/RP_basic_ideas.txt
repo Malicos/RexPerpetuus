@@ -10,7 +10,7 @@ viking_ideas = {
 	}
 
 	viking1 = {
-        has_marines = yes
+        allowed_marine_fraction = 0.25
 		infantry_power = 0.10
 	}
 	viking2 = {
@@ -22,17 +22,17 @@ viking_ideas = {
 	}
 	viking4 = {
 		range = 0.5
-		global_colonial_growth = 30
+		global_colonial_growth = 20
 	}
 	viking5 = {
         country_military_power = 1
 	}
 	viking6 = {
-        siege_ability = 0.25
-		number_of_cannons_modifier = 0.25
+        siege_ability = 0.20
+		number_of_cannons_modifier = 0.20
 	}
 	viking7 = {
-		global_attacker_dice_roll_bonus = 2
+		global_attacker_dice_roll_bonus = 1
 	}
 
 
