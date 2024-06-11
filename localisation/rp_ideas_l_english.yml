@@ -8,6 +8,26 @@
  # (THIS FILE) rp_ideas - contains all national ideas
 
  #################################################################################
+ # Basic Ideas
+ #################################################################################
+
+ viking_ideas:0 "Viking Ideas"
+ viking1:0 "Raider Training"
+ viking1_desc:0 ""
+ viking2:0 "Quest for Vesperia"
+ viking2_desc:0 ""
+ viking3:0 "Organized Looting"
+ viking3_desc:0 ""
+ viking4:0 "Settlers of Vesperia"
+ viking4_desc:0 ""
+ viking5:0 "Culture of War"
+ viking5_desc:0 ""
+ viking6:0 "Superior Firepower"
+ viking6_desc:0 ""
+ viking7:0 "Berserker Offensive"
+ viking7_desc:0 ""
+
+ #################################################################################
  # National Ideas
  #################################################################################
 
@@ -98,3 +118,23 @@
  shq6_desc:0 ""
  shq7:0 "Shock Tactics"
  shq7_desc:0 ""
+
+ #################################################################################
+ # Policies
+ ##############################################################################
+
+ #Viking
+ policy_viking_innovativeness:0 "Multi-Purpose Canons"
+ policy_viking_religious:0 "Translation of Norse Myths"
+ policy_viking_economic:0 "Collective Ship Manufacturing"
+ policy_viking_expansion:0 "Adventurer Squads"
+ policy_viking_administrative:0 "Puppet Nobles"
+ policy_viking_humanist:0 "Circle of Elders"
+ policy_viking_infrastructure:0 "Interconnected Ports"
+ policy_viking_spy:0 "Pre-raid Intelligence"
+ policy_viking_diplomatic:0 "With Pen and Axe"
+ policy_viking_trade:0 "Shipwrights-Traders"
+ policy_viking_exploration:0 "Ocean Racing Competitions"
+ policy_viking_maritime:0 "Mass Raider Conscription"
+ policy_viking_influence:0 "Combined Navy"
+ policy_viking_court:0 "Undisputed Royal Authority"

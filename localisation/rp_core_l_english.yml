@@ -1432,12 +1432,18 @@
  CAPTAINATE:0 "Captainate"
  GRAND_CAPTAINATE:0 "Grand Captainate"
 
+ #NORDIC GOVERNMENTS
+ mechanic_enables_viking_idea_group_yes:0 "Allows Viking Idea Group"
+
+ nordic_monarchy:0 "Nordic Monarchy"
+ nordic_monarchy_desc:0 ""
+
  gallwegian_republic:0 "Gallwegian Republic"
  gallwegian_republic_desc:0 ""
- gr_traders:0 "The Traders"
+ gr_traders:0 "Traders"
  gr_traders_influence:0 "Traders' Influence"
- gr_traders_FACTION_DESC:0 "Those in favor of modern, market approach."
- gr_raiders:0 "The Raiders"
+ gr_traders_FACTION_DESC:0 "Those in favor of peaceful market approach."
+ gr_raiders:0 "Raiders"
  gr_raiders_influence:0 "Raiders' Influence"
  gr_raiders_FACTION_DESC:0 "Those in favor of the good old ways."
  
