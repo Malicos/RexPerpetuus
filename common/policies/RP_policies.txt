@@ -172,7 +172,7 @@ policy_viking_spy = {
 	}
 
 	loot_amount = 0.5
-	coast_raid_range = 0.5
+	coast_raid_range = 1
 
 	effect = {}
 	removed_effect = {}
