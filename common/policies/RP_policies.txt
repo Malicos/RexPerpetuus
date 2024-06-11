@@ -1,0 +1,328 @@
+policy_viking_innovativeness = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = innovativeness_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = innovativeness_ideas
+	}
+
+	backrow_artillery_damage = 0.15
+	own_coast_naval_combat_bonus = 1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_religious = { #For Valhalla!
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = religious_ideas
+	}
+	
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = religious_ideas
+	}
+	
+	warscore_cost_vs_other_religion = -0.05
+	morale_damage_received = -0.1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_economic = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = economic_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = economic_ideas
+	}
+
+	global_ship_cost = -0.1
+	artillery_cost = -0.1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_expansion = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = expansion_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = expansion_ideas
+	}
+
+	colony_development_boost = 1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_administrative = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = administrative_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = administrative_ideas
+	}
+
+	overextension_impact_modifier = -0.1
+	global_unrest = -1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_humanist = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = humanist_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = humanist_ideas
+	}
+
+	monarch_admin_power = 1
+	monarch_military_power = 1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_infrastructure = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = infrastructure_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = infrastructure_ideas
+	}
+
+	movement_speed = 0.10
+	movement_speed_in_fleet_modifier = 1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_spy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = spy_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = spy_ideas
+	}
+
+	loot_amount = 0.5
+	coast_raid_range = 0.5
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_diplomatic = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = diplomatic_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = diplomatic_ideas
+	}
+
+	unjustified_demands = -0.1
+	accept_vassalization_reasons = 10
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_trade = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = trade_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = trade_ideas
+	}
+
+	reduced_trade_penalty_on_non_main_tradenode = 0.5
+
+	effect = {
+		change_price = {
+			trade_goods = naval_supplies
+			key = viking_trade_price
+			value = 0.25
+			duration = -1
+		}
+	}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_exploration = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = exploration_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = exploration_ideas
+	}
+
+	max_admiral_maneuver = 6
+	leader_naval_manuever = 1
+
+	effect = {
+
+	}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_maritime = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = maritime_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = maritime_ideas
+	}
+
+	global_sailors_modifier = 0.9
+	allowed_marine_fraction = 0.1
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+policy_viking_influence = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = influence_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = influence_ideas
+	}
+
+	vassal_sailors_bonus = 0.25
+	vassal_naval_forcelimit_bonus = 0.25
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+policy_viking_court = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = viking_ideas
+		has_idea_group = court_ideas
+	}
+
+	allow = {
+		full_idea_group = viking_ideas
+		full_idea_group = court_ideas
+	}
+
+	discipline = 0.05
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+	}
+}
