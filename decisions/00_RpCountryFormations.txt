@@ -52,7 +52,7 @@ country_decisions = {
         ai_importance = 400 #
     }
 
-    scandinavian_nation = {
+    nordurica_nation = {
         major = yes
         potential = {
             normal_or_historical_nations = yes
@@ -133,7 +133,7 @@ country_decisions = {
                 limit = {
                     NOT = { has_idea_group = new_SCA_ideas }
                 }
-                swap_ideas = yes
+                #swap_ideas = yes
             }
         }
         ai_will_do = {

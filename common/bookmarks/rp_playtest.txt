@@ -12,7 +12,4 @@ bookmark = {
 	country = SHQ
 	
 	easy_country = NOR
-	easy_country = JRV
-	easy_country = CDB
-	easy_country = SHQ
 }

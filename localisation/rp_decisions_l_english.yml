@@ -2,6 +2,9 @@
  bretland_nation_title:0 "Form Bretland"
  bretland_nation_desc:0 " "
 
+ nordurica_nation_title:0 "Unite Nordurica"
+ nordurica_nation_desc:0 ""
+
  CDB_decision_revoke_nobles_title:0 "Abandon our Defensive Mindset"
  CDB_decision_revoke_nobles_desc:0 ""
  CDB_decision_revoke_burghers_title:0 "Ban Interreligious Trade"

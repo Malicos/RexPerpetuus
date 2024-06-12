@@ -90,7 +90,7 @@ NOR_ideas = {
 	}
 
 	bonus = {
-		country_military_power = 1
+		governing_capacity = 300
 	}
 
 	trigger = {
@@ -99,8 +99,8 @@ NOR_ideas = {
 	free = yes
 
 	nor1 = {
-		prestige_from_naval = 1
-		siege_blockade_progress = 2
+		military_tactics = 0.25
+		core_creation = -0.1
 	}
 	nor2 = {
 		range = 0.333
@@ -108,7 +108,7 @@ NOR_ideas = {
 	}
 	nor3 = {
 		diplomatic_upkeep = 2
-		reduced_liberty_desire_on_same_continent = 20
+		reduced_liberty_desire = 20
 	}
 	nor4 = {
 		infantry_power = 0.1
@@ -122,8 +122,7 @@ NOR_ideas = {
 		discipline = 0.05
 	}
 	nor7 = {
-		free_adm_policy = 1
-		possible_adm_policy = 1
+		global_trade_goods_size_modifier = 0.15
 	}
 }
 
