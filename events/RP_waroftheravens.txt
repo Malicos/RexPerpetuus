@@ -9,10 +9,6 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-        add_country_modifier = {
-            name = ravens_debuff_01
-            duration = -1
-        }
         set_global_flag = had_ravens
 	}
 
@@ -28,12 +24,133 @@ country_event = {
             age = 43
             claim = 95
         }
-        add_ruler_personality = just_personality
-        add_ruler_personality = well_connected_personality
-        add_ruler_personality = incorruptible_personality
 
         hidden_effect = {
+            override_country_name = blaramnar
+            add_ruler_personality = just_personality
+            add_ruler_personality = well_connected_personality
+            add_ruler_personality = incorruptible_personality
             kill_heir = { allow_new_heir = no }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                cavalry = NCW
+                cavalry = NCW
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
             random_owned_province = {
                 limit = {
                     region = nordurica_region
@@ -45,129 +162,10 @@ country_event = {
                 cede_province = NCW
                 add_core = NCW
                 remove_core = ROOT
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                cavalry = NCW
-                cavalry = NCW
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
             }
 
             NCW = {
-                override_country_name = "Kvitramnar"
+                override_country_name = kvitramnar
                 add_country_modifier = {
                     name = raven_buff
                     duration = -1
@@ -206,11 +204,133 @@ country_event = {
             age = 27
             claim = 25
         }
-        add_ruler_personality = intricate_web_weaver_personality
-        add_ruler_personality = charismatic_negotiator_personality
-        add_ruler_personality = bold_fighter_personality
+
         hidden_effect = {
+            override_country_name = kvitramnar
+            add_ruler_personality = intricate_web_weaver_personality
+            add_ruler_personality = charismatic_negotiator_personality
+            add_ruler_personality = bold_fighter_personality
             kill_heir = { allow_new_heir = no }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                infantry = NCW
+                cavalry = NCW
+                cavalry = NCW
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
+            random_owned_province = {
+                limit = {
+                    region = nordurica_region
+                    is_capital = no
+                    is_island = no
+                    NOT = { area = subarctic_islands_area }
+                }
+                cede_province = NCW
+                add_core = NCW
+                remove_core = ROOT
+            }
+
             random_owned_province = {
                 limit = {
                     region = nordurica_region
@@ -222,129 +342,10 @@ country_event = {
                 cede_province = NCW
                 add_core = NCW
                 remove_core = ROOT
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                infantry = NCW
-                cavalry = NCW
-                cavalry = NCW
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
-            }
-
-            random_owned_province = {
-                limit = {
-                    region = nordurica_region
-                    is_capital = no
-                    is_island = no
-                    NOT = { area = subarctic_islands_area }
-                }
-                cede_province = NCW
-                add_core = NCW
-                remove_core = ROOT
             }
 
             NCW = {
-                override_country_name = "Blaramnar"
+                override_country_name = blaramnar
                 add_country_modifier = {
                     name = raven_buff
                     duration = -1
@@ -406,6 +407,8 @@ country_event = {
                 remove_core = NCW
             }
 		}
+
+		restore_country_name = yes
     }
 }
 
@@ -417,9 +420,9 @@ country_event = {
 	picture = RAMADAN_eventPicture
 
 	trigger = {
-        has_global_flag = started_ravens
         has_disaster = war_of_the_ravens
-        NOT = { war_with = NCW }
+        NOT = { has_country_modifier = wor_capital_sieged }
+        NOT = { capital_scope = { controlled_by = ROOT } }
 	}
 
 	mean_time_to_happen = {
@@ -428,28 +431,28 @@ country_event = {
 
     immediate = {
         hidden_effect = {
-            switch_tag = JUT
+            if = {
+                limit = { JUT = { is_subject_of = ROOT } }
+                switch_tag = JUT
+            }
+            else = {
+                switch_tag = SVB
+            }
+            NCW = {
+                country_event = { id = waroftheravens.6 }
+            }
         }
     }
 
 	option = {
 		name = waroftheravens.3.a
-        switch_tag = JUT
-        hidden_effect = {
-            NCW = {
-                add_country_modifier = {
-                    name = war_of_the_ravens_victors
-                    duration = -1
-                }
-            }
-            NOR = {
-                every_owned_province = {
-                    cede_province = NCW
-                    add_core = NCW
-                    remove_core = NOR
-                }
-            }
-        }
+		trigger = { tag = JUT }
+        custom_tooltip = wor_jutland_tooltip
+    }
+    option = {
+		name = waroftheravens.3.b
+		trigger = { tag = SVB }
+        custom_tooltip = wor_svalbard_tooltip
     }
 }
 
@@ -483,6 +486,26 @@ country_event = {
             cede_province = NCW
             add_core = NCW
             remove_core = ROOT
+        }
+    }
+
+    option = {
+		name = waroftheravens.4.a
+		trigger = {
+            NOT = { has_country_modifier = ravens_debuff_01 }
+            NOT = { has_country_modifier = ravens_debuff_02 }
+            NOT = { has_country_modifier = ravens_debuff_03 }
+            NOT = { has_country_modifier = ravens_debuff_04 }
+            NOT = { has_country_modifier = ravens_debuff_05 }
+            NOT = { has_country_modifier = ravens_debuff_06 }
+            NOT = { has_country_modifier = ravens_debuff_07 }
+            NOT = { has_country_modifier = ravens_debuff_08 }
+            NOT = { has_country_modifier = ravens_debuff_09 }
+            NOT = { has_country_modifier = ravens_debuff_10 }
+        }
+        add_country_modifier = {
+            name = ravens_debuff_01
+            duration = -1
         }
     }
 
@@ -603,3 +626,42 @@ country_event = {
     }
 }
 
+country_event = {
+	id = waroftheravens.5
+	title = waroftheravens.5.t
+	desc = waroftheravens.5.d
+	picture = RAMADAN_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = waroftheravens.5.a
+		custom_tooltip = tooltip_wor_lost_capital
+    }
+}
+
+country_event = {
+	id = waroftheravens.6
+	title = waroftheravens.6.t
+	desc = waroftheravens.6.d
+	picture = RAMADAN_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = waroftheravens.6.a
+		NCW = {
+                add_country_modifier = {
+                    name = war_of_the_ravens_victors
+                    duration = -1
+                }
+            }
+        NOR = {
+            every_owned_province = {
+                cede_province = NCW
+                add_core = NCW
+                remove_core = NOR
+            }
+        }
+    }
+}

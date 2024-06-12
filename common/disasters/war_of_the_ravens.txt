@@ -13,20 +13,35 @@ war_of_the_ravens = {
     }
 
     can_stop = {
-        is_year = 1500
+        NOT = { dynasty = "Hardrada" }
     }
 
     can_end = {
-        war_score_against = {
-            who = NCW
-            value = 100
+        OR = {
+            war_score_against = {
+                who = NCW
+                value = 100
+            }
+            NOT = { exists = NCW }
         }
     }
 
     progress = {
         modifier = {
-            factor = 50
-            exists = ROOT
+            factor = 20
+            NOT = { adm = 1 }
+        }
+        modifier = {
+            factor = 20
+            NOT = { mil = 1 }
+        }
+        modifier = {
+            factor = 20
+            NOT = { mil = 1 }
+        }
+        modifier = {
+            factor = 100
+            has_regency = yes
         }
     }
 

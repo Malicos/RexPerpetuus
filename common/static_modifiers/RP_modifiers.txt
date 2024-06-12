@@ -33,6 +33,8 @@ raider_fleet = {
 #                       NORWAY
 ############################################################
 #WOR STUFF
+wor_capital_sieged = {  }
+
 raven_buff = {
     land_forcelimit = 15
     land_maintenance_modifier = -0.8

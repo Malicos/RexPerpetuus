@@ -223,6 +223,11 @@
  #################################################################################
  # 3 - Tags
  #################################################################################
+ #Cosmetic Names
+ kvitramnar:0 "Kvitramnar"
+ kvitramnar_ADJ:0 "White Ravens'"
+ blaramnar:0 "Blåramnar"
+ blaramnar_ADJ:0 "Blue Ravens'"
  # Western Europe
  ABO:0 "Abo"
  ABO_ADJ:0 "Abonian"

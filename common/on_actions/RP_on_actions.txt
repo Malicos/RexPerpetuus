@@ -1,0 +1,25 @@
+on_siege_lost_country = {
+	if = {
+		limit = {
+			has_disaster = war_of_the_ravens
+			from = { is_capital = yes }
+			from = { controlled_by = NCW }
+		}
+		add_country_modifier = {
+			name = wor_capital_sieged
+			duration = 365
+			hidden = yes
+		}
+		country_event = { id = waroftheravens.5 }
+	}
+}
+
+on_siege_won_country = {
+	if = {
+		limit = {
+			has_country_modifier = wor_capital_sieged
+			from = { is_capital_of = ROOT }
+		}
+		remove_country_modifier = wor_capital_sieged
+	}
+}

@@ -68,17 +68,25 @@
  waroftheravens.1.b:0 "Halvard Hjerne will lead us to greatness."
 
  waroftheravens.2.t:0 "Pretender Defeated"
- waroftheravens.2.d:0 ""
+ waroftheravens.2.d:0 "Finally, we've managed to completely crush the opposition. Norway stands united again, and with her new dynasty she shall rule the northern seas again."
  waroftheravens.2.a:0 "A new era of Norway's greatness awaits."
 
- waroftheravens.3.t:0 "Failed to crush the pretender"
- waroftheravens.3.d:0 ""
- waroftheravens.3.a:0 "At least Jutland remained loyal"
+ waroftheravens.3.t:0 "War of the Ravens Lost"
+ waroftheravens.3.d:0 "After a long struggle, we've lost Norway to the pretender. Our ruler died proudly on the battlefield, However, with God's protection, we've managed to get the rest of the royal family on a boat and escape the traitor's forces."
+ waroftheravens.3.a:0 "At least Jutland has remained loyal"
+ wor_jutland_tooltip:0 "Our dynasty will continue to rule from Jutland"
+ waroftheravens.3.b:0 "Wherever the winds take us"
+ wor_svalbard_tooltip:0 "The winds led us north all the way up to the arctic island of Svalbard"
 
  waroftheravens.4.t:0 "More provinces join the revolt"
- waroftheravens.4.d:0 ""
+ waroftheravens.4.d:0 "The longer the civil war continues, the more authority we lose, and the weaker we are perceived."
  waroftheravens.4.a:0 "We must end this soon."
  waroftheravens.4.b:0 "We are doomed!"
+
+ waroftheravens.5.t:0 "Capital Lost"
+ waroftheravens.5.d:0 "Our Capital has gotten into the hands of the pretender. We've started to lose our ability to manage the country."
+ waroftheravens.5.a:0 "Damn them!"
+ tooltip_wor_lost_capital:0 "You have ONE YEAR to regain control of the capital, otherwise you'll lose control over the country."
 
  sharq.1.t:0 "Fighting Spirit"
  sharq.1.d:0 ""
