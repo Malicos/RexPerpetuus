@@ -3,63 +3,11 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new groups or ideas, make sure they are unique.
 
-# Jorvik/Danelaw/Bretland
-lvl1_denlegian_ideas = {
-	start = { naval_forcelimit = 15 global_ship_recruit_speed = -0.333 }
-	
-	bonus = { discipline = 0.025 }
-	
-	trigger = {
-		tag = JRV
-	}
-	
-	free = yes	# Will be added at load
-	
-	jrv1 = { rival_border_fort_maintenance = -0.25 }
-
-	jrv2 = { global_ship_trade_power = 0.125 }
-	
-	jrv3 = { monarch_lifespan = 0.2 monarch_admin_power = 2 }
-	
-	jrv4 = { movement_speed = 0.2 movement_speed_onto_off_boat_modifier = 0.25 }
-	
-	jrv5 = { movement_speed_in_fleet_modifier = 2 }
-	
-	jrv6 = { infantry_power = 0.05 }
-	
-	jrv7 = { administrative_efficiency = 0.025 }
-}
-
-lvl2_denlegian_ideas = {
+#Bretland
+BRL_ideas = {
 	start = { naval_forcelimit = 15 global_ship_recruit_speed = -0.333 }
 
-	bonus = { discipline = 0.05 }
-
-	trigger = {
-		tag = DNL
-	}
-
-	free = yes	# Will be added at load
-
-	2jrv1 = { rival_border_fort_maintenance = -0.5 }
-
-	2jrv2 = { global_ship_trade_power = 0.25 }
-
-	2jrv3 = { monarch_lifespan = 0.35 monarch_admin_power = 2 monarch_diplomatic_power = 2 }
-
-	2jrv4 = { movement_speed = 0.3 movement_speed_onto_off_boat_modifier = 0.5 }
-
-	2jrv5 = { movement_speed_in_fleet_modifier = 5 }
-
-	2jrv6 = { infantry_power = 0.10 }
-
-	2jrv7 = { administrative_efficiency = 0.05 }
-}
-
-lvl3_denlegian_ideas = {
-	start = { naval_forcelimit = 15 global_ship_recruit_speed = -0.333 }
-
-	bonus = { discipline = 0.1 }
+	bonus = {  }
 
 	trigger = {
 		tag = BRL
@@ -67,19 +15,49 @@ lvl3_denlegian_ideas = {
 
 	free = yes	# Will be added at load
 
-	3jrv1 = { fort_maintenance_modifier = -0.5 }
+	brl1 = {  }
 
-	3jrv2 = { global_ship_trade_power = 0.5 }
+	brl2 = {  }
 
-	3jrv3 = { monarch_lifespan = 0.5 monarch_admin_power = 2 monarch_diplomatic_power = 2 monarch_military_power = 2 }
+	brl3 = {  }
 
-	3jrv4 = { movement_speed = 0.4 movement_speed_onto_off_boat_modifier = 1 }
+	brl4 = {  }
 
-	3jrv5 = { movement_speed_in_fleet_modifier = 8 }
+	brl5 = {  }
 
-	3jrv6 = { infantry_power = 0.15 }
+	brl6 = {  }
 
-	3jrv7 = { administrative_efficiency = 0.1 }
+	brl7 = {  }
+}
+
+# Jorvik/Danelaw
+JRV_ideas = {
+	start = { naval_maintenance_modifier = -0.3 global_ship_recruit_speed = -0.3 }
+	
+	bonus = { admiral_cost = -0.5 }
+	
+	trigger = {
+		OR = {
+			tag = JRV
+			tag = DNL
+		}
+	}
+	
+	free = yes	# Will be added at load
+	
+	jrv1 = { naval_forcelimit = 20 }
+
+	jrv2 = { land_morale = 0.15 naval_morale = 0.15 }
+	
+	jrv3 = { development_cost = -0.1 available_province_loot = 0.5 }
+	
+	jrv4 = { infantry_power = 0.15 }
+	
+	jrv5 = { movement_speed_in_fleet_modifier = 3 }
+	
+	jrv6 = { global_unrest = -2 }
+	
+	jrv7 = { coast_raid_range = 3 }
 }
 
 #Norway
