@@ -809,7 +809,7 @@ french_english_reconciliation_act = {
 			FRA = { is_subject_of = ROOT }
 			development_in_provinces = {
 				culture_group = french
-				value = 200
+				value = 600 #BT - logic behind x3 is because English dev was shuffled into France, so France is richer as a region in BT; 200
 			}
 		}
 	}
