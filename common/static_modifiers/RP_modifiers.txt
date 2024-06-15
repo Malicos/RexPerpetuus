@@ -27,6 +27,7 @@ reintegration_of_south = {
 
 raider_fleet = {
     may_perform_slave_raid_on_same_religion = yes
+    coast_raid_range = 1
 }
 
 ############################################################
@@ -157,8 +158,8 @@ the_only_emperor = {
 }
 
 integrating_finland = {
-    core_creation = -0.25
-    culture_conversion_cost = -0.25
+    core_creation = -0.2
+    culture_conversion_cost = -0.2
 }
 
 baltic_domination = {
