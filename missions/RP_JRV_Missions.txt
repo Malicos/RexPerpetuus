@@ -1,0 +1,199 @@
+bernicia_branch = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = JRV
+	}
+
+	integrate_bernicia = {
+		icon = mission_assemble_an_army
+		position = 1
+		provinces_to_highlight = {
+			area = northern_england_area
+			OR = {
+				has_province_modifier = bernician_autonomy
+				has_province_modifier = shrinking_bernician_autonomy
+				NOT = { is_state_core = ROOT }
+
+			}
+		}
+
+		trigger = {
+			NOT = { has_disaster = bernician_insurgence }
+			246 = {
+				all_province_in_state = {
+					is_state_core = ROOT
+					NOT = { has_province_modifier = bernician_autonomy }
+					NOT = { has_province_modifier = shrinking_bernician_autonomy }
+				}
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = feared_ruler
+				duration = -1
+			}
+			add_country_modifier = {
+				name = fixing_state
+				duration = 7300
+			}
+		}
+	}
+}
+
+mercia_branch = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = JRV
+	}
+
+	recover_lost_provinces = {
+		icon = unite_the_realm
+		position = 1
+		provinces_to_highlight = {
+			culture = denlegian
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			owns_all_provinces = {
+				culture = denlegian
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = reintegration_of_south
+				duration = -1
+			}
+			244 = {
+				add_permanent_claim = ROOT
+			}
+
+		}
+	}
+}
+
+denmark_branch = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = JRV
+	}
+
+	the_other_danes = {
+		icon = catholic_confraternity
+		position = 1
+		provinces_to_highlight = {  }
+
+		trigger = {
+			OR = {
+				is_rival = DAN
+				alliance_with = DAN
+				overlord_of = DAN
+				NOT = { exists = DAN }
+			}
+		}
+
+		effect = { add_dip_power = 50 }
+	}
+
+	restore_danelaw = {
+		icon = mission_enforce_danelaw
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				area = northern_england_area
+				area = jorvik_area
+				area = east_anglia_area
+				province_id = 244
+				province_id = 243
+				province_id = 8131
+			}
+			NOT = { owned_by = ROOT }
+		}
+		required_missions = {
+			integrate_bernicia
+			recover_lost_provinces
+			the_other_danes
+			dnl_raider_fleet
+			danelaw_history
+		}
+
+		trigger = {
+			owns_all_provinces = {
+				area = northern_england_area
+			}
+			owns_all_provinces = {
+				area = jorvik_area
+			}
+			owns_all_provinces = {
+				area = east_anglia_area
+			}
+			owns = 244
+			owns = 243
+			owns = 8131
+
+		}
+
+		effect = {
+			change_tag = DNL
+			swap_non_generic_missions = yes
+		}
+	}
+}
+
+fleet_branch = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = JRV
+	}
+
+	dnl_raider_fleet = {
+		icon = mission_launch_a_flagship
+		position = 1
+		provinces_to_highlight = {  }
+
+		trigger = { num_ships_privateering = 10 }
+
+		effect = {
+			add_country_modifier = {
+				name = raider_fleet
+				duration = -1
+			}
+		}
+	}
+}
+
+renaissance_branch = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = JRV
+	}
+
+	danelaw_history = {
+		icon = continue_the_renaissance
+		position = 1
+		provinces_to_highlight = {  }
+
+		trigger = {
+			has_institution = renaissance
+		}
+
+		effect = { add_adm_power = 50 }
+	}
+}
