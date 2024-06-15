@@ -386,8 +386,29 @@
  trade_company_east_africa:0 "East Ethiopian Charter"
  trade_company_south_africa:0 "South Ethiopian Charter"
  
- 
- 
+ # Colonial Regions
+ colonial_canada:0 "Colonial Markland"
+ colonial_eastern_america:0 "Colonial Batavia"
+ colonial_louisiana:0 "Colonial Malbanchia"
+ colonial_california:0 "Colonial Westernesse"
+ colonial_mexico:0 "Colonial Aztlan"
+ colonial_the_carribean:0 "Colonial Fortunate Isles"
+ colonial_colombia:0 "Colonial Almere"
+ colonial_peru:0 "Colonial Ethelland"
+ colonial_la_plata:0 "Colonial Avalon"
+ colonial_brazil:0 "Colonial Maragnan"
+ colonial_australia:0 "Colonial Eastern Java-la-Grande"
+ short_colonial_canada:0 "Markland"
+ short_colonial_eastern_america:0 "Batavia"
+ short_colonial_louisiana:0 "Malbanchia"
+ short_colonial_california:0 "Westernesse"
+ short_colonial_mexico:0 "Aztlan"
+ short_colonial_the_carribean:0 "Fortunate Isles"
+ short_colonial_colombia:0 "Almere"
+ short_colonial_peru:0 "Ethelland"
+ short_colonial_la_plata:0 "Avalon"
+ short_colonial_brazil:0 "Maragnan"
+ short_colonial_australia: "Eastern Java-la-Grande"
  
  
  

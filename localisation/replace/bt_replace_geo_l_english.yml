@@ -1996,7 +1996,7 @@
  australia:0 "Northern Australia"
  
  #Colonial Regions
- colonial_australia:0 "Colonial Eastern Australia"
+ #colonial_australia:0 "Colonial Eastern Australia" # RP MODIFIED
  COLONIAL_AUSTRALIA_Australia:0 "New South Wales"
  COLONIAL_AUSTRALIA_Root_Culture_GetName_Australia:0 "[Root.GetAdjective] Eastern Australia"
  COLONIAL_AUSTRALIA_Root_Culture_GetName_Australia_ADJ:0 "[Root.GetAdjective] Eastern Australian"

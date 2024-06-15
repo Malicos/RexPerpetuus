@@ -1083,18 +1083,18 @@
  chp_wine_desc:0 "Produced since the 7th century in the region, wines of Champagne really started to receive recognition during the 17th century under the impulse of local Parisian families. Aging very badly in barrels, the wine is then conserved in glass bottles with corks, a new way of conserving wine developed by the English, but it becomes, in return, naturally sparkling. This sparkling character causes many worries to winemakers, so much that it was nicknames 'wine of the devil' because of bottles that exploded under pressure. However, the wine became popular in England which allows its continued production. We should exploit the wine of Champagne to establish amical relations with foreign powers."
  cinque_ports_modifier:0 "Cinque Ports"
  clyde_estuary_modifier:0 "Clyde Estuary"
- colonial_acadia:0 "Colonial Acadia"
- colonial_bahamas:0 "Colonial Bahamas"
- colonial_cape:0 "Colonial Cape"
- colonial_cascadia:0 "Colonial Cascadia"
- colonial_cuba:0 "Colonial Cuba"
- colonial_florida:0 "Colonial Florida"
- colonial_greenland:0 "Colonial Greenland"
- colonial_hispaniola:0 "Colonial Hispaniola"
- colonial_hudson_bay:0 "Colonial Hudson Bay"
- colonial_newfoundland:0 "Colonial Newfoundland"
- colonial_northwest_territories:0 "Colonial Northwest Territories"
- colonial_polynesia:0 "Colonial Polynesia"
+ #colonial_acadia:0 "Colonial Acadia" # RP MODIFIED
+ #colonial_bahamas:0 "Colonial Bahamas" # RP MODIFIED
+ #colonial_cape:0 "Colonial Cape" # RP MODIFIED
+ #colonial_cascadia:0 "Colonial Cascadia" # RP MODIFIED
+ #colonial_cuba:0 "Colonial Cuba" # RP MODIFIED
+ #colonial_florida:0 "Colonial Florida" # RP MODIFIED
+ #colonial_greenland:0 "Colonial Greenland" # RP MODIFIED
+ #colonial_hispaniola:0 "Colonial Hispaniola" # RP MODIFIED
+ #colonial_hudson_bay:0 "Colonial Hudson Bay" # RP MODIFIED
+ #colonial_newfoundland:0 "Colonial Newfoundland" # RP MODIFIED
+ #colonial_northwest_territories:0 "Colonial Northwest Territories" # RP MODIFIED
+ #colonial_polynesia:0 "Colonial Polynesia" # RP MODIFIED
  colorado_estuary_modifier:0 "Colorado Estuary"
  columbia:0 "Columbia"
  copper_river_estuary_modifier:0 "Copper River Estuary"

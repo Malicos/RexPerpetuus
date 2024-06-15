@@ -1,0 +1,73 @@
+# Eastern Elysia
+colonial_eastern_elysia = {
+	color = { 31 122 31 }
+
+	provinces = {
+		750 751 752 753 754 755 756 757 759 760 2885 2886 2891 2898 2912 2913 2914 2915 2916 2917 2918 2921 2922 2925 
+		761 762 763 764 765 766 768 769 776 2881 2892 2893 2894 2895 2896 2897 2899 2903 2906 2907 2919 2920
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_EASTERN_ELYSIA_Eastern_Elysia"
+	}
+}
+
+# Gigantia
+colonial_gigantia = {
+	color = { 163 194 194 }
+
+	provinces = {
+		780 781 782 783 784 785 787 792 2841 2862 2868 2869 2870 2871 2873 2874 2875 2876
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_GIGANTIA_Gigantia"
+	}
+}
+
+# Guaimura
+colonial_guaimura = {
+	color = { 150 90 170 }
+
+	provinces = {
+		835 836 838 837 839 840 841 842 843 845 846 2002 2632 2633 2634 2635 2636 2637 2638 2640 2649 2650 2651 2652 2653 2660 2661 2662 2663 2664 2819 4585 4586 4587 4588 4589 4590 4591 4592 4593 4594 4595 4597
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_GUAIMURA_Guaimura"
+	}
+}
+
+# Merovingia
+colonial_merovingia = {
+	color = { 32 144 204 }
+
+	provinces = {
+		918 919 920 921 922 923 924 925 926 927 928 929 930 931 932 933 934 935 939 940 941 2526 2527 2528 2529 2530 2531 2532 2533 2534 2535 2536 2537 2538 2539 2540 2541 2542 2543 4625 4626 4879 4880 4881 4882 4883 4884 4887 4888 4913 4921
+	}
+
+	# Specific
+
+	# Generic
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+	names = {
+		name = "COLONIAL_MEROVINGIA_Merovingia"
+	}
+}
