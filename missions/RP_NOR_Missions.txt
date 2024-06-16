@@ -786,7 +786,7 @@ naval_branch = {
 	}
 }
 
-colonial_branch = {
+NOR_D = {
 	slot = 4
 	generic = no
 	ai = yes
