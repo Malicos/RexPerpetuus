@@ -2,10 +2,9 @@
 #Region - France
 #Area - Massif Central
 
-owner = AMG
-controller = AMG
-add_core = AMG
-add_core = BOU
+owner = TOU
+controller = TOU
+add_core = TOU
 capital = "Aurillac"
 is_city = yes
 culture = auvergnat_culture
