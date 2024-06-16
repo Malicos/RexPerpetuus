@@ -3768,9 +3768,6 @@ east_slavic = {
 	halych = { #RP Culture Halych/Galician
 		primary = VOL
 	}
-	litvin = { #RP Culture Rusified Lithuanians
-	
-	}
 	matregan = { #RP Culture Old Rus' Colony
 	}
 	dynasty_names = {
