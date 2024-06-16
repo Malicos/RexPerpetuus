@@ -1,7 +1,7 @@
 
-owner = KRT
-controller = KRT
-add_core = KRT
+owner = KRE
+controller = KRE
+add_core = KRE
 culture = keraite
 religion = nestorian
 capital = "Urad"

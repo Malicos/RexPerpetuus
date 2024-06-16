@@ -1,8 +1,8 @@
 #698 - Guyuan
 
-owner = KRT
-controller = KRT
-add_core = KRT
+owner = KRE
+controller = KRE
+add_core = KRE
 add_core = CSH
 culture = keraite
 religion = nestorian
