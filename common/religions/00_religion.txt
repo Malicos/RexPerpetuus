@@ -2980,6 +2980,25 @@ pagan = {
 		
 		heretic = { MANDE_HERETIC }
 	}
+	
+	# RP Added
+	baltic_pagan_reformed = {
+		icon = 53
+		color = { 153 102 76 }
+		country = {
+			fort_maintenance_modifier = -0.1
+			tolerance_own = 1
+		}
+		province = {
+			local_defensiveness = 0.1
+			local_missionary_strength = -0.02
+		}
+		country_as_secondary = {
+			fort_maintenance_modifier = -0.1
+			shock_damage_received = -0.1
+		}
+		heretic = { OLD_ROMUVA }	
+	}
 
 	# Added in BT 16.0	
 	waaq = { #Au Waaq
