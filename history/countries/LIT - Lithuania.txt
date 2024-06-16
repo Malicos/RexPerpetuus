@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = litvin
-add_accepted_culture = lithuanian
+primary_culture = lithuanian
+add_accepted_culture = samogitian
 religion = orthodox
 technology_group = eastern
 capital = 272 # Vilnius
