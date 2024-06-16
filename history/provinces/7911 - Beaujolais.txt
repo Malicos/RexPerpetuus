@@ -1,8 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = LNS
-controller = LNS
-add_core = LNS
+owner = LYS
+controller = LYS
+add_core = LYS
 culture = burgundian
 religion = catholic
 capital = "Beaujeu"
