@@ -5,8 +5,8 @@
 #Core Details
 capital = "Tskhinvali"
 is_city = yes
-owner = KRT
-controller = KRT
+owner = GEO
+controller = GEO
 
 #Demographics
 culture = georgian
@@ -19,8 +19,8 @@ base_manpower = 2
 trade_goods = grain #Based off of TG research in main mod folder. //Dub
 
 #Cores and Occupation (Alphabetical after current)
+add_core = GEO
 add_core = KRT
-#add_core = GEO
 
 #Other Political
 hre = no

@@ -5,11 +5,11 @@
 #Core Details
 capital = "Vasakashen"
 is_city = yes
-owner = QAR
-controller = QAR
+owner = ARM
+controller = ARM
 
 #Demographics
-culture = armenian
+culture = yeravani
 religion = apostolic
 
 #Development and Trade
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = fish #Location has arable lands, cattle farming, as well as some amount of fishing around the lake.
 
 #Cores and Occupation (Alphabetical after current)
-add_core = QAR
 add_core = ARM
 add_core = ERV
 

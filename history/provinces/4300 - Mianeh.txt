@@ -1,8 +1,8 @@
 #2212 - Mianeh
 
-owner = TAL
-controller = TAL
-add_core = TAL
+owner = ISP
+controller = ISP
+add_core = ISP
 culture = talysh
 religion = shiite
 capital = "Mianeh"

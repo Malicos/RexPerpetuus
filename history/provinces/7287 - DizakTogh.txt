@@ -5,11 +5,11 @@
 #Core Details
 capital = "Togh"
 is_city = yes
-owner = MLK
-controller = MLK
+owner = ARM
+controller = ARM
 
 #Demographics
-culture = armenian
+culture = yeravani
 religion = apostolic
 
 #Development and Trade
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = livestock #Agricultural/Pastorial economy
 
 #Cores and Occupation (Alphabetical after current)
+add_core = ARM
 add_core = MLK
 
 #Other Political

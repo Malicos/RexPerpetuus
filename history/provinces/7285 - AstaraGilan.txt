@@ -10,7 +10,7 @@ controller = ISP
 
 #Demographics
 culture = talysh
-religion = sunni
+religion = shiite
 
 #Development and Trade
 base_tax = 4

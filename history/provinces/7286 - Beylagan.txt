@@ -5,12 +5,12 @@
 #Core Details
 capital = "Beylagan"
 is_city = yes
-owner = QAR
-controller = QAR
+owner = SRV
+controller = SRV
 
 #Demographics
-culture = azerbaijani
-religion = sunni
+culture = shirvani
+religion = shiite
 
 #Development and Trade
 base_tax = 2
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = cotton #Agricultural/cotton economy.
 
 #Cores and Occupation (Alphabetical after current)
-add_core = QAR
+add_core = SRV
 add_core = KBK
 
 #Other Political

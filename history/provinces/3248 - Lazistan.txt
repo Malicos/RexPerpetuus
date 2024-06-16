@@ -1,7 +1,8 @@
 #3248 - Lazistan
 
-owner = TRE
-controller = TRE
+owner = GEO
+controller = GEO
+add_core = GEO
 add_core = TRE
 culture = laz_culture
 religion = orthodox

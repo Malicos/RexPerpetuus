@@ -5,8 +5,8 @@
 #Core Details
 capital = "Khulo" #(JP) Whilst Batumi is in modern Adjara/Achara, it is in historical Guria
 is_city = yes
-owner = SME
-controller = SME
+owner = GEO
+controller = GEO
 
 #Demographics
 culture = georgian
@@ -19,9 +19,8 @@ base_manpower = 1
 trade_goods = grain #Based off of TG research in main mod folder. //Dub
 
 #Cores and Occupation (Alphabetical after current)
+add_core = GEO
 add_core = SME
-#add_core = GEO
-add_core = ARM
 
 #Other Political
 hre = no

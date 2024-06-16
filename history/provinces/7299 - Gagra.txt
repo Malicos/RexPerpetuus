@@ -5,8 +5,8 @@
 #Core Details
 capital = "Gagra"
 is_city = yes
-owner = IME
-controller = IME
+owner = GEO
+controller = GEO
 
 #Demographics
 culture = abkhaz
@@ -19,8 +19,8 @@ base_manpower = 2
 trade_goods = wine #Based off of TG research in main mod folder. //Dub
 
 #Cores and Occupation (Alphabetical after current)
+add_core = GEO
 add_core = IME
-#add_core = GEO
 add_core = ABZ
 
 #Other Political
