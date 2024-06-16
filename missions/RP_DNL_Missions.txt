@@ -1,0 +1,423 @@
+DNL_A = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = DNL
+	}
+
+	DNL_A1 = {
+		icon = mission_launch_a_flagship
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_A2 = {
+		icon = mission_launch_a_flagship
+		position = 2
+		required_missions = { DNL_A1 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_A3 = {
+		icon = mission_launch_a_flagship
+		position = 3
+		required_missions = { DNL_A2 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+}
+
+DNL_B = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = DNL
+	}
+
+	DNL_B3 = {
+		icon = mission_launch_a_flagship
+		position = 3
+		required_missions = { DNL_A2 DNL_C2 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_B4 = {
+		icon = mission_launch_a_flagship
+		position = 4
+		required_missions = { DNL_B3 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+}
+
+DNL_C = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = DNL
+	}
+
+	DNL_C2 = {
+		icon = mission_launch_a_flagship
+		position = 2
+		required_missions = { DNL_D1 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_C3 = {
+		icon = mission_launch_a_flagship
+		position = 3
+		required_missions = { DNL_C2 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_C4 = {
+		icon = mission_launch_a_flagship
+		position = 4
+		required_missions = { DNL_C3 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_C5 = {
+		icon = mission_launch_a_flagship
+		position = 5
+		required_missions = {  }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_C6 = {
+		icon = mission_launch_a_flagship
+		position = 6
+		required_missions = { DNL_C5 DNL_D5 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_C7 = {
+		icon = mission_launch_a_flagship
+		position = 7
+		required_missions = { DNL_C6 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_C8 = {
+		icon = mission_launch_a_flagship
+		position = 8
+		required_missions = { DNL_C7 DNL_D7 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+}
+
+DNL_D = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = DNL
+	}
+
+	DNL_D1 = {
+		icon = mission_launch_a_flagship
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_D2 = {
+		icon = mission_launch_a_flagship
+		position = 2
+		required_missions = { DNL_D1 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_D3 = {
+		icon = mission_launch_a_flagship
+		position = 3
+		required_missions = { DNL_D2 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_D4 = {
+		icon = mission_launch_a_flagship
+		position = 4
+		required_missions = { DNL_D3 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_D5 = {
+		icon = mission_launch_a_flagship
+		position = 5
+		required_missions = {  }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_D7 = {
+		icon = mission_launch_a_flagship
+		position = 7
+		required_missions = { DNL_C6 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+}
+
+DNL_E = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = DNL
+	}
+
+	DNL_E2 = {
+		icon = mission_launch_a_flagship
+		position = 2
+		required_missions = { DNL_D1 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_E3 = {
+		icon = mission_launch_a_flagship
+		position = 3
+		required_missions = { DNL_D2 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_E4 = {
+		icon = mission_launch_a_flagship
+		position = 4
+		required_missions = { DNL_E3 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_E5 = {
+		icon = mission_launch_a_flagship
+		position = 5
+		required_missions = { DNL_E4 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+}
