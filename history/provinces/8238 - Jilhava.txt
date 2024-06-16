@@ -10,7 +10,7 @@ owner = BOH
 controller = BOH
 
 #Demographics
-culture = czech
+culture = moravian
 religion = catholic
 
 #Development and Trade

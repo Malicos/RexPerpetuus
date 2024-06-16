@@ -10,7 +10,7 @@ owner = HAB
 controller = HAB
 
 #Demographics
-culture = czech
+culture = moravian
 religion = catholic
 
 #Development and Trade
