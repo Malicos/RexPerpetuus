@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 primary_culture = latvian
-religion = catholic
+religion = baltic_pagan_reformed
 capital = 3227
 
 1437.11.14 = {
@@ -14,7 +14,7 @@ capital = 3227
 		dip = 1
 		mil = 3
 		birth_date = 1424.2.3
-		religion = catholic
+		religion = baltic_pagan_reformed
 		culture = latvian
 	}
 }
