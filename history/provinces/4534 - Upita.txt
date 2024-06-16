@@ -3,9 +3,9 @@
 owner = LIT
 controller = LIT
 add_core = LIT
-add_core = AUK
-culture = lithuanian
-religion = catholic
+add_core = SMG
+culture = samogitian
+religion = baltic_pagan_reformed
 capital = "Upita"
 trade_goods = naval_supplies
 hre = no

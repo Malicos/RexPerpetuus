@@ -3,7 +3,7 @@
 owner = LIT
 controller = LIT
 add_core = LIT
-culture = litvin
+culture = lithuanian
 religion = orthodox
 capital = "Myadzel"
 base_tax = 1
