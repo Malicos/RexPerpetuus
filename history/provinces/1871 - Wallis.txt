@@ -3,8 +3,9 @@
 #Region - Germany
 #Area - Romandie
 
-owner = WLL
-controller = WLL
+owner = BUR
+controller = BUR
+add_core = BUR
 add_core = WLL
 culture = high_burgundian
 religion = catholic

@@ -2,8 +2,9 @@
 #Region - France
 #Area - Burgundy
 
-owner = VSL
-controller = VSL
+owner = BUR
+controller = BUR
+add_core = BUR
 add_core = VSL
 capital = "Vesoul"
 is_city = yes

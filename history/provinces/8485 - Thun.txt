@@ -5,8 +5,8 @@
 #Core Details
 capital = "Thun"
 is_city = yes
-owner = HBN
-controller = HBN
+owner = BUR
+controller = BUR
 
 #Demographics
 culture = high_burgundian
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
+add_core = BUR
 add_core = HBN
 
 #Other Political

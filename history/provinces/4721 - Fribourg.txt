@@ -1,6 +1,7 @@
  
-owner = FRB
-controller = FRB
+owner = BUR
+controller = BUR
+add_core = BUR
 add_core = FRB
 culture = high_burgundian
 religion = catholic

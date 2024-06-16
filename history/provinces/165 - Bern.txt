@@ -3,8 +3,9 @@
 #Region - Germany
 #Area - Romandie
 
-owner = HBN
-controller = HBN
+owner = BUR
+controller = BUR
+add_core = BUR
 add_core = HBN
 culture = swabian
 religion = catholic

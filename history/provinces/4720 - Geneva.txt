@@ -3,8 +3,9 @@
 #Region - Germany
 #Area - Romandie
 
-owner = GNV
-controller = GNV
+owner = BUR
+controller = BUR
+add_core = BUR
 add_core = GNV
 culture = high_burgundian
 religion = catholic

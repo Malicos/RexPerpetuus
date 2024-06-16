@@ -83,90 +83,9 @@ march = {
 ####################################################################
 # Arelat and Basel
 vassal = {
-	subject_type = fiefdom_bt
+	subject_type = vassal
 	first = BUR
 	second = BSL
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Arelat and Bern
-vassal = {
-	subject_type = fiefdom_bt
-	first = BUR
-	second = HBN
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Arelat and Escartons
-vassal = {
-	subject_type = fiefdom_bt
-	first = BUR
-	second = ESC
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Arelat and Fribourg
-vassal = {
-	subject_type = fiefdom_bt
-	first = BUR
-	second = FRB
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Arelat and Gruyeres
-vassal = {
-	subject_type = fiefdom_bt
-	first = BUR
-	second = GRU
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Arelat and Geneva
-vassal = {
-	subject_type = fiefdom_bt
-	first = BUR
-	second = GNV
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Arelat and Lyonnais
-vassal = {
-	subject_type = fiefdom_bt
-	first = BUR
-	second = LNS
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Arelat and Neuchatel
-vassal = {
-	subject_type = fiefdom_bt
-	first = BUR
-	second = NUC
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Arelat and Vesoul
-vassal = {
-	subject_type = fiefdom_bt
-	first = BUR
-	second = VSL
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Arelat and Wallis
-vassal = {
-	subject_type = fiefdom_bt
-	first = BUR
-	second = WLL
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }

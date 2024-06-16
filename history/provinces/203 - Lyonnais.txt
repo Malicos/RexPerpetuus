@@ -2,8 +2,9 @@
 #Region - France
 #Area - Savoy
 
-owner = LYS
-controller = LYS
+owner = BUR
+controller = BUR
+add_core = BUR
 add_core = LYS
 capital = "Lyon"
 is_city = yes
