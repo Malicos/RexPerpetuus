@@ -2,8 +2,9 @@
 #Region - France
 #Area - Guyenne
 
-owner = AMG
-controller = AMG
+owner = GUY
+controller = GUY
+add_core = GUY
 add_core = AMG
 capital = "Périgueux"
 is_city = yes

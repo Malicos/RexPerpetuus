@@ -2,8 +2,9 @@
 #Region - France
 #Area - Loire
 
-owner = ORL
-controller = ORL
+owner = FRA
+controller = FRA
+add_core = FRA
 add_core = ORL
 capital = "Orléans"
 is_city = yes

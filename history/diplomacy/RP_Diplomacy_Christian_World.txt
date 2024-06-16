@@ -83,7 +83,6 @@ march = {
 ####################################################################
 # Arelat and Basel
 vassal = {
-	subject_type = vassal
 	first = BUR
 	second = BSL
 	start_date = 1444.11.11

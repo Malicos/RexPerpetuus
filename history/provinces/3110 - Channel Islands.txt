@@ -2,8 +2,9 @@
 #Region - France
 #Area - Normandy
 
-owner = JER
-controller = JER
+owner = BRI
+controller = BRI
+add_core = BRI
 add_core = JER
 add_core = NRM
 capital = "St. Helier"

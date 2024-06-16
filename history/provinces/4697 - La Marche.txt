@@ -2,8 +2,9 @@
 #Region - France
 #Area - Massif Central
 
-owner = LMC
-controller = LMC
+owner = FRA
+controller = FRA
+add_core = FRA
 add_core = LMC
 capital = "Guéret"
 is_city = yes

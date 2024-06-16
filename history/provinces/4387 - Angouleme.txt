@@ -2,8 +2,9 @@
 #Region - France
 #Area - Guyenne
 
-owner = AGL
-controller = AGL
+owner = GUY
+controller = GUY
+add_core = GUY
 add_core = AGL
 capital = "Angoulême"
 is_city = yes

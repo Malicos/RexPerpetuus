@@ -2,8 +2,9 @@
 #Region - France
 #Area - Normandy
 
-owner = ALE
-controller = ALE
+owner = NRM
+controller = NRM 
+add_core = NRM
 add_core = ALE
 capital = "Alençon"
 is_city = yes

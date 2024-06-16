@@ -2,8 +2,9 @@
 #Region - France
 #Area - Loire
 
-owner = FTS
-controller = FTS
+owner = FRA
+controller = FRA
+add_core = FRA
 add_core = FTS
 capital = "Tours"
 is_city = yes

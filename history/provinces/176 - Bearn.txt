@@ -2,8 +2,9 @@
 #Region - France
 #Area - Pyrenees
 
-owner = BRN
-controller = BRN
+owner = GUY
+controller = GUY
+add_core = GUY
 add_core = BRN
 capital = "Pau"
 is_city = yes

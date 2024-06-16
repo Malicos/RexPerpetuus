@@ -1,7 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = FTS
-controller = FTS
+owner = FRA
+controller = FRA
+add_core = FRA
 add_core = FTS
 culture = gallo_culture
 religion = catholic

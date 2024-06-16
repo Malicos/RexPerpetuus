@@ -2,8 +2,9 @@
 #Region - France
 #Area - Guyenne
 
-owner = AGN
-controller = AGN
+owner = GUY
+controller = GUY
+add_core = GUY
 add_core = AGN
 capital = "Agen"
 is_city = yes
