@@ -10,7 +10,7 @@ controller = UHU
 
 #Demographics
 culture = hungarian
-religion = catholic
+religion = hussite
 
 #Development and Trade
 base_tax = 2

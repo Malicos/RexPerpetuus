@@ -10,7 +10,7 @@ controller = HUN
 
 #Demographics
 culture = hungarian
-religion = catholic
+religion = hussite
 
 #Development and Trade
 base_tax = 2
@@ -44,18 +44,3 @@ discovered_by = iranian_tech
 discovered_by = ottoman
 
 #Histories
-
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-	remove_core = HUN
-	remove_core = LHU
-	add_core = SLO
-	owner = SLO
-	controller = SLO
-} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-	add_core = HUN
-	add_core = LHU
-	remove_core = SLO
-	owner = HUN
-	controller = HUN
-} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
