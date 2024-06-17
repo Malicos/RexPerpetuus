@@ -1,7 +1,8 @@
 #1952 - Máramaros
 
-owner = TRA
-controller = TRA
+owner = UHU
+controller = UHU
+add_core = UHU
 add_core = TRA
 culture = rusyn
 religion = orthodox

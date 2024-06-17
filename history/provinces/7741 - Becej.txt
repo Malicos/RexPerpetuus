@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = BNT
-controller = BNT
+owner = HUN
+controller = HUN 
+add_core = HUN 
 add_core = BNT
 culture = serbian
 religion = orthodox

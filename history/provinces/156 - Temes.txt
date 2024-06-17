@@ -2,8 +2,9 @@
 #Region - Carpathia
 #Area - Transylvania
 
-owner = BNT
-controller = BNT
+owner = HUN
+controller = HUN
+add_core = HUN
 add_core = BNT
 culture = hungarian
 religion = catholic

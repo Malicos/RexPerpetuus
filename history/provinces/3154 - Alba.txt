@@ -1,7 +1,8 @@
 #3154 - Alba/Fehér
 
-owner = TRA
-controller = TRA
+owner = HUN
+controller = HUN
+add_core = HUN
 add_core = TRA
 culture = transylvanian
 religion = orthodox

@@ -113,42 +113,6 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# France and Hurepoix
-vassal = {
-	subject_type = fiefdom_bt
-	first = FRA
-	second = HPX
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# France and La Marche
-vassal = {
-	subject_type = fiefdom_bt
-	first = FRA
-	second = LMC
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# France and Orleans
-vassal = {
-	subject_type = fiefdom_bt
-	first = FRA
-	second = ORL
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# France and Tours
-vassal = {
-	subject_type = fiefdom_bt
-	first = FRA
-	second = FTS
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Neustria guarantee - Poitiers
 guarantee = {
 	first = FRA
@@ -157,82 +121,10 @@ guarantee = {
 	end_date = 1836.1.1
 }
 
-# Brittany and Channel Islands
-vassal = {
-	subject_type = fiefdom_bt
-	first = BRI
-	second = JER
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Guyenne and Agenais
-vassal = {
-	subject_type = fiefdom_bt
-	first = GUY
-	second = AGN
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Guyenne and Angouleme
-vassal = {
-	subject_type = fiefdom_bt
-	first = GUY
-	second = AGL
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Guyenne and Armagnac
-vassal = {
-	subject_type = fiefdom_bt
-	first = GUY
-	second = AMG
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Guyenne and Bearne
-vassal = {
-	subject_type = fiefdom_bt
-	first = GUY
-	second = BRN
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Guyenne guarantee - Poitiers
 guarantee = {
 	first = GUY
 	second = POI
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Toulouse and Carcassonne
-vassal = {
-	subject_type = fiefdom_bt
-	first = TOU
-	second = CCS
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Toulouse and Narbonne
-vassal = {
-	subject_type = fiefdom_bt
-	first = TOU
-	second = NBN
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Normandy and Alencon
-vassal = {
-	subject_type = fiefdom_bt
-	first = NRM
-	second = ALE
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
@@ -986,22 +878,6 @@ vassal = {
 ####################################################################
 # 10 - Hungary
 ####################################################################
-# Hungary and Banat
-vassal = {
-	subject_type = fiefdom_bt
-	first = HUN
-	second = BNT
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Hungary and Transylvania
-vassal = {
-	first = HUN
-	second = TRA
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
 
 # Hungary and Felvidek
 march = {
