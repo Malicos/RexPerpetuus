@@ -811,6 +811,22 @@ alliance = {
 	end_date = 1836.1.1
 }
 
+# Guarantee - Nicea and Optimatoi
+guarantee = {
+	first = NIK
+	second = OPT
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Guarantee - Thrace and Optimatoi
+guarantee = {
+	first = TRC
+	second = OPT
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Bulgarian Vassal - Syrmia
 vassal = {
 	first = BUL
