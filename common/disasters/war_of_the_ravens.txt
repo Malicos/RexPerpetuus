@@ -22,7 +22,10 @@ war_of_the_ravens = {
                 who = NCW
                 value = 100
             }
-            NOT = { exists = NCW }
+            AND = {
+                NOT = { exists = NCW }
+                NOT = { dynasty = "Hardrada" }
+            }
         }
     }
 
