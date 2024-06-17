@@ -794,22 +794,6 @@ vassal = {
 ####################################################################
 # 9 - Balkans
 ####################################################################
-# Guarantee of Burgas (Dorostolon)
-guarantee = {
-	first = PAI
-	second = BGS
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# March of Corinth (Morea)
-march = {
-	first = MOE
-	second = CRH
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Thessalonican Vassal - Chalkdiki
 # TODO Special religious mechanics
 vassal = {
@@ -819,42 +803,10 @@ vassal = {
 	end_date = 1836.1.1
 }
 
-# Thracian Vassal - Diampolis
-vassal = {
-	first = TRC
-	second = YAB
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Thracian Vassal - Bizya
-vassal = {
-	first = TRC
-	second = BZY
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Thracian Vassal - Selembria
-vassal = {
-	first = TRC
-	second = SBR
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Athenian Vassal - Phocis
-vassal = {
-	first = ATH
-	second = PCS
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Bulgarian March - Arbanon
-march = {
-	first = BUL
-	second = ALB
+# Alliance - Arbanon and Bissenia
+alliance = {
+	first = ALB
+	second = BIS
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
