@@ -4,8 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = BGS
-controller = BGS
+owner = VAR
+controller = VAR
+add_core = VAR
 add_core = BGS
 culture = moesian			#Hard to say for certain, right on the Bulgarian Greek line, but going Greek for now.
 religion = orthodox

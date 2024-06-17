@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = BUL
-controller = BUL
-add_core = BUL
+owner = ALB
+controller = ALB
+add_core = ALB
 add_core = RSC
 culture = serbian
 religion = orthodox

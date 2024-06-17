@@ -1,7 +1,8 @@
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = TMS
-controller = TMS
+owner = NIK
+controller = NIK
+add_core = NIK
 add_core = TMS
 culture = pamphylian
 religion = orthodox

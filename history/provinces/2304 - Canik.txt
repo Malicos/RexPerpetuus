@@ -1,6 +1,7 @@
  
-owner = SIM
-controller = SIM
+owner = PON
+controller = PON
+add_core = PON
 add_core = SIM
 culture = pontic_greek
 religion = orthodox

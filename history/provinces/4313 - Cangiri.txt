@@ -1,6 +1,7 @@
 
-owner = GLT
-controller = GLT
+owner = CAP
+controller = CAP
+add_core = CAP
 add_core = GLT
 culture = galatian
 religion = orthodox

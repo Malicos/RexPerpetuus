@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = SBR
-controller = SBR
+owner = TRC
+controller = TRC
+add_core = TRC
 add_core = SBR
 culture = thracian
 religion = orthodox

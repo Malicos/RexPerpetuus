@@ -1,6 +1,7 @@
 
-owner = PPG
-controller = PPG
+owner = PON
+controller = PON
+add_core = PON
 add_core = PPG
 culture = pontic_greek
 religion = orthodox

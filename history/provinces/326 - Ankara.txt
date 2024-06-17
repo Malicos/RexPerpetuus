@@ -1,8 +1,9 @@
  
 #326 - Ankara
 
-owner = GLT
-controller = GLT
+owner = CAP
+controller = CAP
+add_core = CAP
 add_core = GLT
 culture = phrygian
 religion = orthodox

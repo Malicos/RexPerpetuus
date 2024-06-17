@@ -1,8 +1,9 @@
  
 #4311 - Karahisar
 
-owner = DRN
-controller = DRN
+owner = NIK
+controller = NIK
+add_core = NIK
 add_core = DRN
 culture = phrygian
 religion = orthodox

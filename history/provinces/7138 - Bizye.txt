@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = BZY
-controller = BZY
+owner = TRC
+controller = TRC
+add_core = TRC
 add_core = BZY
 culture = thracian
 religion = orthodox

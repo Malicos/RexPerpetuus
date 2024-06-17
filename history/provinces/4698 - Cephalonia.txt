@@ -1,7 +1,8 @@
 #4698 - Cephalonia
 
-owner = AET
-controller = AET
+owner = TSY
+controller = TSY
+add_core = TSY
 add_core = AET
 add_core = CEP
 culture = epirotan

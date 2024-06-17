@@ -5,8 +5,8 @@
 #Core Details
 capital = "Sarkisla"
 is_city = yes
-owner = GLT
-controller = GLT
+owner = CAP
+controller = CAP
 
 #Demographics
 culture = cappadocian_greek
@@ -19,8 +19,8 @@ base_manpower = 1
 trade_goods = cloth			#(JP) Sarkisla Rugs
 
 #Cores and Occupation (Alphabetical after current)
-add_core = GLT
 add_core = CAP
+add_core = GLT
 
 #Other Political
 hre = no

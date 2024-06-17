@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = BGS
-controller = BGS
+owner = VAR
+controller = VAR
+add_core = VAR
 add_core = BGS
 culture = moesian
 religion = orthodox

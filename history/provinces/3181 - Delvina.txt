@@ -1,9 +1,9 @@
 #3181 - BtP Province repurposed by Draiocht due to 1.19 changes
 
-owner = EPI
-controller = EPI
-add_core = EPI
+owner = ALB
+controller = ALB
 add_core = ALB
+add_core = EPI
 culture = albanian
 religion = orthodox
 capital = "Vlora"

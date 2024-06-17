@@ -5,8 +5,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = HDP
-controller = HDP
+owner = NIK
+controller = NIK
+add_core = NIK
 add_core = HDP
 culture = pontic_greek
 religion = orthodox

@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = DDL
-controller = DDL
+owner = TRC
+controller = TRC
+add_core = TRC
 add_core = DDL
 culture = thracian
 religion = orthodox

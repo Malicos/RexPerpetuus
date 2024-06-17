@@ -1,7 +1,8 @@
 #3183 - Bitola
 
-owner = KST
-controller = KST
+owner = ALB
+controller = ALB
+add_core = ALB
 add_core = KST
 add_core = MDN
 culture = moesian

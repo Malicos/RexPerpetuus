@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = PHP
-controller = PHP
+owner = TRC
+controller = TRC
+add_core = TRC
 add_core = PHP
 culture = moesian
 religion = orthodox

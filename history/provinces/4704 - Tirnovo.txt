@@ -1,7 +1,8 @@
 #4704 - Bulgaria
 
-owner = TNV
-controller = TNV
+owner = VAR
+controller = VAR
+add_core = VAR
 add_core = TNV
 culture = bulgarian
 religion = orthodox

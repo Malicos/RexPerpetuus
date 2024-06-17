@@ -1,7 +1,8 @@
 #320 - Rhodes
 
-owner = TMS
-controller = TMS
+owner = NIK
+controller = NIK
+add_core = NIK
 add_core = TMS
 culture = dodecanesian
 religion = bogomilist

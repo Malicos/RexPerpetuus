@@ -6,8 +6,8 @@
 #Core Details
 capital = "Inebolu"
 is_city = yes
-owner = PPG
-controller = PPG
+owner = PON
+controller = PON
 
 #Demographics
 culture = pontic_greek
@@ -20,6 +20,7 @@ base_manpower = 2
 trade_goods = naval_supplies
 
 #Cores and Occupation (Alphabetical after current)
+add_core = PON
 add_core = PPG
 
 #Other Political

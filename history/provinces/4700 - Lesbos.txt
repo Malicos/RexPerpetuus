@@ -1,7 +1,8 @@
 #4700 - Lesbos
 
-owner = LES
-controller = LES
+owner = NIK
+controller = NIK
+add_core = NIK
 add_core = LES
 culture = dodecanesian
 religion = bogomilist

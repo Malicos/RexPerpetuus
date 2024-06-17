@@ -5,8 +5,9 @@ latent_trade_goods = {
 	coal
 }	#Mughla Basin. Dub's suggestion, works for me.
 
-owner = TMS
-controller = TMS
+owner = NIK
+controller = NIK
+add_core = NIK
 add_core = TMS
 culture = pamphylian
 religion = orthodox

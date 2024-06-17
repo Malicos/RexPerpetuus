@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = YAB
-controller = YAB
+owner = TRC
+controller = TRC
+add_core = TRC
 add_core = YAB
 culture = moesian
 religion = iconoclast

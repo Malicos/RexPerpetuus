@@ -1,7 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = PCS
-controller = PCS
+owner = MOE
+controller = MOE
+add_core = MOE
 add_core = PCS
 culture = arvanite
 religion = orthodox

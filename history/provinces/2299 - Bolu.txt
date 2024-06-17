@@ -1,8 +1,9 @@
  
 #2299 - Bolu
 
-owner = OPT
-controller = OPT
+owner = PON
+controller = PON
+add_core = PON
 add_core = OPT
 culture = pontic_greek
 religion = orthodox

@@ -1,8 +1,9 @@
  
 #324 - Karaman
 
-owner = LRD
-controller = LRD
+owner = ACN
+controller = ACN
+add_core = ACN
 add_core = LRD
 culture = cappadocian_greek
 religion = orthodox

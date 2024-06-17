@@ -1,9 +1,9 @@
 #BT Balkans reoverhaul
 
-owner = KST
-controller = KST
-add_core = KST
+owner = ALB
+controller = ALB
 add_core = ALB
+add_core = KST
 culture = albanian
 religion = orthodox
 capital = "Korce"

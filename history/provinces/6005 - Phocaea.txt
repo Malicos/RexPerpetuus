@@ -6,8 +6,8 @@
 #Core Details
 capital = "Phocaea"
 is_city = yes
-owner = PHO
-controller = PHO
+owner = NIK
+controller = NIK
 
 #Demographics
 culture = mikrasiatic
@@ -20,6 +20,7 @@ base_manpower = 1
 trade_goods = dyes	#(Velius) Rich alum mines are found in the area. Going with iron. (JP) Using dyes for Alum
 
 #Cores and Occupation (Alphabetical after current)
+add_core = NIK
 add_core = PHO
 
 #Other Political

@@ -1,9 +1,9 @@
 #BT Balkans reoverhaul
 
-owner = EPI
-controller = EPI
-add_core = EPI
+owner = ALB
+controller = ALB
 add_core = ALB
+add_core = EPI
 culture = albanian
 religion = orthodox
 capital = "Gjirokastër"

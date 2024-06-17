@@ -1,8 +1,9 @@
  
 # No previous file for Beyond Typus or Beyond the Pale Legacy province
 
-owner = GLT
-controller = GLT
+owner = CAP
+controller = CAP
+add_core = CAP
 add_core = GLT
 culture = galatian
 religion = orthodox

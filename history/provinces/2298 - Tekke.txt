@@ -1,8 +1,9 @@
  
 #2298 - Tekke
 
-owner = LYC
-controller = LYC
+owner = ACN
+controller = ACN
+add_core = ACN
 add_core = LYC
 culture = pamphylian
 religion = orthodox

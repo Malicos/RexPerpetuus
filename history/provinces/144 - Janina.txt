@@ -1,7 +1,8 @@
 #144 - Epiros
 
-owner = EPI
-controller = EPI
+owner = ALB
+controller = ALB
+add_core = ALB
 add_core = EPI
 culture = epirotan
 religion = orthodox

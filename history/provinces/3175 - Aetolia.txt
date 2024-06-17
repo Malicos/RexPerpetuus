@@ -1,7 +1,8 @@
 #3175 - Aetolia
 
-owner = AET
-controller = AET
+owner = TSY
+controller = TSY
+add_core = TSY
 add_core = AET
 culture = epirotan
 religion = orthodox
