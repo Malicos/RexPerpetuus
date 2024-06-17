@@ -1,3 +1,12 @@
+on_startup = {
+	if = {
+		limit = {
+			tag = JRV
+		}
+		country_event = { id = jorvik.1 }
+	}
+}
+
 on_siege_lost_country = {
 	if = {
 		limit = {

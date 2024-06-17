@@ -1,0 +1,19 @@
+namespace = jorvik
+
+country_event = {
+	id = jorvik.1
+	title = jorvik.1.t
+	desc = jorvik.1.d
+	picture = RAMADAN_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	immediate = {  }
+	
+	option = {
+		name = jorvik.1.a
+		custom_tooltip = jorvik1_tooltip
+	}
+}

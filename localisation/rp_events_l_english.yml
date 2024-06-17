@@ -32,13 +32,19 @@
  celtic.2.b:0 "chilling with ma denlegian bois B)"
 
  #Denlegian Events
+
+ jorvik.1.t:0 "Jorvik - an unavoidable collapse?"
+ jorvik.1.d:0 "Since overseas Nodic powers left England, an independent Kingdom of Danelaw remained as the last bastion of Viking ways. However, disunited and without foreign support, the country was left weak and has since then lost its southern territories to its Anglo-Saxon neighbors. Now the King in Jorvik is only left with his small crownland and a rebellious state of Bernicia to the north, which is tired of paying taxes and fighting for their weak ruler and seeks self governance. With forces far greater than those of the capital it will take tremendous effort to maintain their loyalty."
+ jorvik.1.a:0 "I am the Duke of Bernicia and I will make them respect me."
+ jorvik1_tooltip:0 "§YJorvik§! will face a series of rebelions and internal challenges. You must hold onto all provinces in §YBernicia Area§! and get rid of their autonomy to prove your legitimacy or your country will be doomed to fall."
+
  berniciadisaster.1.t:0 "Bernician Insurgence"
  berniciadisaster.1.d:0 ""
  berniciadisaster.1.a:0 "We have to extinguish their hopes."
 
  bernicia.1.t:0 "Lost control over Bernicia"
  bernicia.1.d:0 ""
- bernicia.1.a:0 "I don't care, they caused too much trouble"
+ bernicia.1.a:0 "I don't care, they were causing too much trouble"
 
  bernicia.2.t:0 "Bernician Nobles refuse to pay tax"
  bernicia.2.d:0 ""
