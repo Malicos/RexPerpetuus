@@ -2,7 +2,7 @@
 
 graphical_culture = easterngfx
 
-color = { 205 185 165 }
+color = { 32 119 155 }
 
 historical_idea_groups = {					#Copied from Greece
 	religious_ideas
