@@ -1,7 +1,8 @@
 #Wizna
 
-owner = MSU
-controller = MSU
+owner = POL
+controller = POL
+add_core = POL
 add_core = MSU
 capital = "Wizna"
 culture = polish

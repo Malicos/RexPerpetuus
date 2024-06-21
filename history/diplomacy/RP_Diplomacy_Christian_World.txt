@@ -380,15 +380,6 @@ union = {
 	end_date = 1836.1.1
 }
 
-# Croatia and Slavonia
-vassal = {
-	subject_type = fiefdom_bt
-	first = CRO
-	second = SLA
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 ####################################################################
 # 4.5 - HRE, German and Bohemian
 ####################################################################
@@ -548,28 +539,10 @@ union = {
 ####################################################################
 # 7 - Poland
 ####################################################################
-# Poland and Masuria
-vassal = {
-	subject_type = fiefdom_bt
-	first = POL
-	second = MSU
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Poland and Opole
 vassal = {
 	first = POL
 	second = OPL
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Poland and Greater Poland
-vassal = {
-	subject_type = fiefdom_bt
-	first = POL
-	second = WPK
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }

@@ -1,7 +1,8 @@
 #1767 - Veroce
 
-owner = SLA
-controller = SLA
+owner = CRO
+controller = CRO
+add_core = CRO
 add_core = SLA
 culture = croatian
 religion = bogomilist
