@@ -8,4 +8,5 @@ decisions/BritishNation.txt
 missions/DOM_Britain_Missions
 
 EDITED BT FILES THAT COULDN'T BE CLEARED
+common/government_reforms/01_government_reforms_monarchies (all RP added code is at the top)
 common/government_reforms/02_government_reforms_republics (all RP added code is at the top)
