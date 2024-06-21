@@ -13,7 +13,7 @@ tags={
 	"Technologies"
 	"Trade"
 }
-name="Rex Perpetuus: Heirs of the Last Viking - Development"
+name="Rex Perpetuus - Development"
 replace_path="common/bookmarks"
 replace_path="history/diplomacy/"
 replace_path="history/wars/"
