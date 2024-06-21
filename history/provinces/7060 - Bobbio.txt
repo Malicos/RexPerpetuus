@@ -1,7 +1,8 @@
 #BT Italy reoverhaul
 
-owner = BOB
-controller = BOB
+owner = LOM
+controller = LOM
+add_core = LOM
 add_core = BOB
 culture = romagnan
 religion = catholic

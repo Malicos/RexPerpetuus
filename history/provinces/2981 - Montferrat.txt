@@ -2,8 +2,9 @@
 #Region - Italy
 #Area - Piedmont
 
-owner = MFA
-controller = MFA
+owner = LOM
+controller = LOM
+add_core = LOM
 add_core = MFA
 culture = piedmontese
 religion = waldensian

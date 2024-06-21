@@ -1,7 +1,8 @@
 #BT Italy reoverhaul
 
-owner = BRD
-controller = BRD
+owner = LOM
+controller = LOM
+add_core = LOM
 add_core = BRD
 culture = romagnan
 religion = catholic

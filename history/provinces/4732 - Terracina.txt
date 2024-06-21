@@ -1,7 +1,8 @@
 #BT Italy reoverhaul
 
-owner = VLT
-controller = VLT
+owner = PAP
+controller = PAP
+add_core = PAP
 add_core = VLT
 culture = umbrian
 religion = catholic

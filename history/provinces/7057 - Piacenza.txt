@@ -1,7 +1,8 @@
 #BT Italy reoverhaul
 
-owner = PCZ
-controller = PCZ
+owner = LOM
+controller = LOM
+add_core = LOM
 add_core = PCZ
 culture = romagnan
 religion = catholic

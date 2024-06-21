@@ -1,7 +1,8 @@
 #BT Italy reoverhaul
 
-owner = FNL
-controller = FNL
+owner = LOM
+controller = LOM
+add_core = LOM
 add_core = FNL
 culture = ligurian
 religion = catholic

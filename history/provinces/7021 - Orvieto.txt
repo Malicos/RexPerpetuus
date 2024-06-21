@@ -1,7 +1,8 @@
 #BT Italy reoverhaul
 
-owner = ORV
-controller = ORV
+owner = PAP
+controller = PAP
+add_core = PAP
 add_core = ORV
 culture = umbrian
 religion = catholic

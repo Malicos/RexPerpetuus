@@ -1,7 +1,8 @@
 #BT Italy reoverhaul
 
-owner = TND
-controller = TND
+owner = LOM
+controller = LOM
+add_core = LOM
 add_core = TND
 culture = ligurian
 religion = catholic
