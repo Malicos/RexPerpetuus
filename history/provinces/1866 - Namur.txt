@@ -6,8 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LIE
-controller = LIE
+owner = AUT
+controller = AUT
+add_core = AUT
 add_core = LIE
 capital = "Namur"
 is_city = yes

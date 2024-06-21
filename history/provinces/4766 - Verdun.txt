@@ -2,8 +2,9 @@
 #Region - France
 #Area - Lorraine
 
-owner = VDN
-controller = VDN
+owner = AUT
+controller = AUT
+add_core = AUT
 add_core = VDN
 capital = "Verdun"
 is_city = yes

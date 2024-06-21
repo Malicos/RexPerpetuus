@@ -1,7 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = LIE
-controller = LIE
+owner = AUT
+controller = AUT
+add_core = AUT
 add_core = LIE
 culture = wallonian
 religion = catholic

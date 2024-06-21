@@ -209,6 +209,132 @@ guarantee = {
 ####################################################################
 # 3 - Italy, non-HRE
 ####################################################################
+# Lombard Fief - Bardi
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = BRD
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lombard Fief - Finale
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = FNL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lombard Fief - Piacenza
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = PCZ
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lombard Fief - Bobbio
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = BOB
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lombard Fief - Ceva
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = CEV
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lombard Fief - Tende
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = TND
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lombard Fief - Montferrat
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = MFA
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lombard Fief - Alessandria
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = ASD
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lombard Fief - Acqui
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = ACQ
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lombard Fief - Asti
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = ATI
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Lombard Fief - Grosetto
+vassal = {
+	subject_type = fiefdom_bt
+	first = LOM
+	second = GRO
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Papal Fief - Norcia
+vassal = {
+	subject_type = fiefdom_bt
+	first = PAP
+	second = NRC
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Papal Fief - Orvieto
+vassal = {
+	subject_type = fiefdom_bt
+	first = PAP
+	second = ORV
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Papal Fief - Velletri
+vassal = {
+	subject_type = fiefdom_bt
+	first = PAP
+	second = VLT
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Autonomous Papal State - Citta di Castello
 dependency = {
 	subject_type = papal_subject_bt
@@ -380,6 +506,15 @@ union = {
 	end_date = 1836.1.1
 }
 
+# Croatia and Slavonia
+vassal = {
+	subject_type = fiefdom_bt
+	first = CRO
+	second = SLA
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 ####################################################################
 # 4.5 - HRE, German and Bohemian
 ####################################################################
@@ -539,10 +674,28 @@ union = {
 ####################################################################
 # 7 - Poland
 ####################################################################
+# Poland and Masuria
+vassal = {
+	subject_type = fiefdom_bt
+	first = POL
+	second = MSU
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
 # Poland and Opole
 vassal = {
 	first = POL
 	second = OPL
+	start_date = 1444.11.11
+	end_date = 1836.1.1
+}
+
+# Poland and Greater Poland
+vassal = {
+	subject_type = fiefdom_bt
+	first = POL
+	second = WPK
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }

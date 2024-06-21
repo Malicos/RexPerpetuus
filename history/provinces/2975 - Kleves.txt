@@ -1,8 +1,9 @@
 #Region - Germany
 #Area - North Rhine
 
-owner = KLE
-controller = KLE
+owner = AUT
+controller = AUT
+add_core = AUT
 add_core = KLE
 culture = dutch
 religion = catholic

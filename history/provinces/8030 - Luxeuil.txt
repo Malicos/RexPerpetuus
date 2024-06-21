@@ -1,7 +1,8 @@
 #BT's Western Europe Overhaul in 12.0
 
-owner = LXL
-controller = LXL
+owner = AUT
+controller = AUT
+add_core = AUT
 add_core = LXL
 culture = high_burgundian
 religion = catholic
