@@ -414,13 +414,13 @@ venice_missions_slot_1_navy = {
 					}
 					add_country_modifier = {
 						name = ven_marine_drilling_modifier
-						duration = 9125
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = ven_marine_drilling_modifier2
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -1770,7 +1770,7 @@ venice_missions_slot_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			eimlia_area = {
+			emilia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT	}
@@ -1793,14 +1793,26 @@ venice_missions_slot_3 = {
 		icon = conquer_austria
 		position = 8
 		required_missions = { wof_ven_expand_the_terraferma }
-		
 		provinces_to_highlight = {
-			owned_by = HAB
+			OR = {
+				owned_by = HAB
+				owned_by = AUH
+			}
 		}
 		trigger = {
 			OR = {
-				NOT = { exists = HAB }
-				HAB = { is_subject_of = ROOT }
+				AND = {
+					NOT = { exists = HAB }
+					NOT = { exists = AUH }
+				}
+				AND = {
+					HAB = { is_subject_of = ROOT }
+					NOT = { exists = AUH }
+				}
+				AND = {
+					AUH = { is_subject_of = ROOT }
+					NOT = { exists = HAB }
+				}
 			}
 		}
 		effect = {

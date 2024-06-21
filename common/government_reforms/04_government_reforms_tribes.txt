@@ -45,7 +45,7 @@ steppe_horde = {
 		land_forcelimit_modifier = 0.2
 		years_of_nationalism = -5
 		reinforce_cost_modifier = -0.5
-		country_dev_points_modifier = -0.5
+		country_dev_points_modifier = -0.5 #BT Added
 	}
 	custom_attributes = {
 		enables_horde_idea_group = yes
@@ -82,7 +82,7 @@ great_mongol_state_reform = {
 		movement_speed = 0.2
 		years_of_nationalism = -5
 		may_establish_frontier = yes #BT Dev note: Was added in 1.37. May be replaced with custom Siberian Frontier mechanics? Hmm.
-		country_dev_points_modifier = -0.5
+		country_dev_points_modifier = -0.5 #BT Added
 	}
 	conditional = {
 		allow = { has_dlc = "Mandate of Heaven" }

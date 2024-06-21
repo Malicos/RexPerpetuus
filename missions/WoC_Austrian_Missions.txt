@@ -1245,7 +1245,10 @@ WoC_austria_2_holy_roman_empire = {
 			complex_dynamic_effect = {
 				first_custom_tooltip = HAB_IF_CENTRALIZATION
 				first_limit = "
-					hre_reform_passed = emperor_reichskrieg
+					OR = {
+						hre_reform_passed = privilegia_de_non_appelando
+						hre_reform_passed = emperor_privilegia_de_non_appelando
+					}
 				"
 				first_effect = "
 					add_prestige_or_monarch_power = { amount = 15 }
@@ -1257,10 +1260,7 @@ WoC_austria_2_holy_roman_empire = {
 				"
 				second_custom_tooltip = HAB_IF_DECENTRALIZED
 				second_limit = "
-					OR = {
-						hre_reform_passed = privilegia_de_non_appelando
-						hre_reform_passed = emperor_privilegia_de_non_appelando
-					}
+					hre_reform_passed = emperor_reichskrieg
 				"
 				second_effect = "
 					add_adm_power = 50
@@ -1458,21 +1458,21 @@ WoC_austria_2_germany = {
 			not_in_mission_preview_mode = { key = HAB }
 			owns_core_province = 50	# Berlin
 			owns_core_province = 57	# Brunswick
-			owns_core_province = 65	# Mï¿½nchen
+			owns_core_province = 65	# München
 			OR = {
 				owns_core_province = 1868 # Augsburg
 				owns_core_province = 70 # Wurttemberg
 			}
 			OR = {
-				owns_core_province = 67	# Nï¿½rnberg
+				owns_core_province = 67	# Nürnberg
 				owns_core_province = 1876 # Frankfurt
 			}
 			OR = {
 				owns_core_province = 1762 # Niederhessen
-				owns_core_province = 85	# Kï¿½ln
+				owns_core_province = 85	# Köln
 			}
 			OR = {
-				owns_core_province = 41	# Kï¿½nigsberg
+				owns_core_province = 41	# Königsberg
 				owns_core_province = 75	# Strassburg
 			}
 			OR = {
@@ -1481,7 +1481,7 @@ WoC_austria_2_germany = {
 			}
 			OR = {
 				owns_core_province = 61	# Dresden
-				owns_core_province = 63	# Thï¿½ringen
+				owns_core_province = 63	# Thüringen
 			}
 			num_of_owned_provinces_with = {
 				is_core = ROOT
@@ -1568,7 +1568,7 @@ WoC_austria_2_1 = {
 			}
 		}
 		effect = {
-			complex_dynamic_effect = {
+			complex_dynamic_effect_without_alternative = {
 				first_custom_tooltip = HAB_IF_SHADOW_KINGDOM
 				first_limit = "
 					is_emperor = yes
@@ -1919,12 +1919,8 @@ WoC_austria_2_1 = {
 					}
 				"
 				first_effect = "
-					BYZ = {
-						change_tag = LAE
-						change_religion = ROOT
-						set_dynasty = ROOT
-					}
-					add_scaled_imperial_influence = 5
+					BYZ = { change_tag = LAE change_religion = ROOT set_dynasty = ROOT }
+					if = { limit = { is_emperor =  yes } add_scaled_imperial_influence = 5 }
 				"
 			}
 		} 

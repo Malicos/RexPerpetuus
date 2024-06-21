@@ -428,6 +428,7 @@ country_event = {
 
 	trigger = {
 		is_at_war = yes
+		NOT = { has_country_flag = disable_cruelty_of_mercs }
 		num_of_hired_mercenary_companies = 1
 		NOT = { has_country_modifier = curtailed_mercenaries }
 		any_hired_mercenary_company = {

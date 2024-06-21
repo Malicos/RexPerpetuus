@@ -29,13 +29,11 @@ kiel_canal = {
 			owns_or_vassal_of = 13 # BT
 			owns_or_vassal_of = 3135 # BT
 			owns_or_vassal_of = 4141
-			is_subject = no			
 			OR = { 
 				mission_completed = emp_brapru_kiel_canal
 				mission_completed = GER_german_industry
 				adm_tech = 22
 			}
-			#treasury = 10000 #BT Cut because vanilla
 		}
 	}
 	
@@ -221,7 +219,6 @@ suez_canal = {
 		FROM = {
 			owns_or_vassal_of = 363 # BT; 4316
 			owns_or_vassal_of = 2315
-			is_subject = no
 			OR = {
 				adm_tech = 22
 				mission_completed = mam_highway_empire
@@ -229,7 +226,6 @@ suez_canal = {
 				mission_completed = ITA_explore_eastern_markets
 				mission_completed = ven_mamluk_suez
 			}
-			#treasury = 20000 #BT Removed because vanilla
 		}
 	}
 
@@ -459,7 +455,6 @@ panama_canal = {
 	build_trigger = {
 		FROM = {
 			owns_or_vassal_of = 835
-			is_subject = no
 			if = {
 				limit = {
 					NOT = { mission_completed = SUN_panama_canal }
@@ -467,7 +462,6 @@ panama_canal = {
 				}
 				adm_tech = 22
 			}
-			#treasury = 30000 #BT Removed because vanilla
 		}
 	}
 

@@ -279,17 +279,25 @@ country_decisions = {
 				owns_core_province = 43		# Danzig
 				owns_core_province = 2995	# Stolp
 			}
-			OR = { #BT re-adding this again. Catholic Prussia often broke Poland, and Poland has its own Prussia nowadays. //Dub
-				religion = protestant
-				religion = reformed
-				religion = hussite
-				religion = anglican
-				if = {
-					limit = { has_dlc = "Lions of the North" }
+			if = {
+				limit = { has_dlc = "Lions of the North" }
+				OR = {
 					custom_trigger_tooltip = {
-						tooltip = teu_kingdom_prussia_path_ct
+						tooltip = teu_prussia_path_ct
 						has_country_flag = teu_prussian_path
 					}
+					religion = protestant
+					religion = reformed
+					religion = hussite
+					religion = anglican
+				}
+			}
+			else = {
+				OR = {
+					religion = protestant
+					religion = reformed
+					religion = hussite
+					religion = anglican
 				}
 			}
 			total_development = 300			#Changed to 300 because original number was so low
@@ -303,6 +311,24 @@ country_decisions = {
 			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			swap_non_generic_missions = yes
+			if = {
+				limit = {
+					has_dlc = "Lions of the North"
+					has_mission = teu_defeat_the_poles
+					NOT = { mission_completed = teu_defeat_the_poles }
+				}
+				custom_tooltip = teu_select_automatically_prussian_path_tt
+				hidden_effect = {
+					complete_mission = teu_defeat_the_poles
+					add_power_projection = {
+						type = mission_rewards_power_projection
+						amount = 25
+					}
+					set_country_flag = teu_prussian_path
+					clr_country_flag = teu_crusader_path
+					swap_non_generic_missions = yes
+				}
+			}
 			remove_non_electors_emperors_from_empire_effect = yes
 			change_government = monarchy
 			add_government_reform = prussian_monarchy

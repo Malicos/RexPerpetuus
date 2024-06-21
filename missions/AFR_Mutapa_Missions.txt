@@ -991,12 +991,17 @@ mutapa_modernize_missions_slot = {
 		position = 3
 		provinces_to_highlight = {
 			OR = {
-				province_id = 789
-				province_id = 1181
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { base_manpower = 8 }
+				AND = {
+					OR = {
+						province_id = 789
+						province_id = 1181
+					}
+					OR = {
+						NOT = { owned_by = ROOT }
+						NOT = { base_manpower = 8 }
+					}
+				}
+				owned_by = ZUL
 			}
 		}
 		trigger = {
@@ -1015,6 +1020,10 @@ mutapa_modernize_missions_slot = {
 				num_of_cities = 3
 			}
 			adm_tech = 15
+			if = {
+				limit = { exists = ZUL }
+				NOT = { exists = ZUL }
+			}
 		}
 		effect = {
 			country_event = {

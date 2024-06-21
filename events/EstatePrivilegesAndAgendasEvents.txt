@@ -1332,8 +1332,17 @@ country_event = {
         custom_tooltip = ESTATES_SEIZE_LAND_DESC
         take_estate_land_share_massive = { estate = all }
 		custom_tooltip = SEPERATOR_TOOLTIP
-
 		if = {
+			limit = {
+				has_country_flag = ned_lands_generality_flag
+			}
+			add_estate_loyalty = {
+				estate = all
+				loyalty = -10
+				short = yes
+			}
+		}
+		else_if = {
 			limit = {
 				has_government_attribute = seizing_land_loyalty
 			}
@@ -1355,6 +1364,29 @@ country_event = {
 		re_add_loyalty_from_seized_land = yes
 		hidden_effect = { #Added here because for some bizarre reason, don't tell me why, add_estate_loyalty_modifier does not work when put in scripted effects. Sorry. Any mod authors who wish to add new estates will have to overwrite this file.
 			if = {
+				limit = {
+					has_country_flag = ned_lands_generality_flag
+				}
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_nobles } }			add_estate_loyalty_modifier = { estate = estate_nobles 			desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_brahmins } }		add_estate_loyalty_modifier = { estate = estate_brahmins 		desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_burghers } }		add_estate_loyalty_modifier = { estate = estate_burghers 		desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_church } }			add_estate_loyalty_modifier = { estate = estate_church 			desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_cossacks } }		add_estate_loyalty_modifier = { estate = estate_cossacks 		desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_dhimmi } }			add_estate_loyalty_modifier = { estate = estate_dhimmi 			desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_jains } }			add_estate_loyalty_modifier = { estate = estate_jains 			desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_maratha } }		add_estate_loyalty_modifier = { estate = estate_maratha 		desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_nomadic_tribes } }	add_estate_loyalty_modifier = { estate = estate_nomadic_tribes 	desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_rajput } }			add_estate_loyalty_modifier = { estate = estate_rajput 			desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_vaisyas } }		add_estate_loyalty_modifier = { estate = estate_vaisyas 		desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_janissaries } }	add_estate_loyalty_modifier = { estate = estate_janissaries 	desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_eunuchs } }		add_estate_loyalty_modifier = { estate = estate_eunuchs 		desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_qizilbash } }		add_estate_loyalty_modifier = { estate = estate_qizilbash 		desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_ghulams } }		add_estate_loyalty_modifier = { estate = estate_ghulams 		desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+				#BTIP Estates
+				if = { limit = { estate_has_exempt_from_seize_land_privilege = { estate = estate_peasants } }		add_estate_loyalty_modifier = { estate = estate_peasants 		desc = EST_EXEMPT_FROM_SEIZE_LAND loyalty = 10 duration = 1875 } }
+			
+			}
+			else_if = {
 				limit = {
 					has_government_attribute = seizing_land_loyalty
 				}
