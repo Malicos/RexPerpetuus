@@ -2,8 +2,9 @@
 #Region - Russia
 #Area - Suzdal
 
-owner = YAR
-controller = YAR
+owner = RSO
+controller = RSO
+add_core = RSO
 add_core = YAR
 culture = rostovian 
 religion = orthodox

@@ -1,7 +1,8 @@
 #3156 - Suceava
 
-owner = BKV
-controller = BKV
+owner = BIS
+controller = BIS
+add_core = BIS
 add_core = BKV
 culture = moldavian_culture
 religion = orthodox

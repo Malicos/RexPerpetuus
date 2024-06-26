@@ -2,9 +2,10 @@
 #Region - Russia
 #Area - Moscow
 
-owner = TVE
-controller = TVE
-add_core = TVE 
+owner = RSO
+controller = RSO
+add_core = RSO
+add_core = TVE
 culture = rostovian
 religion = orthodox
 hre = no

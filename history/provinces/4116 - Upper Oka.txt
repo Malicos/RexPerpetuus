@@ -2,8 +2,9 @@
 #Region - Russia
 #Area - Ryazan
 
-owner = OKA
-controller = OKA
+owner = RYA
+controller = RYA 
+add_core = RYA 
 add_core = OKA
 culture = ryazanian #Severian
 religion = orthodox

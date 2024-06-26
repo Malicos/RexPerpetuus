@@ -1,7 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BKV
-controller = BKV
+owner = BIS
+controller = BIS
+add_core = BIS
 add_core = BKV
 culture = halych
 religion = orthodox

@@ -2,8 +2,9 @@
 #Region - Russia
 #Area - Moscow
 
-owner = VTN
-controller = VTN
+owner = RYA
+controller = RYA 
+add_core = RYA
 add_core = VTN
 culture = ryazanian #Severian
 religion = orthodox

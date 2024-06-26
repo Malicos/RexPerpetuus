@@ -380,15 +380,6 @@ union = {
 	end_date = 1836.1.1
 }
 
-# Croatia and Slavonia
-vassal = {
-	subject_type = fiefdom_bt
-	first = CRO
-	second = SLA
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 ####################################################################
 # 4.5 - HRE, German and Bohemian
 ####################################################################
@@ -404,24 +395,6 @@ march = {
 march = {
 	first = BAV
 	second = HAB
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Bohemia and Lusatia
-vassal = {
-	subject_type = fiefdom_bt
-	first = BOH
-	second = SOR
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Bohemia and Misno
-vassal = {
-	subject_type = fiefdom_bt
-	first = BOH
-	second = MSO
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
@@ -504,15 +477,6 @@ guarantee = {
 	end_date = 1836.1.1
 }
 
-# Jutland and Djursland
-vassal = {
-	subject_type = fiefdom_bt
-	first = JUT
-	second = DSL
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Norway and Ribe
 vassal = {
 	first = NOR
@@ -548,28 +512,10 @@ union = {
 ####################################################################
 # 7 - Poland
 ####################################################################
-# Poland and Masuria
-vassal = {
-	subject_type = fiefdom_bt
-	first = POL
-	second = MSU
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Poland and Opole
 vassal = {
 	first = POL
 	second = OPL
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Poland and Greater Poland
-vassal = {
-	subject_type = fiefdom_bt
-	first = POL
-	second = WPK
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
@@ -585,85 +531,6 @@ march = {
 ####################################################################
 # 8 - Russia
 ####################################################################
-# Novgorodian Fief - Pskov
-vassal = {
-	subject_type = fiefdom_bt
-	first = NOV
-	second = PSK
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Smolenskian Fief - Mosalsk
-vassal = {
-	subject_type = fiefdom_bt
-	first = SMO
-	second = MSL
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Ryazanian Fief - Moscow
-vassal = {
-	subject_type = fiefdom_bt
-	first = RYA
-	second = MOS
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Ryazanian Fief - Oka
-vassal = {
-	subject_type = fiefdom_bt
-	first = RYA
-	second = OKA
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Ryazanian Fief - Pronsk
-vassal = {
-	subject_type = fiefdom_bt
-	first = RYA
-	second = PRS
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Ryazanian Fief - Vorotynsk
-vassal = {
-	subject_type = fiefdom_bt
-	first = RYA
-	second = VTN
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Rostovian Fief - Tver
-vassal = {
-	subject_type = fiefdom_bt
-	first = RSO
-	second = TVE
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Rostovian Fief - Yaroslavl
-vassal = {
-	subject_type = fiefdom_bt
-	first = RSO
-	second = YAR
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Rostovian Vassal - Beloozero
-vassal = {
-	first = RSO
-	second = BLO
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
 
 ####################################################################
 # 9 - Balkans
@@ -737,52 +604,9 @@ march = {
 	end_date = 1836.1.1
 }
 
-# Paccinacia and Levedia
-vassal = {
-	first = PEC
-	second = LVD
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Paccinacia and Bukovina
-vassal = {
-	subject_type = fiefdom_bt
-	first = PEC
-	second = BKV
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Union of Paccinacia and Moldavia
-union = {
-	first = PEC
-	second = MOL
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Cumania and Qangaria
-vassal = {
-	first = CUM
-	second = QGR
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-
 ####################################################################
 # 11 - Spain
 ####################################################################
-
-# Galicia and Eonavia
-vassal = {
-	subject_type = fiefdom_bt
-	first = GAL
-	second = EON
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
 
 # Galicia and Portugal
 march = {
@@ -800,28 +624,10 @@ march = {
 	end_date = 1836.1.1
 }
 
-# Leon and Braganza
-vassal = {
-	subject_type = fiefdom_bt
-	first = LON
-	second = BGC
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
 # Leon and Valdura
 march = {
 	first = LON
 	second = VDR
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
-
-# Castile and Campoo
-vassal = {
-	subject_type = fiefdom_bt
-	first = CAS
-	second = CPO
 	start_date = 1444.11.11
 	end_date = 1836.1.1
 }
@@ -865,14 +671,6 @@ march = {
 ####################################################################
 # 13 - Anatolia and Caucasus
 ####################################################################
-
-# Alliance - Pontus and Trebizond
-alliance = {
-	first = PON
-	second = TRE
-	start_date = 1444.11.11
-	end_date = 1836.1.1
-}
 
 ####################################################################
 # 14 - Africa

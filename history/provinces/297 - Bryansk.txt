@@ -1,7 +1,8 @@
 #297 - Bryansk
 
-owner = MSL
-controller = MSL
+owner = SMO
+controller = SMO
+add_core = SMO
 add_core = MSL
 culture = ryazanian #Severian
 religion = orthodox 

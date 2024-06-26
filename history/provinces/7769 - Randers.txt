@@ -1,9 +1,9 @@
 #BT reoverhaul
 
-owner = DSL
-controller = DSL
-add_core = DSL
+owner = JUT
+controller = JUT
 add_core = JUT
+add_core = DSL
 culture = danish
 religion = catholic
 capital = "Randers"

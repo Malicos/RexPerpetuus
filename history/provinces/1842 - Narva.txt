@@ -2,8 +2,9 @@
 #Region - Baltic
 #Area - Estonia
 
-owner = PSK
-controller = PSK
+owner = NOV
+controller = NOV
+add_core = NOV
 add_core = PSK
 add_core = EST
 culture = estonian

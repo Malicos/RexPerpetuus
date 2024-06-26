@@ -1,7 +1,8 @@
 #4261 - Ustyuzhna
 
-owner = BLO
-controller = BLO
+owner = RSO
+controller = RSO
+add_core = RSO
 add_core = BLO
 culture = vologdan
 religion = orthodox

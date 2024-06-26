@@ -1,8 +1,9 @@
  
 #60 - Lausitz
 
-owner = LUS
-controller = LUS
+owner = BOH
+controller = BOH
+add_core = BOH
 add_core = LUS
 capital = "Bautzen"
 culture = sorbian

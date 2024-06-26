@@ -2,8 +2,9 @@
 #Region - Russia
 #Area - Beloozero
 
-owner = BLO
-controller = BLO
+owner = RSO
+controller = RSO
+add_core = RSO
 add_core = BLO
 culture = pomor
 religion = orthodox

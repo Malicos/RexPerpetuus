@@ -5,8 +5,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LUS
-controller = LUS
+owner = BOH
+controller = BOH
+add_core = BOH
 add_core = LUS
 capital = "Cottbus"
 culture = sorbian
