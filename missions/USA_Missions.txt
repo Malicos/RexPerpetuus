@@ -1,1 +1,106 @@
-# Deprecated, replaced by a Rex Perpetuus mission tree.
+usa_missions_main = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = USA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	usa_independence = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		trigger = {
+			is_subject = no
+			is_at_war = no
+		}
+		effect = {
+			change_government_reform_progress = 100
+			if = {
+				limit = { NOT = { legitimacy_equivalent = 90 } }
+				add_legitimacy = 20
+				add_horde_unity = 20
+				add_devotion = 20
+				add_republican_tradition = 10
+			}
+			else = { add_prestige = 15 }
+			give_permaclaims_for_mission = { mission=defend_the_american_colonies }
+		}
+	}
+	defend_the_american_colonies = {
+		icon = mission_cannons_firing
+		required_missions = { usa_independence }
+		provinces_to_highlight = {
+			province_group = defend_the_american_colonies_provinces
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		trigger = {
+			has_fulfiled_general_province_requirement_for_mission_trigger = {
+				tooltip=country_holds_highlighted
+				provinces=defend_the_american_colonies_provinces
+				triggers="
+					owned_by = ROOT
+				"
+			}
+		}
+		effect = {
+			add_army_tradition = 50
+			add_stability = 2
+			give_permaclaims_for_mission = { mission=conquer_florida }
+		}
+	}
+	conquer_florida = {
+		icon = mission_unite_home_region
+		required_missions = { defend_the_american_colonies }
+		provinces_to_highlight = {
+			province_group = conquer_florida_provinces
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		trigger = {
+			has_fulfiled_general_province_requirement_for_mission_trigger = {
+				tooltip=country_holds_highlighted
+				provinces=conquer_florida_provinces
+				triggers="
+					owned_by = ROOT
+				"
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "military_victory"
+				duration = 7300
+			}
+			give_permaclaims_for_mission = { mission=reach_the_mississippi }
+		}
+	}
+	reach_the_mississippi = {
+		icon = mission_settlers_north_america
+		required_missions = { conquer_florida }
+		provinces_to_highlight = {
+			province_group = reach_the_mississippi_provinces
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		trigger = {
+			has_fulfiled_num_of_province_requirement_for_mission_trigger = {
+				provinces=reach_the_mississippi_provinces
+				owner_type=country_or_non_sovereign_subject_holds
+				value=10
+			}
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "colonial_enthusiasm"
+				duration = 7300
+			}
+		}
+	}
+	
+}

@@ -2803,63 +2803,31 @@ country_event = { #Negotiations of Lublin
 	
 	option = {
 		name = flavor_pol.32.a 						#BT Edited by Harbivore to make inline with Vanilla provinces
-		
+													#BT edited again by jackkade for historical accuracy and more dynamic outcomes. Poland will now vassalize KIE if it's still a vassal of LIT, instead of annexing the whole thing. If you've been developing it like the mission requires, Most of Kiev will be annexed but not all. Additionaly, vassalizing KIE better represents the low control but loyal gentry the crown had of the area, instead of applying sepratism and overextension.
 		west_dniepr_area = {
 			limit = {
-				OR = {
-					country_or_non_sovereign_subject_holds = ROOT 
-					AND = {
-						owned_by = KIE
-						KIE = {
-							is_subject_of = LIT
-						}
-					}
-				}
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 			cede_province = ROOT 
 			remove_core = LIT 
 		}
 		east_dniepr_area = {
 			limit = {
-				OR = {
-					country_or_non_sovereign_subject_holds = ROOT 
-					AND = {
-						owned_by = KIE
-						KIE = {
-							is_subject_of = LIT
-						}
-					}
-				}
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 			cede_province = ROOT 
 			remove_core = LIT 
 		}
 		podolia_volhynia_area = {
 			limit = {
-				OR = {
-					country_or_non_sovereign_subject_holds = ROOT 
-					AND = {
-						owned_by = KIE
-						KIE = {
-							is_subject_of = LIT
-						}
-					}
-				}
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 			cede_province = ROOT 
 			remove_core = LIT 
 		}
 		yedisan_area = {	#BT added to follow vanilla provinces
 			limit = {
-				OR = {
-					country_or_non_sovereign_subject_holds = ROOT 
-					AND = {
-						owned_by = KIE
-						KIE = {
-							is_subject_of = LIT
-						}
-					}
-				}
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 			cede_province = ROOT 
 			remove_core = LIT 
@@ -2867,15 +2835,7 @@ country_event = { #Negotiations of Lublin
 		lower_dnieper_area = {	#BT added to follow vanilla provinces
 			limit = {
 				province_id = 2406
-				OR = {
-					country_or_non_sovereign_subject_holds = ROOT 
-					AND = {
-						owned_by = KIE
-						KIE = {
-							is_subject_of = LIT
-						}
-					}
-				}
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 			cede_province = ROOT 
 			remove_core = LIT 
@@ -2887,52 +2847,53 @@ country_event = { #Negotiations of Lublin
 				NOT = { province_id = 7202 }
 				NOT = { province_id = 3302 }
 				NOT = { province_id = 7204 }
-				OR = {
-					country_or_non_sovereign_subject_holds = ROOT 
-					AND = {
-						owned_by = KIE
-						KIE = {
-							is_subject_of = LIT
-						}
-					}
-				}
+				country_or_non_sovereign_subject_holds = ROOT 
 			}
 			cede_province = ROOT 
 			remove_core = LIT 
 		}
-		# 282 = {	
-			# if = { 
-				# limit = {
-					# NOT = { owned_by = ROOT }
-				# }
-				# cede_province = ROOT 
-				# remove_core = LIT
-			# }
-		# }
-		# 283 = {
-			# if = { 
-				# limit = {
-					# NOT = { owned_by = ROOT }
-				# }
-				# cede_province = ROOT 
-				# remove_core = LIT
-			# }
-		# }
-		# 2406 = {
-			# if = { 
-				# limit = {
-					# NOT = { owned_by = ROOT }
-				# }
-				# cede_province = ROOT 
-				# remove_core = LIT
-			# }
-		# }
+		eastern_volhynia_area  = {	#BT added added for historical accuracy
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT 
+			}
+			cede_province = ROOT 
+			remove_core = LIT 
+		}
+		volhynia_area  = {	#BT added added for historical accuracy
+			limit = {
+				country_or_non_sovereign_subject_holds = ROOT 
+			}
+			cede_province = ROOT 
+			remove_core = LIT 
+		}
+		podlasie_area = {	#BT added for historical accuracy
+			limit = {
+				OR = {
+					province_id = 269
+					province_id = 7262
+				}
+				country_or_non_sovereign_subject_holds = ROOT 
+			}
+			cede_province = ROOT 
+			remove_core = LIT 
+		}
 		LIT = {
 			add_opinion = {
 				who = ROOT 
 				modifier = pol_annexed_ruthenia_opinion_modifier
 			}
 			remove_historical_friend = ROOT 
+		}
+		if = { #BT added for balance/gameplay reasons. Meant to represent local gentry who supported integration into the polish crown. 
+			limit = {
+				KIE = {
+					is_subject_of = LIT
+				}
+			}
+			LIT = {
+				free_vassal = KIE
+			}
+			vassalize = KIE
 		}
 		remove_historical_friend = LIT 
 		custom_tooltip = pol_form_plc_earlier_tt
