@@ -3,7 +3,7 @@
 owner = ABS
 controller = ABS
 add_core = ABS
-culture = saljuqid
+culture = al_iraqiya_arabic
 religion = sunni
 capital = "Basra"
 trade_goods = naval_supplies #(JP) Big port, right...?

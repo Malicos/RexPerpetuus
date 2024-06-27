@@ -9,7 +9,7 @@ owner = KIF
 controller = KIF
 
 #Demographics
-culture = saljuqid
+culture = al_iraqiya_arabic
 religion = sunni
 
 #Development and Trade

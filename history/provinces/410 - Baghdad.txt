@@ -3,7 +3,7 @@
 owner = ABS
 controller = ABS
 add_core = ABS
-culture = saljuqid
+culture = al_iraqiya_arabic
 religion = sunni
 capital = "Baghdad"
 trade_goods = bt_trade_good_books #(JP) Shia Religious Centre
