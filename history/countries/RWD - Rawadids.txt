@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = kurdish
+add_accepted_culture = daylamite
+religion = nizari
+technology_group = iranian_tech
+capital = 416 # Tabriz
+
+1412.6.17 = {
+	monarch = {
+		name = "Rustam IV"
+		dynasty = "Rawadid"
+		adm = 2
+		dip = 2
+		mil = 4
+		birth_date = 1385.1.21
+		religion = nizari
+		culture = kurdish
+	}
+}
