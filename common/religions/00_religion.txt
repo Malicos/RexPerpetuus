@@ -1776,6 +1776,7 @@ muslim = {
 		allowed_center_conversion = {
 			ibadi
 			shiite
+			muwalladi
 		}
 		country = {
 			cav_to_inf_ratio = 0.10
@@ -1794,12 +1795,16 @@ muslim = {
 		uses_piety = yes				# Uses piety mechanics
 	}
 
+	# RP: Isma'ili
 	shiite = {
-		color = { 38 204 0 }
+		color = { 51 204 0 }
 		icon = 6	
 		allowed_center_conversion = {
 			sunni
 			ibadi
+			hafizi
+			nizari
+			zaydi
 		}
 		country = {
 			heir_chance = 1.0
@@ -1842,9 +1847,13 @@ muslim = {
 		uses_piety = yes				# Uses piety mechanics
 	}
 	
+	# RP Added
 	muwalladi = {
 		color = { 111 201 164 }
 		icon = 43
+		allowed_center_conversion = {
+			sunni
+		}
 		country = {
 			cav_to_inf_ratio = 0.10
 			heir_chance = 1.0
@@ -1858,6 +1867,84 @@ muslim = {
 		}
 		
 		heretic = { BEKTASHI AHMADI ZIKRI }			#Yazidi made its own religion
+		
+		uses_piety = yes				# Uses piety mechanics
+	}
+
+	# RP Added
+	hafizi = {
+		color = { 127 204 102 }
+		icon = 6	
+		allowed_center_conversion = {
+			shiite
+			nizari
+			zaydi
+		}
+		country = {
+			heir_chance = 1.0
+			land_morale = 0.05
+		}
+		country_as_secondary = {
+			land_morale = 0.05
+			advisor_cost = -0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { DRUZE HURUFI ZAIDI }
+		
+		uses_piety = yes				# Uses piety mechanics
+	}
+	
+	# RP Added
+	nizari = {
+		color = { 51 178 25 }
+		icon = 6	
+		allowed_center_conversion = {
+			shiite
+			hafizi
+			zaydi
+		}
+		country = {
+			heir_chance = 1.0
+			land_morale = 0.05
+		}
+		country_as_secondary = {
+			land_morale = 0.05
+			advisor_cost = -0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { DRUZE HURUFI ZAIDI }
+		
+		uses_piety = yes				# Uses piety mechanics
+	}
+	
+	# RP Added
+	zaydi = {
+		color = { 76 204 51 }
+		icon = 6	
+		allowed_center_conversion = {
+			shiite
+			hafizi
+			nizari
+		}
+		country = {
+			heir_chance = 1.0
+			land_morale = 0.05
+		}
+		country_as_secondary = {
+			land_morale = 0.05
+			advisor_cost = -0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+		heretic = { DRUZE HURUFI ZAIDI }
 		
 		uses_piety = yes				# Uses piety mechanics
 	}
