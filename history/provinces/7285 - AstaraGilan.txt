@@ -5,8 +5,8 @@
 #Core Details
 capital = "Astara"
 is_city = yes
-owner = ISP
-controller = ISP
+owner = RWD
+controller = RWD
 
 #Demographics
 culture = daylamite
@@ -19,6 +19,7 @@ base_manpower = 4
 trade_goods = grain #Rice, though there might be an argument for Silk given that Gilan was a major silk producer.
 
 #Cores and Occupation (Alphabetical after current)
+add_core = RWD
 add_core = ISP
 
 #Other Political

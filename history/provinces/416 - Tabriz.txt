@@ -1,7 +1,8 @@
 #416 - Azerbaijan
 
-owner = TBR
-controller = TBR
+owner = RWD
+controller = RWD
+add_core = RWD
 add_core = TBR
 culture = daylamite
 religion = nizari

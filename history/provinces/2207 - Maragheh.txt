@@ -1,7 +1,8 @@
 #2207 - Maragheh
 
-owner = TBR
-controller = TBR
+owner = RWD
+controller = RWD
+add_core = RWD
 add_core = TBR
 culture = kurdish
 religion = nizari

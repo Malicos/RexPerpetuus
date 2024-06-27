@@ -1,8 +1,9 @@
  
 #424 - Ardabil
 
-owner =ISP
-controller = ISP
+owner = RWD
+controller = RWD
+add_core = RWD
 add_core = ISP
 culture = daylamite
 religion = nizari
