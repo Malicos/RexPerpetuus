@@ -118,6 +118,10 @@
  ###Armenian###
  armenian:0 "Vaspurakani"
  
+ ###Indo-Iranian###
+ ###Western Iranian###
+ tajik:0 "Khorasani"
+ 
  #################
  ###Afro-Asiatic###
  #################
@@ -125,6 +129,7 @@
  ####Semitic####
  ###Arabic###
  al_suryah_arabic:0 "Shaami"
+ khorasani:0 "Jugari"
  
  ####Old Egyptian####
  ###Coptic###

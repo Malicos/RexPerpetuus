@@ -3,7 +3,7 @@
 owner = TEH
 controller = TEH
 add_core = TEH
-culture = persian
+culture = daylamite
 religion = nizari
 capital = "Teheran"
 trade_goods = silk

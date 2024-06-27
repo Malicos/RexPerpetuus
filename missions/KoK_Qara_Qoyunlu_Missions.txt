@@ -1128,13 +1128,11 @@ qara_qoyunlu_third = {
 		trigger = {
 			OR = {
 				accepted_culture = turkish
-				primary_culture = turco_iranian
 			}
 			development_in_provinces = {
 				value = 150
 				OR = {
 					culture = turkish
-					culture = turco_iranian
 				}
 			}
 			NOT = { average_autonomy_above_min = 10 }

@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = indian_sultanate_reform
 technology_group = indian
 religion = sunni
-primary_culture = afghani
+primary_culture = tajik
 capital = 524 #Agra
 religious_school = hanafi_school
 

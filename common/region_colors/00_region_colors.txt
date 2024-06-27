@@ -54,7 +54,7 @@ color = { 75 35 180 } 	#Borneo Region
 color = { 50 40 120 } 	#Celebes Region
 color = { 30 10 110 } 	#Moluccas Region
 ###African Regions###
-color = { 210 240 210 } #Egypt Region
+color = { 230 180 110 } #Egypt Region
 color = { 125 90 60 } 	#Maghreb Region
 color = { 60 200 60 } 	#Guinea Region
 color = { 180 140 0 } 	#Niger Region

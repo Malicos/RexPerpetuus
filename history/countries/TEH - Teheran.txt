@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = iqta
 government_rank = 1
-primary_culture = persian
+primary_culture = daylamite
 add_accepted_culture = kalimi
 religion = sunni
 technology_group = iranian_tech
