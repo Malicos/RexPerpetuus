@@ -1818,7 +1818,7 @@ muslim = {
 			local_missionary_strength = -0.02
 		}
 		
-		heretic = { DRUZE HURUFI ZAIDI }
+		heretic = { HURUFI }
 		
 		uses_piety = yes				# Uses piety mechanics
 	}
@@ -1892,7 +1892,7 @@ muslim = {
 			local_missionary_strength = -0.02
 		}
 		
-		heretic = { DRUZE HURUFI ZAIDI }
+		heretic = { HURUFI }
 		
 		uses_piety = yes				# Uses piety mechanics
 	}
@@ -1918,7 +1918,7 @@ muslim = {
 			local_missionary_strength = -0.02
 		}
 		
-		heretic = { DRUZE HURUFI ZAIDI }
+		heretic = { HURUFI }
 		
 		uses_piety = yes				# Uses piety mechanics
 	}
@@ -1944,7 +1944,7 @@ muslim = {
 			local_missionary_strength = -0.02
 		}
 		
-		heretic = { DRUZE HURUFI ZAIDI }
+		heretic = { HURUFI }
 		
 		uses_piety = yes				# Uses piety mechanics
 	}
