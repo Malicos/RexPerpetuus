@@ -3,7 +3,7 @@
 owner = SIS
 controller = SIS
 add_core = SIS
-culture = afghani
+culture = tajik
 religion = sunni
 capital = "Ferah"
 trade_goods = livestock
