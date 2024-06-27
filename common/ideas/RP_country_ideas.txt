@@ -144,3 +144,52 @@ SHQ_ideas = {
 		cav_to_inf_ratio = 0.2
 	}
 }
+
+#Svalbard
+SVB_ideas = {
+	start = {
+		stability_cost_to_declare_war = -2
+		may_explore = yes
+	}
+
+	bonus = {
+		all_power_cost = -0.1
+	}
+
+	trigger = {
+		tag = SVB
+	}
+	free = yes
+
+	svb1 = {
+		shock_damage = 1
+		fire_damage_received = 0.5
+	}
+	svb2 = {
+		global_missionary_strength = 0.0666
+		missionaries = 6
+		tolerance_heathen = -100
+	}
+	svb3 = {
+		province_warscore_cost = -0.75
+		core_creation = -0.5
+		ae_impact = 1
+	}
+	svb4 = {
+		diplomats = 50
+		envoy_travel_time = 25
+	}
+	svb5 = {
+		disengagement_chance = 1
+		movement_speed_in_fleet_modifier = 10
+	}
+	svb6 = {
+		fire_damage_received = -1
+		shock_damage = -0.5
+	}
+	svb7 = {
+		max_absolutism = 100
+		max_absolutism_effect = 1
+		yearly_absolutism = -2
+	}
+}
