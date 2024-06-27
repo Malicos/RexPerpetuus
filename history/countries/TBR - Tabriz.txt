@@ -3,7 +3,7 @@ add_government_reform = iqta
 government_rank = 1
 primary_culture = daylamite
 add_accepted_culture = shirvani
-religion = shiite
+religion = nizari
 technology_group = iranian_tech
 capital = 416 # Tabriz
 
@@ -15,7 +15,7 @@ capital = 416 # Tabriz
 		dip = 2
 		mil = 4
 		birth_date = 1385.1.21
-		religion = shiite
+		religion = nizari
 		culture = daylamite
 	}
 }

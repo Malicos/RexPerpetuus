@@ -10,7 +10,7 @@ add_government_reform = iqta
 
 #Demographics
 primary_culture = talysh
-religion = sunni
+religion = nizari
 religious_school = hanafi_school
 
 #Tech and Military

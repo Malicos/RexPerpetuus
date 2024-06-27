@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = iqta
 government_rank = 1
 primary_culture = daylamite
-religion = sunni
+religion = nizari
 technology_group = iranian_tech
 capital = 426 # Mazandaran
 
@@ -14,7 +14,7 @@ capital = 426 # Mazandaran
 		dip = 3
 		mil = 3
 		birth_date = 1397.6.8
-		religion = sunni
+		religion = nizari
 		culture = turkmeni
 	}
 }
