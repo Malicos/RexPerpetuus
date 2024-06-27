@@ -5815,20 +5815,6 @@ saka_g = { #Borrowed from Atlas Novum
 
 	pashtuni = {
 	}
-	xorasani = { # EAST IRANIC VERSION
-		primary = KHO
-		male_names = {
-			Husayn Abu al-Qasim Rukh Ulugh Beg 'Abbas 'Abd
-			'Abd al-Rahman Anwar Bakr Fahd Faruq Fouad Hakim Harun Hisham Husayn Isma'il Jafar
-			Karim Khalil Mirza Muhammad Qasim Sulayman 'Umar Usama Yasir Yusuf Zaid
-			Zulqifar al-Karim Jamaal
-		}
-		female_names = {
-			Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam
-			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya
-		}
-	}
 	alan = {
 		primary = ALN
 		male_names = {
