@@ -10,7 +10,7 @@ controller = SRV
 
 #Demographics
 culture = shirvani
-religion = shiite
+religion = nizari
 
 #Development and Trade
 base_tax = 2
