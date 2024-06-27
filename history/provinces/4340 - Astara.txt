@@ -4,7 +4,7 @@
 owner = SRV
 controller = SRV
 add_core = SRV
-culture = talysh
+culture = daylamite
 religion = nizari
 capital = "Lankaran"
 trade_goods = fish

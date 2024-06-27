@@ -9,7 +9,7 @@ owner = ISP
 controller = ISP
 
 #Demographics
-culture = talysh
+culture = daylamite
 religion = nizari
 
 #Development and Trade
