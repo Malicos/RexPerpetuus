@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = iqta
 government_rank = 1
 primary_culture = al_misr_arabic
-religion = shiite
+religion = hafizi
 technology_group = muslim_tech
 capital = 356 # Benghazi
 fixed_capital = 356
@@ -16,7 +16,7 @@ religious_school = ismaili_school
 		dip = 3
 		mil = 4
 		birth_date = 1384.1.22
-		religion = shiite
+		religion = hafizi
 		culture = al_misr_arabic
 	}
 }
