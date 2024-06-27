@@ -3,7 +3,7 @@
 owner = DAY
 controller = DAY
 add_core = DAY
-culture = daylamite
+culture = talysh
 religion = nizari
 capital = "Rasht"
 trade_goods = silk

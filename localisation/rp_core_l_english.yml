@@ -113,9 +113,8 @@
  ####Indo-Iranic####
  ###Iranian###
  saljuqid:0 "Saljuqid"      # Persianate Turks
- daylamite:0 "Daylamite"
+ daylamite:0 "Caspian"  # Caspian Iranians
  tajik:0 "Tajik"
- shirvani:0 "Shirvani"
  pamiri:0 "Pamiri"
  tat_culture:0 "Tat"
  hazara:0 "Hazara"

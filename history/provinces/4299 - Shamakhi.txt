@@ -3,7 +3,7 @@
 owner = SRV
 controller = SRV
 add_core = SRV
-culture = shirvani
+culture = tat_culture
 religion = nizari
 capital = "Shemaki"
 trade_goods = silk

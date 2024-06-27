@@ -9,7 +9,7 @@ owner = SRV
 controller = SRV
 
 #Demographics
-culture = shirvani
+culture = tat_culture
 religion = nizari
 
 #Development and Trade

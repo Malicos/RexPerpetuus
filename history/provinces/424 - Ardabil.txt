@@ -4,7 +4,7 @@
 owner =ISP
 controller = ISP
 add_core = ISP
-culture = talysh
+culture = daylamite
 religion = nizari
 capital = "Ardabil"
 trade_goods = dyes

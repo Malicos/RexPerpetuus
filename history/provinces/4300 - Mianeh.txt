@@ -3,7 +3,7 @@
 owner = ISP
 controller = ISP
 add_core = ISP
-culture = talysh
+culture = daylamite
 religion = nizari
 capital = "Mianeh"
 trade_goods = bt_trade_good_books
