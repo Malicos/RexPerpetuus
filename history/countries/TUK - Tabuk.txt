@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = iqta
 government_rank = 1
 primary_culture = bedouin_arabic
-religion = sunni
+religion = shiite
 technology_group = muslim_tech
 capital = 383 # Tabuk
 fixed_capital = 383
@@ -15,7 +15,7 @@ fixed_capital = 383
 		dip = 1
 		mil = 3
 		birth_date = 1421.1.23
-		religion = sunni
+		religion = shiite
 		culture = bedouin_arabic
 	}
 }
