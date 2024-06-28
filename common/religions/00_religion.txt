@@ -391,7 +391,7 @@ christian = {
 	#RP: Reclamist
 	protestant = {
 		color = { 28 69 135 }
-		icon = 2
+		icon = 35
 
 		allowed_conversion = {
 			reformed
@@ -671,10 +671,10 @@ christian = {
 		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
 	}
 	
-	# RP Added
+	# RP Added; Sabotier
 	waldensian = {
 		color = { 219 56 56 }
-		icon = 38
+		icon = 60
 		allowed_center_conversion = {
 			catholic
 		}
@@ -1798,7 +1798,7 @@ muslim = {
 	# RP: Isma'ili
 	shiite = {
 		color = { 51 204 0 }
-		icon = 6	
+		icon = 55 #New Icon	
 		allowed_center_conversion = {
 			sunni
 			ibadi
@@ -1825,7 +1825,7 @@ muslim = {
 	
 	ibadi = {
 		color = { 0 153 0 }
-		icon = 16	
+		icon = 54 #New Icon	
 		allowed_center_conversion = {
 			sunni
 			shiite
@@ -1874,7 +1874,7 @@ muslim = {
 	# RP Added
 	hafizi = {
 		color = { 127 204 102 }
-		icon = 6	
+		icon = 58	
 		allowed_center_conversion = {
 			shiite
 			nizari
@@ -1900,7 +1900,7 @@ muslim = {
 	# RP Added
 	nizari = {
 		color = { 51 178 25 }
-		icon = 6	
+		icon = 57	
 		allowed_center_conversion = {
 			shiite
 			hafizi
@@ -1926,7 +1926,7 @@ muslim = {
 	# RP Added
 	zaydi = {
 		color = { 76 204 51 }
-		icon = 6	
+		icon = 56	
 		allowed_center_conversion = {
 			shiite
 			hafizi
@@ -2809,7 +2809,7 @@ dharmic = {
 	#RP Added
 	devaraja = {
 		color = { 50 168 82 }
-		icon = 1
+		icon = 59
 		allowed_conversion = {
 			sikhism
 		}
