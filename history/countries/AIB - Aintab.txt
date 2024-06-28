@@ -10,7 +10,7 @@ government = monarchy
 add_government_reform = iqta
 
 #Demographics
-primary_culture = al_iraqiya_arabic
+primary_culture = qeltu_arabic
 religion = sunni
 religious_school = shafii_school
 #add_accepted_culture
@@ -29,6 +29,6 @@ technology_group = muslim_tech
 		mil = 3
 		birth_date = 1384.9.14
 		religion = sunni
-		culture = al_iraqiya_arabic
+		culture = qeltu_arabic
 	}
 }

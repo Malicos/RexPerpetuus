@@ -9,7 +9,7 @@ owner = ABS
 controller = ABS
 
 #Demographics
-culture = al_iraqiya_arabic
+culture = qeltu_arabic
 religion = sunni
 
 #Development and Trade

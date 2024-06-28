@@ -122,7 +122,7 @@
  ###Saka###
  saka_g:0 "Saka"
  pashtuni:0 "Pashto"
- xorasani:0 "Xorasani"
+ soghdian:0 "Soghdian"
  
  ##################
  ###Afro-Asiatic###
@@ -132,6 +132,7 @@
  ###Arabic###
  siquli_culture:0 "Siquli"
  khamseh:0 "Khamseh"
+ qeltu_arabic:0 "Qeltu"
  ###Moorish####
  moorish:0 "Moorish"          # Iberian Muslim Group
  batalyawsi:0 "Shenshiri"        # Muslim Badajozi

@@ -9,7 +9,7 @@ owner = ALM
 controller = ALM
 
 #Demographics
-culture = al_iraqiya_arabic
+culture = qeltu_arabic
 religion = sunni
 
 #Development and Trade

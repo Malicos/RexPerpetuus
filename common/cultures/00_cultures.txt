@@ -4865,7 +4865,7 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 			Rajiya Sadiya Salma Sitara Thana Zahra Zahra Zuhayra
 		}
 	}
-	al_iraqiya_arabic = { #Mashriqi Arab
+	al_iraqiya_arabic = { #Gilit Mesopotamian Arabic
 		primary = IRQ
 		dynasty_names = {
 			"Saadun" "Jalili" "Hasanid" "Sabah" Javid
@@ -5138,6 +5138,22 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah
 			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
 			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+		}
+	}
+	qeltu_arabic = { #Qeltu Mesopotamian Arabic
+		dynasty_names = {
+			"Saadun" "Jalili" "Hasanid" "Sabah" Javid
+			"Yaruba" "al-Said" "Usfurid" "Jarwanid" "Hashim"
+		}
+		male_names = {
+			Sulayman 'Abdallâh 'Alî 'Umar Dâ'ûd Hasan Sa'îd 'Abbas 'Abd al-Karim 'Abd al-Rahman Anwar Atuf Bakr
+			Faruq Fouad Hakim Harun Hikmat Hisham Husayn Isma'il Jafar Jamaal Karim Khalil Malîk Mirza Muhammad
+			Qasim Rashîd Rusul Shimun Tarîq Usama Yasir Yusuf Zaid Zîyad Zulqifar Fahd Mustafa
+		}
+		female_names = {
+			Badr Fatimah Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
+			Jamila Khadija Majida Mariam Maria Nabila Nura Radiya Rana Sacmis Safiya
+			Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra Zahra
 		}
 	}
 }
@@ -5990,6 +6006,19 @@ saka_g = { #Borrowed from Atlas Novum
 	dynasty_names = {
 		Afsharid Zand Qajar Qoli Zahedi Talish Safavid Zulqadr Shamlu Sahandlu Zanganeh
 		Zaman Ustajlu Tekkelu Jaberi Khuzani Kujuji Ordubadi Khalifeh Karaki
+	}
+	soghdian = {
+		male_names = {
+			Husayn Abu al-Qasim Rukh Ulugh Beg 'Abbas 'Abd
+			'Abd al-Rahman Anwar Bakr Fahd Faruq Fouad Hakim Harun Hisham Husayn Isma'il Jafar
+			Karim Khalil Mirza Muhammad Qasim Sulayman 'Umar Usama Yasir Yusuf Zaid
+			Zulqifar al-Karim Jamaal
+		}
+		female_names = {
+			Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam
+			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya
+		}
 	}
 }
 
