@@ -1,17 +1,34 @@
- 
+#2735 - Meintangk
+#Area - Naracoorte
+#Region - Southeastern Australia
 
-culture = kulin # 1.31
-religion = dreamtime # 1.31
-capital = "Gunditjmara"
-hre = no
-base_tax = 2 
-base_production = 2
+#Core Details
+capital = "Meintangk"
+
+#Demographics
+culture = kulin
+religion = dreamtime
+native_size = 50
+native_ferocity = 1
+native_hostileness = 2
+
+#Development and Trade
+base_tax = 1
+base_production = 1
 base_manpower = 1
 trade_goods = unknown
-native_size = 10
-native_ferocity = 1
-native_hostileness = 9
 
-discovered_by = aboriginal_tech # 1.31
+#Cores and Occupation (Alphabetical after current)
 
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech
+
+#Histories 
 1802.1.1 = { discovered_by = GBR } # Matthew Flinders

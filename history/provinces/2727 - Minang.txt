@@ -1,17 +1,34 @@
- 
+#2727 - Kinjarling
+#Area - Rainbow Coast
+#Region - Western Australia
 
-culture = nyoongah # 1.31
-religion = dreamtime # 1.31
+#Core Details
 capital = "Minang"
-hre = no
+
+#Demographics
+culture = nyoongah
+religion = dreamtime
+native_size = 40
+native_ferocity = 1
+native_hostileness = 2
+
+#Development and Trade
 base_tax = 2
 base_production = 2
-base_manpower = 2
+base_manpower = 1
 trade_goods = unknown
-native_size = 10
-native_ferocity = 1
-native_hostileness = 9
 
-discovered_by = aboriginal_tech # 1.31
+#Cores and Occupation (Alphabetical after current)
 
-1619.1.10 = { discovered_by = NED } # Frederick de Houtman
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech
+
+#Histories 
+1619.1.10 = { discovered_by = NED } # Frederick de Houtman  

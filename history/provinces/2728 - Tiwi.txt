@@ -1,17 +1,53 @@
 #2728 - Tiwi
+#Area - Darwin
+#Region - Northern Australia
 
-culture = gunwinyguan
-religion = dreamtime
+#Core Details
 capital = "Tiwi"
-hre = no
-trade_goods = unknown
-base_manpower = 1 
-base_tax = 2  
-base_production = 2
-native_size = 5
-native_ferocity = 1
-native_hostileness = 9
+is_city = yes
+owner = TIW
+controller = TIW
 
-discovered_by = MKS
-discovered_by = TER
-discovered_by = TID
+#Demographics
+culture = tiwi
+religion = dreamtime
+native_size = 70
+native_ferocity = 4
+native_hostileness = 5
+
+#Development and Trade
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+
+#Cores and Occupation (Alphabetical after current)
+add_core = TIW
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech
+1400.1.1 = { # Brian fixed
+	discovered_by = MKS
+	discovered_by = TER
+	discovered_by = TID
+}
+#Histories   
+#1444 onwards
+1444.11.15 = { #BeyondTypus batch edit shortcut no vassal start date begin
+	owner = xxx
+	controller = xxx
+	remove_core = TIW
+}
+1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+	owner = TIW
+	controller = TIW
+	add_core = TIW
+}   
+1642.11.24 = { discovered_by = NED } # Abel Tasman

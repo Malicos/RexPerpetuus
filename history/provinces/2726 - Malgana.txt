@@ -1,22 +1,51 @@
- 
-# owned in 1.31
+#2726 - Maya
+#Area - Gascoyne
+#Region - Western Australia
 
-owner = MLG
-controller = MLG
-add_core = MLG
-culture = nyoongah # 1.31
-religion = dreamtime # 1.31
-capital = "Malgana"
-is_city = yes
-hre = no
+#Core Details
+capital = "Maya"
+is_city = no
+
+#Demographics
+culture = kanyara
+religion = dreamtime
+native_size = 30
+native_ferocity = 1
+native_hostileness = 2
+
+#Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = naval_supplies
-native_size = 5
-native_ferocity = 1
-native_hostileness = 9
+trade_goods = unknown
+center_of_trade = 1
 
-discovered_by = aboriginal_tech # 1.31
+#Cores and Occupation (Alphabetical after current)
+add_core = MLG
 
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech
+
+#Histories   
+1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+	owner = MLG			#Malgana
+	controller = MLG
+	add_core = MLG
+	is_city = yes
+	trade_goods = naval_supplies
+}
+1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+	owner = XXX
+	controller = XXX
+	remove_core = MLG
+	is_city = no
+	trade_goods = unknown
+}
 1619.1.10 = { discovered_by = NED } # Frederick de Houtman

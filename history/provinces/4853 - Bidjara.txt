@@ -1,18 +1,34 @@
- 
-# new in 1.31
+#4853 - Barunggam
+#Area - Brigalow Belt
+#Region - Northeastern Australia
 
-culture = gamilaraay
-religion = dreamtime
+#Core Details
 capital = "Bidjara"
-hre = no
-base_tax = 1
+
+#Demographics
+culture = gabi
+religion = dreamtime
+native_size = 40
+native_ferocity = 1
+native_hostileness = 2
+
+#Development and Trade
+base_tax = 2
 base_production = 1
 base_manpower = 1
 trade_goods = unknown
-native_size = 1
-native_ferocity = 1
-native_hostileness = 3
 
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
 discovered_by = aboriginal_tech
 
-1642.11.24 = { discovered_by = NED } # Abel Tasman
+#Histories    
+1642.11.24 = { discovered_by = NED } # Abel Tasman  

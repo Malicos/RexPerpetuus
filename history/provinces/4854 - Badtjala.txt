@@ -1,19 +1,34 @@
- 
-# new in 1.31
+#4854 - Githabul
+#Area - Moreton Bay-Burnett
+#Region - Northeastern Australia
 
-culture = aboriginal
+#Core Details
+capital = "Githabul"
+
+#Demographics
+culture = bandjalang
 religion = dreamtime
-capital = "Badtajala"
-hre = no
-base_tax = 4
-base_production = 3
-base_manpower = 2
-trade_goods = unknown
-native_size = 2
+native_size = 50
 native_ferocity = 1
-native_hostileness = 3
-center_of_trade = 1
+native_hostileness = 2
 
+#Development and Trade
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = unknown
+
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
 discovered_by = aboriginal_tech
 
-1642.11.24 = { discovered_by = NED } # Abel Tasman
+#Histories    
+1642.11.24 = { discovered_by = NED } # Abel Tasman  

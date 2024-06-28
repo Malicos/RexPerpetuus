@@ -1,18 +1,42 @@
- 
-# new in 1.31
+#4864 - Wajuk
+#Area - Swan Coast
+#Region - Western Australia
 
+#Core Details
+capital = "Wajuk"
+
+#Demographics
 culture = nyoongah
 religion = dreamtime
-capital = "Yuat"
-hre = no
-base_tax = 1
+native_size = 40
+native_ferocity = 1
+native_hostileness = 2
+
+#Development and Trade
+base_tax = 2
 base_production = 1
 base_manpower = 1
 trade_goods = unknown
-native_size = 5
-native_ferocity = 1
-native_hostileness = 4
+center_of_trade = 1
 
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
 discovered_by = aboriginal_tech
 
-1642.11.24 = { discovered_by = NED } # Abel Tasman
+#Histories 
+#1444 onwards
+1444.11.12 = { #BeyondTypus batch edit shortcut no vassal start date begin
+	tribal_owner = NOO
+}
+1444.11.14 = { #BeyondTypus batch edit shortcut no vassal start date end
+	tribal_owner = xxx
+}
+1642.11.24 = { discovered_by = NED } # Abel Tasman 

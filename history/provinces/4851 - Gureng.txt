@@ -1,18 +1,50 @@
- 
-# new in 1.31
+#4851 - Mianjin
+#Area - Moreton Bay-Burnett
+#Region - Northeastern Australia
 
-culture = aboriginal
+#Core Details
+capital = "Mianjin"
+is_city = no
+
+#Demographics
+culture = bandjalang
 religion = dreamtime
-capital = "Gureng"
-hre = no
-base_tax = 2 
-base_production = 2
-base_manpower = 1
-trade_goods = unknown # Brian fixed
-native_size = 3
+native_size = 60
 native_ferocity = 1
 native_hostileness = 2
 
+#Development and Trade
+base_tax = 4 
+base_production = 3
+base_manpower = 2
+trade_goods = unknown
+center_of_trade = 1
+
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
 discovered_by = aboriginal_tech
 
-1642.11.24 = { discovered_by = NED } # Abel Tasman
+#Histories    
+1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+	owner = MIA			#Yuggera
+	controller = MIA
+	add_core = MIA
+	is_city = yes
+	trade_goods = naval_supplies
+}
+1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+	owner = XXX
+	controller = XXX
+	remove_core = MIA
+	is_city = no
+	trade_goods = unknown
+}
+1642.11.24 = { discovered_by = NED } # Abel Tasman 

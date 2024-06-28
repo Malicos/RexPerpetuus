@@ -1,18 +1,33 @@
- 
-# new in 1.31
+#4849 - Kukatj
+#Area - Gulf Country
+#Region - Northeastern Australia
 
-culture = paman
+#Core Details
+capital = "Kukatj"
+
+#Demographics
+culture = garandi
 religion = dreamtime
-capital = "Kurtjar"
-hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
-trade_goods = unknown
-native_size = 2
+native_size = 50
 native_ferocity = 1
 native_hostileness = 2
 
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = unknown
+
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
 discovered_by = aboriginal_tech
 1400.1.1 = { # Brian fixed
 	discovered_by = MKS
@@ -20,4 +35,5 @@ discovered_by = aboriginal_tech
 	discovered_by = TID
 }
 
+#Histories   
 1642.11.24 = { discovered_by = NED } # Abel Tasman

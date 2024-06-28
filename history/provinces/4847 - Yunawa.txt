@@ -1,27 +1,53 @@
- 
-# new in 1.31
+#4847 - Yanyuwa
+#Area - Carpentaria
+#Region - Northern Australia
 
+#Core Details
+capital = "Yanyuwa"
+is_city = yes
 owner = YNU
 controller = YNU
-add_core = YNU
-culture = paman
+
+#Demographics
+culture = yanyuwa
 religion = dreamtime
-capital = "Yunawa"
-is_city = yes
-hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
-trade_goods = fish
 native_size = 2
 native_ferocity = 1
 native_hostileness = 2
 
+#Development and Trade
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+
+#Cores and Occupation (Alphabetical after current)
+add_core = YNU
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
 discovered_by = aboriginal_tech
 1400.1.1 = { # Brian fixed
 	discovered_by = MKS
 	discovered_by = TER
 	discovered_by = TID
 }
-
+#Histories  
+#1444 onwards
+1444.11.15 = { #BeyondTypus batch edit shortcut no vassal start date begin
+	owner = xxx
+	controller = xxx
+	remove_core = YNU
+}
+1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+	owner = YNU
+	controller = YNU
+	add_core = YNU
+}  
 1642.11.24 = { discovered_by = NED } # Abel Tasman

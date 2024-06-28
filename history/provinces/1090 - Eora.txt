@@ -1,26 +1,54 @@
- 
-# owned in 1.31
+#1090 - Warrane
+#Area - Botany Bay
+#Region - Southeastern Australia
 
-owner = EOR
-controller = EOR
-add_core = EOR
-culture = aboriginal
-religion = dreamtime # 1.31
-capital = "Eora"
-is_city = yes
-hre = no
-base_tax = 4 # BT; 5
+#Core Details
+capital = "Warrane"
+is_city = no
+
+#Demographics
+culture = yoran
+religion = dreamtime
+native_size = 60
+native_ferocity = 1
+native_hostileness = 2
+
+#Development and Trade
+base_tax = 4
 base_production = 4
 base_manpower = 2
 trade_goods = fish
-native_size = 10
-native_ferocity = 1
-native_hostileness = 2
 center_of_trade = 1
 extra_cost = 8
 
-discovered_by = aboriginal_tech # 1.31
+#Cores and Occupation (Alphabetical after current)
 
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = aboriginal_tech
+
+#Histories  
+1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+	owner = EOR			#Eora
+	controller = EOR
+	add_core = EOR
+	is_city = yes
+	trade_goods = fish
+}
+1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+	owner = XXX
+	controller = XXX
+	remove_core = EOR
+	is_city = no
+	trade_goods = unknown
+}
 1770.1.1 = { discovered_by = GBR } # James Cook
 1788.1.26 = {
 	discovered_by = GBR

@@ -1,18 +1,34 @@
- 
-# Brian added
+#5686 - Mirning
+#Area - Nullarbor
+#Region - Western Australia
 
-culture = nyoongah
-religion = dreamtime
+#Core Details
 capital = "Jadjuuna"
-hre = no
+
+#Demographics
+culture = mirning
+religion = dreamtime
+native_size = 20
+native_ferocity = 1
+native_hostileness = 2
+
+#Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 2
 trade_goods = unknown
-native_size = 20
-native_ferocity = 2
-native_hostileness = 9
 
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
 discovered_by = aboriginal_tech
 
+#Histories 
 1619.1.10 = { discovered_by = NED } # Frederick de Houtman
