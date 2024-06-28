@@ -1,16 +1,18 @@
 namespace = BeyondTypusCarpathiaPolandEvents
 
-#1-5: Pawning on Szepes towns
+#1-6: Treaty of Lubowla
+#https://en.wikipedia.org/wiki/Treaty_of_Lubowla
+#https://en.wikipedia.org/wiki/Province_of_13_Szepes_Towns
+#https://en.wikipedia.org/wiki/Eldership_of_Spisz
 #1: Reserved for start event for pre-1444: Hungary pawns Szepes (13 out of 24) to Poland
 #2: Hungary wants Szepes towns back. If they pay, event 3. If they war, event 4.
 #3: Hungary pays for Poland. If Poland accepts, event 5. If Poland refuses, event 6.
-#4: Hungary wars for Poland. Poland is notified through event 7
-#5: Hungary is notified that Poland accepted payment
-#6: Hungary is notified that Poland refuses. Hungary can choose to go to war, and Poland is notified through event 7.
-#7: Poland is notified that Hungary has gone to war.
+#4: Hungary is notified that Poland accepted payment.
+#5: Hungary is notified that Poland refuses. Hungary can choose to go to war, and Poland is notified through event 7.
+#6: Poland is notified that Hungary has gone to war.
 
-
-country_event = { # Hungary wants Szepes towns back
+#ROOT = HUN
+country_event = { # The Treaty of Lubowla - Aftermath
     id = BeyondTypusCarpathiaPolandEvents.2
     title = BeyondTypusCarpathiaPolandEvents.2.title
     desc = BeyondTypusCarpathiaPolandEvents.2.desc
@@ -26,23 +28,57 @@ country_event = { # Hungary wants Szepes towns back
 				owned_by = PLC
 			}
 			any_neighbor_province = {
-				owned_by = HUN
+				owned_by = ROOT
 			}
 		}
 		# no negative prestige or stability
 		prestige = 0
 		stability = 0
 		years_of_income = 1 #So Hungary doesn't go too crazy into debt
-		always = no #Will come back to this later. I don't want this to fire just yet as it's not done.
+		NOT = { num_of_loans = 1 } #Hungary is not in debt
 	}
 	
 	mean_time_to_happen = {
 		months = 300 #About 25 years
 	}
 	
-	option = {
-		add_years_of_income = -2
+	option = { #Repay the loan
+		name = "BeyondTypusCarpathiaPolandEvents.2.optA"
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				NOT = { #Friendship has broken somehow
+					historical_friend_with = POL
+					historical_friend_with = PLC
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				1318 = {
+					owned_by = POL
+				}
+			}
+			POL = {
+				country_event = {
+					id = "BeyondTypusCarpathiaPolandEvents.3"
+					days = 5
+				}
+			}
+			else = {
+				PLC = {
+					country_event = {
+						id = "BeyondTypusCarpathiaPolandEvents.3"
+						days = 5
+					}
+				}
+			}
+		}
+		custom_tooltip = BeyondTypusCarpathiaPolandEvents.2.optA.tooltip
 		tooltip = {
+			add_years_of_income = -2
 			1318 = {
 				add_core = HUN
 				if = {
@@ -57,6 +93,251 @@ country_event = { # Hungary wants Szepes towns back
 				cede_province = HUN
 			}
 		}
-			
+	}
+	
+	option = { #Try to take it back by force!
+		name = "BeyondTypusCarpathiaPolandEvents.2.optB"
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				OR = { #Friendship exists, why declare war?
+					historical_friend_with = POL
+					historical_friend_with = PLC
+				}
+			}
 		}
+		
+		1318 = {
+			add_core = ROOT
+		}
+		if = {
+			limit = {
+				1318 = {
+					owned_by = POL
+				}
+			}
+			POL = {
+				country_event = {
+					id = BeyondTypusCarpathiaPolandEvents.6
+				}
+			}
+			declare_war_with_cb = {
+				who = POL
+				casus_belli = cb_core #Reconquest
+			}
+		}
+		else = {
+			PLC = {
+				country_event = {
+					id = BeyondTypusCarpathiaPolandEvents.6
+				}
+			}
+			declare_war_with_cb = {
+				who = PLC
+				casus_belli = cb_core #Reconquest
+			}
+		}
+	}
+	
+	option = { #Leave it be
+		name = "BeyondTypusCarpathiaPolandEvents.2.optC"
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				OR = { #Friendship exists, why declare war?
+					historical_friend_with = POL
+					historical_friend_with = PLC
+				}
+			}
+		}
+		
+		add_prestige = -5
+	}
+}
+
+#ROOT = POL/PLC
+#FROM = HUN
+country_event = { # The Treaty of Lubowla - Aftermath - Polish Response
+    id = BeyondTypusCarpathiaPolandEvents.3
+    title = BeyondTypusCarpathiaPolandEvents.3.title
+    desc = BeyondTypusCarpathiaPolandEvents.3.desc
+    picture = DIPLOMACY_SIGNING_eventPicture
+
+    fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = { #Accept the payment
+		name = "BeyondTypusCarpathiaPolandEvents.3.optA"
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				NOT = { #Friendship has broken somehow
+					historical_friend_with = FROM
+				}
+			}
+		}
+		
+		hidden_effect = {
+			FROM = {
+				country_event = {
+					id = "BeyondTypusCarpathiaPolandEvents.4"
+				}
+			}
+		}
+		tooltip = {
+			FROM = {
+				add_years_of_income = -2
+			}
+			1318 = {
+				add_core = FROM
+				remove_core = ROOT
+				cede_province = FROM
+			}
+		}
+	}
+	
+	option = { #Reject it and keep the township
+		name = "BeyondTypusCarpathiaPolandEvents.3.optB"
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				historical_friend_with = FROM #Fwend!
+			}
+		}
+		
+		FROM = {
+			country_event = {
+				id = "BeyondTypusCarpathiaPolandEvents.5"
+			}
+		}
+		custom_tooltip = BeyondTypusCarpathiaPolandEvents.3.optB.tooltip
+	}
+}
+
+#ROOT = HUN
+#FROM = POL/PLC
+country_event = { # The Treaty of Lubowla - Aftermath - Poland Accepts!
+    id = BeyondTypusCarpathiaPolandEvents.4
+    title = BeyondTypusCarpathiaPolandEvents.4.title
+    desc = BeyondTypusCarpathiaPolandEvents.4.desc
+    picture = DIPLOMACY_SIGNING_eventPicture
+	
+    fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_years_of_income = -2
+			1318 = {
+				add_core = ROOT
+				remove_core = FROM
+				cede_province = ROOT
+			}
+		}
+	}
+	
+	trigger = {
+	}
+	
+	option = { #Great!
+		name = "BeyondTypusCarpathiaPolandEvents.4.optA"
+		tooltip = {
+			add_years_of_income = -2
+			1318 = {
+				add_core = ROOT
+				remove_core = FROM
+				cede_province = ROOT
+			}
+		}
+	}
+}
+
+#ROOT = HUN
+#FROM = POL/PLC
+country_event = { # The Treaty of Lubowla - Aftermath - Poland Refuses!
+    id = BeyondTypusCarpathiaPolandEvents.5
+    title = BeyondTypusCarpathiaPolandEvents.5.title
+    desc = BeyondTypusCarpathiaPolandEvents.5.desc
+    picture = DIPLOMACY_SIGNING_eventPicture
+	
+    fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = { #We'll have to take it back by force!
+		name = "BeyondTypusCarpathiaPolandEvents.5.optA"
+		ai_chance = {
+			factor = 90
+			modifier = {
+				factor = 0
+				historical_friend_with = FROM
+			}
+		}
+		
+		1318 = {
+			add_core = ROOT
+		}
+		declare_war_with_cb = {
+			who = FROM
+			casus_belli = cb_core #Reconquest
+		}
+		FROM = {
+			country_event = {
+				id = BeyondTypusCarpathiaPolandEvents.6
+			}
+		}
+	}
+	
+	option = { #Back down
+		name = "BeyondTypusCarpathiaPolandEvents.5.optB"
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { #Friendship has broken somehow
+					historical_friend_with = FROM
+				}
+			}
+		}
+		
+		add_prestige = -10
+	}
+}
+
+#ROOT = POL/PLC
+#FROM = HUN
+country_event = { #The Treaty of Lubowla - Aftermath - Hungary Declares War!
+    id = BeyondTypusCarpathiaPolandEvents.6
+    title = BeyondTypusCarpathiaPolandEvents.6.title
+    desc = BeyondTypusCarpathiaPolandEvents.6.desc
+    picture = BATTLE_eventPicture
+	
+    fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = { #Time to teach them how to fight!
+		tooltip = {
+			1318 = {
+				add_core = FROM
+			}
+			FROM = {
+				declare_war_with_cb = {
+					who = ROOT
+					casus_belli = cb_core #Reconquest
+				}
+			}
+		}
+	}
 }

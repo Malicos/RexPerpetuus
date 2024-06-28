@@ -110,3 +110,8 @@ bt_ukr_tamed_the_steppes = {
 	can_recruit_cossacks = yes
 	allowed_cossack_fraction = 0.2
 }
+
+ukr_revolutionary_zeal = {
+	yearly_revolutionary_zeal = 0.5
+	administrative_efficiency = 0.05
+}

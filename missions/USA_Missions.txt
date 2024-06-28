@@ -86,6 +86,7 @@ usa_missions_main = {
 		}
 		trigger = {
 			has_fulfiled_num_of_province_requirement_for_mission_trigger = {
+				tooltip=country_holds_or_non_sovereign_subject_holds_highlighted_num
 				provinces=reach_the_mississippi_provinces
 				owner_type=country_or_non_sovereign_subject_holds
 				value=10
