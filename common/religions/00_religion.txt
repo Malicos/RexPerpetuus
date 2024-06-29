@@ -354,7 +354,7 @@ christian = {
 	# RP: Utraquist
 	hussite = {
 		color = { 204 77 12 }
-		icon = 37
+		icon = 22
 
 		allowed_center_conversion = {
 			catholic
@@ -3070,7 +3070,7 @@ pagan = {
 	
 	# RP Added
 	baltic_pagan_reformed = {
-		icon = 53
+		icon = 61
 		color = { 153 102 76 }
 		country = {
 			fort_maintenance_modifier = -0.1
@@ -3291,7 +3291,7 @@ jewish_group = {
 	
 	#RP Added
 	karaism = {
-		icon = 1
+		icon = 62
 		color = { 25 127 229 }
 		country = {
 			max_states = 5
