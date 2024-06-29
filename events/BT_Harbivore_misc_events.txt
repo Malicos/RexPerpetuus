@@ -208,12 +208,12 @@ country_event = {                         #Start of event chain to cede english 
 	# Cede all of Gascony and Normandy to France
 	option = {
 		name = bt_harb_misc.6.a
-		custom_tooltip = bt_harb_misc.6.a.tt
 		ENG = {
 			country_event = {
 				id = bt_harb_misc.7
 			}
 		}
+		custom_tooltip = bt_harb_misc.6.a.tt
 		france_region = {
 			limit = {
 				has_province_flag = bt_hyw_concession
@@ -228,12 +228,12 @@ country_event = {                         #Start of event chain to cede english 
 	# Cede all of Gascony to France, but make Normandy into an Appanage
 	option = {
 		name = bt_harb_misc.6.b
-		custom_tooltip = bt_harb_misc.6.b.tt
 		ENG = {
 			country_event = {
 				id = bt_harb_misc.7
 			}
 		}
+		custom_tooltip = bt_harb_misc.6.b.tt
 		hidden_effect = {
 			france_region = {
 				limit = {
@@ -279,12 +279,12 @@ country_event = {                         #Start of event chain to cede english 
 	# Cede all of Normandy to France, but make Gascony into an Appanage
 	option = {
 		name = bt_harb_misc.6.c
-		custom_tooltip = bt_harb_misc.6.c.tt
 		ENG = {
 			country_event = {
 				id = bt_harb_misc.7
 			}
 		}
+		custom_tooltip = bt_harb_misc.6.c.tt
 		hidden_effect = {
 			france_region = {
 				limit = {
@@ -325,12 +325,12 @@ country_event = {                         #Start of event chain to cede english 
 	# Make Gascony and Normandy into an Appanage
 	option = {
 		name = bt_harb_misc.6.d
-		custom_tooltip = bt_harb_misc.6.d.tt
 		ENG = {
 			country_event = {
 				id = bt_harb_misc.7
 			}
 		}
+		#custom_tooltip = bt_harb_misc.6.d.tt
 		hidden_effect = {
 			france_region = {
 				limit = {

@@ -19,21 +19,27 @@ french_missions_1 = {
 				area = normandy_area 
 				area = lower_normandy_area
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
+			NOT = { owned_by = ROOT } 
 		}
 		trigger = { 
 			normandy_area = { 
 				type = all 
 				OR = {
-					country_or_non_sovereign_subject_holds = ROOT 
+					owned_by = ROOT 
 					province_id = 7967 #Eu, owned by Nevers
+				}
+				hidden_trigger = { #Required to allow custom peacedeal to work with mission.
+					NOT = { has_province_flag =  bt_hyw_concession }
 				}
 			}
 			lower_normandy_area = { 
 				type = all 
 				OR = {
-					country_or_non_sovereign_subject_holds = ROOT 
+					owned_by = ROOT 
 					province_id = 3110 #Channel Islands, owned by Channel Islands
+				}
+				hidden_trigger = { #Required to allow custom peacedeal to work with mission.
+					NOT = { has_province_flag =  bt_hyw_concession }
 				}
 			}
 		}
@@ -2481,6 +2487,8 @@ french_missions_3 = {
 					country_or_non_sovereign_subject_holds = ROOT 
 					controlled_by = ROOT
 					province_id = 7923 #Navarra part, owned by Navarra
+					province_id = 176 #Foix part, owned by Foix
+					province_id = 7926 #Foix part, owned by Foix
 				}
 			}
 			guyenne_area = { 
