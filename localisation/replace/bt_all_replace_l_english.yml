@@ -797,5 +797,7 @@
  NO_GOLD_PRODUCING_PROVINCES:0 "We have no provinces that are producing precious metals."
  GOLD_PRODUCING_PROVINCES:0 "The following provinces are producing precious metals: $LIST$"
  
+ ACCEPTED_CULTURES_COUNT:0 "Promoted Cultures: $CURR$"
+ ACCEPTED_CULTURE_SLOTS_DESC:0 "To promote a culture, click the §Y"Promote Culture"§! button on a Non-Accepted Culture.\nThe below is bugged and cannot be removed without custom GUI, so ignore:\n"
  
  

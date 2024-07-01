@@ -161,6 +161,7 @@ country_event = { #1400 Peasants Mining privilege modifiers application for newl
 		any_owned_province = {
 			OR = {
 				trade_goods = gold
+				trade_goods = bt_trade_good_silver
 				trade_goods = iron
 				trade_goods = copper
 				trade_goods = coal
@@ -176,6 +177,7 @@ country_event = { #1400 Peasants Mining privilege modifiers application for newl
 				OR = {
 					trade_goods = gold
 					trade_goods = iron
+					trade_goods = bt_trade_good_silver
 					trade_goods = copper
 					trade_goods = coal
 				}

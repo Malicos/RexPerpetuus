@@ -11,6 +11,21 @@ custom_button = {
 			monthly_dip = 1
 		}
 		num_of_colonists = 1
+		if = { #Cooldown mechanic
+			limit = {
+				NOT = {
+					had_country_flag = {
+						flag = extra_colonist_button_cd
+						days = 30
+					}
+				}
+				has_country_flag = extra_colonist_button_cd
+			}
+			custom_trigger_tooltip = {
+				tooltip = extra_envoy_button_cd_tooltip
+				always = no
+			}
+		}
 	} 
 	effect = {
 		hidden_effect = {
@@ -27,6 +42,7 @@ custom_button = {
 			else = {
 				remove_country_modifier = extra_colonist_button_mod
 			}
+			set_country_flag = extra_colonist_button_cd
 		}
 	} #Effect
 	tooltip = extra_colonist_loc #Can use customizable localisation
@@ -56,6 +72,21 @@ custom_button = {
 			}
 			monthly_dip = 1
 		}
+		if = { #Cooldown mechanic
+			limit = {
+				NOT = {
+					had_country_flag = {
+						flag = extra_diplomat_button_cd
+						days = 30
+					}
+				}
+				has_country_flag = extra_diplomat_button_cd
+			}
+			custom_trigger_tooltip = {
+				tooltip = extra_envoy_button_cd_tooltip
+				always = no
+			}
+		}
 	}
 	effect = {
 		hidden_effect = {
@@ -72,6 +103,7 @@ custom_button = {
 			else = {
 				remove_country_modifier = extra_diplomat_button_mod
 			}
+			set_country_flag = extra_diplomat_button_cd
 		}
 	} #Effect
 	tooltip = extra_diplomat_loc #Can use customizable localisation
@@ -101,6 +133,21 @@ custom_button = {
 			}
 			monthly_dip = 1
 		}
+		if = { #Cooldown mechanic
+			limit = {
+				NOT = {
+					had_country_flag = {
+						flag = extra_merchant_button_cd
+						days = 30
+					}
+				}
+				has_country_flag = extra_merchant_button_cd
+			}
+			custom_trigger_tooltip = {
+				tooltip = extra_envoy_button_cd_tooltip
+				always = no
+			}
+		}
 	}
 	effect = {
 		hidden_effect = {
@@ -117,6 +164,7 @@ custom_button = {
 			else = {
 				remove_country_modifier = extra_merchant_button_mod
 			}
+			set_country_flag = extra_merchant_button_cd
 		}
 	} #Effect
 	tooltip = extra_merchant_loc #Can use customizable localisation
@@ -146,6 +194,21 @@ custom_button = {
 			}
 			monthly_adm = 1
 		}
+		if = { #Cooldown mechanic
+			limit = {
+				NOT = {
+					had_country_flag = {
+						flag = extra_missionary_button_cd
+						days = 30
+					}
+				}
+				has_country_flag = extra_missionary_button_cd
+			}
+			custom_trigger_tooltip = {
+				tooltip = extra_envoy_button_cd_tooltip
+				always = no
+			}
+		}
 	}
 	effect = {
 		hidden_effect = {
@@ -162,6 +225,7 @@ custom_button = {
 			else = {
 				remove_country_modifier = extra_missionary_button_mod
 			}
+			set_country_flag = extra_missionary_button_cd
 		}
 	} #Effect
 	tooltip = extra_missionary_loc #Can use customizable localisation
