@@ -5,8 +5,8 @@
 #Core Details
 capital = "Meshala Maryam"
 is_city = yes
-owner = ETH
-controller = ETH
+owner = IFT
+controller = IFT
 
 #Demographics
 culture = amhara
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = ivory #Found a claim that Ivory was exported from Aliyu Amba, which *appears* to be in this province, along the routes to Tadjoura in the 19th century. But that's about it. //Dub
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ETH
+add_core = IFT
 
 #Other Political
 hre = no

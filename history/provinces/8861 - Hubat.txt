@@ -5,8 +5,8 @@
 #Core Details
 capital = "Hubat"
 is_city = yes
-owner = ADA
-controller = ADA
+owner = IFT
+controller = IFT
 
 #Demographics
 culture = harari
@@ -19,9 +19,8 @@ base_manpower = 2
 trade_goods = coffee #JP and Endreyas' TG research
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ADA
-add_core = HAR
 add_core = IFT
+add_core = HAR
 
 #Other Political
 hre = no

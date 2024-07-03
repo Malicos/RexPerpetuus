@@ -5,8 +5,8 @@
 #Core Details
 capital = "Obock"
 is_city = yes
-owner = ADA
-controller = ADA
+owner = IFT
+controller = IFT
 
 #Demographics
 culture = afar
@@ -19,7 +19,6 @@ base_manpower = 2
 trade_goods = fish #Fishing village //Dub
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ADA
 add_core = IFT
 
 #Other Political

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Hazalo"
 is_city = yes
-owner = ADA
-controller = ADA
+owner = IFT
+controller = IFT
 
 #Demographics
 culture = afar
@@ -19,9 +19,8 @@ base_manpower = 2
 trade_goods = bt_trade_good_fruit #There was a good chunk of fruits and veggies produced around this river, so I'm making an executive decision and making this fruit. //Dub
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ADA
-add_core = BQZ
 add_core = IFT
+add_core = BQZ
 
 #Other Political
 hre = no

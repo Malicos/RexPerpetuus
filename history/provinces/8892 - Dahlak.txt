@@ -5,8 +5,8 @@
 #Core Details
 capital = "Dahlak Kebir"
 is_city = yes
-owner = DHK
-controller = DHK
+owner = MED
+controller = MED
 
 #Demographics
 culture = dahalik
@@ -19,6 +19,7 @@ base_manpower = 3
 trade_goods = fish #Rich marine life, but I do not know if gems representing pearls or other things like such is a good idea here. //Dub
 
 #Cores and Occupation (Alphabetical after current)
+add_core = MED
 add_core = DHK
 
 #Other Political

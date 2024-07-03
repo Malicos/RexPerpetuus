@@ -5,8 +5,8 @@
 #Core Details
 capital = "Fursi"
 is_city = yes
-owner = ETH
-controller = ETH
+owner = IFT
+controller = IFT
 
 #Demographics
 culture = afar
@@ -19,8 +19,7 @@ base_manpower = 1
 trade_goods = ivory #Endreyas' suggestion
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ETH
-add_core = ADA
+add_core = IFT
 
 #Other Political
 hre = no

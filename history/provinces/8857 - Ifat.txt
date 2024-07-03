@@ -5,8 +5,8 @@
 #Core Details
 capital = "Ifat"
 is_city = yes
-owner = ETH
-controller = ETH
+owner = IFT
+controller = IFT
 
 #Demographics
 culture = argobba
@@ -19,9 +19,7 @@ base_manpower = 1
 trade_goods = tobacco #This province, Ifat, apparently was incredibly important production-wise, where a *lot* of stuff was produced according to the wiki. Especially Khat, which is a stimulant drug plant. Therefore, Tobacco. //Dub
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ETH
 add_core = IFT
-add_core = ADA
 
 #Other Political
 hre = no

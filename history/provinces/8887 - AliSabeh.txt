@@ -5,8 +5,8 @@
 #Core Details
 capital = "Ali Sabeh"
 is_city = yes
-owner = ADA
-controller = ADA
+owner = IFT
+controller = IFT
 
 #Demographics
 culture = dir
@@ -19,7 +19,6 @@ base_manpower = 2
 trade_goods = livestock #Travellers stopped by the city for water on the way to Zelia, climate is semi-arid but is not important for anything else. Going livestock because of this. //Dub
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ADA
 add_core = IFT
 
 #Other Political
