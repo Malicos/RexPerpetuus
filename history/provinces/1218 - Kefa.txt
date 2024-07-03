@@ -1,20 +1,38 @@
-#1218 - Sidamo
+#1218 - Hofa, later Sidama
+#Area - 
+#Region - Horn of Africa
 
-owner = WLY
-controller = WLY
-add_core = WLY
-culture = sidamo 
-religion = waaq
+#Core Details
 capital = "Irgalem"
-is_city = yes
-base_manpower = 4
-trade_goods = coffee
+is_city = no
+owner = HDY #Sultanate of Hadiya
+controller = HDY #Sultanate of Hadiya
+
+#Demographics
+culture = gedeo
+religion = shamanism
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = grain
+
+#Cores and Occupation (Alphabetical after current)
+add_core = HDY #Sultanate of Hadiya
+add_core = HFA
+
+#Other Political
 hre = no
-base_tax = 4  
-base_production = 4
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
 discovered_by = east_african
-discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
+discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
+
+#Histories 

@@ -1,3 +1,4 @@
+ 
 #1225 - Butana
 
 culture = nubian 
@@ -14,9 +15,7 @@ native_hostileness = 9
 
 
 discovered_by = east_african
-discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
+discovered_by = muslim
 
 
 1470.1.1 = {
