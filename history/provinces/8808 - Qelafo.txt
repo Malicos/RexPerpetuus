@@ -5,8 +5,8 @@
 #Core Details
 capital = "Qelafo"
 is_city = yes
-owner = AJU
-controller = AJU
+owner = MDI
+controller = MDI
 
 #Demographics
 culture = hawiye
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = bt_trade_good_fruit #JP's research in conjunction with Endreyas
 
 #Cores and Occupation (Alphabetical after current)
-add_core = AJU
+add_core = MDI
 
 #Other Political
 hre = no

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Jowhar"
 is_city = yes
-owner = AJU
-controller = AJU
+owner = MDI
+controller = MDI
 
 #Demographics
 culture = hawiye
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = AJU
+add_core = MDI
 
 #Other Political
 hre = no

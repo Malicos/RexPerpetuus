@@ -5,8 +5,8 @@
 #Core Details
 capital = "Buurhakaba"
 is_city = yes
-owner = AJU
-controller = AJU
+owner = TNN
+controller = TNN
 
 #Demographics
 culture = reewin
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock #JP's research in conjunction with Endreyas
 
 #Cores and Occupation (Alphabetical after current)
-add_core = AJU
+add_core = TNN
 
 #Other Political
 hre = no
