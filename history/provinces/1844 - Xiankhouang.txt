@@ -1,8 +1,8 @@
 #1844 - Xiankhouang
 
-owner = XTG
-controller = XTG
-add_core = XTG
+owner = DAI
+controller = DAI
+add_core = DAI
 add_core = MPH
 culture = tai
 religion = buddhism

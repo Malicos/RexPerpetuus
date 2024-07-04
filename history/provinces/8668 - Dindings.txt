@@ -1,7 +1,8 @@
 #Dindings
 
-owner = LMT
-controller = LMT
+owner = PRK
+controller = PRK
+add_core = PRK
 add_core = LMT
 culture = malayan
 religion = sunni

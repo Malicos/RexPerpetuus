@@ -1,7 +1,8 @@
 #Simhampura
 
-owner = CHA
-controller = CHA
+owner = DAI
+controller = DAI
+add_core = DAI
 add_core = CHA
 culture = cham
 religion = devaraja

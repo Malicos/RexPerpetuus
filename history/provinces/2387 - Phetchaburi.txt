@@ -1,8 +1,8 @@
 #2387 - Phetchaburi
 
-owner = TNS
-controller = TNS
-add_core = TNS
+owner = LAV
+controller = LAV
+add_core = LAV
 culture = central_thai
 religion = buddhism
 capital = "Phetchaburi"

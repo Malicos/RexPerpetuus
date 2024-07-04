@@ -1,8 +1,9 @@
  
 # ex 8617
 
-owner = XTG
-controller = XTG
+owner = DAI
+controller = DAI
+add_core = DAI
 add_core = XTG
 culture = lao
 religion = buddhism # BT; 

@@ -1,7 +1,8 @@
 #Muang Lai
 
-owner = XTG
-controller = XTG
+owner = CDL
+controller = CDL
+add_core = CDL
 add_core = XTG
 add_core = SSC
 culture = tai

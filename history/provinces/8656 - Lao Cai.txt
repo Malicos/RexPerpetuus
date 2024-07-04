@@ -1,7 +1,8 @@
 #Lao Cai
 
-owner = DAI
-controller = DAI
+owner = CDL
+controller = CDL
+add_core = CDL
 add_core = DAI
 add_core = SSC
 culture = tai
