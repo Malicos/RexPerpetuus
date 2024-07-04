@@ -1,8 +1,8 @@
 #675 - Qujing
 
-owner = SNG
-controller = SNG
-add_core = SNG
+owner = CDL
+controller = CDL
+add_core = CDL
 add_core = CYI
 culture = yi
 religion = bimoism

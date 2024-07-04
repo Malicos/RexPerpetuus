@@ -1,10 +1,9 @@
 #2406 - Jianchang
 
-owner = SNG
-controller = SNG
-add_core = SNG
-add_core = CYI
+owner = CDL
+controller = CDL
 add_core = CDL
+add_core = CYI
 add_core = CXI
 culture = yi
 religion = bimoism

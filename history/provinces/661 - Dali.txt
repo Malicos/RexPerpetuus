@@ -1,8 +1,7 @@
 #661 - Dali
 
-owner = SNG
-controller = SNG
-add_core = SNG
+owner = CDL
+controller = CDL
 add_core = CDL
 culture = bai
 religion = buddhism
