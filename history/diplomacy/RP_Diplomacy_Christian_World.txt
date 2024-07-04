@@ -346,7 +346,7 @@ guarantee = {
 }
 
 # Pisa and Monaco
-vassal = {
+guarantee = {
 	first = PIS
 	second = MNC
 	start_date = 1444.11.11
