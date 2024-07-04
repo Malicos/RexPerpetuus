@@ -3,7 +3,7 @@
 graphical_culture = indiangfx
 #special_unit_culture = south_east_asian_special
 
-color = { 103 172 192 }
+color = { 33 120 68 }
 
 historical_idea_groups = {
 	trade_ideas
