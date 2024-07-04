@@ -1,7 +1,7 @@
 #4052 - Dawa
 
-culture = somali
-religion = sunni
+culture = orma
+religion = waaq
 capital = "Dawa"
 trade_goods = unknown
 is_city = yes

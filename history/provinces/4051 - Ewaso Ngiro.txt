@@ -1,7 +1,7 @@
 #4051 - Ewaso Ngiro
 
-culture = somali
-religion = sunni
+culture = orma
+religion = waaq
 capital = "Ewaso Ngiro"
 trade_goods = unknown
 is_city = yes
