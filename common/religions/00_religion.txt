@@ -353,7 +353,7 @@ christian = {
 	
 	# RP: Utraquist
 	hussite = {
-		color = { 204 77 12 }
+		color = { 207 207 109 }
 		icon = 22
 
 		allowed_center_conversion = {
