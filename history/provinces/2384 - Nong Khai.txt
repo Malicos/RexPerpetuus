@@ -1,7 +1,8 @@
 #2384 - Nong Khai
 
-owner = XTG
-controller = XTG
+owner = ISN
+controller = ISN
+add_core = ISN
 add_core = XTG
 add_core = VIE
 culture = lao

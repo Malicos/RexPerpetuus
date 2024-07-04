@@ -310,8 +310,10 @@ ZHT = "countries/Zhetysu.txt"
 
 # South-East Asia
 HPC = "countries/Hariphunchai.txt"
+ISN = "countries/Isana.txt"
 KTR = "countries/Kutaraja.txt"
 LAV = "countries/Lavo.txt"
+LKS = "countries/Langkasuka.txt"
 LMT = "countries/Lumut.txt"
 PAG = "countries/Pagan.txt"
 SGH = "countries/Singhasari.txt"

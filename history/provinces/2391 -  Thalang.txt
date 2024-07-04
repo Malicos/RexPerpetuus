@@ -1,7 +1,8 @@
 #2391 - Thalang
 
-owner = THG
-controller = THG
+owner = LKS
+controller = LKS
+add_core = LKS
 add_core = THG
 culture = central_thai
 religion = buddhism

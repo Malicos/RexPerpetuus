@@ -1,7 +1,8 @@
 #2390 - Chaiya
 
-owner = TNS
-controller = TNS
+owner = LKS
+controller = LKS
+add_core = LKS
 add_core = TNS
 culture = central_thai
 religion = buddhism

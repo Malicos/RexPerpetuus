@@ -2,9 +2,9 @@
 # ex 8599
 # wasteland in vanilla
 
-owner = PAG
-controller = PAG
-add_core = PAG
+owner = PEG
+controller = PEG
+add_core = PEG
 add_core = TAU
 culture = karen
 religion = buddhism

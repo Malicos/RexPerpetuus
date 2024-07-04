@@ -1,7 +1,8 @@
 #593 - Nakhon Si Thammarat
 
-owner = LIG
-controller = LIG
+owner = LKS
+controller = LKS
+add_core = LKS
 add_core = LIG
 culture = central_thai
 religion = buddhism

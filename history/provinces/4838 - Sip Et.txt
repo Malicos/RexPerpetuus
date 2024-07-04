@@ -1,8 +1,9 @@
  
 # ex 8729
 
-owner = KHM
-controller = KHM
+owner = ISN
+controller = ISN
+add_core = ISN
 add_core = KHM
 add_core = CHK
 culture = lao

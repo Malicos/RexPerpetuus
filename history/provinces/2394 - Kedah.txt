@@ -1,7 +1,9 @@
 #2394 - Kedah
 
-owner = KED
-controller = KED
+owner = LKS
+controller = LKS
+add_core = LKS
+add_core = KED
 culture = malayan
 religion = sunni
 capital = "Kedah"
@@ -11,7 +13,6 @@ base_tax = 6
 base_production = 6
 base_manpower = 3
 is_city = yes
-add_core = KED
 
 discovered_by = chinese
 discovered_by = japanese_group
@@ -24,6 +25,3 @@ discovered_by = ottoman
 
 extra_cost = 8
 center_of_trade = 1
-
-1516.1.1 = { discovered_by = POR } # Godinho de Eredia
-

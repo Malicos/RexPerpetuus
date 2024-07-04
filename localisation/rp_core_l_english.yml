@@ -172,7 +172,6 @@
  manghit:0 "Manghit"
  barlas:0 "Barlas"
  telengid:0 "Telengid"
- toqsoba:0 "Toqsoba"
  karaite:0 "Karaite"
  ###Oghur###
  oghur:0 "Oghur"
@@ -817,10 +816,14 @@
  # South-East Asia
  HPC:0 "Hariphunchai"
  HPC_ADJ:0 "Hariphunchai"
+ ISN:0 "Isana"
+ ISN_ADJ:0 "Isanian"
  KTR:0 "Lamuri"
  KTR_ADJ:0 "Lamurian"
  LAV:0 "Lavo"
  LAV_ADJ:0 "Lavan"
+ LKS:0 "Langkasuka"
+ LKS_ADJ:0 "Langkasukan"
  LMT:0 "Lumut"
  LMT_ADJ:0 "Lumutian"
  PAG:0 "Pagan"
