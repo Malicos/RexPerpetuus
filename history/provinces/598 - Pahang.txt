@@ -2,7 +2,7 @@
 
 owner = PAH
 controller = PAH
-culture = malayan
+culture = dambro
 religion = mahayana
 capital = "Pahang"
 trade_goods = copper #tin
@@ -22,22 +22,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1454.1.1 = {
-	owner = MLC
-	controller = MLC
-        add_core = MLC
-        add_core = JOH
-}
-
-1470.1.1 = {
-	religion = sunni #Established as a vassal state
-}
-
-1516.1.1 = { discovered_by = POR }
-
-1528.1.1 = {
-	owner = JOH
-	controller = JOH
-        remove_core = MLC
-}

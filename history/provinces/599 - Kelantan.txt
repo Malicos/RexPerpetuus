@@ -2,7 +2,7 @@
 
 owner = KEL
 controller = KEL
-culture = malayan
+culture = dambro
 religion = sunni
 capital = "Kelantan"
 trade_goods = naval_supplies

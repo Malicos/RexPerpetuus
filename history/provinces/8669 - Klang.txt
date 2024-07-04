@@ -3,7 +3,7 @@
 owner = SMN
 controller = SMN
 add_core = SMN
-culture = malayan
+culture = dambro
 religion = sunni
 capital = "Klang"
 trade_goods = copper #Tin

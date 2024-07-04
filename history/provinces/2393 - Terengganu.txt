@@ -3,7 +3,7 @@
 owner = TGU
 controller = TGU
 add_core = TGU
-culture = malayan
+culture = dambro
 religion = sunni
 capital = "Terengganu"
 trade_goods = fish

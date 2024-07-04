@@ -2,7 +2,7 @@
 
 owner = PAT
 controller = PAT
-culture = malayan
+culture = dambro
 religion = buddhism
 capital = "Patani"
 trade_goods = tropical_wood

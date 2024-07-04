@@ -4,7 +4,7 @@
 owner = PRK
 controller = PRK
 add_core = PRK
-culture = malayan
+culture = dambro
 religion = sunni
 capital = "Klian Pauh" # BT; "Pengang"
 is_city = yes
@@ -22,10 +22,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1516.1.1 = { discovered_by = POR } # Godinho de Eredia
-
-1528.1.1 = {
-	owner = PRK
-	controller = PRK
-}
