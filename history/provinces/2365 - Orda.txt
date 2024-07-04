@@ -3,7 +3,7 @@
 owner = RDH
 controller = RDH
 add_core = RDH
-culture = astrakhani
+culture = manghit
 religion = sunni
 capital = "Orda"
 trade_goods = livestock

@@ -3,7 +3,7 @@
 owner = SKH
 controller = SKH
 add_core = SKH
-culture = toqsoba
+culture = crimean
 religion = sunni
 capital = "Kyzyl-Yar"
 base_tax = 1 

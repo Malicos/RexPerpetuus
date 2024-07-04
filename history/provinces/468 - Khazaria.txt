@@ -3,7 +3,7 @@
 owner = RDH
 controller = RDH
 add_core = RDH
-culture = toqsoba
+culture = crimean
 religion = sunni
 capital = "Semikarakor"
 trade_goods = wool

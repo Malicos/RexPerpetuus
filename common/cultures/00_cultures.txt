@@ -13770,9 +13770,6 @@ tartar = {
 	barlas = {
 	}
 	#RP Culture
-	toqsoba = {
-	}
-	#RP Culture
 	telengid = {
 	}
 	#RP Culture

@@ -3,7 +3,7 @@
 owner = RDH
 controller = RDH
 add_core = RDH
-culture = toqsoba
+culture = astrakhani
 religion = sunni
 hre = no
 base_tax = 4 

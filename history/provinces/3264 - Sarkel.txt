@@ -3,7 +3,7 @@
 owner = RDH
 controller = RDH
 add_core = RDH
-culture = toqsoba
+culture = astrakhani
 religion = sunni
 capital = "Sarkel"
 trade_goods = grain

@@ -3,7 +3,7 @@
 owner = SKH
 controller = SKH
 add_core = SKH
-culture = toqsoba
+culture = crimean
 religion = sunni
 capital = "Belska Sloboda"			#Russian settlement from circa 1600, but no better options showing up
 base_tax = 1

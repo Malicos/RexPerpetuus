@@ -3,7 +3,7 @@
 owner = SKH
 controller = SKH
 add_core = SKH
-culture = toqsoba
+culture = crimean
 religion = sunni
 capital = "Aleksandrovka"			#Nothing here 'til the late 18th century... so.... getting creative. Modern Donetsk
 base_tax = 1

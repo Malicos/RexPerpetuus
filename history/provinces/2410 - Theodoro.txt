@@ -3,8 +3,8 @@
 owner = GTH
 controller = GTH
 add_core = GTH
-culture = goths
-religion = orthodox
+culture = crimean
+religion = sunni
 hre = no
 base_tax = 6 
 base_production = 6

@@ -3,8 +3,8 @@
 owner = KIE
 controller = KIE
 add_core = KIE
-culture = bisseni
-religion = orthodox
+culture = crimean
+religion = sunni
 capital = "Vozia"
 base_tax = 1
 base_production = 2

@@ -3,8 +3,8 @@
 owner = KIE
 controller = KIE
 add_core = KIE
-culture = bisseni
-religion = orthodox
+culture = crimean
+religion = sunni
 capital = "Voznesensk"			#Error, founded 1790. No better options showing up quickly, though
 base_tax = 1
 base_production = 1
