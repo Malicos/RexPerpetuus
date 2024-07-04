@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = iqta
 government_rank = 1
 technology_group = muslim_tech
-religion = shiite
+religion = zaydi
 primary_culture = yemeni_culture
 capital = 390
 fixed_capital = 390
@@ -15,7 +15,7 @@ fixed_capital = 390
 		dip = 4
 		mil = 4
 		birth_date = 1391.5.6
-		religion = shiite
+		religion = zaydi
 		culture = yemeni_culture
 	}
 }
