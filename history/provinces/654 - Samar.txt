@@ -1,7 +1,10 @@
 #654 - Samar
 
+add_core = LYT
+owner = LYT
+controller = LYT
 culture = visayan
-religion = anito
+religion = shinto
 capital = "Borongan"
 trade_goods = unknown
 hre = no

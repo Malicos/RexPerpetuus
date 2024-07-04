@@ -1,7 +1,10 @@
 #4353 - Leyte
 
+add_core = LYT
+owner = LYT
+controller = LYT
 culture = visayan
-religion = anito
+religion = shinto
 capital = "Leyte"
 trade_goods = unknown
 hre = no
