@@ -10086,6 +10086,20 @@ southeastasian_group = {
 	dynasty_names = {
 		"Mangrai" "Chaochetton" "Phra Ruang" "Champassak"
 	}
+	#RP Culture
+	dambro = {
+		primary = LKS
+		dynasty_names = {
+			Pegu Dagon Thaton Martaban
+		}
+		male_names = {
+			"Razadarit" "Binnya Dhammaraza" "Binnya Ran" "Binnya Waru" "Binnya Kyan" "Leik Mawdaw" "Mawdaw"
+			"Dhammazedi" "Takayutpi" "Smim Sawhtut" "Smim Htaw" "Binnya Dala"
+		}
+		female_names = {
+			"Mya" "Shin Sawbu"
+		}
+	}
 }
 
 burman = {
