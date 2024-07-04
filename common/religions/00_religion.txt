@@ -1960,7 +1960,7 @@ eastern = {
 	flag_emblem_index_range = { 58 80 }
 
 	buddhism = { #Theravada
-		color = { 225 200 50 }
+		color = { 178 127 0 }
 		icon = 24
 		allowed_conversion = {
 			vajrayana
@@ -1991,7 +1991,7 @@ eastern = {
 	}
 	
 	vajrayana = {
-		color = { 160 10 15 }
+		color = { 128 0 0 }
 		icon = 25
 		allowed_conversion = {
 			mahayana
@@ -2022,7 +2022,7 @@ eastern = {
 	}
 	
 	mahayana = {
-		color = { 205 120 35 }
+		color = { 204 76 127 }
 		icon = 23
 		allowed_conversion = {
 			vajrayana
@@ -2808,7 +2808,7 @@ dharmic = {
 	
 	#RP Added
 	devaraja = {
-		color = { 50 168 82 }
+		color = { 242 245 66 }
 		icon = 59
 		allowed_conversion = {
 			sikhism
@@ -3172,7 +3172,7 @@ jewish_group = {
 
 	jewish = {
 		icon = 20
-		color = { 25 178 255 }
+		color = { 7 82 153 }
 		country = {
 			tolerance_own = 2
 			advisor_pool = 1
