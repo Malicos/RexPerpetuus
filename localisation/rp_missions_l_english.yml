@@ -53,13 +53,46 @@
 
  celtic_rebirth_title:0 "Celtic Rebirth!"
  celtic_rebirth_desc:0 ""
- celtic_rebirth_tooltip:0 "Become egligible for a second Golden Era or extend your current one by 50 years."
 
  the_old_gods_title:0 "The Old Gods"
  the_old_gods_desc:0 ""
 
  religious_empire_title:0 "Religious Empire"
  religious_empire_desc:0 ""
+
+# DANELAW MISSIONS
+
+ DNL_A1_title:0 "Maritime Infrastructure"
+ DNL_A2_title:0 "Prepare the Transport"
+ DNL_A3_title:0 "Bigger Hulls!"
+ DNL_A4_title:0 "Bigger Guns!"
+ DNL_A5_title:0 "Boarding Tactics"
+ DNL_A6_title:0 "Battle Transporters"
+
+ DNL_B3_title:0 "Prepare the Invasion"
+ DNL_B4_title:0 "Invade Normandy"
+ DNL_B5_title:0 "Eclipse Alba"
+ DNL_B7_title:0 "Connacht & Meath"
+
+ DNL_C2_title:0 "The South Coast"
+ DNL_C3_title:0 "Extend the Coastline"
+ DNL_C4_title:0 "Invade Brittany"
+ DNL_C5_title:0 "Nordic Lowlands"
+ DNL_C6_title:0 "Subjugate Alba"
+ DNL_C7_title:0 "Ulster & Tyrone"
+ DNL_C8_title:0 "Gallwegian Viceroyalty"
+
+ DNL_D1_title:0 "End Mercia"
+ DNL_D2_title:0 "Conquer Middlesex"
+ DNL_D3_title:0 "Pearl of the Thames"
+ DNL_D4_title:0 "Beyond the Channel"
+ DNL_D5_title:0 "Dutch Trade Company"
+
+ DNL_E2_title:0 "Dominate Wales"
+ DNL_E3_title:0 "Raid & Trade Fleet"
+ DNL_E4_title:0 "Deal or Steal"
+ DNL_E5_title:0 "Hoard the Gold"
+
 
 #JORVIK MISSIONS
  integrate_bernicia_title:0 "Integrate Bernicia"
@@ -68,9 +101,9 @@
  recover_lost_provinces_desc:0 ""
  the_other_danes_title:0 "The Other Danes"
  the_other_danes_desc:0 ""
- dnl_raider_fleet_title:0 "Establish the Raiders"
+ dnl_raider_fleet_title:0 "Rebuild Raiding Fleet"
  dnl_raider_fleet_desc:0 ""
- danelaw_history_title:0 "Study our History"
+ danelaw_history_title:0 "Understand our Fall"
  danelaw_history_desc:0 ""
  restore_danelaw_title:0 "Restore Danelaw"
  restore_danelaw_desc:0 ""
