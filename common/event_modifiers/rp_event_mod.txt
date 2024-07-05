@@ -1,5 +1,15 @@
+#JORVIK
+jrv_administrative_challenges = {
+	adm_tech_cost_modifier = 0.1
+}
+
+loyalist_support = {
+	local_manpower = 1
+	land_forcelimit = 1
+}
+
 #SHARQ
-unstoppable_jihad = {
+unstoppable_charge = {
 	can_bypass_forts = yes
 	movement_speed = 0.25
 }
