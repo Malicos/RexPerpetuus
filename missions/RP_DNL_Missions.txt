@@ -57,6 +57,57 @@ DNL_A = {
 
 		}
 	}
+
+	DNL_A4 = {
+		icon = mission_launch_a_flagship
+		position = 4
+		required_missions = { DNL_A3 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_A5 = {
+		icon = mission_launch_a_flagship
+		position = 5
+		required_missions = { DNL_A4 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_A6 = {
+		icon = mission_launch_a_flagship
+		position = 6
+		required_missions = { DNL_A5 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
 }
 
 DNL_B = {
@@ -89,6 +140,40 @@ DNL_B = {
 		icon = mission_launch_a_flagship
 		position = 4
 		required_missions = { DNL_B3 }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_B5 = {
+		icon = mission_launch_a_flagship
+		position = 5
+		required_missions = {  }
+		provinces_to_highlight = {
+
+		}
+
+		trigger = {
+
+		}
+
+		effect = {
+
+		}
+	}
+
+	DNL_B7 = {
+		icon = mission_launch_a_flagship
+		position = 7
+		required_missions = { DNL_C6 }
 		provinces_to_highlight = {
 
 		}
@@ -149,7 +234,7 @@ DNL_C = {
 	DNL_C4 = {
 		icon = mission_launch_a_flagship
 		position = 4
-		required_missions = { DNL_C3 }
+		required_missions = { DNL_B3 }
 		provinces_to_highlight = {
 
 		}
@@ -183,7 +268,7 @@ DNL_C = {
 	DNL_C6 = {
 		icon = mission_launch_a_flagship
 		position = 6
-		required_missions = { DNL_C5 DNL_D5 }
+		required_missions = { DNL_B5 DNL_C5 }
 		provinces_to_highlight = {
 
 		}
@@ -217,7 +302,7 @@ DNL_C = {
 	DNL_C8 = {
 		icon = mission_launch_a_flagship
 		position = 8
-		required_missions = { DNL_C7 DNL_D7 }
+		required_missions = { DNL_B7 DNL_C7 }
 		provinces_to_highlight = {
 
 		}
@@ -312,24 +397,7 @@ DNL_D = {
 	DNL_D5 = {
 		icon = mission_launch_a_flagship
 		position = 5
-		required_missions = {  }
-		provinces_to_highlight = {
-
-		}
-
-		trigger = {
-
-		}
-
-		effect = {
-
-		}
-	}
-
-	DNL_D7 = {
-		icon = mission_launch_a_flagship
-		position = 7
-		required_missions = { DNL_C6 }
+		required_missions = { DNL_D4 }
 		provinces_to_highlight = {
 
 		}

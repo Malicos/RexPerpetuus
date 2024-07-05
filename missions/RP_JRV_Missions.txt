@@ -165,7 +165,7 @@ fleet_branch = {
 		position = 1
 		provinces_to_highlight = {  }
 
-		trigger = { num_ships_privateering = 10 }
+		trigger = { navy_size_percentage = 1 }
 
 		effect = {
 			add_country_modifier = {
