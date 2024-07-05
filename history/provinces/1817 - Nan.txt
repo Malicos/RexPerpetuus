@@ -3,7 +3,7 @@
 owner = HPC
 controller = HPC
 add_core = HPC
-culture = northern_thai
+culture = haripunchian
 religion = buddhism
 capital = "Nanthaburi"
 trade_goods = grain

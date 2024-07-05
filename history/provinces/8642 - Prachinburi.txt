@@ -3,7 +3,7 @@
 owner = LAV
 controller = LAV
 add_core = LAV
-culture = central_thai
+culture = lavo
 religion = buddhism
 capital = "Prachinburi"
 trade_goods = livestock

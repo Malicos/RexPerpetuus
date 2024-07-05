@@ -4,7 +4,7 @@
 owner = SUK
 controller = SUK
 add_core = SUK
-culture = central_thai
+culture = lavo
 religion = buddhism
 capital = "Mueang Sing" # BT; "Kanchanaburi"
 is_city = yes

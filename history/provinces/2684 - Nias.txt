@@ -1,7 +1,7 @@
 #2684 - Nias
 
 culture = sumatran
-religion = sunni
+religion = hinduism
 capital = "Nias"
 trade_goods = unknown
 hre = no
@@ -22,7 +22,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1405.1.1 = { discovered_by = MNG }
-1509.1.1 = { discovered_by = POR }
-

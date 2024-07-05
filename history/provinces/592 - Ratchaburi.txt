@@ -3,7 +3,7 @@
 owner = SUK
 controller = SUK
 add_core = SUK
-culture = central_thai
+culture = lavo
 religion = buddhism
 capital = "Ratchaburi"
 trade_goods = grain

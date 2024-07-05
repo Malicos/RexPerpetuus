@@ -3,7 +3,7 @@
 owner = PAT
 controller = PAT
 culture = dambro
-religion = buddhism
+religion = mahayana
 capital = "Kuala Menara"
 trade_goods = fish
 hre = no

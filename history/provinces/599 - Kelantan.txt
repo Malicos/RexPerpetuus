@@ -3,7 +3,7 @@
 owner = KEL
 controller = KEL
 culture = dambro
-religion = sunni
+religion = mahayana
 capital = "Kelantan"
 trade_goods = naval_supplies
 hre = no
@@ -21,5 +21,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1516.1.1 = { discovered_by = POR }

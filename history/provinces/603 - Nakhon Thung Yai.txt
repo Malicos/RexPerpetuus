@@ -3,7 +3,7 @@
 owner = LAV
 controller = LAV
 add_core = LAV
-culture = khmer
+culture = lavo
 religion = buddhism
 capital = "Mueang Thung Yai"
 trade_goods = gems #Rubies etc

@@ -3,7 +3,7 @@
 owner = BEI
 controller = BEI
 culture = malayan
-religion = sunni
+religion = hinduism
 capital = "Mentu Ulau"
 trade_goods = tropical_wood #To note, now has a lot of oil also
 hre = no
@@ -21,9 +21,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1521.1.1 = { discovered_by = SPA }
-1578.4.16 = { owner = SPA controller = SPA } # Captured by Spain
-1578.6.26 = { owner = BEI controller = BEI }
-1672.1.1 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # Civil war over succession
-1673.1.1 = { revolt = {} controller = BEI }

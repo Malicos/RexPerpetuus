@@ -3,7 +3,7 @@
 owner = ARU
 controller = ARU
 culture = batak
-religion = sunni
+religion = hinduism
 capital = "Medan"
 trade_goods = spices
 hre = no
@@ -25,17 +25,3 @@ discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 1
 
-1405.1.1 = { discovered_by = MNG }
-
-1509.1.1 = { discovered_by = POR }
-1523.1.1 = {
-	owner = ATJ
-	controller = ATJ
-	add_core = ATJ
-}
-
-1632.1.1 = {
-	owner = ARU
-	controller = ARU
-	remove_core = ATJ
-}

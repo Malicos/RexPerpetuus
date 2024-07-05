@@ -6,7 +6,7 @@ controller = GLU # BT; SUN
 add_core = GLU # BT; SUN
 add_core = CRB
 culture = sundanese
-religion = sunni # BT; hinduism
+religion = hinduism
 capital = "Indramayu" # BT; "Cirebon"
 is_city = yes
 hre = no
@@ -23,15 +23,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1482.1.1 = {
-	owner = CRB
-	controller = CRB
-	remove_core = GLU
-}
-
-1483.1.1 = { unrest = 0 }
-1509.1.1 = { discovered_by = POR }
-1613.1.1 = { discovered_by = NED } # The Dutch arrived
-1631.1.1 = { unrest = 5 } # Rebellion against Mataram rule
-1636.1.1 = { unrest = 0 }

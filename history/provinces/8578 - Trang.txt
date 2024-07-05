@@ -5,7 +5,7 @@ controller = LKS
 add_core = LKS
 add_core = KED
 culture = dambro
-religion = sunni
+religion = mahayana
 capital = "Terang"
 trade_goods = bt_trade_good_fruit
 hre = no
@@ -22,6 +22,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1516.1.1 = { discovered_by = POR } # Godinho de Eredia
-

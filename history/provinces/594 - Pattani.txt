@@ -3,7 +3,7 @@
 owner = PAT
 controller = PAT
 culture = dambro
-religion = buddhism
+religion = mahayana
 capital = "Patani"
 trade_goods = tropical_wood
 hre = no
@@ -21,8 +21,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1458.1.1 = { religion = sunni }
-
-1516.1.1 = { discovered_by = POR } # Godinho de Eredia
-

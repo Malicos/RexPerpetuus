@@ -4,7 +4,7 @@
 owner = LAV
 controller = LAV
 add_core = LAV
-culture = central_thai
+culture = lavo
 religion = buddhism
 capital = "Thonburi" # BT; "Bangkok"
 is_city = yes

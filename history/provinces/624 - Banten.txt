@@ -5,7 +5,7 @@ controller = SUN
 add_core = SUN
 add_core = BAN
 culture = sundanese
-religion = sunni
+religion = hinduism
 capital = "Banten"
 trade_goods = spices
 hre = no
@@ -22,15 +22,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1509.1.1 = { discovered_by = POR }
-1521.1.1 = { discovered_by = SPA }
-
-1527.1.1 = {
-	owner = BAN
-	controller = BAN
-	remove_core = SUN
-} # Conquered by the Cirebonese Army and Banten Sultanate was established
-1528.1.1 = { unrest = 0 }
-1602.1.1 = { discovered_by = ENG } # English settlement
-1707.5.12 = { discovered_by = GBR }

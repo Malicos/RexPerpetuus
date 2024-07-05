@@ -4,7 +4,7 @@
 owner = HPC
 controller = HPC
 add_core = HPC
-culture = northern_thai
+culture = haripunchian
 religion = buddhism
 capital = "Khelang Nakhon" # BT; "Lakhon"
 is_city = yes

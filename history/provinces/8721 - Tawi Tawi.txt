@@ -1,7 +1,7 @@
 #Tawi Tawi
 
 culture = bajau
-religion = sunni
+religion = hinduism
 capital = "Bongao"
 trade_goods = unknown
 hre = no
@@ -20,13 +20,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-
-1405.1.1 = {
-	owner = SUL
-	controller = SUL
-	add_core = SUL
-	is_city = yes
-	trade_goods = tropical_wood
-} # The Sulu Sultanate
-1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 

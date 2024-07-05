@@ -3,7 +3,7 @@
 owner = SUN
 controller = SUN
 culture = sundanese
-religion = sunni
+religion = hinduism
 capital = "Bumi Ratu"
 hre = no
 base_tax = 2
@@ -25,19 +25,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1405.1.1 = { discovered_by = MNG }
-1509.1.1 = { discovered_by = POR }
-
-1527.1.1 = {
-	owner = BAN
-	controller = BAN
-        remove_core = SUN
-	
-} # Banten Sultanate expanded the influence in South Sumatra
-1752.1.1 = {
-	owner = NED
-	controller = NED
-	add_core = NED
-	remove_core = BAN
-}
