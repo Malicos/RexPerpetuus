@@ -1,7 +1,8 @@
 #638 - Kutai
 
-owner = KUT
-controller = KUT
+owner = TRK
+controller = TRK
+add_core = TRK
 culture = kutainese
 religion = hinduism
 capital = "Kutai"
@@ -11,7 +12,6 @@ base_tax = 7
 base_production = 7
 base_manpower = 4
 is_city = yes
-add_core = KUT
 
 discovered_by = chinese
 discovered_by = japanese_group
@@ -24,7 +24,3 @@ discovered_by = ottoman
 
 extra_cost = 8
 center_of_trade = 1
-
-1521.1.1 = { discovered_by = POR }
-
-1700.1.1 = { religion = sunni }

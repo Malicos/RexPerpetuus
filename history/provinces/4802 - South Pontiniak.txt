@@ -3,9 +3,9 @@
 # vanilla uncolonised
 # and then owned in 1444.1.1
 
-owner = LDA # BT; SMB
-controller = LDA # BT; SMB
-add_core = LDA # BT; SMB
+owner = VIP
+controller = VIP
+add_core = VIP
 culture = bornean
 religion = hinduism
 capital = "Mandor" # BT; "Pontiniak"
@@ -24,18 +24,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1480.1.1 = { religion = sunni }
-
-1521.1.1 = { discovered_by = POR }
-
-1777.1.1 = {
-	owner = LFA
-	controller = LFA
-	add_core = LFA
-	remove_core = LDA
-	is_city = yes
-	base_tax = 4
-	base_production = 4
-	base_manpower = 3
-} # Lanfang Republic was founded by Chinese immigrants

@@ -4,8 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = KUT
-controller = KUT
+owner = SAD
+controller = SAD
+add_core = SAD
 culture = kutainese
 religion = hinduism
 capital = "Samarinda"
@@ -15,7 +16,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = KUT
+
 
 discovered_by = chinese
 discovered_by = japanese_group
@@ -25,7 +26,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1521.1.1 = { discovered_by = POR }
-
-1700.1.1 = { culture = malayan religion = sunni }

@@ -2,9 +2,9 @@
 # ex 637 - Jesselton
 # renamed in 1.31
 
-owner = BEI
-controller = BEI
-add_core = BEI
+owner = SUL
+controller = SUL
+add_core = SUL
 culture = bajau # BT; bornean
 religion = sunni
 capital = "Api-Api"
@@ -23,13 +23,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1521.1.1 = { discovered_by = POR }
-
-1672.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war over succession
-1673.1.1 = { revolt = {} controller = BEI }
-1703.1.1 = {	owner = SUL
-	controller = SUL
-	add_core = SUL
-	remove_core = BEI
-} # Ceded to the Sultanate of Sulu

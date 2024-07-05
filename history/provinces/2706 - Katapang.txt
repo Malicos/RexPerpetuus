@@ -1,7 +1,8 @@
 #2706 - Katapang
 
-owner = SKD
-controller = SKD
+owner = TAP
+controller = TAP
+add_core = TAP
 culture = bornean
 religion = hinduism
 capital = "Sukadana"
@@ -11,7 +12,6 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = SKD
 
 discovered_by = chinese
 discovered_by = japanese_group
@@ -21,9 +21,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1521.1.1 = { discovered_by = POR }
-
-1623.1.1 = {
-	religion = sunni
-}

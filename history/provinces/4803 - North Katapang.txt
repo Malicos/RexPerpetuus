@@ -3,9 +3,9 @@
 # vanilla uncolonised
 # and then owned in 1444.1.1
 
-owner = LDA # BT; SMB
-controller = LDA # BT; SMB
-add_core = LDA # BT; SMB
+owner = STG
+controller = STG
+add_core = STG
 culture = bornean
 religion = hinduism
 capital = "Landak" # BT; "Meliau"
@@ -24,7 +24,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1480.1.1 = { religion = sunni }
-
-1521.1.1 = { discovered_by = POR }
