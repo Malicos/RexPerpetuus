@@ -1,5 +1,8 @@
 #Tawi Tawi
 
+owner = SUL
+controller = SUL
+add_core = SUL
 culture = bajau
 religion = hinduism
 capital = "Bongao"
