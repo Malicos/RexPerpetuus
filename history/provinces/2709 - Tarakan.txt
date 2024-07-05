@@ -1,8 +1,8 @@
 #2709 - Tarakan
 
-owner = TRK
-controller = TRK
-add_core = TRK
+owner = TKN
+controller = TKN
+add_core = TKN
 culture = kutainese
 religion = hinduism
 capital = "Tarakan"

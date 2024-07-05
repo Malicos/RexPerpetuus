@@ -1,9 +1,9 @@
  
 # ex 8626
 
-owner = TRK
-controller = TRK
-add_core = TRK
+owner = TKN
+controller = TKN
+add_core = TKN
 culture = kutainese # BT; bornean
 religion = hinduism
 capital = "Sambaliung" # BT; "Sangkulirang"

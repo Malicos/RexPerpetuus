@@ -1,8 +1,8 @@
 #Keningau
 
-owner = TRK
-controller = TRK
-add_core = TRK
+owner = TKN
+controller = TKN
+add_core = TKN
 culture = malayan
 religion = hinduism
 capital = "Keningau"

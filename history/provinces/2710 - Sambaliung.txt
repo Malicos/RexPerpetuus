@@ -1,9 +1,9 @@
  
 # renamed in 1.31
 
-owner = TRK
-controller = TRK
-add_core = TRK
+owner = TKN
+controller = TKN
+add_core = TKN
 culture = kutainese # BT; bornean
 religion = hinduism
 capital = "Berau" # BT; "Sambaliung"

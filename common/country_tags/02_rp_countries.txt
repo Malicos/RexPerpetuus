@@ -327,7 +327,7 @@ TAP = "countries/Tanjungpura.txt"
 TGU = "countries/Terengganu.txt"
 THG = "countries/Thalang.txt"
 TNS = "countries/Tenasserim.txt"
-TRK = "countries/Tarakan.txt"
+TKN = "countries/Tarakan.txt"
 VIP = "countries/Vijayapura.txt"
 XTG = "countries/XiengThong.txt"
 
