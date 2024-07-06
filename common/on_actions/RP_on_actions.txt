@@ -32,3 +32,19 @@ on_siege_won_country = {
 		remove_country_modifier = wor_capital_sieged
 	}
 }
+
+on_war_won = {
+	if = {
+		limit = {
+			ROOT = {
+				tag = JRV
+				has_country_flag = flag_jrv_alba
+			}
+			FROM = {
+				tag = SCO
+			}
+		}
+		clr_country_flag = flag_jrv_alba
+		country_event = { id = bernicia.8 }
+	}
+}

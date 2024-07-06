@@ -95,17 +95,9 @@ country_event = {
 				remove_province_modifier = shrinking_bernician_autonomy
 			}
 			add_local_autonomy = -25
-			if = {
-				limit = { owner = { ai = yes } }
-				infantry = ROOT
-				infantry = ROOT
-				infantry = ROOT
-				infantry = ROOT
-				infantry = ROOT
-			}
 		}
 		ai_chance = {
-			factor = 100
+			factor = 95
 		}
 	}
 
@@ -116,7 +108,7 @@ country_event = {
 			value = 1
 		}
 		ai_chance = {
-			factor = 0
+			factor = 5
 		}
 	}
 }
@@ -179,17 +171,9 @@ country_event = {
 				remove_province_modifier = shrinking_bernician_autonomy
 			}
 			add_local_autonomy = -25
-			if = {
-				limit = { owner = { ai = yes } }
-				infantry = ROOT
-				infantry = ROOT
-				infantry = ROOT
-				infantry = ROOT
-				infantry = ROOT
-			}
 		}
 		ai_chance = {
-			factor = 100
+			factor = 95
 		}
 	}
 
@@ -200,7 +184,7 @@ country_event = {
 			value = 1
 		}
 		ai_chance = {
-			factor = 0
+			factor = 5
 		}
 	}
 }
@@ -269,7 +253,7 @@ country_event = {
 		}
 
 		ai_chance = {
-			factor = 100
+			factor = 95
 		}
 	}
 
@@ -277,10 +261,10 @@ country_event = {
 		name = bernicia.4.b
 		add_disaster_progress = {
 			disaster = bernician_insurgence
-			value = 4
+			value = 1
 		}
 		ai_chance = {
-			factor = 0
+			factor = 15
 		}
 	}
 }
@@ -380,7 +364,7 @@ country_event = { #Marriage
 		}
 
 		ai_chance = {
-			factor = 100
+			factor = 95
 		}
 	}
 
@@ -391,197 +375,7 @@ country_event = { #Marriage
 			value = 2
 		}
 		ai_chance = {
-			factor = 0
+			factor = 5
 		}
 	}
-}
-
-country_event = { #Alba
-	id = bernicia.6
-	title = bernicia.6.t
-	desc = bernicia.6.d
-	picture = RAMADAN_eventPicture
-
-	trigger = {
-		tag = SCO
-		any_province = {
-			OR = {
-				has_province_modifier = bernician_autonomy
-				has_province_modifier = shrinking_bernician_autonomy
-			}
-		}
-		any_neighbor_country = {
-			tag = JRV
-		}
-	}
-
-	mean_time_to_happen = { days = 300 }
-
-	fire_only_once = yes
-
-	immediate = {
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					is_neighbor_of = JRV
-				}
-				add_devastation = 0.25
-			}
-		}
-	}
-
-	option = {
-		name = bernicia.6.a
-
-		JRV = {
-			country_event = {
-				id = bernicia.7
-				days = 14
-			}
-		}
-
-		ai_chance = {
-			factor = 100
-		}
-	}
-
-	option = {
-		name = bernicia.6.b
-
-		add_casus_belli = {
-			target = JRV
-			type = cb_annex
-			months = 12
-		}
-
-		ai_chance = {
-			factor = 0
-		}
-	}
-}
-
-country_event = { #Alba
-	id = bernicia.7
-	title = bernicia.7.t
-	desc = bernicia.7.d
-	picture = RAMADAN_eventPicture
-
-	is_triggered_only = yes
-
-	option = {
-		name = bernicia.7.a
-
-		add_treasury = -100
-
-		FROM = {
-			add_treasury = 100
-		}
-
-		add_truce_with = FROM
-
-		random_owned_province = {
-			limit = {
-				OR = {
-					has_province_modifier = bernician_autonomy
-					has_province_modifier = shrinking_bernician_autonomy
-				}
-			}
-			if = {
-				limit = {
-					has_province_modifier = bernician_autonomy
-				}
-				remove_province_modifier = bernician_autonomy
-				add_province_modifier = {
-					name = shrinking_bernician_autonomy
-					duration = -1
-				}
-			}
-			else = {
-				remove_province_modifier = shrinking_bernician_autonomy
-			}
-			add_local_autonomy = -25
-		}
-		random_owned_province = {
-			limit = {
-				OR = {
-					has_province_modifier = bernician_autonomy
-					has_province_modifier = shrinking_bernician_autonomy
-				}
-			}
-			if = {
-				limit = {
-					has_province_modifier = bernician_autonomy
-				}
-				remove_province_modifier = bernician_autonomy
-				add_province_modifier = {
-					name = shrinking_bernician_autonomy
-					duration = -1
-				}
-			}
-			else = {
-				remove_province_modifier = shrinking_bernician_autonomy
-			}
-			add_local_autonomy = -25
-			spawn_rebels = {
-				type = noble_rebels
-			}
-			if = {
-				limit = { owner = { ai = yes } }
-				infantry = ROOT
-				infantry = ROOT
-				infantry = ROOT
-				infantry = ROOT
-				infantry = ROOT
-				infantry = ROOT
-			}
-		}
-
-		ai_chance = {
-			factor = 100
-		}
-	}
-
-	option = {
-		name = bernicia.7.b
-
-		add_stability = -1
-
-		set_country_flag = flag_jrv_alba
-
-		declare_war_with_cb = {
-			who = FROM
-			casus_belli = cb_annex
-		}
-
-		custom_tooltip = jrv_alba_war
-
-		ai_chance = {
-			factor = 0
-		}
-	}
-}
-
-country_event = { #Won Alba
-	id = bernicia.8
-	title = bernicia.8.t
-	desc = bernicia.8.d
-	picture = RAMADAN_eventPicture
-
-	is_triggered_only = yes
-
-	option = {
-		name = bernicia.8.a
-
-		every_owned_province = {
-			remove_province_modifier = bernician_autonomy
-			remove_province_modifier = shrinking_bernician_autonomy
-		}
-
-		add_prestige = 25
-
-		ai_chance = {
-			factor = 100
-		}
-	}
-
 }

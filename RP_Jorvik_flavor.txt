@@ -49,6 +49,7 @@ country_event = {
 				NOT = { has_province_modifier = bernician_autonomy }
 				NOT = { has_province_modifier = loyalist_support }
 			}
+			custom_tooltip = liv_land_of_churches_tt
 		}
 		every_owned_province = {
 			limit = {

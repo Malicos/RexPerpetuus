@@ -11,8 +11,8 @@ bernicia_events_cooldown = {  }
 
 #MISSION REWARDS
 feared_ruler = {
-    discipline = 0.05
-    global_autonomy = -0.05
+    discipline = 0.025
+    global_autonomy = -0.025
 }
 
 fixing_state = {
