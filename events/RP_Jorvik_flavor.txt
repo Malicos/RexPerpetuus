@@ -17,3 +17,51 @@ country_event = {
 		custom_tooltip = jorvik1_tooltip
 	}
 }
+
+country_event = {
+	id = jorvik.2
+	title = jorvik.2.t
+	desc = jorvik.2.d
+	picture = RAMADAN_eventPicture
+
+	trigger = {
+		is_at_war = yes
+		any_owned_province = {
+			area = northern_england_area
+			NOT = { has_province_modifier = shrinking_bernician_autonomy }
+			NOT = { has_province_modifier = bernician_autonomy }
+			NOT = { has_province_modifier = loyalist_support }
+		}
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	immediate = { set_country_flag = NoMoreJRV2 }
+
+	option = {
+		name = jorvik.2.a
+		clr_country_flag = NoMoreJRV2
+		add_years_of_owned_provinces_manpower = {
+			years = 5
+			trigger = {
+				area = northern_england_area
+				NOT = { has_province_modifier = shrinking_bernician_autonomy }
+				NOT = { has_province_modifier = bernician_autonomy }
+				NOT = { has_province_modifier = loyalist_support }
+			}
+		}
+		every_owned_province = {
+			limit = {
+				area = northern_england_area
+				NOT = { has_province_modifier = shrinking_bernician_autonomy }
+				NOT = { has_province_modifier = bernician_autonomy }
+				NOT = { has_province_modifier = loyalist_support }
+			}
+			add_province_modifier = {
+				name = loyalist_support
+				duration = -1
+			}
+			infantry = ROOT
+		}
+	}
+}
