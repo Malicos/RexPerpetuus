@@ -38,6 +38,10 @@
  jorvik.1.a:0 "I am the Duke of Bernicia and I will make them respect me."
  jorvik1_tooltip:0 "§YJorvik§! will face a series of rebelions and internal challenges. You must hold onto all provinces in §YBernicia Area§! and get rid of their autonomy to prove your legitimacy or your country will be doomed to fall."
 
+ jorvik.2.t:0 "Loyalists Show Their Support"
+ jorvik.2.d:0 "Our loyal subjects have decided to aid us in our war efforts."
+ jorvik.2.a:0 "God bless them!"
+
  berniciadisaster.1.t:0 "Bernician Insurgence"
  berniciadisaster.1.d:0 ""
  berniciadisaster.1.a:0 "We have to extinguish their hopes."
@@ -55,6 +59,31 @@
  bernicia.3.d:0 ""
  bernicia.3.a:0 "They need to be reminded who rules over them."
  bernicia.3.b:0 "Well..."
+
+ bernicia.4.t:0 "Unruly Bookkeepers"
+ bernicia.4.d:0 ""
+ bernicia.4.a:0 "We have to replace corrupt bureaucrats"
+ bernicia.4.b:0 "Well..."
+
+ bernicia.5.t:0 "A Marriage Offer"
+ bernicia.5.d:0 "A powerful Bernician noble offers loyalty if you marry one of his children."
+ bernicia.5.a:0 "There's room for a new spouse, I guess..."
+ bernicia.5.b:0 "Not my type."
+
+ bernicia.6.t:0 "Lowlands Raided"
+ bernicia.6.d:0 "A group of Jorviker nobles keep raiding our provinces. As far as we know, their actions were not ordered by their overlord. We should try to settle the matter with the King of Jorvik."
+ bernicia.6.a:0 "Let's discuss the matter with their King."
+ bernicia.6.b:0 "I don't care who ordered it - we will get revenge."
+
+ bernicia.7.t:0 "Alba Seeks Reparations"
+ bernicia.7.d:0 "Some of our northern vassals keep raiding neighboring villages. The King of Alba gives us a chance to correct their wrongs before he takes up arms."
+ bernicia.7.a:0 "I wish I hadn't ruled over idiots."
+ bernicia.7.b:0 "I support their right to do so."
+ jrv_alba_war:0 "§YIf we manage to win the war and further our Bernician vassals' interests, we will gain their sincere loyalty and end their rebellious attitude.§!"
+
+ bernicia.8.t:0 "A Glorious Victory!"
+ bernicia.8.d:0 "With your dedication to defending your vassals'interests and a glorious show of strength against Alba, you've earned your subjects' loyalty."
+ bernicia.8.a:0 "That was too easy."
 
  #Norwegian Events
 
