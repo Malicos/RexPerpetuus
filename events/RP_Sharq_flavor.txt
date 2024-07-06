@@ -16,7 +16,7 @@ country_event = {
 	option = {
 		name = sharq.1.a
         add_country_modifier = {
-            name = unstoppable_jihad
+            name = unstoppable_charge
             duration = 100
         }
     }
