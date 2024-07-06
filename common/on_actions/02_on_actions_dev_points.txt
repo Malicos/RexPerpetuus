@@ -5,6 +5,10 @@ on_startup = {
 	events = {
 		dev_points.3		#Event for all nations on startup to initialise all the dev points variables
 	}
+	#clr_global_flag = DiscoModePlayer_MTTH
+	#set_global_flag = DiscoModePlayer_MTTH
+	#clr_global_flag = DiscoModeAI_MTTH
+	#set_global_flag = DiscoModeAI_MTTH
 }
 # province
 on_adm_development = {

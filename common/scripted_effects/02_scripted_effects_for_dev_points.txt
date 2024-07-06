@@ -2433,4 +2433,1036 @@ give_dev_points_effect = {
 	}
 }
 
+##########################  Funny Stuff  ##########################
 
+clear_colour_flags_effect = {
+	clr_country_flag = colour_1
+	clr_country_flag = colour_2
+	clr_country_flag = colour_3
+	clr_country_flag = colour_4
+	clr_country_flag = colour_5
+	clr_country_flag = colour_6
+	clr_country_flag = colour_7
+	clr_country_flag = colour_8
+	clr_country_flag = colour_9
+	clr_country_flag = colour_10
+	clr_country_flag = colour_11
+	clr_country_flag = colour_12
+	clr_country_flag = colour_13
+	clr_country_flag = colour_14
+	clr_country_flag = colour_15
+	clr_country_flag = colour_16
+	clr_country_flag = colour_17
+	clr_country_flag = colour_18
+	clr_country_flag = colour_19
+	clr_country_flag = colour_20
+	clr_country_flag = colour_21
+}
+
+random_colour_change_effect = {
+	random_list = {
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_1 
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_1
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_1
+			change_country_color = { 
+				color = { 84 241 255 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_2 
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_2
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_2
+			change_country_color = { 
+				color = { 194 14 41 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_3 
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_3
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_3
+			change_country_color = { 
+				color = { 171 3 137 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_4 
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_4
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_4
+			change_country_color = { 
+				color = { 51 42 212 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_5 	
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_5
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_5
+			change_country_color = { 
+				color = { 53 242 36 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_6 
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_6
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_6
+			change_country_color = { 
+				color = { 226 230 39 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_7 
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_7
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_7
+			change_country_color = { 
+				color = { 255 177 61 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_8 
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_8
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_8
+			change_country_color = { 
+				color = { 58 222 140 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_9 	
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_9
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_9
+			change_country_color = { 
+				color = { 152 240 70 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_10 	
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_10
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_10
+			change_country_color = { 
+				color = { 242 37 27 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_11 	
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_11
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_11
+			change_country_color = { 
+				color = { 250 117 140 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_12	
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_12
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_12
+			change_country_color = { 
+				color = { 168 117 250 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_13 
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_13
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_13
+			change_country_color = { 
+				color = { 10 125 207 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_14 
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_14
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_14
+			change_country_color = { 
+				color = { 164 171 176 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_15	
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_15
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_15
+			change_country_color = { 
+				color = { 233 237 240 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_16 	
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_16
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_16
+			change_country_color = { 
+				color = { 29 138 25 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_17 
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_17
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_17
+			change_country_color = { 
+				color = { 156 125 23 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_18
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_18
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_18
+			change_country_color = { 
+				color = { 255 94 0 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_19
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_19
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_19
+			change_country_color = { 
+				color = { 161 0 99 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_20
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_20
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_20
+			change_country_color = { 
+				color = { 37 101 153 }
+			}
+		}	
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_21 	
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_21
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_21
+			change_country_color = { 
+				color = { 164  138  175 }
+			}
+		}
+##########################################################################################
+##########################################################################################
+##########################################################################################
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_22
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_22
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_22
+			change_country_color = { 
+				color = { 235 84 84 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_23
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_23
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_23
+			change_country_color = { 
+				color = { 117 20 20 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_24
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_24
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_24
+			change_country_color = { 
+				color = { 153 113 113 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_25
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_25
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_25
+			change_country_color = { 
+				color = { 255 0 0 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_26
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_26
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_26
+			change_country_color = { 
+				color = { 135 68 23 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_27
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_27
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_27
+			change_country_color = { 
+				color = { 148 116 95 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_28
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_28
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_28
+			change_country_color = { 
+				color = { 209 189 128 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_29
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_29
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_29
+			change_country_color = { 
+				color = { 255 250 112 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_30
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_30
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_30
+			change_country_color = { 
+				color = { 203 214 105 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_31
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_31
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_31
+			change_country_color = { 
+				color = { 116 191 65 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_32
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_32
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_32
+			change_country_color = { 
+				color = { 86 212 0 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_33
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_33
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_33
+			change_country_color = { 
+				color = { 122 235 178 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_34
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_34
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_34
+			change_country_color = { 
+				color = { 53 120 86 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_35
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_35
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_35
+			change_country_color = { 
+				color = { 168 240 237 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_36
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_36
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_36
+			change_country_color = { 
+				color = { 151 177 201 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_37
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_37
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_37
+			change_country_color = { 
+				color = { 0 133 255 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_38
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_38
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_38
+			change_country_color = { 
+				color = { 60 58 158 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_39
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_39
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_39
+			change_country_color = { 
+				color = { 110 109 140 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_40
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_40
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_40
+			change_country_color = { 
+				color = { 112 93 117 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_41
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_41
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_41
+			change_country_color = { 
+				color = { 156 135 135 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_42
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_42
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_42
+			change_country_color = { 
+				color = { 115 38 106 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_43
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_43
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_43
+			change_country_color = { 
+				color = { 141 4 209 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_44
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_44
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_44
+			change_country_color = { 
+				color = { 41 102 163 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_45
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_45
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_45
+			change_country_color = { 
+				color = { 235 90 33 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_46
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_46
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_46
+			change_country_color = { 
+				color = { 250 222 222 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_47
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_47
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_47
+			change_country_color = { 
+				color = { 222 250 232 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_48
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_48
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_48
+			change_country_color = { 
+				color = { 250 245 227 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_49
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_49
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_49
+			change_country_color = { 
+				color = { 232 232 232 }
+			}
+		}
+		1 = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = colour_50
+					NOT = {
+						all_neighbor_country = {
+							NOT = {
+								has_country_flag = colour_50
+							}
+						}
+					}
+				}
+			}
+			clear_colour_flags_effect = yes
+			set_country_flag = colour_50
+			change_country_color = { 
+				color = { 87 129 242 }
+			}
+		}
+	}
+}

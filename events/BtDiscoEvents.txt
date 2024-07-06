@@ -1,0 +1,33 @@
+namespace = bt_disco_events
+
+# Event to change nations 
+country_event = {                      
+	id = bt_disco_events.1
+	desc = bt_disco_events.1.desc
+	title = bt_disco_events.1.title
+	picture = CONQUEST_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				ai = no
+				has_global_flag = DiscoModePlayer_MTTH
+			}
+			AND = {
+				ai = yes
+				has_global_flag = DiscoModeAI_MTTH
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 15
+    }
+	
+	option = {
+		name = bt_disco_events.1.opt
+		random_colour_change_effect = yes
+	}
+}
