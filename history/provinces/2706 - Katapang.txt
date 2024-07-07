@@ -3,7 +3,7 @@
 owner = TAP
 controller = TAP
 add_core = TAP
-culture = bornean
+culture = bidayuh
 religion = hinduism
 capital = "Sukadana"
 trade_goods = grain

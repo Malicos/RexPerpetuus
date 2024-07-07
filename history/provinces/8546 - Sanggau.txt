@@ -3,7 +3,7 @@
 owner = SGG
 controller = SGG
 add_core = SGG
-culture = bornean
+culture = bidayuh
 religion = hinduism
 capital = "Sanggau"
 trade_goods = livestock

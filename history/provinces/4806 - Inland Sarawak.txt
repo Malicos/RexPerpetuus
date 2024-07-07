@@ -4,7 +4,7 @@
 owner = BEI
 controller = BEI
 add_core = BEI
-culture = bornean
+culture = iban
 religion = hinduism
 capital = "Song" # BT; "Kapit"
 is_city = yes

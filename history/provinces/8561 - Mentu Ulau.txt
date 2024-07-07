@@ -2,7 +2,7 @@
 
 owner = BEI
 controller = BEI
-culture = malayan
+culture = iban
 religion = hinduism
 capital = "Mentu Ulau"
 trade_goods = tropical_wood #To note, now has a lot of oil also

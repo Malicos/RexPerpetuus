@@ -1,6 +1,6 @@
 #Dusun
 
-culture = banjarese
+culture = ngaju
 religion = hinduism
 capital = "Dusun"
 trade_goods = unknown

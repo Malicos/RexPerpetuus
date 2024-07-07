@@ -6,7 +6,7 @@
 owner = VIP
 controller = VIP
 add_core = VIP
-culture = bornean
+culture = bidayuh
 religion = hinduism
 capital = "Mandor" # BT; "Pontiniak"
 is_city = yes

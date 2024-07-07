@@ -2,7 +2,7 @@
 
 owner = BEI
 controller = BEI
-culture = malayan
+culture = kadazan
 religion = hinduism
 capital = "Brunei"
 trade_goods = spices

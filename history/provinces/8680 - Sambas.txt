@@ -3,7 +3,7 @@
 owner = VIP
 controller = VIP
 add_core = VIP
-culture = bornean
+culture = bidayuh
 religion = hinduism
 capital = "Sambas"
 trade_goods = grain

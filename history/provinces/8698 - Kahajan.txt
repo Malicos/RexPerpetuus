@@ -1,6 +1,6 @@
 #Kahajan
 
-culture = banjarese
+culture = ngaju
 religion = hinduism
 capital = "Kahajan"
 trade_goods = unknown

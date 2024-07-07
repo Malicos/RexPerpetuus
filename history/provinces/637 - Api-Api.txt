@@ -5,7 +5,7 @@
 owner = SUL
 controller = SUL
 add_core = SUL
-culture = bajau # BT; bornean
+culture = kadazan
 religion = hinduism
 capital = "Api-Api"
 is_city = yes

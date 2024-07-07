@@ -3,7 +3,7 @@
 owner = TKN
 controller = TKN
 add_core = TKN
-culture = kutainese
+culture = kadazan
 religion = hinduism
 capital = "Tarakan"
 trade_goods = fish

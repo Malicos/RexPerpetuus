@@ -4,7 +4,7 @@
 owner = BEI
 controller = BEI
 add_core = BEI
-culture = bornean
+culture = bidayuh
 religion = hinduism
 capital = "Simanggang" # BT; "Kuching"
 is_city = yes

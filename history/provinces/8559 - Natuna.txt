@@ -1,6 +1,6 @@
 #4531 - Natuna
 
-culture = malayan
+culture = bidayuh
 religion = hinduism
 capital = "Ranai"
 trade_goods = unknown

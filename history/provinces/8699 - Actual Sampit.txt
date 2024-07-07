@@ -1,6 +1,6 @@
 #Sampit
 
-culture = banjarese
+culture = ngaju
 religion = hinduism
 capital = "Sampit"
 trade_goods = unknown

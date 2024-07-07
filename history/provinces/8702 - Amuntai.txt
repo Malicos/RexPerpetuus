@@ -3,7 +3,7 @@
 owner = KUP
 controller = KUP
 add_core = KUP
-culture = banjarese
+culture = ngaju
 religion = hinduism
 capital = "Amuntai"
 trade_goods = grain

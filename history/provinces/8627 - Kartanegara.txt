@@ -3,7 +3,7 @@
 owner = SAD
 controller = SAD
 add_core = SAD
-culture = banjarese
+culture = ngaju
 religion = hinduism
 capital = "Kutai Kartanegara"
 trade_goods = fish

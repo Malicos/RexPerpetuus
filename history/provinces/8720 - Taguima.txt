@@ -1,6 +1,6 @@
 #Taguima
 
-culture = bajau
+culture = danao
 religion = anito
 capital = "Kumalarang"
 trade_goods = unknown

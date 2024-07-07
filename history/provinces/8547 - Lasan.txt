@@ -1,6 +1,6 @@
 #Dusun
 
-culture = kutainese
+culture = kayan
 religion = hinduism
 capital = "Lasan"
 trade_goods = unknown
@@ -57,5 +57,3 @@ discovered_by = PAH
 discovered_by = KEL
 discovered_by = IFG
 discovered_by = DPT
-
-1521.1.1 = { discovered_by = POR }

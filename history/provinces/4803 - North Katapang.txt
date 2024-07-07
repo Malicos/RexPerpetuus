@@ -6,7 +6,7 @@
 owner = STG
 controller = STG
 add_core = STG
-culture = bornean
+culture = bidayuh
 religion = hinduism
 capital = "Landak" # BT; "Meliau"
 is_city = yes

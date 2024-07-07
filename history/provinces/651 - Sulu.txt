@@ -3,7 +3,7 @@
 owner = SUL
 controller = SUL
 add_core = SUL
-culture = bajau
+culture = danao
 religion = hinduism
 capital = "Jolo"
 trade_goods = unknown

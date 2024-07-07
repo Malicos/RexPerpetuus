@@ -6,7 +6,7 @@
 owner = KUP
 controller = KUP
 add_core = KUP
-culture = banjarese # BT; bornean
+culture = ngaju
 religion = hinduism
 capital = "Paser"
 is_city = yes

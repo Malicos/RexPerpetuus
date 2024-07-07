@@ -2,7 +2,7 @@
 
 owner = BEI
 controller = BEI
-culture = bornean
+culture = bidayuh
 religion = hinduism
 capital = "Kanowit"
 trade_goods = spices
