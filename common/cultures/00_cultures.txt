@@ -10172,6 +10172,20 @@ southeastasian_group = {
 			"Mya" "Shin Sawbu"
 		}
 	}
+	#RP Culture
+	kuy = {
+		primary = xxx
+		dynasty_names = {
+			Pegu Dagon Thaton Martaban
+		}
+		male_names = {
+			"Razadarit" "Binnya Dhammaraza" "Binnya Ran" "Binnya Waru" "Binnya Kyan" "Leik Mawdaw" "Mawdaw"
+			"Dhammazedi" "Takayutpi" "Smim Sawhtut" "Smim Htaw" "Binnya Dala"
+		}
+		female_names = {
+			"Mya" "Shin Sawbu"
+		}
+	}	
 }
 
 burman = {
