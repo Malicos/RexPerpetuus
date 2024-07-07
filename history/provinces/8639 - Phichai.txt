@@ -3,7 +3,7 @@
 owner = SUK
 controller = SUK
 add_core = SUK
-culture = central_thai
+culture = haripunchian
 religion = buddhism
 capital = "Phichai"
 trade_goods = bt_trade_good_fruit
