@@ -3,7 +3,7 @@
 owner = KTR
 controller = KTR
 add_core = KTR
-culture = batak
+culture = gayo
 religion = hinduism
 capital = "Lamuri"
 trade_goods = spices

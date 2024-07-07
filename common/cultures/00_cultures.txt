@@ -9858,6 +9858,50 @@ malay = {
 	dynasty_names = {
 		"Rajasanagara" "Saktirai" "P'an-Lo" "Cheng" "Gunungjati"
 	}
+	#RP Culture
+	gayo = {
+		primary = XXX
+		dynasty_names = {
+                        "Bangko" Deski Keling "Kepale Dese" Keruas Pagan Selian Acih
+                        Beruh Gale Kombih Kekaro Mahe Menalu Mencawan Munthe Pase Pelis
+                        Buluaru Manik Kembang Kesugihen Lingga Bako Ujung Saragi Torong
+                        Pinim Ramin Ramud Sambo Sekedang Sugihen Sepayung Sebayang "Teriga"
+		}
+		male_names = {
+			"Indo Naro" "Bagindo Disambah Rajo" "Raja Kecil" "Sri Maharajo Dirajo" "Tuanku Maharaja Sakti" "Raja Adil"
+                        "Puti Panjang Rambut" "Tuanku Alam Sati" "Rajo Tigo Selo" "Raja Alam" "Raja Adat" "Raja Ibadat" Asa
+                        Parunggit Padrap Pasutan "Gandar Wahid" "Marah Pangsu" "Marah Sifat" "Maharaja Bongsu" Daeng Ananias
+                        Zebedee Nekoda Benaiah Micah Shem Zebadiah Manasseh Hushai Barnabas Micaiah Uriah Silas Uzziah "Nekoda"
+		}
+		female_names = {
+			"Amritpal" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi   Orama Poe Pear Poehina Poenui Poerava Puaiti
+			Puatea Puaura Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
+			Vaite "Vaitiare"
+		}
+	}
+	#RP Culture
+	rejang = {
+		primary = XXX
+		dynasty_names = {
+                        "Bangko" Deski Keling "Kepale Dese" Keruas Pagan Selian Acih
+                        Beruh Gale Kombih Kekaro Mahe Menalu Mencawan Munthe Pase Pelis
+                        Buluaru Manik Kembang Kesugihen Lingga Bako Ujung Saragi Torong
+                        Pinim Ramin Ramud Sambo Sekedang Sugihen Sepayung Sebayang "Teriga"
+		}
+		male_names = {
+			"Indo Naro" "Bagindo Disambah Rajo" "Raja Kecil" "Sri Maharajo Dirajo" "Tuanku Maharaja Sakti" "Raja Adil"
+                        "Puti Panjang Rambut" "Tuanku Alam Sati" "Rajo Tigo Selo" "Raja Alam" "Raja Adat" "Raja Ibadat" Asa
+                        Parunggit Padrap Pasutan "Gandar Wahid" "Marah Pangsu" "Marah Sifat" "Maharaja Bongsu" Daeng Ananias
+                        Zebedee Nekoda Benaiah Micah Shem Zebadiah Manasseh Hushai Barnabas Micaiah Uriah Silas Uzziah "Nekoda"
+		}
+		female_names = {
+			"Amritpal" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi   Orama Poe Pear Poehina Poenui Poerava Puaiti
+			Puatea Puaura Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
+			Vaite "Vaitiare"
+		}
+	}
 }
 
 thai_group = { # Brian; new in 1.31; BT kra_dai_culture_group

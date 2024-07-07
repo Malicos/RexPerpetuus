@@ -4,7 +4,7 @@ latent_trade_goods = {
 	coal
 }
 
-culture = sumatran
+culture = rejang
 religion = vajrayana
 capital = "Bengkulu"
 trade_goods = unknown
