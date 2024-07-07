@@ -9,7 +9,7 @@ owner = BIS
 controller = BIS
 
 #Demographics
-culture = moldavian_culture
+culture = bisseni
 religion = orthodox
 
 #Development and Trade

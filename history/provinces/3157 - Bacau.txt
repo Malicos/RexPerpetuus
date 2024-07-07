@@ -3,7 +3,7 @@
 owner = BIS
 controller = BIS
 add_core = BIS
-culture = moldavian_culture
+culture = bisseni
 religion = orthodox
 hre = no
 base_tax = 2 

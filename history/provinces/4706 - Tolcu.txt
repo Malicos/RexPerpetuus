@@ -3,7 +3,7 @@
 owner = BIS
 controller = BIS
 add_core = BIS
-culture = moldavian_culture		#Unclear if Bulgarian or Romanian majority.
+culture = bisseni		#Unclear if Bulgarian or Romanian majority.
 religion = orthodox
 capital = "Tulcea"
 trade_goods = fish
