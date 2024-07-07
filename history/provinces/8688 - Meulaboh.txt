@@ -3,7 +3,7 @@
 owner = KTR
 controller = KTR
 add_core = KTR
-culture = acehnese
+culture = batak
 religion = hinduism
 capital = "Meulaboh"
 trade_goods = tropical_wood

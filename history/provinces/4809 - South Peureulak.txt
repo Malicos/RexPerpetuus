@@ -4,7 +4,7 @@
 owner = SMD
 controller = SMD
 add_core = SMD
-culture = acehnese
+culture = batak
 religion = hinduism
 capital = "Langkat"
 is_city = yes
