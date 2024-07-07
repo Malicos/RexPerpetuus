@@ -162,6 +162,13 @@
  ###East Asian###
  #################
  
+ ### Dayak ###
+ bidayuh:0 "Bidayuh"
+ iban:0 "Iban"
+ kadazan:0 "Kadazan"
+ kayan:0 "Kayan"
+ ngaju:0 "Ngaju"
+ 
  ####Sinitic####
  ###Cathayan###
  east_asian:0 "Cathayan"

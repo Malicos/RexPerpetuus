@@ -18043,3 +18043,54 @@ african_group = {
 		primary = AFR
 	}
 }
+
+# RP Added
+dayak = {
+	graphical_culture = southeastasiangfx
+	second_graphical_culture = asiangfx
+	bidayuh = {
+		primary = XXX
+		dynasty_names = {
+		}
+		male_names = {
+		}
+		female_names = {
+		}
+	}
+	iban = {
+		primary = XXX
+		dynasty_names = {
+		}
+		male_names = {
+		}
+		female_names = {
+		}
+	}
+	kadazan = {
+		primary = XXX
+		dynasty_names = {
+		}
+		male_names = {
+		}
+		female_names = {
+		}
+	}
+	kayan = {
+		primary = XXX
+		dynasty_names = {
+		}
+		male_names = {
+		}
+		female_names = {
+		}
+	}
+	ngaju = {
+		primary = XXX
+		dynasty_names = {
+		}
+		male_names = {
+		}
+		female_names = {
+		}
+	}
+}
