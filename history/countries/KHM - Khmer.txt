@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = mandala_reform
 primary_culture = khmer
-religion = devaraja
+religion = hinduism
 technology_group = southeast_asian_group
 capital = 604 # Phnom Penh
