@@ -1,4 +1,4 @@
-DNL_A = {
+DNL_A = { #Maritime Infrastructure
 	slot = 1
 	generic = no
 	ai = yes
@@ -12,19 +12,32 @@ DNL_A = {
 		position = 1
 		required_missions = { }
 		provinces_to_highlight = {
-
+			trade_goods = naval_supplies
 		}
 
 		trigger = {
-
+			any_owned_province = {
+				trade_goods = naval_supplies
+				base_production = 5
+			}
 		}
 
 		effect = {
-
+			add_sailors = 2000
+			add_country_modifier = {
+				name = dnl_marines
+				duration = -1
+			}
+			every_owned_province = {
+				limit = {
+					trade_goods = naval_supplies
+				}
+				add_building = wharf
+			}
 		}
 	}
 
-	DNL_A2 = {
+	DNL_A2 = { #Prepare the Transport
 		icon = mission_launch_a_flagship
 		position = 2
 		required_missions = { DNL_A1 }
@@ -33,15 +46,18 @@ DNL_A = {
 		}
 
 		trigger = {
-
+			num_of_transport = 15
 		}
 
 		effect = {
-
+			add_country_modifier = {
+				name = dnl_invasion_fleet
+				duration = -1
+			}
 		}
 	}
 
-	DNL_A3 = {
+	DNL_A3 = { #Bigger Hulls
 		icon = mission_launch_a_flagship
 		position = 3
 		required_missions = { DNL_A2 }
@@ -50,15 +66,18 @@ DNL_A = {
 		}
 
 		trigger = {
-
+			has_flagship = yes
 		}
 
 		effect = {
-
+			add_country_modifier = {
+				name = dnl_wide_transport
+				duration = -1
+			}
 		}
 	}
 
-	DNL_A4 = {
+	DNL_A4 = { #Bigger Guns
 		icon = mission_launch_a_flagship
 		position = 4
 		required_missions = { DNL_A3 }
@@ -67,15 +86,18 @@ DNL_A = {
 		}
 
 		trigger = {
-
+			artillery_fraction = 0.3
 		}
 
 		effect = {
-
+			add_country_modifier = {
+				name = dnl_gunned_transport
+				duration = -1
+			}
 		}
 	}
 
-	DNL_A5 = {
+	DNL_A5 = { #Boarding Tactics
 		icon = mission_launch_a_flagship
 		position = 5
 		required_missions = { DNL_A4 }
@@ -84,15 +106,19 @@ DNL_A = {
 		}
 
 		trigger = {
-
+			num_of_captured_ships_with_boarding_doctrine = 20
 		}
 
 		effect = {
-
+			add_navy_tradition = 20
+			add_country_modifier = {
+				name = dnl_boarding_tactics
+				duration = -1
+			}
 		}
 	}
 
-	DNL_A6 = {
+	DNL_A6 = { #Battle Transporters
 		icon = mission_launch_a_flagship
 		position = 6
 		required_missions = { DNL_A5 }
@@ -101,11 +127,15 @@ DNL_A = {
 		}
 
 		trigger = {
-
+			num_of_transport = 50
+			wharf = 4
 		}
 
 		effect = {
-
+			add_country_modifier = {
+				name = dnl_battle_transport
+				duration = -1
+			}
 		}
 	}
 }
