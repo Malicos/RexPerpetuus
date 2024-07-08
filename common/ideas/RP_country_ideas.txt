@@ -45,7 +45,7 @@ JRV_ideas = {
 	
 	free = yes	# Will be added at load
 	
-	jrv1 = { naval_forcelimit = 20 }
+	jrv1 = { naval_forcelimit = 20 transport_power = 0.25 }
 
 	jrv2 = { land_morale = 0.15 naval_morale = 0.15 }
 	
