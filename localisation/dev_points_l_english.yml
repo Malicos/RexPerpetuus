@@ -24,7 +24,7 @@
  
  # Monthly tick event (Unable to be hidden when loading an autosave)
  dev_points.1.title: "Tick Clock"
- dev_points.1.desc: "This event is normally hidden.\n\nUnfortunately due to a bug in EU4 it shows if you load an autosave. Just ignore it at click the event away."
+ dev_points.1.desc: "This event is normally hidden.\n\nUnfortunately due to a bug in EU4 it shows hidden events if you load an autosave. Just ignore it at click the event away."
  dev_points.1.opta: "Ok.... sure??"
  
  topbar_current_dev_points_gui: "[From.shown_current_dev_points.GetValue]"
@@ -93,7 +93,7 @@
  dev_points_country_modifier_war: "\nAt War: §R-20%§!"
  dev_points_country_modifier_manpower: "\nOver 90% Manpower: §G+10%§!"
  dev_points_country_modifier_is_non_colonial_full_subject: "\nNon-colonial Subject: §R-20%§!"
- dev_points_country_modifier_has_economic_ideas: "\nFull Ecomomic: §G10%§!"
+ dev_points_country_modifier_has_economic_ideas: "\nFull Ecomomic: §G+10%§!"
  dev_points_country_modifier_has_monthly_dev_points_button: "\nPromoting Infrastructure: §G20%§!"
  dev_points_country_modifier_independent_colony: "\nIndependent Colony: §G+20%§!"
  dev_points_country_modifier_corruption: "\nCorruption: §R-[From.gui_corruption_var.GetValue]%§!"
