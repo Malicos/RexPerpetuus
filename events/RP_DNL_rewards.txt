@@ -1,0 +1,46 @@
+namespace = dnlmissions
+
+country_event = {
+	id = dnlmissions.1
+	title = dnlmissions.1.t
+	desc = dnlmissions.1.d
+	picture = RAMADAN_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	immediate = {  }
+	
+	option = {
+		name = dnlmissions.1.a
+		add_mercantilism = 5
+		every_owned_province = {
+			limit = { region = austrasia_region }
+			cede_province = NED
+		}
+		vassalize = NED
+		NED = {
+			add_country_modifier = {
+				name = dutch_trade_company
+				duration = -1
+			}
+		}
+		add_country_modifier = {
+			name = dnl_dutch_trade_company
+			duration = -1
+		}
+		#every_province = {
+		#	limit = { region = austrasia_region }
+		#	add_core = NED
+		#}
+		austrasia_region = {
+			add_core = NED
+		}
+	}
+
+	option = {
+		name = dnlmissions.1.b
+		add_dip_power = 200
+	}
+}
