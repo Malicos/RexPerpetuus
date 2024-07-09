@@ -1,3 +1,5 @@
+#### JORVIK
+
 bernician_autonomy = {
     min_local_autonomy = 50
     nobles_influence_modifier = 0.05
@@ -6,4 +8,14 @@ bernician_autonomy = {
 shrinking_bernician_autonomy = {
     min_local_autonomy = 25
     nobles_influence_modifier = 0.025
+}
+
+#### DANELAW
+
+cornish_copper = {
+    trade_goods_size = 0.5
+}
+
+city_of_midsass = {
+    local_development_cost_modifier = -0.2
 }

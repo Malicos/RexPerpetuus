@@ -32,6 +32,28 @@ dnl_battle_transport = {
     transport_power = 1
 }
 
+dnl_welsh_agriculture = {
+    global_trade_goods_size_modifier = 0.1
+}
+
+dnl_english_channel = {
+    trade_efficiency = 0.25
+    trade_steering = 0.25
+}
+
+dnl_dutch_trade_company = {
+    merchants = 1
+    trade_efficiency = 0.25
+    trade_steering = 0.25
+    dip_tech_cost_modifier = -0.2
+}
+
+dutch_trade_company = {
+    liberty_desire = -100
+    global_prov_trade_power_modifier = 0.5
+    trade_steering = 0.5
+}
+
 ############################################################
 #                       JORVIK
 ############################################################
