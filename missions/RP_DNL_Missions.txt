@@ -158,11 +158,14 @@ DNL_B = {
 		}
 
 		trigger = {
-
+			num_of_marines = 10
+			army_size = 20
 		}
 
 		effect = {
-
+			neustria_region = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 
@@ -175,11 +178,13 @@ DNL_B = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { area = normandy_area }
+			owns_all_provinces = { area = lower_normandy_area }
 		}
 
 		effect = {
-
+			add_prestige = 25
+			add_accepted_culture = normand
 		}
 	}
 
@@ -192,11 +197,15 @@ DNL_B = {
 		}
 
 		trigger = {
-
+			total_development = SCO
 		}
 
 		effect = {
-
+			add_casus_belli = {
+				target = DAN
+				type = cb_vassalize_mission
+				months = 9125
+			}
 		}
 	}
 
@@ -236,11 +245,15 @@ DNL_C = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { area = wessex_area }
 		}
 
 		effect = {
-
+			add_accepted_culture = sexish_culture
+			every_province = {
+				limit = { area = wessex_area }
+				add_building = road_network
+			}
 		}
 	}
 
@@ -253,11 +266,18 @@ DNL_C = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { area = cornwall_area }
 		}
 
 		effect = {
-
+			add_accepted_culture = cornish
+			every_province = {
+				limit = { area = cornwall_area }
+				add_province_modifier = {
+					name = cornish_copper
+					duration = -1
+				}
+			}
 		}
 	}
 
@@ -270,11 +290,13 @@ DNL_C = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { area = brittany_area }
+			owns_all_provinces = { area = lower_brittany_area }
 		}
 
 		effect = {
-
+			add_prestige = 25
+			add_accepted_culture = breton
 		}
 	}
 
@@ -287,11 +309,14 @@ DNL_C = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { area = western_lowlands_area }
 		}
 
 		effect = {
-
+			every_province = {
+				limit = { area = lowlands_area }
+				add_core = ROOT
+			}
 		}
 	}
 
@@ -304,11 +329,16 @@ DNL_C = {
 		}
 
 		trigger = {
-
+			OR = {
+				NOT = { exists = SCO }
+				SCO = { is_subject_of = ROOT }
+			}
 		}
 
 		effect = {
-
+			ireland_region = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 
@@ -332,7 +362,7 @@ DNL_C = {
 	DNL_C8 = {
 		icon = mission_launch_a_flagship
 		position = 8
-		required_missions = { DNL_B7 DNL_C7 }
+		required_missions = { DNL_B7 DNL_C7 DNL_D7 }
 		provinces_to_highlight = {
 
 		}
@@ -365,11 +395,29 @@ DNL_D = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { area = mercia_area }
 		}
 
 		effect = {
+			deheubarth_area = {
+				add_permanent_claim = ROOT
+			}
 
+			powys_area = {
+				add_permanent_claim = ROOT
+			}
+
+			wales_area = {
+				add_permanent_claim = ROOT
+			}
+
+			wessex_area = {
+				add_permanent_claim = ROOT
+			}
+
+			london_area = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 
@@ -378,14 +426,24 @@ DNL_D = {
 		position = 2
 		required_missions = { DNL_D1 }
 		provinces_to_highlight = {
-
+			province_id = 236
+			NOT = {	owned_by = ROOT }
 		}
 
 		trigger = {
-
+			owns = 236
 		}
 
 		effect = {
+			236 = {
+				change_province_name = "Knutr"
+				change_culture = denlegian
+				center_of_trade = 3
+				add_province_modifier = {
+					name = city_of_midsass
+					duration = -1
+				}
+			}
 
 		}
 	}
@@ -395,15 +453,20 @@ DNL_D = {
 		position = 3
 		required_missions = { DNL_D2 }
 		provinces_to_highlight = {
-
+			province_id = 236
 		}
 
 		trigger = {
-
+			236 = { development = 30 }
 		}
 
 		effect = {
-
+			add_splendor = 800
+			236 = {
+				add_building = stock_exchange
+				add_building = mb_canal
+				add_building = customs_house
+			}
 		}
 	}
 
@@ -412,15 +475,24 @@ DNL_D = {
 		position = 4
 		required_missions = { DNL_D3 }
 		provinces_to_highlight = {
-
+			region = austrasia_region
+			province_has_center_of_trade_of_level = 1
+			NOT = { owned_by = ROOT }
 		}
 
 		trigger = {
-
+			num_of_owned_provinces_with = {
+				value = 3
+				region = austrasia_region
+				province_has_center_of_trade_of_level = 1
+			}
 		}
 
 		effect = {
-
+			add_country_modifier = {
+				name = dnl_english_channel
+				duration = 9125
+			}
 		}
 	}
 
@@ -428,6 +500,30 @@ DNL_D = {
 		icon = mission_launch_a_flagship
 		position = 5
 		required_missions = { DNL_D4 }
+		provinces_to_highlight = {
+			region = austrasia_region
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				region = austrasia_region
+			}
+			NOT = { exists = NED }
+		}
+
+		effect = {
+			country_event = {
+				id = dnlmissions.1
+			}
+		}
+	}
+
+	DNL_D7 = {
+		icon = mission_launch_a_flagship
+		position = 7
+		required_missions = { DNL_C6 }
 		provinces_to_highlight = {
 
 		}
@@ -460,11 +556,17 @@ DNL_E = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { area = deheubarth_area }
+			owns_all_provinces = { area = powys_area }
+			owns_all_provinces = { area = wales_area }
 		}
 
 		effect = {
-
+			add_accepted_culture = welsh
+			add_country_modifier = {
+				name = dnl_welsh_agriculture
+				duration = 9125
+			}
 		}
 	}
 

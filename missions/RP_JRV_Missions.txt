@@ -145,6 +145,7 @@ denmark_branch = {
 		}
 
 		effect = {
+			add_prestige = 25
 			change_tag = DNL
 			swap_non_generic_missions = yes
 		}
