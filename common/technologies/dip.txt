@@ -3,9 +3,11 @@ monarch_power = DIP
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
 	#trade_efficiency = 0.2			#BTAddOn removed. Just trying some rebalancing things
+	monthly_russian_modernization = 0.05
 	diplomatic_reputation = 1			#BTAddOn new
 	spy_offence = 0.25			#BTAddOn new
 	#yearly_corruption = -0.05			#BTAddOn removed. I do like ways to reduce corruption naturally, but I'm not really clear on why pressing ahead on technology will magically lower corruption.
+	ahead_of_time_benefit_dip = 1
 }
 
 # Pre-era techs
@@ -45,7 +47,7 @@ technology = { #The Barque
 	trade_range				=	100
 	enable = cog
 	enable = galley
-
+	
 	naval_engagement_width = 20
 
 }
@@ -136,8 +138,9 @@ technology  = { #Docks
 	}
 
 	
-	num_accepted_cultures = 1
-	shipyard = yes
+	#num_accepted_cultures = 1
+	#promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
+	naval_arsenal = yes #BT More Buildings added
 
 	trade_range				=	10
 	naval_morale			=	0.2
@@ -156,6 +159,7 @@ technology = { #Carracks & Caravel
 	naval_maintenance		= 	0.1
 	range					=	75			#BTAddOn changed from 50
 	
+	shipyard = yes
 	enable = carrack
 	enable = caravel
 	may_study_technology = yes
@@ -176,6 +180,7 @@ technology = { #The Flute
 	global_colonial_growth  = 	10
 	enable = flute
 	enable = war_galley
+	#embassy = yes #BT More Buildings added
 }
 
 technology = { #Wharf
@@ -190,6 +195,7 @@ technology = { #Wharf
 	#range					= 	100			#BTAddOn removed - moves to tach 13
 
 	wharf = yes
+	mb_canal = yes #BT More Buildings added
 
 }
 
@@ -223,6 +229,7 @@ technology = { #Chartered Companies
 	range					= 	100			#BTAddOn new - replacing the tech 11 one
 	trade_efficiency 		= 	0.02
 	enable = brig
+	post_office = yes #BT More Buildings added
 
 }
 
@@ -237,7 +244,8 @@ technology = { #The Galleass
 	}
 	
 	tradecompany = yes
-	num_accepted_cultures = 1
+	#num_accepted_cultures = 1
+	#promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 
 	
 	enable = galleass
@@ -260,6 +268,7 @@ technology = { #The Galleon
 	enable = galleon
 	enable = early_frigate
 	may_sabotage_recruitment = yes
+	naval_base = yes #BT More Buildings added
 
 }
 
@@ -275,6 +284,7 @@ technology = { #Development of Maritime Law
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
+	road_network = yes #BT More Buildings added
 
 }
 
@@ -313,7 +323,7 @@ technology = { #Line of Battle
 	enable = galiot
 	naval_morale			=	0.5
 	may_sow_discontent = yes
-	
+	#admiralty = yes #BT More Buildings added
 	naval_engagement_width = 10
 
 	
@@ -353,7 +363,9 @@ technology = { #Naval Professionalization
 
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
-	num_accepted_cultures = 1
+	#num_accepted_cultures = 1
+	#promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
+	grand_shipyard = yes 
 	
 }
 
@@ -413,7 +425,7 @@ technology = { #Heavy Frigates
 	global_colonial_growth  = 	25	
 	#range					=	150			#BTAddOn removed
 	allow_client_states = yes		
-
+	spy_agency = yes #BT More Buildings added
 	
 	enable = heavy_frigate
 }
@@ -431,7 +443,6 @@ technology = { #The Archipelago Frigate
 		enlightenment = 0.15
 	}
 	
-	grand_shipyard = yes 
 
 	
 	trade_efficiency 		= 	0.02
@@ -476,7 +487,8 @@ technology = { #The Eastindiaman
 	
 	range					=	250			#BTAddOn changed from 200
 	global_colonial_growth  = 	25
-	num_accepted_cultures = 1
+	#num_accepted_cultures = 1
+	#promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 	
 	enable = eastindiaman
 	enable = great_frigate
@@ -517,6 +529,7 @@ technology = { #Joint Stock Companies
 	
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
+	customs_house = yes #BT More Buildings added
 }
 
 technology = { #Midshipmen Cadets
@@ -572,7 +585,8 @@ technology = { #Superior Ship Design
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1	
-	num_accepted_cultures = 1
+	#num_accepted_cultures = 1
+	#promote_culture_cost = -0.1 #BT Accepted Culture Slots overhaul
 }
 
 technology = { #The Gold Standard

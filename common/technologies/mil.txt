@@ -2,9 +2,11 @@ monarch_power = MIL
 
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
+	monthly_russian_modernization = 0.05
 	fire_damage = 0.05			#BTAddOn new
 	shock_damage = 0.05			#BTAddOn new
 	#military_tactics 	= 	0.20			#BTAddOn new, but cut again as it didn't work.
+	ahead_of_time_benefit_mil = 1
 }
 
 # Pre-era techs
@@ -106,13 +108,14 @@ technology = {
 	expects_institution = {
 		feudalism = 0.5
 	}
-	
+
 	#Pike Square
 	
 	infantry_shock		= 	0.20			#BTAddOn new - Part of tech shock and fire overhaul
 
 	land_morale = 	0.5
 	military_tactics 	= 	0.25
+	armory = yes #BT More Buildings added
 }
 
 technology = {
@@ -127,6 +130,7 @@ technology = {
 	supply_limit 		= 	0.2			#BTAddOn changed from 0.5, reducing tech supply limit bonus and increasing development bonus
 	#infantry_shock		= 	0.15			#BTAddOn removed - Part of tech shock and fire overhaul
 	cavalry_shock		= 	0.4
+	march_building = yes #BT More Buildings added
 
 	enable = western_men_at_arms	
 	enable = western_longbow	
@@ -158,6 +162,7 @@ technology = {
 	enable = pacific_reformed_spearman
 	
 	combat_width = 2
+	barracks = yes
 }
 
 technology = {
@@ -174,7 +179,7 @@ technology = {
 	infantry_fire 		= 	0.30			#BTAddOn changed from 0.20 - Part of tech shock and fire overhaul
 	
 	
-	barracks = yes
+	ramparts = yes
 
 
 	enable = african_somali_cavalry
@@ -224,14 +229,11 @@ technology = {
 	#infantry_fire		= 	0.25			#BTAddOn removed - Part of tech shock and fire overhaul
 	infantry_shock		= 	0.20			#BTAddOn new - Part of tech shock and fire overhaul
 	cavalry_shock		=	0.40			#BTAddOn changed from 0.8 - Part of tech shock and fire overhaul
-
-	
 	regimental_camp = yes
 }
 
 technology = {
 	# Tech 9
-	
 	year = 1518
 	expects_institution = {
 		feudalism = 0.5
@@ -287,7 +289,7 @@ technology = {
 	enable = north_american_rifle_cavalry
 	enable = central_american_rifle_cavalry
 	enable = south_american_rifle_cavalry	
-	enable = qizilbash_cavalry	
+	enable = qizilbash_cavalry_unit	
 	enable = east_mongolian_steppe	
 	enable = indian_elephant	
 	enable = steppe_riders
@@ -463,6 +465,7 @@ technology = {
 	combat_width = 1
 	
 	enable = chambered_demi_cannon
+	enable = demi_culverin
 }
 
 technology = {
@@ -500,6 +503,7 @@ technology = {
 	maneuver_value 		= 	0.25
 	cavalry_shock		= 	0.40			#BTAddOn new - Part of tech shock and fire overhaul
 	cavalry_fire		= 	0.20			#BTAddOn new - Part of tech shock and fire overhaul
+	#war_college = yes #BT More Buildings added
 
 		
 	enable = swedish_gallop	
@@ -509,6 +513,7 @@ technology = {
 	enable = mamluk_musket_charge 
 	enable = afsharid_reformed	
 	enable = leather_cannon	
+	enable = chambered_cannon	
 	enable = steppe_mounted_raiders
 	enable = ha_xoloti
 	enable = aboriginal_swarm_cav
@@ -572,7 +577,10 @@ technology = {
 	#infantry_fire		= 	0.5			#BTAddOn removed - Part of tech shock and fire overhaul
 	artillery_fire 		= 	0.70			#BTAddOn new - Part of tech shock and fire overhaul
 	
+	arsenal = yes #BT More Buildings added	
+	
 	enable = swivel_cannon		
+	enable = howitzer
 
 	combat_width = 2
 }
@@ -622,6 +630,7 @@ technology = {
 	enable = polish_winged_hussar	
 	enable = muscovite_cossack	
 
+	enable = horse_artillery_unit
 	enable = coehorn_mortar		
 }
 
@@ -711,6 +720,7 @@ technology = {
 	artillery_fire		=	0.7			#BTAddOn changed from 2.0 - Part of tech shock and fire overhaul
 	
 	enable = royal_mortar	
+	enable = licorne
 }
 
 technology = {
@@ -840,6 +850,7 @@ technology = {
 	artillery_fire		=	0.7			#BTAddOn new - Part of tech shock and fire overhaul
 		
 	enable = flying_battery  
+	enable = grand_battery
 }
 
 technology = {

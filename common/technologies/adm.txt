@@ -5,6 +5,8 @@ ahead_of_time = {
 	production_efficiency = 0.2
 	global_unrest = -2			#BTAddOn new
 	#yearly_corruption = -0.05			#BTAddOn removed. I do like ways to reduce corruption naturally, but I'm not really clear on why pressing ahead on technology will magically lower corruption.
+	monthly_russian_modernization = 0.05
+	ahead_of_time_benefit_adm = 1
 }
 
 # Pre-era techs
@@ -25,6 +27,8 @@ technology = { #Tribal Government
 	native_sweat_lodge = yes
 	native_great_trail = yes
 	native_ceremonial_fire_pit = yes
+
+	#effect = { } # When a country researches the technology
 }
 
 technology = { #Advanced Tribes
@@ -59,6 +63,8 @@ technology = { #Medieval Administration
 	expects_institution = {
 		feudalism = 0.5
 	}
+	
+	governing_capacity = 100 #BT Added
 
 	production_efficiency	=	0.02
 	may_support_rebels = yes
@@ -74,7 +80,6 @@ technology = { #Temples
 	# Temple
 	temple = yes
 	
-	governing_capacity = 150
 }
 
 technology = { #National Ideas
@@ -84,9 +89,12 @@ technology = { #National Ideas
 		feudalism = 0.5
 		renaissance = 0.15
 	}
+	
+	governing_capacity = 100 #BT Added
 
 	allowed_idea_groups = 1
 	production_efficiency	 =	0.02
+	constable = yes #BT More Buildings added
 }
 
 technology = { #Workshop
@@ -96,11 +104,10 @@ technology = { #Workshop
 		feudalism = 0.5
 		renaissance = 0.3
 	}
-	
+
 	#Workshop
 	farm_estate = yes
 	workshop = yes
-	ramparts = yes
 }
 
 technology = { #Renaissance Thought
@@ -111,13 +118,15 @@ technology = { #Renaissance Thought
 		renaissance = 0.5
 	}
 	
+	governing_capacity = 100 #BT Added
+	college = yes #BT More Buildings added
+	
 	#Noble Republic
 	allowed_idea_groups = 2	
 }
 
 technology = { #Courthouse
 	# Tech 8
-
 	year = 1505
 	expects_institution = {
 		feudalism = 0.5
@@ -125,7 +134,6 @@ technology = { #Courthouse
 	}
 
 	courthouse = yes
-	governing_capacity = 200
 
 }
 
@@ -138,10 +146,13 @@ technology = { #The Scythe
 		new_world_i = 0.15
 	}
 	
+	governing_capacity = 125 #BT Added
+	
 	#The Scythe
 	production_efficiency 	=	0.02
+	grain_depot = yes #BT More Buildings added
 	
-	administrative_efficiency = 0.1
+	administrative_efficiency = 0.1 #BT Added
 }
 
 technology = { #Modern Theocracy
@@ -166,6 +177,8 @@ technology = { #Textile Manufactory
 		new_world_i = 0.5
 	}
 	
+	governing_capacity = 125 #BT Added
+	
 	#Textile Manufactory
 	textile = yes  
 
@@ -182,7 +195,6 @@ technology = { #Early Modern Administration
 	
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
-	governing_capacity = 200
 	state_house = yes
 }
 
@@ -195,6 +207,8 @@ technology = { #Improved Drainage
 		new_world_i = 0.5
 		printing_press = 0.15
 	}
+	
+	governing_capacity = 150 #BT Added
 	
 	#Improved Drainage
 	production_efficiency 	=	0.02
@@ -224,8 +238,12 @@ technology = { #Military Administration
 		printing_press = 0.5
 	}
 	
+	governing_capacity = 150 #BT Added
+	
 	may_force_march = yes
 	soldier_households = yes
+	treasury_office = yes #BT More Buildings added
+	
 }
 
 technology = { #Metallurgy
@@ -239,6 +257,7 @@ technology = { #Metallurgy
 	}
 	
 	mills = yes
+	mint = yes #BT More Buildings added
 	production_efficiency 	=	0.02
 
 
@@ -255,11 +274,12 @@ technology = { #University
 		global_trade = 0.15
 	}
 	
-	university = yes	
-	governing_capacity = 500
+	governing_capacity = 175 #BT Added
+	
+	university = yes
 	
 	administrative_efficiency = 0.1
-	development_efficiency = 0.1
+	development_cost_modifier = -0.1
 }
 
 technology = { #National Sovereignty
@@ -274,11 +294,13 @@ technology = { #National Sovereignty
 	}
 	
 	allowed_idea_groups	= 5
+	#royal_palace = yes #BT More Buildings added
+	glorious_monument = yes #BT More Buildings added
 }
 
 technology = { #Cathedral
 	# Tech 19
-	year = 1648	
+	year = 1648
 	expects_institution = {
 		feudalism = 0.5
 		renaissance = 0.5
@@ -286,6 +308,8 @@ technology = { #Cathedral
 		printing_press = 0.5
 		global_trade = 0.5
 	}
+	
+	governing_capacity = 175 #BT Added
 	
 	#Cathedral
 	cathedral = yes
@@ -301,9 +325,8 @@ technology = { #Absolute Rulership
 		printing_press = 0.5
 		global_trade = 0.5
 	}
-	
 	republican_dictatorship = yes
-	governing_capacity = 500
+	tax_assessor = yes #BT More Buildings added	
 }
 
 technology = { #Land Clearance
@@ -317,6 +340,8 @@ technology = { #Land Clearance
 		global_trade = 0.5
 		manufactories = 0.15
 	}
+	
+	governing_capacity = 200 #BT Added
 	
 	#Land Clearance
 	production_efficiency 	=	0.02
@@ -354,8 +379,10 @@ technology = { #Measuring the World
 		manufactories = 0.5
 	}
 	
+	governing_capacity = 200 #BT Added
+	
 	administrative_efficiency = 0.1
-	development_efficiency = 0.1
+	development_cost_modifier = -0.1
 }
 
 technology = { #Bonds and Tontines
@@ -371,8 +398,7 @@ technology = { #Bonds and Tontines
 		enlightenment = 0.15
 	}
 	
-	counting_house = yes  
-	governing_capacity = 500
+	counting_house = yes 
 }
 
 technology = { #Improved Production
@@ -387,6 +413,8 @@ technology = { #Improved Production
 		manufactories = 0.5
 		enlightenment = 0.3
 	}
+	
+	governing_capacity = 250 #BT Added
 	
 	#Improved Farm Animals
 	production_efficiency 	=	0.02
@@ -420,10 +448,11 @@ technology = { #Modern Bureaucracy
 		manufactories = 0.5
 		enlightenment = 0.5
 	}
+	
+	governing_capacity = 250 #BT Added
 
 	administrative_efficiency = 0.1
-	development_efficiency = 0.1	
-	governing_capacity = 500
+	development_cost_modifier = -0.1
 }
 
 technology = { #Rotherham Plough
@@ -458,6 +487,8 @@ technology = { #Rights of Man
 		industrialization = 0.5
 	}
 	
+	governing_capacity = 300 #BT Added
+
 	allowed_idea_groups = 8
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
@@ -495,9 +526,10 @@ technology = { #Revolutionary Ideals
 		industrialization = 1
 	}
 	
+	governing_capacity = 300 #BT Added
+	
 	revolutionary_republic = yes
 	revolutionary_empire = yes
-	governing_capacity = 1000
 }
 
 technology = { #Four Field Rotation
