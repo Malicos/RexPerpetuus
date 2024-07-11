@@ -2,6 +2,6 @@ government = monarchy
 add_government_reform = mandala_reform
 government_rank = 1
 primary_culture = central_thai
-religion = mahayana
+religion = sunni
 technology_group = southeast_asian_group
 capital = 8670

@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = iqta
 primary_culture = batak
-religion = hinduism
+religion = sunni
 technology_group = southeast_asian_group
 capital = 619 #Batak

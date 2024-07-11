@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = plutocratic_reform
 primary_culture = malayan
-religion = hinduism
+religion = sunni
 technology_group = southeast_asian_group
 capital = 636	# Brunei Town
 

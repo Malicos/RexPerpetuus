@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = plutocratic_reform
 technology_group = southeast_asian_group
-religion = hinduism
+religion = sunni
 primary_culture = bajau
 capital = 651	# Jolo
