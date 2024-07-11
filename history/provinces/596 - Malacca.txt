@@ -3,7 +3,7 @@
 owner = MLC
 controller = MLC
 culture = dambro
-religion = mahayana
+religion = sunni
 capital = "Malacca"
 trade_goods = spices
 hre = no

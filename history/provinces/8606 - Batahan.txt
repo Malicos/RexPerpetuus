@@ -3,7 +3,7 @@
 owner = BRS
 controller = BRS
 culture = batak
-religion = hinduism
+religion = sunni
 capital = "Batahan"
 trade_goods = grain
 hre = no

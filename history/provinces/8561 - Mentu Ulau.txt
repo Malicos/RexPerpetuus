@@ -3,7 +3,7 @@
 owner = BEI
 controller = BEI
 culture = iban
-religion = hinduism
+religion = sunni
 capital = "Mentu Ulau"
 trade_goods = tropical_wood #To note, now has a lot of oil also
 hre = no

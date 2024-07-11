@@ -1,7 +1,7 @@
 #2683 - Mentawai
 
 culture = sumatran
-religion = hinduism
+religion = sunni
 capital = "Mentawai"
 trade_goods = unknown
 hre = no

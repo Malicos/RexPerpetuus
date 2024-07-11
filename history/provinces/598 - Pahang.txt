@@ -3,7 +3,7 @@
 owner = PAH
 controller = PAH
 culture = dambro
-religion = mahayana
+religion = sunni
 capital = "Pahang"
 trade_goods = copper #tin
 hre = no

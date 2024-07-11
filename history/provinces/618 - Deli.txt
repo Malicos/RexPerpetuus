@@ -3,7 +3,7 @@
 owner = ARU
 controller = ARU
 culture = batak
-religion = hinduism
+religion = sunni
 capital = "Medan"
 trade_goods = spices
 hre = no

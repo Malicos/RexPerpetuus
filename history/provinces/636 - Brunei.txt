@@ -3,7 +3,7 @@
 owner = BEI
 controller = BEI
 culture = kadazan
-religion = hinduism
+religion = sunni
 capital = "Brunei"
 trade_goods = spices
 hre = no

@@ -1,7 +1,7 @@
 #2684 - Nias
 
 culture = sumatran
-religion = hinduism
+religion = sunni
 capital = "Nias"
 trade_goods = unknown
 hre = no

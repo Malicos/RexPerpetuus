@@ -1,7 +1,7 @@
 #4627 - Simeulue
 
 culture = sumatran
-religion = hinduism
+religion = sunni
 capital = "Simeulue"
 trade_goods = unknown
 hre = no
