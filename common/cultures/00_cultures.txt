@@ -9457,23 +9457,6 @@ malay = {
 			Vaite Vaitiare
 		}
 	}
-	filipino = {
-		primary = SUL
-		dynasty_names = {
-			Sulu Maguindanao Tondo Lanao Butuan Palawan Panay
-		}
-		male_names = {
-			"Sharif ul Hashim" "Kamal ud Din" "Sharif Sayyid Ala ud Din" "Amirul Umara" "Muizz ul Mutawadiin" "Batarah Shah Tengah" "Muwallit Wasit" "Muhammad Alimuddin" "Muhammad al Halim" "Muizz ul Din" "Nasir ud Din"
-			"Azimuddin" "Salah ud Din Bakhtiyar" "Shihab ud Din" "Mustafa Shafi" "Muhammad Badaruddin" "Muizz ud Din Bantilan"
-			"Muhammad Israil" "Muhammad Sharafuddin" "Aliyuddin" "Shakirullah"
-		}
-		female_names = {
-			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu置tea Orama Poe Pear Poehina Poenui Poerava Puaiti
-			Puatea Puaura Ra段hau Ra段mere Ra段nui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
-			Vaite Vaitiare
-		}
-	}
 	bornean = {
 		primary = BEI
 		dynasty_names = {
@@ -9718,33 +9701,6 @@ malay = {
 		}
 	}
 	#New Culture by Cinnamon Ryce for the SEA overhaul
-	ilocano = {
-		primary = PGS
-		dynasty_names = {
-			"Bakumpai" "Ma'anyan" "Sori Mangaraja" "Hatorusan" Riwut Mahar Narang
-                        "Sisingamangaraja" "Raja Paksi" "Raja Pernong" Trienggadeng Woyla "Tanoh Jawa"
-                        Kahayan Katingan Meratus Mengkatip Berangas Beraki Alai Atiran Kiyu Juhu Hantakan
-                        Labuan Loksado Harakit Paramasan "Kayu Tangi" Bangkalaan Sampanaham Bajuin "Riam Adungan"
-		}
-		male_names = {
-			Nikullan Nikutak Nigindang "Panjung Ruma" "Sura Raja" Dilayas Kuning Anang Jamal
-                        Anwari Wangkang Batur Maruhum "Raden Labih" Damang "Damang Anggen" "Soera Djaja"
-                        "Damang Pijar" "Hausman Baboe" "Tjilik" "Raden Sukrama" "Raden Sakar" "Panembahan Kasuma"
-                        "Raja Mandarsyah" "Tumenggung Bayabaya" "Mahkota Mulia" Dilanggar "Sinum Panji"
-                        "Dipati Agung" "Dipati Maja" "Gelar Ratu" "Dipati Tua" "Anum Panji" "Surya Natakesuma"
-                        Nikullan Nikutak Nigindang "Panjang Ruma" "Sura Raja" Dilayas "Kuning" "Dewa Sura"
-                        Brawijaya Bapurung "Panembahan Bendala" "Gusti Syansudin" "Gusti Asma" "Titik Kesuma"
-                        "Agung Kesuma" "Anom Suria" "Raden Cili"
-		}
-		female_names = {
-			"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu'utea Orama Poe Pear Poehina Poenui Poerava Puaiti
-			Puatea Puaura Ra'ihau Ra'imere Ra'inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
-                        Mahir
-			"Vaite" "Vaitiare" "Nyai Undang"
-		}
-	}
-	#New Culture by Cinnamon Ryce for the SEA overhaul
 	musi = {
 		primary = PLB
 		dynasty_names = {
@@ -9764,24 +9720,6 @@ malay = {
 		female_names = {
 			Azura Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu'utea Orama Poe Pear Poehina Poenui Poerava Puaiti
 			Puatea Puaura Ra'ihau Ra'imere Ra'inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
-			Vaite "Vaitiare"
-		}
-	}
-	#New Culture by Cinnamon Ryce for the SEA overhaul
-	danao = {
-		primary = MGD
-		dynasty_names = {
-			"Sulu" Maguindanao Tondo Lanao Butuan Palawan Panay
-		}
-		male_names = {
-			"Sharif ul Hashim" "Kamal ud Din" "Sharif Sayyid Ala ud Din" "Amirul Umara" "Muizz ul Mutawadiin" "Batarah Shah Tengah" "Muwallit Wasit" "Muhammad Alimuddin" "Muhammad al Halim" "Muizz ul Din" "Nasir ud Din"
-			"Azimuddin" "Salah ud Din Bakhtiyar" "Shihab ud Din" "Mustafa Shafi" "Muhammad Badaruddin" "Muizz ud Din Bantilan"
-			"Muhammad Israil" "Muhammad Sharafuddin" "Aliyuddin" "Shakirullah"
-		}
-		female_names = {
-			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi   Orama Poe Pear Poehina Poenui Poerava Puaiti
-			Puatea Puaura Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
 			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
 			Vaite "Vaitiare"
 		}
@@ -9826,33 +9764,6 @@ malay = {
 			"Suhita" "Sri Gitarja" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi   Orama Poe
                         Pear Poehina Poenui Poerava Puaiti Laksmini Srilestari Sriningsih Megawati Sinta Suminten Tri
                         Surtinem Susanti Utari Tuminindyah Bethari Lestari Sinta Surati Ratu "Wangi"
-		}
-	}
-	#New Culture by Cinnamon Ryce for the SEA overhaul
-	visayan = {
-		primary = CEB
-		dynasty_names = {
-			"Bakumpai" "Ma'anyan" "Sori Mangaraja" "Hatorusan" Riwut Mahar Narang
-                        "Sisingamangaraja" "Raja Paksi" "Raja Pernong" Trienggadeng Woyla "Tanoh Jawa"
-                        Kahayan Katingan Meratus Mengkatip Berangas Beraki Alai Atiran Kiyu Juhu Hantakan
-                        Labuan Loksado Harakit Paramasan "Kayu Tangi" Bangkalaan Sampanaham Bajuin "Riam Adungan"
-		}
-		male_names = {
-			Nikullan Nikutak Nigindang "Panjung Ruma" "Sura Raja" Dilayas Kuning Anang Jamal
-                        Anwari Wangkang Batur Maruhum "Raden Labih" Damang "Damang Anggen" "Soera Djaja"
-                        "Damang Pijar" "Hausman Baboe" "Tjilik" "Raden Sukrama" "Raden Sakar" "Panembahan Kasuma"
-                        "Raja Mandarsyah" "Tumenggung Bayabaya" "Mahkota Mulia" Dilanggar "Sinum Panji"
-                        "Dipati Agung" "Dipati Maja" "Gelar Ratu" "Dipati Tua" "Anum Panji" "Surya Natakesuma"
-                        Nikullan Nikutak Nigindang "Panjang Ruma" "Sura Raja" Dilayas "Kuning" "Dewa Sura"
-                        Brawijaya Bapurung "Panembahan Bendala" "Gusti Syansudin" "Gusti Asma" "Titik Kesuma"
-                        "Agung Kesuma" "Anom Suria" "Raden Cili"
-		}
-		female_names = {
-			"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu'utea Orama Poe Pear Poehina Poenui Poerava Puaiti
-			Puatea Puaura Ra'ihau Ra'imere Ra'inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
-			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
-                        Mahir
-			"Vaite" "Vaitiare" "Nyai Undang"
 		}
 	}
 	dynasty_names = {
@@ -18115,6 +18026,102 @@ dayak = {
 		male_names = {
 		}
 		female_names = {
+		}
+	}
+}
+
+#RP Added
+filipino_group = {
+	graphical_culture = southeastasiangfx
+	second_graphical_culture = asiangfx
+	
+	#New Culture by Cinnamon Ryce for the SEA overhaul
+	danao = {
+		primary = MGD
+		dynasty_names = {
+			"Sulu" Maguindanao Tondo Lanao Butuan Palawan Panay
+		}
+		male_names = {
+			"Sharif ul Hashim" "Kamal ud Din" "Sharif Sayyid Ala ud Din" "Amirul Umara" "Muizz ul Mutawadiin" "Batarah Shah Tengah" "Muwallit Wasit" "Muhammad Alimuddin" "Muhammad al Halim" "Muizz ul Din" "Nasir ud Din"
+			"Azimuddin" "Salah ud Din Bakhtiyar" "Shihab ud Din" "Mustafa Shafi" "Muhammad Badaruddin" "Muizz ud Din Bantilan"
+			"Muhammad Israil" "Muhammad Sharafuddin" "Aliyuddin" "Shakirullah"
+		}
+		female_names = {
+			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi   Orama Poe Pear Poehina Poenui Poerava Puaiti
+			Puatea Puaura Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
+			Vaite "Vaitiare"
+		}
+	}
+	filipino = {
+		primary = SUL
+		dynasty_names = {
+			Sulu Maguindanao Tondo Lanao Butuan Palawan Panay
+		}
+		male_names = {
+			"Sharif ul Hashim" "Kamal ud Din" "Sharif Sayyid Ala ud Din" "Amirul Umara" "Muizz ul Mutawadiin" "Batarah Shah Tengah" "Muwallit Wasit" "Muhammad Alimuddin" "Muhammad al Halim" "Muizz ul Din" "Nasir ud Din"
+			"Azimuddin" "Salah ud Din Bakhtiyar" "Shihab ud Din" "Mustafa Shafi" "Muhammad Badaruddin" "Muizz ud Din Bantilan"
+			"Muhammad Israil" "Muhammad Sharafuddin" "Aliyuddin" "Shakirullah"
+		}
+		female_names = {
+			"Anela" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu置tea Orama Poe Pear Poehina Poenui Poerava Puaiti
+			Puatea Puaura Ra段hau Ra段mere Ra段nui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
+			Vaite Vaitiare
+		}
+	}	
+	#New Culture by Cinnamon Ryce for the SEA overhaul
+	ilocano = {
+		primary = PGS
+		dynasty_names = {
+			"Bakumpai" "Ma'anyan" "Sori Mangaraja" "Hatorusan" Riwut Mahar Narang
+                        "Sisingamangaraja" "Raja Paksi" "Raja Pernong" Trienggadeng Woyla "Tanoh Jawa"
+                        Kahayan Katingan Meratus Mengkatip Berangas Beraki Alai Atiran Kiyu Juhu Hantakan
+                        Labuan Loksado Harakit Paramasan "Kayu Tangi" Bangkalaan Sampanaham Bajuin "Riam Adungan"
+		}
+		male_names = {
+			Nikullan Nikutak Nigindang "Panjung Ruma" "Sura Raja" Dilayas Kuning Anang Jamal
+                        Anwari Wangkang Batur Maruhum "Raden Labih" Damang "Damang Anggen" "Soera Djaja"
+                        "Damang Pijar" "Hausman Baboe" "Tjilik" "Raden Sukrama" "Raden Sakar" "Panembahan Kasuma"
+                        "Raja Mandarsyah" "Tumenggung Bayabaya" "Mahkota Mulia" Dilanggar "Sinum Panji"
+                        "Dipati Agung" "Dipati Maja" "Gelar Ratu" "Dipati Tua" "Anum Panji" "Surya Natakesuma"
+                        Nikullan Nikutak Nigindang "Panjang Ruma" "Sura Raja" Dilayas "Kuning" "Dewa Sura"
+                        Brawijaya Bapurung "Panembahan Bendala" "Gusti Syansudin" "Gusti Asma" "Titik Kesuma"
+                        "Agung Kesuma" "Anom Suria" "Raden Cili"
+		}
+		female_names = {
+			"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu'utea Orama Poe Pear Poehina Poenui Poerava Puaiti
+			Puatea Puaura Ra'ihau Ra'imere Ra'inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
+                        Mahir
+			"Vaite" "Vaitiare" "Nyai Undang"
+		}
+	}
+	#New Culture by Cinnamon Ryce for the SEA overhaul
+	visayan = {
+		primary = CEB
+		dynasty_names = {
+			"Bakumpai" "Ma'anyan" "Sori Mangaraja" "Hatorusan" Riwut Mahar Narang
+                        "Sisingamangaraja" "Raja Paksi" "Raja Pernong" Trienggadeng Woyla "Tanoh Jawa"
+                        Kahayan Katingan Meratus Mengkatip Berangas Beraki Alai Atiran Kiyu Juhu Hantakan
+                        Labuan Loksado Harakit Paramasan "Kayu Tangi" Bangkalaan Sampanaham Bajuin "Riam Adungan"
+		}
+		male_names = {
+			Nikullan Nikutak Nigindang "Panjung Ruma" "Sura Raja" Dilayas Kuning Anang Jamal
+                        Anwari Wangkang Batur Maruhum "Raden Labih" Damang "Damang Anggen" "Soera Djaja"
+                        "Damang Pijar" "Hausman Baboe" "Tjilik" "Raden Sukrama" "Raden Sakar" "Panembahan Kasuma"
+                        "Raja Mandarsyah" "Tumenggung Bayabaya" "Mahkota Mulia" Dilanggar "Sinum Panji"
+                        "Dipati Agung" "Dipati Maja" "Gelar Ratu" "Dipati Tua" "Anum Panji" "Surya Natakesuma"
+                        Nikullan Nikutak Nigindang "Panjang Ruma" "Sura Raja" Dilayas "Kuning" "Dewa Sura"
+                        Brawijaya Bapurung "Panembahan Bendala" "Gusti Syansudin" "Gusti Asma" "Titik Kesuma"
+                        "Agung Kesuma" "Anom Suria" "Raden Cili"
+		}
+		female_names = {
+			"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu'utea Orama Poe Pear Poehina Poenui Poerava Puaiti
+			Puatea Puaura Ra'ihau Ra'imere Ra'inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani
+			Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea
+                        Mahir
+			"Vaite" "Vaitiare" "Nyai Undang"
 		}
 	}
 }
