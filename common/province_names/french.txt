@@ -24,17 +24,13 @@
 
 #Mesopotamia
 407 = { "Racca" "Racca" } #(JP) "Raqqa"
-2314 = { "Deir ez-Zor" "Deir ez-Zor" } #(JP) "Deir ez-Zor"
+2134 = { "Rahba" "Rahba" }
 4298 = { "Aïntab" "Aïntab" }
-6089 = { "Rahba" "Rahba" }
-6090 = { "Soulouk" "Soulouk" }
 6091 = { "Meskene" "Meskene" } #(JP) "Maskanah"
-6092 = { "Manbij" "Manbij" }
 
 #Levant
 321 = { "Limassol" "Limassol" }
 364 = { "Arich" "Arich" }
-365 = { "Raya" "Raya" }
 377 = { "Alep" "Alep" }
 378 = { "Triple" "Triple" }
 379 = { "Jérusalem" "Jérusalem" }
@@ -57,37 +53,163 @@
 5181 = { "Nechel" "Nechel" }
 5203 = { "Montréal" "Montréal" } #(JP) "Shoubak"
 5205 = { "Beyrouth" "Beyrouth" }
-6065 = { "Sinaï" "Sainte-Catherine du Sinaï" }
-6066 = { "Tafile" "Tafile" }
-6067 = { "Philadelphie" "Philadelphie" } #(JP) "Amman"
-6068 = { "Azrac" "Azrac" }
-6069 = { "Mafrac" "Mafrac" } #(JP) "Al-Mafraq"
-6070 = { "Arbelle" "Arbelle" }
+365 = { "Sinaï" "Sainte-Catherine du Sinaï" }
 6071 = { "Bersabée" "Bersabée" }
-6072 = { "Remle" "Remle" }
-6073 = { "Le Lyon" "Le Lyon" }
 6074 = { "Tyr" "Tyr" }
 6075 = { "Saete" "Saete" } #(JP) Or "Sayette" or "Sagette"
 6076 = { "Episcopé" "Episcopé" }
 6077 = { "Kormakitis" "Kormakitis" }
 6078 = { "Cyrenie" "Cyrenie" }
-6079 = { "Margatte" "Margatte" } #(JP) "Margat"
 6080 = { "Tartous" "Tartous" }
 6081 = { "Adrée" "Adrée" } #(JP) Modern "Daraa"
-6082 = { "Soueïda" "Soueïda" } #(JP) "As-Suwayda"
-6083 = { "Sanamein" "Sanamein" } #(JP) "Al-Sanamayn"
 6084 = { "Maaloule" "Maaloule" }
 6085 = { "Salamié" "Salamié" }
 6086 = { "Hamath" "Hamath" }
-6087 = { "Marre" "Marre" } #(JP) Crusader name of "Maarat al-Numan"
 6088 = { "Soukhna" "Soukhna" }
-6093 = { "Hazart" "Hazart" } #(JP) "Aziz"
 6094 = { "Alexandrette" "Alexandrette" }
 6095 = { "Kilis" "Kilis" }
 
 #Arabia
 #Egypt
 #Maghreb
+
+#Horn of Africa
+1205 = { "Mogadischou" "Mogadischou" }
+1206 = { "Qardho" "Qardho" } #(JP) Base Names
+1207 = { "Guban" "Danan" } #(JP) Base Names
+1208 = { "Degehabur" "Degehabur" } #(JP) Base Names
+1209 = { "Berbera" "Berbera" } #(JP) Base Names
+1210 = { "Dawaro" "Gende Belo" } #(JP) Base Names
+1211 = { "Harar" "Harar" } #(JP) Base Names
+1212 = { "Zeilah" "Zeilah" }
+1213 = { "Fatagar" "Telq" } #(JP) Base Names #(JP) Later Addis Ababa
+1214 = { "Amhara" "Atronsa Maryam" } #(JP) Base Names
+1215 = { "Tadjourah" "Tadjourah" }
+1223 = { "Mertule Maryam" "Mertule Maryam" } #(JP) Base Names
+1224 = { "Gondar" "Gondar" } #(JP) Base Names
+1227 = { "Aksoum" "Aksoum" }
+1230 = { "Massaoua" "Massaoua" }
+2024 = { "Garowe" "Garowe" }
+2757 = { "Kaffa" "Bonga" } #(JP) Base Names
+2758 = { "Ennarea" "Yadare" } #(JP) Base Names
+2759 = { "Baro" "Gambella" } #(JP) Base Names
+2760 = { "Hosaena" "Hosaena" } #(JP) Base Names
+2761 = { "Arababni" "Iteya" } #(JP) Base Names
+2762 = { "Damot" "Tomagarer" } #(JP) Base Names
+2763 = { "Asosa" "Asosa" } #(JP) Base Names
+2764 = { "Assayta" "Assayta" }
+2765 = { "Rehayto" "Rehayto" }
+2766 = { "Sanhit" "Sanhit" } #(JP) Base Names
+2767 = { "Enderta" "Antalo" } #(JP) Base Names
+2768 = { "Dobe'a" "Manadeley" } #(JP) Base Names
+2769 = { "Lasta" "Laibela" } #(JP) Base Names
+2770 = { "Agawmeder" "Kosober" } #(JP) Base Names
+2771 = { "Semien" "Amba Yehouda" } #(JP) Base Names
+2772 = { "Dembiya" "Gorgora" } #(JP) Base Names
+2773 = { "Djidjiga" "Djidjiga" }
+2775 = { "Merka" "Merka" }
+2776 = { "Afgoïe" "Afgoïe" }
+2778 = { "Werder" "Werder" } #(JP) Base Names
+2779 = { "Le Kère" "Le Kère" }
+2780 = { "Beledoueïn" "Beledoueïn" }
+2782 = { "Ouarcheikh" "Ouarcheikh" }
+2783 = { "Hobyo" "Hobyo" } #(JP) Base Names
+2784 = { "Galkayo" "Galkayo" } #(JP) Base Names
+2785 = { "El Buur" "El Buur" } #(JP) Base Names
+2786 = { "Bandar Qassim" "Bandar Qassim" } #(JP) Base Names
+2787 = { "Hamasien" "Asmara" } #(JP) Base Names
+2788 = { "Hafun" "Hafun" } #(JP) Base Names
+2789 = { "Las Khorey" "Las Khorey" } #(JP) Base Names
+2790 = { "Erigavo" "Erigavo" } #(JP) Base Names
+2791 = { "Ankober" "Ankober" } #(JP) Base Names
+2792 = { "Burao" "Burao" } #(JP) Base Names
+2793 = { "Hargeisa" "Hargeisa" } #(JP) Base Names
+2794 = { "Brava" "Brava" } #(JP) Italian Names
+2795 = { "Mareeg" "Mareeg" } #(JP) Base Names
+4158 = { "Janjero" "Fofa" } #(JP) Base Names
+5288 = { "Ras Kasar" "Ras Kasar" } #(JP) Base Names
+5297 = { "Barka" "Barentu" } #(JP) Base Names
+5298 = { "Zoula" "Zoula" }
+8797 = { "Burakaba" "Burakaba" }
+8798 = { "Jouar" "Jouar" }
+8799 = { "Baïdoa" "Baïdoa" }
+8800 = { "Odur" "Odur" }
+8801 = { "Dusamareb" "Dusamareb" } #(JP) Base Names
+8802 = { "Eyl" "Eyl" } #(JP) Base Names
+8803 = { "Bandar Beyla" "Bandar Beyla" } #(JP) Base Names
+8804 = { "Alula" "Alula" } #(JP) Base Names
+8805 = { "Mette" "Mette" }
+8806 = { "Geladin" "Geladin" } #(JP) Base Names
+8807 = { "Guerlogubi" "Guerlogubi" }
+8808 = { "Quelafo" "Quelafo" }
+8809 = { "Gode" "Gode" } #(JP) Base Names
+8813 = { "Sarkha" "Ganbah" } #(JP) Base Names
+8831 = { "Gimbi" "Gimbi" } #(JP) Tulu/Yambel before Oromo Invasions
+8833 = { "Wej" "Zway" } #(JP) Base Names
+8834 = { "Gurage" "Aymallal" } #(JP) Base Names
+8842 = { "Gimira" "Mizan Tefere" } #(JP) Base Names
+8843 = { "Bedele" "Buno Bedele" } #(JP) Base Names
+8844 = { "Hirmata" "Hirmata" } #(JP) Base Names
+8845 = { "Sheka" "Tepi" } #(JP) Base Names
+8846 = { "Gog" "Fugnido" } #(JP) Base Names
+8847 = { "Jor" "Ongoogi" } #(JP) Base Names
+8848 = { "Anfillo" "Anfillo" } #(JP) Base Names
+8849 = { "Gidami" "Gidami" } #(JP) Base Names
+8850 = { "Fadasi" "Ya'a" } #(JP) Base Names
+8851 = { "Komesha" "Komesha" } #(JP) Base Names
+8852 = { "Beni Shangul" "Kurmuk" } #(JP) Base Names
+8853 = { "Nekemte" "Nekemte" } #(JP) Zet before Oromo Invasions
+8854 = { "Bizamo" "Bizamo" } #(JP) Base Names
+8855 = { "Gambo" "Gambo" } #(JP) Base Names
+8856 = { "Endagabatan" "Ambo" } #(JP) Base Names
+8857 = { "Ifat" "Dabra Sina" } #(JP) Base Names
+8858 = { "Gidim" "Fursi" } #(JP) Base Names
+8859 = { "Kalo" "Millee" } #(JP) Base Names
+8860 = { "Biqulzar" "Ayelu" } #(JP) Base Names
+8861 = { "Hubat" "Hubat" } #(JP) Base Names
+8862 = { "Hargaya" "Fedis" } #(JP) Base Names
+8863 = { "Adigala" "Adigala" } #(JP) Base Names
+8864 = { "Doobi" "Bododya" } #(JP) Base Names
+8865 = { "Debre Libanos" "Debre Libanos" } #(JP) Base Names
+8866 = { "Walaqa" "Midda" } #(JP) Base Names
+8867 = { "Manz" "Meshala Maryam" } #(JP) Base Names
+8868 = { "Angot" "Hayq" } #(JP) Base Names
+8869 = { "Begemder" "Addis Zaman" } #(JP) Base Names
+8870 = { "Gaynt" "Nafas Mawca" } #(JP) Base Names
+8871 = { "Belessa" "Emfraz" } #(JP) Base Names
+8872 = { "Mengesta Semayat" "Mengesta Semayat" } #(JP) Base Names
+8873 = { "Wemberma" "Fanota Salam" } #(JP) Base Names
+8874 = { "Achefer" "Gish Abay" } #(JP) Base Names
+8875 = { "Wenbara" "Debre Zeyit" } #(JP) Base Names
+8876 = { "Dangur" "Manbuk" } #(JP) Base Names
+8877 = { "Gubba" "Gubba" } #(JP) Base Names
+8878 = { "Qwara" "Tewodros Ketema" } #(JP) Base Names
+8879 = { "Armachiho" "Chilga" } #(JP) Base Names
+8880 = { "Tsegede" "Ketema Nigus" } #(JP) Base Names
+8881 = { "Mazaga" "Addi Balaw" } #(JP) Base Names
+8882 = { "Tselemt" "Addi Arqay" } #(JP) Base Names
+8883 = { "Tembien" "Melfa" } #(JP) Base Names
+8884 = { "Waggarat" "Bahri Haiay" } #(JP) Base Names
+8885 = { "Shire" "Shire" } #(JP) Base Names
+8886 = { "Agamé" "Debre Damo" } #(JP) Base Names
+8887 = { "Abêssalé" "Abêssalé" }
+8888 = { "Obock" "Obock" } #(JP) Base Names
+8889 = { "Beyloul" "Beyloul" }
+8890 = { "Édd" "Édd" }
+8891 = { "Tiyo" "Tiyo" } #(JP) Base Names
+8892 = { "Dahlak" "Grande Dahlac" }
+8893 = { "Decamare" "Decamare" }
+8894 = { "Dbarwa" "Dbarwa" }
+8895 = { "Agordat" "Agordat" } #(JP) Base Names
+8896 = { "Kunama" "Magalo" } #(JP) Base Names
+8897 = { "Teseney" "Teseney" } #(JP) Base Names
+8898 = { "Carcabat" "Carcabat" }
+8899 = { "Nakfa" "Nakfa" } #(JP) Base Names
+
+#East Africa
+2774 = { "Quismayo" "Quismayo" }
+2777 = { "Bardère" "Bardère" }
+2781 = { "Luuc" "Luuc" }
 
 ######Americas######
 
@@ -798,7 +920,6 @@
 5161 = { "Coryce" "Coryce" }				#Corycus. Found by Math5615, though Corycus was used more often
 
 #Levant
-6068 = { "Basie" "Basie" }
 5138 = "Osmanie"						#Osmaniye. Notes
 5203 = "Montréal" 						#Arabah. Notes
 5205 = "Beyrouth"						#Beirut. Notes
@@ -1571,7 +1692,7 @@
 4368 = "Duresme"
 4375 = "Chestre"
 5130 = "Mysie"
-5131 = "Kydonie"
+#5131 = "Kydonie"
 5135 = "Mersine"
 5152 = "Amasée"
 5155 = "Gordion"

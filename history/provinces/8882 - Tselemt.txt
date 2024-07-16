@@ -9,7 +9,7 @@ owner = BTI
 controller = BTI
 
 #Demographics
-culture = kayla #Endreyas' suggestion
+culture = tigray #Endreyas' suggestion
 religion = coptic
 
 #Development and Trade

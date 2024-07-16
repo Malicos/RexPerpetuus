@@ -1,12 +1,10 @@
-#8899 - Nakfa/Afabet
+#8899 - Habab/Nafka
 #Area - 
 #Region - Horn of Africa
 
 #Core Details
 capital = "Nakfa"
 is_city = no
-owner = BAG
-controller = BAG
 
 #Demographics
 culture = tigre
@@ -19,7 +17,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BAG
+#BAG for Bet Asgade if wanted
 
 #Other Political
 hre = no

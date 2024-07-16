@@ -5,11 +5,9 @@
 #Core Details
 capital = "Karkabet"
 is_city = no
-owner = BGU
-controller = BGU
 
 #Demographics
-culture = tigre
+culture = beja
 religion = sunni
 
 #Development and Trade
@@ -19,7 +17,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BGU
+#BGU for Bet Guk if wanted
 
 #Other Political
 hre = no

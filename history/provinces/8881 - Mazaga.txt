@@ -9,7 +9,7 @@ owner = MZG
 controller = MZG
 
 #Demographics
-culture = qwara #(JP) When doing Nubia, will likely end up being Beja
+culture = tigray #(JP) When doing Nubia, will likely end up being Beja
 religion = shamanism
 
 #Development and Trade

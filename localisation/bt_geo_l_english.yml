@@ -8349,10 +8349,10 @@
  #Tradenodes
  southern_australia:0 "Southern Australia"
  #Colonial Regions
- #colonial_western_australia:0 "Colonial Western Australia" # RP MODIFIED
+ colonial_western_australia:0 "Colonial Western Australia"
  COLONIAL_WESTERN_AUSTRALIA_Root_Culture_GetName_Australia:0 "[Root.GetAdjective] Western Australia"
  COLONIAL_WESTERN_AUSTRALIA_Root_Culture_GetName_Australia_ADJ:0 "[Root.GetAdjective] Western Australian"
- #colonial_northeastern_australia:0 "Colonial Northern Australia" # RP MODIFIED
+ colonial_northeastern_australia:0 "Colonial Northern Australia"
  COLONIAL_NORTHERN_AUSTRALIA_Root_Culture_GetName_Australia:0 "[Root.GetAdjective] Northern Australia"
  COLONIAL_NORTHERN_AUSTRALIA_Root_Culture_GetName_Australia_ADJ:0 "[Root.GetAdjective] Northern Australian"
  
