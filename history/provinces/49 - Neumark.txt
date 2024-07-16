@@ -3,8 +3,9 @@
 #Region - Germany
 #Area - Neumark
 
-owner = STO
-controller = STO
+owner = JRB
+controller = JRB
+add_core = JRB
 add_core = STO
 culture = polabian_culture
 religion = catholic

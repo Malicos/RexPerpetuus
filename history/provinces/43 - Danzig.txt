@@ -2,8 +2,9 @@
 #Region - Baltic
 #Area - West Prussia
 
-owner = SGR
-controller = SGR
+owner = PME
+controller = PME
+add_core = PME
 add_core = SGR
 capital = "Gdunsk"
 culture = kashubian_culture

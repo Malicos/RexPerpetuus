@@ -1,8 +1,9 @@
  
 #BT Scandinavia and Baltics reoverhaul
 
-owner = STO
-controller = STO
+owner = POL
+controller = POL
+add_core = POL
 add_core = STO
 culture = polabian_culture
 religion = catholic
