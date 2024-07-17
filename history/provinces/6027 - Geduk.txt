@@ -10,7 +10,7 @@ controller = CAP
 
 #Demographics
 culture = cappadocian_greek
-religion = orthodox
+religion = iconoclast
 
 #Development and Trade
 base_tax = 1

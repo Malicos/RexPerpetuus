@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = cappadocian_greek
-religion = orthodox
+religion = iconoclast
 technology_group = rhomanian_tech
 capital = 4307
 
@@ -14,7 +14,7 @@ capital = 4307
 		dip = 4
 		mil = 4
 		birth_date = 1405.1.26
-		religion = orthodox
+		religion = iconoclast
 		culture = cappadocian_greek
 	}
 }
