@@ -262,8 +262,8 @@ temple = {
 	modifier = {
 		local_missionary_strength = 0.01			#BTAddOn new effect. Giving the temple the same bonus of this building's upgrade, simply weaker. Makes it more useful when it is too late in the game to make money back from building cost.
 		#local_tax_modifier = 0.4			#BTAddOn changed from 0.4. Part of the comprehensive balance overhaul to adjust buildings to the BT map (with all its new provinces)
-		local_culture_conversion_cost = -0.2
-		local_religious_conversion_resistance = 0.5
+		local_culture_conversion_cost = -0.15
+		local_unrest = -1
 	}
 	on_built = {
 		on_built_tax_building_effect = yes
@@ -1541,9 +1541,9 @@ cathedral = {
 	time = 24			#BTAddOn changed from 12. Doubling upgraded buildings' build time
 	modifier = {
 		local_missionary_strength = 0.02			#BTAddOn changed from 0.03, might slow conversion slightly, but avg dev is also lower, so that might be a good thing
-		local_culture_conversion_cost = -0.2
-		local_religious_conversion_resistance = 1
 		#local_tax_modifier = 0.6
+		local_culture_conversion_cost = -0.30
+		local_unrest = -2
 	}
 	on_built = {
 		on_built_tax_building_effect = yes
