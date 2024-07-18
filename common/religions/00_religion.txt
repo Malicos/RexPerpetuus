@@ -2108,7 +2108,7 @@ eastern = {
 	
 	#RP Added
 	bimoism = {
-		color = { 128 26 26 }
+		color = { 204 51 51 }
 		icon = 47
 		country = {
 			global_unrest = -1
