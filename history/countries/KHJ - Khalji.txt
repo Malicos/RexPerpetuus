@@ -3,6 +3,7 @@ add_government_reform = iqta
 government_rank = 2
 primary_culture = horasanli
 add_accepted_culture = turkmeni
+add_accepted_culture = tajik
 religion = sunni
 technology_group = iranian_tech
 capital = 445	# Merv
