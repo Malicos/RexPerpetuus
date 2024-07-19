@@ -1,0 +1,59 @@
+country_decisions = {
+    DNL_move_capital = {
+
+        major = yes
+
+        potential = {
+            mission_completed = DNL_D2
+        }
+
+        allow = {
+            owns_core_province = 236
+        }
+
+        effect = {
+            set_capital = 236
+
+            236 = {
+				change_province_name = "Knutr"
+				change_culture = ROOT
+            }
+
+            add_base_tax = 2
+            add_base_production = 2
+            add_base_manpower = 2
+        }
+    }
+
+    gold_into_dev = {
+
+        color = { 255 215 0 }
+
+        potential = {
+            has_country_flag = rp_gold_into_dev
+        }
+
+        allow = {
+            treasury = 1
+        }
+
+        effect = {
+            add_years_of_income = -1
+            custom_tooltip = add_year_of_dev
+            hidden_effect = {
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+                add_monthly_dev_points_effect = yes
+            }
+        }
+    }
+}
