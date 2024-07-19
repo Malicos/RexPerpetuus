@@ -396,7 +396,7 @@ country_event = {                         #Start of event chain to cede english 
 		}
 	}
 	after = {
-		every_owned_province = {
+		every_province = {
 			clr_province_flag = bt_hyw_concession
 		}
 	}
