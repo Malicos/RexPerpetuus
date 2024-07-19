@@ -1,6 +1,6 @@
 #Country Name: GUYENNE.
 
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 54 50 226 }
 
