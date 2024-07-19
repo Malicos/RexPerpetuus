@@ -35,20 +35,25 @@ historical_units = {
 }
 
 monarch_names = {
-	# RP HISTORICAL NAMES
-	"Pal #1" = 1
-	"Torbrand #1" = 10
-	"Halder #3" = 60
-	"Samund #1" = 10
-	"Ragnvald #1" = 10
-	"Halfden #1" = 1
-	"Olaf #2" = 20
-	"Gudleik #1" = 1
-	"Kolbein #1" = 1
-	"Arnvid #1" = 10
-	"Vigleik #1" = 1
-	"Osser #2" = 20
-	"Sverre #1" = 1
+	# HISTORICAL NAMES
+	"Sweyn #1" = 20
+	"Canute #1" = 60
+	"Hardicanute #1" = 20
+
+	# LEGACY JORVIK NAMES
+	"Pal #0" = 1
+	"Torbrand #0" = 10
+	"Halder #0" = 60
+	"Samund #0" = 10
+	"Ragnvald #0" = 10
+	"Halfden #0" = 1
+	"Olaf #0" = 20
+	"Gudleik #0" = 1
+	"Kolbein #0" = 1
+	"Arnvid #0" = 10
+	"Vigleik #0" = 1
+	"Osser #0" = 20
+	"Sverre #0" = 1
 	
 	# RANDOM NAMES - MALE
 	"Rolf #0" = 10
