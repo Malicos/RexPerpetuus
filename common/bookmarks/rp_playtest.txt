@@ -8,8 +8,7 @@ bookmark = {
 	
 	country = NOR
 	country = JRV
-	country = CDB
-	country = SHQ
 	
 	easy_country = NOR
+	easy_country = JRV
 }
