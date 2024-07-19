@@ -17,6 +17,6 @@ government_rank = 2
 		religion = catholic
 		culture = denlegian
 	}
-	add_ruler_personality = tactical_genius_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = strict_personality
+	add_ruler_personality = lawgiver_personality
 }
