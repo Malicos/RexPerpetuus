@@ -80,19 +80,19 @@
  DNL_C5_title:0 "Nordic Lowlands"
  DNL_C6_title:0 "Subjugate Alba"
  DNL_C7_title:0 "Ulster & Tyrone"
- DNL_C8_title:0 "Gallwegian Viceroyalty"
+ DNL_C8_title:0 "Beyond Ireland"
 
  DNL_D1_title:0 "End Mercia"
  DNL_D2_title:0 "Conquer Middlesex"
  DNL_D3_title:0 "Pearl of the Thames"
  DNL_D4_title:0 "Beyond the Channel"
  DNL_D5_title:0 "Dutch Trade Company"
+ DNL_D7_title:0 "Southern Ireland"
 
  DNL_E2_title:0 "Dominate Wales"
- DNL_E3_title:0 "Raid & Trade Fleet"
- DNL_E4_title:0 "Deal or Steal"
+ DNL_E3_title:0 "Royal Trade Fleet"
+ DNL_E4_title:0 "Privateer The Trade"
  DNL_E5_title:0 "Hoard the Gold"
-
 
 #JORVIK MISSIONS
  integrate_bernicia_title:0 "Integrate Bernicia"

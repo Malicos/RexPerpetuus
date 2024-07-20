@@ -48,6 +48,21 @@ dnl_dutch_trade_company = {
     dip_tech_cost_modifier = -0.2
 }
 
+dnl_further_west = {
+    may_explore = yes
+    colonists = 1
+    range = 0.333
+}
+
+dnl_royal_trade_fleet = {
+    global_ship_trade_power = 0.25
+    global_sailors_modifier = 0.25
+}
+
+dnl_great_privateers = {
+    coast_raid_range = 2
+}
+
 dutch_trade_company = {
     liberty_desire = -100
     global_prov_trade_power_modifier = 0.5

@@ -1,4 +1,10 @@
 ﻿l_english:
+
+ rp_gold_into_dev_desc:0 "Unlocks a decision that allows you to trade Ducats for Development Points."
+ gold_into_dev_title:0 "Invest Ducats into Development"
+ gold_into_dev_desc:0 "We should invest our money to reap great returns in the future"
+ add_year_of_dev:0 "Gain a year of §YDevelopment Points§!"
+
  bretland_nation_title:0 "Form Bretland"
  bretland_nation_desc:0 " "
 

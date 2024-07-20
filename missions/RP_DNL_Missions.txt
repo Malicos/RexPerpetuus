@@ -202,9 +202,9 @@ DNL_B = {
 
 		effect = {
 			add_casus_belli = {
-				target = DAN
+				target = SCO
 				type = cb_vassalize_mission
-				months = 9125
+				months = 240
 			}
 		}
 	}
@@ -218,11 +218,12 @@ DNL_B = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { area = connacht_area }
+			owns_all_provinces = { area = meath_area }
 		}
 
 		effect = {
-
+			add_adm_power = 200
 		}
 	}
 }
@@ -314,7 +315,7 @@ DNL_C = {
 
 		effect = {
 			every_province = {
-				limit = { area = lowlands_area }
+				limit = { area = western_lowlands_area }
 				add_core = ROOT
 			}
 		}
@@ -351,11 +352,12 @@ DNL_C = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { area = ulster_area }
+			owns_all_provinces = { area = tyrone_area }
 		}
 
 		effect = {
-
+			add_dip_power = 200
 		}
 	}
 
@@ -368,11 +370,15 @@ DNL_C = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { region = ireland_region }
 		}
 
 		effect = {
-
+			add_accepted_culture = irish
+			add_country_modifier = {
+				name = dnl_further_west
+				duration = -1
+			}
 		}
 	}
 }
@@ -436,9 +442,7 @@ DNL_D = {
 
 		effect = {
 			236 = {
-				change_province_name = "Knutr"
-				change_culture = denlegian
-				center_of_trade = 3
+				add_or_spawn_center_of_trade = 3
 				add_province_modifier = {
 					name = city_of_midsass
 					duration = -1
@@ -529,11 +533,13 @@ DNL_D = {
 		}
 
 		trigger = {
-
+			owns_all_provinces = { area = leinster_area }
+			owns_all_provinces = { area = thomond_area }
+			owns_all_provinces = { area = desmond_area }
 		}
 
 		effect = {
-
+			add_mil_power = 200
 		}
 	}
 }
@@ -579,11 +585,15 @@ DNL_E = {
 		}
 
 		trigger = {
-
+			num_of_light_ship = 15
 		}
 
 		effect = {
-
+			add_sailors = 1000
+			add_country_modifier = {
+				name = dnl_royal_trade_fleet
+				duration = -1
+			}
 		}
 	}
 
@@ -596,11 +606,26 @@ DNL_E = {
 		}
 
 		trigger = {
-
+			1975 = {
+				has_privateer_share_in_trade_node = {
+					who = ROOT
+					share = 0.1
+				}
+			}
+			1269 = {
+				has_privateer_share_in_trade_node = {
+					who = ROOT
+					share = 0.1
+				}
+			}
 		}
 
 		effect = {
-
+			add_sailors = 2000
+			add_country_modifier = {
+				name = dnl_great_privateers
+				duration = -1
+			}
 		}
 	}
 
@@ -613,11 +638,12 @@ DNL_E = {
 		}
 
 		trigger = {
-
+			treasury = 2000
 		}
 
 		effect = {
-
+			set_country_flag = rp_gold_into_dev
+			custom_tooltip = rp_gold_into_dev_desc
 		}
 	}
 }

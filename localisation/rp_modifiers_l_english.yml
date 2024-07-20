@@ -1,5 +1,20 @@
 ﻿l_english:
 
+#DANELAW STUFF
+ dnl_marines:0 "Delegian Marines"
+ dnl_invasion_fleet:0 "Invasion Fleet"
+ dnl_wide_transport:0 "Large Transport Ships"
+ dnl_gunned_transport:0 "Heavy Gunned Transport"
+ dnl_boarding_tactics:0 "Boarding Tactics"
+ dnl_battle_transport:0 "Universal Transport Ships"
+ dnl_welsh_agriculture:0 "Welsh Agriculture"
+ dnl_english_channel:0 "English Channel Domination"
+ dnl_dutch_trade_company:0 "Dutch Trade Company (Liege)"
+ dutch_trade_company:0 "Dutch Trade Company"
+ dnl_further_west:0 "Further West"
+ dnl_royal_trade_fleet:0 "Royal Trade Fleet"
+ dnl_great_privateers:0 "Black Crows"
+
 #JORVIK STUFF
  lost_bernicia_modifier:0 "Forfeited Ducal Title"
  feared_ruler:0 "Feared Ruler"
@@ -65,3 +80,6 @@
  #PROVINCE MODIFIERS
  bernician_autonomy:0 "Bernician Autonomy"
  shrinking_bernician_autonomy:0 "Shrinking Bernician Autonomy"
+
+ cornish_copper:0 "Cornish Copper"
+ city_of_midsass:0 "City of Midsass"
