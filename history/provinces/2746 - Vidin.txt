@@ -8,7 +8,7 @@ religion = orthodox
 capital = "Vidin"
 trade_goods = grain
 hre = no
-base_tax = 4
+base_tax = 5
 base_production = 4			#Important city to everyone
 base_manpower = 3
 is_city = yes
@@ -29,5 +29,5 @@ discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 
-extra_cost = 8
-center_of_trade = 1
+extra_cost = 16
+center_of_trade = 2
