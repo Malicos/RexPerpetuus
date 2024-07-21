@@ -1,10 +1,12 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 2
+government_rank = 3
 primary_culture = bulgarian
+add_accepted_culture = romanian
+add_accepted_culture = serbian
 religion = orthodox
 technology_group = eastern
-capital = 1765	# Sofia
+capital = 2746	# Vidin
 
 1435.10.21 = {
 	monarch = {
