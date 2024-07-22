@@ -4,7 +4,7 @@ government_rank = 2
 technology_group = eastern
 religion = orthodox
 primary_culture = bisseni
-add_accepted_culture = moldavian_culture
+add_accepted_culture = romanian
 capital = 282
 
 1442.12.19 = {
