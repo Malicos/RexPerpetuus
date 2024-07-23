@@ -31,7 +31,7 @@ dlc102_ser_sprite_pack = {
 	country_trigger = {
 		OR = {
 			primary_culture = serbian
-			#primary_culture = albanian	#RP Modified
+			primary_culture = albanian
 		}
 	}
 
