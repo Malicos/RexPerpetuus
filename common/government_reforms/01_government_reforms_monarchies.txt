@@ -44,6 +44,25 @@ nordic_monarchy = {
 	}
 }
 
+merciorum_regnum = {
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	icon = "merchant_ship"
+	potential = {
+		has_reform = merciorum_regnum
+	}
+	valid_for_nation_designer = no
+
+	modifiers = {
+		move_capital_cost_modifier = -0.9
+		attack_bonus_in_capital_terrain = 1
+	}
+
+	custom_attributes = {
+
+	}
+}
+
 ########################
 #####  VANILLA  ########
 ########################
