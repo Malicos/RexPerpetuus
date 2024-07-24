@@ -5,7 +5,7 @@
 
 #Bretland
 BRL_ideas = {
-	start = { naval_forcelimit = 15 global_ship_recruit_speed = -0.333 }
+	start = {  }
 
 	bonus = {  }
 
@@ -58,6 +58,33 @@ JRV_ideas = {
 	jrv6 = { global_unrest = -2 }
 	
 	jrv7 = { coast_raid_range = 3 }
+}
+
+#Mercia
+MID_ideas = {
+	start = { diplomatic_upkeep = 2 can_fabricate_for_vassals = yes }
+
+	bonus = { can_transfer_vassal_wargoal = yes }
+
+	trigger = {
+		tag = MID
+	}
+
+	free = yes	# Will be added at load
+
+	mid1 = { manpower_in_accepted_culture_provinces = 0.33 } #denlegian subjects
+
+	mid2 = { rival_border_fort_maintenance = -1 } #kingdom of the border people
+
+	mid3 = { build_cost = -0.25 } #great dykes
+
+	mid4 = { unjustified_demands = -0.5 province_warscore_cost = -0.1 } # first unifiers of england
+
+	mid5 = { land_morale_constant = 1 } #mercian supremacy
+
+	mid6 = { naval_morale = 0.15 diplomatic_reputation = 1 } #germanic links
+
+	mid7 = { warscore_from_battles_modifier = 1 } #millenium of history
 }
 
 #Norway
