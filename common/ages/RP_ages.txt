@@ -222,19 +222,6 @@ age_of_discovery = {
 				factor = 100
 			}
 		}
-
-		ab_rp_sharq_jihad = {
-			allow = {
-				tag = SHQ
-			}
-			modifier = {
-				siege_ability = 0.30
-				cb_on_religious_enemies = yes
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
 	}
 }
 
@@ -415,83 +402,18 @@ age_of_reformation = {
 			}
 		}
 
-		ab_spain_shock_tactics = {
+		ab_rp_sharq_jihad = {
 			allow = {
-				tag = SPA
-			}
-			effect = { 
-				on_age_ability_taken = { age = age_of_reformation }
+				tag = SHQ
 			}
 			modifier = {
-				leader_land_shock = 1
-				num_of_age_rewards = 1
+				siege_ability = 0.30
+				cb_on_religious_enemies = yes
 			}
 			ai_will_do = {
 				factor = 100
 			}
 		}
-		ab_mughal_artillery = {
-			allow = {
-				tag = MUG
-			}
-			effect = { 
-				on_age_ability_taken = { age = age_of_reformation }
-			}
-			modifier = {
-				artillery_power = 0.15
-				num_of_age_rewards = 1
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		
-		ab_polish_legitimacy = {
-			allow = {
-				OR = {
-					tag = PLC
-					tag = POL
-					custom_trigger_tooltip = {
-						tooltip = enable_this_ability_tt
-						has_country_flag = unlock_polish_ability_flag
-					}
-				}
-			}
-			effect = { 
-				on_age_ability_taken = { age = age_of_reformation }
-			}
-			modifier = {
-				global_trade_goods_size_modifier = 0.33
-				num_of_age_rewards = 1
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-		
-		ab_persia_development = {
-			allow = {
-				OR = {
-					custom_trigger_tooltip = {
-						tooltip = unlocked_this_ab_tt
-						has_country_flag = enable_persian_age_ability_flag
-					}
-					tag = PER
-					tag = ERS
-				}
-			}
-			effect = { 
-				on_age_ability_taken = { age = age_of_reformation }
-			}
-			modifier = {
-				development_cost = -0.2
-				num_of_age_rewards = 1
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}
-	
 	}
 }
 
