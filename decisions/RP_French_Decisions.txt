@@ -1,5 +1,5 @@
 country_decisions = {
-	FRA_proclaim_kingdom_of_the_french = {
+	FRA_proclaim_kingdom_of_france = {
 		potential = {
 			tag = FRA
 			# mission_completed = FRA_rename_mission_completed	#Here is the mission that unlocks the rename
