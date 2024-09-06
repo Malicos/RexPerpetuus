@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = nordic_monarchy
-primary_culture = denlegian
+primary_culture = anglisk
 religion = catholic
 technology_group = western
 capital = 245	# Jorvik
@@ -15,7 +15,7 @@ government_rank = 2
 		mil = 4
 		birth_date = 1411.2.2
 		religion = catholic
-		culture = denlegian
+		culture = anglisk
 	}
 	add_ruler_personality = strict_personality
 	add_ruler_personality = lawgiver_personality
