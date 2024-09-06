@@ -140,7 +140,10 @@ dlc001_bou_sprite_pack = {
 dlc001_eng_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		tag = ENG
+		OR = {
+			tag = ENG
+			tag = SEX #RP Added
+		}
 	}
 
 	sprite_infantry = {
