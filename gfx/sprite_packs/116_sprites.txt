@@ -250,7 +250,7 @@ dlc116_DAN_sprite_pack = {
 	country_trigger = {
 		OR = {
 			primary_culture = danish
-			primary_culture = anglisk	#RP Added
+			primary_culture = denlegian	#RP Added
 		}
 	}
 
