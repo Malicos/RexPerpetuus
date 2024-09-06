@@ -1,0 +1,22 @@
+country_decisions = {
+	FRA_proclaim_kingdom_of_the_french = {
+		potential = {
+			tag = FRA
+			# mission_completed = FRA_rename_mission_completed	#Here is the mission that unlocks the rename
+			NOT = { has_country_flag = FRA_passed_rename_decision }
+		}
+		provinces_to_highlight = {
+			owned_by = ROOT
+		}
+		major = yes
+		allow = {
+			government_rank = 2
+			total_development = 500
+		}
+		effect = {
+			override_country_name = FRA_FRANCE
+			add_prestige = 10
+			set_country_flag = FRA_passed_rename_decision
+		}
+	}
+}

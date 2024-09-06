@@ -232,6 +232,8 @@
  kvitramnar_ADJ:0 "White Ravens'"
  blaramnar:0 "Blåramnar"
  blaramnar_ADJ:0 "Blue Ravens'"
+ FRA_FRANCE:0 "France"
+ FRA_FRANCE_ADJ:0 "French"
  # Western Europe
  ABO:0 "Abo"
  ABO_ADJ:0 "Abonian"
