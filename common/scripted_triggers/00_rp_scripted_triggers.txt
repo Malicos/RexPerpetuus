@@ -1,0 +1,15 @@
+
+#Rex Perpetuus work done by all contributors
+
+#Written by Velius
+
+is_anatolian_greek = {
+	OR = {
+		primary_culture = mikrasiatic
+		primary_culture = pamphylian
+		primary_culture = cappadocian_greek
+		primary_culture = phrygian
+		primary_culture = galatian
+		primary_culture = pontic_greek
+	}
+}

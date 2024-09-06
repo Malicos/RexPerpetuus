@@ -121,8 +121,10 @@ dlc137_FER_sprite_pack = {
  dlc137_MOL_sprite_pack = {
 # 	# Tests against every tag in game
  	country_trigger = {
- 		#tag = MOL	#RP Modified
-		tag = BIS	#RP Added
+		OR = {
+			tag = MOL
+			tag = BIS	#RP Added
+		}
  	}
 
  	sprite_infantry = {

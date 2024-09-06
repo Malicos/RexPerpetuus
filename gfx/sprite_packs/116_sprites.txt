@@ -201,10 +201,7 @@ dlc116_RIG_sprite_pack = {
 dlc116_NOR_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		OR = {
-			primary_culture = norwegian
-			primary_culture = anglisk	#RP Added
-		}
+		primary_culture = norwegian
 	}
 
 	sprite_infantry = {
@@ -251,7 +248,10 @@ dlc116_NOR_b_sprite_pack = {
 dlc116_DAN_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		primary_culture = danish
+		OR = {
+			primary_culture = danish
+			primary_culture = anglisk	#RP Added
+		}
 	}
 
 	sprite_infantry = {

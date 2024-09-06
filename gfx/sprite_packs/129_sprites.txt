@@ -210,11 +210,7 @@ dlc129_TLC_sprite_pack = {
 dlc129_TRE_sprite_pack = {
 	# Tests against every tag in game
 	country_trigger = {
-		OR = {
-			primary_culture = pontic_greek
-			primary_culture = galatian # RP Added
-			primary_culture = cappadocian_greek # RP Added
-		}
+		is_anatolian_greek = yes	#RP Modified
 	}
 
 	sprite_infantry = {
