@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = english_monarchy
 government_rank = 2
-primary_culture = anglisk
+primary_culture = denlegian
 religion = catholic
 technology_group = western
 capital = 245 	# Jorvik
