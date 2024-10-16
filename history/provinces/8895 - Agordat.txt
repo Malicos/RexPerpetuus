@@ -5,8 +5,7 @@
 #Core Details
 capital = "Agordat"
 is_city = no
-owner = AGT
-controller = AGT
+tribal_owner = BLW
 
 #Demographics
 culture = tigre
@@ -16,10 +15,9 @@ religion = sunni
 base_tax = 1
 base_production = 1
 base_manpower = 2
-trade_goods = grain
+trade_goods = unknown
 
 #Cores and Occupation (Alphabetical after current)
-add_core = AGT
 
 #Other Political
 hre = no

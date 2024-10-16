@@ -5,21 +5,19 @@
 #Core Details
 capital = "Teseney"
 is_city = no
-owner = AGT
-controller = AGT
+tribal_owner = BLW
 
 #Demographics
-culture = beni_amer
+culture = beja
 religion = sunni
 
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = livestock
+trade_goods = unknown
 
 #Cores and Occupation (Alphabetical after current)
-add_core = AGT
 
 #Other Political
 hre = no
