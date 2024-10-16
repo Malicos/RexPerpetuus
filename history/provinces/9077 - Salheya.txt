@@ -5,12 +5,12 @@
 #Core Details
 capital = "Salheya"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = KEM
+controller = KEM
 
 #Demographics
-culture = al_misr_arabic
-religion = sunni
+culture = coptic_culture
+religion = coptic
 
 #Development and Trade
 base_tax = 4
@@ -19,7 +19,6 @@ base_manpower = 3
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
 add_core = KEM
 
 #Other Political

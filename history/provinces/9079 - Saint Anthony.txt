@@ -5,8 +5,8 @@
 #Core Details
 capital = "Saint Anthony"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = KEM
+controller = KEM
 
 #Demographics
 culture = coptic_culture
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = bt_trade_good_books
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
 add_core = KEM
 
 #Other Political
