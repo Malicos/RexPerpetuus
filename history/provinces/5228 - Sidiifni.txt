@@ -1,22 +1,75 @@
+ 
 # No previous file for Beyond Typus province
 
-owner = SOS
-controller = SOS
-add_core = SOS
-culture = shilha
+culture = saharawi_arabic
 religion = sunni
-capital = "Nul"
-trade_goods = wool
+capital = "Ifni"
+trade_goods = fish
 hre = no
-base_tax = 4 
-base_production = 4 
+base_tax = 1 
+base_production = 1 
 base_manpower = 2 
-is_city = yes
+is_city = no
+tribal_owner = TEK
+native_size = 60 #x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4 #Each gives 0.05 tactics to uprising
+native_hostileness = 9 #Each gives 1% chance of uprising a month
+
 
 discovered_by = western
 discovered_by = eastern
-discovered_by = rhomanian_tech
-discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
+discovered_by = muslim
 discovered_by = ottoman
+discovered_by = sub_saharan
+
+
+1465.1.1 = { unrest = 5 } #Marinid Sultan killed by mob. Mohammed ibn Ali Amrani-Joutey (Idrisid) proclaims himself Sultan. Unrest in the entire country. 
+
+1472.1.1 = {
+	owner = SOS
+	controller = SOS
+	unrest = 0
+} #Area goes to the Saadians, no idea what tag is used here -vanilla seems to use three, depending on the year
+
+1476.1.1 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+	capital = "Santa Cruz"
+	unrest = 0 
+} # Conquered by Spain
+
+1500.1.1 = { discovered_by = eastern }
+
+1516.1.23 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	remove_core = CAS
+} # Ferdinand the Catholic dies, Charles inherits Aragon and becomes regent of Castille
+
+1524.1.1 = {
+	owner = TFL
+	controller = TFL
+	add_core = TFL
+	capital = "Sidi Ifni"
+}	#It remained in Spanish hands until 1524 when it was captured by Saadian rulers.
+
+1549.1.1 = {
+	owner = MOR
+	controller = MOR
+	remove_core = TFL
+}	#Fall of Fez
+
+1603.8.1 = { unrest = 5 } #Death of al-Mansur, long period of instability follows
+
+1613.1.1 = {
+	owner = SOS
+	controller = SOS
+	unrest = 0
+}
+
+1670.1.1 = {
+	owner = MOR
+	controller = MOR
+}
