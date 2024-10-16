@@ -62,3 +62,198 @@ Minus 7 points - The language is close to another major language but violates sp
 #Make sure it gets at least 10 points from this list. If you want to debate a specific language, feel free to @Chairman Meow (JP) on the Discord
 
 ####################
+
+#List of files and their status/reason for existing
+File										Culture/Group/Tag		Status									Reason for Existence
+
+ADR.txt										Tag						Organised and Capitalised				Tag-Province Name
+afar.txt									Culture					Disabled								Disabled - due to limited naming and size
+agaw_group.txt								Culture Group			Empty									Culture Group
+al_misr_arabic.txt							Culture					Disabled								Disabled - due to non-standard-spelling
+albanian.txt								Culture					Empty									Dummy
+altaic.txt									Culture Group			Unorganised but Capitalised				Culture Group
+andalucian.txt								Culture					Empty									Dummy
+anglo_irish.txt								Culture					Organised and Capitalised				Beyond the Pale
+anglosaxon.txt								Culture					Partially Organised and Capitalised		Lost Culture
+aragonese.txt								Culture					Empty									Dummy
+arakanese.txt								Culture					Organised and Capitalised				Suvarnabhumi
+aramaic.txt									Culture					Organised and Capitalised				Lost Culture
+armenian_group.txt							Culture Group			Organised and Capitalised				Culture Group
+
+babylonian.txt								Culture					Unorganised and Uncapitalised			Lost Culture
+basque.txt									Culture					Partially Organised and Capitalised		Culture Group
+bavarian.txt								Culture					Empty									Dummy
+beja_group.txt								Culture Group			Organised and Capitalised				Culture Group
+berber.txt									Culture					Empty									Dummy
+berber_group.txt							Culture Group			Partially Organised and Capitalised		Culture Group
+bimanese.txt								Culture					Unorganised and Uncapitalised			Suvarnabhumi
+brazilian.txt								Culture					Partially Organised and Capitalised		Major Language, Long Namelist, Primary Speaker
+breton.txt									Culture					Unorganised and Uncapitalised			Beyond the Pale
+british.txt									Culture Group			Partially Organised and Capitalised		Culture Group
+brythonic.txt								Culture Group			Partially Organised and Capitalised		Culture Group
+bulgarian.txt								Culture					Empty									Dummy
+burman.txt									Culture Group			Unorganised and Uncapitalised			Suvarnabhumi
+burmese.txt									Culture					Unorganised and Uncapitalised			Suvarnabhumi
+byelorussian.txt							Culture					Unorganised but Capitalised				Major Language, Long Namelist, Non-1444 Tag
+byzantine.txt								Culture Group			Organised and Capitalised				Culture Group
+
+cantonese.txt								Culture					Unorganised and Uncapitalised			Major Language
+carpathian.txt								Culture Group			Partially Organised and Capitalised		Culture Group
+CAS.txt										Tag						Empty									Dummy
+castillian.txt								Culture					Empty									Dummy
+catalan.txt									Culture					Organised and Capitalised				Major Language, Long Namelist, Standardised
+caucasian.txt								Culture Group			Partially Organised and Capitalised		Culture Group
+celtic_breton_culture.txt					Culture					Unorganised and Uncapitalised			Beyond the Pale
+celtic_cornish_culture.txt					Culture					Unorganised and Uncapitalised			Beyond the Pale
+celtic_highland_scottish_culture.txt		Culture					Unorganised and Uncapitalised			Beyond the Pale
+celtic_irish_culture.txt					Culture					Unorganised and Uncapitalised			Beyond the Pale
+celtic_welsh_culture.txt					Culture					Unorganised and Uncapitalised			Beyond the Pale
+central_thai.txt							Culture					Empty									Dummy
+chimin.txt									Culture					Unorganised but Capitalised				Major language, Non-1444 Tag
+circassian_group.txt						Culture Group			Organised and Capitalised				Culture Group
+cornish.txt									Culture					Organised but Uncapitalised				Beyond the Pale
+cree.txt									Culture					Unorganised and Uncapitalised			Draiocht
+croatian.txt								Culture					Organised and Capitalised				Exceptions to Serbian-Standard in south_slavic.txt
+crow_culture.txt							Culture					Unorganised and Uncapitalised			Draiocht
+cushitic.txt								Culture Group			Organised and Capitalised				Culture Group
+czech.txt									Culture					Partially Organised and Capitalised		Major Language, Long Namelist, Standardised
+
+dacian.txt									Culture Group			Organised and Capitalised				Culture Group
+dakota.txt									Culture					Unorganised and Uncapitalised			Draiocht
+danish.txt									Culture					Partially Organised and Capitalised		Multicentric nature of Scandinavian Languages
+dutch.txt									Culture					Partially Organised and Capitalised		Major Language, Long Namelist, Standardised
+DWT.txt										Tag						Organised and Capitalised				Tag-Province Name
+
+east_asian.txt								Culture Group			Organised and Capitalised				Culture Group
+east_slavic.txt								Culture Group			Partially Organised and Capitalised		Culture Group
+egyptian_group.txt							Culture Group			Partially Organised and Capitalised		Culture Group
+ENG.txt										Tag						Organised and Capitalised				Exceptions to british.txt
+english.txt									Culture					Empty									Dummy
+estonian.txt								Culture					Organised and Capitalised				Major Language, Moderate Namelist, Standardised, Non-1444
+ethiopian_group.txt							Culture Group			Partially Organised and Capitalised		Culture Group
+etrurian.txt								Culture					Unorganised and Uncapitalised			Nation Designer
+evenks.txt									Culture Group			Unorganised and Uncapitalised			Culture Group
+
+finno_ugric.txt								Culture Group			Organised and Capitalised				Culture Group
+flemish.txt									Culture					Partially Organised and Capitalised		Copying dutch.txt
+french.txt									Culture Group			Partially Organised and Capitalised		Culture Group
+frisian.txt									Culture					Partially Organised and Capitalised		Probably shouldn't?
+
+gaelic.txt									Culture Group			Partially Organised and Capitalised		Culture Group
+gallgaidheil.txt							Culture					Partially Organised and Capitalised		Beyond the Pale
+GBR.txt										Tag						Organised and Capitalised				Exceptions to british.txt
+georgian.txt								Culture					Empty									Dummy
+germanic.txt								Culture Group			Partially Organised and Capitalised		Culture Group
+greek.txt									Culture					Empty									Dummy
+gumuz_group.txt								Culture Group			Empty									Culture Group
+
+hakka.txt									Culture					Unorganised and Uncapitalised			Major Language, Non-1444
+hawaiian.txt								Culture					Unorganised and Uncapitalised			Major Language, Long Namelist
+highland_east_cushite_group.txt				Culture Group			Organised and Capitalised				Culture Group
+highland_scottish.txt						Culture					Organised and Capitalised				Beyond the Pale
+hindusthani.txt								Culture Group			Unorganised but Capitalised				Culture Group
+hungarian.txt								Culture					Empty									Dummy
+hupa.txt									Culture					Unorganised and Uncapitalised			Draiocht
+
+iberian.txt									Culture Group			Organised and Capitalised				Culture Group
+icelandic.txt								Culture					Unorganised and Uncapitalised			Multicentric nature of Scandinavian Languages
+illyrian.txt								Culture Group			Organised and Capitalised				Culture Group
+iranian.txt									Culture Group			Partially Organised and Capitalised		Culture Group
+irish.txt									Culture					Organised but Uncapitalised				Beyond the Pale
+
+japanese_g.txt								Culture Group			Unorganised and Uncapitalised			Culture Group
+je.txt										Culture Group			Unorganised and Uncapitalised			Culture Group
+jewish_culture_group.txt					Culture Group			Unorganised and Uncapitalised			Culture Group
+
+khmer.txt									Culture					Unorganised and Uncapitalised			Suvarnabhumi
+khun.txt									Culture					Unorganised and Uncapitalised			Suvarnabhumi
+kiowa.txt									Culture					Unorganised and Uncapitalised			Draiocht
+kordofanian_group.txt						Culture Group			Organised and Capitalised				Culture Group
+korean.txt									Culture					Empty									Dummy
+korean_group.txt							Culture Group			Unorganised but Capitalised				Culture Group
+ktunaxa.txt									Culture					Unorganised and Uncapitalised			Draiocht
+kurdish.txt									Culture					Partially Organised and Capitalised		Major Language, Long Namelist
+
+lao.txt										Culture					Unorganised and Uncapitalised			Suvarnabhumi
+latin.txt									Culture Group			Organised and Capitalised				Culture Group
+latvian.txt									Culture					Organised and Capitalised				Major Language, Moderate Namelist, Non-1444
+lithuanian.txt								Culture					Partially Organised and Capitalised		Major Language, Long Namelist, Standardised
+LPP.txt										Tag						Empty									Dummy
+LUX.txt										Tag						Empty									Dummy
+
+maghrebi.txt								Culture					Empty									Dummy
+malay.txt									Culture Group			Unorganised and Uncapitalised			Suvarnabhumi
+MAM.txt										Tag						Empty									Dummy
+manchu.txt									Culture					Unorganised and Uncapitalised			Needs more
+mikmaq.txt									Culture					Unorganised and Uncapitalised			Draiocht
+mon.txt										Culture					Unorganised and Uncapitalised			Suvarnabhumi
+
+northern_thai.txt							Culture					Unorganised and Uncapitalised			Suvarnabhumi
+norwegian.txt								Culture					Unorganised and Uncapitalised			Multicentric nature of Scandinavian Languages
+NOV.txt										Tag						Organised and Capitalised				Exceptions to east_slavic.txt
+nubian_group.txt							Culture Group			Organised and Capitalised				Culture Group
+
+old_egyptian.txt							Culture					Unorganised and Uncapitalised			Nation Designer
+omotic_group.txt							Culture Group			Organised and Capitalised				Culture Group
+oromo_group.txt								Culture Group			Organised and Capitalised				Culture Group
+
+parthian.txt								Culture					Unorganised and Uncapitalised			Nation Designer
+PEG.txt										Tag						Unorganised and Uncapitalised			Suvarnabhumi
+phoenician.txt								Culture					Partially Organised and Capitalised		Nation Designer
+polish.txt									Culture					Empty									Dummy
+portugese.txt								Culture					Partially Organised and Capitalised		Major Language, Long Namelist, Standardised
+pruthenian.txt								Culture					Unorganised and Uncapitalised			Nation Designer
+
+ROM.txt										Tag						Empty									Dummy
+roman.txt									Culture					Partially Organised and Capitalised		Nation Designer
+romanian.txt								Culture					Empty									Dummy
+russian.txt									Culture					Empty									Dummy
+ruthenian.txt								Culture					Partially Organised and Capitalised		Major language, Long Namelist, Standardised
+
+sahelian.txt								Culture Group			Organised and Capitalised				Culture Group
+saho.txt									Culture					Organised and Capitalised				Probably shouldn't?
+salish.txt									Culture					Unorganised and Uncapitalised			Draiocht
+scandinavian.txt							Culture Group			Empty									Dummy due to multicentric nature of Scandinavian Languages
+scottish.txt								Culture					Empty									Dummy
+serbian.txt									Culture					Empty									Dummy
+shan.txt									Culture					Unorganised and Uncapitalised			Suvarnabhumi
+SIA.txt										Tag						Unorganised and Uncapitalised			Suvarnabhumi
+sicilian.txt								Culture					Unorganised and Uncapitalised			Probably shouldn't?
+slovak.txt									Culture					Organised and Capitalised				Major Language, Long Namelist, Standardised
+slovene.txt									Culture					Organised and Capitalised				Moderate Langauge, Long Namelist, Standardised, Native Speaker
+somali.txt									Culture					Empty									Dummy
+south_slavic.txt							Culture Group			Unorganised and Uncapitalised			Culture Group
+southeastasian_group.txt					Culture Group			Unorganised and Uncapitalised			Culture Group
+SPL.txt										Tag						Organised and Capitalised				Tag-Province Name
+STV.txt										Tag						Organised and Capitalised				Tag-Province Name
+sudanese.txt								Culture Group			Organised and Capitalised				Culture Group
+swedish.txt									Culture					Unorganised and Uncapitalised			Multicentric nature of Scandinavian Languages
+SWI.txt										Tag						Partially Organised and Capitalised		Due to weird state of using local language names
+syriac_group.txt							Culture Group			Organised and Capitalised				Culture Group
+
+tai.txt										Culture					Unorganised and Uncapitalised			Suvarnabhumi
+tartar.txt									Culture Group			Partially Organised and Capitalised		Culture Group
+thai_group.txt								Culture Group			Partially Organised and Capitalised		Culture Group
+tibetan.txt									Culture					Unorganised and Uncapitalised			Major Language
+timorese.txt								Culture					Unorganised and Uncapitalised			Suvarnabhumi
+TTL.txt										Tag						Organised and Capitalised				Tag-Province Name
+TUR.txt										Tag						Organised and Capitalised				Exceptions to turkish_g.txt
+turkish.txt									Culture					Empty									Dummy
+turkish_group.txt							Culture Group			Organised and Capitalised				Culture Group
+turko_semitic.txt							Culture Group			Partially Organised and Capitalised		Culture Group
+turkoman.txt								Culture					Organised and Capitalised				Exceptions to turkish_g.txt
+
+unified_celtic_group.txt					Culture Group			Unorganised and Uncapitalised			Culture Group
+UNK.txt										Tag						Organised and Capitalised				Exceptions to british.txt
+UTR.txt										Tag						Organised and Capitalised				Tag-Province Name
+uzbehk.txt									Culture					Unorganised but Capitalised				Major Language, Long Namelist, Standardised
+
+vietnamese.txt								Culture					Unorganised and Uncapitalised			Suvarnabhumi
+
+welsh.txt									Culture					Empty									Dummy
+west_african.txt							Culture Group			Unorganised but Capitalised				Culture Group
+west_slavic.txt								Culture Group			Partially Organised and Capitalised		Culture Group
+
+yorumba.txt									Culture					Unorganised and Uncapitalised			Probably shouldn't?
+
+zhuang.txt									Culture					Unorganised and Uncapitalised			Major Language, Short Namelist, Non-1444

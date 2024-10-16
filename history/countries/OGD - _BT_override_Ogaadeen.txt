@@ -1,0 +1,4 @@
+primary_culture = darood
+government = tribal
+add_government_reform = somali_clan_reform
+capital = 2778	# Ogaadeen

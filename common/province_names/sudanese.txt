@@ -1,0 +1,54 @@
+#(JP) Nilotic Group
+#(JP) Includes Daju, Kadu, Berta, Luo and Acholi
+#(JP) Likely to be minimal names here, but it is a primary group
+
+#Nubia
+1216 = { "Kadugli" "Kadugli" } #(JP) Base Names
+1217 = { "Fazogli" "Fazogli" } #(JP) Base Names
+1221 = { "El-Obeid" "El-Obeid" } #(JP) Base Names
+1222 = { "Dewaim" "Dewaim" } #(JP) Base Names
+2799 = { "Mok-waar" "Mok-waar" } #(JP) Name pre "Sennar"?
+2800 = { "Saqadi" "Saqadi" } #(JP) Base Names
+5285 = { "Khar-Tuom" "Khar-Tuom" } #(JP) Dinka origins of "Khartoum"
+5286 = { "Barah" "Barah" } #(JP) Base Names
+5287 = { "Singa" "Singa" } #(JP) Base Names
+5289 = { "Kurmuk" "Kurmuk" } #(JP) Base Names
+5290 = { "Kodok" "Kodok" } #(JP) Shilluk Names
+9007 = { "Alays" "Alays" } #(JP) Base Names
+9009 = { "Karbaryn" "Karbaryn" } #(JP) Base Names
+9010 = { "Karkoj" "Karkoj" } #(JP) Base Names
+9023 = { "Hellet Amara" "Hellet Amara" } #(JP) "Old" Names
+9024 = { "Manaqil" "Manaqil" } #(JP) Base Names
+9028 = { "Ru Sayris" "Ru Sayris" } #(JP) Apparently origin from Maban/Bron tribes in the area meaning high land
+9029 = { "Tegale" "Al-Abbasiyah" } #(JP) Base Names
+9030 = { "Anok" "Anok" } #(JP) Base Names, random town in province
+9031 = { "Umm Ruwaba" "Umm Ruwaba" } #(JP) Base Names
+9032 = { "Kadaru" "Jabal Kadaru" } #(JP) Base Names, capital is a stopgap
+9033 = { "Kwalib" "Abri" } #(JP) "Kwalib" is what the Koalib call themselves, capital is a stopgap
+9034 = { "Tiro" "Abu Jubaiyah" } #(JP) Base Names
+9035 = { "Werni" "Kau" } #(JP) "Werni is what the Warnang call themselves, capital is a stopgap
+9036 = { "Tumtum" "Dallas" } #(JP) Base Names, capital is a stopgap
+9037 = { "Jomang" "Jomang" } #(JP) "Jomang" is what the "Talodi" call themselves
+9038 = { "Uncunwee" "Kuli" } #(JP) "Uncunwee" is what the "Ghulfan" call themselves, capital is a stopgap
+9039 = { "Warki" "Warki" } #(JP) What the Dilling people call themselves
+9040 = { "Kakenbi" "El Fula" } #(JP) "Kakenbi" is what the "Karko" call themselves
+9041 = { "Kayikang" "Ambong" } #(JP) "Kayikang" is what the "Keigo" call themselves
+9044 = { "En-Nahud" "En-Nahud" } #(JP) Base Names
+
+#Eastern Sahara
+774 = { "Geneina" "Geneina" } #(JP) Base Names
+1219 = { "Rahad Tendelti" "Rahad Tendelti" } #(JP) Name pre-Darfur of Al-Fashir
+2801 = { "Ain Farah" "Ain Farah" } #(JP) Base Names
+2802 = { "Daein" "Daein" } #(JP) Base Names
+9042 = { "Abyei" "Abyei" } #(JP) Base Names
+9043 = { "Muglad" "Muglad" } #(JP) Base Names
+9045 = { "Muhajiriyah" "Muhajiriyah" } #(JP) Base Names
+9046 = { "Nyala" "Nyala" } #(JP) Daju Name
+9047 = { "Gereida" "Gereida" } #(JP) Base Names
+9048 = { "Zalingei" "Zalingei" } #(JP) Base Names
+9049 = { "Kabkabiya" "Kabkabiya" } #(JP) Base Names
+9050 = { "Kobbei" "Kobbei" } #(JP) Base Names
+9051 = { "Bir Anka" "Bir Anka" } #(JP) Base Names
+9052 = { "Bir Mahla" "Bir Mahla" } #(JP) Base Names
+9055 = { "Runga" "Koukou Angarana" } #(JP) Base Names
+9056 = { "Goz Beida" "Goz Beida" } #(JP) Base Names

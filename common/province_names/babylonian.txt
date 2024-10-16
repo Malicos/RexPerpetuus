@@ -21,11 +21,9 @@
 2309 = "Qattara"
 2310 = "Assur"
 2311 = "Uruk"
-2314 = "Terqa"
 2340 = "Ur" #approximate
 4291 = "Der"
 4293 = "Arbeles"
-5293 = "Wassukani"
 5296 = "Nagar"
 
 #Uru and assyrian naming which may be used supplementary to babylonian and aramaic. Cultures such as Uru, Assyrian, Summerian and so on might pose interesting, low priority additions somewhere in the future.

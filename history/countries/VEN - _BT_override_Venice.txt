@@ -1,0 +1,16 @@
+
+
+set_estate_privilege = estate_nobles_strong_duchies	#BT added they have the subjects and are over diplo limit
+set_estate_privilege = estate_nobles_very_strong_duchies	#BT added they have the subjects and are over diplo limit
+
+#History
+
+#Note it appears removing accepted cultures might need to be given dates? In at least one test, doing it without dates failed to take effect. I suspect it bugged out when trying to add more accepted cultures than allowed.
+
+1291.1.1 = { remove_accepted_culture = dalmatian }
+1291.1.2 = { add_accepted_culture = friulian_culture }
+historical_rival = GEN
+add_country_modifier = {
+	name = "bt_venice_lezhe_subsidies"
+	duration = -1
+}

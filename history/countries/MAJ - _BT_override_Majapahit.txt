@@ -1,0 +1,8 @@
+
+government_rank = 3
+1444.11.10 = {
+	add_country_modifier = {
+		name = maj_early_nobility_malus
+		duration = -1
+	}
+}

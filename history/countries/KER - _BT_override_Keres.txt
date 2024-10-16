@@ -1,0 +1,2 @@
+
+capital = 2495 #BT Changed because 4632 is not its province.

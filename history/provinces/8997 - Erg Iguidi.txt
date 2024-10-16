@@ -1,0 +1,4 @@
+#8997 - Erg Iguidi
+
+discovered_by = sub_saharan
+discovered_by = muslim

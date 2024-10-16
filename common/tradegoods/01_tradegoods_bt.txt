@@ -7,6 +7,10 @@
 #bt_trade_good_books
 #bt_trade_good_fruit
 #bt_trade_good_apiculture
+#bt_trade_good_silver
+#bt_trade_good_gunpowder
+#bt_trade_good_masonry
+#bt_trade_good_whaling
 
 #Beyond Typus trade goods
 ### 37
@@ -487,44 +491,113 @@ bt_trade_good_silver = {
 	}
 }
 
-# bt_trade_good_gunpowder = {
-	# color = { 0.96 0.93 0.58 } 
-	# modifier = {
-		# fire_damage = 0.05
-	# }
-	# province = {
-		# local_defensiveness = 0.25
-	# }
-	# chance = {
-		# # MANUAL ASSIGNMENT
-		# factor = 0
-	# }
-# }
+bt_trade_good_gunpowder = {
+	color = { 0.62 0.38 0.01 } 
+	modifier = {
+		fire_damage = 0.05
+	}
+	province = {
+		local_defensiveness = 0.25
+	}
+	chance = {
+		# Manual only, Not found in colonizable provinces
+		factor = 0
+	}
+}
 
-# bt_trade_good_masonry = {
-	# color = { 0.96 0.93 0.58 } 
-	# modifier = {
-		# great_project_upgrade_time = -0.10
-	# }
-	# province = {
-		# local_build_time = -0.25
-	# }
-	# chance = {
-		# # MANUAL ASSIGNMENT
-		# factor = 0
-	# }
-# }
+bt_trade_good_masonry = {
+	color = { 0.25 0.25 0.27 } 
+	modifier = {
+		great_project_upgrade_cost = -0.10
+	}
+	province = {
+		local_build_time = -0.25
+	}
+	chance = {
+		factor = 1
+		modifier = { # A few terrain modifiers
+			factor = 2.0
+			OR = {
+				has_terrain = mountain
+				has_terrain = hills
+				has_terrain = highlands
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				NOT = { has_terrain = mountain }
+				NOT = { has_terrain = hills }
+				NOT = { has_terrain = highlands }
+			}
+		}
+	}
+}
 
-# bt_trade_good_whaling = {
-	# color = { 0.96 0.93 0.58 } 
-	# modifier = {
-		# envoy_travel_time = -0.1
-	# }
-	# province = {
-		# local_dev_points_modifier = 0.1
-	# }
-	# chance = {
-		# # MANUAL ASSIGNMENT
-		# factor = 0
-	# }
-# }
+bt_trade_good_whaling = {
+	color = { 0.45 0.92 0.97 } 
+	modifier = {
+		envoy_travel_time = -0.1
+	}
+	province = {
+		local_dev_points_modifier = 0.1
+	}
+	chance = {
+		factor = 8
+		modifier = {
+			factor = 0
+			AND = {
+				NOT = { has_port = yes }
+				OR = {	
+					NOT = { region = canada_region }
+					NOT = { region = hudson_bay_region }
+					NOT = { region = cascadia_region }
+					NOT = { region = moluccas_region }
+					NOT = { region = indonesia_region }
+					NOT = { region = borneo_region }
+					NOT = { region = philippines_region }
+					NOT = { region = celebes_region }
+					NOT = { region = carribeans_region }
+					NOT = { region = northeast_america_region }
+					NOT = { region = southeast_america_region }
+					NOT = { region = east_siberia_region }
+					NOT = { region = oceanea_region }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			area = newfoundland_area
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				region = hudson_bay_region
+				region = canada_region 
+				region = cascadia_region
+				region = east_siberia_region
+			}
+		}
+		
+		modifier = {
+			factor = 1.5
+			OR = {
+				region = moluccas_region
+				region = indonesia_region
+				region = borneo_region
+				region = philippines_region
+				region = celebes_region
+			}
+		}
+		
+		modifier = {
+			factor = 1.2
+			OR = {
+				region = oceanea_region
+				region = carribeans_region
+				region = northeast_america_region
+				region = southeast_america_region
+			}
+		}
+	}
+}

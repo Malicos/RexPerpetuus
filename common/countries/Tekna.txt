@@ -1,0 +1,21 @@
+#Tekna
+
+graphical_culture = africangfx
+
+color = { 11 69 136 }
+
+preferred_religion = sunni
+
+historical_idea_groups = { }
+
+historical_units = { }
+
+monarch_names = { }
+
+leader_names = { }
+
+ship_names = { }
+
+army_names = { }
+
+fleet_names = { }

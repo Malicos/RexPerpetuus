@@ -133,32 +133,36 @@
 8896 = { "Kunama" "Mägälo" }
 8897 = { "Täsänäy" "Täsänäy" }
 8898 = { "Hédaräb" "Kerkebet" } #(JP) Base Capital
-8899 = { "Naqfa" "Naqfa" }
+8899 = { "Habab" "Naqfa" }
 
 #East Africa
 2774 = { "Kismayo" "Kismayo" } #(JP) Base Names
 2777 = { "Bardere" "Bardere" } #(JP) Base Names
 2781 = { "Luuq" "Luuq" } #(JP) Base Names
 
+#Nubia
+1228 = { "Donola" "Donola" } #Dongola
+1232 = { "Sukini" "Sukini" } #Sawakin
+1234 = { "Kasiri Ibirami" "Kasiri Ibirami" } #Ibrim 
+2799 = { "Senari" "Senari" } #Sennar
+
+#Egypt
+358 = { "Isikinidiriya" "Isikinidiriya" }
+361 = { "Kayiro" "Kayiro" } #El-Qahirah
+362 = { "Rozeta" "Rozeta" }
+1231 = { "Asuni" "Asuni" }
+2317 = { "Miya" "Miya" } #Minya
+
 #By deserk
 
 #2017 Jul 17
-358 = "Isikinidiriya" #Alexandria
-1234 = "Kasiri Ibirami" #Ibrim 
 1099 = "Sokora" #Socotra
 388 = "Adeni" #Adin
 385 = "Mekaka" #Makkah
 2331 = "Jadida" #Jidda
-1228 = "Donola" #Dongola
-2799 = "Senari" #Sennar
-1232 = "Sukini" #Sawakin
-361 = "Kayiro" #El-Qahirah
-362 = "Rozeta" #Rashid
 2313 = "Anitsokiya" #Antakiyyah
 379 = "Iyerusalemi" #Al-Quds
 5269 = "Likayi" #Luxor
-1231 = "Asuni" #Aswan
-2317 = "Miya" #Ushmunayn
 378 = "Tiripoli" #Tarabulus
 382 = "Demasiko" #Dimashq
 5205 = "Beruti" #Bayrut

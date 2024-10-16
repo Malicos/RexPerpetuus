@@ -58,7 +58,7 @@
 147 = { "Larissa" "Larissa" }
 148 = { "Salonicco" "Salonicco" }
 149 = { "Adrianopoli" "Adrianopoli" }
-150 = { "Plevnia" "Plevnia" } #(JP) Romanian "Plevna"
+150 = { "Pievena" "Pievena" } #(JP) Romanian "Plevna"
 151 = { "Costantinopli" "Costantinopli" } #(JP) or "Bisanzio"
 152 = { "Varasdino" "Varasdino" }
 159 = { "Selistra" "Selistra" }
@@ -80,7 +80,7 @@
 2750 = { "Filippopoli" "Filippopoli" }
 3000 = { "Nissa" "Nissa" }
 3001 = { "Scopia" "Scopia" }
-3002 = { "Zenitsa" "Zenitsa" } #Zenica
+3002 = { "Zenizza" "Zenizza" } #Zenica
 3003 = { "Negroponte" "Negroponte" }
 3164 = { "Costanza" "Costanza" }
 3165 = { "Dionisopoli" "Dionisopoli" }
@@ -96,7 +96,7 @@
 3180 = { "La Canea" "La Canea" }
 3181 = { "Valona" "Valona" }
 3182 = { "Scutari" "Scutari" }
-3183 = { "Vitólia" "Vitólia" } #(JP) an earlier Greek-Latin name during Byzantine times, also "Voutélion"
+3183 = { "Vitolia" "Vitolia" } #(JP) an earlier Greek-Latin name during Byzantine times, also "Voutélion"
 3185 = { "Crusebasto" "Crusebasto" }	
 3187 = { "Maciova" "Maciova" }
 3190 = { "Varaviza" "Varaviza" }
@@ -112,7 +112,7 @@
 4699 = { "Arta" "Arta" } #(JP) Greek name
 4700 = { "Lesbo" "Metelino" }
 4701 = { "Corinto" "Corinto" }
-4702 = { "Sirra" "Sirra" } #(JP) Late Roman name, modern "Serres"
+4702 = { "Serre" "Serre" }
 4703 = { "Custendil" "Custendil" }
 4704 = { "Grande Tarnova" "Grande Tarnova" }
 4705 = { "Comotini" "Comotini" }
@@ -185,10 +185,10 @@
 7703 = { "Città Di Mercato" "Città Di Mercato" } #(JP) "Blagoevgrad", anciently "Skaptopara" meaning "city-market"
 7705 = { "Torres" "Torres" } #(JP) Latin "Turres", Byzantine "Quimedava"
 7706 = { "Melta" "Melta" } #(JP) Latin "Melta", later "Lovech"
-7707 = { "Valvola" "Valvola" } #(JP) "Vratsa" from Slavic "Vrata" and "-itsa", from Latin "valve"
+7707 = { "Varazza" "Varazza" } #(JP) "Vratsa" from Slavic "Vrata" and "-itsa", from Latin "valve" (Chrys) italianizing instead
 7709 = { "Pleula" "Pleula" }
 7710 = { "Berana" "Berana" }
-7711 = { "Ilnero" "Ilnero" } #(JP) "Vranje" means "the Black" 
+7711 = { "Varagne" "Varagne" } #(JP) "Vranje" means "the Black (Chrys) italianizing instead
 7712 = { "Arsa" "Arsa" }
 #7714 Zajecar #(JP) Founded from Roman "Felix Romuliana"
 7715 = { "Negotio" "Negotio" } #(JP) "Negotin", from Latin meaning "merchant place", "negot" in Romanian and "negocios" in Spanish
@@ -212,7 +212,7 @@
 7738 = { "Possega" "Possega" }
 7739 = { "Volco" "Volco" }
 7759 = { "Vicina" "Vicina" } #(JP) Genoese Trading Post
-7765 = { "Carzzia" "Carzzia" } #(JP) From Latin "Casium"
+7765 = { "Carzia" "Carzia" } #(JP) From Latin "Casium"
 8187 = { "Giassi" "Giassi" } #(Chrys) From "Iassi" and Municipium Iassorum, earlier known as Aquae Balissae
 
 #South Germany
@@ -539,14 +539,14 @@
 7995 = { "San Malo" "San Malo" }
 7996 = { "Pieormi" "Pieormi" }
 7997 = { "Pondivi" "Pondivi" }
-7998 = { "Carahesso" "Carahesso" }
+7998 = { "Caraesso" "Caraesso" }
 7999 = { "Morlasso" "Morlasso" }
 8013 = { "San Albino" "San Albino" }
 8028 = { "Aitone" "Aitone" }
-8029 = { "Pons Falsi" "Pons Falsi" }
+8029 = { "Pontarlera" "Pontarlera" }
 8030 = { "Lussovio" "Lussovio" }
 8031 = { "Tarantasia" "Monasterio" } #(JP) Late, late Latin "Monasterium"
-8421 = { "Longovino" "Longovino" } #(JP) Roman "Longovinum" 
+8421 = { "Longuino" "Longuino" } #(JP) Roman "Longovinum" (Chrys) slightly more italianized and closer to French
 8422 = { "Bormonte" "Bormonte" }
 8423 = { "San Deodato" "San Deodato" }
 8424 = { "Bussonvilla" "Bussonvilla" }
@@ -554,8 +554,11 @@
 #Iberia
 197 = { "Rossiglione" "Perpignano" }
 206 = { "La Corugna" "La Corugna" }
-209 = { "Biscaglia" "Biscaglia" }
+208 = { "Lione" "Lione" } #(Chrys) found in Italian wikipedia for the Kingdom of León
+209 = { "Biscaglia" "Bilbao" }
 210 = { "Pampelona" "Pampelona" }
+211 = { "Uosca" "Uosca" }
+212 = { "Girona" "Girona" }
 213 = { "Barcelona" "Barcelona" }
 214 = { "Saragozza" "Saragozza" }
 220 = { "Valenza" "Valenza" }
@@ -564,20 +567,56 @@
 225 = { "Cordova" "Cordova" }
 226 = { "Gibilterra" "Gibilterra" }
 227 = { "Lisbona" "Lisbona" }
+228 = { "Viseo" "Viseo" }
+229 = { "Begia" "Begia" }
 231 = { "Il Porto" "Il Porto" }
 232 = { "Braganza" "Braganza" }
 333 = { "Maiorca" "Palma di Maiorca" }
+366 = { "Isole Fortunate" "Betancuria" }
 367 = { "Azzorre" "Punta Delicata" } #(JP) Capital is direct translation of "Ponta Delgada"
 368 = { "Madera" "Funciale" }
+1747 = { "Cazzeri" "Cazzeri" }
+1748 = { "Giaeno" "Giaeno" }
 1749 = { "Cadice" "Cadice" }
-4546 = { "Málaga" "Málaga" }
+1750 = { "Alicante" "Alicante" }
+1851 = { "Coimbra" "Coimbra" }
+2751 = { "Quonca" "Quonca" }
+2754 = { "Città Reale" "Città Reale" }
+2755 = { "Soria" "Soria" }
+2987 = { "Urgello" "Seo d'Urgello" }
+2988 = { "Tarragona" "Tarragona" }
+2989 = { "Riogia" "Logrogno" }
+2990 = { "Teruole" "Teruole" }
+3095 = { "Calataiudo" "Calataiudo" }
+3100 = { "Piasenza" "Piasenza" }
+4546 = { "Malaga" "Malaga" }
+4548 = { "Uolva" "Uolva" }
+4549 = { "Sciativa" "Sciativa" }
+4550 = { "Castiglione" "Castiglione della Piana" }
+4552 = { "Palenza" "Palenza" }
+4553 = { "Samora" "Samora" }
+4555 = { "Pontevedra" "Pontevedra" }
+4556 = { "Avero" "Avero" }
 4557 = { "Lerida" "Lerida" }
+4558 = { "Orense" "Orense" }
 4559 = { "Minorca" "Cittadella di Minorca" }
-4560 = { "Eviza" "Eviza" }
-8034 = { "Campò" "Campò" }
+4560 = { "Pitiuse" "Eviza" }
+4565 = { "Tenerife" "Santa Croce di Tenerife" }
+4787 = { "Ripatago" "Santarene" }
+4788 = { "Piasenza" "Piasenza" }
+4789 = { "Segovia" "Segovia" }
+5096 = { "Grande Canaria" "Palme di Canaria" }
+7889 = { "Andorra" "Andorra la Vecchia" }
+7920 = { "Sanguesa" "Sanguesa" }
+7929 = { "Laguardia" "Laguardia" }
+8016 = { "Ghipuscoa" "San Sebastiano" }
+8026 = { "Alava" "Vittoria" }
+8034 = { "Campò" "Reginosa" }
 8035 = { "Gigione" "Gigione" }
 8036 = { "Arevalo" "Arevalo" }
 8037 = { "Avilese" "Avilese" }
+8038 = { "Eo-Navia" "Navia" }
+8039 = { "Tineo" "Canghe di Tineo" }
 8040 = { "Mondonneto" "Mondonneto" }
 8041 = { "Ferrole" "Ferrole" }
 8042 = { "San Giacomo" "San Giacomo di Compostella" }
@@ -596,69 +635,258 @@
 8062 = { "Glierena" "Glierena" }
 8063 = { "Olivenza" "Olivenza" }
 8064 = { "Alcarasso" "Alcarasso" }
+8065 = { "Villena" "Villena" }
+8073 = { "Pedrocci" "Pozzobianco" }
+8074 = { "Palma del Fiume" "Palma del Fiume" }
+8079 = { "Safara" "Safara della Sierra" }
+8080 = { "Marbella" "Marbella" }
+8081 = { "Antechera" "Antechera" }
+8082 = { "Alfama" "Alfama" }
+8083 = { "Loscia" "Loscia" }
+8084 = { "Guadice" "Guadice" }
+8085 = { "Bazza" "Bazza" }
+8086 = { "Vera" "Vera" }
+8087 = { "Uoscaro" "Uoscaro" }
+8088 = { "Denia" "Denia" }
+8089 = { "Maestratico" "Pegniscola" }
+8091 = { "Valenza" "Valenza" }
+8092 = { "Ciavi" "Ciavi" }
+8094 = { "Villa Reale" "Villa Reale" }
+8096 = { "Covigliana" "Covigliana" }
+8097 = { "Provenza" "Provenza" }
+8098 = { "Leria" "Leria" }
+8100 = { "Marvano" "Marvano" }
+8104 = { "Mora" "Mora" }
+8105 = { "San Giacomo del Cazene" "San Giacomo del Cazene" }
+8106 = { "Castro Verde" "Castro Verde" }
+8108 = { "Giaca" "Giaca" }
+8109 = { "Borgia" "Borgia" }
+8110 = { "Soprarbe" "Ainsa" }
+8113 = { "Osona" "Vic" }
+8114 = { "Ampurie" "Fighere" }
+8115 = { "Tortosa" "Tortosa" }
+8116 = { "Alcaniso" "Alcaniso" }
+8116 = { "Albarrazino" "Albarrazino" }
+8121 = { "Almadeno" "Almadeno" }
 
-#Maghreb
-334 = { "Tangeri" "Tangeri" }
-337 = { "Orano" "Orano" }
-338 = { "Algeri" "Algeri" }
+#Eastern Maghreb
 339 = { "Bugia" "Bugia" }
 340 = { "Costantina" "Costantina" }
 341 = { "Tunisi" "Tunisi" }
-343 = { "Fezza" "Fezza" }		#(Chrys) From Latin "Fezza"
-348 = { "Sisava" "Sisava" }
 351 = { "Vescera" "Vescera" }
 352 = { "Capra" "Capra" }
+353 = { "Medenina" "Medenina" }
 354 = { "Tripoli di Libia" "Tripoli di Libia" }
 355 = { "Sirte" "Sirte" }
 356 = { "Bengasi" "Bengasi" }
 357 = { "Derna" "Derna" }
-1751 = { "Setta" "Setta" }
 1882 = { "Bona" "Bona" }
-2326 = { "Tobruch" "Tobruch" }
-2449 = { "Ueddan" "Ueddan" }
-2450 = { "Ramada" "Ramada" }
+2450 = { "Kebili" "Kebili" } #(JP) Base Names
 2451 = { "Misurata" "Misurata" }
 2452 = { "Zuara" "Zuara" }
-2353 = { "Trapari" "Trapari" }
+2453 = { "Safasso" "Safasso" }
+2454 = { "Kairouan" "Kairouan" } #(JP) Base Names
 2455 = { "Biserta" "Biserta" }
-2462 = { "Tingartia" "Tingartia" }
-2467 = { "Volubilis" "Volubilis" } 
-2469 = { "Casabianca" "Casabianca" }
+2458 = { "M'sila" "M'sila" } #(JP) Base Names
 2473 = { "Adramento" "Adramento" }
 2954 = { "Gerba" "Gerba" }
+4566 = { "Sbeitla" "Sbeitla" } #(JP) Base Name
 4567 = { "Gadames" "Gadames" }
 5224 = { "Capo Buono" "Napoli d'Africa" } 
-5226 = { "Ben Gherir" "Ben Gherir" }
-5228 = { "Gozora" "Gozora" }
+5225 = { "Africa" "Africa" }
 5274 = { "Agedabia" "Agedabia" }
-5303 = { "Giarabub" "Giarabub" }
-5304 = { "Áugìla" "Áugìla" }
 5306 = { "Mesda" "Mesda" }
 5309 = { "Garian" "Garian" }
 5310 = { "Lalút" "Lalút" }
 5311 = { "Homs" "Homs" }
+5312 = { "Gabes" "Gabes" } #(JP) Base Names
 5313 = { "Cillilana" "Cillilana" }
 5314 = { "Vecca" "Vecca" } 
 5315 = { "Seca" "Seca" }
 5316 = { "Tusuro" "Tusuro" }
-5317 = { "Thabraca" "Thabraca" }
+5317 = { "Tabarca" "Tabarca" }
+5318 = { "Koukou" "Koukou" } #(JP) Base Names
+5319 = { "Sitifi" "Sitifi" }
 5320 = { "Marcimani" "Marcimani" }
-5322 = { "Cartenna" "Cartenna" }
+5321 = { "Gigeri" "Gigeri" }
+5323 = { "Kalâa" "Kalâa" } #(JP) Base Names
 5324 = { "Fallaba" "Fallaba" }
+5325 = { "Batna" "Batna" } #(JP) Base Names
+5326 = { "Khenchela" "Khenchela" } #(JP) Base Names
+5329 = { "El Oued" "El Oued" } #(JP) Base Names
+9095 = { "Beda Littoria" "Beda Littoria" } #(JP) Modern "Bayda", in period known as "Sidi Rafaa", province includes ancient and classical "Cyrene"
+9096 = { "Barce" "Barce" } #(JP) Modern "Al Marj", successor to ancient and classical "Barca"
+9097 = { "Qaminis" "Qaminis" } #(JP) Base Names
+9111 = { "Bani Walid" "Bani Walid" } #(JP) Base Names
+9112 = { "Zintan" "Zintan" }
+9113 = { "Zarzis" "Zarzis" } #(JP) Base Names
+9114 = { "Tataouine" "Tataouine" } #(JP) Base Names
+9115 = { "Ghilane" "Ghilane" } #(JP) Base Names
+9116 = { "Douz" "Douz" } #(JP) Base Names
+9117 = { "Nefta" "Nefta" } #(JP) Base Names
+9118 = { "Monastir" "Monastir" } #(JP) Base Names
+9119 = { "Maktar" "Maktar" } #(JP) Base Names
+9120 = { "Skikda" "Skikda" } #(JP) Base Names
+9121 = { "Collo" "Collo" } #(JP) Base Names
+9122 = { "Souk Ahras" "Souk Ahras" } #(JP) Base Names
+9123 = { "Tebessa" "Tebessa" } #(JP) Base Names
+9124 = { "Sidi Okba" "Sidi Okba" } #(JP) Base Names, ancient "Tabuda"
+9125 = { "Tolga" "Tolga" } #(JP) Base Names
+9127 = { "Bou Saada" "Bou Saada" } #(JP) Base Names
+9128 = { "N'Gaous" "N'Gaous" } #(JP) Base Names
+9129 = { "Ain Oussera" "Ain Oussera" } #(JP) Base Names
+9130 = { "Dellys" "Dellys" } #(JP) Base Names
+
+#Western Maghreb
+334 = { "Tangeri" "Tangeri" }
+335 = { "Melilla" "Melilla" }
+336 = { "Tlemcen" "Tlemcen" } #(JP) Base Names
+337 = { "Orano" "Orano" }
+338 = { "Algeri" "Algeri" }
+342 = { "Ksar el-Kebir" "Ksar el-Kebir" } #(JP) Base Names
+343 = { "Fès" "Fès" } #(JP) Roman Fezza, Wikipedia give "Fès"
+344 = { "Marrakesh" "Marrakesh" } #(JP) Base Names
+345 = { "Safi" "Safi" } #(JP) Base Names
+346 = { "Sijilmasa" "Sijilmasa" } #(JP) Base Names
+348 = { "Sisava" "Sisava" }
+349 = { "Figuig" "Figuig" } #(JP) Base Names
+1110 = { "Agadir" "Agadir" } #(JP) Base Names
+1751 = { "Setta" "Setta" }
+2459 = { "Medea" "Medea" } #(JP) Base Names
+2460 = { "Tamegroute" "Tamegroute" } #(JP) Base Names
+2461 = { "Mostaganem" "Mostaganem" } #(JP) Base Names
+2462 = { "Tingartia" "Tingartia" }
+2463 = { "Naâma" "Naâma" } #(JP) Base Names
+2464 = { "Warzazat" "Warzazat" } #(JP) Base Names
+2465 = { "Oujda" "Oudja" } #(JP) Base Names
+2466 = { "Akka" "Akka" } #(JP) Base Names
+2467 = { "Meknes" "Meknes" } #(JP) Base Names
+2468 = { "Khenifra" "Khenifra" } #(JP) Base Names
+2469 = { "Mazagan" "Mazagan" } #(JP) Base Names
+2470 = { "Mogador" "Mogador" } #(JP) Base Names
+4561 = { "Tétouan" "Tétouan" } #(JP) Base Names
+4562 = { "Nedroma" "Nedroma" } #(JP) Base Names
+4563 = { "Salé" "Salé" } #(JP) Base Names
+4564 = { "Anfa" "Anfa" } #(JP) Later "Casabianca"
+4568 = { "Demnate" "Demnate" } #(JP) Base Names
+5210 = { "Chefchaouen" "Chefchaouen" } #(JP) Base Names
+5211 = { "Tadla" "Kasbah Tadla" } #(JP) Base Names
+5212 = { "Taroudant" "Taroudant" } #(JP) Base Names
+5213 = { "Taza" "Taza" } #(JP) Base Names
+5218 = { "Badis" "Badis" } #(JP) Base Names
+5219 = { "Mehdya" "Mehdya" } #(JP) Base Names, pre-1681 "Al-Ma'mura"
+5220 = { "Boudenib" "Boudenib" } #(JP) Base Names
+5226 = { "Rahamna" "Ben Gherir" } #(JP) Base Province Name
+5228 = { "Gozora" "Gozora" }
+5229 = { "Debdou" "Debdou" } #(JP) Base Names
+5322 = { "Cartenna" "Cartenna" }
+5327 = { "Saïda" "Saïda" } #(JP) Base Names
+5328 = { "Al Baida" "Al Baida" } #(JP) Base Names
+9006 = { "Chaouia" "Settat" } #(JP) Base Names
+9131 = { "Cherchell" "Cherchell" } #(JP) Base Names
+9132 = { "Miliana" "Miliana" } #(JP) Base Names
+9133 = { "Mazouna" "Mazouna" } #(JP) Base Names
+9134 = { "Maschera" "Maschera" }
+9136 = { "Aïn Séfra" "Aïn Séfra" } #(JP) Base Names
+9179 = { "Bouarfa" "Bouarfa" } #(JP) Base Names
+9180 = { "Boulemane" "Boulemane" } #(JP) Base Names
+9181 = { "Ksar es-Souk" "Ksar es-Souk" } #(JP) Base Names
+9182 = { "Tinghir" "Tinghir" } #(JP) Base Names
+9183 = { "Tissint" "Tissint" } #(JP) Base Names
+9184 = { "Aghmat" "Aghmat" } #(JP) Base Names
+9185 = { "Tinmel" "Tinmel" } #(JP) Base Names
+9186 = { "Tizourgane" "Tizourgane" } #(JP) Base Names
+9187 = { "Tazerwalt" "Iligh" } #(JP) Base Names
+9190 = { "Haha" "Afughal" } #(JP) Base Names
+9191 = { "Tadnast" "Tadnast" } #(JP) Base Names
+9192 = { "Abda" "Sidi Bennour" } #(JP) Base Names
+9193 = { "Rabat" "Rabat" } #(JP) Base Names
+9194 = { "Zaër" "Tifelt" } #(JP) Base Names
+9195 = { "Sefrou" "Sefrou" } #(JP) Base Names
+9196 = { "Guercif" "Guercif" } #(JP) Base Names
+9197 = { "Taourirt" "Taourirt" } #(JP) Base Names
+9198 = { "Tazouta" "Tazouta" } #(JP) Base Names
+9199 = { "Assila" "Assila" } 
+
+#Western Sahara
+
+#Central Sahara
+5307 = { "Rapsa" "Rapsa" } #(JP) "Rapsa" is based off the Latin, "Gat" is what Italian wiki gives me
+
+#Eastern Sahara
+2448 = { "Sebha" "Sebha" }
+2449 = { "Ueddan" "Ueddan" }
+2474 = { "Murzuch" "Murzuch" }
+5303 = { "Giarabub" "Giarabub" }
+5304 = { "Áugìla" "Áugìla" }
+9098 = { "Gialo" "Gialo" }
+9099 = { "Giránghedi" "Giránghedi" }
+9100 = { "El-Giof" "El-Giof" }
+9103 = { "Marada" "Marada" } #(JP) Base Names
+9104 = { "Zella" "Zella" } #(JP) Base Names
+9105 = { "Socna" "Socna" }
+9106 = { "Germa" "Germa" } #(JP) Base Names
+9107 = { "Ubari" "Ubari" }
+9108 = { "Zawila" "Zawila" } #(JP) Base Names
+9109 = { "Traghan" "Traghan" } #(JP) Base Names
+
+#Nubia
+1225 = { "Cassala" "Cassala" }
 
 #Egypt
 358 = { "Alessandria d'Egitto" "Alessandria d'Egitto" }
 359 = { "Crocodilopoli" "Crocodilopoli" }
+360 = { "Qus" "Qus" } #(JP) Base Names
 361 = { "Il Cairo" "Il Cairo" }
+362 = { "Rosetta" "Rosetta" }
+363 = { "Pelusio" "Pelusio" }
+365 = { "Sinai" "Santa Caterina del Sinai" }
 1231 = { "Assuan" "Assuan" }
+1233 = { "Kharga" "Kharga" } #(JP) Base Names
 2315 = { "Suez" "Suez" }
+2316 = { "Tanta" "Tanta" } #(JP) Base Names
+2317 = { "Minya" "Minya" } #(JP) Base Names
+2318 = { "Bahariya" "Bawiti" } #(JP) Base Names
+2319 = { "Licopoli" "Licopoli" }
+2320 = { "Ras Ghareb" "Ras Ghareb" } #(JP) Base Names
+2321 = { "Qoseir" "Qoseir" } #(JP) Base Names
+2325 = { "Alamein" "Alamein" } #(JP) Base Names
+2326 = { "Tobruch" "Tobruch" }
+4268 = { "Elino" "Elino" } #(JP) "Aqaba"
+4316 = { "Mansoura" "Mansoura" } #(JP) Base Names
+4317 = { "Damanhur" "Damanhur" } #(JP) Base Names
+4318 = { "Atfih" "Atfih" } #(JP) Base Names
+4319 = { "Luxor" "Luxor" } #(JP) Base Names
+4320 = { "Giorgia" "Giorgia" }
+4323 = { "Dakhla" "Dakhla" } #(JP) Base Names
+5181 = { "Nechel" "Nechel" }
 5261 = { "Damietta" "Damietta" }
+5264 = { "Giza" "Giza" } #(JP) Base Names
+5267 = { "Beni Suef" "Beni Suef" } #(JP) Base Names
+5272 = { "Baritun" "Baritun" } #(JP) Base Names
+5273 = { "Ammònia" "Ammònia" }
+9076 = { "Scete" "Scete" }
+9077 = { "Salheya" "Salheya" } #(JP) Base Names
+9078 = { "Bilbeis" "Bilbeis" } #(JP) Base Names
+9079 = { "Sant'Antonio" "Sant'Antonio" }
+9080 = { "Samalut" "Samalut" } #(JP) Base Names
+9081 = { "Quseyya" "Quseyya" } #(JP) Base Names
+9082 = { "Sohag" "Sohag" } #(JP) Base Names
+9083 = { "Safaga" "Safaga" } #(JP) Base Names
+9084 = { "Wadi Hammamat" "Qasr al-Banat" } #(JP) Base Names
+9085 = { "Marsa Alam" "Marsa Alam" } #(JP) Base Names
+9087 = { "Kom Ombo" "Kom Ombo" } #(JP) Base Names
+9090 = { "Baris" "Baris" } #(JP) Base Names
+9091 = { "Abu Minqar" "Abu Minqar" } #(JP) Base Names
+9092 = { "Farafra" "Farafra" } #(JP) Base Names
+9093 = { "Sallum" "Sallum" } #(JP) Base Names
+9094 = { "Bardia" "Bardia" } #(JP) Base Names
 
 #Levant
 321 = { "Limisso" "Limisso" }
 364 = { "Arisce" "Arisce" }
 377 = { "Aleppo" "Aleppo" }
-378 = { "Tripoli" "Tripoli dell'Oriente" }
+378 = { "Tripoli dell'Oriente" "Tripoli dell'Oriente" }
 379 = { "Gerusalemme" "Gerusalemme" }
 380 = { "Crache di Moabe" "Crache di Moabe" }
 381 = { "Agiluno" "Agiluno" }
@@ -668,7 +896,6 @@
 1854 = { "Napoli" "Napoli" }
 1855 = { "Safaddo" "Safaddo" } #(JP) "Safed"
 2313 = { "Antiochia" "Antiochia" }
-4268 = { "Elino" "Elino" } #(JP) "Aqaba"
 4270 = { "Mane" "Mane" }
 4271 = { "Idlibe" "Idlibe" }
 4297 = { "Eliopoli" "Eliopoli" }
@@ -676,10 +903,8 @@
 5145 = { "Famagosta" "Famagosta" }
 5170 = { "Laodicea" "Laodicea" }
 5180 = { "Gazza" "Gazza" }
-5181 = { "Nechel" "Nechel" }
 5203 = { "Monreale" "Monreale" } #(JP) "Shoubak"
 5205 = { "Berito" "Berito" }
-365 = { "Santa Caterina" "Santa Caterina del Sinai" }
 6071 = { "Bersabea" "Bersabea" }
 6074 = { "Tiro" "Tiro" }
 6075 = { "Sidone" "Sidone" }
@@ -775,7 +1000,7 @@
 6010 = { "Tabe" "Tabe" } #Tavas
 6013 = { "Antifilo" "Antifilo" } #Andifli
 6014 = { "Bari di Pisidia" "Bari di Pisidia" } #Isparta
-6016 = { "Eraclea Pontica" "Eraclea Pontica" } #Eregli
+6016 = { "Eraclea" "Eraclea" } #Eregli
 #6018 = { "Amorio" "Amorio" } #Hergenkale
 6019 = { "Filomelio" "Filomelio" } #Aksehir
 6020 = { "Mistia" "Mistia" } #Beysehir
@@ -811,7 +1036,7 @@
 7193 = { "Giancói" "Giancói" }
 
 #Carpathia
-135 = { "Scarbantio" "Scarbantio" } #(JP) Classical Latin "Scarbantia"
+135 = { "Scarbanza" "Scarbanza" } #(JP) Classical Latin "Scarbantia"
 153 = { "Ezzelburgo" "Ezzelburgo" }
 #154 Hont/Sahy
 #155 Bekes/Gyula
@@ -1018,9 +1243,14 @@
 4164 = { "Dalia" "Daliaburgo" }
 
 #Britain
-233 = { "Cornovaglia" "Voliba" } #(JP) An unidentified Dumnoii and Roman settlement somewhere in Cornwall
+233 = { "Cornovaglia" "Truro" }
+234 = { "Antonia" "Vicestro" } # (Chrys) From Latin Hantonia and former French Vicêtre
+235 = { "Canzio" "Cantuaria" }
 236 = { "Londra" "Londra" }
-239 = { "Glocester" "Glocester" }
+237 = { "Ossonia" "Ossonia" } # (Chrys) Italianized form of Latin "Oxonia"
+238 = { "Essesso" "Celmesforda" } #(Chrys) Inspired by Norman French Essoix
+239 = { "Glocestro" "Glocestro" }
+
 245 = { "Eboraco" "Eboraco" }
 246 = { "Nortombria" "Novocastro" }
 248 = { "Edimburgo" "Edimburgo" }
@@ -1044,7 +1274,6 @@
 242 = "Bancorio" #the altas reports a major city called bancorio which is located "between Cambria (Galles, apparently) and the Isola Anglesei (Anglesey). Has to be gwynedd.
 3034 = "Brechinia" #Brecknockshire, apparently.
 3032 = "Devonia"
-234 = "Caservero" #the atlas also mentions Salesburi, Dunio and Soncioduno. I like the one I proposed better.
 4371 = "Susexia" #sussex. 
 237 = "Osfordia" #oxfordshire
 4370 = "Cantabrigia"
@@ -1067,6 +1296,7 @@
 
 #Ireland
 373 = { "Dublino" "Dublino" }
+376 = { "Galvia" "Galvia" }	#(Chrys) Taken from Latin
 
 #Persia
 429 = { "Ispania" "Ispania" }
@@ -1183,7 +1413,7 @@
 2779 = { "Elchere" "Elchere" }
 2780 = { "Belet Uen" "Belet Uen" }
 2782 = { "Uarsceich" "Uarsceich" }
-2783 = { "Obbio" "Obbio" }
+2783 = { "Obbia" "Obbia" }
 2784 = { "Rocca Littorio" "Rocca Littorio" }
 2785 = { "Selburo" "Selburo" }
 2786 = { "Porto Cassime" "Porto Cassime" }
@@ -1274,7 +1504,7 @@
 8896 = { "Cunama" "Magalo" }
 8897 = { "Tessenei" "Tessenei" }
 8898 = { "Carcabat" "Carcabat" }
-8899 = { "Nacfa" "Nacfa" } 
+8899 = { "Habab" "Nacfa" } 
 
 #East Africa
 2774 = { "Chisimaio" "Chisimaio" }
@@ -1291,9 +1521,6 @@
 4158 = { "Giangiero" "Fofa" }
 
 #Sahel
-2448 = { "Sebha" "Sebha" }
-2474 = { "Murzuch" "Murzuch" }
-5307 = { "Rapsa" "Rapsa" } #(JP) "Rapsa" is based off the Latin, "Gat" is what Italian wiki gives me
 
 #Niger
 

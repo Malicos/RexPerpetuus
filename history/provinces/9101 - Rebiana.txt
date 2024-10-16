@@ -1,0 +1,39 @@
+#9101 - Rebiana
+#Area - 
+#Region - Eastern Sahara
+
+#Core Details
+capital = "Rebiana"
+is_city = no
+tribal_owner = TOB
+
+#Demographics
+culture = toubou
+religion = sunni
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = bt_trade_good_fruit
+
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+native_size = 20 #x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4 #Each gives 0.05 tactics to uprising
+native_hostileness = 9 #Each gives 1% chance of uprising a month
+
+#Fort/Other Buildings
+
+#Special Modifiers
+add_permanent_province_modifier = {
+    name = btpl_oasis
+    duration = -1
+}
+
+#Discoveries
+discovered_by = muslim
+
+#Histories 

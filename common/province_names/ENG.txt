@@ -1,5 +1,9 @@
 #(JP) A few overrides for England, Great Britain and the United Kingdom
 
+#Britain
+234 = { "Hampshire" "Winchester" } #(JP) Also contains "Portsmouth" and "Southampton". "Southampton" in british.txt as was larger, Winchester was county town
+239 = { "Gloucester" "Gloucester" } #(JP) Later "Bristol", which I've put in british.txt
+
 #Ireland
 4121 = { "Antrim" "Newtownglens" }
 4379 = { "King's County" "Dingle" }

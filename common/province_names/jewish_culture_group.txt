@@ -1,3 +1,17 @@
+
+#Levant
+365 = { "Sinay" "Katrin Hakidoshah" }
+379 = { "Yerushalayim" "Yerushalayim" }
+4268 = { "Eilah" "Eilah" } #Aqaba
+5181 = { "Nechel" "Nechel" } #Nekhel
+
+#Egypt
+358 = { "Alechsandriyah" "Alechsandriyah" }
+361 = { "Kahir" "Kahir" }
+362 = { "Rozetah" "Rozetah" }
+363 = { "Sin" "Sin" }
+2315 = { "Su'etz" "Su'etz" }
+
 #Arga's work
 
 #2017 Jul 14
@@ -48,7 +62,5 @@
 #380 = "Kir" #Al-Karak
 1854 = "Yafo" #Yaffa
 #1855 = "Tsfat" #Safad
-4268 = "Eilah" #Aqaba
 #5180 = "Azza" #Gazzah
-5181 = "Nechel" #Nekhel
 5203 = "Aravah" #Wadi Araba

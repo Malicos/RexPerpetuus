@@ -1,0 +1,4 @@
+#8995 - Tanezrouft
+
+discovered_by = sub_saharan
+discovered_by = muslim

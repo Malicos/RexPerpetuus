@@ -1,6 +1,8 @@
+#(JP) Arakanese Culture
+#(JP) Contributions from Cinnamon Rice
 
-#By Cinnamon Ryce as part of his SEA addon
-579 = "Mrauk U"
-2402 = "Thandway"
-8585 = "Saite Twey"
-8643 = "Kyaukpru"
+#Burma
+579 = { "Mrauk U" "Mrauk U" }
+2402 = { "Thandway" "Thandway" }
+8585 = { "Saite Twey" "Saite Twey" }
+8643 = { "Kyaukpru" "Kyaukpru" }

@@ -47,7 +47,7 @@
 7926 = { "Mendi Marzana" "Mendi Marzana" }
 7928 = { "Liburna" "Liburna" }
 
-#Maghreb
+#Western Maghreb
 334 = { "Tanger" "Tanger" }
 338 = { "Aljer" "Aljer" }
 344 = { "Marrakex" "Marrakex" }
@@ -185,7 +185,7 @@
 1008 = "Winnipeg" # Winipek									#Generic name
 1009 = "Wanipigow" # Wanipigow							#Generic name
 1010 = "Manitoba" # Manidoobaa							#Generic name
-4939 = "Ciervos Rojos" # Waskasoo Seepee				#Iberian name
+5939 = "Ciervos Rojos" # Waskasoo Seepee				#Iberian name
 1806 = "Wasagamack" # Wasagamack						#Generic name
 1808 = "Toiyabe" # Mahaguaduka							#Iberian or Native name
 1810 = "Kuskokwim" # Deg Hitan							#Generic name
@@ -242,27 +242,27 @@
 2620 = "Tijuana" # Kumeyaay									#Iberian name
 
 #BT200 New Provinces
-4920 = "Puerto de Dona Maria" # Aleut East			#Iberian name full name Puerto de Dona Marie Luisa Teresa
-4921 = "Naknek" # Naugeik										#Generic name
-4922 = "Nushagak" # Curyuk									#Generic name
-4923 = "Bethel" # Mamterilleq									#Christian name
-4924 = "Unalakleet" # Unalaqliq								#Generic name
-4925 = "Chinik" # Chinik											#Generic name
-4926 = "Kenai" # Kena												#Generic name
-4927 = "Valdés" # Suacit											#Iberian name
-4928 = "Koyuk" # Koyukuk										#Generic name
-4929 = "Tanana" # Nuchalawoyyet							#Generic name
-4930 = "Allakaket" # Allakaket									#Generic name
-4931 = "Chena" # Chena											#Generic name
-4932 = "Denyeet" # Denyeet										#Generic name
-4933 = "Gwichin" # Gwichin										#Generic name
-4934 = "Hän" # Han Hwechin									#Generic name
-4935 = "Taatsaltey" # Taatsaltey								#Generic name
-4936 = "Ahtna" # Ahtna											#Generic name
-4937 = "Clondike" # Trochek Hwechin						#Iberian name
-4938 = "Tutchone" # Dan											#Generic name
-4940 = "Bocas de Winthuysen" # Snuneymuxw		#Iberian name
-4941 = "Kitimat" # Xaislakala									#Generic name
+5920 = "Puerto de Dona Maria" # Aleut East			#Iberian name full name Puerto de Dona Marie Luisa Teresa
+5921 = "Naknek" # Naugeik										#Generic name
+5922 = "Nushagak" # Curyuk									#Generic name
+5923 = "Bethel" # Mamterilleq									#Christian name
+5924 = "Unalakleet" # Unalaqliq								#Generic name
+5925 = "Chinik" # Chinik											#Generic name
+5926 = "Kenai" # Kena												#Generic name
+5927 = "Valdés" # Suacit											#Iberian name
+5928 = "Koyuk" # Koyukuk										#Generic name
+5929 = "Tanana" # Nuchalawoyyet							#Generic name
+5930 = "Allakaket" # Allakaket									#Generic name
+5931 = "Chena" # Chena											#Generic name
+5932 = "Denyeet" # Denyeet										#Generic name
+5933 = "Gwichin" # Gwichin										#Generic name
+5934 = "Hän" # Han Hwechin									#Generic name
+5935 = "Taatsaltey" # Taatsaltey								#Generic name
+5936 = "Ahtna" # Ahtna											#Generic name
+5937 = "Clondike" # Trochek Hwechin						#Iberian name
+5938 = "Tutchone" # Dan											#Generic name
+5940 = "Bocas de Winthuysen" # Snuneymuxw		#Iberian name
+5941 = "Kitimat" # Xaislakala									#Generic name
 4942 = "Tillamook" # Nehalem									#Generic name
 4943 = "Nataotin" # Nataotin									#Generic name
 4944 = "Nechako" # Netsha Koh								#Generic name

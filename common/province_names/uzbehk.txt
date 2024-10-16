@@ -51,7 +51,6 @@
 151 = { "Konstantinopol" "Konstantinopol" } #
 280 = { "Kiyev" "Kiyev" } #
 282 = { "Xajibey" "Xajibey" } #
-283 = { "Zaporojye" "Zaporojye" } #
 284 = { "Or Qapi" "Or Qapi" } #
 295 = { "Moskvada" "Mosqu" } #
 306 = { "Nijgar" "Nijgar" } #
@@ -96,13 +95,12 @@
 4311 = { "Kütahya" "Kütahya" } #
 4339 = { "Gelon" "Gelon" } #
 4343 = { "Termiz" "Termiz" } #
-5131 = { "Ayvalik" "Ayvalik" } #
+#5131 = { "Ayvalik" "Ayvalik" } #
 5156 = { "Biga" "Biga" } #
 5157 = { "Izniq" "Izniq" } #
 5164 = { "Karabük" "Karabük" } #
-5168 = { "Adaparazi" "Adaparazi" } #
-5171 = { "Mihaliç" "Mihaliç" } #
 5172 = { "Alasehir" "Alasehir" } #
+5171 = { "Mihaliç" "Mihaliç" } #
 7192 = { "Aqmescit" "Aqmescit" } #
 7194 = { "Kilburun" "Kilburun" } #
 7195 = { "Özü-Qale" "Özü-Qale" } #

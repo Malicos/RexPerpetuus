@@ -1,10 +1,10 @@
 #By Arga Aug 2019
 
 #manchuria
-725 = "Bukui"
+725 = { "Bukui" "Bukui" }
 
 #transcaspia
-443 = "Ústirt"
+443 = { "Ústirt" "Ústirt" }
 
 #By Arga Aug 2020
 #asia

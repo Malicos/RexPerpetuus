@@ -1,5 +1,6 @@
 ﻿l_english:
 #DEV NOTE: Some of these strings don't follow proper syntax, containing capital letters in strings. //Dub
+#DeV NoTe: Actually this is how paradox localises their own diplomatic actions ##HARB
 #Events
 
  bt_silk_events.1.title: "Murcian Silk production"

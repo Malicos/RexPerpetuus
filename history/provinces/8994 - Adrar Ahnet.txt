@@ -1,0 +1,4 @@
+#8994 - Adrar Ahnet
+
+discovered_by = sub_saharan
+discovered_by = muslim

@@ -1,0 +1,3 @@
+add_accepted_culture = wadai
+religion = shamanism #Fetishism
+technology_group = east_african

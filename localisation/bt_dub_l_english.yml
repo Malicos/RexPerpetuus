@@ -447,9 +447,11 @@
  estate_cossacks_vodka_monopolizer:0 "[Root.GetCossacksName]"
  
  arabic_tribe_reform:0 "Arabic Tribe"
- arabic_tribe_reform_desc:0 "The nomadic Bedouin tribes in Arabia are known for their non-sedentary lifestyle. Heralding from the Syrian Desert, after the spread of Islam, they spread all across the Arab World, from Spain all the way to India,where they engaged in trade and formed vast Empires. Famously clan-oriented, the tribes would form dynasties, in the game represented as nomadic nations that migrate across the Arabian Peninsula."
+ arabic_tribe_reform_desc:0 "The nomadic Bedouin tribes in Arabia are known for their non-sedentary lifestyle. Heralding from the Syrian Desert, after the spread of Islam, they spread all across the Arab World, from Spain all the way to India, where they engaged in trade and formed vast Empires. Famously clan-oriented, the tribes would form dynasties, in the game represented as nomadic nations that migrate across the Arabian Peninsula and North Africa."
  somali_tribe_reform:0 "Somali Tribe"
- somali_tribe_reform_desc:0 "TODO WRITE DESC (JP please?)"
+ somali_tribe_reform_desc:0 "The Somali tribes of the Horn of Africa rarely stay in one location for a long time, with their tribal leadership migrating from town to town, well to well. Some tribes, especially those on the coast, have settled down into sedentary Sultanates, the tribes of the interior continue to migrate around the Ogaden and the Haud. These tribes would be linked through a rigid family and clan structure, represented by the nomadic nations in Central Somalia."
+ saharan_tribe_reform:0 "Saharan Tribe"
+ saharan_tribe_reform_desc:0 "The many peoples of the Sahara have a rich and diverse history of a non-sedentary lifestyle. From the Zenaga and Tuareg Berbers in the west, through the Saharan Toubou and Zaghawa in the Central Sahara, all the way to the Nilotic and Beja people of the Eastern Sahara. Whilst each group is unique in its history and demography, they share a common lifestyle migrating across the Sahara, and acting as major traders between the Niger and Ethiopia, through to the Maghreb and Egypt."
  
  MONOPOLY_INCOME_BEER_DESC:0 "from beer production."
  MONOPOLY_INCOME_APICULTURE_DESC:0 "from apiculture production."

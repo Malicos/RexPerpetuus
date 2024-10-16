@@ -67,7 +67,6 @@ merciorum_regnum = {
 #####  VANILLA  ########
 ########################
 
-
 #Feudalism vs Autocracy:
 
 feudalism_reform = {
@@ -1513,7 +1512,10 @@ barbary_sultanate_reform = {
 			culture_group = maghrebi #Not sure why Algerian is in here.
 			culture_group = berber_group
 		}
-		capital_scope = { region = maghreb_region }
+		OR = {
+			capital_scope = { region = east_maghreb_region }
+			capital_scope = { region = maghreb_region }
+		}
 	}
 	queen = no
 	nation_designer_trigger = {

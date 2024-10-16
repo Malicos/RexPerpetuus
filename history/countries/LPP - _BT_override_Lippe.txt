@@ -1,0 +1,40 @@
+
+primary_culture = lower_saxon
+
+1428.12.4 = {
+	heir = {
+		name = "Bernard"
+		monarch_name = "Bernard VII"
+		dynasty = "von Lippe"
+		adm = 2 #Nothing of note
+		dip = 4 #Supported a multitude of factions throughout his reign
+		mil = 4 #The Bellicose
+		birth_date = 1428.12.4 
+		death_date = 1511.4.2 #Bloody fuck lived a long time.
+	}
+}
+
+1429.11.1 = { #"Before his first birthday, he inherited Lippe in 1429"
+	monarch = {
+		name = "Otto"
+		dynasty = "von Lippe"
+		adm = 3
+		dip = 2
+		mil = 2
+		regent = yes
+		death_date = 1446.1.1 #Died 1446, though by EU4 rules he should no longer be a regent by 1443.12.4.
+	}
+}
+
+1443.12.4 = {
+	monarch = {
+		name = "Bernard"
+		monarch_name = "Bernard VII"
+		dynasty = "von Lippe"
+		adm = 2
+		dip = 4 #Supported a multitude of factions throughout his reign
+		mil = 4 #The Bellicose
+		birth_date = 1428.12.4 
+		death_date = 1511.4.2 #Bloody fuck lived a long time.
+	}
+}

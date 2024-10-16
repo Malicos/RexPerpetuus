@@ -330,7 +330,7 @@
 5814 = "Nhung Cây Sôi"
 
 #quadra and vancouver island
-4940 = "Bãi Biên Dông Kinh"
+5940 = "Bãi Biên Dông Kinh"
 5735 = "Dât Tseshaht"
 
 #lower columbia

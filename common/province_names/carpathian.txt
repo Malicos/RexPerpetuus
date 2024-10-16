@@ -516,12 +516,10 @@
 316 = "Nikomédia"
 5157 = "Nikaia"
 
-#Mysia
-5171 = "Milétopolisz"
-
 #Asia
 318 = "Szmirna"
 2297 = "Magnészia"
+5171 = "Milétopolisz"
 4309 = "Trallész"
 5134 = "Halikarnasszosz"
 
@@ -715,7 +713,7 @@
 379 = "Júdea"
 4270 = "Maán"
 364 = "Arís"
-365 = "Sínai"
+365 = { "Sínai" "Szent Katalin" }
 
 #Mesopotamia
 411 = "Moszul"
@@ -742,26 +740,28 @@
 1099 = "Szokotra"
 
 #Egypt
-361 = "Kairó"
-5264 = "Gíza"
-359 = "Fajjum"
-2315 = "Szuez"
-2321 = "Kuszeir"
+361 = { "Kairó" "Kairó" }
+5264 = { "Gíza" "Gíza" }
+359 = { "Fajjum" "Fajjum" }
+2315 = { "Szuez" "Szuez" }
+2321 = { "Kuszeir" "Kuszeir" }
 
-#Maghreb
-341 = "Tunisz"
-2964 = "Dzserba"
-2453 = "Szfaksz"
-5313 = "Kasszerine"
-5312 = "Kábesz"
-2452 = "Zuvara"
-355 = "Szurt"
-2451 = "Miszráta"
-338 = "Algír"
-334 = "Tanger"
-344 = "Marrákes"
-2467 = "Meknesz"
-2470 = "Szavíra"
+#Eastern Maghreb
+341 = { "Tunisz" "Tunisz" }
+355 = { "Szurt" "Szurt" }
+2451 = { "Miszráta" "Miszráta" }
+2452 = { "Zuvara" "Zuvara" }
+2453 = { "Szfaksz" "Szfaksz" }
+2954 = { "Dzserba" "Dzserba" } 
+5312 = { "Kábesz" "Kábesz" }
+5313 = { "Kasszerine" "Kasszerine" }
+
+#Western Maghreb
+338 = { "Algír" "Algír" }
+334 = { "Tanger" "Tanger" }
+344 = { "Marrákes" "Marrákes" }
+2467 = { "Meknesz" "Meknesz" }
+2470 = { "Szavíra" "Szavíra" }
 
 #South Africa
 1177 = "Jóreménység foka"
@@ -872,7 +872,6 @@
 
 #Korea
 2744 = "Njongbjon"
-4322 = "Kanggje"
 1845 = "Phenjan"
 732 = "Hamhung"
 4231 = "Hedzsu"
@@ -1011,7 +1010,6 @@
 
 #Southeast
 2539 = "Frigyes"
-2450 = "Auguszta"
 932 = "Károlyváros"
 2543 = "Hosszú-öböl"
 2546 = "Félelem foka"
@@ -1036,7 +1034,7 @@
 897 = "Kisszikla"
 2515 = "Kovácsvárad"
 896 = "Nagy-folyó"
-900 = "Szentlajos"
+900 = { "Szentlajos" "Szentlajos" }
 941 = "Jánosváros"
 
 
@@ -1064,7 +1062,7 @@
 1000 = "Károlyvárad"
 2511 = "Ördög-tó"
 5786 = "Ciprusfa-hegy"
-4939 = "Vörösszarvas"
+5939 = "Vörösszarvas"
 5035 = "Hód-folyó"
 1806 = "Sziget-tó"
 

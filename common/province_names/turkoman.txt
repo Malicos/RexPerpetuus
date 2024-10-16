@@ -4,7 +4,10 @@
 
 #Mesopotamia
 4294 = { "Qala Çolan" "Qala Çolan" }
-6103 = { "Ergani" "Ergani" }
 6121 = { "Imadiye" "Imadiye" }
-6129 = [ "Sultanabad" "Sultanabad" }
-6144 = { "Nasiriye" "Nasiriye" )
+6129 = { "Sultanabad" "Sultanabad" }
+6144 = { "Nasiriye" "Nasiriye" }
+
+#Caucasia
+422 = { "Qutayis" "Qutayis" }
+2204 = { "Ani" "Ani" }

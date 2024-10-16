@@ -1,0 +1,35 @@
+#9074 - Takedda
+#Area - 
+#Region - Central Sahara
+
+#Core Details
+capital = "Takedda"
+is_city = yes
+owner = AIR
+controller = AIR
+
+#Demographics
+culture = tuareg
+religion = sunni
+
+#Development and Trade
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = copper
+
+#Cores and Occupation (Alphabetical after current)
+add_core = AIR
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = muslim
+discovered_by = sub_saharan
+
+#Histories 

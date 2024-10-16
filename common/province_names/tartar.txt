@@ -1,7 +1,49 @@
+#Tartar Group
 #Arga's Work
 
+#Caucasia
+419 = { "Erevan" "Erevan" }
+420 = { "Gence" "Gence" } #Turkic
+421 = { "Baqu" "Baqu" }
+422 = { "Qutais" "Qutais" }
+423 = { "Tiflis" "Tiflis" }
+424 = { "Erdevil" "Erdevil" }
+425 = { "Qybe" "Qybe" } 
+462 = { "Mingrellär" "Zugdidi" } #(JP) Capital is base name
+1856 = { "Suxum" "Suxum" }
+#2196 Guria/Batumi
+2202 = { "Haçen" "Vengli" }
+2203 = { "Telav" "Telav" }
+2204 = { "Ani" "Ani" }
+2205 = { "Naxçivan" "Naxçivan" } #(JP) Turkic
+3250 = { "Klarceti" "Ardanuç" } #(JP) Turkic
+3251 = { "Axisqa" "Axisqa" }
+3253 = { "Karakilise" "Karakilise" } #(JP) Nearby important city Turkic
+3256 = { "Sünnik" "Qafan" }
+4299 = { "Shämaxi" "Shämaxi" }
+4301 = { "Göri" "Göri" }
+4303 = { "Tao" "Oltu" } #(JP) Was Çildir, but this is in the now Ani province
+4305 = { "Sheki" "Sheki" }
+4340 = { "Länkärän" "Länkärän" }
+7284 = { "Barda" "Barda" }
+7285 = { "Astara" "Astara" } #(JP) Base Names
+7286 = { "Beyleqan" "Beyleqan" } #(JP) Turkic
+7287 = { "Dizaq" "Tugh" } #(JP) Turkic
+7288 = { "Basargeçer" "Basargeçer" } #(JP) Turkic
+7289 = { "Qazaq" "Qazaq" }
+7290 = { "Siginak" "Siginak" }
+7291 = { "Balaken" "Balaken" }
+7292 = { "Sanaryia" "Kazbek" } #Base Names
+7293 = { "Dvaleti" "Nuzal" } #(JP) Base Names
+7294 = { "Tsxinval" "Tsxinval" }
+7295 = { "Racha" "Oni" } #(JP) Base Names
+7296 = { "Ardahan" "Ardahan" }
+7297 = { "Acaristan" "Kulakale" } #(JP) Turkic
+#7298 Svaneti/Lentekhi
+#7299 - Gagra
+
 283 = { "Küçük-As" "Küçük-As" } #toponym map online tool
-7201 = { "Adamaxa" "Adamaxa" } #toponym map online tool
+7201 = { "Boli-Sarai" "Boli-Sarai" } #toponym map online tool
 
 #2017 Jun 3
 
@@ -9,10 +51,9 @@
 284 = "Or Qapi"
 #286 = "Azak" #Or "Azaq"
 463 = "Cherkess"			#note (according to wiki Circassia is a latinisation of cherkess, which is related to the turkish name for adyghe - basically this name could apply for 2195 too as both provinces use different names for the same thing)
-2406 = "Kyzy-Kerman"
-2410 = "Bagçasaray" #or I think "Baghçasaray", the current name "Bakhchysarai" I had suggested is in a different language
-
-
+2406 = { "Kyzy-Kerman" "Kyzy-Kerman" }
+2410 = { "Bagçasarai" "Bagçasarai" } #or I think "Baghçasaray", the current name "Bakhchysarai" I had suggested is in a different language
+1974 = { "Alyoshek" "Alyoshek" }
 
 #2017 Jun 5
 
@@ -22,28 +63,20 @@
 1756 = "Izmayil" #or "Kiliya" (Izmayil might be of more importance considering the khanate)
 1942 = "Jitormir"
 
-
-
 #2017 Jun 10
 
 #levante 
 379 = "Urshelim"			#not sure, or "Qudus", "Yerusalim"
 
-
-
 #2017 Jun 25
 
 #astrakhan region
 464 = "Hajji Tarkhan" #or "Xacitarxan"
-466 = "Saray Al-Jadidah" #or "Saray Al-Machrusa"
+466 = "Sarai Al-Jadidah" #or "Saray Al-Machrusa"
 1081 = "Sinbar"
 1778 = "Qasiym Xanligi" #or "Qasiym"
 1971 = "Sary-Su"
 2365 = "Urda-Ulus" #or "Urda"
-2408 = "Achmat" #AH
-2423 = "Ulatar"
-
-
 
 #2017 Aug 9
 
@@ -55,17 +88,14 @@
 #adjustment 
 286 = "Azaq" #to make the distinction between tatar and ottoman name
 
-
-
 #2017 Aug 17
 
 #ukraine
-282 = "Hacibey" #or "Ades" which is odessa in crimean tatar
 288 = "Zimla" #the region currently has an english name
 289 = "çernigiv"
 291 = "Harkiv" #not conclusive
-1944 = "çerkasi"
-7203 = "Tahanrig" #couldn't find any Tyn outside of Bohemia so I worked with Taganrog
+1944 = "Cherkasi"
+7203 = { "Taygan" "Taygan" }
 2414 = "Yeysk" #couldn't find Azaraba so I got the city name
 3241 = "Vinnitsâ"
 3243 = "Krivyi Rig" #a different settlement than current one
@@ -74,7 +104,7 @@
 
 #kazakh
 439 = "Mankashlagh" #closest to current name I saw, 
-465 = "Saraychyq" #or "Saray Jük", "Saray Maly"
+465 = "Saraichyq" #or "Saray Jük", "Saray Maly"
 469 = "Narin Qumi"
 474 = "Orál" #modern kazakh name, currently bearing a russian name for the river
 
@@ -98,28 +128,20 @@
 #great horde
 303 = "Ükäk" #saratov is a russian name and younger, though then again 2418 has the same name and city atm which is weird
 
-
-
 #2017 Nov 8
 
 #central europe
 134 = "Viyana"
 
 #Caucasus
-462 = "Mingrellär" #or "Megrel"
-1856 = "Abxazça" #or "Abhaziya"
 2199 = "Targhu"
 3262 = "Qaraçay"
-
-
 
 #2018 Apr 15
 
 #siberia
 305 = "Wisu" #arab name, but viable to use
 2444 = "Basqart" #or "Baskardiya"
-
-
 
 #2018 Jun 5
 
@@ -131,8 +153,6 @@
 #inner mongolia
 723 = "Sili-Yin Roul Ayimar" #oral approximation, could be 'g' or 'r' written
 
-
-
 #2018 Mid-Oct Bugfix report
 7204 = "Lugansk"
 
@@ -140,7 +160,6 @@
 
 #2018 Nov 7
 #reworked areas ukraine
-7195 = "Özü-Qale" #or "Kara-Kerman"
 7258 = "çuguyiv"
 
 #steppe
@@ -160,13 +179,10 @@
 7190 = "Baliqlava"
 
 #caucasus
-423 = "Tiflis"
 2197 = "Kabardiya"
 2201 = "Terek-Qale"
 2198 = "Khazav-Yurtu"
 2417 = "Kalmukya"
-3250 = "Ardanuç"
-3251 = "Ahiska" #name of town, not of Meshketi
 
 #ukraine
 2962 = "Rivne"
@@ -211,7 +227,6 @@
 5206 = "Giresun"
 
 #persia
-424 = "Erdevil" #?
 2214 = "Gülistan"
 2233 = "çabahar"
 
@@ -380,26 +395,11 @@
 
 #africa
 #nile delta
-358 = "Iskenderiye" #turkish
-362 = "Reshid" #turkish
-4316 = "Sharqiye" #turkish
-4317 = "Demenhur" #turkish
-5261 = "Medinat Dimyat" #turkish
-
-#lower egypt
-361 = "Qaire" #crimean tatar
-
-#al-wahat
-2325 = "El-Alamein" #masri
-
-#eastern desert
-2315 = "Süveysh" #turkish
-
-#upper egypt
-360 = "Qus" #masri
+4317 = { "Demenhur" "Demenhur" } #turkish
+5261 = { "Dimyat" "Medinat Dimyat" }
 
 #barbary coast
-338 = "Cezayir" #turkish
+338 = { "Cezayir" "Cezayir" } #turkish
 
 #asia
 #palestine
@@ -420,9 +420,6 @@
 
 #tabriz
 2206 = "Urmija" #tatarça
-
-#shirvan
-421 = "Baqu" #crimean tatar
 
 #dagestan
 425 = "Daghistan" #crimean tatar
@@ -469,13 +466,9 @@
 
 #galatia
 326 = "Ankara" #turkish and crimean tatar
-5165 = "Kirikkale" #turkish
 
 #west pontus
 2300 = "Niksar" #turkish
-
-#odishi
-422 = "Bashaçiq" #azeri
 
 #east guangdong
 667 = "Kantón" #tatarça
@@ -544,7 +537,7 @@
 4128 = "Brasho" #tatarça
 
 #northern transylvania
-3154 = "Aksaray"
+3154 = "Aksarai"
 
 #east prussia
 42 = "Izge Tau" #"holy mountain" translated into tatarça based on german name
@@ -572,7 +565,7 @@
 #transpomerania
 48 = "Tozli Yolu" #"salt road"
 1858 = "Shçetsin" #crimean tatar
-7823 = "Aksaray" #"white palace"
+7823 = "Aksarai" #"white palace"
 
 #nadruvia
 7837 = "Tilzit" #tatarça
@@ -749,8 +742,6 @@
 407 = { "Är-Raqqa" "Är-Raqqa" } #
 411 = { "Äl Müs'il" "Äl Müs'il" } #
 415 = { "Kärkuk" "Kärkuk" } #
-421 = { "Baqu" "Baqu" } #
-422 = { "Bashaçiq" "Qutais" } #
 428 = { "Tehran" "Tehran" } #
 429 = { "Isfähan" "Isfähan" } #
 438 = { "Karakum" "Karakum" } #
@@ -764,8 +755,8 @@
 457 = { "Tajkänt" "Tajkänt" } #
 463 = { "Cherkess" "Cherkess" } #
 464 = { "Hajji Tarkhan" "Hajji Tarkhan" } #
-465 = { "Saraychyq" "Saraychyq" } #
-466 = { "Saray Al-Jadidah" "Saray Al-Jadidah" } #
+465 = { "Saraichyq" "Saraichyq" } #
+466 = { "Sarai Al-Jadidah" "Sarai Al-Jadidah" } #
 470 = { "Bai-Uly" "Bai-Uly" } #
 474 = { "Orál" "Orál" } #
 475 = { "Bashqirtistan" "Öfö" } #
@@ -785,7 +776,6 @@
 1849 = { "Xoms" "Xoms" } #
 1854 = { "Yäffä" "Yäffä" } #
 1855 = { "Celile" "Celile" } #
-1856 = { "Abxazça" "Suxum" } #
 1942 = { "Jitomir" "Jitomir" } #
 1944 = { "Çerkasi" "Çerkasi" } #
 1957 = { "Gärej" "Gärej" } #
@@ -818,8 +808,8 @@
 2362 = { "Köhnä Urgänej" "Köhnä Urgänej" } #
 2365 = { "Urda-Ulus" "Urda" } #
 2367 = { "Hal'mg Tanghç" "Hal'mg Tanghç" } #
-2408 = { "Achmat" "Achmat" } #
-2410 = { "Baghçasaray" "Çufut Qale" } #Manghup Qale was a hill castle, will change with the death of Haji Giray event to Baghçasaray
+2408 = { "Achmat" "Achmat" } #(JP) This is incorrect. "Achmat" is the name of the Mongol Leader who destroyed "Lipovichsk", a fortified principality town in the region of Lipetsk and its possible predecessor. Keeping as I cannot find a better name and its starts under Tatar rule
+2410 = { "Baghçasarai" "Çufut Qale" } #Manghup Qale was a hill castle, will change with the death of Haji Giray event to Baghçasaray
 2414 = { "Yeysk" "Yeysk" } #
 2418 = { "Ükäk" "Ükäk" } #
 2421 = { "Çistay" "Çistay" } #
@@ -838,7 +828,6 @@
 3246 = { "Romni" "Romni" } #
 3247 = { "Izüm" "Izüm" } #
 3248 = { "Rize" "Rize" } #
-3251 = { "Ahiska" "Ahiska" } #
 3261 = { "Därbänt" "Därbänt" } #
 3262 = { "Qaraçay" "Qaraçay" } #
 3268 = { "Elets" "Elets" } #
@@ -858,17 +847,15 @@
 4701 = { "Korinth" "Korinth" } #
 4704 = { "Tirnovo" "Tirnovo" } #
 4706 = { "Tulçä" "Tulçä" } #
-5131 = { "Ayvali" "Ayvali" } #
+#5131 = { "Ayvali" "Ayvali" } #
 5151 = { "Baiburt" "Baiburt" } #
 5156 = { "Biga" "Biga" } #
 5157 = { "Iznik" "Iznik" } #
-5168 = { "Sakariyâ" "Adapazari" } #
 5170 = { "Äl-Ladiqiä" "Äl-Ladiqiä" } #
-5171 = { "Mihaliç" "Mihaliç" } #
 5180 = { "Gazzä" "Gazzä" } #
+5171 = { "Mihaliç" "Mihaliç" } #
 5205 = { "Bäirut" "Bäirut" } #
 5206 = { "Giresun" "Giresun" } #
-5261 = { "Dimyat" "Medinat Dimyat" } #
 5296 = { "Nasibina" "Nasibina" } #
 5330 = { "Silivan" "Silivan" } #
 5331 = { "Siirt" "Siirt" } #
@@ -896,7 +883,7 @@
 7707 = { "Ivraza" "Ivraza" } #
 7745 = { "Adaqale" "Adaqale" } #
 7759 = { "Ishaçi" "Ishaçi" } #
-7823 = { "Aksaray" "Aksaray" } #
+7823 = { "Aksarai" "Aksarai" } #
 7833 = { "Ambar Yol" "Ambar Yol" } #
 
 #By Arga Sep 2020
@@ -984,8 +971,6 @@
 #lycaonia
 323 = { "Könya" "Könya" } #
 4307 = { "Aksarai" "Aksarai" } #
-#shirvan
-424 = { "Erdevil" "Erdevil" } #
 #azerbaijan
 4338 = { "Sultaniye" "Sultaniye" } #
 #ural
@@ -995,7 +980,6 @@
 #basra
 408 = { "Bäsrä" "Bäsrä" } #
 #al jazira
-5293 = { "Resülayn" "Resülayn" } #
 5296 = { "Nusaybin" "Nusaybin" } #
 #aleppo
 4298 = { "Antep" "Antep" } #
@@ -1020,7 +1004,6 @@
 299 = { "Voronej" "Voronej" } #
 356 = { "Bingazi" "Bingazi" } #
 362 = { "Reshid" "Reshid" } #
-419 = { "Erevan" "Erevan" } #
 667 = { "Kantón" "Kantón" } #
 679 = { "Tchändu" "Tchändu" } #
 682 = { "Wutchan" "Wutchan" } #
@@ -1045,10 +1028,8 @@
 4195 = { "Jending" "Jending" } #
 4242 = { "Borisov" "Borisov" } #
 4253 = { "Voloçëk" "Voloçëk" } #
-4299 = { "Shämaxi" "Shämaxi" } #
 4305 = { "Shäke" "Shäke" } #
-4316 = { "Sharqiye" "Sharqiye" } #
-4340 = { "Länkärän" "Länkärän" } #
+4316 = { "Sharqiye" "Sharqiye" }
 4779 = { "Gelibolu" "Gelibolu" } #
 5660 = { "Sebej" "Sebej" } #
 7137 = { "Silivri" "Silivri" } #
@@ -1066,3 +1047,5 @@
 7197 = { "Çiçaklei" "Çiçaklei" }
 7199 = { "Orliç" "Orliç" }
 7257 = { "Samar" "Samar" }
+
+#Pontic Steppe

@@ -1,0 +1,36 @@
+#9188 - Assa
+#Area - 
+#Region - North Africa
+
+#Core Details
+capital = "Assa"
+is_city = no
+tribal_owner = LEM
+
+#Demographics
+culture = zenaga_berber
+religion = sunni
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = livestock
+
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+native_size = 30 #x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4 #Each gives 0.05 tactics to uprising
+native_hostileness = 9 #Each gives 1% chance of uprising a month
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = muslim
+discovered_by = sub_saharan
+
+#Histories 

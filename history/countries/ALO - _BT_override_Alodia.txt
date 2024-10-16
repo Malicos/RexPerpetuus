@@ -1,0 +1,5 @@
+
+historical_rival = ABD
+historical_rival = FNJ
+primary_culture = alwan
+government_rank = 2

@@ -1,0 +1,4 @@
+#8996 - Erg Chech
+
+discovered_by = sub_saharan
+discovered_by = muslim

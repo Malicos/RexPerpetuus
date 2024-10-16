@@ -143,7 +143,13 @@
 #Iberia
 
 #Britain
-236 = { "Londen" "Londen" }
+233 = { "Koornewaal" "Truro" }
+234 = { "Hampscheir" "Zuidhampten" }
+235 = { "Kent" "Kantelberg" }
+236 = { "Middelsas" "Londen" }
+237 = { "Ossenvoort" "Ossenvoort" }
+238 = { "Ossas" "Kelmsfoort" }
+239 = { "Bruxtel" "Bruxtel" } #(JP) or "Gleikaster"
 
 #Scandinavia
 
@@ -325,8 +331,8 @@
 #2017 Aug 9
 
 #egypt
-358 = "Alexandrië"
-361 = "Caïro"
+358 = { "Alexandrië" "Alexandrië" }
+361 = { "Caïro" "Caïro" }
 1233 = "Buitenste Oasen"
 2318 = "Noordelijke Oasen"
 5269 = "Thebe"
@@ -415,8 +421,6 @@
 1745 = "Cantabrië"
 
 #england
-234 = "Westsaksen"
-238 = "Oostsaksen"
 3028 = "Zuidvolk"
 4371 = "Zuidsaksen"
 
@@ -444,8 +448,8 @@
 148 = "Makedonië"
 
 #egypt
-2320 = "Garibië"
-5272 = "Ammonië"
+2320 = { "Garibië" "Garibië" }
+5272 = { "Ammonië" "Ammonië" }
 
 #finland
 28 = "Nieuwland"
@@ -569,11 +573,6 @@
 1096 = "Groenkaap"
 2239 = "Gambië" 
 
-#lousiana
-893 = "Nieuw Orléans"
-
-
-
 #2018 Jun 18
 #labrador
 996 = "Sint Augustus"
@@ -597,7 +596,7 @@
 #2018 December
 
 #morocco
-2465 = "Wiegë"
+2465 = { "Wiegë" "Wiegë" }
 
 #scandies
 4114 = "Samië"
@@ -621,13 +620,10 @@
 #canada
 986 = "Nieuwe Voerde"
 990 = "Pet"
-995 = "Totuskë"
 1001 = "Santa Maria"
 2574 = "Nainë"
 2578 = "Hemelvaart Eylandt"
-2583 = "Drierivieren"
 2586 = "Ketelpunt"
-2671 = "Nieuwe Minden"
 5007 = "Vredebaai"
 5015 = "Onsland"
 5039 = "Michaëlsbaai"
@@ -636,10 +632,8 @@
 #neufundland
 980 = "Catherine"
 2573 = "Friesehaven"
-4974 = "Mariebaai"
 5019 = "Sint Peter"
 5058 = "Lijkenbaai"
-5059 = "Nieuwe Haven"
 
 #acadia
 985 = "Brandrivier"
@@ -648,7 +642,6 @@
 #US east
 930 = "Dennenberg"
 931 = "Perzikboom"
-935 = "Cherokees Dal"
 936 = "Transbergë"
 958 = "Nieuw Hamburg"
 668 = "Moerasveld"
@@ -672,11 +665,6 @@
 
 #argentine
 2842 = "Sint Jakob"
-
-#Procyon's Work
-
-#2017 Dec 31
-5019 = "Barbatos" #Johannes Ruysch
 
 #Arga Feb 2019
 
@@ -757,7 +745,6 @@
 
 #By Math Feb 2020
 #Britain
-235 = "Kantelberg"
 251 = "Aberdaan"
 
 #Scandinavia
@@ -772,7 +759,6 @@
 
 #By Arga Feb 2020
 #michigan
-944 = "Aan de Hoek"
 945 = "Nieuwe Frankfurt"
 2521 = "Midden-landen"
 
@@ -880,7 +866,7 @@
 835 = { "Verscheidenheid" "Verscheidenheid" } #
 859 = { "Sint Blas" "Sint Blas" } #
 873 = { "Astorië" "Astorië" } #
-893 = { "Nieuw Orleans" "Nieuw Orleans" } #
+893 = { "Nieuw Orleans" "Nieuw Orleans" }
 944 = { "Aan de Hoek" "Aan de Hoek" } #
 956 = { "Zuyd River" "Fort Nassau" } #
 1000 = { "Karlsburcht" "Karlsburcht" } #

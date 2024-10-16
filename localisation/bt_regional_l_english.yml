@@ -1,0 +1,1346 @@
+﻿#BT17 Creating new file to separate out continents, superregions, regions and areas. If an area does not have a BT version mark on it that means it was added pre-BT16. 
+#Note that vanilla things will not be present, but stuff will still be sorted into them following the format below:
+##################################
+############ Continent ###########
+##################################
+###Superregion###
+##Region
+#Areas
+
+l_english:
+ ##################################
+ ############# Europe #############
+ ##################################
+ 
+ ###Western Europe###
+ 
+ ##France
+ lower_brittany_area:0 "Lower Brittany"
+ lower_brittany_area_adj:0 "Lower Breton"
+ lower_brittany_area_name:0 "Lower Brittany"
+ lower_normandy_area:0 "Lower Normandy"
+ lower_normandy_area_adj:0 "Lower Norman"
+ lower_normandy_area_name:0 "Lower Normandy"
+ poitou_area:0 "Poitou"
+ poitou_area_adj:0 "Poitevin"
+ poitou_area_name:0 "Poitou"
+ champagne_area:0 "Champagne"
+ champagne_area_adj:0 "Champenois"
+ champagne_area_name:0 "Champagne"
+ berry_touraine_area:0 "Berry-Touraine"
+ berry_touraine_area_adj:0 "Berry-Touraine"
+ berry_touraine_area_name:0 "Berry-Touraine"
+ lyonnais_area:0 "Lyonnais"
+ lyonnais_area_adj:0 "Lyonnais"
+ lyonnais_area_name:0 "Lyonnais"
+ west_languedoc_area:0 "West Languedoc"
+ west_languedoc_area_adj:0 "West Languedoc"
+ west_languedoc_area_name:0 "West Languedoc"
+ dauphine_area:0 "Dauphiné"
+ dauphine_area_adj:0 "Dauphiné"
+ dauphine_area_name:0 "Dauphiné"
+ upper_guyenne_area:0 "Quercy-Rouergue"
+ upper_guyenne_area_adj:0 "Quercy-Rouergue"
+ upper_guyenne_area_name:0 "Quercy-Rouergue"
+ upper_gascony:0 "Upper Gascony"
+ upper_gascony_adj:0 "Upper Gascony"
+ upper_gascony_name:0 "Upper Gascony"
+ limousin_area:0 "Limousin"
+ limousin_area_adj:0 "Limousin"
+ limousin_area_name:0 "Limousin"
+ barrois_area:0 "Barrois"
+ barrois_area_adj:0 "Barrois"
+ barrois_area_name:0 "Barrois"
+ french_wastelands_area:0 "French Wastelands"   #BT17 Added
+ 
+ ##Low Countries
+ luxembourg_area:0 "Luxembourg"
+ luxembourg_area_adj:0 "Luxembourger"
+ luxembourg_area_name:0 "Luxembourg"
+ oversticht_area:0 "Oversticht"
+ oversticht_area_adj:0 "Overstichtite"
+ oversticht_area_name:0 "Oversticht"
+ 
+ ##Iberia
+ extremadura_area:0 "Extremadura"
+ extremadura_area_adj:0 "Extremaduran"
+ extremadura_area_name:0 "Extremadura"
+ murcia_area:0 "Murcia"
+ murcia_area_adj:0 "Murcian"
+ murcia_area_name:0 "Murcia"
+ new_castile_area:0 "New Castile"
+ new_castile_area_adj:0 "New Castilian"
+ new_castile_area_name:0 "New Castile"
+ northern_andalusia_area:0 "North Andalusia"
+ northern_andalusia_area_adj:0 "North Andalusian"
+ northern_andalusia_area_name:0 "North Andalusia"
+ minho_duoro_area:0 "Douro-e-Minho"
+ minho_duoro_area_adj:0 "Douro-e-Minho"
+ minho_duoro_area_name:0 "Douro-e-Minho"
+ estremadura_area:0 "Estremadura"
+ estremadura_area_adj:0 "Estremadura"
+ estremadura_area_name:0 "Estremadura"
+ algarve_area:0 "Algarve"
+ algarve_area_adj:0 "Algarve"
+ algarve_area_name:0 "Algarve"
+ segovia_area:0 "Segovia"
+ segovia_area_adj:0 "Segovian"
+ segovia_area_name:0 "Segovia"
+ iberian_wastelands_area:0 "Iberian Wastelands" #BT17 Added
+ 
+ ##Italy
+ emilia_area:0 "Lower Emilia"
+ emilia_area_adj:0 "Bolognesi"
+ emilia_area_name:0 "Lower Emilia"
+ sardinia_area:0 "Sardinia"
+ sardinia_area_adj:0 "Sardinia"
+ sardinia_area_name:0 "Sardinia"
+ friuli_area:0 "Friuli"
+ friuli_area_adj:0 "Friulian"
+ friuli_area_name:0 "Friuli"
+ istria_area:0 "Istria"
+ istria_area_adj:0 "Istriot"
+ istria_area_name:0 "Istria"
+ carnia_area:0 "Carnia"
+ carnia_area_adj:0 "Carnian"
+ carnia_area_name:0 "Carnia"
+ north_piedmont_area:0 "North Piedmont"
+ north_piedmont_area_adj:0 "North Piedmontese"
+ north_piedmont_area_name:0 "North Piedmont"
+ south_piedmont_area:0 "South Piedmont"
+ south_piedmont_area_adj:0 "South Piedmontese"
+ south_piedmont_area_name:0 "South Piedmont"
+ south_tuscany_area:0 "South Tuscany"
+ south_tuscany_area_adj:0 "South Tuscan"
+ south_tuscany_area_name:0 "South Tuscany"
+ umbria_area:0 "Umbria"
+ umbria_area_adj:0 "Umbrian"
+ umbria_area_name:0 "Umbria"
+ abruzzo_area:0 "Abruzzo"
+ abruzzo_area_adj:0 "Abruzzan"
+ abruzzo_area_name:0 "Abruzzo"
+ upper_emilia_area:0 "Upper Emilia"
+ upper_emilia_area_adj:0 "Parmesan"
+ upper_emilia_area_name:0 "Upper Emilia"
+ italian_wastelands_area:0 "Italian Wastelands" #BT17 Added
+ 
+ ##Ireland
+ ireland_region:0 "Ireland"
+ ireland_region_adj:0 "Irish"
+ ireland_region_name:0 "Ireland"
+ leinster_area:0 "Leinster"
+ leinster_area_adj:0 "Leinster"
+ leinster_area_name:0 "Leinster"
+ ulster_area:0 "Ulster"
+ ulster_area_adj:0 "Ulster"
+ ulster_area_name:0 "Ulster"
+ munster_area:0 "Munster"
+ munster_area_adj:0 "Munster"
+ munster_area_name:0 "Munster"
+ connacht_area:0 "Connacht"
+ connacht_area_adj:0 "Connacht"
+ connacht_area_name:0 "Connacht"
+ 
+ ##Britain
+ yorkshire_area:0 "Yorkshire"
+ yorkshire_area_adj:0 "Yorkish"
+ yorkshire_area_name:0 "Yorkshire"
+ deheubarth_area:0 "Deheubarth"
+ deheubarth_area_adj:0 "Deheubarthian"
+ deheubarth_area_name:0 "Deheubarth"
+ powys_area:0 "Powys"
+ powys_area_adj:0 "Powysian"
+ powys_area_name:0 "Powys"
+ grampians_area:0 "Grampians"
+ grampians_area_adj:0 "Grampian"
+ grampians_area_name:0 "Grampians"
+ 
+ ##Scandinavia
+ northern_norway:0 "North Norway"
+ northern_norway_adj:0 "Trøndelagian"
+ northern_norway_name:0 "Trøndelag"
+ eastern_norway:0 "East Norway"
+ eastern_norway_adj:0 "Norwegian"
+ eastern_norway_name:0 "Norway"
+ western_norway:1 "West Norway"
+ western_norway_adj:0 "Bergenshusian"
+ western_norway_name:0 "Bergenshus"
+ schleswig_area:0 "Schleswig"
+ schleswig_area_adj:0 "Schleswig"
+ schleswig_area_name:0 "Schleswig"
+ west_karelia_area:0 "West Karelia"
+ west_karelia_area_adj:0 "West Karelian"
+ west_karelia_area_name:0 "West Karelia"
+ trondelag_area:0 "Trondelag"
+ trondelag_area_adj:0 "Trondelag"
+ trondelag_area_name:0 "Trondelag"
+ scandinavian_wastelands_area:0 "Scandinavian Wastelands"   #BT17 Added
+ 
+ ##South Germany
+ moravia_area:0 "Moravia"
+ moravia_area_adj:0 "Moravian"
+ moravia_area_name:0 "Moravia"
+ bohemian_forest_area:0 "Bohemian Forest"
+ bohemian_forest_area_adj:0 "Bohemian Forestal"
+ bohemian_forest_area_name:0 "Bohemian Forest"
+ upper_austria_area:0 "Upper Austria"
+ upper_austria_area_adj:0 "Upper Austrian"
+ upper_austria_area_name:0 "Upper Austria"
+ carniola_area:0 "Carniola"
+ carniola_area_adj:0 "Carniolan"
+ carniola_area_name:0 "Carniola"
+ swiss_alps_area:0 "Rhaetia"
+ swiss_alps_area_adj:0 "Rhaetian"
+ swiss_alps_area_name:0 "Rhaetia"
+ upper_palatinate_area:0 "Upper Palatinate"
+ upper_palatinate_area_adj:0 "Upper Palatinater"
+ upper_palatinate_area_name:0 "Upper Palatinate"
+ salzburg_area:0 "Salzburg"
+ salzburg_area_adj:0 "Salzburgian"
+ salzburg_area_name:0 "Salzburg"
+ south_german_wastelands_area:0 "South German Wastelands"   #BT17 Added
+ 
+ ##North Germany
+ lusatia_area:0 "Lusatia"
+ lusatia_area_adj:0 "Lusatian"
+ lusatia_area_name:0 "Lusatia"
+ nassau_area:0 "Nassau"
+ nassau_area_adj:0 "Nassaun"
+ nassau_area_name:0 "Nassau"
+ middle_saxony_area:0 "Middle Saxony"
+ middle_saxony_area_adj:0 "Middle Saxon"
+ middle_saxony_area_name:0 "Middle Saxony"
+ bremen_verden_area:0 "Bremen-Verden"
+ bremen_verden_area_adj:0 "Bremen-Verdener"
+ bremen_verden_area_name:0 "Bremen-Verden"
+ 
+ ###Eastern Europe###
+ 
+ ##Baltic
+ nadruvia_area:0 "Nadruvia"
+ nadruvia_area_adj:0 "Nadruvian"
+ nadruvia_area_name:0 "Nadruvia"
+ latgallia_area:0 "Latgallia"
+ latgallia_area_adj:0 "Latgallian"
+ latgallia_area_name:0 "Latgallia"
+ masuria_area:0 "Masuria"
+ masuria_area_adj:0 "Masurian"
+ masuria_area_name:0 "Masuria"
+ north_livonia_area:0 "North Livonia"
+ north_livonia_area_adj:0 "North Livonian"
+ north_livonia_area_name:0 "North Livonia"
+ semigallia_area:0 "Semigallia"
+ semigallia_area_adj:0 "Semigallian"
+ semigallia_area_name:0 "Semigallia"
+ 
+ ##Poland
+ sandomierz_area:0 "Sandomierz"
+ sandomierz_area_adj:0 "Sandomierz"
+ sandomierz_area_name:0 "Sandomierz"
+ lower_silesia_area:0 "Lower Silesia"
+ lower_silesia_area_adj:0 "Lower Silesian"
+ lower_silesia_area_name:0 "Lower Silesia"
+ middle_silesia_area:0 "Middle Silesia"
+ middle_silesia_area_adj:0 "Middle Silesian"
+ middle_silesia_area_name:0 "Middle Silesia"
+ 
+ ##Ruthenia
+ volhynia_area:0 "West Volhynia"
+ volhynia_area_adj:0 "West Volhynian"
+ volhynia_area_name:0 "West Volhynia"
+ bryansk_area:0 "Bryansk"
+ bryansk_area_adj:0 "Bryansk"
+ bryansk_area_name:0 "Bryansk"
+ eastern_volhynia_area:0 "East Volhynia"
+ eastern_volhynia_area_adj:0 "East Volhynian"
+ eastern_volhynia_area_name:0 "East Volhynia"
+ #severia_area:0 "Severia"  #Cut and replaced by chernigov_area in BT14
+ #severia_area_adj:0 "Severian"
+ #severia_area_name:0 "Severia"
+ vitebsk_area:0 "Vitebsk"
+ vitebsk_area_adj:0 "Vitebsk"
+ vitebsk_area_name:0 "Vitebsk"
+ polotsk_area:0 "Polotsk"
+ polotsk_area_adj:0 "Polotsk"
+ polotsk_area_name:0 "Polotsk"
+ novogrudok_area:0 "Novgrudok"
+ novogrudok_area_adj:0 "Novgrudok"
+ novogrudok_area_name:0 "Novgrudok"
+ yotvingia_area:0 "Yotvingia"
+ yotvingia_area_adj:0 "Yotvingian"
+ yotvingia_area_name:0 "Yotvingia"
+ trakai_area:0 "Trakai"
+ trakai_area_adj:0 "Trakai"
+ trakai_area_name:0 "Trakai"
+ 
+ ##Pontic Steppe
+ middle_don_area:0 "Middle Don"
+ middle_don_area_adj:0 "Middle Don"
+ middle_don_area_name:0 "Middle Don"
+ lower_dnieper_area:0 "Lower Dnieper"
+ lower_dnieper_area_adj:0 "Lower Dnieper"
+ lower_dnieper_area_name:0 "Lower Dnieper"
+ pryazovia_area:0 "Pryazovia"
+ pryazovia_area_adj:0 "Pryazovian"
+ pryazovia_area_name:0 "Pryazovia"
+ 
+ ##Russia
+ toropets_area:0 "Toropets"
+ toropets_area_adj:0 "Toropets"
+ toropets_area_name:0 "Toropets"
+ 
+ ##Ural
+ vyatka_area:0 "Vyatka"
+ vyatka_area_adj:0 "Vyatka"
+ vyatka_area_name:0 "Vyatka"
+ pechora_area:0 "Pechora"
+ pechora_area_adj:0 "Pechoran"
+ pechora_area_name:0 "Pechora"
+ 
+ ##Balkans
+ slavonia_area:0 "Slavonia"
+ slavonia_area_adj:0 "Slavonian"
+ slavonia_area_name:0 "Slavonia"
+ upper_thrace_area:0 "Upper Thrace"
+ upper_thrace_area_adj:0 "Upper Thracian"
+ upper_thrace_area_name:0 "Upper Thrace"
+ northern_macedonia_area:0 "North Macedonia"
+ northern_macedonia_area_adj:0 "North Macedonian"
+ northern_macedonia_area_name:0 "North Macedonia"
+ eastern_macedonia_area:0 "East Macedonia"
+ eastern_macedonia_area_adj:0 "East Macedonian"
+ eastern_macedonia_area_name:0 "East Macedonia"
+ northern_epirus_area:0 "Ionian Islands"
+ northern_epirus_area_adj:0 "Ionian Islander"
+ northern_epirus_area_name:0 "Ionian Islands"
+ northern_thrace_area:0 "North Thrace"
+ northern_thrace_area_adj:0 "North Thracian"
+ northern_thrace_area_name:0 "North Thrace"
+ aetolia_area:0 "Aetolia"
+ aetolia_area_adj:0 "Aetolian"
+ aetolia_area_name:0 "Aetolia"
+ thessaly_area:0 "Thessaly"
+ thessaly_area_adj:0 "Thessalian"
+ thessaly_area_name:0 "Thessaly"
+ danubian_plain_area:0 "Lower Moesia"
+ danubian_plain_area_adj:0 "Lower Moesian"
+ danubian_plain_area_name:0 "Lower Moesia"
+ syrmia_area:0 "Syrmia"
+ syrmia_area_adj:0 "Syrmian"
+ syrmia_area_name:0 "Syrmia"
+ montenegro_area:0 "Montenegro"
+ montenegro_area_adj:0 "Montenegrin"
+ montenegro_area_name:0 "Montenegro"
+ krajina_area:0 "Krajina"
+ krajina_area_adj:0 "Krajinan"
+ krajina_area_name:0 "Krajina"
+ herzegovina_area:0 "Herzegovina"
+ herzegovina_area_adj:0 "Herzegovinian"
+ herzegovina_area_name:0 "Herzegovina"
+ vidin_area:0 "Vidin"
+ vidin_area_adj:0 "Vidinian"
+ vidin_area_name:0 "Vidin"
+ 
+ ##Carpathia
+ carpathian_ruthenia_area:0 "Carpathian Ruthenia"
+ carpathian_ruthenia_area_adj:0 "Carpathian Ruthenian"
+ carpathian_ruthenia_area_name:0 "Carpathian Ruthenia"
+ bukovina_area:0 "Bukovina"
+ bukovina_area_adj:0 "Bukovinian"
+ bukovina_area_name:0 "Bukovina"
+ western_moldovia_area:0 "Moldovia"
+ western_moldovia_area_adj:0 "Moldovian"
+ western_moldovia_area_name:0 "Moldovia"
+ banat_area:0 "Banat"
+ banat_area_adj:0 "Banatian"
+ banat_area_name:0 "Banat"
+ oltenia_area:0 "Oltenia"
+ oltenia_area_adj:0 "Oltenian"
+ oltenia_area_name:0 "Oltenia"
+ upper_muntenia_area:0 "Upper Muntenia"
+ upper_muntenia_area_adj:0 "Upper Muntenia"
+ upper_muntenia_area_name:0 "Upper Muntenia"
+ upper_hungary_area:0 "Upper Hungary"
+ upper_hungary_area_adj:0 "Upper Hungarian"
+ upper_hungary_area_name:0 "Upper Hungary"
+ eastern_alfold_area:0 "Crisana"
+ eastern_alfold_area_adj:0 "Crisanan"
+ eastern_alfold_area_name:0 "Crisana"
+ 
+ ##################################
+ ############## Asia ##############
+ ##################################
+ 
+ ###Middle East###
+ 
+ ##Caucasia
+ talysh_area:0 "Talysh"
+ talysh_area_adj:0 "Talysh"
+ talysh_area_name:0 "Talysh"
+ caucasian_wastelands_area:0 "Caucasian Wastelands" #BT17 Added
+ 
+ ##Anatolia
+ #lydia_area:0 "Lydia"  #BT16 Cut 
+ #lydia_area_adj:0 "Lydian" #BT16 Cut
+ #lydia_area_name:0 "Lydia" #BT16 Cut
+ pontus_area:0 "East Pontus"
+ pontus_area_adj:0 "East Pontic"
+ pontus_area_name:0 "East Pontus"
+ karasi_area:0 "Mysia"
+ karasi_area_adj:0 "Mysian"
+ karasi_area_name:0 "Mysia"
+ pamphylia_area:0 "Lycia-Pamphylia"
+ pamphylia_area_adj:0 "Lycia-Pamphylian"
+ pamphylia_area_name:0 "Lycia-Pamphylia"
+ caria_area:0 "Caria"
+ caria_area_adj:0 "Carian"
+ caria_area_name:0 "Caria" 
+ anatolia_wastelands_area:0 "Anatolian Wastelands"  #BT17 Added
+ 
+ ##Levant
+ cyprus_area:0 "Cyprus"
+ cyprus_area_adj:0 "Cypriot"
+ cyprus_area_name:0 "Cyprus"
+ tripoli_area:0 "Tripoli"
+ tripoli_area_adj:0 "Tripolian"
+ tripoli_area_name:0 "Tripoli"
+ #bargylus_area:0 "Bargylus"    #BT16 Cut  
+ #bargylus_area_adj:0 "Bargylite"   #BT16 Cut  
+ #bargylus_area_name:0 "Bargylus"   #BT16 Cut  
+ #hauran_area:0 "Hauran"    #BT16 Cut  
+ #hauran_area_adj:0 "Haurani"   #BT16 Cut  
+ #hauran_area_name:0 "Hauran"   #BT16 Cut  
+ levantine_wastelands_area:0 "Levantine Wastelands" #BT17 Added
+ 
+ ##Mesopotamia
+ mesopotamia_region:0 "Mesopotamia"
+ mesopotamia_region_adj:0 "Mesopotamian"
+ mesopotamia_region_name:0 "Mesopotamia"
+ mardin_area:0 "Mardin"
+ mardin_area_adj:0 "Mardin"
+ mardin_area_name:0 "Mardin"
+ lower_tigris_area:0 "Lower Tigris"
+ lower_tigris_area_adj:0 "Lower Tigris"
+ lower_tigris_area_name:0 "Lower Tigris"
+ middle_euphrates_area:0 "Middle Euphrates"
+ middle_euphrates_area_adj:0 "Middle Euphrates"
+ middle_euphrates_area_name:0 "Middle Euphrates"
+ sophene_area:0 "Sophene"
+ sophene_area_adj:0 "Sophene"
+ sophene_area_name:0 "Sophene"
+ ararat_area:0 "Western Armenia"
+ ararat_area_adj:0 "Western Armenian"
+ ararat_area_name:0 "Western Armenia"
+ corduene_area:0 "Corduene"
+ corduene_area_adj:0 "Corduene"
+ corduene_area_name:0 "Corduene"
+ adiabene_area:0 "Adiabene"
+ adiabene_area_adj:0 "Adiabene"
+ adiabene_area_name:0 "Adiabene"
+ mesopotamian_wastelands_area:0 "Mesopotamian Wastelands"   #BT17 Added
+ 
+ ##Arabia
+ persian_gulf_islands_area:0 "Persian Gulf Islands"
+ persian_gulf_islands_area_adj:0 "Persian Gulf Islander"
+ persian_gulf_islands_area_name:0 "Persian Gulf Islands"
+ arabian_wastelands_area:0 "Arabian Wastelands" #BT17 Added
+ 
+ ###Persia###
+ 
+ ##Persia
+ #No BT Localisation
+ 
+ ##Khorasan
+ khorasan_wastelands_area:0 "Khorasani Wastelands"  #BT17 Added
+ 
+ ###Tatary###
+ 
+ ##Central Asia
+ central_asia_wastelands_area:0 "Central Asian Wastelands"  #BT17 Added
+ 
+ ##West Siberia
+ #No BT Localisation
+ 
+ ##East Siberia
+ #No BT Localisation
+ 
+ ##Mongolia
+ eastern_mongolia:0 "Eastern Mongolia"
+ eastern_mongolia_adj:0 "East Mongolian"
+ eastern_mongolia_name:0 "Eastern Mongolia"
+ north_zungaria:1 "North Dzungaria"
+ north_zungaria_adj:0 "Urzhari"
+ north_zungaria_name:0 "Urzhar"
+ 
+ ##Manchuria
+ #No BT Localisation
+ 
+ ###India###
+ 
+ ##Hindustan
+ hindustan_wastelands_area:0 "Hindustani Wastelands"    #BT17 Added
+ 
+ ##Bengal
+ bengal_wastelands_area:0 "Bengali Wastelands"  #BT17 Added
+ 
+ ##Deccan
+ #No BT Localisation
+ 
+ ##West India
+ #No BT Localisation
+ 
+ ##Coromandel
+ southern_indian_islands_area:0 "Southern Indian Islands"
+ southern_indian_islands_area_adj:0 "Southern Indian Islander"
+ southern_indian_islands_area_name:0 "Southern Indian Islands"
+ 
+ ###Far East###
+ 
+ ##Korea
+ #No BT Localisation
+ 
+ ##Japan
+ northern_kyushu:0 "Northern Kyushu"
+ northern_kyushu_adj:0 "Hizeni"
+ northern_kyushu_name:0 "Hizen"
+ 
+ ###China###
+ 
+ ##Tibet
+ tibet_wastelands_area:0 "Tibetan Wastelands"   #BT17 Added
+ 
+ ##North China
+ #No BT Localisation
+ 
+ ##South China
+ #No BT Localisation
+ 
+ ##Xinan
+ xinan_wastelands_area:0 "Xinan Wastelands" #BT17 Added
+ 
+ ###East Indies
+ 
+ ##Philippines
+ philippines_region:0 "Philippines"
+ philippines_region_adj:0 "Filipino"
+ philippines_region_name:0 "Philippines"
+ 
+ ##Burma
+ burma_wastelands_area:0 "Burmese Wastelands"   #BT17 Added
+ 
+ ##Indochina
+ #sukothai_area:0 "Sukothai" #Cut and replaced by sukhothai_area in BT14
+ #sukothai_area_adj:0 "Sukothai"
+ #sukothai_area_name:0 "Sukothai"
+ #degar_highlands_area:0 "Degar Highlands"  #Cut and replaced by tay_nguyen_area in BT14
+ #degar_highlands_area_adj:0 "Degar Highlander"
+ #degar_highlands_area_name:0 "Degar Highlands"
+ prachin_area:0 "Prachin"
+ prachin_area_adj:0 "Prachin"
+ prachin_area_name:0 "Prachin"
+ thai_cantons:0 "Thai Cantons"
+ thai_cantons_adj:0 "Thai Cantons"
+ thai_cantons_name:0 "Thai Cantons"
+ indochina_wastelands_area:0 "Indochinese Wastelands"   #BT17 Added
+ 
+ ##Malaya
+ #kedah_area:0 "Kedah"  #Cut and replaced by north_malaya_area in BT14
+ #kedah_area_adj:0 "Kedah"
+ #kedah_area_name:0 "Kedah"
+ 
+ ##Sumatra
+ #palembang_area:0 "Palembang"     #Cut and replaced by jambi_area in BT14
+ #palembang_area_adj:0 "Palembang"
+ #palembang_area_name:0 "Palembang"
+ 
+ ##Java
+ #No BT Localisation
+ 
+ ##Borneo
+ borneo_region:0 "Borneo"
+ borneo_region_adj:0 "Bornean"
+ borneo_region_name:0 "Borneo"
+ #kapuas_area:0 "Kapuas"    #Shuffled over from banjar_area, replacing kapuas_area in BT
+ #kapuas_area_adj:0 "Kapuas"
+ #kapuas_area_name:0 "Kapuas"
+ borneo_wastelands_area:0 "Bornean Wastelands"  #BT17 Added
+ 
+ ##Celebes
+ celebes_region:0 "Celebes"
+ celebes_region_adj:0 "Celebesan"
+ celebes_region_name:0 "Celebes"
+ #east_sulawesi_area:0 "East Celebes"   #Cut and replaced by makassar_area in BT14
+ #east_sulawesi_area_adj:0 "East Celebes"
+ #east_sulawesi_area_name:0 "East Celebes"
+ 
+ ##Moluccas
+ #No BT Localisation
+ 
+ ##################################
+ ############# Africa #############
+ ##################################
+ 
+ ###Northern Africa###
+
+ ##Western Maghreb
+ central_morocco_area:0 "Tamesna"   #BT17 Added
+ central_morocco_area_adj:0 "Tamesnan"  
+ central_morocco_area_name:0 "Tamesna"  
+ northwest_morocco_area:0 "The Habt"    #BT17 Added
+ northwest_morocco_area_adj:0 "The Habt"    
+ northwest_morocco_area_name:0 "The Habt"   
+ western_algeria_area:0 "Oran"  #BT17 Added
+ western_algeria_area_adj:0 "Oranian"
+ western_algeria_area_name:0 "Oran"
+ western_maghreb_wastelands_area:0 "Western Maghrebi Wastelands"    #BT17 Added
+ 
+ ##Eastern Maghreb
+ east_maghreb_region:0 "Eastern Maghreb"    #BT17 Added
+ east_maghreb_region_adj:0 "Eastern Maghrebi"
+ east_maghreb_region_name:0 "Eastern Maghreb"
+ central_algeria_area:0 "Hodna" #BT17 Added
+ central_algeria_area_adj:0 "Hodnan"
+ central_algeria_area_name:0 "Hodna"
+ eastern_algeria_area:0 "Constantine"   #BT17 Added
+ eastern_algeria_area_adj:0 "Constantinian"
+ eastern_algeria_area_name:0 "Constantine"
+ southeast_algeria_area:0 "Zab" #BT17 Added
+ southeast_algeria_area_adj:0 "Zabian"
+ southeast_algeria_area_name:0 "Zab"
+ south_tunisia_area:0 "Byzacena"    #BT17 Added
+ south_tunisia_area_adj:0 "Byzacenan"
+ south_tunisia_area_name:0 "Byzacena"
+ southwest_tunisia_area:0 "Qastiliya"   #BT17 Added
+ southwest_tunisia_area_adj:0 "Qastiliyan"
+ southwest_tunisia_area_name:0 "Qastiliya"
+ nafusa_mountains_area:0 "Nafusa Mountains" #BT17 Added
+ nafusa_mountains_area_adj:0 "Nafusi"
+ nafusa_mountains_area_name:0 "Nafusa Mountains"
+ 
+ ##Egypt
+ marmarica_area:0 "Marmarica"   #BT17 Added
+ marmarica_area_adj:0 "Marmarican"
+ marmarica_area_name:0 "Marmarica"
+ middle_egypt_area:0 "Middle Egypt" #BT17 Added
+ middle_egypt_area_adj:0 "Middle Egyptian"
+ middle_egypt_area_name:0 "Middle Egypt"
+ egyptian_wastelands_area:0 "Egyptian Wastelands"   #BT17 Added
+ 
+ ##Nubia
+ nubia_region:0 "Nubia" #BT17 Added
+ nubia_region_adj:0 "Nubian"
+ nubia_region_name:0 "Nubia"
+ middle_nubia_area:0 "Middle Nubia" #BT17 Added
+ middle_nubia_area_adj:0 "Middle Nubian"
+ middle_nubia_area_name:0 "Middle Nubia"
+ butana_area:0 "Butana" #BT17 Added
+ butana_area_adj:0 "Butani"
+ butana_area_name:0 "Butana"
+ white_nile_area:0 "White Nile"
+ white_nile_area_adj:0 "White Niler"
+ white_nile_area_name:0 "White Nile"
+ nuba_mountain_area:0 "Nuba Mountains"  #BT17 Added
+ nuba_mountain_area_adj:0 "Nuba Mountain"
+ nuba_mountain_area_name:0 "Nuba Mountains"
+ southeast_sahara_area:0 "Nubian Oases" #BT17 Added
+ southeast_sahara_area_adj:0 "Nubian Oases"
+ southeast_sahara_area_name:0 "Nubian Oases"
+ nubian_wastelands_area:0 "Nubian Wastelands"   #BT17 Added
+ 
+ ##Eastern Sahara
+ eastern_sahara_region:0 "Eastern Sahara"   #BT17 Added
+ eastern_sahara_region_adj:0 "Eastern Saharan"
+ eastern_sahara_region_name:0 "Eastern Sahara"
+ baggara_belt_area:0 "Daju" #BT17 Added
+ baggara_belt_area_adj:0 "Dajuan"
+ baggara_belt_area_name:0 "Daju"
+ wadai_area:0 "Wadai"   #BT17 Added
+ wadai_area_adj:0 "Wadaian"
+ wadai_area_name:0 "Wadai"
+ tibesti_mountains_area:0 "Tibesti" #BT17 Added
+ tibesti_mountains_area_adj:0 "Tibestian"
+ tibesti_mountains_area_name:0 "Tibesti"
+ kouar_oases_area:0 "Kouar" #BT17 Added
+ kouar_oases_area_adj:0 "Kouarite"
+ kouar_oases_area_name:0 "Kouar"
+ djado_area:0 "Djado"   #BT17 Added
+ djado_area_adj:0 "Djadoan"
+ djado_area_name:0 "Djado"
+ berdoa_toubou_area:0 "Berdoa"  #BT17 Added
+ berdoa_toubou_area_adj:0 "Berdoan"
+ berdoa_toubou_area_name:0 "Berdoa"
+ libyan_oases_area:0 "Libyan Oases" #BT17 Added
+ libyan_oases_area_adj:0 "Libyan Oases"
+ libyan_oases_area_name:0 "Libyan Oases"
+ eastern_sahara_wastelands_area:0 "Eastern Saharan Wastelands"  #BT17 Added
+ 
+ ##Central Sahara
+ central_sahara_region:0 "Central Sahara"   #BT17 Added
+ central_sahara_region_adj:0 "Central Saharan"
+ central_sahara_region_name:0 "Central Sahara"
+ northwest_sahara_area:0 "Saoura"
+ northwest_sahara_area_adj:0 "Saouran"
+ northwest_sahara_area_name:0 "Saoura"
+ gourara_oasis_area:0 "Gourara" #BT17 Added
+ gourara_oasis_area_adj:0 "Gouraran"
+ gourara_oasis_area_name:0 "Gourara"
+ tuat_oasis_area:0 "Tuat"   #BT17 Added
+ tuat_oasis_area_adj:0 "Tuatite"
+ tuat_oasis_area_name:0 "Tuat"
+ tidikelt_oasis_area:0 "Tidikelt"   #BT17 Added
+ tidikelt_oasis_area_adj:0 "Tidikeltian"
+ tidikelt_oasis_area_name:0 "Tidikelt"
+ hoggar_mountains_area:0 "Hoggar"   #BT17 Added
+ hoggar_mountains_area_adj:0 "Hoggarian"
+ hoggar_mountains_area_name:0 "Hoggar"
+ southern_sahara_area:0 "Southern Sahara"   #BT17 Added
+ southern_sahara_area_adj:0 "Southern Saharan"
+ southern_sahara_area_name:0 "Southern Sahara"
+ central_sahara_wastelands_area:0 "Central Saharan Wastelands"  #BT17 Added
+ 
+ ##Western Sahara
+ western_sahara_region:0 "Western Sahara"   #BT17 Added
+ western_sahara_region_adj:0 "Western Saharan"
+ western_sahara_region_name:0 "Western Sahara"
+ saguia_el_hamra_area:0 "Saguia el-Hamra"    #BT17 Added
+ saguia_el_hamra_area_adj:0 "Saguia el-Hamran"
+ saguia_el_hamra_area_name:0 "Saguia el-Hamra"
+ cape_juby_area:0 "Cape Juby"    #BT17 Added
+ cape_juby_area_adj:0 "Cape Jubian"
+ cape_juby_area_name:0 "Cape Juby"
+ cape_blanc_area:0 "Cape Blanc"  #BT17 Added
+ cape_blanc_area_adj:0 "Cape Blancite"
+ cape_blanc_area_name:0 "Cape Blanc"
+ idjil_area:0 "Idjil"   #BT17 Added
+ idjil_area_adj:0 "Idjilian"
+ idjil_area_name:0 "Idjil"
+ trarza_area:0 "Trarza" #BT17 Added
+ trarza_area_adj:0 "Trarzan"
+ trarza_area_name:0 "Trarza"
+ tagant_area:0 "Tagant" #BT17 Added
+ tagant_area_adj:0 "Tagantian"
+ tagant_area_name:0 "Tagant" 
+ western_sahara_wastelands_area:0 "Western Saharan Wastelands"  #BT17 Added
+ 
+ ##Sahel
+ #No BT Localisation
+ 
+ ##Guinea
+ guinea_wastelands_area:0 "Guinean Wastelands"  #BT17 Added
+ 
+ ##Niger
+ #No BT Localisation
+ 
+ ##Horn of Africa
+ medri_bahri_area:0 "Eritrea"
+ medri_bahri_area_adj:0 "Eritrean"
+ medri_bahri_area_name:0 "Eritrea"
+ semien_area:0 "Semien" #BT16 Added
+ semien_area_adj:0 "Semien"
+ semien_area_name:0 "Semien"
+ begemder_area:0 "Begemder" #BT16 Added
+ begemder_area_adj:0 "Begemder"
+ begemder_area_name:0 "Begemder"
+ gojjam_area:0 "Gojjam" #BT16 Added
+ gojjam_area_adj:0 "Gojjami"
+ gojjam_area_name:0 "Gojjam"
+ illuabor_area:0 "Illuabor" #BT16 Added
+ illuabor_area_adj:0 "Illuabor" 
+ illuabor_area_name:0 "Illuabor"
+ omo_valley_area:0 "Omo Valley" #BT16 Added
+ omo_valley_area_adj:0 "Omo Valley"
+ omo_valley_area_name:0 "Omo Valley"
+ arsi_area:0 "Hadiya"   #BT16 Added
+ arsi_area_adj:0 "Hadiya"
+ arsi_area_name:0 "Hadiya"
+ bale_area:0 "Bale" #BT16 Added
+ bale_area_adj:0 "Bale"
+ bale_area_name:0 "Bale"
+ borana_area:0 "Borana" #BT16 Added
+ borana_area_adj:0 "Borana"
+ borana_area_name:0 "Borana"
+ hobyo_area:0 "Hobyo"   #BT16 Added
+ hobyo_area_adj:0 "Hobyo"
+ hobyo_area_name:0 "Hobyo"
+ western_eritrea_area:0 "Western Eritrea"   #BT17 Added
+ western_eritrea_area_adj:0 "Western Eritrean"
+ western_eritrea_area_name:0 "Western Eritrea"
+ abyssinia_region:0 "Abyssinia"
+ 
+ ###Southern Africa###
+ 
+ ##East Africa
+ southern_madagascar:0 "Southern Madagascar"
+ southern_madagascar_adj:0 "Baran"
+ southern_madagascar_name:0 "Bara"
+ 
+ ##Central Africa
+ #No BT Localisation
+ 
+ ##Congo
+ #No BT Localisation
+ 
+ ##South Africa
+ upper_limpopo_area:0 "Upper Limpopo"
+ upper_limpopo_area_adj:0 "Upper Limpopo"
+ upper_limpopo_area_name:0 "Upper Limpopo"
+ transvaal_area:0 "Transvaal"
+ transvaal_area_adj:0 "Transvaal"
+ transvaal_area_name:0 "Transvaal"
+ bt_natal_area:0 "Natal"
+ bt_natal_area_adj:0 "Natal"
+ bt_natal_area_name:0 "Natal"
+ eastern_cape_area:0 "East Cape"
+ eastern_cape_area_adj:0 "East Cape"
+ eastern_cape_area_name:0 "East Cape"
+ northern_cape_area:0 "North Cape"
+ northern_cape_area_adj:0 "North Cape"
+ northern_cape_area_name:0 "North Cape"
+ xhosa_area:0 "Xhosa"
+ xhosa_area_adj:0 "Xhosa"
+ xhosa_area_name:0 "Xhosa"
+ orange_river_area:0 "Orange River"
+ orange_river_area_adj:0 "Orange River"
+ orange_river_area_name:0 "Orange River"
+ highveld_area:0 "Highveld"
+ highveld_area_adj:0 "Highveld"
+ highveld_area_name:0 "Highveld"
+ lowveld_area:0 "Lowveld"
+ lowveld_area_adj:0 "Lowveld"
+ lowveld_area_name:0 "Lowveld"
+ bechuanaland_area:0 "Bechuanaland"
+ bechuanaland_area_adj:0 "Bechuanaland"
+ bechuanaland_area_name:0 "Bechuanaland"
+ kalahari_area:0 "Kalahari"
+ kalahari_area_adj:0 "Kalahari"
+ kalahari_area_name:0 "Kalahari"
+ zambezi_area:0 "Zambezi"
+ zambezi_area_adj:0 "Zambezi"
+ zambezi_area_name:0 "Zambezi"
+ okavango_area:0 "Okavango"
+ okavango_area_adj:0 "Okavango"
+ okavango_area_name:0 "Okavango"
+ namaqualand_area:0 "Namaqualand"
+ namaqualand_area_adj:0 "Namaqualand"
+ namaqualand_area_name:0 "Namaqualand"
+ damaraland_area:0 "Damaraland"
+ damaraland_area_adj:0 "Damaraland"
+ damaraland_area_name:0 "Damaraland"
+ ovambo_area:0 "Ovambo"
+ ovambo_area_adj:0 "Ovambo"
+ ovambo_area_name:0 "Ovambo"
+ skeleton_coast_land_area:0 "Namib"
+ skeleton_coast_land_area_adj:0 "Namibian"
+ skeleton_coast_land_area_name:0 "Namib"
+ south_african_wastelands_area:0 "South African Wastelands" #BT17 Added
+ 
+ ##################################
+ ######### North America ##########
+ ##################################
+ 
+ ###North America###
+ 
+ ##Northeast
+ northeast_america_wastelands_area:0 "Northeast American Wastelands"    #BT17 Added
+ 
+ ##Canada
+ grand_river_area:0 "Grand River"
+ grand_river_area_adj:0 "Grand River"
+ grand_river_area_name:0 "Grand River"
+ canadian_wastelands_area:0 "Canadian Wastelands"   #BT17 Added
+ 
+ ##Southeast
+ southeast_america_wastelands_area:0 "Southeast American Wastelands"   #BT17 Added
+ 
+ ##Mississippi
+ missisippi_wastelands_area:0 "Missisippian Wastelands" #BT17 Added
+ 
+ ##Great Lakes
+ #No BT Localisation
+ 
+ ##Rio Grande
+ upper_rio_grande_area:0 "Upper Rio Grande"
+ upper_rio_grande_area_adj:0 "Upper Rio Grande"
+ upper_rio_grande_area_name:0 "Upper Rio Grande"
+ 
+ ##Great Plains
+ upper_missouri_area:0 "Upper Missouri"
+ upper_missouri_area_adj:0 "Upper Missouri"
+ upper_missouri_area_name:0 "Upper Missouri"
+ southern_rockies:0 "South Rockies"
+ southern_rockies_adj:0 "South Rockies"
+ southern_rockies_name:0 "South Rockies"
+ yellowstone_area:0 "Yellowstone"
+ yellowstone_area_adj:0 "Yellowstone"
+ yellowstone_area_name:0 "Yellowstone"
+ lakota_area:0 "Lakota"
+ lakota_area_adj:0 "Lakotan"
+ lakota_area_name:0 "Lakota"
+ west_dakota_area:0 "James River"
+ west_dakota_area_adj:0 "James River"
+ west_dakota_area_name:0 "James River"
+ upper_platte_area:0 "Upper Platte"
+ upper_platte_area_adj:0 "Upper Platte"
+ upper_platte_area_name:0 "Upper Platte"
+ 
+ ##Cascadia
+ queen_charlotte_sound_area:0 "Queen Charlotte Sound"
+ queen_charlotte_sound_area_adj:0 "Queen Charlotte Sound"
+ queen_charlotte_sound_area_name:0 "Queen Charlotte Sound"
+ northern_cascades_area:0 "North Cascades"
+ northern_cascades_area_adj:0 "North Cascadian"
+ northern_cascades_area_name:0 "North Cascades"
+ southern_cascades_area:0 "South Cascades"
+ southern_cascades_area_adj:0 "South Cascadian"
+ southern_cascades_area_name:0 "South Cascades"
+ lost_coast_area:0 "Lost Coast"
+ lost_coast_area_adj:0 "Lost Coast"
+ lost_coast_area_name:0 "Lost Coast"
+ vancouver_island_area:0 "Quadra and Vancouver Island"
+ vancouver_island_area_adj:0 "Quadra and Vancouver Islander"
+ vancouver_island_area_name:0 "Quadra and Vancouver Island"
+ olympic_peninsula_area:0 "Olympic Peninsula"
+ olympic_peninsula_area_adj:0 "Olympic Peninsulan"
+ olympic_peninsula_area_name:0 "Olympic Peninsula"
+ columbia_plateau_area:0 "Columbia Plateau"
+ columbia_plateau_area_adj:0 "Columbia Plateau"
+ columbia_plateau_area_name:0 "Columbia Plateau"
+ palouse_area:0 "Palouse"
+ palouse_area_adj:0 "Palouse"
+ palouse_area_name:0 "Palouse"
+ cariboo_area:0 "Cariboo"
+ cariboo_area_adj:0 "Cariboo"
+ cariboo_area_name:0 "Cariboo"
+ kootenays_area:0 "Kootenays"
+ kootenays_area_adj:0 "Kootenays"
+ kootenays_area_name:0 "Kootenays"
+ okanogan_area:0 "Okanogan"
+ okanogan_area_adj:0 "Okanogan"
+ okanogan_area_name:0 "Okanogan"
+ central_rockies_area:0 "Central Rockies"
+ central_rockies_area_adj:0 "Central Rockies"
+ central_rockies_area_name:0 "Central Rockies"
+ lower_fraser_area:0 "Lower Fraser"
+ lower_fraser_area_adj:0 "Lower Fraser"
+ lower_fraser_area_name:0 "Lower Fraser"
+ siskiyou_area:0 "Siskiyou"
+ siskiyou_area_adj:0 "Siskiyouan"
+ siskiyou_area_name:0 "Siskiyou"
+ blue_mountains_area:0 "Hells Canyon"
+ blue_mountains_area_adj:0 "Hells Canyoner"
+ blue_mountains_area_name:0 "Hells Canyon"
+ cascadian_wastelands_area:0 "Cascadian Wastelands" #BT17 Added
+ 
+ ##California
+ sierra_nevada_area:0 "Sierra Nevadas"
+ sierra_nevada_area_adj:0 "Sierra Nevadian"
+ sierra_nevada_area_name:0 "Sierra Nevadas"
+ mojave_area:0 "Mojave Desert"
+ mojave_area_adj:0 "Mojave Desert"
+ mojave_area_name:0 "Mojave Desert"
+ utah_area:0 "Utah"
+ utah_area_adj:0 "Utah"
+ utah_area_name:0 "Utah"
+ sacramento_valley_area:0 "Sacramento Valley"
+ sacramento_valley_area_adj:0 "Sacramento Valley"
+ sacramento_valley_area_name:0 "Sacramento Valley"
+ great_basin_area:0 "Great Basin"
+ great_basin_area_adj:0 "Great Basin"
+ great_basin_area_name:0 "Great Basin"
+ lower_colorado_river_area:0 "Grand Canyon"
+ lower_colorado_river_area_adj:0 "Grand Canyon"
+ lower_colorado_river_area_name:0 "Grand Canyon"
+ lake_cahuilla_area:0 "Lake Cahuilla"
+ lake_cahuilla_area_adj:0 "Lake Cahuilla"
+ lake_cahuilla_area_name:0 "Lake Cahuilla"
+ californian_wastelands_area:0 "Californian Wastelands" #BT17 Added
+ 
+ ##Hudson Bay
+ kivalliq_area:0 "Kivalliq"
+ kivalliq_area_adj:0 "Kivalliq"
+ kivalliq_area_name:0 "Kivalliq"
+ qikiqtaaluk_area:0 "Baffin Island"
+ qikiqtaaluk_area_adj:0 "Baffin Islander"
+ qikiqtaaluk_area_name:0 "Baffin Island"
+ churchill_area:0 "Churchill"
+ churchill_area_adj:0 "Churchill"
+ churchill_area_name:0 "Churchill"
+ manitoba_area:0 "Manitoba"
+ manitoba_area_adj:0 "Manitoban"
+ manitoba_area_name:0 "Manitoba"
+ nunavut_area:0 "Keewatin"
+ nunavut_area_adj:0 "Keewatin"
+ nunavut_area_name:0 "Keewatin"
+ ungava_area:0 "Ungava"
+ ungava_area_adj:0 "Ungava"
+ ungava_area_name:0 "Ungava"
+ hudson_bay_wastelands_area:0 "Hudson Bay Wastelands"   #BT17 Added
+ 
+ ##Northwest Territories
+ northwest_territories_region:0 "Northwest Territories"
+ northwest_territories_region_adj:0 "Northwest Territories"
+ northwest_territories_region_name:0 "Northwest Territories"
+ deh_cho_area:0 "Upper Mackenzie"
+ deh_cho_area_adj:0 "Upper Mackenzie"
+ deh_cho_area_name:0 "Upper Mackenzie"
+ arctic_coast_area:0 "Lower Mackenzie"
+ arctic_coast_area_adj:0 "Lower Mackenzie"
+ arctic_coast_area_name:0 "Lower Mackenzie"
+ peace_river_area:0 "Peace River"
+ peace_river_area_adj:0 "Peace River"
+ peace_river_area_name:0 "Peace River"
+ the_barrens_area:0 "The Barrens"
+ the_barrens_area_adj:0 "The Barrens"
+ the_barrens_area_name:0 "The Barrens"
+ omenica_area:0 "Omenica"
+ omenica_area_adj:0 "Omenican"
+ omenica_area_name:0 "Omenica"
+ northwest_territories_wastelands_area:0 "Northwest Territories Wastelands" #BT17 Added
+ 
+ ##Alaska
+ alaska_region:0 "Alaska"
+ alaska_region_adj:0 "Alaskan"
+ alaska_region_name:0 "Alaska"
+ alaskan_coast_area:0 "Alaskan Coast"
+ alaskan_coast_area_adj:0 "Alaskan Coast"
+ alaskan_coast_area_name:0 "Alaskan Coast"
+ lower_yukon_area:0 "Lower Yukon"
+ lower_yukon_area_adj:0 "Lower Yukon"
+ lower_yukon_area_name:0 "Lower Yukon"
+ upper_yukon_area:0 "Upper Yukon"
+ upper_yukon_area_adj:0 "Upper Yukon"
+ upper_yukon_area_name:0 "Upper Yukon"
+ northern_alaska_area:0 "Northern Alaska"
+ northern_alaska_area_adj:0 "Northern Alaskan"
+ northern_alaska_area_name:0 "Northern Alaska"
+ beaufort_coast_area:0 "Beaufort Coast"
+ beaufort_coast_area_adj:0 "Beaufort Coast"
+ beaufort_coast_area_name:0 "Beaufort Coast"
+ southern_alaska_area:0 "Southern Alaska"
+ southern_alaska_area_adj:0 "Southern Alaskan"
+ southern_alaska_area_name:0 "Southern Alaska"
+ copper_river_valley_area:0 "Copper River"
+ copper_river_valley_area_adj:0 "Copper River"
+ copper_river_valley_area_name:0 "Copper River"
+ kuskokwim_area:0 "Kuskokwim"
+ kuskokwim_area_adj:0 "Kuskokwim"
+ kuskokwim_area_name:0 "Kuskokwim"
+ norton_sound_area:0 "Seward Peninsula"
+ norton_sound_area_adj:0 "Seward Peninsula"
+ norton_sound_area_name:0 "Seward Peninsula"
+ tanana_area:0 "Tanana"
+ tanana_area_adj:0 "Tananan"
+ tanana_area_name:0 "Tanana"
+ klondike_area:0 "Klondike"
+ klondike_area_adj:0 "Klondikean"
+ klondike_area_name:0 "Klondike"
+ alaskan_wastelands_area:0 "Alaskan Wastelands" #BT17 Added
+ 
+ ###Central America###
+ 
+ ##Mexico
+ #sinaloa_area:0 "Sinaloa"   #Cut and replaced by nayarit_area in BT14
+ #sinaloa_area_adj:0 "Sinaloa"
+ #sinaloa_area_name:0 "Sinaloa"
+ 
+ ##Central America
+ #No BT Localisation
+ 
+ ##Caribbean
+ leeward_antilles_area:0 "Leeward Antilles"
+ leeward_antilles_area_adj:0 "Leeward Antilles"
+ leeward_antilles_area_name:0 "Leeward Antilles"
+ southern_bahamas_area:0 "Southern Bahamas"
+ southern_bahamas_area_adj:0 "Southern Bahaman"
+ southern_bahamas_area_name:0 "Southern Bahamas"
+ virgin_islands_area:0 "Virgin Islands"
+ virgin_islands_area_adj:0 "Virgin Islands"
+ virgin_islands_area_name:0 "Virgin Islands"
+ 
+ ##################################
+ ######### South America ##########
+ ##################################
+ 
+ ###South America###
+ 
+ ##Brazil
+ brazilian_wastelands_area:0 "Brazilian Wastelands" #BT17 Added
+ 
+ ##Colombia
+ eastern_llanos:0 "Eastern Llanos"
+ eastern_llanos_adj:0 "Zarazan"
+ eastern_llanos_name:0 "Zaraza"
+ western_llanos:0 "Western Llanos"
+ western_llanos_adj:0 "Metan"
+ western_llanos_name:0 "Meta"
+ 
+ ###Andes###
+ 
+ ##La Plata
+ patagonian_andes:0 "Patagonian Andes"
+ patagonian_andes_adj:0 "Patagonian Andean"
+ patagonian_andes_name:0 "Patagonian Andes"
+ 
+ ##Upper Peru
+ upper_peru:0 "Upper Peru"
+ upper_peru_adj:0 "Potosian"
+ upper_peru_name:0 "Potosi"
+ 
+ ##Peru
+ peruan_coast:0 "Peruan Coast"
+ peruan_coast_adj:0 "Nazcan"
+ peruan_coast_name:0 "Nazca"
+ 
+ ##################################
+ ############ Oceania #############
+ ##################################
+ ###Oceania###
+ ##Southeastern Australia
+ upper_darling_plains_area:0 "Upper Darling Plain"  #BT16 Added
+ northern_tablelands_area:0 "Northern Tablelands"   #BT16 Added
+ southeast_highlands:0 "Southeast Highlands"        #BT16 Added
+ cape_howe_area:0 "Cape Howe"                       #BT16 Added
+ riverina_area:0 "Riverina"                         #BT16 Added
+ naracoorte_area:0 "Naracoorte"                     #BT16 Added
+ gulf_of_st_vincent_area:0 "Gulf of St. Vincent"    #BT16 Added
+ flinders_ranges_area:0 "Flinders Ranges"           #BT16 Added
+ eyre_peninsula_area:0 "Eyre Peninsula"             #BT16 Added
+ 
+ ##Northeastern Australia
+ northeastern_australia_region:0 "Northeastern Australia"   #BT16 Added
+ east_mitchell_downs_area:0 "East Mitchell Downs"           #BT16 Added
+ desert_uplands_area:0 "Desert Uplands"                     #BT16 Added
+ channel_country_area:0 "Channel Country"                   #BT16 Added
+ mulga_lands_area:0 "Mulgalands"                            #BT16 Added
+ gulf_country_area:0 "Gulf Country"                         #BT16 Added
+ einasleigh_area:0 "Einasleigh"                             #BT16 Added
+ coral_coast_area:0 "Coral Coast"                           #BT16 Added
+ northeastern_australian_wastelands_area:0 "Northeastern Australian Wastelands" #BT17 Added
+ 
+ ##Northern Australia
+ northern_australia_region:0 "Northern Australia"       #BT16 Added
+ arnhemland_area:0 "Arnhemland"                         #BT16 Added
+ carpentaria_area:0 "Carpentaria"                       #BT16 Added
+ west_mitchell_downs_area:0 "West Mitchell Downs"       #BT16 Added
+ deep_outback_area:0 "Deep Outback"                     #BT16 Added
+ great_victorian_plain_area:0 "Great Victorian Plain"   #BT16 Added
+ sturt_plateau_area:0 "Sturt Plateau"                   #BT16 Added
+ bonaparte_gulf_area:0 "Bonaparte Gulf"                 #BT16 Added
+ kimberley_area:0 "Kimberley"                           #BT16 Added
+ dampierland_area:0 "Dampierland"                       #BT16 Added
+ northern_australian_wastelands_area:0 "Northern Australian Wastelands" #BT17 Added
+ 
+ ##Western Australia
+ western_australia_region:0 "Western Australia"         #BT16 Added
+ stony_plains_area:0 "Stony Plains"                     #BT16 Added
+ nullarbor_area:0 "Nullarbor"                           #BT16 Added
+ great_victoria_desert_area:0 "Great Victoria Desert"   #BT16 Added
+ gascoyne_area:0 "Gascoyne"                             #BT16 Added
+ murchison_area:0 "Murchison"                           #BT16 Added
+ goldfields_area:0 "Goldfields"                         #BT16 Added
+ esperance_plains_area:0 "Esperance Plains"             #BT16 Added
+ avon_savanna_area:0 "Avon Savanna"                     #BT16 Added
+ rainbow_coast_area:0 "Rainbow Coast"                   #BT16 Added
+ western_australian_wastelands_area:0 "Western Australian Wastelands"   #BT17 Added
+ 
+ ##New Zealand
+ new_zealand_region:0 "New Zealand"
+ new_zealand_region_adj:0 "New Zealander"
+ new_zealand_region_name:0 "New Zealand"
+ murihiku_area:0 "Southland"
+ murihiku_area_adj:0 "Southlander"
+ murihiku_area_name:0 "Southland"
+ waitaha_area:0 "Canterbury"
+ waitaha_area_adj:0 "Canterburian"
+ waitaha_area_name:0 "Canterbury"
+ #tokerau_area:0 "Northland"    #Cut and replaced by te_ika_a_maui_hauauru_area in BT14
+ #tokerau_area_adj:0 "Northlander"
+ #tokerau_area_name:0 "Northland"
+ #tainui_area:0 "Waikato"   #Cut and replaced by te_ika_a_maui_waho_area in BT14
+ #tainui_area_adj:0 "Waikatoan"
+ #tainui_area_name:0 "Waikato"
+ heretaunga_area:0 "Eastland"
+ heretaunga_area_adj:0 "Eastlander"
+ heretaunga_area_name:0 "Eastland"
+ 
+ ##Oceanea
+ new_guinea_wastelands_area:0 "New Guinean Wastelands"  #BT17 Added
+ 
+ #Note that the following three ocean 'continent' level divisions do not exist in game, this is merely a way to sort them. The largest groupings are at the superregion level instead.
+ ##################################
+ ######### Pacific Ocean ##########
+ ##################################
+ ###East Pacific Ocean###
+ ##North East Pacific
+ #No BT Localisation
+ 
+ ##South East Pacific
+ #No BT Localisation
+ 
+ ##Pacific South America
+ #No BT Localisation
+    
+ ###West Pacific Ocean###
+ ##East China Sea
+ #No BT Localisation
+ 
+ ##North West Pacific
+ east_siberian_sea_area:0 "East Siberian Sea"
+ east_siberian_sea_area_name:0 "East Siberian Sea"
+ 
+ ##Western Arctic Sea
+ western_arctic_sea_region:0 "Western Arctic Sea"
+ western_arctic_sea_region_name:0 "Western Arctic Sea"
+ beaufort_sea_area:0 "Beaufort Sea"
+ beaufort_sea_area_name:0 "Beaufort Sea"
+ arctic_ocean_area:0 "Arctic Archipelago"
+ arctic_ocean_area_name:0 "Arctic Archipelago"
+ 
+ ##################################
+ ######### Atlantic Ocean #########
+ ##################################
+ ###West Atlantic Ocean###
+ ##Atlantic South America
+ #No BT Localisation
+ 
+ ##Caribbean Sea
+ #No BT Localisation
+ 
+ ##American East Coast
+ grand_banks_sea_area:0 "Grand Banks"
+ grand_banks_sea_area_name:0 "Grand Banks"
+ 
+ ##Eastern Arctic Sea
+ eastern_arctic_sea_region:0 "Eastern Arctic Sea"
+ eastern_arctic_sea_region_name:0 "Eastern Arctic Sea"
+ gulf_of_boothia_area:0 "Gulf of Boothia"
+ gulf_of_boothia_area_name:0 "Gulf of Boothia"
+ foxe_basin_area:0 "Foxe Basin"
+ foxe_basin_area_name:0 "Foxe Basin"
+ 
+ ##Hudson Bay
+ hudson_bay_sea_region:0 "Hudson Bay"
+ hudson_bay_sea_region_name:0 "Hudson Bay"
+ hudson_strait_area:0 "Hudson Strait"
+ hudson_strait_area_name:0 "Hudson Strait"
+ 
+ ##Labrador Sea
+ labrador_sea_region:0 "Labrador Sea"
+ labrador_sea_region_name:0 "Labrador Sea"
+ baffin_bay_area:0 "Baffin Bay"
+ baffin_bay_area_name:0 "Baffin Bay"
+ 
+ ###North Atlantic Ocean###
+ ##North Atlantic
+ true_north_atlantic_sea_area:0 "North Atlantic"
+ true_north_atlantic_sea_area_name:0 "North Atlantic"
+ 
+ ##Baltic Sea
+ #No BT Localisation
+    
+ ###Mediterranean Sea###
+ ##Mediterranean
+ #No BT Localisation
+    
+ ###East Atlantic Ocean###
+ ##West African Sea
+ #No BT Localisation
+ 
+ ##South Atlantic
+ #No BT Localisation
+ 
+ ##################################
+ ###########Indian Ocean###########
+ ##################################
+ 
+ ###Western Indian Ocean###
+ ##Western Indian Ocean
+ #No BT Localisation
+ 
+ ##Arabian Sea
+ #No BT Localisation
+    
+ ###Indian Ocean###     #Not sure why this superregion is called this, it includes stuff that isn't in the Indian ocean. In code it's even called indian_pacific, which does fit better... Not going to bother with it until a proper sea overhaul occurs. -Hadiros
+ ##Eastern Indian Ocean
+ #No BT Localisation
+ 
+ ##South Indian Ocean
+ #No BT Localisation
+ 
+ ##South China Sea
+ #No BT Localisation
+ 
+ ##South West Pacific
+ #No BT Localisation
+ 
+ ##################################
+ ########Debug Beyond Realm########
+ ##################################
+ ###Dev Error###
+ temp_area:0 "REPORT ERROR TO DEVELOPER"
+ temp_area_adj:0  "REPORT ERROR TO DEVELOPER"
+ temp_area_name:0  "REPORT ERROR TO DEVELOPER"
+ unused_region:0 "REPORT ERROR TO DEVELOPER REGION"
+ unused_region_adj:0 "REPORT ERROR TO DEVELOPER REGION"
+ unused_region_name:0 "REPORT ERROR TO DEVELOPER REGION"
+ unused_superrregion:0 "REPORT ERROR TO DEVELOPER SUPERREGION"
+ unused_superrregion_adj:0 "REPORT ERROR TO DEVELOPER SUPERREGION"
+ unused_superrregion_name:0 "REPORT ERROR TO DEVELOPER SUPERREGION"
+ unused_sea_area:0 "REPORT ERROR TO DEVELOPER SEA"
+ unused_sea_area_adj:0 "REPORT ERROR TO DEVELOPER SEA"
+ unused_sea_area_name:0 "REPORT ERROR TO DEVELOPER SEA"
+ unused_lake_area:0 "REPORT ERROR TO DEVELOPER LAKE"
+ unused_lake_area_adj:0 "REPORT ERROR TO DEVELOPER LAKE"
+ unused_lake_area_name:0 "REPORT ERROR TO DEVELOPER LAKE"
+ unused_wasteland_area:0 "REPORT ERROR TO DEVELOPER WASTELAND"
+ unused_wasteland_area_adj:0 "REPORT ERROR TO DEVELOPER WASTELAND"
+ unused_wasteland_area_name:0 "REPORT ERROR TO DEVELOPER WASTELAND"
+ unused_area:0 "REPORT ERROR TO DEVELOPER AREA"
+ unused_area_adj:0 "REPORT ERROR TO DEVELOPER AREA"
+ unused_area_name:0 "REPORT ERROR TO DEVELOPER AREA"
+ wasteland_area:0 "Wastelands"
+ lake_area:0 "Lakes"
+ 
+ ###Cut/Unsorted###
+ great_plains_wastelands_area:0 "Great Plains"
+ great_plains_wastelands_area_adj:0 "Great Plain"
+ great_plains_wastelands_area_name:0 "Great Plains"
+ balearic_islands_area:0 "Balearic Islands"
+ balearic_islands_area_adj:0 "Balearic"
+ balearic_islands_area_name:0 "Balearic Islands"
+ denesoline_area:0 "Denésoliné"
+ denesoline_area_adj:0 "Denésoliné"
+ denesoline_area_name:0 "Denésoliné"
+ east_hispaniola_area:0 "East Hispaniola"
+ east_hispaniola_area_adj:0 "East Hispaniolan"
+ east_hispaniola_area_name:0 "East Hispaniola"
+ high_atlas_area:0 "High Atlas"
+ high_atlas_area_adj:0 "High Atlasian"
+ high_atlas_area_name:0 "High Atlas"
+ kalisz_area:0 "Kalisz"
+ kalisz_area_adj:0 "Calisian"
+ kalisz_area_name:0 "Kalisz"
+ lucania_area:0 "Lucania"
+ lucania_area_adj:0 "Lucanian"
+ lucania_area_name:0 "Lucania"
+ north_karelia_area:0 "Ingria"
+ north_karelia_area_adj:0 "Ingrian"
+ north_karelia_area_name:0 "Ingria"
+ northern_rockies_area:0 "North Rockies"
+ northern_rockies_area_adj:0 "North Rockies"
+ northern_rockies_area_name:0 "North Rockies"
+ penobscot_area:0 "Penobscot Bay"
+ penobscot_area_adj:0 "Penobscot Bay"
+ penobscot_area_name:0 "Penobscot Bay"
+ san_francisco_area:0 "San Francisco Bay"
+ san_francisco_area_adj:0 "San Francisco Bay"
+ san_francisco_area_name:0 "San Francisco Bay"
+ southern_norway_area:0 "South Norway"
+ southern_norway_area_adj:0 "South Norwegian"
+ southern_norway_area_name:0 "South Norway"
+ trentino_area:0 "Trentino"
+ trentino_area_adj:0 "Trentini"
+ trentino_area_name:0 "Trentino"
+ tuamotus_area:0 "Tuamotus"
+ tuamotus_area_adj:0 "Tuamotus"
+ tuamotus_area_name:0 "Tuamotus"

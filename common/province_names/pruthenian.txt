@@ -1,24 +1,15 @@
-#RP, using acute accents for macrons, using nawaprusiskan reconstruction
+#Chairman Meow 11.5
 
 #Prussia
-40 = { "Mémeli" "Mémeli" }
-41 = { "Twánksta" "Twánksta" }
-42 = { "Kaílasgarbs" "Kaílasgarbs" }
-43 = { "Gudánits" "Gudánits" }
-767 = { "Luks" "Luks" }
-1841 = { "Drúsa" "Drúsa" }
-2958 = { "Austráti" "Austráti" }
-3224 = { "Stalappi" "Stalappi" }
-7829 = { "Kwédina" "Kwédina" }
-7830 = { "Lúbawa" "Lúbawa" }
-7831 = { "Skaítan" "Skaítan" }
-7832 = { "Ríns" "Ríns" }
-7833 = { "Skónewiks" "Skónewiks" }
-7834 = { "Nauwúzan" "Nauwúzan" }
-7835 = { "Wángrawa" "Wángrawa" }
-7836 = { "Spargi" "Spargi" }
-7837 = { "Rangáni" "Rangáni" }
-7862 = { "Bartanstabs" "Bartanstabs" }
-
-#Lihuania
-272 = { "Wilnis" "Wilnis" }
+41 = "Kunnegsgarbs"
+42 = "WÄrmi"
+767 = "Luks"
+1859 = "Kulma"
+2958 = "AustrÄti"
+3224 = "Stallupe"
+7829 = "KwÄ“dina"
+7830 = "LÅ«bawa"
+7832 = "Ryne"
+7834 = "Vurgava"
+7835 = "Angrapa"
+7836 = "Velowe"

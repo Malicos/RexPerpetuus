@@ -1,0 +1,2 @@
+capital = 4274
+add_government_reform = arabic_tribe_reform

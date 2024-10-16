@@ -1,0 +1,44 @@
+#TAZ - Tazeroualt
+
+#Political Situation
+capital = 9186
+
+#Government
+government_rank = 1
+government = tribal
+add_government_reform = tribal_federation
+
+#Demographics
+primary_culture = shilha
+religion = sunni
+religious_school = maliki_school
+
+#Tech and Military
+technology_group = muslim
+
+#History
+
+#(JP) Limited information here. Sidi Ahmed u Musa born around 1460 ruled from here. His dad was apparently also a Sidi Musa, so using him as ruler in 1444.
+1440.1.1 = {
+	monarch = {
+		name = "Sidi Musa"
+		dynasty = "al-Jazuli"
+		birth_date = 1430.1.1
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+
+1460.1.1 = {
+	heir = {
+		name = "Ahmed u Musa"
+		monarch_name = "Sidi Ahmed u Musa"
+		dynasty = "al-Jazuli"
+		birth_date = 1460.1.1
+		claim = 100
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}

@@ -2738,6 +2738,7 @@ mt_olympus = {
 			AND = {
 				culture_group = byzantine
 				has_owner_culture = yes
+				has_institution = enlightenment
 			}
 		}	
 	}
@@ -2760,6 +2761,7 @@ mt_olympus = {
 			AND = {
 				culture_group = byzantine
 				has_owner_culture = yes
+				has_institution = enlightenment
 			}
 		}	
 	}
@@ -2774,6 +2776,7 @@ mt_olympus = {
 			AND = {
 				culture_group = byzantine
 				has_owner_culture = yes
+				has_institution = enlightenment
 			}
 		}	
 	}
@@ -3870,6 +3873,7 @@ potala_palace = {
 
 	#can we build it?
 	build_trigger = {
+		has_reform = tibetan_dual_government_reform
 		OR = {		
 			AND = {
 				religion = buddhism
@@ -3896,6 +3900,7 @@ potala_palace = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		has_reform = tibetan_dual_government_reform
 		OR = {		
 			AND = {
 				religion = buddhism
@@ -3914,6 +3919,7 @@ potala_palace = {
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		has_reform = tibetan_dual_government_reform
 		OR = {		
 			AND = {
 				religion = buddhism
@@ -8848,9 +8854,8 @@ pont_du_gard = {		#Pont du Gard
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_development_cost = -0.15
-			local_build_cost = -0.15
-			local_production_efficiency = 0.5
+			local_governing_cost = -0.25
+			local_tax_modifier = 0.1
 			province_trade_power_modifier = 0.1
 		}
 
@@ -8864,6 +8869,23 @@ pont_du_gard = {		#Pont du Gard
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			add_base_tax = 2
+			owner = {
+				random_list = {
+					1 = {
+						add_estate_loyalty = {
+							estate = estate_church
+							loyalty = 10
+						}
+					}
+					1 = {
+						add_estate_loyalty = {
+							estate = estate_nobles
+							loyalty = 10
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -8880,14 +8902,14 @@ pont_du_gard = {		#Pont du Gard
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_build_cost = -0.25
+			local_governing_cost = -0.25
 			province_trade_power_modifier = 0.3
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_development_cost = -0.15
-			local_production_efficiency = 0.75
+			local_governing_cost = -0.1
+			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -8896,6 +8918,23 @@ pont_du_gard = {		#Pont du Gard
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			add_base_tax = 4
+			owner = {
+				random_list = {
+					1 = {
+						add_estate_loyalty = {
+							estate = estate_church
+							loyalty = 10
+						}
+					}
+					1 = {
+						add_estate_loyalty = {
+							estate = estate_nobles
+							loyalty = 10
+						}
+					}
+				}
+			}
 		}
 	}
 	tier_3 = {
@@ -8911,14 +8950,14 @@ pont_du_gard = {		#Pont du Gard
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_governing_cost = -0.25
 			province_trade_power_modifier = 0.5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_development_cost = -0.2
-			local_build_cost = -0.25
-			local_production_efficiency = 1
+			local_governing_cost = -0.1
+			local_tax_modifier = 0.15
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -8927,7 +8966,24 @@ pont_du_gard = {		#Pont du Gard
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			add_base_tax = 6
 			center_of_trade = 1
+			owner = {
+				random_list = {
+					1 = {
+						add_estate_loyalty = {
+							estate = estate_church
+							loyalty = 10
+						}
+					}
+					1 = {
+						add_estate_loyalty = {
+							estate = estate_nobles
+							loyalty = 10
+						}
+					}
+				}
+			}
 		}
 	}
 }

@@ -15,3 +15,213 @@ defined_text = {
 		}
 	}
 }
+
+#Monarch Point Buttons
+defined_text = {
+	name = extra_colonist_custom_loc
+	
+	text = {
+		localisation_key = extra_colonist_enable_button
+		trigger = {
+			NOT = { has_country_modifier = extra_colonist_button_mod }
+		}
+	}
+	text = {
+		localisation_key = extra_colonist_disable_button
+		trigger = {
+			has_country_modifier = extra_colonist_button_mod
+		}
+	}
+}
+defined_text = {
+	name = extra_diplomat_custom_loc
+	
+	text = {
+		localisation_key = extra_diplomat_enable_button
+		trigger = {
+			NOT = { has_country_modifier = extra_diplomat_button_mod }
+		}
+	}
+	text = {
+		localisation_key = extra_diplomat_disable_button
+		trigger = {
+			has_country_modifier = extra_diplomat_button_mod
+		}
+	}
+}
+defined_text = {
+	name = extra_merchant_custom_loc
+	
+	text = {
+		localisation_key = extra_merchant_enable_button
+		trigger = {
+			NOT = { has_country_modifier = extra_merchant_button_mod }
+		}
+	}
+	text = {
+		localisation_key = extra_merchant_disable_button
+		trigger = {
+			has_country_modifier = extra_merchant_button_mod
+		}
+	}
+}
+defined_text = {
+	name = extra_missionary_custom_loc
+	
+	text = {
+		localisation_key = extra_missionary_enable_button
+		trigger = {
+			NOT = { has_country_modifier = extra_missionary_button_mod }
+		}
+	}
+	text = {
+		localisation_key = extra_missionary_disable_button
+		trigger = {
+			has_country_modifier = extra_missionary_button_mod
+		}
+	}
+}
+defined_text = {
+	name = institution_spread_custom_loc
+	
+	text = {
+		localisation_key = institution_spread_enable_button
+		trigger = {
+			NOT = { has_country_modifier = institution_spread_button_mod }
+		}
+	}
+	text = {
+		localisation_key = institution_spread_disable_button
+		trigger = {
+			has_country_modifier = institution_spread_button_mod
+		}
+	}
+}
+defined_text = {
+	name = monthly_dev_points_custom_loc
+	
+	text = {
+		localisation_key = monthly_dev_points_enable_button
+		trigger = {
+			NOT = { has_country_modifier = monthly_dev_points_button_mod }
+		}
+	}
+	text = {
+		localisation_key = monthly_dev_points_disable_button
+		trigger = {
+			has_country_modifier = monthly_dev_points_button_mod
+		}
+	}
+}
+defined_text = {
+	name = reform_progress_growth_custom_loc
+	
+	text = {
+		localisation_key = reform_progress_growth_enable_button
+		trigger = {
+			NOT = { has_country_modifier = reform_progress_growth_button_mod }
+		}
+	}
+	text = {
+		localisation_key = reform_progress_growth_disable_button
+		trigger = {
+			has_country_modifier = reform_progress_growth_button_mod
+		}
+	}
+}
+defined_text = {
+	name = yearly_absolutism_custom_loc
+	
+	text = {
+		localisation_key = yearly_absolutism_enable_button
+		trigger = {
+			NOT = { has_country_modifier = yearly_absolutism_button_mod }
+		}
+	}
+	text = {
+		localisation_key = yearly_absolutism_disable_button
+		trigger = {
+			has_country_modifier = yearly_absolutism_button_mod
+		}
+	}
+}
+defined_text = {
+	name = yearly_army_professionalism_custom_loc
+	
+	text = {
+		localisation_key = yearly_army_professionalism_enable_button
+		trigger = {
+			NOT = { has_country_modifier = yearly_army_professionalism_button_mod }
+		}
+	}
+	text = {
+		localisation_key = yearly_army_professionalism_disable_button
+		trigger = {
+			has_country_modifier = yearly_army_professionalism_button_mod
+		}
+	}
+}
+defined_text = {
+	name = yearly_army_tradition_custom_loc
+	
+	text = {
+		localisation_key = yearly_army_tradition_enable_button
+		trigger = {
+			NOT = { has_country_modifier = yearly_army_tradition_button_mod }
+		}
+	}
+	text = {
+		localisation_key = yearly_army_tradition_disable_button
+		trigger = {
+			has_country_modifier = yearly_army_tradition_button_mod
+		}
+	}
+}
+defined_text = {
+	name = yearly_innovativeness_custom_loc
+	
+	text = {
+		localisation_key = yearly_innovativeness_enable_button
+		trigger = {
+			NOT = { has_country_modifier = yearly_innovativeness_button_mod }
+		}
+	}
+	text = {
+		localisation_key = yearly_innovativeness_disable_button
+		trigger = {
+			has_country_modifier = yearly_innovativeness_button_mod
+		}
+	}
+}
+
+defined_text = {
+	name = GetVodkaMonopolyName
+	
+	text = {
+		localisation_key = estate_nobles_vodka_monopolizer
+		trigger = {
+			has_estate_privilege = estate_nobles_monopoly_of_vodka
+		}
+	}
+	
+	text = {
+		localisation_key = estate_church_vodka_monopolizer
+		trigger = {
+			has_estate_privilege = estate_church_monopoly_of_vodka
+		}
+	}
+	
+	text = {
+		localisation_key = estate_burghers_vodka_monopolizer
+		trigger = {
+			has_estate_privilege = estate_burghers_monopoly_of_vodka
+		}
+	}
+	
+	text = {
+		localisation_key = estate_cossacks_vodka_monopolizer
+		trigger = {
+			has_estate_privilege = estate_cossacks_monopoly_of_vodka
+		}
+	}
+}

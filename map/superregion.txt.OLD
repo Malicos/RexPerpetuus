@@ -1,0 +1,187 @@
+# Brian
+# cleaned and ordered
+# for colours, see: common\region_colors\00_region_colors.txt
+
+# RNW superregion
+new_world_superregion = {}
+
+# Land / 14 superregions
+europe_superregion = {
+
+	restrict_charter		# harder to get TC here.
+	
+	neustria_region
+	austrasia_region
+	aquitaine_region
+	burgundy_region
+	iberia_region
+	italy_region
+	ireland_region # Brian; changed from _area
+	british_isles_region
+	nordurica_region
+	allemania_region
+	germania_region
+}
+eastern_europe_superregion = {
+
+	restrict_charter		# harder to get TC here.
+	
+	baltic_region
+	poland_region
+	ruthenia_region
+	crimea_region
+	russia_region
+	ural_region
+	balkan_region
+	illyria_region
+	carpathia_region
+}
+near_east_superregion = {
+
+	restrict_charter		# harder to get TC here.
+	
+	caucasia_region
+	anatolia_region
+	mashriq_region
+	mesopotamia_region
+	arabia_region
+}
+persia_superregion = {
+
+	restrict_charter		# harder to get TC here.
+	
+	persia_region
+	khorasan_region
+}
+tartary_superregion = {
+	central_asia_region
+	west_siberia_region
+	east_siberia_region
+	mongolia_region
+	manchuria_region
+}
+india_superregion = {
+	hindusthan_region
+	bengal_region
+	deccan_region
+	west_india_region
+	coromandel_region
+}
+far_east_superregion = {
+	korea_region
+	japan_region
+}
+china_superregion = {
+	tibet_region
+	north_china_region
+	south_china_region
+	xinan_region
+}
+east_indies_superregion = {
+	philippines_region
+	burma_region
+	indo_china_region
+	malaya_region
+	sumatran_region
+	indonesia_region
+	borneo_region
+	celebes_region
+	moluccas_region
+}
+africa_superregion = {
+	egypt_region
+	maghreb_region
+	guinea_region
+	niger_region
+	sahel_region
+	horn_of_africa_region
+}
+#BT14 re-added because vanilla uses it
+southern_africa_superregion = {
+	east_africa_region
+	central_africa_region
+	kongo_region
+	south_africa_region
+}
+north_america_superregion = {
+	northeast_america_region
+	canada_region
+	southeast_america_region
+	mississippi_region
+	great_lakes_region
+	rio_grande_region
+	great_plains_region
+	cascadia_region
+	california_region
+	hudson_bay_region
+	northwest_territories_region
+	alaska_region
+}
+central_america_superregion = {
+	mexico_region
+	central_america_region
+	carribeans_region
+}
+south_america_superregion = {
+	brazil_region
+	colombia_region
+}
+#BT14 re-added because vanilla uses it
+andes_superregion = {
+	la_plata_region
+	upper_peru_region
+	peru_region
+}
+oceania_superregion = {
+	australia_region
+	northeastern_australia_region #BT
+	northern_australia_region #BT
+	western_australia_region #BT
+	new_zealand_region
+	oceanea_region
+}
+
+# Sea / 8 superregions
+west_american_sea_superregion = {
+	north_east_pacific_region
+	south_east_pacific_region
+	pacific_south_america_region
+}
+east_american_sea_superregion = {
+	atlantic_south_america_region
+	caribbean_sea_region
+	american_east_coast_region
+	eastern_arctic_sea_region
+	hudson_bay_sea_region
+	labrador_sea_region
+}
+north_european_sea_superregion = {
+	north_atlantic_region
+	baltic_sea_region
+}
+south_european_sea_superregion = {
+	mediterrenean_region
+}
+west_african_sea_superregion = {
+	west_african_sea_region
+	south_atlantic_region
+}
+east_african_sea_superregion = {
+	west_indian_ocean_region
+	arabian_sea_region
+}
+indian_pacific_sea_superregion = {
+	east_indian_ocean_region
+	south_indian_ocean_region
+	south_china_sea_region
+	south_west_pacific_region
+}
+north_pacific_sea_superregion = {
+	east_china_sea_region
+	north_west_pacific_region
+	western_arctic_sea_region
+}
+
+unused_superregion = {
+	unused_region
+}

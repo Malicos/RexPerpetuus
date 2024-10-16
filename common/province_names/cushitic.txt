@@ -132,7 +132,7 @@
 8896 = { "Kunama" "Magalo" } #(JP) Base Names
 8897 = { "Teseney" "Teseney" } #(JP) Base Names
 8898 = { "Hedareb" "Kerkebet" } #(JP) Base Names
-8899 = { "Nakfa" "Nakfa" } #(JP) Base Names
+8899 = { "Habab" "Nakfa" } #(JP) Base Names
 
 #East Africa
 2774 = { "Kismaayo" "Kismaayo" }

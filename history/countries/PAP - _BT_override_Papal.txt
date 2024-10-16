@@ -1,0 +1,4 @@
+
+set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.
+add_accepted_culture = aquitaine	
+historical_friend = NAP	#BT added to show friendship between alfonds and papal

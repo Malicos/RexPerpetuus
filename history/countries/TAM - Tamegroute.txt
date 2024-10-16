@@ -1,0 +1,28 @@
+#TAM - Tamegroute
+
+#Political Situation
+capital = 2460
+
+#Government
+government_rank = 1
+government = theocracy
+add_government_reform = leading_clergy_reform
+
+#Demographics
+primary_culture = shilha
+religion = sunni
+religious_school = maliki_school
+
+#Tech and Military
+technology_group = muslim
+
+#History
+1444.11.11 = {
+	monarch = {
+		name = "Tribal Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

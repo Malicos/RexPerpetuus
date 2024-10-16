@@ -1,0 +1,20 @@
+#(JP) Kordofanian Group. Contains both the Heiban and Tegali cultures
+#(JP) Likely with minimal names, but its a primary culture group
+
+#Nubia
+1216 = { "Kadugli" "Kadugli" } #(JP) Base Names
+1221 = { "El-Obeid" "El-Obeid" } #(JP) Base Names
+5286 = { "Barah" "Barah" } #(JP) Base Names
+9029 = { "Tegale" "Al-Abbasiyah" } #(JP) Base Names
+9031 = { "Umm Ruwaba" "Umm Ruwaba" } #(JP) Base Names
+9032 = { "Kadaru" "Jabal Kadaru" } #(JP) Base Names, capital is a stopgap
+9033 = { "Kwalib" "Abri" } #(JP) "Kwalib" is what the Koalib call themselves, capital is a stopgap
+9034 = { "Tiro" "Abu Jubaiyah" } #(JP) Base Names
+9035 = { "Werni" "Kau" } #(JP) "Werni is what the Warnang call themselves, capital is a stopgap
+9036 = { "Tumtum" "Dallas" } #(JP) Base Names, capital is a stopgap
+9037 = { "Jomang" "Jomang" } #(JP) "Jomang" is what the "Talodi" call themselves
+9038 = { "Uncunwee" "Kuli" } #(JP) "Uncunwee" is what the "Ghulfan" call themselves, capital is a stopgap
+9039 = { "Warki" "Warki" } #(JP) What the Dilling people call themselves
+9040 = { "Kakenbi" "El Fula" } #(JP) "Kakenbi" is what the "Karko" call themselves
+9041 = { "Kayikang" "Ambong" } #(JP) "Kayikang" is what the "Keigo" call themselves
+9044 = { "En-Nahud" "En-Nahud" } #(JP) Base Names

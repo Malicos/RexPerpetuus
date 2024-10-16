@@ -11,20 +11,16 @@
 2308 = { "Urhay" "Urhay" } #rn is Urhoy
 2309 = { "Shingar" "Shingar" } #not on the wiki list
 2310 = { "Tagrit" "Tagrit" } #not on the wiki list
-2314 = { "Dira Zeurta" "Dira Zeurta" } #(JP) "Deir ez-Zor"
+2134 = { "Audattha" "Audattha" }
 4292 = { "Merda" "Merda" } #rn is Merdô
 4295 = { "Hesno d-Kifo" "Hesno d-Kifo" } #not on the wiki list
 4298 = { "Ayindab" "Ayindab" }
-5293 = { "Resh Ayna" "Resh Ayna" } #not on the wiki list
 5295 = { "Gazarta" "Gazarta" } #rn is Gzira, Gazarta d-Kardu
 5296 = { "Nsibin" "Nsibin" } #Nasibina
 5331 = { "Si-Reth" "Si-Reth" } #not on the wiki list
-6089 = { "Audattha" "Audattha" }
 6091 = { "Meskene" "Meskene" } #(JP) "Maskanah"
-6092 = { "Mabog" "Mabog" }
 
 #Levant
-365 = { "Raithu" "Raithu" }
 377 = { "Halba" "Halba" }
 378 = { "Tra'ara" "Tra'ara" }
 379 = { "Urislem" "Urislem" }
@@ -38,18 +34,14 @@
 4298 = { "Ayin Debo" "Ayin Debo" } #not on the wiki list
 5180 = { "Gaza" "Gaza" }
 5205 = { "Biruta" "Biruta" }
-6065 = { "Sinay" "Mar Katrine" }
-6067 = { "Piladelpia" "Piladelpia" } #(JP) "Amman"
-6070 = { "Saliq" "Saliq" }
+365 = { "Sinay" "Mar Katrine" }
 6071 = { "Beersheba" "Beersheba" }
 6074 = { "Sur" "Sur" }
 6075 = { "Saydun" "Saydun" }
 6077 = { "Kurmajit" "Kurmajit" }
-6082 = { "Suada" "Suada" } #(JP) "As-Suwayda"
 6084 = { "Malula" "Malula" }
 6086 = { "Hamat" "Hamat" }
 6088 = { "Sikne" "Sikne" }
-6093 = { "Hazazu" "Hazazu" } #(JP) "Aziz"
 6094 = { "Aleksandrette" "Aleksandrette" }
 6095 = { "Kilizi" "Kilizi" }
 
@@ -69,7 +61,9 @@
 6020 = { "Lustra" "Lustra" } #
 6025 = { "Tarsos" "Tarsos" } #
 
-#persia
+#Caucasia
+
+#Persia
 415 = { "Arrapha" "Arrapha" } #
 429 = { "Ispahan" "Ispahan" } #
 2206 = { "Urmia" "Urmia" } #
@@ -77,15 +71,16 @@
 4290 = { "Bet Hozayeh" "Hozayeh" } #
 4293 = { "Arbela" "Arbela" } #
 
-#arabia
+#Arabia
 395 = { "Bet Qatraye" "Zubara" } #same as current name
 
-#egypt
+#Egypt
 358 = { "Aleksandria" "Aleksandria" } #
 
-#maghreb
+#Eastern Maghreb
 357 = { "Qurine" "Qurine" } #same as current name
+4317 = { "Temenkhur" "Temenkhur" }
 
-#balkans
+#Balkans
 148 = { "Tesaloniqe" "Tesaloniqe" } #
 320 = { "Rodos" "Rodos" } #

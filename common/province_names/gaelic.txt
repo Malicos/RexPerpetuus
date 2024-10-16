@@ -3,39 +3,93 @@
 #(JP) I have reorganised and cleaned up all the prior Irish/Gaelic naming to try and make it more legible, consistant and keep it easier to edit in future
 #(JP) I make absolutely 0 claim to speak, understand, or even comprehend celtic languages. Please correct me when I am wrong!
 
-#England
+#Britain
+233 = { "An Chorn" "Truru" } #(JP) Brythonic Capital Name
+234 = { "Hampshire" "Winchester" } #(JP) Base Names, also contains "Portsmouth" and "Southampton"
+235 = { "Ciumhais" "Canterbury" } #(JP) Base Capital Name
+236 = { "Londain" "Londain" }
+237 = { "Áth na nDamh" "Áth na nDamh" }
+238 = { "Oirsasana" "Chelmsford" } #(JP) Base Capital Name
+239 = { "Briostó" "Briostó" }
 
-#Wales
-
-#Scotland
+240 = { "Shropshire" "Salisbury" }
+241 = { "Glamorgan" "Cardiff" }
+242 = { "Caernarvon" "Caernarvon" }
+243 = { "Lincoln" "Lincoln" }
+244 = { "Lancashire" "Lancaster" } #(JP) Later "Manchester", "Salford", "Liverpool" or "Preston"
+245 = { "York" "York" }
+246 = { "Northumberland" "Alnwick" } #(JP) Later "Newcastle upon Tyne"
+247 = { "Cumberland" "Carlisle" }
 248 = { "Lodain" "Dún Éideann" }
 249 = { "Inbhear Áir" "Inbhear Áir" }
 250 = { "Peairt" "Peairt" }
 251 = { "Obar Dheathain" "Obar Dheathain" }
 252 = { "Inbhear Nís" "Inbhear Nís" }
 253 = { "Inse Ghall" "Steòrnabhagh" }
+1860 = { "Norfolk" "Norwich" }
+1861 = { "Derby" "Derby" }
 3008 = { "Gallghaeilibh" "Baile na h-Úige" }
 3019 = { "Srath Chluaidh" "Glasgu" } #(JP) Later "Glasgow" 
+3028 = { "Suffolk" "Ipswich" }
+3034 = { "Brecon" "Brecon" }
+3036 = { "Cardigan" "Cardigan" }
 3137 = { "Ros" "Inbhear Pheofharain" }
 3138 = { "Ath Fhodla" "Blàr Ath Fhodla" }
-3139 = { "Aonghais" "Baile Fharfair" }
-4110 = { "Gallaibh" "Inbhir Úige" }
-4361 = { "Rosbróg" "Rosbróg" } #(JP) Earlier "Roxburgh" for capital
-4362 = { "Dún Phris" "Dún Phris" }
-4363 = { "Earraghael" "An Tairbeart" }
-4364 = { "Na hOileáin Laistigh" "Finlaggan" }
-4365 = { "Manainn" "Baile Chaistil" }
-8145 = { "Srath Thuaidh" "Na Púballan" } #(JP) Capital could also be "Selkirk"
-8146 = { "Na Dúintean" "Na Dúintean" }
-8147 = { "Leamhnachd" "Dún Bhreatain" }
-8148 = { "Sruighlea" "Sruighlea" }
-8149 = { "Srath Oireáin" "Craoibh" }
-8150 = { "Fíobha" "Cubar" }
-8151 = { "Ceann Chàrdainn" "Ceann Chàrdainn" }
-8152 = { "Banbh" "Banbh" }
-8153 = { "Cataibh" "Dórnach" }
-8154 = { "Latharn" "An tÓban" }
-8155 = { "Loch Abar" "Inbhir Lochaidh" }
+3139 = { "Angus" "Forfar" }
+4110 = { "Caithness" "Wick" }
+4130 = { "Somerset" "Taunton" }
+4361 = { "Teviotdale" "Jedburgh" } #(JP) Earlier "Roxburgh" for capital
+4362 = { "Dumfries" "Dumfries" }
+4363 = { "Argyle" "Tarbert" }
+4364 = { "Inner Hebrides" "Finlaggan" }
+4365 = { "Mann" "Castletown" }
+4366 = { "Montgomery" "Montgomery" }
+4367 = { "Hull" "Kingston upon Hull" }
+4368 = { "Durham" "Durham" }
+4369 = { "Pembroke" "Pembroke" }
+4370 = { "Cambridge" "Cambridge" }
+4371 = { "Sussex" "Chichester" }
+4372 = { "Worcester" "Worcester" }
+4373 = { "South Devon" "Exeter" }
+4374 = { "Dorset" "Dorchester" }
+4375 = { "Cheshire" "Chester" }
+4376 = { "Leicester" "Leicester" }
+4785 = { "Sheffield" "Sheffield" }
+8122 = { "North Devon" "Barnstaple" }
+8123 = { "Surrey" "Guildford" }
+8124 = { "Berkshire" "Abingdon" }
+8125 = { "Buckingham" "Buckingham" }
+8126 = { "Northampton" "Northampton" }
+8127 = { "Bedford" "Bedford" }
+8128 = { "Warwick" "Warwick" } #(JP) Later "Birmingham" or "Coventry" 
+8129 = { "Hereford" "Hereford" }
+8130 = { "Stafford" "Stafford" } #(JP) Later "Stoke-on-Trent"
+8131 = { "Nottingham" "Nottingham" }
+8133 = { "Skipton" "Skipton" }
+8134 = { "Richmond" "Richmond" }
+8135 = { "Westmoreland" "Appleby" }
+8136 = { "Tynedale" "Hexham" }
+8137 = { "Berwick" "Berwick-upon-Tweed" }
+8138 = { "Anglesey" "Holyhead" } #(JP) Welsh capital is "Aberffraw" 
+8139 = { "Flint" "Flint" }
+8140 = { "Denbigh" "Denbigh" }
+8141 = { "Merioneth" "Dolgelley" }
+8142 = { "Radnor" "Radnor" }
+8143 = { "Carmarthen" "Carmarthen" }
+8144 = { "Monmouth" "Monmouth" }
+8145 = { "Tweeddale" "Peebles" } #(JP) Capital could also be "Selkirk"
+8146 = { "The Merse" "Greenlaw" }
+8147 = { "Lennox" "Dumbarton" }
+8148 = { "Stirling" "Stirling" }
+8149 = { "Strathearn" "Crieff" }
+8150 = { "Fife" "Cupar" }
+8151 = { "Kincardine" "Kincardine" }
+8152 = { "Banff" "Banff" }
+8153 = { "Sutherland" "Dornoch" }
+8154 = { "Lorne" "Oban" }
+8155 = { "Lochaber" "Inverlochy" }
+8170 = { "Wiltshire" "Salisbury" }
+
 
 #Ireland
 372 = { "Tír Eoghain" "Dún Geanainn" }
@@ -75,9 +129,6 @@
 1978 = { "Inse Catt" "Liúrabhaig" }
 1979 = { "Na Scigirí" "Túrshabhn" }
 
-
-
-
 #Breizh
 4384 = "Ruamhson"
 170 = "Léon"
@@ -95,16 +146,9 @@
 3036 = "Cereaduigion"
 
 #Kernow
-233 = "An Chorn"			#Scottish 'A' Chorn'
 4373 = "Deabhon"
 
 #Gaelic England - Mostly made up by Draiocht, with a few actually real names
-234 = "Iarsasana"			#Wessex
-235 = "Ciumhais"			#Kent, modern Irish cognate from original Celtic root that gave proto-Brythonic Cantus then English Kent
-236 = "Londain"			#London
-237 = "Áth na nDamh"			#Oxford
-238 = "Oirsasana"			#Essex
-239 = "Briostó"			#Gloucester
 240 = "Dún na nDallóg"			#Marches, literal translation of Shrewsbury... awesome =D
 243 = "Dubh Linn"			#Lincoln, possible/likely etymology of Lincoln is the same as Dublin, and Dublin uses MI's BAC
 244 = "Dún na Luine"			#Lancaster, literal translation (Lune Fort)
@@ -169,7 +213,7 @@
 1008 = "Winnipeg" # Winipek									#Generic name
 1009 = "Fort Alexander" # Wanipigow					#Francophone name by Anglophone
 1010 = "Manitoba" # Manidoobaa							#Generic name
-4939 = "Red Deer" # Waskasoo Seepee						#Anglophone name
+5939 = "Red Deer" # Waskasoo Seepee						#Anglophone name
 1806 = "Island Lake" # Wasagamack							#Anglophone name
 1808 = "Humboldt" # Mahaguaduka							#Germanic name used by Anglophone problem would another name be better
 1810 = "Kuskokwim" # Deg Hitan							#Generic name
@@ -225,27 +269,27 @@
 2620 = "Tijuana" # Kumeyaay									#Iberian name used by Anglophone
 
 #BT200 New Provinces
-4920 = "Aleut" # Aleut East										#Generic name
-4921 = "Naknek" # Naugeik										#Generic name
-4922 = "Dilingham" # Curyuk									#Anglophone name
-4923 = "Bethel" # Mamterilleq									#Christian name used by Anglophone
-4924 = "Unalakleet" # Unalaqliq								#Generic name
-4925 = "Nome" # Chinik											#Anglophone name
-4926 = "Kenai" # Kena												#Generic name
-4927 = "Valdez" # Suacit											#Iberian name used by Anglophone
-4928 = "Galena" # Koyukuk										#Slavic name used by Anglophone
-4929 = "Tanana" # Nuchalawoyyet							#Generic name
-4930 = "Allakaket" # Allakaket									#Generic name
-4931 = "Fairbanks" # Chena										#Anglophone name
-4932 = "Beaver" # Denyeet										#Anglophone name
-4933 = "Fort Yukon" # Gwichin								#Anglophone name
-4934 = "Eagle" # Han Hwechin									#Anglophone name
-4935 = "Tanacross" # Taatsaltey								#Anglophone name
-4936 = "Ahtna" # Ahtna											#Generic name
-4937 = "Dawson" # Trochek Hwechin						#Anglophone name
-4938 = "Whitehorse" # Dan										#Anglophone name
-4940 = "Fort Victoria" # Snuneymuxw						#Anglophone name
-4941 = "Kitimat" # Xaislakala									#Generic name
+5920 = "Aleut" # Aleut East										#Generic name
+5921 = "Naknek" # Naugeik										#Generic name
+5922 = "Dilingham" # Curyuk									#Anglophone name
+5923 = "Bethel" # Mamterilleq									#Christian name used by Anglophone
+5924 = "Unalakleet" # Unalaqliq								#Generic name
+5925 = "Nome" # Chinik											#Anglophone name
+5926 = "Kenai" # Kena												#Generic name
+5927 = "Valdez" # Suacit											#Iberian name used by Anglophone
+5928 = "Galena" # Koyukuk										#Slavic name used by Anglophone
+5929 = "Tanana" # Nuchalawoyyet							#Generic name
+5930 = "Allakaket" # Allakaket									#Generic name
+5931 = "Fairbanks" # Chena										#Anglophone name
+5932 = "Beaver" # Denyeet										#Anglophone name
+5933 = "Fort Yukon" # Gwichin								#Anglophone name
+5934 = "Eagle" # Han Hwechin									#Anglophone name
+5935 = "Tanacross" # Taatsaltey								#Anglophone name
+5936 = "Ahtna" # Ahtna											#Generic name
+5937 = "Dawson" # Trochek Hwechin						#Anglophone name
+5938 = "Whitehorse" # Dan										#Anglophone name
+5940 = "Fort Victoria" # Snuneymuxw						#Anglophone name
+5941 = "Kitimat" # Xaislakala									#Generic name
 4942 = "Tillamook" # Nehalem									#Generic name
 4943 = "Bulkley" # Nataotin										#Anglophone name
 4944 = "Nechako" # Netsha Koh								#Generic name
@@ -348,7 +392,7 @@
 985 = "Moncton"	# Micmac									#Anglophone name
 986 = "New Richmond"	# Kespek							#Anglophone name
 987 = "Niagara" # Niagara											#Native name 
-988 = "London" # Huron											#Anglophone name
+988 = "Windsor" # Huron											#Anglophone name
 989 = "Kingston" # Ontario										#Anglophone name 
 990 = "Mauricie"	# Kwedech									#Francophone name 
 991 = "Renfrew" # Ottawa										#Anglophone name

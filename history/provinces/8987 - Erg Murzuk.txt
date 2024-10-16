@@ -1,0 +1,4 @@
+#8987 - Erg Murzuk
+
+discovered_by = sub_saharan
+discovered_by = muslim

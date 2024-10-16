@@ -1110,6 +1110,7 @@ tribal = {
 				#BT
 				somali_clan_reform
 				arabic_tribe_reform
+				saharan_tribe_reform
 			}
 		}
 		tribal_cultural_values = {

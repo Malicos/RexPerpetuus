@@ -10,7 +10,6 @@
 4709 = { "Pasov" "Pasov" }
 4724 = { "Chrudim" "Chrudim" }
 4726 = { "Prerov" "Prerov" }
-8454 = { "Novy Hrad" "Novy Hrad" } 		#Translated from German for RP
 8459 = { "Kouba" "Kouba" }
 8470 = { "Vitoraz" "Vitoraz" }
 8471 = { "Bejdov" "Bejdov" }
@@ -41,7 +40,6 @@
 #Poland
 263 = { "Ratibor" "Ratibor" }
 264 = { "Vratislav" "Vratislav" }
-257 = { "Hoclav" "Hoclav" }	# RP
 2966 = { "Hlohov" "Hlohov" }
 3142 = { "Opava" "Opava" }
 4238 = { "Lehnice" "Lehnice" }
@@ -71,7 +69,7 @@
 1318 = { "Spis" "Levoca" }
 1772 = { "Prespurk" "Prespurk" }
 3051 = { "Zelezné Mesto" "Zelezné Mesto" }
-3146 = { "Uh" "Užhorod" }
+3146 = { "Uh" "Uzhorod" }
 3148 = { "Solnok" "Solnok" } #(JP) Slovak
 4125 = { "Heves" "Jager" }
 4236 = { "Trencín" "Trencín" }
@@ -94,6 +92,9 @@
 
 #Balkans
 8187 = { "Daruvar" "Daruvar" }
+
+#Britain
+236 = { "Londýn" "Londýn" }
 
 #Ruthenia (Galicia-Volhynia)
 261 = { "Halych" "Halych" }
@@ -268,7 +269,6 @@
 209 = "Biskajsko"
 220 = "Valencie"
 227 = "Lisabon"
-236 = "Londýn"
 
 253 = "Zapadní ostrovy"
 255 = "Kalis"
@@ -294,11 +294,11 @@
 320 = "Rhodos"
 321 = "Kypr"
 #333 = "Baleáry"			#BT Removed
-334 = "Tanger"
-344 = "Marrakés"
-358 = "Alexandrie"
-361 = "Káhira"
-365 = "Sinaj"
+334 = { "Tanger" "Tanger" }
+344 = { "Marrakés" "Marrakés" }
+358 = { "Alexandrie" "Alexandrie" }
+361 = { "Káhira" "Káhira" }
+365 = { "Sinaj" "Svaté Kateriny" }
 366 = "Kanáry"
 367 = "Azory"
 369 = "Orkneje"
@@ -397,7 +397,7 @@
 1744 = "Antverpy"
 1745 = "Kantabrie"
 1752 = "Rzev"
-1759 = "Jutribok" # RP Altname
+1759 = "Postupim"
 1760 = "Koblenc"
 1761 = "Falc"
 1765 = "Sofie"
@@ -480,7 +480,7 @@
 
 2313 = "Antiochie"
 
-2954 = "Dzerba"
+2954 = { "Dzerba" "Dzerba" }
 2956 = "Strubina"
 2957 = "Rezno"
 2958 = "Ostroda"

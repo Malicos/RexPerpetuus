@@ -1,0 +1,3 @@
+capital = 1213
+religion = coptic
+add_accepted_culture = argobba

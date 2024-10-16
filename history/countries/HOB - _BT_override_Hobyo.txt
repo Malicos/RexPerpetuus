@@ -1,0 +1,4 @@
+primary_culture = hawiye
+government = tribal
+add_government_reform = somali_clan_reform
+add_government_reform = non_sedentary_clan_settle_down_reform

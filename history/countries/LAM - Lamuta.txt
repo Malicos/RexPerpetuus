@@ -1,0 +1,28 @@
+#LAM - Lamunta
+
+#Political Situation
+capital = 9164
+
+#Government
+government_rank = 1
+government = tribal
+add_government_reform = saharan_tribe_reform
+
+#Demographics
+primary_culture = zenaga_berber
+religion = sunni
+religious_school = maliki_school
+
+#Tech and Military
+technology_group = muslim
+
+#History
+1444.11.11 = {
+	monarch = {
+		name = "Tribal Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

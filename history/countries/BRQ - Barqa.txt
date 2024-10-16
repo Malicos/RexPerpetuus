@@ -1,0 +1,17 @@
+#BRQ - Barqa
+
+#Political Situation
+capital = 356
+
+#Government
+government_rank = 1
+government = monarchy
+add_government_reform = barbary_sultanate_reform
+
+#Demographics
+primary_culture = libyan_arabic
+religion = sunni
+religious_school = maliki_school
+
+#Tech and Military
+technology_group = muslim

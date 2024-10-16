@@ -1,39 +1,214 @@
+#Contributions from primarily from Arga
+#(JP) Coptic Egyptian Group, primarily using more modern and medieval spellings and grammatical rules
+
 #Egypt
-356 = { "Berenike" "Berenike" } #
-358 = { "Rakodi" "Rakodi" } #
-359 = { "Phiom" "Phiom" } #
-361 = { "Kashromi" "Kashromi" } #
-362 = { "Rashit" "Rashit" } #
-363 = { "Beremun" "Beremun" } #
-1228 = { "Dongola" "Dongola" } #
-1231 = { "Souan" "Souan" } #
-1233 = { "Hib" "Hib" } #
-1234 = { "Prim" "Prim" } #
-2315 = { "Klousma" "Klousma" } #
-2316 = { "Tantato" "Tantato" } #
-2317 = { "Thmone" "Thmone" } #
-2319 = { "Sioout" "Sioout" } #
-2326 = { "Antipurgos" "Antipurgos" } #
-4317 = { "Timinhor" "Timinhor" } #
-4318 = { "Tpeh" "Tpeh" } #
-4319 = { "Ne" "Ne" } #
-4320 = { "Tin" "Tin" } #
-4323 = { "Ethikhoun" "Mut" } #
-5261 = { "Tamiat" "Tamiat" } #
-5264 = { "Tipersioi" "Tipersioi" } #Me-Nefer, Memfi for Memphis
-5267 = { "Panisuf" "Panisuf" } #Pemdje
-5271 = { "Sheheri" "Sheheri" } #attempted adaptation of Ancient Egyptian š?s ?rt
-5272 = { "Paraetnion" "Paraetnion" } #
-5273 = { "Ammoniake" "Ammoniake" } #
-5281 = { "Arme" "Arme" } #
+358 = { "Rakoti" "Rakoti" }
+359 = { "Phiom" "Phiom" }
+360 = { "Kôs" "Kôs" }
+361 = { "Keshrômi" "Keshrômi" } #(JP) 13th Century "Tikešromi", more modern "Khairon". "Lioui" and "Elioui" from Greek "Heliopolis". "Kahire", "Kairon", or "Kahira" for more modern representations of "Cairo" #(Chrys) Coptic incubator wikipedia seems to prefer Tikešromi
+362 = { "Tirashit" "Tirashit" }
+363 = { "Paramoun" "Paramoun" }
+365 = { "Sina" "Sant Kattrin" }
+1231 = { "Souan" "Souan" }
+1233 = { "Tiouah Enhib" "Tiouah Enhib" }
+2315 = { "Piklusma" "Piklusma" }
+2316 = { "Tandata" "Tandata" }
+2317 = { "Thmônê" "Thmônê" }
+2318 = { "Tiouah Mpemje" "Pauêt" }
+2319 = { "Siôout" "Siôout" }
+2320 = { "Taphe Nement" "Taphe Nement" }
+2321 = { "Musormos" "Musormos" }
+2325 = { "Nimêini" "Nimêini" } #(Chrys) https://incubator.wikimedia.org/wiki/Wp/cop/%CF%AE%E2%B2%A1%E2%B2%81%E2%B2%A3%E2%B2%81%E2%B2%A7%E2%B2%9F%E2%B2%9B%E2%B2%93%E2%B2%9F%E2%B2%9B_%E2%B2%A1%E2%B2%93%E2%B2%91%E2%B2%B1%CF%A3
+4268 = { "Alakapi" "Alakapi" } #(Chrys) https://incubator.wikimedia.org/wiki/Wp/cop/%E2%B2%93%E2%B2%9F%E2%B2%A3%E2%B2%87%E2%B2%81%E2%B2%9B%E2%B2%8F%E2%B2%A5
+4316 = { "Pshtemêr" "Pshtemêr" } #(Chrys) https://incubator.wikimedia.org/wiki/Wp/cop/%E2%B2%A1%CF%A3%E2%B2%A7%E2%B2%89%E2%B2%99%E2%B2%8F%E2%B2%A3
+4317 = { "Ptiminhôr" "Ptiminhôr" }
+4318 = { "Tpêh" "Tpêh" }
+4319 = { "Pape" "Pape" }
+4320 = { "Tarje" "Tarje" }
+4323 = { "Môth" "Môth" } #(Chrys) https://incubator.wikimedia.org/wiki/Wp/cop/%CF%A7%E2%B2%89%E2%B2%97%E2%B2%97%E2%B2%9F%E2%B2%A7_%60%E2%B2%99%E2%B2%83%E2%B2%89%E2%B2%A3%E2%B2%93_(%E2%B2%91%E2%B2%B1%CF%A3)
+5181 = { "Nakhl" "Nakhl" }
+5261 = { "Tamiati" "Tamiati" }
+5264 = { "Tipersis" "Tipersis" }
+5267 = { "Pimampisôouah" "Pimampisôouah" }
+5272 = { "Tiparatonion" "Tiparatonion" }
+5273 = { "Siouah" "Siouah" }
+9076 = { "Shihêt" "Shihêt" }
+9077 = { "Sanê" "Sanê" }
+9078 = { "Phelbes" "Phelbes" }
+9079 = { "Sant Antonios" "Sant Antonios" }
+9080 = { "Tsemoulot" "Tsemoulot" }
+9081 = { "Kôskam" "Kôskam" } #(Chrys) https://incubator.wikimedia.org/wiki/Wp/cop/%E2%B2%A5%E2%B2%93%E2%B2%B1%E2%B2%9F%E2%B2%A9%E2%B2%A7_(%E2%B2%91%E2%B2%B1%CF%A3)
+9082 = { "Bompahe" "Bompahe" }
+9083 = { "Sefaja" "Sefaja" } #(Chrys) https://incubator.wikimedia.org/wiki/Wp/cop/%E2%B2%AB%E2%B2%93%E2%B2%9F%E2%B2%99_%E2%B2%9B%CC%80%CF%A9%E2%B2%81%CF%A9_(%E2%B2%91%E2%B2%B1%CF%A3)
+9084 = { "Rôhentou" "Euhemeria" } #(JP) Roman Capital
+9085 = { "Manaujal Emmêini" "Manaujal Emmêini" } #(Chrys) https://incubator.wikimedia.org/wiki/Wp/cop/%E2%B2%AB%E2%B2%93%E2%B2%9F%E2%B2%99_%E2%B2%9B%CC%80%CF%A9%E2%B2%81%CF%A9_(%E2%B2%91%E2%B2%B1%CF%A3)
+9087 = { "Ambo" "Ambo" }
+9090 = { "Parês" "Parês" }
+9091 = { "Abu Minqar" "Abu Minqar" } #(JP) Base Names
+9092 = { "Têh" "Têh" } #(Chrys) reconstructed from Ancient Egyptian t;-jhw > Coptic to ehow (Bohairic tho ehow) then compared with Atfih tp-jhw > Tpêh (also Tpeh), but Coptic incubator wiki seems to have borrowed Farafra as Ferfer instead https://incubator.wikimedia.org/wiki/Wp/cop/%CF%A7%E2%B2%89%E2%B2%97%E2%B2%97%E2%B2%9F%E2%B2%A7_%60%E2%B2%99%E2%B2%83%E2%B2%89%E2%B2%A3%E2%B2%93_(%E2%B2%91%E2%B2%B1%CF%A3)
+9093 = { "Katabathmos" "Katabathmos" } #(Chrys) https://incubator.wikimedia.org/wiki/Wp/cop/%CF%AE%E2%B2%A1%E2%B2%81%E2%B2%A3%E2%B2%81%E2%B2%A7%E2%B2%9F%E2%B2%9B%E2%B2%93%E2%B2%9F%E2%B2%9B_%E2%B2%A1%E2%B2%93%E2%B2%91%E2%B2%B1%CF%A3
+9094 = { "Bardia" "Bardia" } #(JP) Base Names
+
+#Eastern Maghreb #(Chrys) definitely some borrowings here but that's more than expected this far from the Nile https://incubator.wikimedia.org/wiki/Wp/cop/%E2%B2%96%E2%B2%A9%E2%B2%83%E2%B2%8F
+354 = { "Thripolis" "Thripolis" }
+355 = { "Surtis" "Surtis" }
+356 = { "Berenikê" "Berenikê" }
+357 = { "Terneh" "Terneh" }
+2326 = { "Antipurgos" "Antipurgos" }
+2448 = { "Sepha" "Sepha" }
+2451 = { "Mesrata" "Mesrata" }
+5274 = { "Ajedapia" "Ajedapia" }
+5311 = { "Alkhôms" "Alkhôms" }
+9095 = { "Balagrai" "Balagrai" }
+
+#Western Maghreb
+#Western Sahara
+#Central Sahara
+#Eastern Sahara
+
+#Nubia
+1228 = { "Deug" "Deug" } #https://www.trismegistos.org/place/5080 "Tungul", "Tungula", "Tungili", "Deug"
+1234 = { "Prim" "Prim" }
+2322 = { "Para" "Para" } #(JP) Nubian
+4322 = { "Boki" "Boki" } #(Chrys) Baki in Ancient Egyptian, which I think(????) according to this https://en.wiktionary.org/wiki/Appendix:Egyptian_pronunciation makes Voki
+5266 = { "Bir Natrun" "Bir Natrun" } #(JP) Base Names
+5271 = { "Shi" "Shi" } #(Chrys) Shas-Heret in Ancient Egyptian Egyptological, which I think(????) according to this https://en.wiktionary.org/wiki/Appendix:Egyptian_pronunciation makes Shi
+5277 = { "Kulb" "Kulb" } #(JP) Base Names
+5278 = { "Korosko" "Korosko" }	#Base Names (JP) Ancient Egyptian for "Fila", in "Korosko" Province. #(Chrys) Fila is not in Korosko province, it's Philae, further north/down river
+5279 = { "Maragha" "Maragha" } #(JP) Base Names
+5281 = { "Napata" "Napata" }
+5301 = { "Selima" "Selima" } #(JP) Base Names
+5302 = { "Abu Hamad" "Abu Hamad" } #(JP) Base Names
+9011 = { "Shaat" "Shaat" }
+9012 = { "Korti" "Korti" } #(JP) Base Names
+9013 = { "Berber" "Berber" } #(JP) Base Names
+9053 = { "Wadi Howar" "Wadi Howar" } #(JP) Base Names
+9054 = { "Leghea" "Leghea" } #(JP) Roman Names
+9088 = { "Atwa" "Atwa" } #(JP) Nubian Names
+9089 = { "Shab" "Shab" } #(JP) Base Names
+
+#Abyssina
+#Horn of Africa
+#Arabia
 
 #Levant
-364 = { "Hrinokorura" "Hrinokorura" }
-365 = { "Raitho" "Raitho" }
-379 = { "Hierusalim" "Hierusalim" }
+364 = { "Hrinokoroura" "Hrinokoroura" }
+377 = { "Beroia" "Beroia" }
+378 = { "Tripolis" "Tripolis" }
+379 = { "Ierousalêm" "Ierousalêm" }
+380 = { "Kerkê" "Kerkê" }
+381 = { "Eglôn" "Eglôn" }
 382 = { "Damaskos" "Damaskos" }
-4268 = { "Berenike" "Berenike" }
-5180 = { "Kadoutes" "Kadoutes" }
-5181 = { "Nakhl" "Nakhl" }
-6065 = { "Sina" "Agia Kattrin" }
+407 = { "Rakka" "Rakka" }
+1849 = { "Emessa" "Emessa" }
+4270 = { "Maôn" "Maôn" }
+5170 = { "Laodikia" "Laodikia" }
+5180 = { "Azza" "Azza" }
+6080 = { "Antaratos" "Antaratos" }
+6086 = { "Ammiten" "Ammiten" }
+6071 = { "Tshoti Empanash" "Tshoti Empanash" }
+6074 = { "Turos" "Turos" }
+6075 = { "Sidôn" "Sidôn" }
 
+#Mesopotamia #(Chrys) https://incubator.wikimedia.org/wiki/Wp/cop/%E2%B2%89%E2%B2%93%E2%B2%A3%E2%B2%81%E2%B2%95
+408 = { "Basra" "Basra" }
+409 = { "Kerpala" "Kerpala" }
+410 = { "Bagdan" "Bagdan" }
+411 = { "Môousel" "Môousel" }
+415 = { "Kerkôk" "Kerkôk" }
+2311 = { "Nejaf" "Nejaf" }
+4293 = { "Arbêl" "Arbêl" }
+6141 = { "Hila" "Hila" }
+6142 = { "Koupha" "Koupha" }
+
+#Persia
+428 = { "Thehran" "Thehran" }
+429 = { "Sphahan" "Sphahan" }
+2213 = { "Khom" "Khom" }
+
+#Anatolia
+326 = { "Ankura" "Ankura" }
+
+#Caucasia
+419 = { "Iereban" "Iereban" }
+421 = { "Pakou" "Pakou" }
+
+#Balkans
+129 = { "Lioupliana" "Lioupliana" }
+131 = { "Zakrep" "Zakrep" }
+146 = { "Athênai" "Athênai" }
+151 = { "Kôstantinoupolis" "Kôstantinoupolis" }
+1765 = { "Sophia" "Sophia" }
+3001 = { "Skhopie" "Skhopie" }
+
+#Carpathia
+153 = { "Phest" "Phest" } #(Chrys) taken from the name of Budapest: "Poutaphest"
+3160 = { "Poukharist" "Poukharist" }
+8184 = { "Pouta" "Pouta" } #(Chrys) taken from the name of Budapest: "Poutaphest"
+
+#Iberia
+227 = { "Lispona" "Lispona" }
+
+#France #(Chrys) https://incubator.wikimedia.org/wiki/Wp/cop/%E2%B2%AA%E2%B2%A3%E2%B2%81%E2%B2%85%E2%B2%85%E2%B2%93%E2%B2%81%CC%80
+172 = { "Nant" "Nant" }
+174 = { "Pordal" "Pordal" }
+183 = { "Paris" "Paris" }
+196 = { "Touloushi" "Touloushi" }
+200 = { "Monpeliê" "Monpeliê" }
+201 = { "Marselia" "Marselia" }
+203 = { "Liôn" "Liôn" }
+4769 = { "Lil" "Lil" }
+
+#Low Countries
+92 = { "Proukhsel" "Proukhsel" }
+94 = { "Louksempourk" "Louksempourk" }
+97 = { "Amsthertam" "Amsthertam" }
+
+#Italy
+102 = { "Nikaia" "Nikaia" }
+112 = { "Benetike" "Benetike" }
+116 = { "Phlôrensa" "Phlôrensa" }
+118 = { "Rômê" "Rômê" }
+7056 = { "Monako" "Monako" }
+
+#North Germany
+44 = { "Hampourk" "Hampourk" }
+50 = { "Berlin" "Berlin" }
+
+#South Germany
+65 = { "Monakhon" "Monakhon" }
+75 = { "Sthraspourk" "Sthraspourk" }
+134 = { "Bienê" "Bienê" } #(Chrys) or "Biena"
+165 = { "Bern" "Bern" }
+266 = { "Phrag" "Phrag" }
+
+#Britain
+236 = { "Lontra" "Lontra" }
+
+#Poland
+134 = { "Barsô" "Barsô" } #(Chrys) or "Barsobia"
+
+#Ruthenia
+280 = { "Khief" "Khief" }
+
+#Russia
+295 = { "Moskhô" "Moskhô" }
+
+#Ural
+1082 = { "Kasan" "Kasan" }
+
+#Beyond Typus 7.0 Overhaul of Egypt
+5275 = "Balat"
+
+#By Arga Nov 2019
+
+#makran
+2233 = "Tashabhar"
+
+#By Arga May 2020
+
+#luristan
+414 = "Amahatan" #newer
+
+#khuzestan
+412 = "Ozeos" #newer

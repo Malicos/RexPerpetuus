@@ -84,7 +84,7 @@
 4663 = { "Taju" "Taju" } #Vanila
 731 = { "Cheolli" "Deokrijin" } #Had no idea where PDX devs found name "Samseong" for this
 2105 = { "Hoewon" "Hoewon" } #It's actually located at across Amur river but oh well
-729 = { "Baekryeok" "Baekryeok") #Bohori
+729 = { "Baekryeok" "Baekryeok" } #Bohori
 
 #Central Heilongjiang
 4200 = { "Makhil" "Makhil" } #Vanila
@@ -198,7 +198,7 @@
 4360 = { "Samha" "Ganggi" } #Mikawa
 4188 = { "Sinnong" "Jangya" } #Shinano
 1839 = { "Junha" "Junbu" } #Suruga
-1029 = { "Gapbi" "Gapbu" ) #Kai
+1029 = { "Gapbi" "Gapbu" } #Kai
 
 #Western Kanto
 

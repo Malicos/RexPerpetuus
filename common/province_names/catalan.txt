@@ -1,267 +1,451 @@
-#Arga's Work
+#Contributions from a wide range, including Arga, Chrysocyon, and Chairman Meow (JP)
+#(JP) Catalan, including dialcts, will overwrite iberian.txt
+#(JP) I have reorganised and cleaned up all the prior Iberian/Spanish/Castillian/Catalan naming to try and make it more legible, consistant and keep it easier to edit in future
 
-#2017 Aug 1
+#Iberia
+197 = { "Rosselló" "Perpinyà" }
+206 = { "La Corunya" "La Corunya" }
+208 = { "Lleó" "Lleó" }
+209 = { "Biscaia" "Bilbau" }
+210 = { "Pamplona" "Pamplona" }
+211 = { "Osca" "Osca" }
+212 = { "Girona" "Girona" }
+213 = { "Barcelona" "Barcelona" }
+214 = { "Saragossa" "Saragossa" }
+215 = { "Valladolid" "Valladolid" }
+216 = { "Salamanca" "Salamanca" }
+217 = { "Madrid" "Madrid" }
+218 = { "Badajoz" "Badajoz" }
+219 = { "Tolèdol" "Tolèdol" }
+220 = { "València" "València" }
+221 = { "Múrcia" "Múrcia" }
+222 = { "Almeria" "Almeria" }
+223 = { "Granada" "Granada" }
+224 = { "Sibília" "Sibília" }
+225 = { "Còrdova" "Còrdova" }
+226 = { "Gibraltar" "Gibraltar" }
+227 = { "Lisbona" "Lisbona" }
+333 = { "Mallorca" "Palma de Mallorca" }
+1745 = { "Santander" "Santander" }
+1746 = { "Burchs" "Burchs" }
+1747 = { "Càceres" "Càceres" }
+1748 = { "Jaén" "Jaén" }
+1749 = { "Cadis" "Cadis" }
+1750 = { "Alacant" "Alacant" }
+2751 = { "Conca" "Conca" }
+2754 = { "Ciutat Real" "Ciutat Real" }
+2755 = { "Sòria" "Sòria" }
+2987 = { "Urgell" "La Seu d'Urgell" }
+2988 = { "Tarragona" "Tarragona" }
+2989 = { "Rioja" "Logronyo" }
+2990 = { "Terol" "Terol" }
+3095 = { "Calataiut" "Calataiut" }
+3099 = { "Mèrida" "Mèrida" }
+4546 = { "Màlaga" "Màlaga" }
+4547 = { "Albacete" "Albacete" }
+4548 = { "Olva" "Olva" }
+4549 = { "Xàtiva" "Xàtiva" }
+4550 = { "Castelló" "Castelló" }
+4551 = { "Àvila" "Àvila" }
+4552 = { "Palència" "Palència" }
+4553 = { "Zamora" "Zamora" }
+4599 = { "Menorca" "Ciutadella de Menorca" }
+4560 = { "Pitiüses" "Eivissa" }
+4787 = { "Ribateix" "Santarém" }
+4788 = { "Plasència" "Plasència" }
+4789 = { "Segòvia" "Segòvia" }
+8045 = { "Saagù" "Saagù" }
+8016 = { "Guipúscoa" "Sant Sebastià" }
+8026 = { "Àlaba" "Vitòria" }
+8042 = { "Santiago de Compostel·la" "Santiago de Compostel·la" }
+8047 = { "Almazà" "Almazà" }
+8050 = { "Ciutat Rodrigo" "Ciutat Rodrigo" }
+8051 = { "Còllar" "Còllar" }
+8052 = { "Guadalajara" "Guadalajara" }
+8055 = { "Aranjoz" "Aranjoz" }
+8068 = { "Llorca" "Llorca" }
+8087 = { "Òscar" "Òscar" }
+8089 = { "Maestrat" "Peníscola" }
+8105 = { "Santiago del Cacèn" "Santiago del Cacèn" }
+8110 = { "Sobrarb" "L'Aïnsa" }
+8111 = { "Barbastre" "Barbastre" }
+8116 = { "Alcanyís" "Alcanyís" }
+8117 = { "Albarrasí" "Albarrasí" }
+8121 = { "Almadèn" "Almadèn" }
 
-#lower france
-173 = "Lapurdi"
-174 = "Bordeus"
-176 = "Bearn"
-197 = "Rosselló"
-2991 = "Toló"
+#France
+88 = { "Arràs" "Arràs" }
+173 = { "Baiona" "Baiona" }
+174 = { "Bordeus" "Bordeus" }
+175 = { "Armanyac" "Aush" }
+176 = { "Bearn" "Pau" }
+183 = { "París" "París" }
+194 = { "Perigord" "Perigús" }
+195 = { "Llemotges" "Llemotges" }
+196 = { "Tolosa" "Tolosa" }
+198 = { "Rodés" "Rodés" }
+199 = { "Clarmont" "Clarmont d'Alvèrnia" } #(JP) "Clarmont d'Alvèrnia" for full name
+200 = { "Montpeller" "Montpeller" }
+201 = { "Marsella" "Marsella" }
+202 = { "Avinyó" "Avinyó" }
+203 = { "Lió" "Lió" }
+1947 = { "Tol" "Tol" }
+2753 = { "Narbona" "Narbona" }
+2991 = { "Forcalquer" "Forcalquer" }
+3081 = { "Agenès" "Agen" }
+3083 = { "Labrit" "Labrit" }
+3085 = { "Nimes" "Nimes" }
+4112 = { "Carcí" "Caors" }
+4385 = { "Cherburg" "Cherburg" }
+4387 = { "Angulema" "Angulema" }
+4695 = { "Carcassona" "Carcassona" }
+4696 = { "Toló" "Toló" }
+7890 = { "Frejús" "Frejús" }
+7893 = { "Ais" "Ais" }
+7894 = { "Arle" "Arle" }
+7900 = { "Besiers" "Besiers" }
+7901 = { "Castras" "Castras" }
+7919 = { "Comenge" "Murell" }
+7921 = { "Bigorra" "Tarba" }
+7922 = { "Leitora" "Leitora" }
+7923 = { "Baixa Navarra" "Sant Joan de Peu de Port" }
+7924 = { "Dacs" "Dacs" }
+7925 = { "Buc" "Buc" }
+7926 = { "Mont de Marçà" "Mont de Marçà" }
+7927 = { "Vasats" "Vasats" }
 
-#Aragon
-211 = "Osca"
-214 = "Saragossa"
+#Low Countries
+90 = { "Bruges" "Bruges" }
+92 = { "Brussel·les" "Brussel·les" }
+93 = { "Lieja" "Lieja" }
+94 = { "Luxemburg" "Luxemburg" }
+96 = { "Selàndia" "Middelburg" } #(JP) Base Capital Name
+1744 = { "Anvers" "Anvers" }
+1865 = { "Gant" "Gant" }
+4383 = { "La Haia" "La Haia" }
+4769 = { "Lilla" "Lilla" }
+8019 = { "Lovaina" "Lovaina" }
 
-#northern spain
-206 = "La Corunya"
-207 = "Astúries"
-208 = "Lleó"
-209 = "Biscaia"
+#North Germany
+50 = { "Berlí" "Berlí" }
+57 = { "Brunsvic" "Brunsvic" }
+78 = { "Magúncia" "Magúncia" }
+80 = { "Trèveris" "Trèveris" }
+85 = { "Colònia" "Colònia" "}
+266 = { "Praga" "Praga" }
+1760 = { "Coblença" "Coblença" }
+1878 = { "Aquisgrà" "Aquisgrà" }
 
-#milano
-104 = "Milà"
+#South Germany
+65 = { "Munic" "Munic" }
+67 = { "Nuremberg" "Nuremberg" }
+72 = { "Friburg" "Friburg" }
+75 = { "Estrasburg" "Estrasburg" }
+134 = { "Viena" "Viena" }
+165 = { "Berna" "Berna" }
+1867 = { "Lausana" "Lausana" }
+1869 = { "Zuric" "Zuric" }
+2957 = { "Ratisbona" "Ratisbona" }
+3055 = { "Basilea" "Basilea" }
+4712 = { "Constança" "Constança" }
+4720 = { "Ginebra" "Ginebra" }
+4721 = { "Friburg" "Friburg" }
+8487 = { "Turgòvia" "Frauenfeld" } #(JP) Base Capital Name
+8488 = { "Argòvia" "Aarau" } #(JP) Base Capital Name
+8489 = { "Lucerna" "Lucerna" }
 
-#liguria
-101 = "Gènova"
+#Italy
+101 = { "Gènova" "Gènova" }
+102 = { "Niça" "Niça" }
+103 = { "Torí" "Torí" }
+104 = { "Milà" "Milà" }
+106 = { "Mòdena" "Mòdena" }
+109 = { "Màntua" "Màntua" }
+112 = { "Venècia" "Venècia" }
+116 = { "Florència" "Florència" }
+121 = { "Nàpols" "Nàpols" }
+122 = { "Tàrent" "Tàrent" }
+123 = { "Regols Calàbria" "Regols Calàbria" }
+125 = { "Palerm" "Palerm" }
+127 = {"Gal·lura" "Terranova" }
+1247 = { "Aiacciu" "Aiacciu" }
+2982 = { "Saragossa de Sicília" "Saragossa de Sicília" }
+2983 = { "Salern" "Salern" }
+2986 = { "Càller" "Càller" }
+3039 = { "Càpua" "Càpua" }
+4729 = { "Pàdua" "Pàdua" }
+4730 = { "Bolonya" "Bolonya" }
+4735 = { "Oristany" "Oristany" }
+4736 = { "Tràpena" "Tràpena" }
+4737 = { "Agrigent" "Agrigent" }
+4739 = { "Bèrgam" "Bèrgam" }
+5091 = { "Logudor" "Sàsser" }
+7002 = { "Catània" "Catània" }
+7006 = { "Bríndisi" "Bríndisi" }
+7012 = { "Benevent" "Benevent" }
+7017 = { "Gaieta" "Gaieta" }
+7032 = { "Rímini" "Rímini" }
+7067 = { "Regols" "Regols" }
+7095 = { "Chiesa" "Chiesa" }
 
+#Balkans
+142 = { "Corfú" "Corfú" }
+146 = { "Cetines" "Cetines" } #(JP) "Atenes" is modern Catalan, "Cetines" is in-period but matches modern orthography still I believe.
+148 = { "Tessalònica" "Tessalònica" }
+151 = { "Constantinoble" "Constantinoble" }
+163 = { "Càndia" "Càndia" }
+320 = { "Rodes" "Rodes" }
+3003 = { "Negropont" "Negropont" }
+3164 = { "Constança" "Constança" }
+3178 = { "Patres" "Patres" }
+4239 = { "Belgrad" "Belgrad" }
+4698 = { "Cefalònia" "Castro Cefalònia" }
+4701 = { "Corint" "Corint" }
+4702 = { "Serres" "Serres" }
+4779 = { "Gal·lípoli" "Gal·lípoli" }
+7108 = { "Neopàtria" "Neopàtria" }
+7113 = { "El Cito" "El Cito" }
+7125 = { "Lèucada" "Lèucada" }
+7126 = { "Zacint" "Zacint" }
 
+#Anatolia
+318 = { "Esmirna" "Esmirna" }
+330 = { "Trebisonda" "Trebisonda" }
 
+#Levant
+377 = { "Alep" "Alep" }
+378 = { "Trípoli d'Occident" "Trípoli d'Occident" }
+379 = { "Jerusalem" "Jerusalem" }
+382 = { "Damasc" "Damasc" }
+2313 = { "Antioquia" "Antioquia" }
+5139 = { "Nicòsia" "Nicòsia" }
+5205 = { "Beirut" "Beirut" }
 
-#Beyond Typus 10.0 major localised naming contribution from multiple people, credit to everyone but Draiocht. Integrated 2018-11-16
-# Naples
-123 = "Regols" # Reggio Calabria
+#Egypt
+358 = { "Alexándria" "Alexándria" }
+359 = { "Faium" "Faium" }
+360 = { "Qus" "Qus" } #(JP) Base Names
+361 = { "Cairo" "Cairo" } #(JP) Base Names
+362 = { "Rexi" "Rexi" } #(JP) Medieval Crusader Name
+363 = { "Pelúsio" "Pelúsio" }
+365 = { "Sinaí" "Santa Caterina" }
+1231 = { "Assuan" "Assuan" }
+1233 = { "Kharga" "Kharga" } #(JP) Base Names
+2315 = { "Suez" "Suez" } #(JP) Base Names
+2316 = { "Tanta" "Tanta" } #(JP) Base Names
+2317 = { "Minya" "Minya" } #(JP) Base Names
+2318 = { "Bahariya" "Bawiti" } #(JP) Base Names
+2319 = { "Assiut" "Assiut" }
+2320 = { "Ras Ghareb" "Ras Ghareb" } #(JP) Base Names
+2321 = { "Qoseir" "Qoseir" } #(JP) Base Names
+2325 = { "Alamein" "Alamein" } #(JP) Base Names
+2326 = { "Tobruk" "Tobruk" } #(JP) Base Names
+4268 = { "Aqaba" "Aqaba" } #(JP) Base Names
+4316 = { "Mansoura" "Mansoura" } #(JP) Base Names
+4317 = { "Damanhur" "Damanhur" } #(JP) Base Names
+4318 = { "Atfih" "Atfih" } #(JP) Base Names
+4319 = { "Lúxor" "Lúxor" }
+4320 = { "Girga" "Girga" } #(JP) Base Names
+4323 = { "Dakhla" "Dakhla" } #(JP) Base Names
+5181 = { "Nekhel" "Nekhel" } #(JP) Base Names
+5261 = { "Damietta" "Damietta" } #(JP) Base Names
+5264 = { "Giza" "Giza" } #(JP) Base Names
+5267 = { "Beni Suef" "Beni Suef" } #(JP) Base Names
+5272 = { "Baritun" "Baritun" } #(JP) Base Names
+5273 = { "Siwa" "Siwa" } #(JP) Base Names
+9076 = { "Scetis" "Scetis" } #(JP) Base Names
+9077 = { "Salheya" "Salheya" } #(JP) Base Names
+9078 = { "Bilbeis" "Bilbeis" } #(JP) Base Names
+9079 = { "Sant Antoni" "Sant Antoni" }
+9080 = { "Samalut" "Samalut" } #(JP) Base Names
+9081 = { "Quseyya" "Quseyya" } #(JP) Base Names
+9082 = { "Sohag" "Sohag" } #(JP) Base Names
+9083 = { "Safaga" "Safaga" } #(JP) Base Names
+9084 = { "Wadi Hammamat" "Qasr al-Banat" } #(JP) Base Names
+9085 = { "Marsa Alam" "Marsa Alam" } #(JP) Base Names
+9087 = { "Kom Ombo" "Kom Ombo" } #(JP) Base Names
+9090 = { "Baris" "Baris" } #(JP) Base Names
+9091 = { "Abu Minqar" "Abu Minqar" } #(JP) Base Names
+9092 = { "Farafra" "Farafra" } #(JP) Base Names
+9093 = { "Sallum" "Sallum" } #(JP) Base Names
+9094 = { "Bardia" "Bardia" } #(JP) Base Names
 
-# Greece
-146 = "Cetines"
-3003 = "Negropont"
-7108 = "Neopàtria"
-7113 = "El Cito"
+#Eastern Maghreb
+339 = { "Bogia" "Bogia" }
+340 = { "Constantina" "Constantina" }
+341 = { "Tunes" "Tunes" }
+351 = { "Biskra" "Biskra" } #(JP) Base Names
+352 = { "Gafsa" "Gafsa" } #(JP) Base Names
+353 = { "Médenine" "Médenine" }
+354 = { "Trípoli de Barbaria" "Trípoli de Barbaria" }
+355 = { "Sirte" "Sirte" } #(JP) Base Names
+356 = { "Bengasi" "Bengasi" }
+357 = { "Darna" "Darna" }
+1882 = { "Bona" "Bona" }
+2450 = { "Kébili" "Kébili" }
+2451 = { "Misurata" "Misurata" }
+2452 = { "Zoyara" "Zoyara" } #(JP) Catalan Atlas
+2453 = { "Esfacs" "Esfacs" } #(Chrys) Catalanified from Spanish and Portuguese
+2454 = { "Cairauà" "Cairauà" } #(Chrys) Catalanified from Spanish and Portuguese
+2455 = { "Bizerta" "Bizerta" }
+2458 = { "M'sila" "M'sila" } #(JP) Base Names
+2473 = { "Sussa" "Sussa" }
+2954 = { "Gerba" "Castelló" } #(JP) Catalans founded a fortress and it was known as "Castelló"
+4566 = { "Esbètola" "Esbètola" } #(Chrys) Catalanified from Spanish and Portuguese
+4567 = { "Gadames" "Gadames" }
+5224 = { "Cap Bo" "Nabel" } #(Chrys) Catalanified from Spanish and Portuguese
+5225 = { "Àfrica" "Àfrica" }
+5274 = { "Agedabia" "Agedabia" }
+5306 = { "Mizda" "Mizda" } #(JP) Base Names
+5309 = { "Gharyan" "Gharyan" } #(JP) Base Names
+5310 = { "Nalut" "Nalut" } #(JP) Base Names
+5311 = { "Homs" "Homs" }
+5312 = { "Gabes" "Gabes" } #(JP) Base Names
+5313 = { "Casserìn" "Casserìn" } #(Chrys) Catalanified from Spanish and Portuguese
+5314 = { "Begie" "Begie" }
+5315 = { "Alquef" "Alquef" } #(Chrys) Catalanified from Spanish and Portuguese
+5316 = { "Tozeur" "Tozeur" } #(JP) Base Names
+5317 = { "Tabarca" "Tabarca" } #(Chrys) Catalanified from Spanish and Portuguese
+5318 = { "Cuco" "Cuco" }
+5319 = { "Setif" "Setif" } #(JP) Base Names
+5320 = { "Ain Beida" "Ain Beida" } #(JP) Base Names
+5321 = { "Gíger" "Gíger" }
+5323 = { "Calat" "Calat" }
+5324 = { "Djelfa" "Djelfa" } #(JP) Base Names
+5325 = { "Batna" "Batna" } #(JP) Base Names
+5326 = { "Khenchela" "Khenchela" } #(JP) Base Names
+5329 = { "El Oued" "El Oued" } #(JP) Base Names
+9095 = { "Sidi Rafaa" "Sidi Rafaa" } #(JP) Base Names #(JP) Modern "Bayda", in period known as "Sidi Rafaa", province includes ancient and classical "Cyrene"
+9096 = { "Barca" "Barca" } #(JP) Base Name #(JP) Modern "Al Marj", successor to ancient and classical "Barca"
+9097 = { "Qaminis" "Qaminis" } #(JP) Base Names
+9111 = { "Bani Walid" "Bani Walid" } #(JP) Base Names
+9112 = { "Zintan" "Zintan" } #(JP) Base Names
+9113 = { "Zarzis" "Zarzis" } #(JP) Base Names
+9114 = { "Tataouine" "Tataouine" } #(JP) Base Names
+9115 = { "Ghilane" "Ghilane" } #(JP) Base Names
+9116 = { "Douz" "Douz" } #(JP) Base Names
+9117 = { "Nefta" "Nefta" } #(JP) Base Names
+9118 = { "Monastir" "Monastir" } #(JP) Base Names
+9119 = { "Mactar" "Mactar" } #(Chrys) slightly Catalanified from Spanish and Portuguese
+9120 = { "Skikda" "Skikda" } #(JP) Base Names
+9121 = { "Collo" "Collo" } #(JP) Base Names
+9122 = { "Souk Ahras" "Souk Ahras" } #(JP) Base Names
+9123 = { "Tebessa" "Tebessa" } #(JP) Base Names
+9124 = { "Sidi Okba" "Sidi Okba" } #(JP) Base Names, ancient "Tabuda"
+9125 = { "Tolga" "Tolga" } #(JP) Base Names
+9127 = { "Bou Saada" "Bou Saada" } #(JP) Base Names
+9128 = { "N'Gaous" "N'Gaous" } #(JP) Base Names
+9129 = { "Ain Oussera" "Ain Oussera" } #(JP) Base Names
+9130 = { "Tedelles" "Tedelles" }
 
+#Western Maghreb (Only Northern Morocco so far)
+334 = { "Tànger" "Tànger" }
+335 = { "Melilla" "Melilla" } #(JP) Base Names
+336 = { "Tremissèn" "Tremissèn" }
+337 = { "Orà" "Orà" }
+338 = { "Alger" "Alger" }
+342 = { "Alcasserquivir" "Alcasserquivir" }
+343 = { "Fes" "Fes" }
+344 = { "Marràqueix" "Marràqueix" }
+345 = { "Safi" "Safi" } #(JP) Base Names
+348 = { "Ducala" "Xixaua" } #(Chrys) Catalanified from Spanish and Portuguese
+1751 = { "Ceuta" "Ceuta" } #(JP) Base Names
+2459 = { "Medea" "Medea" } #(JP) Base Names
+2461 = { "Mostagà" "Mostagà" }
+2462 = { "Tingàrtia" "Tingàrtia" }
+2463 = { "Naâma" "Naâma" } #(JP) Base Names
+2465 = { "Uxda" "Uxda" }
+2467 = { "Mequines" "Mequines" }
+2468 = { "Khenifra" "Khenifra" } #(JP) Base Names
+2469 = { "Mazagan" "Mazagan" } #(JP) Base Names
+2470 = { "Mogador" "Mogador" } #(JP) Base Names
+4561 = { "Tetuà" "Tetuà" }
+4562 = { "Nédroma" "Nédroma" }
+4563 = { "Salé" "Salé" } #(JP) Base Names
+4564 = { "Anafé" "Anafé" }
+4568 = { "Demnate" "Demnate" } #(JP) Base Names
+5210 = { "Xexauèn" "Xexauèn" }
+5211 = { "Tèdola" "Alcassaba Tèdola" } #(Chrys) Catalanified from Spanish and Portuguese
+5218 = { "Bades" "Bades" } #(Chrys) perhaps could be Catalanified from Spanish and Portuguese to something like Beles?
+5219 = { "Mehdya" "Mehdya" } #(JP) Base Names, pre-1681 "Al-Ma'mura"
+5226 = { "Rahamna" "Ben Guerir" } #(JP) Base Names
+5228 = { "Santa Creu" "Santa Creu" } #(Chrys)  Catalanified from Spanish and Portuguese "Santa Cruz de la Mar Pequeña", which is too long
+5322 = { "Tenes" "Tenes" } #(JP) Base Names
+5327 = { "Saïda" "Saïda" } #(JP) Base Names
+5328 = { "Al Baida" "Al Baida" } #(JP) Base Names
+9006 = { "Xauìa" "Setat" } #(Chrys) Catalanified from Spanish and Portuguese
+9131 = { "Xerxell" "Xerxell" }
+9132 = { "Miliana" "Miliana" } #(JP) Base Names
+9133 = { "Mazouna" "Mazouna" } #(JP) Base Names
+9134 = { "Mascara" "Mascara" } #(JP) Base Names
+9136 = { "Ensofra" "Ensofra" } #(Chrys) Catalanified from Spanish and Portuguese
+9184 = { "Agamat" "Agamat" } #(Chrys) Catalanified from Spanish and Portuguese
+9185 = { "Tinmel" "Tinmel" } #(JP) Base Names
+9190 = { "Haha" "Afughal" } #(JP) Base Names
+9191 = { "Tadnast" "Tadnast" } #(JP) Base Names
+9192 = { "Abda" "Sidi Bennour" } #(JP) Base Names
+9193 = { "Rabat" "Rabat" } #(JP) Base Names
+9194 = { "Zaër" "Tifelt" } #(JP) Base Names
+9195 = { "Sefrou" "Sefrou" } #(JP) Base Names
+9197 = { "Taourirt" "Taourirt" } #(JP) Base Names
+9198 = { "Tazouta" "Tazouta" } #(JP) Base Names
+9199 = { "Arsila" "Arsila" } #(Chrys) Catalanified from Spanish and Portuguese
 
+#Ireland
+373 = { "Dublí" "Dublí" }
 
+#Britain
+233 = { "Cornualla" "Truro" } #(JP) Base Capital Name
+236 = { "Londres" "Londres" }
+248 = { "Edimburg" "Edimburg" }
 
-#Chrysocyon May 30th 2019
+#Scandinavia
+1 = { "Estocolm" "Estocolm" }
+12 = { "Copenhaguen" "Copenhaguen" }
+13 = { "Slesvig" "Slesvig" }
+14 = { "Fiònia" "Odense" } #(JP) Base Capital Name
+28 = { "Hèlsinki" "Hèlsinki" }
+370 = { "Reiquiavic" "Reiquiavic" }
 
-#Northern Castille
-210 = "Navarra"
-215 = "Valladolid"
-1745 = "Cantàbria"
-1746 = "Burchs"
-2755 = "Sòria"
-2989 = "Rioja"
-4552 = "Segòvia"
-4553 = "Zamora"
+#Baltic
+42 = { "Vàrmia" "Heilsberg" } #(JP) Base Capital Name
 
-#Central Castille
-216 = "Salamanca"
-217 = "Madrid"
-218 = "Badajoz"
-219 = "Tolèdol"
-1747 = "Càceres"
-2751 = "Conca"
-2754 = "La Manxa"
-3100 = "Plasència"
-3099 = "Mèrida"
-4546 = "Màlaga"
-4547 = "Albacete"
-4549 = "Guadalajara"
-4551 = "Àvila"
+#Poland
+257 = { "Varsòvia" "Varsòvia" }
+262 = { "Cracòvia" "Cracòvia" }
+264 = { "Breslau" "Breslau" }
+4528 = { "Cuiàvia" "Wloclawek" } #(JP) Base Capital Name
 
-#Southern Castille
-221 = "Múrcia"
-222 = "Almeria"
-223 = "Granada"
-224 = "Sibília"
-225 = "Còrdova"
-226 = "Gibraltar"
-1748 = "Jaén"
-1749 = "Cadis"
-4548 = "Olva"
+#Carpathia
 
-#Catalonia
-197 = "Rosselló"
-212 = "Girona"
-213 = "Barcelona"
-2987 = "Urgell"
-2988 = "Tarragona"
+#Ruthenia
+272 = { "Vílnius" "Vílnius" }
+280 = { "Kíev" "Kíev" }
+7242 = { "Txernòbil" "Txernòbil" }
 
-#Valencia
-220 = "València"
-1750 = "Alacant"
-4550 = "Castelló"
+#Russia
+33 = { "Sant Petersburg" "Sant Petersburg" }
+295 = { "Moscou" "Moscou" }
 
-#Balearic Islands
-333 = "Mallorca"
-4560 = "Pitiüses"
-4599 = "Menorca"
+#Urals
 
-#Portugal
-221 = "Lisbona"
-3104 = "Minyo"
+#Pontic Steppe
 
-#Sardinia-Corsica
-127 = "Gal·lura"
-1247 = "Adiaci"
-2986 = "Càller"
-5091 = "Logudor"
-7095 = "Chiesa"
+#Caucasia
+419 = { "Erevan" "Erevan" }
+420 = { "Gandja" "Gandja" }
+421 = { "Bakú" "Bakú" }
+423 = { "Tbilissi" "Tbilissi" }
+2205 = { "Nakhtxivan" "Nakhtxivan" }
 
-#Sicily-Naples
-120 = "Abruços"
-121 = "Nàpols"
-122 = "Taràntol"
-123 = "Calàbria"
-125 = "Palerm"
-1934 = "Lucània"
-2982 = "Saragossa de Sicília"
-2983 = "Salern"
-3037 = "Agrigent"
-3039 = "Càpua"
-7000 = "Tràpena"
-7002 = "Catània"
-7006 = "Bríndisi"
-7012 = "Benevent"
-7017 = "Gaieta"
+#Mesopotamia
+408 = { "Bàssora" "Bàssora" }
 
-#Southern France
-102 = "Niça"
-174 = "Aquitània"
-175 = "Armanyac"
-194 = "Perigord"
-196 = "Tolosa"
-198 = "Roergue"
-200 = "Montpeller"
-201 = "Provença"
-202 = "Avinyó"
-2753 = "Narbona"
-3081 = "Agenès"
-3085 = "Nimes"
-3090 = "Forcalquer"
-4112 = "Carcí"
+#Arabia
+384 = { "Medina" "Medina" }
+385 = { "La Meca" "La Meca" }
+390 = { "Sanà" "Sanà" }
+2331 = { "Jiddah" "Jiddah" }
 
-#By Chrysocyon Nov 2019
-1 = "Estocolm"
-12 = "Copenhaguen"
-14 = "Fiònia"
-50 = "Berlí"
-65 = "Munic"
-67 = "Nuremberg"
-78 = "Magúncia"
-85 = "Colònia"
-90 = "Bruges"
-92 = "Brussel·les"
-93 = "Lieja"
-103 = "Torí"
-106 = "Mòdena"
-109 = "Màntua"
-112 = "Venècia"
-116 = "Florència"
-134 = "Viena"
-146 = "Atenes"
-148 = "Tessalònica"
-151 = "Constantinoble"
-163 = "Càndia"
-165 = "Berna"
-173 = "Labord"
-174 = "Bordeus"
-176 = "Bearn"
-183 = "París"
-195 = "Llemotges"
-198 = "Rodés"
-201 = "Marsella"
-203 = "Liò"
-206 = "La Corunya"
-233 = "Cornualla"
-236 = "Londres"
-248 = "Edimburg"
-257 = "Varsòvia"
-262 = "Cracòvia"
-266 = "Praga"
-272 = "Vílnius"
-295 = "Moscou"
-320 = "Rodes"
-334 = "Tànger"
-336 = "Tremissèn"
-337 = "Orà"
-338 = "Alger"
-339 = "Bugia"
-340 = "Constantina"
-344 = "Marràqueix"
-354 = "Trípols"
-356 = "Bengasi"
-361 = "El Caire"
-369 = "Illes Òrcades"
-370 = "Reiquiavic"
-373 = "Dublí"
-379 = "Jerusalem"
-382 = "Damasc"
-385 = "La Meca"
-408 = "Bàssora"
-1247 = "Aiacciu"
-1744 = "Anvers"
-1865 = "Gant"
-1867 = "Lausana"
-1869 = "Zuric"
-1878 = "Aquisgrà"
-1979 = "Illes Fèroe"
-2315 = "Suez"
-2319 = "Assiut"
-2461 = "Mostagà"
-2465 = "Uxda"
-2759 = "Ciutat Reial"
-2957 = "Ratisbona"
-2990 = "Terol"
-3041 = "Bolonya"
-3055 = "Basilea"
-3056 = "Ginebra"
-3065 = "Lilla"
-3068 = "Cornualla"
-3083 = "Labrit"
-3095 = "Calataiut"
-3106 = "Ribateix"
-3205 = "Constança"
-4383 = "La Haia"
-4385 = "Cherburg"
-4387 = "Angulema"
-4546 = "Màlaga"
-4549 = "Xàtiva"
-4561 = "Tetuà"
-5096 = "Gran Canària"
-5139 = "Nicòsia"
-5205 = "Beirut"
-5210 = "Xexauèn"
-5218 = "Axdir"
-7077 = "Pàdua"
-7104 = "Corint"
-7890 = "Frejús"
-7893 = "Ais"
-7900 = "Besers"
-7901 = "Castras"
-7902 = "Carcassona"
-7919 = "Comenge"
-7921 = "Bigorra"
-7922 = "Leitora"
-7923 = "Baixa Navarra"
-7924 = "Dacs"
-7925 = "Buc"
-7926 = "Mont de Marçà"
-7927 = "Vasats"
-8016 = "Guipúscoa"
-8019 = "Lovaina"
-8026 = "Àlaba"
-8045 = "Saagù"
-8046 = "Palència"
-8047 = "Almazà"
-8050 = "Ciutat Rodrigo"
-8051 = "Còllar"
-8055 = "Aranjoz"
-8068 = "Llorca"
-8087 = "Òscar"
-8089 = "Maestrat"
-8105 = "Santiago del Cacèn"
-8110 = "L'Aïnsa"
-8111 = "Barbastre"
-8116 = "Alcanyís"
-8117 = "Albarrací"
-8121 = "Almadèn"
+#Persia
+428 = { "Teheran" "Teheran" }

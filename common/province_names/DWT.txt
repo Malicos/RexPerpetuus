@@ -1,3 +1,4 @@
 #(JP) So that Donauwörth gets the province name for DWT
 
+#South Germany
 8448 = { "Donauwörth" "Donauwörth" }

@@ -1,0 +1,38 @@
+#9113 - Zarsis
+#Area - 
+#Region - Maghreb
+
+#Core Details
+capital = "Zarsis"
+is_city = yes
+owner = TUN
+controller = TUN
+
+#Demographics
+culture = tunisian
+religion = sunni
+
+#Development and Trade
+base_tax = 2
+base_production = 1
+base_manpower = 1
+trade_goods = fish
+
+#Cores and Occupation (Alphabetical after current)
+add_core = TUN
+add_core = TRP
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+#Histories 

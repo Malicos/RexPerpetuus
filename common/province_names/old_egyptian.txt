@@ -1,40 +1,107 @@
+#Limited work here, mostly by Arga
+#(JP) Old Egyptian - not Coptic, but the earlier predecessors.
+
+#Egypt
+358 = { "Ra-Kedet" "Ra-Kedet" }
+359 = { "Shedet" "Shedet" }
+360 = { "Qesy" "Qesy" }
+361 = { "Iunu" "Iunu" }
+362 = { "Khito" "Khito" }
+363 = { "Per-Amun" "Per-Amun" }
+365 = { "Biau" "Biau" }
+1231 = { "Swenett" "Swenett" }
+1233 = { "Kharga" "Kharga" } #(JP) Base Names
+2315 = { "Peklousma" "Peklousma" }
+2316 = { "Sais" "Sais" }
+2317 = { "Men'at Khufu" "Men'at Khufu" }
+2318 = { "Desdes" "Desdes" }
+2319 = { "Zawty" "Zawty" }
+2320 = { "Mrunmiakhs" "Mrunmiakhs" }
+2321 = { "Tjau" "Tjau" }
+2325 = { "Alamein" "Alamein" } #(JP) Base Names
+2326 = { "Tobruk" "Tobruk" } #(JP) Base Names
+4268 = { "Elath" "Elath" }
+4316 = { "Mansoura" "Mansoura" } #(JP) Maybe something from Ancient "Sebennytos"
+4317 = { "P-Timinhor" "P-Timinhor" } #(JP) Modern Coptic
+4318 = { "Petpeh" "Petpeh" }
+4319 = { "Waset" "Waset" }
+4320 = { "Tine" "Tine" }
+4323 = { "Setwah" "Mut" }
+5181 = { "Du Mafkat" "Du Mafkat" } #(JP) Technically the region, but you know
+5261 = { "Tamiati" "Tamiati" } #(JP) Modern Coptic
+5264 = { "Terso" "Terso" }
+5267 = { "Per-Medjed" "Per-Medjed" }
+5272 = { "Baritun" "Baritun" } #(JP) Base Names
+5273 = { "Sekht-am" "Sekht-am" }
+9076 = { "Phanihosem" "Phanihosem" }
+9077 = { "Djanet" "Djanet" }
+9078 = { "Phelbes" "Phelbes" } #(JP) Modern Coptic
+9079 = { "Saint Anthony" "Saint Anthony" } #(JP) Base Names
+9080 = { "T-Semulot" "T-Semulot" } #(JP) Modern Coptic
+9081 = { "Qesia" "Qesia" }
+9082 = { "Bompahe" "Bompahe" }
+9083 = { "Philotera" "Philotera" } #(JP) Ptolemaic Name
+9084 = { "Rohentou" "Euhemeria" } #(JP) Roman Capital
+9085 = { "Marsa Alam" "Marsa Alam" } #(JP) Base Names
+9087 = { "Nubt" "Nubt" }
+9090 = { "Baris" "Baris" } #(JP) Base Names
+9091 = { "Abu Minqar" "Abu Minqar" } #(JP) Base Names
+9092 = { "Ta Aht" "Ta Aht" }
+9093 = { "Sallum" "Sallum" } #(JP) Base Names
+9094 = { "Bardia" "Bardia" } #(JP) Base Names
+
+#Eastern Maghreb
+#Western Maghreb
+#Western Sahara
+#Central Sahara
+#Eastern Sahara
+
+#Nubia
+1228 = { "Dongola" "Dongola" } #(JP) Base Names
+1234 = { "Prim" "Prim" }
+2322 = { "Para" "Para" } #(JP) Nubian
+4322 = { "Baki" "Baki" } #(JP) Found as an older name for "Quban" in "Wadi Allaqi" (Chrys) apparently "Baki" in ancient Egyptian
+5266 = { "Bir Natrun" "Bir Natrun" } #(JP) Base Names
+5271 = { "Shas-Heret" "Shas-Heret" } #(Chrys) Egyptological, cannot find true pronunciation (perhaps not yet reconstructed?)
+5277 = { "Kulb" "Kulb" } #(JP) Base Names
+5278 = { "Piwek" "Piwek" } #(JP) "Fila", in "Korosko" Province.
+5279 = { "Maragha" "Maragha" } #(JP) Base Names
+5281 = { "Npt" "Npt" }
+5301 = { "Selima" "Selima" } #(JP) Base Names
+5302 = { "Abu Hamad" "Abu Hamad" } #(JP) Base Names
+9011 = { "Shaat" "Shaat" }
+9012 = { "Krtn" "Krtn" }
+9013 = { "Berber" "Berber" } #(JP) Base Names
+9053 = { "Wadi Howar" "Wadi Howar" } #(JP) Base Names
+9054 = { "Leghea" "Leghea" } #(JP) Roman Names
+9088 = { "Atwa" "Atwa" } #(JP) Nubian Names
+9089 = { "Shab" "Shab" } #(JP) Base Names
+
+#Abyssinia
+#Horn of Africa
+#Arabia
+
 #Levant
 364 = { "Jorsha" "Jorsha" }
-365 = { "Ta Mefkat" "Ta Mefkat" }
 378 = { "Derbly" "Derbly" }
 379 = { "Uruschalimum" "Uruschalimum" }
 1854 = { "Yapho" "Yapho" }
 1855 = { "Akka" "Akka" }
-4268 = { "Elath" "Elath" }
 5180 = { "Ghazzat" "Ghazzat" }
-5181 = { "Du Mafkat" "Du Mafkat" } #(JP) Technically the region, but you know
 5205 = { "Biruta" "Biruta" }
-6065 = { "Biau" "Biau" }
 6071 = { "Beersheba" "Beersheba" } #(JP) Older Hebrew name
-6072 = { "Asqanu" "Asqanu" }
-6073 = { "Makedo" "Makedo" }
 6074 = { "Surru" "Surru" }
 6075 = { "Djedouna" "Djedouna" }
+
+#Mesopotamia
+#Anatolia
+#Balkans
 
 #Arga's Work
 
 377 = "Chalba"
 
 #egypt
-358 = "Ra-Kedet"
-359 = "Shedet"
-360 = "Gesy"
-361 = "Khere-Ohe" #or "Iunu"
-362 = "Khito" #or "Bolbitinon" (Ptolemaic)
-1231 = "Swenu"
-2315 = "Klysma"
-2317 = "Men'at Khufu"
-2319 = "Zawty"
-2321 = "Tjaou"
-5181 = "Du Kafkat"
-5261 = "Tamiet"
 5263 = "Behdet" #or "Dmi en Hor"
-5264 = "Men-Nefer" #or "Djet-Sut"
-5267 = "Per-Medjed"
 5268 = "This"			#Or "Tjenu"
 5269 = "Waset"

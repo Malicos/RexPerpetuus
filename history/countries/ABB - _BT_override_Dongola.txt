@@ -1,0 +1,13 @@
+primary_culture = sudanese_arabic
+religion = sunni
+
+#(JP) Taken from vanilla and tweaked to be the Banu Ja'd. No actually name for the ruler, just this tribe.
+1440.1.1 = {
+	monarch = {
+		name = "Nasr el Din" #Name taken from a ruler known to have been ousted from this general area by one of his relatives in 1398.
+		dynasty = "Banu Ja'd" 
+		adm = 3
+		dip = 4
+		mil = 4		
+	}
+}

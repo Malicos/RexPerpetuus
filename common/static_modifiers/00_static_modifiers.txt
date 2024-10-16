@@ -154,7 +154,7 @@ coastal_sea = {
 }
 
 tropical = {
-	local_colonial_growth = -10
+	local_colonial_growth = -25
 	supply_limit_modifier = -0.3
 	local_hostile_attrition = 2
 	#Removed because monsoons
@@ -169,7 +169,7 @@ tropical = {
 }
 
 arctic = {
-	local_colonial_growth = -30
+	local_colonial_growth = -75
 	supply_limit_modifier = -0.4
 	local_hostile_attrition = 5
 	
@@ -185,7 +185,7 @@ arctic = {
 }
 
 arid = {
-	local_colonial_growth = -20
+	local_colonial_growth = -50
 	supply_limit_modifier = -0.6
 	local_hostile_attrition = 5
 	

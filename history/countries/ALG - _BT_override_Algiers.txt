@@ -1,0 +1,17 @@
+
+fixed_capital = 339 #Cannot move capital away from this province & no power cost to move to it
+
+primary_culture = tunisian			#Changed from Algerian to Maghrebi
+add_government_reform = barbary_sultanate_reform
+
+1438.1.1  = {
+	monarch = {
+		name = "Abd al-Rahman"
+		dynasty = "al-Tha'alibi" 
+		birth_date = 1384.6.6
+		death_date = 1479.1.1
+		adm = 2
+		dip = 5 #(JP) Religious Scholar who got himself elected ruler of the city
+		mil = 3
+	}
+}

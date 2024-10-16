@@ -1,0 +1,45 @@
+#OUA - Ouarzazate
+
+#Political Situation
+capital = 2464
+
+#Government
+government_rank = 1
+government = theocracy
+add_government_reform = leading_clergy_reform
+
+#Demographics
+primary_culture = shilha
+religion = sunni
+religious_school = maliki_school
+
+#Tech and Military
+technology_group = muslim
+
+#History
+
+#(JP) Limited information here. Lalla Masuda's father ruled here in the late 1400's, so going to put him here because I don't know what else to do
+1440.1.1 = {
+	monarch = {
+		name = "Abu al-'Abaas"
+		dynasty = "al-Warzazi"
+		birth_date = 1430.1.1
+		adm = 4
+		dip = 6		#(JP) influential in getting his daughter married to the Saadi
+		mil = 2
+	}
+}
+
+1500.1.1 = {
+	heir = {
+		name = "Mas'uda al-Wizkitiya"
+		monarch_name = "Lala 'Auda"
+		dynasty = "al-Warzazi"
+		birth_date = 1500.1.1
+		female = yes
+		claim = 100
+		adm = 2
+		dip = 6
+		mil = 4
+	}
+}

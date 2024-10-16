@@ -1,0 +1,92 @@
+#(JP) Nubian Group, includes Dotawan, Dongolawi, Alwan and Nuba, as well as the Tunjur
+#(JP) Will likely have minimal names outside of Nubia. May consider adding in Coptic Names for flavour since they used the language for their liturgy
+
+#Egypt
+1231 = { "Dib" "Dib" }
+9087 = { "Ambo" "Ambo" } #(JP) Coptic Name
+
+#Nubia
+1216 = { "Kadugli" "Kadugli" } #(JP) Base Names
+1217 = { "Fazogli" "Fazogli" } #(JP) Base Names
+1220 = { "Wadi Abu Dom" "Ghazali" } #(JP) Base Names
+1221 = { "El-Obeid" "El-Obeid" } #(JP) Base Names
+1222 = { "Dewaim" "Dewaim" } #(JP) Base Names
+1225 = { "Kassala" "Kassala" } #(JP) Base Names
+1226 = { "Sinkat" "Sinkat" } #(JP) Base Names
+1229 = { "Derahib" "Derahib" } #(JP) Base Names
+1228 = { "Tungul" "Tungul" }
+1232 = { "Suakin" "Suakin" } #(JP) Base Names
+1234 = { "Phrim" "Phrim" }
+2797 = { "Shendi" "Shendi" } #(JP) Base Names
+2798 = { "Soba" "Soba" } #(JP) Base Names
+2799 = { "Mok-waar" "Mok-waar" } #(JP) Name pre "Sennar"?
+2800 = { "Saqadi" "Saqadi" } #(JP) Base Names
+2322 = { "Para" "Para" }
+2323 = { "Shanka" "Shanka" } #(JP) Base Names
+2324 = { "Aydhab" "Aydhab" } #(JP) Base Names
+4033 = { "Teawa" "Teawa" } #(JP) Older name
+4322 = { "Baki" "Baki" } #(JP) Cannot find vanilla Abrak, but "Quban" and "Derahib" are the sites of two forts. "Derahib is now its own province. "Quban" was anciently known as "Baki" and was the site of Nubian-Egyptian "Contra Pselchis". Maybe "Kuban" for Turkish Quban? Found another reference to a "Qubban" so that seems a clear historical settlement
+5266 = { "Bir Natrun" "Bir Natrun" } #(JP) Base Names
+5271 = { "Baranis" "Baranis" } #(JP) Base Names
+5277 = { "Kulb" "Kulb" } #(JP) Base Names
+5278 = { "Piwek" "Piwek" }	#(JP) Ancient Egyptian for "Fila", in "Korosko" Province.
+5279 = { "Maragha" "Maragha" } #(JP) Base Names
+5281 = { "Karima" "Karima" } #(JP) Base Names
+5282 = { "Tradate" "Tradate" } #(JP) Base Names
+5283 = { "Tokar" "Tokar" } #(JP) Base Names
+5284 = { "Atbara" "Atbara" } #(JP) Base Names
+5285 = { "Tawwata" "Tawwata" }
+5286 = { "Barah" "Barah" } #(JP) Base Names
+5287 = { "Singa" "Singa" } #(JP) Base Names
+5289 = { "Kurmuk" "Kurmuk" } #(JP) Base Names
+5290 = { "Fashoda" "Fashoda" } #(JP) Base Names
+5301 = { "Selima" "Selima" } #(JP) Base Names
+5302 = { "Abu Hamad" "Abu Hamad" } #(JP) Base Names
+9007 = { "Alays" "Alays" } #(JP) Base Names
+9009 = { "Karbaryn" "Karbaryn" } #(JP) Base Names
+9010 = { "Karkoj" "Karkoj" } #(JP) Base Names
+9011 = { "Saï" "Saï" } #(JP) Base Names
+9012 = { "Korti" "Korti" } #(JP) Base Names
+9013 = { "Berber" "Berber" } #(JP) Base Names
+9014 = { "Wadi Gabgaba" "Murat Wells" } #(JP) Base Names
+9015 = { "Dungonab" "Dungonab" } #(JP) Base Names
+9016 = { "Gebeit" "Gebeit" } #(JP) Base Names
+9017 = { "Ariab" "Ariab" } #(JP) Base Names
+9018 = { "Musmar" "Musmar" } #(JP) Base Names
+9019 = { "Derudeb" "Derudeb" } #(JP) Base Names
+9020 = { "Filik" "Filik" } #(JP) Base Names
+9021 = { "Adarama" "Adarama" } #(JP) Base Names
+9022 = { "Qarri" "Qarri" } #(JP) Base Names
+9023 = { "Hellet Amara" "Hellet Amara" } #(JP) "Old" Names
+9024 = { "Manaqil" "Manaqil" } #(JP) Base Names
+9025 = { "Showak" "Showak" } #(JP) Base Names
+9026 = { "Ras al-Fil" "Ras al-Fil" } #(JP) Base Names
+9027 = { "Hor-Cacamoot" "Hor-Cacamoot" } #(JP) Old Names
+9028 = { "Er Roseires" "Er Roseires" } #(JP) Base Names
+9029 = { "Tegale" "Al-Abbasiyah" } #(JP) Base Names
+9030 = { "Anok" "Anok" } #(JP) Base Names, random town in province
+9031 = { "Umm Ruwaba" "Umm Ruwaba" } #(JP) Base Names
+9032 = { "Kadaru" "Jabal Kadaru" } #(JP) Base Names, capital is a stopgap
+9033 = { "Kwalib" "Abri" } #(JP) "Kwalib" is what the Koalib call themselves, capital is a stopgap
+9034 = { "Tiro" "Abu Jubaiyah" } #(JP) Base Names
+9035 = { "Werni" "Kau" } #(JP) "Werni is what the Warnang call themselves, capital is a stopgap
+9036 = { "Tumtum" "Dallas" } #(JP) Base Names, capital is a stopgap
+9037 = { "Jomang" "Jomang" } #(JP) "Jomang" is what the "Talodi" call themselves
+9038 = { "Uncunwee" "Kuli" } #(JP) "Uncunwee" is what the "Ghulfan" call themselves, capital is a stopgap
+9039 = { "Warki" "Warki" } #(JP) What the Dilling people call themselves
+9040 = { "Kakenbi" "El Fula" } #(JP) "Kakenbi" is what the "Karko" call themselves
+9041 = { "Kayikang" "Ambong" } #(JP) "Kayikang" is what the "Keigo" call themselves
+9044 = { "En-Nahud" "En-Nahud" } #(JP) Base Names
+9053 = { "Wadi Howar" "Wadi Howar" } #(JP) Base Names
+9054 = { "Leghea" "Leghea" } #(JP) Roman Names
+9086 = { "Shalateen" "Shalateen" } #(JP) Base Names
+9088 = { "Atwa" "Atwa" }
+9089 = { "Shab" "Shab" } #(JP) Base Names
+
+#Eastern Sahara
+1219 = { "Rahad Tendelti" "Rahad Tendelti" } #(JP) Name pre-Darfur of Al-Fashir
+2801 = { "Ain Farah" "Ain Farah" }
+9049 = { "Kabkabiya" "Kabkabiya" } #(JP) Base Names
+9050 = { "Kobbei" "Kobbei" } #(JP) Base Names
+9051 = { "Bir Anka" "Bir Anka" } #(JP) Base Names
+9052 = { "Bir Mahla" "Bir Mahla" } #(JP) Base Names

@@ -1,8 +1,8 @@
 ﻿l_english:
  #Jackkade's KEM_ideas
- KEM_ideas:0 "Remenkhemi Ideas"
- KEM_ideas_bonus:0 "Remenkhemi Ambitions"
- KEM_ideas_start:0 "Remenkhemi Traditions"
+ KEM_ideas:0 "Egyptian Ideas"
+ KEM_ideas_bonus:0 "Egyptian Ambitions"
+ KEM_ideas_start:0 "Egyptian Traditions"
  
  kem_religious_scholars:0 "Coptic Scholars"
  kem_religious_scholars_desc:0 "Our culture is responsible for some of the earliest christian literature, and our country was one of the earliest centers of christianity in the Roman Empire. We must secure our religious heritage if we are to not put our nation at risk."
@@ -20,7 +20,7 @@
  kem_administative_state_desc:0 "Even though we have not been ruled by our own since antiquity, we have maintained a culture of administrators by working under the foreign occupiers. Because of this, we should have no issue governing our country."
  
  kem_pharonic_legacy:0 "Land of Pharaohs"
- kem_pharonic_legacy_desc:0 "We are the direct descendants of the Pharaohs of egypt, we were here before the Arabs, the Persians, the Romans, and the Greeks, and we will be here long after they have left."
+ kem_pharonic_legacy_desc:0 "We are the direct descendants of the Pharaohs of Egypt, we were here before the Arabs, the Persians, the Romans, and the Greeks, and we will be here long after they have left."
  
  kem_monumentality:0 "Restore the Ancient Monuments"
  kem_monumentality_desc:0 "The monuments of our forefathers still permeate the landscape we inhabit. To pay our respects, we shall restore them to their former glory, and build new monuments to show we have continued their legacy."

@@ -478,8 +478,10 @@
 149 = { "Adrianopel" "Adrianopel" } #
 150 = { "Plewen" "Plewen" }
 151 = { "Konstantinopel" "Konstantinopel" }
+152 = { "Warasdin" "Warasdin" }
 159 = { "Silistrien" "Silistrien" } #
 1766 = { "Neubergen" "Neubergen" } #(Arga) from Nyeu-Berghe in middle saxon
+1767 = { "Essegg" "Essegg" }
 1828 = { "Niederkroatien" "Weina Luka" }
 1853 = { "Kastorien" "Kastorien" } #
 2750 = { "Pulden" "Pulden" }
@@ -494,6 +496,7 @@
 3181 = { "Valona" "Valona" } #
 3182 = { "Schkodra" "Schkodra" }
 3183 = { "Bitola" "Bitola" } #
+3190 = { "Wirowitiza" "Wirowitiza" }
 3193 = { "Jaitze" "Jaitze" }
 3196 = { "Karlstadt" "Karlstadt" }
 4174 = { "Durrach" "Durrach" }
@@ -504,6 +507,7 @@
 4753 = { "Jadera" "Jadera" } #
 4754 = { "Kotor" "Kotor" }
 4755 = { "Wischegrad" "Wischegrad" }
+4756 = { "Bellowar" "Bellowar" }
 4175 = { "Alessio" "Alessio" } #
 7111 = { "Boötien" "Livadeia" }
 7113 = { "Phthiotes" "Zethunien" } #
@@ -516,6 +520,7 @@
 7709 = { "Taschlidscha" "Taschlidscha" }
 7711 = { "Wragi" "Wragi" } 
 7717 = { "Uzice" "Uzice" }
+7718 = { "Syrmien" "Mitrowitz" }
 7139 = { "Sozopol" "Sozopol" } #also Sosopol
 7721 = { "Travunien" "Trebing" }
 7722 = { "Hoca" "Hoca" }
@@ -528,6 +533,9 @@
 7732 = { "Sibenik" "Sibenik" }
 7734 = { "Zengg" "Zengg" }
 7736 = { "Sissek" "Sissek" }
+7738 = { "Poschegg" "Poschegg" }
+7739 = { "Wukowar" "Wukowar" }
+8187 = { "Daruwar" "Daruwar" }
 
 #Carpathia
 135 = { "Ödenburg" "Ödenburg" }
@@ -633,16 +641,6 @@
 8493 = { "Sarand" "Sarand" }
 8494 = { "Olsnitz" "Olsnitz" }
 8495 = { "Großkirchen" "Großkirchen" }
-
-1767 = { "Essegg" "Essegg" }
-
-152 = { "Warasdin" "Warasdin" }
-3190 = { "Wirowitiza" "Wirowitiza" }
-4756 = { "Bellowar" "Bellowar" }
-7718 = { "Syrmien" "Mitrowitz" }
-7738 = { "Poschegg" "Poschegg" }
-7739 = { "Wukowar" "Wukowar" }
-8187 = { "Daruwar" "Daruwar" }
 
 #Ruthenia
 261 = { "Halitsch" "Halitsch" }
@@ -893,19 +891,29 @@
 18 = { "Südlappland" "Sorsele" } #
 27 = { "Obu" "Obu" }
 28 = { "Neuland" "Raseburg" }
-30 = { "Wiburg" "Wiburg" }
+29 = { "Tawastborg" "Tawastborg" }
+30 = { "Wiborg" "Wiborg" }
+31 = { "Südsavo" "Olafsburg" }
 32 = { "Korelien" "Korelien" }
 1979 = { "Schafsinseln" "Torshaven" }
 1984 = { "Aalburg" "Aalburg" } #
+3128 = { "Satakunda" "Olwsstadt" }
 3134 = { "Apenrade" "Apenrade" } #
 4113 = { "Uleoburg" "Uleoburg" } #
+4123 = { "Birkenland" "Tammerfors" }
+4124 = { "Ilomantsi" "Ilomantsi" }
 4142 = { "Arenhusen" "Arenhusen" } #
 7766 = { "Helsingburg" "Helsingburg" } #
 7770 = { "Viburg" "Viburg" } #
 7773 = { "Flensburg" "Flensburg" }
 7774 = { "Tonder" "Tonder" } #
 7799 = { "Nordbottnien" "Luleo" }
+7803 = { "Nordtawastland" "Jyväskylä" }
+7804 = { "Nordsavo" "Kuopio" }
+7805 = { "Südtawastland" "Lahtis" }
+7806 = { "Lessogorskow" "Lessogorskow" }
 7807 = { "Oburg" "Oburg" } #
+7808 = { "Sortawala" "Sortawala" }
 
 #Low Countries
 90 = { "Brügge" "Brügge" }
@@ -1142,7 +1150,7 @@
 8030 = { "Luseul" "Luseul" }
 #8031
 8421 = { "Langich" "Langich" }
-8422 = { "Burgberg" "Burgberg" } #Translation for RP
+#8422 #Bourmont
 8423 = { "Sankt Didel" "Sankt Didel" }
 8424 = { "Busendorf" "Busendorf" }
 
@@ -1309,12 +1317,27 @@
 8117 = { "Albarkin" "Albarkin" }
 8121 = { "Almadien" "Almadien" }
 
+#Some common trans(la/litera)tions for Anglo-German terms
+#bury/burgh/borough/berry -> burg/berg (depends on each placename's respective etymology
+#cester/caster/chester -> kaster
+#ford -> furt
+#field -> feld
+#shire -> scheier
+#bridge -> brücken
+#tun/ton -> zaun
+#pool -> pfuhl
+#ham -> heim
+#mouth -> mund
+
 #Britain
-234 = { "Westsachsen" "Wintanburg" }
-235 = { "Cent" "Kanterburg" } #(Arga) or Kent, is already valid
-236 = { "Mittelsachsen" "London" }
+233 = { "Kornwall" "Falmund" } #(JP) Capital is for "Falmouth"
+234 = { "Heimscheier" "Süidheimzaun" }
+235 = { "Kent" "Kanterburg" } #(Arga) or Kent, is already valid
+236 = { "Mittelsachsen" "Lohnten" }
 237 = { "Ochsenfurt" "Ochsenfurt" }
-239 = { "Claudiaburg" "Claudiaburg" }
+238 = { "Ostsachsen" "Kelmersfurt" }
+239 = { "Brückenstau" "Brückenstau" } #(JP) or "Glühkaster"
+
 240 = { "Wälschenmark" "Buschburg" }
 243 = { "Lindenthal" "Lindenthal" } #(Arga) Lincoln technically already works, but on the same level as all English names when they're saxonized by the English in the first place
 244 = { "Luneburg" "Luneburg" }
@@ -1529,16 +1552,13 @@
 5138 = { "Osmanien" "Osmanien" } #
 5150 = { "Korama" "Korama" } #
 5157 = { "Nikäa" "Nikäa" }
-5165 = { "Bruchburg" "Bruchburg" } #
 5167 = { "Korum" "Korum" } #
-5168 = { "Agrilion" "Agrilion" }
-5171 = { "Milletopol" "Milletopol" }
 6033 = { "Ionopol" "Ionopol" }
+5171 = { "Milletopol" "Milletopol" }
 
 #Levant
 321 = { "Limassol" "Limassol" }
 364 = { "Arisch" "Arisch" }
-365 = { "Raya" "Raya" } #(JP) "Al-Tur"
 377 = { "Aleppo" "Aleppo" }
 378 = { "Tripolis" "Tripolis" }
 379 = { "Jerusalem" "Jerusalem" }
@@ -1561,46 +1581,31 @@
 5181 = { "Nekel" "Nekel" }
 5203 = { "Schubak" "Schubak" } #(JP) "Shoubak"
 5205 = { "Türien" "Türien" } #(JP) "Beirut"
-6065 = { "Sinai" "Katharinenkloster" }
-6066 = { "Tafila" "Tafila" }
-6067 = { "Ammanen" "Ammanen" } #(JP) "Amman"
-6068 = { "Azrak" "Azrak" } #(JP) "Azraq" means blue, akin to Azure I suppose?
-6069 = { "Mafrak" "Mafrak" } #(JP) "Al-Mafraq"
-6070 = { "Irbit" "Irbit" } #(JP) "Irbid"
+365 = { "Sinai" "Katharinenkloster" }
 6071 = { "Siebenbrünnen" "Siebenbrünnen" } #(JP) "Beersheeba", alternatively "Berscheba" or "Bir As-Sab"
-6072 = { "Rama" "Rama" }
-6073 = { "Ladschun" "Ladschun" } #(JP) "Lajjun"
 6074 = { "Tiros" "Tiros" }
 6075 = { "Sidon" "Sidon" }
 6076 = { "Episkopien" "Episkopien" }
 6077 = { "Kormakitis" "Kormakitis" }
 6078 = { "Schernis" "Schernis" } #(JP) "Kyrenia", Wilbrand von Oldenburg 
-6079 = { "Margad" "Burg Margad" }
 6080 = { "Tortosa" "Tortosa" } #(JP) "Tartus", same as given for Spanish "Tortosa"
 6081 = { "Adratien" "Adratien" } #(JP) Modern "Daraa", in period "Adratum" or "Adhri'at"
-6082 = { "Suweida" "Suweida" } #(JP) "As-Suwayda"
-6083 = { "Sanamein" "Sanamein" } #(JP) "Al-Sanamayn"
 6084 = { "Maalula" "Maalula" }
 6085 = { "Salamieh" "Salamieh" }
-6086 = { "Hama" "Hama" }
-6087 = { "Marre" "Marre" } #(JP) Crusader name of "Maarat al-Numan"
+6086 = { "Hama" "Hama" }	
 6088 = { "Suchna" "Suchna" }
-6093 = { "Hasart" "Hasart" } #(JP) "Aziz", Crusader "Hazart"
 6094 = { "Alexandrette" "Alexandrette" }
 6095 = { "Kilis" "Kilis" }
 
 #Mesopotamia
 407 = { "Rakka" "Rakka" } #(JP) "Raqqa"
 411 = { "Mossul" "Mossul" } #
-2314 = { "Deir as-Sur" "Deir as-Sur" } #(JP) "Deir ez-Zor"
+2134 = { "Rahba" "Rahba" }
 4298 = { "Antep" "Antep" }
 4310 = { "Harput" "Harput" }
 5295 = { "Zisen" "Zisen" }
 5332 = { "Arissa" "Arissa" } #
-6089 = { "Rahba" "Rahba" }
-6090 = { "Suluk" "Suluk" }
 6091 = { "Maskanah" "Maskanah" }
-6092 = { "Manbidsch" "Manbidsch" }
 
 #Persia
 416 = { "Täbris" "Täbris" } #
@@ -1630,29 +1635,29 @@
 5251 = { "Chaffdschi" "Chaffdschi" } #
 
 #Egypt
-358 = { "Alexandria" "Alexandria" } #
-359 = { "Krokodilopel" "Krokodilopel" } #
+358 = { "Alexandrien" "Alexandrien" }
+359 = { "Krokodilopel" "Krokodilopel" }
 361 = { "Kairo" "Kairo" } #
-362 = { "Rosetta" "Rosetta" } #
-1228 = { "Dongola" "Dongola" } # 
-1231 = { "Essuan" "Essuan" } #
+362 = { "Rosetta" "Rosetta" }
+1231 = { "Essuan" "Essuan" }
 2315 = { "Suez" "Suez" } #
 2317 = { "Minia" "Minia" } #
 4316 = { "Leontopel" "Leontopel" } #
 5261 = { "Damietta" "Damietta" } #
 5264 = { "Giseh" "Giseh" } #
-5271 = { "Bleichhorn" "Berenike" } #
+
+#Nubia
+1228 = { "Dongola" "Dongola" }
 
 #Maghreb
 334 = { "Tanger" "Tanger" } #
 335 = { "Melillen" "Melillen" } #
 336 = { "Tlemsen" "Tlemsen" } #
 338 = { "Algier" "Algier" } #
-339 = { "Bugia" "Bedschaia" } #
+339 = { "Budschaja" "Budschaja" } #
 340 = { "Konstantin" "Konstantin" } #
 343 = { "Feisen" "Feisen" } #
 344 = { "Marrakesch" "Marrakesch" } #
-345 = { "Abten" "Abten" } #
 348 = { "Schischau" "Schischau" }
 349 = { "Feigen" "Feigen" } #
 354 = { "Trabbeln" "Trabbeln" } #
@@ -1660,12 +1665,12 @@
 357 = { "Derna" "Derna" } #
 1110 = { "Speicherburg" "Speicherburg" }
 1751 = { "Siebenbrüdern" "Siebenbrüdern" } #
-2326 = { "Bardei" "Tobruk" } #
-2451 = { "Misrata" "Misrata" } #
+2326 = { "Tobruk" "Tobruk" }
+2451 = { "Misrata" "Misrata" }
 2454 = { "Kairawan" "Kairawan" } #
 2466 = { "Akkern" "Akkern" }
-2456 = { "Tuggurt" "Tuggurt" } #
-2459 = { "Titteri" "Media" } #
+2456 = { "Tuggurt" "Tuggurt" }
+2459 = { "Media" "Media" } #
 2460 = { "Tamgrüt" "Tamgrüt" } #
 2463 = { "Nama" "Nama" } #
 2464 = { "Quarzburg" "Quarzburg" } #
@@ -1674,13 +1679,12 @@
 2468 = { "Rotchanfer" "Rotchanfer" } #
 2469 = { "Weisshäusle" "Weisshäusle" } #
 2470 = { "Mauren" "Mauren" } #
-2472 = { "Wargalla" "Wargalla" } #
-2954 = { "Dschirba Insel" "Markt Haumatt" } #
+2472 = { "Wargalla" "Wargalla" }
+2954 = { "Dschirba Insel" "Markt Haumatt" }
 4561 = { "Tittawin" "Tittawin" } #
 4563 = { "Salen" "Salen" } #
 5210 = { "Chefchauen" "Chefchauen" }
-5218 = { "Rifein" "Adschdir" } #
-5219 = { "Laraisch" "Laraisch" } #
+5219 = { "Mehdia" "Mehdia" } #
 5225 = { "Mahdia" "Mahdia" } #
 5226 = { "Bangrir" "Bangrir" } #
 5228 = { "Saharentor" "Nullpunkt" } #(Arga) I changed it to Nullpunkt to pre-empt any call-backs as we saw with 7947
@@ -1688,15 +1692,15 @@
 5274 = { "Aschdabia" "Aschdabia" } #
 5311 = { "Choms" "Choms" } #
 5314 = { "Badscha" "Badscha" } #
-5316 = { "Tusur" "Tusur" } #
+5316 = { "Tusur" "Tusur" }
 5321 = { "Dschidschal" "Dschidschal" } #
-5322 = { "Blida" "Blida" } #
 5324 = { "Dschelfa" "Dschelfa" } #
 5328 = { "Baien" "Baien" } #
 
 #Sahel
-1129 = { "Asawad" "Arawane" }
 2474 = { "Murtsuck" "Murtsuck" } #
+
+#Western Sahara
 5223 = { "Zinnduff" "Zinnduff" } #
 
 #Niger
@@ -1856,7 +1860,6 @@
 #Polynesia
 1238 = { "Salomoninseln" "Bougainville" } #
 1242 = { "Fidschi" "Levuka" } #
-#4936 = { "Kupferfluss" "Kupferfluss" } #(Arga) this ID was repurposed for Kauai, it used to be a province in Cascadia
 
 #Australia
 1084 = { "Neumalaga" "Wadjucken" } #
@@ -1952,7 +1955,7 @@
 #Northwest Territories
 2599 = { "Denenburg" "Denenburg" }
 2601 = { "Wapuskau" "Johannes Prairie" }
-4940 = { "Winthuysenbucht" "Lekwungen" }
+5940 = { "Winthuysenbucht" "Lekwungen" }
 4989 = { "Fort Beschluss" "Fort Beschluss" }
 
 #Alaska
@@ -1962,6 +1965,7 @@
 5778 = { "Denalie" "Denalie" }
 5910 = { "Middelseen" "Middelseen" }
 5911 = { "Dunkle Mine" "Dunkle Mine" }
+5936 = { "Kupferfluss" "Kupferfluss" } #(Arga) this ID was repurposed for Kauai, it used to be a province in Cascadia
 
 #Cascadia
 871 = { "Meyertal" "Meyertal" } #
@@ -2400,7 +2404,6 @@
 ##Unnamed and Uncapitalised
 5 = "Wermland"
 14 = "Fünen"
-29 = "Tawastland"
 141 = "Serbien"
 143 = "Albanien"
 147 = "Thessalien"
@@ -2425,32 +2428,25 @@
 2516 = "Adenau"
 953 = "Marienland"
 957 = "Bäumchenpunkt"			#Or "Schwanendüll"
-5212 = "Saus"			#Or "Süssen"
-346 = "Talifat"
-343 = "Feisen"			#Or "Hackingen"
-1751 = "Siebenbrüdern"
 5213 = "Tasa"			#Or "Passburg"
-2465 = "Wiegen"
-337 = "Oran"			#Or "Wehrhafen"
+337 = { "Oran" "Oran" }			#Or "Wehrhafen"
 3285 = "Nenzenland"
 4129 = "Petschora"
 2425 = "Luhra"
 3244 = "Zürichtal"
 285 = "Kaffa"
 3245 = "Kertsch"
-1974 = "Khersen"
 288 = "Niederdon"
 1971 = "Wolgenau"			#Or "Tsarenburg"
-363 = "Matarei"			#Or "Paschenbrück"
 5162 = "Lykien"
 5130 = "Grossmysien"
-5131 = "Kydonien"
+#5131 = "Kydonien"
 322 = "Doryläum"
-5155 = "Gordion"
 5152 = "Krönen"			#Or "Euchisien"
 332 = "Germanik"			#Or "Marasch"
 4307 = "Kolonien"
 2476 = "Anaheim"			#Or "Sankt Didakus" "Serrgau"
+5155 = "Gordion"
 2620 = "Tichuanen"
 877 = "Schucken"			#Or "Schuckitz"
 876 = "Phönix"			#Or "Sonnental"
@@ -2458,7 +2454,6 @@
 1004 = "Elchsfort"
 1000 = "Karlsburg"
 2594 = "Jackobsen"
-946 = "Purrysburg"
 3111 = "Neu-Holstein"			#Or "Hallen"
 1105 = "Westbucht"
 3113 = "Bratteln"
@@ -2486,10 +2481,9 @@
 1141 = "Hweda"
 1140 = "Dahomenland"
 1176 = "Roggenfeld"
-2452 = "Zuwara"
-2451 = "Misrata"
-1882 = "Bönnen"
-2455 = "Bizerta"
+2452 = { "Zuwara" "Zuwara" }
+1882 = { "Bönnen" "Bönnen" }
+2455 = { "Bizerta" "Bizerta" }
 613 = "Tonkin"
 690 = "Kingtschou"				#Or "Ritzhau"
 2863 = "Schwarzfluss"
@@ -2511,10 +2505,8 @@
 2417 = "Kalmückien"
 3263 = "Beschtau"
 2413 = "Mariupol"
-1974 = "Alechki"
-#2321 = "Bleichhorn"			#replaced later
-2324 = "Eidhab"
-1232 = "Massaua"
+1974 = { "Alechki" "Alechki" }
+2324 = { "Eidhab" "Eidhab" }
 2329 = "Nachil"
 384 = "Medina"
 2330 = "Sulaimenland"
@@ -2557,8 +2549,6 @@
 2170 = "Sonkou"
 680 = "Tschungking"
 2171 = "Tsianfang"
-31 = "Savo"
-4124 = "Nordkarelien"
 1776 = "Weisskarelien"
 1078 = "Katharinenburg"
 1080 = "Saranpaul"
@@ -2590,23 +2580,19 @@
 2529 = "Nauchee"
 940 = "Chahtaland"
 2528 = "Manschester"
-918 = "Dyersburg"
 2520 = "Kleinägypten"
-939 = "Maifeld"
 2520 = "Arkensaw"
 914 = "Ostburg" 			#(town with german origin, instead of the translation)
 915 = "Schaumburg"
-945 = "Neufrankfurt"
-2521 = "Mittlanden"
 1808 = "Humboldtsland"
 874 = "Siätel"
 979 = "West-Aleuten"
-4920 = "Ost-Aleuten"
+5920 = "Ost-Aleuten"
 2611 = "Kodiak-Archipel"
-4921 = "Naknick"
-4922 = "Hermannsland"
-4923 = "Neubethel"
-4927 = "Sankt Konstantin"
+5921 = "Naknick"
+5922 = "Hermannsland"
+5923 = "Neubethel"
+5927 = "Sankt Konstantin"
 4978 = "Hoffenburg"
 4980 = "Normannenfeste"
 2490 = "Gross-Salzseen"
@@ -2786,11 +2772,9 @@
 2101 = "Tinnel"
 541 = "Wileianagar"
 2033 = "Savanur"
-233 = "Kornwall"
 4369 = "Dewet"
 3036 = "Kardigen"			#Or "Aberteif"
 242 = "Gwined"
-239 = "Claudiaburg"
 5590 = "Skorbisund"
 5589 = "Ruhsee"			#Or "Kateck"
 5588 = "Isertok"
@@ -2815,14 +2799,9 @@
 2829 = "Milizien"
 5091 = "Logodoro"
 127 = "Gallura"			#Or "Gadura"
-347 = "Wattien"
-353 = "Tatauin"
-355 = "Sirte"
-2449 = "Hun"
-#2448 = "Murtsuck"
-2326 = "Bardei"
-2325 = "Tarana"
-2320 = "Garibien"
+9114 = { "Tatauin" "Tatauin" }
+355 = { "Sirte" "Sirte" }
+2320 = { "Garibien" "Garibien" }
 430 = "Daschiland"			#Or "Daschistan"
 431 = "Mogoland"			#Or "Mogostan"
 2999 = "Ormus"
@@ -2888,7 +2867,7 @@
 2486 = "Neubayern"
 2488 = "Yakimaland"
 2609 = "Kaien"
-4941 = "Kitamaat"
+5941 = "Kitamaat"
 4942 = "Nehalem"
 4943 = "Schmitt"
 4945 = "Bingen"
@@ -2901,11 +2880,9 @@
 976 = "Wrangell"			#Or "Hydaburg"
 2613 = "Sitka"			#Or "Baranofsinsel"
 2327 = "Tabuck"
-2316 = "Buheira"
-2319 = "Sautien"
+2319 = { "Sautien" "Sautien" }
 2318 = "Nördliche Oasen"			#Or "Pemdien"
 1233 = "Äussere Oasen"			#Or "Charidscha"
-360 = "Kain"
 318 = "Ismir"			#Or "Smürnien"
 319 = "Marmaris"			#Or "Karien"
 320 = "Rhodos"
@@ -2913,7 +2890,7 @@
 326 = "Ankara"			#Or "Angora"
 1846 = "Ordu"			#Or "Horden"
 2299 = "Amastris"			#Or "Sesamos"
-5131 = "Kydonien"			#Or "Bergama"
+#5131 = "Kydonien"			#Or "Bergama"
 4308 = "Laodizäa"
 4311 = "Kytachei"			#Or "Kotiaion"
 5134 = "Petronium"
@@ -2956,13 +2933,9 @@
 4117 = "Uglitsch"
 4147 = "Rostow"			#Or "Rostow-am-Nerosee"
 4152 = "Ostkajanaland"
-1127 = "Tawat"
-1128 = "Tauden"
+1128 = { "Tauden" "Tauden" }
 2272 = "Ingallen"
-2274 = "Agades"
-2275 = "Alaunstadt"			#Or "Alaunburg"
 2277 = "Kauartal"
-2474 = "Madama"
 2475 = "Dschado"
 764 = "Sankt Paulus"
 2910 = "Böhntal"
@@ -3018,7 +2991,6 @@
 4623 = "Kuba"			#Or "Ferdinandien"
 911 = "Steuben"			#Or "Neunorwegen"
 999 = "Tsisa"			#Or "Grossfluss"
-1007 = "Donnerbucht"
 4991 = "Rangsenge"
 4994 = "Hallstrand"
 4996 = "Hochbergen"
@@ -3065,11 +3037,8 @@
 2636 = "Maisfeld"			#Or "Neumünd"
 2637 = "Hengstenhüde" 			#(as "Pferdhafen" is a bit a simple held name)
 1206 = "Kardh"
-2024 = "Garö"
-2783 = "Obbia"			#Or "Mudug"
-2784 = "Littburg"
-2792 = "Burau"
-2793 = "Klein-Harar"
+2024 = { "Garö" "Garö" }
+2792 = { "Burau" "Burau" }
 788 = "Angosch"
 1184 = "Simbabwe"
 1195 = "Mosambik"
@@ -3096,12 +3065,10 @@
 #3115 = "Ost-Island"
 930 = "Kieferberg"
 964 = "Oppenheim"
-2530 = "Bilock"
 2563 = "Hardtwick"			#Or "Morisstadt"
 5052 = "Piskatakis"
 990 = "Kappen"
 2579 = "Sagwenei"
-2583 = "Dreiflüss"			#Or "Sanktmoritztal"
 826 = "Schoko"
 2809 = "Guariko"			#Or "Kalbosen"
 2813 = "Tachir"			#Or "Rubin"
@@ -3112,9 +3079,9 @@
 977 = "Yackut"
 1810 = "Inkalitenland"	#Or "Deghitanenland", "Sebastian" (as an AH counterpart to a place called "Nikolai" there)
 2612 = "Eyakland"
-4924 = "Kahltag"	#Or "Sankt Michael"
-4925 = "Nomen"
-4928 = "Koyuck"
+5924 = "Kahltag"	#Or "Sankt Michael"
+5925 = "Nomen"
+5928 = "Koyuck"
 4969 = "Hoffnungspunkt"	#Or "Karrenhafen"
 4970 = "Hünen"
 4971 = "Alpin"
@@ -3128,8 +3095,6 @@
 2877 = "Zentral" #Or "Kapitol", "Zentralland"
 2911 = "Wieg" #Or "Linien"
 2914 = "Hochbell" #Or "Inhamp"
-1216 = "Nubien"			#or "Nubierland"
-1221 = "Südkurdufan"
 2327 = "Magna"
 5232 = "Chaibar Oase"
 4277 = "Teif"
@@ -3144,18 +3109,13 @@
 4276 = "Oteibaland"
 5255 = "Arakia" #or "Kisch"
 4273 = "Gasalla"
-4320 = "Thinis"
-4319 = "Theben"
-5272 = "Ammonien" #or "Matruh"
-5273 = "Siwa Oase"
-4323 = "Dachla Oase" #or "Dachla"
-5282 = "Bejaland"
-5285 = "Halfei"
-5286 = "Nordkurdufan"
-5301 = "Selima Oase"
+4320 = { "Thinis" "Thinis" }
+4319 = { "Theben" "Theben" }
+5272 = { "Ammonien" "Ammonien" } #or "Matruh"
+4323 = { "Dachla" "Dachla" }
+5301 = { "Selima" "Selima" }
 5135 = "Hadrianopel" #or "Mersin"
 4295 = "Cefa"
-2321 = "Kleinbürgen" #change due to map alterations
 145 = "Lakonien"
 3164 = "Konstanza" #or "Konstantinien" AH
 4698 = "Kefalonia"
@@ -3192,16 +3152,13 @@
 2176 = "Schangkiu"
 11 = "Westbottnien"
 1984 = "Aalburg"
-238 = "Ostsachsen"
 1860 = "Nordvolk"
 3028 = "Südvolk"
 7 = "Skaraburg"
 17 = "Westfold" #or "Oslo"
 19 = "Ostbottnien"
-3128 = "Satakunda"
 4113 = "Uleoburg"
 4114 = "Samien" #AH
-4123 = "Birkenland"
 4143 = "Ostfold"
 4163 = "Elfsberg" #or "Elfsburg"
 815 = "Fort Loyola"
@@ -3249,14 +3206,9 @@
 769 = "Christusdorf"
 2884 = "Michaelsmission"
 2895 = "Feste"
-2896 = "Grassfeld"
-944 = "Anderenge"
-2584 = "Karlsberg" #or "Engländerpunkt", "Schneesturm", "Montreal" would be sth like Königsberg if translated, but that would also be repetition, 
+2896 = "Grassfeld" 
 2585 = "Ogdensburg" #would be on the other side of the river however
-2586 = "Kesselpunkt"
-2587 = "Neuhannover"
-5037 = "Midhurst"
-4933 = "Gwichin-Ebene"
+5933 = "Gwichin-Ebene"
 4976 = "Tuktoya"
 4977 = "Von-Tat" #Or "Altkrähensee"
 5075 = "Paulina"
@@ -3292,16 +3244,10 @@
 5662 = "Mossalsk"
 5665 = "Wereja"
 5672 = "Morschanz"
-2450 = "Dschebil"
-2454 = "Kairawan"
-2473 = "Susa"
-5311 = "Choms"
-350 = "Aghwat"
-2456 = "Tuggurt"
-2463 = "Nama"
-2472 = "Wargalla"
-5327 = "Saida"
-2474 = "Murtsuck"
+2450 = { "Dschebil" "Dschebil" }
+2473 = { "Susa" "Susa" }
+350 = { "Aghwat" "Aghwat" }
+5327 = { "Saida" "Saida" }
 412 = "Ahwas" 
 2213 = "Kom"
 2217 = "Yasudsch"
@@ -3309,7 +3255,7 @@
 4290 = "Howeiz"
 5333 = "Kahlat"
 1958 = "Kargopol"
-2448 = "Sabha"
+2448 = { "Sabha" "Sabha" }
 3290 = "Wolokalamsk"
 370 = "Südisland"
 371 = "Nordisland"
@@ -3341,7 +3287,6 @@
 2536 = "Grosswasserburg"
 4622 = "Evangelium" #or "Kieferninsel"
 908 = "Sankt Cloud"
-910 = "Fredenberg"
 989 = "Amherstburg"
 1811 = "Südnunavut"
 1812 = "Lutselch"
@@ -3371,7 +3316,6 @@
 7287 = "Saanig"
 284 = "Perekop"
 285 = "Feodosia"
-1974 = "Taurien"
 3244 = "Zürichtal"
 3245 = "Kertsch"
 7190 = "Jalta"
@@ -3381,11 +3325,10 @@
 7103 = "Kalavrita"
 7143 = "Musachien"
 342 = "Ksar el Kebir"
-4563 = "Salen"
 4565 = "Teneriffa"
 4568 = "Demnate"
-5221 = "Bechar"
-5222 = "Tabelballa"
+5221 = { "Bechar" "Bechar" }
+5222 = { "Tabelballa" "Tabelballa" }
 2819 = "Mettetien"
 4587 = "Schelachu"
 4593 = "Lakei"
@@ -3452,7 +3395,7 @@
 2598 = "Elchskiefer"
 2602 = "Albert"
 2608 = "Bleistadt"
-4939 = "Gätz"
+5939 = "Gätz"
 4959 = "Östliche Grassländer" #or "Aurarien"
 5034 = "Goldspur" #or "Ebenau"
 5617 = "Heidemann"
@@ -3575,15 +3518,15 @@
 5894 = "Dämmerungsprärie"
 5895 = "Fluss Friede"
 5909 = "Bremnerland"
-4929 = "Nenana"
-4935 = "Tetlin"
+5929 = "Nenana"
+5935 = "Tetlin"
 8009 = "Tanakreuz"
 8007 = "Tenana"
 8010 = "Alexanderstorf"
 5918 = "Marschall"
 5722 = "Nikolai"
 5915 = "Niederes Kalskag"
-4937 = "Kirchmann"
+5937 = "Kirchmann"
 5083 = "Yukon Plateau"
 4948 = "Sankt Ignatius"
 4960 = "Schilling"
@@ -3609,8 +3552,8 @@
 21 = "Helgeland"
 3119 = "Tromsö"
 7768 = "Kahlenburg"
-5303 = "Dschaghbub Oase"
-5304 = "Audschila Oase"
+5303 = { "Dschaghbub" "Dschaghbub" }
+5304 = { "Audschila" "Audschila" }
 2909 = "Araguien"
 891 = "Aschenländer"
 2672 = "Kitehakiland"

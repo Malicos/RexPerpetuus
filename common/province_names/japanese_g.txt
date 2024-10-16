@@ -158,9 +158,9 @@
 1060 = "Irukutsuku"
 
 #alyeska
-4920 = "Aryushan Retto" #retto means islands
-4921 = "Nogeiku" #Naugeik
-4923 = "Futatsu no Kawa no Jinja" #shrine of two rivers, or "Futatsu no Kawa no Deruta" delta of...
+5920 = "Aryushan Retto" #retto means islands
+5921 = "Nogeiku" #Naugeik
+5923 = "Futatsu no Kawa no Jinja" #shrine of two rivers, or "Futatsu no Kawa no Deruta" delta of...
 5723 = "Asabasuka"
 5778 = "Sora" #or "Denari"
 
@@ -309,7 +309,7 @@
 4968 = "Fukai"
 
 #tanana
-4929 = "Mittsu no Kawa"
+5929 = "Mittsu no Kawa"
 
 #Skeena
 4943 = "Kajiya"

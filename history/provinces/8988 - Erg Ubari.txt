@@ -1,0 +1,4 @@
+#8988 - Erg Ubari
+
+discovered_by = muslim
+discovered_by = sub_saharan

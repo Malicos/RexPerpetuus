@@ -64,7 +64,7 @@
 7752 = { "Arges" "Curtea de Arges" }
 7753 = { "Slatina" "Slatina" }
 7754 = { "Turnu" "Turnu" }
-7755 = { "Prahovei" "Cetatea Buzaului" } #(JP) "Table Butii"
+7755 = { "Valea Prahovei" "Cetatea Buzaului" } #(JP) "Table Butii"
 7756 = { "Lichiresti" "Lichiresti" } #(JP) Modern "Calarasi"
 7757 = { "Floci" "Orasul de Floci" }
 7758 = { "Braila" "Braila" }

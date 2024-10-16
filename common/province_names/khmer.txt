@@ -1,15 +1,49 @@
+#Contributions from Cinnamon Ryce and Rexx23ify
+#(JP) Cambodian, Khmer culture in game.
+
+#Cambodia
+609 = { "Angkor" "Yasodharapura" }
+8683 = { "Srey Sarchhor" "Srey Sarchhor" }
+4827 = { "Kampong Pous Thom" "Kampong Pous Thom" }
+
+
+#Mekong Delta
+605 = { "Ou Kab" "Ou Kab" }
+
+#Prachin
+603 = { "Chan Borey" "Chan Borey" }
+8642 = { "Stung Chreuw" "Prachinburi" }
+612 = { "Nokor Reachseima" "Nokor Reachseima" }
+4836 = { "Serey Tep" "Serey Tep" }
+
+#Ayutthaya
+4831 = { "Boeung Kak" "Thonborey" }
+600 = { "Ayothyea" "Ayothyea" }
+4832 = { "Lowborey" "Lowborey" }
+592 = { "Reachborey" "Reachborey" }
+4834 = { "Sovannborey" "Sovannborey" }
+2387 = { "Pechroborey" "Pechroborei" }
+
+#North Tenasserim
+4835 = { "Kanchanborey" "Senghakborey" }
+591 = { "Thvay" "Thvay" }
+8636 = { "Tann Sarei" "Tann Sarei" }
+
+#Central Tenasserim
+2390 = { "Chey" "Chey" }
+593 = { "Srey Thommareach" "Nokor Srey Thommareach" }
+
+#Sukhothai
+2389 = { "Preah Bang" "Preah Bang" }
+4833 = { "Pechbor" "Pechbor" }
+2388 = { "Pisnulok" "Pisnulok" }
+8641 = { "Nokor Chum" "Nokor Chum" }
+4841 = { "Haribunjay" "Lamphun" }
+
 
 #By Cinnamon Ryce as part of his SEA addon
-592 = "Khu Bua"
-593 = "Sri Thommareach"
-600 = "Ayouthya"
-603 = "Krat"
-612 = "Koreach"
 2375 = "Chareay"
 2383 = "Kauk Khan"
-2387 = "Kamphaeng Laeng"
-2388 = "Song Khwae"
-2389 = "Preah Bang"
 8556 = "Bangokak"
 8596 = "Ede"
 8637 = "Rayang"

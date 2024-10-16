@@ -1,0 +1,1 @@
+set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.

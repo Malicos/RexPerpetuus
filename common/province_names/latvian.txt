@@ -29,12 +29,12 @@
 3230 = { "Vecspernava" "Vecspernava" } #(JP) After c.1600 "Vecspernava"
 3231 = { "Hijuma" "Kerdla" } 
 3293 = { "Selija" "Selpils" }
-4241 = { "Limbaži" "Limbaži" }
+4241 = { "Limbazi" "Limbazi" }
 4534 = { "Upyte" "Upyte" } #(JP) Lithuanian name
 4535 = { "Utena" "Utena" } #(JP) Lithuanian name
 7833 = { "Sembas" "Fishhauzene" }
 7834 = { "Neihauzene" "Neihauzene" }
-7835 = { "Vengoževo" "Vengoževo" }
+7835 = { "Vengozevo" "Vengozevo" }
 7837 = { "Ragnite" "Ragnite" }
 7838 = { "Grobina" "Grobina" }
 7839 = { "Ventspils" "Ventspils" }

@@ -613,7 +613,7 @@
  bajau:0 "Bajau"
  banjarese:0 "Banjarese"
  batak:0 "Batak"
- berber:0 "Zenati"
+ berber:0 "Zenata"
  bimanese:0 "Bimanese"
  bornean:0 "Dayak"
  burmese:0 "Bamar"
@@ -630,7 +630,7 @@
  gaelic:0 "Gaelic"
  huron:0 "Wendat"
  ilocano:0 "Ilocano"
- kabylian:0 "Kabylian"
+ kabylian:0 "Kabyle"
  khoisan:0 "Khoikhoi"
  khun:0 "Lue"
  kongo_group:0 "Central Bantoid"
@@ -644,10 +644,12 @@
  navajo:0 "Apache"
  north_sulawesi:0 "Sulawesian"
  northern_thai:0 "Lanna"
+ nubian:0 "Dotawan"
  orang_asli:0 "Asli"
  pueblo:0 "Tanoan"
  russian:0 "Russian"
  safi:0 "Safi"
+ sahelian:0 "Saharan"
  salish:0 "Lushootseed"
  saxon:2 "High Saxon"
  schlesian:2 "High Silesian"
@@ -662,7 +664,7 @@
  arawak:0 "Central Taino"
  timorese:0 "Timorese"
  tionontate:0 "Erie"
- tunisian:0 "Maghrebi"
+ tunisian:0 "Ifriqi"
  turko_semitic:0 "Arabic"
  visayan:0 "Visayan"
  wien:0 "Vienna"
@@ -796,15 +798,8 @@
  
  NO_GOLD_PRODUCING_PROVINCES:0 "We have no provinces that are producing precious metals."
  GOLD_PRODUCING_PROVINCES:0 "The following provinces are producing precious metals: $LIST$"
- INFLATION_DESC:0 "Inflation may come from having too much precious metals (gold and silver) income in comparison to other income or from taking loans." 
-
+ 
  ACCEPTED_CULTURES_COUNT:0 "Promoted Cultures: $CURR$"
  ACCEPTED_CULTURE_SLOTS_DESC:0 "To promote a culture, click the §Y"Promote Culture"§! button on a Non-Accepted Culture.\nThe below is bugged and cannot be removed without custom GUI, so ignore:\n"
-
- #99_Lubeck loc adjustements
- #hsa_diplomatic_upkeep_boost_tt:0 "§MWe will gain a boost to our Diplomatic Relations (for 30 years) to cover part of the cost of maintaining our new vassals (up to 6 of).§!"
- hsa_reward_scales_with_number_of_members_tt:0 "This reward scales accordingly with the size of our §YTrade League§! (up to 6 members)."
- hsa_hamburg_dev_per_member:0 "If we complete the mission while @HAM §YHamburg§! has at least §Y160§! opinion of us, the entire Trade League will receive a §GDevelopment Cost Reduction§! bonus scaling according to the number of the League's members (up to 6)."
- hsa_vassalize_lib_desire_trade_league_tt:0 "Every member of our §YTrade League§! will become our §YHanseatic League Member§! - a special vassal that does not cost diplomatic relationship slot and become our §YHistorical Friend§!, losing §G-50%§! Liberty Desire permanently.\n"
- hsa_based_on_the_development_of_our_capital_tt:0 "Gain following monarch power based on the development of our capital:"
+ 
  

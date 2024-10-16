@@ -1,0 +1,18 @@
+
+historical_rival = TUR
+historical_friend = HUN			#Dub added HF w/ HUN in BT unofficial for gameplay reasons. Makes sense for historical ones, too, but it is incomplete. Needs BOH, too.
+historical_friend = BOH
+add_ruler_modifier = {
+	name = "bt_interregnum_so_no_heir"
+	duration = -1
+}
+
+
+1444.11.11 = {
+	monarch = {
+		adm = 2
+		mil = 2
+		dip = 2
+		regent = yes
+	}
+}

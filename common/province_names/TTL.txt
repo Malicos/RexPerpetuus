@@ -1,3 +1,4 @@
 #Specific name for the tag
 
-1873 = "Drei Bünde"
+#South Germany
+1873 = { "Drei Bünde" "Chur" }

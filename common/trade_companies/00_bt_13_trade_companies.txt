@@ -5,7 +5,7 @@ trade_company_dongola_trade = {
 		60 180 60
 	}
 	provinces = {
-		774 1216 1219 1220 1221 1228 2797 2801 2802 2932 5266 5281 5284 5286 5300 5302 5279 
+		1217 1220 1222 1225 1226 1228 1229 1234 2322 2323 2797 2798 2799 2800 4033 4322 5277 5278 5279 5281 5284 5285 5287 5289 5290 5300 5302 8965 8971 8972 9007 9009 9010 9011 9012 9013 9014 9016 9017 9018 9019 9020 9021 9022 9023 9024 9025 9026 9027 9028 9030 9088 
 	}
 	
 	# Specific
@@ -214,5 +214,74 @@ trade_company_rouen_trade={ #Breton Charter
 	}
 	names = {
 		name = "TRADE_COMPANY_ROUEN_European_Trade_Company"
+	}
+}
+trade_company_tripoli_trade={ #Tripoli Charter
+	color={
+		100 100 100
+	}
+	
+	provinces = {
+		353 354 355 356 357 2448 2449 2451 2452 2474 2954 4567 5274 5303 5304 5306 5309 5310 5311 8977 9095 9096 9097 9098 9103 9104 9105 9106 9107 9108 9109 9111 9112 9113 9114 9115 
+		8985 8988 8992
+	}
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_TRIPOLI_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_TRIPOLI_Africa_Trade_Company"
+	}
+}
+trade_company_tuat_trade={ #Tuat Charter
+	color={
+		200 200 100
+	}
+	
+	provinces = {
+		350 1127 1130 1156 1794 2271 2272 2273 2274 2275 2276 2277 2456 2457 2472 5221 5222 5307 8979 8986 8987 8989 8991 8993 8994 8995 8996 8997 9068 9069 9070 9071 9072 9073 9075 9074 9126 9135 9137 9138 9139 9140 9141 9142 9143 9144 9145 9146 9147 9148 9149 9150 9151 9152 9153 9154 9155 
+	}
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_TUAT_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_TUAT_Africa_Trade_Company"
+	}
+}
+trade_company_adrar_trade={ #Adrar Charter
+	color={
+		0 100 100
+	}
+	
+	provinces = {
+		1115 1128 1129 1793 2237 2240 2243 2244 2245 2246 2247 5223 8998 9156 9157 9158 9159 9160 9161 9162 9163 9164 9165 9173 9175 9176 9177 9178 9188 
+	}
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_ADRAR_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_ADRAR_Africa_Trade_Company"
+	}
+}
+trade_company_kobbei_trade={ #Kobbei Charter
+	color={
+		200 150 150
+	}
+	
+	provinces = {
+		774 1216 1219 1221 1795 2475 2801 2802 2932 5266 5286 5301 8978 8980 8981 8982 8983 8984 9029 9031 9032 9033 9034 9035 9036 9037 9038 9039 9040 9041 9042 9043 9044 9045 9046 9047 9048 9049 9050 9051 9052 9053 9054 9055 9056 9057 9058 9059 9060 9061 9062 9063 9064 9065 9066 9067 9089 9099 9100 9101 9102 9110 
+	}
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_KOBBEI_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_KOBBEI_Africa_Trade_Company"
 	}
 }

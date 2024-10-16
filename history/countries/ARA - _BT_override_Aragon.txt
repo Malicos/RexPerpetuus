@@ -1,0 +1,12 @@
+
+
+1444.10.1 = {
+	set_estate_privilege = estate_nobles_strong_duchies
+}
+
+1444.11.16 = {
+	remove_estate_privilege = estate_nobles_strong_duchies
+}
+1444.11.18 = { ##BT Performance Start, removes the things for its duration
+	set_estate_privilege = estate_nobles_strong_duchies
+}

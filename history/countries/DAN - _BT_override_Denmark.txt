@@ -1,0 +1,15 @@
+
+historical_friend = SCO			#Preventing almost guaranteed SCO DAN rivalry without it. Denmark & Scotland kinda-sorta got on most of the time.
+
+change_estate_land_share = {
+    estate = estate_nobles
+    share = 5
+}
+change_estate_land_share = {
+    estate = estate_burghers
+    share = 7
+}
+change_estate_land_share = {
+    estate = estate_peasants
+    share = -12 #Denmark has a lot of arable land, so I'm using that as an argument for high crown land.
+}

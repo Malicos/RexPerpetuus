@@ -8,20 +8,30 @@
 25 = { "Gotlanti" "Visby" }
 27 = { "Turku" "Turku" }
 28 = { "Uusimaa" "Rasepori" }
+29 = { "Kanta-Häme" "Hämeenlinna" }
 30 = { "Viipuri" "Viipuri" }
+31 = { "Etelä-Savo" "Olavinlinna" }
 32 = { "Käkisalmi" "Käkisalmi" }
 315 = { "Cáhcesuolu" "Várggát" }
 1930 = { "Ahvenanmaa" "Maarianhamina" }
 3119 = { "Romsa" "Romsa" }
 3124 = { "Angermannlanti" "Styresholm" }
+3128 = { "Satakunta" "Ulvila" }
 4113 = { "Oulu" "Oulu" } 
 4114 = { "Sápmi" "Giron" }
+4123 = { "Pirkanmaa" "Tampere" }
+4124 = { "Ilomantsi" "Ilomantsi" }
 4151 = { "Aanaar" "Aanaar" }
 4152 = { "Kainuu" "Kainuu" }
 7747 = { "Váhki" "Váhki" }
 7789 = { "Bododdjo" "Bododdjo" }
 7799 = { "Luleju" "Luleju" }
 7800 = { "Duortnus" "Duortnus" }
+7803 = { "Pohjois-Häme" "Jyväskylä" }
+7804 = { "Pohjois-Savo" "Kuopio" }
+7805 = { "Etelä-Häme" "Lahti" }
+7806 = { "Lappee" "Kauskila" } #Going with Karelian local name for the city, but Lappee for the prov name for now. Technically would be split between karelian.txt and finnish.txt.
+7807 = { "Porvoo" "Porvoo" }
 7808 = { "Sortavala" "Sortavala" }
 
 #Baltic
@@ -37,7 +47,7 @@
 3229 = { "Viljandi" "Viljandi" }
 3230 = { "Vana-Pärnu" "Vana-Pärnu" }
 3231 = { "Hiiumaa" "Kärdla" }
-4241 = { "Limbaž" "Limbaž" } 
+4241 = { "Limbaz" "Limbaz" } 
 7216 = { "Braslau" "Braslau" }
 7833 = { "Sambija Poolsaar" "Primor" }
 7838 = { "Grobina" "Grobina" }
@@ -94,7 +104,4 @@
 #Scandinavia
 18 = "Ruotsin Lappi"
 19 = "Vaasa"
-29 = "Häme"
-31 = "Savo"
 3123 = "Uplanti"
-4124 = "Pohjois-Karjala"

@@ -1,0 +1,33 @@
+#9054 - Laqiya Arbain
+#Area - 
+#Region - East Sahara
+
+#Core Details
+capital = "Laqiya Arbain"
+is_city = no
+
+#Demographics
+#culture = beja
+#religion = shamanism #Fetishism
+
+#Development and Trade
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = unknown
+
+#Cores and Occupation (Alphabetical after current)
+
+#Other Political
+hre = no
+native_size = 0 #x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 0 #Each gives 0.05 tactics to uprising
+native_hostileness = 0 #Each gives 1% chance of uprising a month
+
+#Fort/Other Buildings
+
+#Special Modifiers
+
+#Discoveries
+
+#Histories 

@@ -120,8 +120,9 @@
 852 = "Kenokikelana"        #Tenochtitlan
 
 #Africa
-358 = "'Alekekanekelia"        #Alexandria
-361 = "Kailo"            #Cairo
+358 = { "'Alekekanekelia" "'Alekekanekelia" }        #Alexandria
+361 = { "Kailo" "Kailo" }            #Cairo
+365 = { "Kinai" "Kana Kakalina" }			#Sinai; Saint Catherine
 1132 = "Kimipokoku"        #Tumbuktu
 1177 = "'Ainakauhale"        #Cape Town
 1205 = "Mokakiku"        #Mogadishu

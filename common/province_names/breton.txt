@@ -3,7 +3,8 @@
 #(JP) I have reorganised and cleaned up all the prior Welsh/Brythonic naming to try and make it more legible, consistant and keep it easier to edit in future
 #(JP) I make absolutely 0 claim to speak, understand, or even comprehend celtic languages. Please correct me when I am wrong!
 
-#Scotland
+#Britain
+233 = { "Kernev-Veur" "Truru" }
 
 #Ireland
 373 = { "Dulenn" "Dulenn" }
@@ -27,7 +28,6 @@
 3036 = "Keredigion"
 
 #Kernow
-233 = "Kernev-Veur"
 4373 = "Devnent"			#Capital Karesk, think that may be modern, though. Welsh Dyfnaint might be preferable anyhow
 
 #French Beyond Typus defaults for Breton.
@@ -64,7 +64,7 @@
 1008 = "Fort Rouge" # Winipek								#Francophone name
 1009 = "Bas de la Rivière" # Wanipigow					#Francophone name
 1010 = "Manitou" # Manidoobaa								#Francophone name
-4939 = "Wapitis Rouges" # Waskasoo Seepee			#Francophone name
+5939 = "Wapitis Rouges" # Waskasoo Seepee			#Francophone name
 1806 = "Island Lake" # Wasagamack							#Anglophone name
 1808 = "Humboldt" # Mahaguaduka							#Germanic name problem would another name be better
 1810 = "Kuskokwim" # Deg Hitan							#Generic name
@@ -121,27 +121,27 @@
 2620 = "Tijuana" # Kumeyaay									#Iberian name used by Anglophone
 
 #BT200 New Provinces
-4920 = "Aleut" # Aleut East										#Generic name
-4921 = "Naknek" # Naugeik										#Generic name
-4922 = "Dilingham" # Curyuk									#Anglophone name
-4923 = "Bethel" # Mamterilleq									#Christian name used by Anglophone
-4924 = "Unalakleet" # Unalaqliq								#Generic name
-4925 = "Nome" # Chinik											#Anglophone name
-4926 = "Kenai" # Kena												#Generic name
-4927 = "Valdez" # Suacit											#Iberian name used by Anglophone
-4928 = "Galena" # Koyukuk										#Slavic name used by Anglophone
-4929 = "Clachotin" # Nuchalawoyyet						#Francophone name
-4930 = "Allakaket" # Allakaket									#Generic name
-4931 = "Fairbanks" # Chena										#Anglophone name
-4932 = "Beaver" # Denyeet										#Anglophone name
-4933 = "Fort Yukon" # Gwichin								#Anglophone name
-4934 = "Eagle" # Han Hwechin									#Anglophone name
-4935 = "Tanacross" # Taatsaltey								#Anglophone name
-4936 = "Ahtna" # Ahtna											#Generic name
-4937 = "Klondike" # Trochek Hwechin						#Francophone name BeyondTypusInvention
-4938 = "Whitehorse" # Dan										#Anglophone name
-4940 = "Fort Victoria" # Snuneymuxw						#Anglophone name
-4941 = "Kitimat" # Xaislakala									#Generic name
+5920 = "Aleut" # Aleut East										#Generic name
+5921 = "Naknek" # Naugeik										#Generic name
+5922 = "Dilingham" # Curyuk									#Anglophone name
+5923 = "Bethel" # Mamterilleq									#Christian name used by Anglophone
+5924 = "Unalakleet" # Unalaqliq								#Generic name
+5925 = "Nome" # Chinik											#Anglophone name
+5926 = "Kenai" # Kena												#Generic name
+5927 = "Valdez" # Suacit											#Iberian name used by Anglophone
+5928 = "Galena" # Koyukuk										#Slavic name used by Anglophone
+5929 = "Clachotin" # Nuchalawoyyet						#Francophone name
+5930 = "Allakaket" # Allakaket									#Generic name
+5931 = "Fairbanks" # Chena										#Anglophone name
+5932 = "Beaver" # Denyeet										#Anglophone name
+5933 = "Fort Yukon" # Gwichin								#Anglophone name
+5934 = "Eagle" # Han Hwechin									#Anglophone name
+5935 = "Tanacross" # Taatsaltey								#Anglophone name
+5936 = "Ahtna" # Ahtna											#Generic name
+5937 = "Klondike" # Trochek Hwechin						#Francophone name BeyondTypusInvention
+5938 = "Whitehorse" # Dan										#Anglophone name
+5940 = "Fort Victoria" # Snuneymuxw						#Anglophone name
+5941 = "Kitimat" # Xaislakala									#Generic name
 4942 = "Tillamook" # Nehalem									#Generic name
 4943 = "Bulkley" # Nataotin										#Anglophone name
 4944 = "Nechako" # Netsha Koh								#Generic name

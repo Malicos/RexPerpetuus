@@ -1,0 +1,43 @@
+#9193 - Rabat
+#Area - 
+#Region - North Africa
+
+#Core Details
+capital = "Rabat"
+is_city = yes
+owner = MOR
+controller = MOR
+
+#Demographics
+culture = moroccan
+religion = sunni
+
+#Development and Trade
+base_tax = 4
+base_production = 3
+base_manpower = 3
+trade_goods = fish
+
+#Cores and Occupation (Alphabetical after current)
+add_core = MOR
+add_core = FEZ
+
+#Other Political
+hre = no
+
+#Fort/Other Buildings
+fort_15th = yes
+
+#Special Modifiers
+add_permanent_province_modifier = {
+	name = bou_regreg_estuary_modifier
+	duration = -1
+}
+
+#Discoveries
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+#Histories 

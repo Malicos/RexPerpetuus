@@ -19,7 +19,6 @@
 #4318 = { "Atfiheya" "Atfih" }
 #4319 = { "El-Uqsor" "El-Uqsor" }
 #4320 = { "Gerga" "Gerga" }
-#4321 = { "Es-Sahra esh-Sharqeya" "Medinet el-Gebali" }
 #4323 = { "Ed-Dakhla" "El-Qasr" }
 #5264 = { "El-Gize" "El-Gize" }
 #5267 = { "Beni Suef" "Beni Suef" }
@@ -28,7 +27,6 @@
 #5273 = { "Es-Siwah" "Es-Siwah" }
 
 ##Levant
-#365 = { "El-Tur" "El-Tur" }
 #364 = { "El-Arish" "El-Arish" }
 #5180 = { "Ghazze" "Ghazze" }
 #5181 = { "Nekhel" "Nekhel" }

@@ -60,7 +60,6 @@
 4373 = "Dewnens"			#Capital Karesk, think that may be modern, though.
 
 #Welsh England
-234 = "Gorllewin Sachsen"			#Wessex, as other -ssex place names
 235 = "Caint"
 236 = "Llundain"
 237 = "Rhydychen"
@@ -119,7 +118,7 @@
 1008 = "Winnipeg" # Winipek									#Generic name
 1009 = "Fort Alexander" # Wanipigow					#Francophone name by Anglophone
 1010 = "Manitoba" # Manidoobaa							#Generic name
-4939 = "Red Deer" # Waskasoo Seepee						#Anglophone name
+5939 = "Red Deer" # Waskasoo Seepee						#Anglophone name
 1806 = "Island Lake" # Wasagamack							#Anglophone name
 1808 = "Humboldt" # Mahaguaduka							#Germanic name used by Anglophone problem would another name be better
 1810 = "Kuskokwim" # Deg Hitan							#Generic name
@@ -176,27 +175,27 @@
 2620 = "Tijuana" # Kumeyaay									#Iberian name used by Anglophone
 
 #BT200 New Provinces
-4920 = "Aleut" # Aleut East										#Generic name
-4921 = "Naknek" # Naugeik										#Generic name
-4922 = "Dilingham" # Curyuk									#Anglophone name
-4923 = "Bethel" # Mamterilleq									#Christian name used by Anglophone
-4924 = "Unalakleet" # Unalaqliq								#Generic name
-4925 = "Nome" # Chinik											#Anglophone name
-4926 = "Kenai" # Kena												#Generic name
-4927 = "Valdez" # Suacit											#Iberian name used by Anglophone
-4928 = "Galena" # Koyukuk										#Slavic name used by Anglophone
-4929 = "Tanana" # Nuchalawoyyet							#Generic name
-4930 = "Allakaket" # Allakaket									#Generic name
-4931 = "Fairbanks" # Chena										#Anglophone name
-4932 = "Beaver" # Denyeet										#Anglophone name
-4933 = "Fort Yukon" # Gwichin								#Anglophone name
-4934 = "Eagle" # Han Hwechin									#Anglophone name
-4935 = "Tanacross" # Taatsaltey								#Anglophone name
-4936 = "Ahtna" # Ahtna											#Generic name
-4937 = "Dawson" # Trochek Hwechin						#Anglophone name
-4938 = "Whitehorse" # Dan										#Anglophone name
-4940 = "Fort Victoria" # Snuneymuxw						#Anglophone name
-4941 = "Kitimat" # Xaislakala									#Generic name
+5920 = "Aleut" # Aleut East										#Generic name
+5921 = "Naknek" # Naugeik										#Generic name
+5922 = "Dilingham" # Curyuk									#Anglophone name
+5923 = "Bethel" # Mamterilleq									#Christian name used by Anglophone
+5924 = "Unalakleet" # Unalaqliq								#Generic name
+5925 = "Nome" # Chinik											#Anglophone name
+5926 = "Kenai" # Kena												#Generic name
+5927 = "Valdez" # Suacit											#Iberian name used by Anglophone
+5928 = "Galena" # Koyukuk										#Slavic name used by Anglophone
+5929 = "Tanana" # Nuchalawoyyet							#Generic name
+5930 = "Allakaket" # Allakaket									#Generic name
+5931 = "Fairbanks" # Chena										#Anglophone name
+5932 = "Beaver" # Denyeet										#Anglophone name
+5933 = "Fort Yukon" # Gwichin								#Anglophone name
+5934 = "Eagle" # Han Hwechin									#Anglophone name
+5935 = "Tanacross" # Taatsaltey								#Anglophone name
+5936 = "Ahtna" # Ahtna											#Generic name
+5937 = "Dawson" # Trochek Hwechin						#Anglophone name
+5938 = "Whitehorse" # Dan										#Anglophone name
+5940 = "Fort Victoria" # Snuneymuxw						#Anglophone name
+5941 = "Kitimat" # Xaislakala									#Generic name
 4942 = "Tillamook" # Nehalem									#Generic name
 4943 = "Bulkley" # Nataotin										#Anglophone name
 4944 = "Nechako" # Netsha Koh								#Generic name
@@ -301,7 +300,7 @@
 985 = "Moncton"	# Micmac									#Anglophone name
 986 = "New Richmond"	# Kespek							#Anglophone name
 987 = "Niagara" # Niagara											#Native name 
-988 = "London" # Huron											#Anglophone name
+988 = "Windsor" # Huron											#Anglophone name
 989 = "Kingston" # Ontario										#Anglophone name 
 990 = "Mauricie"	# Kwedech									#Francophone name 
 991 = "Renfrew" # Ottawa										#Anglophone name

@@ -1,0 +1,4 @@
+#8986 - Hoggar Mountains
+
+discovered_by = sub_saharan
+discovered_by = muslim

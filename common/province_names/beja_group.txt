@@ -1,4 +1,29 @@
 #(JP) Beja languages
 #(JP) Likely only a few names, but it is a culture group
 
-#Horn of Africa 
+#Egypt
+
+#Nubia
+1225 = { "Kassala" "Kassala" } #(JP) Base Names
+1226 = { "Ookwaakw" "Ookwaakw" }
+1229 = { "Derahib" "Derahib" } #(JP) Base Names
+1232 = { "Oosook" "Oosook" }
+2323 = { "Shanka" "Shanka" } #(JP) Base Names
+2324 = { "Aydhab" "Aydhab" } #(JP) Base Names
+4033 = { "Teawa" "Teawa" } #(JP) Older Name
+4322 = { "Wadi Allaqi" "Quban" }  #(JP) Cannot find vanilla Abrak, but "Quban" and "Derahib" are the sites of two forts. "Derahib is now its own province. "Quban" was anciently known as "Baki" and was the site of Nubian-Egyptian "Contra Pselchis". Maybe "Kuban" for Turkish Quban? Found another reference to a "Qubban" so that seems a clear historical settlement
+5271 = { "Baranis" "Baranis" } #(JP) Base Names
+5282 = { "Bar'uut" "Bar'uut" }	
+5283 = { "Tokar" "Tokar" } #(JP) Base Names
+9014 = { "Wadi Gabgaba" "Murat Wells" } #(JP) Base Names
+9015 = { "Dungonab" "Dungonab" } #(JP) Base Names
+9016 = { "Gebeit" "Gebeit" } #(JP) Base Names
+9017 = { "Ariab" "Ariab" } #(JP) Base Names
+9018 = { "Musmar" "Musmar" } #(JP) Base Names
+9019 = { "Derudeb" "Derudeb" } #(JP) Base Names
+9020 = { "Filik" "Filik" } #(JP) Base Names
+9021 = { "Adarama" "Adarama" } #(JP) Base Names
+9025 = { "Showak" "Showak" } #(JP) Base Names
+9026 = { "Ras al-Fil" "Ras al-Fil" } #(JP) Base Names
+9027 = { "Hor-Cacamoot" "Hor-Cacamoot" } #(JP) Old Names
+9086 = { "Shalateen" "Shalateen" } #(JP) Base Names

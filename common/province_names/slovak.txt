@@ -12,7 +12,7 @@
 1318 = { "Spis" "Levoca" }
 1772 = { "Presporok" "Presporok" }
 3051 = { "Zelezné Mesto" "Zelezné Mesto" }
-3146 = { "Uh" "Užhorod" }
+3146 = { "Uh" "Uzhorod" }
 3148 = { "Solnok" "Solnok" }
 4125 = { "Heves" "Jáger" }
 4236 = { "Trencín" "Trencín" }

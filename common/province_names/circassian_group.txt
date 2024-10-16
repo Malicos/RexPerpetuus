@@ -1,0 +1,9 @@
+#Contributions from Chairman Meow (JP)
+#(JP) Circassian, will overwrite caucasian.txt, includes Abkhaz, Agydhe, and Karbadian
+#(JP) World's Primary Language Family
+
+#Caucasia
+423 = { "Kart" "Kart" }
+462 = { "Agirni" "Zugdidi" }
+1856 = { "Aqwa" "Aqwa" }
+7299 = { "Gagra" "Gagra" }

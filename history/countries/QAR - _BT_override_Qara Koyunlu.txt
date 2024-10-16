@@ -1,0 +1,6 @@
+
+primary_culture = turkoman
+add_accepted_culture = azerbaijani
+historical_rival = SRV
+
+remove_estate_privilege = estate_nobles_emirs_of_baghdad

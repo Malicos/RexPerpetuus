@@ -176,45 +176,310 @@
 #Anatolia
 6001 = { "Thebasion" "Thebasion" }
 6002 = { "Belekoma" "Belekoma" }
-6003 = { "Pegadia" "Pegadia" }
 6004 = { "Pergamon" "Pergamon" }
 6005 = { "Phocaea" "Phocaea" }
-6006 = { "Litri" "Litri" } #Apparent later Byzantine name of Erythrae, the main city where Cesme would develop
 6007 = { "Agios Theologos" "Agios Theologos" }
-6008 = { "Pyrgion" "Pyrgion" }
 6009 = { "Mylasa" "Mylasa" }
 6010 = { "Tabae" "Tabae" }
-6011 = { "Tiberiopolis" "Tiberiopolis" }
-6012 = { "Kibrya" "Kibrya" }
 6013 = { "Antiphellos" "Antiphellos" }
 6014 = { "Saporda" "Saporda" }
-6015 = { "Polydorion" "Polydorion" }
 6016 = { "Pontoherakleia" "Pontoherakleia" }
-6017 = { "Anastasiopolis" "Anastasiopolis" }
-6018 = { "Amorion" "Amorion" }
+#6018 = { "Amorion" "Amorion" }
 6019 = { "Philomelion" "Philomelion" }
 6020 = { "Mistheia" "Mistheia" }
 6021 = { "Germanicopolis" "Germanicopolis" }
-6022 = { "Seleukeia" "Seleukeia" }
-6023 = { "Claudiopolis" "Claudiopolis" }
-6024 = { "Herakleia Kybistra" "Herakleia" }
 6025 = { "Tarsus" "Tarsus" }
-6026 = { "Pterion" "Pterion" }
 6027 = { "Tenos" "Tenos" }
 6028 = { "Taranda" "Taranda" }
 6029 = { "Ablasta" "Ablasta" }
-6030 = { "Perre" "Perre" } #Not sure here tbh
-6031 = { "Malos" "Malos" } #Nearby
-6032 = { "Parthenios" "Parthenios" }
 6033 = { "Inepolis" "Inepolis" }
 6034 = { "Merzifounta" "Merzifounta" }
 6035 = { "Gadilon" "Gadilon" }
-6036 = { "Laodikeia" "Laodikeia" }
 6037 = { "Eudokia" "Eudokia" }
 6038 = { "Meletios" "Meletios" }
-6039 = { "Oinaion" "Oinaion" }
 6040 = { "Mavrokastron" "Mavrokastron" }
 6041 = { "Thyatira" "Thyatira" }
+
+#Caucasia
+419 = { "Tibion" "Tibion" }
+420 = { "Gantzaka" "Gantzaka" } #(JP) Base Names
+421 = { "Bagaban" "Bagaban" } #This is what armenian historians call the city before ~800 AD, i.e city of winds (Baga-avan)
+422 = { "Kotais" "Kotais" }
+423 = { "Tiphlida" "Tiphlida" } #(JP) Modern Greek "Tiflída"
+424 = { "Arbandon" "Arbandon" } #(Dub) Aharawa (Which is what province marker signifies)
+425 = { "Guba" "Guba" } #(JP) Base Names
+462 = { "Archaiopolis" "Archaiopolis" } #(Dub) Technically further in-land, but will do for now.
+1856 = { "Sebastopolis" "Sebastopolis" }
+2196 = { "Migrelia" "Bathys" }
+2202 = { "Kachen" "Vank" }
+2203 = { "Teleda" "Teleda" }
+2204 = { "Anion" "Anion" }
+2205 = { "Naxouana" "Naxouana" }
+3250 = { "Ardanoutzin" "Ardanoutzin" }
+3251 = { "Achaltskai" "Achaltskai" } #(Dub) The Armenian name is Achaltscha, Achaltsiche means "New castle", so if we want to drop the armenian/georgian names we could go for Neokastron. I went with assuming Achaltscha would turn into Achaltskae.
+3253 = { "Lorion" "Lorion" }
+3256 = { "Syunik" "Kapan" } #(JP) Base Names
+4299 = { "Kamachia" "Kamachia" }
+4301 = { "Gori" "Gori" } #(JP) Base Names
+4303 = { "Pharangion" "Pharangion" } #(Dub) Actually a persian name, but it sounds sufficiently greek so I'll go for it. In Latin it was Pharangium. Alternatively we have Taochoi. This one is hell on earth to find a name for otherwise. Was 3249 pre 1.24
+4305 = { "Sakion" "Sakion" }
+4340 = { "Lankaran" "Lankaran" } #(JP) Base Names
+7284 = { "Barda" "Barda" } #(JP) Base Names
+7285 = { "Astara" "Astara" } #(JP) Base Names
+7286 = { "Beylagan" "Beylagan" } #(JP) Base Names
+7287 = { "Dizak" "Togh" } #(JP) Base Names
+7288 = { "Gegharkunik" "Vasakashen" } #Base Names
+7289 = { "Kazakh" "Kazakh" } #(JP) Base Names
+7290 = { "Tamaris" "Tamaris" }
+7291 = { "Balaken" "Balaken" } #(JP) Base Names
+7292 = { "Canaria" "Stepantsminda" } #Base Names
+7293 = { "Dvaletia" "Nuzal" }# (JP) Base Names
+7294 = { "Tskhinval" "Tskhinval" } #(JP) Base Names
+7295 = { "Racha" "Oni" } #(JP) Base Names 
+7297 = { "Atzaria" "Hulo" }
+7298 = { "Suania" "Lentekhi" } #(JP) Capital is base name
+7299 = { "Nitica" "Nitica" }
+
+#Egypt
+358 = { "Alexandreia" "Alexandreia" } #Alexandria
+359 = { "Krokodilopolis" "Krokodilopolis" } #Fayyum
+360 = { "Maximianopolis" "Maximianopolis" }
+361 = { "Helioupolis" "Helioupolis" } #Cairo
+362 = { "Bolbitine" "Bolbitine" } #Rashid
+363 = { "Pelousion" "Pelousion" } #El Farama
+365 = { "Hagia Aikaterine" "Hagia Aikaterine" } #Nekhel
+1231 = { "Syene" "Syene" } #Aswan
+1233 = { "Hibis" "Hibis" } #El Kharga
+2315 = { "Klysma" "Klysma" } #Suez
+2316 = { "Sais" "Sais" } #Tanta
+2317 = { "Antinoopolis" "Antinoopolis" } #Minya
+2318 = { "Pouka" "Pouka" } #El Bawiti
+2319 = { "Lykopolis" "Lykopolis" } #Asyut
+2320 = { "Leukos Limen" "Leukos Limen" } #Ras Gharib
+2321 = { "Myos Hormos" "Myos Hormos" } #El Oser
+2325 = { "Antiphrai" "Antiphrai" } #Marsa
+2326 = { "Antipyrgos" "Antipyrgos" } #Tobruk
+4268 = { "Ailana" "Ailana" } #Aqaba
+4316 = { "Sebennytos" "Sebennytos" } #Sammanud/Mansoura
+4317 = { "Hermopolis Mikra" "Hermopolis Mikra" }
+4318 = { "Aphroditopolis" "Aphroditopolis" } #Atfih
+4319 = { "Diospolis Megale" "Diospolis Megale" }
+4320 = { "Thinis" "Thinis" } #Girga
+4323 = { "Trimithis" "Trimithis" } #Al Qasr
+5181 = { "Nekhel" "Nekhel" } #(JP) Base Names
+5261 = { "Tamiathis" "Tamiathis" } #Dumyat
+5264 = { "Phylake" "Phylake" } #Giza
+5267 = { "Oxyrrhynchos" "Oxyrrhynchos" } #Baniswef
+5272 = { "Paraitonion" "Paraitonion" } #Mersa
+5273 = { "Ammon" "Ammon" } #Siwa
+9076 = { "Skete" "Skete" } #Scetis
+9077 = { "Tanis" "Tanis" } #Tanis/Salheya
+9078 = { "Phelbes" "Phelbes" }
+9079 = { "Hagios Antonios" "Hagios Antonios" }
+9080 = { "Somolo" "Somolo" } #(Chrys) https://www.trismegistos.org/place/3222
+9081 = { "Koussai" "Koussai" } #(Chrys) https://www.trismegistos.org/place/1176
+9082 = { "Bompae" "Bompae" } #(Chrys) https://www.trismegistos.org/place/3002
+9083 = { "Philotera" "Philotera" } #(JP) Ptolemaic Name
+9084 = { "Euhemeria" "Euhemeria" }
+9085 = { "Marsa Alam" "Marsa Alam" } #(JP) Base Names
+9087 = { "Ombos" "Ombos" } #Kom Ombo
+9090 = { "Mounesis" "Mounesis" } #(Chrys) https://www.trismegistos.org/geo/detail.php?tm=3155
+9091 = { "Abu Minqar" "Abu Minqar" } #(JP) Base Names
+9092 = { "Taihous" "Taihous" } #(JP) Base Names #(Chrys) we know this was occupied by the Romans but I can confirm the Latin name is unknown as of 2016, so I took the Ancient Egyptian name of Ta-Ihu, Graecicized it to Taihous
+9093 = { "Tetrapyrgia" "Tetrapyrgia" }
+9094 = { "Petra Megala" "Petra Megala" }
+
+#Eastern Maghreb
+339 = { "Saldai" "Saldai" } #Béjaïa
+340 = { "Konstantina" "Konstantina" } #Qusantina
+341 = { "Karchedon" "Karchedon" } #Carthago
+351 = { "Beskera" "Beskera" } #Biskra
+352 = { "Kapsa Ioustiniana" "Kapsa Ioustiniana" } #Gafsa
+353 = { "Gigthis" "Gigthis" } #Medenine
+354 = { "Oia" "Oia" } #Tarabulus
+355 = { "Syrte" "Syrte" } #(JP) Base Names
+356 = { "Berenike" "Berenike" } #Benghazi
+357 = { "Darnis" "Darnis" } #Dernah
+1882 = { "Hippona" "Hippona" } #Annaba
+2450 = { "Kebili" "Kebili" } #(JP) Base Names
+2451 = { "Theobaktis" "Theobaktis" } #Misrata/Thubaqt
+2452 = { "Pisida" "Pisida" } #Zuwarah
+2453 = { "Thenai" "Thenai" } #Safaqus
+2454 = { "Thysdros" "Thysdros" } #(JP) This is technically El Kem, not Kairouan which has no pre-Arabic roots
+2455 = { "Hippo Diarrhytus" "Hippo Diarrhytus" } #Binzart
+2458 = { "Zabi" "Zabi" } #Al-Masila
+2473 = { "Ioustinianoupolis" "Ioustinianoupolis" } #Susa
+2954 = { "Gerbis" "Gerbis" } #Djerba
+4566 = { "Sophetula" "Sophetula" }
+4567 = { "Kydamos" "Kydamos" } #Ghadames
+5224 = { "Kapris" "Kapris" } #Neabul
+5225 = { "Africa" "Africa" } #Al-Mahdiyya
+5274 = { "Korniklanon" "Korniklanon" } #Aghdabiya
+5303 = { "Ierabou" "Ierabou" } #Jarabub
+5306 = { "Misda" "Misda" } #Mizda
+5309 = { "Thenteos" "Thenteos" } #Gharyan
+5310 = { "Tabuinati" "Tabuinati" } #Nalut
+5311 = { "Leptis Megale" "Leptis Megale" } #Khoms
+5312 = { "Takape" "Takape" } #Gabes
+5313 = { "Killion" "Killion" } #Al-Qasrain
+5314 = { "Theodorias" "Theodorias" }
+5315 = { "Sikka Beneria" "Sikka Beneria" } #(JP) Dub had "Xiros" but not sure what this refers to. "Sikka Beneria" was the late Roman/Byzantine name from what I can see
+5316 = { "Thusuros" "Thusuros" } #Tozeur
+5317 = { "Thaubraka" "Thaubraka" } #Tabarqa
+5318 = { "Bida" "Bida" } #(JP) Province is Koukou, but it contains this ancient minor settlement that Dub found
+5319 = { "Sitiphis" "Sitiphis" } #Setef
+5320 = { "Markimani" "Markimani" } #Ain Beida
+5321 = { "Jijel" "Jijel" } #(JP) Base Names
+5323 = { "Auson" "Auson" } #Kalaa
+5324 = { "Phallaba" "Phallaba" } #Djelfa
+5325 = { "Lambaisis" "Lambaisis" } #Batna
+5326 = { "Mascula" "Mascula" } #Khenchela
+5329 = { "Souphis" "Souphis" } #El Oued
+9095 = { "Kyrene" "Kyrene" } #(JP) Modern "Bayda", in period known as "Sidi Rafaa", province includes ancient and classical "Cyrene"
+9096 = { "Barke" "Barke" } #(JP) Modern "Al Marj", successor to ancient and classical "Barca"
+9097 = { "Chaminos" "Chaminos" }
+9111 = { "Bani Walid" "Bani Walid" } #(JP) Base Names
+9112 = { "Tentheos" "Tentheos" } #(JP) Roman Names
+9113 = { "Gergis" "Gergis" } #(JP) Roman Names
+9114 = { "Tataouine" "Tataouine" } #(JP) Base Names
+9115 = { "Tisavar" "Tisavar" } #(JP) Roman Names
+9116 = { "Douz" "Douz" } #(JP) Base Names
+9117 = { "Nepte" "Nepte" } #(JP) Roman Names
+9118 = { "Rhouspina" "Rhouspina" }
+9119 = { "Maktaris" "Maktaris" }
+9120 = { "Rusikada" "Rusikada" }
+9121 = { "Chullu" "Chullu" } #(JP) Roman Names
+9122 = { "Thagaste" "Thagaste" } #(JP) Roman Names
+9123 = { "Thebeste" "Thebeste" } #Tebessa #(JP) Or "Hekatompyle"
+9124 = { "Thouda" "Thouda" } #Sidi Okba
+9125 = { "Taloucht" "Taloucht" } #(JP) Roman Names
+9127 = { "Arenae" "Arenae" } 
+9128 = { "Nicives" "Nicives" } #(JP) Roman Names
+9129 = { "Ain Oussera" "Ain Oussera" } #(JP) Base Names
+9130 = { "Rhousoukkorrou" "Rhousoukkorrou" } #(JP) Ancient Greek
+
+##Western Maghreb
+334 = { "Tingis" "Tingis" }
+335 = { "Roussaderiron" "Roussadeiron" } #Melilla
+336 = { "Pomaria" "Pomaria" } #Tlemcen
+337 = { "Basilikos" "Basilikos" } #Oran
+338 = { "Ikosion" "Ikosion" } #Algiers
+342 = { "Oppidum Novum" "Oppidum Novum" } #(JP) Currently Roman Name
+343 = { "Fezza" "Fezza" } #(JP) Currently Roman Name
+344 = { "Marrakesh" "Marrakesh" } #(JP) Base Names
+345 = { "Plymmareia" "Plymmareia" } #Safi
+346 = { "Sijilmasa" "Sijilmasa" } #(JP) Base Names
+348 = { "Doukkala" "Chichaoua" } #(JP) Base Names
+349 = { "Iousephoupolis" "Iousephoupolis" } #Figuig
+1110 = { "Meseginos Limen" "Meseginos Limen" } #Agadir
+1751 = { "Septon" "Septon" } #Ceuta
+2459 = { "Souphasar" "Souphasar" } #Medea
+2460 = { "Tamegroute" "Tamegroute" } #(JP) Base Names
+2461 = { "Kyza" "Kyza" } #(JP) Mostaganem
+2462 = { "Koloumnata" "Koloumnata" } #Tiaret
+2463 = { "Kassiteria" "Kassiteria" } #Naâma
+2464 = { "Warzazat" "Warzazat" } #(JP) Base Names
+2465 = { "Lemnis" "Lemnis" } #Oujda
+2466 = { "Akka" "Akka" } #(JP) Base Names
+2467 = { "Ouoloubilia" "Ouoloubilia" } #(JP) Meknes, site of ancient Volubilis. Can alternatively be "Miknasa" for Meknes
+2468 = { "Chanpharon" "Chanpharon" }
+2469 = { "Iopha" "Iopha" } #Mazagan
+2470 = { "Arambys" "Arambys" } #Essaouria
+4561 = { "Tamouda" "Tamouda" } #Tetouan
+4562 = { "Siga" "Siga" } #Nedroma
+4563 = { "Salé" "Salé" } #(JP) Base Names
+4564 = { "Anpha" "Anpha" } #Anfa
+4568 = { "Demnate" "Demnate" } #(JP) Base Names
+5210 = { "Chaouene" "Chaouene" }
+5211 = { "Tedoula" "Tedoula" } #Tadla
+5212 = { "Taroudant" "Taroudant" } #(JP) Base Names
+5213 = { "Tazon" "Tazon" } #Taza
+5218 = { "Badis" "Badis" } #(JP) Base Names
+5218 = { "Levantes" "Levantes" } #(JP) Dubs name for Alhucemas, modern settlement in the province
+5219 = { "Thymiaterion" "Thymiaterion" }
+5220 = { "Boudenib" "Boudenib" } #(JP) Base Names
+5226 = { "Rahamna" "Ben Guerir" } #(JP) Base Names
+5228 = { "Sophnousa" "Sophnousa" } #Sidi Ifni
+5229 = { "Chounion" "Chounion" } #Debdou
+5322 = { "Kartennai" "Kartennai" } #Tenes
+5327 = { "Saïda" "Saïda" } #(JP) Base Names
+5328 = { "Strategokastron" "Strategoastron" } #El Bayadh
+9006 = { "Chaouia" "Settat" } #(JP) Base Names
+9131 = { "Caesarea" "Caesarea" } #(JP) Roman Name
+9132 = { "Manliana" "Manliana" } #(JP) Early Roman "Zuccabar"
+9133 = { "Mazouna" "Mazouna" } #(JP) Base Names
+9134 = { "Mascara" "Mascara" } #(JP) Base Names
+9136 = { "Aïn Séfra" "Aïn Séfra" } #(JP) Base Names
+9179 = { "Bouarfa" "Bouarfa" } #(JP) Base Names
+9180 = { "Boulemane" "Boulemane" } #(JP) Base Names
+9181 = { "Ksar es-Souk" "Ksar es-Souk" } #(JP) Base Names
+9182 = { "Tinghir" "Tinghir" } #(JP) Base Names
+9183 = { "Tissint" "Tissint" } #(JP) Base Names
+9184 = { "Aghmat" "Aghmat" } #(JP) Base Names
+9185 = { "Tinmel" "Tinmel" } #(JP) Base Names
+9186 = { "Tizourgane" "Tizourgane" } #(JP) Base Names
+9187 = { "Tazerwalt" "Iligh" } #(JP) Base Names
+9190 = { "Haha" "Afughal" } #(JP) Base Names
+9191 = { "Tadnast" "Tadnast" } #(JP) Base Names
+9192 = { "Abda" "Sidi Bennour" } #(JP) Base Names
+9193 = { "Sala" "Sala" }
+9194 = { "Zaër" "Tifelt" } #(JP) Base Names
+9195 = { "Sefrou" "Sefrou" } #(JP) Base Names
+9196 = { "Guercif" "Guercif" } #(JP) Base Names
+9197 = { "Taourirt" "Taourirt" } #(JP) Base Names
+9198 = { "Tazouta" "Tazouta" } #(JP) Base Names
+9199 = { "Arzeila" "Arzeila" } #(JP) Late Roman Name
+
+##Western Sahara
+347 = { "Chrysopotamos" "Chrysopotamos" } #Tantan
+
+#Eastern Sahara
+2448 = { "Sabha" "Sabha" } #(JP) Base Names
+2449 = { "Gholaia" "Gholaia" } #Waddan
+2474 = { "Murzuk" "Murzuk" } #(JP) Base Names
+5303 = { "Jaghbub" "Jaghbub" } #(JP) Base Names
+5304 = { "Augila" "Augila" } #Awjila
+9098 = { "Jalu" "Jalu" } #(JP) Base Names
+9103 = { "Marada" "Marada" } #(JP) Base Names
+9104 = { "Zella" "Zella" } #(JP) Base Names
+9105 = { "Sokna" "Sokna" } #(JP) Base Names
+9106 = { "Garame" "Garame" }
+9107 = { "Awbari" "Awbari" } #(JP) Base Names
+9108 = { "Zawila" "Zawila" } #(JP) Base Names
+9109 = { "Traghan" "Traghan" } #(JP) Base Names
+
+#Central Sahara
+2456 = { "Toukaratos" "Toukaratos" } #Touggourt
+2457 = { "Gardeia" "Gardeia" } #Ghardaia
+2472 = { "Bargla" "Bargla" } #Ouargla
+9126 = { "Dimidokastron" "Dimidokastron" } #Messaâd
+
+#Western Sahara
+
+#Nubia
+1220 = { "Ghazali" "Ghazali" }
+1228 = { "Timikleos" "Timikleos" } #https://www.trismegistos.org/place/5080
+1232 = { "Evangelis" "Evangelis Limen" } #Sawakin
+1234 = { "Premis" "Premis" } #Ibrim
+2797 = { "Meroe" "Meroe" } #Shendi
+2322 = { "Pachora" "Pachora" } #Faras
+2323 = { "Sanka" "Sanka" } #Al Shanka
+2324 = { "Chersos" "Chersos" } #Halaib
+4322 = { "Tachompso" "Tachompso" } #(Chrys) sites online claim the name was also used in Greek despite Contra being a Latin word? Found an old but good source claiming this instead; The reason why the Ptolemies laid their hands upon this part of Nubia is not far to seek, for included in it was the city on the Nile called Baka by the Egyptians, Tachompso by the Greeks, Contra-Pselchis by the Romans, and Kubban by the modern Arabs.
+5271 = { "Berenike Troglodytika" "Berenike Troglodytika" } #Berenice
+5277 = { "Ouronarti" "Ouronarti" } #Kulb
+5278 = { "Philai" "Philai" } #Fila
+5279 = { "Patinga" "Patinga" } #Karmah
+5281 = { "Napata" "Napata" } #Karima
+5282 = { "Soteiron" "Soteiron" } #Bur as Sudan
+5283 = { "Theron" "Theron" } #Tokar
+5284 = { "Abale" "Abale" } #Ab-damr
+5301 = { "Selymas" "Selymas" } #Selima
+5302 = { "Abu Hamad" "Abu Hamad" } #(JP) Base Names
+9011 = { "Saï" "Saï" } #(JP) Base Names
+9012 = { "Kadeton" "Kadeton" } #(JP) Roman Names (Chrys) Hellenized
+9013 = { "Berber" "Berber" } #(JP) Base Names
+9088 = { "Daw" "Daw" } #(JP) Base Names
 
 ###Localization made by Dub
 #Cyprus
@@ -243,7 +508,6 @@
 
 #Bithynia
 316 = { "Optimaton" "Nikomedeia" } #Optimatoi specifically refers to the people. Optimaton would be the regional name.
-5168 = { "Agrilion" "Agrilion" }
 4312 = { "Klaudiopolis" "Klaudiopolis" } #Pre 1.24 was 5149.
 322 = { "Dorylaion" "Dorylaion" }
 5157 = { "Nikaia" "Nikaia" }
@@ -253,14 +517,14 @@
 5130 = { "Palaeokastron" "Palaeokastron" } #Found as a fortress of Mysia from a detailed map during the Nicaean period.
 5156 = { "Pegai" "Pegai" }
 2296 = { "Dardanellia" "Dardanellia" }
-5131 = { "Aivali" "Aivali" }
-5171 = { "Michailites" "Michailites" } #Miletoupolis is ancient. I'm using a more Byzantine name, the one which Mihalich actually derives from.
+#5131 = { "Aivali" "Aivali" }
 
 #Asia
 2297 = { "Magnesia" "Magnesia" }
 318 = { "Smyrna" "Smyrna" }
 4309 = { "Tralleis" "Tralleis" } 
 5134 = { "Halikarnassos" "Halikarnassos" }
+5171 = { "Michailites" "Michailites" } #Miletoupolis is ancient. I'm using a more Byzantine name, the one which Mihalich actually derives from.
 319 = { "Mogolla" "Mogalla" } #Mylasa is technically further west. Physkos is the province port, however it together with Mogalla (Mughla) is painfully insignificant in Byzantine history.
 
 #Lycia-Pamphylia
@@ -306,17 +570,16 @@
 #Phrygia
 1848 = { "Nikopolis" "Nikopolis" } #Akroinon is the old name of Afyon before it was named Nikopolis (City of Victory)
 4311 = { "Kotyaion" "Kotyaion" }  #Pre 1.24 was 5133
-5155 = { "Gordion" "Gordion" }
 
 #Lycaonia
 323 = { "Konion" "Konion" } #Wikipedia claims medieval Greek had turned city name into Kónio. The turkish name Konya makes a lot more sense then.
 4314 = { "Nyssa" "Nyssa" } #Discarding latin Cochisia. Technically Kochisar means (travelling) coach fortress, i.e fortress on the road basically, so I suppose I could transliterate that. Nyssa was decently important however. Pre 1.24 was 5153
 4307 = { "Koloneia" "Koloneia" }
+5155 = { "Gordion" "Gordion" }
 324 = { "Laranda" "Laranda" }
 
 #Galatia
 326 = { "Ankyra" "Ankyra" }
-5165 = { "Eccobriga" "Eccobriga" }
 5167 = { "Euchaneia" "Euchaneia" }
 5137 = { "Taouion" "Taouion" }
 329 = { "Sivasteia" "Sivasteia" }
@@ -357,7 +620,8 @@
 5331 = { "Sirte" "Sirte" } #Pre 1.24 was 5294
 2307 = { "Baspurakan" "Thospitis" } #Or Aban/Iban, not sure. Wikipedia claims Eua, but I have NO idea wherever they may have gotten that from. The ancient Greek is Thospia or Thospitis. There is also a Bouana.
 3254 = { "Taroua" "Taroua" } #FINALLY found a name for Daruynk.
-4302 = { "Mantzikert" "Mantzikert" } #I just want this on the map. It is technically speaking a bit further south, actually on the bottom of the province. Alashkert otherwise is just Alaskert? Ancient Roman name was Chadas. Pre 1.24 was 5291
+4302 = { "Vagharshakert" "Vagharshakert" } #(JP) Medieval name, moved Mantzikert to correct province in south
+6110 = { "Mantzikert" "Mantzikert" } #I just want this on the map. It is technically speaking a bit further south, actually on the bottom of the province. Alashkert otherwise is just Alaskert? Ancient Roman name was Chadas. Pre 1.24 was 5291
 5332 = { "Arzes" "Arzes" } #New in 1.24
 4296 = { "Taron" "Balaleison" } #New in 1.24. Wikipedia claims Balales, Pleiades claims Balaleisa or Balouos mid-Byzantine times, but finally Balaleison up until 1200, which is what I'm going for. It might be a bit ancient, but it sounds good in my opinion.
 
@@ -369,35 +633,7 @@
 5330 = { "Arzanene" "Martyropolis" } #New in 1.24
 2308 = { "Edessa" "Edessa" } #Was 407 pre 1.24, moved to Mardin in 1.24. It was rebuilt by Justin II and named Justiniopolis in the 500's, however later on during Byzantine resurgence in the 1000s it was once more known as Edessa, so I pick that.
 
-#Armenia proper
-2204 = { "Anion" "Anion" }
-419 = { "Tibion" "Tibion" }
-3253 = { "Lorion" "Lorion" }
-2205 = { "Naxouana" "Naxouana" }
-3256 = { "Balaberdon" "Balaberdon" } #I pick Baghaberd instead as it's probably more important. Using same logic for Baybird -> Baiberdon. If you like Paipert, then this would be Palapert
-2202 = { "Amaras" "Amaras" } #Picked instead due to historical importance
-
-#Shirvan
-420 = { "Gantzaka" "Gantzaka" } 
-4305 = { "Sakion" "Sakion" } #Pre 1.24 was 3259
-4299 = { "Chabala" "Chabala" } #Pre 1.24 was 3258
-421 = { "Bagaban" "Bagaban" } #This is what armenian historians call the city before ~800 AD, i.e city of winds (Baga-avan)
-4340 = { "Balanrot" "Balanrot" } #Not really sure where this one comes from, it was found on Pleiades as an old name to Bilasuvar, which is what the city marker actually signifies. Pre 1.24 was 3257
-424 = { "Arbandon""Arbandon" } #Aharawa (Which is what province marker signifies), moved to Shirvan in 1.24
-
-#Georgia
-4303 = { "Pharangion" "Pharangion" } #Actually a persian name, but it sounds sufficiently greek so I'll go for it. In Latin it was Pharangium. Alternatively we have Taochoi. This one is hell on earth to find a name for otherwise. Was 3249 pre 1.24
-3250 = { "Ardanoutzin" "Ardanoutzin" } #Found in Escorial Taktikon.
-3251 = { "Achaltskai" "Achaltskai" } #The Armenian name is Achaltscha, Achaltsiche means "New castle", so if we want to drop the armenian/georgian names we could go for Neokastron. I went with assuming Achaltscha would turn into Achaltskae.
-4301 = { "Meschistha" "Meschistha" } #Old capital of Georgia - Gori has no importance whatsoever from what I can tell. Pre 1.24 was 3252
-423 = { "Tiphlida" "Tiphlida" } #Tiphilis is ancient greek. One can also use the name for its fortress Narikala, although that's a name given by the Mongols in Arabic.
-2203 = { "Teleda" "Teleda" } #Greek geographer's name for Telavi? No source, and it is also claimed to be the name of a city in Azerbaijan, but what do I know.
-
 #Odishi (Lazica)
-2196 = { "Bathys" "Bathys" } #Phasis is further on the coast. Bathys is the province port (Batumi)
-462 = { "Archaiopolis" "Archaiopolis" } #Technically further in-land, but will do for now. To be honest, I can't even find reports of Zugdidi occuring until the 17th century or so.
-422 = { "Lazion" "Kotais" } #Also contains the important Lazic fortresses of Skandis and Sarapanis
-1856 = { "Sebastopolis" "Sebastopolis" }
 2195 = { "Palaia Achaia" "Palaia Achaia" }
 
 #Tabriz
@@ -574,7 +810,6 @@
 7011 = { "Gargaros" "Sipous" } #San Severo 
 123 = { "Kalavrìa" "Rhegion" } #Reggio Calabria
 7003 = { "Kroton" "Kroton" } #Crotone
-2983 = { "Salernon" "Salernon" } #Salerno, RP, from Latin Salernum
 2984 = { "Sybaris" "Sybaris" } #Sibari
 7004 = { "Loukania" "Siris" } #Matera
 1934 = { "Potentia" "Potentia" } #Potenza
@@ -749,148 +984,6 @@
 380 = { "Characmoba" "Characmoba" } #Kerak
 4270 = { "Ammatha" "Ammatha" } #Maam
 364 = { "Rhinokoloura" "Rhinokoloura" } #El Arish
-5181 = { "Hagia Aikaterine" "Hagia Aikaterine" } #Nekhel
-4268 = { "Ailana" "Ailana" } #Aqaba
-365 = { "Chersonesos tou Sinà" "Rhaithou" } #Raithu
-
-##Egypt
-363 = { "Pelousion" "Pelousion" } #El Farama
-4316 = { "Pharbaithos" "Pharbaithos" } #Ez Zaqaziq
-5261 = { "Tamiathis" "Tamiathis" } #Dumyat
-362 = { "Bolbitine" "Bolbitine" } #Rashid
-358 = { "Aìgyptos" "Alexandreia" } #Alexandria
-4317 = { "Naukratis" "Naukratis" } #Damanhur
-2316 = { "Sebennytos" "Sebennytos" } #Tanta
-5264 = { "Letopolis" "Letopolis" } #Giza
-361 = { "Helioupolis" "Helioupolis" } #Cairo
-359 = { "Arsinoites" "Arsinoe" } #Fayyum
-4318 = { "Aphroditopolis" "Aphroditopolis" } #Atfih
-5267 = { "Oxyrrhynchos" "Oxyrrhynchos" } #Baniswef
-2317 = { "Antinoopolis" "Antinoopolis" } #Minya
-2319 = { "Lykopolis" "Lykopolis" } #Asyut
-4320 = { "Thinis" "Thinis" } #Girga
-360 = { "Kaine" "Kaine" } #Qus
-4310 = { "Diospolis" "Diospolis" } #Luxor
-1231 = { "Syene" "Syene" } #Aswan
-2315 = { "Klysma" "Klysma" } #Suez
-2320 = { "Myos" "Myos Hormos" } #Ras Gharib
-2321 = { "Leukos" "Leukos Limen" } #El Oser
-5271 = { "Berenike" "Berenike" } #Medinet el haras
-4321 = { "Klaudianon" "Klaudianon" } #Medinet el Gibali
-5272 = { "Paraitonion" "Paraitonion" } #Mersa
-2325 = { "Antiphrai" "Antiphrai" } #Marsa
-5273 = { "Ammon" "Ammon" } #Siwa
-2318 = { "Pouka" "Pouka" } #El Bawiti
-4323 = { "Trimithis" "Trimithis" } #Al Qasr
-1233 = { "Hibis" "Hibis" } #El Kharga
-5301 = { "Selymas" "Selymas" } #Selima
-2324 = { "Chersos" "Chersos" } #Halaib
-5282 = { "Soteiron" "Soteiron" } #Bur as Sudan
-1232 = { "Evangelis" "Evangelis Limen" } #Sawakin
-5283 = { "Theron" "Theron" } #Tokar
-4322 = { "Paneia" "Paneia" } #Abrak
-1229 = { "Trogodlytike" "Berenike Panchrysos" } #Ta Gar (?)
-2323 = { "Sanka" "Sanka" } #Al Shanka
-5280 = { "Blemmya" "Blemmyes Kome" } #Sinkat
-5278 = { "Philai" "Philai" } #Fila
-1234 = { "Premis" "Premis" } #Ibrim
-2322 = { "Pachora" "Pachora" } #Faras
-5277 = { "Ouronarti" "Ouronarti" } #Semna
-5279 = { "Patinga" "Patinga" } #Karmah
-1228 = { "Bagada" "Bagada" } #Dunqula
-5281 = { "Napata" "Napata" } #Karima
-5302 = { "Chamant" "Chamant" } #Dakhesh
-5284 = { "Abale" "Abale" } #Ab-damr
-1220 = { "Boron" "Boron" } #Gakdul
-2797 = { "Meroe" "Meroe" } #Shendi
-
-##Maghreb
-2326 = { "Marmarike" "Antipyrgos" } #Tobruk
-357 = { "Darnis" "Darnis" } #Dernah
-356 = { "Kyrenaike" "Ptolemais" } #Benghazi
-5303 = { "Ierabou" "Ierabou" } #Jarabub
-5304 = { "Augila" "Augila" } #Awjil
-5274 = { "Korniklanon" "Korniklanon" } #Aghdabiya
-355 = { "Syrtis Megale" "Syrte" } #Siirt
-2451 = { "Theobaktis" "Theobaktis" } #Thubaqt
-5311 = { "Leptis Megale" "Leptis Megale" } #Khoms
-354 = { "Tripolitania" "Oia" } #Tarabulus
-2452 = { "Pisida" "Pisida" } #Zuwarah
-5309 = { "Thenteos" "Thenteos" } #Gharyan
-2449 = { "Gholaia" "Gholaia" } #Waddan
-5306 = { "Misda" "Misda" } #Mizda
-5310 = { "Tabuinati" "Tabuinati" } #Nalut
-4567 = { "Kydamos" "Kydamos" } #Ghadames
-353 = { "Gigthis" "Gigthis" } #Medenine
-2450 = { "Tillibari" "Tillibari" } #Remada
-5316 = { "Thusuros" "Thusuros" } #Tozeur
-352 = { "Kapsa Ioustiniana" "Kapsa Ioustiniana" } #Gafsa
-2954 = { "Gerbis" "Gerbis" } #Djerba
-5312 = { "Takape" "Takape" } #Gabes
-2453 = { "Thenai" "Thenai" } #Safaqus
-4566 = { "Obiskai" "Obiskai" } #Hbira
-2454 = { "Thysdros" "Thysdros" } #Al-Qayrawan
-5225 = { "Thapsos" "Thapsos" } #Al-Mahdiyya
-2473 = { "Byzakion" "Ioustinianoupolis" } #Susa
-5314 = { "Baga" "Baga" } #Bagha
-5224 = { "Kapris" "Kapris" } #Neabul
-341 = { "Karchedon" "Karchedon" } #Carthago
-2455 = { "Hippo Diarrhytos" "Hippo Diarrhytos" } #Binzart
-5317 = { "Thaubraka" "Thaubraka" } #Tabarqa
-5313 = { "Thelepte" "Thelepte" } #Al-Qasrain
-5315 = { "Xiros" "Xiros" } #Al-Kaf
-5320 = { "Markimani" "Markimani" } #Ain Beida
-5326 = { "Thebeste" "Thebeste" } #Hanshala
-5325 = { "Lambaisis" "Lambaisis" } #Batna
-1882 = { "Hippona" "Hippona" } #Annaba
-340 = { "Konstantina" "Konstantina" } #Qusantina
-5321 = { "Igilgil" "Igilgil" } #Jijel
-5319 = { "Sitiphis" "Sitiphis" } #Setif
-5323 = { "Auson" "Auson" } #Kalaa
-339 = { "Saldai" "Saldai" } #Bidshayah
-5318 = { "Bida" "Bida" } #Kuku
-2458 = { "Zabi" "Zabi" } #Al-Masila
-350 = { "Dimidokastron" "Dimidokastron" } #Laghwat
-351 = { "Beskera" "Beskera" } #Biskra
-5329 = { "Souphis" "Souphis" } #El Oued
-2456 = { "Toukaratos" "Toukaratos" } #Touggourt
-2472 = { "Bargla" "Bargla" } #Ouargla
-2457 = { "Gardeia" "Gardeia" } #Ghardaia
-2459 = { "Souphasar" "Souphasar" } #Medea
-338 = { "Ikosion" "Ikosion" } #Alger
-5322 = { "Kartennai" "Kartennai" } #Tenes
-2461 = { "Kyza" "Kyza" } #Mosatganem
-336 = { "Pomaria" "Pomaria" } #Tlemcen
-337 = { "Basilikos" "Basilikos" } #Oran
-4562 = { "Siga" "Siga" } #Nedroma
-2462 = { "Koloumnata" "Koloumnata" } #Tiaret
-5324 = { "Phallaba" "Phallaba" } #Djelfa
-5327 = { "Milia" "Milia" } #Saida
-2463 = { "Kassiteria" "Kassiteria" } #Naama
-5328 = { "Strategokastron" "Strategoastron" } #El Bayadh
-2465 = { "Lemnis" "Lemnis" } #Oujda
-5213 = { "Tazon" "Tazon" } #Taza
-5229 = { "Chounion" "Chounion" } #Debdou
-349 = { "Iousephoupolis" "Iousephoupolis" } #Figuig
-335 = { "Roussaderiron" "Roussadeiron" } #Melilla
-5218 = { "Levantes" "Levantes" } #Alhucemas
-5210 = { "Chaouene" "Chaouene" } #Chefchaouen
-4561 = { "Tamouda" "Tamouda" } #Tetouan
-1751 = { "Septon" "Septon" } #Ceuta
-334 = { "Tingis" "Tingis" } #Tangier
-5219 = { "Lixos" "Lixos" } #El Araich
-4563 = { "Sala" "Sala" } #Sale
-5211 = { "Tedoula" "Tedoula" } #Tadla
-2467 = { "Miknasa" "Miknasa" } #Meknes
-2468 = { "Chanpharon" "Chanpharon" } #Khenifra
-343 = { "Ouoloubilia" "Ouoloubilia" } #Fez
-4564 = { "Anpha" "Anpha" } #Anfa
-2469 = { "Iopha" "Iopha" } #Mazagan
-345 = { "Plymmareia" "Plymmareia" } #Asfi
-2470 = { "Arambys" "Arambys" } #Mogador
-1110 = { "Meseginos Limen" "Meseginos Limen" } #Agadir
-5228 = { "Sophnousa" "Sophnousa" } #Sidi Ifni
-347 = { "Chrysopotamos" "Chrysopotamos" } #Tantan
 
 ##Iberia
 226 = { "Herakleiai Stylai" "Karpessos" } #Gibiltar
@@ -1358,7 +1451,6 @@
 
 ##Mesopotamia
 407 = { "Kallinikos" "Kallinikos" } #Ar Raqqah
-2314 = { "Kirkesion" "Kirkesion" } #Deirez Zor
 5239 = { "Rhaisena" "Rhaisena" } #Res Ayna
 5296 = { "Nisibis" "Nisibis" } #Nusaybin
 2309 = { "Singara" "Singara" } #Sindjar

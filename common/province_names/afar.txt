@@ -1,10 +1,10 @@
 #(JP) Afar, will overwrite Somali in cushitic.txt
-#(JP) Using Saho names where no Afar exists
+#(JP) Disabled due to lack of naming
 
 #Horn of Africa
-1215 = { "Tagórri" "Tagórri" } 
-2764 = { "Aysaqiita" "Aysaqiita" }
-2765 = { "Rahaytó" "Rahaytó" }
-8860 = { "Ayelu" "Ayelu" }
-8888 = { "Hayyú" "Hayyú" }
-8890 = { "Idi" "Idi" } 
+#1215 = { "Tagórri" "Tagórri" } 
+#2764 = { "Aysaqiita" "Aysaqiita" }
+#2765 = { "Rahaytó" "Rahaytó" }
+#8860 = { "Ayelu" "Ayelu" }
+#8888 = { "Hayyú" "Hayyú" }
+#8890 = { "Idi" "Idi" } 

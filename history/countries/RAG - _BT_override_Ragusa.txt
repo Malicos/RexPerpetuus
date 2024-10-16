@@ -1,0 +1,5 @@
+
+remove_accepted_culture = croatian
+add_accepted_culture = serbian
+historical_friend = SER
+historical_friend = ANC #Ancona and Ragusa were oftentimes allies in order to deal with Venetian superiority. //Dub

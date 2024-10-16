@@ -12195,6 +12195,7 @@ estate_qizilbash_develop_x = {
 					any_owned_province = {
 						is_state_core = root
 						OR = {
+							culture = turco_iranian
 							culture = azerbaijani
 							culture = turkish
 							culture = turkmeni

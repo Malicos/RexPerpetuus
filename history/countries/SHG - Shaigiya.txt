@@ -1,0 +1,28 @@
+#SHG - Shaigiya
+
+#Political Situation
+capital = 5281
+
+#Government
+government_rank = 1
+government = tribal
+add_government_reform = arabic_tribe_reform
+
+#Demographics
+primary_culture = sudanese_arabic
+religion = sunni
+religious_school = maliki_school
+
+#Tech and Military
+technology_group = east_african
+
+#History
+1444.11.11 = {
+	monarch = {
+		name = "Tribal Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

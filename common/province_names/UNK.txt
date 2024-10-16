@@ -1,5 +1,7 @@
 #(JP) A few overrides for England, Great Britain and the United Kingdom
 
+#Britain
+
 #Ireland
 4121 = { "Antrim" "Newtownglens" }
 4379 = { "King's County" "Philipstown" }

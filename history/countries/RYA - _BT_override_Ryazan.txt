@@ -1,0 +1,31 @@
+
+primary_culture = russian
+
+#BT Fixing vanilla bug of missing this guy's the third Ivan
+1402.1.1 = {
+	heir = {
+		name = "Ivan Fyodorovich"
+		monarch_name = "Ivan III Fyodorovich"
+		dynasty = "Rurikovich"
+		birth_date = 1402.1.1
+		death_date = 1456.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+1427.1.1 = {
+	monarch = {
+		name = "Ivan III Fyodorovich"
+		dynasty = "Rurikovich"
+		birth_date = 1402.1.1
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = craven_personality
+}

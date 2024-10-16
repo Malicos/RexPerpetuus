@@ -151,11 +151,13 @@
 151 = "Cunstantinopuli"
 3192 = "Spàlatu"
 
-#Africa
-314 = "Tùnisi"
-338 = "Algeri"
-339 = "Bugia"
-354 = "Trìpuli"
+#Western Maghreb
+338 = { "Algeri" "Algeri" }
+
+#Eastern Maghreb
+339 = { "Bugia" "Bugia" }
+314 = { "Tùnisi" "Tùnisi" }
+354 = { "Trìpuli" "Trìpuli" }
 
 
 

@@ -1,3 +1,4 @@
-#ADR (Andria)
+#(JP) Andria
+#(JP) Exists purely to give the Andria tag its proper province name
 
-7007 = "Andria" # Barletta Province
+7007 = { "Andria" "Andria" }

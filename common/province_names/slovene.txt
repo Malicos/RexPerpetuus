@@ -77,12 +77,12 @@
 3048 = { "Bocenska" "Bocen" } #Botzen
 3050 = { "Podravska" "Maribor" } #Marburg
 4751 = { "Savinjska" "Celje" } #Cilli
-4758 = { "Meranska" "Meran" }Meran
+4758 = { "Meranska" "Meran" } #Meran
 4759 = { "Zgornja Koroshka" "Beljak" } #Villach
 4760 = { "Prunovska" "Prunovo" } #Braunau
 4761 = { "Travenska" "Shtajer" } #Traungau/Steyr
 4762 = { "Pitenska" "Dunajsko Novo mesto" } #Wiener Neustadt
-7093 = { "Porsenska" "Porsen" }Brixen
+7093 = { "Porsenska" "Porsen" } #Brixen
 7760 = { "Shkofjeloshka" "Shkofja Loka" } #Bischoflack
 7761 = { "Notranjska" "Postojna" } #Adelsberg
 7762 = { "Sredinjska" "Kochevje" } #Gottschee

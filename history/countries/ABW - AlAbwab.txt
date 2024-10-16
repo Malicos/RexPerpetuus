@@ -1,0 +1,27 @@
+#ABW - Al Abwab
+
+#Political Situation
+capital = 5032
+
+#Government
+government_rank = 1
+government = monarchy
+add_government_reform = tribal_kingdom
+
+#Demographics
+primary_culture = alwan
+religion = coptic
+
+#Tech and Military
+technology_group = east_african
+
+#History
+1444.11.11 = {
+	monarch = {
+		name = "Tribal Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

@@ -1,0 +1,11 @@
+add_trust = {
+    who = MEI
+    value = 50
+    mutual = yes
+}
+add_trust = {			#Changes to help ai with keeping their subjects loyal
+    who = THU
+    value = 50
+    mutual = yes
+}
+set_estate_privilege = estate_nobles_strong_duchies
