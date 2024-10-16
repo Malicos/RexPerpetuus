@@ -1,21 +1,51 @@
+ 
 #1232 - Suakin
 
-owner = BEJ
-controller = BEJ
-add_core = BEJ
 culture = beja
 religion = sunni
 capital = "Sawakin"
-is_city = yes
+is_city = no
+tribal_owner = AMR
 base_manpower = 2 
-trade_goods = slaves
+trade_goods = fish
 hre = no
 base_tax = 3  
 base_production = 3
+center_of_trade = 1
+native_size = 40 #x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4 #Each gives 0.05 tactics to uprising
+native_hostileness = 9 #Each gives 1% chance of uprising a month
 
-discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
+discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = east_african
+
+#Going against SE here since this tag apparently pops up through event? May want to change that event in the SE Addon.
+1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+	remove_core = MAM
+	add_core = BEJ
+	owner = BEJ
+	controller = BEJ
+} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
+1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+	remove_core = BEJ
+	add_core = MAM
+	owner = MAM
+	controller = MAM
+} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
+
+1510.1.1 = {
+	discovered_by = NUB
+	owner = NUB
+	controller = NUB
+	add_core = NUB
+	remove_core = MAM
+} # Funj replace Mamluks in control of Suakin
+1524.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR	
+} # Ottomans occupy Suakin
+1571.1.1 = { unrest = 8 } # Local Beja revolt against Ottoman governors
+1572.1.1 = { unrest = 0 } # Ottomans crush Beja revolt

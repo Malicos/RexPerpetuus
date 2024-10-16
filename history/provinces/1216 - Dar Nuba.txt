@@ -1,16 +1,18 @@
-#1216 - Tegali
+ 
+#1216 - Kadu
 
-culture = tegali_culture
+culture = kadu
 religion = shamanism #Fetishism
-capital = "Kaduqli"			#vanilla Takala
-native_size = 50
-trade_goods = unknown
+capital = "Kadu"
+trade_goods = slaves
 hre = no
 base_tax = 1  
 base_production = 1 
 base_manpower = 1 
-native_ferocity = 4
-native_hostileness = 9
+native_size = 60 #x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4 #Each gives 0.05 tactics to uprising
+native_hostileness = 9 #Each gives 1% chance of uprising a month
+tribal_owner = HMR
 
 
 discovered_by = east_african
