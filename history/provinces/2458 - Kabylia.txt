@@ -1,25 +1,55 @@
+ 
 # - Hodna
 
-owner = AUR
-controller = AUR
-add_core = AUR
-add_core = LGH
-culture = tunisian
+culture = maghrebi_arabic
 religion = sunni
 capital = "Msila"
-trade_goods = cotton			#vanilla salt, which would also work
+trade_goods = livestock
 hre = no
-base_tax = 1  
+base_tax = 2  
 base_production = 1 
 base_manpower = 1 
-is_city = yes
+is_city = no
+tribal_owner = NAI
+native_size = 70 #x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4 #Each gives 0.05 tactics to uprising
+native_hostileness = 9 #Each gives 1% chance of uprising a month
 
-add_local_autonomy = 75			#frontier desert area very autonomous
-
-discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
+discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
-discovered_by = rhomanian_tech
+
+1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+	remove_core = TUN
+	add_core = LGH
+	owner = LGH
+	controller = LGH
+	add_local_autonomy = -75			#frontier desert area very autonomous
+} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
+1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+	add_core = TUN
+	remove_core = LGH
+	owner = TUN
+	controller = TUN
+	add_local_autonomy = 75			#frontier desert area very autonomous
+} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
+
+#1444 onwards
+1534.1.1 = {
+	owner = ZAB
+	controller = ZAB
+	add_core = ZAB
+	add_local_autonomy = -75
+}	#Hafsids weakened by being in the middle of the Ottoman-Spanish conflict. Unclear what the situation was, but giving it to Zab.
+1573.1.1 = {
+	owner = AAB
+	controller = AAB
+	add_core = AAB
+	add_local_autonomy = 50
+}	#Ait Abbas expands in all directions under Amokrane
+1600.1.1 = {
+	owner = ZAB
+	controller = ZAB
+	add_local_autonomy = -50
+}	#Death of Amokrane, giving it back to Zab
