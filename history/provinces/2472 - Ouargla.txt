@@ -1,21 +1,25 @@
+ 
 # - Ouargla
 
-owner = MZB
-controller = MZB
-add_core = MZB
-add_core = OGL
+owner = OGL
+controller = OGL
 culture = berber
 religion = ibadi
 capital = "Ouargla"
-trade_goods = slaves
+trade_goods = bt_trade_good_fruit
 hre = no
-base_tax = 1  
-base_production = 1 
-base_manpower = 1 
+base_tax = 3  
+base_production = 3 
+base_manpower = 2 
 is_city = yes
+add_core = OGL
 
-discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
-discovered_by = ottoman
+
+add_permanent_province_modifier = {
+    name = btpl_oasis
+    duration = -1
+}
+
+discovered_by = muslim
+discovered_by = sub_saharan
 
