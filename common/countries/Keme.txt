@@ -2,7 +2,9 @@
 
 graphical_culture = muslimgfx
 
-color = { 68  49  2 } 
+color = { 255  220  104 } 
+
+revolutionary_colors = { 5  0  1 }
 
 historical_idea_groups = {
 	maritime_ideas
@@ -26,6 +28,13 @@ historical_units = {
 }
 
 monarch_names = {
+	# RP RULER NAMES
+	"Djoser #1" = 20
+	"Neheb #1" = 20
+	"Ramesses #1" = 20
+	"Merenhor #2" = 40
+	"'Nynetjer #1" = 20
+
 	"Seka #0" = 10
 	"Khayu #0" = 10
 	"'Tiu #0" = 10
@@ -42,7 +51,6 @@ monarch_names = {
 	"Semerkhet #0" = 10
 	"'Sneferka #0" = 10
 	"'Raneb #0" = 10
-	"'Nynetjer #0" = 10
 	"'Neferkara #0" = 10
 	"'Hudjefa #0" = 10
 	
