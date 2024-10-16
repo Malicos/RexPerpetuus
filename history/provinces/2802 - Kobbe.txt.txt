@@ -1,17 +1,20 @@
+ 
 #2802 - Kobbe
 
-culture = fur_culture
-religion = shamanism #Fetishism
+culture = baggara_arabic
+religion = sunni
 capital = "Ad-Du'ain"
-add_core = DAR
-native_size = 30
-native_ferocity = 4
-native_hostileness = 9 
-trade_goods = unknown
+trade_goods = grain
 hre = no
 base_tax = 1  
 base_production = 1 
-base_manpower = 1 
+base_manpower = 2 
+owner = RIZ
+controller = RIZ
+add_core = RIZ
+native_size = 50 #x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4 #Each gives 0.05 tactics to uprising
+native_hostileness = 9 #Each gives 1% chance of uprising a month
 
 
 discovered_by = east_african

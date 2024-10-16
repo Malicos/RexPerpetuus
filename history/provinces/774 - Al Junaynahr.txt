@@ -1,16 +1,30 @@
 # - Al-Junaynah
 
-owner = WAD
-controller = WAD
-add_core = WAD
-culture = fur_culture 
-religion = shamanism #Fetishism
+culture = baggara_arabic 
+religion = sunni
 capital = "Al-Junaynahr"
-trade_goods = slaves
+owner = HAL
+controller = HAL
+add_core = HAL
+trade_goods = livestock
 is_city = yes
 hre = no
-base_tax = 1  
-base_production = 1 
-base_manpower = 1 
+base_tax = 1 
+base_production = 1
+base_manpower = 2
+native_size = 50 #x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4 #Each gives 0.05 tactics to uprising
+native_hostileness = 9 #Each gives 1% chance of uprising a month
 
 discovered_by = east_african
+
+1596.1.1 = {
+	owner = DAR
+	controller = DAR
+	add_core = DAR
+	discovered_by = NUB
+	is_city = yes
+	discovered_by = ETH
+	trade_goods = slaves
+}
+1682.1.1 = { religion = sunni }
