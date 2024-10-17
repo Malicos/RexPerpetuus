@@ -4,7 +4,7 @@
 owner = LGH
 controller = LGH 
 culture = berber
-religion = sunni
+religion = ibadi
 capital = "Laghwat"
 trade_goods = cloth
 hre = no

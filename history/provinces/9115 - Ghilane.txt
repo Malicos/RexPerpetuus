@@ -8,7 +8,7 @@ is_city = no
 
 #Demographics
 culture = libyan_berber_culture
-religion = sunni
+religion = ibadi
 
 #Development and Trade
 base_tax = 1

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Rabat"
 is_city = yes
-owner = MOR
-controller = MOR
+owner = FEZ
+controller = FEZ
 
 #Demographics
 culture = moroccan
@@ -19,7 +19,6 @@ base_manpower = 3
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MOR
 add_core = FEZ
 
 #Other Political

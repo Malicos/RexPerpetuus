@@ -5,8 +5,8 @@
 #Core Details
 capital = "Dellys"
 is_city = yes
-owner = ALG
-controller = ALG
+owner = KBA
+controller = KBA
 
 #Demographics
 culture = kabylian
@@ -19,7 +19,6 @@ base_manpower = 2
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
-add_core = ALG
 add_core = KBA
 
 #Other Political

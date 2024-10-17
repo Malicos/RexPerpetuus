@@ -5,8 +5,8 @@
 #Core Details
 capital = "Taourirt"
 is_city = yes
-owner = MOR
-controller = MOR
+owner = ORN
+controller = ORN
 
 #Demographics
 culture = riffian
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = naval_supplies
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MOR
+add_core = ORN
 add_core = RIF
 
 #Other Political

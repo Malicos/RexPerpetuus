@@ -5,8 +5,8 @@
 #Core Details
 capital = "Zarsis"
 is_city = yes
-owner = TUN
-controller = TUN
+owner = GDM
+controller = GDM
 
 #Demographics
 culture = tunisian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
-add_core = TUN
+add_core = GDM
 add_core = TRP
 
 #Other Political

@@ -1,7 +1,7 @@
  
 
 culture = berber
-religion = sunni
+religion = ibadi
 capital = "Béchar"
 base_tax = 1
 base_production = 1

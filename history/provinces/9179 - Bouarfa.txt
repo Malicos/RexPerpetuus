@@ -9,7 +9,7 @@ tribal_owner = GUI
 
 #Demographics
 culture = maghrebi_arabic
-religion = sunni
+religion = ibadi
 
 #Development and Trade
 base_tax = 1

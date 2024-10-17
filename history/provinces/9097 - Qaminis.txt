@@ -5,12 +5,12 @@
 #Core Details
 capital = "Qaminis"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = CYR
+controller = CYR
 
 #Demographics
 culture = libyan_arabic
-religion = sunni
+religion = hafizi
 
 #Development and Trade
 base_tax = 2
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
+add_core = CYR
 add_core = BRQ
 
 #Other Political

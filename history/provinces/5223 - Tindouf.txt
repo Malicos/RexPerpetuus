@@ -1,7 +1,7 @@
  
 
 culture = zenaga_berber
-religion = sunni
+religion = ibadi
 capital = "Tindouf"
 base_tax = 1
 base_production = 1

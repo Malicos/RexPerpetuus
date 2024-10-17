@@ -5,11 +5,11 @@
 #Core Details
 capital = "Quseyya"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = KEM
+controller = KEM
 
 #Demographics
-culture = coptic_culture
+culture = sahidic
 religion = coptic
 
 #Development and Trade
@@ -19,7 +19,6 @@ base_manpower = 2
 trade_goods = bt_trade_good_fruit
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
 add_core = KEM
 
 #Other Political

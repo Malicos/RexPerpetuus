@@ -5,8 +5,8 @@
 #Core Details
 capital = "Abda"
 is_city = yes
-owner = MOR
-controller = MOR
+owner = MRK
+controller = MRK
 
 #Demographics
 culture = moroccan
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MOR
+add_core = MRK
 
 #Other Political
 hre = no

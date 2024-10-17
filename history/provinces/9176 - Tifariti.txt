@@ -10,7 +10,7 @@ is_city = yes
 
 #Demographics
 culture = zenaga_berber
-religion = sunni
+religion = ibadi
 
 #Development and Trade
 base_tax = 1

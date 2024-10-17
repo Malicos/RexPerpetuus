@@ -5,12 +5,12 @@
 #Core Details
 capital = "Sidi Okba"
 is_city = yes
-owner = ZAB
-controller = ZAB
+owner = AUR
+controller = AUR
 
 #Demographics
 culture = lawwata_berber
-religion = sunni
+religion = ibadi
 
 #Development and Trade
 base_tax = 2
@@ -19,6 +19,7 @@ base_manpower = 1
 trade_goods = bt_trade_good_books
 
 #Cores and Occupation (Alphabetical after current)
+add_core = AUR
 add_core = ZAB
 
 #Other Political

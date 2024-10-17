@@ -5,8 +5,8 @@
 #Core Details
 capital = "Bani Walid"
 is_city = yes
-owner = TAL
-controller = TAL
+owner = GDM
+controller = GDM
 
 #Demographics
 culture = libyan_arabic
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = bt_trade_good_fruit
 
 #Cores and Occupation (Alphabetical after current)
+add_core = GDM
 add_core = TAL
 
 #Other Political

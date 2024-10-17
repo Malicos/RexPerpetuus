@@ -5,12 +5,12 @@
 #Core Details
 capital = "Safaga"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = KEM
+controller = KEM
 
 #Demographics
 culture = saidi_arabic
-religion = sunni
+religion = hafizi
 
 #Development and Trade
 base_tax = 1
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = fish
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
 add_core = KEM
 
 #Other Political

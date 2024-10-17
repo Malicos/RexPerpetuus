@@ -5,12 +5,12 @@
 #Core Details
 capital = "Miliana"
 is_city = yes
-owner = TLC
-controller = TLC
+owner = WNS
+controller = WNS
 
 #Demographics
 culture = berber
-religion = sunni
+religion = ibadi
 
 #Development and Trade
 base_tax = 2
@@ -19,7 +19,7 @@ base_manpower = 2
 trade_goods = naval_supplies
 
 #Cores and Occupation (Alphabetical after current)
-add_core = TLC
+add_core = WNS
 
 #Other Political
 hre = no

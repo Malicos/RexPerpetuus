@@ -3,7 +3,7 @@
 
 culture = berber
 capital = "Tawat"
-religion = sunni
+religion = ibadi
 trade_goods = unknown
 hre = no
 base_tax = 2  
@@ -23,27 +23,3 @@ discovered_by = muslim
 native_size = 20 #x by 100. Each gives 0.25 goods produced and determines size of uprising
 native_ferocity = 4 #Each gives 0.05 tactics to uprising
 native_hostileness = 9 #Each gives 1% chance of uprising a month
-
-1555.1.1 = {
-	owner = MOR
-	controller = MOR
-	add_core = MOR
-	is_city = yes
-	trade_goods = salt
-} # Moroccans occupy oasis of Tawat
-1630.1.1 = {
-	owner = SOS
-	controller = SOS
-	add_core = SOS
-}
-1631.1.1 = {
-	owner = TFL
-	controller = TFL
-	add_core = TFL
-	remove_core = SOS
-}	#Alaouites
-1668.9.7 = {
-	owner = MOR
-	controller = MOR
-	remove_core = TFL
-} #Alaouites reunifies the country

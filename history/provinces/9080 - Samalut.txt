@@ -5,12 +5,12 @@
 #Core Details
 capital = "Samalut"
 is_city = yes
-owner = MAM
-controller = MAM
+owner = KEM
+controller = KEM
 
 #Demographics
-culture = saidi_arabic
-religion = sunni
+culture = coptic_culture
+religion = coptic
 
 #Development and Trade
 base_tax = 3
@@ -19,7 +19,6 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MAM
 add_core = KEM
 
 #Other Political

@@ -1,11 +1,11 @@
  
 #New Beyond Typus Province
 
-owner = GHD
-controller = GHD 
-add_core = GHD
-culture = lawwata_berber
-religion = sunni
+owner = KAI
+controller = KAI
+add_core = KAI
+culture = afri
+religion = catholic
 capital = "Tozeur"
 trade_goods = bt_trade_good_fruit
 hre = no
@@ -24,10 +24,3 @@ add_permanent_province_modifier = {
 	name = btpl_oasis
 	duration = -1
 }
-
-
-1574.9.13 = {
-	owner = OTN
-	controller = OTN
-	add_core = OTN
-} #Information sparse here, but most maps seem to suggest this area was within the Ottoman SoI by the fall of the Hafsids and establishment of Ottoman Tunis

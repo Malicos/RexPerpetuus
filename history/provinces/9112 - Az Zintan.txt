@@ -5,8 +5,8 @@
 #Core Details
 capital = "Az Zintan"
 is_city = yes
-owner = TAL
-controller = TAL
+owner = GDM
+controller = GDM
 
 #Demographics
 culture = libyan_berber_culture
@@ -19,6 +19,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
+add_core = GDM
 add_core = TAL
 
 #Other Political

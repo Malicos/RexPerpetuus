@@ -5,8 +5,8 @@
 #Core Details
 capital = "Souk Ahras"
 is_city = yes
-owner = BJA
-controller = BJA
+owner = KEF
+controller = KEF
 
 #Demographics
 culture = tunisian
@@ -19,8 +19,8 @@ base_manpower = 1
 trade_goods = iron
 
 #Cores and Occupation (Alphabetical after current)
+add_core = KEF
 add_core = BJA
-add_core = TUN
 
 #Other Political
 hre = no

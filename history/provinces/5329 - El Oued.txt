@@ -1,11 +1,12 @@
  
 #New Beyond Typus Province
 
-owner = ZAB
-controller = ZAB
+owner = AUR
+controller = AUR
+add_core = AUR
 add_core = ZAB
 culture = lawwata_berber
-religion = sunni
+religion = ibadi
 capital = "EL Oued"
 trade_goods = salt
 hre = no

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Guercif"
 is_city = yes
-owner = MOR
-controller = MOR
+owner = ORN
+controller = ORN
 
 #Demographics
 culture = moroccan
@@ -19,8 +19,7 @@ base_manpower = 2
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MOR
-add_core = FEZ
+add_core = ORN
 
 #Other Political
 hre = no

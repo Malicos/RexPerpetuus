@@ -9,7 +9,7 @@ tribal_owner = MSF
 
 #Demographics
 culture = zenaga_berber
-religion = sunni
+religion = ibadi
 
 #Development and Trade
 base_tax = 1
