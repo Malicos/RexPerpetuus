@@ -1,4 +1,0 @@
-
-historical_friend = OJI
-historical_friend = POT
-capital = 5039

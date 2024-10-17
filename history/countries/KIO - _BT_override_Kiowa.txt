@@ -1,2 +1,0 @@
-
-capital = 2502 #BT Changed because 2503 is not owned by the tag

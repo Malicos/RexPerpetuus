@@ -1,3 +1,0 @@
-
-government_rank = 1
-primary_culture = northumbrian

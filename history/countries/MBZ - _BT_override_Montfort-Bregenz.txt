@@ -1,3 +1,0 @@
-
-primary_culture = bavarian
-add_accepted_culture = swiss

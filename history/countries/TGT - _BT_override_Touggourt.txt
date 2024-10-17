@@ -1,4 +1,0 @@
-government = monarchy
-government_rank = 2
-add_government_reform = barbary_sultanate_reform
-primary_culture = maghrebi_arabic #(JP) Tuggurt was ruled by Arabic dynasties as opposed to more native Berber ones. 

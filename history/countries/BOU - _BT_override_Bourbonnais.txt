@@ -1,3 +1,0 @@
-
-primary_culture = auvergnat_culture
-add_accepted_culture = arpitan

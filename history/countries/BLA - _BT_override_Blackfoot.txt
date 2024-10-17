@@ -1,4 +1,0 @@
-
-capital = 2602
-historical_friend = QQN
-historical_friend = QQM

@@ -1,2 +1,0 @@
-
-capital = 2597 #BT Changed because 2596 is Nakota tribal land

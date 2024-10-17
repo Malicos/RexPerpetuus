@@ -1,3 +1,0 @@
-
-primary_culture = markish
-add_accepted_culture = saxon

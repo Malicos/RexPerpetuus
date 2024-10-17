@@ -1,3 +1,0 @@
-#KAU - Kaurna
-
-primary_culture = kadli

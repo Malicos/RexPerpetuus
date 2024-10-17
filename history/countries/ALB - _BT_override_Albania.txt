@@ -1,6 +1,0 @@
-
-capital = 4750 # Kruje
-add_ruler_modifier = {
-	name = "bt_albania_lezhe_subsidies"
-	duration = -1
-}

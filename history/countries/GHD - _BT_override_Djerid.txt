@@ -1,4 +1,0 @@
-
-add_government_reform = barbary_sultanate_reform
-primary_culture = lawwata_berber
-capital = 5316

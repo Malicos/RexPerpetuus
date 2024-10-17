@@ -1,3 +1,0 @@
-primary_culture = hawiye
-add_accepted_culture = reewin
-capital = 8808

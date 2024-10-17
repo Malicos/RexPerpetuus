@@ -1,3 +1,0 @@
-
-primary_culture = zuni
-capital = 2493 # Zuni

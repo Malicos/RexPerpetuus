@@ -1,4 +1,0 @@
-
-add_government_reform = tribal_federation
-capital = 4322
-religious_school = shafii_school

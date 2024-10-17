@@ -1,3 +1,0 @@
-
-primary_culture = lorraine_culture
-add_accepted_culture = hessian

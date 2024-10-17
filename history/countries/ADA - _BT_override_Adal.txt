@@ -1,5 +1,0 @@
-
-primary_culture = argobba
-add_accepted_culture = dir
-add_accepted_culture = afar
-add_accepted_culture = harari

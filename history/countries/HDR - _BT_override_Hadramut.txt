@@ -1,4 +1,0 @@
-
-capital = 2343
-historical_friend = ADE
-historical_friend = MHR

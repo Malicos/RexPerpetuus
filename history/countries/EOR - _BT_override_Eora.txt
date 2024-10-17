@@ -1,3 +1,0 @@
-#EOR - Eora
-
-primary_culture = yoran

@@ -1,4 +1,0 @@
-
-add_accepted_culture = griko
-historical_friend = SIC
-historical_friend = PAP

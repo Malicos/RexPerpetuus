@@ -1,3 +1,0 @@
-
-historical_friend = YZI
-historical_rival = HUR

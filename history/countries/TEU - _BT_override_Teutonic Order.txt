@@ -1,6 +1,0 @@
-
-add_accepted_culture = pommeranian
-
-1444.10.1 = {
-	set_estate_privilege = estate_nobles_strong_duchies
-}

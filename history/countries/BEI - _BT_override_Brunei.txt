@@ -1,3 +1,0 @@
-
-add_government_reform = plutocratic_reform
-primary_culture = malayan

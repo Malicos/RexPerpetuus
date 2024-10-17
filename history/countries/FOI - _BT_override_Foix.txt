@@ -1,3 +1,0 @@
-add_government_reform = feudalism_reform #Because not an appanage in BT
-government_rank = 1
-add_accepted_culture = occitain

@@ -1,2 +1,0 @@
-primary_culture = hadiya
-capital = 2761

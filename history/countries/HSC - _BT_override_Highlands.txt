@@ -1,2 +1,0 @@
-
-government_rank = 1

@@ -1,2 +1,0 @@
-primary_culture = gonga
-religion = shamanism #(JP) Elites convert to Christianity in 1580

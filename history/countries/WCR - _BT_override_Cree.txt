@@ -1,3 +1,0 @@
-
-add_government_reform = native_clan_council_reform
-capital = 5057

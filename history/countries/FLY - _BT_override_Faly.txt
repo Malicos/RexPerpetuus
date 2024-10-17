@@ -1,2 +1,0 @@
-
-add_government_reform = irish_clann_reform

@@ -1,4 +1,0 @@
-
-add_government_reform = norman_lordship_reform
-primary_culture = anglo_irish
-add_accepted_culture = irish

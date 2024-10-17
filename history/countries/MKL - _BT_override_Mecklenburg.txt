@@ -1,3 +1,0 @@
-
-capital = 7811	# Schwerin
-fixed_capital = 7811 			#Don't actually love fixed capital here, but vanilla has one, so need to override it here

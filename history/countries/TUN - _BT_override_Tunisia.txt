@@ -1,5 +1,0 @@
-
-add_accepted_culture = libyan_arabic
-add_accepted_culture = libyan_berber_culture
-add_accepted_culture = lawwata_berber
-add_accepted_culture = shawiya_berber
