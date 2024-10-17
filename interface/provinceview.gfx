@@ -322,7 +322,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_province_view_religion"
 		texturefile = "gfx//interface//province_view_religion.dds"
-		noOfFrames = 34
+		noOfFrames = 62 #RP 34 #BT; 29
 		loadType = "INGAME"
 	}
 	spriteType = {
