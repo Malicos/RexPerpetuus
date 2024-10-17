@@ -123,7 +123,7 @@ dlc137_FER_sprite_pack = {
  	country_trigger = {
 		OR = {
 			tag = MOL
-			tag = BIS	#RP Added
+			tag = BSN	#RP Added
 		}
  	}
 
