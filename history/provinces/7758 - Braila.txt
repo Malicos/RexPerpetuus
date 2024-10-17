@@ -1,8 +1,8 @@
 #BT Balkans reoverhaul
 
-owner = BIS
-controller = BIS
-add_core = BIS 
+owner = BSN
+controller = BSN
+add_core = BSN 
 add_core = WAL
 culture = romanian
 religion = orthodox

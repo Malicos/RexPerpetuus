@@ -1,8 +1,8 @@
 #BT GDL reoverhaul
 
-owner = BIS
-controller = BIS
-add_core = BIS
+owner = BSN
+controller = BSN
+add_core = BSN
 culture = bisseni
 religion = orthodox
 capital = "Rybnitsa"			#Error, founded 1628, but nothing better showing up easily

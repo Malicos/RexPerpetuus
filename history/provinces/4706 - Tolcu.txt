@@ -1,8 +1,8 @@
 #4706 - Tulcea
 
-owner = BIS
-controller = BIS
-add_core = BIS
+owner = BSN
+controller = BSN
+add_core = BSN
 culture = bisseni		#Unclear if Bulgarian or Romanian majority.
 religion = orthodox
 capital = "Tulcea"

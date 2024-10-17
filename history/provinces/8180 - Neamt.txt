@@ -5,8 +5,8 @@
 #Core Details
 capital = "Piatra"
 is_city = yes
-owner = BIS
-controller = BIS
+owner = BSN
+controller = BSN
 
 #Demographics
 culture = bisseni
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BIS
+add_core = BSN
 
 #Other Political
 hre = no
