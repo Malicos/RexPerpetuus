@@ -1,3 +1,110 @@
 country_decisions = {
-    # insert formable code here
+	RP_outremer_empire = { #This is both a release as vassal and tagswitch into decision. It must therefore be treated as such.
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_outremer }
+			NOT = { exists = OUT }
+			religion = catholic
+			tag = KOJ
+			owns = 379		
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 358 #Alexandria
+				province_id = 361 #Cairo
+				province_id = 364 #Gazzah
+				province_id = 379 #Jerusalem
+				province_id = 1854 #Jaffa
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			owns_core_province = 358 #Alexandria
+			owns_core_province = 361 #Cairo
+			owns_core_province = 364 #Gazzah
+			owns_core_province = 379 #Jerusalem
+			owns_core_province = 1854 #Jaffa
+			379 = {
+				is_state = yes
+			}
+			if = {
+				limit = {
+					tag = KOJ
+					was_never_end_game_tag_trigger = yes
+				}
+				is_emperor = no
+			}
+		}
+		effect = {
+			add_prestige = 25
+			every_province = {
+				limit = {
+					OR = {
+						area = trans_jordan_area
+						area = palestine_area
+						province_id = 378 #County of Tripoli
+						province_id = 1855 #Sayda
+						province_id = 4268 #Aqaba
+					}
+				}
+				add_core = OUT
+			}
+			if = {
+				limit = {
+					OR = {
+						tag = KOJ
+						capital_scope = { region = arabia_region }
+						capital_scope = { region = egypt_region }
+						capital_scope = { region = mashriq_region }
+					}
+					was_never_end_game_tag_trigger = yes
+				}
+				if = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+				change_tag = OUT
+				on_change_tag_effect = yes
+				swap_ideas = yes
+			}
+			OUT = {
+				set_capital = 379 #Jerusalem
+				if = {
+					limit = {
+						NOT = { government = theocracy }
+					}
+					change_government = monarchy
+					add_government_reform = holy_state_reform
+					#set_legacy_government = holy_state_legacy
+				}
+				else_if = {
+					limit = {
+						government = theocracy
+						NOT = { has_reform = holy_horde_reform }
+						NOT = { has_reform = militarized_crusader_order_reform }
+					}
+					add_government_reform = holy_state_reform
+					#set_legacy_government = holy_state_theocracy
+				}
+				if = {
+					limit = {
+						NOT = { government_rank = 3 }
+					}
+					set_government_rank = 3
+				}
+				set_country_flag = formed_outremer
+				swap_non_generic_missions = yes
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
