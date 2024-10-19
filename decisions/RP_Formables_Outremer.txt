@@ -2,12 +2,22 @@ country_decisions = {
 	RP_outremer_empire = { #This is both a release as vassal and tagswitch into decision. It must therefore be treated as such.
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_outremer }
-			NOT = { exists = OUT }
+			NOT = { tag = OUT }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
 			religion = catholic
-			tag = KOJ
-			owns = 379		
+			primary_culture = outremer
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}	
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -23,22 +33,16 @@ country_decisions = {
 			}
 		}
 		allow = {
+			NOT = { exists = OUT }
 			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
 			owns_core_province = 358 #Alexandria
 			owns_core_province = 361 #Cairo
 			owns_core_province = 364 #Gazzah
 			owns_core_province = 379 #Jerusalem
 			owns_core_province = 1854 #Jaffa
-			379 = {
-				is_state = yes
-			}
-			if = {
-				limit = {
-					tag = KOJ
-					was_never_end_game_tag_trigger = yes
-				}
-				is_emperor = no
-			}
+			religion = catholic
 		}
 		effect = {
 			add_prestige = 25
