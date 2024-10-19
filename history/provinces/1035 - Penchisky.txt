@@ -3,7 +3,7 @@
 culture = kamchatkan
 religion = tengri_pagan_reformed
 capital = "Penzhinsky"
-trade_goods = unknown
+trade_goods = fish
 hre = no
 base_tax = 2  
 base_production = 2 
