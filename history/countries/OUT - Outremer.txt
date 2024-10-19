@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+primary_culture = outremer
+add_accepted_culture = syriac_culture
+add_accepted_culture = coptic_culture
+add_accepted_culture = sahidic
+religion = catholic
+technology_group = eastern
+capital = 379	# Jerusalem
+fixed_capital = 379
