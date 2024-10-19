@@ -1,0 +1,66 @@
+country_decisions = {
+    bretland_nation = {
+        major = yes
+        potential = {
+            NOT = { has_country_flag = formed_bretland }
+            tag = DNL
+        }
+        provinces_to_highlight = {
+            region = british_isles_region
+            OR = {
+                NOT = { owned_by = ROOT }
+                NOT = { is_core = ROOT }
+            }
+        }
+        allow = {
+            NOT = { exists = BRL }
+            is_at_war = no
+            is_free_or_tributary_trigger = yes
+            is_nomad = no
+            owns_core_province = 245
+            num_of_owned_provinces_with = {
+                is_core = ROOT
+                region = british_isles_region
+                value = 63
+            }
+        }
+        effect = {
+            change_tag = BRL
+            remove_non_electors_emperors_from_empire_effect = yes
+            british_isles_region = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                    NOT = { is_core = ROOT }
+                }
+                add_permanent_claim = BRL
+            }
+            if = {
+                limit = { NOT = { government_rank = 3 } }
+                set_government_rank = 3
+            }
+            add_country_modifier = {
+                name = "centralization_modifier"
+                duration = 7300
+            }
+            add_prestige = 25
+            # swap_ideas = yes
+            set_country_flag = formed_bretland
+
+            add_casus_belli = {
+				target = NOR
+				type = cb_restore_personal_union
+				months = 600
+			}
+
+			add_casus_belli = {
+				target = DAN
+				type = cb_restore_personal_union
+				months = 600
+			}
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        ai_importance = 400 #
+    }	
+}

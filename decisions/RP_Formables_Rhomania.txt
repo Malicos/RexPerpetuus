@@ -1,5 +1,4 @@
 country_decisions = {
-
 	restore_byzantine_empire = {
 		major = yes
 		potential = {
@@ -183,6 +182,5 @@ country_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
-	}
-	
+	}	
 }
