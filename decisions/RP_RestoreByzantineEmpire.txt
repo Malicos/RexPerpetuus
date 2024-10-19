@@ -13,18 +13,13 @@ country_decisions = {
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			OR = {
-				AND = {
-					culture_group = byzantine
-					NOT = { primary_culture = goths }
-				}
-				AND = {
-					has_idea = MFA_byzantine_claimants
-					dynasty = "Palaiologos"
-				}
+				culture_group = byzantine
+				NOT = { primary_culture = goths }
 			}
 			OR = {
 				religion = orthodox
-				has_idea = MFA_byzantine_claimants
+				religion = iconoclast
+				religion = bogomilist
 			}
 			num_of_owned_provinces_with = { # BT
 				value = 5
@@ -37,8 +32,6 @@ country_decisions = {
 					area = sicily_area
 					area = erzurum_area
 					area = cyprus_area
-					province_id = 3249
-					province_id = 5183
 					province_id = 2313
 					province_id = 5170
 					province_id = 2410
@@ -58,8 +51,6 @@ country_decisions = {
 				area = sicily_area
 				area = erzurum_area
 				area = cyprus_area
-				province_id = 3249
-				province_id = 5183
 				province_id = 2313
 				province_id = 5170
 				province_id = 2410
@@ -83,8 +74,6 @@ country_decisions = {
 					area = sicily_area
 					area = erzurum_area
 					area = cyprus_area
-					province_id = 3249
-					province_id = 5183
 					province_id = 2313
 					province_id = 5170
 					province_id = 2410
@@ -126,11 +115,11 @@ country_decisions = {
 				add_permanent_claim = BYZ
 			}
 			random_owned_province = {
-				limit = { culture = greek }
+				limit = { culture_group = byzantine }
 				add_base_tax = 1
 			}
 			random_owned_province = {
-				limit = { culture = greek }
+				limit = { culture_group = byzantine }
 				add_base_tax = 1
 			}
 			add_country_modifier = {
@@ -140,7 +129,7 @@ country_decisions = {
 			add_prestige = 25			#10 to 25 prestige, this is quite an accomplishment -Draiocht
 			BYZ = {
 				add_core = 151 # Constantinople
-				change_primary_culture = greek			#Culture turns to greek now, instead of BYZ changing to culture. Works better for events, and represents that standard 'greek' is whoever controls Constantinople
+				change_primary_culture = rhomaioi			#RP: swapped from Greek, this should represent an unified Byzantine culture
 			}
 			if = {
 				limit = {
@@ -163,8 +152,8 @@ country_decisions = {
 					add_base_manpower = 1
 					#rename_capital = Constantinople
 					if = {
-						limit = { NOT = { culture = greek } }
-						change_culture = greek
+						limit = { NOT = { culture = rhomaioi } }
+						change_culture = rhomaioi
 					}
 				}
 				set_global_flag = constantinople_restored
