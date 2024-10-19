@@ -48,3 +48,5 @@
  MENU_BAR_GAME_RESIGN:0 "Restart to Menu"
  RESIGN_TITLE:0 "Restart to Main Menu"
  RESIGN_DESC:0 "Are you sure you want to resign and restart the game to return to the main menu?"
+ noculture:0 "Uninhabited"
+ noreligion:0 "Uninhabited"
