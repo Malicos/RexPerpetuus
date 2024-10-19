@@ -9,7 +9,7 @@ capital = "Iglesias"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = rp_trade_good_silver			#famous silver mines
+trade_goods = bt_trade_good_silver #BT Harb changed with new  trade good	
 is_city = yes
 hre = no
 

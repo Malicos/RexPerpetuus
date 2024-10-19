@@ -9,7 +9,7 @@ capital = "Leuven"
 base_tax = 7
 base_production = 7
 base_manpower = 4
-trade_goods = cloth			#Such a centre of cloth trade that in the 14th and 15th centuries it gave its name to linnen. 
+trade_goods = bt_trade_good_books		#Such a centre of cloth trade that in the 14th and 15th centuries it gave its name to linnen. 
 is_city = yes
 hre = yes
 

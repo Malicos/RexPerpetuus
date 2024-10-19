@@ -9,7 +9,7 @@ capital = "Vicenza"
 base_tax = 6
 base_production = 7
 base_manpower = 4
-trade_goods = gold			#one fifth of Italy's gold is made in Vicenza, also famous silver mines. Could also ve wool, silk, cloth, Olives and even marble and sulphur. Damn Vicenza is rich. Further proof for gold... -Nikicaga
+trade_goods = bt_trade_good_silver #BT Harb changed with new  trade good	
 #The surrounding country is predominantly agricultural .... Major products are wine, wheat. There are also quarries of marble, sulphur, copper, and silver mines -wiki quote added by Draiocht
 is_city = yes
 hre = yes

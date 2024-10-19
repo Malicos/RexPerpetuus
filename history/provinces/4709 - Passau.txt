@@ -11,7 +11,7 @@ hre = yes
 base_tax = 5
 base_production = 4
 base_manpower = 4
-trade_goods = fish
+trade_goods = salt
 
 discovered_by = eastern
 discovered_by = rhomanian_tech

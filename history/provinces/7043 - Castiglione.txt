@@ -10,7 +10,7 @@ capital = "Castiglione della Pescaia"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = naval_supplies # major port, and has rich pine woods around it, so Lumber once introduced
+trade_goods = bt_trade_good_masonry
 is_city = yes
 hre = yes
 

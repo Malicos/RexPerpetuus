@@ -16,7 +16,7 @@ religion =  hussite
 base_tax = 2
 base_production = 1
 base_manpower = 1
-trade_goods = wine
+trade_goods = bt_trade_good_silver
 
 #Cores and Occupation (Alphabetical after current)
 add_core = UHU

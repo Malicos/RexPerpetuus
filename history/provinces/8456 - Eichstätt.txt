@@ -16,7 +16,7 @@ religion = catholic
 base_tax = 4
 base_production = 3
 base_manpower = 3
-trade_goods = iron	#Limestone quarry
+trade_goods = bt_trade_good_masonry #Limestone quarry
 
 #Cores and Occupation (Alphabetical after current)
 add_core = EIC

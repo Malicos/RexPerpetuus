@@ -16,7 +16,7 @@ religion = catholic
 base_tax = 4
 base_production = 3
 base_manpower = 2
-trade_goods = livestock		#Velius: Focused on agriculture and livestock since Roman times, also has a stone quarry in the area.
+trade_goods = bt_trade_good_masonry	#Velius: Focused on agriculture and livestock since Roman times, also has a stone quarry in the area.
 
 #Cores and Occupation (Alphabetical after current)
 add_core = BAV

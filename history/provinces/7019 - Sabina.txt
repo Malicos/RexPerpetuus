@@ -10,7 +10,7 @@ capital = "Tivoli"
 base_tax = 4
 base_production = 4
 base_manpower = 3
-trade_goods = wine # wineyards. Could also be olives or paper. Really should be stone due to travertine deposits
+trade_goods = bt_trade_good_masonry #yes due to pottery. Due to marble, could also be stone once it's introduced 
 is_city = yes
 hre = no
 

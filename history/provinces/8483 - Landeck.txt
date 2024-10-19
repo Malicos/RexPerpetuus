@@ -16,7 +16,7 @@ religion = catholic
 base_tax = 2
 base_production = 4
 base_manpower = 3
-trade_goods = livestock
+trade_goods = bt_trade_good_silver #BT Harb changed with new trade good 
 
 #Cores and Occupation (Alphabetical after current)
 add_core = TIR

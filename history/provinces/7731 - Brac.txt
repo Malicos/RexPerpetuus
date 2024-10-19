@@ -9,7 +9,7 @@ capital = "Nerežisca"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = fish #stone. Niki calls this the most important marble mine in the world.
+trade_goods = bt_trade_good_masonry #stone. Niki calls this the most important marble mine in the world.
 is_city = yes
 hre = yes
 

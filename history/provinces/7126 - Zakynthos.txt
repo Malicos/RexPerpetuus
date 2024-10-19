@@ -10,7 +10,7 @@ capital = "Zakynthos"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = gold			#Grimm easter egg, as I'm tired and not finding any helpful info.
+trade_goods = bt_trade_good_fruit			#Grimm easter egg, as I'm tired and not finding any helpful info. <- silly   #Changed to fruit because they grew currants here
 is_city = yes
 hre = no
 
