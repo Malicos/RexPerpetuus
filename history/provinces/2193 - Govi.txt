@@ -1,8 +1,8 @@
 # 2193 - Govi
 
-owner = NAI
-controller = NAI
-add_core = NAI
+owner = NMN
+controller = NMN
+add_core = NMN
 culture = naiman
 religion = nestorian
 capital = "Govi"
