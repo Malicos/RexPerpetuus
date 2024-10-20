@@ -2570,8 +2570,10 @@ lithuanian_monarchy = {
 	}
 
 	trigger = {
-		tag = LIT
-		tag = KRV #RP Added
+		OR = {
+			tag = LIT
+			tag = KRV #RP Added
+		}
 		government = monarchy
 	}
 }
