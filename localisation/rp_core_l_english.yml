@@ -1474,6 +1474,17 @@
  #################################################################################
  CAPTAINATE:0 "Captainate"
  GRAND_CAPTAINATE:0 "Grand Captainate"
+ 
+ # POLISH GOV NAMES
+ KSIESTWO:0 "Księstwo"
+ KROLESTWO:0 "Królestwo"
+ CESARSTWO:0 "Cesarstwo"
+ KSIAZE:0 "Książe"
+ KROL:0 "Król"
+ CESARZ:0 "Cesarz"
+ KSIEZNA:0 "Księżna"
+ KROLOWA:0 "Królowa"
+ CESARZOWA:0 "Cesarzowa"
 
  #NORDIC GOVERNMENTS
  mechanic_enables_viking_idea_group_yes:0 "Allows Viking Idea Group"

@@ -1,7 +1,7 @@
 # For specific government types
 # Will pick the first valid one it finds in list
 
-gov_captainate = {
+rp_gov_captainate = {
 	rank = {
 		1 = CAPTAINATE
 		2 = GRAND_CAPTAINATE
@@ -23,5 +23,57 @@ gov_captainate = {
 	trigger = {
 		tag = CTA
 		NOT = { government = theocracy }
+	}
+}
+
+rp_polish_localisation = {
+	rank = {
+		1 = KSIESTWO
+		2 = KROLESTWO
+		3 = CESARSTWO
+	}
+
+	ruler_male = {
+		1 = KSIAZE
+		2 = KROL
+		3 = CESARZ
+	}
+
+	ruler_female = {
+		1 = KSIEZNA
+		2 = KROLOWA
+		3 = CESARZOWA
+	}
+
+	consort_male = {
+		1 = KSIAZE
+		2 = KROL
+		3 = CESARZ
+	}
+
+	consort_female = {
+		1 = KSIEZNA
+		2 = KROLOWA
+		3 = CESARZOWA
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		government = monarchy
+		OR = {
+			primary_culture = polish
+			tag = POL
+		}
 	}
 }
