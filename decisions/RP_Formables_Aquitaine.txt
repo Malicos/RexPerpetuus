@@ -1,3 +1,79 @@
 country_decisions = {
-    # insert formable code here
+	RP_aquitaine_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_aquitaine_flag }
+			NOT = { tag = AQT }
+			OR = {
+				culture_group = occitanic
+				primary_culture = basque
+			}
+		}
+		provinces_to_highlight = {
+			region = aquitaine_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = AQT }
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 174			# Bordeaux
+			owns_core_province = 196			# Toulouse
+			owns_core_province = 199			# Clermont
+			owns_core_province = 201			# Marseille
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = aquitaine_region
+				value = 111			#At least 2/3 of France's 166 provinces #NOTE: TWEAK THIS
+			}
+			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+		}
+		effect = {
+			#Mission completions - None at the moment
+			#Country formation effects
+			change_tag = AQT
+			on_change_tag_effect = yes
+			restore_country_name = yes
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 7300
+			}
+			#Rank + prestige
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			#Nation claims + Mission claims
+			aquitaine_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = AQT
+			}
+			#Swap culture, government, government reform & ideas, plus set flag
+			if = {
+				limit = {
+					NOT = { has_idea_group = AQT_ideas }
+				}
+				swap_ideas = yes
+			}
+			set_country_flag = formed_aquitaine_flag
+			#set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	
 }
