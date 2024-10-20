@@ -5171,6 +5171,181 @@ turko_semitic = { #Levantine   -Draiocht changed to Arabic
 			Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra Zahra
 		}
 	}
+	#BT17
+	maghrebi_arabic = { #(JP) Primarily representing the Arabs around Oran, and then the tribes in interior Algeria. Primarily Hilalan Speakers
+		#primary = 
+		dynasty_names = {
+			Hammadid Taishufin Hafsid Zayanid Aznagid Wanurid Alivid Madinid Muttawakilid Mansurid Yazid Tremecen Ishaqid Yahyavid
+			Bilalid Utmanid Tittawin Sebtaid Tariqid Muhajir Ladenid Hannachid Sabrid Safavid Sajjadid Saidid Sedkid Shakeelid
+			Sharifid Shehzadid Sidqid Tahirid Talalid Medjerdid Tasneemid Tayebid Umarid Waheedid Wahidid Waleedid Wazirid
+			Younisid Zafarid Zahirid Zakariyid Zakidid Zaydid Abdoid Abidin Adilid Balochid Bakkalid Mahmoudid Nadeerid
+			Nadvid Najidid Naqvid Namjoid Anwarid Fawzid Nawfalid Abbasid Bari Isavid Fatamid Ayyubid Khazrunid Marinid
+			Almohad Ghaniya Jalayar Tudjinid Seddoukid Raghraghwid Temimid Azfavid Hamdanid Thabitid Khaldun Battuta Kamalid
+		}
+		male_names = {
+			Aaron Abanoub Abderahman Abdul-Aziz Abdul-Haq Abdul-Madjid Abdul-Salaam Abdullah
+			Abianos Abisalom Ablarion Abraam Abu-Bakr Adnan Agathon Agathonikos Agathos
+			Ahmad Akbar Alam Ali Amr Androus Anthinos Arsenios Ashraf Asim
+			Athanasios Badr Bashir Biktor Binyamin Bishoi Boutros Danyal Dawlat Daoud
+			Ezra Farhan Firuz Gabriel Georgios Ghiyasaddin Habil Hakam Hammud Hanri Haroun Hisham
+			Hussayn Ibrahim Ilyas Ismail Izzaddin Jalaaladdin Jawdat Jerjer Kemaladdin Khalil Krystafer
+			Latif Lot Malik Matta Mehtar Mikail Mikhael Milad Mina Muammar Muhammad
+			Mukhtar Murad Murshid Musa Muzaffaraddin Nabil Nasir Nassib Nuraddin Pamin Qadir Rauf Rafiq Ridwan Sabah Salim Shaban
+			Sharif Suhail Tadros Tajaddin Tayyib Touma Usama Walid Yahya Yared Yassir Youkhanna Youssef Zaia Zakariyah
+		}
+		female_names = {
+			Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
+			Jamila Khadija Majida Mariam Nabila Nura Radiya Rana Sacmis Safiya
+			Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra
+		}
+	}
+	saharawi_arabic = { #(JP) Hassaniya Arabic speakers
+		#primary = 
+		dynasty_names = {
+			"Saud" "Rasulid" "Tahiride" "Jabrid" "al-Qasimi"
+			"Nabhani" "Yaruba" "al-Said" "Usfurid" "Jarwanid" "Hashim"
+		}
+		male_names = {
+			Mani Rabi'a Musa Ibrahim Markhan Watban Nasir Idris "'Abd-Allah" Sa'ud Zayid Abdullah Muhammad
+			'Abdullah Turki Faisal Al-Rahman Khalid Fahd Aziz Abu-Bakr Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir
+			Abdul-Wahab Abdul Abdul Abdullah Abdullah Aghlab Akin Ali Ali Alim Aram Azam Bahir Burhanaddin
+			Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Hasan Husam Hussayn Hussayn Ibrahim Abraham Idris
+			Is'mail Ismail Isa Jabir Jalil Jibril Khaireddin Khalil Mahdi Mahmud Mahmud
+			Mansur Mirza Mubarak Muhammad Muhammad Mukhtar Murad Musa Moses Muslihiddin Muzaffaraddin Najib
+			Nasr Nizam Qawurd Ramadan Sa'daddin Sadiq Sami Samir Shaiban
+			Shamir Shujah Sulayman Solomon Talib Ubayd Uways Yahya Yahya Ya'qub Jacob Youkhanna John Yusuf
+			Joseph Zeyd
+			Aaron Aaron Abanoub Abderahman Abderrahman Abdul-Aziz Abdul-Haq Abdul-Madjid Abdul-Salaam Abdullah
+			Abdullah Abianos Abijah Abisalom Ablarion Abraam Abraham Abu-Bakr Abu-Bakr Adnan Agathon Agathos
+			Agathonikos Agathonikos Agathos Agathos Ahmad Ahmad Akbar Akbar Alam Ali Ali Amr Androus Andrew
+			Anthinos Anthimos Arsenios Arsenios Ashraf Ashraf Asim Athanasios Athanasius Badr Bashir Biktor
+			Victor Binyamin Benjamin Bishoi Bishara Boutros Peter Danyal Daniel Dawlat Da’oud David Ezra Ezra
+			Farhan Firuz Gabri’el Gabriel Georgios George Ghiyasaddin Habil Abel Hakam Hakam Hammud Hanri Henry
+			Haroun Aaron Hisham Hussayn Hussayn Ibrahim Abraham Ilyas Elijah Is'mail Ismail Izzaddin
+			Jalaaladdin Jawdat Jerjer Gregory Kemaladdin Khalil Krystafer Christopher Latif Lot Lothair Malik
+			Matta Matthew Mehtar Mikail Michael Mikhael Michael Milad Milad Mina Menas Muammar Muhammad
+			Muhammad Mukhtar Murad Murshid Musa Moses Muzaffaraddin Nabil Nasir Nassib Nuraddin Pamin Qadir
+			Ra'uf Rafiq Ridwan Sabah Salim Sha'ban Sharif Suhail Tadros Theodore Tajaddin Tayyib Touma Thomas
+			Usama Walid Yahya Yahya Yared Yassir Youkhanna John Youssef Joseph Zaia Isaiah Zakariyah Zachary
+			Abdul-Azeem Abdul-Hamid Abdul-Lateef Abdul-Razzaq Abdul-Wahad Abdullah Abdullah Adhid Adil Akab
+			Ala'i Ali Ali Amir Ashraf Aziz Bashar Boutros Peter Da'ud David Faisal
+			Fayiz Ghazi Hakam Hakam Hamdan Hashmaddin Hussayn Hussayn Ibrahim Abraham Imamaddin Isa Is'mail
+			Ismail Ismat Jahan Jamil Kamran Khalid Khudayar Majid Mas'ud
+			Muaddam Muhammad Muhammad Muhsin Mukhtar Murad Musa Moses Muzaffar Muzaffaraddin Nasraddin Nuraddin
+			Nuri Radhi Rasul Sa'ud Salahaddin Seyfullah Sharaf
+			Sirhan Taimur Tawfiq Umaya Wahid Yahya Yahya Ya'qub Jacob Yasar Youkhanna John Zahir
+		}
+		female_names = {
+			Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand
+			Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+			Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah
+			Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+			Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+		}	
+	}
+	libyan_arabic = { #(JP) Sulaimite Arabic spoken east of Tripoli and in Cyrenaica and Marmarica
+		#primary = 
+		dynasty_names = {
+			Hammadid Taishufin Hafsid Zayanid Aznagid Wanurid Alivid Madinid Muttawakilid Mansurid Yazid Tremecen Ishaqid Yahyavid
+			Bilalid Utmanid Tittawin Sebtaid Tariqid Muhajir Ladenid Hannachid Sabrid Safavid Sajjadid Saidid Sedkid Shakeelid
+			Sharifid Shehzadid Sidqid Tahirid Talalid Medjerdid Tasneemid Tayebid Umarid Waheedid Wahidid Waleedid Wazirid
+			Younisid Zafarid Zahirid Zakariyid Zakidid Zaydid Abdoid Abidin Adilid Balochid Bakkalid Mahmoudid Nadeerid
+			Nadvid Najidid Naqvid Namjoid Anwarid Fawzid Nawfalid Abbasid Bari Isavid Fatamid Ayyubid Khazrunid Marinid
+			Almohad Ghaniya Jalayar Tudjinid Seddoukid Raghraghwid Temimid Azfavid Hamdanid Thabitid Khaldun Battuta Kamalid
+		}
+		male_names = {
+			Aaron Abanoub Abderahman Abdul-Aziz Abdul-Haq Abdul-Madjid Abdul-Salaam Abdullah
+			Abianos Abisalom Ablarion Abraam Abu-Bakr Adnan Agathon Agathonikos Agathos
+			Ahmad Akbar Alam Ali Amr Androus Anthinos Arsenios Ashraf Asim
+			Athanasios Badr Bashir Biktor Binyamin Bishoi Boutros Danyal Dawlat Daoud
+			Ezra Farhan Firuz Gabriel Georgios Ghiyasaddin Habil Hakam Hammud Hanri Haroun Hisham
+			Hussayn Ibrahim Ilyas Ismail Izzaddin Jalaaladdin Jawdat Jerjer Kemaladdin Khalil Krystafer
+			Latif Lot Malik Matta Mehtar Mikail Mikhael Milad Mina Muammar Muhammad
+			Mukhtar Murad Murshid Musa Muzaffaraddin Nabil Nasir Nassib Nuraddin Pamin Qadir Rauf Rafiq Ridwan Sabah Salim Shaban
+			Sharif Suhail Tadros Tajaddin Tayyib Touma Usama Walid Yahya Yared Yassir Youkhanna Youssef Zaia Zakariyah
+		}
+		female_names = {
+			Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
+			Jamila Khadija Majida Mariam Nabila Nura Radiya Rana Sacmis Safiya
+			Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra
+		}
+	}
+	oasis_arabic = { #(JP) Wahati Arabic spoken in the Egyptian Oases. 
+		#primary = 
+		dynasty_names = {
+			"Burji" "Alawiyya" "Bahri"
+			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli Yakubid Hassanid
+		}
+		male_names = {
+			Muhammad Ahmad Qânsawh Tûmân Bay Inâl Khusqadam 'Abd al-'Aziz al-Musta'in al-Nasr Faraj Barsbay
+			Qâyit Bay Shaik al-Mahmudi Timurbughâ 'Uthman Yalbay Jânbulât Yûsuf Barqûq 'Alî Baybars Hâjjî
+			Bakr al-Hasan Isma'îl Kûjûk Sâlih 'Abd al-Malik Basir Fadl Ghayth Hatim Ilyas Jabir Nadim Nizar
+			Sayyid Yunus Jaqmaq Qasim Sa'di Sha'bân Abû
+		}
+		female_names = {
+			Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam
+			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+		}
+	}
+	saidi_arabic = { #(JP) Sai'di's in southern Egypt and the Red Sea Coast
+		#primary = 
+		dynasty_names = {
+			"Burji" "Alawiyya" "Bahri"
+			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli Yakubid Hassanid
+		}
+		male_names = {
+			Muhammad Ahmad Qânsawh Tûmân Bay Inâl Khusqadam 'Abd al-'Aziz al-Musta'in al-Nasr Faraj Barsbay
+			Qâyit Bay Shaik al-Mahmudi Timurbughâ 'Uthman Yalbay Jânbulât Yûsuf Barqûq 'Alî Baybars Hâjjî
+			Bakr al-Hasan Isma'îl Kûjûk Sâlih 'Abd al-Malik Basir Fadl Ghayth Hatim Ilyas Jabir Nadim Nizar
+			Sayyid Yunus Jaqmaq Qasim Sa'di Sha'bân Abû
+		}
+		female_names = {
+			Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam
+			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+		}
+	}
+	sudanese_arabic = { #(JP) Sudanese Arabic, 'Sudani'? The more settled tribes who settled along the Nile and mix with the Nubians.
+		#primary = 
+		dynasty_names = {
+			Warsangali Darod Dir Hawiye Isaaq Digil Mirifle Gadabuursi Akishe Biyomaal Surre Gurgura Issa Harti Marehan Bartire Rahanweyn
+		}
+		male_names = {
+			Abadir Abdale Abdirahman Abdulah Abram Abu-Bakr Adan Adeer Ahmed Ali Amlale Aul Awe
+			Aydahis Balad Baraka Barakat Ciise Dagale Dhidhin Hamalmal Hamar Hamid Hantale Haqq Harire
+			Ibrahim Irir Isman Jamal Kadhafo Kedafu Khalaf Liban Mahammad Mahamed
+			Mahamud Mansur Nahwi Naleye Nassir Nur Omer Sa_ad Sa_adaddin Sabir Sabr Sabraddin
+			Sadiq Salah Siciid Talha Umar Umardin Yayyo Yusuf Zuber
+		}
+		
+		female_names = {
+			Aasha Adey Alaso Ambro Amburo Asha Asli Astur Awa Awrala Ayaan Barni Basr Beydaan
+			Billan Canab Cawo Deeqa Delombira Dobira Faadumo Fathia Fawzia Geesi Haweeya Hibaaq
+			Hodan Hoodo Iftiin Jiinow Khadra Ladan Leyla Libin Luula Magol Maka Mariam
+			Mulki Nasteexo Sagal Sahra Sufia Ubah Ubax Waris Xalwo
+		}
+	}
+	baggara_arabic = { #(JP) Arabic of the Baggara tribes of Kordofan, Darfur, and Chad.
+		#primary = 
+		dynasty_names = {
+			Warsangali Darod Dir Hawiye Isaaq Digil Mirifle Gadabuursi Akishe Biyomaal Surre Gurgura Issa Harti Marehan Bartire Rahanweyn
+		}
+		male_names = {
+			Abadir Abdale Abdirahman Abdulah Abram Abu-Bakr Adan Adeer Ahmed Ali Amlale Aul Awe
+			Aydahis Balad Baraka Barakat Ciise Dagale Dhidhin Hamalmal Hamar Hamid Hantale Haqq Harire
+			Ibrahim Irir Isman Jamal Kadhafo Kedafu Khalaf Liban Mahammad Mahamed
+			Mahamud Mansur Nahwi Naleye Nassir Nur Omer Sa_ad Sa_adaddin Sabir Sabr Sabraddin
+			Sadiq Salah Siciid Talha Umar Umardin Yayyo Yusuf Zuber
+		}
+		
+		female_names = {
+			Aasha Adey Alaso Ambro Amburo Asha Asli Astur Awa Awrala Ayaan Barni Basr Beydaan
+			Billan Canab Cawo Deeqa Delombira Dobira Faadumo Fathia Fawzia Geesi Haweeya Hibaaq
+			Hodan Hoodo Iftiin Jiinow Khadra Ladan Leyla Libin Luula Magol Maka Mariam
+			Mulki Nasteexo Sagal Sahra Sufia Ubah Ubax Waris Xalwo
+		}
+	}
 }
 
 #RP Culture Group: Iberian Muslim group
