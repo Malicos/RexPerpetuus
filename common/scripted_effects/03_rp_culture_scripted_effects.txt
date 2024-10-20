@@ -1,0 +1,17 @@
+rp_rhomaioi_merge_effect = {
+    every_province = {
+        limit = {
+            OR = {
+                region = balkan_region
+                region = anatolia_region
+            }
+            AND = {
+                OR = {
+                    culture_group = byzantine
+                }
+                development = 25    
+            }
+        }
+        change_culture = rhomaioi
+    }
+}
