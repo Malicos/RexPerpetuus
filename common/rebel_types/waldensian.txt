@@ -1,14 +1,14 @@
 
 ######################################################################
-# Alawite rebels. Disgruntled fanatics.
+# Sabotier rebels. Disgruntled fanatics.
 ######################################################################
-alawite_rebels = {
+waldensian_rebels = {
 
 	color = { 230 175 175 }
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
-	religion = alawite
+	religion = waldensian
 	defection = none				# Will not defect
 	defect_delay = 120				# Held provinces will auto-defect after 18 months, regardless of accept/enforce demands.
 	independence = none				# Does not strive for independence
@@ -46,7 +46,7 @@ alawite_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			NOT = { religion = alawite }
+			NOT = { religion = waldensian }
 		}
 		modifier = {
 			factor = 0.001
@@ -91,21 +91,21 @@ alawite_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = alawite
-			owner = { religion = alawite }
+			religion = waldensian
+			owner = { religion = waldensian }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = alawite }
+			NOT = { religion = waldensian }
 			any_neighbor_province = {
-	 			religion = alawite
+	 			religion = waldensian
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
 		modifier = {
 			factor = 5
 			has_missionary = yes
-			religion = alawite
+			religion = waldensian
 		}
 		modifier = {
 			factor = 1.5
@@ -136,9 +136,9 @@ alawite_rebels = {
 			if = {
 				limit = {
 					OR = {
-						religion = alawite
+						religion = waldensian
 						is_reformation_center = yes
-						owner = { religion = alawite }
+						owner = { religion = waldensian }
 					}
 				}
 				add_province_modifier = {
@@ -148,11 +148,11 @@ alawite_rebels = {
 			}
 			if = {
 				limit = {
-					NOT = { religion = alawite }
+					NOT = { religion = waldensian }
 					is_reformation_center = no
-					NOT = { owner = { religion = alawite } }
+					NOT = { owner = { religion = waldensian } }
 				}
-				change_religion = alawite
+				change_religion = waldensian
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730
@@ -171,8 +171,8 @@ alawite_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = muslim
-			dominant_religion = alawite
+			religion_group = christian
+			dominant_religion = waldensian
 		}
 	}
 	
@@ -182,7 +182,7 @@ alawite_rebels = {
 	}
 	
 	# Localisation for their demands
-	demands_description = "alawite_rebels_demand"
+	demands_description = "waldensian_rebels_demand"
 	
 	# Country Scope	
 	demands_enforced_effect = {
@@ -213,7 +213,7 @@ alawite_rebels = {
 		}
 		else_if = {
 			limit = {
-				religion = alawite
+				religion = waldensian
 			}
 			add_country_modifier = {
 				name = "religious_intolerance_enforced"
@@ -223,16 +223,16 @@ alawite_rebels = {
 		
 		else_if = {
 			limit = {
-				NOT = { religion = alawite }
-				dominant_religion = alawite
+				NOT = { religion = waldensian }
+				dominant_religion = waldensian
 			}
-			change_religion = alawite
+			change_religion = waldensian
 			force_converted = yes
 		}
 		else_if = {
 			limit = {
-				NOT = { religion = alawite }
-				NOT = { dominant_religion = alawite }
+				NOT = { religion = waldensian }
+				NOT = { dominant_religion = waldensian }
 				religion_group = muslim
 				NOT = { has_country_modifier = heretic_tolerance }
 			}
@@ -244,7 +244,7 @@ alawite_rebels = {
 		else = { add_stability = -1 } #Should probably never get here
 		if = {
 			limit = {
-				religion = alawite
+				religion = waldensian
 				has_estate = estate_church
 				NOT = {
 					has_estate_influence_modifier = {
