@@ -30,9 +30,15 @@ country_decisions = {
 			owns_core_province = 1858	# Szczecin
 			num_of_owned_provinces_with = {
 				is_core = ROOT
-				region = poland_region
-				#Note that the below value claims it's Greece's. Not sure if this makes any sense, might just be Draiocht fucking up.
-				value = 24			#At least 67 percent of Greece's 36 provinces, per historical Kingdom of Greece borders
+				OR = {
+					area = veletia_area
+					area = pomerania_area
+					area = pomerelia_area
+					area = luticia_area
+					area = lusatia_area
+					area = milcenia_area
+				}
+				value = 26
 			}
 			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
 			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
@@ -56,56 +62,42 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 25
-			wallachia_area = {
+			veletia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = WND
 			}
-			oltenia_area = {
+			pomerania_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = WND
 			}
-			upper_muntenia_area = {
+			pomerelia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = WND
 			}
-			moldavia_area = { #Bessarabia
+			luticia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = WND
 			}
-			bukovina_area = {
+			lusatia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = WND
 			}
-			western_moldovia_area = {  ; #Moldavia
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = WND
-			}
-			transylvania_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = WND
-			}
-			southern_transylvania_area = {
+			milcenia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
