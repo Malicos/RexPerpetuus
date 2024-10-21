@@ -5,8 +5,8 @@
 #Core Details
 capital = "Eichstätt"
 is_city = yes
-owner = EIC
-controller = EIC
+owner = ECS
+controller = ECS
 
 #Demographics
 culture = bavarian
@@ -19,7 +19,7 @@ base_manpower = 3
 trade_goods = bt_trade_good_masonry #Limestone quarry
 
 #Cores and Occupation (Alphabetical after current)
-add_core = EIC
+add_core = ECS
 
 #Other Political
 hre = yes

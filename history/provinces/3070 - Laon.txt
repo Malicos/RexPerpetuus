@@ -2,9 +2,9 @@
 #Region - France
 #Area - Seine
 
-owner = GUI
-controller = GUI
-add_core = GUI
+owner = GUE
+controller = GUE
+add_core = GUE
 capital = "Laon"
 is_city = yes
 culture = cosmopolitan_french
