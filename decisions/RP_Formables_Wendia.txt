@@ -1,0 +1,123 @@
+country_decisions = {
+	
+	rp_wendish_nation = {
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_wendia_flag }
+			NOT = { tag = GMV }
+			NOT = { tag = WEN }
+			NOT = { exists = WEN }
+			OR = {
+				primary_culture = polabian_culture
+				primary_culture = kashubian_culture
+				primary_culture = sorbian
+			}
+		}
+		provinces_to_highlight = {
+			region = poland_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = WEN }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			owns_core_province = 50	# Berlin
+			owns_core_province = 61	# Misno
+			owns_core_province = 1858	# Szczecin
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = poland_region
+				#Note that the below value claims it's Greece's. Not sure if this makes any sense, might just be Draiocht fucking up.
+				value = 24			#At least 67 percent of Greece's 36 provinces, per historical Kingdom of Greece borders
+			}
+			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+		}
+		effect = {
+			change_tag = WEN
+			on_change_tag_effect = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			swap_non_generic_missions = yes
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			wallachia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = WEN
+			}
+			oltenia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = WEN
+			}
+			upper_muntenia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = WEN
+			}
+			moldavia_area = { #Bessarabia
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = WEN
+			}
+			bukovina_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = WEN
+			}
+			western_moldovia_area = {  ; #Moldavia
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = WEN
+			}
+			transylvania_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = WEN
+			}
+			southern_transylvania_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = WEN
+			}
+			swap_ideas = yes
+			set_country_flag = formed_wendia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+}
