@@ -14,12 +14,14 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			area = veletia_area
-			area = pomerania_area
-			area = pomerelia_area
-			area = luticia_area
-			area = lusatia_area
-			area = milcenia_area
+			OR = {
+				area = veletia_area
+				area = pomerania_area
+				area = pomerelia_area
+				area = luticia_area
+				area = lusatia_area
+				area = milcenia_area
+			}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
