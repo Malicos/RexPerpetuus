@@ -93,6 +93,7 @@ dlc048_tim_sprite_pack = {
 	country_trigger = {
 		OR = {
 			tag = TIM
+			tag = KHJ # RP Added
 			primary_culture = khorasani
 			primary_culture = horasanli	#RP Added
 			primary_culture = turkmeni	#RP Added
