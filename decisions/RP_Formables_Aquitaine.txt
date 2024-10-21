@@ -24,12 +24,11 @@ country_decisions = {
 			is_at_war = no
 			owns_core_province = 174			# Bordeaux
 			owns_core_province = 196			# Toulouse
-			owns_core_province = 199			# Clermont
-			owns_core_province = 201			# Marseille
+			owns_core_province = 2753			# Narbonne
 			num_of_owned_provinces_with = {
 				is_core = ROOT
 				region = aquitaine_region
-				value = 111			#At least 2/3 of France's 166 provinces #NOTE: TWEAK THIS
+				value = 38
 			}
 			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
 			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
