@@ -4,10 +4,9 @@ country_decisions = {
 		major = yes
 		potential = {
 			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_WNDdia_flag }
+			NOT = { has_country_flag = formed_wendia_flag }
 			NOT = { tag = GMV }
 			NOT = { tag = WND }
-			NOT = { exists = WND }
 			OR = {
 				primary_culture = polabian_culture
 				primary_culture = kashubian_culture
