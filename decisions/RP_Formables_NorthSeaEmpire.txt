@@ -1,3 +1,115 @@
 country_decisions = {
-    # insert formable code here
+    rp_north_sea_nation = {
+        major = yes
+        potential = {
+            normal_or_historical_nations = yes
+            was_never_end_game_tag_trigger = yes
+            NOT = { has_country_flag = formed_north_sea_empire_flag }
+            OR = {
+                ai = no
+                is_playing_custom_nation = no
+            }
+            OR = {
+                is_free_or_tributary_trigger = yes
+                ai = no
+            }
+            NOT = { exists = SCA }
+			NOT = { exists = NSE }
+            NOT = { tag = PAP }
+            NOT = { tag = HLR }
+            culture_group = scandinavian
+            is_colonial_nation = no
+            OR = {
+                is_former_colonial_nation = no
+                AND = {
+                    is_former_colonial_nation = yes
+                    ai = no
+                }
+            }
+        }
+        provinces_to_highlight = {
+			OR = {
+				area = northern_england_area
+				area = jorvik_area
+				area = cumbria_lancashire_area
+				area = mercia_area
+				area = east_anglia_area
+				area = london_area
+				area = three_kingdoms_area
+				area = wessex_area
+				area = schleswig_area
+				area = jutland_area
+				area = denmark_area
+				area = skaneland_area
+				area = eastern_norway
+				area = southern_norway_area
+				area = western_norway
+				area = trondelag_area
+				area = northern_norway
+			}
+            OR = {
+                NOT = { owned_by = ROOT }
+                NOT = { is_core = ROOT }
+            }
+        }
+        allow = {
+            is_free_or_tributary_trigger = yes
+            is_nomad = no
+            is_at_war = no
+            owns_core_province = 6		# Skane
+            owns_core_province = 12		# Copenhagen
+			owns_core_province = 17		# Vestfold
+			owns_core_province = 236		# London
+			owns_core_province = 245		# Jorvik			
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				OR = {
+					area = northern_england_area 
+					area = jorvik_area 
+					area = cumbria_lancashire_area 
+					area = mercia_area 
+					area = east_anglia_area 
+					area = london_area 
+					area = three_kingdoms_area
+					area = wessex_area 
+					area = schleswig_area 
+					area = jutland_area
+					area = denmark_area 
+					area = skaneland_area
+					area = eastern_norway
+					area = southern_norway_area
+					area = western_norway
+					area = trondelag_area
+					area = northern_norway
+				}
+				value = 64
+			}
+        }
+        effect = {
+            change_tag = NSE
+            on_change_tag_effect = yes
+            remove_non_electors_emperors_from_empire_effect = yes
+            if = {
+                limit = { NOT = { government_rank = 3 } }
+                set_government_rank = 3
+            }
+            nordurica_region = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }
+            add_country_modifier = {
+                name = "centralization_modifier"
+                duration = 7300
+            }
+            add_prestige = 25
+            set_country_flag = formed_north_sea_empire_flag
+            set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.
+            swap_ideas = yes
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
 }

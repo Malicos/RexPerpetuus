@@ -1,10 +1,10 @@
 country_decisions = {
-    nordurica_nation = {
+    rp_nordurica_nation = {
         major = yes
         potential = {
             normal_or_historical_nations = yes
             was_never_end_game_tag_trigger = yes
-            NOT = { has_country_flag = formed_scandinavia_flag }
+            NOT = { has_country_flag = formed_nordurica_flag }
             OR = {
                 ai = no
                 is_playing_custom_nation = no
@@ -14,6 +14,7 @@ country_decisions = {
                 ai = no
             }
             NOT = { exists = SCA }
+			NOT = { exists = NSE }
             NOT = { tag = PAP }
             NOT = { tag = HLR }
             culture_group = scandinavian
@@ -74,7 +75,7 @@ country_decisions = {
                 duration = 7300
             }
             add_prestige = 25
-            set_country_flag = formed_scandinavia_flag
+            set_country_flag = formed_nordurica_flag
             set_country_flag = was_end_game_tag #BT Added: Forming an end-game tag.
             if = {
                 limit = {
