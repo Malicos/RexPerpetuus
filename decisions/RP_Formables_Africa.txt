@@ -1,3 +1,70 @@
 country_decisions = {
-    # insert formable code here
+	rp_african_nation = { #TODO: Check if there isn't a way to form this nation while Byzantium still exists. Maybe Dacia?
+		major = yes
+		potential = {
+			bt_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_africa_flag }
+			NOT = { tag = AFR }
+			OR = {
+				primary_culture = atins
+				primary_culture = afri
+				primary_culture = sardinian
+				primary_culture = sicilian
+			}
+		}
+		provinces_to_highlight = {
+			region = east_maghreb_region
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = AFR }
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 341		# Tunis
+			owns_core_province = 340		# Constantine
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				region = east_maghreb_region
+				value = 44
+			}
+			total_development = 250			#Normal requirement for rank 2 is 500 dev, so this is 50 percent discounted
+			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
+		}
+		effect = {
+			change_tag = AFR
+			on_change_tag_effect = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			swap_non_generic_missions = yes
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			east_maghreb_region = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = AFR
+			}
+			swap_ideas = yes
+			set_country_flag = formed_africa_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}	
 }
