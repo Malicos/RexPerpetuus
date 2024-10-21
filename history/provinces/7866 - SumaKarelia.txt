@@ -1,8 +1,8 @@
 #BT Scandinavia and Baltics reoverhaul
 
-owner = BJA
-controller = BJA 
-add_core = BJA
+owner = BJM
+controller = BJM
+add_core = BJM
 culture = karelian
 religion = orthodox
 capital = "Soroka"			#Belomorsk

@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Karelia
 
-owner = BJA
-controller = BJA 
-add_core = BJA
+owner = BJM
+controller = BJM
+add_core = BJM
 capital = "Kola"			#Seems likely not founded until the 16th century, but there was Novogorod influence here before that so this works well enough
 culture = nuorttsaa
 religion = finnish_pagan_reformed

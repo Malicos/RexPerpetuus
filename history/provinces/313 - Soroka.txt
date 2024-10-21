@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Pomorye
 
-owner = BJA
-controller = BJA 
-add_core = BJA
+owner = BJM
+controller = BJM
+add_core = BJM
 culture = komi
 religion = siberian_pagan_reformed
 hre = no

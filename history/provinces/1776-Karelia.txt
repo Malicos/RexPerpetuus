@@ -2,9 +2,9 @@
 #Region - Russia
 #Area - Karelia
 
-owner = BJA
-controller = BJA 
-add_core = BJA
+owner = BJM
+controller = BJM
+add_core = BJM
 capital = "Kem"
 culture = karelian
 religion = orthodox

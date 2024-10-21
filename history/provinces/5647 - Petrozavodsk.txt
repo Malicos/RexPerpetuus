@@ -1,8 +1,8 @@
 #New Beyond Typus Province
 
-owner = BJA
-controller = BJA 
-add_core = BJA
+owner = BJM
+controller = BJM
+add_core = BJM
 culture = karelian
 religion = orthodox
 capital = "Petrozavodsk"			#Not properly founded until the 18th century, but it appears to have been settled in small numbers much before this, and the province itself contains several historical sites dating to the 15th century. Largest city in Karelia by 1720s

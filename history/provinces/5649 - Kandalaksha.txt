@@ -1,8 +1,8 @@
 #New Beyond Typus Province
 
-owner = BJA
-controller = BJA 
-add_core = BJA
+owner = BJM
+controller = BJM
+add_core = BJM
 culture = nuorttsaa
 religion = finnish_pagan_reformed
 capital = "Kandalaksha"			#Debate as to how old this settlement is, but seems significant enough to be fine. Extending the border slightly and calling it Umba could also work.

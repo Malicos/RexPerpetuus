@@ -1,8 +1,8 @@
 #New Beyond Typus Province
 
-owner = BJA
-controller = BJA 
-add_core = BJA
+owner = BJM
+controller = BJM
+add_core = BJM
 culture = pomor
 religion = orthodox
 capital = "Vytegra"			#Not founded until later. Someday I'll look for a better option
