@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = polabian_culture
+capital = 50 # Barlin (Berlin)
+elector = yes
+
+1426.5.7 = {
+	monarch = {
+		name = "Edyta"
+		dynasty = "Lubicz"
+		adm = 5
+		dip = 5
+		mil = 3
+		birth_date = 1400.11.22
+		religion = catholic
+		culture = polabian_culture
+		female = yes
+	}
+}
