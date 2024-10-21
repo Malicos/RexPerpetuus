@@ -4,10 +4,10 @@ country_decisions = {
 		major = yes
 		potential = {
 			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_wendia_flag }
+			NOT = { has_country_flag = formed_WNDdia_flag }
 			NOT = { tag = GMV }
-			NOT = { tag = WEN }
-			NOT = { exists = WEN }
+			NOT = { tag = WND }
+			NOT = { exists = WND }
 			OR = {
 				primary_culture = polabian_culture
 				primary_culture = kashubian_culture
@@ -22,7 +22,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			NOT = { exists = WEN }
+			NOT = { exists = WND }
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no			
@@ -39,7 +39,7 @@ country_decisions = {
 			prestige = 25			#Normal requirement for rank 2 is 50 prestige, so this is 50 percent discounted
 		}
 		effect = {
-			change_tag = WEN
+			change_tag = WND
 			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			swap_non_generic_missions = yes
@@ -61,56 +61,56 @@ country_decisions = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_permanent_claim = WEN
+				add_permanent_claim = WND
 			}
 			oltenia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_permanent_claim = WEN
+				add_permanent_claim = WND
 			}
 			upper_muntenia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_permanent_claim = WEN
+				add_permanent_claim = WND
 			}
 			moldavia_area = { #Bessarabia
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_permanent_claim = WEN
+				add_permanent_claim = WND
 			}
 			bukovina_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_permanent_claim = WEN
+				add_permanent_claim = WND
 			}
 			western_moldovia_area = {  ; #Moldavia
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_permanent_claim = WEN
+				add_permanent_claim = WND
 			}
 			transylvania_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_permanent_claim = WEN
+				add_permanent_claim = WND
 			}
 			southern_transylvania_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_permanent_claim = WEN
+				add_permanent_claim = WND
 			}
 			swap_ideas = yes
 			set_country_flag = formed_wendia_flag
