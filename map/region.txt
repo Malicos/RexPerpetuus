@@ -6,77 +6,92 @@
 random_new_world_region = {}
 
 # Europe / 17 regions / 287 areas
-france_region = { # 27 areas
+neustria_region = { # 8 areas
 	areas = {
 		brittany_area
 		lower_brittany_area
 		normandy_area
 		lower_normandy_area
-		provence_area
-		guyenne_area
-		pyrenees_area
-		bourgogne_area
-		west_burgundy_area
-		languedoc_area
-		massif_central_area
-		savoy_dauphine_area
-		lorraine_area
-		picardy_area
 		ile_de_france_area
 		loire_area
 		orleans_area
-		poitou_area
 		champagne_area
-		berry_touraine_area
-		lyonnais_area
-		west_languedoc_area
-		dauphine_area
-		upper_guyenne_area
-		upper_gascony  
-		limousin_area
-		barrois_area
-		french_wastelands_area		#French Wastelands - BT17 Added
 	}
 }
-low_countries_region = { # 9 areas
+austrasia_region = { # 15 areas
 	areas = {
-		wallonia_area
-		holland_area
-		flanders_area
-		frisia_area
+		alsace_area
+		barrois_area
 		brabant_area
-		north_brabant_area
+		flanders_area
+		guelders_area
+		hainaut_area
+		holland_area
 		luxembourg_area
-		luxemburg_liege_area
-		oversticht_area
+		lotharingia_proper_area
+		mosellia_area
+		palatinate_area
+		picardy_area
+		ripuaria_area
+		liege_area
+		batavia_area
 	}
 }
+aquitaine_region = { # 9 areas
+	areas = {
+		berry_touraine_area
+		guyenne_area
+		limousin_area
+		massif_central_area
+		poitou_area
+		pyrenees_area
+		septimania_area
+		toulousia_area
+		upper_gascony_area
+	}
+}
+burgundy_region = { # 7 areas
+	areas = {
+		cisjurania_area
+		forcalquier_area
+		lyonnais_area
+		new_burgundy_area
+		old_burgundy_area
+		provence_area
+		transjurania_area
+		french_wastelands_area		#French Wastelands - BT17 Added #RP Burgundian Wastelands
+	}
+}
+
+# RP: Spain
 iberia_region = { # 23 areas
 	areas = {
-		aragon_area
-		catalonia_area
-		valencia_area
-		lower_andalucia_area
-		upper_andalucia_area
 		castille_area
-		toledo_area
 		asturias_area
 		galicia_area
 		baleares_area
 		basque_country
 		leon_area
-		extremadura_area
-		beieras_area
-		alentejo_area
 		macaronesia_area
-		murcia_area
-		new_castile_area
-		northern_andalusia_area
 		minho_duoro_area
-		estremadura_area
-		algarve_area
-		segovia_area
-		iberian_wastelands_area		#Iberian Wastelands - BT17 Added
+		tras_os_montes_area
+		valdura_area
+		belatha_area
+		gharb_al_andalus_area
+		shenshir_area
+		ash_sharaf_area
+		al_yazirat_area
+		ash_sherrat_area
+		mawsat_al_andalus_area
+		kambaniya_area
+		rayya_and_ilvira_area
+		tudmir_area
+		qunqa_area
+		sharq_al_andalus_area
+		harkal_suli_area
+		az_zeitun_area
+		al_burtat_area
+		iberian_wastelands_area		#Iberian Wastelands - BT17 Added #RP Spanish Wastelands
 	}
 }
 italy_region = { # 24 areas
@@ -109,34 +124,41 @@ italy_region = { # 24 areas
 		italian_wastelands_area		#Italian Wastelands - BT17 Added
 	}
 }
-ireland_region = { # 4 areas; Brian; changed from _area; New Region by HR
+ireland_region = { # 7 areas
 	areas = {
 		leinster_area
+		meath_area
+		tyrone_area
 		ulster_area
-		munster_area
+		thomond_area
+		desmond_area
 		connacht_area
 	}
 }
-british_isles_region = { # 15 areas
+# RP: British Isles
+british_isles_region = { # 17 areas
 	areas = {
-		kingdom_of_the_isles_area
+		southern_isles_area
 		highlands_area
-		lowlands_area
+		eastern_lowlands_area
 		wales_area
 		northern_england_area
-		east_midlands_area
+		mercia_area
+		london_area
 		wessex_area
 		east_anglia_area
-		scottish_marches_area
-		west_midlands_area
-		home_counties_area
-		yorkshire_area
+		western_lowlands_area
+		three_kingdoms_area
+		cornwall_area
 		deheubarth_area
 		powys_area
 		grampians_area
+		cumbria_lancashire_area
+		jorvik_area
 	}
 }
-scandinavia_region = { # 18 areas
+# RP: Nordurica
+nordurica_region = { # 18 areas
 	areas = {
 		jutland_area
 		denmark_area
@@ -154,63 +176,55 @@ scandinavia_region = { # 18 areas
 		iceland_area
 		schleswig_area
 		west_karelia_area
+		southern_norway_area
 		trondelag_area
 		scandinavian_wastelands_area	#Scandinavian Wastelands - BT17 Added
 	}
 }
-south_german_region = { # 25 areas
+# RP: Allemania
+allemania_region = { # 17 areas
 	areas = {
-		bohemia_area
-		erzgebirge_area
-		moravia_area
 		upper_bavaria_area
 		lower_bavaria_area
-		lower_swabia_area
-		franconia_area
-		upper_swabia_area
-		tirol_area
-		austria_proper_area
-		inner_austria_area
-		carinthia_area
-		switzerland_area
-		upper_rhineland_area
-		romandie_area
-		palatinate_area
-		bohemian_forest_area
-		upper_austria_area
-		alsace_area
-		carniola_area
-		swiss_alps_area
-		east_bavaria_area
-		upper_palatinate_area
-		salzburg_area
 		upper_franconia_area
-		south_german_wastelands_area	#South German Wastelands - BT17 Added
+		lower_franconia_area
+		lower_swabia_area
+		upper_swabia_area
+		east_swabia_area
+		baden_area
+		switz_area
+		raetia_area
+		tirol_area
+		salzburg_area
+		traungau_area
+		austria_area
+		styria_area
+		carinthia_area
+		carniola_area
+		south_german_wastelands_area	#South German Wastelands - BT17 Added #RP Allemanic Wastelands
 	}
 }
-north_german_region = { # 21 areas
+# RP: Germania
+germania_region = { # 17 areas
 	areas = {
-		lusatia_area
-		south_saxony_area
-		northern_saxony_area
-		thuringia_area
-		neumark_area
-		mittelmark_area
-		vorpommern_area
-		hinter_pommern_area
-		north_rhine_area
-		lower_rhineland_area
-		westphalia_area
-		north_westphalia_area
-		hesse_area
-		weser_area
-		holstein_area
-		lower_saxony_area
-		mecklenburg_area
-		nassau_area
-		middle_saxony_area
-		braunschweig_area
+		west_frisia_area
+		east_frisia_area
 		bremen_verden_area
+		holstein_area
+		mecklenburg_area
+		weser_emsland_area
+		lower_eastphalia_area
+		upper_eastphalia_area
+		altmark_area
+		lower_westphalia_area
+		upper_westphalia_area
+		hesse_area
+		lower_thuringia_area
+		middle_thuringia_area
+		upper_thuringia_area
+		henneburg_area
+		frankfurt_area
+		mittelmark_area
 	}
 }
 baltic_region = { # 11 areas
@@ -218,33 +232,41 @@ baltic_region = { # 11 areas
 		estonia_ingria_area
 		livonia_area
 		curonia_area
-		east_prussia_area
-		west_prussia_area
 		samogitia_area
 		lithuania_area
 		nadruvia_area
 		latgallia_area
-		masuria_area
 		north_livonia_area
 		semigallia_area
 	}
 }
-poland_region = { # 9 areas
+poland_region = { #Lechia  # 18 areas
 	areas = {
-		wielkopolska_area
-		malopolska_area
+		gniezno_area
+		krakow_area
 		mazovia_area
-		central_poland_area
-		sandomierz_area
+		lublin_area
 		kuyavia_area
 		silesia_area
 		lower_silesia_area
-		middle_silesia_area
+		bohemia_area
+		erzgebirge_area
+		moravia_area
+		bohemian_forest_area
+		veletia_area
+		pomerania_area
+		lusatia_area
+		luticia_area
+		milcenia_area
+		truso_area
+		pomerelia_area
+		masuria_area
+		lwow_area
+		cherven_cities_area
 	}
 }
 ruthenia_region = { # 17 areas
 	areas = {
-		red_ruthenia_area
 		podolia_volhynia_area
 		volhynia_area
 		pripyat_area
@@ -254,7 +276,6 @@ ruthenia_region = { # 17 areas
 		white_ruthenia_area
 		minsk_area
 		bryansk_area
-		eastern_volhynia_area
 		chernigov_area
 		vitebsk_area
 		polotsk_area
@@ -315,14 +336,28 @@ ural_region = { # 10 areas
 		pechora_area
 	}
 }
-balkan_region = { # 29 areas
+balkan_region = { #Rhomania # 15 areas
 	areas = {
 		macedonia_area
 		morea_area
 		northern_greece_area
 		thrace_area
-		bulgaria_area
 		silistria_area
+		aegean_archipelago_area
+		eastern_mediterrenean_islands_area
+		western_aegean_area
+		upper_thrace_area
+		eastern_macedonia_area
+		northern_epirus_area
+		northern_thrace_area
+		aetolia_area
+		thessaly_area
+		danubian_plain_area
+	}
+}
+illyria_region = {	# 14 areas
+	areas = {
+		bulgaria_area
 		serbia_area
 		rascia_area
 		albania_area
@@ -330,23 +365,13 @@ balkan_region = { # 29 areas
 		croatia_area
 		slavonia_area
 		east_adriatic_coast_area
-		aegean_archipelago_area
-		eastern_mediterrenean_islands_area
-		western_aegean_area
-		upper_thrace_area
 		northern_macedonia_area
-		eastern_macedonia_area
-		northern_epirus_area
-		northern_thrace_area
-		aetolia_area
-		thessaly_area
-		danubian_plain_area
 		syrmia_area
 		montenegro_area
 		krajina_area
 		herzegovina_area
 		vidin_area
-	}
+	}	
 }
 carpathia_region = { # 15 areas
 	areas = {
@@ -406,6 +431,7 @@ mashriq_region = { #Levant 9 areas
 		syria_area
 		trans_jordan_area
 		palestine_area
+		syrian_desert_area
 		cyprus_area
 		tripoli_area
 		#bargylus_area #BT Cut
@@ -528,7 +554,7 @@ east_siberia_region = { # 6 areas
 		buryatia_area
 	}
 }
-mongolia_region = { # 14 areas
+mongolia_region = { # 14 areas	#RP Zubica
 	areas = {
 		cicigar_area
 		ordos_area
@@ -546,7 +572,7 @@ mongolia_region = { # 14 areas
 		north_zungaria  
 	}
 }
-manchuria_region = { # 10 areas
+manchuria_region = { # 10 areas	#RP Jurchenia
 	areas = {
 		heilongjiang_area
 		east_heilongjiang_area
@@ -711,7 +737,7 @@ tibet_region = { # 6 areas
 		tibet_wastelands_area	#Tibetan Wastelands - BT17 Added
 	}
 }
-north_china_region = { # 11 areas
+north_china_region = { # 11 areas	#RP North Cathay
 	areas = {
 		hebei_area
 		south_hebei_area
@@ -726,7 +752,7 @@ north_china_region = { # 11 areas
 		west_gansu_area
 	}
 }
-south_china_region = { # 10 areas
+south_china_region = { # 10 areas	#RP South Cathay
 	areas = {
 		south_jiangsu_area
 		south_anhui_area
@@ -789,7 +815,7 @@ burma_region = { # 9 areas
 		00.09.30
 	}
 }
-indo_china_region = { # 14 areas
+indo_china_region = { # 14 areas	#RP Indocathay
 	areas = {
 		khorat_area
 		champa_area
@@ -847,7 +873,7 @@ sumatran_region = { # 6 areas
 		00.03.30
 	}
 }
-indonesia_region = { # 3 areas
+indonesia_region = { # 3 areas	#Java
 	areas = {
 		east_java_area
 		central_java_area
@@ -1028,6 +1054,7 @@ sahel_region = { # 13 areas
 }
 guinea_region = { # 8 areas
 	areas = {
+		cap_verde_area
 		jolof_area
 		gulf_of_guinea_area
 		benin_area
@@ -1198,7 +1225,6 @@ south_africa_region = { # 20 areas
 		00.04.30
 	}
 }
-
 # North America / 15 regions / 171 areas
 northeast_america_region = { # 8 areas
 	areas = {
@@ -1500,28 +1526,6 @@ brazil_region = { # 20 areas
 		00.04.30
 	}
 }
-colombia_region = { # 13 areas
-	areas = {
-		guyana_area
-		suriname_area
-		upper_guyana_area
-		venezuela_area
-		maracaibo_area
-		eastern_llanos  
-		western_llanos  
-		central_llanos_area
-		bogota_area
-		popayan_area
-		colombian_amazonas_area
-		cordillera_occidental_area
-		coquivacoa_area
-		#panama_area # Brian; moved to central_america_region
-	}
-	monsoon = {
-		00.05.01
-		00.11.30
-	}
-}
 la_plata_region = { # 12 areas
 	areas = {
 		patagonia_area
@@ -1568,7 +1572,28 @@ peru_region = { # 9 areas
 		00.11.30
 	}
 }
-
+colombia_region = { # 13 areas
+	areas = {
+		guyana_area
+		suriname_area
+		upper_guyana_area
+		venezuela_area
+		maracaibo_area
+		eastern_llanos  
+		western_llanos  
+		central_llanos_area
+		bogota_area
+		popayan_area
+		colombian_amazonas_area
+		cordillera_occidental_area
+		coquivacoa_area
+		#panama_area # Brian; moved to central_america_region
+	}
+	monsoon = {
+		00.05.01
+		00.11.30
+	}
+}
 # Oceania / 6 regions / 57 areas
 australia_region = { # Southeastern Australia # 13 areas
 	areas = {
