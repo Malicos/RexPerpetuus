@@ -133,6 +133,12 @@ zzzignore109 = {}
 zzzignore110 = {}
 zzzignore111 = {}
 zzzignore112 = {}
+zzzignore113 = {}
+zzzignore114 = {}
+zzzignore115 = {}
+zzzignore116 = {}
+zzzignore117 = {}
+zzzignore118 = {}
 
 germanic = { #RP Renamed to Teutonic
 	graphical_culture = westerngfx
