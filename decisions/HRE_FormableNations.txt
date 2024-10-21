@@ -190,207 +190,208 @@ country_decisions = {
 		ai_importance = 400
 	}
 
-	pomerania_nation = {
-		major = yes
-		potential = {
-			bt_generic_can_form_potential_check = yes
-			was_never_german_regional_tag_trigger = yes
-			NOT = { has_country_flag = formed_pomerania_flag } 
-			NOT = { num_of_cities = 30 }	#With more than 30 cities, tag should be aiming to form Prussia or Germany
-			OR = {
-				primary_culture = pommeranian
-				primary_culture = polabian_culture
-				primary_culture = kashubian_culture
-			}
-		}
-		provinces_to_highlight = {
-			OR = {
-				AND = {
-					province_id = 1858
-					NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				}
-				AND = {
-					province_id = 2994
-					NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				}
-				AND = {
-					province_id = 2995
-					NOT = { country_or_non_sovereign_subject_holds = ROOT }
-				}
-				AND = {
-					ROOT = { NOT = { tag = WOL } }
-					WOL = {
-						OR = {
-							num_of_cities = 8
-							NOT = { is_subject_of = ROOT }
-						}
-					}
-					owned_by = WOL
-				}
-				AND = {
-					ROOT = { NOT = { tag = STE } }
-					STE = {
-						OR = {
-							num_of_cities = 8
-							NOT = { is_subject_of = ROOT }
-						}
-					}
-					owned_by = STE
-				}
-				AND = {
-					ROOT = { NOT = { tag = RUG } }
-					RUG = {
-						OR = {
-							num_of_cities = 8
-							NOT = { is_subject_of = ROOT }
-						}
-					}
-					owned_by = RUG
-				}
-				AND = {
-					ROOT = { NOT = { tag = STP } }
-					STP = {
-						OR = {
-							num_of_cities = 8
-							NOT = { is_subject_of = ROOT }
-						}
-					}
-					owned_by = RUG
-				}
-			}
-		}
-		allow = {
-			NOT = { exists = POM } 
-			is_at_war = no 
-			is_free_or_tributary_trigger = yes 
-			is_nomad = no
-			if = {
-				limit = { NOT = { tag = WOL } }
-				OR = {
-					NOT = { exists = WOL }
-					WOL = {
-						NOT = { num_of_cities = 8 }
-						is_subject_of = ROOT
-					}
-				}
-			}
-			if = {
-				limit = { NOT = { tag = STE } }
-				OR = {
-					NOT = { exists = STE }
-					STE = {
-						NOT = { num_of_cities = 8 }
-						is_subject_of = ROOT
-					}
-				}
-			}
-			if = {
-				limit = { NOT = { tag = RUG } }
-				OR = {
-					NOT = { exists = RUG }
-					RUG = {
-						NOT = { num_of_cities = 8 }
-						is_subject_of = ROOT
-					}
-				}
-			}
-			if = {
-				limit = { NOT = { tag = STP } }
-				OR = {
-					NOT = { exists = STP }
-					STP = {
-						NOT = { num_of_cities = 8 }
-						is_subject_of = ROOT
-					}
-				}
-			}
-			owns_core_province = 1858			#Stettin
-			owns_core_province = 2994			#Griefswald
-			owns_core_province = 2995			#Stolp
-
-		}
-		effect = {
-			#Mission completions - None at the moment
-			#Country formation effects
-			change_tag = POM
-			on_change_tag_effect = yes
-			restore_country_name_effect = yes
-			if = { #These tags already have these missions
-				limit = {
-					NOT = { tag = WOL }
-					NOT = { tag = STE }
-					NOT = { tag = RUG }
-					NOT = { tag = STP }
-					NOT = { was_tag = WOL }
-					NOT = { was_tag = STE }
-					NOT = { was_tag = RUG }
-					NOT = { was_tag = STP }
-				}
-				swap_non_generic_missions = yes
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			if = {
-				limit = {
-					STP = { is_subject_of = ROOT }
-				}
-				inherit = STP
-			}
-			if = {
-				limit = {
-					WOL = { is_subject_of = ROOT }
-				}
-				inherit = WOL
-			}
-			if = {
-				limit = {
-					STE = { is_subject_of = ROOT }
-				}
-				inherit = STE
-			}
-			if = {
-				limit = {
-					RUG = {
-						is_subject_of = ROOT
-						NOT = { has_government_attribute = is_pirate_republic_reform }
-					}
-				}
-				inherit = RUG
-			}
-			capital_scope = { 
-				add_base_tax = 2 
-				add_base_production = 2
-			}
-			#Rank + prestige
-			add_prestige = 10
-			#Nation claims + Mission claims
-			vorpommern_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = POM
-			}
-			hinter_pommern_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = POM
-			}
-			set_country_flag = formed_pomerania_flag
-			if = {
-				limit = { NOT = { has_idea_group = POM_ideas } }
-				swap_ideas = yes
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 400
-	}
+	# Removed in RP
+	# pomerania_nation = {
+	#	major = yes
+	#	potential = {
+	#		bt_generic_can_form_potential_check = yes
+	#		was_never_german_regional_tag_trigger = yes
+	#		NOT = { has_country_flag = formed_pomerania_flag } 
+	#		NOT = { num_of_cities = 30 }	#With more than 30 cities, tag should be aiming to form Prussia or Germany
+	#		OR = {
+	#			primary_culture = pommeranian
+	#			primary_culture = polabian_culture
+	#			primary_culture = kashubian_culture
+	#		}
+	#	}
+	#	provinces_to_highlight = {
+	#		OR = {
+	#			AND = {
+	#				province_id = 1858
+	#				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+	#			}
+	#			AND = {
+	#				province_id = 2994
+	#				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+	#			}
+	#			AND = {
+	#				province_id = 2995
+	#				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+	#			}
+	#			AND = {
+	#				ROOT = { NOT = { tag = WOL } }
+	#				WOL = {
+	#					OR = {
+	#						num_of_cities = 8
+	#						NOT = { is_subject_of = ROOT }
+	#					}
+	#				}
+	#				owned_by = WOL
+	#			}
+	#			AND = {
+	#				ROOT = { NOT = { tag = STE } }
+	#				STE = {
+	#					OR = {
+	#						num_of_cities = 8
+	#						NOT = { is_subject_of = ROOT }
+	#					}
+	#				}
+	#				owned_by = STE
+	#			}
+	#			AND = {
+	#				ROOT = { NOT = { tag = RUG } }
+	#				RUG = {
+	#					OR = {
+	#						num_of_cities = 8
+	#						NOT = { is_subject_of = ROOT }
+	#					}
+	#				}
+	#				owned_by = RUG
+	#			}
+	#			AND = {
+	#				ROOT = { NOT = { tag = STP } }
+	#				STP = {
+	#					OR = {
+	#						num_of_cities = 8
+	#						NOT = { is_subject_of = ROOT }
+	#					}
+	#				}
+	#				owned_by = RUG
+	#			}
+	#		}
+	#	}
+	#	allow = {
+	#		NOT = { exists = POM } 
+	#		is_at_war = no 
+	#		is_free_or_tributary_trigger = yes 
+	#		is_nomad = no
+	#		if = {
+	#			limit = { NOT = { tag = WOL } }
+	#			OR = {
+	#				NOT = { exists = WOL }
+	#				WOL = {
+	#					NOT = { num_of_cities = 8 }
+	#					is_subject_of = ROOT
+	#				}
+	#			}
+	#		}
+	#		if = {
+	#			limit = { NOT = { tag = STE } }
+	#			OR = {
+	#				NOT = { exists = STE }
+	#				STE = {
+	#					NOT = { num_of_cities = 8 }
+	#					is_subject_of = ROOT
+	#				}
+	#			}
+	#		}
+	#		if = {
+	#			limit = { NOT = { tag = RUG } }
+	#			OR = {
+	#				NOT = { exists = RUG }
+	#				RUG = {
+	#					NOT = { num_of_cities = 8 }
+	#					is_subject_of = ROOT
+	#				}
+	#			}
+	#		}
+	#		if = {
+	#			limit = { NOT = { tag = STP } }
+	#			OR = {
+	#				NOT = { exists = STP }
+	#				STP = {
+	#					NOT = { num_of_cities = 8 }
+	#					is_subject_of = ROOT
+	#				}
+	#			}
+	#		}
+	#		owns_core_province = 1858			#Stettin
+	#		owns_core_province = 2994			#Griefswald
+	#		owns_core_province = 2995			#Stolp
+	#
+	#	}
+	#	effect = {
+	#		#Mission completions - None at the moment
+	#		#Country formation effects
+	#		change_tag = POM
+	#		on_change_tag_effect = yes
+	#		restore_country_name_effect = yes
+	#		if = { #These tags already have these missions
+	#			limit = {
+	#				NOT = { tag = WOL }
+	#				NOT = { tag = STE }
+	#				NOT = { tag = RUG }
+	#				NOT = { tag = STP }
+	#				NOT = { was_tag = WOL }
+	#				NOT = { was_tag = STE }
+	#				NOT = { was_tag = RUG }
+	#				NOT = { was_tag = STP }
+	#			}
+	#			swap_non_generic_missions = yes
+	#		}
+	#		add_country_modifier = {
+	#			name = "centralization_modifier"
+	#			duration = 7300
+	#		}
+	#		if = {
+	#			limit = {
+	#				STP = { is_subject_of = ROOT }
+	#			}
+	#			inherit = STP
+	#		}
+	#		if = {
+	#			limit = {
+	#				WOL = { is_subject_of = ROOT }
+	#			}
+	#			inherit = WOL
+	#		}
+	#		if = {
+	#			limit = {
+	#				STE = { is_subject_of = ROOT }
+	#			}
+	#			inherit = STE
+	#		}
+	#		if = {
+	#			limit = {
+	#				RUG = {
+	#					is_subject_of = ROOT
+	#					NOT = { has_government_attribute = is_pirate_republic_reform }
+	#				}
+	#			}
+	#			inherit = RUG
+	#		}
+	#		capital_scope = { 
+	#			add_base_tax = 2 
+	#			add_base_production = 2
+	#		}
+	#		#Rank + prestige
+	#		add_prestige = 10
+	#		#Nation claims + Mission claims
+	#		vorpommern_area = {
+	#			limit = {
+	#				NOT = { is_permanent_claim = ROOT }
+	#				NOT = { is_core = ROOT }
+	#			}
+	#			add_permanent_claim = POM
+	#		}
+	#		hinter_pommern_area = {
+	#			limit = {
+	#				NOT = { is_permanent_claim = ROOT }
+	#				NOT = { is_core = ROOT }
+	#			}
+	#			add_permanent_claim = POM
+	#		}
+	#		set_country_flag = formed_pomerania_flag
+	#		if = {
+	#			limit = { NOT = { has_idea_group = POM_ideas } }
+	#			swap_ideas = yes
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#	ai_importance = 400
+	#}
 
 	franconia_nation = {
 		major = yes
