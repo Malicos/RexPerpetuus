@@ -1,8 +1,9 @@
+ 
 #1115 - Brakna
 
 culture = fulani
 capital = "Aligh"
-religion = west_african_pagan_reformed
+religion = shamanism #Fetishism
 trade_goods = unknown
 hre = no
 base_tax = 2  

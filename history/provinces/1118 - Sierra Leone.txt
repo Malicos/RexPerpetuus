@@ -1,7 +1,8 @@
+ 
 #1118 - Sierra Leone
 
 culture = dyola
-religion = west_african_pagan_reformed
+religion = shamanism #Fetishism
 capital = "Sherbro"
 trade_goods = unknown
 hre = no

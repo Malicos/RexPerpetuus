@@ -240,10 +240,6 @@ TLS = "countries/Talsint.txt"
 WZZ = "countries/Warzazat.txt"
 
 # West Africa
-AZW = "countries/Azawad.txt"
-BBK = "countries/Bambuk.txt"
-GAO = "countries/Gao.txt"
-SSO = "countries/Sosso.txt"
 
 # East Africa
 IFA = "countries/Ifat.txt"

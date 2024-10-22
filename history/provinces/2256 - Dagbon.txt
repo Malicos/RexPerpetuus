@@ -1,3 +1,4 @@
+ 
 # No previous file for Dagbon
 
 owner = DGB
@@ -5,7 +6,7 @@ controller = DGB
 add_core = DGB
 is_city = yes
 culture = dagomba
-religion = west_african_pagan_reformed
+religion = shamanism #Fetishism
 capital = "Yendi"
 trade_goods = dyes
 hre = no

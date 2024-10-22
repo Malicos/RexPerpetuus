@@ -1,3 +1,4 @@
+ 
 #1153 - Pindinga
 
 owner = NUP
@@ -14,3 +15,11 @@ hre = no
 base_tax = 2  
 base_production = 2 
 discovered_by = sub_saharan
+
+1804.1.1 = { discovered_by = SOK }
+
+1807.1.1 = {
+	owner = SOK
+	controller = SOK
+	add_core = SOK
+} # The Fulani Empire

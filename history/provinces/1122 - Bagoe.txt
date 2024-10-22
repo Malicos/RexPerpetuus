@@ -1,3 +1,4 @@
+ 
 #1122 - Konian
 
 owner = MAL
@@ -5,7 +6,7 @@ controller = MAL
 add_core = MAL
 is_city = yes
 culture = dyola 
-religion = west_african_pagan_reformed
+religion = shamanism #Fetishism
 capital = "Tingrela"
 trade_goods = dyes
 hre = no
@@ -17,3 +18,10 @@ native_hostileness = 9
 base_manpower = 2 
 discovered_by = sub_saharan
 add_local_autonomy = 25
+
+1600.1.1 = {
+	owner = KNG
+	controller = KNG
+	add_core = KNG
+	remove_core = MAL
+} #Collapse of Mali after Jenné

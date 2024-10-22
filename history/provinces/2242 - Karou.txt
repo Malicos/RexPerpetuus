@@ -1,7 +1,8 @@
+ 
 # No previous file for Karou
 
 culture = dyola
-religion = west_african_pagan_reformed
+religion = shamanism #Fetishism
 capital = "Karou"
 trade_goods = unknown
 hre = no

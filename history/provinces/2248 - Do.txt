@@ -1,9 +1,10 @@
-owner = BBK
-controller = BBK
-add_core = BBK
+ 
+owner = MAL
+controller = MAL
+add_core = MAL
 is_city = yes
 culture = mali 
-religion = west_african_pagan_reformed
+religion = shamanism #Fetishism
 capital = "Walata"
 trade_goods = livestock
 hre = no
@@ -15,3 +16,5 @@ native_hostileness = 9
 base_manpower = 2 
 
 discovered_by = sub_saharan
+
+1600.1.1 = { base_tax = 4  base_production = 4 base_manpower = 2  } #Collapse of mali into minor states after Jenné

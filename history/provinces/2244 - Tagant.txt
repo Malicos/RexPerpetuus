@@ -1,7 +1,8 @@
+ 
 # No previous file for Tagant
 
 culture = fulani 
-religion = west_african_pagan_reformed
+religion = shamanism #Fetishism
 capital = "Kiffa"
 trade_goods = unknown
 hre = no
