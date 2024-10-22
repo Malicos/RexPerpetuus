@@ -1,11 +1,12 @@
+ 
 # No previous file for Zarmaganda
 
-owner = GAO
-controller = GAO
-add_core = GAO
+owner = SON
+controller = SON
+add_core = SON
 is_city = yes
 culture = songhai
-religion = ibadi
+religion = sunni
 capital = "Ouallam"
 trade_goods = wool
 hre = no

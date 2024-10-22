@@ -1,7 +1,9 @@
+ 
 # No previous file for Logone
 
-owner = KBO
-controller = KBO
+owner = YAO
+controller = YAO
+add_core = YAO
 add_core = KBO
 culture = kanuri 
 religion = shamanism #Fetishism
@@ -13,4 +15,13 @@ base_production = 4
 is_city = yes
 base_manpower = 2 
 
+
+
 discovered_by = sub_saharan
+
+
+1505.1.1 = {
+	owner = KBO
+	controller = KBO
+	add_core = KBO 
+} #Idris Katakarmabe retakes Kanem

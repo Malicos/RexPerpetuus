@@ -1,12 +1,13 @@
+ 
 #1142 - Dendi
 
-owner = GAO
-controller = GAO
-add_core = GAO
+owner = SON
+controller = SON
+add_core = SON
 culture = songhai
 is_city = yes
 base_manpower = 2 
-religion = ibadi
+religion = sunni
 capital = "Lulama"
 trade_goods = grain
 hre = no

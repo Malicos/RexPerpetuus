@@ -1,8 +1,9 @@
+ 
 # No previous file for Dallol
 
-owner = GAO
-controller = GAO
-add_core = GAO
+owner = SON
+controller = SON
+add_core = SON
 is_city = yes
 culture = songhai 
 religion = shamanism #Fetishism

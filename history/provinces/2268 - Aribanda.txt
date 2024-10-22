@@ -1,11 +1,12 @@
+ 
 # No previous file for Aribanda
 
-owner = GAO
-controller = GAO
-add_core = GAO
+owner = SON
+controller = SON
+add_core = SON
 is_city = yes
 culture = songhai 
-religion = ibadi
+religion = sunni
 capital = "Kukiya"
 trade_goods = grain
 hre = no

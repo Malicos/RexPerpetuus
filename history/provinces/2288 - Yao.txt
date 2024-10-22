@@ -1,8 +1,9 @@
+ 
 # No previous file for Yao
 
-owner = KBO
-controller = KBO
-add_core = KBO
+owner = YAO
+controller = YAO
+add_core = YAO
 culture = bilala 
 religion = sunni
 capital = "Yao"
