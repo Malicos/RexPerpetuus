@@ -262,7 +262,7 @@
  establish_usa_colony_title:0 "Establish a colony in Eastern America"
  formed_majapahit_flag:0 "Restored Majapahit"
  formed_majapahit_flag_desc:0 "After being sent into exile, we have managed to beat back the rebellious Muslims. With our empire restored, we can finally bring order to Nusantara."
- fra_carib_colony.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in the Colonial Lesser Antilles"﻿
+ fra_carib_colony.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in the Colonial Lesser Antilles"
  gen_north_india_powerful_subject.tooltip:0 "Any non-tributary subject country has at least §Y100§! total Development and less than §Y50§! Liberty Desire"
  grain_depot:0 "Granary"
  grain_depot_short:0 "Granary"

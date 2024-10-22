@@ -384,7 +384,7 @@
  PROV767:0 "Lyck"
  PROV770:0 "Kreva"
  PROV774:0 "Geneina"
- PROV_ADJ774:0 ""Geneina
+ PROV_ADJ774:0 "Geneina"
  PROV789:0 "Eswatini"
  PROV833:0 "Graaff-Reinet"
  PROV859:0 "Sinaloa"
@@ -797,7 +797,7 @@
  PROV2448:0 "Sabha"
  PROV_ADJ2448:0 "Sabha"
  PROV2449:0 "Waddan"
- PROV_ADJ2449:0 "Waddan
+ PROV_ADJ2449:0 "Waddan"
  PROV2450:0 "Kebili"
  PROV_ADJ2450:0 "Kebili"
  PROV2454:0 "Kairouan"
@@ -2113,7 +2113,7 @@
  SUS:0 "Sous"
  SUS_ADJ:0 "Sous"
  MRK:0 "Hintata"
- MRK_ADJ:0 "Hintatan
+ MRK_ADJ:0 "Hintatan"
  
  #Areas and Regions
  al_wahat_area:0 "Egyptian Oases"
