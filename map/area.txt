@@ -1273,10 +1273,6 @@ trans_jordan_area = { #Transjordan
 palestine_area = { #Palestine
 	364 379 1854 1855 5180 6071
 }
-syrian_desert_area = { #Sinai
-	#color = { 219 30 57 }
-	365 4268 5181
-}
 cyprus_area = { #Cyprus
 	321 5139 5145 6076 6077 6078
 }
@@ -4181,7 +4177,7 @@ wasteland_area = { # 120	#BT17 Note, many wastelands have been moved to regionna
 	5125 
 	5513 5518 5519 5523 
 	5527 5539 5540 5541 5546 5549 
-	5550 5554 5555 5556 5557 5558 5559 5560 
+	5550 
 	7282 7283
 	8796
 }
