@@ -2435,15 +2435,9 @@
 8721 = "Tavi-Tavi"
 
 #Canada
-982 = "Ilha das Baleias" 
-983 = "Ilha de São João"
-984 = "Prado Grande"
-2568 = "Porto Real"
-2570 = "São João"
 2584 = "Monte Real"
 5046 = "Santa Ana"
 5047 = "Tamagoche"
-5051 = "Cabo de Areia"
 
 #Southeast
 927 = "Santo Agostinho"

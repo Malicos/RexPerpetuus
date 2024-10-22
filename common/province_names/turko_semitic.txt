@@ -2003,7 +2003,6 @@
 #lower acadia
 982 = "Jabal as-Salamun"
 983 = "Jazirat as-Sayfia"
-2569 = "Wahran al-Jadid"
 5048 = "Mina al-Malika"
 5051 = "Nuqtat ar-Ramal"
 

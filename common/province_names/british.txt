@@ -1146,8 +1146,14 @@
 6061 = { "Cayman Islands" "George Town" }		
 
 #Canada
+971 = { "Castine" "Castine" }
 980 = { "Cape Bonavista" "Bonavista" }
 981 = { "Corner Brook" "Corner Brook" }
+982 = { "Cape Breton" "Sydney" }
+983 = { "Prince Edward Island" "Charlottetown" }
+984 = { "Windsor" "Windsor" }
+985 = { "Moncton" "Moncton" }
+986 = { "New Richmond" "New Richmond" }
 987 = { "Niagara" "Niagara Falls" }
 988 = { "Windsor" "Windsor" }
 989 = { "Kingston" "Kingston" }
@@ -1163,6 +1169,14 @@
 1007 = { "Fort William" "Fort William" } #(JP) Modern "Thunder Bay" 
 2012 = { "Victoriaville" "Victoriaville" }
 2015 = { "Michipicoten Bay" "Michipicoten Bay" }
+2565 = { "Kennebec" "Fort Halifax" } #(JP) Stopgap
+2566 = { "Machias" "Machiasport" }
+2567 = { "Aroostook" "Fort Kent" } #(JP) Stopgap
+2568 = { "Annapolis" "Annapolis Royal" }
+2569 = { "Halifax" "Halifax" }
+2570 = { "Saint John" "Saint John" }
+2571 = { "Woodstock" "Woodstock" }
+2572 = { "Newcastle" "Newcastle" } #(JP) Stopgap
 2573 = { "Cape Ray" "Basqueport" } #(JP) "Port aux Basques" but de-frenchified. Dunno what I think, Britain seemed to use the French here.
 2574 = { "Nain" "Nain" }
 2575 = { "Goose Bay" "Fort Smith" }
@@ -1172,6 +1186,7 @@
 2579 = { "Saguenay" "Saguenay" }
 2580 = { "Upper Mauricie" "Obedjiwan" }
 2581 = { "Kelly Bay" "Kelly Bay" } #(JP) Modern "Ville-Marie"
+2582 = { "Rimouski" "Rimouski" } #(JP) Stopgap, French from native.
 2583 = { "Three Rivers" "Three Rivers" }
 2584 = { "Montreal" "Montreal" }
 2585 = { "Glengarry" "Glengarry" }
@@ -1181,8 +1196,10 @@
 2590 = { "New Liskeard" "New Liskeard" }
 2670 = { "Fort York" "Fort York" }
 2671 = { "Gravenhurst" "Gravenhurst" }
+4891 = { "Pictou" "Pictou" }
 4894 = { "Waltham" "Waltham" }
 4895 = { "Mary's Land" "Mary's Land" }
+4896 = { "Fredericton" "Fredericton" }
 4897 = { "Pembroke" "Pembroke" }
 4973 = { "Sudbury" "Sudbury" }
 4974 = { "Grand Bank" "Grand Bank" }
@@ -1196,7 +1213,13 @@
 5037 = { "Barrie" "Barrie" }
 5038 = { "Trenton" "Trenton" }
 5039 = { "Bruce Peninsula" "Tobermory" }
+5048 = { "Canso" "Canso" }
+5049 = { "Bathurst" "Bathurst" }
+5050 = { "Edmundston" "Edmundston" }
+5051 = { "Shelburne" "Shelburne" }
+5052 = { "Piscataquis" "Foxcroft" }
 5053 = { "Wolf's River" "Wolf's River" }
+5054 = { "Gaspay" "Gaspay" }
 5055 = { "Outardes Point" "Outardes Point" }
 5058 = { "Trepassey Bay" "Trepassey" }
 5059 = { "Placentia" "Placentia" }
@@ -1497,10 +1520,6 @@
 #Unorganised and Uncapitalised
 #973 = "Vancouver"					#BT
 #982 = "Cape Breton"					#BT
-#983 = "Prince Edward Isl."					#BT
-#984 = "Fundy"					#BT
-#985 = "Moncton"					#BT
-#986 = "Gaspe"					#BT
 #988 = "Simcoe"					#BT
 #990 = "Three Rivers"					#BT
 #998 = "Fort Richmond"					#BT
@@ -1524,12 +1543,7 @@
 
 2542 = "Beaufort"
 2543 = "Long Bay"
-#2566 = "Castine"					#BT
-#2568 = "Cape Sable"					#BT
-#2569 = "Halifax"					#BT
-#2572 = "Campbelton"					#BT
 #2580 = "Wemotaci"					#BT
-#2582 = "Rimouski"					#BT
 #2597 = "South Branch"					#BT
 #2592 = "Severn"					#BT
 #2593 = "Lake of the Woods"					#BT
@@ -1704,35 +1718,9 @@
 
 #BT300 Overhaul Vanilla renaming
 971 = "Castine"	# Abnaki											#Francophone name 
-982 = "Cape Breton"	# Unamakik							#Anglophone name
-983 = "Prince Edward Island"	# Epekwitk				#Anglophone name
-984 = "Windsor"	# Acadia										#Anglophone name
-985 = "Moncton"	# Micmac									#Anglophone name
-986 = "New Richmond"	# Kespek							#Anglophone name
 1002 = "Abitibi"	#Abitibi											#Native name
-2566 = "Machias"	# Passamaquoddy						#Native name
-2567 = "Aroostook"	# Aroostook							#Native name
-2568 = "Annapolis"	# Kespukwitk							#Anglophone name
-2569 = "Halifax"	# Eskikewakik								#Anglophone name
-2570 = "Saint John"	# Wolystoq								#Anglophone name
-2571 = "Woodstock"	# Madawaska							#Anglophone name
-2572 = "Miramichi"	# Siknikt									#Francophone name from Native name
-2582 = "Rimouski"	# Maliseet									#Native name
 2589 =  "Cochrane" # Kesagami									#Anglophone name
 2591 =  "Missinaibi" # Outoulibi								#Native name
-
-#BT300 New Provinces
-5036 = "Dryden" # Atikokan										#Anglophone name anachronistic better idea needed
-5046 = "Fredericton"	# Nashwaak							#Anglophone name
-5047 = "Tatamagouche"	# Epegoitnag						#Native name
-5048 = "Canso"	# Esgigeoag										#Unknown name
-5049 = "Bathurst"	# Gespegeoag								#Anglophone name
-5050 = "Edmunston"	# Madawaska II						#Anglophone name
-5051 = "Shelburne"	# Keespongwitk						#Anglophone name
-5053 = "Kamouraska"	# Kamouraska						#Francophone name from native name
-5054 = "Gaspé"	# Gespeg											#Francophone name
-5056 = "Pontiac"	# Kichesipirini							#Francophone name
-5057 = "Harricana"	# Nanikana									#Generic name
 
 #BT400  Overhaul Vanilla renaming
 855 = "Mazatlán"	# Huichol									#Generic name

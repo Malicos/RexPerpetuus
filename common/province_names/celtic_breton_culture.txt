@@ -231,7 +231,6 @@
 #BT300 Overhaul Vanilla renaming
 971 = "Castine"	# Abnaki											#Francophone name 
 982 = "Île Royale"	# Unamakik								#Francophone name 
-983 = "Île Saint-Jean"	# Epekwitk								#Francophone name 
 984 = "Grand-Pré"	# Acadia										#Francophone name 
 985 = "Beauséjour"	# Micmac								#Francophone name 
 986 = "Baie des Chaleurs"	# Kespek						#Francophone name 
