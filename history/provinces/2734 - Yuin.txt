@@ -28,7 +28,6 @@ hre = no
 #Special Modifiers
 
 #Discoveries
-discovered_by = polynesian_tech
 discovered_by = aboriginal_tech
 
 #Histories 
