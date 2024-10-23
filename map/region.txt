@@ -140,7 +140,7 @@ british_isles_region = { # 17 areas
 	areas = {
 		southern_isles_area
 		highlands_area
-		eastern_lowlands_area
+		#eastern_lowlands_area #Cut from RP
 		wales_area
 		northern_england_area
 		mercia_area
@@ -431,7 +431,6 @@ mashriq_region = { #Levant 9 areas
 		syria_area
 		trans_jordan_area
 		palestine_area
-		syrian_desert_area
 		cyprus_area
 		tripoli_area
 		#bargylus_area #BT Cut
