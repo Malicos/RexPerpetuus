@@ -5,6 +5,7 @@ country_decisions = {
 			bt_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_africa_flag }
 			NOT = { tag = AFR }
+			NOT = { tag = SIC }
 			OR = {
 				primary_culture = atins
 				primary_culture = afri
