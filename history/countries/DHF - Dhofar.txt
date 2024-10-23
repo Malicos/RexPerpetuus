@@ -4,8 +4,8 @@ government_rank = 1
 technology_group = muslim_tech
 religion = sunni
 primary_culture = mahri_culture
-capital = 301
-fixed_capital = 301
+capital = 401
+fixed_capital = 401
 religious_school = maliki_school
 
 1434.12.17 = {

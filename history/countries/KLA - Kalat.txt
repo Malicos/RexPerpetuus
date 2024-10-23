@@ -4,7 +4,7 @@ government_rank = 1
 primary_culture = baluchi
 religion = sunni
 technology_group = iranian_tech
-capital = 577	# Quetta
+capital = 576	# Kalat
 religious_school = shafii_school
 
 1392.1.16 = {
