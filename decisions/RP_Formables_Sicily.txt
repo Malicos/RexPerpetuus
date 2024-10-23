@@ -62,7 +62,9 @@ country_decisions = {
 		}
         effect = {
             change_tag = SIC
-            on_change_tag_effect = yes
+			on_change_tag_effect = yes
+			restore_country_name = yes
+			swap_non_generic_missions = yes
             remove_non_electors_emperors_from_empire_effect = yes
             if = {
                 limit = { NOT = { government_rank = 2 } }
@@ -97,14 +99,20 @@ country_decisions = {
                     NOT = { owned_by = ROOT }
                 }
                 add_permanent_claim = SIC
-            }	
+            }
+			#Swap culture, government, government reform & ideas, plus set flag
+			if = {
+				limit = {
+					NOT = { has_idea_group = SIC_ideas }
+				}
+				swap_ideas = yes
+			}
             add_country_modifier = {
                 name = "centralization_modifier"
                 duration = 7300
             }
             add_prestige = 10
             set_country_flag = formed_sicily_flag
-            swap_ideas = yes
         }
 		ai_will_do = {
 			factor = 1
