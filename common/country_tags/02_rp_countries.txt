@@ -136,6 +136,7 @@ AOS = "countries/Aosta.txt"
 CNI = "countries/Carnia.txt"
 
 # South Italy
+ASN = "countries/Ausonia.txt"
 CTA = "countries/Capitanata.txt"
 GET = "countries/Gaeta.txt"
 MLE = "countries/Molise.txt"

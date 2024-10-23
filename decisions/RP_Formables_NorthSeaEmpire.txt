@@ -97,7 +97,103 @@ country_decisions = {
                 limit = { NOT = { government_rank = 3 } }
                 set_government_rank = 3
             }
-            nordurica_region = {
+            northern_england_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }
+            jorvik_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }	
+            cumbria_lancashire_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }	
+            mercia_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }
+            east_anglia_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }	
+            london_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }	
+            three_kingdoms_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }	
+            wessex_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }
+            schleswig_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }	
+            jutland_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }
+            denmark_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }	
+            skaneland_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }
+            eastern_norway = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }	
+            southern_norway_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }
+            western_norway = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }	
+            trondelag_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = NSE
+            }
+            northern_norway = {
                 limit = {
                     NOT = { owned_by = ROOT }
                 }

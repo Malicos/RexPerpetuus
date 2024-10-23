@@ -1,0 +1,114 @@
+country_decisions = {
+	rp_sicilian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_sicily_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { exists = SIC }
+			NOT = { exists = ASN }
+			OR = {
+				primary_culture = neapolitan
+				primary_culture = sicilian
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = sicily_area
+				area = calabria_area
+				area = apulia_area
+				area = naples_area
+				area = abruzzo_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			#adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 121
+			owns_core_province = 125
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				OR = {
+					area = sicily_area
+					area = calabria_area
+					area = apulia_area
+					area = naples_area
+					area = abruzzo_area
+				}
+				value = 22
+			}
+		}
+        effect = {
+            change_tag = SIC
+            on_change_tag_effect = yes
+            remove_non_electors_emperors_from_empire_effect = yes
+            if = {
+                limit = { NOT = { government_rank = 2 } }
+                set_government_rank = 2
+            }
+            sicily_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = SIC
+            }
+            calabria_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = SIC
+            }	
+            apulia_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = SIC
+            }	
+            naples_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = SIC
+            }
+            abruzzo_area = {
+                limit = {
+                    NOT = { owned_by = ROOT }
+                }
+                add_permanent_claim = SIC
+            }	
+            add_country_modifier = {
+                name = "centralization_modifier"
+                duration = 7300
+            }
+            add_prestige = 10
+            set_country_flag = formed_sicily_flag
+            swap_ideas = yes
+        }
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}
