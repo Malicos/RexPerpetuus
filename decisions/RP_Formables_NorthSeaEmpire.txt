@@ -17,7 +17,11 @@ country_decisions = {
 			NOT = { exists = NSE }
             NOT = { tag = PAP }
             NOT = { tag = HLR }
-            culture_group = scandinavian
+			OR = {
+				culture = denlegian
+				culture = norwegian
+				culture = danish
+			}
             is_colonial_nation = no
             OR = {
                 is_former_colonial_nation = no
