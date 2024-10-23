@@ -1,5 +1,4 @@
 #Bohol
-
 owner = DPT
 controller = DPT
 culture = visayan
@@ -7,12 +6,11 @@ religion = anito
 capital = "Tagbilaran"
 trade_goods = fish
 is_city = yes
-hre = no
-base_tax = 2 
+base_tax = 2
 base_production = 2
 base_manpower = 1
 add_core = DPT
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
+discovered_by = polynesian_tech

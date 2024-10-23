@@ -1,5 +1,4 @@
 #Wethali
-
 owner = ARK
 controller = ARK
 add_core = ARK
@@ -7,16 +6,13 @@ culture = arakanese
 religion = buddhism
 capital = "Wethali"
 trade_goods = bt_trade_good_fruit
-hre = no
 base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
 discovered_by = indian
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

@@ -1,25 +1,18 @@
- 
 # ex 8705
 # vanilla uncolonised
-
 owner = BTN
 controller = BTN
 add_core = BTN
-culture = butonese # BT; sulawesi
+culture = butonese# BT; sulawesi
 religion = celebic
-capital = "Poleang" # BT; "Kendari"
+capital = "Poleang"# BT; "Kendari"
 is_city = yes
-hre = no
-base_tax = 2 # BT; 4
-base_production = 3 # BT; 4
-base_manpower = 1 # BT; 3
+base_tax = 2# BT; 4
+base_production = 3# BT; 4
+base_manpower = 1# BT; 3
 trade_goods = spices
-
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

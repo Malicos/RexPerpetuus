@@ -1,25 +1,21 @@
 #3137 - Ross
 #Region - Britain
 #Area - Highlands
-
 owner = SCO
 controller = SCO
 add_core = SCO
 culture = gallgaidheil
 religion = catholic
-hre = no
-base_tax = 2 
-base_production = 2 
-trade_goods = grain #Was fish
-base_manpower = 2 
+base_tax = 2
+base_production = 2
+trade_goods = grain#Was fish
+base_manpower = 2
 capital = "Dingwall"
 is_city = yes
-fort_15th = yes #Dingwall castle still gets built, supposedly biggest castle north of Stirling.
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

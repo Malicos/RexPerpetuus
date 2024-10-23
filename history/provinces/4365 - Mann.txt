@@ -1,24 +1,20 @@
 #4365 - Mann
 #Region - Britain
 #Area - Southern Isles
-
 owner = KOI
 controller = KOI
 add_core = KOI
-culture = gallgaidheil			#The distinction between Gallgael and Gael was minimal by the 15th century, if not much sooner, but Ive already recieved multiple requests for this subculture, so give the people that for which they clamour...
+culture = gallgaidheil#The distinction between Gallgael and Gael was minimal by the 15th century, if not much sooner, but Ive already recieved multiple requests for this subculture, so give the people that for which they clamour...
 religion = catholic
-hre = no
 base_tax = 1
-base_production = 1 
+base_production = 1
 trade_goods = fish
-base_manpower = 1 
-capital = "Baile a' Chaisteil"	#changed from Balley Chashtal.... I love the IoM, and Manxmen all seem quite pleasant, but Manx spelling is an huge eyesore, going with Scottish for now
+base_manpower = 1
+capital = "Baile a' Chaisteil"#changed from Balley Chashtal.... I love the IoM, and Manxmen all seem quite pleasant, but Manx spelling is an huge eyesore, going with Scottish for now
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

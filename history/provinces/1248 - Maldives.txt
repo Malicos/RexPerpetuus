@@ -17,4 +17,3 @@ discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = east_african
-discovered_by = indian

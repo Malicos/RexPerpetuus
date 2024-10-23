@@ -1,30 +1,24 @@
 #234 - Hampshire
 #Region - Britain
 #Area - Wessex
-
 owner = WSX
 controller = WSX
 add_core = WSX
 culture = sexish_culture
 religion = catholic
-hre = no
 base_tax = 9
 base_production = 8
 base_manpower = 6
-trade_goods = naval_supplies #two major ports, Portsmouth and Southampton, as well as a large harbour protected by islands
-capital = "Winchester" #Ancient capital that has regained significance during Second Heptarchy.
+trade_goods = naval_supplies#two major ports, Portsmouth and Southampton, as well as a large harbour protected by islands
+capital = "Winchester"#Ancient capital that has regained significance during Second Heptarchy.
 is_city = yes
 #Salisbury and Winchester Cathedrals
-fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 24
-
-center_of_trade = 2	#The most significant city in Southern England, benefited from London's decline.
+center_of_trade = 2
+fort_15th = yes

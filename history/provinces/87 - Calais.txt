@@ -1,7 +1,6 @@
 # 87 Calais - Principal cities: Calais
 #Region - Low Countries
 #Area - Flanders
-
 owner = FLA
 controller = FLA
 add_core = FLA
@@ -10,19 +9,16 @@ culture = flemish
 religion = catholic
 hre = yes
 base_tax = 7
-base_production = 7 
+base_production = 7
 trade_goods = fish
-base_manpower = 4 
+base_manpower = 4
 is_city = yes
-fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 8
 center_of_trade = 1
+fort_15th = yes

@@ -1,5 +1,4 @@
 #593 - Nakhon Si Thammarat
-
 owner = LKS
 controller = LKS
 add_core = LKS
@@ -8,17 +7,14 @@ culture = dambro
 religion = mahayana
 capital = "Nakhon Si Thammarat"
 trade_goods = tropical_wood
-hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 4
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

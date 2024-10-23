@@ -1,38 +1,25 @@
 #8879 - Armachiho
 #Area - 
 #Region - Horn of Africa
-
 #Core Details
-capital = "Ayikel" #(JP) or Chilga
+capital = "Ayikel"#(JP) or Chilga
 is_city = no
 owner = AMC
 controller = AMC
-
 #Demographics
 culture = qwara
 religion = shamanism
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = iron
 latent_trade_goods = { coal }
-
 #Cores and Occupation (Alphabetical after current)
 add_core = AMC
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-#Histories 
+discovered_by = muslim_tech

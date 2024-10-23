@@ -1,5 +1,4 @@
 #2207 - Maragheh
-
 owner = RWD
 controller = RWD
 add_core = RWD
@@ -8,12 +7,10 @@ culture = kurdish
 religion = sunni
 capital = "Marageh"
 trade_goods = wool
-hre = no
-base_tax = 4  
+base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
@@ -22,5 +19,5 @@ discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = nomad_group
-
 add_province_triggered_modifier = bt_conquest_of_the_great_fire
+discovered_by = indian

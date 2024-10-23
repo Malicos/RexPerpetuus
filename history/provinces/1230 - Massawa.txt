@@ -1,21 +1,21 @@
- 
 #1230 - Massawa
-
 owner = MED
 controller = MED
 add_core = MED
 add_core = DHK
-culture = tigre 
+culture = tigre
 religion = sunni
 capital = "Massawa"
 is_city = yes
-base_manpower = 3 
+base_manpower = 3
 trade_goods = ivory
-hre = no
-base_tax = 4 
+base_tax = 4
 base_production = 3
-
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+
+discovered_by = iranian_tech

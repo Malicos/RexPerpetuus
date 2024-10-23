@@ -1,8 +1,6 @@
- 
 # 1880 - Sundgau
 #Region - Germany
 #Area - Upper Rhineland
-
 owner = BSL
 controller = BSL
 add_core = BSL
@@ -14,12 +12,10 @@ hre = yes
 base_tax = 5
 base_production = 4
 trade_goods = grain
-base_manpower = 4 
-
+base_manpower = 4
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

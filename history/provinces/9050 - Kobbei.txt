@@ -1,35 +1,23 @@
 #9050 - Kobbei
 #Area - 
 #Region - Eastern Sahara
-
 #Core Details
 capital = "Kobbei"
 is_city = yes
 owner = TUJ
 controller = TUJ
-
 #Demographics
 culture = fur_culture
-religion = shamanism #Fetishism
-
+religion = shamanism#Fetishism
 #Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 2
 trade_goods = ivory
-
 #Cores and Occupation (Alphabetical after current)
 add_core = TUJ
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
 center_of_trade = 2
-
 #Discoveries
 discovered_by = east_african
-
-#Histories 
+discovered_by = maghrebi_tech

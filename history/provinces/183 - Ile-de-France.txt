@@ -1,7 +1,6 @@
 # 183 Île-de-France - Principal cities: Paris
 #Region - France
 #Area - Seine
-
 owner = FRA
 controller = FRA
 add_core = FRA
@@ -9,21 +8,16 @@ capital = "Paris"
 is_city = yes
 culture = cosmopolitan_french
 religion = catholic
-hre = no
 base_tax = 20
 base_production = 20
 trade_goods = cloth
 base_manpower = 10
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
-
-fort_15th = yes
-
 extra_cost = 40
 center_of_trade = 3
+fort_15th = yes

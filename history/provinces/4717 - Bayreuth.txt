@@ -1,8 +1,6 @@
- 
 #4717 = Bayreuth
 #Region - Germany
 #Area - Franconia
-
 owner = NGU
 controller = NGU
 add_core = NGU
@@ -11,15 +9,13 @@ religion = catholic
 base_tax = 3
 base_production = 3
 trade_goods = copper
-base_manpower = 2 
+base_manpower = 2
 capital = "Bayreuth"
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

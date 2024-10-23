@@ -1,27 +1,23 @@
 # 177 Maine - Principal cities: Le Mans, Alençon, Laval
 #Region - France
 #Area - Loire
-
 owner = NRM
-controller = NRM 
+controller = NRM
 add_core = NRM
 add_core = BRI
 capital = "Le Mans"
 is_city = yes
 culture = normand
 religion = catholic
-hre = no
 base_tax = 5
 base_production = 5
 trade_goods = glass
 base_manpower = 3
 add_local_autonomy = 25
 #fort_15th = yes #Cut because Surrender of Maine derp.
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

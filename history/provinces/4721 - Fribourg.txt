@@ -1,4 +1,3 @@
- 
 owner = BUR
 controller = BUR
 add_core = BUR
@@ -7,16 +6,13 @@ culture = high_burgundian
 religion = catholic
 capital = "Fribourg"
 trade_goods = livestock
-hre = no
 base_tax = 5
 base_production = 4
 base_manpower = 3
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

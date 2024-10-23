@@ -1,23 +1,19 @@
- 
 # 4748 - Brandenburg
-
 owner = LUT
 controller = LUT
 add_core = LUT
 culture = polabian_culture
 religion = catholic
 hre = yes
-base_tax = 5							#(JP) Lowering dev as dev moved around to new provinces
+base_tax = 5#(JP) Lowering dev as dev moved around to new provinces
 base_production = 5
 trade_goods = iron
 base_manpower = 4
 capital = "Branibor"
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

@@ -1,7 +1,6 @@
 # 170 Finistère - Principal cities: Brest
 #Region - France
 #Area - Brittany
-
 owner = BRI
 controller = BRI
 add_core = BRI
@@ -9,19 +8,15 @@ capital = "Brest"
 is_city = yes
 culture = breton
 religion = catholic
-hre = no
-base_tax = 5 
+base_tax = 5
 base_production = 5
 trade_goods = naval_supplies
-base_manpower = 3 
-
+base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

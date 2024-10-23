@@ -1,23 +1,18 @@
- 
 #2763 - Asosa
-
 culture = berta_culture
 religion = shamanism
 capital = "Asosa"
 is_city = no
 base_manpower = 1
 trade_goods = slaves
-hre = no
-base_tax = 2  
+base_tax = 2
 base_production = 1
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-
-1670.1.1 = { #Damot is more closely integrated from around this time and onwards, with regular visits from emperors, etc.
-	owner = ETH
+1670.1.1 = { 
 	controller = ETH
 	add_core = ETH
 }
+

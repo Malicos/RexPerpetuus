@@ -1,26 +1,20 @@
- 
 # ex 8596
-
-owner = RHD # BT; RHA
-controller = RHD # BT; RHA
-add_core = RHD # BT; RHA
-culture = degar # BT; cham
+owner = RHD# BT; RHA
+controller = RHD# BT; RHA
+add_core = RHD# BT; RHA
+culture = degar# BT; cham
 religion = animism
 capital = "Rhade"
 is_city = yes
-hre = no
 base_tax = 2
 base_production = 2
-base_manpower = 1 # BT; 2
-trade_goods = livestock # BT; copper
-
+base_manpower = 1# BT; 2
+trade_goods = livestock# BT; copper
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
 1535.1.1 = { discovered_by = POR }

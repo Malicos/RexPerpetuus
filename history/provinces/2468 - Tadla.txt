@@ -1,6 +1,4 @@
- 
 # - Tadla
-
 owner = FEZ
 controller = FEZ
 add_core = FEZ
@@ -8,13 +6,14 @@ culture = sanhaja_berber
 religion = sunni
 capital = "Khenifra"
 trade_goods = livestock
-hre = no
-base_tax = 2 
-base_production = 2 
-base_manpower = 2 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
-
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+

@@ -1,8 +1,6 @@
- 
 #55 - Oldenburg
 #Region - Germany
 #Area - Weser
-
 owner = OLD
 controller = OLD
 add_core = OLD
@@ -11,15 +9,13 @@ religion = catholic
 capital = "Oldenburg"
 trade_goods = salt
 hre = yes
-base_tax = 4 
-base_production = 4 
-base_manpower = 3 
+base_tax = 4
+base_production = 4
+base_manpower = 3
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

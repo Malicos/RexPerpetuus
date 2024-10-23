@@ -1,8 +1,6 @@
- 
 # ex 8563
 # vanilla uncolonised
 # and then owned in 1444.1.1
-
 owner = KUP
 controller = KUP
 add_core = KUP
@@ -10,17 +8,12 @@ culture = ngaju
 religion = hinduism
 capital = "Paser"
 is_city = yes
-hre = no
-base_tax = 2 # BT; 3
+base_tax = 2# BT; 3
 base_production = 3
 base_manpower = 2
-trade_goods = tropical_wood # BT; spices
-
+trade_goods = tropical_wood# BT; spices
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

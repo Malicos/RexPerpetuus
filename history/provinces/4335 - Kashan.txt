@@ -1,5 +1,4 @@
 #4335 - Kashan
-
 owner = TEH
 controller = TEH
 add_core = TEH
@@ -8,15 +7,14 @@ culture = kalimi
 religion = jewish
 capital = "Kashan"
 trade_goods = silk
-hre = no
 base_tax = 6
 base_production = 6
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
+discovered_by = rhomanian_tech

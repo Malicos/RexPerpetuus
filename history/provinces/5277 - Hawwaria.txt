@@ -1,40 +1,32 @@
- 
-
-owner = MAK 
-controller = MAK 
+owner = MAK
+controller = MAK
 add_core = MAK
 culture = nubian
 religion = coptic
 capital = "Semna"
 is_city = yes
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 3
 trade_goods = grain
-
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = east_african
-
-add_permanent_province_modifier = {
+add_permanent_province_modifier = { 
 	name = btpl_nile_river_in_arid_desert_province
 	duration = -1
 }
-
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
-	owner = MAM
+1444.11.16 = { 
 	controller = MAM
 	add_core = MAM
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
-	owner = HWA # changed from HAW
-	controller = HWA # changed from HAW
-	remove_core = MAM
+1444.11.18 = { 
+	controller = HWA
 }
-1484.1.1 = {
-	owner = ABB
+1484.1.1 = { 
 	controller = ABB
 	add_core = ABB
 }
-1517.1.1 = { add_core = TUR } # Mamluks fall to Ottomans, Ottomans do not advance up Nile
+1517.1.1 = { add_core = TUR }
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech

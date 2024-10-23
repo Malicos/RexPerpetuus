@@ -1,38 +1,25 @@
 #4368 - Durham
 #Region - Britain
 #Area - Northumberland
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
-
 owner = JRV
 controller = JRV
 add_core = JRV
 add_core = BNC
 culture = denlegian
 religion = catholic
-hre = no
 base_tax = 2
 base_production = 2
-trade_goods = iron #representing a mix of lead mining, shipbuilding and tanning. Considered naval supplies but Sunderland would only rise in the late 16th century, but as the largest shipbuilding site in England
-base_manpower = 1 
+trade_goods = iron#representing a mix of lead mining, shipbuilding and tanning. Considered naval supplies but Sunderland would only rise in the late 16th century, but as the largest shipbuilding site in England
+base_manpower = 1
 capital = "Durham"
-fort_15th = yes #Durham Castle, but built by Norwegians kind of earlier than OTL.
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-1067.1.1 = {
-    add_province_modifier = {
-        name = bernician_autonomy
-        duration = -1
-    }
-}
+fort_15th = yes

@@ -1,10 +1,7 @@
 # ex 8550
-
 discovered_by = chinese
-discovered_by = japanese_group
-discovered_by = southeast_asian_group # 1.31
-
-1400.1.1 = { # Brian fixed; BT
+discovered_by = southeast_asian_group# 1.31
+1400.1.1 = { 
 	discovered_by = ATJ
 	discovered_by = MAJ
 	discovered_by = MKS
@@ -37,18 +34,16 @@ discovered_by = southeast_asian_group # 1.31
 	discovered_by = BMA
 	discovered_by = SBW
 	discovered_by = SPR
-	discovered_by = BLI
 	discovered_by = GLU
 	discovered_by = JMB
 	discovered_by = IDG
 	discovered_by = IDP
 	discovered_by = ARU
 	discovered_by = BRS
-	discovered_by = ATJ
 	discovered_by = PAH
 	discovered_by = KEL
 	discovered_by = IFG
 	discovered_by = DPT
 }
-
 1521.1.1 = { discovered_by = POR }
+is_city = no

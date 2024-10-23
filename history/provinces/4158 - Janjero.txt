@@ -1,6 +1,4 @@
- 
 #4158 - Janjero
-
 owner = JJI
 controller = JJI
 add_core = JJI
@@ -8,14 +6,12 @@ culture = yemsa
 religion = shamanism
 capital = "Fofa"
 is_city = yes
-base_manpower = 2 
+base_manpower = 2
 trade_goods = slaves
-hre = no
-base_tax = 3 
+base_tax = 3
 base_production = 3
 center_of_trade = 1
-
 discovered_by = east_african
-discovered_by = muslim
-
-
+discovered_by = muslim_tech
+discovered_by = muslim_tech
+discovered_by = indian

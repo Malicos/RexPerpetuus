@@ -1,6 +1,4 @@
- 
 #4772 - Celle
-
 owner = SAX
 controller = SAX
 add_core = SAX
@@ -13,11 +11,9 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

@@ -1,4 +1,3 @@
- 
 owner = TCA
 controller = TCA
 add_core = TCA
@@ -11,9 +10,11 @@ base_production = 3
 base_manpower = 3
 trade_goods = bt_trade_good_fruit
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech

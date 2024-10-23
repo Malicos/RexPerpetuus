@@ -1,26 +1,22 @@
 #3138 - Atholl
 #Region - Britain
 #Area - Highlands
-
 owner = SCO
 controller = SCO
 add_core = SCO
 culture = highland_scottish
 religion = catholic
-hre = no
-base_tax = 1  
-base_production = 2 
+base_tax = 1
+base_production = 2
 trade_goods = livestock
-base_manpower = 1 
+base_manpower = 1
 capital = "Blair Atholl"
 #fort_15th = yes			#Something was broke in the state of Scotland =p
 is_city = yes
-
 add_local_autonomy = 25
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

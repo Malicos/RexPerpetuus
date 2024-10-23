@@ -1,5 +1,4 @@
 #Edala
-
 owner = MJZ
 controller = MJZ
 add_core = MJZ
@@ -7,12 +6,10 @@ culture = manchu
 religion = mahayana
 capital = "Edala"
 trade_goods = grain
-hre = no
 base_tax = 6
 base_production = 4
 base_manpower = 4
 is_city = yes
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group

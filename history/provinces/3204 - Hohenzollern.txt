@@ -1,8 +1,6 @@
- 
 #3204 - Hohenzollern
 #Region - Germany
 #Area - Lower Swabia
-
 owner = SWA
 controller = SWA
 add_core = SWA
@@ -10,16 +8,14 @@ capital = "Hechingen"
 culture = swabian
 religion = catholic
 trade_goods = wool
-base_tax = 2 
-base_production = 3 
-base_manpower = 4 
+base_tax = 2
+base_production = 3
+base_manpower = 4
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

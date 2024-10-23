@@ -1,19 +1,15 @@
- 
 #2340 - Grane
-
 owner = ALH
 controller = ALH
 add_core = ALH
 culture = gulf_arabic
 religion = shiite
-capital = "Grane" #old name for Kuwait
+capital = "Grane"#old name for Kuwait
 trade_goods = fish
-hre = no
-base_tax = 2  
-base_production = 2 
-base_manpower = 1 
+base_tax = 2
+base_production = 2
+base_manpower = 1
 is_city = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
@@ -21,3 +17,4 @@ discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = east_african
+discovered_by = rhomanian_tech

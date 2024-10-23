@@ -1,9 +1,4 @@
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
-
-
-
-
 1511.1.1 = { discovered_by = POR }
-
+discovered_by = muslim_tech

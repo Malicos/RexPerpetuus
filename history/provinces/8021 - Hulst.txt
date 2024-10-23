@@ -1,23 +1,20 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = AUT
 controller = AUT
 add_core = AUT
 add_core = FLA
 culture = flemish
 religion = catholic
-capital = "Hulst"			#Best option would be Sluis, but this town is connected strongly with Bruges in the next province over. Terneuzen would also be an option, but Niki had a tizzy over how unimportant it was in early period, so Hulst it is.
+capital = "Hulst"#Best option would be Sluis, but this town is connected strongly with Bruges in the next province over. Terneuzen would also be an option, but Niki had a tizzy over how unimportant it was in early period, so Hulst it is.
 base_tax = 4
 base_production = 4
 base_manpower = 2
-trade_goods = fish			#Poorest part of Flanders, it appears.
+trade_goods = fish#Poorest part of Flanders, it appears.
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,43 +1,31 @@
 #Lipis
-
 owner = PAH
 controller = PAH
 culture = orang_asli
 religion = mahayana
 capital = "Kuala Lipis"
-trade_goods = gold #Producer of gold
-hre = no
-base_tax = 2 
+trade_goods = gold#Producer of gold
+base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
 add_core = PAH
 add_core = JOH
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1454.1.1 = {
-	owner = MLC
+1454.1.1 = { 
 	controller = MLC
-        add_core = MLC
-        add_core = JOH
+	add_core = MLC
 }
-
-1470.1.1 = {
-	religion = sunni #Established as a vassal state
+1470.1.1 = { 
+	religion = sunni
 }
-
 1516.1.1 = { discovered_by = POR }
-
-1528.1.1 = {
-	owner = JOH
+1528.1.1 = { 
 	controller = JOH
-        remove_core = MLC
 }

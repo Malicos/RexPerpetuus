@@ -1,20 +1,16 @@
- 
 #2757 - Kaffa
-
 owner = KAF
 controller = KAF
 add_core = KAF
-culture = gonga 
+culture = gonga
 religion = shamanism
 capital = "Bonga"
 is_city = yes
 base_manpower = 2
 trade_goods = gold
-hre = no
 base_tax = 3
-base_production = 3 
-
+base_production = 3
 discovered_by = east_african
-discovered_by = muslim
-
-
+discovered_by = muslim_tech
+discovered_by = muslim_tech
+discovered_by = indian

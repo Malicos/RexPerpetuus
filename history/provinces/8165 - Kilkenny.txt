@@ -1,40 +1,26 @@
 #8165 - Kilkenny
 #Area - Leinster
 #Region - Ireland
-
 #Core Details
 capital = "Cill Chainnigh"
 is_city = yes
 owner = ORD
 controller = ORD
-
 #Demographics
 culture = irish
 religion = catholic
-
 #Development and Trade
 base_tax = 3
 base_production = 2
 base_manpower = 2
 trade_goods = livestock
-
 #Cores and Occupation (Alphabetical after current)
 add_core = ORD
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 #Histories

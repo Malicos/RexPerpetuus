@@ -1,26 +1,21 @@
- 
 # 2273 - Ader
-
 owner = AIR
 controller = AIR
 add_core = AIR
 is_city = yes
-culture = tuareg 
+culture = tuareg
 religion = sunni
 capital = "Tahoua"
 trade_goods = livestock
-hre = no
-base_tax = 2  
-base_production = 1 
-base_manpower = 1 
+base_tax = 2
+base_production = 1
+base_manpower = 1
 discovered_by = sub_saharan
-
-1514.1.1 = {
-	owner = SON 
-	controller = SON 
+1514.1.1 = { 
+	controller = SON
 	add_core = SON
-} #Askiya Muhammad of Songhai seizes control
-1591.3.15 = {
-	owner = AIR
+}
+1591.3.15 = { 
 	controller = AIR
-} # Songahi defeat at Tondibi leaves Tuareg free 
+}
+discovered_by = maghrebi_tech

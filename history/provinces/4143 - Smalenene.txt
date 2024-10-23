@@ -1,22 +1,18 @@
 #Smålenene, incl. Mossedal, Heggen og Fröland, Vemme, Rakkestad, Idd og Marker, Onsöy, Verne Kloster, Moss, Tune og Åbygge and part of Nedre Romerike.
- 
 owner = NOR
 controller = NOR
 add_core = NOR
 culture = norwegian
 religion = catholic
-hre = no
-base_tax = 2 
-base_production = 2 
+base_tax = 2
+base_production = 2
 trade_goods = fish
-base_manpower = 1 
+base_manpower = 1
 capital = "Borg"
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

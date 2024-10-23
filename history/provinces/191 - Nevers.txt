@@ -1,7 +1,6 @@
 # 191 Nevers - Principal cities: Nevers
 #Region - France
 #Area - Burgundy
-
 owner = DBG
 controller = DBG
 add_core = DBG
@@ -10,17 +9,14 @@ capital = "Nevers"
 is_city = yes
 culture = burgundian
 religion = catholic
-hre = no
 base_tax = 4
 base_production = 4
 trade_goods = naval_supplies
 base_manpower = 2
-fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

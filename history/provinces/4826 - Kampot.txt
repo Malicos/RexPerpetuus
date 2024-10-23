@@ -1,24 +1,19 @@
- 
 # ex 8583
-
 owner = KHM
 controller = KHM
 add_core = KHM
 culture = khmer
 religion = hinduism
-capital = "Banteay Meas" # BT; "Kampot"
+capital = "Banteay Meas"# BT; "Kampot"
 is_city = yes
-hre = no
-base_tax = 2 # BT; 4
-base_production = 2 # BT; 4
-base_manpower = 1 # BT; 2
-trade_goods = spices # BT; grain
-
+base_tax = 2# BT; 4
+base_production = 2# BT; 4
+base_manpower = 1# BT; 2
+trade_goods = spices# BT; grain
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech # BT
-discovered_by = ottoman # BT
+discovered_by = iranian_tech# BT
+discovered_by = ottoman

@@ -1,7 +1,6 @@
 #3060 - Betuwe
 #Region - Low Countries
 #Area - Netherlands
-
 owner = HOL
 controller = HOL
 add_core = HOL
@@ -10,15 +9,13 @@ is_city = yes
 culture = dutch
 religion = catholic
 hre = yes
-base_tax = 5 			#The oldest city in the Low Countries, apparently. Population estimated to be in the 10k range, longtime member of the Hansa, home to many important figures in this period.
+base_tax = 5#The oldest city in the Low Countries, apparently. Population estimated to be in the 10k range, longtime member of the Hansa, home to many important figures in this period.
 base_production = 5
-trade_goods = grain			#Or fruit. This is virtually the only 'good' land in the Low Countries before all the dikes and canals went up, so an agricultural good is a good default. Note agricultural doesn't mean poor... this was a major centre.
-base_manpower = 3 
-
+trade_goods = grain#Or fruit. This is virtually the only 'good' land in the Low Countries before all the dikes and canals went up, so an agricultural good is a good default. Note agricultural doesn't mean poor... this was a major centre.
+base_manpower = 3
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

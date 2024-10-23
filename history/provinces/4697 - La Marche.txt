@@ -1,25 +1,21 @@
 #4697 - La Marche
 #Region - France
 #Area - Massif Central
-
 owner = FRA
 controller = FRA
 add_core = FRA
 add_core = LMC
 capital = "Guéret"
 is_city = yes
-culture = poitevin_culture	#aquitaine vanilla
+culture = poitevin_culture#aquitaine vanilla
 religion = catholic
-hre = no
-base_tax = 2 
-base_production = 2 
+base_tax = 2
+base_production = 2
 trade_goods = livestock
-base_manpower = 1 
-
+base_manpower = 1
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

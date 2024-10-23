@@ -1,38 +1,28 @@
 #9076 - Scetis
 #Area - 
 #Region - Egypt
-
 #Core Details
 capital = "Scetis"
 is_city = yes
 owner = KEM
 controller = KEM
-
 #Demographics
 culture = coptic_culture
 religion = coptic
-
 #Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 2
 trade_goods = glass
-
 #Cores and Occupation (Alphabetical after current)
 add_core = KEM
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = western
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
-
-#Histories
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech

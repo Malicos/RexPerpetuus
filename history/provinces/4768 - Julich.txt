@@ -1,8 +1,6 @@
- 
 #4768 - Jülich
 #Region - Germany
 #Area - Lower Rhineland
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -11,15 +9,13 @@ religion = catholic
 trade_goods = grain
 capital = "Jülich"
 base_tax = 6
-base_production = 6			#Region (Rur river valley) was rather rich, but the city itself appears to have straddled 1.5k population since the Roman period, not breaking 2k until 18th century, if not later. Going for a compromise, actually, leaving it how it was.
+base_production = 6#Region (Rur river valley) was rather rich, but the city itself appears to have straddled 1.5k population since the Roman period, not breaking 2k until 18th century, if not later. Going for a compromise, actually, leaving it how it was.
 is_city = yes
-base_manpower = 4 
+base_manpower = 4
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

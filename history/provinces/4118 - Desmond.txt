@@ -2,26 +2,22 @@
 #4118 - Desmond
 #Region - Ireland
 #Area - Munster
-
 owner = CRK
 controller = CRK
 add_core = CRK
 culture = gallwegian
 religion = catholic
-hre = no
 base_tax = 4
 base_production = 2
 base_manpower = 3
-trade_goods = cloth #Was copper
+trade_goods = cloth#Was copper
 capital = "Corcaigh"
 is_city = yes
-
 extra_cost = 7
 center_of_trade = 1
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

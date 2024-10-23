@@ -1,25 +1,19 @@
- 
 # renamed in 1.31
-
-owner = GLU # BT; SUN
-controller = GLU # BT; SUN
-add_core = GLU # BT; SUN
-add_core = CRB # BT
+owner = GLU# BT; SUN
+controller = GLU# BT; SUN
+add_core = GLU# BT; SUN
+add_core = CRB# BT
 culture = sundanese
 religion = hinduism
-capital = "Cirebon" # BT; "Sumedang"
+capital = "Cirebon"# BT; "Sumedang"
 is_city = yes
-hre = no
-base_tax = 4 # BT; 3
-base_production = 5 # BT; 3
-base_manpower = 3 # BT; 2
+base_tax = 4# BT; 3
+base_production = 5# BT; 3
+base_manpower = 3# BT; 2
 trade_goods = spices
-
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

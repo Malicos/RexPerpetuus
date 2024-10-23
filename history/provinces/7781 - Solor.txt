@@ -1,5 +1,4 @@
 #BT Scandinavia and Baltics reoverhaul
-
 owner = NOR
 controller = NOR
 add_core = NOR
@@ -11,8 +10,7 @@ base_production = 1
 base_manpower = 1
 trade_goods = livestock
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech

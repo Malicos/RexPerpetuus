@@ -1,7 +1,6 @@
 #3110 - Channel Islands
 #Region - France
 #Area - Normandy
-
 owner = BRI
 controller = BRI
 add_core = BRI
@@ -11,17 +10,14 @@ capital = "St. Helier"
 is_city = yes
 culture = normand
 religion = catholic
-hre = no
-base_tax = 2  
-base_production = 2 
+base_tax = 2
+base_production = 2
 trade_goods = fish
 base_manpower = 1
 #fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

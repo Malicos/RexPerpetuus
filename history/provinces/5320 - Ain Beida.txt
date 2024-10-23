@@ -1,6 +1,4 @@
- 
 #New Beyond Typus Province
-
 owner = KEF
 controller = KEF
 add_core = KEF
@@ -9,13 +7,15 @@ culture = shawiya_berber
 religion = ibadi
 capital = "Ain Beida"
 trade_goods = grain
-hre = no
-base_tax = 2 
-base_production = 1 
-base_manpower = 1 
+base_tax = 2
+base_production = 1
+base_manpower = 1
 is_city = yes
-
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech

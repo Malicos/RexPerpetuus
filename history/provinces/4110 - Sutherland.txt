@@ -1,26 +1,22 @@
 #4110 - Sutherland
 #Region - Britain
 #Area - Highlands
-
 owner = NOR
 controller = NOR
 add_core = NOR
 add_core = SCO
 culture = gallgaidheil
 religion = catholic
-hre = no
-base_tax = 1 
-base_production = 2 
+base_tax = 1
+base_production = 2
 trade_goods = fish
-base_manpower = 2 
-capital = "Wick" #"Thurso"
+base_manpower = 2
+capital = "Wick"#"Thurso"
 is_city = yes
-
 add_local_autonomy = 25
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

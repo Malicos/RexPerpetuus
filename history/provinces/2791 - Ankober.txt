@@ -1,21 +1,18 @@
- 
 #2791 - Ankober
-
 owner = IFT
 controller = IFT
 add_core = IFT
 add_core = SOA
-culture = amhara 
+culture = amhara
 religion = coptic
-capital = "Tagulat" #Suggestion instead of Ankober from Endreyas
+capital = "Tagulat"#Suggestion instead of Ankober from Endreyas
 is_city = yes
 base_manpower = 2
-trade_goods = iron #Endreyas' suggestion
-hre = no
-base_tax = 3  
-base_production = 3 
-
+trade_goods = iron#Endreyas' suggestion
+base_tax = 3
+base_production = 3
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
+

@@ -1,43 +1,28 @@
 #8126 - Northampton
 #Area - Midlands
 #Region - Britain
-
 #Core Details
 capital = "Northampton"
 is_city = yes
 owner = MID
 controller = MID
-
 #Demographics
 culture = english
 religion = catholic
-
 #Development and Trade
 base_tax = 7
 base_production = 5
 base_manpower = 4
-trade_goods = wool #Quarries also existed though were exhausted at the end of the 16th century.
+trade_goods = wool#Quarries also existed though were exhausted at the end of the 16th century.
 extra_cost = 20
-center_of_trade = 1 #Third most significant city in England during Second Heptarchy, but not as much as Jorvik and Winchester.
-
+center_of_trade = 1#Third most significant city in England during Second Heptarchy, but not as much as Jorvik and Winchester.
 #Cores and Occupation (Alphabetical after current)
 add_core = MID
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-fort_15th = yes #Royal residence of Mercia
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories
+fort_15th = yes

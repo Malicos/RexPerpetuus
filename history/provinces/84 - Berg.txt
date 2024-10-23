@@ -1,8 +1,6 @@
-
 # 84 - Berg
 #Region - Germany
 #Area - North Rhine
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -10,20 +8,16 @@ culture = luxembourgish_culture
 religion = catholic
 trade_goods = cloth
 capital = "Düsseldorf"
-base_tax = 4 			#Today at the heart of the largest metropolitan area in Europe, but at this time, it was quite small, and just recentely founded with the help of Koeln. Leaving it at 5 dev
-base_production = 4 
+base_tax = 4#Today at the heart of the largest metropolitan area in Europe, but at this time, it was quite small, and just recentely founded with the help of Koeln. Leaving it at 5 dev
+base_production = 4
 base_manpower = 3
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 10
-
-center_of_trade = 2	#Suggested by Mexdus to represent the Rhine Toll moved to Kaiserswerth from Tiel by Barbarossa 
+center_of_trade = 2

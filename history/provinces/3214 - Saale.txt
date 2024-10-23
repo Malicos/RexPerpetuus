@@ -1,8 +1,6 @@
- 
 #3214 - Weiﬂenfels
 #Region - Germany
 #Area - Thuringia
-
 owner = MAG
 controller = MAG
 add_core = MAG
@@ -12,14 +10,12 @@ capital = "Weiﬂenfels"
 trade_goods = salt
 hre = yes
 base_tax = 2
-base_production = 2 
-base_manpower = 1 
+base_production = 2
+base_manpower = 1
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

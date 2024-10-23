@@ -1,7 +1,6 @@
 #3228 - Valmiera	(using the old BtP file)
 #Region - Baltic
 #Area - Livonia
-
 owner = LVA
 controller = LVA
 add_core = LVA
@@ -9,12 +8,10 @@ culture = livonian
 religion = catholic
 capital = "Limbazi"
 trade_goods = cloth
-hre = no
-base_tax = 3 
-base_production = 3 
-base_manpower = 2 
+base_tax = 3
+base_production = 3
+base_manpower = 2
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -23,3 +20,5 @@ discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech

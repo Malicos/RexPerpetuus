@@ -1,5 +1,4 @@
 #4278 - Qunfudhah
-
 owner = ASR
 controller = ASR
 add_core = ASR
@@ -7,12 +6,10 @@ capital = "Al Qunfudhah"
 culture = hejazi_culture
 religion = shiite
 trade_goods = fish
-hre = no
-base_tax = 2 
-base_production = 2 
-base_manpower = 1 
+base_tax = 2
+base_production = 2
+base_manpower = 1
 is_city = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
@@ -20,3 +17,4 @@ discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = east_african
+discovered_by = rhomanian_tech

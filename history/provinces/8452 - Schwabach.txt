@@ -1,40 +1,29 @@
 #8452 - Schwabach
 #Area - 
 #Region - 
-
 #Core Details
 capital = "Schwabach"
 is_city = yes
 owner = ANS
 controller = ANS
-
 #Demographics
 culture = franconian
 religion = catholic
-
 #Development and Trade
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = bt_trade_good_books		#Velius: Famous for the crafts made of gold. #Removed because it happened in the 1900s changed to books because of famous typeface
-
+trade_goods = bt_trade_good_books#Velius: Famous for the crafts made of gold. #Removed because it happened in the 1900s changed to books because of famous typeface
 #Cores and Occupation (Alphabetical after current)
 add_core = ANS
-
 #Other Political
 hre = yes
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories 

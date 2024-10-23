@@ -1,7 +1,6 @@
 #3079 - Aunis
 #Region - France
 #Area - Guyenne
-
 owner = GUY
 controller = GUY
 add_core = GUY
@@ -9,20 +8,16 @@ add_core = AGL
 capital = "La Rochelle"
 is_city = yes
 culture = poitevin_culture
-religion = catholic 
-hre = no
+religion = catholic
 base_tax = 6
 base_production = 6
 trade_goods = naval_supplies
 base_manpower = 3
-
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

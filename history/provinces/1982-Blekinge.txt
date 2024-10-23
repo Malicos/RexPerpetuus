@@ -1,7 +1,6 @@
 #Blekinge
 #Region - Scandinavia
 #Area - Skaneland
-
 owner = SWE
 controller = SWE
 add_core = SWE
@@ -9,18 +8,15 @@ add_core = DAN
 add_core = SCN
 culture = scanian
 religion = catholic
-hre = no
-base_tax = 2 
-base_production = 2 
+base_tax = 2
+base_production = 2
 trade_goods = fish
-base_manpower = 1 
+base_manpower = 1
 capital = "Ronneby"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

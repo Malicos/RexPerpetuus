@@ -1,31 +1,21 @@
- 
 #1220 - Dar Ja'al
-
-culture = sudanese_arabic 
+culture = sudanese_arabic
 religion = sunni
 capital = "Gakdul"
 is_city = no
-base_manpower = 1 
-hre = no
-base_tax = 1 
-base_production = 1 
-native_size = 10 #x by 100. Each gives 0.25 goods produced and determines size of uprising
-native_ferocity = 4 #Each gives 0.05 tactics to uprising
-native_hostileness = 9 #Each gives 1% chance of uprising a month
-
-
+base_manpower = 1
+base_tax = 1
+base_production = 1
+native_size = 10#x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4#Each gives 0.05 tactics to uprising
+native_hostileness = 9#Each gives 1% chance of uprising a month
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
-
-
-1503.1.1 = {
-	owner = NUB
+1503.1.1 = { 
 	controller = NUB
 	add_core = NUB
 }
 1550.1.1 = { discovered_by = TUR }
-1583.1.1 = { unrest = 6 } #Shaykh Ajib expelled from Sennar, Abdallabi discontent grows
-1584.1.1 = { unrest = 0 } #Dakin and Ajib reach agreement to end conflict
-1612.1.1 = { unrest = 5 } #Funj destroy Ajib at Karkoj
-1613.1.1 = { unrest = 0 } #Funj restore autonomy to the Abdallabi
+discovered_by = maghrebi_tech
+

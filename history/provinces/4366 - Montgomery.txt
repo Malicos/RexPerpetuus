@@ -1,25 +1,21 @@
 #4366 - Montgomery
 #Region - Britain
 #Area - Powys
-
 owner = PWS
 controller = PWS
 add_core = PWS
 add_core = WKS
 culture = welsh
 religion = catholic
-hre = no
 base_tax = 1
 base_production = 2
 trade_goods = iron
 base_manpower = 1
 capital = "Y Trallwng"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

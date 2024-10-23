@@ -1,6 +1,4 @@
-
 discovered_by = east_african
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
@@ -8,14 +6,7 @@ discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
-
-
-
-
-
 1413.1.1 = { discovered_by = MNG }
 1498.1.1 = { discovered_by = POR }
 1600.1.1 = { discovered_by = TUR }
-

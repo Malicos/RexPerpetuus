@@ -1,29 +1,24 @@
 #244 - Lancashire
 #Region - Britain
 #Area - Lancashire
-
 owner = LCA
 controller = LCA
 add_core = LCA
 culture = northumbrian
 religion = catholic
-hre = no
 base_tax = 2
-base_production = 3 
+base_production = 3
 trade_goods = wool
 base_manpower = 1
 capital = "Lancaster"
 is_city = yes
 #seat_in_parliament = yes #Removed since it doesn't seem it was part of the parliament at the time.
-
 add_local_autonomy = 75
-fort_15th = yes #Lancaster Castle, slightly different than OTL one.
-
 center_of_trade = 1
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

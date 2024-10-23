@@ -1,8 +1,6 @@
- 
 #3207 - Darmstadt
 #Region - Germany
 #Area - Palatinate
-
 owner = PAL
 controller = PAL
 add_core = PAL
@@ -12,14 +10,12 @@ religion = catholic
 trade_goods = wine
 base_tax = 2
 base_production = 2
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

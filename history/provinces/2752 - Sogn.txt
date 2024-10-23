@@ -1,18 +1,16 @@
 #Romsdal
-
 owner = NOR
 controller = NOR
 add_core = NOR
 culture = norwegian
 religion = catholic
-hre = no
-base_tax = 2 
-base_production = 1 
+base_tax = 2
+base_production = 1
 trade_goods = fish
-base_manpower = 1 
+base_manpower = 1
 is_city = yes
 capital = "Lavik"
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech

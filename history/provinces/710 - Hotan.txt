@@ -1,20 +1,18 @@
 #710 - Hotan
-
 owner = QOC
 controller = QOC
 add_core = QOC
 culture = uyghur
 religion = vajrayana
 capital = "Hotan"
-trade_goods = gems #Hotan Jade
-hre = no
-base_tax = 4  
+trade_goods = gems#Hotan Jade
+base_tax = 4
 base_production = 4
 base_manpower = 6
 is_city = yes
 discovered_by = chinese
-discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
+discovered_by = iranian_tech
+discovered_by = indian

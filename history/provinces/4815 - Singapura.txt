@@ -1,26 +1,21 @@
- 
 # ex 8649
-
 owner = SVJ
 controller = SVJ
 add_core = SVJ
 add_core = JOH
-add_core = SGP # BT
+add_core = SGP# BT
 culture = dambro
 religion = sunni
 capital = "Singapura"
 is_city = yes
-hre = no
-base_tax = 2 
+base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = fish #Or naval supplies
-
+trade_goods = fish#Or naval supplies
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

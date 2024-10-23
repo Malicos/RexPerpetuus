@@ -1,5 +1,4 @@
 #2029 - South Kanara
-
 owner = MYS
 controller = MYS
 add_core = MYS
@@ -7,12 +6,10 @@ culture = kannada
 religion = hinduism
 capital = "Mangalore"
 trade_goods = tropical_wood
-hre = no
 base_tax = 6
 base_production = 6
 base_manpower = 4
 is_city = yes
-
 add_local_autonomy = 40
 add_vaisyas_or_burghers_effect = yes
 discovered_by = indian
@@ -22,6 +19,5 @@ discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = east_african

@@ -1,18 +1,16 @@
- 
 #2449 - Jufra
-
 owner = BSM
 controller = BSM
 add_core = BSM
 culture = libyan_berber_culture
 religion = sunni
-capital = "Waddan"			#Hun in vanilla, but Waddan is older an Hun didn't reallt become important until after the EU4 period under Italian administration.
+capital = "Waddan"#Hun in vanilla, but Waddan is older an Hun didn't reallt become important until after the EU4 period under Italian administration.
 trade_goods = bt_trade_good_fruit
-hre = no
 base_tax = 2
-base_production = 1 
-base_manpower = 1 
+base_production = 1
+base_manpower = 1
 is_city = yes
-
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+discovered_by = maghrebi_tech
+

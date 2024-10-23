@@ -1,6 +1,4 @@
- 
 #New Beyond Typus Province
-
 owner = WNS
 controller = WNS
 add_core = WNS
@@ -9,16 +7,17 @@ culture = maghrebi_arabic
 religion = ibadi
 capital = "Djelfa"
 trade_goods = salt
-hre = no
-base_tax = 2 
-base_production = 1 
-base_manpower = 1 
+base_tax = 2
+base_production = 1
+base_manpower = 1
 is_city = yes
-native_size = 60 #x by 100. Each gives 0.25 goods produced and determines size of uprising
-native_ferocity = 4 #Each gives 0.05 tactics to uprising
-native_hostileness = 9 #Each gives 1% chance of uprising a month
-
-discovered_by = muslim
+native_size = 60#x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4#Each gives 0.05 tactics to uprising
+native_hostileness = 9#Each gives 1% chance of uprising a month
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech

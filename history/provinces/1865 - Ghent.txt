@@ -1,7 +1,6 @@
 # 1865 - Ghent
 #Region - Low Countries
 #Area - Flanders
-
 owner = FLA
 controller = FLA
 add_core = FLA
@@ -10,18 +9,15 @@ capital = "Ghent"
 culture = flemish
 religion = catholic
 hre = yes
-base_tax = 15			#Called the 2nd largest city outside Italy (after Paris) in 1200, with around 65,000 inhabitants. Despite being overtaken by neighbouring Bruges for most of the 13th through 15th centuries, it remained one of the 20 largest cities in Europe for most of the period, and economically, it was even richer than its population suggests.
+base_tax = 15#Called the 2nd largest city outside Italy (after Paris) in 1200, with around 65,000 inhabitants. Despite being overtaken by neighbouring Bruges for most of the 13th through 15th centuries, it remained one of the 20 largest cities in Europe for most of the period, and economically, it was even richer than its population suggests.
 base_production = 15
-trade_goods = cloth			#Major cloth centre. synonymous with cloth production. Possible province modifier
+trade_goods = cloth#Major cloth centre. synonymous with cloth production. Possible province modifier
 base_manpower = 7
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 20
 center_of_trade = 2

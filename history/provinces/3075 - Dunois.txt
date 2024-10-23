@@ -1,7 +1,6 @@
 #3075 - Dunois
 #Region - France
 #Area - Loire
-
 owner = FRA
 controller = FRA
 add_core = FRA
@@ -9,16 +8,13 @@ capital = "Châteaudun"
 is_city = yes
 culture = cosmopolitan_french
 religion = catholic
-hre = no
-base_tax = 2 
+base_tax = 2
 base_production = 2
 trade_goods = grain
-base_manpower = 2 
-
+base_manpower = 2
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

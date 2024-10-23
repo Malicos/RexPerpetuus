@@ -1,20 +1,18 @@
- 
 #2785 - El Buur
-
 owner = HOB
 controller = HOB
 add_core = HOB
 culture = hawiye
 religion = sunni
 capital = "El Buur"
-trade_goods = glass #Sepiolite, a magnesium silicate used for incense burning. //Dub
+trade_goods = glass#Sepiolite, a magnesium silicate used for incense burning. //Dub
 is_city = yes
-hre = no
-base_tax = 1  
-base_production = 1 
-base_manpower = 2 
-
+base_tax = 1
+base_production = 1
+base_manpower = 2
 discovered_by = east_african
 discovered_by = indian
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+discovered_by = maghrebi_tech
+

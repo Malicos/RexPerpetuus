@@ -1,7 +1,6 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = NRM
-controller = NRM 
+controller = NRM
 add_core = NRM
 add_core = ALE
 add_core = FRA
@@ -11,14 +10,11 @@ capital = "Mortagne"
 base_tax = 4
 base_production = 5
 base_manpower = 2
-trade_goods = grain			#Major  agriculture centre
+trade_goods = grain#Major  agriculture centre
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

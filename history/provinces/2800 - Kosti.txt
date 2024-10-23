@@ -1,23 +1,16 @@
- 
 #2800 - Kosti
-
 culture = alwan
 religion = coptic
 capital = "Saqadi"
 trade_goods = bt_trade_good_beer
-hre = no
-base_tax = 2  
-base_production = 2 
-base_manpower = 2 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 owner = ALO
 controller = ALO
 add_core = ALO
-
 discovered_by = east_african
-
-
-1503.1.1 = {
-	owner = NUB
+1503.1.1 = { 
 	controller = NUB
 	add_core = NUB
 	discovered_by = NUB
@@ -25,10 +18,7 @@ discovered_by = east_african
 	discovered_by = ETH
 	trade_goods = slaves
 }
-1553.1.1 = { unrest = 8 } #Uprising among the Saqadi
-1554.1.1 = { unrest = 0 }
 1600.1.1 = { discovered_by = TUR }
-1620.1.1 = { religion = sunni } #spread of Islam leads to shift in religion affiliation of region
-1756.1.1 = { unrest = 4 } #Badi IV comes into conflict with aristocrats over new slave army plan
-1761.1.1 = { unrest = 9 } #Badi IV persecutes aristocrats who challenge his authority
-1762.1.1 = { unrest = 0 } #Badi IV deposed by Muhammad Abu Likaylik
+1620.1.1 = { religion = sunni }
+discovered_by = muslim_tech
+is_city = no

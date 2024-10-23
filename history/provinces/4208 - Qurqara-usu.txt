@@ -1,5 +1,4 @@
 #4208 - Qurqara-usu
-
 owner = TGD
 controller = TGD
 add_core = TGD
@@ -7,17 +6,12 @@ culture = telengid
 religion = sunni
 capital = "Balikul"
 trade_goods = grain
-hre = no
-base_tax = 4 
+base_tax = 4
 base_production = 4
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-
 discovered_by = chinese
-discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

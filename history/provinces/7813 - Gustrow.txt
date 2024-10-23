@@ -1,22 +1,18 @@
- 
 #BT Scandinavia and Baltics reoverhaul
-
 owner = LUT
 controller = LUT
 add_core = LUT
 culture = polabian_culture
 religion = catholic
 capital = "Güstrow"
-base_tax = 2 
-base_production = 2 
-base_manpower = 1 
+base_tax = 2
+base_production = 2
+base_manpower = 1
 trade_goods = grain
 is_city = yes
 hre = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

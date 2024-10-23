@@ -1,7 +1,6 @@
 #3071 - Châlons
 #Region - France
 #Area - Seine
-
 owner = CHP
 controller = CHP
 add_core = CHP
@@ -9,16 +8,13 @@ capital = "Châlons"
 is_city = yes
 culture = lorraine_culture
 religion = catholic
-hre = no
 base_tax = 4
 base_production = 4
 trade_goods = iron
-base_manpower = 2 
-
+base_manpower = 2
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,29 +1,24 @@
 #249 - Ayrshire
 #Region - Britain
 #Area - Lowlands
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = STC
 controller = STC
 add_core = STC
 add_core = GWY
 culture = gallgaidheil
 religion = catholic
-hre = no
 base_tax = 2
 base_production = 3
 trade_goods = bt_trade_good_apiculture
-base_manpower = 2 
+base_manpower = 2
 capital = "Ayr"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

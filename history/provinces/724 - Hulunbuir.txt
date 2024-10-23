@@ -1,5 +1,4 @@
 #724 - Hulunbuir
-
 owner = ORO
 controller = ORO
 add_core = ORO
@@ -8,12 +7,11 @@ culture = buryat
 religion = tengri_pagan_reformed
 capital = "Hulunbuir"
 trade_goods = livestock
-hre = no
 base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = siberian_group

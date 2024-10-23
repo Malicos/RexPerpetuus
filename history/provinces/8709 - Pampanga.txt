@@ -1,18 +1,16 @@
 #Pampanga
-
 culture = filipino
 religion = anito
 capital = "Pampanga"
 trade_goods = fish
-hre = no
-base_tax = 2 
+base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
 owner = PGS
 controller = PGS
 add_core = PGS
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
+discovered_by = polynesian_tech

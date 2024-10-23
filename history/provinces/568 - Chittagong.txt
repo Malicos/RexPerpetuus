@@ -1,26 +1,21 @@
 #568 - Chittagong
-
 owner = TPR
 controller = TPR
 add_core = TPR
 add_core = ARK
 culture = bengali
-religion = hinduism #A good case could be made that this province was atleast 50% buddhist
+religion = hinduism#A good case could be made that this province was atleast 50% buddhist
 capital = "Chittagong"
 trade_goods = paper
-hre = no
 base_tax = 10
 base_production = 10
 base_manpower = 6
 is_city = yes
-
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 extra_cost = 24

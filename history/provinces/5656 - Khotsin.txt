@@ -1,5 +1,4 @@
 #New Beyond Typus Province
-
 owner = SMO
 controller = SMO
 add_core = SMO
@@ -7,17 +6,16 @@ culture = novgorodian
 religion = orthodox
 capital = "Khotshin"
 trade_goods = livestock
-hre = no
-base_tax = 4 
-base_production = 4 
-base_manpower = 2 
+base_tax = 4
+base_production = 4
+base_manpower = 2
 is_city = yes
 #True, contested, but I'm not sure this is the best way to represent it. Tver and Moscovy didn't get along so badly, and Novgorod had other priorities.
 #add_core = TVE			#Region bitterly contested between all the local powers
 #add_core = NOV			#Region bitterly contested between all the local powers
 #add_core = LIT			#Region bitterly contested between all the local powers
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = nomad_group
+discovered_by = iranian_tech

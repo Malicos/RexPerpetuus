@@ -1,8 +1,6 @@
-
 # 86 - Munster
 #Region - Germany
 #Area - Westphalia
-
 owner = MUN
 controller = MUN
 add_core = MUN
@@ -15,11 +13,9 @@ base_production = 6
 base_manpower = 4
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

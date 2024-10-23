@@ -1,6 +1,4 @@
- 
 #1205 - Mogadishu
-
 owner = MDI
 controller = MDI
 add_core = MDI
@@ -10,11 +8,12 @@ capital = "Mogadishu"
 is_city = yes
 base_manpower = 6
 trade_goods = ivory
-hre = no
 base_tax = 6
 base_production = 6
 discovered_by = east_african
 discovered_by = indian
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+discovered_by = maghrebi_tech
 center_of_trade = 2
+

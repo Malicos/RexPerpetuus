@@ -1,26 +1,21 @@
- 
 #2792 - Togdheer
-
 culture = issa
 religion = sunni
 capital = "Ceelgooni"
 is_city = no
 tribal_owner = DHL
-base_manpower = 2 
+base_manpower = 2
 trade_goods = livestock
-hre = no
-base_tax = 2  
-base_production = 2 
-
+base_tax = 2
+base_production = 2
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-
-
 1499.1.1 = { discovered_by = POR }
-1526.1.1 = { owner = ADA controller = ADA } #Ahmad Gran secures control over Marehan
+1526.1.1 = { controller = ADA }
 1550.1.1 = { discovered_by = TUR }
+1555.1.1 = { controller = WAR }
+discovered_by = maghrebi_tech
 
-1555.1.1 = { owner = WAR controller = WAR } #Northern part of province no longer conrolled by ADA
+discovered_by = iranian_tech

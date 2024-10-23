@@ -1,25 +1,21 @@
 #4371 - Sussex
 #Region - Britain
 #Area - Essex
-
 owner = SSX
 controller = SSX
 add_core = SSX
 culture = sexish_culture
 religion = catholic
-hre = no
 base_tax = 4
 base_production = 3
-trade_goods = glass #first produced broad sheet glass known, generally major glass production. Was grain
+trade_goods = glass#first produced broad sheet glass known, generally major glass production. Was grain
 base_manpower = 2
 capital = "Chichester"
 is_city = yes
 seat_in_parliament = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

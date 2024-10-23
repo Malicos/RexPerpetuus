@@ -1,40 +1,29 @@
 #8280 - Altenburg
 #Area - 
 #Region - 
-
 #Core Details
 capital = "Altenburg"
 is_city = yes
 owner = ATG
 controller = ATG
-
 #Demographics
 culture = thuringian
 religion = catholic
-
 #Development and Trade
 base_tax = 3
 base_production = 3
 base_manpower = 3
 trade_goods = bt_trade_good_fruit
-
 #Cores and Occupation (Alphabetical after current)
 add_core = ATG
-
 #Other Political
 hre = yes
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories 

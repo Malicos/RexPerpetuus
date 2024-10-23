@@ -1,33 +1,22 @@
 #248 - Lothian
 #Region - Britain
 #Area - Eastern Lowlands
-
 owner = JRV
 controller = JRV
 add_core = JRV
 add_core = BNC
 culture = denlegian
 religion = catholic
-hre = no
 base_tax = 3
 base_production = 3
 trade_goods = cloth
 base_manpower = 2
 capital = "Eideann"
 is_city = yes
-fort_15th = yes	#Eideann Castle, built by the Norwegians as a frontier outpost.
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-1067.1.1 = {
-    add_province_modifier = {
-        name = bernician_autonomy
-        duration = -1
-    }
-}
+fort_15th = yes

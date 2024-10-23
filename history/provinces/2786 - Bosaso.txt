@@ -1,19 +1,19 @@
- 
 #2786 - Bosaso
-
 owner = WAR
 controller = WAR
 add_core = WAR
 culture = darood
 religion = sunni
 capital = "Bandar Qasim"
-trade_goods = naval_supplies #JP's research in conjunction with Endreyas
+trade_goods = naval_supplies#JP's research in conjunction with Endreyas
 is_city = yes
-hre = no
-base_tax = 3 
+base_tax = 3
 base_production = 3
 base_manpower = 3
 discovered_by = east_african
 discovered_by = indian
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+discovered_by = maghrebi_tech
+
+discovered_by = iranian_tech

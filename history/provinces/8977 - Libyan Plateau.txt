@@ -1,3 +1,7 @@
 #8977 - Libyan Plateau
-
-discovered_by = muslim
+discovered_by = muslim_tech
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech
+is_city = no

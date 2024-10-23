@@ -1,25 +1,21 @@
- 
 #4141 - Ditmarschen
 #Region - Germany
 #Area - Holstein
-
 owner = DTT
 controller = DTT
 add_core = DTT
 culture = saxon
 religion = catholic
 hre = yes
-base_tax = 5 
-base_production = 5 
+base_tax = 5
+base_production = 5
 trade_goods = fish
-base_manpower = 2 
-capital = "Heide" #Or Meldorf
+base_manpower = 2
+capital = "Heide"#Or Meldorf
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

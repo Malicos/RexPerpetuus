@@ -1,27 +1,23 @@
 #4376 - Leicester
 #Region - Britain
 #Area - Midlands
-latent_trade_goods = {
+latent_trade_goods = { 
 	coal 
 }
-
 owner = MID
 controller = MID
 add_core = MID
 culture = english
 religion = catholic
-hre = no
 base_tax = 3
 base_production = 3
-trade_goods = glass #Made a lot of bells for British churches. Also the stained glass as well. Tempted to put it under iron but meh. Also a rural shire with lots of leather production, so could be livestock
+trade_goods = glass#Made a lot of bells for British churches. Also the stained glass as well. Tempted to put it under iron but meh. Also a rural shire with lots of leather production, so could be livestock
 base_manpower = 2
 capital = "Leicester"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

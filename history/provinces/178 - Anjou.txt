@@ -1,29 +1,24 @@
 # 178 Anjou - Principal cities: Angers
 #Region - France
 #Area - Loire
-
 owner = NRM
-controller = NRM 
+controller = NRM
 add_core = NRM
 add_core = BRI
 capital = "Angers"
 is_city = yes
 culture = gallo_culture
 religion = catholic
-hre = no
 base_tax = 8
-base_production = 8			#Old centre of Angevin powers, and a considerable power in and off itself. Going slightly more that what is probably historical because pro tag lost vassal dev
-trade_goods = bt_trade_good_books			#Major university, and an important cultural and literary centre
+base_production = 8#Old centre of Angevin powers, and a considerable power in and off itself. Going slightly more that what is probably historical because pro tag lost vassal dev
+trade_goods = bt_trade_good_books#Major university, and an important cultural and literary centre
 base_manpower = 5
-fort_15th = yes
-
 extra_cost = 20
 center_of_trade = 2
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
+fort_15th = yes

@@ -1,3 +1,5 @@
 # Brian
 # wasteland
 # 5539 - Johnston Atoll
+discovered_by = polynesian_tech
+is_city = no

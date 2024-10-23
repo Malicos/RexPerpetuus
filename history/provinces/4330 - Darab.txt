@@ -1,5 +1,4 @@
 #4330 - Darab and Neyriz
-
 owner = JDS
 controller = JDS
 add_core = JDS
@@ -7,16 +6,15 @@ add_core = FRS
 culture = persian
 religion = sunni
 capital = "Darab"
-trade_goods = spices #Saffron - Could also produce salt due to the salt lakes
-hre = no
-base_tax = 4 
+trade_goods = spices#Saffron - Could also produce salt due to the salt lakes
+base_tax = 4
 base_production = 4
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
+discovered_by = rhomanian_tech

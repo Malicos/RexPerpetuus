@@ -1,4 +1,5 @@
 #8979 - Talak Desert
-
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = sub_saharan
+discovered_by = maghrebi_tech
+is_city = no

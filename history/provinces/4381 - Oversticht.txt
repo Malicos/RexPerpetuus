@@ -1,24 +1,21 @@
 #3059 - Overijssel
 #Region - Low Countries
 #Area - Frisia
-
 owner = UTR
-controller = UTR 
+controller = UTR
 capital = "Zwolle"
 is_city = yes
 culture = hannoverian
 religion = catholic
 hre = yes
 base_tax = 4
-base_production = 4			#Zwolle's golden age came in the 15th century. Between 1402 and 1450, the city's Gross Regional Product multiplied by about six.
-trade_goods = livestock			#Good trade good for here confirmed
-base_manpower = 2 
+base_production = 4#Zwolle's golden age came in the 15th century. Between 1402 and 1450, the city's Gross Regional Product multiplied by about six.
+trade_goods = livestock#Good trade good for here confirmed
+base_manpower = 2
 add_core = UTR
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

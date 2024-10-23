@@ -1,24 +1,19 @@
- 
 # ex 8601
-
-owner = ARU # BT; DLI
-controller = ARU # BT; DLI
-add_core = ARU # BT; DLI
-culture = batak # BT; sumatran
+owner = ARU# BT; DLI
+controller = ARU# BT; DLI
+add_core = ARU# BT; DLI
+culture = batak# BT; sumatran
 religion = sunni
-capital = "Asahan" # BT; "Deli"
+capital = "Asahan"# BT; "Deli"
 is_city = yes
-hre = no
 base_tax = 4
 base_production = 4
-base_manpower = 2 # BT; 3
+base_manpower = 2# BT; 3
 trade_goods = spices
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

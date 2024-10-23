@@ -1,7 +1,9 @@
 #8967 - Chotr el Hodna
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = sub_saharan
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech

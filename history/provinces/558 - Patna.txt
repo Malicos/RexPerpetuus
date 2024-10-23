@@ -1,13 +1,11 @@
 #558 - Patna
-
 owner = BIH
 controller = BIH
 add_core = BIH
 culture = bihari
 religion = hinduism
 capital = "Patna"
-trade_goods = bt_trade_good_books #And Silk and Saltpetre
-hre = no
+trade_goods = bt_trade_good_books#And Silk and Saltpetre
 base_tax = 10
 base_production = 10
 base_manpower = 4
@@ -15,12 +13,10 @@ is_city = yes
 add_brahmins_or_church_effect = yes
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech 
+discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 add_province_triggered_modifier = buddhist_bodh_gaya
 extra_cost = 16

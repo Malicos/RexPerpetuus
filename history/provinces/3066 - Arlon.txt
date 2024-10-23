@@ -1,24 +1,21 @@
 #3066 - Arlon
 #Region - Low Countries
 #Area - Liege
-
 owner = LUX
 controller = LUX
 add_core = LUX
 capital = "Arlon"
 is_city = yes
 culture = luxembourgish_culture
-religion = catholic 
+religion = catholic
 hre = yes
 base_tax = 2
 base_production = 3
-trade_goods = bt_trade_good_apiculture			#Niki's suggestion based on representing Belgian wine, as well as the local observance of the typically German Maitrank. A nice idea, though Belgian had minimal wine production by the 1400s due to Little Ice Age, and would not start planting again until the 20th century & new cold-weather-resistant viticulture. As this is a very  rural, sparsely populated (for Low Countries) province, I'm going with apiculture
+trade_goods = bt_trade_good_apiculture#Niki's suggestion based on representing Belgian wine, as well as the local observance of the typically German Maitrank. A nice idea, though Belgian had minimal wine production by the 1400s due to Little Ice Age, and would not start planting again until the 20th century & new cold-weather-resistant viticulture. As this is a very  rural, sparsely populated (for Low Countries) province, I'm going with apiculture
 base_manpower = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

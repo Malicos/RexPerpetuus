@@ -1,5 +1,4 @@
 #573 - Cachar
-
 owner = KAC
 controller = KAC
 add_core = KAC
@@ -7,14 +6,12 @@ culture = chin
 religion = hinduism
 capital = "Maibang"
 trade_goods = grain
-hre = no
-base_tax = 2  
-base_production = 2 
-base_manpower = 2 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
-
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
+discovered_by = iranian_tech

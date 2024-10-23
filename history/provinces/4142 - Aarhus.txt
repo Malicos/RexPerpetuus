@@ -1,23 +1,19 @@
 #Eastern Jutland, incl. Aarhus, Djursland and Randers.
-
 owner = DAN
 controller = DAN
 add_core = DAN
 add_core = JUT
 culture = danish
 religion = catholic
-hre = no
-base_tax = 3 #1342 had no impact so lowered 1 step. 
-base_production = 3 #1342 had no impact so lowered 1 step.
-trade_goods = grain			#Naval supplies in vanilla, but Jutland is flat and arable
-base_manpower = 3 
+base_tax = 3#1342 had no impact so lowered 1 step. 
+base_production = 3#1342 had no impact so lowered 1 step.
+trade_goods = grain#Naval supplies in vanilla, but Jutland is flat and arable
+base_manpower = 3
 capital = "Aarhus"
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

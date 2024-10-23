@@ -1,22 +1,19 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = FLA
 controller = FLA
 add_core = FLA
-culture = flemish			#Picard speaking today, like Lille, but I'm finding little to clearly argue anything for the 15th century, much less the 13th. Lille, though, appears to have been Germanic, id est Flemish, in the period, so I'm saying Tournai was, too. Note the town does appear to have had a French identity in the period. This is not at odds with a Germanic identity in the period.
+culture = flemish#Picard speaking today, like Lille, but I'm finding little to clearly argue anything for the 15th century, much less the 13th. Lille, though, appears to have been Germanic, id est Flemish, in the period, so I'm saying Tournai was, too. Note the town does appear to have had a French identity in the period. This is not at odds with a Germanic identity in the period.
 religion = catholic
 capital = "Tournai"
 base_tax = 8
 base_production = 8
 base_manpower = 5
-trade_goods = cloth			#major cloth centre
+trade_goods = cloth#major cloth centre
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

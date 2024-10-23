@@ -1,6 +1,4 @@
- 
 # 4741 - Halle
-
 owner = HLE
 controller = HLE
 add_core = HLE
@@ -9,15 +7,13 @@ religion = catholic
 hre = yes
 base_tax = 4
 base_production = 4
-trade_goods = salt #the name "Halle" apparently might even derive from the Indo-Germanic word for salt
+trade_goods = salt#the name "Halle" apparently might even derive from the Indo-Germanic word for salt
 base_manpower = 2
 capital = "Halle"
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

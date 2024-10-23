@@ -1,25 +1,21 @@
 #372 - Tyrone
 #Region - Ireland
 #Area - Ulster
-
 owner = TYR
 controller = TYR
 add_core = TYR
 culture = irish
 religion = catholic
-hre = no
 base_tax = 4
 base_production = 3
 base_manpower = 2
 trade_goods = livestock
-capital = "Dún Geanainn" #"Doire"
+capital = "Dún Geanainn"#"Doire"
 is_city = yes
-fort_15th = yes #Dungannon, Geanann's fort. Castle on the hill, etc. etc. Tyrone is a major power in the region and so this place deserves a fort.
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

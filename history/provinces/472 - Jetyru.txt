@@ -1,5 +1,4 @@
 #472 - Zhetyru
-
 owner = WTH
 controller = WTH
 add_core = WTH
@@ -7,12 +6,10 @@ culture = manghit
 religion = sunni
 capital = "Zhetyru"
 trade_goods = naval_supplies
-hre = no
-base_tax = 4  
+base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
@@ -20,3 +17,4 @@ discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = KZH
 discovered_by = GOL
+discovered_by = rhomanian_tech

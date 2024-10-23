@@ -1,9 +1,7 @@
 #BT's Western Europe Overhaul in 12.0
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = PIC
 controller = PIC
 add_core = PIC
@@ -16,11 +14,9 @@ base_manpower = 3
 trade_goods = fish
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

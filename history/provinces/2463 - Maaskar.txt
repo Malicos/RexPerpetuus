@@ -1,23 +1,20 @@
- 
 # - Kasdir
-
 culture = maghrebi_arabic
 religion = ibadi
-capital = "Naâma"			#Kasdir in vanilla, which is probably a better option objectively, but information is sparse and Naama is more important later.
+capital = "Naâma"#Kasdir in vanilla, which is probably a better option objectively, but information is sparse and Naama is more important later.
 trade_goods = wool
-hre = no
-base_tax = 1  
-base_production = 1 
-base_manpower = 1 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = no
 tribal_owner = GUI
-native_size = 50 #x by 100. Each gives 0.25 goods produced and determines size of uprising
-native_ferocity = 4 #Each gives 0.05 tactics to uprising
-native_hostileness = 9 #Each gives 1% chance of uprising a month
-
-
-
-discovered_by = muslim
+native_size = 50#x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4#Each gives 0.05 tactics to uprising
+native_hostileness = 9#Each gives 1% chance of uprising a month
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+

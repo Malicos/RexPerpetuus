@@ -1,28 +1,23 @@
 #245 - Hull
 #Region - Britain
 #Area - Yorkshire
-
 owner = JRV
 controller = JRV
 add_core = JRV
 culture = denlegian
 religion = catholic
-hre = no
 base_tax = 10
 base_production = 8
-trade_goods = cloth #JP suggests grain, but textile industries makes me want to keep cloth here.
+trade_goods = cloth#JP suggests grain, but textile industries makes me want to keep cloth here.
 base_manpower = 6
-capital = "Jorvik" #Major centre during Danelaw period, was made capital of England after Norwegian conquest.
+capital = "Jorvik"#Major centre during Danelaw period, was made capital of England after Norwegian conquest.
 is_city = yes
-fort_15th = yes	#Royal residence of Hardradas, built shortly after Harald's victory and expanded over centuries.
-
 extra_cost = 30
 center_of_trade = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

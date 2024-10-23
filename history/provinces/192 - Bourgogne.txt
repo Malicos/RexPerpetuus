@@ -1,7 +1,6 @@
 # 192 Bourgogne - Principal cities: Dijon
 #Region - France
 #Area - Burgundy
-
 owner = DBG
 controller = DBG
 add_core = DBG
@@ -10,20 +9,16 @@ capital = "Dijon"
 is_city = yes
 culture = burgundian
 religion = catholic
-hre = no
 base_tax = 7
 base_production = 7
 trade_goods = wine
 base_manpower = 4
-fort_15th = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
-
 extra_cost = 10
 center_of_trade = 2
+fort_15th = yes

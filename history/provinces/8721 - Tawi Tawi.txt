@@ -1,5 +1,4 @@
 #Tawi Tawi
-
 owner = SUL
 controller = SUL
 add_core = SUL
@@ -7,19 +6,17 @@ culture = danao
 religion = hinduism
 capital = "Bongao"
 trade_goods = unknown
-hre = no
 base_tax = 2
 base_production = 3
 base_manpower = 2
 native_size = 50
 native_ferocity = 7
 native_hostileness = 9
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
+is_city = no

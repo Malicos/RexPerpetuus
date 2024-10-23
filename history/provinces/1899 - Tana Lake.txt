@@ -1,7 +1,5 @@
-
 discovered_by = east_african
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
-
+discovered_by = indian

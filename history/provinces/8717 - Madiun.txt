@@ -1,5 +1,4 @@
 #Madiun
-
 owner = SGH
 controller = SGH
 add_core = SGH
@@ -9,17 +8,12 @@ culture = javanese
 religion = hinduism
 capital = "Madiun"
 trade_goods = grain
-hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
-
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

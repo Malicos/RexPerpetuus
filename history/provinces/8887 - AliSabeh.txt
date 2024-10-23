@@ -1,37 +1,26 @@
 #8887 - Ali Sabeh
 #Area - 
 #Region - Horn of Africa
-
 #Core Details
 capital = "Ali Sabeh"
 is_city = yes
 owner = IFT
 controller = IFT
-
 #Demographics
 culture = dir
 religion = sunni
-
 #Development and Trade
 base_tax = 2
 base_production = 1
 base_manpower = 2
-trade_goods = livestock #Travellers stopped by the city for water on the way to Zelia, climate is semi-arid but is not important for anything else. Going livestock because of this. //Dub
-
+trade_goods = livestock#Travellers stopped by the city for water on the way to Zelia, climate is semi-arid but is not important for anything else. Going livestock because of this. //Dub
 #Cores and Occupation (Alphabetical after current)
 add_core = IFT
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-#Histories 
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech

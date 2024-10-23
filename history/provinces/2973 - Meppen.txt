@@ -1,8 +1,6 @@
- 
 # Meppen
 #Region - Germany
 #Area - Westphalia
-
 owner = EFR
 controller = EFR
 add_core = EFR
@@ -12,14 +10,12 @@ trade_goods = livestock
 capital = "Meppen"
 base_tax = 4
 base_production = 4
-base_manpower = 3 
+base_manpower = 3
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

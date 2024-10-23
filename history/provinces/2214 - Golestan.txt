@@ -1,5 +1,4 @@
 #2214 - Golestan
-
 owner = KHJ
 controller = KHJ
 add_core = KHJ
@@ -8,16 +7,15 @@ culture = horasanli
 religion = sunni
 capital = "Asatarabad"
 trade_goods = tea
-hre = no
-base_tax = 4  
+base_tax = 4
 base_production = 4
 base_manpower = 6
 is_city = yes
-fort_15th = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = indian
+discovered_by = rhomanian_tech
+fort_15th = yes

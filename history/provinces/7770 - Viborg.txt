@@ -1,23 +1,19 @@
 #BT reoverhaul
-
 owner = JUT
 controller = JUT
 add_core = JUT
 culture = danish
 religion = catholic
 capital = "Viborg"
-base_tax = 3 
-base_production = 3 
-base_manpower = 3 
+base_tax = 3
+base_production = 3
+base_manpower = 3
 trade_goods = grain
 is_city = yes
-hre = no
-fort_15th = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
+fort_15th = yes

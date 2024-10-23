@@ -1,25 +1,19 @@
- 
 # ex 8621
-
 owner = SGH
 controller = SGH
 add_core = SGH
-add_core = SRK # BT
+add_core = SRK# BT
 culture = javanese
 religion = hinduism
-capital = "Surakarta" # BT; "Pajang"
+capital = "Surakarta"# BT; "Pajang"
 is_city = yes
-hre = no
-base_tax = 6 # BT; 2
-base_production = 6 # BT; 2
-base_manpower = 3 # BT; 2
-trade_goods = spices # BT; grain
-
+base_tax = 6# BT; 2
+base_production = 6# BT; 2
+base_manpower = 3# BT; 2
+trade_goods = spices# BT; grain
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

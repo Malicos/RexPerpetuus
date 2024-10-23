@@ -1,11 +1,9 @@
 # 1866 - Namur
 #Region - Low Countries
 #Area - Wallonia
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -17,14 +15,12 @@ religion = catholic
 hre = yes
 base_tax = 6
 base_production = 6
-trade_goods = iron			#A mjor industrial centre of the Ardennes. Metal working, mining, industrial furnaces, machining, etc.
-base_manpower = 3 
-fort_15th = yes
-
+trade_goods = iron#A mjor industrial centre of the Ardennes. Metal working, mining, industrial furnaces, machining, etc.
+base_manpower = 3
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

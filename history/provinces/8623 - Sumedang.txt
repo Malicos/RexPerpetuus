@@ -1,5 +1,4 @@
 #4618 - Sumedang
-
 owner = GLU
 controller = GLU
 add_core = GLU
@@ -8,30 +7,19 @@ culture = sundanese
 religion = hinduism
 capital = "Sumedang"
 trade_goods = grain
-hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1482.1.1 = {
-	owner = CRB
+1482.1.1 = { 
 	controller = CRB
-	remove_core = GLU
 }
-
-1483.1.1 = { unrest = 0 }
 1509.1.1 = { discovered_by = POR }
 1550.1.1 = { religion = sunni }
-1613.1.1 = { discovered_by = NED } # The Dutch arrived
-1631.1.1 = { unrest = 5 } # Rebellion against Mataram rule
-1636.1.1 = { unrest = 0 }
+1613.1.1 = { discovered_by = NED }

@@ -1,29 +1,27 @@
- 
 #4323 - Farafreh
-
 owner = DAK
 controller = DAK
 add_core = DAK
-capital = "Al Qasr"			#Or Mut
+capital = "Al Qasr"#Or Mut
 culture = oasis_arabic
 religion = sunni
 trade_goods = bt_trade_good_fruit
-hre = no
-base_tax = 2 
-base_production = 1 
-base_manpower = 1 
+base_tax = 2
+base_production = 1
+base_manpower = 1
 is_city = yes
 add_local_autonomy = 50
-
-add_permanent_province_modifier = {
-    name = btpl_oasis
-    duration = -1
+add_permanent_province_modifier = { 
+	name = btpl_oasis
+	duration = -1
 }
-fort_15th = yes 
-
-
 discovered_by = western
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = east_african
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech
+fort_15th = yes

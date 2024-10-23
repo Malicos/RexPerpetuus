@@ -3,8 +3,6 @@ discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = nomad_group
-
-
-
- #Ferdinand Verbiest
-1682.1.1 = { discovered_by = SPA } #Ferdinand Verbiest
+#Ferdinand Verbiest
+1682.1.1 = { discovered_by = SPA }
+discovered_by = iranian_tech

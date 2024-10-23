@@ -1,6 +1,4 @@
- 
 #360 - Qena
-
 owner = KEM
 controller = KEM
 add_core = KEM
@@ -8,20 +6,20 @@ culture = sahidic
 religion = coptic
 capital = "Qus"
 trade_goods = glass
-hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
-fort_15th = yes 
-
 discovered_by = western
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
 discovered_by = east_african
-
 extra_cost = 10
-
 center_of_trade = 2
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+
+discovered_by = iranian_tech
+fort_15th = yes

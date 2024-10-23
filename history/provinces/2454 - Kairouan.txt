@@ -1,6 +1,4 @@
- 
 # - El Kef
-
 owner = KAI
 controller = KAI
 add_core = KAI
@@ -8,14 +6,16 @@ culture = tunisian
 religion = sunni
 capital = "Al-Qayrawan"
 trade_goods = bt_trade_good_books
-hre = no
 base_tax = 4
 base_production = 4
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-fort_15th = yes #El Kef fortifications
-
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+
+discovered_by = iranian_tech
+fort_15th = yes

@@ -1,5 +1,4 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -10,14 +9,12 @@ capital = "Dinant"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = copper			#Per Niki, silverware, pottery, and candlesticks, so he says glass. A fine idea, but Dinant was a centre of bronze and brass working dating back to antiquity and the Meuse valley is very metal-rich but currently has no copper, so going with copper for now.
+trade_goods = copper#Per Niki, silverware, pottery, and candlesticks, so he says glass. A fine idea, but Dinant was a centre of bronze and brass working dating back to antiquity and the Meuse valley is very metal-rich but currently has no copper, so going with copper for now.
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

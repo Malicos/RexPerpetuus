@@ -1,6 +1,4 @@
- 
 # 4742 - Goslar
-
 owner = HAN
 controller = HAN
 add_core = HAN
@@ -10,15 +8,13 @@ religion = catholic
 hre = yes
 base_tax = 4
 base_production = 4
-trade_goods = copper #Why in the heck did they consider a UNESCO heritage site, whose main ore production was non-ferrous metals such as zinc, copper and lead, an iron mine? Fixing in BT. //Dub #iron #Rammelsberg
+trade_goods = copper#Why in the heck did they consider a UNESCO heritage site, whose main ore production was non-ferrous metals such as zinc, copper and lead, an iron mine? Fixing in BT. //Dub #iron #Rammelsberg
 base_manpower = 3
 capital = "Goslar"
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

@@ -1,11 +1,10 @@
 #3062 - Gravenhage
 #Region - Low Countries
 #Area - Netherlands
-
 owner = HOL
 controller = HOL
 add_core = HOL
-capital = "Den Haag"			#The Hague became the de jure capital of Holland around the late 13th century, and the de facto capital by 1358, though it remained barely a village, and not have city rights until 1806. Though technically a capital, it was clearly subservient to the major centres of Brabant and Flanders, and very much in the shadow of nearby Leiden, which was considerably larger until circa late 1700s.
+capital = "Den Haag"#The Hague became the de jure capital of Holland around the late 13th century, and the de facto capital by 1358, though it remained barely a village, and not have city rights until 1806. Though technically a capital, it was clearly subservient to the major centres of Brabant and Flanders, and very much in the shadow of nearby Leiden, which was considerably larger until circa late 1700s.
 is_city = yes
 culture = dutch
 religion = catholic
@@ -14,12 +13,10 @@ base_tax = 5
 base_production = 5
 trade_goods = cloth
 base_manpower = 3
-fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

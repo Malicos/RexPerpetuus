@@ -1,38 +1,28 @@
 #9097 - Qaminis
 #Area - 
 #Region - Maghreb
-
 #Core Details
 capital = "Qaminis"
 is_city = yes
 owner = CYR
 controller = CYR
-
 #Demographics
 culture = libyan_arabic
 religion = hafizi
-
 #Development and Trade
 base_tax = 2
 base_production = 1
 base_manpower = 1
 trade_goods = fish
-
 #Cores and Occupation (Alphabetical after current)
 add_core = CYR
 add_core = BRQ
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = western
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = eastern
-
-#Histories
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech

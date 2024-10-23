@@ -1,36 +1,32 @@
-
 tribal_owner = HWA
-capital = "Wadi Allaqi"	
+capital = "Wadi Allaqi"
 culture = beja
 religion = sunni
 trade_goods = livestock
-hre = no
-base_tax = 1 
-base_production = 1 
-base_manpower = 1 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = no
-native_size = 10 #x by 100. Each gives 0.25 goods produced and determines size of uprising
-native_ferocity = 4 #Each gives 0.05 tactics to uprising
-native_hostileness = 9 #Each gives 1% chance of uprising a month
-
-
-discovered_by = muslim
+native_size = 10#x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4#Each gives 0.05 tactics to uprising
+native_hostileness = 9#Each gives 1% chance of uprising a month
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = east_african
-
-1444.11.16 = { #BT Performance Start Begin
-	owner = MAM
+1444.11.16 = { 
 	controller = MAM
 	add_core = MAM
 }
-1444.11.18 = { #BT Performance Start End
-	owner = BEJ
+1444.11.18 = { 
 	controller = BEJ
 }
-1517.1.1 = {
-	add_core = TUR 
-} # Mamluks fall to Ottomans, Ottomans do not advance up Nile
-1540.1.1 = {
-	owner = TUR
-	controller = TUR 
-} #Ottomans occupy Lower Nubia
+1517.1.1 = { 
+	add_core = TUR
+}
+1540.1.1 = { 
+	controller = TUR
+}
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech

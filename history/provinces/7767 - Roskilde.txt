@@ -1,5 +1,4 @@
 #BT reoverhaul
-
 owner = DAN
 controller = DAN
 add_core = DAN
@@ -12,13 +11,10 @@ base_production = 6
 base_manpower = 4
 trade_goods = grain
 is_city = yes
-hre = no
-fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

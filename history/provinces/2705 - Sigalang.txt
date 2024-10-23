@@ -1,25 +1,20 @@
- 
 # renamed in 1.31
-
 owner = BEI
 controller = BEI
 add_core = BEI
-add_core = SWK # BT
+add_core = SWK# BT
 culture = bidayuh
 religion = hinduism
-capital = "Santubong" # BT; "Sigalang"
+capital = "Santubong"# BT; "Sigalang"
 is_city = yes
-hre = no
-base_tax = 7 # BT; 3
-base_production = 7 # BT; 3
-base_manpower = 4 # BT; 2
+base_tax = 7# BT; 3
+base_production = 7# BT; 3
+base_manpower = 4# BT; 2
 trade_goods = gems
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

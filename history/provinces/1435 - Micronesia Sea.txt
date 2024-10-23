@@ -1,4 +1,3 @@
-
 discovered_by = ATJ
 discovered_by = MAJ
 discovered_by = MKS
@@ -32,19 +31,17 @@ discovered_by = BNE
 discovered_by = BMA
 discovered_by = SBW
 discovered_by = SPR
-discovered_by = BLI
+
 discovered_by = GLU
 discovered_by = JMB
 discovered_by = IDG
 discovered_by = IDP
 discovered_by = ARU
 discovered_by = BRS
-discovered_by = ATJ
+
 discovered_by = PAH
 discovered_by = KEL
 discovered_by = IFG
 discovered_by = DPT
-
-
 1521.1.1 = { discovered_by = SPA }
-
+discovered_by = polynesian_tech

@@ -1,5 +1,4 @@
 #2035 - Urmia
-
 owner = SMR
 controller = SMR
 add_core = SMR
@@ -7,12 +6,10 @@ culture = kurdish
 religion = sunni
 capital = "Urmiyeh"
 trade_goods = bt_trade_good_fruit
-hre = no
-base_tax = 4 
-base_production = 4 
-base_manpower = 2 
+base_tax = 4
+base_production = 4
+base_manpower = 2
 is_city = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
@@ -21,3 +18,4 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = nomad_group
+discovered_by = indian

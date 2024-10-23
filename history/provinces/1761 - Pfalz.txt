@@ -1,9 +1,6 @@
- 
 #1761 - Pfalz
 #Region - Germany
 #Area - Palatinate
-
-
 owner = WOR
 controller = WOR
 add_core = WOR
@@ -17,11 +14,9 @@ base_manpower = 4
 is_city = yes
 hre = yes
 center_of_trade = 1
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

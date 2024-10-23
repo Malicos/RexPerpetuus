@@ -1,6 +1,4 @@
- 
 # ex 8568
-
 owner = SUK
 controller = SUK
 add_core = SUK
@@ -8,17 +6,14 @@ culture = lavo
 religion = buddhism
 capital = "Suphanburi"
 is_city = yes
-hre = no
-base_tax = 5 # BT; 3
-base_production = 5 # BT; 3
-base_manpower = 2 # BT; 3
+base_tax = 5# BT; 3
+base_production = 5# BT; 3
+base_manpower = 2# BT; 3
 trade_goods = grain
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

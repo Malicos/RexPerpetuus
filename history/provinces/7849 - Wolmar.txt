@@ -1,18 +1,15 @@
 #BT Scandinavia and Baltics reoverhaul
-
 owner = LVA
 controller = LVA
 add_core = LVA
 culture = latgalian
 religion = catholic
-capital = "Valmiera"			#DE Wolmar
+capital = "Valmiera"#DE Wolmar
 base_tax = 2
 base_production = 2
 base_manpower = 1
 trade_goods = naval_supplies
 is_city = yes
-hre = no
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -21,3 +18,5 @@ discovered_by = QAS
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech

@@ -1,22 +1,18 @@
 #2779 - Afder
-
 culture = darood
 religion = sunni
 capital = "El Kere"
-trade_goods = salt #JP's research in conjunction with Endreyas
-hre = no
+trade_goods = salt#JP's research in conjunction with Endreyas
 is_city = no
 tribal_owner = OGD
-base_tax = 1  
+base_tax = 1
 base_production = 1
-base_manpower = 1 
-
+base_manpower = 1
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-
 1550.1.1 = { discovered_by = TUR }
-1650.1.1 = { owner = AJU controller = AJU is_city = yes }
-1730.1.1 = { owner = GLE controller = GLE }
+1650.1.1 = { controller = AJU is_city = yes }
+1730.1.1 = { controller = GLE }
+

@@ -1,26 +1,22 @@
 #BT's Western Europe Overhaul in 12.0
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = AUT
 controller = AUT
 add_core = AUT
 culture = hessian
 religion = catholic
-capital = "Sarreguemines"			#Niki wanted Bitche
+capital = "Sarreguemines"#Niki wanted Bitche
 base_tax = 3
 base_production = 3
 base_manpower = 2
 trade_goods = glass
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

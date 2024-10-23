@@ -1,5 +1,4 @@
 # 2133 - Dege
-
 owner = KAM
 controller = KAM
 add_core = KAM
@@ -7,9 +6,8 @@ culture = tibetan
 religion = vajrayana
 capital = "Dege"
 trade_goods = wool
-hre = no
-base_tax = 2  
-base_production = 2 
+base_tax = 2
+base_production = 2
 base_manpower = 4
 is_city = yes
 discovered_by = chinese
@@ -19,3 +17,4 @@ discovered_by = nomad_group
 discovered_by = indian
 extra_cost = 8
 center_of_trade = 1
+discovered_by = iranian_tech

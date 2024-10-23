@@ -1,49 +1,31 @@
 #8156 - The Merse
 #Area - Eastern Lowlands
 #Region - Britain
-
 #Core Details
 capital = "Greenlaw"
 is_city = yes
 owner = JRV
 controller = JRV
-
 #Demographics
 culture = denlegian
 religion = catholic
-
 #Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 1
 trade_goods = fish
-
 #Cores and Occupation (Alphabetical after current)
 add_core = JRV
 add_core = BNC
-
 #Other Political
-hre = no
 add_local_autonomy = 25
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 #Histories
-
-1067.1.1 = {
-    add_province_modifier = {
-        name = bernician_autonomy
-        duration = -1
-    }
-}

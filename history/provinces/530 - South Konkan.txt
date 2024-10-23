@@ -1,5 +1,4 @@
 #530 - South Konkan (Dabhol, Rajapur, up to and including Bankot)
-
 owner = GOA
 controller = GOA
 add_core = GOA
@@ -7,12 +6,10 @@ culture = marathi
 religion = hinduism
 capital = "Dabhol"
 trade_goods = spices
-hre = no
-base_tax = 8 
+base_tax = 8
 base_production = 8
 base_manpower = 4
 is_city = yes
-
 add_local_autonomy = 75
 discovered_by = indian
 discovered_by = nomad_group
@@ -21,6 +18,5 @@ discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = east_african

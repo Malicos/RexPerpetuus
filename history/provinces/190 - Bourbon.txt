@@ -1,7 +1,6 @@
 # 190 Bourbon - Principal cities: Moulins
 #Region - France
 #Area - Massif Central
-
 owner = BOU
 controller = BOU
 add_core = BOU
@@ -9,16 +8,13 @@ capital = "Moulins"
 is_city = yes
 culture = auvergnat_culture
 religion = catholic
-hre = no
 base_tax = 3
 base_production = 3
 trade_goods = iron
-base_manpower = 2 
-
+base_manpower = 2
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

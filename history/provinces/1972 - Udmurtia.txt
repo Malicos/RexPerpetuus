@@ -1,5 +1,4 @@
 #1972 - Udmurtia
-
 owner = BOL
 controller = BOL
 add_core = BOL
@@ -7,12 +6,10 @@ capital = "Malmyzh"
 culture = uralic
 religion = siberian_pagan_reformed
 trade_goods = iron
-hre = no
-base_tax = 4  
-base_production = 4 
-base_manpower = 2 
+base_tax = 4
+base_production = 4
+base_manpower = 2
 is_city = yes
-
 discovered_by = SIB
 discovered_by = NOG
 discovered_by = GOL
@@ -21,3 +18,4 @@ discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = nomad_group
 discovered_by = ottoman
+discovered_by = iranian_tech

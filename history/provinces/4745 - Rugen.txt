@@ -1,6 +1,4 @@
- 
 #BT Scandinavia and Baltics reoverhaul
-
 owner = DAN
 controller = DAN
 add_core = DAN
@@ -8,16 +6,13 @@ add_core = RUG
 culture = polabian_culture
 religion = catholic
 capital = "Rugard"
-base_tax = 3 
-base_production = 3 
-base_manpower = 2 
+base_tax = 3
+base_production = 3
+base_manpower = 2
 trade_goods = fish
 is_city = yes
-hre = no
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

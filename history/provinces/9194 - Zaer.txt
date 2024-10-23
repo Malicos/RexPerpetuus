@@ -1,37 +1,27 @@
 #9194 - Zaer
 #Area - 
 #Region - North Africa
-
 #Core Details
 capital = "Tifelt"
 is_city = yes
 owner = FEZ
 controller = FEZ
-
 #Demographics
 culture = moroccan
 religion = sunni
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 2
 trade_goods = grain
-
 #Cores and Occupation (Alphabetical after current)
 add_core = FEZ
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = western
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
 
-#Histories 
+discovered_by = iranian_tech

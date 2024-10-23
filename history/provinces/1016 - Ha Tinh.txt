@@ -1,5 +1,4 @@
 #1016 - Ha Tinh
-
 owner = DAI
 controller = DAI
 add_core = DAI
@@ -8,17 +7,14 @@ culture = vietnamese
 religion = mahayana
 capital = "Ha Tinh"
 trade_goods = fish
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

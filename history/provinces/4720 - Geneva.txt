@@ -1,8 +1,6 @@
- 
 #4720 - Geneva
 #Region - Germany
 #Area - Romandie
-
 owner = BUR
 controller = BUR
 add_core = BUR
@@ -11,17 +9,14 @@ culture = high_burgundian
 religion = catholic
 capital = "Geneva"
 trade_goods = cloth
-hre = no
 base_tax = 7
-base_production = 7			#Lowered dev generally in Romandie, became richer later as part of die Sweiz, but at this point was just provincial Savoy
-base_manpower = 6 			#(JP) Reverted for vanilla balance 
+base_production = 7#Lowered dev generally in Romandie, became richer later as part of die Sweiz, but at this point was just provincial Savoy
+base_manpower = 6#(JP) Reverted for vanilla balance 
 is_city = yes
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,21 +1,19 @@
 #2216 - Semnan
-
 owner = TEH
 controller = TEH
 add_core = TEH
 culture = persian
 religion = sunni
 capital = "Semnan"
-trade_goods = gems #Turquoise
-hre = no
-base_tax = 4  
+trade_goods = gems#Turquoise
+base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
+discovered_by = rhomanian_tech

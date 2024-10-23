@@ -1,5 +1,4 @@
 #2060 - Upper Doab
-
 owner = MAM
 controller = MAM
 add_core = MAM
@@ -8,7 +7,6 @@ culture = kanauji
 religion = hinduism
 capital = "Meerut"
 trade_goods = cloth
-hre = no
 base_tax = 12
 base_production = 12
 base_manpower = 8
@@ -16,9 +14,7 @@ is_city = yes
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech 
+discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group

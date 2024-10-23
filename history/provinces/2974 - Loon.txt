@@ -1,7 +1,6 @@
 # Loon
 #Region - Low Countries
 #Area - Liege
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -12,15 +11,11 @@ religion = catholic
 hre = yes
 base_tax = 5
 base_production = 5
-trade_goods = grain			#appears to be mostly outside the industrial Ardennes region economically, but also outside the Flemish cloth, dutch livestock, and german light industry zones, too... so... one of the toughest provinces to pick a trade good for. Going with grain on Math's suggestion, as it seems as good as anything and Low Countries have little grain currently.
+trade_goods = grain#appears to be mostly outside the industrial Ardennes region economically, but also outside the Flemish cloth, dutch livestock, and german light industry zones, too... so... one of the toughest provinces to pick a trade good for. Going with grain on Math's suggestion, as it seems as good as anything and Low Countries have little grain currently.
 base_manpower = 2
-
-
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

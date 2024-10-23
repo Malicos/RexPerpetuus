@@ -1,7 +1,6 @@
 # 90 Vlaanderen - Principal cities: Brugge
 #Region - Low Countries
 #Area - Flanders
-
 owner = FLA
 controller = FLA
 add_core = FLA
@@ -10,18 +9,15 @@ capital = "Bruges"
 culture = flemish
 religion = catholic
 hre = yes
-base_tax = 17					#Population in 1450 roughly 125k-200k. For comparison, Paris was 200k-250k, Milan 125k-175k, Venice 100k-150k, and Florence 70k-120k. What is normally considered the largest city in the world at the time, Beijing, was circa 215k-675k, depending on how one measures city limits, while Vijayanagara was likely circa 240k to 400k.
+base_tax = 17#Population in 1450 roughly 125k-200k. For comparison, Paris was 200k-250k, Milan 125k-175k, Venice 100k-150k, and Florence 70k-120k. What is normally considered the largest city in the world at the time, Beijing, was circa 215k-675k, depending on how one measures city limits, while Vijayanagara was likely circa 240k to 400k.
 base_production = 17
 base_manpower = 8
 trade_goods = cloth
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
-
 extra_cost = 50
 center_of_trade = 3

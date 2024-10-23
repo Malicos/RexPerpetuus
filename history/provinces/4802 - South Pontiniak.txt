@@ -1,26 +1,21 @@
- 
 # ex 8557
 # vanilla uncolonised
 # and then owned in 1444.1.1
-
 owner = VIP
 controller = VIP
 add_core = VIP
 culture = bidayuh
 religion = hinduism
-capital = "Mandor" # BT; "Pontiniak"
+capital = "Mandor"# BT; "Pontiniak"
 is_city = yes
-hre = no
-base_tax = 2 # BT; 5
-base_production = 2 # BT; 5
-base_manpower = 1 # BT; 3
+base_tax = 2# BT; 5
+base_production = 2# BT; 5
+base_manpower = 1# BT; 3
 trade_goods = gold
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

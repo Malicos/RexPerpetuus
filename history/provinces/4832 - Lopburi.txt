@@ -1,25 +1,20 @@
- 
 # filename fixed
 # ex 8567
-
 owner = LAV
 controller = LAV
 add_core = LAV
 culture = lavo
 religion = buddhism
-capital = "Lawo" # BT; "Lopburi"
+capital = "Lawo"# BT; "Lopburi"
 is_city = yes
-hre = no
-base_tax = 7 # BT; 3
-base_production = 7 # BT; 3
+base_tax = 7# BT; 3
+base_production = 7# BT; 3
 base_manpower = 3
-trade_goods = chinaware # BT; grain
-
+trade_goods = chinaware# BT; grain
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech # 1.31
-discovered_by = ottoman # 1.31
+discovered_by = iranian_tech# 1.31
+discovered_by = ottoman

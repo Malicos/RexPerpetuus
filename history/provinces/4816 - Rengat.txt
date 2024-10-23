@@ -1,27 +1,21 @@
- 
 # now: Indragiri Hulu
 # new in 1.31
 # in vanilla in a wrong place
-
 owner = SVJ
 controller = SVJ
 add_core = SVJ
 add_core = IDG
-culture = malayan # ??? BT; sumatran
+culture = malayan# ??? BT; sumatran
 religion = vajrayana
 capital = "Rengat"
 is_city = yes
-hre = no
-base_tax = 2 # ???
-base_production = 2 # ???
-base_manpower = 3 # ???
-trade_goods = fish # ???
-
+base_tax = 2# ???
+base_production = 2# ???
+base_manpower = 3# ???
+trade_goods = fish# ???
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

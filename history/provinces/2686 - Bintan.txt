@@ -1,5 +1,4 @@
 #2686 - Bintan
-
 owner = SVJ
 controller = SVJ
 add_core = SVJ
@@ -9,17 +8,14 @@ culture = dambro
 religion = sunni
 capital = "Tanjung Pinang"
 trade_goods = naval_supplies
-hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

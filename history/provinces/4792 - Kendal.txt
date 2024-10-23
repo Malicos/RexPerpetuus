@@ -1,25 +1,19 @@
- 
 # ex 8620
-
 owner = SGH
 controller = SGH
 add_core = SGH
-add_core = YGK # BT; DMK
+add_core = YGK# BT; DMK
 culture = javanese
 religion = hinduism
-capital = "Yogyakarta" # BT; "Kendal"
+capital = "Yogyakarta"# BT; "Kendal"
 is_city = yes
-hre = no
-base_tax = 3 # BT; 2
-base_production = 3 # BT; 2
+base_tax = 3# BT; 2
+base_production = 3# BT; 2
 base_manpower = 2
-trade_goods = spices # BT; naval_supplies
-
+trade_goods = spices# BT; naval_supplies
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

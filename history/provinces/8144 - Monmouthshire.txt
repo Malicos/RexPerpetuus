@@ -1,41 +1,29 @@
 #8144 - Monmouth
 #Area - Deheubarth
 #Region - Britain
-
 #Core Details
 capital = "Caerwent"
 is_city = yes
 owner = GWE
 controller = GWE
-
 #Demographics
 culture = welsh
 religion = catholic
-
 #Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 1
 trade_goods = wool
-
 #Cores and Occupation (Alphabetical after current)
 add_core = GWE
-
 #Other Political
-hre = no
 add_local_autonomy = 75
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories

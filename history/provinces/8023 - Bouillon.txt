@@ -1,5 +1,4 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -10,14 +9,12 @@ capital = "Bouillon"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = naval_supplies			#Niki identifies this as a major urban centre with a mint and a lot of wealth, but everything I'm finding is suggesting Walloonia and Luxembourg were generally poorer until the late mid-late 1800s, so I'm going with a more modest trade good than his suggested cloth.... At the core of the Ardennes, but not known for mining as much as some, naval supplies seems perfect.
+trade_goods = naval_supplies#Niki identifies this as a major urban centre with a mint and a lot of wealth, but everything I'm finding is suggesting Walloonia and Luxembourg were generally poorer until the late mid-late 1800s, so I'm going with a more modest trade good than his suggested cloth.... At the core of the Ardennes, but not known for mining as much as some, naval supplies seems perfect.
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

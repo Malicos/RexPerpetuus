@@ -1,7 +1,6 @@
 #3057 - Ommelanden
 #Region - Low Countries
 #Area - Frisia
-
 owner = ESD
 controller = ESD
 add_core = ESD
@@ -12,13 +11,11 @@ religion = catholic
 hre = yes
 base_tax = 2
 base_production = 3
-trade_goods = wool			#Apparently a northern centre of cloth working, but calling it wool to compromise livestock and flemish-type cloth 
-base_manpower = 2 
-
+trade_goods = wool#Apparently a northern centre of cloth working, but calling it wool to compromise livestock and flemish-type cloth 
+base_manpower = 2
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

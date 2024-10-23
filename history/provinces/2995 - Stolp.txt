@@ -1,26 +1,21 @@
- 
 # - Stolp
 #Region - Germany
 #Area - Hinterpommern
-
 owner = PME
 controller = PME
 add_core = PME
 culture = kashubian_culture
 religion = catholic
-hre = no
 base_tax = 3
 base_production = 3
 trade_goods = gems
-base_manpower = 2 
+base_manpower = 2
 capital = "Stolp"
 is_city = yes
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

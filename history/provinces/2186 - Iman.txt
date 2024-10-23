@@ -1,5 +1,4 @@
 # 2186 - Iman
-
 owner = MJZ
 controller = MJZ
 add_core = MJZ
@@ -8,13 +7,10 @@ culture = manchu
 religion = tengri_pagan_reformed
 capital = "Iman"
 trade_goods = fish
-hre = no
-base_tax = 6 
+base_tax = 6
 base_production = 4
 base_manpower = 4
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group

@@ -1,7 +1,6 @@
 # 186 Champagne - Principal cities: Reims
 #Region - France
 #Area - Seine
-
 owner = CHP
 controller = CHP
 add_core = CHP
@@ -9,16 +8,13 @@ capital = "Reims"
 is_city = yes
 culture = cosmopolitan_french
 religion = catholic
-hre = no
 base_tax = 7
 base_production = 7
 trade_goods = wine
 base_manpower = 4
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

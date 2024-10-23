@@ -1,26 +1,19 @@
- 
 # ex 8556
-
 owner = LAV
 controller = LAV
 add_core = LAV
 culture = lavo
 religion = buddhism
-capital = "Thonburi" # BT; "Bangkok"
+capital = "Thonburi"# BT; "Bangkok"
 is_city = yes
-hre = no
-base_tax = 5 # BT; 3
-base_production = 5 # BT; 3
+base_tax = 5# BT; 3
+base_production = 5# BT; 3
 base_manpower = 3
-trade_goods = naval_supplies # BT; grain
-#center_of_trade = 1
-#extra_cost = 8
-
+trade_goods = naval_supplies#extra_cost = 8
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

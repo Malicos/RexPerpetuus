@@ -1,24 +1,20 @@
 #4374 - Dorset
 #Region - Britain
 #Area - Wessex
-
 owner = WSX
 controller = WSX
 add_core = WSX
 culture = sexish_culture
 religion = catholic
-hre = no
 base_tax = 3
 base_production = 2
-trade_goods = bt_trade_good_masonry #Portland Quarry would suit it better if we add Stone. The Stone was used for St Pauls Cathedral, Buckingham Palace and even the New York UN Building. Was livestock
+trade_goods = bt_trade_good_masonry#Portland Quarry would suit it better if we add Stone. The Stone was used for St Pauls Cathedral, Buckingham Palace and even the New York UN Building. Was livestock
 base_manpower = 2
 capital = "Dorchester"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

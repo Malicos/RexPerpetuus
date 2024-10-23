@@ -1,21 +1,21 @@
- 
 #336 - Tlemcen
-
 owner = ORN
 controller = ORN
-add_core = ORN 
+add_core = ORN
 culture = berber
 religion = ibadi
 capital = "Tlemcen"
 trade_goods = bt_trade_good_books
-hre = no
-base_tax = 4 
-base_production = 4			#Peaked at around 40k people in the early 1300s. 
+base_tax = 4
+base_production = 4#Peaked at around 40k people in the early 1300s. 
 base_manpower = 4
 is_city = yes
-fort_15th = yes #Tlemcen Fortifications, site of many long sieges - Controls this area.
-
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+
+discovered_by = iranian_tech
+fort_15th = yes

@@ -1,6 +1,4 @@
- 
 # ex 8718
-
 owner = SGH
 controller = SGH
 add_core = SGH
@@ -9,17 +7,12 @@ culture = javanese
 religion = hinduism
 capital = "Malang"
 is_city = yes
-hre = no
-base_tax = 3 # BT; 2
-base_production = 3 # BT; 2
+base_tax = 3# BT; 2
+base_production = 3# BT; 2
 base_manpower = 2
-trade_goods = incense # BT; fish
-
+trade_goods = incense# BT; fish
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

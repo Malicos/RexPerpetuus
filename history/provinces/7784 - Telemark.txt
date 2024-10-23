@@ -1,18 +1,16 @@
 #BT Scandinavia and Baltics reoverhaul
-
 owner = NOR
 controller = NOR
 add_core = NOR
 culture = norwegian
 religion = catholic
-capital = "Dalen"			#It was explicitly noted that this region contained no cities, and was essentially a rural region of isolated communities dating back to the Viking Age, so I basically just picked a city. Sometime I'd like to do more research & find a proper settlement, though, however small, that dates to the period.
+capital = "Dalen"#It was explicitly noted that this region contained no cities, and was essentially a rural region of isolated communities dating back to the Viking Age, so I basically just picked a city. Sometime I'd like to do more research & find a proper settlement, though, however small, that dates to the period.
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = copper
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech

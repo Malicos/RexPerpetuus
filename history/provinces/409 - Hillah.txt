@@ -1,18 +1,15 @@
 #409 - Karbala
-
 owner = KBL
 controller = KBL
 add_core = KBL
 culture = al_iraqiya_arabic
 religion = shiite
 capital = "Karbala"
-trade_goods = bt_trade_good_books #(JP) Shia Religious Centre
-hre = no
+trade_goods = bt_trade_good_books#(JP) Shia Religious Centre
 base_tax = 3
 base_production = 2
 base_manpower = 2
 is_city = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
@@ -20,5 +17,5 @@ discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = east_african
-
 add_province_triggered_modifier = religious_center
+discovered_by = rhomanian_tech

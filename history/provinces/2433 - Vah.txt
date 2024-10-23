@@ -1,5 +1,4 @@
 #2433 - Kemerovo
-
 owner = SIB
 controller = SIB
 add_core = SIB
@@ -7,11 +6,11 @@ culture = siberian
 religion = tengri_pagan_reformed
 capital = "Vah"
 trade_goods = fur
-hre = no
-base_tax = 4  
+base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
 add_core = SIB
 discovered_by = nomad_group
 unrest = 15
+discovered_by = siberian_group

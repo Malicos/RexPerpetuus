@@ -1,17 +1,14 @@
 #Dusun
-
 culture = ngaju
 religion = hinduism
 capital = "Dusun"
 trade_goods = unknown
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
 native_size = 20
 native_ferocity = 7
 native_hostileness = 5
-
 discovered_by = ATJ
 discovered_by = MAJ
 discovered_by = MKS
@@ -57,5 +54,6 @@ discovered_by = PAH
 discovered_by = KEL
 discovered_by = IFG
 discovered_by = DPT
-
 1521.1.1 = { discovered_by = POR }
+discovered_by = southeast_asian_group
+is_city = no

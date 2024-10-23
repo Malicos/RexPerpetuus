@@ -1,5 +1,4 @@
 #4490 - Ghazipur
-
 owner = BIH
 controller = BIH
 add_core = BIH
@@ -7,7 +6,6 @@ culture = bihari
 religion = hinduism
 capital = "Ghazipur"
 trade_goods = cloth
-hre = no
 base_tax = 6
 base_production = 6
 base_manpower = 4
@@ -15,9 +13,7 @@ is_city = yes
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group

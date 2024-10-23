@@ -1,5 +1,4 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = HOL
 controller = HOL
 add_core = HOL
@@ -9,17 +8,14 @@ capital = "Rotterdam"
 base_tax = 4
 base_production = 4
 base_manpower = 3
-trade_goods = bt_trade_good_beer			#HQ of some of Europe's major breweries and major beer trade centre. Also note VOC had some main offices here as well as in Amsterdam.
+trade_goods = bt_trade_good_beer#HQ of some of Europe's major breweries and major beer trade centre. Also note VOC had some main offices here as well as in Amsterdam.
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 8
 center_of_trade = 1

@@ -1,12 +1,10 @@
 # ex 8570
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
 1535.1.1 = { discovered_by = POR }
+is_city = no

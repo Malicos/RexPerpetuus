@@ -1,11 +1,9 @@
 # 93 Liège - Principal cities: Liège & Namur
 #Region - Low Countries
 #Area - Liege
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -15,19 +13,16 @@ is_city = yes
 culture = wallonian
 religion = catholic
 hre = yes
-base_tax = 7 
+base_tax = 7
 base_production = 7
-trade_goods = iron			#Major steel-producing centre. One of the, if not the single, largest in the world by our end date. Large metal deposits of various types in the area.
+trade_goods = iron#Major steel-producing centre. One of the, if not the single, largest in the world by our end date. Large metal deposits of various types in the area.
 base_manpower = 4
-fort_15th = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
-
 extra_cost = 8
 center_of_trade = 1
+fort_15th = yes

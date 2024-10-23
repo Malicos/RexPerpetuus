@@ -1,26 +1,22 @@
 #3077 - Parthenay
 #Region - France
 #Area - Guyenne
-
 owner = NRM
-controller = NRM 
+controller = NRM
 add_core = NRM
 add_core = BRI
 capital = "Thouars"
 is_city = yes
 culture = poitevin_culture
 religion = catholic
-hre = no
 base_tax = 2
 base_production = 3
 trade_goods = wine
-base_manpower = 2 
+base_manpower = 2
 add_local_autonomy = 10
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

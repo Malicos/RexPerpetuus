@@ -1,24 +1,20 @@
 #3036 - Ceredigion
 #Region - Britain
 #Area - Deheubarth
-
 owner = CRD
 controller = CRD
 add_core = CRD
 culture = welsh
 religion = catholic
-hre = no
 base_tax = 1
 base_production = 2
 trade_goods = copper
 base_manpower = 1
-capital = "Aberteifi" #"Aberystwyth"
-is_city = yes 
-
+capital = "Aberteifi"#"Aberystwyth"
+is_city = yes
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

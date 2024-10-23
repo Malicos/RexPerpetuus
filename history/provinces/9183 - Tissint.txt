@@ -1,38 +1,25 @@
 #9183 - Tissint
 #Area - 
 #Region - North Africa
-
 #Core Details
 capital = "Tissint"
 is_city = yes
 owner = OUA
 controller = OUA
-
 #Demographics
 culture = shilha
 religion = sunni
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = livestock
-
 #Cores and Occupation (Alphabetical after current)
 add_core = OUA
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = western
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
-discovered_by = eastern
 discovered_by = sub_saharan
+discovered_by = maghrebi_tech
 
-#Histories 

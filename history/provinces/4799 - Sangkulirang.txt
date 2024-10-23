@@ -1,24 +1,18 @@
- 
 # ex 8626
-
 owner = TKN
 controller = TKN
 add_core = TKN
 culture = kayan
 religion = hinduism
-capital = "Sambaliung" # BT; "Sangkulirang"
+capital = "Sambaliung"# BT; "Sangkulirang"
 is_city = yes
-hre = no
-base_tax = 4 # BT; 3
-base_production = 4 # BT; 3
+base_tax = 4# BT; 3
+base_production = 4# BT; 3
 base_manpower = 2
 trade_goods = fish
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

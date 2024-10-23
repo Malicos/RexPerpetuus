@@ -1,24 +1,21 @@
 #3057 - Ommelanden
 #Region - Low Countries
 #Area - Frisia
-
 owner = EFR
 controller = EFR
 add_core = EFR
-capital = "Delfzijl"			#Founded 26 years after 1291 start.... but whatever
+capital = "Delfzijl"#Founded 26 years after 1291 start.... but whatever
 is_city = yes
 culture = frisian
 religion = catholic
 hre = yes
-base_tax = 2			#Though only founded in 1317, it was founded as a main port for Groningen, so decently rich for the area
+base_tax = 2#Though only founded in 1317, it was founded as a main port for Groningen, so decently rich for the area
 base_production = 3
-trade_goods = fish 
+trade_goods = fish
 base_manpower = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

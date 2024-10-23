@@ -1,37 +1,24 @@
 #8896 - Kunama
 #Area - 
 #Region - Horn of Africa
-
 #Core Details
 capital = "Magalo"
 is_city = no
 owner = KNM
 controller = KNM
-
 #Demographics
 culture = kunama
 religion = shamanism
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = grain
-
 #Cores and Occupation (Alphabetical after current)
 add_core = KNM
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-#Histories 
+discovered_by = muslim_tech

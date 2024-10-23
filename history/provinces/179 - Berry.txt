@@ -1,7 +1,6 @@
 # 179 Berry
 #Region - France
 #Area - Loire
-
 owner = FRA
 controller = FRA
 add_core = FRA
@@ -9,19 +8,15 @@ capital = "Bourges"
 is_city = yes
 culture = cosmopolitan_french
 religion = catholic
-hre = no
 base_tax = 5
 base_production = 5
 trade_goods = glass
 base_manpower = 3
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 8
 center_of_trade = 1

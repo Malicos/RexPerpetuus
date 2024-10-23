@@ -1,8 +1,6 @@
- 
 #57 - Brunswick
 #Region - Germany
 #Area - Lower Saxony
-
 owner = BRU
 controller = BRU
 add_core = BRU
@@ -13,15 +11,13 @@ trade_goods = iron
 hre = yes
 base_tax = 6
 base_production = 5
-base_manpower = 4 
+base_manpower = 4
 is_city = yes
-fort_15th = yes #Strong City Fortifications
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

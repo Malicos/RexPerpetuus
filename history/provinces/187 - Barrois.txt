@@ -1,7 +1,6 @@
 # 187 Barrois - Principal cities: Verdun
 #Region - France
 #Area - Lorraine
-
 owner = BAR
 controller = BAR
 add_core = BAR
@@ -14,11 +13,9 @@ base_tax = 5
 base_production = 5
 trade_goods = cloth
 base_manpower = 3
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,1 +1,2 @@
 1568.1.1 = { discovered_by = SPA }
+discovered_by = polynesian_tech

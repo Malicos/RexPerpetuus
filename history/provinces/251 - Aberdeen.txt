@@ -1,27 +1,23 @@
 #251 - Aberdeen
 #Region - Britain
 #Area - Grampians
-
 owner = SCO
 controller = SCO
 add_core = SCO
 culture = highland_scottish
 religion = catholic
-hre = no
 base_tax = 3
 base_production = 3
-trade_goods = livestock #Angus cattle. Although there is the University of Aberdeen (King's College) here as well.
+trade_goods = livestock#Angus cattle. Although there is the University of Aberdeen (King's College) here as well.
 base_manpower = 1
 capital = "Aberdeen"
 is_city = yes
-fort_15th = yes #Clear fortifications and was heavily fortified until the 1770s apparently.
-
 extra_cost = 8
 center_of_trade = 1
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

@@ -1,5 +1,4 @@
 #567 - Sylhet
-
 owner = KAC
 controller = KAC
 add_core = KAC
@@ -7,14 +6,12 @@ culture = bengali
 religion = hinduism
 capital = "Sylhet"
 trade_goods = cotton
-hre = no
 base_tax = 6
 base_production = 6
 base_manpower = 4
 is_city = yes
-
 discovered_by = indian
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = iranian_tech

@@ -1,42 +1,28 @@
 #8128 - Warwick
 #Area - Midlands
 #Region - Britain
-
 #Core Details
 capital = "Warwick"
 is_city = yes
 owner = MID
 controller = MID
-
 #Demographics
 culture = english
 religion = catholic
-
 #Development and Trade
 base_tax = 3
 base_production = 2
 base_manpower = 2
 trade_goods = cloth
 latent_trade_goods = { coal }
-
 #Cores and Occupation (Alphabetical after current)
 add_core = MID
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
 center_of_trade = 1
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories

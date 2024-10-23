@@ -1,5 +1,4 @@
 #Eastern Jutland, incl. Vejle, Skanderborg, Kolding, and Fredericia.
-
 owner = SLW
 controller = SLW
 add_core = SLW
@@ -13,12 +12,9 @@ trade_goods = livestock
 base_manpower = 3
 capital = "Kolding"
 is_city = yes
-
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

@@ -1,32 +1,26 @@
 #241 - Glamorgan
 #Region - Britain
 #Area - Deheubarth
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = GWE
 controller = GWE
 add_core = GWE
 culture = welsh
 religion = catholic
-hre = no
 base_tax = 2
 base_production = 3
 base_manpower = 2
 trade_goods = iron
 capital = "Cardiff"
 is_city = yes
-
-fort_15th = yes
 center_of_trade = 1
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 add_local_autonomy = 75
+fort_15th = yes

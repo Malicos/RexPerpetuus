@@ -1,5 +1,4 @@
 #4342 - Malamir
-
 owner = JDS
 controller = JDS
 add_core = JDS
@@ -8,10 +7,9 @@ culture = luri
 religion = sunni
 capital = "Malamir"
 trade_goods = wool
-hre = no
-base_tax = 2 
-base_production = 2 
-base_manpower = 2 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
@@ -19,3 +17,4 @@ discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = nomad_group
+discovered_by = rhomanian_tech

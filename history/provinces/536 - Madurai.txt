@@ -1,5 +1,4 @@
 #536 - Madurai
-
 owner = MAD
 controller = MAD
 add_core = MAD
@@ -7,13 +6,11 @@ culture = tamil
 religion = hinduism
 capital = "Madurai"
 trade_goods = silk
-hre = no
 base_tax = 8
 base_production = 8
 base_manpower = 6
 add_brahmins_or_church_effect = yes
 is_city = yes
-
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim_tech
@@ -22,7 +19,6 @@ discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 add_local_autonomy = 25
 extra_cost = 8

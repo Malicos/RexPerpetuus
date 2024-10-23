@@ -1,6 +1,4 @@
- 
 # ex 8605
-
 owner = SMD
 controller = SMD
 add_core = SMD
@@ -8,17 +6,13 @@ culture = batak
 religion = sunni
 capital = "Langkat"
 is_city = yes
-hre = no
-base_tax = 3 # BT; 4
+base_tax = 3# BT; 4
 base_production = 4
-base_manpower = 2 # BT; 3
-trade_goods = tropical_wood # BT; spices
-
+base_manpower = 2# BT; 3
+trade_goods = tropical_wood# BT; spices
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

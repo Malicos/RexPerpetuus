@@ -1,5 +1,4 @@
 #730 - Girin
-
 owner = MJZ
 controller = MJZ
 add_core = MJZ
@@ -7,14 +6,12 @@ culture = manchu
 religion = mahayana
 capital = "Girin"
 trade_goods = grain
-hre = no
 base_tax = 10
 base_production = 10
 base_manpower = 10
 is_city = yes
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
 extra_cost = 16
 center_of_trade = 2

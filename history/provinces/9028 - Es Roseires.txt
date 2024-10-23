@@ -1,34 +1,21 @@
 #9028 - Es Roseires
 #Area - 
 #Region - Nubia
-
 #Core Details
 capital = "Es Roseires"
 is_city = yes
 owner = ALO
 controller = ALO
-
 #Demographics
 culture = alwan
 religion = coptic
-
 #Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 1
 trade_goods = slaves
-
 #Cores and Occupation (Alphabetical after current)
 add_core = ALO
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = east_african
-
-#Histories 
+discovered_by = muslim_tech

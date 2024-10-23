@@ -1,11 +1,9 @@
 # 88 Artois - Principal cities: Arras, Saint-Omer & Lille
 #Region - France
 #Area - Picardy
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = ATS
 controller = ATS
 add_core = ATS
@@ -19,11 +17,9 @@ base_tax = 6
 base_production = 6
 trade_goods = cloth
 base_manpower = 3
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

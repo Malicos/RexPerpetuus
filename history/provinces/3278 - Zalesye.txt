@@ -1,22 +1,20 @@
 #3278 - Zalesye
 #Region - Ruthenia
 #Area - East Dniepr
-
 owner = NZH
 controller = NZH
 add_core = NZH
-culture = rostovian 
+culture = rostovian
 religion = orthodox
-hre = no
 base_tax = 6
 base_production = 6
 trade_goods = wool
-base_manpower = 2 
+base_manpower = 2
 capital = "Gorodets"
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = GOL
 discovered_by = nomad_group
+discovered_by = iranian_tech

@@ -1,7 +1,6 @@
 # 95 Breda - Principal cities: 's Hertogenbosch & Breda
 #Region - Low Countries
 #Area - Brabant
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -12,13 +11,11 @@ religion = catholic
 hre = yes
 base_tax = 5
 base_production = 5
-trade_goods = bt_trade_good_beer			#Major brewing centre, including largest brewery in Netherlands, as well as both historically and currently a centre of non-staple foods and drinks.
+trade_goods = bt_trade_good_beer#Major brewing centre, including largest brewery in Netherlands, as well as both historically and currently a centre of non-staple foods and drinks.
 base_manpower = 3
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,18 +1,15 @@
 #572 - Kotte
-
 owner = CEY
 controller = CEY
 add_core = CEY
 culture = sinhala
 religion = buddhism
 capital = "Kotte"
-trade_goods = spices	#Cinnamon
-hre = no
+trade_goods = spices#Cinnamon
 base_tax = 6
 base_production = 4
 base_manpower = 4
 is_city = yes
-
 discovered_by = east_african
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
@@ -20,7 +17,6 @@ discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 extra_cost = 8
 center_of_trade = 1

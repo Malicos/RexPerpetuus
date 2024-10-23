@@ -1,25 +1,21 @@
- 
 #4716 - Coburg
 #Region - Germany
 #Area - Thuringia
-
 owner = COB
-controller = COB 
+controller = COB
 add_core = COB
 culture = franconian
 religion = catholic
 capital = "Coburg"
 trade_goods = naval_supplies
 hre = yes
-base_tax = 5  
-base_production = 4 
-base_manpower = 3 
+base_tax = 5
+base_production = 4
+base_manpower = 3
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

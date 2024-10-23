@@ -1,23 +1,19 @@
 #603 - Nakhon Thung Yai
-
 owner = LAV
 controller = LAV
 add_core = LAV
 culture = lavo
 religion = buddhism
 capital = "Mueang Thung Yai"
-trade_goods = gems #Rubies etc
-hre = no
+trade_goods = gems#Rubies etc
 base_tax = 2
 base_production = 2
-base_manpower = 1 #Little to no settlements here until the Thonburi period 
+base_manpower = 1#Little to no settlements here until the Thonburi period 
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

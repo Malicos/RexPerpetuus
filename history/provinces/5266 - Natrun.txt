@@ -1,14 +1,13 @@
- 
 #New Province
-
 capital = "Bir Natrum"
 #culture = beja
 #religion = shamanism #Fetishism
 trade_goods = unknown
-hre = no
-base_tax = 1 
-base_production = 1 
-base_manpower = 1 
-native_size = 0 #x by 100. Each gives 0.25 goods produced and determines size of uprising
-native_ferocity = 0 #Each gives 0.05 tactics to uprising
-native_hostileness = 0 #Each gives 1% chance of uprising a month
+base_tax = 1
+base_production = 1
+base_manpower = 1
+native_size = 0#x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 0#Each gives 0.05 tactics to uprising
+native_hostileness = 0#Each gives 1% chance of uprising a month
+discovered_by = maghrebi_tech
+is_city = no

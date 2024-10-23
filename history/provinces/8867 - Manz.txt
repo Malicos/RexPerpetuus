@@ -1,37 +1,24 @@
 #8867 - Manz
 #Area - 
 #Region - Horn of Africa
-
 #Core Details
 capital = "Meshala Maryam"
 is_city = yes
 owner = IFT
 controller = IFT
-
 #Demographics
 culture = amhara
 religion = coptic
-
 #Development and Trade
 base_tax = 2
 base_production = 1
 base_manpower = 1
-trade_goods = ivory #Found a claim that Ivory was exported from Aliyu Amba, which *appears* to be in this province, along the routes to Tadjoura in the 19th century. But that's about it. //Dub
-
+trade_goods = ivory#Found a claim that Ivory was exported from Aliyu Amba, which *appears* to be in this province, along the routes to Tadjoura in the 19th century. But that's about it. //Dub
 #Cores and Occupation (Alphabetical after current)
 add_core = IFT
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-#Histories 
+discovered_by = muslim_tech

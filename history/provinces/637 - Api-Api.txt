@@ -1,7 +1,5 @@
- 
 # ex 637 - Jesselton
 # renamed in 1.31
-
 owner = SUL
 controller = SUL
 add_core = SUL
@@ -9,17 +7,14 @@ culture = kadazan
 religion = sunni
 capital = "Api-Api"
 is_city = yes
-hre = no
-base_tax = 6 # BT; 3
-base_production = 6 # BT; 3
+base_tax = 6# BT; 3
+base_production = 6# BT; 3
 base_manpower = 3
 trade_goods = spices
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

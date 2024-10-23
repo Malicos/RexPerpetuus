@@ -1,24 +1,19 @@
 #2059 - Kalpi
-
 owner = KLP
 controller = KLP
 add_core = KLP
 culture = vindhyan
 religion = hinduism
 capital = "Kalpi"
-trade_goods = cloth #Carpets
-hre = no
+trade_goods = cloth#Carpets
 base_tax = 8
 base_production = 8
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group

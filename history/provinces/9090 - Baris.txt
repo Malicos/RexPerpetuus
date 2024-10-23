@@ -1,38 +1,28 @@
 #9090 - Baris
 #Area - 
 #Region - Egypt
-
 #Core Details
 capital = "Baris"
 is_city = yes
 owner = KRG
 controller = KRG
-
 #Demographics
 culture = oasis_arabic
 religion = sunni
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = unknown
-
 #Cores and Occupation (Alphabetical after current)
 add_core = KRG
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = east_african
-
-#Histories
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech

@@ -1,8 +1,4 @@
 #2740 - Borneo
-
-
-
-
 discovered_by = ATJ
 discovered_by = MAJ
 discovered_by = MKS
@@ -48,3 +44,5 @@ discovered_by = PAH
 discovered_by = KEL
 discovered_by = IFG
 discovered_by = DPT
+discovered_by = southeast_asian_group
+is_city = no

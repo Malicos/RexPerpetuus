@@ -1,25 +1,21 @@
 #3009 - Ossory
 #Region - Ireland
 #Area - Leinster
-
 owner = WEX
 controller = WEX
 add_core = WEX
 culture = gallwegian
 religion = catholic
-hre = no
-base_tax = 4  
-base_production = 3 
-base_manpower = 3 
+base_tax = 4
+base_production = 3
+base_manpower = 3
 trade_goods = grain
-capital = "Wexford" #"Weiseforthe"
+capital = "Wexford"#"Weiseforthe"
 is_city = yes
-
-fort_15th = yes
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

@@ -1,22 +1,22 @@
- 
 #340 - Constantine
-
 owner = AGO
-controller = AGO 
+controller = AGO
 add_core = AGO
 culture = atins
 religion = catholic
 capital = "Annaba"
 trade_goods = bt_trade_good_fruit
-hre = no
-base_tax = 4 
+base_tax = 4
 base_production = 4
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
 center_of_trade = 1
-fort_15th = yes
-
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+
+discovered_by = iranian_tech
+fort_15th = yes

@@ -1,5 +1,4 @@
 #518 - Chittor
-
 owner = MER
 controller = MER
 add_core = MER
@@ -7,20 +6,17 @@ culture = rajput
 religion = hinduism
 capital = "Chittor"
 trade_goods = grain
-hre = no
-base_tax = 4 
+base_tax = 4
 base_production = 4
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-fort_15th = yes
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 extra_cost = 8
 center_of_trade = 1
+fort_15th = yes

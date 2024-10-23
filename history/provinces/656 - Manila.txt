@@ -1,20 +1,18 @@
 #656 - Manila
-
 culture = filipino
 religion = anito
 capital = "Manila"
-trade_goods = paper			#CR had chinaware #Imported via Tondo, exported to the Archipelago from Manila. A solid choice, but chinawear monopoly in China is important, plus Abaca, also known as Manila hemp, seemed relevant. Especially considering how - difficult it is to find paper provinces.
-hre = no
+trade_goods = paper#CR had chinaware #Imported via Tondo, exported to the Archipelago from Manila. A solid choice, but chinawear monopoly in China is important, plus Abaca, also known as Manila hemp, seemed relevant. Especially considering how - difficult it is to find paper provinces.
 base_tax = 5
 base_production = 5
 base_manpower = 2
 owner = MNA
 controller = MNA
 add_core = MNA
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
-
 extra_cost = 8
 center_of_trade = 1
+discovered_by = polynesian_tech
+is_city = no

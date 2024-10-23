@@ -1,26 +1,22 @@
 # 1879 - Alençon
 #Region - France
 #Area - Normandy
-
 owner = NRM
-controller = NRM 
+controller = NRM
 add_core = NRM
 add_core = ALE
 capital = "Alençon"
 is_city = yes
 culture = normand
 religion = catholic
-hre = no
 base_tax = 6
 base_production = 6
 trade_goods = grain
 base_manpower = 3
-fort_15th = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
+fort_15th = yes

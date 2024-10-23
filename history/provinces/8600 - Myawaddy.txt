@@ -1,23 +1,19 @@
 #4595 - Myawaddy
-
 owner = PEG
 controller = PEG
 add_core = PEG
 culture = karen
 religion = buddhism
 capital = "Myawaddy"
-trade_goods = livestock #Crocodiles
-hre = no
-base_tax = 2 
+trade_goods = livestock#Crocodiles
+base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

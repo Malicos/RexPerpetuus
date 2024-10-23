@@ -1,20 +1,16 @@
 #726 - Liaodong
-
 owner = MJZ
 controller = MJZ
 add_core = MJZ
 culture = manchu
 religion = mahayana
 capital = "Shenyang"
-trade_goods = gems #Youyan Jade
-hre = no
-base_tax = 10 
+trade_goods = gems#Youyan Jade
+base_tax = 10
 base_production = 10
 base_manpower = 4
 is_city = yes
-fort_15th = yes #the Nine Garrisons
-
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
+fort_15th = yes

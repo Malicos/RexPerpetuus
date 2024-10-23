@@ -1,5 +1,4 @@
 #610 - Thanh Hoa
-
 owner = DAI
 controller = DAI
 add_core = DAI
@@ -8,18 +7,15 @@ culture = vietnamese
 religion = mahayana
 capital = "Thanh Hoa"
 trade_goods = grain
-hre = no
-base_tax = 5  
+base_tax = 5
 base_production = 5
 base_manpower = 4
-fort_15th = yes #Than Hoa Citadel
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
+fort_15th = yes

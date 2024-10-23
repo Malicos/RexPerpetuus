@@ -1,5 +1,4 @@
 #1066 - Altai
-
 owner = URK
 controller = URK
 add_core = URK
@@ -7,12 +6,11 @@ culture = uriankhai
 religion = vajrayana
 capital = "Altai Uriankhai"
 trade_goods = fur
-hre = no
-base_tax = 2  
-base_production = 2 
-base_manpower = 2 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
-
 discovered_by = nomad_group
 discovered_by = OIR
 discovered_by = KHA
+discovered_by = siberian_group

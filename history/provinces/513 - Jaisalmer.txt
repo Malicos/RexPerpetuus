@@ -1,5 +1,4 @@
 #513 - Jaisalmer
-
 owner = JSL
 controller = JSL
 add_core = JSL
@@ -7,12 +6,10 @@ culture = rajput
 religion = sunni
 capital = "Jaisalmer"
 trade_goods = wool
-hre = no
-base_tax = 2  
-base_production = 2 
-base_manpower = 2 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
-
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim_tech
@@ -20,5 +17,4 @@ discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group

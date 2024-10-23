@@ -1,8 +1,6 @@
- 
 #74 - Baden
 #Region - Germany
 #Area - Upper Rhineland
-
 owner = BAD
 controller = BAD
 add_core = BAD
@@ -15,11 +13,9 @@ base_production = 3
 base_manpower = 3
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

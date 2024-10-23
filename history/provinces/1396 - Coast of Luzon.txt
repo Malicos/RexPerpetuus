@@ -1,9 +1,5 @@
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
-
-
-
-
 1521.1.1 = { discovered_by = SPA }
-
+discovered_by = polynesian_tech

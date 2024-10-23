@@ -1,16 +1,7 @@
-
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
-
-
-
-
-
 1421.1.1 = { discovered_by = MNG }
 1498.3.15 = { discovered_by = POR }
 1550.1.1 = { discovered_by = TUR }
-

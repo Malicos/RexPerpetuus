@@ -1,20 +1,15 @@
 #4193 - Oshima
-
 owner = AKT
 controller = AKT
 add_core = AKT
-
 culture = togoku
 religion = shinto
 capital = "Katsuyama"
 trade_goods = fish
-hre = no
-base_tax = 2  
-base_production = 2 
-base_manpower = 2 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
-
-
 discovered_by = JAP
 discovered_by = AMA
 discovered_by = ASA
@@ -56,3 +51,5 @@ discovered_by = TKI
 discovered_by = UTN
 discovered_by = TTI
 discovered_by = ASK
+discovered_by = japanese_group
+discovered_by = siberian_group

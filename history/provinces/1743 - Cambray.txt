@@ -1,7 +1,6 @@
 # 1743 Cambray
 #Region - Low Countries
 #Area - Wallonia
-
 owner = CMB
 controller = CMB
 add_core = CMB
@@ -12,13 +11,11 @@ religion = catholic
 hre = yes
 base_tax = 7
 base_production = 7
-trade_goods = cloth			#Early on focused on both agriculture as well as weaving, but weaving, more specifically batiste (a great speaciality of the city), would eventually win out and dominate trade.
-base_manpower = 4 
-
+trade_goods = cloth#Early on focused on both agriculture as well as weaving, but weaving, more specifically batiste (a great speaciality of the city), would eventually win out and dominate trade.
+base_manpower = 4
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,18 +1,15 @@
 #BT Scandinavia and Baltics reoverhaul
-
 owner = EST
 controller = EST
 add_core = EST
 culture = estonian
 religion = catholic
-capital = "Haapsalu"			#DE Hapsal
+capital = "Haapsalu"#DE Hapsal
 base_tax = 2
 base_production = 1
 base_manpower = 1
 trade_goods = naval_supplies
 is_city = yes
-hre = no
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -21,3 +18,5 @@ discovered_by = QAS
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech

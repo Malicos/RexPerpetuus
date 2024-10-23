@@ -1,5 +1,4 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = BAR
 controller = BAR
 add_core = BAR
@@ -9,14 +8,12 @@ capital = "Toul"
 base_tax = 7
 base_production = 7
 base_manpower = 4
-trade_goods = cloth			#one of the first major cloth centres, and also one of the first truly industrialised areas in the world
+trade_goods = cloth#one of the first major cloth centres, and also one of the first truly industrialised areas in the world
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

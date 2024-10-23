@@ -1,6 +1,4 @@
- 
 #2782 - Warsheikh
-
 owner = MDI
 controller = MDI
 add_core = MDI
@@ -8,12 +6,13 @@ culture = hawiye
 religion = sunni
 capital = "Warsheikh"
 is_city = yes
-base_manpower = 4 
-trade_goods = incense #JP's research in conjunction with Endreyas suggests cloth, but I'll go for some incense as there's nothing of that sort in this area.
-hre = no
-base_tax = 4  
+base_manpower = 4
+trade_goods = incense#JP's research in conjunction with Endreyas suggests cloth, but I'll go for some incense as there's nothing of that sort in this area.
+base_tax = 4
 base_production = 4
 discovered_by = east_african
 discovered_by = indian
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+discovered_by = maghrebi_tech
+

@@ -1,35 +1,25 @@
 #8899 - Habab/Nafka
 #Area - 
 #Region - Horn of Africa
-
 #Core Details
 capital = "Nakfa"
 is_city = no
-
 #Demographics
 culture = tigre
 religion = sunni
-
 #Development and Trade
 base_tax = 2
 base_production = 1
 base_manpower = 1
 trade_goods = livestock
-
 #Cores and Occupation (Alphabetical after current)
 #BAG for Bet Asgade if wanted
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-#Histories 
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech

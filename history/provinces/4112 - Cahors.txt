@@ -1,24 +1,20 @@
 #3082 - Quercy
 #Region - France
 #Area - Guyenne
-
 owner = TOU
 controller = TOU
 add_core = TOU
 capital = "Cahors"
 is_city = yes
-culture = auvergnat_culture	#aquitaine vanilla
+culture = auvergnat_culture#aquitaine vanilla
 religion = cathar
-hre = no
-base_tax = 2 
-base_production = 2 
+base_tax = 2
+base_production = 2
 trade_goods = wine
-base_manpower = 2 
-
+base_manpower = 2
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

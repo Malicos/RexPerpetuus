@@ -1,22 +1,20 @@
 #4255 - Pronsk
-
 owner = RYA
-controller = RYA 
+controller = RYA
 add_core = RYA
-add_core = PRS 
-culture = ryazanian #Severian
+add_core = PRS
+culture = ryazanian#Severian
 religion = orthodox
-hre = no
 base_tax = 6
 base_production = 6
-trade_goods = iron   
-base_manpower = 4 
+trade_goods = iron
+base_manpower = 4
 capital = "Pronsk"
 is_city = yes
-fort_15th = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = ottoman
 discovered_by = western
 discovered_by = nomad_group
+discovered_by = iranian_tech
+fort_15th = yes

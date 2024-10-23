@@ -1,26 +1,20 @@
- 
 # ex 8558
 # vanilla uncolonised
 # and then owned in 1444.1.1
-
 owner = STG
 controller = STG
 add_core = STG
 culture = bidayuh
 religion = hinduism
-capital = "Landak" # BT; "Meliau"
+capital = "Landak"# BT; "Meliau"
 is_city = yes
-hre = no
-base_tax = 2 # BT; 3
-base_production = 2 # BT; 3
-base_manpower = 1 # BT; 3
-trade_goods = tropical_wood # BT; grain
-
+base_tax = 2# BT; 3
+base_production = 2# BT; 3
+base_manpower = 1# BT; 3
+trade_goods = tropical_wood# BT; grain
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

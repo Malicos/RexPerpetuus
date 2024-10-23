@@ -1,5 +1,4 @@
 #612 - Khorat
-
 owner = LAV
 controller = LAV
 add_core = LAV
@@ -8,13 +7,12 @@ culture = lavo
 religion = buddhism
 capital = "Nakhon Ratchasima"
 trade_goods = silk
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = muslim_tech

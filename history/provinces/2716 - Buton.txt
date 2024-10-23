@@ -1,23 +1,17 @@
 #2716 - Buton
-
 owner = BTN
 controller = BTN
 culture = butonese
 religion = celebic
 capital = "Buton"
 trade_goods = spices
-hre = no
-base_tax = 4 
+base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
 add_core = BTN
-
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

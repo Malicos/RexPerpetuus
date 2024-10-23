@@ -1,29 +1,21 @@
- 
 # ex 8696
-
 owner = PGR
 controller = PGR
 add_core = PGR
 culture = sumatran
-religion = mahayana # BT; hinduism
-capital = "Tiku" # BT; "Padang"
+religion = mahayana# BT; hinduism
+capital = "Tiku"# BT; "Padang"
 is_city = yes
-hre = no
-base_tax = 3 # BT; 2
-base_production = 3 # BT; 2
+base_tax = 3# BT; 2
+base_production = 3# BT; 2
 base_manpower = 2
 trade_goods = grain
-
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
 1405.1.1 = { discovered_by = MNG }
 1509.1.1 = { discovered_by = POR }
-
 1570.1.1 = { religion = sunni }

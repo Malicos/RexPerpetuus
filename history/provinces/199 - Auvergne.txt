@@ -1,7 +1,6 @@
 # 199 Auvergne - Principal cities: Clermont-Ferrand
 #Region - France
 #Area - Massif Central
-
 owner = AUV
 controller = AUV
 add_core = AUV
@@ -9,19 +8,15 @@ capital = "Clermont"
 is_city = yes
 culture = auvergnat_culture
 religion = cathar
-hre = no
 base_tax = 5
 base_production = 5
 trade_goods = grain
 base_manpower = 3
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
-
 extra_cost = 8
 center_of_trade = 1

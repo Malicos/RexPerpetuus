@@ -1,5 +1,4 @@
 #628 - Surabaya
-
 owner = SGH
 controller = SGH
 add_core = SGH
@@ -8,20 +7,14 @@ culture = javanese
 religion = hinduism
 capital = "Surabaya"
 trade_goods = chinaware
-hre = no
 base_tax = 8
 base_production = 8
 base_manpower = 6
 is_city = yes
-
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
-
 extra_cost = 8
 center_of_trade = 1

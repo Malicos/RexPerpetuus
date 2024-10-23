@@ -1,31 +1,22 @@
- 
 # No previous file for Kawar
-
 is_city = no
-culture = kanuri 
+culture = kanuri
 religion = sunni
 capital = "Kawar"
 trade_goods = unknown
-hre = no
 native_size = 40
 native_ferocity = 4
 native_hostileness = 9
-
-add_permanent_province_modifier = {
-    name = btpl_oasis
-    duration = -1
+add_permanent_province_modifier = { 
+	name = btpl_oasis
+	duration = -1
 }
-
-
-native_size = 20 #x by 100. Each gives 0.25 goods produced and determines size of uprising
-native_ferocity = 4 #Each gives 0.05 tactics to uprising
-native_hostileness = 9 #Each gives 1% chance of uprising a month
+native_size = 20#x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4#Each gives 0.05 tactics to uprising
+native_hostileness = 9#Each gives 1% chance of uprising a month
 discovered_by = sub_saharan
-
-
 1444.1.1 = { add_core = KBO }
-1590.1.1 = {
-	owner = KBO 
-	controller = KBO 
-	add_core = KBO 
-} #Idris Katakarmabe retakes Kanem
+1590.1.1 = { 
+	controller = KBO
+}
+discovered_by = maghrebi_tech

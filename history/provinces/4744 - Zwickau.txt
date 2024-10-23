@@ -1,6 +1,4 @@
- 
 # 4744 - Zwickau
-
 owner = MIC
 controller = MIC
 add_core = MIC
@@ -13,11 +11,9 @@ trade_goods = bt_trade_good_silver
 base_manpower = 2
 capital = "Zwickau"
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

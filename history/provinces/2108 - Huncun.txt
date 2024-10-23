@@ -1,5 +1,4 @@
 # 2108 - Huncun
-
 owner = MJZ
 controller = MJZ
 add_core = MJZ
@@ -7,13 +6,11 @@ culture = manchu
 religion = mahayana
 capital = "Huncun"
 trade_goods = naval_supplies
-hre = no
 base_tax = 10
 base_production = 10
 base_manpower = 10
 is_city = yes
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
 fort_15th = yes

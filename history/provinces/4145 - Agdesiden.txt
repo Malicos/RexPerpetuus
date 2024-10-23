@@ -1,23 +1,18 @@
 #Agdesiden (incl Lister Len, Mandals Len, Nedenes len and Råbyggelaget len)
-
 owner = NOR
 controller = NOR
 add_core = NOR
 culture = norwegian
 religion = catholic
-hre = no
-base_tax = 1 
-base_production = 1 
+base_tax = 1
+base_production = 1
 trade_goods = fur
-base_manpower = 1 
-capital = "Bygland"			#Did this exist in 1300? I'm not sure, but I'll try to circle back and fact check later
+base_manpower = 1
+capital = "Bygland"#Did this exist in 1300? I'm not sure, but I'll try to circle back and fact check later
 is_city = yes
-
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

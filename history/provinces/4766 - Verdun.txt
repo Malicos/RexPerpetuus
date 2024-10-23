@@ -1,7 +1,6 @@
 #4766 - Verdun
 #Region - France
 #Area - Lorraine
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -13,15 +12,12 @@ religion = catholic
 hre = yes
 base_tax = 7
 base_production = 7
-trade_goods = bt_trade_good_fruit			#Dragées, famous for them since the 1200s... calling it fruit due to nuts
+trade_goods = bt_trade_good_fruit#Dragées, famous for them since the 1200s... calling it fruit due to nuts
 base_manpower = 4
-fort_15th = yes
- # La Notre-Dame de Verdun
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

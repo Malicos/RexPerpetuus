@@ -1,35 +1,27 @@
 #9089 - Al Shab
 #Area - 
 #Region - Egypt
-
 #Core Details
 capital = "Al Shab"
 is_city = no
-
 #Demographics
 culture = oasis_arabic
 religion = sunni
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = unknown
-
 #Cores and Occupation (Alphabetical after current)
-
 #Other Political
-hre = no
-native_size = 5 #x by 100. Each gives 0.25 goods produced and determines size of uprising
-native_ferocity = 4 #Each gives 0.05 tactics to uprising
-native_hostileness = 9 #Each gives 1% chance of uprising a month
-
+native_size = 5#x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4#Each gives 0.05 tactics to uprising
+native_hostileness = 9#Each gives 1% chance of uprising a month
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = east_african
-
-#Histories
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech

@@ -1,14 +1,9 @@
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = MCH
 discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
-
-
-
-
-1640.1.1 = { discovered_by = RUS } # Ivan Moskvitin
-
+1640.1.1 = { discovered_by = RUS }
+discovered_by = siberian_group

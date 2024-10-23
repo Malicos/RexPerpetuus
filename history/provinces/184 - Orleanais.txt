@@ -1,7 +1,6 @@
 # 184 Orléannais - Principal cities: Orléans
 #Region - France
 #Area - Loire
-
 owner = FRA
 controller = FRA
 add_core = FRA
@@ -10,20 +9,16 @@ capital = "Orléans"
 is_city = yes
 culture = cosmopolitan_french
 religion = catholic
-hre = no
 base_tax = 11
 base_production = 11
 trade_goods = cloth
 base_manpower = 5
-fort_15th = yes
-
 extra_cost = 20
 center_of_trade = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

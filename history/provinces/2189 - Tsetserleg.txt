@@ -1,9 +1,7 @@
 # 2189 - Tsetserleg
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = BAY
 controller = BAY
 add_core = BAY
@@ -11,12 +9,11 @@ culture = bayads
 religion = tengri_pagan_reformed
 capital = "Tsetserleg"
 trade_goods = fur
-hre = no
-base_tax = 4  
+base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = siberian_group

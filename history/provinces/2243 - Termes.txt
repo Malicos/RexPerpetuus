@@ -1,14 +1,12 @@
 # 2243 - Termes
-
 owner = MAL
 controller = MAL
 add_core = MAL
 is_city = yes
-culture = soninke 
+culture = soninke
 religion = sunni
 capital = "Awdaghust"
 trade_goods = livestock
-hre = no
 base_tax = 2
 base_production = 2
 native_size = 40
@@ -17,21 +15,15 @@ native_hostileness = 9
 base_manpower = 2
 discovered_by = sub_saharan
 add_core = SOF
-
-
-1503.1.1 = {
-	owner = SON
+1503.1.1 = { 
 	controller = SON
-	add_core = SON 
-} #Askiya Muhammad of Songhai seizes control 
-1591.3.15 = {
-	owner = FUL
+	add_core = SON
+}
+1591.3.15 = { 
 	controller = FUL
 	add_core = FUL
-} #Songhai collapse after Tondibi
-1670.1.1 = {
-	owner = SOF
+}
+1670.1.1 = { 
 	controller = SOF
-	add_core = SOF
-	remove_core = FUL 
-} #Massa establish the Massassi dynasty, Bambara expands
+}
+discovered_by = maghrebi_tech

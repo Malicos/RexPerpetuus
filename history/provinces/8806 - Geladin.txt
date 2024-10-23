@@ -1,35 +1,22 @@
 #8806 - Geladin
 #Area - 
 #Region - Horn of Africa
-
 #Core Details
 capital = "Geladin"
 is_city = no
 tribal_owner = MRE
-
 #Demographics
 culture = darood
 religion = sunni
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 2
-trade_goods = livestock #JP's research in conjunction with Endreyas
-
+trade_goods = livestock#JP's research in conjunction with Endreyas
 #Cores and Occupation (Alphabetical after current)
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-#Histories 
+discovered_by = muslim_tech

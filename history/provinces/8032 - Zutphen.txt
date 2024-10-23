@@ -1,5 +1,4 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = ZPH
 controller = ZPH
 add_core = ZPH
@@ -9,14 +8,12 @@ capital = "Zutphen"
 base_tax = 4
 base_production = 4
 base_manpower = 2
-trade_goods = cloth			#Livestock might be best, but too much of that in the immediate area, so going cloth. As good as anything, really. Note the city had minting rights, but almost never excercised them.
+trade_goods = cloth#Livestock might be best, but too much of that in the immediate area, so going cloth. As good as anything, really. Note the city had minting rights, but almost never excercised them.
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

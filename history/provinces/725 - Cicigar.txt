@@ -1,5 +1,4 @@
 #725 - Hinggan
-
 owner = NHX
 controller = NHX
 add_core = NHX
@@ -8,13 +7,11 @@ culture = khamag
 religion = tengri_pagan_reformed
 capital = "Cicigar"
 trade_goods = naval_supplies
-hre = no
-base_tax = 8 
+base_tax = 8
 base_production = 8
 base_manpower = 4
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = siberian_group

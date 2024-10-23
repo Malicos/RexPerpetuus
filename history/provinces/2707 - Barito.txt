@@ -1,23 +1,17 @@
 #2707 - Barito
-
 owner = BNJ
 controller = BNJ
 culture = ngaju
 religion = hinduism
 capital = "Barito"
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
 trade_goods = spices
 add_core = BNJ
-
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

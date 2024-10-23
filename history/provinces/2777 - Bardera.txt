@@ -1,6 +1,4 @@
- 
 #2777 - Bardera
-
 owner = TNN
 controller = TNN
 add_core = TNN
@@ -9,12 +7,11 @@ religion = sunni
 capital = "Baardheere"
 trade_goods = grain
 is_city = yes
-hre = no
-base_tax = 1  
+base_tax = 1
 base_production = 1
-base_manpower = 1 
-
+base_manpower = 1
 discovered_by = east_african
 discovered_by = indian
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+

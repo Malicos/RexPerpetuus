@@ -1,5 +1,4 @@
 #461 - Zhetysu
-
 owner = TGD
 controller = TGD
 add_core = TGD
@@ -7,15 +6,12 @@ culture = telengid
 religion = sunni
 capital = "Almaty"
 trade_goods = cloth
-hre = no
-base_tax = 4  
+base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-
 discovered_by = nomad_group
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = CHG

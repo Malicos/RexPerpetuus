@@ -1,9 +1,7 @@
 #1852 - Tokachi
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = ANU
 controller = ANU
 add_core = ANU
@@ -12,13 +10,9 @@ culture = ainu
 religion = animism
 capital = "Tokachi"
 trade_goods = fish
-hre = no
-base_tax = 2  
-base_production = 2 
-base_manpower = 2 
-
-
-
+base_tax = 2
+base_production = 2
+base_manpower = 2
 discovered_by = JAP
 discovered_by = AMA
 discovered_by = ASA
@@ -60,16 +54,15 @@ discovered_by = TKI
 discovered_by = UTN
 discovered_by = TTI
 discovered_by = ASK
-
-1640.1.1 = { discovered_by = RUS } # Ivan Moskvitin
-
-1679.1.1 = {	
-	owner = TKG
+1640.1.1 = { discovered_by = RUS }
+1679.1.1 = { 
 	controller = TKG
 	culture = togoku
 	religion = shinto
 	trade_goods = fish
-} # Russian & Japanese attemps at colonization
+}
 1704.1.1 = { add_core = TKG }
 1767.1.1 = { add_core = RUS }
-1787.1.1 = { discovered_by = FRA } # Jean-Francois de La Pérouse
+1787.1.1 = { discovered_by = FRA }
+discovered_by = japanese_group
+discovered_by = siberian_group

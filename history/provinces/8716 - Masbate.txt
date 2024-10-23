@@ -1,17 +1,16 @@
 #Masbate
-
 culture = visayan
 religion = anito
 capital = "Masbate"
 trade_goods = unknown
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
 native_size = 50
 native_ferocity = 3
 native_hostileness = 9
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
+discovered_by = polynesian_tech
+is_city = no

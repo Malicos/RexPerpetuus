@@ -1,26 +1,19 @@
 #2683 - Mentawai
-
 culture = sumatran
 religion = sunni
 capital = "Mentawai"
 trade_goods = unknown
-hre = no
-base_tax = 2  
-base_production = 2 
-base_manpower = 1 
+base_tax = 2
+base_production = 2
+base_manpower = 1
 native_size = 5
 native_ferocity = 2
 native_hostileness = 2
-
-
-
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
 1405.1.1 = { discovered_by = MNG }
+is_city = no

@@ -1,25 +1,21 @@
 #374 - Leinster
 #Region - Ireland
 #Area - Leinster
-
 owner = LEI
 controller = LEI
 add_core = LEI
 culture = irish
 religion = catholic
-hre = no
 base_tax = 2
 base_production = 3
 base_manpower = 2
 trade_goods = bt_trade_good_beer
 #trade_goods = copper			#Avoca and Glendalough copper mines, I couldnt decide on trade good, but copper or woods seemed the best bet to me
-capital = "Fearna Mór Maedhóg" #"Cill Mhantáin"
+capital = "Fearna Mór Maedhóg"#"Cill Mhantáin"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

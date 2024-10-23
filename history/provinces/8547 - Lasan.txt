@@ -1,17 +1,14 @@
 #Dusun
-
 culture = kayan
 religion = hinduism
 capital = "Lasan"
 trade_goods = unknown
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
 native_size = 10
 native_ferocity = 9
 native_hostileness = 5
-
 discovered_by = ATJ
 discovered_by = MAJ
 discovered_by = MKS
@@ -57,3 +54,5 @@ discovered_by = PAH
 discovered_by = KEL
 discovered_by = IFG
 discovered_by = DPT
+discovered_by = southeast_asian_group
+is_city = no

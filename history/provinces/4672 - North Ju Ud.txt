@@ -5,13 +5,10 @@ culture = khamag
 religion = tengri_pagan_reformed
 capital = "Josutu"
 trade_goods = livestock
-hre = no
 base_tax = 4
 base_production = 2
 base_manpower = 4
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group

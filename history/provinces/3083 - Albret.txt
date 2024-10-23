@@ -1,7 +1,6 @@
 #3083 - Albret
 #Region - France
 #Area - Pyrenees
-
 owner = GUY
 controller = GUY
 add_core = GUY
@@ -9,16 +8,13 @@ capital = "Albret"
 is_city = yes
 culture = gascon
 religion = catholic
-hre = no
-base_tax = 2 
-base_production = 2 
+base_tax = 2
+base_production = 2
 trade_goods = naval_supplies
 base_manpower = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

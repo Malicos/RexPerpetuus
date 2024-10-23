@@ -1,37 +1,28 @@
 #2761 - Arsi
-
 owner = HDY
 controller = HDY
 add_core = HDY
 add_core = ABN
 add_core = IFT
-culture = hadiya 
+culture = hadiya
 religion = sunni
-capital = "Iteya" #(JP) No clue here
+capital = "Iteya"#(JP) No clue here
 is_city = yes
 base_manpower = 2
 trade_goods = slaves
-hre = no
-base_tax = 1  
+base_tax = 1
 base_production = 1
-
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-
-1533.1.1 = { unrest = 7 } # Raids by Ahmad Gran
-1534.1.1 = {
+1534.1.1 = { 
 	discovered_by = ADA
-	owner = ADA
 	controller = ADA
 	add_core = ADA
-	unrest = 0
-} # Ahmad Gran takes over region
-1544.1.1 = {
-	owner = ETH
+}
+1544.1.1 = { 
 	controller = ETH
 	add_core = ETH
-	remove_core = ADA
-} # Adal collapse in highlands in wake of Ahmad Gran's death
+}
+

@@ -1,8 +1,5 @@
-
-
 #Region - Germany
 #Area - Lower Rhineland
-
 owner = TRI
 controller = TRI
 add_core = TRI
@@ -15,11 +12,9 @@ base_production = 6
 is_city = yes
 base_manpower = 5
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

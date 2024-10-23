@@ -1,27 +1,22 @@
- 
 # - Greifswald
 #Region - Germany
 #Area - Vorpommern
-
 owner = POM
 controller = POM
 add_core = POM
 add_core = RUG
 culture = polabian_culture
 religion = catholic
-hre = no
 base_tax = 4
 base_production = 4
 trade_goods = glass
-base_manpower = 2 
+base_manpower = 2
 capital = "Wolgast"
 is_city = yes
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,5 +1,4 @@
 #BT Scandinavia and Baltics reoverhaul
-
 owner = NOR
 controller = NOR
 add_core = NOR
@@ -9,10 +8,9 @@ capital = "Steinkjer"
 base_tax = 1
 base_production = 2
 base_manpower = 1
-trade_goods = naval_supplies			#could actually be one of Norway's very few grain provinces in Scandinavia, as well
+trade_goods = naval_supplies#could actually be one of Norway's very few grain provinces in Scandinavia, as well
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech

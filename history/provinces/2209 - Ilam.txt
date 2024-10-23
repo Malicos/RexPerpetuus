@@ -1,5 +1,4 @@
 #2209 - Ilam
-
 owner = ABS
 controller = ABS
 add_core = ABS
@@ -8,16 +7,15 @@ culture = luri
 religion = sunni
 capital = "Ilam"
 trade_goods = wool
-hre = no
-base_tax = 4 
+base_tax = 4
 base_production = 4
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-fort_15th = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = nomad_group
 discovered_by = indian
+discovered_by = rhomanian_tech
+fort_15th = yes

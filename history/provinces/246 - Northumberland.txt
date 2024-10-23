@@ -1,37 +1,24 @@
 #246 - Northumberland
 #Region - Britain
 #Area - Northumberland
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = JRV
 controller = JRV
 add_core = JRV
 add_core = BNC
 culture = denlegian
 religion = catholic
-hre = no
 base_tax = 4
 base_production = 3
 base_manpower = 2
 trade_goods = grain
-capital = "Alnwick" #Newcastle from 1450
-#fort_15th = yes
+capital = "Alnwick"#fort_15th = yes
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-1067.1.1 = {
-    add_province_modifier = {
-        name = bernician_autonomy
-        duration = -1
-    }
-}

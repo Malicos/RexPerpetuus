@@ -1,10 +1,8 @@
- 
 #4743 - Weimar
 #Region - Germany
 #Area - Thuringia
-
 owner = WEI
-controller = WEI 
+controller = WEI
 add_core = WEI
 culture = thuringian
 religion = catholic
@@ -13,16 +11,13 @@ trade_goods = grain
 hre = yes
 base_tax = 4
 base_production = 4
-base_manpower = 3 
+base_manpower = 3
 is_city = yes
-
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

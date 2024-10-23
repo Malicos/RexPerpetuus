@@ -1,26 +1,22 @@
- 
 #63 - Erfurt
 #Region - Germany
 #Area - Thuringia
-
 owner = EFT
 controller = EFT
 add_core = EFT
 culture = thuringian
 religion = catholic
 capital = "Erfurt"
-trade_goods = dyes #Woad
+trade_goods = dyes#Woad
 hre = yes
-base_tax = 8 
+base_tax = 8
 base_production = 8
-base_manpower = 6 
+base_manpower = 6
 is_city = yes
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

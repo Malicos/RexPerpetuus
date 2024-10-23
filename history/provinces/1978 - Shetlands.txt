@@ -1,24 +1,20 @@
 #1978 - Shetlands
 #Region - Scandinavia
 #Area - Northern Isles
-
 owner = NOR
 controller = NOR
 add_core = NOR
 culture = faroese
 religion = catholic
-hre = no
-base_tax = 1  
-base_production = 1 
+base_tax = 1
+base_production = 1
 trade_goods = fish
 base_manpower = 1
 capital = "Lerwick"
-is_city = yes # Estimated
-
+is_city = yes# Estimated
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

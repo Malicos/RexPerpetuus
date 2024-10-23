@@ -1,7 +1,6 @@
 #272 Lithuania
 #Region - Baltic
 #Area - Lithuania
-
 owner = LIT
 controller = LIT
 add_core = LIT
@@ -10,12 +9,9 @@ is_city = yes
 culture = lithuanian
 religion = orthodox
 trade_goods = grain
-hre = no
-base_tax = 4 
-base_production = 4 
+base_tax = 4
+base_production = 4
 base_manpower = 3
-fort_15th = yes #Vilnius Castle Complex
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,7 +20,8 @@ discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 15
-
 center_of_trade = 2
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech
+fort_15th = yes

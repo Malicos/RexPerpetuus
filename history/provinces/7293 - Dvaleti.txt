@@ -1,39 +1,27 @@
 #7293 - Dvaleti
 #Area - 
 #Region - Caucasia
-
 #Core Details
-capital = "Nuzal" #(JP) Link here as it was a fucking pain to find https://ru.wikipedia.org/wiki/%D0%9D%D1%83%D0%B7%D0%B0%D0%BB
+capital = "Nuzal"#(JP) Link here as it was a fucking pain to find https://ru.wikipedia.org/wiki/%D0%9D%D1%83%D0%B7%D0%B0%D0%BB
 is_city = yes
 owner = GEO
 controller = GEO
-
 #Demographics
 culture = georgian
 religion = orthodox
-
 #Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = copper #Based off of TG research in main mod folder. //Dub
-
+trade_goods = copper#Based off of TG research in main mod folder. //Dub
 #Cores and Occupation (Alphabetical after current)
 add_core = GEO
 add_core = KRT
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = western
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = nomad_group
-
-#Histories 
+discovered_by = rhomanian_tech
+discovered_by = muslim_tech

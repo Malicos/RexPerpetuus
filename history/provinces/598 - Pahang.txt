@@ -1,24 +1,20 @@
 #598 - Pahang
-
 owner = PAH
 controller = PAH
 culture = dambro
 religion = sunni
 capital = "Pahang"
-trade_goods = copper #tin
-hre = no
+trade_goods = copper#tin
 base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
 add_core = PAH
 add_core = JOH
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

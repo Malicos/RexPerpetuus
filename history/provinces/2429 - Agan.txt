@@ -1,5 +1,4 @@
 #2429 - Agan
-
 owner = SIB
 controller = SIB
 add_core = SIB
@@ -7,10 +6,9 @@ culture = ostyaki
 religion = sunni
 capital = "Variegansk"
 trade_goods = fur
-hre = no
-base_tax = 2  
-base_production = 2 
-base_manpower = 2 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
-
 discovered_by = nomad_group
+discovered_by = siberian_group

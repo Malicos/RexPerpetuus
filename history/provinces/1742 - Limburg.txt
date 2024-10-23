@@ -1,11 +1,9 @@
 # 1742 Limburg
 #Region - Low Countries
 #Area - Liege
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -16,14 +14,12 @@ religion = catholic
 hre = yes
 base_tax = 6
 base_production = 6
-trade_goods = bt_trade_good_fruit			#main industry was trade in wool and leather, gradually declining before being replaced by things like pottery, before being turned into a 'university town' in the 20th century. Despite this, it was an important centre economically and culturally dating back to 1st millenia, and is home to many artists. Also a major paper manufacturer in the area and major orchard fruit producer. Livestock, paper, or fruit
+trade_goods = bt_trade_good_fruit#main industry was trade in wool and leather, gradually declining before being replaced by things like pottery, before being turned into a 'university town' in the 20th century. Despite this, it was an important centre economically and culturally dating back to 1st millenia, and is home to many artists. Also a major paper manufacturer in the area and major orchard fruit producer. Livestock, paper, or fruit
 base_manpower = 3
-fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

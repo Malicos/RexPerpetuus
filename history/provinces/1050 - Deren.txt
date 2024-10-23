@@ -1,5 +1,4 @@
 #1050 - Deren
-
 owner = NRG
 controller = NRG
 add_core = NRG
@@ -7,13 +6,11 @@ culture = evenk
 religion = tengri_pagan_reformed
 capital = "Deren"
 trade_goods = fur
-hre = no
 base_tax = 8
 base_production = 8
 base_manpower = 6
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = siberian_group

@@ -1,6 +1,5 @@
 #1795 - East Sahara
+discovered_by = muslim_tech
+discovered_by = maghrebi_tech
 
-
-
-
-discovered_by = muslim
+is_city = no

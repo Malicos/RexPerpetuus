@@ -1,24 +1,19 @@
- 
 # ex 8655
-
-owner = DMA # BT; KHM
-controller = DMA # BT; KHM
-add_core = DMA # BT; KHM
-culture = degar # BT; khmer
+owner = DMA# BT; KHM
+controller = DMA# BT; KHM
+add_core = DMA# BT; KHM
+culture = degar# BT; khmer
 religion = animism
-capital = "Ma" # BT; "Raung Dapey"
+capital = "Ma"# BT; "Raung Dapey"
 is_city = yes
-hre = no
 base_tax = 2
 base_production = 2
-base_manpower = 1 # BT; 2
+base_manpower = 1# BT; 2
 trade_goods = grain
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech # BT
-discovered_by = ottoman # BT
+discovered_by = iranian_tech# BT
+discovered_by = ottoman

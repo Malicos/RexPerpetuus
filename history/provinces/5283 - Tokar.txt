@@ -1,6 +1,4 @@
- 
 #New Province
-
 capital = "Tokar"
 culture = beja
 religion = sunni
@@ -9,24 +7,23 @@ is_city = yes
 owner = BLW
 controller = BLW
 add_core = BLW
-hre = no
 base_tax = 2
 base_production = 2
 base_manpower = 2
-native_size = 30 #x by 100. Each gives 0.25 goods produced and determines size of uprising
-native_ferocity = 4 #Each gives 0.05 tactics to uprising
-native_hostileness = 9 #Each gives 1% chance of uprising a month
-
-discovered_by = muslim
+native_size = 30#x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4#Each gives 0.05 tactics to uprising
+native_hostileness = 9#Each gives 1% chance of uprising a month
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = east_african
-
-
-1750.1.1 = {
-	owner = TUR
+1750.1.1 = { 
 	controller = TUR
 	add_core = TUR
 	is_city = yes
 	trade_goods = fish
-} #Exact situation unclear, but it appears Ottoman influence was definite by around this point.
+}
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech

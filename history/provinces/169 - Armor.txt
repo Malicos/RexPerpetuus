@@ -1,7 +1,6 @@
 #3067 - Saint-Brieuc
 #Region - France
 #Area - Brittany
-
 owner = BRI
 controller = BRI
 add_core = BRI
@@ -9,16 +8,13 @@ capital = "St. Brieuc"
 is_city = yes
 culture = breton
 religion = catholic
-hre = no
 base_tax = 4
-base_production = 4 
+base_production = 4
 trade_goods = fish
-base_manpower = 2 
-
+base_manpower = 2
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

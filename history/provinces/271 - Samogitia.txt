@@ -1,7 +1,6 @@
 #271 - Samogitia
 #Region - Baltic
 #Area - Lithuania
-
 owner = LIT
 controller = LIT
 add_core = LIT
@@ -10,12 +9,10 @@ culture = samogitian
 religion = baltic_pagan_reformed
 capital = "Raseiniai"
 trade_goods = bt_trade_good_beer
-hre = no
-base_tax = 3 
-base_production = 3 
-base_manpower = 2 
+base_tax = 3
+base_production = 3
+base_manpower = 2
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,3 +21,5 @@ discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech

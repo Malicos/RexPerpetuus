@@ -1,26 +1,22 @@
 # 194 Périgord - Principal cities: Bergerac
 #Region - France
 #Area - Guyenne
-
 owner = GUY
 controller = GUY
 add_core = GUY
 add_core = AMG
 capital = "Périgueux"
 is_city = yes
-culture = poitevin_culture	#aquitaine vanilla
+culture = poitevin_culture#aquitaine vanilla
 religion = catholic
-hre = no
-base_tax = 2  
-base_production = 3 
+base_tax = 2
+base_production = 3
 trade_goods = livestock
 base_manpower = 2
-fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

@@ -1,10 +1,8 @@
 #4351 - Buglas
-
 culture = visayan
 religion = anito
 capital = "Silay"
 trade_goods = sugar
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -12,7 +10,7 @@ add_core = MAS
 owner = MAS
 controller = MAS
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
+discovered_by = polynesian_tech

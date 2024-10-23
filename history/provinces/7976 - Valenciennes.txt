@@ -1,9 +1,7 @@
 #BT's Western Europe Overhaul in 12.0
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = HAI
 controller = HAI
 add_core = HAI
@@ -13,14 +11,12 @@ capital = "Valenciennes"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = cloth			#Historically famous for fine lace. Also very industrial reason later, with heavu industry and coal
+trade_goods = cloth#Historically famous for fine lace. Also very industrial reason later, with heavu industry and coal
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

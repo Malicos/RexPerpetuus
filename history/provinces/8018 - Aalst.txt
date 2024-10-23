@@ -1,5 +1,4 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -13,11 +12,9 @@ base_manpower = 3
 trade_goods = bt_trade_good_beer
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

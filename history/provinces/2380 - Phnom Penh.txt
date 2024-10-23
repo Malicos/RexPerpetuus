@@ -1,5 +1,4 @@
 #2380 - Phnom Penh
-
 owner = KHM
 controller = KHM
 add_core = KHM
@@ -7,18 +6,15 @@ culture = khmer
 religion = hinduism
 capital = "Phnom Penh"
 trade_goods = iron
-hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 extra_cost = 8

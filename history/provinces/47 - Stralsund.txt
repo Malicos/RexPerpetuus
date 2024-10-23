@@ -1,27 +1,22 @@
- 
 #47 - Stralsund
 #Region - Germany
 #Area - Vorpommern
-
 owner = DAN
 controller = DAN
 add_core = DAN
 add_core = RUG
 culture = polabian_culture
 religion = catholic
-hre = no
 base_tax = 7
 base_production = 6
 trade_goods = bt_trade_good_beer
-base_manpower = 2 
+base_manpower = 2
 capital = "Stralsund"
 is_city = yes
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

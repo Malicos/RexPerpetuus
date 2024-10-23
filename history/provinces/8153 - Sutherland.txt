@@ -1,42 +1,30 @@
 #8153 - Sutherland 
 #Area - Highlands
 #Region - Britain
-
 #Core Details
 capital = "Dornoch"
 is_city = yes
 owner = NOR
 controller = NOR
-
 #Demographics
 culture = gallgaidheil
 religion = catholic
-
 #Development and Trade
 base_tax = 1
 base_production = 2
 base_manpower = 1
 trade_goods = fish
-
 #Cores and Occupation (Alphabetical after current)
 add_core = NOR
 add_core = SCO
-
 #Other Political
-hre = no
 add_local_autonomy = 25
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories

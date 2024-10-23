@@ -1,26 +1,21 @@
 #636 - Brunei
-
 owner = BEI
 controller = BEI
 culture = kadazan
 religion = sunni
 capital = "Brunei"
 trade_goods = spices
-hre = no
 base_tax = 9
 base_production = 9
 base_manpower = 5
 is_city = yes
 add_core = BEI
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
 extra_cost = 16
 center_of_trade = 2

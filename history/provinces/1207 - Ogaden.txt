@@ -1,20 +1,15 @@
 #1207 - Ogaden
-
 culture = darood
 religion = sunni
-capital = "Denan" #(JP) Random settlement here
+capital = "Denan"#(JP) Random settlement here
 tribal_owner = OGD
 trade_goods = incense
-hre = no
-base_tax = 1  
-base_production = 1 
-base_manpower = 1 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = no
-
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-
 1550.1.1 = { discovered_by = TUR }

@@ -1,25 +1,21 @@
 #4369 - Carmarthen
 #Region - Britain
 #Area - Deheubarth
-
 owner = DFD
 controller = DFD
 add_core = DFD
 culture = welsh
 religion = catholic
-hre = no
 base_tax = 2
 base_production = 1
-trade_goods = grain #Was fish
+trade_goods = grain#Was fish
 base_manpower = 2
 capital = "Pembroke"
 is_city = yes
-
 add_local_autonomy = 75
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

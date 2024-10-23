@@ -1,29 +1,23 @@
 #373 - Meath
 #Region - Ireland
 #Area - Leinster
-
 owner = DUB
 controller = DUB
 add_core = DUB
 culture = gallwegian
 religion = catholic
-hre = no
 base_tax = 5
 base_production = 4
 base_manpower = 4
 trade_goods = cloth
 capital = "Dublin"
 is_city = yes
-
-fort_15th = yes
 extra_cost = 10
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 center_of_trade = 2
+fort_15th = yes

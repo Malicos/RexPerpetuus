@@ -1,5 +1,4 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = LUX
 controller = LUX
 add_core = LUX
@@ -9,14 +8,12 @@ capital = "St. Vith"
 base_tax = 2
 base_production = 2
 base_manpower = 3
-trade_goods = paper			#Pretty minor little hamlet so any poor good should work, but I'm loath to ignore Malmedy's paper production (right on the border of the province to the NW of this one), so I'm representing that here. Niki also found that there was a large slate industry here as well as garnet, and forestry.
+trade_goods = paper#Pretty minor little hamlet so any poor good should work, but I'm loath to ignore Malmedy's paper production (right on the border of the province to the NW of this one), so I'm representing that here. Niki also found that there was a large slate industry here as well as garnet, and forestry.
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

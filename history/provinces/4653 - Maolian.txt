@@ -1,5 +1,4 @@
 # Maolian
-
 owner = BHE
 controller = BHE
 add_core = BHE
@@ -8,12 +7,10 @@ culture = manchu
 religion = mahayana
 capital = "Maolian"
 trade_goods = naval_supplies
-hre = no
 base_tax = 6
 base_production = 6
 base_manpower = 4
 is_city = yes
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group

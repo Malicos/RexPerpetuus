@@ -1,5 +1,4 @@
 #New Beyond Typus Province
-
 owner = MDV
 controller = MDV
 add_core = MDV
@@ -7,14 +6,13 @@ culture = mordvin
 religion = orthodox
 capital = "Morshansk"
 trade_goods = grain
-hre = no
-base_tax = 4 
-base_production = 4 
-base_manpower = 2 
+base_tax = 4
+base_production = 4
+base_manpower = 2
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = nomad_group
 discovered_by = ottoman
+discovered_by = iranian_tech

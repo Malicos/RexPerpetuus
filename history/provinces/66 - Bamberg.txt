@@ -1,8 +1,6 @@
- 
 # 66 - Bamberg
 #Region - Germany
 #Area - Franconia
-
 owner = BAM
 controller = BAM
 add_core = BAM
@@ -15,11 +13,9 @@ base_manpower = 2
 capital = "Bamberg"
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

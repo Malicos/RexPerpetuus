@@ -1,7 +1,6 @@
 # 1744 Antwerp - Principal cities: Antwerp
 #Region - Low Countries
 #Area - Brabant
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -12,14 +11,12 @@ religion = catholic
 hre = yes
 base_tax = 12
 base_production = 12
-base_manpower = 5 
-trade_goods = naval_supplies			#Particularly tough case.... Not much of anything in the early period. Diamond trade started 1450s, but didn't really flourish until mid 1600s. Briefly after silting of the Zwin in Bruges, Antwerp became the sugar capital of Europe, processing most Spanish & Portuguese sugar, before falling to the Spanish Fury in 1576, and seeing the diamond business begin in earnest in 1580s.
-fort_15th = yes
-
+base_manpower = 5
+trade_goods = naval_supplies#Particularly tough case.... Not much of anything in the early period. Diamond trade started 1450s, but didn't really flourish until mid 1600s. Briefly after silting of the Zwin in Bruges, Antwerp became the sugar capital of Europe, processing most Spanish & Portuguese sugar, before falling to the Spanish Fury in 1576, and seeing the diamond business begin in earnest in 1580s.
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

@@ -1,25 +1,21 @@
 #4409 - Trincomale
-
 owner = KND
 controller = KND
 add_core = KND
 culture = sinhala
 religion = buddhism
 capital = "Trincomale"
-trade_goods = spices #Cinnamon
-hre = no
-base_tax = 4 
+trade_goods = spices#Cinnamon
+base_tax = 4
 base_production = 4
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = indian
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = east_african
 extra_cost = 8

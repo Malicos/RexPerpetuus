@@ -1,24 +1,17 @@
- 
 # ex 8612
-
-owner = WJO # BT; BNE
-controller = WJO # BT; BNE
-add_core = WJO # BT; BNE
+owner = WJO# BT; BNE
+controller = WJO# BT; BNE
+add_core = WJO# BT; BNE
 culture = sulawesi
 religion = celebic
 capital = "Wajo"
 is_city = yes
-hre = no
-base_tax = 3 
+base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = fish # BT; spices
-
+trade_goods = fish# BT; spices
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

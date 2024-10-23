@@ -1,40 +1,28 @@
- 
 # ex 8622
-
 owner = SUN
 controller = SUN
 add_core = SUN
 add_core = PGH
 culture = sundanese
 religion = hinduism
-capital = "Bandung" # BT; "Pangguyanan"
+capital = "Bandung"# BT; "Pangguyanan"
 is_city = yes
-hre = no
-base_tax = 3 
+base_tax = 3
 base_production = 3
-base_manpower = 3 # BT; 2
-trade_goods = tea # BT; grain
-
+base_manpower = 3# BT; 2
+trade_goods = tea# BT; grain
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman
-
-1440.1.1 = { unrest = 10 } #To encourage historical rebellion against Sunda
 1509.1.1 = { discovered_by = POR }
 1521.1.1 = { discovered_by = SPA }
-
-1527.1.1 = {
-	owner = BAN
+1527.1.1 = { 
 	controller = BAN
 	add_core = BAN
-	remove_core = SUN
 	religion = sunni
-} # Conquered by the Cirebonese Army and Banten Sultanate was established
-1528.1.1 = { unrest = 0 }
-1602.1.1 = { discovered_by = ENG } # English settlement
+}
+1602.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }

@@ -1,8 +1,5 @@
- 
-
 #Region - Germany
 #Area - Hesse
-
 owner = HES
 controller = HES
 add_core = HES
@@ -16,11 +13,9 @@ base_manpower = 3
 is_city = yes
 hre = yes
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

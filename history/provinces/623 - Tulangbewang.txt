@@ -1,11 +1,9 @@
 #623 - Tulangbewang
-
 owner = SUN
 controller = SUN
 culture = sundanese
 religion = hinduism
 capital = "Tulangbewang"
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 1
@@ -13,12 +11,9 @@ trade_goods = cloth
 is_city = yes
 add_core = SUN
 add_core = BAN
-
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

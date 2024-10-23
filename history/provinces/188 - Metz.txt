@@ -1,11 +1,9 @@
 # 188 Metz - Principal cities: Metz, Thionville
 #Region - France
 #Area - Lorraine
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = AUT
 controller = AUT
 add_core = AUT
@@ -15,17 +13,14 @@ culture = hessian
 religion = catholic
 hre = yes
 base_tax = 8
-base_production = 8			#Centre of population in Gall, with a population of 40k all the way back in 1st century, but seemed to shrink with the fall of Rome. Wiki (I know) estimates population well under 10k until at least 18th century, grows more important later, though
+base_production = 8#Centre of population in Gall, with a population of 40k all the way back in 1st century, but seemed to shrink with the fall of Rome. Wiki (I know) estimates population well under 10k until at least 18th century, grows more important later, though
 trade_goods = bt_trade_good_fruit
 base_manpower = 4
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 8
 center_of_trade = 1

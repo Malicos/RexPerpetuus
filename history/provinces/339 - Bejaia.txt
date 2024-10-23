@@ -1,5 +1,4 @@
 #339 - Bejaia
-
 owner = KBA
 controller = KBA
 add_core = KBA
@@ -7,18 +6,18 @@ culture = tunisian
 religion = sunni
 capital = "Bejaia"
 trade_goods = iron
-hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-fort_15th = yes
-
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
-
 extra_cost = 15
-
 center_of_trade = 2
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+
+discovered_by = iranian_tech
+fort_15th = yes

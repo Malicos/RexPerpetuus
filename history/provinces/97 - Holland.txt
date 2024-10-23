@@ -1,9 +1,8 @@
 # 97 Holland - Principal cities: Amsterdam, Haarlem & Den Haag
 #Region - Low Countries
 #Area - Netherlands
-
 owner = UTR
-controller = UTR 
+controller = UTR
 add_core = UTR
 capital = "Amsterdam"
 is_city = yes
@@ -12,14 +11,11 @@ religion = catholic
 hre = yes
 base_tax = 4
 base_production = 4
-base_manpower = 2 
-trade_goods = bt_trade_good_beer			#Beer trade with Hamburg was the core of Amsterdam trade in the early days, and part of the reason for its growth early on.
-
-
+base_manpower = 2
+trade_goods = bt_trade_good_beer#Beer trade with Hamburg was the core of Amsterdam trade in the early days, and part of the reason for its growth early on.
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

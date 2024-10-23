@@ -1,26 +1,21 @@
 #3074 - Cotentin
 #Region - France
 #Area - Normandy
-
 owner = NRM
-controller = NRM 
+controller = NRM
 add_core = NRM
 capital = "Cherbourg"
 is_city = yes
 culture = normand
 religion = catholic
-hre = no
-base_tax = 6  
-base_production = 6 
+base_tax = 6
+base_production = 6
 trade_goods = naval_supplies
-base_manpower = 3 
-
+base_manpower = 3
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 8

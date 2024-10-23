@@ -1,7 +1,6 @@
 # 181 Rethel
 #Region - France
 #Area - Seine
-
 owner = RTH
 controller = RTH
 add_core = RTH
@@ -13,13 +12,11 @@ hre = yes
 base_tax = 3
 base_production = 3
 trade_goods = livestock
-base_manpower = 2 
-fort_15th = yes
-
+base_manpower = 2
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

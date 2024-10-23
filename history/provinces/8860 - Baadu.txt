@@ -1,38 +1,25 @@
 #8860 - Biqulzar/Hazalo
 #Area - 
 #Region - Horn of Africa
-
 #Core Details
 capital = "Hazalo"
 is_city = yes
 owner = IFT
 controller = IFT
-
 #Demographics
 culture = afar
 religion = sunni
-
 #Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 2
-trade_goods = bt_trade_good_fruit #There was a good chunk of fruits and veggies produced around this river, so I'm making an executive decision and making this fruit. //Dub
-
+trade_goods = bt_trade_good_fruit#There was a good chunk of fruits and veggies produced around this river, so I'm making an executive decision and making this fruit. //Dub
 #Cores and Occupation (Alphabetical after current)
 add_core = IFT
 add_core = BQZ
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = east_african
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
 discovered_by = indian
-
-#Histories 
+discovered_by = muslim_tech

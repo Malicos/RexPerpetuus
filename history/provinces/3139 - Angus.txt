@@ -1,25 +1,20 @@
-
 #3139 - Angus
 #Region - Britain
 #Area - Grampians
-
 owner = SCO
 controller = SCO
 add_core = SCO
 culture = highland_scottish
 religion = catholic
-hre = no
-base_tax = 2 
-base_production = 3 
-trade_goods = livestock			#Angus cattle.
-base_manpower = 2 
-capital = "Forfar" #"Dundee"
+base_tax = 2
+base_production = 3
+trade_goods = livestock#Angus cattle.
+base_manpower = 2
+capital = "Forfar"#"Dundee"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,24 +1,21 @@
 #Bergslagen, contains Falun, Västerås etc.
 #Region - Scandinavia
 #Area - Svealand
-
 add_core = SWE
 owner = SWE
 controller = SWE
 culture = swedish
 religion = catholic
-hre = no
 base_tax = 2
-base_production = 3 
-trade_goods = bt_trade_good_silver #Sala Silver mine, in the NE of the province.
-base_manpower = 2 
+base_production = 3
+trade_goods = bt_trade_good_silver#Sala Silver mine, in the NE of the province.
+base_manpower = 2
 capital = "Västerås"
 is_city = yes
 #fort_15th = yes			#Removing, Sweden was going broke
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 8
 center_of_trade = 1
+discovered_by = maghrebi_tech

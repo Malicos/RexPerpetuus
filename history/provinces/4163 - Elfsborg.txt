@@ -1,5 +1,4 @@
 #Elfsborgs Län
-
 owner = NOR
 controller = NOR
 add_core = NOR
@@ -7,22 +6,18 @@ add_core = SWE
 add_core = GTA
 culture = geatish
 religion = catholic
-hre = no
 base_tax = 2
-base_production = 3 
+base_production = 3
 trade_goods = fish
-base_manpower = 2 
-fort_15th = yes #Old Älvsborg Castle
+base_manpower = 2
 capital = "Lödöse"
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
-
 extra_cost = 10
 center_of_trade = 1
+fort_15th = yes

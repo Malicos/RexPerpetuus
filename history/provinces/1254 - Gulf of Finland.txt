@@ -1,8 +1,4 @@
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-
-
-
-
+discovered_by = iranian_tech

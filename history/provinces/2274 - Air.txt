@@ -1,28 +1,23 @@
- 
 # No previous file for Air
-
 owner = AIR
 controller = AIR
 add_core = AIR
 is_city = yes
-culture = tuareg 
+culture = tuareg
 religion = sunni
 capital = "Asodé"
 trade_goods = grain
-hre = no
-base_tax = 2 
+base_tax = 2
 base_production = 1
-base_manpower = 1 
+base_manpower = 1
 discovered_by = sub_saharan
-fort_15th = yes
-
 1449.1.1 = { capital = "Agades" }
-1500.1.1 = {
-	owner = SON
-	controller = SON 
-	add_core = SON 
-} #Askiya Muhammad of Songhai seizes control 
-1591.3.15 = {
-	owner = AIR
+1500.1.1 = { 
+	controller = SON
+	add_core = SON
+}
+1591.3.15 = { 
 	controller = AIR
-} # Songahi defeat at Tondibi leaves Tuareg free
+}
+discovered_by = maghrebi_tech
+fort_15th = yes

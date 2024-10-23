@@ -1,6 +1,4 @@
- 
 # ex 8582
-
 owner = LAV
 controller = LAV
 add_core = LAV
@@ -9,17 +7,14 @@ culture = lavo
 religion = buddhism
 capital = "Si Thep"
 is_city = yes
-hre = no
-base_tax = 2 # BT; 3
-base_production = 2 # BT; 3
-base_manpower = 1 # BT; 3
+base_tax = 2# BT; 3
+base_production = 2# BT; 3
+base_manpower = 1# BT; 3
 trade_goods = grain
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech # 1.31
-discovered_by = ottoman # 1.31
+discovered_by = iranian_tech# 1.31
+discovered_by = ottoman

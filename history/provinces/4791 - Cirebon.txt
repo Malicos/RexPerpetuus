@@ -1,25 +1,19 @@
- 
 # ex 8719
-
-owner = GLU # BT; SUN
-controller = GLU # BT; SUN
-add_core = GLU # BT; SUN
+owner = GLU# BT; SUN
+controller = GLU# BT; SUN
+add_core = GLU# BT; SUN
 add_core = CRB
 culture = sundanese
 religion = hinduism
-capital = "Indramayu" # BT; "Cirebon"
+capital = "Indramayu"# BT; "Cirebon"
 is_city = yes
-hre = no
-base_tax = 3 # BT; 4
-base_production = 3 # BT; 4
-base_manpower = 2 # BT; 3
-trade_goods = fish # BT; spices
-
+base_tax = 3# BT; 4
+base_production = 3# BT; 4
+base_manpower = 2# BT; 3
+trade_goods = fish# BT; spices
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
 discovered_by = iranian_tech
 discovered_by = ottoman

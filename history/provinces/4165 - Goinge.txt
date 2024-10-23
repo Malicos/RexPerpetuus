@@ -1,23 +1,19 @@
 #Eastern Skåne - More or less Kristianstad Län. Includes Göinge, Gladsax Len, Listerlandet, and others.
-
 owner = DAN
 controller = DAN
 add_core = DAN
 add_core = SCN
 culture = scanian
 religion = catholic
-hre = no
 base_tax = 2
 base_production = 3
 trade_goods = grain
-base_manpower = 2 
-capital = "Åhus"			#Gladsax in vanilla. Could also be Vä
+base_manpower = 2
+capital = "Åhus"#Gladsax in vanilla. Could also be Vä
 is_city = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

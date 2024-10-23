@@ -1,23 +1,19 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = CHP
 controller = CHP
 add_core = CHP
 culture = lorraine_culture
 religion = catholic
-capital = "St. Dizier"			#Also Brienne
+capital = "St. Dizier"#Also Brienne
 base_tax = 2
 base_production = 2
 base_manpower = 2
 trade_goods = iron
 is_city = yes
-hre = no
-fort_15th = yes #Fortress guarding French estates apparently.
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

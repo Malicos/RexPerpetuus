@@ -1,7 +1,6 @@
 #3070 - Laon
 #Region - France
 #Area - Seine
-
 owner = GUE
 controller = GUE
 add_core = GUE
@@ -10,15 +9,13 @@ is_city = yes
 culture = cosmopolitan_french
 religion = catholic
 hre = yes
-base_tax = 4 
+base_tax = 4
 base_production = 4
 trade_goods = bt_trade_good_books
-base_manpower = 2 
-
+base_manpower = 2
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

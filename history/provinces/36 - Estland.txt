@@ -1,21 +1,18 @@
 #Estland, incl. Reval, Hapsal, Weissenstein, Wesenberg and Pernau.
 #Region - Baltic
 #Area - Estonia
-
 owner = EST
 controller = EST
 add_core = EST
 culture = estonian
 religion = catholic
-hre = no
 base_tax = 4
-base_production = 4			#Population recorded at 8,000 in 1346, compare with Copenhagen - 6k, Stockholm - 6k, Ribe - 5k, Malmo - 5k, Oslo - 2k, Bergen - 9k. This was quite a center. Would give even more dev if region wasn't so undervalued in vanilla
+base_production = 4#Population recorded at 8,000 in 1346, compare with Copenhagen - 6k, Stockholm - 6k, Ribe - 5k, Malmo - 5k, Oslo - 2k, Bergen - 9k. This was quite a center. Would give even more dev if region wasn't so undervalued in vanilla
 trade_goods = naval_supplies
-base_manpower = 2 
+base_manpower = 2
 capital = "Reval"
 is_city = yes
 #fort_15th = yes #Fortifications of Reval, Wesenberg, Toompea Castle
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,6 +21,7 @@ discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 10
 center_of_trade = 1
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech

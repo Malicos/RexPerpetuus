@@ -1,20 +1,19 @@
 #Ösel and Dagö, incl. Sonnenburg and Arensburg.
 #Region - Baltic
 #Area - Estonia
-
-owner = OSL 
+owner = OSL
 controller = OSL
 add_core = OSL
 culture = estonian
 religion = norse_pagan_reformed
-hre = no
-base_tax = 1  
-base_production = 2 
+base_tax = 1
+base_production = 2
 trade_goods = fish
-base_manpower = 1 
-capital = "Kuressaarelinn"			#DE Arensburg
+base_manpower = 1
+capital = "Kuressaarelinn"#DE Arensburg
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = iranian_tech

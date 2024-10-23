@@ -1,11 +1,5 @@
 #1785 - Karakoram
-
-
-
-
 discovered_by = chinese
-discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
 discovered_by = indian
-
+is_city = no

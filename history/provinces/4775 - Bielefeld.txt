@@ -1,23 +1,19 @@
- 
 # 4775 - Bielefeld
-
 owner = MUN
 controller = MUN
 add_core = MUN
 culture = hannoverian
 religion = catholic
-trade_goods = cloth #linen
+trade_goods = cloth#linen
 capital = "Bielefeld"
 base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
 hre = yes
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman

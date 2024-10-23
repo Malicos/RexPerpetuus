@@ -1,12 +1,6 @@
-
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = east_african
-
-
-
 1421.1.1 = { discovered_by = MNG }
 1498.3.15 = { discovered_by = POR }
-1529.6.1 = { discovered_by = FRA } # Parmentier Brothers
+1529.6.1 = { discovered_by = FRA }

@@ -1,14 +1,11 @@
- 
 #62 - Leipzig
 #Region - Germany
 #Area - South Saxony
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = MIC
-controller = MIC 
+controller = MIC
 add_core = MIC
 culture = thuringian
 religion = catholic
@@ -19,13 +16,10 @@ base_tax = 5
 base_production = 4
 base_manpower = 4
 is_city = yes
-
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

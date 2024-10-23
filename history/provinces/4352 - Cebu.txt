@@ -1,25 +1,21 @@
 #4352 - Cebu
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 culture = visayan
 religion = hinduism
 capital = "Cebu"
-trade_goods = gems #Pearls
-hre = no
-base_tax = 3 
+trade_goods = gems#Pearls
+base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
 owner = CEB
 controller = CEB
 add_core = CEB
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
-
 extra_cost = 8
 center_of_trade = 1
+discovered_by = polynesian_tech

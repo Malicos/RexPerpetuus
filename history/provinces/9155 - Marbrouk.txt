@@ -1,36 +1,26 @@
 #9155 - Marbrouk
 #Area - 
 #Region - Central Sahara
-
 #Core Details
 capital = "Marbrouk"
 is_city = no
 tribal_owner = ADG
-
 #Demographics
 culture = tuareg
 religion = sunni
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 2
 trade_goods = wool
-
 #Cores and Occupation (Alphabetical after current)
-
 #Other Political
-hre = no
-native_size = 30 #x by 100. Each gives 0.25 goods produced and determines size of uprising
-native_ferocity = 4 #Each gives 0.05 tactics to uprising
-native_hostileness = 9 #Each gives 1% chance of uprising a month
-
+native_size = 30#x by 100. Each gives 0.25 goods produced and determines size of uprising
+native_ferocity = 4#Each gives 0.05 tactics to uprising
+native_hostileness = 9#Each gives 1% chance of uprising a month
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = sub_saharan
-
-#Histories 
+discovered_by = maghrebi_tech

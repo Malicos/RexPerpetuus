@@ -1,24 +1,20 @@
 #3008 - Galloway
 #Region - Britain
 #Area - Western Lowlands
-
 owner = GWY
 controller = GWY
 add_core = GWY
-culture = gallgaidheil			#Galwegian Gaelic seems to have lasted longer than Gaelic in other parts of Lowland Scotland
+culture = gallgaidheil#Galwegian Gaelic seems to have lasted longer than Gaelic in other parts of Lowland Scotland
 religion = catholic
-hre = no
 base_tax = 2
-base_production = 2 
-trade_goods = livestock #Galloway Cattle
+base_production = 2
+trade_goods = livestock#Galloway Cattle
 base_manpower = 1
-capital = "Wigtown" #Draiocht had it at Whithorn, but a cursory glance suggest that whilst Whithorn was important culturally and religiously, Wigtown and even Kirkcudbright were more economically and politically important.
+capital = "Wigtown"#Draiocht had it at Whithorn, but a cursory glance suggest that whilst Whithorn was important culturally and religiously, Wigtown and even Kirkcudbright were more economically and politically important.
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

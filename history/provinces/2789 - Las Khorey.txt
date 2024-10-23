@@ -1,6 +1,4 @@
- 
 #2789 - Las Khorey
-
 owner = WAR
 controller = WAR
 add_core = WAR
@@ -9,11 +7,13 @@ religion = sunni
 capital = "Laasqoray"
 trade_goods = incense
 is_city = yes
-hre = no
-base_tax = 3  
+base_tax = 3
 base_production = 3
-base_manpower = 2 
+base_manpower = 2
 discovered_by = east_african
 discovered_by = indian
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
+discovered_by = maghrebi_tech
+
+discovered_by = iranian_tech

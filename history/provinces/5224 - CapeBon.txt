@@ -1,5 +1,3 @@
- 
-
 owner = TUN
 controller = TUN
 add_core = TUN
@@ -11,14 +9,10 @@ base_production = 3
 base_manpower = 2
 trade_goods = fish
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = eastern
-discovered_by = muslim
+discovered_by = muslim_tech
 discovered_by = ottoman
-
-
 #Province history completed by - Draiocht
 #1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
 #	owner = XXX
@@ -42,9 +36,7 @@ discovered_by = ottoman
 #	controller = XXX
 #	remove_core = XXX
 #} #Return to proper mod added owners and cuts vanilla core, typically.
-
 #1291 - 1444
-
 #2nd Shattering unused
 #1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
 #	owner = XXX
@@ -56,5 +48,8 @@ discovered_by = ottoman
 #	controller = XXX
 #	remove_core = XXX
 #} #Return to proper mod added owners and cuts vanilla core, typically.
-
 #1444 on
+discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
+discovered_by = muslim_tech
+discovered_by = iranian_tech

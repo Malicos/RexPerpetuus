@@ -1,7 +1,5 @@
- 
 #Region - Germany
 #Area - Lower Swabia
-
 owner = SWA
 controller = SWA
 add_core = SWA
@@ -14,14 +12,11 @@ base_production = 4
 base_manpower = 3
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 8
 center_of_trade = 1

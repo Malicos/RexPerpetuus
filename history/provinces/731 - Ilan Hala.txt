@@ -1,5 +1,4 @@
 #731 - Ilan Hala
-
 owner = MJZ
 controller = MJZ
 add_core = MJZ
@@ -7,12 +6,11 @@ culture = manchu
 religion = tengri_pagan_reformed
 capital = "Ilan Hala"
 trade_goods = naval_supplies
-hre = no
 base_tax = 6
 base_production = 6
 base_manpower = 4
 is_city = yes
 discovered_by = chinese
 discovered_by = japanese_group
-discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = siberian_group

@@ -1,5 +1,4 @@
 #4452 - Ratanpur
-
 owner = RTT
 controller = RTT
 add_core = RTT
@@ -7,18 +6,14 @@ culture = gondi
 religion = hinduism
 capital = "Ratanpur"
 trade_goods = bt_trade_good_fruit
-hre = no
-base_tax = 4  
+base_tax = 4
 base_production = 4
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim_tech
-discovered_by = maghrebi_tech
-discovered_by = iranian_tech 
+discovered_by = iranian_tech
 discovered_by = ottoman
 discovered_by = chinese
-discovered_by = japanese_group
 discovered_by = southeast_asian_group
