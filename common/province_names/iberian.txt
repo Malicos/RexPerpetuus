@@ -1244,7 +1244,6 @@
 2737 = { "Calderón" "Calderón" } #Napier
 2738 = { "Mazarredo" "Mazarredo" } #Nelson 
 2739 = { "Menéndez" "Menéndez" } #Hamilton
-#5939
 5597 = { "Villa Reina" "Villa Reina" } #Queenstown
 5598 = { "Dracena" "Dracena" } #Timaru
 5599 = { "Hoquitica" "Hoquitica" } #Hokitika

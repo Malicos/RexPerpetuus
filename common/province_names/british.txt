@@ -1228,6 +1228,35 @@
 
 #Hudson Bay
 1002 = { "Abitibi House" "Abitibi House" }
+1008 = { "Fort Douglas" "Fort Douglas" } #(JP) Modern "Winnepeg" 
+2004 = { "Fort Hamilton" "Fort Hamilton" }
+2005 = { "Pile o' Bones" "Pile o' Bones" } #(JP) Modern "Regina"
+2016 = { "Grand Forks" "Grand Forks" }
+2017 = { "Fort Edmonton" "Fort Edmonton" }
+2018 = { "Jasper House" "Jasper House" }
+2511 = { "Devils Lake" "Devils Lake" }
+2596 = { "Fort Ellice" "Fort Ellice" }
+2597 = { "Fort Albert" "Fort Albert" } #(JP) I can't find the name of this initial settlement, where modern "Prince Albert" is located. This name comes from the 1860's, and "Isbister's Settlement" comes only a few years earlier, but it was settled in the 1770's. So going with "Fort Albert" for lack of somethign better.
+2598 = { "Moose Jaw" "Moose Jaw" }
+2602 = { "Fort Calgary" "Fort Calgary" }
+4901 = { "Centralia" "Centralia" } #(JP) Modern "Fargo" Better than nothing
+4919 = { "Brandon House" "Brandon House" }
+5034 = { "Medicine Hat" "Medicine Hat" }
+5089 = { "Cumberland House" "Cumberland House" }
+5623 = { "Mouse River" "Minot" }
+5625 = { "Fort Pembina" "Fort Pembina" }
+5634 = { "Assiniboia" "Assiniboia" } #(JP) Could do with something older here ngl
+5635 = { "Swift Current" "Swift Current" }
+5636 = { "Fort Pitt" "Fort Pitt" }
+5637 = { "Battleford" "Battleford" }
+5783 = { "Acton House" "Rocky Mountain and Acton House" } #(JP) Technically, the name "Rocky Mountain House" was kept, but this is too long for the province name. Both were practically the same location and same timeframe
+5784 = { "Banff" "Banff" } #(JP) Founded in 1880's, but basically empty otherwise.
+5785 = { "Brooks" "Brooks" } #(JP) Nothing here is before the 20th Century.... Damn you Drai. 
+5786 = { "Cypress Hills" "Fort Walsh" }
+5787 = { "Carlton House" "Carlton House" } #(JP) Later "Saskatoon"
+5788 = { "Fort Saint Charles" "Fort Saint Charles" }
+5789 = { "Fort Pelly" "Fort Pelly" }
+5939 = { "Red Deer River" "Fort Normandeau" }
 
 #Northwest Territories
 
@@ -1312,6 +1341,8 @@
 #California
 
 #Great Plains
+2501 = { "Fort Benton" "Fort Benton" }
+5632 = { "Milk River" "Sweetgrass" } #(JP) Ehhhhhh...
 
 #Great Lakes
 904 = { "Mason City" "Mason City" }
@@ -1529,7 +1560,6 @@
 #1004 = "Fort Albany"					#BT
 #1005 = "York Factory"					#BT
 #1006 = "Churchill"					#BT
-#1008 = "Red River"					#BT
 #1009 = "Berens River"					#BT
 #1010 = "Dauphin"					#BT
 #1011 = "The Pas"					#BT
@@ -1537,14 +1567,10 @@
 
 #2003 = "Kootenai"					#BT
 2007 = "Les Cedres"
-#2016 = "Great Forks"					#BT
-#2017 = "Edmonton"					#BT
-#2018 = "Jasper"					#BT
 
 2542 = "Beaufort"
 2543 = "Long Bay"
 #2580 = "Wemotaci"					#BT
-#2597 = "South Branch"					#BT
 #2592 = "Severn"					#BT
 #2593 = "Lake of the Woods"					#BT
 #2600 = "Vermillion"					#BT
@@ -1577,19 +1603,12 @@
 1004 = "Moose Fort" # Mosoni								#Anglophone name
 1005 = "York Factory" # Mushkegowuk					#Anglophone name
 1006 = "Churchill" # Missinipi									#Anglophone name
-1008 = "Winnipeg" # Winipek									#Generic name
 1009 = "Fort Alexander" # Wanipigow					#Francophone name by Anglophone
 1010 = "Manitoba" # Manidoobaa							#Generic name
-5939 = "Red Deer" # Waskasoo Seepee						#Anglophone name
 1806 = "Island Lake" # Wasagamack							#Anglophone name
 1808 = "Humboldt" # Mahaguaduka							#Germanic name used by Anglophone problem would another name be better
 1813 = "The Pas" # Opaskwayak								#Francophone name by Anglophone full name Pascoyac
 2003 = "Cranbrook" # Ktunaxa								#Anglophone name 
-2004 = "Lethbridge" # Kainawa									#Anglophone name
-2005 = "Pile o' Bones" # Oscana								#Anglophone name
-2016 = "Grandes Fourches" # Isangyathi					#Francophone name by Anglophone
-2017 = "Fort Edmonton" # Nehiyawewin					#Anglophone name
-2018 = "Jasper" # Tsuu Tina										#Anglophone name problem better name needed
 2019 = "Nez Perces" # Niimiipu								#Francophone name by Anglophone
 2020 = "Idaho Falls" # Bohoinee								#Anglophone name problem bad name need better
 2021 = "San Francisco" # Miwok								#
@@ -1608,18 +1627,13 @@
 2488 = "Yakima" # Yakama										#Generic name
 2489 = "Boise" # Bannock											#Anglophone name problem anachronistic is Bannock better less recognisable
 2490 = "Salt Lake City" # Gutsipupiutsi					#Anglophone name
-2511 = "Devil's Lake" # Mni Wakang						#Anglophone name
 2592 = "Fort Severn" # Omaskekowak						#Anglophone name
 2593 = "Rat Portage" # Minitie						#Anglophone name
 2594 = "Nelson" # Powinigow									#Anglophone name
 2595 = "Île-à-la-Crosse" # Sakittawak						#Francophone name by Anglophone
-2596 = "Qu'Appelle" # Hohe										#Francophone name by Anglophone
-2597 = "Saskatchewan" # Kisiskaciwani Sipiy			#Generic name
-2598 = "Moose Jaw" # Moose Gaw							#Anglophone name
 2599 = "Fort Chipewyan" # Kaithelikehotinne			#Anglophone name
 2600 = "Athabasca" # Athapaskaw							#Generic name
 2601 = "Fort Vermilion" # Wapuskau						#Anglophone name
-2602 = "Calgary" # Siksikawa									#Celtic Norse name used by Anglophone
 2603 = "Rocky Mountain Portage" # Tsekene			#
 2604 = "Fort George" # Dakelh									#Anglophone name
 2605 = "Shuswap" # Secwepemc								#Generic name
@@ -1707,7 +1721,6 @@
 5031 = "Eureka" # Wiyot											#Christian name used by Anglophone
 5032 = "Bakersfield" # Tachi										#Anglophone name
 5033 = "Fort Fork" # Amiskiwiyiniw						#Anglophone name
-5034 = "Medicine Hat" # Saamis								
 5035 = "Beaver River" # Nahathaway						#Anglophone name
 5040 = "Kaska" # Kaska											#Generic name
 5041 = "Nahanni" # Nahanni										#Generic name
@@ -1822,19 +1835,14 @@
 2007 = "Mobridge"			#Notes - 
 2008 = "Dickinson"			#Notes - 
 2009 = "Valentine"			#Notes - 
-2501 = "Great Falls"			#Notes - 
 2502 = "Fort Belknap"			#Notes - 
 2503 = "Bighorn"			#Notes - Better name would be great here, but going with the mountain range and national forest for now.
 2504 = "Worland"			#Notes - or Themopolis, or Bighorn Basin
 2505 = "Black Hills"			#Notes - Or Hot Springs, or Deadwood, or Rapid City
 2506 = "Wind River"			#Notes - 
 2510 = "Washburn"			#Notes - 
-#1008 covered in 2.0
 #1009 covered in 2.0
 #1010 covered in 2.0
-#2016 covered in 2.0
-#2511 covered in 2.0
-#2596 covered in 2.0
 	
 #BT800 New Provinces
 5612 = "Salmon"			#Notes - 
@@ -1847,9 +1855,7 @@
 5619 = "Fort Robinson"			#Notes - 
 5620 = "Oacoma"			#Notes - 
 5622 = "Virginia"			#Notes - 
-5623 = "Minot"			#Notes - 
 5624 = "Brandon House"			#Notes - 
-5625 = "Pembina"			#Notes - 
 5626 = "Centralia"			#Notes - or Fargo
 5627 = "Havre"			#Notes - 
 5628 = "Sioux City"			#Notes - 
@@ -1969,12 +1975,7 @@
 5426 = "Moçâmedes"
 
 #BT900 New Provinces (North America), note these are all mostly rubbish names I placed mostly from memory. Eventually I'd like to merge the proper research I did in the province files with the names here.
-5632 = "Sweetgrass" #
 5633 = "Fort Peck" #
-5634 = "Assiniboia" #
-5635 = "Swift Current" #
-5636 = "Lloydminster" #
-5637 = "Battleford" #
 5638 = "Aberdeen" #
 5727 = "Juneau" #
 5728 = "Prince of Wales Island" #
@@ -2031,13 +2032,6 @@
 5780 = "Campbell River" #
 5781 = "Sequim" #
 5782 = "High Desert" #
-5783 = "Rocky Mountain House" #
-5784 = "Banff" #
-5785 = "Brooks" #
-5786 = "Cypress Hills" #
-5787 = "Saskatoon" #
-5788 = "Fort St. Charles" #
-5789 = "Fort Pelly" #
 5790 = "Similkameen" #
 5791 = "Cahuilla" #
 5792 = "Santa Maria" #
@@ -2216,7 +2210,6 @@
 
 #columbia
 827 = "Antioch"
-2596 = "Acandia"
 2807 = "Cabimas"
 4599 = "Turbo"
 
