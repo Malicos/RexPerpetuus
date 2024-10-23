@@ -1,24 +1,19 @@
 #ADG - Kel Adagh
-
 #Political Situation
 capital = 9154
-
 #Government
 government_rank = 1
 government = tribal
 add_government_reform = saharan_tribe_reform
-
 #Demographics
 primary_culture = tuareg
 religion = sunni
 religious_school = maliki_school
-
 #Tech and Military
-technology_group = east_african
-
+technology_group = maghrebi_tech
 #History
-1444.11.11 = {
-	monarch = {
+1444.11.11 = { 
+	monarch = { 
 		name = "Tribal Council"
 		adm = 3
 		dip = 3

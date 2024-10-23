@@ -3,12 +3,11 @@ add_government_reform = iqta
 primary_culture = khorasani
 religion = sunni
 government_rank = 1
-technology_group = muslim_tech
-capital = 435	# Zaranj
+technology_group = iranian_tech
+capital = 435# Zaranj
 religious_school = shafii_school
-
-1421.2.8 = {
-	monarch = {
+1421.2.8 = { 
+	monarch = { 
 		name = "Ibrahim II"
 		dynasty = "Mihrabanid"
 		adm = 4

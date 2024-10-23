@@ -2,16 +2,16 @@ government = monarchy
 add_government_reform = mamluk_government
 primary_culture = tajik
 religion = sunni
-technology_group = muslim_tech
-capital = 522 # Delhi
+technology_group = indian
+capital = 522# Delhi
 add_army_professionalism = 0.1
 religious_school = shafii_school
-
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_church
 	share = -10
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_burghers
 	share = 10
 }
+government_rank = 1
