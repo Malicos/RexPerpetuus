@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 primary_culture = bengali
 religion = vajrayana
 technology_group = indian
-capital = 563	# Pandua
+capital = 4476
 
 change_estate_land_share = {
 	estate = estate_church

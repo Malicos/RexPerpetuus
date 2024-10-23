@@ -5,4 +5,5 @@ discovered_by = eastern
 discovered_by = nomad_group
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
+discovered_by = maghrebi_tech
 is_city = no

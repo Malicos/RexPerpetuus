@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 primary_culture = galician
 religion = catholic
 technology_group = western
-capital = 1330 # Vila Real
+capital = 8094 # Vila Real
 government_rank = 1
 
 1440.10.19 = {

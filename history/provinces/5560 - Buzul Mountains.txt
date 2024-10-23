@@ -6,4 +6,5 @@ discovered_by = nomad_group
 discovered_by = indian
 discovered_by = east_african
 discovered_by = rhomanian_tech
+discovered_by = maghrebi_tech
 is_city = no
