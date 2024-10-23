@@ -1043,7 +1043,6 @@
 2737 = { "Caldeirão" "Caldeirão" } #Napier
 2738 = { "Sintra do Sul" "Sintra do Sul" } #Nelson 
 2739 = { "Mendes" "Mendes" } #Hamilton
-#5939
 5597 = { "Vila Rainha" "Vila Rainha" } #Queenstown
 5599 = { "Hoquitica" "Hoquitica" } #Hokitika
 5600 = { "Igreja de Cristo" "Igreja de Cristo" } #Christchurch
@@ -2291,17 +2290,12 @@
 1004 = "Mosoni" # Mosoni										#Generic name
 1005 = "Mosquegão" # Mushkegowuk						#Generic name
 1006 = "Missinipi" # Missinipi									#Generic name
-1008 = "Uinipé" # Winipek									#Generic name
 1009 = "Uanipigou" # Wanipigow							#Generic name
 1010 = "Manitoba" # Manidoobaa							#Generic name
-5939 = "Cervos Vermelhos" # Waskasoo Seepee				#Iberian name
 1806 = "Uassagamaque" # Wasagamack						#Generic name
 1813 = "Pasquia" # Opaskwayak								#Generic name
 2003 = "Cananasquis" # Ktunaxa								#Generic name
 2004 = "Cainaua" # Kainawa									#Generic name
-2005 = "Uascana" # Oscana										#Generic name
-2016 = "Grande Partição" # Isangyathi					#Iberian name BeyondTypusInvention
-2017 = "Forte Edmundo" #Nehiyawewin					#Anglophone name
 2018 = "Gaspar" # Tsuu Tina										#Anglophone name problem better name needed
 2019 = "Narizes Furados" # Niimiipu						#Iberian name BeyondTypusInvention
 2020 = "Cachoeiras de Idaó" # Bohoinee					#Iberian name BeyondTypusInvention
@@ -2318,18 +2312,13 @@
 2487 = "Espoquém" # Sqeliz											#Generic name
 2488 = "Jáquima" # Yakama										#Generic name
 2489 = "Banoques" # Bannock											#Anglophone name problem anachronistic is Bannock better less recognisable
-2511 = "Lago do Diabo" # Mni Wakang					#Iberian name BeyondTypusInvention
 2592 = "Forte Douro" # Omaskekowak						#Anglophone name
 2593 = "Lago do Bosque" # Minitie						#Anglophone name
 2594 = "Nelsônio" #Powinigow									#Anglophone name
 2595 = "Ilha Cajado" # Sakittawak						#Francophone name by Anglophone
-2596 = "Apela" # Hohe										#Francophone name by Anglophone
-2597 = "Sascacheuã" # Kisiskaciwani Sipiy			#Generic name
-2598 = "Brisas Mornas" # Moose Gaw						#Iberian name BeyondTypusInvention
 2599 = "Forte Chipeuiã" # Kaithelikehotinne			#Anglophone name
 2600 = "Atabasca" # Athapaskaw							#Generic name
 2601 = "Vermelhão" # Wapuskau								#Iberian name BeyondTypusInvention
-2602 = "Calgária" # Siksikawa									#Celtic Norse name used by Anglophone
 2603 = "Secani" # Tsekene										#Generic name
 2604 = "Forte Jorge" # Dakelh									#Anglophone name
 2605 = "Xuçuape" # Secwepemc								#Generic name
@@ -2404,7 +2393,6 @@
 5029 = "Oaú" # Oahu												#Generic name
 5031 = "Uiote" # Wiyot										#Iberian name
 5033 = "Amisquiuiniu" # Amiskiwiyiniw				#Generic name
-5034 = "Sámis" # Saamis											#Generic name
 5035 = "Natauai" # Nahathaway						#Generic name
 5040 = "Casca" # Kaska											#Generic name
 5041 = "Nani" # Nahanni										#Generic name
