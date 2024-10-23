@@ -17,6 +17,7 @@ country_decisions = {
 			NOT = { exists = NSE }
             NOT = { tag = PAP }
             NOT = { tag = HLR }
+			NOT = { culture = denlegian }
             culture_group = scandinavian
             is_colonial_nation = no
             OR = {
@@ -28,14 +29,7 @@ country_decisions = {
             }
         }
         provinces_to_highlight = {
-            OR = {
-                province_id = 1		# Uppland
-                province_id = 6		# Skane
-                province_id = 7		# Vastergotland
-                province_id = 12		# Sjaelland
-                province_id = 15		# Jylland
-                province_id = 17		# Akershus
-            }
+            region = nordurica_region
             OR = {
                 NOT = { owned_by = ROOT }
                 NOT = { is_core = ROOT }
