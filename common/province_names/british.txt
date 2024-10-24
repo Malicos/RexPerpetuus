@@ -1227,28 +1227,95 @@
 5904 = { "London" "London" }
 
 #Hudson Bay
+998 = { "Port Harrison" "Port Harrison" }
+999 = { "Fort George" "Fort George" }
+1000 = { "Rupert House" "Rupert House" } #(JP) Earlier "Fort Charles" and then later "Fort Rupert"
 1002 = { "Abitibi House" "Abitibi House" }
+1003 = { "Fort Albany" "Fort Albany" }
+1004 = { "Moose Factory" "Moose Factory" }
+1005 = { "York Factory" "York Factory" }
+1006 = { "Churchill Post" "Churchill Post" }
 1008 = { "Fort Douglas" "Fort Douglas" } #(JP) Modern "Winnepeg" 
+1009 = { "Fort Alexander" "Fort Alexander" }
+1010 = { "Manitoba House" "Manitoba House" }
+1011 = { "Grand Rapids" "Grand Rapids" } #(JP) French "Fort Bourbon"
+1104 = { "Juliana's Hope" "Juliana's Hope" }
+1105 = { "Holsteinborough" "Holsteinborough" }
+1805 = { "Lake Minto" "Lake Minto Post" } #(JP) Native name is for "Leaf River"
+1806 = { "Oxford House" "Oxford House" }
+1811 = { "Tadoule Lake" "Tadoule Lake" }
+1813 = { "Fort Paskoyac" "Fort Paskoyac" } #(JP) Modern "The Pas", French "Fort Paskoya" or "Pasquia"
 2004 = { "Fort Hamilton" "Fort Hamilton" }
 2005 = { "Pile o' Bones" "Pile o' Bones" } #(JP) Modern "Regina"
 2016 = { "Grand Forks" "Grand Forks" }
 2017 = { "Fort Edmonton" "Fort Edmonton" }
 2018 = { "Jasper House" "Jasper House" }
 2511 = { "Devils Lake" "Devils Lake" }
+2589 = { "Cochrane" "Cochrane" }
+2591 = { "Brunswick House" "Brunswick House" }
+2592 = { "Fort Severn" "Fort Severn" }
+2593 = { "Rat Portage" "Rat Portage" }
+2594 = { "Norway House" "Norway House" }
+2595 = { "Île-à-la-Crosse" "Île-à-la-Crosse" } #(JP) French name used by HBC
 2596 = { "Fort Ellice" "Fort Ellice" }
 2597 = { "Fort Albert" "Fort Albert" } #(JP) I can't find the name of this initial settlement, where modern "Prince Albert" is located. This name comes from the 1860's, and "Isbister's Settlement" comes only a few years earlier, but it was settled in the 1770's. So going with "Fort Albert" for lack of somethign better.
 2598 = { "Moose Jaw" "Moose Jaw" }
 2602 = { "Fort Calgary" "Fort Calgary" }
-4901 = { "Centralia" "Centralia" } #(JP) Modern "Fargo" Better than nothing
+3111 = { "Jacob's Haven" "Jacob's Haven" }
+3112 = { "Good Hope" "Good Hope" }
+3113 = { "Frederick's Hope" "Frederick's Hope" }
+4901 = { "Centralia" "Centralia" } #(JP) Modern "Fargo". Better than nothing
 4919 = { "Brandon House" "Brandon House" }
+4990 = { "Eskimo Point" "Eskimo Point" }
+4991 = { "Rankin Inlet" "Rankin Inlet" }
+4992 = { "Cape Fullerton" "Fullerton Harbour" }
+4993 = { "Repulse Bay" "Repulse Bay" }
+4994 = { "Melville Peninsula" "Igloolik" }
+4995 = { "Southampton Island" "Coral Harbour" }
+4996 = { "Cape Dorset" "Cape Dorset" }
+4997 = { "Lake Harbour" "Lake Harbour" }
+4998 = { "Frobisher Bay" "Frobisher Bay" }
+4999 = { "Belcher Islands" "South Camp" }
+5002 = { "Bedford House" "Bedford House" } #(JP) Nearby later has "Fort du Brochet", but this was founded 1883. "Bedford House" was established pre-1800, though eventually abandoned.
+5003 = { "Big Beaver House" "Big Beaver House" }
+5004 = { "Ear Falls" "Ear Falls" }
+5005 = { "Fort Weenisk" "Fort Weenisk" }
+5006 = { "Cape Wolstenholme" "Wolstenholme Post" } #(JP) Or "Deception Bay" "Deception"
+5007 = { "Fort Chimo" "Fort Chimo" }
+5008 = { "Nemaska" "Nemaska" }
+5009 = { "Woswonaby House" "Woswonaby House" } #(JP) Found on the HBC Posts map
 5034 = { "Medicine Hat" "Medicine Hat" }
+5035 = { "Cold Lake House" "Cold Lake House" } #(JP) On "Beaver River"
+5036 = { "English River" "English River Post" }
+5057 = { "Fort Pike" "Fort Pike" } #(JP) Found on map of HBC Forts
+5067 = { "Baker Lake" "Baker Lake" }
+5068 = { "Fort Prince of Wales" "Fort Prince of Wales" } #(JP) This province seems to represent literally nothing. Zilch. Nada. It looks like an error on Draiochts end, the native names relate to a group further noth, and the name "Keewatin" is a much larger name. I can't find a tribe here or anything. Using "Prince of Wales Fort" because its 'something' at least
+5069 = { "Dubawnt Lake" "Dubawnt Lake Post" } #(JP) For lack of a better name
+5070 = { "Ennadai" "Ennadai" } #(JP) For lack of a better name
+5071 = { "Great Fish River" "Great Fish River Post" } #(JP) For lack of a better name
+5088 = { "Fort Dauphin" "Fort Dauphin" } #(JP) French fort name
 5089 = { "Cumberland House" "Cumberland House" }
+5573 = { "La Ronge" "La Ronge" } #(JP) French name used by HBC
+5580 = { "Lake's House" "Lake's House" } #(JP) On the Burntwood River, where "Thompson" would later be built
+5587 = { "Cranberry Portage" "Cranberry Portage" }
+5588 = { "Empty Fjords" "Isertoq" } #(JP) Practically nothing on this stretch of coast, "Isertoq" is just about in the province
+5589 = { "Cape Dan" "Cape Dan" }
+5590 = { "Scoresby Sound" "Scoresby Sound" } #(JP) "Scoresbysund" is named after an English explorer.
+5592 = { "Burnt Creek" "Burnt Creek" } #(JP) Modern "Schefferville"
+5593 = { "South River House" "South River House" } #(JP) Found on map of HBC locations
+5594 = { "Nitchequon" "Nitchequon" } #(JP) Despite being a native name, it seems that HBC used it. Also their most isolated/eastern most(?) site
+5595 = { "Cumberland Sound" "Port Cumberland" } #(JP) Town is actually "Pangnirtung" lacking an English name, so made one up for the sake of it
+5596 = { "Clyde Inlet" "Clyde River" }
+5611 = { "Meadow Lake" "Bolsover House" }
 5623 = { "Mouse River" "Minot" }
 5625 = { "Fort Pembina" "Fort Pembina" }
 5634 = { "Assiniboia" "Assiniboia" } #(JP) Could do with something older here ngl
 5635 = { "Swift Current" "Swift Current" }
 5636 = { "Fort Pitt" "Fort Pitt" }
 5637 = { "Battleford" "Battleford" }
+5639 = { "Nelson House" "Nelson House" }
+5640 = { "Berens River" "Berens River Post" } #(JP) Also contains Poplar River which is what the provinces' native name is based on
+5641 = { "Port Weenisk" "Port Weenisk" } #(JP) Bit made up, never a HBC place here, native town is Peawanuck, or Winisk 90. Using "Fort Weenisk" for the actual fort further inland
 5783 = { "Acton House" "Rocky Mountain and Acton House" } #(JP) Technically, the name "Rocky Mountain House" was kept, but this is too long for the province name. Both were practically the same location and same timeframe
 5784 = { "Banff" "Banff" } #(JP) Founded in 1880's, but basically empty otherwise.
 5785 = { "Brooks" "Brooks" } #(JP) Nothing here is before the 20th Century.... Damn you Drai. 
@@ -1256,6 +1323,9 @@
 5787 = { "Carlton House" "Carlton House" } #(JP) Later "Saskatoon"
 5788 = { "Fort Saint Charles" "Fort Saint Charles" }
 5789 = { "Fort Pelly" "Fort Pelly" }
+5901 = { "Osnaburgh House" "Osnaburgh House" }
+5902 = { "Fort Hope" "Fort Hope" }
+5903 = { "Marten Falls" "Marten Falls" }
 5939 = { "Red Deer River" "Fort Normandeau" }
 
 #Northwest Territories
@@ -1553,15 +1623,6 @@
 #982 = "Cape Breton"					#BT
 #988 = "Simcoe"					#BT
 #990 = "Three Rivers"					#BT
-#998 = "Fort Richmond"					#BT
-#999 = "Eastmain"					#BT
-#1000 = "Fort Rupert"					#BT
-#1003 = "Moose Factory"					#BT
-#1004 = "Fort Albany"					#BT
-#1005 = "York Factory"					#BT
-#1006 = "Churchill"					#BT
-#1009 = "Berens River"					#BT
-#1010 = "Dauphin"					#BT
 #1011 = "The Pas"					#BT
 1174 = "Walvis Bay"
 
@@ -1571,8 +1632,6 @@
 2542 = "Beaufort"
 2543 = "Long Bay"
 #2580 = "Wemotaci"					#BT
-#2592 = "Severn"					#BT
-#2593 = "Lake of the Woods"					#BT
 #2600 = "Vermillion"					#BT
 #2601 = "Dunvegan"					#BT
 #2603 = "Fort St. John"					#BT
@@ -1596,18 +1655,9 @@
 974 = "Fort McLoughlin" # Kwakiutl						#Anglophone name
 975 = "Bella Coola	" # Nuxalk									#Christian name used by Anglophone
 976 = "Wrangell" # Lingit											#Slavic name used by Anglophone
-998 = "Port Harrison" # Innuksuak							#Anglophone name
-999 = "Fort George" # Cisasipi									#Anglophone name
-1000 = "Charles Fort" # Wapanutaw							#Anglophone name
-1003 = "Fort Albany" # Keeshechewan					#Anglophone name
 1004 = "Moose Fort" # Mosoni								#Anglophone name
-1005 = "York Factory" # Mushkegowuk					#Anglophone name
-1006 = "Churchill" # Missinipi									#Anglophone name
-1009 = "Fort Alexander" # Wanipigow					#Francophone name by Anglophone
-1010 = "Manitoba" # Manidoobaa							#Generic name
 1806 = "Island Lake" # Wasagamack							#Anglophone name
 1808 = "Humboldt" # Mahaguaduka							#Germanic name used by Anglophone problem would another name be better
-1813 = "The Pas" # Opaskwayak								#Francophone name by Anglophone full name Pascoyac
 2003 = "Cranbrook" # Ktunaxa								#Anglophone name 
 2019 = "Nez Perces" # Niimiipu								#Francophone name by Anglophone
 2020 = "Idaho Falls" # Bohoinee								#Anglophone name problem bad name need better
@@ -1627,10 +1677,6 @@
 2488 = "Yakima" # Yakama										#Generic name
 2489 = "Boise" # Bannock											#Anglophone name problem anachronistic is Bannock better less recognisable
 2490 = "Salt Lake City" # Gutsipupiutsi					#Anglophone name
-2592 = "Fort Severn" # Omaskekowak						#Anglophone name
-2593 = "Rat Portage" # Minitie						#Anglophone name
-2594 = "Nelson" # Powinigow									#Anglophone name
-2595 = "Île-à-la-Crosse" # Sakittawak						#Francophone name by Anglophone
 2599 = "Fort Chipewyan" # Kaithelikehotinne			#Anglophone name
 2600 = "Athabasca" # Athapaskaw							#Generic name
 2601 = "Fort Vermilion" # Wapuskau						#Anglophone name
@@ -1683,26 +1729,8 @@
 4987 = "Fort Nelson" # Muskwa								#Anglophone name
 4988 = "Stuart Lake" # Wetsuweten							#Anglophone name
 4989 = "Fort Resolution" # Desnedhekkenade			#Anglophone name
-4990 = "Eskimo Point" # Tikirajualaaq						#Anglophone name
-4991 = "Rankin Inlet" # Kudlulik								#Anglophone name
-4992 = "Cape Fullerton" # Qatiktalik						#Anglophone name
-4993 = "Repulse Bay" # Naujaat								#Anglophone name
-4994 = "Igloolik" # Sanirajak										#Generic name
-4995 = "Southhampton Island" # Shugliaq				#Anglophone name
-4996 = "Cape Dorset" # Sikusiilaq							#Anglophone name
-4997 = "Lake Harbour" # Amadjuak							#Anglophone name
-4998 = "Frobisher Bay" # Iqaluit								#Anglophone name
-4999 = "Belcher Islands" # Sanikiluaq						#Anglophone name
 5000 = "Methye Portage" # Methye							#Generic name
 5001 = "Stony Rapids" # Hoteladi Hotthenade			#Anglophone name
-5002 = "Brochet" # Kinoosao									#Francophone name by Anglophone
-5003 = "Big Trout Lake" # Inninuwug						#Anglophone name
-5004 = "Ear Falls" # Otahwaka Powitek					#Anglophone name
-5005 = "Winisk" # Webequie										#Generic name
-5006 = "Deception Bay" # Salluit								#Anglophone name
-5007 = "Fort Chimo" # Kuujjuaq								#Anglophone name
-5008 = "Nemasko" # Nemiskaw								#Generic name
-5009 = "Chibougamau" # Ucepukumu						#Generic name
 5010 = "Peribonka" # Menukuanistuk Shipu			#Generic name
 5016 = "Winnemucca" # Kuyuidika							#Generic name
 5017 = "Elko" # Natakkoa											#Anglophone name
@@ -1721,19 +1749,12 @@
 5031 = "Eureka" # Wiyot											#Christian name used by Anglophone
 5032 = "Bakersfield" # Tachi										#Anglophone name
 5033 = "Fort Fork" # Amiskiwiyiniw						#Anglophone name
-5035 = "Beaver River" # Nahathaway						#Anglophone name
 5040 = "Kaska" # Kaska											#Generic name
 5041 = "Nahanni" # Nahanni										#Generic name
 5042 = "Mohave" # Aha Makhav								#Generic name
 5043 = "Mexicali" # Cocopah									#Iberian name used by Anglophone
 5044 = "Mono Lake" # Kucadikadi							#Anglophone name
 5045 = "Redding" # Wintu											#Anglophone name
-
-#BT300 Overhaul Vanilla renaming
-971 = "Castine"	# Abnaki											#Francophone name 
-1002 = "Abitibi"	#Abitibi											#Native name
-2589 =  "Cochrane" # Kesagami									#Anglophone name
-2591 =  "Missinaibi" # Outoulibi								#Native name
 
 #BT400  Overhaul Vanilla renaming
 855 = "Mazatlán"	# Huichol									#Generic name
@@ -1775,28 +1796,16 @@
 488 = "Port-au-Prince"	# Les Cayes								
 489 = "Cap-Français"	# Tortuga									
 490 = "Higuey"	# Barahonas									
-492 = "Puerto Rico"	# Puerto Rico								
-1104 = "Juliana's Hope"	# Eiriksfjord								
-1105 = "Egedesminde"	# Vestbygden								
-#1805 = "Ungava"	# Québec										#No localised naming used	
-1811 = "Tadoule Lake"	# Nunavut									
+492 = "Puerto Rico"	# Puerto Rico									
 1812 = "Snowdrift"	# Northwest Territories				
 #2654 = "Baracoa"	# Baracoa									#No localised naming used	
 #2655 = "Bayamo"	# Bayamo									#No localised naming used	
 2656 = "Camaguey"	# Camaguey								
 2658 = "Azua"	# Maguana									
-2659 = "Santiago"	# Magua										
-
-#BT500 Messing with BtP
-3111 = "Christian's Hope"	# Amerloq									
-3112 = "Good Hope"	# Kikertarsocitsiak						
-3113 = "Frederick's Hope"	# Mellembygden							
+2659 = "Santiago"	# Magua																
 	
-#BT500 New Provinces
-5067 = "Baker's Lake"	# Qamanituaq								
-5068 = "Keewatin"	# Paallirmiut								
-5069 = "Ennadai"	# Ihalmiut									
-5070 = "Lake Brochet"	# Etthen Eldili								
+#BT500 New Provinces							
+5068 = "Keewatin"	# Paallirmiut									
 5071 = "Great Fish River"	# Thlewechodyeth						
 5072 = "Dogribs"	# Tatsaotine								
 5073 = "Fort Confidence"	# EastSahtu									
@@ -1812,16 +1821,8 @@
 4624 = "Pinar del Rio"	# Guanahatabey							
 4622 = "Isle of Pines"	# Siwanea									
 4623 = "Santa Clara"	# Cubanacan								
-5572 = "Holguin"	# Bani											
-#5588 = "Sermersooq"	# Sermersooq							#No localised naming used	
-#5589 = "Angmagssalik"	# Angmagssalik					#No localised naming used			
-5590 = "Liverpool Land"	# Scoresbysund							
+5572 = "Holguin"	# Bani													
 5591 = "Isabella"	# Jan Mayen									#Dutch 'Maurits Eylandt'
-5592 = "Schefferville"	# North Naskapi							
-5593 = "Fort Mackenzie"	# Caniapiscau								
-#5594 = "Nitchequon"	# Nitchequon								#No localised naming used	
-5595 = "Cumberland"	# Panniqtuuq								
-5596 = "Clyde River"	# Kanngiqtugaapik						
 
 #BT800  Overhaul Vanilla renaming
 #Note from Draiocht - Some of these are really crap. Eventually I'm hoping to find the time to come back and fix some of these with more period appropriate names and historical settlements, but the historical situation here is rather a mess and there is more heresay and legends than scholarly research, so I'm 
@@ -1841,8 +1842,6 @@
 2505 = "Black Hills"			#Notes - Or Hot Springs, or Deadwood, or Rapid City
 2506 = "Wind River"			#Notes - 
 2510 = "Washburn"			#Notes - 
-#1009 covered in 2.0
-#1010 covered in 2.0
 	
 #BT800 New Provinces
 5612 = "Salmon"			#Notes - 

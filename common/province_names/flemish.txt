@@ -571,7 +571,6 @@
 #ruperts land
 1003 = "Albaneesfort"
 1004 = "Elandsfort"
-1000 = "Karlsburcht"
 
 #patagonia
 783 = "Westpatagonië"
@@ -594,11 +593,7 @@
 3114 = "Westijsland"
 3115 = "Oostijsland"
 
-#grünland
-3112 = "Walvis Eiland"
-
 #borealia
-1005 = "Bonthaven"
 1813 = "Nieuwe Krain"
 5057 = "Hoofdpad"
 5595 = "Kariboe Bul"

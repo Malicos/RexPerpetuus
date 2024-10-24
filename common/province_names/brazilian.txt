@@ -2283,17 +2283,7 @@
 2542 = "Santa Helena"
 
 #Uncapitalised and Unorganised									
-998 = "Inuxuaque" # Innuksuak									#Generic name
-999 = "Cisassipi" # Cisasipi										#Generic name
-1000 = "Uapanutau" # Wapanutaw							#Generic name
-1003 = "Quixecheuã" # Keeshechewan					#Generic name
-1004 = "Mosoni" # Mosoni										#Generic name
-1005 = "Mosquegão" # Mushkegowuk						#Generic name
-1006 = "Missinipi" # Missinipi									#Generic name
-1009 = "Uanipigou" # Wanipigow							#Generic name
-1010 = "Manitoba" # Manidoobaa							#Generic name
 1806 = "Uassagamaque" # Wasagamack						#Generic name
-1813 = "Pasquia" # Opaskwayak								#Generic name
 2003 = "Cananasquis" # Ktunaxa								#Generic name
 2004 = "Cainaua" # Kainawa									#Generic name
 2018 = "Gaspar" # Tsuu Tina										#Anglophone name problem better name needed
@@ -2312,10 +2302,6 @@
 2487 = "Espoquém" # Sqeliz											#Generic name
 2488 = "Jáquima" # Yakama										#Generic name
 2489 = "Banoques" # Bannock											#Anglophone name problem anachronistic is Bannock better less recognisable
-2592 = "Forte Douro" # Omaskekowak						#Anglophone name
-2593 = "Lago do Bosque" # Minitie						#Anglophone name
-2594 = "Nelsônio" #Powinigow									#Anglophone name
-2595 = "Ilha Cajado" # Sakittawak						#Francophone name by Anglophone
 2599 = "Forte Chipeuiã" # Kaithelikehotinne			#Anglophone name
 2600 = "Atabasca" # Athapaskaw							#Generic name
 2601 = "Vermelhão" # Wapuskau								#Iberian name BeyondTypusInvention
@@ -2360,26 +2346,8 @@
 4987 = "Múscua" # Muskwa									#Generic name
 4988 = "Ueçuetém" # Wetsuweten						#Generic name
 4989 = "Resoluto" # Desnedhekkenade					#Iberian name BeyondTypusInvention
-4990 = "Tiquirajualaque" # Tikirajualaaq						#Generic name
-4991 = "Cudrulique" # Kudlulik									#Generic name
-4992 = "Catictalique" # Qatiktalik								#Generic name
-4993 = "Naujate" # Naujaat										#Generic name
-4994 = "Iglulique" # Sanirajak										#Generic name
-4995 = "Tunite" # Shugliaq											#Iberian name
-4996 = "Cabo Dorseta" # Sikusiilaq							#Iberian name
-4997 = "Amajuaque" # Amadjuak								#Generic name
-4998 = "Icaluíte" # Iqaluit											#Generic name
-4999 = "Saniquiluaque" # Sanikiluaq								#Generic name
 5000 = "Métie" # Methye										#Generic name
 5001 = "Corredeira das Pedras" # Hoteladi Hotthenade					#Iberian name
-5002 = "Lúcios" # Kinoosao									#Francophone name
-5003 = "Ininoúgue" # Inninuwug								#Generic name
-5004 = "Otauaca" # Otahwaka Powitek					#Generic name
-5005 = "Uinisque" # Webequie										#Generic name
-5006 = "Baía do Engano" # Salluit							#Iberian name
-5007 = "Chimo" # Kuujjuaq										#Generic name
-5008 = "Nemasco" # Nemiskaw								#Generic name
-5009 = "Chibugamau" # Ucepukumu						#Generic name
 5010 = "Peribonca" # Menukuanistuk Shipu				#Generic name
 5017 = "Álceo" # Natakkoa										#Iberian name BeyondTypusInvention
 5020 = "Ilhas Revilha Gigedo" # Revilla Gigedo Islands					#Iberian name
@@ -2393,7 +2361,6 @@
 5029 = "Oaú" # Oahu												#Generic name
 5031 = "Uiote" # Wiyot										#Iberian name
 5033 = "Amisquiuiniu" # Amiskiwiyiniw				#Generic name
-5035 = "Natauai" # Nahathaway						#Generic name
 5040 = "Casca" # Kaska											#Generic name
 5041 = "Nani" # Nahanni										#Generic name
 5044 = "Lago do Macaco" # Kucadikadi							#Iberian name
@@ -2435,38 +2402,19 @@
 5065 = "Povo" # Muache										#Iberian name
 5066 = "Tembrão" # Taveewachii								#Iberian name BeyondTypusInvention
 
-#BT500  Overhaul Vanilla renaming																			
-1104 = "Esperança de Juliana"	# Eiriksfjord								
-1105 = "Egedesminde"	# Vestbygden								
-#1805 = "Ungava"	# Québec										#No localised naming used	
+#BT500  Overhaul Vanilla renaming									
 1811 = "Lago Tadule"	# Nunavut									
 1812 = "Ventisqueiro"	# Northwest Territories						
-
-#BT500 Messing with BtP
-3111 = "Esperança de Cristiano"	# Amerloq									
-3112 = "Esperança Boa"	# Kikertarsocitsiak						
-3113 = "Esperança de Frederico"	# Mellembygden	
 	
-#BT500 New Provinces
-5067 = "Lago Padeiro"	# Qamanituaq								
-5068 = "Quiuatim"	# Paallirmiut								
-5069 = "Enadai"	# Ihalmiut									
-5070 = "Lago dos Lúcios"	# Etthen Eldili								
+#BT500 New Provinces								
+5068 = "Quiuatim"	# Paallirmiut												
 5071 = "Rio dos Piexes Grandes"	# Thlewechodyeth						
 5072 = "Costela de Cachorro"	# Tatsaotine								
 5073 = "Forte Confiança"	# EastSahtu									
 5074 = "Lago Colvila"	# Kahbamitue							
 5093 = "Ilhas Desoladas"	# Kerguelen Islands					
 #4619 = "Xarama"	# Marien										#No localised naming used	
-#5563 = "Jaquimel"	# Yaquimel										
-#5588 = "Sermersuque"	# Sermersooq							#No localised naming used	
-#5589 = "Amassalique"	# Angmagssalik					#No localised naming used			
-#5590 = "Escoresbisundo"	# Scoresbysund					#No localised naming used		
-5592 = "Vila Chéfer"	# North Naskapi							
-5593 = "Forte Maquenze"	# Caniapiscau								
-#5594 = "Nichequão"	# Nitchequon								#No localised naming used	
-5595 = "Cumberlândia"	# Panniqtuuq								
-5596 = "Rio Clide"	# Kanngiqtugaapik						
+#5563 = "Jaquimel"	# Yaquimel														
 
 #2018 Feb 25
 #southafrica

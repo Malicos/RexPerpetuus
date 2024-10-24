@@ -14,6 +14,15 @@
 4367 = { "Vik" "Vik" } #Adapted from Old Norse Vik (Former name of the town was Wyke)
 4370 = { "Kambrygge" "Kambrygge" } #Adapted from Old Norse Grantabryggja + English Cambridge
 
+#Hudson Bay
+1104 = { "Julianehaab" "Julianehaab" }
+1105 = {"Holsteinsborg" "Holsteinsborg" }
+3111 = { "Jakobshavn" "Jakobshavn" }
+3112 = { "Godthaab" "Godthaab" }
+3113 = { "Frederikshaab" "Frederikshaab" }
+5588 = { "Frederikkyst" "Ubygder" } #(JP) Shortedn from "Kong Frederik VI Kyst", "Ubygder" was the name given by the Norse Settlements meaning "unbuilt place"
+5589 = { "Kap Dan" "Kap Dan" }
+5590 = { "Scoresbysund" "Scoresbysund" }
 
 #Restored Vanilla names
 1 = "Stokholm"
@@ -106,14 +115,6 @@
 25 = "Gulland" #Gotland
 1983 = "Laaland" #Lolland
 14 = "Fyen" #Fyn 
-
-#BT New Greenland
-1104 = "Julianehaab"
-1105 = "Egedesminde"
-3111 = "Christianshaab"
-3112 = "Godthaab"
-3113 = "Frederikshaab"
-5590 = "Scoresbysund"
 
 #Arga's work
 
