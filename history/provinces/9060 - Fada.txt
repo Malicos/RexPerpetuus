@@ -25,3 +25,4 @@ native_hostileness = 9#Each gives 1% chance of uprising a month
 #Discoveries
 discovered_by = east_african
 discovered_by = maghrebi_tech
+discovered_by = WAD

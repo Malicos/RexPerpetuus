@@ -1,27 +1,23 @@
 #114 - Romagna
 #Region - Italy
 #Area - Emilia-Romagna
-
 owner = RAV
 controller = RAV
 add_core = RAV
 culture = romagnan
-religion = catholic 
-hre = yes 
+religion = catholic
+hre = yes
 base_tax = 9
 base_production = 9
 trade_goods = salt
 base_manpower = 4
 capital = "Ravenna"
-is_city = yes	# Estimated #WTF Paradox
-
+is_city = yes# Estimated #WTF Paradox
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

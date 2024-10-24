@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = ANC
 controller = ANC
 add_core = ANC
@@ -10,14 +9,12 @@ capital = "Fermo"
 base_tax = 7
 base_production = 7
 base_manpower = 4
-trade_goods = cloth # lace, hats and footwear. Could also be copper or grain
+trade_goods = cloth# lace, hats and footwear. Could also be copper or grain
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,4 +1,3 @@
- 
 owner = SWA
 controller = SWA
 add_core = SWA
@@ -9,14 +8,12 @@ capital = "Ravensburg"
 is_city = yes
 hre = yes
 base_tax = 4
-base_production = 3 # In the Middle Ages, it was an Imperial Free City and an important trading centre.
-base_manpower = 2   #(JP) Pretty sure not as big as it was though
+base_production = 3# In the Middle Ages, it was an Imperial Free City and an important trading centre.
+base_manpower = 2#(JP) Pretty sure not as big as it was though
 trade_goods = cloth
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

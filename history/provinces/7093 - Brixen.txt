@@ -1,6 +1,4 @@
- 
 #BT Italy reoverhaul
-
 owner = TIR
 controller = TIR
 add_core = TIR
@@ -11,14 +9,12 @@ capital = "Brixen"
 base_tax = 4
 base_production = 5
 base_manpower = 4
-trade_goods = glass			#crystal chandeliers, also elite furniture
+trade_goods = glass#crystal chandeliers, also elite furniture
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -16,6 +16,5 @@ discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 1

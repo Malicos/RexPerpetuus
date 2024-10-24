@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = PAP
 controller = PAP
 add_core = PAP
@@ -10,14 +9,11 @@ capital = "Terni"#and Rieti I guess ?
 base_tax = 4
 base_production = 5
 base_manpower = 3
-trade_goods = iron # famous Ferriera ironworks. Could also be grain or paper
+trade_goods = iron# famous Ferriera ironworks. Could also be grain or paper
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,11 +1,9 @@
 # 204 Grenoble - Principal cities: Grenoble
 #Region - France
 #Area - Savoy
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = BUR
 controller = BUR
 add_core = BUR
@@ -13,17 +11,14 @@ capital = "Grenoble"
 is_city = yes
 culture = aquitaine
 religion = cathar
-hre = no
 base_tax = 4
 base_production = 4
 trade_goods = cloth
-base_manpower = 2 
-add_local_autonomy = 35			#Added to represent relative autonomy until 1457
-
+base_manpower = 2
+add_local_autonomy = 35#Added to represent relative autonomy until 1457
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

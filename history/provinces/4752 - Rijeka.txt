@@ -1,7 +1,6 @@
 #4752 - Fiume/Rijeka
 #Region - Germany
 #Area - Carniola
-
 owner = RIJ
 controller = RIJ
 add_core = RIJ
@@ -15,7 +14,6 @@ base_tax = 7
 base_production = 7
 base_manpower = 4
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -27,7 +25,5 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-
 extra_cost = 20
 center_of_trade = 2

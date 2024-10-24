@@ -1,7 +1,6 @@
 #3223 - Biala
-
 owner = HRO
-controller = HRO 
+controller = HRO
 add_core = HRO
 add_core = LEK
 culture = yotvingian_culture
@@ -12,8 +11,6 @@ base_production = 1
 base_manpower = 1
 trade_goods = grain
 is_city = yes
-hre = no
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,4 +22,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

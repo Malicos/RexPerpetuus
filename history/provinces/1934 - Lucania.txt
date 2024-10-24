@@ -1,25 +1,21 @@
 #1934 - Lucania
 #Region - Italy
 #Area - Calabria
-
 owner = CTA
 controller = CTA
 add_core = CTA
 add_core = MTA
-culture = kalabrian 
-religion = orthodox 
-hre = no 
-base_tax = 2 
+culture = kalabrian
+religion = orthodox
+base_tax = 2
 base_production = 2
 trade_goods = iron
 base_manpower = 1
 capital = "Potenza"
-is_city = yes 
-
+is_city = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

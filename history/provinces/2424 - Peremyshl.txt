@@ -1,18 +1,15 @@
 #2424 - Przemysl
-
 owner = VOL
-controller = VOL 
+controller = VOL
 add_core = VOL
 culture = halych
 religion = orthodox
-hre = no
 base_tax = 2
 base_production = 2
 trade_goods = grain
-base_manpower = 1 
+base_manpower = 1
 capital = "Peremyshl"
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,4 +21,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

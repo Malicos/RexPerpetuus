@@ -1,24 +1,20 @@
 #1749 - Cadiz
 #Region - Iberia
 #Area - Lower Andalucia
-
 owner = CDB
 controller = CDB
 add_core = CDB
 culture = andalusi_culture
 religion = sunni
-hre = no
 base_tax = 6
 base_production = 6
 trade_goods = salt
 base_manpower = 3
-capital = "Cadiz" 
+capital = "Cadiz"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

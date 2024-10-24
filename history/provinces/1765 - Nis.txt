@@ -1,24 +1,19 @@
 #1765 - Sofia
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = BUL
 controller = BUL
 add_core = BUL
 culture = bulgarian
 religion = orthodox
 capital = "Sofia"
-trade_goods = cloth		#Dub changed (From copper): I could find no reference to a copper mine in the region. Sofia certainly had some kind of blacksmithing, but there's a distinct lack of cloth in the region as of right now, which was a great export of the Bulgars.
-hre = no
+trade_goods = cloth#Dub changed (From copper): I could find no reference to a copper mine in the region. Sofia certainly had some kind of blacksmithing, but there's a distinct lack of cloth in the region as of right now, which was a great export of the Bulgars.
 base_tax = 4
-base_production = 4			#Ottoman records give circa 6,000 citizens in the early 16th century, apparently, up to 9,000 by the end of the century. Interestingly and unusually, western traders consistantly report a significantly higher figure of 75,000 from 1600s onward.
+base_production = 4#Ottoman records give circa 6,000 citizens in the early 16th century, apparently, up to 9,000 by the end of the century. Interestingly and unusually, western traders consistantly report a significantly higher figure of 75,000 from 1600s onward.
 base_manpower = 3
 is_city = yes
-fort_15th = yes
 add_local_autonomy = 10
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -27,10 +22,9 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
-
 extra_cost = 8
 center_of_trade = 1
+fort_15th = yes

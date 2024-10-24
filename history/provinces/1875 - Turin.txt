@@ -1,22 +1,18 @@
 #1875 - Cuneo (can't change filename)
-
 owner = SZO
 controller = SZO
 add_core = SZO
 culture = piedmontese
 religion = waldensian
-hre = no
 base_tax = 5
 base_production = 5
-trade_goods = cloth			#generic rich city good. This was at various times a floruishing market city, a fortified stronghold, and 
+trade_goods = cloth#generic rich city good. This was at various times a floruishing market city, a fortified stronghold, and 
 base_manpower = 2
 capital = "Cuneo"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

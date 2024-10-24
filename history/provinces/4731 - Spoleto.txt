@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = SPL
 controller = SPL
 add_core = SPL
@@ -9,14 +8,11 @@ capital = "Spoleto"
 base_tax = 5
 base_production = 4
 base_manpower = 3
-trade_goods = cloth # traditionally a cloth centre, placeholder for Olives which are particularly common here
+trade_goods = cloth# traditionally a cloth centre, placeholder for Olives which are particularly common here
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

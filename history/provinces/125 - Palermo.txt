@@ -1,27 +1,22 @@
 #125 - Palermo
 #Region - Italy
 #Area - Sicily
-
 owner = TCA
 controller = TCA
 add_core = TCA
-culture = sicilian 
-religion = catholic 
-hre = no 
+culture = sicilian
+religion = catholic
 base_tax = 11
 base_production = 11
 trade_goods = wine
 base_manpower = 7
 capital = "Palermo"
 is_city = yes
-
 extra_cost = 16
 center_of_trade = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

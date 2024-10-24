@@ -1,7 +1,6 @@
 #1851 - Coimbra
 #Region - Iberia
 #Area - Beiras
-
 owner = CDB
 controller = CDB
 add_core = CDB
@@ -11,19 +10,15 @@ culture = galician
 religion = catholic
 capital = "Coimbra"
 trade_goods = cloth
-hre = no
 base_tax = 5
 base_production = 5
-base_manpower = 3 
+base_manpower = 3
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 20
 center_of_trade = 2

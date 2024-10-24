@@ -1,22 +1,19 @@
 #BT Italy reoverhaul
-
 owner = FNZ
 controller = FNZ
 add_core = FNZ
 culture = romagnan
 religion = catholic
-capital = "Faenza"	#and Imola
+capital = "Faenza"#and Imola
 base_tax = 6
 base_production = 5
 base_manpower = 3
-trade_goods = glass # faience pottery
+trade_goods = glass# faience pottery
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

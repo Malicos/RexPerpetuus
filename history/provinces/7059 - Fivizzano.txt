@@ -1,22 +1,18 @@
 #BT Italy reoverhaul
-
 owner = LAN
 controller = LAN
 add_core = LAN
 culture = romagnan
 religion = catholic
-capital = "Fivizzano"	#and Pontremoli # and Fosdinovo too !
+capital = "Fivizzano"#and Pontremoli # and Fosdinovo too !
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = livestock # hilly and famous for hunting, just waiting for Olives
+trade_goods = livestock# hilly and famous for hunting, just waiting for Olives
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

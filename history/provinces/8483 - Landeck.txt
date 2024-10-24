@@ -1,40 +1,29 @@
 #8483 - Landeck
 #Area - 
 #Region - 
-
 #Core Details
 capital = "Landeck"
 is_city = yes
 owner = TIR
 controller = TIR
-
 #Demographics
 culture = bavarian
 religion = catholic
-
 #Development and Trade
 base_tax = 2
 base_production = 4
 base_manpower = 3
-trade_goods = bt_trade_good_silver #BT Harb changed with new trade good 
-
+trade_goods = bt_trade_good_silver#BT Harb changed with new trade good 
 #Cores and Occupation (Alphabetical after current)
 add_core = TIR
-
 #Other Political
 hre = yes
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories 

@@ -1,5 +1,4 @@
 #BT Balkans reoverhaul
-
 owner = RAG
 controller = RAG
 add_core = RAG
@@ -9,10 +8,9 @@ capital = "Šibenik"
 base_tax = 2
 base_production = 3
 base_manpower = 1
-trade_goods = salt			#Salt monopoly. In 1412 it became the main customs ofive and seat of the salt consumer office with a stong monopoly on the whole Adriatic.
+trade_goods = salt#Salt monopoly. In 1412 it became the main customs ofive and seat of the salt consumer office with a stong monopoly on the whole Adriatic.
 is_city = yes
 hre = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -21,10 +19,8 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
-
 extra_cost = 20
-center_of_trade = 2			#since 1412. Move to history for earlier starts
+center_of_trade = 2#since 1412. Move to history for earlier starts

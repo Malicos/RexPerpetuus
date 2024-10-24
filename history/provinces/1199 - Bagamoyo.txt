@@ -13,7 +13,6 @@ base_production = 2
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = ottoman
 discovered_by = central_african
 1498.3.16 = { discovered_by = POR }
 1600.1.1 = { discovered_by = TUR }

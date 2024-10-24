@@ -15,14 +15,12 @@ base_production = 5
 base_manpower = 4
 trade_goods = wool#Quarries also existed though were exhausted at the end of the 16th century.
 extra_cost = 20
-center_of_trade = 1#Third most significant city in England during Second Heptarchy, but not as much as Jorvik and Winchester.
-#Cores and Occupation (Alphabetical after current)
+center_of_trade = 1#Cores and Occupation (Alphabetical after current)
 add_core = MID
 #Other Political
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 fort_15th = yes

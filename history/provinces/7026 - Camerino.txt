@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = CMR
 controller = CMR
 add_core = CMR
@@ -9,14 +8,12 @@ capital = "Camerino"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = wine # need to represent wine production in Marche
+trade_goods = wine# need to represent wine production in Marche
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

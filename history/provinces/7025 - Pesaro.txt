@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = ANC
 controller = ANC
 add_core = ANC
@@ -10,14 +9,12 @@ capital = "Pesaro"
 base_tax = 4
 base_production = 4
 base_manpower = 3
-trade_goods = glass #ancient tradition of majolica (like Faenza), but could also be Olives or Wine or Cheese/Livestock or Fish
+trade_goods = glass#ancient tradition of majolica (like Faenza), but could also be Olives or Wine or Cheese/Livestock or Fish
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

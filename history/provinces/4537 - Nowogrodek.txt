@@ -1,28 +1,23 @@
 #4537 - Nowogrodek
-
 owner = KRV
 controller = KRV
 add_core = KRV
 add_core = MSK
 culture = byelorussian
 religion = orthodox
-hre = no
-base_tax = 3 
+base_tax = 3
 base_production = 4
-trade_goods = wool  
+trade_goods = wool
 base_manpower = 2
 capital = "Novogrudok"
 is_city = yes
 add_local_autonomy = 25
-
 #extra_cost = 8
 #center_of_trade = 1
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = nomad_group

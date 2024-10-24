@@ -1,22 +1,20 @@
 #584 - Ava
-
 owner = PAG
 controller = PAG
 add_core = PAG
 culture = burmese
 religion = buddhism
 capital = "Ava"
-trade_goods = gems #Burmese Emerald/Myanmar Jade
-hre = no
+trade_goods = gems#Burmese Emerald/Myanmar Jade
 base_tax = 7
 base_production = 7
 base_manpower = 4
-fort_15th = yes
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 extra_cost = 16
 center_of_trade = 2
+discovered_by = ottoman
+fort_15th = yes

@@ -1,7 +1,6 @@
 #3224 - Insterburg
 #Region - Baltic
 #Area - East Prussia
-
 owner = LIT
 controller = LIT
 add_core = LIT
@@ -10,16 +9,13 @@ capital = "Stallupönen"
 culture = yotvingian_culture
 religion = baltic_pagan_reformed
 trade_goods = naval_supplies
-hre = no
-base_tax = 1 
-base_production = 1 
-base_manpower = 1 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

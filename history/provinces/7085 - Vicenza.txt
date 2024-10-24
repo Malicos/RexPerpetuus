@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = PDV
 controller = PDV
 add_core = PDV
@@ -9,15 +8,12 @@ capital = "Vicenza"
 base_tax = 6
 base_production = 7
 base_manpower = 4
-trade_goods = bt_trade_good_silver #BT Harb changed with new  trade good	
-#The surrounding country is predominantly agricultural .... Major products are wine, wheat. There are also quarries of marble, sulphur, copper, and silver mines -wiki quote added by Draiocht
+trade_goods = bt_trade_good_silver#The surrounding country is predominantly agricultural .... Major products are wine, wheat. There are also quarries of marble, sulphur, copper, and silver mines -wiki quote added by Draiocht
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

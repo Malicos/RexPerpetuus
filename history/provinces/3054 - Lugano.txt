@@ -1,7 +1,6 @@
 #3054 - Lugano
 #Region - Germany
 #Area - Switzerland
-
 owner = LOM
 controller = LOM
 add_core = LOM
@@ -9,16 +8,13 @@ culture = lombard
 religion = catholic
 capital = "Lugano"
 trade_goods = wool
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

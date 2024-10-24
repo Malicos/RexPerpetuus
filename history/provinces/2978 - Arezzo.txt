@@ -1,25 +1,22 @@
 # - Arezzo
 #Region - Italy
 #Area - Tuscan
-
 owner = LAN
 controller = LAN
 add_core = LAN
 add_core = ARE
-culture = tuscan 
-religion = catholic 
-hre = yes 
+culture = tuscan
+religion = catholic
+hre = yes
 base_tax = 8
 base_production = 8
-trade_goods = livestock #chianina cattle, could also be glass for Pottery
+trade_goods = livestock#chianina cattle, could also be glass for Pottery
 base_manpower = 5
-capital = "Arezzo" 
-is_city = yes # Estimated 
-
+capital = "Arezzo"
+is_city = yes# Estimated 
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

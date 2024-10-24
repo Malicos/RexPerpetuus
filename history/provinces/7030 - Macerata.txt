@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = ANC
 controller = ANC
 add_core = ANC
@@ -10,14 +9,12 @@ capital = "Macerata"
 base_tax = 7
 base_production = 7
 base_manpower = 4
-trade_goods = grain # noted for being an agricultural city before the administrative centre was moved there. Could also be wine
+trade_goods = grain# noted for being an agricultural city before the administrative centre was moved there. Could also be wine
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

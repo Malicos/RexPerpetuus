@@ -1,7 +1,6 @@
 #3089 - Valence
 #Region - France
 #Area - Savoy
-
 owner = BUR
 controller = BUR
 add_core = BUR
@@ -9,17 +8,14 @@ capital = "Valence"
 is_city = yes
 culture = aquitaine
 religion = catholic
-hre = no
 base_tax = 2
 base_production = 3
 trade_goods = bt_trade_good_fruit
 base_manpower = 2
-add_local_autonomy = 35			#Added to represent relative autonomy until 1457
-
+add_local_autonomy = 35#Added to represent relative autonomy until 1457
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

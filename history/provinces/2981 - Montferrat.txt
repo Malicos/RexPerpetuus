@@ -1,25 +1,21 @@
 #2981 - Montferrat
 #Region - Italy
 #Area - Piedmont
-
 owner = LOM
 controller = LOM
 add_core = LOM
 add_core = MFA
 culture = piedmontese
 religion = waldensian
-hre = no
 base_tax = 5
 base_production = 5
 trade_goods = wine
 base_manpower = 3
 capital = "Casale"
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

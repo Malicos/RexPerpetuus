@@ -1,24 +1,20 @@
 #3040 - Piombino
 #Region - Italy
 #Area - Tuscan
-
 owner = PIS
 controller = PIS
 add_core = PIS
 culture = tuscan
 religion = catholic
-hre = no
 base_tax = 6
 base_production = 6
-trade_goods = iron # deposits of Elba
+trade_goods = iron# deposits of Elba
 base_manpower = 4
 capital = "Piombino"
-is_city = yes # Estimated
-
+is_city = yes# Estimated
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

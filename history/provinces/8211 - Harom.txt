@@ -1,35 +1,23 @@
 #8211 - Háromszék
 #Area - Northern Transylvania
 #Region - Carpathia
-
 #Core Details
 capital = "Sepsiszentgyörgy"
 is_city = yes
 owner = SZE
 controller = SZE
-
 #Demographics
 culture = szekely
 religion = catholic
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = naval_supplies
-
 #Cores and Occupation (Alphabetical after current)
 add_core = SZE
 add_core = TRA
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -41,6 +29,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-
-#Histories

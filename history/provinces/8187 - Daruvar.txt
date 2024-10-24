@@ -1,34 +1,26 @@
 #8187 - Daruvar
 #Area - Slavonia
 #Region - Balkans
-
 #Core Details
 capital = "Daruvar"
 is_city = yes
 owner = CRO
 controller = CRO
-
 #Demographics
 culture = croatian
 religion = bogomilist
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = livestock
-
 #Cores and Occupation (Alphabetical after current)
 add_core = CRO
 add_core = SLA
-
 #Other Political
 hre = yes
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = KAZ
 discovered_by = CRI
@@ -41,6 +33,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-
-#Histories

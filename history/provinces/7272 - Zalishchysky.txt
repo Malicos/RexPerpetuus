@@ -1,5 +1,4 @@
 #BT GDL reoverhaul
-
 owner = KIE
 controller = KIE
 add_core = KIE
@@ -11,9 +10,6 @@ base_production = 1
 base_manpower = 2
 trade_goods = bt_trade_good_beer
 is_city = yes
-hre = no
-fort_15th = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,4 +21,4 @@ discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

@@ -1,8 +1,6 @@
- 
 #1871 - Wallis
 #Region - Germany
 #Area - Romandie
-
 owner = BUR
 controller = BUR
 add_core = BUR
@@ -11,16 +9,13 @@ culture = high_burgundian
 religion = catholic
 capital = "Sion"
 trade_goods = wool
-hre = no
-base_tax = 3 
+base_tax = 3
 base_production = 4
 base_manpower = 5
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

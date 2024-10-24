@@ -1,26 +1,22 @@
 #212 - Girona
 #Region - Iberia
 #Area - Catalonia
-
 owner = SHQ
 controller = SHQ
 add_core = SHQ
 add_core = CAT
 culture = catalan
 religion = catholic
-hre = no
-base_tax = 2 
-base_production = 3 
-trade_goods = wine 			#also corks
-base_manpower = 2 
-fort_15th = yes #Ciutadella de Roses
-capital = "Girona" 
-is_city = yes		# census of 1462, also includes the town of Figueres 
-
+base_tax = 2
+base_production = 3
+trade_goods = wine#also corks
+base_manpower = 2
+capital = "Girona"
+is_city = yes# census of 1462, also includes the town of Figueres 
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

@@ -1,24 +1,21 @@
 #4739 - Bergamo
 #Region - Italy
 #Area - Lombardy
-
 owner = BGM
 controller = BGM
 add_core = BGM
-culture = lombard 
-religion = catholic 
-hre = yes 
+culture = lombard
+religion = catholic
+hre = yes
 base_tax = 5
 base_production = 5
 trade_goods = livestock
 base_manpower = 3
-capital = "Bergamo" 
+capital = "Bergamo"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

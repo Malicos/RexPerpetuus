@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = PDV
 controller = PDV
 add_core = PDV
@@ -9,17 +8,14 @@ capital = "Padua"
 base_tax = 12
 base_production = 12
 base_manpower = 5
-trade_goods = glass			#ceramics,pottery,musical instruments and goldsmithing
+trade_goods = glass#ceramics,pottery,musical instruments and goldsmithing
 is_city = yes
 hre = yes
-
 extra_cost = 16
 center_of_trade = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

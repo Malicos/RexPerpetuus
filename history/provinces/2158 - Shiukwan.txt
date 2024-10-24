@@ -1,5 +1,4 @@
 # 2158 - Shiukwan
-
 owner = SNG
 controller = SNG
 add_core = SNG
@@ -8,13 +7,12 @@ culture = hakka
 religion = taoism
 capital = "Shiukwan"
 trade_goods = iron
-hre = no
-base_tax = 8 
+base_tax = 8
 base_production = 8
 base_manpower = 4
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = ottoman

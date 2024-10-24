@@ -5,7 +5,7 @@ add_accepted_culture = icelandic
 religion = catholic
 technology_group = western
 historical_friend = DAN
-capital = 17 #Akershus
+capital = 5591
 
 
 1436.1.1 = { 

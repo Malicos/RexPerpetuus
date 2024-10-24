@@ -1,27 +1,22 @@
 #1745 - Cantabria
 #Region - Iberia
 #Area - Asturias
-
 owner = STD
 controller = STD
 add_core = STD
 culture = castillian
 religion = catholic
-hre = no
 base_tax = 2
 base_production = 3
-trade_goods = naval_supplies 
+trade_goods = naval_supplies
 base_manpower = 2
-capital = "Santander" 
+capital = "Santander"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 8
 center_of_trade = 1

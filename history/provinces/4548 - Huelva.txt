@@ -1,25 +1,21 @@
 #3098 - Huelva
 #Region - Iberia
 #Area - Lower Andalucia
-
 owner = CDB
 controller = CDB
 add_core = CDB
 add_core = SHS
 culture = batalyawsi
 religion = sunni
-hre = no
-base_tax = 2 
-base_production = 3 
-trade_goods = fish 
+base_tax = 2
+base_production = 3
+trade_goods = fish
 base_manpower = 2
-capital = "Huelva" 
+capital = "Huelva"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

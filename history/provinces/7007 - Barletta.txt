@@ -1,25 +1,20 @@
 #BT Italy reoverhaul
-
 owner = CTA
 controller = CTA
 add_core = CTA
 culture = griko
 religion = orthodox
-capital = "Barletta"		#also Trani, another one of the larger cities of the time in southern Italy.
+capital = "Barletta"#also Trani, another one of the larger cities of the time in southern Italy.
 base_tax = 5
 base_production = 5
 base_manpower = 3
 trade_goods = wine
 is_city = yes
-hre = no
-
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

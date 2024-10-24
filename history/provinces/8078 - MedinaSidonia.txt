@@ -2,7 +2,6 @@
 #8078 - Medina Sidonia
 #Region - Iberia
 #Area - Lower Andalucia
-
 owner = CDB
 controller = CDB
 add_core = CDB
@@ -12,14 +11,11 @@ capital = "Medina Sidonia"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = sugar			#Alfajor, an andalusian sweet.
+trade_goods = sugar#Alfajor, an andalusian sweet.
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

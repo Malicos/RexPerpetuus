@@ -1,7 +1,6 @@
 #156 - Temes
 #Region - Carpathia
 #Area - Transylvania
-
 owner = HUN
 controller = HUN
 add_core = HUN
@@ -9,15 +8,12 @@ add_core = BNT
 culture = hungarian
 religion = catholic
 capital = "Timisoara"
-trade_goods = grain		#Rich floodplain
-hre = no
-base_tax = 4 
-base_production = 3 
-base_manpower = 2 
+trade_goods = grain#Rich floodplain
+base_tax = 4
+base_production = 3
+base_manpower = 2
 is_city = yes
 center_of_trade = 1
-fort_15th = yes #Temesvar, royal castle built in this region post-Tatar invasions.
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -29,4 +25,4 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

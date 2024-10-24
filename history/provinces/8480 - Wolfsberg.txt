@@ -1,40 +1,29 @@
 #8480 - Wolsberg
 #Area - 
 #Region - 
-
 #Core Details
 capital = "Wolfsberg"
 is_city = yes
 owner = CNT
 controller = CNT
-
 #Demographics
 culture = bavarian
 religion = catholic
-
 #Development and Trade
 base_tax = 2
 base_production = 4
 base_manpower = 3
 trade_goods = grain
-
 #Cores and Occupation (Alphabetical after current)
 add_core = CNT
-
 #Other Political
 hre = yes
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories 

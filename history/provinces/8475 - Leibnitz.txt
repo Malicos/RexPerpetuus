@@ -1,40 +1,29 @@
 #8475 - Leibnitz
 #Area - 
 #Region - 
-
 #Core Details
 capital = "Leibnitz"
 is_city = yes
 owner = STY
 controller = STY
-
 #Demographics
 culture = bavarian
 religion = catholic
-
 #Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 1
 trade_goods = grain
-
 #Cores and Occupation (Alphabetical after current)
 add_core = STY
-
 #Other Political
 hre = yes
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories 

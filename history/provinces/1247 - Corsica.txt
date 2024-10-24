@@ -1,7 +1,6 @@
 #1247 - Corsica
 #Region - Italy
 #Area - Corsica and Sardinia
-
 owner = COR
 controller = COR
 add_core = COR
@@ -9,17 +8,14 @@ add_core = SAR
 culture = corsican_culture
 religion = catholic
 capital = "Ajaccio"
-hre = no
 base_tax = 2
 base_production = 2
 trade_goods = naval_supplies
 base_manpower = 1
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

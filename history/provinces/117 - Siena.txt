@@ -1,27 +1,23 @@
 #117 - Siena
 #Region - Italy
 #Area - Tuscan
-
 owner = SIE
 controller = SIE
 add_core = SIE
-culture = tuscan 
-religion = catholic 
-hre = yes 
+culture = tuscan
+religion = catholic
+hre = yes
 base_tax = 9
 base_production = 9
-trade_goods = glass #could also be cloth
+trade_goods = glass#could also be cloth
 base_manpower = 5
-capital = "Siena" 
-is_city = yes 
-
+capital = "Siena"
+is_city = yes
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

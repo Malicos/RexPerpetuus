@@ -1,21 +1,18 @@
- 
 # ex 8574
-
 owner = HPC
 controller = HPC
 add_core = HPC
 culture = haripunchian
 religion = buddhism
-capital = "Khelang Nakhon" # BT; "Lakhon"
+capital = "Khelang Nakhon"# BT; "Lakhon"
 is_city = yes
-hre = no
-base_tax = 5 # BT; 3
-base_production = 5 # BT; 3
-base_manpower = 3 # BT; 2
-trade_goods = iron # BT; grain
+base_tax = 5# BT; 3
+base_production = 5# BT; 3
+base_manpower = 3# BT; 2
+trade_goods = iron# BT; grain
 latent_trade_goods = { coal } # BT
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

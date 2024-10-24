@@ -1,26 +1,20 @@
 #211 - Pirineo
 #Region - Iberia
 #Area - Aragon
-
 owner = SHQ
 controller = SHQ
 add_core = SHQ
 culture = ibri_culture
 religion = sunni
-hre = no
-base_tax = 2  
-base_production = 2 
+base_tax = 2
+base_production = 2
 trade_goods = livestock
-base_manpower = 2 
-capital = "Huesca" 
+base_manpower = 2
+capital = "Huesca"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#fort_15th = yes #Castiello de Lobarre

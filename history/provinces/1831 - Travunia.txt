@@ -1,5 +1,4 @@
 #1831 - Travunia
-
 owner = BOS
 controller = BOS
 add_core = BOS
@@ -9,11 +8,10 @@ religion = orthodox
 capital = "Onogost"
 trade_goods = bt_trade_good_beer
 hre = yes
-base_tax = 1 
-base_production = 1 
-base_manpower = 1 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,4 +23,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

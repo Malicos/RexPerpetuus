@@ -1,7 +1,6 @@
 #4696 - Toulon
 #Region - France
 #Area - Provence
-
 owner = BUR
 controller = BUR
 add_core = BUR
@@ -9,16 +8,13 @@ capital = "Toulon"
 is_city = yes
 culture = aquitaine
 religion = cathar
-hre = no
 base_tax = 3
 base_production = 3
 trade_goods = naval_supplies
 base_manpower = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

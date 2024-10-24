@@ -1,28 +1,23 @@
 #4730 - Bologna
 #Region - Italy
 #Area - Emilia-Romagna
-
 owner = BLG
 controller = BLG
 add_core = BLG
-culture = romagnan 
-religion = catholic 
-hre = yes 
+culture = romagnan
+religion = catholic
+hre = yes
 base_tax = 11
 base_production = 11
-trade_goods = cloth # rather than cloth, silk mills were very widespread, and Bologna was very rich  #Not at the start of the game, changed to cloth and will become silk #Harb
+trade_goods = cloth# rather than cloth, silk mills were very widespread, and Bologna was very rich  #Not at the start of the game, changed to cloth and will become silk #Harb
 base_manpower = 6
-capital = "Bologna" 
-is_city = yes	# Estimated 
-
+capital = "Bologna"
+is_city = yes# Estimated 
 extra_cost = 15
-
 center_of_trade = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

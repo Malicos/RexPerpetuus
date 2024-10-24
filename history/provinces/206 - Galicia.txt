@@ -1,28 +1,23 @@
 #206 - A Corunha
 #Region - Iberia
 #Area - Asturias
-
 owner = GAL
 controller = GAL
 add_core = GAL
 culture = galician
 religion = catholic
-hre = no
 base_tax = 3
 base_production = 3
 trade_goods = fish
 base_manpower = 2
-capital = "La Coruña" 
+capital = "La Coruña"
 is_city = yes
- # Santiago de Compostela pilgrimage
-
+# Santiago de Compostela pilgrimage
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

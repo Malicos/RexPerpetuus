@@ -1,24 +1,20 @@
 #5098 - Menorca
 #Region - Iberia
 #Area - Balearic Islands
-
 owner = MJO
 controller = MJO
 add_core = MJO
 culture = catalan
 religion = catholic
-hre = no
-base_tax = 1 
-base_production = 1 
+base_tax = 1
+base_production = 1
 trade_goods = fish
-base_manpower = 1  
-capital = "Ciutadella" 
+base_manpower = 1
+capital = "Ciutadella"
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

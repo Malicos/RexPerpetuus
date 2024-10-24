@@ -1,19 +1,16 @@
 #Repurposed from Bydgoszcz and Kujawe into Zlotow and Krajna for 1.27, as 1.27 added a bunch and moved everything around.
 #3218 - Krajna
-
 owner = POL
 controller = POL
 add_core = POL
-capital = "Zlotów" #JP suggests Naklo. Zlotow seems more important.
+capital = "Zlotów"#JP suggests Naklo. Zlotow seems more important.
 culture = polish
 religion = catholic
 trade_goods = naval_supplies
-hre = no
-base_tax = 2 
-base_production = 1 
-base_manpower = 1 
+base_tax = 2
+base_production = 1
+base_manpower = 1
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,4 +22,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

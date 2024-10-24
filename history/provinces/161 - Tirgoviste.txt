@@ -1,5 +1,4 @@
 #161 - Tîrgoviste
-
 owner = BSN
 controller = BSN
 add_core = BSN
@@ -8,13 +7,11 @@ culture = romanian
 religion = orthodox
 capital = "Tîrgoviste"
 trade_goods = cloth
-hre = no
 base_tax = 4
 base_production = 3
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
 #fort_15th = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,4 +23,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

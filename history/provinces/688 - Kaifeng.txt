@@ -1,5 +1,4 @@
 #688 - Kaifeng (can't change file name)
-
 owner = SNG
 controller = SNG
 add_core = SNG
@@ -8,13 +7,12 @@ culture = zhongyuan
 religion = mahayana
 capital = "Kaifeng"
 trade_goods = chinaware
-hre = no
 base_tax = 14
 base_production = 14
 base_manpower = 8
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = ottoman

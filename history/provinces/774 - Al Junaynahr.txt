@@ -17,6 +17,7 @@ native_ferocity = 4 #Each gives 0.05 tactics to uprising
 native_hostileness = 9 #Each gives 1% chance of uprising a month
 
 discovered_by = east_african
+discovered_by = WAD
 
 1596.1.1 = {
 	owner = DAR

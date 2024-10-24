@@ -1,10 +1,7 @@
- 
 #1763 - Niederlausitz
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = BOH
 controller = BOH
 add_core = BOH
@@ -14,16 +11,14 @@ culture = sorbian
 religion = catholic
 trade_goods = wool
 hre = yes
-base_tax = 3 
-base_production = 3 
-base_manpower = 2 
+base_tax = 3
+base_production = 3
+base_manpower = 2
 is_city = yes
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

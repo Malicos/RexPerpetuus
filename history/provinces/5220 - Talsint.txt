@@ -15,7 +15,6 @@ native_hostileness = 9#Each gives 1% chance of uprising a month
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim_tech
-discovered_by = ottoman
 discovered_by = rhomanian_tech
 discovered_by = maghrebi_tech
 discovered_by = muslim_tech

@@ -1,19 +1,16 @@
 #4723 - Opole
-
 owner = OPL
 controller = OPL
 add_core = OPL
 culture = schlesian
 religion = catholic
-hre = no
 base_tax = 3
-base_production = 3 
+base_production = 3
 capital = "Opole"
 is_city = yes
-trade_goods = cloth #Was wine
-base_manpower = 2 
-
-1444.1.1 = { discovered_by = KAZ }
+trade_goods = cloth#Was wine
+base_manpower = 2
+1444.1.1 = { discovered_by = KAZ discovered_by = CRI discovered_by = GOL discovered_by = AST discovered_by = QAS }
 1444.1.1 = { discovered_by = CRI }
 1444.1.1 = { discovered_by = GOL }
 1444.1.1 = { discovered_by = AST }
@@ -22,6 +19,5 @@ discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

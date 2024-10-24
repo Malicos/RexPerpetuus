@@ -4,3 +4,4 @@ discovered_by = chinese
 1622.1.1 = { discovered_by = RUS }
 discovered_by = iranian_tech
 is_city = no
+discovered_by = ottoman

@@ -16,7 +16,6 @@ discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 1509.1.1 = { discovered_by = POR }
 1521.1.1 = { discovered_by = SPA }
 1527.1.1 = { 

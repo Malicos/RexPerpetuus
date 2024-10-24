@@ -1,27 +1,23 @@
 # Urbino
 #Region - Italy
 #Area - Central Italy
-
 owner = URB
 controller = URB
 add_core = URB
 culture = romagnan
-religion = catholic 
-hre = yes			#borderline, but strong Ghibelline associations, so HRE but Papal subject for now
+religion = catholic
+hre = yes#borderline, but strong Ghibelline associations, so HRE but Papal subject for now
 base_tax = 7
 base_production = 6
-trade_goods = glass # yet another majolica centre, could also be grain or wool
+trade_goods = glass# yet another majolica centre, could also be grain or wool
 base_manpower = 4
-capital = "Urbino" 
+capital = "Urbino"
 is_city = yes
-
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

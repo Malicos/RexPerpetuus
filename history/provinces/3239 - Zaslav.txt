@@ -1,5 +1,4 @@
 #BT GDL reoverhaul
-
 owner = KIE
 controller = KIE
 add_core = KIE
@@ -9,10 +8,8 @@ capital = "Ploskiriv"
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = grain			#Good growing area, apparently, so grain might actually fit.
+trade_goods = grain#Good growing area, apparently, so grain might actually fit.
 is_city = yes
-hre = no
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,4 +21,3 @@ discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

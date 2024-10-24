@@ -1,25 +1,21 @@
 #124 - Messina
 #Region - Italy
 #Area - Sicily
-
 owner = TCA
 controller = TCA
 add_core = TCA
 culture = siciliote
-religion = orthodox 
-hre = no 
+religion = orthodox
 base_tax = 4
 base_production = 4
 trade_goods = wine
 base_manpower = 2
-fort_15th = yes #Numerous forts, Castello Maniace and Castello di Milazzo being the prominent.
 capital = "Messina"
-is_city = yes 
-
+is_city = yes
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

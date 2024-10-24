@@ -1,29 +1,24 @@
- 
 # 1868 - Augsburg
 #Region - Germany
 #Area - Upper Swabia
-
 owner = SWA
 controller = SWA
 add_core = SWA
 add_core = AUG
 culture = swabian
 religion = catholic
-base_tax = 9			#With a strategic location as intersection of trade routes to Italy, the Free Imperial City became a major trading center. 
-base_production = 9			#One of the 5 largest cities in the HRE in the late 15th century, and the 3rd largest by the late 17th century. Also one of the richest, as the headquaters of the preeminent banking families for all of Europe 
-trade_goods = cloth	#fustians -Augsburg produced large quantities of woven goods, cloth and textiles.
+base_tax = 9#With a strategic location as intersection of trade routes to Italy, the Free Imperial City became a major trading center. 
+base_production = 9#One of the 5 largest cities in the HRE in the late 15th century, and the 3rd largest by the late 17th century. Also one of the richest, as the headquaters of the preeminent banking families for all of Europe 
+trade_goods = cloth#fustians -Augsburg produced large quantities of woven goods, cloth and textiles.
 base_manpower = 8
 capital = "Augsburg"
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 20
 center_of_trade = 2

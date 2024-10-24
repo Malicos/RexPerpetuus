@@ -1,28 +1,23 @@
- 
 # - Regensburg
 #Region - Germany
 #Area - Lower Bavaria
-
 owner = REG
 controller = REG
 add_core = REG
 culture = bavarian
 religion = catholic
 base_tax = 8
-base_production = 7			#No longer one the largest city in the Europe, perhaps second to Paris, as it once was (in the 11th century it was considerably larger than even Rome) and also no longer a contender for the title of capital of the HRE, but still quite a metropolis by EM standards, comparable size to Vienna
-trade_goods = cloth #Fustians
+base_production = 7#No longer one the largest city in the Europe, perhaps second to Paris, as it once was (in the 11th century it was considerably larger than even Rome) and also no longer a contender for the title of capital of the HRE, but still quite a metropolis by EM standards, comparable size to Vienna
+trade_goods = cloth#Fustians
 base_manpower = 7
-capital	= "Regensburg" 
+capital = "Regensburg"
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 extra_cost = 10
-
-center_of_trade = 1			#Added in vanilla patch 1.20, and a generally very good idea, though I previously held off because it faded in importance over our period.
+center_of_trade = 1#Added in vanilla patch 1.20, and a generally very good idea, though I previously held off because it faded in importance over our period.

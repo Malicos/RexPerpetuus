@@ -19,3 +19,4 @@ add_core = TUJ
 #Other Political
 discovered_by = east_african
 discovered_by = maghrebi_tech
+discovered_by = WAD

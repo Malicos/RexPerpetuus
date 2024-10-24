@@ -17,3 +17,4 @@ discovered_by = BRT
 discovered_by = japanese_group
 discovered_by = siberian_group
 is_city = no
+discovered_by = ottoman

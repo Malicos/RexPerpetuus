@@ -1,23 +1,20 @@
 #BT Italy reoverhaul
-
 owner = GRZ
 controller = GRZ
 add_core = GRZ
-add_core = AQU	# owned by Aquilea before 1283
+add_core = AQU# owned by Aquilea before 1283
 culture = istriot_culture
 religion = catholic
 capital = "Rovigno"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = fish # many small fishing towns, Istria is famous for fish delicacies. Could also be Naval Supplies
+trade_goods = fish# many small fishing towns, Istria is famous for fish delicacies. Could also be Naval Supplies
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

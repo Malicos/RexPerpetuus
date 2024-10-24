@@ -1,24 +1,20 @@
 #127 - Sardinia
 #Region - Italy
 #Area - Corsica and Sardinia
-
 owner = SAR
 controller = SAR
 add_core = SAR
-culture = sardinian 
-religion = catholic 
-hre = no 
+culture = sardinian
+religion = catholic
 base_tax = 1
 base_production = 1
 trade_goods = grain
 base_manpower = 1
 capital = "Oristano"
-is_city = yes 
-
+is_city = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

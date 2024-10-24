@@ -13,7 +13,6 @@ add_core = TUN
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim_tech
-discovered_by = ottoman
 add_core = BJA
 center_of_trade = 2
 1491.1.1 = { 
@@ -39,6 +38,5 @@ center_of_trade = 2
 }
 discovered_by = rhomanian_tech
 discovered_by = maghrebi_tech
-
 discovered_by = iranian_tech
 fort_15th = yes

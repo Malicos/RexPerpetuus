@@ -1,24 +1,21 @@
 #111 - Friuli
 #Region - Italy
 #Area - Venetia
-
 owner = AQU
 controller = AQU
 add_core = AQU
-culture = friulian_culture 
-religion = catholic 
+culture = friulian_culture
+religion = catholic
 hre = yes
 base_tax = 2
 base_production = 2
-trade_goods = fish # it's so poor I can't give it any better
-base_manpower = 2    
-capital = "Aquileia" 
-is_city = yes # Estimated
-
+trade_goods = fish# it's so poor I can't give it any better
+base_manpower = 2
+capital = "Aquileia"
+is_city = yes# Estimated
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

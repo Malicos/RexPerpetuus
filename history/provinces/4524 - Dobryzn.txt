@@ -1,5 +1,4 @@
 # 4525 - Dobryzn
-
 owner = POL
 controller = POL
 add_core = POL
@@ -8,11 +7,9 @@ is_city = yes
 culture = polish
 religion = catholic
 trade_goods = grain
-hre = no
 base_tax = 2
 base_production = 1
 base_manpower = 1
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,4 +21,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

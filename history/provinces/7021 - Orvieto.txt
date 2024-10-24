@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = PAP
 controller = PAP
 add_core = PAP
@@ -10,14 +9,11 @@ capital = "Orvieto"# and Todi
 base_tax = 8
 base_production = 8
 base_manpower = 7
-trade_goods = glass # Orvieto ware majolica. Could also be wine, due to Orvieto wine 
+trade_goods = glass# Orvieto ware majolica. Could also be wine, due to Orvieto wine 
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

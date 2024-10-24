@@ -15,12 +15,11 @@ discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 1509.1.1 = { discovered_by = POR }
 1527.1.1 = { 
 	controller = BAN
 	add_core = BAN
-	is_city = yes
+	city = yes
 }
 1550.1.1 = { religion = sunni }
 1602.1.1 = { discovered_by = ENG }

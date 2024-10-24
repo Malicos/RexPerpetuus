@@ -1,7 +1,6 @@
 #8970 - Chott El Djered
 discovered_by = western
 discovered_by = eastern
-discovered_by = ottoman
 discovered_by = muslim_tech
 discovered_by = rhomanian_tech
 discovered_by = maghrebi_tech

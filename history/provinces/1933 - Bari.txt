@@ -1,26 +1,22 @@
 #1933 - Bari
 #Region - Italy
 #Area - Apulia
-
 owner = CTA
 controller = CTA
 add_core = CTA
 add_core = BAI
 culture = griko
-religion = orthodox 
-hre = no 
+religion = orthodox
 base_tax = 3
 base_production = 3
 trade_goods = grain
 base_manpower = 2
 capital = "Bari"
-is_city = yes 
-fort_15th = yes
-
+is_city = yes
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

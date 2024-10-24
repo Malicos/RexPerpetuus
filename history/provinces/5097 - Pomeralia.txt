@@ -1,7 +1,6 @@
 #5097 - Pomeralia
 #Region - Baltic
 #Area - West Prussia
-
 owner = PME
 controller = PME
 add_core = PME
@@ -10,16 +9,13 @@ capital = "Starogarda"
 culture = kashubian_culture
 religion = catholic
 trade_goods = grain
-hre = no
-base_tax = 3 
-base_production = 3 
-base_manpower = 2 
+base_tax = 3
+base_production = 3
+base_manpower = 2
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -14,7 +14,6 @@ add_local_autonomy = 25
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = ottoman
 discovered_by = central_african
 1498.3.2 = { discovered_by = POR }
 1513.1.1 = { trade_goods = ivory }

@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = SVN
 controller = SVN
 add_core = SVN
@@ -9,13 +8,11 @@ capital = "Pitigliano"#capital since 1293
 base_tax = 6
 base_production = 6
 base_manpower = 5
-trade_goods = wine # yet another wine producing area
+trade_goods = wine# yet another wine producing area
 is_city = yes
-hre = no
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

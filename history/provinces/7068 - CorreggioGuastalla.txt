@@ -1,22 +1,19 @@
 #BT Italy reoverhaul
-
 owner = CRR
 controller = CRR
 add_core = CRR
 culture = romagnan
 religion = catholic
-capital = "Guastalla" #includes Guatalla, Coreggio, Novellara, Bagnolo, Mirandola
+capital = "Guastalla"#includes Guatalla, Coreggio, Novellara, Bagnolo, Mirandola
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = livestock # surprisingly not a placeholder for cheese, since this area is famous for meat delicacies, could also be fish
+trade_goods = livestock# surprisingly not a placeholder for cheese, since this area is famous for meat delicacies, could also be fish
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

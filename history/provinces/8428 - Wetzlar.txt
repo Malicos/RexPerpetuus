@@ -13,8 +13,7 @@ religion = catholic
 base_tax = 4
 base_production = 4
 base_manpower = 3
-trade_goods = iron#Velius: Mostly iron, but also had copper, silver and gold.
-#Cores and Occupation (Alphabetical after current)
+trade_goods = iron#Cores and Occupation (Alphabetical after current)
 add_core = HES
 add_core = WTZ
 #Other Political
@@ -25,6 +24,5 @@ hre = yes
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

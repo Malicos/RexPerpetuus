@@ -1,5 +1,4 @@
 #Lao Cai
-
 owner = CDL
 controller = CDL
 add_core = CDL
@@ -9,14 +8,13 @@ culture = tai
 religion = mahayana
 capital = "Sa Pa"
 trade_goods = grain
-hre = no
 base_tax = 3
 base_production = 4
 base_manpower = 2
-fort_15th = yes
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman
+fort_15th = yes

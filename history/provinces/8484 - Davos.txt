@@ -1,40 +1,29 @@
 #8484 - Davos
 #Area - 
 #Region - 
-
 #Core Details
 capital = "Davos"
 is_city = yes
 owner = TTL
 controller = TTL
-
 #Demographics
 culture = swabian
 religion = catholic
-
 #Development and Trade
 base_tax = 3
 base_production = 3
 base_manpower = 2
 trade_goods = wine
-
 #Cores and Occupation (Alphabetical after current)
 add_core = TTL
-
 #Other Political
 hre = yes
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories 

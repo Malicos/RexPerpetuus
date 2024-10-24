@@ -1,5 +1,4 @@
 #BT Balkans reoverhaul
-
 owner = BUL
 controller = BUL
 add_core = BUL
@@ -7,13 +6,11 @@ add_core = WAL
 culture = romanian
 religion = orthodox
 capital = "Târgu Jiu"
-base_tax = 2 
-base_production = 2 
-base_manpower = 1 
+base_tax = 2
+base_production = 2
+base_manpower = 1
 trade_goods = grain
 is_city = yes
-hre = no
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -22,7 +19,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western

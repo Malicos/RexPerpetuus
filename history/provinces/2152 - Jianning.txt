@@ -1,5 +1,4 @@
 # 2152 - Jianning
-
 owner = SNG
 controller = SNG
 add_core = SNG
@@ -9,13 +8,12 @@ culture = chimin
 religion = taoism
 capital = "Jianning"
 trade_goods = tea
-hre = no
-base_tax = 4  
+base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = ottoman

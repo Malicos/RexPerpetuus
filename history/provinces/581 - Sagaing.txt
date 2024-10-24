@@ -1,5 +1,4 @@
 #581 - Sagaing
-
 owner = PAG
 controller = PAG
 add_core = PAG
@@ -7,13 +6,12 @@ culture = burmese
 religion = buddhism
 capital = "Sagaing"
 trade_goods = cotton
-hre = no
-base_tax = 5 
+base_tax = 5
 base_production = 5
 base_manpower = 4
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

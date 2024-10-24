@@ -1,28 +1,22 @@
 #112 - Venezia
 #Region - Italy
 #Area - Venetia
-
 owner = VEN
 controller = VEN
 add_core = VEN
-culture = venetian 
-religion = catholic 
-hre = no 
+culture = venetian
+religion = catholic
 base_tax = 15
 base_production = 15
 trade_goods = glass
-base_manpower = 7 
-capital = "Venezia" 
-is_city = yes	# Estimated 
-#shipyard = yes
-
+base_manpower = 7
+capital = "Venezia"
+is_city = yes#shipyard = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-
 extra_cost = 50
 center_of_trade = 3

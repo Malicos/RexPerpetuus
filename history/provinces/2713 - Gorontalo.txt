@@ -14,5 +14,4 @@ discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = ottoman
 is_city = no

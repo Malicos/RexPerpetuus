@@ -1,5 +1,4 @@
 #1966 - Chelyaba
-
 owner = WTH
 controller = WTH
 add_core = WTH
@@ -8,15 +7,13 @@ capital = "Chelyaba"
 culture = manghit
 religion = sunni
 trade_goods = fur
-hre = no
-base_tax = 6 
+base_tax = 6
 base_production = 6
 base_manpower = 6
 is_city = yes
-
 discovered_by = nomad_group
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-
 unrest = 15
+discovered_by = ottoman

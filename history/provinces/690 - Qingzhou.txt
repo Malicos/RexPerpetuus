@@ -1,5 +1,4 @@
 #690 - Shandong Bandao
-
 owner = SNG
 controller = SNG
 add_core = SNG
@@ -8,13 +7,12 @@ culture = shandong_culture
 religion = mahayana
 capital = "Qingzhou"
 trade_goods = iron
-hre = no
-base_tax = 10 
+base_tax = 10
 base_production = 8
 base_manpower = 6
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = ottoman

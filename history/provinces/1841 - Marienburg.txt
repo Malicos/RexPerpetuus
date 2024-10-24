@@ -1,7 +1,6 @@
 #Marienburg
 #Region - Baltic
 #Area - West Prussia
-
 owner = TSO
 controller = TSO
 add_core = TSO
@@ -9,29 +8,24 @@ capital = "Truso"
 culture = pruthenian
 religion = catholic
 trade_goods = naval_supplies
-hre = no
 base_tax = 9
 base_production = 9
 base_manpower = 5
 is_city = yes
-fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 50
-
-add_permanent_province_modifier = {
+add_permanent_province_modifier = { 
 	name = vistula_estuary_modifier
 	duration = -1
 }
 center_of_trade = 2
-add_permanent_province_modifier = {
+add_permanent_province_modifier = { 
 	name = bt_kornhaus_der_hansa
 	duration = -1
 }
+fort_15th = yes

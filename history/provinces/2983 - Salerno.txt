@@ -1,25 +1,21 @@
 # - Salerno
 #Region - Italy
 #Area - Naples
-
 owner = CTA
 controller = CTA
 add_core = CTA
-culture = neapolitan 
-religion = catholic 
-hre = no 
+culture = neapolitan
+religion = catholic
 base_tax = 6
 base_production = 6
-trade_goods = naval_supplies 
+trade_goods = naval_supplies
 base_manpower = 4
-capital = "Salerno" 
-is_city = yes	
-add_local_autonomy = 50	#Actually a highly autonomous appanage from 1272 until 1419 
-
+capital = "Salerno"
+is_city = yes
+add_local_autonomy = 50#Actually a highly autonomous appanage from 1272 until 1419 
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

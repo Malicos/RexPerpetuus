@@ -1,7 +1,6 @@
 #1862 - Cremona
 #Region - Italy
 #Area - Lombardy
-
 owner = BSC
 controller = BSC
 add_core = BSC
@@ -13,12 +12,10 @@ base_production = 12
 trade_goods = grain
 base_manpower = 7
 capital = "Cremona"
-is_city = yes	# Estimated
-
+is_city = yes# Estimated
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,7 +1,6 @@
 #Åland
 #Region - Scandinavia
 #Area - Finland
-
 owner = SWE
 controller = SWE
 add_core = SWE
@@ -9,16 +8,13 @@ culture = swedish
 religion = catholic
 capital = "Jomala"
 is_city = yes
-hre = no
-base_tax = 1  
-base_production = 1 
-base_manpower = 1 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 trade_goods = fish
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -14,7 +14,6 @@ add_local_autonomy = 35
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = ottoman
 discovered_by = central_african
 1499.1.1 = { discovered_by = POR }
 1550.1.1 = { discovered_by = TUR }

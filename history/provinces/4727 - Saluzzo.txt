@@ -1,24 +1,20 @@
 #4727 - Saluzzo
 #Region - Italy
 #Area - Piedmont
-
 owner = SZO
 controller = SZO
 add_core = SZO
 culture = piedmontese
 religion = waldensian
-hre = no
 base_tax = 6
 base_production = 6
 trade_goods = wine
 base_manpower = 4
 capital = "Saluzzo"
-is_city = yes	# Estimated
-
+is_city = yes# Estimated
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

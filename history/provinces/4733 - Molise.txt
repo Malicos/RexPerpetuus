@@ -1,24 +1,20 @@
 #4733 - Molise
 #Region - Italy
 #Area - Naples
-
 owner = MLE
 controller = MLE
 add_core = MLE
-culture = neapolitan 
-religion = catholic 
-hre = no 
+culture = neapolitan
+religion = catholic
 base_tax = 2
 base_production = 3
 trade_goods = iron
 base_manpower = 2
 capital = "Campobasso"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

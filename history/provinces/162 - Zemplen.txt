@@ -1,5 +1,4 @@
 #162 - Zemplén
-
 owner = UHU
 controller = UHU
 add_core = UHU
@@ -7,13 +6,10 @@ culture = rusyn
 religion = orthodox
 capital = "Zemplín"
 trade_goods = livestock
-hre = no
 base_tax = 2
 base_production = 2
-base_manpower = 1 
+base_manpower = 1
 is_city = yes
-fort_15th = yes #Zemplin castle
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,4 +21,4 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

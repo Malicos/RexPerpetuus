@@ -35,3 +35,4 @@ discovered_by = nomad_group
 	add_core = QNG
 }
 discovered_by = iranian_tech
+discovered_by = ottoman

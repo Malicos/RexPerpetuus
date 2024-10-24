@@ -17,14 +17,9 @@ trade_goods = wool
 #Other Political
 native_size = 50#x by 100. Each gives 0.25 goods produced and determines size of uprising
 native_ferocity = 4#Each gives 0.05 tactics to uprising
-native_hostileness = 9#Each gives 1% chance of uprising a month
-#Fort/Other Buildings
-#Special Modifiers
-#Discoveries
+native_hostileness = 9#Discoveries
 discovered_by = western
 discovered_by = muslim_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = maghrebi_tech
-

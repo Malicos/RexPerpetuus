@@ -1,23 +1,19 @@
 #BT Italy reoverhaul
-
 owner = SVN
 controller = SVN
 add_core = SVN
 add_core = CUI
 culture = tuscan
 religion = catholic
-capital = "Chiusi"	#and Montepulciano
+capital = "Chiusi"#and Montepulciano
 base_tax = 5
 base_production = 5
 base_manpower = 2
-trade_goods = bt_trade_good_masonry # famous for pottery craftsmanship
+trade_goods = bt_trade_good_masonry# famous for pottery craftsmanship
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

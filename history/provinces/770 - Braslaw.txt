@@ -1,7 +1,6 @@
 # - Braslaw
 #Region - Baltic
 #Area - Lithuania
-
 owner = LIT
 controller = LIT
 add_core = LIT
@@ -10,11 +9,9 @@ is_city = yes
 culture = lithuanian
 religion = orthodox
 trade_goods = bt_trade_good_beer
-hre = no
-base_tax = 1 
-base_production = 2 
-base_manpower = 1 
-
+base_tax = 1
+base_production = 2
+base_manpower = 1
 discovered_by = nomad_group
 discovered_by = western
 discovered_by = eastern
@@ -22,4 +19,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

@@ -1,27 +1,23 @@
 #116 - Firenze
 #Region - Italy
 #Area - Tuscan
-
 owner = LAN
 controller = LAN
 add_core = LAN
-culture = tuscan 
-religion = catholic 
-hre = yes 
+culture = tuscan
+religion = catholic
+hre = yes
 base_tax = 14
 base_production = 14
-trade_goods = cloth			# very rich, glasswork and jewelry are traditional, and the wine came from nearby regions anyway. Also well known for fashion -yes, even in the middle ages, and weaving. Draiocht changed from glass to cloth, as much for secondary bonus as for history, though also because Italy has a lot of glass already
+trade_goods = cloth# very rich, glasswork and jewelry are traditional, and the wine came from nearby regions anyway. Also well known for fashion -yes, even in the middle ages, and weaving. Draiocht changed from glass to cloth, as much for secondary bonus as for history, though also because Italy has a lot of glass already
 base_manpower = 9
-fort_15th = yes
-capital = "Firenze" 
-is_city = yes # Founded 1321
-
+capital = "Firenze"
+is_city = yes# Founded 1321
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-
 center_of_trade = 2
+fort_15th = yes

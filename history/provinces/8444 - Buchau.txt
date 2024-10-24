@@ -1,40 +1,29 @@
 #8444 - Buchau
 #Area - 
 #Region - 
-
 #Core Details
 capital = "Buchau"
 is_city = yes
 owner = BUC
 controller = BUC
-
 #Demographics
 culture = swabian
 religion = catholic
-
 #Development and Trade
 base_tax = 1
 base_production = 1
 base_manpower = 1
 trade_goods = paper
-
 #Cores and Occupation (Alphabetical after current)
 add_core = BUC
-
 #Other Political
 hre = yes
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories 

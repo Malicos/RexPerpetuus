@@ -1,26 +1,22 @@
 #1774 - Treviso
 #Region - Italy
 #Area - Venetia
-
 owner = VEN
 controller = VEN
 add_core = VEN
 add_core = TRV
-culture = venetian 
-religion = catholic 
-hre = no
+culture = venetian
+religion = catholic
 base_tax = 9
 base_production = 9
 trade_goods = paper
 base_manpower = 5
-capital = "Treviso" 
-is_city = yes	# Estimated #um....
-fort_15th = yes
-
+capital = "Treviso"
+is_city = yes# Estimated #um....
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

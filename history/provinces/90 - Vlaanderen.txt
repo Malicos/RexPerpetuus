@@ -18,6 +18,5 @@ discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = ottoman
 extra_cost = 50
 center_of_trade = 3

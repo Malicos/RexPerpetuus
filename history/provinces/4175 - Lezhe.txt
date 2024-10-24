@@ -1,20 +1,17 @@
 #4175 - repurposed by Draiocht
 #Vanilla 4175 info
-
 owner = ALB
 controller = ALB
 add_core = ALB
 culture = albanian
 religion = catholic
-capital = "Lezhë"			
+capital = "Lezhë"
 trade_goods = wine
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
 #fort_15th = yes			#Main fort in Albania, was a very fortified area
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -23,7 +20,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western

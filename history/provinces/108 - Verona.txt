@@ -1,24 +1,21 @@
 #108 - Verona
 #Region - Italy
 #Area - Venetia
-
 owner = VRN
 controller = VRN
 add_core = VRN
-culture = venetian 
-religion = catholic 
-hre = yes 
-base_tax = 11			# I'm giving it a huge buff before the conquest by Venice, it was one of the richest cities in Italy and the world that had influence over the entire north penninsula, Dante compares it to Paradise at it's height around 1300, and it held Venice off the mainland for centuries -Nikicaga
-base_production = 11			#Well Nikicaga certainly is taken with the city, eh? I'm finding pop estimates of over 40k, very rich, and quite politically and historically important, so I can live with a boost. Also adding a few dev changes to later history. -Draiocht
-trade_goods = cloth			#Luxury Furniture, wine
+culture = venetian
+religion = catholic
+hre = yes
+base_tax = 11# I'm giving it a huge buff before the conquest by Venice, it was one of the richest cities in Italy and the world that had influence over the entire north penninsula, Dante compares it to Paradise at it's height around 1300, and it held Venice off the mainland for centuries -Nikicaga
+base_production = 11#Well Nikicaga certainly is taken with the city, eh? I'm finding pop estimates of over 40k, very rich, and quite politically and historically important, so I can live with a boost. Also adding a few dev changes to later history. -Draiocht
+trade_goods = cloth#Luxury Furniture, wine
 base_manpower = 6
-capital = "Verona" 
-is_city = yes 
-
+capital = "Verona"
+is_city = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

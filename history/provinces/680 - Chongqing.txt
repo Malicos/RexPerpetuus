@@ -1,5 +1,4 @@
 #680 - Chongqing
-
 owner = SNG
 controller = SNG
 add_core = SNG
@@ -9,15 +8,14 @@ culture = sichuanese
 religion = mahayana
 capital = "Chongqing"
 trade_goods = spices
-hre = no
 base_tax = 14
 base_production = 14
 base_manpower = 8
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = nomad_group
 extra_cost = 8
 center_of_trade = 1
+discovered_by = ottoman

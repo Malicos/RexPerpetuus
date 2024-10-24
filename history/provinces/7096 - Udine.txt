@@ -1,26 +1,22 @@
 #BT Italy reoverhaul
-
 owner = AQU
 controller = AQU
 add_core = AQU
-culture = friulian_culture	#Appears borderline, but I think this is probably accurate enough
+culture = friulian_culture#Appears borderline, but I think this is probably accurate enough
 religion = catholic
 capital = "Udine"
 base_tax = 8
 base_production = 8
 base_manpower = 5
-trade_goods = wine # Friuli wine region
+trade_goods = wine# Friuli wine region
 is_city = yes
 hre = yes
-fort_15th = yes
-
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

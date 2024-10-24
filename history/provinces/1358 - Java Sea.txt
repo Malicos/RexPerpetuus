@@ -1,6 +1,5 @@
 discovered_by = chinese
 discovered_by = southeast_asian_group
 discovered_by = muslim_tech
-discovered_by = ottoman
 discovered_by = indian
 1521.1.1 = { discovered_by = POR }

@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = CTN
 controller = CTN
 add_core = CTN
@@ -9,14 +8,12 @@ capital = "Cortona"
 base_tax = 5
 base_production = 5
 base_manpower = 4
-trade_goods = wine # famous for it's wines
+trade_goods = wine# famous for it's wines
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

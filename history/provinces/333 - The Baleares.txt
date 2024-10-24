@@ -1,26 +1,22 @@
 #333 - The Baleares
 #Region - Iberia
 #Area - Balearic Islands
-
 owner = MJO
 controller = MJO
 add_core = MJO
 culture = catalan
 religion = catholic
-hre = no
-base_tax = 4 
-base_production = 4 
+base_tax = 4
+base_production = 4
 trade_goods = livestock
-base_manpower = 2 
-capital = "Palma" 
+base_manpower = 2
+capital = "Palma"
 is_city = yes
-fort_15th = yes
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

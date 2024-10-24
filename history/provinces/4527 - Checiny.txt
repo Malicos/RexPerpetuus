@@ -1,20 +1,15 @@
 #4527 - Checiny
-
 owner = POL
 controller = POL
 add_core = POL
 capital = "Checiny"
 culture = polish
 religion = catholic
-trade_goods = bt_trade_good_masonry #Stone/Marble if added. Was cloth
-hre = no
+trade_goods = bt_trade_good_masonry#Stone/Marble if added. Was cloth
 base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-fort_15th = yes #Royal Castle in Checiny. Also perfect because it adds a 2nd layer of forts to Warsaw.
-
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,4 +21,4 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

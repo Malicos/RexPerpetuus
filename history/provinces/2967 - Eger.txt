@@ -1,33 +1,28 @@
- 
 # - Eger
 #Region - Germany
 #Area - Erzebirge
-
 owner = BOH
 controller = BOH
 add_core = BOH
 capital = "Eger"
 culture = czech
 religion = catholic
-trade_goods = bt_trade_good_silver #Joachimstal mines
+trade_goods = bt_trade_good_silver#Joachimstal mines
 hre = yes
 base_tax = 3
-base_production = 3 
-base_manpower = 2 
+base_production = 3
+base_manpower = 2
 is_city = yes
-fort_15th = yes #Cheb castle, while today in ruins I could find no information that it was in ruins by 1444 already.
 center_of_trade = 1
-
-1444.1.1 = { discovered_by = KAZ }
+1444.1.1 = { discovered_by = KAZ discovered_by = CRI discovered_by = GOL discovered_by = AST discovered_by = QAS }
 1444.1.1 = { discovered_by = CRI }
 1444.1.1 = { discovered_by = GOL }
 1444.1.1 = { discovered_by = AST }
 1444.1.1 = { discovered_by = QAS }
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

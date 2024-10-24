@@ -1,5 +1,4 @@
 #138 - Zeta
-
 owner = MON
 controller = MON
 add_core = MON
@@ -7,13 +6,10 @@ culture = serbian
 religion = orthodox
 capital = "Podgorica"
 trade_goods = livestock
-hre = no
-base_tax = 3 
-base_production = 3 
-base_manpower = 2 
-fort_15th = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,4 +21,4 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

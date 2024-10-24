@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = PAP
 controller = PAP
 add_core = PAP
@@ -10,14 +9,11 @@ capital = "Norcia"
 base_tax = 3
 base_production = 4
 base_manpower = 2
-trade_goods = livestock # famous for it's swine
+trade_goods = livestock# famous for it's swine
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

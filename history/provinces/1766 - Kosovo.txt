@@ -1,9 +1,7 @@
 #1766 - Kosovo
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = BUL
 controller = BUL
 add_core = BUL
@@ -11,13 +9,11 @@ add_core = RSC
 culture = serbian
 religion = orthodox
 capital = "Novo Brdo"
-trade_goods = bt_trade_good_silver #BT Harb changed with new  trade good #Silver, Novo Brdo and other Silver mines in this area
-hre = no
-base_tax = 3 
+trade_goods = bt_trade_good_silver#BT Harb changed with new  trade good #Silver, Novo Brdo and other Silver mines in this area
+base_tax = 3
 base_production = 4
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -29,4 +25,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

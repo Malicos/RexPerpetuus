@@ -12,8 +12,6 @@ is_city = yes
 add_core = TEK
 center_of_trade = 1
 discovered_by = muslim_tech
-discovered_by = ottoman
 discovered_by = western
 discovered_by = sub_saharan
 discovered_by = maghrebi_tech
-

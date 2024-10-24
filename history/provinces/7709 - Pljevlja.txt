@@ -1,9 +1,7 @@
 #BT Balkans reoverhaul
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = BUL
 controller = BUL
 add_core = BUL
@@ -16,8 +14,6 @@ base_production = 2
 base_manpower = 1
 trade_goods = wool
 is_city = yes
-hre = no
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,7 +22,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western

@@ -1,27 +1,22 @@
 # 196 Toulouse - Principal cities: Toulouse
 #Region - France
 #Area - Languedoc
-
 owner = TOU
 controller = TOU
 add_core = TOU
 capital = "Toulouse"
 is_city = yes
-culture = occitain	#aquitaine vanilla
+culture = occitain#aquitaine vanilla
 religion = cathar
-hre = no
 base_tax = 8
 base_production = 8
 trade_goods = dyes
 base_manpower = 5
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 20
 center_of_trade = 2

@@ -1,5 +1,4 @@
 #663 - Wenshan
-
 owner = CDL
 controller = CDL
 add_core = CDL
@@ -7,14 +6,13 @@ culture = bai
 religion = buddhism
 capital = "Guangnan"
 trade_goods = copper
-hre = no
-base_tax = 2  
-base_production = 2 
-base_manpower = 2 
+base_tax = 2
+base_production = 2
+base_manpower = 2
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
 discovered_by = nomad_group
+discovered_by = ottoman

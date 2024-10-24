@@ -1,28 +1,23 @@
 #1746 - Burgos
 #Region - Iberia
 #Area - Castille
-
 owner = CAS
 controller = CAS
 add_core = CAS
 culture = castillian
 religion = catholic
-hre = no
 base_tax = 6
 base_production = 6
-trade_goods = wool 
-base_manpower = 3 
-fort_15th = yes
+trade_goods = wool
+base_manpower = 3
 capital = "Burgos"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 20
 center_of_trade = 2
+fort_15th = yes

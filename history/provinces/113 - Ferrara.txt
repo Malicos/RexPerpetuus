@@ -1,26 +1,23 @@
 #113 - Ferrara
 #Region - Italy
 #Area - Emilia-Romagna
-
 owner = RAV
 controller = RAV
 add_core = RAV
 add_core = FER
-culture = romagnan 
-religion = catholic 
-hre = yes 
+culture = romagnan
+religion = catholic
+hre = yes
 base_tax = 6
 base_production = 6
-trade_goods = cloth # apparently famous for draperies, and generally a wealthy city. Could also be Fish
+trade_goods = cloth# apparently famous for draperies, and generally a wealthy city. Could also be Fish
 base_manpower = 4
-capital = "Ferrara" 
+capital = "Ferrara"
 is_city = yes
-fort_15th = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

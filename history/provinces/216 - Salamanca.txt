@@ -1,24 +1,20 @@
 #216 - Salamanca
 #Region - Iberia
 #Area - Leon
-
 owner = LON
 controller = LON
 add_core = LON
 culture = leonese
 religion = catholic
-hre = no
 base_tax = 3
-base_production = 2 
+base_production = 2
 trade_goods = bt_trade_good_books
-base_manpower = 2 
+base_manpower = 2
 capital = Salamanca
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

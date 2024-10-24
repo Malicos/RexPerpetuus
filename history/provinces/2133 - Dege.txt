@@ -18,3 +18,4 @@ discovered_by = indian
 extra_cost = 8
 center_of_trade = 1
 discovered_by = iranian_tech
+discovered_by = ottoman

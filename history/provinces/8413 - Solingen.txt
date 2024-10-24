@@ -13,8 +13,7 @@ religion = catholic
 base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = iron#Velius: known for manufacturing of blades
-#Cores and Occupation (Alphabetical after current)
+trade_goods = iron#Cores and Occupation (Alphabetical after current)
 add_core = MRS
 #Other Political
 hre = yes
@@ -24,6 +23,5 @@ hre = yes
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

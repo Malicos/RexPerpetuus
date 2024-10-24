@@ -1,7 +1,6 @@
 #Kovno
 #Region - Baltic
 #Area - Lithuania
-
 owner = LIT
 controller = LIT
 add_core = LIT
@@ -10,12 +9,10 @@ culture = lithuanian
 religion = orthodox
 capital = "Kaunas"
 trade_goods = grain
-hre = no
 base_tax = 3
 base_production = 3
-base_manpower = 1 
+base_manpower = 1
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -27,4 +24,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

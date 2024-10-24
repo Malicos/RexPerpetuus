@@ -1,7 +1,6 @@
 #2958 - Osterode
 #Region - Baltic
 #Area - East Prussia
-
 owner = PRU
 controller = PRU
 add_core = PRU
@@ -9,17 +8,14 @@ capital = "Osterode"
 culture = pruthenian
 religion = catholic
 trade_goods = naval_supplies
-hre = no
-base_tax = 5 
-base_production = 5 
+base_tax = 5
+base_production = 5
 base_manpower = 3
 is_city = yes
 #fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,7 +1,6 @@
 #130 - Istria
 #Region - Germany
 #Area - Carniola
-
 owner = RAG
 controller = RAG
 add_core = RAG
@@ -9,17 +8,15 @@ add_core = AQU
 culture = istriot_culture
 religion = catholic
 capital = "Pola"
-trade_goods = salt			#Accounted for 1/4 of the total Salt imports of Venice. Also a Major Shipbuilding Centre
+trade_goods = salt#Accounted for 1/4 of the total Salt imports of Venice. Also a Major Shipbuilding Centre
 hre = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

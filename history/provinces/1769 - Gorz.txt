@@ -1,7 +1,6 @@
 # 1769 - Görz
 #Region - Germany
 #Area - Carniola
-
 owner = GRZ
 controller = GRZ
 add_core = GRZ
@@ -16,11 +15,9 @@ base_manpower = 4
 capital = "Gorizia"
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

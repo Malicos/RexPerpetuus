@@ -1,25 +1,21 @@
 #3103 - Pontevedra
 #Region - Iberia
 #Area - Asturias
-
 owner = GAL
 controller = GAL
 add_core = GAL
 culture = galician
 religion = catholic
-hre = no
 base_tax = 2
 base_production = 3
-trade_goods = salt			#Salt monopoly
+trade_goods = salt#Salt monopoly
 base_manpower = 2
-fort_15th = yes
-capital = "Pontevedra" 
+capital = "Pontevedra"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

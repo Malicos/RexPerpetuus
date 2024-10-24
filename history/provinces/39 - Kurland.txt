@@ -1,20 +1,17 @@
 #Kurland, center at Goldingen
 #Region - Baltic
 #Area - Curonia
-
 owner = KUR
 controller = KUR
 add_core = KUR
 culture = latvian
 religion = baltic_pagan_reformed
-hre = no
-base_tax = 2 
-base_production = 2 
+base_tax = 2
+base_production = 2
 trade_goods = grain
-base_manpower = 1 
-capital = "Kuldiga"			#DE Goldingen
+base_manpower = 1
+capital = "Kuldiga"#DE Goldingen
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -23,7 +20,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech

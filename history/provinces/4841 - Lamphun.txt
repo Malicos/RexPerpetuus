@@ -1,6 +1,4 @@
- 
 # ex 8575
-
 owner = HPC
 controller = HPC
 add_core = HPC
@@ -8,13 +6,12 @@ culture = haripunchian
 religion = buddhism
 capital = "Lamphun"
 is_city = yes
-hre = no
 base_tax = 4
-base_production = 4 # BT; 3
+base_production = 4# BT; 3
 base_manpower = 3
-trade_goods = bt_trade_good_fruit # BT; grain
-
+trade_goods = bt_trade_good_fruit# BT; grain
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

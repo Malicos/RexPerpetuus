@@ -1,25 +1,20 @@
 #260 - Lublin
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = POL
 controller = POL
 add_core = POL
-capital= "Lublin"
+capital = "Lublin"
 culture = polish
 religion = catholic
 trade_goods = cloth
-hre = no
 base_tax = 3
 base_production = 2
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
 is_city = yes
-fort_15th = yes #Castle hill of Lublin. Mainly serves a 2nd line of defense to Warsaw from the south.
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -31,4 +26,4 @@ discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

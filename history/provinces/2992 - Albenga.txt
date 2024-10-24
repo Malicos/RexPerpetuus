@@ -1,24 +1,20 @@
 # - Albenga
 #Region - Italy
 #Area - Liguria
-
 owner = LOM
 controller = LOM
 add_core = LOM
 culture = ligurian
 religion = catholic
-hre = no
 base_tax = 6
 base_production = 6
 trade_goods = naval_supplies
 base_manpower = 4
 capital = "Albenga"
-is_city = yes # Estimated
-
+is_city = yes# Estimated
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

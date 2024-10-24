@@ -1,7 +1,6 @@
 #4787 - Ribatejo
 #Region - Iberia
 #Area - Alentejo
-
 owner = CDB
 controller = CDB
 add_core = CDB
@@ -10,16 +9,13 @@ culture = batalyawsi
 religion = sunni
 capital = "Santarém"
 trade_goods = grain
-hre = no
-base_tax = 3 
+base_tax = 3
 base_production = 3
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

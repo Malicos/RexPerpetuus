@@ -1,21 +1,17 @@
 #Latgalia / Inflanty Duchy
 #Region - Baltic
 #Area - Livonia
-
 owner = LGT
 controller = LGT
 add_core = LGT
 culture = latgalian
 religion = orthodox
-capital = "Daugpils"			#DE Dünaburg
-#fort_15th = yes #Dünaburg
+capital = "Daugpils"#fort_15th = yes #Dünaburg
 trade_goods = grain
-hre = no
-base_tax = 2 
-base_production = 2 
-base_manpower = 1 
+base_tax = 2
+base_production = 2
+base_manpower = 1
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,7 +20,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech

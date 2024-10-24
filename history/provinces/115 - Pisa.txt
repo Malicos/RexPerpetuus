@@ -1,27 +1,22 @@
 #115 - Pisa
 #Region - Italy
 #Area - Tuscan
-
 owner = PIS
 controller = PIS
 add_core = PIS
-culture = tuscan 
-religion = catholic 
-hre = no 
+culture = tuscan
+religion = catholic
 base_tax = 12
 base_production = 12
-trade_goods = naval_supplies # two major ports, and there really isn't any wine in the province
+trade_goods = naval_supplies# two major ports, and there really isn't any wine in the province
 base_manpower = 7
-capital = "Pisa" 
-is_city = yes	# Estimated # WTF Paradox
-
+capital = "Pisa"
+is_city = yes# Estimated # WTF Paradox
 extra_cost = 16
 center_of_trade = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

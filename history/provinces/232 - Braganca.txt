@@ -1,7 +1,6 @@
 #232 - Bragança
 #Region - Iberia
 #Area - Beiras
-
 owner = BGC
 controller = BGC
 add_core = BGC
@@ -9,17 +8,14 @@ culture = galician
 religion = catholic
 capital = "Bragança"
 trade_goods = bt_trade_good_fruit
-hre = no
-base_tax = 2 
+base_tax = 2
 base_production = 3
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-fort_15th = yes			#Portuguese forts moved around for gameplay reasons
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

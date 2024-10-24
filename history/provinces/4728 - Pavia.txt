@@ -1,24 +1,20 @@
 #4728 - Pavia
 #Region - Italy
 #Area - Lombardy
-
 owner = LOM
 controller = LOM
 add_core = LOM
 culture = lombard
 religion = waldensian
-hre = no
 base_tax = 9
 base_production = 9
 trade_goods = bt_trade_good_books
 base_manpower = 7
 capital = "Pavia"
-is_city = yes	# Estimated
-
+is_city = yes# Estimated
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

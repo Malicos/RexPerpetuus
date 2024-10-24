@@ -27,6 +27,5 @@ add_local_autonomy = 75
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,29 +1,24 @@
 #3105 - Covilhã
 #Region - Iberia
 #Area - Beiras
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = POR
 controller = POR
 add_core = POR
 culture = galician
 religion = catholic
 capital = "Aveiro"
-trade_goods = salt			#Major salt production centre going back a long time it seems
-hre = no
-base_tax = 2  
+trade_goods = salt#Major salt production centre going back a long time it seems
+base_tax = 2
 base_production = 3
-base_manpower = 2 
+base_manpower = 2
 is_city = yes
-fort_15th = yes			#Portuguese forts moved around for gameplay reasons
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

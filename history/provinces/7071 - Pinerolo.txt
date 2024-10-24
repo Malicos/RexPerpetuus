@@ -1,23 +1,19 @@
 #BT Italy reoverhaul
-
 owner = LOM
 controller = LOM
 add_core = LOM
 culture = piedmontese
 religion = waldensian
 capital = "Pinerolo"
-base_tax = 5			#Capital of Savoy-Achaia branch of Savoy from 1295, and apparently quite a flourishing city in the early period
+base_tax = 5#Capital of Savoy-Achaia branch of Savoy from 1295, and apparently quite a flourishing city in the early period
 base_production = 5
 base_manpower = 3
-trade_goods = paper		#cloth of livestock could also work
+trade_goods = paper#cloth of livestock could also work
 is_city = yes
-hre = no
 add_local_autonomy = 35
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,24 +1,21 @@
 #120 - Abbruzzi
 #Region - Italy
 #Area - Naples
-
 owner = ABR
 controller = ABR
 add_core = ABR
-culture = neapolitan 
-religion = catholic 
-hre = yes 
+culture = neapolitan
+religion = catholic
+hre = yes
 base_tax = 5
 base_production = 5
 trade_goods = wine
 base_manpower = 4
-capital = "L'Aquila" 
-is_city = yes 
-
+capital = "L'Aquila"
+is_city = yes
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

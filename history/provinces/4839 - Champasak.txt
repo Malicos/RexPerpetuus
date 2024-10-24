@@ -1,6 +1,4 @@
- 
 # ex BT 608
-
 owner = KHM
 controller = KHM
 add_core = KHM
@@ -9,13 +7,12 @@ culture = kuy
 religion = animism
 capital = "Champasak"
 is_city = yes
-hre = no
 base_tax = 4
-base_production = 4 # BT; 3
+base_production = 4# BT; 3
 base_manpower = 3
 trade_goods = tea
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

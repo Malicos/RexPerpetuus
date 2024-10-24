@@ -1,19 +1,15 @@
 #3188 - Syrmia
-
 owner = SYA
 controller = SYA
 add_core = SYA
 culture = serbian
 religion = orthodox
 capital = "Belgrade"
-trade_goods = dyes #BT Changed to dyes because of Cinnabar mining. More like dies hahahahahahaha harb
-hre = no
+trade_goods = dyes#BT Changed to dyes because of Cinnabar mining. More like dies hahahahahahaha harb
 base_tax = 7
 base_production = 6
 base_manpower = 5
-fort_15th = yes
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,7 +21,6 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-
 extra_cost = 15
 center_of_trade = 2
+fort_15th = yes

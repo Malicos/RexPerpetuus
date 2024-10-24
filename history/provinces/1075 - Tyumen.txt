@@ -1,5 +1,4 @@
 #1075 - Tyumen
-
 owner = YGR
 controller = YGR
 add_core = YGR
@@ -7,11 +6,10 @@ capital = "Chimgi-Tura"
 culture = siberian
 religion = sunni
 trade_goods = fur
-hre = no
-base_tax = 8 
+base_tax = 8
 base_production = 8
 base_manpower = 8
 is_city = yes
-
 discovered_by = nomad_group
 unrest = 15
+discovered_by = ottoman

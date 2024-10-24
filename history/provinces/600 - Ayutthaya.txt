@@ -17,4 +17,5 @@ discovered_by = indian
 extra_cost = 16
 center_of_trade = 2
 discovered_by = muslim_tech
+discovered_by = ottoman
 fort_15th = yes

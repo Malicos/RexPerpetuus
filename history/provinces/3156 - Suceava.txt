@@ -1,20 +1,16 @@
 #3156 - Suceava
-
 owner = BSN
 controller = BSN
 add_core = BSN
 add_core = BKV
 culture = bisseni
 religion = orthodox
-hre = no
-base_tax = 3 
-base_production = 3 
+base_tax = 3
+base_production = 3
 capital = "Suceava"
 is_city = yes
 trade_goods = wool
-base_manpower = 2 
-fort_15th = yes
-
+base_manpower = 2
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,4 +22,4 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

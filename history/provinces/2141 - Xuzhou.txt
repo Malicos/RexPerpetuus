@@ -1,5 +1,4 @@
 # 2141 - Xuzhou
-
 owner = SNG
 controller = SNG
 add_core = SNG
@@ -7,13 +6,12 @@ culture = zhongyuan
 religion = mahayana
 capital = "Xuzhou"
 trade_goods = iron
-hre = no
-base_tax = 12 
+base_tax = 12
 base_production = 12
 base_manpower = 6
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = nomad_group
+discovered_by = ottoman

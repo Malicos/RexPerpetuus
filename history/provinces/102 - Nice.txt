@@ -1,28 +1,23 @@
 #102 - Nice
 #Region - Italy
 #Area - Liguria
-
 owner = BUR
 controller = BUR
 add_core = BUR
 add_core = LOM
 culture = ligurian
 religion = catholic
-hre = no
 base_tax = 4
 base_production = 4
 trade_goods = naval_supplies
 base_manpower = 2
 capital = "Nice"
 is_city = yes
-
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

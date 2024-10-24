@@ -13,7 +13,6 @@ add_core = TUN
 add_core = TRP
 discovered_by = western
 discovered_by = muslim_tech
-discovered_by = ottoman
 discovered_by = eastern
 1444.11.13 = { 
 	controller = TRP
@@ -46,5 +45,4 @@ discovered_by = eastern
 }
 discovered_by = rhomanian_tech
 discovered_by = maghrebi_tech
-
 discovered_by = iranian_tech

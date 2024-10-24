@@ -1,5 +1,4 @@
 # 2157 - Waichow
-
 owner = SNG
 controller = SNG
 add_core = SNG
@@ -8,14 +7,13 @@ culture = hakka
 religion = taoism
 capital = "Waichow"
 trade_goods = bt_trade_good_fruit
-hre = no
 base_tax = 12
 base_production = 12
 base_manpower = 6
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = nomad_group
 discovered_by = indian
+discovered_by = ottoman

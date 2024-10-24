@@ -1,5 +1,4 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = BUR
 controller = BUR
 add_core = BUR
@@ -9,14 +8,11 @@ capital = "Aix"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = bt_trade_good_books			#Major university and centre of learning. Niki also suggested wine, which is very big in the region, as well as fruit to represent olive oil
+trade_goods = bt_trade_good_books#Major university and centre of learning. Niki also suggested wine, which is very big in the region, as well as fruit to represent olive oil
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

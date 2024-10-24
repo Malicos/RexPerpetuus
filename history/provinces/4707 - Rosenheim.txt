@@ -1,4 +1,3 @@
- 
 owner = WSB
 controller = WSB
 add_core = WSB
@@ -10,12 +9,10 @@ hre = yes
 base_tax = 4
 base_production = 4
 base_manpower = 3
-trade_goods = salt #Bad Reichenhall
-
+trade_goods = salt#Bad Reichenhall
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = RAV
 controller = RAV
 add_core = RAV
@@ -11,14 +10,12 @@ capital = "Forli"
 base_tax = 5
 base_production = 6
 base_manpower = 3
-trade_goods = grain #important agricultural centre for Italy. Could be Glass or Silk too
+trade_goods = grain#important agricultural centre for Italy. Could be Glass or Silk too
 is_city = yes
-hre = yes			#borderline, but strong Ghibelline associations, so HRE but Papal subject for now
-
+hre = yes#borderline, but strong Ghibelline associations, so HRE but Papal subject for now
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

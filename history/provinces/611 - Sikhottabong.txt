@@ -1,5 +1,4 @@
 #611 - Sikhottabong
-
 owner = ISN
 controller = ISN
 add_core = ISN
@@ -9,13 +8,12 @@ culture = kuy
 religion = buddhism
 capital = "Sikhottabong"
 trade_goods = grain
-hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

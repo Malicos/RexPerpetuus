@@ -1,5 +1,4 @@
 #136 - Split
-
 owner = BOS
 controller = BOS
 add_core = BOS
@@ -12,8 +11,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-fort_15th = yes # Klis Fortress
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,4 +22,4 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

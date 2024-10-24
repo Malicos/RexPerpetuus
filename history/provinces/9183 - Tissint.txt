@@ -19,7 +19,5 @@ add_core = OUA
 #Other Political
 discovered_by = western
 discovered_by = muslim_tech
-discovered_by = ottoman
 discovered_by = sub_saharan
 discovered_by = maghrebi_tech
-

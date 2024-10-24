@@ -18,3 +18,4 @@ discovered_by = indian
 add_province_triggered_modifier = religious_center
 add_province_triggered_modifier = vajrayana_lhasa
 discovered_by = iranian_tech
+discovered_by = ottoman

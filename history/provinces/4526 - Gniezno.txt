@@ -1,18 +1,15 @@
 #4526 - Gniezno
-
 owner = POL
 controller = POL
 add_core = POL
 culture = polish
 religion = catholic
 capital = "Gniezno"
-trade_goods = wool #Was cloth
-hre = no
+trade_goods = wool#Was cloth
 base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,4 +21,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

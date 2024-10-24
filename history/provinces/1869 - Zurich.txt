@@ -1,8 +1,6 @@
- 
 #1869 - Zurich
 #Region - Germany
 #Area - Switzerland
-
 owner = SWA
 controller = SWA
 add_core = SWA
@@ -11,18 +9,15 @@ religion = catholic
 capital = "Zürich"
 trade_goods = wool
 hre = yes
-base_tax = 8 
+base_tax = 8
 base_production = 8
-base_manpower = 4 
+base_manpower = 4
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-
 extra_cost = 8
 center_of_trade = 1

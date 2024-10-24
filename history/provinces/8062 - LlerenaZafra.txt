@@ -1,23 +1,19 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = CDB
 controller = CDB
 add_core = CDB
 add_core = SHS
 culture = batalyawsi
 religion = sunni
-capital = "Llerena"			#Also Zafra
+capital = "Llerena"#Also Zafra
 base_tax = 1
 base_production = 1
 base_manpower = 2
 trade_goods = wine
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

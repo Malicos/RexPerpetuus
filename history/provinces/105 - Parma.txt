@@ -1,24 +1,20 @@
 #105 - Parma
 #Region - Italy
 #Area - Emilia-Romagna
-
 owner = PAR
 controller = PAR
 add_core = PAR
-culture = romagnan 
-religion = catholic 
-hre = no 
+culture = romagnan
+religion = catholic
 base_tax = 8
 base_production = 8
 trade_goods = livestock
 base_manpower = 5
-capital = "Parma" 
-is_city = yes	# Estimated 
-
+capital = "Parma"
+is_city = yes# Estimated 
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

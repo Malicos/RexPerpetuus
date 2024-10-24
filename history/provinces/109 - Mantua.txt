@@ -1,28 +1,24 @@
 #109 - Mantua
 #Region - Italy
 #Area - Emilia-Romagna
- 
 owner = MAN
 controller = MAN
 add_core = MAN
-culture = romagnan 
-religion = catholic 
-hre = yes 
+culture = romagnan
+religion = catholic
+hre = yes
 base_tax = 13
 base_production = 13
 trade_goods = glass
 base_manpower = 6
-fort_15th = yes
-capital = "Mantova" 
+capital = "Mantova"
 is_city = yes
-
 extra_cost = 16
 center_of_trade = 2
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

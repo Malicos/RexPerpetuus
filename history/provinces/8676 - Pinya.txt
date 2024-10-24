@@ -1,5 +1,4 @@
 #Pinya
-
 owner = PAG
 controller = PAG
 add_core = PAG
@@ -7,13 +6,12 @@ culture = burmese
 religion = buddhism
 capital = "Pinya"
 trade_goods = grain
-hre = no
-base_tax = 3 #Sacked by Mong Mao in 1364
+base_tax = 3#Sacked by Mong Mao in 1364
 base_production = 3
 base_manpower = 1
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

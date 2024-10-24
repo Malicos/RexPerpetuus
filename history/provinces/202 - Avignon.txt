@@ -1,7 +1,6 @@
 # 202 Avignon - Principal cities: Avignon
 #Region - France
 #Area - Provence
-
 owner = BUR
 controller = BUR
 add_core = BUR
@@ -9,18 +8,14 @@ capital = "Avignon"
 is_city = yes
 culture = aquitaine
 religion = catholic
-hre = no
 base_tax = 6
 base_production = 6
 trade_goods = bt_trade_good_books
 base_manpower = 6
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-fort_16th = yes # Le Palais des Papes is super strong, and built on and beneath a natural rock formation
+fort_16th = yes

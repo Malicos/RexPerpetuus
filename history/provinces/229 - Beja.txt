@@ -1,7 +1,6 @@
 #229 - Beja
 #Region - Iberia
 #Area - Alentejo
-
 owner = CDB
 controller = CDB
 add_core = CDB
@@ -10,17 +9,14 @@ culture = sephardi
 religion = jewish
 capital = "Beja"
 trade_goods = grain
-hre = no
-base_tax = 2 
-base_production = 2 
-base_manpower = 1 
+base_tax = 2
+base_production = 2
+base_manpower = 1
 is_city = yes
-fort_15th = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

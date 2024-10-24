@@ -1,27 +1,22 @@
 # Lucca
 #Region - Italy
 #Area - Tuscan
-
 owner = PIS
 controller = PIS
 add_core = PIS
 culture = tuscan
 religion = catholic
-hre = no
 base_tax = 11
 base_production = 10
-trade_goods = silk # famous paper mills since 1300, could also be stone or even wine or olives (Unknown person) #Way more famous for their silk production, being the place silk spread from in Italy and being the birthplace of the mechanical silk mill. (Not the hydraulic silk mill tho that was bologna.) #Harbivore
+trade_goods = silk# famous paper mills since 1300, could also be stone or even wine or olives (Unknown person) #Way more famous for their silk production, being the place silk spread from in Italy and being the birthplace of the mechanical silk mill. (Not the hydraulic silk mill tho that was bologna.) #Harbivore
 base_manpower = 5
 capital = "Lucca"
-is_city = yes # Estimated
-
+is_city = yes# Estimated
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

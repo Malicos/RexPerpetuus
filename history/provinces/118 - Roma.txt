@@ -1,31 +1,25 @@
 #118 - Roma
 #Region - Italy
 #Area - Central Italy
-
 owner = PAP
 controller = PAP
 add_core = PAP
-culture = umbrian 
-religion = catholic 
-hre = no
+culture = umbrian
+religion = catholic
 base_tax = 12
 base_production = 12
 trade_goods = bt_trade_good_books
 base_manpower = 7
 capital = "Roma"
 is_city = yes
-fort_15th = yes #Castel Sant'Angelo
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 30
-
 center_of_trade = 2
 add_province_triggered_modifier = religious_center
 add_province_triggered_modifier = non_catholic_rome
+fort_15th = yes

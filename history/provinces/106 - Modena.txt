@@ -1,24 +1,21 @@
 #106 - Modena
 #Region - Italy
 #Area - Emilia-Romagna
-
 owner = MOD
 controller = MOD
 add_core = MOD
-culture = romagnan 
-religion = catholic 
-hre = yes 
+culture = romagnan
+religion = catholic
+hre = yes
 base_tax = 8
 base_production = 8
-trade_goods = wine # famous vinegar and Lambrusco wine
+trade_goods = wine# famous vinegar and Lambrusco wine
 base_manpower = 4
-capital = "Modena" 
-is_city = yes	# Estimated #wtf Paradox Modena was a city long before Swedes discovered tools -Nikicaga #Hehe Nikicaga... though you're not wrong. To be fair, they have apparently removed this note in recent versions. -Draiocht
-
+capital = "Modena"
+is_city = yes# Estimated #wtf Paradox Modena was a city long before Swedes discovered tools -Nikicaga #Hehe Nikicaga... though you're not wrong. To be fair, they have apparently removed this note in recent versions. -Draiocht
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

@@ -1,9 +1,7 @@
 #Leczyca
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = POL
 controller = POL
 add_core = POL
@@ -11,12 +9,10 @@ capital = "Leczyca"
 culture = polish
 religion = catholic
 trade_goods = cloth
-hre = no
 base_tax = 1
 base_production = 3
 base_manpower = 2
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -28,4 +24,3 @@ discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

@@ -1,5 +1,4 @@
 #BT Balkans reoverhaul
-
 owner = BOS
 controller = BOS
 add_core = BOS
@@ -7,13 +6,12 @@ add_core = HRZ
 culture = serbian
 religion = iconoclast
 capital = "Trebinje"
-base_tax = 4 
-base_production = 4 
-base_manpower = 2 
+base_tax = 4
+base_production = 4
+base_manpower = 2
 trade_goods = wine
 is_city = yes
 hre = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -22,7 +20,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western

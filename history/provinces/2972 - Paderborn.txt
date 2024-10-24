@@ -17,6 +17,5 @@ is_city = yes# Paderborn is through its history dependant on Münster and Köln.
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

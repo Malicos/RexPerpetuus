@@ -1,20 +1,17 @@
 #141 - Serbia/Šumadija
-
 owner = BUL
 controller = BUL
 add_core = BUL
 add_core = SMA
 culture = serbian
 religion = orthodox
-capital = "Kragujevac"			#Also Rudnik
-trade_goods = bt_trade_good_masonry #stone or fruit
-hre = no
+capital = "Kragujevac"#Also Rudnik
+trade_goods = bt_trade_good_masonry#stone or fruit
 base_tax = 1
 base_production = 2
 base_manpower = 1
 is_city = yes
 #fort_15th = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,4 +23,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

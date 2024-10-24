@@ -1,13 +1,11 @@
- 
 #76 - Salzburg
 #Region - Germany
 #Area - Upper Bavaria
-
 owner = BAV
-controller = BAV 
+controller = BAV
 add_core = BAV
 add_core = SLZ
-culture = bavarian #Bugfixes changed from Austrian. It was Bavarian in every possible sense in this time period. Though the difference between Austrian & Bavarian is literally the division of the Imperial Circles, it was even part of the Bavarian Imperial circle. Hence, it becomes Bavarian.
+culture = bavarian#Bugfixes changed from Austrian. It was Bavarian in every possible sense in this time period. Though the difference between Austrian & Bavarian is literally the division of the Imperial Circles, it was even part of the Bavarian Imperial circle. Hence, it becomes Bavarian.
 religion = catholic
 capital = "Salzburg"
 trade_goods = salt
@@ -17,11 +15,9 @@ base_production = 7
 base_manpower = 7
 is_city = yes
 center_of_trade = 1
-
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

@@ -1,20 +1,16 @@
 #Brest-Litovsk
-
 owner = HRO
-controller = HRO 
+controller = HRO
 add_core = HRO
 culture = ruthenian
 religion = orthodox
-hre = no
-base_tax = 3 
-base_production = 3 
+base_tax = 3
+base_production = 3
 trade_goods = wool
-base_manpower = 1 
+base_manpower = 1
 capital = "Brest"
-is_city = yes 
+is_city = yes
 add_local_autonomy = 25
-fort_15th = yes #City referred to as Stronghold. Also nicely encloses Ruthenia from the west, or Warsaw from the Rus.
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,4 +22,4 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

@@ -56,7 +56,7 @@ discovered_by = ASK
 	controller = TKG
 	culture = togoku
 	religion = shinto
-	trade_goods = Fish
+	trade_goods = fish
 }
 1704.1.1 = { add_core = TKG }
 1767.1.1 = { add_core = RUS }

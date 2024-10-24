@@ -1,5 +1,4 @@
 #4704 - Bulgaria
-
 owner = VAR
 controller = VAR
 add_core = VAR
@@ -7,15 +6,12 @@ add_core = TNV
 culture = bulgarian
 religion = orthodox
 capital = "Tarnovo"
-trade_goods = bt_trade_good_masonry		#Dub going back to iron (from beer): Reason for this is blacksmithing. Another good candidate is stonemasonry or pottery. #was formerly iron, which Nikicaga said made no sense, suggesting grain instead. Today appears to produce a lot of beer & soft drinks, so going with anachronisity here, because what does it hurt?
-hre = no
-base_tax = 4 #3
+trade_goods = bt_trade_good_masonry#Dub going back to iron (from beer): Reason for this is blacksmithing. Another good candidate is stonemasonry or pottery. #was formerly iron, which Nikicaga said made no sense, suggesting grain instead. Today appears to produce a lot of beer & soft drinks, so going with anachronisity here, because what does it hurt?
+base_tax = 4#3
 base_production = 3
 base_manpower = 3
 is_city = yes
-fort_15th = yes
 add_local_autonomy = 10
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -24,10 +20,9 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
-
 extra_cost = 5
 center_of_trade = 1
+fort_15th = yes

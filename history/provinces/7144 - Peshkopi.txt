@@ -1,5 +1,4 @@
 #BT Balkans reoverhaul
-
 owner = ALB
 controller = ALB
 add_core = ALB
@@ -9,10 +8,8 @@ capital = "Peshkopi"
 base_tax = 1
 base_production = 1
 base_manpower = 2
-trade_goods = wool			#rural, rugged terrain, seems a decent choice
+trade_goods = wool#rural, rugged terrain, seems a decent choice
 is_city = yes
-hre = no
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -21,7 +18,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western

@@ -1,7 +1,6 @@
 #41 - Königsberg
 #Region - Baltic
 #Area - East Prussia
-
 owner = PRU
 controller = PRU
 add_core = PRU
@@ -9,20 +8,16 @@ capital = "Königsberg"
 culture = pruthenian
 religion = catholic
 trade_goods = gems
-hre = no
 base_tax = 10
 base_production = 10
 base_manpower = 6
 is_city = yes
-fort_15th = yes
-
 extra_cost = 25
 center_of_trade = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

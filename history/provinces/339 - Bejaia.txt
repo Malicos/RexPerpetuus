@@ -13,11 +13,9 @@ is_city = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim_tech
-discovered_by = ottoman
 extra_cost = 15
 center_of_trade = 2
 discovered_by = rhomanian_tech
 discovered_by = maghrebi_tech
-
 discovered_by = iranian_tech
 fort_15th = yes

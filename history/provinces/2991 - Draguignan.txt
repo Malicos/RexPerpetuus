@@ -1,7 +1,6 @@
 #2991 - Forcalquier
 #Region - France
 #Area - Provence
-
 owner = BUR
 controller = BUR
 add_core = BUR
@@ -9,16 +8,13 @@ capital = "Forcalquier"
 is_city = yes
 culture = aquitaine
 religion = catholic
-hre = no
 base_tax = 2
-base_production = 2				#Dev boost slightly above history because pro lost most of its vassal dev
+base_production = 2#Dev boost slightly above history because pro lost most of its vassal dev
 trade_goods = wine
 base_manpower = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

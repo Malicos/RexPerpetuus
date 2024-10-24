@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = LOM
 controller = LOM
 add_core = LOM
@@ -11,12 +10,9 @@ base_production = 4
 base_manpower = 2
 trade_goods = grain
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

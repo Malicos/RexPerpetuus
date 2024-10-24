@@ -1,5 +1,4 @@
 #3190 - Požega
-
 owner = CRO
 controller = CRO
 add_core = CRO
@@ -9,11 +8,10 @@ religion = bogomilist
 capital = "Virovitica"
 trade_goods = grain
 hre = yes
-base_tax = 2 
-base_production = 2 
-base_manpower = 1 
+base_tax = 2
+base_production = 2
+base_manpower = 1
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,4 +23,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

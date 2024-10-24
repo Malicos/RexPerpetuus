@@ -1,8 +1,6 @@
- 
 #1757 - Oberpfalz
 #Region - Germany
 #Area - Lower Bavaria
-
 owner = NGU
 controller = NGU
 add_core = NGU
@@ -12,15 +10,13 @@ base_tax = 3
 base_production = 2
 trade_goods = iron
 base_manpower = 2
-capital	= "Amberg" 
+capital = "Amberg"
 is_city = yes
-fort_15th = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

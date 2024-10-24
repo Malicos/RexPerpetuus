@@ -1,5 +1,4 @@
 #4406 - Mong Kung
-
 owner = HSE
 controller = HSE
 add_core = HSE
@@ -7,13 +6,12 @@ culture = shan
 religion = buddhism
 capital = "Mong Kung"
 trade_goods = tropical_wood
-hre = no
-base_tax = 3 
+base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

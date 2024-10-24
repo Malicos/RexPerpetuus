@@ -16,8 +16,9 @@ discovered_by = nomad_group
 	add_core = RUS
 	religion = orthodox
 	culture = rostovian
-	is_city = yes
+	city = yes
 	trade_goods = fur
 }
 discovered_by = siberian_group
 is_city = no
+discovered_by = ottoman

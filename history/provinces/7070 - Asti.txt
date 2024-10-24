@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = LOM
 controller = LOM
 add_core = LOM
@@ -7,21 +6,16 @@ add_core = ATI
 culture = piedmontese
 religion = catholic
 capital = "Asti"
-base_tax = 9			#Asti by all accounts rivaled in power major centres like Lucca, Genoa, and Turin at one point. Boasting exclusive rights to overland trade coming from Genoa and backed by a large population and good infrastructure, this was a much more important city than it later became.
+base_tax = 9#Asti by all accounts rivaled in power major centres like Lucca, Genoa, and Turin at one point. Boasting exclusive rights to overland trade coming from Genoa and backed by a large population and good infrastructure, this was a much more important city than it later became.
 base_production = 8
 base_manpower = 4
 trade_goods = wine
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
 extra_cost = 15
-
 center_of_trade = 2

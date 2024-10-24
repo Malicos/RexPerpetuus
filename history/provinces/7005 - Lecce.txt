@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = LEC
 controller = LEC
 add_core = LEC
@@ -11,15 +10,11 @@ base_production = 5
 base_manpower = 3
 trade_goods = wine
 is_city = yes
-hre = no
-
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

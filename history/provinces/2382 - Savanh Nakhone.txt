@@ -1,5 +1,4 @@
 #2382 - Savanh Nakhone
-
 owner = ISN
 controller = ISN
 add_core = ISN
@@ -9,13 +8,12 @@ culture = kuy
 religion = buddhism
 capital = "Savanh Nakhone"
 trade_goods = copper
-hre = no
-base_tax = 3 
+base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

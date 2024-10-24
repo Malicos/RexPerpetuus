@@ -1,5 +1,4 @@
 #BT Scandinavia and Baltics reoverhaul
-
 owner = PME
 controller = PME
 add_core = PME
@@ -8,16 +7,13 @@ religion = catholic
 capital = "Czluchowo"
 base_tax = 4
 base_production = 4
-base_manpower = 4			#Massive fort
+base_manpower = 4#Massive fort
 trade_goods = glass
 is_city = yes
-hre = no
-fort_15th = yes
-
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
+fort_15th = yes

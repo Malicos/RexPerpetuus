@@ -1,29 +1,23 @@
 #101 - Liguria
 #Region - Italy
 #Area - Liguria
-
 owner = LOM
 controller = LOM
 add_core = LOM
 culture = ligurian
 religion = waldensian
-hre = no
 base_tax = 14
 base_production = 14
 trade_goods = cloth
 base_manpower = 7
-fort_15th = yes
 capital = "Genova"
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-
 extra_cost = 20
-
 center_of_trade = 2
+fort_15th = yes

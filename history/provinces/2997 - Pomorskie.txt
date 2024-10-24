@@ -1,7 +1,6 @@
 #2994 - Pomorskie
 #Region - Baltic
 #Area - West Prussia
-
 owner = POL
 controller = POL
 add_core = POL
@@ -9,16 +8,13 @@ capital = "Tuchola"
 culture = kashubian_culture
 religion = catholic
 trade_goods = naval_supplies
-hre = no
-base_tax = 3 
-base_production = 3 
-base_manpower = 3 
+base_tax = 3
+base_production = 3
+base_manpower = 3
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

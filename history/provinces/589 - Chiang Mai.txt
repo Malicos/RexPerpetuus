@@ -1,21 +1,18 @@
 #589 - Chiang Mai
-
 owner = HPC
 controller = HPC
 add_core = HPC
 culture = haripunchian
 religion = buddhism
 capital = "Chiang Mai"
-trade_goods = ivory 
-hre = no
+trade_goods = ivory
 base_tax = 7
 base_production = 7
 base_manpower = 4
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
-
+discovered_by = ottoman
 fort_15th = yes

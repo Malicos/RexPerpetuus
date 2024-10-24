@@ -30,5 +30,6 @@ hre = no
 
 #Discoveries
 discovered_by = east_african
+discovered_by = WAD
 
 #Histories 

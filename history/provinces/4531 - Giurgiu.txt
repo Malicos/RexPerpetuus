@@ -1,5 +1,4 @@
 # Giurgiu
-
 owner = BSN
 controller = BSN
 add_core = BSN
@@ -8,13 +7,11 @@ culture = romanian
 religion = orthodox
 capital = "Giurgiu"
 trade_goods = livestock
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 2
 is_city = yes
 add_local_autonomy = 10
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,4 +23,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

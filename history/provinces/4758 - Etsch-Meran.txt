@@ -1,6 +1,4 @@
- 
 #BT Italy reoverhaul
-
 owner = TIR
 controller = TIR
 add_core = TIR
@@ -10,14 +8,12 @@ capital = "Meran"
 base_tax = 4
 base_production = 4
 base_manpower = 3
-trade_goods = wine			#modern beer, as well. Also apparently a bookbinding centre after the 15th century.
+trade_goods = wine#modern beer, as well. Also apparently a bookbinding centre after the 15th century.
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

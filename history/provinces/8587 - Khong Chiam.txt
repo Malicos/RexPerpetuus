@@ -1,5 +1,4 @@
 #4559 - Khong Chiam
-
 owner = KHM
 controller = KHM
 add_core = KHM
@@ -8,13 +7,12 @@ culture = khmer
 religion = hinduism
 capital = "Khong Chiam"
 trade_goods = grain
-hre = no
-base_tax = 2 
+base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

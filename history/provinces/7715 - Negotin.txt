@@ -1,5 +1,4 @@
 #BT Balkans reoverhaul
-
 owner = BUL
 controller = BUL
 add_core = BUL
@@ -11,9 +10,7 @@ base_production = 1
 base_manpower = 2
 trade_goods = copper
 is_city = yes
-hre = no
 add_local_autonomy = 10
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -22,7 +19,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western

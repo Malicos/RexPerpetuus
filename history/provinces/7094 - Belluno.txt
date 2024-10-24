@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = CNI
 controller = CNI
 add_core = CNI
@@ -10,14 +9,12 @@ capital = "Belluno"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = livestock			#notable salami and cheese production. Also a famous bean type is from the area
+trade_goods = livestock#notable salami and cheese production. Also a famous bean type is from the area
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

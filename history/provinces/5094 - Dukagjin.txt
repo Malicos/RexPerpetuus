@@ -1,20 +1,17 @@
 #4175 - repurposed by Draiocht
 #Vanilla 4175 info
-
 owner = ALB
 controller = ALB
 add_core = ALB
 add_core = RSC
 culture = albanian
-religion = orthodox			#When did they turn Catholic... I remember reading something somewhere about Catholic majorities in the region, but I can't find anything, leaving it Orthodox until I can
-capital = "Kukës"			# the Dukagjini continued to rule over their villages Buba, Salita, Gurichuchi, Baschina. Couldn't find modern contemporary locations for any, so picking the most important modern city in the region, which does date back to the period as well, Pezhve. Later this was changed to Kukes with Balkan reoverhaul
+religion = orthodox#When did they turn Catholic... I remember reading something somewhere about Catholic majorities in the region, but I can't find anything, leaving it Orthodox until I can
+capital = "Kukës"# the Dukagjini continued to rule over their villages Buba, Salita, Gurichuchi, Baschina. Couldn't find modern contemporary locations for any, so picking the most important modern city in the region, which does date back to the period as well, Pezhve. Later this was changed to Kukes with Balkan reoverhaul
 trade_goods = livestock
-hre = no
-base_tax = 1 
-base_production = 1 
-base_manpower = 1 
+base_tax = 1
+base_production = 1
+base_manpower = 1
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -23,7 +20,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western

@@ -1,28 +1,23 @@
 # 201 Provence - Principal cities: Aix-en-Provence, Marseille
 #Region - France
 #Area - Provence
-
 owner = BUR
-controller = BUR 
+controller = BUR
 add_core = BUR
-capital = "Marseille"			#making Marseille the cap from the start, no real reason not to, that I can see. Old one was Aix-en-Provence until 1650
+capital = "Marseille"#making Marseille the cap from the start, no real reason not to, that I can see. Old one was Aix-en-Provence until 1650
 is_city = yes
 culture = aquitaine
 religion = catholic
-hre = no
-base_tax = 7			#Population doesn't compete with Paris, but this became the strongest fortified position in France outside of Paris itself in this period, and trade and commerce flourished,
-base_production = 7			#Considering later importance as well, I'm willing to fudge the numbers a bit. Provence also needs a boost, as their vassal in 1444, Lorraine, loses over half its dev.
-base_manpower = 4			#With reoverhaul, lost a bit of its dev against to suit 1444 reality a bit better
+base_tax = 7#Population doesn't compete with Paris, but this became the strongest fortified position in France outside of Paris itself in this period, and trade and commerce flourished,
+base_production = 7#Considering later importance as well, I'm willing to fudge the numbers a bit. Provence also needs a boost, as their vassal in 1444, Lorraine, loses over half its dev.
+base_manpower = 4#With reoverhaul, lost a bit of its dev against to suit 1444 reality a bit better
 trade_goods = naval_supplies
-fort_15th = yes
-
 extra_cost = 20
 center_of_trade = 2
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

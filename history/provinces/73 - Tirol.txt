@@ -1,8 +1,6 @@
- 
 #73 - Tirol
 #Region - Germany
 #Area - Tirol
-
 owner = TIR
 controller = TIR
 add_core = TIR
@@ -10,18 +8,16 @@ culture = bavarian
 religion = catholic
 base_tax = 3
 base_production = 6
-trade_goods = bt_trade_good_silver #BT Harb changed with new trade good 
+trade_goods = bt_trade_good_silver#BT Harb changed with new trade good 
 base_manpower = 4
-fort_15th = yes
-capital = "Innsbruck" 
+capital = "Innsbruck"
 is_city = yes
 hre = yes
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

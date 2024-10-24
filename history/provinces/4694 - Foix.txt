@@ -1,26 +1,22 @@
 #4694 - Foix
 #Region - France
 #Area - Languedoc
-
 owner = TOU
 controller = TOU
 add_core = TOU
 capital = "Foix"
 is_city = yes
-culture = occitain	#aquitaine vanilla
+culture = occitain#aquitaine vanilla
 religion = cathar
-hre = no
-base_tax = 2  
-base_production = 2 
+base_tax = 2
+base_production = 2
 trade_goods = wool
-base_manpower = 2 
+base_manpower = 2
 #add_local_autonomy = 25
-fort_15th = yes #Chateau de Foix
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

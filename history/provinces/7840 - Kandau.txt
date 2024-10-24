@@ -1,5 +1,4 @@
 #BT Scandinavia and Baltics reoverhaul
-
 owner = KUR
 controller = KUR
 add_core = KUR
@@ -11,8 +10,6 @@ base_production = 1
 base_manpower = 1
 trade_goods = grain
 is_city = yes
-hre = no
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -21,7 +18,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western

@@ -1,5 +1,4 @@
 #BT Italy reoverhaul
-
 owner = LAN
 controller = LAN
 add_core = LAN
@@ -7,18 +6,16 @@ add_core = RAV
 add_core = DOV
 culture = romagnan
 religion = catholic
-capital = "Portico" # Dovadola too
+capital = "Portico"# Dovadola too
 base_tax = 3
 base_production = 3
 base_manpower = 2
 trade_goods = copper# pewter production in Dovadola
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

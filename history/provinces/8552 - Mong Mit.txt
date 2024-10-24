@@ -1,5 +1,4 @@
 #4524 - Mong Mit
-
 owner = HSE
 controller = HSE
 add_core = HSE
@@ -7,14 +6,13 @@ add_core = MMT
 culture = shan
 religion = buddhism
 capital = "Mong Mit"
-trade_goods = gems			#CR had gems, and we might return to this, but for now 2 high dev gem provinces in Burma is plenty.
-hre = no
+trade_goods = gems#CR had gems, and we might return to this, but for now 2 high dev gem provinces in Burma is plenty.
 base_tax = 5
 base_production = 5
 base_manpower = 2
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

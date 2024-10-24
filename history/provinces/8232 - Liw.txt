@@ -1,34 +1,22 @@
 #8232 - Liw
 #Area - Mazovia
 #Region - Poland
-
 #Core Details
 capital = "Liw"
 is_city = yes
 owner = POL
 controller = POL
-
 #Demographics
 culture = polish
 religion = catholic
-
 #Development and Trade
 base_tax = 2
 base_production = 1
 base_manpower = 1
 trade_goods = naval_supplies
-
 #Cores and Occupation (Alphabetical after current)
 add_core = POL
-
 #Other Political
-hre = no
-
-#Fort/Other Buildings
-
-#Special Modifiers
-
-#Discoveries
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -40,6 +28,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-
-#Histories

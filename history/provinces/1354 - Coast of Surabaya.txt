@@ -24,8 +24,6 @@ discovered_by = TER
 discovered_by = TID
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = ottoman
-1405.1.1 = { discovered_by = MNG }
 1509.1.1 = { discovered_by = POR }
 1613.1.1 = { discovered_by = NED }
 discovered_by = MNG

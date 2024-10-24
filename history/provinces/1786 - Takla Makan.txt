@@ -4,3 +4,4 @@ discovered_by = chinese
 discovered_by = iranian_tech
 discovered_by = indian
 is_city = no
+discovered_by = ottoman

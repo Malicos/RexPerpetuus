@@ -1,24 +1,21 @@
 #BT Italy reoverhaul
-
 owner = BSC
 controller = BSC
 add_core = BSC
 add_core = BGM
 culture = lombard
 religion = catholic
-capital = "Breno"			#modern capital is Darfo, but Breno served that purpouse during Eu4 times - Nikicaga
+capital = "Breno"#modern capital is Darfo, but Breno served that purpouse during Eu4 times - Nikicaga
 base_tax = 3
 base_production = 5
 base_manpower = 2
-trade_goods = iron			#best known for iron mining
+trade_goods = iron#best known for iron mining
 is_city = yes
 hre = yes
 add_local_autonomy = 50
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

@@ -1,5 +1,4 @@
 #BT's Western Europe Overhaul in 12.0
-
 owner = BUR
 controller = BUR
 add_core = BUR
@@ -9,19 +8,15 @@ capital = "Arles"
 base_tax = 5
 base_production = 5
 base_manpower = 3
-trade_goods = salt			#Per Niki, the area has large salt pans... good enough. Nice rich good for the important city.
+trade_goods = salt#Per Niki, the area has large salt pans... good enough. Nice rich good for the important city.
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-add_permanent_province_modifier = {
+add_permanent_province_modifier = { 
 	name = rhone_estuary_modifier
 	duration = -1
 }

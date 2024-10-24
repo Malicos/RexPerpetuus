@@ -1,8 +1,6 @@
- 
 #166 - Schwyz
 #Region - Germany
 #Area - Switzerland
-
 owner = SWI
 controller = SWI
 add_core = SWI
@@ -13,13 +11,11 @@ trade_goods = iron
 hre = yes
 base_tax = 4
 base_production = 4
-base_manpower = 3 
+base_manpower = 3
 is_city = yes
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

@@ -1,22 +1,19 @@
 #BT Italy reoverhaul
-
 owner = AQU
 controller = AQU
 add_core = AQU
-culture = friulian_culture	#Appears borderline, but I think this is probably accurate enough
+culture = friulian_culture#Appears borderline, but I think this is probably accurate enough
 religion = catholic
 capital = "Tolmezzo"
 base_tax = 3
 base_production = 3
 base_manpower = 2
-trade_goods = naval_supplies			#notable wood production, like Cadore. Also has lots of Livestock, and even Paper
+trade_goods = naval_supplies#notable wood production, like Cadore. Also has lots of Livestock, and even Paper
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

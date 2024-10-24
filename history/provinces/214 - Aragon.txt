@@ -1,26 +1,22 @@
 #214 - Aragón
 #Region - Iberia
 #Area - Aragon
-
 owner = SHQ
 controller = SHQ
 add_core = SHQ
 culture = ibri_culture
 religion = sunni
-hre = no
 base_tax = 4
 base_production = 4
 trade_goods = cloth
 base_manpower = 3
-fort_15th = yes
-capital = "Zaragoza" 
+capital = "Zaragoza"
 is_city = yes
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
+fort_15th = yes

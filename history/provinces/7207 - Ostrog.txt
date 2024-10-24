@@ -1,24 +1,20 @@
 #BT GDL reoverhaul
-
 owner = KIE
 controller = KIE
 add_core = KIE
 culture = ruthenian
 religion = orthodox
-capital = "Ostrog"			#Also the probably more important Iziaslav, though it was under the authority of Ostrog for much of the period so sticking with that
+capital = "Ostrog"#Also the probably more important Iziaslav, though it was under the authority of Ostrog for much of the period so sticking with that
 base_tax = 3
 base_production = 3
 base_manpower = 2
 trade_goods = grain
 is_city = yes
-hre = no
 add_local_autonomy = 15
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = KAZ

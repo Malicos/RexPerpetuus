@@ -17,3 +17,4 @@ iranian_techdiscovered_by = ottoman
 discovered_by = chinese
 discovered_by = southeast_asian_group
 discovered_by = iranian_tech
+discovered_by = ottoman

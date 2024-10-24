@@ -1,5 +1,4 @@
 #131 - Zagorje
-
 owner = CRO
 controller = CRO
 add_core = CRO
@@ -12,10 +11,8 @@ hre = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
-fort_15th = yes
 is_city = yes
 center_of_trade = 1
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -27,4 +24,4 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

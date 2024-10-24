@@ -1,24 +1,20 @@
 #281 - Podolia
 #Region - Ruthenia
 #Area - Podolia Volhynia
-
 owner = KIE
 controller = KIE
 add_core = KIE
 culture = ruthenian
 religion = orthodox
-hre = no
-base_tax = 3 
-base_production = 3 
-trade_goods = bt_trade_good_beer 
-base_manpower = 1 
+base_tax = 3
+base_production = 3
+trade_goods = bt_trade_good_beer
+base_manpower = 1
 capital = "Kamianets"
 is_city = yes
 #fort_15th = yes #Kamianets-Podilskyi Castle, Khotyn Fortress
-
 #extra_cost = 8
 #center_of_trade = 1
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -30,4 +26,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

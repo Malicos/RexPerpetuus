@@ -1,28 +1,24 @@
 #279 - Rowne
 #Region - Ruthenia
 #Area - Podolia Volhynia
-
 owner = KIE
 controller = KIE
 add_core = KIE
 culture = ruthenian
 religion = orthodox
-hre = no
-base_tax = 3 
-base_production = 3 
+base_tax = 3
+base_production = 3
 trade_goods = iron
-base_manpower = 1 
+base_manpower = 1
 capital = "Rowne"
 is_city = yes
 add_local_autonomy = 15
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

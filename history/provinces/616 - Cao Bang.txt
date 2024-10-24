@@ -1,5 +1,4 @@
 #616 - Cao Bang
-
 owner = DAI
 controller = DAI
 add_core = DAI
@@ -7,13 +6,12 @@ culture = zhuang
 religion = mahayana
 capital = "Cao Bang"
 trade_goods = grain
-hre = no
 base_tax = 6
 base_production = 6
 base_manpower = 5
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

@@ -1,23 +1,20 @@
 #BT Italy reoverhaul
-
-owner = MOD # taken by the Este in 1289
+owner = MOD# taken by the Este in 1289
 controller = MOD
 add_core = MOD
 add_core = RGO
 culture = italkim
 religion = jewish
-capital = "Reggio"	#Emilia. Often not included in the earlier periods, I understand, as the other Reggio was always in a different country.
+capital = "Reggio"#Emilia. Often not included in the earlier periods, I understand, as the other Reggio was always in a different country.
 base_tax = 6
 base_production = 6
 base_manpower = 4
-trade_goods = livestock # cheese, home to Parmegianno Reggiano, one of the most famous cheeses in the world
+trade_goods = livestock# cheese, home to Parmegianno Reggiano, one of the most famous cheeses in the world
 is_city = yes
 hre = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

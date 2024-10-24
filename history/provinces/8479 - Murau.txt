@@ -1,40 +1,29 @@
 #8479 - Murau
 #Area - 
 #Region - 
-
 #Core Details
 capital = "Murau"
 is_city = yes
 owner = STY
 controller = STY
-
 #Demographics
 culture = bavarian
 religion = catholic
-
 #Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 2
-trade_goods = bt_trade_good_beer	#Velius: Brewing tradition established in 15th century
-
+trade_goods = bt_trade_good_beer#Velius: Brewing tradition established in 15th century
 #Cores and Occupation (Alphabetical after current)
 add_core = STY
-
 #Other Political
 hre = yes
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories 

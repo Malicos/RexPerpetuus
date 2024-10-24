@@ -1,23 +1,19 @@
 #BT Italy reoverhaul
-
 owner = PAP
 controller = PAP
 add_core = PAP
 add_core = ALT
 culture = umbrian
 religion = catholic
-capital = "Alatri"	#Much more important than modern Frosinone
+capital = "Alatri"#Much more important than modern Frosinone
 base_tax = 5
 base_production = 4
 base_manpower = 3
-trade_goods = bt_trade_good_fruit #rich agriculturally, but mostly a placeholder for Olives
+trade_goods = bt_trade_good_fruit#rich agriculturally, but mostly a placeholder for Olives
 is_city = yes
-hre = no
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

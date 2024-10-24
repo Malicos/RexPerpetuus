@@ -1,21 +1,18 @@
- 
 # ex 8588
-
 owner = KHM
 controller = KHM
 add_core = KHM
 add_core = CHK
 culture = kuy
 religion = animism
-capital = "Salavan" # BT; "Xekong"
+capital = "Salavan"# BT; "Xekong"
 is_city = yes
-hre = no
-base_tax = 2 
+base_tax = 2
 base_production = 2
 base_manpower = 1
-trade_goods = tea # BT; ivory
-
+trade_goods = tea# BT; ivory
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

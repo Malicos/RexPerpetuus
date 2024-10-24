@@ -1,20 +1,16 @@
 #254 - Poznan
-
 owner = POL
 controller = POL
 add_core = POL
 capital = "Poznan"
 culture = polish
 religion = catholic
-trade_goods = fur #Was salt before. Not sure why, can't find any info on it.
-hre = no
+trade_goods = fur#Was salt before. Not sure why, can't find any info on it.
 base_tax = 5
 base_production = 4
 base_manpower = 3
 is_city = yes
 center_of_trade = 1
-fort_15th = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,4 +22,4 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

@@ -13,8 +13,7 @@ religion = catholic
 base_tax = 3
 base_production = 2
 base_manpower = 2
-trade_goods = iron#Velius: major centre of iron and steel production
-#Cores and Occupation (Alphabetical after current)
+trade_goods = iron#Cores and Occupation (Alphabetical after current)
 add_core = AUT
 add_core = KLE
 #Other Political
@@ -25,6 +24,5 @@ hre = yes
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

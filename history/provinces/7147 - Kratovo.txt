@@ -1,19 +1,16 @@
 #BT Balkans reoverhaul
-
 owner = BUL
 controller = BUL
 add_core = BUL
 add_core = MDN
-culture = bulgarian			#Niki emphatically notes this region was Serbian
+culture = bulgarian#Niki emphatically notes this region was Serbian
 religion = orthodox
 capital = "Kratovo"
 base_tax = 2
 base_production = 3
 base_manpower = 1
-trade_goods = gold			#Gold, silver, lead, iron and copper, massively important mining region in the early period, and only a bit less so later on.
+trade_goods = gold#Gold, silver, lead, iron and copper, massively important mining region in the early period, and only a bit less so later on.
 is_city = yes
-hre = no
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -22,9 +19,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western
-
-#Province modifier for the mines.

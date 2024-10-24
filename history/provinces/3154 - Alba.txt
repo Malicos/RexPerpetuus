@@ -1,19 +1,16 @@
 #3154 - Alba/Fehér
-
 owner = HUN
 controller = HUN
 add_core = HUN
 add_core = TRA
 culture = transylvanian
 religion = orthodox
-capital = "Aiud" #"Alba Iulia"
-trade_goods = bt_trade_good_silver #BT Harb changed with new trade good
-hre = no
+capital = "Aiud"#"Alba Iulia"
+trade_goods = bt_trade_good_silver#BT Harb changed with new trade good
 base_tax = 2
-base_production = 2 
-base_manpower = 1 
+base_production = 2
+base_manpower = 1
 is_city = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -25,4 +22,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman

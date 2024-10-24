@@ -1,5 +1,4 @@
 #2746 - Vidin
-
 owner = BUL
 controller = BUL
 add_core = BUL
@@ -7,15 +6,11 @@ culture = bulgarian
 religion = orthodox
 capital = "Vidin"
 trade_goods = grain
-hre = no
 base_tax = 5
-base_production = 4			#Important city to everyone
+base_production = 4#Important city to everyone
 base_manpower = 3
 is_city = yes
-fort_15th = yes
-add_local_autonomy = 65			#Went to Serbia in the early 1290s, but almost in name only. Pretty much ignored (and ignored by) Serbia.
-
-
+add_local_autonomy = 65#Went to Serbia in the early 1290s, but almost in name only. Pretty much ignored (and ignored by) Serbia.
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -27,7 +22,6 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-
 extra_cost = 16
 center_of_trade = 2
+fort_15th = yes

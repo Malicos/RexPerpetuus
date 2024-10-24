@@ -1,7 +1,6 @@
 #3085 - Nimes
 #Region - France
 #Area - Languedoc
-
 owner = TOU
 controller = TOU
 add_core = TOU
@@ -10,16 +9,13 @@ capital = "Nîmes"
 is_city = yes
 culture = occitain
 religion = cathar
-hre = no
 base_tax = 7
 base_production = 7
-trade_goods = cloth			#Eventual origin of demin, though it seems this was a late 19th century matter? Also a lot of olives
-base_manpower = 4 
-
+trade_goods = cloth#Eventual origin of demin, though it seems this was a late 19th century matter? Also a lot of olives
+base_manpower = 4
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

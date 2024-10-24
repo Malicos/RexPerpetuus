@@ -13,7 +13,6 @@ base_production = 10
 discovered_by = east_african
 discovered_by = indian
 discovered_by = muslim_tech
-discovered_by = ottoman
 discovered_by = central_african
 extra_cost = 16
 center_of_trade = 2

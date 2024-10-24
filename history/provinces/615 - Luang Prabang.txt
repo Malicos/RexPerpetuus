@@ -1,5 +1,4 @@
 #615 - Luang Prabang
-
 owner = XTG
 controller = XTG
 add_core = XTG
@@ -7,13 +6,12 @@ culture = lao
 religion = buddhism
 capital = "Xieng Tong"
 trade_goods = chinaware
-hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 5
 is_city = yes
-
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman

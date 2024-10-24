@@ -1,5 +1,4 @@
 #3186 - Timocka
-
 owner = BUL
 controller = BUL
 add_core = BUL
@@ -8,13 +7,10 @@ culture = serbian
 religion = orthodox
 capital = "Branicevo"
 trade_goods = bt_trade_good_apiculture
-hre = no
-base_tax = 3 
+base_tax = 3
 base_production = 3
-base_manpower = 4 
+base_manpower = 4
 is_city = yes
-fort_15th = yes
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,4 +22,4 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

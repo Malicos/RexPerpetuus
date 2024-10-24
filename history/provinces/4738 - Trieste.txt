@@ -1,7 +1,6 @@
 #4738 - Trieste
 #Region - Germany
 #Area - Carniola
-
 owner = TST
 controller = TST
 add_core = TST
@@ -9,21 +8,18 @@ add_core = AQU
 culture = istriot_culture
 religion = catholic
 capital = "Trieste"
-trade_goods = naval_supplies #Major Shipbuilding Centre
+trade_goods = naval_supplies#Major Shipbuilding Centre
 hre = yes
 base_tax = 7
-base_production = 7			#In the 1200s, Trieste was a centre to rival Venice, Ancona, Pisa, or Genoa, but wasn't able to maintain this influence, and was already on the decline after the Venetian occupation in 1283-1287.
+base_production = 7#In the 1200s, Trieste was a centre to rival Venice, Ancona, Pisa, or Genoa, but wasn't able to maintain this influence, and was already on the decline after the Venetian occupation in 1283-1287.
 base_manpower = 3
 is_city = yes
-fort_15th = yes
-
 extra_cost = 8
 center_of_trade = 1
-
 discovered_by = western
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
+fort_15th = yes

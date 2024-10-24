@@ -1,40 +1,29 @@
 #8473 - Laa
 #Area - 
 #Region - 
-
 #Core Details
 capital = "Laa"
 is_city = yes
 owner = HAB
 controller = HAB
-
 #Demographics
 culture = bavarian
 religion = catholic
-
 #Development and Trade
 base_tax = 2
 base_production = 1
 base_manpower = 1
-trade_goods = bt_trade_good_beer	#Velius: Granted the privilege of brewing in 1454
-
+trade_goods = bt_trade_good_beer#Velius: Granted the privilege of brewing in 1454
 #Cores and Occupation (Alphabetical after current)
 add_core = HAB
-
 #Other Political
 hre = yes
-
 #Fort/Other Buildings
-
 #Special Modifiers
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
-
-#Histories 

@@ -17,7 +17,6 @@ discovered_by = rhomanian_tech
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
-discovered_by = ottoman
 extra_cost = 40
 center_of_trade = 3
 fort_15th = yes

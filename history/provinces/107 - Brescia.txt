@@ -1,24 +1,21 @@
 #107 - Brescia
 #Region - Italy
 #Area - Lombardy
-
 owner = BSC
 controller = BSC
 add_core = BSC
-culture = lombard 
-religion = catholic 
-hre = yes 
+culture = lombard
+religion = catholic
+hre = yes
 base_tax = 8
 base_production = 8
-trade_goods = wine			#cloth in vanilla, but I found no evidence? Anyways, Wine, Olives and Caviar/Fish are the most important, with Wine leading
+trade_goods = wine#cloth in vanilla, but I found no evidence? Anyways, Wine, Olives and Caviar/Fish are the most important, with Wine leading
 base_manpower = 5
-capital = "Brescia" 
+capital = "Brescia"
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

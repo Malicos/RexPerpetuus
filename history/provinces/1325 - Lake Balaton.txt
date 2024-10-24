@@ -1,6 +1,3 @@
-
-
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -12,5 +9,3 @@ discovered_by = rhomanian_tech
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
-

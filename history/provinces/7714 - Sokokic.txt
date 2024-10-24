@@ -1,19 +1,16 @@
 #BT Balkans reoverhaul
-
 owner = BUL
 controller = BUL
 add_core = BUL
 culture = bulgarian
 religion = orthodox
-capital = "Sokokic"			#Sokokic or Zajecar. These are both painfully small and really we only have a province here for the borders... nothing here deserves a province in any way
+capital = "Sokokic"#Sokokic or Zajecar. These are both painfully small and really we only have a province here for the borders... nothing here deserves a province in any way
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = livestock			#one of the poorest provinces in Balkans, no settlements until 19th century to speak off
+trade_goods = livestock#one of the poorest provinces in Balkans, no settlements until 19th century to speak off
 is_city = yes
-hre = no
 add_local_autonomy = 10
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -22,7 +19,6 @@ discovered_by = QAS
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech
 discovered_by = western

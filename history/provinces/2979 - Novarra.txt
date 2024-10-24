@@ -1,24 +1,20 @@
 # - Novara
 #Region - Italy
 #Area - Piedmont
-
 owner = LOM
 controller = LOM
 add_core = LOM
 culture = lombard
 religion = waldensian
-hre = no
 base_tax = 5
 base_production = 5
-trade_goods = grain			#in Vercelli and Novara, the economy is based on the cultivation of rice
+trade_goods = grain#in Vercelli and Novara, the economy is based on the cultivation of rice
 base_manpower = 3
 capital = "Novara"
-is_city = yes	# Estimated
-
+is_city = yes# Estimated
 discovered_by = western
 discovered_by = muslim_tech
 discovered_by = maghrebi_tech
 discovered_by = iranian_tech
-discovered_by = ottoman
 discovered_by = eastern
 discovered_by = rhomanian_tech

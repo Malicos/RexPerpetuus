@@ -1,21 +1,18 @@
- 
 # ex 8617
-
 owner = DAI
 controller = DAI
 add_core = DAI
 add_core = XTG
 culture = lao
-religion = buddhism # BT; 
+religion = buddhism# BT; 
 capital = "Muang Ngoi"
 is_city = yes
-hre = no
-base_tax = 3 # BT; 2
-base_production = 3 # BT; 2
-base_manpower = 2 # BT; 1
-trade_goods = livestock # BT; ivory
-
+base_tax = 3# BT; 2
+base_production = 3# BT; 2
+base_manpower = 2# BT; 1
+trade_goods = livestock# BT; ivory
 discovered_by = chinese
 discovered_by = japanese_group
 discovered_by = southeast_asian_group
 discovered_by = indian
+discovered_by = ottoman
